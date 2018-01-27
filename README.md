@@ -51,6 +51,16 @@ other group.
 * for each post a file will be writen with the post object converted to YAML,
   file name is the post ID
 
+## Updating `posts` Directory
+
+* fork this repository
+* clone it to your machine
+* create a branch
+* run `download` script
+* keep it running for couple pages then kill it
+* commit all new posts
+* open a PR with your update
+
 ## Using this download script for other groups
 
 * Fork this repository
