@@ -37,7 +37,7 @@ other group.
 * Execute `download` at well
 
   ```shell
-  ./download
+  env `cat .env` ./download
   ```
 
 ## How it works
