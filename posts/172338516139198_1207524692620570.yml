@@ -1,0 +1,153 @@
+---
+message: عن الفرق بين الاثنين
+link: http://scs-architecture.org/vs-ms.html
+from:
+  name: Ahmed Mozaly
+  id: '10155321930231313'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQBnLLfMfLvixZCU&w=130&h=130&url=http%3A%2F%2Fscs-architecture.org%2Fimg%2Fsystem-of-systems-scs.png&cfs=1&_nc_hash=AQAYRWjs1J1jQ-JA
+created_time: '2016-08-18T12:16:24+0000'
+updated_time: '2016-08-18T22:35:45+0000'
+name: SCS - Self-Contained Systems - SCS vs. Microservices
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1207524692620570/
+id: '172338516139198_1207524692620570'
+reactions:
+  data:
+  - id: '1596110217148252'
+    name: Ahmed Badawy
+    type: LIKE
+  - id: '10156077256184116'
+    name: Mustafa Gamal
+    type: LIKE
+  - id: '2077007312536296'
+    name: Ahmed Hosny
+    type: LIKE
+  - id: '10155000180792102'
+    name: Amr Salah Eldin
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlORGM0Tmpnd09EVTJPakUwTnpFMU5qVXlNemM2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TmpnM05EZA3lNVEF4T2pFME56RTFNak15TnpFNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-08-18T12:18:01+0000'
+    from:
+      name: Ahmed Mozaly
+      id: '10155321930231313'
+    message: |-
+      وديه تجربة عملية بدأت من ال Self Contained Systesm ثم وصلت إلي ال Microservices
+
+      https://dev.otto.de/2016/03/20/why-microservices/
+    id: '1207525415953831'
+  - created_time: '2016-08-18T13:07:38+0000'
+    from:
+      name: Ahmed Hosny
+      id: '2077007312536296'
+    message: Is it possible to have framework that implement SCS ? I feel like building
+      the system using single framework is against SCS somehow ?
+    id: '1207549855951387'
+  - created_time: '2016-08-18T13:12:55+0000'
+    from:
+      name: Ahmed Mozaly
+      id: '10155321930231313'
+    message: "SCS is not about the internal implementation of any system (technics,
+      frameworks or tools) it is about breaking big giant monolith system into multiple
+      self-contained ones\n\nthis is a very good story which can clarify the difference
+      \nhttps://www.innoq.com/en/blog/lvm-roca-vs-spa/"
+    id: '1207552289284477'
+  - created_time: '2016-08-18T13:15:54+0000'
+    from:
+      name: Ahmed Hosny
+      id: '2077007312536296'
+    message: Thanks for clarifications
+    id: '1207553802617659'
+  - created_time: '2016-08-18T14:23:12+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: The problem with throwing these concepts around in my experience has
+      been that there needs to be a lot of background knowledge as well as business
+      knowledge to have even a glimmer of hope of success and it needs an Architecture
+      organization to manage the governance in an enterprise. IN places like Egypt
+      where most enterprises just need an ERP and a web site, this will be over-engineering
+      and will lead to a risk. If you work for a software house and they are developing
+      a system for an Enterprise, then they must have on board Architects with a vision,
+      a transitional architecture and a governance model, and moreover a deep understanding
+      of the business vertical and the concepts of DDD, Enterprise Integration patterns
+      and Solution Architecture. This is non-existant in the vast majority of mid
+      east companies and especially in Egypt,
+    id: '1207593895946983'
+  - created_time: '2016-08-18T14:38:07+0000'
+    from:
+      name: Ahmed Mozaly
+      id: '10155321930231313'
+    message: "Anyone in Egypt today, doesn't mean he will be in Egypt tomorrow\n\nWe
+      should not limit our self from knowledge gaining /sharing due to our current
+      context, \n\nWe gain knowledge to change it"
+    id: '1207600755946297'
+  - created_time: '2016-08-18T17:32:24+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: Not against gaining knowledge and I totally hope that IN EGYPT this stuff
+      can be done, the issue is the management of the enterprise has to be mature
+      enough for this. They need to be mature in creating visions, transitions and
+      governance, all of which the vast majority are not, Then come the techies who
+      wonder why the latest group of articles, although they seem totally logical
+      cannot be implemented in their "applications", the point I am making is that
+      SOA, Microservices, Reactive Architecture are at the Enterprise Architecture
+      scope and unless that level of oversight and knowledge exists, which in 99.9%
+      of cases (the 0.1% being the ones that might exist) does not exist, then hoping
+      to implement microservices is just a dream or a shot in the dark. You need a
+      strong mature business enterprise, strong mature management, strong mature technical
+      leadership and competent Enterprise Architects, which would have to have at
+      least one leader with real Enterprise Architecture experience. We are also talking
+      about implementations in the millions of dollars, so that rules out all but
+      the very largest Enterprises which might be your cell phone providers and I
+      am sure their Architects come from the mother company.
+    id: '1207728939266812'
+  - created_time: '2016-08-18T17:51:13+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: I am just clarifying so that when we have dreams and run into this lack
+      of ability to implement what is in the book due to push back from management
+      or an ignorant PM like I have run into multiple times, we understand why. One
+      PM fought my SOA architecture for a system and supported by management thought
+      she could do the work the "simple way", a month later she walks in crying to
+      the team saying she failed because she was rejected by the techies at the customer
+      side and 6 months later the project failed, as a repetitive story it helps to
+      understand why that was and why the managers seem so blind, and the real answer
+      to that is lack of experience and knowledge or ignorance in one word, from the
+      techie side, it is lack of business understanding and lack of ability to sell
+      the merits of the Architecture when he is not being taken seriously as just
+      a techie, because in Egypt either you are a techie or a business guy and you
+      can't be both, we get to the point that people display their ignorance or technology
+      to prove they are business people, one of our major misconceptions that has
+      led to paralysis of the IT industry, the hope is for enlightened techies who
+      understand business.
+    id: '1207739552599084'
+  - created_time: '2016-08-18T22:35:40+0000'
+    from:
+      name: Abd El Rhman Ahmed
+      id: '10214901654953185'
+    message: Microservices = Agile Arctechture ,is it  ?
+    id: '1207889669250739'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl3TnpVeU5UUXhOVGsxTXpnek1Ub3hORGN4TlRJeU5qZA3oZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl3TnpnNE9UWTJPVEkxTURjek9Ub3hORGN4TlRVNU56UXgZD
+attachments:
+  data:
+  - description: Comparison of microservices and Self-contained Systems (SCS)
+    media:
+      image:
+        height: 285
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQDrigd8hUgLhJFK&w=720&h=720&url=http%3A%2F%2Fscs-architecture.org%2Fimg%2Fsystem-of-systems-scs.png&cfs=1&_nc_hash=AQDFrhPMLJvLlXBy
+        width: 285
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fscs-architecture.org%2Fvs-ms.html&h=ATNliqzQlfyDoZ2rEl2MfbINpNPkr7pWrcPj6oyUW__HzKVKYbFdXSSKpIZSTfTM5VCXbsYpxPowtbEY1HLHBM7gWY0fQfR9A3RQ&s=1&enc=AZMhrz20HFHZUSIkHDK4E8O1yZ40QariRy3JDCSl56VORtgBAVUmCXz7a2Pl8jmlp_lImqqjgqNJtPEC_wiJZA1u
+    title: SCS - Self-Contained Systems - SCS vs. Microservices
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fscs-architecture.org%2Fvs-ms.html&h=ATNliqzQlfyDoZ2rEl2MfbINpNPkr7pWrcPj6oyUW__HzKVKYbFdXSSKpIZSTfTM5VCXbsYpxPowtbEY1HLHBM7gWY0fQfR9A3RQ&s=1&enc=AZMhrz20HFHZUSIkHDK4E8O1yZ40QariRy3JDCSl56VORtgBAVUmCXz7a2Pl8jmlp_lImqqjgqNJtPEC_wiJZA1u

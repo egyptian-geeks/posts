@@ -1,0 +1,69 @@
+---
+message: |-
+  Hi,
+  I'm working on android application which needs to collect some data about Careem drivers and riders so I searched a lot about it's API to do that but I couldn't find anything about it!
+  However I found Uber provides such a great API with good documentation.
+  Do you have any idea about Careem API?
+  Thanks in advance!
+from:
+  name: Mohamed Hashim
+  id: '1824047834273067'
+type: status
+created_time: '2017-07-03T23:18:22+0000'
+updated_time: '2017-07-04T12:37:53+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1536178049755231/
+id: '172338516139198_1536178049755231'
+reactions:
+  data:
+  - id: '2016811668536304'
+    name: Mohamed Okasha
+    type: LIKE
+  - id: '595477687454076'
+    name: Saher Abdelaziz
+    type: LIKE
+  - id: '10215489165042760'
+    name: Ahmed Ashraf Gamal
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTJNakkwTnpBek5qRTVPakUwT1RreE5USTNNams2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRJME56WTFOREkzTVRveE5EazVNVEkwTXprd09qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2017-07-03T23:27:03+0000'
+    from:
+      name: احمد قرواش
+      id: '1561022257326859'
+    message: |-
+      في حاله ان السيرفيس ديه مش بتوفر ليك API قدامك حلين
+      1) انسي الموضوع عشان ممكن يدخلك في مشاكل قانونية ربما
+      2) اعمل انت شغلك بنفسك من 0 ابدأ تست وحلل واوصل ل URL بنفسك
+      ادرس طبيعية الاستجابة والردود
+      ادرس ال Headers الي بتروح عشان تحاكي اكنك يوزر فعلا عندهم مش جهة خارجية بتحاول توصل بشكل غير قانوني.
+
+      وانت وراحتك بقي الموضوع متعب شوية بس سهل يتعمل
+      فهمك ل http request هو الحل بس مش اكتر
+
+      ديه الحلول الي انا بتبعها ولو في حد عنده اضافة ياريت يضيفها
+      ولو كلامي فيه غلط ممكن تفيدني وتصلح الخطأ فين
+    id: '1536183593088010'
+  - created_time: '2017-07-03T23:35:13+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: |-
+      If Careem provides a public API then you will find its documentation on their "developer" reference, other than that you are reverse engineering their private api
+
+      BTW which data you intend to collect and how would it be collected? Is it data for individual drivers/riders app connections by tracking / sniffing requests? or data that may publicly released by Careem themselves via a public api?
+    id: '1536188479754188'
+  - created_time: '2017-07-04T12:37:50+0000'
+    from:
+      name: George Moheb
+      id: '10210440074417898'
+    message: u could reverse engineer and find out the api endpoints, bs this could
+      create a legal issue with careem
+    id: '1536740659698970'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV6TmpFNE16VTVNekE0T0RBeE1Eb3hORGs1TVRJME5ESXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV6TmpjME1EWTFPVFk1T0RrM01Eb3hORGs1TVRjeE9EY3cZD

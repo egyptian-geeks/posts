@@ -1,0 +1,122 @@
+---
+message: |-
+  ( Help in Solution )
+
+  - a website with videos are not free , only users can pay for a membership ..
+
+  - how can i prevent users from (Stealing) recording screen and Stealing videos !!
+  (JavaScript / CSS / jQuery / or anything)
+from:
+  name: Abdullah Zaki
+  id: '1808169382560837'
+type: status
+created_time: '2017-07-08T15:28:11+0000'
+updated_time: '2017-07-10T01:41:56+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1541239212582448/
+id: '172338516139198_1541239212582448'
+comments:
+  data:
+  - created_time: '2017-07-08T15:33:27+0000'
+    from:
+      name: Mahmoud Hossam
+      id: '1360912124012585'
+    message: |-
+      If I pay for something, I expect to own it.
+
+      I can stream the video, download it, or do whatever I want with it.
+
+      As for your question, I don't think there's anything you can do inside a browser that prevents me from running screen capture software on my own computer simply because the browser doesn't have access to the list of processes running on the computer.
+    id: '1541242769248759'
+  - created_time: '2017-07-08T15:35:18+0000'
+    from:
+      name: Ahmad Bahaa
+      id: '1985598625095777'
+    message: "Technically, if it can be viewed, it can be recorded. Period \U0001F60A"
+    id: '1541244979248538'
+  - created_time: '2017-07-08T15:39:00+0000'
+    from:
+      name: Dina Reda
+      id: '10155123895506641'
+    message: If it is on my screen, I can do anything with it .. u can't prevent
+    id: '1541247362581633'
+  - created_time: '2017-07-08T15:39:09+0000'
+    from:
+      name: Bassam Abd Elhamid
+      id: '1955441501387657'
+    message: You can't, Try to use something more than just video, Interactive videos
+      for example  where you show questions or option on the video and user should
+      select or enter something to continue, This may work with educational material
+      like courses.
+    id: '1541247545914948'
+  - created_time: '2017-07-08T15:39:51+0000'
+    from:
+      name: Ahmed Aboud
+      id: '2092278087454643'
+    message: كان في video player في حاجة بال javascript بتمنع انك لما تعمل right-click
+      يظهر save as بس لما تقفل ال js بتعرف تنزل الفيديو عادي دا اقصي حاجة تقريبا تقدر
+      تعملها حماية شبهه معدومة
+    id: '1541247922581577'
+  - created_time: '2017-07-08T15:53:23+0000'
+    from:
+      name: Ahmed M. Anan
+      id: '2036289513285931'
+    message: انا اشتغلت على الموضوع ده من فترة , تقدر تمنع اى حد من تحميل الفيديو
+      من browser عادى لكن استحالة تمنع الـ  screen recorder
+    id: '1541258355913867'
+  - created_time: '2017-07-08T16:13:12+0000'
+    from:
+      name: Abdullah Zaki
+      id: '1808169382560837'
+    message: طيب انا فاكر انى كنت شوفت مش متذكر اوى كان فيديو ولا كان جيم عالنت بمجرد
+      ما اضغط بالماوس على حاجة غيرها المحتوى دا بيجيب شاشه سودا .. فهل بنفس الفكرة
+      ممكن اعمل حاجة انه لو الفوكس اتشال من الفيديو يقف .. ؟؟
+    id: '1541273065912396'
+  - created_time: '2017-07-08T18:19:13+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: To make long story short, u cant :)
+    id: '1541377385901964'
+  - created_time: '2017-07-08T19:24:51+0000'
+    from:
+      name: Alaa Ezzat
+      id: '10156074051141565'
+    message: "المنع بشكل نهائي شبه مستحيل، اخرك ان تصعب التسجيل\n\nبس الحل الامثل
+      مش انك تمنعه و انما انك تحط \nHidden signature \nفي وسط حتت من الفيديو تحدد
+      شخصية الشخص اليوزر ده، بحيث ان لو الفيديوهات دي اترفعت تقدر ترفع قضيه عليه"
+    id: '1541427429230293'
+  - created_time: '2017-07-08T21:54:17+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: Actually it is possible to prevent screen capture, you'll have to use
+      the DRM system that Netflix uses (I tried taking a screenshot of a Netflix video
+      and it was all black!), I have no idea how they do it though :D
+    id: '1541534465886256'
+  - created_time: '2017-07-08T22:06:41+0000'
+    from:
+      name: Ashraf Gawdat
+      id: '10154826556046618'
+    message: أنا مش أحسن واحد افيدك بس في tool بتداونلود من pluralsight عادي .. فلو
+      كان في وسيلة للمنع كانوا عملوها هم .. فأعتقد المنع التام شبه مستحيل لكن الفكرة
+      في التصعيب
+    id: '1541543715885331'
+  - created_time: '2017-07-10T01:29:26+0000'
+    from:
+      name: Ahmed Atef
+      id: '10215057553296111'
+    message: "Full prevention is impossible.\n\nBy2olk, if you can stream it you can
+      download it. SoundCloud fought for that for long, bas there was always a way.
+      Spotify made their own encryption, bas still there are ways (bas you might lose
+      quality).\n\nFor the videos, if i really want to steal your content, I can.
+      Hassan said they made sth in the browser, but I can play the video on a vm and
+      capture the whole vm, and in that case i got it, high resolution (my monitor's).\n\nYou
+      can only make it harder, but you can never ever be sure you prevented it. \n\nJust
+      go by making it reasonably harder​ to steal, remember not everyone will want
+      to steal your content, and also not everyone is a geek (has the ability to do
+      so)"
+    id: '1542762765763426'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUwTVRJME1qYzJPVEkwT0RjMU9Ub3hORGs1TlRJNE1EQTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUwTWpjMk1qYzJOVGMyTXpReU5qb3hORGs1TmpVd01UWTIZD

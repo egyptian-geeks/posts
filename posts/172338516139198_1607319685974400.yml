@@ -1,0 +1,46 @@
+---
+message: "لو سحمتو هل فيه الجوريزم تقدر تكتشفلي تطابق الاسماء بين ملفين اكسيل \n(
+  تطابق كلي أو جزئي) .\nمثال :-\n- محمد مصطفي احمد = محمد مصطفي احمد \n- محمد مصطفي
+  احمد = محمد مصطفي احمد محمد\n- محمد مصطفي احمد = محمد مصطفي 55 احمد\n- محمد مصطفي
+  احمد = محمود مصطفي احمد"
+from:
+  name: Mohammed Khaled Abd El-karem
+  id: '2257381821155458'
+type: status
+created_time: '2017-09-15T03:59:13+0000'
+updated_time: '2017-09-15T15:23:06+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1607319685974400/
+id: '172338516139198_1607319685974400'
+comments:
+  data:
+  - created_time: '2017-09-15T04:09:02+0000'
+    from:
+      name: Ahmed Shahin
+      id: '10155514327198323'
+    message: |-
+      https://www.google.nl/url?sa=t&source=web&rct=j&url=https://en.m.wikipedia.org/wiki/Levenshtein_distance&ved=0ahUKEwjv88u0qKbWAhXHJVAKHQ4uBE0QFgg0MAI&usg=AFQjCNGErB1aoQys-_AM_dANLuLp3GF0IQ
+
+      This is a good text similarity algorithm.. and many ppl already implemented it in several languages.. u will just include a libraty and use it.. your job then is just to add the code to read the excel sheet and loop throught rows..
+    id: '1607324449307257'
+  - created_time: '2017-09-15T08:09:57+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "انت ممكن تعمل نورماليزيشن الاول وبعدين في الاكسيل تقارن ب vlookup\nنورماليزيشن
+      بمعنى مثلا انك تستبدل اي همزة بالف من غير همزة و اي  ى ب ي مثلا.. سواء بقى بماكرو
+      او حتى مانيوال..\nهل في تشابه تاني بتدور عليه؟\nعلى فكرة دالة vlookup او طريقة
+      index match جوة الاكسيل فيها اوبشن exact match او لا \nبس لازم ترتب الليستة
+      ابجدي في الحالة دي لو مش هنعمل exact match"
+    id: '1607437332629302'
+  - created_time: '2017-09-15T08:12:35+0000'
+    from:
+      name: Abdelrahman El Kinani
+      id: '10213802216302674'
+    message: |-
+      google this: text similarity library unicode
+      then as Ahmed Shahin said, you will have to write the code that extracts rows from the excel file.
+    id: '1607438372629198'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl3TnpNeU5EUTBPVE13TnpJMU56b3hOVEExTkRRNE5UUTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl3TnpRek9ETTNNall5T1RFNU9Eb3hOVEExTkRZAek1UVTEZD

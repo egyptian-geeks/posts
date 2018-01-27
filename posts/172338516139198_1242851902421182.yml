@@ -1,0 +1,103 @@
+---
+message: "Hello Geeks, \nCan i have a recommendation for a good book to learn Spring
+  framework ? \nThanks in advance :))"
+from:
+  name: A Taha ElAnsary
+  id: '10159814040690403'
+type: status
+created_time: '2016-09-27T08:14:23+0000'
+updated_time: '2016-09-27T13:19:57+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1242851902421182/
+id: '172338516139198_1242851902421182'
+reactions:
+  data:
+  - id: '383542948774034'
+    name: Mostafa Fotoh
+    type: LIKE
+  - id: '10155923396620185'
+    name: Amr Nassar
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01ERXpOVFE1T1RVeU1UQXdPakUwTnpVd01UWTVOVE02TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TlRNMU9UVTFNVGcwT2pFME56UTVPREU0T1RjNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-09-27T13:00:40+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: Muhammad Al Rabbani is the Spring guy, he always talks about it :D
+    id: '1243005752405797'
+  - created_time: '2016-09-27T13:12:49+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: Tutorial  https://spring.io/guides/gs/spring-boot/
+    id: '1243014525738253'
+  - created_time: '2016-09-27T13:14:11+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: 'Book: Spring Boot in Action'
+    id: '1243015155738190'
+  - created_time: '2016-09-27T13:14:55+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: Personally, I would check out eclipse che if you are a linux guy, cause
+      it will most probably have a few starters for you
+    id: '1243015539071485'
+  - created_time: '2016-09-27T13:14:57+0000'
+    from:
+      name: A Taha ElAnsary
+      id: '10159814040690403'
+    message: Thanks man
+    id: '1243015559071483'
+  - created_time: '2016-09-27T13:15:54+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: and save your time, don't just download eclipse, download eclipse for
+      Spring preconfigured https://spring.io/tools/sts/all
+    id: '1243016035738102'
+  - created_time: '2016-09-27T13:16:19+0000'
+    from:
+      name: A Taha ElAnsary
+      id: '10159814040690403'
+    message: Perfect!
+    id: '1243016289071410'
+  - created_time: '2016-09-27T13:17:25+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: Try to use samples and build off of that, what will waste your time the
+      most is getting over the configuration, so Spring.xml and maven, that is why
+      I recommend using a simple project with a sample already configured and add
+      to that.
+    id: '1243017035738002'
+  - created_time: '2016-09-27T13:18:39+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: And if you're visual like me https://www.udemy.com/spring-boot-getting-started/
+    id: '1243018045737901'
+  - created_time: '2016-09-27T13:19:26+0000'
+    from:
+      name: A Taha ElAnsary
+      id: '10159814040690403'
+    message: "Thanks a lot! You are the man \U0001F44D\U0001F3FE\U0001F44D\U0001F3FE"
+    id: '1243018579071181'
+  - created_time: '2016-09-27T13:19:56+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: Just make sure you understand what everything does and the concept of
+      the front controller for MVC. Also that MVC is only a part of Spring, look at
+      how it does dependency injection and how the FW gets started. Start slow and
+      learn the details because it does have a lot of them.
+    id: '1243018969071142'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkwTXpBd05UYzFNalF3TlRjNU56b3hORGMwT1RneE1qUXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkwTXpBeE9EazJPVEEzTVRFME1qb3hORGMwT1RneU16azIZD

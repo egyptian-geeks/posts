@@ -1,0 +1,117 @@
+---
+message: "السلام عليكم\nعندي استفسار بخصوص الالية الي بتمشي في الفيس بوك في عملية
+  تحديثاته.\nسمعت ان كل اسبوع في تحديثات بتنزل للفيس بوك سواء علي ال mobile app او
+  wep app\nطيب عملية التحديث بتم ازاي بدون ما يحصل توقف لل services الي بتبقي شغاله.\n\nيعني
+  انا دلوقتي بعمل web services وعاوز التحديثات بنفس السرد الي بيحصل في الفيس بوك بحيث
+  ال services الي شغاله عندي مش يحصل ليها توقف.\n\nانا بستخدم SOAP WCF للسيرفريس والكلاينت
+  عندي ASP.NET MVC \nايه المفترض اطبقه او اتعلمه بحيث يبقي عندي نفس الميزة ديه."
+from:
+  name: احمد قرواش
+  id: '1561022257326859'
+type: status
+created_time: '2017-02-17T03:12:28+0000'
+updated_time: '2017-02-25T20:36:34+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1390672377639133/
+shares:
+  count: 1
+id: '172338516139198_1390672377639133'
+reactions:
+  data:
+  - id: '10156115350739764'
+    name: Mahmoud Tantawy
+    type: LIKE
+  - id: '10156191099748000'
+    name: Shady Mohamed Sherif
+    type: LIKE
+  - id: '1547373045377964'
+    name: Ahmed Sayed
+    type: LIKE
+  - id: '10155903911855943'
+    name: Ahmed Soliman
+    type: LIKE
+  - id: '579803635702355'
+    name: AbdelRahman Matter
+    type: LIKE
+  - id: '10213557429243435'
+    name: Adel Aly
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRFME5UYzVOell6T2pFME9EZA3dOVFF5TkRJNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRZAek16VTFOVE01TlRveE5EZAzNNekF4TnpJNE9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2017-02-17T08:33:09+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: ال Facebook او غيره من الخدمات مش سيرفر واحد او Service واحدة، انت بتتكلم
+      في مئات الآلاف بل ملايين السيرفرات المتقسمة على مئات الخدمات المختلفة، كل خدمة
+      من دول مستقلة بذاتها، بتتطور بشكل مستقل عن باقي الخدمات، و كل خدمة من دول بيتم
+      تحديثها بشكل دوري لكن بشكل تدريجي، يعني جزء من الخدمة صغير بيجيله التحديث الاول
+      و بعد ما التحديث يثبت كفاءته و ان مفيش مشاكل فيه يبتدي سيرفرات أكثر يجيلها التحديث
+      على شكل مراحل و طول الوقت بيتم تقييم التحديث في حالة انه أدى لأي مشاكل، و لو
+      حصل اي مشكلة منه بيتم العودة تلقائيا للنسخة السابقة. الموضوع نظام هندسي معقد.
+    id: '1391029164270121'
+  - created_time: '2017-02-17T08:33:37+0000'
+    from:
+      name: Mohamed Bassem
+      id: '10212826240185281'
+    message: |-
+      الفكرة ببساطة شديدة إن أنت معندكش سيرفر واحد. إنت عندك كذا سيرفر ورا load balancer مثلا. فا أبسط حل هو قوم سيرفر جديد عليه الversion الجديدة و migrate الترافيك للسيرفر الجديد عن طريق الload balancer. طبعا ده الmodel البسيط قوي و فيه مشاكل كتير زي الداتابيز schema و الكلام ده. بس ديه الفكرة العامة.
+      و هنا واحد من الreleasers بيتكلم عنها من ناحية الquality : https://www.quora.com/How-do-big-companies-like-Facebook-Google-manage-software-releases-without-causing-system-outages-and-poor-user-experience
+    id: '1391029577603413'
+  - created_time: '2017-02-17T08:34:48+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: ممكن تدور على حاجة اسمها Continuous Delivery حتقربلك المفهوم ده شوية
+    id: '1391030064270031'
+  - created_time: '2017-02-17T08:37:01+0000'
+    from:
+      name: احمد قرواش
+      id: '1561022257326859'
+    message: انا فاهم مدي التعقيد ومستوعبه ولكن جزء ان الخاصية توصل ليه اي كان امتي
+      ولكن بدون اي انقطاع في الخدمة ده عاملي ارتباك شوية ولكن هبحث اكتر في المواضيع
+      من خلال المصطلحات الي اتقالت في التعليقات ومتشكر جدا ومستني اي اضافة برضو تفيد
+      ^_^
+    id: '1391031387603232'
+  - created_time: '2017-02-17T08:54:11+0000'
+    from:
+      name: Aly Saleh
+      id: '10157135743444899'
+    message: "Zay ma bassem 2al keda.. byb2a fe load balancer mtwsl b 2 servers akno
+      proxy, wa7d esmo production server wel tany esmo staging server. \n\nFel tabe3y
+      l traffic by3dy men el load balancer lel production server laken lama t7b te
+      deploy haga gedida bt3mlha deploy 3al staging el awl we btt2kd en kol haga sh3'ala
+      tmam we b3den men el load balancer t7awel l traffic 3al stagging.. we b3den
+      te deploy hagtak 3al production server bema en maba2ash 3lih traffic w b3d ma
+      t5ls w t-test trg3 l traffic l tany 3al production,, w keda l service mattkonsh
+      et2t3t"
+    id: '1391042807602090'
+  - created_time: '2017-02-17T16:38:46+0000'
+    from:
+      name: Ahmed Soliman
+      id: '10152402728970388'
+    message: You have some great answers here already, but since you mentioned Facebook,
+      I feel obliged to give you an update that Facebook is now moving into daily
+      push, not weekly.
+    id: '1391511760888528'
+  - created_time: '2017-02-17T17:12:35+0000'
+    from:
+      name: Ibrahem Amin
+      id: '10157052765627598'
+    message: |-
+      it's not a hard thing to imagine from the backend facebook uses load balancer to hand different versions and that's explains why features may reach some people and some not.
+      the tricky part is the mapping between the back end and front end versions, and here comes the benefit of graphQL and relay which designed to handle multiple versions of the same apis
+    id: '1391539640885740'
+  - created_time: '2017-02-25T20:36:31+0000'
+    from:
+      name: Abd El-Rahman Rafat
+      id: '1848749968530776'
+    message: Ahmed Ashraf - Mohamed Shapan you should check this out
+    id: '1400858616620509'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE01TVRBeU9URTJOREkzTURFeU1Ub3hORGczTXpJd016ZAzUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF3TURnMU9EWXhOall5TURVd09Ub3hORGc0TURVME9Ua3gZD

@@ -1,0 +1,126 @@
+---
+message: |-
+  سؤال ✋
+  كيف يتم التحويل من لغة الآلة الى لون يظهر على الشاشه ثم تجميع البكسيلز لتظهر صورة وتكرارها فيظهر فيديو ثم صوت ؟!
+from:
+  name: محمود الجيزاوي
+  id: '1848418095231426'
+type: status
+created_time: '2016-08-19T15:32:42+0000'
+updated_time: '2016-08-20T15:01:09+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1208420249197681/
+shares:
+  count: 1
+id: '172338516139198_1208420249197681'
+reactions:
+  data:
+  - id: '813329998872134'
+    name: Mahmoud Esam
+    type: LIKE
+  - id: '561895447479777'
+    name: Hamada Mahmoud
+    type: LIKE
+  - id: '1487671784675336'
+    name: Mohamad Emad
+    type: LIKE
+  - id: '10208610261214026'
+    name: Mahmoud Ahmed
+    type: LIKE
+  - id: '1481622491935774'
+    name: Esraa Mohamed Hashish
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTFPRFUwTWpRd016YzNPakUwTnpFMk9EQTVNVFk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlOalF4TVRNNE1URTBPakUwTnpFMk1qTXhNamM2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-08-19T15:38:42+0000'
+    from:
+      name: Bassam Abd Elhamid
+      id: '1955441501387657'
+    message: امممممممم ...
+    id: '1208425042530535'
+  - created_time: '2016-08-19T15:44:35+0000'
+    from:
+      name: Muhammad Hasan
+      id: '2033909946622355'
+    message: علشان تفهم إجابة السؤال ده بتدرس 5 سنين هندسة الكترونيات وغالبا برده
+      مش هتعرف  :]
+    id: '1208428469196859'
+  - created_time: '2016-08-19T15:47:29+0000'
+    from:
+      name: Mohammed Ahmed
+      id: '1539552666097869'
+    message: computer graphics ادرسها او ابحث عنها
+    id: '1208429902530049'
+  - created_time: '2016-08-19T15:56:05+0000'
+    from:
+      name: Abdullatif Al-Khatib
+      id: '10156011986535135'
+    message: اظنك تقصد بلغة الآلة النظام الثنائي..  و الموضوع ( مع التبسيط الشديد)
+      هو ان كل نقطة في الصورة مخزنة في الذاكرة على هيئة ارقام و عند عرضها على الشاشة
+      يتم تحويل الارقام الى اللون المقابل..  و الصوت كذلك
+    id: '1208434025862970'
+  - created_time: '2016-08-19T17:47:06+0000'
+    from:
+      name: Hany Ahmed
+      id: '10156089330442292'
+    message: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Rgb-raster-image.svg/368px-Rgb-raster-image.svg.png
+    id: '1208512929188413'
+  - created_time: '2016-08-19T17:47:23+0000'
+    from:
+      name: Hany Ahmed
+      id: '10156089330442292'
+    message: https://en.wikipedia.org/wiki/Raster_graphics
+    id: '1208513042521735'
+  - created_time: '2016-08-19T19:06:26+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: |-
+      ال video controller له ذاكرة خاصة بتعبر عن ال pixels على الشاشة. مثلا true color بيبقى كل pixel مكون من 3 ألوان بواقع 8 بت لكل لون. الذاكرة دي بيتم رسمها على الشاشة بتردد معين. مدفع الكترونات ال-CRT في الغالب بيرسم 60 مرة في الثانية.
+      فيه شروحات كتيرة على النت عن آلية عمل ال CRT. الشرح بالصور أسهل من الكلام بس هو باختصار شاشة مطلية بالفوسفور (بتنور أما الكترون يضرب فيها) وعندك مدفع الكترونات بيتم ضبط زاويته بحيث ينور ال pixels اللي الواحد محتاجها. ال LCD، OLED ... إلخ طبعا طريقة عملهم مختلفة.
+
+      عن طريق ال memory mapped io ممكن تخلي جزأ من العناوين المتاحة عندك تشير على أجهزة بدل ما هي بتشير على ال RAM.
+      عندك address decoder بيشوف ال bits العليا للعنوان ويقرر هل العنوان يخص الذاكرة العادية (RAM) ولا ROM ولا video controller ... إلخ.
+
+      لو طلع العنوان يخص ال video controller بيبعت إشارة له ويبعت له العنوان ويتم التعديل على الذاكرة بتاعته مباشرة.
+      الموضوع ده شفاف جدا بالنسبة لك كمبرمج وعبارة عن dereference وكتابة في مؤشر عادي.
+
+      لو مهتم بالحاجات دي ممكن تتعلم تبرمج لعب لأجهزة قديمة مثل ال-Gameboy إلي بتطلب منك تتعامل مباشرة مع العتاد بدون نظام تشغيل. الموضوع أسهل مما تتخيل ما دام بتعرف تبرمج سي.
+    id: '1208596225846750'
+  - created_time: '2016-08-19T21:19:52+0000'
+    from:
+      name: Amr Adel
+      id: '10155421921532775'
+    message: |-
+      https://youtu.be/Tfh0ytz8S0k
+      شوف ده والجزء الثاني منه... مش عارف ده الي انت عايزه ولا لا... بس طالما مهتم بالنقطة ديه حيعجبك :D
+    id: '1208669802506059'
+  - created_time: '2016-08-19T22:26:06+0000'
+    from:
+      name: محمود الجيزاوي
+      id: '1848418095231426'
+    message: "هو الحاجه اللى وصلتلها ان الصورة عبارة عن بيكسل وكل بيكسل عبارة عن 3
+      الوان RGB اللى هو اللون الاحمر والاخضر والازرق وبظهور 3 بيكسل او بمعنى ادق 3
+      Matrix ف كل بيكسل ع الصورة ده بيخليها تعدل من لونها اللي بيكون 256 او 255 لون
+      وبيسكل جمب بيكسل يبتدي يظهر لينا الصورة بشكل كامل فالموضوع كله في الاحداثيات
+      اللي بتتبعت او ف كم الـ Data اللي بتتبعت للبيكسل عشان يحدد لونها وشكلها بالتحديد
+      فمثلا  ( 255,255,255)  بنظام الـ RGB هو اللون الابيض وبتعديل احداثيه كل Matrix
+      يكون اختلاف اللون . \nطبعا بتكرار الصورة بعدد Frames اكبر يظهرلنا الفيديو"
+    id: '1208719515834421'
+  - created_time: '2016-08-19T23:47:10+0000'
+    from:
+      name: Fady Mohammed Osman
+      id: '1832248553460800'
+    message: |-
+      كارت الشاشه هو المسئول عن الرسم و ممكن التحكم بكارت الشاشه عن طريق الاسيمبلي عن طريق ال interrupts كل interrupt ليه وظيفه يعني مثلا interrupt يرسم لون نقطه على الشاشه يقولك حط المكان في صوره x , y في ال ecx و ال edx مثلا وحطلي اللون ال ebx و بعدين نادي على interrupt رقم كذا.
+
+       الموضوع ده كان واضح جدا زمان قبل ال directx و ال opengl حاليا التفاصيل دي بتختفي عن المبرمج بشكل كبير بس لو حابب تشوفها دي تتوريال بتشرح الموضوع.
+      http://www.monstersoft.com/tutorial1/VESA_intro.html
+    id: '1208760965830276'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl3T0RReU5UQTBNalV6TURVek5Ub3hORGN4TmpJeE1USXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl3T0RjMk1EazJOVGd6TURJM05qb3hORGN4TmpVd05ETTEZD

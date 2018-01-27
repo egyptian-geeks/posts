@@ -1,0 +1,35 @@
+---
+message: "استفسار angular js 1   وليس انجلر 2\nينفع اعمل 2 spa   منفصلين يكلمو بعض
+  \ \nال spa  الاول  يكون مثلا بتاع تسجيل دخول و تسجيل عضويه جديده  و يكون ال url
+  بتاعه كده مثلا\nauth.html/#/login\nauth.html/#/register\n\nال  spa التانى يكون بتاع
+  مثلا ال dashboard   و يكون ال url بتاعه كده مثلا\ndashboard.html/#/users\ndashboard.html/#/users/create\ndashboard.html/#/users/edit/1\ndashboard.html/#/products\ndashboard.html/#/products/create\ndashboard.html/#/products/edit/5\ndashboard.html/#/settings\nازاى
+  اعمل 2 spa  منفصلين و يكون فيه حاجه بتتحكم انهى واحد يشتغل مثلا لو هو مش مسجل  دخوله
+  يدخله على ال spa  الاول auth  بتاع تسجيل الدخول  و تسجيل عضويه جديده\n\nو لو مسجل
+  دخوله يدخله على ال spa  التانى بتاع لوحه التحكم  اللى اسمه  dashboard\n\nاللى انا
+  بقوله ده ينفع يتعمل بالانجلر و لا اللى بقوله ده مجرد درب من الخيال  ؟؟"
+from:
+  name: Hatem Goda
+  id: '2073635446203550'
+type: status
+created_time: '2016-07-21T05:59:20+0000'
+updated_time: '2016-07-21T06:31:10+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1186184424754597/
+id: '172338516139198_1186184424754597'
+comments:
+  data:
+  - created_time: '2016-07-21T06:18:06+0000'
+    from:
+      name: Hisham Abd El-Hafez Eid
+      id: '10156032627411171'
+    message: "It's doable, you will need a server side component that intercepts every
+      user request and check for authentication, if not authenticated redirect him
+      to the log in app. An example of such component is J2EE filters, or a middleware
+      in nodejs' express.\n\nIn your dashboard app, you should check authentication
+      status in two places\n1- $onRouteChangeStart: this event is called when user
+      tries to move from one route to another (from users to products for example).
+      \n2- With every call done to the backend services."
+    id: '1186192808087092'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU0TmpFNU1qZA3dPREE0TnpBNU1qb3hORFk1TURneE9EZAzIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU0TmpFNU1qZA3dPREE0TnpBNU1qb3hORFk1TURneE9EZAzIZD

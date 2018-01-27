@@ -1,0 +1,43 @@
+---
+message: |-
+  [استفسار]
+  مثلاً عملت Dot NET app و بيـ Connect على MySQL ... لو عملت Backup للداتا و حصل اني غيرت الـ Structure بتاع ال Tables ضفت Field جديد مثلاً و جيت اعمل restore لل Backup ... المفروض كده مش هينفع لأنه الـ Backup كان على ال Structure القديم ... هل الحكاية دي ليها حل ؟ ... ولا كده ال Backup القديم خلاص مع السلامة كده :D
+from:
+  name: Shenouda Fawzy
+  id: '2034660799885072'
+type: status
+created_time: '2016-10-14T21:13:09+0000'
+updated_time: '2016-10-16T08:36:31+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1258142717558767/
+id: '172338516139198_1258142717558767'
+reactions:
+  data:
+  - id: '10156238158522384'
+    name: Osama Ali
+    type: LIKE
+  - id: '10215070655377585'
+    name: Mahmoud Kandeel
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRrMk5USXlNemd6T2pFME56WTBPREUyTnpFNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRFMk5qZA3hNVFkzTmpveE5EYzJORGd4TXpBME9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2016-10-14T21:14:43+0000'
+    from:
+      name: Mohamed Fergany
+      id: '10215339863195300'
+    message: طيب ما تعمله set ب null .
+    id: '1258143887558650'
+  - created_time: '2016-10-14T21:33:36+0000'
+    from:
+      name: Rafael Adel
+      id: '10156260406777122'
+    message: مؤقتا خلي ال column الجديد اللى فى ال DB يكون Null .. و شغل ال restore
+      script عادي هيحطلك الداتا و الcolumn الزيادة هيكون Null
+    id: '1258156764224029'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkxT0RFME16ZAzROelUxT0RZAMU1Eb3hORGMyTkRjNU5qZA3oZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkxT0RFMU5qYzJOREl5TkRBeU9Ub3hORGMyTkRnd09ERTMZD

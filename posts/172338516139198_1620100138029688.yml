@@ -1,0 +1,13 @@
+---
+message: |-
+  Practical tips for clustering text data.
+  I am currently preforming kmeans clustering on a text dataset and in the preprocessing step i've removed stop words and replaced the remaining words with their basic form in english then i've computed TFIDF for the words to use it as the only feature for clustering using kmeans++.
+  Is there any additional preprocessing techniques i can use?
+from:
+  name: Mohamed Alzaki Abdullah
+  id: '10215713416047775'
+type: status
+created_time: '2017-09-29T22:27:53+0000'
+updated_time: '2017-09-29T22:27:53+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1620100138029688/
+id: '172338516139198_1620100138029688'

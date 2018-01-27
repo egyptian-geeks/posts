@@ -1,0 +1,97 @@
+---
+message: |-
+  https://chadaustin.me/2017/05/writing-a-really-really-fast-json-parser/
+  It bothers me you have to go so "low" to write a high performance library ...
+link: https://chadaustin.me/2017/05/writing-a-really-really-fast-json-parser/
+from:
+  name: Diaa Sami
+  id: '10215834435679186'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQDF0nNw7sdlOhpg&w=130&h=130&url=http%3A%2F%2Fchadaustin.me%2Fwp-uploads%2Fperf-msvc-haswell-1024x556.png&cfs=1&_nc_hash=AQAjfNWsFS4j04g7
+created_time: '2017-08-04T11:17:40+0000'
+updated_time: '2017-08-07T12:31:01+0000'
+name: Writing a Really, Really Fast JSON Parser – Chad Austin
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1567954816577554/
+id: '172338516139198_1567954816577554'
+reactions:
+  data:
+  - id: '1629690233758127'
+    name: Omar Mohsen
+    type: LIKE
+  - id: '10155299731606461'
+    name: Khaled Abdelrahman
+    type: LIKE
+  - id: '10208596993002679'
+    name: Mostafa Alaa
+    type: LIKE
+  - id: '319509238558167'
+    name: Robin Andy
+    type: LIKE
+  - id: '1928384107425504'
+    name: Ahmed Hashem
+    type: LIKE
+  - id: '10154988356050583'
+    name: Ali Helmy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhOVEUwT1RjeE1qYzJPakUxTURFNU1UUXdORGM2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TlRFeU5UZAzFOVGd5T2pFMU1ERTRORGN4TVRZANk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-08-04T14:10:25+0000'
+    from:
+      name: Mina Maher
+      id: '10156473148082985'
+    message: And why is that ? This is a clear example of how higher level languages
+      are performance jokes unlike what the marketing hype says :)
+    id: '1568143523225350'
+  - created_time: '2017-08-04T15:56:30+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: U have to go low to make anything fast
+    id: '1568255293214173'
+  - created_time: '2017-08-07T03:45:37+0000'
+    from:
+      name: Pola Ashraf
+      id: '10155173051963199'
+    message: Do you think .Net and sharepoint guys who use servers with 30GB ram would
+      ever think about this :D
+    id: '1570888049617564'
+  - created_time: '2017-08-07T05:02:58+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: Well if they started to get 100,000 request per sec. Then yes they have
+      too :D
+    id: '1570969192942783'
+  - created_time: '2017-08-07T11:42:15+0000'
+    from:
+      name: Diaa Sami
+      id: '10215834435679186'
+    message: I had an impression that most of the performance optimizations come from
+      high-level algorithm changes, but seems this is not true across the board, in
+      the article we are seeing ~2x improvement from low-level changes like loop unrolling
+      and compiler-specific stuff.
+    id: '1571221496250886'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUyT0RFME16VXlNekl5TlRNMU1Eb3hOVEF4T0RVMU9ESTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUzTVRJeU1UUTVOakkxTURnNE5qb3hOVEF5TVRBMk1UTTEZD
+attachments:
+  data:
+  - description: Writing a Really, Really Fast JSON Parser Several holidays ago, I
+      got a bee in my bonnet and wrote a fast JSON parser whose parsed AST fits in
+      a single contiguous block of memory. The code was small and simple and the performance
+      was generally on-par with RapidJSON, so I stopped and moved on with my...
+    media:
+      image:
+        height: 556
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAbgyBqftM7cArb&w=720&h=720&url=http%3A%2F%2Fchadaustin.me%2Fwp-uploads%2Fperf-msvc-haswell-1024x556.png&cfs=1&_nc_hash=AQAIAzvHolDY0F6m
+        width: 556
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fchadaustin.me%2F2017%2F05%2Fwriting-a-really-really-fast-json-parser%2F&h=ATNuoo1NNRHSSm5Omet11Xw9B-QVlf7xbJrHpcHA9De-Xt2F6095mnB8nvgGmBTfnzqc6-A-zXnRHQgxQjfEdZEj35qq7TLfyfME&s=1&enc=AZPKshoPt8S5ErdJ8wb--BWMe-tInOqdHQq2M1-9-3QFdJsAxawHSXQ_GNXwcyYl6kFzQH_euXPZhom7g2t9Rh_K
+    title: Writing a Really, Really Fast JSON Parser – Chad Austin
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fchadaustin.me%2F2017%2F05%2Fwriting-a-really-really-fast-json-parser%2F&h=ATNuoo1NNRHSSm5Omet11Xw9B-QVlf7xbJrHpcHA9De-Xt2F6095mnB8nvgGmBTfnzqc6-A-zXnRHQgxQjfEdZEj35qq7TLfyfME&s=1&enc=AZPKshoPt8S5ErdJ8wb--BWMe-tInOqdHQq2M1-9-3QFdJsAxawHSXQ_GNXwcyYl6kFzQH_euXPZhom7g2t9Rh_K

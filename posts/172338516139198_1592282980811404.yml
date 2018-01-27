@@ -1,0 +1,47 @@
+---
+message: انا معايا Dedicated Server على امازون سطبت ال web storm وحطيت ال api اللى
+  عاملها وعملت run على ال localhost واشتغلت غيرت ال localhost ب dns name اشتغلت من
+  ال dedicated server لم حولت اعمل access من برة ال dedicate server بنفس ال dns name
+  بيقولى This site can’t be reached
+from:
+  name: Ahmed Abo Mazin
+  id: '1758521440903748'
+type: status
+created_time: '2017-08-28T19:46:40+0000'
+updated_time: '2017-08-29T08:41:08+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1592282980811404/
+id: '172338516139198_1592282980811404'
+reactions:
+  data:
+  - id: '1411488178980044'
+    name: Alaa Nassar
+    type: LIKE
+  - id: '1619555288125278'
+    name: Amr Emaish
+    type: LIKE
+  - id: '10155903911855943'
+    name: Ahmed Soliman
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXpOVFkyTWpZAMU56WTFPakUxTURNNU5UVXdPVFk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TnpBeU5UazFPVFF5T2pFMU1ETTVOVEE0TURVNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-08-28T19:52:41+0000'
+    from:
+      name: Mohamed Moshrif
+      id: '1538447102877297'
+    message: افتح ال firewall
+    id: '1592286734144362'
+  - created_time: '2017-08-29T08:41:06+0000'
+    from:
+      name: Eslam Hamouda
+      id: '10212947071504226'
+    message: Check out the security group of this machine, make sure that HTTP & HTTPS
+      are available to access from everywhere.
+    id: '1592699850769717'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU1TWpJNE5qY3pOREUwTkRNMk1qb3hOVEF6T1RRNU9UWXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU1TWpZANU9UZAzFNRGMyT1RjeE56b3hOVEF6T1RrMk1EWTIZD

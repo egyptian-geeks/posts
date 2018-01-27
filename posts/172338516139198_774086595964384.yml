@@ -1,0 +1,22 @@
+---
+message: "I'm trying to install ruby 2.1.2 using rbenv, I downloaded rbenv, got the
+  plugin \"ruby-build\" but got this error message when trying to run the \"rbenv
+  install 2.1.2\" command:\n\nDownloading ruby-2.1.2.tar.gz...\n-> http://dqw8nmjcqpjn7.cloudfront.net/f22a6447811a81f3c808d1c2a5ce3b5f5f0955c68c9a749182feb425589e6635\nInstalling
+  ruby-2.1.2...\n \nBUILD FAILED\n\nInspect or clean up the working tree at /tmp/ruby-build.20140630184115.11627\nResults
+  logged to /tmp/ruby-build.20140630184115.11627.log\n\nLast 10 log lines:\n                              io-console
+  0.4.2\n                              json 1.8.1\n                              minitest
+  4.7.5\n                              psych 2.0.5\n                              rake
+  10.1.0\n                              rdoc 4.1.0\n                              test-unit
+  2.1.2.0\ninstalling rdoc:              /home/taz/.rbenv/versions/2.1.2/share/ri/2.1.0/system\ninstalling
+  capi-docs:         /home/taz/.rbenv/versions/2.1.2/share/doc/ruby\nThe Ruby openssl
+  extension was not compiled. Missing the OpenSSL lib?\n\nany help on how to fix that?"
+link: http://dqw8nmjcqpjn7.cloudfront.net/f22a6447811a81f3c808d1c2a5ce3b5f5f0955c68c9a749182feb425589e6635
+from:
+  name: Amr Tag
+  id: '10211180899988571'
+type: link
+created_time: '2014-06-30T16:55:36+0000'
+updated_time: '2014-06-30T20:33:07+0000'
+name: dqw8nmjcqpjn7.cloudfront.net
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/774086595964384/
+id: '172338516139198_774086595964384'

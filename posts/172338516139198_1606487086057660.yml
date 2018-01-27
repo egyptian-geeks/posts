@@ -1,0 +1,62 @@
+---
+message: "لو انا عامل app و محتاج كل شوية اخزن ال location بتاع ال user \nعلى سبيل
+  المثال عاوز اعرف خط سير المتسخدم ده فهحتاج اعرف كل الاماكن اللى راحها \nهل فى حل
+  احسن من انى اعمل thread شغال انه كل شوية يعمل save location  ؟"
+from:
+  name: Eslam Elkhafagy
+  id: '1570961289653152'
+type: status
+created_time: '2017-09-14T04:02:39+0000'
+updated_time: '2017-09-16T05:48:28+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1606487086057660/
+id: '172338516139198_1606487086057660'
+reactions:
+  data:
+  - id: '391813011231597'
+    name: Mahmoud Mahfouz
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01ERXlNRGczTURNNE9USTVPakUxTURVek56ZA3lOakU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01ERXlNRGczTURNNE9USTVPakUxTURVek56ZA3lOakU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-09-14T05:16:03+0000'
+    from:
+      name: Mahmoud Gamal
+      id: '1597538753669591'
+    message: حته انك تخليه يعمل save والابلكيشن مقفول هتستخدم services وتخليها تعمل
+      save وحته انك تعمل save كل شويه ده مش كويس لانه هيستهلك بطاريه و مساحه فانتا
+      مثلا تعملها على فترات معينه
+    id: '1606518566054512'
+  - created_time: '2017-09-14T05:27:56+0000'
+    from:
+      name: عبدالرحمن ايهاب
+      id: '1609257759156415'
+    message: "افضل حل انك ت schedule job تعملك سيف للوكيشن كل ما يتغير و انت تقدر
+      تحدد حيز التغير دا اد ايه \nFirebase job dispatcher compatible to api 9, go
+      for it"
+    id: '1606524322720603'
+  - created_time: '2017-09-14T10:49:22+0000'
+    from:
+      name: Mina George
+      id: '1698558773568486'
+    message: اعمل service تبقى شغاله مع اول اكتفتى و تجيب اللوكشن من ال gps
+    id: '1606691522703883'
+  - created_time: '2017-09-16T05:48:23+0000'
+    from:
+      name: Hany Barakat
+      id: '10155068203640974'
+    message: |-
+      Is this for Android or iOS? Assuming you're asking for Android, but please make sure you mention that next time you ask a question.
+
+      https://developer.android.com/training/location/receive-location-updates.html
+
+      A running thread is probably way too expensive. A callback is a much cheaper option. Also I'd highly recommend not writing to disk every time you receive an update (writing to disk is an expensive operation):
+      1. Double check if location changed at all, if not then ignore the update.
+      2. Store them in memory and write to disk once and in bulk.
+    id: '1608548179184884'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl3TmpVeE9EVTJOakExTkRVeE1qb3hOVEExTXpZAMk1UWXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl3T0RVME9ERTNPVEU0TkRnNE5Eb3hOVEExTlRRd09UQTEZD

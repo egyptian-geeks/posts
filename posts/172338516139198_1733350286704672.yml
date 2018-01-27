@@ -1,0 +1,115 @@
+---
+message: "هو ازاي ال Time complexity في Insert و ال delete ل AVL tree بيكون \nlog2
+  N\nازاي و ال tree بتعمل rebalance لكل نود علي شمالها ويمناها في كل عمليه insert
+  او delete علشان تعرف ال balance factor ؟؟ \n- طب لو الكلام ده صح ايه الفرق بينها
+  وبين ال binary searh tree في ال insert و ال delete اللي مابتعملش اي rebalance خالص"
+link: https://www.facebook.com/photo.php?fbid=1998848900333732&set=gm.1733350286704672&type=3
+from:
+  name: Ahmed Khalifa
+  id: '1999765416908747'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/26992531_1998848900333732_8846774224959869772_n.jpg?oh=89e641cdebc6395680166934bde4fe61&oe=5B2237B9
+created_time: '2018-01-25T17:29:43+0000'
+updated_time: '2018-01-25T19:49:29+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1733350286704672/
+id: '172338516139198_1733350286704672'
+reactions:
+  data:
+  - id: '927490574073670'
+    name: Mahmoud Abdalazez
+    type: LIKE
+  - id: '10155779322701638'
+    name: Mohamed Elsersy
+    type: LIKE
+  - id: '1984058555247376'
+    name: Tarekk Mohamed Abdalla
+    type: LIKE
+  - id: '145220886143035'
+    name: Omar AbdelFattah
+    type: LIKE
+  - id: '1999540903600726'
+    name: Abd El-Salam Bakr
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTBNemd5TURjMk5URXlPakUxTVRZANU1qUXhOalU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTJNelExTURjd09EY3dPakUxTVRZANU1EUXpNakU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2018-01-25T17:33:59+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: عملية ال rebalanceو اعتقد هي rotation لو انا فاكر هي بتاخد وقت متناسب
+      مع ارتفاع الtree اللي هو log(n) برضه بما أن ال tree عمرها ما بتبقى unbalanced
+      اكثر من اللازم.
+    id: '1733366586703042'
+  - created_time: '2018-01-25T17:37:36+0000'
+    from:
+      name: Sherif Abdel-Naby
+      id: '1547297148718242'
+    message: Rotation is O(1), and you do rebalance along the tree height(log n) up
+      to the root. so you're still in the O(log n) complexity.
+    id: '1733369193369448'
+  - created_time: '2018-01-25T17:47:36+0000'
+    from:
+      name: Mostafa Saber
+      id: '1635838433163394'
+    message: الفرق ان ال worst case في ال BST هو O(n) ده رد علي سؤال الفرق بينهم والباشمهندس
+      محمد والباشمهندس شريف ردوا علي اول سؤالين
+    id: '1733376740035360'
+  - created_time: '2018-01-25T19:44:33+0000'
+    from:
+      name: Ahmed Nader
+      id: '10156045771551796'
+    message: "BST could form a list in insertion/deletion many cases such that every
+      inserted new node goes to either directions. Self-balancing trees like RB tree/
+      AVL tree are one solution to grantee O(logN) via rotations which are usually
+      called insertFIX/deletionFIX.\n\nIf I recall correctly in AVL you got to meet
+      this regulation: \"A binary search tree is an AVL tree if the difference in
+      height between the subtrees of each of its nodes is between -1 and +1\" \n\nand
+      for RB Trees: \n\"Every single node in the tree must be either red or black.\nThe
+      root node of the tree must always be black.\nTwo red nodes can never appear
+      consecutively, one after another; a red node must always be preceded by a black
+      node (it must have a black parent node), and a red node must always have black
+      children nodes.\nEvery branch path — the path from a root node to an empty (null)
+      leaf node — must pass through the exact same number of black nodes. A branch
+      path from the root to an empty leaf node is also known as an unsuccessful search
+      path, since it represents the path we would take if we were to search for a
+      node that didn’t exist within the tree.\"\n\nWhen you always maintain these
+      rules you will have a balanced tree which will meet insertion/deletion costs
+      of O(LogN) of base 2. \n\nYou could find all this extracts from this very important
+      book I'd say: https://www.goodreads.com/book/show/108986.Introduction_to_Algorithms\n\nHere's
+      a link to the book: http://ressources.unisciel.fr/algoprog/s00aaroot/aa00module1/res/%5BCormen-AL2011%5DIntroduction_To_Algorithms-A3.pdf"
+    id: '1733460276693673'
+  - created_time: '2018-01-25T19:49:27+0000'
+    from:
+      name: Ahmed Salah
+      id: '2026040137665107'
+    message: هو الـAVL طريقة عشان يبقى عندك balanced tree مش حاجة مختلفى عنها يعنى
+      .. فهى بتضمن ان يكون وقت الـinsertion/deletion يكون log(n) عشان هى بتضمن طول
+      الtree ميعديش log(n) و الوقت بتاع الـinsert هو asymptolicaly نفس log(n) بس فعليا
+      بياخد وقت اكبر فبتهمله و عموما لو عايز حاة فيها insert/deletino كتير هستخدم
+      black-red tree
+    id: '1733463426693358'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN6TXpNMk5qVTROamN3TXpBME1qb3hOVEUyT1RBeE5qTTUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN6TXpRMk16UXlOalk1TXpNMU9Eb3hOVEUyT1RBNU56WTQZD
+attachments:
+  data:
+  - description: "هو ازاي ال Time complexity في Insert و ال delete ل AVL tree بيكون
+      \nlog2 N\nازاي و ال tree بتعمل rebalance لكل نود علي شمالها ويمناها في كل عمليه
+      insert او delete علشان تعرف ال balance factor ؟؟ \n- طب لو الكلام ده صح ايه
+      الفرق بينها وبين ال binary searh tree في ال insert و ال delete اللي مابتعملش
+      اي rebalance خالص"
+    media:
+      image:
+        height: 267
+        src: https://scontent.xx.fbcdn.net/v/t1.0-9/26992531_1998848900333732_8846774224959869772_n.jpg?oh=d4743c9a6a54ad8d191059b21604d363&oe=5B1BB2D2
+        width: 338
+    target:
+      id: '1998848900333732'
+      url: https://www.facebook.com/photo.php?fbid=1998848900333732&set=gm.1733350286704672&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=1998848900333732&set=gm.1733350286704672&type=3

@@ -1,0 +1,123 @@
+---
+message: The new Docker for Windows beta combines the two container worlds and simplifies
+  building Docker images for both Linux and Windows, making a Windows 10 machine a
+  good development platform for both.
+link: https://stefanscherer.github.io/run-linux-and-windows-containers-on-windows-10/
+from:
+  name: Eslam Hamouda
+  id: '10212947071504226'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQA_uY-oqk0VfQca&w=130&h=130&url=https%3A%2F%2Fstefanscherer.github.io%2Fcontent%2Fimages%2F2016%2F09%2Fdocker-inspect.png&cfs=1&_nc_hash=AQAfwEZavPND_HIR
+created_time: '2016-09-30T11:46:07+0000'
+updated_time: '2016-10-01T15:52:14+0000'
+name: Run Linux and Windows Containers on Windows 10
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1245542495485456/
+id: '172338516139198_1245542495485456'
+reactions:
+  data:
+  - id: '738141003057684'
+    name: Ahmed Khtab
+    type: LIKE
+  - id: '2032504700100329'
+    name: Mohammed Yassin
+    type: LIKE
+  - id: '10215227781350006'
+    name: Kareem Mostafa
+    type: LIKE
+  - id: '10156089336182292'
+    name: Hassan Aly Selim
+    type: LIKE
+  - id: '10215482677129679'
+    name: Ahmed Adel Radwan
+    type: LIKE
+  - id: '10155226291481186'
+    name: أحمد محمود محمد عبدالوهاب
+    type: LOVE
+  - id: '1596110217148252'
+    name: Ahmed Badawy
+    type: LIKE
+  - id: '10215912205257566'
+    name: Mohammed Fouad Hassen
+    type: LIKE
+  - id: '10208998270954340'
+    name: Ola Salem
+    type: LIKE
+  - id: '1791277350884061'
+    name: Mostafa Alaa Mohamed
+    type: LIKE
+  - id: '10155746533953941'
+    name: Abdelrahman Y. ElFiky
+    type: LIKE
+  - id: '10160105091405314'
+    name: Mohamed Elsherif
+    type: LIKE
+  - id: '1937942979568084'
+    name: Muhamad Eissa
+    type: LIKE
+  - id: '385696705226073'
+    name: Mohamed Ahmed
+    type: LIKE
+  - id: '10209987525676546'
+    name: مؤمن عبد القادر
+    type: LIKE
+  - id: '1158167907620094'
+    name: Mahmoud Nassar
+    type: LIKE
+  - id: '1769679443064146'
+    name: Gerges Bernaba
+    type: LIKE
+  - id: '10215800137143118'
+    name: Mohamed Elnagar
+    type: LIKE
+  - id: '895970407247426'
+    name: Ahmad Magdy
+    type: LIKE
+  - id: '10203990338636211'
+    name: Abdullah El-menawy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTFPRFV6TnpJeE1UWXpPakUwTnpVek5UTTVOak02TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRjMU5UUXdNVGsyTXpveE5EYzFNak0yTURFek9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2016-09-30T12:54:29+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: Finally, Windows catches up? Last version of Docker for windows was pretty
+      poor though, hope this one is better
+    id: '1245583058814733'
+  - created_time: '2016-10-01T04:32:11+0000'
+    from:
+      name: أحمد محمود محمد عبدالوهاب
+      id: '10155226291481186'
+    message: Ahmad Alfy now this is better xD
+    id: '1246199865419719'
+  - created_time: '2016-10-01T15:52:13+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: You are better off going the Linux route as a host, either virtualbox
+      + vagrant or Debian/Ubuntu + Docker
+    id: '1246604698712569'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkwTlRVNE16QTFPRGd4TkRjek16b3hORGMxTWpRd01EY3cZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkwTmpZAd05EWTVPRGN4TWpVMk9Ub3hORGMxTXpNM01UTXoZD
+attachments:
+  data:
+  - description: At DockerCon 2016 in Seattle Docker announced the public beta of
+      Docker for Windows. With this you can work with Docker running Linux containers
+      in a very easy way on Windows 10 Pro with Hyper-V installed. In the meantime
+      there is a stable version and a beta channel to retrieve
+    media:
+      image:
+        height: 720
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQDYmCICT8IhrXkN&w=720&h=720&url=https%3A%2F%2Fstefanscherer.github.io%2Fcontent%2Fimages%2F2016%2F09%2Fdocker-inspect.png&cfs=1&_nc_hash=AQBkT2i89NgDMd_q
+        width: 720
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fstefanscherer.github.io%2Frun-linux-and-windows-containers-on-windows-10%2F&h=ATOd3P8EmMYjTFVzZL0bRBMXMGErjDV-PjjTmzepxcCXV5ja7HSFfjk5jZuFf2C4QzEVwtCeQ4My0bcLuFqUd8SPwHo34ny-ekGn&s=1&enc=AZMlpvAvvmLCdtzrMSnJujmiZld-oET0ALMwILyXZ_D81goTDhbQZMaxtX33uzBCo48TS2UfC3Cq7kt-YvqYXqUQ
+    title: Run Linux and Windows Containers on Windows 10
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fstefanscherer.github.io%2Frun-linux-and-windows-containers-on-windows-10%2F&h=ATOd3P8EmMYjTFVzZL0bRBMXMGErjDV-PjjTmzepxcCXV5ja7HSFfjk5jZuFf2C4QzEVwtCeQ4My0bcLuFqUd8SPwHo34ny-ekGn&s=1&enc=AZMlpvAvvmLCdtzrMSnJujmiZld-oET0ALMwILyXZ_D81goTDhbQZMaxtX33uzBCo48TS2UfC3Cq7kt-YvqYXqUQ

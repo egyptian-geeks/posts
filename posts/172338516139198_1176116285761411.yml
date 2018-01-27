@@ -1,0 +1,121 @@
+---
+message: "السلام عليكم\n\nكل سنة وانتم جميعا طبيين\n\nمن فضلكم حد هنا اشتغل ب Automapper
+  مع .net MVC - القصة وما افيها انى كنت محتاج انقل داتا من جدولين بقاعدة بيانات لنفس
+  الجدولين فى قاعدة بيانات تانية عن طريق EF وطبعا كل جدول فيه حوالى 45 حقل ومن البحث
+  على الانترنت وجدت ان الحل ممكن عن طريق automapper وجبتها من Nugt وكانت مشكلتها معايا
+  انها بتدى ايرور عشان فى علاقة بين جدولين \n\nالمهم هى اخيرا اشتغلت بالكود ده وهنا
+  انا عامل map لكل جدول فيهم على حده وفى كل واحده عامل Ignore للجدول اللى بيعمل المشكلة\n\nجدول
+  AZTRH ده لرأس الفاتورة\nجدول AZTRD ده لتفاصيل الفاتورة - وهو اللى كان بيعمل المشكلة
+  كل مرة وكان بسببه بيظهر الخطأ ده\n\nError mapping types.\n\nMapping types:\nAZTRHExpire
+  -> AZTRHNoraml\nPricingUpdate.Models.ExpireDbContext.AZTRHExpire > PricingUpdate.Models.azDbContext.AZTRHNoraml\n\nType
+  Map configuration:\nAZTRHExpire -> AZTRHNoraml\nPricingUpdate.Models.ExpireDbContext.AZTRHExpire
+  > PricingUpdate.Models.azDbContext.AZTRHNoraml\n\nProperty:\nAZTRDs\n\nفممكن حد
+  يفهمنى ايه الحل اللى ممكن اعمله بدل استخدام ignore وده للعلم وعشان الكل يستفاد\n\n
+  \           Mapper.Initialize(config =>\n            {\n                config.CreateMap<AZTRHExpire,
+  AZTRHNoraml>()\n                    .ForMember(dest => dest.AZTRDs, opt => opt.Ignore());\n\n
+  \               config.CreateMap<AZTRDExpire, AZTRDNoraml>()\n                    .ForMember(dest
+  => dest.AZTRH, opt => opt.Ignore());\n            });"
+from:
+  name: Ahmed Amin
+  id: '1962172197389574'
+type: status
+created_time: '2016-07-06T06:34:52+0000'
+updated_time: '2016-07-07T06:30:21+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1176116285761411/
+id: '172338516139198_1176116285761411'
+reactions:
+  data:
+  - id: '934408920094293'
+    name: Muhammad Ahmed Fares
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTFOelUxT0RBME16VTJPakUwTmpjM09EY3dOamc2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTFOelUxT0RBME16VTJPakUwTmpjM09EY3dOamc2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-07-06T13:04:20+0000'
+    from:
+      name: Kofi Kotga
+      id: '1683289718380917'
+    message: المنطقي انك لو بتنقل داتا وفيه فورين كيز..انك تنقل الداتا بتاعت التايبل
+      للي واخده منها فورين كي الاول وبعدها تنقل التاييل الاصلي..عشان يبقى للداتا معنى
+    id: '1176247519081621'
+  - created_time: '2016-07-06T13:42:02+0000'
+    from:
+      name: Mera Tag Eldin
+      id: '10155869338936136'
+    message: هو انا بستخدم automapper بين الviewmodel و الmodel  و الautomapper ممكن
+      يدي ايرور لو  properties name مختلفين فلازم اعمل set manual for  different properties
+      name
+    id: '1176267449079628'
+  - created_time: '2016-07-06T23:34:11+0000'
+    from:
+      name: Mera Tag Eldin
+      id: '10155869338936136'
+    message: |-
+      AutoMapperConfiguration.cs
+
+      public class AutoMapperConfiguration
+          {
+              public static void Configure()
+              {
+                  Mapper.Initialize(x =>
+                  {
+                      x.AddProfile<DomainToViewModelMappingProfile>();
+                      x.AddProfile<ViewModelToDomainMappingProfile>();
+                  });
+              } ahmed Ahmed Amin
+    id: '1176541075718932'
+  - created_time: '2016-07-06T23:35:07+0000'
+    from:
+      name: Mera Tag Eldin
+      id: '10155869338936136'
+    message: |-
+      DomainToViewModelMappingProfile.cs
+
+      public class DomainToViewModelMappingProfile : Profile
+          {
+              public override string ProfileName
+              {
+                  get { return "DomainToViewModelMappings"; }
+              }
+
+              protected override void Configure()
+              {
+                  Mapper.CreateMap<Category,CategoryViewModel>();
+                  Mapper.CreateMap<Gadget, GadgetViewModel>(); Ahmef Ahmed Amin
+    id: '1176541535718886'
+  - created_time: '2016-07-06T23:38:27+0000'
+    from:
+      name: Mera Tag Eldin
+      id: '10155869338936136'
+    message: ده بالظبط الكود اللي عملاه عشان اعمل mapping Ahmed Ahmed Amin
+    id: '1176542895718750'
+  - created_time: '2016-07-06T23:39:27+0000'
+    from:
+      name: Mera Tag Eldin
+      id: '10155869338936136'
+    message: هتلاقيتي عمله كومنت لاني محتجتش اني اعمله manuL و انا مجربتش اعمل ignore
+      انا جربت reverse map
+    id: '1176547695718270'
+  - created_time: '2016-07-07T01:49:28+0000'
+    from:
+      name: Mohamed Makeen
+      id: '10156031350846054'
+    message: لو الفكرة انك تعمل migrate اسحب البيانات في نفس قاعدة البيانات واعمل
+      عليها processing وخلاص
+    id: '1176612855711754'
+  - created_time: '2016-07-07T06:30:21+0000'
+    from:
+      name: سامح دعبس
+      id: '2022490591345439'
+    message: |-
+      لو انت شغال offline، بمعنى إنك عاوز تنقل الفواتير في آخر اليوم مثلا، اعمل queries بلدي كده عشان تنجز و ابقى شغلها بjob على قاعدة البيانات مثلا
+      ال orms مش معمولة لكده، و هاتكون بطيئة معاك و هاتحتاج تاخد بالك من شوية اعتبارات زي عدد الريكوردز اللي هاتنقاها، و هاتعمل ايه لو الدنيا وقعت أثناء نقل جزء من الببانات، و العلاقة مع الجداول التانية ...إلخ.
+      الحل الذي أفضله في مثل هذه الحلات يكون غالبا على مستوى قاعدة البيانات مش مستوى التطبيق، مالم يكون هناك داع لإجراء معالجة على البيانات قبل نقلها.
+    id: '1176711239035249'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUzTmpJME56VXhPVEE0TVRZAeU1Ub3hORFkzT0RFd01qWXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUzTmpjeE1USXpPVEF6TlRJME9Ub3hORFkzT0Rjek1ESXgZD

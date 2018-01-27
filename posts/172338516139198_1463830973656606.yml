@@ -1,0 +1,57 @@
+---
+message: |-
+  Alsalam Alikom, I'm posting a question hopefully I'm not violating the rules:
+  First of all I'm junior so hopefully this point is taken into commenter consideration :)
+
+  I been searching using mySQL official documentation, also googling about my case trying to find some post similar to my case but I failed to find something similar so that I couldn't learn the way of solving my problem,
+   recently I posted question on dba.stackexchange.com but still guys there are not giving sufficient answers to my question, just telling some keywords that I'm trying and I'm still not reaching a solution to my problem with them because as I said I'm junior , sorry for the long introductory , here is the question:
+
+  I have 3 mySQL tables as follow:
+  T1 has (std_id as primary key, std_name) T2 has (course_code,course_name) T3 has (std_id, course_code) ,,,, I need to execute a select query using left join to show all students names that are registered in course that includes the word for ex "Java" in its name or in the course_name field.
+
+  I tried the following but didn't work out:
+
+  select std_name from T1 left join T3 on T3.std_id = T1.std_id and T2.course_name like 'Java%';
+
+  I tried also other queries but it ends up show the name of all students but not the name of students registered in course that its name include "Java".
+from:
+  name: Omar Maged
+  id: '1566214946808679'
+type: status
+created_time: '2017-04-24T09:59:25+0000'
+updated_time: '2017-04-24T13:08:46+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1463830973656606/
+id: '172338516139198_1463830973656606'
+comments:
+  data:
+  - created_time: '2017-04-24T10:40:15+0000'
+    from:
+      name: Shady Abdel Aziz
+      id: '10160035809660220'
+    message: What you miss is the join between t2 and t3 , update your statement and
+      you shall get the results.
+    id: '1463855863654117'
+  - created_time: '2017-04-24T11:35:41+0000'
+    from:
+      name: Ahmed Essam
+      id: '2004705666469226'
+    message: |-
+      Like Shady Abdel Aziz said, you need to join 3 tables together not 2 only. And since you need intersection, you don't need the left join. An inner join will do the job. Something like this should work for you:
+
+      SELECT T1.std_name, T2.course_name FROM T1
+      INNER JOIN T3 ON T3.std_id = T1.std_id
+      INNER JOIN T2 ON T2.course_code =  T3.course_code
+      WHERE T2.course_name LIKE '%Java%'
+    id: '1463887906984246'
+  - created_time: '2017-04-24T13:08:45+0000'
+    from:
+      name: Omar Maged
+      id: '1566214946808679'
+    message: |-
+      Yes, another join was required and it works good now.
+      Many thanks guys for your valuable reply.
+    id: '1463944236978613'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEyTXpnMU5UZAzJNelkxTkRFeE56b3hORGt6TURNd05ERTEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEyTXprME5ESXpOamszT0RZAeE16b3hORGt6TURNNU16STEZD

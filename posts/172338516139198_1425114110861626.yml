@@ -1,0 +1,104 @@
+---
+message: |-
+  Alsalam Alykom
+  i'm working on an Angular 2 Apllication where i have in my login feature this service
+  ----------------------------------------
+  import { Http, Response } from '@angular/http';
+  import {Injectable} from '@angular/core';
+  import 'rxjs/add/operator/map';
+  import 'rxjs/add/operator/do';
+  import 'rxjs/add/operator/catch';
+  import { Observable } from 'rxjs/Observable';
+  import { contentHeaders, apiUrl} from '../shared/headers';
+
+  @Injectable()
+
+  export class LoginService extends BaseService{
+
+      constructor(private http: Http){
+          super();
+      }
+
+      /**
+       * send the user login data (email, password) and the token back to be stored on the client side.
+       * @param user
+       * @returns {any|Promise}
+       */
+      login(user: any): Observable<any>{
+
+          let body = JSON.stringify(user);
+          return this.http.post(apiUrl + '/login', body, { headers: contentHeaders })
+              .map(this.extractData)
+              .catch(this.handleError);
+
+      }
+      /**
+       * extract response data and return it to the component
+       * @param res
+       * @returns {*}
+       */
+      public extractData(res: Response) {
+          let body = res.json();
+          console.log(body);
+          return body;
+      }
+
+      /**
+       * handle service error
+       * @param error
+       * @returns {ErrorObservable}
+       */
+      public handleError(res: Response) {
+          return Observable.throw(res);
+      }
+  }
+  --------------
+  - and i use it in my LoginComponent in this way
+  --------------
+  this.loginService.login(userObj)
+              .subscribe(
+                  (response: any) => {
+                     // success call that is Ok
+  },
+                 (errorRes: any)=> {
+                      console.log('res in err is', error);
+  }
+  --------------
+  the result of console.log in my component is
+  --------------
+  TypeError: Observable_1.Observable.throw is not a function
+  -------------
+  - i tried to search stackoverflow or in github if an issue solves this but i couldn't find soething that helps me, so if someone can help me handle the error in LoginComponent as a response from handleError method of the service and get the error message of the server in my component it will be great.
+  -------------
+  Note: the success part is working fine the problem is in the case of error when i make
+  return Observable.throw(res);
+  - thanks in advance :)
+from:
+  name: Amr Mohamed
+  id: '1437867079657591'
+type: status
+created_time: '2017-03-19T05:21:30+0000'
+updated_time: '2017-03-19T06:20:32+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1425114110861626/
+id: '172338516139198_1425114110861626'
+comments:
+  data:
+  - created_time: '2017-03-19T05:44:39+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      Hmm... Not sure I read this carefully, but from a quick skimming sounds like you need:
+
+      import 'rxjs/add/observable/throw';
+    id: '1425129384193432'
+  - created_time: '2017-03-19T05:47:32+0000'
+    from:
+      name: أحمد محمود محمد عبدالوهاب
+      id: '10155226291481186'
+    message: And please use pastebin, gisys, or sth to share pieces of code
+    id: '1425130697526634'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF5TlRFeU9UTTROREU1TXpRek1qb3hORGc1T1RBeU1qYzUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF5TlRFek1EWTVOelV5TmpZAek5Eb3hORGc1T1RBeU5EVXoZD

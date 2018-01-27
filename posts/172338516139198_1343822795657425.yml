@@ -1,0 +1,88 @@
+---
+message: 'Question for the mobile developers here: I have zero experience with iOS
+  and Android so excuse my ignorance. I''m working with a vendor that''s consuming
+  a RESTful API I''m maintaining and every time they face a problem with the APIs
+  and I ask them for a request sample they give me a hard time and they almost never
+  send an actual request (header, body) nor a response. Their argument is that they
+  can not access the raw request data because neither iOS nor Android SDKs allows
+  them to do so. Like I said I''ve never touched neither iOS nor Android but I''ve
+  been writing software for almost two decades under multiple environments and I find
+  that hard to believe, Can this actually be true or are they just incompetent?'
+from:
+  name: Abdelrahman Ghareeb
+  id: '10155827364301005'
+type: status
+created_time: '2017-01-02T14:42:29+0000'
+updated_time: '2017-01-02T18:05:51+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1343822795657425/
+id: '172338516139198_1343822795657425'
+reactions:
+  data:
+  - id: '1772542006152666'
+    name: Mohamed AbuIssa
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhPVEEyTlRBNU16RXlPakUwT0RNek5qZAzROamc2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXhPVEEyTlRBNU16RXlPakUwT0RNek5qZAzROamc2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-01-02T14:43:59+0000'
+    from:
+      name: Ramy Wafa
+      id: '1461293227327009'
+    message: Hassan Ibraheem
+    id: '1343824462323925'
+  - created_time: '2017-01-02T14:44:51+0000'
+    from:
+      name: Mahmoud Tantawy
+      id: '10156115350739764'
+    message: You should have some sort of middle layer like postman or swagger where
+      both of you should use, to make sure languages/libraries/tools don't affect
+      the requests.
+    id: '1343824855657219'
+  - created_time: '2017-01-02T14:48:26+0000'
+    from:
+      name: Islam AbdelMohaimen Hassan
+      id: '10214796374519514'
+    message: I've never needed to do it in android, and it probably need some extra
+      work to get the raw request/response, but you can easily get each component
+      of it like header, body, params...etc on it's own using get methods from the
+      response object
+    id: '1343826378990400'
+  - created_time: '2017-01-02T14:51:41+0000'
+    from:
+      name: Hassan Ibraheem
+      id: '10157236848478228'
+    message: Incompetent is the right word, if I understand you correctly. Unless
+      you are using a binary format, it should be quite easy to capture these details
+      either in logs, or using a proxy (like Charles). As long as we're talking about
+      dev builds here, not live releases.
+    id: '1343827675656937'
+  - created_time: '2017-01-02T15:10:35+0000'
+    from:
+      name: Mohamed Ossama Abdallah
+      id: '10155077834231790'
+    message: I would say they just don't have enough experience using other people's
+      APIs and communicating to the backend devs about it... One of the easiest ways
+      to get the full request/response with headers and everything from a mobile app
+      is using Charles proxy, it has a free trial and it's a self-intuitive gui tool,
+      so ideal for that case
+    id: '1343837602322611'
+  - created_time: '2017-01-02T16:17:52+0000'
+    from:
+      name: Amr Yousef
+      id: '10216129314284453'
+    message: One way to do it is to log the request and the response using the adb
+      Tool. Maybe ask them to do that
+    id: '1343876015652103'
+  - created_time: '2017-01-02T18:05:49+0000'
+    from:
+      name: Ahmed Shaker
+      id: '10159924810845123'
+    message: Fiddler FTW when it comes to dealing with noobs
+    id: '1343946782311693'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0wTXpneU5EUTJNak15TXpreU5Ub3hORGd6TXpZANE1qUXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0wTXprME5qYzRNak14TVRZANU16b3hORGd6TXpnd016UTUZD

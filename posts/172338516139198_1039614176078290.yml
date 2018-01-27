@@ -1,0 +1,25 @@
+---
+message: |-
+  I have a technical question
+  say I have a monthly subscription service that is using an RFID card
+
+  we all know RFID cards can be cloned
+
+  now if someone got a month description and cloned his RFID card to say 10 of his friends
+  now this card is abusing the system and used 10 times instead of one time
+
+  one solution I got is to limit the usage of the service by location i.e ( you cant use the service in Boston 5mins after using it in San Francisco. and this can be using location logging but it has a problems if the abusers use the service from the same hubs
+
+  do you guys have any other solution to this problem? or is there any best-practice solution to this problem?
+  to make the domain slightly specific lets say the service is a Ferry Transportation Service
+  Ferries can take from 5 mins and upto 30 mins and even an hour in the sea crossing rivers and passing to islands
+
+  sorry for the long post :D
+from:
+  name: Essam A. Hassan
+  id: '1555752981144826'
+type: status
+created_time: '2015-12-02T12:54:26+0000'
+updated_time: '2015-12-05T05:26:17+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1039614176078290/
+id: '172338516139198_1039614176078290'

@@ -1,0 +1,43 @@
+---
+message: |-
+  I'm implementing REST service..
+  can I have both "content-encoding" & "content-length" headers?
+
+  when I added the "content-encoding": "gzip" header the "content-length" header substituted with "Transfer-Encoding": "chunked"
+
+  by the way I'am using spring.
+from:
+  name: Ahmed Mūsā
+  id: '379428549186517'
+type: status
+created_time: '2017-01-26T08:22:34+0000'
+updated_time: '2017-02-25T14:37:06+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1366732510033120/
+id: '172338516139198_1366732510033120'
+comments:
+  data:
+  - created_time: '2017-01-27T06:39:28+0000'
+    from:
+      name: Ahmed Mūsā
+      id: '379428549186517'
+    message: anyone could help?
+    id: '1367921303247574'
+  - created_time: '2017-01-27T07:09:08+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: |-
+      Yes, you can have content-encoding and content-length, but you can't have Transfer-Encoding: chunked as well as content-length (nor do you need to).
+
+      No experience with spring.
+    id: '1367933069913064'
+  - created_time: '2017-02-25T13:20:17+0000'
+    from:
+      name: Ahmed Mūsā
+      id: '379428549186517'
+    message: anyone could help
+    id: '1400521273320910'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0yTnpreU1UTXdNekkwTnpVM05Eb3hORGcxTkRrNU1UWTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF3TURVeU1USTNNek15TURreE1Eb3hORGc0TURJNE9ERTMZD

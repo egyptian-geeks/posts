@@ -1,0 +1,63 @@
+---
+message: |-
+  السلام عليكم
+  دلوقتى انا بواجه شوية تحديات ومشاكل وعاوز اتعرف على افضل حل ليها من اللى اشتغلها قبل كدة.
+
+  1- بطور موقع لمستشفى مثلا ومحتاج اعمل feature ان ال user يقدر يتبرع online.
+
+  2- لو عندى موقع (كورة مثلا) وعاوز ابيع عليه تيشيرتات بس هو مش موقع online store زى امازون وسوق، مجرد منتج واحد عاوز اى حد يدخل بيانات الشراء ويختار التيشيرت والshipping مثلا ويجيله بعد كدة.
+
+  3- افضل طريقة اعمل بيها نسختين من الموقع عربى وانجليزى من غير ما اعمل نسختين بجد :D
+
+  ازاى اعمل الحاجات دى ؟
+  بشتغل python/django
+from:
+  name: إسلام بيومى
+  id: '2007123029304824'
+type: status
+created_time: '2017-04-06T20:19:44+0000'
+updated_time: '2017-04-06T21:20:30+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1444940865545617/
+id: '172338516139198_1444940865545617'
+reactions:
+  data:
+  - id: '10212650036184692'
+    name: Amgd Gocha
+    type: LIKE
+  - id: '2022833371324486'
+    name: Abdelrahman Hassan
+    type: LIKE
+  - id: '402301146892668'
+    name: Esso de Nasr
+    type: LIKE
+  - id: '1641565752594739'
+    name: Ahmed Aziz
+    type: LIKE
+  - id: '1208358265962928'
+    name: Muhammad Tarek
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRFNU9UQXlOalUxTVRveE5Ea3hOVEl3TVRReE9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBd01EQXpOall5T1RjMU1qRXhPakUwT1RFMU1UQXdNems2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-04-06T20:22:57+0000'
+    from:
+      name: Haider Ghaleb
+      id: '10156130804779630'
+    message: If you are serving Egyptian market, you will need to build your own gateway
+      or use a 3rd party. If you serve international, then you have Stripe & PayPal
+    id: '1444943848878652'
+  - created_time: '2017-04-06T20:55:41+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: |-
+      If all your problem is in the Arabic and English text, and right to left / left to right, just use whatever Localization capability offer by Django.
+      https://docs.djangoproject.com/en/1.10/topics/i18n/
+    id: '1444979835541720'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEwTkRrME16ZAzBPRGczT0RZAMU1qb3hORGt4TlRFd01UYzMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEwTkRrM09UZA3pOVFUwTVRjeU1Eb3hORGt4TlRFeU1UUTIZD

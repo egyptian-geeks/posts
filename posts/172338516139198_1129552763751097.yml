@@ -1,0 +1,48 @@
+---
+message: I need JavaScript library to convert html to PDFs and suitable for Arabic
+  content ?
+from:
+  name: Esraa Mansour
+  id: '10211881564088533'
+type: status
+created_time: '2016-04-22T13:25:51+0000'
+updated_time: '2016-04-25T21:36:13+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1129552763751097/
+id: '172338516139198_1129552763751097'
+comments:
+  data:
+  - created_time: '2016-04-22T13:46:18+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      You cannot do this conversion client side.
+      You'll need to do it server side.
+      If you are looking for a free tool, my favourite is wkhtmltopdf.org
+      It uses  Webkit rendering engine.
+      It's an executable, but there are a few wrappers for calling it from different programming languages.
+    id: '1129562767083430'
+  - created_time: '2016-04-22T13:59:37+0000'
+    from:
+      name: Esraa Mansour
+      id: '10211881564088533'
+    message: There's a free libraries for php ?
+    id: '1129567713749602'
+  - created_time: '2016-04-22T16:02:15+0000'
+    from:
+      name: Rehan Hossam
+      id: '10156484962365616'
+    message: |-
+      In most up to date browsers there is a support for printing the content and save it as .pdf file , you can even use Javascript for printing html selected content and then the user can force saving it as pdf, also you can search for making the default settings for printing to be pdf file, here you are an example for JS printing:
+      http://www.aspsnippets.com/Articles/Print-DIV-contents-with-CSS-using-JavaScript-and-jQuery.aspx
+    id: '1129641790408861'
+  - created_time: '2016-04-25T21:36:13+0000'
+    from:
+      name: Esraa Mansour
+      id: '10211881564088533'
+    message: Thank you :) :)
+    id: '1131694830203557'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV5T1RVMk1qYzJOekE0TXpRek1Eb3hORFl4TXpNeU56YzUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV6TVRZANU5EZA3pNREl3TXpVMU56b3hORFl4TmpJd01UYzAZD

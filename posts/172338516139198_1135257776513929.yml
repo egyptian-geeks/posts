@@ -1,0 +1,68 @@
+---
+message: "Is there anyone here worked with Apache Spark using python?\nI have a very
+  strange problem. I wrote a little spark streaming job that monitor an HDFS directory,
+  read the newly added files, and send the date to Kafka. \nWhen I try to submit the
+  job I got an error (ImportError: cannot import name KafkaProducer)\nThe error is
+  simple as you see, the script can not import KafkaProducer module. The problem is
+  that I could import it from python shell, ipython shell, and pyspark shell without
+  any problem. \nWhat do you think the problem is? \nHere is the code of the job\n"
+link: http://pastebin.com/mpKkMkph
+from:
+  name: Anas Rabei
+  id: '771652519692786'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQAYSms2UinI-NvF&w=130&h=130&url=http%3A%2F%2Fpastebin.com%2Fi%2Ffacebook.png&cfs=1&_nc_hash=AQACoOqQB0pjE_Bx
+created_time: '2016-05-01T11:21:36+0000'
+updated_time: '2016-05-02T10:47:16+0000'
+name: "[Python] spark_streaming_job - Pastebin.com"
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1135257776513929/
+id: '172338516139198_1135257776513929'
+comments:
+  data:
+  - created_time: '2016-05-01T11:28:15+0000'
+    from:
+      name: Anas Rabei
+      id: '771652519692786'
+    message: Maher Mohamed Gamal do you have any idea?
+    id: '1135259789847061'
+  - created_time: '2016-05-01T15:05:46+0000'
+    from:
+      name: Ahmad Ahmad
+      id: '2037041826574789'
+    message: https://github.com/dpkp/kafka-python/issues/521
+    id: '1135367829836257'
+  - created_time: '2016-05-01T23:33:10+0000'
+    from:
+      name: Mohammed Farghal
+      id: '10155396126947689'
+    message: Is the module installed on all the nodes ?
+    id: '1135627666476940'
+  - created_time: '2016-05-02T10:47:16+0000'
+    from:
+      name: Anas Rabei
+      id: '771652519692786'
+    message: "After alot of tries I could solve the issue but the solution is weird.\nSimply
+      I made \ncat old_file.py > new_file.py \nThen submit the new_file.py and every
+      thing worked fine. \nI have no idea what is going on. This is the second time
+      I am facing this problem with python scripts. \nI posted another question but
+      this time on serverfault instead of stackoverflow by this problem as I think
+      it is an operating system caching or something like that.\nHere is the link
+      if anyone is interested \nhttp://serverfault.com/questions/774275/python-script-can-not-import-kafkaproducer\nI
+      hope getting an answer.\nFinally, Thanks for you guys."
+    id: '1135891349783905'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV6TlRJMU9UYzRPVGcwTnpBMk1Ub3hORFl5TVRBeU1EazIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV6TlRnNU1UTTBPVGM0TXprd05Ub3hORFl5TVRnMk1ETTMZD
+attachments:
+  data:
+  - media:
+      image:
+        height: 250
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQBaMDzwRr_4S-i1&w=720&h=720&url=http%3A%2F%2Fpastebin.com%2Fi%2Ffacebook.png&cfs=1&_nc_hash=AQALh_R0g9PTK0qU
+        width: 250
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fpastebin.com%2FmpKkMkph&h=ATPdGhyrjDlxIwGMl8mbg5KULpSvphImZpUNcT8LN4VK-rXqFIbQi0fAR7URZEXFjBM6fIe6mV5w3ihOVhmnnNvFscAFzAdLp_08&s=1&enc=AZNY9Rcj9sOgjpjhRSHZsfgBzhP7TjA1ZtWOuApVAP8ekPN8LITgvCUqnJ6FOCj1O1VO09bpGoAK8r--4xqKl-q-
+    title: "[Python] spark_streaming_job - Pastebin.com"
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fpastebin.com%2FmpKkMkph&h=ATPdGhyrjDlxIwGMl8mbg5KULpSvphImZpUNcT8LN4VK-rXqFIbQi0fAR7URZEXFjBM6fIe6mV5w3ihOVhmnnNvFscAFzAdLp_08&s=1&enc=AZNY9Rcj9sOgjpjhRSHZsfgBzhP7TjA1ZtWOuApVAP8ekPN8LITgvCUqnJ6FOCj1O1VO09bpGoAK8r--4xqKl-q-

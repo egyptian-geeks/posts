@@ -1,0 +1,79 @@
+---
+message: |-
+  Hey guys, I have a problem, I upgraded from ubuntu 14.04 to 16.04, and my splash screen got into an infinite loop of splashing between it and VCE error message. After some searching around, I found out that it is a problem of fglrx and radeon drivers as ubuntu decided to ditch them, so I blacklisted them through recovery, but I am still getting the same error and now my laptop is inaccessible (as when the screen keeps splashing, I cant even boot into terminal using ctrl+alt+f1)
+  Error message: radeon :VCE init error (-110)
+from:
+  name: Mohamed Osman
+  id: '10156415267997448'
+type: status
+created_time: '2016-10-16T21:45:28+0000'
+updated_time: '2016-10-17T23:25:23+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1260060610700311/
+id: '172338516139198_1260060610700311'
+comments:
+  data:
+  - created_time: '2016-10-16T21:58:06+0000'
+    from:
+      name: Omar Mohsen
+      id: '1629690233758127'
+    message: Try disabling the radeon GPU from BIOS (assuming your radeon is switchable
+      graphics capable) and remove all fglrx related packages after running chroot
+      using a LiveCD
+    id: '1260065500699822'
+  - created_time: '2016-10-16T22:12:30+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: Systemd shit I think
+    id: '1260075880698784'
+  - created_time: '2016-10-16T22:13:14+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: Get into run level 0 from grub and you got root
+    id: '1260078727365166'
+  - created_time: '2016-10-16T22:16:05+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: Sounds like when I would do a complete new install
+    id: '1260080494031656'
+  - created_time: '2016-10-16T23:23:43+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: Hosam Shafik idea is better than mine
+    id: '1260127730693599'
+  - created_time: '2016-10-17T17:31:22+0000'
+    from:
+      name: Mohamed Amgad
+      id: '10215367467803543'
+    message: Nader Al-Sharkawy t3ala shof
+    id: '1260789510627421'
+  - created_time: '2016-10-17T17:53:48+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: "It's not grub guys \nThe assholes in canonical do some dumb shit in
+      the upgrades every lts. \nIt's drivers issue and Systemd all over again. \nSome
+      one was coding drunk as usual"
+    id: '1260824233957282'
+  - created_time: '2016-10-17T18:10:46+0000'
+    from:
+      name: Mohamed Osman
+      id: '10156415267997448'
+    message: "It is the drivers problem as negm said, I just installed a fresh copy
+      of 14.04 again, till I figure out what is happening with 16.04 \nFor reference:
+      http://www.omgubuntu.co.uk/2016/03/ubuntu-drops-amd-catalyst-fglrx-driver-16-04"
+    id: '1260834777289561'
+  - created_time: '2016-10-17T23:25:23+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: I'm running 16.04 now with an NVidia card and everything is fine, no
+      upgrade, just clean install
+    id: '1261060270600345'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkyTURBMk5UVXdNRFk1T1RneU1qb3hORGMyTmpVMU1EZAzIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkyTVRBMk1ESTNNRFl3TURNME5Ub3hORGMyTnpRMk56SXoZD

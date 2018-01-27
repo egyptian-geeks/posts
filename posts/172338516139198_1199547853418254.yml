@@ -1,0 +1,148 @@
+---
+message: |-
+  في google page speed insights بيقترحو شوية حاجات عشان تحسن استخدامك لـ CSS:
+  1 استخدام file واحد لـ CSS عشان تقليل الـ requests للـ server
+  2 تقسيم الكود لـ critical يتكتب في الـ head و non-critical في extrenal file
+  3 الـ external file هيبدأ استخدامه بعد الـ rendering وفي اكتر من طريقة لدا
+  كل دا عادي وبسيط
+  المشكلة بقا لو انا هستخدم framework كدا هيبقى في اكتر من file + هيبقى صعب اقسم الكود لـ critical و non-critical عشان هيبقى في حاجات critical من ال framework واكيد مش هكتبه في الاول وبعد كدا ينزل تاني مع الـ framework + لو انا عملت override على الـ framework في الـ critical code هضطر اعيد كتابته تاني في external file عشان يـ override على الـ framework
+  انا ممكن اعدل في الـ framework نفسها واعمل file واحد وكل المشاكل دي هتتحل بس دا مش حلو عشان الـ standarization
+  فـ ايه الحل؟
+from:
+  name: Ahmad Khalid
+  id: '1778098102490565'
+type: status
+created_time: '2016-08-09T08:57:55+0000'
+updated_time: '2016-08-12T18:24:30+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1199547853418254/
+id: '172338516139198_1199547853418254'
+reactions:
+  data:
+  - id: '1586702514711722'
+    name: Mahmoud Ahmed
+    type: LIKE
+  - id: '10157144460289251'
+    name: Mohamed Sayed
+    type: LIKE
+  - id: '10155100383776120'
+    name: Ahmed Moawed Hamed
+    type: LIKE
+  - id: '10156191099748000'
+    name: Shady Mohamed Sherif
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhNVFU1TmpZAME1qWXdPakUwTnpBM05EazJORFk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TlRVMk5qTTNPVGs1T2pFME56QTNNelk0TXpVNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-08-09T09:15:48+0000'
+    from:
+      name: Bassam Abd Elhamid
+      id: '1955441501387657'
+    message: مش عارف, بس على سبيل الفتى, متستخدمش فريم ورك, او كبر دماغك من النقطة
+      دى فى المقابل.
+    id: '1199553453417694'
+  - created_time: '2016-08-09T09:29:58+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: انت تقصد لو مستخدم CSS Framework مش كده؟ لأن المشكلة دى مقابلانى برضه
+      و اضطريت اتغاضى عن جزء اننى اقسم الCSS لجزئين ده وخليت الاولوية لكل النقاط التانية
+      بكده وصلت ل٩١٪ فى الديسكتوب https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fwww.whoispopulartoday.com%2F&tab=desktop
+    id: '1199557786750594'
+  - created_time: '2016-08-09T09:35:50+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: عدل البوست خلي اول كلمة عربي عشان يكون كله مقروء من اليمين للشمال كويس
+    id: '1199560170083689'
+  - created_time: '2016-08-09T09:55:19+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      Using a single file: the frameworks I know allow you to generate a single file & use it - or they already have a prepared one on a DNS.
+
+      Splitting your CSS into critical & non-critical: I don't suggest doing this by hand. I found this tool which should help, but I didn't use it myself https://github.com/addyosmani/critical.
+    id: '1199566100083096'
+  - created_time: '2016-08-09T10:16:22+0000'
+    from:
+      name: Eslam Mostafa
+      id: '1575768239208294'
+    message: في حاجة اسمها bundling، بيستخدم uglifyjs مثلًا عشان يعمل minifications
+      لملفات ال css او الجافاسكربت ويخليهم ملف واحد للجافاسكربت وملف واحد للجافاسكربت.
+    id: '1199578523415187'
+  - created_time: '2016-08-09T10:16:24+0000'
+    from:
+      name: Eslam Mostafa
+      id: '1575768239208294'
+    message: ممكن تعمل كدا باستخدام gulp js او gruntjs عشان ت automate الموضوع
+    id: '1199578526748520'
+  - created_time: '2016-08-09T10:26:58+0000'
+    from:
+      name: Ahmed Badawy
+      id: '1596110217148252'
+    message: "انت مش لازم تخلى كله فى ملف واحد. ركويست من اتنين مش هتفرق نهاءى. \nهم
+      بيتكلمو عالناس الى بيقسمو الكود ل 20 ملف css و 200 ملف js  و العبط الى بنشوفه
+      ده."
+    id: '1199585563414483'
+  - created_time: '2016-08-09T10:50:22+0000'
+    from:
+      name: Mohamed Azazy
+      id: '2278815482143916'
+    message: اللي هتكتبه في الـ head مش هتحتاج تعيد كتابته من تاني في ملف خارجي إلا
+      في حالة إنك شغال Responsive ومحتاج تعدل في حالات زي كدة هتضطر تستخدم !important
+      ... في جميع الأحوال من الأفضل دايماً تخلي ملفات CSS/JS في ملف واحد علشان سرعة
+      تحميل وفتح الصفحات نفسها.. كل ملف زيادة المتصفح بسببه بيعمل New Request للسيرفر
+      بيسبب في بطئ الموقع نفسه..
+    id: '1199598013413238'
+  - created_time: '2016-08-09T11:35:37+0000'
+    from:
+      name: Ahmed Osama
+      id: '2003168383032265'
+    message: |-
+      متضحيش بال functions و لا بال standardization علشان ترضي Google Page Speed
+
+      ابسط مثال كان عاملي recommend بخصوص ملف ال css الوحيد عندي
+
+      Eliminate render-blocking JavaScript and CSS in above-the-fold content
+
+      عايزيني محطش تعريف ملف ال css في ال head علشان ال browser  ميعملش block لتحميل الصفحة لحد ما يحمل ملف css او استخدم طريقة طريقة ال aysnc في تحميل ال css
+
+      النتيجة لما تبدا الصفحة بالتحميل.  ال browser بيبدا يعرضها علطول قبل ما يكون ال css اتحمل.  فبتظهر الصفحة للمستخدم من غير اي style شكلها بيبقى زباله....
+    id: '1199627716743601'
+  - created_time: '2016-08-09T11:57:37+0000'
+    from:
+      name: Ahmed Tawfik
+      id: '2083580098542737'
+    message: ليه "المشكلة بقا لو انا هستخدم framework كدا هيبقى في اكتر من file" مش
+      فاهم ليه هيكونوا اكتر من file
+    id: '1199641090075597'
+  - created_time: '2016-08-10T16:55:44+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: |-
+      Critical CSS is important if you want to pass 92 on Google Page Speed Insights ... Applying critical CSS brought us up to 98 on robustastudio.com (the missing 2 points are causing by external resources we have no control over like Google tag manager and another external script) ...
+      I have read most of the comments and let me tell you that you *MUST* care about what PageSpeed tells you as long as you have control over the points it is mentionning. It will bring you up in search results whether you like it or now :)
+      Right now you need to combine all the assets into one file (CSS particularly) during your build process ... That mean you include your own CSS + CSS you're using from other vendors ...Side note: For people saying it isn't acceptable to serve 20 CSS files, wait till serving one huge file become an anti-pattern with the rise of http2 (benchmarks proved that serving multiple small files over http2 have better performance and speed than serving one file)
+      After combining your files, there are online tools, grunt and gulp tasks and other methods that extract the CSS you're using above the fold automatically and inject it into your head.
+      Why is critial CSS important? Because browsers learned to block rendering while you are downloading CSS files to stop what we call FOUC or Flash or Unstyled Content ... This rule isn't applied on CSS that's embedded inside the document using the style tag. This is why  it improve the page loading. You give your users the ability to read content on your website before all the CSS files are downloaded
+    id: '1200591109980595'
+  - created_time: '2016-08-11T03:20:52+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: viewsource of www.smashingmagazine.com
+    id: '1201091866597186'
+  - created_time: '2016-08-12T16:55:52+0000'
+    from:
+      name: Sherif Medhat
+      id: '10155008686891793'
+    message: Hameed Gamal Mohamed Ali Abuelwafa Hadeer Yonis Mostafa Nawara
+    id: '1202414029798303'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU1T1RVMU16UTFNelF4TnpZANU5Eb3hORGN3TnpNME1UUTUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl3TWpReE5EQXlPVGM1T0RNd016b3hORGN4TURJd09UVXkZD

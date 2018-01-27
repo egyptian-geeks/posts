@@ -1,0 +1,39 @@
+---
+message: "#Canvas quick help please =D \ni have canvas board 400 px  * 300 px . and
+  i want canvas size to be 4000 px * 5000 px as i need resolution be higher when i
+  export it .\nbut device screen is 400 px  * 300 px .\nif i set style of this large
+  canvas size  to match area of the parent it will show only small part of canvas
+  not all area .\ni did  search How to display big canvas in small area but  answer
+  was to change internal canvas resolution to match the parent area ,i  didn't want
+  to do this as i want to export canvas with high resolution ."
+from:
+  name: Amr Almgwary
+  id: '1978556165731463'
+type: status
+created_time: '2017-06-10T06:10:16+0000'
+updated_time: '2017-06-10T08:31:27+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1510775698962133/
+id: '172338516139198_1510775698962133'
+comments:
+  data:
+  - created_time: '2017-06-10T08:31:24+0000'
+    from:
+      name: Ahmed Aboulenein
+      id: '10160047384135438'
+    message: 'I am not sure I fully understand the question, but generally can you
+      seat 20,000,000 persons on 300 rows each row has 400 seats while each seat capacity
+      is one person? The answer is no, you need to have maximum of 120,000 persons.
+      Device screen resolution is hardware limitation, these are the number of pixels
+      available on the screen and each pixel can have one colour, that''s why you
+      need to match to its resolution. The other problem you will face is that width
+      / height ratios are different: 4/3 and 4/5, you may want to centre it and add
+      padding to match the device ratio. You may still be able to keep the original
+      canvas resolution (maybe in separate memory) and support zooming in to view
+      the details with better quality. Implementation depends on what software stack
+      you use. If you really need this higher resolution, then you need to get a device
+      that supports this resolution and can show all these pixels.'
+    id: '1510875538952149'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV4TURnM05UVXpPRGsxTWpFME9Ub3hORGszTURnek5EZAzAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV4TURnM05UVXpPRGsxTWpFME9Ub3hORGszTURnek5EZAzAZD

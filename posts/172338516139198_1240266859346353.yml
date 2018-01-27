@@ -1,0 +1,141 @@
+---
+message: |-
+  Dears,
+  In the light of the recent security breaches I started to think about using password managers :( even though I really hate the idea of a  central place with all of the passwords
+  I wanted to know if you think it's a good idea to use a password manager or not ? Also is there a password manager that can change all of your passwords at once ?
+from:
+  name: Muhammad Saleh
+  id: '10156649659196002'
+type: status
+created_time: '2016-09-24T10:26:33+0000'
+updated_time: '2016-09-25T20:12:45+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1240266859346353/
+id: '172338516139198_1240266859346353'
+reactions:
+  data:
+  - id: '10155904322461093'
+    name: Mohamed Shehata
+    type: LIKE
+  - id: '10156160579005929'
+    name: Abdurrahman Nasr
+    type: LIKE
+  - id: '1730787373611486'
+    name: Ammar Yasser
+    type: LIKE
+  - id: '1237674946332538'
+    name: Faisal Hameed
+    type: LIKE
+  paging:
+    cursors:
+      before: TnpBM056RXhNRGt5T2pFME56UTNNamN5TVRFNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQXlOekF4TXpNMk16UTRPakUwTnpRM01UWXlNekE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-09-24T10:36:11+0000'
+    from:
+      name: Sabr Bry
+      id: '10203807938637084'
+    message: |-
+      use a formula between the user name and the website instead
+      or
+      Use a password manager and save the passwords with extra character(s) or backwards ..etc
+    id: '1240270042679368'
+  - created_time: '2016-09-24T10:46:51+0000'
+    from:
+      name: Mohammed Hussien
+      id: '10154922289347024'
+    message: ":D never use a password managers ! in case you been hacked you are dead
+      !"
+    id: '1240273506012355'
+  - created_time: '2016-09-24T10:52:10+0000'
+    from:
+      name: Hassan Ibraheem
+      id: '10157236848478228'
+    message: If you need a password manager, I'd recommend using an offline password
+      manager. Online is never a good idea when it comes to passwords.
+    id: '1240275582678814'
+  - created_time: '2016-09-24T10:52:16+0000'
+    from:
+      name: Ahmed Zaki
+      id: '10155921159532177'
+    message: Password managers are not a bad idea at all as long as you use offline
+      ones.
+    id: '1240275602678812'
+  - created_time: '2016-09-24T11:02:29+0000'
+    from:
+      name: Amr Tag
+      id: '10211180899988571'
+    message: "Why not try one password?\nIt stores your passwords locally. \nOr the
+      iCloud Keychain."
+    id: '1240282426011463'
+  - created_time: '2016-09-24T11:03:20+0000'
+    from:
+      name: Ashraf Gawdat
+      id: '10154826556046618'
+    message: 'I prefer the following approch: create a pattern in your head that only
+      you know, this pattern can generate a password using a hint (i.e. key) and store
+      only the key. The pattern should be simple enough to remember but hard for any
+      one to guess, maybe related to some very personal info that no one knows.'
+    id: '1240282909344748'
+  - created_time: '2016-09-24T11:16:43+0000'
+    from:
+      name: Hussein Khalifa
+      id: '10100126826681456'
+    message: Couple your password manager with 2 factor authentication. Even access
+      to you local password store should be using 2fa. Check yubico
+    id: '1240289332677439'
+  - created_time: '2016-09-24T15:52:03+0000'
+    from:
+      name: Abdelrady Fcis
+      id: '10214861141222529'
+    message: Password pattern, and use forget my password if it happened and forget
+      website password
+    id: '1240481539324885'
+  - created_time: '2016-09-24T15:52:36+0000'
+    from:
+      name: Mahmoud Refaat
+      id: '10159882193515635'
+    message: I use password managers for all accounts except the most critical ones
+      (My email and bank accounts). It becomes much easier to remember two or three
+      unique and hard passwords when you offloaded all the not so critical accounts
+      off of your head.
+    id: '1240482629324776'
+  - created_time: '2016-09-24T17:16:16+0000'
+    from:
+      name: Ahmed Samir
+      id: '10159800858645702'
+    message: What about Mac's KeyChain?
+    id: '1240533715986334'
+  - created_time: '2016-09-24T17:28:09+0000'
+    from:
+      name: Alaa Ali
+      id: '10156025239731303'
+    message: Security breaches could reach password managers too.
+    id: '1240540175985688'
+  - created_time: '2016-09-25T03:36:24+0000'
+    from:
+      name: Mohamed Hassan
+      id: '1826387390767203'
+    message: |-
+      Try KeePass.. Lock its database with a random key file on your machine (recommended) and store passwords with suffix/prefix (optional)
+      http://security.stackexchange.com/a/58635
+    id: '1240893029283736'
+  - created_time: '2016-09-25T03:47:11+0000'
+    from:
+      name: Hossam Barakat
+      id: '10159845140160623'
+    message: You should use password manager. I'd recommend 1Password https://agilebits.com
+      and for more details about passwords   https://www.troyhunt.com/only-secure-password-is-one-you-cant/  finally
+      register at https://haveibeenpwned.com to get notification when you account
+      is breached
+    id: '1240901435949562'
+  - created_time: '2016-09-25T03:52:17+0000'
+    from:
+      name: Hossam Barakat
+      id: '10159845140160623'
+    message: Another good read about password managers https://nakedsecurity.sophos.com/2016/07/19/why-you-should-use-a-password-manager/
+    id: '1240905215949184'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkwTURJM01EQTBNalkzT1RNMk9Eb3hORGMwTnpFek16Y3gZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkwTURrd05USXhOVGswT1RFNE5Eb3hORGMwTnpjMU5UTTQZD

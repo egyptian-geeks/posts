@@ -1,0 +1,204 @@
+---
+message: Dear experienced front-end/UI developers I got the chance to work on huge
+  project so everything I do is count. So I decided to follow CSS architecture with
+  preprocessor. I have decided a Sass for the preprocessor but still try to find the
+  best architecture that goes well with it. I did my research and I found that there
+  are  2 or 3 or combination from them (BEM - SMACSS - rscss). Anyone suggest anything
+  from his previous experience or a guideline you are very welcome.
+from:
+  name: Ahmed Magdy
+  id: '10155113612632882'
+type: status
+created_time: '2016-11-29T20:18:57+0000'
+updated_time: '2016-12-01T00:02:27+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1307745369265168/
+shares:
+  count: 2
+id: '172338516139198_1307745369265168'
+reactions:
+  data:
+  - id: '1693242520734820'
+    name: Mahmoud Zohdi
+    type: LIKE
+  - id: '1547373045377964'
+    name: Ahmed Sayed
+    type: LIKE
+  - id: '1697134497019996'
+    name: Hassan Hafez
+    type: LIKE
+  - id: '1586702514711722'
+    name: Mahmoud Ahmed
+    type: LIKE
+  - id: '1570218796388620'
+    name: عبدالرحمن محمود
+    type: LIKE
+  - id: '2083580098542737'
+    name: Ahmed Tawfik
+    type: LIKE
+  - id: '10154920298511537'
+    name: Adham Gad
+    type: LIKE
+  - id: '10160046432525232'
+    name: Rasha Nour Eldin
+    type: LIKE
+  - id: '1955441501387657'
+    name: Bassam Abd Elhamid
+    type: LIKE
+  - id: '10155866336577597'
+    name: Mohamed Taraman
+    type: LIKE
+  - id: '10214080331513711'
+    name: Ebram Tharwat
+    type: LIKE
+  - id: '10214818255267156'
+    name: Ahmed A. Ibrahim
+    type: LIKE
+  - id: '10213390901000267'
+    name: Mohamed Abuelanin
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhORGN5TmpRME5UWTNPakUwT0RJMk1qRTJOVGM2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRZAek1UVTFOems1TkRveE5EZA3dORFV3T0RBME9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2016-11-29T20:54:23+0000'
+    from:
+      name: Ahmed Magdy
+      id: '10155113612632882'
+    message: Ahmad Alfy
+    id: '1307768862596152'
+  - created_time: '2016-11-29T20:57:21+0000'
+    from:
+      name: أحمد محمود محمد عبدالوهاب
+      id: '10155226291481186'
+    message: |-
+      BEM is the most useful out of them from my experience. It can be tricky at the beginning to decide what will be modules or not, but as you go, it will get better! specially that the naming convention is really epic! You can also use a variant of it. You don't need to copy it literally ofc.
+      And there's a file structure that Ahmad Alfy knows its name which is seriously helpful when you're working on huge projects.
+    id: '1307773229262382'
+  - created_time: '2016-11-29T21:21:27+0000'
+    from:
+      name: Hossam A. Mourad
+      id: '1935058943189364'
+    message: I go with BEM, it works very well with Sass and it explains itself really,
+      from the first glance you will know which Sass rules goes with which element.
+    id: '1307785162594522'
+  - created_time: '2016-11-29T21:24:25+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: |-
+      Look to make things sane at the beginning you cannot start with everything at the same time. You have to take it step by step. Start with BEM. It's the best thing happened to CSS in the last decade and will give you a huge leap toward maintainability and scalability.
+      Remember that BEM isn't just about the naming convention but also toward writing selectors with low specificity.
+      One more thing I learned from experience is; always refactor your code. No shame in gonig back and rewriting a module again to enhance it and make it more generic.
+      You should check OOCSS, basically separate structure from presentation. The most basic example to understand is using the grid example from frameworks like bootstrap when constructing anything that utilize a grid rather than rewriting it again. You should refactor your code never have 2 different ways to do one thing.
+      Lastly, you need to check ITCSS. It basically tell you how your files should be structured to improve your specificity graph. ITCSS help your project grow in size without growing in complexity. This video explain that very well
+      https://www.youtube.com/watch?v=1OKZOV-iLj4
+      One last thing ... Preprocessor will only help you get your output faster but the quality is really left to you.
+    id: '1307786042594434'
+  - created_time: '2016-11-29T21:26:22+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: |-
+      Before ITCSS I used to follow a pattern proposed by Hugo Giraudel called  7-1 architecture pattern. It also worth checking if you're not comfortable with ITCSS
+      https://github.com/HugoGiraudel/sass-boilerplate
+    id: '1307786705927701'
+  - created_time: '2016-11-29T22:43:30+0000'
+    from:
+      name: Mohamed Amin
+      id: '2016714868586746'
+    message: |-
+      This thread is very helpful! I was rewriting the whole mobile site css and went through all of those questions.
+      One more question to add, what are the best practices you guys suggest for RTL support?
+    id: '1307823452590693'
+  - created_time: '2016-11-29T23:15:06+0000'
+    from:
+      name: Ibrahem Amin
+      id: '10157052765627598'
+    message: "for me after working on few large scale projects. I can recommend http://postcss.org/
+      because it behaves like any preprocessor you need and it can be extended with
+      more than 200 plugins especially if you are working with react and taking CSSmodules
+      approach.\nif you have time you can check the following talk \nhttps://www.youtube.com/watch?v=1vbBLc-fgWk
+      \nand also check the most famous plugin for postcss so far here:\nhttp://cssnext.io/\nit
+      works according to upcoming css drafts."
+    id: '1307838109255894'
+  - created_time: '2016-11-29T23:35:29+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: |-
+      Mohamed Amin I follow a strategy for RTL. Usually I don't start it till the LTR version is over then I start working on the RTL. I use a Chrome plugin called MyStyle. Simply CTRL + M you get a text area where you can write your CSS to flip the website. It keep your style bounded to the domain so when you go from page 1 to 2 you still have the CSS you wrote there.
+      I start with the layout stuff (floats, directions, text-align) and move on to handling special cases later.
+      I was working on a better strategy using a PostCSS plugin that generate the opposing version using the future syntax. Currently it only support start and end values and I planned to add the counter-clockwise version of the padding/margin values and more stuff. Probably it is time to work on that plugin again :) It should generate the RTL version from the future syntax.
+      This is the Chrome extension:
+      https://chrome.google.com/webstore/detail/my-style/ljdhjpmbnkbengahefamnhmegbdifhlb
+      This is the logical-properties plugin:
+      https://github.com/ahmadalfy/postcss-logical-properties
+    id: '1307849445921427'
+  - created_time: '2016-11-30T05:31:39+0000'
+    from:
+      name: Muhammad Saleh
+      id: '10156649659196002'
+    message: |-
+      For RTL
+      I use a technique which is having 2 main scss files
+      style.scss
+      style_ar.scss
+      each one of them sets some global variables like:
+      $direction: ltr;
+      $dir: left;
+      $dir-opposite: right;
+
+      and the opposite in the style_ar.scss file
+
+      and both of the files import the same partial which is _style.scss
+      all of your code should reside there
+
+
+      in _style.scss we don't write directions we just use the global variables
+      example:
+
+      div { direction: $direction}
+      div { margin-#{$dir}: 10px}
+      ..etc
+
+      when you preprocess you will have 2 files
+      style.css
+      style_ar.css
+      with the proper directions and everything
+    id: '1308038099235895'
+  - created_time: '2016-11-30T06:11:01+0000'
+    from:
+      name: Ahmed Magdy
+      id: '10155113612632882'
+    message: Guys regarding the rtl and ltr there is a solution that you make everything
+      has direction in mixin-ltr  and mixin-rtl and import each one in 2 different
+      compilation and you will get style-ar that have mixin-rtl and style-en that
+      have mixin-ltr
+    id: '1308054082567630'
+  - created_time: '2016-11-30T07:38:55+0000'
+    from:
+      name: Ahmed Tawfik
+      id: '2083580098542737'
+    message: F
+    id: '1308094085896963'
+  - created_time: '2016-11-30T08:19:39+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: Mohamed Amin I wrote an article 2 years ago about some practices in authoring
+      RTL stylesheets I think it might be useful https://alfy.me/2014/07/26/lets-talk-about-rtl.html
+    id: '1308113689228336'
+  - created_time: '2016-11-30T08:38:43+0000'
+    from:
+      name: Mohamed Amin
+      id: '2016714868586746'
+    message: |-
+      Ahmad Alfy btw I just found super cool thing, thanks to you, I just found that direction:rtl, will do the same effect of flex-direction: row-reverse
+       :D the rtl styles just went lighter
+    id: '1308122015894170'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE13TnpjMk9EZAzJNalU1TmpFMU1qb3hORGd3TkRVeU9EWXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE13T0RFeU1qQXhOVGc1TkRFM01Eb3hORGd3TkRrMU1USTAZD

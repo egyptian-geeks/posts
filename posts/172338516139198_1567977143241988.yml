@@ -1,0 +1,57 @@
+---
+message: |-
+  Starting Oracle Net Listener...Done
+  Configuring database...
+  Database Configuration failed. Look into /u01/app/oracle/product/11.2.0/xe/config/log for details
+from:
+  name: Ahmed Saber
+  id: '10215232240456289'
+type: status
+created_time: '2017-08-04T11:42:35+0000'
+updated_time: '2017-08-04T11:47:05+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1567977143241988/
+id: '172338516139198_1567977143241988'
+comments:
+  data:
+  - created_time: '2017-08-04T11:42:49+0000'
+    from:
+      name: Ahmed Saber
+      id: '10215232240456289'
+    message: 'Solutions i try :'
+    id: '1567977336575302'
+  - created_time: '2017-08-04T11:43:17+0000'
+    from:
+      name: Ahmed Saber
+      id: '10215232240456289'
+    message: ''
+    id: '1567977633241939'
+  - created_time: '2017-08-04T11:43:57+0000'
+    from:
+      name: Ahmed Saber
+      id: '10215232240456289'
+    message: "nano /etc/init.d/oracle-shm\n\nadd text\n\n#! /bin/sh \n# /etc/init.d/oracle-shm
+      \n# \ncase \"$1\" in \nstart) \necho \"Starting script /etc/init.d/oracle-shm\"
+      \n# Run only once at system startup  \nif [ -e /dev/shm/.oracle-shm ]; then
+      \necho \"/dev/shm is already mounted, nothing to do\" \nelse \nrm -f /dev/shm
+      \nmkdir /dev/shm \nmount --move /run/shm /dev/shm \nmount -B /dev/shm /run/shm
+      \ntouch /dev/shm/.oracle-shm \nfi \n;; \nstop) \necho \"Stopping script /etc/init.d/oracle-shm\"
+      \necho \"Nothing to do\" \n;; \n*) \necho \"Usage: /etc/init.d/oracle-shm {start|stop}\"
+      \nexit 1 \n;; \nesac \n# \n### BEGIN INIT INFO \n# Provides: oracle-shm \n#
+      Required-Start: $remote_fs $syslog \n# Required-Stop: $remote_fs $syslog \n#
+      Default-Start: 2 3 4 5 \n# Default-Stop: 0 1 6 \n# Short-Description: Bind /run/shm
+      to /dev/shm at system startup. \n# Description: Fix to allow Oracle 11g use
+      AMM. \n### END INIT INFO\n\nmake the file executable\n\nchmod 755 /etc/init.d/oracle-shm\n/etc/init.d/oracle-shm
+      start\n\nAt this stage reboot, then check\n\ndf -kh /dev/shm\n\nfurther proceed
+      to emulate chkconfig and continue with rest of configuration and install\n\ndpkg
+      -i oracle-xe-11.2.0-1.0.x86_64.deb"
+    id: '1567978079908561'
+  - created_time: '2017-08-04T11:47:02+0000'
+    from:
+      name: Ahmed Saber
+      id: '10215232240456289'
+    message: guidance to install oracle i folow   https://askubuntu.com/questions/566734/how-to-install-oracle-11gr2-on-ubuntu-14-04/739718
+    id: '1567980453241657'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUyTnprM056TXpOalUzTlRNd01qb3hOVEF4T0RRMk9UWTUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUyTnprNE1EUTFNekkwTVRZAMU56b3hOVEF4T0RRM01qSTAZD

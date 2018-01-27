@@ -1,0 +1,49 @@
+---
+message: |-
+  I use JSON as a database source in an IONIC App but DB is over 3MB and the app is quite slow any suggestions ?
+
+  *I tried SQLite with its plugin but I couldn't operate that big database it only worked on a small one
+from:
+  name: Osama Soliman
+  id: '879271768900112'
+type: status
+created_time: '2016-09-14T23:18:49+0000'
+updated_time: '2016-09-16T04:39:29+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1232266670146372/
+id: '172338516139198_1232266670146372'
+reactions:
+  data:
+  - id: '495080930892199'
+    name: Muhammed Nagy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01ERXhOekE0T0RnM05UWTVPakUwTnpNNE9UVTBOekk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01ERXhOekE0T0RnM05UWTVPakUwTnpNNE9UVTBOekk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-09-14T23:22:43+0000'
+    from:
+      name: Muhammad Hasan
+      id: '2033909946622355'
+    message: |-
+      If ur app is slow, i don't see how db relates to that!
+      If your data lies in the app memory and u have paging in your app, then the size of data won't matter!
+    id: '1232268403479532'
+  - created_time: '2016-09-14T23:23:20+0000'
+    from:
+      name: Muhammad Hasan
+      id: '2033909946622355'
+    message: what angular version u use?
+    id: '1232268710146168'
+  - created_time: '2016-09-16T04:39:28+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: If JSON is your DB source it will only be efficient in certain retrieval
+      scenarios, but those that require cross referencing of data will be slow naturally.
+    id: '1233211946718511'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl6TWpJMk9EUXdNelEzT1RVek1qb3hORGN6T0RrMU16WXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl6TXpJeE1UazBOamN4T0RVeE1Ub3hORGMwTURBd056WTQZD

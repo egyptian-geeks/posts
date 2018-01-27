@@ -1,0 +1,72 @@
+---
+message: "#angular_2 \nhow i can navigate from component to another ?\n\nhere is the
+  repo : https://github.com/bolahanna44/Navigation-Angular2"
+from:
+  name: Poula Wasfy
+  id: '10211724399010085'
+type: status
+created_time: '2017-06-19T19:14:45+0000'
+updated_time: '2017-06-21T09:11:29+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1520896627950040/
+id: '172338516139198_1520896627950040'
+reactions:
+  data:
+  - id: '1553410924755364'
+    name: Ahmed Alaaeldin
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlOVGswTVRNek9UWTJPakUwT1RjNU1Ea3hNVFU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlOVGswTVRNek9UWTJPakUwT1RjNU1Ea3hNVFU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-06-19T19:16:23+0000'
+    from:
+      name: Salem Magdy
+      id: '1956478351340666'
+    message: انت مذاكر الـ Routing ؟
+    id: '1520897494616620'
+  - created_time: '2017-06-19T19:17:38+0000'
+    from:
+      name: Rasha Sayed
+      id: '1757166540971264'
+    message: |-
+      constructor(private router: Router) {
+      }
+      doSomething() {
+      // ... Your code here...
+      this.router.navigate(['']);
+      }
+    id: '1520898094616560'
+  - created_time: '2017-06-19T19:31:43+0000'
+    from:
+      name: Khalid Maghawry
+      id: '2125455827668281'
+    message: Do u have a good source for learning angular 2 ?!
+    id: '1520908374615532'
+  - created_time: '2017-06-19T20:31:04+0000'
+    from:
+      name: Nour Berro
+      id: '1858822624162177'
+    message: |-
+      You can define your route in app.module file at RouterModule.forRoot(....)
+      Then you can add the route in your view [routerLink]="['YourComponentRoute']"
+    id: '1520953194611050'
+  - created_time: '2017-06-20T18:20:53+0000'
+    from:
+      name: Ahmad Magdy
+      id: '895970407247426'
+    message: "انت عامل الrouter-outlet غلط \nالمفروض في مكانها هو المكان اللي بيrender
+      فيه الcomponent \nفانت لو عايز حاجة فوقها انك تحط navigation buttons وتحتها
+      الrouter-outlet انما لو عايز الcomponent ككل بس من غير اي حاجة تانية يبقى هتكتبها\nالتعديلات
+      اللي ممكن تعملها علشان يشتغل \n1- هتعمل component جديد وتسميه loginComponent\n2-
+      هتخلي الAppComponent فيه <router-outlet></router-outlet> بس ولو عايز حاجة فوقه
+      زراير او حاجة تضيفها زي مثلا مانت عامل \n<button (click)=\"onclick()\">Login</button>\n<button
+      [routerLink]=\"['/welcome']\">Welcome</button>\n\n<router-outlet></router-outlet>\nوتخلي
+      \nonclick () {\n    this.router.navigate(['/login']);\n  }\n3- هتضيف في الRoute
+      اللي في AppModule\n { path: 'login', component: LoginComponent }"
+    id: '1521852297854473'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV5TURnNU56UTVORFl4TmpZAeU1Eb3hORGszT0RrNU56ZAzAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV5TVRnMU1qSTVOemcxTkRRM016b3hORGszT1RneU9EVXoZD

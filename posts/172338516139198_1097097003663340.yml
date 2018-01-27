@@ -1,0 +1,133 @@
+---
+message: Anyone has experience with SMS services to send and receive SMSs internationally.
+  I see many related topics on stackoverflow, but most of them is in unreasonable
+  prices for US and Canda , I want to know the options in Egypt and Middle east area.
+from:
+  name: Mohammad Ali Diab
+  id: '10155065357586363'
+type: status
+created_time: '2016-03-13T15:53:35+0000'
+updated_time: '2016-03-14T21:33:45+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1097097003663340/
+id: '172338516139198_1097097003663340'
+reactions:
+  data:
+  - id: '1596110217148252'
+    name: Ahmed Badawy
+    type: LIKE
+  - id: '10213118809797201'
+    name: Muhammad El-Hennawy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlORGM0Tmpnd09EVTJPakUwTlRjNU5qVTRNakk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRZAd01qZAzROVFF6TWpveE5EVTNPVEEzTnpjek9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2016-03-13T15:55:14+0000'
+    from:
+      name: Morad Edwar
+      id: '10215772499725897'
+    message: The prices always unreasonable if you are talking about regular SMS but
+      it's good if you're talking about Bulk SMS.
+    id: '1097098600329847'
+  - created_time: '2016-03-13T15:57:18+0000'
+    from:
+      name: Eslam Salem Mahmoud
+      id: '10157134145555299'
+    message: Try Twilio
+    id: '1097101353662905'
+  - created_time: '2016-03-13T15:57:48+0000'
+    from:
+      name: Mohammad Ali Diab
+      id: '10155065357586363'
+    message: yeah , it is regular SMS to a direct number. and it happens based on
+      an event.
+    id: '1097101826996191'
+  - created_time: '2016-03-13T15:58:55+0000'
+    from:
+      name: Nasser Mohammed Ali
+      id: '10213493310141587'
+    message: what is it exactly you wanna do?
+    id: '1097102623662778'
+  - created_time: '2016-03-13T16:03:12+0000'
+    from:
+      name: Mohammad Ali Diab
+      id: '10155065357586363'
+    message: |-
+      1- send an SMS to someone on a specific event
+      2- allow users to send to an SMS number , which should be processed by my backend services.
+
+      I want a service to do both.
+    id: '1097105596995814'
+  - created_time: '2016-03-13T16:07:33+0000'
+    from:
+      name: Mohamed Salah
+      id: '10155519294607880'
+    message: |-
+      if you want this service without " Sender Name " i have it
+      or you can use sender name to send only not received sms
+    id: '1097107280328979'
+  - created_time: '2016-03-13T16:23:29+0000'
+    from:
+      name: Mohamed Mostafa Hassan
+      id: '10155001593816507'
+    message: www.cequens.com
+    id: '1097114876994886'
+  - created_time: '2016-03-13T16:23:57+0000'
+    from:
+      name: Mohamed Mostafa Hassan
+      id: '10155001593816507'
+    message: Trial account and api integration in egypt
+    id: '1097115543661486'
+  - created_time: '2016-03-13T16:24:11+0000'
+    from:
+      name: Mahmoud Ali El-Zouhery
+      id: '10155075845336821'
+    message: https://www.twilio.com/
+    id: '1097115620328145'
+  - created_time: '2016-03-13T16:54:55+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: Plivo works fine in egypt witj good pricing
+    id: '1097131160326591'
+  - created_time: '2016-03-13T17:11:38+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: "+1 for twilio"
+    id: '1097138983659142'
+  - created_time: '2016-03-13T17:58:17+0000'
+    from:
+      name: Amir Mohamed Atia
+      id: '10155967624789840'
+    message: "على حسب حجم الابليكشن بتاعك وياترى ارسال واستقبال ولا ارسال بس \nلو
+      الابليكشن صغير وعايز سعر رخيص يبقى ممكن تعمل سيرفر انت وتوصله بفلاشة نت (اتصالات
+      -فودافون- موبينيل) وفيه api تقدر تستخدم الخط اللي جواه \nاما لو الابليشكن كبير
+      وارسال بس يبقى ممكن تشتري من مصراوي عندهم خدمة رسائل وكذا موقع تانيين عربي برده\nاما
+      لو ارسال واستقبال يبقى twilio بس مشكلته لو جيت تبعتله رسالة هتكون غاليه لان
+      الرقم بيكون امريكي"
+    id: '1097165726989801'
+  - created_time: '2016-03-14T10:40:56+0000'
+    from:
+      name: Ahmad Wahdan
+      id: '10156271069930942'
+    message: https://www.mobily.ws
+    id: '1097698876936486'
+  - created_time: '2016-03-14T10:41:30+0000'
+    from:
+      name: Ahmad Wahdan
+      id: '10156271069930942'
+    message: http://www.tekegysms.com/
+    id: '1097699146936459'
+  - created_time: '2016-03-14T21:33:43+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: Ifft
+    id: '1098113566895017'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE1TnpBNU9EWXdNRE15T1RnME56b3hORFUzT0RnME5URTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE1T0RFeE16VTJOamc1TlRBeE56b3hORFUzT1RreE1qSTAZD

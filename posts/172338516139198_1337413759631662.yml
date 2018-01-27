@@ -1,0 +1,93 @@
+---
+message: |-
+  مساء الخير، انا بقالي فتره بحسن من معرفتي بالجافاسكربت وهخلص وابدا داور على  advanced JavaScript courses علشان ناوي ابدا في side project هيبقى تطبيق اندروايد والتطبيق كبير ومعقد نوعا ما
+  ده اول مشروع موبايل ليا وانا في الاصل front-end ومعرفتي بالback-end متوسطه ومقتصره على حدود مجالي
+  فانا كنت عاوز اعرف بناء على خبراتكم اذا كانت الجافاسكربت مناسبه لتطبيقات كبيره ومعقتده نسبيا ولا اتعلم من البدايه java برغم انها اصعب جدا بالنسبالي؟ ولا تنصحوني بحاجه تالته؟ (تكون سهله نسبيا وتنفعني بعد كده في مشاريع تانيه بجانب الموبايل)
+from:
+  name: Mohamed Samir
+  id: '1579793612127821'
+type: status
+created_time: '2016-12-25T22:48:14+0000'
+updated_time: '2016-12-27T04:31:42+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1337413759631662/
+id: '172338516139198_1337413759631662'
+reactions:
+  data:
+  - id: '1821901494489008'
+    name: Adel Hegazy
+    type: LIKE
+  - id: '1560359927364731'
+    name: Mahmoud Nawwar
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdNRGMxTWpVNE16STRPakUwT0RNeU5UVXdNak02TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXhOekl5TVRZAMU16YzRPakUwT0RJNE1USXpPVFk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-12-25T23:22:47+0000'
+    from:
+      name: Mohamed Elshaarawy
+      id: '1421307971311677'
+    message: دايما ال native بيخليك تعمل كل اللى فى نفسك ... لكن لو app كبير زى ما
+      بتقول انصحك بلاش js
+    id: '1337436339629404'
+  - created_time: '2016-12-25T23:41:38+0000'
+    from:
+      name: Ahmed Mahmoud
+      id: '1917940025202392'
+    message: "علي حسب تعبيرك لكلمة نسبيا \nشوف المشروع محتاج ايه هيكون موجود فnative
+      api  ومش هينفع يتعمل hybrid / cross"
+    id: '1337445722961799'
+  - created_time: '2016-12-25T23:43:40+0000'
+    from:
+      name: Ahmed Mahmoud
+      id: '1917940025202392'
+    message: "اللغه ملهاش دعوة بحجم المشروع حاجات تاني بتحدد ده ال framework , technology
+      used \nف رأيي المشكلة الوحيدة ف الجافاسكريبت هي ال oop prototyping based \nوالموضوع
+      اتحل ف ال typescript"
+    id: '1337446509628387'
+  - created_time: '2016-12-26T07:14:31+0000'
+    from:
+      name: Mohamad Kamal
+      id: '10155224465177344'
+    message: react native
+    id: '1337744886265216'
+  - created_time: '2016-12-26T07:49:51+0000'
+    from:
+      name: Ahmed Samir
+      id: '10159800858645702'
+    message: 'If your application requires large memory, for example: you will have
+      to store social feeds like tweets or posts, then definitely go native. AFAIK,
+      The memory problems was the single barrier that Facebook could not solve when
+      building their HTML5.'
+    id: '1337760282930343'
+  - created_time: '2016-12-26T08:28:52+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: Almost 90% of apps could be build with JS and it has nothing to do with
+      the size but "Features", you can use JS as your full stack with MEAN.JS, have
+      a look at ionic it will help u a lot kick ur first version.
+    id: '1337783962927975'
+  - created_time: '2016-12-26T09:16:36+0000'
+    from:
+      name: Mohamed Samir
+      id: '1579793612127821'
+    message: |-
+      شكرا جزيلا يا جماعه التعليقات والاقتراحات كانت مفيده جدا ولفتت نظري لحاجات كتير هحتاج اقرا فيها الاول علشان اقرر
+      كمان لو حد حابب يقترح عليا مقالات فادته في الموضوع ده او بتشرح تبسيطات/تعقيدات/مقارنات لغه معينه او اكتر ياريت يقولي عليها اكون شاكر جدا له
+    id: '1337805579592480'
+  - created_time: '2016-12-27T04:31:39+0000'
+    from:
+      name: Mahmoud Nawwar
+      id: '1560359927364731'
+    message: "لو ال application كبير أنصحك تشتغل rest وتعمل ال backend لوحده وال front
+      end لوحده\nfor backend : use Java : Spring + Hibernate + any database \nfor
+      frontend : use JavaScript: Angular or React or any js framework you are familiar
+      with"
+    id: '1338512136188491'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE16TnpRek5qTXpPVFl5T1RRd05Eb3hORGd5TnpBNE1UWTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE16T0RVeE1qRXpOakU0T0RRNU1Ub3hORGd5T0RFek1UQXcZD

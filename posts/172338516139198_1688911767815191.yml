@@ -1,0 +1,84 @@
+---
+message: "لما انا بعمل بحث باستخدام ال LINQ و ال entity framework. \nإيه نوع ال algorithm
+  اللى بينفذه ؟ يعنى بيعمل binary search ولا linear search ولا إيه بالظبط ؟"
+from:
+  name: Mohammed A Ibrahim
+  id: '170584703576672'
+type: status
+created_time: '2017-12-11T19:17:16+0000'
+updated_time: '2017-12-12T10:57:53+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1688911767815191/
+id: '172338516139198_1688911767815191'
+reactions:
+  data:
+  - id: '2001897360084292'
+    name: Ahsan Ali
+    type: LIKE
+  - id: '10156530673622080'
+    name: Muhammad Gamal
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTNPVEl4TkRJd09UWXlPakUxTVRNek5qUXpNekk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TnpFMU9EYzNNRGM1T2pFMU1UTXhOVGMwTXpZANk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-12-11T19:19:57+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: |-
+      ال linq Expressions بتترجم ل SQL في ال runtime و تتبعت لقاعدة البيانات تتنفذ هناك، و طبعا حسب تصميم الجداول بتاعتك و ال query مكتوب ازاي و ال indexes المتاحة حيتغير ال Algorithms المستخدمة في قاعدة البيانات.
+      الفكرة اللي بحاول اوصلها أن مفيش حاجة بتحصل ليها علاقة بالبحث جوة التطبيق بتاعك، كله بيحصل في قاعدة البيانات.
+    id: '1689159451123756'
+  - created_time: '2017-12-11T20:29:09+0000'
+    from:
+      name: Hesham Desouky
+      id: '10215011048531592'
+    message: |-
+      Depends on your linq provider if entity Framework then sql will do the search for you as long as you didn't materialized the result.
+      However if you are using the linq against in memory data then you are using the algorithms implementation for the .net list, dictionary, etc.
+    id: '1689207761118925'
+  - created_time: '2017-12-11T20:41:31+0000'
+    from:
+      name: Emad Omara
+      id: '10155049224141583'
+    message: When I was working in MICROSOFT I was working on PLINQ (Parallel LINQ)
+      putting the P aside for now, LINQ is just a language, it compiles your query
+      into what is called a query plan that consists of multiple stages (depends on
+      how complicated your query is) then convert these stages to a language that
+      your data source understands, ex SQL if you are using database, which will be
+      executed there. It will try to push as many operations as possible to be executed
+      at the source, but there might be not supported operations or you need to do
+      any sort of post processing, then this will be done in memory after getting
+      the partial results from the source
+    id: '1689216017784766'
+  - created_time: '2017-12-11T22:06:39+0000'
+    from:
+      name: Tarek Omar
+      id: '10154987014676459'
+    message: Please...please...if you are anticipating that your application will
+      grow, and go enterprise, dont use LINQ
+    id: '1689267031112998'
+  - created_time: '2017-12-12T01:43:45+0000'
+    from:
+      name: Mohammed A Ibrahim
+      id: '170584703576672'
+    message: طيب تمام لو انا عاوز أطبق ال algorithms بتاعة البحث أطبقها ازاى وهى شغلها
+      كله فى الميمورى ؟
+    id: '1689391314433903'
+  - created_time: '2017-12-12T10:39:11+0000'
+    from:
+      name: Mohamed Rashed
+      id: '10155764645725568'
+    message: "انا حاسس ان عندك لبس \nال algorithms اللى بتتكلم عليها تقدر تنفذها على
+      الداتا بعد ماتكون معاك على سرفر Application يعنى خلاص جت من سرفر ال DB \nالسؤال
+      الاهم , هتجيب داتا قد ايه من سرفر ال DB عشان تطبق عليها algorithms  البحث .\nيبقى
+      نعمل ايه ؟\nالأول نتبع ال Best practice فى تصميم الداتابيز و ال queriesو ال
+      Indices زى ما قال محمد فوق \nوبعد كده تبدأ تطبق algorithms  على الداتا اللى
+      وصلت \nورأييى تهتم بالخطوة الأولى"
+    id: '1689706094402425'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFk0T1RFMU9UUTFNVEV5TXpjMU5qb3hOVEV6TURFNU9UazMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFk0T1Rjd05qQTVORFF3TWpReU5Ub3hOVEV6TURjMU1UVXgZD

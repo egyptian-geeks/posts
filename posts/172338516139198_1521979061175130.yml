@@ -1,0 +1,52 @@
+---
+message: "I am writing a js function in .js file,and I call it from .php file using
+  script tags. I get undefined function error.(I included the js file obviously).
+  But when I called the function from the console it worked well. Any help \n??"
+from:
+  name: Hossam Mohammed
+  id: '1793040840748253'
+type: status
+created_time: '2017-06-20T20:47:33+0000'
+updated_time: '2017-06-20T22:37:48+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1521979061175130/
+id: '172338516139198_1521979061175130'
+reactions:
+  data:
+  - id: '2022490591345439'
+    name: سامح دعبس
+    type: LIKE
+  - id: '1966084383644401'
+    name: Merihan Awod
+    type: LIKE
+  - id: '1737360106314589'
+    name: Waleed Hamdy
+    type: HAHA
+  paging:
+    cursors:
+      before: TVRBd01EQTNOVE0xTlRJeU1ESXdPakUwT1RnM01qa3dNVFE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXhNakU0TkRnd01UZAzJPakUwT1RjNU9USXpOams2TnpnNE5qUTRNRE0zT1RFek16RXkZD
+comments:
+  data:
+  - created_time: '2017-06-20T21:07:47+0000'
+    from:
+      name: Khaled Elnaggar
+      id: '10215461207703148'
+    message: are u sure it's loaded before calling it in ur code ?
+    id: '1521994627840240'
+  - created_time: '2017-06-20T21:24:59+0000'
+    from:
+      name: Mohamed Rashad
+      id: '10215302194328517'
+    message: Code snippet or it didn't happen
+    id: '1522006257839077'
+  - created_time: '2017-06-20T21:42:08+0000'
+    from:
+      name: Haitham Shaddad
+      id: '1591171607636188'
+    message: This means you are calling the function before the JS file is loaded
+      or included in the page.
+    id: '1522019067837796'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV5TVRrNU5EWXlOemcwTURJME1Eb3hORGszT1RreU9EWTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV5TWpBeE9UQTJOemd6TnpjNU5qb3hORGszT1RrME9USTQZD

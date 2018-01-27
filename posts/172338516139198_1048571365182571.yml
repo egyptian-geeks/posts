@@ -1,0 +1,48 @@
+---
+message: "السلام عليكم\n\nمن فضلكم حد هنا تعامل مع GenericRepository - انا عامل DLL
+  Project لـ Unit Of Work عشان استخدمه فى اى مشروع \n\nلما بكون عامل EF - Database
+  first بيشتغل عادى مفيش اى مشاكل - لكن لما بحاول اشغله بنفس الطريقة على EF Code First
+  \ بيدينى الخطأ دى للجدول اللى شغال عليه؟\n\nThe entity type Employee_Data is not
+  part of the model for the current context\n\nمع انى عامل الكونكشن سترنج بنفس الاسم
+  وزى ما وضحت هو شغال على Database first ؟\n\nتتحل ازاى دى يا جماعة ؟"
+from:
+  name: Ahmed Amin
+  id: '1962172197389574'
+type: status
+created_time: '2015-12-20T10:15:07+0000'
+updated_time: '2015-12-21T07:42:58+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1048571365182571/
+id: '172338516139198_1048571365182571'
+comments:
+  data:
+  - created_time: '2015-12-20T10:16:05+0000'
+    from:
+      name: Ahmed Amin
+      id: '1962172197389574'
+    message: ممكن ارفع بروجكت  DLL لو ده حيساعد اكتر فى انى الاقى حل
+    id: '1048571581849216'
+  - created_time: '2015-12-21T03:02:24+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: remember that the connection string will be part of the DLL file and
+      not external, I suggest that you send connection data from an external resource
+      on load
+    id: '1048913061815068'
+  - created_time: '2015-12-21T07:42:58+0000'
+    from:
+      name: Ahmed Amin
+      id: '1962172197389574'
+    message: |-
+      i did it as the following from the controller and it works without any connection string in web.config :
+
+              public HomeController()
+              {
+                  ConnectionString.Con = "data source=.;initial catalog=xxxx;persist security info=True;user id=xxxx;password=xxxx;MultipleActiveResultSets=True;App=EntityFramework";
+                  _uow = new UnitOfWork<Doctor>();
+              }
+    id: '1049003088472732'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEEwT0RVM01UVTRNVGcwT1RJeE5qb3hORFV3TmpBMk5UWTEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEEwT1RBd016QTRPRFEzTWpjek1qb3hORFV3Tmpnek56YzQZD

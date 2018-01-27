@@ -1,0 +1,107 @@
+---
+message: "Hi guys,\nI am using cordova-plugin-fcm in an ionic project to send  push
+  notifications.\nThe Notification is working fine on android platform, but when I
+  added iOS platform I couldn't get any notification on my device.\n\nHere are the
+  things I've done:\n1- I added GoogleService-Info.plist to my project and inside
+  platforms in ios folder. \n\n2- Enabled notification from Xcode\n\n3- I also tried
+  to send test notification from Firebase console and it worked.\n\n4- The back-end
+  team fired the function that sends notification and I could receive the notification
+  on my device.\n\nBut when I test the app and try the case where notification should
+  be received, I never get it.\n\nI don't even know how to debug this issues. Any
+  ideas?"
+from:
+  name: Asmaa Mohammad
+  id: '10214861682797493'
+type: status
+created_time: '2017-09-12T13:33:43+0000'
+updated_time: '2017-09-14T03:44:23+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1605010739538628/
+id: '172338516139198_1605010739538628'
+reactions:
+  data:
+  - id: '1592917007496436'
+    name: Hesham Nasser
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXpNelEwTlRZAek56VTVPakUxTURVeU1qVXpNelE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXpNelEwTlRZAek56VTVPakUxTURVeU1qVXpNelE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-09-12T13:38:50+0000'
+    from:
+      name: Ahmed Zain Mohammed
+      id: '10156266511868081'
+    message: "This plugin can drive you crazy! You say it's working well on Android
+      ?! Test it on a couple more devices and see for yourself. \n\nSorry, I know
+      I am not helping, but I am using this plugin and I am telling you that you may
+      need to come to peace with how it works. I remember the GitHub issues helped
+      but not so much."
+    id: '1605015042871531'
+  - created_time: '2017-09-12T14:10:18+0000'
+    from:
+      name: Ahmed Galal
+      id: '10160277627030455'
+    message: To receive notifications on iOS set it to high priority
+    id: '1605035846202784'
+  - created_time: '2017-09-12T14:28:03+0000'
+    from:
+      name: Hesham Nasser
+      id: '1592917007496436'
+    message: i guess its  IOS  permissions  :D
+    id: '1605047646201604'
+  - created_time: '2017-09-12T17:50:48+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: Asmaa Mohammad check the plugin initialization on device, use chrome/safari
+      with remote debugging for this.
+    id: '1605190452853990'
+  - created_time: '2017-09-12T21:05:27+0000'
+    from:
+      name: Ahmed Elhadi
+      id: '2100856430150634'
+    message: Ahmad Alfy
+    id: '1605303399509362'
+  - created_time: '2017-09-12T21:53:55+0000'
+    from:
+      name: Osama Soliman
+      id: '879271768900112'
+    message: Did you find a solution or wanna some help yet?
+    id: '1605330839506618'
+  - created_time: '2017-09-12T21:55:57+0000'
+    from:
+      name: Osama Soliman
+      id: '879271768900112'
+    message: I and or our community may help https://www.facebook.com/groups/1523957427630472/
+    id: '1605331886173180'
+  - created_time: '2017-09-13T20:07:33+0000'
+    from:
+      name: Mohamed Shaheen
+      id: '1990508241211666'
+    message: "I have faced the same issue on iOS 10 devices only \nWhile it works
+      on iOS 9 devices\nThe fix was to add c  code for in app delegate to do the push
+      token registration"
+    id: '1606192602753775'
+  - created_time: '2017-09-13T21:45:39+0000'
+    from:
+      name: Asmaa Mohammad
+      id: '10214861682797493'
+    message: |-
+      I am still struggling with the same issue and I am having hard time understanding what I see in Xcode console
+      but I can see that the fcm plugin is connected, I can get the token and  recieve the notification sent from firebase but not the one sent from the app
+      So I will try to make sure the priority parameter is set to High and I will try to test on other ios versios and devices.
+      Thank you all for your propmt replies, I will share the progress here.
+    id: '1606290986077270'
+  - created_time: '2017-09-14T03:44:21+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: I remember one thing when it comes to iOS and the push notifications
+      and cordova that the backend developer told me. He said (Make sure you are using
+      the sandbox API).
+    id: '1606479656058403'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl3TlRBeE5UQTBNamczTVRVek1Ub3hOVEExTWpJek5UTXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl3TmpRM09UWTFOakExT0RRd016b3hOVEExTXpZAd05qWXgZD

@@ -1,0 +1,26 @@
+---
+message: |-
+  Just out of curiosity, is it possible to build a chrome extension that is able to auto remove ur posts after a certain amount of time based on some hashtag for example ?
+
+  Does the FB SDK allows third party apps to remove posts ?
+from:
+  name: Ahmed Kamal
+  id: '10204469829103969'
+type: status
+created_time: '2017-04-19T19:45:10+0000'
+updated_time: '2017-04-19T19:52:11+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1459120327461004/
+id: '172338516139198_1459120327461004'
+comments:
+  data:
+  - created_time: '2017-04-19T19:52:05+0000'
+    from:
+      name: Mohamed El-Kamhawy
+      id: '10213760109590589'
+    message: "I'm not sure about Google Chrome Plug-in but yes, you can delete a post
+      using fb SDK if you have the needed credentials. \n\nhttps://developers.facebook.com/docs/graph-api/reference/v2.9/post"
+    id: '1459124354127268'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFExT1RFeU5ETTFOREV5TnpJMk9Eb3hORGt5TmpNeE5USTUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFExT1RFeU5ETTFOREV5TnpJMk9Eb3hORGt5TmpNeE5USTUZD

@@ -1,0 +1,46 @@
+---
+message: "Guys need ur help in an algorithm. \nHow to calculate all possible combinations
+  of n*blocks in a (row of 7 size)\nExample:\nBlocks = [1,2,3,4,5]\nResults = [\n[1,1,1,1,1,1,1],
+  //row1\n[1,1,1,1,1,1,2], // possible row2\n...etc\n] \nI will use this as a step
+  before i further narrow down results using either expert system/genetic fitness
+  alg. Not sure yet..\n\nReference : http://nevonprojects.com/automated-college-timetable-generator/\nThis
+  is what im trying to emulates"
+from:
+  name: Momen Al Zalabany
+  id: '10160388991030144'
+type: status
+created_time: '2017-08-21T07:34:06+0000'
+updated_time: '2017-08-21T09:12:15+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1585862164786819/
+id: '172338516139198_1585862164786819'
+comments:
+  data:
+  - created_time: '2017-08-21T07:59:13+0000'
+    from:
+      name: Fady Morris Milad
+      id: '10160030835075061'
+    message: ''
+    id: '1585872734785762'
+  - created_time: '2017-08-21T08:18:30+0000'
+    from:
+      name: Sara Khodeir
+      id: '1531418506912614'
+    message: I didn't check the link, but you can do it with a recursive algorithm,
+      that keeps track of your index and current list size. For your example, you
+      break when your list size it 7, otherwise you take the number at your current
+      index and increment current list size by 1 or increment your current index.
+    id: '1585880714784964'
+  - created_time: '2017-08-21T08:51:04+0000'
+    from:
+      name: Khaled Mohamed
+      id: '10210806945758455'
+    message: |-
+      If I'm getting it right you can do a recursive function, instead of moving using an index just use the current permutation size while in each call loop from 0 -> 5 again to take into account the duplicates (using this way in each call you'll move through every number available in your block again)
+      also here's a code (in c++) to further explain what I'm saying: http://ideone.com/Nes9TP
+
+      I hope I got what you wanted right, keep in mind that the complexity of this algorithm is O(n^m) for n being the block size, and m being the row size so I don't know if this will work fast enough for you or not.
+    id: '1585894624783573'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU0TlRnM01qY3pORGM0TlRjMk1qb3hOVEF6TXpBeU16VXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU0TlRnNU5EWXlORGM0TXpVM016b3hOVEF6TXpBMU5EWTIZD

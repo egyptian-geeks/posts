@@ -1,0 +1,48 @@
+---
+message: "what should you know about DNS as web engineers ? \n#LBK #things_nobody_talkabout"
+from:
+  name: Momen Al Zalabany
+  id: '10160388991030144'
+type: status
+created_time: '2018-01-13T20:02:58+0000'
+updated_time: '2018-01-14T14:18:34+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1721610877878613/
+id: '172338516139198_1721610877878613'
+reactions:
+  data:
+  - id: '1999765416908747'
+    name: Ahmed Khalifa
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTJNalU1TWpNNE9EVXlPakUxTVRVNU5qVTRPREk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTJNalU1TWpNNE9EVXlPakUxTVRVNU5qVTRPREk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2018-01-13T20:18:17+0000'
+    from:
+      name: Mohamed Jadelrab
+      id: '10156401691426535'
+    message: How it works, the theory and design of it and the commands to query it
+      .. I believe that is the minimum to be able to debug and understand common issues
+    id: '1721633607876340'
+  - created_time: '2018-01-13T21:00:01+0000'
+    from:
+      name: Abdulla Alsayyed
+      id: '1774186562600446'
+    message: |-
+      DNS is an abbrev for Domain Name System,
+      it has two ways to work, iterative & recursive when resolve a site by its domain name, there is Local DNS as a first receiver then TLD up to the Root server and the work flow then depends on previously mentioned techniques, there is 4 types of DNS records: NS, MX, A and CNAME
+      and its an application layer protocol and based on distributed DB, and can be attacked using DDos attacks or Redirect attacks for example man-in-middle and DNS poisoning  :D
+    id: '1721660854540282'
+  - created_time: '2018-01-14T03:12:38+0000'
+    from:
+      name: Nader Osama Soliman
+      id: '10154920294781537'
+    message: You need to know how TLS/SSL is working with DNS and possible SNI (server
+      name indicator)
+    id: '1721877664518601'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN5TVRZAek16WXdOemczTmpNME1Eb3hOVEUxT0RjME5qazMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN5TVRnM056WTJORFV4T0RZAd01Ub3hOVEUxT0RrNU5UVTUZD

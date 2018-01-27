@@ -1,0 +1,39 @@
+---
+message: |-
+  Hi,
+  What is the recommended db for fast searching result if we are targeting 50M of records without relations just searching in 50M records from one table for specific string keyword.
+  Monog vs Postgres vs Neo4j vs ArangoDb or what is recommended ?
+from:
+  name: Khaled Ramadan
+  id: '10157199016384478'
+type: status
+created_time: '2017-08-14T11:45:02+0000'
+updated_time: '2017-08-14T22:05:10+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1579053372134365/
+id: '172338516139198_1579053372134365'
+comments:
+  data:
+  - created_time: '2017-08-14T16:44:25+0000'
+    from:
+      name: Mohamed Arabi Saleh
+      id: '10215386861845749'
+    message: Will I worked with Mongo a few years ago with about 25M records and it
+      was extremely fast against MS SQL Server in data retrieval (No idea about the
+      others)
+    id: '1579260698780299'
+  - created_time: '2017-08-14T20:22:50+0000'
+    from:
+      name: Diyaa Mahmoud
+      id: '1559170364118742'
+    message: "مش واضح شكل الداتا عندك عامله ازاي.. هل الكي ورد اللي عاوز تسيرش عليها
+      هتكون في column واجد بس ولا اكتر من column ... هل فيه في السيرش and or not وفلتر
+      معقد مثلا ؟ هل الكي ورد ديه موجوده جوه text؟  عاوز الناتج record واحد ولا اكتر
+      ؟\n\n كلهم حلوين ويستحملو الفكره في تلات حاجات شكل الداتا والكيوري والناتج ..عل
+      حسب اجابتك هيتحدد تتجه لانهي داتابيز \nلو الكي ورد واحد او اكتر قابلين للدمج
+      تقدر تستخدم key value store زي aerospike  وده افضل الحالات\nسيرش معقد يبقي postgresql\nمونجو
+      منصحش نهائي"
+    id: '1579508878755481'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUzT1RJMk1EWTVPRGM0TURJNU9Ub3hOVEF5TnpJNU1EWTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUzT1RVd09EZAzNPRGMxTlRRNE1Ub3hOVEF5TnpReU1UY3cZD

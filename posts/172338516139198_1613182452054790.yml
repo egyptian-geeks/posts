@@ -1,0 +1,58 @@
+---
+message: |-
+  Whenever i add
+  " php_value post_max_size 64M
+  php_value upload_max_filesize 64M
+  php_value max_file_uploads 128M
+  php_value max_input_vars 5000"
+
+  to htaccess , an error happens . i am not a wordpress expert here so could you please tell me how to edit it and get to work (increase the size) ? Thanks!
+from:
+  name: Ema Lewis
+  id: '539041889788917'
+type: status
+created_time: '2017-09-21T14:46:51+0000'
+updated_time: '2017-09-21T15:05:33+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1613182452054790/
+id: '172338516139198_1613182452054790'
+reactions:
+  data:
+  - id: '1656559054404943'
+    name: Hamahmi
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhOVEkxT1RRNE1Ea3lPakUxTURZAd05qTXdNVE02TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXhOVEkxT1RRNE1Ea3lPakUxTURZAd05qTXdNVE02TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-09-21T14:52:06+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "this depends on how php and apache are configured on your server, probably
+      you have fastgi config which will not allow configuration through .htaccess\n\nwrite
+      a php file containing <?php phpinfo(); \n\nthen run it and check the \"Server
+      API\" value \nif it's not \"Apache 2.0 Handler\" \nthen you should try other
+      method for updating php.ini parameters.\nmay be you include a custom php.ini
+      in your wordpress directory.."
+    id: '1613187072054328'
+  - created_time: '2017-09-21T14:56:06+0000'
+    from:
+      name: Ahmed Hamdy
+      id: '10159955250425013'
+    message: |-
+      Yeah some hosting providers dissable this feature, you might need to contact your hosting provider.
+      Also you may try placing a php.ini with the same code on the root of your wordpress it might work.
+      Don't forget to set it's permission to 644 though if it worked
+    id: '1613189718720730'
+  - created_time: '2017-09-21T15:05:31+0000'
+    from:
+      name: Ema Lewis
+      id: '539041889788917'
+    message: THanks guys !
+    id: '1613195758720126'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl4TXpFNE56QTNNakExTkRNeU9Eb3hOVEEyTURBMU5USTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl4TXpFNU5UYzFPRGN5TURFeU5qb3hOVEEyTURBMk16TXkZD

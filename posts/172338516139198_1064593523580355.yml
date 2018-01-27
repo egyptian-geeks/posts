@@ -1,0 +1,196 @@
+---
+message: "So today I got a design document for REST services with the below: \n\n\"With
+  new design URL is going to common for all  back-end requests:\nhttp://localhost:9080/blabla/api/rest/post
+  - For Post request\nhttp://localhost:9080/blabla/api/rest/get - For Get request\"\n\nحد
+  عنده اقتراحات لنوع الجاز اللي استخدمه معاهم؟"
+from:
+  name: Hisham Abd El-Hafez Eid
+  id: '10156032627411171'
+type: status
+created_time: '2016-01-18T19:35:59+0000'
+updated_time: '2016-06-28T13:19:31+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1064593523580355/
+id: '172338516139198_1064593523580355'
+reactions:
+  data:
+  - id: '10156097426513748'
+    name: Amr Ragaey
+    type: LIKE
+  - id: '10156089336182292'
+    name: Hassan Aly Selim
+    type: LIKE
+  - id: '10215282097155427'
+    name: Mohamed Ali Abuelwafa
+    type: LIKE
+  - id: '10159983007625486'
+    name: Muhammad SA El-Zahaby
+    type: LIKE
+  - id: '10155263010608321'
+    name: Mohammed Hassan
+    type: LIKE
+  - id: '10215984708437373'
+    name: Ahmad El-Melegy
+    type: LIKE
+  - id: '10155807421830280'
+    name: Usama Fayez
+    type: LIKE
+  - id: '10156358805885288'
+    name: Mahmoud Abd El-Fattah
+    type: LIKE
+  - id: '10156575426331336'
+    name: Amr Ali Tealeb
+    type: LIKE
+  - id: '10155452467310950'
+    name: Mohamed Mostafa Abouzeid
+    type: LIKE
+  - id: '10155134229550373'
+    name: Hussein Eldabaa
+    type: LIKE
+  - id: '10156301546469701'
+    name: Amr ELsaqqa
+    type: LIKE
+  - id: '10155833475081885'
+    name: Mohamed El-Kholy
+    type: LIKE
+  - id: '1763959737010749'
+    name: Ahmed Mahmoud
+    type: LIKE
+  - id: '10155446052327104'
+    name: ElMohanned Ahmed
+    type: LIKE
+  - id: '1772542006152666'
+    name: Mohamed AbuIssa
+    type: LIKE
+  - id: '10154922289347024'
+    name: Mohammed Hussien
+    type: LIKE
+  - id: '10160105091405314'
+    name: Mohamed Elsherif
+    type: LIKE
+  - id: '10159881004380503'
+    name: Ahmed Hammad
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRJME9Ua3pOelEzT2pFME5UTTBPRGt4TkRNNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TmpRMk1EQTFOVEF5T2pFME5UTXhORFU1TXpNNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-01-18T19:40:29+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: LOL
+    id: '1064595443580163'
+  - created_time: '2016-01-18T19:46:41+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: Rest ده و لا مشRest
+    id: '1064597593579948'
+  - created_time: '2016-01-18T19:47:06+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: |-
+      These people sure look like they know what they're doing... And so should you. That's why I personally find it helpful and always recommend it to fellow software engineers to always keep a stack of hydrogen. Hydrogen is highly flammable, quite explosive and sure gives a strong BANG!
+      My suggestion is, for every POST request they make blow two canisters of hydrogen. You can also mix Oxygen to hide your traces. #hydrogenhackerelite #fuckingace #engineeringrocks #howitsdoneright #clientsfromhell #ididnotsuggest #enjoyingtagabuse
+    id: '1064597710246603'
+  - created_time: '2016-01-18T19:57:36+0000'
+    from:
+      name: Emad Mokhtar Habib
+      id: '10159905066535634'
+    message: "لا بس يا هندسة نسيتوا كذا حاجة \n /put /patch نسيتوا تزودوا PUT and
+      PATCH \nنسيتوا تزودوا الفورمات /json\nنسيتوا تأكدوا انهم restful يعني زودوا
+      في ال URI /not_soap/"
+    id: '1064601483579559'
+  - created_time: '2016-01-18T20:04:11+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "هههههههههههههههههههههههه...  بس ايه رأيك ريست ولا مش ريست \U0001F601\U0001F601\U0001F601"
+    id: '1064603686912672'
+  - created_time: '2016-01-18T20:07:17+0000'
+    from:
+      name: Ahmed Refaey
+      id: '1808892215797147'
+    message: Fuck-Me
+    id: '1064604623579245'
+  - created_time: '2016-01-18T21:05:35+0000'
+    from:
+      name: Abdulrahman Yasser
+      id: '10215866149793455'
+    message: "This is my suggestion, I'm not fully aware of Restful Web services,
+      But I hope my comment would help you. I'm assuming that you are using Java.\n\nYou
+      can use Jersey as lib, which implements the JAX-RS specification.\n\nThis tutorial
+      can will definitely what you need to start with:\n\nhttp://www.mkyong.com/webservices/jax-rs/jersey-hello-world-example/\n\nIt
+      supports the URL mapping you asked for. \n\nYou will need a client to test the
+      WS. Please, follow this link:\nhttp://www.mkyong.com/webservices/jax-rs/restful-java-client-with-jersey-client/\n\nGood
+      luck!"
+    id: '1064624946910546'
+  - created_time: '2016-01-18T21:21:34+0000'
+    from:
+      name: Diaa Sami
+      id: '10215834435679186'
+    message: |-
+      I suggest trying
+      http://localhost:9080/blabla/api/rest/delete with random parameters.
+      and spamming
+      http://localhost:9080/blabla/api/rest/put with random data
+    id: '1064630440243330'
+  - created_time: '2016-01-18T21:30:03+0000'
+    from:
+      name: Hisham Abd El-Hafez Eid
+      id: '10156032627411171'
+    message: I can send the document to Roy Fielding with the author's home address
+      :)
+    id: '1064632800243094'
+  - created_time: '2016-01-18T21:37:28+0000'
+    from:
+      name: Muhammad El-Hennawy
+      id: '10213118809797201'
+    message: a7a
+    id: '1064634850242889'
+  - created_time: '2016-01-18T21:46:42+0000'
+    from:
+      name: Mahmoud Abd El-Fattah
+      id: '10156358805885288'
+    message: 'Mohamed Elsherif: بيتهيألي انت هاتبدأ تطالب بوجود تصريح عمل من النقابة
+      بعد الهذيان ده :D'
+    id: '1064637776909263'
+  - created_time: '2016-01-19T03:44:51+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "\U0001F602\U0001F602\U0001F602\U0001F602\U0001F602"
+    id: '1064743843565323'
+  - created_time: '2016-01-19T19:21:58+0000'
+    from:
+      name: Ahmed G. Elhalwagy
+      id: '10156125283698615'
+    message: So this is how a prostate exam feels like!
+    id: '1065079946865046'
+  - created_time: '2016-01-19T19:24:39+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: هههههههههه
+    id: '1065080770198297'
+  - created_time: '2016-01-22T12:26:01+0000'
+    from:
+      name: AbdulRahman Mahmoud ElBieh
+      id: '2072820782951834'
+    message: Mohammed Shousha
+    id: '1066402813399426'
+  - created_time: '2016-06-28T13:19:31+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: |-
+      I'm working with a SOAP web service which returns a list of objects that you need to cast into an object called GetOperationsListRSOperationsOperation to extract an XML string which contains the intended data.
+      يا ريت تقولي نوع الجاز اللي استخدمته عندك.
+    id: '1171004232939283'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEEyTkRVNU5UUTBNelU0TURFMk16b3hORFV6TVRRMk1ESTUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUzTVRBd05ESXpNamt6T1RJNE16b3hORFkzTVRFNU9UY3gZD

@@ -1,0 +1,75 @@
+---
+message: "عندي ubuntu 14.04 LTS  و win 8.1 \ndual boot \nعايزة أعمل install ubuntu
+  16.06 LTS \nعشان في مشكلة في النسخة الحالية من أوبنتو مش راضية تفتح \nازاي أعمل
+  ده من غير ما أضيع ال dual boot grub ؟ \nحد يقدر يفيدني؟"
+from:
+  name: Taghreed Mohammed Kamel
+  id: '1872433002767763'
+type: status
+created_time: '2017-06-29T23:18:33+0000'
+updated_time: '2017-06-30T01:37:23+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1531665280206508/
+id: '172338516139198_1531665280206508'
+reactions:
+  data:
+  - id: '857329281113998'
+    name: Mohamed Soliman
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTFNVEE0TURJek1USTRPakUwT1RnM09EVTFOVEE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTFNVEE0TURJek1USTRPakUwT1RnM09EVTFOVEE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-06-29T23:21:48+0000'
+    from:
+      name: Ahmad Abdel-Halim
+      id: '334657353608587'
+    message: 'لو عايزة تشيلي ubuntu خالص وتنزليه من الأول، لازم تعملي كده من ويندوز
+      نفسه. أول حاجة هتعملي فورمات للبارتشنز بتاعة ubuntu من ال disk management. تاني
+      حاجة لازم تشيلي الفولدر بتاع ubuntu من EFI. ده لينك في شرح للحوار: http://linuxbsdos.com/2015/09/05/how-to-delete-grub-files-from-a-boot-efi-partition-in-windows-10/
+      - بعد كده ممكن تنزلي Ubuntu تاني من الأول عادي خالص.'
+    id: '1531667960206240'
+  - created_time: '2017-06-29T23:24:56+0000'
+    from:
+      name: Omar Saqr
+      id: '10216335292360651'
+    message: "لو المشكلة في البوت فقط \nممكن تتصلح بال boot repair\nhttps://help.ubuntu.com/community/Boot-Repair\nهتشغل
+      أوبنتو من فلاشة live و تتبع الخطوات"
+    id: '1531670196872683'
+  - created_time: '2017-06-29T23:25:44+0000'
+    from:
+      name: Taghreed Mohammed Kamel
+      id: '1872433002767763'
+    message: "هي المشكلة  Failed to start session \nجربت أفتح الترمينال وأجرب الحلول
+      اللي بحثت عنها  ومنفعتش"
+    id: '1531670913539278'
+  - created_time: '2017-06-29T23:26:58+0000'
+    from:
+      name: Omar Saqr
+      id: '10216335292360651'
+    message: |-
+      لو عايز تشيل الأوبنتو القديم و تسطب جديد
+      هتشغل بردو اوبنتو من الفلاشة و إنت بتعمل install
+      هتختار advanced
+      و تشيل البارتشن القديم و تعمل سواب و بارتشن جديد
+      mounting point /
+    id: '1531671596872543'
+  - created_time: '2017-06-29T23:36:47+0000'
+    from:
+      name: Robert Nabil
+      id: '1317736788371656'
+    message: كل المفروض تعملوا انك تفتح ال installer و تختار something else و تعمل
+      البارتشن القديم mount ك / لابنتو الجديد و متعملش اي حاجه تانيه ..... بس لو عندك
+      ملفات في الهوم انقلها الاول علي مكان تاني قبل خطوه ال installer
+    id: '1531680966871606'
+  - created_time: '2017-06-30T01:37:19+0000'
+    from:
+      name: Ahmad Bahaa
+      id: '1985598625095777'
+    message: بتفرق حسب انت هتسطب MBR ولا GPT/EFI .
+    id: '1531765466863156'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV6TVRZAMk56azJNREl3TmpJME1Eb3hORGs0TnpjNE5UQTUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV6TVRjMk5UUTJOamcyTXpFMU5qb3hORGs0TnpnMk5qTTUZD

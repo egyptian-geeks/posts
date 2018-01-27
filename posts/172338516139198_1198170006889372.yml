@@ -1,0 +1,53 @@
+---
+message: |-
+  Anybody experienced issues with communication with Web Service using USB / Mobile Internet provided by Mobinil ?
+
+  What I mean is like getting unwanted data like ads or something in the response ? Does Mobinil ( Orange ) does that ?
+
+  I have many devices communicating with Severs using Orange internet ( USB / Mobile Internet ), and sometimes they doesn't get the expected response at all, doing a debug code now to track that, but just wanted to ask if someone face issues like that ..
+
+  Sure I have all errors turned off on the server side, as I have them logged in files.
+from:
+  name: Ahmed Hosny
+  id: '2077007312536296'
+type: status
+created_time: '2016-08-07T13:33:18+0000'
+updated_time: '2016-08-07T22:46:48+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1198170006889372/
+id: '172338516139198_1198170006889372'
+reactions:
+  data:
+  - id: '1847421335299420'
+    name: Ahmed Sabry
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdPVFEzTVRNNU9ESXdPakUwTnpBMk1EZAzVOakU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXdPVFEzTVRNNU9ESXdPakUwTnpBMk1EZAzVOakU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-08-07T14:33:18+0000'
+    from:
+      name: George Awad
+      id: '1781519898587185'
+    message: They back ads data
+    id: '1198203926885980'
+  - created_time: '2016-08-07T14:52:32+0000'
+    from:
+      name: Ahmed Melege
+      id: '10156112171242375'
+    message: Try to use SSL as much as possible. They can't inject anything into encrypted
+      connections.
+    id: '1198216120218094'
+  - created_time: '2016-08-07T22:03:56+0000'
+    from:
+      name: Ahmed Essam
+      id: '2004705666469226'
+    message: I used to use Mobinil USB Modem, It displays a box with your internet
+      usage every now and then. This box is injected into the websites you visit.
+      I don't know if there are any other ads as I use ad blocker
+    id: '1198495370190169'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU1T0RJd016a3lOamc0TlRrNE1Eb3hORGN3TlRnd016azUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU1T0RRNU5UTTNNREU1TURFMk9Ub3hORGN3TmpBM05ETTIZD

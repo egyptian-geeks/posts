@@ -1,0 +1,26 @@
+---
+message: i have a project can i use laravel and lumen both together  ? , like make
+  the laravel consume restful api from the lumen ... is it even possible if so is
+  it a good thing to do ?
+from:
+  name: Muhamad Omar
+  id: '1821918031216201'
+type: status
+created_time: '2016-11-24T04:43:33+0000'
+updated_time: '2016-11-24T04:50:55+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1302944323078606/
+id: '172338516139198_1302944323078606'
+comments:
+  data:
+  - created_time: '2016-11-24T04:50:52+0000'
+    from:
+      name: Ahmed Atalla
+      id: '574320702905312'
+    message: "That is not a good idea , if you need server side rendering then go
+      with laravel \nElse builder an api with any of them(lumen or laravel) then consume
+      it with a client side JavaScript framework/library like angular,vuejs or react"
+    id: '1302956819744023'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE13TWprMU5qZA3hPVGMwTkRBeU16b3hORGM1T1RZAek1EVXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE13TWprMU5qZA3hPVGMwTkRBeU16b3hORGM1T1RZAek1EVXoZD

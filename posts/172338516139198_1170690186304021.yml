@@ -1,0 +1,39 @@
+---
+message: "S.A\nI need to parse json file , so i need to add \n<dependency>\n  <groupId>com.squareup.okhttp3</groupId>\n
+  \ <artifactId>okhttp</artifactId>\n  <version>3.3.1</version>\n</dependency>\n\nto
+  pom.xml file.\n\nWhere can i find it in the project ??"
+from:
+  name: Yara Mohamed
+  id: '10155057143777797'
+type: status
+created_time: '2016-06-28T00:01:36+0000'
+updated_time: '2016-06-28T05:24:24+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1170690186304021/
+id: '172338516139198_1170690186304021'
+comments:
+  data:
+  - created_time: '2016-06-28T00:18:05+0000'
+    from:
+      name: Muhammad El-Hennawy
+      id: '10213118809797201'
+    message: open pom.xml file then add what you wrote inside the <dependencies> tags,
+      then, build.
+    id: '1170695699636803'
+  - created_time: '2016-06-28T00:20:58+0000'
+    from:
+      name: Amani Salah Khalifa
+      id: '10155471414426298'
+    message: |-
+      You're using maven?
+      Check this: https://maven.apache.org/guides/introduction/introduction-to-the-pom.html#What_is_a_POM
+    id: '1170697916303248'
+  - created_time: '2016-06-28T05:24:24+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: "Download the jars? \nUse maven or ant?"
+    id: '1170815292958177'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUzTURZANU5UWTVPVFl6Tmpnd016b3hORFkzTURjek1EZAzEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUzTURneE5USTVNamsxT0RFM056b3hORFkzTURreE5EWTAZD

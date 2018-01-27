@@ -1,0 +1,79 @@
+---
+message: |-
+  ممكن حد يكلمنا عن الـ leap seconds؟ انا قرأت اكتر من موضوع من جوجل بس لسه مش ربطوا مع بعض ... بعض الأسئله اللي عندي
+  هل ممكن بطريقة او بأخرى نتوقع الثواني دي في المستقبل؟
+  ايه مدى تأثيرها على الويب او الـComputers بشكل عام لو مش اتهندلت صح؟
+from:
+  name: Osama Soliman
+  id: '879271768900112'
+type: status
+created_time: '2017-08-25T08:44:38+0000'
+updated_time: '2017-08-28T11:51:40+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1589326571107045/
+id: '172338516139198_1589326571107045'
+reactions:
+  data:
+  - id: '10155268760762467'
+    name: Mhmd Amin
+    type: LIKE
+  - id: '10215443322775048'
+    name: Mohamad Ibn Osama
+    type: LIKE
+  - id: '10160030835075061'
+    name: Fady Morris Milad
+    type: LIKE
+  - id: '10160260136260389'
+    name: Hossam Saraya
+    type: LIKE
+  - id: '1258489340919157'
+    name: Mohamed AbdelraZek
+    type: LIKE
+  - id: '1619501351422035'
+    name: Ayman Mahmoud
+    type: LIKE
+  - id: '10152402728970388'
+    name: Ahmed Soliman
+    type: LIKE
+  - id: '1972496686099088'
+    name: Zyad Galal
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpFNU5EZAzNORFkyT2pFMU1ETTVNalExTURNNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQXdNVFl6TWpnM056YzRPakUxTURNMk5URTFOak02TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-08-25T08:52:45+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: |-
+      ما اعتقدش اننا نقدر نتوقعها على المدى البعيد، اقصى حاجة اعتقد هي ٦ شهور لان دوران الارض نفسه مش ثابت و بيتاثر بحاجات كثير ما تقدرش تعرفها مسبقا.
+      و ليها طبعا اثار جانبيه لان ال default implementation بتاعها بيخلي في دقيقة في يوم بتبقى ٦١ ثانية فحسب الكود بتاع التطبيق ممكن تحسب وقت يطلع بالسالب مثلا لو انت متوقع أن كل الدقائق ٦٠ ثانية و ده ممكن يسبب مشاكل.
+      بس في implantations تانية اشهرها leap smear اللي بياخر الثواني شوية بحيث ي amortize الفرق من غير ما يغير عدد الثواني
+    id: '1589329444440091'
+  - created_time: '2017-08-25T08:57:07+0000'
+    from:
+      name: Mohamed Bassem
+      id: '10212826240185281'
+    message: كان في outage كبيرة في cloudflare أول السنة بسبب الleap second. (http://blog.cloudflare.com/how-and-why-the-leap-second-affected-cloudflare-dns/)
+      ده ممكن يشرحلك تأثيرها.
+    id: '1589331077773261'
+  - created_time: '2017-08-25T09:02:36+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: |-
+      مع إني موش فاهم الحكاية قوي: إلا إن بيبقى في معامل تصحيح بيتعمل كل فترة، ودي ظاهرة بوضوح في كل التقويمات يعني في التقويم الميلادي عندك السنة الكبيسة مثلا دي تصحيح للخطأ ده كل 4 سنين، وفي التقويم القبطي عندك كل سنة فيها شهر موش عارف سبعة ايام او حاجة زي كدة.
+      وأخيرا وطبقا للنظرية النسبية اختار او اعمل Frame Of Reference اللي ينسبك علشان ما تربطش نفسك بحاجة موش تقدر تحكمها زي دوران اﻷرض وما شابه.
+    id: '1589333227773046'
+  - created_time: '2017-08-25T12:53:03+0000'
+    from:
+      name: Mohamed AbdelraZek
+      id: '1258489340919157'
+    message: هو ايه المشكله لو اشتغلوا بالتوقيت الذري وكبروا دماغهم؟
+    id: '1589458244427211'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU0T1RNeU9UUTBORFEwTURBNU1Ub3hOVEF6TmpVeE1UWTEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU0T1RRMU9ESTBORFF5TnpJeE1Ub3hOVEF6TmpZAMU5UZA3oZD

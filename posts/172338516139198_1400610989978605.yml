@@ -1,0 +1,32 @@
+---
+message: "I want to build calendar on relational database it should handle booking
+  slot in  event .\n every event has start and end time,\nEvent is divided to some
+  number of slots.\nEach slot duration > 1m and less than event duration\n\nWe should
+  return free and busy slots\nWe should support booking multiple slots in different
+  events within the same transaction.\n\n------------\nMy solution\nI created event
+  table have the following attributes [ id - start - end ] then created  slot table
+  [ id - eventID - start - end - duration ] \nWhen you want free slots divide event
+  duration  to small number of slots and XOR them with slot table.\nYou will get free
+  slots on your event.\n------------\nIf you have better algorithm please leave comment."
+from:
+  name: Amr Almgwary
+  id: '1978556165731463'
+type: status
+created_time: '2017-02-25T15:21:13+0000'
+updated_time: '2017-02-25T15:38:01+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1400610989978605/
+id: '172338516139198_1400610989978605'
+comments:
+  data:
+  - created_time: '2017-02-25T15:37:57+0000'
+    from:
+      name: Ahmed Abdo
+      id: '10155432639833282'
+    message: |-
+      if you are working with .net, check this https://www.codeproject.com/articles/168662/time-period-library-for-net
+      you will have only one table for event and you will be able to get the free and busy slots easily
+    id: '1400620976644273'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF3TURZAeU1EazNOalkwTkRJM016b3hORGc0TURNM01EYzUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF3TURZAeU1EazNOalkwTkRJM016b3hORGc0TURNM01EYzUZD

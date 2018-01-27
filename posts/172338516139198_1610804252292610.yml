@@ -1,0 +1,58 @@
+---
+from:
+  name: Ahmed Saleh
+  id: '10159933379005574'
+type: status
+created_time: '2017-09-18T22:14:55+0000'
+updated_time: '2017-09-19T00:07:27+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1610804252292610/
+id: '172338516139198_1610804252292610'
+reactions:
+  data:
+  - id: '1579488908771234'
+    name: Waled Mohamed
+    type: LIKE
+  - id: '1991655244385769'
+    name: Hanan Abozaid
+    type: LIKE
+  - id: '1811551685586388'
+    name: Ahmed Mudhar
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhNekEwTWpBM016TTBPakUxTURVNE5EQTVOelU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXhPVFEzTWpNNE56YzJPakUxTURVM056TXpOREE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-09-18T22:38:52+0000'
+    from:
+      name: Omar Cherif Fathi
+      id: '2067397180161531'
+    message: |-
+      In C++ a struct member variable has public access modifier by default and you do not need to specify it though
+      Furthermore in C++ a struct is cooler since you can specify all functions of that struct inside the struct itself, so you keep things grouped and clean.
+    id: '1610817992291236'
+  - created_time: '2017-09-18T23:13:29+0000'
+    from:
+      name: Osama Gamal
+      id: '10156229200573311'
+    message: If you deal with large code base where recompilation matters. I have
+      just learnd about the PImpl design pattern in C++, which could be used to remove
+      the dependency between implementation details and the base class.
+    id: '1610833715622997'
+  - created_time: '2017-09-19T00:07:23+0000'
+    from:
+      name: Omar Cherif Fathi
+      id: '2067397180161531'
+    message: I guess one more reason you need to compile all source code with the
+      same compiler once changes have been made is the C++ name mangling which is
+      not consistent among different compilers and for this you could use extern C
+      as well for some cases where you don't want C++ to mangle the function names
+      but you have to ensure no overloads for these functions of course. This may
+      reduce your need to recompile your source code as well but I am not sure if
+      this would make a difference anyway.
+    id: '1610867965619572'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl4TURneE56azVNakk1TVRJek5qb3hOVEExTnpjME16TXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl4TURnMk56azJOVFl4T1RVM01qb3hOVEExTnpjNU5qUTAZD

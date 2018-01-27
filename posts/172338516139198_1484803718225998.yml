@@ -1,0 +1,144 @@
+---
+message: |-
+  شباب انا عامل mobile app مستخدم ionic و nodejs as server
+  ببعت ajax عشان الlogin اول مرة بيauthenticate مظبوط لما بعمل logout واجى ادخل تانى باى اكونت مش موجود بيدخل عادى لان الajax request بيرجع متأخر والfunction بتاعت الauthenticate بترجع اخر نتيجة اللى هى الاكونت موجود
+  حد familiar مع المشكلة دى؟
+from:
+  name: Hossam L Dokkani
+  id: '928444520664078'
+type: status
+created_time: '2017-05-16T17:17:23+0000'
+updated_time: '2017-05-17T08:17:55+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1484803718225998/
+id: '172338516139198_1484803718225998'
+reactions:
+  data:
+  - id: '1821918031216201'
+    name: Muhamad Omar
+    type: LIKE
+  - id: '10155065357586363'
+    name: Mohammad Ali Diab
+    type: LIKE
+  - id: '10215514716364029'
+    name: Amir Asaad
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhPVFF3TmpZAek5ETTJPakUwT1RRNU9UYzRORGc2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRNeU1qY3hNamcwTURveE5EazBPVFUxTWpZAM09qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2017-05-16T17:20:12+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: |-
+      انا ما اشتغلتش الحكاية دي قبل كدة خالص...
+      بس هل بحثت فيما يتعلق ب Cache ؟
+    id: '1484805711559132'
+  - created_time: '2017-05-16T17:26:09+0000'
+    from:
+      name: Mohamed Khatab
+      id: '1709278585800086'
+    message: "انا عاوز اسألك على حاجه بره استفسارك يا حسام بما انك مستخدم ionic \nانا
+      واحد عارف تقنيات ويب الفرونت ايند js - html -css - angular -jquery bootstrap
+      \nمحتاج اتعلم ايه عشان اقدر اعمل موبايل ابليكينش عن طريق تقنيات الويب دي"
+    id: '1484809578225412'
+  - created_time: '2017-05-16T17:41:02+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: Ionic cashes el view , make sure to clear data onenterview event
+    id: '1484819204891116'
+  - created_time: '2017-05-16T17:43:46+0000'
+    from:
+      name: Ahmed Elhadi
+      id: '2100856430150634'
+    message: Using ionic storage ?
+    id: '1484821434890893'
+  - created_time: '2017-05-16T18:49:21+0000'
+    from:
+      name: Hany Ahmed
+      id: '10156089330442292'
+    message: |-
+      Ajax cache responses by default
+      The quick solution is to append any parameter that holds current time (the browser d think it's different url than the cached one)
+      Better solution is to check your Ajax library to disable cache
+    id: '1484878591551844'
+  - created_time: '2017-05-16T18:56:33+0000'
+    from:
+      name: Hossam L Dokkani
+      id: '928444520664078'
+    message: I'm disabling cache everywhere in ionic in views and in routes $state,  although
+      it is always cached (except for the first call)
+    id: '1484882524884784'
+  - created_time: '2017-05-16T19:00:10+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "واضح ان في مشكلة في الكود واللوجيك ككل.. انت لازم تعمل ال login في ال
+      Angular ك service ده اولا.. \nثانيا اللي بيحصل انك بترندر صفحة الهوم او الاكونت
+      او البروفايل.. بالتوازي مع ال authentication method وال ajax بتاعها\nالحل تستخدم
+      promises او تحط اللوجيك بتاع بقية البرنامج كله جوة ال callback بتاع الاجاكس
+      (وده مش حل عملي ومش كويس) \nاو تخلي الاجاكس من نوع Synchronous مش asynchronous
+      عشان ال next statement بعد ال ajax call تستنى لحد ما ال ajax يخلص وده برده مش
+      مفضل..\n\n اصح حاجة ال promise. \n\nعموما لو بتستخدم ionic صح وبتفكر angular
+      way صح.. مش هتقابلك اي حاجة من دي من الأساس.. فيفضل تعيد نظر في اللوجيك ككل"
+    id: '1484884414884595'
+  - created_time: '2017-05-16T19:10:20+0000'
+    from:
+      name: Ahmed Atalla
+      id: '574320702905312'
+    message: المفروض السيرفر يبقي restful يعني كل request مستقل بذاته ... و  auth
+      بيكون token بتتبعت مع كل ريكويست
+    id: '1484889091550794'
+  - created_time: '2017-05-16T21:08:42+0000'
+    from:
+      name: Mohamed Hisham
+      id: '10155927653208847'
+    message: "طيب انا حاولت كتير افهم حتت ان ال ajax request بيرجع متأخر بس مش مهم.\nاولا
+      انت اللوجن عندك معتمد علي ايه jwt \nولا cookies ولا ايه؟\nلاني حاسس ان المشكلة
+      في ال logout مش في ال login"
+    id: '1484956468210723'
+  - created_time: '2017-05-16T21:15:18+0000'
+    from:
+      name: Hossam L Dokkani
+      id: '928444520664078'
+    message: "localstorge \nوالمشكلة مش فى الlogout لو انا من اول حولت ادخل باكونت
+      غلط مش يدخل حيطلع ايرور بس لم اكتب اكونت مظبوط حيفضل بردو مطلع ايرور"
+    id: '1484959738210396'
+  - created_time: '2017-05-16T21:51:40+0000'
+    from:
+      name: Abdelrahman Badr Eldeen
+      id: '10215277369790261'
+    message: طب انت مشكلتك كده فى الايونيك تقريبا ....ممكن تخليى ال var دايما initialized
+      ب 0 ميعملش كاش للقيمه اللى قبلها
+    id: '1484979321541771'
+  - created_time: '2017-05-16T22:41:09+0000'
+    from:
+      name: Ahmed Mabrook
+      id: '10213056573263683'
+    message: فضي الـ cache كلها فال logout
+    id: '1485007884872248'
+  - created_time: '2017-05-17T07:55:03+0000'
+    from:
+      name: Hossam L Dokkani
+      id: '928444520664078'
+    message: "شباب المشكلة كنت فى الfactory بتاع الUser فى الAngular \nكنت مستخدم
+      shared variable across the factory \nvar def = $q.defer();\n\nاللى كان بيحصل
+      ان كل الmethods اللى فى الfactory بتreturn اخر defer اللى هو shared الحل ان
+      كنت احط الvar دى جوة كل method\n\nMohamed Hisham هو اللى اخد باله من المشكلة"
+    id: '1485308311508872'
+  - created_time: '2017-05-17T08:17:55+0000'
+    from:
+      name: Welly Gawdat
+      id: '10155754140191620'
+    message: |-
+      لما تعمل خروج امسح الكاش بتاع المستخدم
+      لكن
+      لو انت البرنامج على الموبايل يعني المفروض أن يكون للمستخدم حساب واحد فقط صح ولا لأ
+    id: '1485319721507731'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE0TkRnd05UY3hNVFUxT1RFek1qb3hORGswT1RVMU1qRXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE0TlRNeE9UY3lNVFV3Tnpjek1Ub3hORGsxTURBNU1EYzEZD

@@ -1,0 +1,55 @@
+---
+message: "In your opinion, What could be the proper way to organize a Functional and
+  Integration tests for an application consumes an external API like twitter or Facebook.\n\n.
+  \n\nTaking into account the possibility of not always being able to create a testing
+  or sandboxing account"
+from:
+  name: Sarab Alzaman
+  id: '10154599440254364'
+type: status
+created_time: '2017-02-24T07:58:11+0000'
+updated_time: '2017-02-24T10:56:37+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1399170410122663/
+id: '172338516139198_1399170410122663'
+reactions:
+  data:
+  - id: '1561169037269711'
+    name: Hazem Ashmawy
+    type: LIKE
+  - id: '1955441501387657'
+    name: Bassam Abd Elhamid
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhNams0T0Rrd01qTTVPakUwT0RjNU1qVXdOekE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTNOalUwTnpnNU16RXdPakUwT0RjNU1qTXpOVFE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-02-24T10:21:26+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      An obvious one is using test user / app whenever possible.
+
+      For the ones that don't allow, you have multiple strategies:
+
+      - Having read only tests that rely on predefined always-assumed data, and ignore write operations
+
+      - Writing code very carefully that creates stuff and deletes them. You won't get this right from first attempt, and I mea ensuring the created data is cleared in case of test failure etc. If you go that route, you'll try to see how to hide the data from your users. You might use privacy options of the APIs, and/or even have ugly test flaga in your DB. It's what it is.
+
+      If the external API is not Facebook or Twitter (which both allow creating test apps), like another team at same company or some partner company, I'd try very hard to push them to provide a testing/staging environment before I give up and think about how to deal with it.
+    id: '1399256006780770'
+  - created_time: '2017-02-24T10:43:00+0000'
+    from:
+      name: Sarab Alzaman
+      id: '10154599440254364'
+    message: |-
+      " Having read only tests that rely on predefined always-assumed data, and ignore write operations "
+
+      I guess that's what I end up with
+    id: '1399265970113107'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE01T1RJMU5qQXdOamM0TURjM01Eb3hORGczT1RNeE5qZAzIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE01T1RJMk5UazNNREV4TXpFd056b3hORGczT1RNeU9UZA3cZD

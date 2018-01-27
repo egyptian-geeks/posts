@@ -1,0 +1,98 @@
+---
+message: |-
+  Ruby vs Python, Which one do you recommend for an e-commerce project?
+  Considering the current frameworks ROR and Django for example
+from:
+  name: Amr Fathi
+  id: '10216051350344395'
+type: status
+created_time: '2016-10-07T12:48:04+0000'
+updated_time: '2016-10-13T08:08:57+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1251575958215443/
+id: '172338516139198_1251575958215443'
+reactions:
+  data:
+  - id: '1575768239208294'
+    name: Eslam Mostafa
+    type: LIKE
+  - id: '10215070655377585'
+    name: Mahmoud Kandeel
+    type: LIKE
+  - id: '10159837107290263'
+    name: Fady Taher
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXpNalV6T1Rrek5URXdPakUwTnpVNE5EYzJNVFE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TnpFek1qZA3dNall5T2pFME56VTRORFExTlRBNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-10-07T13:04:55+0000'
+    from:
+      name: Abdelrahman Ghareeb
+      id: '10155827364301005'
+    message: I think the interpreted languages war is over (pretty much all languages
+      wars were over about a decade ago but that's a whole other story). The language
+      itself doesn't really matter if you'll end up using a framework anyway so the
+      comparison should be between frameworks not languages. I'm biased towards Python
+      so I'll tell you to use python/Django for the blah blah blah blah reasons, another
+      member of the group is a "code artisan :P" who likes Ruby will give you a different
+      set of reasons to go for RoR. That's all crap IMHO, What you should do is layout
+      a basic system architecture based on your business goals and then match this
+      system to the most appropriate environment, you might surprise yourself at the
+      end and use a completely different approach other than both.
+    id: '1251583674881338'
+  - created_time: '2016-10-07T13:33:55+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: عندي اعتقاد موش عارف صح ولا غلط. البايثون على المدى الطويل أفضل لخبرات
+      ومهارات المطور اللي هيشتغل بيه.
+    id: '1251597398213299'
+  - created_time: '2016-10-07T13:41:00+0000'
+    from:
+      name: Eslam Mostafa
+      id: '1575768239208294'
+    message: i would prefer Python, for me Ruby culture seems a lot like spaghetti.
+      frameworks like django seems to have a better architecture. i was playing with
+      RoR i can admit it has high productivity, and there are alot of gems that do
+      the heavy lifting for you. its fast in case you want a quick prototype, but
+      i would vote for python for real production projects, since it would be easy
+      for teams to debug and work on.
+    id: '1251599948213044'
+  - created_time: '2016-10-07T14:07:17+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: Whichever one you feel better working with. Both will do the job equally
+      well.
+    id: '1251612208211818'
+  - created_time: '2016-10-07T15:44:51+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: One thing I wouldn't recommend is NEVER use python for APIs on a big
+      scale.
+    id: '1251664068206632'
+  - created_time: '2016-10-09T22:33:52+0000'
+    from:
+      name: Mohamed A. Alqrwash
+      id: '10213394268464462'
+    message: depend in your need you could use many language and many data structure
+      in same project "like using java + python " and using cassndra + mysql + mongodb  every
+      tool have a advantage and disadvantage Big boys like "Google , etc " do this
+      even they invent tools for spacial cases < don't limit your self in one Box
+      :-)
+    id: '1253661051340267'
+  - created_time: '2016-10-13T08:08:55+0000'
+    from:
+      name: Mostafa Mohamed
+      id: '10215212836343185'
+    message: python with no doubts, eng Mohamed Alaa El Din said he does not recommend
+      it, with all do respect, python could handle big projects if its constructed
+      right, besides he is asking if he should use ruby or python.
+    id: '1256388734400832'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkxTVRVNE16WTNORGc0TVRNek9Eb3hORGMxT0RRMU5EazEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkxTmpNNE9EY3pORFF3TURnek1qb3hORGMyTXpRMk1UTTEZD

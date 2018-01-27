@@ -1,0 +1,42 @@
+---
+message: |-
+  كل ما اعمل Import database ف phpmyadmin
+  يطلعلى الerror ده(No data was received to import. Either no file name was submitted, or the file size exceeded the maximum size permitted by your PHP configuration.)
+   حد يعرف ممكن اعمل ايه
+from:
+  name: Hanan Abdelmohsen
+  id: '2000518460205460'
+type: status
+created_time: '2017-06-30T15:36:18+0000'
+updated_time: '2017-06-30T17:18:39+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1532413486798354/
+id: '172338516139198_1532413486798354'
+comments:
+  data:
+  - created_time: '2017-06-30T15:40:07+0000'
+    from:
+      name: Mohamed Omar Zaian
+      id: '10155855162041047'
+    message: Maybe you have to check the php.ini configuration also I prefer hat you
+      import the database manually not using phpmyadmin. Plz also consider checking
+      the log files of phpmyadmin for further debugging
+    id: '1532416530131383'
+  - created_time: '2017-06-30T16:02:19+0000'
+    from:
+      name: Omar Saqr
+      id: '10216335292360651'
+    message: Import using cli
+    id: '1532434866796216'
+  - created_time: '2017-06-30T17:18:36+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: |-
+      1. Determine the php.ini that your server use. checkout the output of phpinfo().
+      2. In php.ini set upload_max_filesize to size cover your dump's size in MB. Mine is 250M Also insure that post_max_size is greater than upload_max_size.
+      3. Restart your server and retry.
+    id: '1532492530123783'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV6TWpReE5qVXpNREV6TVRNNE16b3hORGs0T0RNM01qQTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV6TWpRNU1qVXpNREV5TXpjNE16b3hORGs0T0RRek1URTMZD

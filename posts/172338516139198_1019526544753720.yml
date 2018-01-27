@@ -1,0 +1,87 @@
+---
+message: |-
+  Does anyone know why i'm getting this while adding my services reference to my current project ?
+  What i did search about on google says that i have UI accessed by my services but i don't have this case,,
+  Any suggestion would be appreciated :)
+link: https://www.facebook.com/photo.php?fbid=746358278824378&set=gm.1019526544753720&type=3
+from:
+  name: Ibrahem Salah
+  id: '1391026811024185'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/12144702_746358278824378_5940221885398421228_n.jpg?oh=71db9b42b98deb32c9a550d6daff3473&oe=5B1D3D82
+created_time: '2015-10-14T16:12:04+0000'
+updated_time: '2015-10-19T14:02:33+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1019526544753720/
+id: '172338516139198_1019526544753720'
+comments:
+  data:
+  - created_time: '2015-10-14T16:47:38+0000'
+    from:
+      name: Professor Mina
+      id: '10155114629021466'
+    message: |-
+      See if this helps:
+      http://stackoverflow.com/questions/2692457/vs-2010-error-object-reference-not-set-to-an-instance-of-an-object-when-adding
+    id: '1019538848085823'
+  - created_time: '2015-10-14T16:48:46+0000'
+    from:
+      name: Ibrahem Salah
+      id: '1391026811024185'
+    message: Nope it didn't :/
+    id: '1019539194752455'
+  - created_time: '2015-10-14T17:16:34+0000'
+    from:
+      name: Professor Mina
+      id: '10155114629021466'
+    message: Try adding reference to the same service in another project to isolate
+      the issue (to figure out if it is the service or the consumer project)
+    id: '1019547748084933'
+  - created_time: '2015-10-14T17:17:30+0000'
+    from:
+      name: Ibrahem Salah
+      id: '1391026811024185'
+    message: I did and it worked in another project...
+    id: '1019547998084908'
+  - created_time: '2015-10-14T17:28:37+0000'
+    from:
+      name: Professor Mina
+      id: '10155114629021466'
+    message: "Then you have two options:\n1. Move your files to the new project. It
+      will work but you'll never know why \U0001F600\n2. Compare the projects files
+      (line by line, u could use something like BCompare) to see what's wrong."
+    id: '1019551071417934'
+  - created_time: '2015-10-14T17:44:16+0000'
+    from:
+      name: Mahmoud Jameel Soliman
+      id: '10154962507271207'
+    message: This is a build order issue ... you are starting the client before the
+      service (you are setting the service object / instantiation to null)... build
+      the service and make sure the build output is in a directory where you can reference
+      then start the client ... I hope this helps :)
+    id: '1019555958084112'
+  - created_time: '2015-10-19T14:02:33+0000'
+    from:
+      name: Ibrahem Salah
+      id: '1391026811024185'
+    message: I tried this also and it didn't work
+    id: '1021410837898624'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF4T1RVek9EZAzBPREE0TlRneU16b3hORFEwT0RReE1qVTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF5TVRReE1EZA3pOemc1T0RZAeU5Eb3hORFExTWpZAek16VXoZD
+attachments:
+  data:
+  - description: |-
+      Does anyone know why i'm getting this while adding my services reference to my current project ?
+      What i did search about on google says that i have UI accessed by my services but i don't have this case,,
+      Any suggestion would be appreciated :)
+    media:
+      image:
+        height: 404
+        src: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/12139987_746358278824378_5940221885398421228_o.jpg?oh=831e63f6518516666a39fb6b3ca65fb4&oe=5B239C71
+        width: 720
+    target:
+      id: '746358278824378'
+      url: https://www.facebook.com/photo.php?fbid=746358278824378&set=gm.1019526544753720&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=746358278824378&set=gm.1019526544753720&type=3

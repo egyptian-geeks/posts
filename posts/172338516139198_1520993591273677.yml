@@ -1,0 +1,81 @@
+---
+message: |-
+  شباب عندى مشكلة مع VS.Net2017 انا عايز اعمل self contained package for mvc core 1.0 بس مش عارف اعمل الحكاية ده على IDE ده ومش عارف اطلع .exe للموقع
+  حد قابل المشكلة ده؟
+  لم علينا عبيدك يا رب :)
+from:
+  name: Khaled Ramadan
+  id: '10157199016384478'
+type: status
+created_time: '2017-06-19T21:28:49+0000'
+updated_time: '2017-07-17T16:40:45+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1520993591273677/
+id: '172338516139198_1520993591273677'
+reactions:
+  data:
+  - id: '10154940606011986'
+    name: Alaa Farouk Mohamed
+    type: LOVE
+  - id: '10155627181650141'
+    name: Mostafa Amin
+    type: LIKE
+  - id: '10155432639833282'
+    name: Ahmed Abdo
+    type: HAHA
+  paging:
+    cursors:
+      before: TmpZAME1UQXhPVGcxT2pFME9UYzVNelF6TkRrNk56ZAzROalE0TURNM09URXpNekV5
+      after: TmpBNU56QTRNamd4T2pFME9UYzVNRGd4TXpZANk56ZAzROalE0TURNM09URXpNekV5
+comments:
+  data:
+  - created_time: '2017-06-19T21:36:43+0000'
+    from:
+      name: Ahmed Abdo
+      id: '10155432639833282'
+    message: "مستنى اتفرج ولو حد يقول \nلmvc عادى مش core"
+    id: '1520998604606509'
+  - created_time: '2017-06-20T00:40:20+0000'
+    from:
+      name: Haitham Shaddad
+      id: '1591171607636188'
+    message: طب هو ايه السبب اللي مخليك عايز تعمل كده وهل تقصد انك عايز حاجه self
+      hosted ولا ايه؟
+    id: '1521135381259498'
+  - created_time: '2017-06-20T04:14:35+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      I think you have to do this manually, edit the project to include the runtime identifier (2w 7aga keda) like "win7-x64", in the old SDK you did this in the "runtimes" part of project.json, I don't know how exactly you do that in the new project structure.
+      after that you can try building and see if it works, if not then you might have to build with the command line, dotnet restore, dotnet build -r win7-x64, also try dotnet publish -r win7-x64 (you might also need the -c Debug/Release in these)
+    id: '1521275557912147'
+  - created_time: '2017-06-20T04:50:55+0000'
+    from:
+      name: Alaa Farouk Mohamed
+      id: '10154940606011986'
+    message: |-
+      https://www.hanselman.com/blog/SelfcontainedNETCoreApplications.aspx
+       Look at this ya kbeer....:)
+    id: '1521299704576399'
+  - created_time: '2017-06-20T20:03:37+0000'
+    from:
+      name: Khaled Ramadan
+      id: '10157199016384478'
+    message: تمام يا شباب. انا وصلت لاستنتاج وأعتقد طلع صح والمشكلة اتحلت الحمد لله
+    id: '1521941741178862'
+  - created_time: '2017-07-17T16:40:30+0000'
+    from:
+      name: Khaled Ramadan
+      id: '10157199016384478'
+    message: i found the solution finally and worked fine
+    id: '1550153051691064'
+  - created_time: '2017-07-17T16:40:37+0000'
+    from:
+      name: Khaled Ramadan
+      id: '10157199016384478'
+    message: https://blogs.msdn.microsoft.com/luisdem/2017/03/19/net-core-1-1-how-to-publish-a-self-contained-application/
+    id: '1550153098357726'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV5TURrNU9EWXdORFl3TmpVd09Ub3hORGszT1RBNE1qQXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUxTURFMU16QTVPRE0xTnpjeU5qb3hOVEF3TXpBNU5qUXkZD

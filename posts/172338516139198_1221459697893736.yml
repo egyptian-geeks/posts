@@ -1,0 +1,58 @@
+---
+message: Is there a programmatic way to track notifications from specific apps like
+  facebook and show them in another website?
+from:
+  name: Ibrahem Ismail
+  id: '1483304861797468'
+type: status
+created_time: '2016-09-03T01:40:20+0000'
+updated_time: '2016-09-03T06:26:23+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1221459697893736/
+id: '172338516139198_1221459697893736'
+reactions:
+  data:
+  - id: '738141003057684'
+    name: Ahmed Khtab
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTFPRFV6TnpJeE1UWXpPakUwTnpJNE5qY3hOakU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTFPRFV6TnpJeE1UWXpPakUwTnpJNE5qY3hOakU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-09-03T01:51:27+0000'
+    from:
+      name: Nader Al-Sharkawy
+      id: '10154950104465216'
+    message: |-
+      Generally, this can be achieved via APIs.
+      For fetching Facebook notifications, the Graph API has it built-in.
+      Check: https://developers.facebook.com/docs/graph-api/reference/user/notifications
+    id: '1221467947892911'
+  - created_time: '2016-09-03T01:52:19+0000'
+    from:
+      name: Ahmed Abo Mazin
+      id: '1758521440903748'
+    message: check facebook api it may help you but i didn't use it yet :)
+    id: '1221468477892858'
+  - created_time: '2016-09-03T01:55:23+0000'
+    from:
+      name: Ibrahem Ismail
+      id: '1483304861797468'
+    message: and the other social networks ???
+    id: '1221469517892754'
+  - created_time: '2016-09-03T02:12:10+0000'
+    from:
+      name: Nader Al-Sharkawy
+      id: '10154950104465216'
+    message: |-
+      Different services have different APIs and hence will require different approaches. You need to look up the respective API of each service.
+      -
+      For Twitter, the REST API won't work for you.
+      You'll need to take advantage of the streaming API's user streams functionality.
+      Check: https://dev.twitter.com/streaming/userstreams
+    id: '1221480774558295'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl5TVRRMk56azBOemc1TWpreE1Ub3hORGN5T0RZAM05Ea3gZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl5TVRRNE1EYzNORFUxT0RJNU5Ub3hORGN5T0RZANE56TXoZD

@@ -1,0 +1,28 @@
+---
+message: "I want to rapid prototype an angularjs app. \n\nIts an interview task; but
+  its been a while since i started a new angulajs(1.5) app. \n\nWhich starter should
+  i use ?\n\nI usually use webpack+babel+es6+jasmin following tdd: but i feel like
+  its an overkill for angular1 test project. Specially that most of my other angulajs
+  apps i started in 2014-2015 before moving to react world i used bower and gulp and
+  no es6. \n\nSo what build system did you use as  for angulajs(1) apps recently?"
+from:
+  name: Momen Al Zalabany
+  id: '10160388991030144'
+type: status
+created_time: '2017-09-04T21:55:31+0000'
+updated_time: '2017-09-10T23:45:37+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1598705353502500/
+id: '172338516139198_1598705353502500'
+comments:
+  data:
+  - created_time: '2017-09-05T06:15:57+0000'
+    from:
+      name: Mohamed Eltantawi
+      id: '10160105091695314'
+    message: Npm/bower for what I need, grunt (bundling, minification, testing, building,
+      etc), done.
+    id: '1599004323472603'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU1T1RBd05ETXlNelEzTWpZAd016b3hOVEEwTlRreU1UVTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU1T1RBd05ETXlNelEzTWpZAd016b3hOVEEwTlRreU1UVTQZD

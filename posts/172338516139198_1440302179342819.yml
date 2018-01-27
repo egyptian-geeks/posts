@@ -1,0 +1,47 @@
+---
+message: |-
+  Hello Guys,
+  I have a question regarding mongoDB.
+  When should I seperate entities and build relationships between them like it's normally done in a SQL database and when I shouldn't?  For example Student entity and Course entity. I have learned that in mongo you should rarely seperate such entities so i should create a property for student that is of type array and put in it the courses that the student takes rather than creating a relationship (different scheme) between the student and the courses.
+from:
+  name: Omar Hossam Ahmed
+  id: '10156071955196730'
+type: status
+created_time: '2017-04-02T12:49:12+0000'
+updated_time: '2017-04-03T01:18:13+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1440302179342819/
+id: '172338516139198_1440302179342819'
+reactions:
+  data:
+  - id: '10215697722421811'
+    name: عبدالرحمن ماجد
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRRd05UQTFNRFExTVRveE5Ea3hNVE0zTlRJME9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRRd05UQTFNRFExTVRveE5Ea3hNVE0zTlRJME9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2017-04-02T12:57:59+0000'
+    from:
+      name: Tareq El-Masri
+      id: '2478303849061627'
+    message: Create a reference.
+    id: '1440308036008900'
+  - created_time: '2017-04-02T12:58:39+0000'
+    from:
+      name: Tareq El-Masri
+      id: '2478303849061627'
+    message: There're a lot of frameworks doing such relations easy, you have Mongoose
+      in Node.js and MongoEngine in Python
+    id: '1440308509342186'
+  - created_time: '2017-04-03T01:18:05+0000'
+    from:
+      name: Ahmed Atalla
+      id: '574320702905312'
+    message: http://stackoverflow.com/a/5373969
+    id: '1440884589284578'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEwTURNd09EQXpOakF3T0Rrd01Eb3hORGt4TVRNM09EZA3cZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEwTURnNE5EVTRPVEk0TkRVM09Eb3hORGt4TVRneU1qZAzUZD

@@ -1,0 +1,78 @@
+---
+message: "is there a way to access an input field inside partial view from parent
+  view  using \"JS\" .. \n$(\"#input\").val()  always returns empty\n\nin MVC5 .net"
+from:
+  name: Mera Tag Eldin
+  id: '10155869338936136'
+type: status
+created_time: '2016-09-26T19:33:52+0000'
+updated_time: '2016-09-28T22:44:57+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1242447802461592/
+id: '172338516139198_1242447802461592'
+comments:
+  data:
+  - created_time: '2016-09-26T19:39:21+0000'
+    from:
+      name: Muhammad Saleh
+      id: '10156649659196002'
+    message: |-
+      Does your input have an id "input" ?
+      try $('input').val()
+    id: '1242451029127936'
+  - created_time: '2016-09-26T20:36:17+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: Partial view gives and changes the id of child controls did u tried classes
+      ?
+    id: '1242484809124558'
+  - created_time: '2016-09-27T00:25:59+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: Definitley doable with Javascript & a JQuery selector. Have you tried
+      alert($(input).value) ?
+    id: '1242603265779379'
+  - created_time: '2016-09-27T11:38:34+0000'
+    from:
+      name: George Hicham
+      id: '10160192619205727'
+    message: |-
+      depending on the type of input...
+      your example is right for a textfield but for a dropdown you do $('#dropDownId :selected').text();
+      for a checkbox or a radio button it's a complete different story
+    id: '1242949782411394'
+  - created_time: '2016-09-27T13:19:07+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      You're talking about Partial Views that you call with Html.RenderPartial right?
+      When you render a partial view, basically all of it's contents gets copied to the parent view, so the output to the browser is one single rendered html, there are no iframes or any kind of magic, so javascript doesn't know that you have a partial view, it only knows about the single combined output. So to get the value of the input inside a partial view is the same as getting the value of the input in the parent view, same code.
+      If you're having problems getting it by ID $("#input-id") then you might have more than one element with the same ID and you should always avoid that.
+    id: '1243018362404536'
+  - created_time: '2016-09-27T13:21:23+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: perhaps what is needed is to enclose the code in  $(document).ready()
+      , because maybe the partial view wasn't rendered before the textbox was rendered
+    id: '1243019855737720'
+  - created_time: '2016-09-27T13:22:13+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: and sometimes even $(document).ready()  doesn't work and you can create
+      a script tag at the bottom of the page to test that theory
+    id: '1243020285737677'
+  - created_time: '2016-09-27T14:25:50+0000'
+    from:
+      name: Mohammad Helal
+      id: '564129417272281'
+    message: You should access your input from the call back function within your
+      XHR object
+    id: '1243060785733627'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkwTWpRMU1UQXlPVEV5Tnprek5qb3hORGMwT1RFNE56WXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkwTXpBMk1EYzROVGN6TXpZAeU56b3hORGMwT1RnMk16VXcZD

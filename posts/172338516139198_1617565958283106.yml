@@ -1,0 +1,51 @@
+---
+message: "مساء الخير \nانا عندي مشكله في السيرفر ان حوالي 80% من الداتا مكرره و كونت
+  عايز امسح الداتا المكرره و اسيب الاحدث و المشكله ان اسماء الملفات مختلفه\nانا لقيت
+  السكريبت ده لكن مش عارف اشغلو باي حال من الاحوال \nhttps://winscp.net/eng/docs/library_example_find_duplicate_files\n\nمحدش
+  عندو فكره او وجهتو مشكله زي ديه قبل كدا ؟"
+link: https://winscp.net/eng/docs/library_example_find_duplicate_files
+from:
+  name: Ayman Issa
+  id: '10215124763370828'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQBRgOYhL23-V-9A&w=130&h=130&url=https%3A%2F%2Fwinscp.net%2Fimages%2Flogo.gif&cfs=1&_nc_hash=AQBv4198GdDB_Jo8
+created_time: '2017-09-26T21:01:28+0000'
+updated_time: '2017-10-03T06:51:38+0000'
+name: 'Find duplicate files in SFTP/FTP server :: WinSCP'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1617565958283106/
+id: '172338516139198_1617565958283106'
+comments:
+  data:
+  - created_time: '2017-09-27T00:01:23+0000'
+    from:
+      name: Emad Saeed
+      id: '1775266282497365'
+    message: ممكن لو الملفات مش كتير و حجمها مش كبير ممكن تعمل سكربت يculculate الـ
+      checksum لكل ملف + الـ path بتاع الملف و بعدها تكتب سكربت تاني يشوف ال duplicates
+      في ال الناتج و لما يلاقي duplicate ف يجيب ال meta data للملف و يمسح الاقدم و
+      يسيبه الاحدث
+    id: '1617644124941956'
+  - created_time: '2017-10-03T03:51:42+0000'
+    from:
+      name: Ahmed El Mowafy
+      id: '1677576058930096'
+    message: Ayman Issa Did you solve the problem?
+    id: '1622841041088931'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl4TnpZAME5ERXlORGswTVRrMU5qb3hOVEEyTkRjd05EZA3oZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl5TWpnME1UQTBNVEE0T0Rrek1Ub3hOVEEzTURBeU56QXkZD
+attachments:
+  data:
+  - description: The following example uses WinSCP .NET assembly from a PowerShell
+      script. If you have another preferred language, you can easily translate it.
+    media:
+      image:
+        height: 150
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQD3KHuvu1k_f3mE&w=720&h=720&url=https%3A%2F%2Fwinscp.net%2Fimages%2Flogo.gif&cfs=1&_nc_hash=AQDvwn-MsjH20AXq
+        width: 150
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwinscp.net%2Feng%2Fdocs%2Flibrary_example_find_duplicate_files&h=ATM9kc_gE2s5ltSRr8o2VXW1UD8KOfe-vw3bPUNmrThRMbHFg4e8isjXO9Lgxh3zEGgLMBvdA3bIUGC9dXbjIHIdgfKRgY0o94nX&s=1&enc=AZN3GIqrCc3gu6VisvBlG7lfXC8pmHhX35AXeaKBjC1DW66Ze38AhsMc7X1n67M-kTImyRK9qdkf8TgF65sVBVQD
+    title: 'Find duplicate files in SFTP/FTP server :: WinSCP'
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwinscp.net%2Feng%2Fdocs%2Flibrary_example_find_duplicate_files&h=ATM9kc_gE2s5ltSRr8o2VXW1UD8KOfe-vw3bPUNmrThRMbHFg4e8isjXO9Lgxh3zEGgLMBvdA3bIUGC9dXbjIHIdgfKRgY0o94nX&s=1&enc=AZN3GIqrCc3gu6VisvBlG7lfXC8pmHhX35AXeaKBjC1DW66Ze38AhsMc7X1n67M-kTImyRK9qdkf8TgF65sVBVQD

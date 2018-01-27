@@ -1,0 +1,119 @@
+---
+message: "بعمل موقع Laravel عايز كل ما عميل يسجل أكونت جديد فيه يتعمله داتابيز جديدة
+  بحثت في الموضوع لاقيت ان Laravel بتسمح انك تعمل أكتر من داتابيز عادي وده مشروح في
+  اللينكات دي:\nhttp://fideloper.com/laravel-multiple-database-connections\nhttps://stackoverflow.com/questions/31847054/how-to-use-multiple-database-in-laravel\n\nلكن
+  المشكلة ان لازم اسم الداتا بيز وبيانات الـ connection بتاعتها تتكتب في فايل database.php
+  جوا فولدر الـ config \nوأنا عايز أعمل الموضوع ده أتوماتيك فإيه الحل؟"
+link: http://fideloper.com/laravel-multiple-database-connections
+from:
+  name: Mohamed Wagdy
+  id: '10212768937991554'
+type: link
+created_time: '2017-06-11T19:37:07+0000'
+updated_time: '2017-06-12T08:43:57+0000'
+name: Multiple DB Connections in Laravel
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1512511602121876/
+id: '172338516139198_1512511602121876'
+reactions:
+  data:
+  - id: '10205205301673812'
+    name: Ahmed Shawky
+    type: LIKE
+  - id: '10155903911855943'
+    name: Ahmed Soliman
+    type: LIKE
+  - id: '327697674384613'
+    name: Amaal Omran
+    type: LIKE
+  - id: '824666604386021'
+    name: Mohamed Elawadly
+    type: LIKE
+  - id: '10216030396495261'
+    name: Noha MoAmary
+    type: LIKE
+  - id: '1557580064295784'
+    name: Mohamed H. Fakher
+    type: LIKE
+  - id: '1624144877673062'
+    name: Mahmoud Ghaly
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRJNE16a3hOVGN3TWpveE5EazNNekE0TURZAd09qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBd01EQXlNekkyT1RVeU1UQXhPakUwT1RjeU1UQTFOak02TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-06-11T19:39:48+0000'
+    from:
+      name: Mohamed Gamal
+      id: '10156096685587328'
+    message: This is a very bad db design approach tbh.
+    id: '1512513538788349'
+  - created_time: '2017-06-11T19:39:58+0000'
+    from:
+      name: Khaled Elnaggar
+      id: '10215461207703148'
+    message: ليه كل يوزر يتعمله داتابيز ؟!!! هل فعلا السايت محتاج كده فعلا ؟!!!!!
+    id: '1512513658788337'
+  - created_time: '2017-06-11T19:41:26+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: هو حتة مالتي داتابيز دي مسموح بيها في حالة واحدة لو هتشغل الابليكيشن
+      بتاعك multi tenant ويبقى مثلا كل subdomain ب instance لوحده.. غير كدة يبقى غير
+      الفكرة دي اصلا
+    id: '1512514965454873'
+  - created_time: '2017-06-11T19:41:39+0000'
+    from:
+      name: Amr MUhamed
+      id: '1444931018966857'
+    message: مش محتاج تعمل ده طالم هتربط كل بيانات الكلاينت ده بيه
+    id: '1512515098788193'
+  - created_time: '2017-06-11T19:43:26+0000'
+    from:
+      name: Mohamed Wagdy
+      id: '10212768937991554'
+    message: "فكرة الموقع ان لما تعمل أكونت بيتعملك موقع بـ domain  فإزاي تتعمل الداتابيز
+      بتاعتها بطريقة مظبوطة؟ \nMohamed Khaled Amr Amr"
+    id: '1512515958788107'
+  - created_time: '2017-06-11T20:09:21+0000'
+    from:
+      name: Ahmed Ashraf
+      id: '930615110434715'
+    message: غير الconfig on fly
+    id: '1512540582118978'
+  - created_time: '2017-06-11T20:41:55+0000'
+    from:
+      name: Mahmoud Mostafa
+      id: '10155358946666814'
+    message: You can create db connection on the fly , appened config to database
+      file , use db:connection(name)
+    id: '1512587458780957'
+  - created_time: '2017-06-11T21:47:56+0000'
+    from:
+      name: Abdelrhman Mohamed
+      id: '1788801214484268'
+    message: "لو شغال mySQL \nفي ال Query اعمل الأكونت الأول و اعمل داتابيز بنفس اسم
+      الأكونت واعمل جرانت لصلاحيات الداتا بيز للأكونت (في نفس الquery)\n و بعدين زود
+      السطر بتاع اليوزر نيم و الباس ف ملف ال config.php اوتوماتيك عن طريق الفايل سيستم
+      بتاع ال laravel"
+    id: '1512633835442986'
+  - created_time: '2017-06-12T08:43:54+0000'
+    from:
+      name: Mohamed Wagdy
+      id: '10212768937991554'
+    message: "شكراً يا جماعة، كلامكم فادني فعلا ولاقيت شرح للموضوع وكذا باكيدج بتعمل
+      الموضوع ده واللي قولتوه هو اللي وصلني للشرح ده \nhttps://hackernoon.com/simple-multi-tenancy-with-laravel-b3f84fc13c39"
+    id: '1513087678730935'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV4TWpVeE16VXpPRGM0T0RNME9Ub3hORGszTWpBNU9UZAzQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV4TXpBNE56WTNPRGN6TURrek5Ub3hORGszTWpVM01ETTEZD
+attachments:
+  data:
+  - description: Here's how to use multiple database connections within Laravel 4
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Ffideloper.com%2Flaravel-multiple-database-connections&h=ATMEHkIFcB6RRXjCiQ1nq-lo1bQ3FEFvSwVrjTVU9GryfDF_uXSAnCUeWAvtEgKiGjOWU8uCCNzoI6s4w84ni7kg8HxzVvR8iQGC&s=1&enc=AZNNDuChbGClgG5PrmrfoZs1zvs7p9Qc00Clwat6pUtzUamykF7FCapTrbR3PimsISBK6YHGHjgKXnqVv97FjUxn
+    title: Multiple DB Connections in Laravel
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Ffideloper.com%2Flaravel-multiple-database-connections&h=ATMEHkIFcB6RRXjCiQ1nq-lo1bQ3FEFvSwVrjTVU9GryfDF_uXSAnCUeWAvtEgKiGjOWU8uCCNzoI6s4w84ni7kg8HxzVvR8iQGC&s=1&enc=AZNNDuChbGClgG5PrmrfoZs1zvs7p9Qc00Clwat6pUtzUamykF7FCapTrbR3PimsISBK6YHGHjgKXnqVv97FjUxn

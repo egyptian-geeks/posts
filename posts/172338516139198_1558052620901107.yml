@@ -1,0 +1,62 @@
+---
+message: |-
+  Hi Geeks,
+  I'm facing an issue with Nginx reverse proxy.
+  I have redirects to '/' in server side, which make nginx redirect to the absolute root, not the app root
+  Example
+  www.example.com/app1/logout
+  Redirects in the back end to '/'
+  This makes nginz redirect to
+  www.example.com/
+
+  I have tried so many things and nothing worked. Any ideas?
+
+  Note: My back end is Nodejs on Express framework.
+from:
+  name: Mohamed Gamal
+  id: '10156096685587328'
+type: status
+created_time: '2017-07-25T11:24:38+0000'
+updated_time: '2017-07-25T21:00:09+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1558052620901107/
+id: '172338516139198_1558052620901107'
+reactions:
+  data:
+  - id: '10156301546469701'
+    name: Amr ELsaqqa
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRZAMU56RTBOekF3T2pFMU1EQTVPRFEyTXpVNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRZAMU56RTBOekF3T2pFMU1EQTVPRFEyTXpVNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-07-25T11:37:01+0000'
+    from:
+      name: Mootaz Dinana
+      id: '10155792625775306'
+    message: "Use $request_uri variable\nFor instance, I use this to redirect HTTP
+      to HTTPS: \nlocation / {\n        return 301 https://$server_name$request_uri;\n
+      \   }"
+    id: '1558066174233085'
+  - created_time: '2017-07-25T11:47:43+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "make sure that the redirect is not absolute in express app itself, i.e.
+      \ntest with your express app without the nginx proxy e.g. 127.0.0.1:3000/app/logout\n\nyour
+      app should handle its base url in redirects, and be aware that redirect to the
+      relative / may be translated to /baseurl/ and /path is /baseurl/path.. etc..\n\nif
+      this is done correctly, you should have no issue with nginx proxy..\n\nso check
+      your express app first :)"
+    id: '1558073360899033'
+  - created_time: '2017-07-25T21:00:07+0000'
+    from:
+      name: Mohamed Shaaban
+      id: '10156259295924301'
+    message: Please create a code snippet and share it
+    id: '1558549787518057'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUxT0RBMk5qRTNOREl6TXpBNE5Ub3hOVEF3T1RneU5qSXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUxT0RVME9UYzROelV4T0RBMU56b3hOVEF4TURFMk5EQTMZD

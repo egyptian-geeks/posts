@@ -1,0 +1,53 @@
+---
+message: could anyone help me on installing NativeScript framework on Visual Studio
+  code ??
+from:
+  name: Muhammed Abd El-Moniem
+  id: '10155774903303859'
+type: status
+created_time: '2016-04-15T00:08:54+0000'
+updated_time: '2016-04-16T21:23:26+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1124427744263599/
+id: '172338516139198_1124427744263599'
+comments:
+  data:
+  - created_time: '2016-04-16T19:39:56+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: I haven't tried this myself, but I would suggest searching the visual
+      studio extension gallery for an extension that would add NativeScript debugging
+      and project templates.
+    id: '1125630487476658'
+  - created_time: '2016-04-16T19:40:37+0000'
+    from:
+      name: Muhammed Abd El-Moniem
+      id: '10155774903303859'
+    message: i hope so
+    id: '1125630660809974'
+  - created_time: '2016-04-16T19:45:40+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      If you didn't find an extension for that, you could try and use any other JS project type (Node maybe?) and try to make visual studio run the NativeScript tools as part of the build (either from the project properties or from the Task Runner used with frontend stuff).
+      I was able to do that "hack" with Electron, I created a NodeJS project in VS then made it run electron's executable instead of node's when building/running.
+    id: '1125632217476485'
+  - created_time: '2016-04-16T20:03:27+0000'
+    from:
+      name: Muhammed Abd El-Moniem
+      id: '10155774903303859'
+    message: hmmmmm thanks hassan for caring and helping i will try that ..
+    id: '1125639224142451'
+  - created_time: '2016-04-16T21:23:26+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      ... I just realized you're talking about Visual Studio Code and not normal Visual Studio :D
+      But I think the same ideas apply, there are extensions for VS Code too, and you could try messing around with other project types bardo :D
+    id: '1125673100805730'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV5TlRZAek1EUTROelEzTmpZAMU9Eb3hORFl3T0RNMU5UazIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV5TlRZAM016RXdNRGd3TlRjek1Eb3hORFl3T0RReE9EQTIZD

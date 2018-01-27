@@ -1,0 +1,94 @@
+---
+message: |-
+  Forget everything you know about CSS layouts. Here is the latest CSS Grid method.
+
+  Start at 10:00
+link: https://www.youtube.com/watch?v=7kVeCqQCxlk&t=586s
+from:
+  name: Abdalla M. Magdy
+  id: '10213020152031880'
+type: video
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQCfpdzLrtA4qxnF&w=130&h=130&url=https%3A%2F%2Fi.ytimg.com%2Fvi%2F7kVeCqQCxlk%2Fmaxresdefault.jpg&cfs=1&_nc_hash=AQC68_SUIKm3x0mw
+created_time: '2017-07-23T08:05:41+0000'
+updated_time: '2017-07-25T15:43:34+0000'
+name: CSS Grid Changes EVERYTHING - Amazing Presentation
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1555877487785287/
+shares:
+  count: 1
+id: '172338516139198_1555877487785287'
+reactions:
+  data:
+  - id: '2312705138747039'
+    name: Ahmed Saad
+    type: LIKE
+  - id: '10155750887566727'
+    name: Khaled Elkhawaga
+    type: LIKE
+  - id: '1615436418535535'
+    name: Sabry ALzahar
+    type: LIKE
+  - id: '1385017851602595'
+    name: Mostafa Hisham
+    type: LIKE
+  - id: '10156266511868081'
+    name: Ahmed Zain Mohammed
+    type: LIKE
+  - id: '1855055808119543'
+    name: Sayed Muhammad
+    type: LIKE
+  - id: '1573744422675273'
+    name: Abdallah Samir
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdNakkzTWpZAek5EYzFPakUxTURBNU9UVTBNalk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXhNVGt4T1RBM01UQXhPakUxTURBM09UYzNNemc2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-07-23T11:52:17+0000'
+    from:
+      name: Mahmoud Ow
+      id: '561900310821366'
+    message: javascript is the grid
+    id: '1556030124436690'
+  - created_time: '2017-07-23T12:02:40+0000'
+    from:
+      name: Mahmoud Ow
+      id: '561900310821366'
+    message: "look at this js function considering using jquery \n\n// layout handling
+      while resizing \n$(window).resize(function(){\n myFunction();\n});\n\n// function
+      ( myFunction ) block - start\nfunction myFunction (){\n// reset first ' default
+      css style '\n$(\"element\").css({\n width : \"\",\n height : \"\"\n});\n\n//
+      operations depending on the page width\nif($(\"window\").width() < 150px) {\n
+      $(\"element\").css({\n   width : \"100px\",\n  height : \"100px\"\n });\n}\n//
+      function ( myFunction ) block - end\n\n// run the function = page first load\nmyFunction();"
+    id: '1556040804435622'
+  - created_time: '2017-07-25T15:43:33+0000'
+    from:
+      name: Ahmed Saad
+      id: '2312705138747039'
+    message: للاسف هي وال flexbox ظهروا متأخر جدا في وقت بقى ال smartphone users اكتر
+      من 80% وال desktop users اقل من 20% ... بالتالي ال complex layouts اللي اخيرا
+      هتقدر تعملها بب pure css و less html tags مش هتتشاف غير من عدد قليل (اللي هما
+      ال desktop users) ... لان غالبا ال layout اللي هتعمله لل smartphones هيكون vertically
+      stacking elements
+    id: '1558282687544767'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUxTmpBek1ERXlORFF6TmpZANU1Eb3hOVEF3T0RFd056TTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUxT0RJNE1qWTROelUwTkRjMk56b3hOVEF3T1RrM05ERXoZD
+attachments:
+  data:
+  - description: CSS Grid is now live in all major browsers, and with it everything
+      we know about web layouts changes! The CSS Grid Layout Module introduces a native
+      CSS grid...
+    media:
+      image:
+        height: 720
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQDW3bG0p6zACyv4&w=720&h=720&url=https%3A%2F%2Fi.ytimg.com%2Fvi%2F7kVeCqQCxlk%2Fmaxresdefault.jpg&cfs=1&_nc_hash=AQAjKASqBUtfIJK9
+        width: 720
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D7kVeCqQCxlk%26t%3D586s&h=ATO6iABMle20oLlcFKqKKtiCm9Ln36rsmNY91wHHY3eLw_jR5Pi8R9IHL1h5n1irdhpvGzW61qxam_2IqarEmHDzxt87mNElrFCt&s=1&enc=AZPLqKEdLRfj2nu2pxUl7jpNHAUIyvskpVHByJAC0X9Bc7m4xf_JCca2JU7oGIdzEgbr0W8mBcq60bb3ORr3QIwm
+    title: CSS Grid Changes EVERYTHING - Amazing Presentation
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D7kVeCqQCxlk%26t%3D586s&h=ATO6iABMle20oLlcFKqKKtiCm9Ln36rsmNY91wHHY3eLw_jR5Pi8R9IHL1h5n1irdhpvGzW61qxam_2IqarEmHDzxt87mNElrFCt&s=1&enc=AZPLqKEdLRfj2nu2pxUl7jpNHAUIyvskpVHByJAC0X9Bc7m4xf_JCca2JU7oGIdzEgbr0W8mBcq60bb3ORr3QIwm

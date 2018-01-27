@@ -1,0 +1,38 @@
+---
+message: |-
+  SA Guys,
+  Iam working on windows app with c# and I would like to know your opinion about saving files to sql database as binary data.Has anyone tried that and know if this way is reliable or not?
+from:
+  name: Sherif Sorour
+  id: '10155597740658096'
+type: status
+created_time: '2017-05-02T04:12:57+0000'
+updated_time: '2017-05-03T03:08:05+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1470989336274103/
+id: '172338516139198_1470989336274103'
+reactions:
+  data:
+  - id: '832658286916992'
+    name: Mohamed Farghly
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTFNVGcwT0RVd01qWXlPakUwT1RNNU16SXhOek02TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTFNVGcwT0RVd01qWXlPakUwT1RNNU16SXhOek02TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-05-02T04:33:50+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: "Storing the actual files in the database just bloats your database,
+      the only advantage is that you get backups of these files with your regular
+      database backup, however you can still maintain the backup advantage while not
+      saving the files directly inside the database if you're using FILESTREAMS in
+      SQL Server, this feature uses the usual file system to store the files while
+      keeping references in the database so they get backed up as well. \nhttps://docs.microsoft.com/en-us/sql/relational-databases/blob/filestream-sql-server"
+    id: '1470999246273112'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEzTURrNU9USTBOakkzTXpFeE1qb3hORGt6TmprNU5qTXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEzTURrNU9USTBOakkzTXpFeE1qb3hORGt6TmprNU5qTXoZD

@@ -1,0 +1,57 @@
+---
+message: |-
+  I have a table of events each with date and time. what's the best practice to send a notification to all users who subscribed to each event at the event date:time. what I did, for now creating a service to check the coming events and if event time == current time then sends notification and I keep this service running forever.
+
+  My question isn't about notification itself, it's how to fire a notification action on the event date:time.
+from:
+  name: Ahmed Mohsen
+  id: '946433645509687'
+type: status
+created_time: '2016-03-28T15:09:29+0000'
+updated_time: '2016-03-28T20:47:52+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1110917708947936/
+shares:
+  count: 1
+id: '172338516139198_1110917708947936'
+reactions:
+  data:
+  - id: '10155869338936136'
+    name: Mera Tag Eldin
+    type: LIKE
+  paging:
+    cursors:
+      before: TnpNM016SXhNVE0xT2pFME5Ua3lNREEyTnpBNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TnpNM016SXhNVE0xT2pFME5Ua3lNREEyTnpBNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-03-28T15:12:59+0000'
+    from:
+      name: Mohamed Nasr
+      id: '10213536302595495'
+    message: i think you have to schedule the notification will be more efficient
+    id: '1110920202281020'
+  - created_time: '2016-03-28T15:15:01+0000'
+    from:
+      name: Mohamed Nasr
+      id: '10213536302595495'
+    message: if you are using .net i think this library will help http://www.quartz-scheduler.net/
+    id: '1110920748947632'
+  - created_time: '2016-03-28T15:47:22+0000'
+    from:
+      name: Amr Badawy
+      id: '10156121984986834'
+    message: |-
+      Ahmed Mohsen Hassan you can use { Service Bus for Windows Server } that can handle most of these operation :
+      • Create Topic and subscription according to your needs
+      • insert message with event data at a specific time and allow subscriber to accept it only at a specific time
+    id: '1110956988944008'
+  - created_time: '2016-03-28T16:38:18+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: If you're using Linux based hosting use crontab for managing cronjobs
+    id: '1111004785605895'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV4TURreU1ESXdNakk0TVRBeU1Eb3hORFU1TVRjM09UZA3cZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV4TVRBd05EYzROVFl3TlRnNU5Ub3hORFU1TVRnek1EazQZD

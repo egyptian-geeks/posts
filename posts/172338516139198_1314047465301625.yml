@@ -1,0 +1,73 @@
+---
+message: "Hello guys, \n\n// I am not 100% sure if what I am asking is a valid question
+  or not.\n\nAnybody here knows some good resources to give the sense of the maximum
+  'requests per seconds' for the most common technologies.\n\n// More just to explain
+  what I mean.\nFor example what will be the bottleneck for ROR deployed with unicorn
+  on a server managed by Nginx, how can I estimate the max Requests per second for
+  each?\n\nI know there is lots into this topic, lots of OS included, networks and
+  more. If you got any helpful resource please share.\n\nThank you."
+from:
+  name: Ahmed Atef
+  id: '10215057553296111'
+type: status
+created_time: '2016-12-05T13:40:29+0000'
+updated_time: '2016-12-05T23:16:45+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1314047465301625/
+id: '172338516139198_1314047465301625'
+reactions:
+  data:
+  - id: '1547324618696955'
+    name: Mohamed Elmowafy
+    type: LIKE
+  - id: '10154950104465216'
+    name: Nader Al-Sharkawy
+    type: LIKE
+  - id: '1772542006152666'
+    name: Mohamed AbuIssa
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlOVGd5T1RVME5UTXlPakUwT0RBNU5qUTNOVGM2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXhPVEEyTlRBNU16RXlPakUwT0RBNU5EVTVORGc2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-12-05T13:51:50+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: "I think you should stress test your app \nWrite an integration test
+      to do that"
+    id: '1314060688633636'
+  - created_time: '2016-12-05T14:05:29+0000'
+    from:
+      name: Mohamed AbuIssa
+      id: '1772542006152666'
+    message: |-
+      I guess this can help, it calculates benchmarks for different frameworks combinations. and it's really awesome. but I guess you should also test you own design and configuration.
+      https://www.techempower.com/benchmarks/#section=data-r13&hw=ph&test=update
+    id: '1314078345298537'
+  - created_time: '2016-12-05T16:51:48+0000'
+    from:
+      name: Aly Saleh
+      id: '10157135743444899'
+    message: You could use apache jmeter to do load tests then you have an idea how
+      much your whole system can handle, also while doing that you could log how much
+      time of it did the database take and how much did the other layers take, just
+      to know where the bottleneck is, if any
+    id: '1314243841948654'
+  - created_time: '2016-12-05T16:52:26+0000'
+    from:
+      name: Aly Saleh
+      id: '10157135743444899'
+    message: U can get the throughput, std dev and a lot more from jmeter http://jmeter.apache.org/
+    id: '1314244215281950'
+  - created_time: '2016-12-05T22:46:26+0000'
+    from:
+      name: Ahmed Samir Nouh
+      id: '10155919191613567'
+    message: '12'
+    id: '1314778398561865'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE14TkRBMk1EWTRPRFl6TXpZAek5qb3hORGd3T1RRMU9URXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE14TkRjM09ETTVPRFUyTVRnMk5Ub3hORGd3T1RjM09UZAzIZD

@@ -1,0 +1,107 @@
+---
+message: هو فعلا ال angular وال vue و react التكنولوجيز دى مش SEO friendly ؟؟ شوفت
+  اكتر من حد قال الكلام دا هل دا صحيح فعلا ؟؟؟
+from:
+  name: Ali Bedaer
+  id: '1427552707353556'
+type: status
+created_time: '2017-03-04T04:18:56+0000'
+updated_time: '2017-03-04T14:54:03+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1408421012530936/
+shares:
+  count: 1
+id: '172338516139198_1408421012530936'
+reactions:
+  data:
+  - id: '1821918031216201'
+    name: Muhamad Omar
+    type: LIKE
+  - id: '1999765416908747'
+    name: Ahmed Khalifa
+    type: LIKE
+  - id: '10156191099748000'
+    name: Shady Mohamed Sherif
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhPVFF3TmpZAek5ETTJPakUwT0RnMk9Ua3dNRGs2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TlRVMk5qTTNPVGs1T2pFME9EZAzJNak16TmpnNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-03-04T04:19:35+0000'
+    from:
+      name: Mahmoud Emad
+      id: '582502895475230'
+    message: ﻻ
+    id: '1408421285864242'
+  - created_time: '2017-03-04T04:55:02+0000'
+    from:
+      name: Ahmed Ghorab
+      id: '2053863088178362'
+    message: صح. بس شغل server side rendering ومش هتبقي مشكله
+    id: '1408455679194136'
+  - created_time: '2017-03-04T06:32:10+0000'
+    from:
+      name: Ahmed Zain Mohammed
+      id: '10156266511868081'
+    message: 'بشكل افتراضي : لا. لأن ال syntax الي بتكتبه مثلا مع angular زي {{ xxx
+      }} محركات البحث بتاخده زي ما هوا مش النص النهائي ال rendered طبعا و عليه المحتوي
+      الفعلي مش بيكون موجود. الحل الوحيد في ال server side rendering'
+    id: '1408520719187632'
+  - created_time: '2017-03-04T07:42:33+0000'
+    from:
+      name: Sayed Fathy
+      id: '10155950421529871'
+    message: صح
+    id: '1408575342515503'
+  - created_time: '2017-03-04T09:51:16+0000'
+    from:
+      name: Ahmed Ashraf
+      id: '930615110434715'
+    message: بص يا علي . جرب تعمل اي مثال صغير SPA بانجلر مثلاً و ادخل في اي صفحه
+      علي سبيل المثال posts/1 و اعمل بالcurl ريكوست علي الصفحه دي مش هتلاقي اي بيانات
+      للpost اللي رقمه ١ و ده لان ال Angular محصلش ليه اي initialize ف بالتالي الكونتنت
+      متعرضش اصلاً .. حل المشكله دي لو انت عاوز تشتغل علي انجلر انك تعمل مثلاً Class
+      يشوف ال url ده ايه فلو هو /posts ياخد ال id و يجيب بيانات البوست و يرجعها مع
+      الhtml response فكدا لما تيجي تعمل curl هتلاقي الداتا رجعالك مظبوط ف كدا جوجل
+      لما يجي يعمل indexing للصفحات عندك هيقدر يفهم محتوي كل صفحه ايه . ده الحل اللي
+      انا عملته في بروجكت معايا قبل كدا
+    id: '1408649712508066'
+  - created_time: '2017-03-04T10:14:01+0000'
+    from:
+      name: عبدالله محمد
+      id: '10213101784151931'
+    message: "هو صح فى معظم  ال search engine  جوجل بالذات بيتعامل معاها بشطل مختلف
+      انه بياتنى ثوانى فى خلاله المفروض ان الابلكيشن يكون عمل render \nالحل انك تعمل
+      server side rendering وده غالبا هيخليك تتكتب كود مرتين فى حالات معينه\nفى لينك
+      بيخليك تشوف الموقع بتاشف ازاى  الsearch engine"
+    id: '1408661895840181'
+  - created_time: '2017-03-04T10:23:28+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "جوجل بقى يريندر ال js من زمان والمشكلة دي مش زي زمان خالص \nزمان كان
+      محرك البحث بيشوف الصفحة كانك عامل view page source ويمشي ع اللينكات اللي فيها..
+      انما دلوقتي لا طبعا الدنيا اتطورت \U0001F602"
+    id: '1408670462505991'
+  - created_time: '2017-03-04T12:57:02+0000'
+    from:
+      name: Ahmed Hashem
+      id: '10212776797187059'
+    message: ايوون بس فيه work around
+    id: '1408803172492720'
+  - created_time: '2017-03-04T14:51:37+0000'
+    from:
+      name: Hany Ahmed
+      id: '10156089330442292'
+    message: |-
+      الكلام صح فعلاً
+      علشان كده السايت اللي بيهتم بالموضوع دا بيقدم صفحات بديلة
+      بيكون فيها ال placeholders بيحصلها substitution في السرفر مش الكلاينت
+      http://www.fakingfantastic.com/2011/02/09/using-hash-bangs-in-your-urls/
+      https://builtvisible.com/javascript-framework-seo/
+    id: '1408886095817761'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF3T0RReU1USTROVGcyTkRJME1qb3hORGc0TmpBeE1UYzEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF3T0RnNE5qQTVOVGd4TnpjMk1Ub3hORGc0TmpNNU1UQXcZD

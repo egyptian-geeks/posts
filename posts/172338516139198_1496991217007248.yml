@@ -1,0 +1,61 @@
+---
+message: "شباب دلوقتى انا اشتريت Wildcard ssl وركبتها علي السرفر الرئيسي وهو WHM/Cpanel
+  \nعاوز اركبها علي اكستشينج سرفر فى نفس الوقت ينفع ؟ \nالاكستشينج سرفر لايميلات الشركة
+  بس مربوط علي DNS الدومين الرئيسي في ال mx وال  pop وال Imap \nحد عندة حلول ؟\nانا
+  جربت احول ال crt ل cer  واضيفها  بتفضل طول الوقت Pending"
+from:
+  name: Ayman Elarian
+  id: '10155076145535808'
+type: status
+created_time: '2017-05-29T17:22:51+0000'
+updated_time: '2017-05-29T19:48:56+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1496991217007248/
+shares:
+  count: 2
+id: '172338516139198_1496991217007248'
+reactions:
+  data:
+  - id: '10156089330442292'
+    name: Hany Ahmed
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRJNU5ETTNNamt4T2pFME9UWXdPREUyTlRNNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRJNU5ETTNNamt4T2pFME9UWXdPREUyTlRNNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-05-29T17:33:03+0000'
+    from:
+      name: Mohamed Asfour
+      id: '10156016150568334'
+    message: "في exchange الافضل انك تعمل ال csr منه هوا وبعدين تعمل complete request
+      \n\nبس لو عندك ال Certificate من مكان تاني يبقي الافضل تنزلها علي اي سيرفر وتعمل
+      export with private keys وبعدين تعمل لل pfx دا import علي ال Exchange server
+      \nوبعد ال import لازم تعمل assign services"
+    id: '1497004920339211'
+  - created_time: '2017-05-29T17:52:10+0000'
+    from:
+      name: Mohamed Hany
+      id: '10155193287541787'
+    message: Hesham Mahdy
+    id: '1497021470337556'
+  - created_time: '2017-05-29T17:57:35+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "بص عن تجربة مش بتنفع في الـ pop و الـ imap مع الاكستشينج\nهتبقى محتاج
+      Unified Communication Cert مش Wildcard Cert \n\nبس لو انت شغال اوتلوك عادى مع
+      الاكستشينج اللى هو اصلا MAPI Over HTTPS \nالاوتلوك هيشتغل وال owa و الموبايل
+      وكل حاجة،  ومش هتبقى محتاج الـ pop و الـ imap نفسهم اصلا ..."
+    id: '1497028383670198'
+  - created_time: '2017-05-29T17:59:22+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: طبعا هتحتاج الاول تعمل export للـ cert من السي بانل في صيغة pfx عشان
+      تعرف ت import في الاكستشينج بالبرايفت كي بتاعها ..
+    id: '1497030427003327'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE1TnpBd05Ea3lNRE16T1RJeE1Ub3hORGsyTURjNU1UZAzAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE1TnpBek1EUXlOekF3TXpNeU56b3hORGsyTURnd056WXkZD

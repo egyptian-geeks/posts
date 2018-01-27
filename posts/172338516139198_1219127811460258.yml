@@ -1,0 +1,104 @@
+---
+message: "السلام عليكم\n\nاستفسار من فضلكم\n\nانا بحثت على ازاى اعمل Notification
+  ولقيت الغالبية عن عملها عن طريق SignalR - بس انا بلاقى صعوية شوية فى استخدامها كمان
+  مش لاقى ليها شرح عربى فيديو كويس \n\nالمهم انا قدرت اغمل الموضوع عن طريق web api
+  & jquery وبفيت بعمل ريفريش ليها عن طريق js مثلا كل دقيقة - اللى محتاج اعرفه بقا
+  \n\nهل كده فى لود على السيرفر ويأثر على الاداء (مش المفترض ان SignalR بتعمل نفس
+  القصة ؟ )\n\nهل الافضل استخدم SignalR عشان تظهر الاشعارات فى وقتها ؟"
+from:
+  name: Ahmed Amin
+  id: '1962172197389574'
+type: status
+created_time: '2016-08-31T11:29:37+0000'
+updated_time: '2016-09-03T08:30:57+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1219127811460258/
+id: '172338516139198_1219127811460258'
+reactions:
+  data:
+  - id: '10213275664117662'
+    name: Ashraf Hamdy
+    type: LIKE
+  - id: '10155869338936136'
+    name: Mera Tag Eldin
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRVM09Ea3lOVFEzTkRveE5EY3lOalExTlRVd09qSTFOREE1TmpFMk1UTT0ZD
+      after: TnpNM016SXhNVE0xT2pFME56STJORE15TWpjNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-08-31T11:33:52+0000'
+    from:
+      name: Mera Tag Eldin
+      id: '10155869338936136'
+    message: F
+    id: '1219129744793398'
+  - created_time: '2016-08-31T12:42:58+0000'
+    from:
+      name: Khaled Ramadan
+      id: '10157199016384478'
+    message: |-
+      Not a perfect solution cause it allocates server resources .
+      SignalR depends on Push mechanism but what you did is Pull mechanism which uses more resources.
+    id: '1219186201454419'
+  - created_time: '2016-08-31T13:21:50+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: "+1 for Khalid answer, Use SinglaR or Sockets.io if u want an easy and
+      quick solution."
+    id: '1219212898118416'
+  - created_time: '2016-08-31T14:15:25+0000'
+    from:
+      name: سامح دعبس
+      id: '2022490591345439'
+    message: "و عليكم السلام\nأنت كده بتبعت من كل مستخدم ريكويست كل دقيقة, و كل ما
+      عدد المستخدمين زاد, ده هايبقى عبء على السرفر بتاعك, و السرفر ليه طاقة قصوى لتقبل
+      الطلبات الجديدة, بعد كده سيتوقف عن خدمة ريكويستات جديدة [السيناريو ده مهم لو
+      أنت متوقع مستخدمين كتير لبرنامجك]\nطيب إيه الحل؟\nلو الإشعارات ممكن تتفاداها
+      بصفحة يفتحها المستخدم و هو يعمل لها ريفرش من المتصفح (أو بزرار أنت تحطهوله يروح
+      يجيب الإشعارات من السرفر) يبقى كده تمام, و دي كده pulling notifications اللي
+      قال عليها خالد (يعني الclient هو اللي بيسأل السرفر: عندك إشعارات جديدة و لا
+      لأ؟, و اللي أنت عامله صورة من الصور دي زي ما خالد قال)\nلو أنت عاوز السرفر هو
+      اللي يبعت للمستخدم لحظيا أول ما يجيله الإشعار, فاستخدم signalR و ده الpushing
+      notifications اللي قال عليها خالد.\nطيب هل signalR بتعمل زي اللي أنت بتعمله
+      ده؟\nالحقيقة, هي بتجيب الإشعارات بكذا طريقة, هي بتختار بينهم بناء على كذا عامل
+      (مش مهم دلوقتي), لو واحدة ما نفعتش بتشوف اللي بعدها. آخر طريقة فيهم قريبة من
+      اللي أنت عاملها دي. \nففي أحسن الأحوال أنت بتفقد طرق أفضل لعمل الpush notifications
+      اللي هي عاملاها signalR من غير ما أنت تهتم إزاي معمولة, و في أسوأ الأحوال أنت
+      بتعيد اختراع العجلة (عاوز تعمل حاجة معمولة و متجربة و مظبطين فيها سيناريوهات
+      كتير هاتطلع لك بعد كده)\nالخلاصة: لو تقدر تخليها pull , و المستخدم هو اللي يعمل
+      حاجة تجيب آخر الإشعارات من غير ما تتدخل أنت فبها, و إلا فاتعب شوية و اتعلم signalR"
+    id: '1219243318115374'
+  - created_time: '2016-08-31T14:49:54+0000'
+    from:
+      name: Ahmed Zain Mohammed
+      id: '10156266511868081'
+    message: اول حاجه جت علي بالي بعد ما قرأت الموضوع Socket.io
+    id: '1219265868113119'
+  - created_time: '2016-08-31T17:54:21+0000'
+    from:
+      name: Muhammad Saleh
+      id: '10156649659196002'
+    message: استاذ احمد شوف حاجه اسمها Web Sockets
+    id: '1219386728101033'
+  - created_time: '2016-09-01T17:44:47+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: I think the best thing about SignalR is that it tries to use WebSockets,
+      and if it fails it tries long polling, and if it fails it does normal polling
+      (which is what you did manually), so it tries to do the best it can.
+    id: '1220277191345320'
+  - created_time: '2016-09-03T08:30:52+0000'
+    from:
+      name: سامح دعبس
+      id: '2022490591345439'
+    message: |-
+      أنت كنت بتدور على شرح عربي, أنا خبطت ف ده, لعله ينفعك (ملاحظة: لم أشاهده, فمش هاقدر أقول لك حلو و لا لأ)
+      https://www.youtube.com/watch?v=JmTumigfmGE&list=PLx5yn1EeCC_4rUHN5OMaIelpJMgmj-0Cp&index=1
+    id: '1221674221205617'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl4T1RFeU9UYzBORGM1TXpNNU9Eb3hORGN5TmpRek1qTXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl5TVRZAM05ESXlNVEl3TlRZAeE56b3hORGN5T0RreE5EVTAZD

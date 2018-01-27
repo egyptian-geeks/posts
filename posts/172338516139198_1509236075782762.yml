@@ -1,0 +1,179 @@
+---
+message: "من فضلكوا محتاج معادلة Formula تقول لي الحدث المتقاطع مع فترة زمنية محددة
+  استغرق وقت قد إيه في تقاطعه مع الفترة دي بمعلومية وقت بداية الحدث ونهايته ووقت بداية
+  الفترة ونهايتها كما هو موضح بالصورة:\nمع ملاحظة التالي: \n1-الأرقام اللي على الشمال
+  هي الزمن بالدقايق\n2- الأهم إن فروق الوقت هتتحسب زي ما MySQL TIMESTAMPDIFF ما بتحسبها
+  يعني لما بتبدأ بالوقت الأكبر للأصغر الناتج بيبقى سالب يعني 5 ناقص 3 هتبقى -2"
+link: https://www.facebook.com/photo.php?fbid=10155291607073745&set=gm.1509236075782762&type=3
+from:
+  name: Said Bakr
+  id: '10155965038378745'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/19059406_10155291607073745_2732403779109446142_n.jpg?oh=0ed56d21f55efb5a9d649c6dd5d8b5bf&oe=5B2672D9
+created_time: '2017-06-08T19:45:23+0000'
+updated_time: '2017-06-09T05:51:07+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1509236075782762/
+shares:
+  count: 1
+id: '172338516139198_1509236075782762'
+reactions:
+  data:
+  - id: '961596267340022'
+    name: Hany Ali
+    type: LIKE
+  - id: '10208596993002679'
+    name: Mostafa Alaa
+    type: LIKE
+  - id: '10160504622845725'
+    name: Ahmed Yousry
+    type: LIKE
+  - id: '10156260406777122'
+    name: Rafael Adel
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTBOamc1TnpJek5URTFPakUwT1RZANU56Y3hOak02TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TmpnM01qVTNNVEl4T2pFME9UWTVOVE16TlRRNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-06-08T20:01:55+0000'
+    from:
+      name: Ahmed Ismail
+      id: '10215563479670107'
+    message: "يعنى \n e1 , e2 , e3 \nدى احداث استغرقت فترة زمنيه معينه من بداية العد
+      يعنى احنا لو بنسجل ل 15 دقيقه المفروض فى ال15 دقيقه دول حصلت احداث انت بقى عايز
+      صيغه رياضيه تحدد الاحداث اللى تقاطعت مع اى فتره زمنيه و ليكن من 5 الى 10 وزمن
+      التقاطع دا؟"
+    id: '1509247605781609'
+  - created_time: '2017-06-08T20:02:55+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: اعتقد انك محتاج تشرح المشكلة بشكل أوضح شوية
+    id: '1509248889114814'
+  - created_time: '2017-06-08T20:05:00+0000'
+    from:
+      name: Mustafa Shaban
+      id: '1620710828023369'
+    message: "اللي فهمتوا انو الحدث الاول متقاطع مع الفترة period بين ال ٥ و ٧ \nالحدث
+      التاني بين ٨ و ١٠  وهكذا\nانت محتاج التقاطع بين كل حدث مع ال period صحيح؟"
+    id: '1509249842448052'
+  - created_time: '2017-06-08T20:14:35+0000'
+    from:
+      name: Rafael Adel
+      id: '10156260406777122'
+    message: Off topic - that reminded me of electrons emissions between energy levels
+      :D
+    id: '1509255259114177'
+  - created_time: '2017-06-08T20:14:46+0000'
+    from:
+      name: Bdr Mohamed
+      id: '2015246105157800'
+    message: |-
+      م د بيعتمد ع ايه هو الحدث د يعني مفيش معادله عامه اكيد لكل حاجه.
+      كمان ايه المعطيات التانيه!
+      السؤال ع الاقل حسب صياغتك كانك بتسال ما سعر التفاح علما بان سعر البرتقال كذا كذا باسقاط الزمن ع السعر
+    id: '1509255402447496'
+  - created_time: '2017-06-08T20:20:29+0000'
+    from:
+      name: Ahmed Ismail
+      id: '10215563479670107'
+    message: "انت ممكن مثلا مثلا تحسبها ازاى\nE1=[3,4,5,6,7] , E2=[8,9,10,11,12,13,14]
+      , E3=[6,7,8,9] , E4=[5,6,7,8,9,10] , E5=[2,3,4,5,6,7,8,9,10,11,12,13]\nوتفرض
+      مثلا \nT1=[6,7,8,9,10] \nوتشوف المجموعه دى اتقاطعت مع اى عناصر فى الاحداث يعنى
+      مثلا\nT1,E2=[8,9,10]\nوتقدر تعرف الزمن ان تطرح العنصر الاول من الاخير فى مجموعه
+      التقاطع"
+    id: '1509262822446754'
+  - created_time: '2017-06-08T20:51:43+0000'
+    from:
+      name: Hussein Ghaly
+      id: '10160069424510193'
+    message: "start time of the event= event_t0\nend time of the event =  event_t1\nstart
+      time of the period = period_t0\nend time of the period = period_t1\n\nintersection_t0=None\nintersection_t1=None\nif
+      event_t0>=period_t0 and event_t0<period_t1:\n...    intersection_t0=event_t0\nif
+      event_t1>=period_t0 and event_t1<period_t1:\n...    intersection_t1=event_t1\nif
+      event_t0<=period_t0 and event_t1>=period_t1:\n...   intersection_t0=period_t0
+      \n...   intersection_t1=period_t1 \n\nif intersection_t0==None and intersection_t1==None:\n...
+      \  intersection_duration=0\nelse if intersection_t0==None:\n...   intersection_duration=intersection_t1-period_t0
+      \nelse if intersection_t1==None:\n...   intersection_duration=period_t1-intersection_t0\nelse:\n...
+      \  intersection_duration=intersection_t1-intersection_t0"
+    id: '1509292512443785'
+  - created_time: '2017-06-08T21:00:44+0000'
+    from:
+      name: Mark Nader
+      id: '1997124060314897'
+    message: |-
+      I can tell u the 5 cases easily and the intrepretations to mysql are up to u
+      Lets denote initial episode time with Eo
+      Lets denote final episode time with Ef
+
+      Same notations hold with periods .. but with "p" instead of "e"
+
+      1- If Eo is between Po and Pf ... and Ef is between Po and Pf .
+      Then return Ef- Eo
+
+      2- If Po is between Eo and Ef ... and Pf is between Eo and Ef .
+      Then return Pf- Po
+
+      3- If Eo is Between Po and Pf .. return Pf- Eo
+
+      4- If Ef is between Po and Pf...
+      return Ef - Po
+
+      5- otherwise return no intersection
+    id: '1509297665776603'
+  - created_time: '2017-06-08T21:29:07+0000'
+    from:
+      name: Abdulla Ashraf
+      id: '1178317032302924'
+    message: هي سطر واحد بس التقاطع مدة يعني منطقي انه موجب على طول :min(event_end,period_end)
+      - max(event_start,period _start)
+    id: '1509320745774295'
+  - created_time: '2017-06-08T21:52:30+0000'
+    from:
+      name: Bdr Mohamed
+      id: '2015246105157800'
+    message: شوف كدا
+    id: '1509337429105960'
+  - created_time: '2017-06-08T22:32:59+0000'
+    from:
+      name: Ahmed Abdo
+      id: '10155432639833282'
+    message: "to check if periods intersect \nif (p1s<p2e OR p1e>p2s)"
+    id: '1509366275769742'
+  - created_time: '2017-06-08T23:19:55+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: https://stackoverflow.com/questions/4446112/search-for-interval-overlap-in-list-of-intervals
+    id: '1509398319099871'
+  - created_time: '2017-06-09T05:51:04+0000'
+    from:
+      name: Tarek Amr
+      id: '10155854949245944'
+    message: I can hardly get your question, so you need a formula to say e1 and e2
+      = 2, e3 = 3, e4 and e5 = 5, is that what you mean? Are they only discrete values,
+      or for example and event can happen between 5.003 and 7.456?
+    id: '1509679935738376'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV3T1RJME56WXdOVGM0TVRZAd09Ub3hORGsyT1RVeU1URTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV3T1RZAM09Ua3pOVGN6T0RNM05qb3hORGsyT1RnM05EWTAZD
+attachments:
+  data:
+  - description: "من فضلكوا محتاج معادلة Formula تقول لي الحدث المتقاطع مع فترة زمنية
+      محددة استغرق وقت قد إيه في تقاطعه مع الفترة دي بمعلومية وقت بداية الحدث ونهايته
+      ووقت بداية الفترة ونهايتها كما هو موضح بالصورة:\nمع ملاحظة التالي: \n1-الأرقام
+      اللي على الشمال هي الزمن بالدقايق\n2- الأهم إن فروق الوقت هتتحسب زي ما MySQL
+      TIMESTAMPDIFF ما بتحسبها يعني لما بتبدأ بالوقت الأكبر للأصغر الناتج بيبقى سالب
+      يعني 5 ناقص 3 هتبقى -2"
+    media:
+      image:
+        height: 720
+        src: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/18953545_10155291607073745_2732403779109446142_o.jpg?oh=3da25ed7d31114325459c32d38a9c017&oe=5AE47F8A
+        width: 539
+    target:
+      id: '10155291607073745'
+      url: https://www.facebook.com/photo.php?fbid=10155291607073745&set=gm.1509236075782762&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=10155291607073745&set=gm.1509236075782762&type=3

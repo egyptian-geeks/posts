@@ -1,0 +1,265 @@
+---
+message: "عندي سؤال:\n\nهل في طريقة تخليني أ Listen ع الـ Database بحيث افضل مستني
+  اي Database operation .. و أول ما اي operation تحصل ، اعمل حاجة معينة ؟\n\nملحوظة
+  : انا عايز اعمل دة برة الـ database نفسها ، ﻹني عارف ان في ناس هتقولي اعمل trigger
+  \n\nاللي انا عايز اعمله يبقي في الـ client side او حاجة اعملها في الـ server side
+  وتـ reflect ع الـ client side بردو ، مش هتفرق. \n\nهل من مساعدة ؟"
+from:
+  name: Belal Mohammed
+  id: '10156087054039146'
+type: status
+created_time: '2017-11-18T21:42:37+0000'
+updated_time: '2017-11-24T12:23:58+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1666085126764522/
+id: '172338516139198_1666085126764522'
+reactions:
+  data:
+  - id: '1544104592377915'
+    name: Mohamed Naser Amein
+    type: LIKE
+  - id: '2025782101044221'
+    name: Hassaan Omar
+    type: LIKE
+  - id: '10156085462929907'
+    name: Mohamed Talaat Mahlies
+    type: LIKE
+  - id: '10210300649304955'
+    name: Akram Mohamed
+    type: LIKE
+  - id: '1999765416908747'
+    name: Ahmed Khalifa
+    type: LIKE
+  - id: '1818305461533623'
+    name: Gaber Abutaleb
+    type: LIKE
+  - id: '904541336370082'
+    name: Toka Ashraf
+    type: LIKE
+  - id: '1786644854713221'
+    name: Yahya Ghonim
+    type: LIKE
+  - id: '934408920094293'
+    name: Muhammad Ahmed Fares
+    type: LIKE
+  - id: '1796341057066736'
+    name: Walid Ashraf
+    type: LIKE
+  - id: '2096358110650589'
+    name: Ahmed Khaled
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXpNelV4TmpZAM09EQTBPakUxTVRFMU1qYzJOVGc2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTRNamt5TmpFeU9EYzBPakUxTVRFd05ESTBORFE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-11-18T21:51:37+0000'
+    from:
+      name: Youhana Sobhy
+      id: '10156214789922376'
+    message: لو كنت شغال بي data layer  كان زمانك عاملها من غير تفكير
+    id: '1666191110087257'
+  - created_time: '2017-11-18T21:52:00+0000'
+    from:
+      name: Mohammed Essehemy
+      id: '1515946401836401'
+    message: لو بتستخدم mongodb ممكن تشوف ال oplog
+    id: '1666191276753907'
+  - created_time: '2017-11-18T21:52:02+0000'
+    from:
+      name: Mootaz Dinana
+      id: '10155792625775306'
+    message: Look up Database triggers on traditional RDBMSes, pub/sub on mongo/redis,
+      or do it from your app data layer, depends a lot on your architecture, can u
+      provide more info?
+    id: '1666191283420573'
+  - created_time: '2017-11-18T21:56:27+0000'
+    from:
+      name: Mohammed Essehemy
+      id: '1515946401836401'
+    message: "Meteorjs implements this feature on mongodb \nand it reflected on the
+      client side using mini mongo"
+    id: '1666194433420258'
+  - created_time: '2017-11-18T21:59:04+0000'
+    from:
+      name: Mohamed Arabi Saleh
+      id: '10215386861845749'
+    message: |-
+      I'M in .NET so we could use something like this:
+      https://code.msdn.microsoft.com/Broadcast-Real-time-SQL-69dd9fcc#content
+    id: '1666195686753466'
+  - created_time: '2017-11-18T22:08:01+0000'
+    from:
+      name: Hassan Badr
+      id: '1819114251493294'
+    message: |-
+      i think this is helpful
+      https://docs.oracle.com/cd/E11882_01/java.112/e16548/dbchgnf.htm#JJDBC28816
+    id: '1666200870086281'
+  - created_time: '2017-11-18T22:16:36+0000'
+    from:
+      name: Mohamed Shaaban
+      id: '10156259295924301'
+    message: ايه المشكلة الأساسية اللي بتحاول تحلها؟
+    id: '1666206753419026'
+  - created_time: '2017-11-18T22:28:57+0000'
+    from:
+      name: Marwan Abdel Moneim
+      id: '408695269572490'
+    message: what database do you use?
+    id: '1666217786751256'
+  - created_time: '2017-11-18T22:29:42+0000'
+    from:
+      name: Mohammad Helmy
+      id: '10155848201515605'
+    message: You need to tell us a little bit more about what databsse you're using
+      and the high level architecture
+    id: '1666218316751203'
+  - created_time: '2017-11-18T22:44:28+0000'
+    from:
+      name: Abdallah Hodieb
+      id: '10155961552416083'
+    message: DynamoDB has event streams
+    id: '1666227296750305'
+  - created_time: '2017-11-18T23:14:08+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: هو في third party بيغير في الداتابيز غير نفس ال app بتاعك؟!
+    id: '1666245106748524'
+  - created_time: '2017-11-18T23:29:23+0000'
+    from:
+      name: Ahmed Mansour
+      id: '10155263617066659'
+    message: Again after revising all the comments , I highly recommend rabbitmq for
+      your case . Good luck
+    id: '1666254176747617'
+  - created_time: '2017-11-19T03:49:04+0000'
+    from:
+      name: Ali Hassan
+      id: '1557442640990495'
+    message: enta lao 3ayz t3ml stream ll data momken tft7 socket aw law 3ayez 7aga
+      mn 8er el sockets yb2a momken tbos 3la el SSE (Server sent events) t2dr t3ml
+      emit l event mn el server side w t listen 3leh mn el client bs ana mknsh lya
+      tgroba 3mlya m3aha tho
+    id: '1666406236732411'
+  - created_time: '2017-11-19T03:56:14+0000'
+    from:
+      name: Ahmed Samy
+      id: '1849388421799071'
+    message: You can use PostgreSQL with PgHttp module and a trigger function that
+      fires a http link to a php page that pulls the required data from the DB whenever
+      the trigger fired
+    id: '1666413283398373'
+  - created_time: '2017-11-19T04:26:50+0000'
+    from:
+      name: Ahmed Ehab
+      id: '10156250216079736'
+    message: Fket f enk t subscribe f ay real-time notifications service zai pusher,
+      one-signal, fcm, ... etc w teb3at notification mn el backend lel frontend upon
+      the needed operations kol dol sha8alin 3ala websockets w pipes fa i guess hay7elelak
+      moshkeltak
+    id: '1666429523396749'
+  - created_time: '2017-11-19T04:59:41+0000'
+    from:
+      name: Atef Zain
+      id: '2020922908125713'
+    message: Signal R..... Search in you tube about pushing notifications or crude
+      using signal R ..... If  you in dot net.
+    id: '1666448763394825'
+  - created_time: '2017-11-19T05:07:55+0000'
+    from:
+      name: Mahmoud Moustafa
+      id: '10155826343095272'
+    message: |-
+      لو .net + sql server
+      ممكن تستخدم
+      Sql dependency
+
+      ولو محتاج تعمل client notify
+      هتستخدمها مع signalR
+      https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/sql/sqldependency-in-an-aspnet-app
+
+      https://www.codeproject.com/Articles/12335/Using-SqlDependency-for-data-change-events
+    id: '1666453750060993'
+  - created_time: '2017-11-19T05:57:07+0000'
+    from:
+      name: Nour Haridy
+      id: '10156101857379222'
+    message: Consider using RethinkDB. It is designed mainly for this purpose
+    id: '1666476790058689'
+  - created_time: '2017-11-19T08:32:27+0000'
+    from:
+      name: Hussien A. Ashour
+      id: '1255233001244388'
+    message: Agree with Ahmed Mansour for using rabbit mq or apache kafka you can
+      check the differences between them and decide which is suitable for your case
+    id: '1666565660049802'
+  - created_time: '2017-11-19T11:30:10+0000'
+    from:
+      name: Mustafa Dagher
+      id: '10215560476549083'
+    message: |-
+      فكرة إنك بتدور على حل لمشكلة مش موجوده دي في حد ذاتها فكرة سلبية المفروض تتخلص منها!
+
+      ثانياً، بإفتراض إن في مشكلة وانت بتحاول تحلها و قدرت من الداتابيز إنك تعمل event firing و في سيرفر قدر ي subscribe على ال event ده! فكر لحظة كدة، تفتكر إنه بأي منطق ال connection المفتوح بين ال server وال database هيبقى efficient أكتر من إنك تكتشف التغييرات دي من ال DAL بتاعتك قبل ما تروح الداتابيز و fire event بالتغيير ويسمعه consumer من ال layer اللي فوقيها على طول؟
+
+      نزولك لل database أصلا لمشكلة زي دي بيقلل ال performance مش بيزوده!
+    id: '1666674630038905'
+  - created_time: '2017-11-20T00:23:00+0000'
+    from:
+      name: Ahmed ElRefaey
+      id: '1963622213652553'
+    message: |-
+      Honestly, I don't like the way you question, but based on your replies about the real problem, I vote for using a message bus like kafka and you push the change after writing to the DB and listen to it from your clients.
+      Another approach is to try something like Firebase
+    id: '1667288259977542'
+  - created_time: '2017-11-21T00:07:59+0000'
+    from:
+      name: Mohamed Radwan
+      id: '10159976552365192'
+    message: |-
+      لو عايز تعمل Monitoring استخدم حاجة mysql statsd
+      https://github.com/db-art/mysql-statsd
+    id: '1668201689886199'
+  - created_time: '2017-11-21T04:44:31+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: Dynamodb has that.
+    id: '1668384353201266'
+  - created_time: '2017-11-21T20:10:04+0000'
+    from:
+      name: Muhammad Yousef
+      id: '1823738041004235'
+    message: Muhammad Omar & Ahmed Abdeldaim
+    id: '1669045813135120'
+  - created_time: '2017-11-22T05:09:44+0000'
+    from:
+      name: Diyaa Mahmoud
+      id: '1559170364118742'
+    message: شوف apache airflow وتستخدم sensor operator
+    id: '1669401056432929'
+  - created_time: '2017-11-22T22:23:33+0000'
+    from:
+      name: Belal Mohammed
+      id: '10156087054039146'
+    message: "Thank you guys for your amazing support that you showed in the comments
+      above. \nI did it using RethinkDB easily. That was the easiest and fastest solution."
+    id: '1670205033019198'
+  - created_time: '2017-11-24T11:20:55+0000'
+    from:
+      name: Eslam Mostafa
+      id: '1575768239208294'
+    message: Postgresdb have LISTEN and NOTIFY events
+    id: '1671671319539236'
+  - created_time: '2017-11-24T12:23:57+0000'
+    from:
+      name: Mohammed Fox
+      id: '1534405689947170'
+    message: Whats ur stack ?
+    id: '1671715982868103'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkyTmpFNU1URXhNREE0TnpJMU56b3hOVEV4TURReE9EazQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkzTVRjeE5UazRNamcyT0RFd016b3hOVEV4TlRJMk1qTTMZD

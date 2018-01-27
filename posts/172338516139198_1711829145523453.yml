@@ -1,0 +1,141 @@
+---
+message: |+
+  ده Node سكريبت بسيط عشان لو عندك مجموعة ملفات عايز تعملهم Export مع بعض
+  فيه شرح اكتر في gist
+
+link: https://gist.github.com/AmrAbdulrahman/92fb422c222580b3e6dcc2db6ef5f328
+from:
+  name: Amr AbuMuslim
+  id: '10213109008032575'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQDYZPZKg7mjCP0n&w=130&h=130&url=https%3A%2F%2Favatars3.githubusercontent.com%2Fu%2F1451112%3Fs%3D400%26v%3D4&cfs=1&sx=0&sy=0&sw=362&sh=362&_nc_hash=AQApkDbyNXwEM9GA
+created_time: '2018-01-04T17:02:39+0000'
+updated_time: '2018-01-05T17:44:49+0000'
+name: Forward all files as modules in a directory
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1711829145523453/
+shares:
+  count: 1
+id: '172338516139198_1711829145523453'
+reactions:
+  data:
+  - id: '10212906316506161'
+    name: Alaa Attya Mohamed
+    type: LOVE
+  - id: '2004810336456717'
+    name: Rabie Masoud
+    type: LIKE
+  - id: '10159976552365192'
+    name: Mohamed Radwan
+    type: LIKE
+  - id: '1614734235301141'
+    name: عمرو عبدالرحمن
+    type: LIKE
+  - id: '2096358110650589'
+    name: Ahmed Khaled
+    type: LIKE
+  - id: '1515946401836401'
+    name: Mohammed Essehemy
+    type: LIKE
+  - id: '1664130103648324'
+    name: Ahmad Ragab
+    type: LIKE
+  - id: '1853777334634345'
+    name: Mohamed Fathalla
+    type: LIKE
+  - id: '1798970103510381'
+    name: Mai Mohamed Sadek
+    type: LIKE
+  - id: '10210677331478648'
+    name: Khaled Mohamed
+    type: LIKE
+  - id: '1944835295781512'
+    name: Ahmed Gamal
+    type: LIKE
+  - id: '10215572911454986'
+    name: Ebuson Exe
+    type: LIKE
+  - id: '10214824625666671'
+    name: Ali Essam
+    type: LIKE
+  - id: '10213471479874035'
+    name: Mahmoud Rizk
+    type: LIKE
+  - id: '10156135077727072'
+    name: Moo Moo
+    type: LIKE
+  - id: '1574530695959412'
+    name: Mohamed A. Othman
+    type: LIKE
+  - id: '10215602201117926'
+    name: Youssef Ashour
+    type: LIKE
+  - id: '1812131428831070'
+    name: Ahmed Ateek
+    type: LIKE
+  - id: '1978009525783037'
+    name: Ahmed Magdy
+    type: LIKE
+  - id: '10214738123343685'
+    name: Ibrahim Amer
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBek56WTBOVEExTkRveE5URTFNalUxTXpFek9qYzRPRFkwT0RBek56a3hNek14TWc9PQZDZD
+      after: TVRFME1qVTROalV3T1RveE5URTFNRGcxTlRBeE9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2018-01-04T18:43:48+0000'
+    from:
+      name: Elawady Elsayd
+      id: '1716405828399348'
+    message: مش هيكون حلو بالذات لو بتستخدم IDE ال autocomplete مش هيظبط معاك، وناقصه
+      ال include و ال exclude
+    id: '1712026458837055'
+  - created_time: '2018-01-05T14:29:32+0000'
+    from:
+      name: Amr AbuMuslim
+      id: '10213109008032575'
+    message: |-
+      I've improved it little bit so that you don't need to path the __dirname and published that on npm
+      https://www.npmjs.com/package/forward-modules
+    id: '1712855688754132'
+  - created_time: '2018-01-05T16:03:44+0000'
+    from:
+      name: Ahmed Mahdy
+      id: '10155731837446072'
+    message: Islam Magdy
+    id: '1712943312078703'
+  - created_time: '2018-01-05T16:04:24+0000'
+    from:
+      name: Ahmed Mahdy
+      id: '10155731837446072'
+    message: Ahmed SharafAhmed Ismail
+    id: '1712944798745221'
+  - created_time: '2018-01-05T16:13:58+0000'
+    from:
+      name: Islam Magdy
+      id: '10157280282189657'
+    message: |-
+      Amr AbuMuslim Very interesting, the only problem with this approach is if you're using imports/exports, this particular part of the code will use requires, and module.exports.
+
+      For this particular purpose, I'd prefer "export x from y" in the index.js, but for rapid prototyping, this solution is great.
+
+      I believe export x from y should perform faster, and save some resources, processing, and execution time that'll happen every time I import a file (fs readir, map, filter, reduce,...).
+    id: '1712954882077546'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN4TWpBeU5qUTFPRGd6TnpBMU5Ub3hOVEUxTURreE5ESTUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN4TWprMU5EZAzRNakEzTnpVME5qb3hOVEUxTVRZANE9ETTQZD
+attachments:
+  data:
+  - description: Forward all files as modules in a directory
+    media:
+      image:
+        height: 362
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAxUyyV4UHnI0xT&w=362&h=362&url=https%3A%2F%2Favatars3.githubusercontent.com%2Fu%2F1451112%3Fs%3D400%26v%3D4&cfs=1&sx=0&sy=0&sw=362&sh=362&_nc_hash=AQB-Nhd7D-TuimDE
+        width: 362
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgist.github.com%2FAmrAbdulrahman%2F92fb422c222580b3e6dcc2db6ef5f328&h=ATNJucDDrv_8WlDKqL3zopwHOodJsOP_COnf4kYzAgcsB9iUJRipfR5RGUYLy9Tfy0c8kA-0KvSyZLPttrkjAeRgQVNpf-hziUUA&s=1&enc=AZOGcUJ9N9ara9wzhfYY8cUgjwG5_jcNH8_kDUQ40iNXcXlYEncVVkiVIUQwtkFDr3uK-DeMra5CL9eOVOirzWEb
+    title: Forward all files as modules in a directory
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgist.github.com%2FAmrAbdulrahman%2F92fb422c222580b3e6dcc2db6ef5f328&h=ATNJucDDrv_8WlDKqL3zopwHOodJsOP_COnf4kYzAgcsB9iUJRipfR5RGUYLy9Tfy0c8kA-0KvSyZLPttrkjAeRgQVNpf-hziUUA&s=1&enc=AZOGcUJ9N9ara9wzhfYY8cUgjwG5_jcNH8_kDUQ40iNXcXlYEncVVkiVIUQwtkFDr3uK-DeMra5CL9eOVOirzWEb

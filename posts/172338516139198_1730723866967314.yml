@@ -1,0 +1,68 @@
+---
+message: "Shouldn't this function have time complexity of O(n^2) because containsKey
+  method have to iterate through HashMap entries ? \n\nhttps://leetcode.com/articles/two-sum/"
+link: https://www.facebook.com/photo.php?fbid=1981337188852846&set=gm.1730723866967314&type=3
+from:
+  name: Tarekk Mohamed Abdalla
+  id: '1984058555247376'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/26815054_1981337188852846_7402281123110266870_n.jpg?oh=af83aa3e7a6b99a71fb5eb0f7c8a51d9&oe=5AF163A6
+created_time: '2018-01-23T08:44:23+0000'
+updated_time: '2018-01-24T04:40:28+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1730723866967314/
+id: '172338516139198_1730723866967314'
+reactions:
+  data:
+  - id: '1360912124012585'
+    name: Mahmoud Hossam
+    type: LIKE
+  - id: '1601712166541624'
+    name: Hossam Hassan
+    type: LIKE
+  - id: '10155068203640974'
+    name: Hany Barakat
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlPREUwTXpJME1UYzJPakUxTVRZAM056UXlNVFE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TlRBNU1EQXdPVGN6T2pFMU1UWTNOREk0TlRFNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2018-01-23T08:45:22+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: No, the whole idea of using HashMaps is that it provides constant time
+      access to values by keys
+    id: '1730763750296659'
+  - created_time: '2018-01-23T19:29:52+0000'
+    from:
+      name: Hany Said
+      id: '10156179627726738'
+    message: It does not iterate over all HashMap entries. Only the entries in the
+      same hash bucket.
+    id: '1731293356910365'
+  - created_time: '2018-01-24T04:40:27+0000'
+    from:
+      name: Mohammad Helmy
+      id: '10155848201515605'
+    message: Search in hash-sets is of o(1). That’s the whole idea behind hashing.
+    id: '1731694356870265'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN6TURjMk16YzFNREk1TmpZAMU9Ub3hOVEUyTmprM01USXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN6TVRZANU5ETTFOamczTURJMk5Ub3hOVEUyTnpZANE9ESTMZD
+attachments:
+  data:
+  - description: "Shouldn't this function have time complexity of O(n^2) because containsKey
+      method have to iterate through HashMap entries ? \n\nhttps://leetcode.com/articles/two-sum/"
+    media:
+      image:
+        height: 539
+        src: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/27173287_1981337188852846_7402281123110266870_o.jpg?oh=8227122b6d978229336162a296346493&oe=5AF07027
+        width: 720
+    target:
+      id: '1981337188852846'
+      url: https://www.facebook.com/photo.php?fbid=1981337188852846&set=gm.1730723866967314&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=1981337188852846&set=gm.1730723866967314&type=3

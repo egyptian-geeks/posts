@@ -1,0 +1,100 @@
+---
+message: Interesting!
+link: https://blog.cloudflare.com/how-and-why-the-leap-second-affected-cloudflare-dns/
+from:
+  name: Mahmoud Tantawy
+  id: '10156115350739764'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQAuUo6pRU-HPQDo&w=130&h=130&url=http%3A%2F%2Fblog.cloudflare.com%2Fcontent%2Fimages%2F2017%2F01%2Fcloudflare_dns_control_panel.png.scaled500.png&cfs=1&_nc_hash=AQACyAqW9PL-BK_P
+created_time: '2017-01-02T11:01:35+0000'
+updated_time: '2017-01-02T14:10:58+0000'
+name: How and why the leap second affected Cloudflare DNS
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1343692645670440/
+shares:
+  count: 1
+id: '172338516139198_1343692645670440'
+reactions:
+  data:
+  - id: '10155819655346066'
+    name: Shady M. Najib
+    type: LIKE
+  - id: '10155347034245773'
+    name: آية محفوظ
+    type: LIKE
+  - id: '10156358805885288'
+    name: Mahmoud Abd El-Fattah
+    type: LIKE
+  - id: '10156025239731303'
+    name: Alaa Ali
+    type: LIKE
+  - id: '10216211267181351'
+    name: Abdelrahman Ali
+    type: LIKE
+  - id: '10214796374519514'
+    name: Islam AbdelMohaimen Hassan
+    type: LIKE
+  - id: '1641565752594739'
+    name: Ahmed Aziz
+    type: LIKE
+  - id: '10155134229340373'
+    name: Ahmed Hamouda
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRnM05EWXhNRFkxT2pFME9ETTBOVEkxTXpnNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TmpJNU1qa3dNemN5T2pFME9ETXpOVFkzT1RnNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-01-02T11:10:58+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: dafuq
+    id: '1343697349003303'
+  - created_time: '2017-01-02T12:09:25+0000'
+    from:
+      name: Essam A. Hassan
+      id: '1555752981144826'
+    message: "*devs horror stories*"
+    id: '1343720115667693'
+  - created_time: '2017-01-02T12:35:50+0000'
+    from:
+      name: Mohamed Ossama Abdallah
+      id: '10155077834231790'
+    message: |-
+      Can someone explain to me where the "negative" time difference exactly comes from? i.e. what happens to "time.now()" during the leap second.
+
+      The way I understand it, so far, is that clocks are just "slowed down". So let's say time.now() returns 23:59:59.0, then 23:59:59.1 and so on until 23:59:59.9 and then 00:00:00 it will take 2 "real-life seconds", but it has still been perceived by the program as 1 normal, forward-moving second.
+
+      What did I miss? Am I even making sense :) ?
+    id: '1343731285666576'
+  - created_time: '2017-01-02T13:47:14+0000'
+    from:
+      name: آية محفوظ
+      id: '10155347034245773'
+    message: It is a subtle detail, but a programmer should be careful when using
+      real and monotonic times. Real times should be used when displaying dates. Monotonic
+      times should be used when calculating elapsed time. The first time a leap second
+      was added to the Linux kernel (2012), it caused a huge mess. But it was handled
+      smoothly the second time it was added (2015).
+    id: '1343784988994539'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0wTXpZANU56TTBPVEF3TXpNd016b3hORGd6TXpVMU5EVTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0wTXpjNE5EazRPRGs1TkRVek9Ub3hORGd6TXpZAME9ETTEZD
+attachments:
+  data:
+  - description: At midnight UTC on New Year’s Day, deep inside Cloudflare’s custom
+      RRDNS software, a number went negative when it should always have been, at worst,
+      zero. A little later this negative value caused RRDNS to panic. This panic was
+      caught using the recover feature of the Go language.
+    media:
+      image:
+        height: 251
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQA7Dnye3X08PMAv&w=720&h=720&url=http%3A%2F%2Fblog.cloudflare.com%2Fcontent%2Fimages%2F2017%2F01%2Fcloudflare_dns_control_panel.png.scaled500.png&cfs=1&_nc_hash=AQB8OgaL6LeFJyRt
+        width: 251
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fblog.cloudflare.com%2Fhow-and-why-the-leap-second-affected-cloudflare-dns%2F&h=ATNlWlHkuv8TnDbSPNg_jlFyV0OPOOtw97Zjeszo5j4Rg6UatNVc9Lxln4SdbUc5yhk7R3QuY6AMIoAjfAHav2KI4UCfSPhHoFPJ&s=1&enc=AZOqstYlzNnpz3NE17R9baqi_1vpleDRPfMyXMZaXD-3q7cxSmmanVqMMjZClHBmSiTY7m3jAinkDxJp2ufVPNKN
+    title: How and why the leap second affected Cloudflare DNS
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fblog.cloudflare.com%2Fhow-and-why-the-leap-second-affected-cloudflare-dns%2F&h=ATNlWlHkuv8TnDbSPNg_jlFyV0OPOOtw97Zjeszo5j4Rg6UatNVc9Lxln4SdbUc5yhk7R3QuY6AMIoAjfAHav2KI4UCfSPhHoFPJ&s=1&enc=AZOqstYlzNnpz3NE17R9baqi_1vpleDRPfMyXMZaXD-3q7cxSmmanVqMMjZClHBmSiTY7m3jAinkDxJp2ufVPNKN

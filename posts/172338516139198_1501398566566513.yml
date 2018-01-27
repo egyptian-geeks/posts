@@ -1,0 +1,65 @@
+---
+message: |-
+  Salam Alykom
+  Kol Sana Wento Taibeen :)
+  I have a question, What is better for DataBase structure is it to use larger (wider) tables with empty (optional ones) columns or to use larger number of normalized tables with non-empty columns i don't have much experience in DB structure so if any one can help with his advice or any resources it will be helpful,
+  thanks in advance.
+from:
+  name: Amr Mohamed
+  id: '1437867079657591'
+type: status
+created_time: '2017-06-02T18:21:44+0000'
+updated_time: '2017-06-02T18:51:50+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1501398566566513/
+id: '172338516139198_1501398566566513'
+reactions:
+  data:
+  - id: '1427552707353556'
+    name: Ali Bedaer
+    type: LIKE
+  - id: '909264299254917'
+    name: Mohamed Tarek
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlPVFkxTWpFNE9EZAzFPakUwT1RZAME16azROamc2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTFNVFF3TmpVek56ZA3pPakUwT1RZAME16QTBOakE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-06-02T18:25:00+0000'
+    from:
+      name: Abdo Magdi
+      id: '924609137696923'
+    message: use larger number of normalized tables with non-empty columns
+    id: '1501400386566331'
+  - created_time: '2017-06-02T18:29:50+0000'
+    from:
+      name: Mohamed Sweelam
+      id: '1987222834640127'
+    message: "It depends, you should use what the case needs. \n\nFor example you
+      can deal with a very wider table may be goes up to 50 columns,  but all of them
+      are really matter. \n\nYou can use little columns table,  but has lot of relationships.
+      \n\nThe only one rule is responsibility of each table .\n\nAlso note normalization
+      is a must not an optional tool,  you must apply it,  otherwise it will cause
+      huge problems after some period of time particularly on the production DB."
+    id: '1501403306566039'
+  - created_time: '2017-06-02T18:40:20+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: Hyprid compensation between the two, but anyways avoid too much null
+      values
+    id: '1501415203231516'
+  - created_time: '2017-06-02T18:51:48+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      You need to think how you'll access this data and try to avoid very frequent joins across many tables.
+      For example, if a user's real name is optional (it falls back to username), you don't want to keep joining with a table that carries names for every page you view because you have a part in the header that says "Welcome back FirstName LastName!", so in that case the real name needs to be in the same table as the username even if it's empty half of the time.
+      So combine these optional columns into tables based on how you access the data, and maybe you can use logical grouping that "makes sense" if you're unsure.
+    id: '1501422509897452'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV3TVRRd01ETTROalUyTmpNek1Ub3hORGsyTkRJM09UQXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV3TVRReU1qVXdPVGc1TnpRMU1qb3hORGsyTkRJNU5UQTQZD

@@ -1,0 +1,66 @@
+---
+message: "كنت عايز استخدم ال jwt في ال authentication وبنائاً عليه هحتاج احفظ ال access-token
+  لأما في Cookie ﻷما في sessionStorage/localStorage\nلو استخدمت ال cookie هكون محتاج
+  اني احمي نفسي كويس من هجوم ال CSRF ، واقدر استفاد من ال http-only في اني احمي الكوكيز
+  من ال XSS\nولو استخدمت ال localStorage هاخلص من مشكلة ال CSRF بس هيكون عندي مشكلة
+  اني احمي ال localStorage من ال XSS\n\nانا مستحسن موضوع ال localStorage ﻷني عايز
+  ابعد عن استخدام ال cookies عشان ال Site بيتعامل مع تطبيق موبايل او Cross-Origin
+  Application\nلما جيت افكر ازاي ممكن ال Attacker هيستغل ال XSS ، لاقيت انه في الغالب
+  بيقوم مأكسس على ال localStorage varible، فانا جاتلي فكرة اني الغي الوصول لل localStorage
+  واربط ال refernce بتاعه بأي متغير تاني داخل Anonymous scope مثلاً او حاجة زي كدا\nhttps://gist.github.com/abou7mied/f6685ba76a6615906dbceb644af8f358\nممكن
+  الفكرة تكون ساذجة نوعاً ما بس هيا فعلاً بتأدي الغرض :D \n\nايه رأيكم في الفكرة دي
+  وهل ال Attacker يقدر يأكسس ال localStorage بأي طريقة تانية ، او لو حد عنده فكرة
+  تانية ؟"
+link: https://gist.github.com/abou7mied/f6685ba76a6615906dbceb644af8f358
+from:
+  name: Ahmed Sabry
+  id: '1847421335299420'
+type: link
+created_time: '2016-08-29T06:54:35+0000'
+updated_time: '2016-08-29T14:04:58+0000'
+name: Protect site against localStorage XSS attach
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1217306054975767/
+id: '172338516139198_1217306054975767'
+reactions:
+  data:
+  - id: '1785295468160956'
+    name: Mohamed Abdelrahman
+    type: LIKE
+  - id: '1487671784675336'
+    name: Mohamad Emad
+    type: LIKE
+  - id: '1955441501387657'
+    name: Bassam Abd Elhamid
+    type: LIKE
+  - id: '10160057547260515'
+    name: Mohamed Anan
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdOREUxTmpBeE9URTFPakUwTnpJME9EQTNNekU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TnpVMU9UYzFOVEUwT2pFME56STBOVE01TlRBNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-08-29T07:59:30+0000'
+    from:
+      name: Eslam Salem Mahmoud
+      id: '10157134145555299'
+    message: "بص ياباشا\nاولا , بالنسبة ان ال localstorage هيخلصك من ال CSRF ده مش
+      صحيح \nعلشان تخلص من ال csrf لازم كل الrequests اللي فيها action تبقى محمية
+      ب Token , يا اما بتعمل validate ل ORIGIN \n\nبالنسبة  للحماية ضد ال XSS , فهي
+      مش انك تمنع الوصول لل access token سواء cookies او localstorage , الحماية انك
+      تمنع تنفيذ اي javascript من مدخلات اليوزر , \nلإن لو عندك xss vulnerability
+      , فيه مليون وسيلة ممكن تبهدل الابلكيشن بتاعك \nو دي عينة صغيرة من ال payloads
+      اللي ممكن نستغلها لو الابلكيشن فيه ثغرة XSS \nhttp://xss-payloads.com/"
+    id: '1217336554972717'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl4TnpNek5qVTFORGszTWpjeE56b3hORGN5TkRVM05UY3gZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl4TnpNek5qVTFORGszTWpjeE56b3hORGN5TkRVM05UY3gZD
+attachments:
+  data:
+  - target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgist.github.com%2Fabou7mied%2Ff6685ba76a6615906dbceb644af8f358&h=ATMhf2-zY-UJTDK7T0Icwr0bblFFa_E3B4NM7tqRfG_ix22PlZVLX3PyMKVD2IYcbdqSp2HqphQDC1DM0VoPRjafjcegIVkJDudm&s=1&enc=AZNPFUVc_j6B_5E1vqvd_mNOK5-VtA50ec732YpiYnEzg54m-qnZziUZ9hqO9qNmqmTzZplQOh1uSmE7OPu-AXs8
+    title: Protect site against localStorage XSS attach
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgist.github.com%2Fabou7mied%2Ff6685ba76a6615906dbceb644af8f358&h=ATMhf2-zY-UJTDK7T0Icwr0bblFFa_E3B4NM7tqRfG_ix22PlZVLX3PyMKVD2IYcbdqSp2HqphQDC1DM0VoPRjafjcegIVkJDudm&s=1&enc=AZNPFUVc_j6B_5E1vqvd_mNOK5-VtA50ec732YpiYnEzg54m-qnZziUZ9hqO9qNmqmTzZplQOh1uSmE7OPu-AXs8

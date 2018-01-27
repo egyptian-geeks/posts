@@ -1,0 +1,65 @@
+---
+message: There is a lot to learn from a question and the main idea on how to make
+  experiments and proof of concept of something that can be grow a lot.
+link: http://serverfault.com/questions/624528/nginx-load-balancer-considerable-lag-when-upstream-node-is-offline-down
+from:
+  name: Mohamed Alaa El Din
+  id: '1573619512716214'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQDoRBz9K-IDaN-h&w=130&h=130&url=http%3A%2F%2Fcdn.sstatic.net%2Fserverfault%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D9b1f48ae296b&cfs=1&_nc_hash=AQBFcsEq0gW7vJsr
+created_time: '2016-08-02T00:40:29+0000'
+updated_time: '2016-08-02T11:22:19+0000'
+name: nginx - Load Balancer - Considerable lag when upstream node is offline/down
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1194124780627228/
+id: '172338516139198_1194124780627228'
+reactions:
+  data:
+  - id: '10208727810672580'
+    name: Ahmed Kamal
+    type: LIKE
+  - id: '10208610261214026'
+    name: Mahmoud Ahmed
+    type: LIKE
+  - id: '10205205301673812'
+    name: Ahmed Shawky
+    type: LIKE
+  - id: '10155855157936047'
+    name: Mosab Ibrahim
+    type: LIKE
+  - id: '1772542006152666'
+    name: Mohamed AbuIssa
+    type: LIKE
+  - id: '10215339863195300'
+    name: Mohamed Fergany
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRnek1USTNNREl4T0RveE5EY3dNalU0T1RRek9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRNNU56UTFOekkwTmpveE5EY3dNRGs0TlRZAM09qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2016-08-02T00:42:45+0000'
+    from:
+      name: Mohamed Fergany
+      id: '10215339863195300'
+    message: Ahmed Ashraf
+    id: '1194125267293846'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU1TkRFeU5USTJOekk1TXpnME5qb3hORGN3TURrNE5UWTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU1TkRFeU5USTJOekk1TXpnME5qb3hORGN3TURrNE5UWTIZD
+attachments:
+  data:
+  - description: Running nginx 1.0.15 on CentOS 6.5. I have three upstream servers
+      and everything works fine, however when I simulate an outage, and take one of
+      the upstream servers down, I notice considerable lag in
+    media:
+      image:
+        height: 316
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAel9_bHQ39wGjA&w=720&h=720&url=http%3A%2F%2Fcdn.sstatic.net%2Fserverfault%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D9b1f48ae296b&cfs=1&_nc_hash=AQBdMcgF48s80lDp
+        width: 316
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fserverfault.com%2Fquestions%2F624528%2Fnginx-load-balancer-considerable-lag-when-upstream-node-is-offline-down&h=ATOlKIBO5KOIlf-jE3nrH8t41xf-6_0lVwNQtMAuZRm1v7aZA9CBOrQ-0ijj6ynHo12de7dhRs-3aPwUtodGUK8ZtdMwbutFlA5q&s=1&enc=AZP-Y3cRyAIPJFYgYP0pZakGlZtyHsFb6RI0-4GtujmjwHcFovh4cT1N73Z78DGqiGgs6S4XiJIShcK_VRaFlAEO
+    title: nginx - Load Balancer - Considerable lag when upstream node is offline/down
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fserverfault.com%2Fquestions%2F624528%2Fnginx-load-balancer-considerable-lag-when-upstream-node-is-offline-down&h=ATOlKIBO5KOIlf-jE3nrH8t41xf-6_0lVwNQtMAuZRm1v7aZA9CBOrQ-0ijj6ynHo12de7dhRs-3aPwUtodGUK8ZtdMwbutFlA5q&s=1&enc=AZP-Y3cRyAIPJFYgYP0pZakGlZtyHsFb6RI0-4GtujmjwHcFovh4cT1N73Z78DGqiGgs6S4XiJIShcK_VRaFlAEO

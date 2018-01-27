@@ -1,0 +1,137 @@
+---
+message: "حد قابلته المشكلة دي قبل كدة ؟ \nعندي win 8 وبعدين سطبت على بارتشن تاني
+  فاضي ubuntu جيت أظبط ال dual boot راح مبقيش متاح خالص أي device لل boot اللهم إﻻ
+  لو اشتغلت ب USB \n\nحد يعرف طريقة أخلي ال BIOS يرجع يشغل الويندوز من غير ما أغيره
+  أو أفرمت الهارد؟ \n\nدي صور ال BIOS menus \nحتى لما حاولت أعمل F9 Default setup
+  لل BIOS منفعش ونفس المشكلة موجودة"
+link: https://www.facebook.com/photo.php?fbid=1164306950247042&set=gm.1061859130520461&type=3
+from:
+  name: Taghreed Mohammed Kamel
+  id: '1872433002767763'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/12552953_1164306950247042_1441697182120422613_n.jpg?oh=b3cae092a2c05b91f8d647f910d411e3&oe=5B2635A4
+created_time: '2016-01-13T17:16:14+0000'
+updated_time: '2016-01-13T20:16:27+0000'
+name: Photos from Taghreed Mohammed Kamel's post
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1061859130520461/
+id: '172338516139198_1061859130520461'
+comments:
+  data:
+  - created_time: '2016-01-13T17:21:52+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: دلوقتي الهارد بتاعك gpt ولا mbr والمفروض انك شغال uefi ولا bios (legacy)!
+    id: '1061862103853497'
+  - created_time: '2016-01-13T17:23:51+0000'
+    from:
+      name: Taghreed Mohammed Kamel
+      id: '1872433002767763'
+    message: |-
+      جربت الاتنين
+      لما يبقى legacy بيجيب الشاشة دي
+    id: '1061862927186748'
+  - created_time: '2016-01-13T17:24:26+0000'
+    from:
+      name: Taghreed Mohammed Kamel
+      id: '1872433002767763'
+    message: Gpt or mbr اعرفها منين؟؟
+    id: '1061863110520063'
+  - created_time: '2016-01-13T17:30:23+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "لما نزلتي اوبونتو عملتي ماونت ل / على بارتشن..  تمام..  عملتي /boot
+      على حاجة لوحده ولا عادي؟ \nاخترتي اصلا بالظبط ولا خدتي من الاختيارات اللي بيقترحها
+      عليكي على طول؟ \n\nادخلي بابونتو لايف على gparted وهيبان الهارد متقسم mbr ولا
+      gpt"
+    id: '1061866477186393'
+  - created_time: '2016-01-13T17:32:49+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "هو غالبا الجهاز كله كان uefi و gpt طالما boot priority كانت معمولة uefi
+      \nاي gpt بيبقى في بارتشن صغير كدة عليه ملفات بوت ونظامه لازم يكون fat32 \nعندك
+      البارتشن ده؟"
+    id: '1061867393852968'
+  - created_time: '2016-01-13T17:39:17+0000'
+    from:
+      name: Ahmed Mostafa
+      id: '1463621953765328'
+    message: "محتاجه تخلى واحد من 2 partition active \nعلشان يقدر يعمل boot \nممكن
+      تدخلى usb اللى عليه النسخه \nوبعد كدا افتحى cmd \nفى command اسمه diskpart \nممكن
+      تعمل سيرش وتشوفى ازاى تتعملى معاه"
+    id: '1061869887186052'
+  - created_time: '2016-01-13T18:34:32+0000'
+    from:
+      name: Ibrahim Mohammed
+      id: '1886120441698692'
+    message: انا حصلت فى حاجه زى دى من فتره كبيره يس مش فاكر تفاصيل و الحل كان انى
+      احول بين الفوماتس دة uefi و gpt زى ما الناس ذكرت بس مكنش ينفع التحويل غير لما
+      تعمل فورمات
+    id: '1061914207181620'
+  - created_time: '2016-01-13T19:28:37+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: Taghreed Mohammed Kamel Ahmed Mostafa is right , I only add that after
+      installing ubuntu do, from terminal "sudo update grub"
+    id: '1061934230512951'
+  - created_time: '2016-01-13T20:15:48+0000'
+    from:
+      name: Taghreed Mohammed Kamel
+      id: '1872433002767763'
+    message: |-
+      Amr ELsaqqa Khaled El-nagar متشكرة قوي جدًا خالص :)
+      اشتغل وطلع المنيو والويندوز سليم أهم حاجة :) وكذاك الأوبنتو
+    id: '1061964303843277'
+  - created_time: '2016-01-13T20:16:27+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "تمام مبروك \U0001F44D"
+    id: '1061964653843242'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEEyTVRnMk1qRXdNemcxTXpRNU56b3hORFV5TnpBMU56RXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEEyTVRrMk5EWTFNemcwTXpJME1qb3hORFV5TnpFMk1UZAzMZD
+attachments:
+  data:
+  - subattachments:
+      data:
+      - media:
+          image:
+            height: 206
+            src: https://scontent.xx.fbcdn.net/v/t1.0-9/12552953_1164306950247042_1441697182120422613_n.jpg?oh=6da459722905f75b8f6a968d712cab21&oe=5ADFB0CF
+            width: 274
+        target:
+          id: '1164306950247042'
+          url: https://www.facebook.com/photo.php?fbid=1164306950247042&set=gm.1061859130520461&type=3
+        type: photo
+        url: https://www.facebook.com/photo.php?fbid=1164306950247042&set=gm.1061859130520461&type=3
+      - media:
+          image:
+            height: 540
+            src: https://scontent.xx.fbcdn.net/v/t1.0-0/p180x540/12523080_1164307010247036_1035673278906689595_n.jpg?oh=b3e91fdf8106873840df72a1e4656f11&oe=5AE077B6
+            width: 720
+        target:
+          id: '1164307010247036'
+          url: https://www.facebook.com/photo.php?fbid=1164307010247036&set=gm.1061859130520461&type=3
+        type: photo
+        url: https://www.facebook.com/photo.php?fbid=1164307010247036&set=gm.1061859130520461&type=3
+      - media:
+          image:
+            height: 540
+            src: https://scontent.xx.fbcdn.net/v/t1.0-0/p180x540/12512711_1164307003580370_705919836791248081_n.jpg?oh=c65cd67931c4e248f45e180dff3468e1&oe=5ADB8577
+            width: 720
+        target:
+          id: '1164307003580370'
+          url: https://www.facebook.com/photo.php?fbid=1164307003580370&set=gm.1061859130520461&type=3
+        type: photo
+        url: https://www.facebook.com/photo.php?fbid=1164307003580370&set=gm.1061859130520461&type=3
+    target:
+      id: '1061859130520461'
+      url: https://www.facebook.com/media/set/?set=pcb.1061859130520461&type=1
+    title: Photos from Taghreed Mohammed Kamel's post
+    type: album
+    url: https://www.facebook.com/media/set/?set=pcb.1061859130520461&type=1

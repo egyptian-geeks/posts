@@ -1,0 +1,417 @@
+---
+message: "مبدأيا كدا موضوع تعويم الجنيه جيه بفايده بإن كل مطور بيحاول يعمل اى crawler
+  للبنوك ويجيب اللى هو عايزه ..\nانا حبيت اجرب حظى بردو :D وعملت واحد بردو, بس عملته
+  بإن الغرض الاساسى منه يكون ع هيئة API عشان اى Service خارجيه تعتمد عليه,\n- بدأت
+  مبدأيا ب 6 بنوك .. وإضافة اى بنك سهله\n- عامله ب Go .\n- بيحدث محتويات الصفحه بس
+  ف حالة لو فى اى تغيير\n- بيديك نوتفيكيشن لو حصل اى تغيير \"بالعملات اللى اتغيرت\"
+  \n- اللينك: https://curates.club\n- ال api هنا:\nhttps://api.curates.club\n- **جديد**
+  ال embed من هنا:\nhttps://curates.club/embed.html\n- **توضيح**\nإقتراح للى بيفكر
+  يبنى app ع ال api وعايز يعمل نفس اللى انا عامله ف ال UI بحيث ان اى تحديث بس يظهر,\n-
+  انا عامل ال browser يعمل pull كل كذا دقيقه \n- بخزن مجموع جميع العملات لكل البنوك
+  مره واحده\n- مع كل pull بيحصل, بعيد الجمع مره تانيه, لو الناتجين مش متساويين يبقى
+  كدا حصل تغيير,\n- وعشان احدد بالظبط العملات اللى اتغيرت, بعمل نفس الفكره لكن لكل
+  عمله على حدى, فبينتج مصفوفه فيها العملات وفيها التوتال بتاعهم, نفس الحكايه ممكن
+  تتعمل لكل بنك او كل بنك وعمله محدده, الموضوع بسيط ممكن تتلخفن بس :D ,"
+link: https://www.facebook.com/photo.php?fbid=681731452000678&set=gm.1296426907063681&type=3
+from:
+  name: Mohammed Al Ashaal
+  id: '965203406986813'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/15027473_681731452000678_5127023476208874155_n.jpg?oh=dc2120984e9374a958fe45fc51248828&oe=5AE861F5
+created_time: '2016-11-17T17:59:33+0000'
+updated_time: '2016-11-21T13:59:46+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1296426907063681/
+id: '172338516139198_1296426907063681'
+reactions:
+  data:
+  - id: '765335353652341'
+    name: Mohamed AbdElaziz
+    type: LIKE
+  - id: '583924271948588'
+    name: Abdulrahman Rdwan
+    type: LIKE
+  - id: '1531526736945997'
+    name: Farouk Sabry
+    type: LIKE
+  - id: '1821918031216201'
+    name: Muhamad Omar
+    type: LIKE
+  - id: '1547373045377964'
+    name: Ahmed Sayed
+    type: LIKE
+  - id: '10155783123700239'
+    name: Ahmed Mekkawy
+    type: LIKE
+  - id: '1588787661215871'
+    name: Ibrahim Eid
+    type: LIKE
+  - id: '10155819655346066'
+    name: Shady M. Najib
+    type: LIKE
+  - id: '10156238158522384'
+    name: Osama Ali
+    type: LIKE
+  - id: '10155399264292986'
+    name: Mostafa Bheiry
+    type: LIKE
+  - id: '10215482677129679'
+    name: Ahmed Adel Radwan
+    type: LIKE
+  - id: '10160163504230160'
+    name: Hany Elsioufy
+    type: LIKE
+  - id: '10214580441719850'
+    name: Mohammad Amer
+    type: LIKE
+  - id: '1545341755581586'
+    name: Zeyad A. ElOsherey
+    type: LIKE
+  - id: '1578492775538217'
+    name: Hazem A. A. Nomer
+    type: LIKE
+  - id: '10156228880479674'
+    name: Zeyad Assem
+    type: LIKE
+  - id: '10156087054039146'
+    name: Belal Mohammed
+    type: LIKE
+  - id: '927294070755888'
+    name: Emad Elmogy
+    type: LIKE
+  - id: '10215244177361076'
+    name: Mohamed A. Shebl
+    type: LIKE
+  - id: '2077007312536296'
+    name: Ahmed Hosny
+    type: LIKE
+  - id: '10157207798884012'
+    name: Mohamed Ibrahim Gaber
+    type: LIKE
+  - id: '1964650613774365'
+    name: Galal Aly
+    type: LIKE
+  - id: '1847421335299420'
+    name: Ahmed Sabry
+    type: LIKE
+  - id: '10156125898656103'
+    name: Nesreen Aly Harfoush
+    type: LIKE
+  - id: '1408236465969861'
+    name: Ahmed Ragab
+    type: LOVE
+  - id: '1622085274539496'
+    name: Sara Hussien
+    type: LIKE
+  - id: '10159985912160444'
+    name: Anwer Matter
+    type: LIKE
+  - id: '1604064583016696'
+    name: Mohamed Nabil
+    type: LIKE
+  - id: '10156694787289041'
+    name: Ibrahim AbdelFattah Mohamed
+    type: LIKE
+  - id: '10155224465177344'
+    name: Mohamad Kamal
+    type: LIKE
+  - id: '10215497581739240'
+    name: Mahmoud Raafat
+    type: LIKE
+  - id: '1466247800164499'
+    name: Mosaab Ahmed
+    type: LIKE
+  - id: '10155746533953941'
+    name: Abdelrahman Y. ElFiky
+    type: LIKE
+  - id: '1596110217148252'
+    name: Ahmed Badawy
+    type: HAHA
+  - id: '10208610261214026'
+    name: Mahmoud Ahmed
+    type: LIKE
+  - id: '10159817960495705'
+    name: Gee Mahmoud
+    type: LIKE
+  - id: '1893395550689090'
+    name: Ragab Belal
+    type: LIKE
+  - id: '10155019881421751'
+    name: Khalid Abdallah
+    type: LIKE
+  - id: '1809581442395089'
+    name: Mohamed Amin
+    type: LIKE
+  - id: '951706934991792'
+    name: Eyad Hossam
+    type: LIKE
+  - id: '10156016759599354'
+    name: Hazem Noor
+    type: LIKE
+  - id: '1803384536360568'
+    name: Ibrahim Gaafar
+    type: LIKE
+  - id: '10155518494646656'
+    name: Amir Amgad
+    type: LIKE
+  - id: '10155017783825800'
+    name: Ahmed Mamdouh
+    type: LIKE
+  - id: '1645405498839451'
+    name: Bassem Abbas
+    type: LIKE
+  - id: '10215461207703148'
+    name: Khaled Elnaggar
+    type: LIKE
+  - id: '10155555272528167'
+    name: Mahmoud Morta
+    type: LIKE
+  - id: '10159911272580223'
+    name: Ibrahim Adel
+    type: LIKE
+  - id: '10208727810672580'
+    name: Ahmed Kamal
+    type: LIKE
+  - id: '10212947071504226'
+    name: Eslam Hamouda
+    type: LIKE
+  - id: '557835137928906'
+    name: Iman Mohammed
+    type: LIKE
+  - id: '1495149960582252'
+    name: Mohamed Wael
+    type: LIKE
+  - id: '1158167907620094'
+    name: Mahmoud Nassar
+    type: LIKE
+  - id: '1516489515124702'
+    name: Hossam EL Sharkawy
+    type: LIKE
+  - id: '1704389499626394'
+    name: Ahmed Alaa Ahmed
+    type: LIKE
+  - id: '1928384107425504'
+    name: Ahmed Hashem
+    type: LIKE
+  - id: '10155518305294091'
+    name: Muhammad Salah El-Okda
+    type: LIKE
+  - id: '1683391508366852'
+    name: Amr Ali
+    type: LIKE
+  - id: '10213179716221355'
+    name: Mohaned Magdy
+    type: LIKE
+  - id: '1763181463721711'
+    name: Mohamed Nageh
+    type: LIKE
+  - id: '10156284492809497'
+    name: Ahmed Hassan
+    type: LIKE
+  - id: '10156161428368658'
+    name: Amr Mekkawy
+    type: LIKE
+  - id: '10156415267997448'
+    name: Mohamed Osman
+    type: LIKE
+  - id: '2004705666469226'
+    name: Ahmed Essam
+    type: LIKE
+  - id: '10157111378825968'
+    name: Kariem Muhammed
+    type: LIKE
+  - id: '10157110355438275'
+    name: Ahmed Saeed
+    type: LIKE
+  - id: '1686052171461238'
+    name: Abdelaziz Ibrahim
+    type: LIKE
+  - id: '1664266593616217'
+    name: Mohamed Anwer
+    type: LIKE
+  - id: '1859888084082654'
+    name: Mohammed Ismail
+    type: LIKE
+  - id: '10214124238595185'
+    name: Galal Atef
+    type: LIKE
+  - id: '1798842506802216'
+    name: Ruqaia Fareed
+    type: LIKE
+  - id: '1291360544342967'
+    name: Hatem Said
+    type: LIKE
+  - id: '10156266511868081'
+    name: Ahmed Zain Mohammed
+    type: LIKE
+  - id: '10155432639833282'
+    name: Ahmed Abdo
+    type: LIKE
+  - id: '10215448965519644'
+    name: Mohamed Tarek
+    type: LIKE
+  - id: '10213514844158024'
+    name: Basma Mohamed
+    type: LIKE
+  - id: '2214207455473502'
+    name: AbduLatif Ahmed
+    type: LIKE
+  - id: '1812131428831070'
+    name: Ahmed Ateek
+    type: LIKE
+  - id: '1546098432153196'
+    name: Mohamed Essam
+    type: LIKE
+  - id: '1776571649028109'
+    name: Islam Abolfotouh
+    type: LIKE
+  - id: '10213382124519901'
+    name: Mohamed Oun
+    type: LIKE
+  - id: '10156054633057370'
+    name: Omar Hassan
+    type: LIKE
+  - id: '10156169715692718'
+    name: Michael Azmy
+    type: LIKE
+  - id: '402301146892668'
+    name: Esso de Nasr
+    type: LIKE
+  - id: '895970407247426'
+    name: Ahmad Magdy
+    type: LIKE
+  - id: '2027932964114883'
+    name: Mohamed Salah Hassan
+    type: LIKE
+  - id: '10154922289347024'
+    name: Mohammed Hussien
+    type: LOVE
+  paging:
+    cursors:
+      before: TVRBd01EQTFNamMyTkRreE16QTVPakUwTnprNU1qQTFOakE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TmprNU1UTXlNREl6T2pFME56azBNRFUzTkRrNk56ZAzROalE0TURNM09URXpNekV5
+comments:
+  data:
+  - created_time: '2016-11-17T18:02:43+0000'
+    from:
+      name: Mohammed Hussien
+      id: '10154922289347024'
+    message: lovely :)
+    id: '1296432190396486'
+  - created_time: '2016-11-17T18:22:01+0000'
+    from:
+      name: AbduLatif Ahmed
+      id: '2214207455473502'
+    message: "جميل جدا \nوياسلام لو عملته اوبن سورس للتطوير \nوياسلام لو عملت ودجيت
+      عشان الناس العادية تقدر تستخدمه في مواقعها"
+    id: '1296440777062294'
+  - created_time: '2016-11-17T19:07:27+0000'
+    from:
+      name: Ahmed Essam
+      id: '2004705666469226'
+    message: |-
+      Nice work and sleek design. You might wanna make bank letters in capital if it is an abbreviation cause it looks a bit odd in small letters.  I don't think there is something wrong in making lots of implementation of the price of currency in Egypt. And I see your project, creating an API, is a nice addition to other apps.
+      Well done and keep up the good work
+    id: '1296464560393249'
+  - created_time: '2016-11-17T20:04:02+0000'
+    from:
+      name: Mohammed Al Ashaal
+      id: '965203406986813'
+    message: |-
+      ضفت له حاجه سريعه لل embed هنا:
+      https://curates.club/embed.html
+    id: '1296497153723323'
+  - created_time: '2016-11-18T07:14:37+0000'
+    from:
+      name: Sameh Ammar
+      id: '10216171489907822'
+    message: التصميم بسيط وجميل بس مفيش عربي وده اهم حاجة لاي حد هيدخل الموقع  لانه
+      المفروض التارجت بتاع الزوار مصريين
+    id: '1296957907010581'
+  - created_time: '2016-11-18T11:51:59+0000'
+    from:
+      name: Ahmed Mahmoud
+      id: '10155586124501339'
+    message: "اولا ببدى اعجابى الشديد بالتنفيذ ب GoLang\n ثانيا موضوع الا api ده عظيم
+      و هيفيد ناس كتير \nثالثا ناس كتير بتفكر تبدأ جو و وجود السورس كود اونلاين ممكن
+      يساعدها \nو بكده يبقى وسعنا دايرة الاستفادة"
+    id: '1297081846998187'
+  - created_time: '2016-11-18T11:59:06+0000'
+    from:
+      name: Magdi Nakhla
+      id: '10156058637813523'
+    message: Emad Nakhla
+    id: '1297085160331189'
+  - created_time: '2016-11-18T12:54:54+0000'
+    from:
+      name: Mohamed Taraman
+      id: '10155866336577597'
+    message: Question, is there an API for each bank to get their rates?
+    id: '1297122460327459'
+  - created_time: '2016-11-18T21:12:19+0000'
+    from:
+      name: Mohamed Amgad
+      id: '10215367467803543'
+    message: Nader Al-Sharkawy
+    id: '1297617403611298'
+  - created_time: '2016-11-20T17:27:36+0000'
+    from:
+      name: Mohamed Wael
+      id: '1495149960582252'
+    message: "انا عملت android app بالـ api ورفعته على github  =D \nhttps://github.com/MohamedWael/RealtimeCurrencyRates\n\nلينك
+      الـ APK\nhttps://github.com/MohamedWael/RealtimeCurrencyRates/blob/master/app-debug.apk"
+    id: '1299412606765111'
+  - created_time: '2016-11-20T18:54:24+0000'
+    from:
+      name: Osama Soliman
+      id: '879271768900112'
+    message: Mohammed Al Ashaal تقريباً العربي الافريقي غيرو شكل موقعهم فعمل مشكله
+      في الاسكرابر
+    id: '1299475586758813'
+  - created_time: '2016-11-20T18:54:53+0000'
+    from:
+      name: Mohamed Amgad
+      id: '10215367467803543'
+    message: Nader Al-Sharkawy
+    id: '1299475730092132'
+  - created_time: '2016-11-21T12:10:19+0000'
+    from:
+      name: Mohammed Al Ashaal
+      id: '965203406986813'
+    message: "إقتراح للى بيفكر يبنى app ع ال api وعايز يعمل نفس اللى انا عامله ف ال
+      UI بحيث ان اى تحديث بس يظهر,\n- انا عامل ال browser يعمل pull كل كذا دقيقه \n-
+      بخزن مجموع جميع العملات لكل البنوك مره واحده\n- مع كل pull بيحصل, بعيد الجمع
+      مره تانيه, لو الناتجين مش متساويين يبقى كدا حصل تغيير,\n- وعشان احدد بالظبط
+      العملات اللى اتغيرت, بعمل نفس الفكره لكن لكل عمله على حدى, فبينتج مصفوفه فيها
+      العملات وفيها التوتال بتاعهم, نفس الحكايه ممكن تتعمل لكل بنك او كل بنك وعمله
+      محدده, الموضوع بسيط ممكن تتلخفن بس :D ,"
+    id: '1300084910031214'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEk1TmpRek1qRTVNRE01TmpRNE5qb3hORGM1TkRBMU56WXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE13TURBNE5Ea3hNREF6TVRJeE5Eb3hORGM1TnpNd01qRTUZD
+attachments:
+  data:
+  - description: "مبدأيا كدا موضوع تعويم الجنيه جيه بفايده بإن كل مطور بيحاول يعمل
+      اى crawler للبنوك ويجيب اللى هو عايزه ..\nانا حبيت اجرب حظى بردو :D وعملت واحد
+      بردو, بس عملته بإن الغرض الاساسى منه يكون ع هيئة API عشان اى Service خارجيه
+      تعتمد عليه,\n- بدأت مبدأيا ب 6 بنوك .. وإضافة اى بنك سهله\n- عامله ب Go .\n-
+      بيحدث محتويات الصفحه بس ف حالة لو فى اى تغيير\n- بيديك نوتفيكيشن لو حصل اى تغيير
+      \"بالعملات اللى اتغيرت\" \n- اللينك: https://curates.club\n- ال api هنا:\nhttps://api.curates.club\n-
+      **جديد** ال embed من هنا:\nhttps://curates.club/embed.html\n- **توضيح**\nإقتراح
+      للى بيفكر يبنى app ع ال api وعايز يعمل نفس اللى انا عامله ف ال UI بحيث ان اى
+      تحديث بس يظهر,\n- انا عامل ال browser يعمل pull كل كذا دقيقه \n- بخزن مجموع
+      جميع العملات لكل البنوك مره واحده\n- مع كل pull بيحصل, بعيد الجمع مره تانيه,
+      لو الناتجين مش متساويين يبقى كدا حصل تغيير,\n- وعشان احدد بالظبط العملات اللى
+      اتغيرت, بعمل نفس الفكره لكن لكل عمله على حدى, فبينتج مصفوفه فيها العملات وفيها
+      التوتال بتاعهم, نفس الحكايه ممكن تتعمل لكل بنك او كل بنك وعمله محدده, الموضوع
+      بسيط ممكن تتلخفن بس :D ,"
+    media:
+      image:
+        height: 365
+        src: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/15110987_681731452000678_5127023476208874155_o.jpg?oh=64d01add7930ad085e7383a57ba0c7a5&oe=5ADA3A73
+        width: 720
+    target:
+      id: '681731452000678'
+      url: https://www.facebook.com/photo.php?fbid=681731452000678&set=gm.1296426907063681&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=681731452000678&set=gm.1296426907063681&type=3

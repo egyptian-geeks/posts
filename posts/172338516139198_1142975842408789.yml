@@ -1,0 +1,45 @@
+---
+message: "السلام عليكم\n\nمن فضلكم يا شباب انا عندى مشكلة فى مشروع WPF والحل من موقع
+  devexpress لأن الأداه المستخدمة من عندهم بيقول:\n\nIt is possible to get rid of
+  it by installing pre-compiled native images of your application's executable file
+  and all dependant assemblies on the machine where the application is executed. \n\n-
+  NGen your assemblies (make sure they are loaded as expected using the fuslogw tool)\n-
+  Pre-load all the required assemblies at the application startup using the Assembly.Load
+  method (use some sort of a waiting indicator to notify users about this process)\n\nطبعا
+  انا مش فاهم اعمل ايه ؟ هل ممكن حد يساعدنى ؟"
+from:
+  name: Ahmed Amin
+  id: '1962172197389574'
+type: status
+created_time: '2016-05-13T21:02:24+0000'
+updated_time: '2016-05-13T21:09:31+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1142975842408789/
+id: '172338516139198_1142975842408789'
+comments:
+  data:
+  - created_time: '2016-05-13T21:07:59+0000'
+    from:
+      name: Mohamed AbuIssa
+      id: '1772542006152666'
+    message: ممكن لينك للكلام دا علي ايه؟؟
+    id: '1142977395741967'
+  - created_time: '2016-05-13T21:09:31+0000'
+    from:
+      name: Ahmed Amin
+      id: '1962172197389574'
+    message: |-
+      Thank you for your screencast. I carefully reviewed it, but I do not think that this problem is directly related to our reporting library or the report generation time. As you probably know, the C# complier doesn't emit native code, but rather a set of pseudo instructions expressed in a so-called Microsoft intermediate language (MSIL). So, when you open a new form, the required assemblies are dynamically loaded, some resources are retrieved from them and the executed fragments of your IL code are converted into processor-specific machine code. As you can see, all these operations together might cause a significant time delay. It is possible to get rid of it by installing pre-compiled native images of your application's executable file and all dependant assemblies on the machine where the application is executed. Please refer to the Native Image Generator (Ngen.exe) MSDN article for comprehensive information in this regard (see also Why does my code take longer to execute the first time it's run?). So, what I'm trying to say is that I strongly recommend you try to pre-load/ JIT your code using the NGEN tool and see if this improves the performance.
+      We're looking forward to your results.
+
+      https://msdn.microsoft.com/en-us/library/6t9t5wcf(v=vs.80).aspx
+    id: '1142978045741902'
+  - created_time: '2016-05-13T21:09:44+0000'
+    from:
+      name: Ahmed Amin
+      id: '1962172197389574'
+    message: https://www.devexpress.com/Support/Center/Question/Details/T328209
+    id: '1142978105741896'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUwTWprM056TTVOVGMwTVRrMk56b3hORFl6TVRjek5qZA3cZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUwTWprM09ERXdOVGMwTVRnNU5qb3hORFl6TVRjek56ZAzQZD

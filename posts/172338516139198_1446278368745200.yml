@@ -1,0 +1,51 @@
+---
+message: |-
+  السلام عليكم
+  من فضلكم المشكله دي انا مش فاهمها خالص لانها ساعات بتحصل وساعات لا وانا جربت من جهازي واكتر من جهاز محصلتش لكن العميل بعتلي فيديو ليها اللي في البوست المفروض هنا ان المستخدم بيرفع ملف مضغوط للموقع وبيحصل زي في الفيديو كده الملف يحمل جزء ويفصل ويعيد التحميل من اول وجديد والعميل اكدلي ان الموضوع حصل معاه ومع اكتر من مستخدم للموقع ؟؟!!
+  اليوم جربت ارفع من مكانين فى نفس الوقت رفع فى المكان الاول 100% عادى والمكان التانى ادى خطأ عندى 63%
+  / Failed to load resource: net::ERR_CONNECTION_RESET
+  api/Uploader/PostData
+  هل ده له علاقه باتصال الانترنت ؟ والا ايه ؟ انا شغال api والموقع استضافته smartasp وبجرب مش بلاقي المشكله وبيتم الرفع - هو مش المفروض ان الكود يا شغال وبيتم الرفع يا لا ؟
+  ارجوا الافاده
+link: https://www.facebook.com/1962172197389574/videos/1828454224094706
+from:
+  name: Ahmed Amin
+  id: '1962172197389574'
+type: video
+picture: https://scontent.xx.fbcdn.net/v/t15.0-10/s130x130/17839007_1828454607428001_2683186573708623872_n.jpg?oh=9c25c4953d51129d61e604378e4a0dae&oe=5AE350AA
+created_time: '2017-04-07T21:11:21+0000'
+updated_time: '2017-04-07T23:01:10+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1446278368745200/
+id: '172338516139198_1446278368745200'
+comments:
+  data:
+  - created_time: '2017-04-07T21:28:17+0000'
+    from:
+      name: Mohamed Hisham
+      id: '10155927653208847'
+    message: "مشاكل ال upload اغلبها كالتالي:\n- حجم الملف..\nاتأكد ان حجم الملف الي
+      العميل بيجربه نفس الي انت بتجربه خد نفس الملف وجرب بيه او ملف اكبر، وممكن تخلي
+      العميل يجرب مع ملف صغير ويشوف المشكلة بتحصل معاه ولا لأ.\n\n- وقت ال upload\nطبيعي
+      لو عندك سرعة ال upload عاليا الملف هيترفع بسهولة لكن لو بطيئة هياخد وقت كبير
+      وساعتها هيجيلك timeout \n\n- عدد ال concurrent connections علي السرفر\nوانا
+      اعتقد ان المشكلة ممكن تبقي هنا علشان لما عدد ال concurrent connections لما يوصل
+      للحد الاقصي بيدي الرسالة الي جاتلك connection_reset\n انا معرفش السرفر عندك
+      ايه iis ولا apache ولا nginx \nعاماً لو دي المشكلة دور علي increase concurrent
+      connection on apache server مثلا"
+    id: '1446288622077508'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEwTmpJNE9EWXlNakEzTnpVd09Eb3hORGt4TmpBd05EazQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEwTmpJNE9EWXlNakEzTnpVd09Eb3hORGt4TmpBd05EazQZD
+attachments:
+  data:
+  - media:
+      image:
+        height: 224
+        src: https://scontent.xx.fbcdn.net/v/t15.0-10/17839007_1828454607428001_2683186573708623872_n.jpg?oh=a4b50223b8a1ac1d2b13998098bd3134&oe=5B21E3D1
+        width: 400
+    target:
+      id: '1828454224094706'
+      url: https://www.facebook.com/Ahmed.Developer/videos/1828454224094706/
+    type: video_inline
+    url: https://www.facebook.com/Ahmed.Developer/videos/1828454224094706/

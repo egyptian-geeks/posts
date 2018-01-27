@@ -1,0 +1,225 @@
+---
+message: الناس الل شغاله Node هل ال performance بتاعها قدام حاجه زى ruby يستحق اننا
+  ن switch ؟ لو بنتكلم عن rest api بتتعامل مع اكتر من 10 مليون unique users/month  واكتر
+  400 مليون requests/month هل فيه فرق كبير بين node و ruby ؟ انا عارف ان كل ال benchmarks
+  بتروح ف صالح node بس هل يستحق ن switch ونغير الستاك قبل مانبدا فى بروجكت بالحجم
+  ده ولا افضل نكمل ruby وممكن نجرب حاجه زي sinatra or roda وهيحقق نتايج مشابهه؟ ....
+  وحاجه تانيه بالنسبه لل cloud costs هل ruby isntance واحده تقدر ت handle ال traffic
+  اللى node instane واحده تقدر تهندله ؟ ولا فى حاله ruby هنحتاج resources اكتر وبالتالى
+  cost اعلى ؟ ... انا عارف ان اكيد ال infrastructure هتلعب دور كبير وال database optmization
+  وخلافه بس انا بتكلم لو كل ده حاضر هل الموضوع يستحق وفعلا هيفرق ولا لأ؟
+from:
+  name: Hazem Taha
+  id: '1817887968229914'
+type: status
+created_time: '2017-07-06T22:23:29+0000'
+updated_time: '2017-07-08T21:53:24+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1539415346098168/
+id: '172338516139198_1539415346098168'
+reactions:
+  data:
+  - id: '10215386861845749'
+    name: Mohamed Arabi Saleh
+    type: LIKE
+  - id: '1810632978947201'
+    name: 'Mohammed Ismail '
+    type: LIKE
+  - id: '10213825703171309'
+    name: Zizo Said
+    type: LIKE
+  - id: '1853777334634345'
+    name: Mohamed Fathalla
+    type: LIKE
+  - id: '1291360544342967'
+    name: Hatem Said
+    type: LIKE
+  - id: '2090831377812547'
+    name: جهاد رزق
+    type: LIKE
+  - id: '1151809561622555'
+    name: Ali ElSheikh
+    type: LIKE
+  - id: '1709278585800086'
+    name: Mohamed Khatab
+    type: LIKE
+  - id: '2072870969391480'
+    name: Mustafa Hegazy
+    type: LIKE
+  - id: '10156160579005929'
+    name: Abdurrahman Nasr
+    type: LIKE
+  - id: '1809581442395089'
+    name: Mohamed Amin
+    type: LIKE
+  - id: '2100352656854754'
+    name: Mahmoud Bakrey
+    type: LIKE
+  - id: '563156290702583'
+    name: Strong Man
+    type: LIKE
+  - id: '10214038659628102'
+    name: Hesham White
+    type: LIKE
+  - id: '1876092405757348'
+    name: Ibrahem Mahmmoud
+    type: LIKE
+  - id: '10210639103884830'
+    name: Roshdy Abdelbaset
+    type: LIKE
+  - id: '10216042822091508'
+    name: Ali Elzantot
+    type: LIKE
+  - id: '402301146892668'
+    name: Esso de Nasr
+    type: LIKE
+  - id: '1928384107425504'
+    name: Ahmed Hashem
+    type: LIKE
+  - id: '1255233001244388'
+    name: Hussien A. Ashour
+    type: LIKE
+  - id: '10155994963444544'
+    name: Ahmed Abd El Hady
+    type: LIKE
+  - id: '1561022257326859'
+    name: احمد قرواش
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRJMk1qZA3hOelkwTVRveE5EazVOVFV4T1RNME9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBd01EQXlOVGN5T1RnMU1qSXlPakUwT1Rrek56azVNVFU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-07-06T22:48:51+0000'
+    from:
+      name: Mohamed Shaaban
+      id: '10156259295924301'
+    message: "We have couple of projects running quite well with nodejs on production.
+      \nBased on your input, you're expecting 154 rps, which is not that much \n\nNodejs
+      is single threaded, so be careful while choosing the instance type, single or
+      multiple cores, as it's not only affecting the performance, but also might misleading
+      you with the CPU usage, for instance, if you have 2 cores machine running with
+      only one instance of nodejs, the maximum CPU value you'll get is 50%, which
+      means the nodejs is at 100%, and you're in fact wasting resources by leaving
+      the other core idle\n\nAlso keep in mind, you will need to implement the clustering
+      work either by hand, or using pm2"
+    id: '1539433289429707'
+  - created_time: '2017-07-06T22:48:52+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: |-
+      ما ينفعش تاخد قرار بالحجم ده من غير ما تقيس و تعرف الوقت بتاع ال request بيروح فين، جايز جدا يكون المشكلة مش في ال front end خالص و ال bottleneck في حتة تانية.
+      محتاج تعمل profiling كويس علشان تعرف فين المشكلة
+    id: '1539433309429705'
+  - created_time: '2017-07-06T22:54:19+0000'
+    from:
+      name: Mohamed Shaaban
+      id: '10156259295924301'
+    message: ايه ال motive ورا النقلة؟
+    id: '1539438389429197'
+  - created_time: '2017-07-06T22:55:10+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: Switching to node qill infulancr the entire project Arct. As node is
+      single thread, pleade do considet this... TWICE. :)
+    id: '1539438872762482'
+  - created_time: '2017-07-06T22:58:50+0000'
+    from:
+      name: أحمد محمود محمد عبدالوهاب
+      id: '10155226291481186'
+    message: If you are talking about rest api, you can consider GO or Elixir. Nodejs
+      is a bit overrated. Besides, Go, Elixir, or Nodejs will give you better performace
+      than ROR stack, however, they're way too different architecture nd programming
+      languages. Also in terms of cost and so on, ruby is the most demanding, however,
+      again, the hassle of moving to another stack, changing the app's architecture
+      (it won't change much) and learning the new language should be considered
+    id: '1539442822762087'
+  - created_time: '2017-07-06T23:13:09+0000'
+    from:
+      name: Elhussein Mohamed Ali
+      id: '10157719478733973'
+    message: |-
+      Golang or erlang is the best technology for that purpose
+
+      http://www.hostingadvice.com/blog/nodejs-vs-golang/
+    id: '1539449909428045'
+  - created_time: '2017-07-06T23:26:51+0000'
+    from:
+      name: Ahmad Mayo
+      id: '10155441399893250'
+    message: Nodejs is very good in I/o  and very bad in heavy CPU bound apps
+    id: '1539456739427362'
+  - created_time: '2017-07-06T23:41:32+0000'
+    from:
+      name: Nour Berro
+      id: '1858822624162177'
+    message: Have u considered. Net core async rest api its much faster
+    id: '1539465679426468'
+  - created_time: '2017-07-06T23:44:48+0000'
+    from:
+      name: Mohamed Oun
+      id: '10213382124519901'
+    message: Optimize for what your developers know best. Rails is more than adequate,
+      and if that's what your devs are experienced in, it makes to sense to switch
+      to something else.
+    id: '1539467702759599'
+  - created_time: '2017-07-07T00:32:14+0000'
+    from:
+      name: Mohamed Magdy Elbadrawy
+      id: '10155046611920894'
+    message: حجم الريكوستات مش الى يخليك تغير كفائه تيم ف ستاك معين لستاك تانى مش
+      سهل لدرجه انهم عندهم خبره بسيطه ف js انهم يحولو ليه بسرعه
+    id: '1539494652756904'
+  - created_time: '2017-07-07T00:55:38+0000'
+    from:
+      name: Mohamed Fawzy
+      id: '10159960198215788'
+    message: طريقة حل المشكلة اسااسا غلط اللى انا فهمته من اللى قريته في ردودك اللى
+      فاتت انتوا عندكم حاجات معمول منها جزء ومعمولة جافا وكانت فري لانسر والعميل بقي
+      موجود عندكم دلوقتي وطلب حاجات زيادة والمشروع بيكبر يبقي الطبيعي جدا انك تحل
+      مشاكل الموجود تعمله optimization تكمل عليه توصل بيه لاعلي استفادة ممكنة تبدا
+      تعمل refactor جزء جزء وتكتبوا archetiecture يحل مشاكلكم بعد ما تعملوا كدا تبدوا
+      تشوفو  الموضوع هيوصل معاكم لي ايه لكن قرار زي دا مبتاخدش انك تنقل من تكنولوجي
+      للتانية وخلاص الموضوع مش مجرد نقلة دا time , cost واللغة لوحدها مش هتحل مشكلتك
+      ممكن جدا تكون اللغة سريعة بس طريقة الobjects communcations او الapi handling
+      resources غلط تستهلك resources نصيحة بلاش تدخلوا في حاجة قبل ما تعملوا gateways
+      بتكلم الكود الموجود وتحسنوا فيه ولما توصل للpeak فيه تشوفوا اختيارات تانية لان
+      وقتها هيبقي عندكم case study حقيقة انت حاليا معندكش الcase study دي اساسا
+    id: '1539509749422061'
+  - created_time: '2017-07-07T09:51:36+0000'
+    from:
+      name: Hesham Adel
+      id: '798912850310002'
+    message: You bit you ass it is.
+    id: '1539871066052596'
+  - created_time: '2017-07-07T11:40:29+0000'
+    from:
+      name: Mohamed Tawfik
+      id: '10204074940031522'
+    message: Hazem Gharib read this yasta .. :D
+    id: '1539934989379537'
+  - created_time: '2017-07-07T12:28:49+0000'
+    from:
+      name: Met Wally
+      id: '520998054938412'
+    message: "اولا اي benchmark علي النت ماتاخدوش في اعتبارك وانت بتاخد قرار زي ده\nلازم
+      تعمل ال benchmark بنفسك علي ال application بتاعك\nانت ممكن تحول api واحدة من
+      اللي عندك ل node.js وتعمل لها benchmark وتشوف الفرق. \nفي حاجات ال node.js بتفرق
+      فيها جدا اوي. وفي حاجات تانية بتبقي عادية جدا. وفي حاجات تالتة بتبقي للأسف سيئة
+      بس دي نادرة."
+    id: '1539971212709248'
+  - created_time: '2017-07-08T21:18:49+0000'
+    from:
+      name: Ibrahim Zaki
+      id: '10157017423792738'
+    message: |-
+      This sizes of projects will become nightmare with both nodejs or ruby
+      Think java or Scala or go
+      Think of how you gonna scale before you start this huge project
+    id: '1541512475888455'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV6T1RRek16STRPVFF5T1Rjd056b3hORGs1TXpneE16TXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUwTVRVeE1qUTNOVGc0T0RRMU5Ub3hORGs1TlRRNE56TXcZD

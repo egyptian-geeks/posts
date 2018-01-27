@@ -1,0 +1,83 @@
+---
+message: "Hi ,  i use Netty in my project and it's so good for me now , i'm hearing
+  about http://akka.io and really do't know if i must move or integrate , \nany one
+  know about AKKA (java) could help me , thanks"
+link: http://akka.io/
+from:
+  name: Mohamed A. Alqrwash
+  id: '10213394268464462'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQCVDI7zVDikwsbU&w=130&h=130&url=http%3A%2F%2Fakka.io%2Fresources%2Fimages%2Flogo-cloud.png&cfs=1&_nc_hash=AQDke3E3GJ0T9OSb
+created_time: '2016-02-29T14:15:40+0000'
+updated_time: '2016-02-29T16:59:22+0000'
+name: Akka
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1088932441146463/
+id: '172338516139198_1088932441146463'
+comments:
+  data:
+  - created_time: '2016-02-29T14:47:37+0000'
+    from:
+      name: Mahmoud Atef
+      id: '10155148102196835'
+    message: I'm working on AKKA the Scala version, let me know if I can help.
+    id: '1088948984478142'
+  - created_time: '2016-02-29T14:53:23+0000'
+    from:
+      name: Mohamed A. Alqrwash
+      id: '10213394268464462'
+    message: "ok , i would like to know if i cloud use AKKA with my exist Netty \nproject
+      , it  TCP  servers (Media server that support UDP , RTMP , etc ) , could this
+      add performance to my project (i need this to be in JAVA not in Scala)\nthanks"
+    id: '1088951327811241'
+  - created_time: '2016-02-29T14:53:59+0000'
+    from:
+      name: Mohamed A. Alqrwash
+      id: '10213394268464462'
+    message: i use my container based on Netty
+    id: '1088951921144515'
+  - created_time: '2016-02-29T15:27:57+0000'
+    from:
+      name: Mahmoud Atef
+      id: '10155148102196835'
+    message: Look, Akka has many components that address different problems in any
+      system. The good news is, you can only pick the parts that suites your solution.
+      So if we take the Actors for example which is the core component in Akka, I
+      think yes it can increase the parallelism in your system because actor model
+      is the best in dividing computation on actors that share nothing between each
+      other which make them safe from deadlocks. The question that you need to think
+      about is do you have big jobs that can be broken down to small parallel jobs
+      or not?
+    id: '1088980521141655'
+  - created_time: '2016-02-29T15:32:35+0000'
+    from:
+      name: Mohamed A. Alqrwash
+      id: '10213394268464462'
+    message: thank you for replying , i just see AKKA yesterday , i hope to learn
+      more about it
+    id: '1088982817808092'
+  - created_time: '2016-02-29T16:59:21+0000'
+    from:
+      name: Mohamed A. Alqrwash
+      id: '10213394268464462'
+    message: "Dear Mahmoud Atef \ni thank you , i would like to get help in this code
+      to integrate AKKA\n\nhttps://github.com/micromax/Qomiga\n\nand i would like
+      to thank you for your help \n\nnot about code i just push this repo , i know
+      it need a lot of reconfiguration to work in any machine , only think i need
+      to know how to apply AKKA actors in it"
+    id: '1089022377804136'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE0T0RrME9EazRORFEzT0RFME1qb3hORFUyTnpVM01qVTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE0T1RBeU1qTTNOemd3TkRFek5qb3hORFUyTnpZAMU1UWXkZD
+attachments:
+  data:
+  - media:
+      image:
+        height: 200
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQD4ePfISAytDpEC&w=720&h=720&url=http%3A%2F%2Fakka.io%2Fresources%2Fimages%2Flogo-cloud.png&cfs=1&_nc_hash=AQCTltDsed1TbqiP
+        width: 200
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fakka.io%2F&h=ATNJRm5NcYcqLgcNVgv8Q6vCWhdL1SEOaLT10QmtSov4sL_V8eFNzlQaPAMRzsrEj1pNfkSs4MF9B-_g_fe147aMpsH4VdKtkkwm&s=1&enc=AZNDW49Q__HJOQxwxcpOx2pJ2gaOOqKrROq70Tv_OstipZDBe16rw6i4mH22apycPkljfnTODYwoDCBgm0kWbvVZ
+    title: Akka
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fakka.io%2F&h=ATNJRm5NcYcqLgcNVgv8Q6vCWhdL1SEOaLT10QmtSov4sL_V8eFNzlQaPAMRzsrEj1pNfkSs4MF9B-_g_fe147aMpsH4VdKtkkwm&s=1&enc=AZNDW49Q__HJOQxwxcpOx2pJ2gaOOqKrROq70Tv_OstipZDBe16rw6i4mH22apycPkljfnTODYwoDCBgm0kWbvVZ

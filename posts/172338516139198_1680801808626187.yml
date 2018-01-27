@@ -1,0 +1,148 @@
+---
+message: هل في طريقة أعمل unlike لكل الـ inactive pages ؟!!
+from:
+  name: Mohamed Anan
+  id: '10160057547260515'
+type: status
+created_time: '2017-12-03T06:05:52+0000'
+updated_time: '2017-12-04T17:07:07+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1680801808626187/
+id: '172338516139198_1680801808626187'
+reactions:
+  data:
+  - id: '2001897360084292'
+    name: Ahsan Ali
+    type: LIKE
+  - id: '1708245769237951'
+    name: Mohamed Bek Ibrahim
+    type: LIKE
+  - id: '10212799168886386'
+    name: Ahmed Magdy Ibrahim
+    type: LIKE
+  - id: '10215448965519644'
+    name: Mohamed Tarek
+    type: LIKE
+  - id: '10156031099535996'
+    name: Ahmed Gameil
+    type: LIKE
+  - id: '10155019881421751'
+    name: Khalid Abdallah
+    type: LIKE
+  - id: '1491322807632246'
+    name: Amr Ismail
+    type: LIKE
+  - id: '1978218419170605'
+    name: Ahmed Mhmd
+    type: LIKE
+  - id: '10160126627415093'
+    name: Amir Magdy
+    type: LIKE
+  - id: '1750532274967735'
+    name: Ahmed Moussa
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTNPVEl4TkRJd09UWXlPakUxTVRNek5qUTFNams2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXdNekk1TXpnMk5UZA3dPakUxTVRJeU9ETTFPVGs2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-12-03T06:45:25+0000'
+    from:
+      name: Ahmed Moussa
+      id: '1750532274967735'
+    message: "Interesting question. I need to look into it \U0001F603 sounds fun \U0001F60A"
+    id: '1680829908623377'
+  - created_time: '2017-12-03T06:46:13+0000'
+    from:
+      name: Mohamed Anan
+      id: '10160057547260515'
+    message: كان في مواقع بتعمل الموضوع دا بس للأسف اتمسحت من الوجود :D
+    id: '1680830315290003'
+  - created_time: '2017-12-03T06:47:14+0000'
+    from:
+      name: Mohamed Anan
+      id: '10160057547260515'
+    message: حاجة زي كدا
+    id: '1680830895289945'
+  - created_time: '2017-12-03T06:57:53+0000'
+    from:
+      name: Ali A. Mohammed
+      id: '195137061226961'
+    message: I don't think there is a way to know the page is inactive or not. Unless
+      your crawler goes inside the page and check the last post date then decide based
+      on it
+    id: '1680835921956109'
+  - created_time: '2017-12-03T06:58:43+0000'
+    from:
+      name: Ahmed Moussa
+      id: '1750532274967735'
+    message: "Howa fe website 7ad kan wreholy bedelk Facebook analysis\nNumber of
+      likes, engagement rate, etc \nI'm thinking of using it to get these specific
+      information and based on it \nUse the Facebook api to unlike this page"
+    id: '1680836265289408'
+  - created_time: '2017-12-03T06:58:50+0000'
+    from:
+      name: Ahmed Moussa
+      id: '1750532274967735'
+    message: 7aga zay kda
+    id: '1680836325289402'
+  - created_time: '2017-12-03T06:59:03+0000'
+    from:
+      name: Ahmed Moussa
+      id: '1750532274967735'
+    message: Ha7awel ageblk link el website
+    id: '1680836441956057'
+  - created_time: '2017-12-03T07:02:02+0000'
+    from:
+      name: Ahmed Moussa
+      id: '1750532274967735'
+    message: "Howa dah \nhttps://likealyzer.com/?lang=en"
+    id: '1680838048622563'
+  - created_time: '2017-12-03T07:02:35+0000'
+    from:
+      name: Ahmed Moussa
+      id: '1750532274967735'
+    message: El results kanet so close to the actual page analysis given by Facebook
+      fa I think it's pretty good
+    id: '1680838305289204'
+  - created_time: '2017-12-03T14:51:42+0000'
+    from:
+      name: Muhammad Reda
+      id: '1569270646495436'
+    message: "#cpd\nI was try it but it's not working 100 % with all pages but it's
+      work with most of them like 80 %  i hope it help 1- googlechrome \n2- jquery
+      injector  extenstion \n3- open your activity log \nhttps://www.facebook.com/[facebook
+      username]/allactivity?privacy_source=activity_log&log_filter=likedinterests\n4-
+      open console \n5- inject jquery using the extenstion \n6- paste this script
+      \n$(\"html, body\").animate({ scrollTop: $(document).height() }, \"slow\");\nsetInterval(function
+      () {\n  var last = $(\"._6a._6b.uiPopover.rfloat a span\").last().click();\n
+      \ $(\"span:contains(Unlike):visible\").click();\n  var post = last.closest(\".pam\");\n
+      \ post.prev().remove();\n  post.remove();\n}, 700);\n\n7- سيبه بقي لما يخلص
+      :D \n8-  مصدر ال script \nhttps://github.com/IonicaBizau/reset-your-facebook-account"
+    id: '1681159315257103'
+  - created_time: '2017-12-03T20:49:55+0000'
+    from:
+      name: Alaa Saber
+      id: '10157080424878242'
+    message: This will be very helpful
+    id: '1681429108563457'
+  - created_time: '2017-12-04T07:28:51+0000'
+    from:
+      name: Mohamed Anan
+      id: '10160057547260515'
+    message: up
+    id: '1681810388525329'
+  - created_time: '2017-12-04T09:02:55+0000'
+    from:
+      name: Hassan Essam
+      id: '2471742009716808'
+    message: "You can do it manually using JS\n- open liked pages view from account
+      \n- scroll down until all pages is visible \n- collect the URL for every page
+      from it's html in array \n- iterate over the array one by one and get the top
+      post's date \n- set a definition for in active - condition on date -\n- collect
+      all in active pages in array\n- iterate in it, hit unlike button"
+    id: '1681860881853613'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFk0TURneU9Ua3dPRFl5TXpNM056b3hOVEV5TWpnek5USTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFk0TVRnMk1EZAzRNVGcxTXpZAeE16b3hOVEV5TXpjNE1UYzIZD

@@ -1,0 +1,17 @@
+---
+message: "Is there a way to get the value of two <input> tag using javascript and
+  save them as a .sql file like:\n    <input type=\"text\" id=\"test1\">\n    <input
+  type=\"text\" id=\"test2\">\nI need to save them on .sql file and download it as
+  I'll take the input value and save the file with the following content :-\n INSERT
+  INTO `table`(`col1`, `col2`) VALUES (\"{The value of input1}\",\"{value of input2}\")\n
+  \nthe reason of using javascript is that this script will be used only offline\nPS
+  :- I googled a lot and read topics on StackOverflow but unfortunately it didn't
+  help"
+from:
+  name: Bellal Mohamed
+  id: '1672878506132188'
+type: status
+created_time: '2016-05-07T16:20:21+0000'
+updated_time: '2016-05-07T17:04:23+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1139051996134507/
+id: '172338516139198_1139051996134507'

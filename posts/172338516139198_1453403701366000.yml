@@ -1,0 +1,47 @@
+---
+message: I struggled to get my head around what is the concept of express middleware,
+  Can anyone explain to me what middleware is?
+from:
+  name: Mohamed A. Othman
+  id: '1574530695959412'
+type: status
+created_time: '2017-04-14T11:58:13+0000'
+updated_time: '2017-04-14T13:05:17+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1453403701366000/
+id: '172338516139198_1453403701366000'
+comments:
+  data:
+  - created_time: '2017-04-14T12:05:52+0000'
+    from:
+      name: Tareq El-Masri
+      id: '2478303849061627'
+    message: |-
+      الموضوع ببساطة هو "حلقة وصل"، أحيانًا انت محتاج تعدل على طلبات اليوزر وتعدل عليها، خلينا نتكلم عن مثال زي الـAuthentication مثلاً، لو عندنا مستخدم بيطلب بيانات معينة وعاوز تتأكد من صلاحيته
+      ---
+      في حالات كتيرة انت محتاج الداتا تعدي على function تانية قبل ما توصل لليوزر، دي بتبقى أسمها middleware. أو وسيط في النص
+      بدل ما البيانات توصل لليوزر بشكل مباشر، هتعدي خلال الوسيط أو الـmiddleware. وبعدين الوسيط هيؤدي وظيفته
+      ---
+      بالنسبة لـexpress فالـmiddleware بيبقى له صلاحية إنه يشوف الريكويست ويتحكم في الرد بتاعه
+      ---
+      في المثال بتاعنا، هيجيلنا الطلب وهنعديه في Authentication middleware. ووقتها الـmiddleware هيؤدي وظيفته ويتأكد من الـauthentication لليوزر ويمرر الداتا في حالة صلاحيتها أو ﻷ، وهكذا!
+    id: '1453409681365402'
+  - created_time: '2017-04-14T12:09:19+0000'
+    from:
+      name: Tareq El-Masri
+      id: '2478303849061627'
+    message: |-
+      في أنواع تانية مثلاً زي cookieparser. وممكن ببساطة تفهم هو ايه الوظيفة اللي بيؤديها
+      https://github.com/expressjs/cookie-parser
+      ومتنساش تراجع الـdocumentation عن الموضوع وهتفهم أكتر
+      https://expressjs.com/en/guide/using-middleware.html
+    id: '1453414324698271'
+  - created_time: '2017-04-14T13:00:43+0000'
+    from:
+      name: Abdalla Zaki Al-Kateb
+      id: '10211325385431402'
+    message: حاجة في النص كدا حاجة في النص كدا
+    id: '1453454611360909'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFExTXpRd09UWTRNVE0yTlRRd01qb3hORGt5TVRjeE5UVXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFExTXpRMU5EWXhNVE0yTURrd09Ub3hORGt5TVRjME9EUTAZD

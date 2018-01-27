@@ -1,0 +1,66 @@
+---
+message: |-
+  11 large empty boxes are placed on a table. An unknown number of the boxes is selected and, into each one, eight medium boxes are placed. An unknown number of the medium boxes is selected and, into each one, eight small boxes are placed.
+  At the end of this process there are 102 empty boxes. How many boxes are there in total?
+  Anyone can explain ,how to solve it ?
+from:
+  name: Ibrahem Mahmmoud
+  id: '1876092405757348'
+type: status
+created_time: '2017-05-30T14:02:24+0000'
+updated_time: '2017-05-30T17:46:28+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1498075596898810/
+id: '172338516139198_1498075596898810'
+reactions:
+  data:
+  - id: '368237263651704'
+    name: Omar Ali
+    type: LIKE
+  - id: '1555727901172689'
+    name: Ahmed Ayman
+    type: HAHA
+  paging:
+    cursors:
+      before: TVRBd01ERXpPVFl5T1RrMU56RTNPakUwT1RZAeU9ESTNPRGc2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlNRFkwT0RNMU1UWTRPakUwT1RZAeE9ETXhORE02TnpnNE5qUTRNRE0zT1RFek16RXkZD
+comments:
+  data:
+  - created_time: '2017-05-30T14:53:21+0000'
+    from:
+      name: Mariam Maarouf
+      id: '10155779091916638'
+    message: |-
+      Large boxes:
+      11 = total number of large boxes
+      x = number of filled large boxes
+      11 - x = number of empty large boxes
+
+      Medium boxes:
+      8x = total number of medium boxes
+      y = number of filled medium boxes
+      8x - y = number of empty medium boxes
+
+      Small boxes:
+      8y = total number of small boxes
+      All small boxes are empty.
+
+      Therefore:
+      Total number of empty boxes:
+      = (11 - x) + (8x - y) + 8y
+      = 11 + 7x + 7y
+
+      102 = 11 + 7x + 7y ---> (1)
+      102 - 11 = 7x + 7y
+      91 = 7x + 7y (then divide by 7)
+      13 = x + y ---> (2)
+
+      Total number of boxes:
+      = 11 + 8x + 8y ---> (3)
+
+      From (1) and (3), total boxes = 102 + x + y
+      By replacing (x+y) with 13 from (2), total boxes = 102 + 13 = 115
+    id: '1498134636892906'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE1T0RFek5EWXpOamc1TWprd05qb3hORGsyTVRVMk1EQXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE1T0RFek5EWXpOamc1TWprd05qb3hORGsyTVRVMk1EQXkZD

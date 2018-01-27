@@ -1,0 +1,139 @@
+---
+message: "السلام عليكم يا شباب\nدلوقتي انا عندي راوتر مرمي في البيت كده بتاع TEData
+  \nنوعه ZTE ZXHN H108N\nولقيت انه ممكن ينزله OpenWRT وقولت كده اما اتسلي واجرب\n\nبس
+  للاسف كل محاولاتي فشلت لان تقريبا الراوتر locked\n\nفي اي حد جرب ينزله فيرم وير
+  مختلف عن بتاع TEData ? او حد ممكن يقولي احاول اعمل ايه بالظبط ؟"
+from:
+  name: Muhammad Saleh
+  id: '10156649659196002'
+type: status
+created_time: '2016-11-08T00:10:49+0000'
+updated_time: '2016-11-08T22:41:04+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1285300084843030/
+id: '172338516139198_1285300084843030'
+reactions:
+  data:
+  - id: '10154953532847827'
+    name: Mohammed Salah Salem
+    type: LIKE
+  - id: '495080930892199'
+    name: Muhammed Nagy
+    type: LIKE
+  - id: '10213394268464462'
+    name: Mohamed A. Alqrwash
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpnNU5UQTNPREkyT2pFME56ZAzJNVGs0TURFNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBek1UZAzJPVEExTVRveE5EYzROakE1TkRVME9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2016-11-08T01:07:03+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: |-
+      انا عملت الحكاية دي من قبل مع راوتر LinkSyS غالبا ما دام الموديل مذكور وانك نزلت السوفت وير المناسب، هتبقى مشكلة في تطبيق الخطوات.
+      اللي اقدر اقولك عليه حاليا تأكد من عملية ال REST يعني هتدوس على زرار Rest  ا30 ثانية والراوتر شغال وتفضل دايس عليه وتفصل الكهربا عنه 30 ثانية كمان وانت لازالت دايس عليه، وبعدين ترجع الكهربا وانت برضه لسة دايس عليه 30 ثانية (يعني ما تفلتش الزرار خالص لمدة ال 90 ثانية) وبعدين تسيب الزرار وتفصل الراوتر من الكهربا وتكمل باقي الخطوات
+    id: '1285332481506457'
+  - created_time: '2016-11-08T01:34:21+0000'
+    from:
+      name: Taha Amin
+      id: '10155815529215590'
+    message: https://www.youtube.com/watch?v=K9srI1zImSU
+    id: '1285348721504833'
+  - created_time: '2016-11-08T05:56:35+0000'
+    from:
+      name: Morad Edwar
+      id: '10215772499725897'
+    message: ممكن لو اشتغل معاك تقولنا عشان فكرت من فترة اعمل زيك وكسلت :D
+    id: '1285520684820970'
+  - created_time: '2016-11-08T06:02:57+0000'
+    from:
+      name: Seif Abaza
+      id: '10159795685505398'
+    message: "OpenWrt \nتحفة بس أنصحك تجربه الأول على \nVirtualBox \nبعد ما تنزل الفريم
+      وير أكتب الكماند ده على الترمنل \nVBoxManage convertdd disk_image.bin disk_image.vdi
+      \nو تعامل معاه , لقيت نفسك تمام وفهمته و عرفت تحل كل المشاكل يبقى توكل على الله
+      و جربه في أي روتر , أنا عن نفسي عمله الأساسي و جبت روتر تاني و برضوا نزلت عليه
+      OperWrt \n\nمن البرامج المهمه جده عليه طبعا Tor و OpenVPN و ممكن تكتب سكربتات
+      عليه بحيث يكون الروتر إحترافي أكتر"
+    id: '1285523804820658'
+  - created_time: '2016-11-08T11:00:12+0000'
+    from:
+      name: Muhammad Saleh
+      id: '10156649659196002'
+    message: kol ma agy a upload file el bin lel router mosh by3ml ay 7aga :/ w byerga3
+      lel firmware el tany 3ady
+    id: '1285841451455560'
+  - created_time: '2016-11-08T13:06:19+0000'
+    from:
+      name: Seif Abaza
+      id: '10159795685505398'
+    message: a5tart el version el sa7e7 bta3o ?
+    id: '1285958671443838'
+  - created_time: '2016-11-08T14:53:59+0000'
+    from:
+      name: Muhammed Nagy
+      id: '495080930892199'
+    message: قولنا ايه الي حصل بعد ما تجرب علشان برضه عندي نفس الرواتر بس خفت اجربه
+    id: '1286064594766579'
+  - created_time: '2016-11-08T15:20:45+0000'
+    from:
+      name: Muhammad Saleh
+      id: '10156649659196002'
+    message: |-
+      ana garabt kol 7aga a2dar 3aleha lel asaf mosh naf3
+      3amaltlo unlock fe3ln tamam bs el openwrt bin file still mosh 3ayz ynzl
+      so hagarab enaharda tany isA w law feh gdeed ha2oloko
+    id: '1286087071430998'
+  - created_time: '2016-11-08T17:56:10+0000'
+    from:
+      name: Muhammad Sherbeeny
+      id: '10159810258355527'
+    message: |-
+      انا نزلت openwrt على راوتر كان protected
+      الطريقة كانت اني لازم اطفي الراوتر وافتح الهيكل بتاعه
+      واجيب سلكة اعديها بسرعة على ٤ نقط كده على البوردة خلال اقل من ثانية من توصيل الكهرباء
+      وفعلا لاقيت لمبة الباور اتطفت ولمبة كابل الشبكة اللي واصل فضلت منورة
+      دخلت على 192.168.1.1 لاقيت كل اللي ظهرلي صفحة بيضة بتقولي recovery mode وعايزاني احط ملف السوفتوير
+      حطيت openwrt واتقبل وكله تمام
+    id: '1286279081411797'
+  - created_time: '2016-11-08T18:17:45+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: الجمال في موضوع تغيير ال Firmware ده بيحسه اكتر بتوع الويب. ببساطة لما
+      تقدر تعمل Virtual DNS او تقد تغير hosts بتاع الراوتر ساعتها ال Virtual Hosts
+      اللي على Local server على جهازك هتبقى قابلة للوصول من على أي ماكينة في الشبكة
+      المحلية.
+    id: '1286300618076310'
+  - created_time: '2016-11-08T22:36:34+0000'
+    from:
+      name: Muhammad Saleh
+      id: '10156649659196002'
+    message: |-
+      طيب هو اللي انا فهمته انه تقريبا في نوعين من الراوتر ده
+      ZTE ZXHN H108N v2.5
+      ZTE ZXHN H108N v3.0
+      هحطلكوا الفرق بينهم في الصور
+      وللاسف الbin الموجود ده لv3 مش للي عندي بتاع تي اي داتا
+      اللي عندي مفهوش USB وواضح انه مختلف
+      فكده للاسف الموضوع فشل :(
+    id: '1286536691386036'
+  - created_time: '2016-11-08T22:39:31+0000'
+    from:
+      name: Muhammad Saleh
+      id: '10156649659196002'
+    message: ده شكل v3.0
+    id: '1286538168052555'
+  - created_time: '2016-11-08T22:41:02+0000'
+    from:
+      name: Muhammad Saleh
+      id: '10156649659196002'
+    message: وده العادي اللي عندي
+    id: '1286539138052458'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEk0TlRNek1qUTRNVFV3TmpRMU56b3hORGM0TlRZAM01qSTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEk0TmpVek9URXpPREExTWpRMU9Eb3hORGM0TmpRME9EWXoZD

@@ -1,0 +1,106 @@
+---
+message: |-
+  What happens when I watch a higher resolution graphics than my monitor max resolution?
+  For Example, your display is HD "720p" and you watch FHD "1080p" youtube video? is that any better? any worse?
+from:
+  name: Osama Soliman
+  id: '879271768900112'
+type: status
+created_time: '2017-11-13T07:33:50+0000'
+updated_time: '2017-11-14T00:06:48+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1660646903975011/
+id: '172338516139198_1660646903975011'
+reactions:
+  data:
+  - id: '1521319414630531'
+    name: Mohamed Abdallah
+    type: LIKE
+  - id: '1785597104785913'
+    name: Islam Sami
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlOVGMwTmpFME1UWTJPakUxTVRBMU5qY3lPVEk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXdNRFk1TWpFeE1UWTJPakUxTVRBMU5Ua3dOelU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-11-13T07:37:31+0000'
+    from:
+      name: Ahmed Atef
+      id: '10156122235026834'
+    message: |-
+      I already made that on my old laptop
+      I watched a blue ray full hd movie on an old laptop
+      it was "2012" movie, the resolution was awesome and the movie was hanging all long the film, on a screen or tv, it'll show a black screen with sound
+    id: '1660650333974668'
+  - created_time: '2017-11-13T07:37:48+0000'
+    from:
+      name: Ahmed Sadek Mohamed Tawfik
+      id: '10155056867911922'
+    message: |-
+      هاتستهلك داتا اكتر و يحصلها سكايلينج تاني لتحت
+      يعني دفعت فلوس علي الفاضي
+      More losses and less efficiency
+    id: '1660650550641313'
+  - created_time: '2017-11-13T07:38:07+0000'
+    from:
+      name: Mohamed Hassan El Khiat
+      id: '10159864416060057'
+    message: هاتتحول ل 720 وتشتغل على الاساس ده
+    id: '1660650700641298'
+  - created_time: '2017-11-13T07:49:44+0000'
+    from:
+      name: Osama Soliman
+      id: '879271768900112'
+    message: For more "clear difference" I decided to increase the youtube video resolution
+      to "4k" and I notice a way depth in the video graphics even the monitor is only
+      "HD" designed!
+    id: '1660656757307359'
+  - created_time: '2017-11-13T08:39:49+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: Your screen doesn't have the pixels needed to display 1080p resolution
+      period, what happens is that your graphics stack will downgrade the video to
+      whatever resolution that fits your screen, and in the process depending on your
+      resources you may notice lags or stutter.
+    id: '1660683577304677'
+  - created_time: '2017-11-14T00:06:39+0000'
+    from:
+      name: Hany Barakat
+      id: '10155068203640974'
+    message: |-
+      This might contain more info than you asked for. Hope it explains the reasons though.
+
+      The question (which I changed a bit for the sake of generalization): Would watching a "1080p" video on a 720p screen (or 4K video on 1080p screen) be any better than matching screen/video resolution?
+
+      Theoretically if both videos are exactly the same, it can't be any better because number of pixels must be the same. Practically, it might be better because of two things:
+      1. Colors (might be clearer when playing 4k on 1080p screens). The way pixels are illuminated is so optimized for most video sources that the luminance value of one pixel is usually used for the 3 neighboring pixels (this doesn't have to be true for all videos). With 4K pixels being "shrinked" to 1080p, suddenly every pixel will have it's own luminance value which would help in figuring out with a better accuracy how lit each pixel should be which could make the picture look better on screen.
+      This might be a bit hard to explain without drawing, so check out: http://pocketnow.com/2016/02/09/uhd-video-looks-better and https://www.phonearena.com/news/Did-you-know-4K-vs-1080p-chroma-sub-sampling-and-why-you-should-record-in-4K-even-if-your-TV-does-not-support-it-yet_id61878.
+      2. Videos are complicated and it's not just about number of pixels, so it depends! While we reference video quality in terms of resolution, streamed videos quality is also controlled by many other factors than just the number of pixels. For example a 720p video only means it has 720px for its shortest side, but it doesn't have any details around the number of bytes used to represent those pixels (which is equally important to the number of pixels). For reference check this out and notice the difference between the recommended bitrates for the same video sizes!
+      - https://support.google.com/youtube/answer/1722171?hl=en
+      vs
+      - https://teradek.com/blogs/articles/what-is-the-optimal-bitrate-for-your-resolution
+
+      Background (and a bit more details): A video is a sequence of pictures/frames displayed on screen. Video codecs basically "encodes"/compresses these frames into a much smaller size (as in number of bytes required to redraw the frames and play them in sequence) than writing each frame as a full picture (GIF format does that for example, writes each frame as a full picture).
+      A "typical" video file contains two streams, a video stream and an audio stream (some files can have more than one of any of the streams). Both compressed streams are then combined into one "container"(ex: Mp4)/file and written using a "format" (ex: Mp4). Each stream is written using a codec that compressed it (ex: for videos a very popular codec is h264).
+
+      A video stream/quality is mainly dictated by four main factors:
+      1. Bitrate: Number of bits per a second of video.
+      2. Key frames: Most popular codecs are lossy. The way codecs typically compresses videos is by having key frames with all the info in the frame, other "normal" frames are actually constructed based on previous or next key frames.
+      3. Frame rate. Number of frames per second.
+      4. Resolution. The number of pixels in every frame.
+      And as mentioned above there is info needed for the colors of pixels in every frame. Also note that we haven't even talked about the audio stream quality.
+
+      More questions that might explain why "it depends": if we increase #1 (bitrate) without changing frame rate, key frames or resolution, would we notice an increase in quality?
+      Yes, but only up to a certain limit. For example using 500kbps for a 720p video will look much worse than a 2.5mbps for a 720p video; we basically have a much larger number of bits to represent each frame, so the quality of the video will look better.
+      But again, only up to a certain limit, and then adding any more bytes will be visually unnoticeable and would be actually considered more of a waste than benefit (think about data usage and processing).
+
+      Another note, being able to decompress the video or the audio streams is not exactly related to the video elements we described above, but rather can we decompress/decode them at all or not (in case the decoder is not supported on the device; ie: the stream is compressed in a way that the platform/device/sw doesn't understand how to decompress).
+
+      Hope this helps and answers the question a little.
+    id: '1661337697239265'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkyTURZAMU1ETXpNemszTkRZAMk9Eb3hOVEV3TlRVNE5qVXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkyTVRNek56WTVOekl6T1RJMk5Ub3hOVEV3TmpFNE1EQXcZD

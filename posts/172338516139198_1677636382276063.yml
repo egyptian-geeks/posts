@@ -1,0 +1,104 @@
+---
+message: Does that mean Google can run using only 40 web servers??
+link: https://www.quora.com/Google-processes-40k-searches-per-second-On-average-a-web-server-can-handle-1000-requests-per-second-Does-that-mean-Google-can-run-using-only-40-web-servers
+from:
+  name: Ibrahim Abdelhady
+  id: '10155005083616400'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQCOX85YM9TZ9dsG&w=130&h=130&url=https%3A%2F%2Fqph.ec.quoracdn.net%2Fmain-custom-t-786-600x315-xrkeuvcslzgowwvtlbzqzkuiwipwjliz.jpeg&cfs=1&_nc_hash=AQAV9wcLqejCyZhb
+created_time: '2017-11-30T09:35:53+0000'
+updated_time: '2017-11-30T22:02:09+0000'
+name: Google processes 40k searches per second. On average, a web server can handle
+  1000 requests per second. Does that mean Google can run usi...
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1677636382276063/
+shares:
+  count: 2
+id: '172338516139198_1677636382276063'
+reactions:
+  data:
+  - id: '1515946401836401'
+    name: Mohammed Essehemy
+    type: LIKE
+  - id: '2005572703101870'
+    name: Ayuob Shnab
+    type: LIKE
+  - id: '1384603441685766'
+    name: Essam Tarik
+    type: LIKE
+  - id: '1544104592377915'
+    name: Mohamed Naser Amein
+    type: LIKE
+  - id: '1808404355859805'
+    name: Ahmed Saeed
+    type: LIKE
+  - id: '1641565752594739'
+    name: Ahmed Aziz
+    type: LIKE
+  - id: '10155926704141777'
+    name: Ahmed Abdelaziz
+    type: LIKE
+  - id: '1184873034981427'
+    name: George Ghaleb
+    type: LIKE
+  - id: '10159750516265408'
+    name: Karim Ehab Mesallam
+    type: LIKE
+  - id: '1816938458380865'
+    name: Amr Anwar
+    type: LIKE
+  - id: '1999765416908747'
+    name: Ahmed Khalifa
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlOak14TmpjME56TXpPakUxTVRJeE5ESTJORFE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTJNalU1TWpNNE9EVXlPakUxTVRJd016VXlOVEk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-11-30T09:36:28+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      Short answer: No.
+      There are good explanations in the link.
+    id: '1677665565606478'
+  - created_time: '2017-11-30T12:30:06+0000'
+    from:
+      name: Ahmad Hisham
+      id: '10159889607765058'
+    message: 40 servers are enough if they are all returning the same results page
+      ... so the first one in the second searches for "Apple tart recipe" ... and
+      then anybody looking for any other thing like the "President of the United States"
+      will get the Apple Tart recipe results.
+    id: '1677792302260471'
+  - created_time: '2017-11-30T22:02:06+0000'
+    from:
+      name: Usama Fayez
+      id: '10155807421830280'
+    message: |-
+      By the way, this number seems way lower than what Google should be receiving per second.
+
+      Think about how you would design Google, and you would find that the answer is way wrong.
+    id: '1678255995547435'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkzTnpZAMk5UVTJOVFl3TmpRM09Eb3hOVEV5TURNME5UZAzQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkzT0RJMU5UazVOVFUwTnpRek5Ub3hOVEV5TURjNU16STMZD
+attachments:
+  data:
+  - description: 'Answer (1 of 4): There''s nothing wrong with your math. But, the
+      stated query rate is way lower than the actual query rate. I can''t give real
+      numbers, unfortunately. But a simple estimate should show that it can''t possibly
+      be that low. It is true that there are surprisingly few web servers at Go...'
+    media:
+      image:
+        height: 315
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQBJ5QBLvegAJ_Z9&w=720&h=720&url=https%3A%2F%2Fqph.ec.quoracdn.net%2Fmain-custom-t-786-600x315-xrkeuvcslzgowwvtlbzqzkuiwipwjliz.jpeg&cfs=1&_nc_hash=AQAdVxdfWb8P7SFX
+        width: 315
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.quora.com%2FGoogle-processes-40k-searches-per-second-On-average-a-web-server-can-handle-1000-requests-per-second-Does-that-mean-Google-can-run-using-only-40-web-servers&h=ATMLsb2V5uiDiJBvAtjCaxG9EVI--wIfjHT_-NTmjgke2BdLglQ51jp7K_R2iNOKcP03_ICM5OqvSaMB2SRJ2BDyekqSe1CyDX2e&s=1&enc=AZNDQkbYVOceJ2FSJhw_BPRFoD-SOsdGja5bX0uUpmfE-ibI_QCYYucUdzU5zB4tLf01iHVil1pN2CYFzsG85LCC
+    title: Google processes 40k searches per second. On average, a web server can
+      handle 1000 requests per second. Does that mean Google can run usi...
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.quora.com%2FGoogle-processes-40k-searches-per-second-On-average-a-web-server-can-handle-1000-requests-per-second-Does-that-mean-Google-can-run-using-only-40-web-servers&h=ATMLsb2V5uiDiJBvAtjCaxG9EVI--wIfjHT_-NTmjgke2BdLglQ51jp7K_R2iNOKcP03_ICM5OqvSaMB2SRJ2BDyekqSe1CyDX2e&s=1&enc=AZNDQkbYVOceJ2FSJhw_BPRFoD-SOsdGja5bX0uUpmfE-ibI_QCYYucUdzU5zB4tLf01iHVil1pN2CYFzsG85LCC

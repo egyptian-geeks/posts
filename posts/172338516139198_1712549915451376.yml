@@ -1,0 +1,85 @@
+---
+message: "https://spectreattack.com/ \nهو ايه القصه دى انا مش فاهم حاجه"
+link: https://spectreattack.com/
+from:
+  name: Mahmoud Hozayen
+  id: '427358481016891'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQD7ylOQHOoMGJvv&w=130&h=130&url=https%3A%2F%2Fspectreattack.com%2Fimages%2Fmeltdown.min.svg&cfs=1&_nc_hash=AQB81xBlIMsY7AlT
+created_time: '2018-01-05T07:54:46+0000'
+updated_time: '2018-01-05T13:22:18+0000'
+name: Meltdown and Spectre
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1712549915451376/
+shares:
+  count: 2
+id: '172338516139198_1712549915451376'
+reactions:
+  data:
+  - id: '2024769261133314'
+    name: محمد الفاتح
+    type: LIKE
+  - id: '1853777334634345'
+    name: Mohamed Fathalla
+    type: LIKE
+  - id: '1824520801181678'
+    name: Hamad Isht
+    type: WOW
+  - id: '10154950939266621'
+    name: Ahmed Mahmoud
+    type: LIKE
+  - id: '1697585026964846'
+    name: Muhammed Nasser
+    type: LIKE
+  - id: '10160329792615179'
+    name: Omda Emad
+    type: LIKE
+  - id: '802499643272475'
+    name: Mohamad Shater
+    type: WOW
+  - id: '1553694648077470'
+    name: Asma Rashwan
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTRNREEzTnpnNE5EVTJPakUxTVRVeE9EQTROamM2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXpNVEE0TkRrME1UazJPakUxTVRVeE5EQTBPVGM2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2018-01-05T08:00:13+0000'
+    from:
+      name: Mohamed Jadelrab
+      id: '10156401691426535'
+    message: باختصار، حد في جوجل اكتشف ان معالجات انتل فيها مشكلة انها مش بتفصل بين
+      معالجة معطيات تطبيقات مساحة النظام system space وتطبيقات مساحة المستخدم user
+      space وبالتالي بيحصل امكانية ان حد يسرق معلومات المفروض انها تبقى حكر على النظام
+      من خلال تطبيقات بتتشغل من ال user space .. المشكلة دي حلها هيقلل أداء المعالجات
+      بنسب توصل ل ٣٠ ٪ .. يعني لو انت كنت اشتريت بروسيسور i3 مثلا فممكن اداءه بعد
+      حل المشكلة يوصل انه يكون زي ال celeron عادي .. و المشكلة ظهرت في كل أنظمة التشغيل
+      تقريبا
+    id: '1712569888782712'
+  - created_time: '2018-01-05T13:22:17+0000'
+    from:
+      name: Mostafa Muhammad
+      id: '10155787111376210'
+    message: It would be interesting to know for how long did the NSA know about this.
+    id: '1712794642093570'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN4TWpVMk9UZAzRPRGM0TWpjeE1qb3hOVEUxTVRNNU1qRTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN4TWpjNU5EWTBNakE1TXpVM01Eb3hOVEUxTVRVNE5UTTMZD
+attachments:
+  data:
+  - description: Meltdown and Spectre exploit critical vulnerabilities in modern processors.
+      These hardware bugs allow programs to steal data which is currently processed
+      on the computer. While programs are typically not permitted to read data from
+      other programs, a malicious program can exploit Meltdown and Spectre...
+    media:
+      image:
+        height: 720
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQCwrkAVxfKg0Gkg&w=720&h=720&url=https%3A%2F%2Fspectreattack.com%2Fimages%2Fmeltdown.min.svg&cfs=1&_nc_hash=AQDlNdleWHSjhYoa
+        width: 720
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fspectreattack.com%2F&h=ATPzd7Yr3DPU03T67PL4RbeJ7rWrS2w3_Nd3stNFln9UCSuAzvAflGzsMC0DAxNoKxA5y3um1-W0IMTzZ1HUp6IT0MzfPd1h8-gz&s=1&enc=AZNgXPMkRY15Btb1g0Ca1qimI1otAKWO3UbjrFLeGPorppWie7tYLNhxuNUGWse8f5y_TjO4v7NtUwUhTDpkKK8I
+    title: Meltdown and Spectre
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fspectreattack.com%2F&h=ATPzd7Yr3DPU03T67PL4RbeJ7rWrS2w3_Nd3stNFln9UCSuAzvAflGzsMC0DAxNoKxA5y3um1-W0IMTzZ1HUp6IT0MzfPd1h8-gz&s=1&enc=AZNgXPMkRY15Btb1g0Ca1qimI1otAKWO3UbjrFLeGPorppWie7tYLNhxuNUGWse8f5y_TjO4v7NtUwUhTDpkKK8I

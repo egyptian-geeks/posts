@@ -1,0 +1,58 @@
+---
+message: "please guys i need some help over here as this is js function for zoom in/out
+  and not working \n  \n  var svg = document.getElementById('egypt-map'),\n         zoomIn=
+  document.getElementById('zoom-in'),\n          zoomOut=document.getElementById('zoom-out');\n\nfunction
+  initZooming(count){\nif(count <= 1 ){\n    zoomIn.onclick=function(){\n        return
+  count++;\n        document.getElementById('demo').innerHTML = count;\n        svg.style.transform=\"scale(\"+
+  count + \")\";\n        if(count >= 4){\n            this.setAttribute('onclick','return
+  false')\n        }\n    }\n\n}else if(count > 1){\n    zoomOut.onclick=function(){\n
+  \       return count--;\n        document.getElementById('demo').innerHTML = count;\n
+  \       svg.style.transform=\"scale(\"+ count + \")\";  \n    }\n}\n}\ninitZooming(1)"
+from:
+  name: Mahmoud Mohamed Zakria
+  id: '10215522601159616'
+type: status
+created_time: '2015-11-15T16:37:00+0000'
+updated_time: '2015-11-15T19:08:00+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1032648946774813/
+id: '172338516139198_1032648946774813'
+comments:
+  data:
+  - created_time: '2015-11-15T18:36:24+0000'
+    from:
+      name: Mohamed Abdel Aty
+      id: '10215620557573580'
+    message: Facebook is not the best place for you to paste your code and expect
+      people to be able to read into it  , try something like codepen.io or you can
+      switch to a more (question-answer) website like stackoverflow
+    id: '1032692563437118'
+  - created_time: '2015-11-15T19:03:55+0000'
+    from:
+      name: Mahmoud Mohamed Zakria
+      id: '10215522601159616'
+    message: "I put it in stackoverflow before here but i have a rush and tomorrow
+      deadline , anyway i've solved it \nThank you"
+    id: '1032700726769635'
+  - created_time: '2015-11-15T19:04:27+0000'
+    from:
+      name: Mohamed Abdel Aty
+      id: '10215620557573580'
+    message: good  :)
+    id: '1032700843436290'
+  - created_time: '2015-11-15T19:05:27+0000'
+    from:
+      name: Mohamed Abdel Aty
+      id: '10215620557573580'
+    message: i suggest you edit your answer in stackoverflow and share the link here
+    id: '1032701136769594'
+  - created_time: '2015-11-15T19:08:00+0000'
+    from:
+      name: Mahmoud Mohamed Zakria
+      id: '10215522601159616'
+    message: Thanks, i thought about delete the post but i want to see a different
+      directions and thoughts specially in javascript
+    id: '1032701913436183'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF6TWpZANU1qVTJNelF6TnpFeE9Eb3hORFEzTmpFeU5UZAzAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF6TWpjd01Ua3hNelF6TmpFNE16b3hORFEzTmpFME5EZA3cZD

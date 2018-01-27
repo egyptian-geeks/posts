@@ -1,0 +1,75 @@
+---
+message: "Hello Everybody, I need some help from an Expert Ubuntu Web Server administrator
+  to help me optimize my DigitalOcean droplet performance any recommendations?\n\nDroplet
+  specs:\n2 Core processor\n2 GB memory \n40 GB SSD\n\n## Server Environment ##\n\nServer
+  Info:              Apache/2.4.20 (Ubuntu)\nDefault Timezone:         UTC\nMySQL
+  Version:            5.5.52-0ubuntu0.14.04.1\n\nRunning 2 WordPress websites\n\n--
+  PHP Configuration\nPHP Version:              7.0.9-1+deb.sury.org~trusty+1\nPHP
+  Post Max Size:        32M\nPHP Time Limit:           30\nPHP Max Input Vars:       1000\nPHP
+  Safe Mode:            No\nPHP Memory Limit:         128M\nPHP Upload Max Size:      24M\nPHP
+  Upload Max Filesize:  24M\nPHP Allow URL File Open:  Yes\n\nThanks"
+from:
+  name: Nabeel Molham
+  id: '10214708401524482'
+type: status
+created_time: '2016-09-27T17:54:01+0000'
+updated_time: '2016-09-28T10:16:14+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1243200949052944/
+id: '172338516139198_1243200949052944'
+reactions:
+  data:
+  - id: '10215070655377585'
+    name: Mahmoud Kandeel
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRFMk5qZA3hNVFkzTmpveE5EYzFNRE15T1RrM09qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRFMk5qZA3hNVFkzTmpveE5EYzFNRE15T1RrM09qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2016-09-27T18:00:40+0000'
+    from:
+      name: Ahmed Mahmoud
+      id: '10155586124501339'
+    message: انت بتستخدم اى نوع ن انواع السيرفرات (اباتشى و لا انجن اكس و لا لايت
+      سبيد)
+    id: '1243204455719260'
+  - created_time: '2016-09-27T18:02:48+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: انا لست هذا الخبير، لكن على كل حال مبدأيا عدل الموضوع واذكر خواص ال droplet
+      الي انت شغال بيها.
+    id: '1243205625719143'
+  - created_time: '2016-09-27T18:02:56+0000'
+    from:
+      name: Ahmed Tohamy
+      id: '10156144069256458'
+    message: You need me to do it for you or tell you how to do it... both are fine
+      btw
+    id: '1243205689052470'
+  - created_time: '2016-09-27T20:06:31+0000'
+    from:
+      name: Muhammed Nagy
+      id: '495080930892199'
+    message: Use nginx instead of Apache and use cloud flare
+    id: '1243287982377574'
+  - created_time: '2016-09-27T22:57:45+0000'
+    from:
+      name: Mohammed Al Ashaal
+      id: '965203406986813'
+    message: |-
+      - use nginx + php-fpm
+      - config fpm to be scalable
+      - optimize your MySQL threads
+      - use redis
+      - use opcache
+      - use fcgi cache from nginx
+      there are more and more you can do based on your requirements .
+      ---
+      I have a client with droplet just like yours and runs more than 4 sites with no performance problems .
+    id: '1243405489032490'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkwTXpJd05EUTFOVGN4T1RJMk1Eb3hORGMwT1RrNU1qUXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkwTXpRd05UUTRPVEF6TWpRNU1Eb3hORGMxTURFM01EWTIZD

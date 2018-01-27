@@ -1,0 +1,99 @@
+---
+message: best/fastest solution for cloning huge database in cloud projects?
+from:
+  name: Askao Ahmed Saad
+  id: '10213786857415913'
+type: status
+created_time: '2017-07-09T15:41:24+0000'
+updated_time: '2017-07-11T08:40:08+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1542259582480411/
+id: '172338516139198_1542259582480411'
+reactions:
+  data:
+  - id: '1031877253626444'
+    name: Osama Mohamed
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTBNVEkxTXpjek1qQXdPakUwT1RrMk1UWTNPRFE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTBNVEkxTXpjek1qQXdPakUwT1RrMk1UWTNPRFE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-07-09T16:12:59+0000'
+    from:
+      name: Osama Mohamed
+      id: '1031877253626444'
+    message: "cloning from other country \U0001F602"
+    id: '1542288469144189'
+  - created_time: '2017-07-09T16:34:15+0000'
+    from:
+      name: Ahmed Aboulenein
+      id: '10160047384135438'
+    message: Please share the cloud and database details so people may try to suggest.
+    id: '1542304622475907'
+  - created_time: '2017-07-09T19:21:03+0000'
+    from:
+      name: Askao Ahmed Saad
+      id: '10213786857415913'
+    message: Aws cloud provider , mysql database contains about 300 tables , some
+      of them contains data.
+    id: '1542507502455619'
+  - created_time: '2017-07-09T20:30:30+0000'
+    from:
+      name: Ahmed Aboulenein
+      id: '10160047384135438'
+    message: RDS or you have your own installation?
+    id: '1542558612450508'
+  - created_time: '2017-07-09T20:31:41+0000'
+    from:
+      name: Askao Ahmed Saad
+      id: '10213786857415913'
+    message: My own installation
+    id: '1542559629117073'
+  - created_time: '2017-07-09T20:39:25+0000'
+    from:
+      name: Ahmed Aboulenein
+      id: '10160047384135438'
+    message: |-
+      You have a few options:
+      1. Copy data files.
+      2. Dump in SQL file then update the other instance from the SQL file. Run on the local machine to avoid network latency.
+
+      For huge files, I'd go for option 1. I will create an identical DB under same name in the new one. Then replace the data files in the destination by the origin data files. Before copying, both DB engines should be shut down so they don't write to your files while copying.
+    id: '1542565335783169'
+  - created_time: '2017-07-09T22:23:47+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: |-
+      SQL dumbs works if you think you can do it better than the cloud provider and hosted your own "which you'd not."
+      if you're using a manged service, most probably there's a very simple way to do it.
+    id: '1542646492441720'
+  - created_time: '2017-07-10T06:26:14+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: whats your main problem? does mysql dump the command fails? or does the
+      ssh interactive session expires before mysql ends the dump process?
+    id: '1542936762412693'
+  - created_time: '2017-07-10T11:12:34+0000'
+    from:
+      name: Mahmoud Tantawy
+      id: '10156115350739764'
+    message: |-
+      This is an idea i read once but never tried myself:
+      1. Create new DB instance
+      2. Configure new DB instance to have master-slave relationship with existing instance (existing should be master)
+      3. Use the new DB instance to create the backup, so that you don't affect the original instance
+      Tip: You can even cancel relationship between instances before creating the backup to make sure original instance is not affected by any means.
+    id: '1543097145729988'
+  - created_time: '2017-07-11T01:38:43+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: sudo mv /path/to/db /dev/null
+    id: '1543716182334751'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUwTWpJNE9EUTJPVEUwTkRFNE9Ub3hORGs1TmpFMk56YzUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUwTXpjeE5qRTRNak16TkRjMU1Ub3hORGs1TnpNM01USXoZD

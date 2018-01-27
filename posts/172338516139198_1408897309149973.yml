@@ -1,0 +1,80 @@
+---
+message: "Hi guys,\n\nI've an EC2 instance (ubuntu based) with a root volume.\n\n1-
+  I've created a snapshot of the root volume. \n2- Then created a new volume from
+  the snapshot. \n3- Then created a new empty volume and formatted it as ext4 file
+  system. \n4- Then copied all the files from the snap volume to the new empty volume
+  via \"sudo rsync -aHAXxSP\". \n5- Then attached the new volume as root volume \"/dev/sda1\".
+  \n\nThe problem was that the instance is getting \"initialising\" state then turing
+  to \"stop\" state. anyone have any clue?"
+from:
+  name: Alaa Attya Mohamed
+  id: '10212906316506161'
+type: status
+created_time: '2017-03-04T15:04:19+0000'
+updated_time: '2017-03-04T21:00:29+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1408897309149973/
+id: '172338516139198_1408897309149973'
+reactions:
+  data:
+  - id: '1772542006152666'
+    name: Mohamed AbuIssa
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhPVEEyTlRBNU16RXlPakUwT0RnMk5EQXlPRFE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXhPVEEyTlRBNU16RXlPakUwT0RnMk5EQXlPRFE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-03-04T15:06:11+0000'
+    from:
+      name: Morad Edwar
+      id: '10215772499725897'
+    message: open the console or whatever its name in EC2 to see what happens while
+      the booting
+    id: '1408908035815567'
+  - created_time: '2017-03-04T15:33:33+0000'
+    from:
+      name: Ahmed M. Araby
+      id: '10155547863649263'
+    message: "You need to install grub boot loader \nCoping files will not install
+      the boot loader"
+    id: '1408953915810979'
+  - created_time: '2017-03-04T15:34:35+0000'
+    from:
+      name: Ahmed M. Araby
+      id: '10155547863649263'
+    message: "I mean the boot loader itself , not the grub package , \nThe command
+      that do this is grub-install ithink"
+    id: '1408954525810918'
+  - created_time: '2017-03-04T15:34:49+0000'
+    from:
+      name: Mohamed Ahmed
+      id: '385696705226073'
+    message: Did you make sure that you de attached the original volume as maybe the
+      both trying to access at the same time
+    id: '1408954682477569'
+  - created_time: '2017-03-04T15:36:26+0000'
+    from:
+      name: Mohamed El-Sayed
+      id: '10155182529813309'
+    message: After doing the rsync, find a tutorial on how to recover grub installation
+      and apply it before booting for the volume.. I did this several times, but I
+      can't find a place that has all the steps required ..
+    id: '1408955419144162'
+  - created_time: '2017-03-04T15:43:33+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: Bootloader missing
+    id: '1408960439143660'
+  - created_time: '2017-03-04T16:02:51+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: El 3'reeb fl mwdoo3 en el volume eli created mn el snapshot by boot kwyes
+      w sha3'al 7alawa
+    id: '1408975392475498'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF3T0Rrd09EQXpOVGd4TlRVMk56b3hORGc0TmpNNU9UY3kZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF3T0RrM05UTTVNalEzTlRRNU9Eb3hORGc0TmpRek16Y3kZD

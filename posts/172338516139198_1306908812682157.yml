@@ -1,0 +1,50 @@
+---
+message: "Nice article. It shows the ability to use a single model to translate language
+  pairs that the model has never been trained for. For example, training the model
+  with Korean<->English, and Japanese<->English, allows direct (zero-shot) translation
+  between Korean<->Japanese, without changing the model. \n\nThe article cites this
+  paper: https://arxiv.org/pdf/1611.04558v1.pdf and they have nice visualizations
+  and possibly new insights about what the model is actually \"learning\" about the
+  language (semantics vs direct phrase/phrase translation). Very interesting. \n\nhttps://research.googleblog.com/2016/11/zero-shot-translation-with-googles.html"
+link: https://research.googleblog.com/2016/11/zero-shot-translation-with-googles.html
+from:
+  name: Mohamed Tarek El Haddad
+  id: '10159750515025408'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQBCyHAihMf_alKW&w=130&h=130&url=https%3A%2F%2F1.bp.blogspot.com%2F-jwgtcgkgG2o%2FWDSBrwu9jeI%2FAAAAAAAABbM%2F2Eobq-N9_nYeAdeH-sB_NZGbhyoSWgReACLcB%2Fw1200-h630-p-nu%2Fimage01.gif&cfs=1&_nc_hash=AQAK9isttd9TXMJW
+created_time: '2016-11-28T18:38:30+0000'
+updated_time: '2016-11-28T18:38:31+0000'
+name: Zero-Shot Translation with Google’s Multilingual Neural Machine Translation
+  System
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1306908812682157/
+id: '172338516139198_1306908812682157'
+reactions:
+  data:
+  - id: '2447460971946343'
+    name: Mohamed Hisham
+    type: LIKE
+  - id: '1679860805369262'
+    name: Abdelrahman Ghanem
+    type: LIKE
+  - id: '10159894024455174'
+    name: Hazem Salem
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdORGN6T1RJeE1Ea3dPakUwT0RBek9UazVNemM2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: Tmprek9ESTFNVGN6T2pFME9EQXpOakUwTVRRNk1qVTBNRGsyTVRZAeE13PT0ZD
+attachments:
+  data:
+  - description: Posted by Mike Schuster (Google Brain Team), Melvin Johnson (Google
+      Translate) and Nikhil Thorat (Google Brain Team) In the last 10 years,...
+    media:
+      image:
+        height: 421
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQB80ZsYvs5ezrQE&w=720&h=720&url=https%3A%2F%2F1.bp.blogspot.com%2F-jwgtcgkgG2o%2FWDSBrwu9jeI%2FAAAAAAAABbM%2F2Eobq-N9_nYeAdeH-sB_NZGbhyoSWgReACLcB%2Fw1200-h630-p-nu%2Fimage01.gif&cfs=1&_nc_hash=AQAS2hDy2SuumgNi
+        width: 421
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fresearch.googleblog.com%2F2016%2F11%2Fzero-shot-translation-with-googles.html&h=ATP4UaqnMlNS_vXsb7INtSrxkywjTZoBXzY5JfJdDIYbrv6xOMZmFB6m8tLnjSdZ04wJtB3M6Mwz4ghZ6U6sDnXXYgjH38H7lmze&s=1&enc=AZNAdaw7D6uqbknssjuOtt1IUceebkPkgiUh3tpieWoZKaJk775UTGYu4lMfBWrl4965YMdKzrc06MTXhAOAEnlL
+    title: Zero-Shot Translation with Google’s Multilingual Neural Machine Translation
+      System
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fresearch.googleblog.com%2F2016%2F11%2Fzero-shot-translation-with-googles.html&h=ATP4UaqnMlNS_vXsb7INtSrxkywjTZoBXzY5JfJdDIYbrv6xOMZmFB6m8tLnjSdZ04wJtB3M6Mwz4ghZ6U6sDnXXYgjH38H7lmze&s=1&enc=AZNAdaw7D6uqbknssjuOtt1IUceebkPkgiUh3tpieWoZKaJk775UTGYu4lMfBWrl4965YMdKzrc06MTXhAOAEnlL

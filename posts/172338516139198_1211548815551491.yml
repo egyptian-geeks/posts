@@ -1,0 +1,77 @@
+---
+message: |-
+  I want to ask networking experts here: Is there a possibility that our problem with SSH is related to unstable time zone problems, rather than speculations of MITM-attacks or deep packet inspection?
+
+  EDIT: it is actually DPI, see comments :S
+from:
+  name: Ahmed Samir
+  id: '10159800858645702'
+type: status
+created_time: '2016-08-22T23:15:36+0000'
+updated_time: '2016-08-25T23:01:58+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1211548815551491/
+id: '172338516139198_1211548815551491'
+reactions:
+  data:
+  - id: '10155008686891793'
+    name: Sherif Medhat
+    type: LIKE
+  - id: '1759355620795625'
+    name: Muhannad Abdelrazek
+    type: LIKE
+  - id: '10154904189965670'
+    name: Ahmad Alfy
+    type: LIKE
+  - id: '10156649659196002'
+    name: Muhammad Saleh
+    type: LIKE
+  - id: '1012026932279218'
+    name: Ahmed Mohamed Abd El-Hamid
+    type: LIKE
+  - id: '1466247800164499'
+    name: Mosaab Ahmed
+    type: LIKE
+  - id: '10215339863195300'
+    name: Mohamed Fergany
+    type: LIKE
+  - id: '1547297148718242'
+    name: Sherif Abdel-Naby
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRZAeU1ERTJOemt5T2pFME56RTVOakUwTmpjNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQXpNVE01TVRReE1ETXhPakUwTnpFNU1EYzVPVEU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-08-23T11:39:51+0000'
+    from:
+      name: Ahmed Samir
+      id: '10159800858645702'
+    message: |-
+      Ok, after communicating with a friend today, it is indeed DPI>
+      "https is disabled when they fail to DPI it. If you use a strong certificate 256 bit or more and you're going through CloudFlare, you're fucked up. if they can't spoof SSL connection and DPI it, you're screwed, they block it. I have official communication emails with Digital Ocean for example, addressing this and stating that they tried to communicate with the Egyptian government but they're not responsive. I tried multiple ISPs."
+    id: '1211971042175935'
+  - created_time: '2016-08-23T12:05:10+0000'
+    from:
+      name: Nour Eldin
+      id: '10159866697310511'
+    message: |-
+      "https is disabled when they fail to DPI "
+      احا !
+    id: '1211997555506617'
+  - created_time: '2016-08-23T12:05:23+0000'
+    from:
+      name: Nour Eldin
+      id: '10159866697310511'
+    message: so you are punished for bein so secure :D
+    id: '1211997638839942'
+  - created_time: '2016-08-25T23:01:56+0000'
+    from:
+      name: Omar Hossam Ahmed
+      id: '10156071955196730'
+    message: Mohamed Sedky
+    id: '1214494315256941'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl4TVRrM01UQTBNakUzTlRrek5Ub3hORGN4T1RVeU16a3gZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl4TkRRNU5ETXhOVEkxTmprME1Ub3hORGN5TVRZAMk1URTIZD

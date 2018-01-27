@@ -1,0 +1,69 @@
+---
+message: |-
+  سؤال هو انا لو قدرت Compiled .NET Code to Java Code بحيث اقدر اشغله من خلال OpenJDK هل ده اني خرجت فعليا برة ال CLR الكود بتاعي بقي Cross Platform واقدر اشغله علي اي Platform.
+
+  ثانيا هل انشاء تولز تجمع Set of Runtime with various Technology لكن تحت Umbrella خاصة بيه ثانيا انا شغال علي اني اضيف ليها Syntax and Grammar خاصين بحيث اسهل علي المطور بدل ما يكتب ب كل التكنولوجي ديه يبقي تكنولوجي واحدة فيها كل التكنولوجي ديه.
+
+  فهل ده هيكون مجدي؟
+from:
+  name: احمد قرواش
+  id: '1561022257326859'
+type: status
+created_time: '2017-05-21T17:11:45+0000'
+updated_time: '2017-05-21T18:32:43+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1489417761097927/
+id: '172338516139198_1489417761097927'
+reactions:
+  data:
+  - id: '10154984458877397'
+    name: Ahmed Baher
+    type: LIKE
+  - id: '1999765416908747'
+    name: Ahmed Khalifa
+    type: LIKE
+  - id: '600738743605000'
+    name: علي أحمد علي
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRNME1EVTNNemsyT2pFME9UVTBNVGcwTlRJNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01ERXdNRFkyTXpreE1UY3dPakUwT1RVek9EY3hORGM2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-05-21T17:17:56+0000'
+    from:
+      name: Mohamed Abdelghani
+      id: '1854642424546313'
+    message: You can create cross platform apps  using .net core,  Mono, MvvmCross
+    id: '1489422431097460'
+  - created_time: '2017-05-21T17:38:24+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: لا، لان اغلب الحاجات اللي حتلاقيها في .Net framework و مش في ال Core
+      حتبقى معتمدة على خدمات و API's في الويندوز نفسها زي مكتبات ال UI
+    id: '1489437541095949'
+  - created_time: '2017-05-21T17:39:28+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: الكلام ده معمول بالفعل بس لازم يحصل mapping لل libraries شوف هنا http://xmlvm.org/clr2jvm/
+    id: '1489438521095851'
+  - created_time: '2017-05-21T17:41:13+0000'
+    from:
+      name: Tony Raoul Iscaros
+      id: '10156165643313420'
+    message: "Llvm to jvm ? Or a .net language to java language ? \n\nI think what
+      you are trying to do would be completely avoided by using interpolation .\nFor
+      example using jar files from a .net language running in mono/.net core"
+    id: '1489439501095753'
+  - created_time: '2017-05-21T18:17:19+0000'
+    from:
+      name: Bassam Abd Elhamid
+      id: '1955441501387657'
+    message: http://stackoverflow.com/questions/78811/is-there-an-effective-tool-to-convert-c-sharp-code-to-java-code
+    id: '1489469487759421'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE0T1RReU1qUXpNVEE1TnpRMk1Eb3hORGsxTXpnM01EYzMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE0T1RRMk9UUTROemMxT1RReU1Ub3hORGsxTXprd05qUXkZD

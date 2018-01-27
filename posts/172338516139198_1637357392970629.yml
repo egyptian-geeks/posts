@@ -1,0 +1,27 @@
+---
+message: "لو سمحت يا geeks \nهوا انا لو بعمل scanning على موقع علشان اجيب UI bugs
+  هوا ده كده يبقى xss\nاو انا بعمل ده عن طريق xss vulnerability tool ؟"
+from:
+  name: Evram Karam
+  id: '1552537434781683'
+type: status
+created_time: '2017-10-19T18:01:31+0000'
+updated_time: '2017-10-20T17:28:01+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1637357392970629/
+id: '172338516139198_1637357392970629'
+comments:
+  data:
+  - created_time: '2017-10-19T18:24:46+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: هو انا مش فاهم السؤال ؟ ال XSS ده نوع Vulnerability و اللي بيبقى عن طريق
+      حقن JavaScript مش جزء من الموقع الاصلي و بيبقى ليه كذا اسلوب اشهرهم ال reflected
+      xss و ال persisted xss الاول بيبقى غالبا عن طريق URL parameters مش متعامل معاها
+      بشكل صحيح في الكود و التاني غالبا بيبقى فورم مثلا قدرت تبعتلها ال JavaScript
+      و اتخزنت فبقت ممكن تظهر لاي حد تاني يدخل للموقع.
+    id: '1637627612943607'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl6TnpZAeU56WXhNamswTXpZAd056b3hOVEE0TkRNM05EZAzIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl6TnpZAeU56WXhNamswTXpZAd056b3hOVEE0TkRNM05EZAzIZD

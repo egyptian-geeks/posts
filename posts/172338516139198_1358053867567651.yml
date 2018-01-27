@@ -1,0 +1,37 @@
+---
+message: |-
+  Anybody here worked with Graphql before?
+  If yes i need some help with subscription types implementation in the back end.
+  I'm building my back end with c# and front end -mobile app- using react native with relay.
+  I've done queries and mutations, but can't find a good example on how to make subscriptions in the back end.
+
+  Thanks in advance
+from:
+  name: Sam Nasser
+  id: '1527143767392039'
+type: status
+created_time: '2017-01-18T15:20:11+0000'
+updated_time: '2017-01-20T00:24:35+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1358053867567651/
+id: '172338516139198_1358053867567651'
+reactions:
+  data:
+  - id: '10160074474300637'
+    name: Abeer Nassar
+    type: LIKE
+  paging:
+    cursors:
+      before: T0RjMU56QXdOak0yT2pFME9EUTROekUzTmpFNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: T0RjMU56QXdOak0yT2pFME9EUTROekUzTmpFNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-01-20T00:24:32+0000'
+    from:
+      name: Abeer Nassar
+      id: '10160074474300637'
+    message: Mahmoud Abd El-Fattah
+    id: '1359514994088205'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0xT1RVeE5EazVOREE0T0RJd05Ub3hORGcwT0RjeE9EY3kZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0xT1RVeE5EazVOREE0T0RJd05Ub3hORGcwT0RjeE9EY3kZD

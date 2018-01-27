@@ -1,0 +1,49 @@
+---
+message: |-
+  I have a question regarding document.referrer in JS. So imagine you clicked over a link from google that redirected you to another page where you called document.referral, I assume you would get something like this back: "www.google.com"
+
+  Now what if you clicked on an ad? What value would you get?
+  And what if when you were creating that google add, you listed your page as: www.mypage.com/?tag=my_tag instead of www.mypage.com
+
+  Would that tag show anywhere?
+link: https://www.google.com/
+from:
+  name: Mohamed Moshrif
+  id: '1538447102877297'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQAVr-nlBuozcG-_&w=130&h=130&url=http%3A%2F%2Fwww.google.com%2Fimages%2Fbranding%2Fgoogleg%2F1x%2Fgoogleg_standard_color_128dp.png&cfs=1&_nc_hash=AQAqUQgrwIqly1dq
+created_time: '2016-03-21T06:04:08+0000'
+updated_time: '2016-03-21T08:54:20+0000'
+name: Google
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1102864443086596/
+id: '172338516139198_1102864443086596'
+comments:
+  data:
+  - created_time: '2016-03-21T08:51:51+0000'
+    from:
+      name: Alhasan A. Al-Nasiry
+      id: '1751004338278066'
+    message: |-
+      I guess you need to grab the http referral header
+
+      Using backend languages
+    id: '1102944639745243'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV3TWprME5EWXpPVGMwTlRJME16b3hORFU0TlRVd016RXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV3TWprME5EWXpPVGMwTlRJME16b3hORFU0TlRVd016RXkZD
+attachments:
+  data:
+  - description: Search the world's information, including webpages, images, videos
+      and more. Google has many special features to help you find exactly what you're
+      looking for.
+    media:
+      image:
+        height: 128
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQDUFDzloV5RFZ_n&w=720&h=720&url=http%3A%2F%2Fwww.google.com%2Fimages%2Fbranding%2Fgoogleg%2F1x%2Fgoogleg_standard_color_128dp.png&cfs=1&_nc_hash=AQBHSVQVZLufWnap
+        width: 128
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.google.com%2F&h=ATMG3Wpts1gF5T4-m1hRkhQ05CWXhTiD1iYvdWLrJbbanEJbsgRM6zvaLTGBXmhRl4WMeHFBrFWPHNVQ-WwZL5Zakql3Ux_Ccm8B&s=1&enc=AZMCofyzIySRzvZcNeSgxZGn3b_Cl5XUKxkzMnZpIB_iTALPdj5PCUxLzZsewmLDvpobn-zKNxM1Rl-ffUf_tEjK
+    title: Google
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.google.com%2F&h=ATMG3Wpts1gF5T4-m1hRkhQ05CWXhTiD1iYvdWLrJbbanEJbsgRM6zvaLTGBXmhRl4WMeHFBrFWPHNVQ-WwZL5Zakql3Ux_Ccm8B&s=1&enc=AZMCofyzIySRzvZcNeSgxZGn3b_Cl5XUKxkzMnZpIB_iTALPdj5PCUxLzZsewmLDvpobn-zKNxM1Rl-ffUf_tEjK

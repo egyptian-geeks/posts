@@ -1,0 +1,71 @@
+---
+message: "how to make some image processing like image collage to generate new image
+  \ with JavaScript ? \ni did some search but most of people do this at back-end"
+link: https://www.facebook.com/photo.php?fbid=1869722853281462&set=gm.1490548017651568&type=3
+from:
+  name: Amr Almgwary
+  id: '1978556165731463'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/18620456_1869722853281462_8204194119934203768_n.jpg?oh=cc3ad89eb3f6920ee5aa24307e4349e4&oe=5AED323D
+created_time: '2017-05-22T20:44:17+0000'
+updated_time: '2017-05-23T01:27:14+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1490548017651568/
+id: '172338516139198_1490548017651568'
+reactions:
+  data:
+  - id: '1750532274967735'
+    name: Ahmed Moussa
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdNekk1TXpnMk5UZA3dPakUwT1RVMk9ETXlOak02TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXdNekk1TXpnMk5UZA3dPakUwT1RVMk9ETXlOak02TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-05-22T21:21:22+0000'
+    from:
+      name: Omar Negm
+      id: '1655425661170220'
+    message: JavaScript mainly is a scripting language as you know, made to be interactive
+      with web pages, so you may find it poor of that kind of functionality which
+      is already available and more improved in the procedural languages -Back-End-
+      like Java or .NET
+    id: '1490566630983040'
+  - created_time: '2017-05-22T21:24:39+0000'
+    from:
+      name: Omar Negm
+      id: '1655425661170220'
+    message: |-
+      anyway check out the features of CamanJs:
+      http://camanjs.com/
+    id: '1490567904316246'
+  - created_time: '2017-05-22T22:08:45+0000'
+    from:
+      name: Tony Raoul Iscaros
+      id: '10156165643313420'
+    message: "You can do it using canvas elements, pretty easy though.\n\nThe only
+      drawback will be speed , canvas isn't GPU accelerated.\nSo if your need require
+      performance you should Implement it with a library that supports​ webgl\n\nMay
+      I know more about your requirements to help you find a good library ? \n\nA
+      Swiss army tool I always use for that stuff is pixi.js but it is kind of overkill
+      sometimes"
+    id: '1490588780980825'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE1TURVMk5qWXpNRGs0TXpBME1Eb3hORGsxTkRnNE1EZA3oZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE1TURVNE9EYzRNRGs0TURneU5Ub3hORGsxTkRrd09USTEZD
+attachments:
+  data:
+  - description: "how to make some image processing like image collage to generate
+      new image  with JavaScript ? \ni did some search but most of people do this
+      at back-end"
+    media:
+      image:
+        height: 325
+        src: https://scontent.xx.fbcdn.net/v/t1.0-9/18620456_1869722853281462_8204194119934203768_n.jpg?oh=8a72e1e526d1762698abf8c40dcc9152&oe=5AF1CD56
+        width: 512
+    target:
+      id: '1869722853281462'
+      url: https://www.facebook.com/photo.php?fbid=1869722853281462&set=gm.1490548017651568&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=1869722853281462&set=gm.1490548017651568&type=3

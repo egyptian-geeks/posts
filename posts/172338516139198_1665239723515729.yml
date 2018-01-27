@@ -1,0 +1,101 @@
+---
+message: "Was reading about Netflix architecture, and found this interesting paragraph\n#\nDeploying
+  microservices in containers is important because it means you just need just one
+  tool to deploy everything. As long as the microservice is in a container, the tool
+  knows how to deploy it. It doesn’t matter what the container is. That said, Docker
+  seems very quickly to have become the de facto standard for containers.\n#\nDo you
+  agree?\nI remember most ppl advised me not to go docker,!\n\nAny how that lead me
+  to another very interesting post about deployment of php/nodejs app using docker
+  & setting up Semaphore for continuous deployment.. \n\nVery nice reads if you hace
+  a 20 mins you wonnt regret reading both articles :)"
+link: https://semaphoreci.com/community/tutorials/dockerizing-a-php-application
+from:
+  name: Momen Al Zalabany
+  id: '10160388991030144'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQCqY7CJNJBHtWjV&w=130&h=130&url=https%3A%2F%2Fd2l3jyjp24noqc.cloudfront.net%2Fuploads%2Fimage%2Fimg%2F479%2FDockerizing_a_PHP_Application.png&cfs=1&_nc_hash=AQAhi7GbOEwQe7dn
+created_time: '2017-11-17T23:26:04+0000'
+updated_time: '2017-11-18T10:10:54+0000'
+name: Dockerizing a PHP Application
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1665239723515729/
+shares:
+  count: 7
+id: '172338516139198_1665239723515729'
+reactions:
+  data:
+  - id: '10156115350739764'
+    name: Mahmoud Tantawy
+    type: LIKE
+  - id: '1515946401836401'
+    name: Mohammed Essehemy
+    type: LIKE
+  - id: '10156105173127334'
+    name: Khaled W. Abuelenain
+    type: LIKE
+  - id: '1958919217761339'
+    name: Mahmoud A-Azim
+    type: LIKE
+  - id: '1405843726204537'
+    name: Mohamed Osama
+    type: LIKE
+  - id: '1641565752594739'
+    name: Ahmed Aziz
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRFME5UYzVOell6T2pFMU1URXdPRGMxTnpBNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQXlNak01T1RFMk5UUXpPakUxTVRBNU5qRXpNams2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-11-18T01:12:36+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: |-
+      https://www.nginx.com/blog/microservices-at-netflix-architectural-best-practices/
+      The Netflix article
+    id: '1665357363503965'
+  - created_time: '2017-11-18T07:35:20+0000'
+    from:
+      name: Nour Haridy
+      id: '10156101857379222'
+    message: Well, nonetheless, I still think containers suck
+    id: '1665587406814294'
+  - created_time: '2017-11-18T08:00:03+0000'
+    from:
+      name: Mohamed Amgad
+      id: '10215433203563275'
+    message: What are the reasons behind not to use docker containers?
+    id: '1665602330146135'
+  - created_time: '2017-11-18T10:05:52+0000'
+    from:
+      name: Mohammed Attya
+      id: '10211091168020519'
+    message: Ahmed Samir
+    id: '1665676646805370'
+  - created_time: '2017-11-18T10:10:50+0000'
+    from:
+      name: Yasser Shaheen
+      id: '196883704381325'
+    message: "لو المشكلة في Docker نفسه , فأنا اقولك اه .. وناس كتير كمان بقت تتجه
+      لـ Kubernetes \nلكن لو المشكلة في المبدأ بتاع الـ Containers نفسه ، فياريت حضرتك
+      توضح وجهة نظر اللي قالولك لأ"
+    id: '1665679620138406'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkyTlRNMU56TTJNelV3TXprMk5Ub3hOVEV3T1RZAM05UVTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkyTlRZAM09UWXlNREV6T0RRd05qb3hOVEV3T1RrNU9EVXgZD
+attachments:
+  data:
+  - description: Learn how to leverage Docker’s advantages to easily develop and deploy
+      a PHP application to Heroku, using Semaphore for continuous deployment.
+    media:
+      image:
+        height: 710
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQByigiKt-Ws9zq5&w=720&h=720&url=https%3A%2F%2Fd2l3jyjp24noqc.cloudfront.net%2Fuploads%2Fimage%2Fimg%2F479%2FDockerizing_a_PHP_Application.png&cfs=1&_nc_hash=AQBoBwTxHCiH6GZV
+        width: 710
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fsemaphoreci.com%2Fcommunity%2Ftutorials%2Fdockerizing-a-php-application&h=ATPHahJ6lS3wjsQ_V6uRccO_1ALNyZRjWOymOvVkD0rvRjpV8hd1NAIb-UJLvkeNLtvmNM847AyLGI0DJLTFSfjuAbStaU0-E2SA&s=1&enc=AZNWsvtQNKvloTe-e06GK5--UroEn700-4tJwBznf-KZaMY4qp7OhkhR-Z43h4nZWNlENQ924uv_LYAZHqERflmr
+    title: Dockerizing a PHP Application
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fsemaphoreci.com%2Fcommunity%2Ftutorials%2Fdockerizing-a-php-application&h=ATPHahJ6lS3wjsQ_V6uRccO_1ALNyZRjWOymOvVkD0rvRjpV8hd1NAIb-UJLvkeNLtvmNM847AyLGI0DJLTFSfjuAbStaU0-E2SA&s=1&enc=AZNWsvtQNKvloTe-e06GK5--UroEn700-4tJwBznf-KZaMY4qp7OhkhR-Z43h4nZWNlENQ924uv_LYAZHqERflmr

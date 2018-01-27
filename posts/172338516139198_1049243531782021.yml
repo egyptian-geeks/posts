@@ -1,0 +1,85 @@
+---
+message: Any help with this ? Thanks in advance :)
+link: http://stackoverflow.com/questions/34392636/one-2-many-audio-streaming-via-nodejs-or-whatever
+from:
+  name: Ahmed Zain Mohammed
+  id: '10156266511868081'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQBBxyEJXpSqBr8p&w=130&h=130&url=http%3A%2F%2Fcdn.sstatic.net%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded%26a&cfs=1&_nc_hash=AQA5Q7_FL6tqp531
+created_time: '2015-12-21T19:10:46+0000'
+updated_time: '2015-12-22T19:55:57+0000'
+name: One 2 many audio streaming, via NodeJS or whatever
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1049243531782021/
+id: '172338516139198_1049243531782021'
+reactions:
+  data:
+  - id: '10155815529215590'
+    name: Taha Amin
+    type: LIKE
+  - id: '10155880569740170'
+    name: Meligy
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpFd09EYzFOVGc1T2pFME5UQTNPVFEyTVRrNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRRME9ERTFNVFk1T2pFME5UQTNOREk0TnpNNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2015-12-21T19:28:23+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      Why not use webrtc for p2p streaming to students & websockets to send recording to the server?
+
+      You can use websockets everywhere if you want.
+    id: '1049252298447811'
+  - created_time: '2015-12-21T20:04:19+0000'
+    from:
+      name: Ahmed Zain Mohammed
+      id: '10156266511868081'
+    message: |-
+      ammm, this could work, don't know why I didn't think of that, I tried to join these two things together in a one straightforward process, but I guess it's not doable! Okay, I can try this. Thanks :)
+
+      Anyone else has a take on this issue ?
+    id: '1049263945113313'
+  - created_time: '2015-12-21T20:06:40+0000'
+    from:
+      name: Ahmed Zain Mohammed
+      id: '10156266511868081'
+    message: Just to be sure, you mean that I should do the broadcasting via WebRTC,
+      but ALSO record the broadcasting aside and store it to desk after the it's over,
+      right ?
+    id: '1049264611779913'
+  - created_time: '2015-12-21T20:52:53+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: https://github.com/Computician/WebSocketWebRTCRecorders
+    id: '1049286295111078'
+  - created_time: '2015-12-22T19:55:56+0000'
+    from:
+      name: Ahmed Zain Mohammed
+      id: '10156266511868081'
+    message: Seams like I will go old school on this; I will be using IceCast, easy
+      to setup and deploy.
+    id: '1049772221729152'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEEwT1RJMU1qSTVPRFEwTnpneE1Ub3hORFV3TnpJMk1UQXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEEwT1RjM01qSXlNVGN5T1RFMU1qb3hORFV3T0RFME1UVTMZD
+attachments:
+  data:
+  - description: 'For sometime now I''ve been trying to do something that I never
+      thought that it would be that hard: audio streaming. My objective is simple;
+      a simple web app through which a certain someone can clic...'
+    media:
+      image:
+        height: 316
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQB5vW2ybah25rk5&w=720&h=720&url=http%3A%2F%2Fcdn.sstatic.net%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded%26a&cfs=1&_nc_hash=AQDX5paqA33iQdyD
+        width: 316
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F34392636%2Fone-2-many-audio-streaming-via-nodejs-or-whatever&h=ATMw76Xk0rYQra00mslFNxLJvHYVecxPyx-IZ7LblGtTPXfYFT0m06YiFORkH2RX02Wt9ovAX0bzr6mhJsKNC16sP7WGQVUrR-ij&s=1&enc=AZN_FjW_Ohd-ey49LuVZ1Uoxhe0IewQo5alHnxQk9sCtXXJeueSI5V4b92QmBp10MqEsZPYR9kaxJEomkSlhNlO9
+    title: One 2 many audio streaming, via NodeJS or whatever
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F34392636%2Fone-2-many-audio-streaming-via-nodejs-or-whatever&h=ATMw76Xk0rYQra00mslFNxLJvHYVecxPyx-IZ7LblGtTPXfYFT0m06YiFORkH2RX02Wt9ovAX0bzr6mhJsKNC16sP7WGQVUrR-ij&s=1&enc=AZN_FjW_Ohd-ey49LuVZ1Uoxhe0IewQo5alHnxQk9sCtXXJeueSI5V4b92QmBp10MqEsZPYR9kaxJEomkSlhNlO9

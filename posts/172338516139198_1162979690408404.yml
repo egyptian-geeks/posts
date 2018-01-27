@@ -1,0 +1,50 @@
+---
+message: |+
+  Domain Driven Design Question: Hydrating versus Injecting
+  ---------------------------------------------------------------------------
+
+  Should I hydrate the Posts into the Author ( Aggregate Root ) when I reconstruct the Author to enforce the Membership invariants Or It will be fine to Inject Specification Object into the Author to check out the Posts Count when the Author needs to do so.
+
+  Note:
+  --------
+  I'm not using ORM or Lazy loading
+
+  Scenario
+  -------------
+  1. Given an Author as an Aggregate Root
+  2. Author Can Write Posts
+  3. Author cannot write unlimited Posts and the Author will fall under one of these memberships:
+
+  Golden: Can Write up to 1.000.000 Posts
+  Silver: Can Write up to 500.000 Posts
+  Bronze: Can Write up to 300.000 Posts
+
+  4. The Author's Membership will be checked when the Author writes a new Post to enforce invariants.
+  5. Post will be created Or Exception will be thrown to indicate that the Author has exceed his Membership limitation.
+
+  My Pseudo Code:
+  -----------------------
+
+link: https://gist.github.com/nezarfadle/782babb83e22cdc1354930656c34d6dc
+from:
+  name: Sarab Alzaman
+  id: '10154599440254364'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQBm8rq1ZJSUU8HY&w=130&h=130&url=https%3A%2F%2Favatars2.githubusercontent.com%2Fu%2F6154103%3Fv%3D3%26s%3D400&cfs=1&_nc_hash=AQAL-TASi-VAfE4n
+created_time: '2016-06-16T04:26:25+0000'
+updated_time: '2016-06-16T04:26:25+0000'
+name: ddd.php
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1162979690408404/
+id: '172338516139198_1162979690408404'
+attachments:
+  data:
+  - media:
+      image:
+        height: 400
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQC0vPL5Cl--gKyC&w=720&h=720&url=https%3A%2F%2Favatars2.githubusercontent.com%2Fu%2F6154103%3Fv%3D3%26s%3D400&cfs=1&_nc_hash=AQB8VlmuRL8kd-K4
+        width: 400
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgist.github.com%2Fnezarfadle%2F782babb83e22cdc1354930656c34d6dc&h=ATP5jYE5FmP6B6ZpE25lWHokqy2NC2nenF_6K0mKI4DibahOU-4qZlNvm51UrD1g0S-rzmU_2oJJf89ti6iJwG4Ta3SzCkLoONsl&s=1&enc=AZMtjJPteheiJHIpnYfCfagQndBloOttd_3KDI42I9NT9h7oPrf3RFuiAcD7Tppn9LlUMK8C_gNBNMsZfLj0EzZG
+    title: ddd.php
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgist.github.com%2Fnezarfadle%2F782babb83e22cdc1354930656c34d6dc&h=ATP5jYE5FmP6B6ZpE25lWHokqy2NC2nenF_6K0mKI4DibahOU-4qZlNvm51UrD1g0S-rzmU_2oJJf89ti6iJwG4Ta3SzCkLoONsl&s=1&enc=AZMtjJPteheiJHIpnYfCfagQndBloOttd_3KDI42I9NT9h7oPrf3RFuiAcD7Tppn9LlUMK8C_gNBNMsZfLj0EzZG

@@ -1,0 +1,283 @@
+---
+message: "انا عندى مشكلة ديما مع ال js انا لقيتنى يحتاجها كتير فاتعلمت الاساسيات بها
+  قعدت مدة بستخدم ال jquery و بعدين ذاكرت ال anjularjs واشتغلت بيه فترة. مشكلتى الرءيسية
+  انى مش عارف ابقى احسن js ازاى. انا معقول فيها بس فى اكواد كتيييير عل github بحاول
+  افهم source code بتاعها بس مبعرفش لانه متطور جدا بالنسبالى. و بالتالى اما بتقابلنى
+  مشكلة ما بحاول الجء لاى حاجة غير ال js. \nسؤالى هنا. ازاى احسن نفسى فى الjs عشان
+  افهم اكواد الناس الى فال github. هل فى اسلوب او approach معين فى الدراسة ليها انتوا
+  بتستخدموه ؟\n و ياريت لو تذكرو الاماكن الى درستوه منها لانى تايه اوى بالنسبة لل
+  js. الكورسات كتييير و الفيديوهات اكتر و كذلك الكتب مش عارف ابدء بايه و اعمل ايه
+  بالظبط..."
+from:
+  name: Ahmed Badawy
+  id: '1596110217148252'
+type: status
+created_time: '2016-02-16T03:53:24+0000'
+updated_time: '2016-02-21T08:39:01+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1080892695283771/
+shares:
+  count: 3
+id: '172338516139198_1080892695283771'
+reactions:
+  data:
+  - id: '1420486581414414'
+    name: Mo'men Yehya
+    type: LIKE
+  - id: '10209361982760009'
+    name: Ahmed N. Asker
+    type: LIKE
+  - id: '10156161428368658'
+    name: Amr Mekkawy
+    type: LIKE
+  - id: '10203990338636211'
+    name: Abdullah El-menawy
+    type: LIKE
+  - id: '10155505766296785'
+    name: Abdallah Ali
+    type: LIKE
+  - id: '1163064820496983'
+    name: Ahmed Ayman Aladeeb
+    type: LIKE
+  - id: '1657509230977456'
+    name: Hosam Aly
+    type: LIKE
+  - id: '1586702514711722'
+    name: Mahmoud Ahmed
+    type: LIKE
+  - id: '1772821822768805'
+    name: Ashraf Naser
+    type: LIKE
+  - id: '10160007537500512'
+    name: Abbas Adel Ibrahim
+    type: LIKE
+  - id: '10155788244630219'
+    name: Shaimaa Abdelaziz
+    type: LIKE
+  - id: '10159786584125570'
+    name: Sara Mohamed Nagiub
+    type: LIKE
+  - id: '10155277571022606'
+    name: Heba El Deeb
+    type: LIKE
+  - id: '10215453976125135'
+    name: Ahmed Bolica
+    type: LIKE
+  - id: '10156435301616294'
+    name: Ehab El-Masry
+    type: LIKE
+  - id: '2004705666469226'
+    name: Ahmed Essam
+    type: LIKE
+  - id: '895970407247426'
+    name: Ahmad Magdy
+    type: LIKE
+  - id: '10212901255540338'
+    name: Mohammed Abdelsalam
+    type: LIKE
+  - id: '10156191099748000'
+    name: Shady Mohamed Sherif
+    type: LIKE
+  - id: '1596110217148252'
+    name: Ahmed Badawy
+    type: LIKE
+  - id: '10156415267997448'
+    name: Mohamed Osman
+    type: LIKE
+  - id: '1776636619016221'
+    name: Ahmad Shahin
+    type: LIKE
+  - id: '10155855157936047'
+    name: Mosab Ibrahim
+    type: LIKE
+  - id: '1574530695959412'
+    name: Mohamed A. Othman
+    type: LIKE
+  - id: '1886120441698692'
+    name: Ibrahim Mohammed
+    type: LIKE
+  - id: '1382560551854209'
+    name: Mohammad Sakr
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXpOVGt5TlRneE5ERXdPakUwTmpVME9EYzBOVE02TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXpNREE0TXpFeE9EYzRPakUwTlRVMU9UazJPRGs2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-02-16T04:00:38+0000'
+    from:
+      name: Ibraheem Osama
+      id: '10155206310513093'
+    message: |-
+      Try JS patterns like module pattern, iffe.
+      what is prototypes and how to use it to simulate inheritance.
+      How to create jquery plugin or extension.
+      closure in JS.
+      How JS get compiled in browsers. (browsers Compile js not interpreting)
+      Try to work more with functions and how to use it as a variable :)
+      there is nothing else in my mind right now but JS is easy but you need to get the core of it
+    id: '1080895045283536'
+  - created_time: '2016-02-16T05:58:18+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: Prototype, Closure, functional programming
+    id: '1080938988612475'
+  - created_time: '2016-02-16T06:03:25+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      Try to understand closures and prototype inheritance,  falsey and truthy comparisons with null, undefined, arrays, etc, and understand the two phases of DOM events, and of course event propagation, how "this"/" new"/scope work, what's strict mode, and you'll be good.
+
+      Each topic had a lot of good stuff written about online.
+
+      I had the same problems for several years. Sometimes libraries do extreme optimization based on a lot of research in certain areas not based only on the general knowledge of the authors.
+
+      Sometimes also library authors love clever code over readable code. That's very common.
+
+      I always felt bad reading what i learned later was just unnecessarily clever code until i started becoming THE Css and Js guy in many engagements i went to at several clients with big and small teams. I stopped bothering afterwards.
+
+      I would advice you to do the same. Aim to learn JS in and out, but ignore the Github metric.
+
+      The free ES6 online book is awesome. JS the good parts is a classic. Some other good books are things like the JavaScript Applications book. Those would be good places. I'd go to for the ES6 book.
+
+      http://www.2ality.com/2015/06/announcing-exploring-es6.html?m=1
+
+      The entire blog is worth reading as well, every single post.
+    id: '1080940371945670'
+  - created_time: '2016-02-16T06:10:33+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: Functional programming concepts with a language like Haskell would really
+      help, if you ask me why learn another language to be good at JS, it is because
+      through learning Haskell you will understand the concepts behind functional
+      programming, in a purely functional language, then things like Reactive JS will
+      not seem so foreign to you. In the end, JS manipulates markup and sends requests,
+      with something like Node you get to do some back end, but my bet is soon there
+      will also be other languages/ accents that compete, so being capable in multiple
+      languages/dialects is good for you.
+    id: '1080941855278855'
+  - created_time: '2016-02-16T06:44:56+0000'
+    from:
+      name: Ibrahim Mohammed
+      id: '1886120441698692'
+    message: "انا عندى نفس المشكله دى و ماشيه معايا بالبركة \U0001F602"
+    id: '1080952495277791'
+  - created_time: '2016-02-16T07:19:41+0000'
+    from:
+      name: Tarek Amr
+      id: '10155854949245944'
+    message: I found this book very useful, http://www.amazon.co.uk/gp/product/B0046RERXE/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B0046RERXE&linkCode=as2&tag=gredat-21
+    id: '1080962321943475'
+  - created_time: '2016-02-16T07:20:57+0000'
+    from:
+      name: Tarek Amr
+      id: '10155854949245944'
+    message: |-
+      Also watch talks like this one for example
+      https://www.youtube.com/watch?v=QHs55-5FzgA
+    id: '1080962535276787'
+  - created_time: '2016-02-16T07:22:45+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: |-
+      You can try the "You don't know JS" series of mini-books
+      http://shop.oreilly.com/product/mobile/0636920026327.do
+    id: '1080962958610078'
+  - created_time: '2016-02-16T07:24:11+0000'
+    from:
+      name: Tarek Amr
+      id: '10155854949245944'
+    message: Mohamed Elsherif Why don't you arrange an "Ask Developer" session about
+      JavaScript.
+    id: '1080963178610056'
+  - created_time: '2016-02-16T07:54:35+0000'
+    from:
+      name: Ahmed El Gabri
+      id: '10159938698425582'
+    message: |-
+      Here are links to some of the books mentioned here (all links are by the authors themselves):
+
+      JavaScript design patterns https://addyosmani.com/resources/essentialjsdesignpatterns/book/
+
+      You Don't know JavaScript series
+      https://github.com/getify/You-Dont-Know-JS
+
+      Lots of people online also mentions http://eloquentjavascript.net/
+    id: '1080989671940740'
+  - created_time: '2016-02-16T08:09:42+0000'
+    from:
+      name: Ahmed El Gabri
+      id: '10159938698425582'
+    message: And this is also a nice talk https://youtu.be/8aGhZQkoFbQ
+    id: '1080992675273773'
+  - created_time: '2016-02-16T08:13:30+0000'
+    from:
+      name: Tarek Amr
+      id: '10155854949245944'
+    message: Start by learning something as wicked as function closure, not for anything
+      but it will make you feel like a JS wizard
+    id: '1080993751940332'
+  - created_time: '2016-02-16T08:33:35+0000'
+    from:
+      name: Ehab El-Masry
+      id: '10156435301616294'
+    message: i saved this post :D
+    id: '1081001165272924'
+  - created_time: '2016-02-16T08:37:13+0000'
+    from:
+      name: Ahmed El Gabri
+      id: '10159938698425582'
+    message: One more concept that's overlooked by many developers is "hoisting" it
+      can introduce subtle errors/very hard to debug bugs.
+    id: '1081001921939515'
+  - created_time: '2016-02-16T08:49:42+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: |-
+      I encourage you to*buy* this book
+      http://www.wrox.com/WileyCDA/WroxTitle/Professional-JavaScript-for-Web-Developers-3rd-Edition.productCd-1118222199.html
+    id: '1081007268605647'
+  - created_time: '2016-02-16T11:23:57+0000'
+    from:
+      name: Hazem Khaled
+      id: '10155029728871786'
+    message: |-
+      You don't know JS or JS Design patterns
+      https://addyosmani.com/resources/essentialjsdesignpatterns/book/
+    id: '1081064478599926'
+  - created_time: '2016-02-16T12:33:05+0000'
+    from:
+      name: Ahmed Refaey
+      id: '1808892215797147'
+    message: "http://www.it-ebooks.info/book/416/\nthis book is really good and it
+      is holy book of javascript \nyou can read it and become evangelist of javascript
+      in my opinion"
+    id: '1081093955263645'
+  - created_time: '2016-02-16T20:53:00+0000'
+    from:
+      name: Khaled Elgendy
+      id: '10208770931150057'
+    message: https://www.udemy.com/understand-javascript/
+    id: '1081297651909942'
+  - created_time: '2016-02-19T15:15:28+0000'
+    from:
+      name: Muhamad Omar
+      id: '1821918031216201'
+    message: "https://frontendmasters.com/courses \nموقع كويس فيه حجات كتير ل javascript
+      advanced"
+    id: '1082929898413384'
+  - created_time: '2016-02-19T15:50:26+0000'
+    from:
+      name: Mahmoud Fahmy
+      id: '10208882238008142'
+    message: Abd El-Rahman Rafaat
+    id: '1082948825078158'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE0TURnNU5UQTBOVEk0TXpVek5qb3hORFUxTlRrMU1qTTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE0TWprME9EZA3lOVEEzT0RFMU9Eb3hORFUxT0RrM01ESTIZD

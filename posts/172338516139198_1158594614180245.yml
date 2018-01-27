@@ -1,0 +1,109 @@
+---
+message: How do you usually deploy your small personal projects? I'm talking about
+  single machine projects that you update frequently. Including managing required
+  packages and updating configuration files. Would love also to hear the reason behind
+  your choices.
+from:
+  name: Mohamed Bassem
+  id: '10212826240185281'
+type: status
+created_time: '2016-06-08T21:42:55+0000'
+updated_time: '2016-06-09T09:43:55+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1158594614180245/
+id: '172338516139198_1158594614180245'
+reactions:
+  data:
+  - id: '1819409301443237'
+    name: Mahmoud M Hassan
+    type: LIKE
+  - id: '1596110217148252'
+    name: Ahmed Badawy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhNakkxTlRVd01UUXhPakUwTmpVME56SXdNekE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlORGM0Tmpnd09EVTJPakUwTmpVME16QXlOVGc2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-06-08T21:47:39+0000'
+    from:
+      name: Mohamed Bassem
+      id: '10212826240185281'
+    message: |-
+      For small projects, Currently I use SSH plus a deployment script. Whenever there's a new version I SSH, pull and run the deployment script which will move the config files, restart services, rebuild the main app and restart it. I'm not really comfortable with this because of the pain of maintaining this script.
+
+      I used jenkins for deployments before. For small projects it's an overkill and you'll still need to write the deployment script.
+    id: '1158595960846777'
+  - created_time: '2016-06-08T21:59:06+0000'
+    from:
+      name: Mohamed Bassem
+      id: '10212826240185281'
+    message: And with configuration files I mean those of nginx, supervisord, etc.
+      Not the application specific config file.
+    id: '1158600340846339'
+  - created_time: '2016-06-08T23:07:32+0000'
+    from:
+      name: Mohamed El-Sayed
+      id: '10155182529813309'
+    message: Ansible is an excellent and very simple tool to use. You can learn enough
+      to build what you want in 2 days.. check it out..
+    id: '1158623457510694'
+  - created_time: '2016-06-09T00:10:48+0000'
+    from:
+      name: Emad Mokhtar Habib
+      id: '10159905066535634'
+    message: For who voted for Fabric, Can you please provide links for HowTos
+    id: '1158646387508401'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUxT0RVNU5UazJNRGcwTmpjM056b3hORFkxTkRJeU5EWXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUxT0RZAME5qTTROelV3T0RRd01Ub3hORFkxTkRNeE1EUTQZD
+attachments:
+  data:
+  - subattachments:
+      data:
+      - target:
+          id: '876327799157394'
+        title: SSH + Deployment script
+        type: option
+      - target:
+          id: '927063904083068'
+        title: Jenkins Job
+        type: option
+      - target:
+          id: '249922028717399'
+        title: Fabric
+        type: option
+      - target:
+          id: '280196958993280'
+        title: PHPStorm push to remote server
+        type: option
+      - target:
+          id: '1616893008621214'
+        title: ansible
+        type: option
+      - target:
+          id: '1008584015883943'
+        title: Capistrano
+        type: option
+      - target:
+          id: '982738515180133'
+        title: Docker
+        type: option
+      - target:
+          id: '1125822447456703'
+        title: Makefile + rsync
+        type: option
+      - target:
+          id: '100931673667444'
+        title: WP Pusher
+        type: option
+    target:
+      id: '1158594604180246'
+      url: https://www.facebook.com/groups/egyptian.geeks/permalink/1158594614180245/
+    title: How do you usually deploy your small personal projects? I'm talking about
+      single machine projects that you update frequently. Including managing required
+      packages and updating configuration files. Would love also to hear the reason
+      behind your choices.
+    type: question
+    url: https://www.facebook.com/groups/egyptian.geeks/permalink/1158594614180245/

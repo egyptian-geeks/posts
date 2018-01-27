@@ -1,0 +1,70 @@
+---
+message: |-
+  Anything I should be cautious about when using the Tor browser? I'm mainly using it to access Medium, for such a light usage should I be worried about safety at all?
+  I'm asking because all the posts about censorship in here are just suggesting VPN plugins.
+from:
+  name: Ahmed Ashraf Gamal
+  id: '10215489165042760'
+type: status
+created_time: '2017-11-27T14:13:41+0000'
+updated_time: '2017-12-02T19:30:00+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1674111642628537/
+id: '172338516139198_1674111642628537'
+reactions:
+  data:
+  - id: '1424458691016198'
+    name: Mǿstāfā Pisǿ
+    type: LIKE
+  - id: '1747983848586787'
+    name: Karate Mohammed
+    type: LIKE
+  - id: '2073453876272091'
+    name: Karim Tawfik
+    type: LIKE
+  - id: '2016811668536304'
+    name: Mohamed Okasha
+    type: LIKE
+  - id: '891512461008307'
+    name: Ziad Khaled
+    type: LIKE
+  - id: '178572869541245'
+    name: Morsi Mohammed
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXpOVFl5TkRFNU16ZA3lPakUxTVRFNE1qZA3lOelk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01ESXhOalUyTURBek5EZA3hPakUxTVRFM09USXlORFU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-11-27T14:57:40+0000'
+    from:
+      name: George Moheb
+      id: '10210440074417898'
+    message: |-
+      if ur using it as a VPN and accessing a website that is using TLS (HTTPS)
+      u dnt have to worry, just make sure that ur browser is not displaying TLS certificate alerts
+    id: '1674609089245459'
+  - created_time: '2017-11-27T16:18:42+0000'
+    from:
+      name: Karim Tawfik
+      id: '2073453876272091'
+    message: "take care of \"deep web ya ryyy2\" \U0001F60E"
+    id: '1674665172573184'
+  - created_time: '2017-11-27T22:45:04+0000'
+    from:
+      name: Salem Magdy
+      id: '1956478351340666'
+    message: It's simple, just stop using Medium.
+    id: '1674933422546359'
+  - created_time: '2017-12-02T18:57:42+0000'
+    from:
+      name: Ahmed Essam
+      id: '2004705666469226'
+    message: |-
+      Tor browser is more secure than VPN. The reason we use VPN is that you can't do everything using Tor, you cannot make voip calls for example using Tor. Tor uses TCP only while most of the calls are made using UDP. Add to this the lag resulted from hopping your connection over tor nodes.
+      If you just need to access some blocked websites, then Tor is a very good option here. Free and secure.
+    id: '1680344112005290'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkzTkRZAd09UQTRPVEkwTlRRMU9Ub3hOVEV4TnprME5qWXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFk0TURNME5ERXhNakF3TlRJNU1Eb3hOVEV5TWpReE1EWXoZD

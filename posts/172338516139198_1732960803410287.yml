@@ -1,0 +1,634 @@
+---
+message: |-
+  الفتره اللي فاتت أو بالاصح آخر 12 شهر, عملت انترفيهات لناس كتير, اللي backend واللي frontend واللي apps واللي team lead وغيرهم كتير.
+
+  اللي لاحظته في معظم الناس ديه, إن بغض النظر متخرجين منين, عندهم كام سنة خبره, شغالين فين وعلى إيه, من ضمن كل 20 واحد مثلا, كنت بلاقي 19 واقع منهم ال core components بتاعه ال computer science
+  بتكلم هنا عن ال fundamentals زي ال OOD وال Design patterns وال data structures وحاجة مثلا زي ال Big O واتعملت ليه وبنستعملها في إيه وإزاي!
+
+  الكلام ده يمكن يكون سبب رئيسي ليه معظم الناس في مصر مش فاهمة إيه الفرق مابين الجونيور والسنيور وفاهمين إن السنيور هو مجرد واحد بيعرف يعمل الحاجة اسرع وعارف حاجات أكتر. وده طبيعي علشان اللي مش عارف الحاجات اللي فوق كويس, صعب يعمل design لنظام كامل أو يعمل architecture محترم لو هو مش فاهم حاجة بسيطة زي امتي يستعمل base class وامتي يستعمل interface أو إيه هو ال polymorphism وشغال إزاي وليه.
+
+  علشان كده, قررت إني أعمل سلسلة فيديوهات أتكلم فيها بس عن الأساسيات. هبدأ فيها بايه هو ال OOP وإيه عناصره وبعدها هتكلم شوية بسيطه عن مباديء ال OOD وهادخل بعد كده على ال Data Structures وال common algorithms وهختمها بال design patterns.
+
+  ياريت كل الناس اللي في المجال تعمل شير للفيديوهات ديه علشان كل واحد فينا أكيد عنده على الاقل شخص واحد ممكن يكون مش عارف الكلام اللي فوق ده فعلا أو عارفة بالشبه كده.
+from:
+  name: Mohamed Moshrif
+  id: '1538447102877297'
+type: status
+created_time: '2018-01-25T09:17:06+0000'
+updated_time: '2018-01-27T17:06:17+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1732960803410287/
+shares:
+  count: 19
+id: '172338516139198_1732960803410287'
+reactions:
+  data:
+  - id: '179696229429042'
+    name: Mohamed Ezzat
+    type: LIKE
+  - id: '1595492667206860'
+    name: Eslam Hesham
+    type: LIKE
+  - id: '2015786385359232'
+    name: Abdulrahman Elsayed
+    type: LIKE
+  - id: '10214454603540042'
+    name: Eslam Mohsen
+    type: LIKE
+  - id: '2034660799885072'
+    name: Shenouda Fawzy
+    type: LIKE
+  - id: '1574204965998732'
+    name: Ahmet Sabry Mahfouz
+    type: LIKE
+  - id: '1603918496360868'
+    name: Mahmoud Jaber Wahrani
+    type: LIKE
+  - id: '2063548127258486'
+    name: Mariam George
+    type: LIKE
+  - id: '1833573349988195'
+    name: Shady ElDawy
+    type: LIKE
+  - id: '1451761991601830'
+    name: Saed Hossam
+    type: LIKE
+  - id: '10215701409510509'
+    name: David Emil Rashitta
+    type: LIKE
+  - id: '1512656212176762'
+    name: Karim Elabbady
+    type: LIKE
+  - id: '1185233194941105'
+    name: عبدالرحمن إسماعيل
+    type: LIKE
+  - id: '1533295126725494'
+    name: Mohamed Fathy
+    type: LIKE
+  - id: '1692645467424046'
+    name: Osama Ahmad
+    type: LIKE
+  - id: '548062595559343'
+    name: Ahmed EL-Metwally
+    type: LIKE
+  - id: '10159817376550705'
+    name: Mohamed Salem Korayem
+    type: LIKE
+  - id: '1547149591987902'
+    name: Nada Khaled
+    type: LIKE
+  - id: '1923780781270373'
+    name: Ahmed Elmansy
+    type: LIKE
+  - id: '1989910374594728'
+    name: Ahmed Algaml
+    type: LIKE
+  - id: '1141575932646478'
+    name: Osama Yasser
+    type: LIKE
+  - id: '1812131428831070'
+    name: Ahmed Ateek
+    type: LIKE
+  - id: '1623777587708966'
+    name: Walid Abd El-Rahman
+    type: LIKE
+  - id: '10155869398711136'
+    name: محمد عبد القهار
+    type: LIKE
+  - id: '1157976871012287'
+    name: Mina Maher
+    type: LIKE
+  - id: '10213012556601045'
+    name: Ahmed Mohamed Salah
+    type: LIKE
+  - id: '1789424477776732'
+    name: Islam Khalid
+    type: LIKE
+  - id: '1807552245946008'
+    name: Dalia Abdallah
+    type: LIKE
+  - id: '10211958523740218'
+    name: MaGdi AdEl
+    type: LIKE
+  - id: '1615436418535535'
+    name: Sabry ALzahar
+    type: LIKE
+  - id: '1580285218753110'
+    name: Aly Radwan
+    type: LIKE
+  - id: '782499245278061'
+    name: Eslam AbdElhakem
+    type: LIKE
+  - id: '1792396197485237'
+    name: Mohamed Elhout
+    type: LIKE
+  - id: '1687186951338535'
+    name: علاء ابراهيم
+    type: LIKE
+  - id: '10212501575029096'
+    name: Mohamed Sobhy
+    type: LIKE
+  - id: '10156364347554767'
+    name: Ahmad Hamed
+    type: LIKE
+  - id: '1627073507350260'
+    name: Mohamed Sherif
+    type: LIKE
+  - id: '842280862620136'
+    name: Mohamed Awad
+    type: LIKE
+  - id: '853766894785086'
+    name: Eslam Waheed
+    type: LIKE
+  - id: '1978077842221609'
+    name: Marwa Ibraheem
+    type: LIKE
+  - id: '559553201054756'
+    name: Wagih El-Shenawy
+    type: LIKE
+  - id: '2046856075528599'
+    name: Ebra Him K Eldesouki
+    type: LIKE
+  - id: '903813099780177'
+    name: Nada Medhat
+    type: LIKE
+  - id: '980575922099042'
+    name: Yosra Hamza
+    type: LIKE
+  - id: '10215011048531592'
+    name: Hesham Desouky
+    type: LIKE
+  - id: '10159976552365192'
+    name: Mohamed Radwan
+    type: LIKE
+  - id: '1547083592012332'
+    name: Helal Ali Helal
+    type: LIKE
+  - id: '10156259295924301'
+    name: Mohamed Shaaban
+    type: LIKE
+  - id: '1170764996392456'
+    name: ياسر الأسيوطي
+    type: LIKE
+  - id: '1426153664180879'
+    name: Mustafa Jalal
+    type: LIKE
+  - id: '985725401566047'
+    name: Ahmed Abouzied
+    type: LIKE
+  - id: '2116645771943824'
+    name: Mohamed Saeed Othman
+    type: LIKE
+  - id: '1523164377800883'
+    name: Saad Abdulrahman
+    type: LIKE
+  - id: '10215606410059622'
+    name: Mohamed Nasser
+    type: LIKE
+  - id: '10156284495119497'
+    name: Sherif Zakaria Mohamed
+    type: LIKE
+  - id: '158547971463325'
+    name: Mohamed Mohamedy
+    type: LIKE
+  - id: '2025605004389374'
+    name: Abdoulrahman Mahdi
+    type: LIKE
+  - id: '10211056692157688'
+    name: ShaDy MiGo
+    type: LIKE
+  - id: '561630757508072'
+    name: اسلام محمود الشناوى
+    type: LIKE
+  - id: '1962418407134025'
+    name: Sara Sherif
+    type: LIKE
+  - id: '2010899149153429'
+    name: Yasmen El Ghandour
+    type: LIKE
+  - id: '10155606965473025'
+    name: Karem Dans
+    type: LIKE
+  - id: '1866282430050954'
+    name: Taha Saieed
+    type: LIKE
+  - id: '1960185157329232'
+    name: Amr Aly
+    type: LIKE
+  - id: '1760650110714877'
+    name: Muhammed Abd El-Nabe
+    type: LIKE
+  - id: '627861614271937'
+    name: Karim Ebrahim
+    type: LIKE
+  - id: '1876092405757348'
+    name: Ibrahem Mahmmoud
+    type: LIKE
+  - id: '1874895892543707'
+    name: محمد المهدى
+    type: LIKE
+  - id: '10156232013188243'
+    name: Ahmed Rezk
+    type: LIKE
+  - id: '10160396852830355'
+    name: Mohamed Samy
+    type: LIKE
+  - id: '1791200847842972'
+    name: Menna Yahia
+    type: LIKE
+  - id: '2063984743835894'
+    name: Ahmed Mohamed
+    type: LIKE
+  - id: '2089769777911117'
+    name: Ahmed Shaaban Mohamed
+    type: LIKE
+  - id: '999826596836080'
+    name: Mohammed Salah
+    type: LIKE
+  - id: '973044862844261'
+    name: Ahmed Milad
+    type: LIKE
+  - id: '10213691948826326'
+    name: Mohammed Agwa
+    type: LIKE
+  - id: '1553694648077470'
+    name: Asma Rashwan
+    type: LIKE
+  - id: '10156089518157838'
+    name: صالح بحر
+    type: LIKE
+  - id: '1641565752594739'
+    name: Ahmed Aziz
+    type: LIKE
+  - id: '2025051184398210'
+    name: Fady Nabil
+    type: LIKE
+  - id: '1516408591741904'
+    name: Ahmed Mokhtar
+    type: LIKE
+  - id: '1656479827731871'
+    name: Maha Mekdad
+    type: LIKE
+  - id: '1570999839646334'
+    name: Aya Salama
+    type: LIKE
+  - id: '1791332544218371'
+    name: زكريا جمعة
+    type: LIKE
+  - id: '1780676198623196'
+    name: محمود كريم
+    type: LIKE
+  - id: '10156383701041686'
+    name: Amr Adel
+    type: LIKE
+  - id: '2022833371324486'
+    name: Abdelrahman Hassan
+    type: LIKE
+  - id: '1518983061552107'
+    name: Mohammed Abu-Dahsh
+    type: LIKE
+  - id: '423872974709409'
+    name: Mona Hashem
+    type: LIKE
+  - id: '10208478691244351'
+    name: Mohamad Nabih
+    type: LIKE
+  - id: '10156039265507485'
+    name: Mohamed Osman
+    type: LIKE
+  - id: '1208358265962928'
+    name: Muhammad Tarek
+    type: LIKE
+  - id: '2054850488105080'
+    name: Ahmed Abdul Aziz
+    type: LIKE
+  - id: '10159853056310321'
+    name: Noha El-Barkouky
+    type: LIKE
+  - id: '1672157809511523'
+    name: Sherif Mounir
+    type: LIKE
+  - id: '935356599965781'
+    name: Abdallah El Attar
+    type: LIKE
+  - id: '1826391134080439'
+    name: Mohammad Kamel
+    type: LIKE
+  - id: '819114288145857'
+    name: Ahmed Ragab
+    type: LIKE
+  - id: '10214074561452439'
+    name: Wasim Mahmoud Ghanayma
+    type: LIKE
+  - id: '1698744800146600'
+    name: Michael Magdy
+    type: LIKE
+  - id: '1516489515124702'
+    name: Hossam EL Sharkawy
+    type: LIKE
+  - id: '2022490591345439'
+    name: سامح دعبس
+    type: LIKE
+  - id: '2096499317303128'
+    name: Mostafa Abdellatif
+    type: LIKE
+  - id: '10155518305294091'
+    name: Muhammad Salah El-Okda
+    type: LIKE
+  - id: '1576001382455519'
+    name: Bavly Morcos
+    type: LIKE
+  - id: '10155926704141777'
+    name: Ahmed Abdelaziz
+    type: LIKE
+  - id: '10215178635767384'
+    name: Mohamed Abdelhamed
+    type: LIKE
+  - id: '10215179289777238'
+    name: Alaa Ahmed
+    type: LIKE
+  - id: '1541063196001308'
+    name: يمنى محمود
+    type: LIKE
+  - id: '10155929336073080'
+    name: Shaaban Salah
+    type: LIKE
+  - id: '1529543267141756'
+    name: Omar Salama
+    type: LIKE
+  - id: '10204192555891460'
+    name: 'Mohamed Sheko '
+    type: LIKE
+  - id: '10215546027353436'
+    name: Mostafa Ahmed
+    type: LIKE
+  - id: '1818224478190849'
+    name: Yousef Mahmoud
+    type: LIKE
+  - id: '10214843347173894'
+    name: Hesham Watany
+    type: LIKE
+  - id: '10156010277282645'
+    name: Abdalla Saleh
+    type: LIKE
+  - id: '1946222812073978'
+    name: Hassan Mostafa
+    type: LIKE
+  - id: '10159847733870510'
+    name: Mohammed Hashish
+    type: LIKE
+  - id: '2030697810535603'
+    name: Wessam S-e
+    type: LIKE
+  - id: '10159891311520297'
+    name: عمرو علي
+    type: LIKE
+  - id: '10208596993002679'
+    name: Mostafa Alaa
+    type: LIKE
+  - id: '10156306683614880'
+    name: Sameh Mohsen
+    type: LIKE
+  - id: '2011515399069978'
+    name: Mahmoud Ezzat
+    type: LIKE
+  - id: '561489484214935'
+    name: Zanoon Shehata
+    type: LIKE
+  - id: '1598108023604185'
+    name: Mohamed Ebrahim
+    type: LIKE
+  - id: '983903825105278'
+    name: Amira Elsayed
+    type: LIKE
+  - id: '1602773226469668'
+    name: Mahmoud Ibraheem
+    type: LIKE
+  - id: '10204485977226740'
+    name: Mahmoud Nabil
+    type: LIKE
+  - id: '2016448545297854'
+    name: مصطفى عبدربه
+    type: LIKE
+  - id: '569537850045873'
+    name: Yusuf Muhammed
+    type: LIKE
+  - id: '10156085462929907'
+    name: Mohamed Talaat Mahlies
+    type: LIKE
+  - id: '10214458339193134'
+    name: Mohamed Galal
+    type: LIKE
+  - id: '1838997326124188'
+    name: Aly Yahia
+    type: LIKE
+  - id: '1171368586331028'
+    name: Ahmed Ali
+    type: LIKE
+  - id: '1512662738801944'
+    name: Hassan Syam
+    type: LIKE
+  - id: '10157203333609498'
+    name: Ahmed Said
+    type: LIKE
+  - id: '582350488780539'
+    name: مصطفى مرسي
+    type: LIKE
+  - id: '1412638862178076'
+    name: Ibrahem Hamdy
+    type: LIKE
+  - id: '1193721714099143'
+    name: Zeyad Ibrahim
+    type: LIKE
+  - id: '10211113251172414'
+    name: Eslam Fathy
+    type: LIKE
+  - id: '1978556165731463'
+    name: Amr Almgwary
+    type: LIKE
+  - id: '1709278585800086'
+    name: Mohamed Khatab
+    type: LIKE
+  - id: '1874044245938978'
+    name: Sherif Bakry
+    type: LIKE
+  - id: '10213802216302674'
+    name: Abdelrahman El Kinani
+    type: LIKE
+  - id: '1821901494489008'
+    name: Adel Hegazy
+    type: LIKE
+  - id: '1993997630616889'
+    name: Abdallah Samy Zayed
+    type: LIKE
+  - id: '1926856527327981'
+    name: Ismail K. Wahdan
+    type: LIKE
+  - id: '1539552666097869'
+    name: Mohammed Ahmed
+    type: LIKE
+  - id: '10215461207703148'
+    name: Khaled Elnaggar
+    type: LIKE
+  - id: '399264287188477'
+    name: Ahmed Fareed
+    type: LIKE
+  - id: '938682122947557'
+    name: Ahmed Omar
+    type: LIKE
+  - id: '1463887037053113'
+    name: Emad Mohamed Oun
+    type: LIKE
+  - id: '10155205809807108'
+    name: محمد عودة
+    type: LIKE
+  - id: '10155076145535808'
+    name: Ayman Elarian
+    type: LIKE
+  - id: '1444931018966857'
+    name: Amr MUhamed
+    type: LIKE
+  - id: '1999765416908747'
+    name: Ahmed Khalifa
+    type: LIKE
+  - id: '10211837909289309'
+    name: Mohamed Hussein
+    type: LIKE
+  - id: '10214343099918744'
+    name: Mahmoud Kandil
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01ESXhOalU1T1RjeE9EYzBPakUxTVRjd056WTJOak02TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRRMU5EVTBOREl6TXpveE5URTJPRGN4T1RJMU9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2018-01-25T09:27:26+0000'
+    from:
+      name: Ahmed Talaat
+      id: '1705428696187875'
+    message: Mohamed Abdelwahab Hesham Watany
+    id: '1732968503409517'
+  - created_time: '2018-01-25T09:46:29+0000'
+    from:
+      name: Mohanad Mohamed Ali
+      id: '10209416046152800'
+    message: Ahmed Salah Ask
+    id: '1732979816741719'
+  - created_time: '2018-01-25T10:25:45+0000'
+    from:
+      name: مصطفى عبدربه
+      id: '2016448545297854'
+    message: |-
+      Great !
+      good job
+    id: '1733004363405931'
+  - created_time: '2018-01-25T10:45:16+0000'
+    from:
+      name: Mohamed Ebrahim
+      id: '1598108023604185'
+    message: جميل جدا بس ياريت تكمل السلسلة وتحطها يوتيوب زي C++
+    id: '1733019710071063'
+  - created_time: '2018-01-25T11:11:56+0000'
+    from:
+      name: Abdalla Saleh
+      id: '10156010277282645'
+    message: |-
+      انا جديد في البرمجه وحاجه زي دي مفيده جدا بالنسبالي واكيد لناس تاني كتير
+      ربنا يجعله في ميزان حسناتك
+    id: '1733056826734018'
+  - created_time: '2018-01-25T14:30:29+0000'
+    from:
+      name: Ahmed Mudhar
+      id: '1811551685586388'
+    message: كلام جميل بس كان عندي سؤال ، مش ال concepts دي بتشمل شغل ال OOP بس ،
+      يعني لو انا بدرس  frontend و node.js و functional programming هل المبادئ دي
+      هتعود علية بفايدة خصوصا انها بتتطلب استثمار وقت فيها عشان تُدرس صح ؟
+    id: '1733223926717308'
+  - created_time: '2018-01-25T20:20:47+0000'
+    from:
+      name: Mohamed Saeed Othman
+      id: '2116645771943824'
+    message: عاش والله الحاجات دى هتفرق مع ناس كتير لو فهموها صح بدون تعقيد وهتاثر
+      على شغلهم وطريقه تفكرهم ربنا يجعله ف ميزان حسناتك (Y)
+    id: '1733482176691483'
+  - created_time: '2018-01-25T20:56:09+0000'
+    from:
+      name: Mustafa Jalal
+      id: '1426153664180879'
+    message: ياريت يابشمهندس تركزلنا شوية فى حته الـ algorithms complexity وخصوصا
+      الـ recursive algorithms
+    id: '1733507713355596'
+  - created_time: '2018-01-25T21:03:55+0000'
+    from:
+      name: Ahmed Shalaby
+      id: '1171798446256300'
+    message: انا لسه متخرج و عارف كلام و مش عارف اقدم فين و شركات الى قدمت فيها مافيش
+      رد لو فيه نصيحه تقولها ليه اكون شاكر ليك
+    id: '1733512430021791'
+  - created_time: '2018-01-25T21:43:29+0000'
+    from:
+      name: Mona Farag
+      id: '906117109567053'
+    message: يعني انت سالتهم في حجات قديمه حتي لو هي بالنسبلك بيزيك فهي عفا عليها
+      الزمن ودلوقتي المجال تشعب جدا ومش كل الناس عارفين كل حاجه ! مينفعش تجيب طبيب
+      صيدلي وتساله عن مبادي التشريح مثلا رغم انه درسها ومهما لكن مش مجاله
+    id: '1733538033352564'
+  - created_time: '2018-01-25T23:54:23+0000'
+    from:
+      name: Omar Nobel
+      id: '2047568185488686'
+    message: "انا عارف البشمهندس محمد بقالي فترة يمكن اكتر من سنة لما كنت بتعمل فيديوز
+      على اليويتوب وبتتكلم عن الاصلاحات الاجتماعية وببتاع ساعتها مكنش عندي الوعي الكافي
+      للرد على السذاجة ال بتتكلم فيها \nحاليا اقدر ارد جدا على الهبل ال اتقال وكدا
+      او جايز انت نفسك غيرت افكارك معرفش انت حر باي ذا واي \nاما عند الجزء الخاص بال
+      computer science فا دة شئ بيقع فيه كل الشباب ال فى صناعة البرمجيات لسببين الاول
+      انه عايز ينط فى السوق على طول \nثانيا انه مش مدرك ان فهمه الجيد لل infrastructure
+      لل machine هيساعده بعدين او مش عارف يحط link للمواضيع كا جملة واحدة نتيجة برضو
+      الاستسهال وطبعا نرجع نقول ان الجامعة لازم تفهم الطالب دة"
+    id: '1733619466677754'
+  - created_time: '2018-01-26T09:09:03+0000'
+    from:
+      name: Ahmed Omar
+      id: '938682122947557'
+    message: لو ينفع تعمل tutorial عن ازاى اشتغل على نفسى صح او ايه هى الحاجات اللى
+      ممكن اعملها عشان اتحول من junior لانى اكون senior .
+    id: '1733970283309339'
+  - created_time: '2018-01-26T12:31:11+0000'
+    from:
+      name: Ahmed Amr Farid
+      id: '10155859538230336'
+    message: انا لما اخدت كورس الجافا كان فيه جزء معقول عن الحاجات دى...
+    id: '1734100086629692'
+  - created_time: '2018-01-26T12:56:35+0000'
+    from:
+      name: Mohamed Salem Korayem
+      id: '10159817376550705'
+    message: Ali Salem Korayem
+    id: '1734118906627810'
+  - created_time: '2018-01-26T20:14:31+0000'
+    from:
+      name: Alaa Fathalbab
+      id: '478599042537681'
+    message: Abdo Yasseen
+    id: '1734480969924937'
+  - created_time: '2018-01-27T17:06:15+0000'
+    from:
+      name: Eslam Hesham
+      id: '1595492667206860'
+    message: Šemi Colon Asaad Naser
+    id: '1735329933173374'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN6TWprMk9EVXdNelF3T1RVeE56b3hOVEUyT0RjeU5EUTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN6TlRNeU9Ua3pNekUzTXpNM05Eb3hOVEUzTURjeU56YzEZD
+attachments:
+  data:
+  - media:
+      image:
+        height: 405
+        src: https://scontent.xx.fbcdn.net/v/t15.0-10/s720x720/27247114_1536242509764423_6496454406785990656_n.jpg?oh=269913c5e9dc2a519afe8fef824b4d74&oe=5B1F72DE
+        width: 720
+    target:
+      url: https://www.facebook.com/mmoshrif/videos/1536226783099329/
+    type: video_inline
+    url: https://www.facebook.com/mmoshrif/videos/1536226783099329/

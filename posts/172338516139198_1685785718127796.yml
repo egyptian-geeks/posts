@@ -1,0 +1,67 @@
+---
+message: Can we stream a 4k mobile camera to mac or pc simply.. or that requires a
+  fancy setup?
+from:
+  name: Osama Soliman
+  id: '879271768900112'
+type: status
+created_time: '2017-12-08T06:26:19+0000'
+updated_time: '2017-12-10T14:12:32+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1685785718127796/
+shares:
+  count: 1
+id: '172338516139198_1685785718127796'
+reactions:
+  data:
+  - id: '2001897360084292'
+    name: Ahsan Ali
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTNPVEl4TkRJd09UWXlPakUxTVRNek5qUXpOalU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTNPVEl4TkRJd09UWXlPakUxTVRNek5qUXpOalU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-12-08T13:49:20+0000'
+    from:
+      name: Mohamed Eltantawi
+      id: '10160105091695314'
+    message: Can you elaborate more on your question? The camera should list its hardware
+      system requirements for recording and playback, and with a decent internet connection
+      (>10mbps) it should be possible to stream.
+    id: '1686069004766134'
+  - created_time: '2017-12-08T20:33:37+0000'
+    from:
+      name: Mohamed A. Alqrwash
+      id: '10213394268464462'
+    message: "Yes you could do this\nBy using ffmpeg lib for android and transmits
+      the packets over udp /  rtp multicast \nWithout modifying the input codecs you
+      will receive the full packet with real time streaming \nYou maybe face issues
+      with your network like lagging our router turning off \nSo you need some switches
+      support MVR like Cisco managed switches our you you could broadcast over rtmp
+      protocol to a local server like red5 bout in this case you will need to transcode
+      video and audio to suites this protocol and will cost your mobile device great
+      CPU usage use h246 as video encoder and aac as audio encoder \nI'm also build
+      a commercial solution to solve this problems \nHappy coding \U0001F642"
+    id: '1686393304733704'
+  - created_time: '2017-12-09T05:41:05+0000'
+    from:
+      name: Alaa Ezzat
+      id: '10156074051141565'
+    message: |-
+      Soliman
+
+      your router is the main throttle point
+
+      forget about the theoretical 300mbps
+
+      you will never get half of that even if you are setting on top of the router
+
+      and for wireless bandwidth is shared among the devices which makes it worth
+
+      i started to get a good streaming results when i got an AC 1900 router
+    id: '1686714838034884'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFk0TmpBMk9UQXdORGMyTmpFek5Eb3hOVEV5TnpRd09UWXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFk0TmpjeE5EZA3pPREF6TkRnNE5Eb3hOVEV5TnprNE1EWTIZD

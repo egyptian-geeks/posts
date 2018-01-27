@@ -1,0 +1,53 @@
+---
+message: |-
+  sorry for the last post,
+  i am making a project for kids to draw geometrical figures like rectangle or any other figure, now i am trying to add an action to select a figure then delete it or do any other action to the selected figure, i googled it and all answers lead to use a library called (vector) which i can`t use, so anybody can help ?
+  i am using C++..
+from:
+  name: Mohamed Anwar
+  id: '1615179321869801'
+type: status
+created_time: '2017-04-15T17:20:40+0000'
+updated_time: '2017-04-17T09:26:05+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1454729801233390/
+id: '172338516139198_1454729801233390'
+comments:
+  data:
+  - created_time: '2017-04-15T17:34:28+0000'
+    from:
+      name: Ahmed Saleh
+      id: '10159933379005574'
+    message: How are you drawing the rectangles ?
+    id: '1454756677897369'
+  - created_time: '2017-04-15T17:34:50+0000'
+    from:
+      name: Ahmed Saleh
+      id: '10159933379005574'
+    message: also check a point in a rectangle, the point is mouse coordinate inside
+      a rectangle :)
+    id: '1454756851230685'
+  - created_time: '2017-04-16T00:08:34+0000'
+    from:
+      name: Mohamed Ashraf
+      id: '10155906116946287'
+    message: Well this is complicated. but if you need to do the entire thing manually
+      keep in mind that you need to store the figures drawn as corner points so that
+      you can then translate/delete or anything else. You would probably have an array
+      of figures, each figure should be able to draw itself/translate itself/any other
+      action. You need to redraw the entire list of figures each time you do something
+      to a figure. This is as far as I can help since the question is very vague.
+    id: '1455040161202354'
+  - created_time: '2017-04-17T09:26:01+0000'
+    from:
+      name: Mahmoud Adas
+      id: '1555354924540360'
+    message: "Every geometrical shape has its mathmatical formula to detect whether
+      a given point is inside its borders or not \n\nProcedures:\n1- get clicked point
+      \n2- iterate through figures in reverse \n3- call the virtual function Shape::IsPointInside(Point
+      p), you should be using oop then and have Figure base class from which figures
+      inheret from\n\n4- if true, select that figure and break"
+    id: '1456499987723038'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFExTkRjMU5qWTNOemc1TnpNMk9Ub3hORGt5TWpjM05qWTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFExTmpRNU9UazROemN5TXpBek9Eb3hORGt5TkRJeE1UWXkZD

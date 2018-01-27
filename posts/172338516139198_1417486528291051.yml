@@ -1,0 +1,84 @@
+---
+message: |-
+  هو لو انا بسطّب Ubuntu جنب Win10 وال BIOS mode كان Legacy مش UEFI هيحصل حاجه؟
+  مش هعرف اشغل الويندوز تاني مثلا؟
+from:
+  name: Eslam Mohamed
+  id: '1643840219014923'
+type: status
+created_time: '2017-03-11T12:57:58+0000'
+updated_time: '2017-03-11T20:08:38+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1417486528291051/
+id: '172338516139198_1417486528291051'
+reactions:
+  data:
+  - id: '1962566230481859'
+    name: احمد حمادة
+    type: LIKE
+  - id: '1559309934166139'
+    name: Bassam K. Alshiref
+    type: LIKE
+  - id: '1820077408064446'
+    name: Sherif El-Gaml
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhPRFUxTURReU9EazJPakUwT0RrMk1EZA3lOelE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXhPRFkyTVRNd016WXlPakUwT0RreU16Y3hNREk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-03-11T12:59:24+0000'
+    from:
+      name: Sherif El-Gaml
+      id: '1820077408064446'
+    message: لا مش هيحصل حاجه مادام الbios legacy  انا مشغله عندي كدا
+    id: '1417487401624297'
+  - created_time: '2017-03-11T13:03:36+0000'
+    from:
+      name: Waleed Allam
+      id: '1800184246666935'
+    message: اشتغل virtual احسن
+    id: '1417490514957319'
+  - created_time: '2017-03-11T13:04:41+0000'
+    from:
+      name: Mohammed Hussien
+      id: '10154922289347024'
+    message: ممكن يحصل معاك ان البوتلودر بتاع اللينكس يربليس البوتلودر بتاع الويندوز
+      ويفتح لينكس بس كل مرة!
+    id: '1417491018290602'
+  - created_time: '2017-03-11T13:14:51+0000'
+    from:
+      name: Mina Sameh
+      id: '10156208598339446'
+    message: "بص انت فى اى case خلى معاك linux live على usb علشان لو حصل اى حاجه ممكن
+      تستخدم Boot-repair فى 99% من الحالات حيخلى grub يشوف windows \nحاله واحده الى
+      تخاف منها لو الbios mode كان UEFI ساعتها وانت بتنزل linux ممكن حاجات مش ظريفه
+      تحصل انا كانت عندى الcase دى ان linux مكانش شايف الhard اصلا ولما اقلب ال bios
+      mode ل legacy كان linux بيشوف الhard لكن windows مكانش بي boot خالص فا انا اضطريت
+      اشيل windows واحطه تانى وانا legacy ساعتها الدنيا مشيت"
+    id: '1417497631623274'
+  - created_time: '2017-03-11T13:45:26+0000'
+    from:
+      name: Robert Nabil
+      id: '1317736788371656'
+    message: الفكره انه لازم يكون الويندوز و اللينكس علي نفس ال mode يعني يا اما الاتنين
+      legacy يا اما الاتنين  uefi
+    id: '1417519381621099'
+  - created_time: '2017-03-11T14:57:36+0000'
+    from:
+      name: Marwan Nabil Baghdad
+      id: '1732181426802228'
+    message: شغال عندي على الUEFI زى الفل, أنت اقفل الfastboot بس و لو ماشفاش الUSB
+      شغل الlegacy usb mode
+    id: '1417572088282495'
+  - created_time: '2017-03-11T20:08:36+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: I had no issues with that, it is Windows that does not see Linux not
+      the other way round.
+    id: '1417789264927444'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF4TnpRNE56UXdNVFl5TkRJNU56b3hORGc1TWpNM01UWTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF4TnpjNE9USTJORGt5TnpRME5Eb3hORGc1TWpZAeU9URTIZD

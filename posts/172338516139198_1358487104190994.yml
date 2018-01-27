@@ -1,0 +1,67 @@
+---
+message: "i want remote desktop / workstation running Linux im not gone to use it
+  as web server however i want access the GUI using some rdp client and use it for
+  my work coding and stuff like that   i dont know if there are any services like
+  that \nif there recommend one with good prices ?"
+from:
+  name: Ahmed Mahmoud
+  id: '1917940025202392'
+type: status
+created_time: '2017-01-19T00:34:12+0000'
+updated_time: '2017-01-19T16:44:15+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1358487104190994/
+id: '172338516139198_1358487104190994'
+reactions:
+  data:
+  - id: '10211133743526304'
+    name: Hager Saleh
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRRek9EUTBNekkyTlRveE5EZAzBPREUxT1RFM09qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRRek9EUTBNekkyTlRveE5EZAzBPREUxT1RFM09qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2017-01-19T00:43:58+0000'
+    from:
+      name: Emad Saeed
+      id: '1775266282497365'
+    message: it's not typical rdp but I think teamviewer can do the job, it doesn't
+      charge you for personal use
+    id: '1358499974189707'
+  - created_time: '2017-01-19T05:47:29+0000'
+    from:
+      name: Ahmed Atalla
+      id: '574320702905312'
+    message: Try c9.io, it gives you a Linux VM with IDE in the browser
+    id: '1358869070819464'
+  - created_time: '2017-01-19T06:02:40+0000'
+    from:
+      name: Mohamad Kamal
+      id: '10155224465177344'
+    message: just use ssh with your home pc
+    id: '1358876500818721'
+  - created_time: '2017-01-19T06:04:07+0000'
+    from:
+      name: Mohamed Ahmed
+      id: '385696705226073'
+    message: Use cloud 9 dude
+    id: '1358879207485117'
+  - created_time: '2017-01-19T06:45:32+0000'
+    from:
+      name: Mina YM
+      id: '10156157323332990'
+    message: A Digital Ocean or free 12-months cloud server from AWS, install gnome
+      or XFCE on a ubuntu server image and connect with VNC.
+    id: '1358895107483527'
+  - created_time: '2017-01-19T16:44:13+0000'
+    from:
+      name: Mohammad Alaggan
+      id: '10154985539677085'
+    message: You can mount the remote file system on your local machine using sshfs,
+      then do the coding locally using your preferred IDE.
+    id: '1359246990781672'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0xT0RRNU9UazNOREU0T1Rjd056b3hORGcwTnpnMk5qTTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0xT1RJME5qazVNRGM0TVRZAM01qb3hORGcwT0RRME1qVXoZD

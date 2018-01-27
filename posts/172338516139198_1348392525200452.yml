@@ -1,0 +1,109 @@
+---
+message: ممكن حد يفهمني قصة "الأرقام العجيبة" في Javascript ؟
+link: https://www.facebook.com/photo.php?fbid=681004575393500&set=gm.1348392525200452&type=3
+from:
+  name: Osama Soliman
+  id: '879271768900112'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/15894614_681004575393500_4755848047504278497_n.jpg?oh=5856d2b6ca73df9db889c88507f893f8&oe=5AD97E62
+created_time: '2017-01-07T23:55:39+0000'
+updated_time: '2017-01-08T08:57:15+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1348392525200452/
+id: '172338516139198_1348392525200452'
+reactions:
+  data:
+  - id: '1141111542687678'
+    name: Mohammed Refaat
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXpOalkxTWprNE56VTBPakUwT0RRd056azNOVGc2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXpOalkxTWprNE56VTBPakUwT0RRd056azNOVGc2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-01-07T23:57:11+0000'
+    from:
+      name: احمد قرواش
+      id: '1561022257326859'
+    message: "حسب الرقم ده جالك منين راقب في ال Network عندك وهتلاقي ال scripts كلها
+      الس بتشتغل وال ريكوستات \nوقتها هتعرف الارقام وال parms"
+    id: '1348393261867045'
+  - created_time: '2017-01-08T00:00:30+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: http://stackoverflow.com/questions/18548676/c-ive-just-read-that-floats-are-inexact-and-do-not-store-exact-integer-values
+    id: '1348394428533595'
+  - created_time: '2017-01-08T00:01:36+0000'
+    from:
+      name: Adel Aly
+      id: '10213557429243435'
+    message: |-
+      Look up 'precision' on this page
+      http://www.w3schools.com/js/js_numbers.asp
+    id: '1348394808533557'
+  - created_time: '2017-01-08T00:09:08+0000'
+    from:
+      name: Mustafa Zain Eddin
+      id: '1408230762638791'
+    message: |-
+      Javascript is very wearied according to numbers:
+      https://www.destroyallsoftware.com/talks/wat
+      https://www.youtube.com/watch?v=2pL28CcEijU
+    id: '1348397618533276'
+  - created_time: '2017-01-08T00:26:13+0000'
+    from:
+      name: Ahmed Atalla
+      id: '574320702905312'
+    message: "May be its related to this \n\nhttp://g0alkeeper.blogspot.com.eg/2016/01/nodejs.html"
+    id: '1348404088532629'
+  - created_time: '2017-01-08T00:43:59+0000'
+    from:
+      name: Taha Amin
+      id: '10155815529215590'
+    message: strint – a JavaScript library for string-encoded integers https://github.com/rauschma/strint
+    id: '1348413241865047'
+  - created_time: '2017-01-08T01:19:00+0000'
+    from:
+      name: Ibrahim Mosaad
+      id: '10155791510564457'
+    message: "I am not sure if someone answered this or not but I had a quick look
+      into the comments and I do not think there was an answer ... the data type representation
+      in JavaScript is 64bit with float point representation. This means that the
+      first 52 (0-51) bits are there to represent the number and the bits from 52-63
+      are there to represent the decimal point. \n\nThe mantissa part of 9333852702227987
+      has 1 in the bit number 53 which will get ignored when transferring it into
+      a Number object :) \n\nDid that help?\n\nOsama Soliman\nResource: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#Number_type"
+    id: '1348431271863244'
+  - created_time: '2017-01-08T05:00:14+0000'
+    from:
+      name: Ahmed Moosa
+      id: '10210990493546895'
+    message: "طيب اجمع دول كده \n2.0+1.0 \nوشوف الناتج . مش 3.0 \nJavaScript\nعندها
+      مشاكل فى ال design بتاعها اللى سمعته من  crockford"
+    id: '1348574645182240'
+  - created_time: '2017-01-08T08:51:55+0000'
+    from:
+      name: Tarek Ahmed
+      id: '10215440197777018'
+    message: |-
+      you can use this library for big Integers
+      https://www.npmjs.com/package/big-integer
+    id: '1348684311837940'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0wT0RNNU16STJNVGcyTnpBME5Ub3hORGd6T0RNek5ETXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0wT0RZANE5ETXhNVGd6TnprME1Eb3hORGd6T0RZAMU5URTQZD
+attachments:
+  data:
+  - description: ممكن حد يفهمني قصة "الأرقام العجيبة" في Javascript ؟
+    media:
+      image:
+        height: 308
+        src: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/15894614_681004575393500_4755848047504278497_n.jpg?oh=4b974f244d10a6149b6f85eaf180cd67&oe=5B215B9D
+        width: 720
+    target:
+      id: '681004575393500'
+      url: https://www.facebook.com/photo.php?fbid=681004575393500&set=gm.1348392525200452&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=681004575393500&set=gm.1348392525200452&type=3

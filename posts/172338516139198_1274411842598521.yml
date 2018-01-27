@@ -1,0 +1,47 @@
+---
+message: |+
+  hi guys , please if anybody interested in entity-framework - code first try to solve this problem,
+
+  this problem happens when adding a migration and connection string stored in a text file
+
+link: http://stackoverflow.com/questions/40330314/migration-with-dynamic-connection-string-in-entity-framework-code-first-the-con
+from:
+  name: Beshoy Hindy
+  id: '10155392799168042'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQA4atFBdowvWO-S&w=130&h=130&url=http%3A%2F%2Fcdn.sstatic.net%2FSites%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded%26a&cfs=1&sx=0&sy=0&sw=316&sh=316&_nc_hash=AQDYVbPw7-vNSk2Z
+created_time: '2016-10-30T15:04:13+0000'
+updated_time: '2016-10-30T16:10:58+0000'
+name: migration with dynamic connection string in Entity Framework Code First (the
+  connection string from text file)
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1274411842598521/
+id: '172338516139198_1274411842598521'
+comments:
+  data:
+  - created_time: '2016-10-30T15:27:38+0000'
+    from:
+      name: Mhmd Amin
+      id: '10155268760762467'
+    message: Where in your code the part that told the EF about your Settings.txt
+      file ?
+    id: '1274433352596370'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkzTkRRek16TTFNalU1TmpNM01Eb3hORGMzT0RReE1qVTUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkzTkRRek16TTFNalU1TmpNM01Eb3hORGMzT0RReE1qVTUZD
+attachments:
+  data:
+  - description: 'I''m using ef6 code first and at the first, I put the connection
+      string in a text file called ''Settings.txt'' -the data in the ''Settings.txt''
+      file is DataProvider: sqlserver DataConnectionString: ...'
+    media:
+      image:
+        height: 316
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAntEGj6KNL8I7m&w=316&h=316&url=http%3A%2F%2Fcdn.sstatic.net%2FSites%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded%26a&cfs=1&sx=0&sy=0&sw=316&sh=316&_nc_hash=AQAI6p974RoCbfNJ
+        width: 316
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F40330314%2Fmigration-with-dynamic-connection-string-in-entity-framework-code-first-the-con&h=ATOYCU0BnwzsD8oBTUwTt057xw8Mw4ClpgguZdANT_g24avVZI4ODPsXj1e6dCSkoqnYbPk0OMvyf5IVm75P3lyMtywCuudjWpru&s=1&enc=AZOiq1Nd7hpRjl4CDcXqzAYIKo58fn7jDOnVmf_67tjcYTJ1z3AYGDkdHGLrYgUq6-ZpAAz0s5r08jrwXAzIvlnf
+    title: migration with dynamic connection string in Entity Framework Code First
+      (the connection string from text file)
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F40330314%2Fmigration-with-dynamic-connection-string-in-entity-framework-code-first-the-con&h=ATOYCU0BnwzsD8oBTUwTt057xw8Mw4ClpgguZdANT_g24avVZI4ODPsXj1e6dCSkoqnYbPk0OMvyf5IVm75P3lyMtywCuudjWpru&s=1&enc=AZOiq1Nd7hpRjl4CDcXqzAYIKo58fn7jDOnVmf_67tjcYTJ1z3AYGDkdHGLrYgUq6-ZpAAz0s5r08jrwXAzIvlnf

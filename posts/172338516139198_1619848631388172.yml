@@ -1,0 +1,126 @@
+---
+message: "hello geeeks ,, \ni've wierd Question that i search for it  alot and i can't
+  finding solution for it ,, untill I came to the idea that it was difficult to be
+  impossible  ,,\n\ncan i pull response from ajax req with any shape of it  like jqAjax
+  , axios with promises ,, request with callbacks  to asign it outer variable or outer
+  ajaxFun enviorment and use it at different places with es6 modules  ,, without any
+  help of browser data-storage apps like local storage or indexedDB..\n\nso for ex
+  :\n\nin first screenshot i have class called datastore that fetch data \nthen save
+  it into dataCon \n\nin second one i create instance ,  get data and save it to var
+  called x  then return it ,, then when i try to use this x object to render my temp
+  it's undefiend anyway  \n\nthen here"
+link: https://www.facebook.com/photo.php?fbid=1555142597897777&set=gm.1619848631388172&type=3
+from:
+  name: Muhammed Yousrii
+  id: '1680311882047514'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/22154145_1555142597897777_53209343023198811_n.jpg?oh=d874200149323617d6916e8dcd3f09e0&oe=5AD7E7ED
+created_time: '2017-09-29T15:21:30+0000'
+updated_time: '2017-09-30T08:20:45+0000'
+name: Photos from Muhammed Yousrii's post
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1619848631388172/
+id: '172338516139198_1619848631388172'
+reactions:
+  data:
+  - id: '1569270646495436'
+    name: Muhammad Reda
+    type: LIKE
+  - id: '403777313391852'
+    name: أحمد
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlNemMxTkRZAME56azBPakUxTURZAM01UQXlNekE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01ERXlOemczTmpBMU56RTBPakUxTURZAMk9UazROVEk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-09-29T16:25:10+0000'
+    from:
+      name: Mohamed Nabil
+      id: '941919879288729'
+    message: |-
+      Yousrii May be this help!, line 14 and 15 on first screen shot ... res object is stream object you can't access data directly, you have to listen for data emitted then collect them and assign them to dataCon var ... or use bl (buffer list) module on npm and require it . Try this on line 15:
+      res.pipe(bl(function(err, data) {
+          this.dataCon = data.toString();
+      }));
+    id: '1619895728050129'
+  - created_time: '2017-09-29T16:26:24+0000'
+    from:
+      name: Mohamed Nabil
+      id: '941919879288729'
+    message: Also use debugger
+    id: '1619896458050056'
+  - created_time: '2017-09-29T17:28:30+0000'
+    from:
+      name: Ahmed Atalla
+      id: '574320702905312'
+    message: "The get() method should return a promise like this \n\nreturn this.axios.get(this.URL+this.query),
+      don't use then here\n\nAfter that get the value \n\nthis.datastore.get().then(x
+      => {})"
+    id: '1619934218046280'
+  - created_time: '2017-09-29T19:37:58+0000'
+    from:
+      name: Rafael Youakeem
+      id: '10155364957371909'
+    message: |-
+      The main concept here is that ajax requests are asynchronous by nature and you never really know when it will be resolved.
+
+      In your code you are trying to access the variable before the promise is resolved and thus it's undefined.
+
+      You need to wait for the promise to resolve before trying to use it's data, try the solution suggested by Ahmed Atalla and let us know how it went!
+    id: '1620009134705455'
+  - created_time: '2017-09-30T08:16:51+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: |-
+      Dude, u forgot to bind ur fn to class :'(, es6 classes doesn't support autobind, screen 1 line15 this.dataCon refer to this of the caller not the class.
+      Tips:- dont bind global vars to ur class, its not how js works, aslo
+      Axios is not stream, its a promise based and u r uding if just fine
+    id: '1620401467999555'
+  - created_time: '2017-09-30T08:20:42+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: |-
+      This.get = this.get.bind(this):
+      Or u can devlare get as,
+      Get = () =>{
+      ```
+      }
+       And it will automatically get access to this
+    id: '1620403534666015'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl4T1RnNU5UY3lPREExTURFeU9Ub3hOVEEyTnpBeU16RXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl5TURRd016VXpORFkyTmpBeE5Ub3hOVEEyTnpVNU5qUXkZD
+attachments:
+  data:
+  - subattachments:
+      data:
+      - media:
+          image:
+            height: 404
+            src: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/22050896_1555142597897777_53209343023198811_o.jpg?oh=d4045abc82db220a5eee1e35ace39a01&oe=5B228F40
+            width: 720
+        target:
+          id: '1555142597897777'
+          url: https://www.facebook.com/photo.php?fbid=1555142597897777&set=gm.1619848631388172&type=3
+        type: photo
+        url: https://www.facebook.com/photo.php?fbid=1555142597897777&set=gm.1619848631388172&type=3
+      - media:
+          image:
+            height: 404
+            src: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/22042313_1555142791231091_8957882998395968787_o.jpg?oh=f5dcbbbd7094f7db7ced7288636ad801&oe=5B1DB43B
+            width: 720
+        target:
+          id: '1555142791231091'
+          url: https://www.facebook.com/photo.php?fbid=1555142791231091&set=gm.1619848631388172&type=3
+        type: photo
+        url: https://www.facebook.com/photo.php?fbid=1555142791231091&set=gm.1619848631388172&type=3
+    target:
+      id: '1619848631388172'
+      url: https://www.facebook.com/media/set/?set=pcb.1619848631388172&type=1
+    title: Photos from Muhammed Yousrii's post
+    type: album
+    url: https://www.facebook.com/media/set/?set=pcb.1619848631388172&type=1

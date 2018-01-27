@@ -1,0 +1,36 @@
+---
+message: |-
+  عندى سؤليين
+  - هو المواقع اللى بتستخدم ال Captcha اللى فى الموقع ب js الكلام دة صح ولا غلط ؟؟؟
+  - هو انا شغال فى موقع كل الشغل بتاعة بيقدم service download لكتب طبية فجه فى دماغى انى اخزن الكتب اللى حجمها صغير فى الداتابيز على شكل byte بحيث انها تكون جاهزة فى صورة byte ومعملش load على ال server فى انه يضيع وقت فى التحويل ل byte فهل دة صح ولا اخلى ال database شيلة ال path ذى مهى وخلاص ؟؟؟
+from:
+  name: Ahmed Abo Mazin
+  id: '1758521440903748'
+type: status
+created_time: '2016-05-02T15:00:07+0000'
+updated_time: '2016-05-02T15:38:24+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1136052066434500/
+id: '172338516139198_1136052066434500'
+reactions:
+  data:
+  - id: '1487671784675336'
+    name: Mohamad Emad
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlPVGMxT0RjM05qZAzFPakUwTmpJeU1USXdPVGM2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlPVGMxT0RjM05qZAzFPakUwTmpJeU1USXdPVGM2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-05-02T15:23:54+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      1- No, you need to verify the result of the captcha on the backend.
+      2- Storing files directly on the database is usually a bad idea, you should just store the filename (or path) instead. I'm 100% sure about why it's a bad idea though.
+    id: '1136067979766242'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV6TmpBMk56azNPVGMyTmpJME1qb3hORFl5TWpBeU5qTTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV6TmpBMk56azNPVGMyTmpJME1qb3hORFl5TWpBeU5qTTAZD

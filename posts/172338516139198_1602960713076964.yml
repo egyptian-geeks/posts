@@ -1,0 +1,55 @@
+---
+message: |-
+  السلام عليكم:عندي مشكلة مابعرف هل هي من IOS  , ولا هوست الويب  المشكلة كالتالي: تطبيق ios بيستخدم webview   وفي spalsh بيعرض اللوجو اول ما اعمل install بيفتح عادي وبيشتغل لو قفلته وفتحته تاني صورة اللوجو مابتروح هي القصة عم تحصل للاشخاص الي عم ينزلو التطبيق خارح مصر انما الي عم ينزل التطبيق بمصر تمام وهي في فيديوهين ليوضحو المشكلة واحد من مصر( https://www.youtube.com/watch?v=EpPUe4VGYzU&feature=youtu.be
+  ) والتاني من اوربا  ياريت تفيدوني شو سبب المشكلة هل هو قصة host ??
+link: https://www.facebook.com/2043915849171470/videos/1983994025163653
+from:
+  name: Alaa Nour
+  id: '2043915849171470'
+type: video
+picture: https://scontent.xx.fbcdn.net/v/t15.0-10/s130x130/21560200_1983996671830055_6786241433704595456_n.jpg?oh=2a2e17e5ff566ea7283600b5a6fad031&oe=5B1B604E
+created_time: '2017-09-10T01:00:25+0000'
+updated_time: '2017-09-10T21:32:38+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1602960713076964/
+id: '172338516139198_1602960713076964'
+comments:
+  data:
+  - created_time: '2017-09-10T01:07:45+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: |-
+      خلينا نصلح المشاهدة:
+      هل الإعدادات المحلية واحدة في الجهازين؟!
+    id: '1602965919743110'
+  - created_time: '2017-09-10T01:32:00+0000'
+    from:
+      name: Mohamed Hisham
+      id: '10155927653208847'
+    message: |-
+      وعليكم السلام
+      يعني هو بالتخمين ممكن يكون في فايل js او css او صورة مثلا مش بيتم تحميله لما تكون خارج مصر او ساعات بيتحمل وساعات لا علشان كدا ال loading. بيفضل موجود
+      لكن علشان تكتشف المشكلة دي في كذا طريقة مثلا لو ينفع تفتح نفس الموقع من سفاري وتشوف هل بيفضل اللوجو معلق او لا كمان هل اللوجو دا من البرنامج نفسه ولا من داخل صفحة الويب لاني ملاحظ انه مش بيختفي حتي لو فتحت صفحات مختلفة معني كدا ممكن يكون من البرنامج نفسه مش من الويب ، الموضوع محتاج معلومات اكتر علشان تعرف ليه مش بتختفي، كمان لو ينفع تعمل inspect element عن طريق انك توصل الجهاز يماك ومنه تفتح  safari وتشوف في ايه المشكلة من ال console log
+    id: '1602977736408595'
+  - created_time: '2017-09-10T21:32:35+0000'
+    from:
+      name: Yousef Hamza
+      id: '10155476910093471'
+    message: This is a website issue not ios
+    id: '1603676016338767'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl3TWprMk5Ua3hPVGMwTXpFeE1Eb3hOVEExTURBMU5qWTEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl3TXpZAM05qQXhOak16T0RjMk56b3hOVEExTURjNU1UVTIZD
+attachments:
+  data:
+  - media:
+      image:
+        height: 656
+        src: https://scontent.xx.fbcdn.net/v/t15.0-10/21560200_1983996671830055_6786241433704595456_n.jpg?oh=5eae3dad6b5b206df862d22aec5ad6ef&oe=5AE66A35
+        width: 368
+    target:
+      id: '1983994025163653'
+      url: https://www.facebook.com/alaa.digoo/videos/1983994025163653/
+    type: video_inline
+    url: https://www.facebook.com/alaa.digoo/videos/1983994025163653/

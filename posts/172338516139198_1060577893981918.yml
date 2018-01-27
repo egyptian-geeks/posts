@@ -1,0 +1,162 @@
+---
+message: |-
+  السلام عليكم
+
+  من فضلكم يا شباب انا مطلوب منى اعمل مشروع عشان مجموعة مستخدمين يخزنوا ملفات عليه - رغم ان العميل رافض فكرة Google Drive - عشان هو عاوز يضمن سرية بياناته !!
+
+  فليا سؤالين من فضلكم
+
+  المهم هل الصح انى اخلى الملفات اللى تترفع تتخزن على Google Drive او OneDrive (يعنى ده افضل) والا اخلى الملفات تتخزن على الهوست اللى عليه الموقع عادى ؟
+
+  كمان هو طالب ان يكون فى فولدر عنده على الجهاز يحط فيه الملف ويترفع تلقائيا زى غالبية برامج المواقع السابقة - فده ممكن تكون فكرته ايه برده ؟
+from:
+  name: Ahmed Amin
+  id: '1962172197389574'
+type: status
+created_time: '2016-01-11T07:48:10+0000'
+updated_time: '2016-01-12T11:45:44+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1060577893981918/
+shares:
+  count: 1
+id: '172338516139198_1060577893981918'
+reactions:
+  data:
+  - id: '1772542006152666'
+    name: Mohamed AbuIssa
+    type: LIKE
+  - id: '10155855162041047'
+    name: Mohamed Omar Zaian
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhPVEEyTlRBNU16RXlPakUwTlRJMU1EUXlOalU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TlRFME1UQXhNRFEyT2pFME5USTBPVGcyTURjNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-01-11T07:50:05+0000'
+    from:
+      name: Mohamed Omar Zaian
+      id: '10155855162041047'
+    message: فيه سوفت وير بيعمل نفس اللى بيعمله Google Drive and OneDrive وممكن تنزلهوله
+      على السيرفر ويستخدمه اسمه  ownCloud
+    id: '1060579293981778'
+  - created_time: '2016-01-11T07:50:39+0000'
+    from:
+      name: Ahmed Amin
+      id: '1962172197389574'
+    message: ينفع ينزل على سيرفر الهوست ؟ انا واخد هوست من arvixe
+    id: '1060579393981768'
+  - created_time: '2016-01-11T07:52:26+0000'
+    from:
+      name: Mohamed Omar Zaian
+      id: '10155855162041047'
+    message: هو ينفع ينزل اكيد بس هو محتاج حاجات تانية تشغله زى ان الهوست يبقى عليه
+      داتابيز mysql وويب سيرفر  apache وطبعاً ال php dependencies لأنه مكتوب ب  php
+    id: '1060579843981723'
+  - created_time: '2016-01-11T07:52:57+0000'
+    from:
+      name: Ahmed Amin
+      id: '1962172197389574'
+    message: طيب لو منفعش ايه الحل الانسب من خلال اللى كتبته
+    id: '1060579967315044'
+  - created_time: '2016-01-11T07:54:34+0000'
+    from:
+      name: Mohamed Omar Zaian
+      id: '10155855162041047'
+    message: حضرتك ده آئمن حل لو مش مستعد تستخدم البرامج الجاهزة وممكن برضه ننتظر
+      نشوف اقتراحات تانية من اعضاء الجروب
+    id: '1060580663981641'
+  - created_time: '2016-01-11T08:00:17+0000'
+    from:
+      name: Mahmoud Tantawy
+      id: '10156115350739764'
+    message: |-
+      لازم توضح للعميل بتاعك ان حتى لو ownCloud اشتغل ف انه على shared hosting يعنى مفيش security خالص و انه لو مصر يبعد عن google drive و one drive يبقى على الاقل يشترى VPS من حاجة زى Digital Ocean او Linode و وضحله انه بنفس التمن فى الشهر يقدر ياخد service محترمة و secure من الVPS احسن من الshared hosting كتير
+
+      بس ساعتها هيكون ليك دور فى تجهيز الVPS سيرفر و تأمينه، بس برضه ده ليه tutorials كتيرة جدا تقدر تساعدك او اسأل هنا و الكل هيساعدك
+    id: '1060582190648155'
+  - created_time: '2016-01-11T08:01:14+0000'
+    from:
+      name: Islam Eldemery
+      id: '10159774797555461'
+    message: انسب حل من وجهة نظري شيربوينت فاونديشن ببلاش من ميكروسوفت كل اللي محتاجه
+      ويندوز سيرفر بس وهيديلك كل حاجة وكمان تقدر تعمل الفولدر على جهاز العميل او حتى
+      ماب درايف لان الشيربوينت بيستخدم بروتوكول الويب داف
+    id: '1060582400648134'
+  - created_time: '2016-01-11T08:31:04+0000'
+    from:
+      name: Shady Mohamed Sherif
+      id: '10156191099748000'
+    message: طيب مما تستخدم جوجل drive وتعمله encryption للملفات وتبني انتا البرنامج
+      اللي بيشفر ويفك ،، اعتقد google ليهم api هتسهل عليك الشغل جدا
+    id: '1060592043980503'
+  - created_time: '2016-01-11T08:55:01+0000'
+    from:
+      name: Mustafa Al Gharbawy
+      id: '1894669443939000'
+    message: "انا بئا عندى فضول اكتر \nعميل ايه دا الى عايز يبعد الداتا بتاعته عن
+      جوجل\nيا ترى ايه نوع الداتا :D"
+    id: '1060600807312960'
+  - created_time: '2016-01-11T08:58:02+0000'
+    from:
+      name: Mohamed Omar Zaian
+      id: '10155855162041047'
+    message: حضرتك بتبقى فى الغالب سياسة ونظام شركة ان ممنوع اى داتا تبقى برة السيرفرات
+      الخاصة بيها او الداتا سنتر وبتبقى ناس قارية وفاهمة ان مفيش privacy خالص على
+      الداتا وممكن الشركة اللى بتستضيف الداتا قانونياً من حقها تطلع على الداتا وهكذا
+    id: '1060601630646211'
+  - created_time: '2016-01-11T10:42:07+0000'
+    from:
+      name: Hesham White
+      id: '10214038659628102'
+    message: |-
+      ممكن تظبط svn علي ال server ب username و pass
+      ,,وتعمل app (جافا مثلا) مع api زي svnkit  ت access بيه ال server.
+    id: '1060632350643139'
+  - created_time: '2016-01-11T10:53:31+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: "سيادتك هتحتاج Document Management System \nتقدر تشوف حاجة زي دي:\nhttp://www.openkm.com/en/"
+    id: '1060635987309442'
+  - created_time: '2016-01-11T12:33:21+0000'
+    from:
+      name: Ahmed Abd El Hady
+      id: '10155994963444544'
+    message: 'Dropbox is the best solution for your case "I tried Myself" : 1- have
+      a mapped local folder 2- many users with different permissions can share same
+      folder 3- very simple'
+    id: '1060675337305507'
+  - created_time: '2016-01-11T23:29:08+0000'
+    from:
+      name: Ben Othman
+      id: '1731136486948588'
+    message: 'Said Bakr I agree with your suggestion OpenKM can be the right tool
+      especially it is possible to use OpenKM with google Docs & Zoho here is the
+      video: https://www.youtube.com/watch?v=X6cpkBQ9AnE  Ahmed Amin what is wrong
+      with Google Drive? not secure enough ? or your customer is against USA based
+      cloud? (Patriotic Act, NSA...) I would suggest your customer to safely use Google
+      cloud with 2 FA activated (you can use group permission within the same organization)
+      but again what your customer mean by "data protection" or "data privacy"? if
+      you use any cloud (forget VPS, because you need to work so much more to bring
+      up only 10 % what Google Drive offering in term of security)  and if we speak
+      about security, we need to talk about C.I.A (confidentiality, Integrity, Availability)
+      so Google Drive will ensure the availability (also backup of the files => if
+      your customer misses an element, he can''t  talk about data security) and I
+      believe the main worry should be in the local copy (in the computer) Ahmed Abd
+      El Hady forget Dropbox http://www.businessinsider.com/professor-suffers-dropbox-nightmare-2013-9?IR=T  &
+      http://www.idigitaltimes.com/dropbox-loses-user-data-how-drop-dropbox-389712.
+      Not sure about box.com refer to: http://www.itworld.com/article/2833267/it-management/how-box-com-allowed-a-complete-stranger-to-delete-all-my-files.html.
+      Your customer need to find the balance between cost / security / usability...
+      Otherwise I would be happy to learn from him!'
+    id: '1060932280613146'
+  - created_time: '2016-01-12T11:45:44+0000'
+    from:
+      name: Ibrahim Al-maradny
+      id: '1491318780967328'
+    message: ممكن تجرب Amazon S3 التعامل معاها سهل و بسيط
+    id: '1061150360591338'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEEyTURVM09USTVNems0TVRjM09Eb3hORFV5TkRrNE5qQTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEEyTVRFMU1ETTJNRFU1TVRNek9Eb3hORFV5TlRrNU1UUTAZD

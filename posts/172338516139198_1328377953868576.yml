@@ -1,0 +1,26 @@
+---
+message: "I've some trouble with java serial communication \nI tried to install RxTX
+  lib and it returns no ports when calling\n\"     enumComm = CommPortIdentifier.getPortIdentifiers();\n\"\nI
+  switched to jssc lib and still have the same problem \nany help!\nmy machine runs
+  on win 10 x64."
+from:
+  name: Bishoy Abd Lamey
+  id: '1809349152432380'
+type: status
+created_time: '2016-12-15T20:09:04+0000'
+updated_time: '2016-12-15T20:19:30+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1328377953868576/
+id: '172338516139198_1328377953868576'
+comments:
+  data:
+  - created_time: '2016-12-15T20:19:28+0000'
+    from:
+      name: Ahmed AboRahma
+      id: '1826024707472018'
+    message: I searched in documentation and it said the method "getPortIdentifiers()"
+      should take a parameter of CommPort object obtained from a previous open
+    id: '1328385137201191'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE15T0RNNE5URXpOekl3TVRFNU1Ub3hORGd4T0RNek1UWTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE15T0RNNE5URXpOekl3TVRFNU1Ub3hORGd4T0RNek1UWTQZD

@@ -1,0 +1,55 @@
+---
+message: |-
+  I am using Eclipse for java. when I run my code it throws me java.lang.OutOfMemory. I searched on google and I increased the heap space size to -Xmx2024m in Arguments tab
+  but nothing happens!
+from:
+  name: Ahmed Ramadan
+  id: '1782255465140846'
+type: status
+created_time: '2017-09-26T11:32:14+0000'
+updated_time: '2017-09-29T23:03:09+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1617204191652616/
+id: '172338516139198_1617204191652616'
+reactions:
+  data:
+  - id: '10156089330442292'
+    name: Hany Ahmed
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRJNU5ETTNNamt4T2pFMU1EWTNNVEk0TkRNNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRJNU5ETTNNamt4T2pFMU1EWTNNVEk0TkRNNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-09-26T11:36:49+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: You posted twice fam, remove one of them.
+    id: '1617206761652359'
+  - created_time: '2017-09-26T11:53:07+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: Either buy more RAM or use less?
+    id: '1617215701651465'
+  - created_time: '2017-09-26T12:10:10+0000'
+    from:
+      name: عمرو علي
+      id: '10159891311520297'
+    message: You need to set this in the specific run configuration you use to launch
+      your application, usually you have 2 run configuration (run and debug) per each
+      class that has main method.
+    id: '1617232224983146'
+  - created_time: '2017-09-29T19:20:37+0000'
+    from:
+      name: Hany Ahmed
+      id: '10156089330442292'
+    message: |-
+      You should have approximate expectation about the needed memory
+      You can include a library like JavaMelody which tells you about memory usage and which objects fills your memory
+    id: '1619998508039851'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl4TnpJd05qYzJNVFkxTWpNMU9Ub3hOVEEyTkRJMU9EQTUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl4T1RrNU9EVXdPREF6T1RnMU1Ub3hOVEEyTnpFeU9ETTMZD

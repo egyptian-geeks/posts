@@ -1,0 +1,232 @@
+---
+message: |-
+  هو ايه المطلوب مني كديلفوبر من حيث السيكورتي بتاع الابليكشن..هل كل المطلوب اعرف ال classes و methods اللي بتوافرها اللغه بتاعتي و الفلاتر و امنع ال sql injection ولا في موضوعات اكتر و اكبر من كده بكتير ؟
+  ********
+  وامتي و ازاي اعرف ان الابليكشن بقي علي مستوي كبير من ال security خصوصا لو عندي فيه شات و login system؟
+  *******
+  ملحوظه : انا شغال ب asp.net mvc 5
+from:
+  name: Ahmed Khalifa
+  id: '1999765416908747'
+type: status
+created_time: '2017-09-03T21:33:46+0000'
+updated_time: '2017-09-05T08:43:06+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1597781576928211/
+shares:
+  count: 3
+id: '172338516139198_1597781576928211'
+reactions:
+  data:
+  - id: '10155729838410546'
+    name: Ahmed Abousamra
+    type: LIKE
+  - id: '1426153664180879'
+    name: Mustafa Jalal
+    type: LIKE
+  - id: '10215222242286791'
+    name: Ahmed Ismail
+    type: LIKE
+  - id: '10214752922447534'
+    name: Memo Mata
+    type: LIKE
+  - id: '10156161428368658'
+    name: Amr Mekkawy
+    type: LIKE
+  - id: '158547971463325'
+    name: Mohamed Mohamedy
+    type: LIKE
+  - id: '1499111030186956'
+    name: Mahmoud Reda
+    type: LIKE
+  - id: '1689045204486615'
+    name: Khaled Ghonaim
+    type: LIKE
+  - id: '10208478691244351'
+    name: Mohamad Nabih
+    type: LIKE
+  - id: '2300660676827545'
+    name: Walid Mohammed Ali
+    type: LIKE
+  - id: '569745506725503'
+    name: Mohamed Elgendy
+    type: LIKE
+  - id: '980575922099042'
+    name: Yosra Hamza
+    type: LIKE
+  - id: '10215119627525954'
+    name: Ahmed Gomaa
+    type: LIKE
+  - id: '1585262108176112'
+    name: Menna Okasha
+    type: LIKE
+  - id: '1415683565208463'
+    name: Ahmed Zahran
+    type: LIKE
+  - id: '1641565752594739'
+    name: Ahmed Aziz
+    type: LIKE
+  - id: '1647792691975867'
+    name: Haithm Haggag
+    type: LIKE
+  - id: '1757932150918002'
+    name: Ahmed Salah
+    type: LIKE
+  - id: '2023270801246970'
+    name: Mohamed Elgohary
+    type: LIKE
+  - id: '10208644725754968'
+    name: Essam Youssef
+    type: LIKE
+  - id: '790235571178099'
+    name: Relina
+    type: LIKE
+  - id: '999826596836080'
+    name: Mohammed Salah
+    type: LIKE
+  - id: '1523937884392266'
+    name: Ahmad Al-Weshahi
+    type: LIKE
+  - id: '10155268760762467'
+    name: Mhmd Amin
+    type: LIKE
+  - id: '10215070655377585'
+    name: Mahmoud Kandeel
+    type: LIKE
+  - id: '10215300742852086'
+    name: Mahmoud Ali
+    type: LIKE
+  - id: '10159942422545405'
+    name: Rania Ahmed
+    type: LIKE
+  - id: '563156290702583'
+    name: Strong Man
+    type: LIKE
+  - id: '1578484165584322'
+    name: Ahmed Bahgat
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRjNU5URXdOVFExT2pFMU1EUTJORGMzTVRJNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQXlOamd5TmpFMU56TXpPakUxTURRME56UTJORGM2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-09-03T21:36:22+0000'
+    from:
+      name: Areeg Ahmed
+      id: '10159968603440224'
+    message: "Check www.owasp.org \nFor common security threats, vulnerabilities &
+      tests \nSome open source tools can be used as well, such as ZAP which is an
+      owasp project too"
+    id: '1597783503594685'
+  - created_time: '2017-09-03T21:55:19+0000'
+    from:
+      name: Samer Ismail
+      id: '10215428278162727'
+    message: 'Also, read more about the different security protocols + these topics
+      : Authentication, Authorization, OpenID, OAuth 2.0, Security Tokens, Identity
+      Providers, ADFS, certificates and certificates authorities PKI, End Point Security,
+      etc....'
+    id: '1597795776926791'
+  - created_time: '2017-09-03T22:15:26+0000'
+    from:
+      name: Mohamed Rashed
+      id: '10155764645725568'
+    message: نصيحه لوجه الله ماتبنيش ال security modules بنفسك
+    id: '1597806676925701'
+  - created_time: '2017-09-03T23:21:43+0000'
+    from:
+      name: Mohamed Tarek
+      id: '10208803437001649'
+    message: Abanoub Moner Ahmed AlSharkawy
+    id: '1597851856921183'
+  - created_time: '2017-09-04T00:01:59+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: "ال Security مش حاجة بتزودها في الآخر أو شوية تحابيش بترشها على المشروع
+      علشان تقول عليه Secure, ال Security هي Process بتبتدي من أول لحظة في المشروع
+      و بتستمر طول التطوير و بعد ما التطوير بينتهي كمان.\nبمعنى\nقبل بداية التطوير,
+      و انت بتصمم النظام, محتاج تعرف و تحدد حاجات كثير, زي ايه ال Layers المختلفة
+      من ال Security و مين المسؤول عنها, يعني على سبيل المثال بعض ال Layers الشائعة\nPhysical
+      Security -> Public Network Security -> Internal Network Security -> Host Security
+      -> Application Security\nكل مرحلة ليها حد مسؤول عنها, بس المهم تبقى عارف مين
+      اللي مسؤول عنها, يعني لو انت حتكتب ال Application بتاعك على حاجة زي Web Hosting
+      فغالباً ال Physical Security بتاعة المكان و السيرفرات من مسؤوليتهم, و ال Public
+      Network و ال Internal Network ممكن يكون ليك فيهم يد مثلاً في تأمين ال DNS Settings
+      بتاعتك و التأكد ان أي خدمات داخلية زي قاعدة بيانات مثلاً معزولة عن ال Public
+      Network و هكذا, لكن لو شركتك أو انت اللي حتملك السيرفرات اللي عليها البيانات
+      و التطبيقات فمحتاج تتأكد ان عندك Physical Security زي أمن و مراقبة و أجهزة انذار
+      و كل الحاجات اللي انت محتاجها علشان ما حدش مثلاً يسرق السيرفرات بالبيانات و
+      التطبيقات اللي عليها و يمشي.\nو بعدين, وصلت لمرحلة انك بتختار اطار العمل بتاعك
+      و نظم التشغيل و كل ما يحتاجه التطبيق بتاعك علشان يشتغل و ده اللي يندرج تحت ال
+      Host Security مثلاً Windows + IIS + SQL Server أو Linux + Apache MySQL أو أي
+      حاجة, لو انت المسؤول عن تأمين الكلام ده, مين حيتأكد ان ال Host ده up to date
+      دائماً على الأقل من ناحية ال Security Patches ؟\nو بعدين وصلت لل Application
+      Security و هنا بتبتدي تصمم النظام بتاعك و تقسمه لخدمات مثلاً مختلفة زي Front
+      End / API / Middle Tier / Back End / Database  .. و خلافه بالاضافة لخدمات خارجية
+      3rd Party ممكن تحتاجها زي مثلاً Google Maps, Facebook, أو أي حاجة , ازاي تقدر
+      تحدد ايه اللي محتاج تعمله؟ فيه أساليب كثير من اشهرها حاجة اسمها Threat Modeling
+      و ده Practice ممتاز و ليه أدوات بتساعدك انك ترسم ال Data Flow بتاع النظام بتاعك
+      و هي بتستنبط منه Possible Threats و انت بناء عليه تقدر تراجعها و تشوف محتاج
+      تزود او تعدل ايه زي مثلاً ممكن تنبهك انك محتاج تشفر الاتصال بين خدمتين أو محتاج
+      تزود Validation و هكذا.\nكل ده في مرحلة التصميم, و بعدين تنتقل لمرحلة الكود,
+      و ساعتها بيبقى فيه تفاصيل كثير في كل تقنية و لغة برمجة محتاج تاخذ بالك منها
+      زي Insecure API's قديمة محتاج تتجنبها, أو انواع خوارزميات تشفير محتاج تعرف بتتعمل
+      ازاي في التقنية بتاعتك, و طبعاً ال Configurations المختلفة محتاج تاخذ بالك كويس
+      قوي و انت بتعملها علشان ممكن ببساطة تفتح التطبيق بتاعك للهجمات عن طريق Incorrect
+      Configuration.و فيه برضه أدوات زي Sonar مثلاً و FX Cop و غيرها اللي بتعمل Static
+      Analysis للكود و بتقولك لو فيه مشاكل أمنية فيه و لا لأ.\nفيه جزء كبير من المشاكل
+      بييجي من حاجة اسمها Secrets Management أو Security Hygiene و ده اللي بيبقى فيه
+      تساهل من المبرمجين في التعامل مع الأسرار زي ال Database Connection Strings أو
+      ال Certificates او ال Passwords و ال Keys المستخدمة في ال Applications و بيبقى
+      غالبا الحاجات دي موجودة في الكود و الناس كلها شايفاها, و ده موضوع كبير لوحده
+      و حله بيختلف حسب نوع ال Environment اللي التطبيق بتاعك شغال فيها سواء Cloud
+      مثلاً أو On Prem \nو طبعاً محتاج تقرا في ال Security علشان تقدر تعرف الحاجة
+      الصح من الغلط, لأن المنشكلة لو معلوماتك في ال Security ضعيفة ممكن تقرا سطر الكود
+      100 مرة و ما تحسش بأي مشكلة مع انه مليان مشاكل."
+    id: '1597873013585734'
+  - created_time: '2017-09-04T13:30:39+0000'
+    from:
+      name: Tarek Dawoud
+      id: '10156109957694861'
+    message: "أعتقد البداية إنك تفهم \"نماذج الهجوم\" على البرنامج بتاعك... اللي هي
+      Threat Modeling اللي محمد بيتكلم عنها... اقرأ تعريفها وشوف هي بتتعمل إزاي:\nhttps://en.wikipedia.org/wiki/Threat_model\n\nمن
+      الآخر بتحلل التصميم بتاع البرنامج بتاعك وتشوف إيه هي مداخل الهاكرز وإيه الحاجات
+      اللي برنامجك بعتمد عليها لأن هي دي اللي الهاكر هايهاجمها... \n\nمثلاً... إيه
+      اللي هايحصل للبرنامج بتاعك لو الميموري اتملت؟ هايكراش ويكشف أسرار ولا هايقع
+      بهداوة؟ طب لو الداتا بيز كونيكشن مش موجودة؟ هاتطلع رسالة كبيرة تفصيلية توضح
+      للهاكر يهاجمك إزاي؟ طيب لو السيرتيفيكيت بتاعتك اتسرقت... هاتلحق تغيرها قبل ما
+      الهاكرز يستخدموها؟"
+    id: '1598350140204688'
+  - created_time: '2017-09-05T04:17:36+0000'
+    from:
+      name: Mosaad Ghaly
+      id: '10155322935023683'
+    message: OWASP Top 10
+    id: '1598942733478762'
+  - created_time: '2017-09-05T06:28:46+0000'
+    from:
+      name: سامح دعبس
+      id: '2022490591345439'
+    message: |-
+      ممكن تبدأ مشروعك من النموذج ده، و هو عظيم جدا
+      https://github.com/johnstaveley/SecurityEssentials/blob/master/README.md
+    id: '1599010803471955'
+  - created_time: '2017-09-05T06:34:25+0000'
+    from:
+      name: سامح دعبس
+      id: '2022490591345439'
+    message: |-
+      و دي برضو
+      https://www.owasp.org/index.php/.NET_Security_Cheat_Sheet
+    id: '1599013043471731'
+  - created_time: '2017-09-05T08:29:11+0000'
+    from:
+      name: Mohamed Rashed
+      id: '10155764645725568'
+    message: https://rehansaeed.com/asp-net-mvc-boilerplate/
+    id: '1599076346798734'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU1TnpjNE16VXdNelU1TkRZANE5Ub3hOVEEwTkRjME5UZAzMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU1T1RBM05qTTBOamM1T0Rjek5Eb3hOVEEwTmpBd01UVTEZD

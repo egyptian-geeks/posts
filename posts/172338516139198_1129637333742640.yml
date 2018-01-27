@@ -1,0 +1,45 @@
+---
+message: "I used to use gitk as an essential tool with git \nI was very productive
+  and comfortable with it.\n\nnow I had to work on mac machine \nafter making the
+  configurations necessary to have gitk in my bash.\n \nI had a weird problem that
+  after opening it by 30 second it hangs and consume 100% of cpu \nthen it returns
+  to normal state and then hangs and so on.\n\nIf you can help me please as I didn't
+  find any other tool that can really replace it for me \nI tried gitx and other tools
+  but it's never like gitk \"in my opinion\""
+from:
+  name: Ahmed Mahmoud
+  id: '1763959737010749'
+type: status
+created_time: '2016-04-22T15:52:24+0000'
+updated_time: '2016-04-25T16:29:16+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1129637333742640/
+id: '172338516139198_1129637333742640'
+comments:
+  data:
+  - created_time: '2016-04-23T09:17:55+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      Is it repo specific? Have you tried it with different repos?
+
+      Try to run git GC on your repo.
+    id: '1130077460365294'
+  - created_time: '2016-04-23T09:44:36+0000'
+    from:
+      name: Mohammad Alaggan
+      id: '10154985539677085'
+    message: I recommend magit-mode in emacs
+    id: '1130093840363656'
+  - created_time: '2016-04-23T18:54:35+0000'
+    from:
+      name: Ahmed Mahmoud
+      id: '1763959737010749'
+    message: |-
+      I never used emacs before
+      Do you have other recommendation
+    id: '1130351153671258'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV6TURBM056UTJNRE0yTlRJNU5Eb3hORFl4TkRBek1EYzEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV6TURNMU1URTFNelkzTVRJMU9Eb3hORFl4TkRNM05qYzEZD

@@ -1,0 +1,99 @@
+---
+message: |-
+  #python
+  Is there a smarter way to check that fib.array exists?
+link: https://www.facebook.com/photo.php?fbid=10154939156567328&set=gm.1363841763655528&type=3
+from:
+  name: Mohamed Gamal
+  id: '10156096685587328'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/16265321_10154939156567328_4035983137207564766_n.jpg?oh=d2644398ff68e467eb04011f7f786d94&oe=5ADCCA9C
+created_time: '2017-01-24T01:56:59+0000'
+updated_time: '2017-01-24T14:52:13+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1363841763655528/
+id: '172338516139198_1363841763655528'
+reactions:
+  data:
+  - id: '1836473326363937'
+    name: Ayyad Shenouda
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdNRE00TmpNMU1EYzVPakUwT0RVeU5EUTRNREk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXdNRE00TmpNMU1EYzVPakUwT0RVeU5EUTRNREk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-01-24T02:00:22+0000'
+    from:
+      name: Bakir Alharoun
+      id: '2109950492620951'
+    message: http://stackoverflow.com/questions/843277/how-do-i-check-if-a-variable-exists
+    id: '1363846556988382'
+  - created_time: '2017-01-24T02:10:37+0000'
+    from:
+      name: Mohamed Oun
+      id: '10213382124519901'
+    message: Why do it recursively? You can just initialize the array with the 0 and
+      1 values, and use a for loop for the rest, each value equals the sum of the
+      previous two.
+    id: '1363861023653602'
+  - created_time: '2017-01-24T10:42:18+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      1- Instead of the first 4 lines, do this
+      fib.array = getattr(fib, 'array', [None] * (n+1))
+
+      2- Use a dict instead of list
+
+      3- Read about Python decorators. It will help you rewrite this program in a better way
+    id: '1364356450270726'
+  - created_time: '2017-01-24T11:51:53+0000'
+    from:
+      name: Mustafa Abdullah
+      id: '10156099084105126'
+    message: |-
+      so u need a static var for the function?
+      define it AFTER function definition;
+      def fib():
+        ..
+        ..
+        ..
+
+      fib.array = [0]
+
+      Also, two note on your impl;
+      1. you can do it iteratively instead of recursively
+      http://stackoverflow.com/questions/15688019/recursion-versus-iteration
+      2. for this case if u need to cache previous results, which makes sense for a fibbonacci function since u can always build on prev results; use the above suggestion, but in other cases u may need to consider passing the static var as an arg;
+      def fib(n, arrayCache):
+
+      to answer you original question, getattr can return default value;
+      getattr(fib, "array", [0])
+    id: '1364401863599518'
+  - created_time: '2017-01-24T14:52:09+0000'
+    from:
+      name: Mohamed Sedky Salem
+      id: '10155563471733995'
+    message: Abdelrahman Sherif
+    id: '1364528163586888'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0yTXpnME5qVTFOams0T0RNNE1qb3hORGcxTWpJek1qSTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0yTkRVeU9ERTJNelU0TmpnNE9Eb3hORGcxTWpZANU5UTXcZD
+attachments:
+  data:
+  - description: |-
+      #python
+      Is there a smarter way to check that fib.array exists?
+    media:
+      image:
+        height: 343
+        src: https://scontent.xx.fbcdn.net/v/t1.0-9/16265321_10154939156567328_4035983137207564766_n.jpg?oh=464458490d0f660df2eafb7f69aaaaf9&oe=5AE2D77A
+        width: 467
+    target:
+      id: '10154939156567328'
+      url: https://www.facebook.com/photo.php?fbid=10154939156567328&set=gm.1363841763655528&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=10154939156567328&set=gm.1363841763655528&type=3

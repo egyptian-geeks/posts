@@ -1,0 +1,143 @@
+---
+message: Why you shouldn’t send tokens in a URL
+link: https://stackoverflow.com/a/48148430/7827699
+from:
+  name: Abdelrhman Shawky
+  id: '10213017755051330'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQBicEnZEnV912SL&w=130&h=130&url=https%3A%2F%2Fcdn.sstatic.net%2FSites%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded&cfs=1&_nc_hash=AQDvsiX7ONHDf146
+created_time: '2018-01-08T13:22:42+0000'
+updated_time: '2018-01-08T22:26:24+0000'
+name: csrf_token displayed as a URL parameter
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1716107611762273/
+shares:
+  count: 4
+id: '172338516139198_1716107611762273'
+reactions:
+  data:
+  - id: '2072820782951834'
+    name: AbdulRahman Mahmoud ElBieh
+    type: LIKE
+  - id: '2011020232498916'
+    name: Mohammed M El-shahawy
+    type: LIKE
+  - id: '1620183618049194'
+    name: Ahmed Taha
+    type: LIKE
+  - id: '10155206310513093'
+    name: Ibraheem Osama
+    type: LIKE
+  - id: '2083842238513399'
+    name: Abdullah Ashraf
+    type: LIKE
+  - id: '1614734235301141'
+    name: عمرو عبدالرحمن
+    type: LIKE
+  - id: '1568421209939721'
+    name: Doha Hesham
+    type: LIKE
+  - id: '2440465962845919'
+    name: Sayed Alesawy
+    type: LIKE
+  - id: '782499245278061'
+    name: Eslam AbdElhakem
+    type: LIKE
+  - id: '10213461163996393'
+    name: Ahmed Samir
+    type: LIKE
+  - id: '1842612042458248'
+    name: Abdelrahman Abdallah
+    type: LIKE
+  - id: '10155686945529760'
+    name: Ibrahim Hussein
+    type: LIKE
+  - id: '1466247800164499'
+    name: Mosaab Ahmed
+    type: LIKE
+  - id: '1555752981144826'
+    name: Essam A. Hassan
+    type: LIKE
+  - id: '546598029039266'
+    name: Tarek Badr
+    type: LIKE
+  - id: '1717985658266431'
+    name: Fatma Muhammad
+    type: LIKE
+  - id: '1641565752594739'
+    name: Ahmed Aziz
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTJOekUzT1RZAMU9EVXlPakUxTVRVMk1UUTFPVGM2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlNak01T1RFMk5UUXpPakUxTVRVME1UYzNPRFE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2018-01-08T13:37:09+0000'
+    from:
+      name: Alaa Ezzat
+      id: '10156074051141565'
+    message: "ده علي اساس انها لو اتبعتت في البودي عن طريق Post نفس الطرق المكتوبه
+      متعرفش تجيبها ؟ \U0001F603"
+    id: '1716118888427812'
+  - created_time: '2018-01-08T13:39:30+0000'
+    from:
+      name: Abdelrhman Shawky
+      id: '10213017755051330'
+    message: و لو هتبعتها ف POST هتشوفها مثلا في Referer header ازاي ؟
+    id: '1716120718427629'
+  - created_time: '2018-01-08T13:48:17+0000'
+    from:
+      name: Alaa Ezzat
+      id: '10156074051141565'
+    message: |-
+      اولا يا ريت الكلام يبقي من غير قلة ذوق و بجاحه و فتي و مش فتي
+
+      ثانيا ال MITM مش هيفرق معاها هو ال post ولا في الGet خصوصا لو علي http مش https و دي النقطه الاساسيه اللي اللي رادد مركز عليها
+    id: '1716128115093556'
+  - created_time: '2018-01-08T14:27:38+0000'
+    from:
+      name: Yousef Mahmoud
+      id: '1818224478190849'
+    message: فيه بعض ال cases بتتحتاج إن ال token يكون في ال URL زي resources (file)
+      وال access ليه عن طريق get request
+    id: '1716161428423558'
+  - created_time: '2018-01-08T14:45:39+0000'
+    from:
+      name: Mohamed A. Baset
+      id: '2088941797787563'
+    message: "هدوا نفسكم ياجدعان وياعلاء شوقي ميقصدش بالاسلوب الاجريسيف دا شخصك يعني
+      هوا بس فشخ وفتي والحاجات دي بقت ترند دلوقتي الناس بتتكلم بيها فخفوا حدة الموضوع
+      مابينكم. \n\nاي شئ علي http غير امن سواء post get put delete الخ، واي منهم امن
+      لو علي https ماعدا لو كان التوكن ف get حتي لو علي https لان ف الحاله دي له حالات
+      تانيه تقدر تستغلها بيه غير ال mitm attacks وغير انك تصوره بكاميرا لو في حاجه
+      مش واضحه وحابين اوضحها تحت امركم"
+    id: '1716183365088031'
+  - created_time: '2018-01-08T14:56:53+0000'
+    from:
+      name: Mohamed A. Baset
+      id: '2088941797787563'
+    message: "+ اللي كاتبه شوقي دا البيست براكتيسيس بالفعل بس هوا مش قران يعني فأكيد
+      الموضوع فليكسبل، بس انا لما شوفت الفلو بتاع البوست ايه اللي خلاك ياعلاء تقول
+      اول كومنت دا؟ يعني ايه علاقته باجابه شوقي علي ستاك اوفر فلو؟ لاني مشوفتش في
+      اول كومنت ليك انك بتتكلم عن ال main key هنا اللي هوا http or https ؟ انت اتكلمت
+      عن دا ينفع ف بوست ركوست ومذكرتش ينفع امتي وشوقي بيتكلم مباشرة ف الكيس نفسها!"
+    id: '1716193165087051'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN4TmpFeE9EZAzRPRFF5TnpneE1qb3hOVEUxTkRFNE5qSTUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN4TmpFNU16RTJOVEE0TnpBMU1Ub3hOVEUxTkRJek5ERXoZD
+attachments:
+  data:
+  - description: Is it okay that a website displays the csrf_token as a URL parameter?
+      I have a feeling that I shouldn't be able to see it, but I am no quite sure.
+      If someone can clear this up a bit, I would be gra...
+    media:
+      image:
+        height: 316
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAMFLWvXjUlRuS7&w=720&h=720&url=https%3A%2F%2Fcdn.sstatic.net%2FSites%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded&cfs=1&_nc_hash=AQBDUhzXdwnk-uG7
+        width: 316
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fstackoverflow.com%2Fa%2F48148430%2F7827699&h=ATOO6kfzpOdZNByR-PjRSxULpo9Z5NkCzRvq11Rmj2yt6hYvxfeKcnNAYbA80R_9z7Ss0sV9C3211B12B7o74qF1Yf3kC0oLSXpd&s=1&enc=AZOGOajZ7JQWnkZaHQtgl79ZvIcVIg-sXuXkyQ_9fskA6YWRdCy1AqE4hCclyNUdGWYuRwT7mKNYvbQZmFnmtpzw
+    title: csrf_token displayed as a URL parameter
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fstackoverflow.com%2Fa%2F48148430%2F7827699&h=ATOO6kfzpOdZNByR-PjRSxULpo9Z5NkCzRvq11Rmj2yt6hYvxfeKcnNAYbA80R_9z7Ss0sV9C3211B12B7o74qF1Yf3kC0oLSXpd&s=1&enc=AZOGOajZ7JQWnkZaHQtgl79ZvIcVIg-sXuXkyQ_9fskA6YWRdCy1AqE4hCclyNUdGWYuRwT7mKNYvbQZmFnmtpzw

@@ -1,0 +1,78 @@
+---
+message: |-
+  question regarding internet speed, i never get the full speed unless i'm on youtube or direct downloading with IDM, anything other than that it seems as if it's throttling, i looked everywhere but all results was just checking for DNS and flush it, but doesn't work, any clue about such issue would be appreciated. as you can see installing new Ubuntu packages used only 1/4 of the speed and this happens with so many streams and websites and also includs npm
+
+  PS: it does exist before yesterday internet issue, i also contacted the tech support and it was the usual answer " i checked the line and there is no problem "
+link: https://www.facebook.com/photo.php?fbid=1752125151764889&set=gm.1460672370639133&type=3
+from:
+  name: Ibrahim Mohammed
+  id: '1886120441698692'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/18057789_1752125151764889_952920879976189344_n.jpg?oh=8337484e0bce251bf20a3d85880ec0e4&oe=5AEBB5D4
+created_time: '2017-04-21T08:38:17+0000'
+updated_time: '2017-04-21T11:03:53+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1460672370639133/
+id: '172338516139198_1460672370639133'
+reactions:
+  data:
+  - id: '10215330657276566'
+    name: Ahmed Montaser
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRFek9UWTRNekV4TkRveE5Ea3lOelkxT0RBME9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRFek9UWTRNekV4TkRveE5Ea3lOelkxT0RBME9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2017-04-21T08:41:06+0000'
+    from:
+      name: Mohamed Eltantawi
+      id: '10160105091695314'
+    message: I would recommend you do all your testing on wired LAN. WiFi will always
+      have more latency that might affect your test. Just a thought.
+    id: '1460674327305604'
+  - created_time: '2017-04-21T08:45:22+0000'
+    from:
+      name: Samuel A. Wilson
+      id: '10215340807979122'
+    message: "Maybe because IDM and YouTube use multiple simultaneous connections
+      so that's why you are only getting the maximum speed with them. \nI believe
+      I had this problem once (my ISP is Etisalat ADSL) and I called their technical
+      support and actually one of their engineers called me back (and he was in complete
+      understanding of all the technical terms I used) and then they did something
+      on their end and the problem was solved."
+    id: '1460676650638705'
+  - created_time: '2017-04-21T08:47:58+0000'
+    from:
+      name: Mohamed Eltantawi
+      id: '10160105091695314'
+    message: I see also you are using a virtual environment with maxed-out RAM. Can
+      you try in the host OS with a normal RAM usage just to isolate any possible
+      throttling due to excessive use of paging on a slow drive?
+    id: '1460677833971920'
+  - created_time: '2017-04-21T11:03:46+0000'
+    from:
+      name: Mohamed Salah
+      id: '442714802813794'
+    message: https://www.cyberciti.biz/faq/how-to-speed-up-apt-get-apt-command-ubuntu-linux/
+    id: '1460777323961971'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEyTURZAM05ETXlOek13TlRZAd05Eb3hORGt5TnpZAME1EWTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEyTURjM056TXlNemsyTVRrM01Ub3hORGt5TnpjeU5qTXcZD
+attachments:
+  data:
+  - description: |-
+      question regarding internet speed, i never get the full speed unless i'm on youtube or direct downloading with IDM, anything other than that it seems as if it's throttling, i looked everywhere but all results was just checking for DNS and flush it, but doesn't work, any clue about such issue would be appreciated. as you can see installing new Ubuntu packages used only 1/4 of the speed and this happens with so many streams and websites and also includs npm
+
+      PS: it does exist before yesterday internet issue, i also contacted the tech support and it was the usual answer " i checked the line and there is no problem "
+    media:
+      image:
+        height: 368
+        src: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/18056190_1752125151764889_952920879976189344_o.jpg?oh=259e83aa735cd4f205f5369dd0ecd2c4&oe=5B248F68
+        width: 720
+    target:
+      id: '1752125151764889'
+      url: https://www.facebook.com/photo.php?fbid=1752125151764889&set=gm.1460672370639133&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=1752125151764889&set=gm.1460672370639133&type=3

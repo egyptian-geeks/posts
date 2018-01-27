@@ -1,0 +1,83 @@
+---
+message: "هل اسم  Angular2  ملائم فعلاً, ولا محتاجة إسم جديد , ولا أنا اللى مش مجمع
+  الصورة كاملة , لإنى لما حبيت أعرف شوية عنها , لاقيت حاجات مختلفة كتير , حاجات معدتش
+  موجودة, فهل ممكن تبقى زى \nASP.NET 5 لما أصبحت ASP.NET Core  .\nهل فعلاً يفضل اسم
+  جديد  للإختلاف الكبير عن Angular1 ولا دى مشكلة عندى والإختلاف مش كبير زى ما أنا
+  متصور ؟"
+from:
+  name: Ahmed Moosa
+  id: '10210990493546895'
+type: status
+created_time: '2016-01-25T11:38:09+0000'
+updated_time: '2016-01-26T08:59:52+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1067957746577266/
+id: '172338516139198_1067957746577266'
+reactions:
+  data:
+  - id: '10215070655377585'
+    name: Mahmoud Kandeel
+    type: LIKE
+  - id: '1962172197389574'
+    name: Ahmed Amin
+    type: LIKE
+  - id: '10155263617066659'
+    name: Ahmed Mansour
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRFMk5qZA3hNVFkzTmpveE5EVXpOekkxTkRZAM09qSTFOREE1TmpFMk1UTT0ZD
+      after: TlRjek5UYzJOalU0T2pFME5UTTNNak13TkRZANk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-01-25T11:53:27+0000'
+    from:
+      name: Hisham Abd El-Hafez Eid
+      id: '10156032627411171'
+    message: "لا الاختلاف كبير، هده وبنوه من الاول. بس هو عشان كدة اسمه  Angular2
+      ، اللي هو واخد new major version ما استهبلوش وسموه Angular 1.6 مثلا. \nوكمان
+      من المفترض ان يبقى في migration path من angular 1.x لـ angular2 وده بيدعم فكرة
+      انه استكمال للقديم ومش منتج جديد تماما."
+    id: '1067969803242727'
+  - created_time: '2016-01-25T23:51:05+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: "هو كلامك صح. \n\nبس الـ Core جه فكرته من إن كل حاجة هتبقى مبنية to be
+      DotNetCore first. وهم مش خسرانين حد، الـ platform بتاعتهم اللي شغال على القديم
+      هينقل على الجديد على طول. ده غير إنهم أصلا مش مهتمين قوي باللي ينقل دلوقتي وعايزين
+      يقولوا ده version 1، عاملوه على إنه كده (من قبل تغيير الاسم)، ده NOT feature
+      complete, and not mature.\n\nبتوع Angular بقى وضعهم مختلف. هم عندهم ثقة إنهم
+      نقلوا كل دروسهم من Angular 1 في Angular 2، فهم حاسين إنها فعلا upgrade. وعايزين
+      الناس تنقل عليه أتوماتيك، ماتحسش انها بتختار framework من أول وجديد وكده (وإلا
+      لو ماحسوش بده ممكن يروحوا للخيارات التانية). ولو عليهم عايزين أول ما Angular
+      2 يطلع يوقفوا Angular 1 support (بس مش هيعملوها، علشان ده يضعف الثقة فيهم)."
+    id: '1068309566542084'
+  - created_time: '2016-01-26T05:43:22+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: "ده العرف في المشاريع مفتوحة المصدر، في دايما نوعين من الـversion number.\n\nالنوع
+      الأول اسمه minor version، مثال: 1.1، 1.2، 1.3، وهكذا.\n\nالنوع التاني اسمه major
+      version number.\n\nمثال: 1، 2، 3، وهكذا.\n\nمن المتعارف عليه في عالم المصادر
+      المفتوحة أنه في معظم الأحوال التغيير بين أي minor version numbers مش حاجة ضخمة،
+      وبيراعوا فيه الـbackward compatibility مع الـminor versions اللي قبلها.\n\nفي
+      حين إن عادة الـmajor versions بتبقى فيها تغييرات جذرية، بناء على دروس مستفادة
+      من الـmajor version الل قبلها زي ما مليجي قال فوق. \n\nده شبه standard متعارف
+      عليه في عالم الأوبن سورس، فما حدش بيتلخبط أوي من الـversion numbers. :)\n\nطريقة
+      تسمية حاجات ميكروسوفت هي اللي تلخبط! :D"
+    id: '1068404563199251'
+  - created_time: '2016-01-26T07:50:56+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: |-
+      I would recommend you read these links:
+
+      https://en.wikipedia.org/wiki/Software_versioning
+
+      http://semver.org/ (mentioned by a comment above)
+    id: '1068439939862380'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEEyTnprMk9UZA3dNekkwTWpjeU56b3hORFV6TnpJeU9EQTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEEyT0RRek9Ua3pPVGcyTWpNNE1Eb3hORFV6TnprME5qVTQZD

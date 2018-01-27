@@ -1,0 +1,110 @@
+---
+message: "بعد اذنكم انا شغال على android studio  و لما باجي ا run بيفتح ال emulator
+  \ بس ال device نفسه بيقبى offline  بيقولي waiting for the emulator become online
+  \ و بعد كدة يقولي failed و ال emulator يقفل و الكود ميشتغلش \n\nحد يعرف ايه السبب
+  ؟"
+from:
+  name: Ahmed Essam
+  id: '1934840239877714'
+type: status
+created_time: '2016-07-26T15:57:20+0000'
+updated_time: '2016-07-28T13:14:47+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1189704581069248/
+id: '172338516139198_1189704581069248'
+comments:
+  data:
+  - created_time: '2016-07-26T16:07:37+0000'
+    from:
+      name: Ghoneim
+      id: '10159878140790481'
+    message: log?
+    id: '1189708571068849'
+  - created_time: '2016-07-26T16:33:47+0000'
+    from:
+      name: Abdalla Elnaggar
+      id: '2096764887006623'
+    message: ",انا كانت عندى نفس المشكله زودت الرمات اشتغل كويس"
+    id: '1189722797734093'
+  - created_time: '2016-07-26T16:34:35+0000'
+    from:
+      name: Abdalla Elnaggar
+      id: '2096764887006623'
+    message: واعمل update الى emulater الجديد
+    id: '1189723201067386'
+  - created_time: '2016-07-26T17:27:57+0000'
+    from:
+      name: Mahmoud Ashraf
+      id: '2125765054312127'
+    message: ممكن تجرب genymotion هتلاقيه اسرع واخف
+    id: '1189746784398361'
+  - created_time: '2016-07-26T17:31:44+0000'
+    from:
+      name: Ahmed Hamdy
+      id: '1481122361986278'
+    message: لو شغال على Windows جرب تشتغل على Linux، هتمشي معاك رامات 4 لحد ما تزودها
+      بعدين
+    id: '1189748327731540'
+  - created_time: '2016-07-26T18:24:32+0000'
+    from:
+      name: Amr Aly
+      id: '1152604288209875'
+    message: جرب تشتغل ع genymotion اسرع و احسن بكتير من الemulator بتاع الandroid
+      studio
+    id: '1189776731062033'
+  - created_time: '2016-07-26T18:33:27+0000'
+    from:
+      name: Rami Sd
+      id: '1747937441894538'
+    message: اشتغل على genymotion
+    id: '1189779597728413'
+  - created_time: '2016-07-26T18:35:44+0000'
+    from:
+      name: Ahmed Essam
+      id: '1934840239877714'
+    message: يا جماعة حل ال genymotion ده اسرع و كل حاجة بس ده بيستخدم رام اكتر من
+      ال emulator عشان يكون سريع
+    id: '1189780401061666'
+  - created_time: '2016-07-26T19:03:30+0000'
+    from:
+      name: Ahmed Nabil
+      id: '538857949811427'
+    message: "من ال run configuration  شيل ال checkbox بتاع always run this device\nهيفتحلك
+      كل مرة تعمل run تختار من الأجهزة المتوصلة\nوبالنسبة لإن الdevice disconnected
+      \ \nاتأكد انه متوصل كويس كذا مرة لو لسة , غير ال USB لو لسة بردو اعمل restart
+      للأندرويد استوديو"
+    id: '1189794041060302'
+  - created_time: '2016-07-26T20:24:16+0000'
+    from:
+      name: Ghoneim
+      id: '10159878140790481'
+    message: |-
+      ممكن اقترح عليك حل غريب شويه ؟
+      لو ال path بتاع ال sdk فيه space انقله لمكان تاني !
+      يعني مثلا بلاش Program Files بمسافه ف النص كده
+    id: '1189829671056739'
+  - created_time: '2016-07-27T14:54:59+0000'
+    from:
+      name: Omar Negm
+      id: '1655425661170220'
+    message: بالنسبالي واجهتني مشاكل اكتر من كده لما كنت بستخدم Microsoft Emulator
+      لو انت برده بتستخدم نفس ال Emulator متترددش انك تشيله خااالص وتستخدم Google
+      Emulator ليه؟ اولا Stable جدا. ثانيا ال Devices تقريبا كلها High Resolution.
+      وأسرع كمان من مايكروسوفت.
+    id: '1190335701006136'
+  - created_time: '2016-07-28T02:52:49+0000'
+    from:
+      name: Omar Negm
+      id: '1655425661170220'
+    message: طيب اتأكد ان ال Features بتاعت ال Hyper V مقفولة واعمل Reinstall لل Emulator
+      تاتي.
+    id: '1190680244305015'
+  - created_time: '2016-07-28T13:14:47+0000'
+    from:
+      name: Ahmed Essam
+      id: '1934840239877714'
+    message: اوك
+    id: '1190930440946662'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU0T1Rjd09EVTNNVEEyT0RnME9Ub3hORFk1TlRRNU1qVTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU1TURrek1EUTBNRGswTmpZAMk1qb3hORFk1TnpFeE5qZAzMZD

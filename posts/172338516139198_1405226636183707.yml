@@ -1,0 +1,67 @@
+---
+message: "At OLX u need to press a button to show advertiser's phone number is that
+  to protect olx from scrappers ? \nto scrappers can you overcome that ?"
+from:
+  name: Osama Soliman
+  id: '879271768900112'
+type: status
+created_time: '2017-03-01T05:03:00+0000'
+updated_time: '2017-03-01T15:15:46+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1405226636183707/
+id: '172338516139198_1405226636183707'
+comments:
+  data:
+  - created_time: '2017-03-01T05:08:22+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: "?"
+    id: '1405229432850094'
+  - created_time: '2017-03-01T05:30:43+0000'
+    from:
+      name: Tarek Dawoud
+      id: '10156109957694861'
+    message: Yes it is to protect from scrappers.
+    id: '1405241332848904'
+  - created_time: '2017-03-01T05:37:46+0000'
+    from:
+      name: Karim Shalaby
+      id: '10155884568151145'
+    message: This is to count the number viewers who phoned the advertiser
+    id: '1405251322847905'
+  - created_time: '2017-03-01T05:43:43+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: |-
+      As a long-time scrapper, it's quite easy to override this.
+      Just send a get request to:
+      https://olx.com.eg/ajax/misc/contact/phone/xxxxx/
+      Where xxxx id the ad id.
+      In case of your ad, that would be:
+      https://olx.com.eg/ajax/misc/contact/phone/7yxJg/
+    id: '1405255939514110'
+  - created_time: '2017-03-01T08:20:41+0000'
+    from:
+      name: Walid Ashraf
+      id: '10159896809840176'
+    message: "I think an action of button clicking and reading a content of a field
+      is an easy task that can be done with an web driver \U0001F60E"
+    id: '1405376472835390'
+  - created_time: '2017-03-01T12:19:33+0000'
+    from:
+      name: Omar Saqr
+      id: '10216335292360651'
+    message: Did it before
+    id: '1405562609483443'
+  - created_time: '2017-03-01T15:15:44+0000'
+    from:
+      name: Amr Medhat
+      id: '10155426916839779'
+    message: it might be just for tracking user behavior and interaction with ads
+      for marketing analytics, not for protection
+    id: '1405685682804469'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF3TlRJeU9UUXpNamcxTURBNU5Eb3hORGc0TXpRME9UQXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF3TlRZANE5UWTRNamd3TkRRMk9Ub3hORGc0TXpneE16UTAZD

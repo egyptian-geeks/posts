@@ -1,0 +1,104 @@
+---
+message: "guys i followed every step in this guide \nhttps://www.digitalocean.com/community/tutorials/how-to-set-up-an-openvpn-server-on-ubuntu-16-04#step-11-generate-client-configurations\n\nTo
+  create an vpn server.\n\nyet when i open openVpn on windows 10, it just stay connecting
+  and nothing happen :(.\n\ndid anyone ever success deploying a vpn on vps in egypt
+  ? cause i tried every guide and advice out there and it just doesnot work :("
+link: https://www.digitalocean.com/community/tutorials/how-to-set-up-an-openvpn-server-on-ubuntu-16-04#step-11-generate-client-configurations
+from:
+  name: Momen Al Zalabany
+  id: '10160388991030144'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQDUF3abU0EqLBA3&w=130&h=130&url=https%3A%2F%2Fcommunity-cdn-digitalocean-com.global.ssl.fastly.net%2Fassets%2Ftutorials%2Fimages%2Flarge%2Fopen_vpn_server_tw.jpg%3F1462909439&cfs=1&_nc_hash=AQCh64QYsPVdFrF_
+created_time: '2018-01-05T01:43:43+0000'
+updated_time: '2018-01-05T07:26:35+0000'
+name: How To Set Up an OpenVPN Server on Ubuntu 16.04 | DigitalOcean
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1712317705474597/
+id: '172338516139198_1712317705474597'
+reactions:
+  data:
+  - id: '10160201000255227'
+    name: Marwan Osman
+    type: LIKE
+  - id: '10210440074417898'
+    name: George Moheb
+    type: LIKE
+  - id: '909264299254917'
+    name: Mohamed Tarek
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRreE9ESXdNakkyT2pFMU1UVXhOVFl3TXpZANk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQTFNVFF3TmpVek56ZA3pPakUxTVRVeE16YzFOelk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2018-01-05T01:47:00+0000'
+    from:
+      name: Hossam Hassan
+      id: '1601712166541624'
+    message: openVPN is blocked in Egypt
+    id: '1712319552141079'
+  - created_time: '2018-01-05T01:48:50+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: i even configured it to use port 443 and tcp protocol, to avoid blockage
+    id: '1712320745474293'
+  - created_time: '2018-01-05T01:50:48+0000'
+    from:
+      name: Kamal Saleh
+      id: '10212867095366994'
+    message: I also tried a similar tutorial  for Microsoft azure and it didn't work
+    id: '1712322045474163'
+  - created_time: '2018-01-05T02:02:23+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: 45.55.55.104 443 thats my new openVpn still not connecting :(
+    id: '1712335082139526'
+  - created_time: '2018-01-05T03:24:18+0000'
+    from:
+      name: Mohamed Hussein
+      id: '1772128696159341'
+    message: |-
+      try another protocol called shadowsocks , you can install it using a project on github called streisand
+      https://github.com/StreisandEffect/streisand
+    id: '1712389922134042'
+  - created_time: '2018-01-05T04:41:33+0000'
+    from:
+      name: Ahmad Bahaa
+      id: '1985598625095777'
+    message: Use shadowsocks or softEther
+    id: '1712441218795579'
+  - created_time: '2018-01-05T07:12:59+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: "thanks to everyone, i finally got it to work using softEther \nhttps://www.digitalocean.com/community/tutorials/how-to-setup-a-multi-protocol-vpn-server-using-softether"
+    id: '1712541802118854'
+  - created_time: '2018-01-05T07:26:32+0000'
+    from:
+      name: Hadi Salem
+      id: '10156059281107389'
+    message: "Momen Al Zalabany on Firefox I simply use an extension called hoxx it
+      works well with me for browsing and you get to choose a country. \n\nOn mobile
+      I use Betternet or Hexatech"
+    id: '1712550195451348'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN4TWpNeE9UVTFNakUwTVRBM09Ub3hOVEUxTVRFMk9ESXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN4TWpVMU1ERTVOVFExTVRNME9Eb3hOVEUxTVRNM01Ua3kZD
+attachments:
+  data:
+  - description: Want to access the Internet safely and securely from your smartphone
+      or laptop when connected to an untrusted network such as the WiFi of a hotel
+      or coffee shop A Virtual Private Network (VPN) allows you to traverse...
+    media:
+      image:
+        height: 375
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQC1B92amuDXb3v3&w=720&h=720&url=https%3A%2F%2Fcommunity-cdn-digitalocean-com.global.ssl.fastly.net%2Fassets%2Ftutorials%2Fimages%2Flarge%2Fopen_vpn_server_tw.jpg%3F1462909439&cfs=1&_nc_hash=AQCeqR6izp1zw2br
+        width: 375
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.digitalocean.com%2Fcommunity%2Ftutorials%2Fhow-to-set-up-an-openvpn-server-on-ubuntu-16-04%23step-11-generate-client-configurations&h=ATPvWgmuYdhr94wDyljQ61jVE5a-dzsxNqCegyHFkac5d4nsWWQcplbmpFYeoaPwHtPJTh8H3bqLqsFof9sKq6C43Og0EGUwqOW_&s=1&enc=AZMyf7hHxXHjEO5ojgzUoiUP3JSAR7o_09WJ3xCHRCsezCELvcc2McFpnssnEp-djpcC8iOPsU7Oy9i1ZVV0Kkn9
+    title: How To Set Up an OpenVPN Server on Ubuntu 16.04 | DigitalOcean
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.digitalocean.com%2Fcommunity%2Ftutorials%2Fhow-to-set-up-an-openvpn-server-on-ubuntu-16-04%23step-11-generate-client-configurations&h=ATPvWgmuYdhr94wDyljQ61jVE5a-dzsxNqCegyHFkac5d4nsWWQcplbmpFYeoaPwHtPJTh8H3bqLqsFof9sKq6C43Og0EGUwqOW_&s=1&enc=AZMyf7hHxXHjEO5ojgzUoiUP3JSAR7o_09WJ3xCHRCsezCELvcc2McFpnssnEp-djpcC8iOPsU7Oy9i1ZVV0Kkn9

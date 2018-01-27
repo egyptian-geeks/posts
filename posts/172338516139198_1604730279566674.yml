@@ -1,0 +1,60 @@
+---
+message: "Hello Guys,\nJust wondering if you can help me choosing the best way to
+  do the following:\nmy application is expecting to receive a huge data (Millions
+  of records) , these data must be validated against some certain predefined rules.
+  i am a bit not sure about the best way of implementing this without impacting the
+  performance.\nObviously, there're always three ways to do it:\n1- Do my business
+  in a stored procedure\n2- Retrieve the data from the DB then validate it using Linq.
+  \n3 - Or, The option that I'd personally like to go for, which is creating a DB
+  View for these data first, then validate it from a stored procedure or Linq. \n\nWhy
+  do I prefer the last option?  well, because the data is actually stored in a normalized
+  DB, and to be able to retrieve these data , i will go through plenty of joins.\n\nWhat
+  do you think ba2a?"
+from:
+  name: Rania Nazmey
+  id: '10156757286637119'
+type: status
+created_time: '2017-09-12T04:59:33+0000'
+updated_time: '2017-09-13T20:50:42+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1604730279566674/
+id: '172338516139198_1604730279566674'
+reactions:
+  data:
+  - id: '10211664343986862'
+    name: Mohamed Nabil
+    type: LIKE
+  - id: '1963622213652553'
+    name: Ahmed ElRefaey
+    type: LIKE
+  - id: '1547297148718242'
+    name: Sherif Abdel-Naby
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRNeE5EZA3dOVEV5TURveE5UQTFNamcyT0RReU9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBd01EQXpNVE01TVRReE1ETXhPakUxTURVeE9USTVNamM2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-09-12T07:01:02+0000'
+    from:
+      name: Mohamed Gamal
+      id: '10156096685587328'
+    message: Can you cover all of the validations in the SP?
+    id: '1604788616227507'
+  - created_time: '2017-09-12T16:39:18+0000'
+    from:
+      name: Mohamed Ashmawy
+      id: '10159983018050486'
+    message: "What does your application architecture look like? Is this a full blown
+      monolith? Cause if not, I don't see why a micro service can't be scaled over
+      an orchestrator like Mesos using containers. You can use Marathon/Cattle as
+      your init.d and spin up as many instances as your infrastructure can handle,
+      marathon supports autoscaling based on predefined metrics per container health.
+      \n\nIf what I'm saying sounds like gibberish to you, that's alright you can
+      read more about orchestration and distributed systems by checking a product
+      like the DC/OS or Rancher. \n\nhttps://rancher.com\nhttps://dcos.io"
+    id: '1605140496192319'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl3TkRjNE9EWXhOakl5TnpVd056b3hOVEExTVRrNU5qWXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl3TlRFME1EUTVOakU1TWpNeE9Ub3hOVEExTWpNME16WXcZD

@@ -1,0 +1,47 @@
+---
+message: |-
+  I want to make a chat bot using angular 2 is it possible to use only angular (JavaScript, HTML, css) or i have to use other languages or frameworks if so tell me what ones should i use? I am talking about the frontend side only
+  Thanks in advance
+from:
+  name: Yasmine Zakaria
+  id: '1916404415041225'
+type: status
+created_time: '2017-07-09T18:23:26+0000'
+updated_time: '2017-07-09T18:50:13+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1542395435800159/
+id: '172338516139198_1542395435800159'
+reactions:
+  data:
+  - id: '1709278585800086'
+    name: Mohamed Khatab
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhOVE00T0RJME5EY3hPakUwT1RrMk1qZA3hNVGM2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXhOVE00T0RJME5EY3hPakUwT1RrMk1qZA3hNVGM2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-07-09T18:42:09+0000'
+    from:
+      name: Sherif Elmetainy
+      id: '10155248504590994'
+    message: "It is possible to use only angular+JS+Html+css. However, I recommend
+      using one of many websocket client side libraries. Websockets is a protocol
+      that makes bi-directional communications much faster and easier. \n\nReady made
+      libraries can handle complicated stuff like automatically reconnecting when
+      connection is lost, detecting browser capabilities and using other mechanics
+      such as long polling if browser doesn't support websockets, etc.\n\nYour choice
+      of library would probably depend on what server side technology you use since
+      many like sockets.io and SignalR come with both server side and client side
+      components that work together.\n\nCheck this page:\nhttps://deepstream.io/blog/realtime-framework-overview/"
+    id: '1542406512465718'
+  - created_time: '2017-07-09T18:50:09+0000'
+    from:
+      name: Yahya Emam
+      id: '10157132830639408'
+    message: https://www.html5rocks.com/en/tutorials/frameworks/angular-websockets/
+    id: '1542419769131059'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUwTWpRd05qVXhNalEyTlRjeE9Eb3hORGs1TmpJMU56TXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUwTWpReE9UYzJPVEV6TVRBMU9Ub3hORGs1TmpJMk1qRXgZD

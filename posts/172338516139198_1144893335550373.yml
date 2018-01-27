@@ -1,0 +1,108 @@
+---
+message: |-
+  Hi Geeks,
+  I am creating an Android application using Phonegap. It should use database of about 8000 items. it's my first time in my life to deal directly with database. So I have these problems can u give me some hints or tutorials ?
+  Problems :
+  1. How to convent an MS Access db to be used in phonegap project and which db better and easier to use in phonegap locally ?
+  2.  How to make a page for every item from db dynamically while I use HTML/JS only ? for example item1.html
+  3. how to autocomplete search input from database first column ?
+  4. How to dynamically link the search results to the dynamic pages created ?
+
+  https://www.youtube.com/watch?v=CDaNGNvhMOc
+from:
+  name: Osama Soliman
+  id: '879271768900112'
+type: status
+created_time: '2016-05-17T09:13:04+0000'
+updated_time: '2016-05-19T20:17:24+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1144893335550373/
+id: '172338516139198_1144893335550373'
+reactions:
+  data:
+  - id: '10155880569740170'
+    name: Meligy
+    type: LOVE
+  - id: '1596110217148252'
+    name: Ahmed Badawy
+    type: LIKE
+  - id: '10214843347173894'
+    name: Hesham Watany
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRRME9ERTFNVFk1T2pFME5qTTJNakF6T1RFNk56ZAzROalE0TURNM09URXpNekV5
+      after: TVRFek1qazJPRGt6T0RveE5EWXpORGMyT1RZAek9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2016-05-17T09:27:54+0000'
+    from:
+      name: Hesham Watany
+      id: '10214843347173894'
+    message: "2- use angular js it will help you managing all of this stuff\nyou will
+      just build one page for viewing the item\nyou just send the item id to the page
+      controller to get it from DB and view it in the page\n3- I didn't make it locally
+      before, but when using it with a server it you will use ajax to search database
+      with query like this \n\"SELECT * FROM items WHERE name LIKE $variable%\"\nuse
+      google to know how to do it locally\n4-angular js will help you with this"
+    id: '1144899312216442'
+  - created_time: '2016-05-17T09:38:43+0000'
+    from:
+      name: Ibraheem Osama
+      id: '10155206310513093'
+    message: |-
+      You need data embedded into the app or stored on an external server ??
+      For framework use IONIC it is built on top of angular and I consider it as one of the best, don't go for Jquery mobile or Kendo.
+
+      Why you need dynamic page ??
+    id: '1144903128882727'
+  - created_time: '2016-05-17T12:50:25+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: Ibraheem Osama why do you advise agains JQuery mobile?
+    id: '1144966292209744'
+  - created_time: '2016-05-17T13:47:12+0000'
+    from:
+      name: Ahmed Badawy
+      id: '1596110217148252'
+    message: "i thought Phonegap is era was over. \nwhy didn't u consider any modern
+      solution. why phonegap ???\ni highly suggest (ionic - react native - titan)
+      for cross platform programing."
+    id: '1145000152206358'
+  - created_time: '2016-05-18T13:45:03+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: ".\n--- 1. How to convent an MS Access db to be used in phonegap project
+      and which db better and easier to use in phonegap locally ? ---\n\n1.1 Exporting\n\nExport
+      your Access tables to CSV, and then to SQLite or something else http://stackoverflow.com/questions/11086770/how-to-port-an-existing-ms-access-to-sqlite-for-use-with-android-app-developemen\nYou'll
+      have to export images to folder with some convention.\n\nTry googling exporting
+      MS Access to SQLite, I found some old results like https://www.b4x.com/android/forum/threads/how-to-convert-an-access-database-to-a-sqlite-database.78/
+      and the answer above\n\n1.2 Which database\n\nAll the options are listed here\nhttp://cordova.apache.org/docs/en/6.x/cordova/storage/storage.html#page-toc-source\n\nYour
+      best bet might be the SQLite database, as I expect it to be the closest to your
+      existing model.\n\n--- 2. How to make a page for every item from db dynamically
+      while I use HTML/JS only ? for example item1.html ---\n\nYou need a JavaScript
+      based router like sammyJS or the various AngularJS router libraries or react-router,
+      etc.\n\nAlso check https://ccoenraets.github.io/cordova-tutorial/routing.html\n\n---
+      3. how to autocomplete search input from database first column ? ---\n\nYou
+      can look up any JS autocomplete based widget. Something like AngularJS or react
+      etc will make these sort of things easier (you'll still need to get some autocomplete
+      plugin),\n\nThe widget should give you some event or call a method you provide
+      or something, then in this method or event handler you call your DB with a SQL
+      statement (say `select Title, ID from MyTable where Title starts with @input`<<pseudo
+      code>>).\n\nThe specific call and syntax will differ based on which DB you choose,
+      and the way you return this to the UI will depend on which autocomplete component
+      you use.\n\n--- 4. How to dynamically link the search results to the dynamic
+      pages created ? ---\n\nTypically you'll use some sort of JS template like the
+      one in underscoreJS, or like Angular / react / Ember /.... \n\nYou'll generate
+      HTML dynamically, it might be something like:\n\n<ul loop=\"item in dynamicItems\">\n<li><a
+      href=\"{{'#/items/' item.id }}\">item.title</a></li>\n</ul>\n<<pseudo code>>\n\nThe
+      particular syntax will depend on what template language you use. Of course you
+      can also just make the strings manually in JS and have `someTargetElement.innerHTML
+      = generatedHtmlString;`, but going without a framework will take forever for
+      so many tasks."
+    id: '1145557505483956'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUwTkRnNU9UTXhNakl4TmpRME1qb3hORFl6TkRjM01qYzAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUwTlRVMU56VXdOVFE0TXprMU5qb3hORFl6TlRjNU1UQTEZD

@@ -1,0 +1,69 @@
+---
+message: |-
+  Hello fellow geeks. I'm having trouble connecting to the company's VPN in the US since about Sunday. The connection is PPTP, I was wondering if anyone is having the same issue. I have tried:
+  - 2 different Windows 10 machines
+  - Ubuntu Linux
+  - Switching connections (TEData ADSL with static IP, Vodafone 3G USB Modem).
+
+  Any suggestions, or anyone else facing this same issue?
+
+  Note: I can telnet form my machine to the designated IP on the PPTP port (1723)
+from:
+  name: M Sameh El Harty
+  id: '10159983801460392'
+type: status
+created_time: '2016-10-25T13:18:15+0000'
+updated_time: '2016-10-25T16:17:11+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1268404613199244/
+id: '172338516139198_1268404613199244'
+reactions:
+  data:
+  - id: '10215912205257566'
+    name: Mohammed Fouad Hassen
+    type: LIKE
+  - id: '1487671784675336'
+    name: Mohamad Emad
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRJeE9UWXhNalV3TkRveE5EYzNOREUwTWpJd09qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBd01EQXlPVGMxT0RjM05qZAzFPakUwTnpjME1EVXpPRGM2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-10-25T13:19:34+0000'
+    from:
+      name: Mohammad Elmeniawy
+      id: '10208473007142067'
+    message: Give it a try with proxy apps like ultrasurf
+    id: '1268405296532509'
+  - created_time: '2016-10-25T13:26:41+0000'
+    from:
+      name: Mohamed El-Sayed
+      id: '10155182529813309'
+    message: I haven't been able to connect to PPTP over vodafone 3G for months..
+      works over Etisalat 3G though..
+    id: '1268408483198857'
+  - created_time: '2016-10-25T13:37:30+0000'
+    from:
+      name: Mohamed El Henawy
+      id: '10155884980625610'
+    message: do u use Windows client itself? or u setup client over windows?
+    id: '1268415119864860'
+  - created_time: '2016-10-25T13:41:02+0000'
+    from:
+      name: Mohamed El Henawy
+      id: '10155884980625610'
+    message: try to disable windows firewall .. the same machine was working before
+      ?
+    id: '1268417149864657'
+  - created_time: '2016-10-25T16:17:09+0000'
+    from:
+      name: M Sameh El Harty
+      id: '10159983801460392'
+    message: Thanks everyone for support. I was able to find an alternative, point
+      to point IPSEC VPN between both sites
+    id: '1268569193182786'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkyT0RRd05USTVOalV6TWpVd09Ub3hORGMzTkRBeE5UYzAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkyT0RVMk9URTVNekU0TWpjNE5qb3hORGMzTkRFeU1qSTUZD

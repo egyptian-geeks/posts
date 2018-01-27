@@ -1,0 +1,55 @@
+---
+message: "السلام عليكم عندي تساؤل بخصوص\nClass coupling \nدلوقتي لما بشتغل علي Project
+  كبير علي Win Form او WPF \nبعد ما بخلص كل sub system براجع الكود بلاقي ان ال Class
+  Coupling عالي فبراجع ايه السبب لقيت ان الميثود الخاصة ب Components Loading هو الي
+  بيتسبب في كده.\nالموضوع بيبقي سئ جدا لما المشروع ينتهي واراجعه الكود بتاعي سليم
+  لكن الفانكشن الخاصة ب عملية ال Loading بتعلي ال Coupling وبتأثر علي Maintainability
+  .\n\nالمفترض اعمل ايه في الحالة ديه.\n\nالموضوع ده مش بيحصل لما بشتغل مثلا علي بروجكتس
+  WCF او ASP MVC \nالمشكلة في ال WIN FORM او WPF.\n\nهل الموضوع طبيعي ولا ليه حلول؟"
+from:
+  name: احمد قرواش
+  id: '1561022257326859'
+type: status
+created_time: '2017-03-16T13:55:21+0000'
+updated_time: '2017-03-19T05:15:34+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1422254621147575/
+id: '172338516139198_1422254621147575'
+comments:
+  data:
+  - created_time: '2017-03-16T14:26:51+0000'
+    from:
+      name: Tarik Ibrahim
+      id: '10156476353501062'
+    message: ال Coupling ملهوش علاقة بال ASP.NET  أو WinForms أو خلافه راجع موضوع
+      ال IoC و Dependency Injection DI
+    id: '1422278954478475'
+  - created_time: '2017-03-16T14:27:53+0000'
+    from:
+      name: Ahmed Eid
+      id: '762135870664322'
+    message: "كنت كاتب قبل كده سؤال تقريبا او داخل في نقاش بخصوص ال Design Patterns
+      و ال Best Practices \nاهو هو ده فايدتها بقى .. انها تخليك تمشي بدزاين يتلافي
+      مشاكل ناس وقعت قبلك فيها لانك في الاغلب مش بتبقى مدرك الحوار بعد كده ممكن يتضاف
+      فيه لحد فين\n\nفانت هتشوف المشاكل عندك من نوعها وتبتدي تشوف ازاي تفصلهم .. في
+      الاغلب هتروح ل IoC و DI ..\nبس انا رايي ذاكر الاول كويس وبعدين دوس في انك ازاي
+      تRefactor ألكود للكلام اللي ذاكرته"
+    id: '1422279534478417'
+  - created_time: '2017-03-18T06:09:20+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      استخدام الخاصية دي قليل قوي على فكرة.
+
+      وبالتالي، أنصحك اخفي الكود طالما مش بتعدل فيه أبدا
+      http://geekswithblogs.net/terje/archive/2008/11/10/hiding-generated-code-from-code-analysis-metrics-and-test-coverage.aspx
+
+      السبب إن ميكروسوفت مش بتخفيه بنفسها إن نظريا إنت ممكن تعدل في الكود
+      http://stackoverflow.com/a/12306606/146656
+
+      ده مجرد مشكلة تاريخية بسبب قدم التقنية.
+    id: '1424081920964845'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF5TWpJM09EazFORFEzT0RRM05Ub3hORGc1TmpjME5ERXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF5TkRBNE1Ua3lNRGsyTkRnME5Ub3hORGc1T0RFM016WXoZD

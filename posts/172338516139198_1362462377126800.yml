@@ -1,0 +1,82 @@
+---
+message: "What is recommended #language to build big #backend systems with following
+  options ?  \n1- fast development \n2- faster execution  \n3- fast run time\n4- scaling
+  \ \n5- maintainable \n6- opensource \n7- parallel  \n8- object oriented \n9- community
+  support \nI have to choose one of [ #nodejs - #ruby - #python - #go  ] or else"
+from:
+  name: Amr Almgwary
+  id: '1978556165731463'
+type: status
+created_time: '2017-01-22T23:58:56+0000'
+updated_time: '2017-01-24T00:14:02+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1362462377126800/
+id: '172338516139198_1362462377126800'
+reactions:
+  data:
+  - id: '10155898279795619'
+    name: Hassan Sultan
+    type: LIKE
+  - id: '799680176899561'
+    name: Abdelrahman MOhamed
+    type: LIKE
+  - id: '10156301546469701'
+    name: Amr ELsaqqa
+    type: LIKE
+  paging:
+    cursors:
+      before: TnpFeU1EVXdOakU0T2pFME9EVXlORFkzTURFNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRZAMU56RTBOekF3T2pFME9EVXlNRFl5TXpnNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-01-23T06:10:45+0000'
+    from:
+      name: George Kastour
+      id: '10215795587468352'
+    message: Laravel!
+    id: '1362708497102188'
+  - created_time: '2017-01-23T06:25:27+0000'
+    from:
+      name: Islam Eldemery
+      id: '10159774797555461'
+    message: if it's really big and you care about scaling then java with jhipster
+      generator, it's on top of spring boot and gives you everything in the 9 points
+      and more .. like angular for the ui, performance testing, ui and unit testing..
+      microservice for better scaling and maintainability .. ready gateway application
+      to monitor your services.. docker integration for easier deployments..
+    id: '1362716703768034'
+  - created_time: '2017-01-23T08:07:19+0000'
+    from:
+      name: Ahmed Soliman
+      id: '10152402728970388'
+    message: Scala
+    id: '1362772117095826'
+  - created_time: '2017-01-23T08:22:24+0000'
+    from:
+      name: Mohamed Bassem
+      id: '10212826240185281'
+    message: Why being 'object oriented' is a requirement for the language you are
+      looking for? Go matches all of your requirements except the object oriented
+      part. It's not truly an OO language with the concepts we are used to in java
+      for example (https://golang.org/doc/faq#Is_Go_an_object-oriented_language).
+    id: '1362781317094906'
+  - created_time: '2017-01-23T21:16:37+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "Nodejs+strongloop loopback api framework (maintained by IBM) \nSuperior
+      performance,  enterprise level quality, open source"
+    id: '1363522780354093'
+  - created_time: '2017-01-24T00:13:00+0000'
+    from:
+      name: Mohamed Gamal
+      id: '10156096685587328'
+    message: |-
+      1. NodeJs: My personal favorite. I use the MEAN stack. It's really fun (and a bit messy) to write everything in Javascript. However, you'll do great if you know what you're doing.
+      2. Ruby on Rails: Very powerful framework which boosts your work alot. It does almost everything for you. However, this might not be the case in bigger projects. Rails doesn't allow you to  organize your code in your own way, which I don't like personally.
+      3.python: Powerful with a strong community. I don't have much experience in python web development, but I belive it's powerful enough to do anything.
+      4.GO: They say it's fun. However, I don't think the community is as big as of python,node.
+    id: '1363708960335475'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0yTWpjd09EUTVOekV3TWpFNE9Eb3hORGcxTVRVeE9EUTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0yTXpjd09EazJNRE16TlRRM05Ub3hORGcxTWpFMk56ZA3cZD

@@ -1,0 +1,70 @@
+---
+message: |-
+  Hello dudes, I'm delivering a webapp as an on-prem and the client has a physical access to the server [win/linux] I haven't chosen the env. yet, (the deployment environment will be based on your recommendations )
+  What is the possible scenarios I can do to protect my app ? (using _AMP stack)  except encrypting code (code encryption is the last card)
+  *The cloud and a subscription for the client is NOT an available option for me right now.
+from:
+  name: Emad Saeed
+  id: '1775266282497365'
+type: status
+created_time: '2017-07-31T16:27:19+0000'
+updated_time: '2017-07-31T20:01:53+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1564086933631009/
+id: '172338516139198_1564086933631009'
+reactions:
+  data:
+  - id: '1583404941737258'
+    name: Omar Abo Foul
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlNRE16TURNeU5EQTFPakUxTURFMU16TTNPRE02TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlNRE16TURNeU5EQTFPakUxTURFMU16TTNPRE02TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-07-31T16:30:06+0000'
+    from:
+      name: Emad Saeed
+      id: '1775266282497365'
+    message: "note that I searched a lot before I post this question, \nthanks in
+      advance for ur help"
+    id: '1564090450297324'
+  - created_time: '2017-07-31T16:31:16+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: Php? Ur out of luck.  Many obscure solutions out there are only current
+      solution.
+    id: '1564091520297217'
+  - created_time: '2017-07-31T17:00:40+0000'
+    from:
+      name: Tony Raoul Iscaros
+      id: '10156165643313420'
+    message: |-
+      you can use hhvm /peach pie(alpha)
+
+      Note 1:It can be also be decompiled but currently no automated tool that can do that , it will be a headache.
+
+      Note 2: use eval function with some encryptions and str_cat , that will make even the decompiled code unreadable
+    id: '1564115853628117'
+  - created_time: '2017-07-31T17:25:24+0000'
+    from:
+      name: Mohamed Magdy Elbadrawy
+      id: '10155046611920894'
+    message: مفيش حاجه 100% حتخليه ميقدرش يوصل للى هو عايزو لو فاهم حيجيب كل حاجه
+      المفروض ولو مشفر باى طريقه حتتفك وبالتالى ديه طريقه ثانويه فيه انك تربط الاسكربت
+      بسريال الهارد او لو فيه اون لاين انو ياخد سيريال من حاجه اون لاين عندك بس كل
+      المحاولات ديه لو هو بيفهم حيقدر يوصل للى عايزو ف الاخر وبالتالى مفيش غير عقد
+      كويس تكتبو معاه
+    id: '1564137336959302'
+  - created_time: '2017-07-31T18:56:29+0000'
+    from:
+      name: Mohamed Saeed
+      id: '1778903788819514'
+    message: هو انتا هتقدم له اي خدمة مقابل الفلوس كتابة الكود اللي من حقه ولا موقع
+      شغال و خلاص ؟؟ و هل هو هيبقى عارف انك مشفر الملفات ؟؟
+    id: '1564203773619325'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUyTkRBNU1EUTFNREk1TnpNeU5Eb3hOVEF4TlRFNE5qQTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUyTkRJd016YzNNell4T1RNeU5Ub3hOVEF4TlRJM016a3cZD

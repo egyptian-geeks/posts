@@ -1,0 +1,51 @@
+---
+message: "Hi All , \nCould anyone recommend for me any tutorial or github repository
+  related to CQRS (Command Query Responsibility Segregation )  and Event Sourcing
+  ?  I searched a lot and nothing helps to take steps through it , most of results
+  talk about the idea  or the theory more than the practical tutorial. Even the courses
+  on pluralsight , I got bored from it .\nI'd appreciate too much if someone devote
+  himself as a mentor for me especially in this topics , and I won't bother him  so
+  much, I promise. \U0001F605\U0001F60A\nThanks in advance"
+from:
+  name: Ahmed Mansour
+  id: '10155263617066659'
+type: status
+created_time: '2018-01-08T22:13:10+0000'
+updated_time: '2018-01-09T09:24:06+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1716510065055361/
+id: '172338516139198_1716510065055361'
+comments:
+  data:
+  - created_time: '2018-01-09T09:07:29+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      You won't find a lot of stuff using most recent frameworks, but the differences are minimal anyway. Check on Google for videos by this guy "Greg Young" regardless of how old the video is.
+
+      That'll be best if you are working with .NET.
+
+      If so, googling `ddd net event sourcing cqrs` led me to some good results:
+
+      Introduction to Domain Driven Design, CQRS and Event Sourcing
+      (Article, 2013)
+      https://www.kenneth-truyers.net/2013/12/05/introduction-to-domain-driven-design-cqrs-and-event-sourcing/
+
+      Event Sourcing in Production - Real-Time CQRS/DDD .NET Apps with EventStore
+      (Video, 2017)
+      https://www.youtube.com/watch?v=t2AI9hODJ2E
+
+      Full ASP.NET Core 2.0 application with DDD, CQRS and Event Sourcing
+      (Github, August 2017 - 2018, not sure of the quality)
+      https://github.com/EduardoPires/EquinoxProject
+    id: '1716934631679571'
+  - created_time: '2018-01-09T09:24:03+0000'
+    from:
+      name: Ahmed Mansour
+      id: '10155263617066659'
+    message: Thanks so much ❤❤❤
+    id: '1716945955011772'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN4Tmprek5EWXpNVFkzT1RVM01Ub3hOVEUxTkRnNE9EVXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN4TmprME5UazFOVEF4TVRjM01qb3hOVEUxTkRnNU9EUTAZD

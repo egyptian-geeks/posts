@@ -1,0 +1,73 @@
+---
+message: 'eBay Core Architecture Principles - How To Architect a Stable, Low Latency,
+  Asynchronous, Transactional, High Integrity System, That is Pluggable, Reliable,
+  Maintainable, Scalable (Service Layer or Any Layer) And Good Ways to Perform Fault
+  Tolerance, Segmentation, Partitioning, and Sharding For The Data & Application Tiers.
+
+'
+link: https://www.infoq.com/presentations/shoup-ebay-architectural-principles
+from:
+  name: Samer Ismail
+  id: '10215428278162727'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQCvYyteU3rd0tpS&w=77&h=77&url=https%3A%2F%2Fwww.infoq.com%2Fresource%2Fpresentations%2Fshoup-ebay-architectural-principles%2Fen%2Fsmallimage%2FRandyEbay.jpg&cfs=1&sx=0&sy=0&sw=77&sh=77&_nc_hash=AQC1jUbLkeNdKJGG
+created_time: '2016-05-30T14:26:04+0000'
+updated_time: '2016-05-31T05:55:57+0000'
+name: Randy Shoup on eBay's Architectural Principles
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1152882108084829/
+id: '172338516139198_1152882108084829'
+reactions:
+  data:
+  - id: '1495149960582252'
+    name: Mohamed Wael
+    type: LIKE
+  - id: '10213118809797201'
+    name: Muhammad El-Hennawy
+    type: LIKE
+  - id: '10205205301673812'
+    name: Ahmed Shawky
+    type: LIKE
+  - id: '1964650613774365'
+    name: Galal Aly
+    type: LIKE
+  - id: '1573619512716214'
+    name: Mohamed Alaa El Din
+    type: LOVE
+  - id: '10160164397520529'
+    name: Mohamed Zaki
+    type: LIKE
+  - id: '10155815529215590'
+    name: Taha Amin
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlOakUzT0RjeU56STFPakUwTmpRMk9URTRNekE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TmpFd09EYzFOVGc1T2pFME5qUTJNekkyTVRVNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-05-31T05:55:57+0000'
+    from:
+      name: Ahmed Shawky
+      id: '10205205301673812'
+    message: Mohamed Tawfik
+    id: '1153282064711500'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUxTXpJNE1qQTJORGN4TVRVd01Eb3hORFkwTmpjME1UVTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUxTXpJNE1qQTJORGN4TVRVd01Eb3hORFkwTmpjME1UVTMZD
+attachments:
+  data:
+  - description: Randy Shoup covers the architectural principles eBay has used to
+      grow and evolve its infrastructure to massive scale. It covers the forces ("-ilities")
+      needed to contend with and design for scalability, availability, manageability,
+      etc. He outlines eBay's architectural principles which meet - and tr...
+    media:
+      image:
+        height: 77
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQCvYyteU3rd0tpS&w=77&h=77&url=https%3A%2F%2Fwww.infoq.com%2Fresource%2Fpresentations%2Fshoup-ebay-architectural-principles%2Fen%2Fsmallimage%2FRandyEbay.jpg&cfs=1&sx=0&sy=0&sw=77&sh=77&_nc_hash=AQC1jUbLkeNdKJGG
+        width: 77
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.infoq.com%2Fpresentations%2Fshoup-ebay-architectural-principles&h=ATNwy5Qklcf4jeWtpVE-wVsv0d5p6jdqEL_8PgahXsiu2sJmCynDvtLd6XA7AiErL0jT5eMdEqKCLQQjQzzF5rcqO2KPEq5NHXzv&s=1&enc=AZMwy26Kb61YkiazxXzK_J6-NOnXfIul4RntffUClCbrLAi44Vybb-dUps7GcFtWk5Zgo7vBOt7MumoY0CjV4LRF
+    title: Randy Shoup on eBay's Architectural Principles
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.infoq.com%2Fpresentations%2Fshoup-ebay-architectural-principles&h=ATNwy5Qklcf4jeWtpVE-wVsv0d5p6jdqEL_8PgahXsiu2sJmCynDvtLd6XA7AiErL0jT5eMdEqKCLQQjQzzF5rcqO2KPEq5NHXzv&s=1&enc=AZMwy26Kb61YkiazxXzK_J6-NOnXfIul4RntffUClCbrLAi44Vybb-dUps7GcFtWk5Zgo7vBOt7MumoY0CjV4LRF

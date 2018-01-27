@@ -1,0 +1,82 @@
+---
+message: "أكبر قيمة ممكن تتحط لمتغير 64 bit هي حوالي 10 أس 19 \nإزاي ال c++ قدرت تحسب
+  قيمة بتساوي 10 أس 100 ؟"
+link: https://www.facebook.com/photo.php?fbid=10212320521105263&set=gm.1437347239638313&type=3
+from:
+  name: أحمد عاكف
+  id: '10215171020565968'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/17553817_10212320521105263_1958059043522705772_n.jpg?oh=7037e5242715bcf7f91053f4fb724af9&oe=5AE93A3C
+created_time: '2017-03-30T16:39:34+0000'
+updated_time: '2017-03-31T17:44:35+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1437347239638313/
+id: '172338516139198_1437347239638313'
+reactions:
+  data:
+  - id: '1980228058671748'
+    name: Omar Gamal
+    type: LIKE
+  - id: '10208596993002679'
+    name: Mostafa Alaa
+    type: LIKE
+  - id: '1820268484691717'
+    name: Ahmed Allam
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdOVE0zTVRrNE9UWTRPakUwT1RFd016STNPREU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXhNalUzTkRnNU16TXhPakUwT1RBNU1UWTVOams2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-03-30T16:47:59+0000'
+    from:
+      name: Robert Nabil
+      id: '1317736788371656'
+    message: 'ال 64 bit دي المساحه اللي ممكن تشيل رقم صحيح فيها ... انما 1e100 ده
+      رقم عشري و الطريقه اللي بيتشال فيها في الميموري مختلفه يعني مثلا لو 10 اس 3
+      اتخزن كرقم صحيح هيبقي في الميموري بالشكل ده : 1000 لكن لو اتخزن علي انه 1e3
+      فهو هيتخزن بحاجه شبه كده "1,3" فممكن تشيل ارقام اكبر بكتير لو خزنتها كارقام
+      عشريه ... بس دقه الحسابات بتقل'
+    id: '1437351912971179'
+  - created_time: '2017-03-30T16:59:35+0000'
+    from:
+      name: Abdulrahman Zaki
+      id: '2004527742898448'
+    message: "قوم زاكر الرياضه ي عاكف \U0001F639\U0001F44A"
+    id: '1437362242970146'
+  - created_time: '2017-03-30T17:02:34+0000'
+    from:
+      name: يوسف عبادي
+      id: '1712055542235160'
+    message: هوا مسجلها floating point مش int
+    id: '1437363739636663'
+  - created_time: '2017-03-30T17:08:38+0000'
+    from:
+      name: Tarek Ahmed
+      id: '10215440197777018'
+    message: http://steve.hollasch.net/cgindex/coding/ieeefloat.html
+    id: '1437367132969657'
+  - created_time: '2017-03-30T18:13:44+0000'
+    from:
+      name: To Be
+      id: '1812186052167696'
+    message: حساب القيمة حاجة وتخزينها حاجة تانية
+    id: '1437407139632323'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF6TnpNMU1Ua3hNamszTVRFM09Ub3hORGt3T0RreU5EYzUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF6TnpRd056RXpPVFl6TWpNeU16b3hORGt3T0RrM05qSTAZD
+attachments:
+  data:
+  - description: "أكبر قيمة ممكن تتحط لمتغير 64 bit هي حوالي 10 أس 19 \nإزاي ال c++
+      قدرت تحسب قيمة بتساوي 10 أس 100 ؟"
+    media:
+      image:
+        height: 165
+        src: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/17436281_10212320521105263_1958059043522705772_o.jpg?oh=c29c465d5ff11bbd691fcaa24d9eeb13&oe=5AD9D591
+        width: 720
+    target:
+      id: '10212320521105263'
+      url: https://www.facebook.com/photo.php?fbid=10212320521105263&set=gm.1437347239638313&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=10212320521105263&set=gm.1437347239638313&type=3

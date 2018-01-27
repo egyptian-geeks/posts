@@ -1,0 +1,55 @@
+---
+message: |-
+  I dont know if it's a stupid question but I'm a newbie in the field of speech...I was reading many papers about Arabic pronuncation checking and I've found that all of them follow the same steps : audio file processing, feature extraction by MFCC.. trainning and testing by HMM.
+  the question is that if I have training audio files and extracted MFCC features why do I need Language model and linguist and acoustic model for trainning? I thought that these models are used in Speech recognition to detect the most likely word but what it will benifit me if my goal is only to check for pronounciation?
+from:
+  name: Rawan Lazkani
+  id: '1337805666323562'
+type: status
+created_time: '2017-02-02T13:52:22+0000'
+updated_time: '2017-02-05T07:27:28+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1376278665745171/
+id: '172338516139198_1376278665745171'
+comments:
+  data:
+  - created_time: '2017-02-02T14:34:42+0000'
+    from:
+      name: Amr Medhat
+      id: '10155426916839779'
+    message: what's the goal of your project? to check pronunciation to the level
+      of letter, word or sentence? depending on your scope you'll decide which models
+      to define and how (phone model, lexicon / dictionary , and language model) -
+      based on your application needs each model will be as simple or as complex as
+      its needs
+    id: '1376306429075728'
+  - created_time: '2017-02-02T14:56:42+0000'
+    from:
+      name: Hussein Ghaly
+      id: '10160069424510193'
+    message: I'm only very new in speech, but my understanding is that you'll need
+      to go through all the steps of Automatic Speech recognition (using the language
+      model and the acoustic model) so that you will be able to detect the words and
+      their boundaries, and hence you can check the pronunciation of each word.
+    id: '1376322135740824'
+  - created_time: '2017-02-02T18:30:41+0000'
+    from:
+      name: Tony Raoul Iscaros
+      id: '10156165643313420'
+    message: "if your training data is in form of letters , then you need a language
+      model for forming words for example 3amr it is written عمرو\nalthough there
+      is a missing letter \nI don't know how this model is implemented i just passed
+      by it in a neural network course \nAnd there is something you can do to avoid
+      having a language model , you can have the training data in form of words and
+      not letters.\nYou can also use deep-learning which is harder to develop but
+      will avoid modelling at the first place."
+    id: '1376504089055962'
+  - created_time: '2017-02-04T20:35:59+0000'
+    from:
+      name: Rawan Lazkani
+      id: '1337805666323562'
+    message: Es RAa تعالي شوفي التعليقات
+    id: '1378699565503081'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0zTmpNd05qUXlPVEEzTlRjeU9Eb3hORGcyTURRMk1EZA3oZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0zT0RZANU9UVTJOVFV3TXpBNE1Ub3hORGcyTWpRd05UVTUZD

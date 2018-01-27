@@ -1,0 +1,65 @@
+---
+message: "Hello Guys, \nIs anyone here using some kinda remote developing machine?\nI
+  had my own setup as an instance on AWS and just connect to it through sublime SFTP,
+  then I moved to Atom and nuclide but both ways have their own troubles.\n\nI'm just
+  wondering if anyone has a better practice?"
+from:
+  name: Mohamed Amin
+  id: '2016714868586746'
+type: status
+created_time: '2016-09-18T06:25:58+0000'
+updated_time: '2016-09-20T17:43:53+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1234920419880997/
+id: '172338516139198_1234920419880997'
+reactions:
+  data:
+  - id: '10150018875713155'
+    name: Rolly McScrolly
+    type: LIKE
+  - id: '10157017423792738'
+    name: Ibrahim Zaki
+    type: LIKE
+  paging:
+    cursors:
+      before: TkRrNU5qSTJOelUzT2pFME56YzBNamt5TWpJNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRrNU56RTNOek0zT2pFME56UXlNVFV5TVRnNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-09-18T08:22:21+0000'
+    from:
+      name: أحمد محمود محمد عبدالوهاب
+      id: '10155226291481186'
+    message: There's thie remote feature in intellij products (pycharm, rubymine,
+      etc)
+    id: '1234993446540361'
+  - created_time: '2016-09-18T08:24:27+0000'
+    from:
+      name: أحمد محمود محمد عبدالوهاب
+      id: '10155226291481186'
+    message: |-
+      there's also such solutions where you work locally and the files move synched automatically
+      https://www.digitalocean.com/community/tutorials/how-to-use-rsync-to-sync-local-and-remote-directories-on-a-vps
+    id: '1234996953206677'
+  - created_time: '2016-09-18T09:50:36+0000'
+    from:
+      name: Ahmed Aboulenein
+      id: '10160047384135438'
+    message: 'I understand you want to develop on the remote machine and access it
+      remotely like a remote desktop, if so give this a try: https://www.nomachine.com/download'
+    id: '1235037219869317'
+  - created_time: '2016-09-19T19:38:32+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: 'على حد معرفتي: لو السيرفر ويندوز استخدم Remote Desktop'
+    id: '1236338039739235'
+  - created_time: '2016-09-20T17:43:50+0000'
+    from:
+      name: Mohannad Ali
+      id: '10155955385444519'
+    message: Why do you want to develop remotely?
+    id: '1237069926332713'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl6TkRrNU16UTBOalUwTURNMk1Ub3hORGMwTVRnMk9UUXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl6TnpBMk9Ua3lOak16TWpjeE16b3hORGMwTXprek5ETXgZD

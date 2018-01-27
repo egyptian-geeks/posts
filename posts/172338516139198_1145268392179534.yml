@@ -1,0 +1,201 @@
+---
+message: |-
+  عندي مشكلة مع ال WAMP، عامل فيها database و شوية php files في folder WWW
+  لما بجرب ا connect بيهم من علي اللاب بيقرا و بيرجعلي json من ال php file
+  لكن لما بحاول من browser الموبايل مع العلم اني بضيف في ال url ال local ip بيقولي forbidden
+link: https://www.facebook.com/photo.php?fbid=10209661678557611&set=gm.1145268392179534&type=3
+from:
+  name: Amr Mohsen
+  id: '10215583380316454'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/q83/s130x130/13233085_10209661678557611_1666307441540938990_n.jpg?oh=36e820ed25d6b8619e1bb1fe38b93135&oe=5B22C772
+created_time: '2016-05-17T23:44:06+0000'
+updated_time: '2016-05-18T23:44:29+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1145268392179534/
+id: '172338516139198_1145268392179534'
+reactions:
+  data:
+  - id: '10213118809797201'
+    name: Muhammad El-Hennawy
+    type: LIKE
+  - id: '2072300546350157'
+    name: Zeinab Mohamed
+    type: LIKE
+  - id: '10155965038378745'
+    name: Said Bakr
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRZAd01qZAzROVFF6TWpveE5EWXpOVFF4T0RFeU9qSTFOREE1TmpFMk1UTT0ZD
+      after: TnpnNU1ESXpOelEwT2pFME5qTTFNamt6TnpFNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-05-17T23:47:24+0000'
+    from:
+      name: Abdulrahman Mohamed
+      id: '1666406580084320'
+    message: |-
+      مشكلة تصاريح فى الملفات
+      شوف ملف الهتكسس
+    id: '1145269388846101'
+  - created_time: '2016-05-17T23:55:21+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: |-
+      خش على httpd.conf بتاعت الأباتشي بتاع الوامب اللي عندك
+      بعدين ابحث عن مسار مجلد www فيه واللي غالبا هيكون c:/wamp/www (على حسب المسار اللي انت مصطبه فيه)
+      هتلاقيه في تاج اسمه directory
+      قبل نهاية التاج ده، هتلاقي خاصية اسمها
+      Require local
+      اعمل عليها comment
+      اقفل السيرفر وافتحه تاني
+    id: '1145271465512560'
+  - created_time: '2016-05-18T00:02:28+0000'
+    from:
+      name: AbdAllah Khashaba
+      id: '1032800230207501'
+    message: هههههه تعالى جنب اخوك .. انت وندوز 10
+    id: '1145274665512240'
+  - created_time: '2016-05-18T00:17:56+0000'
+    from:
+      name: AbdAllah Khashaba
+      id: '1032800230207501'
+    message: على فكرة فى حل لها تاني أعتقد هو إنك تسمح اللستنج بتاع الفولدرات اللى
+      مفيهاش أندكس  هشوفهولك دلوقتي
+    id: '1145279948845045'
+  - created_time: '2016-05-18T00:18:47+0000'
+    from:
+      name: AbdAllah Khashaba
+      id: '1032800230207501'
+    message: |-
+      اتفضل يا برنس :
+      https://codedump.io/share/4h3sxP9tZlO8/1/how-to-enable-directory-listing-in-a-virtual-host-of-wamp-server-3
+    id: '1145280355511671'
+  - created_time: '2016-05-18T00:20:54+0000'
+    from:
+      name: Amr Mohsen
+      id: '10215583380316454'
+    message: انا بيظهر عندي الملفات من ال browser بس من الموبايل مفيش
+    id: '1145280925511614'
+  - created_time: '2016-05-18T00:26:45+0000'
+    from:
+      name: AbdAllah Khashaba
+      id: '1032800230207501'
+    message: "جرب دا : \nhttp://stackoverflow.com/questions/8366976/wamp-error-forbidden-you-dont-have-permission-to-access-phpmyadmin-on-this-s"
+    id: '1145282348844805'
+  - created_time: '2016-05-18T00:36:11+0000'
+    from:
+      name: Amr Mohsen
+      id: '10215583380316454'
+    message: حد يعرف طيب لو كدة سيرفر ممكن نرفع عليه الحاجة؟ هي مش كبيرة
+    id: '1145285108844529'
+  - created_time: '2016-05-18T01:04:58+0000'
+    from:
+      name: Mohamed Emad
+      id: '1565527460161097'
+    message: هي مشكلة صلاحيات علي فكره اتاكد اني directory folder في مكان خاص  باليوزر
+      بتاعك كان بتحصل معايا في ٍsql server
+    id: '1145297168843323'
+  - created_time: '2016-05-18T07:18:00+0000'
+    from:
+      name: Hany El-Kerdany
+      id: '10154916813095989'
+    message: |-
+      Check your httpd.conf/apache2.conf/virtualhost(ifany), you probably have your "Allow From" directive configured to "localhost/127.0.0.1" .. change it to "all" to allow the world to read, or allow your local network:
+      192.168.1 < leave the last number
+
+      http://stackoverflow.com/questions/19132059/how-to-allow-remote-access-to-my-wamp-server-for-mobileandroid
+    id: '1145420242164349'
+  - created_time: '2016-05-18T08:31:43+0000'
+    from:
+      name: Mohamed A. Shebl
+      id: '10215244177361076'
+    message: عانيت منها ايام وعملت كل ما تتخيله في ملف httpd.config الحل الاخير لازم
+      بعد نعديلات ال httpd.config اللي الناس قالوا عليها دي تقفل الوندوز firewall
+      وجرب وهيا مقفوله وعلي ضمانتي هتشتغل :D
+    id: '1145440505495656'
+  - created_time: '2016-05-18T08:33:37+0000'
+    from:
+      name: Mohamed A. Shebl
+      id: '10215244177361076'
+    message: 'دور في httpd.config علي الحته بتاعة  # Controls who can get stuff from
+      this server. وخليها Require all granted واي حاجة require local غيرها برضو ل
+      Require all granted'
+    id: '1145440832162290'
+  - created_time: '2016-05-18T08:38:01+0000'
+    from:
+      name: Mohamed Amgad
+      id: '10215433203563275'
+    message: try cd htdocs && chmod +R 777 muse
+    id: '1145442178828822'
+  - created_time: '2016-05-18T10:20:37+0000'
+    from:
+      name: Ahmed Hashem
+      id: '1928384107425504'
+    message: خلى الApache server يسمع من اى بى زى 192.168.1.5 موش localhost ولا 127.0.0.1
+    id: '1145472852159088'
+  - created_time: '2016-05-18T10:33:07+0000'
+    from:
+      name: Mina Malak
+      id: '10155996037437456'
+    message: |-
+      Amr Mohsen
+      ما انت معاك السيرفر بتاع humyum
+
+      ارفع عليه ؟؟؟
+    id: '1145475945492112'
+  - created_time: '2016-05-18T10:37:40+0000'
+    from:
+      name: Amr Emad
+      id: '10156202563172049'
+    message: "C:\\wamp\\bin\\apache\\apache\\conf\\httpd.conf \n\nadd this after \n#
+      <Directory> blocks below.\n\n<Directory \"c:/wamp/www/\">\n    Options Indexes
+      FollowSymLinks MultiViews\n    AllowOverride all\n        Order Allow,Deny\n
+      \       Require all granted\n    Allow from all\n</Directory>"
+    id: '1145477328825307'
+  - created_time: '2016-05-18T13:18:09+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: grab edeelo 777 kda w shoof eih eli hy7sal
+    id: '1145543172152056'
+  - created_time: '2016-05-18T14:55:37+0000'
+    from:
+      name: Khaled Elnaggar
+      id: '10215461207703148'
+    message: جربت تفتح بورت في الفايروول للوينوز وكمان ف الروتر ؟
+    id: '1145584712147902'
+  - created_time: '2016-05-18T21:39:24+0000'
+    from:
+      name: Eslam Ahmed Ramadan
+      id: '2020473801302639'
+    message: Enable Firewall and make allow access
+    id: '1145789932127380'
+  - created_time: '2016-05-18T23:44:29+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: الجماعة اللي بيتكلموا عن الفايروول، فهو لا يمكن يكون له علاقة بالموضوع.
+      الفايرول لو حاجب اي حاجة ما كان يمكن تشوفوا الرسالة اللي في الصورة.
+    id: '1145851298787910'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUwTlRJMk9UTTRPRGcwTmpFd01Ub3hORFl6TlRJNE9EUTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUwTlRnMU1USTVPRGM0TnpreE1Eb3hORFl6TmpFMU1EWTUZD
+attachments:
+  data:
+  - description: |-
+      عندي مشكلة مع ال WAMP، عامل فيها database و شوية php files في folder WWW
+      لما بجرب ا connect بيهم من علي اللاب بيقرا و بيرجعلي json من ال php file
+      لكن لما بحاول من browser الموبايل مع العلم اني بضيف في ال url ال local ip بيقولي forbidden
+    media:
+      image:
+        height: 720
+        src: https://scontent.xx.fbcdn.net/v/t31.0-8/q87/s720x720/13220771_10209661678557611_1666307441540938990_o.jpg?oh=212dc8a006eb1ca34f5454da9c7db9e2&oe=5AE7960A
+        width: 540
+    target:
+      id: '10209661678557611'
+      url: https://www.facebook.com/photo.php?fbid=10209661678557611&set=gm.1145268392179534&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=10209661678557611&set=gm.1145268392179534&type=3

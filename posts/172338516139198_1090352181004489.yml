@@ -1,0 +1,47 @@
+---
+message: هل ممكن ان انا اعمل بيثون سكريبت يشتغل اول ما يلقط ان ال UID بتاع الجهاز
+  اتغير يعني مثلا لما ابعتو لحد يقرا ال UID لو لقاه اتغير يشتغل ولو لقاة نفس UID ال
+  انا ظبتة علية ميشتغلش
+from:
+  name: Mohamad Emad
+  id: '1487671784675336'
+type: status
+created_time: '2016-03-02T20:53:33+0000'
+updated_time: '2016-03-03T16:36:38+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1090352181004489/
+id: '172338516139198_1090352181004489'
+reactions:
+  data:
+  - id: '1487671784675336'
+    name: Mohamad Emad
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlPVGMxT0RjM05qZAzFPakUwTlRjd01qUTVNVFU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlPVGMxT0RjM05qZAzFPakUwTlRjd01qUTVNVFU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-03-02T23:57:22+0000'
+    from:
+      name: Ahmed Gaber Elneel
+      id: '1552352001546794'
+    message: قصدك الUUID ؟! و ايه الOS اللي شغال عليه ؟!
+    id: '1090444747661899'
+  - created_time: '2016-03-03T00:02:25+0000'
+    from:
+      name: Ahmed Gaber Elneel
+      id: '1552352001546794'
+    message: هتحتاج تdecode الdmi table و تجيب الsystem UUID ... بس ده حل مش كويس
+      في ظني لو هيكون hardcoded و ناوي تdistribute الcode بتاعك و دي وسيلتك لحماية
+      حقوقك ... بالذات لو الكود ده بايثون ...
+    id: '1090446427661731'
+  - created_time: '2016-03-03T16:36:38+0000'
+    from:
+      name: Mohamad Emad
+      id: '1487671784675336'
+    message: انا معاية ال uuid انا عايز احطة في فورمت executable بحيث ان هو يشغل نفسة
+    id: '1090793970960310'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE1TURRME5EYzBOelkyTVRnNU9Ub3hORFUyT1RZAek1EUXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE1TURjNU16azNNRGsyTURNeE1Eb3hORFUzTURJeU9UazQZD

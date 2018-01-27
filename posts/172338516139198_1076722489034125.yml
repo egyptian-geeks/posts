@@ -1,0 +1,44 @@
+---
+message: "I have a big problem in anew project that is about to be launched in a few
+  days\n\nData is concatenated and i find no better way to clone it \n\n================\nDB
+  Structure : \nOne Course has many chapters ,\nEvery Chapter has many Subjects ,\nEvery
+  Subject has many Questions ,\nEvery Question has many Answers .\n================================\nRequired
+  cloning a course from user to another ,\n================================\nI did
+  it like that :\n================\n1- select query = course\ninsert query  = new
+  course -> new course  ID\n\n2- select query = chapters of course\nloop start on
+  chapters\n     using new course  ID :  \n     insert query  = new chapter -> new
+  chapter  ID\n\n          3- select query = subjects of chapter \n          loop
+  start on subjects\n               using new chapter ID :\n               insert
+  query  = new subject -> new subject ID\n\n                   4- select query = questions
+  of subject \n                   loop start on Questions\n                        using
+  new subject ID :    \n                        insert query  = new question -> new
+  question ID\n\n                              5- and so on for answers \n\n                   loop
+  end on Questions \n\n          loop end on  subjects \n\nloop end on  Chapters\n\n================================\n\nThe
+  problem is that a single course could have a 400 questions\n\nand this is a massive
+  no of queries to be done specially when this process is done repeatedly \n\n================================\n\nwaiting
+  for your generous help :)"
+from:
+  name: AbdAllah Khashaba
+  id: '1032800230207501'
+type: status
+created_time: '2016-02-09T10:26:40+0000'
+updated_time: '2016-02-09T12:30:11+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1076722489034125/
+id: '172338516139198_1076722489034125'
+comments:
+  data:
+  - created_time: '2016-02-09T10:56:40+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      400 shouldn't be a big number, especially that you are doing the whole thing in the DB not retrieving it anyway. How long does the query take on a test machine?
+
+      Oh wait, you mention loops. Maybe you do transfer it!
+
+      Have you considered doing the thing in SProcs without loops? (INSERT INTO, with complex SELECTs)
+    id: '1076734039032970'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEEzTmpjek5EQXpPVEF6TWprM01Eb3hORFUxTURFMU5EQXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEEzTmpjek5EQXpPVEF6TWprM01Eb3hORFUxTURFMU5EQXcZD

@@ -1,0 +1,148 @@
+---
+message: |
+  سؤال بخصوص الروترات او اﻷكسس واي فاي:
+  حد يعرف نوع وموديل بيتباع في مصر يمكن تركيب عليه الفيرم وير بتاعة DD-WRT؟
+  الفيرم وير دي مهمة جدا لمطوري الويب ﻷنك تقدر تعمل Local DNS على الراوترتقدر من خلاله ومن الشبكة المحلية عندك توصل لل Virtual Hosts على خادم الويب بأسماء نطاق من عندك زي مثلا blog.loc  or cms.dev الخ، وده يمكنك من إنك تختبر التطبيق بتاعك من على أي جهاز داخل في الشبكة بتاعتك سواء كان موبايل، تابلت، ديسكتوب تاني ومن غير ما تحتاج تعدل في ملف hosts لكل جهاز.
+  انا عندي ايقونة Linksys WRT54G ولكنه قديم ويبدو إنه بدأ يخرف (راماته والروم بتاعته) واوشك على النفاذ، فعلشان كدة بسأل.
+link: http://dd-wrt.com/site/index
+from:
+  name: Said Bakr
+  id: '10155965038378745'
+type: link
+created_time: '2017-07-14T17:51:40+0000'
+updated_time: '2017-07-15T17:14:59+0000'
+name: www.dd-wrt.com | Unleash Your Router
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1547327901973579/
+id: '172338516139198_1547327901973579'
+comments:
+  data:
+  - created_time: '2017-07-14T17:52:46+0000'
+    from:
+      name: Ali Dawood
+      id: '10155037241837455'
+    message: Up
+    id: '1547328811973488'
+  - created_time: '2017-07-14T17:53:38+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: انا عامل اكسس بوينتس كتير عندي open wrt
+    id: '1547329281973441'
+  - created_time: '2017-07-14T17:54:06+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: اغلب موديلات tp link الجديدة supported
+    id: '1547329531973416'
+  - created_time: '2017-07-14T17:58:27+0000'
+    from:
+      name: Moustafa Ziada
+      id: '1555410104507505'
+    message: Bos hwa 25lbit al access point al Egypt tp-link fi 2nwa3 tnia bs mo4
+      mwgoda 3nd nas kter
+    id: '1547332461973123'
+  - created_time: '2017-07-14T17:59:51+0000'
+    from:
+      name: Muhammad El-Shafie
+      id: '10215276255482572'
+    message: طيب ما يعمل DNS  عنده و خلاص في الشبكة
+    id: '1547333621973007'
+  - created_time: '2017-07-14T18:02:01+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: |-
+      عامة بعيدا عن ال open wrt او dd wrt انت ممكن تعمل اي جهاز ع الشبكة dns server مثلا bind server
+      وتحط في الراوتر الادرس بتاع السيرفر ده لما ييجي يوزع dhcp فبالتالي برده بقى عندك dns custom في الشبكة كلها
+    id: '1547335218639514'
+  - created_time: '2017-07-14T18:13:01+0000'
+    from:
+      name: Mahmoud Mortda
+      id: '1816374988414963'
+    message: فهمنا اكتر الموضوع ده
+    id: '1547344288638607'
+  - created_time: '2017-07-14T19:00:38+0000'
+    from:
+      name: Muhammad Saleh
+      id: '10156649659196002'
+    message: I have Linksys wrt1200ac
+    id: '1547379745301728'
+  - created_time: '2017-07-14T19:44:18+0000'
+    from:
+      name: Ahmed Soliman
+      id: '10152402728970388'
+    message: Your /etc/hosts can take you miles :)
+    id: '1547411635298539'
+  - created_time: '2017-07-14T23:00:06+0000'
+    from:
+      name: Tony Raoul Iscaros
+      id: '10156165643313420'
+    message: Hatl2i Fi computer shop , Linksys e900. Bs Howa mafoush makan l 5at el
+      telephone
+    id: '1547539121952457'
+  - created_time: '2017-07-14T23:00:31+0000'
+    from:
+      name: Tony Raoul Iscaros
+      id: '10156165643313420'
+    message: Btw Fi models ketir linksys adman 7aga
+    id: '1547539301952439'
+  - created_time: '2017-07-14T23:03:14+0000'
+    from:
+      name: Mohamed Eltantawi
+      id: '10160105091695314'
+    message: Find a router you like in your budget range from the models available
+      in the market, make note of the model and hardware revision, then consult http://www.dd-wrt.com/site/support/router-database
+      to check if supported or not (take extra note about the hardware revision, as
+      the same router can have different support options with different hardware revisions),
+      if it is supported, buy it.
+    id: '1547540345285668'
+  - created_time: '2017-07-15T00:48:50+0000'
+    from:
+      name: Hesham Desouky
+      id: '10215011048531592'
+    message: Buy mikrotik , it supports what you need
+    id: '1547597345279968'
+  - created_time: '2017-07-15T07:02:19+0000'
+    from:
+      name: Mostafa Alaa
+      id: '10208596993002679'
+    message: "tl-wr741nd\nبس الراوتر ده قديم و تي بي لينك شكلها اتخلت عنه \nلو دخلت
+      هنا هتلاقيهم كاتبين discontinued\nhttp://www.tp-link.com.au/products/details/TL-WR741ND.html"
+    id: '1547794681926901'
+  - created_time: '2017-07-15T07:15:57+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: "إرتباطا بالموضوع: \nلما دخلت على موقع TP-Link عندهم محاكي لبعض الموديلات،
+      لما دخلت على محاكيات ال Access Points لاقيتها فاقدة خاصية مهمة جدا موجودة في
+      ال Routers وهي ال Port Forwarding ، فغالبا لما هشتري هشتري WiFi Router"
+    id: '1547801895259513'
+  - created_time: '2017-07-15T07:38:33+0000'
+    from:
+      name: AbdAllah Khashaba
+      id: '1032800230207501'
+    message: طور الكود بتاعك انه ي detect ال base_url تلقائياً وخلي كل اللينكات في
+      التطبيقات شغاله على المتغير دا ومش هتحتاج انك تغير الكود كل ما ترميه في مكان
+      مختلف
+    id: '1547813665258336'
+  - created_time: '2017-07-15T17:14:56+0000'
+    from:
+      name: Mohamed Fekri
+      id: '10214284437157546'
+    message: linksys-E1200      dd-wrt  موجود علي سوق.كم متوافق مع
+    id: '1548182941888075'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUwTnpNeU9EZA3hNVGszTXpRNE9Eb3hOVEF3TURVME56WTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUwT0RFNE1qazBNVGc0T0RBM05Ub3hOVEF3TVRNNE9EazMZD
+attachments:
+  data:
+  - description: DD-WRT is free Linux-based firmware for several wireless routers,
+      most notably the Linksys WRT54G (including the WRT54GL and WRT54GS) and Buffalo
+      WHR-G54s,WHR-HP-G54. It is licensed under the GNU General Public License version
+      2. Many of DD-WRT's features are not included in typical router firmware....
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fdd-wrt.com%2Fsite%2Findex&h=ATNwwT6AM7v2R1kUweKP6u5OlC_BVzeii8uqYspZksdanGWA20ynPPfSMgemvKZJUfce9edPQ-cLMGxHJWa7VB1cYWSvrYIWyTXn&s=1&enc=AZNoSkz8KqWFRTezPWQdOngbinvFh_UhEdNG93JnKrjj82uWVGZ2RXMl03NFCv83sbLft0sGn4FW93JpbxIdBeB6
+    title: www.dd-wrt.com | Unleash Your Router
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fdd-wrt.com%2Fsite%2Findex&h=ATNwwT6AM7v2R1kUweKP6u5OlC_BVzeii8uqYspZksdanGWA20ynPPfSMgemvKZJUfce9edPQ-cLMGxHJWa7VB1cYWSvrYIWyTXn&s=1&enc=AZNoSkz8KqWFRTezPWQdOngbinvFh_UhEdNG93JnKrjj82uWVGZ2RXMl03NFCv83sbLft0sGn4FW93JpbxIdBeB6

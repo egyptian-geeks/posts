@@ -1,0 +1,128 @@
+---
+message: |-
+  Does anybody know companies here in Cairo which has products built upon a good model of Microservices architecture and are concerned with event buses, docker, build and deployment automation, Cloud-Based (AWS or GCP), unit and automated integration tests, multi tenancy?
+
+  Please if you know any state company names, product/business domain and technology stack they use.
+
+  Thanks in advance
+from:
+  name: Mustafa Dagher
+  id: '10215560476549083'
+type: status
+created_time: '2016-12-15T07:22:10+0000'
+updated_time: '2016-12-17T21:56:36+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1327822197257485/
+shares:
+  count: 2
+id: '172338516139198_1327822197257485'
+reactions:
+  data:
+  - id: '10215560476549083'
+    name: Mustafa Dagher
+    type: LIKE
+  - id: '931399460358043'
+    name: Mohammad Ali
+    type: LIKE
+  - id: '10211958026050902'
+    name: Ahmed Ramadan
+    type: LIKE
+  - id: '10155182529813309'
+    name: Mohamed El-Sayed
+    type: LIKE
+  - id: '1928384107425504'
+    name: Ahmed Hashem
+    type: LIKE
+  - id: '10214796374519514'
+    name: Islam AbdelMohaimen Hassan
+    type: LIKE
+  - id: '10155008686891793'
+    name: Sherif Medhat
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRNMU5UQTBOVGcxTmpveE5EZA3hPVEExT1RVMk9qSTFOREE1TmpFMk1UTT0ZD
+      after: TlRZAeU1ERTJOemt5T2pFME9ERTNPRGd3TURNNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-12-15T08:57:26+0000'
+    from:
+      name: Khaled Abdelrahman
+      id: '10155299731606461'
+    message: |-
+      I can say that orange labs were working on very nice projects related also to CQRS and Event Sourcing and Microservices
+      Stack was Scala, Java, Akka Http, Akka Persistence, Cassandra, Jenkins, Docker, Grafana, Kibana, Elasticsearch, Logstash, Android, AngulrJS 1.5 , Cukes Cucumber and more :-)
+    id: '1327868533919518'
+  - created_time: '2016-12-15T09:22:51+0000'
+    from:
+      name: Ahmed Hashem
+      id: '1928384107425504'
+    message: I think Eventtus does. They mentioned something like that in there medium
+      https://medium.com/eventtus-technical-blog
+    id: '1327889013917470'
+  - created_time: '2016-12-15T09:45:21+0000'
+    from:
+      name: Fady Taher
+      id: '10159837107290263'
+    message: Codescalers
+    id: '1327910827248622'
+  - created_time: '2016-12-15T09:56:49+0000'
+    from:
+      name: Mohammed Hussien
+      id: '10154922289347024'
+    message: Ousta
+    id: '1327926053913766'
+  - created_time: '2016-12-15T11:16:04+0000'
+    from:
+      name: Mustafa Dagher
+      id: '10215560476549083'
+    message: thanks all :)
+    id: '1327986757241029'
+  - created_time: '2016-12-15T12:21:41+0000'
+    from:
+      name: Ahmad Hassan Posten
+      id: '1561778180542287'
+    message: "At Instabug  we do have a good microservices architecture, we manage
+      our entire infrastructure over AWS cloud using mesos, marathon, zookeeper, kafka
+      ... etc through DC/OS ... we use prometheus + grafana for monitoring and ELK
+      + logspout for logging \nWe use vamp for blue green deployments, canary releases
+      and SLA ... \nOur testing pipeline is relatively great too\nOur stack includes
+      ROR, mysql, elasticsearch, redis, go, nodejs"
+    id: '1328024407237264'
+  - created_time: '2016-12-15T13:25:54+0000'
+    from:
+      name: Mohamed Tawfik
+      id: '10204074940031522'
+    message: Mostafa Saeed
+    id: '1328061103900261'
+  - created_time: '2016-12-16T16:01:23+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: Products are not built on a MicroServices Architecture, but software
+      services, and Enterprise services can be. Considering the fact that the enterprises
+      in Egypt are rather primitive, I would not expect that, perhaps a mutinational.
+    id: '1329137723792599'
+  - created_time: '2016-12-16T21:03:24+0000'
+    from:
+      name: Ahmed Thabet
+      id: '1849432635069365'
+    message: |-
+      We have incredible technology stack (we are even competing against aws, azure!) also we got our own alternative to docker `we use docker extensively anyways`
+
+      tags of what we use: go, python, dockers, libvirt, grafana, influxdb, .....
+    id: '1329340770438961'
+  - created_time: '2016-12-17T21:39:31+0000'
+    from:
+      name: Mostafa Saeed
+      id: '1816851641672820'
+    message: At OUSTA - أسطى, our system is event driven, Microservices based architecture
+      that consists of about 15 services distributed around business functionalities,our
+      stack includes php,postgresql,postgis & elasticsearch,we also use jenkins for
+      continuous integration , elaaticbeanstalk for continuous deployment, AWS cloud
+      watch for infrastructure monitoring, rollbar for application level monitoring,
+      AWS SNS as a publish subscribe service & AWS SQS as a message queueing service.
+    id: '1330317857007919'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE15TnpnMk9EVXpNemt4T1RVeE9Eb3hORGd4TnpreU1qUTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE16TURNeE56ZAzFOekF3TnpreE9Ub3hORGd5TURFd056Y3gZD

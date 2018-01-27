@@ -1,0 +1,92 @@
+---
+message: |-
+  إزيكوا يا geeks! :D
+  كنت عايز أسئلكوا عن برامج الversion control زي git وكدا.
+  حد فيكوا استخدم حاجة غير git؟ أنا شخصياً معرفش غيره ومتعاملتش مع غيره.
+  لو حد اتعامل مع أي حاجة غيره زي bzr ولا hg ولا أي حاجة. ايه رأيكوا؟ هل git فعلاً أحسن حاجة ويستحق ياكل الجو ولا في حاجات تانية موجودة والناس مش مقدراها؟
+from:
+  name: Adam Zahran
+  id: '2029806313704072'
+type: status
+created_time: '2016-05-09T11:45:10+0000'
+updated_time: '2016-05-11T18:59:07+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1140240102682363/
+id: '172338516139198_1140240102682363'
+reactions:
+  data:
+  - id: '1596110217148252'
+    name: Ahmed Badawy
+    type: LIKE
+  - id: '10156191099748000'
+    name: Shady Mohamed Sherif
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlORGM0Tmpnd09EVTJPakUwTmpJNE9EZAzJOekk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TlRVMk5qTTNPVGs1T2pFME5qSTRNamN3T1RJNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-05-09T11:46:45+0000'
+    from:
+      name: Mahmoud El Kotoury
+      id: '10159892786570537'
+    message: svn and mercurial
+    id: '1140240856015621'
+  - created_time: '2016-05-09T11:51:14+0000'
+    from:
+      name: Rafael Adel
+      id: '10156260406777122'
+    message: "svn .. I prefer git for two reasons:\n1)decentralization \n2)content
+      based instead of file based"
+    id: '1140242492682124'
+  - created_time: '2016-05-09T11:52:41+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      I used the very old Sourcesafe for a short bit, and TFS (both old and new versions), and SVN (used to be my favorite before Git), and hg for very very short period (which Windows people abandoned as soon as Git started working well on Windows).
+
+      Git rocks them all. In the past after using Git, I only used SVN for non tech savvy people (designer I did work for him on his personal stuff), but today if I get this case again I might also try Git.
+    id: '1140243469348693'
+  - created_time: '2016-05-09T18:21:19+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: اساس الفكرة في الموضوع، إنه هو الأكثر انتشارا، بغض النظر عن هو أحسن أو
+      أوحش.
+    id: '1140462285993478'
+  - created_time: '2016-05-10T13:57:43+0000'
+    from:
+      name: Ahmed Badawy
+      id: '1596110217148252'
+    message: Git all the way...
+    id: '1140975829275457'
+  - created_time: '2016-05-10T14:30:10+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: Tfs, tortise and git , git is the best
+    id: '1140989789274061'
+  - created_time: '2016-05-10T23:52:35+0000'
+    from:
+      name: Hosam Aly
+      id: '1657509230977456'
+    message: |-
+      I'd say that I'm adept at using open-source version control systems, having used CVS, Subversion, Mercurial, Git and Bazaar.
+
+      My personal opinion is that Mercurial is "Git for Human Beings". It's easier to use, has better cross-platform support, and guards the user against a lot of common mistakes.
+
+      Git is a powerful tool. Probably too powerful for most people. It also assumes its user to be an informed, power user. It used to do very little to guard against some common mistakes, but I've noticed that it has become better at that in recent versions.
+
+       Technically speaking, it's possible to clone a Git repository into Mercurial while keeping all its information, but sadly it's not possible to do that the other way around, because Mercurial stores more metadata about your commits than Git does.
+
+      Many people think that Mercurial is "better" than Git, in a similar sense to saying that Java is "better" than C++. And, of course, many people think the opposite is true. It takes a true engineer to appreciate the character and the different priorities of these systems.
+
+      The thing that made Git so popular is GitHub. GitHub has really made a lot of difference in everybody's lives. Its impact on our lives can only be compared to Google Search or to the invention of the Internet.
+
+      وفر من بازار فرارك من الأسد :D
+    id: '1141225612583812'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUwTURJME1EZAzFOakF4TlRZAeU1Ub3hORFl5TnprME5EQTEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUwTVRJeU5UWXhNalU0TXpneE1qb3hORFl5T1RJME16VTIZD

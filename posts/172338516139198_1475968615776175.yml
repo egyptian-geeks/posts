@@ -1,0 +1,74 @@
+---
+message: "لو سمحت يا جماعه للي عندوا خلفيه عن Amazon Web services\nهل فيها host servers
+  ممكن اعمل عليها  زي اكونت ل SSH server \nبحيث يوفر لي الحاجات \nSsh Host server
+  \nUsername\nPassword\nولو ينفع ازاي ؟؟"
+from:
+  name: Evram Karam
+  id: '1552537434781683'
+type: status
+created_time: '2017-05-07T10:51:08+0000'
+updated_time: '2017-05-08T02:55:09+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1475968615776175/
+id: '172338516139198_1475968615776175'
+comments:
+  data:
+  - created_time: '2017-05-07T10:58:53+0000'
+    from:
+      name: Ahmad Hisham
+      id: '10159889607765058'
+    message: وضح أكتر، إنت محتاج إيه بالظبط؟
+    id: '1475972365775800'
+  - created_time: '2017-05-07T11:04:08+0000'
+    from:
+      name: Ahmad Hisham
+      id: '10159889607765058'
+    message: في أمازون لما تعمل سيوفر جديد بيطلب منك تختار Keypair ، ده عبارة عن ملف
+      الkey إللي بيسمحلك تدخل علي مستخدم ال root أو ec2user (حسب الAMI أو distro إللي
+      إنت بتختارها) من غير باسوورد (الkey إللي إنت بتنزله بيكون هو الباسوورد) وده
+      أمان أكتر من ال username/ password
+    id: '1475975872442116'
+  - created_time: '2017-05-07T11:44:03+0000'
+    from:
+      name: Ahmad Hisham
+      id: '10159889607765058'
+    message: |-
+      1. Create a new Amazon Linux instance (t2.micro is sufficient, didn't try a lower instance)
+      2. Create a new Keypair (part of the instance creation wizard) and download the private-key
+      3. Make sure the Security Group you choose in AWS allows SSH (port 22) connection from 0.0.0.0
+      4. The instance will start, get the IP address from the management console
+      5. Login to machine using keypair "ssh -y -i awskeypair.pem ec2-user@{ip-address}"
+      6. Create new user "useradd user" then "passwd user" and supply password
+      7. Add user to allowed users in SSH, edit file /etc/ssh/sshd_config and add the user "user" to the AllowUsers lines:
+         AllowUsers admin user
+      8. Restart the sshd service "sudo /etc/init.d/sshd restart"
+      9. Now you have the details you need (hostname=IP Address, username=user, password=password you supplied for user)
+         To try the tunneling on your machine "ssh -C -D 9999 user@{ip-address}", this should open a SOCKS5 tunnel on port 9999
+
+      You might need to enable password-based logins in the sshd_config file, but I'm not sure
+    id: '1476005969105773'
+  - created_time: '2017-05-07T11:51:53+0000'
+    from:
+      name: Evram Karam
+      id: '1552537434781683'
+    message: "Ok , I will try \nThanks for your time and effort"
+    id: '1476010065772030'
+  - created_time: '2017-05-07T18:04:05+0000'
+    from:
+      name: Ahmed Aboulenein
+      id: '10160047384135438'
+    message: 'one more thing here: IP is not static and if you restart the instance
+      it''s going to be changed. If you need static IP, you have to create Elastic
+      IP and associate it with the instance. If you are okay with a hostname, you
+      can use the instance hostname instead which doesn''t change - but it doesn''t
+      provide you the indirection in case you change the instance later on.'
+    id: '1476287515744285'
+  - created_time: '2017-05-07T19:42:58+0000'
+    from:
+      name: Ahmed Atalla
+      id: '574320702905312'
+    message: the vps is called EC2
+    id: '1476352325737804'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEzTlRrM01qTTJOVGMzTlRnd01Eb3hORGswTVRVME56TTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEzTmpNMU1qTXlOVGN6Tnpnd05Eb3hORGswTVRnMk1UYzQZD

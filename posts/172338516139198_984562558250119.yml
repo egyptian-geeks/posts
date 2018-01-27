@@ -1,0 +1,19 @@
+---
+message: "Dears \n\nI have two applications one is written in Java and the other is
+  written in Scala. \n\nThe java application is using the Scala application as a library.
+  When I build the java application against JDK 1.8 every thing works fine. \n\nWhen
+  the I build the application against JDK 1.7, the application throw the following
+  exception.\n\njava.lang.UnsupportedClassVersionError: scala/collection/Seq : Unsupported
+  major.minor version 52.0\n\nIt seems that the Scala application is compatible with
+  JDK 1.8 only. \nI tried to change the project compiler settings in the Scala project
+  and set the target JVM into version 1.7 but nothing changed. \n\nAny suggestions
+  to have the application run against JDK 1.7 ?\nMaher Mohamed Gamal Ahmed Abdurrahman
+  Mahmoud Rabie"
+from:
+  name: Anas Rabei
+  id: '771652519692786'
+type: status
+created_time: '2015-08-05T05:46:48+0000'
+updated_time: '2015-08-05T09:03:38+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/984562558250119/
+id: '172338516139198_984562558250119'

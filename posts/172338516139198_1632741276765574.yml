@@ -1,0 +1,133 @@
+---
+message: عندي موبايل ابلكيشن عايز اعمل offline synchronization هل فيه طريقة تخليني
+  اشتغل بدون ما اعمل duplicate للباك اند لوجيك و الداتابيز scheme عندي عالموبايل ،
+  هل فيه cloud services ممكن تفيدني في الموضوع ده و ايه افضل باترن لتنفيذه . شكراً
+from:
+  name: Mohamed Abd El Aziz
+  id: '10155235606053715'
+type: status
+created_time: '2017-10-14T09:08:33+0000'
+updated_time: '2017-10-15T06:21:22+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1632741276765574/
+id: '172338516139198_1632741276765574'
+reactions:
+  data:
+  - id: '1999765416908747'
+    name: Ahmed Khalifa
+    type: LIKE
+  - id: '999826596836080'
+    name: Mohammed Salah
+    type: LIKE
+  - id: '158547971463325'
+    name: Mohamed Mohamedy
+    type: LIKE
+  - id: '10155173051963199'
+    name: Pola Ashraf
+    type: LIKE
+  - id: '1451824961582723'
+    name: Hesham Hassan
+    type: LIKE
+  - id: '10208531944855065'
+    name: Shaimaa Hasan Derbaz
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTJNalU1TWpNNE9EVXlPakUxTURjNU9EY3pOVFk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRnd01UVXdNak15T0RveE5UQTNPVGN6TVRneU9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2017-10-14T09:44:09+0000'
+    from:
+      name: Rafael Adel
+      id: '10156260406777122'
+    message: ما cloud services ازاي و انت اوفلاين؟
+    id: '1632760663430302'
+  - created_time: '2017-10-14T10:23:17+0000'
+    from:
+      name: Mohamed Abd El Aziz
+      id: '10155235606053715'
+    message: اقصد تسهل عليا ال data migration او ال sync
+    id: '1632782600094775'
+  - created_time: '2017-10-14T10:24:07+0000'
+    from:
+      name: Ahmed Atalla
+      id: '574320702905312'
+    message: |-
+      This db has the features but I don't know if you can use in mobile
+
+      https://pouchdb.com
+    id: '1632782986761403'
+  - created_time: '2017-10-14T10:38:23+0000'
+    from:
+      name: Ahmed Ashraf Gamal
+      id: '10215489165042760'
+    message: Firebase and Realm offer such services
+    id: '1632790730093962'
+  - created_time: '2017-10-14T11:05:09+0000'
+    from:
+      name: Eslam Shaker
+      id: '10214728774110070'
+    message: Firebase
+    id: '1632814353424933'
+  - created_time: '2017-10-14T11:11:15+0000'
+    from:
+      name: Pola Ashraf
+      id: '10155173051963199'
+    message: Good question ;)
+    id: '1632817743424594'
+  - created_time: '2017-10-14T11:44:38+0000'
+    from:
+      name: Abdo Hussien
+      id: '1933445573367442'
+    message: |-
+      Maybe Couchbase good choice.
+
+      https://youtu.be/uBIJBmc9FWA
+    id: '1632837506755951'
+  - created_time: '2017-10-14T12:07:15+0000'
+    from:
+      name: Mohammad Ali Diab
+      id: '10155065357586363'
+    message: "is this related ? \nhttps://developers.google.com/web/fundamentals/instant-and-offline/web-storage/offline-for-pwa"
+    id: '1632851146754587'
+  - created_time: '2017-10-14T12:30:01+0000'
+    from:
+      name: Karim Samir
+      id: '10154961575686431'
+    message: couchbase auto sync between client and server
+    id: '1632864980086537'
+  - created_time: '2017-10-14T14:58:33+0000'
+    from:
+      name: Aly Khaled
+      id: '1593603090726744'
+    message: Azure mobile app has offline sync
+    id: '1632975863408782'
+  - created_time: '2017-10-14T18:49:34+0000'
+    from:
+      name: محمد المهدى
+      id: '1874895892543707'
+    message: Amir Abou Eesa
+    id: '1633156686724033'
+  - created_time: '2017-10-14T19:11:55+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: "To go offline first u should move - not duplicate- the logic to front
+      end and implement db2db syncing u u have \nCouchdb and firebase on the top"
+    id: '1633170413389327'
+  - created_time: '2017-10-15T02:42:35+0000'
+    from:
+      name: Amr El-Madah
+      id: '1979118798769655'
+    message: Couchbase
+    id: '1633416346698067'
+  - created_time: '2017-10-15T06:21:13+0000'
+    from:
+      name: Mootaz Dinana
+      id: '10155792625775306'
+    message: https://firebase.googleblog.com/2015/05/announcing-mobile-offline-support_93.html?m=1
+    id: '1633543756685326'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl6TWpjMk1EWTJNelF6TURNd01qb3hOVEEzT1RjME1qVXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl6TXpVME16YzFOalk0TlRNeU5qb3hOVEE0TURRNE5EYzQZD

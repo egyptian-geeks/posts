@@ -1,0 +1,19 @@
+---
+message: |-
+  Hey guys,
+
+  I have a question in web application. I dont really have much experience in web app development and I am having a vendor building a portal for me at work and we are facing an issue. I tried most of the solutions I was able to get from google but nothing is working.
+
+  The issue here is that the user would click on a button which would spawn a thread running a processing intensive function that could take up to 15 minutes to complete. At the same time, it would redirect to a different page.
+
+  So We always end up getting ThreadAbortException. We tried to specify "false" as the second parameter to the Redirect function and also calling HttpContext.ApplicationInstance.CompleteRequest() but still getting the same issue.
+
+  Any suggestions?
+from:
+  name: Mohamed Moshrif
+  id: '1538447102877297'
+type: status
+created_time: '2015-07-10T05:45:14+0000'
+updated_time: '2015-07-10T10:50:19+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/970460112993697/
+id: '172338516139198_970460112993697'

@@ -1,0 +1,158 @@
+---
+message: |-
+  السلام عليكم:
+  ايه الى يخلى الواحد يفضل متمسك  انو يبرمج ناتف ابليكشن وميروحش مثلا ionic  مع انها تشبه للناتف ابليكشن جدا ومتوفره لمعظم platforms
+  عارف ان سرعه الناتف اعلى ايه تانى اختلاف  غير كده
+from:
+  name: Zeyad A. ElOsherey
+  id: '1545341755581586'
+type: status
+created_time: '2016-10-18T21:37:56+0000'
+updated_time: '2016-10-20T08:41:40+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1262243260482046/
+shares:
+  count: 1
+id: '172338516139198_1262243260482046'
+reactions:
+  data:
+  - id: '10215523479504700'
+    name: Abdulaziz Alaa
+    type: LIKE
+  - id: '1158167907620094'
+    name: Mahmoud Nassar
+    type: LIKE
+  - id: '1012026932279218'
+    name: Ahmed Mohamed Abd El-Hamid
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRNM01EWTFPRFUwTmpveE5EYzJPVFV5T1RFNE9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBd01EQTBNVFUzTmpFeE5EVTVPakUwTnpZANE16ZA3hOalE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-10-18T21:43:25+0000'
+    from:
+      name: Mohamed Ahmed
+      id: '385696705226073'
+    message: البرمجة الناتيف ليها مميزات كتير جدا عن ال hybrid مش بس السرعه  الا ان
+      api بتاعه ال sdk  المتخصصة اوى غالبا مش هتبقى موجودة فى الhybrid ده غير ان ال
+      performance  الفرق فيه خيالى ....فكره الhybrid انه بيستخدم مكون الويب فى كل
+      platform علشان يخلق وهميه التوافر على كل المنصات لكن فى الاخر انت بتتعرض لكل
+      عيوب استخدام معايير الويب و من اهم و اصعب العيوب ديه استخدام الجافاسكريبت و
+      بطئها غير العادى فى الشغل على المكونات ديه....ده غير طبعا انك بتخسر لغه قوية
+      جدا فى كل جوانبها زى الجافا او c++ لو هتستخدم ال NDK  هتفرق معاك فى كل جوانب
+      البرمجة من الاعاداد للاختبارات لتوافر الباقات  المتخصصة و نظم الCI الى بتدعمها
+      ...فالاخر الاتنين حلوين بس لو الابليكشن بتاعك هيعرض rss feed مثلا و شوية صور
+      او الانتراكشن عليه ضعيف ال hyprid هيساعدك لكن لو هتكتب ابليشكن فيه خصائص كتير
+      و حتاج السرعه زى online banking مثلا يبقى لازم تروح ناتيف علشان الابليكشن تنجح
+    id: '1262249373814768'
+  - created_time: '2016-10-18T22:48:03+0000'
+    from:
+      name: Muhammad El-Hennawy
+      id: '10213118809797201'
+    message: ال Ionic  اخره بانك تعمل ابليكشن فورمز تدخل وتبعت بيانات غير كده مش هتعرف
+      تعمل حاجة بيه !!
+    id: '1262284590477913'
+  - created_time: '2016-10-18T23:35:33+0000'
+    from:
+      name: Mohamad Kamal
+      id: '10155224465177344'
+    message: Native frameworks have far more capabilities
+    id: '1262306413809064'
+  - created_time: '2016-10-18T23:36:29+0000'
+    from:
+      name: Mohamad Kamal
+      id: '10155224465177344'
+    message: Xamarin is. Both native and cross
+    id: '1262306787142360'
+  - created_time: '2016-10-18T23:57:28+0000'
+    from:
+      name: Ahmad Hisham
+      id: '10159889607765058'
+    message: Native Apps can allow you to adopt new technologies faster and respond
+      to new OSes more rapidly, also the Native frameworks are far more capable in
+      more-advanced use cases and requirements.
+    id: '1262316367141402'
+  - created_time: '2016-10-19T00:12:29+0000'
+    from:
+      name: Mena Gamal
+      id: '1684666498250247'
+    message: Performance ! .....Native Languages gives high performance to your app
+    id: '1262323497140689'
+  - created_time: '2016-10-19T01:03:14+0000'
+    from:
+      name: AbduLatif Ahmed
+      id: '2214207455473502'
+    message: "طبعا بخلاف اداء التطبيق \nفي حاجة مهمة جدا وهي ان كل فيتشرز جديدة للنيتف
+      يقابله انك تنتظر لغاية الكروس ما يعمله !"
+    id: '1262356883804017'
+  - created_time: '2016-10-19T04:22:00+0000'
+    from:
+      name: Samuel A. Wilson
+      id: '10215340807979122'
+    message: What about Xamarin? Can it match native applications in terms of performance
+      and security? (I heard that Xamarin runs natively)
+    id: '1262476290458743'
+  - created_time: '2016-10-19T10:08:57+0000'
+    from:
+      name: Abdelrahman Ghareeb
+      id: '10155827364301005'
+    message: having been on both opposite sides of the development spectrum (vendor
+      and client)  when it comes to mobile development I think that in the near future
+      Native apps will only be apps that consume a lot of resources and would need
+      every bit of processing power it can get from a device (games, real time monitoring
+      systems, ect...). I strongly believe that right now the largest percentage of
+      mobile apps can be implemented with a hybrid framework, the biggest issue which
+      is resources will only cripple a segment of the market (low specs/cheap devices)
+      which is frankly a segment not a lot of businesses really care about and it's
+      shrinking as well (remember 13 years ago when some people thought this AJAX
+      thing wasn't gonna be used anywhere because a lot of browsers didn't support
+      it? lol), Hybrid apps performance issues will be improved and it will cater
+      at some point to a bigger portion of the low specs segment of the market. So
+      Hybrid is cheaper to implement, works for most projects, but it still doesn't
+      work for all projects, the market still needs Native app developers..
+    id: '1262654930440879'
+  - created_time: '2016-10-19T12:49:37+0000'
+    from:
+      name: Hisham Fangary
+      id: '10156660518155839'
+    message: |-
+      بص، الفاصل في الموضوع ده ببساطة هو طبيعة الApp اللي عايز تعملها.
+      لو الموضوع في الآخر هاتعمل frontend أو client app و مجرد بتأكسس backend و تجيب info يبقي مش محتاج ناتيف، و الionic و الXamarin و phonegap هايفيدوك أكثر علشان سرعة الpublishing  لكل الplatforms.
+
+      بس لو الapp هتستعمل الcpu او الhardware acceleration أو أي حاجة intensive, لازم تروح ناتيف
+    id: '1262749857098053'
+  - created_time: '2016-10-19T13:48:38+0000'
+    from:
+      name: Hazem Mohammed
+      id: '1433071816820805'
+    message: Hany Saad مين يا هاني ionic ده؟
+    id: '1262786287094410'
+  - created_time: '2016-10-19T15:46:36+0000'
+    from:
+      name: Mohamed Amin
+      id: '2016714868586746'
+    message: "Think of like that: its an extra layer of abstraction, whether its React
+      Native / Ionic solutions (taking into consideration both if them are different
+      in core).\nExtra layer means\n1.More languages\n2. More variables to control
+      \n3. More issues\n4. Limitations \nIf your app passes through those them you
+      can use them."
+    id: '1262855500420822'
+  - created_time: '2016-10-19T18:16:32+0000'
+    from:
+      name: Mohammad Hosny
+      id: '10155052403705843'
+    message: ionic is easy to break code as it is HTML and JS so it can be cracked
+      easily which means insecure , native means if OS change style automatically
+      u get new design but in ionic u will keep the old one and a lot other issues
+    id: '1262974740408898'
+  - created_time: '2016-10-20T08:41:36+0000'
+    from:
+      name: Abdulaziz Alaa
+      id: '10215523479504700'
+    message: Mo'men Almalky Ali Salem Korayem
+    id: '1263505520355820'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkyTWpJME9UTTNNemd4TkRjMk9Eb3hORGMyT0RJM01EQTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkyTXpVd05UVXlNRE0xTlRneU1Eb3hORGMyT1RVeU9EazMZD

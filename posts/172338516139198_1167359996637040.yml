@@ -1,0 +1,60 @@
+---
+message: Anyone knows how i can embed a chart in an email i sent from the system "i
+  can't use any third parties" , i know its theoretically possible with CSS3 but did
+  any one did it before.
+from:
+  name: Amir Abou Eesa
+  id: '1700979476627162'
+type: status
+created_time: '2016-06-22T23:08:44+0000'
+updated_time: '2016-06-23T16:58:18+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1167359996637040/
+id: '172338516139198_1167359996637040'
+reactions:
+  data:
+  - id: '1551946581587469'
+    name: Ahmad Saeed Goda
+    type: LIKE
+  - id: '10211400895684436'
+    name: Khalid Mohamed Al Wakeel
+    type: LIKE
+  - id: '1657509230977456'
+    name: Hosam Aly
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXpNVFkwTWpVM01Ea3dPakUwTmpZAM016RTVOems2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXhOVFV4T0RRMk1EZAzBPakUwTmpZAMk5qZAzVOREU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-06-22T23:50:58+0000'
+    from:
+      name: Muhannad Abdelrazek
+      id: '1759355620795625'
+    message: https://medium.com/the-data-experience/embed-d3js-charts-in-emails-b7c1cb725154#.tuzxiuhlc
+    id: '1167379016635138'
+  - created_time: '2016-06-23T08:36:47+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: As Muhannad Abdelrazek's example suggests,  email browsers are still
+      living in stone age.  Forget about CSS3. You can inky get away with an image,  either
+      embedded in the message,  or external via some key or whatever.path/query params.
+    id: '1167598406613199'
+  - created_time: '2016-06-23T11:04:49+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: Muhannad Abdelrazek thanks , but we cant use a 3rd party lib , i will
+      think of building our own.
+    id: '1167649293274777'
+  - created_time: '2016-06-23T16:58:18+0000'
+    from:
+      name: Ahmed Ashraf
+      id: '930615110434715'
+    message: اعتقد انك ممكن تبعتها كصوره
+    id: '1167791743260532'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUyTnpNM09UQXhOall6TlRFek9Eb3hORFkyTmpNNU5EWXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUyTnpjNU1UYzBNekkyTURVek1qb3hORFkyTnpBeE1EazQZD

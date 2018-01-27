@@ -1,0 +1,46 @@
+---
+message: "Slam all, \n\nIn specific business case , the requirements ask to find name
+  matches in database but with some kind of flexibility in term of matching error
+  rate percentage  .\n\nFor example the required algorithm should be at least 80%
+  correct in catching matching names .\n\nThe problem is i'm dealing with Arabic names
+  , and these names are coming from data entry , so محمد is not مٌحمد and الله is
+  not اللَّه .\n\nHow to handle this kind of issues in Java ? \n\nThanks in advance"
+from:
+  name: Mohamed Sweelam
+  id: '1987222834640127'
+type: status
+created_time: '2017-08-02T06:40:49+0000'
+updated_time: '2017-08-02T13:03:55+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1565709100135459/
+id: '172338516139198_1565709100135459'
+comments:
+  data:
+  - created_time: '2017-08-02T06:51:14+0000'
+    from:
+      name: Mohab El-Shishtawy
+      id: '10215847428638318'
+    message: |-
+      If you are searching in Domain names in Arabic I don't think it will make a difference in example you mentioned, you can simply remove diacritical marks before matching.
+      If you are intending to use anything other than names you need context to better determine which word you are searching for may be use something like WordNet.
+    id: '1565713256801710'
+  - created_time: '2017-08-02T06:52:21+0000'
+    from:
+      name: احمد قرواش
+      id: '1561022257326859'
+    message: |-
+      كنت بقرا مقالة عن ازاي جوجل او word بينفذ الموضوع ده
+      فكان ليه علاقة ب NLP
+      بحيث انه بيقسم الكلمة لمقاطع وحروف وبيبدأ ي Match اقرب حاجة
+
+      اعتقد Egyptian Big Data Geeks هيفيدوك جدا ف الموضوع ده
+    id: '1565713650135004'
+  - created_time: '2017-08-02T13:03:50+0000'
+    from:
+      name: Mohamed Tawfik
+      id: '10204074940031522'
+    message: have considered using elasticsearch ? https://www.elastic.co/
+    id: '1565923130114056'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUyTlRjeE16STFOamd3TVRjeE1Eb3hOVEF4TmpVMk5qYzEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUyTlRreU16RXpNREV4TkRBMU5qb3hOVEF4TmpjNU1ETXgZD

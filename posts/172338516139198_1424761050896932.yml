@@ -1,0 +1,79 @@
+---
+from:
+  name: Osama Soliman
+  id: '879271768900112'
+type: status
+created_time: '2017-03-18T20:58:24+0000'
+updated_time: '2017-03-19T00:53:24+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1424761050896932/
+id: '172338516139198_1424761050896932'
+reactions:
+  data:
+  - id: '10156996105984325'
+    name: Mostafa El-Liethy
+    type: LIKE
+  - id: '1804402029570329'
+    name: Eslam Gohar
+    type: LIKE
+  - id: '2069499223273223'
+    name: Naggar
+    type: LIKE
+  - id: '1547297148718242'
+    name: Sherif Abdel-Naby
+    type: LIKE
+  paging:
+    cursors:
+      before: TnprNE9ERTVNekkwT2pFME9EazRPREl6TURRNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQXpNVE01TVRReE1ETXhPakUwT0RrNE56RXdPREk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-03-18T21:30:06+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: |-
+      يعني ايه foo.x؟
+      يعني عندك خاصية Property للكائن object اللي اسمه foo  اسمها x. والواقع بيقول من الكود بتاعك إن الكائن ده موش اتعرف له خاصية اسمها x.
+    id: '1424789937560710'
+  - created_time: '2017-03-18T21:40:01+0000'
+    from:
+      name: Ahmed Gamal
+      id: '10155051836867143'
+    message: "That is because you are trying to attach a new property \"x\" to the
+      \"foo\" object, you see when you do that it will will start with it first, as
+      the member access or \".\" [check the member access in Operator precedence]
+      is executed left to right, so what is happening now is as folows\nCreate object
+      \"foo\"\nPass a reference from \"foo\" to \"bar\"\nCreate a new member in the
+      \"foo\" object and call it \"x\"\nCreate a new object \"{n: 2}\"\nAssign that
+      new object to \"foo\"\n\nand by doing so the \"x\" object is no longer there\nHope
+      that answered your question:) \nref:\nhttps://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence"
+    id: '1424795227560181'
+  - created_time: '2017-03-18T21:50:39+0000'
+    from:
+      name: Mohamed Abo Bdwey
+      id: '1759190194099593'
+    message: اول جملة Assignment من على اليمين ب بترح ب undefined عشان كدا تاني جملة
+      بتخلى قيمة foo undefined
+    id: '1424801607559543'
+  - created_time: '2017-03-19T00:53:11+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      It is right to left.
+      We can prove it by changing the targets to properties so that we can console log when they are called
+      http://jsbin.com/viyavohuge/1/edit?js,console
+      (Choose ES/Babel and Console tabs if not opened by default)
+
+      It's just that the targets of assignments are determined BEFORE assignment. That's the whole thing.
+    id: '1424916950881342'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF5TkRjNE9Ua3pOelUyTURjeE1Eb3hORGc1T0RjeU5qQTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF5TkRreE5qazFNRGc0TVRNME1qb3hORGc1T0RnME9EQXkZD
+attachments:
+  data:
+  - description: This attachment may have been removed or the person who shared it
+      may not have permission to share it with you.
+    title: Attachment Unavailable
+    type: unavailable

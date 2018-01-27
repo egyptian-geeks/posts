@@ -1,0 +1,294 @@
+---
+message: "هل ال ديزاين باترن جزء مهم جدا في ال Software Engineering؟\n\nالحالة الي
+  انا بتعرض ليها شايف ان العلم بيها محبب لكن مش يجعلها متطلبات اساسية\nانا لفترة كبيرة
+  شغال علي مشاريع مختلفة الباترن مش بتظهر في التصاميم الي بشتغل عليها لكن بلاحظ ان
+  التاسك الي بعمله بيكون mixed من مجموعة باترن او اجزاء من الباترن الي سواء عارف باترن
+  او مش عارف هتنفذ الكود وحسب خبرتك هتقدر تحسن الكود \n\nانا لفترة كنت بشتغل بدون
+  ما اكون علي دراية بالباترن لكن لما اتعلمتها محستش بفرق غير اني بكون عارف انا شغال
+  دلوقتي علي باترن معين.\n\nاحيانا بيكون الباترن مطلوب تكون فاهمه زي مثلا لو شغال
+  MVC فانت لازم تكون فاهم الباترن ده وتعرف ت Implement app عليه وفي حالات تانية لأ.\n\nوده
+  الي خلاني اسأل هل ديزاين باترن جزء مهم جدا في ال Software Engineering ولا وشي اساسي
+  ام تولز بتساعدك ولكن لو غابت تأثيرها ممكن ميكونش واضح؟"
+from:
+  name: احمد قرواش
+  id: '1561022257326859'
+type: status
+created_time: '2017-02-10T22:35:12+0000'
+updated_time: '2017-02-12T12:06:23+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1384411668265204/
+shares:
+  count: 3
+id: '172338516139198_1384411668265204'
+reactions:
+  data:
+  - id: '10155898279795619'
+    name: Hassan Sultan
+    type: LIKE
+  - id: '1605974269496621'
+    name: Muhammed Fahmy
+    type: LIKE
+  - id: '1428829383895976'
+    name: Mohamed Ramadan
+    type: LIKE
+  - id: '1791258444267523'
+    name: Mostafa Elsayh
+    type: LIKE
+  - id: '10155371937748723'
+    name: Ahmed Badr Abdel-Moniem
+    type: LIKE
+  - id: '1962566230481859'
+    name: احمد حمادة
+    type: LIKE
+  - id: '1846782672022423'
+    name: Amera Wageeh
+    type: LIKE
+  - id: '1945655738796903'
+    name: Mostafa Abdelghffar
+    type: LIKE
+  - id: '1427552707353556'
+    name: Ali Bedaer
+    type: LIKE
+  - id: '595477687454076'
+    name: Saher Abdelaziz
+    type: LIKE
+  - id: '1925164071134148'
+    name: إيمان حسام
+    type: LIKE
+  - id: '1596110217148252'
+    name: Ahmed Badawy
+    type: LIKE
+  - id: '10204414533160604'
+    name: Moustafa Elkady
+    type: LIKE
+  - id: '10208555315160686'
+    name: Khalid Abd El-Monem
+    type: LIKE
+  - id: '10155926704141777'
+    name: Ahmed Abdelaziz
+    type: LIKE
+  - id: '2105436902806833'
+    name: Mohammed S. Naoum
+    type: LIKE
+  - id: '2055714914665556'
+    name: Mohamed Bakr
+    type: LIKE
+  - id: '10210893563647501'
+    name: Mahmoud Khalil
+    type: LIKE
+  - id: '1999470950341416'
+    name: Shrouk Mamdoh
+    type: LIKE
+  - id: '1970226133243618'
+    name: Safaa Wally
+    type: LIKE
+  - id: '895970407247426'
+    name: Ahmad Magdy
+    type: LIKE
+  - id: '2109950492620951'
+    name: Bakir Alharoun
+    type: LIKE
+  - id: '1872433002767763'
+    name: Taghreed Mohammed Kamel
+    type: LIKE
+  - id: '1487671784675336'
+    name: Mohamad Emad
+    type: LIKE
+  - id: '1601712166541624'
+    name: Hossam Hassan
+    type: LIKE
+  - id: '765335353652341'
+    name: Mohamed AbdElaziz
+    type: LIKE
+  - id: '551434621878508'
+    name: Kha Dija
+    type: LIKE
+  - id: '1978009525783037'
+    name: Ahmed Magdy
+    type: LIKE
+  paging:
+    cursors:
+      before: TnpFeU1EVXdOakU0T2pFME9EY3dOVGsxT1RJNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQTNNakl3TWpZAeE5qSXhPakUwT0RZAM05qWXlOakU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-02-10T22:41:01+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      هو مش مهم في إنك تستخدمه وانت بتكتب الكود. لو حاولت تلفق الكود على شكل pattern معينة أصلا ده غلط.. طبيعي تستخدم كذا pattern زي ما انت قلت.
+
+      هو مهم في إنه بيسهل شرح الشغل، يعني وانت بتشرح لحد انت عملت إيه تقول مثلا حطيت factory هنا و خليت معرفش إيه Singleton وعملت proxy حوالين مين الخ، يبقى فاهم إنت بتتكلم على إيه بدل ما تقعد تشرح الخطوات نفسها في الحاجات اللي بتتكرر.
+    id: '1384415328264838'
+  - created_time: '2017-02-10T22:41:18+0000'
+    from:
+      name: Waleed Saleh
+      id: '10159944189340357'
+    message: |-
+      What if someone wants to buy ur system with architecture and design ?
+      What do y do when y find duplicated lines of code ?
+    id: '1384415581598146'
+  - created_time: '2017-02-10T22:42:03+0000'
+    from:
+      name: Kha Dija
+      id: '551434621878508'
+    message: Amera Taghreed
+    id: '1384415998264771'
+  - created_time: '2017-02-10T22:42:37+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: تقصد ايه بعلاقة ال Patterns بال Softwareء Engineering؟ تقصد ايه بال Software
+      Engineering في السياق ده؟
+    id: '1384416208264750'
+  - created_time: '2017-02-10T22:47:58+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: "على قد معرفتي انك لو موش عارف كويس (او بقدر مقبول) ال design pattern
+      اللي انت بتشتغل بيه، ممكن عند مرحلة من المراحل تكتشف إنك تحولت لل Spaghetti
+      وخصوصا لو كانت الأداة او ال Framework اللي بتشتغل بيها موش حاكمة المواضيع بشكل
+      صارم. \nانا حسيت بالموضوع ده بشكل كبير جدا لما استخدمت CodeIgniter 2 في ال PHP
+      وبشكل أقل بكتير لما استخدمت حاجة زي CakePHP او Yii2"
+    id: '1384418654931172'
+  - created_time: '2017-02-10T22:50:30+0000'
+    from:
+      name: Khaled Mohamed
+      id: '10212802699719673'
+    message: "Hussein El-Sherif fe nas lw shaft 2l klam da 3andena htz3l \U0001F602"
+    id: '1384419731597731'
+  - created_time: '2017-02-10T22:56:48+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: أظن كلمة ديزاين اكبر من شويةOop
+    id: '1384423111597393'
+  - created_time: '2017-02-10T22:56:58+0000'
+    from:
+      name: Mohamed Moshrif
+      id: '1538447102877297'
+    message: |-
+      الموضوع ده بيعتمد في الأول والآخر على إيه هو مفهوم "software engineer" عندك؟!
+      هل هو المفهوم العالمي المتعارف عليه ولا المفهوم المصري؟!
+      لو المفهوم المصري, يبقي فعلا ملوش لازمة. المفهوم المصري على عكس العالم كله, مختل تماما وده بيبان جدا في حاجة زي مثلا لقب "Senior software engineer"
+      أنت لو سألت 20 مبرمج مصري عن معني اللقب ده, 19 منهم هيردوا ردود من نوعيه "واحد يكون خبير في مجالة"
+      أو
+      "واحد بيخلص ال task في نص الوقت اللي ال junior بيخلصها فيه"
+      أو
+      "واحد عبقري problem solving"
+      لكن ال senior بره مصر, صفاته مختلفه تماما عن كل العك ده, ومن ضمن الصفات المهمه جدا اللي بتمت بشكل مباشر للسؤال, هو إن الشخص ده قادر انه يعملك نظام كامل متكامل من غير ما يكتب فيه سطر كود فعلي!
+      علشان يعمل ده, من ضمن الحاجات المهمه جدا اللي لازم يكون عارفها كويس, هو امتي يكون محتاج يعيد اختراع العجله وامتي لأ. وعلشان يعرف يقرر ده, لازم يكون عنده معلومات كافية عن كل أنواع العجل اللي موجودة في السوق واتعملت إزاي. جزء من المعرفه ديه بتكون حاجة زي ال design patterns
+      ليه؟!
+      أنت مثلا جبت مثال ال MVC. إيه رأيك إن حاجة زية ال MVC ده design pattern أصلا؟! طب لو أنت متعرفش ال pattern ده, تخيل بقي لو بتبنيه من الصفر هياخد منك وقت ومجهود قد إيه قصاد إنك تروح تستعمل حاجة جاهزة زي ROR مثلا؟!
+    id: '1384423188264052'
+  - created_time: '2017-02-10T23:01:25+0000'
+    from:
+      name: Mohamed Samer
+      id: '10156042531149110'
+    message: SaherSara
+    id: '1384425231597181'
+  - created_time: '2017-02-10T23:04:17+0000'
+    from:
+      name: Rehan Hossam
+      id: '10156484962365616'
+    message: "أنا آسف في اللي هقوله، لكن السوق المصري والعربي كله بيشتغل( إلى حد كبير)
+      Agility ومن الكلاسيكيات إن حد يتكلم في الـ Design Patterns وأغلب الشغل طلع لنا
+      قماش، ويبقى كتر خيرك لو اهتميت بالـ Performance tuning، الشركات المحترمة اللي
+      بتطبق QC عالي على معايير زي الـ CMMI أو غيرها ممكن يكون دا مهم عندهم، وبالطبع
+      الشركات الكبرى عالمياً دا من أبجديات العمل فيها، \nالخلاصة والنصيحة،  اتعلم
+      الصح بيتعمل ازاي وحاول تشتغل بيه حتى لو الظروف اضطرتك للغلط."
+    id: '1384426604930377'
+  - created_time: '2017-02-10T23:48:21+0000'
+    from:
+      name: احمد قرواش
+      id: '1561022257326859'
+    message: شكرا للجميع علي المناقشة الي استفدت منها فعلا والي بينت بعض الامور المبهمه
+      واضافات لي بعض المعلومات ^_^
+    id: '1384458981593806'
+  - created_time: '2017-02-11T00:07:53+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: |-
+      ال Design هو مرحلة في ال Software Development Life Cycle و اللي هو نفسه جزء من ال Software Engineering.
+      ال Design Patterns واحدة من ال Skills اللي بتساعدك على تصميم Software باستخدام ال Object Oriented Design و فلسفتها انها بتدي أسماء لتصميمات مشهورة بتحل مشاكل بتتكرر كثير (نمطية), و الصراحة الأسماء أو المفردات Vocabulary أهم حاجة في الموضوع لأنها بتسرع التفاهم و التواصل بين المبرمجين بالاضافة انها بتوضحها كمان بشكل كبير.
+      هل لازم تستخدمها؟ مش لازم طبعاً بالذات لو ما جاتش قصادك مشكلة قريبة بشكل كاف من المشاكل النمطية دي
+      هل لازم تعرفهم؟ طبعاً بالذات المشهورين فيهم, حاجات زي MVC, Singleton, Abstract Factory, Observer, Decorator و خلافه مهمة جداً انك تشوف طريقة تصميمها عاملة ازاي, و حتى لو ما ظهرتلكش كمشكلة محتاج تحلها, حتظهرلك في ال Class Libraries و في التقنيات الكبيرة زي ال Java و .net و Ruby و حتى PHP, فانك تبقى عارف جت منين و ليه و مفيدة امتى و عيوبها ايه ده شئ مهم جدا.
+      هل هي بتحسن ال Design يعني لو Design بيستخدم Design Patterns أحسن من Design ما بيستخدمش؟ أكيد لأ,  ال Design Patterns من ضمن عيوبها انها بتشجع المبرمجين على ال Over Engineering مع ان في الأغلب ال Simplicity أو البساطة أهم بكثير, لأنك سهل تزود تعقيد على حاجة بسيطة لو احتجته لكن صعب تشيله لو اكتشفت ان مالوش لازمة.
+    id: '1384472034925834'
+  - created_time: '2017-02-11T09:40:54+0000'
+    from:
+      name: Maged Eladawy
+      id: '1539250002856228'
+    message: "هوا فيه شوية تعريفات داخله فى بعض, حتي الناس اللى ردت هنا عتدها لبس
+      فى شوية حاجات (MVC is not a design pattern). بس سيبني أحاول أوضح الفرق بينهم
+      و انت تقول ليهم علاقة ببعض ولا لأ \n\nSoftware Engineering: \nهو علم غرضة الأساسي
+      ان السوفتوير يتعمل ب Quality و ستاندرد كويسه عن طريق انك بتحول مراحل بناء السوفتوير
+      لعملية هندسية أكتر بتمر بمجموعة مراحل SDLC بتساعدك انك تبني Most efficient software.
+      لو درست سوفتوير انجينيرنج هتلاقى ان هوا قريب جدا من الــ Project Management
+      و ملهوش علاقة بالكود قوي...انت بس بتتعلم أزاي تعمل مانجمنت لسوفتوير بروجكت علشان
+      يطلع بأحسن كواليتي ممكنه \n\nDesign Patterns:  \nزي (Singleton, Prototype, Proxy...etc)
+      \ \nدي متعقة أكتر بالــ Developer...يعنى انت لو ديفيلوبرمحتاج تقرا و تذاكر الـ
+      Design Patterns اكتر...و هي ليها علاقة بإنك تكتب كود بكواليتي كويسه جدا و بتساعدك
+      تلاقى حلول لــمشاكل كتير متعلقة بالكود نفسه \n\nArchitectural patterns:  \nزي
+      (MVC, PAC, MVP, MVVP) \nو دي بتوضح العلاقة بين الـ Application Layers المختلفة...يعنى
+      الداتا هتظهر ازاي و هتتجاب منين. الديفيلوبر محتاج يقرا عن الـ Architectural
+      patterns  علشان و هوا شغال فى أي ابليكيشن يبقى فاهم الـ Architectural pattern
+      بتاع الأبليكيشن اللى هوا بيعمل ديفيلوبمنت عليه. بس فى المشاريع الكبيرة, الديفيلوبر
+      مش هوا اللى بيحدد هيمشى ورا أي Architectural pattern\nعمتا اللى محتاج يدرس Architectural
+      pattern أكتر هوا الـ Software Architect مش الديفيلوبر. لأن فى أي مشروع جديد,
+      اللى بيحدد الـ Architecture بتاع المشروع كله هوا  software architect و ده طبعا
+      بيبقى بناء على حاجات كتير جداً و ساعتها بيجبر كل الديفلوبرز اللى هيشتغلو فى
+      نفس المشروع انهم يتبعو نفس الـ Architecture pattern فى المشروع ده\n\nسبني الخصلك
+      الكلام فى ٣ سطور \n\nSoftware engineering for software project managers \n\nArchitectural
+      patterns for software architects \n\nDesign patterns for developers"
+    id: '1384791548227216'
+  - created_time: '2017-02-11T10:05:16+0000'
+    from:
+      name: Taha Amin
+      id: '10155815529215590'
+    message: الكلام ده مش كله صح ال design وال architecture هو جزء من ال SWE برغم
+      ان كتب الSWE ما بتتكلمش عنه بالتفصيل
+    id: '1384806044892433'
+  - created_time: '2017-02-11T11:52:38+0000'
+    from:
+      name: احمد قرواش
+      id: '1561022257326859'
+    message: "الباشمهندس Taha Amin Maged Eladawy Mohamed Moshrif Mohamed Elsherif\n\nاعتقد
+      ان SWE صناعة برمجيات مظلة كبيرة مينمعش انه يندرج تحتها التطوير والتصميم \nوالي
+      مش يستدعي اننا نخطأ بعض بالشكل ده \nيعني الاختلاف هيبقي من مصدر التعلم ومورده
+      ما بين مراجع بتدخل التطوير والتصميم للباترن كجزء من SWE ومراجع تانية لم تذكره.\n\nلان
+      التعليقات وان كانت هتفيد بالمعلومات الي فيها ووجهات النظر الا انها هتشتت برضو."
+    id: '1384860461553658'
+  - created_time: '2017-02-11T18:52:51+0000'
+    from:
+      name: Osama Nour
+      id: '1665988986754750'
+    message: |-
+      Ahmed Ragae El-Gebaly
+      Mohamed Fawzy
+      Yasin Hazem H
+    id: '1385645148141856'
+  - created_time: '2017-02-11T20:05:32+0000'
+    from:
+      name: Ahmed Abo Mazin
+      id: '1758521440903748'
+    message: "ايوة مفيش مشكلة انك متستخدمش ال Design pattern م انت بتستخدمها عشان
+      تسهل عليك بس لو تقدر تعملها من غيرها دة عادى \nاحنا المفروض اننا نعمل design
+      للبروجكت كلهة الاول ومن خلال ال structure بتاعك بتشوف هتشتغل بانهى pattern بس
+      لو انت عملت العكس واشتغلت ببترن ملهاش اى تلتيين لازمة ف انت بتزود ال ambiguity
+      للبروجكت :)"
+    id: '1385727358133635'
+  - created_time: '2017-02-11T22:48:21+0000'
+    from:
+      name: Michel Aguib
+      id: '10155547807454234'
+    message: |-
+      Regretfully I find most of the previous posts not clearly into the subject, but just beating around the bushes and being overly sophisticated without a real point.
+
+      Man, you can live without design patterns, but you will be a complete amateur with mediocre output. Design patterns are what defines how to write code, organize it, integrate it with other interfaces, and scale it up. So basically you are writing spaghetti code without them.
+    id: '1385828468123524'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE00TkRReE5UTXlPREkyTkRnek9Eb3hORGcyTnpZAMk5EWXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE00TlRneU9EUTJPREV5TXpVeU5Eb3hORGcyT0RVek16QXkZD

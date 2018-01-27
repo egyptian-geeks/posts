@@ -1,0 +1,72 @@
+---
+message: "I am thinking about removing wscript.exe completely from a system as a mitigation
+  for malware that use this scripting engine for infection  \n\nWhat could removing
+  this file effect a home user pc ? For example does Windows update depends on it
+  \ ?"
+from:
+  name: Mohamed Abdel Aty
+  id: '10215620557573580'
+type: status
+created_time: '2017-01-22T17:38:51+0000'
+updated_time: '2017-01-23T08:00:04+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1362145733825131/
+id: '172338516139198_1362145733825131'
+reactions:
+  data:
+  - id: '1772542006152666'
+    name: Mohamed AbuIssa
+    type: LIKE
+  - id: '577907769208604'
+    name: Seif Atalla
+    type: LIKE
+  - id: '1608327662579661'
+    name: Karim Shoair
+    type: LIKE
+  - id: '1962566230481859'
+    name: احمد حمادة
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhPVEEyTlRBNU16RXlPakUwT0RVeE16ZAzVOREE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXhPRFUxTURReU9EazJPakUwT0RVeE1UQTNNVGc2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-01-22T20:58:39+0000'
+    from:
+      name: Mohamed A. Baset
+      id: '2088941797787563'
+    message: |-
+      I did it first to mitigate the IT Helpdesk guys :D
+
+      If you are in an organisation that uses Active Directory, YES!
+    id: '1362328507140187'
+  - created_time: '2017-01-23T02:27:41+0000'
+    from:
+      name: Tarek Dawoud
+      id: '10156109957694861'
+    message: "Here is what WScript.exe does:\nhttps://technet.microsoft.com/en-us/library/hh875526(v=ws.11).aspx\n\nHere
+      is what CScript.exe does:\nhttps://technet.microsoft.com/en-us/library/bb490816.aspx\n\nHere's
+      the difference between them. If you want to close one you may want to close
+      the other: \nhttp://stackoverflow.com/questions/8678441/difference-between-wscript-and-cscript\n\nNow
+      to answer your question:\n-If you're just a home user who mainly browses the
+      internet, you maybe able to get away with removing them (though I would suggest
+      just renaming them) and not regretting it. \n-If you are anything more, be very
+      careful. VB scripts are used to automate configuration tasks in Windows, not
+      just by IT admins. Setup scripts for software development tools or things you
+      want to configure may be written in VBS. \n\nDeleting WScript or SCript to prevent
+      virus infections is like deleting powershell to prevent the same issue... You're
+      stripping away a core system component that is used by many applications in
+      hope that it closes a surface of attack.\n\nFrom a security perspective, what
+      you are suggesting actually makes the most sense on servers where you absolutely
+      control the image and what it can do. This is why Azure (and other cloud computing
+      providers) will give you server images that are stripped down of most things
+      that come with the OS to keep it slim and reduce unnecessary churn on the processors
+      as well as security surface attack area.\n\nBut for a home PC, deleting WScript
+      is like turning down the Air Conditioner because it's cold when the front door
+      is wide open. It is nothing compared to keeping the browser in the OS. :) The
+      end user will happily click yes to things that are so much worse than a VB script."
+    id: '1362568623782842'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0yTWpNeU9EVXdOekUwTURFNE56b3hORGcxTVRFNE56RTUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0yTWpVMk9EWXlNemM0TWpnME1qb3hORGcxTVRNNE5EWTEZD

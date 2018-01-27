@@ -1,0 +1,71 @@
+---
+message: "This api  always returns zip file not (json or xml) \nI tried a lot with
+  it .. with php functions like :\nfile_get_contents and curl and still the same it
+  returns strange characters and after reading the api I found at the first lines
+  that the return will be gzip .. the problem is the gzip file is quite large and
+  to extract it at the hosting server it takes very long time .. The whole site becomes
+  down until I stop this script !\ncan any one help at such case what should I do
+  .. I just want to force the api to return json .. I tried different approaches with
+  curl but still the same"
+link: https://developer.walmartlabs.com/docs/read/Special_Feeds
+from:
+  name: Mohamed Magdy
+  id: '10155762065704193'
+type: link
+created_time: '2018-01-02T06:57:05+0000'
+updated_time: '2018-01-04T00:14:49+0000'
+name: Walmart Open API - Special Feeds
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1709258002447234/
+id: '172338516139198_1709258002447234'
+reactions:
+  data:
+  - id: '1999765416908747'
+    name: Ahmed Khalifa
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTJNalU1TWpNNE9EVXlPakUxTVRRNE9EQTRNekU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTJNalU1TWpNNE9EVXlPakUxTVRRNE9EQTRNekU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2018-01-02T07:03:28+0000'
+    from:
+      name: Ahmed Ghoniem
+      id: '10212376427419048'
+    message: |-
+      Enta 7atet gzip fel request header ?
+      Content-Encoding : gzip
+    id: '1709483059091395'
+  - created_time: '2018-01-02T08:21:12+0000'
+    from:
+      name: Ahmed Khalifa
+      id: '1999765416908747'
+    message: حط اكتر من اختيار في ال accept زي json او XML او jsonp لو بتستخدم Ajax
+      .. استخدم معاهم ال factor و حدد اهميه الترتيب.. في النهايه ال server app هو
+      اللي بيحدد الresponsep زي ماهو عايز  يعني مش شرط اللي تحطه في الاكسبت بتاعك
+      يرجعلك.. ممكن تحط json و هو يرجعلك اجباري XML
+    id: '1709529642420070'
+  - created_time: '2018-01-02T08:41:37+0000'
+    from:
+      name: George Stephanos
+      id: '10215136151822095'
+    message: what was your plan lw kan byraga3lak uncompressed response? wouldn't
+      you process the whole file and it would take a very long time  anyway? gzip
+      is almost always the better option 3ashan it saves a ton of traffic and has
+      minimal decompression overhead. Could you explain your situation more?
+    id: '1709542105752157'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN3T1RRNE16QTFPVEE1TVRNNU5Ub3hOVEUwT0RjMk5qQTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN3T1RVME1qRXdOVGMxTWpFMU56b3hOVEUwT0RneU5EazQZD
+attachments:
+  data:
+  - description: The following data feeds are available to query specific sets of
+      data from the Walmart product catalog. Please send any further questions you
+      have about these feeds to affilops@wal-mart.com. Note that all feeds are available
+      in compressed GZIP format.
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fdeveloper.walmartlabs.com%2Fdocs%2Fread%2FSpecial_Feeds&h=ATM2IGuCDhsa4JQp-6HLgfFfhbgu_6rrSqKZIu_bSj6-gRf1e-z4xC56l2RHKQJWe5uZbngn2Fh0f4sh4IU0gZgjqpTNQEIjruJL&s=1&enc=AZOsiwymbtPDZCy-B3Oc8IhHka9hNq69Xk7Bry0eBeztpCQQFPu_-034fHkpRIzt3jthYEAzw48EaOgRMJRn8GUw
+    title: Walmart Open API - Special Feeds
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fdeveloper.walmartlabs.com%2Fdocs%2Fread%2FSpecial_Feeds&h=ATM2IGuCDhsa4JQp-6HLgfFfhbgu_6rrSqKZIu_bSj6-gRf1e-z4xC56l2RHKQJWe5uZbngn2Fh0f4sh4IU0gZgjqpTNQEIjruJL&s=1&enc=AZOsiwymbtPDZCy-B3Oc8IhHka9hNq69Xk7Bry0eBeztpCQQFPu_-034fHkpRIzt3jthYEAzw48EaOgRMJRn8GUw

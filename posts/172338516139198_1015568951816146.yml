@@ -1,0 +1,97 @@
+---
+message: |-
+  Hello geeks,
+
+  My question is somehow complicated and rare :D
+
+  I have a windows server that hosts some files for a third party. For some reason, the third party can not connect to get files except through sFTP.
+
+  I have installed Cygwin ssh server on windows and enabled sFTP and everything works fine. He can connect and get the files.
+
+  However, for the automated process of getting files, the third party needs key-based authentication instead of a regular username and password.
+
+  I have followed every single tutorial about enabling this ( 99% of the tutorials are for Linux based servers ) but had no luck.
+
+  Anyone faced this situation before or can suggest a solution ?
+from:
+  name: Mahmoud Abd El-Fattah
+  id: '10156358805885288'
+type: status
+created_time: '2015-10-05T14:18:35+0000'
+updated_time: '2015-10-08T15:23:04+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1015568951816146/
+id: '172338516139198_1015568951816146'
+reactions:
+  data:
+  - id: '10155819655346066'
+    name: Shady M. Najib
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRnM05EWXhNRFkxT2pFME5EUXdOemt3T1RNNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRnM05EWXhNRFkxT2pFME5EUXdOemt3T1RNNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2015-10-05T15:17:36+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: I had problem getting IIS-served FTP to work with Filezilla FTP client
+      earlier and it seemed like a roadblock (I don't remember the details now), so
+      I did what someone else did as well and installed Filezilla FTP "Server", and
+      that worked well for me. See if it supports what you need.
+    id: '1015592338480474'
+  - created_time: '2015-10-05T15:56:42+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: I don't think doing the tunneling on your own will work. Your options
+      might be either hosting a small TurnKey ready-made FTP-server VM, or another
+      Windows FTP server program that supports SSH. Some gooogling suggests http://www.coreftp.com/server/
+      and http://www.freesshd.com/ - they both don't look very promising but can give
+      a try.
+    id: '1015605371812504'
+  - created_time: '2015-10-05T15:56:47+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Also from googling https://www.bitvise.com/configuring-ssh-server-for-sftp
+    id: '1015605421812499'
+  - created_time: '2015-10-05T17:08:07+0000'
+    from:
+      name: Omar Mohsen
+      id: '1629690233758127'
+    message: http://the.earth.li/~sgtatham/putty/0.60/htmldoc/Chapter5.html#pscp-pubkey
+    id: '1015627131810328'
+  - created_time: '2015-10-05T21:03:08+0000'
+    from:
+      name: Mouneer Rabie
+      id: '10155756260535932'
+    message: Mahmoud Abd El-Fattah did you try http://www.freesshd.com ?
+    id: '1015700841802957'
+  - created_time: '2015-10-06T15:47:34+0000'
+    from:
+      name: Mohamed Omar Zaian
+      id: '10155855162041047'
+    message: Filezilla might help in such situation
+    id: '1015992018440506'
+  - created_time: '2015-10-07T23:26:18+0000'
+    from:
+      name: Mahmoud Abd El-Fattah
+      id: '10156358805885288'
+    message: Thanks Guys, I have resolved the issue. For those who want to know, Windows
+      does not allow user context switching without providing explicit passwords.
+      So, you will have to assign an administrator account to the cygwin server so
+      it can use it for the impersonation process. I added the user and now, I can
+      login using public key authentication normally as in Linux servers.
+    id: '1016540981718943'
+  - created_time: '2015-10-08T07:52:54+0000'
+    from:
+      name: Mohamed Omar Zaian
+      id: '10155855162041047'
+    message: Good to know its resolved next time ISA do not use windows :D
+    id: '1016653791707662'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF4TlRVNU1qTXpPRFE0TURRM05Eb3hORFEwTURVNE1qVTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF4TmpZAMU16YzVNVGN3TnpZAMk1qb3hORFEwTWprd056YzEZD

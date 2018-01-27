@@ -1,0 +1,130 @@
+---
+from:
+  name: Mohamed El-Sayed
+  id: '10155182529813309'
+type: status
+created_time: '2017-05-24T21:50:59+0000'
+updated_time: '2017-05-25T16:40:33+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1492375990802104/
+shares:
+  count: 5
+id: '172338516139198_1492375990802104'
+reactions:
+  data:
+  - id: '2004705666469226'
+    name: Ahmed Essam
+    type: LIKE
+  - id: '1636144886482440'
+    name: Afraym Nageh
+    type: LIKE
+  - id: '10215847428638318'
+    name: Mohab El-Shishtawy
+    type: LIKE
+  - id: '10213382124519901'
+    name: Mohamed Oun
+    type: LIKE
+  - id: '10155755444625845'
+    name: Mohammad Fouad
+    type: LIKE
+  - id: '762135870664322'
+    name: Ahmed Eid
+    type: LIKE
+  - id: '10214861141222529'
+    name: Abdelrady Fcis
+    type: LIKE
+  - id: '2012728262101039'
+    name: Ahmed Alsharkawy
+    type: LIKE
+  - id: '10156059018343545'
+    name: Mohamed Yousof
+    type: LIKE
+  - id: '10155783123700239'
+    name: Ahmed Mekkawy
+    type: LIKE
+  - id: '1634488316607986'
+    name: Mohamed Emad
+    type: LIKE
+  - id: '939098632915712'
+    name: Mahmoud Amin
+    type: SAD
+  - id: '10156575426331336'
+    name: Amr Ali Tealeb
+    type: LIKE
+  - id: '1560359927364731'
+    name: Mahmoud Nawwar
+    type: LIKE
+  - id: '1641565752594739'
+    name: Ahmed Aziz
+    type: LIKE
+  - id: '1757095661008864'
+    name: Mahmoud Ashraf
+    type: LIKE
+  - id: '10156089330442292'
+    name: Hany Ahmed
+    type: LIKE
+  - id: '10155441522952569'
+    name: Asmaa Hassan Ahmed
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTNPRGswTXpZAd05ETXdPakUwT1RVM05EUTJOVEk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TlRJME56azNOVFk0T2pFME9UVTJOak13TlRRNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-05-25T09:32:07+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      I don't think looking at HTTP headers is considered Deep Packet Inspection, is it?
+      For me it gets serious when they start analyzing the body of the HTTP responses and start blocking you based on keywords and such.
+    id: '1492735944099442'
+  - created_time: '2017-05-25T09:46:12+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: |-
+      عن موضوع اغلاق المواقع في مصر :
+      بعيد عن اي وجهة نظر مش تقنيه, الي بدات الاحظه ان مع كل موجة اغلاق او تجربة tool جديده من الحكومه بتحصل مشاكل كتير في الانترنت , دلوقتي مثلا في لحظة كتابة البوست كل المواقع واقفه ما عدا الفيسبوك , طريقة قفلهم للمواقع - ال 25- مش مفهومه ومش طبيعي ان كل مره وكل شخص بيحب يطبق حاجة يأثر على الخدمه بالشكل الواسع ده !
+    id: '1492743824098654'
+  - created_time: '2017-05-25T09:54:59+0000'
+    from:
+      name: Mohamed Emad
+      id: '1634488316607986'
+    message: أخيراً
+    id: '1492749634098073'
+  - created_time: '2017-05-25T09:59:24+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: اعتقد موضوع ال DPI واضح جدا من زمان ومفيهوش شك خلاص, بس هما يعرفوا يشغلوها
+      الاول كويس بدال ما هما مبهدلين الدنيا مع كل موقعين بيقفلوهم, انا مش متخيل ان
+      الي بيتحرك جوا ISP زي تي داتا بالفشل ده لدرجة انه يبقا بيبوظ الدنيا كده كل شويه,
+      الواحد لو عنده دومين كلاينت واحد واقع بيبقا مكسوف من نفسه ! مش بلد بحالها.
+    id: '1492752420764461'
+  - created_time: '2017-05-25T10:58:32+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: ويا ريت كدة وخلاص. زد على ذلك غياب الأجهزة الرقابية (جهاز تنظيم الاتصالات
+      وجهاز حماية المستهلك) في حالة حدوث عطل جزئي او كلي في توصيل الخدمة (يعني ما
+      علينا من موضوع المواقع نفسه).
+    id: '1492781864094850'
+  - created_time: '2017-05-25T11:23:13+0000'
+    from:
+      name: Mohammed Ezzat
+      id: '352020458607763'
+    message: "بس و اضح ان الحجب فعلا من الدومين \nلإنه موقع زى arabi21 بيفتح ب www.
+      عادي ؟ \nالموضوع بس انه بيعمل reset لrequest لدومين معين صحيح؟\nيبقا ازاى من
+      الhostname او dns او الايبي حتى؟"
+    id: '1492796314093405'
+  - created_time: '2017-05-25T11:29:58+0000'
+    from:
+      name: Mohammed Ezzat
+      id: '352020458607763'
+    message: ومش كده بسهولة ممكن المواقع ديه تحجز دومين تاني جديد وخلاص ؟
+    id: '1492801000759603'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE1TWpjek5UazBOREE1T1RRME1qb3hORGsxTnpBME56STMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE1TWpnd01UQXdNRGMxT1RZAd016b3hORGsxTnpFeE56azQZD

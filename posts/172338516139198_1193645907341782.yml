@@ -1,0 +1,88 @@
+---
+message: |-
+  السلام عليكم
+
+  من فضلكم سؤال: هل استخدام Stored عن طريق EF حيكون اسرع من إستخدام Entity نفسها لتنفيذ الأمر ...
+from:
+  name: Ahmed Amin
+  id: '1962172197389574'
+type: status
+created_time: '2016-08-01T09:49:28+0000'
+updated_time: '2016-08-01T21:34:43+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1193645907341782/
+id: '172338516139198_1193645907341782'
+reactions:
+  data:
+  - id: '1012026932279218'
+    name: Ahmed Mohamed Abd El-Hamid
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTBNVFUzTmpFeE5EVTVPakUwTnpBd05UWTBNRE02TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTBNVFUzTmpFeE5EVTVPakUwTnpBd05UWTBNRE02TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-08-01T10:16:51+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      أيوة بس مش كتير. مش فرق ملحوظ في أغلب الحالات ولايستاهل نقل الشغل ليها.
+
+      لو معندكش مشكلة معينة التفكير في الحوار ده هيبقى ملوش داعي وربما تضييع وقت عن حاجات أهم مهم تستغل فيها الوقت ويكون ليهة اثر ملحوظ. ده اللي بيسموه premature optimisation,و بيعتبر anti pattern, يعني حاجة ضد ال design patternsكده
+    id: '1193654550674251'
+  - created_time: '2016-08-01T10:18:36+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: طبعا لو فبه حالة معينة بتضطر تجيب entities كتير من السرفر علشان تعمل
+      تعليهم شغل ممكن كله يتعمل في الداتابيس والموضوع بطيء وانت بتفكر في حلول يبقى
+      يستاهل تجرب
+    id: '1193655017340871'
+  - created_time: '2016-08-01T10:25:11+0000'
+    from:
+      name: Islam Eldemery
+      id: '10159774797555461'
+    message: لو عندك stored procedure وبتستخدم ef يبقا انت عملت ال stored لسبب ليكن
+      ال performance ولو كان هوا دا السبب يبقا ليه تنادي على stored عن طريق ال ef
+      نادي عليها manually وامشي ضد الديزاين في الحتة دي بس باعتبارها مهمة والباقي
+      يبقا مع ال ef
+    id: '1193657220673984'
+  - created_time: '2016-08-01T10:26:54+0000'
+    from:
+      name: Ahmed Amin
+      id: '1962172197389574'
+    message: الفكرة كلها انى عامل فانكشن فى سضم وللأسف مش راضية تتشتغل عن طريق EF
+      فحليتها عن طريق انى استخدمتها عن طريق Stored فعشان كده بسئل
+    id: '1193657757340597'
+  - created_time: '2016-08-01T10:46:13+0000'
+    from:
+      name: Islam Eldemery
+      id: '10159774797555461'
+    message: بما ان سؤالك عن السرعة انده عليها عادي بدون ef بال sql connection وال
+      sql command
+    id: '1193667657339607'
+  - created_time: '2016-08-01T19:55:55+0000'
+    from:
+      name: سامح دعبس
+      id: '2022490591345439'
+    message: |-
+      الإجابة التقليدية
+      It depends :)
+      هنا عندنا نقطتين:
+      1- بالنسبة لل sql server فهو هايعمل optimization للكويريز اللي مكتوبة في الstored procedure و هايعمل برضو optimization للdynamic queries اللي هي بتكتبها بإيدك أو اللي بتطلع من ال EF و بناء عليه, مش هاتحس بفرق كبير إلا لو أخذت في الحسبان النقطة التانية...
+      2- بصورة كبيرة, يسيء المبرمجون استخدام ال linq queries في ال EF, و بالتالي الكويريز اللي بتطلع من ال EF بتكون سيئة جدا و بتبهدل ال performance بصورة كبيرة, و المشكلة دي منتشرة جدا. و بالتالي عشان نقارن مقارنة صحيحة لازم تكون بين كود مكتوب في ال stored procedure و كود شبهه بالظبط أو قريب منه قوي طالع من ال EF.
+      ---------
+      من جهة أخرى فيه 3 مدارس في كتابة في كتابة الكود في الstored procedures أو داخل قاعدة البيانات بصفة عامة (لكل منها مميزات و عيوب خارج نقاط الحديث هنا)
+      1- اكتب بزنس عادي عادي أو كل البزنس في ال stored procedure و دي مدرسة قديمة و فيه ناس لسه بتتبعها
+      2- ما تكتبش حاجة خالص من البزنس في قاعدة البيانات, لا في stored procedures و لا غيرها, قاعدة البيانات فيها جداول بس, و يمكن كسر هذه القاعدة للضرورة القصوى, و الضرورة تقدر بقدرها :) يعني لازم تذكر أسبابا وجيهة لهذه الفعلة الشنعاء :)
+      3- فيه مدرسة جديدة وسط بين الاتنين, بتقول لك البزنس إياك تكتبه في قاعدة البيانات إلا للضرورة القصوى (زي المدرسة 2) لكن الاستعلامات زي المستخدمة في التقارير و البحث ...إلخ مفيش مانع إنك تكتب كود في الداتابيز هنا, و الكود هايكون optimized على القراءة فقط, يعني سريع جدا, و ده architecture pattern اسمه CQRS مع شيء من التبسيط
+      ----------
+      طبعا دي علامات إرشادية مش عقائد يلزم اتباعها, و أنت اللي تقرر هاتمشي إزاي, بس خليك متسق و حافظ على مدرسة واحدة و استمر عليها
+      ------
+      نرجع لسؤالنا, لو سؤالك ده مرتبط بسؤالك اللي سألته قبل كده عن ال full text search و إنك حطه في function أو stored procedure, فنعم, خليه في ال stored procedure و لا يهمك أي مدرسة تتبع, المشكلة تستاهل :)
+    id: '1193982483974791'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU1TXpZAMU5EVTFNRFkzTkRJMU1Ub3hORGN3TURRMk5qRXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU1TXprNE1qUTRNemszTkRjNU1Ub3hORGN3TURneE16VTEZD

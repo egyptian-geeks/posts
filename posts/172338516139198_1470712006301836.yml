@@ -1,0 +1,70 @@
+---
+message: "For anyone with experience in Networks, I was asked to completely replace
+  an old PC that acts as a domain controller for a network with a new server, the
+  old PC has a Windows Server 2003 while I installed Windows Server 2008 on the new
+  one. \nI googled migration tools to migrate all the content from the old one to
+  the new one and found ADMT but installing it on the old pc was a pain and didn't
+  work properly, even installing powershell to run scripts that would migrate everything
+  was a pain (probably due to the fact that someone installed a crack that stopped
+  time on the pc so that the trial period would never finish and now powershell won't
+  open because of date/time problems)\n\nI finally managed to copy the OUs and users
+  and policies using different tools from one to the other. the question is .. Is
+  there any way to move all the PCs in the network from the old domain to the new
+  one automatically instead of manually doing it? knowing that most PCs use Windows
+  XP and they're around 30 PC .. I tried simply connecting one PC to the new domain
+  hoping it would find the same name and IP and work but it didn't"
+from:
+  name: Osama Yousry
+  id: '302776110231223'
+type: status
+created_time: '2017-05-01T19:24:34+0000'
+updated_time: '2017-05-04T05:43:24+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1470712006301836/
+id: '172338516139198_1470712006301836'
+reactions:
+  data:
+  - id: '10208488609492331'
+    name: Mohamed Hessien
+    type: LIKE
+  - id: '1581495811938176'
+    name: Hossam Abdlmoty
+    type: HAHA
+  paging:
+    cursors:
+      before: TVRneU1ESXhNak01T1RveE5Ea3pPREkxTWpnM09qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBd01EQXlNek16TVRZAMU1qZAzNPakUwT1RNMk9USXpPVGs2TnpnNE5qUTRNRE0zT1RFek16RXkZD
+comments:
+  data:
+  - created_time: '2017-05-02T02:34:09+0000'
+    from:
+      name: Hossam Abdlmoty
+      id: '1581495811938176'
+    message: you can kill your leader :D :D
+    id: '1470941652945538'
+  - created_time: '2017-05-02T05:23:13+0000'
+    from:
+      name: Mohamed Asfour
+      id: '10156016150568334'
+    message: "Why to build a different Domain and migrate? \nYou can build a new DC
+      in the same domain which will share all information \"replicate\" from the older
+      one, then migrate all FSMO roles to it and finally decommission the old one"
+    id: '1471022766270760'
+  - created_time: '2017-05-03T15:29:34+0000'
+    from:
+      name: Mohamed Hessien
+      id: '10208488609492331'
+    message: خير أجناد الأرض :D
+    id: '1472472586125778'
+  - created_time: '2017-05-03T22:42:02+0000'
+    from:
+      name: Mohammad Fouad
+      id: '10155755444625845'
+    message: |-
+      I dont have much experience in this, but I assume you setup a 2008 server, then you promote it to a DC and make it join the existing domain (a slave DC), it will replicate the 2003 master.
+      Next step is to promote the 2008DC to become the GC, so 2003 will become the slave, then retire the old 2003 DC
+      Summary, a domain can have multiple Domain Controllers, and only one GC (Global Catalog, that holds the users and groups info).
+    id: '1472750442764659'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEzTURrME1UWTFNamswTlRVek9Eb3hORGt6TmpreU5EVXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEzTWpjMU1EUTBNamMyTkRZAMU9Ub3hORGt6T0RVeE16SXoZD

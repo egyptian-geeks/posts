@@ -1,0 +1,59 @@
+---
+message: "Hello,\nI wonder what's the best resource you're studying RxJava from ?
+  \n\nCurrently i'm reading \"Reactive Programming with RxJava - Tomasz Nurkiewicz,
+  Ben Christensen\", But if you got a more brief source it'd be great."
+from:
+  name: Rafael Adel
+  id: '10156260406777122'
+type: status
+created_time: '2017-06-01T20:56:04+0000'
+updated_time: '2017-06-02T22:51:29+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1500520793320957/
+id: '172338516139198_1500520793320957'
+reactions:
+  data:
+  - id: '10215155574907910'
+    name: Mohamed H. Safey
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRNNE9EUTVPRFU1TURveE5EazJNelV6TURFNE9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRNNE9EUTVPRFU1TURveE5EazJNelV6TURFNE9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2017-06-01T21:17:23+0000'
+    from:
+      name: Ahmed Ashraf Gamal
+      id: '10215489165042760'
+    message: |-
+      I remember starting off with this series, it was fairly useful:
+
+      RxJava:
+      http://blog.danlew.net/2014/09/15/grokking-rxjava-part-1/
+      http://blog.danlew.net/2014/09/22/grokking-rxjava-part-2/
+      http://blog.danlew.net/2014/09/30/grokking-rxjava-part-3/
+      RxAndroid:
+      http://blog.danlew.net/2014/10/08/grokking-rxjava-part-4/
+
+      Note: this series uses RxJava 1, current version is RxJava 2, but it shouldn't be a problem.
+      after getting the idea you may wanna check the list of available operators:
+      https://github.com/ReactiveX/RxJava/wiki/Alphabetical-List-of-Observable-Operators
+
+      it may take sometime to get used to it, specially if you're new to functional programming, but it's totally worth it, good luck
+    id: '1500537169985986'
+  - created_time: '2017-06-01T21:37:01+0000'
+    from:
+      name: Mohamed H. Safey
+      id: '10215155574907910'
+    message: F
+    id: '1500552249984478'
+  - created_time: '2017-06-02T22:51:24+0000'
+    from:
+      name: Ahmed Ateek
+      id: '1812131428831070'
+    message: https://github.com/Froussios/Intro-To-RxJava
+    id: '1501603949879308'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV3TURVek56RTJPVGs0TlRrNE5qb3hORGsyTXpVeE9EUTEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV3TVRZAd016azBPVGczT1RNd09Eb3hORGsyTkRRek9EZAzEZD

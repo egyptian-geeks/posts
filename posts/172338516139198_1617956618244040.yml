@@ -1,0 +1,95 @@
+---
+message: "مساء الخير \nهو انا لو هعمل تطبيق اخباري ع الاندرويد وعاوز اجيب الاخبار
+  من مواقع مختلفة \nعاوز اعرف اي الحاجات المطلوبة مني واي السيناريو بالظبط"
+from:
+  name: Mohamed Ali
+  id: '894488847398032'
+type: status
+created_time: '2017-09-27T11:23:31+0000'
+updated_time: '2017-09-28T06:22:22+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1617956618244040/
+shares:
+  count: 1
+id: '172338516139198_1617956618244040'
+comments:
+  data:
+  - created_time: '2017-09-27T11:25:29+0000'
+    from:
+      name: Ahmed Mudhar
+      id: '1811551685586388'
+    message: على حسب علمي المفروض المواقع دي توفرلك نوع من ال API عشان تقدر عن طريق
+      ال API دي تستقبل الاخبار و تعرضها في التطبيق بتاعك
+    id: '1617957484910620'
+  - created_time: '2017-09-27T11:26:52+0000'
+    from:
+      name: Mahmoud Ow
+      id: '561900310821366'
+    message: انت ممكن تاخد البيانات عادى عن طريق البى اتش بى بس المشكله ان الموقع
+      بتاعك مش هيكون متزن لأن ممكن المواقع دى تحجب المحتوى عن موقعك فى اى وقت و بالتالى
+      ينهار الموقع وفى طريقه تانيه و هى ان يكون للمواقع دى Api و ده صعب انك تلاقيه
+      فى المواقع الإخباريه خصوصا العربيه منها
+    id: '1617958108243891'
+  - created_time: '2017-09-27T11:30:16+0000'
+    from:
+      name: Ahmed El Emam
+      id: '1565539716833722'
+    message: build web crawler
+    id: '1617959848243717'
+  - created_time: '2017-09-27T11:31:31+0000'
+    from:
+      name: Mohamed Ali
+      id: '894488847398032'
+    message: "هو انا شفت فيديو بيوضح ازاي اعمل كدا بس طالب حاجات كتير زي :\nWindows
+      services in C#\nweb services in C# \n ASP.NET in C#\nSQL server"
+    id: '1617960538243648'
+  - created_time: '2017-09-27T11:44:23+0000'
+    from:
+      name: Aly Khaled
+      id: '1593603090726744'
+    message: "لو المواقع دي ليها rss ابحث عن \nHow to use rss in android"
+    id: '1617966898243012'
+  - created_time: '2017-09-27T11:52:20+0000'
+    from:
+      name: Eslam Abdelmaaboud
+      id: '1922326601129286'
+    message: "Api \nRss\nOr build web crawler"
+    id: '1617971188242583'
+  - created_time: '2017-09-27T12:17:48+0000'
+    from:
+      name: Mostafa Abobakr
+      id: '2025844137456286'
+    message: زى نبض كدا !
+    id: '1617984884907880'
+  - created_time: '2017-09-27T12:23:37+0000'
+    from:
+      name: Ahmed Adam
+      id: '10155856307301285'
+    message: There is no API .. merge between rss and web crawling and create cron
+      job scripts to fetch the news and insert it in ur DB .. you will also need a
+      good algorithm to fetch news from ur DB and rearrange it based on categories,
+      creation time, etc...  if u r gonna categorize news by similarity and relate
+      them together u are going to do another extra effort .. the engine behind the
+      app will be complex my advice if this project is not for a customer with clear
+      requirements just find another idea
+    id: '1617988398240862'
+  - created_time: '2017-09-27T12:58:29+0000'
+    from:
+      name: Ahmed Eid
+      id: '762135870664322'
+    message: |-
+      This is called a "news aggregator", you should build a listener for every source you want to use (API, RSS, Web Crawler).
+      so a simple design would be a set of running services to get data from different sources, a database to store fetched news and a web layer to expose these news over http
+      Android app, should be a client for that api.
+    id: '1618012138238488'
+  - created_time: '2017-09-28T06:20:58+0000'
+    from:
+      name: Ahmed Moussa
+      id: '1750532274967735'
+    message: "El website betwafer API aow RSS feed \nAow 7aga kaman hat7tag t3mlha
+      le kol website we low 3'ero el HTML structure hatetar te adapt your code \nWeb
+      crawler"
+    id: '1618605541512481'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl4TnprMU56UTRORGt4TURZAeU1Eb3hOVEEyTlRFeE5USTUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl4T0RZAd05UVTBNVFV4TWpRNE1Ub3hOVEEyTlRjNU5qVTQZD

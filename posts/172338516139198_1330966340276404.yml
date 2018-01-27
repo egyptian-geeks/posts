@@ -1,0 +1,134 @@
+---
+message: |-
+  QUESTION ANGULARJS Services :D !!!
+
+  If we create a service that way, it doesn't behave like a single tone and creates a new instance each time we use it:
+
+  app.service('svcName', function () {
+     return function() {
+         // your logic ...
+     }
+  })
+  >
+  >
+  HOwever,
+  if we create it that way:
+   app.service('svcName', function () {
+         // your logic ...
+  })
+
+  It's now a SINGLE TONE !!!
+  ANY BODY KNOWS WHY :D ?!?! Google can't help me -_- !!!
+from:
+  name: Hossam Ahmed
+  id: '10155827368706005'
+type: status
+created_time: '2016-12-18T16:14:12+0000'
+updated_time: '2016-12-18T20:14:39+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1330966340276404/
+id: '172338516139198_1330966340276404'
+reactions:
+  data:
+  - id: '10157052765627598'
+    name: Ibrahem Amin
+    type: LIKE
+  - id: '10213804085630819'
+    name: Ahmed Mustafa
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpZAM01UZAzNOVGszT2pFME9ESXdPREUzT0RrNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBMk56TTNOVGswTURveE5EZA3lNRGM1TmpnMU9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2016-12-18T16:50:06+0000'
+    from:
+      name: Taha Amin
+      id: '10155815529215590'
+    message: انت بتعمل bootstrap ولا ﻷ؟
+    id: '1330983710274667'
+  - created_time: '2016-12-18T16:54:26+0000'
+    from:
+      name: Hossam Ahmed
+      id: '10155827368706005'
+    message: bootstrapping for what, where?
+    id: '1330985663607805'
+  - created_time: '2016-12-18T16:56:59+0000'
+    from:
+      name: Hossam Ahmed
+      id: '10155827368706005'
+    message: da angular1 take care :D
+    id: '1330986833607688'
+  - created_time: '2016-12-18T17:11:33+0000'
+    from:
+      name: Ahmed Mustafa
+      id: '10213804085630819'
+    message: Guess it's because of the "return function()"  part
+    id: '1330996070273431'
+  - created_time: '2016-12-18T17:16:24+0000'
+    from:
+      name: Ahmed Hassieb
+      id: '10155469300831379'
+    message: My guess is same as Ahmed Mustafa
+    id: '1331002210272817'
+  - created_time: '2016-12-18T17:19:12+0000'
+    from:
+      name: Hossam Ahmed
+      id: '10155827368706005'
+    message: |-
+      AngularJs Services should behave like single tone in all cases, whatever the way you wrote it, it's constructed as a single tone object independant of the way you write it, it's not up to you to make it single tone or not, and that's my question, how this pattern make a SERVICE doesn't act as single tone object ! .. even if we return a function. It's not the way you see it, angular executes internal code when registering the service to the entire application.
+      that's my Q
+    id: '1331003910272647'
+  - created_time: '2016-12-18T17:20:08+0000'
+    from:
+      name: Taha Amin
+      id: '10155815529215590'
+    message: هي الطريقة اللي كاتب بيها حسام صح عشان هو عامل prototype بس لو عاوز يعملها
+      singleton محتاج يعدل الكود
+    id: '1331004480272590'
+  - created_time: '2016-12-18T18:16:03+0000'
+    from:
+      name: Ibrahem Amin
+      id: '10157052765627598'
+    message: "making your service returns function or not has noting to do with singleton
+      nature of angular providers. \nit's all about your usage, because $provide.service
+      always returns a 'constructor' in order to be called with new keyword from the
+      $get function.\nif we take a look at the service implementation itself https://github.com/angular/angular.js/blob/master/src/auto/injector.js#L728
+      .\nyou will find that it uses factory and pass $injector.instantiate with the
+      body of the service as a constructor and instantiate returns new from that constructor.
+      so simply service, factory and provider are the same thing with different usage
+      customization.\npractically if you need to have an object with properties and
+      method for each time you use that service simply put them on 'this' inside the
+      service body and let $injector do the magic for you. but if you want only a
+      function then return it from you service or make it the service itself or even
+      use a factory it'll not make any difference. some people use the first approach
+      to make closures but that's not right because of the new call."
+    id: '1331042506935454'
+  - created_time: '2016-12-18T18:17:35+0000'
+    from:
+      name: Hany Ahmed
+      id: '10156089330442292'
+    message: http://blog.thoughtram.io/angular/2015/07/07/service-vs-factory-once-and-for-all.html
+    id: '1331043346935370'
+  - created_time: '2016-12-18T19:05:44+0000'
+    from:
+      name: Hossam Ahmed
+      id: '10155827368706005'
+    message: |-
+      Yes I read all that :D .. NOW
+      Must it  be written as returning object to work correctly or we can return a function and there's some trick to work as single tone :D ?!?!
+      IT DRIVES ME CRAZYYYYYYYYYYY :D
+    id: '1331071553599216'
+  - created_time: '2016-12-18T19:24:49+0000'
+    from:
+      name: Hossam Ahmed
+      id: '10155827368706005'
+    message: |-
+      you can find this simple plunker here :
+      https://plnkr.co/edit/x7fLctD12NnB3CI8vG98?p=preview
+      that's two controllers use the same service which used to return user list .. if you  delete a user from any controller it should reflect on the other controller. but that doesn't happen :D !!!
+    id: '1331087786930926'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE16TURrNE16Y3hNREkzTkRZAMk56b3hORGd5TURjNU9EQTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE16TVRBNE56YzROamt6TURreU5qb3hORGd5TURnNU1Ea3cZD

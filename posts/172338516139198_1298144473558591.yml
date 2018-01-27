@@ -1,0 +1,109 @@
+---
+message: I always see "x" programming language is faster than "y" programming language.
+  Is the difference really worth switching or really noticeable like 5 minutes faster?
+from:
+  name: Hosam Shafik
+  id: '2052010548351299'
+type: status
+created_time: '2016-11-19T10:06:55+0000'
+updated_time: '2016-11-20T10:10:14+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1298144473558591/
+id: '172338516139198_1298144473558591'
+reactions:
+  data:
+  - id: '1635412699859063'
+    name: Mohamed Taha
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhOekV3TkRZAM01UWXlPakUwTnprMk16WTJOalE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXhOekV3TkRZAM01UWXlPakUwTnprMk16WTJOalE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-11-19T10:15:00+0000'
+    from:
+      name: Abdul-Hameed Riad
+      id: '10157097152299942'
+    message: There is no need to switch, Depend on the requirement of the project
+      you work on you can choose the best suited language(s) and tools.
+    id: '1298162546890117'
+  - created_time: '2016-11-19T10:22:18+0000'
+    from:
+      name: Muhammad Saleh
+      id: '10156649659196002'
+    message: |-
+      5 minutes means ages in computer time
+      I guess the differences are noticeable in really big systems so it depend on your projects
+    id: '1298178390221866'
+  - created_time: '2016-11-19T10:24:05+0000'
+    from:
+      name: Maged Ahmed Rifaat
+      id: '1828211913919222'
+    message: I am still a learner but i read in many places that every language is
+      good and fast at somethings and bad at others so the language you choose should
+      depend on the project itself
+    id: '1298179840221721'
+  - created_time: '2016-11-19T10:25:33+0000'
+    from:
+      name: Maged Ahmed Rifaat
+      id: '1828211913919222'
+    message: And yes i saw a case where the programming language made a difference
+      greater than 5 min. something database related and was solved by converting
+      to Asp .net
+    id: '1298181040221601'
+  - created_time: '2016-11-19T13:22:22+0000'
+    from:
+      name: Ahmed Ali-Edlin
+      id: '1744427948942619'
+    message: |-
+      آه طبعا!
+      متقدرش تكتب حاجة زي نظام التشغيل بالبايثون. و اللغة الابطأ يعني عادة بتستخدم أبنية معلومات أكبر
+    id: '1298270813545957'
+  - created_time: '2016-11-19T14:20:58+0000'
+    from:
+      name: Ahmed Ali-Edlin
+      id: '1744427948942619'
+    message: Also, in this era, a response time  over a second for your web service
+      can literally put you out of business. 5 minutes is not even an option.
+    id: '1298307203542318'
+  - created_time: '2016-11-19T15:00:46+0000'
+    from:
+      name: Mohamed Bassem
+      id: '10212826240185281'
+    message: الناس لما تكون بتعمل حاجة realtime بتكون مضايقة من الكام millisecond
+      pause بتوع الgarbage collection مثلا فا ممكن يروحوا للغة تانية مش garbage collected.
+      مثلا Go في اخر version قللوا الpause من 10 millisecond ل 100 microsecond و كان
+      إنجاز و على Homepage HN و بتاع. فا اه هي بتعتمد بشكل كبير على أنت عايز تعمل
+      ايه.
+    id: '1298374046868967'
+  - created_time: '2016-11-19T22:29:56+0000'
+    from:
+      name: محمد عرفة
+      id: '10155907524039651'
+    message: Not in Egypt but brokerages worry about milliseconds in code to get that
+      trade
+    id: '1298664090173296'
+  - created_time: '2016-11-19T23:23:07+0000'
+    from:
+      name: Ahmed van Mostafa
+      id: '10156031492006081'
+    message: It is 5 minutes faster on your minimal expirement, imagine how fast it'll
+      be on large-scale usecase.
+    id: '1298702620169443'
+  - created_time: '2016-11-20T10:10:13+0000'
+    from:
+      name: Tarek Ahmed
+      id: '10215440197777018'
+    message: it depends on the application, like network programming that doesn't
+      do much computation most of the time is spent in the network delay whatever
+      language you are using, numerical and scientific computing that depends on complex
+      algorithms you need a fast language (that's why numpy in python is actually
+      written in c++), also that's why there is the FFI (foreign function interface)
+      in most languages, so you can reuse fast algorithms implementated in different
+      languages into your code without having to rewrite or learn too much about the
+      other languages
+    id: '1299076140132091'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEk1T0RFMk1qVTBOamc1TURFeE56b3hORGM1TlRVd05UQXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEk1T1RBM05qRTBNREV6TWpBNU1Ub3hORGM1TmpNMk5qRTAZD

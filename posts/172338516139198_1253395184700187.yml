@@ -1,0 +1,91 @@
+---
+message: "بحاول أستخرج مجموعة جمل باللغة العربية من وسط string بإستخدام الـ regex
+  في Python3 \nودايماً الكود مبيعملش أي matching، مع العلم انه لما بستبدل الـ pattern
+  بواحد تاني عشان يستخرج أي كلمة انجلش بيجيب النتايج مظبوطة. \n\nدورت شوية في الموضوع،
+  ولقيت ان المشكلة ممكن تكون في موضوع الـ Unicode text بس عرفت ان الكلام ده كان في
+  Python2 بس، وبداية من Python3 بقى كله Unicode \n\nده الكود: https://gist.github.com/anonymous/3729f745f7fd5ea09aa6eb3b5357830b\n\nحد
+  عنده حل للموضوع، أو يعرف طريقة تانية؟"
+link: https://gist.github.com/anonymous/3729f745f7fd5ea09aa6eb3b5357830b
+from:
+  name: Ibrahem A'mer
+  id: '10211047029111252'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQBeHUA0oVbykVVW&w=130&h=130&url=https%3A%2F%2Fgist.github.com%2Fanonymous%2Fgravatars%2Fgravatar-user-420.png&cfs=1&_nc_hash=AQAS64zkxd9WCxis
+created_time: '2016-10-09T15:36:21+0000'
+updated_time: '2016-10-10T21:45:13+0000'
+name: Regex in Python3
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1253395184700187/
+id: '172338516139198_1253395184700187'
+reactions:
+  data:
+  - id: '934408920094293'
+    name: Muhammad Ahmed Fares
+    type: LIKE
+  - id: '10216051350344395'
+    name: Amr Fathi
+    type: LIKE
+  - id: '10155224465177344'
+    name: Mohamad Kamal
+    type: LIKE
+  - id: '10155746533953941'
+    name: Abdelrahman Y. ElFiky
+    type: LIKE
+  - id: '10159960198215788'
+    name: Mohamed Fawzy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTFOelUxT0RBME16VTJPakUwTnpZAd05USTRNVFE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TnpZAMU16VXdOemczT2pFME56WXdNamd4TVRNNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-10-09T15:43:18+0000'
+    from:
+      name: Amjad Mashaal
+      id: '10213738834576763'
+    message: ممكن ال gist كاملة ومضبوطة طيب؟ :D
+    id: '1253399091366463'
+  - created_time: '2016-10-09T18:03:06+0000'
+    from:
+      name: Hosam Aly
+      id: '1657509230977456'
+    message: ممكن تتأكد ان ملف الكود بتاعك محفوظ Unicode
+    id: '1253484484691257'
+  - created_time: '2016-10-09T22:13:38+0000'
+    from:
+      name: Mohamed A. Alqrwash
+      id: '10213394268464462'
+    message: "instead of Regex try { nltk or any Natural Language Processing  } i's
+      include a good algorithms and have many language support for tokenization  ,
+      POS and classification , ... etc \ni recommend java + openNLP \nhappy coding"
+    id: '1253647061341666'
+  - created_time: '2016-10-10T18:11:54+0000'
+    from:
+      name: Hussein Ghaly
+      id: '10160069424510193'
+    message: "أنا عموما بستخدم بايثون 2.6 ولسة ما نقلتش لـ 3، لكن أظن إنك ممكن تستخدم\nunicode
+      operator\nفي ال\npattern\nكدة:\nfound_uc=re.findall(\"(?u)%s\"%word_uc, sentence_uc)\n\nوممكن
+      برضه تتأكد إن النص اللي بتدور فيه بايثون بيقراه بنفس الإنكودنج، بحيث إن الباترن
+      بتاعك والنص اللي بتعمله ماتشينج يكونوا يونيكود \n\nعموما ممكن تجرب الكود دة
+      وتشوف إذا كان بيلاقي الحاجة اللي إنت عاوزها ولا لأ:\n\n# -*- coding: utf-8 -*-\nimport
+      re\n\nword=\"شجرة\"\nword2=\"الشجرة\"\nword_uc=word.decode(\"utf-8\")\nword2_uc=word2.decode(\"utf-8\")\nsentence=\"خير
+      من عشرة على الشجرة\"\nsentence_uc=sentence.decode(\"utf-8\")\n\nfound_uc=re.findall(r\"(?u)\\b%s\"%word_uc,
+      sentence_uc)\nfound2_uc=re.findall(r\"(?u)\\b%s\"%word2_uc, sentence_uc)\n\nprint
+      found_uc\nprint found2_uc"
+    id: '1254335101272862'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkxTXpNNU9UQTVNVE0yTmpRMk16b3hORGMyTURJM056azUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkxTkRNek5URXdNVEkzTWpnMk1qb3hORGMyTVRJek1URTAZD
+attachments:
+  data:
+  - media:
+      image:
+        height: 720
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQD24we8WgyUur6g&w=720&h=720&url=https%3A%2F%2Fgist.github.com%2Fanonymous%2Fgravatars%2Fgravatar-user-420.png&cfs=1&_nc_hash=AQDbsAoPl5XdAtYH
+        width: 720
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgist.github.com%2Fanonymous%2F3729f745f7fd5ea09aa6eb3b5357830b&h=ATMDiKD8ECWM-Fz_BM61UaJkD0gOzu7dqyYDRykPRUZBugSGz_nB1at4ubbg4QntOPeeLfW7fDLJWtQwEz620Dc8VzBBO6i7BWNa&s=1&enc=AZOvKH8RJSo3rizTHKXoTnCbjNPFhvA5ealDRvgFVtYHB-Uf5MydNjKqJMX9rGDZ7yuOS8bRbtyfu9NVTsKddupg
+    title: Regex in Python3
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgist.github.com%2Fanonymous%2F3729f745f7fd5ea09aa6eb3b5357830b&h=ATMDiKD8ECWM-Fz_BM61UaJkD0gOzu7dqyYDRykPRUZBugSGz_nB1at4ubbg4QntOPeeLfW7fDLJWtQwEz620Dc8VzBBO6i7BWNa&s=1&enc=AZOvKH8RJSo3rizTHKXoTnCbjNPFhvA5ealDRvgFVtYHB-Uf5MydNjKqJMX9rGDZ7yuOS8bRbtyfu9NVTsKddupg

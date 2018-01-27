@@ -1,0 +1,32 @@
+---
+message: "hello guys\nI have a little problem with aws ec2 and EBS\nI have an ec2
+  instance\nI needed more space so I added an EBS volume with 40 g\nI needed more
+  space so I expanded it to 60 g\nthe problem is on the ec2 instance I find only 40
+  g\nI executed sudo fdisk -l and I found it 60 g\nbut when I executed df I found
+  the volume size only 40G \nwhat should I do \nthe volume is mounted as /home"
+from:
+  name: Muhammed Nagy
+  id: '495080930892199'
+type: status
+created_time: '2017-05-20T10:32:54+0000'
+updated_time: '2017-05-20T10:40:44+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1488273801212323/
+id: '172338516139198_1488273801212323'
+comments:
+  data:
+  - created_time: '2017-05-20T10:37:29+0000'
+    from:
+      name: Mohamed Radwan
+      id: '10159976552365192'
+    message: there are some steps you need to do http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-expand-volume.html
+    id: '1488275624545474'
+  - created_time: '2017-05-20T10:38:02+0000'
+    from:
+      name: Mohamed Radwan
+      id: '10159976552365192'
+    message: did you run resizefs ?
+    id: '1488275894545447'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE0T0RJM05UWXlORFUwTlRRM05Eb3hORGsxTWpjMk5qVXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE0T0RJM05UZAzVORFUwTlRRME56b3hORGsxTWpjMk5qZA3oZD

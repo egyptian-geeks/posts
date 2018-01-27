@@ -1,0 +1,63 @@
+---
+message: "ايه الـ BIG Theta والفرق بينها وبين الـ Big Oh وازاى الـ Big theta بيقولوا
+  انها tight وانا بأخد الـ Upper bound اصلا .\nياريت محدش يبعتلى لينكات\U0001F602"
+from:
+  name: Mustafa Jalal
+  id: '1426153664180879'
+type: status
+created_time: '2017-12-20T15:05:27+0000'
+updated_time: '2017-12-23T08:40:25+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1697495453623489/
+id: '172338516139198_1697495453623489'
+reactions:
+  data:
+  - id: '1641565752594739'
+    name: Ahmed Aziz
+    type: LIKE
+  - id: '2022833371324486'
+    name: Abdelrahman Hassan
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlNak01T1RFMk5UUXpPakUxTVRNNE1URTFNakU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTNPVE0xTWpnek1UWTRPakUxTVRNM09ESTBOekU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-12-20T15:48:27+0000'
+    from:
+      name: Rafael Adel
+      id: '10156260406777122'
+    message: ما انت الافضل تدور احسن
+    id: '1697545093618525'
+  - created_time: '2017-12-20T16:29:06+0000'
+    from:
+      name: Mohamed Sweelam
+      id: '1987222834640127'
+    message: |-
+      In short description , Big theta is the exact complexity and can be calculated in a mathematical context only based on equations .
+
+      On the other hand Big Oh is upper bound and it can be shown that it is calculated verbly without need for Maths unlike Big theta .
+
+      Moreover the upper and lower boundaries are mathematical notations that can be computed as I said before using equations .
+    id: '1697572136949154'
+  - created_time: '2017-12-20T16:35:24+0000'
+    from:
+      name: Mohamed Nabil
+      id: '1803378483047994'
+    message: "مش عايز اصدمك بس لسه في Omega كمان\nيص هو الافضل تشوفلها فيديو او تقرا
+      اي ملزمه , بس لو عايز الملخص بتاع المصريين :\nالاوميجا lower bound يبقى اقل
+      من او قد ال theta \nال O هي ال upper bound يبقى اكبر من او قد ال theta \nلو
+      قدرت تجيب O و Omega و هما ال2 بيتقابلوا عند theta تبقى دي ال exact  بتاعتك"
+    id: '1697579483615086'
+  - created_time: '2017-12-20T16:35:47+0000'
+    from:
+      name: Mohamed Nabil
+      id: '941919879288729'
+    message: يعنى على سبيل المثال x == y الـ expression دا الـ running time بتاعه
+      فى اسوأ الحالات (O(1 وايضا الـ running time بتاعه فى احسن الحالات (Omega(1 يبقى
+      الـ running time فى الحالتين متساوى وهنا نقدر نقول عليه (Theta(1 .
+    id: '1697579753615059'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFk1TnpVME5UQTVNell4T0RVeU5Ub3hOVEV6TnpnME9UQTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFk1TnpVM09UYzFNell4TlRBMU9Ub3hOVEV6TnpnM056UTQZD

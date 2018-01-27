@@ -1,0 +1,58 @@
+---
+message: |-
+  السلام عليكم
+
+  من فضلكم يا شباب انا محتاج افهم حاجة محيرانى يمكن لأنى مدرستهاش او مقابلتهاش قبل كده - انا شغال web api & MVC - وكتير بسمع عن N-Tier architecture بس المشكلة انى مش عارف اظبط الدنيا بحيث انى اشتغل بالنظام ده يعنى المفروض فى DAL وفى BAL وفى Per ده اللى فهمته من البحث على الانترنت - بس هل MVC تعتبر شغالة بالطريقة دى والا لا ؟
+
+  - انا عامل DLL عبارة عن UnitOfwork ومخليها Generic بحيث اقدر استغلها فى مشروع هل تعتبر DAL ؟
+
+  - وفى النهاية اسف للإطالة بس لو حابب اشتغل بنظام N-Tier architecture المفروض اعمل ايه ؟
+from:
+  name: Ahmed Amin
+  id: '1962172197389574'
+type: status
+created_time: '2016-03-30T07:50:40+0000'
+updated_time: '2016-03-30T11:24:25+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1112635835442790/
+id: '172338516139198_1112635835442790'
+reactions:
+  data:
+  - id: '10155994963444544'
+    name: Ahmed Abd El Hady
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpFMU5EUTBOVFF6T2pFME5Ua3pNalkxTlRVNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TmpFMU5EUTBOVFF6T2pFME5Ua3pNalkxTlRVNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-03-30T08:16:25+0000'
+    from:
+      name: Ahmed Abdo
+      id: '10155432639833282'
+    message: في حدود علمى ال  mvc هو التطور بتاع n tiers
+    id: '1112658855440488'
+  - created_time: '2016-03-30T08:31:45+0000'
+    from:
+      name: Ahmed Samir
+      id: '10159800858645702'
+    message: |-
+      The N-Tier architecture was mainly designed with the goal of separating the data, logic and application tears across different servers/machines, not just separating the software artifacts/assemblies.
+      I do not see anyone talking about N-Tier any more, probably since MVC solved the software logic vs presentation separation, and with web services now mainstream, it is normal to build software as pieces on different machines.
+    id: '1112678408771866'
+  - created_time: '2016-03-30T11:19:54+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: Ahmed Aminحاول تقرا الاجوبه الي هنا افضل  واصح
+    id: '1112837692089271'
+  - created_time: '2016-03-30T11:21:24+0000'
+    from:
+      name: Ahmed Amin
+      id: '1962172197389574'
+    message: يعنى الخلاصة هنا ان MVC تعتبر هى التطور او الجيل الجديد من n tiers ?
+    id: '1112838265422547'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV4TWpZAMU9EZAzFOVFEwTURRNE9Eb3hORFU1TXpJMU56ZAzIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV4TWpnek9ESTJOVFF5TWpVME56b3hORFU1TXpNMk9EZAzAZD

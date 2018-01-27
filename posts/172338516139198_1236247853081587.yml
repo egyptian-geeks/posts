@@ -1,0 +1,55 @@
+---
+message: "شباب، قسم الباثولوجي في كلية طب جامعة الأزهر بيحاول يعمل معمل أجهزة كمبيوتر
+  ونظرا لضعف الإمكانيات أنا اقترحت إننا نعمل معمل من الـ Thin clients ومتوصل بسرفر
+  ، وفكرت إننا ممكن نستعمل الـ Raspberry Pi 3 بدل ما نشتري أجهزة كاملة. غالبا الاستعمالات
+  هتكون الوصول للـ Internet أو لـ Intranet Application أو ممكن Screensharing ، أعتقد
+  كل هذه الأشياء يمكن عملها من متصفح ابن حلال\n\nالسؤال\n1) هل الموضوع يستحق ولا الـ
+  TCO في الحالة دي هيبقى مقارب لجهاز كامل\n2) هل الـ Raspberry  Pi 3 قادرة على التعامل
+  مع عبء تشغيل زي ده؟ \n3) هل في شركات في مصر قادرة على تنفيذ مشروع زي ده؟"
+from:
+  name: Mostafa Muhammad
+  id: '10155787111376210'
+type: status
+created_time: '2016-09-19T17:33:20+0000'
+updated_time: '2016-09-19T21:20:32+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1236247853081587/
+id: '172338516139198_1236247853081587'
+reactions:
+  data:
+  - id: '10156115350739764'
+    name: Mahmoud Tantawy
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRFME5UYzVOell6T2pFME56UXpNVFE1TlRRNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRFME5UYzVOell6T2pFME56UXpNVFE1TlRRNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-09-19T17:40:33+0000'
+    from:
+      name: Ahmed Samir
+      id: '10159800858645702'
+    message: Raspberry Pi 3 was mainly designed as an educational device. I am  sure
+      you can find more powerful devices with the same price (that are usually more
+      complex to work with but more suitable for professionals)
+    id: '1236251203081252'
+  - created_time: '2016-09-19T18:04:25+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: في الأمور اللي زي كدة ركز أكتر في السيرفر. الطرفيات او الزباين أمرها
+      محلول بأي شكل مثلا (اللابتوب بتاع كل واحد، التابلت بتاعه، اجهزة مستعملة، الخ)
+    id: '1236276659745373'
+  - created_time: '2016-09-19T18:50:21+0000'
+    from:
+      name: Galal Atef
+      id: '10214124238595185'
+    message: |-
+      "غالبا الاستعمالات هتكون الوصول للـ Internet أو لـ Intranet Application أو ممكن Screensharing "
+      لو على الاستخدامات دى انتا مش محتاج سيرفر اصلا
+      اخرك كمبيوتر workstation على اد شغل ال Intranet
+    id: '1236303543076018'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl6TmpJMU1USXdNekE0TVRJMU1qb3hORGMwTXpBMk9ETTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl6TmpNd016VTBNekEzTmpBeE9Eb3hORGMwTXpFeE1ESXgZD

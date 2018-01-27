@@ -1,0 +1,48 @@
+---
+message: |-
+  For laravel geeks.
+  Is it possible to set up a Task scheduler using Cron job to run a queue worker as a daemon on shared hosting. I know that is difficult but, is it possible?
+from:
+  name: Nady Shalaby
+  id: '2086378701380044'
+type: status
+created_time: '2017-12-30T21:46:46+0000'
+updated_time: '2018-01-01T01:06:01+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1707027119336989/
+id: '172338516139198_1707027119336989'
+comments:
+  data:
+  - created_time: '2017-12-30T21:56:27+0000'
+    from:
+      name: Askao Ahmed Saad
+      id: '10213786857415913'
+    message: you need a tool like supervisor to run this cronjob so you need ssh access
+      which I think not provided on shared hosts
+    id: '1707033206003047'
+  - created_time: '2017-12-30T23:34:34+0000'
+    from:
+      name: Ahmed Abumostafa
+      id: '10155050597761603'
+    message: Try with exec and trigger from the browser. Never tried by you can give
+      it a try
+    id: '1707085649331136'
+  - created_time: '2017-12-31T01:11:34+0000'
+    from:
+      name: Ahmed M. Araby
+      id: '10155547863649263'
+    message: "if you have cpanel access check \"cron\" in there \nEach normal user
+      has his own crontab too"
+    id: '1707140279325673'
+  - created_time: '2018-01-01T01:05:57+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: |-
+      A daemon is a long running process. It all comes down to whether your hosting provider allows you to run long running processes.
+
+      Sometimes you will need to upgrade your plan with the hosting provider in order to be able to do so.
+    id: '1708288372544197'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN3TnpBek16SXdOakF3TXpBME56b3hOVEUwTmpjd09UZAzQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN3T0RJNE9ETTNNalUwTkRFNU56b3hOVEUwTnpZANE56VTQZD

@@ -1,0 +1,53 @@
+---
+message: |-
+  Hello geeks, I am learning TDD and I have a question here in stackoverflow if you would help me I would be grateful
+  Thank you.
+link: https://goo.gl/1Z9OGD
+from:
+  name: Muhammad Sabry Abdulwanis
+  id: '10215004393844887'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQA4atFBdowvWO-S&w=130&h=130&url=http%3A%2F%2Fcdn.sstatic.net%2FSites%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded%26a&cfs=1&sx=0&sy=0&sw=316&sh=316&_nc_hash=AQDYVbPw7-vNSk2Z
+created_time: '2016-08-10T14:46:35+0000'
+updated_time: '2016-08-11T18:50:52+0000'
+name: How to write similar test cases without breaking the simple responsibility principle?
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1200512909988415/
+id: '172338516139198_1200512909988415'
+comments:
+  data:
+  - created_time: '2016-08-10T16:31:36+0000'
+    from:
+      name: Abdelrhman Shawky
+      id: '10213017755051330'
+    message: |-
+      المشكلة ف ده لو ال Test هيـ Fail مش هتعرف المشكلة كانت ف ف اي input.
+      ممكن طلاما هو هو نفس ال Test بس بـ Inputs مختلفة تعمل Test Case ،  فبدل ده كله هيبقى شكله حاجة زي كده بـ NUnit
+      http://codepaste.net/anco2y
+    id: '1200576406648732'
+  - created_time: '2016-08-10T16:39:12+0000'
+    from:
+      name: Ibraheem Osama
+      id: '10155206310513093'
+    message: Use xunit.net framework to solve the parameters issues it is used by
+      asp.net team as I know and don't use more than one assert per test
+    id: '1200579629981743'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl3TURVM05qUXdOalkwT0Rjek1qb3hORGN3T0RRMk56QXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl3TURVM09UWXlPVGs0TVRjME16b3hORGN3T0RRM01UVTAZD
+attachments:
+  data:
+  - description: I have a unit Test where I want to test different input and make
+      sure the output is correct. I created a Unit test for all of the test cases
+      as follow [TestMethod] public void CountInversion...
+    media:
+      image:
+        height: 316
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAntEGj6KNL8I7m&w=316&h=316&url=http%3A%2F%2Fcdn.sstatic.net%2FSites%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded%26a&cfs=1&sx=0&sy=0&sw=316&sh=316&_nc_hash=AQAI6p974RoCbfNJ
+        width: 316
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgoo.gl%2F1Z9OGD&h=ATN7XNeYUvzhGgJU_wRgcUqvOGOJhva_LqAllKY3EH1_M3WLv1UjhhkEqClW0c4uIzQNi2MMQSRinQPOOJmBHyVhJsloj7rDhXWo&s=1&enc=AZO1EYEXSUsDZCK-kd68ZoWl2hFM5xe8RTnV_DEFPCifYfZ1DueFmxI_mM2mV6WObkzKDAF1Kz12V0IkzxpDeHcv
+    title: How to write similar test cases without breaking the simple responsibility
+      principle?
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgoo.gl%2F1Z9OGD&h=ATN7XNeYUvzhGgJU_wRgcUqvOGOJhva_LqAllKY3EH1_M3WLv1UjhhkEqClW0c4uIzQNi2MMQSRinQPOOJmBHyVhJsloj7rDhXWo&s=1&enc=AZO1EYEXSUsDZCK-kd68ZoWl2hFM5xe8RTnV_DEFPCifYfZ1DueFmxI_mM2mV6WObkzKDAF1Kz12V0IkzxpDeHcv

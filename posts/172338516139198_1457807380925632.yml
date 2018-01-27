@@ -1,0 +1,76 @@
+---
+message: |-
+  السلام عليكم
+  recover deleted rows from sql table without backup
+  انا مسحت بيانات من قاعدة بيانات عندي غلط
+  ومفيش باك اب
+  نزلت برنامج ApexSQL Recover رجعلي 2 صف من البيانات المحذوفه وعلشان يرجع الباقي بفلوس كتير 1999$
+  انا واثق انه لو في داتابيز ادمنسترتور شاطر اكيد هيبقا عنده اسكربت يرجع البيانات المحذوفه
+  اتمني حد يكون مر بالمشكله دي وعنده الحل
+from:
+  name: Ahmed Ibrahim
+  id: '1736169696403132'
+type: status
+created_time: '2017-04-18T17:06:13+0000'
+updated_time: '2017-04-19T19:49:43+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1457807380925632/
+id: '172338516139198_1457807380925632'
+reactions:
+  data:
+  - id: '1596110217148252'
+    name: Ahmed Badawy
+    type: LIKE
+  - id: '643107275859938'
+    name: Hamada Abdelbaky
+    type: LIKE
+  - id: '10155149661171716'
+    name: Mohammed Abd El-Raouf
+    type: LIKE
+  - id: '1561265350576060'
+    name: Mahmoud Eidarous
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlORGM0Tmpnd09EVTJPakUwT1RJMk16QXdOalk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXdOemM0TXpBeU5EQTRPakUwT1RJMU9UUTVNRFU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-04-18T17:08:49+0000'
+    from:
+      name: Ahmed Ibrahim
+      id: '1736169696403132'
+    message: |-
+      انا جربت شوية اسكربتات من stackoverflow & code project
+      وما اشتغلوش
+    id: '1457809684258735'
+  - created_time: '2017-04-18T17:21:10+0000'
+    from:
+      name: Firas Abd Alrahman
+      id: '732859920251745'
+    message: |-
+      زمان مرقت بنفس المشكلة لاقيت نسخة مكركة هالحكي من خمس سنوات
+      دور عتورنت ودور عاصدارات قديمة من البرنامج
+      بالنهاية البيانات موجودة بس معلم عليها انها محذوفة حتی ما تظهر
+    id: '1457818764257827'
+  - created_time: '2017-04-18T18:44:39+0000'
+    from:
+      name: Mohammed Ragab
+      id: '2020898428198432'
+    message: عملت لهم delete ولا truncate لو delete رجعهم من ال transaction Log
+    id: '1457894447583592'
+  - created_time: '2017-04-18T18:45:55+0000'
+    from:
+      name: Mohammed Ragab
+      id: '2020898428198432'
+    message: check this https://sqlbak.com/blog/recover-deleted-data-in-sql-server/
+    id: '1457895717583465'
+  - created_time: '2017-04-19T15:46:45+0000'
+    from:
+      name: Hamada Abdelbaky
+      id: '643107275859938'
+    message: F
+    id: '1458921797480857'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFExTnpnd09UWTROREkxT0Rjek5Ub3hORGt5TlRNMU16STUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFExT0RreU1UYzVOelE0TURnMU56b3hORGt5TmpFMk9EQTEZD

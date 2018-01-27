@@ -1,0 +1,28 @@
+---
+message: "this exception appears when using JNI with linux ( C# dll in java application)
+  \n/usr/java/packages/lib/amd64/SharpAuthenticator.dll: /usr/java/packages/lib/amd64/SharpAuthenticator.dll:
+  invalid ELF header (Possible cause: endianness mismatch)\n\n/usr/java/packages/lib/amd64/cppAuthenticator.dll:
+  /usr/java/packages/lib/amd64/cppAuthenticator.dll: invalid ELF header (Possible
+  cause: endianness mismatch)\n\nhowever its working well on windows \n\ni installed
+  wine on linux for .net framework \n\ncan anyone help ?"
+from:
+  name: Mohamed M. Abdel Aty
+  id: '10155528337889092'
+type: status
+created_time: '2016-08-06T02:06:41+0000'
+updated_time: '2016-08-06T05:20:12+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1197064453666594/
+id: '172338516139198_1197064453666594'
+comments:
+  data:
+  - created_time: '2016-08-06T05:20:10+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: NO, wine on Linux is limited to a few basic programs. If you want .NET
+      on Linux go for ASP.NET core
+    id: '1197164886989884'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU1TnpFMk5EZAzROams0T1RnNE5Eb3hORGN3TkRZAd09ERXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU1TnpFMk5EZAzROams0T1RnNE5Eb3hORGN3TkRZAd09ERXcZD

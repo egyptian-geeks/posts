@@ -1,0 +1,75 @@
+---
+message: |-
+  Geeks,
+  is there anyone here tried to work with .net platform over Linux? Would u plz share ur experience ? Any feedback ?
+from:
+  name: Rania Nazmey
+  id: '10156757286637119'
+type: status
+created_time: '2017-04-11T11:33:00+0000'
+updated_time: '2017-04-12T02:37:51+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1450124705027233/
+id: '172338516139198_1450124705027233'
+reactions:
+  data:
+  - id: '10156208183143413'
+    name: Nermeen Mohammad AbdEl-Aziz
+    type: LIKE
+  - id: '2093529544214867'
+    name: Yehia Hassan
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRFME9ESXpOREV5T2pFME9URTVNVGMwTkRNNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQTJOek0xTWpRNU16a3dPakUwT1RFNU1UTTVOREE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-04-11T11:34:23+0000'
+    from:
+      name: Mahmoud Hossam
+      id: '1360912124012585'
+    message: Linux has Mono, and Microsoft has started to make parts of .NET open
+      source on GitHub.
+    id: '1450125628360474'
+  - created_time: '2017-04-11T12:19:02+0000'
+    from:
+      name: Pola Ashraf
+      id: '10155173051963199'
+    message: I tried it many years ago, using Mono.
+    id: '1450160638356973'
+  - created_time: '2017-04-11T12:24:28+0000'
+    from:
+      name: Rania Nazmey
+      id: '10156757286637119'
+    message: "More details plz :) \nIs it something to allow VS to be installed over
+      Linux ?"
+    id: '1450164358356601'
+  - created_time: '2017-04-11T12:55:14+0000'
+    from:
+      name: Ahmed Eid
+      id: '762135870664322'
+    message: |-
+      you can download VS Code and start to work with .net core projects ,,
+      it's not a full IDE like VS but it's morel ike a text editor like atom with intellisense
+    id: '1450196115020092'
+  - created_time: '2017-04-11T13:18:35+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: If want to make things with a GUI then you'll have to use mono, but if
+      you want to make command line tools or web backends, then you should check the
+      new .Net Core.
+    id: '1450217538351283'
+  - created_time: '2017-04-12T02:37:48+0000'
+    from:
+      name: Muhammed Abdulaziz
+      id: '10156189240128395'
+    message: |-
+      من ضمن البرامج التي استخدمها بشكل يومي keepass2
+      مبني على دوت نت و يعمل على مونو بدون مشاكل.
+      مشكلة مونو ﻻ يدعم RTL أو bidi
+    id: '1450787458294291'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFExTURFeU5UWXlPRE0yTURRM05Eb3hORGt4T1RFd05EWTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFExTURjNE56UTFPREk1TkRJNU1Ub3hORGt4T1RZAME5qWTUZD

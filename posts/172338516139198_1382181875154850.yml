@@ -1,0 +1,140 @@
+---
+message: |-
+  Anyone here using cloud storage for personal, off-site backup purposes? Basically I need 1-2TB of storge space with the most important factor having an FTP or FTP-like access to upload and download (Web based upload sucks, and I don't want to auto sync files because this defeats the whole point of backup).
+
+  All for something like $10/month... I have been searching for a day and none of the mainstream solutions (GDrive, OneDrive, etc.) fits, neither I found a low-end VPS with such disk space... maybe you can enlighten me with your experience?
+
+  Thanks for your help!
+from:
+  name: Mohamed Eltantawi
+  id: '10160105091695314'
+type: status
+created_time: '2017-02-08T06:46:25+0000'
+updated_time: '2017-04-01T22:03:11+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1382181875154850/
+shares:
+  count: 2
+id: '172338516139198_1382181875154850'
+reactions:
+  data:
+  - id: '10156115350739764'
+    name: Mahmoud Tantawy
+    type: LIKE
+  - id: '10155880598025170'
+    name: Mohammed El Sayed
+    type: LIKE
+  - id: '10213312485660401'
+    name: Amir Allam
+    type: LOVE
+  paging:
+    cursors:
+      before: TlRFME5UYzVOell6T2pFME9EWTFOREk0TURRNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBME5UWXdPRFUyTlRveE5EZAzJOVE0zTVRNeE9qYzRPRFkwT0RBek56a3hNek14TWc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-02-08T06:48:52+0000'
+    from:
+      name: Abdelrhman Fahmy
+      id: '1719096738142702'
+    message: |-
+      Check hetzner
+      https://www.hetzner.de/hosting/produktmatrix/storagebox-produktmatrix
+    id: '1382182765154761'
+  - created_time: '2017-02-08T06:57:37+0000'
+    from:
+      name: Ahmad Hisham
+      id: '10159889607765058'
+    message: Try Amazon S3, it doesn't support FTP (as I recall), but it has a comprehensive
+      command line client that you can use as you want.
+    id: '1382186755154362'
+  - created_time: '2017-02-08T07:14:34+0000'
+    from:
+      name: Mahmoud Refaat
+      id: '10159882193515635'
+    message: |-
+      Nearline.
+      https://cloud.google.com/storage/docs/storage-classes#nearline
+    id: '1382199135153124'
+  - created_time: '2017-02-08T07:20:56+0000'
+    from:
+      name: Mootaz Dinana
+      id: '10155792625775306'
+    message: So do you use any form of encryption for your files once they're on the
+      server?
+    id: '1382201615152876'
+  - created_time: '2017-02-08T08:38:50+0000'
+    from:
+      name: Eslam Hamouda
+      id: '10212947071504226'
+    message: https://www.backblaze.com is your friend with unlimited *encrypted* storage
+      at 5$/month only, I'm using it personally and highly recommend it.
+    id: '1382238311815873'
+  - created_time: '2017-02-08T08:45:13+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: S3 seems a fit for your needs, you might encrypt it at rest with kms,
+      use a lambda function for uploads and downloads.
+    id: '1382241715148866'
+  - created_time: '2017-02-08T09:14:59+0000'
+    from:
+      name: Ahmed Ibrahim Amer
+      id: '10213705794213073'
+    message: why you didn't think of creating your own server?
+    id: '1382256958480675'
+  - created_time: '2017-02-08T09:15:53+0000'
+    from:
+      name: Mohamed Eltantawi
+      id: '10160105091695314'
+    message: This seems good with many positive reviews and fits the bill nicely https://www.crashplan.com/en-us/
+      Anyone using it?
+    id: '1382257261813978'
+  - created_time: '2017-02-08T09:27:07+0000'
+    from:
+      name: Mohamed Omar Zaian
+      id: '10155855162041047'
+    message: Build ur own http://owncloud.org
+    id: '1382263168480054'
+  - created_time: '2017-02-08T09:55:57+0000'
+    from:
+      name: Hesham Amin
+      id: '1604225349657987'
+    message: 'AWS S3: https://aws.amazon.com/s3/. Doesn''t support FTP but has command
+      line tools to copy or sync files in addition to GUI tools. Also supports file
+      versioning and access control.'
+    id: '1382275395145498'
+  - created_time: '2017-02-08T11:09:54+0000'
+    from:
+      name: Mohamed Eltantawi
+      id: '10160105091695314'
+    message: Thanks everyone for teh eye-opening discusion, I went ahead with CrashPlan
+      and currently doing a 1.2TB backup, lets see how it goes, next up if I dont
+      like it is Backblaze!
+    id: '1382313755141662'
+  - created_time: '2017-02-08T12:38:18+0000'
+    from:
+      name: Mahmoud Hossam
+      id: '1360912124012585'
+    message: Amazon glacier
+    id: '1382368538469517'
+  - created_time: '2017-02-08T18:12:28+0000'
+    from:
+      name: Ahmed Thabet
+      id: '1849432635069365'
+    message: S3 for rapid access/Glacier for backups
+    id: '1382614235111614'
+  - created_time: '2017-04-01T20:41:14+0000'
+    from:
+      name: Mohamed Eltantawi
+      id: '10160105091695314'
+    message: |-
+      Update for anyone interested in this thread, after spending several weeks trying different backup workflows, I ended up with:
+
+      Duplicati 2.x (freeware and awesome) on the clients + B2 Cloud storage from Backblaz ($0.005 per GB/m).
+
+      An awesome combination that is easy on the wallet :)
+    id: '1439631269409910'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE00TWpFNE1qYzJOVEUxTkRjMk1Ub3hORGcyTlRNMk5UTTEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF6T1RZAek1USTJPVFF3T1RreE1Eb3hORGt4TURjNU1qYzAZD

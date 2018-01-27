@@ -1,0 +1,59 @@
+---
+message: |-
+  Guys i need a simple solution to setup vpn on a vps (digital ocean/linode)
+  Openvpn is block now
+from:
+  name: Momen Al Zalabany
+  id: '10160388991030144'
+type: status
+created_time: '2017-10-11T14:11:37+0000'
+updated_time: '2017-10-12T19:54:40+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1630270397012662/
+id: '172338516139198_1630270397012662'
+reactions:
+  data:
+  - id: '1544312398999750'
+    name: Omar Said
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlOak13TVRNNU56ZAzVPakUxTURjM05Ua3lPVFE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlOak13TVRNNU56ZAzVPakUxTURjM05Ua3lPVFE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-10-11T14:14:49+0000'
+    from:
+      name: Muhammed Nagy
+      id: '495080930892199'
+    message: Stunnel
+    id: '1630289527010749'
+  - created_time: '2017-10-11T14:16:10+0000'
+    from:
+      name: Mohamed Eltantawi
+      id: '10160105091695314'
+    message: https://github.com/hwdsl2/setup-ipsec-vpn
+    id: '1630291033677265'
+  - created_time: '2017-10-11T14:31:44+0000'
+    from:
+      name: Khalid Abdallah
+      id: '10155019881421751'
+    message: |-
+      If you just want to reroute your traffic you don't have to install anything on your VPS. Just use SOCKS Tunnel
+      https://www.digitalocean.com/community/tutorials/how-to-route-web-traffic-securely-without-a-vpn-using-a-socks-tunnel
+    id: '1630306277009074'
+  - created_time: '2017-10-11T16:09:33+0000'
+    from:
+      name: Mahmoud Hossam
+      id: '1360912124012585'
+    message: https://github.com/jlund/streisand
+    id: '1630356817004020'
+  - created_time: '2017-10-12T16:44:04+0000'
+    from:
+      name: Amr Ramadan
+      id: '10155991339394536'
+    message: Alaa K. ElBehery
+    id: '1631251820247853'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl6TURJNE9UVXlOekF4TURjME9Ub3hOVEEzTnpNeE1qa3cZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl6TVRJMU1UZA3lNREkwTnpnMU16b3hOVEEzT0RJMk5qUTEZD

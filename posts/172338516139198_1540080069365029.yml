@@ -1,0 +1,85 @@
+---
+message: |-
+  How to connect node js (backend) with angular 2(front end)?*i am using angular cli.
+  When backend call index.html it doesn't show the root component so is there something to add to my angular code?
+  Thanks in advance
+from:
+  name: Yasmine Zakaria
+  id: '1916404415041225'
+type: status
+created_time: '2017-07-07T14:44:29+0000'
+updated_time: '2017-07-12T15:25:00+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1540080069365029/
+id: '172338516139198_1540080069365029'
+comments:
+  data:
+  - created_time: '2017-07-07T15:34:56+0000'
+    from:
+      name: Ali Hefny
+      id: '1992382594366191'
+    message: I don't think these is the right approach, the normal way is that you
+      have a back end point and then you call the API through service in angular,
+      that's the right  way to connect angular with your back-end services
+    id: '1540121392694230'
+  - created_time: '2017-07-07T15:50:41+0000'
+    from:
+      name: Belal Mohammed
+      id: '10156087054039146'
+    message: |-
+      You can do that through the 2 best approaches:
+      - Either to use socket.io (using the functions emit & on)
+      - Or to call an api through a service in your angular.
+    id: '1540135546026148'
+  - created_time: '2017-07-07T16:01:50+0000'
+    from:
+      name: Ibrahim Mohammed
+      id: '1886120441698692'
+    message: "don't call the index.html of an angular cli project during the development
+      environment it won't work, what you should do is to keep both the front and
+      the back-end development separated and working in parallel.\ncalling the backend
+      api from your angular app using the http module\nonce you finish developing
+      the front-end use the command \n\" ng build --prod\" this will generate static
+      files in /dist folder in your app directory\nuntil here you can host your angular
+      app by itself and the backend by itself as well both isolated, or you can take
+      the dist folder and host it within your backend by calling the index.html file."
+    id: '1540144509358585'
+  - created_time: '2017-07-07T16:17:42+0000'
+    from:
+      name: Abdelrhman Hussien
+      id: '2123221174630913'
+    message: ".\nGo to the angular.cli file in the angular app and change the outDir
+      to \"../public\"  then run \"ng build\" I think you will serve the static files
+      through your public dir\nthe poject structure will be something like that \n\n-
+      root\n--- client   \\\\ contain the angular app \n--- routes \\\\ server routes\n---
+      modules \\\\ some server stuff\n--- public \\\\ server the static file  \n--
+      \ server.js \n\nin the server.js file you should include \napp.use(express.static(path.join(__dirname,
+      'public')));\n\nI hope I answered your question, good luck"
+    id: '1540159022690467'
+  - created_time: '2017-07-08T00:34:25+0000'
+    from:
+      name: Mohamed Adel
+      id: '2059314294312293'
+    message: |-
+      You can just use services to do the job in a right way with your functions (CRUD as an example), call your service from the root app file and the required component.
+      Here's an example of using services: https://github.com/loiane/angular2-crud-rest/blob/master/src/app/users/shared/users.service.ts
+
+      Go to Angular docs and find the way to link components with services each others.
+    id: '1540638102642559'
+  - created_time: '2017-07-12T14:58:35+0000'
+    from:
+      name: Muhamad Omar
+      id: '1821918031216201'
+    message: بتستخدمي express  في ال backend  ؟
+    id: '1545258248847211'
+  - created_time: '2017-07-12T15:24:58+0000'
+    from:
+      name: Muhamad Omar
+      id: '1821918031216201'
+    message: |-
+      لو لسه المشكله معاكي و عاوزه تظهري ال index
+      هيبقي احسن لو شفت ال file structure  بتاع ال project
+    id: '1545277388845297'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUwTURFeU1UTTVNalk1TkRJek1Eb3hORGs1TkRReE5qazIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUwTlRJM056TTRPRGcwTlRJNU56b3hORGs1T0Rjek1EazQZD

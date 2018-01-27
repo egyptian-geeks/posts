@@ -1,0 +1,108 @@
+---
+message: "السلام عليكم \nدلوقتي انا واخد استضافة ريسيلر على Hostgator واكتر من مرة
+  يقفلولى ويبسايت بسبب استهلاك موارد السيرفر \nYour account has been abusing CPU resources\nوشفت
+  من فترة بوست بيتكلم عن ديجتال اوشن ولينود \nبس محتاج حد يدلني اختار اي بلان ؟  وابدأ
+  اشتغل وانقل المواقع بتاعتي عليها ازاي ؟"
+link: https://www.facebook.com/photo.php?fbid=10202870523801414&set=gm.1336055069767531&type=3
+from:
+  name: Mahmoud Nabil
+  id: '10204485977226740'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/15726469_10202870523801414_9199504038940038720_n.jpg?oh=11fdba86dde968b54ac6a9848208c833&oe=5ADB1062
+created_time: '2016-12-24T10:05:45+0000'
+updated_time: '2016-12-25T10:13:40+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1336055069767531/
+id: '172338516139198_1336055069767531'
+reactions:
+  data:
+  - id: '495080930892199'
+    name: Muhammed Nagy
+    type: LIKE
+  - id: '2242882319072125'
+    name: Ahmed Hamdy Shafeek
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01ERXhOekE0T0RnM05UWTVPakUwT0RJMk5UWXdNVEE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXdOVEV4TXpZAeU1qVTRPakUwT0RJMU9Ea3pPVEU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-12-24T10:55:35+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: شوف برده vultr في اختياراتك
+    id: '1336077733098598'
+  - created_time: '2016-12-24T11:35:47+0000'
+    from:
+      name: عبدالله محمد
+      id: '10213101784151931'
+    message: |-
+      https://github.com/255kb/stack-on-a-budget
+      chech this
+    id: '1336099829763055'
+  - created_time: '2016-12-24T12:21:08+0000'
+    from:
+      name: Mostafa Gaafar
+      id: '10154949856661012'
+    message: "كان في بوست من فترة كذا حد عنده مشكلة في سرعة النت على digital ocean
+      \nوبيفضلوا linode\nممكن تدور على البوست مش هعرف اجيبهولك دلوقتي"
+    id: '1336128936426811'
+  - created_time: '2016-12-24T12:45:32+0000'
+    from:
+      name: Mohannad Ali
+      id: '10155955385444519'
+    message: https://amazonlightsail.com/
+    id: '1336142489758789'
+  - created_time: '2016-12-24T13:19:52+0000'
+    from:
+      name: Mohammed Halim
+      id: '372357706559022'
+    message: "I prefer to use AWS \nit cost effective"
+    id: '1336163053090066'
+  - created_time: '2016-12-24T14:58:04+0000'
+    from:
+      name: Alhasan A. Al-Nasiry
+      id: '1751004338278066'
+    message: |-
+      حاليا linode افضل شيئ
+      لكن لو كان الخيار بيدي اختار aws ec2 / amazon lightsail
+    id: '1336223693084002'
+  - created_time: '2016-12-25T08:24:42+0000'
+    from:
+      name: Taha Amin
+      id: '10155815529215590'
+    message: او صلح الكود
+    id: '1336863259686712'
+  - created_time: '2016-12-25T10:11:38+0000'
+    from:
+      name: Ahmed Mekkawy
+      id: '10155783123700239'
+    message: |-
+      hmm, here's my $0.02:
+      digital ocean is not quite good for a stable production environment, mainly cause of some random networking issues.
+      amazon lightsail - as I read, but didn't try it - *seems* to be built on AWS's t-series, which IMHO is no good for production cause of CPU performance issues.
+      Vultr and linode are your best bet. I believe that linode is more mature and has better tools like ip swapping, automated backups, .. etc. Anyway the difference in pricing is minimal. When I benchmarked them both a few years ago vultr had significantly better CPU performance, but i'm not sure this is still the case.
+
+      Choosing the plan is based on your needs, but if you are going for linode then I suggest that you make the harddisk as small as the smallest plan - if you can of course - so you can scale up and down if needed. About how to migrate them this is the tricky part, both of them doesn't support CPanel so you'll have to build your stack - and client isolation - from scratch.. may be separate php-fpm pools as a starter, or docker containers if you will..
+    id: '1336909546348750'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE16TmpBM056Y3pNekE1T0RVNU9Eb3hORGd5TlRjMk9UTTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE16Tmprd09UVTBOak0wT0RjMU1Eb3hORGd5TmpZAd05qazUZD
+attachments:
+  data:
+  - description: "السلام عليكم \nدلوقتي انا واخد استضافة ريسيلر على Hostgator واكتر
+      من مرة يقفلولى ويبسايت بسبب استهلاك موارد السيرفر \nYour account has been abusing
+      CPU resources\nوشفت من فترة بوست بيتكلم عن ديجتال اوشن ولينود \nبس محتاج حد
+      يدلني اختار اي بلان ؟  وابدأ اشتغل وانقل المواقع بتاعتي عليها ازاي ؟"
+    media:
+      image:
+        height: 367
+        src: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/15676181_10202870523801414_9199504038940038720_o.jpg?oh=d4eb4721867f1a672bb283636ace74cd&oe=5AEE88F2
+        width: 720
+    target:
+      id: '10202870523801414'
+      url: https://www.facebook.com/photo.php?fbid=10202870523801414&set=gm.1336055069767531&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=10202870523801414&set=gm.1336055069767531&type=3

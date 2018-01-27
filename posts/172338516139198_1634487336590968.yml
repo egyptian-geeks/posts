@@ -1,0 +1,105 @@
+---
+message: كل اما بنزل اى توزيعه لينكس الجهاز بيسخن بشكل مش طبيعى لدرجة انه ممكن يفصل
+  لوحده من السخونيه والبروسيسور بيبقى صوته عالى جدا على عكس لما بستخدم ويندوز 10 مثلا...بحس
+  انه ال resources بتاعة الجهاز بتبقى مستخدمه احسن مع ويندوز واعتقد انه ده مش طبيعى...لو
+  حد عنده نصايح او حلول للمشكله دى يا ريت
+from:
+  name: Amgd Gocha
+  id: '10212650036184692'
+type: status
+created_time: '2017-10-16T08:44:24+0000'
+updated_time: '2017-10-18T08:32:21+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1634487336590968/
+id: '172338516139198_1634487336590968'
+reactions:
+  data:
+  - id: '10214597104898503'
+    name: Omnia El Gammal
+    type: LIKE
+  - id: '985725401566047'
+    name: Ahmed Abouzied
+    type: LIKE
+  - id: '10155399264292986'
+    name: Mostafa Bheiry
+    type: LIKE
+  - id: '250930938779590'
+    name: Abdelrahman Mohsen
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRFME9ETXpOelU0TkRveE5UQTRNemMxTlRZAeE9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBd01ERTFPRGd3TlRjME1UVTNPakUxTURneE5UazROelU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-10-16T08:52:40+0000'
+    from:
+      name: Yehia Hassan
+      id: '2093529544214867'
+    message: بتستخدم انهي distro، وايه الي بيسخن البروسيسور ولا كارت الشاشة؟
+    id: '1634515996588102'
+  - created_time: '2017-10-16T08:57:01+0000'
+    from:
+      name: Yehia Hassan
+      id: '2093529544214867'
+    message: ممكن تنزل ال intel-microcode او amd64-microcode
+    id: '1634517823254586'
+  - created_time: '2017-10-16T09:06:20+0000'
+    from:
+      name: أحمد عصام جمال
+      id: '10155861934226224'
+    message: في توزيعات لينوكس مابتشتعلش من غير Memory managment unit في البروسيسور
+    id: '1634521786587523'
+  - created_time: '2017-10-16T09:18:07+0000'
+    from:
+      name: Ahmad Hisham
+      id: '10159889607765058'
+    message: مشكلة في التعريفات ... جرب ال vendor drivers
+    id: '1634528039920231'
+  - created_time: '2017-10-16T09:26:45+0000'
+    from:
+      name: Mohammed Sameer
+      id: '10159851097570371'
+    message: "اكتب  top في اي  terminal \nمحتاجين نعرف لو فيه حاجه شغالة ومبهدلة ال
+      \ cpu"
+    id: '1634533503253018'
+  - created_time: '2017-10-16T09:31:42+0000'
+    from:
+      name: Mostafa Maklad
+      id: '1614397548598117'
+    message: https://itsfoss.com/reduce-overheating-laptops-linux/
+    id: '1634535573252811'
+  - created_time: '2017-10-16T10:22:33+0000'
+    from:
+      name: Kamal El-Saaid
+      id: '10215306338552662'
+    message: عن تجربة استخدم mint مبيسخنش الجهاز وخفيف جدا وتقريبا زى ال ubuntu ف
+      ال commands وكل الحاجات بنسبة كبيرة
+    id: '1634561019916933'
+  - created_time: '2017-10-16T11:04:02+0000'
+    from:
+      name: Mohamed El-Shahawi
+      id: '2760687167500624'
+    message: "انا كان عندي نفس المشكلة \nالحل المؤقت اني كنت بعمل Limit لل CPU Frequency
+      \nطيب المشكلة ايه \nالمشكلة ان ال CPU حتى لو مش بيعمل اي حاجة بيفضل شغال على
+      أعلى Frequency ده لإن ال Drivers بتاعت Intel DPTF مكنتش موجوده فكانت ال Power
+      Saving Features بردو مش شغالة، المفروض الكلام ده من فترة مش قليلة و المفروض
+      ان النسخ الجديدة يكون معاها ال Drivers دي بس أنا لسه مجربتش."
+    id: '1634582159914819'
+  - created_time: '2017-10-16T11:39:15+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: |-
+      check if the driver for you graphics cards and the graphic switching is working :) it's an issue since 2007, specially if you're not using the official driver from nvidia and stuck with nouvu :)
+      Install the driver from nvidia website directly.
+    id: '1634602953246073'
+  - created_time: '2017-10-16T17:53:57+0000'
+    from:
+      name: Elmehdi Zangui
+      id: '10214384272708017'
+    message: Said Rahhal
+    id: '1634896416550060'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl6TkRVeE5UazVOalU0T0RFd01qb3hOVEE0TVRRek9UWXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl6TkRnNU5qUXhOalUxTURBMk1Eb3hOVEE0TVRjMk5ETTMZD

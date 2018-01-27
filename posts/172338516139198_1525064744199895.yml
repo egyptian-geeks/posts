@@ -1,0 +1,78 @@
+---
+message: |-
+  A massive trove of Microsoft's internal Windows operating system builds and chunks of its core source code have leaked online.
+
+  The data – some 32TB of installation images and software blueprints that compress down to 8TB – were uploaded to betaarchive.com, the latest load of files provided just earlier this week. It is believed the data has been exfiltrated from Microsoft's in-house systems since around March.
+
+  The leaked code is Microsoft's Shared Source Kit: according to people who have seen its contents, it includes the source to the base Windows 10 hardware drivers plus Redmond's PnP code, its USB and Wi-Fi stacks, its storage drivers, and ARM-specific OneCore kernel code.
+link: https://www.theregister.co.uk/2017/06/23/windows_10_leak/?mt=1498250571288
+from:
+  name: Mohamed Asfour
+  id: '10156016150568334'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQC5m2hFYq2VtKwh&w=130&h=130&url=https%3A%2F%2Fregmedia.co.uk%2F2017%2F06%2F23%2Fshutterstock_programming.jpg%3Fx%3D1200%26y%3D794&cfs=1&sx=406&sy=0&sw=794&sh=794&_nc_hash=AQAQJE-_dB-ukbx5
+created_time: '2017-06-23T22:48:27+0000'
+updated_time: '2017-06-27T15:28:11+0000'
+name: 32TB of Windows 10 internal builds, core source code leak online
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1525064744199895/
+shares:
+  count: 1
+id: '172338516139198_1525064744199895'
+reactions:
+  data:
+  - id: '2045193192165110'
+    name: Mohamed Ghoraba
+    type: LIKE
+  - id: '10156115350739764'
+    name: Mahmoud Tantawy
+    type: LIKE
+  - id: '922823697876987'
+    name: Ayman Samir
+    type: LIKE
+  - id: '10159889607765058'
+    name: Ahmad Hisham
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdNak16TkRnMk9EQTBPakUwT1Rnek5ETTBNamc2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: T0RJME5qZAzFNRFUzT2pFME9UZA3lOalEwTlRBNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-06-23T23:15:51+0000'
+    from:
+      name: Mohamed Abdel Aty
+      id: '10215620557573580'
+    message: "So microsoft just went open source without the benefit of community
+      contribution \U0001F602\n\nNo wait , wrong emoji ... this is bad \U0001F631"
+    id: '1525079847531718'
+  - created_time: '2017-06-23T23:22:25+0000'
+    from:
+      name: Abdelrahman El Kinani
+      id: '10213802216302674'
+    message: https://www.betaarchive.com/forum/viewtopic.php?t=37282
+    id: '1525082800864756'
+  - created_time: '2017-06-27T14:07:16+0000'
+    from:
+      name: Abdul Hamdy
+      id: '10155794996775813'
+    message: I'm guessing this will be the only way I can be convinced to use windows
+      10. Hopefully someone will audit the code and strip out the telemetry and spy
+      bullshit and release a decent build for privacy conscious users.
+    id: '1528577497181953'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV5TlRBM09UZAzBOelV6TVRjeE9Eb3hORGs0TWpVNU56VXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV5T0RVM056UTVOekU0TVRrMU16b3hORGs0TlRjeU5ETTIZD
+attachments:
+  data:
+  - description: Looking for exploitable bugs has never been easier
+    media:
+      image:
+        height: 720
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQDU_yAwx4SB5ASp&w=720&h=720&url=https%3A%2F%2Fregmedia.co.uk%2F2017%2F06%2F23%2Fshutterstock_programming.jpg%3Fx%3D1200%26y%3D794&cfs=1&sx=406&sy=0&sw=794&sh=794&_nc_hash=AQDl7WI_wQ4K68Ju
+        width: 720
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.theregister.co.uk%2F2017%2F06%2F23%2Fwindows_10_leak%2F%3Fmt%3D1498250571288&h=ATOfB6vW542as225JWYtCQO_bd_nzOoJ4Q1GTyJi9z_m5zrjwfbSGHtiG0xHS-EvG9GqkfeH2cTh9WiBtPAGM3gL--6hJu1Zf5zg&s=1&enc=AZNipOAOX1hgUNu2FVgPShprhWPAgqvCQ-4XkJ9Nb1GRI9DIzceeBsxJFaHej0vLwzzgmlf6x8auNLtgMo5UsC1Z
+    title: 32TB of Windows 10 internal builds, core source code leak online
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.theregister.co.uk%2F2017%2F06%2F23%2Fwindows_10_leak%2F%3Fmt%3D1498250571288&h=ATOfB6vW542as225JWYtCQO_bd_nzOoJ4Q1GTyJi9z_m5zrjwfbSGHtiG0xHS-EvG9GqkfeH2cTh9WiBtPAGM3gL--6hJu1Zf5zg&s=1&enc=AZNipOAOX1hgUNu2FVgPShprhWPAgqvCQ-4XkJ9Nb1GRI9DIzceeBsxJFaHej0vLwzzgmlf6x8auNLtgMo5UsC1Z

@@ -1,0 +1,36 @@
+---
+message: "سؤال: \nمحتاج اعرف ايه هي ال Best practice وال Best Structure لو عندك ابليكشن
+  متعدد اللغات واليوزر المفروض انه هيدخل اهتماماته مثلا او مجالات دراسته من autocomplete
+  علي حسب اللغة اللي بيكتب بيها مش لغة التطبيق في نفس الوقت المستخدمين التانيين لما
+  يدخلوا التطبيق يشوفوا الاهتمامات دي بلغة التطبيق هو لحد هنا مفيش مشكله المشكله ان
+  ممكن اللي يوزر يدخلة دا مش موجود في الداتا بيز اصلا والادمن مدخلوش وهو ممكن يضيف
+  عادي هل اخلي اليوزر يكتب بلغات التطبيق مثلا ودا حل سئ ولا يكتب وخلاص واعملها حاجات
+  منفصله بس لو عملتها كدا مش هعرف اعمل Matching مثلا او اطلع احصائيات مظبوطة ؟ \nانا
+  بستخدم Mongo db"
+from:
+  name: Mohammed Agwa
+  id: '10213691948826326'
+type: status
+created_time: '2017-01-26T01:51:57+0000'
+updated_time: '2017-01-26T19:25:52+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1366518236721214/
+id: '172338516139198_1366518236721214'
+comments:
+  data:
+  - created_time: '2017-01-26T16:28:48+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: خلي الابليكيشن بتاعك مور سوشيال وضيف فيتشر زي Suggest a translation وادي
+      اليوزر بوينتس مثلا زيادة في بروفايله على الترجمات اللى بيعملها ..
+    id: '1367023093337395'
+  - created_time: '2017-01-26T18:06:59+0000'
+    from:
+      name: Hany Ahmed
+      id: '10156089330442292'
+    message: ممكن تاخد منه اللي يدخله بلغته وتترجمه بأي API
+    id: '1367128073326897'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0yTnpBeU16QTVNek16TnpNNU5Ub3hORGcxTkRRNE1USTUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0yTnpFeU9EQTNNek15TmpnNU56b3hORGcxTkRVME1ERTUZD

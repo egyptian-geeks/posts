@@ -1,0 +1,194 @@
+---
+message: "عايز اعمل requests علي 9 مليون لينك بحيث اجيب الهيدر \nبستخدم حاليا داله
+  get_headers \nبتقدر تعمل 5 queries في الثانيه\nعايز اخلصهم في اقل من دقيقه كتحدي\nمثلا
+  فكرت اني اعمل كذا ملف وكل ملف يعمل اسكان لرينج معين\nبس بردو مش فعال\n\nany cool
+  ideas :D"
+from:
+  name: احمد حمادة
+  id: '1962566230481859'
+type: status
+created_time: '2017-09-10T23:48:05+0000'
+updated_time: '2017-09-12T05:37:56+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1603748972998138/
+shares:
+  count: 1
+id: '172338516139198_1603748972998138'
+reactions:
+  data:
+  - id: '10215497581739240'
+    name: Mahmoud Raafat
+    type: LIKE
+  - id: '10208705059542635'
+    name: Bahaa Elden
+    type: LIKE
+  - id: '10214861141222529'
+    name: Abdelrady Fcis
+    type: LIKE
+  - id: '2387615107931379'
+    name: Ashraf Talha ABo Zahra
+    type: LIKE
+  - id: '1819409301443237'
+    name: Mahmoud M Hassan
+    type: LIKE
+  - id: '10211400895684436'
+    name: Khalid Mohamed Al Wakeel
+    type: LIKE
+  - id: '1044047022415269'
+    name: Mohamed Nasser Elhamshry
+    type: LIKE
+  - id: '10155173051963199'
+    name: Pola Ashraf
+    type: LIKE
+  - id: '898872206952573'
+    name: Ace Al Bastoni
+    type: LIKE
+  - id: '1558917624215781'
+    name: Mohamed A. Salah
+    type: LIKE
+  - id: '1646338095426556'
+    name: Mahmoud Esmail
+    type: LIKE
+  - id: '10155407807273562'
+    name: Ehab Elshater
+    type: LIKE
+  - id: '1981938721878297'
+    name: Eslam Nasser
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRReU9UWTVOemt3TkRveE5UQTFNakl3T0RJMk9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBd01EQXhPRFkxTmpZAMU1ESTNPakUxTURVd09EY3pOakE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-09-10T23:50:40+0000'
+    from:
+      name: Ahmed Ashraf
+      id: '930615110434715'
+    message: ممكن threads .. اللي ف دماغي حاليا
+    id: '1603750056331363'
+  - created_time: '2017-09-10T23:52:04+0000'
+    from:
+      name: Ayman Elarian
+      id: '10155076145535808'
+    message: "threads و ال akka ممكن يعملولك دة بشكل سريع بس استحاله ٩ مليون لنك فى
+      الدقيقه - لانك هنا محكوم بالسرفر الى هتسحب منه والكونكشن \nغير ان ممكن يتعملك
+      \ block لان ال behavior ممكن يبقي كانه ddos  !"
+    id: '1603750529664649'
+  - created_time: '2017-09-11T00:21:08+0000'
+    from:
+      name: Ahmed Atef
+      id: '10156122235026834'
+    message: |-
+      ٩ مليون في دقيقه لييه ابو تريكه
+      لو إنتا معاك هاودير قوي وبأحسن كونكشن هتعمل ريكوست كل ١ ms
+      يعني ٦٠ الف في الدقيقة وده مستحيل أساسا تعرف تعمله بالمواصفات التقليدية
+    id: '1603766279663074'
+  - created_time: '2017-09-11T01:07:37+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: "معاك مليون دولار؟! :) \nفي البرمجيات، يكون خطأ بشع وشنيع هو أن تقتصر
+      حدودك فقط على الإمكانات الفنية البحتة. يجب الوضع في الحسبان (يكاد يكون كتف بكتف)
+      التكلفة المادية (الفلوس يعني) المتطلبة للحل البرمجي المطلوب.\nمثلا لو انت تمتلك
+      داتا سنتر فيه مجموعة أجهزة محترمة عاملة سحابة مثلا (فلوس) ومتوصلة بالنت توصيل
+      محترم (فلوس تاني بس دي تكلفة متغيرة) تقدر تعمل ده في نص دقيقة لو حبيت! (بس اديها
+      فلوس)"
+    id: '1603788659660836'
+  - created_time: '2017-09-11T01:58:50+0000'
+    from:
+      name: Alaa Nassar
+      id: '1411488178980044'
+    message: Mohammed Al Ashaal :D :D بتحب الحاجات دي انت
+    id: '1603815682991467'
+  - created_time: '2017-09-11T04:08:39+0000'
+    from:
+      name: Fares Mehanna
+      id: '1703714063020384'
+    message: |-
+      You should know your theoretical limit regarding the network.
+      including packetization delay, buffer delay and propagation delay.
+      then you should tune your linux kernel to allow for huge number of open connections, maybe you will need to add more IPs.
+      then asynchronous i/o and threads is your friend. you can use libevent in c.
+      take a look at this article : https://www.metabrew.com/article/a-million-user-comet-application-with-mochiweb-part-3
+      this uses "erlang" language to generate a million connections to mochiweb server / and also C code.
+    id: '1603877256318643'
+  - created_time: '2017-09-11T04:23:31+0000'
+    from:
+      name: Mohamed Ahmed
+      id: '385696705226073'
+    message: |-
+      قفل ال code optimization على الاخر و بعد كده فكر فى الهاردوير علشان تقلل من الهاردوير المطلوب لانك هتحتاج هاردوير زياده بس بدل ماتحتاج 6 نودز تقدر تخليهم 3 و كده انقل لphp7  , و استخدم php-fpm و على عدد الكورز و اشتغل بال multi threading و و اعمل counter و شوف المكنه هتقفل معاك كام الاول لو معاك سكربت جاهز ممكن اشغلولهلك على t2.medium  على aws و اطلعلك الارقام
+      ملحوظة انا بقول php علشان ال function الى انت ذكرتها و انت شكلك familiar بالللغه لكن لو تقدر تستخدم لغه تانيه زى go او java او غيرهم انطلق و برضه خلص الاoptimization بتاعك الاول على مكنه واحده علشان تطلع base unit و بعد كده اضرب فى العدد الى انت عاوزه
+    id: '1603884469651255'
+  - created_time: '2017-09-11T05:33:42+0000'
+    from:
+      name: Mohammed Al Ashaal
+      id: '965203406986813'
+    message: "I may use Golang for that kind of challenges with the help of Docker
+      Swarm.\nIf you like to use PHP,\nI think that you may create a runner image
+      that will create a crawler, then create a container from it and distribute it
+      over a cluster of nodes using swarm, \nAnyway, It is better to distribute your
+      work over multiple nodes, or get a powerful machine+network connection and do
+      it."
+    id: '1603917879647914'
+  - created_time: '2017-09-11T05:53:07+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: |-
+      Publish the Links to sqs, use a lambda function to read from the sqs, per link function.
+      Done in less than a minute
+    id: '1603925946313774'
+  - created_time: '2017-09-11T07:50:22+0000'
+    from:
+      name: Mohamed Bassem
+      id: '10212826240185281'
+    message: ملوحظة على الجنب كدة. لو عايز تجيب الheaders بس فا ممكن تعمل HEAD ريكوست
+      بدل GET. هيتبعتلك الheaders بس و مش هتحتاج تنزل الresponse body كله فا هتوفر
+      وقت و bandwidth.
+    id: '1603978276308541'
+  - created_time: '2017-09-11T07:59:34+0000'
+    from:
+      name: Ahmed Nasr
+      id: '10155318238153927'
+    message: متخليش حد يحبطك، عاجبني صياعتك حاول وقل لنا حصل ايه :D أيا كان اللي هتحققه
+      فهو مبحث يستحق الاهتمام..
+    id: '1603981709641531'
+  - created_time: '2017-09-11T08:41:13+0000'
+    from:
+      name: Mohamed Magdy Elbadrawy
+      id: '10155046611920894'
+    message: الموضوع سهل جدا اشترى bot من اى واحد روسى عليه ١٥ الف جهاز واعمل اسكربت
+      بسيط وشغلو عليهم وهو ده معنى الddos attack
+    id: '1604004282972607'
+  - created_time: '2017-09-11T11:20:53+0000'
+    from:
+      name: Ahmed Soliman
+      id: '10152402728970388'
+    message: "Well, let's break this down to see if we can do this or not:\n- 9M /
+      60 = 150k per second \n- Trying out to get the header of \"https://www.google.co.uk/?gfe_rd=cr&dcr=0&ei=nG-2WZjDGI7SXsu1mLgP\"
+      as an example, the header is ~700 bytes. Latency is 125ms total.\n- To receive
+      responses for the 150k requests in a second, we need max network throughput
+      of ~ 100Mbytes/second; that's easily possible on a server but not on your home
+      connection I suppose (you need a 1Gbit link to the internet)\n- Now, since a
+      single request takes 125ms, 20% of that time is cpu (according to timing the
+      curl command that I tried (time curl -I https://www.google.co.uk/\\?gfe_rd\\=cr\\&dcr\\=0\\&ei\\=nG-2WZjDGI7SXsu1mLgP)
+      We are talking 25ms of CPU core time per request (rough science)\n- This means
+      that we can do 40 requests / second / core of pure CPU time given that we can
+      pipeline all the requests and can get 100% CPU utilisation (very optimistic),
+      \ so, you need a machine with 3750 cores or 1875 if we assume hyper-threading."
+    id: '1604090986297270'
+  - created_time: '2017-09-12T05:11:45+0000'
+    from:
+      name: Osama Gamal
+      id: '10156229200573311'
+    message: Since the problem is network bound, I am not following why you need that
+      many processors for just fetching headers? Can't you split network load between
+      hundred machines with high network bandwidth that make requests back to back
+      without waiting for servers response.  If not, use 1 Intel FPGA with 56Gb/s
+      transceiver :-D
+    id: '1604736092899426'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl3TXpjMU1EQTFOak16TVRNMk16b3hOVEExTURnM05EUXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl3TkRjek5qQTVNamc1T1RReU5qb3hOVEExTVRrek1UQTIZD

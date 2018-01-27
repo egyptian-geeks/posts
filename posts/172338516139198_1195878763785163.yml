@@ -1,0 +1,73 @@
+---
+message: "Linux Based Server Problem\n\nبحاول اعمل step معينه بيجيلى الerror ده \nAllowed
+  memory size of 134217728 bytes exhausted (tried to allocate 31756768 bytes)\n\nمع
+  العلم ان ده dedicated server 14GB RAM\nدخلت PHP.INI\nخليته -1 علشان يسحب الى عاوزه
+  مع العلم انى جربت انى اخليه 12 و 14 جيجا رام \n\nحد عنده فكره ؟؟؟"
+from:
+  name: Mina Malak
+  id: '10155996037437456'
+type: status
+created_time: '2016-08-04T12:39:14+0000'
+updated_time: '2016-08-05T05:47:01+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1195878763785163/
+id: '172338516139198_1195878763785163'
+comments:
+  data:
+  - created_time: '2016-08-04T12:45:58+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: شوف يا باشا، غالبا انت بتعدل في ملف php.ini الغلط بمعنى موش هو الملف
+      اللي المستخدم. لأن الرسالة واضحة بتقولك إن Memory limit بتاعتك 128 ميجا يعني
+      لا هي واحد جيجا ولا حاجة. لازم تعرف مكان ملف الاعدادات اللي بيستخدمه الويب سيرفر
+      علشان تعرفه بص على خرج phpinfo
+    id: '1195885473784492'
+  - created_time: '2016-08-04T12:54:35+0000'
+    from:
+      name: Fares Mehanna
+      id: '1703714063020384'
+    message: |-
+      Don't use -1
+      128MB is the memory allowed for each request for the server and if the request exceeded the limit the request terminate
+      if you have heavy application you should edit it to 256 or even 512
+      but give it unlimited memory is wrong because in that case if you have some bad code, some hacker can use it to take all your memory and crash your system
+      **you my have php memory leak check this : http://stackoverflow.com/questions/16068301/how-to-find-which-php-script-is-leaking-memory
+      http://stackoverflow.com/questions/561066/fatal-error-allowed-memory-size-of-134217728-bytes-exhausted-codeigniter-xml
+    id: '1195891073783932'
+  - created_time: '2016-08-04T13:12:11+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: look you're editing a wrong file. /etc/php5/apache2/php.ini this is the
+      right one. but this is too much memory for one request!
+    id: '1195898523783187'
+  - created_time: '2016-08-04T13:29:30+0000'
+    from:
+      name: Mina Malak
+      id: '10155996037437456'
+    message: not working still same error
+    id: '1195908300448876'
+  - created_time: '2016-08-04T14:35:23+0000'
+    from:
+      name: Morad Edwar
+      id: '10215772499725897'
+    message: |-
+      I saw this problem weeks ago and the cause the system, It's killing the processes ( due to kind of firewall ) so it stays hangs and leaks memory.
+      I hope if that helps you to diagnose your problem.
+    id: '1195950350444671'
+  - created_time: '2016-08-04T15:50:58+0000'
+    from:
+      name: Mina Malak
+      id: '10155996037437456'
+    message: still not working :(
+    id: '1195988627107510'
+  - created_time: '2016-08-05T05:46:58+0000'
+    from:
+      name: Essam Abdelrahman
+      id: '1584827604972265'
+    message: Restart php-fpm
+    id: '1196410020398704'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU1TlRnNE5UUTNNemM0TkRRNU1qb3hORGN3TXpFME56VTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU1TmpReE1EQXlNRE01T0Rjd05Eb3hORGN3TXpjMk1ERTUZD

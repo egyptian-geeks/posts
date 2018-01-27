@@ -1,0 +1,51 @@
+---
+message: |-
+  عندي Ubuntu 16.04 جمب windows 10 فتحت اللاب مرة لقيته جايب grub recovery ومش عايز يعمل boot حاولت معاه وصلحت ال grub ببرنامج boot-repair من live-usb ubuntu بس دلوقتي لما بفتح في ال boot بيجيلي اختيارين windows بس (sda1 / sda2) دورت علي كذا موقع مش لاقي حل برضه, ممكن مساعدة؟
+
+  هو ubuntu موجود وال partitions موجودة لما بفتح من ال disk manager
+from:
+  name: Ahmed Galal
+  id: '321362028376221'
+type: status
+created_time: '2017-09-24T20:31:28+0000'
+updated_time: '2017-09-26T15:32:55+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1615964778443224/
+id: '172338516139198_1615964778443224'
+comments:
+  data:
+  - created_time: '2017-09-24T21:42:20+0000'
+    from:
+      name: Assem Makhyon
+      id: '10214400225536793'
+    message: |-
+      this should help
+      https://www.howtogeek.com/114884/how-to-repair-grub2-when-ubuntu-wont-boot/
+    id: '1616007021772333'
+  - created_time: '2017-09-25T00:33:32+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: This thread should be started on ubuntu stack exchange website or a Linux/Ubuntu
+      group
+    id: '1616095881763447'
+  - created_time: '2017-09-25T01:33:52+0000'
+    from:
+      name: Mustafa Dagher
+      id: '10215560476549083'
+    message: |-
+      those should help u better..
+
+      https://www.facebook.com/groups/ubuntueg/
+    id: '1616127555093613'
+  - created_time: '2017-09-26T15:32:53+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: للاسف يوجد بعض مديرين للمجموعة يتسموا بالعجرفة وعدم تقدير الآخر، وعليه
+      قررت ترك المجموعة. عندما يتم حذف موضوع شارك فيه مديرين للمجموعة تعليقا وآخرين
+      نقاشا، فإن هذا اﻷمر يعد قمة مضيعة الوقت والهزل السخيف.
+    id: '1617360394970329'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl4TmpBd056QXlNVGMzTWpNek16b3hOVEEyTWpnNU16UXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl4TnpNMk1ETTVORGszTURNeU9Ub3hOVEEyTkRNNU9UY3oZD

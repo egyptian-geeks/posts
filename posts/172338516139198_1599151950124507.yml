@@ -1,0 +1,119 @@
+---
+message: |-
+  Why Arch?
+
+  This post is in reply to Mohamed Omar Zaian's request.
+
+  People have been having problems with Ubuntu recently so I proposed Arch as a replacement, but it'll require some changes to your behavior to get a similar experience.
+
+  Arch Linux is a rolling-release distro, that means you'll only ever need to upgrade packages since there are no formal releases.
+
+  That means you'll always have the latest versions of the packages you have installed.
+
+  Most people think this means Arch is less stable, but this isn't true at all, Arch has always been more stable for me than Ubuntu, Fedora or even SuSE ever was.
+
+  At the time of writing this post, I have the 4.12.10 kernel, and GNOME 3.24.2 and I've had no freezes, bugs, or instability with anything so far.
+
+  Another one of the reasons why I use Arch is the package manager, Pacman.
+
+  Pacman runs circles around apt, dnf, zypper or any package manager you've used so far, and it has package signing so you'll always have trusted updates (unless you turn that off, of course).
+
+  Someone might ask: "Okay, but what if the software I want isn't in the official repos?"
+
+  Arch has the AUR (Arch User Repositories) to solve this problem, it's basically a community-maintained repo with recpies to build basically any software you can think of, they're even more comprehensive than Ubuntu's PPAs!
+
+  All this comes at a price, though.
+
+  The price is that you'll have to maintain your own system as Arch gives you very little by default.
+
+  The default installer is CLI based, so if you don't know the shell like the back of your hand, there will be a learning curve involved.
+
+  This is where the Arch docs really shine, I learned almost everything I know about Linux from the Arch Wiki.
+
+  It has a detailed installation guide and a dedicated beginner's guide for people completely new to Arch.
+
+  And in case you can't find a solution for your problem anywhere in the Wiki, you'll find one in the Arch forums.
+
+  Most people usually stay away from learning stuff like system maintenance, but I think all Linux users should learn how their system works.
+
+  This knowledge will come in handy when you come across a problem with your system, I promise.
+
+  And in case you don't want to go through all this hassle to have a stable system, there are Arch-based distributions that give you basically the same experience but with a much lower learning curve, the most popular of those is Manjaro Linux.
+from:
+  name: Mahmoud Hossam
+  id: '1360912124012585'
+type: status
+created_time: '2017-09-05T10:51:24+0000'
+updated_time: '2017-09-05T12:34:24+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1599151950124507/
+id: '172338516139198_1599151950124507'
+reactions:
+  data:
+  - id: '10155802654056014'
+    name: Islam Azab
+    type: LIKE
+  - id: '2760687167500624'
+    name: Mohamed El-Shahawi
+    type: LIKE
+  - id: '1964650613774365'
+    name: Galal Aly
+    type: LIKE
+  - id: '1405843726204537'
+    name: Mohamed Osama
+    type: LIKE
+  - id: '1567617093293742'
+    name: Hady Elzayady
+    type: LIKE
+  - id: '928444520664078'
+    name: Hossam L Dokkani
+    type: LOVE
+  - id: '10155419951367523'
+    name: Ibrahim Sharaf ElDen
+    type: LIKE
+  - id: '10160073977745637'
+    name: Ahmed Aswani
+    type: LIKE
+  - id: '10215482677129679'
+    name: Ahmed Adel Radwan
+    type: LIKE
+  - id: '10156115350739764'
+    name: Mahmoud Tantawy
+    type: LIKE
+  - id: '1812131428831070'
+    name: Ahmed Ateek
+    type: LIKE
+  - id: '10214925485592247'
+    name: Ahmed Kamal
+    type: LIKE
+  - id: '10210440074417898'
+    name: George Moheb
+    type: LOVE
+  - id: '10156131123229595'
+    name: Adam Moneib
+    type: LIKE
+  - id: '2131402737081552'
+    name: Abdelrahman Hamdy
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRVek9UazJNREV6T2pFMU1EUTJORGc0TmpnNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQTJNelUxTXpnMU5ETXhPakUxTURRMk1EZAzNPRFk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-09-05T11:02:21+0000'
+    from:
+      name: Ahmed Kamal
+      id: '10214925485592247'
+    message: هي بتيجي بـديسكتوب Out of the Box  ؟ ، ولا لازم اصطب واحد في الاول ؟
+    id: '1599157646790604'
+  - created_time: '2017-09-05T12:34:22+0000'
+    from:
+      name: Hossam L Dokkani
+      id: '928444520664078'
+    message: Manjaro FTW, it only saves you time installing all/mostly required packages
+      for day-to-day use. But with all the Arch benefits.
+    id: '1599221203450915'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU1T1RFMU56WTBOamM1TURZAd05Eb3hOVEEwTmpBNU16UXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU1T1RJeU1USXdNelExTURreE5Ub3hOVEEwTmpFME9EWXkZD

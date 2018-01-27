@@ -1,0 +1,138 @@
+---
+message: "انا منزل linux و ويندوز \nلما بفتح من ويندوز بيطلعلي الايرور دا \nله حل
+  ولا لازم اغير الويندوز \nو هل حيمسح ال بوت لاني كنت منزل ويندوز الاول ؟"
+link: https://www.facebook.com/photo.php?fbid=816303168529572&set=gm.1583642538342115&type=3
+from:
+  name: Marwan Mohamed
+  id: '894491934044028'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/20842121_816303168529572_2720306026408947792_n.jpg?oh=9300ae8420570adb82249a916e6a5768&oe=5AE1FB24
+created_time: '2017-08-18T23:16:01+0000'
+updated_time: '2017-08-19T17:06:51+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1583642538342115/
+id: '172338516139198_1583642538342115'
+comments:
+  data:
+  - created_time: '2017-08-18T23:28:42+0000'
+    from:
+      name: Ahmed Koraïem
+      id: '10159879865770402'
+    message: صلح البوت لودر من setup الويندوز بعدين حط grub تاني من لينكس live USB
+      علشان ارجع تشوف الاتنين
+    id: '1583648811674821'
+  - created_time: '2017-08-19T00:07:01+0000'
+    from:
+      name: Ahmad Bahaa
+      id: '1985598625095777'
+    message: |-
+      مش محتاج تعيد تنزيل الوندوز.
+      اعمل repair من أي installation او repair disc لنفس نسخة الوندوز بتاعتك.
+      سواء 7 او 8.1 او 10.
+    id: '1583669701672732'
+  - created_time: '2017-08-19T01:30:09+0000'
+    from:
+      name: Fady Morris Milad
+      id: '10160030835075061'
+    message: |-
+      واضح انك عملت مشكلة فى الـ bootloader بتاع الويندوز لما نزلت الـ Linux عليه ، ولو أنى مستصعب أن ده يحصل لأن اللينكس بيعرف يتعامل كويس مع الويندوز لو نزل بعده !
+      بعد ما تنزل اللينكس والـ bootloader  بتاعه اللى اسمه grub انت مش محتاج تعمل أى حاجة تانى غير أنك هاتكتب الأمر ده وتخلى اللينكس يتكشف الويندوز تانى :
+      sudo update-grub
+    id: '1583718698334499'
+  - created_time: '2017-08-19T01:31:25+0000'
+    from:
+      name: Fady Morris Milad
+      id: '10160030835075061'
+    message: |-
+      لو انت بقى ظابط نظام الـ boot الجديد اللى اسمه UEFI يبقى مش هاتحتاج تعمل الكلام ده كله ، كل نظام بينزل بالـ bootloader  بتاعه بشكل مستقل .
+      جرب ولو وقفت معاك حاجة ابعتلى على الخاص
+    id: '1583719278334441'
+  - created_time: '2017-08-19T01:53:36+0000'
+    from:
+      name: M Sameh El Harty
+      id: '10159983801460392'
+    message: |-
+      المفروض الوندوز ميتأثرش. هل وانت بتنزل اللنكس ممكن تكون مسحت بارتيشن بتاع وندوز حجمة حوالى من ٥٠٠ ميجا الى ١ تيرا؟
+
+      لو ده حصل يبقى دور فى اللقطة ديه اعتقد السي دى بتاع وندوز ممكن يظبتها بس مش هيخليك تفتح لينكس. ظبط الوندوز الاول وبعدين من اللايف سى دى بتاع لينكس تعرف ترجع اللينكس تانى.
+
+      ربنا معاك بس متقلقش هتوصل وهتستفيد. خبرة حلوة ليك.
+    id: '1583752211664481'
+  - created_time: '2017-08-19T07:21:14+0000'
+    from:
+      name: Yahia Abo Khalil
+      id: '10215465266843429'
+    message: https://askubuntu.com/questions/88384/how-can-i-repair-grub-how-to-get-ubuntu-back-after-installing-windows
+    id: '1583993108307058'
+  - created_time: '2017-08-19T09:37:32+0000'
+    from:
+      name: Abdul Hamdy
+      id: '10155794996775813'
+    message: "لا يا عسل انت بتفتح البارتشن الغلط او uefi بدل mbr. \nSudo grub-*\nSudo
+      os-prober\nSudo apt-get install boot-repair.. Enjoy the rest of el2a3da.."
+    id: '1584061041633598'
+  - created_time: '2017-08-19T09:43:43+0000'
+    from:
+      name: Ahmed Samir Sherif
+      id: '2051873395049921'
+    message: حصلت معايا مرة بسبب ان الويندوز عمل ابديت البووتلودر اتمسح و مرجعوش..
+      بس حاول الحلول اللي اتقالت يمكن تنفع معاك بس انا جربتها و منفعتش يعني
+    id: '1584064068299962'
+  - created_time: '2017-08-19T10:43:47+0000'
+    from:
+      name: Khaled Ahmed
+      id: '10213395157926698'
+    message: lw enta lesa 3ayez Linux m3 wndows e3ml repair lel  grub laken lw 3ayez
+      teshel linux e3ml repair lel bootloader beta3 el windows
+    id: '1584095641630138'
+  - created_time: '2017-08-19T11:25:09+0000'
+    from:
+      name: Marwan Mohamed
+      id: '894491934044028'
+    message: انا اكيد عايز اللينوكس و انا منزله من سنه و اكتر و كانه شغالين ال ٢ مع
+      بعض عادي بس جيت افتح من ويندوز فاجاه لقيته بيعمل كدا مش عارف ليه
+    id: '1584118838294485'
+  - created_time: '2017-08-19T12:29:44+0000'
+    from:
+      name: Marwan Mohamed
+      id: '894491934044028'
+    message: |-
+      لما عملت sudo update-grub
+      طيرلى الاختيار الاخير اللى كنت بدخل بيه ع ويندوز اصلا
+    id: '1584163018290067'
+  - created_time: '2017-08-19T16:22:53+0000'
+    from:
+      name: Mohamed Fekri
+      id: '10214284437157546'
+    message: "Windows Boot Configuration Data file is missing ???                             \n
+      \                                                                                                                    \nMethod
+      1: Repair the BCD store by using the Startup Repair                      link:
+      \ https://support.microsoft.com/en-us/help/2004518/error-message-when-you-start-windows-7-the-windows-boot-configuration
+      \nMethod 2 : go to shell in boot menu and type:\nchroot / \nmount /dev/sda /grub/boot\nmount
+      /dev/sda2 /win\ninstall grub boot loader again on sda                                                             link:
+      https://askubuntu.com/questions/62440/is-it-possible-to-boot-ubuntu-using-the-windows-bootloader"
+    id: '1584368241602878'
+  - created_time: '2017-08-19T17:06:50+0000'
+    from:
+      name: Abdelrahman Hassan
+      id: '2022833371324486'
+    message: اعمل install grub وبعدين update grub
+    id: '1584402404932795'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU0TXpZAME9EZA3hNVFkzTkRneU1Ub3hOVEF6TURrNE9USXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU0TkRRd01qUXdORGt6TWpjNU5Ub3hOVEF6TVRZAeU5ERXcZD
+attachments:
+  data:
+  - description: "انا منزل linux و ويندوز \nلما بفتح من ويندوز بيطلعلي الايرور دا
+      \nله حل ولا لازم اغير الويندوز \nو هل حيمسح ال بوت لاني كنت منزل ويندوز الاول
+      ؟"
+    media:
+      image:
+        height: 540
+        src: https://scontent.xx.fbcdn.net/v/t1.0-0/p180x540/20842121_816303168529572_2720306026408947792_n.jpg?oh=bb7ac2a2ccd473217df1545e8b4e30e1&oe=5AEA14E5
+        width: 720
+    target:
+      id: '816303168529572'
+      url: https://www.facebook.com/photo.php?fbid=816303168529572&set=gm.1583642538342115&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=816303168529572&set=gm.1583642538342115&type=3

@@ -1,0 +1,113 @@
+---
+message: |-
+  سؤال بعد اذنكم في .net
+  لو انا بصدد انشاء نظام لشركة كبيرة يعتبر erp ليها وشامل أكثر من  module هل لو هشتغل entityframework الأفضل اني أقسم إلى أكثر من  file edmx عشان حجم الملف ميبقاش كبير أو حتى عشان سهولة العمل؟
+   ولا الصح انه يكون ملف only one edmx file لأن كل الكود بيتحول cil في النهاية ومش فارقة؟
+  الكلام ده مع db ممكن تتعدي 200 table مثلا
+from:
+  name: Mohamed Mohamed
+  id: '1352596088179873'
+type: status
+created_time: '2017-06-13T11:35:30+0000'
+updated_time: '2017-06-14T10:35:08+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1514176421955394/
+shares:
+  count: 2
+id: '172338516139198_1514176421955394'
+reactions:
+  data:
+  - id: '940956866058313'
+    name: Hossam Ahmad
+    type: LIKE
+  - id: '10215155574907910'
+    name: Mohamed H. Safey
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTBNekl3TWpRd05qYzBPakUwT1RjME16RTFOelE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRNNE9EUTVPRFU1TURveE5EazNNell3TVRNMk9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2017-06-13T11:44:11+0000'
+    from:
+      name: Hesham Amin
+      id: '1604225349657987'
+    message: "بصرف النظر عن ال performance \nالتقسيم أفضل. لأن المفروض كل جزء من البرنامج
+      يتعامل مع بياناته فقط. و يتعامل مع باقي الأجزاء من خلال \nInterfaces"
+    id: '1514180955288274'
+  - created_time: '2017-06-13T11:44:31+0000'
+    from:
+      name: Ibrahim Hammad
+      id: '10154919620001486'
+    message: "الأفضل بلاش  Edmx اصلا. \nفكر في ال Code First with repository design
+      pattern. \nو لو معملتش أنظمه بهذا الحجم قبل كده اقرأ عن حاجه اسمها Domain Driven
+      Design. It has a great concept called bounded context and many other concepts
+      that will help you"
+    id: '1514181081954928'
+  - created_time: '2017-06-13T11:54:52+0000'
+    from:
+      name: Ashraf Gawdat
+      id: '10154826556046618'
+    message: |-
+      مبدئيا الـ edmx ده اختراع فاشل والـ database first بقى obsolete وده كلام صناع الـ entity framework نفسهم وحتى لما عملوا entity framework core خلوه code first فقط ومفيش edmx فايل تاني
+
+      وكون إن الداتابيز موجودة من الأول عادي .. بيخليك تعمل generate للكود وكأنك كاتبه code first .. يعني الفكرة أصلا مش فكرة الكود موجود الأول ولا الداتابيز الأول .. وعلى حسب كلامهم فتسمية code first و database first دي تسمية جت غلط واضطروا يستمروا فيها .. لأن الصح database modeling ولا code modeling
+
+      وبصراحة أنا نفسي اشوف الإنسان اللي رافض يشتغل code first ده وعامل فيها technical consultant وهو في الحقيقة قراره مبني على جهل .. هو ميعرفش غير database first أصلا وجاهل بالـ code first فهو عايز يريح دماغه ويشتغل باللي يعرفه حتى لو كان غلط وحتى لو كان obsolete أصلا .. أصلي بصراحة عانيت من الناس دول وغايظيني فشخ
+    id: '1514193575287012'
+  - created_time: '2017-06-13T12:24:03+0000'
+    from:
+      name: Haitham Shaddad
+      id: '1591171607636188'
+    message: |-
+      Don't ever use EDMX. Go for Code First. EDMX is deprecated and will not be used any more in future.
+
+      If your business is grouped into modules, then create each module in its own class library (DAL + Business).
+
+      Create a root repository and use it for all other classes using the generic Repository pattern . You can check the implementation here https://haithamshaddad.com/2016/03/15/building-a-lob-application-with-mvc-5-part-3-entityframework/
+    id: '1514216865284683'
+  - created_time: '2017-06-13T13:58:49+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: بعيدا عن الكود والداتابيز انت هتتعلم البزنس واللوجك بتاع ال erp وال accounting
+      بالذات ازاي بحيث انك تعمل حاجة محترمة ومظبوطة كبزنس لوجيك؟
+    id: '1514295881943448'
+  - created_time: '2017-06-13T14:01:47+0000'
+    from:
+      name: Nour Berro
+      id: '1858822624162177'
+    message: اقرأ عن Bounded context
+    id: '1514300038609699'
+  - created_time: '2017-06-13T15:52:35+0000'
+    from:
+      name: Tarek Badr
+      id: '546598029039266'
+    message: اعمل لكل module ابلكيشن كامل منفصل
+    id: '1514399615266408'
+  - created_time: '2017-06-13T16:11:19+0000'
+    from:
+      name: Islam R Hefny
+      id: '10155747348649733'
+    message: Ezzat Allam هيا الرجاله هنا بتكلم في حاجه تانيه و لا ايه :D
+    id: '1514414698598233'
+  - created_time: '2017-06-13T16:13:46+0000'
+    from:
+      name: Nabiel Kmal
+      id: '913852418772611'
+    message: Code first approach is cleaner & maintainable and btw  MSFT discontinued
+      generating edmx modules in vs 2017 , also you can use code first with an existing
+      database without any problems , and the modularity you've asked about , it's
+      better to divide your db models into a groups of sets according to the database'
+      schema design
+    id: '1514416145264755'
+  - created_time: '2017-06-13T22:00:12+0000'
+    from:
+      name: Osama Nour
+      id: '1665988986754750'
+    message: Mahmoud Slouma
+    id: '1514699475236422'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV4TkRFNE1EazFOVEk0T0RJM05Eb3hORGszTXpVME1qVXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV4TkRZANU9UUTNOVEl6TmpReU1qb3hORGszTXpreE1qRXkZD

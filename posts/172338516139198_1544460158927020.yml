@@ -1,0 +1,350 @@
+---
+message: "Click \"Continue Reading\" to see full post and the article content if medium
+  is blocked \nدا مقال كتبته عن تجربي في اخر شركة كنت فيها , لو حد حابب يتقرح حاجه
+  او يناقشني في حاجه او يعلق علي حاجه او ينصحني بحاجه او tool او كدا \nياريت\n\nعلشان
+  medium مقفول وكدا \n\nTwo and half years ago, on my journey to find a customer obsessed
+  company that partially follow the Amazon leadership way, I’ve joined Edfa3ly, it’s
+  a startup located in middle east give the middle east shoppers access to us/UK/Fr
+  exclusive items using local payment gateways, my original arrangement was to help
+  in the management of the team with no solid role definition and I was fine with
+  this.\nBefore that, I never joined a company that has internal operations, logistics,
+  customer supports, warehousing, and returns. I believe that in order to understand
+  most of the business cases better you need to involve in the code base and deal
+  with the cases within, so I just started as backend PHP developer.\nEverything was
+  great for me. The high-level management was very obsessed with customers, their
+  needs, problems, constantly shipping new features to reduce customer complaints,
+  fix problems, having an adaptive business plan according to market changes and always
+  open to hear and learn new business models from others and even competitors. When
+  someone makes a mistake, they act in a calm way to recover and how to prevent it
+  from happening in the future with no pointing finger. \nI like new tools and cools
+  third-party services, but I love to feel and see the value of what I’m doing and
+  how it touches the business and customers. That’s why I loved working there.\nNine
+  months later, the company was in a scaling up race, my work with other team members
+  was paying off and orders were flying everywhere and the CTO was overwhelmed. I
+  jumped into the Team Lead position trying to fulfill that position and to be honest,
+  it was devastating for me.\n1- The higher management used to ask for simple changes
+  and wait for even a month for them. I used to receive too many requests from different
+  people, management, marketing, warehouses, domestic delivery, international shipping,
+  customer service and of course the complains about “This is not working” and I had
+  such little experience in how to manage this, I was only acting according to the
+  most pressing person to get them off my back.\n2- Everyone in the team was working
+  very hard, always under pressure. For long days no one saw me even smiling for once.
+  Everybody knew the stress I was in.\n3- Tracking tasks, deadlines even the overall
+  output was a complete mess. We used to use JIRA but we were doing it wrong and ended
+  up spending too much time in JIRA so we tried something else. We tried a couple
+  of tools such as Trello, Waffle.io, Evernote, and even Excel but nothing worked
+  for us, some of them were too simple like Excel sheets and Evernote, others did
+  not fit without big backlog and tasks or maybe we did not use it efficiently that
+  time.\n4- The codebase was going south: The codebase was built using Symfony2 which
+  was outdated. Reviews of PRs were mostly done (If done) based on personal preferences,
+  for how should code be structured, not based on general rules that the team agreed
+  on. No tests were written to maintain the project integrity. No matter how much
+  time we spent on the code reviews, we always find severe bugs, sometimes even from
+  customer reporting.\n5- Pure money losses because of bugs. I used to see bugs everywhere
+  in almost every single feature we release. During the disaster recovery, I had to
+  report how much was the losses and for someone who loves to see the value of his
+  work, this was stressing. Although no one ever blamed me for this kind of issues,
+  I felt responsible already.\n6- I was always overloaded, having my laptop on my
+  back all the time, I sometimes even worked for 20 hours a day and sometimes during
+  weekends. I was doing all kind of stuff you can imagine doing some urgent stuff
+  after waiting in our queue for 3 months to get them off my back, fix a problem,
+  bring up some down service, review some delayed PRs.\nIn that time I was preparing
+  for my marriage too and got two weeks off. In the second week, I got a call about
+  some big problem that I had to go to the office. For a whole year, my wife could
+  not bear to hear the name of anyone from the company and we had lots of fights in
+  that time. She had every right to do so, It was a hard time for us.\n7- I was the
+  single point of failure of the team that most of the time failed due to the high
+  pressure of so many todos, I’m the only one who knows everything, I was the only
+  one who can deploy, I was the only one who builds the todo list, collect problems,
+  feedbacks, even I was the one who delivers the tasks for the operations make sure
+  they are fine and ok. Simply that was the path of the ones before me in that position
+  that I followed without thinking.\n8- One of the most important team members left.
+  I also wanted to leave to save my marriage, my life and Egypt was not (and still)
+  politically and economically unstable, my salary value (GDP speaking) decreased
+  dramatically and it continued to decrease and I was very worried about my family
+  future.\nI loved Edfa3ly, the Co-founders trusted me and gave me almost full power
+  to take the required actions for the good of the company where and when I saw fit.
+  All of this was my choice.\nI hate losing. I wanted to fix all of these problems,
+  I felt it was my responsibility towards my team and the company to do something,
+  maybe it was not my job do everything, but I wanted to do my best to fix everything\nDuring
+  this time two things dramatically changed my thinking. one of them was the “The
+  goal”, it made me realize that I need to know my real problem first and by a problem,
+  I don’t mean the pressure from the people and problems but I need to know why and
+  how the root of the happened in the first place.\nThe other one was a friend talked
+  to me about roles in each team and this made me realize that we need to define roles
+  for the people who will solve the defined problem. That I can not do everything
+  alone, not even If was a superhero, I needed a team to help me with defined roles.\nMy
+  first and most important priority was the team but I could not hire more people
+  at that time, new hiring requires lot of work and time to be effective team member
+  so losing the team means the end, I started to do two things: Smile, over-communicate\nI
+  started smiling and dealing with them as friends more than team members, making
+  individual one to one weekly meetings to listen to them and them weekly sprint meetings.\nI
+  was over communicating with the team, giving them the top priority on our to-do
+  list always, telling them the problems we were in, step by step, consulting them,
+  asking them for help and for ideas\nKnowledge sharing problem: In our weekly meeting
+  I started to share all the knowledge I could, explain every task in technical details
+  and business details and its impacts no matter how long it took me to explain, how
+  this will relate to other parts of the system, assigning one team member to single
+  task, and another team (one or two) member will review and test that task, and give
+  them access to deploy to production, I was scared at this point but I wanted to
+  trust them to depend on them even more\nProgress tracking: We (the team) agreed
+  that we need a tool with specific criteria: tracking everything, the to-dos in-progress,
+  and done and in the same time to have specific to-do in our week so that next week
+  we can evaluate our performance, We could not resist getting back to adorable Jira\nThe
+  scattered and divided requirements: I have classified the company pleaseCanYouDoThis
+  tasks into three categories, \n1- the higher management requirements\n2- rest of
+  the company \n3- Reported issues ad bugs\nSince the first part required lots of
+  debating, asking for details (and knowing the rest of the system and business) discussing
+  how this will impact the business and various departments of the company, financial,
+  operations, customer service, .. I took over some of this part\nand second point,
+  We have agreed (the team) to reduce communications with the everyone to just emails
+  rather than face to face communications and to have a PO/PM a weekly rotating role
+  between all team members with his only task is building the sprint with me before
+  the weekly sprint meeting by collecting and understanding the requirements that
+  I gave him and the ones he gather from rest of the company and deicing with me which
+  has the higher priority and based on what\nAs for the third point, we created a
+  daily rotating role called ‘Technical support’ that his only priority was to take
+  of reported issues based on his its classification according to the rules we have
+  added\nThe technical debt: we started prioritizing parts that need testing and started
+  writing behavioral tests as a start and unit tests :)\nStep by step I started to
+  limit my role in the company to just recommend, observe, advise, hiring the missing
+  roles and more team members, check the overall progress and giving more space and
+  more access to other team members and more visibility and in the same times shielding
+  them from outside conflicts that may occur.\nFinally, after months we started to
+  make promises we can keep, less and less devastating bugs, more and more experience
+  to the team technical and business-wise and pushed value to the customers and operations
+  in a few months more than we pushed in a whole year.\n8 months later, I started
+  to sleep normally sometimes 10 hours a day, go on vacations in places where no mobile
+  signal can reach me. being more lazy :), and in the 9th month I’ve left the company
+  and moved to Berlin with no regret or fear that things will fall apart and that
+  the team will not hate me or the company one day."
+link: https://medium.com/@ahmed_araby/a-tale-by-previous-sleepless-tech-team-leader-in-a-startup-3a816b4cfecc
+from:
+  name: Ahmed M. Araby
+  id: '10155547863649263'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQDRUXYmJchXbVFV&w=130&h=130&url=https%3A%2F%2Fcdn-images-1.medium.com%2Fmax%2F1200%2F1%2AcdpRmaz7V7HZZ7Y_QxVU5Q.jpeg&cfs=1&_nc_hash=AQDzAmRDpfaBhpgi
+created_time: '2017-07-11T19:35:08+0000'
+updated_time: '2017-07-13T09:26:58+0000'
+name: A tale by former sleepless tech team leader in a startup
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1544460158927020/
+shares:
+  count: 1
+id: '172338516139198_1544460158927020'
+reactions:
+  data:
+  - id: '442714802813794'
+    name: Mohamed Salah
+    type: LOVE
+  - id: '10155105885806825'
+    name: Antonio Samy
+    type: LIKE
+  - id: '10156034147089134'
+    name: Haytham Gharabawy
+    type: LOVE
+  - id: '10156077256184116'
+    name: Mustafa Gamal
+    type: LIKE
+  - id: '1163064820496983'
+    name: Ahmed Ayman Aladeeb
+    type: LOVE
+  - id: '10154904189965670'
+    name: Ahmad Alfy
+    type: LIKE
+  - id: '1809581442395089'
+    name: Mohamed Amin
+    type: LOVE
+  - id: '10208377163265082'
+    name: Mo'az Mohsen
+    type: LIKE
+  - id: '1561022257326859'
+    name: احمد قرواش
+    type: LOVE
+  - id: '1849442088422029'
+    name: Soliman Abaza
+    type: LIKE
+  - id: '1722658717785442'
+    name: Abd El Rhaman Ezzat
+    type: LOVE
+  - id: '10156115350739764'
+    name: Mahmoud Tantawy
+    type: LIKE
+  - id: '10156575248820931'
+    name: Omar Afifi
+    type: LIKE
+  - id: '1676108972474712'
+    name: Ahmed Ezzat Salama
+    type: LIKE
+  - id: '1759190194099593'
+    name: Mohamed Abo Bdwey
+    type: LIKE
+  - id: '10204285467013161'
+    name: Ali Hassan
+    type: LIKE
+  - id: '10212961449483338'
+    name: Mahmoud Fawzy
+    type: LIKE
+  - id: '10155756260535932'
+    name: Mouneer Rabie
+    type: LIKE
+  - id: '10215882503483904'
+    name: Yosra Hamed
+    type: LIKE
+  - id: '10156761400607289'
+    name: Ibrahim Gamal
+    type: LOVE
+  - id: '10155114629021466'
+    name: Professor Mina
+    type: LIKE
+  - id: '10155441399893250'
+    name: Ahmad Mayo
+    type: LIKE
+  - id: '10214861141222529'
+    name: Abdelrady Fcis
+    type: LIKE
+  - id: '10156180657834268'
+    name: Ahmad M. Haider
+    type: LOVE
+  - id: '10215057553296111'
+    name: Ahmed Atef
+    type: LIKE
+  - id: '1174265536041152'
+    name: Mohamed El Zarei
+    type: LIKE
+  - id: '2089769777911117'
+    name: Ahmed Shaaban Mohamed
+    type: LIKE
+  - id: '1976373499069350'
+    name: Ahmed Bassell
+    type: LIKE
+  - id: '10213324450719983'
+    name: Ahmed Samir
+    type: LIKE
+  - id: '10159908658495298'
+    name: Medhat EL-Qadi
+    type: LIKE
+  - id: '10213805407262542'
+    name: Ahmed Nagy
+    type: LIKE
+  - id: '1544104592377915'
+    name: Mohamed Naser Amein
+    type: LIKE
+  - id: '10215378311190432'
+    name: Saaid Elhakeem
+    type: LOVE
+  paging:
+    cursors:
+      before: TVRBd01ERXlNalU0TXpRNE9UQXhPakUwT1RrNU16YzVNelU2TnpnNE5qUTRNRE0zT1RFek16RXkZD
+      after: TVRJeE5qRXpOREUxT1RveE5EazVPREF5TURFMU9qYzRPRFkwT0RBek56a3hNek14TWc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-07-11T19:36:36+0000'
+    from:
+      name: Mohamed Fergany
+      id: '10215339863195300'
+    message: |-
+      يعني انت علشان ربنا كرمك وخرجت بره البلد دي منزل المقال علي ميدام علشان تذلنا مثلا  :D  ؟ دا انت كان فاضلك تكه وتفكر تنزلها علي بلوج الجزيرة :D
+      بين قيوسين ميديام معموله بلوك في مصر .
+    id: '1544461248926911'
+  - created_time: '2017-07-11T19:53:55+0000'
+    from:
+      name: Mohamed Ashraf
+      id: '10155906116946287'
+    message: Done feen :)
+    id: '1544472715592431'
+  - created_time: '2017-07-11T19:55:23+0000'
+    from:
+      name: Ahmed M. Araby
+      id: '10155547863649263'
+    message: Its in the post iself :D
+    id: '1544473568925679'
+  - created_time: '2017-07-11T20:01:28+0000'
+    from:
+      name: Ahmed Nabil Mohamed
+      id: '10155804554618673'
+    message: ميديام رجع اشتغل تانى
+    id: '1544488928924143'
+  - created_time: '2017-07-11T20:35:25+0000'
+    from:
+      name: Mohamed Hamed
+      id: '10210764976026062'
+    message: Ahmed Farag Mohamed Mostafa
+    id: '1544515765588126'
+  - created_time: '2017-07-11T20:36:11+0000'
+    from:
+      name: Mohamed Hamed
+      id: '10210764976026062'
+    message: Muhammad Awad
+    id: '1544516225588080'
+  - created_time: '2017-07-11T20:43:51+0000'
+    from:
+      name: Mohamed Amin
+      id: '1809581442395089'
+    message: "M Sameh El Harty you must read this one , please ahmed is speaking about
+      you as i think \U0001F602\U0001F602\U0001F602"
+    id: '1544521572254212'
+  - created_time: '2017-07-12T02:58:49+0000'
+    from:
+      name: Sherif Adel Medhat
+      id: '10156187700081392'
+    message: Dude, i enjoyed reading this, thank you
+    id: '1544810045558698'
+  - created_time: '2017-07-12T03:32:00+0000'
+    from:
+      name: Ahmed Salah
+      id: '326700584509671'
+    message: |-
+      تحس ان مرحلة البهدلة ديه كاس وداير، لازم كتير يشرب منه الأول وبعدين يتعلم ازاي ينظم الدنيا بشكل أفضل
+      بس بصراحة تسلسل الكتابة حلو .. بالتوفيق :)
+    id: '1544832325556470'
+  - created_time: '2017-07-12T08:47:05+0000'
+    from:
+      name: احمد قرواش
+      id: '1561022257326859'
+    message: مستقبل مشرق بأذن الله :) شكرا لمشاركتك
+    id: '1545014828871553'
+  - created_time: '2017-07-12T12:11:59+0000'
+    from:
+      name: M Sameh El Harty
+      id: '10159983801460392'
+    message: Ahmed M. Araby I enjoyed reading every single line of this article, I
+      love it. Thank you for providing a good example to the young generation. Good
+      luck in Berlin, and be proud of yourself :)
+    id: '1545138678859168'
+  - created_time: '2017-07-12T12:54:07+0000'
+    from:
+      name: Ahmed Ayman Aladeeb
+      id: '1163064820496983'
+    message: "جميلة جداً التجربة، شكراً إنك شاركتنا حاجة زي كدة \U0001F603 طلب صغير
+      بس، إنك تكتب article زي دي خدت منك قد ايه؟ حاولت اكتب حاجة زي كدة in English
+      بس لقيت نفسي ضايع لما بحكي حاجة كبيرة وملّيت من المراجعة والتصليح! \U0001F602"
+    id: '1545166578856378'
+  - created_time: '2017-07-13T09:26:56+0000'
+    from:
+      name: Mohamed Salah
+      id: '442714802813794'
+    message: |-
+      Ahmed اللى أنت عملته ده مش مجرد الصعود من تحت ثقل كبير, أنت صعدت و رقصة زى الفودويست و الشامان, رقصة الكون :)
+
+      مبروك عليك ال PR الجديد :)
+
+      PS: PR stands for 'Personal Record' :)
+    id: '1545958278777208'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUwTkRRMk1USTBPRGt5TmpreE1Ub3hORGs1T0RBeE56azMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUwTlRrMU9ESTNPRGMzTnpJd09Eb3hORGs1T1RNNE1ERTIZD
+attachments:
+  data:
+  - description: Two and half years ago, on my journey to find a customer obsessed
+      company that partially follow the Amazon leadership way, I’ve joined…
+    media:
+      image:
+        height: 535
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQClJqaThmHh3ugm&w=720&h=720&url=https%3A%2F%2Fcdn-images-1.medium.com%2Fmax%2F1200%2F1%2AcdpRmaz7V7HZZ7Y_QxVU5Q.jpeg&cfs=1&_nc_hash=AQDvzRxol9Ranrsr
+        width: 535
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fmedium.com%2F%40ahmed_araby%2Fa-tale-by-previous-sleepless-tech-team-leader-in-a-startup-3a816b4cfecc&h=ATNkHiF9NWldxgQ70dM6UmLLDHnSXdiwhF1MLRSQZuELX2WLgJ_okuzd9SVHf95cWz1UiMY7ZEcwPqT-qSSm3ZdNhi0qbmeyo4na&s=1&enc=AZMS-QHQvBfzEmqoHUnW_oL5ZbOJtYyhAvmCcsaONPbe7k306jPWbd6_zAH27DHqLppmsQ_x-YTEEw6CuWq0k10s
+    title: A tale by former sleepless tech team leader in a startup
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fmedium.com%2F%40ahmed_araby%2Fa-tale-by-previous-sleepless-tech-team-leader-in-a-startup-3a816b4cfecc&h=ATNkHiF9NWldxgQ70dM6UmLLDHnSXdiwhF1MLRSQZuELX2WLgJ_okuzd9SVHf95cWz1UiMY7ZEcwPqT-qSSm3ZdNhi0qbmeyo4na&s=1&enc=AZMS-QHQvBfzEmqoHUnW_oL5ZbOJtYyhAvmCcsaONPbe7k306jPWbd6_zAH27DHqLppmsQ_x-YTEEw6CuWq0k10s

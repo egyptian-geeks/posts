@@ -1,0 +1,102 @@
+---
+message: |-
+  Hello all
+  if you are using hipchat or slack this might be interesting
+
+  I have spent sometime to build and customize an instance of github's Hubot https://hubot.github.com/ . Hubot is a nodejs application that has various set of coffee scripts developed by the open source community that adds both fun and business oriented feature set to the Bot just by typing a keyword into hipchat (like a command).
+
+  I named the instance Jarvis (if you watched iron man you will get it :) ) and I hosted it on heroku and integrated it with hipchat which we use in my company and works like a charm (you can change the adapter from hipchat to slack)
+
+  Jarvis can make reminders, add trello cards in the order list for the food ordering search at google or just learn all sort of stuff from normal question answers to HR policies and vacation days
+
+  Just type @jarvis help and it will display a list of all the stuff he can do
+
+  Type (@jarvis learn x=y) and Jarvis will learn it as it have a postgres DB for data persistence. Ask him for what he learned just type (@jarvis tell x) and it will type y
+
+  Or just type (@jarvis talk) for an open chat with the minimized Jarvis AI engine and when you are finished type (@jarvis stop talking) to return to the normal commands triggered Jarvis
+
+  Jarvis code is on this public repository on github https://github.com/ahmed-yousry-ebrahim/jarvis and hosted at heroku so you are more than welcome to explore its code base or even to contribute writing a coffee script to make some interesting new thing and share it with all of us
+link: https://github.com/ahmed-yousry-ebrahim/jarvis
+from:
+  name: Ahmed Yousry Ebrahim
+  id: '10155690780307481'
+type: link
+created_time: '2015-10-10T17:22:19+0000'
+updated_time: '2015-10-10T22:49:50+0000'
+name: ahmed-yousry-ebrahim/jarvis
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1017933718246336/
+id: '172338516139198_1017933718246336'
+reactions:
+  data:
+  - id: '1555752981144826'
+    name: Essam A. Hassan
+    type: LIKE
+  - id: '895970407247426'
+    name: Ahmad Magdy
+    type: LIKE
+  - id: '627907956'
+    name: Emad Elsaid
+    type: LIKE
+  - id: '1923113658002033'
+    name: Ahmad Tolba
+    type: LIKE
+  - id: '1847418645293500'
+    name: Osama Al-Agha
+    type: LIKE
+  - id: '10156358805885288'
+    name: Mahmoud Abd El-Fattah
+    type: LIKE
+  - id: '10155819655346066'
+    name: Shady M. Najib
+    type: LIKE
+  - id: '10156115350739764'
+    name: Mahmoud Tantawy
+    type: LIKE
+  - id: '1604652206289988'
+    name: Salma Abdelhady
+    type: LIKE
+  - id: '10155726948921273'
+    name: Diaa Mohamed Kasem
+    type: LIKE
+  - id: '10155855157936047'
+    name: Mosab Ibrahim
+    type: LIKE
+  - id: '10155970088481341'
+    name: Mohammad Tayseer
+    type: LIKE
+  - id: '10155755444625845'
+    name: Mohammad Fouad
+    type: LIKE
+  - id: '1763959737010749'
+    name: Ahmed Mahmoud
+    type: LIKE
+  - id: '10156083919157661'
+    name: Osama Ahmed Attia
+    type: LIKE
+  - id: '10214384757360026'
+    name: Saif Youssef
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhNekEwTVRZAM05EazRPakUwTkRRMk5UQTNNRGs2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRRMU1EWTVOakV6T0RveE5EUTBORGs0TmprM09qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2015-10-10T22:49:50+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: I appreciate that you took the time to write an introduction (Y)
+    id: '1018035188236189'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF4T0RBek5URTRPREl6TmpFNE9Ub3hORFEwTlRFM016a3cZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF4T0RBek5URTRPREl6TmpFNE9Ub3hORFEwTlRFM016a3cZD
+attachments:
+  data:
+  - description: Contribute to jarvis development by creating an account on GitHub.
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Fahmed-yousry-ebrahim%2Fjarvis&h=ATMt5zaSyZjIGlSuYYQo6a9453YjWxcIeW-4R6OgjOIZsDElqY8iz7c0vAmBpI7SX_iQHXttviUCu-RAy-sxBgKxUpTAWpDBGWpE&s=1&enc=AZORvQe3dun2FC56xg9iMKcQEpehjCEZBjvkTCCU1ufqby5gWVwrDroEfyslDbdBm9rPJ3HyV_1lzOPntMvoAHFN
+    title: ahmed-yousry-ebrahim/jarvis
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Fahmed-yousry-ebrahim%2Fjarvis&h=ATMt5zaSyZjIGlSuYYQo6a9453YjWxcIeW-4R6OgjOIZsDElqY8iz7c0vAmBpI7SX_iQHXttviUCu-RAy-sxBgKxUpTAWpDBGWpE&s=1&enc=AZORvQe3dun2FC56xg9iMKcQEpehjCEZBjvkTCCU1ufqby5gWVwrDroEfyslDbdBm9rPJ3HyV_1lzOPntMvoAHFN

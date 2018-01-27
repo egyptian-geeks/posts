@@ -1,0 +1,52 @@
+---
+message: "Slam All , \n\nI have a question for Java developers : \n\nCan spring boot
+  and Angular 2 build big huge project without technical long term issues ? \n\nAnd
+  what are the common problems that may facing that kind of project with these technologies
+  ( if any ) ?"
+from:
+  name: Mohamed Sweelam
+  id: '1987222834640127'
+type: status
+created_time: '2017-04-21T06:23:32+0000'
+updated_time: '2017-04-21T07:25:22+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1460598867313150/
+id: '172338516139198_1460598867313150'
+reactions:
+  data:
+  - id: '10155851190247324'
+    name: Mohamed Ghareeb
+    type: LIKE
+  paging:
+    cursors:
+      before: Tmpnd05EVXlNekl6T2pFME9USTNOamN6TWpJNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: Tmpnd05EVXlNekl6T2pFME9USTNOamN6TWpJNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-04-21T07:21:54+0000'
+    from:
+      name: Ahmed Gamal
+      id: '1944835295781512'
+    message: "The logical answer will be \"it's up to your project scale and business
+      requirements \" .\ntechnologies you mentioned are widely used. \nI think they
+      have all aspects you should be concerned about . Usage Context : they are popular
+      with a solid communities for support and ready implemented components for integration
+      ( you are not forced to build everything from scratch) and learning curve will
+      be high here .\nDesign pattern: you can follow mvc pattern easily using these
+      frameworks for easy maintenance and scalable project.\nLicense: both are open
+      source \U0001F4AA.\n\nThey are many other factors to choose your frameworks
+      you can check it here \nhttps://code.tutsplus.com/tutorials/15-important-considerations-for-choosing-a-web-dev-framework--net-8035\n\nFrom
+      my perspective is just to keep the angular js 2 for the front end layer , replace
+      the spring boot with normal JEE micro services . \nActually spring boot support
+      micro services but i like the standard JEE more easy and lightweight. \nHowever
+      spring boot will provide a lot of ready for using components for security (
+      authorization,..) but you can also use other open source solutions like keycloak
+      for security . \nLast thing to mention here that you need to focus also on the
+      project architecture ( which dbms to use , app server , using multiple clusters
+      for servers and db , ...) \nThe process to get the feature from development
+      to production . \nBecause not only the framework affect the project performance
+      and productivity. \n\nRbna m3ak :D"
+    id: '1460632510643119'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEyTURZAek1qVXhNRFkwTXpFeE9Ub3hORGt5TnpVNU16RTUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEyTURZAek1qVXhNRFkwTXpFeE9Ub3hORGt5TnpVNU16RTUZD

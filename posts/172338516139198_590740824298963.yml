@@ -1,0 +1,27 @@
+---
+message: |-
+  Simple Example for SQL Loops:
+  --------------------------------------
+  USE BlueSystem
+
+  DECLARE @ROW_VALUE INT --الإعلان عن متغير من نوع عدد صحيح
+  DECLARE @ROW_MAX_VALUE INT --الإعلان عن متغير من نوع عدد صحيح
+
+  SET @ROW_VALUE = 0 --إعطاء قيمة صفر للمتغير
+  SET @ROW_MAX_VALUE = (SELECT MAX(tblCategories.catID) FROM tblCategories) --إعطاء المتغير أكبر قيمة في حقل رقم المجموعة
+
+  WHILE (@ROW_VALUE <= @ROW_MAX_VALUE) --بداية حلقة تتوقف حينما تتساوى قيمة المتغير الأول بالمتغير الثاني ألا وهي أخر أو أكبر قيمة موجودة في حقل رقم المجموعة
+  BEGIN
+  SET @ROW_VALUE = (SELECT TOP 1 tblCategories.catID FROM tblCategories WHERE tblCategories.catID > @ROW_VALUE ORDER BY tblCategories.catID) --إعطاء قيمة رقم المجموعة التي قيمتها أكبر من قيمة المتغير الحالية
+  PRINT @ROW_VALUE --طباعة نتيجة المتغير على الشاشة
+  END
+
+  ---Best Wishes, Omar Negm
+from:
+  name: Omar Negm
+  id: '1655425661170220'
+type: status
+created_time: '2013-07-09T02:38:16+0000'
+updated_time: '2013-07-09T02:38:16+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/590740824298963/
+id: '172338516139198_590740824298963'

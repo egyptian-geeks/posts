@@ -1,0 +1,161 @@
+---
+message: "واحد صاحبي عامل ابلكيشن طبي مدفوع علي جوجل \nو عاوز يعرف ازاي اعرف ان كان
+  الapk المتسطب ده نازل من متجر جوجل سواء بعملية شراء او لأ ولا نازل من النت بشكل
+  غير قانوني \nلان فيه مواقع و ناس بتشتري النسخة المدفوعة و تنزلها و تعيد رفعها علي
+  مواقعهم تاني و يعمل ريفيند مثلا \nايه تجاربكم العملية في الموضوع ده ؟"
+from:
+  name: Anas Emad
+  id: '10155138037322478'
+type: status
+created_time: '2016-12-31T12:34:50+0000'
+updated_time: '2017-01-04T21:05:38+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1341935205846184/
+id: '172338516139198_1341935205846184'
+reactions:
+  data:
+  - id: '1772542006152666'
+    name: Mohamed AbuIssa
+    type: LIKE
+  - id: '545884762441584'
+    name: Ahmad Tawila
+    type: LIKE
+  - id: '10154923028290566'
+    name: Iman Ahmed Hussin
+    type: LIKE
+  - id: '1963622213652553'
+    name: Ahmed ElRefaey
+    type: LIKE
+  - id: '10156575426331336'
+    name: Amr Ali Tealeb
+    type: LIKE
+  - id: '1313213498780879'
+    name: Amr Mamdouh
+    type: LIKE
+  - id: '2096764887006623'
+    name: Abdalla Elnaggar
+    type: LIKE
+  - id: '1874116492598420'
+    name: Muhammed Muhammed Bassem
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhPVEEyTlRBNU16RXlPakUwT0RNek5qVXdOemM2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXdNREF5TmpJME5qVTRPakUwT0RNeE9EYzRNVFk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-12-31T12:36:28+0000'
+    from:
+      name: Amr Ragab
+      id: '2044056615841775'
+    message: |-
+      معنديش خبرة ف الموضوع بس عندي فكرة
+      إنه ممكن يعمل الأكاونت هو اللي بفلوس مش الأبليكشن
+    id: '1341936092512762'
+  - created_time: '2016-12-31T12:42:08+0000'
+    from:
+      name: Ibrahim AbdelFattah Mohamed
+      id: '10156694787289041'
+    message: Google analytics shows how many devices which can be compared to play
+      store's number of installs..or create a backend endpoint to be called with first
+      application run and compare number to play store installations number..
+    id: '1341938805845824'
+  - created_time: '2016-12-31T12:43:32+0000'
+    from:
+      name: Mohamed Fergany
+      id: '10215339863195300'
+    message: "انا ممكن افتي بس مجربتش\n\nكل عملية شراء بيكون ليها رقم . الرقم دا يخزنه
+      علي السيرفر برقم الديفايس او الماك ادريس بتاعه . او اي حاجة يونيك للموبايل .
+      \nوبعد كدا لما يفتح الابلكيشن يتشك علي الحاجات دي . لقي الارقام مظبوطه زي بعض
+      يكمل \nملقاش يبقي دا سارقه ."
+    id: '1341939525845752'
+  - created_time: '2016-12-31T12:50:35+0000'
+    from:
+      name: Hassan Ibraheem
+      id: '10157236848478228'
+    message: |-
+      I believe this is what he should use: https://developer.android.com/google/play/licensing/index.html
+
+      That's all I know though. Haven't used this API before.
+    id: '1341944939178544'
+  - created_time: '2016-12-31T12:58:49+0000'
+    from:
+      name: Muhammad El-Hennawy
+      id: '10213118809797201'
+    message: My suggestion is to build the back-end points of such application with
+      strong authentication. Which mean only registered clients can make queries to
+      function their installed app. That is way, even though some choose to republish
+      the app without pay royalties to the developer, it won't work.
+    id: '1341951985844506'
+  - created_time: '2016-12-31T13:01:21+0000'
+    from:
+      name: Muhammad El-Hennawy
+      id: '10213118809797201'
+    message: Every authenticated client should have a valid and unique authentication
+      hash key/token that is only valid for his installed device. That is mean such
+      app will need to access to the unique info that can define such device then
+      use it to generate such unique hash key or token.
+    id: '1341956242510747'
+  - created_time: '2016-12-31T13:09:20+0000'
+    from:
+      name: Ahmad Ahmad
+      id: '2037041826574789'
+    message: حسب علمي لو الapp كله offline يبقا مش هيعرف يحميه لو نزل مسروق على موقع
+      تاني
+    id: '1341971509175887'
+  - created_time: '2016-12-31T13:24:23+0000'
+    from:
+      name: Mohab El-Shishtawy
+      id: '10215847428638318'
+    message: Change the business model to in app purchase with registered account
+      on your server
+    id: '1341985592507812'
+  - created_time: '2016-12-31T14:30:02+0000'
+    from:
+      name: Ahmed Elshahawi
+      id: '10208686110150338'
+    message: |-
+      Use
+      https://developer.android.com/google/play/licensing/index.html
+
+      Then you can verify the user has paid for your product using his "Google Email Account"
+      No server side required.
+    id: '1342031792503192'
+  - created_time: '2017-01-01T04:02:14+0000'
+    from:
+      name: MH Hosni
+      id: '2020279398187397'
+    message: انا كنت عامل الكلام ده قبل كده فى تطبيق مدفوع فى بداية التطبيق بتاكد
+      فعلا اذا  كان نازل من على جوجل بلاى ولا لا هو ممكن يعمل كده برده     http://stackoverflow.com/questions/15348671/detect-if-an-android-app-was-downloaded-from-google-play-vs-amazon-vs-other
+    id: '1342610149112023'
+  - created_time: '2017-01-01T04:25:07+0000'
+    from:
+      name: Omar Hassan
+      id: '10156054633057370'
+    message: هو ممكن يخلي التطبيق ببلاش ويحط فيه IAP,  دي أفضل ويقدر يشيك إذا كان
+      الشخص شاري ولا لا
+    id: '1342624492443922'
+  - created_time: '2017-01-01T21:23:27+0000'
+    from:
+      name: George Leon
+      id: '10156058891705747'
+    message: using license API, you can make the app close if it wasn't downloaded
+      from google store, Andrew , can you give more details?
+    id: '1343288829044155'
+  - created_time: '2017-01-02T12:14:08+0000'
+    from:
+      name: Andrew E Nakhla
+      id: '10159924796460123'
+    message: "فى حلين \nاولا licence API زى ما George Leon قال بس هو محتاج اجرئات
+      كويلة شوية\nثانيا تقدر تعرف اسم الاستور اللى نازل منه الابليكشن\nString store=context.getPackageManager().getInstallerPackageName(pInfo.packageName);\nلو
+      جوجل بيبقى تمام\nلو غير كدة يبقى مسروق"
+    id: '1343721689000869'
+  - created_time: '2017-01-04T21:05:35+0000'
+    from:
+      name: Anas Emad
+      id: '10155138037322478'
+    message: شكرا ليكم كلكم
+    id: '1345708565468848'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0wTVRrek5qQTVNalV4TWpjMk1qb3hORGd6TVRnM056ZAzUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0wTlRjd09EVTJOVFEyT0RnME9Eb3hORGd6TlRZAek9UTTIZD

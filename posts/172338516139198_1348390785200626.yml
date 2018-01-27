@@ -1,0 +1,118 @@
+---
+message: "شباب بالنسبة لمشكلة ال Skype وال VOIP عموما في مصر واي بلدان محجوبة فيها
+  الخدمة.\nانا بفكر في سرفيس نستخدمها نتخطي بيها الموضوع ده ونعمل الموضوع كمان Open
+  source بحيث يبقي متاح للتطوير من قبل مطورين اخرين.\n\nالفكرة الي انا بطرحها وهي
+  باستخدام vpn services \nطيب هتقولو ال vpn هيسبب مشكلة لسكايب انه مش هيشتغل وال vpn
+  مفتوح\nبالتالي لازم نلجأ ل vpn مدفوع.\n\nطيب ما احنا ليه نبين ل Skype او حتي ال
+  services الي بنشتغل بيها اننا بنستخدم اداة للتخفي او ال privacy.\n\nالحل اننا نشفر
+  الاتصال بدون ما يبان اننا مشفرينه\n\nالحلول بتبقي step by step\n1 - DNS Leak \n2
+  - User Agent \n3 - Flash \n4 - Footprint / Fingerprint of VPN Tunnel\n5 - Network
+  Setting Packets / Header Packets\n\nدول لو قدرنا نحلهم انت بيبقي معاك في بي ان لكن
+  بيبان انك مستخدم جهاز real فعلا من الدولة الي انت مختار منها location وطبعا بتقدر
+  تضبط ال ISP كمان بحيث تضبط موضوع ال Anonymity.\n\nطيب واحد يقولي الموضوع ده هيتم
+  ازاي.\nكله الشغل بأن ال APP هيعملك تعديل في اعدادات جهازك بحيث يقفل ليك الفلاش او
+  يفضل انك تشيله بالتالي مفيش تسريب لبيانات جهازك الفعلية وبيانات الشبكة.\n\nال ال
+  User Agent سهلة وديه في حالة كانت السيرفيس علي الويب.\n\nمشكلتها هتبقي في رقم 1
+  - 4 - 5\n\nديه هتبقي شغل Network فعليا التطبيق هيقوم بتعديل علي قيم زي MSS و MTU\nMaximum
+  Segment Size / Maximum Transmission Unit\n\nودول بيتعدلو بصعوبة انا بصراحة بعرف
+  اعدلهم يدوي ولازم اكون علي OS مفتوح زي لينوكس .\nبمجرد انك تقدر تضبط القيم تلك للقيم
+  الصحيحة حسب الشبكة بتبقي وقفت عملية تسريب الباكتس والداتا الي بتفضحك ببساطة شديدة
+  دول بيانات هدفها تفضحك علي الانترنت.\nولو غلط غلطة واحدة النت مش هيشتغل تاني.\n\nفالحاجة
+  هنا بقي لبرنامج اعتقد هيكون Deep Learning لحتي يقدر يعدل القيم تلك.\nويبقي بيطور
+  نفسه ذاتيا.\n\nاتمني يكون الفكرة واضحة.\n\n======== النتيجة ========\nمش محتاج ادفع
+  شهريا لشركة في بي ان هو مجرد Free Open Vpn\nبالاضافة لعملية ال Privacy القوية الي
+  عملتها في جهازك.\n================================\n\nنتناقش في الموضوع ونطلع الحلول
+  والافكار ان امكن صناعة مثل تلك التطبيق.\nحتي لو نكون ستارت اب غير ربحية لعلاج المشكلة
+  ديه ونكون احنا ال VPN Provider ليها."
+from:
+  name: احمد قرواش
+  id: '1561022257326859'
+type: status
+created_time: '2017-01-07T23:51:46+0000'
+updated_time: '2017-01-08T23:56:49+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1348390785200626/
+id: '172338516139198_1348390785200626'
+reactions:
+  data:
+  - id: '1960766703936797'
+    name: Andrew Ramzy Ar
+    type: LIKE
+  - id: '10215840177383638'
+    name: Mamdouh El Nakeeb
+    type: LIKE
+  - id: '801753266674738'
+    name: Saif Almairazy
+    type: LIKE
+  - id: '368237263651704'
+    name: Omar Ali
+    type: LIKE
+  - id: '10157269550177715'
+    name: Ahmed Mega
+    type: LIKE
+  - id: '10155313118302219'
+    name: Yehia ELsaka
+    type: LIKE
+  - id: '1594190370659900'
+    name: Amr Alfy
+    type: LIKE
+  - id: '577907769208604'
+    name: Seif Atalla
+    type: LIKE
+  - id: '1547373045377964'
+    name: Ahmed Sayed
+    type: LIKE
+  - id: '597357223950339'
+    name: Ahmed Gameel
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdNVEEwTlRrMk1ETXpPakUwT0RNNU5qWXpOVEU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01ERXdNamd4T1RreE1qTTNPakUwT0RNNE16TTFOekU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-01-07T23:54:22+0000'
+    from:
+      name: Nader Al-Sharkawy
+      id: '10154950104465216'
+    message: Mohamed Amgad matle3nash lwa7dena
+    id: '1348391818533856'
+  - created_time: '2017-01-08T00:01:19+0000'
+    from:
+      name: Muhammad Ahmed Fares
+      id: '934408920094293'
+    message: انا مش مختص في المجال،  بس انت بتقول مش هتضطر تدفع فلوس vpn، انت هتبقي
+      بستعمل ip مصري؟  مهو هيبقي فيه مشكلة برضك صح كلامي ولا غلط؟
+    id: '1348394728533565'
+  - created_time: '2017-01-08T00:08:48+0000'
+    from:
+      name: Ahmed W. Kabeel
+      id: '10156119097607220'
+    message: احمد اعتقد لو اتكلمنا في الموضوع ده باستفاضة واعرف ايه فكرتك وافيدك وتفيدني
+      ازاى .. ممكن تبعتلي رقم تليفونك في مسدج وهكلمك بكره ان شاء الله .. احنا بنقدم
+      الخدمة دي بالفعل وهي تربيط العميل بحاجة زي السوفت سويتش خاص بينا عن طريق IPsec
+      Tunneling .. وال VPN Service حاجه من ضمن الحاجات اللى بنقدمها ولكن عندنا بالفعل
+      تحديات خاصة بالباندويدث والبايلوود ! هستني رقم تليفونك عالخاص.. شكرا!
+    id: '1348397495199955'
+  - created_time: '2017-01-08T00:23:07+0000'
+    from:
+      name: Mohamed Amgad
+      id: '10215367467803543'
+    message: "Nader Al-Sharkawy عاجبني ان الناس كلها فكرت محدش فينا بيتلوي دراعه \U0001F602"
+    id: '1348403098532728'
+  - created_time: '2017-01-08T09:33:06+0000'
+    from:
+      name: Seif Hatem
+      id: '10213015857764534'
+    message: "hwa el mawdoo3 kwayes bas mogard myb2a \"open\" source expect enohom
+      hy3rafo enta shagh'al ezay w ywa2fooh bardo \U0001F610"
+    id: '1348701021836269'
+  - created_time: '2017-01-08T23:56:46+0000'
+    from:
+      name: Ezz Eldeen
+      id: '10208601723881059'
+    message: بص انا مش فاهم نص الكلام ده بس معاك عشان اتعلم :D
+    id: '1349167868456251'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0wT0RNNU1UZA3hPRFV6TXpnMU5qb3hORGd6T0RNek1qWXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0wT1RFMk56ZAzJPRFExTmpJMU1Ub3hORGd6T1RFNU9EQTMZD

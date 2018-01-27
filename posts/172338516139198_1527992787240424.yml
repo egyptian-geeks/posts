@@ -1,0 +1,118 @@
+---
+message: This is a great answer on asynchronously in JavaScript.
+link: https://stackoverflow.com/questions/14220321/how-do-i-return-the-response-from-an-asynchronous-call/14220323#14220323
+from:
+  name: Mohamed Oun
+  id: '10213382124519901'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQBicEnZEnV912SL&w=130&h=130&url=https%3A%2F%2Fcdn.sstatic.net%2FSites%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded&cfs=1&_nc_hash=AQDvsiX7ONHDf146
+created_time: '2017-06-27T01:19:04+0000'
+updated_time: '2017-06-27T14:13:33+0000'
+name: How do I return the response from an asynchronous call?
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1527992787240424/
+shares:
+  count: 1
+id: '172338516139198_1527992787240424'
+reactions:
+  data:
+  - id: '1978556165731463'
+    name: Amr Almgwary
+    type: LIKE
+  - id: '10155750887566727'
+    name: Khaled Elkhawaga
+    type: LIKE
+  - id: '1685130671538688'
+    name: Bassim Oun
+    type: LIKE
+  - id: '824666604386021'
+    name: Mohamed Elawadly
+    type: LIKE
+  - id: '10155903911855943'
+    name: Ahmed Soliman
+    type: LIKE
+  - id: '1612970168787343'
+    name: Ahmed Alaa Mohamed
+    type: LIKE
+  - id: '402301146892668'
+    name: Esso de Nasr
+    type: LIKE
+  - id: '10116066877056474'
+    name: Omar Ibrahim
+    type: LIKE
+  - id: '10208596993002679'
+    name: Mostafa Alaa
+    type: LIKE
+  - id: '1992382594366191'
+    name: Ali Hefny
+    type: LIKE
+  - id: '1750532274967735'
+    name: Ahmed Moussa
+    type: LIKE
+  - id: '1466247800164499'
+    name: Mosaab Ahmed
+    type: LIKE
+  - id: '10155853632381955'
+    name: Yamen Sharaf
+    type: LIKE
+  - id: '10155359009733861'
+    name: Mohamed Sobhy
+    type: LIKE
+  - id: '1819455044782386'
+    name: Samir Mohamed
+    type: LIKE
+  - id: '10156023436662114'
+    name: Waleed Rostom
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTNNekV5T1RVM09UWXpPakUwT1RnMU9ETXdPRFk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TmpBeU5ESXlNVEV6T2pFME9UZAzFNamMwT1RVNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-06-27T03:50:00+0000'
+    from:
+      name: Ahmed Moussa
+      id: '1750532274967735'
+    message: "That's a really good answer \U0001F44C"
+    id: '1528116650561371'
+  - created_time: '2017-06-27T07:51:21+0000'
+    from:
+      name: Hassan Abas
+      id: '1178804355556195'
+    message: I've heard about asyn* in js a lot of time but have no clue, anyone recommend
+      to me a good tutorial
+    id: '1528303190542717'
+  - created_time: '2017-06-27T11:04:07+0000'
+    from:
+      name: Ahmad Mayo
+      id: '10155441399893250'
+    message: I'm a fullstack developer (frontend + nodejs) if anyone needs to ask
+      anything about js, he's more than welcome
+    id: '1528435123862857'
+  - created_time: '2017-06-27T13:06:10+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: |-
+      المشكلة اللي مرتبطة بالحالة دي، إن الواحد غالبا بيحتاج يعمل أي حاجة مرتبطة ب Ajax داخل success object بتاع ال request (ده لو بتستخدم Jquery) او error بتاعه.
+      يعني ممكن في الكود تلاقي $.ajax  متكررة بتاع 8 مرات، بمعنى إنك ما تعرفش تعمل function واحدة ظريفة بشوية برامترات تقدر تعيد استخدامها بحيث ترجع لك ال request اللي هتحتاجه.
+    id: '1528527007187002'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV5T0RFeE5qWTFNRFUyTVRNM01Ub3hORGs0TlRNMU5EQXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV5T0RVeU56QXdOekU0TnpBd01qb3hORGs0TlRZANE56Y3gZD
+attachments:
+  data:
+  - description: I have a function foo which makes an Ajax request. How can I return
+      the response from foo? I tried to return the value from the success callback
+      as well as assigning the response to a local variable
+    media:
+      image:
+        height: 316
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAMFLWvXjUlRuS7&w=720&h=720&url=https%3A%2F%2Fcdn.sstatic.net%2FSites%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded&cfs=1&_nc_hash=AQBDUhzXdwnk-uG7
+        width: 316
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F14220321%2Fhow-do-i-return-the-response-from-an-asynchronous-call%2F14220323%2314220323&h=ATNTv-j0X2Wf7eUMX0pTrnP2j8RVfnnrr3MWU5TzAdeGz1B-5LFe2vP3DwvipSKdlJWcSgcHPjW80HlSI4hlqsoGVdqH2OkQylZH&s=1&enc=AZPGT3Rkv64Z4MqCRjM5Wlq1JBdj8kR4DGNI0WzAhhH_GNvpK9wXafLFkvbfxnLQSVJWV9k5XmbyK9kFOY1Yg4Gh
+    title: How do I return the response from an asynchronous call?
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F14220321%2Fhow-do-i-return-the-response-from-an-asynchronous-call%2F14220323%2314220323&h=ATNTv-j0X2Wf7eUMX0pTrnP2j8RVfnnrr3MWU5TzAdeGz1B-5LFe2vP3DwvipSKdlJWcSgcHPjW80HlSI4hlqsoGVdqH2OkQylZH&s=1&enc=AZPGT3Rkv64Z4MqCRjM5Wlq1JBdj8kR4DGNI0WzAhhH_GNvpK9wXafLFkvbfxnLQSVJWV9k5XmbyK9kFOY1Yg4Gh

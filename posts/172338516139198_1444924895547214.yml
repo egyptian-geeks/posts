@@ -1,0 +1,39 @@
+---
+message: "السلام عليكم \nدلوقتي انا عندي ابليكاشن على الموبايل هاخد بيه صورة \nالصورة
+  دي المفروض هعمل عليها بروسيسنج عن طريق ال emgucv .... و نتيجه للبروسيس ده هجيب معلومات
+  من الداتا بيس بتعتي وكده (azure database )\nدلوقتي ايه افضل طريقة اعمل implement
+  \nفيه ناس نصحتني اني اعمل  virtual machine واحط عليه برنامج هياخد الصورة و يعمل
+  عليها هو البروسيسنج وبعدين يرجعلي البيانات اللي من ال database مثلاً عشان البروسيسنج
+  هياخد وقت اكتر علي الموبايل وفي الحقيقة معرفش اعمل حاجة زي كده ازاي \nفلو حد عنده
+  طريقة افضل او ازاي اقدر اعمل الطريقة اللي وضحتها هكون مشكور ليه جداً"
+from:
+  name: Zyad Galal
+  id: '1972496686099088'
+type: status
+created_time: '2017-04-06T19:56:46+0000'
+updated_time: '2017-04-07T05:46:48+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1444924895547214/
+id: '172338516139198_1444924895547214'
+comments:
+  data:
+  - created_time: '2017-04-06T20:06:47+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "اعمل ال api ك Backend service وابعت الصورة نفسها للباك اند وقبل ما ترجع
+      للكلاينت عدي بالريزلت خد الداتا من الداتابيز اللي على نفس ال Backend \nايه اللي
+      مش واضح ف دي؟"
+    id: '1444932042213166'
+  - created_time: '2017-04-07T05:46:45+0000'
+    from:
+      name: Mohamed AbuIssa
+      id: '1772542006152666'
+    message: لو مشتغلتش ويب قبل كده، فابدأ اتعلم ويب و اساسياته. في حاجات كثير بتسهل
+      الموضوع عليك في ال cloud services بس لازم تتعلم الاساسيات. بابنسبة للغة او ال
+      framework حتخترها علي حسب ال cloud service اللي حيحط عليها الكود بتاعك و الخبرة
+      بتاعتك دلوقتي يعني لو مثلا بتشتغل جافا يبقي الاحسن تعمل VM جافا.
+    id: '1445329542173416'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEwTkRrek1qQTBNakl4TXpFMk5qb3hORGt4TlRBNU1qQTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEwTlRNeU9UVTBNakUzTXpReE5qb3hORGt4TlRRME1EQTEZD

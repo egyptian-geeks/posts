@@ -1,0 +1,59 @@
+---
+message: I have a bit of a problem, i was working on an MVC 5 project with forms authentication,
+  after finishing the project they decided to add Active directory "Windows Authentication"
+  to the project, have any of you done this before, windows authentication side by
+  side with forms authentication ??
+from:
+  name: Ahmed Mustafa
+  id: '10213804085630819'
+type: status
+created_time: '2017-06-29T09:48:09+0000'
+updated_time: '2017-07-01T19:03:34+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1530899376949765/
+id: '172338516139198_1530899376949765'
+reactions:
+  data:
+  - id: '10215541786276410'
+    name: Mohamed Sattar
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRFNU1qSXlNREF5TkRveE5EazRPREl6TXprM09qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRFNU1qSXlNREF5TkRveE5EazRPREl6TXprM09qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2017-06-29T12:52:04+0000'
+    from:
+      name: Tarek Abdel Maqsoud
+      id: '10208889127745778'
+    message: Am going to tell you what we have did in similar situation .. Mainly
+      .. both will be forms auth .. you will authenticate the user against your own
+      DB .. if found that is fine .. if not try to find it in the active directory
+      ..
+    id: '1531116816928021'
+  - created_time: '2017-06-30T11:50:50+0000'
+    from:
+      name: Mohamed Sattar
+      id: '10215541786276410'
+    message: Extend it to 2 different WebApplications each of them with different
+      Authentication technique.
+    id: '1532221316817571'
+  - created_time: '2017-07-01T19:03:30+0000'
+    from:
+      name: Sherif Elmetainy
+      id: '10155248504590994'
+    message: "you can use OAuth/OpenId and IdentityServer3 (don't use 4 since it's
+      for aspnet core and won't work with MVC 5). \n\nThe solution would work in a
+      similar way to the \"new project\" template ins visual studio having facebook/twitter/etc.
+      But instead of twitter/facebook/etc, you use generic oauth server. You create
+      a web application that will be your oauth/openid server. The website authenticates
+      users with windows authentication. Then issues a token if the user is authenticated,
+      and redirects the user back to the main web application. IdentityServer3 handles
+      the creation and validation of oauth/openid tokens and the redirection. The
+      Microsoft.Owin.Security.OpenIdConnect or Microsoft.Owin.Security.OAuth package
+      will handle the authentication/challenge on your application side."
+    id: '1533759216663781'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV6TVRFeE5qZA3hOamt5T0RBeU1Ub3hORGs0TnpRd056STAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV6TXpjMU9USXhOalkyTXpjNE1Ub3hORGs0T1RNMU9ERXgZD

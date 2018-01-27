@@ -1,0 +1,94 @@
+---
+message: "السلام عليكم :) \nانا حاليا شغال على ويب سايت (Multi-language) شغال ب laravel
+  php الناس اللى اشتغلت على ويب سايت (Multi-language-laravel) تفيدنى اشتغلت عليها
+  ازاى المحتوى هيكون عربى و english"
+from:
+  name: Ahmed Salem
+  id: '2062584277359210'
+type: status
+created_time: '2017-09-11T04:16:09+0000'
+updated_time: '2017-09-11T08:13:24+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1603880672984968/
+id: '172338516139198_1603880672984968'
+reactions:
+  data:
+  - id: '1828107927498629'
+    name: Mubarak Ismail
+    type: LIKE
+  - id: '1958578994390366'
+    name: Ahmed Salah
+    type: LIKE
+  - id: '1413493802105995'
+    name: Mahmoud Mohamed Osman
+    type: LIKE
+  - id: '1141575932646478'
+    name: Osama Yasser
+    type: LIKE
+  - id: '1835921803149515'
+    name: Saef Rahal
+    type: LOVE
+  - id: '1575048152582433'
+    name: Ahmed Gamal
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTRPVGd6TVRjM05UY3lPakUxTURVek9UYzFNVEk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlNekUzT1RBeU5UUTJPakUxTURVeE1EWTJNVGs2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-09-11T04:47:08+0000'
+    from:
+      name: Tarek Ibrahem
+      id: '10215494402692670'
+    message: |-
+      انت ممكن تستخدم الlocaliztion helper functions و تبدأ تحط الترجمة بتاعة كل لغة و علي اساس ال locale اللي هتحدده هياخد اللغة بتاعتها
+      https://laravel.com/docs/5.5/localization
+    id: '1603896516316717'
+  - created_time: '2017-09-11T04:47:17+0000'
+    from:
+      name: Salem Magdy
+      id: '1956478351340666'
+    message: انا اشتغلت ورد بريس وكانت الفكرة أن كل حاجه ليها mirror وفي حاجات كان
+      بيبقي ليها localization
+    id: '1603896572983378'
+  - created_time: '2017-09-11T04:53:17+0000'
+    from:
+      name: Abdo Shawky
+      id: '1972850979632528'
+    message: ممكن حل للمشكلة بتاعت الداتا بيز انك تسجل الاسماء مثلا اللي هيكون في
+      منها نسخة عربي و نسخة انجليزي على هيئة json
+    id: '1603899409649761'
+  - created_time: '2017-09-11T06:04:46+0000'
+    from:
+      name: Zeyad Mounir
+      id: '1631588673551004'
+    message: |-
+      بالباكدح دى الدنيا هتبقى حلوة خالص، هيبقى فيه instance
+      لكل لغة ف الداتا بيز
+
+      https://github.com/dimsav/laravel-translatable/blob/master/readme.md
+    id: '1603930909646611'
+  - created_time: '2017-09-11T06:31:28+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: 'سؤال: الواجهة UI هي اللي متعددة اللغة، ولا المحتوى كمان؟ بمعنى الكومنت
+      ده مثلا هل هيبقى في منه نسخة بالانجليزي والفرنساوي الخ ولا هو هيظهر بس في القسم
+      العربي؟'
+    id: '1603944769645225'
+  - created_time: '2017-09-11T08:13:22+0000'
+    from:
+      name: Ahmed Ashraf
+      id: '930615110434715'
+    message: بص لو بنتكلم علي لغه الموقع نفسه ف ده كدا كدا جاهز في لارافيل .. لكن
+      لو بنتكلم عن المحتوي الدينامك زي الكونتنت مثلا .. فيه طريقتين انك و انت بتعمل
+      جدول الposts مثلا هتخلي الtitle نوعه jsonable و فيه باكدج اسمها LARAVEL model
+      translatable عاملاها spatie بتظبط الموضوع علي الاخر و هتريحك جدا في الشغل ..
+      او انك تعمل mirror للcoulmns اللي محتاج تترجمها .. الحل الاخير اللي هيبقي مستبعد
+      بس خلينا نقوله انك ممكن تستعين ب translation api و تظبط سيرفس عندك انها تترجم
+      الكونتنت اللي عندك حسب اللغه اللي اليوزر مختارها
+    id: '1603990976307271'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl3TXpnNU5qVXhOak14TmpjeE56b3hOVEExTVRBMU1qSTUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl3TXprNU1EazNOak13TnpJM01Ub3hOVEExTVRFM05qQXkZD

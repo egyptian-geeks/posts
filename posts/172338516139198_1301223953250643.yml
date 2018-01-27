@@ -1,0 +1,64 @@
+---
+message: Hello guys i have leant php and reach to mvc and laravel and i have good
+  experience in laravel and i work on many project but i ask you IS javascript work
+  related to web developer ? Or php enough for php developer i need your recommendations
+  ? Finally thank you
+from:
+  name: Ahmed Amer
+  id: '1432779720164542'
+type: status
+created_time: '2016-11-22T13:15:52+0000'
+updated_time: '2016-11-22T16:03:46+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1301223953250643/
+id: '172338516139198_1301223953250643'
+comments:
+  data:
+  - created_time: '2016-11-22T13:31:14+0000'
+    from:
+      name: Bassam Abd Elhamid
+      id: '1955441501387657'
+    message: |-
+      php is for backend (server) programming, Javascript is for browser programming, Whenever you want to do programming in the browser it would be in JavaScript (Mostly).
+
+      But, Why you write code for the browser when you can do anything from the server (using php for example)? In some cases you want to do some processing using the browser without posting to the server, Some thing like validating inputs or hashing passwords, In other cases loading/updating some parts of the page without reloading the whole page, or just load data (in json for example) and visualize it using some template engine, You may also add some animations or customized slideshow, You can do a lot of things in the browser using JavaScript.
+    id: '1301232826583089'
+  - created_time: '2016-11-22T13:36:53+0000'
+    from:
+      name: Amr Tharwat
+      id: '10213136680788843'
+    message: |-
+      Exactly, PHP for server-side (back-end) development
+      Javascript for front-end (UI).
+      In some cases you'll need to deal with both Ajax & PHP for a project. So, no problem to have good experience in both. Won't be useless.
+    id: '1301236926582679'
+  - created_time: '2016-11-22T13:55:02+0000'
+    from:
+      name: Hosam Shafik
+      id: '2052010548351299'
+    message: |-
+      Since you are using Laravel, I suggest to use Vue JS.
+      https://laravel.com/docs/5.3/frontend
+    id: '1301249839914721'
+  - created_time: '2016-11-22T14:03:09+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: بالنسبة لسياقك ليس بالضرورة أن تكون محترف جافاسكريبت، لكن على الأقل أن
+      يكون مستواك فيها متوسط.
+    id: '1301255796580792'
+  - created_time: '2016-11-22T15:16:56+0000'
+    from:
+      name: Ahmed Amer
+      id: '1432779720164542'
+    message: Thank you all what is your opinions about angular2 IS it work with laravel   ?
+    id: '1301308766575495'
+  - created_time: '2016-11-22T16:03:44+0000'
+    from:
+      name: Ahmed Thabet
+      id: '1849432635069365'
+    message: "Sadly js is used \nEverywhere \n:("
+    id: '1301406276565744'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE13TVRJek1qZA3lOalU0TXpBNE9Ub3hORGM1T0RJeE5EYzAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE13TVRRd05qSTNOalUyTlRjME5Eb3hORGM1T0RNd05qSTAZD

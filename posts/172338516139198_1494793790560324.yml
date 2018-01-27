@@ -1,0 +1,70 @@
+---
+message: "كل لم افعل ال ssh فى goddady واختار enable متشتغلش حد قبلتة المشكلة دى ؟
+  انا كلمت خدمة العملا قالولى كلم ال production team ودة رقم دولى وبعديها قفلوا الشات
+  =D =D \nدى الطريقة الوحيدة انى ارفع ال app على goddady لانى هحتاج اسطب ال flask
+  الاول \nحد عندة حل او طريقة تانية ؟"
+link: https://www.facebook.com/photo.php?fbid=1444280848994477&set=gm.1494793790560324&type=3
+from:
+  name: Ahmed Abo Mazin
+  id: '1758521440903748'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/q92/s130x130/18664422_1444280848994477_7898829611560384799_n.jpg?oh=f888e1269cf45702e434f335770dbfe9&oe=5AEAD74F
+created_time: '2017-05-27T13:11:59+0000'
+updated_time: '2017-05-28T20:01:33+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1494793790560324/
+id: '172338516139198_1494793790560324'
+comments:
+  data:
+  - created_time: '2017-05-27T14:15:56+0000'
+    from:
+      name: محمود أحمد مصطفى
+      id: '1706331916053658'
+    message: "فيما أعلم مش هينفع تسطب flask على الshared host بتاع godaddy \nلأن حتى
+      لو شغلت الssh مش هتلاقي عندك pip ولا ليك root access فمش هتعرف تسطب حاجة. \n\nالمفروض
+      godaddy vps ممكن لكن أنا ما جربتوش"
+    id: '1494863713886665'
+  - created_time: '2017-05-27T22:27:13+0000'
+    from:
+      name: Ebrahim ElSayed
+      id: '10213210502209905'
+    message: بص ياباشا , اولا اتاكد من ان بورت الـ ssh شغال , ثانيا اتاكد من كونفجريشن
+      الى موجودة في ssh_config
+    id: '1495268233846213'
+  - created_time: '2017-05-28T04:00:16+0000'
+    from:
+      name: Mostafa Azeem
+      id: '1738482222889089'
+    message: Aws ec2 or heroku
+    id: '1495491653823871'
+  - created_time: '2017-05-28T16:42:57+0000'
+    from:
+      name: Ahmed Abo Mazin
+      id: '1758521440903748'
+    message: http://comfycoder.com/home/how_to_deploy_a_flask_app_in_apache_shared_hosting
+    id: '1495961027110267'
+  - created_time: '2017-05-28T20:01:30+0000'
+    from:
+      name: Karem Al-Bustany
+      id: '10155980453449876'
+    message: ريح نفسك وهات vps
+    id: '1496094793763557'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE1TkRnMk16Y3hNemc0TmpZAMk5Ub3hORGsxT0RrME5UVTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE1TmpBNU5EYzVNemMyTXpVMU56b3hORGsyTURBeE5qa3gZD
+attachments:
+  data:
+  - description: "كل لم افعل ال ssh فى goddady واختار enable متشتغلش حد قبلتة المشكلة
+      دى ؟ انا كلمت خدمة العملا قالولى كلم ال production team ودة رقم دولى وبعديها
+      قفلوا الشات =D =D \nدى الطريقة الوحيدة انى ارفع ال app على goddady لانى هحتاج
+      اسطب ال flask الاول \nحد عندة حل او طريقة تانية ؟"
+    media:
+      image:
+        height: 47
+        src: https://scontent.xx.fbcdn.net/v/t1.0-9/18664422_1444280848994477_7898829611560384799_n.jpg?oh=205cdf078bc18e204e404300a3ec8831&oe=5AE301A1
+        width: 459
+    target:
+      id: '1444280848994477'
+      url: https://www.facebook.com/photo.php?fbid=1444280848994477&set=gm.1494793790560324&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=1444280848994477&set=gm.1494793790560324&type=3

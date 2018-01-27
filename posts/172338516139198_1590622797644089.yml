@@ -1,0 +1,81 @@
+---
+message: الناس الي نفسها تشتغل في فاليو و كل الي مهتمين بال Embedded Automotive يشوفو
+  البوست ده مهم جدا
+link: https://www.facebook.com/photo.php?fbid=1430906193625397&set=gm.1961856540770278&type=3
+from:
+  name: Adel Ayad
+  id: '1574601289255886'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/21077610_1430906193625397_2074019000098776993_n.jpg?oh=8cf206308370f531d75998fb665b03e8&oe=5B21EF6F
+created_time: '2017-08-26T21:18:16+0000'
+updated_time: '2017-08-26T21:18:17+0000'
+name: Adel
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1590622797644089/
+shares:
+  count: 1
+id: '172338516139198_1590622797644089'
+reactions:
+  data:
+  - id: '1978556165731463'
+    name: Amr Almgwary
+    type: LIKE
+  - id: '10216014996153587'
+    name: Ahmed Syam
+    type: LIKE
+  - id: '1992624297616442'
+    name: Mohamed Moftah
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTNNekV5T1RVM09UWXpPakUxTURNNE16STROVEU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTJNRFkyTnpNek1UQXlPakUxTURNM09EVTJOVFE2TWpVME1EazJNVFl4TXc9PQZDZD
+attachments:
+  data:
+  - description: "تعالو نتكلم شويه عن ال Automotive Technology و خصوصا الحاجات الي
+      ممكن تطبق عليها عملي عشان يبقي فرصتك في الشغل في شركه زي Valeo اكبر.\U0001F44D\U0001F44D\nلو
+      فكرت تقدم علي شغل في فاليو هتلاقي في الوظائف حاجه اسمها ADAS طب عارف ايه هو
+      ده اصلا؟\U0001F914\U0001F914... اقولك انا...\nADAS ده اختصار Advanced Driver
+      System Assistance \U0001F60E\U0001F60E\U0001F60E\nجبت التايها انت كده يعني؟!\U0001F928\U0001F928\U0001F928\nلا
+      يا عم تعالي نشوف ده بيعمل ايه و ايه ال applications بتاعتو....\nده نظام الكتروني
+      موجود في ال  full autonomous car او ال half autonomous car بيساعد السواق او
+      نظام القياده الالكتروني ويديلو انذار بناء علي حدث معين.\U0001F62E\U0001F62E\nيعني
+      ايه برضو الكلام ده ... مش هتفهمو غير لما نقول ال applications بتاعتو.\U0001F44D\nالاول
+      full autonomous car >>> يعني العربيات الي نظام القياده فيها الكتروني مش بيعتمد
+      علي البشر الكنترول كلو فيها automatic \nال half autonomous car >>> ده نظام القياده
+      فيها بيعتمد علي الانسان بمساعده شويه انظمه الكترونيه.\nمكونات النظام ده بقي
+      ايه...\n1- sensing: بيحتوي علي اكثر من sensor من نفس النوع و انواع مختلفه زي
+      ال radar and camera\n2- thinking: و الجزء ده هو الميكروكنترولر مع الكود المبني
+      عليه عشان يقدر ياخد الداتا من السنسورات و بناءا عليها يقدر يحدد ايه الحدث الي
+      قدامو و الي ال action المناسب ليه و يبعت للسواق المفروض يعمل ايه في اللحظه دي\n3-
+      Acting: و الجزء ده موجود في ال full autonomous car و ده هو المسئول عن تنفيذ
+      الاكشن المطلوب بناءا علي ال output من الميكروكنترولر\nو ده زي ال motors , led
+      driver\nطب قبل ما نمسك كل سينسور و نشوف ال applications بتاعتو في حاجه لازم
+      تفهماها و هي ال Sensor Fusion؟!!\nهنقول تعريفو ايه بس لانو موضوع كبير و في algorithms
+      و فلترات للموضوع ده.\nال Sensor Fusion >>> ده نظام بيخليني اقدر اخد داتا من
+      كذا سينسور من نفس النوع او من انواع مختلفه عشان اخدو من الميكروكنترولر داتا
+      ادك و معلومات اكتر.\nيعني مثلا العربيه فيها حوالي 5 كاميرات في اماكن مختلفه
+      و زيهم radar هقدر اخد الداتا من ال 10 سينسورات دول و ادخلهم للميكرو كنترولر
+      و يعملهم processing عشان يعرفني كل الي موجود حوالين العربيه في كل الاتجاهات
+      بدقه عاليه جدا, يعني مبنعتمدش علي سينسور واحد لا مجموعه من السينسورات.\nطيب
+      دلوقتي بقي ليه بستخدم الكاميراو ال Radar.\n\nالاول ال Camera applications in
+      ADAS\n1- Pedestrian Detection\n2- Lane Keeping/Departure Warning & Assistance\n3-
+      Traffic Sign Recognition (TSR)\n4- Collision warning and avoidance\n5- Blind
+      spot monitoring\n\n>>> Radar Applications in ADAS\n1- Collision detection, warning
+      and mitigation\n2- Collision avoidance\n3- Blind spot monitoring / blind spot
+      detection\n4- Lane change assistance and lane departure warning \n    system\n5-
+      Rear cross-traffic alerts\n6- Vulnerable road user detection\nفي حاجه تاني اسمها
+      V2X Network دي هتكلم عليها بس مش في البوست ده\nالبوست ده كفايه عليه كده البوست
+      الجاي هيبقي في تفاصيل كل application بيتعمل ازاي و بيفيد في ايه و ازاي تقدر
+      تطبقو علي مشروع تخرج او مشروع صغير في البيت عشان تزود فرصتك في الشغل.\nتابعو
+      الجروب و عشان يوصلكم باقي البوستات اعملو كومنت follow\nو متنسوش تعملو لايك و
+      شير للبوست و للجروب عشان الي محتاج المعلومات دي توصلو.\U0001F642\U0001F642\U0001F642"
+    media:
+      image:
+        height: 360
+        src: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/21055883_1430906193625397_2074019000098776993_o.jpg?oh=882cb7e246ac487c4798df5f3b4512e8&oe=5AEAB053
+        width: 720
+    target:
+      id: '1430906193625397'
+      url: https://www.facebook.com/photo.php?fbid=1430906193625397&set=gm.1961856540770278&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=1430906193625397&set=gm.1961856540770278&type=3

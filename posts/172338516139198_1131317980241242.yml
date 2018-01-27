@@ -1,0 +1,71 @@
+---
+message: "I read this article about HTTP requests throughput using python3 and aiohttp
+  library. The author attempts to write an async http client to generate the max.
+  number of requests. I think that this type of articles shows us how NOT to write
+  a benchmarking article :D\n \nAlthough the HTTP request is realistic (requesting
+  a file from disk; not just an echo) and the introduction is catchy, the author failed
+  to benchmark the library very well. First, the article didn't mention benchmark
+  setup: client & server specifications (CPU/memory/network interface etc...). Second,
+  the title is actually misleading: the author failed to write 1M requests per what
+  time unit! Third, the author is adding non realistic delay values between 0-1 seconds;
+  these delays usually follow a distribution and not uniformly distributed as the
+  author used. Fourth, it's clearly that the author didn't do his homework by reading
+  some benchmarking articles/software (it's obvious from the questions he asks in
+  the end).\n\nMore importantly, and from the technical viewpoint, this article actually
+  shows that python sucks :D (I used python daily btw). Generating 1M requests in
+  52 minutes means that the async client can generate ~320 req/sec which is really
+  a small number (the CPUs are fully utilized as the author mentioned). To put this
+  number in perspective, the old \"ab\" can simply generate 1K req/sec. JMeter can
+  generate 30K req/sec, and \"wrk\" can generate 750K req/sec!\n\nI think that such
+  articles shed the light on how we should benchmark HTTP request generating tools:
+  workload and delay specifications, minimum CPU/memory requirements, etc..\n\nWhat
+  do you think?"
+link: http://pawelmhm.github.io/asyncio/python/aiohttp/2016/04/22/asyncio-aiohttp.html
+from:
+  name: Khaled M. Diab
+  id: '10215626626127168'
+type: link
+created_time: '2016-04-25T07:52:28+0000'
+updated_time: '2016-04-26T21:32:07+0000'
+name: Making 1 million requests with python-aiohttp
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1131317980241242/
+id: '172338516139198_1131317980241242'
+reactions:
+  data:
+  - id: '10156301546469701'
+    name: Amr ELsaqqa
+    type: LIKE
+  - id: '10159861210675006'
+    name: Ahmed Reda
+    type: LIKE
+  - id: '1167985470004751'
+    name: Ahmed Elsobky
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRZAMU56RTBOekF3T2pFME5qRTFOemMyT1RBNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQXpOems1TWpZAME5Ua3pPakUwTmpFMU56QTVPVEE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-04-25T16:10:06+0000'
+    from:
+      name: Ibraheem Osama
+      id: '10155206310513093'
+    message: "I liked Asp.net Benchmarks :) because it is simply open source and to
+      straight to the point from servers OS, CPU utilization, used frameworks and
+      so on \nhttps://github.com/aspnet/benchmarks"
+    id: '1131536060219434'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV6TVRVek5qQTJNREl4T1RRek5Eb3hORFl4TmpBd05qQTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV6TVRVek5qQTJNREl4T1RRek5Eb3hORFl4TmpBd05qQTMZD
+attachments:
+  data:
+  - description: In this post I’d like to test limits of python aiohttp and check
+      its performance in terms of requests per minute. Everyone knows that asynchronous
+      code perf...
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fpawelmhm.github.io%2Fasyncio%2Fpython%2Faiohttp%2F2016%2F04%2F22%2Fasyncio-aiohttp.html&h=ATOvumj3rYMNKVbLW9MbP50IyII3rLSU-kxdit3eC6ypP5oLZrku25pwY8m-UlyslKsfo_RN_t_96tZQyBxBEv-hsZWEuvG5UD7c&s=1&enc=AZPK6f010AYGo5OH76yS8IELuxT4UXtZmoYtoH9fpAldL8pxHfWDJPQ0zrYgYCaTBzkOABVcDOpPzyQcv0kKd0Fy
+    title: Making 1 million requests with python-aiohttp
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fpawelmhm.github.io%2Fasyncio%2Fpython%2Faiohttp%2F2016%2F04%2F22%2Fasyncio-aiohttp.html&h=ATOvumj3rYMNKVbLW9MbP50IyII3rLSU-kxdit3eC6ypP5oLZrku25pwY8m-UlyslKsfo_RN_t_96tZQyBxBEv-hsZWEuvG5UD7c&s=1&enc=AZPK6f010AYGo5OH76yS8IELuxT4UXtZmoYtoH9fpAldL8pxHfWDJPQ0zrYgYCaTBzkOABVcDOpPzyQcv0kKd0Fy

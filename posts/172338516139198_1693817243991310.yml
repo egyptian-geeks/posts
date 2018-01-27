@@ -1,0 +1,94 @@
+---
+message: |-
+  I wanna ask the google and eCommerce geeks here a question. If you have high bounce rate from organic search, what are the usual suspects here?
+
+  We initially suspected speed and broken links, but all tools we have report loading speed to be fine (~3 sec per page) and we watched a lot of recorded user sessions and all landed on legitimate pages (no 404s and such)
+
+  So what else could be the case?
+from:
+  name: Mohamed Moshrif
+  id: '1538447102877297'
+type: status
+created_time: '2017-12-16T14:10:35+0000'
+updated_time: '2017-12-17T20:58:20+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1693817243991310/
+id: '172338516139198_1693817243991310'
+comments:
+  data:
+  - created_time: '2017-12-16T14:15:25+0000'
+    from:
+      name: Mariam Maarouf
+      id: '10155779091916638'
+    message: Content, maybe? UX?
+    id: '1693822243990810'
+  - created_time: '2017-12-16T14:15:35+0000'
+    from:
+      name: Amr Monjid
+      id: '10155918513180729'
+    message: The home page or the page the user reached itself could be confusing
+      or there is no clear call to action
+    id: '1693822337324134'
+  - created_time: '2017-12-16T14:26:59+0000'
+    from:
+      name: Abdelrahman Hassan
+      id: '2022833371324486'
+    message: make sure that you don't request much info from them. make your pages
+      more clearer. look at your exit pages.
+    id: '1693832497323118'
+  - created_time: '2017-12-16T14:39:03+0000'
+    from:
+      name: Ahmed Atef Masoud
+      id: '1971502883176208'
+    message: |-
+      One of the things that reduced the bounce rate dramatically for one of my clients was removing the "subscribe / like our page" popups that appeared when you navigated to the website.
+      Try to minimize the clutter for users and make your content directly reachable. And regarding the broken links, it is a factor as well, try redirecting them to the most relevant content, and minimize the 404 errors as much as possible.
+    id: '1693840950655606'
+  - created_time: '2017-12-16T15:10:19+0000'
+    from:
+      name: Ibrahim Hussein
+      id: '10155686945529760'
+    message: A UX review and some A/B testing may help. Why limiting the potential
+      causes to technical ones.
+    id: '1693866830653018'
+  - created_time: '2017-12-16T21:32:16+0000'
+    from:
+      name: Mohammad Fouad
+      id: '10155755444625845'
+    message: |-
+      The last problem might be a technical glitch, something looks horrible on Android browser or something, do they have anything in common?
+      You need also to make sure your site works using Google Caching Proxy (a feature called "Conserve Bandwidth" in Android Chrome) This is a common pitfall for sites that detects location, because the proxy masks the location.
+    id: '1694191210620580'
+  - created_time: '2017-12-16T21:36:52+0000'
+    from:
+      name: Mohammad Fouad
+      id: '10155755444625845'
+    message: |-
+      If they scroll to the bottom in recordings then bounce, show a popup at the end of the page asking "What are you looking for? or did you find what you are looking for?".
+      I think Hotjar's Feedback features does something like that
+    id: '1694193487287019'
+  - created_time: '2017-12-16T22:56:24+0000'
+    from:
+      name: Ahmed Abu El-Naga
+      id: '10204079611106578'
+    message: Content is a key factor for most organic search bounce rate.... Follow
+      the trend for the last year in ur market
+    id: '1694237613949273'
+  - created_time: '2017-12-17T09:18:28+0000'
+    from:
+      name: Amr Medhat
+      id: '10155426916839779'
+    message: In addition to content and call to action comments; What are your main
+      user flows? maybe what you offer to users is gained from the first landing and
+      they don't need to browse more? also, maybe your're addressing the wrong targeted
+      segment so they are not interested?
+    id: '1694585350581166'
+  - created_time: '2017-12-17T09:38:54+0000'
+    from:
+      name: Mohammed Ahmed
+      id: '1539552666097869'
+    message: ممكن لينك للسايت اللي حصلت فيه المشكلة دي؟
+    id: '1694596290580072'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFk1TXpneU1qSTBNems1TURneE1Eb3hOVEV6TkRNek56STEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFk1TkRVNU5qSTVNRFU0TURBM01qb3hOVEV6TlRBek5UTTAZD

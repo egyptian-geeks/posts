@@ -1,0 +1,60 @@
+---
+message: |-
+  Hi, when a member clicks "Resend Verification code" which is better to generate a new code and send it or resend the last created code.
+  thanks in advance.
+from:
+  name: Bellal Mohamed
+  id: '1672878506132188'
+type: status
+created_time: '2017-09-29T18:37:17+0000'
+updated_time: '2017-09-30T03:51:05+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1619963088043393/
+id: '172338516139198_1619963088043393'
+reactions:
+  data:
+  - id: '780398142147245'
+    name: Mahmoud Barakat
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTFNekV4T1RnM056QTFPakUxTURZAM01UWXpNRGM2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTFNekV4T1RnM056QTFPakUxTURZAM01UWXpNRGM2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-09-29T18:39:43+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: First make sure that all generated codes / tokens have short lifetime
+      and can only be used once, for example the code lifetime can be 30 mins, within
+      the same 30 mins you can resend the same code again if the user hasn't received
+      it, and it can't be used again if it was already used before.
+    id: '1619976671375368'
+  - created_time: '2017-09-29T18:45:33+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: Better to send the same code if its not expired as u may encounter a
+      delivery delay.
+    id: '1619979961375039'
+  - created_time: '2017-09-29T19:07:19+0000'
+    from:
+      name: Mahmoud El Kotoury
+      id: '10159892786570537'
+    message: put a flag ( boolean) isUsed and check if it is used ... when they click
+      resend it's more secure if you change it but you may encounter delay issue...
+      so you can  put a wait process between each sending 10 to 15 minutes maslan
+    id: '1619991361373899'
+  - created_time: '2017-09-29T22:12:37+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: Well look at fb and twitter and other fams who made 2 fac auth, they
+      generate every time and deprecate every code, even if not used, there's no gain
+      from trying to optimize, if facebook/google/twitter/amzn wanted to optimize
+      trust me they can, if you're not sure, just follow the lead.
+    id: '1620093948030307'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl4T1RrM05qWTNNVE0zTlRNMk9Eb3hOVEEyTnpFd016ZA3oZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl5TURBNU16azBPREF6TURNd056b3hOVEEyTnpJek1UVTQZD

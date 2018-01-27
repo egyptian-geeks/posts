@@ -1,0 +1,49 @@
+---
+message: |-
+  Hello there, people. I have a question regarding web development.
+
+  I've created a web application using the PHP framework CodeIgniter. Within this application, I've created a WebRTC section. What I'm asking is, is there a way to somehow allow navigation without reloading the WebRTC section?
+
+  What I've found is that we can either rewrite the entire thing as a single page app, use the HTML5 history API, or use jQuery and AJAX. Another solution off the top of my head is to use iFrames.
+
+  What I'm talking about is quite analogous to what Facebook does. You can click on the home button, and the entire page reloads, however, the chatting boxes stay in place, untouched. Can someone explain how do the Facebook guys specifically do this? Is it clean enough? Where should I start?
+from:
+  name: Amjad Mashaal
+  id: '10213738834576763'
+type: status
+created_time: '2016-05-18T23:40:57+0000'
+updated_time: '2016-05-19T01:26:04+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1145847598788280/
+shares:
+  count: 1
+id: '172338516139198_1145847598788280'
+reactions:
+  data:
+  - id: '10215064878801230'
+    name: Ahmed Abouzeid
+    type: LIKE
+  - id: '10214843347173894'
+    name: Hesham Watany
+    type: LIKE
+  - id: '560708687597049'
+    name: Mahmoud Fathy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRRd09EUTNPVGczTnpveE5EWXpOakl5TURZAMU9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBd01EQTVOek0zTmpjeU16WTBPakUwTmpNMk1UUTVNVFU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-05-18T23:50:14+0000'
+    from:
+      name: Mostafa Abdullah
+      id: '10216103154397825'
+    message: |-
+      I guess Facebook works with HTML5 history API.
+      GitHub behaves nearly the same as Facebook when you navigate through different tree pages, and a blog post on GitHub by a staff Engineer says that they manage it with HTML5 history API.
+      https://github.com/blog/760-the-tree-slider
+    id: '1145853358787704'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUwTlRnMU16TTFPRGM0Tnpjd05Eb3hORFl6TmpFMU5ERTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUwTlRnMU16TTFPRGM0Tnpjd05Eb3hORFl6TmpFMU5ERTIZD

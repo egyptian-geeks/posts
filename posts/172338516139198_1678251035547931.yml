@@ -1,0 +1,113 @@
+---
+message: Dear Friends, I am building a multi tenant application to be hosted on Azure
+  to provide a SaaS , will be using C# till now i found a good framework "https://aspnetboilerplate.com/
+  ", did any of you is recommending it or tried it before or even tried any other
+  similar framework
+link: https://aspnetboilerplate.com/
+from:
+  name: Ahmed Abd El Hady
+  id: '10155994963444544'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQBY62OitskZ6UGx&w=130&h=130&url=https%3A%2F%2Faspnetboilerplate.com%2Fimages%2Fhome%2Fabp-concerns.png&cfs=1&_nc_hash=AQDM52C6ih7vlGpH
+created_time: '2017-12-01T01:07:28+0000'
+updated_time: '2017-12-04T19:34:29+0000'
+name: ASP.NET Boilerplate
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1678251035547931/
+id: '172338516139198_1678251035547931'
+reactions:
+  data:
+  - id: '2001897360084292'
+    name: Ahsan Ali
+    type: LIKE
+  - id: '10156548320540656'
+    name: Mohammad Zekrallah
+    type: LIKE
+  - id: '10213072623002072'
+    name: Ahmed Salah Ask
+    type: LIKE
+  - id: '371369183335117'
+    name: Moktar Mohamed
+    type: LIKE
+  - id: '10155092313620671'
+    name: ابراهيم صالح
+    type: LIKE
+  - id: '1634488316607986'
+    name: Mohamed Emad
+    type: LIKE
+  - id: '1625359394210186'
+    name: Ahmed Marzouk
+    type: WOW
+  - id: '10159955677690471'
+    name: Mohamed Abou ElElla Hamed
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTNPVEl4TkRJd09UWXlPakUxTVRNek5qUTFNalE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TlRjME1ESTFORGN3T2pFMU1USXdPVEUxTVRNNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-12-01T01:26:15+0000'
+    from:
+      name: Ziad Ayman
+      id: '395096264276338'
+    message: "Don't know about it.. But I don't think that's a really wise choice
+      of naming \U0001F602"
+    id: '1678398108866557'
+  - created_time: '2017-12-01T01:33:54+0000'
+    from:
+      name: Ahmed Marzouk
+      id: '1625359394210186'
+    message: F
+    id: '1678402312199470'
+  - created_time: '2017-12-01T03:34:24+0000'
+    from:
+      name: Mohamed Abdul Jawad
+      id: '10159701356955315'
+    message: I had tried that in 4 projects now, it is amazing for quick win CRUD
+      and small business apps
+    id: '1678493345523700'
+  - created_time: '2017-12-01T07:13:20+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: 'Just from the first page, I some issues, they talk about layered architecture
+      and dependency injection, yet you have to write code to log vs using DI to inject
+      the logger instead of using AOP. I would design a much simpler design with your
+      core business for a single tenant. That is step 1. Step2: Add multitenancy the
+      simplest way possible such as creating a separate schema for each tenant. When
+      the number of users starts making sense, then you can do something more scalable.
+      Otherwise, YAGNI will apply and you will be doing overkill. Anyone who mentions
+      DDD and then uses Boilerplate logic like this is overcomplicating things. I
+      would advise you to watch Uncle Bob''s clean Architecture video.'
+    id: '1678634435509591'
+  - created_time: '2017-12-01T11:46:20+0000'
+    from:
+      name: Mohamed Rashed
+      id: '10155764645725568'
+    message: "Good framework \nI tried the premium template, and it's very good, but
+      you have to understand the framework first"
+    id: '1678813475491687'
+  - created_time: '2017-12-04T19:34:28+0000'
+    from:
+      name: Ahmed Abdo
+      id: '10155432639833282'
+    message: "I like it, start to read about it few weeks \nwill use it in next project"
+    id: '1682336161806085'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkzT0RNNU9ERXdPRGcyTmpVMU56b3hOVEV5TURreE5UYzEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFk0TWpNek5qRTJNVGd3TmpBNE5Ub3hOVEV5TkRFMk1EWTQZD
+attachments:
+  data:
+  - description: A starting point for ASP.NET MVC web applications with best practices
+      and most popular tools!
+    media:
+      image:
+        height: 511
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQDuwedDh7cG0Z8J&w=720&h=720&url=https%3A%2F%2Faspnetboilerplate.com%2Fimages%2Fhome%2Fabp-concerns.png&cfs=1&_nc_hash=AQAVsj_oNdw6K1A1
+        width: 511
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Faspnetboilerplate.com%2F&h=ATNz45ETFPVrOiErNyH6NxhL2zk0a7UDbk6ebWLvUZKV4yCQduQL8EB2m-UzT86BEy_BgupLni71vgsj1VPg-_1SLWXrxTFEalPc&s=1&enc=AZOfq6vGVqcfg0oNeSdV4cVRjGO_itjdRjn5uXIVqvFEjOljwZ0Ioh9ge4kPWWc8p8BirDj6dTh1lejsdZNgR_nA
+    title: ASP.NET Boilerplate
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Faspnetboilerplate.com%2F&h=ATNz45ETFPVrOiErNyH6NxhL2zk0a7UDbk6ebWLvUZKV4yCQduQL8EB2m-UzT86BEy_BgupLni71vgsj1VPg-_1SLWXrxTFEalPc&s=1&enc=AZOfq6vGVqcfg0oNeSdV4cVRjGO_itjdRjn5uXIVqvFEjOljwZ0Ioh9ge4kPWWc8p8BirDj6dTh1lejsdZNgR_nA

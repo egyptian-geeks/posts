@@ -1,0 +1,138 @@
+---
+message: |-
+  السلام عليكم, عايز أسأل على حاجة بخصوص Unity Development , عشان مش عارف بالظبط أبحث عنها إزاي.
+  الفكرة ببساطة إني بعمل لعبة, اللاعب فيها بيتحكم بحركة الطيارة, وفيه صاروخ بيطارد الطيارة, الصاروخ الإحداثيات بتاعته بتتحسب بناء على مكان الطيارة في كل Frame, هو المعادلات الرياضية لسأ فيها حاجات هتتعدل, بس فيه مشكلة مقابلاني ومش عارف أحلها إزاي!
+  نظراً لإني كل frame بحسب مكان جديد للصاروخ, والإحداثيات مش طالعة بشكل نقط متواصلة, فلما بشغل اللعبة بتبان إن في نفس اللحظة في كذا صاروخ ف الشاشة, مع إني لو عملت pause - كـ development - بيبان الصاروخ واحد بس عشان ف فريم معين..
+  هل فيه طريقة لحل المشكلة دي بإني أخلي الـ render بتاع الصاروخ مرة كل 10 frames مثلاً أو أي إقتراحات آخرى. وشكراً :D
+from:
+  name: Amr Ragab
+  id: '2044056615841775'
+type: status
+created_time: '2016-12-20T17:25:44+0000'
+updated_time: '2016-12-21T19:20:12+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1332776473428724/
+id: '172338516139198_1332776473428724'
+reactions:
+  data:
+  - id: '10154953532847827'
+    name: Mohammed Salah Salem
+    type: LIKE
+  - id: '1641565752594739'
+    name: Ahmed Aziz
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpnNU5UQTNPREkyT2pFME9ESXpORGcyTURRNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQXlNak01T1RFMk5UUXpPakUwT0RJeU5UZA3pNelk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-12-20T17:41:59+0000'
+    from:
+      name: Mohammed Hussien
+      id: '10154922289347024'
+    message: I think you are doing it right, one issue is you have to recycle the
+      same rocket object each time you change its position, not creating a new one.
+      maybe this can solve your problem.
+    id: '1332790833427288'
+  - created_time: '2016-12-20T17:44:24+0000'
+    from:
+      name: Amr Ragab
+      id: '2044056615841775'
+    message: |-
+      I'm not creating a new one, I'm setting its new position in another gameobject.
+
+      let's image that every frame, in the update function of a Controller gameobject, I catch the plane positions, apply the equations, and set the new position for the rocket.
+
+      That's so fast, it leads to the problem I mentioned above, the movement of the rocket don't seem a smooth one.
+    id: '1332793266760378'
+  - created_time: '2016-12-20T18:24:15+0000'
+    from:
+      name: Mohamed Gamal
+      id: '10156096685587328'
+    message: Make sure that you clear the object having the previous co-ordinates
+    id: '1332822813424090'
+  - created_time: '2016-12-20T18:27:01+0000'
+    from:
+      name: Amr Ragab
+      id: '2044056615841775'
+    message: what is meant by clreaing the object, I'm not creating a new object,
+      I'm just changed its positions
+    id: '1332823980090640'
+  - created_time: '2016-12-20T18:46:25+0000'
+    from:
+      name: Ahmed Mahmoud
+      id: '1917940025202392'
+    message: "هو انا متعاملتش مع  unity بس المشكله دي واجهتني قبل كده في حاجات راجعها
+      وشوف انهي سبب الخطأ \nاولا انك تعمل الاوبجيكت جوا ال update function :\nيعني
+      تعمل create لل object في داله الرندر ده هيخليه يعمل sprite جديدة كل فريم \n\nثانيا
+      انك تنسي تعمل clear لل canvas كل فريم :\nمش متأكد يونتي بيعمل كده اوتماتيك او
+      لا لان بعض المحركات لازم مع اي انيماشين تعمل clear لل كانفس او الشاشه بتاعه
+      اللعبه كلها وترسم ال sprite الجديدة ف مكان جديد ف الحالة دي اللي هي الصاروخ
+      \nحاول تكتب الكود بتاعك هنا"
+    id: '1332842283422143'
+  - created_time: '2016-12-20T19:14:30+0000'
+    from:
+      name: Ahmed Saleh
+      id: '10159933379005574'
+    message: ممكن تحمل فيديو علي اليوتيوب و توريني المشكله
+    id: '1332859220087116'
+  - created_time: '2016-12-20T19:14:52+0000'
+    from:
+      name: Ahmed Saleh
+      id: '10159933379005574'
+    message: usually you can render the rocket, in five frames per second by just
+      a simple a counter.
+    id: '1332859376753767'
+  - created_time: '2016-12-20T19:15:21+0000'
+    from:
+      name: Ahmed Saleh
+      id: '10159933379005574'
+    message: You need also to "INTERPOLATE" between the positions of the rockets so
+      that you can see the movement smoothly
+    id: '1332859913420380'
+  - created_time: '2016-12-20T19:56:58+0000'
+    from:
+      name: Amr Ragab
+      id: '2044056615841775'
+    message: طيب أنا هصور فيديو وارفعهولك .. ومش فاهم اوي التفاصيل الليى قلتها
+    id: '1332894893416882'
+  - created_time: '2016-12-20T21:20:42+0000'
+    from:
+      name: Mohamed Emam
+      id: '10156257513619883'
+    message: Enta elmafrood bt3mel translation msh bt3mel object gdeed
+    id: '1332961556743549'
+  - created_time: '2016-12-21T05:45:28+0000'
+    from:
+      name: George Leon
+      id: '10156058891705747'
+    message: انا عايز اتعلم unity game dev ابدء من فين
+    id: '1333302993376072'
+  - created_time: '2016-12-21T13:12:53+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      First of all, you say when you pause the game you see only one rocket? what about when you press the step button and move frame by frame, is it still one rocket? Try leaving the game running and look at the Scene Hierarchy, do objects keep spawning destroying constantly?
+      If you see objects spawning, then look at all scripts that have a reference to the rocket game object, and see if you care calling Instantiate() any where or calling any constructors (other than new Vector, dih tamam), calling instantiate on a component actually clone the whole game object not just the component, and saying new Transform() actually creates a new object with a transform.
+
+      Finally, did you consider using the Physics system in Unity? You don't need to write equations yourself, just get the RigidBody component and call AddForce on it in every frame (in FixedUpdate) and it will interpolate and do everything smoothly for you.
+    id: '1333561226683582'
+  - created_time: '2016-12-21T16:17:40+0000'
+    from:
+      name: Mahmoud Abd El-Fattah
+      id: '10156358805885288'
+    message: call me to discuss this when you have time :)
+    id: '1333722446667460'
+  - created_time: '2016-12-21T16:43:43+0000'
+    from:
+      name: Amr Ragab
+      id: '2044056615841775'
+    message: |-
+      Mahmoud Abd El-Fattah , Ahmed Saleh a recording video for the game
+      https://youtu.be/q_WhOczA_zA
+    id: '1333737096665995'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE16TWpjNU1EZA3pNelF5TnpJNE9Eb3hORGd5TWpVMU56RTUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE16TXpjek56QTVOalkyTlRrNU5Ub3hORGd5TXpNNE5qSTQZD

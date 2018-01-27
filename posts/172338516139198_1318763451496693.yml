@@ -1,0 +1,52 @@
+---
+message: "مساء الخير ياشباب، محتاج مساعدة فى SQL Query \nمعايا Input Table زى الللى
+  فى الصورة كدا و عاوز أكتب Query تعمل Matching بين كل uids فى الTable كله و يطلعلى
+  ال output زى ال table اللى فى الصورة كدا.\nفأى مساعده؟"
+link: https://www.facebook.com/photo.php?fbid=1235814439813819&set=gm.1318763451496693&type=3
+from:
+  name: Mohamed Emam
+  id: '1637456226316303'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/15356690_1235814439813819_4005868898076806170_n.jpg?oh=a0a0c641b007f9b19314d65fa545461b&oe=5B22C558
+created_time: '2016-12-08T16:42:39+0000'
+updated_time: '2016-12-08T22:12:53+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1318763451496693/
+id: '172338516139198_1318763451496693'
+comments:
+  data:
+  - created_time: '2016-12-08T18:18:39+0000'
+    from:
+      name: Khaled Elnaggar
+      id: '10215461207703148'
+    message: |-
+      ممكن توضح السؤال ولا انا اللي مش شايف العلاقه بين  input و output !! علي اي اساس اتقسمو علي 2 rows ?!
+      ولا تقصد انك عايز تطلع الdistinct id values ?!
+    id: '1318866214819750'
+  - created_time: '2016-12-08T22:12:50+0000'
+    from:
+      name: Hamdy Khalil
+      id: '10160159961475500'
+    message: "If I understood correctly, input table represents edges between nodes
+      in a graph and what you seek is to find a list of connected components in a
+      graph, you can do this by implementing a BFS search on the nodes of the graph.
+      \n\nCheck the following resources \n\nhttps://en.m.wikipedia.org/wiki/Connected_component_(graph_theory)\n\nhttp://www.hansolav.net/sql/graphs.html#bfs"
+    id: '1319160761456962'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE14T0RnMk5qSXhORGd4T1RjMU1Eb3hORGd4TWpJeE1URTUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE14T1RFMk1EYzJNVFExTmprMk1qb3hORGd4TWpNMU1UY3gZD
+attachments:
+  data:
+  - description: "مساء الخير ياشباب، محتاج مساعدة فى SQL Query \nمعايا Input Table
+      زى الللى فى الصورة كدا و عاوز أكتب Query تعمل Matching بين كل uids فى الTable
+      كله و يطلعلى ال output زى ال table اللى فى الصورة كدا.\nفأى مساعده؟"
+    media:
+      image:
+        height: 341
+        src: https://scontent.xx.fbcdn.net/v/t1.0-9/15356690_1235814439813819_4005868898076806170_n.jpg?oh=978aef45eccb401feecfccf4173ef01c&oe=5B1EB233
+        width: 435
+    target:
+      id: '1235814439813819'
+      url: https://www.facebook.com/photo.php?fbid=1235814439813819&set=gm.1318763451496693&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=1235814439813819&set=gm.1318763451496693&type=3

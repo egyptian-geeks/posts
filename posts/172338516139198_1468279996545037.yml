@@ -1,0 +1,52 @@
+---
+message: |-
+  السلام عليكم
+
+  سؤال يا شباب من فضلكم فى بروجكت WPF حيكونكت على بابليك api بس السيتم الخصا ب web & api شغال بانه بياخد الكونكشن دينامك اثناء اللوجن يعنى مفيش اى كونكشن فى web.config - وطبعا عشان api تشتغل مظبوط ده فى حالة انى بتصل بيها من بره فقط لازم اخليها تجيب الكونكشن حسب بارامتر معين انا باعته وده فى اى عمليه GET POST PUT DELETE
+
+  السؤال هل ده مهلك لل api والا ملوش اى تاثير - حاولت طبعا انى ابعت الكونكشن من wpf لل Context الخاصة ب api بحيث مضطرش انى اعمل الجزء ده فى كود api بس مع الاسف معرفتش
+from:
+  name: Ahmed Amin
+  id: '1962172197389574'
+type: status
+created_time: '2017-04-29T01:48:58+0000'
+updated_time: '2017-04-29T06:21:30+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1468279996545037/
+id: '172338516139198_1468279996545037'
+reactions:
+  data:
+  - id: '948184145345262'
+    name: Mohamed Wagdy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTBOakV3TlRVeU1ETTRPakUwT1RNME5EWTRNREE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTBOakV3TlRVeU1ETTRPakUwT1RNME5EWTRNREE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-04-29T03:22:13+0000'
+    from:
+      name: Bassam Abd Elhamid
+      id: '1955441501387657'
+    message: طب معلهش, قصدك ايه بـ "الكونكشن" , كمان هل انت بتبعت معلومات الدخول فى
+      كل مرة بتطلب حاجه من الاى بى اى؟
+    id: '1468328366540200'
+  - created_time: '2017-04-29T05:33:46+0000'
+    from:
+      name: Ahmed Amin
+      id: '1962172197389574'
+    message: الكونكشن هنا connection string - لا مش ببعت معلومات الدخول كلها ببعت
+      منها فقطid اللي بيكون قصاده في الداتابيز اسم السيرفر وقاعده البيانات وباقي الحاجات
+      المطلوبه بحيث لما بحفظ بحفظه معايا وبستدعي بيانات بدلالته وهكذا وهو موجود في
+      جميع الجداول
+    id: '1468420516530985'
+  - created_time: '2017-04-29T06:05:09+0000'
+    from:
+      name: Hany Ahmed
+      id: '10156089330442292'
+    message: 'سؤال جانبي: ليه الديزاين بتاعك وداك انك تعمل كذا داتابيز أصلاً ؟'
+    id: '1468438546529182'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEyT0RNeU9ETTJOalUwTURJd01Eb3hORGt6TkRNMk1UTTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEyT0RRek9EVTBOalV5T1RFNE1qb3hORGt6TkRRMU9UQTUZD

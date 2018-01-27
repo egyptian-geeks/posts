@@ -1,0 +1,98 @@
+---
+message: "السلام عليكم\nمن يومين قرات مقاله علي Code Project \nHow to Share Resources
+  Between Threads بس بخصوص لغة الجافا\nhttps://www.codeproject.com/Tips/1173248/How-to-Share-Resources-Between-Threads\n\nالمقالة
+  كانت مثيرة فعلا بالنسبة ليه لكن حاولت أوصل لكيفية تطبيق الكلام ده في C#.NET واذا
+  ما كان بيتم تلافي المشكلة ديه تلقائيا او لأ ومش لقيت أي طرف خيط \nكل الي بلاقيه
+  ازاي تنقل الداتا من بين ال Threads والموضوع الي عاوز اوصله حاجة تانية خالص.\n\nفلو
+  حد عنده معلومات ياريت يفيدنا\n\nده جزء من المقالة توضح شوية الي بيحصل\nWhy Synchronized
+  Slowdown Application?\nWhen a thread gets locked and starts to execute instructions
+  in a synchronized block, all other threads will be blocked and become idle. Execution
+  context (CPU cache, instruction set, stack pointer ...) of those threads will be
+  stored and execution context of other active threads will be restored to resume
+  computing. It's called context switch and requires significant effort of the system.
+  Task scheduler also has to run to pick which thread will be loaded."
+link: https://www.codeproject.com/Tips/1173248/How-to-Share-Resources-Between-Threads
+from:
+  name: احمد قرواش
+  id: '1561022257326859'
+type: link
+created_time: '2017-03-28T17:44:12+0000'
+updated_time: '2017-03-29T13:23:25+0000'
+name: How to Share Resources Between Threads? - CodeProject
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1435461016493602/
+shares:
+  count: 1
+id: '172338516139198_1435461016493602'
+reactions:
+  data:
+  - id: '1862447403797374'
+    name: Saied Attallah
+    type: LIKE
+  - id: '1589145544505470'
+    name: Mohamed El-Alfy
+    type: LIKE
+  - id: '1826024707472018'
+    name: Ahmed AboRahma
+    type: LIKE
+  - id: '1601712166541624'
+    name: Hossam Hassan
+    type: LIKE
+  - id: '1625359394210186'
+    name: Ahmed Marzouk
+    type: LIKE
+  - id: '10215620557573580'
+    name: Mohamed Abdel Aty
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdPVFl6T1RjNE5qWXdPakUwT1RBM016WTJNRGc2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRRek1ETXhNRFkwTURveE5Ea3dOekkxTVRNNU9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2017-03-28T20:59:04+0000'
+    from:
+      name: Ibraheem Osama
+      id: '10155206310513093'
+    message: "You have 2 types of data structure \n1 ) thread safe : that can support
+      concurrent access or access data same time and this is supported in the .net
+      using especial data structures like concurrentList and concurrentDictionary
+      \n2) thread non-safe : this doesn't support access same time from different
+      threads like List and dictionary etc\nMost of out of the box data structure
+      in c# is not thread safe \nSo if you have a multithread application and you
+      want to use a datastructure just check if it is thread safe or not\nIf not and
+      you must use this datastructure and there is no similar thread safe type of
+      it , you'll have to use locks or semaphore based on your application\n(Typing
+      from phone incase there are typos)"
+    id: '1435590233147347'
+  - created_time: '2017-03-28T21:05:28+0000'
+    from:
+      name: Ibraheem Osama
+      id: '10155206310513093'
+    message: "Regarding slow down you have 2 root causes \n1) context switching :
+      like the part you copied from article\n2) locks : which allows only one thread
+      to access this part of code and block others threads until the first thread
+      finish and once done allow only another single thread to enter etc. and as you
+      see there is a blocking time which slows down the total time but you can reduce
+      this by many approaches"
+    id: '1435593833146987'
+  - created_time: '2017-03-29T13:23:23+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      If you have an object that you want to safely access from multiple threads, just use the "volatile" accessor (eg: private volatile byte[] buffer;), this will force the data to always be read/written from memory and not from the processor cache, so different threads will always read the same value.
+      Alternatively, you can surround the area where you access the object with a lock statement, which works just like the synchronized statement in java.
+    id: '1436144636425240'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF6TlRVNU1ESXpNekUwTnpNME56b3hORGt3TnpNME56UTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF6TmpFME5EWXpOalF5TlRJME1Eb3hORGt3Tnprek9EQXoZD
+attachments:
+  data:
+  - description: 'Synchronization is slow, why and how to do better?; Author: vudangngoc;
+      Updated: 28 Mar 2017; Section: Java; Chapter: Languages; Updated: 28 Mar 2017'
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.codeproject.com%2FTips%2F1173248%2FHow-to-Share-Resources-Between-Threads&h=ATPkAXkWh5lUgTPWppx5PamOiLpn-Q0b0CWm8FcCFLgXdqwI6Z3MEB5jNc1IcO09Wvn-g7NR29Nc-XK1HL6Nb8mjlDM67yB5egKZ&s=1&enc=AZNKJmiVnN8-GNRyhDKw5A0BrpC87sYhzUEcbTjwHW0n35iwNPQTv4CO2C_fwhOdK0kNBtR5EyYnPNOx1cw4R45V
+    title: How to Share Resources Between Threads? - CodeProject
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.codeproject.com%2FTips%2F1173248%2FHow-to-Share-Resources-Between-Threads&h=ATPkAXkWh5lUgTPWppx5PamOiLpn-Q0b0CWm8FcCFLgXdqwI6Z3MEB5jNc1IcO09Wvn-g7NR29Nc-XK1HL6Nb8mjlDM67yB5egKZ&s=1&enc=AZNKJmiVnN8-GNRyhDKw5A0BrpC87sYhzUEcbTjwHW0n35iwNPQTv4CO2C_fwhOdK0kNBtR5EyYnPNOx1cw4R45V

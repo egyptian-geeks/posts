@@ -1,0 +1,56 @@
+---
+message: "Hey guys, \nI have course materials (videos/pdf), and I want to limit access
+  to them such that only the authorized pc can \"unlock\" and view them and no one
+  else. I found a software that does that but it has some problems with different
+  pcs. \nPassword protecting the material is not a good idea because then it can be
+  passed to other people along with the password.\nEdit: the client is open to anything,
+  any ideas involving web based authentication for example."
+from:
+  name: Mohamed Osman
+  id: '10156415267997448'
+type: status
+created_time: '2017-07-22T09:45:45+0000'
+updated_time: '2017-07-22T11:21:14+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1554836447889391/
+id: '172338516139198_1554836447889391'
+reactions:
+  data:
+  - id: '10156202928706979'
+    name: Sherif Elbanna
+    type: LIKE
+  - id: '2003551626552599'
+    name: MOhammed Salah
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpZAd01qQXhPVGM0T2pFMU1EQTNNVGM1TnpZANk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQTJPVE16TkRJek5qZA3pPakUxTURBM01UYzNNRGc2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-07-22T09:50:18+0000'
+    from:
+      name: Nour Ahmed
+      id: '1821238104562697'
+    message: One rule once goes into internet you can not protected . Especially if
+      it is vedio whatever technology you will use may same thing like Netflix or
+      other someone can capture the screen
+    id: '1554839117889124'
+  - created_time: '2017-07-22T10:05:56+0000'
+    from:
+      name: Youssef Simon
+      id: '10159943738270613'
+    message: ePub
+    id: '1554847901221579'
+  - created_time: '2017-07-22T11:21:12+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: |-
+      you can have a normal web application with the usual login + One Time Password
+      - the OTP will force the user to enter a code from his phone everytime he login, so he can't pass it to another user as he won't have the OTP on his phone.
+      - just like when you login to facebook and you enter the OTP from the facebook app on you phone, even if someone knows your password he won't be able to have the OTP as it changes overtime.
+    id: '1554896454550057'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUxTkRnek9URXhOemc0T1RFeU5Eb3hOVEF3TnpFM01ERTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUxTkRnNU5qUTFORFUxTURBMU56b3hOVEF3TnpJeU5EY3kZD

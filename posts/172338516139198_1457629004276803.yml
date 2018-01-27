@@ -1,0 +1,122 @@
+---
+message: |-
+  Is there any good API or Python code to convert from Franco Arabic to Arabic ?
+  Can you recommend to me any?
+from:
+  name: Basant Medhat
+  id: '10212874686954385'
+type: status
+created_time: '2017-04-18T13:49:15+0000'
+updated_time: '2017-04-19T16:35:36+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1457629004276803/
+id: '172338516139198_1457629004276803'
+reactions:
+  data:
+  - id: '769500683244812'
+    name: Ahmed Mohamed
+    type: LIKE
+  - id: '765335353652341'
+    name: Mohamed AbdElaziz
+    type: LIKE
+  - id: '1539552666097869'
+    name: Mohammed Ahmed
+    type: LIKE
+  - id: '10213802216302674'
+    name: Abdelrahman El Kinani
+    type: LIKE
+  - id: '1645766338837077'
+    name: Dalia Mohammed
+    type: LIKE
+  - id: '10155123895506641'
+    name: Dina Reda
+    type: LIKE
+  - id: '1771331073174421'
+    name: Dalia Ihab
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTFOVFEyTmpJNE1UTXdPakUwT1RJMk5EUXhPVGc2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTRPVEkyTXpVM05qVTFPakUwT1RJMU1qTXpOemM2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-04-18T13:49:44+0000'
+    from:
+      name: Dalia Ihab
+      id: '1771331073174421'
+    message: "+1"
+    id: '1457629340943436'
+  - created_time: '2017-04-18T13:51:51+0000'
+    from:
+      name: Dalia Mohammed
+      id: '1645766338837077'
+    message: "+1"
+    id: '1457632747609762'
+  - created_time: '2017-04-18T13:52:35+0000'
+    from:
+      name: Bakir Alharoun
+      id: '2109950492620951'
+    message: |-
+      ما اعتقد تلاقي
+      لكن سهل جدا الكود اعتقد
+
+      المشكلة الي حتواجهك هي اختلاف طرق الكتابة واستعمال الاحرف
+    id: '1457633380943032'
+  - created_time: '2017-04-18T13:54:25+0000'
+    from:
+      name: Mahmoud Ramadan
+      id: '10159876198415015'
+    message: http://www.yamli.com/api/
+    id: '1457634370942933'
+  - created_time: '2017-04-18T13:54:29+0000'
+    from:
+      name: Ahmed Reda
+      id: '10159861210675006'
+    message: Microsoft maren
+    id: '1457634437609593'
+  - created_time: '2017-04-18T14:09:37+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: |-
+      https://github.com/athreef/Encode-Arabic-Franco
+      https://github.com/athreef/WebService-Yamli
+    id: '1457653704274333'
+  - created_time: '2017-04-18T14:10:31+0000'
+    from:
+      name: Mahmoud Hossam
+      id: '1360912124012585'
+    message: |-
+      Yamli doesn't really provide an API for you to use in Python code, all they provide is a javascript SDK for use in websites.
+
+      Microsoft Maren does what you want, but it isn't really an API, your best bet is to decompile it and see how it works.
+
+      I think Google had an API for that (Transliteration) but it's deprecated now.
+
+      What you need to do in Python is something like this, but you'll need to provide your own transliterations for Franco
+
+      https://github.com/barseghyanartur/transliterate
+    id: '1457654304274273'
+  - created_time: '2017-04-18T14:33:06+0000'
+    from:
+      name: Hady El-Ziady
+      id: '10155549760031026'
+    message: http://api.yamli.com/transliterate.ashx?word=mat2oleesh&tool=api&account_id=&prot=&hostname=&path=&build=&sxhr_id
+    id: '1457675467605490'
+  - created_time: '2017-04-19T16:24:11+0000'
+    from:
+      name: Ahmed Galal
+      id: '10160277627030455'
+    message: Ur best option is to use microsoft maren, i have done this like 7 years
+      ago, u can decompile the code and u can include the dll/exe in ur project and
+      use their api, i dont think its legal tho
+    id: '1458956880810682'
+  - created_time: '2017-04-19T16:29:32+0000'
+    from:
+      name: Basant Medhat
+      id: '10212874686954385'
+    message: Thank You All :D
+    id: '1458960480810322'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFExTnpZAeU9UTTBNRGswTXpRek5qb3hORGt5TlRJek16ZAzAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFExT0RrMk1EUTRNRGd4TURNeU1qb3hORGt5TmpFNU16Y3kZD

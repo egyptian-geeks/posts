@@ -1,0 +1,61 @@
+---
+message: |-
+  SA,
+  I'm generating reports from mySQL db. The report counts, takes average, etc.. from multiple tables and columns. (Note that count, avr, etc.. returns a table with one row)
+  I want to concatinate these one row tables in one table.
+  It's like UNION but done horizontally not vertically.
+
+  Any suggestions?
+from:
+  name: Mohamed Gamal
+  id: '10156096685587328'
+type: status
+created_time: '2017-02-24T15:29:54+0000'
+updated_time: '2017-02-25T15:15:34+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1399483123424725/
+id: '172338516139198_1399483123424725'
+comments:
+  data:
+  - created_time: '2017-02-24T15:40:30+0000'
+    from:
+      name: Osama Soliman
+      id: '879271768900112'
+    message: |-
+      may this help ?
+      https://www.w3schools.com/sql/sql_join.asp
+    id: '1399488563424181'
+  - created_time: '2017-02-24T17:20:22+0000'
+    from:
+      name: Tarek Moukhtar
+      id: '10154916789376650'
+    message: Simple select for each column. Poor in performance. U can replace it
+      for maintainability by functions.
+    id: '1399568530082851'
+  - created_time: '2017-02-24T17:52:59+0000'
+    from:
+      name: Mohammed Farghal
+      id: '10155396126947689'
+    message: |-
+      select (query1) as average, (query2) as count...etc
+
+      Example:
+      select (select count(*) from table1) as cnt, (select avg(col) from table2) as average;
+
+      this will give you a table having one row with 2 columns (cnt, average)
+    id: '1399598746746496'
+  - created_time: '2017-02-25T04:36:52+0000'
+    from:
+      name: Essam Abd Ellatif Essawy
+      id: '1865486140192254'
+    message: SA
+    id: '1400102886696082'
+  - created_time: '2017-02-25T15:15:33+0000'
+    from:
+      name: Diaa Sami
+      id: '10215834435679186'
+    message: this is a join of two different queries on some trivial always true condition
+    id: '1400607493312288'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE01T1RRNE9EVTJNelF5TkRFNE1Ub3hORGczT1RVd09ETXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF3TURZAd056UTVNek14TWpJNE9Eb3hORGc0TURNMU56TXoZD

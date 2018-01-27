@@ -1,0 +1,15 @@
+---
+message: |-
+  Anyone tried to install Hyper-V inside another Hyper-V ?
+
+  the scenario : i have an Azure VM running Windows Server 2012 , i have added the role for the Hyper-V(include Management Service) from the command line, after restart i couldn't find any way to open it however the Services is running in the Taskman , i want to run the Windows Phone 8 SDK Emulator inside this VM but it failed because one of the Hyper-V component can't started.
+
+  Any Ideas to solve the problem would be appreciated.
+from:
+  name: Eslam Hamouda
+  id: '10212947071504226'
+type: status
+created_time: '2013-10-15T07:20:55+0000'
+updated_time: '2013-10-15T20:50:48+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/637612669611778/
+id: '172338516139198_637612669611778'

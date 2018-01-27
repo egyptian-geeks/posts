@@ -1,0 +1,70 @@
+---
+message: "كنت مسطب ويندوز 10 و بعدها سطبت اوبونتو \nال bootloader بقى grub و بختار
+  ما بينهم تمام .. بعدها كنت بجرب اسطب نسخة لينكس تانية في نفس مكان النسخة السابقة
+  و التسطيب باظ في نصه .. \nدلوقتي الجهاز بيفتح على grub rescue  عاوز اقدر ادخل على
+  ويندوز 10 تاني و ارجع ال bootloader بتاعه"
+from:
+  name: Mohamed Ahmed
+  id: '1470551303043336'
+type: status
+created_time: '2018-01-21T20:36:17+0000'
+updated_time: '2018-01-22T05:41:34+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1729196457120055/
+shares:
+  count: 1
+id: '172338516139198_1729196457120055'
+reactions:
+  data:
+  - id: '926988170782543'
+    name: Ta Ha
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTBNVFF4TURVNE9ESTJPakUxTVRZAMk1qZA3pNelU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTBNVFF4TURVNE9ESTJPakUxTVRZAMk1qZA3pNelU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2018-01-21T20:40:50+0000'
+    from:
+      name: Hossam L Dokkani
+      id: '928444520664078'
+    message: |-
+      Fix windows bootloader with the bootable USB or dvd
+      Search Google there will be 3 commands you need to run
+    id: '1729249277114773'
+  - created_time: '2018-01-21T20:42:51+0000'
+    from:
+      name: Kamal Saleh
+      id: '10212867095366994'
+    message: اعمل بوت من اسطوانة الويندوز واختار repair
+    id: '1729251630447871'
+  - created_time: '2018-01-21T20:46:09+0000'
+    from:
+      name: مؤمن هادى
+      id: '440680169702247'
+    message: |-
+      فى ال command prompt
+
+      bootrec.exe /rebuildbcd
+      bootrec.exe /fixmbr
+      bootrec.exe /fixboot
+    id: '1729255363780831'
+  - created_time: '2018-01-21T21:03:42+0000'
+    from:
+      name: Kirolos William
+      id: '1655971554442248'
+    message: "First follow this link \nhttps://www.linux.com/learn/how-rescue-non-booting-grub-2-Linux\n\nThen
+      when u already booted into linux run this command \nsudo update-grub"
+    id: '1729268030446231'
+  - created_time: '2018-01-22T05:41:30+0000'
+    from:
+      name: Ahmad Abdel-Halim
+      id: '2096741833892170'
+    message: 'لازم تمسح النسخة القديمة من لينكس الأول قبل ما تنزل نسخة جديدة. الموضوع
+      ده tricky شوية علشان لازم تخش على الEFI partition وتمسح النسخة القديمة منه وبعد
+      كده تنزل النسخة الجديدة عادي. شوف اللينك ده: http://linuxbsdos.com/2015/09/05/how-to-delete-grub-files-from-a-boot-efi-partition-in-windows-10/'
+    id: '1729595107080190'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN5T1RJME9USTNOekV4TkRjM016b3hOVEUyTlRZAM01qVXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN5T1RVNU5URXdOekE0TURFNU1Eb3hOVEUyTlRrNU5qa3gZD

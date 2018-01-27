@@ -1,0 +1,52 @@
+---
+message: "Hello everyone\nThere is a problem in our business model and we are trying
+  to solve it and i would appreciate opinions\n \nFor every user he is allowed to
+  use under his account up to 4 devices ( we deliver premium content and we want to
+  limit access ) , in the past we used to use device id (ios & Android ) and now to
+  Access such information we need to explicitly ask for phone permission on Android
+  6.0+. And we want to use something else that is less scary and keeps the user privacy
+  yet unique per device. \nI've thought of instance ID , GUID but I'm not sure if
+  there is a better solution and which to choose"
+from:
+  name: Ahmed Abdul Fatah
+  id: '10215063025752842'
+type: status
+created_time: '2017-02-08T15:30:04+0000'
+updated_time: '2017-02-09T15:05:35+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1382509945122043/
+id: '172338516139198_1382509945122043'
+reactions:
+  data:
+  - id: '1791258444267523'
+    name: Mostafa Elsayh
+    type: LIKE
+  - id: '10215795587468352'
+    name: George Kastour
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhOVEF4TlRRek56WTNPakUwT0RZAMk56azRPRFE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRRd05ETTBOalk0T1RveE5EZAzJOakl6TnpjNU9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2017-02-08T22:05:15+0000'
+    from:
+      name: Amjad Mashaal
+      id: '10213738834576763'
+    message: Can you access the MAC address?
+    id: '1382768785096159'
+  - created_time: '2017-02-09T08:22:29+0000'
+    from:
+      name: Tony Raoul Iscaros
+      id: '10156165643313420'
+    message: "From my point of view all these can be spoofed , note that something
+      like Knox , BlueStacks (Android on PC) tools can be a huge pain that way , \nSo
+      my proposed solution would be a device authentication and limit the number of
+      sessions to 4 per user if you need to enable them to switch devices , however
+      if it is restricted to have 4 devices in a lifetime generate a hash and save
+      it encrypted in the device in a safe way so that no one can spoof it"
+    id: '1383095568396814'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE00TWpjMk9EYzROVEE1TmpFMU9Ub3hORGcyTlRreE5URTEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE00TXpBNU5UVTJPRE01TmpneE5Eb3hORGcyTmpJNE5UVXcZD

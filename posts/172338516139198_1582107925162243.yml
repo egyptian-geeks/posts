@@ -1,0 +1,119 @@
+---
+message: "صباح الخير.. \nعندي فكرة mobile app ومحتاج احط صورة إنسان يجيب اللي شبهه
+  في الملامح من الداتا بيز. حد يعرف lip معينة ممكن استعملها أو تسهل الشغل؟؟"
+from:
+  name: Ahmed Saber
+  id: '10215232240456289'
+type: status
+created_time: '2017-08-17T07:53:27+0000'
+updated_time: '2017-08-18T00:38:45+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1582107925162243/
+shares:
+  count: 1
+id: '172338516139198_1582107925162243'
+reactions:
+  data:
+  - id: '825290564324928'
+    name: Yassine Fayyad
+    type: LIKE
+  - id: '1529543267141756'
+    name: Omar Salama
+    type: LIKE
+  - id: '2125765054312127'
+    name: Mahmoud Ashraf
+    type: LIKE
+  - id: '10157228444663975'
+    name: Mahmoud Mamdouh
+    type: LIKE
+  - id: '2010899149153429'
+    name: Yasmen El Ghandour
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTFNekU1TnpZAMU16a3dPakUxTURNd01EZA3dOalk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTNNREF3T1RBeU9ETTJPakUxTURJNU5UWTRNRGM2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-08-17T08:10:53+0000'
+    from:
+      name: Ahmed Moussa
+      id: '1750532274967735'
+    message: "I don't know if a lib already exists with this kind of functionality\nBut
+      you can do some image processing operations on the images you have in the database
+      and save the results in your table column then with each image inserted for
+      the search you can do the same operations and with it's results create the appropriate
+      SQL code to retrieve the records from the database\n\nDepending on the operations
+      you want in image processing I can help \nLet's say for example you are detecting
+      if there is a human being in the image or not \nBefore anything you will to
+      do edge detection which will detect all the edges in the image (ex: cany edge
+      detection other algorithms do exist but this is the one that came to mind) \nThen
+      do another operations to detect whiter it is the object you want or not \n\nHope
+      that was helpful"
+    id: '1582116195161416'
+  - created_time: '2017-08-17T08:19:12+0000'
+    from:
+      name: Ahmed Saber
+      id: '10215232240456289'
+    message: Ibrahim Eid ايه رايك ؟
+    id: '1582119878494381'
+  - created_time: '2017-08-17T09:15:47+0000'
+    from:
+      name: Abdo Mahmoud
+      id: '1791054194278576'
+    message: |-
+      بص هو أنا معرفش اللي هقولهولك دا موجود في الموبايل و لا لا بس هوموجود ف كـlibraries  في لغات (python-java-++C).
+      الموضوع اللي أنا عارفه بيعتمد على الmachine learning وبينقسم لجزئين أساسين:
+      الجزء الأول : اسمه الfeature extraction أو استخراج الخصائص اللي بناءا عليها هتقوم بعملية المقارنة و هقولك مثال بسيط بعيد عن "الصور" تخيل ان عندك مجموعة من الأشخاص عايز تقارن بينهم بناءا على الطول و الوزن يبقى الfeature بتاعتك هي الطول و الوزن في حالة الصةر بقا مافيش feature ثابتة ققيه مجموعة   Algorithms مستخدمة للfeature extraction من أشهرها و مستخدمة كتير في الأبحاث العلمية (SIFT Algorithm) انت كدا حددت الfeatures الأساسية لوجه الإنسان بإستخدام dataset الموجودة عندك لوجوه البني ادمين و ال features الخاصة بكل صورة اسمها ال descriptors.
+      الجزء الثاني : بينقسم لمرحلتين و هما مرحلتين ال machine learning الأولى ال cluestring بإستخدام مثلا (KNN Algorithm) لمجموعة الdescriptors و المرحلة التانية ال Classification بإستخدام مثلا (K-Means Algorithm or Neural NetworkAlgorithm) دا الموضوع بإختصار شديد جدا.
+      و الموضوع داخل تحت مظلة الComputer Vision.
+      والله أعلم.
+    id: '1582154368490932'
+  - created_time: '2017-08-17T09:15:50+0000'
+    from:
+      name: Eslam Shaker
+      id: '10214728774110070'
+    message: In iOS there is coreML, that apple introduced with swift 4, it’s really
+      easy
+    id: '1582154388490930'
+  - created_time: '2017-08-17T11:22:20+0000'
+    from:
+      name: Mahmoud Mamdouh
+      id: '10157228444663975'
+    message: |-
+      Check this
+      https://azure.microsoft.com/en-us/services/cognitive-services/face/
+    id: '1582222815150754'
+  - created_time: '2017-08-17T14:02:31+0000'
+    from:
+      name: Ahmed Saber
+      id: '10215232240456289'
+    message: شكرا ي جماعة.. واللي عنده حاجة تانية يضيفها.
+    id: '1582326465140389'
+  - created_time: '2017-08-17T16:31:10+0000'
+    from:
+      name: Ahmed Fathi
+      id: '10214258590435332'
+    message: |-
+      Try openCV
+      http://docs.opencv.org/2.4/doc/tutorials/imgproc/histograms/template_matching/template_matching.html
+    id: '1582478501791852'
+  - created_time: '2017-08-17T20:54:44+0000'
+    from:
+      name: Mahmoud Ashraf
+      id: '2125765054312127'
+    message: |-
+      try this api ;)
+
+      https://developers.google.com/vision/
+    id: '1582645268441842'
+  - created_time: '2017-08-18T00:38:07+0000'
+    from:
+      name: Nada Mansour
+      id: '1824807094219486'
+    message: Opencv, search bl pca wl eigen faces w kda msh fakra bl zabt bs esht8lt
+      f project zy da bl python if you need help momkn a3raf asa3dk
+    id: '1582771551762547'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU0TWpFeE5qRTVOVEUyTVRReE5qb3hOVEF5T1RVM05EVTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU0TWpjM01UVTFNVGMyTWpVME56b3hOVEF6TURFMk5qZAzMZD

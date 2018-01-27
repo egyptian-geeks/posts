@@ -1,0 +1,130 @@
+---
+message: |-
+  Guys if you manage a lot of servers and tired of keeping track of all their users ips and ports. check out https://github.com/GomaaK/sshez
+  It still needs some development work to include more advanced features but it is ok for normal usage. Your feedback/contributions are highly appreciated.
+link: https://github.com/GomaaK/sshez
+from:
+  name: Khaled Gomaa
+  id: '10159851106195371'
+type: link
+created_time: '2015-12-06T19:16:20+0000'
+updated_time: '2015-12-06T22:25:08+0000'
+name: GomaaK/sshez
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1041548999218141/
+id: '172338516139198_1041548999218141'
+reactions:
+  data:
+  - id: '10156089336182292'
+    name: Hassan Aly Selim
+    type: LIKE
+  - id: '1772542006152666'
+    name: Mohamed AbuIssa
+    type: LIKE
+  - id: '10160007537500512'
+    name: Abbas Adel Ibrahim
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRFNU5qa3lNamt4T2pFME5EazBNamszTlRrNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: T0RnNU1USTFOVEV4T2pFME5EazBNamswT0RZANk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2015-12-06T19:31:21+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: what is the difference of using this command and adding your server ips
+      in ~/.ssh/config ?
+    id: '1041552832551091'
+  - created_time: '2015-12-06T19:35:35+0000'
+    from:
+      name: Khaled Gomaa
+      id: '10159851106195371'
+    message: Nothing. Exactly like any generators you use, you can do it yourself
+      but it is just much easier this way
+    id: '1041553895884318'
+  - created_time: '2015-12-06T19:37:16+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: but then what's the added value of using it?
+    id: '1041554382550936'
+  - created_time: '2015-12-06T19:48:05+0000'
+    from:
+      name: Khaled Gomaa
+      id: '10159851106195371'
+    message: I love having 1 liners that makes my life easier. I would never prefer
+      editing maintaining a file by myself. I'm what you can call a lazy developer.
+      I think this one is for lazy developers that want to automate everything they
+      do.
+    id: '1041557372550637'
+  - created_time: '2015-12-06T20:04:37+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: |-
+      Did someone say oneliners? :D
+      function sshez { u=$(echo $2|cut -f1 -d@);h=$(echo $2|cut -f2 -d@|cut -f1 -d:);p=$(echo $2|cut -f2 -d:); printf "\nHost $1\n\tUser $u\n\tHostName $h\n\tPort $p" >>~/.ssh/config;};
+    id: '1041564265883281'
+  - created_time: '2015-12-06T20:17:38+0000'
+    from:
+      name: Khaled Gomaa
+      id: '10159851106195371'
+    message: If you handled removing aliases and I will definitely use that. A gem
+      is just an easy way to share and install that's why I did it that way.
+    id: '1041568535882854'
+  - created_time: '2015-12-06T20:45:16+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: |-
+      function ssh-remove { sed -i'' -e "/^Host $1\$/,+3d" ~/.ssh/config ;};
+      note: you need GNU sed for this
+    id: '1041577059215335'
+  - created_time: '2015-12-06T20:48:16+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: |-
+      And here the first one using sed too, less ugly than using cut:
+
+      function ssh-add { echo $2 | sed -e "s/\(.*\)@\(.*\):\(.*\)/%Host $1%^User \1%^HostName \2%^Port \3/" | tr % "\n" | tr ^ "\t" >>~/.ssh/config};
+    id: '1041577909215250'
+  - created_time: '2015-12-06T20:51:23+0000'
+    from:
+      name: Mohamed El-Sayed
+      id: '10155182529813309'
+    message: Cryptic bash one liners aside, I don't think that system tools written
+      in ruby is a good idea..the version compatibility issues and conflicts are just
+      too damn much...
+    id: '1041578829215158'
+  - created_time: '2015-12-06T21:15:43+0000'
+    from:
+      name: Mohamed El-Sayed
+      id: '10155182529813309'
+    message: it's worth mentioning that automating even the simplest and most trivial
+      tasks is important... it just takes things out of the way and let's you focus
+      on what you are doing, and makes you consistent and less likely to make mistakes...the
+      tools used are basically a personal preference...
+    id: '1041586672547707'
+  - created_time: '2015-12-06T21:39:26+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: This is clearly a terminal utility, why is it in your README do you hint
+      at the possibility that it could be used as a library by suggesting one can
+      put it in a Gemfile? Does it expose any public interfaces and if so why aren't
+      they documented?
+    id: '1041592862547088'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEEwTVRVMU1qZA3pNalUxTVRBNU1Ub3hORFE1TkRNd01qZA3kZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEEwTVRVNU1qZAzJNalUwTnpBNE9Eb3hORFE1TkRNM09UWTMZD
+attachments:
+  data:
+  - description: sshez - If you have a lot of ips in mind. this is your keeper
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2FGomaaK%2Fsshez&h=ATP22BKX9BjvAb5EKkkyfoPZTRXwm5YEXSRgd95G-TiaW9iMHeANtI1dhMeuTtN6JCIoYo6RuZNdvKOImHhbD5ObQojuYzycG606&s=1&enc=AZOLP4Pn6f9OS02qP30StrrOlmgOWQd0hn2UuVj6acNzCz4-1WFS2Hst6wQIgVNfyMwUQ7gtuFnPNf4T7u76dupC
+    title: GomaaK/sshez
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2FGomaaK%2Fsshez&h=ATP22BKX9BjvAb5EKkkyfoPZTRXwm5YEXSRgd95G-TiaW9iMHeANtI1dhMeuTtN6JCIoYo6RuZNdvKOImHhbD5ObQojuYzycG606&s=1&enc=AZOLP4Pn6f9OS02qP30StrrOlmgOWQd0hn2UuVj6acNzCz4-1WFS2Hst6wQIgVNfyMwUQ7gtuFnPNf4T7u76dupC

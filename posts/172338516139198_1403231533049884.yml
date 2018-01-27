@@ -1,0 +1,171 @@
+---
+message: "ال disk usage عندي أغلب الوقت 100% .. مفيش process معينة بتستهلك .. بس أي
+  حاجة تقريبا بفتحها بتخليه 100 .. من أول chrome ولحد photoshop .. بس في ال idle بيبقى
+  1-3% مثلا\nجربت معظم الكلام اللي على اليوتيوب، طفيت ال superfetch و windows search
+  .. زودت ال virtual memory .. نضفت ال cache .. وبردو مفيش فايدة \nالهارد بتاعي تيرا
+  فاضي منه بتاع 400 ميجا \nممكن يكون إيه المشكلة؟"
+link: https://www.facebook.com/photo.php?fbid=1399614250090976&set=gm.1403231533049884&type=3
+from:
+  name: Ànasation Àmeration
+  id: '1732877356764662'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/16996419_1399614250090976_5816391531958350089_n.jpg?oh=63b7675bffb59a089dab4da79db417d7&oe=5AF0009C
+created_time: '2017-02-27T19:12:38+0000'
+updated_time: '2017-03-03T07:03:07+0000'
+name: Photos from Ànasation Àmeration's post
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1403231533049884/
+id: '172338516139198_1403231533049884'
+reactions:
+  data:
+  - id: '10156292729931495'
+    name: Mohammed Abdel Momen
+    type: LIKE
+  - id: '10215648453949171'
+    name: Mahmoud Said Ahmed
+    type: LIKE
+  - id: '1625359394210186'
+    name: Ahmed Marzouk
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpnNU9UWXhORGswT2pFME9EZAzFNVFExTXpVNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQXlNRGcwTWpJMk1UZA3lPakUwT0RneU9UWXhOekk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-02-27T19:24:06+0000'
+    from:
+      name: Ahmed Sayed
+      id: '1547373045377964'
+    message: "check these links    \nhttp://www.eightforums.com/performance-maintenance/23691-windows-8-computer-suddenly-became-slow-100-disk-usage.html"
+    id: '1403247356381635'
+  - created_time: '2017-02-27T19:24:33+0000'
+    from:
+      name: Ahmed Sayed
+      id: '1547373045377964'
+    message: http://answers.microsoft.com/en-us/windows/forum/windows_8-performance/too-high-disk-usage-windows-8-pro-64-bit/f7ffbb72-3983-4f1a-b15c-4c23cf08df5f?auth=1
+    id: '1403247616381609'
+  - created_time: '2017-02-27T19:32:15+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: |-
+      لو انت لسة منزل الويندوز جديد, ممكن يكون ال Indexing لسة ما خلصش, و يمكن علشان الهارد مليان تقريباً على الآخر فواخذ وقت كثير, عموماً لما تيجي تعمل سيرش من ال Start menu لو ال indexing لسة شغال المفروض يقولك حاجة زي ال indexing in progress مثلاً
+      أو ممكن تعمل Search على Indexing Options في ال Start Menu و حيقولك حالة ال Indexing ايه, مثلأً عندي كده
+    id: '1403259063047131'
+  - created_time: '2017-02-27T19:52:18+0000'
+    from:
+      name: Tony Raoul Iscaros
+      id: '10156165643313420'
+    message: It is either indexing problem as mentioned above or you have to disable
+      thumbnails , these are common Windows problems
+    id: '1403279463045091'
+  - created_time: '2017-02-27T19:58:25+0000'
+    from:
+      name: Mohamed Abdel Aty
+      id: '10215620557573580'
+    message: I have the exact same issue and i have not found a solution yet , i think
+      at some point you have to consider a hardware problem
+    id: '1403287656377605'
+  - created_time: '2017-02-27T20:01:38+0000'
+    from:
+      name: Amr Medhat
+      id: '10155426916839779'
+    message: Open Resource Monitor and which process is doing read / write operations
+    id: '1403295519710152'
+  - created_time: '2017-02-27T20:02:31+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: "هو عموماً فيه حاجات كثير ممكن تخلي ال System يحتاج ال Hard Drive بشكل
+      زيادة, يعني مثلاً لو ال RAM عندك مش كفاية, فده حيخلي ال Operation System يحتاج
+      يستخدم Virtual memory اكثر, و يحصل Page Faults أكثر, و ده كله بيأثر بشكل كبير
+      على الأداء, لو الهارد نفسه بطئ أو عنده مشاكل بتخلي القراية فيها اخطاء كثير بتجبر
+      ال Operating System انه يعيد القراءة أكثر من مرة, ده برضه ممكن يكون سبب - بس
+      عموماً مشاكل القراءة المفروض ال OS ينبهك عليها - \nعموماً حاول تستخدم SSD على
+      الأقل ال Boot Drive بتاعك, و خلي البيانات و الميديا على HDD, الفرق في السرعة
+      مش حتصدقه"
+    id: '1403295959710108'
+  - created_time: '2017-02-27T21:59:27+0000'
+    from:
+      name: سامح الفرع
+      id: '10156160217764777'
+    message: |-
+      disable windows update service using this command
+      net stop wuauserv
+    id: '1403513236355047'
+  - created_time: '2017-02-27T22:07:43+0000'
+    from:
+      name: Ibrahim Mohammed
+      id: '1886120441698692'
+    message: "نفس الموضوع و طول عمرى عايش كدا \U0001F602\nلحد ما اقتنعت ان هى دى سرعه
+      الهارد و خلاص"
+    id: '1403517289687975'
+  - created_time: '2017-02-27T22:19:43+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: وبندوز 10 او 8 صح؟
+    id: '1403533899686314'
+  - created_time: '2017-02-28T05:50:34+0000'
+    from:
+      name: Met Wally
+      id: '520998054938412'
+    message: لو عندك Skype احيانا كتير بيعمل المشكلة دى.
+    id: '1404046606301710'
+  - created_time: '2017-02-28T15:37:19+0000'
+    from:
+      name: Ahmed Marzouk
+      id: '1625359394210186'
+    message: نفس مشكلتي
+    id: '1404494609590243'
+  - created_time: '2017-02-28T19:15:24+0000'
+    from:
+      name: George Stephanos
+      id: '10215136151822095'
+    message: Download HDTune (or any other utility) and make sure you have no bad
+      sectors. Bad sectors lead to 100% disk usage and crippling the system because
+      the disk recognizes it's reading the sector incorrectly and keeps retrying.
+    id: '1404693086237062'
+  - created_time: '2017-03-01T03:32:48+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: |-
+      I really recommend you replace the hard drive with an SSD.
+      Just for kicks, the fastest desktop mechanical drive has about 120ms latency, a SATA SSD has 2ms latency, and NVMe SSD has 0.2ms
+      While NVMe's are awesome, they are still too expensive, but SATA SSD's are much cheaper and the return of investment on your productivity is worth it.
+    id: '1405134909526213'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF3TXpJME56TTFOak00TVRZAek5Ub3hORGc0TWpJek5EVXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF3TlRFek5Ea3dPVFV5TmpJeE16b3hORGc0TXpNNU1UWTQZD
+attachments:
+  data:
+  - subattachments:
+      data:
+      - media:
+          image:
+            height: 601
+            src: https://scontent.xx.fbcdn.net/v/t1.0-9/16996419_1399614250090976_5816391531958350089_n.jpg?oh=6f5c1c1da99ce9c76456e31e789987aa&oe=5B254CF7
+            width: 662
+        target:
+          id: '1399614250090976'
+          url: https://www.facebook.com/photo.php?fbid=1399614250090976&set=gm.1403231533049884&type=3
+        type: photo
+        url: https://www.facebook.com/photo.php?fbid=1399614250090976&set=gm.1403231533049884&type=3
+      - media:
+          image:
+            height: 599
+            src: https://scontent.xx.fbcdn.net/v/t1.0-9/17021592_1399614236757644_5521393369154310661_n.jpg?oh=30b05245fa69da87efda439466079a63&oe=5AE6051F
+            width: 662
+        target:
+          id: '1399614236757644'
+          url: https://www.facebook.com/photo.php?fbid=1399614236757644&set=gm.1403231533049884&type=3
+        type: photo
+        url: https://www.facebook.com/photo.php?fbid=1399614236757644&set=gm.1403231533049884&type=3
+    target:
+      id: '1403231533049884'
+      url: https://www.facebook.com/media/set/?set=pcb.1403231533049884&type=1
+    title: Photos from Ànasation Àmeration's post
+    type: album
+    url: https://www.facebook.com/media/set/?set=pcb.1403231533049884&type=1

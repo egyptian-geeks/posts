@@ -1,0 +1,175 @@
+---
+message: "في الdatacenters في google/facebook \nهو بيبقى عبارة عن harddisk عادي؟ طب
+  لو حصل له حاجة بيرجعوا الdata ازاي ؟"
+from:
+  name: Abdelrahman Hassan
+  id: '2022833371324486'
+type: status
+created_time: '2017-10-11T19:00:25+0000'
+updated_time: '2017-10-12T18:17:26+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1630474226992279/
+id: '172338516139198_1630474226992279'
+reactions:
+  data:
+  - id: '550107402013289'
+    name: Yahya Rawashda
+    type: LIKE
+  - id: '10214752922447534'
+    name: Memo Mata
+    type: LIKE
+  - id: '1544312398999750'
+    name: Omar Said
+    type: LIKE
+  - id: '791546657700882'
+    name: Mohamed Soliman ElShokaly
+    type: LIKE
+  - id: '329785437534727'
+    name: Sara M. Hasanain
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01ERXdOREl4TURFNU5qZA3dPakUxTURjNU1EQTJNakk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01ERTFNRGs0TWpBMk5qZAzNPakUxTURjM05EZAzBORGs2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-10-11T19:05:00+0000'
+    from:
+      name: Ahmed Elwan
+      id: '10156098192871719'
+    message: اكيد بيكون فى نسخه على اكثر من هرد دريف علشان لو حصل فيل فى هرد يقدرو
+      يرحعوها !
+    id: '1630500856989616'
+  - created_time: '2017-10-11T19:09:45+0000'
+    from:
+      name: Ahmed Hassan
+      id: '2373370776023171'
+    message: |-
+      هو الحقيقه الموضوع مش كبير شويه الموضوع كبير شويتين تلاته بص اللينكين دول
+      https://en.wikipedia.org/wiki/Google_Data_Centers
+      https://www.cnet.com/news/google-uncloaks-once-secret-server-10209580/
+    id: '1630504156989286'
+  - created_time: '2017-10-11T19:10:40+0000'
+    from:
+      name: Ammar Youssef
+      id: '10155097484932190'
+    message: |-
+      اقرا عن DR مقاومة المصائب
+
+      بتبقى فيه بدائل من اصغر وحدة لاكبر وحدة
+
+      يعني الهارد الواحد بيكون له اكتر من بديل RAID
+      والسيرفر الواحد له اكتر من بديل
+      والداتاسنتر نفسه بيكون له اكتر من بديل
+
+      وكلهم identical في البيانات
+    id: '1630504993655869'
+  - created_time: '2017-10-11T19:12:37+0000'
+    from:
+      name: Ahmed Atef
+      id: '10156122235026834'
+    message: |-
+      لأ دي قصه كبيره جدا
+      بس لك ان تعرف ان فيسبوك مشتري هاردوير تمنه لل3 تيرا اعتقد 3 مليون دولار
+      وده بيستخدم للداتا بيز لانه 30x+ اسرع من الهارد العادي
+      وفكرته بكل بساطه انه بيشتغل ram drive
+    id: '1630506836989018'
+  - created_time: '2017-10-11T19:17:02+0000'
+    from:
+      name: Mohamad Shawkey
+      id: '1978616305487750'
+    message: Google uses a distributed file system called GFS which can run on thousands
+      of machines. The file system ensures that every chunk of data is written on
+      multiple machines (configurable 2 or 3 ...), so if a hard disk fails the data
+      will be recovered and reduplicated using other copies. For more info read this
+      book (The datacenter as a computer http://www.morganclaypool.com/doi/abs/10.2200/S00516ED2V01Y201306CAC024).
+      Also, you can find the research paper that describes the file system online.
+    id: '1630509830322052'
+  - created_time: '2017-10-11T19:19:01+0000'
+    from:
+      name: Abdelrahman Hassan
+      id: '2022833371324486'
+    message: "تمام هقرأ شوية فيهم وأحاول ابحث عن المصطلحات دي، طب بالمرة بقا \U0001F605
+      الاستارت اب لو فيها 10 ويب سايت مثلا والتيم بتاع الاستارت اب شغال عليهم، مين
+      اللي بيبقى ماسك الويب سايتس دي واي كود بيضيفهم والحاجات دي ( هو اكيد مش الفاوندر)،
+      هو غالبا بيبقى فيه co-founder للحاجات دي. طب لو مفيش co-founder وفيه حد شغال
+      في الاستارت اب ومسئول عن الحاجات دي ازاي الفاوندر بيكون واخد احتياطاته ان اللي
+      مسئول عن الحاجات دي لو حصل اي مشكلة بينهم انه مياخدش الdomains او ينقل الويب
+      سايت كله ؟ !"
+    id: '1630511013655267'
+  - created_time: '2017-10-11T19:39:30+0000'
+    from:
+      name: Mamdouh Ahmad
+      id: '541462766223884'
+    message: "حضرتك في كورس storage+ .. هاته وانجوي وخدلك نظرة علي أي حاجة عن الداتا
+      سنتر زي ccna dc\nو علي مستوي البنية .. الهاردوير تقسيماته ووضع الداتا سواء حركة
+      أو معالجة او مخزنة ومجمدة  و3 v\nوعندك raid وهوت سواب وهوت فيكس \nوهادوب ونظام
+      ملفات \nيعني كل نقطة لها بدايل وحلول ومعالجة\nسؤال جميل لكنه محتاجة بحث شوية"
+    id: '1630526326987069'
+  - created_time: '2017-10-11T20:01:23+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "اقرأ عن raid و san storage دي أساسيات في اي سيرفر روم دلوقتي مش داتا
+      سنتر جوجل وفيس بوك \U0001F603\nالريد ده باختصار نظام لتوصيل الهاردات مع بعض..
+      وأنواعه منها سوفت وير وهاردوير..\n\nانت بتوصل مثلا هاردين مع بعض والبوردة اللي
+      راكبين فيها مصممة يحيث السستم في الاخر هيقراهم كحاجة واحدة.. مثلا هاردين 500
+      يقروا 500 بردو مش تيرا.. وفي نفس الوقت الاتنين سنكرونايزد مع بعض.. اول ما واحد
+      يبوظ تستبدله بجديد عادي جدا ويرجع يسينك تاني اوتوماتيك..\nده مثلا اسمه raid
+      1 بيعمل ميرورنج\nفي أنواع تانية ما بتعملش ميرور.. بس بتزود برفورمانس.. وفي raid
+      10 بتجمع بين الاتنين raid 0+1\nوفي raid 5 وده لان ال raid 1 عيبه انه بيهدر مساحة
+      لانك بتحط نصين تيرا بس بيقروا مثلا نص واحد.. ف ال ريد 5 فكرته قاللك احنا هنعمل
+      حاجة على مستوى ال block level تخزن الداتا بين 3 هاردات مثلا بمعادلة ما بينهم\nمثلا
+      تخيل انت عندك 6 و 2 و 8 لو قلنا ان في علاقة ما بينهم 6+2=8\nاذا لو اي واحدة
+      منهم انا فقدتها لوحدها اقدر اعوضها تاني بسرعة.. مثلا 2=8-6\nاو 6=8-2\nميزته
+      هنا انك هتهدر تلت المساحة بس مش نصها يعني تلات هاردات 500 بدل ما يدوا تيرا ونص
+      او بدل ما يدوا 750.. هيدوا تيرا.. عيبه ان الهارد لو دخل في ارراي بالشكل ده ما
+      ينفعش يشتغل تاني لوحده. هيبقى الداتا مش مقروءة.. وكمان عيبها انها محتاجة ع الاقل
+      تلات هاردات..\n\nده كلام منحكش خالص بس بوصلك فكرة اصلا الكونسبت ايه وممكن أجزاء
+      من كلامي تكون مش دقيقة 100%.. انت اقرا بقى في ال raid\nRedundant array independent
+      disks و san storage area networks و mpio multipath io\nوعيش \U0001F603"
+    id: '1630542980318737'
+  - created_time: '2017-10-11T20:32:27+0000'
+    from:
+      name: Youhana Sobhy
+      id: '10156214789922376'
+    message: "Disasters recovery وتكون علي بعد اكتر من ٢٠٠ كيلو من المكان الاساسي
+      \nدي standard rules\nزي البورصه في مصر هنا اداتا هنا وال disaster recovery في
+      اسكندريه."
+    id: '1630563423650026'
+  - created_time: '2017-10-11T21:01:08+0000'
+    from:
+      name: M Sameh El Harty
+      id: '10159983801460392'
+    message: Things are WAY more complicated than a hard drive. Read up on some of
+      the solutions provided by EMC and you will be amazed.
+    id: '1630579776981724'
+  - created_time: '2017-10-11T21:27:41+0000'
+    from:
+      name: Met Wally
+      id: '520998054938412'
+    message: Read about this "Storage area network"
+    id: '1630595740313461'
+  - created_time: '2017-10-11T21:56:14+0000'
+    from:
+      name: Mohamed Soliman ElShokaly
+      id: '791546657700882'
+    message: Servers mirroring technology I think !!
+    id: '1630609196978782'
+  - created_time: '2017-10-12T01:26:05+0000'
+    from:
+      name: Asem Saad
+      id: '1803944376324459'
+    message: They are using SAN storage , its a cluster of storage servers, a combination
+      of tape drives, optical drives , SSD and HDD drives, each one of those has a
+      role in the SAN infrastructure
+    id: '1630712746968427'
+  - created_time: '2017-10-12T18:17:24+0000'
+    from:
+      name: Tito Sadek
+      id: '10215591388402184'
+    message: raid !
+    id: '1631314203574948'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl6TURVd01EZAzFOams0T1RZAeE5qb3hOVEEzTnpRNE56QXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl6TVRNeE5ESXdNelUzTkRrME9Eb3hOVEEzT0RNeU1qUTAZD

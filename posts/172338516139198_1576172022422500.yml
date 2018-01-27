@@ -1,0 +1,102 @@
+---
+message: "console.log(name);\nvar name = \"Ali\";\n\nin google chrome \nWhy I get
+  the value of name \"Ali\" as it is and not undefined value according to JS hoisting
+  ?\nin firefox I got undefined ? \nWhat is wrong with google chrome ? is this new
+  update in google chrome which might case v8 to read that value as it is and not
+  giving me undefined ?"
+from:
+  name: Mohamed Nabil
+  id: '941919879288729'
+type: status
+created_time: '2017-08-12T14:29:14+0000'
+updated_time: '2017-08-13T10:49:31+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1576172022422500/
+id: '172338516139198_1576172022422500'
+reactions:
+  data:
+  - id: '10155787111376210'
+    name: Mostafa Muhammad
+    type: LIKE
+  - id: '10155974480534360'
+    name: Ahmed Al Etol
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRJeU1EWXhNakE1T2pFMU1ESTFORGs1TmpRNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TmpZAM05qVTBNelU1T2pFMU1ESTFORGcxTXpJNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-08-12T14:34:29+0000'
+    from:
+      name: احمد قرواش
+      id: '1561022257326859'
+    message: |-
+      define variable before calling it
+      var name = "Ali";
+      console.log(name);
+    id: '1576176225755413'
+  - created_time: '2017-08-12T14:38:27+0000'
+    from:
+      name: Mohamed Oun
+      id: '10213382124519901'
+    message: variable definitions are hoisted to the top of the scope, so their location
+      in the code doesn't matter.
+    id: '1576178965755139'
+  - created_time: '2017-08-12T14:41:57+0000'
+    from:
+      name: Ahmed Al Etol
+      id: '10155974480534360'
+    message: strange behavior, according to JS hoisting  it has to be undefined
+    id: '1576181079088261'
+  - created_time: '2017-08-12T14:47:25+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: you probably are redeclaring the variable, there is no way this will
+      log "Ali". It logs undefined
+    id: '1576185192421183'
+  - created_time: '2017-08-12T15:07:05+0000'
+    from:
+      name: Mohamed Nabil
+      id: '941919879288729'
+    message: "Oh oh! sorry guys it's not an issue in google chrome, it's my fault\nI
+      changed the variable from name to a and I got finally undefined! \nI didn't
+      notice that the old value is stored in global object from the first time I executed
+      this script but after changing the variable name now I see undefined.\nthank
+      you all for reply !"
+    id: '1576198649086504'
+  - created_time: '2017-08-12T15:44:10+0000'
+    from:
+      name: Ihab Khattab
+      id: '10155517671429272'
+    message: Actually window.name has a special case it persists people used to use
+      as fallback to session storage. That's why you got this wierd behavior if you
+      use variable as name
+    id: '1576225792417123'
+  - created_time: '2017-08-13T00:19:36+0000'
+    from:
+      name: Ahmed Khaled
+      id: '1673431476060100'
+    message: جربتها في ال scratchpad في firefox وشغاله زي chrome عادي
+    id: '1576650509041318'
+  - created_time: '2017-08-13T10:49:30+0000'
+    from:
+      name: Youssef Fayez
+      id: '10215891889635645'
+    message: |-
+      the console of the browsers show the javascript objects by reference not by value. When you type "console.log(name)" it's undefined. but since the object "name" is updated afterwards and chrome prints the object by reference. It'll print the last value of the object.
+
+      You can test it by this code:
+
+      1- var x = null;
+           console.log(x);
+           x = 2;  // printed value "x = 2"
+
+      2- var x = null;
+          console.log(JSON.stringify(x));
+         x = 2;    // printed value "x = null"
+    id: '1577038569002512'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUzTmpFM05qSXlOVGMxTlRReE16b3hOVEF5TlRRNE5EY3cZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUzTnpBek9EVTJPVEF3TWpVeE1qb3hOVEF5TmpJeE16Y3cZD

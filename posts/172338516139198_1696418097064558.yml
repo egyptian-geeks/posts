@@ -1,0 +1,157 @@
+---
+message: "عندى بروجكت بيعتمد بشكل كبير على معلومات جعرافية محتاج rest apis قوية وفيها
+  داتا كتير علشان اعتمد عليها وقدامى google maps و openstreet \nمشكلةopenstreet انها
+  كلها بترجع xml مش json بس ميزتها ان فيها داتا كتير جدا ف اى long , lat بديها بيجيب
+  معلومات عنه فعﻻ .\ngoole maps كويسة ومتطورة بس معلوماتها مش كتير وانا محتاج استخدم
+  بﻻتفورم واحدة \nالplatform محتجها فى ايه : \n- اجيب متوسط رحلة بين نقطتين \n- long
+  - lat بتاع عنوان اديهولها \n- اقرب نقطة بالنسبة لنقطة تانية وهكذا وارد جدا احتاج
+  معلومات اكتر قدام .\n"
+from:
+  name: Mohamed Naser Amein
+  id: '1544104592377915'
+type: status
+created_time: '2017-12-19T13:21:42+0000'
+updated_time: '2017-12-23T04:39:21+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1696418097064558/
+id: '172338516139198_1696418097064558'
+reactions:
+  data:
+  - id: '10159908658495298'
+    name: Medhat EL-Qadi
+    type: LIKE
+  - id: '10155866336577597'
+    name: Mohamed Taraman
+    type: LIKE
+  - id: '10160119042585037'
+    name: Ahmed Saad ElMaghraby
+    type: LIKE
+  - id: '2015246105157800'
+    name: Bdr Mohamed
+    type: LIKE
+  - id: '1419866494789284'
+    name: Tohami Hussin
+    type: LIKE
+  paging:
+    cursors:
+      before: TnpnM016WTFNamszT2pFMU1UUXhNREkxTXpBNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQXlPVGM0TkRFNU9UazBPakUxTVRNMk9UQTJNelE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-12-19T13:37:01+0000'
+    from:
+      name: Ibrahim Mohammed
+      id: '1886120441698692'
+    message: |-
+      Short answer for developers who has no GIS background and want to use OSM data you can use it within Mapbox's APIs for more developers friendly experience.
+      Or keep up with google maps
+    id: '1696553557051012'
+  - created_time: '2017-12-19T13:37:37+0000'
+    from:
+      name: Tohami Hussin
+      id: '1419866494789284'
+    message: ايه المشكله في ال XML.?
+    id: '1696554170384284'
+  - created_time: '2017-12-19T13:40:59+0000'
+    from:
+      name: Bdr Mohamed
+      id: '2015246105157800'
+    message: انا معرفش open street لكن ب google maps api انا عملت app فيه بيحسب الوقت
+      واقرب route والكلام د
+    id: '1696556217050746'
+  - created_time: '2017-12-19T13:42:06+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: |-
+      بعيدا عن ايه الافضل في حالتك.. بس ككلام عام كدة اعمل ال abstract layer بتاعك بحيث يبقى هو الواجهة وضيف ادابتور بقى او (داتا سورس) يستخدم جوجل.. وجربها.. تمام تمام.. عايز تجرب اوبن ستريت هتعرف ت integrate بسهولة ف اي وقت.. ظهرت حاجة جديدة خالص.. بقت في ايدك برده.. تعمل الادابتور او السورس بتاعها.. كلاس مثلا جديدة بتامبلمنت الانترفيس بتاعتك....
+
+      في الحالات اللي زي كدة ما تخليش الكود بتاعك معتمد تماما على قرار جذري زي كدة هيتاخد من الاول ومش هتعرف تغيره بسهولة قدام.. زود abstraction في الحاجات اللي زي دي.. تعب ساعة وراحة بعد كدة ف طول عمر السوفتوير
+    id: '1696557040383997'
+  - created_time: '2017-12-19T14:15:11+0000'
+    from:
+      name: Ahmed Khaled
+      id: '10215208478835775'
+    message: Khalid Bakry Ramy Magdy
+    id: '1696581543714880'
+  - created_time: '2017-12-19T14:17:11+0000'
+    from:
+      name: Abdelrahman Melegy
+      id: '187337675331830'
+    message: |-
+      Google has relatively more data than Openstreet map, Google Directions, Places and Geocoding APIs can do the job but there are restrictions on the usage.
+      Openstreetmap's Mapzen allows you to download the data in GeoJson format, OverPass API responds with JSON
+    id: '1696583260381375'
+  - created_time: '2017-12-19T14:19:00+0000'
+    from:
+      name: Mohamed Kamal
+      id: '10155263253891417'
+    message: I use OSM in my work, its gonna be sufficient for you, actually it also
+      has a library written in node that you can use and built your own custom APIs
+      around it.
+    id: '1696584643714570'
+  - created_time: '2017-12-19T14:45:01+0000'
+    from:
+      name: Youhana Sobhy
+      id: '10156214789922376'
+    message: استخدمت انا جوجل geocoding api نتايجه في مصر مش 100% مظبوطه وفي حتت كتير
+      مش بيديك معلومات عنها .. بس انا بتكلم علي geocding api بس ولغاية دلوقتي بيجيلي
+      عملاء كتير بيشتكوا من ال precision. وطبعا متنساش انك ليك query limits.
+    id: '1696603860379315'
+  - created_time: '2017-12-19T15:03:13+0000'
+    from:
+      name: Yousef Mahmoud
+      id: '1818224478190849'
+    message: ال xml مش مشكلة ابدا، ما Amr Elsaqqa قال فوق، انت مش هتفرق معاك هيه ايه
+      شكل الداتا لان بكل بساطة انت هتحولو مرة واحدة بس
+    id: '1696620247044343'
+  - created_time: '2017-12-19T15:49:18+0000'
+    from:
+      name: Ahmed Ibrahim
+      id: '10160008892470094'
+    message: انا عملتها قبل كده بالاكسل .. بتعمل API علي جوجل وبيجيب المسافة وممكن
+      تعملها مصفوفة لان المسافة رايح غير راجع.. عموما خد بالك لها معادلة طويلة جدا
+      حتي لو هتعملها بالكود
+    id: '1696657983707236'
+  - created_time: '2017-12-23T04:39:17+0000'
+    from:
+      name: Mohamed Hafez Abdallah
+      id: '10211072612477910'
+    message: Overpass based on openstreetmap and support json but I think for your
+      need googlemap is more enough
+    id: '1699832853389749'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFk1TmpVMU16VTFOekExTVRBeE1qb3hOVEV6Tmprd05qSXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFk1T1Rnek1qZAzFNek00T1RjME9Ub3hOVEUwTURBek9UVTQZD
+attachments:
+  data:
+  - subattachments:
+      data:
+      - target:
+          id: '141029019890981'
+        title: google maps api
+        type: option
+      - target:
+          id: '160999784656410'
+        title: Mapbox
+        type: option
+      - target:
+          id: '2059103434321424'
+        title: openstreet
+        type: option
+      - target:
+          id: '1563280100429303'
+        title: Here maps
+        type: option
+    target:
+      id: '1696418087064559'
+      url: https://www.facebook.com/groups/egyptian.geeks/permalink/1696418097064558/
+    title: "عندى بروجكت بيعتمد بشكل كبير على معلومات جعرافية محتاج rest apis قوية
+      وفيها داتا كتير علشان اعتمد عليها وقدامى google maps و openstreet \nمشكلةopenstreet
+      انها كلها بترجع xml مش json بس ميزتها ان فيها داتا كتير جدا ف اى long , lat
+      بديها بيجيب معلومات عنه فعﻻ .\ngoole maps كويسة ومتطورة بس معلوماتها مش كتير
+      وانا محتاج استخدم بﻻتفورم واحدة \nالplatform محتجها فى ايه : \n- اجيب متوسط
+      رحلة بين نقطتين \n- long - lat بتاع عنوان اديهولها \n- اقرب نقطة بالنسبة لنقطة
+      تانية وهكذا وارد جدا احتاج معلومات اكتر قدام .\n"
+    type: question
+    url: https://www.facebook.com/groups/egyptian.geeks/permalink/1696418097064558/

@@ -1,0 +1,82 @@
+---
+message: |-
+  SA,
+  I'm sure it's a very bad practice to store your senstive data (database passwords, session secret keys, etc..) on your public VCS repos. However, these keys need to be versioned as well.
+  What are the more secure alternatives for this issue?
+from:
+  name: Mohamed Gamal
+  id: '10156096685587328'
+type: status
+created_time: '2017-03-10T11:33:39+0000'
+updated_time: '2017-03-10T18:17:22+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1416382411734796/
+id: '172338516139198_1416382411734796'
+comments:
+  data:
+  - created_time: '2017-03-10T11:35:32+0000'
+    from:
+      name: أحمد محمود محمد عبدالوهاب
+      id: '10155226291481186'
+    message: versioned ezai? =/
+    id: '1416383501734687'
+  - created_time: '2017-03-10T11:39:25+0000'
+    from:
+      name: Mohamed Bassem
+      id: '10212826240185281'
+    message: أنا عن نفسي كنت بحطهم في private repo بس برضة عايز أعرف إيه الbest practices
+      في الموضوع ده.
+    id: '1416385395067831'
+  - created_time: '2017-03-10T11:45:03+0000'
+    from:
+      name: Eslam Hamouda
+      id: '10212947071504226'
+    message: |-
+      ازاي هي secure و private وعاوز تحطها في Public repo ؟ وعاوزها تبقى versioned ليه ؟
+      بالنسبة لي لو حاجة سرية ومش عاوز اغلط واعملها commit مع السورس كود بحطها في ENVIRONMENT VARIABLE ده اول مكان يدور فيه ، لو مالقهاش يبدأ يبص على مكانها في ملف ال Configuration ، وبكده بسيب الملف ده فاضي او بالاعدادات الافتراضية ويطلع بابليك عادي وابقى في الأمان
+    id: '1416389041734133'
+  - created_time: '2017-03-10T11:53:54+0000'
+    from:
+      name: Mahmoud Hossam
+      id: '1360912124012585'
+    message: If you use ansible for deployment, there's ansible vault
+    id: '1416394915066879'
+  - created_time: '2017-03-10T11:54:09+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: |-
+      You don't need to "version" those, you need to "manage" them.
+
+      What you are looking for is "secrets management".
+
+      There are projects like Vault designed for this purpose.
+
+      https://www.vaultproject.io/
+
+      They have a section comparing their solution to other tools, that might give you an idea about other tools that can be used.
+
+      https://www.vaultproject.io/intro/vs/index.html
+
+      I haven't used vault, and I am not endorsing it. I am just pointing you to one tool that says it does what you need. You need to survey the rest of the tools and decide for yourself.
+    id: '1416395011733536'
+  - created_time: '2017-03-10T12:13:45+0000'
+    from:
+      name: Ibraheem Osama
+      id: '10155206310513093'
+    message: |-
+      We have 2 versions of keys one for local development and another one for production and only the tech lead has access to the production keys.
+      Regarding sql we use Windows Auth for dev and Sql Auth for production.
+      The production keys are manged throw Continues Deployment tool so the important data is not stored any where in repo or code (When we make a deployment the automated deployment tool replaces the dev keys with production keys).
+    id: '1416408145065556'
+  - created_time: '2017-03-10T15:43:17+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: |-
+      If you use some cloud services like Azure for example, you can use KeyVault which is designed to store secrets and integrates with everything you need like deployments and you can script your environments to pick up the secrets in runtime and never store them locally or at least never get saved as part of your code.
+      All other clouds have similar services
+    id: '1416597471713290'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF4TmpNNE16VXdNVGN6TkRZANE56b3hORGc1TVRRMU56TXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF4TmpVNU56UTNNVGN4TXpJNU1Eb3hORGc1TVRZAd05UazMZD

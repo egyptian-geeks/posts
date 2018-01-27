@@ -1,0 +1,133 @@
+---
+message: "I Can't understand how they could get a full Database of Usernames/Password,
+  didn't we stopped to store the actual password and start to use one  way Hash Algorithm
+  instead ?\n----------------------------------------------------------------------------
+  Edit \nPlease consider all other leaks like yahoo, icloud, envanto ...... im asking
+  about the technique."
+from:
+  name: Amir Abou Eesa
+  id: '1700979476627162'
+type: status
+created_time: '2016-06-09T15:29:29+0000'
+updated_time: '2016-06-09T19:33:30+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1159030420803331/
+id: '172338516139198_1159030420803331'
+reactions:
+  data:
+  - id: '1788801214484268'
+    name: Abdelrhman Mohamed
+    type: LIKE
+  - id: '10215482677129679'
+    name: Ahmed Adel Radwan
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdOak15TWpBek56WTRPakUwTmpVMU1URXlPRGs2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRVeU1UQTBPRGN3TXpveE5EWTFORGc0TnpjM09qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2016-06-09T15:31:34+0000'
+    from:
+      name: Mohamed Bassem
+      id: '10212826240185281'
+    message: I didn't read anywhere that the passwords are in plain text
+    id: '1159031134136593'
+  - created_time: '2016-06-09T15:32:12+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: thats my question , how they could revert the hashed password ? Muhammad
+      Bassem can you explain plz ?
+    id: '1159031484136558'
+  - created_time: '2016-06-09T15:35:43+0000'
+    from:
+      name: Zyad Barakat
+      id: '10215409801941069'
+    message: I think that there is no way to revert the hash password so it is useless
+      Amir Abou Eesa
+    id: '1159033257469714'
+  - created_time: '2016-06-09T15:37:19+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: Zyad Sabry again thats why im asking , if they have a list of Usernames/
+      Password , this means they do inverted the hashed password !!! , btw i know
+      some of the big cats still store row password i.e. HSBC :)
+    id: '1159033990802974'
+  - created_time: '2016-06-09T15:39:15+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: Ramy Raoof if you could help :)
+    id: '1159035250802848'
+  - created_time: '2016-06-09T15:39:30+0000'
+    from:
+      name: Mohamed Bassem
+      id: '10212826240185281'
+    message: If the passwords are not salted, bruteforce and dictionary attacks are
+      applicable and can crack weak passwords. But probably twitter salts their passwords
+      y3ni :D If the passwords are salted, I don't think there's a thread as far as
+      I know but I'm not sure to be honest.
+    id: '1159035387469501'
+  - created_time: '2016-06-09T15:42:01+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: Muhammad Bassem im not asking about this particular twitter hack , i
+      hear the same thing over and over from different sources, remember the ICloude
+      problem ? , im still concerned about the technique ya gama3a bardo :) i don't
+      think bruteforce is something to consider with such systems :)
+    id: '1159036327469407'
+  - created_time: '2016-06-09T15:45:28+0000'
+    from:
+      name: Mohamed Essam
+      id: '1546098432153196'
+    message: https://twitter.com/_mwc/status/740762909144428544
+    id: '1159037637469276'
+  - created_time: '2016-06-09T15:45:50+0000'
+    from:
+      name: Mohamed Bassem
+      id: '10212826240185281'
+    message: That's what I'm saying. If the password are not salted, they can be cracked.
+      Dictionary attacks are very applicable. Bruteforce can crack short passwords.
+      There are many users who use common passwords for their accounts. "12345678",  "qwerty",
+      "zxcvbn". Mark used dadad y3ni which bruteforce can get in less than a second
+      :D
+    id: '1159037767469263'
+  - created_time: '2016-06-09T15:46:28+0000'
+    from:
+      name: Mohamed Abdel Aty
+      id: '10215620557573580'
+    message: "there is no prove that these passwords were collected from twitter database,
+      in fact  twitter denies that \n\nother possible reason for the leaked passwords
+      were collected from other sores such as malware"
+    id: '1159037944135912'
+  - created_time: '2016-06-09T15:51:36+0000'
+    from:
+      name: Mariam Maarouf
+      id: '10155779091916638'
+    message: |-
+      Here's the article: http://techcrunch.com/2016/06/08/twitter-hack/
+      Twitter denies it (also they bcrypt their passwords anyway). TechCrunch says the website that claims this leak is legit is LeakedSource, where you can check if your credentials have been leaked, though I wouldn't recommend that; you'd probably search using more than one parameter (saying a username and a phone number, or your username and email, etc) so you'd be basically giving away data about your accounts that could help someone hack into them anyway.
+
+      Also, recovering a password from a salted hash isn't impossible, it just takes a lot (A LOT) of time/resources per hash, depending on the algorithm/iteration counts/etc etc. But then again, there is no way they'd just magically recover 30-something million salted and hashed passwords overnight lol
+    id: '1159039600802413'
+  - created_time: '2016-06-09T19:33:30+0000'
+    from:
+      name: Ramy Raoof
+      id: '10155012385997651'
+    message: '"Based on information in the data (including the fact that many of the
+      passwords are displayed in plaintext), LeakedSource believes that the user credentials
+      were collected by malware infecting browsers like Firefox or Chrome rather than
+      stolen directly from Twitter. Many of the affected users appear to be in Russia—six
+      of the top 10 email domains represented in the database are Russian, including
+      mail.ru and yandex.ru."[1] and "There is no way that Twitter stores passwords
+      in plaintext in 2014 for example. There was a very significant amount of users
+      with the password "<blank>" and "null". Some browsers store passwords as "<blank>"
+      if you don''t enter a password when you save your credentials."[2]. 1-http://techcrunch.com/2016/06/08/twitter-hack/
+      - 2-https://www.leakedsource.com/blog/twitter#summary'
+    id: '1159151010791272'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUxT1RBek1URXpOREV6TmpVNU16b3hORFkxTkRnMk1qazEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUxT1RFMU1UQXhNRGM1TVRJM01qb3hORFkxTlRBd09ERXkZD

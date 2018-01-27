@@ -1,0 +1,87 @@
+---
+message: |-
+  لو في حد عنده خبرة عملية في OpenStreetMap
+  أقصد بخبرة عملية أنه استخدمها في مشاريع أو حتى جربها
+  يا ريت يقول عن تجربته
+
+  للي ما يعرف أوبن ستريت ماب أو خريطة الشارع المفتوحة
+  دا مشروع لجمع بيانات الخرائط مفتوح المصدر
+  شبه ويكيبديا بس للخرائط
+  https://www.openstreetmap.org/
+from:
+  name: Muhammed Abdulaziz
+  id: '10156189240128395'
+type: status
+created_time: '2016-11-28T02:41:04+0000'
+updated_time: '2016-11-29T12:29:44+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1306373759402329/
+id: '172338516139198_1306373759402329'
+comments:
+  data:
+  - created_time: '2016-11-28T03:25:10+0000'
+    from:
+      name: Mohamed Salah Hassan
+      id: '2027932964114883'
+    message: mapbox مبنيه عليها
+    id: '1306392069400498'
+  - created_time: '2016-11-28T07:29:27+0000'
+    from:
+      name: Ahmed Mekkawy
+      id: '10155783123700239'
+    message: انا باستخدمها على طول بدل جوجل مابس لاسباب الخصوصيه. هيا معقوله وفيها
+      تفاصيل كتير لكن احيانا بيكون فيه شوارع صغيرة وتفاصيل ناقصه. جوجل مابس بتطور
+      بصوره اسرع لكن OSM معقوله
+    id: '1306516459388059'
+  - created_time: '2016-11-28T10:28:59+0000'
+    from:
+      name: Ibrahim Mohammed
+      id: '1886120441698692'
+    message: OpenStreetMap is just an open geographical data for the public use without
+      any restrictions, you can use it as a basemap, geocoder, routing... paired with
+      any client side mapping library, leaflet , mapbox, Cartodb, openlayers
+    id: '1306600796046292'
+  - created_time: '2016-11-28T10:39:36+0000'
+    from:
+      name: Muhammed Abdulaziz
+      id: '10156189240128395'
+    message: "Ibrahim Mohammed\nعارف الكلام دة. أنا بستخدمها \nأنا بتكلم على حاجة
+      تانية. إستخدمها في مشاريع أو في أعمال (يعني مش بشكل شخصي) هل فالمرحله دي ينفع
+      نعتمد عليه فـ business\nحابب أعرف تجارب الناس"
+    id: '1306605066045865'
+  - created_time: '2016-11-28T12:38:58+0000'
+    from:
+      name: Karim Atef Mansour
+      id: '10211508984621741'
+    message: Islam AbdelMohaimen Hassan
+    id: '1306672819372423'
+  - created_time: '2016-11-28T13:06:55+0000'
+    from:
+      name: Islam AbdelMohaimen Hassan
+      id: '10214796374519514'
+    message: The android version of our application (Pidetaxi) is built with Mapbox
+      which is based on OpenStreetMaps
+    id: '1306694236036948'
+  - created_time: '2016-11-29T11:12:19+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: Mostafa Muhammad I think you did?
+    id: '1307422309297474'
+  - created_time: '2016-11-29T12:25:46+0000'
+    from:
+      name: Mostafa Muhammad
+      id: '10155787111376210'
+    message: |-
+      I used OpenLayers which is a client side mapping library, most often used with OpenStreetMaps.
+
+      I find it useful to think of Maps in terms of a stack
+
+      You have map tile server which has the actual tiles, OpenStreetMaps is kind of like that, Google has its own tile server. Then you have an optional tile cache server and then comes the client side and this includes the famous Google maps Javascript library and OpenLayers which is an open source alternative to that.
+
+      In theory you should be able to mix and match, that is, use OpenStreetMap tiles with Google Maps or your own tiles.
+      https://mapproxy.org/static/img/mapproxy-overview.png
+    id: '1307464505959921'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE13TmpNNU1qQTJPVFF3TURRNU9Eb3hORGd3TXpBek5URXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE13TnpRMk5EVXdOVGsxT1RreU1Ub3hORGd3TkRJeU16UTUZD

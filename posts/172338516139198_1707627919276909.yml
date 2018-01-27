@@ -1,0 +1,94 @@
+---
+message: "السؤال ده جه قدامي و شايف انه حلو\nفكرة انك تكتب Automated tests لحاجة زي
+  دي كويسة، او انك تستعمل ال scripting tools\nبس برضه فكرة ليه المشكلة دي موجودة و
+  ليه بعد حلها اكتر من مرة لسه برضه موجودة.\n\nمعظم ال SQLIs دلوقت في ال Modern Web
+  Frameworks شبه مش موجودة لو ال developer مشي ورا ال guidelines و ده اللي اكيد مش
+  بيحصل بصورة كبيرة.\n\nشخصيًا شايف لو الدنيا فعلًا بايظة للدرجادي الواحد يكتب ال
+  layer اللي بيحصل فيه ال Database transactions ده كله من تاني و يمشي ورا ال OWASP
+  Cheatsheet و هو بيكتبه. \nحتى في ال Cheatsheet بيقترحوا اسامي ORMs ممكن تستعملها.\n"
+link: https://security.stackexchange.com/a/176418/167265
+from:
+  name: Abdelrhman Shawky
+  id: '10213017755051330'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQCbUxHjysMZCYvv&w=130&h=130&url=https%3A%2F%2Fcdn.sstatic.net%2FSites%2Fsecurity%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D497726d850f9&cfs=1&_nc_hash=AQA2r_qVadUkrAsR
+created_time: '2017-12-31T13:28:12+0000'
+updated_time: '2017-12-31T17:02:04+0000'
+name: Continuous SQL injection testing
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1707627919276909/
+id: '172338516139198_1707627919276909'
+reactions:
+  data:
+  - id: '10214852497124514'
+    name: Osama Nabih
+    type: LIKE
+  - id: '1980626995300119'
+    name: Mohamed AbdEl-Monem
+    type: LIKE
+  - id: '1466247800164499'
+    name: Mosaab Ahmed
+    type: LIKE
+  - id: '10157210673029517'
+    name: Marwan Ahmed
+    type: LIKE
+  - id: '1615436418535535'
+    name: Sabry ALzahar
+    type: LIKE
+  - id: '10213813332780281'
+    name: أحمد سعيد
+    type: LIKE
+  - id: '10208666086248052'
+    name: Mohammed Adel Fouad
+    type: LIKE
+  - id: '1568421209939721'
+    name: Doha Hesham
+    type: LIKE
+  - id: '928444520664078'
+    name: Hossam L Dokkani
+    type: LIKE
+  - id: '782499245278061'
+    name: Eslam AbdElhakem
+    type: LIKE
+  - id: '10155113612632882'
+    name: Ahmed Magdy
+    type: LIKE
+  - id: '1789041438064902'
+    name: Mahmoud Hard
+    type: LIKE
+  - id: '10208377163265082'
+    name: Mo'az Mohsen
+    type: LIKE
+  - id: '10210364842627245'
+    name: Abdullateef Mamdouh El Gamee
+    type: LIKE
+  - id: '1584659024902777'
+    name: Mahmoud EL Degwey
+    type: LIKE
+  - id: '1769679443064146'
+    name: Gerges Bernaba
+    type: LIKE
+  - id: '1556036221100210'
+    name: Yahya ElGayar
+    type: LIKE
+  - id: '1978009525783037'
+    name: Ahmed Magdy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRFNE9USTROVEl4T1RveE5URTFNVGt6T0RRd09qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBd01EQTNNakl3TWpZAeE5qSXhPakUxTVRRM01qWTVNVGc2TWpVME1EazJNVFl4TXc9PQZDZD
+attachments:
+  data:
+  - description: We have a set of internal Python/Django web applications that are
+      pretty well tested functionality-wise, but from time to time we do discover
+      vulnerabilities and, specifically, places where SQL and...
+    media:
+      image:
+        height: 316
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQD2MR1wRPgCDzqO&w=720&h=720&url=https%3A%2F%2Fcdn.sstatic.net%2FSites%2Fsecurity%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D497726d850f9&cfs=1&_nc_hash=AQBAvnSFqqFCakC8
+        width: 316
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fsecurity.stackexchange.com%2Fa%2F176418%2F167265&h=ATPWlyUFxeXQmuVsoBRtaXvBPw8Cr9apixCJHamddpbqAhkWcMoqzRkb_ghSSrEBE1ayN4L8re6a2zXbCVTDyE2wb9E2Lnrrbs3P&s=1&enc=AZOeM5y3H1gEeuCHxf2APDHg40s6RvAUscvPQFVbvK_CNtTLYSHmfLiYgb4b0n2a39KN-wdD_1od-Hcu2UrcmmHR
+    title: Continuous SQL injection testing
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fsecurity.stackexchange.com%2Fa%2F176418%2F167265&h=ATPWlyUFxeXQmuVsoBRtaXvBPw8Cr9apixCJHamddpbqAhkWcMoqzRkb_ghSSrEBE1ayN4L8re6a2zXbCVTDyE2wb9E2Lnrrbs3P&s=1&enc=AZOeM5y3H1gEeuCHxf2APDHg40s6RvAUscvPQFVbvK_CNtTLYSHmfLiYgb4b0n2a39KN-wdD_1od-Hcu2UrcmmHR

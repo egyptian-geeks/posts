@@ -1,0 +1,19 @@
+---
+message: |-
+  Maybe it's a stupid question but could someone tell me why does chaining  in Arc in java paint width changes the start point ?
+
+  drawArc(int x, int y, int width, int height, int startAngle, int arcAngle)
+
+  g.fillArc(250, 250, 100, 300, 0, 46);
+  g.fillArc(250, 250, 100, 100, 0, 46);
+link: https://www.facebook.com/photo.php?fbid=727701304023409&set=gm.1000034333369608&type=3
+from:
+  name: Ibrahem Salah
+  id: '1391026811024185'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/11987049_727701304023409_4471572117932149961_n.jpg?oh=6215b34d091d529b412a4c403688dd99&oe=5B268760
+created_time: '2015-09-01T16:21:48+0000'
+updated_time: '2015-09-01T20:03:50+0000'
+name: Photos from Ibrahem Salah's post
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1000034333369608/
+id: '172338516139198_1000034333369608'

@@ -1,0 +1,68 @@
+---
+message: |-
+  السلام عليكم
+  دلوقتي انا شغال C# و كنت بحاول اعمل Redirect للعبة معينة علي Loopback IP بحيث اني اقدر اقرأ الداتا و كده، عن طريق اني اعمل Inject ل Un managed DLL جوه اللعبة و اعمل Detour لل Function دي "Ws2_32.dll@connect" بواحدة تانية انا كاتبها جوه ال DLL ، لحد هنا تمام.
+  بعد كده بخليه يعمل Connect بنفس ال Function الاصلية لل Loopback IP ، بس في مشكلة ان في بعض الاتصالات مش محتاجة Redirect فبعملها Connect عادي بال IP الأصلي ، بس لما بعمل كده بيطلعلي خطأ و لما كنت بجيب الكود بتعاه ب "Ws2_32.dll@WSAGetLastError" كان بيطلعلي 10035
+  انا دورت في الموضوع ده كتير بس مش لازم حل هو ليه علاقة ب ال Socket blocking تقريبا بس انا مش فاهم الموضوع ده كويس يعني ، فهل حد واجة مشكلة زي دي؟
+from:
+  name: Tarek Ibrahem
+  id: '10215494402692670'
+type: status
+created_time: '2016-10-24T23:07:41+0000'
+updated_time: '2016-10-26T22:06:13+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1267827519923620/
+id: '172338516139198_1267827519923620'
+reactions:
+  data:
+  - id: '10155747348649733'
+    name: Islam R Hefny
+    type: LIKE
+  paging:
+    cursors:
+      before: TnpZAeE56azBOek15T2pFME56Y3pOell5T1RRNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TnpZAeE56azBOek15T2pFME56Y3pOell5T1RRNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-10-25T04:42:57+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: http://stackoverflow.com/questions/14546362/how-to-resolve-wsaewouldblock-error
+    id: '1268018679904504'
+  - created_time: '2016-10-25T06:19:32+0000'
+    from:
+      name: Islam R Hefny
+      id: '10155747348649733'
+    message: |-
+      لا الموضوع ده محتاج قاعده ..
+      عشان تشرحلي مش عشان اشرحلك :D
+    id: '1268121663227539'
+  - created_time: '2016-10-25T06:20:18+0000'
+    from:
+      name: Tarek Ibrahem
+      id: '10215494402692670'
+    message: اول لما احل النقطة دي باذن الله :D
+    id: '1268123209894051'
+  - created_time: '2016-10-25T11:03:59+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      Question, if you connect to a local VPN server or proxy server, wouldn't that allow you to read the packets that the game sends? That way you wouldn't have to deal with code injection.
+      (and ... are you trying to cheat in a multiplayer game? :P)
+    id: '1268312673208438'
+  - created_time: '2016-10-25T22:29:06+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: |-
+      إيه اللي يخليك تعمل detour لـconnect؟ recv و send اللي المفروض تـhookـهم.
+      إنت إتأكدت بـWireshark إن الاتصال مش مشفر؟ لو البروتوكول مشفر حتحتاج تـhook جوا أكتر بعد فك التشفير. (البديل هو تغيير الـpublic key وانك تعمل Man-In-The-Middle على نفسك، وهو حل معمص نوعا ما).
+      في أحيان كتيرة الدالة الرئيسية إلي بتعمل dispatch للـpacket types بتبقى أكبر jump table في اللعبة. إستخدم Ollydbg وخليه يطلع لك الـjump tables ورتبهم حسب عدد الـcases.
+
+      وأما تلاقي الـdispatcher تبقى تـhookـه هو. حل أنضف بكتير من انك تعيد برمجة الحاجات اللي موجودة already في exe اللعبة.
+    id: '1268851806487858'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkyT0RBeE9EWTNPVGt3TkRVd05Eb3hORGMzTXpjd05UYzQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkyT0RnMU1UZA3dOalE0TnpnMU9Eb3hORGMzTkRNME5UUTMZD

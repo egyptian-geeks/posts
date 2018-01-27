@@ -1,0 +1,128 @@
+---
+message: "Is there anyone who had theses problems of permissions when connect his
+  database with Laravel project? \nI'm still beginner and i tried bunch of solutions
+  out there and they all fail! \nI'm using LAMP \nThanks in advance."
+link: https://www.facebook.com/photo.php?fbid=10206207538087001&set=gm.1132734270099613&type=3
+from:
+  name: Ibrahem A'mer
+  id: '10211047029111252'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/13119080_10206207538087001_4622501477079707066_n.jpg?oh=c0b8ca7d0ba021acc22a7f984a8a8d08&oe=5AEE384E
+created_time: '2016-04-27T11:15:21+0000'
+updated_time: '2016-04-28T12:11:18+0000'
+name: Photos from Ibrahem A'mer's post
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1132734276766279/
+id: '172338516139198_1132734276766279'
+reactions:
+  data:
+  - id: '10156052787639860'
+    name: Sherif Mesallam
+    type: LIKE
+  - id: '968838486602926'
+    name: Mohaned Nabeeh
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpRM05qQTBPRFU1T2pFME5qRTRORE14T0RFNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQTBNekF6TlRFeE1URTBPakUwTmpFM05UWTVNREU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-04-27T11:20:02+0000'
+    from:
+      name: Adam Zahran
+      id: '2029806313704072'
+    message: try root instead of root@localhost as the username
+    id: '1132736030099437'
+  - created_time: '2016-04-27T11:30:14+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "انت بتجرب بالروت، فالمفروض الموضوع سهل ومفيهوش تعقيدات واحتمالات كتير
+      .. \nاكتب فعلا من غير اسم الهوست والمفروض يشتغل !"
+    id: '1132739220099118'
+  - created_time: '2016-04-27T11:34:21+0000'
+    from:
+      name: Ahmed Badawy
+      id: '1596110217148252'
+    message: "By default its\n root , \nU can configure that.."
+    id: '1132740766765630'
+  - created_time: '2016-04-27T12:17:49+0000'
+    from:
+      name: Ibrahem A'mer
+      id: '10211047029111252'
+    message: "الأول كانت root فأنا كنت كاتب root@localhost كتجربة \nبس برده مشتغلش"
+    id: '1132757540097286'
+  - created_time: '2016-04-27T12:17:55+0000'
+    from:
+      name: Ibrahem A'mer
+      id: '10211047029111252'
+    message: يعني ف الحالتين المشكلة موجودة
+    id: '1132757576763949'
+  - created_time: '2016-04-27T12:19:57+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: على سبيل التجربة برضو ما تخليش الباسورد ارقام بس..  وايه الايرور اللي
+      بيظهرلك في اللارافيل بالظبط؟
+    id: '1132758600097180'
+  - created_time: '2016-04-27T12:45:01+0000'
+    from:
+      name: Ahmed Badawy
+      id: '1596110217148252'
+    message: اعمل يوزر جديد لل mysql من phpmyadmin و استخدمه فاللارافيل.
+    id: '1132768283429545'
+  - created_time: '2016-04-27T15:34:05+0000'
+    from:
+      name: Ibrahem A'mer
+      id: '10211047029111252'
+    message: "تمام انا حليت المشكلة، كانت مشكلة migration 　 \nنفس رسالة الايرور بتطلع
+      بس الداتا بيز بقت بتكونكت عادي"
+    id: '1132854936754213'
+  - created_time: '2016-04-28T07:16:43+0000'
+    from:
+      name: Mohamed Abdallah
+      id: '1682626591816292'
+    message: |-
+      ده حل لرسالة الايرور
+      http://stackoverflow.com/questions/11506224/connection-for-controluser-as-defined-in-your-configuration-failed-phpmyadmin-xa
+    id: '1133263400046700'
+  - created_time: '2016-04-28T09:25:17+0000'
+    from:
+      name: Nabeel Molham
+      id: '10214708401524482'
+    message: I think you should remove the "@localhost" from the "DB_USERNAME"
+    id: '1133303473376026'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV6TWpjek5qQXpNREE1T1RRek56b3hORFl4TnpVMk1EQXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV6TXpNd016UTNNek0zTmpBeU5qb3hORFl4T0RNMU5URTQZD
+attachments:
+  data:
+  - subattachments:
+      data:
+      - media:
+          image:
+            height: 459
+            src: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/13047798_10206207538087001_4622501477079707066_o.jpg?oh=052417a5c21a18ad9e814d4d3cc95cb3&oe=5AED1DDF
+            width: 720
+        target:
+          id: '10206207538087001'
+          url: https://www.facebook.com/photo.php?fbid=10206207538087001&set=gm.1132734270099613&type=3
+        type: photo
+        url: https://www.facebook.com/photo.php?fbid=10206207538087001&set=gm.1132734270099613&type=3
+      - media:
+          image:
+            height: 338
+            src: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/13063342_10206207538167003_9198325655904848330_o.jpg?oh=bda9a1fd68c235d760467ec8ac01a6b9&oe=5AEB0CB4
+            width: 720
+        target:
+          id: '10206207538167003'
+          url: https://www.facebook.com/photo.php?fbid=10206207538167003&set=gm.1132734273432946&type=3
+        type: photo
+        url: https://www.facebook.com/photo.php?fbid=10206207538167003&set=gm.1132734273432946&type=3
+    target:
+      id: '1132734276766279'
+      url: https://www.facebook.com/media/set/?set=pcb.1132734276766279&type=1
+    title: Photos from Ibrahem A'mer's post
+    type: album
+    url: https://www.facebook.com/media/set/?set=pcb.1132734276766279&type=1

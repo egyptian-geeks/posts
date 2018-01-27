@@ -1,0 +1,338 @@
+---
+message: |-
+  Dear Geeks,
+
+  Created my first ASPNET 5 MVC demo app on a Windows10 VM. Trying to replicate this on a Linux VM with YEOMAN & VS Code. Help appreciated!
+from:
+  name: Muhammad Al Rabbani
+  id: '586778644986720'
+type: status
+created_time: '2015-12-28T03:47:22+0000'
+updated_time: '2015-12-31T09:07:01+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1052771681429206/
+id: '172338516139198_1052771681429206'
+reactions:
+  data:
+  - id: '10156350315693322'
+    name: Ahmed Salah Mohamed
+    type: LIKE
+  paging:
+    cursors:
+      before: T0RFMk1UVTRNekl4T2pFME5URXpOREE0TURNNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: T0RFMk1UVTRNekl4T2pFME5URXpOREE0TURNNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2015-12-28T04:14:57+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      First, follow the install instructions in Mac:
+      https://docs.asp.net/en/latest/getting-started/installing-on-mac.html
+      (or look for your own OS, if on Windows, you already got all ASP.NET stuff installed).
+      Then: npm install -g yo generator-aspnet
+      Then run the "yo" command and follow the instructions
+      http://gigi.nullneuron.net/gigilabs/asp-net-5-preview-hello-world-with-yeoman/
+      After than you can run VS Code and open the project folder in it
+    id: '1052788334760874'
+  - created_time: '2015-12-28T04:16:44+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: I did everything in that post, I created the new project and got an ASPNET
+      project generated. The issue I am having is running it. it complains of an older
+      mono version. I am now in the process of updating mono. It would be good if
+      someone had actually gone through this process in Linux...
+    id: '1052788818094159'
+  - created_time: '2015-12-28T04:20:40+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Best is to uninstall dotnet tools and mono and install again as per the
+      first link.
+    id: '1052790238094017'
+  - created_time: '2015-12-28T04:22:34+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: I don't think the error I am getting of the older version means that
+      I need to do that. That is why I am asking if someone had actually gone through
+      it on Linux, because there are differences between Linux and OSX
+    id: '1052791278093913'
+  - created_time: '2015-12-28T04:30:16+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      Ah. Sorry. I really missed the word Linux even though I looked for it.
+      You might want to check that you have the "mono-complete" package specifically in http://www.mono-project.com/docs/getting-started/install/linux/
+    id: '1052794168093624'
+  - created_time: '2015-12-28T04:30:44+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: I just did that and now doing dnu restore
+    id: '1052794354760272'
+  - created_time: '2015-12-28T04:32:04+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Cool. Good luck with that
+    id: '1052794941426880'
+  - created_time: '2015-12-28T04:32:24+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: installed 256 packagaes
+    id: '1052795038093537'
+  - created_time: '2015-12-28T04:32:28+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: all green and nice
+    id: '1052795048093536'
+  - created_time: '2015-12-28T04:32:52+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: the issue is that omniserver craches with an error. I will google that
+      and see what i get
+    id: '1052795121426862'
+  - created_time: '2015-12-28T20:54:05+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: omniserver, that's for omnisharp syntax highlighting right? I think the
+      project could run without that for now (until you fix that crash)
+    id: '1053163958056645'
+  - created_time: '2015-12-29T01:39:10+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: Hassan Aly Selim  I am trying to run DNX>web but that is the error I
+      am getting. You are write it is the intellisense server, so I onder why it tries
+      to start and then crashes when I do DNX>web
+    id: '1053274161378958'
+  - created_time: '2015-12-29T08:25:32+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      Random ramble: could you have had
+       VS Code open and run F5 or whatever and it's run dnx web for you and now insurances are competing over the same port or something? Was VS Code open at all?
+    id: '1053403574699350'
+  - created_time: '2015-12-29T19:44:52+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: I had VS code open then press CTRL+SHIFT+ fF5 then type DNX> web. it
+      doesn't start the bash and say that it is hosting, instead, it shows the Omnisharp
+      error
+    id: '1053682381338136'
+  - created_time: '2015-12-29T23:40:26+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: Maybe try making this run without VS Code, you should be able to make
+      things run with just the terminal, it would be very weird if you still got omnisharp
+      errors this time!
+    id: '1053784467994594'
+  - created_time: '2015-12-30T00:54:38+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: will take a look at that and get back to you
+    id: '1053828651323509'
+  - created_time: '2015-12-30T04:45:47+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: Mohamed Meligy I think you were right about uninstalling and reinstalling
+      mono or at least maybe on the right path because the error message has changed
+      to  "a terminal launch issue now. Hassan Aly Selim you are right too in regards
+      to running from the terminal, there was a problem with the target framework
+      being dnx451 instead of dnxcore50
+    id: '1053890834650624'
+  - created_time: '2015-12-30T08:54:26+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: BTW in the next beta, a bunch of commands will change (dnx will become
+      dotnet) but things should be more streamlined, so look forward to that!
+    id: '1053993234640384'
+  - created_time: '2015-12-31T00:04:54+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: |-
+      I just wanted to mentioned that things worked about 3o minutes after my last posting, this is kind of a remineder of the MS world where you had to do many restarts and reinstalls I really was hoping that when MS becomes open source they would learn from the linux world a few concepts:
+      1. File copy deployment
+      2. Reliability
+      3. No caching  and invalidation of caching for software components like in the GAC or in their framework, or at least a more responsive cache, alas it seems they are bringing the MS "flavor" to Linux
+    id: '1054447507928290'
+  - created_time: '2015-12-31T00:05:24+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: 'On the bright side here is a screen shot of things working:'
+    id: '1054447654594942'
+  - created_time: '2015-12-31T00:07:19+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: You should have seen what the experience like in Angular alpha releases
+      with Rx versions and more. It was very crazy, or the ember CLI tailored for
+      Angular CLI. And that's all fine, because they are all pre-releases. That's
+      why alphas, betas, and RCs exist.
+    id: '1054448074594900'
+  - created_time: '2015-12-31T00:08:27+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: I'm assuming there're not enough testers on Linux other than the Docker
+      users though (most non-Windows testers are on Mac). It would be very helpful
+      if you can create an issue on the aspnet/home repository on github so that it
+      gets fixed in RTM.
+    id: '1054448264594881'
+  - created_time: '2015-12-31T00:27:32+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: I have tried Reactive since very early releases (don't remember exactly
+      how early), and I have tried many Open source SW as a pre-release or beta, even
+      alpha, heck, I have even tried experimental Debian and "unsupported stuff".
+      The thing is , MS is always less reliable and the experience seems to be consistent
+      even accross platforms. In Linux, I have never needed to restart the OS in 5
+      years, and when I install any software no matter how bad it is, even if it crashes,
+      the experience is logical, meaning it either works or it doesn't. And when it
+      doesn't work, I can just replace a file, script, or even edit a script file
+      it will work or give a clear messages. But now it works, tomorrow it doesn't,
+      or it works and you don't know how, is a consistently MS experience.  Also note,
+      this spans across more than 5 Debian flavours, including Ubuntu, Debian, Crunchbang,
+      gnewsense. Windows from 3.11 to Windows 10.
+    id: '1054452637927777'
+  - created_time: '2015-12-31T00:32:31+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: Just to make this clear, the names of OSs is not to say I am such a legend
+      and expert with platforms it is to say that what I say about reliability and
+      debugging platforms is based on long experience with both platforms not some
+      type of a religious war. I would have never thought of being a Linux guy until
+      I tried it myself almost 5/6 years ago. I never suspected I would fall in love
+      with it. Not to mention that with Linux I have the whole environement on a 7
+      GB VM which I could probably clean up to be around 5 GB if it was just a MS
+      environement, this includes Python, Java with Spring and Apache. Microsoft on
+      the other hand is WIn 10 , Visual Studio 2015 and it is already at 45 GB and
+      very RAM hungry. Linux could work very well on 2 GB RAM and I give it 4GB for
+      fun  :)
+    id: '1054454181260956'
+  - created_time: '2015-12-31T00:32:58+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: I'm not talking about a piece of software in itself, it's often the integration
+      between different versions of two libraries / softwares that gives the most
+      pain, especially in prereleases.
+    id: '1054454287927612'
+  - created_time: '2015-12-31T00:35:19+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: Plus when I remove software from a Linux machine is truly removed, in
+      MS I never regain the full disk space and there always remains remnants of an
+      old library so I have to reinstall the whole OS. I agree with you 2 versions
+      of a library cause problems, but here, the code was not working for a while
+      then it worked suddenly, the only justification I can find is that it there
+      must have been a cache somewhere that was refreshed after while.
+    id: '1054454777927563'
+  - created_time: '2015-12-31T00:52:33+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      You can install something with apt-get which installs some dependencies, now try removing it and the dependencies will stay there unless you manually remove them too, this is what happens in the windows world, except everything packages it's own copy of the dependencies with it. (which isn't optimal, I agree)
+      Now try on Linux to update some package that a ton of things rely on (like libc 2w 7aga keda) and watch the OS fall apart. I ruined a bunch of Raspbian installs that way and had to reflash and start over :D
+    id: '1054460334593674'
+  - created_time: '2015-12-31T00:54:52+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: Hassan Aly Selim dependencies can be removed with apt-get autoremove
+      at least that has been my experience. Libc on Raspbian is an interesting issue,
+      but can't multiple versions exist? Also, note, I have never had to reinstall
+      an OS, and I tried installing mono, uninstalling mono, install Python 3, uninstall
+      Python 3, Install Apache, remove Apache, install Apache again. Eclipse for instance
+      is a 250 MB (at most folder copy). In Ubuntu, I did get close to breaking it
+      with the NVidia driver, the solution was to create another user and everything
+      worked for that other user, but my old user would give a black screen. After
+      I fixed the issue on a 3rd admin user, I was able to have the 3 accounts working
+      perfectly.
+    id: '1054460787926962'
+  - created_time: '2015-12-31T00:58:38+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      My first experience with Raspbian was fighting with apt-get (autoremove, clean, and other commands), something decided to upgrade libc but something failed and the OS was in limbo and even the restart command didn't work :D
+      Apparently adding the debian repository is a bad idea and you should only get stuff from Raspbian's repository :D
+    id: '1054461544593553'
+  - created_time: '2015-12-31T01:02:27+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: Well, they always warn you from adding untrusted repositories, but were
+      you using Debian SID?
+    id: '1054462407926800'
+  - created_time: '2015-12-31T01:02:41+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: I think that basically the difference between using Windows or Linux
+      is just the shape of the hoops you go through to make things work and what beast
+      you have to fight to fix things :D
+    id: '1054462501260124'
+  - created_time: '2015-12-31T01:05:42+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      Is SID a release name? I was using Rasbian that's based on Debian Wheezy if I remember correctly, and the reason I added debian's repo was because some instructions told me to add a line in some file and run apt-get update or upgrade (mesh faker).
+      Anyways, all this was because I wanted to install mono-complete, I later discovered that it exists in raspbian's repo and things worked fine in the end :D
+    id: '1054463314593376'
+  - created_time: '2015-12-31T01:09:29+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: yeah, but a stable OS under 10 GB of disk space and with multiple platforms
+      installed that only needs 2 GB RAM is achievable in Linux, not is Windows. Linux,
+      the beasts are there, but they can be easily tamed and the bad ones probably
+      appear when you are playing with new hardware/drivers or some very well known
+      problem (e.g. NVidia Bumblebee) but in Windows, it could be just installing
+      Windows, VStudio and Office and some flavour of SQL server and you already are
+      over 50 GB plus you need at least 8 GB RAM. Then if you install something else
+      like a Java environment your system will be slow and very hard to fix, and you
+      are probably better off just having another VM. P.S. SID is after Jessie, I
+      think, the experimental one, But see, you probably were able to get up and running
+      very quickly. I can get an OS with multiple  dev environments (multiple Java
+      versions, and mono) up in 30 mins from scratch.
+    id: '1054464247926616'
+  - created_time: '2015-12-31T05:02:15+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: Yay!
+    id: '1054555257917515'
+  - created_time: '2015-12-31T09:07:01+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      Well, Microsoft was able to run Windows on a Raspberry Pi 2, so clearly it can be made small if they wanted to. There have been a long-running project to modularize Windows and it seems to be paying out right now :)
+      And BTW I think Windows's beasts can be tamed too, it's just that the way you do that is different. The problem is that Linux guys don't know how to fix Windows just like how Windows guys don't know how to fix Linux, so both sides keep calling the other "unusable" :)
+      Oh and congrats on taming the .Net Core RC1 beast :D
+    id: '1054634271242947'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEExTWpjNE9ETXpORGMyTURnM05Eb3hORFV4TWpjMk1EazMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEExTkRZAek5ESTNNVEkwTWprME56b3hORFV4TlRVeU9ESXgZD

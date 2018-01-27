@@ -1,0 +1,20 @@
+---
+message: |-
+  This is what IE on Windows Phone sends as user agent ... !!! :)
+
+   'Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 820) like iPhone OS 7_0_3 Mac OS X AppleWebKit/537 (KHTML, like Gecko) Mobile Safari/537'
+
+  We are using a mobile OS detect library, it returned the following after reading the header:
+  isAndroid: yes
+  isIPhone: yes
+  isWindowPhone: no :)
+from:
+  name: Ahmed Abdurrahman
+  id: '1788898074518553'
+type: status
+created_time: '2014-11-13T14:42:10+0000'
+updated_time: '2014-11-17T17:40:22+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/845513668821676/
+shares:
+  count: 2
+id: '172338516139198_845513668821676'

@@ -1,0 +1,51 @@
+---
+message: "Slam, \n\nWhat is the best recommended way for Zero-Time deployments ?"
+from:
+  name: Mohamed Sweelam
+  id: '1987222834640127'
+type: status
+created_time: '2017-10-03T00:14:51+0000'
+updated_time: '2017-10-03T18:16:19+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1622715104434858/
+id: '172338516139198_1622715104434858'
+reactions:
+  data:
+  - id: '1615436418535535'
+    name: Sabry ALzahar
+    type: LIKE
+  - id: '10156031350846054'
+    name: Mohamed Makeen
+    type: LIKE
+  - id: '10156045259634120'
+    name: Mostafa El Moatassem Bellah
+    type: LIKE
+  - id: '1958972070797083'
+    name: Mina William
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlNRGMxTnpZAeE9EVTFPakUxTURjek9URTVNVEU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXdOVEk1TWpnME1USTBPakUxTURZANU9EazVOalE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-10-03T00:20:54+0000'
+    from:
+      name: عمرو علي
+      id: '10159891311520297'
+    message: 'You need to check Blue-Green Deployment pattern. it is expensive to
+      apply since you will need 2 identical production environments (prod and preprod)
+      and keep switching between both upon each deployment. only needed for a mission-critical
+      application that requires near-zero time downtime. Familiarize yourself on this
+      pattern by reading this: https://martinfowler.com/bliki/BlueGreenDeployment.html,
+      and google it and you''ll find more interesting stuff.'
+    id: '1622724721100563'
+  - created_time: '2017-10-03T12:54:50+0000'
+    from:
+      name: Mahmoud Tantawy
+      id: '10156115350739764'
+    message: Ahmed Hamouda Check el kalam da keda
+    id: '1623128771060158'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl5TWpjeU5EY3lNVEV3TURVMk16b3hOVEEyT1Rrd01EVTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl5TXpFeU9EYzNNVEEyTURFMU9Eb3hOVEEzTURNMU1qa3gZD

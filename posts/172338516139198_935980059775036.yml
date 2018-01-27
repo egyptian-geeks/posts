@@ -1,0 +1,19 @@
+---
+message: |-
+  Hello Geeks,
+
+  I have an application where I use full text search on sql server 2008 R2
+
+  The text to be searched is in Arabic.
+
+  Everything is fine and FTS is working except that a word with "أ" does not match the same word with "ا".
+
+  Is there a default setting in FTS to make these words match or I have to implement it manually ?
+from:
+  name: Mahmoud Abd El-Fattah
+  id: '10156358805885288'
+type: status
+created_time: '2015-05-05T10:44:37+0000'
+updated_time: '2015-05-05T14:17:38+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/935980059775036/
+id: '172338516139198_935980059775036'

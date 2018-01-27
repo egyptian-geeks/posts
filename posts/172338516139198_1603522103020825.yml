@@ -1,0 +1,46 @@
+---
+message: i used smtp.gmail.com to send mail port  587 work fine on local but not working
+  on godday server that enable ssl do you have any solution ?
+from:
+  name: Mahmoud Bassuni
+  id: '1766628470034480'
+type: status
+created_time: '2017-09-10T17:17:06+0000'
+updated_time: '2017-09-10T21:02:45+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1603522103020825/
+id: '172338516139198_1603522103020825'
+reactions:
+  data:
+  - id: '1999765416908747'
+    name: Ahmed Khalifa
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTJNalU1TWpNNE9EVXlPakUxTURVd056Y3hPVEk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTJNalU1TWpNNE9EVXlPakUxTURVd056Y3hPVEk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-09-10T17:27:31+0000'
+    from:
+      name: Yasmin Kamel
+      id: '10155879183275856'
+    message: Maybe these steps help you https://support.google.com/accounts/answer/6010255?hl=en
+    id: '1603529163020119'
+  - created_time: '2017-09-10T17:35:52+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      Godaddy blocks any SMTP that isn't their own SMTP server.
+      Also don't use Gmail's SMTP, use SendGrid!
+    id: '1603536296352739'
+  - created_time: '2017-09-10T20:58:57+0000'
+    from:
+      name: Ahmed Hamdy
+      id: '10159955250425013'
+    message: "ssl port should be 486 \nCheck this link it might help https://www.google.com.eg/url?sa=t&source=web&rct=j&url=https://support.google.com/a/answer/176600%3Fhl%3Den&ved=0ahUKEwiLs63NwJvWAhWJPhQKHUqxDWIQFghxMA0&usg=AFQjCNHczOkG8ruoPo75R6oZg6Bx3f0-zQ"
+    id: '1603658493007186'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl3TXpVeU9URTJNekF5TURFeE9Ub3hOVEExTURZAME5EVXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl3TXpZAMU9EUTVNekF3TnpFNE5qb3hOVEExTURjM01UTTUZD

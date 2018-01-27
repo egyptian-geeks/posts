@@ -1,0 +1,110 @@
+---
+message: "كنت عايز اعرف ازاي اشتغل مع version control بطريقه صح \nيعني مثلا وانا بكتب
+  الكود\nهل كل ما ازود feature جديده اعمل commit ؟\nولا ايه الطريقه الصح \U0001F605"
+from:
+  name: Yousef Soliman
+  id: '1165078503622368'
+type: status
+created_time: '2017-08-13T15:23:48+0000'
+updated_time: '2017-08-14T15:17:31+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1577822158924153/
+id: '172338516139198_1577822158924153'
+reactions:
+  data:
+  - id: '10215836374411013'
+    name: محمد عمران
+    type: LIKE
+  - id: '10211621668082951'
+    name: Mohamed Abo El Fadl
+    type: LIKE
+  - id: '2760687167500624'
+    name: Mohamed El-Shahawi
+    type: LIKE
+  - id: '1791106327627013'
+    name: Mohamed El Tamimy
+    type: LIKE
+  - id: '10160030835075061'
+    name: Fady Morris Milad
+    type: LIKE
+  - id: '10208596993002679'
+    name: Mostafa Alaa
+    type: LIKE
+  - id: '782072338642745'
+    name: Maged Mohamed
+    type: LIKE
+  - id: '10214286218046010'
+    name: Islam Elsayed
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRRNU5EY3pPRFUzTWpveE5UQXlOall4TXpZAME9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRFek1qZA3pOVFU0TlRveE5UQXlOak00TVRRNE9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2017-08-13T15:28:54+0000'
+    from:
+      name: Kamal Aly Kamal
+      id: '1596204720460511'
+    message: I think you should commit every logical change or bug fix.
+    id: '1577843262255376'
+  - created_time: '2017-08-13T15:35:19+0000'
+    from:
+      name: Hossam L Dokkani
+      id: '928444520664078'
+    message: Also read about git flow
+    id: '1577868422252860'
+  - created_time: '2017-08-13T15:38:02+0000'
+    from:
+      name: Ahmad Hisham
+      id: '10159889607765058'
+    message: "Commit whenever you do the smallest unit that can be considered atomic.
+      \nHint: If you need to put a comma or dot in the commit message, it is probably
+      not atomic."
+    id: '1577879075585128'
+  - created_time: '2017-08-13T16:00:18+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: "Commit often and clean later \nمش مهم تبقى ال commits ليها هدف في البداية
+      غير انك تعمل save لشغلك او checkpoint، و ممكن قبل ما تعمل push ترجع تعمل interactive
+      rebase و تنظف ال history زي ما تحب"
+    id: '1577965138909855'
+  - created_time: '2017-08-13T16:24:31+0000'
+    from:
+      name: Haitham Shaddad
+      id: '1591171607636188'
+    message: طول ما الكود بيعمل build آخر اليوم يبقى تعمل commit
+    id: '1578043162235386'
+  - created_time: '2017-08-13T16:44:32+0000'
+    from:
+      name: Amr Yousef
+      id: '10216129314284453'
+    message: Git-flow is your best buddy. Normally each feature or fix has it's own
+      branch and you commit everytime you reach a goal or a milestone towards creating
+      this new feature or completing the fix. I recommend using something like sourcetree
+      ( available only for Mac OS or Windows unfortunately). It will make your life
+      much easier and allows easy management of git flow
+    id: '1578102892229413'
+  - created_time: '2017-08-13T17:01:44+0000'
+    from:
+      name: Amr Almgwary
+      id: '1978556165731463'
+    message: Branch per task, commit for every atomic change .
+    id: '1578154062224296'
+  - created_time: '2017-08-14T11:49:07+0000'
+    from:
+      name: Mohamed Abdelghani
+      id: '1854642424546313'
+    message: 'It''s important also to write a descriptive commit message. In-general  your
+      commit message should answer 2 questions: What and Why.'
+    id: '1579055605467475'
+  - created_time: '2017-08-14T15:17:28+0000'
+    from:
+      name: Mohamed Ali
+      id: '894488847398032'
+    message: "في كورسين حلوين اوي ع udacity \nهيظبط معاك الدنيا كلها \U0001F609"
+    id: '1579200398786329'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUzTnpnME16STJNakkxTlRNM05qb3hOVEF5TmpNNE1UTTEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUzT1RJd01ETTVPRGM0TmpNeU9Ub3hOVEF5TnpJek9EUTQZD

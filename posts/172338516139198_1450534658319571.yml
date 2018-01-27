@@ -1,0 +1,289 @@
+---
+message: |-
+  Hello guys,
+
+  We've created a prototype for an online service that indexes videos spoken content and make it searchable by text, think of it like YouTube but searches in spoken content too, not just video metadata, we call it MST (boring name)
+
+  It works as following:
+  Video Crawler: (YouTube only)
+  Takes a video, playlist or channel link and pass each video to our engine which has audio preprocessing unit, modified speech recognition engine and save the output into the database in a special format for searching later.
+
+  Now a video is added to the database with timestamps of spoken content
+
+  Frontend Search:
+  A web page with a search box, users type a search query, this text query is converted to the same format genrated by the crawler.
+
+  Search results appear as embedded YouTube videos with times of occurences of the query in the video
+
+  Notes:
+  - Currently we support one word only, no sentences.
+  - We use SQLite database (best for prototyping IMHO)
+  - Very simple web page design for PoC
+  - Current database has about 100 searchable videos
+  - Crawler is currently running adding new videos (around 70,000 now)
+  - Only English support for now
+  - We're building a new website with a UI that can handle searching in thousands of videos
+
+  Questions:
+  - Feedback?
+  - Features suggestions?
+
+  You can try a test search with words like "technology" or "video"
+
+  https://mst.qreo.net
+from:
+  name: Marwan Yassin
+  id: '10159953707250230'
+type: status
+created_time: '2017-04-11T19:51:16+0000'
+updated_time: '2017-04-12T19:21:13+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1450534658319571/
+shares:
+  count: 2
+id: '172338516139198_1450534658319571'
+reactions:
+  data:
+  - id: '10215912205257566'
+    name: Mohammed Fouad Hassen
+    type: LIKE
+  - id: '1989910374594728'
+    name: Ahmed Algaml
+    type: LIKE
+  - id: '1679860805369262'
+    name: Abdelrahman Ghanem
+    type: LIKE
+  - id: '10158861659938504'
+    name: Michel Mina
+    type: LIKE
+  - id: '1750532274967735'
+    name: Ahmed Moussa
+    type: WOW
+  - id: '10215846341376636'
+    name: Hussam Salah
+    type: LIKE
+  - id: '1417915408330562'
+    name: Maioi Ahmed
+    type: LOVE
+  - id: '1849298651796769'
+    name: Hussam Hussien
+    type: WOW
+  - id: '1554633547925792'
+    name: Abdullah Abd El-khalik
+    type: LIKE
+  - id: '10156089336182292'
+    name: Hassan Aly Selim
+    type: WOW
+  - id: '10159932941280506'
+    name: Mohab Elkaref
+    type: LIKE
+  - id: '10156077256184116'
+    name: Mustafa Gamal
+    type: LIKE
+  - id: '10155895263189003'
+    name: Khaled Hamed
+    type: LIKE
+  - id: '1521319414630531'
+    name: Mohamed Abdallah
+    type: LIKE
+  - id: '2050089245238388'
+    name: Mostafa Algayar
+    type: LIKE
+  - id: '1451761991601830'
+    name: Saed Hossam
+    type: LIKE
+  - id: '2235125430048507'
+    name: Mohamed Khalaf
+    type: LIKE
+  - id: '10215984708437373'
+    name: Ahmad El-Melegy
+    type: LIKE
+  - id: '1812730598739350'
+    name: MOustafa Maher
+    type: LIKE
+  - id: '10154931234926076'
+    name: Moh Abdou
+    type: LIKE
+  - id: '1555354924540360'
+    name: Mahmoud Adas
+    type: LIKE
+  - id: '1597124390366331'
+    name: Menna Mustafa
+    type: LIKE
+  - id: '10155600388037886'
+    name: Yahya Sabry
+    type: LIKE
+  - id: '10155804554618673'
+    name: Ahmed Nabil Mohamed
+    type: LIKE
+  - id: '10159926835745593'
+    name: Yehia Shouman
+    type: LIKE
+  - id: '368237263651704'
+    name: Omar Ali
+    type: LIKE
+  - id: '1791452377571672'
+    name: Mohammed Alaa El Komy
+    type: LIKE
+  - id: '10213546812217203'
+    name: Ahmed Atif
+    type: LIKE
+  - id: '10215300742852086'
+    name: Mahmoud Ali
+    type: LIKE
+  - id: '1636144886482440'
+    name: Afraym Nageh
+    type: LIKE
+  - id: '10214462965442393'
+    name: Mahmoud Ismael Alsahban
+    type: LIKE
+  - id: '1077894205684299'
+    name: Hisham Salah
+    type: LIKE
+  - id: '10155426916839779'
+    name: Amr Medhat
+    type: LIKE
+  - id: '1598086370228068'
+    name: Mustafa M. A. Elkhiat
+    type: LIKE
+  - id: '1864196110277074'
+    name: Mustafa M Elmoslhey
+    type: LIKE
+  - id: '1573186529416659'
+    name: Amr Soliman
+    type: LIKE
+  - id: '10155923396620185'
+    name: Amr Nassar
+    type: LIKE
+  - id: '10155880598025170'
+    name: Mohammed El Sayed
+    type: LIKE
+  - id: '10160035809660220'
+    name: Shady Abdel Aziz
+    type: LIKE
+  - id: '10208831526545433'
+    name: Mohamed Osama
+    type: LIKE
+  - id: '10155182529813309'
+    name: Mohamed El-Sayed
+    type: LIKE
+  - id: '10215089056117161'
+    name: Alaa Agwa
+    type: LIKE
+  - id: '1970818952958553'
+    name: Mohamed Hamdi
+    type: LIKE
+  - id: '1731579053561535'
+    name: Soaad Abdel-Aziz
+    type: LIKE
+  - id: '1668262649929708'
+    name: Abdelrahman Moustafa
+    type: LIKE
+  - id: '2069974546552181'
+    name: Mahmoud Elaskare
+    type: LIKE
+  - id: '403777313391852'
+    name: أحمد
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRJeE9UWXhNalV3TkRveE5Ea3lNamN5TnpJek9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBd01ERXlOemczTmpBMU56RTBPakUwT1RFNU5EQTBNelk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-04-11T20:31:55+0000'
+    from:
+      name: Mahmoud Hossam
+      id: '1360912124012585'
+    message: If you want to be serious about search, consider using something like
+      solr or elasticsearch, this will also eliminate your dependency on SQLite.
+    id: '1450561278316909'
+  - created_time: '2017-04-11T20:49:32+0000'
+    from:
+      name: Ibrahim Zaki
+      id: '10157017423792738'
+    message: How is the acuracy in terms of F1, precision and recall scores. ?
+    id: '1450572671649103'
+  - created_time: '2017-04-11T20:56:51+0000'
+    from:
+      name: Ahmed Ghozia
+      id: '10155317635278575'
+    message: |-
+      1- the search returns videos with word occurrences. I would suggest the search to return videos whose topic  matches more the query not just word occurrences. because the searcher would be looking for topic oriented searches rather than just word occurrences, I guess.
+
+      2- Are you targeting a specific audience with your search system ? or normal public user ?
+    id: '1450576991648671'
+  - created_time: '2017-04-11T21:05:13+0000'
+    from:
+      name: Bassam Abd Elhamid
+      id: '1955441501387657'
+    message: فكرة جامده جداً, بعد اكتمالها هتفيد ناس كتير ان شاء الله, وفى الغالب
+      الفبيت هيحاولو يشتروها, حالياً ممكن تفيد الناس الى بتتعلم لغات وعاوزه تسمع الكلمة
+      فى ثياق حقيقى, فى خدمة شبيهة بتعمل كده, تصورى للشكل النهائى انه هيكون البحث
+      فول تيكست سيرش كمان تستخدم كلود هوستنج عشان الاسكيلنج والسرعة
+    id: '1450581968314840'
+  - created_time: '2017-04-11T21:05:08+0000'
+    from:
+      name: Mohamed Samir
+      id: '1579793612127821'
+    message: 'Why didn''t you use youtube -ready- auto caption?: https://developers.google.com/youtube/v3/docs/captions#snippet.lastUpdated  so
+      the crawler crawl the caption too, It will save you a lot of work and google
+      is making progress with their speech recognition technology'
+    id: '1450581861648184'
+  - created_time: '2017-04-11T21:23:05+0000'
+    from:
+      name: عبدالله محمد
+      id: '10213101784151931'
+    message: |-
+      for your data set use
+      https://research.google.com/audioset/
+      https://research.google.com/youtube8m/
+    id: '1450593141647056'
+  - created_time: '2017-04-11T21:31:51+0000'
+    from:
+      name: Mohamed Huzien
+      id: '859391800899712'
+    message: Mostafa Abd El-salam
+    id: '1450599238313113'
+  - created_time: '2017-04-11T22:08:13+0000'
+    from:
+      name: Mahmoud Said Ahmed
+      id: '10215648453949171'
+    message: Ahmad Al-Mahdi
+    id: '1450619064977797'
+  - created_time: '2017-04-12T03:45:20+0000'
+    from:
+      name: Ahmad Hamdy Hassanien
+      id: '417374808696515'
+    message: Cool
+    id: '1450826674957036'
+  - created_time: '2017-04-12T04:29:01+0000'
+    from:
+      name: Menna Mustafa
+      id: '1597124390366331'
+    message: Mohamed Atef Bassel Hossam :D
+    id: '1450852548287782'
+  - created_time: '2017-04-12T11:31:25+0000'
+    from:
+      name: Eslam Ali
+      id: '1520656798030675'
+    message: Tarek
+    id: '1451116981594672'
+  - created_time: '2017-04-12T13:18:32+0000'
+    from:
+      name: Mohab Elkaref
+      id: '10159932941280506'
+    message: |-
+      Once you have this working a little better, a potential market for this is YouTubers who want to monitor copyright infringement. A lot of smaller YouTubers complain about *Someone* reacts videos where they embed someone else's video and just film themselves watching.
+
+      But before you do that, work on making this a lot more accurate. People here are giving some great advice already on building training and test sets for your speech recogniser. Good luck :)
+    id: '1451208014918902'
+  - created_time: '2017-04-12T19:21:10+0000'
+    from:
+      name: Ahmed Moussa
+      id: '1750532274967735'
+    message: Ahmed Magdy
+    id: '1451535758219461'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFExTURVMk1USTNPRE14Tmprd09Ub3hORGt4T1RReU56RTEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFExTVRVek5UYzFPREl4T1RRMk1Ub3hORGt5TURJME9EY3gZD

@@ -1,0 +1,41 @@
+---
+message: I'd like to retrive all the posts from a facebook group that i'm a member
+  in knowing that it's a secret group but i can't find a way to do this through the
+  facebook graph API,  any ideas rather than a crowler.
+from:
+  name: Ahmed Mustafa
+  id: '10213804085630819'
+type: status
+created_time: '2016-12-18T17:14:49+0000'
+updated_time: '2016-12-19T06:47:56+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1331000380273000/
+id: '172338516139198_1331000380273000'
+comments:
+  data:
+  - created_time: '2016-12-18T17:25:08+0000'
+    from:
+      name: احمد قرواش
+      id: '1561022257326859'
+    message: "هقولك علي الخطوات الي انا بستخدمها \nانا بستخدم FB SDK C# .NET\nتقدر
+      تنزلها من NUGET \n\nوتستخدم public access token App\nالافضل والذي لا بديل له
+      في المجال هو البلاك بيري\nولكن مشكلته ان الاكسس توكن لازم تعمل للاكونت تسجيل
+      علي بلاك بيري ولتنفيذ العملية استخدم محاكي البلاك بيري تقدر تنزله من موقع بلاك
+      بيري برضو\n\nالتطبيق يمتلك صلاحيات كتيرة جدا\n\nهتستخدم الامر الاتي\n{group-id}/feed\nمع
+      GET\nطيب هو هيجيب اخر 25 بوست تم نشرهم طيب ازاي اجيب البوستات كلها\n\nاولا هتستخدم
+      limit و offset \nمتعملش عمليات ورا بعضها من نفس الفانكشن بنفس ال FacebookClient
+      \nلأ اعمل فانكشن وافضل call ليها وكل فانكشن ترجع ليك list بالداتا\n\nالفكرة
+      ان لو عملت فانكشن واحدة بتعمل ليك GET وبتغير قيم ال offset و GET كل مرة هيرجع
+      ليك برضو اخر 25 بوست بس مش فاهم ليه صراحة لكن انا حليتها باني بعمل فانكشن زي
+      ما قولت فوق\n\nلو في اي حاجة وقفت معاك انا موجود"
+    id: '1331008226938882'
+  - created_time: '2016-12-18T17:41:35+0000'
+    from:
+      name: Adel Aly
+      id: '10213557429243435'
+    message: Unless the group is 'open', you need the access token of a group admin
+      to access its feed.
+    id: '1331019853604386'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE16TVRBd09ESXlOamt6T0RnNE1qb3hORGd5TURneE9UQTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE16TVRBeE9UZAzFNell3TkRNNE5qb3hORGd5TURneU9EazIZD

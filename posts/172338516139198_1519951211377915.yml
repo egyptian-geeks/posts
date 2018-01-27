@@ -1,0 +1,64 @@
+---
+message: Which VPN's work in Egypt? No SSH tunnels please. PPTP or L2TP.
+from:
+  name: Youssef El-Gendy
+  id: '1541854242578501'
+type: status
+created_time: '2017-06-18T19:10:52+0000'
+updated_time: '2017-06-19T10:39:12+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1519951211377915/
+shares:
+  count: 1
+id: '172338516139198_1519951211377915'
+comments:
+  data:
+  - created_time: '2017-06-18T19:12:36+0000'
+    from:
+      name: Muhammad El-Shafie
+      id: '10215276255482572'
+    message: Expressvpn
+    id: '1519952061377830'
+  - created_time: '2017-06-18T19:24:54+0000'
+    from:
+      name: Moataz Elmasry
+      id: '10159865785365331'
+    message: Do not use neither. Because both are very easy to block
+    id: '1519959508043752'
+  - created_time: '2017-06-18T19:25:51+0000'
+    from:
+      name: Moataz Elmasry
+      id: '10159865785365331'
+    message: Best to use OpenVPN, IKEv2 or SoftEther over port 443 (SSL over HTTPS)
+    id: '1519960104710359'
+  - created_time: '2017-06-18T19:27:16+0000'
+    from:
+      name: Muhammad Sherbeeny
+      id: '10159810258355527'
+    message: |-
+      For PCs and free:
+      VPN Gate public relay servers @ SoftEther
+    id: '1519960831376953'
+  - created_time: '2017-06-19T09:17:53+0000'
+    from:
+      name: Aly Ragab
+      id: '1757259924304915'
+    message: don't use any of them , and work with OpenVPN
+    id: '1520452437994459'
+  - created_time: '2017-06-19T10:15:39+0000'
+    from:
+      name: Muhammed Nagy
+      id: '495080930892199'
+    message: OpenVPN isn't working with me I use SSL tunnel all the time
+    id: '1520483477991355'
+  - created_time: '2017-06-19T10:39:10+0000'
+    from:
+      name: Badreldin Mostafa
+      id: '10156305312664589'
+    message: ExpressVPN gets me through the fucking great firewall of China.. it  will
+      definitely get u through whatever shitty system they have in Egypt .. try astrill
+      as well
+    id: '1520509964655373'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV4T1RrMU1qQTJNVE0zTnpnek1Eb3hORGszT0RFek1UVTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV5TURVd09UazJORFkxTlRNM016b3hORGszT0RZANE56VXcZD

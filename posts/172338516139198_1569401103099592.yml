@@ -1,0 +1,187 @@
+---
+message: "ReactVsAngular\nكذا حد كان بيسئل عن رياكت و انجيلر فا انا حابب اني ابين
+  الفرق ببصاته\nالفرق في طريقه البرمجه الي رياكت عايزها هيه\nfunctional programming.\nمثلا
+  في انجلر انت حيبقي عندك\nhtml template template.html \n\"<h1>{{scope.title}}</h1>\"\nو
+  بعندين حيبقي فيه كومبوننت، او كونترولر بيستخدم التمبلت دي و هكذا.. رياكت مش كده.
+  مفيش اصلا تمبلت. و انت مش محتاج لها !!\nرياكت الفكره انك بدل متعمل كده و يبقي عتدك
+  كونترولر\ncontroller, factory, MVC \nو يبقي عندك ابليكيشن ضخم متكون من مجموعه من
+  الدوتس و الكومبوننتس..\nانك يبقي عندك فنكشن بتناديها ترجع لك\n html\n\nfunction
+  hello(title){\n  return \"<h1>\"+title+\"</h1>\";\n}\n\nبكده انت عندك فنكشن واحده.
+  صغيره و سهل تكتب لها تستات\nبس في مشكله. كده الفنكشن بترجع\nhtml as a string.\nفا
+  بدل كده رياكت عملت لنا\nJSX\n\nfunction hello(title){\n  return <h1>{title}</h1>;\n}\n\nبحيث
+  انك كده بترج html nodes.\nمش بس كده ، كمان بما ان الفنكشنز دي انت بتكتبها عشان الويب
+  فارياكت زوددت حجات علي الفنكشنز الطبيعيه، مثلا\nany normal function, it run once
+  executed and when it finish all procedures it will die, and clean all its \"state\".\nreact
+  gave us ability to give \"run time\" or \"State\" for our functions. now react functions
+  will keep the state of the function if you want to !.\nfor example a normal function
+  like following:-\n\n```js\nfunction hello(title){\n  var call_num = 0;\n  call_num++;\n
+  \ return <h1>{title} called {call_num} time</h1>;\n}\n```\n\nEvery time u call this
+  function, u will get the same result of title+1, because “call_num” variable will
+  get reset every time u call the function.. (since normal functions are “stateless”
+  by nature)\n\nbut what if the `call_num` was static ?!, that's what react does for
+  us.\nif `call_num` was defined as static then calling hello('world') every time,
+  it should return +1 count. Now, this function is holding “State” aw akenaha 3andaha
+  stateful runtime.\n\nfunction hello(title){\n  Var call_num = 0;  \n  \n  return
+  (function helloComposed(title){\n    call_num++;\n    return <h1>{title} called
+  {call_num} time</h1>;\n  })(title);\n}\n\n** notice composition ?? U call hello()
+  it will call another function for u ( a composed function).\n** composition is one
+  of the strongest points of functional programming and in react, u will need to compose
+  lots of functions together too !! \n\nفي الاخر لمه تتبع طريقه رياكت حتلاقي ان اكبر
+  الابس و اكثرها تعقيدا ،اتحولت الي مجموعه من الفنكشنز الي اكبرها في حدود ال٨-١٠ سطور.\nو
+  هيه دي قوه رياكت يا ساده ;)\nهيه فكره / او مبدا . انك مش حتكتب ابليكيشن انت حتكتتب
+  فنكشنز .. بس بما ان الفنكشنز دي انت محتاجها ترجع html . فا رياكت عملتلك ال jsx .
+  و حطيتلك ليف سيكل خهووكس عشان تديلك تحكم اقوي …\nو بدل ماتنادي الفنكشنز بنفسك، بتناديها
+  جوا الjsx\n\n<Hello title=\"world\" count=\"1\" />\nis same as\nhello('world', 1);
+  or hello( {title:'world', count:'1'} );\n\nو هنا رياكت بتسمي الارجيمنتس props, و
+  بس :)\n\n و بس :) !\n\nshewayet graphs and benchmarks\n"
+link: https://auth0.com/blog/more-benchmarks-virtual-dom-vs-angular-12-vs-mithril-js-vs-the-rest/
+from:
+  name: Momen Al Zalabany
+  id: '10160388991030144'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQAGhzVCBS42kzTx&w=130&h=130&url=https%3A%2F%2Fcdn.auth0.com%2Fblog%2Fdombench%2Flogo_fist.png&cfs=1&_nc_hash=AQBoNojd4vBlKE8z
+created_time: '2017-08-05T17:26:52+0000'
+updated_time: '2017-08-06T07:30:38+0000'
+name: 'More Benchmarks: Virtual DOM vs Angular 1 & 2 vs Others'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1569401103099592/
+id: '172338516139198_1569401103099592'
+reactions:
+  data:
+  - id: '564149277272611'
+    name: Sherif Y. Ahmed
+    type: LIKE
+  - id: '10212947071504226'
+    name: Eslam Hamouda
+    type: LIKE
+  - id: '1951618771517953'
+    name: Mahmoud Aladdin
+    type: LIKE
+  - id: '2069499223273223'
+    name: Naggar
+    type: LOVE
+  - id: '1559095764197464'
+    name: Abdallah Ebrahim
+    type: LIKE
+  - id: '10159880265870164'
+    name: Kinan Qassar
+    type: LIKE
+  - id: '10215081098282142'
+    name: Ahmed Korayem
+    type: LIKE
+  - id: '879271768900112'
+    name: Osama Soliman
+    type: LIKE
+  - id: '1817971738215592'
+    name: Mohamed Samy
+    type: LIKE
+  - id: '1843891078979183'
+    name: Ali Hassan
+    type: LIKE
+  - id: '1819455044782386'
+    name: Samir Mohamed
+    type: LIKE
+  - id: '1641565752594739'
+    name: Ahmed Aziz
+    type: LIKE
+  - id: '2263610936997643'
+    name: Karim Mohamed
+    type: LIKE
+  - id: '1665308196861540'
+    name: Muhammad Khaled
+    type: LIKE
+  - id: '1706331916053658'
+    name: محمود أحمد مصطفى
+    type: LIKE
+  - id: '10155432639833282'
+    name: Ahmed Abdo
+    type: LOVE
+  - id: '1854491187925905'
+    name: Mostafa Zaki
+    type: LIKE
+  - id: '1791452377571672'
+    name: Mohammed Alaa El Komy
+    type: LIKE
+  - id: '10213485772596807'
+    name: Mahmoud Elshafaey
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01ERXdNekkyTXpBMk1UUTRPakUxTURJd056ZA3hNekE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRFM05UZAzBNVFF6TXpveE5UQXhPVFUwTnpVeU9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2017-08-05T18:14:08+0000'
+    from:
+      name: Ahmed El Mowafy
+      id: '1677576058930096'
+    message: "انا مجربتش react بس احب اقولك ان الدنيا بتبقى حلوة فى المشاريع الصغيرة\nاياً
+      كانت الحاجة اللى بتستخدمها\nبعد كدة ال functions هتكتر اوى وهتحتاج تقسمها ل
+      files و modules\nعلشان تقدر تحافظ على صحتك العقلية\n\nفهتجمع ال functions اللى
+      بترجع html فى فولدر وتسميه \nمثلاً templates\n\nوتجمع ال functions اللى بتعدل
+      خواص ال html فى فولدر وتسميه\nمثلاً directives"
+    id: '1569433026429733'
+  - created_time: '2017-08-05T18:39:24+0000'
+    from:
+      name: Ahmed Atalla
+      id: '574320702905312'
+    message: محدش قال أن الكومبوننت في ريأكت بتبقي فنكشن بس ... دي أبسط صورة للكومبوننت
+      وبتتسمي stateless component إنما الطبيعي ان كل كومبوننت بتكون كلاس كاملة فيها
+      properties و methods زي مانت عايز مش مجرد فنكشن واحدة
+    id: '1569449186428117'
+  - created_time: '2017-08-05T19:21:23+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: انت كلامك عن انجيولار 1 مش كدة؟
+    id: '1569475263092176'
+  - created_time: '2017-08-05T19:27:48+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: 3ana angular in general el sara7, both versions adopt html template strategy,
+      even if angular2 use "Emulated shadow dom" I think it's not encapsulated enough
+      since the angular team never promoted separation and most apps do not go fo
+      "reusable components" approach as much as react.. wala ana outdated ?
+    id: '1569479189758450'
+  - created_time: '2017-08-05T21:19:25+0000'
+    from:
+      name: Mostafa Ihab Bakr
+      id: '10155250110140963'
+    message: Abdelrahman Ben Mahmoud
+    id: '1569549286418107'
+  - created_time: '2017-08-05T21:41:26+0000'
+    from:
+      name: Ahmed Abo Mazin
+      id: '1758521440903748'
+    message: The battle of angular still on fire :-D do u know how many article wuth
+      name angular vs react :-D but I love article :)
+    id: '1569562193083483'
+  - created_time: '2017-08-05T21:49:33+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: Statement :, i think angulajs is the most productive framework ever existed..
+      I recommend it for sure for any project with near golive time.. This post is
+      not about angularvsreact its written for angular vs react WAYS of things, i
+      meant to clarify to new devs why jsx exists and what is functional programming
+      in react prospective :), excuse me all  angular devs i love u too <3 no harm
+      intended :D
+    id: '1569566919749677'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUyT1RRek16QXlOalF5T1Rjek16b3hOVEF4T1RVMk9EUTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUyT1RVMk5qa3hPVGMwT1RZAM056b3hOVEF4T1RZANU56Y3oZD
+attachments:
+  data:
+  - description: You asked? We listened! Benchmark series is back with even more frameworks
+      and metrics!
+    media:
+      image:
+        height: 528
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQD-2NPAw0EN7Tsw&w=720&h=720&url=https%3A%2F%2Fcdn.auth0.com%2Fblog%2Fdombench%2Flogo_fist.png&cfs=1&_nc_hash=AQALJmmhWolHjrD8
+        width: 528
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fauth0.com%2Fblog%2Fmore-benchmarks-virtual-dom-vs-angular-12-vs-mithril-js-vs-the-rest%2F&h=ATO30QRSP6y4YBcRbuSpxwGrrgig5TG3Lk07SGK0AUhODEntwlY_ZN8VhKnSXBECVFyHCLdgCU4rN2npQW1NQR4imTib-tTrAhB7&s=1&enc=AZPuNnKYyiaENICrWM7que3oMbLa9tZnwM28KpVgBfBK2oOq3W7_kuRlwEltaQsBlXmXIjmvD2rrxW97pE9nI0R2
+    title: 'More Benchmarks: Virtual DOM vs Angular 1 & 2 vs Others'
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fauth0.com%2Fblog%2Fmore-benchmarks-virtual-dom-vs-angular-12-vs-mithril-js-vs-the-rest%2F&h=ATO30QRSP6y4YBcRbuSpxwGrrgig5TG3Lk07SGK0AUhODEntwlY_ZN8VhKnSXBECVFyHCLdgCU4rN2npQW1NQR4imTib-tTrAhB7&s=1&enc=AZPuNnKYyiaENICrWM7que3oMbLa9tZnwM28KpVgBfBK2oOq3W7_kuRlwEltaQsBlXmXIjmvD2rrxW97pE9nI0R2

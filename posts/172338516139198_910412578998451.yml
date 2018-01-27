@@ -1,0 +1,28 @@
+---
+message: 'I hope the following is appropriate for this group. I''m looking to get
+  advice on an ideal Wordpress development environment/workflow. After some years
+  of working inefficiently, and sometimes recklessly (often working directly on live
+  sites, sometimes finding sites broken several steps in, and then resorting to backups,
+  sometimes at a server level, and trying to remember the steps I took and want to
+  renew), I''m trying to refine a better setup: Vagrant (under VirtualBox on OSX)
+  for local WP development (initially using the VVV configuration, though I''m looking
+  into other configurations) --> GIT for version control (using Tower for OSX: still
+  learning my way around this one) --> Codekit to keep browsers automatically refreshed
+  --> Beanstalk from Tower to push and pull branches to and from local to the production
+  server (I''m looking into running all my sites from a single git repository, with
+  domains segmented out in branches, so I can keep to the free, one repository Beanstalk
+  plan) --> WP Sync DB Master plugin (a free fork of the premium plugin WP Migrate
+  DB Pro that works perfectly for migrations and backups) to pull and push databases
+  between local and remote without having to edit databases --> Command line cache
+  purge for Cloudfare and MaxCDN where necessary (still working on this) ---> Automated
+  backup to Dropbox from the production server using BackWPup plugin. I''m not there
+  yet on all the above, but this is where I''m heading. I''d be very appreciative
+  of any input, or alternative suggestions.'
+from:
+  name: Ian Douglas
+  id: '10156434357078690'
+type: status
+created_time: '2015-03-16T20:38:42+0000'
+updated_time: '2015-03-17T16:03:30+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/910412578998451/
+id: '172338516139198_910412578998451'

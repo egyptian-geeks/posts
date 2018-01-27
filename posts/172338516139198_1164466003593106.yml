@@ -1,0 +1,86 @@
+---
+message: If I want to make a library  ( jar, gem, pip .. etc ). And this library has
+  a key/value based data. What is the best solution for the best performance? storing
+  them in a json/xml file then loading all the file in the memory for every query
+  is هبل. Storing the data on a server with an API is good choice but it will be an
+  opensouce project and I won't pay for ther server forever I want it to be stable
+  and trusted by the user. what do you think ??? SQLite??
+from:
+  name: Morad Edwar
+  id: '10215772499725897'
+type: status
+created_time: '2016-06-18T13:39:00+0000'
+updated_time: '2016-06-19T14:21:14+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1164466003593106/
+id: '172338516139198_1164466003593106'
+reactions:
+  data:
+  - id: '1772542006152666'
+    name: Mohamed AbuIssa
+    type: LIKE
+  - id: '1596110217148252'
+    name: Ahmed Badawy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhPVEEyTlRBNU16RXlPakUwTmpZAeU5qVXhPREE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlORGM0Tmpnd09EVTJPakUwTmpZAeU5UZAzBPREU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-06-18T13:52:57+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: DynamoDB ?
+    id: '1164470490259324'
+  - created_time: '2016-06-18T14:02:58+0000'
+    from:
+      name: Ahmed Badawy
+      id: '1596110217148252'
+    message: Sqlite all the way...
+    id: '1164476820258691'
+  - created_time: '2016-06-18T15:04:44+0000'
+    from:
+      name: Ahmed Shaker
+      id: '10159924810845123'
+    message: Redis is an amazing in memory key/value data store and it supports persistence
+      and clustering ... also it has pub/sub implementation
+    id: '1164503643589342'
+  - created_time: '2016-06-18T15:05:24+0000'
+    from:
+      name: Ahmed Shaker
+      id: '10159924810845123'
+    message: and you can also look at berkeley db
+    id: '1164503910255982'
+  - created_time: '2016-06-18T16:00:20+0000'
+    from:
+      name: Islam AbdelMohaimen Hassan
+      id: '10214796374519514'
+    message: I think he's looking for something to embed in the library, not a general
+      key/value store.
+    id: '1164526450253728'
+  - created_time: '2016-06-19T07:32:26+0000'
+    from:
+      name: Ashraf Kaabi
+      id: '10156258607755921'
+    message: "Text file since is only key value wht u required  and you dont need
+      relational db for this simple task. \nIf you gonna go further with ur project
+      and need a db then sqlite is good choice for single use only."
+    id: '1164921160214257'
+  - created_time: '2016-06-19T07:37:11+0000'
+    from:
+      name: Ashraf Kaabi
+      id: '10156258607755921'
+    message: Btw u still can use json/xml locally. I really cant get why u want to
+      store only some values in relational db.
+    id: '1164923040214069'
+  - created_time: '2016-06-19T14:21:14+0000'
+    from:
+      name: Ibrahim Zaki
+      id: '10157017423792738'
+    message: Redis
+    id: '1165105256862514'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUyTkRRM01EUTVNREkxT1RNeU5Eb3hORFkyTWpVM09UYzQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUyTlRFd05USTFOamcyTWpVeE5Eb3hORFkyTXpRMk1EYzEZD

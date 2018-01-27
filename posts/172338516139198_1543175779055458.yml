@@ -1,0 +1,225 @@
+---
+message: |-
+  الشباب اللي انتقلت من ال SQL لل NoSQL Databases مثل ال Firebase او ال MongoDB
+  هل النقلة تستحق؟
+  قريت عن الموضوع وحضرت كورس Firebase بس بصراحة شفت انو ال NoSQL بتتطلب جهد كبير في الqueries المعقدة
+  ياريت تحطونا بصورة بعض التجارب والامثلة اللي مريتوا فيها
+from:
+  name: Mustafa Shaban
+  id: '1620710828023369'
+type: status
+created_time: '2017-07-10T12:58:51+0000'
+updated_time: '2017-07-11T06:38:08+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1543175779055458/
+shares:
+  count: 3
+id: '172338516139198_1543175779055458'
+reactions:
+  data:
+  - id: '1962566230481859'
+    name: احمد حمادة
+    type: LIKE
+  - id: '1580644362051289'
+    name: حسن الطنباري
+    type: LIKE
+  - id: '10215300742852086'
+    name: Mahmoud Ali
+    type: LIKE
+  - id: '1300153680130604'
+    name: Muhammed Lôtfe
+    type: LIKE
+  - id: '1931537343540392'
+    name: Hossam Mohsen
+    type: LIKE
+  - id: '10155263617066659'
+    name: Ahmed Mansour
+    type: LIKE
+  - id: '10156301546469701'
+    name: Amr ELsaqqa
+    type: LIKE
+  - id: '1997552527166943'
+    name: Ahmed Ramadan
+    type: LIKE
+  - id: '2037445259863315'
+    name: Sara Salem
+    type: LIKE
+  - id: '10155443115139385'
+    name: Abdelrhman Jalal
+    type: LIKE
+  - id: '1582056785197514'
+    name: Mona Refaie
+    type: LIKE
+  - id: '10214557410906658'
+    name: Eman Herawy
+    type: LIKE
+  - id: '1385664498246611'
+    name: Sayed Said
+    type: LIKE
+  - id: '1776223725745209'
+    name: Ahmed Saeed
+    type: LIKE
+  - id: '10156058891705747'
+    name: George Leon
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhPRFUxTURReU9EazJPakUwT1RrM09URTNNVE02TWpVME1EazJNVFl4TXc9PQZDZD
+      after: T0RBeU9URXdOelEyT2pFME9UazJPVEU1TlRZANk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-07-10T13:02:04+0000'
+    from:
+      name: Mohamed Khalil
+      id: '1527974407270895'
+    message: "مفيش حاجة اسمها انك تنتقل من sql الي nosql الفكرة كلها ان علي حسب طبيعة
+      المشروع والداتا اللي انت عايز تخزنها واستخداماتك ليها بعد كده وال required performance...
+      الخ هو اللي بيحدد انت هتستخدم ايه ف الاتنين. \nمسألة ان ال queries معقده دي
+      عشان انت لسه ف الاول لكن بعد كده هتلاقي الدنيا ماشيه"
+    id: '1543177769055259'
+  - created_time: '2017-07-10T13:10:12+0000'
+    from:
+      name: Mohamed Khalil
+      id: '1527974407270895'
+    message: "http://www.thegeekstuff.com/2014/01/sql-vs-nosql-db/?utm_source=tuicool
+      \nPlease read this article. It will be more detailed than my answer"
+    id: '1543184005721302'
+  - created_time: '2017-07-10T13:13:25+0000'
+    from:
+      name: Haitham Shaddad
+      id: '1591171607636188'
+    message: |-
+      دي حاجه ودي حاجه تاتيه خالص ولكل مقام مقال
+
+      It depends on the requirement and design
+    id: '1543186389054397'
+  - created_time: '2017-07-10T13:14:14+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: انا بقالي سنتين بس ، لسه معتقد ان ال SQL اقوى لما تحب ت query
+    id: '1543187179054318'
+  - created_time: '2017-07-10T13:16:09+0000'
+    from:
+      name: Mohamed Galal
+      id: '10215046906109886'
+    message: اغلب المشاريع بتستخدم الاثنيين مع بعض واحياناً بنضيف عليها apache solr
+      لو مطلوب بحث سريع في كمية داتا كبيره .. كل تقنية وليها استخدامها
+    id: '1543190489053987'
+  - created_time: '2017-07-10T13:24:41+0000'
+    from:
+      name: Met Wally
+      id: '520998054938412'
+    message: هو انا اساساً ضد مبدأ انه يا SQL يا NoSQL. هما الأتنين ممكن تشتغل بيهم
+      مع بعض وفى نفس الـ Application كمان. ولا ده اقوى من ده ولا ده احسن ولا ده اوحش
+      .. ده له استخدام وده له استخدام.
+    id: '1543196592386710'
+  - created_time: '2017-07-10T13:26:27+0000'
+    from:
+      name: Ibrahim Amer
+      id: '10214738123343685'
+    message: انا اشتغلت MongoDB مع C# Driver فاال Queries مانت سهلة عشان كانت LinQ
+      بس بغض النظر لو هتشتغل عادي مش ب C# Driver فا هتبقى رخمة شوية اعتقد
+    id: '1543198159053220'
+  - created_time: '2017-07-10T13:27:09+0000'
+    from:
+      name: Haitham Shaddad
+      id: '1591171607636188'
+    message: |-
+      نصيحة تقرا الكتاب ده
+      هيوضحلك الفرق بين كل الجحاجات الموجوده وعامل sample  كمان بيستخدم فيه كل حاجه تقريبا في مكانها الصح والكتاب ببلاش
+
+      https://msdn.microsoft.com/en-us/library/dn271399.aspx
+    id: '1543198709053165'
+  - created_time: '2017-07-10T13:28:53+0000'
+    from:
+      name: Ahmad Mayo
+      id: '10155441399893250'
+    message: "كل حاجة و ليها استخدامها. لو شكل الداتا اللي بتخش بيتغير كتير، او بيختلف
+      من record  للتاني، او لو كمية الداتا كبيرة جدا جدا جدا استخدم NOSQL \nو لو عندك
+      relations كتير و عايز تعمل normalization للداتا اشتغل SQL\nو عامة POSTGRES فيها
+      Datatype اسمه json ممكن تشتغل بيه زي ال NOSQL"
+    id: '1543199742386395'
+  - created_time: '2017-07-10T13:42:10+0000'
+    from:
+      name: Ahmed Nagy
+      id: '10213805407262542'
+    message: كل technology بتزل معمولة عشان غرض و عشان تحل مشكلة معينة انت كل ما المشروع
+      بيكبر لو مثلاً انت مبتديه SQL هتلاقى نفسك بتضيف عليه حاجات NoSQL و فى نفس الوقت
+      هتبقى محتاج ال SQL و هتلاقى نفسك بتضيف حاجات تانية كتير كله بيعتمد على حسب المشروع
+      بتاعك محتاج ايه
+    id: '1543209722385397'
+  - created_time: '2017-07-10T13:56:06+0000'
+    from:
+      name: Mustafa Shaban
+      id: '1620710828023369'
+    message: "جميل جدا, ممكن اختصار الردود الجميلة بالتالي\n- التنين ممكن يكونو في
+      مشروع واحد \n- عند استخدام بيانات بحجم كبير جدا ال NoSQL افضل\n- عند استخدام
+      ال normalization ال SQL افضل\n- كل وحدة بتعكس نمط معين للتعامل مع البيانات مثل
+      الفرق بين ال JSON وال XML مثلا"
+    id: '1543221695717533'
+  - created_time: '2017-07-10T14:23:07+0000'
+    from:
+      name: Ahmed Moftah
+      id: '1793239594054209'
+    message: Ghofran Abd ElWahab
+    id: '1543240975715605'
+  - created_time: '2017-07-10T14:43:31+0000'
+    from:
+      name: George Moheb
+      id: '10210440074417898'
+    message: |-
+      el sql databases leha pros and cons w el nosql databases leha pros and cons
+
+      kol 7aga kwysa fe este3malat mo3yna
+
+      fe aktr mn project esta5demt el etnin m3 ba3d
+    id: '1543255052380864'
+  - created_time: '2017-07-10T15:09:06+0000'
+    from:
+      name: Mostafa Mohammed
+      id: '10214108945173285'
+    message: حسب المشروع
+    id: '1543274402378929'
+  - created_time: '2017-07-10T15:51:25+0000'
+    from:
+      name: Hossam Mohsen
+      id: '1931537343540392'
+    message: F
+    id: '1543307429042293'
+  - created_time: '2017-07-10T15:54:08+0000'
+    from:
+      name: Ismail Elmogy
+      id: '570714223277361'
+    message: F
+    id: '1543309782375391'
+  - created_time: '2017-07-10T18:39:29+0000'
+    from:
+      name: Elhussein Mohamed Ali
+      id: '10157719478733973'
+    message: |-
+      الموضوع ينحصر في موضوع ال horizontal scaling for data
+      data schemaless
+      ياريت تطلع على couchbase هتلاقيها بتوفر ال key value store
+      وكمان بتوفر ال secondary index and query
+
+      Viber application are using couchbase for their data storage
+    id: '1543439632362406'
+  - created_time: '2017-07-11T01:11:44+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: |-
+      A bit out off topic: people who are commenting with "F", I am assuming you are doing that to follow comments on the post.
+
+      You can just choose to "turn on notifications for this post" for the little down headed arrow on the top right of the post. This way you will save people a lot of false notifications, and help reduce the clutter with the comments so other people might find the comments more useful.
+    id: '1543692522337117'
+  - created_time: '2017-07-11T06:37:12+0000'
+    from:
+      name: Ahmed Talaat
+      id: '1705428696187875'
+    message: Mohamed Abdelwahab
+    id: '1543893932316976'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUwTXpFM056YzJPVEExTlRJMU9Ub3hORGs1TmpreE56STAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUwTXpnNU16a3pNak14TmprM05qb3hORGs1TnpVMU1ETXkZD

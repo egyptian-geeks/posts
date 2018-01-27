@@ -1,0 +1,60 @@
+---
+message: |-
+  i am working on a writing a small tool written in Go, that is supposed to generate dummy data for mongodb using Go. i am not sure if something like this has been made before.
+
+  what i am doing is making use of Go structs, take a struct("which is supposed to be a placeholder for a mongodb docc") and convert it to a map, then start inserting dummy data into the db collection.
+
+  right now, i am now sure what is the proper way to populate strings, any idea ?
+
+  and do you think it is useful to write such a tool ?
+from:
+  name: Eslam Mostafa
+  id: '1575768239208294'
+type: status
+created_time: '2016-04-24T17:06:05+0000'
+updated_time: '2016-04-25T15:52:22+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1130938610279179/
+id: '172338516139198_1130938610279179'
+reactions:
+  data:
+  - id: '10155926704141777'
+    name: Ahmed Abdelaziz
+    type: LIKE
+  - id: '1579863445426307'
+    name: Abdulla Ahmed Seif
+    type: LIKE
+  - id: '1012026932279218'
+    name: Ahmed Mohamed Abd El-Hamid
+    type: WOW
+  paging:
+    cursors:
+      before: TlRrd09EZA3hOemMyT2pFME5qRTFOell4T1RjNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQTBNVFUzTmpFeE5EVTVPakUwTmpFMU1UYzJNalU2TnpnNE5qUTRNRE0zT1RFek16RXkZD
+comments:
+  data:
+  - created_time: '2016-04-24T17:39:12+0000'
+    from:
+      name: Mohamed Bassem
+      id: '10212826240185281'
+    message: 'Have a look on this package : https://github.com/wawandco/fako'
+    id: '1130953426944364'
+  - created_time: '2016-04-25T07:26:32+0000'
+    from:
+      name: Ahmed Badawy
+      id: '1596110217148252'
+    message: "Faker js... \nMan!  it's a classic idea made in all lanuges befor...\nI
+      even used faker api in 3 different  languages.."
+    id: '1131293163577057'
+  - created_time: '2016-04-25T07:29:27+0000'
+    from:
+      name: Ahmed Badawy
+      id: '1596110217148252'
+    message: |-
+      I made this a while ago to help me populate db with fake data.
+
+      http://ahmed-badawy.com/projects/D-Faster/projects/-dataformats/fake-data-generator/fake-data-itirator.html?cate=&key=4
+    id: '1131293940243646'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV6TURrMU16UXlOamswTkRNMk5Eb3hORFl4TlRFNU5UVXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV6TVRJNU16azBNREkwTXpZAME5qb3hORFl4TlRZANU16WTUZD

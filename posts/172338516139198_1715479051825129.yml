@@ -1,0 +1,54 @@
+---
+message: How can i migrate ADT Project (Eclipse Project) properly to Android Studio
+  as there are missing dependencies like "app level gradle module"
+link: https://www.facebook.com/photo.php?fbid=2321473174745826&set=gm.1715479051825129&type=3
+from:
+  name: Mohamed Mostafa
+  id: '2333723516854125'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/26168890_2321473174745826_5561051949623403402_n.jpg?oh=5645d22dd6b1a36cf62d7f13d0eac5e8&oe=5AE4EB5F
+created_time: '2018-01-07T22:07:45+0000'
+updated_time: '2018-01-08T12:49:30+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1715479051825129/
+id: '172338516139198_1715479051825129'
+comments:
+  data:
+  - created_time: '2018-01-07T22:15:15+0000'
+    from:
+      name: Ahmed Ibrahim
+      id: '1215411761924121'
+    message: Well i dont fully understand the question but from the picture, you are
+      using gradle 3.0.1 so you will need buildTools 26 or above also you will need
+      to replace compileSdk to 26
+    id: '1715486341824400'
+  - created_time: '2018-01-07T22:27:48+0000'
+    from:
+      name: Mohamed Amin
+      id: '1809581442395089'
+    message: Mohamed Atef
+    id: '1715494125156955'
+  - created_time: '2018-01-08T12:30:43+0000'
+    from:
+      name: Mohamed Atef
+      id: '1436500826477881'
+    message: "Copy past all files \nRes\nJava\nAssets\nThen check for needed libraries
+      and compile it from gradle"
+    id: '1716063171766717'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN4TlRRNE5qTTBNVGd5TkRRd01Eb3hOVEUxTXpZAek16RTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN4TmpBMk16RTNNVGMyTmpjeE56b3hOVEUxTkRFME5qUXoZD
+attachments:
+  data:
+  - description: How can i migrate ADT Project (Eclipse Project) properly to Android
+      Studio as there are missing dependencies like "app level gradle module"
+    media:
+      image:
+        height: 329
+        src: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/26233433_2321473174745826_5561051949623403402_o.jpg?oh=f13c3f46b0797631a746413760a6b89c&oe=5AE7057F
+        width: 720
+    target:
+      id: '2321473174745826'
+      url: https://www.facebook.com/photo.php?fbid=2321473174745826&set=gm.1715479051825129&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=2321473174745826&set=gm.1715479051825129&type=3

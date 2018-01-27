@@ -1,0 +1,191 @@
+---
+message: Guys I would love to hear your opinion/experience on a problem I have been
+  researching which is how Uber/Careem update the driver location like real time.
+  The only obvious way I can think of that the drivers devices send their location
+  each small interval of time like 2~5 seconds, but I know that there is a limit on
+  the number of free requests by google. What is the best way to handle this? Is the
+  only way to pay google for the extra requests :)? Would love to hear your experience
+  on that.
+from:
+  name: Ahmed Abousamra
+  id: '10155729838410546'
+type: status
+created_time: '2017-01-02T22:55:23+0000'
+updated_time: '2017-01-04T09:23:05+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1344130185626686/
+shares:
+  count: 1
+id: '172338516139198_1344130185626686'
+reactions:
+  data:
+  - id: '1666611296733941'
+    name: Ashraf Hefny
+    type: LIKE
+  - id: '10155802654056014'
+    name: Islam Azab
+    type: LIKE
+  - id: '10214471954062071'
+    name: Mohammad Aboelnour
+    type: LIKE
+  - id: '10155827368706005'
+    name: Hossam Ahmed
+    type: LIKE
+  - id: '10155201093853144'
+    name: Ahmad Akl
+    type: LIKE
+  - id: '577907769208604'
+    name: Seif Atalla
+    type: LIKE
+  - id: '10155884980625610'
+    name: Mohamed El Henawy
+    type: LIKE
+  - id: '10157076920123102'
+    name: Mahmoud Khaled
+    type: LIKE
+  - id: '1698098483609963'
+    name: Ahmed Salah
+    type: LIKE
+  - id: '904207563089867'
+    name: Yehia Beram
+    type: LIKE
+  - id: '10213518317565801'
+    name: Shady Atef
+    type: LIKE
+  - id: '10214991486358192'
+    name: Nesto Essmat
+    type: LIKE
+  - id: '10156233272018678'
+    name: Sabrin El-Guindy
+    type: LIKE
+  - id: '10155518494646656'
+    name: Amir Amgad
+    type: LIKE
+  - id: '935356599965781'
+    name: Abdallah El Attar
+    type: LIKE
+  - id: '1772542006152666'
+    name: Mohamed AbuIssa
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhOVFV5TlRrMk1Ea3dPakUwT0RNME9EQXlNelU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXhPVEEyTlRBNU16RXlPakUwT0RNek9UYzNPRFU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-01-02T22:56:59+0000'
+    from:
+      name: Ahmed Abousamra
+      id: '10155729838410546'
+    message: Yehia ELsaka Yassin Gamal you may be interested in that :)
+    id: '1344130945626610'
+  - created_time: '2017-01-02T23:01:47+0000'
+    from:
+      name: Abdelrahman Omran
+      id: '2203311556562655'
+    message: Firebase is the best solution for this case :)
+    id: '1344132722293099'
+  - created_time: '2017-01-02T23:03:41+0000'
+    from:
+      name: Mohamed Elshaarawy
+      id: '1421307971311677'
+    message: "لل location services اعتقد ان ليك limit 500 بس اكيد لازم تدفع \U0001F602"
+    id: '1344133465626358'
+  - created_time: '2017-01-02T23:12:13+0000'
+    from:
+      name: Ahmed Hashem
+      id: '1928384107425504'
+    message: There is PubNub service its so like firebase but i think they have an
+      example for location tracking
+    id: '1344137922292579'
+  - created_time: '2017-01-02T23:12:49+0000'
+    from:
+      name: Ahmed Abousamra
+      id: '10155729838410546'
+    message: Mahmoud Adam any thoughts ?
+    id: '1344138318959206'
+  - created_time: '2017-01-02T23:17:03+0000'
+    from:
+      name: Ahmed Hashem
+      id: '1928384107425504'
+    message: And there is a difference between how Uber handle this particular part
+      of there system and how you do it with a minimum cost
+    id: '1344139885625716'
+  - created_time: '2017-01-02T23:21:51+0000'
+    from:
+      name: Fady Dawood
+      id: '1969998133040174'
+    message: Maged Magdy Samuel A. Wilson Fady Khalaf
+    id: '1344142045625500'
+  - created_time: '2017-01-02T23:28:08+0000'
+    from:
+      name: Mohamed Tawfik
+      id: '10204074940031522'
+    message: do you have back-end server running ? ... or you only want ad-hoc service
+      to handle that for you ?
+    id: '1344144758958562'
+  - created_time: '2017-01-03T00:19:42+0000'
+    from:
+      name: Islam AbdelMohaimen Hassan
+      id: '10214796374519514'
+    message: Google license requires businesses like uber to pay for their use. They
+      are not allowed free usage.
+    id: '1344173242289047'
+  - created_time: '2017-01-03T03:45:16+0000'
+    from:
+      name: Ahmed Aboulenein
+      id: '10160047384135438'
+    message: I got confused. How is Google involved in getting the driver location
+      delivered to customers?
+    id: '1344282592278112'
+  - created_time: '2017-01-03T05:57:59+0000'
+    from:
+      name: Mohamad Kamal
+      id: '10155224465177344'
+    message: speaking for ios the device also gives you speed and direction which
+      allows you to predict next location with accuracy
+    id: '1344341072272264'
+  - created_time: '2017-01-03T06:01:14+0000'
+    from:
+      name: Mohamed AbuIssa
+      id: '1772542006152666'
+    message: I guess the location depends on the GPS(offline) not google maps. if
+      you are talking about drawing on the map, once the map is loaded you can draw
+      on it anything you want. all you is a good real time database like Abdelrahman
+      Omran said
+    id: '1344342322272139'
+  - created_time: '2017-01-03T09:08:15+0000'
+    from:
+      name: Amr Yousef
+      id: '10216129314284453'
+    message: |-
+      Drivers have their own application which is always running in the foreground. The Location libraries in Android allows you to listen and be notified of location changes through a function called onLocationUpdate or something similar. My guess is when the driver location changes the app sends it to Uber servers.
+      I don't think it is related to Google or Google Maps API. It should be purely based on Android or iOS.
+    id: '1344432502263121'
+  - created_time: '2017-01-03T12:54:22+0000'
+    from:
+      name: Ahmed Aboulenein
+      id: '10160047384135438'
+    message: Do you need Google APIs for something like Geo-Reversal (getting the
+      address from lat/lon) or calculating routes between two points? I think this
+      is where you could potentially need Google APIs - and there are many other providers
+      of same service.
+    id: '1344549538918084'
+  - created_time: '2017-01-03T20:24:17+0000'
+    from:
+      name: Ahmed Syam
+      id: '10216014996153587'
+    message: i'm working with London Cab Egypt we use google services for business
+      [paid service]
+    id: '1344836145556090'
+  - created_time: '2017-01-04T09:23:04+0000'
+    from:
+      name: Mahmoud Said
+      id: '10159857675500183'
+    message: |-
+      Google has nothing to do with this, the device (meaning the phone) itself is capable of determining the current coordinations, that's what the GPS does, that's totally free if you want to implement something like it, sure you can.
+      on the other hand they are paying Google for using the visual map and the driving direction services, but they still and you can use any alternative service (ex: openstreetmap) or even implement you own.
+    id: '1345256935514011'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0wTkRFek1EazBOVFl5TmpZAeE1Eb3hORGd6TXprM09ESXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0wTlRJMU5qa3pOVFV4TkRBeE1Ub3hORGd6TlRJeE56ZAzAZD

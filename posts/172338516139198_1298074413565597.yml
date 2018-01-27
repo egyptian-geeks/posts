@@ -1,0 +1,53 @@
+---
+message: "Benchmark for \n#Angular1 #angular2 #React #VirtualDom #IncrementalDom #Citojs
+  #Mithril #ember #ember2\nTL;DR\n1- Virtual Dom is the core advantage that react
+  has over angular.\n2- Virtual Dom has issues, so google developed incremental Dom
+  library with similar apis to VD, still, no framework yet implemented it!\n3- We
+  see on the horizon Mithril, faster n lighter  -7.8KB- than react n angular2 with
+  component tree base architecture, but, weaker community compared to react n angular.\n4-
+  react is UI library, just that, to use it u have to learn redux n jsx to be able
+  to build frontend apps, unlike angular2, fewer concepts, less code to get the job
+  done!\n5- React n angular both have growing support for native mobile apps, react-Native
+  n nativescript."
+link: https://auth0.com/blog/updated-and-improved-more-benchmarks-virtual-dom-vs-angular-12-vs-mithril-js-vs-the-rest/
+from:
+  name: Muhammad Hasan
+  id: '2033909946622355'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQAGhzVCBS42kzTx&w=130&h=130&url=https%3A%2F%2Fcdn.auth0.com%2Fblog%2Fdombench%2Flogo_fist.png&cfs=1&_nc_hash=AQBoNojd4vBlKE8z
+created_time: '2016-11-19T08:43:45+0000'
+updated_time: '2016-11-19T10:02:37+0000'
+name: 'More Benchmarks: Virtual DOM vs Angular 1 & 2 vs Others'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1298074413565597/
+id: '172338516139198_1298074413565597'
+comments:
+  data:
+  - created_time: '2016-11-19T09:43:25+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      1. Don't trust any benchmarks you didn't fake yourself
+
+      2. This post is dated January 2016. Angular 2 has almost been rewritten since then. It doesn't cover the AoT compiler at all for example, a key performance differentiator.
+
+      In short, my recommendation is: don't even bother spend time on this crap.
+    id: '1298110040228701'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEk1T0RFeE1EQTBNREl5T0Rjd01Ub3hORGM1TlRRNE5qQTEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEk1T0RFeE1EQTBNREl5T0Rjd01Ub3hORGM1TlRRNE5qQTEZD
+attachments:
+  data:
+  - description: We have updated our latest benchmark article to use array keys and
+      see what happens!
+    media:
+      image:
+        height: 528
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQD-2NPAw0EN7Tsw&w=720&h=720&url=https%3A%2F%2Fcdn.auth0.com%2Fblog%2Fdombench%2Flogo_fist.png&cfs=1&_nc_hash=AQALJmmhWolHjrD8
+        width: 528
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fauth0.com%2Fblog%2Fupdated-and-improved-more-benchmarks-virtual-dom-vs-angular-12-vs-mithril-js-vs-the-rest%2F&h=ATOsrkyEI61sUYgbEru2zu09wzH1Kc1a8g7RZ7mcfYEXFfp6jRtLH63gaDItky315fMLREeMk8fWgu2IzwsAd9edKqJEwAV7pAaX&s=1&enc=AZM3_DzXQjpiGUKtpN4fbQrdxHo1r-OX_JUYLrrMO-yjVHKHLdrkMjQkhOla-n0aY5cRBvaD6KQ5k4ms7WitZ2lc
+    title: 'More Benchmarks: Virtual DOM vs Angular 1 & 2 vs Others'
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fauth0.com%2Fblog%2Fupdated-and-improved-more-benchmarks-virtual-dom-vs-angular-12-vs-mithril-js-vs-the-rest%2F&h=ATOsrkyEI61sUYgbEru2zu09wzH1Kc1a8g7RZ7mcfYEXFfp6jRtLH63gaDItky315fMLREeMk8fWgu2IzwsAd9edKqJEwAV7pAaX&s=1&enc=AZM3_DzXQjpiGUKtpN4fbQrdxHo1r-OX_JUYLrrMO-yjVHKHLdrkMjQkhOla-n0aY5cRBvaD6KQ5k4ms7WitZ2lc

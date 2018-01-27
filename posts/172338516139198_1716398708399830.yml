@@ -1,0 +1,70 @@
+---
+from:
+  name: Ahmed Saleh
+  id: '10159933379005574'
+type: status
+created_time: '2018-01-08T19:56:17+0000'
+updated_time: '2018-01-08T22:28:22+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1716398708399830/
+id: '172338516139198_1716398708399830'
+reactions:
+  data:
+  - id: '1354252058012311'
+    name: Kareem Badawy
+    type: LIKE
+  - id: '10156089336182292'
+    name: Hassan Aly Selim
+    type: WOW
+  - id: '179696229429042'
+    name: Mohamed Ezzat
+    type: LIKE
+  - id: '1791452377571672'
+    name: Mohammed Alaa El Komy
+    type: WOW
+  - id: '10155056867911922'
+    name: Ahmed Sadek Mohamed Tawfik
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlPREkxT1RBM01EazNPakUxTVRVME5URTBPVGc2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TlRVNU16WTJPVEl4T2pFMU1UVTBOREUzTXpNNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2018-01-08T20:03:43+0000'
+    from:
+      name: Ahmed Sadek Mohamed Tawfik
+      id: '10155056867911922'
+    message: I am interested in knowing these algorithms .. specially the triangulation
+      ones.
+    id: '1716423935063974'
+  - created_time: '2018-01-08T22:06:39+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      You want to generate a mesh from point cloud data ... in realtime ... on a phone?!! :O
+      I don't think this is possible besara7a, even on a PC it would be better to generate the mesh (and simplify it!) ahead-of-time.
+    id: '1716512668388434'
+  - created_time: '2018-01-08T22:18:37+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: 'An alternative that might also solve your problem: I''m not sure exactly
+      how it''s done, but I think it''s possible to pass the points to the GPU (as
+      points not as triangles), and have a shader render a small sprite at that point,
+      or maybe use a geometry shader to generate a small shape in place of each point.
+      El fekra en if the points are so close to each other, the sprites/shapes could
+      intersect covering up the gaps.'
+    id: '1716520525054315'
+  - created_time: '2018-01-08T22:28:21+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      Have you considered maybe converting the point cloud data into volumetric data and using a realtime volume rendering technique? (I did a significant amount of reading on realtime volume rendering, so I could help with that)
+      It could be more performant, but less quality, depending on the data.
+    id: '1716525231720511'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN4TmpReU16a3pOVEEyTXprM05Eb3hOVEUxTkRReE9ESXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN4TmpVeU5USXpNVGN5TURVeE1Ub3hOVEUxTkRVd05UQXgZD

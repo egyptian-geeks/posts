@@ -1,0 +1,27 @@
+---
+message: |-
+  I had a problem configuring PHPMailer on my godaddy server, although it works fine on my localhost but on the server it show : SMTP connect() failed
+  I tried several solves and reached that I should use my goddady STMP info to connect to SMTP now I got the error : SMTP -> get_lines(): $data is "*****************.****.secureserver.net
+  I googled it and reached that it might be a problem with auth or ssl but I can't find a sovle :) any help !
+from:
+  name: Bellal Mohamed
+  id: '1672878506132188'
+type: status
+created_time: '2016-04-20T08:01:38+0000'
+updated_time: '2016-04-20T22:54:49+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1127949477244759/
+id: '172338516139198_1127949477244759'
+comments:
+  data:
+  - created_time: '2016-04-20T18:27:20+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: GoDaddy do a very horrible thing, they block all SMTP connections that
+      go to any server except their own SMTP servers, and thus force their users to
+      pay for their mail service.
+    id: '1128352830537757'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV5T0RNMU1qZA3pNRFV6TnpjMU56b3hORFl4TVRjMk9EUXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV5T0RNMU1qZA3pNRFV6TnpjMU56b3hORFl4TVRjMk9EUXcZD

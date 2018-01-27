@@ -1,0 +1,128 @@
+---
+message: "مش عارف دا بج ولا حاجه رخمه في UX تطبيق الفيسبوك على الاندرويد ... \nسعات
+  لما وانت بتشوف الFeed بتاعك وعمال تعمل Scroll وفتحت بوست مثلاً وجيت ترجع للفيد بيروح
+  للأول خالص او يعمل Refresh للفيد مش للمكان اللي كنت عنده بعكس الUX المتوقع او اللي
+  في تطبيق Twitter مثلاً... حد لاحظ الحكاية دي ؟"
+from:
+  name: Osama Soliman
+  id: '879271768900112'
+type: status
+created_time: '2016-12-24T20:29:08+0000'
+updated_time: '2016-12-26T08:15:00+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1336448359728202/
+id: '172338516139198_1336448359728202'
+reactions:
+  data:
+  - id: '10213578505611127'
+    name: Kerolles Roshdi
+    type: LIKE
+  - id: '10215316135726139'
+    name: Hosam T. Aboulkheir
+    type: LIKE
+  - id: '10155802654056014'
+    name: Islam Azab
+    type: LIKE
+  - id: '1539355226146806'
+    name: Muhammad A. El-Sayed
+    type: LIKE
+  - id: '10157207798884012'
+    name: Mohamed Ibrahim Gaber
+    type: LIKE
+  - id: '10154901722726511'
+    name: Hassan Ebied
+    type: LIKE
+  - id: '946434942173093'
+    name: Islam Felfela
+    type: LIKE
+  - id: '10154826556046618'
+    name: Ashraf Gawdat
+    type: LIKE
+  - id: '895970407247426'
+    name: Ahmad Magdy
+    type: LIKE
+  - id: '1433071816820805'
+    name: Hazem Mohammed
+    type: LIKE
+  - id: '1681618765215075'
+    name: Mustafa Almaraghi
+    type: LIKE
+  - id: '1012026932279218'
+    name: Ahmed Mohamed Abd El-Hamid
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRZAMU56UXpNemswT0RveE5EZA3lOekEyTlRZANE9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBd01EQTBNVFUzTmpFeE5EVTVPakUwT0RJMk1URTBNREU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-12-24T20:30:15+0000'
+    from:
+      name: Ahmed Mohamed Abd El-Hamid
+      id: '1012026932279218'
+    message: بعاني من نفس المشكلة
+    id: '1336449013061470'
+  - created_time: '2016-12-24T20:43:38+0000'
+    from:
+      name: Muhammad Refaat
+      id: '1723960827662084'
+    message: اعمل Back من app نفسه
+    id: '1336455453060826'
+  - created_time: '2016-12-24T21:10:32+0000'
+    from:
+      name: Nader El-Leithy
+      id: '10159850409580425'
+    message: نفس المشكلة عندى واعتقد انه عيب فى الاصدار الاخير
+    id: '1336469516392753'
+  - created_time: '2016-12-24T22:01:05+0000'
+    from:
+      name: Maged Ahmed Rifaat
+      id: '1828211913919222'
+    message: نفس المشكلة و حاجة كمان لما تعمل scroll في كومنتس بيعمل long tap لوحده
+    id: '1336503453056026'
+  - created_time: '2016-12-24T22:27:02+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "انا عندي لو دخلت اصلا على بوست او بروفايل بيطلع لوحده منها بعد فترة\nالااب
+      ده طول عمره buggy بس هنقول ايه قيراط حظ ولا فدان شطارة \U0001F602\U0001F602"
+    id: '1336516109721427'
+  - created_time: '2016-12-24T22:30:57+0000'
+    from:
+      name: Hazem Mohammed
+      id: '1433071816820805'
+    message: المشكله موجوده بالفعل في نسخ ونسخ لأ
+    id: '1336517853054586'
+  - created_time: '2016-12-25T08:41:47+0000'
+    from:
+      name: Hisham Fangary
+      id: '10156660518155839'
+    message: طول عمره بيعمل كده، الموضوع ده بيجنني، و مهيأللي ديه مقصودة من facebook.
+      فيه timeout علي الفيد، بعد المدة المحددة الفيد بيعمل refresh.
+    id: '1336872516352453'
+  - created_time: '2016-12-25T12:39:50+0000'
+    from:
+      name: Rafael Adel
+      id: '10156260406777122'
+    message: اصل الفكرة اعتقد ان ال feed بي refresh و حاجات جديدة بتتحط فيه اوتوماتيك
+      .. فأنه يرجعك علي البوست اللى كنت عليه هيخليك ت miss updates جديدة مثلا او حاجة
+      .. او لما بيعمل refresh بيشيل ال fragments القديمة و يحط جداد مثلا .. مش عارف
+      مجرد تفكير
+    id: '1336995789673459'
+  - created_time: '2016-12-25T16:09:32+0000'
+    from:
+      name: Abdulrahman Rdwan
+      id: '583924271948588'
+    message: جرب تعمل ابديت حاجه هبله زي ال scroll position صعب تفوت على فيس بوك ,
+      التطبيق بيخزن بلاوي حاجه زي دي غالبا موجوده دا مش بج دي فيتشر ناقصه
+    id: '1337131789659859'
+  - created_time: '2016-12-26T08:14:58+0000'
+    from:
+      name: Ahmed Soliman
+      id: '10155903911855943'
+    message: لاء هوا فعلاً بيحدثوا قاصدين اصلا و انت بتسكرول أوقات بيعمل ابديت و بيضيع
+      اللي كنت بتقرأه أفتكر حصلت معايا
+    id: '1337776636262041'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE16TmpRME9UQXhNekEyTVRRM01Eb3hORGd5TmpFeE5ERTEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE16TnpjM05qWXpOakkyTWpBME1Ub3hORGd5TnpRd01EazQZD

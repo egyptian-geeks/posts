@@ -1,0 +1,63 @@
+---
+message: "What's happening there underneath the hood to optimise that huge DOM rendering?\n\n"
+link: http://6pac.github.io/SlickGrid/examples/example-optimizing-dataview.html
+from:
+  name: Osama Soliman
+  id: '879271768900112'
+type: link
+created_time: '2017-04-10T21:38:15+0000'
+updated_time: '2017-04-11T03:20:43+0000'
+name: 'SlickGrid example: Optimizing DataView'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1449571948415842/
+id: '172338516139198_1449571948415842'
+reactions:
+  data:
+  - id: '1628359263896849'
+    name: أحمد رجب
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhOamd6TnpRMk5qZAzVPakUwT1RFNU1qRXpOREE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXhOamd6TnpRMk5qZAzVPakUwT1RFNU1qRXpOREE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-04-10T21:48:53+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      At any point in time, there is only a limited number of elements. When you scroll, he destroys & recreate elements. If you check the number of rows using jQuery (like this $('.slick-row').length) you'll find it doesn't change.
+
+      This technique is called 'virtual list' or 'virtual scroll'. It's also used in desktop applications displaying large number of items.
+    id: '1449582885081415'
+  - created_time: '2017-04-10T22:55:27+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: It's called "virtual scrolling", which allows it to only render the visible
+      parts. It's simple when you start, but gets complex with more realistic cases.
+      Google the term to learn more
+    id: '1449622535077450'
+  - created_time: '2017-04-11T01:04:45+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: While techniques like this are cool for working with lots of DOM on the
+      page, but the real question should be "Why do you need to put so much DOM in
+      the page?" EIther you are displaying to much, which goes against usability,
+      or you are over complicating your design to the point it became absurd.
+    id: '1449700445069659'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEwT1RVNE1qZAzROVEE0TVRReE5Ub3hORGt4T0RZAd09UTXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEwT1Rjd01EUTBOVEEyT1RZAMU9Ub3hORGt4T0RjeU5qZAzEZD
+attachments:
+  data:
+  - description: This page demonstrates various techniques for optimizing DataView
+      performance for large client-side datasets. This page displays an interactive
+      grid with 500'000 rows with real-time filtering.
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2F6pac.github.io%2FSlickGrid%2Fexamples%2Fexample-optimizing-dataview.html&h=ATPoIeu4uzwkUofdrEDHYxuVGE-j-ftV7zOjIDpFnIGwkVg38obutjJoBYFHVTWKiMvgBZesCKfmdyhQurbVnj2tYIS0i6EvlSbZ&s=1&enc=AZOnnwy4O4HFxGsBIT3m6SqQk_LfpC864Ol14HKkXFI8sbWLNHNJBTeKeMagVqmaN9T_FMN7fm3Vfl2e6G_aZBei
+    title: 'SlickGrid example: Optimizing DataView'
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2F6pac.github.io%2FSlickGrid%2Fexamples%2Fexample-optimizing-dataview.html&h=ATPoIeu4uzwkUofdrEDHYxuVGE-j-ftV7zOjIDpFnIGwkVg38obutjJoBYFHVTWKiMvgBZesCKfmdyhQurbVnj2tYIS0i6EvlSbZ&s=1&enc=AZOnnwy4O4HFxGsBIT3m6SqQk_LfpC864Ol14HKkXFI8sbWLNHNJBTeKeMagVqmaN9T_FMN7fm3Vfl2e6G_aZBei

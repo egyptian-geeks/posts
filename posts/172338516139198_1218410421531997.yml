@@ -1,0 +1,68 @@
+---
+message: |-
+  Did anyone notice that https is blocked again on digital ocean - Frankfurt DC for an hour now? SSH is working normally, though
+
+  Edit, not all DO-FRA is affected, only the 46.101.xx.xx range
+from:
+  name: Ahmed Mekkawy
+  id: '10155783123700239'
+type: status
+created_time: '2016-08-30T14:58:38+0000'
+updated_time: '2016-08-30T21:20:13+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1218410421531997/
+id: '172338516139198_1218410421531997'
+reactions:
+  data:
+  - id: '10214471954062071'
+    name: Mohammad Aboelnour
+    type: LIKE
+  - id: '1995393497144207'
+    name: Mohamed Bakry
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRVeE5qRTJNamt4T1RveE5EY3lOVFk1TXpNME9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBd01EQXdNakEzTWpnMk5UY3hPakUwTnpJMU5qa3lNVE02TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-08-30T15:00:44+0000'
+    from:
+      name: Anas Emad
+      id: '10155138037322478'
+    message: Ahmed Mahmoud شوف كده
+    id: '1218411444865228'
+  - created_time: '2016-08-30T15:02:54+0000'
+    from:
+      name: Ahmed M. Araby
+      id: '10155547863649263'
+    message: Ahmed Mekkawy what is the Issuer ?
+    id: '1218412938198412'
+  - created_time: '2016-08-30T15:03:33+0000'
+    from:
+      name: Mohamed Fergany
+      id: '10215339863195300'
+    message: شغال معانا
+    id: '1218413238198382'
+  - created_time: '2016-08-30T15:04:22+0000'
+    from:
+      name: Ahmed Mekkawy
+      id: '10155783123700239'
+    message: Araby same past problem in a smaller scale.. in httpsonly , the SSL handshaking
+      fails, while works from outside Egypt
+    id: '1218414054864967'
+  - created_time: '2016-08-30T15:43:24+0000'
+    from:
+      name: Mohamed Radwan
+      id: '10159976552365192'
+    message: شكلها مفيهاش. اديني root وانا ازبطك
+    id: '1218440958195610'
+  - created_time: '2016-08-30T18:56:44+0000'
+    from:
+      name: Ahmed Mahmoud
+      id: '10155586124501339'
+    message: غالبا مش هيتاثر الا self signed
+    id: '1218569498182756'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl4T0RReE1UUTBORGcyTlRJeU9Eb3hORGN5TlRZANU1qUTEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl4T0RVMk9UUTVPREU0TWpjMU5qb3hORGN5TlRnek5EQTAZD

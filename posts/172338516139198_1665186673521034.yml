@@ -1,0 +1,261 @@
+---
+message: |-
+  عاوز تجارب ونصايح لموضوع انك تطور من أداء شركة في حاجات زي Agile, Clean code, Unit testing, Good software design
+  المشكلة الاساسية في التعود ورفض التغيير وصعوبة الاقناع
+from:
+  name: Hany Ahmed
+  id: '10156089330442292'
+type: status
+created_time: '2017-11-17T21:11:57+0000'
+updated_time: '2017-11-19T17:30:40+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1665186673521034/
+shares:
+  count: 1
+id: '172338516139198_1665186673521034'
+reactions:
+  data:
+  - id: '1137775362991740'
+    name: Mustafa Hussain
+    type: LIKE
+  - id: '790501411145334'
+    name: Abuzeid Ibrahim
+    type: LIKE
+  - id: '10159960198215788'
+    name: Mohamed Fawzy
+    type: LIKE
+  - id: '1999397320076201'
+    name: Yara Ebrahim
+    type: LIKE
+  - id: '980575922099042'
+    name: Yosra Hamza
+    type: LIKE
+  - id: '2047342038624414'
+    name: Zienab M. Fatehy
+    type: LIKE
+  - id: '1971619496488574'
+    name: Reham Alatris
+    type: LIKE
+  - id: '10155957176184424'
+    name: Abdallah Gamal
+    type: LIKE
+  - id: '10155502591672779'
+    name: Mo'men Bauomy
+    type: LIKE
+  - id: '904541336370082'
+    name: Toka Ashraf
+    type: LIKE
+  - id: '10155606965473025'
+    name: Karem Dans
+    type: LIKE
+  - id: '2022490591345439'
+    name: سامح دعبس
+    type: LIKE
+  - id: '10155246261992688'
+    name: Mahmoud A Abada
+    type: LIKE
+  - id: '10156476353501062'
+    name: Tarik Ibrahim
+    type: LIKE
+  - id: '10215361787418206'
+    name: Amr Saber
+    type: LIKE
+  - id: '1589304647821970'
+    name: Menem Salama
+    type: LIKE
+  - id: '1939402129407510'
+    name: Mohammed Hassan
+    type: LIKE
+  - id: '2032504700100329'
+    name: Mohammed Yassin
+    type: LIKE
+  - id: '1765781893453545'
+    name: Hawary
+    type: LIKE
+  - id: '10159837107290263'
+    name: Fady Taher
+    type: LIKE
+  - id: '10213705794213073'
+    name: Ahmed Ibrahim Amer
+    type: LIKE
+  - id: '10210867242069162'
+    name: Mohamed Ibrahim
+    type: LIKE
+  - id: '1523937884392266'
+    name: Ahmad Al-Weshahi
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlOemM0TmpBNU5qa3lPakUxTVRFeE9EQTBOelU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXpNamd5TURjMk9EQXpPakUxTVRBNU5UVXdORFU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-11-17T21:14:05+0000'
+    from:
+      name: Morsi Mohammed
+      id: '178572869541245'
+    message: لازم يكون فيه حد بيعمل code review ويرجعهولهم لو مش مكتوب كويس ،غير كدة
+      محدش هيغير طريقته ،دة بالنسبة لنقطة ال clean code
+    id: '1665211670185201'
+  - created_time: '2017-11-17T21:18:58+0000'
+    from:
+      name: Mohamed Hamdy
+      id: '10215551293834723'
+    message: "You need to apply them step by step not applying all of them at once,
+      of course people will refuse and go against you. You need to make long term
+      plan and start including these things in work and after successfully applying
+      one new thing make meeting with your coworkers and managers and start clarifying
+      the benefits the company got by these new procedures and so they will encourage
+      you to apply the remaining parts and if they do not, keep moving and never stop
+      and they will support you. Wish you all the best of luck \U0001F600\U0001F600"
+    id: '1665214933518208'
+  - created_time: '2017-11-17T21:19:59+0000'
+    from:
+      name: Karim Tawfik
+      id: '10159730660210062'
+    message: |-
+      Based on my experience, all cannot be applied at the same time, specially in environment that resist the change.
+
+      You can setup sessions for developers to show the pros-cons for each of the above, track the problems your company/team faces and show how such things can help in avoiding these problems.
+
+      Try to summarize books (Clean code, Pragmatic programmer, Effective Java-in case your team is using java-), and try to transfer such knowledge to the team.
+
+      Pair programming will help a lot -it is not waste of time, believe me :)-.
+    id: '1665215490184819'
+  - created_time: '2017-11-17T21:28:38+0000'
+    from:
+      name: Mohammed Attya
+      id: '10211091168020519'
+    message: لو انت php مثلا ممكن تعمل هوك على جيت مايقبلش اي كود جديد من غير coverage
+      بنسبة معينة و كمان يعمل run ل phpcs , phpmd
+    id: '1665220436850991'
+  - created_time: '2017-11-17T21:29:54+0000'
+    from:
+      name: Ibraheem Osama
+      id: '10155206310513093'
+    message: |-
+      Step by step
+      1) Introduce all concepts but without implementing them.
+      2) Implement Agile.
+      3) after implementing agile the team and you will see that automation testing is a must because of the agility of your team when it comes to requirements changes.
+      4) implement code review process.
+      5) automation test for every story is a must if applicable.
+      6) if your team code is not good they will suffer in automation testing.
+      7) Implement good software design for all new features and put the design while putting  automation testing on mind.
+
+      With all steps try to stress on IOC because it is a key in automation testing.
+    id: '1665221236850911'
+  - created_time: '2017-11-17T21:35:06+0000'
+    from:
+      name: Farouk Elabady
+      id: '10156125708187299'
+    message: "اهرب يا ولد \U0001F602\U0001F602"
+    id: '1665224360183932'
+  - created_time: '2017-11-17T21:36:01+0000'
+    from:
+      name: Abdallah Ebrahim
+      id: '1559095764197464'
+    message: Shady Atef Ehab Moataz Gouda
+    id: '1665224943517207'
+  - created_time: '2017-11-17T21:39:38+0000'
+    from:
+      name: Muhammad Ramadan
+      id: '2144250879141011'
+    message: الحكاية باختصار لو حضرتك بتسعى لتغيير شركتك وتحسين الأداء ما عليك الا
+      ان تهتم بالناس ال شغاله فى الشركة، طور الناس من خلال تدريبات وكورسات هتلاقى
+      نتيجة إيجابية جدا.
+    id: '1665227366850298'
+  - created_time: '2017-11-17T21:47:07+0000'
+    from:
+      name: Muhammad Refaat
+      id: '1723960827662084'
+    message: وبتقولي تعالي :D :D
+    id: '1665232373516464'
+  - created_time: '2017-11-17T22:06:25+0000'
+    from:
+      name: Amr A. Abd El-AZiz
+      id: '1996761363674162'
+    message: انه اى feature  او شغل جديد نلتزم فيه بال rules  دى ودا ع مستوى التيم
+      كله وبالاتفاق مع ال الTechnical Manager ... اما القديم فيتقسم ويتعمل تاسكات
+      بال refactor  بتاعه  .... اكيد كل مكان هتلاقى فيه حاجات قديمة وكود اسباجتى كود
+      وحاجات عاوزة الحرق :D
+    id: '1665246630181705'
+  - created_time: '2017-11-17T22:06:57+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: |-
+      Clean code ده مفروغ منه، مفيش كلام انك تقبل بعك!.
+      الحجات التانيه دي الي فيها تطوير.. بس خلي بالك، لمه تتكلم عن agile مثلا، البروجك منجر لازم يكون فاهم اوي، و الا حيخلي حيات الناس صعبه بسوء تقدير وقت او ريكويرمنتس..
+      نيجي بقي للمهم الينت تست.. الصراحه ده يعتمد علي كم الشغل و الضغط الي عليك.. مثلا لو انت خلصت المشروع و بتزود عليه لا ادي الدفلوبر اسبوع يكتب في فنكشن واحده 8 سطور بس مكتوبه صخ بلدوكيمنت و التست.. بس متخيش عايز الناس تجري و تطلب تستات صعب في الاجيل  لو شغالtdd ماشي. بلنسبه للرفض التغير ده موضوع كبير.. اسمه العلمي resistance to change.
+      و بتتعامل معاه باسلوب علمي برده اسمه change management او اداره التغير، اقرء عن الchange management لو عندك مشكله في التغير عموما حتتعلم ازاي تغير الدنيا و تقضي علي اي resistance :)
+    id: '1665247046848330'
+  - created_time: '2017-11-18T03:30:51+0000'
+    from:
+      name: سامح دعبس
+      id: '2022490591345439'
+    message: "بص الكلام على الأجايل ليه جانبين:\nجانب تقني فني و جانب إداري\n* الجانب
+      التقني الفني هو اللي بيسموه \nTechnical excellence\nو ده باستثناء ال\nTDD\nتقدر
+      تدخله بإنك تطبق الحاجات دي بنفسك من غير ما تطلب من حد يغير حاجة\nو تبتدي تفهم
+      الناس أنت ليه بتستخدم الديزاين باترنز و ليه ليه مقسم الدنيا لايرز و ليه عملت
+      \nContinuous Integration\nإلخ\nالخلاصة: دي سهل تعملها بطريقة تلقائية و هاتبقى
+      أسهل لو جت كحل لمشكلة ظهرت قدام الفريق، زي مثلا بتواجهكم مشكلة في ال\nDeployment\nفتبتدي
+      تعمل\nDeployment Automation \nو هكذا.\n* أما الجانب الإداري- و ده اللي بيتكلوا
+      عنه الناس بتوع ال\nScrum\nفده اللي هاتقابلك فيه مشاكل\nولذلك اقترح إنك ما تبدأش
+      سقرام لكن تبدأ بحاجة زي الكانبان\nKanban\nودي بتبدأ من حيث أنت الآن و الفريق
+      نفسه بيحسن في البروسس لما بيشوف المشاكل بعينه مع الوقت"
+    id: '1665449140161454'
+  - created_time: '2017-11-18T04:43:03+0000'
+    from:
+      name: محمد الفاتح
+      id: '2024769261133314'
+    message: "احذر تيجي تغيير \nيغيروك انت\nاهم حاجة المدير يكون عاوز تغيير والا هيشوف
+      انك بتستعرض\nبتضيع وقت إلخ\n\nMohamed Saeed"
+    id: '1665484126824622'
+  - created_time: '2017-11-18T08:40:35+0000'
+    from:
+      name: Mourad Al Ashry
+      id: '10160284573020019'
+    message: Abdallah Gamal
+    id: '1665623440144024'
+  - created_time: '2017-11-18T09:09:38+0000'
+    from:
+      name: Muhammad Allam
+      id: '10213148931690265'
+    message: F
+    id: '1665642000142168'
+  - created_time: '2017-11-18T09:48:18+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      It depends on your role, your power, how much buy in you got from leadership, etc.
+
+      This is the general framework I apply as a consultant whenever I go to a new place (usually every 4 - 14 months):
+
+      - I keep my ears open all the time, looking for opportunities to help people technically etc. I like to help, but it's also good to have people recognize you as someone who helps and come to you directly for help after that. This makes them listen
+
+      - I ask tough questions from time to time from day 1, but I don't insist on tackling them with answers / solutions at the same time
+
+      - I look for opportunities for small wins. A small Agile or tech practice that people can apply without much effort and can appreciate the results
+
+      - Now that I built enough credibility, I start making the case for the bigger items
+
+      This works because I'm often injected into teams as a developer and a mentor, or leading a smallish team of 3-4 developers.  It's different when I'm expected to be an advisor to the leadership.
+
+      When you are already recognized as leader / coach, you don't have to go through all these steps. You might be better off asking the existing leadership about their priorities and the work conditions, and directly start addressing the low hanging fruit from these.
+    id: '1665666026806432'
+  - created_time: '2017-11-19T17:30:37+0000'
+    from:
+      name: Emad Omara
+      id: '10156496579682437'
+    message: "لو بتتكلم في حاجة قديمو او ليها عميل في الغالب هيبقى صعب جدا خصوصا من
+      ناحية القيمة المضافة مع المصاريف وان العميل مش هيوافق على كده \n\nانما لو بتتكلم
+      في حاجة جديدة ابدا بحاجة زي Sonarqube \nهتغطي كل الي انت بتتكلم فيها وياسلام
+      لو تظبط مع حبه continuous integration \nهتبقى فله \nبس بما ان الموضوع نسبي فعلى
+      الاقل بالنسبة للسبرنتات الجيجة وال CRs حاول تظبها بشكل محترم ومش لازم تعوم على
+      عوم القديم خصوصا لو مش بتعارض ال overall architecture بتاع السوفتوير بتاعك"
+    id: '1666976200008748'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkyTlRJeE1UWTNNREU0TlRJd01Ub3hOVEV3T1RVek1qUTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkyTmprM05qSXdNREF3T0RjME9Eb3hOVEV4TVRFeU5qTTMZD

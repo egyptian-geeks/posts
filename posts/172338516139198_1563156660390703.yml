@@ -1,0 +1,83 @@
+---
+message: "Hello guys \nI'm a backend developer who works on a react app, I just have
+  a couple of questions regarding react best practices \n\n1-what is the best place
+  to store user data, I'm already storing user jwt token in local storage but what
+  about the rest of the data like email, name, etc.. \n2-is it good to put the whole
+  logic of a single component in one file? I.e validation /creating /editing and deleting
+  in the same file plus the jsx\n3-any recommend pancakes for making the workflow
+  easier for making common tasks like validation \n4- what is the best way to make
+  helper class and global variables in the whole application? \n\nThanks in advance."
+from:
+  name: Abd El Rhaman Ezzat
+  id: '1722658717785442'
+type: status
+created_time: '2017-07-30T16:56:32+0000'
+updated_time: '2017-07-30T22:41:48+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1563156660390703/
+shares:
+  count: 1
+id: '172338516139198_1563156660390703'
+reactions:
+  data:
+  - id: '1413588355416887'
+    name: Al-Amjad Tawfiq Isstaif
+    type: LIKE
+  - id: '10156097426513748'
+    name: Amr Ragaey
+    type: LIKE
+  - id: '825290564324928'
+    name: Yassine Fayyad
+    type: LIKE
+  - id: '1573272439420590'
+    name: Abd ElRahman AshRaf
+    type: LIKE
+  - id: '564149277272611'
+    name: Sherif Y. Ahmed
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlPVGN5TURjeE9UZAzRPakUxTURFM09ETXhOems2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01ERXdNekkyTXpBMk1UUTRPakUxTURFME5ERTFNelU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-07-30T16:58:36+0000'
+    from:
+      name: Kamal Aly Kamal
+      id: '1596204720460511'
+    message: |-
+      First , I hope you get the answers to your questions.
+      But I have a small question , is React good with Laravel? and why?
+      Thanks
+    id: '1563158050390564'
+  - created_time: '2017-07-30T17:10:26+0000'
+    from:
+      name: Abd El Rhaman Ezzat
+      id: '1722658717785442'
+    message: Mohamed Atef Mohamed Adel Karim Omar if you have any good tricks from
+      angular that can be used
+    id: '1563165250389844'
+  - created_time: '2017-07-30T17:31:30+0000'
+    from:
+      name: Ahmed Adel Hossny
+      id: '1996970190329577'
+    message: "1- Don't use local storage. You can just use Redux with react and save
+      all data you need in redux store. \n2- it depends on your approach. If you will
+      continue using redux you will​ have the logic in separate files\n3- for validation
+      you could use redux-form it is very easy and great in handling forms\n4- try
+      to avoid using global variables. For helpers it is good to have helpers directory
+      where you can store all helper and import what needed in each component"
+    id: '1563179067055129'
+  - created_time: '2017-07-30T20:22:36+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: |-
+      1. Jwt is how u pack/unpack secure msg between server and client. U dont relie on it. Save ur token on localstorage and ur client can load it and decrypt on runtime
+      2. Use redux, and follow real-world-example react boilerplate. Or any good boilerplate it will teach u about best practises
+      3. Make ur own libraries that do tasks that u consider routine/retepativei recommend u dont use high level libraries like 'redux-form' etc cause u need to learn about es6, functional programming, lib reusable code, if u gona be a react dev
+      4. Best way is to make a helper class using 'Singleton pattern' and share this singleton either by passing it down props or by importing singelton from each file
+    id: '1563292603710442'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUyTXpFMU9EQTFNRE01TURVMk5Eb3hOVEF4TkRNek9URTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUyTXpJNU1qWXdNemN4TURRME1qb3hOVEF4TkRRMk1UVTMZD

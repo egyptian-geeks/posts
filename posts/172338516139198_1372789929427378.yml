@@ -1,0 +1,49 @@
+---
+message: Guys, i need some recommendation for sources to learn about ACR (Audio Content
+  Recognition). For example, how Shazam works, etc. Your help is highly appreciated
+from:
+  name: Mohamed Eldishnawy
+  id: '10156000971684462'
+type: status
+created_time: '2017-01-30T22:48:22+0000'
+updated_time: '2017-01-31T05:12:11+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1372789929427378/
+id: '172338516139198_1372789929427378'
+reactions:
+  data:
+  - id: '10160067836125604'
+    name: Ezzeldin Rafat
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpBNU1EYzFOakF6T2pFME9EVTRNakUyTVRJNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TmpBNU1EYzFOakF6T2pFME9EVTRNakUyTVRJNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-01-30T22:50:32+0000'
+    from:
+      name: Gehad Elrobey
+      id: '10156114535627863'
+    message: https://www.ee.columbia.edu/~dpwe/papers/Wang03-shazam.pdf
+    id: '1372795522760152'
+  - created_time: '2017-01-31T01:47:04+0000'
+    from:
+      name: Mohamed Eldishnawy
+      id: '10156000971684462'
+    message: My main question is actually regarding the db of music or videos used
+      for fingerprinting. What tech is used to maintain those, and is there any open
+      source libraries for that?
+    id: '1372982942741410'
+  - created_time: '2017-01-31T05:12:09+0000'
+    from:
+      name: Ahmed Thabet
+      id: '1849432635069365'
+    message: |-
+      Hi I worked on a project like that before
+
+      Panako and audfprint project are pretty good
+    id: '1373117646061273'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0zTWpjNU5UVXlNamMyTURFMU1qb3hORGcxT0RFMk5qTTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0zTXpFeE56WTBOakEyTVRJM016b3hORGcxT0RNNU5USTUZD

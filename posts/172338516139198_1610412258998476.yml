@@ -1,0 +1,81 @@
+---
+message: |-
+  Hello,
+  I've just installed windows on my PC. I have a problem with chrome when scrolling on facebook. It is so slow. I've searched the internet and did all of those things:
+  1- clear browsing data
+  2- disable smooth scrolling flag
+  3- reinstalling chrome
+  but none of these works although It works just fine on Edge. So, what should I do to get it fixed ?
+from:
+  name: Ahmed Bahgat
+  id: '1578484165584322'
+type: status
+created_time: '2017-09-18T12:43:32+0000'
+updated_time: '2017-09-20T21:26:20+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1610412258998476/
+id: '172338516139198_1610412258998476'
+reactions:
+  data:
+  - id: '684409361947607'
+    name: Shehab Mahrous
+    type: LIKE
+  - id: '10159840018010612'
+    name: Somaya Aboulwafa
+    type: LIKE
+  - id: '1179971625472315'
+    name: Mohamed Ahmed
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01ERXhNelUyTkRjNU16VTNPakUxTURVNU9ESTVNVFk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXpOemcwTmpjNE5qVTJPakUxTURVM05EY3lPVE02TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-09-18T12:58:23+0000'
+    from:
+      name: Sherif Elmetainy
+      id: '10155248504590994'
+    message: Check the hardware acceleration option in chrome settings. Normally it
+      should be on. If turning it off improves performance, then your graphics driver
+      might need updating.
+    id: '1610422352330800'
+  - created_time: '2017-09-18T12:58:40+0000'
+    from:
+      name: Mohamed Eltantawi
+      id: '10160105091695314'
+    message: What version of chrome you have? make sure you updated your GPU drivers
+      and have not disabled GPU acceleration in the browser.
+    id: '1610422472330788'
+  - created_time: '2017-09-18T13:40:18+0000'
+    from:
+      name: Hisham Fangary
+      id: '10156660518155839'
+    message: |-
+      First, you have to isolate the problem:
+      1. Does the same issue happen in other browsers?
+      2. Does the issue happen in other websites?
+      3. Monitor the CPU, if it spikes during scrolling, that means hardware isn't being used, might be a GPU + Chrome compatibility issue.
+    id: '1610461285660240'
+  - created_time: '2017-09-18T13:43:00+0000'
+    from:
+      name: Ahmed Fahmy
+      id: '194886907920212'
+    message: هات بروسيسور أعلى
+    id: '1610462965660072'
+  - created_time: '2017-09-18T14:03:26+0000'
+    from:
+      name: Ahmed Sabry
+      id: '1847421335299420'
+    message: انا عندي مشكلة مشابهة بس مع اليوتيوب لما اعمل سكرول بيكون تقيل جدا لما
+      اكون مشغل فيديو، بس ع الفيرفوكس مفهوش مشكلة
+    id: '1610476622325373'
+  - created_time: '2017-09-18T15:56:50+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: مواصفات جهازك إيه؟
+    id: '1610553835650985'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl4TURReU1qTTFNak16TURnd01Eb3hOVEExTnpNNU5UQTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl4TURVMU16ZA3pOVFkxTURrNE5Ub3hOVEExTnpVd01qRXcZD

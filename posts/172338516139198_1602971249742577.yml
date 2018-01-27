@@ -1,0 +1,71 @@
+---
+message: "السلام عليكم \n\nكيف اخلي المستخدم لما يعمل Logout لو عمل Back Button بتاع
+  Browser اخليه يرجع ل فورم بتاع Login انا شغال ب SPRING Security ؟"
+from:
+  name: Wael Ben
+  id: '2472358262988513'
+type: status
+created_time: '2017-09-10T01:17:08+0000'
+updated_time: '2017-09-10T14:46:36+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1602971249742577/
+id: '172338516139198_1602971249742577'
+reactions:
+  data:
+  - id: '10155918812835729'
+    name: Sara Adel
+    type: LIKE
+  - id: '10210904627191828'
+    name: Yassin Gamal
+    type: LIKE
+  - id: '563156290702583'
+    name: Strong Man
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRVd016WXdOekk0T2pFMU1EVXdNell5TXpRNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01ERXdNalEyTlRBME1EQTNPakUxTURVd01EYzJPVEk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-09-10T01:20:39+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: شوف انا ما اعرفش عن التكنولوجي اللي انت شغال بيه حاجة. بس لو ما عرفتش،
+      تقدر تظبط الليلة دي من السيرفر، الصفحة اللي هيوصلها في ال logout تعمل redirect
+      تلقائي لصفحة الدخول. ده بالاضافة إلى إن فكرة ال redirect ممكن تتعمل بالجافاسكريبت
+      او حتى من خلال meta tag
+    id: '1602972519742450'
+  - created_time: '2017-09-10T03:26:04+0000'
+    from:
+      name: Ahmed Ibrahim
+      id: '10160008892470094'
+    message: انت هتبقي محتاج تفضي الكاش بتاع البراوزر
+    id: '1603039316402437'
+  - created_time: '2017-09-10T04:10:13+0000'
+    from:
+      name: Mahmoud Nawwar
+      id: '1560359927364731'
+    message: |-
+      هو المفروض بعد ما يعمل logout فهو not authenticated any more وساعتها لما يحاول ي access أي صفحة هي ترميه على ال login page
+      اتاكد بقى انك عامل default security لكل ال pages أن ميعملهاش access غير authenticated user
+        <intercept-url pattern="/**" access="ROLE_USER" />
+    id: '1603061936400175'
+  - created_time: '2017-09-10T10:30:03+0000'
+    from:
+      name: Abdelrahman Omran
+      id: '2203311556562655'
+    message: https://www.owasp.org/index.php/Testing_for_Logout_and_Browser_Cache_Management_(OWASP-AT-007)
+    id: '1603249036381465'
+  - created_time: '2017-09-10T14:46:34+0000'
+    from:
+      name: Ahmed Khalifa
+      id: '1999765416908747'
+    message: ممكن تستخدم cookie اول ما اليوزر يعمل login و اول ما يعمل logout تحذفها
+      بحيث انه لو عمل باك او حاول يدخل من خلال اي URL .. تبقي انت مضبط في الباك اند
+      بتاعك لو ال cookie دي مش موجوده يبقي تعمل redirect ل الاكشن او ال page اللي
+      انت عايزها
+    id: '1603411519698550'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl3TWprM01qVXhPVGMwTWpRMU1Eb3hOVEExTURBMk5ETTUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl3TXpReE1UVXhPVFk1T0RVMU1Eb3hOVEExTURVME56azAZD

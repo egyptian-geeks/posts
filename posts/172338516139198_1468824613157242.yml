@@ -1,0 +1,88 @@
+---
+message: |-
+  My team is writing a proposal for a project, and part of it will be about the cost of hosting the solution, the client wont handle the hosting and wants to know the cost with respect to the number of active users.
+  I know that it varies widely depending on the provider and the code and the framework and a lot of other things, but I wanted to know if there is anything that could help me make a good rough estimate for the amount of concurrent users a certain cloud hosting tier can serve.
+  Do I just look at benchmarks on techempower and compare the specs of the hardware used in their benchmarks with the hardware of the hosting tier? Are there commonly-known ranges of numbers for things like Azure App Service?
+from:
+  name: Hassan Aly Selim
+  id: '10156089336182292'
+type: status
+created_time: '2017-04-29T15:21:22+0000'
+updated_time: '2017-04-30T19:00:06+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1468824613157242/
+id: '172338516139198_1468824613157242'
+reactions:
+  data:
+  - id: '10156847731676808'
+    name: Ahmed Mahmoud Yosry
+    type: LIKE
+  - id: '10155229898632393'
+    name: Ahmed Ragab
+    type: LIKE
+  - id: '10159814040690403'
+    name: A Taha ElAnsary
+    type: LIKE
+  - id: '10214843347173894'
+    name: Hesham Watany
+    type: LIKE
+  - id: '10156014041447629'
+    name: Mohammed ElSayed
+    type: LIKE
+  paging:
+    cursors:
+      before: TmprMU56TTJPREEzT2pFME9UTTFNamt6TnpBNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRRM05qZAzNOakk0T2pFME9UTTBOemsxTXpJNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-04-29T19:20:07+0000'
+    from:
+      name: أحمد محمود محمد عبدالوهاب
+      id: '10155226291481186'
+    message: "it is really dependant. Specially if it is real time or not. \nAn app
+      written with go for example will take more uaers than an app written with rails,
+      php, or python for example given same specs"
+    id: '1468983846474652'
+  - created_time: '2017-04-29T19:20:42+0000'
+    from:
+      name: أحمد محمود محمد عبدالوهاب
+      id: '10155226291481186'
+    message: you will need to provide more details or pick a language based on what
+      you want to support
+    id: '1468984466474590'
+  - created_time: '2017-04-29T19:24:34+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: Well let's say an ASP.NET Core application, and it's not real-time but
+      very frequent, imagine like every time you take/consume an item in a game you
+      have to send that to the server which might also make a quick check to make
+      sure you're not cheating.
+    id: '1468986299807740'
+  - created_time: '2017-04-29T19:27:47+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: There might be another part of the backend for real-time data, it could
+      be a custom server that uses TCP or UDP sockets (that part isn't still decided
+      yet). This one is easier to make assumptions for because there is a limit on
+      how many simultaneous sockets a server can have.
+    id: '1468988023140901'
+  - created_time: '2017-04-29T23:32:24+0000'
+    from:
+      name: Mohammad Fouad
+      id: '10155755444625845'
+    message: 'What you are planning to do is called #CapacityPlanning If you already
+      have any website running, it is better to use its data than to guess your own.'
+    id: '1469121759794194'
+  - created_time: '2017-04-29T23:47:49+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: The only thing i can ask u is to add a charge per user for the contract,
+      and get an average cost for the user fom a small scale, dont forget the indirect
+      costs that grow with users like support cost.
+    id: '1469129586460078'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEyT0RrNE16ZAzBOalEzTkRZAMU1qb3hORGt6TkRrek5qQTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEyT1RFeU9UVTROalEyTURBM09Eb3hORGt6TlRBNU5qWTUZD

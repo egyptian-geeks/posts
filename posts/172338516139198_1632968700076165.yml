@@ -1,0 +1,61 @@
+---
+message: |-
+  Hi Geeks,
+  I want to share my first bot framework implementation with you...
+  Appreciate your comments and suggestions !!!
+  If you talk with chat it will reply to you automatically.
+  https://m.facebook.com/EgyptianRailwaysBot
+link: https://www.facebook.com/EgyptianRailwaysBot/
+from:
+  name: Mohammad Amer
+  id: '10214580441719850'
+type: link
+picture: https://scontent.xx.fbcdn.net/v/t1.0-1/p200x200/22730434_752739201581120_4671891570762576823_n.png?oh=81464816a6f95721c2066f193f0f8d68&oe=5AE0A3D9
+created_time: '2017-10-14T14:51:18+0000'
+updated_time: '2017-10-14T17:46:02+0000'
+name: Egyptian Railways Bot - مواعيد القطارات
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1632968700076165/
+id: '172338516139198_1632968700076165'
+comments:
+  data:
+  - created_time: '2017-10-14T15:07:48+0000'
+    from:
+      name: Mohammad Amer
+      id: '10214580441719850'
+    message: |-
+      Note: till now you can ask for (Arabic language only)
+      (القطارات المكيفة) بها نتائج أما (القطارات المميزة) ليست بها نتائج
+      القاهرة إلى الإسكندرية
+      القاهرة إلى أسوان او الاقصر أو المنيا بنى سويف اسيوط سوهاج وليس العكس
+    id: '1632982120074823'
+  - created_time: '2017-10-14T16:14:55+0000'
+    from:
+      name: Abdullah Soliman
+      id: '2009083949371201'
+    message: Rail Egypt دا ابلكشن على بلاي ستور بردو شغال زي الفل
+    id: '1633035813402787'
+  - created_time: '2017-10-14T17:17:08+0000'
+    from:
+      name: Mohammad A. Abdelalim
+      id: '853389208176064'
+    message: Did you make it with Microsoft Bot Framework?
+    id: '1633091606730541'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl6TWprNE1qRXlNREEzTkRneU16b3hOVEEzT1Rrek5qWTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl6TXpBNU1UWXdOamN6TURVME1Ub3hOVEE0TURBeE5ESTQZD
+attachments:
+  data:
+  - description: 'مواعيد القطارات هى صفحة متخصصة لمعرفة مواعيد القطارات المكيفة والمميزة
+      فى مصر. '
+    media:
+      image:
+        height: 200
+        src: https://scontent.xx.fbcdn.net/v/t1.0-1/p200x200/22730434_752739201581120_4671891570762576823_n.png?oh=81464816a6f95721c2066f193f0f8d68&oe=5AE0A3D9
+        width: 200
+    target:
+      id: '723586827829691'
+      url: https://www.facebook.com/EgyptianRailwaysBot/
+    title: Egyptian Railways Bot - مواعيد القطارات
+    type: avatar
+    url: https://www.facebook.com/EgyptianRailwaysBot/

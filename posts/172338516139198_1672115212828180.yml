@@ -1,0 +1,115 @@
+---
+message: Hi guys, I have a traditional question regarding mobile development, it's
+  about cross-platform vs native mobile development. I write mobile apps in C++ and
+  Qt Quick, and  I see that many companies are using cross-platform technologies instead
+  of native ones, and the number is dramatically increasing specially after releasing
+  react native and Qt mobile support, so does anyone have a more in-depth knowledge
+  about that? I have seen many discussions out there where people have stated that
+  they use cross-platform technologies in most of their mobile development, around
+  98%, but I need more experience-based opinions that take into account the cost of
+  native app development and maintenance, if you have a good knowledge about that,
+  please share.
+from:
+  name: Yasser Sobhy
+  id: '1571159766293275'
+type: status
+created_time: '2017-11-24T22:17:41+0000'
+updated_time: '2017-11-25T18:45:30+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1672115212828180/
+id: '172338516139198_1672115212828180'
+reactions:
+  data:
+  - id: '10155065357586363'
+    name: Mohammad Ali Diab
+    type: LIKE
+  - id: '2024769261133314'
+    name: محمد الفاتح
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRJek5EY3hNell5T2pFMU1URTJNemN3TVRBNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQTRNREEzTnpnNE5EVTJPakUxTVRFMk16WXdNVE02TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-11-24T22:17:55+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: What's the question?
+    id: '1672126596160375'
+  - created_time: '2017-11-24T22:20:22+0000'
+    from:
+      name: Yasser Sobhy
+      id: '1571159766293275'
+    message: Experience-based opinions that recommend cross-platform mobile app development
+      or native development
+    id: '1672128552826846'
+  - created_time: '2017-11-24T22:25:02+0000'
+    from:
+      name: احمد قرواش
+      id: '1561022257326859'
+    message: "take the native , hybrid made in china \U0001F602\U0001F602"
+    id: '1672130816159953'
+  - created_time: '2017-11-24T22:31:02+0000'
+    from:
+      name: Yasser Sobhy
+      id: '1571159766293275'
+    message: BTW, some react native apps are Facebook, Instagram, Skype, and Airbnb
+    id: '1672134006159634'
+  - created_time: '2017-11-24T22:31:48+0000'
+    from:
+      name: Ahmed Khalifa
+      id: '1999765416908747'
+    message: Think on xamarin ..full native and cross platform
+    id: '1672134439492924'
+  - created_time: '2017-11-24T23:13:42+0000'
+    from:
+      name: Omar Cherif Fathi
+      id: '2067397180161531'
+    message: |-
+      Writing C and C++ to create an app is usually not desirable. Use the right tool to get the job done. For ios you can always write your C++ along side swift or objc and call it directly without any problems. This is mainly for the cases where you already have some code written in c or c++ and you don't want to rewrite it. The same goes in Android I guess, Use the ndk. Qt is mainly for embedded systems and it will never compete in the mobile development area even though they support it. And you may need to pay them in order to use qt in  non open source project.
+
+      Don't forget that you may end up facing problems when you submit your app to the app store in case you go for a non standard way to develop your app so why the hassle?
+    id: '1672159172823784'
+  - created_time: '2017-11-25T07:28:15+0000'
+    from:
+      name: Yousef Mahmoud
+      id: '1818224478190849'
+    message: |-
+      Sure this depends on the app or the solution you're going to build.
+      Simply I recommend:
+
+      If simple app that doesn't use much native api's, go for Cordova.
+
+      If you're building a product targeting multiple platforms, and you need the native experience, go for react native, native script or xamarin.
+    id: '1672447389461629'
+  - created_time: '2017-11-25T15:59:03+0000'
+    from:
+      name: Mohamed Ali Abuelwafa
+      id: '10215282097155427'
+    message: https://www.youtube.com/watch?v=abSNo2P9mMM
+    id: '1672795642760137'
+  - created_time: '2017-11-25T16:56:46+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: I use reactnative and i think native development is waste of time...
+      Yet you must know that even with react you need to write modules using native
+      tech to do stuff js cannot do alone,
+    id: '1672845316088503'
+  - created_time: '2017-11-25T17:08:31+0000'
+    from:
+      name: Marwan Abdel Moneim
+      id: '408695269572490'
+    message: react native is not cross platform
+    id: '1672853266087708'
+  - created_time: '2017-11-25T18:16:18+0000'
+    from:
+      name: Yousef Mahmoud
+      id: '1818224478190849'
+    message: btw, another great option is nativescript
+    id: '1672910529415315'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkzTWpFeU5qVTVOakUyTURNM05Ub3hOVEV4TlRZAeE9EYzEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkzTWpreE1EVXlPVFF4TlRNeE5Ub3hOVEV4TmpNek56YzQZD

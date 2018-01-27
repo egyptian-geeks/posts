@@ -1,0 +1,89 @@
+---
+message: "Need your opinion, which one is better?\nFor a web software server and database
+  server  \n-on the same machine \n-each in a stand alone machine?\n(Security & Resources
+  & Scalability )"
+from:
+  name: Hesham Watany
+  id: '10214843347173894'
+type: status
+created_time: '2016-12-04T04:19:48+0000'
+updated_time: '2016-12-05T00:17:13+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1311625658877139/
+id: '172338516139198_1311625658877139'
+reactions:
+  data:
+  - id: '1787698051535886'
+    name: Davis Brown
+    type: LIKE
+  - id: '1984058555247376'
+    name: Tarekk Mohamed Abdalla
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTRPRGN4TWpRek9UUTFPakUwT0RBNU1UTXdNRGM2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTVNamszTlRFd01UWXhPakUwT0RBNE5EQXpNalU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-12-04T04:21:36+0000'
+    from:
+      name: Mohamed Magdy
+      id: '10160022296715360'
+    message: Of course each one in stand alone is better, but if you want it for performance
+      you may use secondary SSD drive for database as it's the one which have more
+      reads and writes and needs more performance than web files.
+    id: '1311626425543729'
+  - created_time: '2016-12-04T04:46:55+0000'
+    from:
+      name: Ahmed Eldosoukey
+      id: '10155780527142535'
+    message: |-
+      This is called "Infrastructure Architecture", and there's no best answer.
+
+      However, it's always better to have three separate teirs:
+      - Database
+      - Backend
+      - Frontend
+
+      You can then scale each one separately, and manage changes independently.
+    id: '1311647208874984'
+  - created_time: '2016-12-04T08:41:08+0000'
+    from:
+      name: Tarek Ahmed
+      id: '10215440197777018'
+    message: it depends on what you mean by a machine, a machine can be one computer
+      with a 16 core xeon running 8 virtual machines each on it's own 2 cores, in
+      that case sure you can run the 2 servers on 2 different virtual machine and
+      be totally secure as any compromise in one will leave the other unharmed (unless
+      it's a hardware compromise which is very rare), or it could mean both the servers
+      are on the same virtual machine (same os managing both processes) then that's
+      cheaper but less secure as any hack that gains root privileges can compromise
+      both.
+    id: '1311925472180491'
+  - created_time: '2016-12-04T12:52:17+0000'
+    from:
+      name: Mohammed Halim
+      id: '372357706559022'
+    message: طيب كيف اشبك الثلاث سيرفرات هل يوجد شبكة داخلية حتى يكون الاتصال سريع
+    id: '1312198685486503'
+  - created_time: '2016-12-05T00:08:57+0000'
+    from:
+      name: Mohammad Fouad
+      id: '10155755444625845'
+    message: |-
+      if each on its own machine you can see how each function consumes resources, Web-CPU  vs DB-CPU, and so on. it helps you make scalability and capacity decisions.
+
+      Also, Depending on your application, you might find that Web is CPU and Memory bound, and DB is CPU and Disk bound. then both will compete for CPU time. else, it will save power if you run on the same server.
+    id: '1313088712064167'
+  - created_time: '2016-12-05T00:17:11+0000'
+    from:
+      name: Usama Fayez
+      id: '10155807421830280'
+    message: Scaling-wise, you would want them to be on different machines. Each will
+      probably have its own scaling requirements like Fouad mentioned (CPU/Memory/DISK
+      IO, etc ...). You can then scale them up independently of each other and provide
+      replication, load balancing, etc ...
+    id: '1313097455396626'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE14TVRZAeU5qUXlOVFUwTXpjeU9Ub3hORGd3T0RJMU1qazIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE14TXpBNU56UTFOVE01TmpZAeU5qb3hORGd3T0RrM01ETXgZD

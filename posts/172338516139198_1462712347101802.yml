@@ -1,0 +1,162 @@
+---
+message: |-
+  الواضح أن مصر منعت حتى OpenVPN نفسه بدون استخدام طريقة تشفر بيها عملية الhandshake. من واقع تجربة شخصية باستخدام السيرفر بتاعي عليه OpenVPN UDP on port 993 (IMAP) شغال من السويد والسعودية ودبي لكن مصر لأ.
+
+  حد يقدر يأكد نفس الكلام؟ حد فاضي شوية ابعتله بروفايل يجربه؟
+from:
+  name: Mohamed Eltantawi
+  id: '10160105091695314'
+type: status
+created_time: '2017-04-23T06:19:43+0000'
+updated_time: '2017-04-24T05:43:50+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1462712347101802/
+id: '172338516139198_1462712347101802'
+reactions:
+  data:
+  - id: '1543699995698959'
+    name: Dina Abdraboo
+    type: LIKE
+  - id: '403777313391852'
+    name: أحمد
+    type: LIKE
+  - id: '10214421477361400'
+    name: Fady Nabil Samy
+    type: SAD
+  - id: '10159985912160444'
+    name: Anwer Matter
+    type: LIKE
+  - id: '10156191099748000'
+    name: Shady Mohamed Sherif
+    type: LIKE
+  - id: '10155898279795619'
+    name: Hassan Sultan
+    type: LIKE
+  - id: '2004705666469226'
+    name: Ahmed Essam
+    type: LIKE
+  - id: '10214861141222529'
+    name: Abdelrady Fcis
+    type: LIKE
+  - id: '10160007537500512'
+    name: Abbas Adel Ibrahim
+    type: LIKE
+  - id: '10156058637813523'
+    name: Magdi Nakhla
+    type: LIKE
+  - id: '10160028885050387'
+    name: Mahmoud M. Abdel-Fattah
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhOelk1TWpBM05qazVPakUwT1RNd09Ea3pNemM2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TmpneU1qRXdNemcyT2pFME9USTVNekF5T0RRNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-04-23T06:28:53+0000'
+    from:
+      name: Ebrahim ElSayed
+      id: '10213210502209905'
+    message: جرب اشتغل ببورت custom هيشتغل معاك بدون مشكلة
+    id: '1462721690434201'
+  - created_time: '2017-04-23T06:30:44+0000'
+    from:
+      name: Mohamed Eltantawi
+      id: '10160105091695314'
+    message: مهو انا عامله ببورت custom ومستخدم بورت مفروض مفتوح ومينفعش يقفلوه زي
+      IMAP ولا انت قصدك افتكس اي بورت تاني؟
+    id: '1462725280433842'
+  - created_time: '2017-04-23T06:35:21+0000'
+    from:
+      name: Nawwar Elnarsh
+      id: '10159801699790328'
+    message: انا شغال معايا ال VPN عادى ( VPN خاص لشركة ) عاملينه على Amazon
+    id: '1462727697100267'
+  - created_time: '2017-04-23T06:36:17+0000'
+    from:
+      name: Sameh AboulDahab
+      id: '10155898599125619'
+    message: ابعتلي لأني شغال علي bugfinders project مِن OpenVPN عادي جدا
+    id: '1462728200433550'
+  - created_time: '2017-04-23T07:03:43+0000'
+    from:
+      name: Magdi Nakhla
+      id: '10156058637813523'
+    message: "مستخدمين DPI حقير زي اللي في كوريا الشماليه وايران انصحك تغير البورت
+      ل 443 TCP وانت ايه ليه استخدمت UDP  ومتهيألي ان ال UDP مفيهوش هاندشيك \U0001F44F"
+    id: '1462744990431871'
+  - created_time: '2017-04-23T08:27:04+0000'
+    from:
+      name: Mohamed El-Sayed
+      id: '10155182529813309'
+    message: الموضوع ده بيحصل من فترة طويلة داخلة على سنة..و غالبا مش متعمم على كل
+      الترافيك اللي طالع..جرب تغير الأيبي بتاع السرفر أو تروح بروفايدر\داتا سنتر تاني...
+    id: '1462857170420653'
+  - created_time: '2017-04-23T08:27:53+0000'
+    from:
+      name: Ahmed Shawky Ibrahim
+      id: '10155110527716700'
+    message: You want testing from Egypt or outside?
+    id: '1462857660420604'
+  - created_time: '2017-04-23T08:51:17+0000'
+    from:
+      name: Mohamed Elawadly
+      id: '824666604386021'
+    message: شغال معايا علي سيرفر من امازن عادي جدا
+    id: '1462868407086196'
+  - created_time: '2017-04-23T09:01:07+0000'
+    from:
+      name: Mohamed Fergany
+      id: '10215339863195300'
+    message: "المشكله ان انهم مش بيقفلوا علي كله \nبيجربوا في ناس وفي خطوط قبل ما
+      يعمموا"
+    id: '1462873647085672'
+  - created_time: '2017-04-23T10:13:31+0000'
+    from:
+      name: Marwan Yassin
+      id: '10159953707250230'
+    message: "شغال معايا على Digital ocean و4G hotspot \nبس بلاحظ ساعات انه السرعة
+      بتوصل لزيرو او بطيء جداً بشوف على VPN client تاني برضه بطيء كانهم بيجربوا حاجة"
+    id: '1462915907081446'
+  - created_time: '2017-04-23T12:20:30+0000'
+    from:
+      name: Mohamed A. Alqrwash
+      id: '10213394268464462'
+    message: غير البورت ده الحل الان يعني همه بيشتفلوا علي الاعدادات الافتراضيه
+    id: '1462989593740744'
+  - created_time: '2017-04-23T12:44:28+0000'
+    from:
+      name: Ashraf Kaabi
+      id: '10156258607755921'
+    message: Tcp 443 is the solution to act like browsing website on ssl
+    id: '1463003863739317'
+  - created_time: '2017-04-23T14:00:22+0000'
+    from:
+      name: Ahmed El-Serafy
+      id: '10160134082565106'
+    message: El kalam da mn 8/2016... :(
+    id: '1463062920400078'
+  - created_time: '2017-04-23T16:41:09+0000'
+    from:
+      name: Hatem Nasser
+      id: '1666331763426718'
+    message: الكلام ده حقيقي جدا وفعلا الكلينت علي الاندرويد كويس ،، الحل اني استخدمت
+      بروتوكول اخر وشغال كويس بما اني وندوز ف انا شغال IKEv2 والموضوع سريع ولطيف
+    id: '1463194293720274'
+  - created_time: '2017-04-23T18:16:54+0000'
+    from:
+      name: Dina Reda
+      id: '10155123895506641'
+    message: Openvpn over 443
+    id: '1463267213712982'
+  - created_time: '2017-04-23T22:01:49+0000'
+    from:
+      name: Mohamed Ashraf
+      id: '10155906116946287'
+    message: TCP over 443 is how I do it (but I havent tested it in egypt just in
+      other places that block openvpn). I am not sure how you can block openvpn over
+      TCP 443 since it litterally looks like a normal ssl browsing.
+    id: '1463415013698202'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEyTWpjeU1UWTVNRFF6TkRJd01Ub3hORGt5T1RJNE9UTTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEyTXpReE5UQXhNelk1T0RJd01qb3hORGt5T1RnME9UQTUZD

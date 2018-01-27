@@ -1,0 +1,31 @@
+---
+message: |-
+  in Linux web servers , is apache user www-data can change randomly  to another user or it's working under the same user always ?
+  I am confusing about giving www-data specific permissions and it's randomly changed to another with different permissions
+from:
+  name: Youhana Sobhy
+  id: '10156214789922376'
+type: status
+created_time: '2016-08-17T18:49:31+0000'
+updated_time: '2016-08-18T10:41:17+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1206976146008758/
+id: '172338516139198_1206976146008758'
+comments:
+  data:
+  - created_time: '2016-08-17T19:42:24+0000'
+    from:
+      name: Mohamed Magdy
+      id: '10160022296715360'
+    message: it doesn't got changed till you change it manually from httpd.conf.
+    id: '1207023729337333'
+  - created_time: '2016-08-18T10:40:45+0000'
+    from:
+      name: Youhana Sobhy
+      id: '10156214789922376'
+    message: Oky thank you but who are users in permissions ,, for example owner ,
+      group and users in linux permissions
+    id: '1207460285960344'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl3TnpBeU16Y3lPVE16TnpNek16b3hORGN4TkRZAeU9UUTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl3TnpRMk1ESTROVGsyTURNME5Eb3hORGN4TlRFMk9EUTIZD

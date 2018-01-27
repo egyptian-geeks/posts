@@ -1,0 +1,217 @@
+---
+message: |-
+  We have a web service that communicates with and pulls data from multiple, say 5, 6 or even 10K, databases. Each database has its very own design, tables and columns but they all implement a "Users" table. Our web service must look in each of those "Users" tables and access their data.
+
+  Question is, how to manage such number of database connections/contexts taking into account the different names of the "Users" table and its columns' in each DB.
+
+  Any suggestions would be appreciated :)
+from:
+  name: Ahmed Abulwafa
+  id: '10215430511626176'
+type: status
+created_time: '2017-05-31T18:46:23+0000'
+updated_time: '2017-06-02T02:10:28+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1499391943433842/
+id: '172338516139198_1499391943433842'
+reactions:
+  data:
+  - id: '10154990721836513'
+    name: Hossam Yassin
+    type: LIKE
+  - id: '1983740558563766'
+    name: Rawan Mohamed
+    type: LIKE
+  - id: '10160136355320107'
+    name: Noha Abdel-Tawab
+    type: LIKE
+  - id: '1589304647821970'
+    name: Menem Salama
+    type: LIKE
+  - id: '10215527820692082'
+    name: Yazeed Shaker
+    type: LIKE
+  - id: '10213490748519763'
+    name: Hammad Abd-elkader Hammad
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpjME5EY3hOVEV5T2pFME9UWXpORE0zT1RnNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRFek1qWTJNRE00TXpveE5EazJNalUyTkRZAeE9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2017-05-31T18:47:58+0000'
+    from:
+      name: Hammad Abd-elkader Hammad
+      id: '10213490748519763'
+    message: جربت تسأل على Quora
+    id: '1499392790100424'
+  - created_time: '2017-05-31T19:09:08+0000'
+    from:
+      name: Tony Raoul Iscaros
+      id: '10156165643313420'
+    message: Any similarity between the users tables ? Common name pattern ? Common
+      fields ?
+    id: '1499408773432159'
+  - created_time: '2017-05-31T19:11:36+0000'
+    from:
+      name: Hisham Abd El-Hafez Eid
+      id: '10156032627411171'
+    message: "I have some questions to understand your situation:\n10000 databases?
+      is that right?\nAre all relational databases? \nIs this a one-time pull and
+      then you are shutting down the connection to the databases, or a continuous
+      feed?"
+    id: '1499410076765362'
+  - created_time: '2017-05-31T19:16:00+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: Adapter pattern but the case is not applicable (to write 10000 adapter)
+      :)
+    id: '1499413330098370'
+  - created_time: '2017-05-31T19:26:51+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: |-
+      When u say access data in users table.. What do u mean ?
+      Can u write expected outcome?
+
+      Just to give u heads. Up. What u r discriping is a common activity in any saas company that serve single tenant systems.
+      You need to create ur own db and this db will hold what is known as "meta-data" this meta data is composed from 10,000k db.
+      But i need to understand what data are u extracting and outputing to give a better advice
+    id: '1499419530097750'
+  - created_time: '2017-05-31T19:27:25+0000'
+    from:
+      name: Mohammad Fouad
+      id: '10155755444625845'
+    message: |-
+      Sounds like an ETL job
+      not an expert here, but I think u will find tools that define the mapping for the table and column names, and it will handle injestion of data and everything
+      https://en.wikipedia.org/wiki/Extract,_transform,_load
+    id: '1499419853431051'
+  - created_time: '2017-05-31T19:44:47+0000'
+    from:
+      name: Mohamed Ahmed
+      id: '385696705226073'
+    message: |-
+      as i understood and  maybe wrong you need to READ from 10 k database , and those 10 K database are under your management,so
+      Why Pull , Push Instead  !!!! Create a Pipe Line with A Listener and Make The The Database's as  your subscribers ....so instead of 10 k config , a single config maybe a script to do the push on the 10 k
+    id: '1499430280096675'
+  - created_time: '2017-05-31T22:09:51+0000'
+    from:
+      name: Hossam Yassin
+      id: '10154990721836513'
+    message: implement micro services approach.
+    id: '1499535430086160'
+  - created_time: '2017-05-31T22:18:51+0000'
+    from:
+      name: Mahmoud Ahmed
+      id: '2106132272736043'
+    message: Nour Ahmed
+    id: '1499540556752314'
+  - created_time: '2017-05-31T22:42:18+0000'
+    from:
+      name: Ibraheem Osama
+      id: '10155206310513093'
+    message: |-
+      Its is going to be time/money consuming  to implement event sourcing or any type of events in the other system or even to ask for an api on trigger. You can check a product called Microsoft FIM (forefront identity manager) or any similar product to sync the data into a single table and this table is going to be your read table. If FIM is not option I see an ETL is a good option but your customer must understand that there will be some delay between your read db and their databases, if they want real data then you have to do events.
+
+      Try to check ETL products first before thinking about going custom code.
+      Good luck
+    id: '1499556046750765'
+  - created_time: '2017-05-31T23:43:38+0000'
+    from:
+      name: Nader Al-Sharkawy
+      id: '10154950104465216'
+    message: An ETL solution which is parameterized for column mapping, assuming that's
+      the only variable; column names, should suffice.
+    id: '1499586006747769'
+  - created_time: '2017-06-01T01:08:51+0000'
+    from:
+      name: Alaa Ezzat
+      id: '10156074051141565'
+    message: "مبدأيا فى حاجه زى كده انت متقدرش تتفادى ال\nDonkey Work \nبس احسن و
+      انضف طريقه لكودك انك هتعمل\n Interface \nموحده يكون موجود فيها كل ال\nFields\nباسم
+      ثابت يعني مثلا\nC#\ninterface IUser\n{\npublic String UserName{get;set}\npublic
+      String Title{get;set}\n}\n\nو بعدها اعمل كلاس مسئول انه ياخد ال\nConnection
+      String \nو اسم الـColumn\nبتاع كل فيلد زى مثلا \nC# :\npublic IEnumerable<IUser>
+      FetchUsers(\nString connectionString,\nString tableName,\nString userNameColumnName,\nString
+      titleColumnName )\n{\n// your db access and User list filling code here\n}\n\nو
+      ممكن للسهوله تخلى الباراميترز دى تتسجل فى داتا بيز عندك , بس طبعا اعمل حسابك
+      انك تعمل \nEncryption \nللكونكشن سترينج عشان متعرضش الداتا بيز بتاعت العملا
+      بتوعك لاى خطر \n\n\nو بكده انت هتكتب الكود بتاعك كله فى يوم , و ممكن اى حد ملوش
+      علاقه بالبرمجه اصلا يملا هو بيانات ال10,000 داتا بيز دول او يكون على خبره بسيطه\nطبعا
+      مش محتاج اقولك ان الاداء بتاع الكلام ده هيكون مش عالى اوي , بس هو الطلب فى حد
+      ذاته عامة غريب"
+    id: '1499637530075950'
+  - created_time: '2017-06-01T05:14:35+0000'
+    from:
+      name: Ahmed Eldosoukey
+      id: '10155780527142535'
+    message: |-
+      I don't know which programming Framework you're using, but in such a case I would use something based on scripting language like TypeScript.
+
+      If this is the case, all you need to have is a very simple JSON mapping from your names to the target database names. If you're offering this as a service to your clients, you can ask them, using a wizard, to do that mapping.
+
+      Your class should have one generic function for each CRUD operation.
+
+      The flow will be as follows:
+      . Choose the database you'll be connecting to
+      . Read the connection string and the mapping JSON
+      . Convert the mapping to a DB query
+      . Execute and return the results
+
+      Another solution if you're using a compiled language, is to directly format the mapping to CRUD Operation command, into a SQL Query for example. Assume that you're looking for two fields, username and fullname. If db1 columns are, uname and fname, the queries will look like:
+      Select uname as username, fname as fullname from TABLEdb1
+      And you keep changing the uname, fname and TABLEdb1 for each DB Configuration.
+
+      If your logic isn't that simple, and you need more actions like special validations and so on, you might need to have one Interface, and implement an inheriting class for each db.
+    id: '1499791860060517'
+  - created_time: '2017-06-01T10:06:53+0000'
+    from:
+      name: Sameh Selim
+      id: '1907240172924468'
+    message: how can this be possible ?  10k databases , what kind of project is this
+      ? i believe you need to find a better solution to the problem than dealing with
+      10k databases. can you give us an idea for the problem and the solution that
+      resulted in 10k databases ?
+    id: '1499977170041986'
+  - created_time: '2017-06-01T15:15:36+0000'
+    from:
+      name: Mohamed Tawfik
+      id: '10204074940031522'
+    message: "بص انا مش فاهم قوي مشكلتك ... بس خليني اقولك اللي انا فاهمه ... انتا
+      عايز تبعت داتا بتاعة users من كذا service للويب سيرفيس بتاعتك ... صح كده ؟\nلو
+      انا كده فاهم صح يبقا يبقى في حل بسيط اسمه Message Broker\t\nدا ببساطة \nyou
+      can publis message with it ... and whoever should consume this message will
+      consume it\nخلينا نتخيل ان عندنا السيرفس بتاعتك اللي اسمها A\nو عندنا كمان 3
+      سيرفيس تانييين X1,X2,X3\nو انتا عايز دول يبعتوا للسيرفيس بتاعتك و العكس \ncase
+      1:\nservice (A) will send to x1,x2,x3\nthen you service will not send to each
+      (x) service individually, instead it will send to our message broker, and other
+      services will consume from message broker, no direct communication between services
+      \n\ncase 2:\nservices x1,x2,x3 wish to send to A\nthey will also publish message
+      but in different queue, in that queue only service (A) can consume messages\n\nكده
+      الشغل اللي انتا مفروض تعملوا انك تبعت الداتا بتعتك لmessage broker \nو كده انتا
+      مش محتاج تعرف اسم الجدول في الداتابيز في كل واحده ... ﻷنك انتا اللي هتبعت الرسائل
+      و هتستقبلها فلازم تخلي الفورمات بتاع الرساله واحد و بعدين كل سيرفيس تشوف هاتعمل
+      ايه بالرساله دي"
+    id: '1500233430016360'
+  - created_time: '2017-06-01T20:58:36+0000'
+    from:
+      name: Mohamed Hassan
+      id: '1826387390767203'
+    message: |-
+      ممكن تبص علي تكنولوجي زاي hadoop
+      https://stackshare.io/hadoop
+    id: '1500523086654061'
+  - created_time: '2017-06-01T21:00:30+0000'
+    from:
+      name: Mohamed Hassan
+      id: '1826387390767203'
+    message: لاحظت ان الشركات الكبيرة بيستخدموها مع قواعد البيانات المعروفة زاي MySQL
+      و Postgres
+    id: '1500524616653908'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE1T1RNNU1qYzVNREV3TURReU5Eb3hORGsyTWpVMk5EYzQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV3TURVeU5EWXhOalkxTXprd09Eb3hORGsyTXpVd09ETXcZD

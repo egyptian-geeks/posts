@@ -1,0 +1,20 @@
+---
+message: |-
+  I am going to write few front end tests for a webapp that's widely used, and I am now in the problem of choosing a service.
+
+  I have settled on 3 options and I am abit confused.
+
+  1- two of the testing frameworks are almost developerless, you record the action and the service make it as a test case and it tests it for you on various devices and browsers.
+
+  2- The other option is Casper.js "Which will need a separate server and to integrate with CI tools" and it tests with webkit and gecko on various screen sizes.
+
+  I want to ask about the benefits I get If I made the self coded/hosted frontend testing, anyone tried one of these paid services?
+  Can someone recommend something he's really comfortable with ?
+from:
+  name: Muhammad Negm
+  id: '10215093583796418'
+type: status
+created_time: '2015-03-21T22:15:56+0000'
+updated_time: '2015-03-21T22:15:56+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/913050912067951/
+id: '172338516139198_913050912067951'

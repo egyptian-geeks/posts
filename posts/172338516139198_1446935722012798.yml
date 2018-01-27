@@ -1,0 +1,51 @@
+---
+message: |-
+  I have a few questions for the experienced web developers out there. I plan to start on a web based project and i need some advice as I'm going to be the only one working on it for a while, i've been using Node.JS for a couple of small projects, side projects and paid but i have some concerns about how it would scale out, i'm quite a beginner in programming (i started maybe 1.5 years ago with C), I've faced some problems with the synchronous logic of Node but not something that i wasn't able to overcome. Is node a good tool to start out a big project on? Specially since I'm probably going to use relational databases.
+
+  Also for the front end, the biggest i've used is Jade/EJS coupled with css, is learning a framework like vue.js or react necessary? would it make my life easier in the developing process?
+
+  And for the last bit, i want what i make to be secure, what would be a good resource on making good security measurements in my code? Thanks for reading!
+from:
+  name: Omar Wagih
+  id: '1804876806478909'
+type: status
+created_time: '2017-04-08T14:32:38+0000'
+updated_time: '2017-04-08T22:48:32+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1446935722012798/
+id: '172338516139198_1446935722012798'
+reactions:
+  data:
+  - id: '1793040840748253'
+    name: Hossam Mohammed
+    type: LIKE
+  - id: '1791452377571672'
+    name: Mohammed Alaa El Komy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhNamN3TmpReE5ETTVPakUwT1RFMk9UQTNNamM2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXhNakEzT0RJM05EWXdPakUwT1RFMk5qSXpOelU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-04-08T15:18:40+0000'
+    from:
+      name: Mohamed Abdelghani
+      id: '1854642424546313'
+    message: 1. focus on selecting an architecture(depends on project size & complexity).    2.
+      Your architecture should not be driven by the languages or technologies you
+      already know.   3. select your tools (consider the tools you are familiar with.
+      Is it worth to learn a new language?) .....remember that a good architecture
+      will save your time and effort.
+    id: '1446976435342060'
+  - created_time: '2017-04-08T22:36:01+0000'
+    from:
+      name: Hossam Mohammed
+      id: '1793040840748253'
+    message: Why you said 'especially I'm probably going to use relational databases'  how
+      is that related to the programming language you used. I think this something
+      related to DBMS. I am also a newbie so this is why I am asking
+    id: '1447414721964898'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEwTmprM05qUXpOVE0wTWpBMk1Eb3hORGt4TmpZAME56SXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEwTnpReE5EY3lNVGsyTkRnNU9Eb3hORGt4Tmprd09UWXgZD

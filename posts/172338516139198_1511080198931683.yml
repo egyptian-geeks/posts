@@ -1,0 +1,147 @@
+---
+message: |-
+  ده بروجكت كنت عملته من فتره لغرض تعليمى بإنى افهم شوية حاجات فى Docker,  كنت مسميه Droxy اختصار Docker+Proxy وخلاصته كالتالى:
+  انه يكون عباره عن reverse proxy بين ال public traffic وبين ال docker containers بإنه يستخدم الاسم الخاص بكل container ع انه هو ال Host المطلوب فى ال request ..
+  زى nginx-docker-proxy
+  ----
+   المره دى حدثته وطورت عليه وخليته كالتالى:
+  - realtime service discovery (listening on docker events)
+  - بتقدر تحدد أكتر من هوست نيم للكونتينر الواحد, وتقدر تحدد لكل هوست نيم البورت (الداخلى) اللى هيروح عليه الريكوست .
+  - تقدر تستخدم ال wildcards فى تحديد الهوست نيم
+  - تقدر تحدد كمان الهوست نيم اللى هيشتغل كـ HTTPS وهتكون auto معتمد على Let'sEncrypt ..
+  - لو أكتر من كونتينر ليهم نفس الهوست نيم, فى الحاله دى خليته ميعملش override لكن خليته يستخدم ال containers دى كــ backends فعليه للهوست نيم ويعمل بينهم load balancing فإعتمدت على roundrobin كــ algorithm ..
+  ----
+  المفروض بصيت على nginx-docker-proxy عشان ازود الحاجات اللى مش فيه, زى مثلا موضوع إن كل هوست تقدر تحدد له بورت مخصص, يروح عليه الريكوست وده بعد ماشوفت issue له ع github, وبردو إنه يكون portable,
+  ----
+  كاتبه بــ Go, وعامل له Cross Compiling لــ windows, mac & linux
+  ومستخدم UPX عشان اضغط الناتج ..
+  ----
+  لينك البروجكت من هنا:
+  https://github.com/alash3al/droxy
+  ----
+  ده كمان بروجكت اسمه httpsify كل مهمته انه يــ handle ال https requests ويستخدم let's encrypt عشان يدى valid ssl cert , بعدين يبعت الريكوست لل backend ,
+  https://httpsify.alash3al.xyz
+from:
+  name: Mohammed Al Ashaal
+  id: '965203406986813'
+type: status
+created_time: '2017-06-10T12:47:08+0000'
+updated_time: '2017-06-11T03:01:50+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1511080198931683/
+shares:
+  count: 1
+id: '172338516139198_1511080198931683'
+reactions:
+  data:
+  - id: '1382560551854209'
+    name: Mohammad Sakr
+    type: LIKE
+  - id: '10154904189965670'
+    name: Ahmad Alfy
+    type: LIKE
+  - id: '10155063849296345'
+    name: Shaheer Shaheen
+    type: LIKE
+  - id: '10212947071504226'
+    name: Eslam Hamouda
+    type: LIKE
+  - id: '887911344716178'
+    name: Ahmed Ramzy
+    type: LIKE
+  - id: '10156034147089134'
+    name: Haytham Gharabawy
+    type: LIKE
+  - id: '10210872767599497'
+    name: Hazem Gharib
+    type: LIKE
+  - id: '1385664498246611'
+    name: Sayed Said
+    type: LIKE
+  - id: '10155826343095272'
+    name: Mahmoud Moustafa
+    type: LIKE
+  - id: '1780939041979216'
+    name: Mohamed Hamza
+    type: LIKE
+  - id: '1964650613774365'
+    name: Galal Aly
+    type: LIKE
+  - id: '1686052171461238'
+    name: Abdelaziz Ibrahim
+    type: LIKE
+  - id: '1463621953765328'
+    name: Ahmed Mostafa
+    type: LIKE
+  - id: '10156548320540656'
+    name: Mohammad Zekrallah
+    type: LIKE
+  - id: '10155390785003412'
+    name: Ahmed Hamdy Hammad
+    type: LIKE
+  - id: '10155967922169840'
+    name: Ahmed Raafat
+    type: LIKE
+  - id: '10215497581739240'
+    name: Mahmoud Raafat
+    type: LIKE
+  - id: '2036289513285931'
+    name: Ahmed M. Anan
+    type: LIKE
+  - id: '385696705226073'
+    name: Mohamed Ahmed
+    type: LIKE
+  - id: '10155808203230236'
+    name: Tarek Radwan
+    type: LIKE
+  - id: '10155148102196835'
+    name: Mahmoud Atef
+    type: LIKE
+  - id: '10156077256184116'
+    name: Mustafa Gamal
+    type: LIKE
+  - id: '10156218293834924'
+    name: Sherif Alaa Ismael
+    type: LIKE
+  - id: '1826978233987348'
+    name: Khalid Gamil
+    type: LIKE
+  - id: '10209264695408079'
+    name: Muhammad Habib
+    type: LIKE
+  - id: '10157017423792738'
+    name: Ibrahim Zaki
+    type: LIKE
+  - id: '10156125283698615'
+    name: Ahmed G. Elhalwagy
+    type: LIKE
+  - id: '10156115350739764'
+    name: Mahmoud Tantawy
+    type: LIKE
+  - id: '1705137626216795'
+    name: Yarstan Jae
+    type: LIKE
+  - id: '1692815150813994'
+    name: Mahmoud Atef Osman
+    type: LIKE
+  - id: '10156129652479747'
+    name: Radwa Kamal
+    type: LIKE
+  - id: '1776283549051441'
+    name: Karim Ali
+    type: LIKE
+  - id: '1816374988414963'
+    name: Mahmoud Mortda
+    type: LIKE
+  - id: '10208727810672580'
+    name: Ahmed Kamal
+    type: LIKE
+  - id: '10159976784510596'
+    name: Islam Abdelaziz
+    type: LIKE
+  - id: '1955441501387657'
+    name: Bassam Abd Elhamid
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXpNREE0TXpFeE9EYzRPakUwT1RjeU5EY3hNRFk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTNOalUwTnpnNU16RXdPakUwT1Rjd09Ua3pOak02TWpVME1EazJNVFl4TXc9PQZDZD

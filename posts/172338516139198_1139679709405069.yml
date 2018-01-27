@@ -1,0 +1,85 @@
+---
+message: |-
+  عندي مشكله غريبه شويه في الTimeZone علي السيرفر .. السيرفر وقته متظبط علي توقيت مصر و فيه App علي السيرفر المفروض ان وقته يتظبط علي توقيت الامارات بقالي فتره بحاول باكثر من طريقة وموصلتش لحاجه و اخر حاجه عملتها اني بقيت بحول الtimestamp وانا بعمله  echo ولكن المشكله انه فيه فرق توقيت حوالي ساعه الا ربع
+
+  $status->created_at->setTimeZone('Asia/Dubai')->format('G:i:s')
+
+  الوقت بيظهر 17:15:00 و المفروض انه في دبي 18:04:00
+from:
+  name: Ahmed Ashraf
+  id: '930615110434715'
+type: status
+created_time: '2016-05-08T14:07:47+0000'
+updated_time: '2016-05-09T03:09:53+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1139679709405069/
+id: '172338516139198_1139679709405069'
+reactions:
+  data:
+  - id: '1928384107425504'
+    name: Ahmed Hashem
+    type: LIKE
+  - id: '1848749968530776'
+    name: Abd El-Rahman Rafat
+    type: LIKE
+  - id: '1978009525783037'
+    name: Ahmed Magdy
+    type: LIKE
+  - id: '1596110217148252'
+    name: Ahmed Badawy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTNOakUzT1RrMU5UVXdPakUwTmpJM01Ua3lORGM2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlORGM0Tmpnd09EVTJPakUwTmpJM01UWTNNREk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-05-08T14:18:27+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: السيرفر لازم ك hardware clock يبقى utc اتاكد من دي الاول لان ممكن تايم
+      زون مصر تكون +3 ومعمول ورك اراوند  ان  السيرفر مأخر ساعة
+    id: '1139686236071083'
+  - created_time: '2016-05-08T14:26:07+0000'
+    from:
+      name: Eslam Ahmed Ramadan
+      id: '2020473801302639'
+    message: انت شغال صح اعمل فرق التوقيت manual عشان تريح دماغك لان مش كل مشروع هتعمله
+      سيرفر بالتايم بتاعه الا لو المشروع ده ليه سيرفر خاص بيه
+    id: '1139690626070644'
+  - created_time: '2016-05-08T14:38:59+0000'
+    from:
+      name: Asem Saad
+      id: '1803944376324459'
+    message: ma tgeeb ntp server we raya7 nafsak we kolo y sync mnno !
+    id: '1139696219403418'
+  - created_time: '2016-05-08T14:40:21+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: ايه علاقة ntp هنا..  ده تايم متخزن في الداتابيز وعايز يعرضه صح وخلاص
+      بمنطقة توقيت اللي هو عايزها بقى
+    id: '1139697066070000'
+  - created_time: '2016-05-08T14:41:35+0000'
+    from:
+      name: Asem Saad
+      id: '1803944376324459'
+    message: ah ana aftakart anak bt3ml sync lel time men 3la al app we apache we
+      msh zabta m3ak
+    id: '1139697749403265'
+  - created_time: '2016-05-08T14:55:30+0000'
+    from:
+      name: Hamdy Khalil
+      id: '10160159961475500'
+    message: https://en.m.wikipedia.org/wiki/Network_Time_Protocol
+    id: '1139703726069334'
+  - created_time: '2016-05-09T03:09:53+0000'
+    from:
+      name: AbdAllah Khashaba
+      id: '1032800230207501'
+    message: بكل بساطة http://www.w3schools.com/php/func_date_default_timezone_set.asp
+    id: '1140022876037419'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV6T1RZANE5qSXpOakEzTVRBNE16b3hORFl5TnpFM01UQTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUwTURBeU1qZAzNOakF6TnpReE9Ub3hORFl5TnpZAek16azAZD

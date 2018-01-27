@@ -1,0 +1,152 @@
+---
+message: 'Do you still use callbacks in your JavaScript? You probably need to checkout
+  my post about #Promises.
+
+'
+link: http://amrabdulrahman.com/2016/01/26/promises/
+from:
+  name: Amr AbuMuslim
+  id: '10213109008032575'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQAs0qJ3S11rn_81&w=130&h=130&url=https%3A%2F%2Famrabdulrahman.files.wordpress.com%2F2016%2F01%2Fscreen-shot-2016-01-26-at-1-32-49-am.png&cfs=1&_nc_hash=AQD-lnAlMr72f1OB
+created_time: '2016-01-26T11:53:52+0000'
+updated_time: '2016-01-27T21:45:13+0000'
+name: Promises
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1068517833187924/
+id: '172338516139198_1068517833187924'
+reactions:
+  data:
+  - id: '2089650217931552'
+    name: Osama Mohamed
+    type: LIKE
+  - id: '10215070655377585'
+    name: Mahmoud Kandeel
+    type: LIKE
+  - id: '10156266511868081'
+    name: Ahmed Zain Mohammed
+    type: LIKE
+  - id: '10159983815940392'
+    name: Mohamed Redavich Eldehiry
+    type: LIKE
+  - id: '10155854949245944'
+    name: Tarek Amr
+    type: LIKE
+  - id: '1561778180542287'
+    name: Ahmad Hassan Posten
+    type: LIKE
+  - id: '10160073977745637'
+    name: Ahmed Aswani
+    type: LIKE
+  - id: '10205205301673812'
+    name: Ahmed Shawky
+    type: LIKE
+  - id: '1788898074518553'
+    name: Ahmed Abdurrahman
+    type: LIKE
+  - id: '10213508736571002'
+    name: Mohamed Magdy Kassem
+    type: LIKE
+  - id: '1664130103648324'
+    name: Ahmad Ragab
+    type: LIKE
+  - id: '10156125283698615'
+    name: Ahmed G. Elhalwagy
+    type: LIKE
+  - id: '10214233446966524'
+    name: Mostafa Magdy
+    type: LIKE
+  - id: '1944835295781512'
+    name: Ahmed Gamal
+    type: LIKE
+  - id: '10215364474571429'
+    name: أحمد حجاج
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTJOVGszT0RFMU56VXdPakUwTlRRd05UazJPRE02TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRReU16SXpOak0yTVRveE5EVXpPREE1TWpZAd09qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2016-01-26T11:55:25+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: I have to say, your blog design is simple and beautiful, is it a wordpress
+      theme or you did it yourself?
+    id: '1068518306521210'
+  - created_time: '2016-01-26T11:57:03+0000'
+    from:
+      name: Ahmed Gamal
+      id: '1944835295781512'
+    message: hot topic to read ;) but you shoul to send it private firslty y m3lm
+      :D :P
+    id: '1068518869854487'
+  - created_time: '2016-01-26T12:20:57+0000'
+    from:
+      name: Ahmed Abdurrahman
+      id: '1788898074518553'
+    message: |-
+      Nice post indeed.
+      Hot topic, simple illustration & concise coding examples.
+      Keep up the good work.
+    id: '1068526433187064'
+  - created_time: '2016-01-26T12:33:17+0000'
+    from:
+      name: Mohamed Amin
+      id: '2016714868586746'
+    message: "Amr AbuMuslim I just fought with me colleagues whether callbacks are
+      rendered obsolete by Promises or Not :)\n\nthe only takeaway I have against
+      your post is that your saying Promises are for flow control and I think this
+      will be a huge misleading point especially for newly developers in javascript.\n\n
+      Simple promises are designed for dealing with the issue of the absence of certain
+      information at a certain time.\nlike File system access and API calls where
+      you don't have instantly the value so you will have to implement it in the promises
+      way :) \nFor flow control in javascript, we don't have any blocking mechanism
+      (till ES7 async/await which gives a better interface for it) yet we're left
+      with callback functions the only way.. and basically, people uses it as sugar
+      coated syntax but intrinsically promises are just callback functions with events.\nSo
+      I would say that I don't mind using Promises for control flow but I won't agree
+      to name the article \"Do you still use callbacks in your JavaScript? You probably
+      need to checkout my post about #Promises.\"\n\nA great article, Though :)"
+    id: '1068530689853305'
+  - created_time: '2016-01-26T12:35:48+0000'
+    from:
+      name: Ahmed Aswani
+      id: '10160073977745637'
+    message: nice work informative, concise, well formatted, keep on
+    id: '1068532233186484'
+  - created_time: '2016-01-26T17:28:44+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      Well the functions you send to "then" are basically the callbacks, it's just that now nested callbacks have been flattened.
+      The next step here is using the async/await pattern suggested for ECMA Script 7, which (from what I understand) is very similar to what has been implemented in C# 5, you don't have to write any inline functions or reference any functions, behind the scenes all the code after an "await" line gets wrapped into a function and give to the "then" part, so yes it's still the same thing, but you don't see it or have to deal with it :)
+      (and BTW at least in C# 5 you could still combine promises, then you can await the new combined promise)
+    id: '1068665119839862'
+  - created_time: '2016-01-27T21:45:12+0000'
+    from:
+      name: Ahmed Zain Mohammed
+      id: '10156266511868081'
+    message: Cool, I have been ignoring this for some time now, I think it's time
+      to get into it,
+    id: '1069330576439983'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEEyT0RVeE9ETXdOalV5TVRJeE1Eb3hORFV6T0RBNU16STEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEEyT1RNek1EVTNOalF6T1RrNE16b3hORFV6T1RNeE1URXoZD
+attachments:
+  data:
+  - description: Should I read this? If you're a JavaScript developer who still uses
+      callbacks (on either the client side or server side) then this post is for you.
+      If you don't know what Promises are, then you pro...
+    media:
+      image:
+        height: 720
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQClxcKY5ecVV-Uo&w=720&h=720&url=https%3A%2F%2Famrabdulrahman.files.wordpress.com%2F2016%2F01%2Fscreen-shot-2016-01-26-at-1-32-49-am.png&cfs=1&_nc_hash=AQD2NftHufvykIkZ
+        width: 720
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Famrabdulrahman.com%2F2016%2F01%2F26%2Fpromises%2F&h=ATMAtjIpyR0uSmok16OyHZf6uGGKCTlQusgOAzEFHNRegJl8rp1oF3rK0u0oU2e8l8g94GYaF059R-L8eRbAhkBwTJjfnNdJKsgI&s=1&enc=AZNf7jYrES8bKkn8OOsERK0eFbIobSQH1pv59yUmLSnYTTNZ-xhFcOFyUPR_0Lj7zJG2fLYqRsPQcWMFtgEa4Ll6
+    title: Promises
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Famrabdulrahman.com%2F2016%2F01%2F26%2Fpromises%2F&h=ATMAtjIpyR0uSmok16OyHZf6uGGKCTlQusgOAzEFHNRegJl8rp1oF3rK0u0oU2e8l8g94GYaF059R-L8eRbAhkBwTJjfnNdJKsgI&s=1&enc=AZNf7jYrES8bKkn8OOsERK0eFbIobSQH1pv59yUmLSnYTTNZ-xhFcOFyUPR_0Lj7zJG2fLYqRsPQcWMFtgEa4Ll6

@@ -1,0 +1,34 @@
+---
+message: |-
+  I asked this question few days ago and got two answers both not working for me.
+  After days of searching, i got some results and wanna share it with u.
+  https://github.com/HangfireIO  is a perfect solution for a set of reasons.
+  - Saving the scheduled tasks in the database.
+  - availability to cancel re-schedule a task.
+  - provide a dashboard to know the status of each task.
+   and others...
+  scott hanselman has a blog post about other options if u are  interested,  http://www.hanselman.com/blog/HowToRunBackgroundTasksInASPNET.aspx
+link: https://www.facebook.com/groups/egyptian.geeks/permalink/1110917708947936/
+from:
+  name: Ahmed Mohsen
+  id: '946433645509687'
+type: link
+picture: https://scontent.xx.fbcdn.net/v/t1.0-1/p100x100/21317635_887033164783069_565761352711952158_n.jpg?oh=d0a420bb9ec01be2b4c34e409a008a29&oe=5ADA351B
+created_time: '2016-04-09T09:24:19+0000'
+updated_time: '2016-04-09T10:55:49+0000'
+name: Ahmed
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1120528607986846/
+id: '172338516139198_1120528607986846'
+comments:
+  data:
+  - created_time: '2016-04-09T10:08:22+0000'
+    from:
+      name: John Morcos
+      id: '10155638843272182'
+    message: Since you store the tasks on database, why not run the tasks through
+      a scheduled job on SQL Server?
+    id: '1120550877984619'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV5TURVMU1EZAzNOems0TkRZAeE9Ub3hORFl3TVRrMk5UQXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV5TURVMU1EZAzNOems0TkRZAeE9Ub3hORFl3TVRrMk5UQXoZD

@@ -1,0 +1,40 @@
+---
+message: |-
+  من فضلكم
+  محتاج طريقه اعرف بيها MCC/MNC قبل ما ابعت API Request ل SMS Gateway
+  انا بقدر اطلع من الرقم Country+Operator Prefix باستخدام https://github.com/giggsey/libphonenumber-for-php
+
+  فهل فيه طريقه اقدر اعمل بيها MAP  بين الاتنين ؟
+
+  اللي اشتغل عالموضوع ده يا ريت يفيدنا
+from:
+  name: Ahmed Selim
+  id: '10155233612222314'
+type: status
+created_time: '2017-10-24T23:35:07+0000'
+updated_time: '2017-10-25T11:38:54+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1642483399124695/
+id: '172338516139198_1642483399124695'
+reactions:
+  data:
+  - id: '1615436418535535'
+    name: Sabry ALzahar
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlNRGMxTnpZAeE9EVTFPakUxTURnNU5UVTBOVEk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlNRGMxTnpZAeE9EVTFPakUxTURnNU5UVTBOVEk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-10-25T11:38:51+0000'
+    from:
+      name: Met Wally
+      id: '520998054938412'
+    message: |-
+      اولا المفروض اللى بيطلع الرقمين دول ال gateway اللى انت بتتعامل معاها.. مش انت.
+      ولو انت محتاج تعرفهم فهم موجودين على النت.. تاخدهم وتحطهم عندك فى ال داتا بيز وتشتغل بيهم
+    id: '1642993045740397'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkwTWprNU16QTBOVGMwTURNNU56b3hOVEE0T1RNeE5UTXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkwTWprNU16QTBOVGMwTURNNU56b3hOVEE0T1RNeE5UTXgZD

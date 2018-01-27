@@ -1,0 +1,55 @@
+---
+message: |-
+  Has anyone here used Kafka before?
+
+  What do you use it for? Is it any good?
+link: https://kafka.apache.org/
+from:
+  name: Mahmoud Hossam
+  id: '1360912124012585'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQCkBEX7oFyEdICv&w=130&h=130&url=https%3A%2F%2Fkafka.apache.org%2Fimages%2Fkafka_diagram.png&cfs=1&_nc_hash=AQClIO7qw-nbzSTm
+created_time: '2017-01-18T18:35:42+0000'
+updated_time: '2017-01-20T10:53:38+0000'
+name: Apache Kafka
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1358218964217808/
+id: '172338516139198_1358218964217808'
+reactions:
+  data:
+  - id: '10209987525676546'
+    name: مؤمن عبد القادر
+    type: LIKE
+  - id: '10155412453232426'
+    name: Ahmed Ezz El-din
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRVNE56WXdOVE00TlRveE5EZAzBOelk1TWpZAM09qSTFOREE1TmpFMk1UTT0ZD
+      after: TlRRNU9UWXlOREkxT2pFME9EUTNOamMzTWpVNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-01-20T10:53:36+0000'
+    from:
+      name: Ahmed Abdalla
+      id: '10155558213873621'
+    message: |-
+      Disclaimer: This is a simplified and not so correct answer.
+      Kafka is a messaging platform on steroids . It has many use cases. Simplest is that you use it for IPC (i.e. communication between different processes, i.e different services running on different machines.). It's very powerful as it's very performant (can handle very high load of messages) and is fault tolerant (e.g. you can run many kafka brokers "instances" and if one died the system still works). And you can write messages to kafka (writers are called producers) and read messages from kafka (readers are called consumers).
+    id: '1359846904055014'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0xT1RnME5qa3dOREExTlRBeE5Eb3hORGcwT1RBNU5qRTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0xT1RnME5qa3dOREExTlRBeE5Eb3hORGcwT1RBNU5qRTIZD
+attachments:
+  data:
+  - description: 'Apache Kafka: A Distributed Streaming Platform.'
+    media:
+      image:
+        height: 720
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQD17rjahMbforSz&w=720&h=720&url=https%3A%2F%2Fkafka.apache.org%2Fimages%2Fkafka_diagram.png&cfs=1&_nc_hash=AQBwbYMDIuZd8eQC
+        width: 720
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fkafka.apache.org%2F&h=ATNZXghbZuFa19K_DKfN1iIq0YIsrVMJd9RKet7gBV4XNzA4VN5dsxCV6jY4e9qSZ102IOHcVccAsdT3UYss67ObZkNSrin33JNx&s=1&enc=AZNXoHNSc3xJUYELMTqPKsqlmIpUSRbLYJoZG2XcLHE_X6aZm8sXN0uzczn5QfvIVnqxa9qliKO7X6bQW2_thv3E
+    title: Apache Kafka
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fkafka.apache.org%2F&h=ATNZXghbZuFa19K_DKfN1iIq0YIsrVMJd9RKet7gBV4XNzA4VN5dsxCV6jY4e9qSZ102IOHcVccAsdT3UYss67ObZkNSrin33JNx&s=1&enc=AZNXoHNSc3xJUYELMTqPKsqlmIpUSRbLYJoZG2XcLHE_X6aZm8sXN0uzczn5QfvIVnqxa9qliKO7X6bQW2_thv3E

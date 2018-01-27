@@ -1,0 +1,46 @@
+---
+message: |-
+  I made this selector $('ul.links li a') with jQuery; to load content of the page using a AJAX. The problem is when I select the parent of this selector to add a class, I get array of list items
+
+  http://codepen.io/Magneto10/pen/gLaROZ
+from:
+  name: Hosam Shafik
+  id: '2052010548351299'
+type: status
+created_time: '2016-11-09T12:25:53+0000'
+updated_time: '2016-11-09T14:57:59+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1287134031326302/
+id: '172338516139198_1287134031326302'
+reactions:
+  data:
+  - id: '1596110217148252'
+    name: Ahmed Badawy
+    type: HAHA
+  paging:
+    cursors:
+      before: TVRBd01EQXlORGM0Tmpnd09EVTJPakUwTnpnNE5EQTJNalk2TnpnNE5qUTRNRE0zT1RFek16RXkZD
+      after: TVRBd01EQXlORGM0Tmpnd09EVTJPakUwTnpnNE5EQTJNalk2TnpnNE5qUTRNRE0zT1RFek16RXkZD
+comments:
+  data:
+  - created_time: '2016-11-09T12:32:30+0000'
+    from:
+      name: Ibraheem Osama
+      id: '10155206310513093'
+    message: |-
+      instead of console.log(link.parent('li')); use console.log($(this).parent('li'));
+
+      This selector $('ul.links li a') retrieves a list and this is normal :) in the event use this not the link variable to refer to the clicked Anchor
+    id: '1287139711325734'
+  - created_time: '2016-11-09T14:57:57+0000'
+    from:
+      name: Ibraheem Osama
+      id: '10155206310513093'
+    message: |-
+      What load method does: Load data from the server and place the returned HTML into the matched element.
+      Which means that to take plain html and use it. you should remove .col-md-9 from the called page html.
+      Also the way you're using this isn't the best there are many frameworks that do what you want to achieve like angular routing etc.
+    id: '1287246767981695'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEk0TnpFek9UY3hNVE15TlRjek5Eb3hORGM0TmprME56VXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEk0TnpJME5qYzJOems0TVRZANU5Ub3hORGM0TnpBek5EYzMZD

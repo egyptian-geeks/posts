@@ -1,0 +1,53 @@
+---
+message: Some of us might suffer from this, but it seems there is a logic behind.
+link: https://en.wikipedia.org/wiki/TCP_congestion_control#Slow_start
+from:
+  name: Ahmed Kamal
+  id: '10208727810672580'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQBDoLUaXS7CUp_f&w=130&h=130&url=https%3A%2F%2Fen.wikipedia.org%2Fstatic%2Fimages%2Fpoweredby_mediawiki_88x31.png&cfs=1&_nc_hash=AQB1mIeS58fDpfsM
+created_time: '2016-09-19T16:27:06+0000'
+updated_time: '2016-09-19T17:34:46+0000'
+name: TCP congestion control - Wikipedia, the free encyclopedia
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1236208029752236/
+id: '172338516139198_1236208029752236'
+reactions:
+  data:
+  - id: '1965907793738864'
+    name: Mustafa Qamaruddin
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTVOVGc1T0RjM09UWXdPakUwTnpRek1ESTRPRFE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTVOVGc1T0RjM09UWXdPakUwTnpRek1ESTRPRFE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-09-19T16:55:14+0000'
+    from:
+      name: Khaled M. Diab
+      id: '10215626626127168'
+    message: |-
+      How do you suffer from slow-start? unless your connection lasts for < 20-30 RTT?
+
+      generally, congestion control in tcp is engineered to work with most of the networks (e.g., it has problems with wireless networks; it deals with medium loss as congestion).. so, some applications may suffer from these algorithms but (I think) most of these problems have workarounds (at the application level)...
+    id: '1236227729750266'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl6TmpJeU56Y3lPVGMxTURJMk5qb3hORGMwTXpBME1URTEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl6TmpJeU56Y3lPVGMxTURJMk5qb3hORGMwTXpBME1URTEZD
+attachments:
+  data:
+  - description: Transmission Control Protocol (TCP) uses a network congestion-avoidance
+      algorithm that includes various aspects of an additive increase/multiplicative
+      decrease (AIMD) scheme, with other schemes such as slow-start and congestion
+      window to achieve congestion avoidance. The TCP congestion-avoidance alg...
+    media:
+      image:
+        height: 31
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQDoaxsLdWXdlzqT&w=720&h=720&url=https%3A%2F%2Fen.wikipedia.org%2Fstatic%2Fimages%2Fpoweredby_mediawiki_88x31.png&cfs=1&_nc_hash=AQBmFOlCtZA-WY-M
+        width: 31
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTCP_congestion_control%23Slow_start&h=ATMhMCAT9e1JQKWp5iNw2V-pD1ow6fAQJRqW6gzfBUSwiqfz1O96nj-KbaCJfWshpy1hLIfBKoKdRnARjSFV8efkbAChluBn1xCX&s=1&enc=AZPiVhGCrnOVwCiR7TuzTaUAucuIA9UUhHc8uEuaaGDnVwCl8V9turje6Mw_0M9nrEp4arhgXiXb5A2nhQjnwJp3
+    title: TCP congestion control - Wikipedia, the free encyclopedia
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTCP_congestion_control%23Slow_start&h=ATMhMCAT9e1JQKWp5iNw2V-pD1ow6fAQJRqW6gzfBUSwiqfz1O96nj-KbaCJfWshpy1hLIfBKoKdRnARjSFV8efkbAChluBn1xCX&s=1&enc=AZPiVhGCrnOVwCiR7TuzTaUAucuIA9UUhHc8uEuaaGDnVwCl8V9turje6Mw_0M9nrEp4arhgXiXb5A2nhQjnwJp3

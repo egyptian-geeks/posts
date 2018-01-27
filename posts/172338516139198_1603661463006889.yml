@@ -1,0 +1,57 @@
+---
+message: |-
+  i want to ask if i have a restful  backend and delivers Json format  ...  and angularJS client Consumes this restful back end  .....      what l
+  kinds of authentication/security techniques i could use to protect my Back end  from others to use it  (BE / Client Authentication techniques and ideas
+  )
+from:
+  name: Amr Abd El Latief
+  id: '1594051947344558'
+type: status
+created_time: '2017-09-10T21:04:42+0000'
+updated_time: '2017-09-12T06:47:26+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1603661463006889/
+id: '172338516139198_1603661463006889'
+reactions:
+  data:
+  - id: '1007081899439865'
+    name: Ali Othman
+    type: LIKE
+  - id: '1723960827662084'
+    name: Muhammad Refaat
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTBNVFF4T1RNME56RTVPakUxTURVd09EWXpOakU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXhORFExTlRFd016TTVPakUxTURVd056YzFORFk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-09-10T21:08:37+0000'
+    from:
+      name: Ahmed Elhadi
+      id: '2100856430150634'
+    message: This maybe helpful https://www.owasp.org/index.php/REST_Security_Cheat_Sheet
+    id: '1603663439673358'
+  - created_time: '2017-09-10T21:13:26+0000'
+    from:
+      name: Muhammad Refaat
+      id: '1723960827662084'
+    message: "You have to go with Oauth2 using Password Flow.\nThis is an example
+      demonstrates spring rest with oauth2 \nhttp://www.baeldung.com/rest-api-spring-oauth2-angularjs\nThis
+      is an article simplify the four grant for oauth2\n https://www.slideshare.net/mobile/rohitsghatol/oauth-20-simplified"
+    id: '1603665749673127'
+  - created_time: '2017-09-10T21:36:03+0000'
+    from:
+      name: Mohamed Gamal
+      id: '10156096685587328'
+    message: I would go for basic authentication + https
+    id: '1603677613005274'
+  - created_time: '2017-09-12T06:47:22+0000'
+    from:
+      name: Hassan M. Amin
+      id: '10216074172673746'
+    message: using JWT worked perfectly in most of my apps
+    id: '1604781362894899'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl3TXpZAMk16UXpPVFkzTXpNMU9Eb3hOVEExTURjM056RTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl3TkRjNE1UTTJNamc1TkRnNU9Ub3hOVEExTVRrNE9EUXoZD

@@ -1,0 +1,198 @@
+---
+message: انا شغال علي web application لمشروع تخرجي ومحتاج create database tables on
+  the fly و هايبقي فيه relationship بينهم و بين tables موجوده من البدايه. انا بستخدم
+  java و hibernate حد عنده تصور حاجه زي كده مممن تتعمل ازاي ؟؟ يعني ال entity modelling
+  هعمل مثلا ال mapping بتاعه ازاي وانا مش عارف اسم ال tables من البدايه ( انا هابقي
+  عارف جزئ من اسم الجدول عشان هايبقي مثلا X + random number فا انا هابقي عارف ال X
+  من البدايه بس ال random number هابقي عارفه وقت ال runtime ) انا فكرت انه الجزئ ده
+  اشتغله ب JDBC عادي جدا مش ب hibernate بس ده هاينزلني low level و هابقي محتاج اركز
+  في حاجات ماكنتش بحتاج اكز فيها وانا شغال ب ORM. وهل لو ده مش ممكن انه يتعمل ب sql
+  database هل ال non sql databases ممكن تقدملي حاجه قريبه من كده شويه ؟؟
+from:
+  name: Amgd Gocha
+  id: '10212650036184692'
+type: status
+created_time: '2017-04-10T21:03:23+0000'
+updated_time: '2017-04-11T14:50:55+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1449548998418137/
+id: '172338516139198_1449548998418137'
+reactions:
+  data:
+  - id: '2235125430048507'
+    name: Mohamed Khalaf
+    type: LIKE
+  - id: '1747086688656435'
+    name: Mohamed Matloub
+    type: LIKE
+  - id: '1999765416908747'
+    name: Ahmed Khalifa
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTJOVE15TVRVeE1EY3lPakUwT1RFNU9EWTJNVFE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTJNalU1TWpNNE9EVXlPakUwT1RFNE5qQTFOakU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-04-10T21:13:56+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: Store the output of the method that generates the Random Number(s) in
+      variables or array!
+    id: '1449555738417463'
+  - created_time: '2017-04-10T21:27:36+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: حاول تعيد النظر في تصميم المشكلة، نادرا جدا لما بيبقى حل المشكلة انك
+      تغير تصميم او تخلق جداول جديدة في ال runtime بالعكس انا بحس انك لو وصلت للنقطة
+      دي معنى كده ان التصميم بتاعك ٩٩٪‏ خطأ
+    id: '1449564401749930'
+  - created_time: '2017-04-10T21:31:45+0000'
+    from:
+      name: Ibrahim Zaki
+      id: '10157017423792738'
+    message: "الداتا مودل بتاعك إما إنه غلط بنسبة كبيرة \nأو تطبيقك مينفعش معاه rdbms
+      سعتها لازم تشوف nosql"
+    id: '1449568045082899'
+  - created_time: '2017-04-10T21:38:15+0000'
+    from:
+      name: عبدالله محمد
+      id: '10213101784151931'
+    message: اعتقد انت محتاج حاجة شبه مبدأ الDataFrame هى موجوده python و Scala
+    id: '1449571951749175'
+  - created_time: '2017-04-10T21:52:44+0000'
+    from:
+      name: Karim Tawfik
+      id: '10159730660210062'
+    message: in such case, if you are 100% sure that you can't design it with a predefined
+      schema, so I think nosql is your choice
+    id: '1449585035081200'
+  - created_time: '2017-04-10T21:58:10+0000'
+    from:
+      name: Amgd Gocha
+      id: '10212650036184692'
+    message: هو الفكره انه هايبقى system كبير بيـ control subsystems تانيه فا كل user
+      هايخش يختار system template موجود فعلا و ممكن يعمل فيه شوية customization محدوده
+      و بعدين يحصل لل subsystem ده deployment عادى جدا فا انا فكرت انه اخلى مع كل
+      subsystem جديد الجداول بتاعته تتكون منفصله عن اى subsystem تانى موجود بحيث انه
+      يبقى فيه isolation لكل واحد عن التانى و عشان كمان انا عندى مشكله انه اصلا مش
+      هابقى عارف الstructure الكامل للsubsystem ده بسبب ال user customization فا مش
+      هقدر انى مثلا اخلي كل ال subsystems اللى زى بعض يتحطوا فى نفس الtables و اخلى
+      مثلا فيه key column كده بيحددلى كل row يخص انه system
+    id: '1449588485080855'
+  - created_time: '2017-04-10T22:05:04+0000'
+    from:
+      name: Ahmed Ali Salim
+      id: '10154903513366315'
+    message: Ahmed Gamal .. u told me u did something like that before
+    id: '1449592271747143'
+  - created_time: '2017-04-10T22:23:52+0000'
+    from:
+      name: Amgd Gocha
+      id: '10212650036184692'
+    message: هو من الواضح انه فيه اجماع على انه ال تصميم بتاعى مش احسن حاجه...لو حد
+      عنده اقتراحات يا ريت يقولها
+    id: '1449602961746074'
+  - created_time: '2017-04-10T22:32:47+0000'
+    from:
+      name: Yousef Al Kahky
+      id: '1624177287670190'
+    message: Ayman Ali ممكن تساعده لانك عامل نفس الفكره
+    id: '1449607428412294'
+  - created_time: '2017-04-11T00:06:44+0000'
+    from:
+      name: Ghoneim
+      id: '10159878140790481'
+    message: forget about relations (Cassandra), or change your model!
+    id: '1449662271740143'
+  - created_time: '2017-04-11T01:02:38+0000'
+    from:
+      name: Ahmed Aboulenein
+      id: '10160047384135438'
+    message: 'If some of your attributes/columns are determined dynamically through
+      user administration, best thing to use for this is something that support this
+      behaviour such as NoSQL database. A better solution I''d suggest from my experience
+      is using PostgreSQL and JSON column. This guys did an awesome job supporting
+      non-structured data and JSON in relational database so you get the best of both
+      worlds. You can make a SQL query on a JSON elements values. Have a look here:
+      https://www.postgresql.org/docs/9.5/static/functions-json.html'
+    id: '1449699048403132'
+  - created_time: '2017-04-11T03:29:47+0000'
+    from:
+      name: Haitham Shaddad
+      id: '1591171607636188'
+    message: قبل مانقول تعملها ازاي قولنا عايز تعملها ليه عشان نقدر نساعدك
+    id: '1449802395059464'
+  - created_time: '2017-04-11T03:39:46+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: I also see a lot of people jumping with go NoSQL advice, that's not a
+      good advice folks, without knowing a lot about what the problem is, you can't
+      just blindly use a NoSQL db, you can really get in trouble.
+    id: '1449808828392154'
+  - created_time: '2017-04-11T06:22:12+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: احتمال تكون اخترت حل غلط لمشكلتك من الأساس، اقترح عليك توصف المشكلة من
+      الاول في البوست و بعدين تقول ليه طلعت بحل انك تعمل جداول جديدة في ال runtime
+    id: '1449930585046645'
+  - created_time: '2017-04-11T06:24:58+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: If your Data is highly relational that's scary, if you need to create
+      tables on the fly you better delete the code and start again
+    id: '1449931715046532'
+  - created_time: '2017-04-11T06:55:49+0000'
+    from:
+      name: Khaled Mohammad Soradi
+      id: '10155226291231186'
+    message: |-
+      اللي انا شايفه ببساطه انك المفروض تستخدم اسلوب meta data يعني data about data
+      يعني مثلا لو عندك انك هتحتاج تعمل جداول اثناء ال runtime لأنهم مش شبه بعض ومثلا هيكون عندك الجداول دي
+      Table1
+      ---------------
+      name nvarchar
+      gender bit
+      phone nvarchar
+
+      Table2
+      ---------------
+      location nvarchar
+      email nvarchar
+      age int
+
+      etc
+      وتقعد تعمل جدول لكل واحد ممكن بدل كده تعمل جدول للخصائص زي مثلا
+      AttributesTable
+      ---------------
+      id
+      TableID
+      AttributeName
+      AttributeType
+
+      وتعمل جدول تاني تحط فيه الداتا نفسها وتربطه على جدول التعريفات AttributesTable زي مثلا
+      TablesData
+      ---------------
+      attributeID
+      AttValue
+
+      وساعتها ممكن تخلي ال attValue بنوع واحد زي object وانت تحوله وانت بتقراه بحسب اللي جاي لك من جدول AttributesTable وبكده كل مره بدل ما هتحتاج تضيف جدول جديد حتحتاج بس تضيف في AttributesTable التعريفات بتاعة الجدول ده وتضيف الداتا في الجدول بتاع TablesData
+    id: '1449954781710892'
+  - created_time: '2017-04-11T08:22:49+0000'
+    from:
+      name: Mohammed Ragab
+      id: '2020898428198432'
+    message: اعتقد انك لو بتتكلم عن dynamic data او unexpected data زى مثلا خصائص
+      ال items على خلاف انواعها زى مثلا عرض بيانات عن كاتجورى cars وكذلك عرض بيانات
+      عن كاتجورى تانى له خصائص مختلفة انت ممكن تستخدم dynamic table , key pair value
+      وتقدر كمان تحدد لكل Key من دول الكنترول المناسب له فى ui وتعيش مع الجدول دا
+      وتقرأ منه البيانات وتخزنها وتربطها بال item نفسه كخصائص
+    id: '1450001381706232'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEwT1RVMU5UY3pPRFF4TnpRMk16b3hORGt4T0RVNE9ETTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFExTURBd01UTTRNVGN3TmpJek1qb3hORGt4T0RrNE9UWTUZD

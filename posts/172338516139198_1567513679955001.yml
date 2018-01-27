@@ -1,0 +1,87 @@
+---
+message: I need recommendations for data storage solution/service for a small business,
+  by a small business I mean no need for large capacity, the focus is on an easy and
+  reliable access to the data
+from:
+  name: Rawan El-Kady
+  id: '403224096791519'
+type: status
+created_time: '2017-08-03T23:03:26+0000'
+updated_time: '2017-08-06T10:53:09+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1567513679955001/
+id: '172338516139198_1567513679955001'
+comments:
+  data:
+  - created_time: '2017-08-03T23:10:15+0000'
+    from:
+      name: Fady Nessim
+      id: '1276866395790488'
+    message: For backup solution or something else
+    id: '1567517109954658'
+  - created_time: '2017-08-03T23:12:05+0000'
+    from:
+      name: Mustafa Adel
+      id: '2070620612955672'
+    message: Cloud
+    id: '1567518129954556'
+  - created_time: '2017-08-03T23:51:53+0000'
+    from:
+      name: Mina YM
+      id: '10156157323332990'
+    message: S3
+    id: '1567542029952166'
+  - created_time: '2017-08-04T00:48:10+0000'
+    from:
+      name: Ahmad Hisham
+      id: '10159889607765058'
+    message: S3 is the best, but not the cheapest
+    id: '1567581959948173'
+  - created_time: '2017-08-04T00:55:13+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: |-
+      use digitalocean, and setup your own cloud with one click you will have 20GB++ of online storage that automaticly sync all clients..
+      https://owncloud.org/ [A safe home for all your data, Access & share your files, calendars, contacts, mail & more from any device, on your terms
+    id: '1567586289947740'
+  - created_time: '2017-08-04T02:58:44+0000'
+    from:
+      name: Mina William
+      id: '1958972070797083'
+    message: |-
+      aws gives 1 year for free (1 ec2 machine and  5GB S3 bucket)
+       https://calculator.s3.amazonaws.com
+    id: '1567662949940074'
+  - created_time: '2017-08-04T04:03:33+0000'
+    from:
+      name: Ahmed Aboulenein
+      id: '10160047384135438'
+    message: What data size do you need? How are you going to use? Is it for sharing
+      files between users or for software programs to access them?
+    id: '1567696959936673'
+  - created_time: '2017-08-04T04:21:22+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Firebase
+    id: '1567708336602202'
+  - created_time: '2017-08-06T09:35:09+0000'
+    from:
+      name: Asem Saad
+      id: '1803944376324459'
+    message: |-
+      There is nothing reliable and cheap , and mostly you are looking RAID and clustering, keep in mind replication of data reqiure alot of space especially if you are looking for recovery,
+       Any storage that can provide RAID 1+0 or RAID 10 should be fast and reliable
+    id: '1570037346369301'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUyTnpVeE56RXdPVGsxTkRZAMU9Eb3hOVEF4T0RBeE9ERTEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUzTURBek56TTBOak0yT1RNd01Ub3hOVEF5TURFeU1UQTUZD
+attachments:
+  data:
+  - target:
+      id: '330552640725332'
+      url: https://www.facebook.com/groups/egyptian.geeks/permalink/1567513679955001/
+    title: Recommendations
+    type: place_list
+    url: https://www.facebook.com/groups/egyptian.geeks/permalink/1567513679955001/

@@ -1,0 +1,69 @@
+---
+message: عايز اعمل موقع بيتيح اني اشحن رصيد من الفيزا اونلاين، عايز اعرف الشركات بتاعة
+  الاتصالات ايه الapi's اللي بيقدموها وبتشتغل بايه. وهل لازم استخدم الpayfort فالدفع
+  ولا ممكن يكون في خدمات تانية ؟؟ دورت فمواقع الشركات نفسها ملقيتش حاجة قوي. وصلت
+  لحاجات بس مش واضحة
+from:
+  name: Hossam Mohammed
+  id: '1793040840748253'
+type: status
+created_time: '2017-06-03T23:24:45+0000'
+updated_time: '2017-06-04T15:19:25+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1502829936423376/
+shares:
+  count: 1
+id: '172338516139198_1502829936423376'
+reactions:
+  data:
+  - id: '10155729838410546'
+    name: Ahmed Abousamra
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRjNU5URXdOVFExT2pFME9UWTFOalUxTVRFNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRjNU5URXdOVFExT2pFME9UWTFOalUxTVRFNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-06-03T23:26:49+0000'
+    from:
+      name: Mohamed Rashad
+      id: '10215302194328517'
+    message: "دور عالPayment Gateways بتاعتهم \U0001F603"
+    id: '1502830853089951'
+  - created_time: '2017-06-03T23:32:45+0000'
+    from:
+      name: Osama Mahmoud
+      id: '10155859631366413'
+    message: لو انا فاهم صح يبقي ديه سلعه انت بتبعها زيها زي اي حاجه يتتباع اون لاين
+      يبقي دور علي حاجه اسمها merchant account
+    id: '1502837569755946'
+  - created_time: '2017-06-03T23:34:58+0000'
+    from:
+      name: Ahmed Melege
+      id: '10156112171242375'
+    message: الناس ممكن تشحن عن طريق مواقع شركات المحمول بالفيزا وكمان عن طريق myfawry.com
+      اعتقد مش هتكون مجدية معاك الفكرة
+    id: '1502840246422345'
+  - created_time: '2017-06-03T23:35:56+0000'
+    from:
+      name: Hesham Desouky
+      id: '10215011048531592'
+    message: |-
+      It is all about payment gateways. The problem is you have very limited options that support money transfer to Egypt.
+      Payfort is good if you are going to charge customers with your local currency like EGP and SAR. But this limitation will hold your from offering services outside the regions​
+      You can use PayPal​, but your customers should.pay you using PayPal.
+      Or you can use another service like 2checkout.com which support direct payment using credit cards and transfer you the funds using wire transfer
+    id: '1502841366422233'
+  - created_time: '2017-06-04T12:32:05+0000'
+    from:
+      name: Ahmed Abumostafa
+      id: '10155050597761603'
+    message: "ممكن تنسي خالص شركات المحمول وتشوف الناس بتوع السنترال بيشتغلوا ازاي.
+      \nيعني بيكون عندك خط اسمه شحن ع الهوا وفي كود بتبعته وبتستقبل الرد. \nانا شفت
+      محلات موبيلات عندها سوفتوير ع الكمبيوتر بيعمل نفس الفكرة فاكيد ممكن تعملها ومتبعد
+      عن شركات المحمول وال apis دا لو كان عندهم"
+    id: '1503717706334599'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV3TWpnek1EZAzFNekE0T1RrMU1Ub3hORGsyTlRNeU5ERXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV3TXpjeE56Y3dOak16TkRVNU9Ub3hORGsyTlRjNU5USTEZD

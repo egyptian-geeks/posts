@@ -1,0 +1,110 @@
+---
+message: |-
+  Guys, do you really use PUT and DELETE in your APIs ?
+  I know it's the right thing to use them and bla bla bla.. , but do you use them usually ?
+from:
+  name: Mohamed Gamal
+  id: '10156096685587328'
+type: status
+created_time: '2016-10-10T18:06:31+0000'
+updated_time: '2016-10-10T19:44:49+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1254332584606447/
+id: '172338516139198_1254332584606447'
+reactions:
+  data:
+  - id: '895970407247426'
+    name: Ahmad Magdy
+    type: LIKE
+  - id: '1582199678525921'
+    name: Ahmed Abdallah
+    type: LIKE
+  - id: '1466247800164499'
+    name: Mosaab Ahmed
+    type: LIKE
+  - id: '2096764887006623'
+    name: Abdalla Elnaggar
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTFNRE0wTWpRME5UQTBPakUwTnpZAeE16QTVNalE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXdNVGt6T1RZAd016SXhPakUwTnpZAeE1qVXpOekE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-10-10T18:10:03+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: Sometimes Put, but I never used DELETE to be honest.
+    id: '1254334121272960'
+  - created_time: '2016-10-10T18:10:31+0000'
+    from:
+      name: Ahmed Hassan
+      id: '10156284492809497'
+    message: You need to use them if you want your APIs to be truly RESTful
+    id: '1254334471272925'
+  - created_time: '2016-10-10T18:15:16+0000'
+    from:
+      name: Mahmoud Hossam
+      id: '1360912124012585'
+    message: elasticsearch uses them http://joelabrahamsson.com/elasticsearch-101/
+    id: '1254336717939367'
+  - created_time: '2016-10-10T18:49:02+0000'
+    from:
+      name: Ahmed Galal
+      id: '1765957880089973'
+    message: |-
+      Get: person/id get object
+      Post: person/ add object
+      Put: person/ID update object
+      Delete: person/ID delete object
+    id: '1254357747937264'
+  - created_time: '2016-10-10T18:55:18+0000'
+    from:
+      name: Abdelrahman Ghareeb
+      id: '10155827364301005'
+    message: Umm yes, how would you build a restful API without them and do CRUD operations?
+    id: '1254363034603402'
+  - created_time: '2016-10-10T18:56:46+0000'
+    from:
+      name: Mostafa Muhammad
+      id: '10155787111376210'
+    message: "I do use all of them and the corresponding HTTP statuses for reaponse
+      \nMostly for OCD purposes. \U0001F604"
+    id: '1254364157936623'
+  - created_time: '2016-10-10T19:17:42+0000'
+    from:
+      name: Tony Raoul Iscaros
+      id: '10156165643313420'
+    message: I don't understand why wouldn't you ?   Always using them in crud and
+      few times in other stuff
+    id: '1254380674601638'
+  - created_time: '2016-10-10T19:31:16+0000'
+    from:
+      name: Islam Gad
+      id: '10208513681277868'
+    message: I do \o/ Best practice man .. DELETE -> 204 when success
+    id: '1254389231267449'
+  - created_time: '2016-10-10T19:38:56+0000'
+    from:
+      name: Ahmed AL-Graihy
+      id: '10212862741738217'
+    message: definitely, I use it for CRUD operations mainly
+    id: '1254392597933779'
+  - created_time: '2016-10-10T19:40:08+0000'
+    from:
+      name: Mohannad Ali
+      id: '10155955385444519'
+    message: "+1 on what everyone has said, also equally important returning proper
+      HTTP status codes"
+    id: '1254393237933715'
+  - created_time: '2016-10-10T19:44:44+0000'
+    from:
+      name: Omar Abdel-Wahab
+      id: '10155833419566368'
+    message: 'Yes indeed. We use most of the HTTP verbs except PATCH: HEAD, OPTIONS,
+      GET, POST, PUT and DELETE.'
+    id: '1254395184600187'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkxTkRNek5ERXlNVEkzTWprMk1Eb3hORGMyTVRJek1EQXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkxTkRNNU5URTRORFl3TURFNE56b3hORGMyTVRJNE5qZAzAZD

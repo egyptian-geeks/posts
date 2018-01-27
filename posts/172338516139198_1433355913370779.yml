@@ -1,0 +1,29 @@
+---
+message: "SA,\nDoes anyone have experience with LDAP (especially ldapjs) ?\nI have
+  noticed that the ldap server disconnects every x minutes, so I provided \"reconnect\"
+  option to the client, and subscribed to the client's error handler.\nNow the client
+  reconnects to the server whenever it disconnects.\nIs that good programming practice?
+  Are there any alternatives? \nThanks in advance."
+from:
+  name: Mohamed Gamal
+  id: '10156096685587328'
+type: status
+created_time: '2017-03-26T16:51:51+0000'
+updated_time: '2017-03-26T17:28:17+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1433355913370779/
+id: '172338516139198_1433355913370779'
+comments:
+  data:
+  - created_time: '2017-03-26T16:59:04+0000'
+    from:
+      name: Hisham Fangary
+      id: '10156660518155839'
+    message: The fact that it disconnects every few minutes is an indication that
+      there is deeper problem, which shouldn't be ignored. You provided a temporary
+      solution to carry you over until you figure out the problem, but it absolutely
+      should not be your final solution.
+    id: '1433361766703527'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF6TXpNMk1UYzJOamN3TXpVeU56b3hORGt3TlRRM05UUTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF6TXpNMk1UYzJOamN3TXpVeU56b3hORGt3TlRRM05UUTAZD

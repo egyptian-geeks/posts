@@ -1,0 +1,89 @@
+---
+message: |-
+  Guys, I'n trying to write a bot for FB Messenger Platform in NodeJS... The problem is FB wants the webhook to be on a live domain, so I can't test that on my local machine and it is boring to keep editing and restarting the app on live server! Is there something like Pry ruby gem to let me bind the console in execution and debugging on live requests? I hope the question is clear!
+
+  I'm using expressJS, PM2 and Nginx
+from:
+  name: Mahmoud M. Abdel-Fattah
+  id: '10160028885050387'
+type: status
+created_time: '2016-08-24T20:19:49+0000'
+updated_time: '2016-08-25T13:00:31+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1213389188700787/
+id: '172338516139198_1213389188700787'
+reactions:
+  data:
+  - id: '1887807184565287'
+    name: Hager Gamal
+    type: LIKE
+  - id: '1487671784675336'
+    name: Mohamad Emad
+    type: LIKE
+  - id: '1061734923967862'
+    name: Amira Mohamed
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdNRGd3TnpJeE5EQTRPakUwTnpJeE5EQTJNVEE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXpPVFF3T1RReU9USTRPakUwTnpJd09EYzNNakk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-08-24T20:22:14+0000'
+    from:
+      name: Mahmoud M. Abdel-Fattah
+      id: '10160028885050387'
+    message: Mohamed Elsherif تمام كده?
+    id: '1213390458700660'
+  - created_time: '2016-08-24T21:22:33+0000'
+    from:
+      name: Biga Gaber
+      id: '1800724693292343'
+    message: You can use modulus.io also watch this video https://youtu.be/zFO1cRr5-qY
+      it demonstrate how to use modulus.io with FB bots
+    id: '1213435848696121'
+  - created_time: '2016-08-24T21:48:36+0000'
+    from:
+      name: Abdelrahman Omran
+      id: '2203311556562655'
+    message: If you're using vagrant, you can expose your VM online & get an accessible
+      live domain useful for such kind of testing through https://www.vagrantup.com/docs/share/
+      You can share HTTP & even SSH. Hope that helps
+    id: '1213451105361262'
+  - created_time: '2016-08-25T09:49:06+0000'
+    from:
+      name: Basant Medhat
+      id: '10212874686954385'
+    message: https://www.facebook.com/groups/chatbot/
+    id: '1213885811984458'
+  - created_time: '2016-08-25T09:50:30+0000'
+    from:
+      name: Basant Medhat
+      id: '10212874686954385'
+    message: |-
+      Hanan Abdelmohsen, Dalia Ihab, Hager Gamal, Dalia Mohammed
+      Check the comments
+    id: '1213886908651015'
+  - created_time: '2016-08-25T13:00:26+0000'
+    from:
+      name: Mahmoud M. Abdel-Fattah
+      id: '10160028885050387'
+    message: |-
+      Finally, I figured out how to:
+      1. You should have a paid account
+      2. Go to your ngrok dashboard, then select "Reserved", then add your custom CNAME, for example : xyz.mydomain.com, then you'll find a random generated subdomain random123.cname.us.ngrok.io
+      3. Copy the generated record, and add it to your DNS manager. So as, your cname should points to that random generated subdomain.
+      4. Open the ngrok.yml file (usually in ~/.ngrok2/ngrok.yml if you are *nix user).
+      5. Edit it and add the following lines:
+      authtoken: #your pro authtoken
+      tunnels:
+        your-app-name:
+          proto: http
+          addr: 8080
+          hostname: xyz.mydomain.com
+
+      I hope that is clear!
+    id: '1214008751972164'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl4TXpNNU1EUTFPRGN3TURZAMk1Eb3hORGN5TURjd01UTTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl4TkRBd09EYzFNVGszTWpFMk5Eb3hORGN5TVRNd01ESTQZD

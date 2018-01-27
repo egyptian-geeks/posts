@@ -1,0 +1,72 @@
+---
+message: "Hi Everyone,\nam having difficulties getting this app to work, \n\nhttp://stackoverflow.com/questions/37282700/restful-call-from-angular-is-not-returning-results?noredirect=1#comment62090741_37282700
+  \n\nany help, is highly appreciated."
+link: http://stackoverflow.com/questions/37282700/restful-call-from-angular-is-not-returning-results?noredirect=1#comment62090741_37282700
+from:
+  name: Emad Mahdy
+  id: '10155999836938618'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQA4atFBdowvWO-S&w=130&h=130&url=http%3A%2F%2Fcdn.sstatic.net%2FSites%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded%26a&cfs=1&sx=0&sy=0&sw=316&sh=316&_nc_hash=AQDYVbPw7-vNSk2Z
+created_time: '2016-05-17T19:17:51+0000'
+updated_time: '2016-05-18T15:39:26+0000'
+name: Restful call from angular is not returning results
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1145158105523896/
+id: '172338516139198_1145158105523896'
+reactions:
+  data:
+  - id: '10155110527716700'
+    name: Ahmed Shawky Ibrahim
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRjMU16RTJOams1T2pFME5qTTFNVE0xTURBNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRjMU16RTJOams1T2pFME5qTTFNVE0xTURBNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-05-17T19:34:00+0000'
+    from:
+      name: Ahmed Shawky Ibrahim
+      id: '10155110527716700'
+    message: This is very weird that you are getting a 404 while you are getting something
+      back!
+    id: '1145164682189905'
+  - created_time: '2016-05-17T19:37:02+0000'
+    from:
+      name: Emad Mahdy
+      id: '10155999836938618'
+    message: I know, I also tried using $http instead of $resource, but couldn't get
+      it to work. I don't even know what is the difference between the two
+    id: '1145165832189790'
+  - created_time: '2016-05-18T14:33:18+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: I have 3 suspects. Check my SO answer.
+    id: '1145576685482038'
+  - created_time: '2016-05-18T15:39:26+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      Maybe the 2nd endpoint doesn't support JSONP
+      http://stackoverflow.com/questions/24072617/jsonp-request-gives-404-in-angular-app
+    id: '1145605785479128'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUwTlRFMk5EWTRNakU0T1Rrd05Ub3hORFl6TlRFek5qUXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUwTlRZAd05UYzROVFEzT1RFeU9Eb3hORFl6TlRnMU9UWTMZD
+attachments:
+  data:
+  - description: Here am trying to make a RESTful call to an external API. am trying
+      to achieve 2 things in one call. So, I have one function with 2 nested functions
+      within. The first one calls the search API to s...
+    media:
+      image:
+        height: 316
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAntEGj6KNL8I7m&w=316&h=316&url=http%3A%2F%2Fcdn.sstatic.net%2FSites%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded%26a&cfs=1&sx=0&sy=0&sw=316&sh=316&_nc_hash=AQAI6p974RoCbfNJ
+        width: 316
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F37282700%2Frestful-call-from-angular-is-not-returning-results%3Fnoredirect%3D1%23comment62090741_37282700&h=ATNs6D53hKJIyNcs_a56d35q8c4a60WkwoimaY8oFAccaACSHeJrvpfItjf4YU7tiM0xb7-_uiMb--Q39-fIo3Aa3EzfSaciYnw1&s=1&enc=AZMsXRpzD38U6heI6J1xfMDDae0nueg8Dm8Ti3NWQHSUN_LntFpuUyf_lTFyymfUMSXLW13PicYEJ2l3IOk9Naxj
+    title: Restful call from angular is not returning results
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F37282700%2Frestful-call-from-angular-is-not-returning-results%3Fnoredirect%3D1%23comment62090741_37282700&h=ATNs6D53hKJIyNcs_a56d35q8c4a60WkwoimaY8oFAccaACSHeJrvpfItjf4YU7tiM0xb7-_uiMb--Q39-fIo3Aa3EzfSaciYnw1&s=1&enc=AZMsXRpzD38U6heI6J1xfMDDae0nueg8Dm8Ti3NWQHSUN_LntFpuUyf_lTFyymfUMSXLW13PicYEJ2l3IOk9Naxj

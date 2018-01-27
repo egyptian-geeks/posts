@@ -1,0 +1,52 @@
+---
+message: لو في موقع رفع فيديوهات وعايز اخلي في ال video player يعرض الفيديو بجودتين
+  HD & SD هل لازم ارفع الفيديو مرتين كل واحد فيهم بجودة ولا في players بتقدر تغير
+  الجودة لوحدها ! انا دورة عي جوجل ووصلت ل plugin اسمها Videojs بس مقدرتش افهم من
+  ال Docs هل لازم ازود ال player ب اتنين Format واحد HD والتاني SD ولا لا !!
+from:
+  name: Bellal Mohamed
+  id: '1672878506132188'
+type: status
+created_time: '2016-05-03T19:24:17+0000'
+updated_time: '2016-05-06T23:03:37+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1136759363030437/
+id: '172338516139198_1136759363030437'
+comments:
+  data:
+  - created_time: '2016-05-04T09:52:25+0000'
+    from:
+      name: Khaled M. Diab
+      id: '10215626626127168'
+    message: "Current approaches in video streaming is based on adaptive streaming
+      over HTTP, where the server stores multiple copies of the original video in
+      different formats and qualities (bitrates). Each copy is divided into segments
+      of equal length. The client is smart and chooses the qualities of each segment
+      during the streaming session based on different objectives. \n\nThe major vendor-free
+      standardization effort is DASH. It simply defines a file (it defines many things
+      as well) called media presentation descriptor (MPD) that lists the available
+      segments and their qualities. The file in addition to the video copies are stored
+      in HTTP server. The client fetches this file at the beginning and decides during
+      the streaming session what quality to fetch. \n\nThere are many JS clients that
+      adopt DASH:\n- dash.js (DASH-IF): the reference client implementation from DASH
+      industry forum\n- video.js: if you use videojs, you should use this plugin with
+      it (https://github.com/videojs/videojs-contrib-dash)\n- shaka player (google):
+      https://github.com/google/shaka-player\n\nYou'll notice that all these libraries
+      request an MPD file, not a video. In your case, your task is to:\n- encode the
+      original video into multiple copies with different qualities (SD, HD, etc...)\n-
+      segment each copy\n- generate the MPD file that lists the segments locations
+      and their qualities\n- use one of the previous libraries with the URL of generated
+      MPD.\n\nYou can use ffmpeg for encoding, and Bento (https://www.bento4.com/developers/dash/)
+      for segmenting videos and generating the MPD."
+    id: '1137125709660469'
+  - created_time: '2016-05-04T13:34:27+0000'
+    from:
+      name: Mohamed A. Alqrwash
+      id: '10213394268464462'
+    message: DASH technology is what you seek about , you have to use Media server
+      that support mult bitrates LIKE WOWZA you may apply some ffmpeg in your server
+      side , and also you need player support DASH
+    id: '1137225926317114'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV6TnpFeU5UY3dPVFkyTURRMk9Ub3hORFl5TXpVMU5UUTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV6TnpJeU5Ua3lOak14TnpFeE5Eb3hORFl5TXpZANE9EWTQZD

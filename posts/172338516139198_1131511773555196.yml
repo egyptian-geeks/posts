@@ -1,0 +1,62 @@
+---
+message: Is there anyone could successfully install Tensorflow using docker image
+  on windows ?
+from:
+  name: Muhammad Salem Elhady
+  id: '1274730989295828'
+type: status
+created_time: '2016-04-25T15:16:13+0000'
+updated_time: '2016-04-27T10:55:14+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1131511773555196/
+id: '172338516139198_1131511773555196'
+reactions:
+  data:
+  - id: '10214738123343685'
+    name: Ibrahim Amer
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRFME1qVTROalV3T1RveE5EWXhOVGszTlRVeU9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRFME1qVTROalV3T1RveE5EWXhOVGszTlRVeU9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2016-04-25T15:19:10+0000'
+    from:
+      name: Ibrahim Amer
+      id: '10214738123343685'
+    message: I think it's too difficult to install it successfully using docker (near
+      impossible) ..After wasting time trying to get it working on docker, finally
+      I decided to had it working easily by making a Ubuntu VM on vmware it is quite
+      straight forward
+    id: '1131512810221759'
+  - created_time: '2016-04-25T15:23:29+0000'
+    from:
+      name: Muhammad Salem Elhady
+      id: '1274730989295828'
+    message: I do have ubuntu virtual machine , but you can not install a CUDA driver
+      on Virtual machine to train a neural network, may be i should try to install
+      a native ubuntu
+    id: '1131514546888252'
+  - created_time: '2016-04-27T08:47:19+0000'
+    from:
+      name: Ahmed M. Araby
+      id: '10155547863649263'
+    message: You can install docker on Windows !
+    id: '1132672156772491'
+  - created_time: '2016-04-27T09:11:49+0000'
+    from:
+      name: Muhammad Salem Elhady
+      id: '1274730989295828'
+    message: i did and when i ran command to download and install tensor flow it times
+      out during downloading
+    id: '1132684376771269'
+  - created_time: '2016-04-27T09:46:35+0000'
+    from:
+      name: Mustafa Dagher
+      id: '10215560476549083'
+    message: https://medium.com/@Rapchik/running-google-s-deep-learning-course-material-under-windows-82d468b6d5be#.xs4qe07eu
+    id: '1132697483436625'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV6TVRVeE1qZA3hNREl5TVRjMU9Ub3hORFl4TlRrM05UVXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV6TWpZANU56UTRNelF6TmpZAeU5Ub3hORFl4TnpVd016azUZD

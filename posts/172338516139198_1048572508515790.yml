@@ -1,0 +1,49 @@
+---
+from:
+  name: Ahmed Amin
+  id: '1962172197389574'
+type: status
+created_time: '2015-12-20T10:19:15+0000'
+updated_time: '2015-12-20T10:19:15+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1048572508515790/
+id: '172338516139198_1048572508515790'
+reactions:
+  data:
+  - id: '1928384107425504'
+    name: Ahmed Hashem
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTNOakUzT1RrMU5UVXdPakUwTlRBMk1URTJOelU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTNOakUzT1RrMU5UVXdPakUwTlRBMk1URTJOelU2TWpVME1EazJNVFl4TXc9PQZDZD
+attachments:
+  data:
+  - description: |-
+      Was discussing MVC 5 vs MVC 6 @ Step By Step Schools Below is a visual comparison ( look at the number and the image):-
+
+      1. .NET framework is now part of your project and you can point to multiple frameworks at the same. Like in the figure its pointing to 4.5 framework ( full framework) and also to .NET core ( which is cross platform depending what you choose).
+
+      2. Global.asax is replaced by startup.cs which is more light weight and customizable.
+
+      3. Web.config configuration will not go in Config.json
+
+      4. As a developer we have been adding references using our favorite add reference , you can now also add in project.json and your project will reference it automatically and also vice versa.
+
+      5. They have given a special wwwroot folder which will store  static files of your project. Any files including HTML files, CSS files, image files, and JavaScript files which are sent to the users browser should be stored inside this folder.
+
+      6. There is a dependencies node which shows which javascript files have been used in your project.
+    description_tags:
+    - id: '1458904494383520'
+      length: 20
+      name: Step By Step Schools
+      offset: 32
+      type: page
+    media:
+      image:
+        height: 613
+        src: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/12360421_903388403078650_8546252321343278370_n.jpg?oh=cf2eda5bc8cbb9f0ac0556b3d5bcf4c2&oe=5B2083FB
+        width: 720
+    target:
+      url: https://www.facebook.com/photo.php?fbid=903388403078650&set=p.903388403078650&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=903388403078650&set=p.903388403078650&type=3

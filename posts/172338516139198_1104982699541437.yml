@@ -1,0 +1,191 @@
+---
+message: The node.js left-pad story.
+link: http://www.theregister.co.uk/2016/03/23/npm_left_pad_chaos/
+from:
+  name: Ahmad Abdel-Halim
+  id: '2096741833892170'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQCpO5momgAMvAcy&w=130&h=130&url=https%3A%2F%2Fregmedia.co.uk%2F2016%2F03%2F23%2Fjenga_tower.jpg%3Fx%3D1200%26y%3D794&cfs=1&sx=100&sy=0&sw=794&sh=794&_nc_hash=AQCiF5LTv4httuo7
+created_time: '2016-03-23T10:52:31+0000'
+updated_time: '2016-03-24T21:55:20+0000'
+name: How one developer just broke Node, Babel and thousands of projects in 11 lines
+  of JavaScript
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1104982699541437/
+id: '172338516139198_1104982699541437'
+reactions:
+  data:
+  - id: '10159857675500183'
+    name: Mahmoud Said
+    type: LIKE
+  - id: '2077007312536296'
+    name: Ahmed Hosny
+    type: LIKE
+  - id: '10155134229340373'
+    name: Ahmed Hamouda
+    type: LIKE
+  - id: '10155809649217559'
+    name: Mostafa Omara
+    type: LIKE
+  - id: '10159776542620184'
+    name: Shady Sharaf
+    type: LIKE
+  - id: '744364165648487'
+    name: Ahmed Elsayed Shahawi
+    type: LIKE
+  - id: '10156115350739764'
+    name: Mahmoud Tantawy
+    type: LIKE
+  - id: '1487671784675336'
+    name: Mohamad Emad
+    type: LIKE
+  - id: '10152079006144157'
+    name: Ahmed Gaber
+    type: LIKE
+  - id: '1573619512716214'
+    name: Mohamed Alaa El Din
+    type: HAHA
+  - id: '1153620581408147'
+    name: Mohamed Mostafa
+    type: LIKE
+  - id: '10212961449483338'
+    name: Mahmoud Fawzy
+    type: LIKE
+  - id: '1763959737010749'
+    name: Ahmed Mahmoud
+    type: WOW
+  - id: '1550774681686883'
+    name: Eslam Esmaeal
+    type: LIKE
+  - id: '1657509230977456'
+    name: Hosam Aly
+    type: LIKE
+  - id: '919168144900937'
+    name: Mahmoud Gamal
+    type: LIKE
+  - id: '1682828608423305'
+    name: Ahmed Josef
+    type: LIKE
+  - id: '1485663794864432'
+    name: Ahmed Rabie
+    type: LIKE
+  - id: '1596110217148252'
+    name: Ahmed Badawy
+    type: LIKE
+  - id: '1920633447965421'
+    name: Amany Mohammed
+    type: LIKE
+  - id: '10160073977745637'
+    name: Ahmed Aswani
+    type: LIKE
+  - id: '10214861141222529'
+    name: Abdelrady Fcis
+    type: LIKE
+  - id: '10159730542520062'
+    name: Omar Sherif
+    type: LIKE
+  - id: '10213738834576763'
+    name: Amjad Mashaal
+    type: LIKE
+  - id: '10156284492809497'
+    name: Ahmed Hassan
+    type: LIKE
+  - id: '10156114201546563'
+    name: Manal Sadek
+    type: LIKE
+  - id: '10156032627411171'
+    name: Hisham Abd El-Hafez Eid
+    type: LIKE
+  - id: '10155858852348046'
+    name: Hossam Abubakr
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRVME1UUTFNVGd5T2pFME5UZAzROVGsxTkRnNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRJME16WXpNRFExT2pFME5UZAzNNekF6TnpFNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-03-23T10:58:52+0000'
+    from:
+      name: Hisham Abd El-Hafez Eid
+      id: '10156032627411171'
+    message: A house of cards :(
+    id: '1104986489541058'
+  - created_time: '2016-03-23T10:59:50+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: ":D ده ممكن يحصل فى اى لغة تانية كمان مصيبة ولازم نفكرلها فى حل علشان
+      ماتحصلش تانى"
+    id: '1104987066207667'
+  - created_time: '2016-03-23T11:49:56+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: This guy is a jerk there are many other ways for protesting other than
+      breaking others work ... And he is to blame from the begining. Not knowing that
+      the name you picked is copyrighted is still copyrights infringement.
+    id: '1105021896204184'
+  - created_time: '2016-03-23T12:03:25+0000'
+    from:
+      name: Ahmed Samir
+      id: '10159800858645702'
+    message: This is what I hate about the over-engineered npm system, a whole library
+      is included just to pad strings!
+    id: '1105030416203332'
+  - created_time: '2016-03-23T12:10:31+0000'
+    from:
+      name: Ahmed Badawy
+      id: '1596110217148252'
+    message: |-
+      مش فاهم الناس دى كلها بدل متنقل الكام سطر دول للكود بتعها تعمل dependance عليها ليه ؟؟؟
+      و بجد حاجة مذهلة ان 11 سطر يعملو كدة فى الدنيا كلها ؟؟؟
+    id: '1105033682869672'
+  - created_time: '2016-03-23T12:49:22+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: the guy wrote an article about this on medium https://medium.com/@azerbike/i-ve-just-liberated-my-modules-9045c06be67c#.ps2t8q3f6
+    id: '1105065419533165'
+  - created_time: '2016-03-23T13:19:05+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: My commentary http://www.gurustop.net/block/2016/03/23/death-by-thousand-npm-packages
+    id: '1105092106197163'
+  - created_time: '2016-03-23T18:14:20+0000'
+    from:
+      name: Tarek ElSayyad
+      id: '1732505426810093'
+    message: Ahmed Shawky Mohamed Tawfik
+    id: '1105377399501967'
+  - created_time: '2016-03-24T00:25:14+0000'
+    from:
+      name: AbdAllah Khashaba
+      id: '1032800230207501'
+    message: That's why i never used package managers , I use direct libraries includes
+      without vendors neither autoloads :))
+    id: '1105646906141683'
+  - created_time: '2016-03-24T10:24:40+0000'
+    from:
+      name: Ahmed El Gabri
+      id: '10159938698425582'
+    message: "The full story \n\nhttps://medium.com/@azerbike/i-ve-just-liberated-my-modules-9045c06be67c#.r2fco42dx\n\nhttps://medium.com/@mproberts/a-discussion-about-the-breaking-of-the-internet-3d4d2a83aa4d#.8izb2j8q3\n\nhttp://blog.npmjs.org/post/141577284765/kik-left-pad-and-npm"
+    id: '1106034086102965'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV3TkRrNE5qUTRPVFUwTVRBMU9Eb3hORFU0TnpNd056TXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV3TmpBek5EQTROakV3TWprMk5Ub3hORFU0T0RFMU1EZA3gZD
+attachments:
+  data:
+  - description: left-pad pulled from NPM – which everyone was using
+    media:
+      image:
+        height: 720
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQCSQOt0JBO2cAfd&w=720&h=720&url=https%3A%2F%2Fregmedia.co.uk%2F2016%2F03%2F23%2Fjenga_tower.jpg%3Fx%3D1200%26y%3D794&cfs=1&sx=100&sy=0&sw=794&sh=794&_nc_hash=AQCShiraTj0y6DEU
+        width: 720
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.theregister.co.uk%2F2016%2F03%2F23%2Fnpm_left_pad_chaos%2F&h=ATNXi86FRKrS8rJcP4tCWvANjMDFRk-WPQOVIBpxQzJDCADSVjEVor1XXQdLmFogSWoyZ_WFuBRSYaQgEsoaxAXUtij6QoTOkW8t&s=1&enc=AZOAPG6ZeBZv3tfYzU73GsdXrfsM4EXQL3CQO-W0CgDzdPjm6z2iVssuQA4oVCtcUYZN1BmCWgkA_fo1uJAxEEv-
+    title: How one developer just broke Node, Babel and thousands of projects in 11
+      lines of JavaScript
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.theregister.co.uk%2F2016%2F03%2F23%2Fnpm_left_pad_chaos%2F&h=ATNXi86FRKrS8rJcP4tCWvANjMDFRk-WPQOVIBpxQzJDCADSVjEVor1XXQdLmFogSWoyZ_WFuBRSYaQgEsoaxAXUtij6QoTOkW8t&s=1&enc=AZOAPG6ZeBZv3tfYzU73GsdXrfsM4EXQL3CQO-W0CgDzdPjm6z2iVssuQA4oVCtcUYZN1BmCWgkA_fo1uJAxEEv-

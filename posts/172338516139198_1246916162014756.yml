@@ -1,0 +1,93 @@
+---
+message: |
+  أنا محتاج wordlist عربية حديثة. أنا لقيت نسخة searchable من Hans Wehr لكن للأسف الهمزات في كلمات كتيرة مش صحيحة.
+
+  حد يعرف حاجة مناسبة؟ ويا حبذا لو بالتشكيل؟ الـtxt اللي عملتله extract من Hans Wehr متاح هنا لو حد مهتم:
+link: https://github.com/a3f/arabic-wordlists
+from:
+  name: Ahmad Fatoum
+  id: '1356410114464931'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQDGIIPkUeDB1ZJw&w=130&h=130&url=https%3A%2F%2Favatars0.githubusercontent.com%2Fu%2F5204368%3Fv%3D3%26s%3D400&cfs=1&_nc_hash=AQAegpZKCNuIeQNE
+created_time: '2016-10-02T00:23:06+0000'
+updated_time: '2016-10-03T12:42:56+0000'
+name: a3f/arabic-wordlists
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1246916162014756/
+id: '172338516139198_1246916162014756'
+reactions:
+  data:
+  - id: '1596110217148252'
+    name: Ahmed Badawy
+    type: LIKE
+  - id: '10160069424510193'
+    name: Hussein Ghaly
+    type: LIKE
+  - id: '627907956'
+    name: Emad Elsaid
+    type: LIKE
+  - id: '10216051350344395'
+    name: Amr Fathi
+    type: LIKE
+  - id: '10213765601288538'
+    name: Abdarhman Taha
+    type: LIKE
+  - id: '10156115350739764'
+    name: Mahmoud Tantawy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlORGM0Tmpnd09EVTJPakUwTnpVMU1ESTBOREE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TlRFME5UYzVOell6T2pFME56VXpPRGMzTXpJNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-10-02T01:08:51+0000'
+    from:
+      name: Mostafa Muhammad
+      id: '10155787111376210'
+    message: مينفعش تعدي على الويكيبيديا العربي وتجمع الكلمات من هناك؟
+    id: '1246948818678157'
+  - created_time: '2016-10-02T10:35:53+0000'
+    from:
+      name: Omar Negm
+      id: '1655425661170220'
+    message: "انا كنت فنفس الموقف ده من فترة بس انا كنت محتاج Word List لل Medical
+      Terms لقت Databases كتير بس للأسف كانت غالية جدا. الحل بقى الي عملته وجبت اكتر
+      من مليون Term هو اني عملت Download لكتب PDF كتيرة وعملت Tool صغيرة تسحب الكلام
+      الي فال PDF وتاخد الكلمات كلمة كلمة بدون تكرار وجمعت الكلمات  ال Common الي
+      بعيدة عن الميديكال وكنت بعملها Exception من الإضافة يعني مثلا انا مش محتاج كلمة
+      زي World لكن بالنسبة لحالتك انت مش هتعمل اكتر من انك تلغي التكرار بس لأنك محتاج
+      Worls List بالكلمات العربية بدون استثناء. بالتوفيق \U0001F60A"
+    id: '1247291051977267'
+  - created_time: '2016-10-02T10:38:47+0000'
+    from:
+      name: Karim Mohamed
+      id: '2263610936997643'
+    message: |-
+      "ar-extra-stopwords.txt" file in this zip https://sourceforge.net/projects/ar-php/files/ar-php/Ar-PHP%20version%204.0/
+
+      https://github.com/karimouda/qurananalysis/blob/HEAD/data/quran-stop-words.strict.l2.ar
+    id: '1247292738643765'
+  - created_time: '2016-10-03T12:22:13+0000'
+    from:
+      name: Hussein Ghaly
+      id: '10160069424510193'
+    message: "دي قائمة بالـ\nstop words\nبالعربي، اتفضل  :) طبعا ال \nprefixes and
+      suffixes\nهتبقى على حسب الـ\ntokenization scheme \nاللي بتستخدمه\n\nأ\nوـ\nالـ\nلـ\nبـ\nكـ\nفـ\nسـ\nـه\nـها\nـهم\nـهما\nـك\nـي\nـكم\nـكما\nـنا\nـني\nـهن\nـي\nقد\nنفس\nعين\nعلى\nإلى\nمن\nعن\nبين\nنحو\nصوب\nتجاه\nمع\nدون\nبدون\nلم\nلا\nليس\nلست\nليست\nليسوا\nلسن\nلن\nكان\nكانت\nكانوا\nكنت\nكن\nإن\nأن\nغير\nمثل\nكل\nكلا\nمنذ\nبشأن\nأجل\nهذا\nهذه\nذلك\nتلك\nهذان\nهاتان\nهؤلاء\nأولئك\nأنا\nأنت\nهو\nهي\nهما\nأنتم\nأنتما\nهم\nهن\nالذي\nالتي\nاللذان\nاللذين\nالذين\nاللاتي\nاللائي\nلقد\nلأن\nأيضا\nكذلك\nخلال\nأثناء\nطوال\nقام\nقامت\nقاموا\nقمت\nما\nزال\nزالت\nزالوا\nيزال\nتزل\nيزالون\nسيما\nفيما\nإلا\nقبيل\nبحاجة\nكي\nلكي\nأي\nأية\nرغم\nبد\nلابد\nحين\nبينما\nبعض\nمعظم\nأغلب\nحدة\nالصعيد\nيمكن\nأمكن\nإذ\nإذا\nإذن\nلو\nحتى\nبل\nبلى\nنعم\nبما\nبمن\n،\n؛\n؟\nعدم\nبالإضافة\nإضافة\nأحد\nإحدى\nسابقا\nحاليا\nباسم\nبصفته\nبصفتها\nبصفتهم\nباعتباره\nباعتبارها\nباعتبارهم\nتكون\nيكون\nيكونون\nيكونوا\nتكن\nجانب\nخارج\nداخل\nتم\nيتم\nتمت\nقبل\nبعد\nوقت\nعقب\nجميع\nكافة\nسائر\nسواء\nأمر\nأمرا\nالأمر\nذات\nهناك\nهنا\nثمة\nثم\nأساس\nمرة\nمرات\nآخر\nأخرى\nآخرين\nآخرون\nآخران\nبناء\nأنحاء\nضد\nإزاء\nأعلاه\nأدناه\nأعلى\nأسفل\nأدنى\nقرب\nبشكل\nأكثر\nكثير\nالكثير\nعديد\nالعديد\nمما\nأو\nهل\nأين\nمتى\nماذا\nلماذا\nكيف\nكم\nحيث\nحيثما\nريثما\nربما\nحينما\nكيفما\nلكن\nلعل\nليت\nذو\nذوو\nذوي\nذوات\nأولو\nأولي\nأولوا\nلدى\nفوق\nتحت\nرب\nكلما\nحسب\nحسبما\nالآن\nحول\nحقا\nأقل\nهنالك\nعندئذ\nوقتئذ\nكما\nسوى\nخلا\nحاشا\nفائ\nانفك\nأما\nيا\nأيها\nسوف\nالمائة\nهب\nاللهم\nحوالي\nآن\nتولى\nيتولى\nتتولى\nتولت\nوسط\nأيم\nبئس\nهات\nتعال\nحبذا\nهيا\nكذا\nكفى\nبسبب\nبصفته\nبصفتها\nبصفتهم\nباعتباره\nباعتبارها\nباعتبارهم\nبالتالي\nالمتمثل\nالمتمثلة\nفضلا\nنطاق\nعما\nإما\nذاك\nعم\nبخصوص\nيخص\nأينما\nأولو\nأولي\nبمثابة\nعبارة\nأنما\nإنما\nويل\nمنا\nمني\nأجمعون\nأجمعين\nحق\nسبحان\nتعالى\nلئن\nشأن\nصدد\nبصدد\nالنواحي\nالناحية\nناحية\nتبعا\nوفق\nوفقا\nغاية\nلغاية\nأجرى\nأجرت\nأجروا\nنظرا\nقيد\nمعني\nمعنية\nمعنيون\nمعنيين\nإطار\nمجال\nبالكامل\nكلية\nقدر\nبنسبة\nبالنسبة\nحد\nمم\nأم\nمبلغ\nقيمة\nممن\nضمن\nطريق\nعبر\nعام\nلما\nلإن\nوجه\nيوم\nيومي\nيوما\nسنة\nالتابع\nالتابعة\nالمؤرخ\nالمؤرخة\nسياق\nمتعلق\nمتعلقة\nيتعلق\nتتعلق\nقبيل\nالقبيل\nكثب\nمثلما\nوقتما\nصلة\nفقط\nفحسب\nجملة\nمختلف\nيجب\nينبغي\nلولا\nكاد\nيكاد\nتكاد\nكدت\nكادت\nأنى\nقال\nقالت\nقلت\nقالوا\nقلن\nقل\nقيل\nيقول\nتقول\nتقل\nيقل\nيقولون\nيقولوا\nيقلن\nأقول\nبيد\nيتسم\nتتسم\nيعد\nبعينه\nبعينها\nأعقاب\nعندما\nقلما\nبينما\nفعلا"
+    id: '1248196298553409'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkwTmprME9EZA3hPRFkzT0RFMU56b3hORGMxTXpjd05UTXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkwT0RFNU5qSTVPRFUxTXpRd09Ub3hORGMxTkRrM016TXoZD
+attachments:
+  data:
+  - description: arabic-wordlists - Wordlists for Arabic
+    media:
+      image:
+        height: 400
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQDqyKquX-4etnII&w=720&h=720&url=https%3A%2F%2Favatars0.githubusercontent.com%2Fu%2F5204368%3Fv%3D3%26s%3D400&cfs=1&_nc_hash=AQDutI3OsNQebx0e
+        width: 400
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Fa3f%2Farabic-wordlists&h=ATPfj_hod1N8AmxsuMPEENyyMuUtcpA9tbbPRcaBYpxlvrMZqCEoYVK4uz6gWykTx0xXPx_OcMl3PEhFDNveN_PaAuSi5Y4E5nxy&s=1&enc=AZOeqro1sZYdEVII5nsO99-cNYNgey4AgDn6ZASum7WDhHewVcYmSDzhssMw9F-BfybN9aKxl4_mTLP74gsH9JX-
+    title: a3f/arabic-wordlists
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Fa3f%2Farabic-wordlists&h=ATPfj_hod1N8AmxsuMPEENyyMuUtcpA9tbbPRcaBYpxlvrMZqCEoYVK4uz6gWykTx0xXPx_OcMl3PEhFDNveN_PaAuSi5Y4E5nxy&s=1&enc=AZOeqro1sZYdEVII5nsO99-cNYNgey4AgDn6ZASum7WDhHewVcYmSDzhssMw9F-BfybN9aKxl4_mTLP74gsH9JX-

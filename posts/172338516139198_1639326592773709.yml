@@ -1,0 +1,70 @@
+---
+message: What does "100% interoperable with Java" mean for Kotlin? Can you mix the
+  syntax in your IDE?
+link: https://www.quora.com/What-does-100-interoperable-with-Java-mean-for-Kotlin-Can-you-mix-the-syntax-in-your-IDE/answer/Mohamed-Ibrahim-71
+from:
+  name: Mohamed Ibrahim
+  id: '10210867242069162'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQBFkRzk8xLpaZIX&w=130&h=130&url=https%3A%2F%2Fqph.ec.quoracdn.net%2Fmain-custom-t-788-600x315-pitawsfglqjondnjfdmgqqsnbnracpcv.jpeg&cfs=1&_nc_hash=AQDFwpmRKRfUBDoM
+created_time: '2017-10-21T15:30:36+0000'
+updated_time: '2017-10-21T18:12:10+0000'
+name: What does "100% interoperable with Java" mean for Kotlin? Can you mix the syntax
+  in your IDE?
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1639326592773709/
+id: '172338516139198_1639326592773709'
+reactions:
+  data:
+  - id: '1819409301443237'
+    name: Mahmoud M Hassan
+    type: LIKE
+  - id: '1928384107425504'
+    name: Ahmed Hashem
+    type: LIKE
+  - id: '1620778754625427'
+    name: Sefo Noaman
+    type: LIKE
+  - id: '1730787373611486'
+    name: Ammar Yasser
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhNakkxTlRVd01UUXhPakUxTURnMk56VTBPREk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXdOREEzTWpBMk9EUTNPakUxTURnMU9UazVNRGc2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-10-21T18:12:08+0000'
+    from:
+      name: Ahmed Thabet
+      id: '1849432635069365'
+    message: means access java code from kotlin and koltin code from java
+    id: '1639464746093227'
+  - created_time: '2017-10-21T18:12:10+0000'
+    from:
+      name: Yahia Ragae
+      id: '10214491493222891'
+    message: I don't know too much about the interoperability,  all I know is that
+      you can reference and use java classes in kotlin code and vice versa and your
+      code can have classes written in either language. But each class in one language.
+    id: '1639464779426557'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl6T1RRMk5EYzBOakE1TXpJeU56b3hOVEE0TmpBNU5USTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl6T1RRMk5EYzNPVFF5TmpVMU56b3hOVEE0TmpBNU5UTXcZD
+attachments:
+  data:
+  - description: 'Mohamed Ibrahim''s answer: let’s take a simple example First Java
+      to Kotlin [code]public class Person { private String name; private int age;
+      public Person(String name, int age) { this.name = name; this.age = age; } public
+      void printDetails(){ //print } //setters and getters ....'
+    media:
+      image:
+        height: 315
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQDhI7jj_VoUojw1&w=720&h=720&url=https%3A%2F%2Fqph.ec.quoracdn.net%2Fmain-custom-t-788-600x315-pitawsfglqjondnjfdmgqqsnbnracpcv.jpeg&cfs=1&_nc_hash=AQDRFnII3SpAAFYW
+        width: 315
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.quora.com%2FWhat-does-100-interoperable-with-Java-mean-for-Kotlin-Can-you-mix-the-syntax-in-your-IDE%2Fanswer%2FMohamed-Ibrahim-71&h=ATM-_G3YC8bxYZPbrT8odGSRNuTU26r8MAMPP9zMw4Rz-4V83daQkB8Z2sYzKkD_MA-rTC9pLR1-yaQxF8905ns52i1a0ETZoKxM&s=1&enc=AZPiBCg_0jVtzyKIqphcWac3MhL7rYsp-R6Pa5E1qqg_dVk4r0-kc72gc0qyCNs_ys_TpSXWEGlU2O7PNpvGdZ6V
+    title: What does "100% interoperable with Java" mean for Kotlin? Can you mix the
+      syntax in your IDE?
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.quora.com%2FWhat-does-100-interoperable-with-Java-mean-for-Kotlin-Can-you-mix-the-syntax-in-your-IDE%2Fanswer%2FMohamed-Ibrahim-71&h=ATM-_G3YC8bxYZPbrT8odGSRNuTU26r8MAMPP9zMw4Rz-4V83daQkB8Z2sYzKkD_MA-rTC9pLR1-yaQxF8905ns52i1a0ETZoKxM&s=1&enc=AZPiBCg_0jVtzyKIqphcWac3MhL7rYsp-R6Pa5E1qqg_dVk4r0-kc72gc0qyCNs_ys_TpSXWEGlU2O7PNpvGdZ6V

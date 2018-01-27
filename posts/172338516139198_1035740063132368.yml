@@ -1,0 +1,230 @@
+---
+message: "Hello guys,,\nI'm facing problem while developing some models using Unity
+  Script c# when i  create  Mesh \"Cube\" i got empty scene\nAfter testing and debugging
+  i knew it's about  protection level \nSetting the protection to Public and i got
+  empty scene with no objects but variables are their and i can put values in them
+  but i want to be dynamically \nIt works if i set protection to protected and set
+  initial values but i want to edit them during run time and reading some data using
+  XML file \nany idea why i'm getting this issue or anything i can do to solve this
+  issue \nwould be appreciated"
+link: https://www.facebook.com/photo.php?fbid=760998007360405&set=gm.1035740063132368&type=3
+from:
+  name: Ibrahem Salah
+  id: '1391026811024185'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/12278895_760998007360405_2485745665442202486_n.jpg?oh=8fa5bf8a6b574a3fc78f3ef7f2437fa3&oe=5B224C56
+created_time: '2015-11-23T14:13:15+0000'
+updated_time: '2015-11-24T17:36:52+0000'
+name: Photos from Ibrahem Salah's post
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1035740063132368/
+id: '172338516139198_1035740063132368'
+reactions:
+  data:
+  - id: '1570218796388620'
+    name: عبدالرحمن محمود
+    type: LIKE
+  - id: '2096870983662680'
+    name: Abanoub Essam
+    type: LIKE
+  - id: '833177750176614'
+    name: Nody Ali
+    type: LIKE
+  - id: '10214297179999255'
+    name: Ahmed Hassan
+    type: LIKE
+  - id: '10210346747776038'
+    name: Mohab Mohamed
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlNREUxTkRVd01qTXlPakUwTkRnek1UTXdOekU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRVMk1qVTBORGc0T1RveE5EUTRNamc1TVRVM09qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2015-11-23T21:10:58+0000'
+    from:
+      name: عبدالرحمن محمود
+      id: '1570218796388620'
+    message: "انا مش عارف الكود الي انتا حاطه ف الصور كامل ولا لا بس لو هوا ده الكود
+      فا طبيعي ما يعملش حاجة لاني الي فهمته انك مش منادي ع الفانكشن بتاعت ال setvariables
+      \ في ال start function لان دي  زي ال constructor  كده و تقريبا بتتنده كل frame
+      على حسب مافاكر \nو الله اعلم :D"
+    id: '1035867293119645'
+  - created_time: '2015-11-23T21:11:57+0000'
+    from:
+      name: Ibrahem Salah
+      id: '1391026811024185'
+    message: لا لا ده الكود مش كامل وفي 2 كلاس اصلا عاملها call
+    id: '1035867676452940'
+  - created_time: '2015-11-23T21:19:00+0000'
+    from:
+      name: عبدالرحمن محمود
+      id: '1570218796388620'
+    message: هوا عندي كود بنفس الطريقة و شغال،،
+    id: '1035870433119331'
+  - created_time: '2015-11-23T21:19:38+0000'
+    from:
+      name: Ibrahem Salah
+      id: '1391026811024185'
+    message: انا عاوز اعمل كذا اوبجكت وكل واحد ب position مختلف
+    id: '1035870633119311'
+  - created_time: '2015-11-24T02:53:39+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      You want to create a bunch of cubes in different positions?
+      Then create a prefab that contains that Cube with all other things you want to add to it (like a Box Collider maybe?), then write a MonoBehavior that takes an instance of that prefab and then just Instantiate clones of that prefab with whatever position you want.
+      If you don't know what prefabs are, watch this: http://unity3d.com/learn/tutorials/modules/beginner/editor/prefabs-concept-usage
+    id: '1035961309776910'
+  - created_time: '2015-11-24T08:35:02+0000'
+    from:
+      name: Ibrahem Salah
+      id: '1391026811024185'
+    message: No no not a prefab i need something more advanced like creating Mesh
+      from scratch t o model a freehand drawn object
+    id: '1036033699769671'
+  - created_time: '2015-11-24T11:45:06+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      well then, in this case you'd need to create a MeshFilter manually and give it all the Vertex Data (position, normal, texcoord, etc.), you need to know a bit of low-level knowledge to do this.
+      I personally never did this before in Unity, but I did it in XNA/MonoGame.
+    id: '1036083293098045'
+  - created_time: '2015-11-24T11:50:55+0000'
+    from:
+      name: Ibrahem Salah
+      id: '1391026811024185'
+    message: "I know it and i draw a MeshFilter and it's working but if i tried to
+      create more than one it gives me errors \ni wanted to create a MeshFilter class
+      and call it more than one time like objects you got my point ?"
+    id: '1036084493097925'
+  - created_time: '2015-11-24T11:54:37+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      So are you trying to make more than one MeshRenderer reference the same MeshFilter, or more than one MeshFilter referencing the same Mesh?
+      BTW sorry for not being able to understand your question initially, the wording wasn't clear.
+    id: '1036085236431184'
+  - created_time: '2015-11-24T11:59:37+0000'
+    from:
+      name: Ibrahem Salah
+      id: '1391026811024185'
+    message: "It's okay i couldn't express my problem duo to my primitive skill in
+      Unity, I'm newbie to Unity \n\nI want to make more than MeshFilter but with
+      different parameters \ni'm using Cube but each time i want to set different
+      vertices"
+    id: '1036086439764397'
+  - created_time: '2015-11-24T12:17:34+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      Why are you using a Cube when you need to see a different shape each time?
+      Try putting a MeshFilter on the game object but have the Mesh property set to null (press the circle thing and choose "none"), then in your Start method, do something like:
+      MeshFilter.mesh = new Mesh();
+      then set the veticies, uv, and triangle properties on that mesh.
+      Check this link: http://docs.unity3d.com/ScriptReference/Mesh.html
+    id: '1036090483097326'
+  - created_time: '2015-11-24T12:24:42+0000'
+    from:
+      name: Ibrahem Salah
+      id: '1391026811024185'
+    message: "Yup it's null \ni'm just giving you an example \ni will try this link
+      thanks for being helpful :D"
+    id: '1036092166430491'
+  - created_time: '2015-11-24T12:25:44+0000'
+    from:
+      name: Ibrahem Salah
+      id: '1391026811024185'
+    message: And BTW i want to create more than 1 Mesh in the same frame not to edit
+      previous one
+    id: '1036092413097133'
+  - created_time: '2015-11-24T12:27:11+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      Then you need to have more than one game object, because you can't have more than one renderer on the same game object!
+      I'm always happy to help people make games :)
+    id: '1036092739763767'
+  - created_time: '2015-11-24T14:15:40+0000'
+    from:
+      name: Ibrahem Salah
+      id: '1391026811024185'
+    message: "That's what i'm trying to get around i want to create it dynamically
+      \nit was working using Prefab and gameObject and i'm sure there is something
+      i can do to make it working using MeshFilter"
+    id: '1036124563093918'
+  - created_time: '2015-11-24T16:33:03+0000'
+    from:
+      name: Ibrahem Salah
+      id: '1391026811024185'
+    message: "I'm still searching \n\n GameObject newObj = new GameObject(\"Cube\");\n
+      newObj.AddComponent <MeshRenderer>();\n MeshFilter filter = newObj.AddComponent<MeshFilter>();\n\nthis
+      how i can add Mesh Renderer dynamically but something is still missing :/ \nIt
+      takes me too long"
+    id: '1036178556421852'
+  - created_time: '2015-11-24T16:35:44+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      yes, now you do:
+      filter.mesh = new Mesh();
+      then do as explain in the link I sent, also don't forget to set newObj.transform to something that you can see.
+      You could debug this as it is running by looking at all these new "Cube" game objects that will show up in the Scene :)
+    id: '1036180209755020'
+  - created_time: '2015-11-24T16:41:41+0000'
+    from:
+      name: Ibrahem Salah
+      id: '1391026811024185'
+    message: "Yea yea ofcs i did \nI'm sorry i didn't paste all my code here  \nAnd
+      it's working but for 1 item \nIt draws 1 item and nothing else \nI don't need
+      to do transform  i set new position for each object\n\nDo you mind have a private
+      chat \ndon't want to disrupt the group using more comments"
+    id: '1036182109754830'
+  - created_time: '2015-11-24T17:36:51+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      well in order to draw more than one object, you need to make more than one game object that has its own MeshFilter and MeshRenderer, but you can probably have them share the same Mesh object.
+      Sure, try to send me a message, FB might not notify me, but I will receive it
+    id: '1036199356419772'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF6TlRnMk56STVNekV4T1RZAME5Ub3hORFE0TXpFek1EVTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF6TmpFNU9UTTFOalF4T1RjM01qb3hORFE0TXpnMk5qRXkZD
+attachments:
+  data:
+  - subattachments:
+      data:
+      - media:
+          image:
+            height: 404
+            src: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/12265731_760998007360405_2485745665442202486_o.jpg?oh=c0aabdd4bb2e34ec13b853c5b672f12e&oe=5AEB40C9
+            width: 720
+        target:
+          id: '760998007360405'
+          url: https://www.facebook.com/photo.php?fbid=760998007360405&set=gm.1035740063132368&type=3
+        type: photo
+        url: https://www.facebook.com/photo.php?fbid=760998007360405&set=gm.1035740063132368&type=3
+      - media:
+          image:
+            height: 404
+            src: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/12247951_760998000693739_3645970568034409333_o.jpg?oh=489034e38074db7ce5c8db317572716e&oe=5AE83C80
+            width: 720
+        target:
+          id: '760998000693739'
+          url: https://www.facebook.com/photo.php?fbid=760998000693739&set=gm.1035740063132368&type=3
+        type: photo
+        url: https://www.facebook.com/photo.php?fbid=760998000693739&set=gm.1035740063132368&type=3
+    target:
+      id: '1035740063132368'
+      url: https://www.facebook.com/media/set/?set=pcb.1035740063132368&type=1
+    title: Photos from Ibrahem Salah's post
+    type: album
+    url: https://www.facebook.com/media/set/?set=pcb.1035740063132368&type=1

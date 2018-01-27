@@ -1,0 +1,30 @@
+---
+message: "انا بعمل برنامج زي الوسيط بين اليوزر و الterminal \nالمشكلة ان انا لما بستخدم
+  حاجة زي subprocess بعد ما بيخلص الكوماند بيقفل البروسيس فلو انا عامل كوماند كعتمدة
+  علي البعدها مش هتشتغل انا حولت اعمل كدة\n pipe=subprocess.PIPI\ncmd=subprocess.popen(\"cd
+  ..\",\n                          stdin=pipe,stdout=pipe\n                          start_new_session=False)\nبس
+  برضو مش شغالة او حد عندة حل للمشكلة دية \nI will be thankful"
+from:
+  name: Mohamad Emad
+  id: '1487671784675336'
+type: status
+created_time: '2016-03-06T19:44:30+0000'
+updated_time: '2016-03-07T13:35:50+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1092590340780673/
+id: '172338516139198_1092590340780673'
+comments:
+  data:
+  - created_time: '2016-03-06T20:07:03+0000'
+    from:
+      name: Mohamed A. Alqrwash
+      id: '10213394268464462'
+    message: "this work for me even i close terminal \npython 2.7 \n\ndef runprosses(Comand
+      , pram  ,  debug = False):\n    conadlist = str(Comand)\n    print conadlist\n
+      \   print pram + \"this paramters\"\n     \n    p = subprocess.Popen(Comand
+      ,shell = True , stdout=subprocess.PIPE)\n    output, err = p.communicate()\n
+      \   if (debug == True):     \n        print output"
+    id: '1092597704113270'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE1TWpVNU56Y3dOREV4TXpJM01Eb3hORFUzTWprME9ESXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE1TWpVNU56Y3dOREV4TXpJM01Eb3hORFUzTWprME9ESXoZD

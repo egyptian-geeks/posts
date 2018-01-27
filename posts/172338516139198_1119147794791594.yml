@@ -1,0 +1,46 @@
+---
+message: "We all saw people sharing there WhatsApp public key on the internet and
+  people started to wonder if this is safe.\n\nWell, it is totally safe to share your
+  public key, this is how Public Key Encryption works. Your public key is shared to
+  the world and your private key must be kept in the safest place. \n\nA lot of technologies
+  depend on Public Key Encryption. For example, the https certificates. In your browser
+  you will find several certificates for major companies. Actually these certificates
+  are the public keys. In fact the public key of google and facebook exists in all
+  the browsers in the world, while the private key is the most top secret in these
+  companies. They even have special hardware equipment to store it.\n\nIt takes sometime
+  to understand how it works but it is essential for any programmer to understand
+  this concept. I suggest watching the following list of videos from khan academy,
+  it clearly describes this way of encryption in simple and interesting way\n\n"
+link: https://www.khanacademy.org/computing/computer-science/cryptography/modern-crypt/v/diffie-hellman-key-exchange-part-1
+from:
+  name: Ahmed Essam
+  id: '2004705666469226'
+type: video
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQA7JO_hbzOyKCFL&w=130&h=130&url=http%3A%2F%2Fimg.youtube.com%2Fvi%2FMsqqpO9R5Hc%2F0.jpg&cfs=1&_nc_hash=AQAlRcwjJD8rI7hM
+created_time: '2016-04-07T08:07:20+0000'
+updated_time: '2016-04-07T08:07:20+0000'
+name: 'Public key cryptography: What is it?'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1119147794791594/
+id: '172338516139198_1119147794791594'
+reactions:
+  data:
+  - id: '10156996105984325'
+    name: Mostafa El-Liethy
+    type: LIKE
+  paging:
+    cursors:
+      before: TnprNE9ERTVNekkwT2pFME5qQXdNVGN5TmpFNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TnprNE9ERTVNekkwT2pFME5qQXdNVGN5TmpFNk1qVTBNRGsyTVRZAeE13PT0ZD
+attachments:
+  data:
+  - description: Why do we need public key cryptography?
+    media:
+      image:
+        height: 360
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAMTOItdPg7C2Oe&w=720&h=720&url=http%3A%2F%2Fimg.youtube.com%2Fvi%2FMsqqpO9R5Hc%2F0.jpg&cfs=1&_nc_hash=AQAYPmoIydyZ_FxD
+        width: 360
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.khanacademy.org%2Fcomputing%2Fcomputer-science%2Fcryptography%2Fmodern-crypt%2Fv%2Fdiffie-hellman-key-exchange-part-1&h=ATO7qMjV2NZCdXgf2uI5mpSj4ulxS4j8VjvZ2bo0i-tKbe9WKNiHW_81wqZdvFiu2CjnEoieAX0xfl2cVIFFqk-R91kURbBMbnS2&s=1&enc=AZOQyM8bZQZK-DH-MESaHSgvM090uQzxAF86uGZt3D4t_qLFS1bGKvC01SzORdLJDUDzDFOQv3_83UqikI4skYP1
+    title: 'Public key cryptography: What is it?'
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.khanacademy.org%2Fcomputing%2Fcomputer-science%2Fcryptography%2Fmodern-crypt%2Fv%2Fdiffie-hellman-key-exchange-part-1&h=ATO7qMjV2NZCdXgf2uI5mpSj4ulxS4j8VjvZ2bo0i-tKbe9WKNiHW_81wqZdvFiu2CjnEoieAX0xfl2cVIFFqk-R91kURbBMbnS2&s=1&enc=AZOQyM8bZQZK-DH-MESaHSgvM090uQzxAF86uGZt3D4t_qLFS1bGKvC01SzORdLJDUDzDFOQv3_83UqikI4skYP1

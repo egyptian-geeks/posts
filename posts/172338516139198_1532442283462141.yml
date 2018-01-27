@@ -1,0 +1,54 @@
+---
+message: |-
+  السلام عليكم
+  دلوقتي انا عندي داتا كبيرة تقريبا 200GB و الداتا ديه عبارة عن videos ..و حيكون فيه processing عليها ..
+  ايه احسن platform hosting ارفع عليها و اتعامل معاها و هل ححتاج admin على server نفسه و لا لأ ؟
+from:
+  name: Hossam Ahmad
+  id: '940956866058313'
+type: status
+created_time: '2017-06-30T16:09:38+0000'
+updated_time: '2017-07-01T10:08:21+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1532442283462141/
+id: '172338516139198_1532442283462141'
+comments:
+  data:
+  - created_time: '2017-06-30T16:16:54+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: |-
+      موش عارف هل السؤال التالي ممكن ينفعك:
+      https://stackoverflow.com/questions/17803159/how-do-i-configure-nutch-and-solr-to-search-for-video-files
+    id: '1532446953461674'
+  - created_time: '2017-06-30T17:04:10+0000'
+    from:
+      name: Ahmed El Mowafy
+      id: '1677576058930096'
+    message: اية نوع ال processing اللى هيحصل؟
+    id: '1532481806791522'
+  - created_time: '2017-06-30T19:30:50+0000'
+    from:
+      name: Mohamed Radwan
+      id: '10159976552365192'
+    message: تقدر نعمل processing وانت على Aws s3. موضوع السيرفر تقدر تستخدم servrrless
+      زي lambda
+    id: '1532594203446949'
+  - created_time: '2017-07-01T05:37:21+0000'
+    from:
+      name: Tony Raoul Iscaros
+      id: '10156165643313420'
+    message: |-
+      Aws s3 ,+ snowball (ultra cheap but has a delay to retrieve files)
+      Snowball دا بس لو انت عاوز تخزن فيلات و مش فارق معاك ترجعها real-time
+    id: '1533047323401637'
+  - created_time: '2017-07-01T06:02:19+0000'
+    from:
+      name: Emad Omar
+      id: '10155785716785733'
+    message: Www.contabo.com
+    id: '1533070553399314'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV6TWpRME5qazFNelEyTVRZAM05Eb3hORGs0T0RNNU5ERTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV6TXpBM01EVTFNek01T1RNeE5Eb3hORGs0T0RnNE9UUXgZD

@@ -1,0 +1,87 @@
+---
+message: "Hi guys. I am working in project that has two databases Redis and MySQL.
+  \ \nthe scenario : MySQl will generate row with id  then i will put it in Redis.\nThen
+  status of the row will be changed in Redis  after that row's status will br changed
+  \ again then  update Mysql.\n\nissue: how to keep data validated in both?"
+from:
+  name: Mahmoud Mortda
+  id: '1816374988414963'
+type: status
+created_time: '2016-02-29T08:24:00+0000'
+updated_time: '2016-03-01T20:31:05+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1088787701160937/
+id: '172338516139198_1088787701160937'
+reactions:
+  data:
+  - id: '1596110217148252'
+    name: Ahmed Badawy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlORGM0Tmpnd09EVTJPakUwTlRZAM05UZA3lPVEU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlORGM0Tmpnd09EVTJPakUwTlRZAM05UZA3lPVEU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-02-29T12:04:53+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: أرجو إنك تجد إجابة، لكن كان لي استفسار، ايه هي الفايدة من استخدام Redis؟
+    id: '1088884151151292'
+  - created_time: '2016-02-29T15:10:35+0000'
+    from:
+      name: Ahmed Badawy
+      id: '1596110217148252'
+    message: "انا بتكلم على جهل عشان معرفش حاجة عن ال redis... \nبس ممكن اعرف ليه
+      بتستخدم الاتنين... \nالاتنين بيقوموا ينفس المهمة. ليه هم الاتنين ؟؟؟"
+    id: '1088966947809679'
+  - created_time: '2016-02-29T15:59:41+0000'
+    from:
+      name: Mohammed Farghal
+      id: '10155396126947689'
+    message: What do you mean with Data Validation?  Where does the data come from?
+    id: '1088993797806994'
+  - created_time: '2016-02-29T17:32:39+0000'
+    from:
+      name: Ahmed Badawy
+      id: '1596110217148252'
+    message: "انا بتكلم على جهل عشان معرفش حاجة عن ال redis... \nبس ممكن اعرف ليه
+      بتستخدم الاتنين... \nالاتنين بيقوموا ينفس المهمة. ليه هم الاتنين ؟؟؟"
+    id: '1089042441135463'
+  - created_time: '2016-02-29T17:36:37+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: I don't think you can achieve absolutely 100% guarantee of consistency
+      without building a whole auditing system, like having every change logged from
+      all different applications and systems and a background service goes trough
+      these logs and makes sure every change is persisted across the systems, and
+      even with that you would achieve an "Eventually Consistent" system.
+    id: '1089044154468625'
+  - created_time: '2016-02-29T18:49:26+0000'
+    from:
+      name: Ibraheem Osama
+      id: '10155206310513093'
+    message: We have multiple products that run on top of multiple database and believe
+      me it's too complicated to keep both synchronized with no redundancy :) Maybe
+      my comment is not so helpful but don't use 2 databases unless you really really
+      deeply need it :)
+    id: '1089072661132441'
+  - created_time: '2016-02-29T21:34:18+0000'
+    from:
+      name: AbdAllah Khashaba
+      id: '1032800230207501'
+    message: use transactions
+    id: '1089131537793220'
+  - created_time: '2016-03-01T20:28:49+0000'
+    from:
+      name: Mahmoud Mortda
+      id: '1816374988414963'
+    message: |-
+      Thank you for your help.
+      i added object with new state to set in redis so i can query it for now
+    id: '1089717257734648'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE0T0RnNE5ERTFNVEUxTVRJNU1qb3hORFUyTnpRM05Ea3oZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE0T1RjeE56STFOemN6TkRZAME9Eb3hORFUyT0RZAME1USTUZD

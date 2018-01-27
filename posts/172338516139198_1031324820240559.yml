@@ -1,0 +1,71 @@
+---
+message: "لو  في حد عنده خبرة في الGIS \nانا عايز اعمل تطبيق تتبع عربية وهي بتمشي
+  من مكان لمكان معين انا محددة \nوهيكون في العربية دي جهاز تتبع GPS Tracker \nايه
+  هي انسب حاجة ممكن استخدمها \nArcGis ولا استخدمGoogle Maps \nمحتاج نصائح :D"
+from:
+  name: Ahmad Magdy
+  id: '895970407247426'
+type: status
+created_time: '2015-11-12T15:10:54+0000'
+updated_time: '2015-11-14T04:26:15+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1031324820240559/
+id: '172338516139198_1031324820240559'
+reactions:
+  data:
+  - id: '1163064820496983'
+    name: Ahmed Ayman Aladeeb
+    type: LIKE
+  - id: '10156031350846054'
+    name: Mohamed Makeen
+    type: LIKE
+  - id: '1349595018478688'
+    name: Ahmed Mohammed Eldeeb
+    type: LIKE
+  - id: '10213571333170420'
+    name: Mohamed Atwa
+    type: LIKE
+  - id: '1580685268679647'
+    name: Mohamed Amasha
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXpPREEwTWpjMU5EVXdPakUwTkRjek9ERTRNemM2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlNVFExTmpjd05qUTRPakUwTkRjek5ESXlPVGc2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2015-11-12T15:24:10+0000'
+    from:
+      name: Ibrahim Mohammed
+      id: '1886120441698692'
+    message: "الاتنين ينفعوا بس الاساس انك تعمل server-side يعمل return لل coordinates
+      بتاعت العربيه عن طريق json \" الجزء دا انا معرفش بيتعمل ازاى \" \nالجزء التانى
+      انك تاخد ال json اللى جاى من السيرفر و تعرضه على ال Map و طبعا كل ما يحصل ابديت
+      هيتم على الخريطه. انا نفذته باستخدام داتا من los angles عن طريق API عندهم بي
+      \ return json & xml اى واحده فيهم مش هتفرق بس هو دا الاساس"
+    id: '1031329520240089'
+  - created_time: '2015-11-12T15:32:27+0000'
+    from:
+      name: Mohammed El Sayed
+      id: '10155880598025170'
+    message: |-
+      لو بتفكر تعمله علشان تخليه مشروع وكدا خلي بالك الموضوع غير مصرح بيه فى مصر.
+      شركات كانت شغاله فى الموضوع دا, لكن مره واحده صدر زي قرار بمنع تشغيل الشركات اللى بتشتغل فى أنظمة التتبع إلا من خلال شركه تم إنشائها جديد (تبع الجيش :) ).
+      فعلى سبيل التحذير خلي بالك.
+      #ميصحش_كدا.
+    id: '1031332373573137'
+  - created_time: '2015-11-12T19:44:52+0000'
+    from:
+      name: Ahmed Mansour
+      id: '10155263617066659'
+    message: Mohamed Hassan Shaker
+    id: '1031413986898309'
+  - created_time: '2015-11-13T10:35:50+0000'
+    from:
+      name: Mohamed Atwa
+      id: '10213571333170420'
+    message: Amr Eldib
+    id: '1031668813539493'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF6TVRNeU9UVXlNREkwTURBNE9Ub3hORFEzTXpReE9EVXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF6TVRZAMk9EZA3hNelV6T1RRNU16b3hORFEzTkRFd09UVXgZD

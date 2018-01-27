@@ -1,0 +1,58 @@
+---
+message: "Hello guys .. Does anyone here have an idea about how to send e-mail with
+  javascript without any backend code ?? \nI tried to use 3rd party api like (mailgun
+  , sendgrid , .. ) but none of them works .. Can anyone help me ?"
+from:
+  name: Mohamed Magdy
+  id: '10155762065704193'
+type: status
+created_time: '2017-02-24T14:35:39+0000'
+updated_time: '2017-02-25T04:25:45+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1399449806761390/
+id: '172338516139198_1399449806761390'
+comments:
+  data:
+  - created_time: '2017-02-24T14:54:18+0000'
+    from:
+      name: Osama Soliman
+      id: '879271768900112'
+    message: Make your own API !
+    id: '1399461016760269'
+  - created_time: '2017-02-24T15:02:54+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "عايز تsend من ال front end؟ \nمش هينفع اصلا في الوقت الحالي لان عشان
+      تعمل smtp socket مش هينفع من البراوزر خالص الا من خلال مثلا websocket tcp proxy
+      وساعتها هتستخدم برده سيرفس خارجية"
+    id: '1399465373426500'
+  - created_time: '2017-02-24T15:04:19+0000'
+    from:
+      name: Tony Raoul Iscaros
+      id: '10156165643313420'
+    message: You should never do that ! Your email credentials will be easily stolen
+    id: '1399466156759755'
+  - created_time: '2017-02-24T16:35:57+0000'
+    from:
+      name: Ebram Tharwat
+      id: '10214080331513711'
+    message: |-
+      Short answer: no.
+      http://stackoverflow.com/questions/7381150/how-to-send-an-email-from-javascript
+    id: '1399526620087042'
+  - created_time: '2017-02-24T17:47:22+0000'
+    from:
+      name: Yahia Kandeel
+      id: '10155251842491439'
+    message: Security Risk!
+    id: '1399594800080224'
+  - created_time: '2017-02-25T04:25:42+0000'
+    from:
+      name: Essam Abd Ellatif Essawy
+      id: '1865486140192254'
+    message: Hello
+    id: '1400098070029897'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE01T1RRMk1UQXhOamMyTURJMk9Ub3hORGczT1RRNE1EVTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF3TURBNU9EQTNNREF5T1RnNU56b3hORGczT1RrMk56UXoZD

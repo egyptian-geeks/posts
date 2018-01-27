@@ -1,0 +1,17 @@
+---
+message: |-
+  I'm trying to make a simple (Check & un-check All) in a grid view with "AngularJS" but all examples that i found depends on ng-repeat which not my case.
+
+  the issue is i used (ng-checked) to achieve my target but when the master checkbox is checked the child checkboxes not firing onchange event so i couldn't complete my task to make some changes depend on whether the child checkbox is checked or not
+
+  live example:
+link: http://jsfiddle.net/samehsaeed/q8csfwyz/7
+from:
+  name: Sameh Saeed
+  id: '10155224155802344'
+type: link
+created_time: '2015-06-06T22:31:23+0000'
+updated_time: '2015-06-07T00:59:45+0000'
+name: jsfiddle.net
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/955126781193697/
+id: '172338516139198_955126781193697'

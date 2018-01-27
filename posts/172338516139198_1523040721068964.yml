@@ -1,0 +1,64 @@
+---
+message: "#SignalR\nيا ريت لو حد يقدر يفيدنى ف المشكلة دى انا جربت كل الحلول تقريبا
+  اللى شوفتها على النت و مش فاهم فين المشكله اساسا \n"
+link: https://stackoverflow.com/questions/44686276/signalr-reconnect-event-response-with-400-bad-request
+from:
+  name: Tarek Mostafa
+  id: '2075870955991138'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQBicEnZEnV912SL&w=130&h=130&url=https%3A%2F%2Fcdn.sstatic.net%2FSites%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded&cfs=1&_nc_hash=AQDvsiX7ONHDf146
+created_time: '2017-06-21T22:39:48+0000'
+updated_time: '2017-06-22T01:09:55+0000'
+name: SignalR - Reconnect event Response with 400 (Bad Request)
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1523040721068964/
+id: '172338516139198_1523040721068964'
+comments:
+  data:
+  - created_time: '2017-06-21T22:47:46+0000'
+    from:
+      name: Amr Yousef
+      id: '10216129314284453'
+    message: انا مليش خبرة اوي في الكلام ده بس ممكن تجرب تقارن بين ال requests عن
+      طريق ال localhost و بتاعت remote host وشوف ايه الفرق بالظبط وركز اكيد علي ال
+      connection id اللي فيه ال error.
+    id: '1523048364401533'
+  - created_time: '2017-06-21T22:56:21+0000'
+    from:
+      name: Ahmad Mayo
+      id: '10155441399893250'
+    message: https://stackoverflow.com/questions/15501493/signalr-the-connection-id-is-in-the-incorrect-format-when-using-windows-and-an
+    id: '1523054711067565'
+  - created_time: '2017-06-22T00:40:29+0000'
+    from:
+      name: Haitham Shaddad
+      id: '1591171607636188'
+    message: Show us the code for your hub and the client as well
+    id: '1523137597725943'
+  - created_time: '2017-06-22T01:09:51+0000'
+    from:
+      name: Hesham Adel
+      id: '798912850310002'
+    message: "First it's not enough to know what happened but i can tell you the follow
+      \nStatus Code:400 Bad Request\nmeans when you reconnect to your server you send
+      an invalid params to your server . \nThis was emitted by your server so go to
+      your server console and get more information ."
+    id: '1523163847723318'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV5TXpBME9ETTJORFF3TVRVek16b3hORGs0TURnMU1qWTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV5TXpFMk16ZAzBOemN5TXpNeE9Eb3hORGs0TURrek56a3kZD
+attachments:
+  data:
+  - description: i'm a bit new with signalr i have developed a simple chat room (just
+      connect to hub and begin chat) .. i tried it in my localhost and it was working
+      perfectly without any interrupt ..that's good ...
+    media:
+      image:
+        height: 316
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAMFLWvXjUlRuS7&w=720&h=720&url=https%3A%2F%2Fcdn.sstatic.net%2FSites%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded&cfs=1&_nc_hash=AQBDUhzXdwnk-uG7
+        width: 316
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F44686276%2Fsignalr-reconnect-event-response-with-400-bad-request&h=ATMf06ThxnrbUtAvbs6PXX6H4hphtnqUyUJjypFnWAg3-ucS07NDaENred5SCTTEiLg-JRJbEgQedsHtu-De6vyo4Xbfv9JLWR2u&s=1&enc=AZPw5twwm8XxI_8xC4SXmG3mMsZgxvXtw7ZTOuDmDNQ3x-zbH8I2Sf5X0004EaYZbm68_eUqe9wuxv00JXQwppDD
+    title: SignalR - Reconnect event Response with 400 (Bad Request)
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F44686276%2Fsignalr-reconnect-event-response-with-400-bad-request&h=ATMf06ThxnrbUtAvbs6PXX6H4hphtnqUyUJjypFnWAg3-ucS07NDaENred5SCTTEiLg-JRJbEgQedsHtu-De6vyo4Xbfv9JLWR2u&s=1&enc=AZPw5twwm8XxI_8xC4SXmG3mMsZgxvXtw7ZTOuDmDNQ3x-zbH8I2Sf5X0004EaYZbm68_eUqe9wuxv00JXQwppDD

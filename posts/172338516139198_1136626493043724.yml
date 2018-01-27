@@ -1,0 +1,218 @@
+---
+message: "دلوقتي انا عندي داتا بيز فيها ال notificcation_id - ,وببعت للناس كلها notification
+  \nساعات بيبقى فيه واحد عنده 2 اكونت على نفس الموبيل فبيروحله 2  notifications\n
+  لان جوجل بتدي لنفس الموبيل notitifiaction_id  مختلفة وهوا بيعمل register \nازاي
+  احل المشكلة دي ؟ \n#help"
+from:
+  name: Mohamed Amin
+  id: '1809581442395089'
+type: status
+created_time: '2016-05-03T14:28:47+0000'
+updated_time: '2016-05-04T07:47:40+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1136626493043724/
+id: '172338516139198_1136626493043724'
+reactions:
+  data:
+  - id: '10157207798884012'
+    name: Mohamed Ibrahim Gaber
+    type: LIKE
+  - id: '10155138037322478'
+    name: Anas Emad
+    type: LIKE
+  - id: '1596110217148252'
+    name: Ahmed Badawy
+    type: LIKE
+  - id: '10155432639833282'
+    name: Ahmed Abdo
+    type: LIKE
+  paging:
+    cursors:
+      before: TnpVMU5qZAzVNREV4T2pFME5qSXpOVFV3T0RrNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TmpBNU56QTRNamd4T2pFME5qSXlPRFU1T0RnNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-05-03T14:33:24+0000'
+    from:
+      name: Nasser Mohammed Ali
+      id: '10213493310141587'
+    message: check for device id
+    id: '1136628019710238'
+  - created_time: '2016-05-03T14:33:55+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: لو عندك نفس ال notification_id لنفس الموبايل ايه المانع من انك ت select
+      distinct من الداتابيز؟
+    id: '1136628263043547'
+  - created_time: '2016-05-03T14:34:43+0000'
+    from:
+      name: Muhammad Helmi
+      id: '997349407088959'
+    message: ازاى 2 اكونت بنفس الايميل ده شىء مش عملى
+    id: '1136628463043527'
+  - created_time: '2016-05-03T14:41:41+0000'
+    from:
+      name: Ahmed Badawy
+      id: '1596110217148252'
+    message: "ازاى 2 اكونت عل نفس الموبيل منغير ميبقى معاك طريقة لمعرفة مين موجود
+      مرتين. \n\nعموما الحل فالتالى: حاول تلاقى طريقة تختار بيها ال notification id.
+      و بعدين حط الاتنين بنفس ال id. و كدة هي register مرة واحدة بس."
+    id: '1136631196376587'
+  - created_time: '2016-05-03T14:41:48+0000'
+    from:
+      name: Ahmed Refaey
+      id: '1808892215797147'
+    message: اعمل flag اسمه sent على مستوي الموبيل وشوف لو الرساله بمحتوياتها دى اتكررت
+      مع نفس اليوز والجهاز بس على الflag لو كان اتبعت متبعتهاش تانى
+    id: '1136631263043247'
+  - created_time: '2016-05-03T14:44:15+0000'
+    from:
+      name: Emad Elmogy
+      id: '927294070755888'
+    message: وانت بتعملها خليها على ال device id احسن
+    id: '1136632133043160'
+  - created_time: '2016-05-03T14:49:19+0000'
+    from:
+      name: Mohamed Amin
+      id: '1809581442395089'
+    message: "دلوقتي انا لو عاوز ابعت notification  لأي حد محتاج notification_id\nجوجل
+      هيا اللي بتوفره . \nلو انا نزلت نسخة او شيلت الابلكيشن ونزلته تاني وعملت اكونت
+      جديد . \nساعتها باعمل register  عادي جدا بيتسجل ليه notification_id  جديد  \nلو
+      اناحبيبت ابعت بقى notifiaction  بيجي للموبيل دا notification مرتين مش مرة واحدة
+      \nاحنا جربنا نحط قيمة في  shared prefrence   حاجة زي الsessionفي الويب كدا .
+      \nحليت المشكلة طول ما الابلكيشن موجود بس لو شاله ونزل نسخة تانية بتتمسح معاه
+      . \nالاندرويد ديفلوبر على Stackoverflow  جاب حل حطيته في اول كومنت وطلع معروف
+      نسبيا ."
+    id: '1136633916376315'
+  - created_time: '2016-05-03T14:58:58+0000'
+    from:
+      name: Ehab Elwan
+      id: '758534544341052'
+    message: "GCM ID should be associated with a device using ID and it's better to
+      be generated on server to grantee uniqueness and update it once the user opens
+      the app after getting new id\nAlso note that gcm ID can be changed on the device
+      without uninstall,so you should handle this case.\nNormally if the user uninstalled
+      the app the gcm ID will be invalid, make sure that you're not sending twice
+      to the same ID \n\nAnother solution that you save the gcm ID on the device and
+      send it with every message and validate on mobile side if this is sent to the
+      current ID or not (I don't recommend it at all)"
+    id: '1136637049709335'
+  - created_time: '2016-05-03T15:17:18+0000'
+    from:
+      name: Ahmed Abdulmoniem
+      id: '10156030813815996'
+    message: |-
+      بص ببساطة عشان الحل ده أنا لسة عامله في iPromogator
+
+      هتعمل عمود زيادة في بيانات العميل (إللي بينزلي الموبايل) اسمه loggedIn مثلاً هيبقى Flag
+
+      كل ما العميل يخش باسم مختلف من نفس الموبايل هتلف على كل ال customers إللي عندك إللي  شايلين نفس ال device id وتخلي ال loggedIn بـ false
+
+      وتخلي إللي دخل دلوقتي هو بس إللي true
+
+      وإنت بتبعت بقا هتبعت للناس إللي عاملين loggedIn بـ true
+    id: '1136643223042051'
+  - created_time: '2016-05-03T15:17:49+0000'
+    from:
+      name: Ahmad M Arafa
+      id: '10208662024666994'
+    message: إيه رئيك , اول مالمستخدم يسطب التطبيق , يتم توليد رقم عشوائي , وتخزينة
+      في ال preference , ويتم إرسال الرقم دا , عند التسجيل , للتاكد ان كان الموبايل
+      موجود ولا لا
+    id: '1136643383042035'
+  - created_time: '2016-05-03T15:38:56+0000'
+    from:
+      name: Mohammed Ragab
+      id: '2020898428198432'
+    message: 2 اكونت مع نفس ال api key بتاع الأبلكشن !! المفروض ان جوجل بيغير regId
+      كل فترة او لو اليوزر غير الباكيدج فالمفروض انت بتعمل service فى الباك جرواند
+      تحدث ال regid اول ما جوجل يغير بأى ألية وانت بتبعت ه select regId بدلالة ال
+      USERID فالمفروض ان هيجيلك regid واحد هتبعتله
+    id: '1136651139707926'
+  - created_time: '2016-05-03T15:39:58+0000'
+    from:
+      name: Mohammed Ragab
+      id: '2020898428198432'
+    message: ال service عشان تضمن ان عندك على الداتا بيس دايما ال valid regId
+    id: '1136651406374566'
+  - created_time: '2016-05-03T15:40:32+0000'
+    from:
+      name: Mokhtar Ali Ebrahim
+      id: '10155287610712742'
+    message: وانت بتعمل register سجل باميل مثلا وساعة ما يصطب البرنامج مره اخرى فقط
+      اعمل بحث وتحديث لل GCM key في القاعدة عندك
+    id: '1136651629707877'
+  - created_time: '2016-05-03T15:53:24+0000'
+    from:
+      name: Mostafa Alaa
+      id: '10215061330796270'
+    message: Mina Nabil
+    id: '1136659236373783'
+  - created_time: '2016-05-03T16:42:47+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: خلي رقم الموبايل خاصية فريدة unique
+    id: '1136687636370943'
+  - created_time: '2016-05-03T19:33:43+0000'
+    from:
+      name: Mahmoud Mortda
+      id: '1816374988414963'
+    message: كل جهاز انرويد ليه. Id. مبيتغيرش
+    id: '1136763096363397'
+  - created_time: '2016-05-03T19:49:07+0000'
+    from:
+      name: Ahmed Tarek
+      id: '1510425989207165'
+    message: |-
+      الـGCM ID هيبقى unregistered بمجرد ما المستخدم يعمل uninstall للـapp بتاعك من على الموبايل وبالتالي ازاي الـnotification هتجيلو مرتين؟؟؟!!!
+      اما لو انت بتتكلم ان المستخدم عمل اكونت من الـapp بتاعك وبعد كده عمل logout وبعد كده رجع عمل اكونت جديد فكده اصبح عندك على السيرفر ٢ اكونت ليهم نفس الـGCM ID
+      أعتقد هي دي مشكلتك ولا ايه!
+      لو هي دي المشكلة
+      الحل الصح لازم يكون من على السيرفر مش من على الموبايل طبعا
+      وانه لازم ميحطش اي gcm id اكتر من مرة في الـarray اللي هو هيبعتها لـ google server
+    id: '1136777163028657'
+  - created_time: '2016-05-03T23:55:18+0000'
+    from:
+      name: Mohamed Moshrif
+      id: '1538447102877297'
+    message: |-
+      هو أنا عايز ارد رد مخلف عن الناس كلها. هو ليه أصلا أنت عايز تبعت مره واحدة؟! ال user اختار انه يكون عنده حسابين على نفس التليفون يبقي ده اختياره. بالضبط زي ما يكون عندك حسابين بريد الكتروني فيهم واحد عامل mirror للتاني بس لما بتبعت اميل بيجيلك 2 notifications مع انهم نفس الايمل؟!
+      المشكلة إن معظم الحلول المقترحه هتعمل مشاكل كتير. مثلا شال ايمل منهم من على الجهاز, فيه ايمل فيهم ال password اتغيرت ونسي  يعمل update على التليفون, لغي الحساب من واحد فيهم, الخ.
+      محتاج تشوف كل السيناريوهات الممكنه لو عايز تستخدم أي حل من دول
+    id: '1136871659685874'
+  - created_time: '2016-05-04T06:40:47+0000'
+    from:
+      name: Eslam El-Meniawy
+      id: '1839021782776078'
+    message: |-
+      Device ID or sim serial or device serial
+      اللى موجود منهم او خليط بين الـ ٣ لان مش كلهم موجودين في كل الاجهزة
+    id: '1137051256334581'
+  - created_time: '2016-05-04T07:24:00+0000'
+    from:
+      name: Mohamed Amin
+      id: '1809581442395089'
+    message: "الحمدلله المشكلة اتحلت بطريقتين : \nالحل الاول زي ما الناس قالت عن طريق
+      device_id  ."
+    id: '1137073302999043'
+  - created_time: '2016-05-04T07:28:09+0000'
+    from:
+      name: Mohamed Amin
+      id: '1809581442395089'
+    message: "الحل التاني عن طريق \nاننا ببعت id  من السيرفربيتيغير مع كل notification
+      جديدة واعمل check في ال application \nلو جاله قبل كدا ال id  دا مضيفش ال notification
+      \ وبكدا نضمن انه على نفس ال device  ميظهرولوش 2 notification اواكتر. \n\nشكرا
+      ليكم جدا :*"
+    id: '1137074672998906'
+  - created_time: '2016-05-04T07:47:40+0000'
+    from:
+      name: George Awad
+      id: '1781519898587185'
+    message: ممكن اول ما يوزر يعمل لوج أوت تعمل ويب سيرفس تعرف مين الأكونت الاون لاين
+      حاليا زي ما بنعملها عندنا في برامج الدردشه او اي برامج معتمد علي اكثر من مستخدم
+    id: '1137082896331417'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV6TmpZAeU9EQXhPVGN4TURJek9Eb3hORFl5TWpnMk1EQTEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV6TnpBNE1qZAzVOak16TVRReE56b3hORFl5TXpRNE1EWXcZD

@@ -1,0 +1,54 @@
+---
+message: 'I can''t get some python modules to install on Windows. Help? (Note: I''m
+  on Python 2.7.11 now, same problems)'
+link: http://stackoverflow.com/questions/40092570/could-not-find-function-xmlcheckversion-in-library-libxml2-is-libxml2-installed/40093274#40093274
+from:
+  name: Mohamed Oun
+  id: '10213382124519901'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQA4atFBdowvWO-S&w=130&h=130&url=http%3A%2F%2Fcdn.sstatic.net%2FSites%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded%26a&cfs=1&sx=0&sy=0&sw=316&sh=316&_nc_hash=AQDYVbPw7-vNSk2Z
+created_time: '2016-10-20T17:32:50+0000'
+updated_time: '2016-10-20T17:43:25+0000'
+name: Could not find function xmlCheckVersion in library libxml2. Is libxml2 installed?
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1263853233654382/
+id: '172338516139198_1263853233654382'
+comments:
+  data:
+  - created_time: '2016-10-20T17:41:03+0000'
+    from:
+      name: Amr Yousef
+      id: '10216129314284453'
+    message: Is it 32 or 64 bit Windows?
+    id: '1263857960320576'
+  - created_time: '2016-10-20T17:41:40+0000'
+    from:
+      name: Mohamed Oun
+      id: '10213382124519901'
+    message: '64'
+    id: '1263858196987219'
+  - created_time: '2016-10-20T17:43:24+0000'
+    from:
+      name: Amr Yousef
+      id: '10216129314284453'
+    message: I guess maybe try to install lxml-3.6.4-cp27-cp27m-win_amd64.whl explicitly
+    id: '1263858823653823'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkyTXpnMU56azJNRE15TURVM05qb3hORGMyT1RnMU1qWTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkyTXpnMU9EZA3lNelkxTXpneU16b3hORGMyT1RnMU5EQTAZD
+attachments:
+  data:
+  - description: so I'm on Python 3.5.2, I'm trying to install scrapy, it throws an
+      error saying Failed building wheel for lxml Could not find function xmlCheckVersion
+      in library libxml2. Is libxml2 installed...
+    media:
+      image:
+        height: 316
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAntEGj6KNL8I7m&w=316&h=316&url=http%3A%2F%2Fcdn.sstatic.net%2FSites%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded%26a&cfs=1&sx=0&sy=0&sw=316&sh=316&_nc_hash=AQAI6p974RoCbfNJ
+        width: 316
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F40092570%2Fcould-not-find-function-xmlcheckversion-in-library-libxml2-is-libxml2-installed%2F40093274%2340093274&h=ATPsu-gKWJtcNRXGwih7nRb0iZj_UJYdQ4uPOfLwOscrTtXc8qw5Cf4mcgCwNYXNPLCqhZ6oerptt6fbmZz7gC-Mv0YC0ZjIKQsI&s=1&enc=AZO7Bb1DGnSlr6meszSUEmD-D32gZqWOtYq2DkTNyEEqLJRrzK8mwD2MahF_YvtYTRwN9SwH1cmcTp0xtqKlI6Lw
+    title: Could not find function xmlCheckVersion in library libxml2. Is libxml2
+      installed?
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F40092570%2Fcould-not-find-function-xmlcheckversion-in-library-libxml2-is-libxml2-installed%2F40093274%2340093274&h=ATPsu-gKWJtcNRXGwih7nRb0iZj_UJYdQ4uPOfLwOscrTtXc8qw5Cf4mcgCwNYXNPLCqhZ6oerptt6fbmZz7gC-Mv0YC0ZjIKQsI&s=1&enc=AZO7Bb1DGnSlr6meszSUEmD-D32gZqWOtYq2DkTNyEEqLJRrzK8mwD2MahF_YvtYTRwN9SwH1cmcTp0xtqKlI6Lw

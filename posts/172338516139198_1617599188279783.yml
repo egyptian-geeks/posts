@@ -1,0 +1,99 @@
+---
+message: what's the most important design pattern we should learn ?
+from:
+  name: Hazem Abdelalim
+  id: '821931318008026'
+type: status
+created_time: '2017-09-26T22:14:59+0000'
+updated_time: '2017-09-28T18:50:25+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1617599188279783/
+id: '172338516139198_1617599188279783'
+reactions:
+  data:
+  - id: '10156237978265039'
+    name: Muhammad Ahmed Hataba
+    type: LIKE
+  - id: '10155502591672779'
+    name: Mo'men Bauomy
+    type: LIKE
+  paging:
+    cursors:
+      before: TnpVNU56STFNRE00T2pFMU1EWTJNRGsxTmpRNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TmpVNE5ESTNOemM0T2pFMU1EWTBOamt4TWpJNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-09-26T22:20:48+0000'
+    from:
+      name: Mohammed Hussien
+      id: '10154922289347024'
+    message: The answer is to know what is design pattern and why we use it?
+    id: '1617602078279494'
+  - created_time: '2017-09-27T03:09:45+0000'
+    from:
+      name: Mohamed Redaa
+      id: '985760211591832'
+    message: "هم كلهم 23 \nكل pattern وليها حالتها\nيعني كلهم مهمين"
+    id: '1617744294931939'
+  - created_time: '2017-09-27T06:34:30+0000'
+    from:
+      name: Mohamed Nabil
+      id: '941919879288729'
+    message: it depends on the kind of problem also it's a great topic in computer
+      science called abstraction which not involve specific pattern it's problem solving
+      mindset
+    id: '1617826948257007'
+  - created_time: '2017-09-27T16:43:39+0000'
+    from:
+      name: Ahmed Saleh
+      id: '10159933379005574'
+    message: The most important design pattern is to favor composition to inheritance.
+      Write by contracts and favor interfaces
+    id: '1618159601557075'
+  - created_time: '2017-09-27T17:08:09+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: just one?
+    id: '1618193574887011'
+  - created_time: '2017-09-27T17:47:35+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: To clarify, design patterns are like half-baked solutions to common problems
+      that people see every day. e.g. a class that should only have one instance and
+      the singleton pattern, or a class that can only be built with certain configurations
+      and using a factory pattern. The idea is, like cooking, you don't have to follow
+      everything to the letter but you need basic skills, e.g. you learn to use a
+      pan and oil and then you can pan fry anything. You learn how to roast in the
+      oven, you can use that for fish, lamb or chicken. Meaning these are the basic
+      problems you would be facing every day to do your job, and design patterns are
+      a common way to solve these common problems through many years of industry experience
+      distilled (summarized) in these patterns. So you never really learn ONE pattern,
+      rather you learn to abstract the problem (define the problem). Is it a problem
+      that requires a certain structure (structural patterns), Is it related to how
+      you create an object (Creational patterns) or is it related to how an object
+      behaves (behavioral patterns) or is it a mixture of all those, which it commonly
+      is. The idea is to find the best pattern that most simply solves your problem
+      (NOT THE FANCIEST or most complicated) and apply that to the solution.
+    id: '1618220131551022'
+  - created_time: '2017-09-28T03:07:40+0000'
+    from:
+      name: Ahmed ElRefaey
+      id: '1963622213652553'
+    message: "If you are very busy:\nSingleton \nObserver pattern \nStrategy pattern
+      \nAdapter/Facade"
+    id: '1618522244854144'
+  - created_time: '2017-09-28T18:50:22+0000'
+    from:
+      name: Farouk Elabady
+      id: '10156125708187299'
+    message: "Okay if you are talking about frameworks, so it depends upon the language
+      that you are using, but if we take Java for example the most common design patterns
+      that I often find in most frameworks are the following\nProxy pattern, which
+      is the main one used for aspectJ \nfactory pattern\nbuilder pattern\nDependency
+      injection\nfinally MVC and it's derivatives"
+    id: '1619188588120843'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl4TnpZAd01qQTNPREkzT1RRNU5Eb3hOVEEyTkRZAME5EUTUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl4T1RFNE9EVTRPREV5TURnME16b3hOVEEyTmpJME5qSXkZD

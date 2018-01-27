@@ -1,0 +1,17 @@
+---
+message: |-
+  SA,
+  I started to learn how to make a bootloader a couple of days ago,everything was working fine till I reached the multi-stage bootloader,
+  I made a single stage bootloader on a bootable ISO and it worked fine on VirtualBox but the problem is when I try to make a multi-stage bootloader (the boot sector is calling another bootloader in the same drive),it always gives me "INT18: boot failure" and after searching I found that I should change the boot order in VirtualBox but still the same problem.
+  The boot signature is right,I am using nasm assembler,you can find the demo in this tutorial if you want to try it by yourself :
+  http://www.brokenthorn.com/Resources/OSDev6.html
+
+  In the demo "Boot1.bin" is calling "KRNLDR.SYS" just to print a string to the screen,He is using bochs emulator and a floppy for booting,I faced some problems with bochs so I decided to use VirtualBox and ISO instead,I am stuck with this problem so any help will be appreciated.
+from:
+  name: Abdelrhman Ibrahim
+  id: '2030578307267370'
+type: status
+created_time: '2015-05-15T20:28:25+0000'
+updated_time: '2015-05-15T20:28:25+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/940166549356387/
+id: '172338516139198_940166549356387'

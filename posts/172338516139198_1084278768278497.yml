@@ -1,0 +1,98 @@
+---
+message: "يا شباب بعد اذنكم \nانا كنت رافع app على google play \nوحبيت اعمل ابديت
+  ليه ف قالى لازم اغير ال version code ولما عملت كدا ورفعته تانى بقى بيضرب من اول
+  ما يشتغل مع انه فى ال test شغال عادى \nحد قابلته المشكله دى ؟ \n#اندرويد"
+from:
+  name: Mohamed Abdelkawi
+  id: '1823967451010923'
+type: status
+created_time: '2016-02-21T22:55:37+0000'
+updated_time: '2016-02-22T08:11:25+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1084278768278497/
+id: '172338516139198_1084278768278497'
+reactions:
+  data:
+  - id: '1487671784675336'
+    name: Mohamad Emad
+    type: LIKE
+  - id: '1466247800164499'
+    name: Mosaab Ahmed
+    type: LIKE
+  - id: '10213705794213073'
+    name: Ahmed Ibrahim Amer
+    type: LIKE
+  - id: '10156191099748000'
+    name: Shady Mohamed Sherif
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlPVGMxT0RjM05qZAzFPakUwTlRZAeE5UQXhNemc2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TlRVMk5qTTNPVGs1T2pFME5UWXdPVGMyTWpZANk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-02-21T22:59:21+0000'
+    from:
+      name: Morad Edwar
+      id: '10215772499725897'
+    message: |-
+      ممكن تستخدم حاجة زى fabric تقولك ال exception اللي بيحصل اية عشان ال code version ملهوش علاقة باللى انت بتحكى عنه خالص.
+      هل جربت تمسح النسخة القديمة وتحط الجديدة بعد كدة؟؟
+    id: '1084279511611756'
+  - created_time: '2016-02-21T23:00:56+0000'
+    from:
+      name: Ahmed Ibrahim Khalil
+      id: '10152956726593657'
+    message: "في أغلب الأحوال، ال APK الي طالع معمول ب Proguard.\nعندك حل من إتنين:\n١-
+      تعمل \nrelease {\n     minifyEnabled false\n}\n٢- تعمل\ndebug {\n     minifyEnabled
+      true\n}\nو تعمل Run و تشوف بيحصل Crash ليه بالضبط."
+    id: '1084279891611718'
+  - created_time: '2016-02-21T23:01:43+0000'
+    from:
+      name: Mohamed Abdelkawi
+      id: '1823967451010923'
+    message: طيب هو فى مود ال debug شغال عادى
+    id: '1084280094945031'
+  - created_time: '2016-02-21T23:01:46+0000'
+    from:
+      name: Abdalla Elnaggar
+      id: '2096764887006623'
+    message: اعمل ريستارت للجهاز علشان الموضوع حصل معايا قبل كده
+    id: '1084280111611696'
+  - created_time: '2016-02-21T23:02:36+0000'
+    from:
+      name: Mohamed Abdelkawi
+      id: '1823967451010923'
+    message: لما باجى اعمل release وارفعه على الاستور واشغله يضرب
+    id: '1084280274945013'
+  - created_time: '2016-02-21T23:30:54+0000'
+    from:
+      name: Mohamed Abdelkawi
+      id: '1823967451010923'
+    message: "Ahmed Ibrahim Khalil \nAbdalla Elnaggar \nMorad Edwar \nانا اسف يا شباب
+      انا كنت عامل min sdk ب 16 وفى الابديت ما غيرتهاش ف كانت ب 15 \nلما ظبطتها اشتغلت
+      :D \nمعلش تعبتكم معايا"
+    id: '1084292078277166'
+  - created_time: '2016-02-22T04:21:14+0000'
+    from:
+      name: Omar Hassan
+      id: '10156054633057370'
+    message: check if you are enabling the progurd in your release build, it may be
+      on and has changed something in your released bundle.
+    id: '1084415974931443'
+  - created_time: '2016-02-22T04:22:36+0000'
+    from:
+      name: Omar Hassan
+      id: '10156054633057370'
+    message: Also install the corrupted version from the play store and open your
+      device logcat to check what is going wrong
+    id: '1084417318264642'
+  - created_time: '2016-02-22T08:11:24+0000'
+    from:
+      name: Amr Hossam
+      id: '10159938985930611'
+    message: Sameh Mohamed EL-Shafie
+    id: '1084493791590328'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE0TkRJM09UVXhNVFl4TVRjMU5qb3hORFUyTURrMU5UWXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE0TkRRNU16YzVNVFU1TURNeU9Eb3hORFUyTVRJNE5qZAzEZD

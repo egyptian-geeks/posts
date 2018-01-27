@@ -1,0 +1,76 @@
+---
+message: Can I save a 15 mb file on private blockchain ?
+from:
+  name: Hasan Ahmed Shaddad
+  id: '2053367764940163'
+type: status
+created_time: '2017-11-19T18:48:13+0000'
+updated_time: '2017-11-21T19:59:29+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1667044666668568/
+id: '172338516139198_1667044666668568'
+comments:
+  data:
+  - created_time: '2017-11-19T18:50:10+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: What do you mean? Blockchain is typically used to establish trust in
+      a distributed transaction system, but it's not a storage system of arbitrary
+      data
+    id: '1667047580001610'
+  - created_time: '2017-11-19T19:05:28+0000'
+    from:
+      name: Emad Omara
+      id: '10155049224141583'
+    message: "Not sure what do you mean by “private” but there are plenty of new companies
+      that provide cloud storage based on block chain which is basically mean peer
+      to peer storage \U0001F642 like Storj \nJust make sure to encrypt your file
+      before putting it in the wild out there \U0001F642"
+    id: '1667058440000524'
+  - created_time: '2017-11-20T04:44:42+0000'
+    from:
+      name: Hasan Ahmed Shaddad
+      id: '2053367764940163'
+    message: "thank you for your replays \nwhat i need is to create a contract on
+      the azure consortium blockchain to send file from member to another member the
+      file'll be hashed \nnow I know that i can store data up to 8 mb on the block
+      but I am wondering what'll stop me to do that like the cost of gas so what I
+      wanna be sure about is \n1- is there any cost for mining when i use a private
+      blockchain ?\n2-is it real that my storage limit on the block when I use private
+      bc is up to 8mb?"
+    id: '1667435936629441'
+  - created_time: '2017-11-20T11:21:49+0000'
+    from:
+      name: Nour Haridy
+      id: '10156101857379222'
+    message: 'Your private blockchain is your private blockchain. You are free to
+      change whichever parameters you want, including increasing the gas limit by
+      1000x or more. This said, you must understand why there''s an artificial gas
+      limit in the first place. Keep in mind that every transaction sent to the blockchain
+      is replicated on each node. If each node on your blockchain is capable of receiving,
+      processing and storing significant amounts of data then you can increase the
+      block limit to gigabytes. But most likely, what you''re looking for is a Distributed
+      Hash Table (DHT) which is a different data structure from a blockchain but it
+      works well alongside the blockchain. Major DHT technologies are currently torrents
+      and IPFS. If you''re looking for a professional blockchain/DHT/P2P consultation,
+      feel free to contact us at Lamarkaz: https://lamarkaz.com'
+    id: '1667672273272474'
+  - created_time: '2017-11-20T14:36:13+0000'
+    from:
+      name: Hasan Ahmed Shaddad
+      id: '2053367764940163'
+    message: "سؤال اخير لو انا هشتغل على ال azure consertum blockchain \nهل هنا هيكون
+      فيه تكلفه لل miming  ولا لأ ؟"
+    id: '1667813456591689'
+  - created_time: '2017-11-21T19:59:25+0000'
+    from:
+      name: Mostafa Sakr
+      id: '1638668526186387'
+    message: |-
+      علي حد علمي
+      you save only the transactions hashed on the blockchain, and then validate the hash to make sure, but to save a file hashed you can not decrypt it back, it is one way only, for the files/data should be saved on IPFS
+    id: '1669037686469266'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkyTnpBME56VTRNREF3TVRZAeE1Eb3hOVEV4TVRFM05ERXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkyT1RBek56WTROalEyT1RJMk5qb3hOVEV4TWprME16WTIZD

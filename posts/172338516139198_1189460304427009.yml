@@ -1,0 +1,165 @@
+---
+message: |-
+  Something weird is happening today, I am getting security notices from Google Chrome when I try to access websites over https like MDN. Anybody noticed anything?
+
+  Edit: Currently it is happening consistently when I try to access MDN or LinkedIn
+from:
+  name: Ahmad Alfy
+  id: '10154904189965670'
+type: status
+created_time: '2016-07-26T06:43:41+0000'
+updated_time: '2016-07-31T17:59:05+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1189460304427009/
+id: '172338516139198_1189460304427009'
+reactions:
+  data:
+  - id: '1949964998587808'
+    name: Yasmeen AbdelMohsen
+    type: LIKE
+  - id: '1798842506802216'
+    name: Ruqaia Fareed
+    type: LIKE
+  - id: '10155347034245773'
+    name: آية محفوظ
+    type: LIKE
+  - id: '1867707726586896'
+    name: Mera Karam
+    type: LIKE
+  - id: '10155783123700239'
+    name: Ahmed Mekkawy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTNNakk1TnpreE1Ua3dPakUwTmprMk1EVXlPVFE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TnpRM016ZA3dNak00T2pFME5qazFNall3TmpNNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-07-26T06:44:53+0000'
+    from:
+      name: Muhammed Nagy
+      id: '495080930892199'
+    message: nothing happened with me
+    id: '1189460574426982'
+  - created_time: '2016-07-26T06:49:56+0000'
+    from:
+      name: Mohamed Abdel Aty
+      id: '10215620557573580'
+    message: what is your certificate path for this website ?
+    id: '1189461654426874'
+  - created_time: '2016-07-26T06:56:29+0000'
+    from:
+      name: Amany Elguindy
+      id: '10156274593643013'
+    message: Sounds bad! Can you tell us the details of this security notice?
+    id: '1189463137760059'
+  - created_time: '2016-07-26T06:59:16+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: This is the content of the message
+    id: '1189464137759959'
+  - created_time: '2016-07-26T06:59:48+0000'
+    from:
+      name: Mohamed Abdel Aty
+      id: '10215620557573580'
+    message: click advanced and show the message
+    id: '1189464401093266'
+  - created_time: '2016-07-26T07:00:03+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: This is the error in the console when I check the https details
+    id: '1189464547759918'
+  - created_time: '2016-07-26T07:00:54+0000'
+    from:
+      name: Rafael Youakeem
+      id: '10155364957371909'
+    message: Something fishy is happening, for a week now I am not able to connect
+      to SSH unless through a VPN
+    id: '1189464791093227'
+  - created_time: '2016-07-26T07:12:36+0000'
+    from:
+      name: Ahmed Hosny
+      id: '2077007312536296'
+    message: |-
+      Not happening for me !
+      Tried with MDN over HTTPS, worked without any security notices.
+      Using Chrome 51.0.2704.106 (64-bit) on Ubuntu.
+    id: '1189470014426038'
+  - created_time: '2016-07-26T07:13:01+0000'
+    from:
+      name: Ahmed Hosny
+      id: '2077007312536296'
+    message: Also, Been able to connect to SSH without any issues through the past
+      week and till Today. Without VPN sure.
+    id: '1189470064426033'
+  - created_time: '2016-07-26T07:17:28+0000'
+    from:
+      name: Mohamed Abdel Aty
+      id: '10215620557573580'
+    message: |-
+      this is not a "general" issue , i have been able to use VPN and SSH and all websites without issues , this seems targeted or limited to groups of users
+
+      could be a network attack or a targeted spyware, could be something else we don't know yet
+    id: '1189470881092618'
+  - created_time: '2016-07-26T09:27:02+0000'
+    from:
+      name: Ahmed Magdy
+      id: '10155638727450376'
+    message: If you are in hotel or coffee shop wifi then this could be the issue,
+      the firewalls they using with requires to sign in using a username and password
+      to get Internet access could be changing the certificate to an invalid one until
+      you log on.
+    id: '1189520017754371'
+  - created_time: '2016-07-26T09:33:12+0000'
+    from:
+      name: Ahmed Melege
+      id: '10156112171242375'
+    message: Check your system's date & time. :)
+    id: '1189522784420761'
+  - created_time: '2016-07-26T10:53:18+0000'
+    from:
+      name: Hussein Khalifa
+      id: '10100126826681456'
+    message: Exactly check the time and date. If they are correct please press on
+      the view certificate and take a screenshot of the certificate it self
+    id: '1189553187751054'
+  - created_time: '2016-07-26T11:19:36+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: |-
+      Time and date are perfect.
+      I think it's something related to the network I am using at home or it is ISP related. Right now I am at work and everything works flawlessly. I can confirm now that it is ISP related
+    id: '1189568234416216'
+  - created_time: '2016-07-26T11:29:58+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: If anyone use Orange DSL (LinkDSL) please provide your feedback whether
+      you're facing that issue or not.
+    id: '1189574097748963'
+  - created_time: '2016-07-26T21:54:27+0000'
+    from:
+      name: Mohannad Ali
+      id: '10155955385444519'
+    message: Ramy Raoof
+    id: '1189868184386221'
+  - created_time: '2016-07-26T21:55:32+0000'
+    from:
+      name: Mohannad Ali
+      id: '10155955385444519'
+    message: There has been a lot of weird behaviour with SSL lately. Ramy Raoof wrote
+      a long post about this in the group some time ago.
+    id: '1189868447719528'
+  - created_time: '2016-07-31T17:59:05+0000'
+    from:
+      name: Ahmed Refaey
+      id: '1808892215797147'
+    message: شوف كده تاريخ الجهاز ممكن يكون في certificate قديمه بتحاول أبديت certificate
+      جديده
+    id: '1193206654052374'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU0T1RRMk1EVTNORFF5TmprNE1qb3hORFk1TlRFMU5EazAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU1TXpJd05qWTFOREExTWpNM05Eb3hORFk1T1RnM09UUTEZD

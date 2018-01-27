@@ -1,0 +1,65 @@
+---
+message: |-
+  السلام عليكم
+
+  استفسار من فضلكم يا شباب دلوقتى ممكن ننفذ mvc action عن طريق angularjs وكمان نفس القصة مع web api - طيب كده ايه الفرق بينهم ؟
+
+  اللى اعرفه ان web api المفروض انها تعتبر services - فهل ممكن توضيح للفرق بينهم او الفارق بين الحالتين السابقتين ؟
+
+  هل فى اى فارق فى الاداء او السرعة والا الاتنين واحد ؟ وامته استخدم MVC وامته استخدم web api ?
+from:
+  name: Ahmed Amin
+  id: '1962172197389574'
+type: status
+created_time: '2016-01-09T12:46:42+0000'
+updated_time: '2016-01-09T22:53:47+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1059571277415913/
+id: '172338516139198_1059571277415913'
+comments:
+  data:
+  - created_time: '2016-01-09T15:32:29+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      As far as I know, Web API is more lightweight because it's focusing just on REST services.
+      Also by default it's architecture is more suitable for REST, ya3ni you can see that the Web API controller is like a "resource" and the action is actually the HTTP method (get, post, put, delete), and it has content negotiation, so your action just returns an object or collection and the framework chooses a suitable serialization based on the "Accept" header in the HTTP Request and the available serializers (angular masalan hayotlob JSON and Web API has a JSON serializer by default fa things will just work), but of course all that is customizable.
+      Also in ASP.NET 5 (which is currently in beta), MVC and Web API will be based on the same classes (same routing, everything) and will share a lot, and it will just be a matter of configuration to switch from one to the other or make them work together in the same app.
+
+      Note: I might be wrong in a few things here, I only used Web API once or twice, in other cases I just did the lazy thing and made web services with MVC and serializing things manually using Json.NET or XDocument.
+    id: '1059640717408969'
+  - created_time: '2016-01-09T15:39:29+0000'
+    from:
+      name: Ahmed Salah Mohamed
+      id: '10156350315693322'
+    message: Now both are the same starting from mvc 6 , other mvc version controller
+      inherited from controller class support views and partial views but classes
+      inherited from apicontroller doesn't
+    id: '1059643107408730'
+  - created_time: '2016-01-09T17:39:40+0000'
+    from:
+      name: Ahmed Saleh
+      id: '1707137612683071'
+    message: MVC = Web API + other tools available.
+    id: '1059692274070480'
+  - created_time: '2016-01-09T17:44:51+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: جربت تدور علي سؤالك علي جوجل؟
+    id: '1059694444070263'
+  - created_time: '2016-01-09T22:53:46+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      Frankly speaking there is not much difference. As mentioned, that's why they will merge in ASP.NET 5 (currently RC1, expecting at least one more RC before RTM).
+
+      It's nice how you can return objects directly without wrapping them in Json() call, and you might be using the media negotiation (sending XML or JSON based on ACCEPT headers), but very few people do.
+
+      In projects I work on, developers like to think differently about controllers that return views and controllers that are used as HTTP / REST service. so they use MVC Actions for the first and Web API actions for the latter.
+    id: '1059811497391891'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEExT1RZAME1EY3hOelF3T0RrMk9Ub3hORFV5TXpVek5UVXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEExT1RneE1UUTVOek01TVRnNU1Ub3hORFV5TXpnd01ESTMZD

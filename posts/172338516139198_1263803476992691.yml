@@ -1,0 +1,112 @@
+---
+message: "- محتاج مساعده من Android Developer \n- أنا بذاكر كورس Developing Android
+  Apps من Udacity و في جزئية إن أربط API عشان يظهر داتا علي الأبلكشن بس لما أعمله
+  RUN بيظهر ERROR مش فاهمه , فعايز أعرف إيه الغلط اللي موجود بالظبط \nده ForecastFragment
+  Class اللي منه هظهر الداتا http://ideone.com/Fqexro\n - ده build.gradle عايز أعرف
+  هل فيه خطأ في build.each ?\nhttp://ideone.com/CN0IaO\n- وده error اللي بيظهر , وبعد
+  البحث إتضح إنه Network error بس مش عارف للأسف إيه الحل ؟ ؟ \nhttp://ideone.com/CN0IaO\nشكراا"
+from:
+  name: Omar Beshary
+  id: '10208412458988343'
+type: status
+created_time: '2016-10-20T16:17:15+0000'
+updated_time: '2016-10-20T21:45:55+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1263803476992691/
+id: '172338516139198_1263803476992691'
+reactions:
+  data:
+  - id: '1798842506802216'
+    name: Ruqaia Fareed
+    type: LIKE
+  - id: '10211400895684436'
+    name: Khalid Mohamed Al Wakeel
+    type: LIKE
+  - id: '1806285449669873'
+    name: Medo Gamey
+    type: LIKE
+  - id: '1641565752594739'
+    name: Ahmed Aziz
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdNamswTlRFM016ZAzBPakUwTnpZANU9EUXpOREU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlNak01T1RFMk5UUXpPakUwTnpZANU9EQXlOelU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-10-20T16:24:06+0000'
+    from:
+      name: Mohammed Hussien
+      id: '10154922289347024'
+    message: انت حطيت برمشن الانترنت في المانفيست ؟
+    id: '1263806780325694'
+  - created_time: '2016-10-20T16:26:12+0000'
+    from:
+      name: Mohammed Hussien
+      id: '10154922289347024'
+    message: وبعدين انت ليه تاج ال build.each متكرر مرتين ؟
+    id: '1263808150325557'
+  - created_time: '2016-10-20T16:31:52+0000'
+    from:
+      name: Ahmed Aziz
+      id: '1641565752594739'
+    message: |-
+      علشان تقدر تخش على الكورس ده محتاج تاخد الكورس ده الأول :
+      https://www.udacity.com/course/android-basics-networking--ud843
+
+      ودي الليست الكاملة اللى محتاج تكمل فيها قبل ماتخش على الكورس الأساسي الـ intermediate نفسه وبالترتيب ده :
+      Android Basics: User Interface
+      Android Basics: User Input
+      Android Basics: Multiple App Screens
+      Android Basics: Networking
+      Android Basics: Data Storage
+
+      حتلاقيهم كلهم على udacity.com/google
+    id: '1263813510325021'
+  - created_time: '2016-10-20T16:32:24+0000'
+    from:
+      name: Ayman Elarian
+      id: '10155076145535808'
+    message: |-
+      <manifest xlmns:android...>
+       <uses-permission android:name="android.permission.INTERNET" />
+      .......
+      </manifest>
+
+      في ملف اسمه AndroidMainfest.xml حط البرمشن  بتاع استخدام الانترنت فيه :)
+    id: '1263813910324981'
+  - created_time: '2016-10-20T17:00:26+0000'
+    from:
+      name: Rafael Adel
+      id: '10156260406777122'
+    message: |-
+      مش عارف ليه حاسس ان ال documentation بتاعت https://developer.android.com/training/index.html احسن من الكورس .. مع اني ماشي مع الكورس برضو
+
+      ده الجزء الخاص بال permissions https://developer.android.com/training/permissions/index.html
+    id: '1263832196989819'
+  - created_time: '2016-10-20T17:36:33+0000'
+    from:
+      name: Atef Khairy Etman
+      id: '10159996240855370'
+    message: حاول تفهم الاندرويد الاول وماتستعجلش وتدخل في الكورس علي طول عشان الكورس
+      مستواه intermediate شويه وبالتوفيق ان شاء الله
+    id: '1263855363654169'
+  - created_time: '2016-10-20T18:26:07+0000'
+    from:
+      name: Abdulrahman Rdwan
+      id: '583924271948588'
+    message: "اول غلطه عندك ان الادابتر بياخد الداتا الفيك اللي انت كنت مكريتها في
+      الاول المفروض الادابتر يكون بيكريت ارراي ليست جديده من الداتا اللي خدها من ال
+      api \n mForecastAdapter =\n                new ArrayAdapter<>(\n                        getActivity(),\n
+      \                       R.layout.list_item_forecast,\n                        R.id.list_item_forecast_view,\n
+      \                      new ArraList<String>);"
+    id: '1263885283651177'
+  - created_time: '2016-10-20T18:35:59+0000'
+    from:
+      name: Omar Beshary
+      id: '10208412458988343'
+    message: Bug إتحلت الحمد لله شكرا ليكووو
+    id: '1263891343650571'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkyTXpnd05qYzRNRE15TlRZANU5Eb3hORGMyT1Rnd05qUTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkyTXpnNU1UTTBNelkxTURVM01Ub3hORGMyT1RnNE5UVTUZD

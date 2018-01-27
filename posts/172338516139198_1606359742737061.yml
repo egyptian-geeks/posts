@@ -1,0 +1,105 @@
+---
+message: |-
+  لو عندي تسلسل معين شبه عشوائي مثال
+  0101011100001101101101001
+  وعايز احسب إحتمالية ان 1 ييجي بعد 0 قد ايه او ييجي بعد صفرين قد ايه والعكس صحيح وهكذا
+  ايه الحل المناسب للمشكله دي؟
+from:
+  name: Osama M Mahmoud
+  id: '10211522723563597'
+type: status
+created_time: '2017-09-13T23:43:04+0000'
+updated_time: '2017-09-14T02:29:51+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1606359742737061/
+id: '172338516139198_1606359742737061'
+reactions:
+  data:
+  - id: '926707540818900'
+    name: Ahmed Gamal
+    type: LIKE
+  - id: '1824520801181678'
+    name: Hamad Isht
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTBNemc1T0Rnek5USXlPakUxTURVek5qUTVOREU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTROekV6TWpZAeU56VTRPakUxTURVek5EYzRNVGM2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-09-13T23:44:47+0000'
+    from:
+      name: احمد قرواش
+      id: '1561022257326859'
+    message: "هو اعتقد ف حاله 0,1 \n50:50 لان اصلا انت عندك 2numbers بس فلاما يظهر
+      0 او 1"
+    id: '1606360466070322'
+  - created_time: '2017-09-13T23:46:29+0000'
+    from:
+      name: Ahmed Magdy
+      id: '2042443932659256'
+    message: الحل انك تاخد المثال كله يعني تحسب كام مرة الواحد ظهر بعد 0 + كام مرة
+      الواحد ظهر بعد 00 ...الخ تجمعهم علي بعض تتطلع النسبة
+    id: '1606361206070248'
+  - created_time: '2017-09-13T23:51:54+0000'
+    from:
+      name: Badreldin Mostafa
+      id: '10156305312664589'
+    message: read about binomial distributions
+    id: '1606363989403303'
+  - created_time: '2017-09-14T00:13:17+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: هل فيه Text محدد للمشكلة دي زي hacker rank كده؟ او ليها Context ممكن
+      نفهم منه اكتر بنحاول نوصل لايه؟
+    id: '1606373762735659'
+  - created_time: '2017-09-14T00:22:57+0000'
+    from:
+      name: Mohamed Rashad
+      id: '842430635938599'
+    message: |-
+      فى حاجة فى ال machine learning بنستخدمها لو عايزين نتبأ بحدث بناءا على حدث تانى وفيه نظرية مبنية على الكلام ده اسمها Bayesian theorem.
+      اقرأ عنها شوية هى سهلة مش صعبة وحاول تظبطها على الحالة بتاعتك وتعمل كذا version منها بحيث ان مثلا هنبتدى انها هتعتمد على اول 2 digits وتتنبأ اللى بعدهم ايه وهكذا لحد ما تخلص ال sequence وتكون زادت احتماالية انها تجاوب صح ... بعد كدها تعمل منه version بتشتغل على كل 3 digits وتعمل نفس اللى اتعمل قبل كدها وفى الأخر ترتب ال accuracy بتاعت ال models بتاعتك واصحهم استخدموا فى التنبأ ✌
+    id: '1606378389401863'
+  - created_time: '2017-09-14T00:34:21+0000'
+    from:
+      name: Diyaa Mahmoud
+      id: '1559170364118742'
+    message: حساب نسبه ظهور ترتيب معين ممكن يتعمل ب n-gram frequency  ,وديه سهله تتعمل
+      او هتلاقيها في اي مكتبه nlp
+    id: '1606384372734598'
+  - created_time: '2017-09-14T01:55:40+0000'
+    from:
+      name: Abdelrahman Serag
+      id: '10155131572865703'
+    message: |-
+      Regex?
+       https://github.com/BondoS/codewars-DecodeTheMorseCode-advanced/blob/master/DecodetheMorsecode%2Cadvanced.js
+    id: '1606425696063799'
+  - created_time: '2017-09-14T02:23:50+0000'
+    from:
+      name: Osama Gamal
+      id: '10156229200573311'
+    message: If the next value is independent from previous values, the best you can
+      do is to count number of ones and assume it will follow some probability distribution.
+      If it is dependent on previous values, an estimation model could do better than
+      random guess. Depending on context, you will find many approaches in estimation
+      theory and machine learning desciplines.
+    id: '1606439926062376'
+  - created_time: '2017-09-14T02:29:50+0000'
+    from:
+      name: Fady Morris Milad
+      id: '10160030835075061'
+    message: |-
+      هاتعمل sampling للـ frequency
+      هاتبتدى تعد :
+      p(0) : the probability of occurrence of no zeros before 1
+      p(1) : the probability of occurrence of exactly one zero before 1
+      p(2) : the probability of occurrence of exactly two zeros before 1
+      .....
+      وهكذا تشوف عاوز توصل لحد فين ، وفى الآخر مجموع الـ probabilities بيساوى 1
+    id: '1606442639395438'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl3TmpNMk1EUTJOakEzTURNeU1qb3hOVEExTXpRMk1qZAzMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl3TmpRME1qWXpPVE01TlRRek9Eb3hOVEExTXpVMk1Ua3cZD

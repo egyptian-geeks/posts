@@ -1,0 +1,56 @@
+---
+message: "السلام عليكم \nرمضان كريم عليكم كلكم\nانا عندب مشكلة بقالها اكتر من اسبوع
+  مش عارف احلها\nاولا معاي hostname من dyndns والراوتر بتاعي مش بيدعم ddns فمنزل برنامج
+  dyn client updater  وشغال كويس اوي على الاجهزة المتصلة بالشبكة المحلية وعلى الجهاز
+  اللي نازل عليه dyn client updater  \nبس لما اجي ادخل على على ال host name  من النت
+  و اي شبكة خارجية ماب بيشتغلش مع اني فاتح كل البورتات على firewall. وكمان جربت وقفلت
+  \ firewall وجربت كمان اعمل port forwarding  بس مش عايز يشتغل\nوحاولت اعمل ping  على
+  ال hostname وعلى public ip  بيقولي request time out \n االي مجنني انه شغال على الشبكة
+  المحلية بس على النت مش شغال ليه بقى مش عارف \nفياريت اللي عنده خبرة في الموضوع ده
+  يقولي ايه الحل \nوشكرا لكم جميعا مقدما"
+from:
+  name: Ibrahim Alsaman
+  id: '1996568780586889'
+type: status
+created_time: '2017-05-28T16:06:59+0000'
+updated_time: '2017-05-29T01:07:21+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1495933713779665/
+id: '172338516139198_1495933713779665'
+comments:
+  data:
+  - created_time: '2017-05-28T16:17:10+0000'
+    from:
+      name: Mohamed Asfour
+      id: '10156016150568334'
+    message: |-
+      لازم تعمل port forward بال external port اللي برا لل internal Ip بال internal port اللي جوا علي الجهاز
+      مشكلتك دي معناها ان ال port forward مش شغال او ال dydns Registration مش مظبوط
+
+      ممكن تجرب ال dynu(.)com  ... مجاني وممتاز عن تجربة
+    id: '1495941430445560'
+  - created_time: '2017-05-28T16:22:54+0000'
+    from:
+      name: Mohamed Asfour
+      id: '10156016150568334'
+    message: |-
+      ممكن
+      بس هوا قال انه قفل ال Firewall
+    id: '1495945503778486'
+  - created_time: '2017-05-28T16:48:52+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "اتاكد ان البورتات متظبطة الاول بالتجربة بالاي بي الاول بعدين نبقى نجرب
+      بال ddns \nالموضوع سهل واكيد في حاجة واقعة منك.. ياريت تجيب صور سكرين شوت للي
+      عندك في الراوتر"
+    id: '1495964897109880'
+  - created_time: '2017-05-28T16:58:07+0000'
+    from:
+      name: Ibrahim Alsaman
+      id: '1996568780586889'
+    message: انا حاليا بره الشغل فاستاذنك بكرة ان شاء الله وانا في الشغل تكون معاي
+    id: '1495970517109318'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE1TlRrME1UUXpNRFEwTlRVMk1Eb3hORGsxT1RnNE1qTXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE1TlRrM01EVXhOekV3T1RNeE9Eb3hORGsxT1Rrd05qZAzQZD

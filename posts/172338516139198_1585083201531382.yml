@@ -1,0 +1,130 @@
+---
+message: |-
+  بشتغل على real time app
+  ,وقدامى خيارين اما استخدم Pusher او  Socket.io   الى استخدمهم ممكن يقولى ايه  الاحسن من الاتنين واحسن ليه ؟
+from:
+  name: Muhammad Habib
+  id: '10209264695408079'
+type: status
+created_time: '2017-08-20T11:02:56+0000'
+updated_time: '2017-08-24T07:14:29+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1585083201531382/
+shares:
+  count: 1
+id: '172338516139198_1585083201531382'
+reactions:
+  data:
+  - id: '545884762441584'
+    name: Ahmad Tawila
+    type: LIKE
+  - id: '10155426916839779'
+    name: Amr Medhat
+    type: LIKE
+  - id: '10213893630388572'
+    name: Ibrahim Saeed
+    type: LIKE
+  - id: '1596110217148252'
+    name: Ahmed Badawy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01ERXdOakF4T1RRME16TTBPakUxTURNek1ERXdOakE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlORGM0Tmpnd09EVTJPakUxTURNeU1qa3lNRFU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-08-20T11:05:15+0000'
+    from:
+      name: Mahmoud Marzouk
+      id: '1553382168072217'
+    message: firebase
+    id: '1585084251531277'
+  - created_time: '2017-08-20T11:12:48+0000'
+    from:
+      name: Ammar Youssef
+      id: '10155097484932190'
+    message: "Pusher حاجة متكاملة بتشتغل على انواع كتير من backend و client\nوشغالة
+      على الموبايلات وليها كمان هوست يخلص لك الموضوع\n\nفي المقابل socket.io شغالة
+      على nodejs فقط \nاما ال client بتاعها الرسمي هو browser javascript \nهتلاقي
+      حاجات غير رسمية للموبايلات وغالبا قديمة ومليئة بالمشاكل ولا تحدث باستمرار، لا
+      يدعمها مؤسسة او فريق ، وبالتالي لا يعتمد عليها في منتج حقيقي للموبايلات"
+    id: '1585088308197538'
+  - created_time: '2017-08-20T11:13:30+0000'
+    from:
+      name: Amro Abou Zied
+      id: '1642217969157526'
+    message: firebase or signalR
+    id: '1585088774864158'
+  - created_time: '2017-08-20T11:28:40+0000'
+    from:
+      name: Mahmoud Kandeel
+      id: '10215070655377585'
+    message: Ahmed Mahmoud
+    id: '1585097818196587'
+  - created_time: '2017-08-20T11:36:32+0000'
+    from:
+      name: Abd El-Rahman Rafat
+      id: '1848749968530776'
+    message: |-
+      1-i think you are doing the wrong comparison, because pusher is a paid service and socket.io is a library.
+      2-if the cost of pusher is not a problem, go with it since it`s robust,reliable  and you wil not have to deal with socket.io/node.js hassle
+    id: '1585101958196173'
+  - created_time: '2017-08-20T12:36:49+0000'
+    from:
+      name: Ibrahim Zaki
+      id: '10157017423792738'
+    message: regular  web-socket  can sufficiently do that job
+    id: '1585142264858809'
+  - created_time: '2017-08-20T12:44:24+0000'
+    from:
+      name: Muhammed Nagy
+      id: '495080930892199'
+    message: "pusher جامد جدا جدا \nممكن تستخدم slanger وتهوست سيرفر pusher عندك \nاوفر
+      بمراحل"
+    id: '1585147061524996'
+  - created_time: '2017-08-20T13:55:53+0000'
+    from:
+      name: Mahmoud Kandeel
+      id: '10215070655377585'
+    message: https://www.youtube.com/playlist?list=PLzQFHINfB_YGd-VBjS-3EyBgscYcv9mGp
+    id: '1585200288186340'
+  - created_time: '2017-08-20T14:15:27+0000'
+    from:
+      name: Hussein Osman
+      id: '10215804044119360'
+    message: انا جربت socket.io
+    id: '1585215191518183'
+  - created_time: '2017-08-20T16:10:47+0000'
+    from:
+      name: Salama Salama Ashoush
+      id: '1942185386096820'
+    message: "socket io needs node server to work, when you try to use it in other
+      languages php for example you need to configure a node server with redis in
+      between the php and node server , but pusher is a service provider you can use
+      it in many language but will have to pay if exceeded the limit\U0001F600 (if
+      you working with node use socketio) otherwise use pusher  in languages like
+      php"
+    id: '1585306028175766'
+  - created_time: '2017-08-21T07:40:07+0000'
+    from:
+      name: Ahmad Tawila
+      id: '545884762441584'
+    message: Mohamed Khaled mention Ali :)
+    id: '1585864924786543'
+  - created_time: '2017-08-21T16:07:17+0000'
+    from:
+      name: Ziad Alzarka
+      id: '479718029096439'
+    message: |-
+      طبعا socket.io...
+      ال workaround بتاعها هوا pusher اصلا و بهدله للسرفرات و ده كان السبب اللى خلانى استخدم node بس مش لازم يعنى ممكن تعمل سرفر نود و جمبه php
+    id: '1586237914749244'
+  - created_time: '2017-08-24T07:14:27+0000'
+    from:
+      name: Dina Reda
+      id: '10155123895506641'
+    message: Socket.io and node
+    id: '1588415654531470'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU0TlRBNE5ESTFNVFV6TVRJM056b3hOVEF6TWpJM01URTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU0T0RReE5UWTFORFV6TVRRM01Eb3hOVEF6TlRVNE9EWTMZD

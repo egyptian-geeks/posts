@@ -1,0 +1,17 @@
+---
+message: Anyone knows how to track different cohorts (groups of people) downloading
+  an extension from Chrome store? What I thought of is to generate and distribute
+  different shortened URL's for each cohort, each of these URL's redirects to my server
+  to generate a cookie/file containing the cohort ID and place it on the user's machine,
+  and then takes the user to Chrome store to download the extension. Once downloaded,
+  the extension reads the cookie/file and saves the user ID together with its cohort
+  ID in the backend. I am not a developer, so I am not sure whether this is feasible
+  or it's science fiction :) Your suggestions are most appreciated!
+from:
+  name: Amir Abdel-Rahman El-Sherbiny
+  id: '10155127398715933'
+type: status
+created_time: '2015-01-11T16:28:42+0000'
+updated_time: '2015-01-12T17:42:58+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/879236802116029/
+id: '172338516139198_879236802116029'

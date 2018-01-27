@@ -1,0 +1,151 @@
+---
+message: |-
+  I'm using ExpressJS (NodeJS) and want to do the following:
+  function1 () {
+     request(http://.....)
+     return x;
+  }
+
+  function 2() {
+     request(http://.....)
+     return y;
+  }
+
+  function3 (x+y) {
+   return x+y;
+  }
+
+  main_function() {
+   var x = function1()
+   var y = function2()
+   function3(x,y);
+  }
+
+  My problem is request is asynchronous! so each time I call main_function(), x = undefined because the request was not finished yet!
+
+  So, how can I make request synchronous? or what library should I use with ExpressJS to help me making promises?
+
+  I tried async.series (Async Library) but it did not work!
+from:
+  name: Mahmoud M. Abdel-Fattah
+  id: '10160028885050387'
+type: status
+created_time: '2016-08-30T17:16:51+0000'
+updated_time: '2016-09-01T06:00:03+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1218502834856089/
+id: '172338516139198_1218502834856089'
+reactions:
+  data:
+  - id: '1641565752594739'
+    name: Ahmed Aziz
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlNak01T1RFMk5UUXpPakUwTnpJMk5UYzFNelE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlNak01T1RFMk5UUXpPakUwTnpJMk5UYzFNelE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-08-30T17:18:45+0000'
+    from:
+      name: Mahmoud Mortda
+      id: '1816374988414963'
+    message: Callback function
+    id: '1218503581522681'
+  - created_time: '2016-08-30T17:22:44+0000'
+    from:
+      name: Mohamed Hisham
+      id: '10155927653208847'
+    message: "Use async \nhttps://github.com/caolan/async"
+    id: '1218506504855722'
+  - created_time: '2016-08-30T17:24:40+0000'
+    from:
+      name: Mahmoud M. Abdel-Fattah
+      id: '10160028885050387'
+    message: Marwan Osman
+    id: '1218508221522217'
+  - created_time: '2016-08-30T17:27:12+0000'
+    from:
+      name: Mohammad Aboelnour
+      id: '10214471954062071'
+    message: |-
+      tried with promise object? : https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise
+
+      http://12devs.co.uk/articles/promises-an-alternative-way-to-approach-asynchronous-javascript/
+    id: '1218509614855411'
+  - created_time: '2016-08-30T17:34:18+0000'
+    from:
+      name: Yahya Sabry
+      id: '10155600388037886'
+    message: Are you sure you called the callback method properly after getting the
+      response?! if you can put the code snippet of the calling structure that would
+      help more
+    id: '1218514301521609'
+  - created_time: '2016-08-30T20:13:13+0000'
+    from:
+      name: Muhammed Nagy
+      id: '495080930892199'
+    message: Use callbacks
+    id: '1218617214844651'
+  - created_time: '2016-08-30T20:15:43+0000'
+    from:
+      name: Muhammed Nagy
+      id: '495080930892199'
+    message: Use callbacks
+    id: '1218618424844530'
+  - created_time: '2016-08-30T23:14:42+0000'
+    from:
+      name: Mostafa Muhammad
+      id: '10155787111376210'
+    message: |-
+      You have many options to handle asynchronous calls:
+
+      1) Callbacks are okay but are no longer the recommended pattern.
+      http://stackoverflow.com/questions/9596276/how-to-explain-callbacks-in-plain-english-how-are-they-different-from-calling-o
+
+      2) Promises which is your best bet for comaptibility with older versions of NodeJS, they are also the cleaner way of waiting for two or more async processes to finish.
+      https://davidwalsh.name/promises
+
+      3) To keep your code linear and use "try/catch" as you would with normal code then go for (async/await) keywords of ES7 but you will need the latest NodeJS to have that.
+      http://rossboucher.com/await
+    id: '1218733698166336'
+  - created_time: '2016-08-31T13:35:43+0000'
+    from:
+      name: Mahmoud M. Abdel-Fattah
+      id: '10160028885050387'
+    message: |-
+      Guys, the problem with callbacks is that you have to re-write the function for every time that you are going to use it!
+
+      So, if I'll use function1 10 times in different scenarios with call back, that mens I've to write it 10 different times, because in every time it'll has different callback!
+    id: '1219220874784285'
+  - created_time: '2016-08-31T16:09:19+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: No you just need to pass the function name instead of writing the anonymous
+      function each time
+    id: '1219314641441575'
+  - created_time: '2016-08-31T16:13:29+0000'
+    from:
+      name: Emad Elwany
+      id: '10156301839774701'
+    message: "Mahmoud M. Abdel-Fattah use promises...\nFirst promisify request() (you
+      can do it yourself using code like the following or using a package like promisify):\n\nfunction
+      requestPromise(url){\n    return new Promise(function(resolve, reject){\n         response
+      = request(url, function(err, res, body{\n                  if(err) \n                      return
+      reject(err);\n                  resolve(body);\n         });\n    }\n}... or
+      just use the request-promise package...\n\nthen your x/y calls become:\nvar
+      xPromise = requestPromise(\"http:..\").then(function(body){ return x;});\nvar
+      yPromise = requestPromise(\"http:..\").then(function(body){ return y;});\n\nand
+      you wait for both using Promise.All():\nPromise.All([xPromise, yPromise]).then(function(results){\n
+      \     function3(results[0], results[1]);\n}, function(err){ // Handle errors});"
+    id: '1219317621441277'
+  - created_time: '2016-09-01T06:00:00+0000'
+    from:
+      name: Mohamed Amgad
+      id: '10215433203563275'
+    message: I think promises answer is the best practice
+    id: '1219834258056280'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl4T0RVd016VTRNVFV5TWpZANE1Ub3hORGN5TlRjM05USTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl4T1Rnek5ESTFPREExTmpJNE1Eb3hORGN5TnpBNU5qQXcZD

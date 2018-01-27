@@ -1,0 +1,58 @@
+---
+message: |-
+  what do you know about the term "recursive strings"
+  the term was mentioned in (coding interview preparation e-mail of some company)
+  and I couldn't find that term (as is) on the internet
+  I know about recursion and some recursive operations on strings but what does that term mean?
+  does it mean recursive operations on strings, or strings with size that grows dynamically using recursion or what?
+from:
+  name: محمود ياسر
+  id: '1575928095831402'
+type: status
+created_time: '2017-09-14T14:23:26+0000'
+updated_time: '2017-09-14T19:39:39+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1606827989356903/
+id: '172338516139198_1606827989356903'
+reactions:
+  data:
+  - id: '1558917624215781'
+    name: Mohamed A. Salah
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlPVEkyTnpVeU5EazVPakUxTURVME16VXdNekk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlPVEkyTnpVeU5EazVPakUxTURVME16VXdNekk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-09-14T14:32:37+0000'
+    from:
+      name: Abdelkarim Mamdouh
+      id: '2013204002023890'
+    message: ".\nnot sure but, I think they are the strings that could be define recursively.
+      \n\nexample: palindrome could be defined recursively  as  \n\nS ==> e | char
+      | a S a | b S b | d S d .......| z S z\nchar ==> a|b|c|d|e|......|z\ne is the
+      empty string\n\nWe use such things in compiler topics."
+    id: '1606833796022989'
+  - created_time: '2017-09-14T18:17:06+0000'
+    from:
+      name: محمود ياسر
+      id: '1575928095831402'
+    message: مؤمن عبد القادر Ahmed Abo Elleef
+    id: '1606979116008457'
+  - created_time: '2017-09-14T19:24:48+0000'
+    from:
+      name: مؤمن عبد القادر
+      id: '10209987525676546'
+    message: Yeah, it's not clear for me too. But most probably it's about recursive
+      solutions for strings problems!
+    id: '1607045069335195'
+  - created_time: '2017-09-14T19:39:37+0000'
+    from:
+      name: Mohamed Shaaban
+      id: '10156259295924301'
+    message: Better ask them instead of guessing
+    id: '1607054026000966'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl3Tmpnek16YzVOakF5TWprNE9Ub3hOVEExTXprNU5UVTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl3TnpBMU5EQXlOakF3TURrMk5qb3hOVEExTkRFM09UYzMZD

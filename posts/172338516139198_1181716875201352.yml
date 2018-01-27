@@ -1,0 +1,89 @@
+---
+message: "السلام عليكم . \n\nازاي ممكن احدد ال Long tail keyword في مقال عربي . \n\nلو
+  فيه مقال مكتوب فيه جملة \"تعرف علي اهم انواع العصائر الطبيعية فائدة للانسان \".
+  \n\nازاي ممكن اخلي الابلكيشن يقول ان الكلمات المهمة هنا كلمة \"العصائر الطبيعية\"
+  وكلمة \"انواع العصائر\"\n\nوان كلمة \"الطبيعية فائدة\" ملهاش لزمة ومش مهمة لانها
+  ملهاش معني علي بعضها . \n\nلو حابب ادور علي مسمي الموضوع دا في ال NLP هيكون اسمه
+  ايه ؟\n\nشكرا مقدما ."
+from:
+  name: Mohamed Fergany
+  id: '10215339863195300'
+type: status
+created_time: '2016-07-14T13:24:24+0000'
+updated_time: '2016-07-14T20:12:56+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1181716875201352/
+id: '172338516139198_1181716875201352'
+reactions:
+  data:
+  - id: '10155965038378745'
+    name: Said Bakr
+    type: LIKE
+  - id: '1561923947178330'
+    name: Loai Nagati
+    type: LIKE
+  paging:
+    cursors:
+      before: TnpnNU1ESXpOelEwT2pFME5qZAzFNemd5TVRJNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQXdPREl5TWpBd056YzNPakUwTmpnMU1ESTNNemc2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-07-14T14:48:55+0000'
+    from:
+      name: Eman Abbas
+      id: '1246864805414174'
+    message: حضرتك عايزه يتعرف علي الكلمات المهمه في كل الجمل اللي في الدنيا  ولا
+      اللي تبع ontology  أو context  معين بيحدده المستخدم مسبقا ؟؟
+    id: '1181772385195801'
+  - created_time: '2016-07-14T14:51:46+0000'
+    from:
+      name: Mohamed Fergany
+      id: '10215339863195300'
+    message: بيكون عندي مقالات عاوز احدد فيها ال كي ووردز دي . فاعتقد هتكون جينرال
+      مش في كونتكست معين
+    id: '1181773791862327'
+  - created_time: '2016-07-14T15:04:27+0000'
+    from:
+      name: Eman Abbas
+      id: '1246864805414174'
+    message: هي لو تحت تصنيف معين ولنفترض مثلا اسم براند معين فالبراند ده هيحط لنفسه
+      شويه كلمات هي المهم  أو relevant عنده زي  أسماء العروض و أسامي المنتجات و كده
+      و حضرتك و انت بتعمل بارسينج للجمله هتدي الكلمات دي weight أكبر  , ومن خلال ال
+      machine learning  ممكن من تحليل مقالات كتير توصل لمودل كويس يشتغل لوحده بعد
+      كده ... كمان تدور علي الكلمات المعرّفه و علم الشخص زي الأسماء وكده في النحو
+    id: '1181782001861506'
+  - created_time: '2016-07-14T16:07:06+0000'
+    from:
+      name: Tarek Amr
+      id: '10155854949245944'
+    message: لو عندك عدد من المقالات وعايز الكلام المهم في كل واحدة فيهم، عليك وعلى
+      ال vector space model وال tf.idf
+    id: '1181818131857893'
+  - created_time: '2016-07-14T20:08:24+0000'
+    from:
+      name: Mahmoud Mortda
+      id: '1816374988414963'
+    message: "https://en.wikipedia.org/wiki/Supervised_learning \nhttps://en.wikipedia.org/wiki/Unsupervised_learning"
+    id: '1181946781845028'
+  - created_time: '2016-07-14T20:08:40+0000'
+    from:
+      name: Mahmoud Mortda
+      id: '1816374988414963'
+    message: https://en.wikipedia.org/wiki/Unsupervised_learning
+    id: '1181946905178349'
+  - created_time: '2016-07-14T20:11:02+0000'
+    from:
+      name: Mahmoud Mortda
+      id: '1816374988414963'
+    message: ممكن تستخدم LDA algorithm  وتكت كل الكلمات العربى اللى عاوز تخرجها   ونتيجتها
+      هتكون كويسة
+    id: '1181947731844933'
+  - created_time: '2016-07-14T20:12:56+0000'
+    from:
+      name: Mohab El-Shishtawy
+      id: '10215847428638318'
+    message: Search Arabic keyphrase extraction
+    id: '1181949058511467'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU0TVRjM01qTTROVEU1TlRnd01Ub3hORFk0TlRBM056TTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU0TVRrME9UQTFPRFV4TVRRMk56b3hORFk0TlRJM01UYzMZD

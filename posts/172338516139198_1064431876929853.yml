@@ -1,0 +1,121 @@
+---
+message: "من ابداعات ميكروسوفت\nانك علشان تسطب اغلب البرامج هتحتاج .Net Framework
+  3.5\nو علشان تعرف تسطب اوفلاين Net Framework 3.5\nلازم يكون متسطب عندك Net Framework
+  3.5\nحد قابل المشكله المتخلفة دي قبل كده ؟! \n**تحديث : تم حل المشكله .\nنزلته اونلاين
+  و اشتغل شكرا لكل اللي حاول يساعد"
+from:
+  name: Islam Abolfotouh
+  id: '1776571649028109'
+type: status
+created_time: '2016-01-18T13:02:35+0000'
+updated_time: '2016-01-18T23:30:10+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1064431876929853/
+id: '172338516139198_1064431876929853'
+reactions:
+  data:
+  - id: '1763959737010749'
+    name: Ahmed Mahmoud
+    type: LIKE
+  - id: '10213985926195361'
+    name: Ahmed Fawzy Omaira
+    type: LIKE
+  - id: '10154922289347024'
+    name: Mohammed Hussien
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhPVEF5TVRrM05Ea3lPakUwTlRNek1EazJNRE02TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TmprNU1UTXlNREl6T2pFME5UTXhNakl5TnpjNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-01-18T13:04:36+0000'
+    from:
+      name: Mohammed Hussien
+      id: '10154922289347024'
+    message: ":D"
+    id: '1064432476929793'
+  - created_time: '2016-01-18T13:06:08+0000'
+    from:
+      name: Islam Fawzi
+      id: '10211190235537661'
+    message: كبنل
+    id: '1064433170263057'
+  - created_time: '2016-01-18T13:06:22+0000'
+    from:
+      name: Mariam Maarouf
+      id: '10155779091916638'
+    message: There are two installation packages - a web installer and a full package.
+      The former requires an internet connection as you go, and the other doesn't.
+      Check to see which one you have.
+    id: '1064433233596384'
+  - created_time: '2016-01-18T13:07:40+0000'
+    from:
+      name: Wael Kamash
+      id: '10156048414048544'
+    message: Is this windows 8.0 ?
+    id: '1064433663596341'
+  - created_time: '2016-01-18T13:12:46+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: Windows 10 , why you need 3.5 are you trying to install SQL ?!!!
+    id: '1064435530262821'
+  - created_time: '2016-01-18T14:04:34+0000'
+    from:
+      name: Anas Ben Baligh
+      id: '10155856433916578'
+    message: Dead lock
+    id: '1064454443594263'
+  - created_time: '2016-01-18T14:18:26+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: من الآخر هم معتبرين ان الانترنت بقت زي الكهربا.
+    id: '1064458500260524'
+  - created_time: '2016-01-18T14:33:19+0000'
+    from:
+      name: Amir Mohamed Atia
+      id: '10155967624789840'
+    message: |-
+      هتلاقيه محتاج windows installer 3.5 مش  net fram work
+      حاول تتاكد
+    id: '1064470190259355'
+  - created_time: '2016-01-18T16:04:36+0000'
+    from:
+      name: Mostafa Almohamady
+      id: '1816261521748961'
+    message: How to install it offline https://support.microsoft.com/en-us/kb/2785188
+    id: '1064506476922393'
+  - created_time: '2016-01-18T17:42:35+0000'
+    from:
+      name: Amir Mohamed Atia
+      id: '10155967624789840'
+    message: طب ما تقول الحل ياباشا
+    id: '1064547600251614'
+  - created_time: '2016-01-18T19:48:03+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: It's part of Windows Components. In start search for windows components
+      and look for it.
+    id: '1064597943579913'
+  - created_time: '2016-01-18T20:30:00+0000'
+    from:
+      name: Ahmed Salah
+      id: '10155456561408635'
+    message: "0. Load your Installation media (ISO image/ DVD/ USB) you installed
+      Windows from.\n1. Run cmd as administrator.\n\n2. use the following command:
+      \nDISM /Online /Enable-Feature /FeatureName:NetFx3 /All /LimitAccess /Source:d:\\sources\\sxs
+      \n\nwhere:\nd:\\ specifies the location of the installation drive (DVD/ USB
+      /ISO)"
+    id: '1064613970244977'
+  - created_time: '2016-01-18T23:30:10+0000'
+    from:
+      name: Ibrahim Mohammed
+      id: '1886120441698692'
+    message: فى installer بيسطب من نسخه الويندوز
+    id: '1064670213572686'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEEyTkRRek1qUTNOamt5T1RjNU16b3hORFV6TVRJeU1qYzIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEEyTkRZAM01ESXhNelUzTWpZANE5qb3hORFV6TVRVNU9ERXcZD

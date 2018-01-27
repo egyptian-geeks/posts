@@ -1,0 +1,49 @@
+---
+message: "Hello everyone,\n\nI am working on a small project in which I have to set
+  up a docker container which carries nginx reverse proxy. The idea is that I want
+  the connection to that container with https. However, as I am doing it locally on
+  my machine I can't get certificates from the CA I am using. The CA is Let's Encrypt.
+  I registered for a domain name with my public ip address on FreeDNS to overcome
+  this issue but it didn't work and writing the domain name in the browser doesn't
+  give anything with knowing that I am running xampp to test it. \n\nAny idea what
+  should I do?"
+from:
+  name: Bdr Mohamed
+  id: '2015246105157800'
+type: status
+created_time: '2018-01-08T00:18:09+0000'
+updated_time: '2018-01-09T12:50:25+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1715561275150240/
+id: '172338516139198_1715561275150240'
+reactions:
+  data:
+  - id: '1772542006152666'
+    name: Mohamed AbuIssa
+    type: LIKE
+  - id: '10156165643313420'
+    name: Tony Raoul Iscaros
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhPVEEyTlRBNU16RXlPakUxTVRVek9UVTRNVGM2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TlRNeU1qQTROREU1T2pFMU1UVXpOekl4T0RVNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2018-01-08T00:23:25+0000'
+    from:
+      name: Tony Raoul Iscaros
+      id: '10156165643313420'
+    message: |-
+      I am not sure what you want to do but you can Create a certificate using openssl and trust it from your machine.
+      If I understand correctly running https://localhost is good for you ?
+    id: '1715582205148147'
+  - created_time: '2018-01-08T09:21:34+0000'
+    from:
+      name: Eiad Amr
+      id: '1786979848265063'
+    message: جرب موقع certbot
+    id: '1715937808445920'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN4TlRVNE1qSXdOVEUwT0RFME56b3hOVEUxTXpjeE1EQTEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN4TlRrek56ZA3dPRFEwTlRreU1Eb3hOVEUxTkRBek1qazEZD

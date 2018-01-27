@@ -1,0 +1,13 @@
+---
+message: |-
+  CSharp - i have to deal with a very large number to loop through and check the number IsSquare or not and count them. BTW The code is works fine with 32bit int range , but when i tried long,Int64,BigInteger the app is hang at runtime with no exception and i checked the task manager it consumes more than 30% of CPU and 5MB of RAM and takes a lot of time without any output while running also i have debugged the loop to check the values and it also hangs on large numbers .
+
+  any suggestions would be appreciated :)
+from:
+  name: Eslam Hamouda
+  id: '10212947071504226'
+type: status
+created_time: '2013-04-14T05:01:36+0000'
+updated_time: '2013-04-14T15:49:28+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/553690038004042/
+id: '172338516139198_553690038004042'

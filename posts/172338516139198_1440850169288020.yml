@@ -1,0 +1,85 @@
+---
+message: There was a recent discussion about decimal point reperesntation. This site
+  explains the main problem from a mathematical PoV in simple terms, regardless of
+  hardware architecture and language limitations, then provides examples of how different
+  programming languages choose to handle/represent this issue.
+link: http://0.30000000000000004.com/
+from:
+  name: Ahmed Al-Amir
+  id: '10156207737619180'
+type: link
+created_time: '2017-04-03T00:29:37+0000'
+updated_time: '2017-04-04T00:41:00+0000'
+name: 0.30000000000000004 - Floating Point Math
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1440850169288020/
+id: '172338516139198_1440850169288020'
+reactions:
+  data:
+  - id: '10156115350739764'
+    name: Mahmoud Tantawy
+    type: LIKE
+  - id: '1955441501387657'
+    name: Bassam Abd Elhamid
+    type: LIKE
+  - id: '10215461207703148'
+    name: Khaled Elnaggar
+    type: LIKE
+  - id: '1757059004600122'
+    name: Mayy Abdel Bary
+    type: LIKE
+  - id: '1969998133040174'
+    name: Fady Dawood
+    type: LIKE
+  - id: '758534544341052'
+    name: Ehab Elwan
+    type: LIKE
+  - id: '1589304647821970'
+    name: Menem Salama
+    type: LIKE
+  - id: '2027932964114883'
+    name: Mohamed Salah Hassan
+    type: LIKE
+  - id: '10159750515025408'
+    name: Mohamed Tarek El Haddad
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRFME5UYzVOell6T2pFME9URXpNRGN4T1RRNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TmprNU5UVXdOREEzT2pFME9URXhPREEzTWpRNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-04-03T01:35:26+0000'
+    from:
+      name: Omar Kamel
+      id: '10214030500170038'
+    message: Mina Sameh Hany Abd El Moniem
+    id: '1440894695950234'
+  - created_time: '2017-04-03T02:02:28+0000'
+    from:
+      name: Khaled M. Diab
+      id: '10215626626127168'
+    message: |-
+      https://twitter.com/stephentyrone/status/848335466185330689
+
+      :D
+    id: '1440911889281848'
+  - created_time: '2017-04-03T18:38:28+0000'
+    from:
+      name: Ali Helmy
+      id: '10154988356050583'
+    message: Well, if you're not checking against Epsilon, and checking against 0.0f,
+      you're setting yourself up for a nice endless loop :)
+    id: '1441626189210418'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEwTURnNU5EWTVOVGsxTURJek5Eb3hORGt4TVRnek16STMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEwTVRZAeU5qRTRPVEl4TURReE9Eb3hORGt4TWpRME56QTQZD
+attachments:
+  data:
+  - description: Some examples of sending .1 + .2 to standard output in a variety
+      of languages.
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2F0.30000000000000004.com%2F&h=ATO8teWrIbIN6Yoa4ZofDP-L-N1dEjDz8K4h8Sy-2KnQWyi1Jdk5FQEWNX4xfpLc9vkMQBIClZH61ks24lTmcms0Pf0nt3G2CYq7&s=1&enc=AZPhwlwRi27tCLBV4Uy63taDOhqDkudGjc2AEy5RVr13pK6BUndsne6IUZLJ7O3t_D_jgY-FiZgTfD5FVXHpc6kz
+    title: 0.30000000000000004 - Floating Point Math
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2F0.30000000000000004.com%2F&h=ATO8teWrIbIN6Yoa4ZofDP-L-N1dEjDz8K4h8Sy-2KnQWyi1Jdk5FQEWNX4xfpLc9vkMQBIClZH61ks24lTmcms0Pf0nt3G2CYq7&s=1&enc=AZPhwlwRi27tCLBV4Uy63taDOhqDkudGjc2AEy5RVr13pK6BUndsne6IUZLJ7O3t_D_jgY-FiZgTfD5FVXHpc6kz

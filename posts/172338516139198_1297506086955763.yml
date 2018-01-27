@@ -1,0 +1,98 @@
+---
+message: |-
+  SA,
+  I've been noticing some delays in streaming videos/browsing for the last couple of days, but when I do the speed test (that chooses the nearest server based on your location by default) it shows me high speed download rates.
+  Today I performed the test by choosing a server outside Egypt manually, and found this catastrophic result.
+
+  My bundle is 10Mbps, and my ISP is Etisalat.
+  1. Do you experience such delays with other ISPs?
+  2. Do you think this is the local ISP problem, or it's a regional/global ISP issue?
+
+  Thanks in advance.
+link: https://www.facebook.com/photo.php?fbid=10154718591827328&set=gm.1297506086955763&type=3
+from:
+  name: Mohamed Gamal
+  id: '10156096685587328'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/13532834_10154718591827328_6356390488974502386_n.jpg?oh=2f31e0ba687f3f23b77241253fbb9d47&oe=5B1F42E3
+created_time: '2016-11-18T19:08:41+0000'
+updated_time: '2016-11-20T12:13:09+0000'
+name: Photos from Mohamed Gamal's post
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1297506086955763/
+id: '172338516139198_1297506086955763'
+reactions:
+  data:
+  - id: '1738622019522129'
+    name: Mahmoud Essam
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhNak13TkRNeE1UTTBPakUwTnprMk5EUXlNVGM2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXhNak13TkRNeE1UTTBPakUwTnprMk5EUXlNVGM2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-11-18T19:17:41+0000'
+    from:
+      name: Rafael Adel
+      id: '10156260406777122'
+    message: Yea sometimes..  Changing between dns servers helps a bit
+    id: '1297510640288641'
+  - created_time: '2016-11-18T19:32:34+0000'
+    from:
+      name: Seif Hatem
+      id: '10213015857764534'
+    message: |-
+      i get the same results approximately when I choose any server outside Egypt even if it's near (Israelian ISP) for example.
+
+      not sure why is it throttled that much...
+
+      ISP: TeData
+    id: '1297517873621251'
+  - created_time: '2016-11-18T21:19:16+0000'
+    from:
+      name: محمد عرفة
+      id: '10155907524039651'
+    message: Check this group for deep packet inspection.
+    id: '1297620880277617'
+  - created_time: '2016-11-18T22:01:50+0000'
+    from:
+      name: Shady Atef
+      id: '10213518317565801'
+    message: "There is something wrong with the ISPs these days..\nMy speed throttles
+      sometimes while playing online \nand other time it goes above my subscribed
+      plan ..\nUps & Downs"
+    id: '1297645606941811'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEk1TnpVeE1EWTBNREk0T0RZAME1Ub3hORGM1TkRrMk5qWXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEk1TnpZAME5UWXdOamswTVRneE1Ub3hORGM1TlRBMk5URXcZD
+attachments:
+  data:
+  - subattachments:
+      data:
+      - media:
+          image:
+            height: 433
+            src: https://scontent.xx.fbcdn.net/v/t1.0-9/13532834_10154718591827328_6356390488974502386_n.jpg?oh=e47d8415b32fe886145ab9eeaeb44713&oe=5AE50905
+            width: 706
+        target:
+          id: '10154718591827328'
+          url: https://www.facebook.com/photo.php?fbid=10154718591827328&set=gm.1297506086955763&type=3
+        type: photo
+        url: https://www.facebook.com/photo.php?fbid=10154718591827328&set=gm.1297506086955763&type=3
+      - media:
+          image:
+            height: 434
+            src: https://scontent.xx.fbcdn.net/v/t1.0-9/15032116_10154718594552328_7720985562251735549_n.jpg?oh=9cfce4f6f956faf22a1052fd87082f53&oe=5AE1BCC6
+            width: 695
+        target:
+          id: '10154718594552328'
+          url: https://www.facebook.com/photo.php?fbid=10154718594552328&set=gm.1297506086955763&type=3
+        type: photo
+        url: https://www.facebook.com/photo.php?fbid=10154718594552328&set=gm.1297506086955763&type=3
+    target:
+      id: '1297506086955763'
+      url: https://www.facebook.com/media/set/?set=pcb.1297506086955763&type=1
+    title: Photos from Mohamed Gamal's post
+    type: album
+    url: https://www.facebook.com/media/set/?set=pcb.1297506086955763&type=1

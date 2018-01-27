@@ -1,0 +1,26 @@
+---
+message: "I'm making a facebook-like android app.\nI have a problem in handling (like
+  button state)\nwhen a user likes a post I make a request and store the user id and
+  the post_id in a table called (likes) to force user to hit \"like\" once(actually
+  i check the user id and post id every like request)\nthe problem appeared here:\nwhen
+  I retrieve Posts list from mysql using php. all button backgrounds are in it's (initial
+  state although this user hit like button before and the background had changed already)\n\nHow
+  can I keep button background every time I retrieve data from mysql into my android
+  app? \n#android #social_apps"
+from:
+  name: Bishoy Abd Lamey
+  id: '1809349152432380'
+type: status
+created_time: '2017-05-12T12:38:26+0000'
+updated_time: '2017-05-12T20:04:48+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1480711181968585/
+id: '172338516139198_1480711181968585'
+reactions:
+  data:
+  - id: '1999765416908747'
+    name: Ahmed Khalifa
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTJNalU1TWpNNE9EVXlPakUwT1RRMk1URTNOalk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTJNalU1TWpNNE9EVXlPakUwT1RRMk1URTNOalk2TWpVME1EazJNVFl4TXc9PQZDZD

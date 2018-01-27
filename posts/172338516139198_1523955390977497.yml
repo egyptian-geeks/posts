@@ -1,0 +1,33 @@
+---
+message: ما الافضل  في تطبيقات الاندرويد استخدم  java webservice   مع mysql او استخدم
+  php script مع mysql لربط قواعد البيانات مع تطبيق اندوريد او استخدم firebase ؟
+from:
+  name: MoHamed Rabie
+  id: '1737499959640615'
+type: status
+created_time: '2017-06-22T20:42:17+0000'
+updated_time: '2017-06-22T23:35:02+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1523955390977497/
+id: '172338516139198_1523955390977497'
+comments:
+  data:
+  - created_time: '2017-06-22T20:59:47+0000'
+    from:
+      name: Ahmed Ashraf Gamal
+      id: '10215489165042760'
+    message: |-
+      ده بيعتمد على انت بتفضل ايه وعلى الbusiness logic بتاعك
+      مبدئياً firebase noSQL يعنى الdata بتاعتها بتبقى stored as json وده عكس طبعاً mysql
+      (فانت لو بتعتمد على relational database design ساعتها الموضوع هيبقى صعب مع firebase وأسهلك كتير لو شغال sql)
+      الغالبية بتروح لfirebase دلوقتى لو الapp مش كبير والtraffic بتاعته مش هتبقى عظيمة وده طبعاً عشان هى free (بس ليها traffic limitations)
+    id: '1523964934309876'
+  - created_time: '2017-06-22T21:17:53+0000'
+    from:
+      name: Hany Ahmed
+      id: '10156089330442292'
+    message: اختار اللي انت عارفه كويس.
+    id: '1523975964308773'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV5TXprMk5Ea3pORE13T1RnM05qb3hORGs0TVRZAMU1UZAzMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV5TXprM05UazJORE13T0RjM016b3hORGs0TVRZAMk1qY3oZD

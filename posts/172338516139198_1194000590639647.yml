@@ -1,0 +1,240 @@
+---
+message: "السلام عليكم \n\nكان عندنا مشكلة من كام يوم ان السيرفر عندنا مش عارف يهندل
+  2000 concurrent users بيعملوا 6 مليون ركوست علي السيرفر في اليوم مع ان السيرفر كبير
+  21 كور و 64 جيجا رامات .\nكان دايما بيدي مشكلة في ال getway . \nظبطنا Nignix علي
+  اكتر من سيرفر و الDistributed Database بال Mongo \n\n حالياً كل الريكوستات متهندله
+  تمام و كله شغال مستقر و لكن الريكوست بياخد وقت طويل .. شغلنا ال Nginx Cache ولكن
+  بردو الريكوستات بتاخد وقت طويل \n\nال 2000 concurrent user بيعملوا عندنا 2000 insert
+  و 2000 select  في الثانية . \nوازاي ممكن نعرف اكتر حاجة بتاخد وقت في الresponse
+  خصوصا ان الشغل متوزع ما بين سيرفرات كتير . \n\nايه ممكن يكون عامل مساعد في ان ال
+  response ياخد وقت كبير . خصوصا ان السيرفرات اللود عليها مش عالي وعادي جدا . \n\nوهل
+  فيه اي حلول تاني ممكن نعملها ؟ \n\n* لغة البرمجة PHP فريم وورك لارفيل ."
+from:
+  name: Mohamed Fergany
+  id: '10215339863195300'
+type: status
+created_time: '2016-08-01T20:37:12+0000'
+updated_time: '2016-08-03T20:15:36+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1194000590639647/
+id: '172338516139198_1194000590639647'
+reactions:
+  data:
+  - id: '1847421335299420'
+    name: Ahmed Sabry
+    type: LIKE
+  - id: '1665988986754750'
+    name: Osama Nour
+    type: LIKE
+  - id: '10156243575441004'
+    name: Ahmad Zakaria
+    type: LIKE
+  - id: '946433645509687'
+    name: Ahmed Mohsen
+    type: LIKE
+  - id: '10159800858645702'
+    name: Ahmed Samir
+    type: LIKE
+  - id: '10210172319016618'
+    name: Mohamed Hagras
+    type: LIKE
+  - id: '1012026932279218'
+    name: Ahmed Mohamed Abd El-Hamid
+    type: LIKE
+  - id: '1928384107425504'
+    name: Ahmed Hashem
+    type: LIKE
+  - id: '560708687597049'
+    name: Mahmoud Fathy
+    type: LIKE
+  - id: '10155277571022606'
+    name: Heba El Deeb
+    type: LIKE
+  - id: '1928718333823741'
+    name: Ahmed Hassan
+    type: LIKE
+  - id: '1657509230977456'
+    name: Hosam Aly
+    type: LIKE
+  - id: '1769679443064146'
+    name: Gerges Bernaba
+    type: LIKE
+  - id: '10156238158522384'
+    name: Osama Ali
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdPVFEzTVRNNU9ESXdPakUwTnpBeU9UTTBNRE02TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TlRrMk5USXlNemd6T2pFME56QXdPRFF3TnprNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-08-01T20:39:11+0000'
+    from:
+      name: Abdulrahman Mohamed
+      id: '1666406580084320'
+    message: ممكن تستخدم حاجة زى newrelic هتعرفك كل حاجة عن السيرفر لحظة بلحظة وهيقولك
+      كل ريكويست اخد وقت اد ايه
+    id: '1194001337306239'
+  - created_time: '2016-08-01T21:17:56+0000'
+    from:
+      name: Ahmed Hassan
+      id: '1928718333823741'
+    message: سبب المشكلة على الاغلب هو NGINX يفضل انكم تضبطوه كـ Proxy لـ Apache عشان
+      تكون وظيفته انه يهندل الملفات الاستاتيك فقط ووالديناميك ل Apache واستخدمو MPM
+      worker في Apache Modules حتكون افضل من الوضع الحالي لانه اعتقد ممكن تنتهي المشكلة
+      على كده لو منتهتش وفي مشاكل حاول في حجات تانية زي انك تستخدم HHVM بعدها لو لسه
+      المشكلة فضلت يبقى ساعتها لازم تفكر انك تشيل Laravel من الاجزاء الي عليه اللود
+      وتستبدله بحاجه Raw
+    id: '1194019300637776'
+  - created_time: '2016-08-01T21:29:20+0000'
+    from:
+      name: Mohamed Radwan
+      id: '10159976552365192'
+    message: ياعم الحج المشكلة ديه اتحلت شوف الحل تحت
+    id: '1194028690636837'
+  - created_time: '2016-08-01T21:32:04+0000'
+    from:
+      name: Abdulrahman Mohamed
+      id: '1666406580084320'
+    message: Ayman Fekri عندك حل للحوار ده يابرنس ؟
+    id: '1194029567303416'
+  - created_time: '2016-08-01T21:33:22+0000'
+    from:
+      name: Mohamed Hossam Khedr
+      id: '10215483790636656'
+    message: الداتابيز نوعها ايه؟ ولو mysql جداولها نوعها ايه؟
+    id: '1194030117303361'
+  - created_time: '2016-08-01T21:40:30+0000'
+    from:
+      name: Osama Mohamed
+      id: '1031877253626444'
+    message: Ahmed Mahfouz
+    id: '1194032233969816'
+  - created_time: '2016-08-01T21:43:34+0000'
+    from:
+      name: Mohamed Fawzy
+      id: '10159960198215788'
+    message: Use phalcon ?
+    id: '1194033387303034'
+  - created_time: '2016-08-01T22:30:24+0000'
+    from:
+      name: Ahmed Khairy Bakr
+      id: '1606420726061866'
+    message: Optimize you queries and your indexes
+    id: '1194050767301296'
+  - created_time: '2016-08-01T22:49:25+0000'
+    from:
+      name: Yahya Sabry
+      id: '10155600388037886'
+    message: هي ايه كميه الحلول الخزعبليه دي .. كل واحد بيطلب انك تغير حاجه أساسيه
+      في بروجيكت واضح انه كبير و الحركه فيه بقت اصعب ... انصح انك تستخدم حاجه ذي newrelic
+      او بديلها لو لارافيل بيقدم حاجه كده و أتوقع انك هتلاقيها بسهوله ان شاء الله
+      علشان تشوف كل ريكويست بياخد وقت قد ايه .. وحدد الريكويستات اللي محتاجه تظبيط
+      او الكود اللي محتاج optimization و دور عليه هو تحديدا ... و بالمناسبه mongo
+      ممتازة بس فيها عيب ابن كلب ان اغلب الداتا في الميموري و بتsynch علي الهارد كل
+      فتره مع نفسها .. اللي لو قدر الله سيرفر طار او احتجت تعمل ريستارت فأنت هتزعل
+      ... انت ممكن تغير الاوبشن ده انها تكتب علي طول علي الهارد بس هتكون أبطأ
+    id: '1194059520633754'
+  - created_time: '2016-08-01T23:12:54+0000'
+    from:
+      name: Hussein Mohamed Momtaz
+      id: '10156208031698896'
+    message: Abdelrahman Khedr
+    id: '1194084107297962'
+  - created_time: '2016-08-02T01:52:15+0000'
+    from:
+      name: Fouad Abd ELrazek
+      id: '10215316053233596'
+    message: |-
+      حضرتك لازم تستخدم حاجة زى newrelic علشان تحدد المشكلة فين لو المشكلة من ال DB ولو انى أشك ممكن تستخدم حاجة زى Redis ده Caching system حيظبطلك الدنيا أوى
+      لو المشكلة من الاسكربيت لازم تعمل Code Optimization و ممكن تبص على HipHop for php حيظبطلك الدنيا جامد
+    id: '1194166280623078'
+  - created_time: '2016-08-02T07:14:31+0000'
+    from:
+      name: Ahmed Mahfouz
+      id: '10215133032616444'
+    message: مفيش حل من غير ما تحدد المشكله الاول
+    id: '1194306633942376'
+  - created_time: '2016-08-02T08:08:00+0000'
+    from:
+      name: Ahmed Soliman
+      id: '10152402728970388'
+    message: First step is to understand your performance baseline and figure out
+      what the bottleneck is, if a request takes so long, is it boggling the CPU time?
+      Is it IO? Neither?  Every combination has some possibilities but I definitely
+      agree that you should not change anything unless you know what you are doing.
+      Profiling and instrumentation are your best friends here.
+    id: '1194331300606576'
+  - created_time: '2016-08-02T11:38:18+0000'
+    from:
+      name: Mohamed Yosry
+      id: '10160309026495393'
+    message: متفق تماما انك لازم تعمل profiling عشان تعرف سبب المشكلة. النقطة التانية
+      الى متوقع ممكن تكون سبب المشكلة انك بتscale vertically.  بمعنى انك واخد جهاز
+      واحد ضخم لكل الapps و هنا ممكن يكون ابليكشن منهم بتاخد الresources بتاعة معظم
+      الجهاز و بتقلل الperformance بتاع بقية البرامج. جرب تفصل تعمل setup من اجهزة
+      اقل بحيث الdb لوحدها  على سيرفر(ات) مناسبة ليها (هارد SSD مثلا) او managed service
+      و تخلي فى كذا سيرفر للweb server و فى load balancer. و الprofiling حيوضحلك لو
+      سبب المشكلة لو كنت محتاح caching مثلا او تحسن queries تقيلة.
+    id: '1194429237263449'
+  - created_time: '2016-08-02T12:52:02+0000'
+    from:
+      name: Mohammad Aboelnour
+      id: '10214471954062071'
+    message: |-
+      "you can't optimize what you don't measure"
+      I guess that you should start by using some profiling tool like "new relic" as most of the guys told you here.
+
+      And I guess you should revisit your arch design as you depend on one large machine only, you can start with 2 app servers and a load balancer and measure the difference.
+
+      For caching: you should check why you need caching? and which type of caching you need? page caching, action caching, page fragments caching, low-level caching, SQL caching, ...
+
+      Caching is a solution for a specific problem, before applying it, make sure that your problem is a cache problem and can't be solved except by caching.
+
+      Good Luck.
+    id: '1194479743925065'
+  - created_time: '2016-08-02T14:28:20+0000'
+    from:
+      name: Musa Hamza
+      id: '10156020325916241'
+    message: |-
+      ان السيرفر كبير 21 كور و 64 جيجا رامات .
+      كان دايما بيدي مشكلة في ال getway .
+      How did you do that and Why did u do it ?
+      ظبطنا Nignix علي اكتر من سيرفر و  الDistributed Database بال Mongo
+      What's your configuration and What's your MongoDB configuration ?
+
+      Did you Enable  Database Profiling ? and Do you use Replica Set Oplog or not ?
+    id: '1194529767253396'
+  - created_time: '2016-08-02T14:33:48+0000'
+    from:
+      name: Musa Hamza
+      id: '10156020325916241'
+    message: 'and As the previous comment listed  : " you can''t optimize what you
+      don''t measure " .  Seems you already did many optimisations  without measuring
+      .'
+    id: '1194531843919855'
+  - created_time: '2016-08-02T16:06:02+0000'
+    from:
+      name: Ahmed M. Araby
+      id: '10155547863649263'
+    message: "فرجاني فرجاني , بص , عايزك تركز شوية :D\nمافيش حد هايقدر يقولك ايه المشكله
+      \nاي حل هاتجربه دلوقتي كدا , هاتبقي زي اللي اللي بيغمض عنيه وماسك مسدس وبيحاول
+      يضرب عصفوره :D بالظبط كدا\nلو قعدت جربت في حلول للصبح عشوائي من غير ماتكون عارف
+      ايه المشكله نفسها هاتبقي انت وحظك\nلازم تفتح عينك كدا وتحاول تحلل وتفهم وتشوف\nدي
+      بداية \nhttp://stackoverflow.com/questions/18451681/how-to-find-queries-not-using-indexes-or-slow-in-mongodb"
+    id: '1194578943915145'
+  - created_time: '2016-08-03T13:38:15+0000'
+    from:
+      name: Mohamed Fergany
+      id: '10215339863195300'
+    message: "شكرا يا شباب علي المساعدة \nاحنا كان عندنا اسرع اننا نجرب فريموورك تاني
+      تحديدا فالكون في الجزء دا من الابلكيشن الي بيعمل لود . لان من المقارنات علي
+      المواقع لارفيل من اتقل الفريمووركس الي بتعمل لود\nبعد ما غيرنا الفريم وورك الوقت
+      نزل من 5 ثواني ل 200 ملثانية . ودا رقم افضل بكتير بالنسبة لينا \nهنبدأ نستخدم
+      باذن الله كل الي انتو قولتوه هنا وهنجرب لغاية ما ننزل الرقم اقل من كدا . \nوهكتب
+      باذن الله تجربة للي حصل بشكل كامل\nشكرا مرة تاني"
+    id: '1195193147187058'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU1TkRBd01UTXpOek13TmpJek9Ub3hORGN3TURnek9UVXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU1TlRFNU16RTBOekU0TnpBMU9Eb3hORGN3TWpNeE5EazEZD

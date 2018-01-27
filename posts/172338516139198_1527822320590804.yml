@@ -1,0 +1,75 @@
+---
+message: anyone has a solution ?
+link: https://www.facebook.com/photo.php?fbid=1016271398475622&set=gm.1527822320590804&type=3
+from:
+  name: Abdelrhman Elsaid
+  id: '1189827847786642'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/19420860_1016271398475622_105809237398883200_n.jpg?oh=036eca47f4015a676c49d666db9f799f&oe=5AF30D0B
+created_time: '2017-06-26T21:26:20+0000'
+updated_time: '2017-06-28T09:06:37+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1527822320590804/
+id: '172338516139198_1527822320590804'
+comments:
+  data:
+  - created_time: '2017-06-26T21:33:00+0000'
+    from:
+      name: Mahmoud Hossam
+      id: '1360912124012585'
+    message: Have you tried googling the error?
+    id: '1527826677257035'
+  - created_time: '2017-06-26T22:08:55+0000'
+    from:
+      name: Ahmed Elsiginy
+      id: '10215130092304225'
+    message: The problem is probably from the array declaration , try removing the
+      =""; it's useless
+    id: '1527847843921585'
+  - created_time: '2017-06-26T22:14:03+0000'
+    from:
+      name: Mohammed Alaa El Komy
+      id: '1791452377571672'
+    message: "ال array الى انت عاملها مقاسها فالاول طول ال empty string و ال array
+      مينفعش تغير طولها لانك لما بتعمل cin عليها ممكن تكبرها عن ال empty string لانها
+      اساسا محجوزة و ده undefined behavior\nيعنى ممكن عندى يشتغل و عندك ميشتغلش و
+      هو اشتغل فعلا فالكومبلر بتاعى\nو كمان strlen مش بتجيب حجم الراما المحجوزة دى
+      بتجيب طول الstring فعلا عن طريق نهايته الى هيا \\0\nاول حاجة \nطالما بتتعامل
+      مع  c++ استخدم string \nاو تذاكر ال char array فال c عشان فيها تفاصيل كتير زى
+      ال concatenation مثلا و لازم تبقى حاجز من الاول الراما الى هتكفيك \nيعنى عشان
+      تشغل المثال بتاعك لازم اول سطر يبقى مثلا \n char name[50]=\"\";\nلانك لو مدتهاش
+      مساحة هتحسب طول ال sequence الى انت مدخله الى هو صفر فهتحجز فالراما \\0 او نهاية
+      السلسلة"
+    id: '1527850477254655'
+  - created_time: '2017-06-27T05:00:33+0000'
+    from:
+      name: Tarek Dawoud
+      id: '10156109957694861'
+    message: معلش... أنت عايز تبقى مبرمج؟ لو عايز تبقى مبرمج ما ينفعش تحط سكرين شوت
+      (صورة الشاشة) بتاعت الخطأ من غير أي محاولة للبحث عن المشكلة... أبسط حاجة اعمل
+      Retry وادخل Debug Mode وشوف الخطأ في أنهي سطر في أنهي حتة أساساً... يعني الناس
+      كلها هنا باصة في الكود مع إن الخطأ ممكن في أي مكان... ما ينفعش  مبرمج يكون جوه
+      Visual Studio وقدامه الكود وما يعملش Debug.
+    id: '1528165910556445'
+  - created_time: '2017-06-27T13:30:05+0000'
+    from:
+      name: Ehab Ali
+      id: '10154902547591307'
+    message: you can't assign empty string ("") to array of characters.
+    id: '1528547880518248'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV5TnpneU5qWTNOekkxTnpBek5Ub3hORGs0TlRFeU56ZA3gZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV5T0RVME56ZAzRNRFV4T0RJME9Eb3hORGs0TlRjd01qQTEZD
+attachments:
+  data:
+  - description: anyone has a solution ?
+    media:
+      image:
+        height: 385
+        src: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/19417323_1016271398475622_105809237398883200_o.jpg?oh=bf735c49839240e87a0f1692098046f4&oe=5ADDED2C
+        width: 720
+    target:
+      id: '1016271398475622'
+      url: https://www.facebook.com/photo.php?fbid=1016271398475622&set=gm.1527822320590804&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=1016271398475622&set=gm.1527822320590804&type=3

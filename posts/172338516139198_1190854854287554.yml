@@ -1,0 +1,52 @@
+---
+message: |-
+  Hi guys,
+
+  I've an issue with Docker in MacOS 10.11.4. Whenever i mount a volume to docker container it's only mounting the folder and not including the files or sub folders. I've searched a lot of forums but no hope. Only a github issue is talking about an issue with the boot2load iso image and i've changed it with no hope too.
+from:
+  name: Alaa Attya Mohamed
+  id: '10212906316506161'
+type: status
+created_time: '2016-07-28T10:37:04+0000'
+updated_time: '2016-07-28T12:29:16+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1190854854287554/
+id: '172338516139198_1190854854287554'
+reactions:
+  data:
+  - id: '1876092405757348'
+    name: Ibrahem Mahmmoud
+    type: LIKE
+  - id: '10214353132917740'
+    name: Osama El Mashad
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdOams0TWpFME1qQXhPakUwTmprM05EYzROamc2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBNU9UZAzBOemcxTnpveE5EWTVOekF6TlRFME9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2016-07-28T10:38:50+0000'
+    from:
+      name: Ahmed Atwah
+      id: '1760913567317062'
+    message: Sameh Hamdeno Abdulnaby
+    id: '1190855677620805'
+  - created_time: '2016-07-28T10:42:19+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: ooooh thanks god i've found the issue (thanks to the docker docs here
+      https://docs.docker.com/engine/tutorials/dockervolumes/#/mount-a-host-directory-as-a-data-volume)
+    id: '1190858197620553'
+  - created_time: '2016-07-28T10:43:24+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: It's all about the folder i'm using. It was a shared folder and docker
+      only can share the folders under your user directory. So the project folder
+      should be in the following path "/Users/....."
+    id: '1190858870953819'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU1TURnMU5UWTNOell5TURnd05Ub3hORFk1TnpBeU16TXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU1TURnMU9EZAzNNRGsxTXpneE9Ub3hORFk1TnpBeU5qQTEZD

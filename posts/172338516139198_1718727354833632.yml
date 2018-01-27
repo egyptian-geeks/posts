@@ -1,0 +1,95 @@
+---
+message: |-
+  Is contributing to open source project that hard?
+
+  This pull request should be fixing some kind of annoying bugs in webpack but not reviewed till now... I spent much time reading the code and reverse engineering it to break down and maintain and fear the idea I wasted that time
+
+  https://github.com/webpack/webpack/pull/6265
+
+  Can you please tell me what's wrong with it?
+
+  #webpack #angular #react #modulebundelers
+from:
+  name: Osama Soliman
+  id: '879271768900112'
+type: status
+created_time: '2018-01-10T19:16:39+0000'
+updated_time: '2018-01-13T23:36:52+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1718727354833632/
+id: '172338516139198_1718727354833632'
+reactions:
+  data:
+  - id: '10156089336182292'
+    name: Hassan Aly Selim
+    type: LIKE
+  - id: '2101901136700019'
+    name: Islam Mansour
+    type: LIKE
+  - id: '10156165643313420'
+    name: Tony Raoul Iscaros
+    type: LIKE
+  - id: '1984058555247376'
+    name: Tarekk Mohamed Abdalla
+    type: LIKE
+  - id: '408695269572490'
+    name: Marwan Abdel Moneim
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRFNU5qa3lNamt4T2pFMU1UVTROVFE1TVRZANk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01ERXlPVFl3TmpBNE9UVXdPakUxTVRVMk1UUTFPVEU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2018-01-10T19:20:29+0000'
+    from:
+      name: Mohamed Eltantawi
+      id: '10160105091695314'
+    message: 2 days is not a long wait at all.
+    id: '1718767081496326'
+  - created_time: '2018-01-10T19:30:32+0000'
+    from:
+      name: Waleed GaMal
+      id: '174345829995582'
+    message: i don't think the time spent reading source code would be a waste of
+      time if the pull request was not accepted. odds are you learned a lot while
+      going through the source code and IMO this is the most important thing you can
+      get from contributing to open source.
+    id: '1718773811495653'
+  - created_time: '2018-01-10T20:34:11+0000'
+    from:
+      name: Tarek Badr
+      id: '546598029039266'
+    message: "خدت ابروف دلوقتي حالا يا اسامة ,, متضيقش نفسك\U0001F602\U0001F602"
+    id: '1718820928157608'
+  - created_time: '2018-01-10T22:28:11+0000'
+    from:
+      name: Mohammad Allam
+      id: '10157198755818902'
+    message: |-
+      Great job, however for more clean PR it's recommended to squash irrelevant commits to your fix/feature and push your PR with minimum number of commits if possible, like in your PR your suggested to squash the following commits:
+      - linting and beautifying code
+      - beautify code with linter
+    id: '1718908394815528'
+  - created_time: '2018-01-10T23:52:35+0000'
+    from:
+      name: Ahmed Aboulenein
+      id: '10160047384135438'
+    message: Why do you have 4 commits for a single bug fix? You added code and then
+      deleted it, like dummy() for example. The reviewer doesn't need to see intermediate
+      stages. If I may suggest something, it would make the reviewer life easier to
+      have a single commit with all the changes.
+    id: '1718959428143758'
+  - created_time: '2018-01-13T10:02:05+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: And it’s not a bug, you are introducing a feature. And it’s not a small
+      project, it’s we pack and it’s being used by tons of other open source project
+      which mean whoever accept the PR should be 10000% sure it ain’t breaking anything.
+      It also should comply with the coding standards being used in that project and
+      its direction.
+    id: '1721175131255521'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN4T0RjMk56QTRNVFE1TmpNeU5qb3hOVEUxTmpFeU1ETXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN5TVRFM05URXpNVEkxTlRVeU1Ub3hOVEUxT0RNM056STEZD

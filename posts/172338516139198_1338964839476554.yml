@@ -1,0 +1,99 @@
+---
+message: |-
+  Dear JS developers, I have  a question. What debugging files do you use? I had a situation where this was part of my code and Chrome didn't tell about the syntax error:
+
+  // No semi-colon after "file_data"
+  var file_data
+  file_data = $(item).prop('files')[0];
+
+  I switched to Firefox and it gave a hint about the missing semi-colon, but I wanna hear more about how do you usually verify your code?
+
+  Thanks
+from:
+  name: Loai Nagati
+  id: '1561923947178330'
+type: status
+created_time: '2016-12-27T17:50:31+0000'
+updated_time: '2016-12-27T22:19:58+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1338964839476554/
+id: '172338516139198_1338964839476554'
+reactions:
+  data:
+  - id: '10154995650302121'
+    name: Ahmed Sorour
+    type: LIKE
+  - id: '1579793612127821'
+    name: Mohamed Samir
+    type: LIKE
+  paging:
+    cursors:
+      before: Tmpnek56UXlNVEl3T2pFME9ESTRPREUwTXpnNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQXlPVEUxT1RNeE1qa3dPakUwT0RJNE5qTXhOREE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-12-27T17:52:30+0000'
+    from:
+      name: Mahmoud Tantawy
+      id: '10156115350739764'
+    message: 'maybe google: js lint'
+    id: '1338965766143128'
+  - created_time: '2016-12-27T18:05:45+0000'
+    from:
+      name: Mootaz Dinana
+      id: '10155792625775306'
+    message: VS Code + ESLint
+    id: '1338973202809051'
+  - created_time: '2016-12-27T18:15:09+0000'
+    from:
+      name: Omar Essam
+      id: '10156052502884860'
+    message: Why not plugins for your IDE/Editor, I'm using ST3 and it has many JS
+      lint plugins
+    id: '1338979002808471'
+  - created_time: '2016-12-27T20:55:40+0000'
+    from:
+      name: Mohamed Azazy
+      id: '2278815482143916'
+    message: Try http://brackets.io/
+    id: '1339066496133055'
+  - created_time: '2016-12-27T21:11:26+0000'
+    from:
+      name: أحمد محمود محمد عبدالوهاب
+      id: '10155226291481186'
+    message: This is not a syntax error.
+    id: '1339074092798962'
+  - created_time: '2016-12-27T21:11:57+0000'
+    from:
+      name: Mohamed Ali Abuelwafa
+      id: '10215282097155427'
+    message: Use ESLint and integrate it with your editor/ide and your task runner
+      /pipeline
+    id: '1339074646132240'
+  - created_time: '2016-12-27T21:45:00+0000'
+    from:
+      name: Ahmed El Gabri
+      id: '10159938698425582'
+    message: "First, semi-colons are optional in JS. So that's not a syntax error.
+      \n\nIt just became a good a very well & established best practice to use them
+      because of how the runtime will add semi colons for you (Google JavaScript automatic
+      semi colon insertion or ASI) which can lead to subtle errors if you don't know
+      how it works. \n\nTo catch these kind of errors use ESLint in your editor of
+      choice. \n\nESLint can work as you want, so if you want to keep writing with
+      semi-colons then it can catch if you miss any & also if you want to write without
+      semi-colons it can tell you when this might break. \n\n\nFor example this is
+      an opinionated ESLint config that works without semi-colons. \n\nhttp://standardjs.com\n\nAnd
+      this another one that works with semi-colons\n\nhttps://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb"
+    id: '1339096279463410'
+  - created_time: '2016-12-27T22:14:00+0000'
+    from:
+      name: Hosam G. Zewain
+      id: '10215665676616561'
+    message: |-
+      I'm usually using 3 methods
+      JSlint & JSHint & "use strict"; mode
+      Those three should make you write clean and clear code.
+    id: '1339109532795418'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE16T0RrMk5UYzJOakUwTXpFeU9Eb3hORGd5T0RZAeE1UVXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE16T1RFd09UVXpNamM1TlRReE9Eb3hORGd5T0RjMk9EUXcZD

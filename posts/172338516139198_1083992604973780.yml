@@ -1,0 +1,99 @@
+---
+message: |-
+  السلام عليكم
+
+  من فضلكم انا مطلوب منى تاسك تتعمل ب MVC - بس متحدد ليا انها تكون n-tier architecture ؟
+
+  ممكن افهم معناها ايه ؟ او المقصود هنا ايه ؟
+from:
+  name: Ahmed Amin
+  id: '1962172197389574'
+type: status
+created_time: '2016-02-21T12:11:08+0000'
+updated_time: '2016-02-23T14:57:34+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1083992604973780/
+id: '172338516139198_1083992604973780'
+reactions:
+  data:
+  - id: '1936664896650993'
+    name: Amira Mohamed
+    type: LIKE
+  - id: '10156045259634120'
+    name: Mostafa El Moatassem Bellah
+    type: LIKE
+  - id: '2007307372618615'
+    name: Mahmoud Abdallah
+    type: LIKE
+  - id: '10156191099748000'
+    name: Shady Mohamed Sherif
+    type: LIKE
+  - id: '1596110217148252'
+    name: Ahmed Badawy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTVNakkxTURVeU1UZA3dPakUwTlRZAeU5EUXlNVGs2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlORGM0Tmpnd09EVTJPakUwTlRZAd05qTXhNams2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-02-21T12:17:07+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: https://en.wikipedia.org/wiki/Multitier_architecture
+    id: '1083994191640288'
+  - created_time: '2016-02-21T12:20:33+0000'
+    from:
+      name: Ahmed Amin
+      id: '1962172197389574'
+    message: شكرا ليك بس لو ممكن توضحلى الفرق بشرح مبسط بالعربى اكون شاكر ليك جدا
+    id: '1083995134973527'
+  - created_time: '2016-02-21T12:41:28+0000'
+    from:
+      name: Ahmed Ibrahim
+      id: '1736169696403132'
+    message: "Data access layer \nخلي فيها آل model\nData businesses layer \nفيها
+      الفانكشنز والبنزين\nView"
+    id: '1084004521639255'
+  - created_time: '2016-02-21T12:52:12+0000'
+    from:
+      name: Ahmed Amin
+      id: '1962172197389574'
+    message: طيب مش MVC تعتبر كده ؟
+    id: '1084008668305507'
+  - created_time: '2016-02-21T13:25:56+0000'
+    from:
+      name: Ahmed Amin
+      id: '1962172197389574'
+    message: شكرا جدا - بس عمليات الإضافة والحذف والتعديل حتتم ازاى فى الحالة يعنى
+      انا مثلا بضيف الكود بتاع الاضافة فى بروجكت لوحده business layer - لو فى شرح
+      فيديو يوضح الصورة اللى بدءت افهمها يكون ممتاز
+    id: '1084019941637713'
+  - created_time: '2016-02-21T14:14:51+0000'
+    from:
+      name: Ahmed Amin
+      id: '1962172197389574'
+    message: "طيب سؤال اخير معلش انا عامل DLL عبارة عن UnitOfWork ومخليها Generic
+      بحيث استخدمها مع اى data modal هل ممكن استخدمها (يعنى حضيفها فى مشروع MVC )
+      وتكون هى البزنس لاير ؟\nده طبعا معناه انى لازم حضيف data access layer داخل مشروع
+      MVC برده \n\nهل كده حيكون السيناريو صح والا غلط ؟"
+    id: '1084040968302277'
+  - created_time: '2016-02-21T14:16:53+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: |-
+      الكورسين دول فيهم الخلاصه
+      http://app.pluralsight.com/courses/n-tier-apps-part1
+      http://app.pluralsight.com/courses/n-tier-csharp-part2
+    id: '1084041554968885'
+  - created_time: '2016-02-23T14:57:34+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: Sounds like someone who likes buzzwords assigned the task :)
+    id: '1085258214847219'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE0TXprNU5ERTVNVFkwTURJNE9Eb3hORFUyTURVM01ESTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE0TlRJMU9ESXhORGcwTnpJeE9Ub3hORFUyTWpNNU5EVTAZD

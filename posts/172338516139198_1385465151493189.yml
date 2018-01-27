@@ -1,0 +1,86 @@
+---
+message: "ده reverse proxy كنت عامله مهمته انه يعتمد ع letsencrypt عشان يــ generate
+  & renew الــ ssl certs اوتوماتك عشان خلاص معادش فى حاجه لإنه الشخص يشترى SSL Cert,
+  كان فيه مشكله عشان ال websockets وال mechanism بتاعه كمان مكانتش كويسه, النهاردا
+  رفعت التحديث بتاعه وحليت المشاكل اللى فيه وزاد عليه اوبشنز جديده زى انه يعمل auto-minify
+  لل output عشان سرعة تحميل الصفحات ومعاه gzip compression وبتحدد ال backends حسب
+  ال domains\nكنت هزود عليه انه يبقى فيه الامكانيه لــ fastCGI عشان يــ serve الملفات
+  اللى زى php وغيرها وبكدا يبقى كله ف واحد, بس قولت اسيبه مستقل بذاته كـ service مختصه
+  بنقطه محدده وبس , بمعنى اصح يكون ssl wrapper ..\n* مكتوب ب Go \n* لينك: https://github.com/alash3al/httpsify\n---\nده
+  بقى أخوه لكن مجرد static webserver بيــ gzip & minify \nلينك: https://github.com/alash3al/xerve\n---\nهى
+  بتبقى حاجات مبنيه عشان تأدى اغراض محدده وبس ف مشاريع معينه حسب الحاجه مش أكتر وكمان
+  بتدى خبره كويسه عشان افهم الدنيا ماشيه ازاى ف المشاريع المشابهه\nوفى حاجات مشابهه
+  بعملها بتكون لمجرد بس تطبيق فكره معينه لاقيتها"
+from:
+  name: Mohammed Al Ashaal
+  id: '965203406986813'
+type: status
+created_time: '2017-02-11T17:12:27+0000'
+updated_time: '2017-02-11T17:12:28+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1385465151493189/
+shares:
+  count: 1
+id: '172338516139198_1385465151493189'
+reactions:
+  data:
+  - id: '934408920094293'
+    name: Muhammad Ahmed Fares
+    type: LIKE
+  - id: '1941442462840331'
+    name: Apd Ulrhman II
+    type: LIKE
+  - id: '1666611296733941'
+    name: Ashraf Hefny
+    type: LIKE
+  - id: '2004705666469226'
+    name: Ahmed Essam
+    type: LIKE
+  - id: '10215070655377585'
+    name: Mahmoud Kandeel
+    type: LIKE
+  - id: '10212947071504226'
+    name: Eslam Hamouda
+    type: LIKE
+  - id: '2027932964114883'
+    name: Mohamed Salah Hassan
+    type: LIKE
+  - id: '1816374988414963'
+    name: Mahmoud Mortda
+    type: LIKE
+  - id: '10155549760031026'
+    name: Hady El-Ziady
+    type: LIKE
+  - id: '10215560476549083'
+    name: Mustafa Dagher
+    type: LIKE
+  - id: '10210213095435476'
+    name: Mohaned Mansour
+    type: LIKE
+  - id: '1589304647821970'
+    name: Menem Salama
+    type: LIKE
+  - id: '1747937441894538'
+    name: Rami Sd
+    type: LIKE
+  - id: '10155119685735143'
+    name: Ahmad Nazmy
+    type: LIKE
+  - id: '10155432639833282'
+    name: Ahmed Abdo
+    type: LIKE
+  - id: '929472323875062'
+    name: Mo'men Tawfik
+    type: LIKE
+  - id: '10215620557573580'
+    name: Mohamed Abdel Aty
+    type: LIKE
+  - id: '1580675855344703'
+    name: Kerilos Issac
+    type: LOVE
+  - id: '10215497581739240'
+    name: Mahmoud Raafat
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTFOelUxT0RBME16VTJPakUwT0RZANU5ERXdOek02TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRReU9UWTVOemt3TkRveE5EZAzJPRE16TWpjNE9qSTFOREE1TmpFMk1UTT0ZD

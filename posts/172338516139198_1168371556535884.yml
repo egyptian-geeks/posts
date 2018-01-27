@@ -1,0 +1,42 @@
+---
+message: "hi , can anybody help please .\n\n[ the question about cross domain request
+  ] .\n\nscenario :\n\n1- there is a web site X.com , i give it a script to include
+  in ,the server of the web site not under my control .\n\n2- the script fetch some
+  data and send the data to web app under domain the y.com .\n\n3- after the web app
+  process the data , it send the response back to the x.com  in json format \n\n4-
+  the script use the data to make a cheanges in x.com \n\nmy research efforts :\n\ni
+  have found two two ways to cross domain requests , jsonp and Cross-Origin Resource
+  Sharing ( CORS ) .\n\njsonp it seem for getting data only not for posting data and
+  \ there some security concern which i don't understand it well .\n\nCORS it seem
+  to be the solution but all example i have seen in geting data . and i don't know
+  how post the data the script fetch  \nor anyone recommend another method\n\nthanks
+  and sorry for your time"
+from:
+  name: Mohamed Huzien
+  id: '859391800899712'
+type: status
+created_time: '2016-06-24T14:29:32+0000'
+updated_time: '2016-06-24T23:21:49+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1168371556535884/
+id: '172338516139198_1168371556535884'
+reactions:
+  data:
+  - id: '2027011464244044'
+    name: Ahmed Said
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTRNRFUyTWprek56Y3lPakUwTmpZAM056ZAzJNakU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTRNRFUyTWprek56Y3lPakUwTmpZAM056ZAzJNakU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-06-24T16:25:34+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: 'Use YQL. Find an example here: https://raw.githubusercontent.com/kashwaa/loadmeter/gh-pages/powermeter.js'
+    id: '1168439906529049'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUyT0RRek9Ua3dOalV5T1RBME9Ub3hORFkyTnpnMU5UTTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUyT0RRek9Ua3dOalV5T1RBME9Ub3hORFkyTnpnMU5UTTQZD

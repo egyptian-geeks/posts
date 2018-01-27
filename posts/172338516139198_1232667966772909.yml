@@ -1,0 +1,67 @@
+---
+message: |-
+  How to configure apache2.4 server to serve a Django1.9 (python2.7) on windows ?
+  I google it for days without any working result :(
+from:
+  name: Amr ElBsheer
+  id: '10211089565935122'
+type: status
+created_time: '2016-09-15T13:18:47+0000'
+updated_time: '2016-09-20T17:48:58+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1232667966772909/
+id: '172338516139198_1232667966772909'
+reactions:
+  data:
+  - id: '10215244177361076'
+    name: Mohamed A. Shebl
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRNek16TXhORFU1TlRveE5EYzBNakUxTkRjeE9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRNek16TXhORFU1TlRveE5EYzBNakUxTkRjeE9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2016-09-15T13:54:29+0000'
+    from:
+      name: محمد عفت الشربيني
+      id: '1794214554205803'
+    message: انا شكلي هاجي اتعلم منك
+    id: '1232692330103806'
+  - created_time: '2016-09-15T14:26:52+0000'
+    from:
+      name: أحمد محمود محمد عبدالوهاب
+      id: '10155226291481186'
+    message: apache, django, windows. You shouldn't do that! use Vagrant if you really
+      need to do it!
+    id: '1232713580101681'
+  - created_time: '2016-09-15T17:56:39+0000'
+    from:
+      name: Ahmed Atalla
+      id: '574320702905312'
+    message: It's better to use a wsgi server (gunicor, uwsgi,....) With nginx as
+      a reverse proxy and to serve the static files if it is on the same server
+    id: '1232847583421614'
+  - created_time: '2016-09-15T19:52:54+0000'
+    from:
+      name: Rudy Zidan
+      id: '10214985702017622'
+    message: Create vhost with (reverse proxy), also check passenger it may help you.
+    id: '1232936186746087'
+  - created_time: '2016-09-17T10:08:27+0000'
+    from:
+      name: Ahmed Thabet
+      id: '1849432635069365'
+    message: Reverse proxy + gunicorn maybe
+    id: '1234206283285744'
+  - created_time: '2016-09-20T17:48:56+0000'
+    from:
+      name: Mohannad Ali
+      id: '10155955385444519'
+    message: Vagrant to setup a linux virtual machine. Then on that linux virtual
+      machine setup gunicorn + nginx. If you google tutorials for django + gunicorn
+      + nginx you will find many resources.
+    id: '1237072456332460'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl6TWpZANU1qTXpNREV3TXpnd05qb3hORGN6T1RRM05qWTUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl6TnpBM01qUTFOak16TWpRMk1Eb3hORGMwTXprek56TTIZD

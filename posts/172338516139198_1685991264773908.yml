@@ -1,0 +1,84 @@
+---
+message: "السلام عليكم \nمعلش ضروري لو حد يعرف طريقة ارجع بيها ال untracked files
+  ف ال git بعد ما عملت\n git reset --hard <commit_sha>\nانا دورت على كذا حاجة ومش
+  بتنفع وكله بيقول انها كدا راحت خلاص عشان ال flag --hard بيشيلها خالص. المشكلة اني
+  كنت عامل تعديلات كتيرة ومكنتش عامل commit.\nجربت git reflog وعملت reset لل head
+  وبرضوا مبيرجعش ال untracked files \nلو حد يعرف حل بأي طريقة ياريت يقولي \U0001F625"
+from:
+  name: Ali Mahmoud
+  id: '1694785997245489'
+type: status
+created_time: '2017-12-08T15:33:42+0000'
+updated_time: '2017-12-08T18:40:53+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1685991264773908/
+shares:
+  count: 1
+id: '172338516139198_1685991264773908'
+reactions:
+  data:
+  - id: '2001897360084292'
+    name: Ahsan Ali
+    type: LIKE
+  - id: '1811783138842190'
+    name: Alaa Moustafa Bakr
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTNPVEl4TkRJd09UWXlPakUxTVRNek5qUXpPREU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXdNekUxTmpRMU1qQTFPakUxTVRJM05EZAzVOVGM2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-12-08T15:35:28+0000'
+    from:
+      name: Mohamed Ahmed
+      id: '385696705226073'
+    message: |-
+      git fsck --lost-found
+
+      https://git-scm.com/docs/git-fsck
+    id: '1686154668090901'
+  - created_time: '2017-12-08T15:36:01+0000'
+    from:
+      name: Mohamed Ahmed
+      id: '385696705226073'
+    message: الامر ده انقذ حياتى قبل كده برضه مجموعه ملفات راحت و شغلته رجعهالى فى
+      شكل ملفات orphan.  جربه و شوف !!! بعد متشغله هتلاقيه فيه فولدر اتعمل جوه الريبو
+      هتلافى الملفات جواه.
+    id: '1686155201424181'
+  - created_time: '2017-12-08T18:28:56+0000'
+    from:
+      name: Ali Mahmoud
+      id: '1694785997245489'
+    message: "شكرا جدا انا جربت كذا حاجة وقريت سبعميت مقال وكلة منفعش عشان انا كنت
+      لسة معملتش commit للملفات اساسا ولاحتى عملتلهم add. جربت: \ngit fsck --lost-found
+      then git rebase <object_blob>\ngit reflog then git reset <head>\n git checkout
+      <commit_id>\n والحمد لله ربنا ستر ولقيت واحد برنس بيقول جرب تعمل undo من ال
+      IDE او ال text editor اللي شغال علية بيكون حافظ local history والحمد لله نفعت
+      ورجعوا تمام بعد ما اتصدمت \U0001F602\U0001F601 عشان كدا ال IDE الكويس مهم جدا
+      انا كنت شغال على PHPStorm وبستخدم كل برامج شركة Jetbrain زي ال Pycharm وWebStorm
+      امكانتياتهم حلوة جدا"
+    id: '1686283074744727'
+  - created_time: '2017-12-08T18:32:32+0000'
+    from:
+      name: Ali Mahmoud
+      id: '1694785997245489'
+    message: ''
+    id: '1686285588077809'
+  - created_time: '2017-12-08T18:32:39+0000'
+    from:
+      name: Ali Mahmoud
+      id: '1694785997245489'
+    message: ''
+    id: '1686285664744468'
+  - created_time: '2017-12-08T18:35:13+0000'
+    from:
+      name: Mohamed Ahmed
+      id: '385696705226073'
+    message: هو الموضوع فعلا فيه انت ورزقك انا تقريبا كنت جربت كل حاجة وال developer
+      عمل pullعلى الكود الجديد و Merge و هوبا الدنيا دخلت فى بعضها دلوقتى احنا عاملين
+      backup تانى منفصل لل version control لما بقيت حاجة مرار.
+    id: '1686288068077561'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFk0TmpFMU5EWTJPREE1TURrd01Ub3hOVEV5TnpRM016TXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFk0TmpJNE9EQTJPREEzTnpVMk1Ub3hOVEV5TnpVNE1URTAZD

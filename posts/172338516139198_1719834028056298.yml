@@ -1,0 +1,19 @@
+---
+message: |-
+  Good evening everybody,
+
+  If I have a server which sits behind a firewall that blocks ports 80 and 443 knowingly that I don't have the power to configure it, and I need to get the server let's encrypt certificate. Is there any work around this?
+  I searched but didn't find much.
+  The error I am getting : "Failed authorization procedure. subdomain (http-01): urn:acme:error:connection :: The server could not connect to the client to verify the domain :: Fetching http://subdomain /.well-known/acme-challenge/KiFZt5REhi3vRUEyeIhrKzqipTI0h31QRlj-U99PAYY: Timeout"
+
+  I replaced the full domain name in this post with "subdomain" string.
+
+  Thanks in advance
+from:
+  name: Bdr Mohamed
+  id: '2015246105157800'
+type: status
+created_time: '2018-01-11T21:25:51+0000'
+updated_time: '2018-01-11T21:25:51+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1719834028056298/
+id: '172338516139198_1719834028056298'

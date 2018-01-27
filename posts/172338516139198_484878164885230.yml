@@ -1,0 +1,33 @@
+---
+message: |-
+  IntoVault (Trojan Ramnit)
+  Win32/Ramnit is a family of multi-component malware that infects Windows executable files, Microsoft Office files and HTML files. Win32/Ramnit spreads to removable drives, steals sensitive information such as saved FTP credentials and browser cookies. The malware may also open a backdoor to await instructions from a remote attacker. When run, it copies itself using a hard-coded name or in some cases to a random folder and file name, for example:
+  %ProgramFiles%\Microsoft\watermark.exe
+  %ProgramFiles%\Microsoft\desktoplayer.exe
+  %ProgramFiles%\blvvcvww\jonimvgn.exe
+  …and so on.
+
+  This file may be detected as Worm:Win32/Ramnit.A or by another similar detection name. The registry is modified to run the dropped copy when Windows starts, as in the following example:
+  In subkey: HKLM\Software\Microsoft\Windows NT\CurrentVersion\Winlogon
+  Sets value: "Userinit"
+  From data: "<system folder>\userinit.exe,"
+  To data: "<system folder>\userinit.exe, %ProgramFiles%\Microsoft\watermark.exe"
+  The virus creates a non-visible default web browser instance and injects code into its process. The infection and backdoor functionality occurs in the web browser process context, presumably for the purpose of bypassing a firewall.
+
+  - Win32/Ramnit infects Windows executable files with a file extension of ".EXE", ".DLL" and ".SCR". The infected executables may be detected as Virus:VBS/Ramnit.A or by another similar detection name.
+
+  - Win32/Ramnit infects HTML document files with ".HTML" or ".HTM" extension. The infected HTML files may be detected as Virus:VBS/Ramnit.A or by another similar detection name. The infected HTML files have an appended VBScript. When the infected HTML file is loaded by web browser, the VBScript may drop a copy of Win32/Ramnit as "%temp%\svchost.exe", then execute it.
+
+  - Win32/Ramnit also infects Microsoft Office OLE document files with ".DOC", ".DOCX" or ".XLS" file extensions. The infected document may be detected as Virus:O97M/Ramnit. The infected document contain a macro which will attempt to run when the document is opened. The macro may drop a copy of Win32/Ramnit as "%temp%\wdexplore.exe", then execute it.
+
+  - Win32/Ramnit makes copies of the installer to removable drives as a random file name. The file may also be placed beneath a randomly named directory beneath the folder "\RECYCLER\" in the root of the drive, as in the following example:
+  <drive:>\RECYCLER\s-5-1-04-5443402830-2472267086-003818317-4634\rdkidfba.exe
+  Win32/Ramnit then writes an Autorun configuration file named "autorun.inf" pointing to the worm copy in the target drive. When the removable or networked drive is accessed from another computer supporting the Autorun feature, the malware is launched automatically.
+from:
+  name: Ahmed Adel
+  id: '10157228231404129'
+type: status
+created_time: '2012-11-15T16:58:04+0000'
+updated_time: '2012-11-15T16:58:04+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/484878164885230/
+id: '172338516139198_484878164885230'

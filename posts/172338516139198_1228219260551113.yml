@@ -1,0 +1,84 @@
+---
+message: |-
+  my latest open source project in golang, is for docker .
+  it's a standalone automated http reverse proxy for docker containers, i called it "droxy" ( [D]ocker p[roxy] )  .
+  https://github.com/alash3al/droxy
+  --
+  we know that there is another one but it uses "nginx" + "docker-gen"
+link: https://www.facebook.com/photo.php?fbid=646810785492745&set=gm.1228219260551113&type=3
+from:
+  name: Mohammed Al Ashaal
+  id: '965203406986813'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/14264199_646810785492745_6393500480632642730_n.jpg?oh=bb20ce950682a276b58f817800dc5819&oe=5AEBEE34
+created_time: '2016-09-10T13:19:25+0000'
+updated_time: '2016-09-11T20:00:00+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1228219260551113/
+id: '172338516139198_1228219260551113'
+reactions:
+  data:
+  - id: '10215482677129679'
+    name: Ahmed Adel Radwan
+    type: LIKE
+  - id: '10155764645725568'
+    name: Mohamed Rashed
+    type: LIKE
+  - id: '1575768239208294'
+    name: Eslam Mostafa
+    type: LIKE
+  - id: '10155755444625845'
+    name: Mohammad Fouad
+    type: LIKE
+  - id: '10215497581739240'
+    name: Mahmoud Raafat
+    type: LIKE
+  - id: '1686052171461238'
+    name: Abdelaziz Ibrahim
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRVeU1UQTBPRGN3TXpveE5EY3pOamcxTkRnME9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBd01EQXhOamswTVRNd05UVXpPakUwTnpNMU1UVTNNVGs2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-09-11T02:23:23+0000'
+    from:
+      name: Eslam Mostafa
+      id: '1575768239208294'
+    message: Mohamed Yosry
+    id: '1228735633832809'
+  - created_time: '2016-09-11T19:04:10+0000'
+    from:
+      name: Taha Amin
+      id: '10155815529215590'
+    message: SSL?
+    id: '1229381443768228'
+  - created_time: '2016-09-11T19:55:45+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: i'm no Go expert but i think there should be 3 directories there? src
+      pkg bin ?
+    id: '1229424277097278'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl5T0Rjek5UWXpNemd6TWpnd09Ub3hORGN6TlRZAd05qQTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl5T1RReU5ESTNOekE1TnpJM09Eb3hORGN6TmpJek56UTEZD
+attachments:
+  data:
+  - description: |-
+      my latest open source project in golang, is for docker .
+      it's a standalone automated http reverse proxy for docker containers, i called it "droxy" ( [D]ocker p[roxy] )  .
+      https://github.com/alash3al/droxy
+      --
+      we know that there is another one but it uses "nginx" + "docker-gen"
+    media:
+      image:
+        height: 347
+        src: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/14264199_646810785492745_6393500480632642730_n.jpg?oh=5427bea3e21bee9d27fd4d47794567af&oe=5B24B2CB
+        width: 720
+    target:
+      id: '646810785492745'
+      url: https://www.facebook.com/photo.php?fbid=646810785492745&set=gm.1228219260551113&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=646810785492745&set=gm.1228219260551113&type=3

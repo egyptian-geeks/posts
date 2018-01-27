@@ -1,0 +1,124 @@
+---
+message: |-
+  السلام عليكم
+
+  ممكن من فضلكم اعرف ايه الفرق بين Git و TFS ؟ وايهما افضل يعنى انا كنت متعود لما بعمل مشروع بروح اضيفه على TFS وبعد كده بضيف المشروع من داخل الفيجوال
+
+  لكن كنت بجرب النهاردة وعملت بروجكت ولقيته اترفع على Git بس برده لقيت انى بدخل من نفس المكان اللى كنت بدخل TFS واتعمل له Repository - ممكن افهم :D ؟
+from:
+  name: Ahmed Amin
+  id: '1962172197389574'
+type: status
+created_time: '2016-09-06T01:52:47+0000'
+updated_time: '2016-09-06T18:16:06+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1224219364284436/
+id: '172338516139198_1224219364284436'
+reactions:
+  data:
+  - id: '10155432639833282'
+    name: Ahmed Abdo
+    type: LIKE
+  - id: '1596110217148252'
+    name: Ahmed Badawy
+    type: LIKE
+  - id: '10215070655377585'
+    name: Mahmoud Kandeel
+    type: LIKE
+  - id: '10160393345085497'
+    name: Zaki Hussien
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpBNU56QTRNamd4T2pFME56TXhORFkyTnpJNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TnpBeE5qTXdORGsyT2pFME56TXhNamc1TkRNNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-09-06T02:10:47+0000'
+    from:
+      name: Ahmed Samir
+      id: '10159800858645702'
+    message: |-
+      TFS is Microsoft's own source control, works like the more famous systems (SVN, CVS) in addition to some project management/agile dev features.
+      Git is distributed source control system, imagine it like SVN but with two copies of all repo history: one locally and one on server.
+
+      Visual Studio supports both systems, and even others through plugins. Many features are similar like repositories and commits/checkins, but there are some distinguishing differences between both systems.
+
+      Use Git if you want something that is more common. Use SVN if you task/project managment coupled to source control out of the box.
+    id: '1224231967616509'
+  - created_time: '2016-09-06T03:09:04+0000'
+    from:
+      name: Mahmoud Hossam
+      id: '1360912124012585'
+    message: Nobody uses TFS anymore, even Microsoft publishes its important open
+      source projects on github.
+    id: '1224266204279752'
+  - created_time: '2016-09-06T03:50:19+0000'
+    from:
+      name: سامح دعبس
+      id: '2022490591345439'
+    message: "الفرق - زي ما قال أحمد سمير - إن Git يعتمد على إدارة نسخ الكود بتاعك
+      بطريقة لا مركزية, يعني كل مبرمج في المشروع عنده نسخة من الكود, بكل التعديلات
+      اللي حصلت عليه, فيقدر يقارن مثلا بين نسخته الحالية و نسخة قديمة من غير ما يحتاج
+      يكون متوصل بخادم. بينما TFVC بيعتمد على إدارة نسخ الكود بطريقة مركزية, يعني
+      نسخ الكود موجودة في مكان واحد بس, عشان مثلا تقارن نسخة قديمة بنسختك الحالية
+      محتاج تكون متصل بالخادم.\n-----------\nطيب أستخدم أنهي واحد فيهم؟\nمايكروسوفت
+      شخصيا بتقولك استخدم Git, و مخلياه هو الdefault :)\nده الكلام الرسمي بتاع مايكروسوفت:\nGit
+      is the default version control provider for new projects. You should use Git
+      for version control in your projects unless you have a specific need for centralized
+      version control features in TFVC.\nYou can use TFVC repos with Git in the same
+      Team Project so it's easy to add TFVC later if you need centralized version
+      control. \nالمصدر:\nhttps://www.visualstudio.com/en-us/docs/tfvc/comparison-git-tfvc\nهاتلاقي
+      فيه مقارنة تفصيلية بين Git و TFVC.\n---------\nطيب إيه مدى شيوع الاتنين؟ آخر
+      حاجة اطلعت عليها كان stackoverflow survey 2015:\nو دي كانت النتيجة بتاعته (واضح
+      طبعا إن Git مسيطر خالص). في استطلاع 2016 ما جابوش التفصيلة دي."
+    id: '1224290097610696'
+  - created_time: '2016-09-06T03:52:35+0000'
+    from:
+      name: سامح دعبس
+      id: '2022490591345439'
+    message: 'ملاحظة: TFS بيستخدم في إدارة الALM كلها, مش كsource control بس. يعني
+      مثلا هاتدخل الwork items بتاعتك عليه, و تعمل build server و تسجل سيناريوهات
+      testing...إلخ. الsource control جزء واحد من اللفة دي كلها. و TFS بيدعم تقنيتين
+      فيه: TFVC و Git.'
+    id: '1224291804277192'
+  - created_time: '2016-09-06T07:24:25+0000'
+    from:
+      name: Ahmed Abdo
+      id: '10155432639833282'
+    message: |-
+      استخدم git طبعا
+      والشباب شرحوا ليه بالتفصيل
+    id: '1224394717600234'
+  - created_time: '2016-09-06T12:46:32+0000'
+    from:
+      name: Ahmed Amin
+      id: '1962172197389574'
+    message: اشكركم جميعا شباب - طيب هل فى فيديوهات لتعليمه اوشرحه ؟
+    id: '1224592327580473'
+  - created_time: '2016-09-06T12:46:46+0000'
+    from:
+      name: Ahmed Amin
+      id: '1962172197389574'
+    message: Mera Tag Eldin
+    id: '1224592430913796'
+  - created_time: '2016-09-06T13:29:28+0000'
+    from:
+      name: Ahmed Amin
+      id: '1962172197389574'
+    message: طيب اسف للسؤال هل Git غير GitHub ؟
+    id: '1224616100911429'
+  - created_time: '2016-09-06T17:57:25+0000'
+    from:
+      name: Ahmed Amin
+      id: '1962172197389574'
+    message: |-
+      طيب انا دلوقتى عندى مشروع داخل الفيجوال وعاوز اخليه على Git ممكن اعرف الخطوات ايه بالظبط ؟ وايه لازمة انى اعمل Clone طالما البروجكت عندى ع الجهاز ما كده حيحمله فى مكان تانى ححده ليه ؟
+
+      وهل كده لما البروجكت يكون GitHup حيكون متاح للكل ؟؟
+
+      انا دورت على شروحات عربى ليه مع الاسف مش لاقى ....
+    id: '1224801790892860'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl5TkRJek1UazJOell4TmpVd09Ub3hORGN6TVRJM09EUTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl5TkRnd01UYzVNRGc1TWpnMk1Eb3hORGN6TVRnME5qUTEZD

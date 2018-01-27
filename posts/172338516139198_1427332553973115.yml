@@ -1,0 +1,57 @@
+---
+message: |-
+  Hi Egyptian Geeks, hope you are well .
+
+  How to send SMS notification from server and receive clients reply via SMS. i did search but just found some API. I didn't want third-party service I want to implement it in my own server .
+  What's requirements to set SMS notification service in my server ?
+from:
+  name: Amr Almgwary
+  id: '1978556165731463'
+type: status
+created_time: '2017-03-21T08:45:00+0000'
+updated_time: '2017-03-23T12:11:40+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1427332553973115/
+id: '172338516139198_1427332553973115'
+comments:
+  data:
+  - created_time: '2017-03-21T08:47:15+0000'
+    from:
+      name: Ahmed Elwan
+      id: '10156098192871719'
+    message: i hope this can help you https://en.wikipedia.org/wiki/Short_Message_Peer-to-Peer
+    id: '1427333640639673'
+  - created_time: '2017-03-21T08:49:06+0000'
+    from:
+      name: A Taha ElAnsary
+      id: '10159814040690403'
+    message: why reinvent the wheel, you can use Twitter CloudHopper, it's the best
+      API from my own POV, i've almost tried them all
+    id: '1427334500639587'
+  - created_time: '2017-03-21T11:49:02+0000'
+    from:
+      name: Mohamed Ashraf
+      id: '10155906116946287'
+    message: I have recently implemented an SMPP client for my cloud services. Here
+      is what you need. You need an SMS provider someone who can send SMS and receive
+      SMS so you need to contact a local telecom company. Most likely you would have
+      to setup a vpn connection with their network and sign a contract for prices
+      and then they would allow you to use their SMPP server. You as a client would
+      then make a connection that would allow you to send SMS and receive SMS to your
+      number over the SMPP protocol (you normally choose a shortcode that appears
+      as the sender to your SMS recipients). There are many libraries for that depending
+      on your programming language, I just implemented my client using one for node
+      js.
+    id: '1427440483962322'
+  - created_time: '2017-03-23T12:11:37+0000'
+    from:
+      name: Nawwar Elnarsh
+      id: '10159801699790328'
+    message: |-
+      I see two options here without contacting a local telecom company
+      1. Simple - Twilio API is very easy to use ( Using webhooks it can deliver messages to your server by HTTP POST requests )
+      2. Complicated - Requires embedded system knowledge,  Use a Raspberry Pi or an Arduino with a GSM module to send and receive SMS . The raspberry can forward then the request via the internet to your server
+    id: '1429782117061492'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF5TnpNek16WTBNRFl6T1RZAM016b3hORGt3TURnMk1ETTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF5T1RjNE1qRXhOekEyTVRRNU1qb3hORGt3TWpjeE1EazMZD

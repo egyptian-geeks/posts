@@ -1,0 +1,122 @@
+---
+message: |-
+  كذا مرة اقرا هنا ف الجروب أن xamarin بيcompile to full native iOS/android .. و الحقيقه مكنتش قادر اقبل الفكره .. و لقيت المقال ده بيقارن بين ميزاته و عيوبه .. و طبعا فيه فروقات ..
+  زي مثلا مع heavy graphics ..
+   اصل لو هو بيوصل ل native ليه مش بتعرف ت reference  اي open source native library ؟
+  كون أن هو احسن من ال cross platform اللي بتعتمد على web viewsده موضوع تاني
+
+  ** هو واضح ان الناس مش فاهمه قصدي .. انا مبتكلمش عن ال performance .. اصلا انا مش شغال موبايل عشان احكم .. انا بس كنت مستغرب من جملة compiles to native .. واللي هي فعلا طلعت مش حقيقه
+
+  *** الكومنتات أضافت أن المقال قديم و ان فعلا نزل تحديث بيخلي xamarin يشغل كود native .. على الأقل على iOS
+  و في اتجاه انهم يطبقوا ده ف اندرويد
+link: https://www.altexsoft.com/blog/mobile/the-good-and-the-bad-of-xamarin-mobile-development/
+from:
+  name: Ahmed Eid
+  id: '762135870664322'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQAyrmU0XcbK2Gm2&w=130&h=130&url=https%3A%2F%2Fwww.altexsoft.com%2Fwp-content%2Fuploads%2F2016%2F01%2Fpainting-blog-710-JPG-1024x441.jpg&cfs=1&_nc_hash=AQCcTfn2QUh5PEwc
+created_time: '2017-07-12T08:45:24+0000'
+updated_time: '2017-07-13T21:36:31+0000'
+name: The Good and The Bad of Xamarin Mobile Development
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1545014145538288/
+shares:
+  count: 3
+id: '172338516139198_1545014145538288'
+reactions:
+  data:
+  - id: '1727796783939160'
+    name: Osama Mattar
+    type: LIKE
+  - id: '1982406812082146'
+    name: Ahmed Mahmoud Mahmoud Hussien
+    type: LIKE
+  - id: '10155063849296345'
+    name: Shaheer Shaheen
+    type: LIKE
+  - id: '10215036468606659'
+    name: Khairy Abd El-Zaher
+    type: LIKE
+  - id: '2083842238513399'
+    name: Abdullah Ashraf
+    type: LIKE
+  - id: '10205205301673812'
+    name: Ahmed Shawky
+    type: LIKE
+  - id: '10213662112320852'
+    name: Yara Ragheb
+    type: LIKE
+  - id: '10160164397520529'
+    name: Mohamed Zaki
+    type: LIKE
+  - id: '2046856075528599'
+    name: Ebra Him K Eldesouki
+    type: LIKE
+  - id: '534270646942907'
+    name: Ahmed Sherien
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhNalkxTmpZAd016WTRPakUwT1RrNU1EQTROVEU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01ERXdOems1TWprNE1qQTJPakUwT1RrNE5Ea3pOek02TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-07-12T09:01:20+0000'
+    from:
+      name: Ibraheem Osama
+      id: '10155206310513093'
+    message: |-
+      Xamarin provides performance almost similar to native, in the graphic section within the article the author is talking only about code sharing not performance.
+      The best applications developed using native, the optimal applications developed using technologies like Xamarin and React Native and the economy applications developed using hybrid approach (Cordove, etc)
+      The last categorization is IMHO :)
+    id: '1545022472204122'
+  - created_time: '2017-07-12T09:41:11+0000'
+    from:
+      name: Ahmed Khalifa
+      id: '1999765416908747'
+    message: الكاتب نفسه في اول مقال قايل انه تقريبا بيوصل ل 100% native
+    id: '1545041835535519'
+  - created_time: '2017-07-12T09:43:46+0000'
+    from:
+      name: Ahmed Khalifa
+      id: '1999765416908747'
+    message: بالنسبه للنقطه دي هو بيتكلم عن ان الshared code بيكون قليل في الحاله
+      دي و بيطلب specific code كتير.. مبيتكلمش علي انه اقل native او performance
+    id: '1545042935535409'
+  - created_time: '2017-07-12T18:40:59+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      Xamarin compiles the .Net code into pure native code on iOS, because otherwise apple wouldn't accept the app in the store (they don't accept bundling runtimes into the app).
+      On Android I've seen plans that they intend to do the same too using LLVM, but I don't know if this is the case now or if it's still in preview.
+      And of course in UWP it runs on the normal .net runtime, so no need to do anything there.
+    id: '1545426538830382'
+  - created_time: '2017-07-12T21:52:55+0000'
+    from:
+      name: Mahmoud Moustafa
+      id: '10155826343095272'
+    message: "المقال مكتوب في  يناير ٢٠١٦\nفي ابريل ٢٠١٦ تم الاعلان عن زامارين فورمز
+      في مؤتمر مايكروسوفت اسمه بيلد Build ثم مؤتمر اخر في نوفمبر اسمه كونكت\nكما تم
+      الاعلان عن تحسينات كبيره جدا في الزامارين بلاتفورم ككل\nزامارين فورمز بتديك
+      لحد 100% يو اي شيرد \nكما ان التحسينات تضمنت كتابة نيتف كود داخل السي شارب كود
+      بطريقة معينه"
+    id: '1545574242148945'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUwTlRBeU1qUTNNakl3TkRFeU1qb3hORGs1T0RVd01EZA3cZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUwTlRVM05ESTBNakUwT0RrME5Ub3hORGs1T0RrMk16YzIZD
+attachments:
+  data:
+  - description: When considering iOS or Android app development, most of us think
+      about Objective-C vs Swift, and Java first of all. Being considered native tech
+      stacks, th
+    media:
+      image:
+        height: 441
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQC3iNvAUS5JHxGc&w=720&h=720&url=https%3A%2F%2Fwww.altexsoft.com%2Fwp-content%2Fuploads%2F2016%2F01%2Fpainting-blog-710-JPG-1024x441.jpg&cfs=1&_nc_hash=AQA_rO9MBRMO4ceK
+        width: 441
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.altexsoft.com%2Fblog%2Fmobile%2Fthe-good-and-the-bad-of-xamarin-mobile-development%2F&h=ATPVRxW4wowxwPk8zPr90fMee-l0XeGsubMdFQrGgh6voFEW56uCYwKUZnHzsPwIH_Q-ws9gDFMMFoqmNuoeJXGM_HctB_pM95M_&s=1&enc=AZPEKNQnM2cRc9gD71aVYCTnRC06dliXD2DQ8hPPwfY927CJt4XVhE9rIBXC3j1aC1MswQ1jDH3rzEJ0sg1SKHaw
+    title: The Good and The Bad of Xamarin Mobile Development
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.altexsoft.com%2Fblog%2Fmobile%2Fthe-good-and-the-bad-of-xamarin-mobile-development%2F&h=ATPVRxW4wowxwPk8zPr90fMee-l0XeGsubMdFQrGgh6voFEW56uCYwKUZnHzsPwIH_Q-ws9gDFMMFoqmNuoeJXGM_HctB_pM95M_&s=1&enc=AZPEKNQnM2cRc9gD71aVYCTnRC06dliXD2DQ8hPPwfY927CJt4XVhE9rIBXC3j1aC1MswQ1jDH3rzEJ0sg1SKHaw

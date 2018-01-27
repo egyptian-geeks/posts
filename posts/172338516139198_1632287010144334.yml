@@ -1,0 +1,184 @@
+---
+message: What is the best bug reporting tool?
+from:
+  name: Mourad Al Ashry
+  id: '10160284573020019'
+type: status
+created_time: '2017-10-13T21:06:29+0000'
+updated_time: '2017-10-14T18:41:23+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1632287010144334/
+id: '172338516139198_1632287010144334'
+reactions:
+  data:
+  - id: '2032504700100329'
+    name: Mohammed Yassin
+    type: LIKE
+  - id: '1573272439420590'
+    name: Abd ElRahman AshRaf
+    type: LIKE
+  - id: '904541336370082'
+    name: Toka Ashraf
+    type: LIKE
+  - id: '10156053787987365'
+    name: Ibrahim Emara
+    type: LIKE
+  - id: '10155731837446072'
+    name: Ahmed Mahdy
+    type: LIKE
+  - id: '973044862844261'
+    name: Ahmed Milad
+    type: LIKE
+  - id: '10155776812301418'
+    name: Youmna Yasser
+    type: LIKE
+  - id: '10213966676215393'
+    name: Hossam Eldeen Onsy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdNakkwTlRVNU56RXpPakUxTURnd01USTJOVGc2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBMk5EY3dNREV6TXpveE5UQTNPVE16TlRZAMU9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2017-10-13T21:09:03+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: I used Jira, TFS, FogBugs, and BugZilla, my favorite is Jira, also whatever
+      can totally integrate with other CI/CD pipeline, like source control, build
+      and Deployment, both Jira and TFS have great Integration within their respective
+      ecosystems.
+    id: '1632318586807843'
+  - created_time: '2017-10-13T21:27:11+0000'
+    from:
+      name: Ahmed Samir
+      id: '10159800858645702'
+    message: TFS
+    id: '1632329123473456'
+  - created_time: '2017-10-13T21:31:50+0000'
+    from:
+      name: Heba Yehia
+      id: '10157183313358289'
+    message: Jira
+    id: '1632337630139272'
+  - created_time: '2017-10-13T21:59:16+0000'
+    from:
+      name: Muhammad Saleh
+      id: '10156649659196002'
+    message: Jira is really nice and really advanced (they have a query language called
+      JQL)
+    id: '1632353556804346'
+  - created_time: '2017-10-13T22:13:44+0000'
+    from:
+      name: Noha Abdel-Tawab
+      id: '10160136355320107'
+    message: "Instabug \U0001F600"
+    id: '1632362056803496'
+  - created_time: '2017-10-13T22:13:53+0000'
+    from:
+      name: Sherif Adel Medhat
+      id: '10156187700081392'
+    message: TFS and JIRA are great, also Zoho Bug Tracker is good
+    id: '1632362153470153'
+  - created_time: '2017-10-13T22:32:31+0000'
+    from:
+      name: Ahmed Hashem
+      id: '10212776797187059'
+    message: TFS
+    id: '1632373666802335'
+  - created_time: '2017-10-13T22:43:37+0000'
+    from:
+      name: Ramy Tamer
+      id: '2020727481277546'
+    message: I use bugsnag , it can integrate with most of the popular services like
+      github, bitbucket,  asana and available for nearly all technologies
+    id: '1632380233468345'
+  - created_time: '2017-10-13T22:54:33+0000'
+    from:
+      name: Hesham Desouky
+      id: '10215011048531592'
+    message: TFS is nice with slack and Trello integration, sky is the limit
+    id: '1632385333467835'
+  - created_time: '2017-10-13T22:58:02+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: JIRA.
+    id: '1632387020134333'
+  - created_time: '2017-10-13T23:02:03+0000'
+    from:
+      name: Mohamed Ezzat
+      id: '179696229429042'
+    message: jira
+    id: '1632388696800832'
+  - created_time: '2017-10-13T23:14:59+0000'
+    from:
+      name: Sameh Reda El Nabawy
+      id: '10213498840159303'
+    message: TFS
+    id: '1632396306800071'
+  - created_time: '2017-10-13T23:18:53+0000'
+    from:
+      name: Ahmed Anwar
+      id: '10213138823258512'
+    message: |-
+      Jira is the best software development tool used by agile teams but when it comes to bug reporting in mobile apps you will spend effort and time reporting and filling bug details and then much time in reproducing the bug and trying to fix it, so you have to use Instabug that will help your team and beta testers report feedback/bugs from your mobile app and Instabug will collect all required information for your dev team to reproduce this bug and fix it faster. and you can integrate it with Jira/trello/github if you don't want to change your workflow.
+      Give it a try and let me know if you need any assistant, anyway it won't take more than 1 minute to integrate https://instabug.com
+    id: '1632398133466555'
+  - created_time: '2017-10-14T00:56:40+0000'
+    from:
+      name: Karim Tawfik
+      id: '10159730660210062'
+    message: Jira, it's not about the bug tool itself, its about the integrations
+      it provide with other systems (bitbucket, github, slack, fully implementing
+      the agile process)
+    id: '1632447890128246'
+  - created_time: '2017-10-14T01:35:12+0000'
+    from:
+      name: Mohammad A. Abdelalim
+      id: '853389208176064'
+    message: If you have a small team < 5, I'd definitely go with Visual Studio Team
+      Services, very easy to adapt.
+    id: '1632469646792737'
+  - created_time: '2017-10-14T04:19:15+0000'
+    from:
+      name: Ebeid Soliman El Sayed
+      id: '10155809346662559'
+    message: JIRA
+    id: '1632574383448930'
+  - created_time: '2017-10-14T08:43:13+0000'
+    from:
+      name: Amr Noaman
+      id: '737939903061579'
+    message: Redmine is the best in my opinion .. but there is no cloud hosting for
+      it.
+    id: '1632730470099988'
+  - created_time: '2017-10-14T14:37:19+0000'
+    from:
+      name: Ahmed Tawfik
+      id: '10159751427115532'
+    message: "Mantis bug tracking one of the best, its free , open source ,friendly
+      and easy to use and install. I have used it for a year \U0001F44C"
+    id: '1632960270077008'
+  - created_time: '2017-10-14T15:37:46+0000'
+    from:
+      name: Bavly Morcos
+      id: '1576001382455519'
+    message: Jira
+    id: '1633008363405532'
+  - created_time: '2017-10-14T15:41:56+0000'
+    from:
+      name: Ahmed Soliman
+      id: '10152402728970388'
+    message: Bug "reporting" or "tracking"?
+    id: '1633012260071809'
+  - created_time: '2017-10-14T16:41:31+0000'
+    from:
+      name: Mohammed Gamal
+      id: '10156278338768296'
+    message: BUGZILLA!!! :P
+    id: '1633057220067313'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl6TWpNeE9EVTROamd3TnpnME16b3hOVEEzT1RJNE9UUXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl6TXpBMU56SXlNREEyTnpNeE16b3hOVEEzT1RrNU1qa3gZD

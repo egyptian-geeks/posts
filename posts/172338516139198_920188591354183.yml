@@ -1,0 +1,735 @@
+---
+message: "انا عارف ان البوست دا طويل جدا ومعقد جداً، بس المهتم هيلاقيه متعه هوا وبيقراه\n\n101
+  دليلك فى البرمجة ومجال امن وحماية واختبار اختراق تطبيقات الويب\n­\n#ثغرة_وحكاية
+  #حماية #امان #امن_المعلومات #Security #Vulnerability #InformationSecurity #Internet
+  #Safety #InfoSec\n­\nفى البوست دا حاولت بقدر الامكان انى اجاوب فيه على كل الاسئلة
+  اللى اتسألتلى فى الفتره اللى فاتت وعن معظم الاسئلة اللى هتجول فى خاطرك علشان تبدأ
+  فى مجالين متلازمين ببعض من منظورى الشخصى وهم 1- البرمجة 2- ومنها تقدر تبدأ بسهولة
+  البدء فى مجال القرصنة الاخلاقية Ethical Hacking او تحديداً وبشكل ادق مجال حماية
+  وامان واختبار اختراق تطبيقات الويب Web Application Penetration Testing فى صورة نصائح
+  لراغبى البدء فى اى منهم، النصائح دى بتتلخص فى بعض النقاط وهى:\n­\n1-إتقان اللغة
+  الانجليزية \"اهم شئ\" مش هتعرف تمشى كويس بدون الانجلش.\n2-تعلم مبادئ البرمجة والمفاهيم
+  العامة Programming Concepts and Fundamentals\n3-التركيز على لغة برمجة واحده والبعد
+  عن التشتيت والحشو المعلوماتى، لغات البرمجة اللى ممكن تعمل بيها تطبيقات ويب كتيره
+  منها PHP و ASP و Ruby و Python و Perl كلها لغات برمجة اتخلقت علشان تؤدى مهام واغراض
+  كتيره متشابهه، تقدر بشكل عام تختار الانسب ليك منها وتبدأ تتعلمه، فكرة انك لازم علشان
+  تبقى حد معدى ان يبقى معاك مليار لغة برمجة دى فكره خطأ جداً الحشو دا هيخليك متعرفش
+  تمشى فى ولا واحده فيهم، اتعلم المفاهيم والاساسيات العامه للبرمجه هتلاقى نفسك لو
+  بصيت على اى كود فى العالم هتفهم دا اتكتب بلغة برمجة ايه وبيعمل ايه ماعدا اكواد ال
+  Assembly علشان مبقاش بغشك، بشكل عام دا انفوجراف هيبينلك مدى قوة كل لغة منهم على
+  حده وهيساعدك تختار مابينهم http://goo.gl/1yQggG\n4-تعلم واتقان تكنولوجيا الويب المختلفة
+  مثل HTML & HTML5 و CSS & CSS3 و JavaScript و Ajax و Jquery و XML و json الحاجات
+  دى بديهيه وضروريه وهتساعدك كتير جدا وبدونها مش هتقدر تفهم حاجات كتير جداً بردو.\n5-لو
+  انت بقى مش مهتم لا بالحماية والامان ولا اختبار اختراق تطبيقات الويب، وعايز تدخل
+  مجال برمجة الموبايل فبالنسبة للمجال دا لازم تسأل نفسك الاول وتحدد ياترى انت ناوى
+  تبرمج لأى منصة؟! حددت المنصة، بعدها تشوف بقى كل منصة بتتطلب اجادة اى لغة برمجة تحديدا
+  بمعنى انك:\n6-لو عايز تبرمج لنظام التشغيل Android يبقى لازم تتقن لغة البرمجة Java\n7-لو
+  عايز تبرمج لكل منتجات شركة Apple ففى الحالة دى يبقى لازم تتقن لغة البرمجة Objective
+  C\n8-لو عايز تبرمج لنظام التشغيل Windows Phone يبقى لازم تتقن لغة البرمجة C#.Net
+  او VB.Net او اى منصة عملتها او هتعملها مايكروسوفت بتدعم البرمجة لنظام تشغيلها\n9-دا
+  لينك فيه كورسات لكل ما سبق ذكره: http://goo.gl/IBxsfK\n10-منتنظرش المعلومة فى طبق
+  من دهب من اى حد بما فيهم انا، محدش هيساعدك غير نفسك، فى حاجه اسمها التعلم الذاتى
+  والمثابره.\n11-إتقان مهارات البحث على جميع محركات البحث واشهرها جوجل، هتلاقى الكلام
+  دا هنا: http://goo.gl/oX5d9x وهنا: http://goo.gl/XD5lNp .\n12-لازم تعرف ايه الفرق
+  مابين نوعين من المواقع والتطبيقات على الانترنت، واللى هيا Static ودى ماهى الا صفحات
+  غير تفاعليه بتعرض فقط بيانات على سبيل مثال جرائد الاخبار الموجودة على الانترنت،
+  اما فى حالة لو سمحتلك الجرائد دى بأنك تتفاعل معاها من خلال التعليقات والاعجاب و
+  و الخ فى الحالة دى بيطلق عليها تطبيقات ويب او Dynamic Web Applications.\n13-الايمان
+  بمبدأ الـ Ethical Hacking وإعلاء القيم الانسانية الحسنة عن تلك الشريرة الدفينة فى
+  النفس البشرية بدون انتظار اى مقابل، بمعنى انك هتيجى عليك فتره وتسأل نفسك ياترى ايه
+  اللى يجبرنى او ايه اللى يخلينى افضل ابلغ عن الثغرات والاخطاء دى لأصحاب المواقع؟!
+  او او او كلها اسئلة هتجول فى فكرك يوماً ما، بس دايما حط فى دماغك ان اللى انت بتعمله
+  دا فيه قيمة انسانية اكتر ما هتسرق مثلا او تخرب.\n14-القيام بتنمية المهارات البرمجية
+  دا هيساعد فى البداية لمعرفه ما هى اللغة التى تمت كتابة موقع ما بها حتى يقوم بالبحث
+  والاستكشاف عن نقاط الضعف والابلاغ عنها.\n15-دراسة الشبكات بشكل اساسى وبدون تعمق
+  لأن فى حاجات كتير جداً هتمر بيها ولازم تكون عالاقل عارف معناها زى مثلا IP و Router
+  و Access Control Level وغيرها من المصطلحات المرتبطة.\n16-لازم ولابد تعرف يعنى ايه
+  مخدم محلى او Local Web Server، يعنى ايه ويب سيرفر، هوا ايه الشئ دا اللى انا بروحله
+  ويخدمنى ويجيبلى الصفحات والمواقع لحد عندى، مخدمات الانترنت وانظمتها جيداً.\n17-خد
+  بالك بردو ان فى مصطلحات كتيره بديهيه بقى لازم تاخد بالك منها وتجتهد وتبحث وتقرا
+  فيها علشان تعرف معناها على سبيل المثال لا الحصر:\n[*] يعنى ايه Web Server وانواعها
+  المختلفه زى Apache و IIS و GWS و Nginx و  Appserv و XAMPP؟! تقدر تعرف دا من هنا:
+  http://goo.gl/9jjv0e\n[*] يعنى ايه Request بالتفصيل وطرقة وانواعه؟! تقدر تعرف دا
+  من هنا: http://goo.gl/XIW4rh\n[*] يعنى ايه Http Headers بأنواعها؟! تقدر تعرف دا
+  من هنا: http://goo.gl/iaiG2W\n[*] يعنى ايه Response وانواعه واكواد الحالة الخاصه
+  بيه وتفاصيله!؟ تقدر تعرف دا من هنا: http://goo.gl/LMt5PE\n[*] يعنى ايه Mysql و Mssql
+  و Postgresql و Phpmyadmin ؟!\n[*] يعنى ايه http و https و ssl و certificate و interception
+  و Proxy و Protocols و Framework و Authenticate و Authorize و Privileges و Escalation
+  ولو معرفتش دور وابحث وترجم.!\n[*] هتلاقى فى مصطلحات هتقابلك بردو مكعبله متعديهاش
+  وتقول هقراها بعدين، اقف واقرا عن اللى وقفك دا، وبعدين كمل صدقنى هتحس بمتعة فعلا.\n18-هيا
+  الى العمل، ندخل بقى ف الجد شوية، بالنسبة لـ :\n[*] مواصفات الجهاز: مش هتكلم فى الجزأية
+  دى ولا اقول مواصفات جهاز بعينه بس بشكل عام كل ما كان الجهاز ذو معالج قوى ورامات
+  قوية هيديلك اداء افضل واحسن.\n[*] نظام التشغيل: المعلومة دى على مسؤوليتى الشخصيه،
+  اى نظام تشغيل هيخليك تقدر تعمل اى شئ سواء كان ويندوز او لينيكس او ماك فى اى مجال
+  سواء كان برمجة او تصميم او اختبار اختراق، كل الموضوع بس ان فى انظمة (افضل) وحط تحت
+  كلمة افضل دى خط عريض افضل فى انها تؤدى مهام بعينها، دا يخليك تسأل نفسك، ليه الديزاينرز
+  دايما بيستعملوا ماك؟! ليه الهاكرز دايما لينيكس؟! ليه فى مبرمجين بيستعملوا ويندوز؟!
+  مش هقول ارهق نفسك واتعلم نظام تشغيل لان دا هيتوقف على كمية الشغف اللى هتكون فيها
+  يعنى فى اللى شغفه ياخده انه يدوس ف لينيكس وفى اللى شغفه هيخليه يقول \"ياه كل دا
+  بوست\" نفض ويرجع تانى للسرير، زى ما وضحت قبل كدا كل انظمة التشغيل تقدر تعمل كل حاجه
+  بس القصة بقى ان بدل ما تضيع جزء كبير من وقتك فى انك تقوم بتهيئ الادوات علشان تتلائم
+  مع متغيرات بيئة العمل فى نظام تشغيل ما، فى انظمة اتعملت خصيصا علشان تلاقى فيها الادوات
+  دى موجوده وجاهزه للأستخدام بمعنى، عندك مثلا اداه زى SQLMap الاداه دى قوية جداً فى
+  اكتشاف واستغلال ثغرات SQL Injections واحد مره سألنى وقالى عايز اشغلها على ويندوز،
+  طبعا الموضوع مرهق شويه، الاداه تمت كتابتها بلغة البايثون ففى الحالة دى محتاج الاول
+  تنزل Python على ويندوز!! وبعد ما تنزل البايثون وتنصبه محتاج انك تعمل بعض التعديلات
+  فى ال Environment Variables ودا موضوع شاق، طيب ليه اعمل كل دا لما ممكن انزل اى توزيعة
+  لينيكس مصممة خصيصاً لدا؟! بمعنى ان معظم توزيعات لينيكس ان لم يكن جميعها تحتوى \"افتراضيا\"
+  على بايثون بل ومتناغم جدا مع النظام بمعنى انك مش محتاج انك تقوم بأى خطوات اضافيه
+  علشان تخليه يشتغل، فأنا انصح اى حد هيدخل المجال دا بأنه يقوم بإختيار اى توزيعة من
+  التوزيعات المبنية على لينيكس المخصصه فى المجال دا على سبيل المثال لا الحصر Backtrack
+  او Kali Linux او Black Arch او Backbox او Pentoo او Cyborg Hawk Linux ، وبردو ارجع
+  واذكرك لو انت على ويندوز مفيش اى مشاكل هتقابلك غير المشقه والتعب اما بالنسبه للتوافقيه
+  فكل الادوات هتشتغل على كل الانظمة إلا فى حالة ان كان هناك ادوات تمت كتابتها خصيصا
+  لتعمل على انظمة دون غيرها.\n[*] الادوات: الادوات بتاعتك هيا مصدر قوتك، الجميل بقى
+  انك فى المجال دا بالرغم من كل الادوات دى هتلاقى نفسك محتاج حاجات خرافيه محدش هيفهمها
+  غيرك انك، فتقوم تعمل ايه؟!!! تكتبها بنفسك؟! ازاااى؟ زى ما ذكرت دا بيتم من خلال لغات
+  برمجة كتير زى Ruby و Perl وافضلهم Python، بالنسبة للأدوات بقى لازم تدخل جوجل وتدور
+  على الادوات دى وتشوفها بتشتغل ازاى وازاى هتقدر تفيدك، كل اللى اقدر اساعدك بيه انى
+  هديلك اساميها وانت تعيش بقى، خد عندك:\nWireshark - Ettercap - Metasploit - Mantra
+  Browser - Fiddler - Burp Suite - Owasp Zap - Vega Web proxy - DOMinator - Netsparker
+  - SQLMap - IBM Security AppScan - Webinspect - OWASP Xenotix XSS Framework - Zenmap
+  (the gui version of Nmap) - Havij - SwfScan - Acunetix - Web Application Fuzzers.\n[*]
+  هنا هتلاقى ادوات مفيده جداً بردو: http://goo.gl/Bs8afv\n19-لازم تبقى برنس ومدقدق
+  وتحاول حضور بعض المؤتمرات والمسابقات المهمة جدا على مستوى العالم سواء اونلاين او
+  الحضور الفعلى والاستفاده مثل Defcon - Pown2own - Blackhat - NullCon - Hackthons
+  - OWASP Meetings - AppSec واى ايفنت له علاقة بالسكيوريتى\n20-تابع الناس المتميزه
+  فى المجال وحاول تسألهم وتستفيد منهم، الناس دى متولدتش متعلمه كل واحد عمل حاجات كتير
+  علشان يوصل للى وصله دا واكيد الحاجات دى جات على حاجات تانيه زى دراسته مثلا او صحته
+  او او الخ فلاحظ انك مش بتطلب منه شئ سهل.\n21-بالنسبة للدراسة الاكاديمية:\nالجزء
+  دا مش هقدر اوفى قدرة من الاهتمام ودا لأنى مدرستش دا بشكل اكاديمى بس ممكن اى حد درس
+  يقدر يساعدك\n[*] تقدر تدرس اى من مجالات الامن السيبرانى او امن المعلومات فى معهد
+  تكنولوجيا المعلومات ITI او من خلال منحة وزارة الاتصالات MCIT حاول تدور بقى على التراكات
+  دى لأنها ليها شروط قبول وحاول تعرف تفاصيلها.\n[*] اما بالنسبه للشهادات ففى شهادات
+  كتير تقدر تاخدها فى المجال دا ابرزهم OSCP اختصاراً لOffensive Security Certified
+  Professional تقدر تعرف عنها اكتر من هنا: http://goo.gl/qM8o2I ودى تعتبر افضل شهاده،
+  فى بردو شهادة CEH اختصاراً الى Certified Ethical Hacking وتقريباً احدث اصدار ليها
+  هوا 8 وتقدر تعرف عنها هنا: http://goo.gl/UUUlUZ الشهادتين طبعاً بيكون فيهم منح تقريباً
+  فخليك متابع بقى الاخبار دى علشان تستفيد.\n22-بناء معمل اختبار امنى وهمى للقيام ببعض
+  التجارب على سبيل المثال من خلال تطبيقات متخصصه لدا منها على سبيل المثال Virtual
+  PC - VMWare - VirtualBox، بعد كدا ابدأ بقى نزل الويب سيرفر الخاص بيك على حسب نظام
+  تشغيلك المفضل، وخد عندك الكلمة دى، DVWA اختصاراً ل Damn Vulnerable Web Applications
+  ودى بقى تطبيقات ويب مصابه بثغرات كتيره جدا بشكل مقصود واتعملت خصيصا علشان تتدرب
+  عليها حضرتك، فحاول تنزل كتير منها على الويب سيرفر بتاعك وابدأ انطلق، بس خد بالك
+  حاول تعزل مختبرك الامنى الوهمى دا عن اى شبكات خارجيه علشان للأسف ممكن يكون سبب فى
+  اختراق جهازك الوهمى والحقيقى!\n­\n23-انواع الهاكرز \"هقول المختصر المفيد فيهم وتقدر
+  تقراً تفصيلاً عنهم هنا: http://goo.gl/P5PEII\n[*] Whitehat: الهاكرز ذوى القبعات
+  البيضاء دول نوع من الهاكرز بيحاول يكسر قيود الحماية والامان بس لأسباب الابلاغ عنها
+  واصلاحها مش لأسباب خبيثه خالص ودا علشان يختبر قوة النظام الامنيه وبيقوم بعمل اختبار
+  الاختراق وتقييم نقاط الضعف  بشكل متفق ومتعاقد عليه من قبل.\n[*] تعريف ويكيبيديا
+  له:\nA white hat hacker breaks security for non-malicious reasons, perhaps to test
+  their own security system or while working for a security company which makes security
+  software. The term \"white hat\" in Internet slang refers to an ethical hacker.
+  This classification also includes individuals who perform penetration tests and
+  vulnerability assessments within a contractual agreement. The EC-Council, also known
+  as the International Council of Electronic Commerce Consultants, is one of those
+  organizations that have developed certifications, courseware, classes, and online
+  training covering the diverse arena of ethical hacking\n­\n[*] Blackhat: دا على
+  عكس ال White تماما، ومش محتاج تعريف غير انه بيخترق علشان يسرق وخرب ويعمل بلاوى.\n[*]
+  تعريف ويكيبيديا له:\nA \"black hat\" hacker is a hacker who \"violates computer
+  security for little reason beyond maliciousness or for personal gain\" (Moore, 2005).[9]
+  Black hat hackers form the stereotypical, illegal hacking groups often portrayed
+  in popular culture, and are \"the epitome of all that the public fears in a computer
+  criminal\". Black hat hackers break into secure networks to destroy, modify, or
+  steal data; or to make the network unusable for those who are authorized to use
+  the network. Black hat hackers are also referred to as the \"crackers\" within the
+  security industry and by modern programmers. Crackers keep the awareness of the
+  vulnerabilities to themselves and do not notify the general public or the manufacturer
+  for patches to be applied. Individual freedom and accessibility is promoted over
+  privacy and security. Once they have gained control over a system, they may apply
+  patches or fixes to the system only to keep their reigning control. Richard Stallman
+  invented the definition to express the maliciousness of a criminal hacker versus
+  a white hat hacker who performs hacking duties to identify places to repair.\n­\n[*]
+  Greyhat: دا بقى وسط الاتنين السالف ذكرهم، بمعنى انه بيخترق النظام او التطبيق علشان
+  يعرف صاحب التطبيق او الجهه المسؤوله عنه ان عندهم ثغرات ومشاكل بل وبيعرض عليهم بعد
+  كدا انه يساعد فى سدها بشكل مجانى\n[*] تعريف ويكيبيديا له:\nA grey hat hacker lies
+  between a black hat and a white hat hacker. A grey hat hacker may surf the Internet
+  and hack into a computer system for the sole purpose of notifying the administrator
+  that their system has a security defect, for example. They may then offer to correct
+  the defect for a fee. Grey hat hackers sometimes find the defect of a system and
+  publish the facts to the world instead of a group of people. Even though grey hat
+  hackers do not perform hacking for their personal gain, unauthorized access to a
+  system can be considered illegal and unethical.\n­\n[*] Bluehat: دا بقى الشخص اللى
+  بيبقى من خارج الشركة او المؤسسه او المنشأه بيتم استخدامه علشان يعمل اختبار للانظمه
+  او التطبيقات قبل اطلاقها بشكل عام علشان يتم اصلاحها.\n[*] تعريف ويكيبيديا له:\nA
+  blue hat hacker is someone outside computer security consulting firms who is used
+  to bug-test a system prior to its launch, looking for exploits so they can be closed.
+  Microsoft also uses the term BlueHat to represent a series of security briefing
+  events\n­\n[*] Elite hacker: دى عبارة عن وصف حالة مجتمعيه بمعنى ان الاليت دا من
+  اخير الهاكرز الموهوبين\n[*] تعريق ويكيبيديا له:\nA social status among hackers,
+  elite is used to describe the most skilled. Newly discovered exploits circulate
+  among these hackers. Elite groups such as Masters of Deception conferred a kind
+  of credibility on their members.\n­\n[*] Script kiddie: بالبلدى \"اطفال الهاكر\"
+  واحد مبيعرفش اى شئ فى اى شئ غير انه لقى سكربت او تطبيق او شفره وقرأ دليل استخدامها
+  وبالتالى استخدمها لكن فى مجملها ميعرفش تفاصيل، على الاغلب مستخدمى الادوات الاوتوماتيكيه
+  بيطلق عليهم التعريف دا\n[*] تعريف ويكيبيديا له:\nA script kiddie (also known as
+  a skid or skiddie) is an unskilled hacker who breaks into computer systems by using
+  automated tools written by others (usually by other black hat hackers), hence the
+  term script (i.e. a prearranged plan or set of activities) kiddie (i.e. kid, child—an
+  individual lacking knowledge and experience, immature) usually with little understanding
+  of the underlying concept.\n­\n[*] Neophyte: ال Noob او ال Newbie ودا الشخص الجديد
+  او الشخص اللى لا يعرف ولا حاجه عن الهاكينج او التكنولوجيا المستخدمه، بيطلق عليه
+  بردو The 0 Knowledge guy او الشخص اللى معلوماته صفر.\n[*] تعريف ويكيبيديا له:\nA
+  neophyte (\"newbie\", or \"noob\") is someone who is new to hacking or phreaking
+  and has almost no knowledge or experience of the workings of technology and hacking.[10]\n­\n[*]
+  Hacktivist: هاكر ذو سمات وطبيعة مجتمعية، بيخترق من اجل نشر اهداف كتيره مختلفه منها
+  السياسية والدينيه والفكرية وبردو له نوعين، نوع شرير والنوع الاخر بيخدم حرية المعلومات.\n[*]
+  تعريف ويكيبيديا له:\nA hacktivist is a hacker who utilizes technology to publicize
+  a social, ideological, religious or political message.\nHacktivism can be divided
+  into two main groups:\nCyberterrorism — Activities involving website defacement
+  or denial-of-service attacks; and,\nFreedom of information — Making information
+  that is not public, or is public in non-machine-readable formats, accessible to
+  the public.\n­\n24-يعنى ايه ثغرات، انواعها، اكتشفها ازاى، اقدر استغلها ازاى:\nقسمت
+  OWASP اختصاراً ل Open Web Application Security Project وهى منظمة غير هادفة للربح،
+  الثغرات الخاصه بتطبيقات الويب ل 10 انواع رئيسية، التقسيم دا ترتيبه بيبقى متوقف على
+  عوامل كتيره منها الخطوره والانتشار والاثر، ال 10 انواع دول كالتالى:\n1 - Injection\n2
+  - Broken Authentication and Session Management\n3 - Cross-Site Scripting (XSS)\n4
+  - Insecure Direct Object References\n5 - Security Misconfiguration\n6 - Sensitive
+  Data Exposure\n7 - Missing Function Level Access Control\n8 - Cross-Site Request
+  Forgery (CSRF)\n9 - Using Components with Known Vulnerabilities\n10 - Unvalidated
+  Redirects and Forwards\nطبعا الانواع دى بتعتبر انواع رئيسيه، هتلاقى داخلها انواع
+  تانيه فرعية وقمت بشرح بعض منها هتلاقيه فى جزء المصادر اخر البوست، كل نوع من الانواع
+  الرئيسيه او الفرعيه قامت OWASP بشرح طرق اكتشافه واستغلالة بالامثله، عايز تقراً عنهم
+  اكتر بشكل مفصل هنا: http://goo.gl/b2cn9a\n[*] ملحوظة بسيطه: فى انواع وطرق وحيل متكشفه
+  حديثاً مش هتلاقيها بتندرج تحت التصنيفات دى ، ودى غالبا بتكون من ابداع باحثين ومحللين
+  امنيين هتقدر تعرفها من المدونات الشخصية بتاعتهم واللى هتلاقيها فى جزأية المصادر
+  بردو.\n­\n25-التقارير الامنيه The Security report\nالتقرير الامنى هو همزة الوصل
+  مابينك ومابين الشركة او المؤسسة اللى بيحتوى تطبيقها او موقعها او خدمتها على خلل
+  امنى ما، كلما كان التقرير اوضح كلما ساعدت الفريق المسؤول عن الحماية والامان او فريق
+  المطورين على فهم المشكله اكبر، حاول قدر الامكان تكون محدد وواضح ولو دعمت التقرير
+  بتاعك بفيديو مفصل هيكون اضافه هايله وهيكون سبب فى قبول التقرير، بل من الممكن زيادة
+  المكافأه بناء على جودة التقرير ووضوحه.\n­\n26- برامج المكافأت على الثغرات، الباونتى،
+  المكافأه، ازاى اخد مكافأه، عايز فلوس، عايز اكسب :\nمواقع كتير جداً بتؤمن بمبدأ المكافأه
+  على الثغرات الامنية ودا اتبلور فى شكل \"برامج المكافأت الامنية\" او بإسم Bug Bounty
+  Programs كانت ولازالت من اشهر المواقع اللى بتقدم المكافأت دى هى Facebook و Google
+  و Yahoo و Microsoft طبعا مع اختلاف تفاصيل كل برنامج ففى شركات مش بتكافئ غير على
+  جزء معين من تطبيقاتها او مواقعها، وفى المواقع اللى هتلاقيها عندها تسعيره محدده للثغرات
+  زى جوجل مثلا وهتلاقى شركات اخرى بتحط حد ادنى ولا يوجد حد اقصى زى فيسبوك.\n\nعلشان
+  تاخد مكافأت لازم تقرأ الاول قوانين كل شركة وكل برنامح، هناك انوع من الثغرات لا تقبلها
+  الشركات، وهناك انواع تقدر بألاف الدولارات، اقرأ كويس القوانين وابدأ Hunt وقم بمراسلتهم
+  زى ماهما محددين طرق التواصل، ويجب عليك احترام القوانين والا هتبقى بتخالف القوانين
+  والشروط وساعتها هتعرض نفسك لمساءلات قانونيه كتيره.\n\nطيب اكسب ازاى؟!\nبرامج المكافأت
+  نوعين، نوع بيبقى على موقع الشركه نفسه، هيا اللى بتستضيفه وبتخصصله فريق كامل تحت
+  ادارتها، زى ما بيحصل مع جوجل وفيسبوك مثلا، وفى شركات تانيه بتقوم بفتح برامج ليها
+  على منصات كتيره زى مثلا اشهرها : HackerOne و BugCrowd و CrowdCurity كل اللى انت
+  بتعمله بتدخل على اى موقع من المواقع دى وتبدأ تسجل حساب بإسمك وتستكشف البرامج الموجوده
+  وترسل التقارير، روابط المواقع دى كالتالى:\nhttps://www.hackerone.com\nhttps://www.bugcrowd.com\nhttps://www.crowdcurity.com\n­\n[*]
+  فى ملاحظة مهمه اخيره لازم تاخد بالك منها، طيب دلوقتى عرفنا ان فى مواقع بتقدم مكافاّت
+  بشكل قانونى، طيب وبالنسبة لباقى المواقع الموجوده على الانترنت من مواقع متنوعه، خدمات،
+  مواقع بنوك، مواقع حكومية، مواقع خاصه وغيرها؟!\n*خد بالك*،مينفعش تدور فى اى مواقع
+  مش معلنه ان عندها برنامج مكافأت، وكمان ملكش الحق دا خالص، لأن دى بتعتبر جريمة ممكن
+  يحاسبك عليها القانون وتبقى فى موقف سيئ قانونياً وبتوصل للحبس احياناً \"فى حالات
+  اعرفها حصل معاها دا\" فدى نقطة لازم تحطها فى الاعتبار.\n­\n27-فروق مابين مصطلحات
+  بالكاد بتكون متشابهه على ناس كتير زى مثلا Bug Hunting و Security Testing و Functional
+  Testing و Penetration Testing هشرحهم بشكل سريع:\n[*] Bug Hunting\nاقتناص الثغرات
+  الامنية فى المواقع وتطبيقات الويب مع عدم العلم بالتكنولوجيا التى يعمل بها الخادم
+  او حتى التطبيق نفسه، دايما بيكون اغلبها على جهة العميل Client Side والقليل منها
+  على جانب السيرفر Server Side\n­\n[*] Functional Testing\nبإختصار هى عملية فحص الموقع
+  او التطبيق او النظام ضد المشاكل الوظيفيه زى مثلا، بيصحل خطأ ما عند معالجة نص طويل
+  جدا، او زر لا يعمل، او خلل فى وظيفة ما.\n­\n[*] Security Testing\nيكاد يكون قريب
+  جداً من معنا ال Functional Testing بس يختلف هنا انك مش بتفحص هل الوظيفه دى تعمل
+  ام لا، لا هنا الاختبار متعلق اكتر بجانب الحماية، هل الوظيفه\\الخاصية دى ممكن تعرضنى
+  فى المستقبل للاختراق مثلا؟! او تسريب البيانات او او خلافه..\n­\n[*] Penetration
+  Testing\nعمل اختبار اختراق لنظام او تطبيق ويب او خدمة بشكل كامل من A الى Z، دا بيشمل
+  طبقات زى ال Server Layer وال Network Infrastructure Layer وال Services Layer وال
+  Web Application Layer ومراحل كتيره جدا زى Reconnaissance و Scanning و Gaining Access
+  و Maintaining Access و Covering Tracks بعدهم هتسمع مصطلحات كتير زى Vulnerability
+  Assessments و Remediation و Reporting وليه انواع متعدده ابرزها ال White-box وال
+  Black-box اعرف اكتر من هنا: http://goo.gl/Fl4mRZ\n­\n28-المصادر:\nدى مصادر هتقدر
+  تتعلم من خلالها حاجات كتيره جدا، وخد بالك المعلومات اللى هتتعرضلها فى المصادر دى
+  كبيره جدا وكتيره جدا، خد منها اللى هينفعك وناوى تتخصص فيه وبس:\n[*] OWASP - الموقع:
+  http://goo.gl/XgNzmP\n[*] SANS Institute - الموقع: http://goo.gl/kAyv0x\n[*] InfoSecInstitute
+  - الموقع: http://goo.gl/YCs5tT\n[*] CybraryIT - الموقع: http://goo.gl/6MNuvg\n[*]
+  Security4Arabs - مجتمع الحماية العربي : http://goo.gl/WsFHy2\n[*] iSecurity - مجتمع
+  عربي للهاكر الأخلاقي : http://goo.gl/4iwZpb\n[*] Secommunity - مجتمع الأمن المعلوماتي
+  : http://goo.gl/KWZqjm\n[*] iSecNews - منصة أخبار أمنيه تختص بأمن المعلومات: http://goo.gl/GiJ9Pw\n[*]
+  مجتمع Hacking15 - هاكينج15 : http://goo.gl/4e6zvj\n[*] Blue Kaizen - بلوكايزن :
+  http://goo.gl/cxker7\n[*] Cairo Security Camp - كايرو سيكيرويتى كامب : http://goo.gl/nT061x\n[*]
+  At4RE - المجتمع العربي للهندسة العكسية : http://goo.gl/bFTyBJ\n[*] Cyber4Arabs -
+  سايبر فور ارابس : http://goo.gl/SgCFq4\n[*] Cyber Arabs - سايبر ارابس : http://goo.gl/OioqhF\n[*]
+  TheHackerNews - ذا هاكر نيوز: http://goo.gl/Hel88D\n[*] HackRead - هاك رييد: http://goo.gl/vTbIxj\n[*]
+  HackerNews - هاكر نيوز: http://goo.gl/Jrwr4d\n[*] شبكة عبدالله عيد - الموقع: http://goo.gl/pr2rEw
+  - القناة على يوتيوب: http://goo.gl/5dRrWA\n[*] قناة يوسف اسماعيل Cliprz الرابط:
+  http://goo.gl/79FcAq\n[*] شبكة رواق: http://goo.gl/AEXHGq\n­\nدى بعض الكورسات اللى
+  قام بتجميعها فريق صعيدى جيكس S3Geeks ضمن حملة #ملكش_حجة بس وذكرت اللينك الخاص بيها
+  اثناء حديثى فى البوست بس هنا بشكل عام تم تنقيحها لتشمل بشكل اخص مجال البرمجة وقواعد
+  البيانات:\n[*] كورس :Introduction to Computer Science and Programming - الرابط:
+  http://buff.ly/1hWvYW0\n[*] كورس: Android 101 - الرابط: http://buff.ly/1hWvYW1\n[*]
+  كورس: Oracle Certified Professional Developer (OCP) - SQL - الرابط: http://buff.ly/1k9Wi3r\n[*]
+  كورس: HTML 5 - الرابط: http://buff.ly/1k9Wi3q\n[*] كورس: CSS & CSS3 - الرابط: http://buff.ly/1k9Wi3p\n[*]
+  كورس: JavaScript - JS - الرابط: http://buff.ly/1g2vCM6\n[*] كورس: PHP - الرابط:
+  http://buff.ly/1g2EAcq\n[*] كورس: PHP Object Oriented Programming - OOP - الرابط:
+  http://buff.ly/1kaJmdz\n[*] كورس: Java 101 - الرابط: http://buff.ly/1a41SOq\n[*]
+  كورس: jQuery - الرابط: http://buff.ly/1a44coL\n[*] كورس: Python  - الرابط: http://buff.ly/1cp6xGT\n[*]
+  كورس: Ajax  - الرابط: http://buff.ly/1cpeITD\n[*] كورس: الطريق لما وراء النوافذ
+  - Linux Basic  - الرابط: http://buff.ly/1g5ERLz\n[*] كورس: ASP.NET  - الرابط: http://buff.ly/1gwwdGG\n[*]
+  كورس: C# - الرابط: http://buff.ly/1a6E6S2\n[*] كورس: WordPress Templates Building
+  - الرابط: http://buff.ly/1gxxMEl\n­\nبوستات فى المجال كتبتها بنفسى:\n[*] دا بوست
+  بعنوان \"الحماية والامان بالعربية\"\nhttps://www.facebook.com/SymbianSyMoh/posts/1078212352193851\n­\n[*]
+  دا بوست عبارة عن 4 اسئلة مهمين فى قبل الدخول فى مجال اختبار اختراق تطبيقات الويب\nOn-the-Go:
+  \"A 4 Questions in WebApp #Information #Security\" #FYI #InfoSec.\nhttps://www.facebook.com/SymbianSyMoh/posts/1038564582825295\n­\n[*]
+  دا بوست بيتكلم عن \"نصائح للمستخدم العادي على #فيسبوك لتأمين وحماية الحساب الخاص
+  به\"\nhttps://www.facebook.com/SymbianSyMoh/posts/827157567299332\n­\n[*] دا بوست
+  بيتكلم عن ثغرات #CSRF\nhttps://www.facebook.com/SymbianSyMoh/posts/932178073463947\n­\n[*]
+  دا بوست بيتكلم عن ثغرات #Brute_Force\nhttps://www.facebook.com/SymbianSyMoh/posts/923798497635238\n­\n[*]
+  دا بوست بيتكلم عن ثغرات #Social_Engineering\nhttps://www.facebook.com/SymbianSyMoh/posts/927046500643771\n­\n[*]
+  دا بوست بيتكلم عن الثغرات المنطقية #Logical_Bugs\nhttps://www.facebook.com/SymbianSyMoh/posts/933872006627887\n­\n[*]
+  دا بوست بيتكلم عن ثغرات الـ ClickJacking او ال UI Redressing\nhttps://www.facebook.com/SymbianSyMoh/posts/965132690168485\n­\n[*]
+  دا بوست بيتكلم عن #ثغرات التعداد او احصاء البيانات - #Data #Enumeration #Security
+  #Vulnerability\n https://www.facebook.com/SymbianSyMoh/posts/976709859010768\n­\n[*]
+  دا بوست بيتكلم عن ثغرات ال \"Open Redirection - التحويل المفتوح\"\nhttps://www.facebook.com/SymbianSyMoh/posts/991824854165935\n­\n[*]
+  دا بوست بيتكلم عن تحدى ودمج مابين ثغرتى CSRF و #XSS\nhttps://www.facebook.com/SymbianSyMoh/posts/930786080269813\n­\n[*]
+  دا بوست بيتكلم عن #تحدى فى الثغرات من نوع XSS ومكانها داخل الكود\nhttps://www.facebook.com/SymbianSyMoh/posts/941400955874992\n­\n[*]
+  دا بوست عبارة عن فيديو بيوضح تطبيق المنطق الصحيح بالرغم من اكتشاف ثغرة من نوع XSS
+  فى صفحة تسجيل الدخول بموقع مشهور\nhttps://www.facebook.com/SymbianSyMoh/posts/933915926623495\n­\n[*]
+  دا بوست عباره عن #قصة_قصيرة_حزينة - #ثغرة_وحكاية\nhttps://www.facebook.com/SymbianSyMoh/posts/939802629368158\n­\n[*]
+  دا بوست عبارة عن \"تحدى جوجل لثغرات من نوع XSS\"\nhttps://www.facebook.com/SymbianSyMoh/posts/902568449758243\n­\n[*]
+  دا بوست عبارة عن تحدى لتخطى Web Application Firewall XSS Filter فى موقع مشهور جداً\nhttps://www.facebook.com/SymbianSyMoh/posts/955408307807590\n­\n[*]
+  دا بوست عن \"فيسبوك وشبح الخصوصية على صورة البروفايل\"\nhttps://www.facebook.com/SymbianSyMoh/posts/1028486523833101\n­\n[*]
+  دا بوست عن مستقبل ثغرات ال Web Applications\nhttps://www.facebook.com/SymbianSyMoh/posts/951274401554314\n­\n[*]
+  دا بوست بيتكلم عن اختراق خدمة Apple iCloud وتفاصيل فنية تانيه\nhttps://www.facebook.com/SymbianSyMoh/posts/962926807055740\n­\n[*]
+  دا بوست بيتكلم عن Logout Attacks او Logout CSRF\nhttps://www.facebook.com/SymbianSyMoh/posts/961535037194917\n­\n[*]
+  دا بوست بيتكلم عن ال Self-XSS او بمعنى اخر الخدع اللى بتقول للمستخدم انسخ الكود
+  وافتح ال Console والصق الكود واضغط انتر\nhttps://www.facebook.com/SymbianSyMoh/posts/823268734354882\n­\n[*]
+  دا بوست بيتكلم عن اسوأ سيناريوهات ممكن تتم بسب كلا من من Login CSRF و Logout CSRF
+  و Signup CSRF\nhttps://www.facebook.com/SymbianSyMoh/posts/963656050316149\n­\n[*]
+  دا فيديو مرتبط بالبوست اللى فات عن تطبيق لاسوأ سيناريو ممكن يتم من استغلال ثغرات
+  Login و Logout CSRF\nhttps://www.facebook.com/SymbianSyMoh/posts/969351006413320\n­\n[*]
+  دا بوست بخصوص ثغرة ال rom-0 الخاصه بالروترات \"خطيره جدا\" بالتفصيل وموقع لفحصها\nhttps://www.facebook.com/SymbianSyMoh/posts/819160938098995\n­\n[*]
+  دا بوست عن موقع يقوم بفحص الروتر الخاص بك ان كان عرضة للثغره المنتشره مؤخراً ام
+  لا ويقدم لك النصائح لإغلاقها\nhttps://www.facebook.com/SymbianSyMoh/posts/831970220151400\n­\n[*]
+  دا بوست عن قيامنا ببرمجة موقع يقوم بفحص الروتر الخاص بك ان كان عرضة لهذة الثغره
+  ام لا ويقدم لك النصائح لإغلاقها\"\nhttps://www.facebook.com/SymbianSyMoh/posts/821693241179098\n­\n[*]
+  دا بوست بيتكلم عن مشكلة كبيرة وهيا How could you be exposed from outside او \"ازاى
+  مع كل احتياطاتك اللى انت واخدها ممكن تتفحت بسبب قوى خارجة عن إرادتك\" او \"احذر
+  من خطأ الاخرين\"\nhttps://www.facebook.com/SymbianSyMoh/posts/954928667855554\n­\n[*]
+  دا بوست بيتكلم عن \"ثغرة خطيرة تهدد البنية التحتية للإنترنت\" #ShellShock \nhttps://www.facebook.com/SymbianSyMoh/posts/974985275849893\nhttps://www.facebook.com/photo.php?fbid=975569372458150&set=a.210135745668187.66082.100000152886101&type=1\n­\n[*]
+  دا بوست بيتكلم عن \"جاسوس بس بيخدمنى - بخصوص حوار Facebook Visitors\"\nhttps://www.facebook.com/symbian.symoh/posts/842566889091733\n­\n[*]
+  دا بوست فيه بعض المعلومات عن ثغرة دمج الصفحات وازاى المستخدم بيلاقى نفسه عامل لايك
+  لصفحات هوا معملهاش لايك قبل كدا \"الكومنتات هى المفيده\"\nhttps://www.facebook.com/symbian.symoh/posts/773024586045964\n­\n[*]
+  دا بوست عن ثغرة HeartBleed\nhttps://www.facebook.com/photo.php?fbid=997831410231946&set=a.210135745668187.66082.100000152886101&type=1\n­\n[*]
+  دا بوست عن ثغرة من نوع Previleges Escalation في جميع انظمة اندرويد ما قبل اندرويد
+  5 \"لولي بوب\"\nhttps://www.facebook.com/SymbianSyMoh/posts/1016716085010145\n­\n[*]
+  دا بوست عن \"اداة WifiPhisher\"\nhttps://www.facebook.com/SymbianSyMoh/posts/1050740731607680\n­\n[*]
+  دا بوست فيه درس للمبرمجين والمصممين عن قابلية الاستخدام من مثال حى \"فيسبوك\"\nhttps://www.facebook.com/photo.php?fbid=967437173271370&set=a.210135745668187.66082.100000152886101&type=1\n­\n[*]
+  دا بوست عن فيسبوك وشبح الخصوصية على صورة البروفايل\nhttps://www.facebook.com/SymbianSyMoh/posts/1028486523833101\n­\n[*]
+  دا بوست عن اختراق الدول والاختراقات ذات النطاق الواسع\nhttps://www.facebook.com/SymbianSyMoh/posts/1043331415681945\n­\n[*]
+  دا بوست عبارة عن ثغرة خطيرة جداً من نوع CSRF كشفتها فى WordPress\nhttps://www.facebook.com/SymbianSyMoh/posts/915192001829221\n­\n[*]
+  دى بوستات عن اكتشافات لثغرات XSS فى شركات الحماية\nhttps://www.facebook.com/SymbianSyMoh/posts/911226645559090\nhttps://www.facebook.com/SymbianSyMoh/posts/910771562271265\nhttps://www.facebook.com/SymbianSyMoh/posts/891986307483124\n­\n[*]
+  دى بوستات عن ثغرة بموقع Fiverr اكبر موقع للخدمات المصغره فى العالم\nhttps://www.facebook.com/SymbianSyMoh/posts/951522341529520\nhttps://www.facebook.com/SymbianSyMoh/posts/952189988129422\nhttps://www.facebook.com/SymbianSyMoh/posts/953294588018962\n­\n[*]
+  دا بوست عن ثغرة غريبه جدا فى موقع eBay بعنوان \"XSS Payload Stored in Cookie\"\nhttps://www.facebook.com/SymbianSyMoh/posts/955000727848348\n­\n[*]
+  دا بوست عن ثغرة من نوع Stored XSS فى خدمة iFixit\nhttps://www.facebook.com/100000152886101/posts/999003993448021/\n­\n[*]
+  دى بوستات عن اول CVE احققها، خاص بالثغرة المكتشفه من نوع CSRF فى خدمة Samsung Find
+  My Mobile\nhttps://www.facebook.com/100000152886101/posts/1001568939858193/\nhttps://www.facebook.com/SymbianSyMoh/posts/1000370353311385\n­\n[*]
+  دى بوستات لإكتشافى ثغره اعدت بيها تفعيل خاصية الاسئله فى فيسبوك بعد ما قام بقفلها
+  على مدراء الصفحات\nhttps://www.facebook.com/SymbianSyMoh/posts/808157889199300\nhttps://www.facebook.com/symbian.symoh/posts/808143382534084\nhttps://www.facebook.com/symbian.symoh/posts/807344785947277\nhttps://www.facebook.com/questions/810055715676184/\n­\n[*]
+  دا بوست عن ثغرتى ClickJacking و CSRF فى خدمة SoundCloud\nhttps://www.facebook.com/100000152886101/posts/995862270428860/\n­\n[*]
+  دا بوست عن ثغرة من نوع Open Redirect ولكن خطورتها تكمن فى سرقة ال Access Token الخاص
+  بالمستخدم\nhttps://www.facebook.com/SymbianSyMoh/posts/997200070295080\nhttps://www.facebook.com/photo.php?fbid=998405960174491&set=a.210135745668187.66082.100000152886101&type=1\n­\n[*]
+  دا بوست عن ثغرة من نوع Stored XSS فى خدمة Apple Topsy\nhttps://www.facebook.com/100000152886101/posts/997847586896995/\n­\n[*]
+  دا بوست عن بعض الثغرات المكتشفه فى موقع  PasteBin.com\nhttps://www.facebook.com/100000152886101/posts/1044129572268796/\n­\n[*]
+  دا بوست عن بعض الثغرات المكتشفه فى موقع  Braintree Payments\nhttps://www.facebook.com/100000152886101/posts/1033776949970725/\n­\n[*]
+  دا بوست عن بعض الثغرات المكتشفه فى موقع Freelancer.com\nhttps://www.facebook.com/100000152886101/posts/1019857981362622/\n­\n[*]
+  دا بوست عن بعض الثغرات المكتشفه فى موقع Avira GmbH\nhttps://www.facebook.com/100000152886101/posts/1017966551551765/\n­\n[*]
+  دا بوست عن بعض الثغرات المكتشفه فى موقع SAP Community Network\nhttps://www.facebook.com/100000152886101/posts/1037230806292006/\n­\n[*]
+  دا بوست عن بعض الثغرات المكتشفه فى موقع MailChimp\nhttps://www.facebook.com/100000152886101/posts/1017298391618581/\n­\n[*]
+  دا بوست عن بعض الثغرات المكتشفه فى موقع Panorama9 \nhttps://www.facebook.com/100000152886101/posts/1034410863240667/\n­\n[*]
+  دى بوستات عن بعض الثغرات المكتشفه فى موقع  AVG Inc\nhttps://www.facebook.com/100000152886101/posts/1046844681997285/\n#AVG
+  Mobilation - Anti-Theft #CSRF leads to Stored #XSS leads to \"Whatever\" \nhttps://www.facebook.com/SymbianSyMoh/posts/1035277563153997\n­\n[*]
+  دا بوست عن بعض الثغرات المكتشفه فى موقع Bitdefender\nhttps://www.facebook.com/100000152886101/posts/1060804813934605/\n­\n[*]
+  دا بوست عن بعض الثغرات المكتشفه فى موقع ESET\nhttps://www.facebook.com/100000152886101/posts/1060106887337731/\n­\n[*]
+  دا بوست عن بعض الثغرات المكتشفه فى موقع Appcelerator \nhttps://www.facebook.com/100000152886101/posts/933651153316639/\n­\n[*]
+  دا بوست عن بعض الثغرات المكتشفه فى موقع Opera\nhttps://www.facebook.com/100000152886101/posts/1071301369551616/\n­\n[*]
+  دا بوست ملهوش اى لازمه بيتكلم عن ال WhiteHat Lists اللى دخلتها\nhttps://www.facebook.com/SymbianSyMoh/posts/895156497166105\n­\n[*]
+  ذكريات زمان \"كايرو دار | مبرمج مصرى يكتشف ثغرة فى موقع \"الاتصالات الألمانية\"\nhttps://www.facebook.com/SymbianSyMoh/posts/882902131724875\n­\n[*]
+  دا بوست عن ال Appreciations وال T-Shirts اللى اخدتهم، هيفيد فى انك لو Pentester
+  تدور فى المواقع دى وتاخد زيهم\nhttps://www.facebook.com/photo.php?fbid=958483407500080&set=a.405352832813143.117264.100000152886101&type=1&theater\n­\n[*]
+  دى بوستات قلش فى نفس المجال\nhttps://www.facebook.com/SymbianSyMoh/posts/1068402553174831\nhttps://www.facebook.com/SymbianSyMoh/posts/1079004575447962\nhttps://www.facebook.com/photo.php?fbid=1082952688386484&set=a.210135745668187.66082.100000152886101&type=1\nhttps://www.facebook.com/SymbianSyMoh/posts/1083600538321699\nhttps://www.facebook.com/SymbianSyMoh/posts/1067324439949309\n­\n[*]
+  MikroTik RouterOS < v5.0 are vulnerable to Admin Password Change CSRF Vulnerability\nhttps://www.facebook.com/SymbianSyMoh/posts/1084639391551147\n­\n[*]
+  احصائيات مرعبة فى الحماية والامان\nhttps://www.facebook.com/SymbianSyMoh/posts/1084991688182584\n­\n[*]
+  دا بوست عن الامان وقابلية الاستخدام - Security and Usability\nhttps://www.facebook.com/SymbianSyMoh/posts/1092644930750593\n­\n[*]
+  من أنا\" من مجتمع الامن المعلوماتى\nhttp://www.secomunity.com/2014/05/SymbianSyMoh.html\n­\n[*]
+  Dear Apple I've bypassed your \"cellular data restrictions\" on \"App Store\" and
+  downloaded a new applications on my iOS 8 is that sound fine! — feeling insecure.\nhttps://www.facebook.com/SymbianSyMoh/posts/1097182470296839\n­\n[*]
+  OpenKM - Remote Cross Site Scripting to Full Users and Administrators Accounts Takeover
+  (CVE-2014-9017)\nhttps://www.facebook.com/100000152886101/posts/1097449066936846/\n­\n[*]
+  \"باندا انتي فيروس\" بيكتشف نفسه كفيروس وكمان ماشاء الله بيحذف نفسه\nhttps://www.facebook.com/SymbianSyMoh/posts/1098639083484511\n­\n[*]
+  \"الحماية وامن المعلومات وانترنت الاشياء Protection, Information Security and the
+  Internet of Things\" - \"IoT\"\nhttps://www.facebook.com/SymbianSyMoh/posts/1099498066731946\n­\n[*]
+  تسريب بيانات اكثر من 80 الف حساب فيسبوك وتعريف ببعض المصطلحات المهمه \"الاسكام\"
+  - الاسكامر\" - \"الاسبام\" - \"الاسبامر\" - \"الفيشينج\" - \"السوشيال انجنيرينج\"\nhttps://www.facebook.com/SymbianSyMoh/posts/1104428349572251\n­\n[*]
+  دا بوست بيتكلم عن تسريب بيانات عملاء كتير جدا على اكتر من خدمة كبيره ودروس مستفاده\nhttps://www.facebook.com/SymbianSyMoh/posts/1106719782676441\n­\n[*]
+  مدونات امنية مهمة جداً:\n[*] http://www.breaksec.com\n[*] http://www.nirgoldshlager.com\n[*]
+  https://nealpoole.com\n[*] http://paulosyibelo.blogspot.com\n[*] http://blog.prakharprasad.com\n[*]
+  http://medu554.blogspot.com\n[*] http://blog.ptsecurity.com\n[*] http://www.websecresearch.com\n[*]
+  http://nbsriharsha.blogspot.in\n[*] http://blog.fin1te.net\n[*] http://en.internetwache.org\n[*]
+  http://pwndizzle.blogspot.in\n[*] http://thekaitokid.blogspot.com\n[*] http://mreagle0x.blogspot.com\n[*]
+  http://arulxtronix.blogspot.in\n[*] http://www.anandprakash.pw\n[*] http://www.dan-melamed.com\n[*]
+  http://philippeharewood.com\n[*] http://sweethacking.blogspot.com\n[*] http://patorjk.com\n[*]
+  http://blog.internot.info\n[*] http://josipfranjkovic.blogspot.com\n[*] http://www.ubercomp.com\n[*]
+  http://www.websecuritylog.com\n[*] https://bitquark.co.uk\n[*] http://blog.dewhurstsecurity.com\n[*]
+  http://stephensclafani.com\n[*] http://roy-castillo.blogspot.com\n[*] http://intothesymmetry.blogspot.in\n[*]
+  https://filippo.io\n[*] http://isciurus.blogspot.ru\n[*] http://homakov.blogspot.ca\n[*]
+  http://blog.bentkowski.info\n[*] http://blog.prakharprasad.com\n[*] http://medu554.blogspot.com\n[*]
+  https://viaforensics.com\n[*] http://insertco.in\n[*] http://www.sneaked.net/\n[*]
+  http://pyx.io\n[*] http://ceukelai.re\n[*] http://amolnaik4.blogspot.com\n­\nاقتراحات
+  كتب مفيد جداً فى المجال دا:\n[*] The Basics of Hacking and Penetration Testing by
+  Patrick engebretson\n[*] Hacking For Dummies, 4th Edition\n[*] The Web Application
+  Hacker's Handbook\n[*] Hacking: The Art of Exploitation\n[*] The Database Hacker's
+  Handbook\n[*] A Bug Hunter's Diary\n[*] Ethical Hacking and Penetration Testing
+  Guide by Rafay Baloch\n­\nملاحظات:\n[*]البوست دايما updated فإنسخ اللينك وخليه في
+  مكان امن وارجع للبوست من فتره لفترة هتلاقي جديد.\n[*]اي حد شايف ان المعلومات ناقصه
+  وحابب يضيف شئ يراسلنى وهعدل البوست بالمعلومات الجديده.\n[*] شكرا بشكل شخصى لكل من
+  ساعد بشكل او بأخر فى اى معلومه حتى ولو قليلة.\n[*] #شير علشان غيرك يستفيد.\n[*]
+  #تاج علشان صديقك المهتم يستفيد.\n[*] فى بوستات هتلاقيها بتتكلم عنى شخصياً، نفضلها.\n[*]
+  #ابدأ، #انطلق.\n[*] مر فى سلام.\n­\n[*] عنى:\nاسمى محمد عبدالباسط النوبى، مبرمج
+  PHP - Python مهتم جداً وباحث بمجال امن المعلومات مش خبير امنى ولا حاجه زى ما بتصنفنى
+  مواقع كتير، اكتشفت ثغرات فى تطبيقات الويب الخاصه بشركات محلية وعالمية كبيره جداً
+  امثال فيسبوك، تويتر، جوجل، ياهو، Sony، Kaspersky، Symantec، Bitdefender، T-Mobile,
+  AT&T, WordPress, CNET و BBC و CNN وشركات اخرى كتير معلنه وغير معلنه.\nدى حساباتى
+  الشخصية للتواصل:\n[*] فيسبوك: https://fb.com/SymbianSyMoh\n[*] تويتر: https://twitter.com/SymbianSyMoh\n[*]
+  لينكيد إن: http://eg.linkedin.com/in/symbiansymoh\n[*] اخرى: http://www.SymbianSyMoh.com"
+from:
+  name: Mohamed A. Baset
+  id: '2088941797787563'
+type: status
+created_time: '2015-04-04T18:10:50+0000'
+updated_time: '2017-03-03T10:10:06+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/920188591354183/
+shares:
+  count: 32
+id: '172338516139198_920188591354183'
+reactions:
+  data:
+  - id: '1522970144425140'
+    name: Ali M. Bastawy
+    type: LOVE
+  - id: '2022490591345439'
+    name: سامح دعبس
+    type: LIKE
+  - id: '983382238477753'
+    name: Merna Amer
+    type: LIKE
+  - id: '10213361014633225'
+    name: Mohamed Elgharably
+    type: LIKE
+  - id: '2013424788684834'
+    name: Ahmed H. Mahmoud
+    type: LIKE
+  - id: '1571856266239735'
+    name: Mohamed Atef
+    type: LIKE
+  - id: '10215089323884743'
+    name: Adel Shata
+    type: LIKE
+  - id: '2006333562728330'
+    name: Abd Elmageed Mohamed
+    type: LIKE
+  - id: '1581325828647500'
+    name: Moataz Mahmoud
+    type: LIKE
+  - id: '10156868942177814'
+    name: Ahmed AbdElmaksod
+    type: LIKE
+  - id: '1151809561622555'
+    name: Ali ElSheikh
+    type: LIKE
+  - id: '1704389499626394'
+    name: Ahmed Alaa Ahmed
+    type: LIKE
+  - id: '10155494574273871'
+    name: Riad Ricoz
+    type: LIKE
+  - id: '10214356167120184'
+    name: Ramy Allam
+    type: LIKE
+  - id: '10155293228608733'
+    name: Mohamed Nady
+    type: LIKE
+  - id: '1758521440903748'
+    name: Ahmed Abo Mazin
+    type: LIKE
+  - id: '10210274147800623'
+    name: Hadeer Gaber Saeed
+    type: LIKE
+  - id: '10211350749664331'
+    name: Mohamed Yousif
+    type: LIKE
+  - id: '10215398528013868'
+    name: Noor Hashem
+    type: LIKE
+  - id: '1149811625153048'
+    name: Ahmed Eid
+    type: LIKE
+  - id: '10214861141222529'
+    name: Abdelrady Fcis
+    type: LIKE
+  - id: '10156191599532048'
+    name: Mohamed Atef Abd ElWahab
+    type: LIKE
+  - id: '10212947071504226'
+    name: Eslam Hamouda
+    type: LIKE
+  - id: '10155853377281955'
+    name: Ahmed Ezz
+    type: LIKE
+  - id: '2342288709130763'
+    name: Mostafa Kasem
+    type: LIKE
+  - id: '10155965761497744'
+    name: Samy Hekal
+    type: LIKE
+  - id: '10156490990848676'
+    name: Mohamed Amr
+    type: LIKE
+  - id: '10155357467062874'
+    name: Hossam Hassan
+    type: LIKE
+  - id: '1589145544505470'
+    name: Mohamed El-Alfy
+    type: LIKE
+  - id: '780207808835710'
+    name: Mohamed Ali
+    type: LIKE
+  - id: '10156359910977922'
+    name: Ahmad Zinhom
+    type: LIKE
+  - id: '10155452436628160'
+    name: Osama S. Mokhtar
+    type: LIKE
+  - id: '1809581442395089'
+    name: Mohamed Amin
+    type: LIKE
+  - id: '1476186199159322'
+    name: Ahmad Samir
+    type: LIKE
+  - id: '10155617973009177'
+    name: Muhammad Ebeid
+    type: LIKE
+  - id: '10215112672708168'
+    name: Abdelrhman H. Yassen
+    type: LIKE
+  - id: '1635412699859063'
+    name: Mohamed Taha
+    type: LIKE
+  - id: '10155250112895963'
+    name: Ebtsam AbdElbaky
+    type: LIKE
+  - id: '10214925485592247'
+    name: Ahmed Kamal
+    type: LIKE
+  - id: '1757932150918002'
+    name: Ahmed Salah
+    type: LIKE
+  - id: '10156155579969187'
+    name: Hisham Hassan
+    type: LIKE
+  - id: '10155785718510733'
+    name: Mohamed Mamdouh Mohamed
+    type: LIKE
+  - id: '1561857390558036'
+    name: Moatasem Shaltout
+    type: LIKE
+  - id: '1527016700745979'
+    name: Mohammed Elsaman
+    type: LIKE
+  - id: '870203219817996'
+    name: Abdallah Moulai
+    type: LIKE
+  - id: '1544104592377915'
+    name: Mohamed Naser Amein
+    type: LIKE
+  - id: '10156112171242375'
+    name: Ahmed Melege
+    type: LIKE
+  - id: '10156095976664136'
+    name: Moustafa Abdelaziz
+    type: LIKE
+  - id: '10159994844535341'
+    name: Abdelrhman Safwat
+    type: LIKE
+  - id: '10210561215055595'
+    name: Samuel Soliman
+    type: LIKE
+  - id: '1841761432524477'
+    name: Ahmed Yousef
+    type: LIKE
+  - id: '1828550547215119'
+    name: Mahmoud Abied
+    type: LIKE
+  - id: '10155746533953941'
+    name: Abdelrahman Y. ElFiky
+    type: LIKE
+  - id: '1865818557043620'
+    name: Mohamed Khoulali
+    type: LIKE
+  - id: '749220865272366'
+    name: Sherif Khedr
+    type: LIKE
+  - id: '2027009343981029'
+    name: Abdelrhman Ahmed
+    type: LIKE
+  - id: '10155983907865295'
+    name: Ahmed Elwageeh
+    type: LIKE
+  - id: '10155802654056014'
+    name: Islam Azab
+    type: LIKE
+  - id: '1707137612683071'
+    name: Ahmed Saleh
+    type: LIKE
+  - id: '931399460358043'
+    name: Mohammad Ali
+    type: LIKE
+  - id: '895970407247426'
+    name: Ahmad Magdy
+    type: LIKE
+  - id: '1696234727103701'
+    name: Amin Ahmed
+    type: LIKE
+  - id: '10156068588911624'
+    name: Muhammed Abdelghany
+    type: LIKE
+  - id: '10210766559532531'
+    name: Ahmad Ashraf
+    type: LIKE
+  - id: '1325154427631174'
+    name: Diaa Elsayed
+    type: LIKE
+  - id: '10157148771563378'
+    name: Ahmed Hesham
+    type: LIKE
+  - id: '790149964504142'
+    name: Mohamed A. Salem
+    type: LIKE
+  - id: '2451637598395705'
+    name: Omar Mohamed
+    type: LIKE
+  - id: '10215245103619895'
+    name: Wessam Ahmed
+    type: LIKE
+  - id: '10159944189340357'
+    name: Waleed Saleh
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhNelkxTURjNE56ZA3dPakUwT0RreU9EUTVNak02TnpnNE5qUTRNRE0zT1RFek16RXkZD
+      after: T0RrNU1qWXdNelUyT2pFME1qZA3hOekV4TWpNNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2015-04-04T18:12:10+0000'
+    from:
+      name: Waleed Saleh
+      id: '10159944189340357'
+    message: ربنا يكرمك :]
+    id: '920189004687475'
+  - created_time: '2015-04-04T18:26:58+0000'
+    from:
+      name: Osama Mohamed
+      id: '2089650217931552'
+    message: |-
+      لسه بقرأ البوست .. الانفوجرافيك الاول مش شغال اللينك
+      http://www.arageek.com/wp-content/uploads/nd.jpg
+      error 1011
+    id: '920197774686598'
+  - created_time: '2015-04-04T18:36:35+0000'
+    from:
+      name: Mahmoud Abd Elgawad
+      id: '10215278828988466'
+    message: Mohamed Fareed
+    id: '920202254686150'
+  - created_time: '2015-04-04T19:38:07+0000'
+    from:
+      name: MohAmed HAmada
+      id: '905385256303172'
+    message: Moatasem Shaltout
+    id: '920241754682200'
+  - created_time: '2015-04-04T20:17:39+0000'
+    from:
+      name: Diaa Sami
+      id: '10215834435679186'
+    message: صممت باستخدام مقصود بيها "مستوحاه من"
+    id: '920257031347339'
+  - created_time: '2015-04-04T20:49:53+0000'
+    from:
+      name: Mohamed A. Baset
+      id: '2088941797787563'
+    message: مش فاهم ياضياء؟؟
+    id: '920267474679628'
+  - created_time: '2015-04-04T21:47:12+0000'
+    from:
+      name: Mohamed El Ghamry
+      id: '10156022465821530'
+    message: "Ostora ya mohamed wallahy \U0001F44C . \U0001F44D"
+    id: '920286741344368'
+  - created_time: '2015-04-04T23:37:28+0000'
+    from:
+      name: Mohamed El-Alfy
+      id: '1589145544505470'
+    message: "طيب بما ان الاستفاده عامه وكله لوجه الله عز وجل فا ديه شويه كورسات لل
+      iOS\n1- Developing iOS Apps with Swift from iTune\n------------------------------------------------------\nhttps://itunes.apple.com/eg/course/developing-ios-8-apps-swift/id961180099\nhttps://itunes.apple.com/eg/course/ios-development-in-swift/id950659946\nhttps://itunes.apple.com/eg/course/ios-development-in-swift/id949983067\n---------------------------------------------\n2-
+      Udacity iOS Courses \n---------------------------------------------\nhttps://www.udacity.com/courses#!/ios\n---------------------------------------------\n3-
+      YouTube Courses & Tutorials \n---------------------------------------------\nhttps://www.youtube.com/playlist?list=PLxwBNxx9j4PUpjCEVwjqFvNecNvQ6Dj6G\n----------------------------------------------\n4-
+      Blogs & Websites \n---------------------------------------------\nhttp://www.raywenderlich.com\nhttp://www.appcoda.com\nhttp://www.sososwift.com\nhttp://www.thinkandbuild.it\nhttp://www.ioscreator.com\nhttp://nshipster.com\n----------------------------------------------\nوربنا
+      يجزيك خير على البوست دا"
+    id: '920314451341597'
+  - created_time: '2015-04-05T13:00:23+0000'
+    from:
+      name: Ibrahim Abd Allatif
+      id: '10215231144682156'
+    message: Abd Elmageed Mohamed
+    id: '920688507970858'
+  - created_time: '2015-04-05T17:52:40+0000'
+    from:
+      name: Mahmoud Abd Elgawad
+      id: '10215278828988466'
+    message: Mohamed Fareed
+    id: '920804561292586'
+  - created_time: '2015-04-05T22:34:28+0000'
+    from:
+      name: Mohamed Nady
+      id: '10155293228608733'
+    message: انت برنس يا محمد وربنا يزيدك
+    id: '920905807949128'
+  - created_time: '2017-03-02T23:00:33+0000'
+    from:
+      name: Mina Hemaia
+      id: '10212970772535569'
+    message: Moataz Essam a2ra deh htfhm kol 7aga
+    id: '1406983919341312'
+  - created_time: '2017-03-02T23:10:50+0000'
+    from:
+      name: Ali Hefny
+      id: '1992382594366191'
+    message: Fawzy Tat
+    id: '1406988506007520'
+  - created_time: '2017-03-03T06:01:06+0000'
+    from:
+      name: Elsayed Atef
+      id: '1636124166469313'
+    message: Ahmed Farouk
+    id: '1407250505981320'
+  - created_time: '2017-03-03T07:07:06+0000'
+    from:
+      name: Mustafa Hussain
+      id: '1137775362991740'
+    message: Omar HuSsain
+    id: '1407296799310024'
+  - created_time: '2017-03-03T07:07:07+0000'
+    from:
+      name: Ahmed Mekkawy
+      id: '10155783123700239'
+    message: |-
+      ده بحث مش بوست :D
+      شكرا لمشاركتك المعلومات
+    id: '1407296815976689'
+  - created_time: '2017-03-03T10:10:03+0000'
+    from:
+      name: Mohamed Elgharably
+      id: '10213361014633225'
+    message: Merna Amer
+    id: '1407428852630152'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEl3TVRnNU1EQTBOamczTkRjMU9qRTBNamd4TnpFeE16QT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF3TnpReU9EZAzFNall6TURFMU1qb3hORGc0TlRNMU9EQXoZD

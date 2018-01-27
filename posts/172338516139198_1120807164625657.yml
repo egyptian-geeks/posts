@@ -1,0 +1,133 @@
+---
+message: |-
+  UPDATE: I will try to simplify it even more and as here directly. Anyone with javascript knowledge would surely help. Question is:
+  How to use a text input in a HTML textbox as a variable/input for a javascript function.
+
+  I have in HTML
+  <input name="textbox1" id="url" type="text" />
+  <input name="buttonExecute" onclick="testAPI()" type="button" value="Execute" />
+
+  Notice the testAPI()? That is the function. And it looks like that
+
+  Script is:
+    function testAPI() {
+
+  FB.api("http://graph.facebook.com/?id=HAVE HERE THE TEXT COMING FROM HTML TEXT BOx",
+        function(response) {
+         console.log(response);
+            alert('# of fb comments: ' + response.share.comment_count);
+      alert('# of fb Shares: ' + response.share.share_count);
+        }
+      );
+
+    }
+
+  I have that question about Facebook API over Stackoverflow, no one answered me yet! For a reason, a guy as well down rated. Would appreciate if someone can help or have a clue about that.http://stackoverflow.com/questions/36511960/passing-html-text-input-to-facebook-api-javascript-call
+from:
+  name: Mohamed Eldishnawy
+  id: '10156000971684462'
+type: status
+created_time: '2016-04-09T18:24:11+0000'
+updated_time: '2016-04-10T03:29:48+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1120807164625657/
+id: '172338516139198_1120807164625657'
+reactions:
+  data:
+  - id: '1466247800164499'
+    name: Mosaab Ahmed
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXpNemM0TnpreE16VTRPakUwTmpBME1ETXhOek02TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXpNemM0TnpreE16VTRPakUwTmpBME1ETXhOek02TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-04-09T18:26:47+0000'
+    from:
+      name: Fady Taher
+      id: '10159837107290263'
+    message: "don't know much about the api, but try doing the same using \nhttps://developers.facebook.com/tools/debug/og/object/"
+    id: '1120808491292191'
+  - created_time: '2016-04-09T18:34:35+0000'
+    from:
+      name: Ahmed Elsobky
+      id: '1167985470004751'
+    message: 'What you''re doing is a plain overkill; just use this endpoint instead
+      to get the same data directly: https://api.facebook.com/restserver.php?method=links.getStats&urls=http://example.com'
+    id: '1120814221291618'
+  - created_time: '2016-04-09T18:35:34+0000'
+    from:
+      name: Mahmoud Said
+      id: '10159857675500183'
+    message: The code snippet doesn't do anything in particular, and I have to say
+      that if I really understood what you are trying to do, then you are doing it
+      wrong
+    id: '1120814501291590'
+  - created_time: '2016-04-09T18:41:03+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: The second part is highly a cashing problem , try to clean ue FF CASH
+    id: '1120816457958061'
+  - created_time: '2016-04-09T19:49:30+0000'
+    from:
+      name: Ahmed Eldosoukey
+      id: '10155780527142535'
+    message: |-
+      Check the JavaScript code here
+
+      https://developers.facebook.com/docs/graph-api/reference/v2.5/url/
+
+      And try to do as the provided sample does
+    id: '1120844034621970'
+  - created_time: '2016-04-09T22:30:44+0000'
+    from:
+      name: Mohamed Eldishnawy
+      id: '10156000971684462'
+    message: I updated the question here, so please someone have a look and give me
+      a guidance
+    id: '1120901567949550'
+  - created_time: '2016-04-09T22:37:24+0000'
+    from:
+      name: Ahmed Hassan
+      id: '10156284492809497'
+    message: |-
+      The question is very simple and I'm amazed there has been this many answers without actually answering it. Anyway, to get the value of the input (textbox) inside of the function just add this bit:
+
+      var url = document.getElementById('url').value;
+
+      Then use it this way:
+
+      FB.api("http://graph.facebook.com/?id=" + url)
+    id: '1120906561282384'
+  - created_time: '2016-04-09T22:52:12+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      Problems with your question, that possible got it downvoted, and could make it hard to get people to answer it:
+
+      - Too much code with sometimes bad formatting and commented code
+
+      - The description writing is confusing. It took me a while to decide if your problem is that the facebook function using the input keeps using the first entered value, or if there are other problems
+
+      - In the code, you call `testAPI()` twice, once with the input value, once without it. In both ways it doesn't seem that the function uses the value at all
+
+      If your problem was the value passed not updating:
+
+      You need a simple example, that shows the value logged clearly showing it's changed before the facebook call. And doesn't have anything more than that.
+
+      Finally, remember everyone (not directed for the original poster specifically) that nobody owes you anything. Everything is contributing because they are being nice. Nobody "has" to answer just because it's a simple question.
+    id: '1120912407948466'
+  - created_time: '2016-04-10T00:41:08+0000'
+    from:
+      name: Mohamed Eldishnawy
+      id: '10156000971684462'
+    message: 'FYI: I figured out what is the problem with getting same data, it is
+      not cache, it is actually facebook not parsing the correct URL! Solved it by
+      URIencoding the URL first before pushing it. Using encodeURIComponent in javascript'
+    id: '1120962847943422'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV5TURnd09EUTVNVEk1TWpFNU1Ub3hORFl3TWpJMk5EQTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV5TURrMk1qZAzBOemswTXpReU1qb3hORFl3TWpRNE9EWTUZD

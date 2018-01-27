@@ -1,0 +1,130 @@
+---
+message: "انا شغال علي ويبسايت و حابب اعرف انه الافضل\n١-في الlogin احط بيانات الuser
+  الي هستخدمها كلها في $_SESSION \n٢- اعمل save لل Id بس في $_SESSION و استخدمه في
+  query واجيب البيانات من الDatabase"
+from:
+  name: Ahmed Ibrahim
+  id: '1553986601317720'
+type: status
+created_time: '2016-09-05T14:19:00+0000'
+updated_time: '2018-01-21T18:35:51+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1223756217664084/
+shares:
+  count: 1
+id: '172338516139198_1223756217664084'
+reactions:
+  data:
+  - id: '1825352097496736'
+    name: Ahmed El-Lithy
+    type: LIKE
+  - id: '10155926704141777'
+    name: Ahmed Abdelaziz
+    type: LIKE
+  - id: '2688225507869823'
+    name: Nashwa Ashour
+    type: LIKE
+  - id: '1487671784675336'
+    name: Mohamad Emad
+    type: LIKE
+  - id: '10215070655377585'
+    name: Mahmoud Kandeel
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdOalU0T1RBeU9UTTNPakUwTnpNeE5Ua3lNVFE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRFMk5qZA3hNVFkzTmpveE5EY3pNRGswT0RnME9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2016-09-05T14:25:33+0000'
+    from:
+      name: Hany Ahmed
+      id: '10156089330442292'
+    message: رقم 1 أحسن طبعاً, علشان ماتروحشي للداتابيز كل شوية
+    id: '1223760317663674'
+  - created_time: '2016-09-05T14:45:59+0000'
+    from:
+      name: Mostafa Kasem
+      id: '2342288709130763'
+    message: رقم 1 ، بس شيل منها الداتا السينستيف ، يعني مفيش داعي مثلاً تخزن الباسورد
+      فالسيشن ، وخد بالك لو عامل صفحة فيها update information ، ان اول مالراجل يغيرها
+      تتحدث فالسيشن كمان.
+    id: '1223772684329104'
+  - created_time: '2016-09-05T15:40:00+0000'
+    from:
+      name: Ahmed Badawy
+      id: '1596110217148252'
+    message: "اكيد طبعا رقم 1.. \nبس فى حالات بسيطة جدا جدا هتبقى رقم 2.."
+    id: '1223809200992119'
+  - created_time: '2016-09-05T16:05:38+0000'
+    from:
+      name: Ahmed Kamal
+      id: '10208727810672580'
+    message: Are you using redis to manage Sessions?
+    id: '1223824047657301'
+  - created_time: '2016-09-05T19:32:36+0000'
+    from:
+      name: Muhammad Hasan
+      id: '2033909946622355'
+    message: How about a third option, JWT!
+    id: '1223977194308653'
+  - created_time: '2016-09-05T20:27:15+0000'
+    from:
+      name: Ahmed Ibrahim
+      id: '1553986601317720'
+    message: Thank you i'll take that on notice
+    id: '1224018364304536'
+  - created_time: '2016-09-05T21:44:21+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: |-
+      الطريقة التانية احسن، دايما قلل البيانات اللى بتحطها فى السيشن لأقل حاجة ممكنة، الدات اللى بتحطها فى السيشن بتتحط فى الستور بتاع السيشن اللى ساعات بيكون فايل وساعات بيكون memcache وساعات redis وساعات حاجات تانية على حسب اللى انت مستخدمه ، لما تحط داتا كتير فى السيشن بيضغط على الباك اندز  دى.
+      فيه حاجة تانية لازم تاخد بالك منها قدام لما تشتغل فى مشروعات كبيرة ان السيشن بتخزن بيانات ال"سيشن" مش مهمتها تخزن بيانات المستخدم نفسه لكن البيانات المرتبطة بالسيشن بتاعته على الجهاز ده زى هو داخل من جهاز نوعه ايه او ايه الab tests  اللى شغالة على السيشن دى فهى خاصة ب"السيشن" مش المستخدم، ودى نقطة مهمة لأن المستخدم الواحد ليه اكتر من سيشن.
+      من النقطة التانية اكيد اخدت بالك من نقطة ثالثة ان بما ان المستخدم ليه اكتر من سيشن (داخل من الموبايل و الديسكتوب فى نفس الوقت مثلأ او من متصفحين فى نفس الوقت) فلو انت مستخدم الطريقة الأولى وغير بياناته فى السيشن الأولى السيشن التانية مش هتتغير و هيفضل بالقديمة، فلو انت ممخزن مثلا صورته وهو غير الصورة، فى السيشن التانية صورته مش هتكون موجودة لأنك لغيت الصورة القديمة مثلا.
+      فلما تستخدم السيشن ركز على استخدامها الأساسى، وحاول تفرق بين السيشن و المستخدم ده حاجة و دى حاجة تانية.
+    id: '1224076134298759'
+  - created_time: '2016-09-06T04:49:12+0000'
+    from:
+      name: Ahmed Badawy
+      id: '1596110217148252'
+    message: http://stackoverflow.com/questions/3224250/are-sessions-faster-than-querying-the-database
+    id: '1224317064274666'
+  - created_time: '2016-09-08T01:18:58+0000'
+    from:
+      name: Mohamed Hassan
+      id: '1826387390767203'
+    message: |-
+      تاني طريقة افضل علشان لو حد عمل session hijacking هيستفيد من البيانات دي حتي لو ايميل او اسم مستخدم بس.
+
+      ممكن تخزن ال user_id بس في سيشن ويا سلام لو معموله encrypt.. لازم برضو قبل ما تفتح السيشن يكون httponly
+      http://stackoverflow.com/questions/36877/how-do-you-set-up-use-httponly-cookies-in-php
+
+      في بداية التطبيق بتاعك (عملية ال bootstrapping) هتعمل load لبيانات المستخدم من protected method او تخزنها في protected variable وبكدا هتكون secure اكتر وهتديك الاوبشن انك تستخدمها في كل مكان في التطبيق بشكل سهل (ده في حالة لو الديزاين بتاعك OOP & MVC) وهيبقي عندك الاوبشن تجيب بيانات المستخدم بالشكل ده:
+      $this->user() or $this->auth->user() or $this->auth->user()->any_attribute
+    id: '1226111477428558'
+  - created_time: '2018-01-19T13:56:31+0000'
+    from:
+      name: Mohamed Radwan
+      id: '10159976552365192'
+    message: "Ahmed Kamal \nدلوقتي لو حد اخذ copy لل token الي في session هيقدر يدخل
+      مكان User . في حل ؟ \nممكن اضيف Ip address بتع الUser وال Browser جوه الToken
+      وساعاتها هيبقى صعب يدخل صح ؟"
+    id: '1726916140681420'
+  - created_time: '2018-01-21T12:48:19+0000'
+    from:
+      name: Marwan Abdel Moneim
+      id: '408695269572490'
+    message: Use memcache or redis to store user sessions, don't hit the database
+      for sessions on every request, it is too much.
+    id: '1728863163820051'
+  - created_time: '2018-01-21T18:35:50+0000'
+    from:
+      name: Osman Ahmed Osman
+      id: '10101499994660478'
+    message: Don't build this yourself. Use a library (for instance Passport for NodeJS..
+      I'm sure PHP has something too).
+    id: '1729151163791251'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl5TXpjMk1ETXhOelkyTXpZAM05Eb3hORGN6TURnMU5UTTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN5T1RFMU1URTJNemM1TVRJMU1Ub3hOVEUyTlRVNU56VXcZD

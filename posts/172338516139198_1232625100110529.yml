@@ -1,0 +1,152 @@
+---
+message: |-
+  بواجه مشاكل معقدة -وبتحصل على ال production- صعب تتحل بسرعة من غير معرفة مسار الكود، ال miniprofiler حل جزء من المشكلة بس مش بيقدر يوفر صورة واضحة عن مسار الكود
+  --
+  حد احتاج يعمل حاجة زي كدة؟
+  حد جرب PostCharp ؟
+link: http://stackoverflow.com/questions/559148/how-can-i-add-a-trace-to-every-method-call-in-c
+from:
+  name: Ahmed Mozaly
+  id: '10155321930231313'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQA4atFBdowvWO-S&w=130&h=130&url=http%3A%2F%2Fcdn.sstatic.net%2FSites%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded%26a&cfs=1&sx=0&sy=0&sw=316&sh=316&_nc_hash=AQDYVbPw7-vNSk2Z
+created_time: '2016-09-15T11:59:13+0000'
+updated_time: '2016-09-23T20:38:30+0000'
+name: How can I add a Trace() to every method call in C#?
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1232625100110529/
+id: '172338516139198_1232625100110529'
+reactions:
+  data:
+  - id: '1763959737010749'
+    name: Ahmed Mahmoud
+    type: LIKE
+  - id: '574320702905312'
+    name: Ahmed Atalla
+    type: LIKE
+  - id: '10214861141222529'
+    name: Abdelrady Fcis
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhPVEF5TVRrM05Ea3lPakUwTnpRd05UY3lOems2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRJME5qZA3lNelF4TVRveE5EY3pPVFF5T1RJM09qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2016-09-15T12:28:01+0000'
+    from:
+      name: Ammar Youssef
+      id: '10155097484932190'
+    message: "PostSharp\n هيساعدك عشان تتابع مسار الكود فعلا ، وبمجهود بسيط لا يذكر
+      ... هيسجل لك كل دخول وخروج لكل \nmethod with its parameters\nhttp://www.postsharp.net/blog/post/5-Ways-That-Postsharp-Can-SOLIDify-Your-Code-Logging-and-Auditing\n\nلو
+      الكود بتاعك مبنى على \nIoC Container \nفممكن توصل للنتيجة نفسها باستخدام \nSerilog
+      \ \nبرضه من غير ماتكتب كود لكل \nmethod \nhttps://nblumhardt.com/2015/06/contextual-logger-injection-for-autofac/\n\nSerilog
+      \nممكن يسجل في برنامج \nhttps://getseq.net/ \nوالبرنامج هيساعدك جدا في ربط السياق
+      بسهولة"
+    id: '1232638330109206'
+  - created_time: '2016-09-15T13:57:01+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: logging frameworks?
+    id: '1232694053436967'
+  - created_time: '2016-09-15T14:00:12+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: in Java, you just edit the logging part of the config file, so in C#
+      you just have to set up a logging framework where you can change the logging
+      level from configuration, I wouldn't go to production otherwise'
+    id: '1232696163436756'
+  - created_time: '2016-09-15T14:05:15+0000'
+    from:
+      name: Ahmed Mozaly
+      id: '10155321930231313'
+    message: my main concerns is 'profiling', as some complex issues happens on production,
+      to catch it, I need to know the code flow with parameters in each step
+    id: '1232698756769830'
+  - created_time: '2016-09-15T14:07:32+0000'
+    from:
+      name: Ahmed Mozaly
+      id: '10155321930231313'
+    message: |-
+      regular logging frameworks didn't seem to fully help in such situation, I reached to aspect-oriented-programming frameworks
+      but I'm not sure is such issue (logging code flow) really needs AOP framework or I'm missing something here
+    id: '1232699736769732'
+  - created_time: '2016-09-15T14:25:56+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: yes AOP, and dependency injection
+    id: '1232712580101781'
+  - created_time: '2016-09-15T14:26:24+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: through configuration you tell the logging where to inject, so in normal
+      conditions only on errors
+    id: '1232713400101699'
+  - created_time: '2016-09-15T14:26:41+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: in debugging you configure to log each entry and exit from a method
+    id: '1232713480101691'
+  - created_time: '2016-09-15T20:22:31+0000'
+    from:
+      name: Ahmed Refaey
+      id: '1808892215797147'
+    message: Postsharp عشان DI بس لازم الكود بتاعك من البدايه بيستخدمها
+    id: '1232953393411033'
+  - created_time: '2016-09-15T22:43:32+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: P.S. "regular" logging frameworks do use dependency injection I presume
+      or else you will have to call a method in your code each time you need to write
+      something to the log which I presume you do not do.
+    id: '1233037420069297'
+  - created_time: '2016-09-16T09:44:57+0000'
+    from:
+      name: Ammar Youssef
+      id: '10155097484932190'
+    message: "Postsharp لا يستدعي تغيير في الكود او يتطلب IoC container\nكل ماعليك
+      هو وضع \nLogging attribute around your target class, or around  your assembly
+      in assembly.cs file\nAnd then entry and exit events will be triggered for each
+      method call in your application\n\nIn the event handler you can log whatever
+      you need, the event args has the method arguments too\n\nIf you combine his
+      with serilog and seq then you will have clear idea whats going on on your environment\n\nI
+      dont know if the performance will be impacted by AOP but i believe it will not.\nMany
+      production environments are using postsharp with  logging and they manage the
+      logging level as needed"
+    id: '1233354746704231'
+  - created_time: '2016-09-16T09:46:48+0000'
+    from:
+      name: Mohamed Abdelrahman
+      id: '1785295468160956'
+    message: طب هو فيه فريم ورك يعمل لوج للايرورز ويبعتها ميل مثلا ؟
+    id: '1233355363370836'
+  - created_time: '2016-09-23T20:38:25+0000'
+    from:
+      name: Taha Amin
+      id: '10155815529215590'
+    message: try this https://www.jetbrains.com/profiler/
+    id: '1239832062723166'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl6TWpZAek9ETXpNREV3T1RJd05qb3hORGN6T1RReU5EZAzAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl6T1Rnek1qQTJNamN5TXpFMk5qb3hORGMwTmpZAek1UQTIZD
+attachments:
+  data:
+  - description: I am having a hard time tracking down a lock issue, so I would like
+      to log every method call's entry and exit. I've done this before with C++ without
+      having to add code to every method. Is this pos...
+    media:
+      image:
+        height: 316
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAntEGj6KNL8I7m&w=316&h=316&url=http%3A%2F%2Fcdn.sstatic.net%2FSites%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded%26a&cfs=1&sx=0&sy=0&sw=316&sh=316&_nc_hash=AQAI6p974RoCbfNJ
+        width: 316
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F559148%2Fhow-can-i-add-a-trace-to-every-method-call-in-c&h=ATMUSgSjcGmm4OPz9r_tOKtDhHcBK5ccuNWkMm2GaLMIZEMF7ch0Qb73Mxk2TXTRJ1FFzJWkr_M2AYj5Sbnc_1qvsDlTxpHDasn3&s=1&enc=AZPh3Mna7H2RytrqjptWXxwnFbwW4kW0M9tZhb7Kmkr8B5ktUv1PQUctlhxDAL921N9o4i-ksISUNZbJcX7hdhSv
+    title: How can I add a Trace() to every method call in C#?
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F559148%2Fhow-can-i-add-a-trace-to-every-method-call-in-c&h=ATMUSgSjcGmm4OPz9r_tOKtDhHcBK5ccuNWkMm2GaLMIZEMF7ch0Qb73Mxk2TXTRJ1FFzJWkr_M2AYj5Sbnc_1qvsDlTxpHDasn3&s=1&enc=AZPh3Mna7H2RytrqjptWXxwnFbwW4kW0M9tZhb7Kmkr8B5ktUv1PQUctlhxDAL921N9o4i-ksISUNZbJcX7hdhSv

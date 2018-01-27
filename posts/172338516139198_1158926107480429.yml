@@ -1,0 +1,69 @@
+---
+message: |-
+  // swapping two variables using #destructuring feature of #TypeScript or #ES6. sweet, right?
+  [first, second] = [second, first];
+from:
+  name: Amr AbuMuslim
+  id: '10213109008032575'
+type: status
+created_time: '2016-06-09T11:39:44+0000'
+updated_time: '2016-06-09T12:09:04+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1158926107480429/
+id: '172338516139198_1158926107480429'
+reactions:
+  data:
+  - id: '10155226291481186'
+    name: أحمد محمود محمد عبدالوهاب
+    type: LOVE
+  - id: '1751004338278066'
+    name: Alhasan A. Al-Nasiry
+    type: LIKE
+  - id: '10155730139445546'
+    name: Karim A. Hamed
+    type: LIKE
+  - id: '10156266511868081'
+    name: Ahmed Zain Mohammed
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpVNE5USXhNVGcxT2pFME5qVTFOVEkzTkRVNk56ZAzROalE0TURNM09URXpNekV5
+      after: TlRRd016UTRNRGd3T2pFME5qVTBPREF3T0RFNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-06-09T11:43:27+0000'
+    from:
+      name: Ahmed Atito
+      id: '1414689328659655'
+    message: that's happen asynchronous ?
+    id: '1158927377480302'
+  - created_time: '2016-06-09T11:44:09+0000'
+    from:
+      name: Amr AbuMuslim
+      id: '10213109008032575'
+    message: No, sync code
+    id: '1158927580813615'
+  - created_time: '2016-06-09T11:49:03+0000'
+    from:
+      name: Ahmed Atito
+      id: '1414689328659655'
+    message: so, it's only for two variables?, that will be meaningless if this trick
+      consuming extra memory
+    id: '1158928967480143'
+  - created_time: '2016-06-09T12:04:16+0000'
+    from:
+      name: Amr AbuMuslim
+      id: '10213109008032575'
+    message: |-
+      It's not limited to any number of variables, and think about when should you use it, you don't want it for large arrays or something, it's handy in extracting information out of arrays.
+      Give it a look here: https://github.com/lukehoban/es6features#destructuring
+    id: '1158934567479583'
+  - created_time: '2016-06-09T12:09:04+0000'
+    from:
+      name: Ahmed Atito
+      id: '1414689328659655'
+    message: Okay, I will isA :D
+    id: '1158938000812573'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUxT0RreU56TTNOelE0TURNd01qb3hORFkxTkRjeU5qQTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUxT0Rrek9EQXdNRGd4TWpVM016b3hORFkxTkRjME1UUTAZD

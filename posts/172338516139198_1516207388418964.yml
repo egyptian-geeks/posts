@@ -1,0 +1,70 @@
+---
+message: "عندي visual studio 2015 علي windows 10 .. لما بعمل build \n ل android project
+  في xamarin.forms pcl بيدني الايرور ده .. بس في الباقي سواء ios او uwp بيشتغل عادي
+  .. حاولت اعمل update ل nuget package ونفس المشكله برضه .. بحثت كتير و ملقيتش حل"
+link: https://www.facebook.com/photo.php?fbid=1901283666756923&set=gm.1516207388418964&type=3
+from:
+  name: Ahmed Khalifa
+  id: '1999765416908747'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/19105613_1901283666756923_5897087049717331435_n.jpg?oh=36f88e45e18466516d9cfe9908e10586&oe=5AE2EEAA
+created_time: '2017-06-15T07:38:37+0000'
+updated_time: '2017-06-16T12:18:16+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1516207388418964/
+id: '172338516139198_1516207388418964'
+reactions:
+  data:
+  - id: '10154984458877397'
+    name: Ahmed Baher
+    type: LIKE
+  - id: '1596110217148252'
+    name: Ahmed Badawy
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRNME1EVTNNemsyT2pFME9UYzFOakk0TWpFNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQXlORGM0Tmpnd09EVTJPakUwT1RjMU16RTJPVEE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-06-15T08:39:26+0000'
+    from:
+      name: Mustafa Shaban
+      id: '1620710828023369'
+    message: حتى لو مشروع جديد؟
+    id: '1516249228414780'
+  - created_time: '2017-06-15T08:49:16+0000'
+    from:
+      name: Mustafa Shaban
+      id: '1620710828023369'
+    message: |-
+      This is what I found
+      You had to physically delete all the files from the following directories:
+      .Droid\obj\Debug
+      C:\Users\AppData\Local\Xamarin
+    id: '1516254341747602'
+  - created_time: '2017-06-16T12:18:16+0000'
+    from:
+      name: Sherif Alaa El-Deen
+      id: '1180276448774335'
+    message: try using VS 2017 and it will work fine
+    id: '1517590314947338'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV4TmpJME9USXlPRFF4TkRjNE1Eb3hORGszTlRFMU9UWTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV4TnpVNU1ETXhORGswTnpNek9Eb3hORGszTmpFMU5EazIZD
+attachments:
+  data:
+  - description: "عندي visual studio 2015 علي windows 10 .. لما بعمل build \n ل android
+      project في xamarin.forms pcl بيدني الايرور ده .. بس في الباقي سواء ios او uwp
+      بيشتغل عادي .. حاولت اعمل update ل nuget package ونفس المشكله برضه .. بحثت كتير
+      و ملقيتش حل"
+    media:
+      image:
+        height: 345
+        src: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/19143987_1901283666756923_5897087049717331435_o.jpg?oh=1cb5b7a01164aec216fd37796b4f551a&oe=5AE5F936
+        width: 720
+    target:
+      id: '1901283666756923'
+      url: https://www.facebook.com/photo.php?fbid=1901283666756923&set=gm.1516207388418964&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=1901283666756923&set=gm.1516207388418964&type=3

@@ -1,0 +1,65 @@
+---
+message: "مساعدة صغيرة، عايز اعمل login  بال github من خلال الابلكيشن اللي بعمله،
+  انا تايه ما بين هربط ازاي بين الباك اند و الفرونت، انا بستخدم go في الباك اند و
+  angular2 في الفرونت \"لسا على قدي فالفرونت\"، اللي فاهمه لحد الأن:\n1- من الفرونت
+  المستخدم هيضغط على Login With Github مثلًا، فهيفتحله \nhttps://github.com/login/oauth/authorize\n\n2-
+  ال redirect_uri هيكون لينك ل component تاني هيجيب ال token من github ، المفروض بقى
+  ابعت ال token للباك اند اجيب بيها ال email مثلا و اسجلهم فالداتابيز لو مش متسجلين
+  قبل كدا و هعمل repsonse فيها ال user id, email واي بيانات تاني\n\n3- في الفرونت
+  هسجل البيانات دي في localstorage واستخدمها لما احتاجها، السؤال بقى هنا، لما اجي
+  اعمل consume ل api عالباك اند بيحتاج authentication  ببعت البيانات دي ازاي ؟ تقريبا
+  شفت حد بيبعتها في الهيدر في كل ريكويست و يعمل check كل مرة ان ال user دا موجود فعلًا
+  فالداتابيز و logged in ، دا عشان يكون السيرفر stateless.\n\nالخطوات اللي بفكر فيها
+  كدا صح ؟ اي اقتراحات ؟"
+from:
+  name: Eslam Mostafa
+  id: '1575768239208294'
+type: status
+created_time: '2016-04-19T19:51:08+0000'
+updated_time: '2016-04-20T01:18:59+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1127597633946610/
+id: '172338516139198_1127597633946610'
+reactions:
+  data:
+  - id: '10155263617066659'
+    name: Ahmed Mansour
+    type: LIKE
+  - id: '1487671784675336'
+    name: Mohamad Emad
+    type: LIKE
+  - id: '1672878506132188'
+    name: Bellal Mohamed
+    type: LIKE
+  - id: '1596110217148252'
+    name: Ahmed Badawy
+    type: LIKE
+  - id: '1012026932279218'
+    name: Ahmed Mohamed Abd El-Hamid
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRjek5UYzJOalU0T2pFME5qRXhNVFF3TVRjNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQTBNVFUzTmpFeE5EVTVPakUwTmpFd09UVTJORFk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-04-19T20:05:11+0000'
+    from:
+      name: Ahmed Badawy
+      id: '1596110217148252'
+    message: "تمام... \nتفكيرك صح. بس انا رايى البساطة احسن فى الحالات دى... \nانصحك
+      تستخدم ال backend فى عملية ال auth كلها. و تبعت رسايل بال validation و كل الى
+      محتاجه منه...\nو تستخدم ال cookies بدل ال localstorage.. \nو الهيدر صح برضه
+      بس ابعت الايميل فقط باستخدم ال jwt بدل من الcall request العادى..."
+    id: '1127604423945931'
+  - created_time: '2016-04-20T01:18:59+0000'
+    from:
+      name: Eslam Mostafa
+      id: '1575768239208294'
+    message: اممم مش متأكد ازاي هخليها من السيرفر بس, الباك اند عبارة عن API , كدا
+      كدا اليوزر هيفتح صفحة اللوجن بتاعة "github" من الفرونت، بعدين هيعمل ريدياركت
+      على ال api و يجيب الاكسس توكن، ازاي بعدها هعرف الفرونت انه خلاص عمل لوجن ؟
+    id: '1127759533930420'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV5TnpZAd05EUXlNemswTlRrek1Ub3hORFl4TURrMk16RXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV5TnpjMU9UVXpNemt6TURReU1Eb3hORFl4TVRFMU1UTTUZD

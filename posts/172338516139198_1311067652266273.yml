@@ -1,0 +1,64 @@
+---
+message: "Hello geeks ,\nanybody knows how websites builder like wix works ?\nAre
+  they using Vhost or what how they handle all this domains ??\nI know wix for a long
+  time but I'm interested to know how it works \nThanks in advance"
+from:
+  name: Muhammed Nagy
+  id: '495080930892199'
+type: status
+created_time: '2016-12-03T17:06:08+0000'
+updated_time: '2016-12-03T20:41:24+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1311067652266273/
+id: '172338516139198_1311067652266273'
+reactions:
+  data:
+  - id: '1787698051535886'
+    name: Davis Brown
+    type: LIKE
+  - id: '1216819495129208'
+    name: Soha Abuhamam
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTRPRGN4TWpRek9UUTFPakUwT0RBNU1USTNOREU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTBNRE0xTURnMk5qSTFPakUwT0RBNE5URTNOVFE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-12-03T17:17:17+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: |-
+      ايه six ده اصلا
+      قصدك wix ؟
+    id: '1311075792265459'
+  - created_time: '2016-12-03T20:32:59+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "بص انا زمان اشتغلت على حاجات بفكرة الـ unlimited instances دى\nاللى
+      هو كل دومين يديك سايت مختلف \nالفكرة ببساطة شديدة انت بتعمل في الدي ان اس زون
+      فايل بتاع الدومين A Record اسمه @ \nعشان اي Subdomain يدخل على نفس الاي بي ..
+      كدة تمام .. \n\nبعد كدة انت عندك ادمن بورتال ( ده app تانى خالص ) بس بيكريت
+      الـ instances دي، وهى عبارة مثلا عن ان كل instance بتبقى ب داتابيز مختلفة وليها
+      دومين معين \nوعندك Default او Template او Skeleton Database بتاخد كوبي منها
+      كل مرة لما تكريت انستانس جديدة بالدومين الجديد \n\nفي الـ app بقى بتاعك اللى
+      بيشغل سايتس كتير بنفس الكودبيز بس داتابيز مختلفة بيبقى الكود ف  حتة الداتابيز
+      كونكشن ببساطة شديدة بدل ما اسم الداتابيز ثابت ، هتعمل لوك اب من الااب التانى
+      بتاع البورتال اللى فيه معلومات كل الانسنانس\n  و الدومين اللى انت داخل بيه (تجيبه
+      مثلا من \n$_SERVER['SERVER_NAME'] ) \n\nلو اسم السيرفر ده بيماتش حاجة عنده،
+      هتكوننكت ع الداتابيز بتاعته وكدة في كل دومين تدخل بيه يديك دنيا مختلفة خالص
+      .. \n\nمن الاخر بدل ما اسم الداتابيز ثابت ﻻ بيختلف كل مرة حسب الدومين وبييجي
+      من SQL Query على اب البورتال، وطبعا تقدر تكيشه ووو .."
+    id: '1311197542253284'
+  - created_time: '2016-12-03T20:41:23+0000'
+    from:
+      name: Muhammed Nagy
+      id: '495080930892199'
+    message: ازاي الدنيا بتشتغل ما ان اول اليوزر ي point  الدومين علي السيرفرات لغايه
+      ما واحد عادي يفتح الدومين ده
+    id: '1311205052252533'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE14TVRBM05UYzVNakkyTlRRMU9Ub3hORGd3TnpnMU5ETTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE14TVRJd05UQTFNakkxTWpVek16b3hORGd3TnprM05qZA3oZD

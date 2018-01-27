@@ -1,0 +1,30 @@
+---
+message: |-
+  حد اشتغل ع amazon  SQS
+  وممكن استفاد بيها فى شغل call center tasks
+  يعنى عندى تيم من ١٠ افراد وداخلى ١٠٠ تاسك يتعمل assign
+  ل تاسك for one agent
+  Agent can receive  one  task at a time till close this task
+  Queue send another task to him
+from:
+  name: Ahmed Naguib
+  id: '1548995248522253'
+type: status
+created_time: '2017-07-11T22:30:37+0000'
+updated_time: '2017-07-12T10:39:34+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1544589828914053/
+id: '172338516139198_1544589828914053'
+comments:
+  data:
+  - created_time: '2017-07-12T10:39:30+0000'
+    from:
+      name: Hesham Amin
+      id: '1604225349657987'
+    message: "I think SWF https://aws.amazon.com/swf/ is worth checking. \nYou can
+      build the system you described using sqs but I don't think it will be the easiest
+      way."
+    id: '1545076008865435'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUwTlRBM05qQXdPRGcyTlRRek5Ub3hORGs1T0RVMU9UY3kZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUwTlRBM05qQXdPRGcyTlRRek5Ub3hORGs1T0RVMU9UY3kZD

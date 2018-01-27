@@ -1,0 +1,65 @@
+---
+message: |-
+  I need to get all streets name in Cairo or Tahrir
+
+  i tried to draw a shape by Polygon in googleApi and then get all streets under this shape all latLng(s) in this zone.
+
+  but google api just provide any thing in response except streets(routes)
+
+  Note: i used openstreetmap.org but there are many locations and streets have no names.
+
+  https://jsfiddle.net/mohamedhafezqo/yr6vxf94/14/
+
+  Feel free for suggestion or share your experience.
+from:
+  name: Mohamed Hafez Abdallah
+  id: '10211072612477910'
+type: status
+created_time: '2017-11-23T19:56:25+0000'
+updated_time: '2017-11-27T07:59:23+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1670690289637339/
+id: '172338516139198_1670690289637339'
+comments:
+  data:
+  - created_time: '2017-11-23T20:14:22+0000'
+    from:
+      name: Mohammed Salah Hamed
+      id: '10156113417821031'
+    message: Street names is a big issue in Egypt since they are not number based
+      Google have a Api called geocoding it transfers real time address like 5 Adam
+      strret to x,y ....but they have a reverse method to get the addresses via x,y
+      give it a shot
+    id: '1671106699595698'
+  - created_time: '2017-11-23T20:16:58+0000'
+    from:
+      name: Mohammed Salah Hamed
+      id: '10156113417821031'
+    message: https://developers.google.com/maps/documentation/geocoding/intro
+    id: '1671108782928823'
+  - created_time: '2017-11-23T20:17:38+0000'
+    from:
+      name: Mohammed Salah Hamed
+      id: '10156113417821031'
+    message: Reverse geocoding is deep down in document dunno what are u using but
+      it will give an idea
+    id: '1671109152928786'
+  - created_time: '2017-11-23T20:34:11+0000'
+    from:
+      name: Abdelrahman Melegy
+      id: '187337675331830'
+    message: what you need to do is to get a vertex out of each route that was returned
+      to you and send it in the latlng parameter in the reverse geocoding http request
+      via Google's Geocoding API
+    id: '1671121202927581'
+  - created_time: '2017-11-24T18:51:19+0000'
+    from:
+      name: Mohammad Fouad
+      id: '10155755444625845'
+    message: "What about places API? \nhttps://developers.google.com/places/web-service/search\n\nAlso
+      note that the JS API will not be much help, what you need is the WebService
+      API.\nhttps://developers.google.com/maps/documentation/"
+    id: '1671991806173854'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkzTVRFd05qWTVPVFU1TlRZANU9Eb3hOVEV4TkRZANE1EWXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkzTVRrNU1UZA3dOakUzTXpnMU5Eb3hOVEV4TlRRNU5EZA3kZD

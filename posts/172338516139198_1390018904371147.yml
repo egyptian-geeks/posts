@@ -1,0 +1,89 @@
+---
+message: هو انا اقدر اربط ما بين ال excel و Database بمعنى ان اى تغيير فى اي حد منهم
+  يسمع فى التانى ؟؟
+from:
+  name: Walid Ashraf
+  id: '10159896809840176'
+type: status
+created_time: '2017-02-16T14:38:36+0000'
+updated_time: '2017-02-17T13:00:59+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1390018904371147/
+id: '172338516139198_1390018904371147'
+reactions:
+  data:
+  - id: '1593250844096390'
+    name: Khalil Khaled
+    type: LIKE
+  - id: '10209361982760009'
+    name: Ahmed N. Asker
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlNelEwTmprek16RTRPakUwT0RjeU5qa3pOVGM2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRZAek5qazFNVE0zT1RveE5EZAzNNalkzTkRZAeU9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2017-02-16T14:39:29+0000'
+    from:
+      name: Mahmoud Hossam
+      id: '1360912124012585'
+    message: No offense, but have you googled it?
+    id: '1390019384371099'
+  - created_time: '2017-02-16T14:59:42+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: هو ممكن بس لازم تبقى التعديلات دي يا اما بتم من خلال تطبيق واحد، او في
+      تطبيق بيعمل تزامن Synchronization بين الاتنين. مع الوضع في الاعتبار، ان الإكسل
+      موش Relational Database هو اقرب إلى NoSQL
+    id: '1390034454369592'
+  - created_time: '2017-02-16T15:03:10+0000'
+    from:
+      name: Walid Ashraf
+      id: '10159896809840176'
+    message: طيب هو انا مش شايف ان حل الmacro اللى بينده كل شوية يعمل Save ده مقنع
+      بس هو السؤال هل فى حل غيره
+    id: '1390036841036020'
+  - created_time: '2017-02-16T15:39:17+0000'
+    from:
+      name: Hussein Ghaly
+      id: '10160069424510193'
+    message: "لو بتستخدم بايثون، ممكن تستخدم حاجة زي كدة بحيث إنك تاخد البيانات من
+      الإكسيل وتحطها على الداتابيز:\nhttp://mherman.org/blog/2012/09/30/import-data-from-excel-into-mysql-using-python/#.WKXF4lMrL0M\nوطبعا
+      ممكن تعمل حاجة تاخد البيانات من الداتابيز وتحطها في ملف سي إس في مثلا:\nhttp://stackoverflow.com/questions/3710263/how-do-i-create-a-csv-file-from-database-in-python\nودة
+      ممكن تعمله كل فترة عشان تعمل باك أب وكدة..\nولكن الناحيتين ما أظنش إن في طريقة
+      عملية إنك تعمل \nsynchronize\nبين الإتنين بشكل مستمر، ولكن طبعا الموضوع يتوقف
+      على حسب إنت عاوز تعمل إيه بالضبط"
+    id: '1390083774364660'
+  - created_time: '2017-02-16T15:42:28+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: اه عادي ممكن live data source عن طريق odbc مثلا بس بتعمل رفرش مانيوال
+      في الاكسيل
+    id: '1390094721030232'
+  - created_time: '2017-02-16T17:00:37+0000'
+    from:
+      name: مؤمن عبد القادر
+      id: '10209987525676546'
+    message: |-
+      Keeping you data ACID would be your nightmare ..
+      Be careful !
+      And if you can take another path .. do it better for your health and to sleep everynight ;)
+    id: '1390148821024822'
+  - created_time: '2017-02-16T22:39:20+0000'
+    from:
+      name: Hazem Khaled
+      id: '2013558695579476'
+    message: Multithreaded flask server task to.synchronize both of files
+    id: '1390467277659643'
+  - created_time: '2017-02-17T13:00:05+0000'
+    from:
+      name: Osama Mongy
+      id: '10159898051135150'
+    message: aywa tb3an bas m7tag tsatablo ODBC
+    id: '1391283634244674'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE01TURBeE9UTTRORE0zTVRBNU9Ub3hORGczTWpVMU9UWTUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE01TVRJNE16WXpOREkwTkRZAM05Eb3hORGczTXpNMk5EQTEZD

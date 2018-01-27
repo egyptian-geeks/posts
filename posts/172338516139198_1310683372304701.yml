@@ -1,0 +1,48 @@
+---
+message: "Could any one guide me how can i perform SQL \"LIKE\" operation on Firebase?.
+  \n\nI googled and all results are talking about integrating search engine with Firebase
+  (i.e ElasticSearch).\n\nI wonder Is there a solution provided by google to do such
+  this search operations on Firebase ?"
+from:
+  name: Muhammed Hatem Abdu
+  id: '1156848374418083'
+type: status
+created_time: '2016-12-03T11:13:42+0000'
+updated_time: '2016-12-03T12:05:03+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1310683372304701/
+id: '172338516139198_1310683372304701'
+comments:
+  data:
+  - created_time: '2016-12-03T11:30:14+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      Looks like it doesn't have.
+
+      I made this google search:
+      firebase built in sql "like"
+
+      Which led me to this:
+      http://stackoverflow.com/questions/22506531/how-to-perform-sql-like-operation-on-firebase
+
+      But I thought maybe it's 2014, a bit old, and then saw this:
+      http://stackoverflow.com/questions/38618953/how-to-do-a-simple-search-in-string-in-firebase-database
+      and this:
+      http://stackoverflow.com/questions/39058119/firebase-database-requests-and-queries-like-sql-where-in
+
+      Which confirmed the same thing.
+
+      I think that's why you can't find anything about how to do it with Firebase itself, because it's not supported in the first place.
+    id: '1310700348969670'
+  - created_time: '2016-12-03T12:05:02+0000'
+    from:
+      name: Muhammed Hatem Abdu
+      id: '1156848374418083'
+    message: So  If someone here has faced this problem before.,and he did a  solution
+      for this. If he can give me a bit of his experience ?
+    id: '1310752712297767'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE14TURjd01ETTBPRGsyT1RZAM01Eb3hORGd3TnpZAME5qRTEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE14TURjMU1qY3hNakk1TnpjMk56b3hORGd3TnpZAMk56QXkZD

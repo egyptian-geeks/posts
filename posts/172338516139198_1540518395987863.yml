@@ -1,0 +1,227 @@
+---
+message: "Hey all, this was an interview problem.\nI failed to see the relationship
+  between the two arrays. Can anyone solve it? \n\nWrite a function to transform array
+  a to array b and print the elements of array b to the console.\nlet a = [2, 4, 6,
+  8, 9, 15]\nlet b = ['4', '16', '64']"
+from:
+  name: Omar Ahmed
+  id: '10214495066066975'
+type: status
+created_time: '2017-07-07T21:40:39+0000'
+updated_time: '2017-07-09T10:59:59+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1540518395987863/
+shares:
+  count: 2
+id: '172338516139198_1540518395987863'
+reactions:
+  data:
+  - id: '10156301546469701'
+    name: Amr ELsaqqa
+    type: LIKE
+  - id: '1763181463721711'
+    name: Mohamed Nageh
+    type: LIKE
+  - id: '10156054543304084'
+    name: Ahmed ElSawaf
+    type: LIKE
+  - id: '10156305312664589'
+    name: Badreldin Mostafa
+    type: LIKE
+  - id: '10208649644477795'
+    name: Ahmed Shehata
+    type: LIKE
+  - id: '569537850045873'
+    name: Yusuf Muhammed
+    type: LIKE
+  - id: '2055714914665556'
+    name: Mohamed Bakr
+    type: LIKE
+  - id: '1477048562407774'
+    name: Hassan Abd Elhalim
+    type: LIKE
+  - id: '1537088099723136'
+    name: Ahmed Hassan
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRZAMU56RTBOekF3T2pFME9UazFNekE0T0RrNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQXlOalU0T0RFM05EZAzNPakUwT1RrME5qUXhOVE02TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-07-07T21:45:22+0000'
+    from:
+      name: Ahmed Ali
+      id: '1580680005301535'
+    message: |-
+      The second array is of chars and all elements are powers of 2
+      I don't know what is the relationship between he two arrays and you should have asked the interviewer this question. Asking for clarification is part of solving the problem
+    id: '1540524329320603'
+  - created_time: '2017-07-07T21:48:58+0000'
+    from:
+      name: Omar Ahmed
+      id: '10214495066066975'
+    message: guys this was an online code challenge after the HR interview. so i had
+      no chance asking the interviewer anything
+    id: '1540526805987022'
+  - created_time: '2017-07-07T21:49:15+0000'
+    from:
+      name: Ahmed Ali
+      id: '1580680005301535'
+    message: |-
+      Each element in array b is 2 to the power of the corresponding element of array a, this the only relation I can see. For example
+      b[3] = 2^a[3]
+    id: '1540527022653667'
+  - created_time: '2017-07-07T21:52:05+0000'
+    from:
+      name: Tarek Ahmed
+      id: '10215440197777018'
+    message: "the question is very vague and borderline stupid, a correct answer would
+      be \n\nfunction(a) {\n// if elements of a are 2,4,6,8,9, 15\nreturn ['4','16','64']
+      \n}"
+    id: '1540528925986810'
+  - created_time: '2017-07-07T21:52:37+0000'
+    from:
+      name: Mohamed El Zarei
+      id: '1174265536041152'
+    message: I think it's search for powers of 2 in array A [2^1, 2^2, 2^3] and outputs
+      it's square in ArrayB [4, 16, 64]
+    id: '1540529099320126'
+  - created_time: '2017-07-07T21:53:05+0000'
+    from:
+      name: Tarek Ahmed
+      id: '10215440197777018'
+    message: if only one test case is. provided then the problem is meaningless
+    id: '1540529419320094'
+  - created_time: '2017-07-07T21:55:06+0000'
+    from:
+      name: Ahmed Hassan
+      id: '1537088099723136'
+    message: 2^a[i] seem to be the right solution however i don't know what is the
+      max number of iteration for i , in this example it could be the first half of
+      elements , or the first 3 elements or the only even number elements ...
+    id: '1540530379319998'
+  - created_time: '2017-07-07T21:58:44+0000'
+    from:
+      name: Mohamed Ehab
+      id: '790078684517700'
+    message: I guess, if the Square of the element in array A is a power of 2, add
+      that Square to array B
+    id: '1540532849319751'
+  - created_time: '2017-07-07T22:01:46+0000'
+    from:
+      name: Moataz Hisham
+      id: '2013712018898567'
+    message: If those are the only numbers a naive way is to divide a elements by
+      2 if the result is one or even integer(remainder is 0) power a[i] by 2
+    id: '1540535675986135'
+  - created_time: '2017-07-07T22:06:47+0000'
+    from:
+      name: Mustafa Ezzat
+      id: '1791684854188024'
+    message: square only item is power of 2
+    id: '1540539475985755'
+  - created_time: '2017-07-07T22:10:09+0000'
+    from:
+      name: Bdr Mohamed
+      id: '2015246105157800'
+    message: "First three elements are powers to 2 \n2^2 = 4\n2^4 = 16\n2^6 = 64\nand
+      ignore the rest \nso basically it takes the first three elements and use them
+      as powers to 2."
+    id: '1540541585985544'
+  - created_time: '2017-07-07T22:18:46+0000'
+    from:
+      name: Bakir Alharoun
+      id: '2109950492620951'
+    message: يمكن القصد انك تضيف a على b بدون ما يكون في تكرار وتطبع b
+    id: '1540548732651496'
+  - created_time: '2017-07-07T22:23:33+0000'
+    from:
+      name: Ahmed Nader
+      id: '10156045771551796'
+    message: Pretty bad question
+    id: '1540552402651129'
+  - created_time: '2017-07-07T23:58:08+0000'
+    from:
+      name: Omar Ahmed
+      id: '10214495066066975'
+    message: "That was my final answer btw, It is pretty the same as Moataz Hisham's
+      answer. \nI considered taking elements of array 'a' if dividing them by 2 would
+      result to 1 or even number only.\n\nfunction transformArray(a, b) {\n\tlet answer
+      = []\n\t\n\ta.map(function(el, index) {\n\t\tlet num = el / 2\n\t\tif (num ===
+      1 || num % 2 === 0) {\n\t\t\tanswer.push(el * el)\n\t\t}\n\t})\n\tanswer = answer.map(String)\n\tconsole.log(answer)\n}"
+    id: '1540609639312072'
+  - created_time: '2017-07-08T00:09:10+0000'
+    from:
+      name: Ahmad Mayo
+      id: '10155441399893250'
+    message: |-
+      b = a.filter(item => {
+        let res = item / 2
+        while (res > 1) {
+          res = res/2
+        }
+        return res === 1
+      }).map(item => (item * item).toString())
+    id: '1540617519311284'
+  - created_time: '2017-07-08T02:37:37+0000'
+    from:
+      name: Ahmed Fawzy
+      id: '10159727335795618'
+    message: Guys im not sure of this but i don't think this is related to maths directly
+      the 2nd array is array of strings , it could be ascii or some how converting
+      each two numbers to its string value , may be im wrong
+    id: '1540728129300223'
+  - created_time: '2017-07-08T03:16:18+0000'
+    from:
+      name: Abdou Habibi
+      id: '10213317678189031'
+    message: I think only the numbers from array a that when you square them produce
+      a number that is a multiple of 4 that pass the test and get to be in array b..
+    id: '1540754532630916'
+  - created_time: '2017-07-08T07:33:46+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "Simply the array b is filled with squares of array a elements only if
+      array a element is a power of 2, any non 2-powered element is ignored, we use
+      log to base 2 to verify this, if the returned no. is integer add to array b,
+      else do nothing\n\nببساطة هو بيحط في الارراي التانية مربعات الارقام في الارراي
+      الاولى بشرط ان العنصر في الارراي الاولى يكون من قوى العدد 2 فقط ، والباقى يتم
+      تجاهله زي ال 6 و 9 و 15 \n\nالكود اللى يحلها ... \n\nlet a = [2,4,6,8,9,15]
+      ; \nlet b = [] ;\na.forEach(function(n) {\n    let i = Math.log(n) / Math.log(2)
+      ;\n    if (i === parseInt(i,10)) {\n        b.push((n*n).toString()); \n    }\n\n}
+      ) ;\n\nconsole.log(b); // ['4','16','64']"
+    id: '1540927555946947'
+  - created_time: '2017-07-08T10:12:29+0000'
+    from:
+      name: Ahmed Nader
+      id: '10156045771551796'
+    message: "I agree with the log2 answer, also, if there is an integer divisible
+      by 3 then we ignore it and take the rest \nb = [x*x for x in a if x%3!=0]"
+    id: '1541009715938731'
+  - created_time: '2017-07-08T16:05:56+0000'
+    from:
+      name: Fady Mohammed Osman
+      id: '1832248553460800'
+    message: |-
+      The results in the second array are two to the power of the value in the first array:
+      2^2 = 4
+      2^4 = 16
+      2^6 = 64
+    id: '1541267219246314'
+  - created_time: '2017-07-08T22:58:41+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: https://jsbin.com/biyomolicu/edit?html,console
+    id: '1541574845882218'
+  - created_time: '2017-07-09T06:26:17+0000'
+    from:
+      name: Mohamed El-Kholy
+      id: '10155833475081885'
+    message: B=2^A
+    id: '1541872905852412'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUwTURVeU5ETXlPVE15TURZAd016b3hORGs1TkRZAek9USXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUwTVRnM01qa3dOVGcxTWpReE1qb3hORGs1TlRneE5UYzMZD

@@ -1,0 +1,18 @@
+---
+message: |-
+  I am trying to use Firebase and i get this error message in the log cat
+  and there is no answer for that in stackoverflow
+
+  java.lang.IllegalAccessError: tried to access method java.util.concurrent.ScheduledThreadPoolExecutor.setRemoveOnCancelPolicy:()V from class com.firebase.client.utilities.DefaultRunLoop
+
+  any help ??
+  or there is any stable alternative to Parse
+  Thanks in Advace
+from:
+  name: Abdalla Elnaggar
+  id: '2096764887006623'
+type: status
+created_time: '2016-02-20T14:15:14+0000'
+updated_time: '2016-02-20T14:15:14+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1083461561693551/
+id: '172338516139198_1083461561693551'

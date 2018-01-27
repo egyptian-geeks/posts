@@ -1,0 +1,31 @@
+---
+message: |-
+  Any one here using Vagrant on windows 7 ?
+
+  I installed Vagrant and VM VirtualBox, then added a box with "vagrant box add ubuntu/trusty64", and now the Ubuntu box is visible when I use "vagrant box list", then I used "vagrant init ubuntu/trusty64" within the php7dev directory, but still nothing happens at all when I use "vagrant up" or "vagrant ssh" and there isn't even an error message displayed. Has anyone run into the same problem ?
+from:
+  name: Ibrahim Abd Allatif
+  id: '10215231144682156'
+type: status
+created_time: '2017-07-27T10:59:56+0000'
+updated_time: '2017-07-27T11:18:36+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1560142490692120/
+id: '172338516139198_1560142490692120'
+comments:
+  data:
+  - created_time: '2017-07-27T11:07:36+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Not a first hand experience but I have some colleagues doing this successfully
+      without issues on Windows 8.1. The only catch for Windows 8.1 and 7 is that
+      the network tack has issues and you need to install an older version. That is
+      already suggested by the Docker Toolbox (which installs VirtualBox for you if
+      not installed already), so, I don't know, maybe uninstall everything and install
+      VirtualBox via Docker Toolbox. I'll see if I can find specific information on
+      the network driver issue.
+    id: '1560146384025064'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUyTURFME5qTTROREF5TlRBMk5Eb3hOVEF4TVRVek5qVTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUyTURFME5qTTROREF5TlRBMk5Eb3hOVEF4TVRVek5qVTMZD

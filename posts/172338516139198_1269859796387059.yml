@@ -1,0 +1,74 @@
+---
+message: "Salam guys,\n\nI'm trying to host my relational database on a shared location
+  to allow other people for collaboration. In addition, I'll use this hosting to connect
+  to my website in the near future. \n\nI'm looking for the cheapest hosting service,
+  my database size is not more than 5 GB.\n\nI looked up some services like AWS, Azure.
+  Both of them are very expensive, is there another way that can help? I don't want
+  to pay more than 10$ per month.\n\nI appreciate your replies. :)"
+from:
+  name: Mohamed El-Kamhawy
+  id: '10213760109590589'
+type: status
+created_time: '2016-10-26T21:15:57+0000'
+updated_time: '2016-10-27T03:23:12+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1269859796387059/
+id: '172338516139198_1269859796387059'
+reactions:
+  data:
+  - id: '10157097152299942'
+    name: Abdul-Hameed Riad
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRRMk9UVTBPVFF4T2pFME56YzFNakUxTnpVNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRRMk9UVTBPVFF4T2pFME56YzFNakUxTnpVNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-10-26T21:20:41+0000'
+    from:
+      name: Ahmed Mansy
+      id: '10215979763073379'
+    message: "@Mohamed try  digitalocean \nYou can run linux on your droplet and install
+      any database server you need"
+    id: '1269867383052967'
+  - created_time: '2016-10-26T21:23:28+0000'
+    from:
+      name: Mustafa Dagher
+      id: '10215560476549083'
+    message: Mahmoud Fawzy
+    id: '1269872723052433'
+  - created_time: '2016-10-26T21:25:36+0000'
+    from:
+      name: Mustafa Dagher
+      id: '10215560476549083'
+    message: digitalocean has pricings that starts from 5$/month
+    id: '1269878056385233'
+  - created_time: '2016-10-26T21:26:48+0000'
+    from:
+      name: Mohamed Ramadan
+      id: '10215248608553663'
+    message: Why don't you deploy it on azure using your azure subscription , it has
+      150 dollars/ month, you are not going to pay anything
+    id: '1269880709718301'
+  - created_time: '2016-10-26T21:37:31+0000'
+    from:
+      name: Mahmoud Refaat
+      id: '10159882193515635'
+    message: A small size VM on AWS should be free, correct?
+    id: '1269887519717620'
+  - created_time: '2016-10-26T22:56:25+0000'
+    from:
+      name: Abdul-Hameed Riad
+      id: '10157097152299942'
+    message: |-
+      Both Linide or Digitalocean have low cost plans under 10$, Just as mentioned above don't connect to the database directly.
+
+      Create an API to work with the database and then use it, that's better from performance and, security perspective - as MySQL by default don't use secure connection (don't know about other databases but i assume you want a free database).
+
+      If you are OK using JavaScript, you can give LoopBack a shot.
+      https://loopback.io/
+    id: '1269961943043511'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkyT1RnMk56TTRNekExTWprMk56b3hORGMzTlRFMk9EUXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkyT1RrMk1UazBNekEwTXpVeE1Ub3hORGMzTlRJeU5UZAzIZD

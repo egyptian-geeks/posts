@@ -1,0 +1,68 @@
+---
+message: "سلام عليكم... \nدلوقتي انا عندي windows serviceموجودة عند ال client شايلة
+  جواها web service مفروض ان واحد من ال requests ال هتجيلها اني اشغل الscanner\nوبما
+  ان ال windows service واال interactive user كل واحد موجود ف session مختلفة, ف ال
+  service مينفعش تظهر ايGUI لل user .\nوعلى اساسه كان الحل الوحيد المتاح اني اعمل
+  desktop app يعمل هو عملية ال scanning واخلي ال service تظهره من جواها as a user
+  process علشان ال UI يظهر. \nال desktop app شغال تمام... \nالمشكلة ف ال service لما
+  بتشغل ال exe بتاعة التطبيق مبتبقاش شايفة ال source ال هتعمل بيه scan رغم انه متشاف
+  وشغال ف التطبيق تمام.\nملحوظة مستخدم  asprise api مع dynamsoft virtual scanner.\nوال
+  exception بيقول انه مش لاقي source يشتغل عليه.\n<error: failed to open data source:
+  TWRC_ENDOFLIST>\nانا بحثت كتير لكن كل الحلول بتتكلم عن ال hardware ال هو اصلا مش
+  موجود (شغال على virtual scanner )\nانا محتاج بس hints ابدأ منها لاني واقف بقالي
+  \ زيادة عن يوم بدون حل...\nملحوظة تانية , التاسك مطلوبة ب windows service بالتحديد."
+from:
+  name: Ali ElSheikh
+  id: '1151809561622555'
+type: status
+created_time: '2017-09-05T22:57:20+0000'
+updated_time: '2017-09-06T02:47:59+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1599603690079333/
+id: '172338516139198_1599603690079333'
+reactions:
+  data:
+  - id: '898872206952573'
+    name: Ace Al Bastoni
+    type: LIKE
+  - id: '327926637719979'
+    name: Ibrahim Fares
+    type: LIKE
+  - id: '10155357846496295'
+    name: Jihad A. Abdel Majeed
+    type: LIKE
+  - id: '1571627659599892'
+    name: Sayed El-sheikh
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTBPRGswTURVME5qUTNPakUxTURRMk9EZA3lOems2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlOVGd3TWpBME56YzVPakUxTURRMk5USTROVFk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-09-05T23:07:34+0000'
+    from:
+      name: Sayed El-sheikh
+      id: '1571627659599892'
+    message: up
+    id: '1599609296745439'
+  - created_time: '2017-09-05T23:44:28+0000'
+    from:
+      name: Hesham Desouky
+      id: '10215011048531592'
+    message: What about hosting a signalr server in desktop app and make the service
+      communicate with it as a client?
+    id: '1599626213410414'
+  - created_time: '2017-09-06T02:47:56+0000'
+    from:
+      name: سامح دعبس
+      id: '2022490591345439'
+    message: |-
+      ممكن معلومات أكتر عشان نقدر نساعدك؟
+      إيه التكنولوجي اللي أنت مستخدمها؟
+      حط نص ال exception. اللي طلع لك
+      الحقيقة مش فاهم المشكلة فين؟
+    id: '1599720493400986'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU1T1RZAd09USTVOamMwTlRRek9Ub3hOVEEwTmpVeU9EVTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU1T1RjeU1EUTVNelF3TURrNE5qb3hOVEEwTmpZAMk1EYzIZD

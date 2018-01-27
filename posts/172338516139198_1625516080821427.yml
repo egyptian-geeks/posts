@@ -1,0 +1,120 @@
+---
+message: |-
+  This thing is seriously awesome.
+
+  Streisand is a censorship resistance toolbox, it gives you a lot of choices to overcome DPI and other attacks designed to prevent access to websites.
+
+  That means you can get around website bans (Medium) and also lets you get around geographical availability restrictions (Spotify).
+
+  So far I've used this on a $5 Linode instance and it's insanely faster than any free VPN I've used.
+
+  The method I used so far is OpenVPN over stunnel, since OpenVPN by itself is now blocked in Egypt.
+
+  I'm currently looking into Wireguard since it has a simpler configuration but it only works with Linux, so you'll be better off using L2TP/IPsec on Windows and Android (which both natively support it with no additional tools).
+
+  Enjoy the open web!
+link: https://github.com/StreisandEffect/streisand
+from:
+  name: Mahmoud Hossam
+  id: '1360912124012585'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQA9-IoryoCMmqlR&w=130&h=130&url=https%3A%2F%2Favatars0.githubusercontent.com%2Fu%2F32347203%3Fv%3D4%26s%3D400&cfs=1&_nc_hash=AQDIuDTghyr5clh7
+created_time: '2017-10-06T07:49:43+0000'
+updated_time: '2017-10-06T23:11:38+0000'
+name: StreisandEffect/streisand
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1625516080821427/
+id: '172338516139198_1625516080821427'
+reactions:
+  data:
+  - id: '1542205219167860'
+    name: Kareem Sherif
+    type: LIKE
+  - id: '1819409301443237'
+    name: Mahmoud M Hassan
+    type: LIKE
+  - id: '10159800858645702'
+    name: Ahmed Samir
+    type: LIKE
+  - id: '158547971463325'
+    name: Mohamed Mohamedy
+    type: LIKE
+  - id: '10215560476549083'
+    name: Mustafa Dagher
+    type: LIKE
+  - id: '1994369250577940'
+    name: Mohammed El-Beltagy
+    type: LIKE
+  - id: '10155686945529760'
+    name: Ibrahim Hussein
+    type: LIKE
+  - id: '927490574073670'
+    name: Mahmoud Abdalazez
+    type: LOVE
+  - id: '1811551685586388'
+    name: Ahmed Mudhar
+    type: LIKE
+  - id: '10156649659196002'
+    name: Muhammad Saleh
+    type: LIKE
+  - id: '10213030448309095'
+    name: Mohamed A-Abd El Monim
+    type: LOVE
+  - id: '10214796374519514'
+    name: Islam AbdelMohaimen Hassan
+    type: LIKE
+  - id: '1476186199159322'
+    name: Ahmad Samir
+    type: LIKE
+  - id: '1927910387525979'
+    name: Ashraf Elalfy
+    type: LIKE
+  - id: '2760687167500624'
+    name: Mohamed El-Shahawi
+    type: LIKE
+  - id: '10156052502884860'
+    name: Omar Essam
+    type: LOVE
+  paging:
+    cursors:
+      before: TVRBd01EQXhNelV4T1RFMU1qY3dPakUxTVRZAeE5EWXpOekk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: T0RRNU1qazBPRFU1T2pFMU1EY3lOelkwTlRnNk56ZAzROalE0TURNM09URXpNekV5
+comments:
+  data:
+  - created_time: '2017-10-06T11:42:04+0000'
+    from:
+      name: Mohamed Hamza
+      id: '1780939041979216'
+    message: انا سمعت ان IPSec مقفول في مصر؟
+    id: '1625653867474315'
+  - created_time: '2017-10-06T12:20:39+0000'
+    from:
+      name: Mahmoud Hossam
+      id: '1360912124012585'
+    message: IPSec is indeed blocked in Egypt, I used Shadowsocks to get around that
+      on Android.
+    id: '1625678600805175'
+  - created_time: '2017-10-06T21:36:51+0000'
+    from:
+      name: Muhammad Sherbeeny
+      id: '10159810258355527'
+    message: How to set it up on Heroku ?
+    id: '1626054900767545'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl5TlRZAMU16ZAzJOelEzTkRNeE5Ub3hOVEEzTWprd01USTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl5TmpBMU5Ea3dNRGMyTnpVME5Ub3hOVEEzTXpJMU9ERXkZD
+attachments:
+  data:
+  - description: streisand - Streisand sets up a new server running L2TP/IPsec, OpenConnect,
+      OpenSSH, OpenVPN, Shadowsocks, sslh, Stunnel, a Tor bridge, and WireGuard. It
+      also generates custom instructions for all ...
+    media:
+      image:
+        height: 400
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQCenpfAy5uHyZGU&w=720&h=720&url=https%3A%2F%2Favatars0.githubusercontent.com%2Fu%2F32347203%3Fv%3D4%26s%3D400&cfs=1&_nc_hash=AQCJnwsiu1Zh3QJw
+        width: 400
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2FStreisandEffect%2Fstreisand&h=ATO8rXk2l8g57Q-jLQfVDwMTUUhTDg5A7pOvwMjrK1pK-82TrBiPxmnqZNyuQ8Di5T0ExabKJkxpL1OPdfa7r1NqZlrfRocX6JHx&s=1&enc=AZO49jreR7U19ZAWYVA7M5MESbSxyFV4Zhkj1VkIOEbLgDC9xrZX-rto8eYWoKr6HDrS_ivWDJmKDnaLFS2Osof2
+    title: StreisandEffect/streisand
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2FStreisandEffect%2Fstreisand&h=ATO8rXk2l8g57Q-jLQfVDwMTUUhTDg5A7pOvwMjrK1pK-82TrBiPxmnqZNyuQ8Di5T0ExabKJkxpL1OPdfa7r1NqZlrfRocX6JHx&s=1&enc=AZO49jreR7U19ZAWYVA7M5MESbSxyFV4Zhkj1VkIOEbLgDC9xrZX-rto8eYWoKr6HDrS_ivWDJmKDnaLFS2Osof2

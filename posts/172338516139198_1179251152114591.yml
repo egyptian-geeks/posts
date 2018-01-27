@@ -1,0 +1,43 @@
+---
+message: "Alsalam Alykom \nI working in MVC Project EF , I have Model and ViewModel
+  .there is AutoMapper between them .should i implement \"Custom Validation\" in Model
+  or view model? what is the best way ?"
+from:
+  name: Mera Tag Eldin
+  id: '10155869338936136'
+type: status
+created_time: '2016-07-10T21:18:59+0000'
+updated_time: '2016-07-12T08:35:50+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1179251152114591/
+id: '172338516139198_1179251152114591'
+comments:
+  data:
+  - created_time: '2016-07-10T21:45:08+0000'
+    from:
+      name: Muhammed Abd El-Moniem
+      id: '10155774903303859'
+    message: u can use custom attributes to enable validation in the backend model
+      .. w b3den fl frontend t3mli validation motwafk m3 el business bta3k fl backend
+      .. ana kont 3mltha mra bl custom attributes
+    id: '1179267685446271'
+  - created_time: '2016-07-11T09:01:41+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: I usually use the onion architecture and like to leave the core model
+      without any dependencies. This will not be the case if you implement validation
+      in your model. In this case you will need to add the DataAnnotation namespace
+      to your model.
+    id: '1179551315417908'
+  - created_time: '2016-07-12T00:28:43+0000'
+    from:
+      name: سامح دعبس
+      id: '2022490591345439'
+    message: |-
+      If you mean by validation= ui validation, then it should be done in presentation layer= in your view model. Using data annotation attributes will be good here.
+      If you mean by validation= business rules= it should be done elsewhere depending on the complexity of your application. For most cases, using poco models+ business rules on service layer would be sufficient.
+    id: '1179975902042116'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUzT1RJMk56WTROVFEwTmpJM01Ub3hORFk0TVRnM01UQTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUzT1RrM05Ua3dNakEwTWpFeE5qb3hORFk0TWpnek16SXoZD

@@ -1,0 +1,115 @@
+---
+message: كنت عاوز اعمل graph للمشروعات اللى بشتغل عليها بس يكون ديناميك يعني كل شوية
+  اقدر اعمله generate، ودي ابسط طريقة طلعت بيها، ان الجراف يكون ERB ويكون executable
+  واللي يطلع اديه لdot بحيث يحوله لفورمات تاني للصور، كده ممكن يكون السكريبت جزء من
+  الdocumentation بسهوله لانه فايل واحد ممكن تشغله قبل ما تgenerate الdocumentation
+  للمشروع ، ده غير ان الجراف بيكون ملف واحد بس وبيعتمد بس على ان روبي على السيستيم
+  و dot لو عاوز تحوله لفورمات تاني، المقال عملت فيه مثال صغير لrails، وسوري على الانجليزي
+  المبهدل ده
+link: http://www.emadelsaid.com/posts/erb-templates-as-standalone-executables/
+from:
+  name: Emad Elsaid
+  id: '627907956'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQAKo1u5ZNjvaQrn&w=130&h=130&url=http%3A%2F%2Fwww.emadelsaid.com%2Fimages%2Ferb-graph-1.png&cfs=1&_nc_hash=AQAStjY616DdyKcQ
+created_time: '2018-01-24T22:27:06+0000'
+updated_time: '2018-01-24T22:27:07+0000'
+name: ERB Templates as Standalone Executables
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1732543360118698/
+shares:
+  count: 3
+id: '172338516139198_1732543360118698'
+reactions:
+  data:
+  - id: '1657509230977456'
+    name: Hosam Aly
+    type: LIKE
+  - id: '396372880787166'
+    name: Ahmed Adel Fahmy
+    type: LIKE
+  - id: '147622735941197'
+    name: Hassan Aly
+    type: LIKE
+  - id: '930615110434715'
+    name: Ahmed Ashraf
+    type: LIKE
+  - id: '1575071509235829'
+    name: Ahmed Waheed
+    type: LIKE
+  - id: '1876092405757348'
+    name: Ibrahem Mahmmoud
+    type: LIKE
+  - id: '10155536294218918'
+    name: Muhammad Mahmoud
+    type: LIKE
+  - id: '10212947071504226'
+    name: Eslam Hamouda
+    type: LIKE
+  - id: '1057939131026564'
+    name: Mostafa Abd El-salam
+    type: LIKE
+  - id: '10208454660082717'
+    name: Kareem Alaa El-din
+    type: LIKE
+  - id: '10160007537500512'
+    name: Abbas Adel Ibrahim
+    type: LIKE
+  - id: '1676108972474712'
+    name: Ahmed Ezzat Salama
+    type: LIKE
+  - id: '1898177370224684'
+    name: Abd El-Fattah Ghazy
+    type: LIKE
+  - id: '10156259295924301'
+    name: Mohamed Shaaban
+    type: LOVE
+  - id: '10214925485592247'
+    name: Ahmed Kamal
+    type: LIKE
+  - id: '10212826240185281'
+    name: Mohamed Bassem
+    type: LIKE
+  - id: '10215412126240955'
+    name: Samar Abdelhamid
+    type: LIKE
+  - id: '10215391902128949'
+    name: Ahmed Ali
+    type: LIKE
+  - id: '578536342490916'
+    name: Pegade Shaheen
+    type: LIKE
+  - id: '10213017755051330'
+    name: Abdelrhman Shawky
+    type: LOVE
+  - id: '10209868256375843'
+    name: Khaled Mhd
+    type: LIKE
+  - id: '999826596836080'
+    name: Mohammed Salah
+    type: LIKE
+  - id: '1999765416908747'
+    name: Ahmed Khalifa
+    type: LIKE
+  - id: '10156115350739764'
+    name: Mahmoud Tantawy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhOVFV4T0RRMk1EZAzBPakUxTVRZANU1qUTBOalk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TlRFME5UYzVOell6T2pFMU1UWTRNekk1TVRRNk1qVTBNRGsyTVRZAeE13PT0ZD
+attachments:
+  data:
+  - description: The following is a technique that can convert ERB files (Embeded
+      Ruby) to executable files like any other ruby/python/shell scripts, the difference
+      is that ERB is more suitable in cases where you have some output that needs
+      to be filled with data, like rails view files, or a text that needs report n...
+    media:
+      image:
+        height: 179
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQCPBJvYTI2fpJBR&w=720&h=720&url=http%3A%2F%2Fwww.emadelsaid.com%2Fimages%2Ferb-graph-1.png&cfs=1&_nc_hash=AQDV7Y5srbe3JpdB
+        width: 179
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.emadelsaid.com%2Fposts%2Ferb-templates-as-standalone-executables%2F&h=ATMNTHLcEJoCQ5wxdk4w4ZC5UH8CFl5WPmKP2gebI9Zkq85pCJzverY6A8pvVdLxENvUprRqdjOwkvhBWwHQuDW8nMb_WBGH3z6J&s=1&enc=AZNQFSgPY1EHo1d64ohTbGlOq-Ud-WaAsypNeCRYHtDAYOA7-oWkGpZempqajpV3dolbMJenbRsLlRNY9DL87hgL
+    title: ERB Templates as Standalone Executables
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.emadelsaid.com%2Fposts%2Ferb-templates-as-standalone-executables%2F&h=ATMNTHLcEJoCQ5wxdk4w4ZC5UH8CFl5WPmKP2gebI9Zkq85pCJzverY6A8pvVdLxENvUprRqdjOwkvhBWwHQuDW8nMb_WBGH3z6J&s=1&enc=AZNQFSgPY1EHo1d64ohTbGlOq-Ud-WaAsypNeCRYHtDAYOA7-oWkGpZempqajpV3dolbMJenbRsLlRNY9DL87hgL

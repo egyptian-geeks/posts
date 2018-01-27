@@ -1,0 +1,139 @@
+---
+message: "عند فكرة Tool محتاج اعرف رأيكم فيها، المفروض ان كلنا تقريبآ لما بتواجهنا
+  مشكلة بندور على Stack overflow و بنلاقى كود ناخده كوبى بيست او بنلاقى gist على جبت
+  هب بناخد الفايل او الإتنين اللى فيها و نحطهم فى اماكنهم فى البروجيكت و نشوف النتيجة
+  و نعدل عليهم و كده.\nوناس كتير بتشتكى من ان فيه packages صغيرة قوى فايل او اتنين،
+  فليه تحجز اسم و الديفلوبر يطلع منها فيرجنز و repo on github و كل ده و تاخد وقت طويل
+  مع انه ممكن يحطها على gist.github.com والناس تبقى تدور عليها وتاخدها فى البروجيكت
+  و خلاص.\nالproposal بتاعى ان فيه اكواد صغيرة قوى اصغر من انها تكون package مع نفسها
+  وفايل عاوز تديه للناس بطريقة ابسط من انك تعمل كل ال package structure و تكتب تيستس
+  ، ابسط من انك تتراك النسخ بتاعتها وتعمل ابديت، اللى بقترحه يكون فيه cli tool زى
+  gem فى روبى، بس مش بتدور فى الإندكس بتاعها، بتدور على gists ولو عاوز الgist دى بتعمل
+  كوبى ليها فى المكان بتاعها بناء على اسم الفايل (اللى المفروض يكون وقتها path ) وخلاص
+  خلصنا، حاجة صغيرة تسألها على حل مشكلة عندك تديلك حلول زى validations فى rails او
+  فايل واحد بيحل مشكلة معينة صغيرة.\nالمفروض ان يكون اكونتات github زى sources تقدر
+  كمستخدم تحط الأكونت ده كsource للgists فيكون فيه اكونت ل rails مثلأ لو حطيته فى
+  التول تقدر تسأل على حلول لمشاكل rails و الgist اللى عاوزها ينزلهالك، وممكن اكونت
+  تانى يكون بيعمل favorite لحاجات فريموركس تانية.\nولو حد عاوز ينشر الgist بتاعته
+  فى الأكونت بيبعت رسالة ولا حاجة او يمنشن الأكونت والأكونت يكون وراه bot بيشوف الgist
+  دى فيها الرولز المطلوبة ولا لأ يعملها favorite اوتوماتيك.\nكده انا مثلأ عاوز url
+  validation class for rails بعمل كوماند زى\n$ publisher \"url validation\"\n1. url
+  validation class\n2. ftp url validation class\n3. enforce url validation \n.\n.\n.\nN:next,
+  1-9 install gist, Q:quit\nحاجة زى كده تختار الgist ينزل الملف او الإتنين اللى فيها
+  فى البروجيكتـ تعدل فيهم زى مانت عاوز ويكونوا جزء من البروجيكت على طول وقتها مش هيتحسبوا
+  dependency على ما اعتقد! و هتلاقى ان الdepency manifest زى Gemfile عندى اقل بكتير
+  لأن الباكدجيز الصغيرة اللى فيه دلوقتى بقت included فى المشروع على طول."
+from:
+  name: Emad Elsaid
+  id: '627907956'
+type: status
+created_time: '2016-07-07T10:24:24+0000'
+updated_time: '2016-07-07T17:04:46+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1176777025695337/
+id: '172338516139198_1176777025695337'
+reactions:
+  data:
+  - id: '10215482677129679'
+    name: Ahmed Adel Radwan
+    type: LIKE
+  - id: '2050677301856794'
+    name: Nour Badr
+    type: LIKE
+  - id: '10214798901190713'
+    name: Amir Raouf Saad
+    type: LIKE
+  - id: '2062533127095378'
+    name: Younis Showky
+    type: LOVE
+  - id: '10215545463935808'
+    name: Mohammad Radwan
+    type: LIKE
+  - id: '1750827214940443'
+    name: Ahmad Mansour
+    type: LIKE
+  - id: '790501411145334'
+    name: Abuzeid Ibrahim
+    type: LIKE
+  - id: '10210873963671158'
+    name: Mohamed Mousa
+    type: LIKE
+  - id: '927294070755888'
+    name: Emad Elmogy
+    type: LIKE
+  - id: '1057939131026564'
+    name: Mostafa Abd El-salam
+    type: LIKE
+  - id: '1825352097496736'
+    name: Ahmed El-Lithy
+    type: LIKE
+  - id: '10155226291481186'
+    name: أحمد محمود محمد عبدالوهاب
+    type: LIKE
+  - id: '10215232240456289'
+    name: Ahmed Saber
+    type: LIKE
+  - id: '1760873527290187'
+    name: Ahmed S. Elzeiny
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRVeU1UQTBPRGN3TXpveE5EWTRNREV4TmpZAd09qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBd01EQXhNREkyTnpBeU5qTTNPakUwTmpjNE9EY3hNelE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-07-07T10:30:09+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      So, they are so tiny that you don't want to write a test for, but you want to write a package manager for?
+      How hard is the problem you are solving? Is there blood?
+      Will managing the installation be really easier than manually copying? Or is the discoverability the real selling point?
+    id: '1176779292361777'
+  - created_time: '2016-07-07T10:34:26+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      Quite often when I'm downloading small snippets of code, I make them "fit" in my code. That often means changing a couple of things (coding style, variable names, etc.).
+
+      Depending on the size, it might just be a function added to an existing class/module, or it might have its own class / module (very rare, often that's for packages that come in classes/modules already).
+
+      If the logic is complex, I might simplify it, or just write a comment saying what;s happening and linking to the source Github issue or SO answer.
+      Not sure how this might play with your solution.
+    id: '1176784789027894'
+  - created_time: '2016-07-07T10:35:02+0000'
+    from:
+      name: أحمد محمود محمد عبدالوهاب
+      id: '10155226291481186'
+    message: Arent things like paste bin do the same?
+    id: '1176787622360944'
+  - created_time: '2016-07-07T16:58:09+0000'
+    from:
+      name: Bassam Abd Elhamid
+      id: '1955441501387657'
+    message: انا بموت فى اى حاجه اسمها تطوير ادوات , كان فى واحد من كام يوم جمع كل
+      الاكواد فى استاك اوفر فلو وعملهم انكسنج بطريقة معينة بحيث وانت بتكتب الكود يجيلك
+      اقتراحات للاكمل من اكواد اتكتبت قبل كده, انا كان عندى مشروع المفروض خلاله انى
+      اجمع *كل* الاكواد الى على النت واستخدم مشين لايرننج عشان افهمها واحاول استغلها,
+      بس مكملتش
+    id: '1177003965672643'
+  - created_time: '2016-07-07T17:01:33+0000'
+    from:
+      name: Bassam Abd Elhamid
+      id: '1955441501387657'
+    message: انا عندى ابلكيشن صغير كده ذى بنك الاكواد الى كنا بنعملو واحنا بنتعلم,
+      كل ما اوصل لكود صعب افتكرو , اخزنه فيه, وعشان اخليه بورتابل (كوبى وبيست على
+      طول يعنى) , بغير فيه , مثلاً بكتب النيم اسبيس بالكامل System.IO.Path insted
+      of Path.
+    id: '1177005409005832'
+  - created_time: '2016-07-07T17:04:46+0000'
+    from:
+      name: Bassam Abd Elhamid
+      id: '1955441501387657'
+    message: https://emilschutte.com/stackoverflow-autocomplete/
+    id: '1177006692339037'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUzTmpjM09USTVNak0yTVRjM056b3hORFkzT0RnM05EQTUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUzTnpBd05qWTVNak16T1RBek56b3hORFkzT1RFeE1EZAzMZD

@@ -1,0 +1,95 @@
+---
+message: |-
+  hello geeks,
+  i have a question ...
+  i made a framework of applications ... its something private that i have been working on.
+  so in order to put it in action i needed 2 pc's running windows server.
+
+  it consists of several nodes
+
+  main_node <-> security node <-> auth_node <-> Node_Manager <-> gateway
+
+  Node_Manager:
+  ->client_node <-> launches the nodes 1~x the the same server for client_node.
+  ->Node 1
+  ->Node 2
+  ->Node 3
+  etc ....
+
+  the problem is that my client_node could be launched several times.
+  when i made it i designed it that way for security reason and load balancing
+
+  so when ever i launch the client_node the Node_Manager asks for both (internal ip,wan ip)
+  and starts to manage the session encryption between every node (its dynamic for every node depends on the time/ip subnets)
+
+  so i can not launch the client_node more that one time on the same system because of the ip subnet and nodes mutex.
+
+  i ran it on a vps.
+  what i need is to make the windows act like if it has another Ethernet adapter with another ip to force the node to create
+  different mutex.
+
+  so here is what i have tried
+  - a vm system hosting windows server and i tried all types of ethernet config available
+  - external vpn which worked fine except the node asks for a local ip to connect back to.
+  - a loopback adapter
+  - a proxy hosted on another system except it asks for a local ip
+  - creating a system hook service and push back every packet to the buffer as a temp fix but it didn't work because of my in-app virtualization
+  - creating custom firewall routes using powershell
+
+  i suffered from that problem for weeks,
+  so any suggestions?
+
+  thanks!
+from:
+  name: Mostafa Mohamed
+  id: '10215212836343185'
+type: status
+created_time: '2016-10-05T14:59:07+0000'
+updated_time: '2016-10-12T12:28:42+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1250125231693849/
+id: '172338516139198_1250125231693849'
+comments:
+  data:
+  - created_time: '2016-10-05T16:41:48+0000'
+    from:
+      name: Khaled M. Diab
+      id: '10215626626127168'
+    message: If I understood this correct, did you try launching client node with
+      same ip but different port? Also, I think you can find some open source tools
+      and/or algorithms to manage such a distributed system...
+    id: '1250191425020563'
+  - created_time: '2016-10-05T17:27:59+0000'
+    from:
+      name: Mostafa Mohamed
+      id: '10215212836343185'
+    message: |-
+      first of all, thank you for your replay.
+      yes i tried different ports but the problem that the security node filters any other connection because of the ip address subnet check .... when i tried the vpn i configured portforword and also configured the main node to start on the vpn's subnet
+    id: '1250217621684610'
+  - created_time: '2016-10-05T18:08:32+0000'
+    from:
+      name: Mohamed Ahmed
+      id: '385696705226073'
+    message: Continuing on Khaled M. Diab answer cannot you filter based on socket
+      not ip then load balance the clients it seems just the matter of recognising
+      the port
+    id: '1250240478348991'
+  - created_time: '2016-10-05T18:13:06+0000'
+    from:
+      name: Khaled M. Diab
+      id: '10215626626127168'
+    message: |-
+      how did you implement the security node? or more specifically the encryption algorithm?
+      for example, tcp enables (de)multiplexing using (ip address,port) tuples.
+    id: '1250242965015409'
+  - created_time: '2016-10-12T12:28:13+0000'
+    from:
+      name: Mostafa Mohamed
+      id: '10215212836343185'
+    message: i have implemented a reverse vpn connection as a work around until i
+      find another way .... thanks all
+    id: '1255717024468003'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkxTURFNU1UUXlOVEF5TURVMk16b3hORGMxTmpnMU56QTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkxTlRjeE56QXlORFEyT0RBd016b3hORGMyTWpjMU1qa3oZD

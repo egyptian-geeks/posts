@@ -1,0 +1,133 @@
+---
+message: |-
+  نفس الموضوع ده حصل مع واحد من المشاريع المهمة اللي اشتغلت معاها قبل كدة
+  وفضلنا وقت طويل واقعين برضه
+  وبعيد عن الإجرائات  اللي ممكن اي فريق تطوير يتبعها عشان يمنع الأخطاء البشرية في حاجة حرجة زي مسح قاعدة بيانات شغالة لايف
+
+  أنا شايف ان لازم ال
+  DB Servers
+  تقدم دعم داخلي من عندها لمنع حاجة زي كدة
+  الموضوع حصل كتير جدا مع أكتر من شركة وتأثيره بيبقى كارثي
+
+  الحكاية كلها هنا
+link: https://about.gitlab.com/2017/02/01/gitlab-dot-com-database-incident/
+from:
+  name: Ahmed Mozaly
+  id: '10155321930231313'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQBxzezKxufFt4HG&w=130&h=130&url=https%3A%2F%2Fabout.gitlab.com%2Fimages%2Fblogimages%2Fgitlab-blog-cover.png&cfs=1&_nc_hash=AQC80DsbhusarZlZ
+created_time: '2017-02-02T08:04:21+0000'
+updated_time: '2017-02-02T21:39:10+0000'
+name: GitLab.com Database Incident
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1375940642445640/
+shares:
+  count: 10
+id: '172338516139198_1375940642445640'
+reactions:
+  data:
+  - id: '10211231687978651'
+    name: Mohamed A. Tolba
+    type: LIKE
+  - id: '1978556165731463'
+    name: Amr Almgwary
+    type: LIKE
+  - id: '10160003551740051'
+    name: Mohamed Tantawy
+    type: LIKE
+  - id: '10208837549014721'
+    name: Moustafa Mesbah
+    type: SAD
+  - id: '1577839592251566'
+    name: Marko Mohsen
+    type: LIKE
+  - id: '10213101784151931'
+    name: عبدالله محمد
+    type: LIKE
+  - id: '561489484214935'
+    name: Zanoon Shehata
+    type: LIKE
+  - id: '10214471954062071'
+    name: Mohammad Aboelnour
+    type: LIKE
+  - id: '2203311556562655'
+    name: Abdelrahman Omran
+    type: LIKE
+  - id: '10214861141222529'
+    name: Abdelrady Fcis
+    type: LIKE
+  - id: '10155802654056014'
+    name: Islam Azab
+    type: LIKE
+  - id: '10156020325916241'
+    name: Musa Hamza
+    type: LIKE
+  - id: '10213738834576763'
+    name: Amjad Mashaal
+    type: LIKE
+  - id: '1597077523722007'
+    name: أحمد محسن
+    type: LIKE
+  - id: '10155000180792102'
+    name: Amr Salah Eldin
+    type: LIKE
+  - id: '10212947071504226'
+    name: Eslam Hamouda
+    type: LIKE
+  - id: '1560359927364731'
+    name: Mahmoud Nawwar
+    type: LIKE
+  - id: '10156115350739764'
+    name: Mahmoud Tantawy
+    type: LIKE
+  - id: '10215523479504700'
+    name: Abdulaziz Alaa
+    type: LIKE
+  - id: '10159859491265721'
+    name: Nader Nabil
+    type: LIKE
+  - id: '10215795587468352'
+    name: George Kastour
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRVMU1qTTNPRE13TkRveE5EZAzJNVE0wTVRNMk9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRRd05ETTBOalk0T1RveE5EZAzJNREl6TXpZAeU9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2017-02-02T08:46:23+0000'
+    from:
+      name: Farah Abulkhair
+      id: '10155422803188506'
+    message: Ahmad Osama
+    id: '1375964989109872'
+  - created_time: '2017-02-02T08:58:27+0000'
+    from:
+      name: Ahmed Ali Salim
+      id: '10154903513366315'
+    message: Alaa Samy Sara Mostafa
+    id: '1375970735775964'
+  - created_time: '2017-02-02T21:39:08+0000'
+    from:
+      name: Sherif AbdelNabi
+      id: '10159880372930402'
+    message: Mohamed Tantawy Mohamed Mostafa
+    id: '1376659429040428'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0zTlRrMk5EazRPVEV3T1RnM01qb3hORGcyTURJMU1UZA3oZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0zTmpZAMU9UUXlPVEEwTURReU9Eb3hORGcyTURjeE5UUTQZD
+attachments:
+  data:
+  - description: Yesterday we had a serious incident with one of our databases. We
+      lost 6 hours of database data (issues, merge requests, users, comments, snippets,
+      etc.) for GitLab.com.
+    media:
+      image:
+        height: 720
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQD9xF4pki3RuFGe&w=720&h=720&url=https%3A%2F%2Fabout.gitlab.com%2Fimages%2Fblogimages%2Fgitlab-blog-cover.png&cfs=1&_nc_hash=AQDNw1n_CeuFIkuw
+        width: 720
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fabout.gitlab.com%2F2017%2F02%2F01%2Fgitlab-dot-com-database-incident%2F&h=ATMYHLYmkwSgVq4j52ff-cv8O5TnF0vpRlUoYXb7RuBTe53a_XhFkWMhJdywp_nNtDAYHbz_PDpocRDhl9uZG5D7wCuQtPCBIP30&s=1&enc=AZOPg6EYcL7yXZ3G0mYY6RgjMfqFE6bE589hLUP2ZRwu56LkHHfCUavCZbLkZF9OwEb3m3imZzZcICVbgr96deS6
+    title: GitLab.com Database Incident
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fabout.gitlab.com%2F2017%2F02%2F01%2Fgitlab-dot-com-database-incident%2F&h=ATMYHLYmkwSgVq4j52ff-cv8O5TnF0vpRlUoYXb7RuBTe53a_XhFkWMhJdywp_nNtDAYHbz_PDpocRDhl9uZG5D7wCuQtPCBIP30&s=1&enc=AZOPg6EYcL7yXZ3G0mYY6RgjMfqFE6bE589hLUP2ZRwu56LkHHfCUavCZbLkZF9OwEb3m3imZzZcICVbgr96deS6

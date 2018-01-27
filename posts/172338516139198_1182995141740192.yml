@@ -1,0 +1,38 @@
+---
+message: |-
+  السلام عليكم
+  هل يما اكون شغال EF ورافع الإستضافة بتاعى على Arvixe - وافوجىء اليوم بإن الداتا بيز حصل ليها SQL Injection ده معناه خطأ عندى انا والا المشكلة فى ضعف حماية الإستضافة ؟
+from:
+  name: Ahmed Amin
+  id: '1962172197389574'
+type: status
+created_time: '2016-07-16T09:23:01+0000'
+updated_time: '2016-07-17T13:22:01+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1182995141740192/
+id: '172338516139198_1182995141740192'
+comments:
+  data:
+  - created_time: '2016-07-16T09:31:04+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: على حسب. لو من الكنترول بانل يبقى من الاستضافة. لو من موقعك يبقى من عندك.
+    id: '1182998915073148'
+  - created_time: '2016-07-16T09:32:58+0000'
+    from:
+      name: Ahmed Amin
+      id: '1962172197389574'
+    message: طب واعرف ازاى ؟ الداتا بيز نفسها فيها حقول مضاف فيها HTML وهى مكانتش
+      كده وكل العمليات فى الموقع بتتم عن طريق EF وبدون اى باراميترات او جمل
+    id: '1182999421739764'
+  - created_time: '2016-07-16T13:30:47+0000'
+    from:
+      name: Taha Amin
+      id: '10155815529215590'
+    message: حط الموقع بتاعك على staging واديني ال URL هشغلك عليه security tool واقولك
+      المشكلة فين
+    id: '1183105111729195'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU0TWprNU9Ea3hOVEEzTXpFME9Eb3hORFk0TmpZAeE5EWTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU0TXpFd05URXhNVGN5T1RFNU5Ub3hORFk0TmpjMU9EUTMZD

@@ -1,0 +1,58 @@
+---
+message: "سؤال للناس الي فاهمين git core.\nدلوقتي كنت برفع فولدر حجمه 200 ميجا. \nكنت
+  شغال عالshell وعملت push. لقيت الshell فتح 4 threads بعد ما جمع عدد الfiles الي
+  هتترفع.\nتقسيمت الthreads ازاي وبانهي قانون حسبو عدد الthreads ؟؟"
+from:
+  name: Waleed Saleh
+  id: '10159944189340357'
+type: status
+created_time: '2017-02-27T15:32:03+0000'
+updated_time: '2017-02-28T18:54:14+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1403020756404295/
+id: '172338516139198_1403020756404295'
+reactions:
+  data:
+  - id: '984818838342838'
+    name: IbRahim Gouhar
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTBORFF4T1RNd09UazJPakUwT0RneU1UZA3pOVGM2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTBORFF4T1RNd09UazJPakUwT0RneU1UZA3pOVGM2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-02-27T15:33:45+0000'
+    from:
+      name: Mohamed Ahmed
+      id: '385696705226073'
+    message: على حسب ال thread المتوافرة عندك على الجهاز و هل النسخه 32/64
+    id: '1403025213070516'
+  - created_time: '2017-02-27T17:51:10+0000'
+    from:
+      name: Mahmoud Hossam
+      id: '1360912124012585'
+    message: Pushing large files to git repositories is bad, git wasn't designed for
+      file hosting.
+    id: '1403139553059082'
+  - created_time: '2017-02-28T00:55:25+0000'
+    from:
+      name: Geish
+      id: '10100126826302216'
+    message: Usually that's the number of threads is a simple function of the number
+      of CPU cores you have
+    id: '1403755959664108'
+  - created_time: '2017-02-28T18:54:10+0000'
+    from:
+      name: Mohammed Farghal
+      id: '10155396126947689'
+    message: "It's simply a configuration option in git. \nYou can simply change that
+      with\n\ngit config --global pack.threads \"2\"\nor by editing the configuration
+      file \".gitconfig\"\n\nAcoording to the implementation here\nhttps://github.com/git/git/blob/master/builtin/index-pack.c\n\nIf
+      the thread number is not specified, the default is min(n_CPUs,  3)\nAs they
+      claim that:\n\"An experiment showed that more threads does not mean faster\"
+      \ according to the  source code of git"
+    id: '1404675049572199'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF3TXpBeU5USXhNekEzTURVeE5qb3hORGc0TWpBNU5qSTEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF3TkRZAM05UQTBPVFUzTWpFNU9Ub3hORGc0TXpBNE1EVXgZD

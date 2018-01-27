@@ -1,0 +1,92 @@
+---
+message: |-
+  لو سمحتو اذا حدا عندو خبرة بالspeech recognition للعربي خاصة
+   مشكلتي باول خطوة اللي هي الfeatures extraction انا شفت اغلب الناس بيستعملو mfcc بس انا مو تخصصي الsignal processing فقلت لو بلاقي شي library للjava جاهزة مثلا . فلقيت انو اغلب الناس بيستعملو cmu sphinx  بس مالقيتو فيه شي للعربي ... في اي library ممكن تساعدني بهالموضوع ولا لازم اعمله implement بايدي؟
+from:
+  name: Rawan Lazkani
+  id: '1337805666323562'
+type: status
+created_time: '2017-01-28T23:16:28+0000'
+updated_time: '2017-02-01T12:47:48+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1370548569651514/
+id: '172338516139198_1370548569651514'
+reactions:
+  data:
+  - id: '2003551626552599'
+    name: MOhammed Salah
+    type: LIKE
+  - id: '2073453876272091'
+    name: Karim Tawfik
+    type: LIKE
+  - id: '2038408869766453'
+    name: Mahmoud Saad Abd-Elhares
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTJPVE16TkRJek5qZA3pPakUwT0RVMk5UazRNRFE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTNPVEl3TnprMU5Ua3hPakUwT0RVMk5EWTRPVFU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-01-28T23:41:51+0000'
+    from:
+      name: Emad Shaaban
+      id: '1483867968332898'
+    message: Mohamed Helmy
+    id: '1370559316317106'
+  - created_time: '2017-01-30T21:30:34+0000'
+    from:
+      name: سامح دعبس
+      id: '2022490591345439'
+    message: "سنة ٢٠٠٤ استخدمنا \nHmm toolkit\nو دي كانت \nC++\nهي فيها خواريزمات
+      التدريب و التعرف\nاحنا دربناها على كلام عربي بسهولة و اشتغلت معانا كويس جدا\nابتعدت
+      عن المجال من فترة طويلة فمش عارف الدنيا فيها إيه دلوقتي"
+    id: '1372687259437645'
+  - created_time: '2017-01-30T22:21:15+0000'
+    from:
+      name: Amr Medhat
+      id: '10155426916839779'
+    message: |-
+      I know people who used CMU Sphinx for Arabic successfully, do some research on Google scholar / citeseer and you'll find papers describing their work; for us we used HTK as Sameh said; and we're not that strong in signals; we just understood the main concepts and the library had done all the MFCC math for us
+
+      The most important thing is to understand the language itself and which features you decide to include; we studied an Arabic phonetics book for that
+    id: '1372752819431089'
+  - created_time: '2017-01-30T23:00:23+0000'
+    from:
+      name: Mustapha Hadid
+      id: '1981668691846791'
+    message: Please, next time when you ask a question in arabic, start with arabic
+      word, cause if you don't, the text gonna messed up like the image below. I can
+      help, but unfortunately, i can't understand the post
+    id: '1372815829424788'
+  - created_time: '2017-01-31T00:51:43+0000'
+    from:
+      name: Amr Almgwary
+      id: '1978556165731463'
+    message: |-
+      كنت عايز اعمل مشروع تخرجي كده بعد كل المحولات و المناقشات كان الحل اننا نعمله بايدنا
+      ممكن تجربي علي scale صغير لان حاجة زي كده محتاجة كمية داتا كبيرة
+      المهم اننا غيرنا المشروع اصلا  =D
+    id: '1372914032748301'
+  - created_time: '2017-01-31T00:52:53+0000'
+    from:
+      name: Amr Almgwary
+      id: '1978556165731463'
+    message: ممكن تكلمي بشمهندس محمد سمير او عمرو مجدي او دسوقي كلهم عندهم خلفية كويسة
+      عن الموضوع ده بالذات
+    id: '1372917799414591'
+  - created_time: '2017-01-31T08:10:27+0000'
+    from:
+      name: Ahmed Eid
+      id: '762135870664322'
+    message: Ibrahim Sobh
+    id: '1373269709379400'
+  - created_time: '2017-02-01T12:47:46+0000'
+    from:
+      name: Rawan Lazkani
+      id: '1337805666323562'
+    message: Es RAa
+    id: '1374911749215196'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0zTURVMU9UTXhOak14TnpFd05qb3hORGcxTmpRMk9URXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0zTkRreE1UYzBPVEl4TlRFNU5qb3hORGcxT1RVek1qWTMZD

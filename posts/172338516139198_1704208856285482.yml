@@ -1,0 +1,167 @@
+---
+message: |-
+  for a startup, what would be the best backend language to use, according to:
+  - availability of developers
+  - ability to scale to bigger projects later
+  - and cost of infrastructure ?
+from:
+  name: Eslam Shaker
+  id: '10214728774110070'
+type: status
+created_time: '2017-12-27T18:20:58+0000'
+updated_time: '2017-12-28T21:45:00+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1704208856285482/
+id: '172338516139198_1704208856285482'
+reactions:
+  data:
+  - id: '871016873079772'
+    name: Marwan Ahmed
+    type: LIKE
+  - id: '10213835707023058'
+    name: Abd Elrahman Mohamed
+    type: LIKE
+  - id: '1527143767392039'
+    name: Sam Nasser
+    type: LIKE
+  - id: '10156165643313420'
+    name: Tony Raoul Iscaros
+    type: LIKE
+  - id: '10211495185926361'
+    name: Mohamed Ahmed Zaki
+    type: LIKE
+  - id: '10159808340395307'
+    name: Abdulla A. Hammad
+    type: LIKE
+  - id: '1521365261264961'
+    name: Amr Mekky
+    type: LIKE
+  - id: '2042489695784265'
+    name: Ahmed Yahya
+    type: LIKE
+  - id: '948184145345262'
+    name: Mohamed Wagdy
+    type: LIKE
+  - id: '1517002418417251'
+    name: MoaMen El Sawy
+    type: LIKE
+  - id: '1523874464334515'
+    name: Mostafa Mohamed
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTFNVFEwTURJME5EWTRPakUxTVRRMU5qWTVOVEE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXhNelU1TWprMk9EVTVPakUxTVRRek9UazBOek02TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-12-27T18:21:42+0000'
+    from:
+      name: Kamal Saleh
+      id: '10212867095366994'
+    message: PHP
+    id: '1704220542950980'
+  - created_time: '2017-12-27T18:24:55+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: |-
+      The one the team is most familiar with, you care more about getting things done with decent quality and as fast as possible to get to market, a new unfamiliar language will always be uncomfortable which leads to mistakes and delays that can totally be avoided.
+      #my_2c
+    id: '1704222429617458'
+  - created_time: '2017-12-27T18:27:36+0000'
+    from:
+      name: Hisham Fangary
+      id: '10156660518155839'
+    message: |-
+      JavaScript and it's descents are pretty much the most popular developer wise. Node.js is a popular example.
+      But if you ask me, learning a language is not really time consuming if you understand  programming concepts and structure, switching languages should be easy. But frameworks take time. So focus on the best framework, not the language.
+    id: '1704223779617323'
+  - created_time: '2017-12-27T18:36:15+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: |-
+      Java "Spring"
+      - lots of developers "Jeez look how many android devs are there"
+      - Hard to screw up in design
+      - fast "near go and cpp"
+      - It's proven to scale given the software was designed well.
+      - You can use AWS Lambda if you really want to avoid infrastructure at all.
+      i'd say Scala but the availability of developer isn't there yet.
+    id: '1704228712950163'
+  - created_time: '2017-12-27T18:55:08+0000'
+    from:
+      name: Ahmed Agamy
+      id: '10215348668691955'
+    message: لارافيل وش قويه جدا وببلاش وناس كتير شاطره فيها وفعلا بتطلع شغل محترم
+      جدا
+    id: '1704241446282223'
+  - created_time: '2017-12-27T19:06:41+0000'
+    from:
+      name: Mohammed Abu-Dahsh
+      id: '1518983061552107'
+    message: "Python django\n-is a good choice in the context of scaling examples
+      [instagram, pintrest, mozilla, Disqus, ...] \n-very fast to ship your product.\n-python
+      developers are few in Egypt and they may cost you more.\n\npersonally i suggest
+      ruby on rails(ruby), django(python), laravel(php) frameworks  for a start up
+      for fast developing  or express(node.js) if you want to make Asynchronous app"
+    id: '1704248802948154'
+  - created_time: '2017-12-27T19:43:00+0000'
+    from:
+      name: Osama Yasser
+      id: '1141575932646478'
+    message: Laravel
+    id: '1704275379612163'
+  - created_time: '2017-12-27T20:11:01+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      While we do have a lot of PHP developers in Egypt, the majority of them use plain-old PHP with no framework (which is a terrible thing) or Wordpress (also terrible if your app doesn't fit the CMS style), and from what I've seen it's hard to find a good PHP developer who knows Laravel (or Symphony).
+      There are much fewer Python developers, but most of them know Django, and they're usually good with it.
+      There is also a significant amount of people who know Node.js.
+      So I would say go with either Django or Node.js.
+
+      My background: Our startup is abandoning the current Laravel backend and currently building v2 of the API with Django. It was significantly easier to find a good Django dev than a good Laravel dev.
+    id: '1704292256277142'
+  - created_time: '2017-12-27T21:02:01+0000'
+    from:
+      name: Sara Adel
+      id: '10155918812835729'
+    message: Noha Azab
+    id: '1704324699607231'
+  - created_time: '2017-12-27T21:13:44+0000'
+    from:
+      name: Yousef Mahmoud
+      id: '1818224478190849'
+    message: |-
+      In our region, from resources availability wise and cost .net, JavaScript, Java and php they're the most common languages.
+
+      Avoid Ruby, python, .node-js they're super great but you'll not find developers writing these languages easily and their salaries would be higher.
+
+      Regarding the scaling and the future and these cool ideas, you're building a new startup new idea, so choose the best tools to get an mvp as fast as possible.
+    id: '1704330656273302'
+  - created_time: '2017-12-27T22:07:14+0000'
+    from:
+      name: Tony Raoul Iscaros
+      id: '10156165643313420'
+    message: |-
+      +1 for starting with PHP(Laravel)
+      Actually try October cms , it's very modular and based on laravel , suitable for almost everything not only a cms.
+      It's from my personal opinion I only worked for 3 startups.
+    id: '1704361876270180'
+  - created_time: '2017-12-28T01:31:47+0000'
+    from:
+      name: Ahmed Saad ElMaghraby
+      id: '10160119042585037'
+    message: Abd Elrahman Mohamed
+    id: '1704472276259140'
+  - created_time: '2017-12-28T21:44:56+0000'
+    from:
+      name: Mohamed Radwan
+      id: '10159976552365192'
+    message: python flask
+    id: '1705234586182909'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN3TkRJeU1EVTBNamsxTURrNE1Eb3hOVEUwTXprNE9UQXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN3TlRJek5EVTROakU0TWprd09Ub3hOVEUwTkRrM05EazMZD

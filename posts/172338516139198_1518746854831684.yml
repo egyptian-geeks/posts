@@ -1,0 +1,98 @@
+---
+message: "سلام عليكم \nانا شغال علي android app لمشروع التخرج و عايز اعرف ازاي اربط
+  ما بين ال app و website ؟\nبحيث ان ال app ي retrieve و ي send الداتا من الويب \nيعني
+  لو شخص عملي registration علي ال App البيانات تتسجل في الdatabase الخاصة بالويب وهكذا
+  :) \nمع العلم ان مش انا اللي منفذ المشروع ويب"
+from:
+  name: Sami Hanna
+  id: '10210874756404518'
+type: status
+created_time: '2017-06-17T14:17:39+0000'
+updated_time: '2017-06-18T21:10:06+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1518746854831684/
+shares:
+  count: 2
+id: '172338516139198_1518746854831684'
+comments:
+  data:
+  - created_time: '2017-06-17T14:22:03+0000'
+    from:
+      name: Ahmed Salem
+      id: '2062584277359210'
+    message: "والله حرام \U0001F620 وانا مش هعمل اى api"
+    id: '1518749758164727'
+  - created_time: '2017-06-17T14:23:56+0000'
+    from:
+      name: Esso de Nasr
+      id: '402301146892668'
+    message: u will need to make an api to be consumed by the app to crud data to
+      the database .
+    id: '1518751968164506'
+  - created_time: '2017-06-17T14:24:41+0000'
+    from:
+      name: سامح الفرع
+      id: '10156160217764777'
+    message: https://www.youtube.com/playlist?list=PLshdtb5UWjSr1_Iv24CxErTF8N7UBaIP1
+    id: '1518752618164441'
+  - created_time: '2017-06-17T14:25:31+0000'
+    from:
+      name: سامح الفرع
+      id: '10156160217764777'
+    message: https://www.youtube.com/playlist?list=PLshdtb5UWjSppGmM3IdygV6RusjU3KjlZ
+    id: '1518753328164370'
+  - created_time: '2017-06-17T14:28:13+0000'
+    from:
+      name: Wafia Mustafa
+      id: '1611746292276841'
+    message: هتستخدم حاجة اسمها ويب سيرفيس بحيت ان الويب اب و الموبايل اب بيستخدموا
+      نفس الداتا بيز
+    id: '1518755458164157'
+  - created_time: '2017-06-17T14:29:20+0000'
+    from:
+      name: Sami Hanna
+      id: '10210874756404518'
+    message: "طيب هل بحتاج اعمل database Sql lite بالنسبة لل app ؟ \nولا مش محتاج
+      و هخلي ال app يشتغل علي database الويب ؟!"
+    id: '1518756338164069'
+  - created_time: '2017-06-17T14:33:19+0000'
+    from:
+      name: Bishoy Abd Lamey
+      id: '1809349152432380'
+    message: |-
+      بص يا معلم...هتحتاج واحد معاك شيتغل PHP...او اي ويب سيرفيس ال PHP بيبق معاها mysql
+      تقدر ت access الداتا دي عن طريق الموبيل او الموقع ..الموضوع سهل ..بس اهم حاجه تكون تعرف تتعامل مع ال JSON.او اي فورمات هتشتغل بيه...في كذا  third-party library  علشان تستغل نيتوركينج ف الاندرويد افضلهم retrofit2...ممكن تستخدم volley ...و دي عاملاها جوجل
+    id: '1518759958163707'
+  - created_time: '2017-06-17T18:59:27+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: |-
+      علشان تبسط الأمور على نفسك. إسترجع Client Server Model.
+      بالبلدي، إنت عندك قاعدة بيانات اللي بيحول البيانات دي لمعلومات هو التطبيق Application التطبيق ده ممكن يكون على أي منصة مثلا ويب (موقع يعني) ديسكتوب، موبايل، ويب تاني (موقع آخر) الخ.
+
+      عملي زي ما قالك Bishoy Abd Lamey بالضبط. وعملي كمان علشان نأمن قاعدة البيانات (يعني بيانات الدخول لها ما تتوزعش عند المستخدمين في التطبيقات بتاعتهم) بنعمل زي ما قال تطبيق ويب وسيط هياخد المطلوب منه يجيبه من قاعدة البيانات (سواء قراءة او كتابة او تعديل) ويرجعه للتطبيق الي طلبه.
+    id: '1518944251478611'
+  - created_time: '2017-06-17T19:01:10+0000'
+    from:
+      name: Sami Hanna
+      id: '10210874756404518'
+    message: تمام يا جماعة شكراً ليكم :)
+    id: '1518945028145200'
+  - created_time: '2017-06-17T20:24:58+0000'
+    from:
+      name: Moataz Hisham
+      id: '2013712018898567'
+    message: لو مش هتحتاج SQL ممكن تستخدم Firebase عشان تسهلك ال login/sign up & authentication
+      و ال realtime syncing مابين الموبيل و الويب clients،  بالنسبة للويب فا بتدعم
+      Nodejs بس هتلاقي PHP, Java & Python warpper SDKs علي github
+    id: '1519010868138616'
+  - created_time: '2017-06-18T21:10:03+0000'
+    from:
+      name: Ahmed Khaled
+      id: '1673431476060100'
+    message: لو مزنوقة في الوقت اعتقد Firebase هيكون حل مثالي جداً
+    id: '1520026638037039'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV4T0RjME9UYzFPREUyTkRjeU56b3hORGszTnpBNU16STAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV5TURBeU5qWXpPREF6TnpBek9Ub3hORGszT0RJd01qQXoZD

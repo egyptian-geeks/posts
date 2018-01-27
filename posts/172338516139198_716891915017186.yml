@@ -1,0 +1,12 @@
+---
+message: |-
+  A question for c# experts
+  I have always used static constructors to initiate class variables from configuration files, today I had to initialize some variable using a static constructor from an oracle database, it occurred to me that it might be a problem if the database is not available when these fields are initialized, since this program will be mostly unsupervised I need to make sure it will manage to initialize it's fields whenever the database becomes available, since static constructors only run once at an undetermined time, this doesn't happen, any ideas?
+from:
+  name: Kareem Kashwaa
+  id: '10155729844185546'
+type: status
+created_time: '2014-03-18T19:28:42+0000'
+updated_time: '2014-03-19T11:00:37+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/716891915017186/
+id: '172338516139198_716891915017186'

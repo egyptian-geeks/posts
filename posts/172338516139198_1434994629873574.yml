@@ -1,0 +1,152 @@
+---
+message: "سؤال لخبراء Angular 2:\n\nاحنا عندنا ابليكيشن Monolith مكتوبة .NET forms
+  بقلها ٤ سنين و بنحاول نطورها كل شوية و نجحنا الحمد لله نكتب REST API ممتاز و بنحاول
+  شوية شوية نخلي ال front end شغال Angular 2. اي تعديل بنعمله في اي صفحة بنكتبه Angular
+  2 component. \n\nالمشكالة دلوقتي ان احنا مش شغالين Single Page Application، ممكن
+  نفس الصفحة يكون فبها Bootstrapping multiple Angular 2 applications on the same page....
+  \ يعني مثلا فيها كذا drop down box و كل واحد application منفصل.\n\nعندي سؤالين:\n\n١
+  - هل الطريقة ديه صح ولا Agular شغال بطريقة يا كله يا مفيش؟ Single page applicaiton
+  is the only way to go?\n\n٢- فيه خطأ بيظهر لما بنضيف اكتر من ابليكيشن في الصفحة\n\n
+  Uncaught Error: Zone already loaded\n\nبالمناسبة احنا شغالين AOT.... ده مخلي الموضوع
+  اصعب في ايجاد حلول اونلاين"
+from:
+  name: Mohamed Salah
+  id: '10159893974840162'
+type: status
+created_time: '2017-03-28T06:52:44+0000'
+updated_time: '2017-03-29T09:54:06+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1434994629873574/
+shares:
+  count: 1
+id: '172338516139198_1434994629873574'
+reactions:
+  data:
+  - id: '1596110217148252'
+    name: Ahmed Badawy
+    type: LIKE
+  - id: '10157089340542166'
+    name: Tamer Metwalli
+    type: LIKE
+  - id: '1973924972623528'
+    name: Amr Elsayed
+    type: LIKE
+  - id: '10215352706918859'
+    name: Mohamed Ahmed Zidan
+    type: LIKE
+  - id: '10155226291481186'
+    name: أحمد محمود محمد عبدالوهاب
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlORGM0Tmpnd09EVTJPakUwT1RBM05UVTJOelE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TmpVNE5USXhNVGcxT2pFME9UQTJPRFV4T0RrNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-03-28T07:03:13+0000'
+    from:
+      name: Shireef Adel
+      id: '10160087308580372'
+    message: Mohamed Ibrahim Nassef
+    id: '1435002906539413'
+  - created_time: '2017-03-28T07:06:05+0000'
+    from:
+      name: Ahmed Abdo
+      id: '10155432639833282'
+    message: على حد علمي الصفحه الواحده لازم app واحد بس
+    id: '1435006299872407'
+  - created_time: '2017-03-28T07:27:27+0000'
+    from:
+      name: Ahmed Eldosoukey
+      id: '10155780527142535'
+    message: "هو انا مش فاهم اوي ليه كل dropdown box عايزه application منفصل بس انا
+      هنصحك نصيحة عامة حاول تطبقها وانت بت migrate لاي modern UI Framework \n\nال
+      server side بيقدم مجموعة من ال apis زي مانت بتعمل ودي وجهة نظر سليمة، بس ده
+      مش معناه ان اللي ي design ال server او بالمصطلح الادق ال backend بتاعتك هو ال
+      front end developer!\n\nبمعنى، ال backend بيقدم مجموعة APIs تستغل ف كل صفحة
+      من صفحات ال fronted اللي المفروض ميبقاش الكود بتاعها مكتوب ف نفس backend context\n\nمتقلبش
+      الكود بتاعك من multipage design معنول ب .net tools لنفس ال multipage design
+      بس معمول ب angular و .net tools برضه، هتبقى كلكعت الدنيا معاك وخلاص\n\nانقل
+      ال backend بتاعتك لمجموعة apis معمولة ب MVC APIs مثلا، وانقل ال frontend ل components
+      بتتنده من single page application هتلاقي المشاكل اللي بتقابلك دي بتختفي لوحدها"
+    id: '1435020373204333'
+  - created_time: '2017-03-28T07:40:48+0000'
+    from:
+      name: Met Wally
+      id: '520998054938412'
+    message: بدل ما يبقى كل حاجة فى Application منفصل، ممكن تخليها فى Module منفصل.
+      وتعملها Load فى Application واحد.
+    id: '1435029279870109'
+  - created_time: '2017-03-28T08:16:47+0000'
+    from:
+      name: Mohamed Ahmed Zidan
+      id: '10215352706918859'
+    message: ''
+    id: '1435047386534965'
+  - created_time: '2017-03-28T08:30:26+0000'
+    from:
+      name: Naggar
+      id: '2069499223273223'
+    message: Hammad ^
+    id: '1435056316534072'
+  - created_time: '2017-03-28T09:40:29+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      الكلام ده كان يمشي Angular 1 وعملت كذا حاجة شبهه أيامها، لكن Angular 2 and above زي ما بقول دائما بتحب تبقى في ال driver seat. مش هتبقى انسب حاجة للموضوع ده.
+
+      ممكن تشوف react ممكن تكون انسب لل  use case دي
+    id: '1435097779863259'
+  - created_time: '2017-03-28T09:49:52+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      بس في كل الاحوال مش هتبقى عايز كذا applicationفي الصفحة الواحدة. ممكن كذا module او component كلهم شغالين جوا application واحد.
+
+      انا لما كنت باعمل الحركة دي ايام Angular 1كنت  باخلي كل server side pageعبارة عن Angular module، وكان ليه طبعا child modules، وكان بينده على shared module طبعا للحاجات المشتركة
+    id: '1435103383196032'
+  - created_time: '2017-03-29T01:17:10+0000'
+    from:
+      name: Mohamed Shaaban
+      id: '10156259295924301'
+    message: "عندنا في الشركة مثلا حلينا مشكلة زي دي بفكرة ال \nFragments\nكل حاجة
+      سليمة بس لوحدها، ومستقلة بذاتها، ليها ال repo بتاعها وال deployment بتاعها والقصص
+      دي\nوفيه حاجة كدة بت compose الصفحة من كذا fragment\nوفيه تفاصيل كتيرة اوي صعب
+      تتشرح في comment\n\nUsing react by the way"
+    id: '1435750973131273'
+  - created_time: '2017-03-29T02:12:06+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: موضوع كذا repo انا وكذا حد جربناه في كذا حاجة واتفقنا انه تطليع عين جامد
+      ولا يمكن نعمله if we get to make The choice
+    id: '1435781933128177'
+  - created_time: '2017-03-29T06:41:49+0000'
+    from:
+      name: Hossam A. Mourad
+      id: '1935058943189364'
+    message: |-
+      You will have performance issues soon using multiple Angular 2 apps in the same page.
+
+      I recommend using React or VueJS for your case.
+    id: '1435928186446885'
+  - created_time: '2017-03-29T08:36:12+0000'
+    from:
+      name: Mohamed Salah
+      id: '10159893974840162'
+    message: |-
+      شكرا يا شباب علي النصائح، واضح انكم مجربين الموضوع و عندكم خبرة فيه.
+
+      اعتقد ان Angular لو مش SPA يبقي ملوش لازمة اساسا
+    id: '1435983679774669'
+  - created_time: '2017-03-29T09:54:03+0000'
+    from:
+      name: Ibrahem A'mer
+      id: '10211047029111252'
+    message: Hesham Abd El-Latif Ahmed El-Bana
+    id: '1436025813103789'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF6TlRBd01qa3dOalV6T1RReE16b3hORGt3TmpnME5Ua3oZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF6TmpBeU5UZA3hNekV3TXpjNE9Ub3hORGt3TnpneE1qUXoZD

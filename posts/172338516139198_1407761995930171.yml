@@ -1,0 +1,89 @@
+---
+message: |-
+  Hello Fellow Geeks,
+
+  Guys I have a website hosted on VPS Server , I have this creepy situation , where whenever I access the signup process from my laptop or whenever I give the URL to any one , they can create a account normally , but my client is trying to let his "real client" to create an account and in the second step , when they press save and continue a json response appear to them with success (ajax request is not working with them)and there is an ajax request in step 2 of the signup process because it contains file upload and it's working because the request is success, but all the people i send them the link , everything went very smoothly with them , What am I missing because this is driving me crazy and the client is really pissed of :(
+from:
+  name: Mahmoud El Kotoury
+  id: '10159892786570537'
+type: status
+created_time: '2017-03-03T17:41:37+0000'
+updated_time: '2017-03-04T20:39:52+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1407761995930171/
+id: '172338516139198_1407761995930171'
+comments:
+  data:
+  - created_time: '2017-03-03T18:01:57+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "على فكرة مش لازم تكتب انجليزي! وكلامك مش واضح اوي \nدلوقتي اللي فهمته
+      ان ال json response بيطلعلهم ع الصفحة صح كدة؟"
+    id: '1407777309261973'
+  - created_time: '2017-03-03T18:40:02+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: الي انت بتحكيه ده كلاسيك كيس incompatibility .. اتاكد ان البرزدوزر بتاعك
+      نفس نوع البروزر بتاعه.. سفاري مثلا فيه حجات بتدي رن تيم ارور عليه بس شغاله عادي
+      علي كروم.. اتاكد من الكود بتاعك كروس بلاتفورم و تست علي كزا بروزر
+    id: '1407820285924342'
+  - created_time: '2017-03-03T18:40:50+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: اهم من كده خد هيستوري كويس للبج ، مفيش حاجه اسمها مش شغال.. اعرف التفاصيل
+      بتاعت يعني ايه مش شغال
+    id: '1407820829257621'
+  - created_time: '2017-03-03T18:42:51+0000'
+    from:
+      name: Mahmoud El Kotoury
+      id: '10159892786570537'
+    message: المشكلة انى مليش access  على الناس دى مليش انى اتكلم معاهم بس الموضوع
+      اتجرب من chrome  بردو , زيى و عمل مشكلة على الرغم انه عندى شغال على chrome and
+      firefox  عادى
+    id: '1407821955924175'
+  - created_time: '2017-03-03T18:43:51+0000'
+    from:
+      name: Mahmoud El Kotoury
+      id: '10159892786570537'
+    message: و ناس تانية برده اشتغلت عندهم عادى عشان كده مش فاهم
+    id: '1407822462590791'
+  - created_time: '2017-03-03T18:46:32+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: ده كده عفريت :D في human factor فل موضوع :D
+    id: '1407824495923921'
+  - created_time: '2017-03-03T18:48:00+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: مفيش حاجه اسمها بيشتغل سعات و سعات :D اينشتين قال من الغباء اعاده نفس
+      التجربه و توقع نتيجه مختلفه.. انت بتقول ان كل الفاريبلز سابته و مع زالك سعات
+      بيشتغل و سعات لا.. و الكلام ده مش صح.. راجع نفسك
+    id: '1407825292590508'
+  - created_time: '2017-03-03T18:49:39+0000'
+    from:
+      name: Mahmoud El Kotoury
+      id: '10159892786570537'
+    message: انا مقتنع بكلامك والله لكن للاسف الكلاينت شايف انى الموضوع مش شغال
+    id: '1407828839256820'
+  - created_time: '2017-03-03T19:00:15+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: اقفش عليه، خليه يديك ديتيل ايشو ريبورت، او ادخل عليه بريموت دسكتوب و
+      افتح الديبج كونسول
+    id: '1407845049255199'
+  - created_time: '2017-03-03T23:22:25+0000'
+    from:
+      name: Mohamed Makeen
+      id: '10156031350846054'
+    message: اعتقد ان ممكن ده يكون بسبب js Lib  موجوده علي CDN والنتورك عندهم منعه
+      CDN مثلا . لو ينفع تحط الرابط بتاع الموقع يكوت افضل
+    id: '1408112622561775'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF3TnpjM056TXdPVEkyTVRrM016b3hORGc0TlRZAME1URTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF3T0RFeE1qWXlNalUyTVRjM05Ub3hORGc0TlRnek16UTEZD

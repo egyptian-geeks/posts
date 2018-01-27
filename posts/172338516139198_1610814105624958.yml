@@ -1,0 +1,124 @@
+---
+message: I have a problem that has been bothering me for so so long... I have both
+  linux and windows on my hard drive.. every time I boot either of them I need to
+  fix disk errors that I have no idea where they came from (on the ntfs or the ext4
+  depends on what os I'm trying to boot or even both) and sometimes I have to fix
+  them more than once.. I've tried to use e2fsck from a usb stick and the problem
+  did go away, but just for a day maybe two.. lately I formatted the disk containing
+  windows and same thing... it's still there... this is so annoying as elementary
+  os sometimes just goes read-only while I'm coding or doing something important or
+  even not doing anything at all without anything running... and it wasn't just elementary
+  I had it on every other distribution I've used (ubuntu, mint, just browsing)...
+  I thought it was the dual boot as windows works fine if I don't have linux installed..
+  I don't know about linux without windows I just formatted the disk and it was a
+  quick format so that's not a clean linux install I guess... but anyways right now
+  I think that it has something to do with shutting down.. I don't know why... it
+  might be a bash script or something or even nothing to do with linux and it's just
+  the dual boot... I don't know.. please help !!
+from:
+  name: Ziad Alzarka
+  id: '479718029096439'
+type: status
+created_time: '2017-09-18T22:32:01+0000'
+updated_time: '2017-09-20T10:55:38+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1610814105624958/
+id: '172338516139198_1610814105624958'
+reactions:
+  data:
+  - id: '1578484165584322'
+    name: Ahmed Bahgat
+    type: SAD
+  paging:
+    cursors:
+      before: TVRBd01EQXlOamd5TmpFMU56TXpPakUxTURVM056UXhNRGM2TnpnNE5qUTRNRE0zT1RFek16RXkZD
+      after: TVRBd01EQXlOamd5TmpFMU56TXpPakUxTURVM056UXhNRGM2TnpnNE5qUTRNRE0zT1RFek16RXkZD
+comments:
+  data:
+  - created_time: '2017-09-18T22:35:52+0000'
+    from:
+      name: Ziad Alzarka
+      id: '479718029096439'
+    message: before I thought it was the dual boot.. I thought it was the power cycle...
+      elementary os always goes read-only and disk errors happen when my laptop goes
+      unplugged or the opposite..
+    id: '1610816645624704'
+  - created_time: '2017-09-18T22:36:14+0000'
+    from:
+      name: Ziad Alzarka
+      id: '479718029096439'
+    message: but sometimes it doesn't
+    id: '1610816798958022'
+  - created_time: '2017-09-18T22:36:26+0000'
+    from:
+      name: Mariam Maarouf
+      id: '10155779091916638'
+    message: Make sure you're performing a complete/"hard" shutdown. If you have Win
+      8 or newer the default is the opposite and you have to change it.
+    id: '1610816985624670'
+  - created_time: '2017-09-18T22:42:00+0000'
+    from:
+      name: Abdelrahman Hassan
+      id: '2022833371324486'
+    message: turn off  fast booting  (windows 8 , 10
+    id: '1610819308957771'
+  - created_time: '2017-09-18T22:54:25+0000'
+    from:
+      name: Ahmed Nagy
+      id: '10213805407262542'
+    message: Maybe you could check some system logs ..
+    id: '1610824755623893'
+  - created_time: '2017-09-18T23:15:02+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: |-
+      So you still have the issue with / mounted partition (ext4) after removing windows?
+
+      You may check your HDD health, it may have media errors that drops some data in the filesystem area causing the issue every time.
+
+      Have you experienced severe data loss or just the filesystem integrity errors and repairs?
+    id: '1610834432289592'
+  - created_time: '2017-09-18T23:36:50+0000'
+    from:
+      name: Ahmed Ezzat Salama
+      id: '1676108972474712'
+    message: When you shutdown windows it saves files so that it can boot faster ,
+      so search about turning off fast boot from windows settings and your problem
+      will be solved isa , that's why if you didn't shutdown windows but restarted
+      it then boot into Linux u find it works fine
+    id: '1610845305621838'
+  - created_time: '2017-09-19T00:28:17+0000'
+    from:
+      name: Ahmed Sabry
+      id: '1847421335299420'
+    message: "انا واجهتني المشكلة اللي الناس قالتلك عليها في الكومنات معرفش اذا كانت
+      هيا نفسها عندك ولا ﻷ، وهيا قدامك حاجتين لما تحب تفتح لينكس لأما تعمل ريبوت من
+      الويندوز مش power off وبعدين تدخل على اللينكس ﻷما توقف وضع ال hibernation في
+      الويندوز عن طريق\npowercfg.exe /hibernate off\n\n*مﻻحظة: لو قفلت الويندوز وال
+      hibernate متفعل وحذفت الويندوز وجيت تخش م اللينكس هتظل المشكلة قائمة\n----\nكانت
+      عندي مشكلة غريبة من زمان بس مظنش ليها عﻻقة اوي، ان الهارد كان بيقرا mbr و gpt
+      في نفس الوقت، ادخل ع الويندوز يقرالي البارتيشنز بتاع ال mbr ادخل ع اللينكس يقرا
+      gpt مش عارف ازاي \U0001F602 ريحت دماغي ونسخت الداتا وفرمته وقسمت من جديد"
+    id: '1610876202285415'
+  - created_time: '2017-09-19T06:29:37+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: من وجهة نظري المتواضعة، ال dual boot من على هارد واحد، مشروع فاشل. حاجة
+      فانتازيا ما تنفعش يعتمد عليها في شغل هام وضروري. عاوز نظامين تشغيل يبقى تشتري
+      هارد او ديسك جديد يبقى مخصوص للنظام.
+    id: '1611045785601790'
+  - created_time: '2017-09-20T10:55:35+0000'
+    from:
+      name: Yehia Gamal
+      id: '1978867902375743'
+    message: "انا كان عندي مشكلة انه مش قادر احط اي ملفات او اعدل على اي داتا موجودة
+      على البارتشن الNFTS\nبعدين عرفت انه ده بيحصل معايا لانه ويندوز10، فيه fastboot
+      مش بيقفل الويندوز، فانا لما بشغل لينكس، مش هقدر اعدل على اي بارتشن معموله mount
+      مع ويندوز، قفلت الـfastboot واشتغل تمام\n-\nوبعدين مسحت ويندوز خالص :D \nالأفضل
+      تخلي لينكس بس، وتنزل ويندز على Virtual box"
+    id: '1612060925500276'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl4TURneE5qWTBOVFl5TkRjd05Eb3hOVEExTnpjME1UVXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl4TWpBMk1Ea3lOVFV3TURJM05qb3hOVEExT1RBME9UTTIZD

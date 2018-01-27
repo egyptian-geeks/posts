@@ -1,0 +1,97 @@
+---
+message: "A series of conversations between 3 geeks: Kent Beck, David Heinemeier Hansson,
+  and Martin Fowler on the topic of Test-Driven Development (TDD) and its impact upon
+  software design.\n\nMUST READ if you are interrested in TDD. The nice in these conversations
+  is that it shows different perspectives of TDD; it has drawbacks, and it doesn't
+  fit for all situations.\n\nEnjooy ;) \n"
+link: http://martinfowler.com/articles/is-tdd-dead/
+from:
+  name: سامح دعبس
+  id: '2022490591345439'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQDvrSSd17yRhEZ3&w=130&h=130&url=http%3A%2F%2Fmartinfowler.com%2Fmf.jpg&cfs=1&sx=0&sy=0&sw=349&sh=349&_nc_hash=AQC4n1R6PEtktySq
+created_time: '2016-08-16T19:03:58+0000'
+updated_time: '2016-08-16T21:05:18+0000'
+name: Is TDD Dead
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1206058442767195/
+id: '172338516139198_1206058442767195'
+reactions:
+  data:
+  - id: '2004705666469226'
+    name: Ahmed Essam
+    type: LIKE
+  - id: '10155815529215590'
+    name: Taha Amin
+    type: LIKE
+  - id: '10159951096645711'
+    name: Mohamed Selim
+    type: LIKE
+  - id: '1666406580084320'
+    name: Abdulrahman Mohamed
+    type: LIKE
+  - id: '1772542006152666'
+    name: Mohamed AbuIssa
+    type: LIKE
+  - id: '547020688991281'
+    name: Muhammad Kamal
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTNPRGswTXpZAd05ETXdPakUwTnpFMU1USXlOVFU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01ERXdOVEF3TmpRME9UYzFPakUwTnpFek56UTRNemM2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-08-16T19:04:40+0000'
+    from:
+      name: سامح دعبس
+      id: '2022490591345439'
+    message: |-
+      Mohamed Selim Ahmed Ebied أبو زياد
+      هاتعجبكم :)
+    id: '1206058846100488'
+  - created_time: '2016-08-16T20:35:11+0000'
+    from:
+      name: Abdulrahman Mohamed
+      id: '1666406580084320'
+    message: ممكن تدينا ملخص صغير عن المحتوى بتاع الكلام وايه وجهة النظر التانية :)
+    id: '1206109309428775'
+  - created_time: '2016-08-16T21:01:24+0000'
+    from:
+      name: سامح دعبس
+      id: '2022490591345439'
+    message: |-
+      خلينا نقول مين هما اللي بيتناقشوا أصلا:
+      ديفيد: اللي عامل rails framework
+      مارتن: البرنس ف نفسه اللي عامل كتب زي refactoringو enterprise architecture patterns..إلخ
+      كنت: البرنس ف نفسه برضو اللي عامل XP, JUnit, TDD,...إلخ
+      --------
+      خلاصة الحوار:
+      - الunit testing حلوة مفيش كلام
+      - ال test first/TDD حلوة برضو, بس مش لكل الحالات [ديفيد بيقول إن معظم الحالات مش محتاجها, و مارتن و كنت بيقولوا العكس]
+      - مش لازم تكتب unit tests في الأول لكل حاجة, و مش لازم تكبها في الآخر لكل حاجة, و  فيه أحيان ممكن ما تكتبهاش خالص.. أنت تحدد حسب احتياجاتك
+      - الTDD ليها عيوب برضو, و الدنيا مش وردي زي ما بعض الناس بتقول, من العيوب دي :
+      1- إنك تلاقي نفسك بتكتب unit tests بزيادة عن اللزوم
+      2- إن ممكن تدمر الdesign بتاعك و تخليه over engineered بكثرة الاعتماد على الmocks و إضافة الكثير من الindirections
+      طبعا العيوب دي بتظهر مع قلة الخبرة, سواء في البرمجة أو في استخدام الTDD
+      ---------
+      الظريف في الموضوع: إن ديفيد عنده 36 سنة, و مارتن و كنت أكبر منه بكتير و مع ذلك ما استكبروش يتناقشوا معاه عشان يتبادلوا وجهات النظر مش عشان يتناظروا!
+    id: '1206123769427329'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl3TmpBMU9EZAzBOakV3TURRNE9Eb3hORGN4TXpjME1qZA3gZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl3TmpFeU16YzJPVFF5TnpNeU9Ub3hORGN4TXpneE1qZAzEZD
+attachments:
+  data:
+  - description: A series of conversations between Kent Beck, David Heinemeier Hansson,
+      and Martin Fowler. We discuss Test-Driven Development (TDD) and its impact upon
+      software design.
+    media:
+      image:
+        height: 349
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQCU_THoBW1EPhEA&w=349&h=349&url=http%3A%2F%2Fmartinfowler.com%2Fmf.jpg&cfs=1&sx=0&sy=0&sw=349&sh=349&_nc_hash=AQD-2ktT-5VrD9WL
+        width: 349
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fmartinfowler.com%2Farticles%2Fis-tdd-dead%2F&h=ATNbEcaQgXILAH8y1fKVO4rdTCLgoeN9eLADGDZcpNwqZUvKVOHY6loy7H2dBOXKDsGdFrvGSit4x-qAe3iir27IfF6Sx9FerJrg&s=1&enc=AZOUpagVexHk3LzLKjs8LABcZPqyjgX3Ys7qFqtW4EazUPV3PiVnHMHjLx6rM_KCOhswPTej9Je6Fi5rRaEsGVad
+    title: Is TDD Dead
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fmartinfowler.com%2Farticles%2Fis-tdd-dead%2F&h=ATNbEcaQgXILAH8y1fKVO4rdTCLgoeN9eLADGDZcpNwqZUvKVOHY6loy7H2dBOXKDsGdFrvGSit4x-qAe3iir27IfF6Sx9FerJrg&s=1&enc=AZOUpagVexHk3LzLKjs8LABcZPqyjgX3Ys7qFqtW4EazUPV3PiVnHMHjLx6rM_KCOhswPTej9Je6Fi5rRaEsGVad

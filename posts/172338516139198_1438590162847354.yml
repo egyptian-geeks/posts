@@ -1,0 +1,95 @@
+---
+message: |-
+  I need to develop a mobile App (Android and IOS), and most of its functionality are based on Database-based operation (That will be easily handled by Web APIs), and in addition to that it needs to work with the mobile location services, and to show notification to user.
+
+  I am highly considering Cordova for such Apps, especially that this App will be a copy of an existing website with the same features.
+
+  I want to ask developers who worked with cordova enough, may i expecting some problems with Cordova with such app, that make it better to implement it as a native app?
+
+  And is there any way for showing notifications on the app (that not requiring the app to be running to show notifications of course), without using Push notifications? And will it work normally on both Android and IOS?
+  If not, does push notifications working well with Cordova on both Android and IOS?
+
+  Thanks in advance :)
+from:
+  name: Hany Saad
+  id: '10155270396306616'
+type: status
+created_time: '2017-03-31T22:58:17+0000'
+updated_time: '2017-04-01T16:10:46+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1438590162847354/
+shares:
+  count: 1
+id: '172338516139198_1438590162847354'
+reactions:
+  data:
+  - id: '824879627696965'
+    name: Fatima Asamee
+    type: LIKE
+  - id: '1526934324093163'
+    name: Mohamed Hosny
+    type: LIKE
+  - id: '10208596993002679'
+    name: Mostafa Alaa
+    type: LIKE
+  - id: '10154997886266020'
+    name: Ahmed Elgafary
+    type: LOVE
+  paging:
+    cursors:
+      before: TVRBd01EQTFNalE0TURVNU5qZAzJPakUwT1RFd05qYzBOVGM2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TmpRME5UWXhNREU1T2pFME9URXdNRFF4TWpjNk56ZAzROalE0TURNM09URXpNekV5
+comments:
+  data:
+  - created_time: '2017-03-31T23:10:49+0000'
+    from:
+      name: Mahmoud EL Degwey
+      id: '1584659024902777'
+    message: انت بتشتغل علي ايه ionic 2 ولا ايه ؟
+    id: '1438597042846666'
+  - created_time: '2017-03-31T23:41:38+0000'
+    from:
+      name: Shady Yehia Selim
+      id: '1588317064586897'
+    message: |-
+      Performance needed to be tested, Cordova is famous for performance issues
+      It is more advised to use either native or PWA application, or at least one of the latest cross like ionic2, native script2, or react native
+    id: '1438618376177866'
+  - created_time: '2017-03-31T23:50:55+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: We have almost the same solution built for employee tracking wuth cordova
+      and it works good, btw either u built it native or cross u will need push notificatio
+      s
+    id: '1438624129510624'
+  - created_time: '2017-03-31T23:58:13+0000'
+    from:
+      name: Shady Yehia Selim
+      id: '1588317064586897'
+    message: If you don't want to use push notification, you can use observator pattern
+      or 2 way binding, but it will only work when your app is in the foreground
+    id: '1438628396176864'
+  - created_time: '2017-04-01T00:06:46+0000'
+    from:
+      name: Hany Saad
+      id: '10155270396306616'
+    message: "What about Xamarin? \nDid anyone worked with notification on it?"
+    id: '1438633882842982'
+  - created_time: '2017-04-01T05:53:42+0000'
+    from:
+      name: Ahmed Mazen
+      id: '10155052196530843'
+    message: Ibrahim Madbouly
+    id: '1438914306148273'
+  - created_time: '2017-04-01T16:10:44+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: As long as u dont need animations  cordova will be fine. As for push
+      notifications u will fined lots of plugins for cordova include geofencing and
+      location based
+    id: '1439392236100480'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF6T0RVNU56QTBNamcwTmpZAMk5qb3hORGt4TURBeE9EVXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF6T1RNNU1qSXpOakV3TURRNE1Eb3hORGt4TURZAek1EUTAZD

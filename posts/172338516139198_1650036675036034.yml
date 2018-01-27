@@ -1,0 +1,46 @@
+---
+message: "any recommendations for a free antivirus or antimalware for  personal usage
+  !!\ncause microsoft defender \U0001F44E\np.s: can't afford buying one :)"
+from:
+  name: Mostafa Abobakr
+  id: '2025844137456286'
+type: status
+created_time: '2017-11-02T00:59:30+0000'
+updated_time: '2017-11-02T19:11:19+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1650036675036034/
+id: '172338516139198_1650036675036034'
+comments:
+  data:
+  - created_time: '2017-11-02T01:00:18+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: What's wrong with Defender?
+    id: '1650074655032236'
+  - created_time: '2017-11-02T04:35:42+0000'
+    from:
+      name: Tarek Dawoud
+      id: '10156109957694861'
+    message: |-
+      It depends on what you're trying to protect yourself from. Windows 10 Defender is the best classic anti-virus out there right now. The industry reviews may not have caught up, but McAfee and Norton and all that stuff that's paid is barely as good as it is, and it's free, let alone the free stuff.
+
+      But anti-viruses that work on signatures are only good for protecting you from known attacks. Windows Defender also has smart links where they try to lookup if a link you clicked on belongs to a known bad site and block it before your browser launches it.
+
+      Still, this is known bad stuff. If there's a zero-day vulnerability spreading in the world, they will not save you from it.
+
+      If you're security conscious, you should look into enabling Windows Device Guard and Windows Credential Guard, I think Device Guard is harder in Egypt. These solve fundamental problems in OS security so that the next time a process succeeds in elevating privilege (because of a zero day exploit), it cannot take over your entire machine and wipe or encrypt all system files.
+
+      https://docs.microsoft.com/en-us/windows/access-protection/credential-guard/credential-guard-manage
+
+      https://docs.microsoft.com/en-us/windows/device-security/device-guard/device-guard-deployment-guide
+    id: '1650203611686007'
+  - created_time: '2017-11-02T04:48:30+0000'
+    from:
+      name: Mahmoud Amin
+      id: '939098632915712'
+    message: جرب كدهbit defender
+    id: '1650209638352071'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkxTURBM05EWTFOVEF6TWpJek5qb3hOVEE1TlRnME5ERTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkxTURJd09UWXpPRE0xTWpBM01Ub3hOVEE1TlRrNE1URXcZD

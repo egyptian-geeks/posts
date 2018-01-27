@@ -1,0 +1,64 @@
+---
+message: "Any ruby experts here that can answer that question:\n\n"
+link: http://stackoverflow.com/questions/35859239/calling-js-function-from-erb-file
+from:
+  name: Mohamed Moshrif
+  id: '1538447102877297'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQBBxyEJXpSqBr8p&w=130&h=130&url=http%3A%2F%2Fcdn.sstatic.net%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded%26a&cfs=1&_nc_hash=AQA5Q7_FL6tqp531
+created_time: '2016-03-08T05:01:05+0000'
+updated_time: '2016-03-08T09:22:35+0000'
+name: Calling js function from erb file
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1093398527366521/
+id: '172338516139198_1093398527366521'
+comments:
+  data:
+  - created_time: '2016-03-08T06:57:33+0000'
+    from:
+      name: Nabil Naeem
+      id: '10160293040350157'
+    message: |-
+      I think that calling a script file from an element is not really a best practice.
+      You should "only" include the javascript before/after the DOM is loaded.
+      But you may try a jquery binding on page load.
+      Or is there any special reason behind your approach?
+    id: '1093433704029670'
+  - created_time: '2016-03-08T08:01:49+0000'
+    from:
+      name: Ahmed El Gabri
+      id: '10159938698425582'
+    message: "To make it work you need to replace the <script> tag with a <span on<event>=\"foo();\">
+      foo</span>. \n\nThat being said, inline scripts & putting everything in the
+      global scope like this, is very bad & will cause lots of issue performance wise
+      and maintainability wise. \n\nYou should have this function called by an external
+      script. \n\nLike this. <span class=\"js-foo\"> foo</span> & then in your JS
+      file you should attach the event on the element with class \"js-foo\"."
+    id: '1093450000694707'
+  - created_time: '2016-03-08T09:20:36+0000'
+    from:
+      name: Hosam Aly
+      id: '1657509230977456'
+    message: |-
+      I think you want to call your JS function when the user chooses that option. If that's the case then use Ahmed El Gabri's suggestion.
+
+      But I don't think your HTML structure is correct. It looks like you want either a <select> with <option> tags or <a> tags on these options.
+    id: '1093472064025834'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE1TXpRek16Y3dOREF5T1RZAM01Eb3hORFUzTkRJd01qVTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE1TXpRM01qQTJOREF5TlRnek5Eb3hORFUzTkRJNE9ETTIZD
+attachments:
+  data:
+  - description: 'I have an erb file that is creating a table. Something like this:
+      <td>Option 1</td> <td>Option 2</td> I have a javascript function called Foo()
+      placed inside the applicat...'
+    media:
+      image:
+        height: 316
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQB5vW2ybah25rk5&w=720&h=720&url=http%3A%2F%2Fcdn.sstatic.net%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded%26a&cfs=1&_nc_hash=AQDX5paqA33iQdyD
+        width: 316
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F35859239%2Fcalling-js-function-from-erb-file&h=ATOg2gXzB0eauFZwR1uHp0jBZ6TG0LJPB2BGN7gpZJXYPrZBOxvaP2y36UUV4QgeBXJobmGdPIW3bfpecU4jS1uRZGtlYs5IUz_v&s=1&enc=AZOyCVcec0gYHtKx1nb9sXd3qcA68hdmx1vJVgXZoSODKv6WWp5YfCYbii6mG8YVCKQ_w-j3rGvHLfoKJY-tiaKt
+    title: Calling js function from erb file
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F35859239%2Fcalling-js-function-from-erb-file&h=ATOg2gXzB0eauFZwR1uHp0jBZ6TG0LJPB2BGN7gpZJXYPrZBOxvaP2y36UUV4QgeBXJobmGdPIW3bfpecU4jS1uRZGtlYs5IUz_v&s=1&enc=AZOyCVcec0gYHtKx1nb9sXd3qcA68hdmx1vJVgXZoSODKv6WWp5YfCYbii6mG8YVCKQ_w-j3rGvHLfoKJY-tiaKt

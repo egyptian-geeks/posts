@@ -1,0 +1,109 @@
+---
+message: هل فى طريقه اقدر اعمل بيها unlike لكل الصفحات مره واحده ؟
+from:
+  name: Muhammad Reda
+  id: '1569270646495436'
+type: status
+created_time: '2017-08-08T03:38:15+0000'
+updated_time: '2017-09-05T02:54:11+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1571936492846053/
+shares:
+  count: 6
+id: '172338516139198_1571936492846053'
+reactions:
+  data:
+  - id: '10160136355320107'
+    name: Noha Abdel-Tawab
+    type: LIKE
+  - id: '10155627181650141'
+    name: Mostafa Amin
+    type: LOVE
+  - id: '1808404409193133'
+    name: Mohamed Nasr El-Banna
+    type: LIKE
+  - id: '10155019881421751'
+    name: Khalid Abdallah
+    type: LIKE
+  - id: '571634216507354'
+    name: Aya Hesham
+    type: LIKE
+  - id: '10160080408015601'
+    name: Omnia Ibrahim
+    type: HAHA
+  - id: '1802150169804200'
+    name: Ghada Mohsen
+    type: LIKE
+  - id: '564149277272611'
+    name: Sherif Y. Ahmed
+    type: LIKE
+  - id: '813329998872134'
+    name: Mahmoud Esam
+    type: LIKE
+  - id: '1572579959486144'
+    name: Abdelrahman Sayed
+    type: LIKE
+  - id: '10156138503626383'
+    name: Amr Hassan Reda
+    type: LIKE
+  - id: '1641565752594739'
+    name: Ahmed Aziz
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRjNE5URTFNVEEyT2pFMU1ESXlNalkyTkRZANk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQXlNak01T1RFMk5UUXpPakUxTURJeE5qUTJORGs2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-08-08T03:57:29+0000'
+    from:
+      name: Khaled Elnaggar
+      id: '10215461207703148'
+    message: "1- googlechrome \n2- jquery injector  extenstion \n3- open your activity
+      log \nhttps://www.facebook.com/[facebook username]/allactivity?privacy_source=activity_log&log_filter=likedinterests\n4-
+      open console \n5- inject jquery using the extenstion \n6- paste this script
+      \n$(\"html, body\").animate({ scrollTop: $(document).height() }, \"slow\");\nsetInterval(function
+      () {\n  var last = $(\"._6a._6b.uiPopover.rfloat a span\").last().click();\n
+      \ $(\"span:contains(Unlike):visible\").click();\n  var post = last.closest(\".pam\");\n
+      \ post.prev().remove();\n  post.remove();\n}, 700);\n\n7- سيبه بقي لما يخلص
+      :D \n8-  مصدر ال script \nhttps://github.com/IonicaBizau/reset-your-facebook-account"
+    id: '1571948899511479'
+  - created_time: '2017-08-08T05:44:41+0000'
+    from:
+      name: Mahmoud Elebiary
+      id: '1810292615656249'
+    message: "عاش انا كنت محتاج حاجه زي دي جدا \U0001F602✋"
+    id: '1572052816167754'
+  - created_time: '2017-08-08T05:45:11+0000'
+    from:
+      name: Mahmoud Elebiary
+      id: '1810292615656249'
+    message: "في حاجه تعمل unfollow بقا \U0001F602✋"
+    id: '1572052992834403'
+  - created_time: '2017-08-08T10:38:27+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: هم كام صفحة؟! :)
+    id: '1572217146151321'
+  - created_time: '2017-08-08T18:59:03+0000'
+    from:
+      name: Mahmoud Muhammed
+      id: '2101461930086985'
+    message: Hady Elzayady
+    id: '1572656432774059'
+  - created_time: '2017-09-05T02:51:27+0000'
+    from:
+      name: Mostafa Mahmoud
+      id: '1024302054374728'
+    message: Moustafa Elsaghier
+    id: '1598889460150756'
+  - created_time: '2017-09-05T02:54:09+0000'
+    from:
+      name: Moustafa Elsaghier
+      id: '1551507444928258'
+    message: Mina George
+    id: '1598891666817202'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUzTVRrME9EZAzVPVFV4TVRRM09Ub3hOVEF5TVRZAME5qVXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU1T0RnNU1UWTJOamd4TnpJd01qb3hOVEEwTlRnd01EUTUZD

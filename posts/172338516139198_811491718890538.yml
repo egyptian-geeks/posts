@@ -1,0 +1,14 @@
+---
+message: |
+  I'd like to share with you a nice way to handle INotifyPropertyChanged in .Net 4.5 (WPF, WP8.1, Win8.1).
+  I figured this out a few days ago, I'm using a base class for my View Models to simplify the whole process to one setter line, it makes use of CallerMemberNameAttribute and the "ref" keyword :)
+link: https://gist.github.com/hassanselim0/494e215363465d4a7a10
+from:
+  name: Hassan Aly Selim
+  id: '10156089336182292'
+type: link
+created_time: '2014-09-08T18:36:06+0000'
+updated_time: '2014-09-08T18:45:02+0000'
+name: hassanselim0/NotifyPropChanged.cs
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/811491718890538/
+id: '172338516139198_811491718890538'

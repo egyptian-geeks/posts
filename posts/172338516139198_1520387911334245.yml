@@ -1,0 +1,70 @@
+---
+message: "Hello guys, I'm trying to follow coding best practices like following the
+  PSRs and DRY principle, I'm wondering if there are any tools that gives you any
+  notification to remind you following those practices \nSmth like Facebook notifications
+  which pops up some pre defined quotes/tasks/anything else in a random time \nI'm
+  using MacOs"
+from:
+  name: Abd El Rhaman Ezzat
+  id: '1722658717785442'
+type: status
+created_time: '2017-06-19T07:06:10+0000'
+updated_time: '2017-06-19T11:13:24+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1520387911334245/
+id: '172338516139198_1520387911334245'
+reactions:
+  data:
+  - id: '10208478691244351'
+    name: Mohamad Nabih
+    type: LIKE
+  - id: '569721780031445'
+    name: Ahmed Ibrahim
+    type: LIKE
+  - id: '10215155574907910'
+    name: Mohamed H. Safey
+    type: LIKE
+  - id: '10204397446773149'
+    name: Mahmoud Elawwamy
+    type: LIKE
+  - id: '546598029039266'
+    name: Tarek Badr
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRneE9UTXdNREV4TVRveE5EazNPVEE0TURVME9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBd01ERXdOamN5TWpBM016YzBPakUwT1RjNE5UY3dOREU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-06-19T07:09:05+0000'
+    from:
+      name: Abdoelrhman Mohammed
+      id: '1622194551179260'
+    message: that would be nice lol, but I guess you've to keep that in mind and you'll
+      get better at it with time
+    id: '1520389248000778'
+  - created_time: '2017-06-19T07:09:16+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: You can use code analysis tools like Sonar which usually has plugins
+      to the language you use.
+    id: '1520389321334104'
+  - created_time: '2017-06-19T09:11:14+0000'
+    from:
+      name: Mahmoud Tantawy
+      id: '10156115350739764'
+    message: |-
+      Check https://github.com/FriendsOfPHP/PHP-CS-Fixer
+      Also Google: PHP MD (mess detector)
+    id: '1520449244661445'
+  - created_time: '2017-06-19T09:11:59+0000'
+    from:
+      name: Mahmoud Tantawy
+      id: '10156115350739764'
+    message: There are also plugins for Sublime and i guess Atom to auto-detect when
+      saving a file and immediately display list of issues.
+    id: '1520449494661420'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV5TURNNE9USTBPREF3TURjM09Eb3hORGszT0RVMk1UUTEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV5TURRME9UUTVORFkyTVRReU1Eb3hORGszT0RZAek5USXcZD

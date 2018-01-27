@@ -1,0 +1,62 @@
+---
+message: "السلام عليكم \nعاوزه استفسر منكم عن حاجه بلاحظها في اغلب ابلكيشنز الاندرويد
+  ان اي ابلكيشن سوشيال ميديا بيخزن المعلومات في داتا بيز وبعد كده بيعرضها لليوزر ..
+  ممكن لو حد يوضحلي السيناريو بيتم ازاي وازاي في لحظات بيقدر يحدث الداتا بيز ويعرض
+  برغم كبر الداتا اللي راجعه وليكن هناخد ابلكيشن الفيس بوك كمثال ...\nاو حد اشتغل
+  قبل كده ابلكيشن سوشيال ميديا يوضحلي انسب وافضل سيناريو اشتغل عليه"
+from:
+  name: Sola Dev
+  id: '2447221282169080'
+type: status
+created_time: '2017-09-03T16:16:10+0000'
+updated_time: '2017-09-05T20:01:35+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1597577680281934/
+id: '172338516139198_1597577680281934'
+comments:
+  data:
+  - created_time: '2017-09-03T16:19:33+0000'
+    from:
+      name: Mohammed Hussien
+      id: '10154922289347024'
+    message: Check offline first architcture
+    id: '1597579806948388'
+  - created_time: '2017-09-03T16:24:34+0000'
+    from:
+      name: Mohamed Ali
+      id: '894488847398032'
+    message: "انتي قدامك اكتر من طريق \nاسهل واحسن حاجة هي ال firebase من جوجل \nاما
+      بقي لو عاوزة الطريق الصعب ف هتحتاجي web server و mysql عشان تخزني الداتا عليها
+      و php عشان تقدري تربطي بين السيرفر والداتا بيز"
+    id: '1597583166948052'
+  - created_time: '2017-09-03T19:44:31+0000'
+    from:
+      name: Ahmed Ali
+      id: '1580680005301535'
+    message: |-
+      فيسبوك قدم برزنتيشنز كتير عن ازاي قدروا يكبروا بالشكل ده (سواء ويب او موبايل) ويحافظوا علي استقرار تطبيقتهم رغم حجم الداتا الضخم.. هاتلاقي اغلب الحجات دي ف كونفرنس اسمه Scale@
+      ع يوتيوب
+    id: '1597711800268522'
+  - created_time: '2017-09-04T01:14:35+0000'
+    from:
+      name: Mustafa Ezzat
+      id: '1791684854188024'
+    message: اعتقد انهم بيستخدموا NoSql http://blog.outsourcing-partners.com/2012/10/why-nosql-database-is-used-by-facebook-google-and-linkedin-applications/
+    id: '1597923816913987'
+  - created_time: '2017-09-04T07:49:34+0000'
+    from:
+      name: Mostafa Saeed
+      id: '431530817266672'
+    message: تقصد ال buffer الي هو بيخزنه ولا تقصد ايه
+    id: '1598155286890840'
+  - created_time: '2017-09-05T11:20:05+0000'
+    from:
+      name: Mahmoud Mortda
+      id: '1816374988414963'
+    message: "الوقت اللى بيخزن فيه بيتقاس بال milliseconds\nكمان لو تعرف reactive
+      \  ممكن تخزن وانت بتعرض عادى جدا \nكمان فى حاجة مهم تاخد بالك منها  الفيسبوك
+      \ بيجمع معلومات عن الجهاز  بتاعك وسرعة النت  وعلى اساسه بيختار طريقة الكاش"
+    id: '1599168893456146'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU1TnpVM09UZA3dOamswT0RNNE9Eb3hOVEEwTkRVMU5UY3oZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU1T1RFMk9EZAzVNelExTmpFME5qb3hOVEEwTmpFd05EQTEZD

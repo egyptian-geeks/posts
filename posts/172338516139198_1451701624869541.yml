@@ -1,0 +1,137 @@
+---
+message: "شباب أنا بسأل عن حد اشتغل على angularJS + SEO (title, keywords and descriotion)
+  \ tags و ازاي ظهرت معاه صح في google search ؟ \nالمشكله عندي انه بيجيب الصفحة في
+  البحث قبل ما يحصل render  للصفحة فا بيكون شكلها كزي الي في الصوره و ال script  المستخدم
+  هو كالتالي :\napp.service('MetaService', function () {\n    var title = 'sitename';\n
+  \   var metaDescription = '';\n    var metaKeywords = '';\n    return {\n        set:
+  function (newTitle, newMetaDescription, newKeywords) {\n            metaKeywords
+  = newKeywords;\n            metaDescription = newMetaDescription;\n            title
+  = newTitle;\n        },\n        metaTitle: function () { return title; },\n        metaDescription:
+  function () { return metaDescription; },\n        metaKeywords: function () { return
+  metaKeywords; }\n    }\n});\n\nو في أول كل controller  بعمل كده \n  $rootScope.metaservice
+  = MetaService;\n            $rootScope.metaservice.set(\n                \"Page
+  title here\",\n                \"Description here\",\n                \"keywords
+  here\");\nطبعا عندي شغال تمام المشكله مع ال search engine\nحد قابلته المشكله دي
+  قبل كده و حلها و شاف النتيجه ؟؟"
+link: https://www.facebook.com/photo.php?fbid=10212429211835933&set=gm.1451701624869541&type=3
+from:
+  name: Ahmed Al-Bagalaty
+  id: '10214955013179388'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/q88/s130x130/17884201_10212429211835933_7662235165088358984_n.jpg?oh=f42c1dc8a41b240bbdf7b61413adb09b&oe=5ADAFB51
+created_time: '2017-04-12T21:31:06+0000'
+updated_time: '2017-04-13T13:43:58+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1451701624869541/
+id: '172338516139198_1451701624869541'
+comments:
+  data:
+  - created_time: '2017-04-12T21:52:08+0000'
+    from:
+      name: Firas Abd Alrahman
+      id: '732859920251745'
+    message: |-
+      خلصت تجربة اولی ناجحة بس النتائج محتاجة تعديلات لمرحلة تانية...
+      اولا غوغل ما بارشف انغلار ابدا
+      الطريقة الابسط تستخدم
+      1- push state لتلغي الهاش
+      2- وجه بملف htaccess للملف الرئيسي وخليه index.php
+      3-canonical اقرا عنها اكتر
+      لو لاقی فيسبوك او غوغل وسم canonical بيلحقه وبيتجاهل الصفحة الحالية
+      كودك لازم يولد وصلة بديلة تطبع النص المطلوب فقط من غير تصميم فقط تيكست و h1
+      وميتا...
+      الان اعمل sitemap.xml
+      نزل فيه الوصلات او الاحسن خلي كود يولد الملف لحتی غوغل يتعرف عوصلاتك...
+    id: '1451715488201488'
+  - created_time: '2017-04-13T08:44:16+0000'
+    from:
+      name: Hany Ahmed
+      id: '10156089330442292'
+    message: "فيه حلول بسيطة (بس مش جذرية) ممكن تعملها \nزي انك تبتدي ماتستعملشي ال
+      Angular Expressions\nمثال \nاستخدم\n<div>Hello, <span ng-bind=\"site.title\">My
+      Site</span></div>\nبدلاً من\n<div>Hello, {{site.title}}</span></div>\nالحل الأول
+      أحسن في ان مش هايظهر ال {{}} ولكن هايظهر ال default text اللي انت حاطه"
+    id: '1452186808154356'
+  - created_time: '2017-04-13T08:48:19+0000'
+    from:
+      name: Hany Ahmed
+      id: '10156089330442292'
+    message: |-
+      المشكلة دي كانت موجودة في جوجل
+      وكان الحل الجذري ليها اننا نستخد ال Hashbang
+      ودي وسيلة بتخلي ال  bot يلاقي نسخة يعرف يعملها archive بشكل صحيح
+      http://stackoverflow.com/questions/3009380/whats-the-shebang-hashbang-in-facebook-and-new-twitter-urls-for
+
+      بس حالياً جوجل بقت بتعرف تشغل الجافا سكربت في الصفحات اللي بتعملها archiving
+      فالمفروض انت مش محتاج لاي حاجة اصلاً
+      https://webmasters.googleblog.com/2015/10/deprecating-our-ajax-crawling-scheme.html
+    id: '1452192288153808'
+  - created_time: '2017-04-13T08:50:13+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: Never Paste code in your post, please put it in a paste bin and provide
+      the link
+    id: '1452194044820299'
+  - created_time: '2017-04-13T12:00:46+0000'
+    from:
+      name: Mohammed Al Ashaal
+      id: '965203406986813'
+    message: "بص كل الحلول اللى تقليديه كالتالى, إنك لازم يكون فى اى server-side version
+      بحيث يسمح لل crawler إنه يأرشف, \nلو عايز حل برا الصندوق, وفى نفس الوقت من غير
+      مجهود مضاعف \"برمجة نسخه لمحركات البحث\", ركز ف التالى ..\nالفكره كلها ان محرك
+      البحث مش دايما قادر إنه يأرشف الداتا اللى dynamically generated from the client
+      side .. ﻷن مش دايما جاهز ب javascript engine,\nبالتالى ممكن تشوف اى reverse
+      proxy موجود بيستخدم اى headless browser, او ممكن يكون بيستخدم حاجه زى phantomJS
+      بحيث يكون هو اللى يستقبل الريكوست قبل مايعدى ع ال WebApp بتاعك, بالتالى هيـــ
+      render نسخه ستاتيك من الصفحه لكن بعد تطبيق كل javascript code بتعها, بالتالى
+      محرك البحث هيشوفها اكنها فعلا زى ماليوزر هيشوفها, الطريقه دى انا مستخدمها ف
+      حاجات كتير, وموفره عليا مجهود جامد جدا .. ويعتبر معدتش بركز غير عال API & ClientSide
+      Code"
+    id: '1452344681471902'
+  - created_time: '2017-04-13T13:27:12+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: انا رأيي المتواضع في المواضيع دي إنك تعمل نسختين من الموقع. الموضوع موش
+      صعب. بحيث إنك في المحتوى بتاعك تسيب روابط href بتاعها هيفتح على محتوى من غير
+      جافاسكريبت ولو المستخدم اللي جاي من محرك بحث وقع على صفحة من دول وو عنده جافاسكريبت
+      شغالة يبقى التطبيق يعيد توجيهه وتظبيط الأمور.
+    id: '1452426224797081'
+  - created_time: '2017-04-13T13:43:55+0000'
+    from:
+      name: Maged Eladawy
+      id: '1539250002856228'
+    message: Always use server side rendering for content pages like (article, blog
+      item..etc) use angular with listing pages that contain more than items like
+      (blog list, articles list)
+    id: '1452443324795371'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFExTVRjeE5UUTRPREl3TVRRNE9Eb3hORGt5TURNek9USTUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFExTWpRME16TXlORGM1TlRNM01Ub3hORGt5TURreE1ETTIZD
+attachments:
+  data:
+  - description: "شباب أنا بسأل عن حد اشتغل على angularJS + SEO (title, keywords and
+      descriotion)  tags و ازاي ظهرت معاه صح في google search ؟ \nالمشكله عندي انه
+      بيجيب الصفحة في البحث قبل ما يحصل render  للصفحة فا بيكون شكلها كزي الي في الصوره
+      و ال script  المستخدم هو كالتالي :\napp.service('MetaService', function () {\n
+      \   var title = 'sitename';\n    var metaDescription = '';\n    var metaKeywords
+      = '';\n    return {\n        set: function (newTitle, newMetaDescription, newKeywords)
+      {\n            metaKeywords = newKeywords;\n            metaDescription = newMetaDescription;\n
+      \           title = newTitle;\n        },\n        metaTitle: function () {
+      return title; },\n        metaDescription: function () { return metaDescription;
+      },\n        metaKeywords: function () { return metaKeywords; }\n    }\n});\n\nو
+      في أول كل controller  بعمل كده \n  $rootScope.metaservice = MetaService;\n            $rootScope.metaservice.set(\n
+      \               \"Page title here\",\n                \"Description here\",\n
+      \               \"keywords here\");\nطبعا عندي شغال تمام المشكله مع ال search
+      engine\nحد قابلته المشكله دي قبل كده و حلها و شاف النتيجه ؟؟"
+    media:
+      image:
+        height: 95
+        src: https://scontent.xx.fbcdn.net/v/t1.0-9/17884201_10212429211835933_7662235165088358984_n.jpg?oh=7f9200fb8f4aa62291292c9798a775c1&oe=5AF24651
+        width: 690
+    target:
+      id: '10212429211835933'
+      url: https://www.facebook.com/photo.php?fbid=10212429211835933&set=gm.1451701624869541&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=10212429211835933&set=gm.1451701624869541&type=3

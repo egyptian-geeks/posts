@@ -1,0 +1,25 @@
+---
+message: |-
+  حد اشتغل AWS كتير هنا؟
+  أنا عندي instance ال first byte بتاعها حوالي 550 ms لما بدخل عليها بشكل مباشر لكن لما بدخل عليها من خلال classic load balancer, ال first byte بيرتفع ويعدي الثانية
+  المفروض أعمل ايه علشان أحل المشكلة ديه؟
+from:
+  name: Mohamed Moshrif
+  id: '1538447102877297'
+type: status
+created_time: '2017-08-20T13:54:49+0000'
+updated_time: '2017-08-21T12:21:42+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1585199571519745/
+id: '172338516139198_1585199571519745'
+comments:
+  data:
+  - created_time: '2017-08-21T10:45:55+0000'
+    from:
+      name: Hesham Amin
+      id: '1604225349657987'
+    message: Start with https://aws.amazon.com/premiumsupport/knowledge-center/elb-latency-troubleshooting/
+    id: '1585957748110594'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU0TlRrMU56YzBPREV4TURVNU5Eb3hOVEF6TXpFeU16VTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU0TlRrMU56YzBPREV4TURVNU5Eb3hOVEF6TXpFeU16VTMZD

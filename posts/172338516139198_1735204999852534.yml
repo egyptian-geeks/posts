@@ -1,0 +1,42 @@
+---
+message: شباب انا كنت عامل motion detection algorithm بـ 3 Web cam بيحدد مكان Object
+  معين وبياخد اكشن لو الاوبجيكت اتحرك، وكنت مستخدم instapush فى انه يبعتلى نوتفكيشن
+  على الموبيل لما الاوبجيكت يتحرك، بس instapush واقع تقريبا بقاله اسبوعين، محدش عنده
+  بديل يكون مجاني؟ من الاخر عايز حاجه يبقى ليها ابلكيشن على الموبيل (ايفون) ويكون
+  ليها api لما اكلمه يزقلى نوتفكيشن على الموبيل
+from:
+  name: Hady El-Ziady
+  id: '10155549760031026'
+type: status
+created_time: '2018-01-27T17:25:32+0000'
+updated_time: '2018-01-27T19:27:19+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1735204999852534/
+id: '172338516139198_1735204999852534'
+comments:
+  data:
+  - created_time: '2018-01-27T17:29:06+0000'
+    from:
+      name: Tony Raoul Iscaros
+      id: '10156165643313420'
+    message: |-
+      IFTTT + webhooks
+      Slack
+      Pushbullet
+    id: '1735349493171418'
+  - created_time: '2018-01-27T17:29:26+0000'
+    from:
+      name: Eyad AlBahi
+      id: '10159879507655084'
+    message: Why don't you try Google Cloud Messaging (GCM). It is free until a certain
+      limit then u pay. There is a similar one for IOS, I suppose Apple Push Service.
+    id: '1735349803171387'
+  - created_time: '2018-01-27T18:36:16+0000'
+    from:
+      name: Mohamed Mostafa Hassan
+      id: '10155001593816507'
+    message: Use pubnub
+    id: '1735412579831776'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN6TlRNME9UUTVNekUzTVRReE9Eb3hOVEUzTURjME1UUTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN6TlRReE1qVTNPVGd6TVRjM05qb3hOVEUzTURjNE1UYzMZD

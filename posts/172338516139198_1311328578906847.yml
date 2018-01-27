@@ -1,0 +1,48 @@
+---
+message: |-
+  Hi Gks,
+  In Angular2, Is there anyway for dealing with forms rather than form tag??? As In Angular1, there was <form> and <ng-form>. Is there something like that in Angular2 or we must deal with form tag?!
+from:
+  name: Hossam Ahmed
+  id: '10155827368706005'
+type: status
+created_time: '2016-12-03T22:48:44+0000'
+updated_time: '2016-12-04T22:12:55+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1311328578906847/
+id: '172338516139198_1311328578906847'
+reactions:
+  data:
+  - id: '10155880569740170'
+    name: Meligy
+    type: LIKE
+  - id: '10156189240128395'
+    name: Muhammed Abdulaziz
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRRME9ERTFNVFk1T2pFME9EQTRNVFl4TWpNNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRNNE5UUXpNemswT2pFME9EQTRNVE00TnpZANk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-12-03T22:54:55+0000'
+    from:
+      name: Ahmed Eid
+      id: '762135870664322'
+    message: |-
+      In angular 2, there are two types of forms ,,, template based forms , ,that's the way we are used to with forms ,, depends on the form tag, name attribute etc ,,
+      and the other one is Model driven forms ,, that depends on FormGroup
+      please check this : http://blog.angular-university.io/introduction-to-angular-2-forms-template-driven-vs-model-driven/
+    id: '1311331732239865'
+  - created_time: '2016-12-04T18:30:27+0000'
+    from:
+      name: Hossam Ahmed
+      id: '10155827368706005'
+    message: Thanks Mohamed for your help. I can do it with selector [formGroup],
+      using it on nay tag will deal with it as ReactiveModuleForm, even it's not <form>
+      . and that's what I need :D .. but [ngForm] doesn't work, I think it's deprecated
+      in rcy6 ..
+    id: '1312649808774724'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE14TVRNek1UY3pNakl6T1RnMk5Ub3hORGd3T0RBMU5qazIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE14TWpZAME9UZA3dPRGMzTkRjeU5Eb3hORGd3T0RjMk1qSTMZD

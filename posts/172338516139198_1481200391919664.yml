@@ -1,0 +1,78 @@
+---
+message: بقالي ساعتين ادور على generator سهل وبسيط يعمل متصفح ويب مخصوص محتاجه في
+  تطبيق ويب يشتغل في Intranet من الآخر شبكة فيها اربعة او خمس أجهزة، وكل التخصيص اللي
+  انا عاوزه انه ما يبقاش فيه developers tools ولا إطلاع على المصدر ويكون له signature  خاصة
+  ومافيش حفظ، واخفي شريط العناوين. هل الحكاية دي موجودة فعلا؟
+from:
+  name: Said Bakr
+  id: '10155965038378745'
+type: status
+created_time: '2017-05-12T23:22:43+0000'
+updated_time: '2017-05-13T15:36:15+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1481200391919664/
+id: '172338516139198_1481200391919664'
+comments:
+  data:
+  - created_time: '2017-05-12T23:25:30+0000'
+    from:
+      name: Ramy Tamer
+      id: '2020727481277546'
+    message: تقدر ت customize chrome اعتقد على كدة
+    id: '1481202081919495'
+  - created_time: '2017-05-12T23:39:37+0000'
+    from:
+      name: Tony Raoul Iscaros
+      id: '10156165643313420'
+    message: اللي انت عاوزه مش بروزر انت كدا محتاج wrapper اللي فهمته منك انه مش المستخدم
+      اللي بيكتب العنوان الصفحه بطلع لوحدها و مينفعش يغيرها ، الاختيارات في الحله
+      دي زي electron مثلا ، و ممكن ويب فيو
+    id: '1481211085251928'
+  - created_time: '2017-05-13T01:06:51+0000'
+    from:
+      name: Ihab Khattab
+      id: '10155517671429272'
+    message: |-
+      I belive you will need something like kiosk apps you can enable kiosk mode in chrome or make your app as kiosk one
+
+      http://lifehacker.com/use-chromes-kiosk-mode-to-limit-someones-access-to-yo-1243433249
+
+      https://developer.chrome.com/apps/manifest/kiosk_enabled
+    id: '1481258711913832'
+  - created_time: '2017-05-13T05:07:32+0000'
+    from:
+      name: Ahmed Maher
+      id: '2162564797304338'
+    message: "If you want it to access just one page that you already specified the
+      url to it, in your code you can use webkit wrappers to implement a simple web
+      browser that does exactly that or what ever you want\nI already did something
+      similar using the webkit wrapper for python \nIt's only a couple of lines to
+      implement"
+    id: '1481407495232287'
+  - created_time: '2017-05-13T05:41:30+0000'
+    from:
+      name: Sarab Alzaman
+      id: '10154599440254364'
+    message: |-
+      am not sure if i really understand the question
+
+      http://www.instructables.com/id/How-to-create-a-web-browser-in-C-Visual-Studio/
+    id: '1481426885230348'
+  - created_time: '2017-05-13T10:46:17+0000'
+    from:
+      name: Ahmed Zain Mohammed
+      id: '10156266511868081'
+    message: |-
+      Headless chrome
+      Electron
+      Mozilla servo
+    id: '1481685528537817'
+  - created_time: '2017-05-13T15:36:14+0000'
+    from:
+      name: Hussien Elmaydome
+      id: '10156031353296054'
+    message: "Ibrahim Mohamed Abotaleb اللي انت عايزو في تاني كومنت \U0001F609"
+    id: '1481937721845931'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE0TVRJd01qQTRNVGt4T1RRNU5Ub3hORGswTmpNeE5UTXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE0TVRrek56Y3lNVGcwTlRrek1Ub3hORGswTmpnNU56YzAZD

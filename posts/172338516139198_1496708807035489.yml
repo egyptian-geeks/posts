@@ -1,0 +1,78 @@
+---
+message: "Hello Geeks\nToday I tried to run my usual work space But i found a service
+  running on port 9000 so i checked to see a php-fpm.conf, I never use php and this
+  is intrusion into my ubunto 16.10 box \nI also notices that a lot of tcp and udp
+  dnsmasq services running too and listening to ports even i found memcache and redis
+  service auto up\nLately my chrome has been making very crazy actions like forwarding
+  the regular google search to some other sites and much more crazy staff.\nmay be
+  I'm under surveillance or regular hacking session \nbut how actually I should act
+  to defend these kind of shits out of my personal ubuntu box\nI'm kind of white in
+  responding to such things \nis there is any recommendations\nThanks"
+from:
+  name: Ibrahim Zaki
+  id: '10157017423792738'
+type: status
+created_time: '2017-05-29T11:42:49+0000'
+updated_time: '2017-05-29T17:27:36+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1496708807035489/
+id: '172338516139198_1496708807035489'
+comments:
+  data:
+  - created_time: '2017-05-29T12:12:33+0000'
+    from:
+      name: Mohamed Bassem
+      id: '10212826240185281'
+    message: "مقومين memcache و redis؟ الإتنين؟ \U0001F614"
+    id: '1496727570366946'
+  - created_time: '2017-05-29T12:43:48+0000'
+    from:
+      name: Tony Raoul Iscaros
+      id: '10156165643313420'
+    message: Can you paste here what's running from top/htop whatever you have ?
+    id: '1496749347031435'
+  - created_time: '2017-05-29T13:12:15+0000'
+    from:
+      name: Muhammed Nagy
+      id: '495080930892199'
+    message: "you can check what is listening to what port using \nnetstat -plnt"
+    id: '1496767987029571'
+  - created_time: '2017-05-29T14:06:28+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "اول حاجة باك اب الداتا بتاعتك في مكان امان واوف لاين وشيل اي داتا حساسة
+      او خاصة بحسابات بنوك او كريديت كاردز وكدة... هم شكلهم من النوع المسالم اللي
+      بيرن عندك سيرفيس وخلاص \U0001F603 بس انت ما تضمنش ممكن ده يؤدي لهجمات تانية
+      وممكن يظهر منها ransomware كمان لا قدر الله\nبعد كدة ادخل شوف ال public ip بتاعك
+      واعمل عليه portscan شوف البورتات اللي مفتوحة بابلك ايه.. ولو راوتر البيت من
+      نوع tp link ده فيه ثغرة وارد حد دخل وعمل بورت فوراورد منه.. فادخل عليه واعمل
+      له ريسيت بعدين كونفجر واعمل acl انه ما يشتغلش ويب او تلنت من ال wan اصلا تماما
+      عشان تمنع الموضوع ده انه يحصل تاني.. \nموضوع الredirects من جوجل لحاجات تانية
+      يا اما حد لعب في dns بتاع الراوتر بنفس الثغرة اللي فوق يا اما جهازك نفسه acting
+      as dns server وبيريسولف من نفسه ومحطوط malicious records بتخليه يعمل كدة.. \n\nطبعا
+      اللي حاصللك ده مش سهل لان كله بيتطلب root privileges فاللي حصل ده بيستغل privilege
+      escalation او brute force عرف بيها باسورد الروت.. فبرده غير الباسوردات فورا\npasswd
+      && sudo passwd\nلو عندك سيرفيس السامبا او السامبا كلاينت شيلهم.. \n\nاعمل ابديت
+      للسستم عندك بعد ما تتأكد ايه الريبوز المتفعلة مظبوطة( لان وارد تكون اتغيرت)
+      وتعمل sudo apt-get update && sudo apt-get dist-upgrade\nاخيرا انت كدة كدة مش
+      على lts version فخد باك اب من حاجتك واعمل sudo do-release-upgrade واوصل ل 17.04"
+    id: '1496807300358973'
+  - created_time: '2017-05-29T14:31:46+0000'
+    from:
+      name: Ibrahim Zaki
+      id: '10157017423792738'
+    message: |-
+      it seems that peaple are using my machine as thier own :D through snap and lightdm halls also a thing called dbus
+      Shit
+    id: '1496828573690179'
+  - created_time: '2017-05-29T15:16:33+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "ده ولا الويندوز ياجدع \U0001F601\nاللعنة على ديبيان واوبونتو والمجد
+      لسينتوس وفيدورا \U0001F601\U0001F601"
+    id: '1496872283685808'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE1TmpjeU56VTNNRE0yTmprME5qb3hORGsyTURVNU9UVTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE1TmpnM01qSTRNelk0TlRnd09Eb3hORGsyTURjd09UazAZD

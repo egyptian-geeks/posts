@@ -1,0 +1,75 @@
+---
+message: |-
+  PSA: In the last 24hrs, I've been finding these weird white empty ad banners on Youtube and other video platforms. Sometimes I'd go to click on a video it would redirect me to another website. I had no idea where this had come from, I'd thought it was from Youtube testing out their new design, until it started appearing on other platforms. After looking through my extensions I discovered that a VPN extension (Betternet) for chrome was injecting ads for some reason. After I removed it the problem was solved. After looking around on the internet I found 2 different posts regarding the same problem but different VPNs: Hotspot Shield and Touch VPN. If you're using any free VPNs, uninstall them.
+
+  https://forums.malwarebytes.com/topic/203208-outbound-website-blocked-upon-chrome-startup/
+  https://forums.malwarebytes.com/topic/203207-random-ad-links-popping-up-and-non-youtube-banner-ads/#comment-1138165
+  https://www.reddit.com/r/techsupport/comments/6jay9r/ads_suddenly_started_appearing_everywhere_on/
+from:
+  name: Waleed Rostom
+  id: '10156023436662114'
+type: status
+created_time: '2017-06-25T18:39:02+0000'
+updated_time: '2017-06-26T06:23:42+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1526766760696360/
+id: '172338516139198_1526766760696360'
+reactions:
+  data:
+  - id: '1750532274967735'
+    name: Ahmed Moussa
+    type: LIKE
+  - id: '10155034005921816'
+    name: Ahmed Hisham
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdNekk1TXpnMk5UZA3dPakUwT1RnME1qUTRNREE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TnpFMk5UUXhPREUxT2pFME9UZAzBNVGMyTVRVNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-06-25T18:42:19+0000'
+    from:
+      name: Waleed Rostom
+      id: '10156023436662114'
+    message: 'This is what the banners (and others) look like if you''re using an
+      adblock:'
+    id: '1526768877362815'
+  - created_time: '2017-06-25T18:43:42+0000'
+    from:
+      name: Muhammad El-Shafie
+      id: '10215276255482572'
+    message: Is it free vpn service.!?
+    id: '1526769814029388'
+  - created_time: '2017-06-25T19:35:24+0000'
+    from:
+      name: Mohamed Oun
+      id: '10213382124519901'
+    message: Betternet started serving adware and redirecting to malicious websites
+      for me yesterday too. Unfortunate because I really liked it.
+    id: '1526802784026091'
+  - created_time: '2017-06-25T20:41:19+0000'
+    from:
+      name: Ahmed Badawy
+      id: '1596110217148252'
+    message: Many extensions does that or collect data from your device...
+    id: '1526842640688772'
+  - created_time: '2017-06-25T21:06:38+0000'
+    from:
+      name: Ahmed Moussa
+      id: '1750532274967735'
+    message: dame it I just started using it yesterday :/
+    id: '1526861497353553'
+  - created_time: '2017-06-25T21:15:05+0000'
+    from:
+      name: Yamen Sharaf
+      id: '10155853632381955'
+    message: |-
+      I'm using Windscribe. There was a promotion which I got 50GBs/month, but the free tier doesn't serve ads.
+
+      Edit: link to promotion, but not sure if it still works.
+      https://www.ghacks.net/2017/04/01/windscribe-voucher-free-vpn-with-50gb-traffic-included/
+    id: '1526866270686409'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV5TmpjMk9EZAzNOek0yTWpneE5Ub3hORGs0TkRFMk1UTTUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV5TmpnMk5qSTNNRFk0TmpRd09Ub3hORGs0TkRJMU16QTEZD

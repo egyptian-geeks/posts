@@ -1,0 +1,141 @@
+---
+message: Seekurity got acknowledged by phpSocial/phpDolphin for discovering a critical
+  reflected cross site scripting vulnerability affecting their social network script
+  and can be exploited to hijack user account and perform any actions on their behalf.
+  (Take care and update if you have the script installed)
+link: https://www.seekurity.com/blog/advisories/cross-sitescripting-vulnerability-in-phpsocial-aka-phpdolphin-social-network-script/
+from:
+  name: Mohamed A. Baset
+  id: '2088941797787563'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQAjVw7Qaghb7JcR&w=130&h=130&url=http%3A%2F%2Fwww.seekurity.com%2Fblog%2Fwp-content%2Fuploads%2F2017%2F07%2F98_Presentation.jpg&cfs=1&sx=0&sy=22&sw=616&sh=616&_nc_hash=AQAebXzLRLYtpE8l
+created_time: '2017-07-16T19:19:23+0000'
+updated_time: '2017-07-16T19:19:24+0000'
+name: Cross-Site Scripting Vulnerability in phpSocial aka phpDolphin Social Network
+  Script [CVE-2017-10801] – Seekurity Blog
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1549297941776575/
+shares:
+  count: 1
+id: '172338516139198_1549297941776575'
+reactions:
+  data:
+  - id: '10215340807979122'
+    name: Samuel A. Wilson
+    type: LIKE
+  - id: '368237263651704'
+    name: Omar Ali
+    type: LIKE
+  - id: '10155791802951391'
+    name: Mohamed Ihab
+    type: LIKE
+  - id: '753827511494815'
+    name: Mohamed Aboshady
+    type: LIKE
+  - id: '2005333593078956'
+    name: Ali Mohamed
+    type: LIKE
+  - id: '10155173051963199'
+    name: Pola Ashraf
+    type: LIKE
+  - id: '810374045817522'
+    name: Khaled Mohamed
+    type: LIKE
+  - id: '1757932150918002'
+    name: Ahmed Salah
+    type: LIKE
+  - id: '2117137085180704'
+    name: Abdallah Mostafa
+    type: LIKE
+  - id: '1491318780967328'
+    name: Ibrahim Al-maradny
+    type: LIKE
+  - id: '967120070124731'
+    name: Mohamed Morsi Shousha
+    type: LIKE
+  - id: '980575922099042'
+    name: Yosra Hamza
+    type: LIKE
+  - id: '752804181588521'
+    name: Mostafa El-Gendy
+    type: LIKE
+  - id: '10157596686833868'
+    name: Muhammad Kamal
+    type: LIKE
+  - id: '431367590615556'
+    name: Amr Alaa Yassen
+    type: LIKE
+  - id: '1471782329613980'
+    name: Ahmed Adel
+    type: LIKE
+  - id: '1737740092950935'
+    name: Mohamed Soltan
+    type: LIKE
+  - id: '564149277272611'
+    name: Sherif Y. Ahmed
+    type: LIKE
+  - id: '547447575626096'
+    name: Abdullah Ahmad
+    type: LIKE
+  - id: '1636144886482440'
+    name: Afraym Nageh
+    type: LIKE
+  - id: '1537088099723136'
+    name: Ahmed Hassan
+    type: LIKE
+  - id: '10214861141222529'
+    name: Abdelrady Fcis
+    type: LIKE
+  - id: '1558917624215781'
+    name: Mohamed A. Salah
+    type: LIKE
+  - id: '1607178289331081'
+    name: Ahmed Ahmdy
+    type: LIKE
+  - id: '10156115350739764'
+    name: Mahmoud Tantawy
+    type: LIKE
+  - id: '1617466391674663'
+    name: Moustafa Ali
+    type: LIKE
+  - id: '1846782672022423'
+    name: Amera Wageeh
+    type: LIKE
+  - id: '1611254385623215'
+    name: Shaheed Haider
+    type: LIKE
+  - id: '1437867079657591'
+    name: Amr Mohamed
+    type: LIKE
+  - id: '10157015996224112'
+    name: Muhammed Gamal
+    type: LIKE
+  - id: '10155255695713663'
+    name: Ayman Elhebery
+    type: LIKE
+  - id: '1608327662579661'
+    name: Karim Shoair
+    type: LIKE
+  - id: '10215070655377585'
+    name: Mahmoud Kandeel
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRRd016VXlNemczTkRveE5UQXdNekF3TnpZAek9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRFMk5qZA3hNVFkzTmpveE5UQXdNak15T0RnME9qSTFOREE1TmpFMk1UTT0ZD
+attachments:
+  data:
+  - description: Cross-Site Scripting Vulnerability in phpSocial aka phpDolphin Social
+      Network Script [CVE-2017-10801] [-] Product Description:phpSocial is a Social
+      Network Platform similar with Facebook, allowing users to interact with each
+      other by live chatting, sending messages, comments, like, share photos, lif...
+    media:
+      image:
+        height: 616
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQA8vjV9srA6LCXd&w=616&h=616&url=http%3A%2F%2Fwww.seekurity.com%2Fblog%2Fwp-content%2Fuploads%2F2017%2F07%2F98_Presentation.jpg&cfs=1&sx=0&sy=22&sw=616&sh=616&_nc_hash=AQCLPdRR2gsLsEdQ
+        width: 616
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.seekurity.com%2Fblog%2Fadvisories%2Fcross-sitescripting-vulnerability-in-phpsocial-aka-phpdolphin-social-network-script%2F&h=ATNDUj8izrqUTQsC5WE5t5i1VXDjY2M7I3Ka3wXM7YX8w_wAvD-hagrAlqMyidR-jd2z0cOpZQtMMYNXbRuHCe9JqHZfz76rA0Ha&s=1&enc=AZPzT3LGiRcZMn-TZq4y-3PBac-G4SBQFAAwK4K0SlZFHDfVWVahK--fVw6luNF_EwPq9i8HfftERwRhvCKbKkyu
+    title: Cross-Site Scripting Vulnerability in phpSocial aka phpDolphin Social Network
+      Script [CVE-2017-10801] – Seekurity Blog
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.seekurity.com%2Fblog%2Fadvisories%2Fcross-sitescripting-vulnerability-in-phpsocial-aka-phpdolphin-social-network-script%2F&h=ATNDUj8izrqUTQsC5WE5t5i1VXDjY2M7I3Ka3wXM7YX8w_wAvD-hagrAlqMyidR-jd2z0cOpZQtMMYNXbRuHCe9JqHZfz76rA0Ha&s=1&enc=AZPzT3LGiRcZMn-TZq4y-3PBac-G4SBQFAAwK4K0SlZFHDfVWVahK--fVw6luNF_EwPq9i8HfftERwRhvCKbKkyu

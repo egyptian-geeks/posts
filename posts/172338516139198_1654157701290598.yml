@@ -1,0 +1,123 @@
+---
+message: "لقيت ال request ديه عندي في wireshark, ايه ده؟ \U0001F602"
+link: https://www.facebook.com/photo.php?fbid=10155844362266730&set=gm.1654157701290598&type=3
+from:
+  name: Omar Hossam Ahmed
+  id: '10156071955196730'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/23319191_10155844362266730_3270998071908102881_n.jpg?oh=887d70228254f3ab43e71faf6b219a6c&oe=5B1CC8C5
+created_time: '2017-11-06T11:45:37+0000'
+updated_time: '2017-11-06T18:15:41+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1654157701290598/
+id: '172338516139198_1654157701290598'
+reactions:
+  data:
+  - id: '2032504700100329'
+    name: Mohammed Yassin
+    type: LIKE
+  - id: '1978556165731463'
+    name: Amr Almgwary
+    type: LIKE
+  - id: '10215025242651798'
+    name: Ehab Ahmed
+    type: LOVE
+  paging:
+    cursors:
+      before: TVRBd01EQXdNakkwTlRVNU56RXpPakUxTVRBek9UWXhNVGM2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRRMU1UZAzRNRE0yTmpveE5UQTVPVFk1TVRVeU9qYzRPRFkwT0RBek56a3hNek14TWc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-11-06T11:49:52+0000'
+    from:
+      name: Nour Haridy
+      id: '10156101857379222'
+    message: |-
+      Looks to me like a normal HTTP response packet.
+      Edit: <pre> is an HTML tag. So most likely this is some text in a website you're visiting
+      https://www.w3schools.com/tags/tag_pre.asp
+    id: '1654190961287272'
+  - created_time: '2017-11-06T11:57:59+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: ريسبونس http عادي من بورت 80 من السورس (السيرفر) للديستنيشن (البورت اللي
+      طلع منه الريكوست عندك)
+    id: '1654196674620034'
+  - created_time: '2017-11-06T11:58:42+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: لو جبت في الشاشة بقية الهيدرز ممكن يبان ال info بتاعت ال http
+    id: '1654196964620005'
+  - created_time: '2017-11-06T12:02:57+0000'
+    from:
+      name: Mohamed Khaled Ali
+      id: '10210654760062114'
+    message: "هو انا الوحيد اللي واخد بالي من hack attempt؟ عادى يا عمر حد كان معدى
+      و قال يجرب و ماله  \U0001F602"
+    id: '1654199261286442'
+  - created_time: '2017-11-06T15:34:58+0000'
+    from:
+      name: Mohamed Elawadly
+      id: '824666604386021'
+    message: "انت بت attack موقع ؟ \nوتقريبا فية WAF بيقولك hack attemp"
+    id: '1654385881267780'
+  - created_time: '2017-11-06T15:38:56+0000'
+    from:
+      name: Ahmed Amr Farid
+      id: '10155859538230336'
+    message: ممكن تعمل follow http stream و تجمع باقي ال request بس ده غالبا firewall
+      او waf قفش محاولة اختراق...
+    id: '1654388734600828'
+  - created_time: '2017-11-06T15:51:30+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: |-
+      المشكلة ان ال ip ده مش بي reverse على اي دومين ع النت.. وال ptr بتاعه بيقول انه تبع شركة هوستنج في ألمانيا.. والروت بتاع الويب سيرفر لما بتدخل ب الاي بي دايركت بيجيب صفحة nginx فاضية
+      حاول تشوف ايه ال process اللي initiated الركوست ده للاي بي ده وعايزة ايه وليه هو بيرد الرد الغريب ده
+      شوف برده لو تعرف توصل لل http header وتشوف ال host وال path وال parameters ايه اللي بتوصل للريسبونس ده.. ويبقى كويس برده لو وصلت لل request اللي أدى لل response ده.. شوف تولز متخصصة اكتر في ال http والويب عموما زي http fiddler مثلا
+    id: '1654399071266461'
+  - created_time: '2017-11-06T15:54:14+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: ممكن يكون برده الريسبونس ده من فايروول او حاجة in the middle ع الشبكة
+      بتاعتك بتعمل زي data leak prevention policy او اي حاجة بس اوصل برده لاصل الاي
+      بي الغريب ده بتاع ايه ومين اللي بيكلمه عندك
+    id: '1654400887932946'
+  - created_time: '2017-11-06T16:02:07+0000'
+    from:
+      name: Nour Haridy
+      id: '10156101857379222'
+    message: ده غالبا نفس الIP address المستعمل فى shared hosting server لعدد كبير
+      من الdomains على الhosting provider ده. طبيعى لما تفتحه من الIP ومش من الdomain
+      name أن nginx يرد عليك بأن مفيش حاجة يبعتهالك. بينما لو دخلت على نفس الـIP من
+      الدومين هيرد عليك بمحتوى الموقع اللى انت عايزه. السيرفر ده ممكن يكون عليه آلاف
+      الdomains على نفس الIP
+    id: '1654406637932371'
+  - created_time: '2017-11-06T16:03:24+0000'
+    from:
+      name: Nour Haridy
+      id: '10156101857379222'
+    message: |-
+      والدليل على ده ان Hetzner, الhosting provider اللى يمتلك الـIP ده فعلا عنده shared hosting
+      https://www.hetzner.com/webhosting
+    id: '1654407537932281'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkxTkRFNU1EazJNVEk0TnpJM01qb3hOVEE1T1RZANE9Ua3kZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkxTkRRd056VXpOemt6TWpJNE1Ub3hOVEE1T1RnME1qQTQZD
+attachments:
+  data:
+  - description: "لقيت ال request ديه عندي في wireshark, ايه ده؟ \U0001F602"
+    media:
+      image:
+        height: 455
+        src: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/23215569_10155844362266730_3270998071908102881_o.jpg?oh=613bc3540ce955d2e861d348eb3d1a31&oe=5ADAC1EE
+        width: 720
+    target:
+      id: '10155844362266730'
+      url: https://www.facebook.com/photo.php?fbid=10155844362266730&set=gm.1654157701290598&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=10155844362266730&set=gm.1654157701290598&type=3

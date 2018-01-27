@@ -1,0 +1,35 @@
+---
+message: |-
+  I need help
+
+  I'm trying to connect wordpress on a web server to a database on a remote server, I believe I did everything right but it keeps giving me (internal server error 500 "Error establishing a database connection").
+
+  when I try to connect using mysql client it works just fine with the same user, password, db server IP and database name !
+
+  I use nginx 1.10.2 as a webserver, mariadb 5.5.52 and both running on centos7.
+from:
+  name: Mohamed Ashraf
+  id: '400023013756044'
+type: status
+created_time: '2017-07-05T14:50:49+0000'
+updated_time: '2017-07-05T15:56:03+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1537909719582064/
+id: '172338516139198_1537909719582064'
+comments:
+  data:
+  - created_time: '2017-07-05T15:02:18+0000'
+    from:
+      name: Mohamed Radwan
+      id: '10159976552365192'
+    message: can you run "select host,user from mysql.user;" on mysql
+    id: '1537917789581257'
+  - created_time: '2017-07-05T15:56:00+0000'
+    from:
+      name: Mohamed El-Sayed
+      id: '10155182529813309'
+    message: grep bind /path/to/my.cnf please ?
+    id: '1537983582908011'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV6TnpreE56YzRPVFU0TVRJMU56b3hORGs1TWpZAMk9UTTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV6TnprNE16VTRNamt3T0RBeE1Ub3hORGs1TWpjd01UWXcZD

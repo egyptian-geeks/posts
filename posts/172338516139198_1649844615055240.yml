@@ -1,0 +1,88 @@
+---
+message: هل ينفع اردوينو اركب له NFC module واقدر اخليه يعمل ريكويست علي Web API!
+  مجرد ما يعمل سكان لاي كارت.
+from:
+  name: Alaa Nassar
+  id: '1411488178980044'
+type: status
+created_time: '2017-11-01T22:07:04+0000'
+updated_time: '2017-11-05T23:13:49+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1649844615055240/
+id: '172338516139198_1649844615055240'
+comments:
+  data:
+  - created_time: '2017-11-01T23:11:53+0000'
+    from:
+      name: Ahmed Gaber Elneel
+      id: '1552352001546794'
+    message: "محتاج حاجة متقدمة شوية عن الAVR ... اه تقدر بس هتزاول نفسك في الconnectivity
+      ... هتحتاج network shield زيادة عن الNFC ... \n\nالأسهل انك تعمل حاجة زي كده
+      على SoC زي راسبري باي. فيه NFC بيشتغل على الserial \nhttps://www.adafruit.com/product/364\n\nفيه
+      حل أقل تكلفة بس هيحتاج SoC برضه. الا و هو انك تستخدم الNFC على الArduino و توصله
+      بالRaspberry Pi من خلال Serial connection و تخلي الArduino فقط تبعت للRaspberry
+      Pi و تعمل الAPI request"
+    id: '1650018121704556'
+  - created_time: '2017-11-01T23:26:36+0000'
+    from:
+      name: Abdallah Hodieb
+      id: '10155961552416083'
+    message: If that's only what you need, consider getting a cheap/used android phone
+      with NFC. set it to screen always on, and create a simple app to do whatever
+      you need.
+    id: '1650026308370404'
+  - created_time: '2017-11-02T00:35:11+0000'
+    from:
+      name: Abdullah Essam
+      id: '1641721095865954'
+    message: في جهاز اسمة esp زي الاردوينو بالظبط بس اصغر و مدمج فيه wifi انا خليتة
+      مرة اتحكم فيه من تويتر :D
+    id: '1650062208366814'
+  - created_time: '2017-11-02T01:01:14+0000'
+    from:
+      name: Ahmed Mahmoud
+      id: '10155586124501339'
+    message: |-
+      هتحتاج اما موديل esp wifi أو موديول الايثرنت و لآ كانت المهمة المطلوبة بسيطة اعتقد ممكن تكتفي ب esp بدون اردوينو حتي
+      حل بديل تستخدم راسبيري
+    id: '1650075138365521'
+  - created_time: '2017-11-02T04:58:12+0000'
+    from:
+      name: Diaa Ashrf
+      id: '1937511802942885'
+    message: اه انا عملت مشروع مشابه قبل كده كان ESP WIFI MODULE زائد RFID READER
+      بس هات الي بيشتغل UART مش SPI وتوصله ب ال ESP عن طريق ال RX,TX وتعمل WEB INTERFACE
+      CODE علي ال ESP وبس ممكن ارفعلك الكود لو محتاجه
+    id: '1650214195018282'
+  - created_time: '2017-11-02T06:45:24+0000'
+    from:
+      name: Ahmed Nasr
+      id: '10155318238153927'
+    message: تقدر
+    id: '1650265968346438'
+  - created_time: '2017-11-02T09:28:24+0000'
+    from:
+      name: Mo'men Bauomy
+      id: '10155502591672779'
+    message: اللي اعرفه ان راسبيري افضل للربط بالويب
+    id: '1650360005003701'
+  - created_time: '2017-11-05T12:50:34+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: "أنا مااشتغلتش مع RFID قبل كده بس أعتقد أنك تقدر تستخدمه مع esp وتحديدا
+      wemos d1 mini عشان استخدامه سهل\n\nWEMOS D1 mini Lite V1.0.0 - WIFI Internet
+      of Things development board based ESP8285 1MB FLASH\n http://s.aliexpress.com/3IJ73uMB
+      \n(from AliExpress Android)"
+    id: '1653343998038635'
+  - created_time: '2017-11-05T23:13:46+0000'
+    from:
+      name: Mustafa Abdullah
+      id: '10156099084105126'
+    message: |-
+      there is an NFC shield
+      as for API you need to decide http or http(s), the latter needs advanced shield that can do the encryption computational load
+    id: '1653773727995662'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkxTURBeE9ERXlNVGN3TkRVMU5qb3hOVEE1TlRjM09URTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkxTXpjM016Y3lOems1TlRZAMk1qb3hOVEE1T1RJek5qSTMZD

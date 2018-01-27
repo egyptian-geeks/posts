@@ -1,0 +1,128 @@
+---
+message: "السلام عليكم, كنت شغال بقالى فترة على chess engine برنامج ذكاء اصطناعى بيلعب
+  شطرنج, ب C++ \n \nهو UCI engine فبتعامل مع external GUI ومن اشهرال GUIs هو chess
+  arena فمحتاج تحمله لو حابب تجرب ال engine : \nhttp://www.playwitharena.com/?Download\n
+  \nوده ال engine :\nhttp://www.mediafire.com/file/jkkw3yrjky2936m/Little_Lelouch_01.exe
+  \n\nبرنامج arena هو windows app لو مهتم وحابب تجربه وانت linux هتضطر تحمل wine وشغال
+  عليه تمام, باقى البرامج كان فيها بعض المشاكل عل linux فده الى حاليا ال engine  شغال
+  عليه كويس \nhttps://www.winehq.org/download/ \n\nبعد ماتحمل arena بتختار install
+  new engine من \"Engines\" وت select ال engine وعشان تحدد الوقت بتختار من \"Levels\"
+  الى جنبها الوقت والزيادة بالثوانى 20/30 يعنى 20 دقيقة مع زيادة 30 ثانية مع كل حركة\n\nالكود
+  لو حد حابب يشوفه انا حاولت اكتب comments بقدر الامكان لشرح الامر,الموضوع كان حقيقى
+  مفيد بالنسبالى وليه مصادر كويسة للشرح\nhttps://github.com/AbdelrhmanIbrahim/Little_Lelouch_01\n\nصورة
+  لتوضيح بعض الحاجات ف arena : \nhttp://imgur.com/a/8bOD6 \n\nnotes : \n1) this is
+  not stockfish, it's my very first chess engine so you can lower your expectations
+  \n2) no en-passant move implemented in this version yet\n3) some of the algorithms
+  for those whom are interested to read about how strategy board games engines: \n\na)
+  alpha-beta search\nb) iterative deepening search\nc) moves ordering using principle
+  variation ,most valuable victim-least valuable attacker,killer moves, history heuristic
+  and positional score\nd) null move search\ne) aspiration window\nf) quiescence search\ng)
+  zobrist hashing\nh) transposition table\nk) hyperbola quintessence\nl) the position
+  evaluation (I see that this can depend on your chess experience)\n\nلو حد هيجربه
+  ويلاعبه ياريت يقول ايه العيوب او المشاكل الى فيه وشكرا جزيلا."
+from:
+  name: Abdelrahman Ibrahim
+  id: '870918293074668'
+type: status
+created_time: '2016-10-10T11:30:37+0000'
+updated_time: '2016-10-11T19:03:25+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1254098057963233/
+id: '172338516139198_1254098057963233'
+reactions:
+  data:
+  - id: '10155357846496295'
+    name: Jihad A. Abdel Majeed
+    type: LIKE
+  - id: '10155490135004195'
+    name: Ahmed Bedir
+    type: LIKE
+  - id: '1481122361986278'
+    name: Ahmed Hamdy
+    type: LIKE
+  - id: '561895447479777'
+    name: Hamada Mahmoud
+    type: LIKE
+  - id: '1688265317898035'
+    name: AbdulRahman Amr
+    type: LIKE
+  - id: '1537611803002797'
+    name: محمد عبدالرحمن
+    type: LIKE
+  - id: '1641565752594739'
+    name: Ahmed Aziz
+    type: LIKE
+  - id: '10155214903682727'
+    name: Raymon Mina
+    type: LIKE
+  - id: '1997684843783482'
+    name: Mohammed Hesham Tawfeik
+    type: LIKE
+  - id: '1976373499069350'
+    name: Ahmed Bassell
+    type: LIKE
+  - id: '2030745593849290'
+    name: Youssef Emad El-Din
+    type: LIKE
+  - id: '10213353993875904'
+    name: Amr Yassin
+    type: LIKE
+  - id: '10215175206877568'
+    name: Ahmed Shaher
+    type: LIKE
+  - id: '10156229208108311'
+    name: طارق طلعت
+    type: LIKE
+  - id: '10215523479504700'
+    name: Abdulaziz Alaa
+    type: LIKE
+  - id: '10211665323695033'
+    name: Ziad Tarek Aboshady
+    type: LIKE
+  - id: '385696705226073'
+    name: Mohamed Ahmed
+    type: LIKE
+  - id: '2030697810535603'
+    name: Wessam S-e
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpjNE5UQTJNamswT2pFME56WXlNRFExTVRFNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQTNPRFl5TVRBMk1qZA3pPakUwTnpZAd09Ua3lPRFk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-10-10T13:54:37+0000'
+    from:
+      name: Andrew Ramzy Ar
+      id: '1960766703936797'
+    message: |-
+      Abdo momkn l engine da yt3mlo integration m3 l unity lw l GUI ma3mola unity ? wla yetkteb mn l awel fl unity ?
+      3shan kont 3mlt chess bl unity bs multiplayer bs
+    id: '1254177204621985'
+  - created_time: '2016-10-11T01:35:04+0000'
+    from:
+      name: Mahmoud Hossam
+      id: '1360912124012585'
+    message: Don't use mediafire to distribute binaries, use Github's releases instead.
+    id: '1254585901247782'
+  - created_time: '2016-10-11T07:10:39+0000'
+    from:
+      name: Mostafa Fotoh
+      id: '383542948774034'
+    message: مصطفي انديل
+    id: '1254720697900969'
+  - created_time: '2016-10-11T13:32:39+0000'
+    from:
+      name: Mohamed Elawadly
+      id: '824666604386021'
+    message: بطولة العالم للمحركات الشطرنج في الـ rapid شغال حاليا تقريبا :D
+    id: '1254920314547674'
+  - created_time: '2016-10-11T13:39:17+0000'
+    from:
+      name: Mohamed Elawadly
+      id: '824666604386021'
+    message: ''
+    id: '1254924854547220'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkxTkRFM056SXdORFl5TVRrNE5Ub3hORGMyTVRBM05qYzQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkxTkRreU5EZAzFORFUwTnpJeU1Eb3hORGMyTVRrek1UVTMZD

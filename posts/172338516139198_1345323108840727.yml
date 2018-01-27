@@ -1,0 +1,204 @@
+---
+message: "ايه الطريقة الصحيحة اللي ممكن اسأل بيها على Stackoverflow ؟\n*اللي حصل*
+  \nسألت سؤال هناك ازاي اجمع عددين بدون استخدام + او - في جافاسكريبت خدت downvotes
+  حوالي -9 وكمان خدت بان اني اسأل تاني لحد اما أخد upvotes اكتر من اللي خسرتهم :(
+  !"
+from:
+  name: Osama Soliman
+  id: '879271768900112'
+type: status
+created_time: '2017-01-04T11:52:57+0000'
+updated_time: '2017-01-05T19:21:42+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1345323108840727/
+id: '172338516139198_1345323108840727'
+reactions:
+  data:
+  - id: '1581294315300921'
+    name: Hagar Abd El Aal
+    type: LIKE
+  - id: '1707137612683071'
+    name: Ahmed Saleh
+    type: LIKE
+  - id: '10155138037322478'
+    name: Anas Emad
+    type: LIKE
+  - id: '1804402029570329'
+    name: Eslam Gohar
+    type: LIKE
+  - id: '1872433002767763'
+    name: Taghreed Mohammed Kamel
+    type: LIKE
+  - id: '495080930892199'
+    name: Muhammed Nagy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlOakV4TURNMU1EY3pPakUwT0RNM01EWTBOamM2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01ERXhOekE0T0RnM05UWTVPakUwT0RNMU16QTVNak02TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-01-04T11:53:30+0000'
+    from:
+      name: Osama Soliman
+      id: '879271768900112'
+    message: Meligy waiting your answer ^_^ !
+    id: '1345323352174036'
+  - created_time: '2017-01-04T11:55:06+0000'
+    from:
+      name: Mostafa Mohamed Gamal
+      id: '10156066064944153'
+    message: 'خد الكلام منهم : http://stackoverflow.com/help/how-to-ask'
+    id: '1345324868840551'
+  - created_time: '2017-01-04T11:57:36+0000'
+    from:
+      name: Hazem Noor
+      id: '10156016759599354'
+    message: "ممكن تحكي السبب اللي عشانه عاوز تستخدم الطريقة دي و بالتالي هيبق السؤال
+      منطقي،  ليه بقى انت عاوز تجمع عددين بدون استخدام + أو -   \U0001F600 ؟"
+    id: '1345327008840337'
+  - created_time: '2017-01-04T12:05:46+0000'
+    from:
+      name: Ahmed Mahmoud
+      id: '1917940025202392'
+    message: "هو السؤال متجاوب اهه بس ف ال سي بلس بلس \nhttp://stackoverflow.com/questions/1149929/how-to-add-two-numbers-without-using-or-or-another-arithmetic-operator\n\nبس
+      معتقدش انه هتوفر ف ال resource ده الكود هنا اكبر وفي لووب و condition !"
+    id: '1345330898839948'
+  - created_time: '2017-01-04T12:07:24+0000'
+    from:
+      name: Rafael Adel
+      id: '10156260406777122'
+    message: Because it looks like an assignment question... And they hate when someone
+      asks such questions :D
+    id: '1345331485506556'
+  - created_time: '2017-01-04T12:17:14+0000'
+    from:
+      name: Ahmed Moosa
+      id: '10210990493546895'
+    message: "الحقيقة تستاهل. معاك السؤال ومعاك الاجابة . ومش فاهم. المفروض انك تروح
+      تشوف الdocs بتاعة الoperators ولو وقفت معاك حاجة تبحث فى جوجل عن اللى وقف معاك
+      ولما متلاقيش يبقى تسأل . \nحاول تجاوب على كام سؤال. خليك تاخد upvote . بالتوفيق."
+    id: '1345335918839446'
+  - created_time: '2017-01-04T12:19:52+0000'
+    from:
+      name: Omar Beshary
+      id: '10208412458988343'
+    message: "إستخدم Bit wise operators , و دور علي ^ | & و << و >> و ديه الإجابه
+      عامة , الفكره هتتعامل مع الرقم As Binary فبيكون أسرع زي مثلا إنك swap 2 variables
+      \na ^ b\nb ^ a\na ^ b\nبدل ما تستخدم variable تالت , ممكن تفرق لو بتستخدم resources
+      قليله \nhttp://www.geeksforgeeks.org/add-two-numbers-without-using-arithmetic-operators/"
+    id: '1345337192172652'
+  - created_time: '2017-01-04T12:21:25+0000'
+    from:
+      name: Osama Soliman
+      id: '879271768900112'
+    message: "لو شايف ان سؤالي مفيد ليك من فضلك اعمله upvote عشان اقدر اسأل تاني على
+      SOF او لو شايف انه محتاج تعديل عشان يبقى سؤال مقبول قولي ^_^ ..... بليز متقوليش
+      معلش  \U0001F602\U0001F602\nالسؤال هنا : http://bit.ly/HelpMicrosmsmOnSOF"
+    id: '1345338025505902'
+  - created_time: '2017-01-04T12:23:13+0000'
+    from:
+      name: Omar Beshary
+      id: '10208412458988343'
+    message: "إستخدم Bit wise operators , و دور علي ^ | & و << و >> و ديه الإجابه
+      عامة , الفكره هتتعامل مع الرقم As Binary فبيكون أسرع , زي  مثلا إنك swap 2 variables
+      \nint a = 10, b = 5;\na ^= b;\nb ^= a;\na ^= b;\n// a = 5 , b = 10\nبدل ما تستخدم
+      variable تالت , ممكن تفرق لو بتستخدم resources قليله \nhttp://www.geeksforgeeks.org/add-two-numbers-without-using-arithmetic-operators/"
+    id: '1345339318839106'
+  - created_time: '2017-01-04T12:24:28+0000'
+    from:
+      name: Rafael Adel
+      id: '10156260406777122'
+    message: Delete your question there. It's not good for your profile. And when
+      you find a good way to ask it again try again ;) (also try not to put emoticons
+      inside questions/answers too)
+    id: '1345339892172382'
+  - created_time: '2017-01-04T12:38:58+0000'
+    from:
+      name: Mohamed Ossama Abdallah
+      id: '10155077834231790'
+    message: Osama Soliman I just saw it, looks much better now :)
+    id: '1345349058838132'
+  - created_time: '2017-01-04T12:40:59+0000'
+    from:
+      name: Omar K. Enayet
+      id: '10159867664150384'
+    message: 'Rule #1: You must search well for the answer of your question first
+      before posting the question.'
+    id: '1345349932171378'
+  - created_time: '2017-01-04T14:30:03+0000'
+    from:
+      name: Nourmina Nabil
+      id: '10159848122540510'
+    message: Implement a full adder in code .. خلصانة
+    id: '1345425455497159'
+  - created_time: '2017-01-04T15:01:28+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: This happens here all the time. Unfortunately Facebook does not provide
+      downvoting capabilities.
+    id: '1345447482161623'
+  - created_time: '2017-01-04T16:35:40+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      If it happens and you get downvoted, start adding disclaimers as soon as possible to the question or the answer.
+
+      Explain why this is not the stupid thing people might think it is. Use bold and header style and maybe even quotes background to highlight it more. If matters need, even explicitly mention "don't downvote thinking it's ... because it is not".
+
+      Also share the question with friends and communities to help answer it. As a good side effect they may upvote it.
+
+      It's worth deleting and undeleting when the storm goes away if it gets that bad too. This is not a common problem what you faced though.
+
+      Apart from that, the most important components in your question are the story "What I did is 1, 2, 3, and now not sure what to do", and what the question is "NOT". When you ensure you have both, you are usually more protected.
+    id: '1345509502155421'
+  - created_time: '2017-01-04T16:37:10+0000'
+    from:
+      name: Kirolos William
+      id: '1655971554442248'
+    message: "Howq lw l egabt so2al bta3 azay tgm3 w tetra7 mn +, - fa try to google
+      'bit masks\"  \U0001F605"
+    id: '1345510158822022'
+  - created_time: '2017-01-04T16:44:21+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      I edited your question and upvoted it
+      http://stackoverflow.com/q/41455750/146656
+
+      Good luck avoiding too much heat
+    id: '1345513225488382'
+  - created_time: '2017-01-04T22:44:51+0000'
+    from:
+      name: Shady Mohamed Sherif
+      id: '10156191099748000'
+    message: Upvoted
+    id: '1345761048796933'
+  - created_time: '2017-01-05T08:27:32+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: |-
+      1- حاجة مرتبطة بالبرمجة علشان ما تبقاش offtopic
+      2- لازم تقول إنت حاولت تعمل إيه.
+      3- توضح إنت عاوز توصل لإيه.
+      4- إختياري (لكن مهمة) حاول تعمل تجريد للسؤال بحيث تخليه توضيح مبسط للمشكلة بتاعتك علشان تقدر تلاقي ناس كتير ممكن تجاوبك، بمعنى ما تنقلش مشكلتك او الكود بتاعك نسخ ولصق وخلاص (بقدر المستطاع طبعا).
+    id: '1346082555431449'
+  - created_time: '2017-01-05T12:41:21+0000'
+    from:
+      name: Eslam Mostafa
+      id: '1575768239208294'
+    message: upvoted
+    id: '1346242322082139'
+  - created_time: '2017-01-05T17:51:44+0000'
+    from:
+      name: Eman Abou Khatwa
+      id: '1590320331045143'
+    message: google it before posting it on stackoverflow
+    id: '1346504228722615'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0wTlRNeU16TTFNakUzTkRBek5qb3hORGd6TlRNd09ERXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0wTmpVd05ESXlPRGN5TWpZAeE5Ub3hORGd6TmpNNE56QTAZD

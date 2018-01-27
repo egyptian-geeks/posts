@@ -1,0 +1,104 @@
+---
+message: "تم الوصول الى اجابة مرضية. لا حاجة للرد بعد الان.. \nشكرا جدا يا شباب...
+  \n\nHello guys... is it possible to send http headers on a request from the frontend.
+  I'm talking a bout normal refresh on the page like going into a link not an ajax
+  request... \n\n& sorry for my ignorance on the http subject...\nOn that matter:
+  whats the best place i can learn how to understand & manage http requests. Share
+  the resources please... \n\nThanks in advance.\n\nتوضيح:\nازى احط header authorization
+  من خلال get request عادى بالضغط على link او form من غير ajax  requests..."
+from:
+  name: Ahmed Badawy
+  id: '1596110217148252'
+type: status
+created_time: '2017-03-02T08:10:17+0000'
+updated_time: '2017-03-02T19:30:32+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1406367822736255/
+shares:
+  count: 1
+id: '172338516139198_1406367822736255'
+reactions:
+  data:
+  - id: '1580178838731363'
+    name: Mahmoud Zayed
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlNVGMzT0RVek9UQTRPakUwT0RnME5qWTNPRGM2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlNVGMzT0RVek9UQTRPakUwT0RnME5qWTNPRGM2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-03-02T08:21:20+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "What header you are willing to add?\nActually you can do it only with
+      ajax calls, also keep in mind that you will be changing the \"request\" headers,
+      not response ones \nRequest headers may only be useful in providing authentication..
+      etc.. \nOther request headers are server, path, method,  etc.. \nThey are easily
+      set using standard ways of \nAnchor url and html form."
+    id: '1406372422735795'
+  - created_time: '2017-03-02T10:06:43+0000'
+    from:
+      name: Omar Saqr
+      id: '10216335292360651'
+    message: "ماينفعش إلا إذا كنت مستخدم authorization من قبل على نفس الدومين \nHttp
+      basic auth مثلا"
+    id: '1406416839398020'
+  - created_time: '2017-03-02T10:46:08+0000'
+    from:
+      name: Islam Eldemery
+      id: '10159774797555461'
+    message: ممكن نساعدك لو قلتلنا ايه الهيدرز اللي عايز تبعتها .. لان بعضها تقدر
+      تحدده من اللينك والبراوزر هيفهم ويبعتها وهوا بيطلب الصفحة
+    id: '1406434626062908'
+  - created_time: '2017-03-02T12:10:13+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: You shouldnt put any authontication header in get form. Thats a bad practice
+    id: '1406476846058686'
+  - created_time: '2017-03-02T12:49:29+0000'
+    from:
+      name: Ahmed Abd El Hady
+      id: '10155994963444544'
+    message: by the way for testing you could use this chrome extension https://chrome.google.com/webstore/detail/modheader/idgpnmonknjnojddfkpgkljpfnnfcklj
+    id: '1406499212723116'
+  - created_time: '2017-03-02T12:52:40+0000'
+    from:
+      name: Bellal Mohamed
+      id: '1672878506132188'
+    message: Although it's a bad practice to send authorization in get request you
+      can use the credentials to create unique token for one time use and destroy
+      it after the request is processed
+    id: '1406500959389608'
+  - created_time: '2017-03-02T13:22:03+0000'
+    from:
+      name: Eslam Hamouda
+      id: '10212947071504226'
+    message: "فاهم اللي انت عاوز تعمله وللأسف ما ينفعش ، لو عاوز مصدر كويس تفهم الدنيا
+      أكتر أرشح لك سلسلة المقالات دي : \nhttp://odetocode.com/Articles/741.aspx"
+    id: '1406518556054515'
+  - created_time: '2017-03-02T13:48:39+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: if you are talking about http browser requests , the short answer is
+      NO, JavaScript even started after the response of the request.
+    id: '1406536502719387'
+  - created_time: '2017-03-02T17:58:17+0000'
+    from:
+      name: عبدالله محمد
+      id: '10213101784151931'
+    message: "try using fetch \nhttps://developers.google.com/web/updates/2015/03/introduction-to-fetch"
+    id: '1406685499371154'
+  - created_time: '2017-03-02T19:30:27+0000'
+    from:
+      name: Alhasan A. Al-Nasiry
+      id: '1751004338278066'
+    message: "if you want to send custom headers then YES , you can \nhttp://stackoverflow.com/questions/7686827/how-can-i-add-a-custom-http-header-to-ajax-request-with-js-or-jquery\n\nif
+      you want to modify the default headers then NO , you cant"
+    id: '1406750299364674'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF3TmpNM01qUXlNamN6TlRjNU5Ub3hORGc0TkRReU9EZA3gZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF3TmpjMU1ESTVPVE0yTkRZAM05Eb3hORGc0TkRnek1ESTQZD

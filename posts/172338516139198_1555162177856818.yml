@@ -1,0 +1,84 @@
+---
+message: "To all iot giants out there. \nI saw https://cylonjs.com/ and\nhttp://johnny-five.io
+  and they look interesting! \n\nSo it sounds like i can finally use my js to command
+  embedded devices. \n\nquestion is\n\nLeta say i create an http server and used cyclon
+  and firmata protocol to upload that to arduino/raspberry pi. \nThis server will
+  listen to http request and based on it it will turn led light on/off. \n\nI have
+  done this using pubnub already and it works as expected. But the board must be connected
+  to my computer in order to work. \n\nWhat do i need to make this device work independently?\n___\nEdit
+  please check link in my first comment"
+link: https://cylonjs.com/
+from:
+  name: Momen Al Zalabany
+  id: '10160388991030144'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQDYXnhkjdF-HYUJ&w=130&h=130&url=https%3A%2F%2Fcylonjs.com%2Fimages%2Fdevices%2Fardrone.jpg&cfs=1&_nc_hash=AQCoA2TDTMLeR0nF
+created_time: '2017-07-22T16:31:46+0000'
+updated_time: '2017-07-23T00:37:40+0000'
+name: Cylon.js - JavaScript framework for robotics, physical computing, and the Internet
+  of Things using Node.js
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1555162177856818/
+id: '172338516139198_1555162177856818'
+reactions:
+  data:
+  - id: '1570218796388620'
+    name: عبدالرحمن محمود
+    type: LIKE
+  - id: '10159960198215788'
+    name: Mohamed Fawzy
+    type: LIKE
+  - id: '10159880265870164'
+    name: Kinan Qassar
+    type: LIKE
+  - id: '732859920251745'
+    name: Firas Abd Alrahman
+    type: WOW
+  paging:
+    cursors:
+      before: TVRBd01EQXlNREUxTkRVd01qTXlPakUxTURBNE16VXlOREE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTFPRE15TXpFeE1qVXlPakUxTURBM05ESXlNVGM2TnpnNE5qUTRNRE0zT1RFek16RXkZD
+comments:
+  data:
+  - created_time: '2017-07-22T16:34:00+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: https://www.pubnub.com/blog/2016-05-25-howcreate-a-smart-device-with-arduino-and-node-js-using-johnny-five/
+    id: '1555163727856663'
+  - created_time: '2017-07-22T16:34:35+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: This is the post i followed. Now what do i need if i want to make this
+      device work independently without pc
+    id: '1555164081189961'
+  - created_time: '2017-07-22T18:21:51+0000'
+    from:
+      name: Muhammad Khaled
+      id: '1665308196861540'
+    message: |-
+      AFAIK, it's not possible to host a Javascript runtime on Arduino due to resources limitations. When you use Johnny-Five or a similar framework, it actually runs the code on your PC/laptop.
+
+      But it's definitely possible for Raspberry Pi since it runs Linux.
+    id: '1555252181181151'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUxTlRFMk16Y3lOemcxTmpZAMk16b3hOVEF3TnpReE1qUTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUxTlRJMU1qRTRNVEU0TVRFMU1Ub3hOVEF3TnpRM056RXkZD
+attachments:
+  data:
+  - description: Cylon.js is a JavaScript framework for robotics, physical computing,
+      and the Internet of Things using Node.js. It provides a simple, yet powerful
+      way to create JavaScript robots that incorporate multiple, different hardware
+      devices at the same time.
+    media:
+      image:
+        height: 600
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQCvB-ZedbjoV_xA&w=720&h=720&url=https%3A%2F%2Fcylonjs.com%2Fimages%2Fdevices%2Fardrone.jpg&cfs=1&_nc_hash=AQANLL0GOjvXniMI
+        width: 600
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcylonjs.com%2F&h=ATNAwPvFa6GwwVRo0k9MK4wUunQ35dignB2P2WQGEpu_0X84l8gAFVzoN95qH0pLpU8fzW5txIMBc64PxzHXA7zy0SnPSfD7Klyl&s=1&enc=AZOb4CQvw5iZ5dx-JWHJbP8_Gt8gvkA2DJW8jrzZ1YdUydOj_qCHoTJYEIQLOUl7MsTkYEupvQ1I9awdVHjsS-vs
+    title: Cylon.js - JavaScript framework for robotics, physical computing, and the
+      Internet of Things using Node.js
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcylonjs.com%2F&h=ATNAwPvFa6GwwVRo0k9MK4wUunQ35dignB2P2WQGEpu_0X84l8gAFVzoN95qH0pLpU8fzW5txIMBc64PxzHXA7zy0SnPSfD7Klyl&s=1&enc=AZOb4CQvw5iZ5dx-JWHJbP8_Gt8gvkA2DJW8jrzZ1YdUydOj_qCHoTJYEIQLOUl7MsTkYEupvQ1I9awdVHjsS-vs

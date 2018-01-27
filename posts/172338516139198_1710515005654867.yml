@@ -1,0 +1,69 @@
+---
+message: |-
+  Hi guys,
+  What is the best way to take a screen shot for a specific html tag id,
+  I'm currently using jsPDF but i have problems in quality and some test cases failed so i have to find another way, But it has to be Client Side.
+  Thanks in advance :).
+from:
+  name: Mohamed Khalil
+  id: '1527974407270895'
+type: status
+created_time: '2018-01-03T16:48:26+0000'
+updated_time: '2018-01-03T18:22:09+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1710515005654867/
+id: '172338516139198_1710515005654867'
+reactions:
+  data:
+  - id: '10215011048531592'
+    name: Hesham Desouky
+    type: LIKE
+  - id: '1648136701907266'
+    name: Marei Morsy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRJNU1UQTBNRGM0TmpveE5URTFNREF6TURJME9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBd01EQXhNekk0TlRZANU16UTFPakUxTVRVd01ERTFOekE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2018-01-03T16:49:37+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: For a development purpose I think Chrome or Firefox has this feature.
+      If you are looking for a JavaScript alternative that you can use for business
+      I am not sure you have other options than jsPDF
+    id: '1710880602284974'
+  - created_time: '2018-01-03T17:36:56+0000'
+    from:
+      name: Muhammad Tarek
+      id: '1208358265962928'
+    message: I don't know if it will help, but puppeteer screenshot API https://github.com/GoogleChrome/puppeteer/blob/master/docs/api.md#pagescreenshotoptions
+      can help you, try to send the node x,y position along with its width and height
+    id: '1710917865614581'
+  - created_time: '2018-01-03T17:59:54+0000'
+    from:
+      name: Elawady Elsayd
+      id: '1716405828399348'
+    message: "جرب الحاجات الي بتحول ال dom ل canvas \nزي دا مثلا\nhttp://html2canvas.hertzen.com/"
+    id: '1710937122279322'
+  - created_time: '2018-01-03T18:01:47+0000'
+    from:
+      name: Yousef Mahmoud
+      id: '1818224478190849'
+    message: I used to use html5canvas 3rd party, but also I got no good or reliable
+      results from this one. There's option I didn't try it. Use headless browser
+      on the backend side to generate the same image on the client, I know you stated
+      you need something on the client side, but you should get the same result.
+    id: '1710939082279126'
+  - created_time: '2018-01-03T18:22:07+0000'
+    from:
+      name: Ahmed Zain Mohammed
+      id: '10156266511868081'
+    message: It's basically a dom element, into a canvas, then into an image. I remember
+      doing this for a simple comic designing tool, and it worked fine for me.
+    id: '1710952778944423'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN4TURnNE1EWXdNakk0TkRrM05Eb3hOVEUwT1RrNE1UYzQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN4TURrMU1qYzNPRGswTkRReU16b3hOVEUxTURBek56STMZD

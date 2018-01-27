@@ -1,0 +1,90 @@
+---
+from:
+  name: Mohamed M Sayed
+  id: '10156594725257137'
+type: status
+created_time: '2017-06-15T12:39:49+0000'
+updated_time: '2017-06-15T22:53:02+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1516445158395187/
+id: '172338516139198_1516445158395187'
+reactions:
+  data:
+  - id: '402949863485446'
+    name: Abdulrhman Al-fiky
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01ERXpNVEV6TURZAMk9USTFPakUwT1RjMU16azRNekE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01ERXpNVEV6TURZAMk9USTFPakUwT1RjMU16azRNekE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-06-15T12:55:39+0000'
+    from:
+      name: Sameh Selim
+      id: '1907240172924468'
+    message: use open vpn, over tcp/ip
+    id: '1516457165060653'
+  - created_time: '2017-06-15T14:01:42+0000'
+    from:
+      name: Muhammad El-Shafie
+      id: '10215276255482572'
+    message: Use expressvpn
+    id: '1516516301721406'
+  - created_time: '2017-06-15T14:07:49+0000'
+    from:
+      name: Ahmed Khaled
+      id: '1673431476060100'
+    message: ميشوفوا اي vpn provider غير الي محجوب او ياجروا اي سيرفر وينزلوا عليه
+      open vp n وخلاص
+    id: '1516520298387673'
+  - created_time: '2017-06-15T14:22:21+0000'
+    from:
+      name: Ahmed Faris
+      id: '10155284843053310'
+    message: عندنا في ITS نقلوا كل السيرفرات الكويت
+    id: '1516539218385781'
+  - created_time: '2017-06-15T14:27:05+0000'
+    from:
+      name: Mohamed Ashraf
+      id: '10155906116946287'
+    message: Openvpn with https tunneling is your best bet. Or ssh port forwarding
+      /tunneling  is also an option.
+    id: '1516542171718819'
+  - created_time: '2017-06-15T14:33:19+0000'
+    from:
+      name: Mohamed M Sayed
+      id: '10156594725257137'
+    message: cc Rana El Kaliouby
+    id: '1516546891718347'
+  - created_time: '2017-06-15T14:45:27+0000'
+    from:
+      name: Abdullah Ramdan
+      id: '2016745775209068'
+    message: Mohab Shehab
+    id: '1516554598384243'
+  - created_time: '2017-06-15T15:06:08+0000'
+    from:
+      name: Mostafa Soliman
+      id: '10211803772674669'
+    message: |-
+      the are not blocking VPNs on well known ports like https/ssh.
+      So you can register free instance on amazon AWS and open the VPN from there then ssh to your instance and tunnel all your traffic inside the ssh.
+    id: '1516571388382564'
+  - created_time: '2017-06-15T15:19:58+0000'
+    from:
+      name: Ahmed Gaber Elneel
+      id: '1552352001546794'
+    message: Switch to tcp over an ssl port like ssh/https
+    id: '1516582261714810'
+  - created_time: '2017-06-15T22:52:59+0000'
+    from:
+      name: Ahmed Atef
+      id: '10156122235026834'
+    message: |-
+      use softhether vpn with dedicated server
+      I'm using it in KSA and in Egypt, and it's open source and secure, we'll need only to set it up over a cheap dedicated windows server to make sure you're traffic is not logged by any open vpn service
+    id: '1517020171671019'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV4TmpRMU56RTJOVEEyTURZAMU16b3hORGszTlRNeE16TTUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV4TnpBeU1ERTNNVFkzTVRBeE9Ub3hORGszTlRZAM01UYzUZD

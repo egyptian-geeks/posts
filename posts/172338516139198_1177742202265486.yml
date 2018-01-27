@@ -1,0 +1,95 @@
+---
+message: "I'm having a trouble getting user's info beyond  the id and the full name
+  \nI googled about the email and found out i need permission to be able to retrieve
+  it the gender should be working fine but it's not working i also checked birthday
+  and bio i can't retrieve them too any help would be appreciated"
+link: https://www.facebook.com/photo.php?fbid=1036078063108579&set=gm.1177742202265486&type=3
+from:
+  name: Ahmed Ibrahim
+  id: '1553986601317720'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/13615398_1036078063108579_879352077060237953_n.jpg?oh=e0ae8d7d1c0566cf3a7f1f2d0ebab7bc&oe=5ADF5F25
+created_time: '2016-07-08T16:42:55+0000'
+updated_time: '2016-07-09T02:20:17+0000'
+name: Photos from Ahmed Ibrahim's post
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1177742202265486/
+id: '172338516139198_1177742202265486'
+comments:
+  data:
+  - created_time: '2016-07-08T18:40:14+0000'
+    from:
+      name: Mahmoud Said
+      id: '10159857675500183'
+    message: |-
+      You need a permission for the birthday as well, but you can get the age_range if you like.
+      The gender might be a problem with your account, are you sure that you have told FB that you are a male!
+    id: '1177797458926627'
+  - created_time: '2016-07-09T00:10:36+0000'
+    from:
+      name: Mohamed Osman
+      id: '10156415267997448'
+    message: You need to submit your app for review on Facebook so they can give you
+      access to more than the basic info (name/email)
+    id: '1177955898910783'
+  - created_time: '2016-07-09T00:53:07+0000'
+    from:
+      name: Ahmed Ibrahim
+      id: '1553986601317720'
+    message: "i used this php code to make an array out of the user information \n\n
+      \ $user = $response->getGraphObject()->asArray();\n$_SESSION['ALL'] = implode(\",\",$user);\n\nand
+      got only Ahmed Ghoneim,1035986253117760 counted the array using count() function
+      got only 2 elements !"
+    id: '1177976272242079'
+  - created_time: '2016-07-09T02:20:17+0000'
+    from:
+      name: Ahmed Ibrahim
+      id: '1553986601317720'
+    message: |-
+      i solved the problem it was because  the new Facebook API v2.4 changed the way the response is being sent. Now you need to specify in the request url which fields you want the API to return so /me becomes /me?fields=email,name,etc...
+
+      http://stackoverflow.com/questions/31634408/facebook-graph-api-returns-only-name-and-id-for-some-websites
+    id: '1178006588905714'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUzTnpjNU56UTFPRGt5TmpZAeU56b3hORFk0TURBek1qRTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUzT0RBd05qVTRPRGt3TlRjeE5Eb3hORFk0TURNd09ERTUZD
+attachments:
+  data:
+  - subattachments:
+      data:
+      - media:
+          image:
+            height: 405
+            src: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/13615398_1036078063108579_879352077060237953_n.jpg?oh=24a11753749295d6e41b9b974ca699ca&oe=5ADB12DA
+            width: 720
+        target:
+          id: '1036078063108579'
+          url: https://www.facebook.com/photo.php?fbid=1036078063108579&set=gm.1177742202265486&type=3
+        type: photo
+        url: https://www.facebook.com/photo.php?fbid=1036078063108579&set=gm.1177742202265486&type=3
+      - media:
+          image:
+            height: 405
+            src: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/13631565_1036079696441749_2772415207324430026_n.jpg?oh=aac685ee3dd6cb01344ac2fe72812de7&oe=5ADE66A9
+            width: 720
+        target:
+          id: '1036079696441749'
+          url: https://www.facebook.com/photo.php?fbid=1036079696441749&set=gm.1177742202265486&type=3
+        type: photo
+        url: https://www.facebook.com/photo.php?fbid=1036079696441749&set=gm.1177742202265486&type=3
+      - media:
+          image:
+            height: 405
+            src: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/13606731_1036079769775075_6248029135583525485_n.jpg?oh=e20723dec15c9f808807f744070885da&oe=5B1BEB8A
+            width: 720
+        target:
+          id: '1036079769775075'
+          url: https://www.facebook.com/photo.php?fbid=1036079769775075&set=gm.1177742202265486&type=3
+        type: photo
+        url: https://www.facebook.com/photo.php?fbid=1036079769775075&set=gm.1177742202265486&type=3
+    target:
+      id: '1177742202265486'
+      url: https://www.facebook.com/media/set/?set=pcb.1177742202265486&type=1
+    title: Photos from Ahmed Ibrahim's post
+    type: album
+    url: https://www.facebook.com/media/set/?set=pcb.1177742202265486&type=1

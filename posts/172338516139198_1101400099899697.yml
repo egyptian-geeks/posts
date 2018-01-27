@@ -1,0 +1,107 @@
+---
+message: |-
+  my latest open-source project, "httpsify"
+  ------
+  a transparent ssl offloader using letsencrypt with auto renewal ...
+  ------
+  https://github.com/alash3al/httpsify
+from:
+  name: Mohammed Al Ashaal
+  id: '965203406986813'
+type: status
+created_time: '2016-03-19T08:30:36+0000'
+updated_time: '2016-03-19T12:42:11+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1101400099899697/
+id: '172338516139198_1101400099899697'
+reactions:
+  data:
+  - id: '10160260136260389'
+    name: Hossam Saraya
+    type: LIKE
+  - id: '10216043425101793'
+    name: Maher Saif
+    type: LIKE
+  - id: '10159750515025408'
+    name: Mohamed Tarek El Haddad
+    type: LIKE
+  - id: '10208513681277868'
+    name: Islam Gad
+    type: LIKE
+  - id: '10213738834576763'
+    name: Amjad Mashaal
+    type: LIKE
+  - id: '1692815150813994'
+    name: Mahmoud Atef Osman
+    type: LIKE
+  - id: '10211089565935122'
+    name: Amr ElBsheer
+    type: LIKE
+  - id: '10215497581739240'
+    name: Mahmoud Raafat
+    type: LIKE
+  - id: '10212826240185281'
+    name: Mohamed Bassem
+    type: LIKE
+  - id: '10155855157936047'
+    name: Mosab Ibrahim
+    type: LIKE
+  - id: '1686052171461238'
+    name: Abdelaziz Ibrahim
+    type: LIKE
+  - id: '10155182529813309'
+    name: Mohamed El-Sayed
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpRd01qWTFNemc0T2pFME5UZAzBOemcwTVRVNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TmpnMk9Ua3pNekE0T2pFME5UZA3pOemM0TnpBNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-03-19T10:38:13+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Can you tell us a "for dummies" version of what this does? :$ :D
+    id: '1101465513226489'
+  - created_time: '2016-03-19T10:46:12+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: |-
+      I've read the code, and it seems that this script listens on port 443, and receives the requests from users, then forwards them to the web server on port 80, gets the response and then pushes that response back to the user encrypted.
+
+      The script uses SSL certificates by Lets Encrypt.
+    id: '1101470343226006'
+  - created_time: '2016-03-19T10:47:30+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: |-
+      Lets Encrypt itself is one of the most awesome things that happened lately :D
+
+      Read more about it here:
+
+      https://letsencrypt.org/about/
+    id: '1101470663225974'
+  - created_time: '2016-03-19T10:48:39+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: |-
+      I haven't seen your comment till I posted mine! :D
+
+      Mohammed Al Ashaal
+    id: '1101471023225938'
+  - created_time: '2016-03-19T12:23:53+0000'
+    from:
+      name: Mohamed Bassem
+      id: '10212826240185281'
+    message: I'm happy to see more and more Go developers in the group. I was planning
+      to start the first Go meetup in Egypt when the Go meetups all over the world
+      were celebrating Go 1.6 but I wasn't available that day unfortunately. Why don't
+      we start a meetup or a workshop or something ?
+    id: '1101513466555027'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV3TVRRMk5UVXhNekl5TmpRNE9Ub3hORFU0TXpnek9Ea3oZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV3TVRVeE16UTJOalUxTlRBeU56b3hORFU0TXprd01qTXoZD

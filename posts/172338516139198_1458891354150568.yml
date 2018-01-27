@@ -1,0 +1,42 @@
+---
+message: |-
+  #speech_recognition
+  Does anyone understand the idea of tied states in HMM while training and can refere me to a clear explanation about it? I've seen someone who transformed states by hand and I just can't understand why ..
+  Also what's called senones is it the same thing like number of leaves in a decision tree and if so what's a decision tree used for in speech recognition aren't we using hmm?!
+from:
+  name: Rawan Lazkani
+  id: '1337805666323562'
+type: status
+created_time: '2017-04-19T15:17:09+0000'
+updated_time: '2017-04-19T19:01:08+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1458891354150568/
+id: '172338516139198_1458891354150568'
+reactions:
+  data:
+  - id: '1944835295781512'
+    name: Ahmed Gamal
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTNOalV4T0RFeU9EVTVPakUwT1RJMk1UZAzBNREk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTNOalV4T0RFeU9EVTVPakUwT1RJMk1UZAzBNREk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-04-19T15:52:55+0000'
+    from:
+      name: Aly Saleh
+      id: '10157135743444899'
+    message: |-
+      Hey, I have a very shallow understanding for speech recognition, however, this is an interesting project i stumbled up on several years ago, and there is an explanation about basic concepts of speech recognition. I think it explains what you are asking for. Hope it helps
+      http://cmusphinx.sourceforge.net/wiki/tutorialconcepts
+    id: '1458927457480291'
+  - created_time: '2017-04-19T19:01:08+0000'
+    from:
+      name: Nader Al-Sharkawy
+      id: '10154950104465216'
+    message: علاء أشرف
+    id: '1459082010798169'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFExT0RreU56UTFOelE0TURJNU1Ub3hORGt5TmpFM01UYzIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFExT1RBNE1qQXhNRGM1T0RFMk9Ub3hORGt5TmpJNE5EWTQZD

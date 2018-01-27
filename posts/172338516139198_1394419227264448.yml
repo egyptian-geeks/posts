@@ -1,0 +1,86 @@
+---
+message: "السلام عليكم \nدلوقتى وانا بعمل الداتا بيز بتاع مشروع شغال فيه ف 2tables
+  student  and doctor\nالفكرة بقااا انا فى حاجات هتكون موجوده ف table ومش هتكن ف التانى
+  زى مثلا student هيكون ليه stage \nو doctor  هيكون فى علاقة بينه وبين subject table
+  \nفا انا فضلت اعملهم ف 2  table عشان الاختلافت زى اللى زكرتها فوق بس فكرة بقاا لما
+  يجى اليوزر اول ما  يعمل login على ال system هيعمل check ف doctor , student table
+  \nكدا هياخد وقت وااهندل جزء زى ده رخم ومش حلو \nف لو حد عندو اقتراح  وتعديل طريقة
+  احسن ملحوظ صفحة ال login واحدة للكل نفس الroute"
+from:
+  name: Salem Attia
+  id: '758884390967304'
+type: status
+created_time: '2017-02-19T21:37:31+0000'
+updated_time: '2017-02-20T17:05:15+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1394419227264448/
+id: '172338516139198_1394419227264448'
+reactions:
+  data:
+  - id: '10156079688385818'
+    name: Karim Maged
+    type: LIKE
+  paging:
+    cursors:
+      before: TnpjMU5ETTFPREUzT2pFME9EYzFOREU0T1RVNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TnpjMU5ETTFPREUzT2pFME9EYzFOREU0T1RVNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-02-19T21:43:08+0000'
+    from:
+      name: Mariam Maarouf
+      id: '10155779091916638'
+    message: A table for all users with common attributes, a table for students with
+      a foreign key that links to the user ID and student-specific attributes, and
+      a table for doctors with a similar foreign key and doctor-specific attributes.
+    id: '1394421827264188'
+  - created_time: '2017-02-19T21:44:05+0000'
+    from:
+      name: Mohamed Gamal
+      id: '10156096685587328'
+    message: You should read about database normalization. It has an answer for your
+      question, and will teach you much more on having the optimal design for your
+      database.
+    id: '1394422197264151'
+  - created_time: '2017-02-19T22:01:28+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: |-
+      حدد الكائنات اللي عندك بشكل مجرد الأول، وكل كائن مجرد تحدده هيبقى جدول. وفي كائنات جديدة هتظهر لك نتيجة للعلاقات بين الكائنات اللي انت حددتها في الأول (الأنسب كلمة كينونة لأنها الأقرب إلى Entity)
+      يعني في حالتك، اي واحد بيتعامل مع التطبيق او له علاقة به هو بمنظور مجرد User المستخدم ده ظهر له خاصية تانية موش موجودة مع غيره تبقى الخاصية دي تتحول على طول لكينونة تانية تربطها مع كينونة المستخدم بمفتاح خارجي foreign key وفي الحالة دي هيكون المفتاح ده هو المفتاح الرئيسي Primary Key بتاع كينونة المستخدمين Users الخ
+      الأهم زي ما قال الأخ Mohamed Gamal لازم تقرأ عن database normalization او بشكل أعم وأشمل تقرأ عن Relational Database design methodology
+    id: '1394431940596510'
+  - created_time: '2017-02-19T22:55:14+0000'
+    from:
+      name: MOhammed Salah
+      id: '2003551626552599'
+    message: authorization then authentication .. your can add gui to let him select
+      Student or Doctor then authenticate this data ..
+    id: '1394459687260402'
+  - created_time: '2017-02-20T06:13:15+0000'
+    from:
+      name: Met Wally
+      id: '520998054938412'
+    message: one separate table for credentials. for both .. students and doctors.
+    id: '1394712440568460'
+  - created_time: '2017-02-20T07:43:33+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: Create a login VIEW that join/union both tables and query that table.
+      Just like you would do for soft delete for example
+    id: '1394777237228647'
+  - created_time: '2017-02-20T17:05:13+0000'
+    from:
+      name: Saleh Aly
+      id: '2058761104403940'
+    message: "عندي اقتراح انك ممكن تخلي عندك 2 logins\nموجودين في \n2 divs\nواحد خاص
+      بالطالب والتاني بالدكتور، بس هيكونوا الاتنين hidden by default\nوتحط عندك في
+      الصفحة 2 buttons \nStudent login\nDoctor login \nوتعمل لكل واحد on click function
+      \nبتظهر اللوجين اللي اليوزر عمل كليك عليها وتخفي التانية وبكده كل لوجين هتخليها
+      تعمل  check في ال Table الخاص بيها بس"
+    id: '1395352797171091'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE01TkRReU1UZA3lOekkyTkRFNE9Eb3hORGczTlRRd05UZAzQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE01TlRNMU1qYzVOekUzTVRBNU1Ub3hORGczTmpFd016RTAZD

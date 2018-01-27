@@ -1,0 +1,146 @@
+---
+message: "#مجرد وجه نظر \n\nبالرغم ان kotlin مش لغه جديده لكن واخده الاضواء الايام
+  دي حتي من غير المتخصصين \nمع انها مش جديده اوي كده بقاله فتره يمكن اشتغلت عليها
+  من حوالي سنه \n\nوبقي فيه سئوال كل يوم الناس بتسئله \"سؤال غريب جدا \" هي java كده
+  ماتت \n\nوجهه نظري ان dart اولي من kotlin بالاهتمام ده \n\nاولا: هي ليها vm الخاص
+  بيها Dart vm \nثاني : بتدعم  برضوا android and ios \nثالثا : سهله وتشتغل علي الbrowser
+  \nرابعا : اللغه الرسميه لنظام جوجل الجديد   Fuchsia os \n\nاعتقد ان النقاط دي كفايه
+  انها تتفوق علي kotlin الي شغاله علي jvm \nيعني في النهايه bytecode \nزي scala \n\nحد
+  جرب dart ? \n\n"
+link: https://www.dartlang.org/
+from:
+  name: Mohamed A. Alqrwash
+  id: '10213394268464462'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQALkdfqGTDU2KNQ&w=130&h=130&url=https%3A%2F%2Fwww.dartlang.org%2Fsamples%2Fimages%2Ffrontpage-sample.png&cfs=1&_nc_hash=AQAhhvcsoJ0xEXav
+created_time: '2017-05-20T11:02:19+0000'
+updated_time: '2017-05-21T08:28:52+0000'
+name: Dart programming language
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1488287451210958/
+shares:
+  count: 5
+id: '172338516139198_1488287451210958'
+reactions:
+  data:
+  - id: '962664610552065'
+    name: Mohamed Hamed
+    type: LIKE
+  - id: '10214030500170038'
+    name: Omar Kamel
+    type: LIKE
+  - id: '10160073977745637'
+    name: Ahmed Aswani
+    type: LIKE
+  - id: '10215386861845749'
+    name: Mohamed Arabi Saleh
+    type: LIKE
+  - id: '10156160579005929'
+    name: Abdurrahman Nasr
+    type: LIKE
+  - id: '2012728262101039'
+    name: Ahmed Alsharkawy
+    type: LIKE
+  - id: '10156165643313420'
+    name: Tony Raoul Iscaros
+    type: LIKE
+  - id: '1886790754688072'
+    name: Osama Hassan
+    type: LIKE
+  - id: '1992545480985885'
+    name: Mahmoud Shahin
+    type: LIKE
+  - id: '10211225443773296'
+    name: Amr Salman
+    type: LIKE
+  - id: '10155843058342900'
+    name: Islam Muhammad
+    type: LIKE
+  - id: '1580453105383888'
+    name: Ahmed Sakr
+    type: LIKE
+  - id: '495080930892199'
+    name: Muhammed Nagy
+    type: LIKE
+  - id: '1545538692229944'
+    name: Majd Latah
+    type: LIKE
+  - id: '10156115350739764'
+    name: Mahmoud Tantawy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTBNalUyTURVMU1EUTFPakUwT1RVME5qSXpORFE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TlRFME5UYzVOell6T2pFME9UVXlOemcxTXpjNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-05-20T11:02:41+0000'
+    from:
+      name: Mohamed A. Alqrwash
+      id: '10213394268464462'
+    message: |-
+      Why Not a Bytecode VM?
+
+      Written by Florian Loitsch and Bob Nystrom
+      November 2011
+
+      When we released an early preview of Dart we were frequently asked why the Dart VM is not bytecode based, but instead works on Dart source code directly. A bytecode VM seems to have a big advantage over a language VM: given a standardized bytecode format, developers can write in the language of their choice and then simply compile to the specified bytecodes.
+
+      In this article we will discuss the trade-offs VMs have to make, and explain why we think that a language VM makes more sense for Dart.
+
+      https://www.dartlang.org/articles/dart-vm/why-not-bytecode
+    id: '1488287607877609'
+  - created_time: '2017-05-20T11:13:53+0000'
+    from:
+      name: Muhammed Nagy
+      id: '495080930892199'
+    message: "dart لسه مش جامدة دلوقتي ومفيهاش مكتبات كتير ذي جافا \nوهتبقي مشكلة
+      علي الناس الي مطحونين جافا يغيروا مبدائهم ويتجهوا ل functional programming"
+    id: '1488292614543775'
+  - created_time: '2017-05-20T20:48:24+0000'
+    from:
+      name: Hany Ahmed
+      id: '10156089330442292'
+    message: It's not a JVM Language only, Kotlin has 3 environments Kotlin/JVM -
+      Kotlin/JS - Kotlin/Native
+    id: '1488705844502452'
+  - created_time: '2017-05-21T00:33:45+0000'
+    from:
+      name: Tony Raoul Iscaros
+      id: '10156165643313420'
+    message: "dart is really cool , but i am having some troubles finding some  good
+      developers for it . \nI mean it is really good why isn't it popular yet ?\nAlso
+      why would google make darts and go ! i can't get it , go is also perfect and
+      can be ported to browser with ease"
+    id: '1488832461156457'
+  - created_time: '2017-05-21T01:51:16+0000'
+    from:
+      name: Ibrahim Gamal
+      id: '1143143572456006'
+    message: Sief Aymen
+    id: '1488870767819293'
+  - created_time: '2017-05-21T08:28:49+0000'
+    from:
+      name: Shady Yehia Selim
+      id: '1588317064586897'
+    message: |-
+      Dart has and not short learning cycle, so no one wants to take that path
+      While Kotlin is popular and many modules and extensions are already in market, it had a good user base, and it support already exist Android Java plugin
+    id: '1489099911129712'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE0T0RJNE56WXdOemczTnpZAd09Ub3hORGsxTWpjNE1UWXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE0T1RBNU9Ua3hNVEV5T1RjeE1qb3hORGsxTXpVMU16TXcZD
+attachments:
+  data:
+  - description: Dart is an application programming language that’s easy to learn,
+      easy to scale, and deployable everywhere.
+    media:
+      image:
+        height: 524
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQDUln2NtQrCBKCN&w=720&h=720&url=https%3A%2F%2Fwww.dartlang.org%2Fsamples%2Fimages%2Ffrontpage-sample.png&cfs=1&_nc_hash=AQBSafuPKgNcjrfW
+        width: 524
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.dartlang.org%2F&h=ATPdLBUbtL4-TVzbzJ-MfYimAvD6nR9l_PoLMdLxpfOTh3HvoGAEFSmKBMPfdoRPP0nY2fYdxUCqU9SA0oBtI_TlUWaPTxQdcsKu&s=1&enc=AZMAGXiyskYnS3PuI5NZeptAKvbCg9sIIe7gjkZFmMIAGT45TrwOfOJwvFGwUpm7gBqM1lFxGDtv2hwfyrHoKvGE
+    title: Dart programming language
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.dartlang.org%2F&h=ATPdLBUbtL4-TVzbzJ-MfYimAvD6nR9l_PoLMdLxpfOTh3HvoGAEFSmKBMPfdoRPP0nY2fYdxUCqU9SA0oBtI_TlUWaPTxQdcsKu&s=1&enc=AZMAGXiyskYnS3PuI5NZeptAKvbCg9sIIe7gjkZFmMIAGT45TrwOfOJwvFGwUpm7gBqM1lFxGDtv2hwfyrHoKvGE

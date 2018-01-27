@@ -1,0 +1,34 @@
+---
+message: |-
+  Anyone here familiar with testdisk ?
+  I am trying to recover a deleted partition.
+from:
+  name: Omar Hossam Ahmed
+  id: '10156071955196730'
+type: status
+created_time: '2016-08-23T14:16:12+0000'
+updated_time: '2016-08-25T00:51:20+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1212080735498299/
+id: '172338516139198_1212080735498299'
+comments:
+  data:
+  - created_time: '2016-08-23T14:24:14+0000'
+    from:
+      name: AbdAllah Khashaba
+      id: '1032800230207501'
+    message: 'use : partition table doctor  , herins boot CD'
+    id: '1212086352164404'
+  - created_time: '2016-08-25T00:51:17+0000'
+    from:
+      name: Ahmed Sabry
+      id: '1847421335299420'
+    message: |-
+      I have a successful experience,
+      If it can't find your partitions at first time you can try deep search ( for me it took 2 hours for 1TB hdd) and will detect all partitions but you will find a some partitions repeated some.
+      Use left/right arrows to flag the partitions as(Primary/logical/extended).
+      If you want to make sure of an partition you could press P from keyboard to explore the partition to see files.
+    id: '1213563742016665'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl4TWpBNE5qTTFNakUyTkRRd05Eb3hORGN4T1RZAeU1qVTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl4TXpVMk16YzBNakF4TmpZAMk5Ub3hORGN5TURnMk1qYzMZD

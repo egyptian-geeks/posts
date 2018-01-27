@@ -1,0 +1,126 @@
+---
+message: "#help \nWhat is maximum bits can be stored in 1 cm * 5 cm * 5 cm metal surface
+  .\nassume bit will be stored in one atom .\natomSize =  5 × 10^(−10) m\n------------------------------------------------------\nsurface
+  volume = 1 * 5 * 5 = 25 cm = 0.25 m\nnumber of atoms = 0.25 / atomSize  =  500,
+  000, 000 atom \n\nafter assume bit will stored in one atom so we have  \n500, 000,
+  000 bit.\n\n500, 000, 000 bit = 62.5 Mega Byte\ni know there is something wrong
+  but i cannot get it till now .\nSD card volume is less than this and still hold
+  tons of  Mega Bytes ;\n\n---------------------------------------------------------\n\nEdit
+  : ignore any of my assumption \nThe right answer by Hisham Fangary\n\nWhat you need
+  to do is use Avigdor's number, which is 6.022 * 10^23, then divide that number by
+  the material's atomic weight to get the number of atoms in each gram.\n\nLet's assume
+  this metal is iron.\nIron has an atomic weight of 55.\nTo keep things simple, let's
+  assume we are trying to determine how many atoms are inside a cube of iron that
+  is exactly 55 grams.\n\nThat means for 55 grams of iron, there are 6.022 * 10^23
+  atoms = 602,200,000,000,000,000,000,000 atoms.\n\nThat many atoms can store =\n602,200,000,000,000,000,000,000
+  atoms / 8 bits / 1000 bytes / 1000 kilobytes =\n75,275,000,000,000,000 megabytes!\n=
+  75,275 TERABYTES!\n\nNow to apply this to your example, you need to:\n1. Determine
+  the material, and get its atomic weight\n2. divide Avigdor's number by its atomic
+  weight to get the number of atoms inside each gram.\n3. determine the material's
+  density, to find out how many grams are packed inside each cm of material.\n4. multiple
+  the number of grams per cm by 1 * 5 * 5 to get the total number of atoms.\n\n-------------------------------------------------\nanother
+  answer by Amr ELsaqqa\n\nAssuming silicon substrate, 1 bit per 1 atom\ngiven volume
+  = 25 cm, silicon density = 2.33 gm/cm\nthen mass of 25cm3 = 25*2.33 = 58.25 gm\n\nno.
+  of atoms = no. of moles * Avogadro's no. \n\nno. of moles = mass / mass of one mole
+  \n= mass / atomic mass \n= 58.25/28.05 = 2.08 moles \n\nthen \nno. of atoms = 2.08
+  * 6.02exp23 = 1.25 exp 24 atoms\n= 1.25e24/8 bytes = 1.56e23 bytes\n= 1.56e23/1024/1024
+  MB = 1.49e17 MB \n\n1.49e17 /1024/1024/1024/1024 = 138793.71 exa byte"
+from:
+  name: Amr Almgwary
+  id: '1978556165731463'
+type: status
+created_time: '2017-03-04T12:45:46+0000'
+updated_time: '2017-03-04T14:24:42+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1408797829159921/
+id: '172338516139198_1408797829159921'
+comments:
+  data:
+  - created_time: '2017-03-04T12:47:15+0000'
+    from:
+      name: Amr Almgwary
+      id: '1978556165731463'
+    message: Abd El-Rhman
+    id: '1408798685826502'
+  - created_time: '2017-03-04T12:54:14+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: أما أنا كنت في المدرسة كانوا بيأكدوا علينا نركز على الوحدات.
+    id: '1408801779159526'
+  - created_time: '2017-03-04T12:57:36+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "الاتوم سايز حسبته على اي اساس\nولاي مادة.. وايه علاقة ده بال sd \nلو
+      عايز اطبق المثال بتاعك هقول عدد الذرات يساوي عدد مولات الحجم ده من مادة السليكون
+      مثلا مضروب في عدد افوجادرو.. هيدينا رقم كبير جدا من الذرات.."
+    id: '1408803432492694'
+  - created_time: '2017-03-04T13:00:17+0000'
+    from:
+      name: Mariam Maarouf
+      id: '10155779091916638'
+    message: |-
+      If we completely disregard your assumption of the atom size in what is supposed to be cubic meters (?) of some  metal (??) here is a thread that might explain how SD cards are small (and getting smaller per storage unit):
+      https://www.google.com.eg/amp/s/amp.reddit.com/r/explainlikeimfive/comments/33wsi1/eli5_how_is_it_possible_for_tiny_sd_cards_to_have/
+    id: '1408804792492558'
+  - created_time: '2017-03-04T13:04:06+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "تقريبا 25 سم مكعب يعني 60 جرام سليكون\nاقسم على الكتلة الجزيئية للسليكون
+      28\nيدينا  2.15 مول سليكون فيهم 1.29e24 ذرة \nيطلع في الاخر 1.5 في 10 اس 17
+      ميجا \nلو بتتكلم على ليفل الذرة.. لا الارقام بتبقى مرعبة جدا \U0001F603"
+    id: '1408806742492363'
+  - created_time: '2017-03-04T13:46:01+0000'
+    from:
+      name: Amr Almgwary
+      id: '1978556165731463'
+    message: Amr ELsaqqa can you write the equation again in wright  way =D
+    id: '1408840405822330'
+  - created_time: '2017-03-04T13:47:26+0000'
+    from:
+      name: Hisham Fangary
+      id: '10156660518155839'
+    message: |-
+      That calculation is entirely off.
+      What you need to do is use Avogadro's number, which is 6.022 * 10^23, then divide that number by the material's atomic weight to get the number of atoms in each gram.
+
+      Let's assume this metal is iron.
+      Iron has an atomic weight of 55.
+      To keep things simple, let's assume we are trying to determine how many atoms are inside a cube of iron that is exactly 55 grams.
+
+      That means for 55 grams of iron, there are 6.022 * 10^23 atoms = 602,200,000,000,000,000,000,000 atoms.
+
+      That many atoms can store =
+      602,200,000,000,000,000,000,000 atoms / 8 bits / 1000 bytes / 1000 kilobytes =
+      75,275,000,000,000,000 megabytes!
+      = 75,275 TERABYTES!
+
+      Now to apply this to your example, you need to:
+      1. Determine the material, and get its atomic weight
+      2. divide Avogadro's number by its atomic weight to get the number of atoms inside each gram.
+      3. determine the material's density, to find out how many grams are packed inside each cm of material.
+      4. multiple the number of grams per cm by 1 * 5 * 5 to get the total number of atoms.
+    id: '1408841542488883'
+  - created_time: '2017-03-04T13:50:55+0000'
+    from:
+      name: Amr Almgwary
+      id: '1978556165731463'
+    message: post updated
+    id: '1408843769155327'
+  - created_time: '2017-03-04T13:58:22+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "I calculated it this way \nAssuming silicon substrate, 1 bit per 1 atom\ngiven
+      volume = 25 cm, silicon density =  2.33 gm/cm\nthen mass of 25cm3 = 25*2.33
+      = 58.25 gm\n\nno. of atoms = no. of moles * Avogadro's no. \n\nno. of moles
+      = mass / mass of one mole \n= mass  / atomic mass \n= 58.25/28.05 = 2.08 moles
+      \n\nthen \nno. of atoms = 2.08 * 6.02exp23 = 1.25 exp 24 atoms\n= 1.25e24/8
+      bytes = 1.56e23 bytes\n= 1.56e23/1024/1024 MB = 1.49e17 MB \n\n1.49e17 /1024/1024/1024/1024
+      = 138793.71 exa byte"
+    id: '1408847929154911'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF3T0RjNU9EWTROVGd5TmpVd01qb3hORGc0TmpNeE5qTTEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF3T0RnME56a3lPVEUxTkRreE1Ub3hORGc0TmpNMU9UQXoZD

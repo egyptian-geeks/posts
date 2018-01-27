@@ -1,0 +1,23 @@
+---
+message: "i deployed asp.net mvc project through visual studio to a website hosting
+  that support mvc and MS sql too  and restore a database backup successfully but
+  there's some error in web.config file so the website didn't work properly related
+  to database access but the project works fine locally\n\nand honestly this is a
+  first time for me to deal with things related to deploy and publish project through
+  website hosting so that i tried many things to correct the error related to connection
+  string but i couldn't do that\n\nthis is the connection string after updated \n
+  \ <add name=\"wa3enyEntities\" connectionString=\"metadata=res://*/Models.Model1.csdl|res://*/Models.Model1.ssdl|res://*/Models.Model1.msl;provider=System.Data.SqlClient;provider
+  connection  string=&quot;data source=SQL5004.myASP.NET;initial catalog=DB_9B2DF3_wa3iny;integrated
+  security=False;MultipleActiveResultSets=True;App=EntityFramework&quot;\" providerName=\"System.Data.EntityClient\"
+  />\n\nthe website hosting support review the connection string and told me that
+  \ni should review the code to ensure that not  overwritten by any other script.\n\nbut
+  it works locally without any problem so i didn't think that the error in code but
+  in the connenction string but i didn't know it till now"
+from:
+  name: Mohamed Hashem
+  id: '1703405903057034'
+type: status
+created_time: '2014-09-04T01:32:00+0000'
+updated_time: '2014-09-04T12:30:22+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/808853222487721/
+id: '172338516139198_808853222487721'

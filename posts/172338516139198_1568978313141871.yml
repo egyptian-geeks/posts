@@ -1,0 +1,133 @@
+---
+message: "انا عندي مشكلة صغيرة بس في تسمية الproviders او اي حاجه جمع بشكل عام\n \nاقول
+  \nbookProvider\nor \nbooksProvider\nاقول على \"ايقونات\" \"متاجر\" التطبيقات\nappStoreIcons\nor
+  \nappStoresIcons"
+from:
+  name: Osama Soliman
+  id: '879271768900112'
+type: status
+created_time: '2017-08-05T07:34:41+0000'
+updated_time: '2017-08-05T17:46:13+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1568978313141871/
+id: '172338516139198_1568978313141871'
+reactions:
+  data:
+  - id: '1562273430507384'
+    name: Mohamed ALaa
+    type: LIKE
+  - id: '10154943457932257'
+    name: Ahmed Mohamed Abdelmoniem
+    type: LIKE
+  - id: '10211072612477910'
+    name: Mohamed Hafez Abdallah
+    type: LIKE
+  - id: '10154903513366315'
+    name: Ahmed Ali Salim
+    type: LIKE
+  - id: '1385664498246611'
+    name: Sayed Said
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhOelF5TWpjMk16VTBPakUxTURFNU5EVXpNRFE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTBNRGt5TWpFeE5ESXhPakUxTURFNU1UazBNREk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-08-05T08:01:46+0000'
+    from:
+      name: Tarek Omar
+      id: '10154987014676459'
+    message: |-
+      Booksprovider- one provider for multi books
+      Bookprovider - one provider for single book
+      Booksproviders - multi provider for multi books
+      Bookproviders - multi provider for a single book
+
+      فين المشكله؟
+    id: '1568991699807199'
+  - created_time: '2017-08-05T08:09:58+0000'
+    from:
+      name: Ammar Youssef
+      id: '10155097484932190'
+    message: |-
+      معضلة التسمية معضلة فعلا بتؤرق اعتى المبرمجين(لا امزح)
+      حلها ان لا ترهق نفسك بها طالما فريق العمل متفق
+    id: '1568995479806821'
+  - created_time: '2017-08-05T08:33:56+0000'
+    from:
+      name: Ahmed Agamy
+      id: '10215348668691955'
+    message: لا متجمعش سمى مفرد لانه بيمثل ايتم واحد
+    id: '1569008603138842'
+  - created_time: '2017-08-05T08:42:24+0000'
+    from:
+      name: Mohamed Ibrahim
+      id: '10210867242069162'
+    message: سمي دايما الclass باسم يدل على إنه حاجة واحدة مش اكتر لإن الأصل إن دا
+      شيء مجرد، والشيء المجرد لسه ملوش جمع ،BooksProvider دا يدل على حاجة واحدة مفيش
+      مشكلة فيه .. ممكن تسهل على نفسك وتسأل نفسك كل مرة،  لما تيجي تعمل لستة أوبجكتس
+      من الكلاس دي هيبقى شكلها ازاي يعني هل الأحسن List<Provider> - List<Providers>
+      I متهيألي اللي مفهاش جمع هي الأسهل على الفهم والتعامل
+    id: '1569012866471749'
+  - created_time: '2017-08-05T08:42:48+0000'
+    from:
+      name: محمود كريم
+      id: '1780676198623196'
+    message: Just be consistent
+    id: '1569013039805065'
+  - created_time: '2017-08-05T10:51:33+0000'
+    from:
+      name: Walid Assem
+      id: '10155090288751994'
+    message: "اعتقد انك بتعمل قاعدة بيانات أو \nCode convention \nصح ؟"
+    id: '1569091723130530'
+  - created_time: '2017-08-05T12:55:21+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: BookProvider will provide a single book, booksProvider should provide
+      a collection of books.
+    id: '1569174983122204'
+  - created_time: '2017-08-05T13:56:32+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: Keep in mind "class name should be singular"
+    id: '1569234549782914'
+  - created_time: '2017-08-05T14:52:08+0000'
+    from:
+      name: Hazem Gharib
+      id: '10210872767599497'
+    message: |-
+      Classes are singular .. Database Tables are plural
+      Even if a class should return a collection a good naming should be for example "BookCollection" not "BooksCollection"
+
+      This convention is used and implemented by Microsoft, (e.g. UserStore & ApplicationUserManager classes in Identity Authentication Implementation)
+
+      for further explanation in C# please refer to this https://stackoverflow.com/questions/1126256/net-collection-naming-convention
+    id: '1569274536445582'
+  - created_time: '2017-08-05T17:46:11+0000'
+    from:
+      name: Hisham Fangary
+      id: '10156660518155839'
+    message: |-
+      Single word naming:
+
+      Only arrays/lists/hashtables should be plural. All other types should be singular. Ex. An array of books should be named "books", also helps in readability especially in non strong typed languages. Ex when you see var books = getResults();
+      you know the function returns an array of books, not a single book.
+      Classes and objects should almost always be singular, functions should always start with a verb.
+
+      Multiword variables:
+
+      If it's an array you should pluralize the subject, ex an array of providers of books should be named "bookProviders", you don't have to pluralize book because in this case this is a list of providers, and book is just the type of the provider. So the focus is on "providers".
+
+      But Things get a little more vague when you get to more than 2 word variables, like what if you created a class that processes book providers?
+      Should it be called "BookProvidersProcessor" or "BookProviderProcessor"?
+      You can go with the singular version since the focus is on the "processor" part, because this is the main function of the class, however, you can also go with BookProvidersProcessor if you want to put an ephasis on the fact that this class processes multiple providers of books per instance, as opposed to processing a single provider per instance.
+
+      In this case use your judgement and pick what you would like emphasized.
+    id: '1569413519765017'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUyT0RrNU1UWTVPVGd3TnpFNU9Ub3hOVEF4T1RJd01UQTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUyT1RReE16VXhPVGMyTlRBeE56b3hOVEF4T1RVMU1UY3kZD

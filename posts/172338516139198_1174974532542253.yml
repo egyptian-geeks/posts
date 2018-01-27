@@ -1,0 +1,42 @@
+---
+message: "السلام عليكم\n\nمن فضلكم يا شباب انا مطلوب منى انى اعمل مشروع ينقل بيانات
+  من جدول فى قاعدة بيانات لنفس الجدول بس فى قاعدة بيانات تانية وطبعا النقل بيتم بشرط
+  التاريخ\n\nالمهم عملت كل حاجة وقدرت استدعى الداتا وحطيتها فى session بحيث احطها
+  فى list بعد كده عشان اعمل عليها loop وانقلها حسب المطلوب بس ظهرت ليا المشكلة لما
+  عملت foreach عشان اللوب على list \n\nSeverity Code Description Project File Line
+  Suppression State\nError CS1503 Argument 1: cannot convert from 'PricingUpdate.Models.ExpireDbContext.AZTRH'
+  to 'PricingUpdate.Models.azDbContext.AZTRH' PricingUpdate \n\nرغم ان الجدولين نفس
+  الحقول ونفس الانواع بس ده فى قاعدة بيانات وده فى قاعدة بيانات تانية \n\nفممكن اعرف
+  ازاى احل المشكلة دى ؟"
+from:
+  name: Ahmed Amin
+  id: '1962172197389574'
+type: status
+created_time: '2016-07-04T11:18:40+0000'
+updated_time: '2016-07-04T18:30:25+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1174974532542253/
+id: '172338516139198_1174974532542253'
+comments:
+  data:
+  - created_time: '2016-07-04T11:53:21+0000'
+    from:
+      name: Muhammad El-Hennawy
+      id: '10213118809797201'
+    message: انا معنديش خبرة كبيرة في قواعد البيانات ولكن ممكن تجرب لو انت عملت export
+      للجدول لقاعدة البيانات الاولي لفورمات زي CSV وبعد كده تعمل parse او اي طريقة
+      تانية وتظبط الداتا وبعد كده تعمل ليها import  في قاعدة البيانات التانية .. الفكرة
+      بانك تحول البيانات في الجدول الاول ل neutral format سهل تنقله لاي قاعدة بيانات
+      تانية.
+    id: '1174995862540120'
+  - created_time: '2016-07-04T18:30:25+0000'
+    from:
+      name: Mohamed Fathy
+      id: '1821352131269578'
+    message: "بس لو ممكن توضح انت يتنقل ازاي الداتا. \nاللي أفهمه من كلامك انك بتحاول
+      \ تملأ object من نوع ل نوع تاني خالص وده مش مقبول حتى لو نفس columns\nجرب ت
+      لوب علي الاوبجكت الاولاني وبعدين تملأ الاوبجكت التاني column by column."
+    id: '1175161325856907'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUzTkRrNU5UZAzJNalUwTURFeU1Eb3hORFkzTmpNek1qQXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUzTlRFMk1UTXlOVGcxTmprd056b3hORFkzTmpVM01ESTEZD

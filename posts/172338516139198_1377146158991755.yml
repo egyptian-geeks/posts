@@ -1,0 +1,115 @@
+---
+message: |-
+  I am making something like a search button for a website. the website is in Arabic so the search queries are all in Arabic. I want to make the queries work even if the searching string(title) wasn't identical to the searched one but had big similarity. like ابعاد سياسيه and أبعاد سياسية for example.
+  I thought of making this using LIKE and wildcards.  but it won't work because I am comparing two strings not searching for a pattern of a one into the other so I though I can split the string into words and search for words as a pattern. but It seemed too complex and inaccurate.
+  another approach is to get all the records from the database and compare them to see how much they match up with my search text and if there was a one that highly matches I will get all the full row then. though I think it is very inefficient if the database got larger in size. I want to know if there is a little complex way to do it or if the query I mentioned above is fine.
+from:
+  name: Hossam Mohammed
+  id: '1793040840748253'
+type: status
+created_time: '2017-02-03T10:13:02+0000'
+updated_time: '2017-02-05T22:58:04+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1377146158991755/
+id: '172338516139198_1377146158991755'
+reactions:
+  data:
+  - id: '10155858442641183'
+    name: Mohamed Fathy
+    type: LIKE
+  - id: '10215489165042760'
+    name: Ahmed Ashraf Gamal
+    type: LIKE
+  - id: '1772542006152666'
+    name: Mohamed AbuIssa
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpNMU1qSTJNVGd5T2pFME9EWXpNelEyTXpjNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQXhPVEEyTlRBNU16RXlPakUwT0RZAeE1qRTFNalk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-02-03T10:15:30+0000'
+    from:
+      name: Mohamed Gamal
+      id: '10156096685587328'
+    message: How about adding "tags" to whatever you're searching , and get all records
+      having tags mentioned in the search query; ordered by number of matched tags
+    id: '1377147775658260'
+  - created_time: '2017-02-03T10:21:28+0000'
+    from:
+      name: Ibrahim Hammad
+      id: '10154919620001486'
+    message: "You may have 2 options, \n1. Elastic Search (it has Arabic support).
+      I didn't really use it but I read about it. \n2. Full text search (in SQL,  it
+      has great Arabic support). I used it many years back and it was really helpful."
+    id: '1377150172324687'
+  - created_time: '2017-02-03T10:25:24+0000'
+    from:
+      name: Mohamed Osman
+      id: '10156415267997448'
+    message: Elastic search with relevance score (_score returned from query)
+    id: '1377151598991211'
+  - created_time: '2017-02-03T10:32:05+0000'
+    from:
+      name: Ahmed Hammad
+      id: '10159881004380503'
+    message: |-
+      What you're looking for is Arabic text normalization
+      Another 2 options to choose from:
+      1. If your persistence framework supports regex, then you can alter user input to a regex matching possible character combinations before querying
+      2. If not, then you can have 2 columns in your db, one for the text as it is (which you'll use in UI), another with normalized text, which you'll use for searching (after normalizing search term as well)
+    id: '1377154982324206'
+  - created_time: '2017-02-03T11:37:04+0000'
+    from:
+      name: Michael Azmy
+      id: '10156169715692718'
+    message: |-
+      You should preprocess the queries into common form.
+      You can even get the lemmas of the word and search with them.
+    id: '1377215625651475'
+  - created_time: '2017-02-03T13:32:44+0000'
+    from:
+      name: Mohamed Tawfik
+      id: '10204074940031522'
+    message: |-
+      elasticsearch
+      https://www.elastic.co/
+    id: '1377297188976652'
+  - created_time: '2017-02-03T18:17:27+0000'
+    from:
+      name: Hadeel Sharaf
+      id: '1884406578237560'
+    message: |-
+      Use a database eng supports full text search .. ex postgresql .. or nosql like elastic search ..
+      Or add a work around in your code to use regex instead ex replace the أ with (أ|إ|إ) ... And the same for other characters .. but I don't like the last solution .. regards
+    id: '1377532035619834'
+  - created_time: '2017-02-03T18:38:01+0000'
+    from:
+      name: Ahmed Ashraf Gamal
+      id: '10215489165042760'
+    message: |-
+      Speaking from hands on experience solving this problem,
+      I've solved it using the same strategy Michael Azmy suggests
+      I was bounded by a SQLite db (no regex), so what I did was...
+      - Add another column (ex. SearchText), this column will contain the original text but transformed using a method like this.http://ideone.com/jlafst
+      - Transform the search text taken from the user using the same method (now they both meet the same criteria).
+      - Now query for the "SearchText" column, but display the original text column.
+    id: '1377553132284391'
+  - created_time: '2017-02-03T21:25:24+0000'
+    from:
+      name: Rawan Lazkani
+      id: '1337805666323562'
+    message: If this is the only problem you can normalize the user queries and the
+      database data.. like to remove الهمزة والنقط using regular expressions.... if
+      you want similar results you can use sequence alignment  algorithms .
+    id: '1377695398936831'
+  - created_time: '2017-02-04T08:47:59+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: Dont use patterns. Use phonetics. Search by how word sound
+    id: '1378121942227510'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0zTnpFME56YzNOVFkxT0RJMk1Eb3hORGcyTVRFMk9UTXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0zT0RFeU1UazBNakl5TnpVeE1Eb3hORGcyTVRrNE1EZA3cZD

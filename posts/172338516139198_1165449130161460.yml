@@ -1,0 +1,48 @@
+---
+message: "So I have this problem I went to my Root dir and I typed sudo chmod 7 /
+  then every time I type sudo it prints the following error : \nSudo : unable to open
+  /etc/sudoers permission denied\nSudo : no valid  sudoers sources found quitting
+  sudo : unable to initialize policy plugin \n\nSo how can fix that"
+from:
+  name: Mohamad Emad
+  id: '1487671784675336'
+type: status
+created_time: '2016-06-20T01:14:03+0000'
+updated_time: '2016-06-20T17:31:12+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1165449130161460/
+id: '172338516139198_1165449130161460'
+comments:
+  data:
+  - created_time: '2016-06-20T01:18:02+0000'
+    from:
+      name: Hesham Watany
+      id: '10214843347173894'
+    message: |-
+      Boot into recovery mode from the GRUB menu (hold the SHIFT key during boot to reveal this menu), enter the root shell.
+
+      First you need write permission to edit sudoers, so run
+      mount -o remount,rw /
+      Then use visudo and revert your mistake. visudo will check if the resulting sudoers file conforms to the required syntax.
+
+      By default visudo uses vi as editor, but you can tell it to use your favorite text editor with the EDITOR environment variable, e. g.:
+      EDITOR=nano visudo
+
+      from http://askubuntu.com/
+    id: '1165450143494692'
+  - created_time: '2016-06-20T01:18:16+0000'
+    from:
+      name: Hesham Watany
+      id: '10214843347173894'
+    message: http://askubuntu.com/questions/170216/sudo-doesnt-work
+    id: '1165450210161352'
+  - created_time: '2016-06-20T06:12:59+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "If the root password is activated and you know it.. \n\nsu - \nchmod
+      755 /"
+    id: '1165550036818036'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUyTlRRMU1ERTBNelE1TkRZANU1qb3hORFkyTXpnMU5EZA3oZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUyTlRVMU1EQXpOamd4T0RBek5qb3hORFkyTkRBek1UYzUZD

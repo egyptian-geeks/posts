@@ -1,0 +1,70 @@
+---
+message: Hi Guys, anyone knows about sentimental analysis of text? I am trying to
+  learn more about that now, i found several resources using Python. But i am wondering,
+  does anyone know nice easy to use python framework (something like scrapy for crawling)
+  to make my life easier? does anyone know as well a nice tutorial?
+from:
+  name: Mohamed Eldishnawy
+  id: '10156000971684462'
+type: status
+created_time: '2016-03-21T14:08:06+0000'
+updated_time: '2016-03-21T21:33:14+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1103112446395129/
+id: '172338516139198_1103112446395129'
+reactions:
+  data:
+  - id: '1976373499069350'
+    name: Ahmed Bassell
+    type: LIKE
+  - id: '10156058891705747'
+    name: George Leon
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdPVEF4TlRZAek5ESXhPakUwTlRnMk1EQXlNRGs2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: T0RBeU9URXdOelEyT2pFME5UZAzFOelV6TURjNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-03-21T14:15:43+0000'
+    from:
+      name: Ahmed Mahmoud
+      id: '1994039280610267'
+    message: Mohammed
+    id: '1103115086394865'
+  - created_time: '2016-03-21T15:51:53+0000'
+    from:
+      name: Anas Rabei
+      id: '771652519692786'
+    message: "AFAIK, Sentiment analysis is not a one subject that you can find one
+      framework doing all the jobs for you (like scraping or crawling).\nSentiment
+      analysis is a combination of two major branches in computer science which are
+      Natural Language Processing and Machine Learning. The later branch is also a
+      branch of Artificial Intelligence branch.\nFor Natural Language processing in
+      python you will find NLTK toolkit. \nFor Machine learning there are two options,
+      either scikit-learn or Spark-Mlib (the python version)\nscikit-learn is much
+      mature than spark-mlib but if you want to use machine learning techniques in
+      a scalable way, go for Spark-mlib.\nHope that help"
+    id: '1103174916388882'
+  - created_time: '2016-03-21T17:34:27+0000'
+    from:
+      name: Mohamed Taha
+      id: '1635412699859063'
+    message: http://scikit-learn.org/stable/
+    id: '1103236969716010'
+  - created_time: '2016-03-21T17:52:44+0000'
+    from:
+      name: Muhammed Eltabakh
+      id: '1578582745528141'
+    message: 'NLTK with Python 3 for Natural Language Processing: http://www.youtube.com/playlist?list=PLQVvvaa0QuDf2JswnfiGkliBInZnIC4HL
+      check this out'
+    id: '1103244889715218'
+  - created_time: '2016-03-21T21:33:13+0000'
+    from:
+      name: Ahmed Mahmoud
+      id: '10154950939266621'
+    message: Start with NLTK
+    id: '1103373543035686'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV3TXpFeE5UQTROak01TkRnMk5Ub3hORFU0TlRZANU56UXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV3TXpNM016VTBNekF6TlRZANE5qb3hORFU0TlRrMU9Ua3oZD

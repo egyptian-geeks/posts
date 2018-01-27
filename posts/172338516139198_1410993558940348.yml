@@ -1,0 +1,50 @@
+---
+message: "I have a problem i want to solve and i wonder if anyone can here help me
+  with it. \nI am trying to run two shell scripts on two different threads in python.
+  The first one is a decoder that produces its output into a directory , if the number
+  of the output files in that directory exceeded X files i wait, the other thread
+  is another decoder that reads the file and use it as input, when its done decoding
+  it eliminates the file. \n\nThis problem is similar to the producer consumer problem,
+  i firstly implemented its code and then modified the condition to work on the problem
+  by sharing the Num_of_folders as the global variable instead of qeue, \n\ni.e: The
+  first decoder is now the producer which writes until X num of files, the second
+  one is consumer which reads the files decode and then remove it. \n\nThe problem
+  that the producer thread always write files even if the condition.wait() is applied
+  that means both threads are not working synchronously. \n\nCan anyone help me with
+  this porblem or can provide another solution instead of consumer/producer algorithm?"
+from:
+  name: Muhammad Salem Elhady
+  id: '1274730989295828'
+type: status
+created_time: '2017-03-06T13:54:30+0000'
+updated_time: '2017-03-06T14:19:12+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1410993558940348/
+id: '172338516139198_1410993558940348'
+reactions:
+  data:
+  - id: '10208488609492331'
+    name: Mohamed Hessien
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRneU1ESXhNak01T1RveE5EZAzRPVEV3TlRnM09qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRneU1ESXhNak01T1RveE5EZAzRPVEV3TlRnM09qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2017-03-06T13:57:48+0000'
+    from:
+      name: Mohamed Ahmed
+      id: '385696705226073'
+    message: "The Fact is you cannot control Thread Synchronicity unless you use some
+      kind of events or mutex please check this post \nhttp://zulko.github.io/blog/2013/09/19/a-basic-example-of-threads-synchronization-in-python/"
+    id: '1410995685606802'
+  - created_time: '2017-03-06T14:18:15+0000'
+    from:
+      name: Mahmoud Mortda
+      id: '1816374988414963'
+    message: http://www.bogotobogo.com/python/Multithread/python_multithreading_Synchronization_Semaphore_Objects_Thread_Pool.php
+    id: '1411012705605100'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF4TURrNU5UWTROVFl3Tmpnd01qb3hORGc0T0RBNE5qY3cZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF4TVRBeE1qY3dOVFl3TlRFd01Eb3hORGc0T0RBNU9UQXcZD

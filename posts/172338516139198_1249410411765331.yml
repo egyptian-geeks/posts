@@ -1,0 +1,93 @@
+---
+message: |-
+  هل أقدر أعمل Queries على جدول PDF؟ أو أنقل الداتا لداتابيز عندي مثلاً وبعدين أتعامل معاها؟
+  أنا فاهم اني ممكن أعمل داتابيز بنفس الفورمات وأدخلها القيم يدوي، بس كنت بسأل عن حاجة Automated.
+from:
+  name: Ibrahem A'mer
+  id: '10211047029111252'
+type: status
+created_time: '2016-10-04T19:50:54+0000'
+updated_time: '2016-10-14T19:04:51+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1249410411765331/
+id: '172338516139198_1249410411765331'
+comments:
+  data:
+  - created_time: '2016-10-04T19:52:36+0000'
+    from:
+      name: Fouad Abd ELrazek
+      id: '10215316053233596'
+    message: اه ممكن بال OCR
+    id: '1249411181765254'
+  - created_time: '2016-10-04T19:54:22+0000'
+    from:
+      name: Dalia Ihab
+      id: '1771331073174421'
+    message: Basant Medhat Hanan Abdelmohsen Dalia Mohammed Hager Gamal
+    id: '1249412865098419'
+  - created_time: '2016-10-04T19:55:37+0000'
+    from:
+      name: Karim Tawfik
+      id: '10159730660210062'
+    message: There are libararies for reading pdf, but not sure there is free of such
+      libraries.
+    id: '1249413371765035'
+  - created_time: '2016-10-04T19:59:44+0000'
+    from:
+      name: Mohamed Elshaarawy
+      id: '1421307971311677'
+    message: |-
+      If these values ware delimitted, sure you can do it.
+      Try to convert this PDF to CSV if it possible
+    id: '1249416128431426'
+  - created_time: '2016-10-04T22:34:49+0000'
+    from:
+      name: Omar Negm
+      id: '1655425661170220'
+    message: "itextsharp is a free library can read-write pdf files you can use it,
+      It's very simple \n\nhttps://sourceforge.net/projects/itextsharp/"
+    id: '1249531518419887'
+  - created_time: '2016-10-05T03:28:01+0000'
+    from:
+      name: Abdelrahman Ghanem
+      id: '1679860805369262'
+    message: |-
+      شوف حاجة تقدر تتطلع الجداول مثلا
+      جربت tabula قبل كده في حاجة شبه كده
+      http://tabula.technology/
+    id: '1249740891732283'
+  - created_time: '2016-10-05T18:09:36+0000'
+    from:
+      name: Ibrahem A'mer
+      id: '10211047029111252'
+    message: "الـ Tool دي عملت اللي كنت عاوزه بالظبط. \nشكراً لـ Abdelrahman Ghanem
+      \nhttp://tabula.technology/"
+    id: '1250241431682229'
+  - created_time: '2016-10-05T18:25:21+0000'
+    from:
+      name: Abdelrahman Ghanem
+      id: '1679860805369262'
+    message: |-
+      ممكن تستخدم ال command line tool في التطبيق عندك؟ لو التطبيق بتاعك مكتوب بجافا هيبقي ممكن تستخدم نفس package
+      https://github.com/tabulapdf/tabula-java/blob/master/src/main/java/technology/tabula/CommandLineApp.java
+
+      ده غير أن ليها bindings
+      ل ruby, python, r, node.js
+      شوف Usage Examples
+      https://github.com/tabulapdf/tabula-java/blob/master/README.md#usage-examples
+    id: '1250256575014048'
+  - created_time: '2016-10-05T19:31:14+0000'
+    from:
+      name: Mohamed Bahgat
+      id: '2071623063052063'
+    message: Ibrahim Fares
+    id: '1250301465009559'
+  - created_time: '2016-10-14T19:04:49+0000'
+    from:
+      name: Hesham Abd El-Latif
+      id: '1384080635037154'
+    message: Mohamed Hamdi
+    id: '1258021620904210'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkwT1RReE1URTRNVGMyTlRJMU5Eb3hORGMxTmpFd056VTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkxT0RBeU1UWXlNRGt3TkRJeE1Eb3hORGMyTkRjeE9EZAzUZD

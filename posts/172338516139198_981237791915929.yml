@@ -1,0 +1,16 @@
+---
+message: |-
+  For Go enthusiasts, or for people working with streaming textual data, I would recommend experimenting with Go's encoding/gob:
+  https://golang.org/pkg/encoding/gob/
+
+  It's really very simply to use. It can encode any type of data, transform it to a stream of bytes, then you can do whatever you want with it (either send it over a network or save it to a file in a streamable fashion).
+link: https://golang.org/pkg/encoding/gob/
+from:
+  name: Ahmed Aboshanab
+  id: '1823047314436316'
+type: link
+created_time: '2015-07-29T13:29:58+0000'
+updated_time: '2015-07-29T13:29:58+0000'
+name: gob - The Go Programming Language
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/981237791915929/
+id: '172338516139198_981237791915929'

@@ -1,0 +1,36 @@
+---
+message: |-
+  i have a question regarding Angular 2, i was digging about using 3rd parties libs into angular 2 apps and i found that i can either include a script tag then declare the main object as a global, or look for a typing to this particular lib.
+
+  both ways works fine, but my question is which is a best practice ?! i think the answer is to look for a typed version but what i have noticed is that the typed version doesn't include all the lib features ( based on certain libs i need to use ), so again is the script tag bad practice ?
+
+  Edit: what i mentioned about script tag in the index.html file and also include installing the lib via npm and import it angular-cli.json [scripts]
+from:
+  name: Ibrahim Mohammed
+  id: '1886120441698692'
+type: status
+created_time: '2017-02-02T12:45:26+0000'
+updated_time: '2017-02-03T02:09:08+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1376229789083392/
+id: '172338516139198_1376229789083392'
+comments:
+  data:
+  - created_time: '2017-02-02T18:18:00+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      I can see you are using Angular CLI. For the CLI the best practice would be:
+
+      If the library is TypeScript aware, it would have definitions in the same npm package. That's the best scenario, you just import it, don't even need to put it in angular-cli.json scripts.
+
+      If it doesn't have definitions built-in, look for them in npm under @types/library-name. Your imports might end up looking weird, like `import * as $ from "jquery/dist/jquery"` (I don't recommend using jQuery with Angular2, just an example), or if that doesn't work alone, you might need to add it to angular-cli.json scripts too.
+
+      Sometimes type definitions don't exist, or just are outdated. This becomes a question of practicality not best practice. You have 2 options: Either add a small-enough definition (`declare blah`) to get intellisense, or if the thing missing in definition is used in one place etc, you can just use `any` and go without intellisense.
+
+      You never add scripts manually to index.html in Angular CLI.
+    id: '1376496135723424'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0zTmpRNU5qRXpOVGN5TXpReU5Eb3hORGcyTURVNU5EZA3cZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0zTmpRNU5qRXpOVGN5TXpReU5Eb3hORGcyTURVNU5EZA3cZD

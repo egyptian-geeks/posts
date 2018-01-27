@@ -1,0 +1,61 @@
+---
+message: "I have a log file of network traffic , and I'd like to identify if this
+  URL was opened from a browser or it was used by an application ?? for example I
+  have 60K hits for facebook , How can I Identify the hits opened by the Facebook
+  app , and the browser , the objective is to know how many users are using the Facebook
+  App and how many are using the browser ? is this possible ?? \nThanks .."
+from:
+  name: Amr Ahmed Shawky
+  id: '10215230996636396'
+type: status
+created_time: '2017-11-12T17:19:54+0000'
+updated_time: '2017-11-12T23:38:32+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1660114837361551/
+shares:
+  count: 1
+id: '172338516139198_1660114837361551'
+reactions:
+  data:
+  - id: '1436500826477881'
+    name: Mohamed Atef
+    type: LIKE
+  - id: '2032504700100329'
+    name: Mohammed Yassin
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXpOVE01TXpJME56QXhPakUxTVRBMU1UY3dPVEE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXdNakkwTlRVNU56RXpPakUxTVRBMU1USTFORE02TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-11-12T17:34:22+0000'
+    from:
+      name: Hossam Saraya
+      id: '10160260136260389'
+    message: Best bet is checking the request http headers. This will not always work,
+      if I want to counter being detected, I could mimic the same headers sent by
+      the browser to trick you that I am the browser.
+    id: '1660127594026942'
+  - created_time: '2017-11-12T22:40:14+0000'
+    from:
+      name: Alaa K. ElBehery
+      id: '1616039568489888'
+    message: Yea you can by checking the user-agent of the http request but if the
+      user changes it, that won't work. So i suggest checking the request/response
+      scheme as mobile app traffic may differ from web app traffic. For example a
+      web application response usually contains html/js/css but mobile app response
+      may contain only json data returned from an api and the client side of the app
+      handles the way of showing it instead of css and html.
+    id: '1660352750671093'
+  - created_time: '2017-11-12T23:27:35+0000'
+    from:
+      name: Mohammed A Hassan
+      id: '10155105559426811'
+    message: |-
+      Using the headers and user agent will need you to decrypt the https traffic or intercept it with your intermediary certificate that the end points trust.
+      If you did not decrypt the traffic then your best bet will he the sni packet during tls negotiation which reveals the domain. Mobile domain is a subdomain from facebook
+    id: '1660379514001750'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkyTURFeU56VTVOREF5TmprME1qb3hOVEV3TlRBNE1EWXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkyTURNM09UVXhOREF3TVRjMU1Eb3hOVEV3TlRJNU1qVTIZD

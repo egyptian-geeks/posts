@@ -1,0 +1,94 @@
+---
+message: قد اية بتحتاج ال regular expressions في شغلك عموما وهل في الغالب بتكتبه ولا
+  مجرد بتدور علي expression جاهز وخلاص ؟
+from:
+  name: Abdalla Zaki Al-Kateb
+  id: '10211325385431402'
+type: status
+created_time: '2017-02-16T06:17:46+0000'
+updated_time: '2017-02-17T01:16:39+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1389642961075408/
+id: '172338516139198_1389642961075408'
+reactions:
+  data:
+  - id: '1555354924540360'
+    name: Mahmoud Adas
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhPVGMyTURJek16ZAzNPakUwT0Rjek1USXhOVEk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXhPVGMyTURJek16ZAzNPakUwT0Rjek1USXhOVEk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-02-16T11:57:23+0000'
+    from:
+      name: Ahmed Moosa
+      id: '10210990493546895'
+    message: دا مش بيتحفظ , هو بيتفهم وتنساه, ولما تحتاجه تبحث عنه وتلاقيه, ولما تشوفه
+      هتفهمه , دا حالى معاه, وكنت قرأت نفس الكلام دا فى كتاب قبل, يعنى تقريباً دا
+      حال كتيير من الناس.
+    id: '1389895451050159'
+  - created_time: '2017-02-16T12:50:09+0000'
+    from:
+      name: Mostafa Muhammad
+      id: '10155787111376210'
+    message: |-
+      هو انت بتفهم وتكتب وبعدين تنسى وترجع تدور لحد ما تلاقي نفسك بتكتب من غير ما تدور بس خد بالك من موضوعين
+      1) إن الـ RegEx ممكن يعرضك للـ DOS Attacks
+      https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS
+      2) أحيانا كنت بغلط واستعمل الـ RegEx لحل مشاكل يمكن حلها باستخدام Parsers، بص على هذه الإجابة التاريخية على Stackoverflow عشان تفهم قصدي
+      http://stackoverflow.com/a/1732454/1176605
+    id: '1389932321046472'
+  - created_time: '2017-02-16T17:55:07+0000'
+    from:
+      name: Hany El-Kerdany
+      id: '10154916813095989'
+    message: |-
+      "Mastering Regular Expressions" (The owl book) by oreilly is a must read for every developer at any point in his career. I read it 8 years ago and it made Regex second nature since.
+      http://regular-expressions.info has been a good reference as well.
+    id: '1390191244353913'
+  - created_time: '2017-02-17T01:16:33+0000'
+    from:
+      name: Ibrahem Amin
+      id: '10157052765627598'
+    message: this may help http://www.regexr.com/
+    id: '1390591140980590'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE00T1RnNU5UUTFNVEExTURFMU9Ub3hORGczTWpRMk1qUXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE01TURVNU1URTBNRGs0TURVNU1Eb3hORGczTWprME1UazEZD
+attachments:
+  data:
+  - subattachments:
+      data:
+      - target:
+          id: '1268811563210738'
+        title: بحتاجه وببحث عنه
+        type: option
+      - target:
+          id: '1853451771562121'
+        title: بحتاجه وبكتبه
+        type: option
+      - target:
+          id: '734975173324436'
+        title: نادرا ولا أتجنبه
+        type: option
+      - target:
+          id: '1638136999826162'
+        title: نادراً و بتجنبه
+        type: option
+      - target:
+          id: '1249499518475382'
+        title: غالبا مش بحتاجه
+        type: option
+      - target:
+          id: '230912467378821'
+        title: مش عارف يعنى ايه Regular expressions
+        type: option
+    target:
+      id: '1389642944408743'
+      url: https://www.facebook.com/groups/egyptian.geeks/permalink/1389642961075408/
+    title: قد اية بتحتاج ال regular expressions في شغلك عموما وهل في الغالب بتكتبه
+      ولا مجرد بتدور علي expression جاهز وخلاص ؟
+    type: question
+    url: https://www.facebook.com/groups/egyptian.geeks/permalink/1389642961075408/

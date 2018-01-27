@@ -1,0 +1,69 @@
+---
+message: |-
+  Question here for the Data guys .
+  What points / technologies / techniques / Architecture / etc , to take in consideration while designing a smart reporting system  ?
+  more precisely a fluid or dynamic reporting system that enables the end customer to build reports upon request .
+from:
+  name: Mohammed Fox
+  id: '1534405689947170'
+type: status
+created_time: '2017-10-22T05:13:01+0000'
+updated_time: '2017-10-22T18:55:42+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1639861869386848/
+shares:
+  count: 1
+id: '172338516139198_1639861869386848'
+reactions:
+  data:
+  - id: '1582457088504781'
+    name: Abdel-rahman Maged
+    type: LIKE
+  - id: '1544104592377915'
+    name: Mohamed Naser Amein
+    type: LIKE
+  - id: '1999765416908747'
+    name: Ahmed Khalifa
+    type: LIKE
+  - id: '1973924972623528'
+    name: Amr Elsayed
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlNakUxTVRRME9URTFPakUxTURnMk56TXhPRE02TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXdNVGd4TXpJM09UUTBPakUxTURnMk5EazBOamc2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-10-22T05:16:00+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: |-
+      I worked on a similar system before, you will need to check reporting database architectures like Star/Snowflake Schemas, so you can break your data into facts and dimensions tables, which one of the most common ways to build reporting.
+      There is a lot of small services that you will need, and the more dynamic you want the more sophistication in your design, for example you will need to have some meta data about what tables hold what information and the time range on each, so when someone asks for a specific combination of facts and dimensions within a specific period of time, you can select the right table(s) and generate the correct query, generating a query is also a big thing, you will be generating sql statements with multiple levels of joins on the fly, so the more facts per report the more complicated.
+      also running the reports is resource intensive, and depending on how much data you're dealing with your queries may take hours to run, so tuning and scheduling will be very important, also the ETL pipeline that will keep feeding your reporting system with fresh data need to be integrated.
+    id: '1639870809385954'
+  - created_time: '2017-10-22T09:17:09+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: I had a chance to checkout a major web analytics company, that provided
+      cutom dashboards that user can compose, they used a different technique than
+      star schemes, the server arch. Was quite complex since they operated on huge
+      scale. The concept they adopted was single tenant system, since it was a b2b
+      service every user gets his own schema, and from dashboard they can build custom
+      - kinda-audit tables that populate using a set of javascript microservices.
+      They point is its easier to generate a table definition for each widget that
+      the user create and since such widget will persist in user dashboard its helpful
+      to keep data in such str. Now point is how to teach the microservices about
+      what data to insert on what trigger and thats was function of meta schema that
+      holds info like that and a set of predefined actions that user select while
+      building his widgets. But to answer what tech stack they depended on restfull
+      microservices (js for lightweight user services and scala for heavier duties
+      like auth/coordinates auth. And dashboard widget/dashboard creation., and data
+      where kept in multi-schema per user and another single monolithic db that hold
+      all useres info and meta
+    id: '1640007842705584'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl6T1RnM01EZA3dPVE00TlRrMU5Eb3hOVEE0TmpRNU16WXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkwTURBd056ZAzBNamN3TlRVNE5Eb3hOVEE0TmpZAek9ETXcZD

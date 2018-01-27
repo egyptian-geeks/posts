@@ -1,0 +1,134 @@
+---
+message: If I have Android app apk file How can I know if he native app or web-based
+  (cross platform app) how can I confirm that ?
+from:
+  name: Anas Emad
+  id: '10155138037322478'
+type: status
+created_time: '2016-02-16T21:38:43+0000'
+updated_time: '2016-02-17T18:03:24+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1081311085241932/
+id: '172338516139198_1081311085241932'
+reactions:
+  data:
+  - id: '1763959737010749'
+    name: Ahmed Mahmoud
+    type: LIKE
+  - id: '1487671784675336'
+    name: Mohamad Emad
+    type: LIKE
+  - id: '10155904322461093'
+    name: Mohamed Shehata
+    type: LIKE
+  - id: '1061734923967862'
+    name: Amira Mohamed
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhPVEF5TVRrM05Ea3lPakUwTlRVM016QTFORGs2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXpPVFF3T1RReU9USTRPakUwTlRVMk5UazBPRFE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-02-16T21:40:51+0000'
+    from:
+      name: Ahmed Elmansi
+      id: '10155226414816302'
+    message: Morad Edwar
+    id: '1081311575241883'
+  - created_time: '2016-02-16T21:42:25+0000'
+    from:
+      name: Ahmed Adel Hossny
+      id: '1996970190329577'
+    message: I think you can extract the apk content.
+    id: '1081312105241830'
+  - created_time: '2016-02-16T21:49:17+0000'
+    from:
+      name: Mohammed Fouad Hassen
+      id: '10215912205257566'
+    message: http://ibotpeaches.github.io/Apktool/
+    id: '1081313715241669'
+  - created_time: '2016-02-16T21:51:48+0000'
+    from:
+      name: Omar Hassan
+      id: '10156054633057370'
+    message: Revere engineering, try this web site http://www.decompileandroid.com/
+    id: '1081314451908262'
+  - created_time: '2016-02-16T22:13:09+0000'
+    from:
+      name: Ehab Elwan
+      id: '758534544341052'
+    message: Most probably if it's cross platform you'll find the web based files
+      in assets folder. It is better to decompile the apk and check it
+    id: '1081320945240946'
+  - created_time: '2016-02-16T22:17:44+0000'
+    from:
+      name: Muhammad Shazly
+      id: '10160156949550556'
+    message: Doaa S M Shazly
+    id: '1081322565240784'
+  - created_time: '2016-02-16T22:18:54+0000'
+    from:
+      name: George Awad
+      id: '1781519898587185'
+    message: |-
+      Hello anas
+      you can reverse it easily  also most of cross platforms has an HTML and js Inside it after extracting the aAPK
+      also you can know it from the quality !
+    id: '1081322915240749'
+  - created_time: '2016-02-16T22:30:17+0000'
+    from:
+      name: Osama ALi
+      id: '10156269073791122'
+    message: Eslam Ahmed Ramadan
+    id: '1081328235240217'
+  - created_time: '2016-02-16T23:14:49+0000'
+    from:
+      name: Mohamed Shehata
+      id: '10155904322461093'
+    message: |-
+      Very easy in most cases ...
+      Web-based normally use web browser, it is easy to find the popular rotating loading animation in center of the screen, web fonts or web-pages, web-rendering to the page, web controls ( drop-down etc ), Web Apps normally doesn't have this smooth animation the native have and even if they did, you will experience some delay and flickers.
+
+      Native apps, are always faster, their chrome controls are a little unique, not all of them can be done easily in web-apps, native animations are too smooth without flickers or glitches, response time is even faster, .
+    id: '1081354845237556'
+  - created_time: '2016-02-16T23:54:46+0000'
+    from:
+      name: Anas Emad
+      id: '10155138037322478'
+    message: if it's E-commerce app, it's good to be web-based or native ?
+    id: '1081369478569426'
+  - created_time: '2016-02-17T00:03:33+0000'
+    from:
+      name: Anas Emad
+      id: '10155138037322478'
+    message: "this main folder and files in apk file after extract it \n\nassets\nmeta-inf\nres\nandroidmainfest.xml\nclasses.dex\nresources.arsc"
+    id: '1081375228568851'
+  - created_time: '2016-02-17T06:30:24+0000'
+    from:
+      name: Hisham Hassan
+      id: '10156155579969187'
+    message: 'you can know it easily without extracting. without tools . just one
+      trick: go to device settings -> developer options -> show layout boundries.  if
+      it is native, there will be boxes on every view. if it is web, there will be
+      one big box on webview. waiting a chocolate for this trick :)'
+    id: '1081529415220099'
+  - created_time: '2016-02-17T07:46:15+0000'
+    from:
+      name: Mohamed Amgad
+      id: '10215433203563275'
+    message: "the easy way, you can just uncompress the apk with winrar or winzip
+      or anything, \n-- If it's builded with Cordova you will find inside the uncompressed
+      folder a folder named \"assets\"\ninside it you will find folder named \"www\"\ninside
+      that folder you will see all the html/css/js/assets of the app"
+    id: '1081550671884640'
+  - created_time: '2016-02-17T12:27:27+0000'
+    from:
+      name: Amr Medhat
+      id: '10155426916839779'
+    message: If you couldn't distinguish from the feeling of using the app, then they
+      did a good job
+    id: '1081696271870080'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE0TVRNeE1UVTNOVEkwTVRnNE16b3hORFUxTmpVNE9EVXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE0TVRZANU5qSTNNVGczTURBNE1Eb3hORFUxTnpFeU1EUTMZD

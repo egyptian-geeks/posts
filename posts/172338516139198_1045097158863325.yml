@@ -1,0 +1,98 @@
+---
+message: "That's why photos are saving in a smaller size and perfect resolution! \nEven
+  they made their infrastructure more faster\n\n"
+link: https://code.facebook.com/posts/685565858139515/needle-in-a-haystack-efficient-storage-of-billions-of-photos/
+from:
+  name: Alaa Attya Mohamed
+  id: '10212906316506161'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQAhCbQt5JOmc-jr&w=130&h=130&url=https%3A%2F%2Fcode.facebook.com%2Fimages%2Fengsite%2Fcode.png&cfs=1&_nc_hash=AQCPIiFZZNsMPkLM
+created_time: '2015-12-14T19:23:47+0000'
+updated_time: '2015-12-16T07:54:46+0000'
+name: 'Needle in a haystack: efficient storage of billions of photos'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1045097158863325/
+id: '172338516139198_1045097158863325'
+reactions:
+  data:
+  - id: '10155855157936047'
+    name: Mosab Ibrahim
+    type: LIKE
+  - id: '10159859491265721'
+    name: Nader Nabil
+    type: LIKE
+  - id: '10159825719935065'
+    name: Shenouda Bertel
+    type: LIKE
+  - id: '10159762148090562'
+    name: Mohammed ElBalkini
+    type: LIKE
+  paging:
+    cursors:
+      before: TnpVMU1ESTJNRFEyT2pFME5UQTFNelk1TnpZANk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TnpneE9USXdOVFl4T2pFME5UQXhNakV6TnpNNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2015-12-15T00:05:54+0000'
+    from:
+      name: Mohamed Abdel Aty
+      id: '10215620557573580'
+    message: 'the scarce information they provided about the Delete operation just
+      confirms what we all doubted : THERE IS NO DELETE OPERATION :D'
+    id: '1045179532188421'
+  - created_time: '2015-12-15T00:28:54+0000'
+    from:
+      name: Khaled M. Diab
+      id: '10215626626127168'
+    message: |-
+      Alaa Attya Mohamed Actually they're saying they store photos in 4 resolutions, it is not about "storage saving" but about reducing disk IO and increasing requests throughput. In my viewpoint, it can be considered as a general purpose nfs (similar to google file system; they have almost the same requirements).
+
+      More important aspect in the fast FB storage architecture is "storage recovery", here they have a different mindset than Google. Google keeps at least three copies of any file in different locations (rack, DC or external DC), FB designed an erasure code (Hitchhiker) based on Reed-Solomon codes, which needs only 1.4X of the original size (not 3X) while keeping the operational throughput (e.g. normal usage) as high as possible.
+
+      https://research.facebook.com/publications/1445994382319911/a-hitchhiker-s-guide-to-fast-and-efficient-data-reconstruction-in-erasure-coded-data-centers/
+
+      https://research.facebook.com/publications/300734513398948/xoring-elephants-novel-erasure-codes-for-big-data/
+
+      https://www.usenix.org/legacy/events/osdi10/tech/full_papers/Beaver.pdf
+    id: '1045184612187913'
+  - created_time: '2015-12-16T06:53:22+0000'
+    from:
+      name: Mohammed Al Ashaal
+      id: '965203406986813'
+    message: "``\n---\nThey are using \"Log-Structured\" algorithm which is the core
+      of the most of DBMS today, most log-structured based DBs don't have \na real
+      \"Delete\" but just they remove the reference of the key from the memory and
+      there is a compaction algorithms to rewrite the data file(s) without any interruption
+      in smart way.\n---\nhere is an explanation of some internals of LevelDB \"Google\",
+      which is the core of RocksDB \"Facebook\" ..\nhttps://www.igvita.com/2012/02/06/sstable-and-log-structured-storage-leveldb/\n---\nThe
+      whole point of Facebook's implementation is to reduce\nDisk I/O not just for
+      quality or size, and there are many storage engines like that \ni.e: SeaWeedFS\nhttps://github.com/chrislusf/seaweedfs\n---\nIn
+      other words, they created a distributed key => value storage\nthat stores values
+      in separated file(s), and the a reference in the memory (and it isn't a new
+      thing) .\n---\nHere is my implementation just for the \"Append Only\" part .\nIt
+      stores the data and returns a string which is just the data position (offset:length)
+      in the main data file, then i store that reference in any db\ni.e: redis, and
+      when i want to remove data, i just remove the key-value from redis .\nhttps://godoc.org/github.com/alash3al/aof
+      ,\ni coded it in Golang .\n---\nany wrong info above ?\nok, correct me, you
+      are welcome ."
+    id: '1045760762130298'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEEwTlRFM09UVXpNakU0T0RReU1Ub3hORFV3TVRNM09UVTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEEwTlRjMk1EYzJNakV6TURJNU9Eb3hORFV3TWpRNE9EQXoZD
+attachments:
+  data:
+  - description: The Photos application is one of Facebook’s most popular features.
+      Up to date, users have uploaded over 15 billion photos which makes Facebook
+      the biggest photo sharing website. For each uploaded photo, Facebook generates
+      and stores four images of different sizes, which translates to a total of 60
+      b…
+    media:
+      image:
+        height: 200
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQDWKirrrxH9FUmY&w=720&h=720&url=https%3A%2F%2Fcode.facebook.com%2Fimages%2Fengsite%2Fcode.png&cfs=1&_nc_hash=AQC3heUF1f7ZHoUV
+        width: 200
+    target:
+      url: https://code.facebook.com/posts/685565858139515/needle-in-a-haystack-efficient-storage-of-billions-of-photos/
+    title: 'Needle in a haystack: efficient storage of billions of photos'
+    type: share
+    url: https://code.facebook.com/posts/685565858139515/needle-in-a-haystack-efficient-storage-of-billions-of-photos/

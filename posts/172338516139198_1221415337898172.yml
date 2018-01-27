@@ -1,0 +1,66 @@
+---
+message: |-
+  السلام عليكم
+
+  سؤال فى التصميم يا شباب - لو جبت تمبلت Admin بس المشكلة ان مفيهاش RTL - هل لو اشتغلت عليها زى ما هى بس باللغة العربية لأسماء القوائم وخلافه يبقا غلط ويبقا شغل مش صح والا ايه - لأن غالبية Admin Tempalte مش لاقى فيهم RTL ؟
+
+  طبعا سؤالى بخصوص ان التمبلت يكون فيه قائمه جانبية Left Side Bar - فهل ده لو القائمة فوق يعنى Top التصميم كده يكون حديث او زى اللى ماشى حاليا والا كده قديم ؟
+from:
+  name: Ahmed Amin
+  id: '1962172197389574'
+type: status
+created_time: '2016-09-03T00:16:06+0000'
+updated_time: '2016-09-03T02:13:27+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1221415337898172/
+id: '172338516139198_1221415337898172'
+comments:
+  data:
+  - created_time: '2016-09-03T00:38:02+0000'
+    from:
+      name: أحمد محمود محمد عبدالوهاب
+      id: '10155226291481186'
+    message: لازم يتحول RTL و دى حاجة سهولتها او صعوبتها متوقفة على مستوى الكود اللى
+      مكتوب بيه الـ template
+    id: '1221427441230295'
+  - created_time: '2016-09-03T01:06:30+0000'
+    from:
+      name: Muhammad Hasan
+      id: '2033909946622355'
+    message: |-
+      1- There are tons of admin themes support RTL, at least the best ones do.
+      2- It depends on many factor, your user *not customer*, project budget, customer's expectations, From my experience, it doesn't matter really if ur app is 100% RTL or not at all, the main concern however, is u have to make the UI explanatory... a prove is that most of mobile apps, keep their layout when switching to arabic.
+      If u r using css framework like UIkit or bootstrap, U might wanna consider adding the style : direction:rtl; to the body element and see the magic n just fix the ugly stuff... again it deosn't really matter, your customer is not a desginer and probably gonna accept whatever you give him as long as it's simple to use and explanatory.
+    id: '1221441891228850'
+  - created_time: '2016-09-03T01:14:39+0000'
+    from:
+      name: Nader Al-Sharkawy
+      id: '10154950104465216'
+    message: |-
+      If you decide to go for the conversion, CSSJanus will save you some of the effort if not all of it.
+
+      CSSJanus: https://cssjanus.github.io
+    id: '1221445817895124'
+  - created_time: '2016-09-03T01:52:49+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: |-
+      ممكن تراجع هذا السؤال وإجابته عسى ان يكون فيه مساعدة:
+      http://stackoverflow.com/questions/12284514/inverted-css-properties-to-change-to-rtl
+    id: '1221468667892839'
+  - created_time: '2016-09-03T02:13:24+0000'
+    from:
+      name: Hany M. Sobhy
+      id: '1595108403902779'
+    message: "Additional to @Muhammad Hasan Also there is an RTL Bootstrap version
+      available or few selectors to add to urs. You can use it as it with LTR \"But\"
+      sure you will need some modifications for many of elements and font sizes to
+      look fine. \n\nIf I'm in your situation and have budget and time I will choose
+      to make it RTL.\n\nFor the side or top menu for admin template, I think the
+      side menu is more common and flexible these days. Top menus put limits but if
+      your app is simple and doesn't need 10+ sections then no problems."
+    id: '1221481224558250'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl5TVRReU56UTBNVEl6TURJNU5Ub3hORGN5T0RZAek1EZA3oZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl5TVRRNE1USXlORFUxT0RJMU1Eb3hORGN5T0RZANE9EQTAZD

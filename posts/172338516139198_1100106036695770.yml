@@ -1,0 +1,90 @@
+---
+message: Should i use "Foundation" or "Bootstrap" for responsive webdesign? and which
+  Framework is better than the other ?!
+from:
+  name: Mohamed A. Othman
+  id: '1574530695959412'
+type: status
+created_time: '2016-03-17T14:51:52+0000'
+updated_time: '2016-03-18T18:32:32+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1100106036695770/
+id: '172338516139198_1100106036695770'
+reactions:
+  data:
+  - id: '1596110217148252'
+    name: Ahmed Badawy
+    type: LIKE
+  - id: '2004705666469226'
+    name: Ahmed Essam
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlORGM0Tmpnd09EVTJPakUwTlRnME9EYzFNVFk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTNPRGswTXpZAd05ETXdPakUwTlRneU9UTXdNVE02TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-03-17T15:00:01+0000'
+    from:
+      name: Mariam Maarouf
+      id: '10155779091916638'
+    message: It really depends on your definition of "better". Bootstrap is definitely
+      faster to set up and it gives you so many things ready-made, but this can be
+      a pain if you want to customize everything. Foundation gives you just enough
+      to get you going. But then again they have a lot in common so it comes down
+      to personal preference I think. There are plenty of opinion-based articles about
+      that.
+    id: '1100111796695194'
+  - created_time: '2016-03-17T15:14:19+0000'
+    from:
+      name: أحمد محمود محمد عبدالوهاب
+      id: '10155226291481186'
+    message: |-
+      - Foundation is lighter thus better for light websites (not really heavy stuctured with lots of pages website).
+      - Bootstrap is too much for simple websites but it's better (better in terms of being easier and faster) than foundation.
+      or that's what I think
+    id: '1100119880027719'
+  - created_time: '2016-03-17T15:23:57+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: اللي تلاقيه قدامك وتستريح له اشتغل بيه.
+    id: '1100124210027286'
+  - created_time: '2016-03-17T20:26:10+0000'
+    from:
+      name: Nabil Naeem
+      id: '10160293040350157'
+    message: |-
+      Use bootsteap if you want to build something quickly and you are not bound by a specific mockup.
+      Use foundation if you have a specific design you want to implement it.
+      Foundation can be customized ALOT rather than bootstrap that has the same look and feel even with different themes.
+      The only drawback in foundation is that it does not have that many plugins as much as bootstrap.
+    id: '1100299546676419'
+  - created_time: '2016-03-18T02:46:01+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: |-
+      From my experience ...
+      If you are looking for a *framework* to build *responsive* latyouts *only* then use Foundation or any other responsive grid system ... Even better if the layout isn't that complicated, man up and build your own responsive grid system :) For hundreds of reason if you ask why ...
+      Use Bootstrap ONLY if the project you are building is huge and you need a lot of UI modules ... Think like a dashboard.
+    id: '1100512213321819'
+  - created_time: '2016-03-18T06:36:13+0000'
+    from:
+      name: Ahmed Mahmoud
+      id: '1763959737010749'
+    message: "You can use bootstrap sass \nAnd comment/uncomment something in the
+      import list when you need it \nWith that you would have exactly what you need"
+    id: '1100619553311085'
+  - created_time: '2016-03-18T07:44:17+0000'
+    from:
+      name: Ahmed El Gabri
+      id: '10159938698425582'
+    message: "None. Use them to learn or build a quick prototype, but not for production.
+      \n\nBoth are bloated and will bite you later and will become a nightmare to
+      deal with. Or if you are not good at CSS enough, use a low level framework like
+      www.basscss.com."
+    id: '1100650713307969'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV3TURFeE1UYzVOalk1TlRFNU5Eb3hORFU0TWpJMk9EQXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV3TURZAMU1EY3hNek13TnprMk9Ub3hORFU0TWpnM01EVTQZD

@@ -1,0 +1,38 @@
+---
+message: "How to send data from PHP to UWP application \nAll topics on the internet
+  are very old"
+from:
+  name: Aly Khaled
+  id: '1593603090726744'
+type: status
+created_time: '2017-09-02T17:15:51+0000'
+updated_time: '2017-09-02T21:24:39+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1596735923699443/
+id: '172338516139198_1596735923699443'
+comments:
+  data:
+  - created_time: '2017-09-02T17:17:20+0000'
+    from:
+      name: Aly Khaled
+      id: '1593603090726744'
+    message: 'my php code : https://ideone.com/wi21sd'
+    id: '1596737170365985'
+  - created_time: '2017-09-02T17:19:34+0000'
+    from:
+      name: Aly Khaled
+      id: '1593603090726744'
+    message: 'my C# code : https://ideone.com/ly0Fmj'
+    id: '1596739797032389'
+  - created_time: '2017-09-02T21:24:37+0000'
+    from:
+      name: Abdelrahman El Kinani
+      id: '10213802216302674'
+    message: |-
+      A way to do this, is to think of a trigger that invokes a background task that task goes to your PHP endpoint and reads the data. the data probably is going to be labeled with a unique identifier of the UWP client app.
+
+      For the trigger I think a Notification sent from your backend (PHP) would do. I didn't implement this before so I don't know whether there is a way to hide the incoming notification from the user.
+    id: '1596896053683430'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU1Tmpjek56RTNNRE0yTlRrNE5Ub3hOVEEwTXpjeU5qUXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU1TmpnNU5qQTFNelk0TXpRek1Eb3hOVEEwTXpnM05EYzMZD

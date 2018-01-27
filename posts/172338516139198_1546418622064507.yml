@@ -1,0 +1,72 @@
+---
+message: "السلام عليكم :D \nهو ايه مميزات وعيوب Heroku ? \nولو انا بعمل App والمتوقع
+  فيه ان عدد الusers اللى هيكون موجودين فى وقت واحد هو 20   فهل Hobby package هتكون
+  مناسبه ؟"
+from:
+  name: Dalia Ihab
+  id: '1771331073174421'
+type: status
+created_time: '2017-07-13T19:20:20+0000'
+updated_time: '2017-07-13T20:26:23+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1546418622064507/
+id: '172338516139198_1546418622064507'
+reactions:
+  data:
+  - id: '879271768900112'
+    name: Osama Soliman
+    type: LIKE
+  - id: '1385664498246611'
+    name: Sayed Said
+    type: LIKE
+  - id: '1887807184565287'
+    name: Hager Gamal
+    type: LIKE
+  - id: '2000518460205460'
+    name: Hanan Abdelmohsen
+    type: LIKE
+  - id: '1529543267141756'
+    name: Omar Salama
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTBOVEU0T1RFM01EY3hPakUwT1RrNU9UUXhNVFk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlOVGd5T1RFek1UZAzNPakUwT1RrNU56TTVOVGc2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-07-13T19:38:24+0000'
+    from:
+      name: Ahmad Hisham
+      id: '10159889607765058'
+    message: |-
+      Heroku pros:
+      - Great management console
+      - Many add-ons ready for use (database, mail, logging, in-mem cache, ...)
+      - Very easy to scale
+      - Based on Grade A infrastructure (Amazon AWS)
+      - Support for many languages (Ruby and Node js are some examples)
+      - Easy deployment model (just git push or link to a GitHub repo for auto-deployment)
+      Cons:
+      - More expensive than using AWS natively (even more if using Digital Ocean)
+      - If you are new then many things will not be clear for you (in your deployment)
+
+      The size of your node is based on your App performance and environment, the number of users will not be known without trying the App in a live situation (or simulation), try the App on a free node first and you will see if your App fits the free tier or not.
+    id: '1546429712063398'
+  - created_time: '2017-07-13T19:40:52+0000'
+    from:
+      name: Dalia Ihab
+      id: '1771331073174421'
+    message: Hanan Abdelmohsen Basant Medhat Hager Gamal Dalia Mohammed
+    id: '1546431385396564'
+  - created_time: '2017-07-13T20:26:20+0000'
+    from:
+      name: Moataz Elmasry
+      id: '10159865785365331'
+    message: 'Heroku is very easy to use and has a fantastic plugins ecosystem, but
+      does not really support much automation and it is very expensive especially
+      when you scale. Advice: use the free model or the cheap one, but when you scale
+      move to aws or digitalocean. If you use cloudfoundary, it is close to heroku'
+    id: '1546463178726718'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUwTmpReU9UY3hNakEyTXpNNU9Eb3hORGs1T1RjME56QTEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUwTmpRMk16RTNPRGN5TmpjeE9Eb3hORGs1T1RjM05UZA3gZD

@@ -1,0 +1,22 @@
+---
+message: "Hello every one,\nI was working on an angularJS, IONIC project with CI backend\nI
+  was sending parameters to server using POST Method. and receive it using codeIgniter
+  Input class. and everything was working OK.\n\nNow that app gonna be native Android
+  and the developer should send parameters as JSON array, so i changed my backend
+  API function to receive it like:\n\n$data = json_decode(file_get_contents('php://input'),
+  true);\n$email = $data->email;\n\nIt works great but the problem now when i try
+  to access the function using IONIC app I get an php error.\n \nI'm searching around
+  that and found a solution to post parameters as json array but it gives me an error:\n\nXMLHttpRequest
+  cannot load http://192.168.1.122/project/index.php/api/login. Request header field
+  Content-Type is not allowed by Access-Control-Allow-Headers.\n\non my API I allowed
+  all CORS\n\nheader('Access-Control-Allow-Origin: *');\nheader('Access-Control-Allow-Methods:
+  POST, GET, OPTIONS, DELETE, PUT');\n\nbut still get the same error.\n\ncan i get
+  any other solution around that point.\nthanks for your help."
+from:
+  name: Mohammed Agwa
+  id: '10213691948826326'
+type: status
+created_time: '2015-05-21T17:04:06+0000'
+updated_time: '2015-05-21T21:55:13+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/942684882437887/
+id: '172338516139198_942684882437887'

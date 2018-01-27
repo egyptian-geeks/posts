@@ -1,0 +1,105 @@
+---
+message: حد تاني غيري ملاحظ موضوع  invalid ssl certificate الكتير دا النهارده ؟
+from:
+  name: Ahmed M. Araby
+  id: '10155547863649263'
+type: status
+created_time: '2016-10-11T12:40:30+0000'
+updated_time: '2016-10-12T04:34:13+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1254882874551418/
+id: '172338516139198_1254882874551418'
+reactions:
+  data:
+  - id: '1735197893208926'
+    name: Ahmad Zain
+    type: LIKE
+  - id: '10155859261365180'
+    name: Amr Bahaa
+    type: LIKE
+  - id: '10155224465177344'
+    name: Mohamad Kamal
+    type: LIKE
+  - id: '10215367467803543'
+    name: Mohamed Amgad
+    type: LIKE
+  - id: '10214796374519514'
+    name: Islam AbdelMohaimen Hassan
+    type: LIKE
+  - id: '10156020325916241'
+    name: Musa Hamza
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhOVFl4T1RjMk56ZAzBPakUwTnpZAek1EQTFNREU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TmpReU5qYzJNalF3T2pFME56WXhPVEF4TnpRNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-10-11T12:41:24+0000'
+    from:
+      name: Mohamed Fergany
+      id: '10215339863195300'
+    message: وانت عاوز ال SSL في ايه يا اخي :D  . عندك ايه علشان تخبيه ؟ :D .
+    id: '1254883277884711'
+  - created_time: '2016-10-11T13:10:17+0000'
+    from:
+      name: Ahmed M. Araby
+      id: '10155547863649263'
+    message: والله مانا يابيه :D
+    id: '1254901291216243'
+  - created_time: '2016-10-11T13:13:57+0000'
+    from:
+      name: Tarek Dawoud
+      id: '10156109957694861'
+    message: |-
+      If you ignore the SSL warning, any credentials used over the wire will most likely travel in clear text. Any form you fill in for login will be submitted in clear text, any password manager that stores your username and password will submit them in clear text. If you suspect the SSL termination is happening inside Egypt, then most likely your credentials will be harvested by the hackers.
+
+      In most browsers you can click on the certificate warning to see what's wrong with the cert. If it's a man in the middle, then the subject of the certificate will not math the site you are going to.
+    id: '1254906257882413'
+  - created_time: '2016-10-11T13:34:37+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: Thanks for writing something scientific
+    id: '1254921781214194'
+  - created_time: '2016-10-11T14:16:54+0000'
+    from:
+      name: Mohamed Amgad
+      id: '10215367467803543'
+    message: "Ah \U0001F602"
+    id: '1254954144544291'
+  - created_time: '2016-10-11T14:19:14+0000'
+    from:
+      name: Mohamed Amgad
+      id: '10215367467803543'
+    message: Ramy Tamer
+    id: '1254955141210858'
+  - created_time: '2016-10-11T14:52:02+0000'
+    from:
+      name: Magdi Nakhla
+      id: '10156058637813523'
+    message: I faced this ssl certificate issues specially in Orange DSL, but leased
+      line service from Orange working Ok.
+    id: '1254972807875758'
+  - created_time: '2016-10-11T16:12:20+0000'
+    from:
+      name: Omar Mohsen
+      id: '1629690233758127'
+    message: Oppaa
+    id: '1255019267871112'
+  - created_time: '2016-10-11T18:11:35+0000'
+    from:
+      name: Tony Raoul Iscaros
+      id: '10156165643313420'
+    message: Nop I didn't ? Is your machine time set correctly ?
+    id: '1255112834528422'
+  - created_time: '2016-10-11T18:18:30+0000'
+    from:
+      name: Magdi Nakhla
+      id: '10156058637813523'
+    message: First thing I check after receiving invalid ssl certificate is the time
+      setting
+    id: '1255116977861341'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkxTkRnNE16STNOemc0TkRjeE1Ub3hORGMyTVRnNU5qZAzEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkxTlRFeE5qazNOemcyTVRNME1Ub3hORGMyTWpBNU9URXcZD

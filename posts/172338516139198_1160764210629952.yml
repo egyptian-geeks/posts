@@ -1,0 +1,97 @@
+---
+message: |-
+  I'm wondering if there is a way to save a current installation of ubuntu as an image for later use.
+
+  I installed ubuntu and then all the tools I need on my dev machine and I would like to be able to save this so that when I get a new machine for example, I can easily install this saved version and save my self the pain of installing all these additional stuff.
+
+  Is there is anything that makes this possible ?
+from:
+  name: Ahmed Kamal
+  id: '10204469829103969'
+type: status
+created_time: '2016-06-12T12:03:43+0000'
+updated_time: '2016-06-13T01:53:30+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1160764210629952/
+id: '172338516139198_1160764210629952'
+reactions:
+  data:
+  - id: '10116066877056474'
+    name: Omar Ibrahim
+    type: LIKE
+  - id: '1561906890531743'
+    name: Mahmoud Hanafy
+    type: LIKE
+  paging:
+    cursors:
+      before: T1RNM01UazBPRG94TkRZAMU56TTJNVEl6T2pJMU5EQTVOakUyTVRNPQZDZD
+      after: TVRBd01EQXhNemN6TkRBd05UUXpPakUwTmpVM016TXlNVGc2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-06-12T15:48:01+0000'
+    from:
+      name: Abdulla Ahmed Seif
+      id: '1579863445426307'
+    message: What search did you do ?
+    id: '1160856533954053'
+  - created_time: '2016-06-12T15:57:53+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: Sure you can
+    id: '1160866003953106'
+  - created_time: '2016-06-12T16:08:04+0000'
+    from:
+      name: Mostafa Alaa Mohamed
+      id: '1791277350884061'
+    message: F
+    id: '1160869800619393'
+  - created_time: '2016-06-12T16:09:03+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: كان لسة حد سائل السؤال ده على جروب تاني النهاردة الصبح وانا رديت عليه
+      هدور ع الكومنت واجيبه هنا
+    id: '1160870130619360'
+  - created_time: '2016-06-12T16:11:35+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "بوت من اي نسخة لايف على جهازك اللى عليه النسخة المتظبطة \nماونت الروت
+      بتاع النسخة وليكن مثلا \n/media/debian \nماونت الفلاشة الفاضية اللى هتاخد عليها
+      النسخة مثلا \n/media/usb\n\nافتح الترمنال ونفذ واحدة واحدة\nsudo -i\ncd /media/debian\ngetfacl
+      -R .  > permissions.acl\ntar -cf /media/usb/backup.tar .   \n\nخلى بالك من الـ
+      . في اخر السطر اللى فوق\nاقفل الجهاز وشيل الفلاشات وحطها في الجهاز الجديد\n-----------\nع
+      الجهاز التانى اللى هيتنقل ليه النسخة ،  بوت لايف \nاختار البارتشن اللى هتنزل
+      عليه النسخة وليكن مثلا /dev/sda2\nفرمته وظبطه واعمل له ماونت برضو مثلا في /media/debian\nماونت
+      الفلاشة برضو بنفس الفكرة /media/usb او ايا كان .. \n\nافتح الترمنال \nنفذ الاتى
+      \nsudo -i\ncd /media/debian\ntar -xf /media/usb/backup.tar\nsetfacl --restore=permissions.acl\n\nافتح
+      /media/debian/etc/fstab\nوظبطه بحيث يلائم النظام الجديد والهارد الجديد \n\nكدة
+      انت تمام بنسبة 90% وباقى تظبيط البوت لودر فقط .. \n\nلو الهارد GPT اعمل ماونت
+      لبارتشن الـ EFI في /media/debian/boot/efi\nاتأكد ان باكدج grub-efi موجودة ع
+      اللايف ولو مش موجودة نزلها ( وتكون عامل بوت للايف هو كمان كـ EFI ) \n\nارجع
+      للترمنال\n mount --bind /dev /media/debian/dev\n mount --bind /proc /media/debian/proc\n
+      mount --bind /sys /media/debian/sys \nchroot /media/debian\n\ngrub-install /dev/sda
+      \ngrub-mkconfig -o /boot/grub/grub.cfg \n\nوبس كدة خلصت اعمل ريستارت ومبروك
+      \ \n\nانا قبل كدة نقلت بالطريقة دى ولو بنفس الخطوات مش هتلاقي اي مشكلة ان شاء
+      الله"
+    id: '1160871700619203'
+  - created_time: '2016-06-12T17:04:54+0000'
+    from:
+      name: Abdulla Ahmed Seif
+      id: '1579863445426307'
+    message: |-
+      الرابط ده هيفيدك:
+      https://www.google.com/search?q=how+to+backup+all+ubuntu+packages+&ie=utf-8&oe=utf-8
+    id: '1160898403949866'
+  - created_time: '2016-06-12T18:02:26+0000'
+    from:
+      name: Mohamed Sweelam
+      id: '1987222834640127'
+    message: |-
+      Ahmed Medhat
+      I think this is what you are looking for.
+    id: '1160924370613936'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUyTURnMU5qVXpNemsxTkRBMU16b3hORFkxTnpRMk5EZA3gZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUyTURreU5ETTNNRFl4TXprek5qb3hORFkxTnpVME5UUTIZD

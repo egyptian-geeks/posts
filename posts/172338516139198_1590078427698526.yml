@@ -1,0 +1,62 @@
+---
+message: |+
+  could anyone tell me why finding collision is 2^(n/2) while finding second-preimage is 2^n?
+
+  "then the cost of finding a collision is 2n/2, while the cost of finding a second-preimage is 2n (i.e. a lot more)."
+
+link: https://security.stackexchange.com/questions/69405/difference-between-second-pre-image-resistance-and-collision-resistance-in-crypt
+from:
+  name: Ahmed Mūsā
+  id: '379428549186517'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQCbUxHjysMZCYvv&w=130&h=130&url=https%3A%2F%2Fcdn.sstatic.net%2FSites%2Fsecurity%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D497726d850f9&cfs=1&_nc_hash=AQA2r_qVadUkrAsR
+created_time: '2017-08-26T05:53:56+0000'
+updated_time: '2017-08-26T07:13:15+0000'
+name: Difference between Second Pre-image Resistance and Collision Resistance in Cryptographic
+  Hash Functions
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1590078427698526/
+id: '172338516139198_1590078427698526'
+reactions:
+  data:
+  - id: '1978556165731463'
+    name: Amr Almgwary
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTNNekV5T1RVM09UWXpPakUxTURNM05EazRNVFU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTNNekV5T1RVM09UWXpPakUxTURNM05EazRNVFU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-08-26T06:06:18+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: "The idea is simple \nIn collisions you are tasked to find any two numbers
+      that produce the same hash, which gives you a lot of freedom and hence it is
+      easier than when the task is second pre-image which is to find a number that
+      produces a specific hash, it basically means you have to go through the whole
+      search space -in the worst case scenario- to find at least one number that generates
+      the same hash which is 2^N where N is the number of hash bits\nThe collision
+      is easier because of something called the Birthday Paradox which puts an upper
+      bound of the square root of the size of the search space hence 2^(N/2)"
+    id: '1590084431031259'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU1TURBNE5EUXpNVEF6TVRJMU9Ub3hOVEF6TnpJM05UYzUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU1TURBNE5EUXpNVEF6TVRJMU9Ub3hOVEF6TnpJM05UYzUZD
+attachments:
+  data:
+  - description: I am studying the subject from these notes. However it is not clear
+      what is the difference between "Second Pre-image Resistance" and "Collision
+      Resistance" properties of Cryptographic Hash Function...
+    media:
+      image:
+        height: 316
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQD2MR1wRPgCDzqO&w=720&h=720&url=https%3A%2F%2Fcdn.sstatic.net%2FSites%2Fsecurity%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D497726d850f9&cfs=1&_nc_hash=AQBAvnSFqqFCakC8
+        width: 316
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fsecurity.stackexchange.com%2Fquestions%2F69405%2Fdifference-between-second-pre-image-resistance-and-collision-resistance-in-crypt&h=ATNmXXhumaIFDfpbqadE6Vc1U9pULR08hOg3qsubmGdK9kxyA3eCuTUZqWten2Y8Ry5U1xTn9FMYciA5abeicJsnZDb88bed0caj&s=1&enc=AZOJXS_BFb7AjBqpFYDGHPYszRJgPRLSGxosyrtjqQZj7Q7KLdZtV70jyVETL7eppnIlOGEcqO1ltOyywf-SIpba
+    title: Difference between Second Pre-image Resistance and Collision Resistance
+      in Cryptographic Hash Functions
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fsecurity.stackexchange.com%2Fquestions%2F69405%2Fdifference-between-second-pre-image-resistance-and-collision-resistance-in-crypt&h=ATNmXXhumaIFDfpbqadE6Vc1U9pULR08hOg3qsubmGdK9kxyA3eCuTUZqWten2Y8Ry5U1xTn9FMYciA5abeicJsnZDb88bed0caj&s=1&enc=AZOJXS_BFb7AjBqpFYDGHPYszRJgPRLSGxosyrtjqQZj7Q7KLdZtV70jyVETL7eppnIlOGEcqO1ltOyywf-SIpba

@@ -1,0 +1,48 @@
+---
+message: "A designer or UI developer who use Dreamweaver and Photoshop to design.
+  \nThey deliver HTML that looks like this:\n<p>Hello, Alan</p>\nThen I add my AngularJs
+  templates, like this: \n<p>Hello, {{username}}</p>\n\nNow if they need to fix something
+  in the HTML layout, they have to run a fully fledged server with Angular, backed
+  by DB, etc. Just to be able to test it with normal looking data.\n\nQuestion: Is
+  there a way for a designer to deal with HTML templates without having to run a server?"
+from:
+  name: Mohammad Fouad
+  id: '10155755444625845'
+type: status
+created_time: '2016-11-03T12:05:08+0000'
+updated_time: '2016-11-03T13:49:35+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1279307535442285/
+id: '172338516139198_1279307535442285'
+reactions:
+  data:
+  - id: '1657509230977456'
+    name: Hosam Aly
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhOVFV4T0RRMk1EZAzBPakUwTnpneE9EQTVPRFE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXhOVFV4T0RRMk1EZAzBPakUwTnpneE9EQTVPRFE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-11-03T12:12:24+0000'
+    from:
+      name: Muhammad Saleh
+      id: '10156649659196002'
+    message: |-
+      Well, IMHO you have 2 options:
+      1. Removing {{username}} and add some dummy static data to test the UI with
+      2. *preferred* Having a test environment which is a lightweight server including mocked data
+    id: '1279317745441264'
+  - created_time: '2016-11-03T13:49:33+0000'
+    from:
+      name: Hosam Aly
+      id: '1657509230977456'
+    message: "Your designer works on his git branch. You merge his into yours and
+      add your coffee. He edits his design and pushes; you merge from his branch.
+      And so on. \n\nAs long as you don't merge into his branch, you only incur the
+      cost of fixing a few merge conflicts."
+    id: '1279502912089414'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkzT1RNeE56YzBOVFEwTVRJMk5Eb3hORGM0TVRjMU1UUTEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkzT1RVd01qa3hNakE0T1RReE5Eb3hORGM0TVRnd09UY3oZD

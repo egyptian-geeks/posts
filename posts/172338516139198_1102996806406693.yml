@@ -1,0 +1,39 @@
+---
+message: |-
+  hi, have anyone here used cloudera or hadoop before?!
+  i got some json data from twitter api through flume into hdfs
+  but i can't read it or turn it to structured data
+  i tried to use hive but i keep getting errors and exceptions
+  if anyone can help ?!
+from:
+  name: Ahmed Bassell
+  id: '1976373499069350'
+type: status
+created_time: '2016-03-21T10:45:27+0000'
+updated_time: '2016-03-22T23:38:45+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1102996806406693/
+id: '172338516139198_1102996806406693'
+reactions:
+  data:
+  - id: '10156020325916241'
+    name: Musa Hamza
+    type: LIKE
+  - id: '10211411394860293'
+    name: Mohamed Emad
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpReU5qYzJNalF3T2pFME5UZAzFPRGN4TmpVNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRJeU5EZA3hPVGt6TXpveE5EVTROVFUzT1Rnd09qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2016-03-21T12:04:42+0000'
+    from:
+      name: Andrew Ramzy Ar
+      id: '1960766703936797'
+    message: anta machine learning wla big data ? :D
+    id: '1103033289736378'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV3TXpBek16STRPVGN6TmpNM09Eb3hORFU0TlRZAeE9EZA3kZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV3TXpBek16STRPVGN6TmpNM09Eb3hORFU0TlRZAeE9EZA3kZD

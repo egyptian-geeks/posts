@@ -1,0 +1,115 @@
+---
+message: |-
+  سرعة نقل الملفات من USB لـ HDD بطيئة جدااا اقل من 2MB/s و العكس نفس النظام لا يتعدي الـ4MB/s
+  الكلام دا علي Ubuntu Server 16.04
+  دروت علي الأنترنت معرفتش اوصل لحل ! البعض اقترح اني اعمل mount بbig_writes بس مفيش اي تأثير.
+
+  # USB
+  HPFS/NTFS/exFAT
+  ---
+  /dev/sdd1 on /media/sdd1 type fuseblk (rw,relatime,user_id=0,group_id=0,allow_other,blksize=4096)
+
+  # HDD
+  Linux filesystem
+  ---
+  /dev/sdb1 on /mnt/MediaVault type fuseblk (rw,relatime,user_id=0,group_id=0,allow_other,blksize=4096)
+
+  لو حد عندة اي فكرة ازاي احل المشكلة اكون شاكر جدا لية !
+  MY RESEARCH
+  http://askubuntu.com/questions/546896/performance-difference-ntfs-linux-and-ntfs-windows
+  http://superuser.com/questions/613869/ntfs-write-speed-really-slow-15mb-s-on-ubuntu
+  http://www.tuxera.com/community/ntfs-3g-faq/#slow
+link: https://www.facebook.com/photo.php?fbid=1750347575285143&set=gm.1337948976244807&type=3
+from:
+  name: Tarekk Mohamed Abdalla
+  id: '1984058555247376'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/15697535_1750347575285143_8032041222154562733_n.jpg?oh=5c53a493bfd7b0200728d10efbe29bf5&oe=5AD84D54
+created_time: '2016-12-26T13:13:11+0000'
+updated_time: '2016-12-26T16:18:35+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1337948976244807/
+id: '172338516139198_1337948976244807'
+reactions:
+  data:
+  - id: '1641565752594739'
+    name: Ahmed Aziz
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlNak01T1RFMk5UUXpPakUwT0RJM05UazBPVFU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlNak01T1RFMk5UUXpPakUwT0RJM05UazBPVFU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-12-26T13:40:02+0000'
+    from:
+      name: Ahmed Anwar
+      id: '1565500013571026'
+    message: Emad Saeed have any ideas ?
+    id: '1337968702909501'
+  - created_time: '2016-12-26T14:34:59+0000'
+    from:
+      name: George Stephanos
+      id: '10215136151822095'
+    message: have you tried skipping fuse and mounting directly with ntfs-3g and ext4?
+      (by specifying -t in the mount command)
+    id: '1338010329572005'
+  - created_time: '2016-12-26T14:53:23+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: 'دعني استنتج شيء: هذا الوضع معناه ان ال USB عندك شغال كأنه USB 1 موش
+      3 ولا حتى 2'
+    id: '1338028739570164'
+  - created_time: '2016-12-26T14:57:18+0000'
+    from:
+      name: Tarekk Mohamed Abdalla
+      id: '1984058555247376'
+    message: "Wow 30MB/s \U0001F633\nThanks George Stephanos -t ntfs flags seem to
+      do the trick"
+    id: '1338031182903253'
+  - created_time: '2016-12-26T14:57:54+0000'
+    from:
+      name: Emad Saeed
+      id: '1775266282497365'
+    message: |-
+      ممكن حضرتك توضح اكتر و تشوف ال benchmark لل usb و hdd كل واحد لوحده و بالنسبة لليو اس بي من غير mount خالص
+      و جرب في الاول احجام صغيرة زي انك تخلي ال diskdump البلوك سايزيكون فيه 10 ميجا و count 3 مرات و بعدين زود البلوك سايز كل دا عشان تتطمن علي ال benchmark مش اكتر
+      لو لقيته اعلي من سرعة نقل الملفات ف جرب تdd اليو اس بي كامل و اعمله mkfs من جديد علي ext4 مش اي حاجه تانية زي ما حضرتك كاتب فوق ntrfs/exFat و ان شاء الله ينجح
+      اخر احتمال تشوف اصلا ال health بتاع الديسك عن طريق SMART tools لان ممكن يكون بيموت
+    id: '1338031472903224'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE16TnprMk9EY3dNamt3T1RVd01Ub3hORGd5TnpVNU5qQXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE16T0RBek1UUTNNamt3TXpJeU5Eb3hORGd5TnpZAME1qYzEZD
+attachments:
+  data:
+  - description: |-
+      سرعة نقل الملفات من USB لـ HDD بطيئة جدااا اقل من 2MB/s و العكس نفس النظام لا يتعدي الـ4MB/s
+      الكلام دا علي Ubuntu Server 16.04
+      دروت علي الأنترنت معرفتش اوصل لحل ! البعض اقترح اني اعمل mount بbig_writes بس مفيش اي تأثير.
+
+      # USB
+      HPFS/NTFS/exFAT
+      ---
+      /dev/sdd1 on /media/sdd1 type fuseblk (rw,relatime,user_id=0,group_id=0,allow_other,blksize=4096)
+
+      # HDD
+      Linux filesystem
+      ---
+      /dev/sdb1 on /mnt/MediaVault type fuseblk (rw,relatime,user_id=0,group_id=0,allow_other,blksize=4096)
+
+      لو حد عندة اي فكرة ازاي احل المشكلة اكون شاكر جدا لية !
+      MY RESEARCH
+      http://askubuntu.com/questions/546896/performance-difference-ntfs-linux-and-ntfs-windows
+      http://superuser.com/questions/613869/ntfs-write-speed-really-slow-15mb-s-on-ubuntu
+      http://www.tuxera.com/community/ntfs-3g-faq/#slow
+    media:
+      image:
+        height: 333
+        src: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/15723664_1750347575285143_8032041222154562733_o.jpg?oh=bb8b1445c748f52411849afbeec57b5d&oe=5AE1710D
+        width: 720
+    target:
+      id: '1750347575285143'
+      url: https://www.facebook.com/photo.php?fbid=1750347575285143&set=gm.1337948976244807&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=1750347575285143&set=gm.1337948976244807&type=3

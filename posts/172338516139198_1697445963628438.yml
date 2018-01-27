@@ -1,0 +1,130 @@
+---
+message: سؤال بعد اذنكم هل ال Node_Modules مع ال Angular 4 و بطئها اللي مش طبيعي في
+  ال run w al build لما ال dependencies تبقي كتير ليه حل ولا لا ؟؟
+from:
+  name: Moatasem Elrouby
+  id: '2020866527940520'
+type: status
+created_time: '2017-12-20T13:40:13+0000'
+updated_time: '2017-12-21T07:17:03+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1697445963628438/
+id: '172338516139198_1697445963628438'
+reactions:
+  data:
+  - id: '871016873079772'
+    name: Marwan Ahmed
+    type: LIKE
+  - id: '10155259295420418'
+    name: Tarek Mostafa
+    type: LIKE
+  - id: '2025844137456286'
+    name: Mostafa Abobakr
+    type: LIKE
+  - id: '2036289513285931'
+    name: Ahmed M. Anan
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTFNVFEwTURJME5EWTRPakUxTVRNNE5qZA3dOakk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTNNVFEzTURZAeU1EYzBPakUxTVRNM09ERTFOVGc2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-12-20T13:54:18+0000'
+    from:
+      name: Muhammad Saleh
+      id: '10156649659196002'
+    message: |-
+      lazm t7awel t2alel el dependencies
+
+      bs el node_modules (installing deps) btkoon bte2a fel build law feh CI lakn locally 3amlalak mashakel ?
+    id: '1697461553626879'
+  - created_time: '2017-12-20T14:03:05+0000'
+    from:
+      name: Mohamed Jadelrab
+      id: '10156401691426535'
+    message: امبارح اضطريت اعمل بيلد ليها على ويندوز فعلا بطيئة جدا واعتمادها على
+      حاجات زي visual studio build tools و بايثون في حاجات مش مفهوم .. لو node هي
+      الأساس في شغلك حول لينوكس أو ماك و هتنبسط
+    id: '1697467726959595'
+  - created_time: '2017-12-20T14:05:19+0000'
+    from:
+      name: Osama Soliman
+      id: '879271768900112'
+    message: ايه اللي بطيء مش فاهم معلش؟
+    id: '1697469130292788'
+  - created_time: '2017-12-20T14:08:56+0000'
+    from:
+      name: Medhat Dawoud
+      id: '1615379065212042'
+    message: a generic solution for this that works for me before and you can try,
+      delete the node_module folder, update the angular-cli and npm if they are not
+      latest, and reinstall all packages, some updates enhances the performance, try
+      and let us know
+    id: '1697471466959221'
+  - created_time: '2017-12-20T14:17:07+0000'
+    from:
+      name: Mohamed Eltantawi
+      id: '10160105091695314'
+    message: What CPU and HDD you got? if not SSD HDD with enough memory, yes, it
+      will be painfully slow even with fewer modules.
+    id: '1697476840292017'
+  - created_time: '2017-12-20T14:18:50+0000'
+    from:
+      name: Osama Soliman
+      id: '879271768900112'
+    message: |-
+      Usually your packages load "once" at > vendor.bundle.js
+      Changing something to src code usually takes "1~5 seconds" to reflect on the browser...
+      In newer Angular AOT we are using RAM not disk so it's a speed up to 17GB/s!
+    id: '1697478013625233'
+  - created_time: '2017-12-20T14:44:36+0000'
+    from:
+      name: Ahmed Ramadan
+      id: '10211958026050902'
+    message: you can use lazy loading strategy  divide your app into small modules
+      and lazy loading use shared module and core module and with lazy load use p
+      reloading strategy
+    id: '1697495753623459'
+  - created_time: '2017-12-20T14:58:46+0000'
+    from:
+      name: Ahmed M. Anan
+      id: '2036289513285931'
+    message: انا حولت للينكس من ويندوز لاقيت فرق فظيع فى السرعه حتى ال phpstorm كنت
+      بشتكى من البطئ على الويندوز
+    id: '1697506910289010'
+  - created_time: '2017-12-20T16:04:33+0000'
+    from:
+      name: Ahmed EL-Metwally
+      id: '548062595559343'
+    message: "لينكس \nبتاخد من 10 ل 20 ثانية عشان تعمل build او serve"
+    id: '1697555666950801'
+  - created_time: '2017-12-20T16:11:15+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: Only solution is to use ssd :)
+    id: '1697560036950364'
+  - created_time: '2017-12-20T19:14:24+0000'
+    from:
+      name: Mahmoud Hossam
+      id: '1360912124012585'
+    message: ''
+    id: '1697689200270781'
+  - created_time: '2017-12-20T23:05:35+0000'
+    from:
+      name: Osama Mohamed
+      id: '1822744671133412'
+    message: with ssd it takes around 20 seconds to serve and 35 to build with aot
+      in a big project
+    id: '1697843006922067'
+  - created_time: '2017-12-20T23:41:03+0000'
+    from:
+      name: Mohamed Shaaban
+      id: '10156259295924301'
+    message: The problem is not clear, is it taking so long time to build in the CLI,
+      or the editor/IDE hangs/freezes while building?
+    id: '1697861813586853'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFk1TnpRMk1UVTFNell5TmpnM09Ub3hOVEV6TnpjNE1EVTUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFk1TnpnMk1UZA3hNelU0TmpnMU16b3hOVEV6T0RFek1qWTAZD

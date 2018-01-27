@@ -1,0 +1,91 @@
+---
+message: "لو عندى system laravel\nعاوزة اعمل connection\nسستم مطاعم يعنى اى action
+  يحصل عندى على سستم يسمع على system مطاعم دى \nملحوظة اللى اعرفو مطاعم ليها system
+  معروف شغلين بى كلهم \nحد يعرف يساعدنى دة ممكن يحصل ازاى \nوهل فى api جاهز ؟؟"
+from:
+  name: Nada Elnagar
+  id: '10214379914468220'
+type: status
+created_time: '2017-09-10T18:24:34+0000'
+updated_time: '2017-09-12T07:29:38+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1603570363015999/
+id: '172338516139198_1603570363015999'
+reactions:
+  data:
+  - id: '10214195496935590'
+    name: Basem Shokry
+    type: LIKE
+  - id: '1959348084094701'
+    name: Omar Fazloka
+    type: LIKE
+  - id: '1715042805214715'
+    name: Amany Elmenshawy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBMU9UTTNNVGd5TVRveE5UQTFNRGMwTmpVME9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBd01EQXhNamN3TXpZANU1EUXhPakUxTURVd05qazFOakU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-09-10T18:41:06+0000'
+    from:
+      name: Ahmed Elhadi
+      id: '2100856430150634'
+    message: لو بتتكلمي علي الطلبات مثلا فعلي حد علمي ان otlob لحد دلوقتي بيعملوا
+      الاوردر بالتليفون بس كان فيه plan انهم عايزين يعملوا automation للجزء ده بس
+      مش متأكد حصل ده ولا لأ
+    id: '1603579126348456'
+  - created_time: '2017-09-10T19:09:06+0000'
+    from:
+      name: Nada Elnagar
+      id: '10214379914468220'
+    message: ايوة عاوزة حاجة تساعدنى الحاجة تتبعت على طول للسستم مطاعم دى فى حاجة
+      تساعدنى ؟
+    id: '1603595049680197'
+  - created_time: '2017-09-10T19:17:48+0000'
+    from:
+      name: Mahmoud Elshafaey
+      id: '10213485772596807'
+    message: "ممكن تعملي حاجة نفس فكرة ال push notifications كده \nhttps://stackoverflow.com/questions/1086380/how-does-facebook-gmail-send-the-real-time-notification"
+    id: '1603600619679640'
+  - created_time: '2017-09-10T19:19:52+0000'
+    from:
+      name: Nada Elnagar
+      id: '10214379914468220'
+    message: "حضرتك تقصد push notification على سستم بتاعهم \n\nممكن توضيح اكتر"
+    id: '1603601986346170'
+  - created_time: '2017-09-10T20:08:58+0000'
+    from:
+      name: Abdelrhman Mohamed
+      id: '1788801214484268'
+    message: "انا كنت شغال ف بروجيكت برضو للمطاعم من حوال 3 شهور و وقفته لظروف خاصة,
+      جزئية ال real time apps دي ببتعمل بإستخدام ال Web socket\nفى باكديج أسمها breain
+      socket لل laravel \nدوري عليهاأو لو تقدري تعملى انتى الباكدج بتاعتك مش هاتفرق"
+    id: '1603631409676561'
+  - created_time: '2017-09-11T06:24:24+0000'
+    from:
+      name: Memo Mata
+      id: '10214752922447534'
+    message: بتكلمي أنه يرمي علي سيستم خاص بمطعم داخلي زي كول سنتر مثلا هيوزع منه
+      اوردرات لفروع بتكلمي عن برنامج بتاع شركه اسمها سيمبل تاتش شغالين دوت نت وسيكول
+      سيرفر
+    id: '1603940426312326'
+  - created_time: '2017-09-12T01:54:34+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: You can use any queuing system for that task. First there's a system
+      A that fires a message (in your case message should contain data from system
+      A that will be save in system B) to the queue. Then you have a queue listener
+      that handles this message (in your case, save it or push it to system B)
+    id: '1604640146242354'
+  - created_time: '2017-09-12T07:29:29+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: https://aws.amazon.com/documentation/sns/
+    id: '1604799456226423'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl3TXpVM09URXlOak0wT0RRMU5qb3hOVEExTURZANE9EWTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl3TkRjNU9UUTFOakl5TmpReU16b3hOVEExTWpBeE16Y3oZD

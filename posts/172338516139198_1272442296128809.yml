@@ -1,0 +1,178 @@
+---
+message: |-
+  السلام عليكم
+
+  الموضوع ده اللى حيفيدنى فيه حد يكون اتعامل مع Devexpress Reports لأنى بدور على حل له بقالى اكتر من سنه فعلا ومش عارف اوصل لحل - المشكله هى ان اى تقرير بعمله بيفتح بعد وقت وده اول مره فقط - بعد كده مجرد ما افتح التقرير بيفتح على طول وكلمت الدعم اكتر من مره وده كان ردهم وما فادونيش بعديه خالص
+
+  This problem appears because not all assemblies are initially loaded when you start your application. The .Net Framework loads the assemblies into memory by demand. That's the cause of this initial delay. I believe that you can use the ngen utility to force the required assemblies to be loaded. Please review the http://msdn2.microsoft.com/en-us/library/6t9t5wcf(VS.71).aspx article in the MSDN.
+  Otherwise, you can preload some assemblies that are required for the EUD via the Assembly.Load Method.
+
+  فممكن حد هنا من الاعضاء الكرام يوضح ليا اعمل عشان احل المشكله دى ؟
+link: http://msdn2.microsoft.com/en-us/library/6t9t5wcf(VS.71).aspx
+from:
+  name: Ahmed Amin
+  id: '1962172197389574'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQCCD8aRH2kg8niG&w=130&h=130&url=https%3A%2F%2Fi-msdn.sec.s-msft.com%2Fdynimg%2FIC160177.jpeg&cfs=1&_nc_hash=AQCrCK-De61YugC5
+created_time: '2016-10-29T01:37:43+0000'
+updated_time: '2016-10-31T06:30:53+0000'
+name: Ngen.exe (Native Image Generator)
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1272442296128809/
+id: '172338516139198_1272442296128809'
+comments:
+  data:
+  - created_time: '2016-10-29T01:41:25+0000'
+    from:
+      name: Kofi Kotga
+      id: '1683289718380917'
+    message: بيقولك اعمل لوود لل ريفرينس للي هو محتاجها بنفسك والابلكيشن بيفتح لانه
+      الديفولت انها بتتلود مع اول تقرير. اعمل سيرش على الميثود للي قلك عليها واعرف
+      بتستخدم ازاي
+    id: '1272445592795146'
+  - created_time: '2016-10-29T01:42:39+0000'
+    from:
+      name: Ahmed Amin
+      id: '1962172197389574'
+    message: شكرا ليك - انا فعلا حاولت لكن مع الاسف فشلت - عشان كده قولت اسئل لأنها
+      اكيد صادفت حد يكون اشتغل بنفس الأداه
+    id: '1272446506128388'
+  - created_time: '2016-10-29T02:05:48+0000'
+    from:
+      name: Ahmed Abdo
+      id: '10155432639833282'
+    message: ممكن سكرين شوت من المشكله نفسها
+    id: '1272466256126413'
+  - created_time: '2016-10-29T02:07:44+0000'
+    from:
+      name: Ahmed Amin
+      id: '1962172197389574'
+    message: الفكره يا هندسه انى اول مره بفتح التقرير بياخد حوالى 10 ثوانى عشان يفتح
+      وبعد كده خلاص بيكون طبيعى من 2 الى 3 ثوانى عشان يفتح - فانا بدور على حل للمشكله
+      دىى والحل حسب كلام الدعم فى ngen
+    id: '1272468162792889'
+  - created_time: '2016-10-29T02:09:37+0000'
+    from:
+      name: Ahmed Amin
+      id: '1962172197389574'
+    message: his is a known problem. When XtraReports functionality is initialized
+      for the first time, it takes time for the .Net Framework to load all assemblies
+      into memory. That is the cause of this delay at the initial start. I believe
+      that you may use the Ngen utility to force the required assemblies to be loaded.
+      Please review Native Image Generator (Ngen.exe) article in the MSDN for additional
+      information.
+    id: '1272469316126107'
+  - created_time: '2016-10-29T02:09:42+0000'
+    from:
+      name: Ahmed Abdo
+      id: '10155432639833282'
+    message: "شيل table adapter من الريبورت \nوحطه في الكود بأيدك في ايفينت ال before
+      print"
+    id: '1272469419459430'
+  - created_time: '2016-10-29T02:10:46+0000'
+    from:
+      name: Ahmed Abdo
+      id: '10155432639833282'
+    message: هل انت حافظ واجهه التقرير على الهارد مثلا او الداتابيز؟
+    id: '1272470082792697'
+  - created_time: '2016-10-29T02:11:30+0000'
+    from:
+      name: Ahmed Amin
+      id: '1962172197389574'
+    message: انا مصمم التقرير من داخل الفيجوال كملف cs وهو مدمج فى DLL
+    id: '1272470386126000'
+  - created_time: '2016-10-29T02:13:06+0000'
+    from:
+      name: Ahmed Abdo
+      id: '10155432639833282'
+    message: تمام جرب الحل اللى قولتهولك فوق كده
+    id: '1272473292792376'
+  - created_time: '2016-10-29T02:14:22+0000'
+    from:
+      name: Ahmed Amin
+      id: '1962172197389574'
+    message: حسب ما فهمت من كلامك اشيله من هنا واحطه فى حدث befor print الخاص بالتقرير
+      نفسه ؟
+    id: '1272475386125500'
+  - created_time: '2016-10-29T02:14:58+0000'
+    from:
+      name: Ahmed Abdo
+      id: '10155432639833282'
+    message: بالظبط كده
+    id: '1272475926125446'
+  - created_time: '2016-10-29T02:20:18+0000'
+    from:
+      name: Ahmed Amin
+      id: '1962172197389574'
+    message: نفس القصه
+    id: '1272479129458459'
+  - created_time: '2016-10-29T02:21:48+0000'
+    from:
+      name: Ahmed Abdo
+      id: '10155432639833282'
+    message: "غريبه \nطيب ديه آخر نسخة من devexpress ?"
+    id: '1272479756125063'
+  - created_time: '2016-10-29T02:22:12+0000'
+    from:
+      name: Ahmed Amin
+      id: '1962172197389574'
+    message: ايوه انا لسه محدثها امبارح
+    id: '1272480219458350'
+  - created_time: '2016-10-29T02:22:32+0000'
+    from:
+      name: Ahmed Amin
+      id: '1962172197389574'
+    message: انا ممكن اجرب على تقرير جديد واشوف - بس انت تقصد ان هما اهتموا بمعالجه
+      الموضوع ده فى اخر نسخه ؟
+    id: '1272480529458319'
+  - created_time: '2016-10-29T02:23:31+0000'
+    from:
+      name: Ahmed Abdo
+      id: '10155432639833282'
+    message: "احنا بنستخدمها بس ميحصلش معايا كده \n10 ثوانى وقت كبير"
+    id: '1272480882791617'
+  - created_time: '2016-10-29T02:23:52+0000'
+    from:
+      name: Ahmed Amin
+      id: '1962172197389574'
+    message: ده اللى حيجننى بجد
+    id: '1272480982791607'
+  - created_time: '2016-10-29T02:26:10+0000'
+    from:
+      name: Mohamed Sameeh Sharaf
+      id: '2167550119925504'
+    message: Ahmed Ebied you can help :)
+    id: '1272481912791514'
+  - created_time: '2016-10-29T02:27:33+0000'
+    from:
+      name: Ahmed Amin
+      id: '1962172197389574'
+    message: ياريت Mohamed Sameeh Sharaf
+    id: '1272482562791449'
+  - created_time: '2016-10-30T07:02:39+0000'
+    from:
+      name: Mustafa Dagher
+      id: '10215560476549083'
+    message: |-
+      Karim Atef Mansour this is something related to dll caching..
+      you may help him if you can.
+    id: '1274008562638849'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkzTWpRME5UVTVNamM1TlRFME5qb3hORGMzTnpBMU1qZAzEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkzTkRBd09EVTJNall6T0RnME9Ub3hORGMzT0RFd09UVTUZD
+attachments:
+  data:
+  - description: The Native Image Generator (Ngen.exe) is a tool that improves the
+      performance of managed applications. Ngen.exe creates native images, which are
+      files containing compiled processor-specific machine code, and installs them
+      into the native image cache on the local computer. The runtime can use native…
+    media:
+      image:
+        height: 10
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQDt2PAMdK-ss9kx&w=720&h=720&url=https%3A%2F%2Fi-msdn.sec.s-msft.com%2Fdynimg%2FIC160177.jpeg&cfs=1&_nc_hash=AQAww_80kL6FYoBF
+        width: 10
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fmsdn2.microsoft.com%2Fen-us%2Flibrary%2F6t9t5wcf%28VS.71%29.aspx&h=ATMzefd5wsjuGSlSEnp8UEk8SyBPOLTanCFKm8prN-btoWtUZT5_y6vrPgJ68bCXS7fCvQ2nzOkYSPL2F4h6kBQW0WvTfkBNfUMg&s=1&enc=AZMmC6Qvws0qRGWs_8sGrxgaYWdDdKSJ5u9jQM_RETigkSi6a1ulrYmYhxWh7FO2WxTpIFwMs3Pw3M6SMAt4NLRu
+    title: Ngen.exe (Native Image Generator)
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fmsdn2.microsoft.com%2Fen-us%2Flibrary%2F6t9t5wcf%28VS.71%29.aspx&h=ATMzefd5wsjuGSlSEnp8UEk8SyBPOLTanCFKm8prN-btoWtUZT5_y6vrPgJ68bCXS7fCvQ2nzOkYSPL2F4h6kBQW0WvTfkBNfUMg&s=1&enc=AZMmC6Qvws0qRGWs_8sGrxgaYWdDdKSJ5u9jQM_RETigkSi6a1ulrYmYhxWh7FO2WxTpIFwMs3Pw3M6SMAt4NLRu

@@ -1,0 +1,72 @@
+---
+message: |-
+  hello every one,
+  I'm  a .net developer and interesting in node js I just  need to know what's the benefits of node js over . net ?
+from:
+  name: Ahmed Mostafa
+  id: '1463621953765328'
+type: status
+created_time: '2016-08-16T21:30:19+0000'
+updated_time: '2016-08-17T08:06:53+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1206135489426157/
+id: '172338516139198_1206135489426157'
+reactions:
+  data:
+  - id: '10214843347173894'
+    name: Hesham Watany
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRFek1qazJPRGt6T0RveE5EY3hORE15TkRjd09qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRFek1qazJPRGt6T0RveE5EY3hORE15TkRjd09qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2016-08-16T22:45:09+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: https://gist.github.com/ilyaigpetrov/f6df3e6f825ae1b5c7e2
+    id: '1206174119422294'
+  - created_time: '2016-08-17T01:59:21+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: No real benefit unless you prefer to program in JS on the backend, otherwise,
+      ASP.NET or  Spring will serve your purpose very well and they have libraries
+      and frameworks for everything you need
+    id: '1206276342745405'
+  - created_time: '2016-08-17T02:45:10+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      The fact that it uses JavaScript made it the preferred option for writing UI development tools. All from compilers to JS or CSS and servers to task runners and test framework runners, even lightweight HTTP servers etc.
+
+      Since there are so many people doing web UI, the NPM package registry (think Nuget gallery for Node) has quickly grown to become (arguably) the biggest package library in the world.
+
+      Even. NET uses Node now for UI tasks in .NET Core instead of ASPnet Optimisation framework.
+
+      Node is also lightweight and cross platform (OS). .NET Core has that, but it's not as mature as the several years old Node which has evolved a lot in the past years and sure doesn't have as large ecosystem.
+
+      Given most of the web runs on Linux, and .NET Core only existed recently (and still young), many companies who wanted just a lightweight framework they can run multiple instances of behind a simple load balancing server like what nginx provides, found Node to be perfect for that.
+
+      Existing developers were able to just jump on it no matter what background they had because 1. It's JS 2. Many of them already used it for front end
+    id: '1206304599409246'
+  - created_time: '2016-08-17T03:25:00+0000'
+    from:
+      name: Hany Aly Hassan
+      id: '10154988197256441'
+    message: Performance wise, u can use as.net Web api,  it has a very close performance
+      specially if you are using parallel tasks and async calls which are always used
+      in nodejs
+    id: '1206320379407668'
+  - created_time: '2016-08-17T08:06:49+0000'
+    from:
+      name: Ayman Sharaf
+      id: '2017184751626866'
+    message: Abdullah El-menawy
+    id: '1206445866061786'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl3TmpFM05ERXhPVFF5TWpJNU5Eb3hORGN4TXpnM05URXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl3TmpRME5UZAzJOakEyTVRjNE5qb3hORGN4TkRJeE1qQTUZD

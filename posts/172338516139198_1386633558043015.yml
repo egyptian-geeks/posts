@@ -1,0 +1,72 @@
+---
+message: "Does anyone have experience with handling back button function using Javascript
+  or jQuery? \n\nI have a web application which will work mainly as a part of mobile
+  application using web view\n\nAll the application is written in only one html and
+  divided into different divs, and I use the script to manipulate html by showing
+  and hiding what I want. \n\nI am doing this because I use local storage to store
+  cookies of the user and use it in my app. \n\nI have been searching for something
+  that may help to override the default function of back button, but I didn't find
+  yet. \n\nThanks"
+from:
+  name: Saleh Aly
+  id: '2058761104403940'
+type: status
+created_time: '2017-02-12T20:04:52+0000'
+updated_time: '2017-02-13T18:08:55+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1386633558043015/
+id: '172338516139198_1386633558043015'
+comments:
+  data:
+  - created_time: '2017-02-12T20:42:05+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: |-
+      I think most frameworks like Angular provide some solution for state management which should take care of the history including back button, but if you want something outside of these frameworks, you can try Sammy.js which pretty simple
+      http://sammyjs.org/
+    id: '1386659201373784'
+  - created_time: '2017-02-12T20:43:45+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: Also you can't override the back function, you can only make the history
+      reflect the change in state, then the back button will make sense
+    id: '1386660114707026'
+  - created_time: '2017-02-12T20:47:51+0000'
+    from:
+      name: Saleh Aly
+      id: '2058761104403940'
+    message: |-
+      I will try Sammy.js
+      Thank you so much!
+    id: '1386662311373473'
+  - created_time: '2017-02-13T01:30:42+0000'
+    from:
+      name: Ahmed Tawfik
+      id: '2083580098542737'
+    message: http://demos.jquerymobile.com/1.4.5/toolbar/#Addingbackbuttontoheader
+    id: '1386848024688235'
+  - created_time: '2017-02-13T08:00:52+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: "In cordova and ionic u do that easily with a plugin as in javascript
+      u can only show a confirmation message on leave ... \nThe real questiin is why
+      y dont use cordova !"
+    id: '1387028991336805'
+  - created_time: '2017-02-13T12:29:06+0000'
+    from:
+      name: Saleh Aly
+      id: '2058761104403940'
+    message: |-
+      I solved it with help of a friend by 2 simple steps:
+
+      1- I used location.hash to add different hash to the address with each different div
+      2- Then added on window hashchange function including if case inside it that show the content according to the current location hash in the address bar.
+
+      Thanks a lot all for your help!
+    id: '1387180234655014'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE00TmpZAMU9USXdNVE0zTXpjNE5Eb3hORGcyT1RNeU1USTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE00TnpFNE1ESXpORFkxTlRBeE5Eb3hORGcyT1RnNE9UUTIZD

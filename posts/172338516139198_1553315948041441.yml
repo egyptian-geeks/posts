@@ -1,0 +1,251 @@
+---
+message: "في كل مره بنزل لينكس جديد بقعد يوم كامل عشان اكون منزل كل التولز اللي بشتغل
+  بيها وده بيتكرر ف كل مره بنزل لينكس من جديد .. مفيش طريقه تخليني اخد باكاب من السيستم
+  بتاعي كامل واعمل منه iso مثلا واستخدمها ف كل مره بدل الوقت ده ف كل مره ؟ \nلو حد
+  بيواجه نفس المشكله ياريت لو يقولنا بيستهلك الوقت ف كل مره انه ينزل التولز دي ولا
+  في طريقه تانيه ؟"
+from:
+  name: Amr MUhamed
+  id: '1444931018966857'
+type: status
+created_time: '2017-07-20T21:01:50+0000'
+updated_time: '2017-07-21T08:26:23+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1553315948041441/
+shares:
+  count: 2
+id: '172338516139198_1553315948041441'
+reactions:
+  data:
+  - id: '10212768937991554'
+    name: Mohamed Wagdy
+    type: LIKE
+  - id: '1979848165376268'
+    name: مصطفى يحيي
+    type: LIKE
+  - id: '1169766573157316'
+    name: Omar Adel
+    type: LIKE
+  - id: '10210807665171166'
+    name: Majed Rayan
+    type: LIKE
+  - id: '10156191099748000'
+    name: Shady Mohamed Sherif
+    type: LIKE
+  - id: '10155012005352687'
+    name: Eman A. Ahmed
+    type: LIKE
+  - id: '10207834435137061'
+    name: Ahmed Fouad
+    type: LIKE
+  - id: '1586702514711722'
+    name: Mahmoud Ahmed
+    type: LIKE
+  - id: '1557580064295784'
+    name: Mohamed H. Fakher
+    type: LIKE
+  - id: '10215070655377585'
+    name: Mahmoud Kandeel
+    type: LIKE
+  - id: '1848037425209496'
+    name: Omar Hisham
+    type: LIKE
+  - id: '1337805666323562'
+    name: Rawan Lazkani
+    type: LIKE
+  - id: '1605217822866999'
+    name: Mousa Hassan Jr.
+    type: LIKE
+  - id: '832020650303292'
+    name: Abdelrahman Mohamed
+    type: LIKE
+  - id: '1777747355608739'
+    name: Kareem Ali
+    type: LIKE
+  - id: '1385664498246611'
+    name: Sayed Said
+    type: LIKE
+  - id: '429459677472897'
+    name: Mohamed Yunus
+    type: LIKE
+  - id: '946434942173093'
+    name: Islam Felfela
+    type: LIKE
+  - id: '1780676198623196'
+    name: محمود كريم
+    type: LIKE
+  - id: '1978009525783037'
+    name: Ahmed Magdy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBek1EYzFOakkzT0RveE5UQXdOekE1TlRjek9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBd01EQTNNakl3TWpZAeE5qSXhPakUxTURBMU9EUTFOalE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-07-20T21:02:58+0000'
+    from:
+      name: Mostafa Sakr
+      id: '1638668526186387'
+    message: Docker image
+    id: '1553316661374703'
+  - created_time: '2017-07-20T21:03:42+0000'
+    from:
+      name: Mohammed Hussien
+      id: '10154922289347024'
+    message: فيه طبعا باك اب من النسخة بتاعتك بالبرامج بكل حاجة وأسهل من الويندوز.
+    id: '1553317081374661'
+  - created_time: '2017-07-20T21:04:09+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: خد نسخة من اسماء الpackages اللى منزلها وبعدين ابقى نزلهم كلهم مرة واحدة،
+      واعمل سكريبت ينزل الحاجات اللى بتنزلها من على النت بأي لغة تحبها، bash script
+      حتي يكفيك
+    id: '1553317314707971'
+  - created_time: '2017-07-20T21:04:24+0000'
+    from:
+      name: Mohamed Eltantawi
+      id: '10160105091695314'
+    message: I use it as my main dev environment in VMware, easy backup and independent
+      from the host (Windows). But may I ask why you need to re-install it so often?
+    id: '1553317464707956'
+  - created_time: '2017-07-20T21:06:43+0000'
+    from:
+      name: Ahmad Hisham
+      id: '10159889607765058'
+    message: Write a small script to install the packages of your favorite tools,
+      and you you 'll always have a fresh up-to-date machine
+    id: '1553318834707819'
+  - created_time: '2017-07-20T21:09:27+0000'
+    from:
+      name: Moataz Elmasry
+      id: '10159865785365331'
+    message: Even better than a script, write an ansible file and save it in bitbucket
+    id: '1553320498040986'
+  - created_time: '2017-07-20T21:20:38+0000'
+    from:
+      name: Muhammed Nagy
+      id: '495080930892199'
+    message: "copy your / i just made it \ni copied my root from my old hard disk
+      to my new SSD and it worked !!!"
+    id: '1553328408040195'
+  - created_time: '2017-07-20T21:22:52+0000'
+    from:
+      name: Moataz Elmasry
+      id: '10159865785365331'
+    message: One more trick. Mount your /home and /opt on a separate partition, so
+      that you don't lose your settings everytime you install a new linux
+    id: '1553329914706711'
+  - created_time: '2017-07-20T21:35:25+0000'
+    from:
+      name: Abdelrahman Mohamed
+      id: '832020650303292'
+    message: Ibrahim M. Ibrahim
+    id: '1553338564705846'
+  - created_time: '2017-07-20T21:37:49+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: |-
+      مبدأيا علشان تحصل على قايمة بكل الحزم المركبة:
+      dpkg --get-selections | grep -v deinstall > ~/Desktop/packages.txt
+    id: '1553340508038985'
+  - created_time: '2017-07-20T21:40:39+0000'
+    from:
+      name: Ahmed Khaled
+      id: '2096358110650589'
+    message: بعد ما تسطب الlinux بكل البرامج بتاعته اعمل image من النسخه دي زي الiso
+      كل مره هتحرقها علي الفلاشه وتسطبها عادي
+    id: '1553342171372152'
+  - created_time: '2017-07-20T21:55:28+0000'
+    from:
+      name: Marwan Yassin
+      id: '10159953707250230'
+    message: |-
+      The shell script/docker image..etc solutions are the way to go, for completion you can find all the packages downloaded in /var/cache/apt/archives
+
+      Take a backup of this directory so you don't need to download them again
+
+      and use dpkg -i [package name] in the script to install
+    id: '1553351744704528'
+  - created_time: '2017-07-20T22:01:24+0000'
+    from:
+      name: Elmehdi Zangui
+      id: '10214384272708017'
+    message: Said Rahhal
+    id: '1553355848037451'
+  - created_time: '2017-07-20T22:04:35+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: ":D"
+    id: '1553357248037311'
+  - created_time: '2017-07-20T22:51:26+0000'
+    from:
+      name: Mohamed El-Sayed
+      id: '10155182529813309'
+    message: "1- Make every change to your systems through configuration a configuration
+      management tool/system/framework..someone mentioned ansible and it's perfect
+      for this.\n2- Keep a clean system. You can use some sort of a lightweight virtual
+      machine (lxc/lxd/uml) to make a testing system and play with it.\n3- keep a
+      separate /home partition. \n4- Always backup your system."
+    id: '1553394968033539'
+  - created_time: '2017-07-20T23:17:19+0000'
+    from:
+      name: Mohammed Sameer
+      id: '10159851097570371'
+    message: وبتنزله من جديد ليه اصلا؟
+    id: '1553409218032114'
+  - created_time: '2017-07-20T23:33:57+0000'
+    from:
+      name: Abdallah Gamal
+      id: '10155957176184424'
+    message: lw grabt tst5dm arch linux fy el 7kya deh bas complicated 4wya bas a3tkd
+      lw searchat momken tla2y tools t3ml automate 4wya lel 7kya kan fy Os based 3la
+      arch esmo apricity Os kan fy 7aga zy kda we kant shla gdan search we isa tla2y
+    id: '1553420404697662'
+  - created_time: '2017-07-20T23:52:32+0000'
+    from:
+      name: Muhammed Abdulaziz
+      id: '10156189240128395'
+    message: |-
+      لو عملت صورة من التوزيعة هتحتاج مساحة عشان تخزنها و بعد ما ترجع النسخة هتحتاج تحدثها
+      أفضل حل أنك تكتب سكربت أو تستخدم انسبل
+      ansible
+      انسبل سهل و سلس كل اللي بتحتاجه انك تكتب ملف yml و هو بيعمل كل حاجة
+    id: '1553431101363259'
+  - created_time: '2017-07-20T23:52:35+0000'
+    from:
+      name: Galal Atef
+      id: '10214124238595185'
+    message: Use virtualization, and keep snapshots before you mess around
+    id: '1553431121363257'
+  - created_time: '2017-07-20T23:57:27+0000'
+    from:
+      name: Muhammed Abdulaziz
+      id: '10156189240128395'
+    message: و انتبه ان اسماء الحزم ممكن تختلف من توزيعة للتانية
+    id: '1553433194696383'
+  - created_time: '2017-07-21T04:20:36+0000'
+    from:
+      name: Mostafa Elbiar
+      id: '1409966339132435'
+    message: "يعنى اهم ميزة واحسن ميزة  انك بتنزل نسخه مرة واحدة وتعيش عليها بقيت
+      حياتك \nفين بقي وفين لما تغيرها\nانما انت كدا بتاعمل لينكس كانه ويندوز  تشيل
+      وتحط ايه ياعم  معندكش os  صغيرين \U0001F620"
+    id: '1553590344680668'
+  - created_time: '2017-07-21T08:26:22+0000'
+    from:
+      name: Ahmed Thabet
+      id: '1849432635069365'
+    message: "انت بتعمل حاجة غلط، أولا معظم التوزيعات بتسمح ب Upgrade بسهولة وبدون
+      مشاكل\nولو يهمك موضوع التحديثات الدايمة وأنك دايما تبقى على ال Bleeding edge
+      فمفيش حاجة أحسن من توزيعات ال rolling release زي archlinux و antergos . وحتى
+      الpackages الي عندك هتبقى cached تقدر تستخدمها تاني بعد كدا \n\n* والأحسن أكيد
+      في المستقبل انك تستخدم guix/nix او حاجة زي linuxbrew عشان تبقى ال packages بتاعتك
+      تحت user مش تحت system عامة."
+    id: '1553738137999222'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUxTXpNeE5qWTJNVE0zTkRjd016b3hOVEF3TlRnME5UYzQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUxTXpjek9ERXpOems1T1RJeU1qb3hOVEF3TmpJMU5UZA3kZD

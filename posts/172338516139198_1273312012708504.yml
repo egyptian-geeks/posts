@@ -1,0 +1,50 @@
+---
+message: |-
+  Guys I am in need to develop installer that does 2 things
+  1- Install my WPF application
+  2- register dlls via regsrv32
+  3- be easy to learn ( 30 mins)
+
+  Any suggestions ?
+
+  Thanks in advance
+from:
+  name: Shady Atef
+  id: '10213518317565801'
+type: status
+created_time: '2016-10-29T18:58:25+0000'
+updated_time: '2016-11-06T11:30:39+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1273312012708504/
+id: '172338516139198_1273312012708504'
+comments:
+  data:
+  - created_time: '2016-10-29T19:05:43+0000'
+    from:
+      name: Mohamed Sameeh Sharaf
+      id: '2167550119925504'
+    message: "Ahmed Ebied \U0001F60A"
+    id: '1273317999374572'
+  - created_time: '2016-10-29T19:18:33+0000'
+    from:
+      name: Mahmoud Hossam
+      id: '1360912124012585'
+    message: clickonce?
+    id: '1273330709373301'
+  - created_time: '2016-11-06T08:33:25+0000'
+    from:
+      name: Ahmed El Mowafy
+      id: '1677576058930096'
+    message: Visual Studio 2010
+    id: '1283363745036664'
+  - created_time: '2016-11-06T11:30:37+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      why not make the WPF application do the registry thing on first run and get rid of the installer completely?
+      The application can run a powershell script that asks for elevation (shows UAC dialog to run as admin) then add the registry values you need, and the app can wait for the powershell process to end. (it can launch a process and wait using the System.Diagnostics.Process class)
+    id: '1283508985022140'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkzTXpNeE56azVPVE0zTkRVM01qb3hORGMzTnpZAM09UUXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEk0TXpVd09EazROVEF5TWpFME1Eb3hORGM0TkRNeE9ETTMZD

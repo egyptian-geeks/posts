@@ -1,0 +1,54 @@
+---
+message: I have a PHP script that execute a command "Java -jar ....." It works on
+  my Linux OS I tried to run it on "hostinger" -a free hosting site- but it didn't
+  work what should I do, I this a free hosting sites that supports Java and .jar files,
+  I googled but didn't reach any useful ideas.
+from:
+  name: Bellal Mohamed
+  id: '1672878506132188'
+type: status
+created_time: '2016-05-21T12:18:24+0000'
+updated_time: '2016-05-21T21:18:08+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1147353341971039/
+id: '172338516139198_1147353341971039'
+reactions:
+  data:
+  - id: '1596110217148252'
+    name: Ahmed Badawy
+    type: LIKE
+  - id: '577907769208604'
+    name: Seif Atalla
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlORGM0Tmpnd09EVTJPakUwTmpNNE5ERTVNams2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTVOamd4TlRnMU1EUXpPakUwTmpNNE16TTJORFE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-05-21T13:18:36+0000'
+    from:
+      name: Mohamed Ali
+      id: '1702427916445050'
+    message: system() exec() passthru() shell_exec() are always disabled on all shared
+      hosting.. I'm pretty sure this is your problem... to make sure try to print
+      the disabled functions, or ask the support..
+    id: '1147380711968302'
+  - created_time: '2016-05-21T14:46:42+0000'
+    from:
+      name: Ahmed Badawy
+      id: '1596110217148252'
+    message: "Shared hosting doesn't allow shell scripts... \nU need to talk to ur
+      hosting service provider..."
+    id: '1147429181963455'
+  - created_time: '2016-05-21T21:18:08+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      this might not be very relevant, but I once succeeded it running making an ASP.NET application run a java program on GoDaddy's shared hosting, I put a portable version of JRE over there and executed it and it worked!
+      ... kind of, the JAR file was a Minecraft Server, it ran and I saw the console output (I redirected it), but their firewall prevented me from connecting to that server :D
+    id: '1147605118612528'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUwTnpNNE1EY3hNVGsyT0RNd01qb3hORFl6T0RNMk56RTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUwTnpZAd05URXhPRFl4TWpVeU9Eb3hORFl6T0RZAMU5EZAzQZD

@@ -1,0 +1,207 @@
+---
+message: |-
+  أسأل عن دالة لما أزودها بالساعة، والدقيقة، والثانية، على مدار يوم كامل (24 ساعة) تديني رقم عشري صحيح فريد وما يكونش طويل قوي.
+  انا جربت دالة تجمعهم بس طلعت مشكلة إن القيمة بتاعة الساعة 10 والدقيقة 10 والثانية 10 = 30 وهي هي قيمة الساعة 23 والدقيقة 7 والثانية 0!
+  ولو قلنا نحولهم كلهم لثواني ونجمع هيبقى الرقم كبير ولو حوالناهم لساعات موش هيطلع عدد صحيح!
+
+  بمعنى آخر إزاي أقدر اتغلب على العلاقة الموجية بتاعة الزمن في نطاق زمني محدد.
+from:
+  name: Said Bakr
+  id: '10155965038378745'
+type: status
+created_time: '2017-08-21T13:11:29+0000'
+updated_time: '2017-08-23T17:31:26+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1586111738095195/
+id: '172338516139198_1586111738095195'
+comments:
+  data:
+  - created_time: '2017-08-21T13:19:16+0000'
+    from:
+      name: Sherif Elmetainy
+      id: '10155248504590994'
+    message: hour * 3600 + minute * 60 + second
+    id: '1586116581428044'
+  - created_time: '2017-08-21T13:30:03+0000'
+    from:
+      name: Mahmoud Said
+      id: '10159857675500183'
+    message: unix timestamp?
+    id: '1586124058093963'
+  - created_time: '2017-08-21T13:34:19+0000'
+    from:
+      name: Gee Mahmoud
+      id: '10159817960495705'
+    message: You already have 86400 values. Unless you are looking for hash function
+      or just want to give 1 to 1 number assignment to these values from 0 to 86399,
+      then you requirement need to be revised
+    id: '1586126734760362'
+  - created_time: '2017-08-21T13:40:54+0000'
+    from:
+      name: Tarek Ahmed
+      id: '10215440197777018'
+    message: Your function has to have 86400 values, you cannot have less than that,
+      if you want to represent this in a more compact way, look at writing it in hex
+      or a higher base
+    id: '1586130618093307'
+  - created_time: '2017-08-21T13:43:30+0000'
+    from:
+      name: Nour Berro
+      id: '1858822624162177'
+    message: |-
+      int number = int.Parse(String.Format("{0:d9}", (DateTime.Now.Ticks / 10) % 1000000000));
+      This will generate 8-9 numbers only and unique
+
+      Enjoy
+    id: '1586132188093150'
+  - created_time: '2017-08-21T13:48:42+0000'
+    from:
+      name: Mohamad Shater
+      id: '802499643272475'
+    message: "اعمل سترينج وجمعهم فيه \nالساعه ١٠ و١٠ دقايق و١٠ ثوانى هتبقي ١٠١٠١٠\nاما
+      الساعه ٢٣ و٧ دقايق و٠ ثانيه هيبقي ٢٣٠٧٠٠\nخلي بالك ان يكون كل وحده ممثله برقمين
+      عشان هتبوظ الدنيا لو كانت غير كدا"
+    id: '1586135548092814'
+  - created_time: '2017-08-21T13:50:34+0000'
+    from:
+      name: Tarek Ahmed
+      id: '10215440197777018'
+    message: لاحظ ان ديما هيبقى فيه 86400 رقم العشري الصحيح عشان تقدى تمثل اليوم كامل،
+      مهما كان شكل الرقم او حجمه عمره ما اكبر رقم فيهم هيقل عن 86400، الإثبات الرياضي
+      للحقيقة دي من Shannon's Entropy
+    id: '1586142588092110'
+  - created_time: '2017-08-21T14:38:46+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: ليه متلزقهمش وخلاص ؟ concat ?
+    id: '1586177474755288'
+  - created_time: '2017-08-21T15:41:45+0000'
+    from:
+      name: Mohamed Ahmed
+      id: '385696705226073'
+    message: علي ماعتقد الUnix time stamp بتغطي الاحتياج ده
+    id: '1586221694750866'
+  - created_time: '2017-08-21T16:36:30+0000'
+    from:
+      name: Ahmed Gaber Elneel
+      id: '1552352001546794'
+    message: unix_timestamp !!!
+    id: '1586256361414066'
+  - created_time: '2017-08-21T17:47:53+0000'
+    from:
+      name: Tarek Dawoud
+      id: '10156109957694861'
+    message: |-
+      Some questions:
+      1) This is just a hash function based on timestamp, did you try looking those up? There are tons of examples.
+      2) Do you need the result reversible? i.e. Given the hash, you can get back the timestamp? (Basically, why are you doing this?)
+      3) Why not store the timestamp.ToString() itself?
+    id: '1586310924741943'
+  - created_time: '2017-08-21T18:58:21+0000'
+    from:
+      name: Mustafa Abdullah
+      id: '10156099084105126'
+    message: |-
+      only solution to give unique number
+      h * 3600 + m * 60 + s
+    id: '1586379458068423'
+  - created_time: '2017-08-21T20:46:39+0000'
+    from:
+      name: Mohamed Shaaban
+      id: '10156259295924301'
+    message: معلش فين المشكلة اللي بتحاول تحلها من الأساس، اللي خلتك محتاج دالة بالشكل
+      دة، يمكن يكون فيه حلول تانية
+    id: '1586447164728319'
+  - created_time: '2017-08-21T22:00:48+0000'
+    from:
+      name: Karim Tawfik
+      id: '10159730660210062'
+    message: |-
+      this is a little bit vague to me, what is the length of the number you want to generate ( you can't just say not too long), you say you want it to be unique, for how long?, if the answer is forever, so my answer is you can't have such number.
+
+      In java you can convert a specific date (Year, Mon, Day, HH:mm:ss) to milliseconds, and this is unique and of length 13, is something like that not long based on your critiria?
+    id: '1586487101390992'
+  - created_time: '2017-08-21T23:18:51+0000'
+    from:
+      name: Mohammed Fox
+      id: '1534405689947170'
+    message: Unix timestamp is the solution
+    id: '1586525958053773'
+  - created_time: '2017-08-21T23:28:41+0000'
+    from:
+      name: Jihad A. Abdel Majeed
+      id: '10155357846496295'
+    message: "خليه رقم من 6 digits \nhhmmss\nهيطلع فريد وماعتقدش كدة كبير قوي يعني"
+    id: '1586530318053337'
+  - created_time: '2017-08-22T05:29:48+0000'
+    from:
+      name: Abdullatif Al-Khatib
+      id: '10156011986535135'
+    message: |-
+      3 digits, no special characters
+
+      #include <stdio.h>
+
+      int main()
+      {
+      //example time
+      char hours=5, minutes=36, seconds=30;
+
+      //output string
+      char output[4]={0,0,0,0};
+
+      //encode hours
+      output[0]=hours+65;
+
+      //encode minutes
+      if (minutes<10) {output[1]=minutes+48;} else if (minutes<36) {output[1]=minutes+55;} else {output[1]=minutes+61;}
+
+      //encode seconds
+      if (seconds<10) {output[2]=seconds+48;} else if (seconds<36) {output[2]=seconds+55;} else {output[2]=seconds+61;}
+
+      printf("%d:%d:%d ---> %s\r\n",hours,minutes,seconds,output);
+      return 0;
+      }
+    id: '1586720424700993'
+  - created_time: '2017-08-22T08:15:17+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "اول حاجة انت ممكن تجيب برنتر مخصصة للموضوع ده تطبع بيها الاستكر (الموضوع
+      مش مكلف وﻻ حاجة وهيديك مزايا كتير جدا وهتنسى عامل الخطأ البشري كمان تماما)\n\nثانيا
+      ممكن ال sticker لما ينطبع ينطبع  qr code كمان او 2d barcode عامة يعنى سهل الاستيكر
+      يتقري تانى من السستم..\n\nثالثا طالما اولريدي في الاي دي بتاعك جزء بيعرف المكنة
+      اللى حصل فيها العطل يبقى مش هيحصل اكتر من عطل في نفس الدقيقة لنفس المكنة، ولو
+      حصل، ممكن تخلى السستم يسجل عطل نفس المكنة ده في الدقيقة اللى بعدها، فبالتالى
+      هيكون عندك اليوم 1440 دقيقة بدل 86400 ثانية ودى هتفرق معاك كتير\nهتخزن رقم الدقيقة
+      كـ hex encoded فبالتالى اقصى قيمة عندك لـ 1440 هى بالـ hex \n5A0 \nيعنى 3 حروف
+      بس اقصى حاجة.."
+    id: '1586799288026440'
+  - created_time: '2017-08-22T09:28:02+0000'
+    from:
+      name: Ahmad Hisham
+      id: '10159889607765058'
+    message: استعمل ال epoch إللي هو عدد الثواني من أول سنة ١٩٧٠ ونقص منه ال epoch
+      بتاع أول يوم عملت فيه الدالة، وأقسمه علي أعلي رقم محتاج فيه ال precision (يعني
+      لو عايز أدق رقم يبقي دقيقة واحد أقسم علي ٦٠، لو خمس دقايق يبقي علي ٣٠٠) وخد
+      الرقم الصحيح.
+    id: '1586838198022549'
+  - created_time: '2017-08-22T16:21:27+0000'
+    from:
+      name: Fady Anwar
+      id: '10159888022555052'
+    message: |-
+      Did you consider using number of day per year + number of minute?
+      HHMM is a waste of decimals
+    id: '1587095744663461'
+  - created_time: '2017-08-23T17:31:26+0000'
+    from:
+      name: Mohammed Attya
+      id: '10211091168020519'
+    message: "ليه تديله الوقت لما ممكن تتعامل مباشرة مع Unix time \nهو عبارة عن عدد
+      الثواني من وقت ما مش فاكره بالتحديد\nيعني كل ثانية معاك رقم صحيح. فريد"
+    id: '1587973257909043'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU0TmpFeE5qVTRNVFF5T0RBME5Eb3hOVEF6TXpJeE5UVTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU0TnprM016STFOemt3T1RBME16b3hOVEF6TlRBNU5EZAzIZD

@@ -1,0 +1,94 @@
+---
+message: "Slam all, \n\nI have a pure technical question :\n\nIn project I'm working
+  on now , we are using Java as back end technology and Angular 2 as front end technology
+  and the hand shaking between them is web service .\n\nRecently unfortunately I found
+  myself to make any validation on UI form , I have to call WS to hit the Database
+  ; which is very tedious and not professional as performance wise .\n\nThe business
+  is very very complex and no way to achieve these validations on presentation layer
+  , I must go down to access the database and get the result.\n\nWhat should I do
+  in such case to avoid this behavior ? \n\nThanks in advance."
+from:
+  name: Mohamed Sweelam
+  id: '1987222834640127'
+type: status
+created_time: '2017-08-27T16:45:37+0000'
+updated_time: '2017-08-29T17:12:03+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1591329074240128/
+id: '172338516139198_1591329074240128'
+comments:
+  data:
+  - created_time: '2017-08-27T16:53:36+0000'
+    from:
+      name: Abd El Rhaman Ezzat
+      id: '1722658717785442'
+    message: I;m on the same situations,hope someone has a good technique that he
+      used
+    id: '1591333537573015'
+  - created_time: '2017-08-27T17:03:36+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: Can u cash availavle values/ rules on form load or in background as soon
+      as the page loads, on the sides what u mean by the handshake between them
+    id: '1591339437572425'
+  - created_time: '2017-08-27T17:08:50+0000'
+    from:
+      name: Mohamed Sweelam
+      id: '1987222834640127'
+    message: Meligy can you help ?
+    id: '1591343867571982'
+  - created_time: '2017-08-27T17:25:00+0000'
+    from:
+      name: Sherif Elmetainy
+      id: '10155248504590994'
+    message: "angular 2 has asynchronous validation for that reason. There is nothing
+      unprofessional about it. Some validations cannot run at the client for whatever
+      reason. It's as simple as that. \n\nFor performance angular 2 does not run asynchronous
+      validators unless all client side ones (synchronous) are passed to avoid making
+      extra calls."
+    id: '1591357020904000'
+  - created_time: '2017-08-27T17:37:37+0000'
+    from:
+      name: Abdelkarim Mamdouh
+      id: '2013204002023890'
+    message: if the user do queries on an entity many times you may use memoization  and
+      save the results for further use.
+    id: '1591364184236617'
+  - created_time: '2017-08-27T23:04:13+0000'
+    from:
+      name: Ahmed van Mostafa
+      id: '10156031492006081'
+    message: "Create an asynchronous call to your backend/model layer..\nYour layer
+      hits. a single query to the db to retrieve the validation rules and caches it
+      on the model (you saved DB hits over WS)\n\nvalidate your UI against the cached
+      rules as much as you want.. \n\nOnce the validation passes, clear the cache
+      (or clear it after passing some time to save the DB hit for same view)."
+    id: '1591563614216674'
+  - created_time: '2017-08-27T23:17:37+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      First, depending on the problem, your validation might be just right. IF you are rejecting this just on principle, it might not be worth changing.
+
+      However, you might have other options.
+
+      If the main reason you are hitting the web service is to reach for more information from the DB, one option might be loading the information you need from the DB when you load the form in one web service call, and then using them to run the validations on the client. That, if this is possible of course.
+
+      Another option might be trying to split your form into a group of smaller forms. Usually this is more friendly to the users (although they don't imagine it's easier till they see it). Then you can have a few validations run in one go
+    id: '1591570954215940'
+  - created_time: '2017-08-29T16:19:33+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: If your datasource is realtime then round trips are a must, otherwise
+      if ur form round trips are because ur form doesn't have access to enough data
+      then i would advice u to recheck ur 'state management' and app architecture.
+      But remember that ux while filling a long form might hurt ur app more than ur
+      worry of round trips.. Server traffic should not be a development concern at
+      any stage, its a smell for premature optimization
+    id: '1592978070741895'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU1TVRNek16VXpOelUzTXpBeE5Ub3hOVEF6T0RVeU9ERTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU1TWprM09EQTNNRGMwTVRnNU5Ub3hOVEEwTURJek5UY3oZD

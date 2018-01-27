@@ -1,0 +1,104 @@
+---
+message: لو عايز تآخد فكرة عن ازاي تعمل public, private keys
+link: https://youtu.be/KOKmY0TtYww
+from:
+  name: Marei Morsy
+  id: '1648136701907266'
+type: video
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQASBpJ2dq6nBiuk&w=130&h=130&url=https%3A%2F%2Fi.ytimg.com%2Fvi%2FKOKmY0TtYww%2Fhqdefault.jpg&cfs=1&_nc_hash=AQB6ekSVrHL7R0ef
+created_time: '2016-10-26T09:20:24+0000'
+updated_time: '2016-10-26T20:51:43+0000'
+name: خوارزمية Diffie–Hellman بالعربي
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1269294569776915/
+shares:
+  count: 5
+id: '172338516139198_1269294569776915'
+reactions:
+  data:
+  - id: '10157084616254606'
+    name: Hani Mostafa Sami
+    type: LIKE
+  - id: '10155268760762467'
+    name: Mhmd Amin
+    type: LIKE
+  - id: '895970407247426'
+    name: Ahmad Magdy
+    type: LIKE
+  - id: '2064529060458371'
+    name: Mohamed Aly
+    type: LIKE
+  - id: '1487671784675336'
+    name: Mohamad Emad
+    type: LIKE
+  - id: '10156058637813523'
+    name: Magdi Nakhla
+    type: LIKE
+  - id: '1965907793738864'
+    name: Mustafa Qamaruddin
+    type: LIKE
+  - id: '929472323875062'
+    name: Mo'men Tawfik
+    type: LIKE
+  - id: '10160105091405314'
+    name: Mohamed Elsherif
+    type: LIKE
+  - id: '10213394268464462'
+    name: Mohamed A. Alqrwash
+    type: LIKE
+  - id: '10156099084105126'
+    name: Mustafa Abdullah
+    type: LIKE
+  - id: '10209580554144405'
+    name: Mohamed Shabana
+    type: LIKE
+  - id: '1769679443064146'
+    name: Gerges Bernaba
+    type: LIKE
+  - id: '10155224155802344'
+    name: Sameh Saeed
+    type: LIKE
+  paging:
+    cursors:
+      before: TnpReE16YzBOakExT2pFME56YzFOVEl4TWpjNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRneU1UZAzNNelF6T2pFME56YzBOelF6TURBNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-10-26T11:23:51+0000'
+    from:
+      name: Mostafa Mohamed
+      id: '10215212836343185'
+    message: as far as i know, this algorithm has a weakness in its handshake
+    id: '1269378986435140'
+  - created_time: '2016-10-26T14:50:25+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: تصحيح بسيط على تعليقك على الفيديو، Deffie-Hellman مش خوارزمية تشفير Asymmetric
+      بمعنى انها ليها Public/Private keys لكن هي خوارزمية تبادل keys بتسمح لطرفين
+      انهم يوصله لمفتاح واحد سوا يقدروا يستخدموه في التشفير باي خوارزمية Symmetric  بعد
+      كده.
+    id: '1269538736419165'
+  - created_time: '2016-10-26T20:51:42+0000'
+    from:
+      name: Mahmoud Nawar
+      id: '1668267479883149'
+    message: "By the way diffie and hellman had won the last ACM Turing Award \nfor
+      the contribution in public key cryptosystems :)"
+    id: '1269841779722194'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkyT1RNM09EazROalF6TlRFME1Eb3hORGMzTkRneE1ETXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkyT1RnME1UYzNPVGN5TWpFNU5Eb3hORGMzTlRFMU1UQXoZD
+attachments:
+  data:
+  - description: شرح خوارزمية ديفي هيلمان لتبادل مفاتيح التشفير بالعربية
+    media:
+      image:
+        height: 360
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQC_PE-aM9AFeUVf&w=720&h=720&url=https%3A%2F%2Fi.ytimg.com%2Fvi%2FKOKmY0TtYww%2Fhqdefault.jpg&cfs=1&_nc_hash=AQD97yWldlncA7Qq
+        width: 360
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fyoutu.be%2FKOKmY0TtYww&h=ATPvwatczExD7vdcoA3SyJesZH0IS1syNljBvQ699LzH5rGbwS2D47fxEECJ7sscNuMVQo7_fK0VYmFqKcPnZOZPP8ZpWsRNQx3B&s=1&enc=AZO3picmjMV1Q5lNYBTIlZo7YkWOm9Fis-rlBCnowHYFEu6LHv8McsePe7RRzTUoQESoyaE-RsxiORv9xMz_nbtW
+    title: خوارزمية Diffie–Hellman بالعربي
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fyoutu.be%2FKOKmY0TtYww&h=ATPvwatczExD7vdcoA3SyJesZH0IS1syNljBvQ699LzH5rGbwS2D47fxEECJ7sscNuMVQo7_fK0VYmFqKcPnZOZPP8ZpWsRNQx3B&s=1&enc=AZO3picmjMV1Q5lNYBTIlZo7YkWOm9Fis-rlBCnowHYFEu6LHv8McsePe7RRzTUoQESoyaE-RsxiORv9xMz_nbtW

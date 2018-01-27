@@ -1,0 +1,87 @@
+---
+message: "السلام عليكم\n\nمن فضلكم  انا شغال .NET MVC \n\nلو عاوز اعمل موقع يشتغل
+  زى Google Drive - بمعنى انه حيتم تخزين ملفات عليه فقط لا غير وكل يوزر حيكون له ملفاته
+  الخاصة بيه وكمان ممكن يخلى حد تانى من المستخدمين يشوف او يحمل الملفات الخاصة بيه
+  او بعضها ؟"
+from:
+  name: Ahmed Amin
+  id: '1962172197389574'
+type: status
+created_time: '2016-01-06T12:12:00+0000'
+updated_time: '2016-01-06T17:42:01+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1057985237574517/
+id: '172338516139198_1057985237574517'
+comments:
+  data:
+  - created_time: '2016-01-06T12:24:32+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: https://pyd.io/
+    id: '1057988514240856'
+  - created_time: '2016-01-06T13:09:04+0000'
+    from:
+      name: Ahmed Amin
+      id: '1962172197389574'
+    message: شكرا لإهتمامك - بس مش واضح انى اضيفة ازاى داخل المشروع - اعتقد هو منفصل
+      تماما ؟
+    id: '1058018350904539'
+  - created_time: '2016-01-06T13:54:57+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: ده نظام إدارة ملفات ب PHP تقدر تشغله لوحده ويمكن الحاقه بأي مشروع ويب
+      لأن عملية إلحاقه هتكون في اغلبها (عدى صلاحيات الدخول والمستخدمين واللي ممكن
+      تعديلهم) client-side
+    id: '1058053487567692'
+  - created_time: '2016-01-06T14:05:59+0000'
+    from:
+      name: Ahmed Amin
+      id: '1962172197389574'
+    message: مع الاسف انا شغال .NET
+    id: '1058057057567335'
+  - created_time: '2016-01-06T14:18:21+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: سيرفر iis يقدر يدعم php جربه واطلع على api بتاعه واحتمال كبير هتقدر تلاقي
+      حل او طريقة لإدماجه في مشروعك.
+    id: '1058061217566919'
+  - created_time: '2016-01-06T14:36:45+0000'
+    from:
+      name: Ahmed Amin
+      id: '1962172197389574'
+    message: انا فعلا حعمل كده انا الجزء اللى ملخبطنى هو جزء ازاى احدد مين يشوف ملف
+      معين ومين لا ؟ هل حعمل صفحة حتكون هى اللى بتحكم منها فى ان الملف ده مين اللى
+      يشوفه والا لا ؟
+    id: '1058072650899109'
+  - created_time: '2016-01-06T14:49:29+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: دي هتبقى مبنية على ACL اللي موجودة مع النظام. النقطة الحاكمة هي إزاي
+      تخليه يعمل Authentication و Authorization من التطبيق بتاعك او من قاعدة بيانات
+      مستخدمي التطبيق بتاعك. أعتقد انها ممكن تمشي حاجة زي Service من تطبيقك حاجة كدة
+      زي استخدام الفيس في تسجيل الدخول. بس الحكاية دي عاوزة نظرة عميقة لل API بتاع
+      نظام الملفات Pydio
+    id: '1058084700897904'
+  - created_time: '2016-01-06T15:06:12+0000'
+    from:
+      name: Mohamed Omar Zaian
+      id: '10155855162041047'
+    message: I suggest that you take a look at ownCloud a self hosted file hosting
+      software like Dropbox and Google Drive its written using PHP and can be run
+      with any web server it has a lot of great features
+    id: '1058092884230419'
+  - created_time: '2016-01-06T17:42:01+0000'
+    from:
+      name: Mohammad Fouad
+      id: '10155755444625845'
+    message: "النوع ده من المواقع اسمه Document Management System\nلو دورت اونلاين
+      ممكن تلاقى حاجات اولاين جاهزة مفتوحة المصدر تنزلها زى ما هى و تغير فيها شويه
+      حاجات و تبقى خلصت .. \nو فى حاجات مش دوت نت معروفه زى OwnCloud"
+    id: '1058163590890015'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEExTnprNE9EVXhOREkwTURnMU5qb3hORFV5TURnek1EYzAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEExT0RFMk16VTVNRGc1TURBeE5Ub3hORFV5TVRBeU1USXgZD

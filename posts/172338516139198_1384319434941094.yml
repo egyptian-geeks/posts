@@ -1,0 +1,38 @@
+---
+message: |-
+  http://codereview.stackexchange.com/questions/154995/designing-a-wfs-service-client?noredirect=1#comment293246_154995
+  Would someone comment about my design. I'm new to webservices and how it should work. Expect a multithreaded work that the IMapServer should handle multiple requests from the client.
+link: http://codereview.stackexchange.com/questions/154995/designing-a-wfs-service-client?noredirect=1#comment293246_154995
+from:
+  name: Ahmed Saleh
+  id: '10159933379005574'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQCS21OciOxMO0_w&w=130&h=130&url=https%3A%2F%2Fcdn.sstatic.net%2FSites%2Fcodereview%2Fimg%2Fapple-touch-icon%402.png%3Fv%3Da4f1c838ba2c&cfs=1&_nc_hash=AQCeKrC_yNo4J_-P
+created_time: '2017-02-10T19:52:02+0000'
+updated_time: '2017-02-10T19:52:02+0000'
+name: Designing a WFS service Client
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1384319434941094/
+id: '172338516139198_1384319434941094'
+reactions:
+  data:
+  - id: '10160136355320107'
+    name: Noha Abdel-Tawab
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRjNE5URTFNVEEyT2pFME9EWTNOakUwTURrNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRjNE5URTFNVEEyT2pFME9EWTNOakUwTURrNk1qVTBNRGsyTVRZAeE13PT0ZD
+attachments:
+  data:
+  - description: 'The Driver Code that needs to be encapsulated in interfaces is shown
+      next: OGRDataSource *m_wfs_t; m_wfs_t = OGRSFDriverRegistrar::Open("WFS:http://192.168.139.129/cgi-bin/tinyows.exe",tr...'
+    media:
+      image:
+        height: 316
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQDojtqjEoN8eWXU&w=720&h=720&url=https%3A%2F%2Fcdn.sstatic.net%2FSites%2Fcodereview%2Fimg%2Fapple-touch-icon%402.png%3Fv%3Da4f1c838ba2c&cfs=1&_nc_hash=AQBdxmh0ySiOuGMm
+        width: 316
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fcodereview.stackexchange.com%2Fquestions%2F154995%2Fdesigning-a-wfs-service-client%3Fnoredirect%3D1%23comment293246_154995&h=ATPF9154EIQ7u9u8vuteNWN7nnJ7ZMpE2TqNcHT05v6SI7dffW0cs3YbfSXeDHf9qpQ54qdHRrblw1fMOQ7QKnnx-OSvRzUiD_d3&s=1&enc=AZM-el3MZczohtJfOoG43y0R0RY-Ybqzz1bg-SwE3u0RUc2JoB0Qvbf9PnU-QikEF2p8mJs8FUuph-qbEVyfQcfz
+    title: Designing a WFS service Client
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fcodereview.stackexchange.com%2Fquestions%2F154995%2Fdesigning-a-wfs-service-client%3Fnoredirect%3D1%23comment293246_154995&h=ATPF9154EIQ7u9u8vuteNWN7nnJ7ZMpE2TqNcHT05v6SI7dffW0cs3YbfSXeDHf9qpQ54qdHRrblw1fMOQ7QKnnx-OSvRzUiD_d3&s=1&enc=AZM-el3MZczohtJfOoG43y0R0RY-Ybqzz1bg-SwE3u0RUc2JoB0Qvbf9PnU-QikEF2p8mJs8FUuph-qbEVyfQcfz

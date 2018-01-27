@@ -1,0 +1,26 @@
+---
+message: مشكله غريبه شويه في Google Analytics .. حالياً ممكن نقول ان عندي خدمه تحويل
+  روابط ف المفروض ان اليوزر بيفتح صفحه site1.com/page/123 و بيلاقي فيها لينك بيضغط
+  عليه بيحوله للينك التحويل redirect-link.com/redirect/12example بعدها بيتم تحويله
+  لsite2.com/page/321 . راقبت الريكويست لقيته مسجل الريفيرر بتاعي اللي هو redirect-link.com..
+  بس المشكله ان جوجل اناليتكس مش بيظهر فيها اللينك خالص  مع ان فيه مواقع تانيه جايه
+  في الريفيرر .. دورت علي stackoverflow و راجعت القوانين او القواعد بتاعت جوجل اناليتكس
+  و راجعت الكونفج بتاع الريدايركت وكله يعتبر تمام بس مش عارف ليه مش بتظهر مع العلم
+  ان التحويل بيكون ما بين http request مش https .. و الRequest status 301 ..
+from:
+  name: Ahmed Ashraf
+  id: '930615110434715'
+type: status
+created_time: '2016-07-11T09:36:23+0000'
+updated_time: '2016-07-11T09:36:23+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1179560142083692/
+id: '172338516139198_1179560142083692'
+reactions:
+  data:
+  - id: '1848749968530776'
+    name: Abd El-Rahman Rafat
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhPRGN6TnpJeE9UWXpPakUwTmpneU16UXlOelE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXhPRGN6TnpJeE9UWXpPakUwTmpneU16UXlOelE2TWpVME1EazJNVFl4TXc9PQZDZD

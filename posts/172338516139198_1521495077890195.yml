@@ -1,0 +1,200 @@
+---
+message: |-
+  A bit off topic discussion but worth mentioning. People always ask what is the best upgrade you can do to your laptop, and the recommendation is always SSD. I'm making this post to further support this recommendation. I upgraded my laptop (Lenovo Flex 3) with an SSD, and I wanted to upgrade my RAM as I currently have 8GB. I did a little benchmark and I can say that you do not need more RAM, and here's why.
+
+  When the OS runs out of RAM, the default is that it starts writing to SWAP partition (Pagefile if Windows), which is what makes the computer terribly slow and you feel the hunger for RAM. Since SSDs have incredibly high read/write speeds, writing to SWAP/Pagefile is not an issue anymore.
+
+  This was just a thought until I did a little benchmark. I am running Windows 10 and I have a Linux VM for development. I increased the RAM of the VM to 6 GB, I opened every application possible (Chrome, Firefox, SQL Developer, Sublime, Skype, OneNote, Outlook, Word, Excel, you name it). That wasn't enough so I launch 3 games all together (for those who are aware of gaming, World of Warcraft, Heroes of the Storm and Warcraft III).
+
+  I can safely tell you the laptop was running smoothly, the VM was performing flawlessly, I was switching between all the games, browsers, all apps and I didn't feel any slowness. Of course with this load on the processor, there could be a performance degradation because of the processor but the RAM was holding up fine.
+
+  Short version: aim for SSD as soon as possible, and sorry for the long post.
+
+  Edit: For clarification I am not saying to completely ignore RAM but you should prioritize SSD over RAM, and that the SSD will make your need for RAM less urgent.
+from:
+  name: M Sameh El Harty
+  id: '10159983801460392'
+type: status
+created_time: '2017-06-20T10:22:08+0000'
+updated_time: '2017-06-21T07:26:14+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1521495077890195/
+shares:
+  count: 3
+id: '172338516139198_1521495077890195'
+reactions:
+  data:
+  - id: '2362534387105947'
+    name: Mahmoud Gamal Moharm
+    type: LIKE
+  - id: '10155390785003412'
+    name: Ahmed Hamdy Hammad
+    type: LIKE
+  - id: '10216103154397825'
+    name: Mostafa Abdullah
+    type: LIKE
+  - id: '1178804355556195'
+    name: Hassan Abas
+    type: LIKE
+  - id: '1876092405757348'
+    name: Ibrahem Mahmmoud
+    type: LIKE
+  - id: '1776283549051441'
+    name: Karim Ali
+    type: LIKE
+  - id: '1572371959515590'
+    name: Mahmoud Sayed
+    type: LIKE
+  - id: '1514676671979710'
+    name: Yassmin AbuBakr
+    type: LIKE
+  - id: '1727796783939160'
+    name: Osama Mattar
+    type: LIKE
+  - id: '10155870339741007'
+    name: Mona Shokrof
+    type: LIKE
+  - id: '10159865785365331'
+    name: Moataz Elmasry
+    type: LIKE
+  - id: '1673431476060100'
+    name: Ahmed Khaled
+    type: LIKE
+  - id: '10159951092960711'
+    name: Mohamed M. Farag
+    type: LIKE
+  - id: '832658286916992'
+    name: Mohamed Farghly
+    type: LIKE
+  - id: '10159918162475187'
+    name: Yasser Ali
+    type: LIKE
+  - id: '337142113452197'
+    name: Yousef Shoair
+    type: LIKE
+  - id: '1547297148718242'
+    name: Sherif Abdel-Naby
+    type: LIKE
+  - id: '1819409301443237'
+    name: Mahmoud M Hassan
+    type: LIKE
+  - id: '10156077256184116'
+    name: Mustafa Gamal
+    type: LIKE
+  - id: '368237263651704'
+    name: Omar Ali
+    type: LIKE
+  - id: '10160105091405314'
+    name: Mohamed Elsherif
+    type: LIKE
+  - id: '10156121981551834'
+    name: Yehia Raafat
+    type: LIKE
+  - id: '1539552666097869'
+    name: Mohammed Ahmed
+    type: LIKE
+  - id: '10159926835745593'
+    name: Yehia Shouman
+    type: LIKE
+  - id: '188469361738142'
+    name: Yasmine Nader
+    type: LIKE
+  - id: '1676108972474712'
+    name: Ahmed Ezzat Salama
+    type: LIKE
+  - id: '1012026932279218'
+    name: Ahmed Mohamed Abd El-Hamid
+    type: LIKE
+  - id: '10208478691244351'
+    name: Mohamad Nabih
+    type: LIKE
+  - id: '10154908525551548'
+    name: Yasser Makram
+    type: LIKE
+  - id: '10156089956585148'
+    name: Yasser Shabaan Morgan
+    type: LIKE
+  - id: '832020650303292'
+    name: Abdelrahman Mohamed
+    type: LIKE
+  - id: '10215386861845749'
+    name: Mohamed Arabi Saleh
+    type: LIKE
+  - id: '10156034147089134'
+    name: Haytham Gharabawy
+    type: LIKE
+  - id: '550226522004013'
+    name: Donna Kh
+    type: LIKE
+  - id: '903813099780177'
+    name: Nada Medhat
+    type: LIKE
+  - id: '10156115350739764'
+    name: Mahmoud Tantawy
+    type: LIKE
+  - id: '10159990766420038'
+    name: Abdelrahman Sherif
+    type: WOW
+  - id: '10155345917415897'
+    name: Hossam M. Abdelazeem
+    type: LIKE
+  - id: '10154861414345666'
+    name: Sherry Karam
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdORGd5TWpjME1UY3hPakUwT1Rnd09UazBOak02TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TlRZAd09UUTFOalkxT2pFME9UYzVOVFEwTURJNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-06-20T10:45:10+0000'
+    from:
+      name: Mootaz Dinana
+      id: '10155792625775306'
+    message: Swaping strains the CPU, when and if the CPU is already strained, which
+      is more than often the case with systems low on memory, it can make a system
+      unresponsive.
+    id: '1521509074555462'
+  - created_time: '2017-06-20T10:56:33+0000'
+    from:
+      name: أحمد محمود محمد عبدالوهاب
+      id: '10155226291481186'
+    message: |-
+      It's not recommended to use swap partition on SSD. The suggestion is always to disable this feature an buy more ram, as the swap partition will eat up your SSD's lifetime
+
+      Definitely SSDs are so much better and faster, however, you need to follow best practices if you want it to stay alive for a while
+    id: '1521516914554678'
+  - created_time: '2017-06-20T11:01:38+0000'
+    from:
+      name: Mohamed Eltantawi
+      id: '10160105091695314'
+    message: There is absolutely no substitute for RAM. Period. But I agree, an SSD
+      will make a huge performance upgrade to any system with a mechanical HDD.
+    id: '1521520174554352'
+  - created_time: '2017-06-20T11:09:35+0000'
+    from:
+      name: Ahmed Amr Farid
+      id: '10155859538230336'
+    message: |-
+      Swap will reduce the read/write lifetime of your ssd hard disk...
+      Besides the swap process is cpu intensive by its own.
+      You should disable it...
+    id: '1521524774553892'
+  - created_time: '2017-06-20T20:34:17+0000'
+    from:
+      name: Moataz Elmasry
+      id: '10159865785365331'
+    message: I use ramdisk. Because I can. Neyahhaha
+    id: '1521965464509823'
+  - created_time: '2017-06-21T06:47:02+0000'
+    from:
+      name: Mohamed Sweelam
+      id: '1987222834640127'
+    message: Theoretically speaking RAM is for processing Hard Drive  is for storing;  you
+      may find it is good enough for such cases you tested with, but the drawbacks
+      will be very harmful,  the driver performance will decrease over and over ,
+      and in short time you will stuck between changing it or doubling the RAM size.
+    id: '1522380114468358'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV5TVRVd09UQTNORFUxTlRRMk1qb3hORGszT1RVMU5URXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV5TWpNNE1ERXhORFEyT0RNMU9Eb3hORGs0TURJM05qSXkZD

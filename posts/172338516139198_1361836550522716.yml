@@ -1,0 +1,136 @@
+---
+message: "للناس اللى بتقابلها مشاكل مع Twilio أو أي SMS Gateway\n\nعندي فكرة انك تـ
+  Authenticate بيها ارقام الموبايلات و من غير ما تدفع فلوس بس بصراحة مجربتهاش قبل
+  كده \n\nالفكرة بكل بساطة انك تستعمل ifttt\nhttps://ifttt.com/sms\nفى انك تعمل Setup
+  لرقم موبايل انه لما يستقبل اي SMS او Missed call\nمن رقم يعمل HTTP Request \nعلى
+  السيرفر بتاعك و يـ Authorize الرقم ده\n\nممكن الخصلكوا الموضوع فى الخطوات دي \n١-
+  هتجيب موبايل أندرويد و شريحة جديدة و تحط عليه IFTTT\n٢- هتعمل Configuration لـ IFTTT
+  على الموبايل انه لما يستقبل مكالمات او رسايل من ارقام معينه يبعت HTTP ريكويست للسيرفر
+  بتاعك لـ API End point معينه\n٣- انت طبعا هتعمل API Endpoint انها لما يجيبلها ريكويست
+  فيها رقم موبايل معين تعمله Verify\n٤- هتطلب من اليوزر بتوع الموقع بتاعك انهم يبعتو
+  رساله فاضيه او يعملو Missed Call على الرقم اللى انت شاريه جديد\nفى الحالة دي المفروض
+  انك هتتاكد ان الأرقام دي موجودة فعلاً و هتعمل Verify للأرقام و بسعر بخس!"
+from:
+  name: Maged Eladawy
+  id: '1539250002856228'
+type: status
+created_time: '2017-01-22T10:34:27+0000'
+updated_time: '2017-01-24T05:49:50+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1361836550522716/
+shares:
+  count: 1
+id: '172338516139198_1361836550522716'
+reactions:
+  data:
+  - id: '10213017755051330'
+    name: Abdelrhman Shawky
+    type: LIKE
+  - id: '10156016759599354'
+    name: Hazem Noor
+    type: LIKE
+  - id: '1847421335299420'
+    name: Ahmed Sabry
+    type: LIKE
+  - id: '2037041826574789'
+    name: Ahmad Ahmad
+    type: LIKE
+  - id: '1550512935017298'
+    name: Amr Ashraf
+    type: LIKE
+  - id: '10213118809797201'
+    name: Muhammad El-Hennawy
+    type: LIKE
+  - id: '10212947071504226'
+    name: Eslam Hamouda
+    type: LIKE
+  - id: '10159774797555461'
+    name: Islam Eldemery
+    type: LIKE
+  - id: '895970407247426'
+    name: Ahmad Magdy
+    type: LIKE
+  - id: '2069974546552181'
+    name: Mahmoud Elaskare
+    type: LIKE
+  - id: '10156548320540656'
+    name: Mohammad Zekrallah
+    type: LIKE
+  - id: '10213056573263683'
+    name: Ahmed Mabrook
+    type: LIKE
+  - id: '10154950104465216'
+    name: Nader Al-Sharkawy
+    type: LIKE
+  - id: '10159868043545564'
+    name: Ramez Ashraf
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBeE5Ua3hNRFkyTlRveE5EZAzFNakUwT0RBMk9qSTFOREE1TmpFMk1UTT0ZD
+      after: TlRjNE1UUTFOVFl6T2pFME9EVXdPREUwTWpBNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-01-22T10:44:54+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: Technically valid bas business el users hai2olo 3alek eh :D
+    id: '1361841200522251'
+  - created_time: '2017-01-22T11:18:19+0000'
+    from:
+      name: Ahmed Abdo
+      id: '10155432639833282'
+    message: |-
+      اشكرك جدا جدا
+      الرسايل مع اتصالات مطلعه عينى
+    id: '1361860913853613'
+  - created_time: '2017-01-22T11:49:39+0000'
+    from:
+      name: Ahmed Mabrook
+      id: '10213056573263683'
+    message: Twilio b2a zbala awe lately
+    id: '1361881140518257'
+  - created_time: '2017-01-22T15:14:03+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: |-
+      What if you made your application send an email to your mobile phone containing the phone number to verify and a token.
+      Then use IFTTT to monitor new emails, send the token via sms to the  user.
+      The user submits the token to your website and voila.
+
+      Problem 1: You will need a decent sms package for this, I'm not sure about packages in Egypt but you could get cheap unlimited sms pretty much everywhere.
+
+      Problem 2: I'm not sure if this can be done easily -if at all- using IFTTT.
+    id: '1362034353836269'
+  - created_time: '2017-01-22T18:22:55+0000'
+    from:
+      name: Andrew Raafat
+      id: '10156262041239286'
+    message: this can be extremely easily brute forced
+    id: '1362176770488694'
+  - created_time: '2017-01-22T22:22:15+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: |-
+      هي فكرة حلوة بس هتحتاج حاجتين:
+      1- قائمة انتظار
+      2- المستخدم يكون عنده رصيد كافي لاجراء مكالمة.
+    id: '1362391323800572'
+  - created_time: '2017-01-23T16:05:05+0000'
+    from:
+      name: Hazem Noor
+      id: '10156016759599354'
+    message: I like this idea
+    id: '1363159113723793'
+  - created_time: '2017-01-23T22:40:47+0000'
+    from:
+      name: Ahmed Mabrook
+      id: '10213056573263683'
+    message: I migrated to sinch. IT's awesome.
+    id: '1363631757009862'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0yTVRnME1USXdNRFV5TWpJMU1Ub3hORGcxTURneE9EazAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0yTXpZAek1UYzFOekF3T1RnMk1qb3hORGcxTWpFeE1qUTMZD

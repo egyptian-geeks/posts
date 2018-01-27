@@ -1,0 +1,109 @@
+---
+message: 'I am asking for a code review + an easy technique to convert nested loops
+  to a recursion!
+
+'
+link: https://codereview.stackexchange.com/questions/174355/generate-every-possible-single-word-of-three-letters
+from:
+  name: Osama Soliman
+  id: '879271768900112'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQCS21OciOxMO0_w&w=130&h=130&url=https%3A%2F%2Fcdn.sstatic.net%2FSites%2Fcodereview%2Fimg%2Fapple-touch-icon%402.png%3Fv%3Da4f1c838ba2c&cfs=1&_nc_hash=AQCeKrC_yNo4J_-P
+created_time: '2017-08-30T03:13:55+0000'
+updated_time: '2017-08-31T18:10:31+0000'
+name: Generate every possible single word of three letters
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1593382444034791/
+id: '172338516139198_1593382444034791'
+reactions:
+  data:
+  - id: '909264299254917'
+    name: Mohamed Tarek
+    type: LIKE
+  - id: '765335353652341'
+    name: Mohamed AbdElaziz
+    type: LIKE
+  - id: '1764274097201365'
+    name: Ahmed Shady
+    type: LIKE
+  - id: '1824294617615700'
+    name: Ahmed Sha'lan
+    type: LIKE
+  - id: '930615110434715'
+    name: Ahmed Ashraf
+    type: LIKE
+  - id: '10208596993002679'
+    name: Mostafa Alaa
+    type: LIKE
+  - id: '10214030500170038'
+    name: Omar Kamel
+    type: LIKE
+  - id: '1007081899439865'
+    name: Ali Othman
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTFNVFF3TmpVek56ZA3pPakUxTURReE1ERTBNVGs2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTBNVFF4T1RNME56RTVPakUxTURRd05qTXpOVGs2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-08-30T05:43:08+0000'
+    from:
+      name: Mostafa Saad Ibrahim
+      id: '10155813874910991'
+    message: |-
+      Think in a recursive function with parameter i represents which loop we are inside it now (i = 0 = 1st loop, i = 1 = 2nd nested loop...etc)
+
+      When you are done with K nested recursive calls, you have now K nested loops
+
+      Inside the recursion at level i, do your loop with current level values and call to the next loop i+1
+
+      This eventually is the recursive permutation function for n characters
+
+      For a c++ code, see slide 5 here
+
+      https://github.com/mostafa-saad/ArabicCompetitiveProgramming/blob/master/04%20Math/07_Combinatorics_Permutations_and_Combinations_1.pdf
+    id: '1593455870694115'
+  - created_time: '2017-08-30T13:29:42+0000'
+    from:
+      name: Abdelrahman Mohamed
+      id: '1607285879362770'
+    message: |-
+      vector<char>v;
+      vector<vector<char> >vv;
+      void re(){
+          if(v.size()==3){
+              vv.push_back(v);
+              return;
+          }
+          for(int i=0;i<chars.size();i++){
+              v.push_back(chars[i]);
+              re();
+              v.pop_back();
+          }
+      }
+    id: '1593718017334567'
+  - created_time: '2017-08-30T19:19:50+0000'
+    from:
+      name: Ahmed Samir
+      id: '10159800858645702'
+    message: Why do you want to covert nested loops to recursion?
+    id: '1593984403974595'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU1TXpRMU5UZAzNNRFk1TkRFeE5Ub3hOVEEwTURjeE56a3cZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU1TXprNE5EUXdNemszTkRVNU5Ub3hOVEEwTVRJd056a3cZD
+attachments:
+  data:
+  - description: I was asked to generate every possible single word of three letters,
+      so I wrote this script. How good is my code? Would it be better doing it using
+      recursion or would that be over-engineering? ...
+    media:
+      image:
+        height: 316
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQDojtqjEoN8eWXU&w=720&h=720&url=https%3A%2F%2Fcdn.sstatic.net%2FSites%2Fcodereview%2Fimg%2Fapple-touch-icon%402.png%3Fv%3Da4f1c838ba2c&cfs=1&_nc_hash=AQBdxmh0ySiOuGMm
+        width: 316
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcodereview.stackexchange.com%2Fquestions%2F174355%2Fgenerate-every-possible-single-word-of-three-letters&h=ATO8d0RsT0P6VYMvlhKJB_KDkUauds-ESInJw_Sx0NVDgCLq_w500t0BOm8GmaliooBPeqQIDZc95sYc65vj8DFFAjTR4QKyu64m&s=1&enc=AZP53lTrW_XR5ukP-LX7_puoE2PbC_6gDmc-TG2M_fKZNa9HyRmB4k6N2dohT3JbaHyEiMw4HCCnORgP8hAAySwf
+    title: Generate every possible single word of three letters
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcodereview.stackexchange.com%2Fquestions%2F174355%2Fgenerate-every-possible-single-word-of-three-letters&h=ATO8d0RsT0P6VYMvlhKJB_KDkUauds-ESInJw_Sx0NVDgCLq_w500t0BOm8GmaliooBPeqQIDZc95sYc65vj8DFFAjTR4QKyu64m&s=1&enc=AZP53lTrW_XR5ukP-LX7_puoE2PbC_6gDmc-TG2M_fKZNa9HyRmB4k6N2dohT3JbaHyEiMw4HCCnORgP8hAAySwf

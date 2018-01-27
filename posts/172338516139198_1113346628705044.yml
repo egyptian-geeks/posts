@@ -1,0 +1,59 @@
+---
+message: Guys, How can I control the photo that appears with my blog posts while they
+  are shared on Facebook ?
+from:
+  name: Ahmed Kamal
+  id: '10204469829103969'
+type: status
+created_time: '2016-03-30T22:57:15+0000'
+updated_time: '2016-03-31T06:41:35+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1113346628705044/
+id: '172338516139198_1113346628705044'
+reactions:
+  data:
+  - id: '10155627181650141'
+    name: Mostafa Amin
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpRMU9UZA3dNVFF3T2pFME5UazBNRFE0TnpRNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TmpRMU9UZA3dNVFF3T2pFME5UazBNRFE0TnpRNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-03-30T22:59:43+0000'
+    from:
+      name: Ahmed Mamdouh
+      id: '10155017783825800'
+    message: meta property="og:image"
+    id: '1113347135371660'
+  - created_time: '2016-03-30T23:05:06+0000'
+    from:
+      name: Fady Taher
+      id: '10159837107290263'
+    message: |-
+      in case you already posted it, you might want to use
+
+      https://developers.facebook.com/tools/debug/og/object/
+
+      to refersh the image before reposting
+    id: '1113350055371368'
+  - created_time: '2016-03-30T23:25:50+0000'
+    from:
+      name: Ahmed Kamal
+      id: '10204469829103969'
+    message: "Ahmed Mamdouh Fady Taher \n\nWorking Perfectly now :) Thanks guys so
+      much for your help :)\nhttp://ahmedkamal.me/simpe-redis-a-simple-interface-for-using-redis/"
+    id: '1113357495370624'
+  - created_time: '2016-03-31T06:41:35+0000'
+    from:
+      name: Ahmed Mamdouh
+      id: '10155017783825800'
+    message: |-
+      if you change the tag and the change is not reflected when you share on fb, try the facebook debugger and click fetch new scrape information.
+      i would also recommend you use 1200x630 pics they will show up full width on all devices.
+      cheers
+    id: '1113669918672715'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV4TXpNME56RXpOVE0zTVRZAMk1Eb3hORFU1TXpjNE56ZAzAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV4TXpZAMk9Ua3hPRFkzTWpjeE5Ub3hORFU1TkRBMk5EazIZD

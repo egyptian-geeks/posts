@@ -1,0 +1,20 @@
+---
+message: |-
+  Maximum concurrent Socket.IO connections
+
+  This article may help you along the way: http://drewww.github.io/socket.io-benchmarking/
+
+  I wondered the same question, so I ended up writing a small test (using XHR-polling) to see when the connections started to fail (or fall behind). I found (in my case) that the sockets started acting up at around 1400-1800 concurrent connections.
+
+  This is a short gist to the test: https://gist.github.com/jmyrland/5535279
+link: http://drewww.github.io/socket.io-benchmarking/
+from:
+  name: Mohamed Alaa El Din
+  id: '1573619512716214'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQCCTSM-bJHd6xmg&w=130&h=130&url=http%3A%2F%2Fdrewww.github.io%2Fsocket.io-benchmarking%2Fimg%2Fsent-per-second-log.png&cfs=1&_nc_hash=AQDAKXLQwEM7F-Wz
+created_time: '2014-02-26T18:35:42+0000'
+updated_time: '2014-02-26T18:35:42+0000'
+name: drewww/socket.io-benchmarking @ GitHub
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/707123332660711/
+id: '172338516139198_707123332660711'

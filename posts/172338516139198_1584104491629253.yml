@@ -1,0 +1,118 @@
+---
+from:
+  name: Mohamed El Shaer
+  id: '1623854234340161'
+type: status
+created_time: '2017-08-19T11:40:33+0000'
+updated_time: '2017-09-03T15:18:01+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1584104491629253/
+shares:
+  count: 6
+id: '172338516139198_1584104491629253'
+reactions:
+  data:
+  - id: '546990372329875'
+    name: Mohsen Mahmoud
+    type: LIKE
+  - id: '1630952303664073'
+    name: Abdelrhman Walid
+    type: LIKE
+  - id: '1689612974454057'
+    name: YOmna M. Hafez
+    type: LIKE
+  - id: '10210904627191828'
+    name: Yassin Gamal
+    type: LIKE
+  - id: '627907956'
+    name: Emad Elsaid
+    type: LIKE
+  - id: '1552537434781683'
+    name: Evram Karam
+    type: LIKE
+  - id: '1750827214940443'
+    name: Ahmad Mansour
+    type: LIKE
+  - id: '10156115350739764'
+    name: Mahmoud Tantawy
+    type: LIKE
+  - id: '1602773226469668'
+    name: Mahmoud Ibraheem
+    type: LIKE
+  - id: '1065119596963030'
+    name: Ahmed Nagy
+    type: LIKE
+  - id: '1765781893453545'
+    name: Hawary
+    type: LIKE
+  - id: '10211318113374164'
+    name: Ashraf Haddad
+    type: LIKE
+  - id: '1583586885059676'
+    name: Abdullah Alsofany
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01ERXdOVFkzTlRFM05UVXdPakUxTURjeU1UWTNNek02TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlNalV4TXpneE5EYzRPakUxTURNeE5ESTNPRFE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-09-02T15:44:32+0000'
+    from:
+      name: Evram Karam
+      id: '1552537434781683'
+    message: طب لو سمحت لو معايا ال github student pack بردوا لازم احط credit card
+    id: '1596666393706396'
+  - created_time: '2017-09-03T14:00:44+0000'
+    from:
+      name: Mohamed Moshrif
+      id: '1538447102877297'
+    message: |-
+      طيب أنا عملت كل ده وكل مرة بحاول أعمل connect بيها بيطلع:
+
+      Sun Sep 03 16:04:18 2017 MANAGEMENT: >STATE:1504447458,WAIT,,,,,,
+    id: '1597475890292113'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU1TmpZAMk5qTTVNemN3TmpNNU5qb3hOVEEwTXpZAM01EY3kZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU1TnpRM05UZAzVNREk1TWpFeE16b3hOVEEwTkRRM01qUTAZD
+attachments:
+  data:
+  - description: |-
+      بما إن ناس كتير عندها مشكلة في موضوع الـ VPN وبتسأل إزاي تفتح مواقع معينة محجوبة، فا أنا قررت اكتب تجربتي بسرعة.
+
+      حالياً انت ممكن تستفيد من خدمة AWS Free Tier انهم بيعملوا ببلاش لمدة سنة انك تجرب الخدمة بتاعتهم، فا انت ممكن تعمل VPN Server صغير للإستخدام الشخصي AWS عندهم قيود على حجم الـ Data Traffic اللي تستخدمها في الشهر وهي حوالي 15 جيجا، فا لازم عشان متدفعش فلوس خالص انك متعديش الـ 15 جيجا دول، انا كنت استخدمت حوالي 125 جيجا ودفعت 9 دولار تقريباً.
+
+      الإشتراك عموماً من هنا هتدخل بياناتك عادي ولازم تحط الـ Credit Card بتاعتك وهياخد منها دولار واحد للتأكيد.
+
+      https://console.aws.amazon.com/console/home
+
+      بعد كده الأكونت بيتعمل ليه Activation بعدها بـ 24 ساعة وقتها ممكن تدخل وتبتدي تعمل الـ Server بتاعك.
+
+      هتعمل EC2 عادية خالص سواء Ubuntu او RedHat وبعدين تعمل Connect عليها بالـ SSH
+
+      بعدين هتمشي ورا الخطوات ديه عشان تعمل Setup للـ OpenVPN Server:
+
+      https://github.com/Angristan/OpenVPN-install
+
+      هو هيعمل كل حاجة لوحده مش لازم تكون فاهم اوي في السيرفرات او ازاي تعمل Configuration للـ Server النقطة الوحيدة المهمة ان السيرفر لما بيطلب منك الـ Server IP بيبقا كاتب الـ Private IP المفروض انت تغيرها للـ Public IP بتاع الـ Server.
+
+      بعد ما تخلص الـ Setup هتعمل Run للـ Script تاني عشان تعمل Add to new users وكل يوزر هتعمله هيعمل الـ ovpn profile اللي ممكن تستخدمه من اي OpenVPN Client عشان تعمل Connect للـ Server.
+
+      Windows: https://openvpn.net/index.php/open-source/downloads.html
+      Android: https://play.google.com/store/apps/details?id=net.openvpn.openvpn&hl=en
+      IPhone: https://itunes.apple.com/us/app/openvpn-connect/id590379981?mt=8
+      Ubuntu: https://torguard.net/knowledgebase.php?action=displayarticle&id=53
+
+      الخطوة الأخيرة اللي لازم تعملها عشان تعرف تدخل على السيرفر من الـ Client انك تعمل تعديل للـ Security Group وتضيف الـ Inbound Role بتاعت ان اي حد يعرف يعمل Connect على Port: 1194 UDP.
+
+      بس بعد كده خلاص بقا ممكن تدخل في أي وقت على الـ VPN بتاعك، المفروض انه شغال سريع وبتاعك لوحدك فا أي وقت هتلاقيه، ساعات ممكن تلاقي انه مش بيكونكت فا انت ممكن تعمل Restart للـ OpenVPN Service.
+
+      طبعاً خلي بالك قبل ما تعمل Accounts لأصحابك عشان متدفعش فلوس كتير عشان هنا بتتحاسب على كل الترافيك اللي بعد ال 15 جيجا.
+
+      وشكراً :D
+    target:
+      id: '1584104484962587'
+      url: https://www.facebook.com/notes/egyptian-geeks/create-your-own-free-vpn-server/1584104484962587/
+    title: Create your own free VPN server
+    type: note
+    url: https://www.facebook.com/notes/egyptian-geeks/create-your-own-free-vpn-server/1584104484962587/

@@ -1,0 +1,87 @@
+---
+message: "in linkedlist ..i know any way my o notation to display node is n ..but
+  i want to reduce the n from numbers of all nodes to numbers of nodes where before
+  my node \nso : \nhow i can display a value of node in linkedlist by c# .. most tutorials
+  using foreach ,, i searched about method to do that in microsoft documentations
+  but i do not find .. this mean shoud i implement my linkedlist class and implement
+  method to do that\n??\n*****************\nnote :\ni can not used cast to do that\n*****************\nsearch
+  links :\n1- https://www.google.com.eg/…\n2- https://www.youtube.com/watch…\n3- https://msdn.microsoft.com/…/library/he2s3bh7(v=vs.110).aspx"
+link: https://www.facebook.com/photo.php?fbid=1885067311711892&set=gm.1478937708812599&type=3
+from:
+  name: Ahmed Khalifa
+  id: '1999765416908747'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/18423890_1885067311711892_302021229635956411_n.jpg?oh=01a785e5e8c853a0565338d4ca608d63&oe=5AE73491
+created_time: '2017-05-10T16:19:29+0000'
+updated_time: '2017-05-10T18:17:40+0000'
+name: Photos from Ahmed Khalifa's post
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1478937708812599/
+id: '172338516139198_1478937708812599'
+reactions:
+  data:
+  - id: '1255233001244388'
+    name: Hussien A. Ashour
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlOek14TURBeU1UWTJPakUwT1RRME9EYzBNems2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlOek14TURBeU1UWTJPakUwT1RRME9EYzBNems2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-05-10T16:28:57+0000'
+    from:
+      name: Mariam Maarouf
+      id: '10155779091916638'
+    message: |-
+      هو انت عايز تعمل إيه؟
+
+      دلوقتي الO Notation ده general، بمعنى ده أسوأ إحتمال ممكن للوقت المطلوب عشان تلاقي الnode بتاعتك نسبة لحجم الlist اللي هو n.
+
+      انت أسوأ إحتمال عندك في linked list مش circular إن تكون الnode هي آخر واحدة (وحتى لو circular فلو انت متعرفش انها الأخيرة فأسوأ إحتمال إنها تبقى الأخيرة)، بمعنى إنك قبل ما توصل وتعمل display  لازم تعدي على n nodes. فعشان كدة الO Notation بتاعة الlinked list search هي O(n).
+
+      فانت في الواقع مش بتلف على كله، انت بتروح لحد الnode بتاعتك بس (هتكمل للآخر ليه؟)
+
+      ولا انت بتسأل إزاي تعرف أو تقارن قيمة الnode الواحدة في C# بالذات؟
+    id: '1478945195478517'
+  - created_time: '2017-05-10T18:17:37+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "What you want is exactly how linked list works without modifications
+      \nO(n) is the worst case as Mariam said\nAnd every time it iterates till the
+      node of choice.."
+    id: '1479015215471515'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEzT0RrME5URTVOVFEzT0RVeE56b3hORGswTkRNek56TTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEzT1RBeE5USXhOVFEzTVRVeE5Ub3hORGswTkRRd01qVTQZD
+attachments:
+  data:
+  - subattachments:
+      data:
+      - media:
+          image:
+            height: 407
+            src: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/18423890_1885067311711892_302021229635956411_n.jpg?oh=e77be5e820e0e57d1275b6a131bb0984&oe=5AE3206E
+            width: 720
+        target:
+          id: '1885067311711892'
+          url: https://www.facebook.com/photo.php?fbid=1885067311711892&set=gm.1478937708812599&type=3
+        type: photo
+        url: https://www.facebook.com/photo.php?fbid=1885067311711892&set=gm.1478937708812599&type=3
+      - media:
+          image:
+            height: 407
+            src: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/18423895_1885067348378555_1671885326139734020_n.jpg?oh=e939c1f8de4021f685888e3011301267&oe=5ADB8BEC
+            width: 720
+        target:
+          id: '1885067348378555'
+          url: https://www.facebook.com/photo.php?fbid=1885067348378555&set=gm.1478937708812599&type=3
+        type: photo
+        url: https://www.facebook.com/photo.php?fbid=1885067348378555&set=gm.1478937708812599&type=3
+    target:
+      id: '1478937708812599'
+      url: https://www.facebook.com/media/set/?set=pcb.1478937708812599&type=1
+    title: Photos from Ahmed Khalifa's post
+    type: album
+    url: https://www.facebook.com/media/set/?set=pcb.1478937708812599&type=1

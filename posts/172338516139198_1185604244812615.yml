@@ -1,0 +1,50 @@
+---
+message: "SA, \nDoes anyone know how to download the youtube videos subtitles (closed
+  caption)? \nI tried some command line tools like youtube-dl and youtube2srt but
+  unfortunately it does not work with all of the videos.\nFor example the video in
+  this link (https://www.youtube.com/watch?v=qmWCT_OgrKQ) contains closed caption
+  but both youtube-dl and youtube2srt say the video does not have subtitle.\nCan anyone
+  at least explain why these tools can not download the subtitles from such videos?
+  Is it a restriction set by the video owner or what?"
+from:
+  name: Anas Rabei
+  id: '771652519692786'
+type: status
+created_time: '2016-07-20T08:37:39+0000'
+updated_time: '2016-07-20T09:52:19+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1185604244812615/
+id: '172338516139198_1185604244812615'
+reactions:
+  data:
+  - id: '1487671784675336'
+    name: Mohamad Emad
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlPVGMxT0RjM05qZAzFPakUwTmprd01qWTJOVFU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlPVGMxT0RjM05qZAzFPakUwTmprd01qWTJOVFU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-07-20T08:49:39+0000'
+    from:
+      name: عبدالله محمد
+      id: '10213101784151931'
+    message: you can use http://downsub.com/ i tried it with the link it works
+    id: '1185607731478933'
+  - created_time: '2016-07-20T09:13:46+0000'
+    from:
+      name: Taha Amin
+      id: '10155815529215590'
+    message: http://superuser.com/questions/927523/how-to-download-only-subtitles-of-videos-using-youtube-dl
+    id: '1185618708144502'
+  - created_time: '2016-07-20T09:52:19+0000'
+    from:
+      name: Anas Rabei
+      id: '771652519692786'
+    message: "Hi, I finally find a solution.\nHere is a java application that do what
+      I need. \nhttp://google2srt.sourceforge.net/en/ \nThanks very much."
+    id: '1185630878143285'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU0TlRZAd056Y3pNVFEzT0Rrek16b3hORFk1TURBME5UZA3cZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU0TlRZAek1EZAzNPREUwTXpJNE5Ub3hORFk1TURBNE16UXcZD

@@ -1,0 +1,98 @@
+---
+message: "I am developing my personal website, basically its an API, i want to write
+  some nice front end to it, but i don't wanna go the Angular way, nor the reactjs,
+  too complex and noisy. i just need something simple, i like the Aurelia framework
+  style, but its too complicated for my simple website, right know i use knockout
+  for each view \"but i just render views from the server\". so i just wanted a small
+  framework that could be knock out with a router ? i saw pager.js but i didn't like
+  it.\n\ni dont like front end dev but i have to do it for my website -_- \nif i got
+  bored i will just render from the server :v \nany recommendations ?"
+from:
+  name: Eslam Mostafa
+  id: '1575768239208294'
+type: status
+created_time: '2016-03-28T04:12:52+0000'
+updated_time: '2016-03-29T02:44:49+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1110412815665092/
+id: '172338516139198_1110412815665092'
+reactions:
+  data:
+  - id: '1579863445426307'
+    name: Abdulla Ahmed Seif
+    type: LIKE
+  - id: '10155855157936047'
+    name: Mosab Ibrahim
+    type: LIKE
+  - id: '1596110217148252'
+    name: Ahmed Badawy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlNRGd3TURFMU5EQTFPakUwTlRreE5qQXpNekU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlORGM0Tmpnd09EVTJPakUwTlRreE5EVTROakE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-03-28T04:17:30+0000'
+    from:
+      name: Ammar Youssef
+      id: '10155097484932190'
+    message: الق نظره سريعة على http://vuejs.org/
+    id: '1110415155664858'
+  - created_time: '2016-03-28T04:25:50+0000'
+    from:
+      name: Eslam Mostafa
+      id: '1575768239208294'
+    message: seems promising, will give it a shot
+    id: '1110422008997506'
+  - created_time: '2016-03-28T04:34:33+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      Angular 1 is e simplest this will get client side wise, especially if you need a router. If your needs are really simple, you can go with the built-in in router instead of ui-router. That's as simple as it gets if you want rich client with no client side build.
+
+      Apart from that, there are things like the JavaScript capabilities in Rails 4+, or react .NET for .NET, that makes react pretty simple.
+
+      Or you can simply drop the API idea and do stuff on the server as much as possible, maybe with returning HTML in some Ajax requests if needed, and/or with a little jquery as needed..
+
+      If all you need is a router, sammyJS usage with knockout was popular in the old days (Durandal days).
+    id: '1110427278996979'
+  - created_time: '2016-03-28T04:37:27+0000'
+    from:
+      name: Eslam Mostafa
+      id: '1575768239208294'
+    message: Durandal rocks, i don't know why i forget about it, vue looks promising
+      for me, will give it a shot first before trying other tools.
+    id: '1110432008996506'
+  - created_time: '2016-03-28T05:27:21+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "Start by a ready angular based template (themeforest) \U0001F604"
+    id: '1110463562326684'
+  - created_time: '2016-03-28T06:17:42+0000'
+    from:
+      name: Ahmed Badawy
+      id: '1596110217148252'
+    message: "I strongly advice you to use angular 1 for a small website... \nIt will
+      save you a lot of time...\nThe time wasted in learning will be fully rewarded
+      in all your other projects...\n\nWaste some to gain more..."
+    id: '1110497805656593'
+  - created_time: '2016-03-28T10:25:47+0000'
+    from:
+      name: Eslam Mostafa
+      id: '1575768239208294'
+    message: you know what, i will save my time and use jekyll, deploy on github (Y)
+    id: '1110681302304910'
+  - created_time: '2016-03-28T23:38:18+0000'
+    from:
+      name: Eslam Mostafa
+      id: '1575768239208294'
+    message: |-
+      i appreciated jekyll and github pages, final result: http://eslammostafa.github.io/
+      i saved my time, and saved a lot of headach
+    id: '1111297725576601'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV4TURReE5URTFOVFkyTkRnMU9Eb3hORFU1TVRNNE5qVXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV4TVRJNU56Y3lOVFUzTmpZAd01Ub3hORFU1TWpBNE1qazUZD

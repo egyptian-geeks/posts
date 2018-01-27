@@ -1,0 +1,69 @@
+---
+message: |-
+  I have a weird issue which I'm unable to access firebase Database URL from Vodafone Data connection.
+
+  Anyone have faced the same issue or even know how to work around this?
+
+  P.S I tried it on others operators and it works.
+from:
+  name: Ahmed Ali Henawey
+  id: '2152813614952577'
+type: status
+created_time: '2017-08-06T17:11:20+0000'
+updated_time: '2017-08-15T11:03:31+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1570412472998455/
+id: '172338516139198_1570412472998455'
+reactions:
+  data:
+  - id: '10159797806250517'
+    name: Rami Elsawy
+    type: LIKE
+  - id: '10154893592346534'
+    name: Waleed Rashed
+    type: LIKE
+  - id: '10213314476350869'
+    name: Marco Ghaly
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpFM016SXdOVEUyT2pFMU1ESXlNekl6TmpVNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBMk5qWTJNVEkxTnpveE5UQXlNRFExTmpBNE9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2017-08-06T18:55:01+0000'
+    from:
+      name: Marco Ghaly
+      id: '10213314476350869'
+    message: I have the same issue
+    id: '1570483399658029'
+  - created_time: '2017-08-06T20:08:00+0000'
+    from:
+      name: Ahmed Ali Henawey
+      id: '2152813614952577'
+    message: Any help will be appreciated
+    id: '1570534116319624'
+  - created_time: '2017-08-06T23:36:22+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: at what point the connection fails? is the domain resolved form DNS?
+      did it fail at the handshake for TLS? can you debug the connection step by step?
+      that can help alot in ruling out possible reasons and getting to the root cause.
+    id: '1570701389636230'
+  - created_time: '2017-08-07T00:00:56+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: يعني هل قاعدة البيانات دي موجودة على الجهاز المحلي بتاعك وانت عاوز توصلها
+      من الإنترنت من برة مثلا؟
+    id: '1570715206301515'
+  - created_time: '2017-08-15T11:03:28+0000'
+    from:
+      name: Rami Elsawy
+      id: '10159797806250517'
+    message: ''
+    id: '1580224955350540'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUzTURRNE16TTVPVFkxT0RBeU9Ub3hOVEF5TURRMU56QXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU0TURJeU5EazFOVE0xTURVME1Eb3hOVEF5TnprMU1EQTUZD

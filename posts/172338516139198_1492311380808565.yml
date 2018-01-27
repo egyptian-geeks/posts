@@ -1,0 +1,75 @@
+---
+message: Is anyone here working on block chain related technology? I've read bitcoin's
+  white paper, watched a few videos and read some of the Bitcoin developer guide but
+  I'm still confused  a bit on how this translates to code, bitcoin's core is too
+  big for me to even know where to start on it, so if someone has any resources on
+  the subject, please advise :D
+from:
+  name: Omar Wagih
+  id: '1804876806478909'
+type: status
+created_time: '2017-05-24T20:08:50+0000'
+updated_time: '2017-05-26T15:15:12+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1492311380808565/
+id: '172338516139198_1492311380808565'
+reactions:
+  data:
+  - id: '2004705666469226'
+    name: Ahmed Essam
+    type: LIKE
+  - id: '1555354924540360'
+    name: Mahmoud Adas
+    type: LIKE
+  - id: '10203807938637084'
+    name: Sabr Bry
+    type: LIKE
+  - id: '10209050711344181'
+    name: Mohamed Taha
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTNPRGswTXpZAd05ETXdPakUwT1RVM05EUXlOVEk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRnd09UZAzBNamswT0RveE5EazFOall3T0RjeE9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2017-05-25T01:23:17+0000'
+    from:
+      name: Mahmoud Adas
+      id: '1555354924540360'
+    message: "ياخي سبحان الله كنت بقرا وافكر ف الbitcoin من شويه \nالاجهزه عند بعضيها"
+    id: '1492482054124831'
+  - created_time: '2017-05-25T01:24:07+0000'
+    from:
+      name: Mahmoud Adas
+      id: '1555354924540360'
+    message: "مش فاهم بالضبط عاوز تعمل ايه ؟ \nقصدك هتعمل الكود اللي بيmine ف الbitcoin
+      ؟"
+    id: '1492482454124791'
+  - created_time: '2017-05-25T09:56:06+0000'
+    from:
+      name: Ahmed Mahmoud
+      id: '1917940025202392'
+    message: في كورس علي كورسيرا بيشرح البيتكوين بالتفصيل
+    id: '1492750350764668'
+  - created_time: '2017-05-25T10:42:49+0000'
+    from:
+      name: Mohamed Ashraf
+      id: '10155906116946287'
+    message: There is a bitcoin wiki that talks about the bitcoin protocol https://en.bitcoin.it/wiki/Main_Page
+      however I am not sure what your background is so it may not be as accessible.
+      if you want something easier then do the coursera course. As for the codebase,
+      the main bitcoin client is complicated and they dont allow many developers for
+      security reasons unless they prove themselves.
+    id: '1492771264095910'
+  - created_time: '2017-05-25T15:04:44+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      I also recommend reading the official bitcoin wiki, that's how I learned a lot of things and comprehended the big picture as well as the small details.
+      The Core code is very complicated, and even the BIPs (bitcoin improvement proposals) can get very complicated if you don't have a cryptography background.
+    id: '1492958587410511'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE1TWpRNE1qQTFOREV5TkRnek1Ub3hORGsxTmpjMU16azMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE1TWprMU9EVTROelF4TURVeE1Ub3hORGsxTnpJME5qZAzEZD

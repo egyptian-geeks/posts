@@ -1,0 +1,209 @@
+---
+message: "في سؤال اتسالتو في انترفيو عايزة حد يفكر معايا\nلو انا عندي كود عبارة هن
+  شوية if conditions \nبتعتمد علي لون دخلي من المستخدم مثلا\nIf color == red do x\nIf
+  color == green do y \nand so on \nالمطلوب ان  لو المستخدم زود لون من نفسه انا ماضطرش
+  ازود if زيادة في الكود بتاعيي\nاي اقتراحات ؟"
+from:
+  name: Mahmoud Kandeel
+  id: '10215070655377585'
+type: status
+created_time: '2017-09-24T17:20:55+0000'
+updated_time: '2017-09-28T21:14:05+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1615835598456142/
+id: '172338516139198_1615835598456142'
+reactions:
+  data:
+  - id: '1765781893453545'
+    name: Hawary
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdOalV5TlRReE1qUXdPakUxTURZAMU56ZAzVPREE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXdOalV5TlRReE1qUXdPakUxTURZAMU56ZAzVPREE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-09-24T17:26:08+0000'
+    from:
+      name: Ahmad Magdy
+      id: '895970407247426'
+    message: Attachment Unavailable
+    id: '1615839371789098'
+  - created_time: '2017-09-24T17:39:53+0000'
+    from:
+      name: Ahmad Adel
+      id: '2287861167906449'
+    message: طب و انا ك user هحدد ازاي اللي هيكون في ال if اللي هتتضاف في ال runtime
+      !
+    id: '1615849415121427'
+  - created_time: '2017-09-24T17:44:57+0000'
+    from:
+      name: Ahmad Adel
+      id: '2287861167906449'
+    message: "لو اللي في ال do كان بيعتمد مثلا علي اسم اللون او كود اللون ساعتها ممكن
+      نستخدم list مثلا بعد كدا foreach \U0001F914"
+    id: '1615853058454396'
+  - created_time: '2017-09-24T18:06:30+0000'
+    from:
+      name: Ahmed Saleh
+      id: '10159933379005574'
+    message: Use a strategy patterns, basically an exercise for polymorphism...IColor  Green,
+      Red implements IColor and each class overrides its on Do.. then for each IColor,
+      run it's do method... other method is to use function pointers, but that's the
+      same basic mechanism of virtual function as you need to store a list of function
+      pointers and execute the function -> color relatinship using a std::map
+    id: '1615868168452885'
+  - created_time: '2017-09-24T18:22:56+0000'
+    from:
+      name: Ahmed Abd El-Motaal
+      id: '794291877430280'
+    message: Mohamed Khaled
+    id: '1615879015118467'
+  - created_time: '2017-09-24T18:26:28+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: else
+    id: '1615882161784819'
+  - created_time: '2017-09-24T21:54:45+0000'
+    from:
+      name: Ibrahim Elmorsy
+      id: '10215323481790739'
+    message: If ..... else
+    id: '1616013358438366'
+  - created_time: '2017-09-24T23:31:39+0000'
+    from:
+      name: Hossam Saraya
+      id: '10160260136260389'
+    message: Not sure which language you are using. But generally, you can create
+      a map (hash) with color as the key and function as the value. And replace all
+      if else blocks with a single "map[color]() "
+    id: '1616063358433366'
+  - created_time: '2017-09-25T12:05:24+0000'
+    from:
+      name: Ahmed Atalla
+      id: '574320702905312'
+    message: You may make the conditions on color hex code ranges not exact colors
+      (from 000000 to FFFFFF)
+    id: '1616425808397121'
+  - created_time: '2017-09-25T12:15:29+0000'
+    from:
+      name: Ahmed Ibrahim
+      id: '1782238085129214'
+    message: Do list of colors and append to it.....  When promoting fetch colors
+      from it
+    id: '1616431288396573'
+  - created_time: '2017-09-25T12:17:40+0000'
+    from:
+      name: Mahmoud Mortda
+      id: '1816374988414963'
+    message: ممكن تستخدم ماب  واليوزر بيختار اللون والاكشن
+    id: '1616433001729735'
+  - created_time: '2017-09-25T13:59:14+0000'
+    from:
+      name: Mohamed Moshrif
+      id: '1538447102877297'
+    message: Actually we need more info about the system to suggest the best approach
+      because there are plenty of them. One is you can build an extendable driver
+      model that implements a specific interface. User just adds a driver which ends
+      up added to the local driver cache and you load all available drivers and deal
+      with whatever colors in them
+    id: '1616505395055829'
+  - created_time: '2017-09-25T17:33:04+0000'
+    from:
+      name: Muhamad Eissa
+      id: '1937942979568084'
+    message: i think this question is to check your knowledge of design patterns and
+      i think the solution is the state pattern
+    id: '1616652388374463'
+  - created_time: '2017-09-25T18:36:06+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: Convert it to switch :D!
+    id: '1616694265036942'
+  - created_time: '2017-09-25T22:37:15+0000'
+    from:
+      name: Shehata Ibrahim
+      id: '10213044154511366'
+    message: "create interface Color with method doAction and create Color classes
+      \nRedColor\nGreenColor\nand using reflection map color name to object from color
+      class \nthen call doAction\ndone"
+    id: '1616816178358084'
+  - created_time: '2017-09-25T23:59:45+0000'
+    from:
+      name: Mohamed Ahmed
+      id: '1470551303043336'
+    message: طب و الاكشن بتاعها هيجي منين اصلا
+    id: '1616854448354257'
+  - created_time: '2017-09-26T00:52:28+0000'
+    from:
+      name: Mahmoud Ow
+      id: '561900310821366'
+    message: "// i'm new to programming but this is my thoughts\n\n// create divs
+      Width fixed height and width and set the background color to the color you want
+      \n\n// you can create any html elements i just created divs\n// consider using
+      one class to all elements ( html elements )\n\n// add attribute to those html
+      elements  with the name of the action like \n// data-action = \"x/y\"\n\n//
+      using ajax to post data to another file which will handle the request\n\n$(\".colors
+      class\").click/choose( function () {\nvar element = $(this).attr(\"data\");\n\n//
+      ajax here\n\nsend(element) // to php file\n\n});\n\n//////// using php ( the
+      php file )\n\n// storing the data attr value in php variable\n\n$element = mysqli_real_escape_string($con,
+      $_GET[\"element\"]);\n\n// you can use $_POST instead of $_GET it depends on
+      your ajax request\n\n//$element value will be x or y depending on the element
+      that was clicked \n\nfunction Name($element){\n if( $element == x ){\ndo x;\n}
+      else {\ndo y;\n}\n}"
+    id: '1616881151684920'
+  - created_time: '2017-09-26T01:08:40+0000'
+    from:
+      name: Mahmoud Ow
+      id: '561900310821366'
+    message: "if you want more than two actions which means that every single color
+      have an action it will look like this \n\n//////////////////////////////////////////////////////\n//
+      create divs Width fixed height and width and set the background color to the
+      color you want \n\n// you can create any html elements i just created divs\n//
+      consider using one class to all elements ( html elements )\n// create an id
+      to each div and name it with the color it contain\n// using ajax to post data
+      to another file which will handle the request\n\n$(\".colors class\").click/choose(
+      function () {\nvar elementBgColor = $(this).att(\"id\");\n\n// ajax here\n\nsend(elementBgColor)
+      // to php file\n\n});\n\n//////// using php ( the php file )\n\n// storing the
+      color value in php variable\n\n$element = mysqli_real_escape_string($con, $_GET[\"elementBgColor\"]);\n\n//
+      you can use $_POST instead of $_GET it depends on your ajax request\n\n// now
+      you can make action block like this\n\n// red color\nfunction redColor(){\ndo
+      red;\n}\n// blue color\nfunction blueColor(){\ndo blue;\n}\n// continue with
+      all other colors\n\nfunction  play($element){\n$funcName =  $element.\"color\";\ndo
+      \ $funcName();\n}\nplay();"
+    id: '1616889678350734'
+  - created_time: '2017-09-26T10:05:46+0000'
+    from:
+      name: Ghoneim
+      id: '10159878140790481'
+    message: |-
+      * start with
+      map<Color,IAction> and fill it with lambdas
+      * and
+      class colorClass with doActionBasedOnPreDefinedColorValues() of map.get(color)::doAction
+      * let user create custom colors
+      Class.for(colorClass).getConstructor(colorParams).newInstance(colorArgs)
+      * validate color
+      if (customColor instanceof ColorClass)
+      * proceed further
+      color.doActionBasedOnPreDefinedColorValues();
+      * do NOT forget to override hashcode, equals
+    id: '1617155688324133'
+  - created_time: '2017-09-28T21:14:02+0000'
+    from:
+      name: Bellal Mohamed
+      id: '1672878506132188'
+    message: You can check is x, y and other vars are empty of not, but it's not the
+      best practice, just a possible fix.
+    id: '1619269648112737'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl4TlRnek9UTTNNVGM0T1RBNU9Eb3hOVEEyTWpjek9UWTUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl4T1RJMk9UWTBPREV4TWpjek56b3hOVEEyTmpNek1qUXoZD
+attachments:
+  data:
+  - description: This attachment may have been removed or the person who shared it
+      may not have permission to share it with you.
+    title: Attachment Unavailable
+    type: unavailable

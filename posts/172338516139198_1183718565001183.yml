@@ -1,0 +1,282 @@
+---
+message: 'SSL Interruptions: good evening fellows, some of you might be aware/suffering
+  from SSL-connections drops/interruptions. There are different problems reported
+  among technical communities in Egypt over the past 9 days revolving around targeting
+  SSL connections (VPNs targeting, packet drops, ssl mail server fail..etc). One clear
+  thing is lack of understanding as we don''t have a consistent pattern to talk about
+  (examples of interruption include different IPs targeting, ISPs, mix of blocking
+  techniques) and i cant tell for sure what is going on. I have seen and spoke with
+  ppl who are going through total VPN-drops, frequent ssl-mail-server fail..etc and
+  some companies/institutions have total vpn failure for the last 48hrs till now.
+  Basically there are different difficulties related to secure connections but no
+  solid explanation yet and no hint what is going on.. the general sense of course
+  is SSL interception either by MITM-server or DPIs but no any sort of evidence so
+  far. I thought of bringing it up here so we can share our problems we are going
+  through and maybe our collective problems help in reaching a pattern to understand
+  and hopefully resolve it, and maybe any of you can share a possible explanation.
+  Thank you.'
+from:
+  name: Ramy Raoof
+  id: '10155012385997651'
+type: status
+created_time: '2016-07-17T13:33:24+0000'
+updated_time: '2016-07-20T06:45:08+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1183718565001183/
+shares:
+  count: 13
+id: '172338516139198_1183718565001183'
+reactions:
+  data:
+  - id: '10155350494557615'
+    name: Khaled Mohi
+    type: LIKE
+  - id: '10214910797022886'
+    name: Saif Ahmed
+    type: LIKE
+  - id: '10160070111940193'
+    name: Adel Riyad
+    type: LIKE
+  - id: '10215240236736573'
+    name: M. Nour Eldin
+    type: LIKE
+  - id: '10155913826815309'
+    name: Ali Hamed
+    type: LIKE
+  - id: '10154810902641362'
+    name: عبدالعزيز على
+    type: LIKE
+  - id: '10155898279795619'
+    name: Hassan Sultan
+    type: LIKE
+  - id: '1758521440903748'
+    name: Ahmed Abo Mazin
+    type: LIKE
+  - id: '2478303849061627'
+    name: Tareq El-Masri
+    type: LIKE
+  - id: '10159850439795425'
+    name: Ahmed Sabry
+    type: LIKE
+  - id: '10159939247815582'
+    name: Wael Khalil
+    type: LIKE
+  - id: '10159852084455075'
+    name: Emad Raoof
+    type: LIKE
+  - id: '10154904189965670'
+    name: Ahmad Alfy
+    type: LIKE
+  - id: '2004705666469226'
+    name: Ahmed Essam
+    type: LIKE
+  - id: '10159882784555285'
+    name: Khaled Gamal
+    type: LIKE
+  - id: '10155756205606208'
+    name: Amir Refaat
+    type: LIKE
+  - id: '10156065634225960'
+    name: Haitham Taha
+    type: LIKE
+  - id: '10160311597520713'
+    name: Islam Waheed
+    type: LIKE
+  - id: '10154954691821116'
+    name: Mohamed Hassan
+    type: LIKE
+  - id: '10214471954062071'
+    name: Mohammad Aboelnour
+    type: LIKE
+  - id: '780207808835710'
+    name: Mohamed Ali
+    type: LIKE
+  - id: '2022490591345439'
+    name: سامح دعبس
+    type: LIKE
+  - id: '10155815529215590'
+    name: Taha Amin
+    type: LIKE
+  - id: '10210807665171166'
+    name: Majed Rayan
+    type: LIKE
+  - id: '495080930892199'
+    name: Muhammed Nagy
+    type: LIKE
+  - id: '10155855157936047'
+    name: Mosab Ibrahim
+    type: LIKE
+  - id: '10156262796062189'
+    name: Muhammad Yasser
+    type: LIKE
+  - id: '1629690233758127'
+    name: Omar Mohsen
+    type: LIKE
+  - id: '10215772499725897'
+    name: Morad Edwar
+    type: LIKE
+  - id: '10159726802330618'
+    name: Ahmed AbouZaid
+    type: LIKE
+  - id: '10215482677129679'
+    name: Ahmed Adel Radwan
+    type: LIKE
+  - id: '10155783123700239'
+    name: Ahmed Mekkawy
+    type: LIKE
+  - id: '10208610261214026'
+    name: Mahmoud Ahmed
+    type: LIKE
+  - id: '1571193806309533'
+    name: Mahmoud Tharwat
+    type: LIKE
+  - id: '10154920843447315'
+    name: Mohamed ElGohary
+    type: LIKE
+  - id: '10213076756926663'
+    name: Usama A. Foad
+    type: LIKE
+  - id: '10160009236190249'
+    name: Bob Rutledge
+    type: LIKE
+  - id: '1466247800164499'
+    name: Mosaab Ahmed
+    type: LIKE
+  - id: '10215362624518262'
+    name: Ramadan Ali Hamzaye
+    type: LIKE
+  - id: '10157156085664546'
+    name: Mo Elkhateeb
+    type: LIKE
+  - id: '1641565752594739'
+    name: Ahmed Aziz
+    type: LIKE
+  - id: '1867707726586896'
+    name: Mera Karam
+    type: LIKE
+  - id: '10156058891705747'
+    name: George Leon
+    type: LIKE
+  - id: '10154922289347024'
+    name: Mohammed Hussien
+    type: LIKE
+  - id: '10156274593643013'
+    name: Amany Elguindy
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRrME5UZAzNOakUwT2pFME9ESXdNamt5TmpJNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRVeE1ESXpNREV5T2pFME5qZAzNOakkxTURJNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-07-17T13:49:30+0000'
+    from:
+      name: Ahmed Koraïem
+      id: '10159879865770402'
+    message: Anything about IPsec VPN failing as well? It happened recently but I'm
+      not entirely sure whether it's related to the current issues or not.
+    id: '1183724955000544'
+  - created_time: '2016-07-17T13:58:38+0000'
+    from:
+      name: Yasser Makram
+      id: '10154908525551548'
+    message: I was in Egypt on Tuesday, and I could connect to my open VPN server,
+      but no data was transferring, trying to book flight ticket with Gulf air, was
+      getting connection interrupted error consistently
+    id: '1183729648333408'
+  - created_time: '2016-07-17T14:31:21+0000'
+    from:
+      name: Mohamed Abdel Aty
+      id: '10215620557573580'
+    message: Can anyone still having this problem provide a wireshark dump ?
+    id: '1183744881665218'
+  - created_time: '2016-07-17T14:37:12+0000'
+    from:
+      name: Mohamed El-Sayed
+      id: '10155182529813309'
+    message: |-
+      My work depends on a lot on accessing VPNs. Over the past few months, I had several incidents of apparent traffic throttling for OpenVPN traffic from several locations. I haven't been able to make any PPTP connections at all. Later OpenVPN issues were gone, but still no PPTP.
+
+      I worked around this using SSL tunnelled OpenVPN. Until the recent issues. I was completely unable to connect to two OpenVPN servers. One with SSL, and one vanilla. After investigation, he re are my findings:
+      - This behaviour is consistent over multiple providers. This usually means someone "higher" in the network path is doing it.
+      - With the recent issues. I found that I can actually connect to my servers. I found that TLS auth/handshake packets are being dropped after establishing the initial TCP connection. This strongly suggests DPI targeting SSL/TLS traffic.
+      - Based on my testing, this is not applied on all traffic. I found that changing the IP address of the server resolved the problem. This suggests that they are working on a pre-selected list of addresses. TBH I was freaked out to realise this and that two of my VPNs are blocked.
+
+      Friends have mentioned that they have seen some affected ssh connections, too. But I didn't test that myself.
+    id: '1183748711664835'
+  - created_time: '2016-07-17T15:35:20+0000'
+    from:
+      name: Mahmoud Ahmed
+      id: '10208610261214026'
+    message: Still having issue with web ssl, vpn pptp and ssh connection. This is
+      bluecoat packet filter from NTRA
+    id: '1183773781662328'
+  - created_time: '2016-07-17T15:37:03+0000'
+    from:
+      name: Mohamed El-Sayed
+      id: '10155182529813309'
+    message: Is there a technical evidence to this ?
+    id: '1183774368328936'
+  - created_time: '2016-07-17T15:39:23+0000'
+    from:
+      name: Mahmoud Ahmed
+      id: '10208610261214026'
+    message: We tried to reverse tcp connection and worked very well but suddenly
+      we got blocked again ! Till now there no stable solution to avoid this packed
+      drop
+    id: '1183775104995529'
+  - created_time: '2016-07-17T15:56:32+0000'
+    from:
+      name: Ahmed Soliman
+      id: '10152402728970388'
+    message: Are you using standard ports to openvpn? And is is udp or tcp?
+    id: '1183786594994380'
+  - created_time: '2016-07-17T16:14:21+0000'
+    from:
+      name: Mohamed El-Sayed
+      id: '10155182529813309'
+    message: for me, mix of tcp/udp and various ports..
+    id: '1183794091660297'
+  - created_time: '2016-07-17T16:15:54+0000'
+    from:
+      name: Mohamed El-Sayed
+      id: '10155182529813309'
+    message: Again, initial tcp/ip connection happens, TLS auth never makes it to
+      the other end.. it's not a port/IP ACL.. definitely DPI..
+    id: '1183794894993550'
+  - created_time: '2016-07-17T17:18:06+0000'
+    from:
+      name: Taha Amin
+      id: '10155815529215590'
+    message: Mohammad Hefny
+    id: '1183828378323535'
+  - created_time: '2016-07-17T18:40:07+0000'
+    from:
+      name: Ahmed Mekkawy
+      id: '10155783123700239'
+    message: |-
+      I second everything Mohamed El-Sayed mentioned. I may add a couple of findings:
+      1. TEData just changed all of her routing IPs today. Currently I noticed that all hops inside Egypt are in the 10.x.x.x range. This isn't valid for noor.net till now. Yesterday it was all normal.
+      2. Through TEData (I didn't test the others), the output of mtr sometimes gives an extra hop or two when tracing port 443 compared to port 80. This is mainly valid for facebook, but not google. needs much more testing.
+      3. OpenVPN through stunnel is throttled to 1mbps, this is on noor network.
+
+      My interpretation is that either we are facing a new survellience equipment being installed, or it was something secretly installed before but went crazy due to DST as it couldn't correctly interpret the TLS packets as it used to do, and they are currently fixing it. By all means this has to be a DPI with SSL MITM capabilities.
+    id: '1183866208319752'
+  - created_time: '2016-07-18T18:07:36+0000'
+    from:
+      name: Hosam Aly
+      id: '1657509230977456'
+    message: Just for the record, I was using a VPN on a Vodafone ADSL connection
+      throughout the past week without issues.
+    id: '1184522454920794'
+  - created_time: '2016-07-20T04:27:34+0000'
+    from:
+      name: Ramy Allam
+      id: '10214356167120184'
+    message: |-
+      Does anyone manage to get effective workaround instead of immigration out of Egypt ?
+      I'm completely stuck with SSH and OpenVPN connections and has to change the IPs and server locations every single day!
+    id: '1185522688154104'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU0TXpjeU5EazFOVEF3TURVME5Eb3hORFk0TnpZAek16Y3cZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU0TlRVeU1qWTRPREUxTkRFd05Eb3hORFk0T1RnNE9EVTAZD

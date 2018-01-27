@@ -1,0 +1,31 @@
+---
+message: Any help please with the best ORM to use with MVC or the EF is enough and
+  best for it? From maintability and performance point of view ?
+from:
+  name: Fouad Mahmoud
+  id: '10155850903262324'
+type: status
+created_time: '2015-12-22T13:40:07+0000'
+updated_time: '2015-12-22T14:36:07+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1049631791743195/
+id: '172338516139198_1049631791743195'
+comments:
+  data:
+  - created_time: '2015-12-22T13:41:38+0000'
+    from:
+      name: Ahmed G. Elhalwagy
+      id: '10156125283698615'
+    message: That depends a lot on what you are doing.
+    id: '1049633548409686'
+  - created_time: '2015-12-22T14:36:07+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      I'm guessing from your question that your requirement is only to have "maintainable" and "performant" code. No specifics.
+      EF will do just fine for that. Assuming you'll be using the latest 6.x.x release (Whatever comes by default anyway, don't be confused by the version mention).
+    id: '1049662095073498'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEEwT1RZAek16VTBPRFF3T1RZANE5qb3hORFV3TnpreE5qazUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEEwT1RZAMk1qQTVOVEEzTXpRNU9Eb3hORFV3TnprME9UWTMZD

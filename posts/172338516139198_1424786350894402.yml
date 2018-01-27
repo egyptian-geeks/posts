@@ -1,0 +1,90 @@
+---
+message: "السلام عليكم\nلو عايز أعمل project يكون فيه أكتر من دولة كل دولة هعملها
+  subdomain أو subfolder من الدومين الرئيسي \nهعمل redirect للـ users عن طريق الـ
+  location بحيث مثلا الـ user اللي فاتح الموقع من مصر يتعمله redirect على www.domain.com/eg
+  وفي نفس الوقت عايز أضيف أوبشن إن الـ user يقدر يغير الـ country من جوه الموقع \n\nازاي
+  أعمل الموضوع ده على مستوى الداتابيز والـ folder structure بتاع المشروع؟\nيعني هل
+  أعمل لكل دولة داتابيز خاصة بيها ولا أضيف مثلا filed في كل table خاص بالـ country
+  عشان أقدر أفلتر بيها بعد كدا \nوهل أكرر كل الـ files بتاعت المشروع جوه كل subfolder
+  لكل دولة مع العلم إن كل دولة هيكون ليها content مختلف عن الدول التانية يعني مثلا
+  users مختلفين posts مختلفة وهكذا... ؟"
+from:
+  name: Amr Elsayed
+  id: '1973924972623528'
+type: status
+created_time: '2017-03-18T21:24:41+0000'
+updated_time: '2017-03-20T08:07:35+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1424786350894402/
+id: '172338516139198_1424786350894402'
+reactions:
+  data:
+  - id: '1594866863924421'
+    name: Mustafa Misbah
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlNRE16TmpnNU9ESXhPakUwT0RrNE56WXdNRGM2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlNRE16TmpnNU9ESXhPakUwT0RrNE56WXdNRGM2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-03-18T21:28:42+0000'
+    from:
+      name: Abdo Shawky
+      id: '1972850979632528'
+    message: على حسب ما انا فاهم ف الفكرة قريبة جدا من فكرة الموقع متعدد اللغات ...
+      و انا كنت بتعامل مع المواقع اللي بالنظام ده بإني بضيف field في كل table خاص
+      باللغة او في حالتك هنا هايكون خاص بالدولة و افلتر كل حاجة بعد كده على الاساس
+      ده و الفكرة في كده ان الطريقة دي اسهل و اكثر مرونة في حالة ان انا حبيت اضيف
+      اي محتوى بعد كده
+    id: '1424789110894126'
+  - created_time: '2017-03-18T21:30:05+0000'
+    from:
+      name: Mera Tag Eldin
+      id: '10155869338936136'
+    message: F
+    id: '1424789924227378'
+  - created_time: '2017-03-18T21:33:06+0000'
+    from:
+      name: Mohamed Hassan
+      id: '10159847595310510'
+    message: كل دولة يبقى ليها Id فى ال database و ال content يبقى مربوط بال country
+      id
+    id: '1424791404227230'
+  - created_time: '2017-03-18T21:34:55+0000'
+    from:
+      name: Mohamed Abdelghani
+      id: '1854642424546313'
+    message: Multiple databases is a way to built a multi tenant system and I think
+      it isn't a good solution in your case. One relational database can solve your
+      problem.
+    id: '1424792354227135'
+  - created_time: '2017-03-18T21:39:01+0000'
+    from:
+      name: Mohammad Hosny
+      id: '10155052403705843'
+    message: لو الفرق بين الدول في البيانات بس لكن الكود و الشكل واحد يبقى مش محتاج
+      folders ولا اي حاجة الموضوع انك في الsession بتتبقى محدد هو شغال بايه و يقدر
+      يغير
+    id: '1424794720893565'
+  - created_time: '2017-03-18T21:41:44+0000'
+    from:
+      name: Mustafa Dagher
+      id: '10215560476549083'
+    message: |-
+      folders?
+      maybe routers/controllers could be better?
+
+      you don't need to copy the same website into many folders to serve different content!
+
+      it could be done by a simple path param in a simple controller method that takes the contry code and use it in the db searches to get relevant content
+    id: '1424796207560083'
+  - created_time: '2017-03-18T21:59:26+0000'
+    from:
+      name: Amr Elsayed
+      id: '1973924972623528'
+    message: تمام شكرا يا جماعة ردودكم
+    id: '1424806027559101'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF5TkRjNE9URXhNRGc1TkRFeU5qb3hORGc1T0RjeU5USXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF5TkRnd05qQXlOelUxT1RFd01Ub3hORGc1T0RjME16WTIZD

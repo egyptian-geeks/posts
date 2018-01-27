@@ -1,0 +1,96 @@
+---
+message: |-
+  Probably this is a newbish question but I have searched and couldn't reach a definite answer ...
+  To point a domain to a server ... DNS records is what I need to update.
+  A popular company in Egypt providing hosting services is refusing to give their DNS because "You didn't buy your domain from us" and they are only providing "A records" ...
+  Can the "A record" used instead of the DNS?
+
+  Many thanks!
+
+  inb4 somebody says that's your mistake for using an Egyptian company for hosting, it isn't for me :D
+from:
+  name: Ahmad Alfy
+  id: '10154904189965670'
+type: status
+created_time: '2015-10-25T11:21:25+0000'
+updated_time: '2015-10-25T12:51:09+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1023807397658968/
+id: '172338516139198_1023807397658968'
+reactions:
+  data:
+  - id: '1550774681686883'
+    name: Eslam Esmaeal
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlOak13T1RjMk5Ua3pPakUwTkRVM09EZAzNNemc2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlOak13T1RjMk5Ua3pPakUwTkRVM09EZAzNNemc2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2015-10-25T11:25:02+0000'
+    from:
+      name: Morad Edwar
+      id: '10215772499725897'
+    message: بص انا مش فاهم اوي بس لو عايز تربط IP بدومين فعلا بستخدم الـ  A Records
+      بس انا مش فاهم انت جايب Shared Hosting ولا VPS ولا اية؟؟
+    id: '1023811054325269'
+  - created_time: '2015-10-25T11:27:01+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: Your host is that company and you need to point a domain that you purchased
+      from another place to them?
+    id: '1023815394324835'
+  - created_time: '2015-10-25T11:27:49+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: I do not think so, I use a records only for virtual hosts. DNS is just
+      pointing to an A record. So you need to change the DNS to point to the server
+      ip
+    id: '1023817247657983'
+  - created_time: '2015-10-25T12:31:55+0000'
+    from:
+      name: Mohammad Fouad
+      id: '10155755444625845'
+    message: "روح على شركه الهوستينج، و دور على اسم ال DNS بتاعهم\nحاجه زى ns1.hostingcompany.com\nو
+      بعدين تروح على شركة الدومين، و تغير ال DNS من \nns.domaincompany.com\nالى \nns1.hostingcompany.com"
+    id: '1023857334320641'
+  - created_time: '2015-10-25T12:36:05+0000'
+    from:
+      name: Mohammad Fouad
+      id: '10155755444625845'
+    message: |-
+      دى امثله ازاى تلاقى اسم السيرفر بتاع كل شركه:
+      http://www.inmotionhosting.com/support/domain-names/dns-nameserver-changes
+      و دى مثال على ازاى تغير الاسم فى الشركه بتاعه الدومين:
+      https://www.namecheap.com/support/knowledgebase/article.aspx/767/10/how-can-i-change-the-nameservers-for-my-domain
+    id: '1023858950987146'
+  - created_time: '2015-10-25T12:38:21+0000'
+    from:
+      name: Mohammad Fouad
+      id: '10155755444625845'
+    message: |-
+      DNS server holds A Records. Here is an example on how Google's DNS server look like:
+      https://who.is/dns/google.com
+    id: '1023859584320416'
+  - created_time: '2015-10-25T12:47:50+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: Thank you all for your replies :) I didn't wanted a solution, I wanted
+      to understand the problem and what's the difference between the A records and
+      the DNS ... etc. Many thanks again
+    id: '1023861730986868'
+  - created_time: '2015-10-25T12:51:09+0000'
+    from:
+      name: Mohammad Fouad
+      id: '10155755444625845'
+    message: |-
+      A Records are like entries in a Dictionary (key: Value) (Name: IP), and the DNS is the actual Dictionary.
+      I guess your question is "who adds entries in the dictionary?", The answer is the company that owns the Server and knows its IP (The hosting company)
+    id: '1023862594320115'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF5TXpneE1UQTFORE15TlRJMk9Ub3hORFExTnpjeU16QXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF5TXpnMk1qVTVORE15TURFeE5Ub3hORFExTnpjM05EY3cZD

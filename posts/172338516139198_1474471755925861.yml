@@ -1,0 +1,42 @@
+---
+message: |-
+  السلام عليكم كنت بدور علي طريقة معينة اوصل بيها ل Threads الي شغالة في ال device واختار منها threads معينة واقفلها.
+  لكن كان في بعض المعلومات الي قراتها ان ال language بتكون مصممة انها تتلافي مشاكل اغلاق ال threads بالتالي ليس شرطا فعلا ان يتم عمل kill لل threads ديه.
+
+  لكن في حالتي انا محتاج فعلا ان ال threads ديه تنقفل فقولت خلاص هستخدم ال kernel32.dll
+  السؤال هنا هل كده انا بعطي امر واجب تنفيذه ولا ممكن تحصل مشكلة برضو وال threads مش يتعمل ليها kill .
+from:
+  name: احمد قرواش
+  id: '1561022257326859'
+type: status
+created_time: '2017-05-05T17:14:40+0000'
+updated_time: '2017-05-06T18:11:27+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1474471755925861/
+id: '172338516139198_1474471755925861'
+comments:
+  data:
+  - created_time: '2017-05-05T20:11:53+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: |-
+      فكرة سيئة. إفرض خد Mutex لـmalloc وبعدين مات من غير ما يفكها. حيجي لك deadlock في الباقي.
+      إنت ممكن تعملها بأمان لو عندك cancellation points تعرف تتحكم فيها زي ما في POSIX، بس  على حد علمي TerminateThread ما فيهش الكلام ده.
+
+      الأوامر اللي بتأثر على الـThread من بره زي SuspendThread وTerminateThread بتستخدم خاصية الـAPC شبه الـposix signal. أما الـthread يتعمله reschedule، بدل ما ينط على مكان ما كان وقف بينط على function بتموته أو تنيمه.
+
+      إنت عايز تموتهم ليه؟
+    id: '1474583855914651'
+  - created_time: '2017-05-06T02:04:53+0000'
+    from:
+      name: Mahmoud Kandil
+      id: '10214343099918744'
+    message: |-
+      Unless you intend to harm the system don't do that However, you can do it if u have the thread handle & needed perms
+      Read the remarks sections
+      https://msdn.microsoft.com/en-us/library/windows/desktop/ms686717(v=vs.85).aspx
+    id: '1474800909226279'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEzTkRVNE16ZAzFOVGt4TkRZAMU1Ub3hORGswTURFMU1URTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEzTkRnd01Ea3dPVEl5TmpJM09Ub3hORGswTURNMk1qazMZD

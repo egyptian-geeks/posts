@@ -1,0 +1,152 @@
+---
+message: "I have several questions about scalability in web development. \n\n1) scalability
+  depends on what exactly ? Does it depend on the language, like do we say javascript
+  is more scalable than php ? Or the framework like laravel is more scalable than
+  nodejs or does it depend on the whole stack like LAMP is more scalable that MEAN
+  stack ?\n\n2) how do we measure scalability exactly?\n\n3) I heard same people say
+  that laravel is more scalable than MEAN stack, but I never understood why and I
+  googled a lot but most people say that they both do the same job and there is no
+  difference, so is there any evidence that a certain technology is more scalable
+  than the other ?\n\nAny help would be really appreciated and Thanks in advance."
+from:
+  name: Habiba Hesham
+  id: '1421002171355928'
+type: status
+created_time: '2017-07-19T19:12:30+0000'
+updated_time: '2017-07-20T21:07:40+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1552254958147540/
+shares:
+  count: 2
+id: '172338516139198_1552254958147540'
+reactions:
+  data:
+  - id: '2022490591345439'
+    name: سامح دعبس
+    type: LIKE
+  - id: '1427552707353556'
+    name: Ali Bedaer
+    type: LIKE
+  - id: '1582457088504781'
+    name: Abdel-rahman Maged
+    type: LIKE
+  - id: '1976373499069350'
+    name: Ahmed Bassell
+    type: LIKE
+  - id: '1930813343600325'
+    name: Abd Elrahman Telb
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTNOVE0xTlRJeU1ESXdPakUxTURBMk1EazRNekk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXdNVFV3TXpVek5qa3pPakUxTURBMU1EZA3pPREk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-07-19T19:26:47+0000'
+    from:
+      name: Met Wally
+      id: '520998054938412'
+    message: |-
+      I think scalability is related to application operation not related to programming language itself, I can scale .Net application same way I scale Node.js application.
+      scalable application mean; application that can absorb or handle any load of traffic.
+    id: '1552263351480034'
+  - created_time: '2017-07-19T19:46:05+0000'
+    from:
+      name: Khaled Elnaggar
+      id: '10215461207703148'
+    message: https://www.quora.com/How-does-one-write-scalable-code
+    id: '1552277681478601'
+  - created_time: '2017-07-19T20:08:14+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: "Scalability in general in the web means that you should be able to handle
+      X amount of traffic aka Capacity with Y resources, and when the traffic increases
+      you should be able to add more resources to increase you capacity. \nThe problem
+      is, sometimes due to a lot of problems that relationship between X & Y may not
+      be linear, it often happens that no matter how much Y you increase the amount
+      of capacity you add is very minimal, and that usually happens when you have
+      some system bottleneck, somewhere in your system design or code or infrastructure
+      prevents the system from scaling or making scaling way more expensive than it
+      should be. \nThese reasons can be pretty much anything, maybe your code is not
+      optimized, you user very slow algorithms that require a lot of resources so
+      you need to optimize it, or maybe your database connections are running out
+      so all your web traffic has to be queued up for long time to get their turns,
+      maybe your network is saturated so you can't push more bits out/in the machines
+      so no matter what you do you can't scale unless you upgrade your network or
+      optimize your use of the network, maybe your disks are very slow and you need
+      to read and write alot so it increases your making your whole system slow ...
+      etc\nTo even start working on this you need to setup some KPIs (Key Performance
+      Indicators) which are the important metrics you care about, for example you
+      want your homepage latency to be less than 300ms, and your throughout to be
+      at least 1000 req/sec and your availability to be 99.9% Weekly. \nYou set up
+      your monitoring systems to keep an eye on these metrics."
+    id: '1552294208143615'
+  - created_time: '2017-07-19T21:59:41+0000'
+    from:
+      name: Ahmed Soliman
+      id: '10152402728970388'
+    message: I think you guys are confusing scalability with performance here.
+    id: '1552371938135842'
+  - created_time: '2017-07-19T22:14:06+0000'
+    from:
+      name: أحمد عاكف
+      id: '10215171020565968'
+    message: https://youtu.be/McgKz4yssDo?list=PLDyW0GpJbH0v9gC-pC72GH2LajXCfv0TV
+    id: '1552380118135024'
+  - created_time: '2017-07-19T23:41:07+0000'
+    from:
+      name: Mohamed Fawzy
+      id: '10159960198215788'
+    message: |-
+      you can check start here section to know what it means :
+
+      http://highscalability.com/
+
+      they're providing real life cases
+    id: '1552438924795810'
+  - created_time: '2017-07-20T02:33:13+0000'
+    from:
+      name: Hazem Salem
+      id: '10159894024455174'
+    message: |-
+      Scalability is an Architecture topic and is not related to programming language. There are two types of scalability.
+      1- Vertical scalability : what Mohamed Elsherif elaborated above.(network/infrastructure related)
+      2- Horizontal Scalability : pretty much like distributed systems where you can add more connected nodes to handle the load. Think about Microservices.
+      Achieving Horizontal Scaling requires a lot of upfront thinking and it is much more than just choosing a programming language.
+    id: '1552547328118303'
+  - created_time: '2017-07-20T10:14:25+0000'
+    from:
+      name: Ahmed Soliman
+      id: '10152402728970388'
+    message: "So, there are two distinct things in here:\n1- Efficiency/Perf: This
+      has several ways to define it, but generally in web is how many requests/sec
+      can be served by a single machines. Some web server implementations  are more
+      efficient than the others, but it doesn't end there, in general, there are so
+      many things that affect your overall throughput, this includes the latency of
+      your application code (usually is where the majority of the time is spent),
+      disk IO, remote operations (distributed systems, or talking to a remote database,
+      etc.). Some confuse this with the \"vertical scalability\" definition which
+      is different. Vertical scalability means that you can increase your key metric
+      (say requests/sec or Mb/s) by upping your hardware, a faster CPU, more main
+      memory, etc. So, when someone says \"Vertically Scalable\" he means that the
+      application can serve more traffic linearly if we can get better hardware. This
+      is not true in all programs, at least not in a linear fashion. You don't get
+      twice the requests/sec if you get a CPU that is twice as fast. \n2- Scalability:
+      This is a system architecture property, and usually used to refer to \"Horizontal
+      Scalability\" which means that we can (almost linearly) increase the overall
+      capacity of the system by adding more machines to a running cluster. Surprisingly,
+      in most cases, scalable systems are \"slower\" if you compare the sheer performance
+      of a system that is designed to run on a single box vs. a distributed system
+      that does several round-trip requests across the network. So, it's less efficient
+      but scalable."
+    id: '1552832041423165'
+  - created_time: '2017-07-20T19:14:35+0000'
+    from:
+      name: Mohammad Ali Diab
+      id: '10155065357586363'
+    message: check this excellent book http://shop.oreilly.com/product/0636920023777.do
+    id: '1553242298048806'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUxTWpJMk16TTFNVFE0TURBek5Eb3hOVEF3TkRreU5EQTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUxTXpJME1qSTVPREEwT0Rnd05qb3hOVEF3TlRjNE1EYzQZD

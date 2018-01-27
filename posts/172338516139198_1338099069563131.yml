@@ -1,0 +1,37 @@
+---
+message: anyone with experience of displaying 360 photos in web apps, my app is built
+  with angular2, n i'll probably need to build a custom component for that, so, right
+  now, i'm just looking for the best library someone used before to display 360 photos
+  in a web app n it didn't downgrade the overall performance of the page, i also need
+  something lightweight..
+from:
+  name: Muhammad Hasan
+  id: '2033909946622355'
+type: status
+created_time: '2016-12-26T16:41:22+0000'
+updated_time: '2016-12-26T17:56:21+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1338099069563131/
+id: '172338516139198_1338099069563131'
+reactions:
+  data:
+  - id: '10155131572865703'
+    name: Abdelrahman Serag
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpZAeU56UXdOekF5T2pFME9ESTNOekl3TXpjNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TmpZAeU56UXdOekF5T2pFME9ESTNOekl3TXpjNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-12-26T17:56:16+0000'
+    from:
+      name: Muhammad Hasan
+      id: '2033909946622355'
+    message: |-
+      that's the best solution we found so far
+      https://developers.google.com/maps/documentation/javascript/examples/streetview-custom-simple
+    id: '1338148539558184'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE16T0RFME9EVXpPVFUxT0RFNE5Eb3hORGd5TnpjME9UYzQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE16T0RFME9EVXpPVFUxT0RFNE5Eb3hORGd5TnpjME9UYzQZD

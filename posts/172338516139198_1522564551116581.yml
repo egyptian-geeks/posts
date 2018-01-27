@@ -1,0 +1,129 @@
+---
+message: ميين يا جماعه شغال java restful web service مع mysql محتاج  مساعده ضروري
+  اووووي ليه هنا دالة ال get مش بتجلب data من ال database وشكرا مقدما
+link: https://www.facebook.com/photo.php?fbid=1510719695651977&set=gm.1522564551116581&type=3
+from:
+  name: MoHamed Rabie
+  id: '1737499959640615'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/q82/s130x130/19274913_1510719695651977_4420472656386813336_n.jpg?oh=7bd9740804bc9a775f09592f13bac515&oe=5AE00D8D
+created_time: '2017-06-21T11:32:00+0000'
+updated_time: '2017-06-22T06:57:10+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1522564551116581/
+id: '172338516139198_1522564551116581'
+reactions:
+  data:
+  - id: '10156191099748000'
+    name: Shady Mohamed Sherif
+    type: LIKE
+  - id: '10208531944855065'
+    name: Shaimaa Hasan Derbaz
+    type: LIKE
+  - id: '2075339436029386'
+    name: Mahmoud Rabah
+    type: LIKE
+  - id: '2046856075528599'
+    name: Ebra Him K Eldesouki
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRVMk5qTTNPVGs1T2pFME9UZA3hOakUxTkRjNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQTJNVEkyTnprME5UVTFPakUwT1Rnd05UWXlOek02TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-06-21T11:36:40+0000'
+    from:
+      name: Khaled Elnaggar
+      id: '10215461207703148'
+    message: "توضيح : البوست هيتمسح لو منزلتش السؤال \nعلشان ميحصلش مشاكل زي البوست
+      اللي تحت كده"
+    id: '1522567804449589'
+  - created_time: '2017-06-21T11:56:10+0000'
+    from:
+      name: Ahmed Mamdouh
+      id: '1713012965421989'
+    message: طيب ايه ال output اللي بيطلع ؟
+    id: '1522581594448210'
+  - created_time: '2017-06-21T15:11:50+0000'
+    from:
+      name: Mohamed Gamal
+      id: '10156096685587328'
+    message: |-
+      You need to print the exception to see wth is wrong with your code.
+      catch(Exception e){
+      e.printStackTrace();
+      }
+    id: '1522726217767081'
+  - created_time: '2017-06-21T16:13:46+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: ما تشوف الاول ال result فيها كام row ولا الايرور حصل في الكونكشن نفسه
+      اصلا
+    id: '1522777261095310'
+  - created_time: '2017-06-21T19:08:23+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: انت متأكد إن MySQL شغالة عندك على بورت 8080؟ ثم في حاجة تانية بدل localhost
+      استخدم اللوكال لوب، 127.0.0.1
+    id: '1522900364416333'
+  - created_time: '2017-06-21T19:10:02+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "هو كان منزل صورة تانية في التعليقات بكونكشن تانية على بورت 3306 عادي
+      بس فعلا كان ايه 8080 دي اصلا \U0001F603"
+    id: '1522901284416241'
+  - created_time: '2017-06-21T20:20:59+0000'
+    from:
+      name: Mohamed Shaaban
+      id: '10156259295924301'
+    message: "Nice password \U0001F600"
+    id: '1522948437744859'
+  - created_time: '2017-06-21T21:51:15+0000'
+    from:
+      name: Mostafa Mohamed Gamal
+      id: '10156066064944153'
+    message: Not sure why you are trying to query using vanilla queries, you can use
+      instead ORM and query using JPA, Also I recommend to use Spring Data, it's a
+      time saver for this basic configuration!
+    id: '1523013024405067'
+  - created_time: '2017-06-21T22:09:34+0000'
+    from:
+      name: Essam Abdelrahman
+      id: '1584827604972265'
+    message: Use 3306 instead of 8080
+    id: '1523023784403991'
+  - created_time: '2017-06-22T01:37:35+0000'
+    from:
+      name: Karim Tawfik
+      id: '10159730660210062'
+    message: You are swallowing the exception, so you dont know if there is an exception
+      thrown or not, so first thing to debug, just add print stack trace to know what
+      is the problem, and you can start from there.
+    id: '1523183564388013'
+  - created_time: '2017-06-22T06:57:07+0000'
+    from:
+      name: Fouad Mahmoud
+      id: '10155850903262324'
+    message: Try to capitalize the field names, it should be "NAME" and "EMAIL"
+    id: '1523371431035893'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV5TWpVMk56ZA3dORFEwT1RVNE9Ub3hORGs0TURRMU1EQXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV5TXpNM01UUXpNVEF6TlRnNU16b3hORGs0TVRFME5qSTQZD
+attachments:
+  data:
+  - description: ميين يا جماعه شغال java restful web service مع mysql محتاج  مساعده
+      ضروري اووووي ليه هنا دالة ال get مش بتجلب data من ال database وشكرا مقدما
+    media:
+      image:
+        height: 311
+        src: https://scontent.xx.fbcdn.net/v/t31.0-8/q89/s720x720/19417264_1510719695651977_4420472656386813336_o.jpg?oh=c708cc85a63bfbb3c088b82d243fd0f4&oe=5AE34BB6
+        width: 720
+    target:
+      id: '1510719695651977'
+      url: https://www.facebook.com/photo.php?fbid=1510719695651977&set=gm.1522564551116581&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=1510719695651977&set=gm.1522564551116581&type=3

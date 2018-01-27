@@ -1,0 +1,54 @@
+---
+message: |-
+  هل توجد قواعد لقيم الباركود؟
+  بمعنى لو في برنامج إدارة مبيعات وهناك اصناف لا يوجد لها باركود من المنتج (قلل على سبيل المثال :) ) وحبيت اعمل باركود لها، فهل هناك قواعد او توصيات لتعيين او اصطناع باركود حتى (تبدو) متسقة مع قواعد عالمية لانشاء باركود لمنتج؟
+  كنت  سمعت زمان أن رقم باركود يكون مقسم لأجزاء منها ما هو مخصص لبلد المنشأ وهكذا لكني لا استطيع الوصول لاي تفاصيل للتحقق من هذه المعلومة.
+from:
+  name: Said Bakr
+  id: '10155965038378745'
+type: status
+created_time: '2016-01-11T22:45:39+0000'
+updated_time: '2016-01-12T08:20:34+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1060916273948080/
+id: '172338516139198_1060916273948080'
+reactions:
+  data:
+  - id: '2007509342855482'
+    name: Ayman F. Mohammed
+    type: LIKE
+  - id: '1657509230977456'
+    name: Hosam Aly
+    type: LIKE
+  - id: '10215686755383013'
+    name: Aboubakr Gamal
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTNPRGt6TURZAMU9EWXdPakUwTlRJMk1qVTFNVE02TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRJMk5qRTVNREF6T1RveE5EVXlOVFUzTXpnME9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2016-01-11T23:25:51+0000'
+    from:
+      name: Ahmed Amin
+      id: '1962172197389574'
+    message: http://demos.telerik.com/reporting/barcodes-report
+    id: '1060931430613231'
+  - created_time: '2016-01-12T00:07:27+0000'
+    from:
+      name: Aboubakr Gamal
+      id: '10215686755383013'
+    message: "ابحث عن \nUniversal product code"
+    id: '1060943840611990'
+  - created_time: '2016-01-12T08:19:23+0000'
+    from:
+      name: Hosam Aly
+      id: '1657509230977456'
+    message: |-
+      It's called an International Article Number (EAN). You can find the information you need in this article. Country codes are encoded in the "GS1 Prefix".
+      https://en.wikipedia.org/wiki/International_Article_Number_(EAN)
+    id: '1061090090597365'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEEyTURrek1UUXpNRFl4TXpJek1Ub3hORFV5TlRVME56VXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEEyTVRBNU1EQTVNRFU1TnpNMk5Ub3hORFV5TlRnMk56WXoZD

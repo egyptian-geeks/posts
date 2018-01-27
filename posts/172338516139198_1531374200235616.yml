@@ -1,0 +1,203 @@
+---
+message: |-
+  I and my friend tried to solve that problem http://bit.ly/2toZz9d on leetcode ... we both solved it but we don't know which answer is better both achived 125ms run time ... can you help?
+
+  First Answer:
+  https://codepen.io/Microsmsm/pen/PjQzvw?editors=0011
+  Second Answer:
+  https://codepen.io/Microsmsm/pen/rwJLXJ?editors=0011
+
+  Edit:
+  Another cool answer:
+  https://codepen.io/anon/pen/gRvwRr?editors=0010
+
+  Or there may be yet another performant algorithm?
+
+  #javascript
+  #algorithms
+  #leetcode
+  #performance
+link: https://www.facebook.com/photo.php?fbid=773674772793146&set=gm.1531374200235616&type=3
+from:
+  name: Osama Soliman
+  id: '879271768900112'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/19511198_773674772793146_1397824665045718326_n.jpg?oh=5ee9e0996047e54d6a3ceea25fc02306&oe=5AED4020
+created_time: '2017-06-29T17:36:02+0000'
+updated_time: '2017-06-30T19:06:41+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1531374200235616/
+shares:
+  count: 1
+id: '172338516139198_1531374200235616'
+reactions:
+  data:
+  - id: '10155659498433780'
+    name: Islam Ali
+    type: LIKE
+  - id: '1487671784675336'
+    name: Mohamad Emad
+    type: LIKE
+  - id: '2069499223273223'
+    name: Naggar
+    type: LOVE
+  - id: '1999765416908747'
+    name: Ahmed Khalifa
+    type: LIKE
+  - id: '627907956'
+    name: Emad Elsaid
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRJNU9UQTROemM1T2pFME9UZAzRNemsyTmpVNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TmpJM09UQTNPVFUyT2pFME9UZAzNOVGszTlRZANk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-06-29T17:43:44+0000'
+    from:
+      name: Ahmed Saleh
+      id: '10159933379005574'
+    message: Sorting is O(T LOG T ), and looping over the greater string is O(N).
+      the second solution has indexof which it seems is O(N)*Splice I assume its O(N),
+      the loop is O(N). FYI I don't know about java script indexof or splice performance
+      by heart
+    id: '1531380060235030'
+  - created_time: '2017-06-29T17:43:52+0000'
+    from:
+      name: Omar Beshary
+      id: '10208412458988343'
+    message: اللي شايفه إن اللي علي اليمين أفضل , إنت بتعدي O (N) فقط , اللي علي الشمال
+      إنت بتعدي O(N( برضه بس بتسخدم Splice function وديه ليه Complexity بتاعتها هي
+      كمان , في اليمين من وجهه نظري أفضل
+    id: '1531380193568350'
+  - created_time: '2017-06-29T17:45:37+0000'
+    from:
+      name: Rafael Adel
+      id: '10156260406777122'
+    message: |-
+      I'm not a expert but your code (with splice and indexOf) has three nested O(n)  complexities..  For loop,  splice and indexOf..  Which is slower
+
+      I mean three nested O(n) will lead to a total of O(n^3) complexity .. maybe someone can correct me if I'm wrong
+    id: '1531381950234841'
+  - created_time: '2017-06-29T18:04:49+0000'
+    from:
+      name: Osama Mohamed
+      id: '2089650217931552'
+    message: |-
+      ضيف دا كمان
+      https://codepen.io/anon/pen/gRvwRr?editors=0010
+    id: '1531396996900003'
+  - created_time: '2017-06-29T18:48:43+0000'
+    from:
+      name: Khaled Mohammad Soradi
+      id: '10155226291231186'
+    message: بص مقياس الأداء ما ينفعش تقيسه بالزمن اللي اخدته حاله معينه لو انت عايز
+      تعرف انهي الجوريزم افضل...بصفه عامه انك ترتب قبل ما تعدي على العناصر ...بس لو
+      عدد العناصر قليل وشبه مترتبه فالترتيب هياخد وقت زياده...باختصار ما ينفعش تقول
+      جربت الكودين واخدوا نفس الوقت ...لازم تجربهم على الاقل ١٠٠ مره مثلا وبعينات
+      عشوائيه مختلفه علشان تقول مين احسن (وده طبعا لو مش قادر تحسب ال complixity)
+    id: '1531432996896403'
+  - created_time: '2017-06-29T18:50:28+0000'
+    from:
+      name: Ahmed Saleh
+      id: '10159933379005574'
+    message: for measuring the performance, do the algorithm on 100000 elements, and
+      calculate start time and end time between the algorithm and measure the elapsed
+      time in seconds or milliseconds
+    id: '1531434186896284'
+  - created_time: '2017-06-29T20:18:58+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: وجهة نظري بناءا على المنطق التانية طبعا، لأن اللوب فيها موش من الضروري
+      يكمل.
+    id: '1531505070222529'
+  - created_time: '2017-06-29T20:28:08+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "الاصول تعمل منشن لصاحبك بقى وتديله وضعه \U0001F601 Osama Soliman"
+    id: '1531514000221636'
+  - created_time: '2017-06-29T21:50:30+0000'
+    from:
+      name: Mahmoud Sayed
+      id: '1572371959515590'
+    message: "you posted 3 solutions. \nfirst, Let's assume that:\nS = length of string
+      s\nT = length of string t\nS == T is true. (one more char doesn't make a difference.)
+      \n\nRight solution complexity: \nO(S log(S) + T log(T) + T) = O(S log(S)) \n\nLeft
+      solution complexity: \nO(S + T + S * (T + T)) = O(S * T) = O(S^2) \n\nLast solution
+      complexity: (most efficient)\nO(S + T + 26) = O(S)"
+    id: '1531587206880982'
+  - created_time: '2017-06-29T22:34:58+0000'
+    from:
+      name: Mohamed Elshorbagy
+      id: '2203406963006619'
+    message: غالبا هتبقى اللى على اليمين لأن فى Condition بيعمل return فال loop ممكن
+      متكملش عكس التانية اني متضر اخش فى ال loop حتى لو ملهاش لازمة
+    id: '1531627373543632'
+  - created_time: '2017-06-29T22:42:11+0000'
+    from:
+      name: Naggar
+      id: '2069499223273223'
+    message: why don't you use "Divide & Conquer" after you split and sort?
+    id: '1531633813542988'
+  - created_time: '2017-06-30T01:05:25+0000'
+    from:
+      name: Osama Soliman
+      id: '879271768900112'
+    message: |-
+      I think I just wrote the ultimate best answer?
+      https://codepen.io/Microsmsm/pen/OgQxpQ?editors=0011
+    id: '1531744120198624'
+  - created_time: '2017-06-30T19:06:38+0000'
+    from:
+      name: Ahmed Ali
+      id: '1580680005301535'
+    message: |-
+      o(n) time and o(1) space.
+      C++
+      char res = 0;
+              for(int i = 0, j = 0; i < s.length() || j < t.length(); i++, j++){
+                  if(i < s.length()){
+                      res ^= s[i];
+                  }
+                  if(j < t.length()){
+                      res ^= t[j];
+                  }
+              }
+
+              return res;
+    id: '1532575273448842'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV6TVRNNE1EQTJNREl6TlRBek1Eb3hORGs0TnpVNE1qSTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV6TWpVM05USTNNelEwT0RnME1qb3hORGs0T0RRNU5UazUZD
+attachments:
+  data:
+  - description: |-
+      I and my friend tried to solve that problem http://bit.ly/2toZz9d on leetcode ... we both solved it but we don't know which answer is better both achived 125ms run time ... can you help?
+
+      First Answer:
+      https://codepen.io/Microsmsm/pen/PjQzvw?editors=0011
+      Second Answer:
+      https://codepen.io/Microsmsm/pen/rwJLXJ?editors=0011
+
+      Edit:
+      Another cool answer:
+      https://codepen.io/anon/pen/gRvwRr?editors=0010
+
+      Or there may be yet another performant algorithm?
+
+      #javascript
+      #algorithms
+      #leetcode
+      #performance
+    media:
+      image:
+        height: 307
+        src: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/19477436_773674772793146_1397824665045718326_o.jpg?oh=2b16ff79ef6de20ce8a7efdca85dcda4&oe=5AF18425
+        width: 720
+    target:
+      id: '773674772793146'
+      url: https://www.facebook.com/photo.php?fbid=773674772793146&set=gm.1531374200235616&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=773674772793146&set=gm.1531374200235616&type=3

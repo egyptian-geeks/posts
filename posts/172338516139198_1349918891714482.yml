@@ -1,0 +1,47 @@
+---
+message: |-
+  Why is chrome consuming too much memory. It is lagging although it is consuming more than 4 GB. When I restarted it (only one tab running and of course some extensions) it initially reserved 2.6 GB. Are there any tips to improve this ?
+
+  And yes I know about The Great Suspender :)
+from:
+  name: Ahmed Kamal
+  id: '10204469829103969'
+type: status
+created_time: '2017-01-09T16:02:26+0000'
+updated_time: '2017-01-09T17:36:10+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1349918891714482/
+id: '172338516139198_1349918891714482'
+reactions:
+  data:
+  - id: '10211400895684436'
+    name: Khalid Mohamed Al Wakeel
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRReU16TXdPVGt4T0RveE5EZA3pPVGd5TWpNeU9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRReU16TXdPVGt4T0RveE5EZA3pPVGd5TWpNeU9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2017-01-09T16:15:22+0000'
+    from:
+      name: Ahmed Yousry
+      id: '10160504622845725'
+    message: tried clean cache ?
+    id: '1349925858380452'
+  - created_time: '2017-01-09T16:25:56+0000'
+    from:
+      name: Moh Dem
+      id: '1873673082698558'
+    message: اتوقع ان المشكله في الextensions ..بيحجزوا ميموري كبيره جدا
+    id: '1349931495046555'
+  - created_time: '2017-01-09T16:44:19+0000'
+    from:
+      name: Ahmed Kamal
+      id: '10204469829103969'
+    message: There is an interesting observation, I opened the Chrome Task Manager
+      and suprisly, the RAM was consumed mostly by the tabs no t by the extensions
+    id: '1349942501712121'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0wT1RreU5UZAzFPRE00TURRMU1qb3hORGd6T1RjNE5USXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0wT1RrME1qVXdNVGN4TWpFeU1Ub3hORGd6T1Rnd01qVTUZD

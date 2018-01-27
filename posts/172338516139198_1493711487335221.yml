@@ -1,0 +1,105 @@
+---
+message: "واضح انهم موصولوش للDPI بس عشان في كلام كتير بعد ما عملت تجربة سريعة اللي
+  بيعملوا كالآتي \n- كل الهجامات على مواقع HTTP\n- موقع المصريونHTTPS  قالوا انه اتقفل
+  لكنه  كان شغال  عادي لحد امبارح بالليل\n- ده معناه انهم جربوا نفس الطريقة مع مدى
+  مصر ومعرفوش (بامكانيتهم المحدودة اللي هقولها)\n- مدى مصر وهاف بوس من غير HTTPS وهما
+  دول اللي عملت عليهم كام تست\n- ظني بالقائمين على الحكاية دي انهم مش هيفرقوا عن اللي
+  مشغلينهم ومش دارسين الموضوع\n- فالاستنتاج ان الموضوع حاجة من اتنين:\n- سيستم ادمن
+  في مكان معاه عرفله كام كوماند وقفل المواقع دي\n- او شركة ضحكت عليهم واديتهم كام
+  كوماند وخدت ملايين\n\nادوات مجانية ومفتوحة من اول iptables لحد squid تقدر تقفل المواقع
+  دي باقل مجهود واقل performance footprint حتى لو HTTPS المهم انها متقدرش تعمل DPI
+  ولا DCI طالما HTTPS\n\nوممكن تجرب على اي لينكس \n\n# iptables -A INPUT -p tcp -m
+  string --string \"facebook\" --algo bm -j REJECT --reject-with tcp-reset\n# curl
+  -vvv https://www.facebook.com\n\nطبعاً يتم استخدام iptables باستشارة طبيب ولما تعمل
+  ريستارت هيرجع للdefault \nلما تعمل تست \n# iptables -D INPUT -p tcp -m string --string
+  \"facebook\" --algo bm -j REJECT --reject-with tcp-reset\n\nعشان تمسح الrule من
+  iptables\n\nطبعاً في توولز تعمل DPI وDCI وتعدي من الcertificate pining مش هقدر اقولها
+  على الملأ عشان الاشرار ولاد ****** وغالية شوية\n\nبالنسبة لOpenVPN over 443 بلوك
+  هما بيقفلوا الطريق على هيدرز بيبعتها OpenVPN"
+from:
+  name: Marwan Yassin
+  id: '10159953707250230'
+type: status
+created_time: '2017-05-26T11:40:30+0000'
+updated_time: '2017-05-26T23:14:55+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1493711487335221/
+id: '172338516139198_1493711487335221'
+reactions:
+  data:
+  - id: '10155659498433780'
+    name: Islam Ali
+    type: LIKE
+  - id: '10214798901190713'
+    name: Amir Raouf Saad
+    type: LIKE
+  - id: '627907956'
+    name: Emad Elsaid
+    type: LIKE
+  - id: '403777313391852'
+    name: أحمد
+    type: LIKE
+  - id: '10156115350739764'
+    name: Mahmoud Tantawy
+    type: LIKE
+  - id: '1641565752594739'
+    name: Ahmed Aziz
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRJNU9UQTROemM1T2pFME9UVTRORGN4TVRrNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQXlNak01T1RFMk5UUXpPakUwT1RVM09Ua3dNRGc2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-05-26T11:46:22+0000'
+    from:
+      name: Mohammed Gamal
+      id: '10156278338768296'
+    message: Mohamed El-Sayed
+    id: '1493714467334923'
+  - created_time: '2017-05-26T12:15:34+0000'
+    from:
+      name: Mohamed El-Sayed
+      id: '10155182529813309'
+    message: |-
+      طالما البتاع بيبص على محتوى الباكت، بغض النظر عن بيبص علي إيه أو إزاي أو كنه البتاع ده إيه، يبقى technically ده DPI..اللي هو أي حاجة بعد layer 3..
+
+      انا الحقيقة ماجربتش غير مدى مصر، بس جربته SSL برضو..المشكله إن كل الـ clients دلوقتي شغالة بـ SNI ..و للأسف ده بيبعت ال hostname في ال TLS hello و ما بيبقاش encrypted و بالتالي بيتقفش برضو زي ال http ..
+
+      هو الجديد و المهم المرادي مش التولز و لا التكنولوجي اللي إستعملوها..الموضوع technically مش صعب..المهم إن دي أول مرة المنع يكون global على الكل تقريبا، و في إطار معلن و كتطبيق للقانون..إحنا فعليا بقالنا سنين كل شوية يقفلولنا حاجة و نقعد نعمل تحليلات زي دي و نتوقع و ندور على أخبار و بعدين يفتحوها نسبيا تاني..المرادي الموضوع بقلب و رسمي و المفروض إنه في إطار قانوني..
+    id: '1493730533999983'
+  - created_time: '2017-05-26T14:03:58+0000'
+    from:
+      name: Amjad Mashaal
+      id: '10213738834576763'
+    message: اللي بيعمل DPI و DCI دة ماشي ممكن bluecoat، انما يعدّي الـ certificate
+      pinning ازاي؟ :D
+    id: '1493814623991574'
+  - created_time: '2017-05-26T14:06:45+0000'
+    from:
+      name: Mohamed Mahmoud
+      id: '10215277026709996'
+    message: homa meen dol tab
+    id: '1493817263991310'
+  - created_time: '2017-05-26T14:48:43+0000'
+    from:
+      name: Mohammed Ezzat
+      id: '352020458607763'
+    message: "ده معناه المواقع اللي عندها ssl certification \nهتشتغل عادي لانه الhostname
+      بيروح encrypted ? \nايه الفرق المقصود بين الرSNI وال ssl?"
+    id: '1493844180655285'
+  - created_time: '2017-05-26T16:48:08+0000'
+    from:
+      name: Mohamed Samir
+      id: '1579793612127821'
+    message: موقع المصريون https واقف معايا على تي اي داتا
+    id: '1493954137310956'
+  - created_time: '2017-05-26T21:11:39+0000'
+    from:
+      name: Tarek Hendawi
+      id: '10214108420161170'
+    message: Mahmoud Mahmoud Ahmed Mohamed
+    id: '1494144167291953'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE1TXpjeE5EUTJOek16TkRreU16b3hORGsxTnprNU1UZA3kZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE1TkRFME5ERTJOekk1TVRrMU16b3hORGsxT0RNek1UQXcZD

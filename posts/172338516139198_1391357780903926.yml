@@ -1,0 +1,103 @@
+---
+message: "Im in a real bad situation !!!\n\nOne of our solutions -a part of it- is
+  a secret , we don't have any copy of out of MY OLD LAPTOP.\nI was looking back to
+  it 2 days ago and i found some stupid virus inside all Javascript files !!!!\n\nWhen
+  you try to publish it , and as soon as its published  you open the dist folder and
+  the antivirus deletes all JavaScript files.\n\nANY HELP !!!\n\nUpdate \n1- we should
+  include this module on a client solution next week , we built our plan as if this
+  is ready !\n2- Im afraid to move the solution for other PCs inside the company ,
+  i tried Windows Defender and AVG on the old laptop , should i try another antivirus
+  on  that laptop ?\n3- Does Git repositories check for Maleware, if i pushed it to
+  github will it check for maleware , i think it might be an exe file or the IDE on
+  the laptop that injects something in the published version !!!\n\nP.S. I need to
+  make sure the solution is clean before moving it into another PC inside the company
+  network."
+from:
+  name: Amir Abou Eesa
+  id: '1700979476627162'
+type: status
+created_time: '2017-02-17T14:35:38+0000'
+updated_time: '2017-02-17T19:11:20+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1391357780903926/
+id: '172338516139198_1391357780903926'
+reactions:
+  data:
+  - id: '10155967617854840'
+    name: Ahmed Samir
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpVME5qUTVPRE01T2pFME9EY3pORGN4TXpNNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TmpVME5qUTVPRE01T2pFME9EY3pORGN4TXpNNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-02-17T14:38:21+0000'
+    from:
+      name: Tony Raoul Iscaros
+      id: '10156165643313420'
+    message: You can't sanitize them manually ? Is it the jQuery virus that have been
+      going wild recently ?
+    id: '1391360394236998'
+  - created_time: '2017-02-17T14:39:43+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: NOTHING written in those files i opened it with more than one editor
+      to see  !
+    id: '1391362654236772'
+  - created_time: '2017-02-17T14:43:05+0000'
+    from:
+      name: Mohamed Ahmed
+      id: '385696705226073'
+    message: could you share the anitvirus message ?
+    id: '1391366237569747'
+  - created_time: '2017-02-17T14:45:03+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: "########.JS/Unknown malware Mohamed Ahmed"
+    id: '1391367794236258'
+  - created_time: '2017-02-17T14:54:54+0000'
+    from:
+      name: Mohamed Ahmed
+      id: '385696705226073'
+    message: i dont think you can upload a file of those javascript to an online repo
+      , hmm you can use boxjs to analyse the issue and remove manually , the message
+      is insanely unhelpful !!!
+    id: '1391376830902021'
+  - created_time: '2017-02-17T14:56:42+0000'
+    from:
+      name: Tony Raoul Iscaros
+      id: '10156165643313420'
+    message: Did you check framework files , jQuery if it was used specially ?
+    id: '1391378584235179'
+  - created_time: '2017-02-17T15:16:09+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: Mera Abouzaid :S
+    id: '1391396820900022'
+  - created_time: '2017-02-17T15:43:02+0000'
+    from:
+      name: Tony Raoul Iscaros
+      id: '10156165643313420'
+    message: Try to use a VM to deploy your project while removing Internet access
+      I guess you should try another antivirus maybe it blacklisted all JavaScript
+      files
+    id: '1391418697564501'
+  - created_time: '2017-02-17T19:06:20+0000'
+    from:
+      name: Ammar Sherif
+      id: '2061101724122783'
+    message: You may boot into a live Linux distribution, I think this would work.
+    id: '1391623724210665'
+  - created_time: '2017-02-17T19:07:42+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: And then , this is a .Net Solution after all ! Ammar Sherif
+    id: '1391624797543891'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE01TVRNMk1ETTVOREl6TmprNU9Eb3hORGczTXpReU16QXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE01TVRZAeU5EYzVOelUwTXpnNU1Ub3hORGczTXpVNE5EWXkZD

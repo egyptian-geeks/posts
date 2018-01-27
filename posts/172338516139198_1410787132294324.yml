@@ -1,0 +1,61 @@
+---
+message: Gophers, please check out this test library and let me know your opinion
+  and critique; do you find it useful?
+link: https://github.com/workfit/tester
+from:
+  name: Geish
+  id: '10100126826302216'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQBr8fJeyg3Er7VK&w=130&h=130&url=https%3A%2F%2Favatars1.githubusercontent.com%2Fu%2F14367458%3Fv%3D3%26s%3D400&cfs=1&_nc_hash=AQCC7k-oB_Sbpbx7
+created_time: '2017-03-06T08:09:43+0000'
+updated_time: '2017-03-06T11:23:27+0000'
+name: workfit/tester
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1410787132294324/
+id: '172338516139198_1410787132294324'
+reactions:
+  data:
+  - id: '393079021104327'
+    name: Mohamed Abu Akrb
+    type: LIKE
+  - id: '10156358805885288'
+    name: Mahmoud Abd El-Fattah
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01ERXlNRFkyT1RjME56TTJPakUwT0RnNE1EY3lNREU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TlRFNU1UazFNamczT2pFME9EZAzNPVEk0T0RjNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-03-06T11:23:25+0000'
+    from:
+      name: Mohamed Bassem
+      id: '10212826240185281'
+    message: |-
+      I used to be a fan of assertion libraries (testify/assert specifically), until I read the readability guidelines at Google. It discourages the use of asserts for two reason:
+      1- Why add a new dependency when you can just do it with a simple condition?
+      For example:
+      if assert.For(t).ThatActual(err).IsNil() { .. }
+      can be easily written as :
+      want := ...
+      got := ...
+      if want != got { t.Errorf(...) }
+
+      2- Assertions end the test earlier when it could have continued. Some assertion failures can be tolerated and the test can continue and test more stuff. That's why we have Errorf and Fatalf. That's actually the reason that convinced me not to use an assertion library.
+    id: '1410889862284051'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF4TURnNE9UZAzJNakk0TkRBMU1Ub3hORGc0TnprNU5EQTEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF4TURnNE9UZAzJNakk0TkRBMU1Ub3hORGc0TnprNU5EQTEZD
+attachments:
+  data:
+  - description: tester - Lightweight test utilities to use with Go's testing package
+    media:
+      image:
+        height: 235
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAFgIK2qAr529K8&w=720&h=720&url=https%3A%2F%2Favatars1.githubusercontent.com%2Fu%2F14367458%3Fv%3D3%26s%3D400&cfs=1&_nc_hash=AQBaGawe8W6W21YU
+        width: 235
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Fworkfit%2Ftester&h=ATPC2tZAqAmsAH009HY7ysI_SW4fQVNd7xkxQL1YmUe9binIYsUO0jy4w-JYHdF0FjcSRhLXveDNsjlgV4Kxq94eekLmLMDwyzl5&s=1&enc=AZPGlEeYBse8a8itTx-w8e-xSDCR9tdrktrMCfkknGCyF3gdYLMQ_muMRSIGLrRLQVnE06wiMYkhutNId7aLUN-R
+    title: workfit/tester
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Fworkfit%2Ftester&h=ATPC2tZAqAmsAH009HY7ysI_SW4fQVNd7xkxQL1YmUe9binIYsUO0jy4w-JYHdF0FjcSRhLXveDNsjlgV4Kxq94eekLmLMDwyzl5&s=1&enc=AZPGlEeYBse8a8itTx-w8e-xSDCR9tdrktrMCfkknGCyF3gdYLMQ_muMRSIGLrRLQVnE06wiMYkhutNId7aLUN-R

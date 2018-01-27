@@ -1,0 +1,66 @@
+---
+message: "I created a real-time app using laravel + NodeJs + Socket.io but I don't
+  know how to deploy the app, I googled it but found nothing even on Stackoverflow,
+  I asked on Stackoverflow but still no answer.\n\nlink: "
+link: http://stackoverflow.com/questions/38736771/how-to-deploy-laravel-nodejs-socket-io-project
+from:
+  name: Bellal Mohamed
+  id: '1672878506132188'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQA4atFBdowvWO-S&w=130&h=130&url=http%3A%2F%2Fcdn.sstatic.net%2FSites%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded%26a&cfs=1&sx=0&sy=0&sw=316&sh=316&_nc_hash=AQDYVbPw7-vNSk2Z
+created_time: '2016-08-03T10:08:28+0000'
+updated_time: '2016-08-05T16:56:59+0000'
+name: How to Deploy Laravel + NodeJs + Socket.io Project
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1195063543866685/
+id: '172338516139198_1195063543866685'
+comments:
+  data:
+  - created_time: '2016-08-03T10:14:29+0000'
+    from:
+      name: Ahmed Atalla
+      id: '574320702905312'
+    message: How did you use laravel with nodejs ?
+    id: '1195065073866532'
+  - created_time: '2016-08-03T10:23:39+0000'
+    from:
+      name: Hatem Goda
+      id: '2073635446203550'
+    message: سلام عليكم انا اعرف الطريقه  بس مطبقتهاش قبل كده بس  يفترض انك بتحجز  استضافه
+      على digital ocean  بعد كده تسطب طبعا ال php  و الاباتشى و ال mysql  بعد  ترفع
+      مشروعك بعد كده  تسطب  ال  node js   على الاستضافه و ت run  ملف  ال  server.js  بتاعك
+      بتاع النود اللى انت كاتب فيه الكود بتاعك اللى الكود بتاعك بيكلمه  هيبقى كده
+      عندك 2  باك اند شغالين مع بعض فى نفس الوقت الارفل و النود
+    id: '1195067693866270'
+  - created_time: '2016-08-03T10:24:26+0000'
+    from:
+      name: Hatem Goda
+      id: '2073635446203550'
+    message: مع العلم انا عمرى ما اشتغلت على digital ocean    و لا عملت الشغل ده  بس
+      دى الفكره باذن الله
+    id: '1195072843865755'
+  - created_time: '2016-08-05T16:56:54+0000'
+    from:
+      name: Eslam Mostafa
+      id: '1575768239208294'
+    message: اعتقد انك هتستخدم nginx هتشغل nodejs باستخدام pm2 مثلًا او forever و
+      هتبظبط nginx انه ي listen ع ال port دا، مش متاكد بقى laravel ايه احسن طريقة
+      تعمل بيها deploy ، لو ممكن تعمل سيرش على الموضوع مع nginx يبقى كويس.
+    id: '1196762410363465'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU1TlRBMk5UQTNNemcyTmpVek1qb3hORGN3TWpFNU1qWTUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU1TmpjMk1qUXhNRE0yTXpRMk5Ub3hORGN3TkRFMk1qRTAZD
+attachments:
+  data:
+  - description: I created a real-time app using laravel and socket.io + nodejs, but
+      I don't know how could I deploy it
+    media:
+      image:
+        height: 316
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAntEGj6KNL8I7m&w=316&h=316&url=http%3A%2F%2Fcdn.sstatic.net%2FSites%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded%26a&cfs=1&sx=0&sy=0&sw=316&sh=316&_nc_hash=AQAI6p974RoCbfNJ
+        width: 316
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F38736771%2Fhow-to-deploy-laravel-nodejs-socket-io-project&h=ATN3fHUpkOJD3e62QmwGKTC3DIg1p-4kegmZX1j9wbBRrs_h3R__0DiSnzUgREEJrXTfw-m30nVdYSbeG_bt2nwO92Usxsy_LYBD&s=1&enc=AZOUsblRR059FUwjgHYX4cXnO3oE12zfh_gCa0rYcwDr_jMuMIYC43WhmjLSEjx-lh7C5rnWGpZMJ9t47N1yddWm
+    title: How to Deploy Laravel + NodeJs + Socket.io Project
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F38736771%2Fhow-to-deploy-laravel-nodejs-socket-io-project&h=ATN3fHUpkOJD3e62QmwGKTC3DIg1p-4kegmZX1j9wbBRrs_h3R__0DiSnzUgREEJrXTfw-m30nVdYSbeG_bt2nwO92Usxsy_LYBD&s=1&enc=AZOUsblRR059FUwjgHYX4cXnO3oE12zfh_gCa0rYcwDr_jMuMIYC43WhmjLSEjx-lh7C5rnWGpZMJ9t47N1yddWm

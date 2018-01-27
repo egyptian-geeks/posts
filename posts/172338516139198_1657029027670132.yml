@@ -1,0 +1,103 @@
+---
+message: "سؤال فني\nانا لو عندي فندقين كل فندق جاي من API غير التاني و عاوز اعرف اذا
+  كان دة نفس الفندق و لا فندقين مختلفين .. طبعًا الشك دة نابع من انه مش كل الـ APIs
+  بترجع الفندق بنفس الاسم ممكن يكون في اختلاف .. + مش شرط الدقة بتاعت الـ geolocation
+  تكون عالية في الاتنين \n\nفأنا بفكر اقارن عن طريق نسبة التشابه بين الاسم اللي جايلي
+  من هنا و الاسم اللي جايلي من هنا دة اول عامل\nتاني عامل المسافة بين النقطتين ..
+  \nهل في طريقة ممكن تكون افضل؟  اي اقتراحات لتحسينها؟\nو نظرًا لاني معنديش اي خلفية
+  في الجغرافيا ممكن اقتراح للمسافة اللي اقدر تقريبيًا اعتبر عندها ان الاتنين نفس الفندق
+  يعني لو المسافة اكتر من x متر يبقى دول فندقين مختلفين\nشكرًا مقدمًا"
+from:
+  name: Mohamed Ahmed
+  id: '1470551303043336'
+type: status
+created_time: '2017-11-09T13:23:11+0000'
+updated_time: '2017-11-13T16:39:07+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1657029027670132/
+id: '172338516139198_1657029027670132'
+reactions:
+  data:
+  - id: '1641565752594739'
+    name: Ahmed Aziz
+    type: LIKE
+  - id: '263053970896020'
+    name: Mahmoud Alarby
+    type: LIKE
+  - id: '2073635446203550'
+    name: Hatem Goda
+    type: LIKE
+  - id: '1141575932646478'
+    name: Osama Yasser
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlNak01T1RFMk5UUXpPakUxTVRBek1ETTJOekU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXpPREl5TkRVMU9EWTNPakUxTVRBeU5ETTVNVEE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-11-09T13:26:55+0000'
+    from:
+      name: Mahmoud Mortda
+      id: '1816374988414963'
+    message: ممكن تقولنا ال data model  اللى راجع من apis شكله عامل ازاي
+    id: '1657066984333003'
+  - created_time: '2017-11-09T13:29:10+0000'
+    from:
+      name: Mohammed Khalaf
+      id: '2068715019823753'
+    message: "انت عشان تحسب المسافه عموما ما بين نقطتين .. فانت محتاج latlng بتاع
+      كل مكان \nوفي formula بتساعدك تحسب المسافه \nhttps://en.wikipedia.org/wiki/Haversine_formula\nبس
+      معتقدش فكره انك تحسبها بموضوع location دي احسن حاجه"
+    id: '1657068834332818'
+  - created_time: '2017-11-09T13:34:22+0000'
+    from:
+      name: Hisham Abd El-Hafez Eid
+      id: '10156032627411171'
+    message: "Your problem has a name, it is called Record Linkage. There are frameworks
+      and libraries that can help you do what you need. Google it :) \n\nA python
+      lib: http://recordlinkage.readthedocs.io/en/latest/\nA Java lib: https://github.com/larsga/Duke"
+    id: '1657072864332415'
+  - created_time: '2017-11-09T13:39:43+0000'
+    from:
+      name: Mahmoud Said
+      id: '10159857675500183'
+    message: |-
+      أنا مش شايف الموضوع صعب خالص لأن الدقة بتاعت الـ geolocation مش مهمة لأن إيه احتمالية أنه يكون في فندقين بنفس الاسم في نفس الحي
+      الاهم هوا مدى تقارب الأسماء (بالإضافة إلى تقارب الموقع الجغرافي)
+      https://en.wikipedia.org/wiki/Category:String_similarity_measures
+    id: '1657076627665372'
+  - created_time: '2017-11-09T14:58:15+0000'
+    from:
+      name: Ahmed Shawky
+      id: '10205205301673812'
+    message: Check Giata code of hotel from your API
+    id: '1657135170992851'
+  - created_time: '2017-11-09T18:15:36+0000'
+    from:
+      name: Elawady Elsayd
+      id: '1716405828399348'
+    message: "اتصل بيهم وقولهم عاوز حاجة تميزكم \U0001F602"
+    id: '1657295427643492'
+  - created_time: '2017-11-09T21:49:43+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: كان عندنا نفس المشكله ، استخدمنا levenshtein distance علشان نحسب نسبه
+      التشابه بين الاسماء، والنتيجه كانت معقوله
+    id: '1657435640962804'
+  - created_time: '2017-11-09T22:30:31+0000'
+    from:
+      name: Sameh Selim
+      id: '1907240172924468'
+    message: Inbox me ur number. I can help
+    id: '1657459697627065'
+  - created_time: '2017-11-10T08:43:28+0000'
+    from:
+      name: Fady Anwar
+      id: '10159888022555052'
+    message: ال API ده مش بيرجع حاجه زي company registration number مثلا؟
+    id: '1657815120924856'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkxTnpBMk5qazRORE16TXpBd016b3hOVEV3TWpNME1ERTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkxTnpneE5URXlNRGt5TkRnMU5qb3hOVEV3TXpBek5EQTUZD

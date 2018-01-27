@@ -1,0 +1,36 @@
+---
+message: |-
+  Just sharing something I have encountered that took me around half an hour to find a solution to.
+
+  If you are using Azure VMs, and the RDP credentials do not work even after you reset them via the portal, there is a reason that is not mentioned which is you have to write the full machine name before the username.
+
+  If your username is myuser then you have to login using "myservername.cloudapp.net\myuser" rather than only "myuser" or even "\myuser" as the back slash might resolve to something else other than the machine name.
+from:
+  name: Mahmoud Abd El-Fattah
+  id: '10156358805885288'
+type: status
+created_time: '2016-11-06T20:46:35+0000'
+updated_time: '2016-11-06T20:46:35+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1283961898310182/
+id: '172338516139198_1283961898310182'
+reactions:
+  data:
+  - id: '10156316685792275'
+    name: Karim Samir
+    type: LIKE
+  - id: '10210300649304955'
+    name: Akram Mohamed
+    type: LIKE
+  - id: '10215800137143118'
+    name: Mohamed Elnagar
+    type: LIKE
+  - id: '1772542006152666'
+    name: Mohamed AbuIssa
+    type: LIKE
+  - id: '10214861141222529'
+    name: Abdelrady Fcis
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpVeU56a3lNamMwT2pFME56ZAzBPVE00TURVNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRJME5qZA3lNelF4TVRveE5EYzRORFkxTmpnNU9qSTFOREE1TmpFMk1UTT0ZD

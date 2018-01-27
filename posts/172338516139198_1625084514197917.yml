@@ -1,0 +1,31 @@
+---
+message: |-
+  I don't know whether this is a viable question or not, but i'll ask anyways.
+
+  Is there any differences between Virtual Dom and Shadow Dom when it comes to SEO?
+from:
+  name: Taha Saleh
+  id: '1754195911542041'
+type: status
+created_time: '2017-10-05T18:19:00+0000'
+updated_time: '2017-10-05T19:04:48+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1625084514197917/
+id: '172338516139198_1625084514197917'
+comments:
+  data:
+  - created_time: '2017-10-05T18:31:46+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: "SEO has nothing todo with the topic...\n\n Virtual DOM is an object
+      in the memory that libraries like React compare the new UI component with it
+      then update the existing DOM ... \n\nShadow DOM is something else. When you
+      create an element like a <select> the browser create sub nodes inside that select
+      that you don't see unless you enable an option in the devtools (in Chrome at
+      least). These sub-nodes doesn't contain any beneficial information for search
+      engines.\n\nWas that clear?"
+    id: '1625095064196862'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl5TlRBNU5UQTJOREU1TmpnMk1qb3hOVEEzTWpJNE16QTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl5TlRBNU5UQTJOREU1TmpnMk1qb3hOVEEzTWpJNE16QTIZD

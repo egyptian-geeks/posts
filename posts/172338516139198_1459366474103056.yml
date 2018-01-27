@@ -1,0 +1,108 @@
+---
+message: "Hello everyone, \nI want some input regarding a technical problem. I am
+  a dentist, and I'm currently studying for an exam with the help of some software
+  that I bought. The software is licensed to a single PC, specifically tied to its
+  HDD serial number. My hdd died a few days ago, and I can't license the software
+  on the new ssd. \nI took my hand at analyzing the software and found via some ram
+  dumps and some IDA pro that it calls the server in an https connection to verify
+  with the URL containing a string of the hdd model and serial number. Then it gets
+  a license or an authorization IIRC. I can't replicate the call myself to see what
+  the response looks like. \nMy limited knowledge at the moment is turning me towards
+  setting it up on a VM and having the virtual hdd identify as the dead one. I have
+  another one just like it that still works, so i might be able to recreate the required
+  spoof from thestrings.. \n\nThe question is, how can i get virtual box(preferably)
+  or vmware to do that. I feel so stupid that I didn't do that from the start and
+  run it on my main linux PC from the start. Then it will work regardless of the pc..
+  \n\nAlternative solution i am working on. I emailed customer service to convince
+  them to give me a new serial. In all cases i am not going to pay 200USD again and
+  my brother won't either, he'll need it kman shwaia. \n\nفكروا معايا من فضلكم.. ازاي
+  ممكن اعمل كدا.. او لو في اي حلول بديلة مفكرتش فيها. و هل حل الvm ده شكله كويس؟"
+from:
+  name: Abdul Hamdy
+  id: '10155794996775813'
+type: status
+created_time: '2017-04-20T01:50:02+0000'
+updated_time: '2017-04-21T14:12:30+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1459366474103056/
+shares:
+  count: 1
+id: '172338516139198_1459366474103056'
+reactions:
+  data:
+  - id: '10156089336182292'
+    name: Hassan Aly Selim
+    type: LIKE
+  - id: '1539552666097869'
+    name: Mohammed Ahmed
+    type: LOVE
+  - id: '10155110527716700'
+    name: Ahmed Shawky Ibrahim
+    type: LIKE
+  - id: '403777313391852'
+    name: أحمد
+    type: LIKE
+  - id: '1547297148718242'
+    name: Sherif Abdel-Naby
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRFNU5qa3lNamt4T2pFME9USTNNell3TnpnNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQXpNVE01TVRReE1ETXhPakUwT1RJMk5UTXhOalU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-04-20T05:37:46+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: Try catching the outgoing request via a proxy (Fiddler, Charles.. etc),
+      modify the relevant parameters and send it again. You can check the response
+      after that and see if the modified parameters give back a successful response.
+    id: '1459535147419522'
+  - created_time: '2017-04-20T06:06:23+0000'
+    from:
+      name: Mohamed Gamal
+      id: '10156096685587328'
+    message: You can get the request form via Wireshark.
+    id: '1459550374084666'
+  - created_time: '2017-04-20T08:13:20+0000'
+    from:
+      name: Ahmed Galal
+      id: '10160277627030455'
+    message: How about changing ur current ssd serial number to the old hdd? Check
+      this out https://www.raymond.cc/blog/changing-or-spoofing-hard-disk-hardware-serial-number-and-volume-id/
+    id: '1459641817408855'
+  - created_time: '2017-04-20T11:11:54+0000'
+    from:
+      name: Ahmed Abd El-Qader
+      id: '10155218861346127'
+    message: Why dont you contact the customers service of the software?
+    id: '1459751284064575'
+  - created_time: '2017-04-20T12:25:22+0000'
+    from:
+      name: Nabiel Kmal
+      id: '913852418772611'
+    message: |-
+      Hmmm!
+      It's pretty interesting to see a Dentist with such a technical background !
+    id: '1459826864057017'
+  - created_time: '2017-04-20T22:17:29+0000'
+    from:
+      name: Ahmed Bahz
+      id: '10159995289980594'
+    message: ممكن اعرف عيادتك فين او لما تفتحها ابقي قوليلي و النبي
+    id: '1460302764009427'
+  - created_time: '2017-04-21T13:19:10+0000'
+    from:
+      name: Abdul Hamdy
+      id: '10155794996775813'
+    message: "يا شباب انا الحمدلله لقيت backup قديم و حspoof الهارد اللي عندي دلوقتي
+      و المفروض يشتغل و لو مكنش حشوف الdll اللي بيعرف الهارد و احاول اتصرف فيه. بس
+      لما اعدي الامتحان حتعلم assembly مخصوص عشان اكراك البرنامج السخيف ده انتقاما
+      من شويت الاطفال السخيفة دول\U0001F608.. ضيعت كذا يوم في الليلة دي. \nو لكن بحب
+      اشكركم كلكم علي افكاركم و اقتراحاتكم شكراً جزيلاً لأنها ساعدتني و وفرت عليا
+      وقت و مجهود. \nشكراً،\nعبدالرحمن حمدي"
+    id: '1460955740610796'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFExT1RVek5URTBOelF4T1RVeU1qb3hORGt5TmpZAMk5qWTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEyTURrMU5UYzBNRFl4TURjNU5qb3hORGt5Tnpnd056VXcZD

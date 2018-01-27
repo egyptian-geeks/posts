@@ -1,0 +1,17 @@
+---
+message: |+
+  Regular Expression Matching Can Be Simple And Fast (but is slow in Java, Perl, PHP, Python, Ruby, ...)
+
+  This is a tale of two approaches to regular expression matching. One of them is in widespread use in the standard interpreters for many languages, including Perl. The other is used only in a few places, notably most implementations of awk and grep. The two approaches have wildly different performance characteristics ...
+
+link: http://swtch.com/~rsc/regexp/regexp1.html
+from:
+  name: Ahmed AbouZaid
+  id: '10159726802330618'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQAuILVloemLdexm&w=130&h=130&url=http%3A%2F%2Fpdos.csail.mit.edu%2F%7Ersc%2Fregexp-img%2Ffig11.png&cfs=1&_nc_hash=AQAufOpPXgTBrKi7
+created_time: '2015-01-13T17:19:57+0000'
+updated_time: '2015-01-15T15:59:15+0000'
+name: Regular Expression Matching Can Be Simple And Fast
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/880301782009531/
+id: '172338516139198_880301782009531'

@@ -1,0 +1,140 @@
+---
+message: |-
+  Hello guys,,
+  I'm have so frustrating issue while using ray-cast and collider.
+  Instead of returning the game object name it returns "collision"...
+
+  Debug.Log("Name: " + rcHitInfo.collider.name + " ... " + rcHitInfo.point);
+
+  Even with using event trigger it returns "collision"
+  Any ideas ?
+link: https://www.facebook.com/photo.php?fbid=914863375307200&set=gm.1209942032378836&type=3
+from:
+  name: Ibrahem Salah
+  id: '1391026811024185'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/14067612_914863375307200_3340363486326807002_n.jpg?oh=03b8b5c535e11d0c8a94952ea51277ab&oe=5B1F51D1
+created_time: '2016-08-21T09:15:16+0000'
+updated_time: '2016-08-22T11:18:41+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1209942032378836/
+id: '172338516139198_1209942032378836'
+reactions:
+  data:
+  - id: '1804328089587682'
+    name: Mohamed Mohsen
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdNekUxTWpRNU9UZA3lPakUwTnpFNE1UVTBOemM2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXdNekUxTWpRNU9UZA3lPakUwTnpFNE1UVTBOemM2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-08-21T11:39:11+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      Collider is a component attached to the GameObject, so you can say rcHitInfo.collider.gameObject.name
+      But I would highly suggest staying away form game object names because it leads to messy code (and instantiated prefabs have numbered names), use Tags or Layers instead.
+      Why exactly do you need the game object's name?
+    id: '1210026915703681'
+  - created_time: '2016-08-21T11:41:27+0000'
+    from:
+      name: Ibrahem Salah
+      id: '1391026811024185'
+    message: "My game objects have numbered names and i did gameObject.name and it
+      didn't work also :D \n\nI solved this via creating new Layer and assign clickable
+      objects to this layer.\nThen i did the same for my camera RayCast"
+    id: '1210027815703591'
+  - created_time: '2016-08-21T11:41:44+0000'
+    from:
+      name: Ibrahem Salah
+      id: '1391026811024185'
+    message: But it took me 2 days trying to solve this issue
+    id: '1210027999036906'
+  - created_time: '2016-08-21T11:47:56+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      Yeah using Layers when doing raycasts is probably the most efficient and optimized thing, because you only get hits on the things you care about.
+      BTW if you have a lot of nested objects (model split into pieces w keda), try putting the collider component on the topmost object instead of on the model pieces or on the redundant inner objects.
+    id: '1210031639036542'
+  - created_time: '2016-08-21T15:05:06+0000'
+    from:
+      name: Ibrahem Salah
+      id: '1391026811024185'
+    message: "That's right and that's what i'm doing,\n\nI have another question in
+      FPS controller from assets \nWhen i convert my project to Oculus Rift \nThe
+      directions keep changing according to which direction i'm looking to \nExp:
+      If i turned my head to left the W moves me to the north instead of the new direction
+      where i'm looking at"
+    id: '1210255179014188'
+  - created_time: '2016-08-21T15:23:39+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      My personal advice is to avoid using the camera controllers from the Assets, they're way too complicated for most use-cases, it would be better to write your own and implement just the parts you want.
+      Regarding changing the direction of where W goes, there are two ways:
+      - on the game object that represents the head rotation, do something like:
+      transform.Translate(transform.forward * speed); // or just hardcode the speed
+      - on any other game object, take a reference to the transform component on the head rotation game object and do something like:
+      transform.Translate(headTrans.forward * speed);
+
+      basically "forward" is a unit vector that tell you the direction of that transform, so multiplying by the speed gives you the velocity with the correct direction.
+      there is also transform.right for handling horizontal movement :)
+    id: '1210275189012187'
+  - created_time: '2016-08-22T10:58:17+0000'
+    from:
+      name: Ibrahem Salah
+      id: '1391026811024185'
+    message: The issue appeared again after i build the project :/ collision instead
+      of game object name which mess all my functions
+    id: '1211001268939579'
+  - created_time: '2016-08-22T11:00:35+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: I think something went wrong with the build and you're running old code,
+      because this doesn't make sense at all :D
+    id: '1211002272272812'
+  - created_time: '2016-08-22T11:03:11+0000'
+    from:
+      name: Ibrahem Salah
+      id: '1391026811024185'
+    message: "I can't even debug \nThere is nothing called collision except the game
+      object component!"
+    id: '1211003465606026'
+  - created_time: '2016-08-22T11:18:38+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: put Debug.Log everywhere, you can make a debug build that puts a small
+      window inside the game to show you the logs and errors
+    id: '1211013882271651'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl4TURBeU5qa3hOVGN3TXpZANE1Ub3hORGN4TnpjNU5UVXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl4TVRBeE16ZAzRNakkzTVRZAMU1Ub3hORGN4T0RZAME56RTUZD
+attachments:
+  data:
+  - description: |-
+      Hello guys,,
+      I'm have so frustrating issue while using ray-cast and collider.
+      Instead of returning the game object name it returns "collision"...
+
+      Debug.Log("Name: " + rcHitInfo.collider.name + " ... " + rcHitInfo.point);
+
+      Even with using event trigger it returns "collision"
+      Any ideas ?
+    media:
+      image:
+        height: 460
+        src: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/13988072_914863375307200_3340363486326807002_o.jpg?oh=6fdbc31e063789046b7c9ece361bdd58&oe=5B2077A1
+        width: 720
+    target:
+      id: '914863375307200'
+      url: https://www.facebook.com/photo.php?fbid=914863375307200&set=gm.1209942032378836&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=914863375307200&set=gm.1209942032378836&type=3

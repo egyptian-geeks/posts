@@ -1,0 +1,57 @@
+---
+message: Any help ?
+link: http://stackoverflow.com/q/39723092/1675497?sfb=2
+from:
+  name: Amir Abou Eesa
+  id: '1700979476627162'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQA4atFBdowvWO-S&w=130&h=130&url=http%3A%2F%2Fcdn.sstatic.net%2FSites%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded%26a&cfs=1&sx=0&sy=0&sw=316&sh=316&_nc_hash=AQDYVbPw7-vNSk2Z
+created_time: '2016-09-27T11:08:23+0000'
+updated_time: '2016-09-28T09:42:05+0000'
+name: How to protect cefsharp, HTML5 apps build with .net and visual studio installer
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1242934119079627/
+id: '172338516139198_1242934119079627'
+comments:
+  data:
+  - created_time: '2016-09-28T08:20:42+0000'
+    from:
+      name: سامح دعبس
+      id: '2022490591345439'
+    message: |-
+      My 2 cents (sorry, I have strict time to give you full solution right now)
+      - embed the HTML and JS files as resources in the assembly and read them as streams. Still, extracting the resources may be doable by decomping the assemblies, then...
+      - always ever combine and minfy your js files, and obfuscate your .NET assemblies
+    id: '1243679152338457'
+  - created_time: '2016-09-28T08:23:26+0000'
+    from:
+      name: سامح دعبس
+      id: '2022490591345439'
+    message: You may save the files on disk as encrypted files with unknown extensions,
+      and decrypt them at runtime, but still the memory may be accessible, but you
+      are raising the bar!
+    id: '1243680145671691'
+  - created_time: '2016-09-28T09:42:03+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: Sameh Serag Deabes Thanks a lot.
+    id: '1243713669001672'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkwTXpZAM09URTFNak16T0RRMU56b3hORGMxTURVd09EUXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkwTXpjeE16WTJPVEF3TVRZAM01qb3hORGMxTURVMU56SXoZD
+attachments:
+  data:
+  - description: I built an app based on CefSharp with .Net and visual studio, now
+      i need to publish this app as installer , sure the published MSI when installed
+      on client it has the html and javascript file, how i
+    media:
+      image:
+        height: 316
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAntEGj6KNL8I7m&w=316&h=316&url=http%3A%2F%2Fcdn.sstatic.net%2FSites%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded%26a&cfs=1&sx=0&sy=0&sw=316&sh=316&_nc_hash=AQAI6p974RoCbfNJ
+        width: 316
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fq%2F39723092%2F1675497%3Fsfb%3D2&h=ATNT-Ml9SMz4riOUfErFksblcdSKetGwTg4EBlwsHmo2jN32Cs2tltG13CkeXimot6_tMmszsJwaBr2LLuCJFF-dCG6kwABRb9MT&s=1&enc=AZN7pZuUYrcRuCVa3SJugQUuIB-8Is4FkR1g1W5hu5By__PHOB8hFPGekZ5kMnOz_MWF5mWzNDaW42RA_nadHeOZ
+    title: How to protect cefsharp, HTML5 apps build with .net and visual studio installer
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fq%2F39723092%2F1675497%3Fsfb%3D2&h=ATNT-Ml9SMz4riOUfErFksblcdSKetGwTg4EBlwsHmo2jN32Cs2tltG13CkeXimot6_tMmszsJwaBr2LLuCJFF-dCG6kwABRb9MT&s=1&enc=AZN7pZuUYrcRuCVa3SJugQUuIB-8Is4FkR1g1W5hu5By__PHOB8hFPGekZ5kMnOz_MWF5mWzNDaW42RA_nadHeOZ

@@ -1,0 +1,57 @@
+---
+message: "Good morning geeks , I have some text that contains Arabic and Chinese characters
+  as following , I tried to exclude the Chinese using regex but nothing worked. \nWhat
+  do you suggest ? \nThanks\nاستثمر إيجارك وتملك عقارك攼㹤愼㸰戼㹣攼㹤戼㹦愼㸰"
+from:
+  name: Amr Ahmed Shawky
+  id: '10215230996636396'
+type: status
+created_time: '2017-06-11T10:54:40+0000'
+updated_time: '2017-06-11T18:00:25+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1512089215497448/
+id: '172338516139198_1512089215497448'
+reactions:
+  data:
+  - id: '10156148622306079'
+    name: Tamer Hussien
+    type: LIKE
+  paging:
+    cursors:
+      before: TnpRME5UazJNRGM0T2pFME9UY3lNRGMwTURJNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TnpRME5UazJNRGM0T2pFME9UY3lNRGMwTURJNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-06-11T12:00:01+0000'
+    from:
+      name: Ahmed Abulwafa
+      id: '10215430511626176'
+    message: |-
+      Regex htnf3 ya ninja..
+      1) Create a duplicate string from the original
+      2) Create a regular expression for Arabic characters, this worked for me @"^[\u0621-\u064A\u0660-\u0669 ]+$"
+      2) Loop through each character in the original string
+      2 - a) Indicate if it matches the regex
+      2 - b) Remove that char from the duplicate if it matches
+
+      m3aya code sample lw 3ayz
+    id: '1512150365491333'
+  - created_time: '2017-06-11T13:10:58+0000'
+    from:
+      name: Mohamed Magdy
+      id: '1845903015451864'
+    message: "Here is how i do it : \n-----------------------\nArabicOnly <- regmatches(yourText,
+      gregexpr(\"[\\u0621-\\u064A\\u0660-\\u0669]+\", yourText))\n-----------------------\nResult
+      will be List of Vectors and Each Vector is a word\nto combine to single string
+      \n-----------------------\npaste0(unlist(ArabicOnly), collapse = ' ')"
+    id: '1512205235485846'
+  - created_time: '2017-06-11T14:36:13+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: "look at \"Unicode scripts\" here \nhttp://www.regular-expressions.info/unicode.html\nthere
+      is a regex selector for each language"
+    id: '1512279222145114'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV4TWpFMU1ETTJOVFE1TVRNek16b3hORGszTVRneU5EQXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV4TWpJM09USXlNakUwTlRFeE5Eb3hORGszTVRreE56YzEZD

@@ -1,0 +1,45 @@
+---
+message: "SA folks, I've got a question on FaceNet Paper.\n\nI'd like to ask if this
+  paper does take into consideration the intrusion problem \ni.e ( if the model was
+  trained on 50 different faces of 50 different persons, what if a new identity/face
+  is introduced to the trained model, would it identify it as out of classes or it'll
+  try to minimize the distance and find the nearest match face to this identity this
+  was somehow mentioned in the paper itself )"
+from:
+  name: Mohammed Samir
+  id: '1523843307671645'
+type: status
+created_time: '2017-08-22T13:36:18+0000'
+updated_time: '2017-08-23T01:59:52+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1586988391340863/
+id: '172338516139198_1586988391340863'
+comments:
+  data:
+  - created_time: '2017-08-22T13:48:06+0000'
+    from:
+      name: يحيى فرغلى
+      id: '2072152973066405'
+    message: the post should be here mohammed ( https://www.facebook.com/groups/big.data.egypt/
+      )
+    id: '1586995728006796'
+  - created_time: '2017-08-22T13:48:15+0000'
+    from:
+      name: Tony Raoul Iscaros
+      id: '10156165643313420'
+    message: |-
+      I checked it myself , intrusion problem haven't been mentioned before.
+      But noting that CNN needs to be trained again for each entry.
+      (as far as my shallow understanding of machine learning goes)
+    id: '1586995864673449'
+  - created_time: '2017-08-23T01:59:49+0000'
+    from:
+      name: Zeyad Yasser
+      id: '10208624519769836'
+    message: I don't know the exact architecture of the model but if  "other" class
+      doesn't exist you can theoraticaly retrain the last layer with "other" class
+      added to the main classes on random faces (transfer learning)
+    id: '1587449577961411'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU0TmprNU5UY3lPREF3TmpjNU5qb3hOVEF6TkRBNU5qZAzMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU0TnpRME9UVTNOemsyTVRReE1Ub3hOVEF6TkRVek5Ua3cZD

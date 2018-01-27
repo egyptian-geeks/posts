@@ -1,0 +1,64 @@
+---
+message: I'm working on 3d web application .. I am using three.js ..user can add objects
+  in the scene.. How I can save and update the scene after user add this objects..i
+  want to save the new position and rotation and and another changes which the user
+  make
+from:
+  name: Ahmed Khalifa
+  id: '1999765416908747'
+type: status
+created_time: '2017-08-28T22:44:41+0000'
+updated_time: '2017-08-29T09:00:05+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1592379100801792/
+id: '172338516139198_1592379100801792'
+reactions:
+  data:
+  - id: '10160388991030144'
+    name: Momen Al Zalabany
+    type: LIKE
+  - id: '1800724693292343'
+    name: Biga Gaber
+    type: LIKE
+  - id: '2076443865921795'
+    name: Mostafa Megria
+    type: LIKE
+  paging:
+    cursors:
+      before: TnprM05UTTFNVFF6T2pFMU1EUXdNakl6TnpBNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQTJOamcyTURReE1EWXdPakUxTURNNU5qQTFOalk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-08-28T22:49:52+0000'
+    from:
+      name: Mostafa Megria
+      id: '2076443865921795'
+    message: "وده هيكون سؤال الموسم بالنسبالنا \U0001F60E\U0001F483"
+    id: '1592381197468249'
+  - created_time: '2017-08-29T00:45:31+0000'
+    from:
+      name: Biga Gaber
+      id: '1800724693292343'
+    message: |-
+      you can convert the target object  into json object and use jsonloader to import it.
+      https://threejs.org/docs/index.html#api/loaders/JSONLoader
+      https://forum.clara.io/t/beginner-how-do-i-load-a-json-into-three-js/3437
+    id: '1592442650795437'
+  - created_time: '2017-08-29T06:33:08+0000'
+    from:
+      name: Ahmed Sadek Mohamed Tawfik
+      id: '10155056867911922'
+    message: "I am not using threejs .. but what models are you talking about ?!!
+      \nRemember that the model data should be separated from its transformations
+      .. so if you put whatever model in the scene and made some transformations to
+      it .. you should store its current transformations in a separate location.\nnow
+      there are two ways .. either you get the final transformation matrix of the
+      object and store it .. [4x4] matrix which contains its translation, rotation,
+      and scaling information.\nsecond way which i like is to store the operations
+      itself that has been done to the object (which will allow you later to implement
+      undo functionality)\n- Put Model\n- TranslateTo x,y,z\n- Rotate Around x,y,z
+      with rotation angle (with radians)\netc .."
+    id: '1592636077442761'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU1TWpNNE1URTVOelEyT0RJME9Ub3hOVEF6T1RZAd05Ua3kZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU1TWpZAek5qQTNOelEwTWpjMk1Ub3hOVEF6T1RnNE16ZAzUZD

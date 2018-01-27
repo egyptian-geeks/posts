@@ -1,0 +1,219 @@
+---
+message: "السلام عليكم\n\nعندي سيرفر 20 كور ، 64 جيجا رام  علي توزيعة اوبنتو 14 \n\nالبيانات
+  اللي السيرفر بيخزنها  في الساعة الواحدة كبيره بشكل ما .. و عندي حوالي 2000 concurrent
+  user .\n\nبستخدم Nginx مع MongoDB و السكربت php .. المشكلة كانت ان الnginx بيرجع
+  502 bad gateway .. و بعد البحث المشكله كانت في ان الphp5-fpm محتاج يتظبله شويه اعدادات
+  علشان يقدر يهندل الكونكرنت يوزر مع الNgnix .. غيرت ال pm.max_children من 5 ل 70
+  و حسب اللي مكتوب انه يقدر يخدم 2000 كونكرنت علي رامات 8GB ... وهو فعلاً مش مستهلك
+  من الميموري عندي غير جيجا و نص ولكن الcpu 100% و الحل اني اخلي ال pm.max_children
+  = 20 ماكسيمام علشان الcpu يهدي و يرجع تاني 8% .. ولكن ساعتها مشكله ال bad gateway
+  هترجع تاني \nو حالياً بعد البينشماركينج علي 2000 ريكوست بيقع منهم ما بين ال600  و
+  ال800\n\nحالياً انا محتاج اعرف لو فيه حل للمشكلة دي ؟ و هل الاستهلاك بالشكل ده منطقي
+  ؟"
+from:
+  name: Ahmed Ashraf
+  id: '930615110434715'
+type: status
+created_time: '2016-07-24T12:48:12+0000'
+updated_time: '2016-07-27T15:38:14+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1188267014546338/
+shares:
+  count: 2
+id: '172338516139198_1188267014546338'
+reactions:
+  data:
+  - id: '1466247800164499'
+    name: Mosaab Ahmed
+    type: LIKE
+  - id: '1596110217148252'
+    name: Ahmed Badawy
+    type: LIKE
+  - id: '2342288709130763'
+    name: Mostafa Kasem
+    type: LIKE
+  - id: '10155755444625845'
+    name: Mohammad Fouad
+    type: LIKE
+  - id: '1848749968530776'
+    name: Abd El-Rahman Rafat
+    type: LIKE
+  - id: '1487671784675336'
+    name: Mohamad Emad
+    type: LIKE
+  - id: '2027011464244044'
+    name: Ahmed Said
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXpNemM0TnpreE16VTRPakUwTmprM09UTXpOams2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTRNRFUyTWprek56Y3lPakUwTmprek5qVTBNakU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-07-24T13:00:23+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      I don't know much about this, but had a bet that I can find something that appears useful by finding good search terms. So, I'm sorry in advance if this is wasting your time as something you tried or unrelated.
+
+      There seem to be other settings than the ones you mentioned, related to buffers, check the accepted answer here: http://stackoverflow.com/questions/8772015/502-gateway-errors-under-high-load-nginx-php-fpm
+    id: '1188271834545856'
+  - created_time: '2016-07-24T13:08:47+0000'
+    from:
+      name: Mohamed El-Sayed
+      id: '10155182529813309'
+    message: ال 2000 دول كلهم بيروحوا على php و لا في حاجات static ؟
+    id: '1188275011212205'
+  - created_time: '2016-07-24T15:45:13+0000'
+    from:
+      name: Mohamed Radwan
+      id: '10159976552365192'
+    message: 'best practice : DNS is working as round robin to HA proxy then Ha proxy
+      works as round robin to nginx. Most of high traffic websites using this approach.
+      By the way pass me your nginx configuration'
+    id: '1188366794536360'
+  - created_time: '2016-07-24T15:47:19+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: You can't just play with fpm configuration without doing measures. What
+      exactly is the error u get in the log??
+    id: '1188367511202955'
+  - created_time: '2016-07-24T16:27:41+0000'
+    from:
+      name: Mokhtar Ali Ebrahim
+      id: '10155287610712742'
+    message: http://myshell.co.uk/blog/2012/07/adjusting-child-processes-for-php-fpm-nginx/
+    id: '1188388287867544'
+  - created_time: '2016-07-24T17:01:02+0000'
+    from:
+      name: Usama Fayez
+      id: '10155807421830280'
+    message: It might be a silly question but why are you using one powerful expensive
+      server instead of a set of cheaper hosts and balancing the load across them?
+    id: '1188405417865831'
+  - created_time: '2016-07-24T17:58:30+0000'
+    from:
+      name: سامح دعبس
+      id: '2022490591345439'
+    message: |-
+      ماليش في التقنيات اللي انت مستخدمها، بس على iis مشكلة شبيهة بمشكلتك و كان حلها إني أعمل web garden
+      و دي ببساطة معناها إني أشغل كذا process عشان تستقبل ال requests
+      و كنا بنحط عدد ال worker processes= عدد الcores
+      مش عارف حاجة زي دي هاتفيدك و لا لأ
+      http://stackoverflow.com/questions/7325211/tuning-nginx-worker-process-to-obtain-100k-hits-per-min
+    id: '1188432254529814'
+  - created_time: '2016-07-24T18:52:24+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: I read this post 3 times and can't understand it, the English words in
+      Arabic letter make it impossibe, sorry
+    id: '1188461284526911'
+  - created_time: '2016-07-24T19:34:53+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: Why do have this huge cluster in the first place?
+    id: '1188481424524897'
+  - created_time: '2016-07-24T19:39:21+0000'
+    from:
+      name: Osama Ali
+      id: '10156238158522384'
+    message: Sherif Sayed
+    id: '1188483244524715'
+  - created_time: '2016-07-24T19:52:21+0000'
+    from:
+      name: Mohamed Elmadeny
+      id: '10215899125936386'
+    message: what about the Process manager in php5-fpm is it dynamic or on demand
+      ?
+    id: '1188488474524192'
+  - created_time: '2016-07-24T20:28:32+0000'
+    from:
+      name: Ahmed Kamal
+      id: '10208727810672580'
+    message: Also are you using op code caching, php-apc, also you might need to do
+      some profiling to your code, there might be a problem within.
+    id: '1188502834522756'
+  - created_time: '2016-07-24T22:09:50+0000'
+    from:
+      name: Mohammad Fouad
+      id: '10155755444625845'
+    message: "Any idea what the CPU is actually doing? \n- do you have a complicated
+      vhost map in NGINX? maybe it is doing excessive matching\n- do you have NGINX
+      logs enabled? maybe too much I/O and wait times\n- is this by any chance a VM?
+      VM Network traffic can consume CPU if not para-virtualized"
+    id: '1188562851183421'
+  - created_time: '2016-07-25T00:37:30+0000'
+    from:
+      name: Ahmed M. Araby
+      id: '10155547863649263'
+    message: "It depends on your application code \nBut mostly it's not normal \nThere
+      are indexes in mogo similar to MySQL Indies  \nProbably you don't use any\nAlmost
+      60 of performance issues bottlenecks are in databases \nYou can do a quick proof
+      of concept by watching how long the php fpm children life span , should be relatively
+      high \nAlso through benchmarking mongo slow queries \nUsing mongo doesnt mean
+      it be super fast just by itself"
+    id: '1188625757843797'
+  - created_time: '2016-07-25T09:28:59+0000'
+    from:
+      name: Ahmed Mekkawy
+      id: '10155783123700239'
+    message: |-
+      Your problem is obviously in the PHP execution load, increasing the children will just kill your CPU. Only one of three methods to use IMHO, I suggest you use the three altogether:
+      1. Tune your code so it can perform better.
+      2. Leave this server, use cloud computing, choose a high CPU - low RAM provider, you can achieve that on Vultr or Softlayer, depends on your budget.
+      3. Tune your workers till you get close to 100% CPU load but the load average is between 1 and 2, and it stays stable for 10 minutes at least. This your maximum sustainable PHP process number on that code. Then you have to use aggressive caching: opcode caching, fragment caching, and full page caching. this link will help you with the latter:
+
+      http://nginx.org/en/docs/http/ngx_http_fastcgi_module.html#fastcgi_cache
+
+      If you need any further help feel free to ping me, or ping those guys, they are good: Spirula Systems
+    id: '1188831171156589'
+  - created_time: '2016-07-25T09:46:14+0000'
+    from:
+      name: Osama Mohamed
+      id: '1031877253626444'
+    message: Ahmed Mahfouz
+    id: '1188835461156160'
+  - created_time: '2016-07-25T09:59:50+0000'
+    from:
+      name: Ahmed Mahfouz
+      id: '10215133032616444'
+    message: "you are right about php-fpm , as nginx is just a proxy for it \nyou
+      can sit this for php_fpm .\nworker_processes = number of cpu cores \nworker_connections
+      = 1024\nmax_children = divided total memory on this size actual size of php-fpm
+      process take \nalso mind the io performance \ngood luck"
+    id: '1188838841155822'
+  - created_time: '2016-07-25T15:03:22+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: |-
+      انت ما اتكلمتش عن إعدادات ال php  اللي عندك مثل:
+      max_execution_time
+      max_input_time
+      memory_limit
+    id: '1188974077808965'
+  - created_time: '2016-07-25T19:55:06+0000'
+    from:
+      name: Ahmed Badawy
+      id: '1596110217148252'
+    message: لا مش طبيعي خالص.. طب جرب  علي اي جهاز تاني نفس ال config ده...
+    id: '1189118101127896'
+  - created_time: '2016-07-25T20:11:31+0000'
+    from:
+      name: Taha Amin
+      id: '10155815529215590'
+    message: Ahmed Marzouk يلا لينكاتك بقي
+    id: '1189123311127375'
+  - created_time: '2016-07-26T04:55:46+0000'
+    from:
+      name: Ahmed Gaber Elneel
+      id: '1552352001546794'
+    message: راجع الphp config يا برنس !!! عيب و الله الكلام اللي بتقوله ده -_-
+    id: '1189413287765044'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU0T0RJM01UZA3pORFUwTlRnMU5qb3hORFk1TXpZAMU1qSTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU0T1RReE16STROemMyTlRBME5Eb3hORFk1TlRBNE9UUTMZD

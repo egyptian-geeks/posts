@@ -1,0 +1,57 @@
+---
+message: "Hi guys, I need to implement asp identity with repository pattern,   unitofwork
+  \ and unity DI in MVC project \n\nWhat layers should I have and how they interact
+  with each other.\n\nThanks"
+from:
+  name: Ahmed Mostafa
+  id: '1463621953765328'
+type: status
+created_time: '2016-07-22T18:14:34+0000'
+updated_time: '2016-07-23T10:45:15+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1187195741320132/
+id: '172338516139198_1187195741320132'
+reactions:
+  data:
+  - id: '1061734923967862'
+    name: Amira Mohamed
+    type: LIKE
+  - id: '10155869338936136'
+    name: Mera Tag Eldin
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXpPVFF3T1RReU9USTRPakUwTmpreU5qTTNNREU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TnpNM016SXhNVE0xT2pFME5qa3lNVEV6TkRRNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-07-22T18:15:56+0000'
+    from:
+      name: Mera Tag Eldin
+      id: '10155869338936136'
+    message: F
+    id: '1187196101320096'
+  - created_time: '2016-07-23T02:13:41+0000'
+    from:
+      name: سامح دعبس
+      id: '2022490591345439'
+    message: |-
+      If you r using the default template created by visual studio, you will not need to do anything:)
+      You can find how this works by checking Account controller, using Authorize attribute, for exames.
+    id: '1187398157966557'
+  - created_time: '2016-07-23T02:16:59+0000'
+    from:
+      name: سامح دعبس
+      id: '2022490591345439'
+    message: No need for IoC/DI containers to get identity works
+    id: '1187399071299799'
+  - created_time: '2016-07-23T09:35:41+0000'
+    from:
+      name: Ahmed Mostafa
+      id: '1463621953765328'
+    message: I have an existing project,  Can I merge identity implementation with
+      the other or just use it as a separate part
+    id: '1187557554617284'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU0TnpFNU5qRXdNVE15TURBNU5qb3hORFk1TWpFeE16VTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU0TnpVMU56VTFORFl4TnpJNE5Eb3hORFk1TWpZAMk5UUXgZD

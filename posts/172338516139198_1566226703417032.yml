@@ -1,0 +1,85 @@
+---
+message: 'ياريت حد من الجماعة اللي بيشتغلوا Laravel يفتيني في هذا السؤال:
+
+'
+link: https://stackoverflow.com/questions/45469567/laravel-eloquent-where-pivot-null-or-less-than
+from:
+  name: Said Bakr
+  id: '10155965038378745'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQBicEnZEnV912SL&w=130&h=130&url=https%3A%2F%2Fcdn.sstatic.net%2FSites%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded&cfs=1&_nc_hash=AQDvsiX7ONHDf146
+created_time: '2017-08-02T19:39:36+0000'
+updated_time: '2017-08-02T20:24:29+0000'
+name: Laravel eloquent where pivot null or less than
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1566226703417032/
+id: '172338516139198_1566226703417032'
+reactions:
+  data:
+  - id: '10214843347173894'
+    name: Hesham Watany
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRFek1qazJPRGt6T0RveE5UQXhOek01TlRnd09qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRFek1qazJPRGt6T0RveE5UQXhOek01TlRnd09qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2017-08-02T19:46:39+0000'
+    from:
+      name: Mohamed Moneim
+      id: '2030441687177227'
+    message: "انا مشتغلتش لارفال بس اشتغلت Codeigniter \nبس اللي انت بتتكلم فيه اعتقد
+      ملوش دعوة بالفريم وورك استخدم time function not date"
+    id: '1566232073416495'
+  - created_time: '2017-08-02T19:56:15+0000'
+    from:
+      name: Mohammed Alaa El Komy
+      id: '1791452377571672'
+    message: "انا قريت من ال docs قريب و بس منفذتش منها كتير \nhttps://laravel.com/docs/5.4/queries#where-clauses\nكان
+      بيقارن التاريخ بدوال مختلفة اعتقد المشكلة فتمثيل التاريخ"
+    id: '1566238806749155'
+  - created_time: '2017-08-02T20:09:01+0000'
+    from:
+      name: Ahmed Ashraf
+      id: '930615110434715'
+    message: |-
+      Try Advanced where
+      ```
+      ->where(function ($q) {
+                          $q->where('closed',null)
+                            ->orWhere('closed','<',date('Y-m-d H:i:s'));
+                      })
+      ```
+    id: '1566247290081640'
+  - created_time: '2017-08-02T20:09:34+0000'
+    from:
+      name: Mohammed Ragab
+      id: '2020898428198432'
+    message: Ahmad Elmalah
+    id: '1566247660081603'
+  - created_time: '2017-08-02T20:24:27+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: الحمد لله يا جماعة الراجل اللي جاوب عى ستاك طلع كلامه مظبوط، انا بس ما
+      كنتش عملت dd() مظبوط للنتيجة بتاعة كلامه
+    id: '1566260260080343'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUyTmpJek1qQTNNelF4TmpRNU5Ub3hOVEF4TnpBek1UazUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUyTmpJMk1ESTJNREE0TURNME16b3hOVEF4TnpBMU5EWTMZD
+attachments:
+  data:
+  - description: 'I have timestamp field, named closed, in pivot table for Many to
+      Many relationship. I want to get items where closed is null or is less than
+      a specific time. I tried the following: // In model pub...'
+    media:
+      image:
+        height: 316
+        src: https://external.xx.fbcdn.net/safe_image.php?w=720&h=720&url=https%3A%2F%2Fcdn.sstatic.net%2FSites%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded&cfs=1&_nc_hash=AQA1OAigDZAOnGPS
+        width: 316
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F45469567%2Flaravel-eloquent-where-pivot-null-or-less-than&h=ATMYvyT51JBx_uPR7JKeoZaD20-5qNe3PAKil8wn8wQLVte-4pwsXZqqrQxNyBDSsm9TxwxC3CHZfCYS8u593NgrLwu2T4IIs68v&s=1&enc=AZPYPPgAIUX8A1Lf4EM6bPayWX6U9ppjBEnFx0IREfyW1Ltt8JnPQuHVFpI-K8qTif3VI-DAJyukz6F3iWIddfJo
+    title: Laravel eloquent where pivot null or less than
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F45469567%2Flaravel-eloquent-where-pivot-null-or-less-than&h=ATMYvyT51JBx_uPR7JKeoZaD20-5qNe3PAKil8wn8wQLVte-4pwsXZqqrQxNyBDSsm9TxwxC3CHZfCYS8u593NgrLwu2T4IIs68v&s=1&enc=AZPYPPgAIUX8A1Lf4EM6bPayWX6U9ppjBEnFx0IREfyW1Ltt8JnPQuHVFpI-K8qTif3VI-DAJyukz6F3iWIddfJo

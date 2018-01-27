@@ -1,0 +1,35 @@
+---
+message: How to stop charging my Azure virtual machine when there is no need to use
+  it for a period of time.
+from:
+  name: Mohammad Amer
+  id: '10214580441719850'
+type: status
+created_time: '2016-07-18T21:27:40+0000'
+updated_time: '2016-07-18T22:08:56+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1184644954908544/
+id: '172338516139198_1184644954908544'
+comments:
+  data:
+  - created_time: '2016-07-18T22:06:24+0000'
+    from:
+      name: Ahmed IG
+      id: '10159771703705265'
+    message: Stop it. But the network resources created to host the VM will still
+      consume a bit
+    id: '1184666688239704'
+  - created_time: '2016-07-18T22:08:56+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      Deallocate (just stopping it beyefdal 7agezlaha makan)
+      There is a button for than in portal, or from the CLI you can do:
+      azure vm deallocate <Resaource-Group> <VM-Name>
+      or from the powershell tools:
+      Stop-AzureVM <Resource-Group> <VM-Name> -Force
+    id: '1184667698239603'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU0TkRZAMk5qWTRPREl6T1Rjd05Eb3hORFk0T0RjNU5UZAzEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU0TkRZAMk56WTVPREl6T1RZAd016b3hORFk0T0RjNU56TTIZD

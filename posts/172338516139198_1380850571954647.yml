@@ -1,0 +1,80 @@
+---
+message: |-
+  للناس المهتمه بال password cryptography
+  انا قررت ماستخدمش scrypt لانه بيتسهلك resources كتير اوى فا لو مثلا فيه registration او login requests كتير ممكن يكلف بس بحاول اقارن ما بين ال bcrypt ولا argon2 ؟
+from:
+  name: Amgd Gocha
+  id: '10212650036184692'
+type: status
+created_time: '2017-02-07T00:43:01+0000'
+updated_time: '2017-02-09T12:26:40+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1380850571954647/
+id: '172338516139198_1380850571954647'
+reactions:
+  data:
+  - id: '1791258444267523'
+    name: Mostafa Elsayh
+    type: LIKE
+  - id: '10155426916839779'
+    name: Amr Medhat
+    type: LIKE
+  - id: '1593162530738796'
+    name: Ahmed Samer Zaid
+    type: LIKE
+  - id: '934408920094293'
+    name: Muhammad Ahmed Fares
+    type: LIKE
+  - id: '10156996105984325'
+    name: Mostafa El-Liethy
+    type: LIKE
+  - id: '2038408869766453'
+    name: Mahmoud Saad Abd-Elhares
+    type: LIKE
+  - id: '2055714914665556'
+    name: Mohamed Bakr
+    type: LIKE
+  - id: '1872433002767763'
+    name: Taghreed Mohammed Kamel
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhOVEF4TlRRek56WTNPakUwT0RZAMk56azVNVFk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXdNRE15TkRNd016SXhPakUwT0RZAME5UVTNOVGc2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-02-07T01:05:14+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: Use bcrypt with lots of iteration (50,000) at least and salting
+    id: '1380871125285925'
+  - created_time: '2017-02-07T03:07:04+0000'
+    from:
+      name: Amgd Gocha
+      id: '10212650036184692'
+    message: طيب و 50 الف iteration ماتبقاش costly اوى؟؟
+    id: '1380994045273633'
+  - created_time: '2017-02-07T09:26:43+0000'
+    from:
+      name: Fouad Abd ELrazek
+      id: '10215316053233596'
+    message: و الله انت لو شغال فى مشروع كبير ممكن تعمل custom algorithm تشتغل بيها
+    id: '1381242128582158'
+  - created_time: '2017-02-07T15:47:18+0000'
+    from:
+      name: Mohamed Oun
+      id: '10213382124519901'
+    message: 'You definitely shouldn''t roll your own algorithm. See this answer for
+      a very good view on storing passwords: http://security.stackexchange.com/questions/211/how-to-securely-hash-passwords/31846#31846'
+    id: '1381566261883078'
+  - created_time: '2017-02-07T17:05:33+0000'
+    from:
+      name: Andrew Raafat
+      id: '10156262041239286'
+    message: just out of curiosity/checking my info, why not do the hashing operation
+      client side and then send the hash only?
+    id: '1381618465211191'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE00TURnM01URXlOVEk0TlRreU5Ub3hORGcyTkRJNU5URTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE00TVRZAeE9EUTJOVEl4TVRFNU1Ub3hORGcyTkRnM01UTXoZD

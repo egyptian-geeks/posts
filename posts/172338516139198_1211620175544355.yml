@@ -1,0 +1,68 @@
+---
+message: "I thought main issue of SSH/or SSL matter is depended on DST problem (https://blog.omranic.com/lets-solve-egyptian-isp-dst-change-issues-d7e09b6ab700#.2ab9ing97)
+  \nmay a proof : I just trace our IP and hostname the trace going outside egypt and
+  stalled and failed openSSH handshake in ip (10.36.11.69) thats owned by iana \"icann.org\"
+  (https://myip.ms/info/whois/10.36.11.69) which responsible in timezones configs
+  to linux machines and confused in past july from Egypt due to the DST cancellation
+  (http://mm.icann.org/pipermail/tz/2016-July/023851.html) \n- the ssh connections
+  with our router is succeed at once we reconfigure the time last week ,but today
+  it fails again. may but I just think the datetime in many of machines/or routers
+  which owned by Tedata not reconfigured yet.\nalso traced the tedate and had the
+  same timeout but reconnect with server localized in france \"may it is a proxy server\"
+  http://i.prntscr.com/382cbc06263e4c8ca72760eb3314f194.png\n--Note : if I'm wrong
+  with some points you have right to response"
+link: https://blog.omranic.com/lets-solve-egyptian-isp-dst-change-issues-d7e09b6ab700#.2ab9ing97
+from:
+  name: Mohamed Essam
+  id: '1546098432153196'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQA9_ZpODlP_sdAQ&w=130&h=130&url=https%3A%2F%2Fcdn-images-1.medium.com%2Fmax%2F1200%2F1%2AnqpzcEE4itcPWNaupMvZLg.png&cfs=1&_nc_hash=AQBViT0qXiBHF2bJ
+created_time: '2016-08-23T01:19:39+0000'
+updated_time: '2016-08-25T03:26:20+0000'
+name: Let’s Solve Egyptian ISP DST change issues — Abdelrahman Omran’s Blog
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1211620175544355/
+id: '172338516139198_1211620175544355'
+reactions:
+  data:
+  - id: '1188522861292728'
+    name: Raafat A. Issaq
+    type: LIKE
+  - id: '10156115350739764'
+    name: Mahmoud Tantawy
+    type: LIKE
+  - id: '1976373499069350'
+    name: Ahmed Bassell
+    type: LIKE
+  - id: '1012026932279218'
+    name: Ahmed Mohamed Abd El-Hamid
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTBNRFV3TnpZAM01EazFPakUwTnpJeE1URTNPRGs2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTBNVFUzTmpFeE5EVTVPakUwTnpFNU1qWTBOelU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-08-25T03:26:19+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: You are the most logical person speaking about this so far.
+    id: '1213666865339686'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl4TXpZAMk5qZAzJOVE16T1RZANE5qb3hORGN5TURrMU5UYzUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl4TXpZAMk5qZAzJOVE16T1RZANE5qb3hORGN5TURrMU5UYzUZD
+attachments:
+  data:
+  - description: I’m working in web development industry, and thus I’m trying here
+      to diagnose how this Daylight Saving Time change still affects me and…
+    media:
+      image:
+        height: 333
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQBki_aDGWW3ddg7&w=720&h=720&url=https%3A%2F%2Fcdn-images-1.medium.com%2Fmax%2F1200%2F1%2AnqpzcEE4itcPWNaupMvZLg.png&cfs=1&_nc_hash=AQDFw40IHVR9ERjQ
+        width: 333
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fblog.omranic.com%2Flets-solve-egyptian-isp-dst-change-issues-d7e09b6ab700%23.2ab9ing97&h=ATM6w_G5qSuAkGBZIsMiAq_c7491zHuiFLG6Fe0Yv5de80n6bcFi0CVGja3kVzuY-7oKmRXGFpyndDYM5DtML8NTU_GyWoegk6hM&s=1&enc=AZNy-6gHenVTnUQypdu3Rfc7HrL5U9qD8Q8q1KvEeYQ5VDIU-lZNebLz-XEk8aUuU3TpSS8dLxusedQdh8TzgHTb
+    title: Let’s Solve Egyptian ISP DST change issues — Abdelrahman Omran’s Blog
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fblog.omranic.com%2Flets-solve-egyptian-isp-dst-change-issues-d7e09b6ab700%23.2ab9ing97&h=ATM6w_G5qSuAkGBZIsMiAq_c7491zHuiFLG6Fe0Yv5de80n6bcFi0CVGja3kVzuY-7oKmRXGFpyndDYM5DtML8NTU_GyWoegk6hM&s=1&enc=AZNy-6gHenVTnUQypdu3Rfc7HrL5U9qD8Q8q1KvEeYQ5VDIU-lZNebLz-XEk8aUuU3TpSS8dLxusedQdh8TzgHTb

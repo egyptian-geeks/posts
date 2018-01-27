@@ -1,0 +1,57 @@
+---
+message: "سؤال بخصوص ال N-Tier\nفي التطبيقات القديمة (اللي فيها اتصال بقواعد البيانات
+  بشكل مباشر) كان عنا العمليات التالية عند جلب البيانات\n1. Open DB Connection 2.
+  Bring Data 3. Close DB Connection\nفي التطبيقات اللي بتستخدم Api صار عنا العمليات
+  التالية\n1. request 2. Open DB Connection 3. Bring Data \n4. Close DB Connection
+  5. Response\nبهالحالة صار عنا عمليات اضافية وبالتالي بطء اكبر في الحصول على البيانات\nفهل
+  التبرير الوحيد لهالموضوع هو الامان والتقسيم المنطقي؟ او هناك امور اضافية"
+from:
+  name: Mustafa Shaban
+  id: '1620710828023369'
+type: status
+created_time: '2017-05-10T07:16:55+0000'
+updated_time: '2017-05-10T08:53:00+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1478569605516076/
+shares:
+  count: 1
+id: '172338516139198_1478569605516076'
+reactions:
+  data:
+  - id: '1613620448660563'
+    name: Mohamed Bayomi
+    type: LOVE
+  - id: '10215352706918859'
+    name: Mohamed Ahmed Zidan
+    type: LIKE
+  - id: '10156214789922376'
+    name: Youhana Sobhy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdNemM0TmprMk5UYzJPakUwT1RRME5USXdNemM2TnpnNE5qUTRNRE0zT1RFek16RXkZD
+      after: TnpFMk1qUTNNemMxT2pFME9UUTBNRFE0TVRVNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-05-10T07:23:05+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: |-
+      ممكن يبقى عندك N-Tier من غير API Layer لو مش محتاجها، او حتى لو محتاجها مش ضروري ال Web Front End يستخدمها و ممكن بس تتاكد انك بتستخدم نفس ال Business Layer بينهم.
+      ال N-Tier مش بالضرورة كل Tier تبقى خدمة منفصلة، انت ممكن تفصل بينهم في مكتبات مختلفة داخل نفس الخدمة لو مش محتاج ده.
+    id: '1478572305515806'
+  - created_time: '2017-05-10T08:52:59+0000'
+    from:
+      name: Ahmed Nasr
+      id: '10155318238153927'
+    message: |-
+      عزيزي الموضوع متعلق أكتر بال portability لو صح اللفظ..انت محتاج طريقة واحدة لجلب البيانات أيا كان نوع الDB وأيا كانت لغة الكود..ده بيديك امكانات أعلى بالتأكيد..كمان مفيد لأن غالبا بيكون الquery builder سهل القراءة وبالتالي سهل انك ترجع تعدله وتصححه..
+
+      طبعا الأمان اللي بتوفره ضروري ومهم لسبب بسيط انه ال logic tier بتكون مجربة ومعروفة وثغراتها أقل ما يمكن بخلاف ما لو قررت تكتب انت اتصال بالداتابيز ساعاتها ممكن جدا تظهر عندك ثغرات متعرفهاش..
+
+      اجمالا حاول دايما في المشاريع العادية اللي بتعملها للناس انك تلتزم بالاستاندردز لأن الحاجات دي اتحطت لسبب :)
+    id: '1478631525509884'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEzT0RVM01qTXdOVFV4TlRnd05qb3hORGswTkRBd09UZAzEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEzT0RZAek1UVXlOVFV3T1RnNE5Eb3hORGswTkRBMk16YzUZD

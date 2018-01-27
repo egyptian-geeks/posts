@@ -1,0 +1,100 @@
+---
+message: Disk IO is a big bottleneck, here is how to speed it up a little bit
+link: http://devmasr.com/blog/2016/c_is_faster_than_d/
+from:
+  name: Mohammad Fouad
+  id: '10155755444625845'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQCoq4WyMpURHgzD&w=130&h=130&url=http%3A%2F%2Fdevmasr.com%2Fblog%2Fwp-content%2Fuploads%2F2016%2F02%2Fclip_image007_thumb.jpg&cfs=1&_nc_hash=AQDpPPOxeLKk9J0d
+created_time: '2016-02-23T10:24:32+0000'
+updated_time: '2016-02-24T13:44:16+0000'
+name: You are using your Hard Drive wrong, C is faster than D! - DevMasr
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1085155104857530/
+id: '172338516139198_1085155104857530'
+reactions:
+  data:
+  - id: '1487671784675336'
+    name: Mohamad Emad
+    type: LIKE
+  - id: '10155765895645339'
+    name: Ahmed Akram
+    type: LIKE
+  - id: '10156284492809497'
+    name: Ahmed Hassan
+    type: LIKE
+  - id: '10214861141222529'
+    name: Abdelrady Fcis
+    type: LIKE
+  - id: '10214772358880258'
+    name: Ahmed Ahmed
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlPVGMxT0RjM05qZAzFPakUwTlRZAeU5UQTNPRGs2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRFMk16YzJNakkyTlRveE5EVTJNakkwTkRZANU9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2016-02-23T10:30:34+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: Just use SSD
+    id: '1085156918190682'
+  - created_time: '2016-02-23T12:53:23+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: I kind of assumed that the data would be more spread out at the outer
+      circles, after all, people talk about "sectors" on a disk, and in geometry sectors
+      are arks on a circle defined by their angle (not length), so this is why I made
+      that assumption. Apparently I was wrong :D
+    id: '1085212421518465'
+  - created_time: '2016-02-23T14:40:18+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: reminds me of  an introduction to PC course I did at IBM back in 1993
+      :)
+    id: '1085252264847814'
+  - created_time: '2016-02-23T18:07:50+0000'
+    from:
+      name: Mohamad Emad
+      id: '1487671784675336'
+    message: 'Linux #لا_تكلمني'
+    id: '1085350264838014'
+  - created_time: '2016-02-23T21:42:01+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: Putting data in the same partition as the OS will cause fragmentation,
+      which will considerably increase disk read time
+    id: '1085462771493430'
+  - created_time: '2016-02-24T00:00:25+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: The instructor explained this concept in the  introduction to PC course
+      and the students complained that he was wasting their time with useless information
+      :) I guess I could say that I was hurt more by ignorant people than I was ever
+      hurt by evil ones. In fact, evil ones could do good things sometimes, but the
+      ignorant, they are like Zombies infected with a virus, they are like the undead
+      :)
+    id: '1085519128154461'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE0TlRFMU5qa3hPREU1TURZANE1qb3hORFUyTWpJek5ETTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE0TlRVeE9URXlPREUxTkRRMk1Ub3hORFUyTWpjeU1ESTEZD
+attachments:
+  data:
+  - description: On which partition you put your files will affect how fast you can
+      access them. You can get more speed from your old Hard Disk Drive.
+    media:
+      image:
+        height: 398
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQACr9HXr8qkVkJb&w=720&h=720&url=http%3A%2F%2Fdevmasr.com%2Fblog%2Fwp-content%2Fuploads%2F2016%2F02%2Fclip_image007_thumb.jpg&cfs=1&_nc_hash=AQAwt4L5Fm9ey1ne
+        width: 398
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fdevmasr.com%2Fblog%2F2016%2Fc_is_faster_than_d%2F&h=ATPWQ_FVUdG8YblMAB_wHs952pJ-ZVvQnHwVJiJohajCfKHwrz_hbT1DSZfVGh5SjDz1kBRb3oT5hkzrZ_V6eniD5NEqRNse3w9o&s=1&enc=AZMp9qIjKru6jsZ7xB6h1lYdUfqjGBY078P9ax7zvWB6QCnd7J_SzQrvj4M4fWNRLMIhBtxGhqTCEq00FRwUKJUO
+    title: You are using your Hard Drive wrong, C is faster than D! - DevMasr
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fdevmasr.com%2Fblog%2F2016%2Fc_is_faster_than_d%2F&h=ATPWQ_FVUdG8YblMAB_wHs952pJ-ZVvQnHwVJiJohajCfKHwrz_hbT1DSZfVGh5SjDz1kBRb3oT5hkzrZ_V6eniD5NEqRNse3w9o&s=1&enc=AZMp9qIjKru6jsZ7xB6h1lYdUfqjGBY078P9ax7zvWB6QCnd7J_SzQrvj4M4fWNRLMIhBtxGhqTCEq00FRwUKJUO

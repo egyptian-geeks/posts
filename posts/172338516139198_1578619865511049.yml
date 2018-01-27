@@ -1,0 +1,50 @@
+---
+from:
+  name: Ahmed Saleh
+  id: '10159933379005574'
+type: status
+created_time: '2017-08-13T22:50:54+0000'
+updated_time: '2017-08-13T22:50:54+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1578619865511049/
+id: '172338516139198_1578619865511049'
+reactions:
+  data:
+  - id: '1999765416908747'
+    name: Ahmed Khalifa
+    type: LIKE
+  - id: '1821918031216201'
+    name: Muhamad Omar
+    type: LIKE
+  - id: '1236772519787604'
+    name: Mohamed Eid
+    type: LIKE
+  - id: '1746156678778631'
+    name: Islam Redhat
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTJNalU1TWpNNE9EVXlPakUxTURJMk5qY3hNelk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXhOVEk1TkRnM01UZAzVPakUxTURJMk5qUTJPRGs2TWpVME1EazJNVFl4TXc9PQZDZD
+attachments:
+  data:
+  - description: "Tips and Tricks of Game Programming for Mobile Platforms and Low
+      End Devices. \n\nWith games such as Final Fantasy and Parasite Eve, both created
+      by Square Co., Ltd., you can enjoy the beauty of pre-rendered background images
+      while at the same time, use 3-D models in the game. Mixing 2-D and 3-D graphics
+      has been a highly guarded secret of game companies, and it’s a secret that’s
+      worth exposing.\nFor developing Unity/Unreal engine games for mobile phones,
+      it's challenging to work for low end devices with low GPU capabilities. \nThe
+      idea is to a draw a pre-rendered 3D Image (2D) of the scene that you want to
+      create. Use a highly detailed pre-rendered backdrop and a simplified version
+      of the mesh that you used to render the scene in the 3-D modeler. Use the mesh
+      to render out the Z-values and for collision detection. Three-dimensional objects
+      can then rely on the Z-buffer to handle drawing the right depth."
+    media:
+      image:
+        height: 405
+        src: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/20785833_10159202429195574_6308646507280579148_o.jpg?oh=cdabdc29ece622a41f066564d5783e36&oe=5AF044A3
+        width: 720
+    target:
+      url: https://www.facebook.com/photo.php?fbid=10159202429195574&set=p.10159202429195574&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=10159202429195574&set=p.10159202429195574&type=3

@@ -1,0 +1,137 @@
+---
+message: |-
+  خلاص فل، بما ان ransomwares كتير لما تبدا ت execute بتـ generate ال public/private key pair في الmemory، فنستغل Meltdown باننا نـlog ال pairs دي اول ما تـتgenerate.
+
+  #adding_insult_to_injury
+  بس insult حلوة
+from:
+  name: Abdelrhman Shawky
+  id: '10213017755051330'
+type: status
+created_time: '2018-01-05T09:56:49+0000'
+updated_time: '2018-01-07T10:50:42+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1712648135441554/
+id: '172338516139198_1712648135441554'
+reactions:
+  data:
+  - id: '10155173051963199'
+    name: Pola Ashraf
+    type: HAHA
+  - id: '1937368159611054'
+    name: Ahmed Sherif
+    type: LIKE
+  - id: '10155334178733932'
+    name: Mohammed Ammer
+    type: HAHA
+  - id: '2012132359064709'
+    name: Mohamed Ragab
+    type: LIKE
+  - id: '1662566640445817'
+    name: Mesh Ebrahem Hegazy
+    type: LIKE
+  - id: '1012026932279218'
+    name: Ahmed Mohamed Abd El-Hamid
+    type: LIKE
+  - id: '10156129652479747'
+    name: Radwa Kamal
+    type: HAHA
+  - id: '1696234727103701'
+    name: Amin Ahmed
+    type: LIKE
+  - id: '10210891626347803'
+    name: Nour Sherif Serry
+    type: HAHA
+  - id: '545884762441584'
+    name: Ahmad Tawila
+    type: LIKE
+  - id: '2112734515623407'
+    name: Mohamed Elghobaty
+    type: HAHA
+  - id: '1608327662579661'
+    name: Karim Shoair
+    type: HAHA
+  - id: '10156278338768296'
+    name: Mohammed Gamal
+    type: HAHA
+  - id: '10214796374519514'
+    name: Islam AbdelMohaimen Hassan
+    type: HAHA
+  - id: '1789041438064902'
+    name: Mahmoud Hard
+    type: LIKE
+  - id: '1673431476060100'
+    name: Ahmed Khaled
+    type: LIKE
+  - id: '10156122235026834'
+    name: Ahmed Atef
+    type: HAHA
+  - id: '1985598625095777'
+    name: Ahmad Bahaa
+    type: LIKE
+  - id: '10156115350739764'
+    name: Mahmoud Tantawy
+    type: LIKE
+  - id: '1556036221100210'
+    name: Yahya ElGayar
+    type: LIKE
+  - id: '1814782285240218'
+    name: Mohammed Shahien
+    type: LIKE
+  - id: '10214861141222529'
+    name: Abdelrady Fcis
+    type: LIKE
+  - id: '10155827364301005'
+    name: Abdelrahman Ghareeb
+    type: HAHA
+  - id: '1565890746851606'
+    name: Angham Mohamed
+    type: LIKE
+  - id: '10155906116946287'
+    name: Mohamed Ashraf
+    type: LIKE
+  paging:
+    cursors:
+      before: TnpNNU5USXpNVGs0T2pFMU1UVXpNRGs0TWprNk56ZAzROalE0TURNM09URXpNekV5
+      after: TnpBME1UVXhNamcyT2pFMU1UVXhORGMwTmpnNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2018-01-05T09:58:03+0000'
+    from:
+      name: Mohamed Fergany
+      id: '10215339863195300'
+    message: طب ما اهو اخر ransomwar عملوا معاه كدا
+    id: '1712648972108137'
+  - created_time: '2018-01-05T09:58:21+0000'
+    from:
+      name: Ayman Bahaa
+      id: '10155364937867549'
+    message: |-
+      هو فعلا الحل إنك تجيب زوج المفاتيح من الذاكرة مباشرة
+      مش محتاج الكاش على فكرة
+    id: '1712649168774784'
+  - created_time: '2018-01-05T11:08:45+0000'
+    from:
+      name: Ahmed Shehata
+      id: '10156050513848685'
+    message: ما تحاول تكتب البوست كله انجلش، أريح للعين
+    id: '1712696072103427'
+  - created_time: '2018-01-05T13:37:27+0000'
+    from:
+      name: Mohamed A. Baset
+      id: '2088941797787563'
+    message: "انا لو ransomware author هنزلك باتش ال meltdown و spectre وبعدها اجينيريت
+      ال pair of keys وربنا يقدرنا علي فعل الخير \U0001F923\U0001F923\U0001F923"
+    id: '1712806048759096'
+  - created_time: '2018-01-07T10:50:29+0000'
+    from:
+      name: Mohamed Shaaban
+      id: '10156259295924301'
+    message: |-
+      Talking about ransomware
+
+      https://youtu.be/624S9ly09Xk
+    id: '1714898771883157'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN4TWpZAME9EazNNakV3T0RFek56b3hOVEUxTVRRMk1qZAzAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN4TkRnNU9EYzNNVGc0TXpFMU56b3hOVEUxTXpJeU1qTXkZD

@@ -1,0 +1,54 @@
+---
+message: |-
+  I have a simple question (maybe with some bad intentions ?)
+  It's about Yarn (the new Facebook package manager)
+  Why didn't Facebook simply contributed to NPM ? Isn't it the whole idea of OSS ?
+  Which lead to another question: When should OSS contributors/devs decide to contribute to an existing projects or to start their own ?
+from:
+  name: Muhammad Saleh
+  id: '10156649659196002'
+type: status
+created_time: '2016-10-16T14:34:13+0000'
+updated_time: '2016-10-16T16:27:45+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1259731787399860/
+id: '172338516139198_1259731787399860'
+reactions:
+  data:
+  - id: '10155815529215590'
+    name: Taha Amin
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpFd09EYzFOVGc1T2pFME56WTJPRGN6TWpNNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TmpFd09EYzFOVGc1T2pFME56WTJPRGN6TWpNNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-10-16T14:37:59+0000'
+    from:
+      name: Ahmed Adel Hossny
+      id: '1996970190329577'
+    message: They mentioned that they tried to fix the problems in npm but that didn't
+      help them
+    id: '1259733874066318'
+  - created_time: '2016-10-16T14:38:28+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: |-
+      Forks are very common in OS projects. If you don't agree with the vision and the roadmap of a project why do you invest time fighting the system when you can start your own path?
+      We've witnessed that happening a lot ... I remember back in 2006 when the whole team on Mambo (an OS CMS popular by this time) forked it and founded Joomla cause they didn't agree with the company running the business ...
+      From my understanding, Yarn introduce a lot of modification to how the packaging system, netweking an caching work ... It's simply too hard to force NPM to follow what they believe in.
+    id: '1259734164066289'
+  - created_time: '2016-10-16T16:27:43+0000'
+    from:
+      name: Mahmoud Hossam
+      id: '1360912124012585'
+    message: |-
+      npm needs to be shot in the face, along with its community.
+
+      Facebook are just trying to find some middle ground to keep their js mammoth running.
+    id: '1259851520721220'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkxT1Rjek16ZAzNOREEyTmpNeE9Eb3hORGMyTmpJNE5qZA3cZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkxT1RnMU1UVXlNRGN5TVRJeU1Eb3hORGMyTmpNMU1qWXoZD

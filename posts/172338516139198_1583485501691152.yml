@@ -1,0 +1,104 @@
+---
+message: "Hi all,\n\nI have a moderately-sized code base for a software that controls
+  an imaging system in my lab (some hardware control for scanning and acquisition,
+  and then some processing, file I/O, and display). It works. There are some bugs,
+  but we learned our way around them. I had to tweak it a bit to be able to acquire
+  at full speed (~ 4 GB/s), so we stream to RAM first, and copy to disk after an acquisition
+  session is done.  \n\nThe software is not user-friendly, and the code (written entirely
+  in C++ and windows forms) is nowhere near beginner-friendly. \n\nNow, I wanted to
+  address those two issues. I'm considering two approaches here:\n1- Rewrite in C#,
+  reverting to C or C++ in whatever parts that might need the extra speedup.\n2- Refactor
+  the C++ code, with the caveat that some things will need to be completely redesigned
+  (such as how the different forms are generated). \n\nWhich would you recommend and
+  why?"
+from:
+  name: Mohamed Tarek El Haddad
+  id: '10159750515025408'
+type: status
+created_time: '2017-08-18T19:12:39+0000'
+updated_time: '2017-08-19T15:47:47+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1583485501691152/
+id: '172338516139198_1583485501691152'
+reactions:
+  data:
+  - id: '10155828600595289'
+    name: Ahmed Mohamed Aly
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpFeU1EY3dNamc0T2pFMU1ETXdPRFUwTmpBNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TmpFeU1EY3dNamc0T2pFMU1ETXdPRFUwTmpBNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-08-18T19:43:50+0000'
+    from:
+      name: Ahmed Mohamed Aly
+      id: '10155828600595289'
+    message: Why not Qt with second option
+    id: '1583524475020588'
+  - created_time: '2017-08-18T19:44:17+0000'
+    from:
+      name: Mohamed El-Shahawi
+      id: '2760687167500624'
+    message: My Suggestion, i'd rewrite GUI in C# WPF/WinForms because GUIs in C++
+      is a hell. And leave the Core in C++ and use it as a library.
+    id: '1583524861687216'
+  - created_time: '2017-08-18T19:59:07+0000'
+    from:
+      name: Mahmoud Kandil
+      id: '10214343099918744'
+    message: |-
+      For me Option 2 is more secure for the core.
+      How much frequent do you need to update that code base ?
+      if it's very frequent try to do some analysis from your source-control history to be able to determine the bottleneck parts.
+      maybe only certain parts or files that need to be refactored.
+      If you are updating the UI a lot try to separate the core from the UI to be able to migrate to more GUI friendly environment.
+    id: '1583533828352986'
+  - created_time: '2017-08-18T20:35:52+0000'
+    from:
+      name: Fadi Sami
+      id: '10160311591965713'
+    message: Qt needs one or two days to learn the basics. Qt MVC is very powerful
+      and u can very easily integrate the UI with ur code base.
+    id: '1583556521684050'
+  - created_time: '2017-08-18T21:15:26+0000'
+    from:
+      name: Tony Raoul Iscaros
+      id: '10156165643313420'
+    message: |-
+      2 any gui framework can make your life much easier.
+      You even can make the gui layer in web warper that calls c++ code.
+    id: '1583578025015233'
+  - created_time: '2017-08-18T21:28:01+0000'
+    from:
+      name: Yousef Hamza
+      id: '10155476910093471'
+    message: "I would say 2 \U0001F44D"
+    id: '1583585178347851'
+  - created_time: '2017-08-18T21:51:25+0000'
+    from:
+      name: Ahmed Samir
+      id: '10159800858645702'
+    message: I second the QT option based on personal experience. It's easy to learn
+      and stable, and lets you reuse your C++ skill.
+    id: '1583598238346545'
+  - created_time: '2017-08-18T23:03:56+0000'
+    from:
+      name: Mohammad Fouad
+      id: '10155755444625845'
+    message: |-
+      Option 2 with C# WinForms
+      1- Organize your C++ code
+      2- Add a Managed C++ layer in the middle to wrap the C++ library and expose a Managed Class to the C# code
+      3- Write WindowsForms in C# and call the Managed Class
+    id: '1583635998342769'
+  - created_time: '2017-08-19T03:15:44+0000'
+    from:
+      name: Mohamed Tarek El Haddad
+      id: '10159750515025408'
+    message: Thanks a lot everyone!
+    id: '1583802021659500'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU0TXpVeU5EUTNOVEF5TURVNE9Eb3hOVEF6TURnMU5ETXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU0TXpnd01qQXlNVFkxT1RVd01Eb3hOVEF6TVRFeU5UUTAZD

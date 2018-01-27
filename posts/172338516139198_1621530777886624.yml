@@ -1,0 +1,88 @@
+---
+message: "هو انا لو عاوز امثل التقييم للسواق ذى اللى فى اوبر فى database بحيث كل level
+  of rate  لية attribute مختلف وممكن تزيد ال attribute كل فترة \nاللى فكرت فية انى
+  اضيف التقييم على التوصيلة على شكل column وهعمل seperation بين ال attribute بس لو
+  عاوز اعمل retrival for average of rate لكل سواق كدة هضطر اعمل computation لكل record
+  اللى فية السواق دة عمل توصيلة فدة load اية الحل الاحسن ؟؟؟ \n\nتعديل :- \nاقصد rate
+  على ال attribute نفسة يعنى السواقة كام من 5 حسن المظهر كام من 5 وهكذا"
+from:
+  name: Ahmed Abo Mazin
+  id: '1758521440903748'
+type: status
+created_time: '2017-10-01T14:30:26+0000'
+updated_time: '2017-10-02T04:19:32+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1621530777886624/
+shares:
+  count: 1
+id: '172338516139198_1621530777886624'
+reactions:
+  data:
+  - id: '10211509160147894'
+    name: Ehab Hamdy
+    type: LIKE
+  - id: '1354929151318489'
+    name: عمار السيد
+    type: LIKE
+  - id: '1978556165731463'
+    name: Amr Almgwary
+    type: LIKE
+  - id: '1619555288125278'
+    name: Amr Emaish
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRNek1EY3pNVFl6TXpveE5UQTJPRGc0T1RNeU9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBd01EQXlNVEkwTmpjMk1UYzNPakUxTURZANE5qazJNVGc2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-10-01T14:33:34+0000'
+    from:
+      name: Ahmed Elsayed Shahawi
+      id: '744364165648487'
+    message: |-
+      Database Denormalization ?
+      https://en.wikipedia.org/wiki/Denormalization
+    id: '1621536801219355'
+  - created_time: '2017-10-01T14:36:19+0000'
+    from:
+      name: Ramy Tamer
+      id: '2020727481277546'
+    message: ممكن ت cache و ممكن تعمل column في table السواقين فيه اا rate ، بعد كل
+      تقييم تحسبه مرة واحدة و ت update rate column in drivers table ولما تقراه تقرا
+      المحسوب already
+    id: '1621538544552514'
+  - created_time: '2017-10-01T14:36:55+0000'
+    from:
+      name: Mahmoud Shawara
+      id: '1883117701730825'
+    message: "v =avg for n rates \nx is new rate\nnewAvg= v*n/(n+1) + x/(n+1)"
+    id: '1621538954552473'
+  - created_time: '2017-10-01T15:00:51+0000'
+    from:
+      name: Mahmoud Ow
+      id: '561900310821366'
+    message: فى كل مره عميل يعمل فوت يتعمل حساب المتوسط بالقيم الجديده و يكون فى خانه
+      مخصصه للمتوسط لما العميل يعمل فوت يتم الحساب و تحديث بيانات خانه المتوسط وبكدا
+      هتفكك اللود و لما تحب تجيب المتوسط هتعمل ريكوست مباشر لخانه المتوسط
+    id: '1621557444550624'
+  - created_time: '2017-10-01T15:44:07+0000'
+    from:
+      name: Ahmed Eid
+      id: '762135870664322'
+    message: |-
+      ممكن تعمل table كده شايل id السواق و عدد الرحلات ومجموع التقييمات ...
+      ومع كل رحلة جديده تزود القيم على الtable ده .. ولما تعوز الaverage .. اقسم المجموع على العدد ..
+      بس طبعا ده يفضل يكون ف keyvalue store او cache
+    id: '1621585307881171'
+  - created_time: '2017-10-01T20:29:20+0000'
+    from:
+      name: Ahmed Koraïem
+      id: '10159879865770402'
+    message: |-
+      لو هتستعمل NoSQL ممكن تعمل computed property
+      لو هتستعمل حاجة relational ممكن تعمل view يحسب الريتينج بتاع كل سواق وتحط فيه أوزان للزمن كمان .
+    id: '1621786394527729'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl5TVRVek5qZA3dNVEl4T1RNMU5Ub3hOVEEyT0RZANE5ERTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl5TVRjNE5qTTVORFV5TnpjeU9Ub3hOVEEyT0RnNU56WXcZD

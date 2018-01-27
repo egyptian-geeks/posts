@@ -1,0 +1,75 @@
+---
+message: "أنا عندي مشكلة ومش عارف سببها\nأنا كنت بقدر أعمل connect على ال vpn بتاع
+  الشركة من غير ما النت يفصل عندي ، مش عارف ايه اللي اختلف ودلوقتي لازم النت يفصل
+  لما أكون connected بال vpn \nمش عارف دي من ال Internet Service provider ولا من ال
+  OS ولا اعدادت من السيرفر نفسه \nجربت ال command ده وبردو الدنيا مش شغالة\nSet-VpnConnection
+  \"VPN Connection Name\" -SplitTunneling $true\n\nأي اقتراح ؟"
+from:
+  name: Mahmoud Nawwar
+  id: '1560359927364731'
+type: status
+created_time: '2017-11-10T10:51:26+0000'
+updated_time: '2017-11-11T05:06:00+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1657890020917366/
+id: '172338516139198_1657890020917366'
+reactions:
+  data:
+  - id: '10159859491265721'
+    name: Nader Nabil
+    type: LIKE
+  - id: '1723960827662084'
+    name: Muhammad Refaat
+    type: LIKE
+  paging:
+    cursors:
+      before: T0RZAeE56UTFOekl3T2pFMU1UQXpOVEF5TWpRNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQXhORFExTlRFd016TTVPakUxTVRBek1URXhNVGs2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-11-10T12:28:51+0000'
+    from:
+      name: Muhammad Saleh
+      id: '10156649659196002'
+    message: mo3zam el vpn ma2fool f masr
+    id: '1657981290908239'
+  - created_time: '2017-11-10T12:38:44+0000'
+    from:
+      name: Alaa Ezzat
+      id: '10156074051141565'
+    message: |-
+      غالبا كونفجريشن من الشركه نفسها
+      انا شركتي برضه كانت بتعمل كده
+    id: '1657990227574012'
+  - created_time: '2017-11-10T13:13:39+0000'
+    from:
+      name: Ahmed Shawky
+      id: '10205205301673812'
+    message: تستخدم OSX ?? نفس المشكلة بتحصل معايا
+    id: '1658011660905202'
+  - created_time: '2017-11-10T13:17:15+0000'
+    from:
+      name: Mohamed Hamza
+      id: '1780939041979216'
+    message: حصلت مع ناس عندنا برضه اغلب ظني انه من إعدادات الVPN نفسه والله اعلم
+      عشان ماحصلتش معايا شخصيًا.
+    id: '1658017180904650'
+  - created_time: '2017-11-10T14:30:57+0000'
+    from:
+      name: Hadi Salem
+      id: '10156059281107389'
+    message: "Most probably this is a VPN configuration, but there might be some workarounds
+      \n1. If you have access to your local network while on VPN you can setup an
+      HTTP proxy server like squid.\n2. You can VPN from a virtual machine with bridged
+      network. Your host OS will have access to the internet"
+    id: '1658076307565404'
+  - created_time: '2017-11-11T05:04:28+0000'
+    from:
+      name: Mohammed Yassin
+      id: '2032504700100329'
+    message: "Option use default gateway when connected\nRemove check mark if selected
+      \nIn VPN adapter options"
+    id: '1658627964176905'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkxTnprNE1USTVNRGt3T0RJek9Ub3hOVEV3TXpFMk9UTXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkxT0RZAeU56azJOREUzTmprd05Ub3hOVEV3TXpjMk5qWTUZD

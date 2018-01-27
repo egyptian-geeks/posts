@@ -1,0 +1,67 @@
+---
+message: "i have some complex functions in my code that takes long time to being done
+  .. (complex operations and return Strings)\nbecause depending on machine resources
+  and the speed of internet  .. \nhow can i solve this prob. , i think may to run
+  this functions remotely in other machine at the internet like servers/cloud  and
+  return results that will need only a normal internet speed from users ??\nis that
+  true ?"
+from:
+  name: Abdullah Zaki
+  id: '1808169382560837'
+type: status
+created_time: '2017-07-06T17:22:22+0000'
+updated_time: '2017-07-07T02:06:38+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1539060589466977/
+id: '172338516139198_1539060589466977'
+reactions:
+  data:
+  - id: '1539856256110120'
+    name: Ahmed Magdy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlOVGN5T0RJeE9UZA3lPakUwT1Rrek5qUTNORGM2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlOVGN5T0RJeE9UZA3lPakUwT1Rrek5qUTNORGM2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-07-06T17:31:56+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: السؤال مبهم جدا. اعتقد صعب إن حد يقدر يساعد
+    id: '1539067669466269'
+  - created_time: '2017-07-06T17:37:56+0000'
+    from:
+      name: George Moheb
+      id: '10210440074417898'
+    message: |-
+      first thing before using any extra resources, try to optimize ur algorithms or queries this is the cheapest and most effective solution
+
+      then consider exploiting parallelism
+
+      then think about adding resources msh el 3aks
+    id: '1539071582799211'
+  - created_time: '2017-07-06T17:42:16+0000'
+    from:
+      name: Abdullah Zaki
+      id: '1808169382560837'
+    message: |-
+      functions:
+      scraping data from websites (iam using jSoup) and some of these website need login then scraping data (cannot do it with jSoup , so iam trying with selenium)
+      all these operations take long time ..
+    id: '1539074739465562'
+  - created_time: '2017-07-06T19:31:15+0000'
+    from:
+      name: سامح دعبس
+      id: '2022490591345439'
+    message: "1- Your problems could be summarized in that your application is waiting
+      for responses from remote sites, and in this case you need to make use of async
+      programming, I am not sure to what extent it is supported in java, but it exists
+      in .net.\n2- Also, if you already know the pages, try to cache the results somewhere.\n3-
+      multithreading/parallel programming will help if parsing the pages take too
+      much time, which I don't is your case. \n4- going cloud will cost you $$$$"
+    id: '1539164796123223'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV6T1RBMk56WTJPVFEyTmpJMk9Ub3hORGs1TXpZAeU16RTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV6T1RFMk5EYzVOakV5TXpJeU16b3hORGs1TXpZANU5EYzEZD

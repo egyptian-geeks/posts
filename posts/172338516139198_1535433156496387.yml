@@ -1,0 +1,102 @@
+---
+message: "السلام عليكم\nمعايا سيرفرات في بي اس السيرفر 64 جيجا رام\nعاوز اسطب عليه
+  proxmox عشان أنشأ vm كل واحدة منهم ويندوز\nالمشكلة لازم تعمل في اعدادات النيتورك
+  ip لكل vm \n** هنا مشكلتي بقي الشركة مطلعة عيني في حوار الايبهات\nومش عارف اجيب
+  ايبهات\nهل ممكن استخدام حيلة معينة اني اعمل forward او اللعب في dns واستخدم خدمات
+  زي no-ip عشان اخلص من المشكله ديه.\n\nاتمني الي يقدر يساعدني يتفضل لان الموضوع عامل
+  لي ازمة ومحتاج احل الموضوع\n** مش شرط يكون الحل مدفوع لان الشركة نفسها بتوفر ايبهات
+  بس بيقولو في مشاكل في DHCP عندهم واحنا مستعجلين."
+from:
+  name: احمد قرواش
+  id: '1561022257326859'
+type: status
+created_time: '2017-07-03T06:54:31+0000'
+updated_time: '2017-07-03T16:27:13+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1535433156496387/
+id: '172338516139198_1535433156496387'
+reactions:
+  data:
+  - id: '1881330532179504'
+    name: Nour Sabry
+    type: LIKE
+  - id: '10154967235256415'
+    name: Moustafa Khairy
+    type: LIKE
+  - id: '1622655891122274'
+    name: Amr Fahmy
+    type: LIKE
+  - id: '548062595559343'
+    name: Ahmed EL-Metwally
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTVNRGMzTWpVMk56STFPakUwT1Rrek9EUTFOVGs2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01ERXdOalk0TWpFeU1ETXlPakUwT1Rrd05qWXlOelU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-07-03T06:57:28+0000'
+    from:
+      name: Mohamed Magdy
+      id: '10160022296715360'
+    message: طيب بما أنك لسه في البداية، ماتشوف شركة تانيه افضل؟
+    id: '1535434756496227'
+  - created_time: '2017-07-03T06:58:49+0000'
+    from:
+      name: احمد قرواش
+      id: '1561022257326859'
+    message: |-
+      للأسف شارين سيرفرات لمدة سنة كاملة
+      ومعانا سيرفرات كتيرة
+      هي مشكلتنا في الايبهات بس
+      احنا بنبي كل حاجة و بنعمل كل حاجة بنفسنا بس جزء ال IPs صدمنا
+    id: '1535435396496163'
+  - created_time: '2017-07-03T07:00:03+0000'
+    from:
+      name: Mohamed Magdy
+      id: '10160022296715360'
+    message: وديه مشكله مش صغيره، انت معاك 64 جيجا رام، يعني قول هتعمل حوالي 10 او
+      15 VM مثلاً، بس بخصوص حل بديل للأسف معنديش، بس أتوقع ممكن هنا حد يفيدك بفكرة
+      زي ما بيقولوا بره الصندوق
+    id: '1535435846496118'
+  - created_time: '2017-07-03T07:06:12+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "اعمل nat و port forwarding دى الفكرة عامة اللى تمشى وراها .. \nاعمل
+      سيرش بقى ازاى تعمل الكلام ده في الـ virtualization environment بتاعتك...\n\nقصة
+      no-ip دى لو معندكش دومين، انما لازم يكون في اي بي، ودى حاجة ودى حاجة.. \n\n
+      طبعا انت مش قادر توفر الـ dedicated ips فهتعمل الحركة بتاعت الnat دي، هتخلي
+      الـ vmـات بتاعتك جوة virtual local network وشايفة ال gateway بتاعها ب الاي بي
+      الريل الوحيد بتاع الـ vm الاصلية الكبيرة.. والـ nat بيحصل ما بينهم .."
+    id: '1535439059829130'
+  - created_time: '2017-07-03T07:17:01+0000'
+    from:
+      name: Marwan Nabil Baghdad
+      id: '1732181426802228'
+    message: I think you could setup an virtual network using ovs (open virtual switch)
+      and with port forwarding, i think this will solve it.
+    id: '1535445799828456'
+  - created_time: '2017-07-03T07:18:12+0000'
+    from:
+      name: سامح الفرع
+      id: '10156160217764777'
+    message: https://kb.iweb.com/hc/en-us/articles/230239528
+    id: '1535446316495071'
+  - created_time: '2017-07-03T07:19:21+0000'
+    from:
+      name: سامح الفرع
+      id: '10156160217764777'
+    message: https://forum.proxmox.com/threads/multiple-public-ip-help-plz.13832/
+    id: '1535447329828303'
+  - created_time: '2017-07-03T16:27:10+0000'
+    from:
+      name: Mohamed Radwan
+      id: '10159976552365192'
+    message: |-
+      Nat
+      تقدر تحلها بيه
+    id: '1535842986455404'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV6TlRRek5EYzFOalE1TmpJeU56b3hORGs1TURZAMU1EUTUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV6TlRnME1qazROalExTlRRd05Eb3hORGs1TURrNU1qTXgZD

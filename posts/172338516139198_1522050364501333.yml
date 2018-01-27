@@ -1,0 +1,60 @@
+---
+message: "I need someone can guide me to simplify JavaScript promises and Deferred
+  objects for me to be able to understand them properly\nI went through articles and
+  videos but still not confident  \nAnyone can help?!"
+from:
+  name: Ahmed Said
+  id: '10157203333609498'
+type: status
+created_time: '2017-06-20T22:34:32+0000'
+updated_time: '2017-06-21T19:41:47+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1522050364501333/
+id: '172338516139198_1522050364501333'
+reactions:
+  data:
+  - id: '10155638727450376'
+    name: Ahmed Magdy
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRRNU1qTXdNemMxT2pFME9UZA3dNRE13TlRJNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRRNU1qTXdNemMxT2pFME9UZA3dNRE13TlRJNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-06-20T22:50:56+0000'
+    from:
+      name: Mahmoud Mohamed Zakria
+      id: '10215522601159616'
+    message: |-
+      Think of it like observer pattern your resolve fn is the dispatcher and then is the subscriber or listener.
+      Promises at the end is just passing fetched data or display error.
+    id: '1522060557833647'
+  - created_time: '2017-06-20T23:27:08+0000'
+    from:
+      name: Mohamed Shaaban
+      id: '10156259295924301'
+    message: "I cannot get you the answer right now, please give me your **number**
+      and I promise, I will **call you back**\n\nReplace **number ** by callback function,
+      and that's pretty much the promises \U0001F609"
+    id: '1522080957831607'
+  - created_time: '2017-06-20T23:54:54+0000'
+    from:
+      name: Mohamed Ehab
+      id: '790078684517700'
+    message: there was a whole course on udacity for promises if this might help
+    id: '1522102711162765'
+  - created_time: '2017-06-21T17:55:22+0000'
+    from:
+      name: Hesham Adel
+      id: '798912850310002'
+    message: "i am not a fan of making things easy you will not learn this way so
+      if i am going to help it will be my way which is i give you one peace of information
+      once you understand it i will give you another ... \nyou need to understand
+      how javascript work under the hood, \n\nlearn about the event loop and web api
+      then tell me what did you understand and i will give you the next peace of the
+      puzzle ...."
+    id: '1522848621088174'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV5TWpBMk1EVTFOemd6TXpZAME56b3hORGszT1RrNU1EVTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV5TWpnME9EWXlNVEE0T0RFM05Eb3hORGs0TURZAM056SXkZD

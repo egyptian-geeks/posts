@@ -1,0 +1,74 @@
+---
+message: |-
+  طيب يا جماعه اسفين على التاخير بس بشتغل على الموضوع في الويك اند بس :)
+  دلوقتي سمعت كلام الناس ونزلت ٣ في بي ان soft-etherr واضح ان معظم الخواص فيه جاهزه بس فيه حاجتين مهمين فاضلين:
+  ١- عاوز اعمل Auth على اساس ان الي داخل ده داخل من مصر
+  ٢- Load balancer
+  اي مساعدات افكار لينكات خصوصا لاول نقطه ؟
+link: https://www.facebook.com/groups/egyptian.geeks/permalink/1602652896441079/
+from:
+  name: Amir Abou Eesa
+  id: '1700979476627162'
+type: link
+picture: https://scontent.xx.fbcdn.net/v/t1.0-1/p100x100/22281970_1584102158314895_2504008711466439206_n.jpg?oh=04307c7dd5e445395470621ead316984&oe=5B1F3222
+created_time: '2017-09-15T21:11:38+0000'
+updated_time: '2017-09-16T16:29:59+0000'
+name: Amir
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1608283012544734/
+id: '172338516139198_1608283012544734'
+reactions:
+  data:
+  - id: '10214038659628102'
+    name: Hesham White
+    type: LIKE
+  - id: '10215443322775048'
+    name: Mohamad Ibn Osama
+    type: LIKE
+  - id: '578536342490916'
+    name: Pegade Shaheen
+    type: LIKE
+  - id: '867703936724322'
+    name: Mohamed Salah
+    type: LIKE
+  - id: '985760211591832'
+    name: Mohamed Redaa
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRRMU9UYzRNVFV6TkRveE5UQTFOVE0xT0RFeE9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBd01EQTBOek0xT0RZAeU56VXhPakUxTURVMU1UUXlNakk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-09-16T00:44:56+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: اول نقطة ممكن تتعمل من الfirewall ؟
+    id: '1608389442534091'
+  - created_time: '2017-09-16T02:17:50+0000'
+    from:
+      name: Ahmed Gaber Elneel
+      id: '1552352001546794'
+    message: "و ليه استقريتوا على VPN ؟! ليه تكعبلوا نفسكم في الdeployment و الuser
+      propagation ؟! \n\nفيه شئ اسمه SSH tunneling ... أي حد عنده أي سيرفر عليه SSH
+      يقدر يضيف passwordless user و يديله الshell بتاعته nologin \n\nuseradd tunnel
+      -s /usr/sbin/nologin -p '*' -d /var/tunnel\nmkdir -p /var/tunnel\nchown tunnel:tunnel
+      /var/tunnel/\nsed -i 's/^tunnel:\\*/tunnel:U6aMy0wojraho/g' /etc/shadow\n\nsed
+      -i 's/PermitEmptyPasswords no/PermitEmptyPasswords yes/g' /etc/ssh/sshd_config\n/etc/init.d/ssh
+      restart\n\nو بالنسبة للclient يقدر:\nssh -o UserKnownHostsFile=/dev/null -o
+      StrictHostKeyChecking=no -N \"$USER\"@\"$i\" -D 8080\n\nو يحط في معلومات الproxy
+      بتاعت الOS بتاعه ان البروكسي Socks5 على 127.0.0.1:8080\n\nو اولريدي انا عامل
+      implementation لحاجة زي كده يجيب ليستة الSSH servers من صفحة فيس بوك بسيطة و
+      الclient بيتنقل بين الlists دي بshell script\nممكن اعمل السكريبت ده في gist
+      لو عايزه"
+    id: '1608442129195489'
+  - created_time: '2017-09-16T09:38:13+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: هل هنقدر نضيف كذا سيرفر مبنهم load balancer ?
+    id: '1608661429173559'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl3T0RNNE9UUTBNalV6TkRBNU1Ub3hOVEExTlRJeU5qazMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl3T0RZAMk1UUXlPVEUzTXpVMU9Ub3hOVEExTlRVME5qazAZD

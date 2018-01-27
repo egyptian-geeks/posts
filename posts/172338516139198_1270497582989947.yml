@@ -1,0 +1,73 @@
+---
+message: "Hi guys I have a server hosting multiple sites with nginx when I open the
+  server with the IP it opens the default website I wanna access other sites with
+  the IP not the domain  is this possible ? \nThanks in advance"
+from:
+  name: Muhammed Nagy
+  id: '495080930892199'
+type: status
+created_time: '2016-10-27T08:56:00+0000'
+updated_time: '2016-10-27T16:15:50+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1270497582989947/
+id: '172338516139198_1270497582989947'
+comments:
+  data:
+  - created_time: '2016-10-27T09:01:23+0000'
+    from:
+      name: Mahmoud Said
+      id: '10159871545170134'
+    message: update nginx configuration to change the default to the other site that
+      you want
+    id: '1270499909656381'
+  - created_time: '2016-10-27T09:02:10+0000'
+    from:
+      name: Mahmoud Said
+      id: '10159871545170134'
+    message: "or, if you have multiple sites and was then all to be accessible at
+      the same time,  you can use sub uri \n\nlocation /site1 {  }\nlocation /site2
+      {  }  and so on"
+    id: '1270500136323025'
+  - created_time: '2016-10-27T09:02:15+0000'
+    from:
+      name: Ammar Youssef
+      id: '10155097484932190'
+    message: |-
+      احد الحلول انك تستخدم virtual directory لكل ويب سايت
+      او port مختلف لكل ويب سايت
+    id: '1270500186323020'
+  - created_time: '2016-10-27T09:03:51+0000'
+    from:
+      name: Ammar Youssef
+      id: '10155097484932190'
+    message: يمكن تبحث عن alias nginx
+    id: '1270500906322948'
+  - created_time: '2016-10-27T09:13:34+0000'
+    from:
+      name: Mohamed Fawzy
+      id: '1773141282802951'
+    message: بتستعمل الpath تبع الملفات للمواقع المختلفه من ال default root dir اللي
+      الايبي بتاع السيرفر بيروح له
+    id: '1270506042989101'
+  - created_time: '2016-10-27T09:19:49+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: Ports or different directory for each site
+    id: '1270509806322058'
+  - created_time: '2016-10-27T10:31:59+0000'
+    from:
+      name: Ashraf Kaabi
+      id: '10156258607755921'
+    message: Edit ur hosts file and point any domain and tld you want to your server
+      ip so is gonna be accessible
+    id: '1270596076313431'
+  - created_time: '2016-10-27T11:13:58+0000'
+    from:
+      name: Mohamed El-Sayed
+      id: '10155182529813309'
+    message: ليه ؟
+    id: '1270642896308749'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkzTURRNU9Ua3dPVFkxTmpNNE1Ub3hORGMzTlRVNE9EZA3oZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkzTURZAME1qZAzVOak13T0RjME9Ub3hORGMzTlRZAMk9ETTUZD

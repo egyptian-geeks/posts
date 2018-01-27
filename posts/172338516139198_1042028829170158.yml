@@ -1,0 +1,33 @@
+---
+message: is there is a way to do UPNP through java script  ?  i have been searching
+  about this but the only implementations i could find ( like this one https://richtr.github.io/plug.play.js
+  ) are dependent on navigator.getNetworkServices API  which apparently is only supported
+  by opera now
+from:
+  name: Mohamed Abdel Aty
+  id: '10215620557573580'
+type: status
+created_time: '2015-12-07T22:43:35+0000'
+updated_time: '2015-12-16T04:33:33+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1042028829170158/
+id: '172338516139198_1042028829170158'
+comments:
+  data:
+  - created_time: '2015-12-09T19:02:39+0000'
+    from:
+      name: Mohamed Abdel Aty
+      id: '10215620557573580'
+    message: "ايه الصحرا دى \U0001F600"
+    id: '1042827822423592'
+  - created_time: '2015-12-16T04:33:32+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      all I know is that UPnP is an XML-based API used by programs to configure temporary port forwarding on a router.
+      I once sniffed the packets and looked at that XML and it didn't look very complicated, so it might not be that hard to implement your own?
+    id: '1045713898801651'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEEwTWpneU56ZA3lNalF5TXpVNU1qb3hORFE1TmpnM056VTUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEEwTlRjeE16ZAzVPRGd3TVRZAMU1Ub3hORFV3TWpRd05ERXoZD

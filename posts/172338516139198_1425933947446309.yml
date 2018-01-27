@@ -1,0 +1,130 @@
+---
+message: حد يعرف random number generator افضل من UUID بالنسبه ل java ؟
+from:
+  name: Amgd Gocha
+  id: '10212650036184692'
+type: status
+created_time: '2017-03-19T22:17:57+0000'
+updated_time: '2017-03-22T06:39:58+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1425933947446309/
+id: '172338516139198_1425933947446309'
+reactions:
+  data:
+  - id: '1212049638898703'
+    name: Mohamed Murad
+    type: LIKE
+  - id: '1723960827662084'
+    name: Muhammad Refaat
+    type: LIKE
+  - id: '898872206952573'
+    name: Ace Al Bastoni
+    type: LIKE
+  - id: '834350416744927'
+    name: إسراء أبوسعدة
+    type: LIKE
+  - id: '1999765416908747'
+    name: Ahmed Khalifa
+    type: LIKE
+  - id: '1560359927364731'
+    name: Mahmoud Nawwar
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlPREV3TXpZAM056RXdPakUwT1RBMk16WTFNVGc2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXhOekl5TVRZAMU16YzRPakUwT0RrNU9EazVPRFE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-03-20T06:09:49+0000'
+    from:
+      name: Mahmoud Nawwar
+      id: '1560359927364731'
+    message: "بص هو apache عاملة حاجة اسمها RandomStringUtils او شيء من هذا القبيل
+      ، انا كنت عايز استخدمها عشان اعمل generate ل CSRF token وفي الآخر اكتشفت أن
+      spring نفسها بتستخدم UUID \U0001F603"
+    id: '1426221160750921'
+  - created_time: '2017-03-20T07:45:06+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: ما تعمل انت حاجة بتعملها، موش انت عاوز تسلسل عشوائي وخلاص؟
+    id: '1426287240744313'
+  - created_time: '2017-03-20T07:57:04+0000'
+    from:
+      name: Tarek Dawoud
+      id: '10156109957694861'
+    message: توليد رقم عشوائي علم وله طرق معروفة ولو الواحد مش متخصص في الحساب الألإضل
+      يستخدم الحاجات الجاهزة... أساس توليد رقم عشوائي هو البذرة (Seed) اللي بيطلع
+      منها كل حاجة... لو اخترت خوارزميات ضعيفة وبذرة سهلة التكرار مش هاتبقى أرقامك
+      عشوائية وهاتحصل تصادمات.
+    id: '1426299220743115'
+  - created_time: '2017-03-20T08:21:47+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: خلي بالك فيه فرق كبير بين Random Number و بين Unique Identifiers ال Random
+      Numbers مش Unique اصلا و ممكن تتكرر عادي، انت عاوز تعمل ايه اصلا؟
+    id: '1426310110742026'
+  - created_time: '2017-03-20T08:25:07+0000'
+    from:
+      name: Tarek Dawoud
+      id: '10156109957694861'
+    message: |-
+      Generate Unique IDs:
+      http://www.javapractices.com/topic/TopicAction.do?Id=56
+    id: '1426311374075233'
+  - created_time: '2017-03-20T08:29:39+0000'
+    from:
+      name: Ahmed Saleh
+      id: '10159933379005574'
+    message: Hash current time
+    id: '1426313067408397'
+  - created_time: '2017-03-20T18:40:37+0000'
+    from:
+      name: Mahmoud Nawwar
+      id: '1560359927364731'
+    message: |-
+      Amgd Gocha
+      Spring security generates CSRF token in this way
+      String csrfToken = UUID.randomUUID().toString();
+
+      also you can do that using Apache Commons Lang RandomStringUtils
+      String csrfToken = RandomStringUtils.random(32, 0, 0, true, true, null, new SecureRandom());
+
+      CSRF tokens is recommended to be minimum 32 char
+    id: '1426761104030260'
+  - created_time: '2017-03-21T06:45:31+0000'
+    from:
+      name: Mohamed Abd El-Naby Mohamed
+      id: '10156131125864595'
+    message: "You can use the return of current millisecond of system class \nUUID
+      is returning random number but not unique \nThe current milliseconds is random
+      and unique \U0001F44D"
+    id: '1427253087314395'
+  - created_time: '2017-03-21T08:58:27+0000'
+    from:
+      name: Wajdy Essam
+      id: '1790752040956076'
+    message: |-
+      استخدم ال SecureRandom.
+
+      ال UUID هو يعطي Unique Identifier وهو داخلياً يستخدم ال SecureRandom لذلك لا تفضيل بينهم لأنهم الاثنين بيعطوا Secure Random، وان كنت احبذ استخدام ال SecureRandom حيث تستطيع توليد اي عدد بالطول الذي تريده، بينما ال UUID سوف تتقيد بطول معين 16 بايت، بينما احياناً قد تريد شيء أعلى أو أقل لأي سبب كان.
+    id: '1427338413972529'
+  - created_time: '2017-03-21T11:51:36+0000'
+    from:
+      name: Mohamed Ashraf
+      id: '10155906116946287'
+    message: Depends on what you need. if you want it for security related things,
+      then SecureRandom otherwise there is a Random class for that. What do you need
+      it for?
+    id: '1427442070628830'
+  - created_time: '2017-03-21T15:19:27+0000'
+    from:
+      name: Amgd Gocha
+      id: '10212650036184692'
+    message: انا مبسوط وربنا من المناقشات اللى بتحصل....انا بستفاد من الكومنتات والمناقشات
+      اللى بتحصل اكتر من اللى انا كنت ناوى استفاده اما كتبت البوست 　 :D
+    id: '1427583390614698'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF5TmpJeU1URTJNRGMxTURreU1Ub3hORGc1T1Rrd01UZAzUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF5TnpVNE16TTVNRFl4TkRZANU9Eb3hORGt3TVRBNU5UWTMZD

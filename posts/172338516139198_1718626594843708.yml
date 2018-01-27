@@ -1,0 +1,48 @@
+---
+message: هو طبيعى ان الواحد يلاقى Ports زى ال SSH و FTP مفتوحين على أجهزة موجودة فى
+  ال Subnet؟ ولا دا يعتبر Vulnerability؟؟؟
+from:
+  name: Mohamed Emam
+  id: '1637456226316303'
+type: status
+created_time: '2018-01-10T17:40:24+0000'
+updated_time: '2018-01-11T19:20:38+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1718626594843708/
+id: '172338516139198_1718626594843708'
+reactions:
+  data:
+  - id: '10215205650035145'
+    name: Mohamed Ahmed Sharaf
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRJMU1ERTFOVGczT1RveE5URTFOalUzTlRJd09qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRJMU1ERTFOVGczT1RveE5URTFOalUzTlRJd09qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2018-01-10T17:43:53+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: |-
+      اكيد في daemons او باتشات او اي حاجة ع الاجهزة دى بتـ Listen ع البورتات دى..
+      وموضوع طبيعى او لا، ده يعتمد على ايه اللى فاتح البورتات دى، وايه استراتيجيتك في الشبكة بتاعتك، هل في فايروول على كل جهاز جوة الـ LAN وﻻ انت عامل نتورك فايروول ع الشبكة دى ككل بحيث تكون محمية من برة بس الدنيا مفتوحة على بعضها جوة ( و DMZ Network للسيرفرات والسيرفسز اللى بس مسموحلها تأكسس البابلك نتورك )
+    id: '1718701424836225'
+  - created_time: '2018-01-10T21:56:24+0000'
+    from:
+      name: Mohamed Morsy
+      id: '10214895413955310'
+    message: ال vulnerabilities في الحاجات دي بتكون في misconfiguration، يعني مثلاً
+      فاتح root login على SSH أو فاتح anonymous access على FTP، أو بيستعمل outdated
+      software فيها known vulnerabilities.
+    id: '1718883444818023'
+  - created_time: '2018-01-11T19:20:37+0000'
+    from:
+      name: Eiad Amr
+      id: '1786979848265063'
+    message: Or maybe a honeybot like MHN
+    id: '1719749148064786'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN4T0Rjd01UUXlORGd6TmpJeU5Ub3hOVEUxTmpBMk1qTXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN4T1RjME9URTBPREEyTkRjNE5qb3hOVEUxTmprNE5ETTMZD

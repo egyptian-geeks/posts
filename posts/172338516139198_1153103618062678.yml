@@ -1,0 +1,77 @@
+---
+message: "هو في طريقة اني اعرف بيها ال mac address بتاع الأجهزه الي على الشبكة لو
+  معايا ال ip address بتاعه غير إني أشوفه موجود ف ال arp tables ولا لأ؟\nأنا دورت
+  ملقتش غير إن ال nmap -sn بيعمل scan للشبكة كلها وبيجيب الأجهزه الموجوده ومعاه ال
+  ip حاولت ادور على ال algorithm دي على النت ملقتش حاجة مفيده شوفت ال source code
+  بتاع nmap نفسه والموضوع كان مؤلم جداً بصراحه :D \nلو حد عنده اقتراحات، حلول أو حتى
+  headlines ادور منها يبقا كتر خيره \nحاجة اخيره بس مشكلة ال arp tables انها مش بتتحدث
+  بشكل فوري."
+from:
+  name: Ahmed Khaled
+  id: '1673431476060100'
+type: status
+created_time: '2016-05-30T22:12:51+0000'
+updated_time: '2016-05-30T23:54:31+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1153103618062678/
+id: '172338516139198_1153103618062678'
+reactions:
+  data:
+  - id: '1596110217148252'
+    name: Ahmed Badawy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlORGM0Tmpnd09EVTJPakUwTmpRMk5EYzBOakk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlORGM0Tmpnd09EVTJPakUwTmpRMk5EYzBOakk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-05-30T22:16:11+0000'
+    from:
+      name: Kofi Kotga
+      id: '1683289718380917'
+    message: للفضول بس..حتفيد ف ايه
+    id: '1153104438062596'
+  - created_time: '2016-05-30T22:17:35+0000'
+    from:
+      name: Ahmed Khaled
+      id: '1673431476060100'
+    message: بعمل network hosts discovery وكده
+    id: '1153104838062556'
+  - created_time: '2016-05-30T22:38:43+0000'
+    from:
+      name: Mohamed Bassem
+      id: '10212826240185281'
+    message: انا مش فاهم بالظبط انت عايز tool جاهزه ولا ايه. بس مش ده اللي الarp بيعمله
+      بالظبط؟ ابسط حاجة في بالي انك تعمل الarp query بنفسك و تبعتها على ال broadcast
+      ip و تشوف الresponse.
+    id: '1153113638061676'
+  - created_time: '2016-05-30T22:51:00+0000'
+    from:
+      name: Mohamed A. Alqrwash
+      id: '10213394268464462'
+    message: "علي الاندرويد ان ممكن تجب الـ mac من خلال api بتاعت الandroid بس في
+      الغالب بترجعلك ال wifi او الـ nic اللي شغاله لو جهاز اللي مشفل الاندرويد فيه
+      ethernet ممكن تجيبه بطريقه تانيه \nبيكون موجود هنا /sys/class/net/eth0/address\nجرب
+      الكود ده \npublic String getMacAddress(){\n    try {\n        return loadFileAsString(\"/sys/class/net/eth0/address\")\n
+      \           .toUpperCase().substring(0, 17);\n    } catch (IOException e) {\n
+      \       e.printStackTrace();\n        return null;\n    }\n}"
+    id: '1153117418061298'
+  - created_time: '2016-05-30T23:14:30+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: U will loop through all Ips and send an ARP request
+    id: '1153128084726898'
+  - created_time: '2016-05-30T23:54:31+0000'
+    from:
+      name: Salim Wolf
+      id: '10213670939161200'
+    message: |-
+      فيه مكتبة python-nmap لو راح تستخدم بايثون
+      وتعمل loop على mac اللي راح يرجعها السكان ب nmap
+      http://stackoverflow.com/questions/26198714/how-to-retrieve-mac-addresses-from-nearby-hosts-in-python
+    id: '1153146424725064'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUxTXpFd05EUXpPREEyTWpVNU5qb3hORFkwTmpRMk5UY3gZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUxTXpFME5qUXlORGN5TlRBMk5Eb3hORFkwTmpVeU5EY3oZD

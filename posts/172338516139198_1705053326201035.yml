@@ -1,0 +1,46 @@
+---
+message: Just discovered that Vodafone ADSL does rate capping for SSH traffic.  TEData
+  (aka WE)  does not.
+from:
+  name: Mohammed El-Beltagy
+  id: '1994369250577940'
+type: status
+created_time: '2017-12-28T17:41:33+0000'
+updated_time: '2018-01-24T17:07:45+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1705053326201035/
+id: '172338516139198_1705053326201035'
+reactions:
+  data:
+  - id: '10156058637813523'
+    name: Magdi Nakhla
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRrek5ESXpOVEl5T2pFMU1UUTJNems1T1RJNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRrek5ESXpOVEl5T2pFMU1UUTJNems1T1RJNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-12-29T21:39:10+0000'
+    from:
+      name: Eslam Shaker
+      id: '10214728774110070'
+    message: الترجمه ؟
+    id: '1706124762760558'
+  - created_time: '2017-12-29T21:48:07+0000'
+    from:
+      name: Mohammed El-Beltagy
+      id: '1994369250577940'
+    message: سرعة نقل البيانات يتم تخفيضها بشكل واضح عندما يكون الprotocol من نوع
+      SSH. هذه الظاهرة موجودة بوضوح علي شبكة فودافون ADSL.  من المؤكد انه هناك DPI.  هذه
+      الظاهرة لم يتم رصدها علي شبكة TEData.
+    id: '1706130372759997'
+  - created_time: '2018-01-24T17:07:42+0000'
+    from:
+      name: Ahmed Hosny
+      id: '2077007312536296'
+    message: Confirmed. Tried to use VPN, and all worked smoothly without any limitations.
+    id: '1732301133476254'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN3TmpFeU5EYzJNamMyTURVMU9Eb3hOVEUwTlRnek5UVXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN6TWpNd01URXpNelEzTmpJMU5Eb3hOVEUyT0RFek5qWXkZD

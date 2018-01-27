@@ -1,0 +1,67 @@
+---
+message: "Can someone help me with this question? I'd be really grateful.\n\n"
+link: http://stackoverflow.com/questions/40665591/how-to-achieve-maximum-write-speed-with-python
+from:
+  name: Mohamed Tarek El Haddad
+  id: '10159750515025408'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQA4atFBdowvWO-S&w=130&h=130&url=http%3A%2F%2Fcdn.sstatic.net%2FSites%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded%26a&cfs=1&sx=0&sy=0&sw=316&sh=316&_nc_hash=AQDYVbPw7-vNSk2Z
+created_time: '2016-11-17T21:53:06+0000'
+updated_time: '2016-11-18T01:45:11+0000'
+name: How to achieve maximum write speed with Python?
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1296577877048584/
+id: '172338516139198_1296577877048584'
+reactions:
+  data:
+  - id: '10156115350739764'
+    name: Mahmoud Tantawy
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRFME5UYzVOell6T2pFME56azBNVGszTmpJNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRFME5UYzVOell6T2pFME56azBNVGszTmpJNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-11-17T22:45:42+0000'
+    from:
+      name: Mahmoud Hossam
+      id: '1360912124012585'
+    message: Have you tried Go? It should be faster than python for most purposes,
+      and it's not so hard to learn.
+    id: '1296601313712907'
+  - created_time: '2016-11-18T01:17:18+0000'
+    from:
+      name: Tarek Ahmed
+      id: '10215440197777018'
+    message: "on why disk write is as fast as ram write, I believe os.write() might
+      not write to disk directly, it makes a system call to write the data  to OS
+      buffer directly (which is in a ram region described by the file file descriptor
+      returned by os.open() also which writes it to disk at some time in the future
+      that is not related to your program running time) , to force sync the os buffer
+      with disk you need to flush and call os.fsync()\ncheck first comment here \nhttp://stackoverflow.com/questions/7127075/what-exactly-the-pythons-file-flush-is-doing\nand
+      python os.fsync()  docs\nhttps://docs.python.org/3/library/os.html\non how to
+      achieve maximum write speed, i don't think there is higher writing speed in
+      python than using os.open and os.write, but you i think the overhead here is
+      all in the data itself, instead of using a string (block) use an array (not
+      list)\nhttps://docs.python.org/3/library/array.html\ni believe that should be
+      more efficient."
+    id: '1296730157033356'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEk1TmpZAd01UTXhNemN4TWprd056b3hORGM1TkRJeU56UXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEk1Tmpjek1ERTFOekF6TXpNMU5qb3hORGM1TkRNeE9EUXcZD
+attachments:
+  data:
+  - description: I'm writing a program that will do high speed data acquisition. The
+      acquisition card can run at up 6.8 GB/s (It's on PCIe3 x8). Right now I'm trying
+      to stream to a RAM disk to see the max write spe...
+    media:
+      image:
+        height: 316
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAntEGj6KNL8I7m&w=316&h=316&url=http%3A%2F%2Fcdn.sstatic.net%2FSites%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded%26a&cfs=1&sx=0&sy=0&sw=316&sh=316&_nc_hash=AQAI6p974RoCbfNJ
+        width: 316
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F40665591%2Fhow-to-achieve-maximum-write-speed-with-python&h=ATMXFzQTXV0nHiNhwLMB4EyRehknwingYdtIP1B5MGggoG_jY64aipRLjFrU6VXDigo1YAvZHpDBLgr2x2XrnhFmbPFPWq4326OG&s=1&enc=AZPyIyXVpv024uo9tZgmIP0jcrt2z9L38yijhSGcb-8pZPPU5EbAO25Wst09JdL_0wC1qxI7c7WFvtn5orPsgyfA
+    title: How to achieve maximum write speed with Python?
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F40665591%2Fhow-to-achieve-maximum-write-speed-with-python&h=ATMXFzQTXV0nHiNhwLMB4EyRehknwingYdtIP1B5MGggoG_jY64aipRLjFrU6VXDigo1YAvZHpDBLgr2x2XrnhFmbPFPWq4326OG&s=1&enc=AZPyIyXVpv024uo9tZgmIP0jcrt2z9L38yijhSGcb-8pZPPU5EbAO25Wst09JdL_0wC1qxI7c7WFvtn5orPsgyfA

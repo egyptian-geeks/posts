@@ -1,0 +1,14 @@
+---
+message: "Why we can't define a method body (shared/static or instance) inside an
+  interface to be applied on classes that implements this interface\nFor example if
+  we have Customer and Provider who implements\n IContact { string Email{get;set;}}\nWhy
+  we do not make void SendMail(string msgBody){\nMailClinetWhatEver.Send(Message=msgBody,To=this.Email
+  )\n}\ninside IContact \nI know i can inherit from a base class that can do this"
+from:
+  name: Bassam Abd Elhamid
+  id: '1955441501387657'
+type: status
+created_time: '2014-11-19T06:35:32+0000'
+updated_time: '2014-11-19T09:53:34+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/848325458540497/
+id: '172338516139198_848325458540497'

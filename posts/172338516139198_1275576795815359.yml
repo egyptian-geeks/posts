@@ -1,0 +1,153 @@
+---
+message: "يا شباب عايز اعمل Sync data between Android App and webserver\nمن غير ما
+  ابعت ريكوست بمدة محددة عشان اسحب الداتا \n\nيعني لما تغير يحصل في جزء معين في الداتا
+  بيز علي السيرفر يسمع في الموبايل   \n\nفي حل افضل من ال webSocket  ؟"
+from:
+  name: Hossam EL Sharkawy
+  id: '1516489515124702'
+type: status
+created_time: '2016-10-31T13:58:41+0000'
+updated_time: '2016-11-05T17:53:32+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1275576795815359/
+id: '172338516139198_1275576795815359'
+comments:
+  data:
+  - created_time: '2016-10-31T14:05:23+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: انا يهمني اعرف عن الموضوع. بس اللي معتاد عليه، إن التطبيق App هو اللي
+      كل فترة يعمل Check للخادم يدور على اللي هو عاوزه. اللهم إلا إذا كان هذا الموضوع
+      على سياق المحاثة Chat والسيرفر بيلعب دور الطرف الآخر فيها.
+    id: '1275583055814733'
+  - created_time: '2016-10-31T14:10:36+0000'
+    from:
+      name: Mohamed Abuelanin
+      id: '10213390901000267'
+    message: |-
+      لو ال Web Server سامحلك تعمل Remote Access علي ال Database ف كدة الموضوع مفيهوش حاجة بسيط.
+      أما لو مش سامحلك ف ممكن تستخدم Cloud Service .
+      او ممكن تعمل Sync لل Database علي  Json Files وتقرأها بال Android عادي ..
+    id: '1275588842480821'
+  - created_time: '2016-10-31T14:37:13+0000'
+    from:
+      name: Omar Hassan
+      id: '10156054633057370'
+    message: Implement sync adapter
+    id: '1275620472477658'
+  - created_time: '2016-10-31T14:41:44+0000'
+    from:
+      name: Muhammad Kamal
+      id: '547020688991281'
+    message: "ممكن فاير بيز   push notifications \nSearch for send to sync"
+    id: '1275624079143964'
+  - created_time: '2016-10-31T14:42:01+0000'
+    from:
+      name: Hisham Abd El-Hafez Eid
+      id: '10156032627411171'
+    message: "Use Push notifications. \n\nBasically when your web server updates the
+      data, it broadcasts a push notification to all devices, and on the mobile app
+      you have a push notifications handler that connects and gets the latest update.\n\nThe
+      downside for this is that if you have a large number of clients, it might affect
+      your server's performance if all of them try to fetch the update at the same
+      time."
+    id: '1275624299143942'
+  - created_time: '2016-10-31T15:13:32+0000'
+    from:
+      name: Mohamed Elzohirey
+      id: '10155247883533161'
+    message: Push notification
+    id: '1275653032474402'
+  - created_time: '2016-10-31T15:51:04+0000'
+    from:
+      name: AbduLatif Ahmed
+      id: '2214207455473502'
+    message: https://firebase.google.com/
+    id: '1275688565804182'
+  - created_time: '2016-10-31T17:00:44+0000'
+    from:
+      name: Mohamed El-Alfy
+      id: '1589145544505470'
+    message: Push notifications
+    id: '1275754155797623'
+  - created_time: '2016-10-31T17:54:19+0000'
+    from:
+      name: Amr Yousef
+      id: '10216129314284453'
+    message: Firebase is a good option to consider
+    id: '1275796095793429'
+  - created_time: '2016-10-31T18:27:36+0000'
+    from:
+      name: Ahmed Ateek
+      id: '1812131428831070'
+    message: Sync adapter
+    id: '1275823765790662'
+  - created_time: '2016-10-31T20:24:16+0000'
+    from:
+      name: Youssef Fares
+      id: '1815698241774879'
+    message: Ay mBaaS kwayes comes with some realtime features that broadcasts added/deleted/modified
+      events to the client. Built.io I particularly used and liked.
+    id: '1275941175778921'
+  - created_time: '2016-11-01T00:32:44+0000'
+    from:
+      name: Hesham Watany
+      id: '10214843347173894'
+    message: FCM
+    id: '1276125485760490'
+  - created_time: '2016-11-01T06:11:59+0000'
+    from:
+      name: Mohamed Shaheen
+      id: '1990508241211666'
+    message: "you have many options for doing that : \n1-using silent push notification
+      to tell the app to update its data in the background\nfor push , i see best
+      provider is https://onesignal.com/\n2-using MBaas like parse.com /firebase with
+      local data store data sync option that automate such task\nhttps://parse.com/tutorials/using-the-local-datastore\nI
+      didnot try firebase before, but you should have a look \nps : although parse.com
+      is shutting down , many companies are offerring parse server hosting like (back4apps)
+      , hurko , any us http://appgain.io (beta)"
+    id: '1276339745739064'
+  - created_time: '2016-11-01T18:00:48+0000'
+    from:
+      name: Ahmed Hassan
+      id: '10214297179999255'
+    message: الصفحة دي هتفيدك في موضوع الpush notifications
+    id: '1276849459021426'
+  - created_time: '2016-11-02T00:09:00+0000'
+    from:
+      name: Emad Shaaban
+      id: '1483867968332898'
+    message: "Another option is CouchDB, It has 2 main characteristics : \n\n1-  Very
+      robust sync protocol, which enables syncing data between two nodes easily (you
+      can define filters to determine which data goes where).\n\n2- Very low memory
+      footprint, which make it easy to work on mobile so that your client device is
+      just like any other node (mobile database works the same way as server database,
+      you can even sync two mobile databases in a local network without connecting
+      to server ).\n\nCouchDB has a community based opensource implementation, which
+      you can download an install in your own server http://couchdb.apache.org/\n\nThere
+      is also an alternative implementation offered by Couchbase, also opensource
+      and you can download an install, but with couchbase you have the option to buy
+      enterprise level support.\nhttp://www.couchbase.com/\n\nOr you can use a cloud
+      service like what Cloudant offers.\nhttps://cloudant.com/\n\n\nA good implementation
+      for mobile (Android / iOS) is CouchbaseLite\nhttps://github.com/couchbase/couchbase-lite-android\nhttps://github.com/couchbase/couchbase-lite-ios\n\nCloudant
+      has a mobile implementation to support sync, but I didn't try it https://github.com/cloudant/sync-android\n\nNote
+      that all of the above implementations use the same sync protocol, so for instance
+      CouchbaseLite on mobile  can sync very well with CouchDB on server, I'm using
+      this combination."
+    id: '1277348705638168'
+  - created_time: '2016-11-03T19:11:37+0000'
+    from:
+      name: Ahmed Bally
+      id: '1722453947810644'
+    message: firebase :D or some like that
+    id: '1279893402050365'
+  - created_time: '2016-11-05T17:53:31+0000'
+    from:
+      name: Marwan Abdel Moneim
+      id: '408695269572490'
+    message: longpooling
+    id: '1282608328445539'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkzTlRVNE16QTFOVGd4TkRjek16b3hORGMzT1RJeU56SXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEk0TWpZAd09ETXlPRFEwTlRVek9Ub3hORGM0TXpZANE5ERXgZD

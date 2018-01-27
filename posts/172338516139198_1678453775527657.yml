@@ -1,0 +1,72 @@
+---
+message: |-
+  Hi
+  Is it faster to insertion sort a linked list or an array?
+  Both have the same data.
+from:
+  name: Bellal Mohamed
+  id: '1672878506132188'
+type: status
+created_time: '2017-12-01T03:04:08+0000'
+updated_time: '2017-12-01T13:20:01+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1678453775527657/
+shares:
+  count: 1
+id: '172338516139198_1678453775527657'
+reactions:
+  data:
+  - id: '1625359394210186'
+    name: Ahmed Marzouk
+    type: LIKE
+  - id: '1979190658986537'
+    name: Ayman Abo Elghait
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlNRGcwTWpJMk1UZA3lPakUxTVRJeE1qQTRNalk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTJPRFk0TmpVNU1UUXpPakUxTVRJeE1UQTVOVFU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-12-01T03:05:13+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: Given how insertion sort works, it won't matter whether it is an array
+      or a linked list, you are always going from left to right visiting all the nodes
+      on the unsorted part of the sequence.
+    id: '1678472445525790'
+  - created_time: '2017-12-01T03:26:09+0000'
+    from:
+      name: Mohammed Fox
+      id: '1534405689947170'
+    message: "depending on the language features and capabilities,\nin theory as Mohamed
+      Elsherif mentioned the pointer always inserts in the end ( given its not sorted
+      list/array)\nusually language like python insertion in 'dict' type is faster
+      due to a feature called Table doubling \nin case of C like languages like Php
+      its more costly due to doubling on fly memory techniques which makes php way
+      slower in large arrays insertion/deletion operations"
+    id: '1678488302190871'
+  - created_time: '2017-12-01T05:06:14+0000'
+    from:
+      name: Sherif Elmetainy
+      id: '10155248504590994'
+    message: |-
+      I would say that arrays are generally faster. Unless each record is big enough to the point that copying data is far less efficient than simply updating pointers.
+
+      Arrays don't have pointer lookup overhead, and have better locality of reference which means less processor cache misses.
+      It can also vary depending on the framework/programming language you use, etc.
+    id: '1678553248851043'
+  - created_time: '2017-12-01T13:19:57+0000'
+    from:
+      name: Ahmed Khalifa
+      id: '1999765416908747'
+    message: بيعتمد عاي حسب انت عايز تعمل ايه..  حجم و عدد العناصر بتاعك ثابت ولا
+      ممكن يزيد..و هل ممكن تعمل shift ولا لا.. يعني لو عندك 10 عناصر و عايز تعمل insert
+      بس في index رقم 4 مثلا.. كده هتحط العنصر الجديد بتاعك في ال index رقم 4 و هتشفيت
+      العنصر القديم ل ال index رقم 5 و هكذا بالتوالي.. باختصار لو عدد العناصر مش ثابت
+      و هتحتاج تعمل shift يبقي الافضل linked list
+    id: '1678888852150816'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkzT0RRM01qUTBOVFV5TlRjNU1Eb3hOVEV5TURrM05URXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkzT0RnNE9EZAzFNakUxTURneE5qb3hOVEV5TVRNME16azQZD

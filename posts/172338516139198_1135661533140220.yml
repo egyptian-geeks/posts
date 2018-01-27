@@ -1,0 +1,76 @@
+---
+message: "شباب عندى مشكلة عويصة حبتين انا لفيت عملت search 3 ساعات مفيش ف محدش يقولى
+  google it\nالمشكلة تتعلق ب Clion IDE\n\nint main() {\n\n    long long n, sum = 5;\n
+  \   cin >> n;\n    while ( sum<=n ){\n        sum+=(sum*2);\n        cout << sum
+  << endl ;\n    }\n\n}\n\nالكود العبيط دا فيه مشكله وهى الكود دا بيبرنت على ايكليبس
+  عادى \nانما Clion ال output ﻻ يتجاوز من 5 outputs \nليه اللوب مبتطبعش كل الاوتبوتس
+  فى ال CLion"
+from:
+  name: Mustafa Al Gharbawy
+  id: '1894669443939000'
+type: status
+created_time: '2016-05-02T00:16:04+0000'
+updated_time: '2016-05-02T09:26:48+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1135661533140220/
+id: '172338516139198_1135661533140220'
+reactions:
+  data:
+  - id: '2044729859105544'
+    name: Nezar Saleh Hasan
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTNNRFUyTkRnMk16UXhPakUwTmpJeE56YzROREk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTNNRFUyTkRnMk16UXhPakUwTmpJeE56YzROREk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-05-02T00:33:44+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: جربت تعمل cout.flush بعد كل cout على سبيل التجربة يعني يكون ال buffer
+      مش بيلحق يتكتب كله
+    id: '1135667779806262'
+  - created_time: '2016-05-02T00:57:28+0000'
+    from:
+      name: Adam Zahran
+      id: '2029806313704072'
+    message: حط الinput اللي بتدخله والoutput اللي Clion بيطلعه
+    id: '1135674516472255'
+  - created_time: '2016-05-02T01:12:00+0000'
+    from:
+      name: Mustafa Al Gharbawy
+      id: '1894669443939000'
+    message: "input 10000\noutput \n15\n35\n75\n155"
+    id: '1135682969804743'
+  - created_time: '2016-05-02T01:13:22+0000'
+    from:
+      name: Adam Zahran
+      id: '2029806313704072'
+    message: اتأكد إنه بيقرا الfile الصح.. ممكن يكون بيcompile نسخة قديمة/مختلفة من
+      الfile
+    id: '1135683359804704'
+  - created_time: '2016-05-02T01:13:46+0000'
+    from:
+      name: Adam Zahran
+      id: '2029806313704072'
+    message: اعمل project جديد واعمل copy/paste للكود وشوف لو هيشتغل صح.
+    id: '1135683499804690'
+  - created_time: '2016-05-02T09:24:52+0000'
+    from:
+      name: Abdelrahman Aly Abounegm
+      id: '1761499490527755'
+    message: أنا عندي برضو مشاكل كتير مع CLion في الI/O. كان دايما يكتب الinput اللي
+      أكتبه تاني، و كل الOutput بيبقى editable أكتب عليه براحتي، و كان بيلغبط حجات
+      كتير، و فعلا سعات مكنش يطلع Output فأفتح CMD و Notepad++ و خلاص
+    id: '1135868743119499'
+  - created_time: '2016-05-02T09:26:48+0000'
+    from:
+      name: Mohammad Ali Diab
+      id: '10155065357586363'
+    message: "try to add this after the cout \ncout.flush()"
+    id: '1135869273119446'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV6TlRZAMk56YzNPVGd3TmpJMk1qb3hORFl5TVRRNU1qSTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV6TlRnMk9USTNNekV4T1RRME5qb3hORFl5TVRneE1qQTQZD

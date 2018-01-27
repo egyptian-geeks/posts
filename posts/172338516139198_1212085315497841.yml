@@ -1,0 +1,75 @@
+---
+message: Could be a possible workaround
+from:
+  name: Ahmad Nazmy
+  id: '10155119685735143'
+type: status
+created_time: '2016-08-23T14:21:59+0000'
+updated_time: '2016-08-24T10:42:59+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1212085315497841/
+id: '172338516139198_1212085315497841'
+reactions:
+  data:
+  - id: '10155783123700239'
+    name: Ahmed Mekkawy
+    type: LIKE
+  - id: '1547373045377964'
+    name: Ahmed Sayed
+    type: LIKE
+  - id: '1547784868645602'
+    name: Ahmed Salah El Din
+    type: LIKE
+  - id: '10214861141222529'
+    name: Abdelrady Fcis
+    type: LIKE
+  paging:
+    cursors:
+      before: TnpRM016ZA3dNak00T2pFME56SXdORGswTkRNNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRJME5qZA3lNelF4TVRveE5EY3hPVFl5TkRJNU9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2016-08-23T21:19:30+0000'
+    from:
+      name: Ahmed Tawfik
+      id: '10159751427115532'
+    message: Ahmed Nabil
+    id: '1212392172133822'
+  - created_time: '2016-08-24T10:42:57+0000'
+    from:
+      name: Ahmed Sayed
+      id: '1547373045377964'
+    message: Ahmed Magdy
+    id: '1212934412079598'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl4TWpNNU1qRTNNakV6TXpneU1qb3hORGN4T1RnM01UY3cZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl4TWprek5EUXhNakEzT1RVNU9Eb3hORGN5TURNMU16YzMZD
+attachments:
+  data:
+  - description: "بعد كلامي مع المُناضل الكبير Mohamed Fergany بشوية أمور ، تناقشنا
+      بقصة الـ ssh تبعت مصر ، خطر ببالي وقتها حل بسيط بعيداً عن إستخدام VPN أو حتى
+      Remote Desktop مُمكن تستخدمه لحتى تنصب ssh client وتدخل من خلاله ، فكرت بأنه
+      ممكن نحول الترافيك كلها للتور من خلال Socks يلي تكلمت مره عنه بسكربت python
+      مُسبق وشرحت ألية عمله.\n\nعدلت على السكربت هذا بشكل بسيط وخليته يستخدم مكتبة
+      paramiko في عملية إرسال الأوامر من خلال ssh يلي رايحه للسيرفر من خلال Tor ،
+      وبهيك منكون حلينا المُشكلة ولو بشكل بسيط بيضمن فقط تنفيذ بعض الأوامر على السيرفر
+      ، في حلول ثانية براسي ممكن تحل المشكلة ولكن هذا كان أسرعها ، يلي بيحيب يشوف
+      السكربت ويعطيني الأخطاء ويطور عليه فهو أكيد مُرحب في.\n\nhttps://github.com/mhaskar/Stuff/blob/master/execute-ssh-command-using-tor.py\n\nما
+      بعرف هل السيناريو بينقصه شيء مُعين ؟ مع إنه تنفيذه عندي كان 100% \nبس ما بعرف
+      شو الوضع بالضبط بمصر لذلك بتمنى تجربوا وتعطوني النتائج.\n\n#خلي_الشعب_يكونكت_يا_سيسي
+      :p"
+    description_tags:
+    - id: '10215339863195300'
+      length: 15
+      name: Mohamed Fergany
+      offset: 29
+      type: user
+    media:
+      image:
+        height: 404
+        src: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/13987432_1421463857870894_2120664655012012067_o.jpg?oh=fdcc3a07ae7ddf8ce8689a1c06fd0900&oe=5B220F3E
+        width: 720
+    target:
+      url: https://www.facebook.com/photo.php?fbid=1421463857870894&set=p.1421463857870894&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=1421463857870894&set=p.1421463857870894&type=3

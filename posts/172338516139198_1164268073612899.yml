@@ -1,0 +1,98 @@
+---
+message: "السلام عليكم \nانا شغال اكتر من سنة على arduino وبعمل مجرد prototypes بس
+  ال arduino في حجات زيادة مش محتاجها وحجمه كبير ف عايز اعرف ايه اللي ممكن اتعلمه
+  او level اللي بعد كده ؟"
+from:
+  name: Mo'men Almalky
+  id: '1796493497089931'
+type: status
+created_time: '2016-06-18T04:34:55+0000'
+updated_time: '2016-06-21T01:43:12+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1164268073612899/
+shares:
+  count: 1
+id: '172338516139198_1164268073612899'
+reactions:
+  data:
+  - id: '2069974546552181'
+    name: Mahmoud Elaskare
+    type: LIKE
+  - id: '10215523479504700'
+    name: Abdulaziz Alaa
+    type: LIKE
+  - id: '1949210275093149'
+    name: Yomna Gad
+    type: LIKE
+  - id: '10216462555735550'
+    name: Aya Khaled
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTJNVGc1TmpjNU5ERTFPakUwTmpZAeU5EVTRORFE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRJd05qVTROVGt5TnpveE5EWTJNakkwTlRZAMU9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2016-06-18T12:21:05+0000'
+    from:
+      name: Samuel A. Wilson
+      id: '10215340807979122'
+    message: "If you are talking about Arduino UNO, it is basically a Microcontroller
+      with some peripherals connected to it. The one on the UNO is ATmega328p (you
+      can easily disconnected it from the board). The Arduino offers peripherals that
+      makes your prototyping life easier like a USB port (with a seperate MCU responsible
+      for programming the ATmega328p) and a DC barrel jack (coupled with a voltage
+      regulator) for input voltages up to 12 volts. \nI heavily encourage you to download
+      the Schematic for the UNO (it is open source) and try to figure out all the
+      components and their roles in the board. You will be amazed to find that most
+      of them are just complementary to make it easy to work with the Arduino and
+      to protect it. \n\nThen I highly recommend programming the UNO using Atmel Studio
+      and using the C/C++ variant of the AVR. \nThe reason for that is that the arduino
+      offers many layers of abstraction, and while that makes your life easier, it
+      really doesn't teach you much about how stuff work under the hood. For example,
+      to enable the SPI (Serial Peripheral Interface) you can just include the corresponding
+      library in Arduino and type \"SPI.begin()\" in the setup function. While in
+      real life, you have to modify the CPU registers to do so. So the Arduino library
+      just did that automatically for you, which is faster and less error prone (I
+      admit). But if you worked in the Embedded Systems field, you will have to do
+      stuff manually (at least till you write a library for it)."
+    id: '1164434523596254'
+  - created_time: '2016-06-18T18:16:03+0000'
+    from:
+      name: Hany Essam
+      id: '1666352796756592'
+    message: جربت Raspberry Pi
+    id: '1164583910247982'
+  - created_time: '2016-06-18T22:31:20+0000'
+    from:
+      name: Hossam Abubakr
+      id: '10155858852348046'
+    message: "انا مش فاهم السؤال بالظبط سامحنى، انت بتقول فيه حاجات كتير مش بتستخدمها
+      و بعد كده بتقول عاوز الـLevel اللى بعد كده، انهى بالظبط؟ :D \nلو عاوز حاجه اصغر
+      و بتعمل حاجات بسيطه جرب حاجه زى كده بما ان عندك الاردوينو علشان تعرف تبرمجها\nhttps://www.youtube.com/watch?v=30rPt802n1k\nاما
+      لو ليفيل بعد كده، هو الرازبيري مش ليفيل تانى لانى شايف ان ديه منصه و ديه منصه،
+      بس الخلاصه ان الاردوينو هو Microcontroller فى حين ان الرازبيري باي هى SoC اقرب
+      حاجه ليها هى المازربورد بتاعه الموبيل بتاعك بالاضافه لمخارج اضافيه ليها، فهى
+      اقرب لكمبيوتر كامل.\nلو هتعمل روبوت مثلا لانه المشروع اللى اغلب الناس بتبدأ
+      بيه اغلب الناس (correct me if I'm wrong) بتستخدم الاردوينو فى السيرفوز و الحاجات
+      الميكانيكيه و الرازبيري هو اللى بيعمل كل الـprocessing خصوصا لو فيه اى AI"
+    id: '1164705150235858'
+  - created_time: '2016-06-21T01:10:10+0000'
+    from:
+      name: Mo'men Almalky
+      id: '1796493497089931'
+    message: "معلش انا لخبطك شوية ، بس انا كان قصدي الاتنين لان انا عندي مشروع عايز
+      اعمل ب حاجة صغيرة مش نفس حجم الاردينو عشان مش كل حاجة فيه هستخدمها والفكرة اللي
+      انت حطتها كويسة جدا جدا الف شكر \nوالحاجة التانية اني حاسس مش بتعلم حاجة جديدة
+      في الاردينو ومفيش شركات شغالة بيه ف عايز اتعلم حاجة جديدة تكون مستخدمة :D :D"
+    id: '1166082426764797'
+  - created_time: '2016-06-21T01:43:12+0000'
+    from:
+      name: Hossam Abubakr
+      id: '10155858852348046'
+    message: يبقي هات الرازبيري باي 3 و ربنا يوفقك، فى مصر اكتر من ضعف تمنها هتجبها
+      بحوالي 650 جنيه للأسف، حاجه اخيره البرمجه للباي هتستخدم بايثون مش C
+    id: '1166098873429819'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUyTkRRek5EVXlNelU1TmpJMU5Eb3hORFkyTWpVeU5EWTEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUyTmpBNU9EZAzNNelF5T1RneE9Ub3hORFkyTkRjek16a3kZD

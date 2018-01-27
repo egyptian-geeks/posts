@@ -1,0 +1,144 @@
+---
+message: |-
+  عندي سؤال مش لاقيله إجابه واضحه
+  لقيت ناس بتقول تمام وناس بتقول العكس
+
+   هل الصح اني أخلي دايمًا الكود بتاعي generic بحيث يبقى reusable?
+  وهل كأوبجيكت أورينتد لو كنت مضطر أكرر بعض الأكواد بس حاجه بسيطه يعني تبقى مشكله كبيره ولا عادي؟
+from:
+  name: Mohamed Fathy
+  id: '1533295126725494'
+type: status
+created_time: '2017-04-21T13:08:12+0000'
+updated_time: '2017-04-22T11:55:57+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1460942553945448/
+shares:
+  count: 2
+id: '172338516139198_1460942553945448'
+reactions:
+  data:
+  - id: '803485079835692'
+    name: Fathiya Radwan
+    type: LIKE
+  - id: '1487671784675336'
+    name: Mohamad Emad
+    type: LIKE
+  - id: '2022490591345439'
+    name: سامح دعبس
+    type: LIKE
+  - id: '10156282426693825'
+    name: Mostafa Sakr
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTFNakkyTWpJMU1UWTNPakUwT1RJNE5ETTVNalk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TnpneU1qSXpPREkwT2pFME9USTNPREkxT1RNNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-04-21T13:12:48+0000'
+    from:
+      name: Mohammad Ali Diab
+      id: '10155065357586363'
+    message: |-
+      there is always a tradeoff, abstraction sometimes lead to more complex code. follow discussions like this on quora https://www.quora.com/What-are-the-most-common-misuses-of-object-oriented-programming
+      https://www.quora.com/Should-you-write-reusable-code-or-write-code-that-fits-the-use-case
+    id: '1460945840611786'
+  - created_time: '2017-04-21T13:13:34+0000'
+    from:
+      name: Ahmed Abdo
+      id: '10155432639833282'
+    message: "لو احنا في عالم مثالى هاقولك لا لازم ماتتكررش كود\nبس حاول على اد ماتقدر
+      تزبط كودك\nوبرضه لو المشروع عمره طويل  يبقي لازم يكون حلو ومتزبط عشان تستحمله
+      \U0001F602\U0001F602"
+    id: '1460946280611742'
+  - created_time: '2017-04-21T13:13:34+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: ليه مضطر تكرر الاكواد؟
+    id: '1460946290611741'
+  - created_time: '2017-04-21T13:19:06+0000'
+    from:
+      name: Mustafa Hussain
+      id: '1137775362991740'
+    message: search for SOLID
+    id: '1460955600610810'
+  - created_time: '2017-04-21T13:22:47+0000'
+    from:
+      name: Emad Mohamed Oun
+      id: '1463887037053113'
+    message: من وجهه نظرى المتواضعه التى لا قيمه لها على الاطلاق انك تمشى بمبدا ال  generic
+      ف كودك وبردوو هيجيلك اوقات هتكرر يعنى هتكرر هتكرر ...
+    id: '1460959127277124'
+  - created_time: '2017-04-21T13:25:21+0000'
+    from:
+      name: Hossam EL Sharkawy
+      id: '1516489515124702'
+    message: "ال java generic  فعلا بيوفر في الوقت كتير وبيخلي الكود مرن وبقدر استخدمة
+      في حاجات اكتر والكود بيبقي اصغر بكتير \n\nدا اللي تقصدة ولا تقصد اية بال generic
+      ؟"
+    id: '1460961310610239'
+  - created_time: '2017-04-21T13:31:25+0000'
+    from:
+      name: Ayman Elarian
+      id: '10155076145535808'
+    message: "هجاوبك من منظور الشغل - مش عاوز منك block code مكرر \n\nكل ما تبنى كود
+      reusable كل ما بتوفر وقت لمشاريع مستقبليه"
+    id: '1460965837276453'
+  - created_time: '2017-04-21T13:32:17+0000'
+    from:
+      name: Bavly Morcos
+      id: '1576001382455519'
+    message: "read this article it is helpful \nhttps://arthurantunes.com/solid-principles-definitive-guide/"
+    id: '1460967023943001'
+  - created_time: '2017-04-21T13:49:34+0000'
+    from:
+      name: Haitham Shaddad
+      id: '1591171607636188'
+    message: "مش معني انه generic  انه يبقي reusable \nالأتنين حاجتين مختلفتين"
+    id: '1460985833941120'
+  - created_time: '2017-04-21T13:51:20+0000'
+    from:
+      name: Ahmed Hashem
+      id: '1928384107425504'
+    message: Search for DRY, KISS and YAGNI
+    id: '1460986790607691'
+  - created_time: '2017-04-21T14:37:23+0000'
+    from:
+      name: Met Wally
+      id: '520998054938412'
+    message: |-
+      انت تحاول تطبق ال concept على اد ما تقدر
+      ووقت ماتلاقي نفسك مضطر تكسره.. اكسره ولا يهمك.. وماتحسش بأي ذنب نهائي.
+    id: '1461060693933634'
+  - created_time: '2017-04-21T19:01:59+0000'
+    from:
+      name: سامح دعبس
+      id: '2022490591345439'
+    message: "السؤال ده حلو قوي، لو ربنا يسر شوية وقت هاشرح لك بالتفصيل إن شاء الله\n
+      بصورة عامة تقدر تعتبرني من المدرسة اللي بتقول ما تفكرش في إنك تخلي الكود بتاعك
+      generic\nبالذات في بداية المشروع، إلا هو الحاجة واضحة جدا و ممكن تعممها، سواء
+      في بداية ما تكتب الكود أو بعد ما تكون بدأت\nلو المشروع صغير، يتعمل في ساعات
+      لأيام كرر الكود و لا تبالي\nلو بتكتب \nUnit tests\n بعض التكرار لا يضر أيضا\nلو
+      المشروع كبر فيه قاعدة أهم من دي\nDesign for replacement not reusability\nفكرة
+      إنك تعمم الكود عشان تعيد استخدامه في مشاريع تانية دي انساها، غالبا مش هاتحصل"
+    id: '1461328213906882'
+  - created_time: '2017-04-21T19:49:08+0000'
+    from:
+      name: Hosam Aly
+      id: '1657509230977456'
+    message: I'm sorry I don't have time to write, but in short, follow correct TDD
+      and it should solve your question. Try watching the videos on Clean Code by
+      Uncle Bob.
+    id: '1461361487236888'
+  - created_time: '2017-04-22T11:55:54+0000'
+    from:
+      name: Ramy Tamer
+      id: '2020727481277546'
+    message: Follow the SOLID principal "open/closed principal" your entity should
+      be open for extension but closed for modification.
+    id: '1461948043844899'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEyTURrME5UZAzBNRFl4TVRjNE5qb3hORGt5Tnpnd016Y3gZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEyTVRrME9EQTBNemcwTkRnNU9Ub3hORGt5T0RZAeU1UVTEZD

@@ -1,0 +1,58 @@
+---
+message: |-
+  Anyone has a better answer for this question?
+  I am trying to merge 2 branches, and git does not detect conflicts in some of the files and the result is an auto-merged file that is actually wrong.
+
+  Maybe I can phrase the question differently, can you force Git to mark all the files as conflicts during merge?
+link: http://stackoverflow.com/questions/5235010/how-to-prevent-an-automerge-using-git?answertab=active#tab-top
+from:
+  name: Mohammad Fouad
+  id: '10155755444625845'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQBBxyEJXpSqBr8p&w=130&h=130&url=http%3A%2F%2Fcdn.sstatic.net%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded%26a&cfs=1&_nc_hash=AQA5Q7_FL6tqp531
+created_time: '2016-07-13T09:35:50+0000'
+updated_time: '2016-07-13T10:29:13+0000'
+name: How to prevent an automerge using git?
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1180871575285882/
+id: '172338516139198_1180871575285882'
+comments:
+  data:
+  - created_time: '2016-07-13T09:39:49+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: "read more about merge strategies i might help. the default merge strategy
+      is recursive  \n\nhttps://git-scm.com/docs/merge-strategies"
+    id: '1180873168619056'
+  - created_time: '2016-07-13T09:55:07+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      I'm quite certain it's possible, via gitattributes maybe or a git hook (client or server). But it's really a wrong answer for this problem. It seems like a people problem, and I wouldn't solve it with a tool.
+
+      If it happens rarely, I wouldn't care about it that much in the first place. when it happens, fix it, move it.
+
+      If it happens more than once, etc. then make a call to the developers that it can happen. Developers IMHO should look into the files in their commits, including push commits. They should also test what they push before they actually push it. Running smoke tests, and running the automated test suite as well.
+
+      Make the one who breaks the build pay $2 / EGP 2, or something like that. There're better ideas indeed.
+    id: '1180879965285043'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU0TURnM016RTJPRFl4T1RBMU5qb3hORFk0TkRBeU56a3gZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU0TURnM09UazJOVEk0TlRBME16b3hORFk0TkRBek56QTQZD
+attachments:
+  data:
+  - description: I am trying to merge a local branch into the master branch without
+      having Git to do an automerge. I would like to “hand pick” what I would like
+      to be merged into master. When I use Git’s difftool
+    media:
+      image:
+        height: 316
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQB5vW2ybah25rk5&w=720&h=720&url=http%3A%2F%2Fcdn.sstatic.net%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded%26a&cfs=1&_nc_hash=AQDX5paqA33iQdyD
+        width: 316
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F5235010%2Fhow-to-prevent-an-automerge-using-git%3Fanswertab%3Dactive%23tab-top&h=ATMu-HkBLhaUMmn6mTEo8e8d0PzWngWxkBPAepCUBgM0OrbPRm-1ieLOI4Y2_V4i9rg2FJadkYzKUdMB6IarubFnx_e4SeR8KWZ7&s=1&enc=AZMBkfD_KPw88Xt1PQeR9bcJV8ONEiZ4ZHNYLwSXpqY33D7tUzgTTr0Vx1gQ9x5PsyIeRRS07_uwYcVqfAWO4oxA
+    title: How to prevent an automerge using git?
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F5235010%2Fhow-to-prevent-an-automerge-using-git%3Fanswertab%3Dactive%23tab-top&h=ATMu-HkBLhaUMmn6mTEo8e8d0PzWngWxkBPAepCUBgM0OrbPRm-1ieLOI4Y2_V4i9rg2FJadkYzKUdMB6IarubFnx_e4SeR8KWZ7&s=1&enc=AZMBkfD_KPw88Xt1PQeR9bcJV8ONEiZ4ZHNYLwSXpqY33D7tUzgTTr0Vx1gQ9x5PsyIeRRS07_uwYcVqfAWO4oxA

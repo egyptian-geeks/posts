@@ -1,0 +1,144 @@
+---
+message: "انا كنت عايز اسال سؤال اتسالتوا في السي من حد ومعرفتش اجابتوا هوا ليه بال
+  computer architecture و ال embedded systems السؤال هوا :\nلو انا مثلا  كاتب كود
+  وعملت فيه array من ٥ اماكن فسألني طب ال array ده بيتخزن فين فانا قولتلوا بيتخزن
+  في ال stack عباره عن ٥ اماكن فوق بعض واسم ال array ده بيبقى pointer على اول مكان
+  في الarray قالي كويس بس الكلام  ده ساعة ال run time طب قبل كده بقى الكلام ده كلوا
+  بيبقى متخزن فين ؟!!!\nانا بقى لحد هنا ومعرفتش ارد فايريت الافاده \U0001F604\U0001F604"
+from:
+  name: Evram Karam
+  id: '1552537434781683'
+type: status
+created_time: '2017-07-21T12:10:11+0000'
+updated_time: '2017-07-22T14:13:06+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1553891511317218/
+shares:
+  count: 1
+id: '172338516139198_1553891511317218'
+reactions:
+  data:
+  - id: '10155286451437006'
+    name: Marwan Mahmoud
+    type: LIKE
+  - id: '10208488609492331'
+    name: Mohamed Hessien
+    type: LIKE
+  - id: '1611254385623215'
+    name: Shaheed Haider
+    type: LIKE
+  - id: '1763378713732348'
+    name: Esraa Ahmed
+    type: LIKE
+  - id: '1589304647821970'
+    name: Menem Salama
+    type: LIKE
+  - id: '1765781893453545'
+    name: Hawary
+    type: LIKE
+  paging:
+    cursors:
+      before: TnpNNE56QTNNREExT2pFMU1EQTJPVGs1T0RJNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQXdOalV5TlRReE1qUXdPakUxTURBMk16azNOelk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-07-21T12:18:49+0000'
+    from:
+      name: Ammar Youssef
+      id: '10155097484932190'
+    message: "بتتخزن كتعليمات في في الرام ( مش في stack ولا heap) \nالمسؤول عن تخزينها
+      هو نظام التشغيل بحاجة اسمها Executable Loader \nhttps://en.wikipedia.org/wiki/Loader_(computing)\nانت
+      ما تقدرش تتحكم فيها، لا قراءة ولا كتابة ... المسموح لك فقط هو stack and heap
+      اللي تم حجزهم نظام التشغيل لك فقط"
+    id: '1553900421316327'
+  - created_time: '2017-07-21T12:19:05+0000'
+    from:
+      name: Mohammed Alaa El Komy
+      id: '1791452377571672'
+    message: "انا اعرف ان الكومبلر وقت ال compile time بيحدد المساحات الى بيبقى محتاجها
+      لو كانت بتتحجز وقتها يعنى اى حاجة مش dynamic و بيطلع فالاخر ال executable image
+      الى بيبقى مراعى فيها الsegments الى هيعوزها ال stack- heap- data -code \nدلوقتى
+      مثلا كده \nint arr[]={1,2,3,4,5};\nكده هو عارف ان arr ده هيتحط فال stack وقت
+      اما يدخل ال block بتاعه\n بس القيم  {1,2,3,4,5} دى قيم ثابتة عايشة فال data
+      segment جوة ال executable image الى بتطلع من الكومبلر و الا هيجيب القيم الثابتة
+      ازاى \nاعتقد الى سألك كان قصده على الداتا دى الى انت مدخلها بايدك للكومبلر"
+    id: '1553900621316307'
+  - created_time: '2017-07-21T13:03:38+0000'
+    from:
+      name: Mic Heal
+      id: '1641343752612291'
+    message: اهو احنا ديما بنسيب الاهم و نمسك ف اللى مش مهم خالص
+    id: '1553931751313194'
+  - created_time: '2017-07-21T13:19:36+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: |-
+      بص كده على الassembly code بتاع الابليكيشن ده
+      https://godbolt.org/g/G7AzHS
+      كل اللى بيعمله انه بيحجز Array  من ٣ int
+    id: '1553943621312007'
+  - created_time: '2017-07-21T13:36:05+0000'
+    from:
+      name: عمرو علي
+      id: '10159891311520297'
+    message: لو يقصد الكلام دا بيتخزن فين قبل ما البرنمج يتخمل فيبقي مش متخزن في حتة
+      دا مجرد تعلميات مكتوبة علي في الملف التنفيدذي مستنية حد يحمل الملف وينفذها,
+      لو يقصد ان البرنامج بالفعل اتحمل, فكل الكود اللي بتكتبة بيتحط في Code Section
+      جوا البرنامج وكل الداتا بتتحط في Data Section والبروسيسور بيبقي عنده اجة اسمها
+      Instruction Address بتشاور علي التعليمات اللي هيتم تنفيذها, اول لما الانستركشن
+      ادرس دا يوصل للحت اللي بتقوله اعمل ارراي فبيتم عمل الارراي وحفظ الادرس بتاعها
+      في الاستاك. الاراي نفسها فين بقي دا بيرجع للغة البرمجة وطريقة عمل الارراي وتفرق
+      لو كانت حجم الاراي عبارة عن رقم ثابت (ستاتيك) محدد مسبقا ولا رقم بيتم تحديده
+      اثناء التفيذ. السي مثلا علي ما اتذكر لو الاراي من رقم ثابت بتحطها في الاستاك,
+      لو رقم متغير بتحطها في الهيب. الجافا بتحط كل حاجة في الهيب
+    id: '1553959217977114'
+  - created_time: '2017-07-21T13:42:43+0000'
+    from:
+      name: Ahmad Hisham
+      id: '10159889607765058'
+    message: "ما بيبقاش في حتة ... بيبقي موجود مجموعة أوامر بتطلب من ال processor
+      أو ال runtime library إنها تعرف ال array وتحجز مكانه في في الذاكرة ... ال array
+      نفسها لسه ماتكونتش ... فيه أوامر بتطلب تكونها.\nأما وقت ال Compile time ...
+      فال compiler بيبقي عنده data tableموجود فيها قايمة بالمتغيرات كلها ونوعها (لو
+      هو Static declared) وبيستخدمها في إنه يتأكد إنها بتتقرا/بتتكتب صح وإن مفيش متغير
+      مش متعرف بيتم التعامل معاه وإيه الأوامر المناسبة إللي هو هايستخدمها لما يوصل
+      لأمر قراءة أو كتابة أو حجز ذاكرة ليه.\nطبعا الكلام ده عام جدا ومممكن يختلف من
+      Compiler and OS للتاني ... مثلا زمان DOSكان عنده نوعين ملفات تنفيذية COM & EXE
+      \nCOM files was a simple memory image of the machine code, the DOS OS just read
+      the file from the Storage to memory and handed the execution handle to the memory
+      address of the loaded segment\nEXE is more organized and is composed of multiple
+      tables containing names of functions and their locations in the EXE and which
+      one to execute first"
+    id: '1553963947976641'
+  - created_time: '2017-07-21T16:56:57+0000'
+    from:
+      name: Kareem Emad
+      id: '937759753055377'
+    message: "msh mtshal f 7tta , lw 3ayz tgarab bnfsk , compile w run el code dh
+      3l gcc \n\nint  n;\ncin>>n;\nint arr[n];\nlw howa f3ln reserved in compile time
+      yb2a howa by3rf mneen n bkam asln ?"
+    id: '1554170354622667'
+  - created_time: '2017-07-21T21:03:49+0000'
+    from:
+      name: Amr Almgwary
+      id: '1978556165731463'
+    message: نفس سؤال هيا العمارة كانت فين قبل ما تتبني ؟ =D
+    id: '1554359211270448'
+  - created_time: '2017-07-21T22:32:36+0000'
+    from:
+      name: Mohammed Zakaria Arafa
+      id: '10155593856283863'
+    message: "Ahmed Ismail \U0001F602\U0001F602\U0001F602\U0001F602\U0001F602"
+    id: '1554418411264528'
+  - created_time: '2017-07-22T07:38:30+0000'
+    from:
+      name: Mohamed Ashour
+      id: '951500334998807'
+    message: مش فيه حاجة اسمها temporary memory اللي هي RAM اى حاجة بتتعمل قبل run
+      time بتتخزن عليها لحد ما تخلص شغلك خالص وتقفل البرنامج او process اللي انت بتعملها
+      حاليا تخلص كل حاجة بقي بتتنقل للهارد ديسك
+    id: '1554768844562818'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUxTXprd01EUXlNVE14TmpNeU56b3hOVEF3TmpNNU5UTXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUxTkRjMk9EZAzBORFUyTWpneE9Eb3hOVEF3TnpBNU1URXcZD

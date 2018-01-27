@@ -1,0 +1,132 @@
+---
+message: |-
+  السلام عليكم
+  عندي سيناريو بنفذه ومحتار شوية استخدم ايه بالضبط.
+
+  دلوقتي في كلاينت وسيرفر اساسي ومجموعة سيرفرات بموارد اصغر
+  الكلاينت بيبعت للسيرفر الاساسي طلب تنفيذ فانكشن معينة
+  السيرفر بيبعت الامر ده كما هو بس لكل السيرفرات التانية
+
+  انا بستخدم VPSs صغيرة بموارد 4 جيجا رام و 2 Core يتنفذ عليها الفانكشن ديه
+  وكل VPS ليه ال WinServer وبيتعمل عليه Deployment للوحدة الي بتنفذ الفانكشن
+
+  السيرفر الاساسي موارده كبيره عشان بيستقبل طلبات كتيرة وبيتحكم بكل السيرفرات التانية. والكلاينتس الي بتتصل بيه كمان.
+
+  موضوع انك ت Mange الكلام ده مرهق جدا وحوار ال Licence مقرف طبعا
+  يعني مشكلة انه Costly بس احنا معانا لحد سنة كاملة
+
+  الفكرة لما بحب ازود سيرفرات صغيرة تانية عملية ال Configuration و Deployment بتتعب.
+
+  فهل ممكن السيرفرات الصغيرة ديه ارجعها تانية للسيرفر الكبير بتاعها والسيرفر الكبير ده ابدأ اعمل عليه Own Cloud يعني اعمل انا عليه IAAS : SAAS
+
+  هل ال Docker ينفعني في السيناريو ده
+
+  ال Software بتسخدم فيه .NET
+
+  انا عاوز اوصل لمرحلة ان السيرفرس لما احب اضيف زيادة مش اضطر اعمل كل ال Configuration بل اعمل اكني بضيف Container زيادة او Clone واغير بورت مثلاً.
+
+  فايه المفروض اتعلمه عشان انفذ الكلام ده.
+  انا معايا سيرفرات كاملة كتير لمدة سنة وعاوز استغلها في الموضوع ده
+from:
+  name: احمد قرواش
+  id: '1561022257326859'
+type: status
+created_time: '2017-06-12T03:07:58+0000'
+updated_time: '2017-06-12T23:46:13+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1512880082085028/
+id: '172338516139198_1512880082085028'
+reactions:
+  data:
+  - id: '2032504700100329'
+    name: Mohammed Yassin
+    type: LIKE
+  - id: '546598029039266'
+    name: Tarek Badr
+    type: LIKE
+  - id: '10155747348649733'
+    name: Islam R Hefny
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdNakkwTlRVNU56RXpPakUwT1Rjek1EVTVOalk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TnpZAeE56azBOek15T2pFME9UY3lNemN4TkRNNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-06-12T03:27:16+0000'
+    from:
+      name: Mohamed Gamal
+      id: '10156096685587328'
+    message: How much is your expected traffic?
+    id: '1512897055416664'
+  - created_time: '2017-06-12T03:57:51+0000'
+    from:
+      name: Firas Abd Alrahman
+      id: '732859920251745'
+    message: https://www.google.com/search?client=ms-android-huawei&ei=JRE-WaiRH8iXgAa205-ACA&q=net+parallel+execution+multiple+servers&oq=net+parallel+execution+multiple+servers&gs_l=mobile-gws-serp.3...1497.4078.0.4592.8.8.0.0.0.0.226.1596.0j3j5.8.0..2..0...1.1j4.64.mobile-gws-serp..0.7.1421...33i160k1j33i22i29i30k1j33i21k1.s6-GrSjujAk
+    id: '1512914952081541'
+  - created_time: '2017-06-12T04:52:06+0000'
+    from:
+      name: Mustafa Dagher
+      id: '10215560476549083'
+    message: |-
+      لو عملت docker image لكل service هترفع عنك عناء ال configuration بس ده في حالة انك أصلا عندك CI/CD pipeline بتستخدمه في ال build وال deployment و هيساعدك تستخدم docker
+      الفكرة ان حاجة زي كدة مكانتش محتاجاك تشتري private VPS كان ممكن تستخدم أي cloud provider زي aws مثلا عشان تسهل عليك ال scaling و ال configuration و غيرها
+
+      سؤالك انت محتاج تتعلم أيه، فانت محتاج تتعلم عن ال continues integration/ continues delivery
+
+      أو عن ال dev ops بشكل عام
+    id: '1512953635411006'
+  - created_time: '2017-06-12T11:03:24+0000'
+    from:
+      name: Ahmed Hashem
+      id: '1928384107425504'
+    message: "انت كدا عاوز تعمل Network Load Balancing NLB \nودا موضوع كبير نسبيا.
+      أقرأ عنه الاول"
+    id: '1513166162056420'
+  - created_time: '2017-06-12T13:27:47+0000'
+    from:
+      name: Hesham Amin
+      id: '1604225349657987'
+    message: If you can deploy a kubernetes cluster, this will be a piece of cake.
+      you can package your functionality as a docker image and control the number
+      of instances using Kuebernetes deployments.
+    id: '1513271222045914'
+  - created_time: '2017-06-12T13:28:41+0000'
+    from:
+      name: Hesham Amin
+      id: '1604225349657987'
+    message: Also if you're using one of the major cloud providers (AWS, Azure, GCE)
+      then you can go serverless. Which seems optimum for this scenario.
+    id: '1513271895379180'
+  - created_time: '2017-06-12T18:25:28+0000'
+    from:
+      name: Ahmed Moussa
+      id: '1750532274967735'
+    message: So2l from novice shiwaia bas mesh dah ye3tobar dev ops?
+    id: '1513516975354672'
+  - created_time: '2017-06-12T19:27:18+0000'
+    from:
+      name: Rehan Hossam
+      id: '10156484962365616'
+    message: AWS
+    id: '1513559678683735'
+  - created_time: '2017-06-12T22:03:54+0000'
+    from:
+      name: Hosny Abdelrahman
+      id: '10155276579769013'
+    message: "بص هو الموضوع مش تخصصي بس مش عارف ممكن ال tool دي ممكن تساعدك علي حد
+      فهمي من البوست \nhttps://commando.io"
+    id: '1513666805339689'
+  - created_time: '2017-06-12T23:16:00+0000'
+    from:
+      name: Hesham Desouky
+      id: '10215011048531592'
+    message: |-
+      If your code can be packaged in docker, then this is the way to go.
+
+      Docker api straight forward and you can manage it without any hassle
+    id: '1513708012002235'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV4TWpnNU56QTFOVFF4TmpZAMk5Eb3hORGszTWpNNE1ETTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV4TXpjd09EQXhNakF3TWpJek5Ub3hORGszTXpBNU16WXcZD

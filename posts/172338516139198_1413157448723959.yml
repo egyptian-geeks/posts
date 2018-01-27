@@ -1,0 +1,27 @@
+---
+message: |-
+  Hi all,
+  now i just started building with Angular 2, but the main libraries that i will use inside my application depends heavily on Jquery and yet there is no other way of using those libraries ( no strong typings available that wraps up all library features ) , i know how to import jquery into angular 2 and declare a type for it.
+  but since Meligy mentioned to me in a previous post that it's not recommended, but i don't really understand why? and what could be harmful of doing this ?
+from:
+  name: Ibrahim Mohammed
+  id: '1886120441698692'
+type: status
+created_time: '2017-03-08T17:11:46+0000'
+updated_time: '2017-03-08T19:09:10+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1413157448723959/
+id: '172338516139198_1413157448723959'
+comments:
+  data:
+  - created_time: '2017-03-08T17:34:24+0000'
+    from:
+      name: Eslam Hamouda
+      id: '10212947071504226'
+    message: |-
+      Angular 2 philosophy is different than JQuery philosophy so having both worlds working together will lead you to unmaintainable mess, the core problem is that most JQuery code/plugins assuming that the DOM is ready and the element is present to start playing with it, which is not guaranteed in the Angular ecosystem, however adding JQuery or any plugin as a vendor dependency and get it to work or include it in the final bundle is not a problem and having many workarounds. The static typing is not a big deal, you can make a TypeScript interface to mock your JQuery plugin functions, but you cannot really sure that calling this function inside your component logic will give you a desired result specially if the DOM is not ready yet, so might be going to use some workarounds like setTimeout to insure that the element is present in the DOM.
+      As i see it's really not recommended to depend on JQuery but if you have to so no problem at all deal with it and suffer in silence.
+    id: '1413181498721554'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF4TXpFNE1UUTVPRGN5TVRVMU5Eb3hORGc0T1RrME5EWTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF4TXpFNE1UUTVPRGN5TVRVMU5Eb3hORGc0T1RrME5EWTAZD

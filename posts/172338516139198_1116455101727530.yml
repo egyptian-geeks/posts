@@ -1,0 +1,66 @@
+---
+message: "Hi guys, \n\nI've read that big buzz articles regarding porting the bash
+  command to windows. But i'm a little bit confused, the \"git bash\" app is already
+  doing this since ages. But what's the new? what are the differences between \"git
+  bash\" and porting the bash!"
+from:
+  name: Alaa Attya Mohamed
+  id: '10212906316506161'
+type: status
+created_time: '2016-04-03T11:08:17+0000'
+updated_time: '2016-04-04T00:25:52+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1116455101727530/
+id: '172338516139198_1116455101727530'
+reactions:
+  data:
+  - id: '10156055962709183'
+    name: Peter Yanni
+    type: LIKE
+  - id: '10213765218137065'
+    name: Keroloz William
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRreE16YzBNVGd5T2pFME5UazJPRE13TmpZANk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd05EWTFOek0yTWpveE5EVTVOamd5TWpBNU9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2016-04-03T11:11:47+0000'
+    from:
+      name: Mina H. Shawky
+      id: '10159976214765002'
+    message: Malak b Windows?
+    id: '1116458468393860'
+  - created_time: '2016-04-03T11:31:20+0000'
+    from:
+      name: Peter Yanni
+      id: '10156055962709183'
+    message: I have the same question !
+    id: '1116477705058603'
+  - created_time: '2016-04-03T11:38:32+0000'
+    from:
+      name: Mohammad Fouad
+      id: '10155755444625845'
+    message: |-
+      isn't git bash basically an MSYS?
+      this is not new, MS always had POSIX support in Windows but it was out of date and they dropped the ball on updating it.
+
+      I think the new bash is just MSYS but built into windows, plus some of the SUS4 APIs and apps (Single Unix Spec v4)
+
+      The whole trick is to keeping it up to date in the future, else it will be just as useless in 2 years time.
+
+      Plus the Linux Kernel is a big beast of its own, without it the Linux experience will never be complete.
+    id: '1116480575058316'
+  - created_time: '2016-04-04T00:25:52+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      guys, there is a big difference between things like Cygwin and what they're doing now.
+      What they're doing now it making all of Ubuntu run on top of the Windows NT kernel instead of the Linux kernel, they wrote a thin layer to convert calls to the Linux kernel to calls to the NT kernel.
+      You can actually run apt-get now and install the ruby and python builds that are targeted for Linux :)
+    id: '1116896868350020'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV4TmpRMU9EUTJPRE01TXpnMk1Eb3hORFU1TmpneE9UQTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV4TmpnNU5qZAzJPRE0xTURBeU1Eb3hORFU1TnpJNU5UVXkZD

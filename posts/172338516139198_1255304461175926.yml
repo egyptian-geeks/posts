@@ -1,0 +1,43 @@
+---
+message: For the pythonistas here, have you used either Enaml or Kivy before? Would
+  you recommend either, or something different, for UI development?
+from:
+  name: Mohamed Tarek El Haddad
+  id: '10159750515025408'
+type: status
+created_time: '2016-10-12T00:01:53+0000'
+updated_time: '2016-10-13T15:46:23+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1255304461175926/
+id: '172338516139198_1255304461175926'
+comments:
+  data:
+  - created_time: '2016-10-12T01:01:32+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: I experimented with Kivy and I liked it, haven't done major UI priject
+      but I was impressed that the UI worked on Linux, Android and Windows at the
+      same time by simply importing a Python module.
+    id: '1255331674506538'
+  - created_time: '2016-10-13T15:46:20+0000'
+    from:
+      name: Mohamed Tarek El Haddad
+      id: '10159750515025408'
+    message: "Here is what I found so far, leaving it here in case it may be of use
+      for someone else later:\n\nKivy is nice and simple, especially for mobile apps.
+      It supports \"natural\" UI interactions out-of-the-box. It has its own set of
+      widgets, and a reasonably active community. However, theming/styling does not
+      seem to be straightforward, and it does not have a native look. The latter is
+      a big drawback for me, since I really do want to use it for desktop development
+      and don't care much about cross-platform portability at this point (which is
+      one of the biggest selling points for Kivy, as Muhammad pointed out also) \n\nEnaml
+      is a declarative extension to python for defining UIs (as the author puts it).
+      The cool thing is that you specify the UI framework that you want Enaml to use.
+      So you can use Enaml on top of Qt and have a nice native-looking UI with simple/elegant
+      code. My main issue with it is the lack of active development. It seems to be
+      pretty mature, but development stagnated about 1 year ago."
+    id: '1256751477697891'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkxTlRNek1UWTNORFV3TmpVek9Eb3hORGMyTWpNME1Ea3kZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkxTmpjMU1UUTNOelk1TnpnNU1Ub3hORGMyTXpjek5UZA3gZD

@@ -1,0 +1,39 @@
+---
+message: |-
+  I'm using an API that returns arabic strings with "windows-1256" encoding, in my android project all the layouts encoding is "utf-8" so the data i'm calling from the API and displaying in my project looks like "���" no problem with the english characters, but the arabic.
+  Is there a way that i can convert strings from "windows-1256" to "utf-8" in java?
+from:
+  name: Amr Tharwat
+  id: '10213136680788843'
+type: status
+created_time: '2016-06-29T22:00:55+0000'
+updated_time: '2016-07-07T03:53:26+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1171897352849971/
+id: '172338516139198_1171897352849971'
+reactions:
+  data:
+  - id: '1596110217148252'
+    name: Ahmed Badawy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlORGM0Tmpnd09EVTJPakUwTmpjNE9EWTVNVE02TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlORGM0Tmpnd09EVTJPakUwTmpjNE9EWTVNVE02TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-06-30T01:11:24+0000'
+    from:
+      name: Abdelrahman El Kinani
+      id: '10213802216302674'
+    message: I don't write Java. but did you check this? http://stackoverflow.com/questions/655891/converting-utf-8-to-iso-8859-1-in-java-how-to-keep-it-as-single-byte
+    id: '1171967249509648'
+  - created_time: '2016-06-30T01:37:36+0000'
+    from:
+      name: Amr Tharwat
+      id: '10213136680788843'
+    message: Unfortunately, nothing worked in there! thanks for your help.
+    id: '1171979546175085'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUzTVRrMk56STBPVFV3T1RZAME9Eb3hORFkzTWpRNU1EZAzEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUzTVRrM09UVTBOakUzTlRBNE5Ub3hORFkzTWpVd05qVTIZD

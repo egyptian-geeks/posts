@@ -1,0 +1,24 @@
+---
+message: "Hi, \nI have a question regarding databases and controlling data display.
+  \"I have searched in vain as I cant find the keyword describing this issue\"\n\nhere
+  is the case,\n\nIn practical, when querying a database ( possibility a large scale
+  one ), results cant be displayed entirely at once ( because of large data/internet
+  limitations/unnecessary extra data/etc). \n\nSo, it should be divided into parts
+  just like the Facebook news feed or google search results. then more data can be
+  retrieved and displayed by making more requests.\n\nThe question is how to keep
+  track of the results set ?,\n\nfor example, a server query a table with 1024 products
+  and sort them according to user's preferences (preferences differ from a user to
+  another). \n\nThe 1024's data cant be displayed at once so i have to divide them
+  say in 10s. if I send 10 products to the user how can I keep track of the result
+  set when user requests more products ? do I have to query again ?\n\n- more examples:
+  displaying Facebook friends, people you may know etc\n\nIs there any keyword or
+  topic describing this ??\n\n- I'm working with php, mysql and android.\n\nThx, in
+  advance."
+from:
+  name: Abanoub Milad Hanna
+  id: '10215462521020547'
+type: status
+created_time: '2015-08-30T19:31:43+0000'
+updated_time: '2015-08-31T14:56:21+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/999155293457512/
+id: '172338516139198_999155293457512'

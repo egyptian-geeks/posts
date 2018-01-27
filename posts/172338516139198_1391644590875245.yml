@@ -1,0 +1,106 @@
+---
+message: |-
+  دلوقتي بطور في سكربت سوشيال ميديا بفكرة جديدة
+  ولكن الضجة الي عاملها موقع صراحة بتخوفني بسبب الهجوم الحاد ع الموقع
+   وبدأت افهم الموضوع واحاول اصلح من نفسي.
+  لكن مازال الموضوع مسبب لي مشكلة
+  انا موفر تشفير لكل البيانات في الداتابيز
+  وكمان هوفر SSL قوية علي السيرفرات التابعة لي.
+  وتقريبا مامن كافة ال Input وبستخدم اساليب للتحقق من العمليات الحساسة.
+
+  المفترض ايه النصائح  احطها في الاعتبار تاني بحيث يكون الموقع  مؤمن بشكل كافي.
+from:
+  name: احمد قرواش
+  id: '1561022257326859'
+type: status
+created_time: '2017-02-17T19:28:20+0000'
+updated_time: '2017-02-18T22:44:42+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1391644590875245/
+shares:
+  count: 1
+id: '172338516139198_1391644590875245'
+reactions:
+  data:
+  - id: '1791258444267523'
+    name: Mostafa Elsayh
+    type: LIKE
+  - id: '10155293228608733'
+    name: Mohamed Nady
+    type: LIKE
+  - id: '10155903911855943'
+    name: Ahmed Soliman
+    type: LIKE
+  - id: '2022490591345439'
+    name: سامح دعبس
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhOVEF4TlRRek56WTNPakUwT0RjME9UZA3lOelU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTNOVE0xTlRJeU1ESXdPakUwT0Rjek9EZAzFNamc2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-02-17T19:31:13+0000'
+    from:
+      name: Ahmed Ghorab
+      id: '2053863088178362'
+    message: Privacy Agreement
+    id: '1391654857540885'
+  - created_time: '2017-02-17T19:32:56+0000'
+    from:
+      name: احمد قرواش
+      id: '1561022257326859'
+    message: Taha Amin
+    id: '1391660174207020'
+  - created_time: '2017-02-17T19:44:44+0000'
+    from:
+      name: Pola Ashraf
+      id: '10155173051963199'
+    message: "يابني هو في حاجة مابتتهاجمش؟ \nالهجوم ده نفسه مؤشر نجاح"
+    id: '1391689424204095'
+  - created_time: '2017-02-17T22:07:04+0000'
+    from:
+      name: Noha Khalil Amin
+      id: '10156139173184540'
+    message: "اضافة بسيطة بس اذا سمحتلي، دايماً بنبص على ال holistic approach في التأمين،
+      اللي بيشمل ثلاث عناصر: people, process, technology\nمن ناحية ال users وبياناتهم
+      واضح انك عامل حسابك كويس وده فعلاً شيئ ممتاز، بس معاها كمان ال access management
+      بالنسبه للي ليهم دايركت أكسس على السيرڤرات وكمان الusers من بره، وطبعاً ال OWASP
+      فيها guide ممتاز جداً\nالسيرڤرات، اعتمد على ال relay وانت بره على ال perimeter
+      network من خلال ال DMZ ،بحيث لو حصل اختراق أو وقع، يكون ال production معزول\nوال
+      network اللي عندك نفسها لازم تكون secured\nوبالنسبة للسيرڤرات نفسها اتأكد تكون
+      latest updated من ناحية ال security patches \nوأفضل حاجة بعد أما تكون جاهز لل
+      soft launch تعمل penetration test من بره ومن جوه، والافضل يكون grey box technique
+      عشان تختبر الثغرات الموجودة في ال process نفسها ضد ال vulnerabilities وال threats
+      اللي ممكن يستغللها ال attacker"
+    id: '1391826447523726'
+  - created_time: '2017-02-17T23:10:02+0000'
+    from:
+      name: Tony Raoul Iscaros
+      id: '10156165643313420'
+    message: I can check it for you for free :) I am a novice white hat under training
+    id: '1391901674182870'
+  - created_time: '2017-02-18T04:11:59+0000'
+    from:
+      name: سامح دعبس
+      id: '2022490591345439'
+    message: |-
+      أنا سعيد إنك سألت السؤال ده :)
+      بص يا حبيب، الموضوع مهم طبعا، بس ما تعسفش نفسك، اعمل المهم و بعدين كمل مع الوقت و ما تخليش قلقك يوقفك
+      طب إيه المهم؟
+      كل اللي قاله الإخوة المعلقين فوق - مشكورين -
+      بس اللي تقدر تبدأ أنت بيه دلوقتي تتأكد إن أهم الثغرات مش موجودة، و دي اللي -  زي ما تفضل أحد المعلقين - مذكورة في owasp top 10
+      فيه سلسلة قديمة شوية - بس لازالت مفيدة - ببتكلم عن الموضوع ده لبيئة الدوت نت
+      https://www.troyhunt.com/owasp-top-10-for-net-developers-part-1
+      ممكن تبدأ من هنا و هاتلاقي الدنيا نورت معاك بعد كده
+    id: '1392134060826298'
+  - created_time: '2017-02-18T10:50:06+0000'
+    from:
+      name: Hassan Sultan
+      id: '10155898279795619'
+    message: "بعد ما تعمل كل الاحتياطات المطلوبة منك على OWASP \nنزل OWASP application
+      و اعمل تست لكل حاجة local و live"
+    id: '1392406384132399'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE01TVRZAMU5EZAzFOelUwTURnNE5Ub3hORGczTXpVNU9EYzAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE01TWpRd05qTTROREV6TWpNNU9Ub3hORGczTkRFMU1EQTMZD

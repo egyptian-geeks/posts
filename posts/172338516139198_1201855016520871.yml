@@ -1,0 +1,201 @@
+---
+message: "Numbers Combination Algorithm\nFind all possible combination of number to
+  reach particular given sum\n\nHey guys how are you doing all?\n\nYesterday i was
+  working on an algorithm can solve the combination problems.\nDo you remember the
+  Combination?\n\n-If No, it's simply the answer of how many ways we can find X number(s)
+  in a particular number?\n\nFor example assuming we're looking for how many ways
+  we can get two number from the 5?\n\nthe law says: n c r = n! / (r! * n-c!)\n\nso\n\nn
+  = 5\nr = 2\nc = 5-2 = 3\n\n5! = 1 * 2 * 3 * 4 * 5 = 120\n2! = 1 * 2 = 2\n3! = 1
+  * 2 * 3 = 6\n\n5! / (2! * 3!)\n120 / (2 * 6)\n120/12\n____________\n10\n\nso we
+  have 10 ways within the number 5 can give us two numbers\n\ne.g \n\nNow we have
+  the series of 5 numbers [3 , 5 , 4 , 9 , 7]\n\nHow many ways we can getting two
+  numbers of this series?\n\nA:\nWay 01:     3 - 5\nWay 02:     3 - 4\nWay 03:     3
+  - 9\nWay 04:     3 - 7\nWay 05:     5 - 4\nWay 06:     5 - 9\nWay 07:     5 - 7\nWay
+  08:     4 - 9\nWay 09:     4 - 7\nWay 10:     9 - 7\n\n10 Ways.\n__________\n\nBut
+  what is the benefit of the combination or how can use it within a code? \n\n-For
+  example lets assuming we have the following series of numeric values:\n\n[50, 712,
+  578, 971, 3548, 964221.25, 7414]\n\nThe question is: \n\nWhat are the possible combination
+  of numbers which can give us the value of 965904.25 after getting the summation?\n\nAnswer
+  is: (712 + 971 + 964221.25) = 965904.25\n\nYou won't getting the above simple answer
+  without the combination this is the way that can give you the correct answer of
+  any equation result because it's assuming all perhaps equation can be applied inside
+  this series.\n\nYesterday i made the algorithm in c# & i prefer to share it here
+  for anyone potential.\n\nCode:\n================================================\n///
+  <summary>\n        /// Author: OmarNegm    \n        /// This algorthim uses the
+  combination in order to assuming all\n        /// Perhaps summation operation using
+  recursive method until getting the traget operation that\n        /// Can give us
+  the target summation value we're looking for\n        /// e.g we looking for the
+  summation process of 10 in the series[9, 5, 3 , 2]\n        /// Answer: 5 + 3 +
+  2   \n        ///  </summary>     \n        /// <param name=\"doubleSeries\">the
+  series of all double values that we looking for the summation inside(50, 712.. etc)</param>\n
+  \       /// <param name=\"targetValue\">the target values of summation we looking
+  for (4176)</param>\n        /// <param name=\"currentNumber\">this value will hold
+  the last summation applied for each iteration. e.g the first arrange is 50 + 712
+  so the next recursive will hold the sum of (50+712) to be ready to be added to the
+  upcoming values</param>\n        /// <param name=\"currentIndex\">if we start with
+  the value 50 which is the first value so we have to compare it's summation with
+  next element of the array. so the current index is [0] = 50 and the next index [1]
+  = 712 so we will compare 50 + 712 etc..</param>\n        /// <param name=\"latestSumSet\">this
+  string will keep the latest summation operation e.g now we're get the equation of
+  50+712. So this variable will keep the 50 + 712 as string. That will be your returned
+  value</param>\n        /// <param name=\"sorted\">Checking if the array is already
+  sorted in order to avoid the problems of negative number summation. \n        ///
+  e.g if we're looking for 10 inside [11, 0, -1] the first key number which is the
+  11 will be greater than the 10 so the algorthim will not continue because of the
+  break; line while we're looking for 11 + (-1) which is our correct result</param>\n
+  \       /// <returns>string e.g  1 + 2 + 3 = 6</returns>\n        public static
+  string Combination(double[] doubleSeries, double targetValue, double currentNumber
+  = 0,\n            int currentIndex = -1, string latestSumSet = \"\", bool sorted
+  = false)\n        {\n            if (!sorted)\n            {\n\n                //Performing
+  Insertion Sort algorithm for sorting the elements of our series A-Z.\n                for
+  (int i = 0; i < doubleSeries.Length - 1; i++)\n                {\n                    int
+  x = i + 1;\n                    while (x > 0)\n                    {\n                        if
+  (doubleSeries[x - 1] > doubleSeries[x])\n                        {\n                            double
+  tempElement = doubleSeries[x - 1];\n                            doubleSeries[x -
+  1] = doubleSeries[x];\n                            doubleSeries[x] = tempElement;\n
+  \                       }\n                        x--;\n                    }\n
+  \               }\n            }\n            string lastSumOperation = \"\";\n
+  \           for (int i = currentIndex + 1; i < doubleSeries.Length; i++)\n            {\n
+  \               //Collect the current values + the next element as string.\n                string
+  currentSumSet = (latestSumSet == \"\" ? \"\" : latestSumSet + \" + \") + doubleSeries[i];\n
+  \               //If the current result is grather than the target \n                //so
+  no matter to continue adding the upcoming values\n                if (currentNumber
+  + doubleSeries[i] > targetValue) break;\n                if ((currentNumber + doubleSeries[i]).Equals(targetValue))\n
+  \               {\n                    lastSumOperation = currentSumSet;\n                    break;\n
+  \               }\n                else\n                {\n                    //Recurive
+  and get a result of a new arranging\n                    lastSumOperation = Combination(doubleSeries,
+  targetValue,\n                        currentNumber + doubleSeries[i], i, currentSumSet,
+  true);\n                    //Does we got it?\n                    if (lastSumOperation
+  != \"\")\n                    {\n                        break;\n                    }\n
+  \               }\n            }\n            return lastSumOperation;\n        }\n\nExample:\n================================================\n
+  //Declaring an array of double contains the values of [50, 712, 578, 971, 3548,
+  964221.25, 7414];\n            double[] doubleSeries = new double[7];\n            doubleSeries[0]
+  = 50;\n            doubleSeries[1] = 712;\n            doubleSeries[2] = 578;\n
+  \           doubleSeries[3] = 971;\n            doubleSeries[4] = 3548;\n            doubleSeries[5]
+  = 964221.25;\n            doubleSeries[6] = 7414;\n\n            //Getting a summation
+  of some elements of the above array for example lets\n            //get the summation
+  of the indexes of ([0] + [2] + [4]) \n            //(50 + 578 + 3548) = 4176\n            double
+  targetNumber = 4176;\n           string targetSummation = Combination(doubleSeries,
+  targetNumber);\n           //targetSummation = 50 + 578 + 3548.\n\n================================================\nMany
+  thanks for Mohammed A. Asaad -the Math Genius- for his effort by expressing & reviewing
+  the math Combination process. \n\nThanks guys.."
+from:
+  name: Omar Negm
+  id: '1655425661170220'
+type: status
+created_time: '2016-08-12T01:43:52+0000'
+updated_time: '2016-08-13T00:15:06+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1201855016520871/
+shares:
+  count: 1
+id: '172338516139198_1201855016520871'
+reactions:
+  data:
+  - id: '1750827214940443'
+    name: Ahmad Mansour
+    type: LIKE
+  - id: '1955441501387657'
+    name: Bassam Abd Elhamid
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdNemsxTkRNME9USXhPakUwTnpBNU9UWXdOalk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTNOalUwTnpnNU16RXdPakUwTnpBNU56azVOelk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-08-12T20:31:48+0000'
+    from:
+      name: Khaled M. Diab
+      id: '10215626626127168'
+    message: |-
+      - The problem and examples you described are called "combinations". Compared to Permutations, Combinations have totally different semantics and thus applications. The main difference is that combinations don't consider selection order, while permutations do. In your example, 1+2+3 has no different output that 3+2+1.
+
+      - If the list contains negatives and the list is not ordered, then your algorithm may not work if there is a negative number after some numbers whose summation is larger than the target. This is because you break once your sum is larger than the target.
+
+      - I like to express my recursive algorithms (for problems of trees, graphs, combinatorics (not combinations) etc...) as a recursion tree. This allows me to understand if my algorithm is top-down or bottom-up approach, when I can/should prune the search, and how to improve space/time complexity.
+
+      - I think you should've shared the code via gist or the like, since this post is not readable at all :D
+    id: '1202609883112051'
+  - created_time: '2016-08-12T22:34:25+0000'
+    from:
+      name: Omar Negm
+      id: '1655425661170220'
+    message: Khaled M. Diab Thank you so much, Your comment was very positive. Really
+      i was have a problem with the correct translation of the target math function
+      i'm working on. I already edited the post & i hope you read it again and comment
+      -if  there is something-.
+    id: '1202704943102545'
+  - created_time: '2016-08-12T22:42:40+0000'
+    from:
+      name: Omar Negm
+      id: '1655425661170220'
+    message: Another something you mentioned here about if the list alread have a
+      negative number that'w will not changing the result to greater than the target
+      number for example we're looking for 10 inside [5, -5, 5] the result of 5 +
+      (-5) = -10 .The -10 is not greater than 10 so the algorithm will not do break;
+      another something the BREAK line here doesn't stop the algorithm it's only break
+      the current instance of recursive because all the upcoming will not match the
+      target number anymore while we have a greater than result.
+    id: '1202709053102134'
+  - created_time: '2016-08-12T22:44:08+0000'
+    from:
+      name: Khaled M. Diab
+      id: '10215626626127168'
+    message: |-
+      list = [11, 0, -1]
+      target = 10
+      algorithm will reach the first element = 11, and breaks.
+      if algorithm continues, it will reach 11 - 1 = 10 which is the target
+    id: '1202709486435424'
+  - created_time: '2016-08-12T22:44:21+0000'
+    from:
+      name: Khaled M. Diab
+      id: '10215626626127168'
+    message: 5 + (-5) = 0 by the way
+    id: '1202709536435419'
+  - created_time: '2016-08-12T22:44:57+0000'
+    from:
+      name: Omar Negm
+      id: '1655425661170220'
+    message: ahaaa OK
+    id: '1202709753102064'
+  - created_time: '2016-08-12T22:45:04+0000'
+    from:
+      name: Khaled M. Diab
+      id: '10215626626127168'
+    message: to prove that an algorithm doesn't work, you need to have at most one
+      problem instance (as the list and target I described above) to show that the
+      algorithm will not work as expected
+    id: '1202709809768725'
+  - created_time: '2016-08-12T22:45:23+0000'
+    from:
+      name: Khaled M. Diab
+      id: '10215626626127168'
+    message: to prove that the algorithm works, this is more harder than stating some
+      examples.
+    id: '1202709903102049'
+  - created_time: '2016-08-12T22:47:54+0000'
+    from:
+      name: Omar Negm
+      id: '1655425661170220'
+    message: "(y) good point, Do you see another potential problem like the negative
+      numbers here?"
+    id: '1202710946435278'
+  - created_time: '2016-08-12T22:49:04+0000'
+    from:
+      name: Omar Negm
+      id: '1655425661170220'
+    message: |-
+      =>5 + (-5) = 0 by the way
+      hhhhh yes but it's still less than the Ten :D
+    id: '1202711293101910'
+  - created_time: '2016-08-13T00:15:01+0000'
+    from:
+      name: Omar Negm
+      id: '1655425661170220'
+    message: https://gist.github.com/OmarNegm/f6f4179d72c831ba26fe952898da17e7
+    id: '1202763909763315'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl3TWpZAd09UZAzRNekV4TWpBMU1Ub3hORGN4TURNek9UQTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl3TWpjMk16a3dPVGMyTXpNeE5Ub3hORGN4TURRM016QXkZD

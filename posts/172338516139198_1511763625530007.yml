@@ -1,0 +1,444 @@
+---
+message: "ده كان اخر بروجكت خلصته و نظرا لأن المعلومات اللي عن الحتة دي ضيقة جدا و
+  مش منتشرة فحابب اشاركه \U0001F603\n\nFPGA Automatic Speech Recognition System. \n\nالموضوع
+  ده مجال كبير جدا في الريسرش في الاكاديمية و الصناعة علي حد السواء، الجديد في الموضوع
+  انه معمول علي FPGA , اغلب اللي بيتعمل في الموضوع ده بيكون علي بوردات قوية حبتين
+  او كذا بوردة ضعيفة متقسم عليهم الشغل، يكاد يكون مفيش حد منزل الكود عالنت الا بالضبط
+  ٣ مشاريع و الكيت بتاعة التلاتة مش متوفرة في مصر و اقوي بكتير من الموجود فمفيهاش
+  الامكانيات اللي بيلعبوا عليها في التصميم. \n\nكان معايا Altera DE0 ، بوردة تعليمية
+  تعتبر و مش قوية جدا، مفيهاش audio in اصلا و الLogic Elements قليلين حبة، الحمد لله
+  بعد فترة من الريسرش كده قدرت ببعض الworkarounds و استخدام القليل من الفهم للدنيا
+  ماشية ازاي اعمل السيستم متقسم بين VHDL و MATLAB.\n\nاتمني يفيد حد، و ارحب جدا بأي
+  اقتراحات تطوير. \n\nملحوظة : عارف اني مستعملتش MFCC ولا استعملت اي الجوريثم اقوي
+  شوية لتحديد الكلام، بس حرفيا ده كده اخر ما تستطيع البوردة دي ان تفعله \U0001F602\U0001F602\n\nده
+  فيديو ليها و هي شغالة : \n\nhttps://www.youtube.com/watch?v=hxbMyYtls48\n\nده الكود
+  كامل (MATLAB + VHDL) جاهز للتشغيل طوالي علي اي بوردة Altera او Xillinx :\n\nhttps://github.com/MohammedRashad/FPGA-Speech-Recognition\n\nبرضه
+  في الReadMe انا شارح كل التفاصيل و المشكلات و التغلب عليها ازاي للي حابب يستفيد،
+  و شكرا \U0001F603\n\n------\n\nاضافة : \nان شاء الله هزود في الRepo كل الاوراق البحثية
+  المتاحة عن الموضوع ده و المشاريع المشابهة (منغير كود للاسف ريبورتات بس)"
+link: https://www.youtube.com/watch?v=hxbMyYtls48
+from:
+  name: Mohamed Rashad
+  id: '10215302194328517'
+type: video
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQAKymwGzf_SrPSp&w=130&h=130&url=https%3A%2F%2Fi.ytimg.com%2Fvi%2FhxbMyYtls48%2Fmaxresdefault.jpg&cfs=1&_nc_hash=AQBvCbImjh_pCrdk
+created_time: '2017-06-11T02:54:14+0000'
+updated_time: '2017-06-11T16:13:21+0000'
+name: FPGA Speech Recognition (MATLAB + Altera DE0)
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1511763625530007/
+shares:
+  count: 19
+id: '172338516139198_1511763625530007'
+reactions:
+  data:
+  - id: '2028263387462856'
+    name: Ahmed Rami
+    type: LIKE
+  - id: '2102776509950749'
+    name: Ali Abdelkhalek
+    type: LIKE
+  - id: '10155076145535808'
+    name: Ayman Elarian
+    type: LIKE
+  - id: '10208488609492331'
+    name: Mohamed Hessien
+    type: LIKE
+  - id: '2508171806074876'
+    name: Ahmed Ragab Shaarawy
+    type: LIKE
+  - id: '1488239487940262'
+    name: Saeed Hamdy
+    type: LIKE
+  - id: '10215212598528825'
+    name: Mohamed Salem
+    type: LIKE
+  - id: '10213387273850021'
+    name: Mostafa Gamil
+    type: LIKE
+  - id: '10155721239903283'
+    name: Khalid Gomaa
+    type: LIKE
+  - id: '10159763958360167'
+    name: Osama Haggag
+    type: LIKE
+  - id: '10155848201515605'
+    name: Mohammad Helmy
+    type: LIKE
+  - id: '10155035345537056'
+    name: Ahmed Ismail
+    type: LIKE
+  - id: '1827614920583008'
+    name: Ahmed Nasr
+    type: LIKE
+  - id: '1913642198649232'
+    name: Mostafa Mekawy
+    type: LIKE
+  - id: '10155417112958379'
+    name: Mayada Talaat
+    type: LIKE
+  - id: '1545574618853822'
+    name: Mohamed Farghal
+    type: LIKE
+  - id: '1985285518154529'
+    name: Sameh Mahmoud
+    type: LIKE
+  - id: '1984876914870666'
+    name: Moustafa Attia
+    type: LIKE
+  - id: '10210822050257755'
+    name: Mustafa Alaa
+    type: LIKE
+  - id: '1600620839985387'
+    name: Amjad Shehada
+    type: LIKE
+  - id: '10214286218046010'
+    name: Islam Elsayed
+    type: LIKE
+  - id: '10209253732935243'
+    name: Ahmed Nasr Eldin
+    type: LIKE
+  - id: '946350125532571'
+    name: Amr Rasslan
+    type: LIKE
+  - id: '10159750515025408'
+    name: Mohamed Tarek El Haddad
+    type: LIKE
+  - id: '957552837734915'
+    name: Ahmed Allam
+    type: LIKE
+  - id: '1669955469731291'
+    name: Ahmed Nasser
+    type: LIKE
+  - id: '1636031883102838'
+    name: Haytham Metawie
+    type: LIKE
+  - id: '1697585026964846'
+    name: Muhammed Nasser
+    type: LIKE
+  - id: '338953773255585'
+    name: Abdelhakeem Osama
+    type: LIKE
+  - id: '1565186880223948'
+    name: Esraa Omar
+    type: LIKE
+  - id: '1923550537695277'
+    name: Mohamed Kamel
+    type: LIKE
+  - id: '1826024707472018'
+    name: Ahmed AboRahma
+    type: LIKE
+  - id: '896463720514722'
+    name: Ashraf Madian
+    type: LIKE
+  - id: '10213488973273252'
+    name: Manar Sherif
+    type: LOVE
+  - id: '1291360544342967'
+    name: Hatem Said
+    type: LIKE
+  - id: '431367590615556'
+    name: Amr Alaa Yassen
+    type: LIKE
+  - id: '10156282685939236'
+    name: Eng Mohamed Ali
+    type: LIKE
+  - id: '1701804983204860'
+    name: Mohammed Ibrahim
+    type: LIKE
+  - id: '403777313391852'
+    name: أحمد
+    type: LIKE
+  - id: '10156476220735016'
+    name: Sherif Muhammad Omar
+    type: LIKE
+  - id: '10210524935021846'
+    name: Ahmed Nor
+    type: LIKE
+  - id: '572438923106129'
+    name: Khaled Essam
+    type: LOVE
+  - id: '1791452377571672'
+    name: Mohammed Alaa El Komy
+    type: LIKE
+  - id: '1510427509053187'
+    name: Mohamed Elshrif
+    type: LIKE
+  - id: '1411186705674535'
+    name: Kareem ElZeftawy
+    type: LIKE
+  - id: '10213215479774329'
+    name: Omar Khouly
+    type: LIKE
+  - id: '1177021049095715'
+    name: Atef Mohamed El-Naggar
+    type: LOVE
+  - id: '396372880787166'
+    name: Ahmed Adel Fahmy
+    type: LIKE
+  - id: '10213535171547302'
+    name: Peter Wagih
+    type: LOVE
+  - id: '846713762199670'
+    name: Mohammad Mostafa
+    type: LIKE
+  - id: '1655971554442248'
+    name: Kirolos William
+    type: LIKE
+  - id: '502426780158507'
+    name: Mohamed Shanan
+    type: LIKE
+  - id: '1530328990407747'
+    name: Rahma Elzefzafy
+    type: LIKE
+  - id: '10210807665171166'
+    name: Majed Rayan
+    type: LIKE
+  - id: '1745991058784432'
+    name: Mostafa Mhmoud
+    type: LIKE
+  - id: '10155441399893250'
+    name: Ahmad Mayo
+    type: LIKE
+  - id: '922823697876987'
+    name: Ayman Samir
+    type: LIKE
+  - id: '10215560476549083'
+    name: Mustafa Dagher
+    type: LIKE
+  - id: '928432290654276'
+    name: Mosťâfã Šhåbáń
+    type: LIKE
+  - id: '1466247800164499'
+    name: Mosaab Ahmed
+    type: LIKE
+  - id: '10214387062686331'
+    name: Mona Emaduddin
+    type: LIKE
+  - id: '1530671660364244'
+    name: Adham Ehab
+    type: LIKE
+  - id: '1423372581118916'
+    name: Mahmoud Abdelhafiz Tamam
+    type: LIKE
+  - id: '1588851347867181'
+    name: Mohamed Gamal
+    type: LIKE
+  - id: '2015246105157800'
+    name: Bdr Mohamed
+    type: LIKE
+  - id: '1537343163027536'
+    name: Ahmed Sabahi
+    type: LIKE
+  - id: '576878139333370'
+    name: Ahmad ElBatanouni
+    type: LIKE
+  - id: '575486812791390'
+    name: ادهم ادهم
+    type: LIKE
+  - id: '2015042048739859'
+    name: Omar Attia
+    type: LIKE
+  - id: '2089769777911117'
+    name: Ahmed Shaaban Mohamed
+    type: LIKE
+  - id: '10156034147089134'
+    name: Haytham Gharabawy
+    type: LIKE
+  - id: '2049229008426725'
+    name: Mostafa Shomer
+    type: LIKE
+  - id: '10208555315160686'
+    name: Khalid Abd El-Monem
+    type: LIKE
+  - id: '10210139567678503'
+    name: Moaz Rashad
+    type: LIKE
+  - id: '10213760109590589'
+    name: Mohamed El-Kamhawy
+    type: LIKE
+  - id: '1610486689048114'
+    name: Hanaa Mohamed
+    type: LOVE
+  - id: '10214471954062071'
+    name: Mohammad Aboelnour
+    type: LIKE
+  - id: '10156415267997448'
+    name: Mohamed Osman
+    type: LIKE
+  - id: '10160035809660220'
+    name: Shady Abdel Aziz
+    type: LIKE
+  - id: '10216266870171420'
+    name: Rana El-menshawy
+    type: LIKE
+  - id: '2025075471115643'
+    name: Ahmed Jamal
+    type: LIKE
+  - id: '10215205650035145'
+    name: Mohamed Ahmed Sharaf
+    type: LIKE
+  - id: '10160393352720497'
+    name: Khaled Sakr
+    type: LIKE
+  - id: '1555285724567306'
+    name: محمد حسن
+    type: LIKE
+  - id: '2025466647725159'
+    name: Ahmad Khalafallah
+    type: LIKE
+  - id: '1515755041855847'
+    name: Ahmed Akef
+    type: LIKE
+  - id: '10155391413520945'
+    name: Ahmed Sha'ban
+    type: LIKE
+  - id: '10212184714745488'
+    name: Kareem Othman
+    type: LIKE
+  - id: '10215443322775048'
+    name: Mohamad Ibn Osama
+    type: LIKE
+  - id: '10215222242286791'
+    name: Ahmed Ismail
+    type: LIKE
+  - id: '10215292266081612'
+    name: Ihab Othman
+    type: LIKE
+  - id: '10213805407262542'
+    name: Ahmed Nagy
+    type: LIKE
+  - id: '1721736544545132'
+    name: محمد بن رمضان
+    type: LIKE
+  - id: '1534128009998872'
+    name: نور الدين
+    type: LIKE
+  - id: '10155997166729547'
+    name: Khaled Zoheir
+    type: LIKE
+  - id: '10155780654440395'
+    name: Emad Aslan
+    type: LIKE
+  - id: '1598356573582617'
+    name: Mohammed Hemed
+    type: LIKE
+  - id: '1580113962082065'
+    name: Ahmed Gamal El-Taweel
+    type: LOVE
+  - id: '10215864285619330'
+    name: Moustafa Kassem
+    type: LIKE
+  - id: '10156208529167577'
+    name: Amr Ibrahem
+    type: LIKE
+  - id: '1197184507050730'
+    name: Maha Amin
+    type: LIKE
+  - id: '10213578505611127'
+    name: Kerolles Roshdi
+    type: LIKE
+  - id: '2086962061590691'
+    name: Abdelrahman H. AboSamra
+    type: LIKE
+  - id: '10155294013089607'
+    name: الفرماوى طلعت
+    type: LIKE
+  - id: '1789085081125384'
+    name: Alaa Momen
+    type: LIKE
+  - id: '1791332544218371'
+    name: زكريا جمعة
+    type: LIKE
+  - id: '1873673082698558'
+    name: Moh Dem
+    type: LIKE
+  - id: '944397249051437'
+    name: Tarek Ali
+    type: LIKE
+  - id: '797062407167027'
+    name: اسراء الهادي
+    type: LIKE
+  - id: '1572579959486144'
+    name: Abdelrahman Sayed
+    type: LIKE
+  - id: '1227309210733354'
+    name: Ahmed Jimy
+    type: LIKE
+  - id: '1571279736290412'
+    name: خالد عبد الفتاح
+    type: LIKE
+  - id: '1159028637580896'
+    name: Mohammed Gamal
+    type: LIKE
+  - id: '1772542006152666'
+    name: Mohamed AbuIssa
+    type: LIKE
+  - id: '10160105091405314'
+    name: Mohamed Elsherif
+    type: LIKE
+  - id: '10156052502884860'
+    name: Omar Essam
+    type: LIKE
+  - id: '10155587494733172'
+    name: Khaled Barie
+    type: LIKE
+  - id: '10215482677129679'
+    name: Ahmed Adel Radwan
+    type: LIKE
+  - id: '1608327662579661'
+    name: Karim Shoair
+    type: LIKE
+  - id: '10156096685587328'
+    name: Mohamed Gamal
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTRNemMyTkRJek9UVTFPakUwT1RjMU56azFNRGM2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TlRnMk1URTNNekkzT2pFME9UY3hORGs0T0RFNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-06-11T02:55:50+0000'
+    from:
+      name: Hossam Mohammed
+      id: '1793040840748253'
+    message: مش ده حاجة شبه اللي عملتوها Waleed Hamdy
+    id: '1511764232196613'
+  - created_time: '2017-06-11T06:12:31+0000'
+    from:
+      name: Menna Mustafa
+      id: '1597124390366331'
+    message: Mohamed Atef :D
+    id: '1511904868849216'
+  - created_time: '2017-06-11T08:18:07+0000'
+    from:
+      name: Mohamed Elshorbagy
+      id: '2203406963006619'
+    message: Abdelrhman El Behery شوف ده كده :D
+    id: '1511978658841837'
+  - created_time: '2017-06-11T09:40:50+0000'
+    from:
+      name: Mohamed Osman
+      id: '10156415267997448'
+    message: Very promising project and nice documentation. I would suggest reporting
+      the evaluation in a more professional way (accuracy, confusion matrix, etc..),
+      and also extending to more digits.
+    id: '1512041852168851'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV4TVRjMk5ESXpNakU1TmpZAeE16b3hORGszTVRRNU56VXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV4TWpBME1UZAzFNakUyT0RnMU1Ub3hORGszTVRjME1EVXgZD
+attachments:
+  data:
+  - description: Implementation of a realtime speech recognition system, Frontend
+      on MATLAB, Backend on Altera DE0 using VHDL. It was built for a semester project.
+      ----------...
+    media:
+      image:
+        height: 720
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQCoXxkCfDid6wLM&w=720&h=720&url=https%3A%2F%2Fi.ytimg.com%2Fvi%2FhxbMyYtls48%2Fmaxresdefault.jpg&cfs=1&_nc_hash=AQDRUiRMjDO50hKC
+        width: 720
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DhxbMyYtls48&h=ATPsRsBoqkzufKbZ8FgtxONXcTZhOWp34PIMAUfgvQDFhtSmrFNYq6G8IFi2blpy54yH86R-s62KYs3G3BbI0D5zabJDr-_PtsaN&s=1&enc=AZMOLtpxM0DLnG89WO7NqMsiPI1t9fOCnKPcnBK898DE1PfqY8E7rtudzrWNtnc6KtLmW6BcbU8EXtMlNnNYJwPG
+    title: FPGA Speech Recognition (MATLAB + Altera DE0)
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DhxbMyYtls48&h=ATPsRsBoqkzufKbZ8FgtxONXcTZhOWp34PIMAUfgvQDFhtSmrFNYq6G8IFi2blpy54yH86R-s62KYs3G3BbI0D5zabJDr-_PtsaN&s=1&enc=AZMOLtpxM0DLnG89WO7NqMsiPI1t9fOCnKPcnBK898DE1PfqY8E7rtudzrWNtnc6KtLmW6BcbU8EXtMlNnNYJwPG

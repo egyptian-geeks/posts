@@ -1,0 +1,86 @@
+---
+message: "موقع IMDb بيقدم خاصية إن اي حد ممكن يعمل list من أفلام معينة زي دي مثلاً
+  http://www.imdb.com/list/ls052109630/ الموقع ببيقدم خاصية إنك ممكن ت export اللليستة
+  لملف csv عن طريق لينك شبه ده http://www.imdb.com/list/export?list_id=ls052109630&author_id=ur42682637
+  اللينك الآخير ده لما بيتفتح من البراوزر عادي بيحمل شوية وبعديها بيعمل داونلود بس
+  أنا لو أديت اللينك ده ل wget أو curl (بدون أي options زيادة) بيعمل داونلود لصفحة
+  error 404 بس! \nهل في حل للمشكلة دي؟ وهو إيه سببها اساساً؟"
+from:
+  name: Ahmed Khaled
+  id: '1673431476060100'
+type: status
+created_time: '2016-02-10T21:32:50+0000'
+updated_time: '2016-02-10T23:51:04+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1077717595601281/
+id: '172338516139198_1077717595601281'
+reactions:
+  data:
+  - id: '1978430992430706'
+    name: Ingy Mounir
+    type: LIKE
+  - id: '10214030500170038'
+    name: Omar Kamel
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTNPVEUwTnpNd05qSTVPakUwTlRVeE5Ea3dOVE02TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBek56STVNakl6T0RveE5EVTFNVFF3TlRRMU9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2016-02-10T21:34:47+0000'
+    from:
+      name: Ahmed Khaled
+      id: '1673431476060100'
+    message: أنا بكتب bash script من ضمن الحجات الي بتعملها إنها بتنزل الملف ده وبتعمل
+      عليه شوية عمليات
+    id: '1077718025601238'
+  - created_time: '2016-02-10T21:37:55+0000'
+    from:
+      name: Ahmed Melege
+      id: '10156112171242375'
+    message: انا فتحت اللنك من browser واداني 404.. تقريبا لازم كوكيز اللوج ان بتاعتك
+    id: '1077718755601165'
+  - created_time: '2016-02-10T21:39:19+0000'
+    from:
+      name: Ahmed Khaled
+      id: '1673431476060100'
+    message: أول لما فتحت اللينك من البراوزر
+    id: '1077719125601128'
+  - created_time: '2016-02-10T21:40:00+0000'
+    from:
+      name: Ahmed Melege
+      id: '10156112171242375'
+    message: افتحه من private windowاو incognite mode
+    id: '1077719395601101'
+  - created_time: '2016-02-10T21:41:05+0000'
+    from:
+      name: Ahmed Khaled
+      id: '1673431476060100'
+    message: "أه تمام هجرب خاصية --keep-session-cookies ف wget أو أي حاجة شبيها ليها
+      \nحضرتك متعرفش طريقة ياعني ممكن أنزل بيها الملف ده؟\nشكراً عامة"
+    id: '1077719802267727'
+  - created_time: '2016-02-10T21:51:01+0000'
+    from:
+      name: Mohamed Bassem
+      id: '10212826240185281'
+    message: In chrome > developer console > network tab, you can right click on the
+      request that requests the file and you'll find "Copy as a curl command" this
+      one will keep your cookies and headers as if you are requesting it from the
+      browser. For sure you'll find something similar in Firefox
+    id: '1077723128934061'
+  - created_time: '2016-02-10T22:06:33+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: http://www.computerhope.com/unix/wget.htm
+    id: '1077727382266969'
+  - created_time: '2016-02-10T23:51:01+0000'
+    from:
+      name: Ahmed Kamal
+      id: '10214925485592247'
+    message: https://addons.mozilla.org/en-US/firefox/addon/cliget/
+    id: '1077760385597002'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEEzTnpjeE9EQXlOVFl3TVRJek9Eb3hORFUxTVRRd01EZAzMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEEzTnpjMk1ETTROVFU1TnpBd01qb3hORFUxTVRRNE1qWTAZD

@@ -1,0 +1,47 @@
+---
+message: Any good reasons to use unit testing and adopt the Test Driven Developments?
+  Real world examples are appreciated.  Thanks
+from:
+  name: Muhammad El-Hennawy
+  id: '10213118809797201'
+type: status
+created_time: '2015-12-11T08:24:59+0000'
+updated_time: '2015-12-11T16:40:53+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1043587452347629/
+id: '172338516139198_1043587452347629'
+comments:
+  data:
+  - created_time: '2015-12-11T08:34:06+0000'
+    from:
+      name: Ahmed Maher
+      id: '1555205924527489'
+    message: Search for "TDD SECC" on youtube
+    id: '1043589415680766'
+  - created_time: '2015-12-11T09:26:39+0000'
+    from:
+      name: Mohamed Amin
+      id: '2016714868586746'
+    message: "I'll tell my side of the story as I asked the same question and why
+      bother spending time on writing tests rather than diving in the functionality
+      code it self.\n\nTo summarize there is two major reasons I benefited from writing
+      and maintain tests covered code:\n1. On the process it self you will be forced
+      to break down hypothetical function to testable small pieces witch actually
+      eases later on writing the functionality it self \nExample : \nWrite a function
+      calls api retrieve data according to a parameter and returns filtered results
+      according to another parameter.\n Tests:\n1. Function exists\n2. Can call api
+      with 200 response \n3. If parameters type are wrong or undefined\nEtc.. \nWhen
+      your write your function later it will be a walk in a park because you're already
+      know what to do.\n\n2. Second major reason is simple to have as much as you
+      can code base covered with tests so when every time you add one more feature
+      you will make sure it doesn't ruin something else."
+    id: '1043601145679593'
+  - created_time: '2015-12-11T16:40:52+0000'
+    from:
+      name: Taha Amin
+      id: '10155815529215590'
+    message: https://www.manning.com/books/the-art-of-unit-testing-second-edition
+    id: '1043741088998932'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEEwTXpVNE9UUXhOVFk0TURjMk5qb3hORFE1T0RJeU9EUTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEEwTXpjME1UQTRPRGs1T0Rrek1qb3hORFE1T0RVeU1EVXoZD

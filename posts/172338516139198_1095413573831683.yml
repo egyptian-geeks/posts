@@ -1,0 +1,63 @@
+---
+message: |-
+  Hello,
+  I wrote this C implementation of the quick sort algorithm today. It works most of the time but sometimes I find a relatively small number embedded between two big ones..
+  I believe there's something wrong in one very specific case, but I can't really figure it out.
+  Please check out the code and tell me if you find out something.
+  Thanks in advance.
+link: https://gist.github.com/JiMadness/0306568ecc5329d9e5d1
+from:
+  name: Mohamed Gamal
+  id: '10156096685587328'
+type: link
+created_time: '2016-03-11T14:29:09+0000'
+updated_time: '2016-03-11T17:21:22+0000'
+name: Implementation of quick sort algorithm in C
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1095413573831683/
+id: '172338516139198_1095413573831683'
+comments:
+  data:
+  - created_time: '2016-03-11T16:19:18+0000'
+    from:
+      name: Mohamed Nabil
+      id: '10214391993461017'
+    message: |-
+      Try this test case: {1,0,3,2}
+
+      Making the pivot 3 will make the algorithm ignore the existence of the last element, this happened because of this part.
+      http://pastebin.com/Gp659VEH
+      in the second while loop, when it goes in the first iteration it doesn't actually change the last element with the pivot, when the pivot+1 is the last element while doing the swapping part it doesn't swap them it keeps the array as it is which is wrong.
+      Debugging
+      temp= 2 *pivot= 3 *(pivot+1)= 2 *last= 2
+      temp= 2 *pivot= 3 *(pivot+1)= 3 *last= 3
+      temp= 2 *pivot= 3 *(pivot+1)= 3 *last= 3
+      temp= 2 *pivot= 3 *(pivot+1)= 2 *last= 2
+      so after this nothing changed in the array.
+
+      To fix the problem I added another if inside the previously mentioned if, it checks if the pivot+1 == last then it makes a normal swap otherwise it does the previous work.
+      The fixed code: http://pastebin.com/amGJmqVn
+      Another thing I commented this whole if "if(*(pivot+1)<*pivot)" http://pastebin.com/0xd4ZAAE the program's behaviour didn't change so I suspect it is a redundant code but I'm not sure.
+
+      Try using small test cases instead of using random test cases generator, the first test case that I tried was very trivial {0, 1} and it failed directly.
+      Lastly, I don't recommend using such a code in anything, even after debugging it I'm not sure that it will work properly its very hard to trace or to find any bugs in it and the pointers are very irritating and confusing, try rewriting it again without the pointers I don't think it will produce much overhead in either time or memory.
+    id: '1095465567159817'
+  - created_time: '2016-03-11T16:46:41+0000'
+    from:
+      name: Mohamed Gamal
+      id: '10156096685587328'
+    message: |-
+      Thanks alot, it works now :D
+      I know that using pointers wasn't a good idea. I haven't coded in C for about 6 months and I needed to have a quick revision on the syntax, pointers,etc ... so I challenged myself to implement that algorithm using pointers only :D
+    id: '1095475990492108'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE1TlRRMk5UVTJOekUxT1RneE56b3hORFUzTnpFek1UWXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE1TlRRM05UazVNRFE1TWpFd09Eb3hORFUzTnpFME9EQXgZD
+attachments:
+  data:
+  - description: Implementation of quick sort algorithm in C
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgist.github.com%2FJiMadness%2F0306568ecc5329d9e5d1&h=ATNuPru4muhEjxBEr0sAczgJ2a7Me-XXnKM-UIPNTWo92o57Km0UYryU7rsuv8QGmYduje4o0mgWKQjxszoEmO9Wcw2nL56-XRRE&s=1&enc=AZMWEBj-YpS0ohT_0NIeBhka7Muqk88Qj8JDzNcgM1UQH6SckwIgoJSSeCsxqZQ60oJ2tCcPWhFDYpmWduX6v4Bx
+    title: Implementation of quick sort algorithm in C
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgist.github.com%2FJiMadness%2F0306568ecc5329d9e5d1&h=ATNuPru4muhEjxBEr0sAczgJ2a7Me-XXnKM-UIPNTWo92o57Km0UYryU7rsuv8QGmYduje4o0mgWKQjxszoEmO9Wcw2nL56-XRRE&s=1&enc=AZMWEBj-YpS0ohT_0NIeBhka7Muqk88Qj8JDzNcgM1UQH6SckwIgoJSSeCsxqZQ60oJ2tCcPWhFDYpmWduX6v4Bx

@@ -1,0 +1,51 @@
+---
+message: "Any one knows a perfect example of service agreement for a client who demand
+  a long time support? how to charge them? \n\nThanks"
+from:
+  name: Ali M. Ismail
+  id: '2038705159743591'
+type: status
+created_time: '2016-02-23T18:55:39+0000'
+updated_time: '2016-02-23T21:03:59+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1085376694835371/
+id: '172338516139198_1085376694835371'
+reactions:
+  data:
+  - id: '1487671784675336'
+    name: Mohamad Emad
+    type: LIKE
+  - id: '10156301546469701'
+    name: Amr ELsaqqa
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlPVGMxT0RjM05qZAzFPakUwTlRZAeU5UUXdNamM2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TlRZAMU56RTBOekF3T2pFME5UWXlOVE01T1RrNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-02-23T18:59:14+0000'
+    from:
+      name: Nasser Mohammed Ali
+      id: '10213493310141587'
+    message: f
+    id: '1085377781501929'
+  - created_time: '2016-02-23T21:03:59+0000'
+    from:
+      name: Mohammad Fouad
+      id: '10155755444625845'
+    message: |-
+      Not an expert opinion, I will assume that you are talking about Support for a product or hardware. it should cover the following, the more options the higher the cost or the service level:
+
+      - how many Change Requests if any, and will they receive upgrades for free or what cost.
+      - days until you address support requests (Same working day, 24 hours, 3 business days)
+      - If you host the code on your own servers, then it should state the uptime, and amount of database backups, bandwidth, storage, etc
+      - How many years you will support the product (if it is in .Net 2.0 for example or runs on Windows XP you will find developers that maintain and run such old technology somewhat expensive, so your cost will be higher)
+      - How many versions you will support.(some clients will be very slow to upgrade to newer versions, imagine if you ask Microsoft to support your old Windows 98 version after 20 years)
+      - How will you support hardware and infrastructure changes, if they upgrade to Windows12 in 2 years, will you make sure your products works on that version?
+
+      according to the book "Business of Software" corporate customers expect that the up-front software license fee will account for only about 30 percent of the total cost of the software over its lifetime, with the other 70 percent going to service and maintenance costs.
+    id: '1085437328162641'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE0TlRNM056YzRNVFV3TVRreU9Ub3hORFUyTWpVek9UVTEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE0TlRRek56TXlPREUyTWpZAME1Ub3hORFUyTWpZAeE5ETTUZD

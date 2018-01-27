@@ -1,0 +1,257 @@
+---
+message: "صباح الخير . مش عارف السؤال دا يصنف علي انه حاجة في ال NLP ولا لاء . \n\nلو
+  عندي Text . عبارة عن مقال ومحتاج اطلع منه اكتر كلمة مكررة . احيانا الكلمة بتيجي
+  باكتر من شكل في الجملة ونفس المعني زي اني يكون اولها الف ولام . او يجي قبلها حرف
+  جر . \nاو انها تكون نفس الشكل بس مش نفس المعني . \n\nالمشاكل :\n1- فيه كلمات بيكون
+  اولها الف ولام . وبالتالي مش هتكون نفس شكل الكلمة بدون الف ولام.\n2- فيه كلمات في
+  الجملة بتدأ بحرف جر زي حرف الباء - هذا الطفل يلعب بكرة جميلة. \n\nازاي اطلع الكلمة
+  الاصلية الي هي كرة. لو حذفت  الباء فيه كلمات ممكن  يكون حرف ال باء فيها اصلي زي
+  كلمة بكرة ( الصباح) . مع انهم نفس الشكل . \n\nالاولي كرة القدم . والتانية بكرة الي
+  هي الصباح . \n\nالحلول الي فكرت فيها : \n1- اني ابدأ اجمع كل الكلمات واصنفها علي
+  انها اسم او فعل . ودا طبعا هيتطلب اني ابدأ ادور علي اي حاجة فيها الكلمات مصنفة او
+  اني اجمعها بطريقة ما \n\n===== update . \nالحل لغاية دلوقتي اني  ادور علي stemming
+  . \n\nسؤال تاني معلش . كدا هيبدأ يطلعلي ال ROOT الخاصة بالكلمة . او اصلها . \nبس
+  في حالات زي الي فوق دي كلمة بكرة الاولي الي هي ( يلعب بكرة) \nوالكلمة التانية (
+  بكرة ) الي هي الصبح . \nالكلمتين شبه بعض في الشكل لكن مش نفس المعني . لو عملت اي
+  كويري هتطلع النتيجتين . \nلكن المفروض انه يطلع الكلمة من المعني بتاعها في سياق الجملة
+  . \n\nيعني لو اديته في البحث كلمة يعلب بكرة . يطلعلي كل النتايج الي بتتكلم الكرة
+  ( كرة القدم ) \nوميطلعش اي نتيجة مقصود بيها صباح . زي الآية الكريمة \nولقد صبحهم
+  بكرة عذاب مستقر . \nالاتنين نفس الشكل بس مش نفس المعني . \n\nفهل الطرق الي فوق بتحل
+  مشكلة زي كدا ؟\nلو اه فشكرا جزيلا . \nلو لاء . شكرا جزيلا برده بس ايه الي المفروض
+  ابدأ ادور عليه علشان احل مشكلة زي كدا ؟\nوشكرا ليكم مرة تاني .\n\nفي اي حلول تاني
+  ؟"
+from:
+  name: Mohamed Fergany
+  id: '10215339863195300'
+type: status
+created_time: '2016-05-12T09:52:06+0000'
+updated_time: '2016-05-13T20:39:48+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1142036245836082/
+shares:
+  count: 1
+id: '172338516139198_1142036245836082'
+reactions:
+  data:
+  - id: '1570799862970007'
+    name: Ahmed Attalla
+    type: LIKE
+  - id: '929472323875062'
+    name: Mo'men Tawfik
+    type: LIKE
+  - id: '2004705666469226'
+    name: Ahmed Essam
+    type: LIKE
+  - id: '10209361982760009'
+    name: Ahmed N. Asker
+    type: LIKE
+  - id: '725170707681165'
+    name: Belal Zewain
+    type: LIKE
+  - id: '744364165648487'
+    name: Ahmed Elsayed Shahawi
+    type: LIKE
+  - id: '1978009525783037'
+    name: Ahmed Magdy
+    type: LIKE
+  - id: '10210172319016618'
+    name: Mohamed Hagras
+    type: LIKE
+  - id: '1735197893208926'
+    name: Ahmad Zain
+    type: LIKE
+  - id: '10156121508774214'
+    name: Mohamed Ahmed Sultan
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhNakF3TWpZAd05UTXlPakUwTmpNeE5EUXpNVFk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TnpNNU5qRTBNakV6T2pFME5qTXdORFk0T1RrNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-05-12T09:54:41+0000'
+    from:
+      name: Osman Ahmed Osman
+      id: '10101499994660478'
+    message: ده  اسمه stemming واعتقد ان في libraries موجودة ليها حتى بالعربي
+    id: '1142037155835991'
+  - created_time: '2016-05-12T09:55:45+0000'
+    from:
+      name: Mohamed Ahmed Sultan
+      id: '10156121508774214'
+    message: ايه علاقة NLP  باللي انت بتقوله ده با فرجاني
+    id: '1142037452502628'
+  - created_time: '2016-05-12T10:03:43+0000'
+    from:
+      name: Ahmad Zain
+      id: '1735197893208926'
+    message: مجربتش حاجه زي Solr نسبيا ممكن تساعدك على حد فهمي لكلامك
+    id: '1142044322501941'
+  - created_time: '2016-05-12T10:05:25+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "This would require implementation of some sort of neural network stuff..
+      \n with supervised training samples of text etc etc..\nSo I don't think that
+      regular coding with db lookup methods..  etc would help you"
+    id: '1142045009168539'
+  - created_time: '2016-05-12T10:07:57+0000'
+    from:
+      name: Eslam Mohamed
+      id: '1643840219014923'
+    message: اعتقد ان ده ليه علاقه بال neural network and data mining
+    id: '1142046009168439'
+  - created_time: '2016-05-12T10:12:02+0000'
+    from:
+      name: Hamdy Khalil
+      id: '10160159961475500'
+    message: You need a stemmer and one of the the best is the one developed by Khoja
+      http://zeus.cs.pacificu.edu/shereen/research.htm#stemming
+    id: '1142048105834896'
+  - created_time: '2016-05-12T10:27:24+0000'
+    from:
+      name: Basma Osman
+      id: '10155458642069624'
+    message: this can't be done with regular coding it is some sort of ML algorithms
+      not the  NLP  it is stemming and there is a lot of libraries for english language
+      i don;t know if there any for Arabic
+    id: '1142053232501050'
+  - created_time: '2016-05-12T10:33:15+0000'
+    from:
+      name: Eman Abbas
+      id: '1246864805414174'
+    message: "حضرتك محتاج تجيب جذر الكلمه أو root  الأول لكل الكلمات و بعد كده تطلع
+      المكرر بمعني مثلا كتاب و يكتب و مكتب أصلهم \" كتب\"  وفعلا في libraries  بتعمل
+      العمليه دي \nمبدأيا كده قبل ما تعمل اي عمليه علي تكست محتاج تعمل الاتي \nText
+      Preprocessing this includes:\n• Removing Special Characters ) # و $ %\n• Remove
+      English letters.\n• Remove empty string, multiple spaces.\n• Remove (Prefixes,
+      Suffixes).  ال و باا و فال - ون \n• Remove stop off words.بعد - من - علي - قبل
+      \n• Normalization.(stemming)\n• Replace duplicated letters with only one.( شيررررررررررر"
+    id: '1142055672500806'
+  - created_time: '2016-05-12T10:53:20+0000'
+    from:
+      name: Mohamed Fergany
+      id: '10215339863195300'
+    message: "سؤال تاني معلش . كدا هيبدأ يطلعلي ال ROOT الخاصة بالكلمة . او اصلها
+      . \nبس في حالات زي الي فوق دي كلمة بكرة الاولي الي هي ( يلعب بكرة) \nوالكلمة
+      التانية ( بكرة ) الي هي الصبح . \nالكلمتين شبه بعض في الشكل لكن مش نفس المعني
+      . لو عملت اي كويري هتطلع النتيجتين . \nلكن المفروض انه يطلع الكلمة من المعني
+      بتاعها في سياق الجملة . \n\nيعني لو اديته في البحث كلمة يعلب بكرة . يطلعلي كل
+      النتايج الي بتتكلم الكرة ( كرة القدم ) \nوميطلعش اي نتيجة مقصود بيها صباح .
+      زي الآية الكريمة \nولقد صبحهم بكرة عذاب مستقر . \nالاتنين نفس الشكل بس مش نفس
+      المعني . \n\nفهل الطرق الي فوق بتحل مشكلة زي كدا ؟\nلو اه فشكرا جزيلا . \nلو
+      لاء . شكرا جزيلا برده  بس ايه الي المفروض ابدأ ادور عليه علشان احل مشكلة زي
+      كدا ؟\nوشكرا ليكم مرة تاني ."
+    id: '1142062859166754'
+  - created_time: '2016-05-12T10:55:33+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: الكلام ده بيتعمل في Apache Solr
+    id: '1142063445833362'
+  - created_time: '2016-05-12T11:08:42+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: |-
+      انت محتاج NLP أللى هى natural language processing (معالجة اللغة الطبيعية )
+      دى غير الـ Neuro-linguistic programming  (البرمجة اللغوية العصبية)
+      ده اللي عامل لخبطة
+    id: '1142068102499563'
+  - created_time: '2016-05-12T11:11:44+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "دى اللى جزء منها الـ Stemming أللى قلنا عليه ، بس اللى انت عايزه اكتر
+      من مجرد stemming \nانت محتاج حاجة تفهم الـ context الاول  \nhttps://en.wikipedia.org/wiki/Natural_language_processing"
+    id: '1142068869166153'
+  - created_time: '2016-05-12T11:22:10+0000'
+    from:
+      name: Sameer Al-Salous
+      id: '1634789043266994'
+    message: "Mohamed Fergany \nأظن يا بشمهندس اللي انت عايزه تحديدا في مكتبة خالد
+      شمعة للغة العربية البحث بساق أو جذر الكلمة"
+    id: '1142072575832449'
+  - created_time: '2016-05-12T11:23:33+0000'
+    from:
+      name: Sameer Al-Salous
+      id: '1634789043266994'
+    message: Mohamed Fergany  http://www.ar-php.org/
+    id: '1142073295832377'
+  - created_time: '2016-05-12T11:23:56+0000'
+    from:
+      name: Hisham Hassan
+      id: '10156155579969187'
+    message: موضوع شيق. انا كمان باستفيد من السؤال واجابات الشباب :)
+    id: '1142073462499027'
+  - created_time: '2016-05-12T11:35:14+0000'
+    from:
+      name: Mohammed Hussien
+      id: '10154922289347024'
+    message: Mohab El-Shishtawy :)
+    id: '1142077822498591'
+  - created_time: '2016-05-12T11:55:31+0000'
+    from:
+      name: عبدالله محمد
+      id: '10213101784151931'
+    message: |-
+      ديه شويه حاجات ميكروسوفت عالمها تقدر تستخدمها من خلال azure
+      http://research.microsoft.com/apps/mobile/showpage.aspx?page=%2Fen-us%2Fprojects%2Fatks%2F
+    id: '1142084729164567'
+  - created_time: '2016-05-12T14:24:45+0000'
+    from:
+      name: Mohamed Fawzy
+      id: '10159960198215788'
+    message: I think this would help you you can also customize it for your needs
+      https://www.elastic.co/guide/en/elasticsearch/guide/current/controlling-stemming.html
+    id: '1142163852489988'
+  - created_time: '2016-05-12T14:53:29+0000'
+    from:
+      name: Ahmed A. Ibrahim
+      id: '10214818255267156'
+    message: this was our GP check this http://www.scribd.com/doc/121008084/Arabic-keyphrase-Extraction
+    id: '1142177145821992'
+  - created_time: '2016-05-12T14:58:08+0000'
+    from:
+      name: Nader Mohamed
+      id: '1768248353197224'
+    message: "Osama M Mahmoud Tarek Mahmoud  afedona \U0001F600"
+    id: '1142179785821728'
+  - created_time: '2016-05-12T19:40:43+0000'
+    from:
+      name: Mohammed Hegazy
+      id: '1529284890500539'
+    message: ممكن تتعمل ك job للل mapreduce ,, دا مثال عملي مشهور اسمه wordcount هتلاقي
+      منه امثله  كتير ف stackoverflow ,, بالنسبه لجزء القطع ادامنا حل كويس لو هنستخدم
+      جافا substring function ود تشيلك الجزء اللي عاوزه من string وطبعا هتعملها ف
+      لووب ، طبعا هناخد الline كله وحطينا عليه split function عشان نبروسيس علي كلمه
+      كلمه
+    id: '1142324469140593'
+  - created_time: '2016-05-13T11:28:31+0000'
+    from:
+      name: Mohab El-Shishtawy
+      id: '10215847428638318'
+    message: "You will need to it's position in sentence it's something called (POS)
+      part of speech though you can predict is it a \"noun\" or \"adj\" one of the
+      best out there in Arabic researches (they have a dedicated department fir Arabic
+      researches) http://nlp.stanford.edu/software/tagger.shtml\nThere are a lot of
+      researches in this area specially in Arabic field you can start with this course
+      if you need to understand principles first then you can look into different
+      techniques and combine to choose what suits your needs \nhttps://www.coursera.org/course/nlp"
+    id: '1142695612436812'
+  - created_time: '2016-05-13T13:01:12+0000'
+    from:
+      name: Ahmed Attalla
+      id: '1570799862970007'
+    message: Mohamed Hamdy Mohammed Yousef The same thing that we're working on. See
+      the comments!
+    id: '1142732755766431'
+  - created_time: '2016-05-13T20:39:48+0000'
+    from:
+      name: Ahmed Omar
+      id: '1167702619999771'
+    message: "شوف كده \nElasticsearch \nيا \nMohamed Mohamed Fergany"
+    id: '1142963229076717'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUwTWpBek56RTFOVGd6TlRrNU1Ub3hORFl6TURRMk9EZA3kZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUwTWprMk16SXlPVEEzTmpjeE56b3hORFl6TVRjeE9UZAzQZD

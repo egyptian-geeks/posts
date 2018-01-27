@@ -1,0 +1,40 @@
+---
+message: |-
+  Hi geeks, i am starting a new project for training purpose and I need some sort of technical analysis for it. I wanna make a video library website like shahid.net or pluralsight.com. i have .net & angular experience but i dont know what it takes to make a website like shahid.net. should I use angular, what is the best CDN and does it really matter if i didn't use one? etc.. any advice or any link will be appreciated.
+  thanks
+from:
+  name: Ahmed Ezzat
+  id: '10212429445025821'
+type: status
+created_time: '2017-06-21T00:12:29+0000'
+updated_time: '2017-06-21T13:10:12+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1522113887828314/
+id: '172338516139198_1522113887828314'
+reactions:
+  data:
+  - id: '1821918031216201'
+    name: Muhamad Omar
+    type: LIKE
+  - id: '1561022257326859'
+    name: احمد قرواش
+    type: LIKE
+  - id: '10215155574907910'
+    name: Mohamed H. Safey
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhPVFF3TmpZAek5ETTJPakUwT1RneE9UUXpPRFU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRNNE9EUTVPRFU1TURveE5EazRNREk0T0RJeE9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2017-06-21T13:10:05+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: Hosting your own videos is a bandwidth hog. Better use a CDN. Amazon
+      offer a service for *streaming* videos https://aws.amazon.com/cloudfront/webinars/
+    id: '1522635014442868'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV5TWpZAek5UQXhORFEwTWpnMk9Eb3hORGs0TURVd05qQTUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV5TWpZAek5UQXhORFEwTWpnMk9Eb3hORGs0TURVd05qQTUZD

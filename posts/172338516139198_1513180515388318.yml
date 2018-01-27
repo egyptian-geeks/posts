@@ -1,0 +1,100 @@
+---
+message: |-
+  بعد اذنكم محتاج نصيحة
+  دلوقتي سيستم داخلي الي بيطلع ع الداتا الي جواه العاملين في الشركة.
+  بيتم عمل Login لحسابات علي منصات تواصل اجتماعي ويتسحب منها الكوكيز
+  العملية ديه بتاخد وقت طويل شوية
+  وطبعا مع كل عملية Connect هيكون لازم سحب الكوكيز ديه تاني
+  بالتالي وقت انتظار .
+
+  فكرت اعمل Save للكوكيز ديه في الداتابيز
+  باني اعمل Serialize ليها واسيفها Key و Value
+  او اسيفها في فايلات.
+
+  هل ده حل مناسب ؟
+  هل في حل افضل منه؟
+
+  ملحوظة مينفعش فيها OAuth
+from:
+  name: احمد قرواش
+  id: '1561022257326859'
+type: status
+created_time: '2017-06-12T11:30:55+0000'
+updated_time: '2017-06-12T23:14:19+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1513180515388318/
+id: '172338516139198_1513180515388318'
+reactions:
+  data:
+  - id: '10155747348649733'
+    name: Islam R Hefny
+    type: LIKE
+  paging:
+    cursors:
+      before: TnpZAeE56azBOek15T2pFME9UY3lOamN5TURnNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TnpZAeE56azBOek15T2pFME9UY3lOamN5TURnNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-06-12T11:33:13+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: |-
+      مش فاهم انت بتعمل لوج ان على مواقع تانية ليه، انت عايز الموقع ده يدخلهم في مواقع تانية وﻻ عايز تعمل فكرة login with facebook يعنى؟
+      المفروض تستخدم OAuth 2.0 ومالكش دعوة بالكوكيز دى !
+    id: '1513181718721531'
+  - created_time: '2017-06-12T11:33:22+0000'
+    from:
+      name: Tony Raoul Iscaros
+      id: '10156165643313420'
+    message: لا , المفرض تستخدم  Acess token مش  cookies
+    id: '1513181782054858'
+  - created_time: '2017-06-12T11:35:44+0000'
+    from:
+      name: Tony Raoul Iscaros
+      id: '10156165643313420'
+    message: you should use access tokens from OAuth , don't forget to encrypt them..
+    id: '1513185705387799'
+  - created_time: '2017-06-12T11:37:27+0000'
+    from:
+      name: Mohamed Gamal
+      id: '10156096685587328'
+    message: معلش ايه علاقة العاملين فالشركة أو السيستم عامة بالكلام دا ؟
+    id: '1513187068720996'
+  - created_time: '2017-06-12T11:40:49+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "هو السستم والعاملين في الشركة دول بيعملوا ايه لا مؤاخذة \U0001F602\nنظام
+      الماركتنج بقى والاسبام والاوتو بوست والاوتو لايك والاوتو جوين جروب والجو ده
+      \U0001F603\nماهو احنا لازم نفهم برده احنا بنساعدك في ايه لا مؤاخذة \U0001F602"
+    id: '1513189142054122'
+  - created_time: '2017-06-12T12:25:47+0000'
+    from:
+      name: Firas Abd Alrahman
+      id: '732859920251745'
+    message: |-
+      في شركات مختصة بتحفظ عندها الداتا الحساسة عندهم رخص PCI Compliance ورخص تانية مخصصة
+      بتشمل البنية التحتية وسياسة الشركة وتفاصيل كتيرة انت صعب تحققها.
+      شوف زي كده (بعرف هي مش كردت كارد بس انت بتسأل على حماية انت ما قادر تأمنها)
+      http://www.emspay.eu/en/customer-service/service-and-advice/point-of-sale/storage-of-credit-card-data
+      https://www.wirecard.com/products/payment/tokenisation/
+      https://www.google.de/search?client=opera&q=save+credit+cards+service
+    id: '1513226808717022'
+  - created_time: '2017-06-12T14:21:51+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: 'عشان الصورة تبقي واضحة: إنت عايز تعمل نظام داخلي لشركة عشان يسرق حسابات
+      الناس علي مواقع التواصل؟ ياريت توضح'
+    id: '1513309668708736'
+  - created_time: '2017-06-12T15:34:54+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: 'ملحوظة جانبية: إنت بتقول نظام داخلي وفي نقس الوقت تسجيل دخول بمواقع
+      التواصل؟! إزاي؟!'
+    id: '1513368548702848'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV4TXpFNE1UY3hPRGN5TVRVek1Ub3hORGszTWpZAM01Ua3oZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV4TXpNMk9EVTBPRGN3TWpnME9Eb3hORGszTWpneE5qazAZD

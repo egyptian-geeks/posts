@@ -1,0 +1,76 @@
+---
+message: "Shabab, I have a question please in #elasticsearch \n\nIn my elasticsearch
+  index, there is a field which is configured with an analyzer in the #index #mapping.
+  \n\nif i tested the #analyzer with some text, it returns the expected value normally
+  however when i do a #search #query applying the same analyzer on the input query,
+  i can't get the expected result. if i queried by the same field text, it returns
+  the content. \n\nI think i have a problem in the current indexed fields so i'm going
+  to reindex the #content again but it may take time. \n\nsince i'm new in elasticsearch,
+  could anyone has experience in elasticsearch advise if i need to do some more experiments
+  or checks? Did i miss something?"
+from:
+  name: Mohammed Ammer
+  id: '10155334178733932'
+type: status
+created_time: '2017-07-31T10:05:59+0000'
+updated_time: '2017-07-31T11:25:02+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1563813450325024/
+id: '172338516139198_1563813450325024'
+reactions:
+  data:
+  - id: '1629690233758127'
+    name: Omar Mohsen
+    type: LIKE
+  - id: '10156191099748000'
+    name: Shady Mohamed Sherif
+    type: LIKE
+  - id: '1585678844802653'
+    name: Ibraheem Mamdouh
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhOVEUwT1RjeE1qYzJPakUxTURFMU1UVXdNRGc2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXdPREUyTlRrNE16STNPakUxTURFME9UYzFPVFU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-07-31T10:15:43+0000'
+    from:
+      name: Mahmoud Hossam
+      id: '1360912124012585'
+    message: Can you post some code examples?
+    id: '1563817766991259'
+  - created_time: '2017-07-31T10:25:25+0000'
+    from:
+      name: Ahmed Hassan
+      id: '10156284492809497'
+    message: Did you maybe update the mapping to add the analyzer after there was
+      already data indexed? Also how do you test the analyzer? The _analyze API?
+    id: '1563822240324145'
+  - created_time: '2017-07-31T10:34:12+0000'
+    from:
+      name: Ahmed Hassan
+      id: '10156284492809497'
+    message: So how are you testing it using the _analyze API? You using the analyzer
+      name on the test text? Try using the field name instead, it will analyze it
+      using the field's analyzer, and it will also let you know for sure if the analyzer
+      is being applied to the field.
+    id: '1563826740323695'
+  - created_time: '2017-07-31T10:51:48+0000'
+    from:
+      name: Mohammed Ammer
+      id: '10155334178733932'
+    message: I'm testing using both (the analyzer name and field name) and both are
+      returning the expected tokens.
+    id: '1563839276989108'
+  - created_time: '2017-07-31T10:56:48+0000'
+    from:
+      name: Khaled Abdelrahman
+      id: '10155299731606461'
+    message: If you changed anything in your index configuration (updating analyzers
+      or steamers... Etc) you must reindex your data otherwise elasticsearch won't
+      be able to find anything for you.
+    id: '1563842213655481'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUyTXpneE56YzJOams1TVRJMU9Ub3hOVEF4TkRrMk1UUXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUyTXpnME1qSXhNelkxTlRRNE1Ub3hOVEF4TkRrNE5qQTUZD

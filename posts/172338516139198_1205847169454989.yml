@@ -1,0 +1,27 @@
+---
+message: "I have a domain on name.com. I've changed its nameservers on 13th August,
+  3 days ago. Unfortunately the old cached addresses are still used by DNS servers.
+  It's very rare for a NS cached record to last for 3 days. Any clue? \n(Note that
+  I use DNS lookup tools not only the local browsing)"
+from:
+  name: Ahmed Said
+  id: '10155980969181550'
+type: status
+created_time: '2016-08-16T14:02:53+0000'
+updated_time: '2016-08-16T19:49:58+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1205847169454989/
+id: '172338516139198_1205847169454989'
+comments:
+  data:
+  - created_time: '2016-08-16T15:15:43+0000'
+    from:
+      name: Michael Henry
+      id: '10156301492765955'
+    message: Yes it is so rare, did you tried to access it from TOR Browser or from
+      a proxy, to make sure that the new NS are in action? otherwise i do recommend
+      doing the same action again, change the name servers and save.
+    id: '1205898909449815'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl3TlRnNU9Ea3dPVFEwT1RneE5Ub3hORGN4TXpZAd05UUXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl3TlRnNU9Ea3dPVFEwT1RneE5Ub3hORGN4TXpZAd05UUXoZD

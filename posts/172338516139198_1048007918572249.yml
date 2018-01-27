@@ -1,0 +1,138 @@
+---
+message: |-
+  السلام عليكم
+
+  من فضلكم هل حد عمل قبل كده نظام DAL + BLL + presentation داخل سوليوشن MVC C# - عاوز افهم حاجة ؟
+from:
+  name: Ahmed Amin
+  id: '1962172197389574'
+type: status
+created_time: '2015-12-19T09:20:11+0000'
+updated_time: '2015-12-20T16:31:00+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1048007918572249/
+id: '172338516139198_1048007918572249'
+comments:
+  data:
+  - created_time: '2015-12-19T09:29:25+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: فين السؤال؟
+    id: '1048010771905297'
+  - created_time: '2015-12-19T09:59:28+0000'
+    from:
+      name: Ahmed Amin
+      id: '1962172197389574'
+    message: "انا عملت بروجكت MVC على اساس ده يكون UI -\n وبعدين عملت بروجكت تانى
+      وحطيت فيه ملفات EF وده المفروض انه DAL - \n\nثم عملت بروجت تالت بحيث يكون هو
+      business logic layer\n\n وعملت فيه Interface وclasses بنفس خصائص EF عشان اتعامل
+      وعملت كلاس خاص ب operation وخليته يعمل انهيرت من الانترفيس وضفت جوه BLL - ال
+      DLL الخاص ب DAL و وضفت جوه مشروع MVC  الل DLL الخاص ب BLL - \n\nالمشكلة بقا
+      انه مش قابل يرجع بالداتا وده فى الكلاس الخاص بالعمليات اللى بيعمل انهيريت مثلا
+      انا  كتبت الاتى:\n\n        public Doctors GetDoctorById(int id)\n        {\n
+      \           var x = db.Doctors.Find(id);\n            return x;\n        }\n\nبيدينى
+      الخطأ ده:\n\nSeverity Code Description Project File Line Suppression State\nError
+      CS0029 Cannot implicitly convert type 'DoctorsERP.DAL.DoctorsDbContext.Doctor'
+      to 'DoctorsERB.BLL.Input.Doctors' DoctorsERB.BLL 22 Active"
+    id: '1048021525237555'
+  - created_time: '2015-12-19T10:18:16+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: |-
+      اعمل بروجيكت منفصل تماما حط فيه ال interfaces بتاعت ال data access layer
+      والبروجيكت دا اعمل منه reference جوا ال DAL وال BLL
+      دا حايساعدك تعمل decoupling و inversion of control
+      حاتقدر تعمل unit test بسهوله
+      وحايصلح المشكله اللي بتشتكي منها
+    id: '1048027968570244'
+  - created_time: '2015-12-19T10:19:36+0000'
+    from:
+      name: Ahmed Amin
+      id: '1962172197389574'
+    message: تقصد هنا Unit of work ؟
+    id: '1048030881903286'
+  - created_time: '2015-12-19T10:20:33+0000'
+    from:
+      name: Khaled Ramadan
+      id: '10157199016384478'
+    message: |-
+      اخى
+      الخطأ ذاكر وشرح نفسه.
+      You have 2 different types with the same name "Doctor"
+      Your repository returns Doctor object that belongs to DAL and you want to cast to type Doctor that belongs to BLL
+    id: '1048031068569934'
+  - created_time: '2015-12-19T10:21:13+0000'
+    from:
+      name: Ahmed Amin
+      id: '1962172197389574'
+    message: طيب ياريت توضيح اكتر عشان اعرف اعمل ايه
+    id: '1048034135236294'
+  - created_time: '2015-12-19T10:22:53+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: انت مشكلتك انك تخيلت انك لو عملت 2 classes/abstract classes بنفس المواصفات
+      فالكومبايلر حايعتبرهم واحد, ودا مش حقيقي
+    id: '1048037268569314'
+  - created_time: '2015-12-19T11:12:04+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: "يا بيه انت فتحت على نفسك فتحة **ممكن** يكون مالهاش لازمة أصلا.\nلو انت
+      بتعمل الكلام ده علشان بس تبقى بتعمل الصح، كبر دماغك و فكر ممكن تختصر ايه واختصره.\n\nلو
+      عايز تمشي في السكة دي، أسهل حاجة ممكن تعملها انك تعمل project تاني تسميه Domain
+      ولا Core ولا Entities و لا عفريت. تحط فيه كل الـ Classes اللي مستخدمة في الـ
+      Data و الـ Business. وتخلي الـ EF يشوفهم عن طريق الـ Code First Convention Mapping
+      زي ما مكتوب مثلا في \nhttps://msdn.microsoft.com/en-au/data/jj819164.aspx\nأه
+      مش pure أوي. أه ممكن تغير الطريقة بعد كده (زيادة أو نقصان حسب الحاجة)، بس بالنسبة
+      لطبيعة سؤالك أعتقد انه أنسب خيار، و أنا شخصيا بأعمله في بعض المشاريع عادي."
+    id: '1048057541900620'
+  - created_time: '2015-12-19T11:13:30+0000'
+    from:
+      name: Ahmed Amin
+      id: '1962172197389574'
+    message: انت متعصب يه :D
+    id: '1048057735233934'
+  - created_time: '2015-12-19T20:47:06+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: Just make sure you haveyour domain entities mapped properly and leasve
+      the  data services to EF. I would suggest having a Business Servcies layer facade,
+      this facade by default does nothing but tranparently move requests to the data
+      layer. If needed you can then create your own services to perform operations
+      such as business transactions.
+    id: '1048319755207732'
+  - created_time: '2015-12-19T20:48:14+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: If the system is a one of those CRUD systems with very little business
+      logic, I would suggest looking at scaffolding to handle at least master data
+      and straight forward CRUD.
+    id: '1048320108541030'
+  - created_time: '2015-12-19T21:05:49+0000'
+    from:
+      name: Hazem Salem
+      id: '10159894024455174'
+    message: Use automapper to map the two different objects.
+    id: '1048326168540424'
+  - created_time: '2015-12-19T21:07:41+0000'
+    from:
+      name: Hazem Salem
+      id: '10159894024455174'
+    message: http://automapper.org/
+    id: '1048326568540384'
+  - created_time: '2015-12-19T21:09:26+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: Also, I just realized, the controller is what containes your business
+      logic, and the Model represents the Domain Objects. The View represents the
+      UI. So an MVC project alread contains the 3 layers
+    id: '1048327108540330'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEEwT0RBeE1EYzNNVGt3TlRJNU56b3hORFV3TlRFM016WTEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEEwT0RNeU56RXdPRFUwTURNek1Eb3hORFV3TlRVNU16WTIZD

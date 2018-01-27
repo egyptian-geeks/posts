@@ -1,0 +1,34 @@
+---
+message: "What is the best and why?? \nStack by array or by list or by linkedlist\n1-
+  stack by array is fixed size but by list and linkedlist is dynamic size\n2- stack
+  by linkedlist o(n) always = 1 for push operation\nBut for list o(n) = n if count
+  = capacity \n#####################\nSo what about memory size and performance for
+  stack by linkedist VS stack by list ??"
+from:
+  name: Ahmed Khalifa
+  id: '1999765416908747'
+type: status
+created_time: '2017-05-28T19:28:37+0000'
+updated_time: '2017-05-28T21:29:01+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1496070687099301/
+id: '172338516139198_1496070687099301'
+comments:
+  data:
+  - created_time: '2017-05-28T20:01:46+0000'
+    from:
+      name: Ahmed Saleh
+      id: '10159933379005574'
+    message: In embedded software usually its better to use array, usually there is
+      no operating system involved so a dynamic heap is hard to get, otherwise in
+      normal the dynamic stack is usually used.
+    id: '1496094920430211'
+  - created_time: '2017-05-28T20:02:58+0000'
+    from:
+      name: Ahmed Saleh
+      id: '10159933379005574'
+    message: Note also that a list can be a dynamic contigous array or a linked list
+    id: '1496095420430161'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE1TmpBNU5Ea3lNRFF6TURJeE1Ub3hORGsyTURBeE56QTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE1TmpBNU5UUXlNRFF6TURFMk1Ub3hORGsyTURBeE56YzUZD

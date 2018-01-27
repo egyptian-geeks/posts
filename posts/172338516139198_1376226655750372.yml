@@ -1,0 +1,39 @@
+---
+message: I have a router that's connected to the ISP internet. I have another router
+  (TP-Link W8901N) that I'd like to configure as an access point/extender for the
+  first router. How do I do that?
+from:
+  name: Mohamed Oun
+  id: '10213382124519901'
+type: status
+created_time: '2017-02-02T12:39:26+0000'
+updated_time: '2017-02-02T19:12:59+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1376226655750372/
+id: '172338516139198_1376226655750372'
+comments:
+  data:
+  - created_time: '2017-02-02T12:43:59+0000'
+    from:
+      name: Eslam Fathy Farghal
+      id: '10213942630053535'
+    message: connect it through a cable, enter its homepage then uncheck "Using router
+      as a DHCP server" in the LAN settings of your router and your good to go (Y)
+    id: '1376229015750136'
+  - created_time: '2017-02-02T12:46:31+0000'
+    from:
+      name: Eslam Fathy Farghal
+      id: '10213942630053535'
+    message: also you have to change the Default gateway if they are the same
+    id: '1376230322416672'
+  - created_time: '2017-02-02T19:12:57+0000'
+    from:
+      name: Tony Raoul Iscaros
+      id: '10156165643313420'
+    message: "another approach without the need of lan connection \nyou can configure
+      it as wifi repeater \nput it in the middle of the distance of the area you need
+      to cover and the router.\nHow to do it :\nhttps://www.quora.com/How-can-I-setup-TP-Link-router-as-a-repeater"
+    id: '1376537242385980'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0zTmpJeU9UQXhOVGMxTURFek5qb3hORGcyTURNNU5ETTUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0zTmpVek56STBNak00TlRrNE1Eb3hORGcyTURZAeU56YzQZD

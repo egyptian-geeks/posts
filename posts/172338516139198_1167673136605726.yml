@@ -1,0 +1,103 @@
+---
+message: |-
+  الحقيقة أنا تايه في موضوع الـ Tasks runner زي الـ Gulp والـ Grunt محتاج حد يفهمني الدنيا إيه بطريقه بسيطة ومحتاج إيه علشان ابدأ أستخدم task runner ؟ وأنا محتاج أعرف كل حاجه عن الـ node.js؟ ولا بس الجزء الخاص بالـ task runner اللي هاستخدمه؟
+
+  سامحوني لو كانت أسئلتي ممكن ماتكونش ليها علاقه ببعض بس دا جاي من لغبطتي... شكرا مقدما..
+from:
+  name: Mohamed A. Othman
+  id: '1574530695959412'
+type: status
+created_time: '2016-06-23T12:06:52+0000'
+updated_time: '2016-06-27T10:06:50+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1167673136605726/
+id: '172338516139198_1167673136605726'
+reactions:
+  data:
+  - id: '10213089648810168'
+    name: Marwa Gamal
+    type: LIKE
+  - id: '1551946581587469'
+    name: Ahmad Saeed Goda
+    type: LIKE
+  - id: '1785295468160956'
+    name: Mohamed Abdelrahman
+    type: LIKE
+  - id: '10208662024666994'
+    name: Ahmad M Arafa
+    type: LIKE
+  - id: '10155054033902413'
+    name: Alaa Samir
+    type: LIKE
+  - id: '1596110217148252'
+    name: Ahmed Badawy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBMk1qQTNOamM1T1RveE5EWTJOelk0TlRFeE9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBd01EQXlORGM0Tmpnd09EVTJPakUwTmpZAMk9EVTBNekk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-06-23T13:34:35+0000'
+    from:
+      name: Ahmed Badawy
+      id: '1596110217148252'
+    message: |-
+      Try webpack. Easier & faster...
+      U dont need to know anything a bout nodejs. But it's useful skill thu...
+    id: '1167707726602267'
+  - created_time: '2016-06-23T14:05:19+0000'
+    from:
+      name: Mohamed Amin
+      id: '2016714868586746'
+    message: "بايجاز مُخِلّ..\nوظيفته ان يرتب الassets بتاعت ال project بشكل عامل
+      زي خط الانتاج كده في المصانع .\nمثلا انته بتعمل تاسك تقوله هات الscss files
+      \ واعملهم كوبي في مكان تاني \nتعرف تاسك تانيه تحول ال scss files ل css \nتعرف
+      تاسك تالته تقوم تصغر الملفات ديه minifing and uglifing  علشان تقلل مساحتهم .
+      وتاسك اخيره تعملك http-server  تعرضلك الكلام ده من خلال localhost علي جهازك
+      .\n\nطريقه خط الانتاج ديه لو صح نقول عليها كده فممكن  يكون عندك خط انتاج علشان
+      يظبط بيئه العمل علي جهازك الشخصي او علي ال staging او live ...   ده السبب اللي
+      بتستخدم علشان task runner \nانا بشتغل ب gulp وده بيحتاج انك تكون عارف javascript
+      وًnodejsٍ لانك بتكتب فيها كود تقوله يعمل ايه .\n\nفي حين grunt و webpack ماشيين
+      بفكره configuration اكتر من كود..  يعني مش هتبقي محتاج تعرف تكتب كود كتير بس
+      معرفه بسيطه جدا انك تشوف اللي قدامك وتبقي فاهمه .\n\nالwebpack قوي وابسط بكتير
+      من grunt  انصحك تحربه قبليهم."
+    id: '1167719266601113'
+  - created_time: '2016-06-23T17:07:07+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: https://medium.com/@preslavrachev/gulp-vs-grunt-why-one-why-the-other-f5d3b398edc4?source=linkShare-33e4f481244e-1466701612
+    id: '1167796039926769'
+  - created_time: '2016-06-23T17:34:14+0000'
+    from:
+      name: Tarek Amr
+      id: '10155854949245944'
+    message: ال gulp يعشق كل جميل
+    id: '1167805806592459'
+  - created_time: '2016-06-23T17:59:32+0000'
+    from:
+      name: Tarek Amr
+      id: '10155854949245944'
+    message: I have a question, how does Jenkins compare to these. It is equivalent
+      to Gulp and Grunt, or it solves different problems?
+    id: '1167819629924410'
+  - created_time: '2016-06-23T23:05:03+0000'
+    from:
+      name: Mohammed El Sayed
+      id: '10155880598025170'
+    message: |-
+      Continuous Integration (CI): the art of "usually" deploying your  solution automatically upon a certain trigger (usually a push to a specific branch or upon specific time AKA nightly builds).
+
+      Task runners: most of the client-side world is now not that "one or two script tags and CSS includes" like we used to have before, but there are way way more libraries and actions that you usually do upon deploying or running your solution.
+
+      for example, minifying your CSS and JS files, combining multiple JS files into one file to save HTTP requests, Linting your JS code to detect errors, and many more examples.
+      each one of these actions can be defined as a "Task" in (for example) Gulp.
+
+      task runners like gulp streamlines these tasks and gives you the ability to order, create dependencies, and run tasks upon triggers (most commonly like code changes) and even deploy your changes via FTP.
+
+      Hope it helps :)
+    id: '1167952043244502'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUyTnpjd056Y3lOall3TWpJMk56b3hORFkyTmpnNE9EYzEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUyTnprMU1qQTBNekkwTkRVd01qb3hORFkyTnpJek1UQXoZD

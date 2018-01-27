@@ -1,0 +1,129 @@
+---
+message: "سؤال وجودي: هل ال software crafting مهتمة في المقام الأول بال time complexity
+  بتاع الأنظمة؟ \nلو اه، ليه متبقاش دراستنا كلها متعلقة بالجزء ده.\nلو لأ، ليه جزء
+  كبير من احتمالية القبول في أي كيان كبير متوقف على الجزء ده؟"
+from:
+  name: Ibrahem A'mer
+  id: '10211047029111252'
+type: status
+created_time: '2017-03-06T09:06:52+0000'
+updated_time: '2017-03-06T18:47:05+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1410819375624433/
+id: '172338516139198_1410819375624433'
+reactions:
+  data:
+  - id: '1555354924540360'
+    name: Mahmoud Adas
+    type: LIKE
+  - id: '10212724107229950'
+    name: Nader Mahfouz
+    type: LIKE
+  - id: '895970407247426'
+    name: Ahmad Magdy
+    type: LIKE
+  - id: '495080930892199'
+    name: Muhammed Nagy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhPVGMyTURJek16ZAzNPakUwT0Rrd016SXdORFE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01ERXhOekE0T0RnM05UWTVPakUwT0RnM09URTFNVFU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-03-06T09:07:31+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: Time complexity??
+    id: '1410819572291080'
+  - created_time: '2017-03-06T09:12:02+0000'
+    from:
+      name: Mohamed Moshrif
+      id: '1538447102877297'
+    message: بناء اي نظام في الدنيا فيه عوامل كتير جدا اكتر من ال performance و ال
+      complexity بتاعه ال memory and processing
+    id: '1410821968957507'
+  - created_time: '2017-03-06T09:15:20+0000'
+    from:
+      name: Hazem Gharib
+      id: '10210872767599497'
+    message: الـ Time & Space Complexity مهمين؟ اه طبعا مهمين .. الكيانات المحترمة
+      يا عزيزى بتهتم بالـ Time & Space Complexity  .. احنا هنا فى مصر (الا من رحم
+      ربى) بنهتم احنا بيعنا لكام واحد بغض النظر عن ان كلهم ممكن يكونوا بيشتموا فى
+      شغل الدفيلوبرز
+    id: '1410824492290588'
+  - created_time: '2017-03-06T09:23:03+0000'
+    from:
+      name: Mohamed Moshrif
+      id: '1538447102877297'
+    message: "بص يا ريس. لما تيجي تتكلم علي نظام كبير، كل المفاهيم بتتغير و بيبقي
+      عندك اكتر بكتير من مجرد ال space and time. يعني لو هنتكلم علي ال performance
+      بس، هتلاقي نفسك مهتم بحاجات تانيه زي ال scalability, IO, Network latency, etc.\nهتطلع
+      بره ده، هتلاقي عندك حاجات تانيه كتير مهمه زي ال usability, testability, maintainability,
+      security, etc\n\nومفيش جواب ثابت مين اهم من مين. ممكن في نظام معين تكون ال usability
+      اهم بكتير من ال time complexity و ممكن ال maintainability تكون اهم من ال space
+      complexity \nملهاش نظام ثابت"
+    id: '1410828392290198'
+  - created_time: '2017-03-06T10:14:19+0000'
+    from:
+      name: Met Wally
+      id: '520998054938412'
+    message: لو بتتكلم عن برة مصر فده اهم حاجة .. جوة مصر ولا ليهم لزمة فى اغلب الشركات
+      .. اهتم انت بيهم لمصلحتك بغض النظر عن الشركات.
+    id: '1410852712287766'
+  - created_time: '2017-03-06T13:12:31+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: 'هو عموما الهندسة تكمن في تحقيق الاستفادة القصوى من شيء. لكن عملية الالتزام
+      الحرفي بهذا المفهوم 100% عملية صعبة للغاية إن لم تكن مستحيلة يعني ما تقدرش تخلي
+      ال Entropy بتاعت أي نظام 0. وعليه يتم تطبيق المثل الريفي القائل: "بركة المحصول،
+      لمه" يعني لملم الحاجات اللي انت وصلت لها وعبيها في شكل له هيئة ومواصفات وبعدين
+      اي حاجة تانية تبقى تتعمل بعدين.'
+    id: '1410963452276692'
+  - created_time: '2017-03-06T16:00:44+0000'
+    from:
+      name: Yehia Khorshid
+      id: '1796770273675885'
+    message: مفيش الكلام ده فى مصر يا هندسة
+    id: '1411095298930174'
+  - created_time: '2017-03-06T16:20:05+0000'
+    from:
+      name: Diyaa Mahmoud
+      id: '1559170364118742'
+    message: "لا ال time مش اهم شئ، فيه عوامل او خواص كتيرة مهمة لأي سوفت وير تقريبا
+      حوالي 20 خاصية اساسية، مش متذكر العدد بالظبط، ممكن تسيرش عل  non functional
+      software requirement list، دايما بيكون فيه بينهم trade off لازم تضحي بخواص عشان
+      تكسب خواص تانية ومش ينفع تكسب كله فلازم تحدد ايه اللي تكسبه وايه اللي ممكن تضحي
+      بيه وده بيرجع لطبيعة المشروع، والامثلة كتير زي لما بتسيرش في جوجل بتديك العدد
+      الكلي للنتايج ولنفرض 6 مليون بس هل فعلا هما 6 مليون وهل ممكن تشوفهم كلهم؟ في
+      الحقيقة لا جوجل بتضحي بدقه النتايج مقابل تكسب وقت اسرع وبتستخدم نتايج اختمالية
+      probabilistic pagination، نفس الكلام للكمبيلر اللي جزء من شغله عمل inlining
+      وLoop unrolling وده بيطلع ناتج بحجم كبير بس بيقلل وقت ال branching، وحتي ال
+      big data انتا بتضحي بدقة البيانات ACID وحجم البيانات اللي ممكن تتكرر كتير في
+      مقابل تكسب وقت. لكن فيه مشاريع مهم جدا دقة البيانات فهتلاقي فيها الاحصائات مهياش
+      real-time \n\nأما ليه بتتسال عن الوقت في الانترفيو فده بيرجع لطبيعة مشاريع الشركة
+      و اختبار قدرتك عل التحليل algorithmic thinking، بس الفكرة ان اغلب الخواص عشان
+      تطبقها محتاجه مشروع حقيقي concrete ومعرفة تامة بالهارد المستخدم فعليا وباقي
+      تفاصيل النظام، لكن الوقت ممكن تفكر فيه وتحلله بطريقة  abstract وحتي لو هتعمل
+      benchmark فسهل يتعمل عن باقي الخواص"
+    id: '1411111492261888'
+  - created_time: '2017-03-06T18:04:18+0000'
+    from:
+      name: Mohammad Aboelnour
+      id: '10214471954062071'
+    message: "\"Premature optimization is the root of all evil\" --Knuth \nTo optimize
+      something, that something should see the light first and be real first! It's
+      not all about the optimization, optimization is a later stage to maximize the
+      benefit from the resources."
+    id: '1411184085587962'
+  - created_time: '2017-03-06T18:47:03+0000'
+    from:
+      name: Amr Almgwary
+      id: '1978556165731463'
+    message: "The amazing answer is [ it depends \U0001F600 ]"
+    id: '1411214565584914'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF4TURneE9UVTNNakk1TVRBNE1Eb3hORGc0TnpreE1qVXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF4TVRJeE5EVTJOVFU0TkRreE5Eb3hORGc0T0RJMk1ESXoZD

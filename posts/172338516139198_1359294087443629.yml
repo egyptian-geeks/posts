@@ -1,0 +1,72 @@
+---
+message: |-
+  Guys, I'm trying to clone a repo from bitbucket (SSH), my laptop is connected to TEdata ADSL via wifi. each time I get the following error:
+
+  fatal: The remote end hung up unexpectedly
+  fatal: early EOF
+  fatal: index-pack failed
+
+  I googled and found some advice that it might be a network issue.
+
+  I tried to connect via cable & restarted the router with no luck.
+
+  After that I connected via Etisalat 3G Hotspot and everything worked fine.
+
+  My question is: Does any of you guys have recently encountered such issue? Would it be some sort of blocking via Tedata?
+
+  Thanks
+from:
+  name: Ahmad Abubakr
+  id: '10214055964849051'
+type: status
+created_time: '2017-01-19T18:01:36+0000'
+updated_time: '2017-01-20T02:05:00+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1359294087443629/
+id: '172338516139198_1359294087443629'
+reactions:
+  data:
+  - id: '1641565752594739'
+    name: Ahmed Aziz
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlNak01T1RFMk5UUXpPakUwT0RRNE5Ea3dOekU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlNak01T1RFMk5UUXpPakUwT0RRNE5Ea3dOekU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-01-19T18:06:24+0000'
+    from:
+      name: Maged Eladawy
+      id: '1539250002856228'
+    message: SSH or http cloning?
+    id: '1359296407443397'
+  - created_time: '2017-01-19T18:09:37+0000'
+    from:
+      name: Hany El-Kerdany
+      id: '10154916813095989'
+    message: Happened to me a billion times and after waiting a while it works. Never
+      found a reason but my interpretation is that it's a temporary outage in BitBucket.
+    id: '1359297720776599'
+  - created_time: '2017-01-19T18:24:28+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: http will work fine, i've faced the same case before
+    id: '1359307344108970'
+  - created_time: '2017-01-19T19:07:09+0000'
+    from:
+      name: Amir Raouf Saad
+      id: '10214798901190713'
+    message: "@mahmoud Mahmoud Hossam"
+    id: '1359334324106272'
+  - created_time: '2017-01-20T02:04:57+0000'
+    from:
+      name: أسامة يسري
+      id: '10155987644053398'
+    message: Happened to me, https worked fine, you can authenticate using your Bitbucket
+      user and password instead of an ssh key
+    id: '1359575124082192'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0xT1RJNU5qUXdOelEwTXpNNU56b3hORGcwT0RRNU1UZAzEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0xT1RVM05URXlOREE0TWpFNU1qb3hORGcwT0RjM09EazQZD

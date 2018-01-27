@@ -1,0 +1,69 @@
+---
+message: |-
+  SA,
+  Do you normally store users' file uploads on the filesystem of your server, or you use an external file hosting service?
+from:
+  name: Mohamed Gamal
+  id: '10156096685587328'
+type: status
+created_time: '2017-01-01T03:25:02+0000'
+updated_time: '2017-01-01T05:49:38+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1342588409114197/
+id: '172338516139198_1342588409114197'
+reactions:
+  data:
+  - id: '1772542006152666'
+    name: Mohamed AbuIssa
+    type: LIKE
+  - id: '1941442462840331'
+    name: Apd Ulrhman II
+    type: LIKE
+  - id: '10155903911855943'
+    name: Ahmed Soliman
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhPVEEyTlRBNU16RXlPakUwT0RNek1ESXlNRGM2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TnpBeU5UazFPVFF5T2pFME9ETXlORGswTVRJNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-01-01T03:31:44+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: You can buy blob storage space separately on AWS S3 or Azure, it is much
+      more scalable, and makes your server stateless, so you don't need to worry about
+      hardware failure or losing customer's data
+    id: '1342591889113849'
+  - created_time: '2017-01-01T03:33:10+0000'
+    from:
+      name: Nader Al-Sharkawy
+      id: '10154950104465216'
+    message: I would typically just store my uploads on the filesystem. Unless you
+      happen to experience heavy traffic and/or serve critical content (where high
+      availability is a must), then I would consider CDNs.
+    id: '1342592712447100'
+  - created_time: '2017-01-01T05:32:29+0000'
+    from:
+      name: Ahmed Thabet
+      id: '1849432635069365'
+    message: U should leave that to s3.
+    id: '1342675295772175'
+  - created_time: '2017-01-01T05:49:37+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: "Usually the scalability category of the application and the hosting
+      category tell you what to do.\n\nIf you are hosting in the cloud, you host your
+      user files in a cloud file hosting service, called BLOB storage usually. No
+      other option. \n\nIf you host your application on multiple servers, even if
+      not in the cloud, you host them somewhere else, because again, no option. Might
+      be cloud or same data centre file server or even DB (kinda outdated option,
+      and DBs aren't really optimised for it).\n\nIf you are hosting on one server
+      because your app is that small, you can just host the files on the same server
+      for ease. Hopefully you get periodic backups of the folder though, ideally automated."
+    id: '1342687085770996'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0wTWpVNU1UZAzRPVEV4TXpnME9Ub3hORGd6TWpReE5UQTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0wTWpZANE56QTROVGMzTURrNU5qb3hORGd6TWpRNU56YzMZD

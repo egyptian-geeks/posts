@@ -1,0 +1,67 @@
+---
+message: |-
+  Question
+
+  I am implementing a rest service with spring framework
+
+  I want to return a string as a JSON
+  like that:
+  "something"
+
+  the problem is.. when I return the string and produces = "application/json; charset=utf-8" the result returned without the quotes:
+  something
+
+  and when I wrap the string in a class to be converted to json by the framework automatically.. the result returned with the property name which i don't want:
+  {"value":"something"}
+
+  I simply want the returned result like this:
+  "something"
+  and to be a JSON of course
+
+  could anyone help
+from:
+  name: Ahmed Mūsā
+  id: '379428549186517'
+type: status
+created_time: '2017-01-17T22:55:22+0000'
+updated_time: '2017-01-18T04:19:50+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1357566077616430/
+id: '172338516139198_1357566077616430'
+comments:
+  data:
+  - created_time: '2017-01-18T01:24:41+0000'
+    from:
+      name: Mohammed Halim
+      id: '372357706559022'
+    message: "'Something' \nIt's related to double quotes and as single quotes"
+    id: '1357645694275135'
+  - created_time: '2017-01-18T01:43:37+0000'
+    from:
+      name: Islam AbdelMohaimen Hassan
+      id: '10214796374519514'
+    message: JSON is a kay value format, if you're going to send just a value without
+      a key, it's no longer JSON.
+    id: '1357656544274050'
+  - created_time: '2017-01-18T03:12:57+0000'
+    from:
+      name: Ahmed Aboulenein
+      id: '10160047384135438'
+    message: It's doing the right thing, this is JSON. The response you want to return
+      from the server is NOT JSON format. If you want this simple string, make it
+      just return text. "text/plain"
+    id: '1357702634269441'
+  - created_time: '2017-01-18T04:19:48+0000'
+    from:
+      name: Mariam Maarouf
+      id: '10155779091916638'
+    message: |-
+      Can't you just escape the quotation marks you want in the string?
+      Like instead of:
+      "something"
+      Go with:
+      "\"something\""
+    id: '1357737350932636'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0xTnpZAME5UWTVOREkzTlRFek5Ub3hORGcwTnpBeU5qZA3gZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0xTnpjek56TTFNRGt6TWpZAek5qb3hORGcwTnpFek1UZAzQZD

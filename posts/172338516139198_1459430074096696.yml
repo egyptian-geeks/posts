@@ -1,0 +1,61 @@
+---
+message: "سؤال لأهل الخبرة بخصوص ال ajax\nدلوقتي بعد ال ajax.load() \nملفات ال js
+  مش بتقرى اي id في الجزء ال dynamically      loaded \nطبعا كل حاجة بتقف بعد كدة هل
+  في طريقة اقدر اوصل فيها لل variables بتاعت ال IDs دي globally \nانا شغال ب JQuery
+  1.10.2 \nف ال async:    option \nDeprecated\nشكرا مقدما"
+from:
+  name: Abdelrhman Mohamed
+  id: '1788801214484268'
+type: status
+created_time: '2017-04-20T03:11:29+0000'
+updated_time: '2017-04-20T07:29:33+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1459430074096696/
+shares:
+  count: 1
+id: '172338516139198_1459430074096696'
+reactions:
+  data:
+  - id: '10215352706918859'
+    name: Mohamed Ahmed Zidan
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRRM01UWTNPRFV4TXpveE5Ea3lOamN6TWpBNE9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRRM01UWTNPRFV4TXpveE5Ea3lOamN6TWpBNE9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2017-04-20T03:29:18+0000'
+    from:
+      name: Abdul-Hameed Riad
+      id: '10157097152299942'
+    message: "على ما اعتقد jQuery من زمان وهي بتقدرعادى تقرا elements loaded by AJAX\nمش
+      فاكر من انهي Version عملوا الابديت ده بس قبليها كنا بنسختدم selector.live بدلا
+      من selector.on\n\nلو selector.live مش موجوده و لسه الايفينت مش شغال معاك جرب
+      Attach event to body element and check the sender in callback function \nIf
+      it has the id, or class you want execute your code."
+    id: '1459439174095786'
+  - created_time: '2017-04-20T03:29:24+0000'
+    from:
+      name: Maged Ibrahem
+      id: '10156684455973881'
+    message: "$(\"body\").on(\"click\", \"#comment\", addComment)\nOr try \n$(\"document\").on(\"click\",
+      \"#comment\", addComment)"
+    id: '1459439214095782'
+  - created_time: '2017-04-20T03:36:27+0000'
+    from:
+      name: Abdelrhman Mohamed
+      id: '1788801214484268'
+    message: "المشكلة عندي هنا مش ف الايفنتس \nالمشكلة ف variables اللي برا الايفنت"
+    id: '1459453064094397'
+  - created_time: '2017-04-20T07:29:31+0000'
+    from:
+      name: Osama Kamel
+      id: '342213286186876'
+    message: |-
+      $( document ).ajaxComplete()
+      http://api.jquery.com/ajaxcomplete/
+    id: '1459616414078062'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFExT1RRek9URTNOREE1TlRjNE5qb3hORGt5TmpVNE9UVTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFExT1RZAeE5qUXhOREEzT0RBMk1qb3hORGt5Tmpjek16Y3kZD

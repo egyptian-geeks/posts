@@ -1,0 +1,124 @@
+---
+message: "سؤال عام بخصوص ال Orphaned Data\n\nمثال من ال Facebook في حالة ال User عمل
+  Delete ل Post وليها Likes و Comments .... الخ\n\nانه افضل عمل Delete لل Post Record
+  فقط بدون حذف كل ما يتعلق بيها من داتا؟ وعمل اي وسيلة بعد كده تبقى تلغي ال Orphaned
+  Data\n\nام اعمل Recursive Delete بحيث الغي كله فى نفس الوقت؟ \n\nالافضلية من من
+  حيث ال Performance و ال User Experience ؟"
+from:
+  name: Yehia Abed
+  id: '10156113005586031'
+type: status
+created_time: '2017-09-17T15:31:41+0000'
+updated_time: '2017-09-18T09:28:32+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1609713312401704/
+shares:
+  count: 1
+id: '172338516139198_1609713312401704'
+reactions:
+  data:
+  - id: '10155965038378745'
+    name: Said Bakr
+    type: LIKE
+  - id: '1914691152178468'
+    name: Mohamed R. Elbassiouny
+    type: LIKE
+  - id: '10156129652479747'
+    name: Radwa Kamal
+    type: LIKE
+  - id: '1579512612096017'
+    name: Mohammed Atef Khafaga
+    type: LIKE
+  - id: '1824520801181678'
+    name: Hamad Isht
+    type: LIKE
+  paging:
+    cursors:
+      before: TnpnNU1ESXpOelEwT2pFMU1EVTNNelF6TVRNNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQTROekV6TWpZAeU56VTRPakUxTURVMk5qTXhNalk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-09-17T15:35:12+0000'
+    from:
+      name: Islam Ahmed
+      id: '975530965936423'
+    message: I guess Facebook never deletes actually but archives .. not sure though
+    id: '1609715912401444'
+  - created_time: '2017-09-17T15:36:38+0000'
+    from:
+      name: احمد قرواش
+      id: '1561022257326859'
+    message: "الفيس بوك مش هيضحي بالداتا الي انت شايفها مش مفيده\nثانيا الفيس بوك
+      حسب ما انا اعرف عنده ما يسمي ب graph sql \nوده كل الي محتاجه يشيل ال node ديه
+      بالتالي الي تحت منه كله ب without reference لو حتي فكر يشيلهم سهل جدا يشيلهم"
+    id: '1609717169067985'
+  - created_time: '2017-09-17T15:38:09+0000'
+    from:
+      name: Zeyad Mounir
+      id: '1631588673551004'
+    message: With foreign keys you could use CASCADE on delete!
+    id: '1609718105734558'
+  - created_time: '2017-09-17T15:47:28+0000'
+    from:
+      name: Tony Raoul Iscaros
+      id: '10156165643313420'
+    message: |-
+      data is cheaper than processing power.
+      So even if the data is useless keep it or at least delete later , just add deleted_at field.
+      However you should inform the users that you keep the deleted data.
+    id: '1609723699067332'
+  - created_time: '2017-09-17T15:48:27+0000'
+    from:
+      name: Mohamed Bassem
+      id: '10212826240185281'
+    message: هل أنت عندك داتا كتير بشكل يخلي الrecursive deletes فعلا أبطأ؟ لو لا
+      يبقى أعمل الحل الأسهل.  متحاولش تعقد الدنيا عندك على مشكلة أنت لسه مقابلتهاش.
+      هي حاجة مفيدة إنك تعرف فيسبوك بيحل المشاكل ديه إزاي بس ده مش معناه إن طريقة
+      فيسبوك هتبقى هي الطريقة المناسبة ليك.
+    id: '1609724722400563'
+  - created_time: '2017-09-17T15:49:26+0000'
+    from:
+      name: Mootaz Dinana
+      id: '10155792625775306'
+    message: 'In principle, you are talking about 2 different and separate topics,
+      back-end performance & UX. To have a snappy UI while doing back-end operations
+      you can perform an optimistic response for creates, updates and deletes and
+      caching for gets. For back-end performance there are a lot of variables in play
+      that need to be taken into consideration, for instance DB technology ex: the
+      cost of a type of operation would differ greatly bet. mongoDB, SQL, Redis or
+      even Neo4J, back-end architecture ex: how you handle scalability and replication
+      on the DB layer or the presence and mechanism of a caching layer, if you only
+      read from your slave DB servers, if you''re using table locking or row-locking,
+      etc.., the nature of your application if it''s read-intensive or write intensive
+      also the nature and structure of your data and indexing..'
+    id: '1609725332400502'
+  - created_time: '2017-09-17T15:50:22+0000'
+    from:
+      name: Ahmed Amr Farid
+      id: '10155859538230336'
+    message: |-
+      You have many alternatives:
+      1- cascade the data deletion child to parent
+      2- hide the data from the user
+      3- mark the data for deletion, and then a scheduled process will delete later on...
+    id: '1609725942400441'
+  - created_time: '2017-09-18T09:28:29+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: |-
+      حسب الكيس نفسها
+      ساعات كدة وساعات كدة
+      انت بتشوفها منطقيا وحسب البزنس وبتقرر
+      يعني مثلا لو اليوزر حذف بوست هتحذفه بلايكاته وكومنتاته لان مفيش معنى لوجودهم.. يعني هنا هتعمل مثلا on delete cascade
+      في حاجة تانية هتعمل on delete set null او تخير اليوزر فيها في الرن تايم
+      مثلا لو هتحذف اكونت كامل
+      هتسيب بوستاته ولا تشيلها؟ ممكن يبقى في معنى لأنك تسيبها عادي وتبقى اليوزر بتاعها غير معروف مثلا.. او guest
+      ومثال تاني لو عندك categories و products
+      لو هتحذف كاتيجوري ممكن تدلت كل البرودكتس اللي جواها او ترجع البرودكتس دي ك  uncategorized
+      فهي حسب التطبيق وعشان كدة الاوبشن ده وده موجودين
+      بس المهم ان في جميع الأحوال يكون في constraints و track على الريليشنز بتاعتك
+    id: '1610305305675838'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl3T1RjeE5Ua3hNalF3TVRRME5Eb3hOVEExTmpZAeU5URXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl4TURNd05UTXdOVFkzTlRnek9Eb3hOVEExTnpJMk9URXcZD

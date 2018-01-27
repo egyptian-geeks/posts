@@ -1,0 +1,60 @@
+---
+message: |-
+  مساء الخير، رمضان كريم.
+  بقالي فتره بدور (وارد جدا اكون ببحث غلط) على OCR تكون بتقرا الارقام بس مش الحروف والارقام، كل اللي موجود اما OCR OR Barcode reader.
+  ال Tesseract كبيره ومعقده جدا على ابلكيشن متوسط الخواص زي اللي شغال عليه والبار كود بريدرز اعتقد (اعتقد) مبيقراش حروف وبالتالي مبيقراش ارقام.
+  اخر الحلول اللي خطرت على بالي قبل ما ايأس اني ابني ocr بنفسي بس بالنسبالي دي مهمه شبه مستحيله خصوصا انه لسه اول تطبيق ليا ومحتاج الocr ل feature فرعيه فيه مش رئيسيه.
+  ف لو ممكن حد يساعدني لو يعرف ocr ارقام بس؟
+  ووانا بدور لقيت java lib ocr بيقولوا اخف واسهل، بس هل هقدر اخليها تقرا ارقام بس بدقه كويسه توصل مثلا ل ٩ مرات صح من كل ١٠ محاولات؟
+from:
+  name: Mohamed Samir
+  id: '1579793612127821'
+type: status
+created_time: '2017-05-26T13:13:27+0000'
+updated_time: '2017-05-26T14:03:37+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1493780550661648/
+id: '172338516139198_1493780550661648'
+reactions:
+  data:
+  - id: '1810632978947201'
+    name: 'Mohammed Ismail '
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdNREUxTkRrMU1USTBPakUwT1RVNE1UQTNNVGc2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXdNREUxTkRrMU1USTBPakUwT1RVNE1UQTNNVGc2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-05-26T13:19:00+0000'
+    from:
+      name: Sherif Alaa Ismael
+      id: '10156218293834924'
+    message: انا استخدمت tesseract و كان استخدامه بسيط جدا و مش معقد ... و ال app
+      بتاعي مكنش كبير
+    id: '1493784310661272'
+  - created_time: '2017-05-26T13:33:30+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "طيب ما تقرا الارقام والحروف وبعدين ابقى ارمي الحروف \U0001F603"
+    id: '1493793880660315'
+  - created_time: '2017-05-26T13:33:32+0000'
+    from:
+      name: Marwan Yassin
+      id: '10159953707250230'
+    message: |-
+      Tessarct is very simple,   what's your problem?
+      And if you've OpenCL it's supported in Tesseract 4 much better performance but you've to build tesseract 4 from the source
+    id: '1493793937326976'
+  - created_time: '2017-05-26T14:03:30+0000'
+    from:
+      name: Abdo Mahmoud
+      id: '1791054194278576'
+    message: |-
+      هو أنا مفهمتش أنت عايز ايه بالظبط بس دي dataset أرقام بس
+      https://pythonprogramming.net/static/downloads/image-recognition/
+    id: '1493814113991625'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE1TXpjNE5ETXhNRFkyTVRJM01qb3hORGsxT0RBME56UXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE1TXpneE5ERXhNems1TVRZAeU5Ub3hORGsxT0RBM05ERTAZD

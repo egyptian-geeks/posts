@@ -1,0 +1,110 @@
+---
+message: My thoughts on Go. I'd love to hear your feedback about the content and the
+  style of writing.
+link: http://blog.mbassem.com/2015/10/16/beginner-thoughts-on-go/
+from:
+  name: Mohamed Bassem
+  id: '10212826240185281'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQCpKYHZQpI18WPh&w=130&h=130&url=http%3A%2F%2Fblog.mbassem.com%2Fimg%2Fbeginner-thoughts-on-go%2Fgopher.png&cfs=1&_nc_hash=AQAPBQTrnuAp6SkV
+created_time: '2015-10-16T19:52:21+0000'
+updated_time: '2015-10-18T20:48:40+0000'
+name: Beginner Thoughts on Go
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1020375941335447/
+id: '172338516139198_1020375941335447'
+reactions:
+  data:
+  - id: '10155855157936047'
+    name: Mosab Ibrahim
+    type: LIKE
+  - id: '10155854949245944'
+    name: Tarek Amr
+    type: LIKE
+  - id: '10155764645725568'
+    name: Mohamed Rashed
+    type: LIKE
+  - id: '10213017755051330'
+    name: Abdelrhman Shawky
+    type: LIKE
+  - id: '1763959737010749'
+    name: Ahmed Mahmoud
+    type: LIKE
+  - id: '10208377163265082'
+    name: Mo'az Mohsen
+    type: LIKE
+  - id: '10212947071504226'
+    name: Eslam Hamouda
+    type: LIKE
+  - id: '1495149960582252'
+    name: Mohamed Wael
+    type: LIKE
+  - id: '10215093583796418'
+    name: Muhammad Negm
+    type: LIKE
+  - id: '10215626626127168'
+    name: Khaled M. Diab
+    type: LIKE
+  - id: '1174265536041152'
+    name: Mohamed El Zarei
+    type: LIKE
+  - id: '1531418506912614'
+    name: Sara Khodeir
+    type: LIKE
+  - id: '1923113658002033'
+    name: Ahmad Tolba
+    type: LIKE
+  paging:
+    cursors:
+      before: TnpVMU1ESTJNRFEyT2pFME5EVXlOREEyTnpVNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQTVNVEF5TlRNNE5EWTRPakUwTkRVd01qWXhNems2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2015-10-16T22:02:20+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: I always thought go is to similar too cpp, and that's why I love it
+    id: '1020406531332388'
+  - created_time: '2015-10-16T22:05:46+0000'
+    from:
+      name: Khaled M. Diab
+      id: '10215626626127168'
+    message: "nice article, \n- it seems that Go shares some ideas with scala (GC,
+      one-liners, native concurrency model, )\n- it looks that \"defer\" is same as
+      context mgr in python: \"with ... ():\"\n- it is not clear how to manage the
+      goroutines as well, how many threads are spawned? are they context-switched?
+      or each routine has its own thread?\n- python and scala (and java) come with
+      a lot of standard libraries that make our life easier, and \"trusted\" non-standard
+      libraries with large adoption that make our life even more easier :D I wonder
+      if this is the case in go\n- how does network stack work in go? is it comparable
+      to erlang/python/scala?\n- I don't like GC since it might add unpredictability
+      at run time (at least for critical tasks) can we turn it off in go?"
+    id: '1020407294665645'
+  - created_time: '2015-10-18T18:40:09+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Go is a fantastic language but depends on your needs. also still the
+      debugging in GoLang is not that mature yet and you need to be expert in low
+      level programming specially for debugging GO.
+    id: '1021127414593633'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF5TURRd05qVXpNVE16TWpNNE9Eb3hORFExTURNeU9UUXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF5TVRFeU56UXhORFU1TXpZAek16b3hORFExTVRrek5qQTUZD
+attachments:
+  data:
+  - description: A few months ago, I couldn't answer the "What's your main programming
+      language?" question. I found out about Google's golang and started learning
+      it. In this blog post I'll write about some of my thoughts on Go after I've
+      been using it for a few months now.
+    media:
+      image:
+        height: 202
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQCwJr5NN1CljSN8&w=720&h=720&url=http%3A%2F%2Fblog.mbassem.com%2Fimg%2Fbeginner-thoughts-on-go%2Fgopher.png&cfs=1&_nc_hash=AQDmyU-qztw6juWV
+        width: 202
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fblog.mbassem.com%2F2015%2F10%2F16%2Fbeginner-thoughts-on-go%2F&h=ATMQHUXKCD7i6GowXzWBM_QhB45cFSsc4JEc_KpEb6U53H7FwHwZTB23LdpOdTc6bgS2MCRJnJHNrh5fJOlndRFFTHnkVnuyrJ91&s=1&enc=AZPVQrTveI3bS6OnqHTLFxwWrCPJmQEMZKNN1SXri1bSGQniezlwA0AFKIfgUu9abje70py7sMqpP7Cu7y0A3JEM
+    title: Beginner Thoughts on Go
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fblog.mbassem.com%2F2015%2F10%2F16%2Fbeginner-thoughts-on-go%2F&h=ATMQHUXKCD7i6GowXzWBM_QhB45cFSsc4JEc_KpEb6U53H7FwHwZTB23LdpOdTc6bgS2MCRJnJHNrh5fJOlndRFFTHnkVnuyrJ91&s=1&enc=AZPVQrTveI3bS6OnqHTLFxwWrCPJmQEMZKNN1SXri1bSGQniezlwA0AFKIfgUu9abje70py7sMqpP7Cu7y0A3JEM

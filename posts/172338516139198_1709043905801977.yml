@@ -1,0 +1,94 @@
+---
+message: "What to consider when implementing a password-reset mechanism for your application:\n\n"
+link: https://stackoverflow.com/a/48052070/7827699
+from:
+  name: Abdelrhman Shawky
+  id: '10213017755051330'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQBicEnZEnV912SL&w=130&h=130&url=https%3A%2F%2Fcdn.sstatic.net%2FSites%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded&cfs=1&_nc_hash=AQDvsiX7ONHDf146
+created_time: '2018-01-01T18:19:35+0000'
+updated_time: '2018-01-02T15:49:26+0000'
+name: how to bypass login authentication when sending password link by email asp.net?
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1709043905801977/
+shares:
+  count: 2
+id: '172338516139198_1709043905801977'
+reactions:
+  data:
+  - id: '10160105091405314'
+    name: Mohamed Elsherif
+    type: LIKE
+  - id: '1934816839881224'
+    name: Eslam Mohamed
+    type: LIKE
+  - id: '1818224478190849'
+    name: Yousef Mahmoud
+    type: LIKE
+  - id: '1816473348363749'
+    name: Mohamed Ali
+    type: LIKE
+  - id: '10210921708461949'
+    name: Shiba Sinceta
+    type: LIKE
+  - id: '10156135077727072'
+    name: Moo Moo
+    type: LIKE
+  - id: '10215924754737465'
+    name: Ahmed Ajour
+    type: LIKE
+  - id: '1608327662579661'
+    name: Karim Shoair
+    type: LIKE
+  - id: '859391800899712'
+    name: Mohamed Huzien
+    type: LIKE
+  - id: '10156016759599354'
+    name: Hazem Noor
+    type: LIKE
+  - id: '1999543090297426'
+    name: عامر صلاح
+    type: LIKE
+  paging:
+    cursors:
+      before: TnpRd056WTFNekV6T2pFMU1UUTVNRGcxTXpNNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQTNNalV5TmpNNE5qSXhPakUxTVRRNE16QTVNRE02TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2018-01-01T18:40:27+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: it is also much more secure to have a reset method configured like a
+      mobile phone to send second factor auth code to.
+    id: '1709056629134038'
+  - created_time: '2018-01-01T18:41:19+0000'
+    from:
+      name: Zeyad Mounir
+      id: '1631588673551004'
+    message: In 6, I also usually include an input for email, to make sure that the
+      token is related to that email and the user is the owner...
+    id: '1709057179133983'
+  - created_time: '2018-01-02T12:06:38+0000'
+    from:
+      name: Yousef Mahmoud
+      id: '1818224478190849'
+    message: I guess you wrote the first answer, if yes, big like for the owasp link
+    id: '1709658579073843'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN3T1RBMU5qWXlPVEV6TkRBek9Eb3hOVEUwT0RNeU1ESTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN3T1RZAMU9EVTNPVEEzTXpnME16b3hOVEUwT0RrME56azQZD
+attachments:
+  data:
+  - description: i am sending the email of the user in Query string(encrypted). http://localhost:51266/User/User_EditPassword.aspxaccesstype=email&te=
+    media:
+      image:
+        height: 316
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAMFLWvXjUlRuS7&w=720&h=720&url=https%3A%2F%2Fcdn.sstatic.net%2FSites%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded&cfs=1&_nc_hash=AQBDUhzXdwnk-uG7
+        width: 316
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fstackoverflow.com%2Fa%2F48052070%2F7827699&h=ATPmkmtjvY2qrToltDSY0cKB-j-Y-Q6Sd-SCRuW0XvFRChTmAJ2p20IuRDh4ZfDMi7Scmu6oZeMgSAwZ_p637w_PNW6IiKSurx5t&s=1&enc=AZNU28xkHiNF_0G9DQxGN3LZ50xH9BtdMqsaaIkKavPDh92Uh0wlxEHKcre29bnVSWfpKfL-UH8oxb7Q90jZxV4s
+    title: how to bypass login authentication when sending password link by email
+      asp.net?
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fstackoverflow.com%2Fa%2F48052070%2F7827699&h=ATPmkmtjvY2qrToltDSY0cKB-j-Y-Q6Sd-SCRuW0XvFRChTmAJ2p20IuRDh4ZfDMi7Scmu6oZeMgSAwZ_p637w_PNW6IiKSurx5t&s=1&enc=AZNU28xkHiNF_0G9DQxGN3LZ50xH9BtdMqsaaIkKavPDh92Uh0wlxEHKcre29bnVSWfpKfL-UH8oxb7Q90jZxV4s

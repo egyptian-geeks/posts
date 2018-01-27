@@ -1,0 +1,88 @@
+---
+message: "يا جيكس.. مساعدة في jQuery من فضلكم\n\nأنا عاوز أخلي getJSON تشتغل على Google
+  Chrome على ال PC من غير سيرفر ومن غير أما أعمل أي حل من الحلين دول:\n1- أرفع ملفات
+  المشروع على سيرفر (أو Local Host)\n2- أسمح لل Policy دي على المتصفح \"access-control-allow-origin\"
+  \n\nوكل سنة وأنتم طيبين"
+from:
+  name: Mahmoud N. Kelany
+  id: '10210588611581398'
+type: status
+created_time: '2017-06-16T13:39:55+0000'
+updated_time: '2017-06-17T18:57:55+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1517652204941149/
+id: '172338516139198_1517652204941149'
+reactions:
+  data:
+  - id: '1190802527717096'
+    name: Amgad HaSsan
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXpOakl3TnprMk5qWXhPakUwT1RjMk9UTXhNalU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXpOakl3TnprMk5qWXhPakUwT1RjMk9UTXhNalU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-06-16T13:59:59+0000'
+    from:
+      name: Mohamed Oun
+      id: '10213382124519901'
+    message: I don't think you can.
+    id: '1517665244939845'
+  - created_time: '2017-06-16T14:03:24+0000'
+    from:
+      name: Mohamed El Shaer
+      id: '1623854234340161'
+    message: |-
+      حط ال json في ال source code
+
+      Or add it as a variable in a seperate JS file then load it as any normal script and use the variable instead of making xhr request
+    id: '1517667391606297'
+  - created_time: '2017-06-16T14:35:22+0000'
+    from:
+      name: Youssef Simon
+      id: '10159943738270613'
+    message: msh wada7 anta 3aiz ta3amal ah balzabat
+    id: '1517691541603882'
+  - created_time: '2017-06-16T14:44:31+0000'
+    from:
+      name: Ashraf Kaabi
+      id: '10156258607755921'
+    message: They are a chrome extension you can install to allow that.
+    id: '1517699684936401'
+  - created_time: '2017-06-16T15:14:00+0000'
+    from:
+      name: Muhammad Sherbeeny
+      id: '10159810258355527'
+    message: What about JSONP ?
+    id: '1517721774934192'
+  - created_time: '2017-06-16T16:21:36+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: خلي الملف في نفس مجلد الصفحة
+    id: '1517780644928305'
+  - created_time: '2017-06-16T18:05:33+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: Law el json kda fixed on the local , just use it from .js file
+    id: '1517868698252833'
+  - created_time: '2017-06-16T23:39:57+0000'
+    from:
+      name: Mahmoud N. Kelany
+      id: '10210588611581398'
+    message: شكرا يا شباب. أنا بعدت عن chrome خالص :D والدنيا شغالة تمام الحمد لله
+    id: '1518142701558766'
+  - created_time: '2017-06-17T18:57:53+0000'
+    from:
+      name: Mohamed Shaaban
+      id: '10156259295924301'
+    message: "I think you're doing something wrong, getJSON is used to get data from
+      a web server\n\nMaybe you need to use JSONP for such case \n\nWhy you need a
+      server, IMO because of Cross-Origin Policy restriction, if you are not using
+      a server, how browser checks if it's same origin or not"
+    id: '1518943414812028'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV4TnpZAMk5USTBORGt6T1RnME5Ub3hORGszTmpJeE5UazUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV4T0RrME16UXhORGd4TWpBeU9Eb3hORGszTnpJMU9EY3oZD

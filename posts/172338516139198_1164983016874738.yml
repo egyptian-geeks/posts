@@ -1,0 +1,96 @@
+---
+message: |-
+  بعد سنة من الشغل المتقتع الcalculator دلوقتي بتجمع وتطرح وتضرب وتقسم بس الpriorities بتاعتها ضاربة. يعني ممكن تجمع قبل ما تضرب.
+  الproject مفتوح (open source)
+  مساعدتك مطلوبة ومرحب بيها :D
+from:
+  name: Adam Zahran
+  id: '2029806313704072'
+type: status
+created_time: '2016-06-19T10:07:06+0000'
+updated_time: '2016-06-19T17:39:13+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1164983016874738/
+id: '172338516139198_1164983016874738'
+reactions:
+  data:
+  - id: '10215482677129679'
+    name: Ahmed Adel Radwan
+    type: LIKE
+  - id: '1664642070245638'
+    name: Mohamed Nasr
+    type: LIKE
+  - id: '1841761432524477'
+    name: Ahmed Yousef
+    type: LIKE
+  - id: '10212777038359386'
+    name: Mahmoud Mustafa
+    type: LIKE
+  - id: '10155471778528020'
+    name: Mohamed Farouk
+    type: LIKE
+  - id: '1487671784675336'
+    name: Mohamad Emad
+    type: LIKE
+  - id: '2072527022967278'
+    name: Moodi Hebaish
+    type: LIKE
+  - id: '10155052403705843'
+    name: Mohammad Hosny
+    type: LIKE
+  - id: '10157236778857818'
+    name: Mohamed Ramadan
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRVeU1UQTBPRGN3TXpveE5EWTJNems1TURFM09qSTFOREE1TmpFMk1UTT0ZD
+      after: TmpFMU9EWTNPREUzT2pFME5qWXpNekl6T0RrNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-06-19T17:39:13+0000'
+    from:
+      name: Mohammad Alaggan
+      id: '10154985539677085'
+    message: Emacs embedded calc mode can do that , for latex or many programming
+      languages too.
+    id: '1165204686852571'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUyTlRJd05EWTROamcxTWpVM01Ub3hORFkyTXpVM09UVTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUyTlRJd05EWTROamcxTWpVM01Ub3hORFkyTXpVM09UVTAZD
+attachments:
+  data:
+  - description: |-
+      بقالي فترة شغال علي calculator بس بتكتب بشكل نضيف زي ما الصورة بتقول كدا...
+      الcalculator بتستخدم حاجة اسمها latex عشان تكتب الmath expressions بالشكل دا، لأني من ال OSC - Open Source Community ولأن الشعار بتاعنا "لا تعيد ابتكار العجلة" فبستخدم library جميلة اسمها mathquill عشان تطبعلي الحاجات بlatex.
+
+      latex في صورته الخام بيبقي عبارة عن حاجة زي كدا:
+      \frac{2+33}{114}\cdot\sqrt{25}
+
+      فمحتاج حاجة تفك الرموز دي وتطلع منها الإجابة.
+      كان ممكن نكتب engine كامل يعمل الحوار دا... بس عالم الopen source جميل ومش بيخليني ابتكر العجلة تاني: استخدمت حاجة اسمها PEG.js، ودا عبارة عن parser generator. من الآخر حاجة كدا بديها شوية قواعد بحيث اني لما ادخلها دا:
+      \frac{2+33}{114}\cdot\sqrt{25}
+      بقدرة قادر تطلعلي النتيجة:
+      1.5350877193
+
+      المهم طولت عليكو أسف.
+      لو عايز تشارك في تطوير المشروع دا خش هنا وكلمني:
+      https://github.com/lordadamson/latexCalculator
+
+      لو عايز تشوف نسخة live من المشروع عشان تشوف وصل لفين دلوقتي خش هنا:
+      https://lordadamson.github.io/latexCalculator
+      (هو دلوقتي بيفهم الجمع والطرح والضرب بس مش بيعرف يحدد الأولويات في الحساب)
+    description_tags:
+    - id: '244979425668438'
+      length: 27
+      name: OSC - Open Source Community
+      offset: 165
+      type: page
+    media:
+      image:
+        height: 619
+        src: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/11142417_1046402018711178_6897956971601715002_n.jpg?oh=ac51da7303a2dd2ec276a13a1b38cc5e&oe=5AEBFA2E
+        width: 720
+    target:
+      url: https://www.facebook.com/photo.php?fbid=1046402018711178&set=p.1046402018711178&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=1046402018711178&set=p.1046402018711178&type=3

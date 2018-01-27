@@ -1,0 +1,27 @@
+---
+message: |-
+  I'm trying to use Hangouts Instance (the widget not the button) to integrate it with OpenEdx platform but I'm only able to use the button which isn't suitable for my case, I need a chat room for each course (the widget give you that), not a new instance created by each user clicking on the chat button. But I'm stuck with whitelisting my domain step.
+
+  So I need to know what does it mean that you need Google to whitelist your site’s domain as a referer for Google Hangouts to work?
+
+  And how to get past this in development phase (using the localhost) ?
+from:
+  name: Hossam L Dokkani
+  id: '928444520664078'
+type: status
+created_time: '2017-06-10T08:00:08+0000'
+updated_time: '2017-06-10T14:25:53+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1510852852287751/
+id: '172338516139198_1510852852287751'
+comments:
+  data:
+  - created_time: '2017-06-10T13:58:57+0000'
+    from:
+      name: Amir Asaad
+      id: '10215514716364029'
+    message: Simply you can set allow host to local host for Dev and change it later
+    id: '1511145195591850'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV4TVRFME5URTVOVFU1TVRnMU1Eb3hORGszTVRBek1UTTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV4TVRFME5URTVOVFU1TVRnMU1Eb3hORGszTVRBek1UTTMZD

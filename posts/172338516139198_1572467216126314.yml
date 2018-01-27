@@ -1,0 +1,64 @@
+---
+message: |-
+  https://stackoverflow.com/questions/45567576/express-js-app-is-conflicting-with-mysql-server
+  أى رأى ؟؟
+  عشان انهاردة تانى يوم و هيجيلى اكتئاب
+link: https://stackoverflow.com/questions/45567576/express-js-app-is-conflicting-with-mysql-server
+from:
+  name: Bahaa Zidan
+  id: '2013689858909102'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQBicEnZEnV912SL&w=130&h=130&url=https%3A%2F%2Fcdn.sstatic.net%2FSites%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded&cfs=1&_nc_hash=AQDvsiX7ONHDf146
+created_time: '2017-08-08T15:35:00+0000'
+updated_time: '2017-08-09T21:20:44+0000'
+name: Express.JS app is conflicting with mysql server
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1572467216126314/
+id: '172338516139198_1572467216126314'
+comments:
+  data:
+  - created_time: '2017-08-08T16:18:31+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "حاول تعرف هي متعلقة بالااب بتاعك انت تحديدا ولا اي نود انستانس مثلا..
+      لحد ما توصل للسبب \nيعني جرب تعمل باكدج جديد فاضية عبارة عن express hello world
+      مثلا واقفل الانستانس بتاعتك وشغلها هي.. شوف المشكلة لسة موجودة ولا مع ال app
+      بتاعك انت بس"
+    id: '1572508849455484'
+  - created_time: '2017-08-09T12:37:16+0000'
+    from:
+      name: Amr Faisal
+      id: '10159559536590538'
+    message: Check if your app is overriding any environment variables.
+    id: '1573256782714024'
+  - created_time: '2017-08-09T15:20:07+0000'
+    from:
+      name: Mohamed Gamal
+      id: '10156096685587328'
+    message: Tried changing the port?
+    id: '1573373132702389'
+  - created_time: '2017-08-09T21:20:42+0000'
+    from:
+      name: Hesham Watany
+      id: '10214843347173894'
+    message: شوف ال logs
+    id: '1573610756011960'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUzTWpVd09EZAzBPVFExTlRRNE5Eb3hOVEF5TWpBNU1URXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUzTXpZAeE1EYzFOakF4TVRrMk1Eb3hOVEF5TXpFek5qUXkZD
+attachments:
+  data:
+  - description: I'm having a bad day trying to find the reason why this bug is occurring
+      to me. when I run the express.js app (using pm2) it makes MySQL 5.7 server stop
+      and when I try to restart the MySQL server it
+    media:
+      image:
+        height: 316
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAMFLWvXjUlRuS7&w=720&h=720&url=https%3A%2F%2Fcdn.sstatic.net%2FSites%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded&cfs=1&_nc_hash=AQBDUhzXdwnk-uG7
+        width: 316
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F45567576%2Fexpress-js-app-is-conflicting-with-mysql-server&h=ATPL91nSe4elXazTG7MqEyhXs7kYHyQa8sngNXO5-SQpqeLOQFUWbH9gjNgSYbZcGHx0QtYgt8QAI8c04C9T-B0DQ5ZnMhvoJ9Ru&s=1&enc=AZMwxOPlFBvURz4NK3oNSHQIpQcRGFnpfZ1mAzRM_fuSuskFldzU9FwwDSj85bzPmzf30ALQ-8SzScyV4EO2Ce1d
+    title: Express.JS app is conflicting with mysql server
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F45567576%2Fexpress-js-app-is-conflicting-with-mysql-server&h=ATPL91nSe4elXazTG7MqEyhXs7kYHyQa8sngNXO5-SQpqeLOQFUWbH9gjNgSYbZcGHx0QtYgt8QAI8c04C9T-B0DQ5ZnMhvoJ9Ru&s=1&enc=AZMwxOPlFBvURz4NK3oNSHQIpQcRGFnpfZ1mAzRM_fuSuskFldzU9FwwDSj85bzPmzf30ALQ-8SzScyV4EO2Ce1d

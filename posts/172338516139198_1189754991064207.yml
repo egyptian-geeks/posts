@@ -1,0 +1,99 @@
+---
+message: "SA,\nI'm having a serious problem guys.\nI developed a big system (took
+  me 1 month of full time development) using JavaFX.\n\nToday the client decided that
+  she wants it as a web page.\n\nI've tried all day to embed the JavaFX app in the
+  browser using webstarts and it's an epic fail.\nExpensive certifications are needed
+  (self signing doesn't work) \nPLUS Google Chrome doesn't support java anymore for
+  security issues.\n\nAny suggestions? If the only solution is to keep the models
+  and database, and rewrite the controllers and views; What is the easiest Java web
+  framework to re-implement the system?\n\nThanks in advance."
+from:
+  name: Mohamed Gamal
+  id: '10156096685587328'
+type: status
+created_time: '2016-07-26T17:44:18+0000'
+updated_time: '2016-07-27T02:54:12+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1189754991064207/
+id: '172338516139198_1189754991064207'
+reactions:
+  data:
+  - id: '10155856319241285'
+    name: Ahmed Anis El-Sayed
+    type: LIKE
+  - id: '10155870339741007'
+    name: Mona Shokrof
+    type: LIKE
+  paging:
+    cursors:
+      before: TnpBd016RTJNamcwT2pFME5qazFOVFUxTkRJNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TmpZAek16RTJNREEyT2pFME5qazFOVFUxTWprNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-07-26T17:46:42+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: Amjad Mashaal
+    id: '1189755914397448'
+  - created_time: '2016-07-26T17:48:09+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: SPRING without a doubt, I was hoping you were using it with JavaFX in
+      the first place at least for dependency injection.
+    id: '1189756467730726'
+  - created_time: '2016-07-26T17:48:30+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: P.S you can reuse CSS
+    id: '1189756641064042'
+  - created_time: '2016-07-26T17:52:16+0000'
+    from:
+      name: Mohamed Hassan Gad-Elrab
+      id: '10213811010243202'
+    message: You may create web client using Playframework
+    id: '1189758324397207'
+  - created_time: '2016-07-26T17:53:41+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: webfx, don't know it but looks like it is worth a try https://jaxenter.com/javafx-becomes-the-new-html-with-webfx-2-106813.html
+    id: '1189758714397168'
+  - created_time: '2016-07-26T18:08:52+0000'
+    from:
+      name: Amjad Mashaal
+      id: '10213738834576763'
+    message: Let's Encrypt should work regarding the certificates
+    id: '1189768951062811'
+  - created_time: '2016-07-26T19:43:40+0000'
+    from:
+      name: Ahmed Mahfouz
+      id: '10215133032616444'
+    message: "+1 let's encrypt"
+    id: '1189812854391754'
+  - created_time: '2016-07-26T20:34:20+0000'
+    from:
+      name: Ahmed Atalla
+      id: '574320702905312'
+    message: If you design the project well , separate parts as recommended, the you
+      can rewrite only the view part  as a web client
+    id: '1189833631056343'
+  - created_time: '2016-07-26T20:37:15+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: 'نقطة عامة ليست على علاقة مباشرة بموضوعك: لهذا وجب الاتفاق على المتطلبات
+      النهائية للعميل قبل بدء التنفيذ'
+    id: '1189834437722929'
+  - created_time: '2016-07-27T02:54:12+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: Would using Java Webstart work, so you are basically asking the browser
+      to start the application but not interact with them
+    id: '1190007231038983'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU0T1RjMU5Ua3hORE01TnpRME9Eb3hORFk1TlRVMU1qQXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU1TURBd056SXpNVEF6T0RrNE16b3hORFk1TlRnNE1EVXkZD

@@ -1,0 +1,100 @@
+---
+message: حاليا بعمل سيستم لشركة وفيها جهاز حضور وانصرف بالبصمة ازاى اربطه بالسيستم
+  عندى ﻻنى اول مرة اجرب الموضوع ده فهل فيه طريقة معينة او api مثلا وﻻ بيتم ال integration
+  ازاى ؟
+from:
+  name: Mohamed Gamal
+  id: '643687846022537'
+type: status
+created_time: '2017-12-28T00:06:43+0000'
+updated_time: '2017-12-30T12:41:16+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1704426179597083/
+id: '172338516139198_1704426179597083'
+reactions:
+  data:
+  - id: '871016873079772'
+    name: Marwan Ahmed
+    type: LIKE
+  - id: '1584659024902777'
+    name: Mahmoud EL Degwey
+    type: LIKE
+  - id: '10155054033902413'
+    name: Alaa Samir
+    type: LIKE
+  - id: '558296017871350'
+    name: Abdurrahman Gad
+    type: LIKE
+  - id: '1485696944861214'
+    name: Mostafa Sultan
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTFNVFEwTURJME5EWTRPakUxTVRRMU5qWTVNalU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlOakkzTmpneU9UQXlPakUxTVRRME1qQTFNamM2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-12-28T01:15:54+0000'
+    from:
+      name: Mahmoud Kandil
+      id: '10214343099918744'
+    message: "على حسب نوع الجهاز في اجهز بيتحطلها Configuration \nانها push الداتا
+      بتاعتها على DB Server معين \nوفى اجهزة تانية بتعمل انت Connect عليه بال APIs
+      علشان تسحب الداتا من وقت لوقت\n الخلاصة انك لازم تقرأ ال Manuel علشان تفهم الجهاز
+      بتاعك بينفع يعمل ايه."
+    id: '1704465276259840'
+  - created_time: '2017-12-28T10:33:11+0000'
+    from:
+      name: Ahmed Amr Farid
+      id: '10155859538230336'
+    message: "اغلب الاجهزة الصيني المنتشرة بتنزل ب api و برنامج بيقرا هو البيانات
+      و يرميها في قاعده بيانات access او sql server\nعندك بقه اختيارين، الاول انك
+      تذاكر ال api و تشتغل بيه فانك تقرا البيانات بنفسك من الاجهزة علي طول، ده طبعا
+      automated بس حتتعب شوية، و لو المكن اتغير او عملتله update ممكن تضطر تعيد الشغل
+      تاني، \nالحل التاني اسهل، انك تستعمل البرنامج اللي جاي مع المكن، و بعدين تقرا
+      بيانات الحضور و الانصراف من قاعده البيانات، هنا حيبقي عندك خطوة زياده انك لازم
+      تستعمل برنامجين مش برنامج واحد...\nشوف المناسب ليك و اعمله..."
+    id: '1704759579563743'
+  - created_time: '2017-12-28T11:30:15+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: و نصيحه، ابعد عن القصه دي. الاجهزه الصيني معظمها حتعزبك
+    id: '1704792962893738'
+  - created_time: '2017-12-28T12:12:49+0000'
+    from:
+      name: M Shaban Hejazee
+      id: '10214857954897753'
+    message: |-
+      كل جهاز بيبقى معاه sdk بتقدر من خلاله تقرى الحركات اللى فيه وفى اجهزه لعينه بتبقى socket programming فبتبعت request وتستنى response
+      وفى حل اسهل ان المكنه بيجى معاها تطبيق بيرمى فى الداتا بيز وفى الحاله دى ممكن تقرى منها او تعمل trigger
+    id: '1704822592890775'
+  - created_time: '2017-12-28T18:41:48+0000'
+    from:
+      name: Mohamed Samir Mohamed
+      id: '10155807929225700'
+    message: ال database نوعها ايه؟
+    id: '1705109006195467'
+  - created_time: '2017-12-28T18:58:13+0000'
+    from:
+      name: Ahmed Rabie
+      id: '2017272665160459'
+    message: نوع الجهاز اي؟ لو flexcode معايا الكود بتاعه واشتغلت عليه قبل كدة
+    id: '1705129892860045'
+  - created_time: '2017-12-28T20:24:37+0000'
+    from:
+      name: Muhammad Samir Hassan
+      id: '10157182821910200'
+    message: لو zdk. المكنة بيجي معاها اسطوانة فيها sdk
+    id: '1705185166187851'
+  - created_time: '2017-12-30T09:28:09+0000'
+    from:
+      name: Mohamed Salah Tag
+      id: '10156192317072249'
+    message: انا عملت integration مع sql و oracle قبل كده وده عن طريق  sdk اللى بييجى
+      مع الجهاز فى الاسطوانه بتاعت التعريف والقصه سهله جدا ولو عاوز تفاصيل اكتر كلمنى
+      ماسنجر  وانا اوضحلك الدنيا
+    id: '1706511052721929'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN3TkRRMk5USTNOakkxT1RnME1Eb3hOVEUwTkRJek56VTEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN3TmpVeE1UQTFNamN5TVRreU9Ub3hOVEUwTmpJMk1EZAzUZD

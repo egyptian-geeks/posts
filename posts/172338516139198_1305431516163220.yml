@@ -1,0 +1,106 @@
+---
+message: حد هنا ليه فى الP2P networks؟ فيه مشكلة افتراضية حابب اعرف اتحلت ازاى، لو
+  عندك p2p network مافيهاش اى super node او اى central node بأى شكل اعتبر انها Kademlia
+  network ، واعتبر ان الناس بيقدروا يعرفوا بعض بالpublic key بتاعهم، لو عندك قائمة
+  بpublic keys بتاعة اصدقائك (٢٠٠٠ صديق) وعاوز تعرف هم اونلاين ولا لأ هل الطريقة الوحيدة
+  انك تبعت ٢٠٠٠ ريكويست للنتورك ولا فيه حلول ليها تخلى عدد الريكويستس اقل؟ لأن مشكلة
+  حاجة زى كده ان لو لاقين منهم مثلا ٢٠ اونلاين والشبكة ردت ان الباقى مش موجود هتضطر
+  تشوف كل شوية باقى الناس اونلاين ولا لأ فهتضطر تبعت كل فترة ١٩٨٠ ريكويست تانيين لو
+  افترضت ان كل الناس فى الشبكة دى بيشتغلوا بالطريقة دى النتورك هيحصلها فلود وهتكون
+  مش effecient ، مش عارف اذا كان حد حل المشكلة دى ولا لأ، مالقيتش papers عن الموضوع.
+from:
+  name: Emad Elsaid
+  id: '627907956'
+type: status
+created_time: '2016-11-26T22:31:06+0000'
+updated_time: '2016-11-27T22:53:16+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1305431516163220/
+id: '172338516139198_1305431516163220'
+reactions:
+  data:
+  - id: '10156089336182292'
+    name: Hassan Aly Selim
+    type: LIKE
+  - id: '2050677301856794'
+    name: Nour Badr
+    type: LIKE
+  - id: '10154949856661012'
+    name: Mostafa Gaafar
+    type: LIKE
+  - id: '1300308620114909'
+    name: Ahmed Ziada
+    type: LIKE
+  - id: '1969368433074776'
+    name: Mostafa Ahmed
+    type: LIKE
+  - id: '1772542006152666'
+    name: Mohamed AbuIssa
+    type: LIKE
+  - id: '1560359927364731'
+    name: Mahmoud Nawwar
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRFNU5qa3lNamt4T2pFME9EQXlOVEE1TkRZANk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQXhOekl5TVRZAMU16YzRPakUwT0RBeE9UazFORGc2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-11-26T22:32:35+0000'
+    from:
+      name: Ibrahim Zaki
+      id: '10157017423792738'
+    message: Gossip
+    id: '1305432249496480'
+  - created_time: '2016-11-26T22:37:19+0000'
+    from:
+      name: Mohamed Bassem
+      id: '10212826240185281'
+    message: على ما أعتقد ديه problem مشهورة في الdistributed systems. كان فيه course
+      على coursera من ضمن الlectures بتاعته شرح للكلام ده بproof of complexity. ثواني
+      هدورلك عليه.
+    id: '1305434986162873'
+  - created_time: '2016-11-26T22:39:49+0000'
+    from:
+      name: Mohamed Bassem
+      id: '10212826240185281'
+    message: 'ده الكورس : https://www.coursera.org/learn/cloud-computing. اللي انت
+      بتدور عليه في week 2. انا خدته من حوالي سنة و نص كدة كان حلو جدا بصراحة بس كان
+      بيدخل في details أكتر مما انا كنت عايز على ما أتذكر. تقريبا حطيته على الجروب
+      قبل كدة.'
+    id: '1305435989496106'
+  - created_time: '2016-11-26T23:02:49+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: |-
+      اوكى Gossip اعتقد مش هيحل المشكلة لأن النتورك اللى بتكلم عليها مش المفروض ان كل البيرز يعرفوا مين اونلاين لكن زى فيسبوك كده عندك ١٠^٦ بيرز مثلا وكل واحد محتاج يعرف مين من اصدقاؤه اونلاين، gossip انك بتحاول تأبديت كل البيرز بشوية داتا مشتركة بينهم عن طريق periodic update
+      ده الفيديو اللى اعتمدت عليه : https://www.youtube.com/watch?v=B18vEtFYTY4&list=PLFd87qVsaLhOkTLvfp6MC94iFa_1c9wrU&index=20
+    id: '1305448979494807'
+  - created_time: '2016-11-27T01:23:01+0000'
+    from:
+      name: Khaled M. Diab
+      id: '10215626626127168'
+    message: I think you can use Chord. It's written by Stoica...
+    id: '1305522766154095'
+  - created_time: '2016-11-27T01:23:25+0000'
+    from:
+      name: Mohamed Ahmed
+      id: '385696705226073'
+    message: ممكن تتحل بال pub/sub  بس معنديش فكره عن ال implementation
+    id: '1305523062820732'
+  - created_time: '2016-11-27T04:52:35+0000'
+    from:
+      name: Taha Amin
+      id: '10155815529215590'
+    message: ايام الe-donkey ممكن واحد من الpeers يرقي نفسه يبقي super node
+    id: '1305620392810999'
+  - created_time: '2016-11-27T04:59:34+0000'
+    from:
+      name: Taha Amin
+      id: '10155815529215590'
+    message: https://en.m.wikipedia.org/wiki/Distributed_hash_table
+    id: '1305623489477356'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE13TlRRek1qSTBPVFE1TmpRNE1Eb3hORGd3TVRrNU5UVTEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE13TlRZAeU16UTRPVFEzTnpNMU5qb3hORGd3TWpJeU56YzAZD

@@ -1,0 +1,87 @@
+---
+message: rich domain model vs active record ( anemic model )!! which one to use?
+from:
+  name: Mahmoud Mortda
+  id: '1816374988414963'
+type: status
+created_time: '2016-04-17T19:47:09+0000'
+updated_time: '2016-04-18T03:56:16+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1126236410749399/
+id: '172338516139198_1126236410749399'
+comments:
+  data:
+  - created_time: '2016-04-17T20:31:04+0000'
+    from:
+      name: Taha Amin
+      id: '10155815529215590'
+    message: على حسب لو عندك business logic كتير مش مجرد Create/read/update/delete
+      وتكون انت بتكتب كود unit testing يبقى استخدم domain model غير كده هتضيع وقتك
+    id: '1126257037414003'
+  - created_time: '2016-04-17T20:34:27+0000'
+    from:
+      name: Mohammed Hussien
+      id: '10154922289347024'
+    message: domain model for me is better for large projects
+    id: '1126258357413871'
+  - created_time: '2016-04-17T20:37:51+0000'
+    from:
+      name: Mahmoud Mortda
+      id: '1816374988414963'
+    message: what if the project in early stage and business logic change frequently
+      ?
+    id: '1126259840747056'
+  - created_time: '2016-04-17T21:42:44+0000'
+    from:
+      name: سامح دعبس
+      id: '2022490591345439'
+    message: |-
+      Generally speaking, start with anemic models (even if some geeks like Martin Fowler consider it anti-pattern), and refactor later to domain modeling if the business become complex.
+      some points:
+      - anti-patterns = popular solutions fro known problems, and these solutions have maintainability problems.
+      - don't use patterns unless they are obvious, the smart use of your effort is to refactor to patterns at the last responsible moment; when they become obvious -> YAGNI (You ain't gonna need it)!
+      - KISS (keep it simple stupid): create anemic models, put your business in facades/services/business engines. Only move to domain modeling when the business is complex.
+    id: '1126284857411221'
+  - created_time: '2016-04-17T22:03:51+0000'
+    from:
+      name: سامح دعبس
+      id: '2022490591345439'
+    message: "BTW, I see that most of the replies talking about DDD, which is not
+      the same as Domain Model. Domain modeling is part of DDD, but just a part, you
+      can use it without all DDD patterns.\nI also noticed that the question consider
+      Active Record pattern to be the same as Anemic Model pattern, which is not correct!\nWe
+      have some patterns here for business organization, here is a summry of them:\n-
+      Transaction Script: Facade + Transactions \n- Active Record: persistence operation
+      embedded\n- Domain Model: contain business but persistence ignorant (PI). Will
+      need some Persistence patterns (e.g. Repository, DAO)\n- Anemic Domain Model:
+      POCO classes\n---------\nGo for POCO + Transaction scripts, then refactor later
+      if - and only if - the business become complex"
+    id: '1126291044077269'
+  - created_time: '2016-04-17T22:11:21+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      If you don't know, go for simple model, be flexible and happy to change that when you see a particular need.
+
+      Being DRY will help with that. Do it, but don't over do it. Allow things to exist twice, but not more than that.
+    id: '1126293377410369'
+  - created_time: '2016-04-18T01:42:06+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: You don't have the training or the knowledge to do DDD. Not an attack
+      or to belittle you, but DDD is very hard to do right and requires a lot of guidance
+      and reading the book even is not enough, it requires a whole supportive organization.
+      My advice is to be pragmatic, if all you need is a CRUD Website, then do that.
+      DDD is good for large enterprises with very knowledgeable domain experts, if
+      your business domain is not that deep and the piece of software you are working
+      on is not critical and does not differentiate you from competition AND again
+      you do not have the guidance, then Anemic with proper abstraction is the way
+      to go.  Also, if you don't see any bounded contexts or seams, either because
+      you don't know what that is or you can't find them, please just do the normal
+      CRUD with Business rules sandwiched between the data and UI layer.
+    id: '1126389794067394'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV5TmpJMU56QXpOelF4TkRBd016b3hORFl3T1RJMU1EWTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV5TmpNNE9UYzVOREEyTnpNNU5Eb3hORFl3T1RRek56STIZD

@@ -1,0 +1,17 @@
+---
+message: "The Problem: \nA huge SQL Server database for government sector get grows
+  by huge amount of data every 2 months.\nSo they move the completed transactions
+  to backups every 2 months to make the business solution working fine and faster.\nBut
+  when they try to search or making some business upon old transactions they enforced
+  to extract the old transactions from old backups and move it to production DB.\nThe
+  Question: what is the best solution or way to automatically extend the current SQl
+  Server database to multiple database automatically every period time and the custom
+  business solution can deal with them all."
+from:
+  name: Mohamed Nady
+  id: '10155293228608733'
+type: status
+created_time: '2014-08-28T07:13:52+0000'
+updated_time: '2014-08-28T11:14:21+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/805607789478931/
+id: '172338516139198_805607789478931'

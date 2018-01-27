@@ -1,0 +1,81 @@
+---
+message: |-
+  السلام عليكم ..
+  كنت عايز كتب أو مواقع اعرف منها عن ال SQL injections بالتفصيل
+from:
+  name: Sameh Mohsen
+  id: '2033968593287539'
+type: status
+created_time: '2017-07-09T14:29:37+0000'
+updated_time: '2017-07-10T01:34:43+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1542198142486555/
+id: '172338516139198_1542198142486555'
+reactions:
+  data:
+  - id: '1352596088179873'
+    name: Mohamed Mohamed
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlPRGcwT0RNNU56TTRPakUwT1RrMk1qVXpNemc2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlPRGcwT0RNNU56TTRPakUwT1RrMk1qVXpNemc2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-07-09T14:32:57+0000'
+    from:
+      name: Bassam Abd Elhamid
+      id: '1955441501387657'
+    message: "مش محتاجه كتب, خلينى اقلك الفكرة العامة ببساطه\n\nالفكرة ان حضرتك بغض
+      النظر عن اللغة الى بتستخدمها فى الغالب بترسل السكوال كويرى او السكوال استيتمنت
+      بشكل عام فى شكل استرنج للداتا بيز  \n\nوفى بعض الاحيان بيكون جزء من الاستعلام
+      او الاسترنج الى بتبعتها للداتا بيز بتجيبها من تيكست بوكس او اى حاجه بيدخلها
+      المستخدم\n\nمثلاً\nquery=\"SELECT * FROM Users WHERE UserName='\"+txtUserName.Text+\"'\";\n\nوهنا
+      بقى المشكلة,\nالمشكلة ان ممكن مستخدم شرير بدل ما يكتب اسم المستخدم يكتب جملة
+      سيكوال كاملة , مثلاً انه يحزف جدول المستخدمين او يعمل اى حاجه, طالما الجملة
+      هتتبعت للداتا بيز والداتا بيز هتنفذها بدون مراجعه\n\nمثلاً, ممكن يكتب النص التالى
+      فى التيكست بوكس\nAnyThing' OR 1=1 --\nوفى الحالى دى النص الكامل هيكون\nquery=\"SELECT
+      * FROM Users WHERE UserName='AnyThing' OR 1=1 --'\";\nوده معناه انه هيعدى التيست
+      حتى لو مكنش عارف اسم المستخدم\n\nممكن كمان يكتب النص التالى\nAnything'; DROP
+      TABLE Users; --\nوفى الحالة دى هيحزف  جدول المستخدمين , على فرض انه خمن اسم
+      الجدول\n\nالسيكوال انجكشن مش شرط يكون ليه ناتج صريح, مجرد ظهور خطأ حتى لو مش
+      واضح ممكن يسبب مشاكل امنية\n\nعشان تحمى نفسك من السيكوال انجكشن, متلصقش نصوص
+      الكوير مع بعض كده, استخدم بارمترز او اى حاجه حسب اللغة الى بتستخدمها بتوفرهالك\n\nمش
+      عارف اذا كنت انا بسطها اكتر من اللازم ولا ده مجرد فهمى للسيكوال انجكشن, على
+      العموم لو بتفكر تستغلها كاختبار للاختراق مثلاً فى الحالة دى اظن لازم ترجع لمصادر
+      اكثر تفصيلاً\n\nبالتوفيق :)"
+    id: '1542200609152975'
+  - created_time: '2017-07-09T14:33:58+0000'
+    from:
+      name: Khaled Ahmed
+      id: '1640888122656995'
+    message: "ماشي يا عمنا \U0001F602"
+    id: '1542201359152900'
+  - created_time: '2017-07-09T17:07:38+0000'
+    from:
+      name: Mahmoud Nawwar
+      id: '1560359927364731'
+    message: https://www.dropbox.com/s/fb69olwzb9at9xy/Methods%20of%20Detection%20and%20Prevention%20of%20SQL%20Injection%0D%0Awith%20Some%20Java%20Code.pdf?dl=0
+    id: '1542334469139589'
+  - created_time: '2017-07-09T18:16:47+0000'
+    from:
+      name: Areeg Ahmed
+      id: '10159968603440224'
+    message: https://www.owasp.org/index.php/Category:Injection
+    id: '1542389702467399'
+  - created_time: '2017-07-10T01:29:58+0000'
+    from:
+      name: Alaa Al-din Salama
+      id: '2007979049219431'
+    message: https://www.wordfence.com/learn/how-to-prevent-sql-injection-attacks/
+    id: '1542763005763402'
+  - created_time: '2017-07-10T01:34:41+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: لحد علمي لو بتقصد مع ال php وبتستخدم أي ORM فغالبا ما تشغلش نفسك ﻷن بيبقى
+      معمول حسابها. اللهم إلا إذا كان عندك وقت و كنت عاوز تعرف أصل الموضوع إيه.
+    id: '1542765942429775'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUwTWpJd01EWXdPVEUxTWprM05Ub3hORGs1TmpFd056YzQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUwTWpjMk5UazBNalF5T1RjM05Ub3hORGs1TmpVd05EZA3gZD

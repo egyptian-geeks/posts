@@ -1,0 +1,264 @@
+---
+message: "هو انا ماليش قوى فى ال Natural language processing ، بس جتلى فكرة عاوز اعرف
+  حد عاملها ولا لأ و هل هى applicable من الأساس.\nالمفروض ان فيه شوية components بتسهل
+  ال NLP منها ال tokenizer وال stemmer وال tagger و ال Entity recogniser، اللى كنت
+  بسمعه عن تأخر العربى عن باقى اللغات اللاتينية ان فيه اختلافات كتير بين العربى و
+  لغات زى الإنجليزى و الفرنساوى و كده فماتقدرش تطبق نفس الأفكار، \nطب مش ممكن نعمل
+  الكلام ده brute force :D، زى كده انك تعمل platform تخلى الناس نفسها متطوعين يعملوا
+  ال knowledge base اللى بعد كده اى سيستيم يستخدمها علشان يعمل processing للنصوص العربية؟
+  \nاللى هو بيطلع للشخص كلمة و يقول نوعها بناء على ال context و لو ممكن يتعملها stem
+  ولا لأ، او يطلع text ويحدد نوع الentities واماكنها، السيستيم ده يكون على اعداد كبيرة
+  من المشاركات بتلاقى فى الآخر داتا كتير ممكن تستخدمها.\nسورى لو الفكرة شكلها naive
+  ولا حاجة، بس جتلى و عاوز افهم ليه لأ، ولو آه ممكن طب ليه ماحدش عملها؟ ولا حد عملها
+  فعلآ؟"
+from:
+  name: Emad Elsaid
+  id: '627907956'
+type: status
+created_time: '2015-11-18T19:14:46+0000'
+updated_time: '2015-12-09T10:23:43+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1033867143319660/
+id: '172338516139198_1033867143319660'
+reactions:
+  data:
+  - id: '10155182529813309'
+    name: Mohamed El-Sayed
+    type: LIKE
+  - id: '10215847428638318'
+    name: Mohab El-Shishtawy
+    type: LIKE
+  - id: '1581849685226929'
+    name: Ayman Elbery
+    type: LIKE
+  - id: '10155855157936047'
+    name: Mosab Ibrahim
+    type: LIKE
+  - id: '10152079006144157'
+    name: Ahmed Gaber
+    type: LIKE
+  - id: '1151809561622555'
+    name: Ali ElSheikh
+    type: LIKE
+  - id: '1550774681686883'
+    name: Eslam Esmaeal
+    type: LIKE
+  - id: '10155426916839779'
+    name: Amr Medhat
+    type: LIKE
+  - id: '1797366886980472'
+    name: Ahmed Zaki
+    type: LIKE
+  - id: '10156146888611115'
+    name: Amr Magdy
+    type: LIKE
+  - id: '2036807429889191'
+    name: AL Ahmad
+    type: LIKE
+  - id: '1997552527166943'
+    name: Ahmed Ramadan
+    type: LIKE
+  - id: '1978009525783037'
+    name: Ahmed Magdy
+    type: LIKE
+  - id: '10211325385431402'
+    name: Abdalla Zaki Al-Kateb
+    type: LIKE
+  - id: '1012026932279218'
+    name: Ahmed Mohamed Abd El-Hamid
+    type: LIKE
+  - id: '10213118809797201'
+    name: Muhammad El-Hennawy
+    type: LIKE
+  - id: '2057293531169786'
+    name: Adham Elsabbagh
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpnMk9Ua3pNekE0T2pFME5EYzVOamc1TVRFNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQTJOamMwTnpjek9ERTNPakUwTkRjNE56UXlNRFk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2015-11-18T19:15:36+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: Tarek Amr انت شغلك قريب من الموضوع ده مش كده ؟
+    id: '1033867349986306'
+  - created_time: '2015-11-18T19:19:38+0000'
+    from:
+      name: Tarek Amr
+      id: '10155854949245944'
+    message: انت قصدك نبني كوربس الناس تستخدمه؟
+    id: '1033868416652866'
+  - created_time: '2015-11-18T19:30:01+0000'
+    from:
+      name: Ahmed Magdy
+      id: '1978009525783037'
+    message: ابراهيم محمد Ayman Elbery
+    id: '1033870739985967'
+  - created_time: '2015-11-18T19:33:53+0000'
+    from:
+      name: Mohamed Fergany
+      id: '10215339863195300'
+    message: معهد الدراسات والبحوث الاحصاءية فيه كمية ابحاث كبيرة في الموضوع دا لكن
+      للاسف مش معمولها اي امبلمنتيشن .
+    id: '1033871823319192'
+  - created_time: '2015-11-18T19:36:38+0000'
+    from:
+      name: ابراهيم محمد
+      id: '2036175949732437'
+    message: اعتقد الموضوع كمتطوعين عشان تعمل bag of words للغه هتلاقى ناس كتير بس
+      انت فى النهايه محتاج ناس متخصصيين فى اللغه عشان تعمل الكلام ده وهتحتاج مجمع
+      اللغه العربيه
+    id: '1033872433319131'
+  - created_time: '2015-11-18T19:39:54+0000'
+    from:
+      name: Ahmed Adel Hossny
+      id: '1996970190329577'
+    message: Ibrahim Sobh
+    id: '1033873256652382'
+  - created_time: '2015-11-18T19:41:45+0000'
+    from:
+      name: Ahmed Abo Mazin
+      id: '1758521440903748'
+    message: |-
+      كان فى واحد بيعمل فكرة قريبة نوعا ما من فكرتك ب ال Machine learning وكان الهدف انه يعرض
+       للناس CAPTCHA عبارة عن صور من كتب عربية قديمة ويعرضها لاكتر من واحد بحيث يعمل Identified للحرف من خلال اكتر نسبة اجابة للحرف دة هل هو د ولا ز مثلا وبكدة يقدر يحول الكتاب القديم من خلال الصور لكلام مكتوب على ال word مثلا الموضوع الحمد لله اتنفذ بس مفيش متطوعيين =D =D
+    id: '1033873706652337'
+  - created_time: '2015-11-18T19:45:17+0000'
+    from:
+      name: Hussein Ghaly
+      id: '10160069424510193'
+    message: |-
+      سؤال كويس، بص الجروب دة في حاجات كتير في مجال NLP فيما يتعلق بالعربي:
+      https://www.facebook.com/groups/hasoubawayh/921351161267973
+      وبالنسبة لمعظم المهام اللي في NLP Pipeline فهتلاقي في حاجة معمولة فيها بالعربي، زي دة مثلا:
+      http://www1.cs.columbia.edu/~rambow/software-downloads/MADA_Distribution.html
+      (كونها موجودة آة، كونها قابلة للاستخدام وبتعمل performance كويس دة حاجة تانية :) )
+      من الناحية العملية، هتلاقي إنك ممكن بسطرين كود تعمل حاجة كويسة في بعض المهام دي: مثلا عشان تعمل tokenization، كل الي محتاجه إنك تخلي النص بتاعك يونيكود، وبعدين تقسمه عن طريق الريجكس في سطر واحد في بايثون:
+      re.split("(?u)\W+",text)
+      وممكن تعمل stemmer صغير يشيل لك الحاجات اللي مش عاوزها، حاجات ال parts of speech tagging ممكن تعملها برضه بس مش عارف ممكن الواحد يحتاج يستخدمها في إيه :) عموما أنا خلصت ماجستير في الموضوع دة ودة شغلي حاليا لو في أي سؤال :)
+    id: '1033874399985601'
+  - created_time: '2015-11-18T19:51:32+0000'
+    from:
+      name: Khaled M. Diab
+      id: '10215626626127168'
+    message: |-
+      فيه فرق بين حاجتين، إنك تعمل الـdataset وإنك تستخدم الـNLP components عشان تعمل application أكبر زي Microsoft Maren أو algorithms جديدة ..
+      بغضّ النظر عن الـdevelopment community، بس الـresearch community مليان حاجات زي دي .. فيه "منى دياب" في جامعة كولومبيا عاملة شغل كتير على الكلام ده، وفيه د. كريم درويش (حالياً في QCRI) اشتغل (وأظن مازال بيشتغل) على الـ NLP للعربي ..
+      بالنسبة للـdataset، الـresearch centers في الغالب بيأجروا ناس تعمل كده أو بيشتروا الداتا دي عشان يضمنوا الجودة والسرعة
+    id: '1033875999985441'
+  - created_time: '2015-11-18T20:38:09+0000'
+    from:
+      name: Ahmed Elsobky
+      id: '1167985470004751'
+    message: 'أنا كنت مهتم بموضوع الـNLP دا من فترة، في بايثون مثلا فالـNLTK library
+      فيها ISRI Stemmer للغة العربية لكن للأسف مش بتدعم الـtokenizing ولا الـtagging.
+      لكن بشكل عام، فيه java implementation لـprobabilistic natural language parser
+      بتدعم اللغة العربية متاحة علي موقع جامعة Stanford: http://nlp.stanford.edu/software/lex-parser.shtml
+      وtake a look علي الـtool دي: http://nlp.ldeo.columbia.edu/madamira'
+    id: '1033890369984004'
+  - created_time: '2015-11-18T20:45:51+0000'
+    from:
+      name: Ahmed Shawky
+      id: '10205205301673812'
+    message: ممكن تفيدنا يا دكتور Almoataz B. Al-Said
+    id: '1033892726650435'
+  - created_time: '2015-11-18T22:00:11+0000'
+    from:
+      name: Mahmoud Refaat
+      id: '10159882193515635'
+    message: في فريق computational linguistic في مكتبة اسكندرية بتعمل data tagging
+      and annotation. للاسف معرفش حد من الماس اللي لسه هناك بس الدكتور اللي ماسكهم
+      لسه موجود واسمه سامح.
+    id: '1033911343315240'
+  - created_time: '2015-11-18T22:11:41+0000'
+    from:
+      name: Mohamed Shokr
+      id: '1746639592054816'
+    message: http://corpus.quran.com/
+    id: '1033914166648291'
+  - created_time: '2015-11-18T23:32:52+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: بصراحة انا موش فاهم الموضوع قوي، ولكن ممكن أسأل، هل له علاقة ما ب Apache
+      Solr
+    id: '1033934986646209'
+  - created_time: '2015-11-18T23:57:18+0000'
+    from:
+      name: Ahmed Kamal
+      id: '10204469829103969'
+    message: "انا مشروع تخرجي كان في المجال دا اقصد NLP و كنا واخدين sponsorship من
+      Microsoft ATLC ، بالنسبة لينا فاحنا جهزنا الداتا اللي كنا محتاجينها بنفسنا ،
+      و معظم الطرق اللي اعتمدنا عليها كانت lexical مش semantic ، المشروع كان في مجال
+      الاخبار و بالتالي كان فدامنا محتوي كتير قدرنا نستفيد منه \n. في حاجات كتير مبتقاش
+      language specific بالمناسبة و مش لازم يكون عندك كل حاجة عشان توصل لنتايج كويسة
+      ، الموضوع معتمد بشكل كبير انت عايز تعمل ايه بالظبط ، ممكن احاول ابقي اكتب بلوج
+      بشكل تفصيلي اكتر عن المشروع لو الناس مهتمة\n\nبالنسبة لمايكروسوفت فبحكم انهم
+      عندهم شغل كتير في المجال دا فخدوا فترة لحد ما بنوا كل الحاجات اللي انت بتتكلم
+      عليها هنا \n\nتقدر تعرف تفاصيل اكتر عن اللي بنوه لو اتفرجت علي البريزينتيشن
+      دي \nhttps://www.youtube.com/watch?v=iYXfYXfO84Y\n\nو من هنا برضه\nhttp://research.microsoft.com/en-US/projects/atks/default.aspx\n\nفي
+      كلام كتير يتقال الحقيقة بس متهيالي دا يجاوب عن سؤالك :)"
+    id: '1033941199978921'
+  - created_time: '2015-11-19T02:52:20+0000'
+    from:
+      name: Mohamed Badawi
+      id: '1532825676787208'
+    message: انا كنت مهتم بالموضوع وليا صديق دكتور السنيات ف اوربا و بدات اقرا بتوسع
+      وبعدين اتكعبلت ف دكتور نزار - له حاضرة طويلة عن اللغة االعربية بعدها قلت انى
+      اصغر كتير من الموضوع دا واجله شوية
+    id: '1033981769974864'
+  - created_time: '2015-11-19T02:58:42+0000'
+    from:
+      name: Mohamed Badawi
+      id: '1532825676787208'
+    message: https://www.youtube.com/watch?v=bATec4P8UgU
+    id: '1033983293308045'
+  - created_time: '2015-11-19T17:35:15+0000'
+    from:
+      name: Mohab El-Shishtawy
+      id: '10215847428638318'
+    message: Ahmed Rashad Basuony Shrief Nasr Mostafa El-Abady Ahmed Rizk check all
+      posts
+    id: '1034214999951541'
+  - created_time: '2015-11-19T17:49:58+0000'
+    from:
+      name: Mohab El-Shishtawy
+      id: '10215847428638318'
+    message: اعتقد انك بتسأل علي حاجة شبه دي http://www.talp.upc.edu/index.php/technology/resources/multilingual-lexicons-and-machine-translation-resources/multilingual-lexicons/72-awnمشكلة
+      العربي الكبيرة حاجتين ان معظم علوم اللغة والقواميس والمعاجم مش متحولة او مكتوبة
+      بطريقة الكترونية او يمكن البحث فيها (المعجم البسيط والمحيط،..) المشكلة التانية
+      اننا عندنا كذا لغة في العربي (العامية المصرية والشامية و الخليجية ولغات المغرب
+      العربي والفصحي) عشان تجمع كل ده في مكان وتطبق علية قواعد هي دي الصعوبة
+    id: '1034220566617651'
+  - created_time: '2015-11-20T17:49:40+0000'
+    from:
+      name: Mohamed Gamal Abdalkader
+      id: '10155577830888218'
+    message: 'Mona Diab has done related work in Columbia University. Check: http://www.ccls.columbia.edu/research/natural-language-processing'
+    id: '1034648609908180'
+  - created_time: '2015-11-20T17:50:26+0000'
+    from:
+      name: Mohamed Gamal Abdalkader
+      id: '10155577830888218'
+    message: I believe they use SVMs
+    id: '1034649336574774'
+  - created_time: '2015-11-26T08:17:19+0000'
+    from:
+      name: Ahmed Zaki
+      id: '1797366886980472'
+    message: "have you checked the LDC? \nhttps://www.ldc.upenn.edu/language-resources"
+    id: '1036956179677423'
+  - created_time: '2015-12-09T08:21:29+0000'
+    from:
+      name: Omar Mekky
+      id: '10159762750950562'
+    message: مشكلة العربي مش في ال corpus، المشكلة في تعدد اللهجات و دي اللي ملهاش
+      corpus محترم كافي، بالنسبة للفصحى، في corpus كبير ليها عبارة عن تفريغ لنشرات
+      اخبار اذاعية من الستينات بالعربي على NCR و BBC بس للاسف مش فاكر اللينك دلوقتي
+    id: '1042590015780706'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF6TXpnMk56TTBPVGs0TmpNd05qb3hORFEzT0RjME1UTTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEEwTWpVNU1EQXhOVGM0TURjd05qb3hORFE1TmpRNU1qZAzUZD

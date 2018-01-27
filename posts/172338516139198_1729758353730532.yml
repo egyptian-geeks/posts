@@ -1,0 +1,154 @@
+---
+message: "I have a question for people who have experience in eCommerce or conversion/funnel
+  analysis in general.\n\nIf you have an eCommerce website that works in multiple
+  cities (but all within the same domain and all within the same website instance
+  and same DB at the end of the day), if one of your cities (one of several landing
+  pages that all share the same code but with different contents) has an average conversion
+  rate for the last 8 months of about 4.7% and the rest are much less than this.\n\nWhat
+  will be the problem in them? \n\nHere are the usual suspects:\n\n1- Problem in technology:
+  doesn't make sense because they all use the same code (same controllers, views,
+  DB, etc.) and the only difference is content\n2- Problem in SEO? Basically some
+  cities have strong SEO presence and others dont?\n3- Problem with contents? In one
+  city it has better product than the other?\n4- Problem in UX? UX is good for one
+  city but is bad for another city in another country?\n5- Something else?\n\nAs tech
+  geeks, if you were to be asked the question above with the info I gave above, what
+  will be your probable suspect?"
+from:
+  name: Mohamed Moshrif
+  id: '1538447102877297'
+type: status
+created_time: '2018-01-22T09:59:28+0000'
+updated_time: '2018-01-23T10:20:08+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1729758353730532/
+id: '172338516139198_1729758353730532'
+reactions:
+  data:
+  - id: '10159817376550705'
+    name: Mohamed Salem Korayem
+    type: LIKE
+  - id: '1999765416908747'
+    name: Ahmed Khalifa
+    type: LIKE
+  - id: '1012026932279218'
+    name: Ahmed Mohamed Abd El-Hamid
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpZAMk56WTFOekEwT2pFMU1UWTNOakEzTkRRNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQTBNVFUzTmpFeE5EVTVPakUxTVRZAMk1UY3dPREE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2018-01-22T10:20:18+0000'
+    from:
+      name: Ahmad Hisham
+      id: '10159889607765058'
+    message: |-
+      Are these cities in different countries? Can you compare the conversion rate of this country with other countries but on a different service/website (I don't know if these details are publicly available by anyone or not).
+      But maybe it is about the user/marketing and not about the website/service itself.
+    id: '1729774140395620'
+  - created_time: '2018-01-22T10:28:18+0000'
+    from:
+      name: Mostafa Mohamed Gamal
+      id: '10156066064944153'
+    message: |-
+      IMHO, I think it's related to psychological behavior and preferences of customers, few researches has been held in this particular point of view, but it shows that a percentage of people may refuse to use eCommerce platforms for mistrust.
+
+      You can check this one: https://econsultancy.com/blog/7730-why-do-consumers-abandon-online-purchases
+    id: '1729779623728405'
+  - created_time: '2018-01-22T10:41:53+0000'
+    from:
+      name: Mina Malak
+      id: '771233199742137'
+    message: the instances are similar as you mentioned the only difference is the
+      content , so i think it's just about the interest of each city and the "marketing"
+      done in each city .
+    id: '1729791390393895'
+  - created_time: '2018-01-22T12:17:25+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: You need to see the population and the internet penetration of every
+      city. 4% is low number for sure. Also you need to cross these data with the
+      search interest of these cities may be they are looking for something you dont
+      have. Short answer build many hypothesis and test them and always make your
+      decisions based on facts and data.
+    id: '1729855857054115'
+  - created_time: '2018-01-22T12:59:05+0000'
+    from:
+      name: Mohammed Ahmed
+      id: '1539552666097869'
+    message: 'I believe we did discuss this in older post; the problem was with the
+      “localization”, as for no. 4: UX isn’t “good” if it’s good for someone and not
+      for someone else, -the website in the old post had a great content in English
+      but really bad translation in Arabic which -I believe- will cause problems related
+      to your website conversion Rate'
+    id: '1729896917050009'
+  - created_time: '2018-01-22T19:16:26+0000'
+    from:
+      name: Ahmed Sha'alan
+      id: '1722000621197785'
+    message: |-
+      It's a product problem. Any more specific answer with this little information will be uneducated guesses, at best.
+
+      It can be anything, really. I'd do competitor analysis (features, UX, content, copy, localization, platforms etc.) and I'd conduct user interviews or user testing just to determine the cause. If you recorded 50 users trying to buy a pair of jeans from you, competitor 1, 2, and 3, and you got 70% using your product then you need to invest in marketing (ads, affiliation programs, SEO etc. etc.). If they don't, then you track their footsteps and see why they chose your competitor, or just ask them.
+
+      And then you can determine a real threshold for conversion for your domain, in the specific market used in. One cannot just say "4% is a low number," it can be a high number for Arabs but low for Europeans, maslan. Or Egyptians have less purchasing power than Saudis so they do more e-window shopping.
+
+      One experiment and you have real hard data on how to improve your product. Anything else will be plain trial and error.
+    id: '1730216930351341'
+  - created_time: '2018-01-22T21:26:01+0000'
+    from:
+      name: Ahmed Koraïem
+      id: '10159879865770402'
+    message: It could be seo, which you can test yourself by trying the same search
+      term associated with city names, otherwise it's also pretty normal to have a
+      different conversion rate in each city depending on each city's users tech saaviness
+      on average, your target audience in each city itself, how essential this service
+      is to them, and whether there's local competition, payment methods can also
+      affect conversion in proportion to the adoption levels of these payment options.
+    id: '1730316290341405'
+  - created_time: '2018-01-22T23:02:33+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: |-
+      subject would be "saas single tenant vs multi-tenant database arch". microsoft have a great article about this. now its okay that all have same database arch. and all use same app, but how do you seperate data for each client inside this db !? what if one of your clients became an internet giant, will you scale up all you infrastructure for him and server others that only need fraction of that infrastrucre !
+      https://docs.microsoft.com/en-us/azure/sql-database/saas-tenancy-app-design-patterns thats a must read article although a bit old its very technical and cover every thing very well.
+
+      problems:
+      1. performance degradation
+      2. security issues
+      3. poor data separation
+      4. poor privacy
+
+      ---edit since i seem to misunderstand q first time--
+      you cannot compare cities to each others, but you can compare each city with other competitors working same city.
+
+      that said, talking about seo/content that we cannot see is impossible as mentioned by Ahmed Sha'alan but if i would expect that you use same visual theories across all then there is no reason to believe that design is reason why one city is better than other. it more of customer behaviour
+    id: '1730387027000998'
+  - created_time: '2018-01-23T09:21:27+0000'
+    from:
+      name: Ayman Elafifi
+      id: '150528545529121'
+    message: "The UX can be partially a part of the problem, u can go with online
+      usability testing tools like hotjar (online qualitative) or using google analytics,
+      for example, to know where exactly the drop happens \"quantitative\" \n\nBecause
+      the problem may be in a particular interaction or the type of the content that
+      appears to the users, does it reflect their persona type, does it fulfill there
+      needs and what they are searching for?\n\nAnd also, from the log u can share
+      with the users who think have a problem a survey to learn more or invite 5-8
+      of them to drink coffee and make a discussion around the experience inside the
+      site"
+    id: '1730784756961225'
+  - created_time: '2018-01-23T09:47:33+0000'
+    from:
+      name: Mahmoud El Kotoury
+      id: '10159892786570537'
+    message: Study the geographical and demographical status for each city , conduct
+      some focus groups and servays ... don't just assume , understand the  persona
+      very well
+    id: '1730799703626397'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN5T1RjM05ERTBNRE01TlRZAeU1Eb3hOVEUyTmpFMk5ERTUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN6TURjNU9UY3dNell5TmpNNU56b3hOVEUyTnpBd09EVXoZD

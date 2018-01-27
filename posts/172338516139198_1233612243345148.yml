@@ -1,0 +1,94 @@
+---
+message: |-
+  SA,
+  -How often do you use NoSQL databases?
+  -When do you need to use them over normal SQL?
+from:
+  name: Mohamed Gamal
+  id: '10156096685587328'
+type: status
+created_time: '2016-09-16T16:59:47+0000'
+updated_time: '2016-09-20T17:50:43+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1233612243345148/
+id: '172338516139198_1233612243345148'
+reactions:
+  data:
+  - id: '10214901654953185'
+    name: Abd El Rhman Ahmed
+    type: LIKE
+  - id: '1061734923967862'
+    name: Amira Mohamed
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRFNE1UazJNVEU1TURveE5EYzBNVFE1T0RZAek9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBd01EQXpPVFF3T1RReU9USTRPakUwTnpReE1qSTBORGM2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-09-16T17:25:54+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: In my projects we don't have traditional databases anyways, but we use
+      Redis for caching.
+    id: '1233630610009978'
+  - created_time: '2016-09-16T17:32:01+0000'
+    from:
+      name: Nader Al-Sharkawy
+      id: '10154950104465216'
+    message: "- As often as you need to.\n\n- You'd typically need a NoSQL database
+      when:\n1)Your data is non-relational and strict schema makes no sense.\n2)Your
+      dataset happens to be huge; NoSQL tends to perform better due to denormalization.
+      \n3)Your use case is served better by one of the 4 main NoSQL database types.\n\nThe
+      4 main types of NoSQL databases are:\n1)Key-value\n2)Document\n3)Column-oriented\n4)Graph
+      \n\nKey-value stores are handy and simple. You can think of it a hashtable,
+      where a unique key corresponds to a value.\n\nA document database is similar
+      to key-value stores except that the value field can be nested; it can contain
+      other key-value pairs, and is stored in JSON.\n\nA columnar store is typically
+      useful when your data is large and/or distributed. An example would be HBase
+      on Hadoop, where your data is distributed on the cluster.\n\nGraph databases
+      are handy when a graph model serves your use case better than traditional structured
+      or semi-structured data models."
+    id: '1233633850009654'
+  - created_time: '2016-09-16T17:34:52+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: Just make sure if your application needs transactions, to make sure that
+      your NoSQL database of choice has some support for Transactions and under what
+      conditions and make sure your application can work with these conditions.
+    id: '1233635590009480'
+  - created_time: '2016-09-16T18:16:26+0000'
+    from:
+      name: Eslam Salem Mahmoud
+      id: '10157134145555299'
+    message: Using Mongodb for storing web attacks at shieldfy needed high preformance
+      schema less json like store. Also using Redis in caching at the api side.
+    id: '1233660386673667'
+  - created_time: '2016-09-16T18:42:45+0000'
+    from:
+      name: Mostafa Muhammad
+      id: '10155787111376210'
+    message: I had a project where my data are graphical in nature "think of nodes
+      and edges" so while i could use a RDBMS I opted for a database that supports
+      graph traversal natively.
+    id: '1233675970005442'
+  - created_time: '2016-09-17T09:44:38+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: "As I might write that alot, relational/sql was made when disk space
+      was expensive, the normal forms was for that goal. \n\nMake sure you don't use
+      them very often in newer projects"
+    id: '1234194559953583'
+  - created_time: '2016-09-17T10:06:42+0000'
+    from:
+      name: Ahmed Thabet
+      id: '1849432635069365'
+    message: Lots, redis mainly for caching, queues. Mongodb for backend. And an in-house
+      system called arakoon (written in ocaml)
+    id: '1234205429952496'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl6TXpZAek1EWXhNREF3T1RrM09Eb3hORGMwTURRMk56VTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl6TkRJd05UUXlPVGsxTWpRNU5qb3hORGMwTVRBMk9EQXkZD

@@ -1,0 +1,63 @@
+---
+message: |-
+  Hello Geeks
+  VERY URGENT PLEASE
+
+  I have a website hosted on vps on godaddy , the website has a signup process , in the second step of the signup process which has very little amount of fields including only a poster file upload  and 3 other fields , I tried doing the process from egypt it works fine , from several testers accounts , so after that two accounts from Morrocco and Poland tried to go through the signup process but they failed in the second step , (Ajax request i guess because they said it keep saying loading) i tried to check with a friend in Norway and he was able to go through the signup process normally , what should be the problem is it possible that both of them have a connectivity problem ?? I guess not 　 Please any help
+from:
+  name: Mahmoud El Kotoury
+  id: '10159892786570537'
+type: status
+created_time: '2017-03-01T22:16:51+0000'
+updated_time: '2017-03-02T15:17:13+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1406043379435366/
+id: '172338516139198_1406043379435366'
+comments:
+  data:
+  - created_time: '2017-03-01T22:20:59+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "You should always be able to reproduce the issue in order to properly
+      troubleshoot it. \n\nTest again and again and set the debugging tools in action
+      to capture any supporting info when you hit the issue again."
+    id: '1406045269435177'
+  - created_time: '2017-03-01T22:36:03+0000'
+    from:
+      name: Mahmoud El Kotoury
+      id: '10159892786570537'
+    message: the two accounts that was not able to go through the signup process step
+      2 are from Morocco and Poland but a profile was created normally from a friend
+      in Norway
+    id: '1406053002767737'
+  - created_time: '2017-03-01T23:20:13+0000'
+    from:
+      name: Ahmed Abdo
+      id: '10155432639833282'
+    message: "can you get information about the environment of error. \nlike what
+      is device typt which browser and so on ..."
+    id: '1406077002765337'
+  - created_time: '2017-03-01T23:31:41+0000'
+    from:
+      name: Mahmoud El Kotoury
+      id: '10159892786570537'
+    message: I was just trying to take the permission from my client to do that right
+      now, hopefully they agrees , what are you suspecting
+    id: '1406082516098119'
+  - created_time: '2017-03-01T23:51:14+0000'
+    from:
+      name: Ahmed Aboulenein
+      id: '10160047384135438'
+    message: Get the HTTP request and response from their web browsers, then you have
+      something to inspect.
+    id: '1406091512763886'
+  - created_time: '2017-03-02T15:15:38+0000'
+    from:
+      name: Mohamed Gamal
+      id: '10156096685587328'
+    message: I believe it's a DNS issue.
+    id: '1406587569380947'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF3TmpBME5USTJPVFF6TlRFM056b3hORGc0TkRBMk9EVTUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF3TmpVNE56VTJPVE00TURrME56b3hORGc0TkRZAM056TTUZD

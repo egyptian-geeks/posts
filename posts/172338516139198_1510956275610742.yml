@@ -1,0 +1,102 @@
+---
+message: "i come across GraphQL too many times during my readings..\ni just can figure
+  out wtf this is !\n\ni understand its a REST replacement proposed by facebook; they
+  claim its better -for a good reason i hope-.\n\ni find lots of frontend tools consuming
+  Graphql but how do we setup a GraphQL ! \n\n- does it need a specific db/server/instance
+  WTH is it :D! or is it a concept you should emplement ur self like REST ?  -ya3ne
+  law heya server tab adownloadek men ayn :D! ?\n\nanyone ever used it in production
+  ? \nwhen should i consider using it ?\n\nhttp://graphql.org/learn"
+link: http://graphql.org/learn/serving-over-http/
+from:
+  name: Momen Al Zalabany
+  id: '10160388991030144'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQCMBC9khFK8eht5&w=130&h=130&url=http%3A%2F%2Fgraphql.org%2Fimg%2Fog_image.png&cfs=1&_nc_hash=AQA2_VWtCQpZI-m8
+created_time: '2017-06-10T10:30:43+0000'
+updated_time: '2017-06-11T01:27:09+0000'
+name: 'GraphQL: A query language for APIs.'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1510956275610742/
+shares:
+  count: 2
+id: '172338516139198_1510956275610742'
+reactions:
+  data:
+  - id: '1466247800164499'
+    name: Mosaab Ahmed
+    type: LIKE
+  - id: '10160504622845725'
+    name: Ahmed Yousry
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXpNemM0TnpreE16VTRPakUwT1Rjd09Ua3hPVFU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TmpBNE1USTFOekkwT2pFME9UY3dPVEkwT0RFNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-06-10T10:38:11+0000'
+    from:
+      name: Wael Fouad
+      id: '10156149064676473'
+    message: F
+    id: '1510961028943600'
+  - created_time: '2017-06-10T11:08:16+0000'
+    from:
+      name: Yamen Sharaf
+      id: '10155853632381955'
+    message: |-
+      GraphQL gives way more flexibility and control over the way you query and structure data. It provides functions to query just the data you need. Their documentation is top notch too.
+
+      It's the hottest thing right now. GitHub will be using it for their v4 API.
+    id: '1511018492271187'
+  - created_time: '2017-06-10T11:20:03+0000'
+    from:
+      name: Ali Hefny
+      id: '1992382594366191'
+    message: |-
+      It's a specification. and i think this article will answer most of your questions
+
+      https://medium.freecodecamp.com/so-whats-this-graphql-thing-i-keep-hearing-about-baf4d36c20cf
+    id: '1511023938937309'
+  - created_time: '2017-06-10T17:45:01+0000'
+    from:
+      name: Marwan Abdel Moneim
+      id: '408695269572490'
+    message: |-
+      Usually, when you want to change something in the front-end you would require some change on the back-end also
+      You could want more data in the response of a certain request, or you don't need some of the response data anymore (so the server is serving unnecessary data, which mean unnecessary database calls)
+
+      GraphQL solve that by letting the front-end just ask for what it needs, and the server will respond with these data
+
+      So you basically talking to one end point, telling it what you need and it serving it to you, rather than talking to a lot of end points and requiring modify the code every time you need something more or less
+
+      and this plays very well with reactjs nested components
+
+      This video should you a very good explaination for how it works
+      https://youtu.be/9sc8Pyc51uU?t=10m50s
+    id: '1511339695572400'
+  - created_time: '2017-06-10T21:58:08+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: Thanks all for comments, so did anyone ever used these specs in his work
+      ?
+    id: '1511542442218792'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV4TURrMk1UQXlPRGswTXpZAd01Eb3hORGszTURreE1Ea3gZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV4TVRVME1qUTBNakl4T0RjNU1qb3hORGszTVRNeE9EZAzQZD
+attachments:
+  data:
+  - description: GraphQL provides a complete description of the data in your API,
+      gives clients the power to ask for exactly what they need and nothing more,
+      makes it easier to evolve APIs over time, and enables powerful developer tools.
+    media:
+      image:
+        height: 630
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQBWu2Zi4EFnli7J&w=720&h=720&url=http%3A%2F%2Fgraphql.org%2Fimg%2Fog_image.png&cfs=1&_nc_hash=AQCdMsG4IBy-z0we
+        width: 630
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fgraphql.org%2Flearn%2Fserving-over-http%2F&h=ATPQyZZOrsD5qIo3QP2qbS98OFl74PqJuRwmXI7VOb-_fzUUAc8M1OVGHBU6_fqBcpYrxEv52tXY1BjKEEMmbuy7NEWqJQJIa2xh&s=1&enc=AZMavjZEvph84MWuvs1AYbDn6xTzpcY_Rj8AEivXzTDskicfwB7tEXDw0usX2i8dXepBofJLtM9w0OQF3pC7DZCj
+    title: 'GraphQL: A query language for APIs.'
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fgraphql.org%2Flearn%2Fserving-over-http%2F&h=ATPQyZZOrsD5qIo3QP2qbS98OFl74PqJuRwmXI7VOb-_fzUUAc8M1OVGHBU6_fqBcpYrxEv52tXY1BjKEEMmbuy7NEWqJQJIa2xh&s=1&enc=AZMavjZEvph84MWuvs1AYbDn6xTzpcY_Rj8AEivXzTDskicfwB7tEXDw0usX2i8dXepBofJLtM9w0OQF3pC7DZCj

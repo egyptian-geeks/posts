@@ -1,0 +1,55 @@
+---
+message: |-
+  [Using c#]
+  any one tried [or have] any method to change the public IP grammatically
+from:
+  name: Hassan Essam
+  id: '2471742009716808'
+type: status
+created_time: '2017-04-30T19:45:23+0000'
+updated_time: '2017-05-01T19:15:34+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1469858683053835/
+id: '172338516139198_1469858683053835'
+comments:
+  data:
+  - created_time: '2017-04-30T19:49:41+0000'
+    from:
+      name: Hassan Essam
+      id: '2471742009716808'
+    message: "[preferably without restarting the router ]"
+    id: '1469861596386877'
+  - created_time: '2017-04-30T21:29:16+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: 'Change the router ip with c # ?'
+    id: '1469917173047986'
+  - created_time: '2017-04-30T21:42:34+0000'
+    from:
+      name: Hassan Essam
+      id: '2471742009716808'
+    message: "All what I need to do is to send two consecutive http requests from
+      my c# app \nBut with two different public ip. So I need to change my ip after
+      the first request as the vpn apps do(make me go public will different ip )"
+    id: '1469927139713656'
+  - created_time: '2017-04-30T21:47:56+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: Why u dont invoke a proxy in the second call
+    id: '1469930193046684'
+  - created_time: '2017-05-01T19:11:41+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      In order to have more than 1 Public IP at the same time, you either need to be connected to two different networks (eg: Wi-Fi and Ethernet to different routers) or use a VPN or Proxy.
+
+      If you're connected to more than one network interface, by default windows will pick which one to use depending on the destination IP and a few other things (it tries to optimize and find shortest path and so on). In order to force it to use a certain interface, you need to go down to the TCP level and bind to the local IP that belongs to the network interface you want, and then send the HTTP request over TCP manually (or write a custom HttpMessageHandler and give it to the HttpClient object).
+      If you'll use a proxy, then you can easily let your HTTP Request to go through it, the exact way depends on how you're making the request in your C# code, if you're using WebClient I think it has a "Proxy" property on it, if you're using HttpClient then construct it with a special HttpClientHandler which has a "Proxy" property set to the proper value.
+      If you'll use a VPN, I think most VPN software create a virtual network interface for you, so in order to force the request go through it you'll have to do the same thing as in the first option.
+    id: '1470704892969214'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEyT1RnMk1UVTVOak00TmpnM056b3hORGt6TlRneE56ZA3gZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEzTURjd05EZAzVNamsyT1RJeE5Eb3hORGt6TmpZAMU9UQXkZD

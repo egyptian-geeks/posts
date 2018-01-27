@@ -1,0 +1,57 @@
+---
+message: "فى mongoDB لو فى اكتر من 1000 document غيرت فيهم حاجات مختلفه و عايز احفظ
+  التغيرات دى من غير م احفظ كل واحد لوحدة.\nانا اعرف ان فى bulk insert بس ازاى اعمل
+  bulk update على حاجات التغيرات الى فيها مختلفة  \nمثال :\ndb.users.aggregate({$limit:
+  500}, cb) \nفى 500 user نصهم غيرت الrole بتاعهم ل publisher ونصهم ل subscriber  ,
+  اقدر احفظ التغيرات فى query واحد للداتابيز ولا لازم كل user يتعمله query لوحده"
+from:
+  name: Hassan M. Amin
+  id: '10216074172673746'
+type: status
+created_time: '2017-08-17T02:32:51+0000'
+updated_time: '2017-08-18T01:14:39+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1581910905181945/
+id: '172338516139198_1581910905181945'
+reactions:
+  data:
+  - id: '391375727968633'
+    name: Radwa Ashraf
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01ERXlPRGcyTWpjd056Y3dPakUxTURJNU16YzJOVFk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01ERXlPRGcyTWpjd056Y3dPakUxTURJNU16YzJOVFk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-08-17T06:54:16+0000'
+    from:
+      name: احمد قرواش
+      id: '1561022257326859'
+    message: |-
+      ياريت تبحث مرة واتنين لحد ما تجيب اخرك ف الحاجة الي محتاجها بعد كده لو مش لقيت او الحلول مش مناسبة تقدر وقتها تحط سؤالك
+      https://stackoverflow.com/questions/30429620/bulk-update-based-on-changing-find-query-in-mongodb
+      تقدر تبتدي حلك من هنا وتتعقب الاسئلة من النوع ده وهتوصل ان شاء الله.
+    id: '1582078635165172'
+  - created_time: '2017-08-17T06:54:39+0000'
+    from:
+      name: احمد قرواش
+      id: '1561022257326859'
+    message: https://stackoverflow.com/questions/30617163/mongodb-multiple-update-attributes?rq=1
+    id: '1582078805165155'
+  - created_time: '2017-08-17T06:55:01+0000'
+    from:
+      name: احمد قرواش
+      id: '1561022257326859'
+    message: https://stackoverflow.com/questions/38082712/mongodb-bulk-update-efficiency-using-foreach?rq=1
+    id: '1582078978498471'
+  - created_time: '2017-08-18T01:14:36+0000'
+    from:
+      name: Muhamad Omar
+      id: '1821918031216201'
+    message: "استخدم multi option \nهتلاقيه في ال mongoose docs api لل Model.update
+      method\n\nمع\n$in query operator \n\nهتلاقيه فيه mongodb docs"
+    id: '1582792958427073'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU0TWpBM09EWXpOVEUyTlRFM01qb3hOVEF5T1RVeU9EVTUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU0TWpjNU1qazFPRFF5TnpBM016b3hOVEF6TURFNE9EYzMZD

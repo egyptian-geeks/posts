@@ -1,0 +1,120 @@
+---
+message: "ايه افضل طريقه علشان تخزن text في الداتابيز و ترجعه بنفس الشكل (حجم الخط
+  - اللون - .....) يعني باختصار جنب ال input box بتاعي في شويه tools للتحكم في حجم
+  الخط و لونه و المستخدم اللي بيحدد اللون و الحجم اللي عايزه....بس المشكله اللي بتقابلني
+  لما مش بستخدم لون و حجم موحد.. يعني ممكن المستخدم يعمل جمله بلون و جمله بلون تاني
+  و هكذا.... \nالحل اللي فكرت فيه اني اخزن ال text  بالتاجات بتاعته و الكود اللي بعمله
+  generate من الجافاسكريبت  علي شكل string في الداتا بيز وبالفعل شغال كويس بس مش حاسس
+  انه عملي"
+from:
+  name: Ahmed Khalifa
+  id: '1999765416908747'
+type: status
+created_time: '2017-11-16T13:47:14+0000'
+updated_time: '2017-11-17T22:48:58+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1663750263664675/
+shares:
+  count: 1
+id: '172338516139198_1663750263664675'
+reactions:
+  data:
+  - id: '10156105173127334'
+    name: Khaled W. Abuelenain
+    type: LIKE
+  - id: '1738726572854077'
+    name: Muhammed Mamdouh
+    type: LIKE
+  - id: '2760687167500624'
+    name: Mohamed El-Shahawi
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpRME5UYzNNek16T2pFMU1UQTVOelV4TkRVNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQTJOemd4TURJMk1qYzNPakUxTVRBNE5EQXhPVEU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-11-16T13:49:49+0000'
+    from:
+      name: Sayed A Omar
+      id: '1454070801386468'
+    message: "الناس بتستخدم الحل اللى انت عملته \nمعرفش اذا كان فى حل تانى وﻻ"
+    id: '1663852786987756'
+  - created_time: '2017-11-16T13:51:59+0000'
+    from:
+      name: Sayed A Omar
+      id: '1454070801386468'
+    message: http://www.ckeditor.com
+    id: '1663854210320947'
+  - created_time: '2017-11-16T13:52:28+0000'
+    from:
+      name: Abdelrhman Safwat
+      id: '10159994844535341'
+    message: هو لو كمية الداتا مش كبيره ممكن تستخدم الlocal storage فى البراوزر
+    id: '1663854620320906'
+  - created_time: '2017-11-16T14:02:11+0000'
+    from:
+      name: Ziad Ayman
+      id: '395096264276338'
+    message: ممكن تدور أو تعمل control أو editor بيsupport الrtf وتخزينها بالrtf بتاعته
+    id: '1663864733653228'
+  - created_time: '2017-11-16T14:02:53+0000'
+    from:
+      name: Abdelrahman Melegy
+      id: '187337675331830'
+    message: أنا كان عندي مشكلة شبيهة و عملت زيك في الاخر, في ناس بتتكلم على rich
+      text format بس محستش انها مفيدة في حالتي
+    id: '1663866043653097'
+  - created_time: '2017-11-16T14:05:23+0000'
+    from:
+      name: Mohammed Ragab
+      id: '2020898428198432'
+    message: لما تخزن html string فى ال db - دا مش عملى ليه ؟ ولا تقصد ان حجم ال content
+      هيكون كبير ؟
+    id: '1663868086986226'
+  - created_time: '2017-11-16T14:42:37+0000'
+    from:
+      name: M Shaban Hejazee
+      id: '10214857954897753'
+    message: حولهم byte array وخزنهم فى file table حتى ساعتها تقدر تعمل عليها full
+      text search
+    id: '1663896783650023'
+  - created_time: '2017-11-16T14:43:15+0000'
+    from:
+      name: Mahmoud Reda
+      id: '1751655231532509'
+    message: |-
+      إستخدم markup language زي bbcode مثلا
+
+      https://en.wikipedia.org/wiki/Lightweight_markup_language
+    id: '1663897376983297'
+  - created_time: '2017-11-16T18:07:41+0000'
+    from:
+      name: Ronaldo Hatabah
+      id: '1732117573517243'
+    message: Muhammad Ahmed Hataba post on this group tii
+    id: '1664049703634731'
+  - created_time: '2017-11-16T19:01:48+0000'
+    from:
+      name: Mohamad Shawkey
+      id: '1978616305487750'
+    message: markdown
+    id: '1664098110296557'
+  - created_time: '2017-11-16T21:59:39+0000'
+    from:
+      name: Mohamed Abdul Jawad
+      id: '10159701356955315'
+    message: الطريقه دي بنستخدمها بقالنا اكتر من ١٢ سنه و هي أفضل طريقه و لكن لازم
+      و انت بتخزن في الداتا بيز يكون encoded text
+    id: '1664252936947741'
+  - created_time: '2017-11-17T22:48:56+0000'
+    from:
+      name: Hassan Fahmy Shoaib
+      id: '10155234661420840'
+    message: انا عادة لما بتعامل مع داتا كبيرة وفيها تكرار في الفورمات. بخزن الفورمات
+      لوحده في table والtext وkey للفورمات في ال table بتاعي. ده اوفر في التخزين مع
+      الداتا الكبيرة
+    id: '1665274260178942'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkyTXpnMU1qYzROams0TnpjMU5qb3hOVEV3T0RRd01Ua3cZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkyTlRJM05ESTJNREUzT0RrME1qb3hOVEV3T1RVNE9UTTIZD

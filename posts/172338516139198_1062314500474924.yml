@@ -1,0 +1,46 @@
+---
+message: |-
+  New versions of Firefox are automatically set by default to block third-party ads.
+  Any idea how I can detect if this feature is enabled to disable showing my website's content for users who have this blocker enabled?
+from:
+  name: Ahmed Melege
+  id: '10156112171242375'
+type: status
+created_time: '2016-01-14T12:38:46+0000'
+updated_time: '2016-01-14T18:52:48+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1062314500474924/
+id: '172338516139198_1062314500474924'
+reactions:
+  data:
+  - id: '1487671784675336'
+    name: Mohamad Emad
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlPVGMxT0RjM05qZAzFPakUwTlRJM09ERXhOemc2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlPVGMxT0RjM05qZAzFPakUwTlRJM09ERXhOemc2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-01-14T13:46:01+0000'
+    from:
+      name: Mohammad Alaggan
+      id: '10154985539677085'
+    message: You could detect Firefox version from the user agent string.
+    id: '1062346260471748'
+  - created_time: '2016-01-14T13:47:05+0000'
+    from:
+      name: Ahmed Melege
+      id: '10156112171242375'
+    message: I need to force them to unblock ads, not change browser..
+    id: '1062346560471718'
+  - created_time: '2016-01-14T15:03:38+0000'
+    from:
+      name: Sherif Omar
+      id: '10159954581715092'
+    message: Are you sure this is a good investment of your time? Firefox usage is
+      falling very quickly - global usage is somewhere between 11% and 18%.
+    id: '1062378533801854'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEEyTWpNME5qSTJNRFEzTVRjME9Eb3hORFV5TnpjNU1UWXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEEyTWpNM09EVXpNemd3TVRnMU5Eb3hORFV5Tnpnek9ERTQZD

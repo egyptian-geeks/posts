@@ -1,0 +1,51 @@
+---
+message: If anyone would help
+link: http://stackoverflow.com/questions/39869029/facebook-api-me-posts-return-only-275-post-as-limit
+from:
+  name: Bellal Mohamed
+  id: '1672878506132188'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQA4atFBdowvWO-S&w=130&h=130&url=http%3A%2F%2Fcdn.sstatic.net%2FSites%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded%26a&cfs=1&sx=0&sy=0&sw=316&sh=316&_nc_hash=AQDYVbPw7-vNSk2Z
+created_time: '2016-10-05T08:55:56+0000'
+updated_time: '2016-10-05T09:20:35+0000'
+name: Facebook API /me/posts return only 275 post as limit
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1249910028382036/
+id: '172338516139198_1249910028382036'
+comments:
+  data:
+  - created_time: '2016-10-05T09:09:55+0000'
+    from:
+      name: Mohamed Ahmed
+      id: '385696705226073'
+    message: I've checked the ngFacebook it seems to a module encapsulating graph
+      api routine functions like connection and caching but it does not impose limits
+      on the payload can you check your Graph API query to check for any hidden limitation
+      and also Facebook don't offer much information about the /me edge but they are
+      saying it a special edge which may imply there is some hidden limitation to
+      querying by user_id and check the result
+    id: '1249914681714904'
+  - created_time: '2016-10-05T09:17:16+0000'
+    from:
+      name: Mohamed A. Alqrwash
+      id: '10213394268464462'
+    message: pagination , even you set limit 2000 you got same count
+    id: '1249917328381306'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkwT1RreE5EWTRNVGN4TkRrd05Eb3hORGMxTmpVNE5UazIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkwT1RreE56TXlPRE00TVRNd05qb3hORGMxTmpVNU1ETTIZD
+attachments:
+  data:
+  - description: When I make a GET request to /me/posts to get posts on the profile
+      and set the limit to 1000 I only get 275 post as max. I'm sure that there is
+      more than 1000 post not only 275. is 275 the max limi...
+    media:
+      image:
+        height: 316
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAntEGj6KNL8I7m&w=316&h=316&url=http%3A%2F%2Fcdn.sstatic.net%2FSites%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded%26a&cfs=1&sx=0&sy=0&sw=316&sh=316&_nc_hash=AQAI6p974RoCbfNJ
+        width: 316
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F39869029%2Ffacebook-api-me-posts-return-only-275-post-as-limit&h=ATMmigd-ls-y4MdeqvzgEFtXLopaSz7hNIcNcIALgubH90NH5RB3qi3RBZcamBvNu377GwcK7gb8z7Ff36IcS9gqsljJCJroklQ4&s=1&enc=AZOFNcmIPpDuMuvCx-cRyWInh7t86GyG9JqT0-gZwutmwLa-H1wRZbn-n_sOoooe05uz63oj1KWEy2o53Co_XXrq
+    title: Facebook API /me/posts return only 275 post as limit
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F39869029%2Ffacebook-api-me-posts-return-only-275-post-as-limit&h=ATMmigd-ls-y4MdeqvzgEFtXLopaSz7hNIcNcIALgubH90NH5RB3qi3RBZcamBvNu377GwcK7gb8z7Ff36IcS9gqsljJCJroklQ4&s=1&enc=AZOFNcmIPpDuMuvCx-cRyWInh7t86GyG9JqT0-gZwutmwLa-H1wRZbn-n_sOoooe05uz63oj1KWEy2o53Co_XXrq

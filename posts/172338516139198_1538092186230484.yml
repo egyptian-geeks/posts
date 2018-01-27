@@ -1,0 +1,114 @@
+---
+message: "سؤال عام للمناقشه\n\nلو بتشتغل في project و عايز تعمل spearation لل business
+  logic code. تفضل انك تستخدم حاجه بتوفرها ال framework ولا متعتمدش علي ال framework
+  في حاجه زي كدا؟ \n\nمثال علي كدا. لو شغال مثلا ب laravel تحب انك تستخدم حاجه زي
+  ال service container ولا هتكتب ال classes بتاعتك عادي من غير ما تعتمد علي حاجه في
+  ال framework و تبقي شغال domain driven اكتر؟\n\nPS: I'm talking about large scale
+  product that will be maintained over years with a high significant traffic"
+from:
+  name: Alaa Attya Mohamed
+  id: '10212906316506161'
+type: status
+created_time: '2017-07-05T18:19:57+0000'
+updated_time: '2017-07-07T08:10:47+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1538092186230484/
+shares:
+  count: 2
+id: '172338516139198_1538092186230484'
+reactions:
+  data:
+  - id: '10215800834242368'
+    name: New Adam
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRRNE9UZAzBOakEzT0RveE5EazVNamcxT1RrNU9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRRNE9UZAzBOakEzT0RveE5EazVNamcxT1RrNU9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2017-07-05T18:21:33+0000'
+    from:
+      name: Kareem Elansary
+      id: '10156256566230530'
+    message: "flights walla hotels? \U0001F602"
+    id: '1538093786230324'
+  - created_time: '2017-07-05T18:22:42+0000'
+    from:
+      name: Ahmed Kamal
+      id: '10208727810672580'
+    message: |-
+      شخصيا أفضل إنى إشتغل Domain Driven علشان ال Separation of Concerns
+      وكمان أفصل ال business من ال application layer.
+    id: '1538094446230258'
+  - created_time: '2017-07-05T18:23:47+0000'
+    from:
+      name: Shreef Ahmed
+      id: '10156206757476579'
+    message: Delete the code!
+    id: '1538095219563514'
+  - created_time: '2017-07-05T18:26:03+0000'
+    from:
+      name: Mohamed Fawzy
+      id: '10159960198215788'
+    message: DDD with layer for api gateway , abc domain driven don't depend on technology
+      provided by framework you need your application work and pass continues integration
+      correctly without refactor it to work with framework x write ddd layers native
+      php and implement your own infrastructure , domain , service .
+    id: '1538096692896700'
+  - created_time: '2017-07-05T18:26:22+0000'
+    from:
+      name: Mohamed Fawzy
+      id: '10159960198215788'
+    message: 'further reading : https://www.mirkosertic.de/blog/2013/04/domain-driven-design-example/'
+    id: '1538096936230009'
+  - created_time: '2017-07-05T18:26:57+0000'
+    from:
+      name: Ahmad Mayo
+      id: '10155441399893250'
+    message: على حسب. لو الابليكيشن بتاع مش كبير اوي عادي. لو بتعمل حاجة هتكبر، افصل
+      طبعا
+    id: '1538097329563303'
+  - created_time: '2017-07-05T18:38:46+0000'
+    from:
+      name: Peter Yanni
+      id: '10156055962709183'
+    message: |-
+      Alaa your classes have the "business logic code" and the "service container" just give you way to lazy initiate those classes and use it  :)
+
+      what kind of separation ( Decouple ) you looking for ?
+    id: '1538104442895925'
+  - created_time: '2017-07-05T19:56:17+0000'
+    from:
+      name: سامح دعبس
+      id: '2022490591345439'
+    message: |-
+      I don't know about laravel, but generally speaking: I will make use of existing infrastructure in the framework I am using to the max extent.
+      Should I separate business logic behind a service layer?
+      Depends on the size of the project?
+      Also, I will not go for ddd without justification, it is too complex to be used for small-medium projects.
+      In summary: be pragmatic.
+    id: '1538163032890066'
+  - created_time: '2017-07-05T20:22:41+0000'
+    from:
+      name: Mahmoud Tantawy
+      id: '10156115350739764'
+    message: |-
+      use PSR and put the code in reusable components that are not using framework helpers.
+      examples can be middlewares, standalone service classes, elmohem separate been El framework wl classes Ely 3awzha tb2a reusable.
+    id: '1538180306221672'
+  - created_time: '2017-07-06T09:57:56+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: I do always stick to framework Arch even if i need to make some workarounds
+    id: '1538661322840237'
+  - created_time: '2017-07-06T15:16:40+0000'
+    from:
+      name: Ahmed Refaey
+      id: '1808892215797147'
+    message: هي ال SOLID Principles بتقول ايه!!؟
+    id: '1538966529476383'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV6T0RBNU16YzROakl6TURNeU5Eb3hORGs1TWpjNE9Ea3oZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV6T0RrMk5qVXlPVFEzTmpNNE16b3hORGs1TXpVME1qQXgZD

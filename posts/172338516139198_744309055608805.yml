@@ -1,0 +1,23 @@
+---
+message: |-
+  Guys anyone familiar with Grunt? I am having a *slight* problem that I couldn't find a solution for. Before heading to Stackoverflow or github I thought anyone could help :) Wish I am right :)
+
+  The problem is, I am using jade files to generate a static HTML ... There is a task called usemin that concatenate JS and CSS files ... This task fails to work properly ... The concatenated files are generated on the dist directory but the reference in the HTML fails to update
+
+  The HTML look like this:
+      <!-- build:js scripts/plugins.js -->
+      <script src="scripts/file.js"></script>
+      <script src="scripts/another-file.js"></script>
+      <!-- endbuild -->
+
+  The task should create the plugins.js file and update the reference in the HTML file ... It creates the file but fails to update the HTML file.
+
+  Am I making any sense? If anyone could help I could post my Grunt.js file ... And for sure It will be a debt, I will help you with your next whatever project :D Offering a free PSD to HTML/Origami or a help with your bext Backbone/Angular/React/Whatever app :D
+from:
+  name: Ahmad Alfy
+  id: '10154904189965670'
+type: status
+created_time: '2014-05-10T20:27:49+0000'
+updated_time: '2014-05-10T21:04:23+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/744309055608805/
+id: '172338516139198_744309055608805'

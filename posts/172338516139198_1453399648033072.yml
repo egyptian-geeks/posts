@@ -1,0 +1,44 @@
+---
+message: Hello everyone,has anyone experienced running database in a container,and
+  if yes ,have you experienced any data corruption due to container crash or database
+  didn't shutdown correctly ?
+from:
+  name: Mostafa Saeed
+  id: '1816851641672820'
+type: status
+created_time: '2017-04-14T11:55:08+0000'
+updated_time: '2017-04-14T22:47:08+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1453399648033072/
+id: '172338516139198_1453399648033072'
+reactions:
+  data:
+  - id: '1490980044356277'
+    name: Yahia Khedr
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXpNekk0T0RneE5EUTJPakUwT1RJeE56RXlOVE02TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXpNekk0T0RneE5EUTJPakUwT1RJeE56RXlOVE02TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-04-14T11:58:46+0000'
+    from:
+      name: Mohamed Bassem
+      id: '10212826240185281'
+    message: Usually when you are running a database in a container, the data is persisted
+      using a mounted volume. So a container crash is as if you killed the process
+      of the engine. The database engine is the one that should handle not shutting
+      down gracefully. I don't think running in a container or not makes a difference.
+    id: '1453404008032636'
+  - created_time: '2017-04-14T19:59:39+0000'
+    from:
+      name: Mohamed Shaheen
+      id: '1990508241211666'
+    message: "I had issue with mongo db container , although I used standard mongo
+      docker which has external volume for data \n\nAs a rule , using db docker is
+      not advised for production"
+    id: '1453799544659749'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFExTXpRd05EQXdPREF6TWpZAek5qb3hORGt5TVRjeE1USTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFExTXpjNU9UVTBORFkxT1RjME9Ub3hORGt5TVRrNU9UYzUZD

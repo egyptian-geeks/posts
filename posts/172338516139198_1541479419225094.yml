@@ -1,0 +1,167 @@
+---
+message: |-
+  سؤال لمختصي الشبكات:
+  إيه اللي يخلي الراوتر بتاع ال ADSL يعطي بيانات سرعة Actual Rate أعلى من الحقيقي الواصل فعلا!
+  الكلام ده بيحصل معايا في تي إي داتا، يعني أنا مشترك على طلقة ٨ ميجا والراوتر مطلع إني متصل على ١١ ميجا وشوية داونلوود، وواحد صديقي مشترك ٢ ميجا والراوتر مطلع عنده انه متصل على ٩ ميجا وشوية.
+  لما باستخدم speed test او بعمل داونلوود بتظهر السرعة الحقيقية يعني معايا، مطلع ان الداون لوود ٧ ميجابت وشوية. هل في تفسير.
+  ملحوظة: ال FEC عندي عالي قوي في الداونلوود.
+from:
+  name: Said Bakr
+  id: '10155965038378745'
+type: status
+created_time: '2017-07-08T20:35:37+0000'
+updated_time: '2017-07-09T16:22:19+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1541479419225094/
+id: '172338516139198_1541479419225094'
+reactions:
+  data:
+  - id: '905385256303172'
+    name: MohAmed HAmada
+    type: LIKE
+  - id: '1587359294686403'
+    name: Mohamed Ibrahim
+    type: LIKE
+  - id: '10155895263189003'
+    name: Khaled Hamed
+    type: LIKE
+  - id: '10216389403667343'
+    name: Ahmed Jimmy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTBPVFV4TVRnME1EVTRPakUwT1RrMU9UYzBOekU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRJeU16QTJORGt3T0RveE5EazVOVFEyTkRJMU9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2017-07-08T20:39:02+0000'
+    from:
+      name: Khaled Hamed
+      id: '10155895263189003'
+    message: عندى نفس الكلام بقاله بتاع 5 شهور، ظاهرلى 20 ميجا
+    id: '1541481795891523'
+  - created_time: '2017-07-08T20:40:14+0000'
+    from:
+      name: Ahmed Jimmy
+      id: '10216389403667343'
+    message: معلش ممكن توضيح اية هو ال FEC ?
+    id: '1541482709224765'
+  - created_time: '2017-07-08T20:42:02+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: خلي بالكوا انا ما باتكلمش عن Attainable Rate اللي هي قدرة الخط، دي تطلع
+      زي ما تطلع ما تعنيناش في حاجة، انا باتكلم عن بيان التوصيل الفعلي. Khaled Hamed
+    id: '1541483945891308'
+  - created_time: '2017-07-08T20:43:13+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: |-
+      هو يعرف بإنه Forward Errors Correction
+      https://en.wikipedia.org/wiki/Forward_error_correction
+      Ahmed Jimmy
+    id: '1541484639224572'
+  - created_time: '2017-07-08T20:43:43+0000'
+    from:
+      name: Mohamed Omar Zaian
+      id: '10155855162041047'
+    message: قالولي ديه اقصي سرعة للاين عند حضرتك
+    id: '1541484959224540'
+  - created_time: '2017-07-08T20:43:43+0000'
+    from:
+      name: Mohammed Ezzat
+      id: '352020458607763'
+    message: نفس الكلام . طالعلي 17 ميجا واللى واصل 10 ميجا
+    id: '1541484965891206'
+  - created_time: '2017-07-08T20:48:36+0000'
+    from:
+      name: Fady Anwar
+      id: '10159888022555052'
+    message: I think this is bandwidth between you and dslam, but dslam is configured
+      to throttle user connections thus your actual connection speed is much lower
+      than what can be attained if dslam provided you full bandwidth
+    id: '1541488535890849'
+  - created_time: '2017-07-08T20:49:56+0000'
+    from:
+      name: M Sameh El Harty
+      id: '10159983801460392'
+    message: |-
+      Actual rate is the speed the line can sustain. Sometimes routers show actual and max. Max is the maximum that the line can support. Actual is the current actual connection speed. However this is layer 2 connection, that doesn't mean that you get this connection excatly. Same as the LAN cable, you are connected at 100Mbps, but the actual you get may vary on multiple things like the speed of your hard drive for example, the number of people copying on the network. In the casr of ISPs, they can throttle the speed you get.
+
+      So in your casr the line shows you are connected at 9Mbps but the ISP has throttled the data you are getting at 8 ( which you actually get 7+ because we are in Egypt)
+    id: '1541489269224109'
+  - created_time: '2017-07-08T20:53:22+0000'
+    from:
+      name: Nasser Mohammed Ali
+      id: '10213493310141587'
+    message: "دي السرعة اللي البورت كونفيجرد عليها والراوتر بيقراها زي ما هي. \"الخنق\"
+      بقى أو الثروتلينج بيحصل تقريبا بسوفتوير في مكان تاني وده في الغالب علشان يسهل
+      تغيير سرعة العملاء لما يغيروا نوع إشتراكهم. \nالفكرة مشابهة لما تخلص الكوتا
+      مثلا السرعة بتتخنق بس سرعة الكونفيجريشن عالبورت زي ما هي."
+    id: '1541492589223777'
+  - created_time: '2017-07-08T20:54:14+0000'
+    from:
+      name: Bdr Mohamed
+      id: '2015246105157800'
+    message: السرعه بتاعت ال lan هيا ال ١١ ع وضع ال 802.11b
+    id: '1541493095890393'
+  - created_time: '2017-07-08T20:54:53+0000'
+    from:
+      name: Abdullatif Al-Khatib
+      id: '10156011986535135'
+    message: "AFAIK, ISPs in Egypt do one of two things:\n1. Configure the physical
+      connection at contracted speed (mostly seen with TEDATA) \n2. Configure all
+      ports to maximum attainable speed and throttle each subscriber down to contracted
+      speed (mostly seen with LinkdotNet and rarely with TEDATA)"
+    id: '1541493522557017'
+  - created_time: '2017-07-08T21:10:36+0000'
+    from:
+      name: محمود أحمد مصطفى
+      id: '1706331916053658'
+    message: "حسب ما أعلم.. TE DATA بتعمل Test لكل الخطوط اللي عندها.. فبتبدأ ترفع
+      السرعة دي لغاية أعلى حاجة ممكن يستحملها الخط.. لكن الداونلوود الفعلي مش هيزيد
+      عن اشتراكك. \n\nبعض الخطوط مش بتستحمل عملية الtest دي والخط بيبدأ يفصل. \nبكل
+      بساطة قدم شكوى قول إن النت بيفصل عندك كتير وهما هيظبطوه ويرجعوه للسرعة الطبيعية
+      اللي مشترك عليها."
+    id: '1541504995889203'
+  - created_time: '2017-07-08T21:24:16+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "زي ما اقوللك انت واصل على كابل ethernet 100mbps بس انت في الاخر لمتد
+      بسرعة القناة ككل بينك وبين ال destination نفس الكلام هو بيبقى قدامه طريقتين
+      يا اما ي limit بسرعة الدي اس ال نفسها او يديك سرعة أعلى بس يحطلك software throttling
+      حسب الباقة بتاعتك وده اللي حاصل عندك دلوقتي.. زمان كان بيبقى التحكم كله من السنترال
+      ومفيش تقريبا لميت على اليوزر بتاعك عندهم يعني وقت ما تبقى قادر لسرعة 16 ميجا
+      هيجيب معاك على طول.. وكنت تلاقي مثلا لو مشترك في 512 السرعة في الراوتر 512 واول
+      ما ترفع 1 ميجا تلاقيها خدت بالظبط معاك 1 ميجا.. وهكذا.. \n\nدلوقتي اللي حاصل
+      معاك صورة مختلفة من تحديد السرعة مش اكتر"
+    id: '1541516759221360'
+  - created_time: '2017-07-08T22:22:55+0000'
+    from:
+      name: Mohammad Allam
+      id: '10157198755818902'
+    message: |-
+      One thing i experimented myself, the physical connection speed limiting is much reliable than the software throttling.
+      - Software throttling is horrible if you're using the connection for real time uses like online gaming or VoIP because it starts dropping more packages when you exceed the speed rate so you get higher package loss rate.
+      - But in the physical low speed when you exceed it you get higher latency (higher ping) but it keeps the package loss low, it's like they queue the packages that exceed your download rate instead of dropping them out, so you keep receiving them delayed instead of losing them at all.
+    id: '1541553012551068'
+  - created_time: '2017-07-08T23:38:09+0000'
+    from:
+      name: Ali Dawood
+      id: '10155037241837455'
+    message: الراوتر بيظهر حاجتين واحدة سرعتك الحالية والتانية اكبر سرعة يستحملها
+      خطك
+    id: '1541599692546400'
+  - created_time: '2017-07-08T23:55:02+0000'
+    from:
+      name: Abdul Hamdy
+      id: '10155794996775813'
+    message: |-
+      Bos, the actual speed is the rate that is set from the ISP. The attainable speed is the maximum the line can handle in relation to its quality. However the DSLAM throttles your bandwidth according to your subscription. This is a setting that cannot be seen 3andak and the tech support can change. Ya3ni the rate maybe 8mb. Bas the actual speed is 4..you call them and say i am allowed tal2a.. Up till mesh 3aref kam.. Y2oum they change the bandwidth to 8..
+      You can call them later and ask for another upgrade.. To 12 or 10.. Until your line starts dropping the connection. FEC means that the quality of the transmission is total shit and many bits get messed up.. In other words.. Your snr is too low.
+    id: '1541613339211702'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUwTVRRNE1UYzVOVGc1TVRVeU16b3hORGs1TlRRMk16UXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUwTVRZAeE16TXpPVEl4TVRjd01qb3hORGs1TlRVNE1UQXoZD

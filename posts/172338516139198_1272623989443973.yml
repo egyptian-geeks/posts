@@ -1,0 +1,86 @@
+---
+message: 'Choose one : '
+from:
+  name: Ahmed Badawy
+  id: '1596110217148252'
+type: status
+created_time: '2016-10-29T06:12:19+0000'
+updated_time: '2016-10-29T09:32:52+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1272623989443973/
+id: '172338516139198_1272623989443973'
+reactions:
+  data:
+  - id: '1596110217148252'
+    name: Ahmed Badawy
+    type: LIKE
+  - id: '895970407247426'
+    name: Ahmad Magdy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlORGM0Tmpnd09EVTJPakUwTnpjM016azFORGM2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTFNRE0wTWpRME5UQTBPakUwTnpjM01qWXpNalU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-10-29T06:13:43+0000'
+    from:
+      name: Ahmed Badawy
+      id: '1596110217148252'
+    message: for me it's stylus.. i played with scss a little bit but i didn't like
+      it as stylus...
+    id: '1272624562777249'
+  - created_time: '2016-10-29T06:14:32+0000'
+    from:
+      name: Ammar Youssef
+      id: '10155097484932190'
+    message: scss == sass
+    id: '1272624832777222'
+  - created_time: '2016-10-29T06:15:12+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      SCSS has won long time ago. LESS survived a bit with Bootstrap and early .NET support, but even Bootstrap moved to SASS (people often say SASS and mean SCSS. Nobody writes Ruby-ish SASS anymore), and with Node, now SASS (SCSS( works just fine on Windows and Visual Studio.
+
+      Stylus looked like it can compete for a bit, but SASS (SCSS) is dominant that everything now is irrelevant.
+
+      You only do plain CSS when you have to.
+    id: '1272625102777195'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkzTWpZAeU5EVTJNamMzTnpJME9Ub3hORGMzTnpJeE5qSTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkzTWpZAeU5URXdNamMzTnpFNU5Ub3hORGMzTnpJeE56RXkZD
+attachments:
+  data:
+  - subattachments:
+      data:
+      - target:
+          id: '1234657753263777'
+        title: SCSS
+        type: option
+      - target:
+          id: '1281038345250481'
+        title: Plain CSS
+        type: option
+      - target:
+          id: '568973123294944'
+        title: LESS
+        type: option
+      - target:
+          id: '1175062622580686'
+        title: Other
+        type: option
+      - target:
+          id: '289701101428906'
+        title: Stylus
+        type: option
+      - target:
+          id: '916653355146293'
+        title: SASS
+        type: option
+    target:
+      id: '1272623969443975'
+      url: https://www.facebook.com/groups/egyptian.geeks/permalink/1272623989443973/
+    title: 'Choose one : '
+    type: question
+    url: https://www.facebook.com/groups/egyptian.geeks/permalink/1272623989443973/

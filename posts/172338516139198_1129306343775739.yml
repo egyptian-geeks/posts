@@ -1,0 +1,84 @@
+---
+message: "شباب\nانا شغلي طبيعته editing لمحتوى عربي \nمحتاج اعمل سكريبت ينفع يشتغل
+  على google docs (حاجه زي الماكرو مثلا) فكرتها ببساطه قايمة على انها هتعمل search
+  and replace وعايز ان الباك اند يبقى شيت مثلا فيه 2 columns واحده الحاجة الي يعمل
+  search عليها والتاني الحاجة الي يعملها replace بيها واشغلها بhot key على اي  google
+  doc مفتوح\n\nافكار؟ هل فيه حاجات جاهزةة ممكن استخدمها؟ لو دا محتاج سكريبتينج ايه
+  اللغة الي بيستخدمها google script ؟"
+from:
+  name: Nour Eldin
+  id: '10159866697310511'
+type: status
+created_time: '2016-04-22T02:42:12+0000'
+updated_time: '2016-04-24T05:43:49+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1129306343775739/
+id: '172338516139198_1129306343775739'
+reactions:
+  data:
+  - id: '1672878506132188'
+    name: Bellal Mohamed
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlNekF4TmpReU5qYzVPakUwTmpFek1ERXpORFk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlNekF4TmpReU5qYzVPakUwTmpFek1ERXpORFk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-04-22T02:54:17+0000'
+    from:
+      name: Mariam Maarouf
+      id: '10155779091916638'
+    message: 'I think what you''re looking for is a Google Docs Add-on. Find out more
+      about available add-ons or how to develop one  (JavaScript, btw) here: https://developers.google.com/apps-script/add-ons/#see_what_you_can_make'
+    id: '1129310460441994'
+  - created_time: '2016-04-22T06:17:15+0000'
+    from:
+      name: Tarek Amr
+      id: '10155854949245944'
+    message: You can write scripts in Google docs, http://tarekamr.appspot.com/blog/scripting-google-spreadsheets.html
+    id: '1129378767101830'
+  - created_time: '2016-04-22T11:39:43+0000'
+    from:
+      name: Mohamed Abdel Aty
+      id: '10215620557573580'
+    message: are you going to use google spreadsheets ? you can write scripts that
+      interact with your sheet there directly
+    id: '1129508823755491'
+  - created_time: '2016-04-22T12:10:50+0000'
+    from:
+      name: Nour Eldin
+      id: '10159866697310511'
+    message: مش عايز استخدمه على سبريد شيت، انا عايز استخدمه على oc
+    id: '1129521160420924'
+  - created_time: '2016-04-22T12:10:52+0000'
+    from:
+      name: Nour Eldin
+      id: '10159866697310511'
+    message: doc*
+    id: '1129521177087589'
+  - created_time: '2016-04-22T12:32:22+0000'
+    from:
+      name: Mohamed Abdel Aty
+      id: '10215620557573580'
+    message: "i think it will be more tricky in Docs , but there is a whole table
+      class in app script so you can try \n\nhttps://developers.google.com/apps-script/reference/document/table"
+    id: '1129528540420186'
+  - created_time: '2016-04-22T20:14:47+0000'
+    from:
+      name: Ahmed Badawy
+      id: '1596110217148252'
+    message: |-
+      طب متعمل  search & replace all  العاديين ؟
+      إيه المانع ؟؟؟  مش فاهم ؟
+    id: '1129778893728484'
+  - created_time: '2016-04-24T05:43:49+0000'
+    from:
+      name: Osama Mohamed
+      id: '2089650217931552'
+    message: "لو موصلتش لحاجة من كل اللي فات ممكن \nBrowser Extension تعمل كدا بسهولة
+      \nمش عارف لو موجودة بس بناءها مش صعب"
+    id: '1130653366974370'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV5T1RNeE1EUTJNRFEwTVRrNU5Eb3hORFl4TWprek5qWXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV6TURZAMU16TTJOamszTkRNM01Eb3hORFl4TkRjMk5qSTUZD

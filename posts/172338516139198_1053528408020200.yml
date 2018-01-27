@@ -1,0 +1,72 @@
+---
+message: What is the best tool to handle a big data and analyzing it? I have a huge
+  amount of raw text data and I want to find out the most used words and some statistics
+  .. I'm thinking of Elastic-Search and making my own code to search and count to
+  extract the statistics but if someone knows a better tool to do that it will be
+  helpful.
+from:
+  name: Morad Edwar
+  id: '10215772499725897'
+type: status
+created_time: '2015-12-29T13:35:36+0000'
+updated_time: '2015-12-31T14:10:37+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1053528408020200/
+id: '172338516139198_1053528408020200'
+reactions:
+  data:
+  - id: '1763959737010749'
+    name: Ahmed Mahmoud
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhPVEF5TVRrM05Ea3lPakUwTlRFME1UTTRNak02TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXhPVEF5TVRrM05Ea3lPakUwTlRFME1UTTRNak02TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2015-12-29T13:37:01+0000'
+    from:
+      name: Mohamed Omar Zaian
+      id: '10155855162041047'
+    message: لسه كت بقرى فى البتاع ده الصبح دوس فيه وربنا معاك
+    id: '1053528804686827'
+  - created_time: '2015-12-29T13:38:55+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: kibana + elasticsearch will be the best combo
+    id: '1053529574686750'
+  - created_time: '2015-12-29T13:41:19+0000'
+    from:
+      name: Ahmed Maher
+      id: '1555205924527489'
+    message: use R programming + R studio
+    id: '1053530268020014'
+  - created_time: '2015-12-29T13:42:51+0000'
+    from:
+      name: Biga Gaber
+      id: '1800724693292343'
+    message: if you are Solr fan  you can use Solr + Banana
+    id: '1053530628019978'
+  - created_time: '2015-12-29T14:00:14+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: Use R
+    id: '1053537054686002'
+  - created_time: '2015-12-29T20:45:11+0000'
+    from:
+      name: Ibrahim Zaki
+      id: '10157017423792738'
+    message: I recommend apache spark it will be great and easy its perfect for this
+      job
+    id: '1053702284669479'
+  - created_time: '2015-12-31T14:10:37+0000'
+    from:
+      name: Karim Mohamed
+      id: '2263610936997643'
+    message: Use Spark in standalone mode, there is an example code to do Word counting
+    id: '1054730087900032'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEExTXpVeU9EZA3dORFk0TmpneU56b3hORFV4TXprMk1qSXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEExTkRjek1EQTROemt3TURBek1qb3hORFV4TlRjeE1ETTMZD

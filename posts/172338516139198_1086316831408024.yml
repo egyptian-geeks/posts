@@ -1,0 +1,81 @@
+---
+message: "I have a mild medical condition, which is, I am allergic to Java. Currently,
+  I have some huge Java code, like some classes are 1,000 lines of code or something.
+  Don't worry, I am not asked to add a single line of code to it. However, I am asked
+  to give some guidelines to the development team, whether we should refactor it.
+  Cut it down into micro-services? Which parts should go into micro-services?? Hopefully,
+  some day, we re-write parts of this code into more human-readable languages. \n\nSo,
+  what I want is a tool that I can point it to the code and it gives me back some
+  statistics, like how many modules are there, how many classes, how big is each class,
+  number of lines is good enough approximation for the complexity to me. Maybe, some
+  additional stuff, like which classes are more tightly coupled to each other or something.
+  Anything else I need to know? Do you know any tools I can use for that?\n\nBig plus
+  to CLI (please, please no eclipse-plugins), hopefully no bells and whistles, less
+  than 50 MB, no Maven and XML-based configurations and such stuff from the 1990's."
+from:
+  name: Tarek Amr
+  id: '10155854949245944'
+type: status
+created_time: '2016-02-25T09:43:11+0000'
+updated_time: '2016-02-26T21:56:18+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1086316831408024/
+id: '172338516139198_1086316831408024'
+reactions:
+  data:
+  - id: '10155738795381858'
+    name: Mohamed Abdellatif
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpBMU1UUTJPRFUzT2pFME5UWTBNREF5T0RBNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TmpBMU1UUTJPRFUzT2pFME5UWTBNREF5T0RBNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-02-25T11:39:22+0000'
+    from:
+      name: Shreef Ahmed
+      id: '10156206757476579'
+    message: "I dont think that any tool can tell you which parts should turn into
+      micro-services or not...  also worth  mentioning that micro-services are not
+      good for all cases. \n\nAnyway, if you will just focus on basic code refactoring
+      stuff, then there are hundreds of static code analysis tools that can give you
+      more than what you asked for in the post. \n\nI'm not a java person, so I can't
+      recommend any specifically. .. googling gave me this list\n https://en.m.wikipedia.org/wiki/List_of_tools_for_static_code_analysis"
+    id: '1086361224736918'
+  - created_time: '2016-02-25T11:41:10+0000'
+    from:
+      name: Tarek Amr
+      id: '10155854949245944'
+    message: No no, I am not waiting for the tool to tell me that, just to give me
+      basic hints what to inspect further myself
+    id: '1086365264736514'
+  - created_time: '2016-02-25T13:25:10+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: Any method larger than 50 lines should be refactored, ask the people
+      who work on the code for patterns, steps takes in the majority of methods
+    id: '1086422598064114'
+  - created_time: '2016-02-25T13:25:28+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: P.S. Microservices are totally a different issue
+    id: '1086422681397439'
+  - created_time: '2016-02-26T07:11:13+0000'
+    from:
+      name: Ahmed El Gabri
+      id: '10159938698425582'
+    message: Not sure if this will be helpful or not https://github.com/AlDanial/cloc
+    id: '1086872878019086'
+  - created_time: '2016-02-26T20:59:04+0000'
+    from:
+      name: Amr Medhat
+      id: '10155426916839779'
+    message: I once used UnderstandC from https://scitools.com/ 10 years ago for a
+      task somewhat like that
+    id: '1087265701313137'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE0TmpNMk1USXlORGN6TmpreE9Eb3hORFUyTkRBd016WXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE0TnpJMk5UY3dNVE14TXpFek56b3hORFUyTlRJd016UTEZD

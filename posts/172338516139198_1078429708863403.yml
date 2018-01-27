@@ -1,0 +1,34 @@
+---
+message: "السلام عليكم\n\nممكن من فضلكم اعرف امته استخدم Dapper وامته استخدم EF فى
+  MVC .Net - كل اللى فهمته من البحث ان Dapper اسرع من EF وده بيفرق - \nبس هل معناه
+  انى حستغنى نهائيا عن EF وان مفيش طريق اقدر اسرع بيها EF ?"
+from:
+  name: Ahmed Amin
+  id: '1962172197389574'
+type: status
+created_time: '2016-02-12T00:01:55+0000'
+updated_time: '2016-02-13T09:28:34+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1078429708863403/
+id: '172338516139198_1078429708863403'
+comments:
+  data:
+  - created_time: '2016-02-12T02:36:09+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: EF is fast enough for most cases, especially when you use it correctly.
+      As in, do not overuse lazy loading or eager loading (includes), or have N+1
+      queries etc.
+    id: '1078486285524412'
+  - created_time: '2016-02-12T09:19:25+0000'
+    from:
+      name: Ebram Tharwat
+      id: '10214080331513711'
+    message: I think you can think about it as "Levels" .. If you want a high level
+      and yet effective then go for EF .. If you want something faster, then you need
+      to go down a level then Dapper
+    id: '1078610578845316'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEEzT0RRNE5qSTROVFV5TkRReE1qb3hORFUxTWpRME5UY3cZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEEzT0RZAeE1EVTNPRGcwTlRNeE5qb3hORFUxTWpZANE56WTEZD

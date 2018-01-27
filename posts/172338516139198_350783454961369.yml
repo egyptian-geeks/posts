@@ -1,0 +1,20 @@
+---
+message: |-
+  as we all know, you can't make cross-domain AJAX calls with jQuery, or any other alternative library.
+  this is due to a concept called "same origin policy", and BTW this is a browser-level implementation, not with the technology that is being used.
+
+  this plugin will fix this behavior in a VERY smart way, and will let you do this with ease.
+  Give it a try, and let me know if you faced any problems.
+  BTW, I've faced a problem when calling some Arabic content due to charset incompatibility, I've fixed this plugin to support Arabic and other non-Latin characters.
+
+  I will post it and let you know soon ISA.
+link: http://james.padolsey.com/javascript/cross-domain-requests-with-jquery/
+from:
+  name: Mohammed El Sayed
+  id: '10155880598025170'
+type: link
+created_time: '2012-02-27T12:26:22+0000'
+updated_time: '2012-02-27T21:42:15+0000'
+name: Cross-domain requests with jQuery – James Padolsey
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/350783454961369/
+id: '172338516139198_350783454961369'

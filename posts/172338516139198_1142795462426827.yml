@@ -1,0 +1,73 @@
+---
+message: 'any help ?!
+
+'
+link: http://stackoverflow.com/questions/37212536/hashing-key-by-folding-then-dividing-by-a-prime-number
+from:
+  name: Ahmed Gamal
+  id: '1944835295781512'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQA4atFBdowvWO-S&w=130&h=130&url=http%3A%2F%2Fcdn.sstatic.net%2FSites%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded%26a&cfs=1&sx=0&sy=0&sw=316&sh=316&_nc_hash=AQDYVbPw7-vNSk2Z
+created_time: '2016-05-13T14:44:47+0000'
+updated_time: '2016-05-13T21:29:25+0000'
+name: Hashing key by folding then dividing by a prime number?
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1142795462426827/
+id: '172338516139198_1142795462426827'
+reactions:
+  data:
+  - id: '2005684436139048'
+    name: Muhammed Essam Khamis
+    type: LIKE
+  - id: '10211400895684436'
+    name: Khalid Mohamed Al Wakeel
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdPVEkxTXpNNU5qTTBPakUwTmpNeE5URXhNelU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRReU16TXdPVGt4T0RveE5EWXpNVFV3T0RJeU9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2016-05-13T14:52:55+0000'
+    from:
+      name: Mohammed Farghal
+      id: '10155396126947689'
+    message: What is the question ?
+    id: '1142800772426296'
+  - created_time: '2016-05-13T16:53:32+0000'
+    from:
+      name: Mohammed Farghal
+      id: '10155396126947689'
+    message: |-
+      Why dividing by a prime number? dividing by a prime number is a good idea if the characters of the string have some patterns. For example if you have a set if strings to hash and all of them have the first character with the number n. if you are using the number m for hashing where m divides n then n will not contribute in deciding the bucket, thus the probability of two numbers falling into the same bucket will be higher.
+
+      Example:
+
+      [161, 162, 163, 164] mod 8 = [1, 2, 3, 4 ]
+      In this example only the last character digit determines the hash because 8 divides 16. Thus we want to choose a number that is divides less numbers (practically, prime number). Imagine that we have chosen 31. Then this case will only happen if the number contains 31s or multiples of 31. Thus chosen a big prime number is a good idea
+
+      Let's consider our string encoded into a number n. obviously,
+      n = c0 * 10^0 + c2 * 10^1 ...
+      now for f(n) = n mod m
+      we have c0 * 10^0 + c2 * 10^1 ... mod m = ((c0 * 10^0) mod m + (c2 * 10^1) mod m ... ) mod m
+      now let's say that  m divides c0 then the first term will be 0.
+      Now if m has many prime factors then there is a high probability that other terms will also be 0. Which means that only a subset of the number determines the hash results. Thus, we can use this intuition to prove that given a non-uniformly distributed set of numbers, the probability of f(n1) = f(n2) will be higher if f(n) = n mod m where m is not prime, than if f(n) = n mod p where p is prime.
+    id: '1142855382420835'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUwTWpnd01EYzNNalF5TmpJNU5qb3hORFl6TVRVeE1UYzIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUwTWpnMU5UTTRNalF5TURnek5Ub3hORFl6TVRVNE5ERXkZD
+attachments:
+  data:
+  - description: 'I want to hash the following key "LOWELL" using a simple hash function
+      that used 4 steps : Step 1: transform the key into a number. LOWELL = | L |
+      O | W | E | L | L | | | | | | | ASCII code: 76...'
+    media:
+      image:
+        height: 316
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAntEGj6KNL8I7m&w=316&h=316&url=http%3A%2F%2Fcdn.sstatic.net%2FSites%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded%26a&cfs=1&sx=0&sy=0&sw=316&sh=316&_nc_hash=AQAI6p974RoCbfNJ
+        width: 316
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F37212536%2Fhashing-key-by-folding-then-dividing-by-a-prime-number&h=ATOtg-j5x4yKC4FFzlssm7uualoFEuW2jnk67IPhO_RUPJxHvJx5O9tO1aREeEGchiF9dR9xf8kIC3lCvC9EeREdSMRMTUI98ipo&s=1&enc=AZNSxRp5sgvUEXi_nigg-jLuZgHgSpMCppz4Pcx4qrfJQ3bTQSYC1FLy8_W3q0aPYgeAjH52qLzJp9EDwZs316rv
+    title: Hashing key by folding then dividing by a prime number?
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F37212536%2Fhashing-key-by-folding-then-dividing-by-a-prime-number&h=ATOtg-j5x4yKC4FFzlssm7uualoFEuW2jnk67IPhO_RUPJxHvJx5O9tO1aREeEGchiF9dR9xf8kIC3lCvC9EeREdSMRMTUI98ipo&s=1&enc=AZNSxRp5sgvUEXi_nigg-jLuZgHgSpMCppz4Pcx4qrfJQ3bTQSYC1FLy8_W3q0aPYgeAjH52qLzJp9EDwZs316rv

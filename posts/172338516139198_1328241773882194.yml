@@ -1,0 +1,96 @@
+---
+message: |-
+  حد هنا عنده خبرة في Java Spring MVC
+  وJavascript
+
+  عندي سؤال في حاجة لو حد يقدر يساعد
+from:
+  name: Ahmed Mūsā
+  id: '379428549186517'
+type: status
+created_time: '2016-12-15T17:20:27+0000'
+updated_time: '2016-12-15T17:45:07+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1328241773882194/
+id: '172338516139198_1328241773882194'
+reactions:
+  data:
+  - id: '10156089330442292'
+    name: Hany Ahmed
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRJNU5ETTNNamt4T2pFME9ERTRNakkyTWprNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRJNU5ETTNNamt4T2pFME9ERTRNakkyTWprNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-12-15T17:22:30+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: I have some modest experience if I can help
+    id: '1328242880548750'
+  - created_time: '2016-12-15T17:23:58+0000'
+    from:
+      name: Hany Ahmed
+      id: '10156089330442292'
+    message: Ask
+    id: '1328243643882007'
+  - created_time: '2016-12-15T17:28:04+0000'
+    from:
+      name: Ahmed Mūsā
+      id: '379428549186517'
+    message: |-
+      ده كود الكونترولر (java)
+      http://pastebin.com/6AhT80SS
+
+      وده الكود بتاع الtemplate
+      http://pastebin.com/WpJx552Y
+
+      المفروض إن فيه form
+      اليوز بيضيف وبيشيل tasks منها
+
+      الفكرة إن لما بعمل delete
+      لtask
+      مش بيتشال من الarraylist بتاعت الجافا
+      وبيديني error في الـ
+      chrome dev tools:
+      Failed to load resource: the server responded with a status of 400 ()
+
+      عند السطر ده في الtemplate
+      yhttp.send(encodeURIComponent(idToBeDel));
+    id: '1328246543881717'
+  - created_time: '2016-12-15T17:38:14+0000'
+    from:
+      name: Hany Ahmed
+      id: '10156089330442292'
+    message: |-
+      The issue lives here
+
+      @RequestMapping(value = "/delete", method = RequestMethod.GET)
+          public String delete(@RequestBody String id)
+
+      you're sending an ajax GET request
+      but in the method you're expecting that GET request has body (@RequestBody)
+      GET requests doesn't have body, POST requests may have body
+    id: '1328256130547425'
+  - created_time: '2016-12-15T17:38:48+0000'
+    from:
+      name: Hany Ahmed
+      id: '10156089330442292'
+    message: |-
+      you should modify your code to be POST
+      or it's better to send the id as request parameter
+    id: '1328256673880704'
+  - created_time: '2016-12-15T17:45:04+0000'
+    from:
+      name: Ahmed Mūsā
+      id: '379428549186517'
+    message: |-
+      متشكر جدا ربنا يكرمك جزاك الله خيرا
+      مقدر جدا مساعدتك ربنا يوفقك
+      ربنا ييسرلك الصعاب
+    id: '1328260183880353'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE15T0RJME1qZAzRNRFUwT0RjMU1Eb3hORGd4T0RJeU5UVXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE15T0RJMk1ERTRNemc0TURNMU16b3hORGd4T0RJek9UQTEZD

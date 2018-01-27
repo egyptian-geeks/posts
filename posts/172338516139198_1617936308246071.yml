@@ -1,0 +1,26 @@
+---
+message: |-
+  Has anyone tried a paid membership on egghead?
+  If so, how does the "watching offline" function work? Can I just download the videos to my computer?
+from:
+  name: Mahmoud A-Azim
+  id: '1958919217761339'
+type: status
+created_time: '2017-09-27T10:38:19+0000'
+updated_time: '2017-09-27T11:45:08+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1617936308246071/
+id: '172338516139198_1617936308246071'
+comments:
+  data:
+  - created_time: '2017-09-27T11:39:48+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: |-
+      I didn't try it but I would assume it uses the fileSystem API, which basically writes the file to a sandboxed section of your local file system then read from it :)
+      AppData\Local\Google\Chrome\User Data\Default\File System\
+    id: '1617964634909905'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl4TnprMk5EWXpORGt3T1Rrd05Ub3hOVEEyTlRFeU16ZAzQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl4TnprMk5EWXpORGt3T1Rrd05Ub3hOVEEyTlRFeU16ZAzQZD

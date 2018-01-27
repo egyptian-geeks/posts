@@ -1,0 +1,53 @@
+---
+message: |-
+  micro-controller based question:
+  I need to transform a c code that is written in the form of arduino sketch into ordinary c for any other micro-controller .. for example what does it need to use an arduino sketch that is written for Arduino Mega 2560 on a stand alone Atmega2560 IC to be used in another circuitry other than arduino ? and what would change if I upgraded the micro-controller processing power ?
+  thanks in advance
+from:
+  name: Osama Kamal
+  id: '10155500226808893'
+type: status
+created_time: '2017-07-09T02:28:33+0000'
+updated_time: '2017-07-10T14:50:29+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1541722945867408/
+id: '172338516139198_1541722945867408'
+comments:
+  data:
+  - created_time: '2017-07-09T05:36:36+0000'
+    from:
+      name: Mahmoud Kotb
+      id: '10155325167790838'
+    message: بسهولة ممكن تستخدم سكتش اردوينو علي ميكرو كنترولر لوحده في دايرة تانية
+      .. كل اللي هتحتاجة انك تحط ال bootloader بتاع الاردوينو علي الميكروكنترولر ده
+      وبعد كده ت upload السكتش ده عليه من غير أي مشكلة .. يعني مش لازم تحول الكود
+      ولا حاجه ... أنا مش فاهم سؤالك التاني بتاع ال processing power
+    id: '1541845022521867'
+  - created_time: '2017-07-09T05:39:21+0000'
+    from:
+      name: Osama Kamal
+      id: '10155500226808893'
+    message: |-
+      تمام اجابتك اكدتلي اني بفكر صح
+      سؤالي التاني معناه
+      عندك مثلا الatmega2560 ده ميكرو 8 bits
+      لو عايز اعلي الامكانيات لميكرو تاني 16 او 32 bits بنفس الكود ... هينفع و اللا هحتاج اعدل حاجة غير الpin assignment ؟
+    id: '1541846315855071'
+  - created_time: '2017-07-09T05:43:53+0000'
+    from:
+      name: Mahmoud Kotb
+      id: '10155325167790838'
+    message: طالما المايكروكنترولر التاني مدعوم من أردوينو ب bootloader وبرده مدعوم
+      من الناس اللي كاتبة ال library اللي انت شغال عليها يبقي عادي معندكش مشكلة إطلاقاً
+      ... لو لأ يبقي هتحتاج تدخل جوا ال library وتعدل جواها بنفسك أو بمعني أصح تكتبها
+      من أول وجديد ... لأن التعديل مش هيكون سهل قوي يعني
+    id: '1541848462521523'
+  - created_time: '2017-07-10T14:42:15+0000'
+    from:
+      name: Mostafa Saeed
+      id: '431530817266672'
+    message: I have got confused about you really want
+    id: '1543254142380955'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUwTVRnME5UQXlNalV5TVRnMk56b3hORGs1TlRjNE5UazMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUwTXpJMU5ERTBNak00TURrMU5Ub3hORGs1TmprM056TTEZD

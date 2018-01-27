@@ -1,0 +1,261 @@
+---
+message: |-
+  وتتوالى كوارث ال Fingerprinting، موضوع ال Fingerprinting كان قبل كدا معظم الشركات مش مهتمه بيه بالمره، اللى ميعرفش يعنى ايه FIngerprinting او بعض المصطلحات اللى مرتبطه بال term دا ارتباط وثيق هيا ال deanonymozation وهيا كشف هوية الاشخاص online حتى لو هما متخفيين ورا vpns او proxies او بيستعملوا اى اداه من ادوات التخفى بما فيهم ToR، وبما اننا ذكرنا الفينجربرينتينج وال دى انونيموزيشن يبقى لازم يذكر Tor، تور من الادوات المعروفه جدا على الانترنت فى التخفى واللى من خلالها تقدر توصل للجزء المظلم من الانترنت او ما يعرف بال Dark Web، اتكلمت قبل كدا بردو عن ان كان فى ناس كتيره جدا بتستخدم Tor على ال Dark web وبالرغم من تخفيهم الا انهم تم القبض عليهم من قبل ال FBI "رابط المحاضره فى اللينكات اخر البوست"، اتكلمت بردو عن شخص قبل كدا كان شغال فى Mozilla وقدرت ال FBI تجنده الموضوع هنا "https://goo.gl/S66EL0" نشوف بقى النهارده ايه الجديد!
+  .
+  النهارده فى Security Researcher اسمه Jonas Lejon قدم مثال او Proof of Concept بيقدر بيه يحدد اكتر من factor من خلال المثال اللى عمله بيقدر يحدد التالى:
+  ١. اذا كان اليوزر اللى فتح اللينك بيستعمل Tor browser ولا لا!
+  ٢. اذا كان اليوزر اللى فتح اللينك بيستعمل Tails OS ولا لا، للناس اللى مش عارفه Tail OS دى توزيعة لينيكس اتعملت مخصوص علشان تحمى اثرك وخصوصيتك على الانترنت ومبتسربش اى معلومات عنك.
+  ٣. اذا كان اليوزر اللى فتح اللينك بيستعمل MAC OSX ولا لا
+  .
+  كل دا ازاى؟
+  كود ال PoC مكتوب ب Javascirpt بيستغل بعض ال Trics معموله ب CSS و HTML بيقدر من خلالها ياكسس features و Buttons بتبقى موجوده بس فى ال Tor Browser الموجود فى Tor bundle يعنى على سبيل المثال من خلال "XMLHttpRequest" الكود بيقوم بعمل simulation للضغط على الزرار اللى بيقوم بعرض ال properties الخاصه بال tor browser واللى هوا "aboutTor.properties" فلو الصفحه فتحت يبقى كدا احنا على تور، مفتحتش يبقى احنا مش على تور. اسيبكم تحللوا الكود بنفسكم
+  .
+  لإخلاء المسؤولية الرى سيرشر بلغ Tor بالمشكله قبل ما يعمل ال Public disclosure ولكن تور مكانش عندها اى اجراء تعمله لأن المشكله كانت بتكمن فى Mozilla Firefox نفسه مش فى Tor وبما ان ال Tor Bundle بتبقى معتمده اعمتاد كلى على Firefox فبالتالى كل اللى بيستخدموا تور المثال المعمول دا ممكن يفشخهم "عالاقل ف الوقت الحالى"
+  .
+  .
+  دى صفحة المثال تقدر تجربها بنفسك: https://goo.gl/wRv7Pg
+  دا فيديو لل PoC هنا: https://goo.gl/Bokwns
+  الكود المستخدم فى ال PoC على Github هنا: https://goo.gl/xk8YC1
+  اقرا عن ال Deep Web هنا: https://goo.gl/HqAW9Z
+  يعنى ايه De-anonymization: https://goo.gl/LDZIWN
+  دى المحاضره اللى كانت بعنوان How Tor Users got caught هنا: https://goo.gl/dLaL62
+  دى حاجات ليها علاقه بال research اللى اتعمل:
+  Advanced Tor Browser Fingerprinting: http://goo.gl/mG8QpT
+  Panopticlick: https://goo.gl/Sj0jEN
+  Chameleon: https://goo.gl/bY4hqk
+  Firefox Resources Reader: https://goo.gl/XZ913G
+from:
+  name: Mohamed A. Baset
+  id: '2088941797787563'
+type: status
+created_time: '2016-05-30T20:10:49+0000'
+updated_time: '2016-05-31T20:56:36+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1153052638067776/
+shares:
+  count: 16
+id: '172338516139198_1153052638067776'
+reactions:
+  data:
+  - id: '10160192619205727'
+    name: George Hicham
+    type: LIKE
+  - id: '1657509230977456'
+    name: Hosam Aly
+    type: LOVE
+  - id: '963775840439678'
+    name: Nagah Shinawy
+    type: LIKE
+  - id: '10156988470019008'
+    name: Mohamed El Abassy
+    type: LIKE
+  - id: '10213861471464409'
+    name: Mohamed Shaban
+    type: LIKE
+  - id: '1945655738796903'
+    name: Mostafa Abdelghffar
+    type: LIKE
+  - id: '10213275664117662'
+    name: Ashraf Hamdy
+    type: LIKE
+  - id: '10154929757887581'
+    name: Ahmed Saieed
+    type: LIKE
+  - id: '10155438008245756'
+    name: Ahmed Mostafa
+    type: LIKE
+  - id: '2029806313704072'
+    name: Adam Zahran
+    type: LIKE
+  - id: '1495149960582252'
+    name: Mohamed Wael
+    type: LIKE
+  - id: '1612730315484933'
+    name: Yasser Ahmed
+    type: LIKE
+  - id: '10155362927802684'
+    name: Amro Shahin
+    type: LIKE
+  - id: '10156089227996085'
+    name: Andrew Naeem
+    type: LIKE
+  - id: '1194739483993968'
+    name: Hazem Hamdy
+    type: LIKE
+  - id: '10155880598025170'
+    name: Mohammed El Sayed
+    type: LIKE
+  - id: '10155029728871786'
+    name: Hazem Khaled
+    type: LIKE
+  - id: '1481122361986278'
+    name: Ahmed Hamdy
+    type: LIKE
+  - id: '1574530695959412'
+    name: Mohamed A. Othman
+    type: LIKE
+  - id: '1471782329613980'
+    name: Ahmed Adel
+    type: LIKE
+  - id: '2044729859105544'
+    name: Nezar Saleh Hasan
+    type: LIKE
+  - id: '1797366886980472'
+    name: Ahmed Zaki
+    type: LIKE
+  - id: '2022490591345439'
+    name: سامح دعبس
+    type: LIKE
+  - id: '10155638727450376'
+    name: Ahmed Magdy
+    type: LIKE
+  - id: '1876092405757348'
+    name: Ibrahem Mahmmoud
+    type: LIKE
+  - id: '10212777038359386'
+    name: Mahmoud Mustafa
+    type: LIKE
+  - id: '1735197893208926'
+    name: Ahmad Zain
+    type: LIKE
+  - id: '10155813874910991'
+    name: Mostafa Saad Ibrahim
+    type: LIKE
+  - id: '965151290306440'
+    name: ابراهيم محمد رجب
+    type: LIKE
+  - id: '1848274901859041'
+    name: MrAhmed Osman
+    type: LIKE
+  - id: '1641565752594739'
+    name: Ahmed Aziz
+    type: LIKE
+  - id: '10215387527140059'
+    name: Omar Mousa
+    type: LIKE
+  - id: '857329281113998'
+    name: Mohamed Soliman
+    type: LIKE
+  - id: '10213017755051330'
+    name: Abdelrhman Shawky
+    type: LIKE
+  - id: '10213394268464462'
+    name: Mohamed A. Alqrwash
+    type: LIKE
+  - id: '1573619512716214'
+    name: Mohamed Alaa El Din
+    type: LOVE
+  - id: '2032504700100329'
+    name: Mohammed Yassin
+    type: LIKE
+  - id: '1757932150918002'
+    name: Ahmed Salah
+    type: LIKE
+  - id: '10214471954062071'
+    name: Mohammad Aboelnour
+    type: LIKE
+  - id: '10215626626127168'
+    name: Khaled M. Diab
+    type: LIKE
+  - id: '1702417593151751'
+    name: Eslam Mohamed
+    type: LIKE
+  - id: '10213046533652017'
+    name: Ahmed Wahdan
+    type: LIKE
+  - id: '879271768900112'
+    name: Osama Soliman
+    type: LIKE
+  - id: '1825352097496736'
+    name: Ahmed El-Lithy
+    type: LIKE
+  - id: '10156274593643013'
+    name: Amany Elguindy
+    type: ANGRY
+  - id: '10214055964849051'
+    name: Ahmad Abubakr
+    type: LIKE
+  - id: '10157424085597588'
+    name: Haithm El-Watany
+    type: LIKE
+  - id: '875414379286437'
+    name: أحمد عبدالفتاح إسماعيل
+    type: LIKE
+  - id: '10156115350739764'
+    name: Mahmoud Tantawy
+    type: LIKE
+  - id: '10155912366165449'
+    name: Abdalrahman El Begermy
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRnMk5ETTFOekkyT2pFME5qUTROamd3TmpFNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TmpRek5qUTFORFE0T2pFME5qUTJNemt3T1RFNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-05-30T20:38:13+0000'
+    from:
+      name: Abdelrhman Shawky
+      id: '10213017755051330'
+    message: "انا قريت الPoC Script \nاللي لفت انتباهي الطريقة اللي بيحدد بيها انت
+      على Tails OS ولا لا \nاللي فهمته ، انت لو مش على Tails و شغال علي TOR\nالscript
+      tag اللي ال source بتاعها مثلا x.js \nSrc=x.js\nهتتنفذ عادي \nانما على tails
+      < v2.3 و شغال علي Tor لازم يكون فيه slash ف الاول لو هتكون مثلًا ف نفس الdirectory
+      \nيعني \nSrc=/x.js\nعلي اساس ده كان بيحدد انت علي Tails ولا لا \n\nانا مش عارف
+      هل الbrowser behavior علي Tailsغير مثلًا ولا Tails عليه مثلًا preinstalled browser
+      extension ؟ \nوايه اللي هيفرق لو انت ف نفس الdirectory و بتrefer ل file ب x.js
+      او /x.js"
+    id: '1153064231399950'
+  - created_time: '2016-05-30T21:07:14+0000'
+    from:
+      name: أحمد عاكف
+      id: '10215171020565968'
+    message: "هو انا مش فاهم حاجه طبعا \U0001F602 بس اللي وصلتله ان كل الليلة دي عشان
+      واحد عرف ايه ال browser اللي بتستخدمه \nايه الخطورة في كده \U0001F603 ؟"
+    id: '1153077561398617'
+  - created_time: '2016-05-30T21:44:41+0000'
+    from:
+      name: Samer Ismail
+      id: '10215428278162727'
+    message: ادخل علي الموقع بتاع ال Tor Project الصفحة بتاعة الFrequently Asked Questions
+      https://www.torproject.org/docs/faq.html.en#AmITotallyAnonymous
+    id: '1153093094730397'
+  - created_time: '2016-05-30T21:49:22+0000'
+    from:
+      name: Samer Ismail
+      id: '10215428278162727'
+    message: The real issue is that thousands of Tor nodes (including exist and entry
+      nodes) are simply honeypots, by using statistical and traffic patterns analysis
+      Tor node (i.e. anonymity) can be exposed anytime an attacker can see both ends
+      of the communications channel. there are fake websites and servers in the dark
+      web too.
+    id: '1153094374730269'
+  - created_time: '2016-05-31T11:29:07+0000'
+    from:
+      name: Adam Zahran
+      id: '2029806313704072'
+    message: طيب ما هو الفكرة إن وانت علي tor الjavascript بيبقي مقفول. لازم انت تسمحله
+      إنه يشتغل.
+    id: '1153386621367711'
+  - created_time: '2016-05-31T16:25:53+0000'
+    from:
+      name: Mohamed A. Baset
+      id: '2088941797787563'
+    message: TOR default installation comes with the option "allow scripts globally"
+      enabled BTW
+    id: '1153523971353976'
+  - created_time: '2016-05-31T16:43:13+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: 'وتظل القاعدة الذهبية: لا يوجد القفل الذي لا يمكن فتحه.'
+    id: '1153532321353141'
+  - created_time: '2016-05-31T17:15:37+0000'
+    from:
+      name: Mohamed A. Baset
+      id: '2088941797787563'
+    message: https://youtu.be/njAgz9tgy5o
+    id: '1153550511351322'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUxTXpBMk5ESXpNVE01T1RrMU1Eb3hORFkwTmpRd05qazAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUxTXpVMU1EVXhNVE0xTVRNeU1qb3hORFkwTnpFME9UTTQZD

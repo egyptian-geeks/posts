@@ -1,0 +1,17 @@
+---
+message: "To those with unit testing experience,\nI need to test a class that that
+  sends data to a repo, lets say the given class has 2 methods, one is Create, the
+  other is Exists, Create adds a new entity to that repo and Exists checks if a certain
+  entity exists on the repo, \nmy question is, if I want to test Exists and Create,
+  can I use each method to test the other, but in this case I would have used an untested
+  method to test another, If I'm to rewrite the logic used to add the entity, I would
+  have broken the DRY principle, it seems like a loop, how should this be done?\nnote:
+  mocking the repo is out of question"
+from:
+  name: Kareem Kashwaa
+  id: '10155729844185546'
+type: status
+created_time: '2014-09-04T09:24:59+0000'
+updated_time: '2014-09-04T12:39:19+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/808960295810347/
+id: '172338516139198_808960295810347'

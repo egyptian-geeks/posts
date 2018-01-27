@@ -1,0 +1,77 @@
+---
+message: SO2al 8abi ..howa leh bib3to el data  been el clients wel server in JSON
+  format leh json bel zat..leh momkn nb3t el data bformat object 3ady like php object
+  aw ai object ?
+from:
+  name: Hazem Abdelalim
+  id: '821931318008026'
+type: status
+created_time: '2017-10-13T21:06:42+0000'
+updated_time: '2017-10-14T12:37:04+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1632283940144641/
+id: '172338516139198_1632283940144641'
+reactions:
+  data:
+  - id: '530195564030411'
+    name: Mohamed Hesham
+    type: LIKE
+  - id: '10208412458988343'
+    name: Omar Beshary
+    type: LIKE
+  - id: '904541336370082'
+    name: Toka Ashraf
+    type: LIKE
+  - id: '10155068203640974'
+    name: Hany Barakat
+    type: LIKE
+  - id: '1635838433163394'
+    name: Mostafa Saber
+    type: LIKE
+  - id: '2011020232498916'
+    name: Mohammed M El-shahawy
+    type: LIKE
+  - id: '2032504700100329'
+    name: Mohammed Yassin
+    type: LIKE
+  - id: '427489667670724'
+    name: Mohamed Nagy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01ERXhNVGs1TVRZAd01EYzRPakUxTURnd05EZAzVNVFE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01ERXlNamt3T0RNME5EWXhPakUxTURjNU1qazJPVEE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-10-13T21:14:08+0000'
+    from:
+      name: Mahmoud Nawwar
+      id: '1560359927364731'
+    message: JSON is Standard, if you call java web service from php client what will
+      you expect to recieve?
+    id: '1632321550140880'
+  - created_time: '2017-10-13T21:16:50+0000'
+    from:
+      name: Bdr Mohamed
+      id: '2015246105157800'
+    message: clients can be ios apps
+    id: '1632323023474066'
+  - created_time: '2017-10-13T21:17:48+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: |-
+      An Objects is an in memory representation, and can't be transferred without being converted into a wire format and often in multiple stages, object-> (Json/XML)->binary encode, so you can't just send a php object as is, it needs to be written out as something, this operation is often referred to as serialization.
+      Json is one popular option and kinda an industry standard for HTTP based services, but it's not the most efficient because it requires a lot of string manipulation, but many clients and technologies understand it natively, so that's a big positive.
+      There are other technologies that are used typically in Communication between services which need high efficiency and they are mostly based on some binary format with some Schema definition like Protocol Buffers for example.
+      Json is good if compared to XML which is more verbose while Json is more compact and browsers understand it natively
+    id: '1632323560140679'
+  - created_time: '2017-10-14T12:37:01+0000'
+    from:
+      name: Ahmed Galal
+      id: '10160277627030455'
+    message: What do u mean object? U mean binary?
+    id: '1632869436752758'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl6TWpNeU1UVTFNREUwTURnNE1Eb3hOVEEzT1RJNU1qUTUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl6TWpnMk9UUXpOamMxTWpjMU9Eb3hOVEEzT1RnME5qSXkZD

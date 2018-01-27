@@ -1,0 +1,45 @@
+---
+message: |-
+  For Front End Developers,
+
+  What are the best practices to test your code? Is it unit testing? end-to-end test or what? Is testing only applies to JavaScript code? Can you share your experiences with us?
+from:
+  name: Hossam A. Mourad
+  id: '1935058943189364'
+type: status
+created_time: '2017-01-10T16:41:38+0000'
+updated_time: '2017-01-12T00:26:27+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1350845194955185/
+id: '172338516139198_1350845194955185'
+reactions:
+  data:
+  - id: '10214286218046010'
+    name: Islam Elsayed
+    type: LIKE
+  - id: '404790089960824'
+    name: Shady Elshrief
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRFek1qZA3pOVFU0TlRveE5EZAzBNRFkzTWpFMk9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBd01ERXlPRGsxTURrME5EWXpPakUwT0RRd05qWTJORFU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-01-10T23:08:46+0000'
+    from:
+      name: Muhammad Farid
+      id: '10211846993598426'
+    message: "I think that might be helpful Hossam \nhttps://www.youtube.com/watch?v=gYkHJuhTbEc"
+    id: '1351063411600030'
+  - created_time: '2017-01-12T00:26:25+0000'
+    from:
+      name: Mohannad Ali
+      id: '10155955385444519'
+    message: Its not this or that. You should aim for both. Unit tests to test different
+      parts of the code in isolation, and you can use any framework on top of phantomjs/selenium
+      for end to end testing.
+    id: '1351912948181743'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0xTVRBMk16UXhNVFl3TURBek1Eb3hORGcwTURnNU56STMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0xTVRreE1qazBPREU0TVRjME16b3hORGcwTVRnd056ZAzEZD

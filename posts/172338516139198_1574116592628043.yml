@@ -1,0 +1,82 @@
+---
+message: |-
+  It's my first time to use VPS
+  And before buying i want to ask, do I need cPanel in VPS, Or i don't have to get it With the package?
+from:
+  name: Peter E. Roshdy
+  id: '1416163505149761'
+type: status
+created_time: '2017-08-10T11:17:35+0000'
+updated_time: '2017-08-10T12:46:15+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1574116592628043/
+id: '172338516139198_1574116592628043'
+comments:
+  data:
+  - created_time: '2017-08-10T11:19:54+0000'
+    from:
+      name: احمد قرواش
+      id: '1561022257326859'
+    message: |-
+      حسب الي انت ناوي تعمله
+      لو vps هيبقي ويندوز مظنش هتحتاج Panel
+      لو لينكس يستحسن تنزل Panel ولو الفلوس هتكبر منك ممكن تنزل Cantos
+    id: '1574118219294547'
+  - created_time: '2017-08-10T11:26:20+0000'
+    from:
+      name: Ahmed Atalla
+      id: '574320702905312'
+    message: if your good in linux administration, you don't need a panel
+    id: '1574122882627414'
+  - created_time: '2017-08-10T11:39:49+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: You can freely install Virtualmin (best works on centos 7)
+    id: '1574130705959965'
+  - created_time: '2017-08-10T11:54:30+0000'
+    from:
+      name: Mohamed Eltantawi
+      id: '10160105091695314'
+    message: You don't need cPanel, you can use Webmin, free and super nice. Take
+      the chance to get familiar with the command line more, because if you master
+      that... no panel is needed at all really.
+    id: '1574140542625648'
+  - created_time: '2017-08-10T12:05:47+0000'
+    from:
+      name: Mina YM
+      id: '10156157323332990'
+    message: It depends on your requirements, for multi website hosting you can go
+      with WHM/CPanel (cost about $14-$15/month) or Plesk (about $6/month) or Virtualmin/Webmin
+      (Free) for easy to manage with GUI. If you want to host one website it is better
+      to not use a panels which install non required packages and services with open
+      ports and unnecessary high usage of the system resources.
+    id: '1574147305958305'
+  - created_time: '2017-08-10T12:07:08+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: |-
+      For linux use webadmin
+      http://www.webmin.com/
+    id: '1574147935958242'
+  - created_time: '2017-08-10T12:12:45+0000'
+    from:
+      name: Peter E. Roshdy
+      id: '1416163505149761'
+    message: |-
+      I'm going for the Silver package, thoughts?
+
+      https://manage.host1plus.com/cart.php?a=confproduct&i=0&cstep=vz-configuration&language=english&currency=1&PAPVisitorId=f89b34b303d615607cb76un42tmbJ001&h1p_affiliate=pap
+    id: '1574151052624597'
+  - created_time: '2017-08-10T12:46:12+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: I never used one, command line is usually enough since i usually depoly
+      1 instance for each app so usually setup vps once and u forget about it, bas
+      good info i might give it a try :), ty guys valuable info
+    id: '1574178049288564'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUzTkRFeE9ESXhPVEk1TkRVME56b3hOVEF5TXpZAek9UazAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUzTkRFM09EQTBPVEk0T0RVMk5Eb3hOVEF5TXpZANU1UY3oZD

@@ -1,0 +1,474 @@
+---
+message: "التقدير السحري\nاو \nMagic Estimation\n\nطريقة اتعلمتها في الشركة اللي انا
+  شغال فيها دلوقتي, وهي ازاى تعمل estimation بشكل كويس وسريع في نفس الوقت, وبتتم على
+  مرحلتين\nاول مرحلة:\n١. تطبع كل ال tickets بتفاصيلها على ورق وتحطها على تربيزة\n٢.
+  تطبع متسلسلة ارقام Fibonacci على ورق (مثال ١, ٣, ٥, ٨, ١٣, وعلامة استفهام) بتمثل
+  ال \n  story points in terms of complexity or time\nوعلامة الاستفهام بتقدر تحط عندها
+  الحاجات اللي محتاجة تفاصيل او مش واضحة اوي\n٣. الناس بتقف حوالين التربيزة كل واحد
+  ياخد ورقة يقرأها ويحطها عند انسب رقم\n٤. لو قريت ورقة محطوطة عند رقم معين وانت شايف
+  ان الرقم دة مظبوط بتسيبها مكانها\n٥. لو قريت ورقة محطوطة عند رقم معين وانت شايف
+  انها تستاهل اقل او اكتر, بتحطها عند الرقم اللي انت شايفه اصح, وبتكتب الرقم القديم
+  على الورقة نفسها ك reference والسبب هيبان في المرحلة التانية\n٦. الناس كلها لازم
+  تكون قرت ال tickets كلها\n\nالمرحلة التانية:\n١. كل ال tickets اللي فضلت مكانها
+  دي بتدل ان لا غبار على ال estimation بتاعها, بتتشال وتعتبر كدة estimated\n٢. ال
+  tickets اللي اتحركت حركة واحدة بس (كانت ٣ وبقت ٥) تعتبر برضة واضحة فبنشيلها وتعتبر
+  estimated\n٣. بنبدأ نشوف كل ال tickets اللي اتحركت اكتر من حركة (كانت ١ وبقت ٥ مثلا)
+  ونبدأ نشوف مين قال ١ ومين قال ٥ ونشوف رأيهم لأن وراد بشكل كبير يبقى حد شايف حاجات
+  التاني مكنش واخد باله منها, والعكس\n٤. بعد ما كل واحد بيشرح وجهة نظره والمعلومات
+  تكون وضحت بنحدد اذا كانت تستاهل ١ ولا ٥\n٥. بنكرر العملية دي مع كل ال tickets اللي
+  كان عليها غبار لحد ما كل حاجة توضح\n٦. مفيش ستة :) \n\nملحوظة: ممنوع الكلام اثناء
+  اول مرحلة علشان ما يبقاش فيه تأثير على ال estimation\n\nمن وجهة نظري الشخصية: ان
+  الطريقة دي فعالة جدا في انها بتعمل estimation لحاجات كتير في وقت قليل"
+from:
+  name: Mohamed Shaaban
+  id: '10156259295924301'
+type: status
+created_time: '2017-07-08T13:52:55+0000'
+updated_time: '2017-07-08T22:27:38+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1541156822590687/
+shares:
+  count: 12
+id: '172338516139198_1541156822590687'
+reactions:
+  data:
+  - id: '10211072612477910'
+    name: Mohamed Hafez Abdallah
+    type: LOVE
+  - id: '1874895892543707'
+    name: محمد المهدى
+    type: LIKE
+  - id: '10215741197506849'
+    name: Shehab El Deen
+    type: LIKE
+  - id: '765335353652341'
+    name: Mohamed AbdElaziz
+    type: LIKE
+  - id: '2045412419061917'
+    name: Mohamed Elwan
+    type: LIKE
+  - id: '1703579576360566'
+    name: Sameh Ibrahem
+    type: LIKE
+  - id: '10155992717403490'
+    name: Mostafa El-Kourechy
+    type: LIKE
+  - id: '10215105150532048'
+    name: David Magdy Nawar
+    type: LIKE
+  - id: '1816374988414963'
+    name: Mahmoud Mortda
+    type: LIKE
+  - id: '10159951092960711'
+    name: Mohamed M. Farag
+    type: LIKE
+  - id: '551434621878508'
+    name: Kha Dija
+    type: LIKE
+  - id: '1964328693607719'
+    name: Emad Hamdy
+    type: LIKE
+  - id: '10215057553296111'
+    name: Ahmed Atef
+    type: LIKE
+  - id: '1574777109278422'
+    name: Essra Mohiy
+    type: LIKE
+  - id: '10215834195631644'
+    name: Mahmoud M. Soliman
+    type: LIKE
+  - id: '1941442462840331'
+    name: Apd Ulrhman II
+    type: LIKE
+  - id: '1960105977337489'
+    name: Ahmed Mousa
+    type: LIKE
+  - id: '1170003613133506'
+    name: Hussam Elshehawy
+    type: LIKE
+  - id: '10156292729931495'
+    name: Mohammed Abdel Momen
+    type: LIKE
+  - id: '1421002171355928'
+    name: Habiba Hesham
+    type: LIKE
+  - id: '1750898994933043'
+    name: Tamer Said
+    type: LIKE
+  - id: '1812131428831070'
+    name: Ahmed Ateek
+    type: LIKE
+  - id: '1750532274967735'
+    name: Ahmed Moussa
+    type: LIKE
+  - id: '1317736788371656'
+    name: Robert Nabil
+    type: LIKE
+  - id: '1772542006152666'
+    name: Mohamed AbuIssa
+    type: LIKE
+  - id: '10155182529813309'
+    name: Mohamed El-Sayed
+    type: LIKE
+  - id: '10213089648810168'
+    name: Marwa Gamal
+    type: LIKE
+  - id: '10155815529215590'
+    name: Taha Amin
+    type: LIKE
+  - id: '1481122361986278'
+    name: Ahmed Hamdy
+    type: LIKE
+  - id: '10159750515025408'
+    name: Mohamed Tarek El Haddad
+    type: LIKE
+  - id: '1163064820496983'
+    name: Ahmed Ayman Aladeeb
+    type: LOVE
+  - id: '10210300649304955'
+    name: Akram Mohamed
+    type: LIKE
+  - id: '10156115350739764'
+    name: Mahmoud Tantawy
+    type: LIKE
+  - id: '895970407247426'
+    name: Ahmad Magdy
+    type: LIKE
+  - id: '1798888876802080'
+    name: Ahmed M. Nana
+    type: LIKE
+  - id: '1823693027641765'
+    name: Mostafa Saeed
+    type: LIKE
+  - id: '10214743780926256'
+    name: Mohamed Magdy
+    type: LIKE
+  - id: '10208596993002679'
+    name: Mostafa Alaa
+    type: LIKE
+  - id: '2022490591345439'
+    name: سامح دعبس
+    type: LIKE
+  - id: '10156032627411171'
+    name: Hisham Abd El-Hafez Eid
+    type: LIKE
+  - id: '1539856256110120'
+    name: Ahmed Magdy
+    type: LIKE
+  - id: '10155956914991132'
+    name: Mohamed Aakl
+    type: LIKE
+  - id: '1657509230977456'
+    name: Hosam Aly
+    type: LIKE
+  - id: '1487671784675336'
+    name: Mohamad Emad
+    type: LIKE
+  - id: '10214536022177348'
+    name: Ibrahim Sa'eed
+    type: LIKE
+  - id: '10155552324178495'
+    name: Ahmed Reda
+    type: LIKE
+  - id: '10155124612952554'
+    name: Dina Morad
+    type: LIKE
+  - id: '2121265251427161'
+    name: Mohamed Elgendy
+    type: LIKE
+  - id: '10156025239731303'
+    name: Alaa Ali
+    type: LIKE
+  - id: '1992382594366191'
+    name: Ali Hefny
+    type: LIKE
+  - id: '946434942173093'
+    name: Islam Felfela
+    type: LIKE
+  - id: '10159726802330618'
+    name: Ahmed AbouZaid
+    type: LIKE
+  - id: '1757631157622091'
+    name: Bahaa Alaa
+    type: LIKE
+  - id: '10156191099748000'
+    name: Shady Mohamed Sherif
+    type: HAHA
+  - id: '1385664498246611'
+    name: Sayed Said
+    type: LIKE
+  - id: '2032504700100329'
+    name: Mohammed Yassin
+    type: LIKE
+  - id: '1584202124950372'
+    name: Aladdin Adel
+    type: LIKE
+  - id: '1527143767392039'
+    name: Sam Nasser
+    type: LIKE
+  - id: '1981938721878297'
+    name: Eslam Nasser
+    type: LOVE
+  - id: '859308014272604'
+    name: Amr Zagloul
+    type: LIKE
+  - id: '10155299731606461'
+    name: Khaled Abdelrahman
+    type: LIKE
+  - id: '10155334178733932'
+    name: Mohammed Ammer
+    type: LIKE
+  - id: '1661430737251383'
+    name: Tamer A. El Sayed
+    type: LIKE
+  - id: '526229177756551'
+    name: Remy Ẍx
+    type: LIKE
+  - id: '10154919620001486'
+    name: Ibrahim Hammad
+    type: LIKE
+  - id: '10156548320540656'
+    name: Mohammad Zekrallah
+    type: LIKE
+  - id: '10211400895684436'
+    name: Khalid Mohamed Al Wakeel
+    type: LIKE
+  - id: '10214861141222529'
+    name: Abdelrady Fcis
+    type: LIKE
+  - id: '1582199678525921'
+    name: Ahmed Abdallah
+    type: LIKE
+  - id: '1780676198623196'
+    name: محمود كريم
+    type: LIKE
+  - id: '10214672156572932'
+    name: Yahia Allam
+    type: LIKE
+  - id: '10215070655377585'
+    name: Mahmoud Kandeel
+    type: LIKE
+  - id: '10160047384135438'
+    name: Ahmed Aboulenein
+    type: LIKE
+  - id: '1585645124854883'
+    name: Ahmed Ragab
+    type: LIKE
+  - id: '10155848201515605'
+    name: Mohammad Helmy
+    type: LIKE
+  - id: '10159837107290263'
+    name: Fady Taher
+    type: LIKE
+  - id: '1592274460855254'
+    name: Shaymaa Adel
+    type: LIKE
+  - id: '584458758558656'
+    name: شادي رضا
+    type: LIKE
+  - id: '10156301546469701'
+    name: Amr ELsaqqa
+    type: LIKE
+  - id: '548062595559343'
+    name: Ahmed EL-Metwally
+    type: LIKE
+  - id: '10160007537500512'
+    name: Abbas Adel Ibrahim
+    type: LIKE
+  - id: '1983404895252411'
+    name: Mahmoud Gamal
+    type: LIKE
+  - id: '10155870339741007'
+    name: Mona Shokrof
+    type: LIKE
+  - id: '10156129652479747'
+    name: Radwa Kamal
+    type: LIKE
+  - id: '2020727481277546'
+    name: Ramy Tamer
+    type: LIKE
+  - id: '1423970297746834'
+    name: Mahmoud Samy
+    type: LIKE
+  - id: '813329998872134'
+    name: Mahmoud Esam
+    type: LIKE
+  - id: '1572371959515590'
+    name: Mahmoud Sayed
+    type: LIKE
+  - id: '2093529544214867'
+    name: Yehia Hassan
+    type: LIKE
+  - id: '1791452377571672'
+    name: Mohammed Alaa El Komy
+    type: LIKE
+  - id: '10155965038378745'
+    name: Said Bakr
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRRek16YzNNRE00TkRveE5URXdNakV5TVRBM09qYzRPRFkwT0RBek56a3hNek14TWc9PQZDZD
+      after: TnpnNU1ESXpOelEwT2pFME9UazFNakkwTWpVNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-07-08T14:09:42+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "لا ده انا اجي اشتغل معاكوا بقى \U0001F603"
+    id: '1541171242589245'
+  - created_time: '2017-07-08T14:12:08+0000'
+    from:
+      name: Ahmed Abdo
+      id: '10155432639833282'
+    message: "المفروض انكم كده شغالين اجايل \nاحنا بنشتغل كده والاجايل فعلا من انجح
+      طرق اداره فرق البرمجه\nMona Shokrof"
+    id: '1541173285922374'
+  - created_time: '2017-07-08T14:12:42+0000'
+    from:
+      name: Abbas Adel Ibrahim
+      id: '10160007537500512'
+    message: الناس مش عاجبها عندنا الشغل ده عشان مش بتعرف تحدد امتي هتخلص حاجه عشان
+      لو عايز تنسق مع حد تالت
+    id: '1541173665922336'
+  - created_time: '2017-07-08T14:13:04+0000'
+    from:
+      name: Abbas Adel Ibrahim
+      id: '10160007537500512'
+    message: And post it on Medium plz
+    id: '1541173909255645'
+  - created_time: '2017-07-08T14:17:00+0000'
+    from:
+      name: Mona Shokrof
+      id: '10155870339741007'
+    message: الtechnique اسمه affinity estimation ميزته انه بيسمح للفريق انه يعمل
+      sizing لحاجات كتير في وقت قليل و هو في نفس الوقت relative يعني بيقارن الstories
+      ببعض و ده يسمحلك تعمل sizing للحاجات الكبيرة و اللي مش عارفها بانك تقارنا بحاجات
+      انت عارفها او عملتها قبل كده .. و كمان بيحط في اعتباره راي كل الفريق و بالذات
+      الناس اللي هتشتغل بنفسها لان هم بيبقوا احسن حد يحدد ده
+    id: '1541176732588696'
+  - created_time: '2017-07-08T14:17:02+0000'
+    from:
+      name: Abdelrady Fcis
+      id: '10214861141222529'
+    message: |-
+      There was a way called index cards (not sure if it's this way or not)
+      Scrum has multiple ways I think
+    id: '1541176769255359'
+  - created_time: '2017-07-08T14:24:54+0000'
+    from:
+      name: Abdelrady Fcis
+      id: '10214861141222529'
+    message: "Here is an excellent resource for agile estimation \nhttps://app.pluralsight.com/library/courses/agile-estimation/table-of-contents"
+    id: '1541183339254702'
+  - created_time: '2017-07-08T14:46:33+0000'
+    from:
+      name: Karim Tawfik
+      id: '10159730660210062'
+    message: Yes, it is very effective, but regarding the name it is called poker
+      estimation in agile
+    id: '1541199079253128'
+  - created_time: '2017-07-08T14:49:02+0000'
+    from:
+      name: Bavly Morcos
+      id: '1576001382455519'
+    message: Bola Shokry check this you might be interested
+    id: '1541201709252865'
+  - created_time: '2017-07-08T14:54:01+0000'
+    from:
+      name: Mohamed Tawfik
+      id: '10204074940031522'
+    message: Nada Magdy konna 3amleen sho3'l gamed bas ma7adesh 7ases beena
+    id: '1541210109252025'
+  - created_time: '2017-07-08T15:00:41+0000'
+    from:
+      name: Mahmoud Bakrey
+      id: '2100352656854754'
+    message: Amr Salama ahla estimation
+    id: '1541215759251460'
+  - created_time: '2017-07-08T15:11:43+0000'
+    from:
+      name: Shady Mohamed Sherif
+      id: '10156191099748000'
+    message: |-
+      ما تضغط علي نفسك يا شعبان وتخلص في يومين بدل 3
+      :D
+    id: '1541226692583700'
+  - created_time: '2017-07-08T15:46:39+0000'
+    from:
+      name: Ahmed Reda
+      id: '10155552324178495'
+    message: انا الصراحه معرفش الاسماء بس احنا بنعمل حاجه شبه كده فى اثناء ال grooming
+      بيبقى معانا cards بال story points وبنعمل  sizing ونشوف الاغلابيه ولو فى فروق
+      يعنى لو واحد قال 5 والتانى قايل 1 يتناقشو مع بعض والتيم كله يعمل sizing round
+      تانيه
+    id: '1541252795914423'
+  - created_time: '2017-07-08T16:23:41+0000'
+    from:
+      name: Mona Shokrof
+      id: '10155870339741007'
+    message: احنا Agile Arena بندي كورسات agile  و عندنا واحد في أغسطس
+    id: '1541280569244979'
+  - created_time: '2017-07-08T16:24:00+0000'
+    from:
+      name: Khaled Ramadan
+      id: '10157199016384478'
+    message: بوكر استيماشن وده خاص ب Agile
+    id: '1541280745911628'
+  - created_time: '2017-07-08T16:26:57+0000'
+    from:
+      name: Mona Shokrof
+      id: '10155870339741007'
+    message: و لو حابب تعرف Agile اكتر ممكن تشترك معانا في Agile بالعربي
+    id: '1541282942578075'
+  - created_time: '2017-07-08T17:38:36+0000'
+    from:
+      name: Ahmed Ghoniem
+      id: '10212376427419048'
+    message: Muhammad Nagy orybh min try2tkoum
+    id: '1541345032571866'
+  - created_time: '2017-07-08T18:03:41+0000'
+    from:
+      name: Mahmoud Lotfy Elshazly
+      id: '10211181007697988'
+    message: Mohamed Lotfi
+    id: '1541363539236682'
+  - created_time: '2017-07-08T18:10:09+0000'
+    from:
+      name: Akram Mohamed
+      id: '10210300649304955'
+    message: Mohamed Emad
+    id: '1541368182569551'
+  - created_time: '2017-07-08T18:16:21+0000'
+    from:
+      name: Mohamed Emad
+      id: '1634488316607986'
+    message: This is called "sizing" not "estimation"
+    id: '1541375402568829'
+  - created_time: '2017-07-08T20:06:23+0000'
+    from:
+      name: Mariam Maarouf
+      id: '10155779091916638'
+    message: Why Fibonacci though? Why not a regularly incremented sequence?
+    id: '1541458289227207'
+  - created_time: '2017-07-08T20:41:42+0000'
+    from:
+      name: Ahmed Ateek
+      id: '1812131428831070'
+    message: we have the same methodology but we call it poker estimation
+    id: '1541483795891323'
+  - created_time: '2017-07-08T21:14:26+0000'
+    from:
+      name: Ahmed Kamal
+      id: '10208727810672580'
+    message: https://en.wikipedia.org/wiki/Planning_poker
+    id: '1541509269222109'
+  - created_time: '2017-07-08T22:04:39+0000'
+    from:
+      name: Mohammed Abdel Momen
+      id: '10156292729931495'
+    message: Bassem Samir nice idea
+    id: '1541542439218792'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUwTVRFM01USTBNalU0T1RJME5Ub3hORGs1TlRJeU9UZA3kZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUwTVRVME1qUXpPVEl4T0RjNU1qb3hORGs1TlRVeE5EYzUZD

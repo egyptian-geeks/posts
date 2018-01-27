@@ -1,0 +1,56 @@
+---
+message: "Geeks, \nI am having trouble running ASP.NET MVC on Linux, anyone who is
+  developing ASP.NET MVC on Linux please ping me here. \n\nFor some reason, Kestrel
+  hangs when activating MVC middleware. I would appreciate it if you have tried this
+  hands on.\n\nP.S. \n\nI have started a group for those interested in the gory details
+  here:\nhttps://www.facebook.com/groups/ASPNETLINUX/"
+from:
+  name: Muhammad Al Rabbani
+  id: '586778644986720'
+type: status
+created_time: '2016-01-12T03:33:12+0000'
+updated_time: '2016-01-14T08:13:15+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1061014997271541/
+id: '172338516139198_1061014997271541'
+reactions:
+  data:
+  - id: '1487671784675336'
+    name: Mohamad Emad
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlPVGMxT0RjM05qZAzFPakUwTlRJM056TXpPVGc2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlPVGMxT0RjM05qZAzFPakUwTlRJM056TXpPVGc2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-01-12T09:54:28+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      Why not make an issue on the ASP.NET 5 repo on github?
+      Or maybe ask on their jabbr channel :)
+    id: '1061116647261376'
+  - created_time: '2016-01-14T08:12:18+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: |-
+      Ok so this was the issue
+
+      "EntityFramework.SQLite": "7.0.0-rc1-final", "EntityFramework.SQLite.Design": "7.0.0-rc1-final",
+      Instead of
+      "EntityFramework.Sqlite": "7.0.0-rc1-final",
+      "EntityFramework.Sqlite.Design": "7.0.0-rc1-final",
+      Notice that first 2 lines were what the intellisense completed ...
+    id: '1062237353815972'
+  - created_time: '2016-01-14T08:13:15+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: AND I had to update the MVC reference version also in Project.Json
+    id: '1062237577149283'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEEyTVRFeE5qWTBOekkyTVRNM05qb3hORFV5TlRreU5EWTUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEEyTWpJek56VTNOekUwT1RJNE16b3hORFV5TnpVNU1UazEZD

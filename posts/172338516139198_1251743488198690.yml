@@ -1,0 +1,31 @@
+---
+message: |-
+  anyone know the reason for this warning:
+  "java.util.prefs.WindowsPreferences <init>
+  WARNING: Could not open/create prefs root node Software\JavaSoft\Prefs at root 0x80000002. Windows RegCreateKeyEx(...) returned error code 5 "
+from:
+  name: Osama Mattar
+  id: '1727796783939160'
+type: status
+created_time: '2016-10-07T17:58:12+0000'
+updated_time: '2016-10-07T18:12:18+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1251743488198690/
+id: '172338516139198_1251743488198690'
+comments:
+  data:
+  - created_time: '2016-10-07T17:59:11+0000'
+    from:
+      name: Osama Mattar
+      id: '1727796783939160'
+    message: ''
+    id: '1251743911531981'
+  - created_time: '2016-10-07T18:00:21+0000'
+    from:
+      name: Mohamed Ahmed
+      id: '385696705226073'
+    message: did you try this http://stackoverflow.com/questions/16428098/groovy-shell-warning-could-not-open-create-prefs-root-node
+    id: '1251744514865254'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkxTVRjME16a3hNVFV6TVRrNE1Ub3hORGMxT0RZAek1UVXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkxTVRjME5EVXhORGcyTlRJMU5Eb3hORGMxT0RZAek1qSXkZD

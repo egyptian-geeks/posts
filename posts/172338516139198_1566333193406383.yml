@@ -1,0 +1,38 @@
+---
+message: |-
+  شباب،
+  دلوقتي انا عندي mysql database على ال staging server ، و نفس ال mysql database على ال production server ،
+  وشغال ب phpMyAdmin ،
+  هل فيه طريقة اقدر اعمل بيها ابديت لل production db structure only لما نعمل اي updates في ال staging db ؟
+  ولا لازم اعمل الابديت بايدي بعد ما اعمله في ال staging db ؟
+from:
+  name: Mahmoud Elshamy
+  id: '1737918219562675'
+type: status
+created_time: '2017-08-02T22:04:52+0000'
+updated_time: '2017-08-03T10:12:36+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1566333193406383/
+id: '172338516139198_1566333193406383'
+reactions:
+  data:
+  - id: '1385664498246611'
+    name: Sayed Said
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTBNRGt5TWpFeE5ESXhPakUxTURFM05EazFPRE02TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTBNRGt5TWpFeE5ESXhPakUxTURFM05EazFPRE02TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-08-02T22:13:14+0000'
+    from:
+      name: Hossam Saraya
+      id: '10160260136260389'
+    message: You should look up "database migrations". In the simplest words, your
+      changes to the database schema must be written in some form that enables applying
+      the database changes across environments.
+    id: '1566339726739063'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUyTmpNek9UY3lOamN6T1RBMk16b3hOVEF4TnpFeE9UazEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUyTmpNek9UY3lOamN6T1RBMk16b3hOVEF4TnpFeE9UazEZD

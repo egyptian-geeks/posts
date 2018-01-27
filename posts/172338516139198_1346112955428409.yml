@@ -1,0 +1,100 @@
+---
+message: |-
+  فقرة Today I Learned
+
+  مؤخرا كنت بخبط كتير في commands بتاخد في الarguments بتاعتها "--" كدة من غير أي إسم أو حاجة. قعدت فترة بشوفها و بحس إن ملهاش لازمة و مش عارف حتى إسمها علشان أعرف أ Google it. لحد ما خبط في كذا حاجة كانت هي حلهم.
+
+  ١- كنت بجرب framework فا بكتب "revel new --help" فا بكل غباء قامت عاملالي directory إسمها "--help". بديهيا بمسحها فا بكتب "rm -r --help" و بعد ما كتبتها حسيت إن بديهيا ده مش هيشتغل. فا ببص على الman بتاع rm لقيت :
+  "The rm command uses getopt(3) to parse its arguments, which allows it to accept the `--' option which will cause it to stop processing flag options at that point.  This will allow the removal of file names that begin with a dash (`-').  For example: rm -- -filename"
+
+  ٢- كنت بستخدم build tool إسمها bazel فا من ضمن الcommands فيه اللي بيrun الproject بتاعك "bazel run <project> <args>" و المفروض الargs ديه تروح للproject مش لbazel لكن العكس هو اللي كان بيحصل لحد ما "--" كانت الحل برضة.
+
+  TL;DR : http://unix.stackexchange.com/questions/11376/what-does-double-dash-mean-also-known-as-bare-double-dash
+from:
+  name: Mohamed Bassem
+  id: '10212826240185281'
+type: status
+created_time: '2017-01-05T09:06:40+0000'
+updated_time: '2017-01-05T19:15:58+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1346112955428409/
+id: '172338516139198_1346112955428409'
+reactions:
+  data:
+  - id: '1876092405757348'
+    name: Ibrahem Mahmmoud
+    type: LIKE
+  - id: '10155547863649263'
+    name: Ahmed M. Araby
+    type: LIKE
+  - id: '1679860805369262'
+    name: Abdelrahman Ghanem
+    type: LIKE
+  - id: '10214384757360026'
+    name: Saif Youssef
+    type: LIKE
+  - id: '10156129652479747'
+    name: Radwa Kamal
+    type: LIKE
+  - id: '10214796374519514'
+    name: Islam AbdelMohaimen Hassan
+    type: LIKE
+  - id: '1153620581408147'
+    name: Mohamed Mostafa
+    type: LIKE
+  - id: '1843891078979183'
+    name: Ali Hassan
+    type: LIKE
+  - id: '10156089336182292'
+    name: Hassan Aly Selim
+    type: LIKE
+  - id: '895970407247426'
+    name: Ahmad Magdy
+    type: LIKE
+  - id: '1461293227327009'
+    name: Ramy Wafa
+    type: LIKE
+  - id: '10156301546469701'
+    name: Amr ELsaqqa
+    type: LIKE
+  - id: '10156207737619180'
+    name: Ahmed Al-Amir
+    type: LIKE
+  - id: '10216103154397825'
+    name: Mostafa Abdullah
+    type: LIKE
+  - id: '10155396126947689'
+    name: Mohammed Farghal
+    type: LIKE
+  - id: '10156466581921416'
+    name: Salma Amr
+    type: LIKE
+  - id: '10155150405410849'
+    name: Muhammad Atef
+    type: LIKE
+  - id: '10156274593643013'
+    name: Amany Elguindy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdOams0TWpFME1qQXhPakUwT0RNM01EWTVORGc2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TlRVeE1ESXpNREV5T2pFME9ETTJNRGMwTkRJNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-01-05T11:25:37+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: معلومة حلوة جدا، تسلم
+    id: '1346208642085507'
+  - created_time: '2017-01-05T14:55:42+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: I've only seen this with scriptcs, you do this so you can pass arguments
+      to your C# Script instead of scriptcs itself. I found this weird and didn't
+      know of any other tool that did this. But now it makes sense :)
+    id: '1346388965400808'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0wTmpJd09EWTBNakE0TlRVd056b3hORGd6TmpFMU5UTTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0wTmpNNE9EazJOVFF3TURnd09Eb3hORGd6TmpJNE1UUXkZD

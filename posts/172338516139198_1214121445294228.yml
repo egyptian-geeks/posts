@@ -1,0 +1,75 @@
+---
+message: '"MVC itself isn’t middleware, but it configures itself to be the default
+  destination for the routing middleware"'
+link: https://msdn.microsoft.com/magazine/mt767699
+from:
+  name: Ahmed Mozaly
+  id: '10155321930231313'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQAdwcdOWAaR6MXZ&w=130&h=130&url=https%3A%2F%2Feleven05media-d.openx.net%2Fw%2F1.0%2Fai%3Fauid%3D139281%26cs%3D4f2320cbb2378%26cb%3DINSERT_RANDOM_NUMBER_HERE&cfs=1&sx=50&sy=0&sw=250&sh=250&_nc_hash=AQDe69EW3-e_4k2h
+created_time: '2016-08-25T15:09:24+0000'
+updated_time: '2016-08-26T11:11:25+0000'
+name: ASP.NET Core - Real-World ASP.NET Core MVC Filters
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1214121445294228/
+id: '172338516139198_1214121445294228'
+reactions:
+  data:
+  - id: '10159985912160444'
+    name: Anwer Matter
+    type: LIKE
+  - id: '1785295468160956'
+    name: Mohamed Abdelrahman
+    type: LIKE
+  - id: '10155880569740170'
+    name: Meligy
+    type: LIKE
+  - id: '10156077256184116'
+    name: Mustafa Gamal
+    type: LIKE
+  paging:
+    cursors:
+      before: T1RBME1UZA3dORFF6T2pFME56SXlNalE1T0RrNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRRNU9UazBNVEUxT2pFME56SXhPVGMwTmpnNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-08-25T15:17:09+0000'
+    from:
+      name: Ahmed Mozaly
+      id: '10155321930231313'
+    message: |-
+      وده بيكمل الصورة
+      http://stackoverflow.com/questions/19249511/difference-between-iactionfilter-and-iauthorizationfilter
+    id: '1214125558627150'
+  - created_time: '2016-08-25T19:42:57+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: reminds me of Spring MVC :)
+    id: '1214320365274336'
+  - created_time: '2016-08-26T11:11:20+0000'
+    from:
+      name: Walid Ashraf
+      id: '10159896809840176'
+    message: و علي فكرة نفس الكلام ينطبق علي WCF
+    id: '1214916618548044'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl4TkRFeU5UVTFPRFl5TnpFMU1Eb3hORGN5TVRNNE1qTXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl4TkRreE5qWXhPRFUwT0RBME5Eb3hORGN5TWpBNU9EZA3gZD
+attachments:
+  data:
+  - description: Filters are a great, often underutilized feature of ASP.NET MVC and
+      ASP.NET Core MVC. They provide a way to hook into the MVC action invocation
+      pipeline, which makes them great for pulling common repetitive tasks out of
+      your actions. Often, an app will have a standard policy that it applies to how
+      i...
+    media:
+      image:
+        height: 250
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAwPo6CiqZTqe4u&w=250&h=250&url=https%3A%2F%2Feleven05media-d.openx.net%2Fw%2F1.0%2Fai%3Fauid%3D139281%26cs%3D4f2320cbb2378%26cb%3DINSERT_RANDOM_NUMBER_HERE&cfs=1&sx=50&sy=0&sw=250&sh=250&_nc_hash=AQACFKXyfR0tFdf1
+        width: 250
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fmsdn.microsoft.com%2Fmagazine%2Fmt767699&h=ATNDz-Qr2FZJHoKE_-bUXzAty2POBeS7oEcLBa17kUbX1IEAs5H5VahOgmDP4CifYLIM5HQlnsboCnAGY4XAtBMhgwNuFYmIFIm5&s=1&enc=AZP7mzE7vaGKBigKxT0xvfYkUq8g0oOUqnbwT4c4hQ5fb8XrXM2cZ5W_pXZszWdSVb--yRndeenS65HxnDODWvhl
+    title: ASP.NET Core - Real-World ASP.NET Core MVC Filters
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fmsdn.microsoft.com%2Fmagazine%2Fmt767699&h=ATNDz-Qr2FZJHoKE_-bUXzAty2POBeS7oEcLBa17kUbX1IEAs5H5VahOgmDP4CifYLIM5HQlnsboCnAGY4XAtBMhgwNuFYmIFIm5&s=1&enc=AZP7mzE7vaGKBigKxT0xvfYkUq8g0oOUqnbwT4c4hQ5fb8XrXM2cZ5W_pXZszWdSVb--yRndeenS65HxnDODWvhl

@@ -1,0 +1,53 @@
+---
+message: Hi guys, I have a problem in setting up my ubuntu laptop with an external
+  LG monitor using an HDMI cable. The audio playing through the monitor is high pitched
+  and faster than usual. I know it is a software problem because i have dual boot
+  on my laptop and on Windows the same cable/same monitor works just fine. I read
+  that it is a problem in Ubuntu (I am on 14.04) because of difference in sampling
+  rates, I tried some stuff but didn't work out. Anyone had this problem before?
+from:
+  name: Mohamed Osman
+  id: '10156415267997448'
+type: status
+created_time: '2016-04-17T17:54:19+0000'
+updated_time: '2016-04-17T18:51:01+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1126187300754310/
+id: '172338516139198_1126187300754310'
+reactions:
+  data:
+  - id: '1487671784675336'
+    name: Mohamad Emad
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlPVGMxT0RjM05qZAzFPakUwTmpBNU1UWTJPREU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlPVGMxT0RjM05qZAzFPakUwTmpBNU1UWTJPREU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-04-17T18:31:55+0000'
+    from:
+      name: Mohammed Hussien
+      id: '10154922289347024'
+    message: No im using Ubuntu 14.04 and i have windows alongside and i do the same
+      as u connecting my laptop with external screen throw HDMI cable with no problems
+      ! that's weired.
+    id: '1126204387419268'
+  - created_time: '2016-04-17T18:43:38+0000'
+    from:
+      name: Amr Yousef
+      id: '10216129314284453'
+    message: Make sure to use the proprietary drivers as it gives better experience  especially
+      wih Nvidia. Speaking according to my experience using it :D
+    id: '1126208794085494'
+  - created_time: '2016-04-17T18:51:01+0000'
+    from:
+      name: Omar Mahmoud
+      id: '10156171263131869'
+    message: Try clicking on the sound icon in the menu bar above, You'll find a 'sound
+      settings' button. click it and try and check if your settings are correct. sometimes
+      you have to select another output mode from the list
+    id: '1126211617418545'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV5TmpJd05ETTROelF4T1RJMk9Eb3hORFl3T1RFM09URTEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV5TmpJeE1UWXhOelF4T0RVME5Ub3hORFl3T1RFNU1EWXgZD

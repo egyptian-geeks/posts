@@ -1,0 +1,72 @@
+---
+message: "سلام عليكم.. \nعندي هارد اكسترنال واحد تيرا..  مكنش بيفتح غيرتله head  ف
+  البستان وعليه badsectors كتيرة و delay غبي. .  دلوق هو بيفتح بس بعد وقت محترم حوالي
+  خمس دقائق..  بطئ ف نقل الدلتا من عليه..  يريت عن تجربة احسن طريقة لتظبيطه واخد الداتا
+  أو الحل حتى لو التضحية بيها ودي آخر الحلول بس هل ينفع يرجع سريع متظبط؟"
+from:
+  name: Ahmed Eid
+  id: '1149811625153048'
+type: status
+created_time: '2017-09-18T22:56:41+0000'
+updated_time: '2017-09-20T10:47:36+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1610825708957131/
+id: '172338516139198_1610825708957131'
+comments:
+  data:
+  - created_time: '2017-09-18T23:02:13+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: خذ البيانات اللي عليه باي طريقة و انسى الهارد ده، ما تعتمدش عليه في اي
+      شئ ذو قيمة.
+    id: '1610828065623562'
+  - created_time: '2017-09-18T23:05:09+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: اعمل dump لل sectors ل image برة وبعد كدة اعمللها ماونت وريكفر الداتا
+      براحتك.. ال sequential read لل blocks هيكون أسرع حاجة قدر الإمكان.. وفعلا انساه
+      خالص بعدها بعد ما تنفد بالداتا
+    id: '1610829605623408'
+  - created_time: '2017-09-19T00:39:51+0000'
+    from:
+      name: Mahmoud Ow
+      id: '561900310821366'
+    message: الهارد كدا مات كويس انه إشتغل أساسا خد حاجتك من عليه و ارميه
+    id: '1610881452284890'
+  - created_time: '2017-09-19T00:59:00+0000'
+    from:
+      name: محمد
+      id: '10211594485559338'
+    message: "كان فيه طريقه باستخدام Hiren's Boot CD ممكن تعمل repair او تجمع ال bad
+      sectors في مكان معين والهارد بيشتغل بعدها طبيعي \nhttp://jai-fixyourpc.blogspot.com.eg/2011/09/how-to-fix-bad-sectors-in-your-hard.html\nممكن
+      يساعدك"
+    id: '1610892462283789'
+  - created_time: '2017-09-19T09:57:58+0000'
+    from:
+      name: Zyad Madkour
+      id: '1966904200229324'
+    message: y3ni eh "ygm3 el bad sectors f makan"??
+    id: '1611136232259412'
+  - created_time: '2017-09-19T11:05:08+0000'
+    from:
+      name: محمد
+      id: '10211594485559338'
+    message: |-
+      Look online for "force  remapping bad sector & steps to isolate bad sectors " as this link describes http://macrorit.com/disk-surface-test/how-to-isolate-bad-sectors-on-hard-drive.html
+
+      I had an hdd with bad sectors many years ago and done that before btw its still working fine tell now
+    id: '1611176272255408'
+  - created_time: '2017-09-20T10:47:33+0000'
+    from:
+      name: Ahmed Zaki
+      id: '1797366886980472'
+    message: |-
+      كنت بدور دايمًا على  utility بتعمل Shallow test للهارد ديسك، بحيث ان مجرد الصعوبة في قراءة أي block of sectors .. يعلم البلوك كله على أنه "bad".. سيرفس سكان سريع جدًا، وبعد كدة أعمل أنا Isolate باستخدام أي أداة تقسيم للهارد.
+
+      بس ملقيتش ..
+    id: '1612056728834029'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl4TURneU9EQTJOVFl5TXpVMk1qb3hOVEExTnpjMU56TTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl4TWpBMU5qY3lPRGd6TkRBeU9Ub3hOVEExT1RBME5EVXoZD

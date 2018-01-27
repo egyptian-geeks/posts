@@ -1,0 +1,73 @@
+---
+message: "Hello Geeks, \nMy Macbook unable to open certain websites (actually all
+  domains  in my shared hosting). \nI cannot find a solution on any forums yet that
+  work for me. \nThe issue has nothing to do with my Internet line, I can access those
+  sites with no problems using my mobile device.\nNot sure what else I can try. Does
+  anyone have any suggestions?"
+from:
+  name: Zeyad Kenawi
+  id: '2033508986929157'
+type: status
+created_time: '2016-11-28T14:56:14+0000'
+updated_time: '2016-11-28T21:12:47+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1306762229363482/
+id: '172338516139198_1306762229363482'
+comments:
+  data:
+  - created_time: '2016-11-28T14:57:52+0000'
+    from:
+      name: Zeyad Kenawi
+      id: '2033508986929157'
+    message: |-
+      Note:
+      When i connect my Macbook to a 3G Wifi device, websites are working just fine.
+    id: '1306763089363396'
+  - created_time: '2016-11-28T15:09:20+0000'
+    from:
+      name: Amany Elguindy
+      id: '10156274593643013'
+    message: |-
+      So using ADSL, it works from mobile but not the pc
+      While 3G is ok on both, right?
+    id: '1306768969362808'
+  - created_time: '2016-11-28T15:10:22+0000'
+    from:
+      name: Mohamed Hisham
+      id: '10155927653208847'
+    message: maybe it's DNS caching try to flush your DNS
+    id: '1306769399362765'
+  - created_time: '2016-11-28T15:10:27+0000'
+    from:
+      name: Hussein Khalifa
+      id: '10100126826681456'
+    message: Check the DNS. Set it manually to 8.8.8.8 also check the hosts file if
+      there is any old entries there
+    id: '1306769429362762'
+  - created_time: '2016-11-28T15:11:04+0000'
+    from:
+      name: Zeyad Kenawi
+      id: '2033508986929157'
+    message: im using openDNS right now, i've tried Google DNS but no luck
+    id: '1306769729362732'
+  - created_time: '2016-11-28T15:12:03+0000'
+    from:
+      name: Amany Elguindy
+      id: '10156274593643013'
+    message: What kind of response do you get?
+    id: '1306770139362691'
+  - created_time: '2016-11-28T15:12:56+0000'
+    from:
+      name: Amany Elguindy
+      id: '10156274593643013'
+    message: And are these websites http or https?
+    id: '1306770482695990'
+  - created_time: '2016-11-28T21:12:45+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: ما اريد معرفته، على نفس مزود الخدمة ISP الماك ما بيفتحش والموبايل بيفتح؟
+    id: '1306999919339713'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE13TmpjMk16QTRPVE0yTXpNNU5qb3hORGd3TXpRMU1EY3kZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE13TmprNU9Ua3hPVE16T1RjeE16b3hORGd3TXpZAM05UWTEZD

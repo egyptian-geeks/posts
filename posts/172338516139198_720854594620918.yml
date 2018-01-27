@@ -1,0 +1,28 @@
+---
+message: |-
+  I created an open-source app called "Cairo: Streets & Stories"[1], shared by Khaled M. Diab & originally suggested by the journalist Ismail Al Eskandarani. The idea is to convert the book of the same name[2] to an interactive map with rich info & images. It allows end-users to enter the data.
+
+  Because of the nature of the app & that Egyptians rarely do crowd-sourcing, my budget for hosting the initial version is zero. Also I will put ads in there, so if the site gets a lot of traffic, it can cover its own hosting  money.
+
+  Let's dive in technicality: In the beginning I thought that I would make it a static website hosted on gh-pages & use GitHub for editing geojson, but GitHub uses maps for viewing only, not editing. Also, GitHub is not Egyptian-end-users-friendly.
+
+  Now I have to make a dynamic part, so there are the options in my head now
+
+  1. Use gh-pages for the front-end & a small back-end to edit geojson & upload images to github. I'm still thinking of the best way to do authentication.
+
+  2. Make a dynamic app on AppEngine. I get a free instance, but I will be locked.
+
+  3. Make a dynamic app on Heroku (or a similar thing?). I want a free instance with DB storage.
+
+  4. What is the best option to store images? Flickr gives 1TB free, but I'm open to suggestions
+
+  [1]: https://github.com/mtayseer/cairo_streets_stories
+  [2]: http://www.goodreads.com/book/show/6289626
+from:
+  name: Mohammad Tayseer
+  id: '10155970088481341'
+type: status
+created_time: '2014-03-27T11:44:19+0000'
+updated_time: '2014-03-27T18:14:12+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/720854594620918/
+id: '172338516139198_720854594620918'

@@ -1,0 +1,100 @@
+---
+message: "السلام عليكم\n\nمن فضلكم يا شباب انا عاوز حد يعرفنى ويفهمنى الموضوع ده يتحل
+  ازاى لأنى حاولت وبحثت على جوجل بس للأسف مفهمتش حاجة وجربت بعض الحلول وبرده مش شايف
+  نتيجة مرضية\n\n** قاعدة البيانات MS SQL - حجمها حاليا 8 MB - الجهاز Core i7 - 8
+  GB DDR3 - VGA 2 GB\n\nمشكلتى مع Entity Framework - انا شغال بطريقة Code First From
+  Database - الدنيا شغالة معايا كويس بس عندى مشكلتين:\n\n1. ان اى يوزر لما بيجى يعمل
+  Login بياخد حوالى 30 ثانية عشان اللوجن يحصل ؟\n2. اول كويرى بيتم تنفيذه بياخد من
+  10 الى 20 ثانية - مثلا بعرض العملاء اللى عندى ؟ \n\nحاولت ودورت على جوجل كتير ولقيت
+  ان ممكن تكون المشكلة عشان هو تقريبا بيتاكد ان الداتا موجودة والا لا والحل ان اضيف
+  الجزء ده داخل Context بتاعتى\n\nDatabase.SetInitializer<MashobatDbContext>(null);\n\nضفتها
+  وبرده ما زالت نفس القصة يمكن قلت حوالى 5 ثوانى تقريبا - ولما بحثت تانى لقيت ان المشكلة
+  تقريبا بتكون فى وقت تنفيذ اول Query بيتم طلبه من Entity - وليها حل عن طريق Generate
+  Views  بس مفهمتش حاجة :(\n\nقولت اسئلكم لأن اكيد فى حد واجهته نفس مشكلتى وممكن يكون
+  وصل لحل ؟"
+from:
+  name: Ahmed Amin
+  id: '1962172197389574'
+type: status
+created_time: '2016-02-03T09:45:54+0000'
+updated_time: '2016-02-04T12:46:04+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1073271849379189/
+id: '172338516139198_1073271849379189'
+comments:
+  data:
+  - created_time: '2016-02-03T11:20:57+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: شوف الطريقة اللي بيتعمل بيها Hash للباسورد.
+    id: '1073303732709334'
+  - created_time: '2016-02-03T11:23:52+0000'
+    from:
+      name: Ahmed Amin
+      id: '1962172197389574'
+    message: طيب ما هو نفس القصة لما بيعل او كويرى خاص بعرض العملاء مثلا
+    id: '1073304769375897'
+  - created_time: '2016-02-03T15:53:11+0000'
+    from:
+      name: Ibrahim Zaki
+      id: '10157017423792738'
+    message: |-
+      بخصوص login علشان تبقى اسرع اعمل index لل لوحن فيلدز
+      و علشان الكويرز التانية تبقى اسرع و اخف اعملها paging
+    id: '1073427456030295'
+  - created_time: '2016-02-03T21:31:11+0000'
+    from:
+      name: Mahmoud Abd El-Fattah
+      id: '10156358805885288'
+    message: Add a break point and get the query that Entity framework creates. Then
+      execute the query on the database server to see if the query is the reason or
+      not.
+    id: '1073551942684513'
+  - created_time: '2016-02-03T21:48:39+0000'
+    from:
+      name: AbdulRahim Sayed Al-Refaey
+      id: '10208871690868270'
+    message: بلاش تستخدم ال Entity framework فى ال login .. لأن اول query فى الانتيتي
+      فريم ورك بياخد وقت كبير .. استخدم بدلا منها ADO.NET او ممكن تسخدم extension
+      زي ال dapper وهي اسرع من ال EF بمراحل
+    id: '1073556439350730'
+  - created_time: '2016-02-04T09:15:04+0000'
+    from:
+      name: Mahmoud Elsayed Abd Elaty
+      id: '10155358631132406'
+    message: |-
+      يفضل تستخدم Dapper وزي ما قال عبد الرحيم أسرع بكتير وبتنزله من nuget وعندك برضه Lu.AspnetIdentity.Dapper  ده بيربط dapper ب AspIdentity .
+
+      واتاكد ان الكويري اللي بتكتبها تعملها في stored procedure أحسن وكمان  وقف lazyload في context
+    id: '1073773209329053'
+  - created_time: '2016-02-04T09:23:37+0000'
+    from:
+      name: Ahmed Amin
+      id: '1962172197389574'
+    message: |-
+      انا مش موقف lazyload  هل ده ممكن يكون سبب ؟
+
+      ومجربتش اشتغل ب stored procedure - هل هو افضل معEntity
+    id: '1073776945995346'
+  - created_time: '2016-02-04T09:25:01+0000'
+    from:
+      name: Mahmoud Elsayed Abd Elaty
+      id: '10155358631132406'
+    message: الكويري اللي بتكتبها بتكون stored procedure ولا عن طريق lambda expression
+    id: '1073777225995318'
+  - created_time: '2016-02-04T09:25:31+0000'
+    from:
+      name: Ahmed Amin
+      id: '1962172197389574'
+    message: lambda expression
+    id: '1073777412661966'
+  - created_time: '2016-02-04T09:26:31+0000'
+    from:
+      name: Mahmoud Elsayed Abd Elaty
+      id: '10155358631132406'
+    message: هوه طبعا يفضل stored procedure  بس جرب الاول توقف طبعا lazyload
+    id: '1073777659328608'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEEzTXpNd016Y3pNamN3T1RNek5Eb3hORFUwTkRrNE5EVTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEEzTXpjM056WTFPVE15T0RZAd09Eb3hORFUwTlRjM09Ua3gZD

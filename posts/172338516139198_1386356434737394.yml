@@ -1,0 +1,114 @@
+---
+message: انا عايزة اعمل android app يكون زى firewall علشان يعمل block لبعض apps من
+  انها تستخدم الانترنت لما عملت سيرش لقيت انه علشان اعمل كده هعمل root لل device علشان
+  اخلى الابليكشن يتحكم فى الجزئية دى او فى طريقة تانية عن طريق انى استخدم vpn service
+  فسألى هل الكلام ده صح و لا و لو صح حد عنده tutorial او research يخص الموضوع ده و
+  شكرا مقدما
+from:
+  name: Aya Mohamed
+  id: '1799423836795197'
+type: status
+created_time: '2017-02-12T14:13:48+0000'
+updated_time: '2017-02-13T16:43:36+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1386356434737394/
+id: '172338516139198_1386356434737394'
+reactions:
+  data:
+  - id: '1355476474557993'
+    name: Nora Tarek
+    type: LIKE
+  - id: '1559309934166139'
+    name: Bassam K. Alshiref
+    type: LIKE
+  - id: '1662474417152894'
+    name: Eslam Aly
+    type: LIKE
+  - id: '10213705794213073'
+    name: Ahmed Ibrahim Amer
+    type: LIKE
+  - id: '1417915408330562'
+    name: Maioi Ahmed
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlPRFk1TmpBNE56STFPakUwT0Rjd016YzJOakU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXpNell6TkRnMk5UZAzJPakUwT0RZANU1Ea3lPVFk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-02-12T14:21:12+0000'
+    from:
+      name: Mahmoud Hossam
+      id: '1360912124012585'
+    message: |-
+      In Android, every app is run in its own sandbox, it has no direct effect  on other apps.
+
+      The sandbox forces you to use the permissions available in the Android framework, and none of these allow the functionality you just described.
+
+      So yes, you'll need to root the device first to implement something like that.
+    id: '1386361098070261'
+  - created_time: '2017-02-12T14:31:27+0000'
+    from:
+      name: Sherif Abdel-Naby
+      id: '1547297148718242'
+    message: I don't have any android development experience, But there are non-root
+      VPN based Ad-blockers, In theory you can create a similar in-concept ad-blocker
+      where you can block all the preferred apps domains.
+    id: '1386369401402764'
+  - created_time: '2017-02-12T14:53:41+0000'
+    from:
+      name: Ahmed Ibrahim Khalil
+      id: '10152956726593657'
+    message: |-
+      https://github.com/adblockplus/adblockplusandroid
+      Check how AdBlock+ works on Android without root, you'll have to know JNI though to understand how this code works.
+    id: '1386387924734245'
+  - created_time: '2017-02-12T15:01:48+0000'
+    from:
+      name: Mohamed R. Elbassiouny
+      id: '1914691152178468'
+    message: Ahmed Hendi
+    id: '1386393054733732'
+  - created_time: '2017-02-12T15:45:17+0000'
+    from:
+      name: Kerolles Roshdi
+      id: '10213578505611127'
+    message: "متهيألى تقصدى حاجة زى كده ؟! \n\nhttps://play.google.com/store/apps/details?id=eu.faircode.netguard"
+    id: '1386424841397220'
+  - created_time: '2017-02-12T16:03:46+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: في حاجة اسمها device administrator ممكن الابليكيشن بتاعك يبقى كدة ويبقى
+      له تحكم في حاجة زي دي..
+    id: '1386442704728767'
+  - created_time: '2017-02-12T17:09:52+0000'
+    from:
+      name: Mazen Sabri Hammam
+      id: '1555602977858565'
+    message: "فيه ناس في جامعة حلون ده مشروع تخرجهم \U0001F600"
+    id: '1386493524723685'
+  - created_time: '2017-02-13T04:28:15+0000'
+    from:
+      name: Amr Tharwat
+      id: '10213136680788843'
+    message: |-
+      Read the app description and the Permession request, you may have an idea about creating a similar App :
+      https://play.google.com/store/apps/details?id=com.yirgalab.dzzz&hl=en
+    id: '1386933158013055'
+  - created_time: '2017-02-13T04:51:59+0000'
+    from:
+      name: Hendi Ahmed
+      id: '1418258054950183'
+    message: "شوفى النقاش الى هنا \nhttp://stackoverflow.com/questions/27107192/is-tcp-packet-filtering-possible-on-mobile-platforms\nوابدأى
+      من هنا بقى \nhttps://developer.android.com/reference/android/net/VpnService.html\nبالتوفيق"
+    id: '1386943264678711'
+  - created_time: '2017-02-13T05:56:47+0000'
+    from:
+      name: Muhammad Samir Hassan
+      id: '10157182821910200'
+    message: no root fire wall, search it on Google Play
+    id: '1386969104676127'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE00TmpNMk1UQTVPREEzTURJMk1Ub3hORGcyT1RBNU1qY3kZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE00TmprMk9URXdORFkzTmpFeU56b3hORGcyT1RZAMU5EQTMZD

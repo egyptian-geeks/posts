@@ -1,0 +1,55 @@
+---
+message: Will it be hard to crack?
+from:
+  name: Ahmed Magdy
+  id: '10155638727450376'
+type: status
+created_time: '2015-12-16T11:55:00+0000'
+updated_time: '2015-12-16T13:37:10+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1045828518790189/
+id: '172338516139198_1045828518790189'
+reactions:
+  data:
+  - id: '10155965038378745'
+    name: Said Bakr
+    type: LIKE
+  - id: '10155233051480732'
+    name: Bahaa Esmail
+    type: LIKE
+  paging:
+    cursors:
+      before: TnpnNU1ESXpOelEwT2pFME5UQXlOekkzTURBNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TmpRek5EY3dOek14T2pFME5UQXlOekEzTWpRNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2015-12-16T13:10:27+0000'
+    from:
+      name: Mohamed Abdel Aty
+      id: '10215620557573580'
+    message: nothing is absolute  , yes this will make it harder against dictionary
+      attacks & brute forcing bu for attacks like but so does inserting a special
+      characters [and i think there is a high possibility someone will use an Arabic
+      dictionary/character list against you anyway if the attack is targeted ] but
+      for something like hash cracking it depend on how common is your phrase , using
+      something like "بسم الله الرحمن الرحيم " for example is a bad practice because
+      for some reason this is a very common password in our communities and the hash
+      for it is probably already calculated in every hash table designed for Arabic
+      users  , this is all for nothing of course if the  website/service is not hashing/salting
+      the passwords and storing it plain text
+    id: '1045861935453514'
+  - created_time: '2015-12-16T13:31:57+0000'
+    from:
+      name: Mohamed Abdel Aty
+      id: '10215620557573580'
+    message: "again nothing is absolute  , \" strong \" is a relative word that can
+      only be defined if you know what you are measuring against , if the website
+      is storing the password in plain text then even if you used Chinese/Arabic/hieroglyphics
+      mix password it will not protect you for a second against and server side attack
+      like SQLI , this also apply if the website is not using SSL \n\nhashing power
+      is not a factor if the password is common [without salt ] , the password would
+      be already calculated and would be the same as plain text"
+    id: '1045884508784590'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEEwTlRnMk1Ua3pOVFExTXpVeE5Eb3hORFV3TWpjeE5ESTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEEwTlRnNE5EVXdPRGM0TkRVNU1Eb3hORFV3TWpjeU56RTQZD

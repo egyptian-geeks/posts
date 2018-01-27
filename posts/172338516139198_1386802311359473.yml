@@ -1,0 +1,51 @@
+---
+message: |-
+  Angular2 Routing:
+  -----------------------
+  Consider we configure our routes as [{path: ' product-details/:id', component: productDetails}] .. If we have only 3 products so the valid URLS should be:
+  http://domain/product-details/1, http://domain/product-details/2, http://domain/product-details/3 ...
+  if we change id with "4" in the URL manually .. it will redirect normally to our component with no data entries !
+  so how could we tell angular to limit a certain param to range of values, otherwise redirected to NotFoundComponent (for example) ??!
+from:
+  name: Hossam Ahmed
+  id: '10155827368706005'
+type: status
+created_time: '2017-02-13T00:32:00+0000'
+updated_time: '2017-03-27T03:37:43+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1386802311359473/
+id: '172338516139198_1386802311359473'
+reactions:
+  data:
+  - id: '1570218796388620'
+    name: عبدالرحمن محمود
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlNREUxTkRVd01qTXlPakUwT0RZANU9EazNNVFU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlNREUxTkRVd01qTXlPakUwT0RZANU9EazNNVFU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-02-13T00:38:48+0000'
+    from:
+      name: Osama Soliman
+      id: '879271768900112'
+    message: ''
+    id: '1386808678025503'
+  - created_time: '2017-02-13T07:28:43+0000'
+    from:
+      name: Khaled Elnaggar
+      id: '10215461207703148'
+    message: in `back-end` I check for existence of Id in my table if not throw 404
+      , my be it available for front-end
+    id: '1387012201338484'
+  - created_time: '2017-02-13T12:44:25+0000'
+    from:
+      name: عبدالرحمن محمود
+      id: '1570218796388620'
+    message: I think this workaround may suit your situation as they are only three
+      paths, Define a constant path for each of you valid IDs only.
+    id: '1387187811320923'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE00Tmpnd09EWTNPREF5TlRVd016b3hORGcyT1RRMk16STUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE00TnpFNE56ZA3hNVE15TURreU16b3hORGcyT1RnNU9EWTIZD

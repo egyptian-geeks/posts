@@ -1,0 +1,69 @@
+---
+message: |-
+  مفيش بروكسي اكلمه HTTPS واديله لينك HTTP يروح يركوسته ويرجعلى الرد؟
+
+  معلومات اضافية...
+  انا عامل سايت بستخدم فيه GeoLocations و للاسف الـ GeoLocations بتشتغل على HTTPS بس فرفعته على سيرفر HTTPS بس الفكره انى بعمل AJAX Requests على حاجات HTTP فالبراوزر بيعمل بلوك لاى ريكويست على HTTP
+from:
+  name: Hady El-Ziady
+  id: '10155549760031026'
+type: status
+created_time: '2017-07-17T16:28:37+0000'
+updated_time: '2017-07-18T01:50:06+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1550144325025270/
+id: '172338516139198_1550144325025270'
+reactions:
+  data:
+  - id: '10155746533953941'
+    name: Abdelrahman Y. ElFiky
+    type: LIKE
+  - id: '10214343099918744'
+    name: Mahmoud Kandil
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRNeE5UQTRPVFF3T2pFMU1EQXpNVGN5T1RVNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRRMU5EVTBOREl6TXpveE5UQXdNekV5TXpjNE9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2017-07-17T16:39:36+0000'
+    from:
+      name: Mohamed Eltantawi
+      id: '10160105091695314'
+    message: Make a mediator to request the http on server side and deal with it via
+      https
+    id: '1550152615024441'
+  - created_time: '2017-07-17T19:01:40+0000'
+    from:
+      name: Moataz Elmasry
+      id: '10159865785365331'
+    message: |-
+      This has nothing to do that your server uses https. If you are behind a proxy and you need to access https pages, then you need a proxy that supports https interception, like Squid and the use a feature called SSLBump
+      http://wiki.squid-cache.org/Features/SslBump
+    id: '1550263411680028'
+  - created_time: '2017-07-17T19:22:26+0000'
+    from:
+      name: Hady Elzayady
+      id: '1567617093293742'
+    message: "do u notice somethimg\U0001F604,it is rare"
+    id: '1550277425011960'
+  - created_time: '2017-07-17T19:33:47+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: مش فاهم المشكلة فين لحد دلوقتي انك تستخدم SSL certificate لو محتاج HTTPS
+      على السيرفر بتاعك؟
+    id: '1550284798344556'
+  - created_time: '2017-07-17T20:41:01+0000'
+    from:
+      name: Mostafa Zaki
+      id: '1854491187925905'
+    message: |-
+      لو عايز بيانات geolocation استخدم  ipinfo api
+      https://ipinfo.io
+      مش هتحتاج HTTPS
+    id: '1550325551673814'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUxTURFMU1qWXhOVEF5TkRRME1Ub3hOVEF3TXpBNU5UYzIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUxTURNeU5UVTFNVFkzTXpneE5Eb3hOVEF3TXpJME1EWXkZD

@@ -1,0 +1,44 @@
+---
+message: "Hello their,\nIs there is anyway that i can give Unity 3D inputs and makes
+  it draw them like normal objects \nI tried to edit in Scene file but it was like
+  encrypted file or somehow i couldn't \nanyone have any idea how i can do this ?\nWould
+  be appreciated :)"
+from:
+  name: Ibrahem Salah
+  id: '1391026811024185'
+type: status
+created_time: '2015-11-02T10:38:08+0000'
+updated_time: '2015-11-04T17:40:20+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1027148947324813/
+id: '172338516139198_1027148947324813'
+reactions:
+  data:
+  - id: '833177750176614'
+    name: Nody Ali
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTBOVE14T1RBek1EUXhPakUwTkRZAME5qRXhNRFU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTBOVE14T1RBek1EUXhPakUwTkRZAME5qRXhNRFU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2015-11-02T17:08:38+0000'
+    from:
+      name: Ibrahem Salah
+      id: '1391026811024185'
+    message: Solved with Procedural Primitives
+    id: '1027275027312205'
+  - created_time: '2015-11-04T17:40:20+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      side note: if you want to be able to edit Scene files (and prefab files), go to Edit -> Project Settings -> Editor, under "Asset Serialization" set the mode to "Force Text", this way everything will be encoded as text instead of binary.
+      After you do that and open a scene or prefab file you'll still find it a bit weird, that's because it's written in YAML format, it's a serialization format that I personally haven't dealt with before, but it's readable :)
+
+      side side note: BTW you have to do this Force Text thing anyways if you want to use Git on a Unity project, because git can only find the diff in text files not binary files (if you leave them in binary you wont be able to merge!), you'll also need to edit the .gitattributes file to tell git that these files should be treated as text.
+    id: '1028065860566455'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF5TnpJM05UQXlOek14TWpJd05Ub3hORFEyTkRnME1URTUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF5T0RBMk5UZAzJNRFUyTmpRMU5Ub3hORFEyTmpVNE9ESXgZD

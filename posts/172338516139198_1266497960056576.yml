@@ -1,0 +1,44 @@
+---
+message: المفروض اني  بجيب data من الdatabase و بعرضها في صفحة HTML في جدول. المشكلة
+  لما بستخدم <? php?> مفيش حاجة بتطلع، انما لما بستخدم <? =?> الdata بتطلع عادي. اللي
+  عايز اسئله ليه<? php?> مش بتطلع حاجة ، انما لما بستخدم <? =?> الdata بتطلع عادي؟
+  و اصلا مش المفروض ان استخدام <? =?> مش recommended؟
+from:
+  name: Hosam Shafik
+  id: '2052010548351299'
+type: status
+created_time: '2016-10-23T11:15:07+0000'
+updated_time: '2016-10-27T00:13:24+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1266497960056576/
+id: '172338516139198_1266497960056576'
+comments:
+  data:
+  - created_time: '2016-10-23T11:15:31+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: عشان مش بتكتب echo
+    id: '1266498123389893'
+  - created_time: '2016-10-23T11:21:22+0000'
+    from:
+      name: Loai Nagati
+      id: '1561923947178330'
+    message: استخدام <?= ?> مش recommended ليه؟
+    id: '1266500890056283'
+  - created_time: '2016-10-23T11:38:23+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: I found this opinion http://softwareengineering.stackexchange.com/a/151694/61967
+    id: '1266514096721629'
+  - created_time: '2016-10-26T06:59:18+0000'
+    from:
+      name: Abdul-Hameed Riad
+      id: '10157097152299942'
+    message: "<?= is equal to <?php echo, and don't use the short open tags becuse
+      itsn't enable by default in configration as its confilect with XML documents"
+    id: '1269207819785590'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkyTmpRNU9ERXlNek00T1RnNU16b3hORGMzTWpJeE16TXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkyT1RJd056ZA3hPVGM0TlRVNU1Eb3hORGMzTkRZAMU1UVTQZD

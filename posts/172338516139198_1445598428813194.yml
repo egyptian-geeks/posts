@@ -1,0 +1,113 @@
+---
+message: |-
+  To mobile developers:
+  After finish apps before publishing on app stores, which SDKs you recommended to install it for (analytics, push Notification, crash reporting, install tracking.. etc) and if you used or recommend tag manager working with them. please share
+
+  * Please  based on your experience
+from:
+  name: Anas Emad
+  id: '10155138037322478'
+type: status
+created_time: '2017-04-07T11:35:01+0000'
+updated_time: '2017-04-07T20:41:01+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1445598428813194/
+shares:
+  count: 3
+id: '172338516139198_1445598428813194'
+reactions:
+  data:
+  - id: '1824047834273067'
+    name: Mohamed Hashim
+    type: LIKE
+  - id: '1413493802105995'
+    name: Mahmoud Mohamed Osman
+    type: LIKE
+  - id: '1872433002767763'
+    name: Taghreed Mohammed Kamel
+    type: LIKE
+  - id: '2022833371324486'
+    name: Abdelrahman Hassan
+    type: LIKE
+  - id: '10160087308580372'
+    name: Shireef Adel
+    type: LIKE
+  - id: '10210172319016618'
+    name: Mohamed Hagras
+    type: LIKE
+  - id: '10155729838410546'
+    name: Ahmed Abousamra
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdNRE0yTURVeU5qWXdPakUwT1RFMk1UYzBPVEE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TlRjNU5URXdOVFExT2pFME9URTFOekE0TXpNNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-04-07T11:38:48+0000'
+    from:
+      name: Osama Soliman
+      id: '879271768900112'
+    message: "I use google analytics for analytics and \nOnesignal for push notifications
+      and I am satisfied."
+    id: '1445600808812956'
+  - created_time: '2017-04-07T11:47:50+0000'
+    from:
+      name: Mohamed Fouad
+      id: '10155936786685102'
+    message: "Google analytics for analytics + tracking \nSplunk mint for crash reporting"
+    id: '1445611755478528'
+  - created_time: '2017-04-07T12:20:19+0000'
+    from:
+      name: Mohamed Shaheen
+      id: '1990508241211666'
+    message: "Fabric crashlytics for bug reporting \nGoogle analytics for tracking
+      \nOr fabric answers also"
+    id: '1445684125471291'
+  - created_time: '2017-04-07T12:38:08+0000'
+    from:
+      name: Omar Hassan
+      id: '10156054633057370'
+    message: Firebase + crashlyrics
+    id: '1445695268803510'
+  - created_time: '2017-04-07T14:03:51+0000'
+    from:
+      name: Mahmoud Adam
+      id: '10155865413996071'
+    message: Crashlytics (Fabric.io) is the best
+    id: '1445836025456101'
+  - created_time: '2017-04-07T14:09:15+0000'
+    from:
+      name: Mustafa Ezzat
+      id: '1791684854188024'
+    message: Firebase https://firebase.google.com/
+    id: '1445839422122428'
+  - created_time: '2017-04-07T14:39:27+0000'
+    from:
+      name: Amr Medhat
+      id: '10155426916839779'
+    message: |-
+      analytics: amplitude or mixpanel
+      bugs: instabug
+      push: pushbots
+      أنا جربت أول اتنين - والأول أوفر من التاني سعرا وإن كان التاني أكثر انتشارا - لكن همة الاتنين عامة أقوى من جوجل لوحده
+      التالت والرابع ما جربتهمش بس تشجيعا للعبة الحلوة:)
+    id: '1445896352116735'
+  - created_time: '2017-04-07T14:56:26+0000'
+    from:
+      name: Mohamed Shaban
+      id: '1918919864803706'
+    message: "I strongly recommend Firebase, with just few lines and single sdk you
+      can get support for\n- Crash reporting\n- Analytics\n- Push notifications \n+
+      12 other products that definitely will help you\n\nhttp://firebase.google.com"
+    id: '1445909338782103'
+  - created_time: '2017-04-07T15:36:01+0000'
+    from:
+      name: Amir Elshazly
+      id: '10214362800637200'
+    message: "Analytics: Mixpanel & Google analytics + GTM & Facebook analytics \nBugs:
+      Instabug\nPush: Puswoosh & Mixpanel"
+    id: '1445934238779613'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEwTlRZAd01EZA3dPRGd4TWprMU5qb3hORGt4TlRZAMU1USTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEwTlRrek5ESXpPRGMzT1RZAeE16b3hORGt4TlRjNU16WXkZD

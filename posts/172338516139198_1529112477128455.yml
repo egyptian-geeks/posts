@@ -1,0 +1,75 @@
+---
+message: |-
+  Hello Geeks!
+  What is the best/most standard way to communicate with a Raspberry Pi-based robot from a modern IBM PC compatible computer running GNU/Linux or Winndows without relying on something gigantic as ROS considering that all the communication will go through a local network (wireless based)? Is TCP/IP sufficient enough to handle this all alone? or should I make it HTTP-based through a web browser?
+from:
+  name: Ahmed Khaled
+  id: '1673431476060100'
+type: status
+created_time: '2017-06-28T02:13:08+0000'
+updated_time: '2017-06-29T01:24:55+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1529112477128455/
+id: '172338516139198_1529112477128455'
+reactions:
+  data:
+  - id: '600738743605000'
+    name: علي أحمد علي
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01ERXdNRFkyTXpreE1UY3dPakUwT1RnMk5ETTBNams2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01ERXdNRFkyTXpreE1UY3dPakUwT1RnMk5ETTBNams2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-06-28T02:14:57+0000'
+    from:
+      name: Alhasan A. Al-Nasiry
+      id: '1751004338278066'
+    message: http IS an implementation of tcp/ip
+    id: '1529113393795030'
+  - created_time: '2017-06-28T06:34:10+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "بص خليك http عشان  هيبقى عندك الامكانية ت implement حاجات ادفانسد ومطلوبة
+      زي الـ tls و الـ authentication ... بسهولة .. \nوكمان هتشتغل ب backend framework
+      كويس هينجزلك الموضوع كله وليكن مثلا express.js او socket.io \nاما انك تعمل implementation
+      للبروتوكول بتاعك وتقعد ت listen على بورت معين وت process كل ال requests .. وتهاندل
+      انت ال threads بتاعتك او ال event loop \nهيبقى عندك سستم incomplete, insecure,
+      and buggy وصعب يتعملله انتجريشن.. \nاو في الاخر you would end up re-inventing
+      the wheel !\nاشتغل https ويا حبذا لو REST API كدة محترم وﻻ حاجة، اسهل واسرع
+      واامن وبروفيشنال اكتر.. وكل حاجة .. :) نسيت اقولك ان سهل يتعمل موبايل ابليكيشن
+      او ويب انترفيس، على عكس الكستم بروتوكول اللى هتضطر تعمل له كلاينت لكل بلاتفورم"
+    id: '1529292433777126'
+  - created_time: '2017-06-28T06:41:04+0000'
+    from:
+      name: Mahmoud Kandil
+      id: '10214343099918744'
+    message: Do u have real-time  constrains? Am not sure if http will be appropriate
+      if u have real-time constrains.
+    id: '1529296683776701'
+  - created_time: '2017-06-28T07:49:01+0000'
+    from:
+      name: Muhammad Sweilam
+      id: '1672329366148161'
+    message: UART interface should be sufficient for direct access to any custom interface..
+    id: '1529344770438559'
+  - created_time: '2017-06-28T07:53:36+0000'
+    from:
+      name: Khaled M. Wagdy
+      id: '10159998677410523'
+    message: Depends on what you want to do indeed, realtime considerations?  You
+      can get by using SSH
+    id: '1529348183771551'
+  - created_time: '2017-06-28T15:07:00+0000'
+    from:
+      name: George Moheb
+      id: '10210440074417898'
+    message: "hmm i would go for webrtc (peer 2 peer) or websockets (server client)
+      \nboth would give yout the ability to communicate in realtime which i think
+      would be great for a robot getting readings and sending commands in realtime"
+    id: '1529693007070402'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV5T1RFeE16TTVNemM1TlRBek1Eb3hORGs0TmpFMk1EazMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV5T1RZANU16QXdOekEzTURRd01qb3hORGs0TmpZAeU5ESXcZD

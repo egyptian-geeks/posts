@@ -1,0 +1,63 @@
+---
+message: |-
+  i have a login form that sends username and password to a Java backend which sends back an authentication token
+  problem is that the network debugging tab showing the credentials that have been entered  in the request payload.
+  the form is a part of angular 2+ app.
+  any suggestions for what am i doing wrong or suggestions for search keywords ?
+
+  i found this on my search
+  https://softwareengineering.stackexchange.com/questions/171418/why-make-the-login-page-to-a-single-page-application-a-separate-page
+
+  but still can't figure out if there is a way to secure a SPA or i have to server side rendering
+from:
+  name: Ibrahim Mohammed
+  id: '1886120441698692'
+type: status
+created_time: '2017-07-02T14:16:54+0000'
+updated_time: '2017-07-02T15:23:51+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1534631066576596/
+id: '172338516139198_1534631066576596'
+reactions:
+  data:
+  - id: '10156191099748000'
+    name: Shady Mohamed Sherif
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRVMk5qTTNPVGs1T2pFME9Ua3dOVFV3TkRrNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRVMk5qTTNPVGs1T2pFME9Ua3dOVFV3TkRrNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-07-02T14:39:17+0000'
+    from:
+      name: Mohamed Ashraf
+      id: '10155906116946287'
+    message: The whole app (both the angular 2 and the java api) needs to be https
+      secured otherwise they will still be able to read the stored credentials in
+      your browser.
+    id: '1534649866574716'
+  - created_time: '2017-07-02T14:56:09+0000'
+    from:
+      name: Mohamed Shaaban
+      id: '10156259295924301'
+    message: |-
+      Calm down, dude
+      That's normal, you can see the credentials, because that's still within the browser context, what you should be worried about, is nobody else can see them when s/he intercepts the request, which is covered by https
+    id: '1534662996573403'
+  - created_time: '2017-07-02T15:23:48+0000'
+    from:
+      name: Haitham Shaddad
+      id: '1591171607636188'
+    message: "You should not worry about the username & Password in your browser,
+      only after you submit the form and the data travels from your PC to the server.\nYou
+      can only worry if your computer is hacked and the hacker has access to your
+      browser and can detect what you are typing and in this case you have much concerns
+      to worry about :)\n\nIf you want to make it harder. You can simply encrypt the
+      username and password from JavaScript code using a public key and send it encrypted,
+      in the server you will decrypt it using the private key. \n\nIn this case no
+      one will know your password unless he has a key logger"
+    id: '1534684889904547'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV6TkRZAME9UZAzJOalUzTkRjeE5qb3hORGs1TURBMk16VTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV6TkRZANE5EZAzRPVGt3TkRVME56b3hORGs1TURBNU1ESTUZD

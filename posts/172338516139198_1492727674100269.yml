@@ -1,0 +1,140 @@
+---
+message: "How to Speed Up my queries ? basically i have a file with millions of records
+  i need to save that records in a database and process that data in a single function.
+  to took a step by step to make that as fast as possible :- \n\n1- took the entire
+  file in array and insert it one by one which was a disaster  \n2- i chucked the
+  file into 10K and save every chunk record by record which was a little faster but
+  not fast enough \n3- i took every 10k and concatenated them into one query and save
+  it to the database in one line which was a more faster but my problem here is that
+  the view gives a white screen and i can't inform the user that the server is processing
+  the data. so is there is a way to make it much faster?  and how to inform the user
+  that the server is processing the data?. note that i am supposed to to retrieve
+  that data from the database and do some processing on it and save it to another
+  database. i need the most efficient way to do so \n\nP.S I am using PHP/Laravel
+  and mysql database on apache server."
+from:
+  name: Ahmed Fekry Habib
+  id: '10209043990657269'
+type: status
+created_time: '2017-05-25T09:14:55+0000'
+updated_time: '2017-05-26T12:32:04+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1492727674100269/
+shares:
+  count: 1
+id: '172338516139198_1492727674100269'
+reactions:
+  data:
+  - id: '1999765416908747'
+    name: Ahmed Khalifa
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTJNalU1TWpNNE9EVXlPakUwT1RVM016TXlOekE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTJNalU1TWpNNE9EVXlPakUwT1RVM016TXlOekE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-05-25T09:22:59+0000'
+    from:
+      name: Tony Raoul Iscaros
+      id: '10156165643313420'
+    message: |-
+      You can make use of task schedulers.
+      Send the view informing the user that data is processing , and pool from the server the current percentage of task completion.
+      Avoid processing large data in a single request usually if the server is more loaded or data is bigger you will either run out of ram or timeout , and ofc users will be confused
+    id: '1492731684099868'
+  - created_time: '2017-05-25T09:23:13+0000'
+    from:
+      name: Mahmoud Tantawy
+      id: '10156115350739764'
+    message: |-
+      You shouldn't perform processing that will take time during the life cycle of the request because you will delay the request and it can timeout , you should move such processing to a console command that is triggered once you receive the request, and then you respond to the user that you are processing and update the user when the processing is done.
+
+      As to how you can inform the user about what's happening, you can easily make that console command insert logs or update in a database or write to file and then show these updates to the user.
+    id: '1492731804099856'
+  - created_time: '2017-05-25T09:50:08+0000'
+    from:
+      name: Bassam Abd Elhamid
+      id: '1955441501387657'
+    message: Another tip is to disable any indices in the table that you insert into,
+      temporarily.
+    id: '1492745764098460'
+  - created_time: '2017-05-25T09:51:52+0000'
+    from:
+      name: Ahmed Fekry Habib
+      id: '10209043990657269'
+    message: "i will list what i get from you guys and my thoughts and see if there
+      is another improvements :- \n1- I will receive the request from the client and
+      do the processing on the data after informing the user that the server is processing
+      it.\n\n2- i had an issue that the insertion gets slow when the database get
+      bigger, should i use MyISAM or InnoDB ? i found that MyISAM uses tale-level
+      lock does that mean that i cann't issue any queries to the table while inserting
+      to it (MyISAM is faster for bulk insertions)\n\n3- is there is any kind of parallel
+      processing in PHP ?\n\nany tips would be appreciated"
+    id: '1492746527431717'
+  - created_time: '2017-05-25T10:21:47+0000'
+    from:
+      name: Ahmed Salah
+      id: '326700584509671'
+    message: "I recommend to:\n* Have a separate modules to monitor the data manipulation
+      \ progress \n* another module to manipulate data as chunks in the background"
+    id: '1492762200763483'
+  - created_time: '2017-05-25T11:06:52+0000'
+    from:
+      name: Mohammad Fouad
+      id: '10155755444625845'
+    message: |-
+      The only solution is to take the IO (DB insertion) out of band (which means out of the client application flow)
+      Reply to the user as fast as possible without doing any work, then do the work.
+      You should look into streaming the user is uploading huge input data, maybe the user can upload bit by bit, using Ajax and you process them as they arrive.
+      If the user is not sending the data, then you have to use a Message Queue or invent your own process of handing the work out of band.
+    id: '1492785914094445'
+  - created_time: '2017-05-25T11:07:48+0000'
+    from:
+      name: Mohammad Fouad
+      id: '10155755444625845'
+    message: sometimes saving the data to Disk (especially SSD) will be faster, then
+      a separate process can batch-insert the data from file
+    id: '1492786410761062'
+  - created_time: '2017-05-25T11:35:59+0000'
+    from:
+      name: Tarek Moukhtar
+      id: '10154916789376650'
+    message: batching the process into chunks, if you're using a application side
+      processing try to use native api, or much recommended to move all processing
+      to db side. not to use functions, only procedures, try to enhance the queries
+      itself. u can temporarily move data to a single table for enhanced performance.
+      check created indecies of tables and used columns.
+    id: '1492804180759285'
+  - created_time: '2017-05-25T15:28:18+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: "- move this to a background job don't do it directly after upload\n-
+      split your processing into 2 steps, 1 split the file into multiple files (every
+      job has a directory)\n- step to is get a chunk and process it then rename this
+      chunk file to <original-name.processed> \n- to get the progress count number
+      of chunks X, number of chunks with \"processed\" extension Y and progress is
+      Y/X*100%\n- processing a chunk faster could be by enclosing it in a transaction,
+      disabling index temporarily\n- after processing the last chunk you can tar.gz
+      them for archiving\n- give mysql a separate server, increase query length and
+      give it all the memory you can\n- if this is a frequent processing you can have
+      2 databases a master for writing and a slave for reading this way reading won't
+      be blocked (not 100% sure)\n- if your processing is slow as in 100 record per
+      second or something it's fine, as the processing is async, the user can refresh
+      the page to see his running jobs and progress of each and can cancel it by an
+      action that will mark all files as <chunk name>.canceled and make the processor
+      ignore these files, this way the processor will stop after the current chunk
+      and tar.gz them."
+    id: '1492972517409118'
+  - created_time: '2017-05-26T02:42:58+0000'
+    from:
+      name: Ibraheem Mamdouh
+      id: '1585678844802653'
+    message: "If it wasn't php multithreading would have been a good solution each
+      thread make a query to a section of the data and process it in parallel \nBut
+      it's php"
+    id: '1493391417367228'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE1TWpjek1UWTROREE1T1RnMk9Eb3hORGsxTnpBME1UZA3cZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE1TXpNNU1UUXhOek0yTnpJeU9Eb3hORGsxTnpZAMk5UYzUZD

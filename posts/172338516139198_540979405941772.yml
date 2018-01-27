@@ -1,0 +1,18 @@
+---
+message: "7 Things Don't Use It If You Are Building a Trial Desktop App.\n\n1- Don't
+  Encrypt/Decrypt Using Base64 Or Cipher Only (Mix Them) \n2- Don't Check The Equality
+  Of The License Using If (Use Switch)\n3- Don't Make The Check Of License Offline
+  (Use API)\n4- Don't Send/Receive Plain Text Over The API Calls (Encrypt All)\n5-
+  Don't Store The License Info On The Machine (Store It Online)\n6- Don't Calculate
+  The Trial Period Based On User Machine (Use The Server Time)\n7- Don't Publish Your
+  App Directly After The Final Build (Obfuscate It)\n\n• This Based On Personal Experience
+  Throw The Last Week While Am Trying To Reset The Trial Period Of Some Visual Studio
+  Extensions , And Failed ! :D"
+from:
+  name: Eslam Hamouda
+  id: '10212947071504226'
+type: status
+created_time: '2013-03-13T04:58:16+0000'
+updated_time: '2013-03-13T19:02:14+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/540979405941772/
+id: '172338516139198_540979405941772'

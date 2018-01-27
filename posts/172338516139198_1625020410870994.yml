@@ -1,0 +1,81 @@
+---
+message: ازاي احسب ال complexity بتاعة كود زي كدة
+link: https://www.facebook.com/photo.php?fbid=1742406192720242&set=gm.1625020410870994&type=3
+from:
+  name: Salah Yousef
+  id: '1783464821947712'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/22281947_1742406192720242_5903223513986494577_n.jpg?oh=09790fa85204c34295c996b17644c0e8&oe=5ADF3296
+created_time: '2017-10-05T16:46:32+0000'
+updated_time: '2017-10-05T22:04:30+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1625020410870994/
+id: '172338516139198_1625020410870994'
+reactions:
+  data:
+  - id: '832658286916992'
+    name: Mohamed Farghly
+    type: LIKE
+  - id: '1589304647821970'
+    name: Menem Salama
+    type: LIKE
+  - id: '1648364748542697'
+    name: Islam Abdelzaher
+    type: LIKE
+  - id: '10155075827400766'
+    name: Fadie Mohamed Kamel
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTFNVGcwT0RVd01qWXlPakUxTURjek1EQTNNakk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TlRRek5qYzFOelkxT2pFMU1EY3lNalUzTVRJNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-10-05T16:47:48+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: ال sort غالبا حيبقى O(N log(N)) و بما أن مفيش حاجة بتعملها تاتي اعقد
+      من كده حيبقى هو اكثر حاجة موثرة
+    id: '1625022470870788'
+  - created_time: '2017-10-05T16:49:55+0000'
+    from:
+      name: Khaled Hamed
+      id: '10155895263189003'
+    message: |-
+      الـ)sort N * log(N و  الـloop N
+      فا كله
+      O(N * log(N) + N)
+      و لما يكون فى جمع بتاخد الأكبر
+      O(N * log(N))
+    id: '1625023924203976'
+  - created_time: '2017-10-05T16:52:30+0000'
+    from:
+      name: Abdelrahman Badr Eldeen
+      id: '10215277369790261'
+    message: the for loop complexity will be n and sort function almost will be n
+      log n ...... so (n) will be negligible  comparing with (n log n) so the result
+      is  n log n
+    id: '1625025600870475'
+  - created_time: '2017-10-05T17:56:48+0000'
+    from:
+      name: Mohamed Azayem
+      id: '862296700640117'
+    message: السورت غاليا يا nlog(n) واللوب n فهيبقي كلو nlog(n)
+    id: '1625069330866102'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl5TlRBeU1qUTNNRGczTURjNE9Eb3hOVEEzTWpJeU1EWTUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl5TlRBMk9UTXpNRGcyTmpFd01qb3hOVEEzTWpJMk1qQTQZD
+attachments:
+  data:
+  - description: ازاي احسب ال complexity بتاعة كود زي كدة
+    media:
+      image:
+        height: 299
+        src: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/22218210_1742406192720242_5903223513986494577_o.jpg?oh=d18d20e41332ad329b4dbd28aac122b8&oe=5ADB4528
+        width: 720
+    target:
+      id: '1742406192720242'
+      url: https://www.facebook.com/photo.php?fbid=1742406192720242&set=gm.1625020410870994&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=1742406192720242&set=gm.1625020410870994&type=3

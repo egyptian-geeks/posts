@@ -1,0 +1,91 @@
+---
+message: Does it make any engineering sense to use ReactJS in conjunction with AngularJS?
+  or is it just geeky? I am ok with geeky, I just want to know if anyone tried it
+  before in some real project and if there were any lessons learned?
+from:
+  name: Mohamed Elsherif
+  id: '10160105091405314'
+type: status
+created_time: '2015-10-17T18:58:28+0000'
+updated_time: '2015-10-29T23:39:55+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1020727964633578/
+id: '172338516139198_1020727964633578'
+reactions:
+  data:
+  - id: '10156266511868081'
+    name: Ahmed Zain Mohammed
+    type: LIKE
+  - id: '895970407247426'
+    name: Ahmad Magdy
+    type: LIKE
+  - id: '10156476353501062'
+    name: Tarik Ibrahim
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRRd016UTRNRGd3T2pFME5EVTBORE0yTXpNNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: Tnpjd01Ea3hNRFl4T2pFME5EVXhOVGcwTXpFNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2015-10-17T19:01:11+0000'
+    from:
+      name: Ayman Mahfouz
+      id: '10155647847437025'
+    message: My understanding as I have always seen it presented is that it is an
+      either-or. What parts of Angular you are contemplating to replace with React?
+    id: '1020731147966593'
+  - created_time: '2015-10-17T19:23:52+0000'
+    from:
+      name: Ayman Mahfouz
+      id: '10155647847437025'
+    message: I understand. So you are thinking of implementing the directive function
+      using React DOM manipulation? If so, this sounds somewhat reasonable and not
+      too geeky. However, unless speed is the primary concern, the template-based
+      approach is much a lot more readable.
+    id: '1020738521299189'
+  - created_time: '2015-10-17T20:27:40+0000'
+    from:
+      name: Emad Elwany
+      id: '10156301839774701'
+    message: A prominent Frontend Dev on my team did a thorough analysis on this topic,
+      I forwarded it to your work email.
+    id: '1020756601297381'
+  - created_time: '2015-10-18T07:29:51+0000'
+    from:
+      name: Mohamed Rashed
+      id: '10155764645725568'
+    message: Why not look at Angular 2.0 it's very close in performance to ReactJS
+    id: '1020932791279762'
+  - created_time: '2015-10-18T18:38:04+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: "Mohamed Elsherif it depends on the problem you are trying to solve here.
+      if you are trying to solve the slow rendering issue with Angular then I would
+      for sure recommend you to go for React with Angular for accelerating the time
+      it takes Angular to render it's own directives. I'm working on some tests to
+      see if it's really worth mixing  both libraries or just going for React. \n\nAlso
+      note the price of including both frameworks in terms of adding complexity and
+      debugging who to blame if something goes wrong is it React? or is it Angular?
+      (Just an Advice: Study both of them and stick to one of them)."
+    id: '1021126871260354'
+  - created_time: '2015-10-18T19:25:44+0000'
+    from:
+      name: Tarik Ibrahim
+      id: '10156476353501062'
+    message: I tried in an early stage of a project to mix both but it did not make
+      sense so i kept my self to Angular without being distracted , i did not find
+      something so unique with React
+    id: '1021141697925538'
+  - created_time: '2015-10-29T23:39:55+0000'
+    from:
+      name: Ahmed Eid
+      id: '762135870664322'
+    message: |-
+      Have you seen this ??
+      https://www.youtube.com/watch?v=XQM0K6YG18s
+    id: '1025789114127463'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF5TURjek1URTBOemsyTmpVNU16b3hORFExTVRBNE5EY3gZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF5TlRjNE9URXhOREV5TnpRMk16b3hORFEyTVRZAeE9UazIZD

@@ -1,0 +1,45 @@
+---
+message: |-
+  حد اشتغل مع روترات عليها DD-WRT ؟
+  عندي مشكلة وهي إني عاوز اعمل عليه DNS محلي بحيث من أي ماكينة في الشبكة المحلية اقدر اوصل للمستضيف الافتراضي على أباتشي موجود على ماكينة تانية في الشبكة. الحكاية دي صيغتها في السؤال التالي على Super User
+  http://superuser.com/questions/1126548/dd-wrt-and-apache-virtual-hosts
+link: http://serverfault.com/questions/804349/dd-wrt-and-apache-virtual-hosts
+from:
+  name: Said Bakr
+  id: '10155965038378745'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQDIOI774uU-dghd&w=130&h=130&url=http%3A%2F%2Fcdn.sstatic.net%2FSites%2Fserverfault%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D9b1f48ae296b%26a&cfs=1&_nc_hash=AQDwP1vbaON2gcg_
+created_time: '2016-09-21T01:02:29+0000'
+updated_time: '2016-09-22T10:54:09+0000'
+name: DD-wrt and Apache virtual hosts
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1237330986306607/
+id: '172338516139198_1237330986306607'
+comments:
+  data:
+  - created_time: '2016-09-22T10:54:06+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: الحمد لله وجدت لها حل، وطلع ال Firmware ده حكاية في الحتة دي بالذات بيفيدني
+      جدا كمطور من إني قادر على الوصول لل virtual hosts بأسماء النطاقات التخيلية بتاعتها
+      من أي جهاز عندي في الشبكة.
+    id: '1238611652845207'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl6T0RZAeE1UWTFNamcwTlRJd056b3hORGMwTlRReE5qUTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl6T0RZAeE1UWTFNamcwTlRJd056b3hORGMwTlRReE5qUTIZD
+attachments:
+  data:
+  - description: I have changed my LinkSys wrt54g router's firmware to DD-WRT v24-sp2
+      (07/22/09) micro. I'm trying to make local dns on the router to allow all machines
+      on my LAN to be able to access my computer's
+    media:
+      image:
+        height: 316
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQC4-GMFGadJQHAu&w=720&h=720&url=http%3A%2F%2Fcdn.sstatic.net%2FSites%2Fserverfault%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D9b1f48ae296b%26a&cfs=1&_nc_hash=AQCt0ZMs8xtnXnya
+        width: 316
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fserverfault.com%2Fquestions%2F804349%2Fdd-wrt-and-apache-virtual-hosts&h=ATMrmBVFX-XCkDVgiUmTxtEbu0bRux_S-1DCutcq6HaMfwd-Lx5-Zv5HBCHiaK_u4ftcaX3PdIQiUXMki5hYGdmfxpYwzXxyPA2W&s=1&enc=AZO1nJcmAAvK5AZV0-JKqiK6jvzbgKfKk9pDJKiRnlv3FEa0wiEG3dLzoGwymuW0QDmsZRYWKbZUWMORYzk3Mfeo
+    title: DD-wrt and Apache virtual hosts
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fserverfault.com%2Fquestions%2F804349%2Fdd-wrt-and-apache-virtual-hosts&h=ATMrmBVFX-XCkDVgiUmTxtEbu0bRux_S-1DCutcq6HaMfwd-Lx5-Zv5HBCHiaK_u4ftcaX3PdIQiUXMki5hYGdmfxpYwzXxyPA2W&s=1&enc=AZO1nJcmAAvK5AZV0-JKqiK6jvzbgKfKk9pDJKiRnlv3FEa0wiEG3dLzoGwymuW0QDmsZRYWKbZUWMORYzk3Mfeo

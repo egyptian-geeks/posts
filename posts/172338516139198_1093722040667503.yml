@@ -1,0 +1,46 @@
+---
+message: "Hey guys, \n\nA client asked me to make a desktop app for him that changes
+  the PC's proxy every minute or so (you can guess why, but I didn't even ask him).
+  After looking around for away I found that services like Hola VPN does this, and
+  it's for free, BUT it's not programmable (Doesn't have an API or something I can
+  talk to programmatically :( ).\n\nMy question: is there away through which I can
+  programmatically change the machine's (it's a Windows Server BTW) proxy setup depending
+  on service or a tool like Hola ? Or really any other way.  \n\nThanks in advance.\n\nPS:
+  The one solution I could come up with was to use the Hola Chrome extension and use
+  NodeJS to control the mouse and trigger the change, but we all know that this is
+  stupid and unreliable (but I tried it and it's working :) ). If you are wondering
+  about the mouse being controlled by code and not by the user, know that this software
+  will be running on a remote Windows/Linux server, and wont be accessed that much."
+from:
+  name: Ahmed Zain Mohammed
+  id: '10156266511868081'
+type: status
+created_time: '2016-03-08T19:11:01+0000'
+updated_time: '2016-03-09T19:38:42+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1093722040667503/
+id: '172338516139198_1093722040667503'
+comments:
+  data:
+  - created_time: '2016-03-08T20:41:17+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: Why u dont just configure proxy from a pre defined list
+    id: '1093769553996085'
+  - created_time: '2016-03-09T19:38:40+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      To change proxy settings for IE you can set the following Registry Keys:
+      HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings
+      ProxyEnable (0 or 1)
+      ProxyServer (string containing ip:port)
+      You can automate their change using batch scripts, powershell scripts, or C# :)
+
+      For firefox you'll probably have to change a SQLite file, and for chrome it'll probably be a json file
+    id: '1094359807270393'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE1TXpjMk9UVTFNems1TmpBNE5Ub3hORFUzTkRZANU5qYzMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE1TkRNMU9UZA3dOekkzTURNNU16b3hORFUzTlRVeU16SXgZD

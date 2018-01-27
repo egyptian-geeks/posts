@@ -1,0 +1,68 @@
+---
+message: |-
+  hello,
+  did anyone here try to make a program that uses proxy to connect to a website ?
+  am trying to do that but i keep failing.
+  i already tried Java
+  using jsoup and System.getProperties, it works but some websites detect my real ip (ex google , yahoo, ... )
+from:
+  name: Sam Hijazi
+  id: '2114878395409155'
+type: status
+created_time: '2016-07-09T18:47:36+0000'
+updated_time: '2016-07-11T19:22:21+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1178494648856908/
+id: '172338516139198_1178494648856908'
+reactions:
+  data:
+  - id: '1466247800164499'
+    name: Mosaab Ahmed
+    type: LIKE
+  - id: '1487671784675336'
+    name: Mohamad Emad
+    type: LIKE
+  - id: '1212049638898703'
+    name: Mohamed Murad
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXpNemM0TnpreE16VTRPakUwTmpnM05qWTVNREE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlPREV3TXpZAM056RXdPakUwTmpnd09UQXhOREU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-07-11T01:05:23+0000'
+    from:
+      name: Abdallah Hodieb
+      id: '10155961552416083'
+    message: How did you try that ? do you have some code some where to look at ?
+    id: '1179362518770121'
+  - created_time: '2016-07-11T04:15:15+0000'
+    from:
+      name: Sam Hijazi
+      id: '2114878395409155'
+    message: |-
+      hi, about my problem i fixed it by using python instead of java.
+      and it worked the way i wanted it to  :)
+      but i still don't understand how google/other websites can detect me when i used java, but not when i use python
+    id: '1179448598761513'
+  - created_time: '2016-07-11T10:07:13+0000'
+    from:
+      name: Abdallah Hodieb
+      id: '10155961552416083'
+    message: "I haven't used Jsoup before, but i took a quick glance into the source
+      code \n\nhttps://github.com/jhy/jsoup/blob/master/src/main/java/org/jsoup/helper/HttpConnection.java\n\nIt
+      seems that the proxy properties need to be set using connection.proxy(). so
+      the reason might be that jsoup ignored the proxy system properties, and you
+      didn't provide any proxy to the connection.\n\ntry adding .proxy( .... ) before
+      the .execute()"
+    id: '1179568272082879'
+  - created_time: '2016-07-11T19:22:21+0000'
+    from:
+      name: Sam Hijazi
+      id: '2114878395409155'
+    message: thank you for your time, i noted that.
+    id: '1179837668722606'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUzT1RNMk1qVXhPRGMzTURFeU1Ub3hORFk0TVRrNU1USTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUzT1Rnek56WTJPRGN5TWpZAd05qb3hORFk0TWpZAME9UUXgZD

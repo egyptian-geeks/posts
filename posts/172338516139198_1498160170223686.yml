@@ -1,0 +1,285 @@
+---
+message: |+
+  مساء الخير,
+
+  بما إني في العادي معنديش وقت كتير أشوف أفلام, و بما إني دلوقتي قدامي شهر فاضي قبل شغلي الجديد و ما وراييش حاجة غير الفرجة على أفلام فقلت أكتب حاجة تـ optimize الـ movie watching experience. :)
+
+  الـ movie time ده movie recommendation system مستخدم فيه الـ dataset بتاعت GroupLens/MovieLens و هي collection من أفلام موجودة على movielens (موقع زي imdb) و معاهم كمان ratings لمستخدمين الموقع للأفلام و كده. بس أنا كان المهم بالنسبة لي إن فيه جزء كبير من الداتا ست (الأفلام) ليها tags بتوصف الفيلم: war drama, oscar winner, etc.
+
+  السيستم بيستخدم الـ tags دي عشان يقارن الأفلام ببعض باستخدام tf-idf vectorization, بحيث يبقى فيه similarity matrix بين كل فيلم و الأفلام التانية.
+
+  الـ recommendations بتتقدم عن طريق django app (شكلها شنيع عشان أنا مش بتاع frontend خالص :D). الترشيحات قائمة على الأفلام اللي انت عملت لها لايك و الأفلام اللي عملت لها ديسلايك برضه. و فيه 20 ألف فيلم ملهمش tags بقترحهم عشوائي و خلاص.
+
+  قلت أشير معاكم يمكن حد يستفيد, سواء في استخدامه أو في تشريحه. :)
+
+  لو حد عنده أسئلة أنا تحت أمركم.
+
+link: https://github.com/osama-haggag/movie-time
+from:
+  name: Osama Haggag
+  id: '10159763958360167'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQDAMg-bymtqRSvy&w=130&h=130&url=https%3A%2F%2Favatars3.githubusercontent.com%2Fu%2F2833377%3Fv%3D3%26s%3D400&cfs=1&_nc_hash=AQD_eJTgpczLBU4A
+created_time: '2017-05-30T15:27:26+0000'
+updated_time: '2017-05-31T12:52:03+0000'
+name: osama-haggag/movie-time
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1498160170223686/
+shares:
+  count: 9
+id: '172338516139198_1498160170223686'
+reactions:
+  data:
+  - id: '10155855157936047'
+    name: Mosab Ibrahim
+    type: LIKE
+  - id: '762135870664322'
+    name: Ahmed Eid
+    type: LIKE
+  - id: '1984058555247376'
+    name: Tarekk Mohamed Abdalla
+    type: LIKE
+  - id: '10156031492006081'
+    name: Ahmed van Mostafa
+    type: LIKE
+  - id: '1682516651797866'
+    name: Moustafa Zaher
+    type: LIKE
+  - id: '1765781893453545'
+    name: Hawary
+    type: LIKE
+  - id: '580299932312876'
+    name: Nader Yasser
+    type: LIKE
+  - id: '1418487844946012'
+    name: محمود يوسف
+    type: LIKE
+  - id: '10155893657875049'
+    name: Mahmoud Raafat
+    type: LIKE
+  - id: '10156039265507485'
+    name: Mohamed Osman
+    type: LIKE
+  - id: '1937942979568084'
+    name: Muhamad Eissa
+    type: LIKE
+  - id: '10216248300579505'
+    name: Muhammad Nagy
+    type: LIKE
+  - id: '10209177154420899'
+    name: Elsayed Awdallah
+    type: LIKE
+  - id: '1987386858188073'
+    name: Mohamed Ibrahim
+    type: LIKE
+  - id: '10159960198215788'
+    name: Mohamed Fawzy
+    type: LIKE
+  - id: '1873673082698558'
+    name: Moh Dem
+    type: LIKE
+  - id: '10155926704141777'
+    name: Ahmed Abdelaziz
+    type: LIKE
+  - id: '10214798901190713'
+    name: Amir Raouf Saad
+    type: LOVE
+  - id: '1628019427241475'
+    name: Mahmoud Hanora
+    type: LIKE
+  - id: '10214471954062071'
+    name: Mohammad Aboelnour
+    type: LIKE
+  - id: '1920633447965421'
+    name: Amany Mohammed
+    type: LIKE
+  - id: '10155302741391033'
+    name: Bahaa El-Sabrout
+    type: LIKE
+  - id: '1645405498839451'
+    name: Bassem Abbas
+    type: LIKE
+  - id: '10155833475081885'
+    name: Mohamed El-Kholy
+    type: LIKE
+  - id: '891512461008307'
+    name: Ziad Khaled
+    type: LIKE
+  - id: '10208713190386784'
+    name: Abdelrahman Maged
+    type: LIKE
+  - id: '1596243923746783'
+    name: Ahmad Zaki
+    type: LOVE
+  - id: '10156266511868081'
+    name: Ahmed Zain Mohammed
+    type: LIKE
+  - id: '10215089056117161'
+    name: Alaa Agwa
+    type: LIKE
+  - id: '10159872708960282'
+    name: Ramy Aboul Naga
+    type: LIKE
+  - id: '1137775362991740'
+    name: Mustafa Hussain
+    type: LIKE
+  - id: '1921134601294705'
+    name: Hamam Ayman
+    type: LIKE
+  - id: '1608327662579661'
+    name: Karim Shoair
+    type: LIKE
+  - id: '10209987525676546'
+    name: مؤمن عبد القادر
+    type: LIKE
+  - id: '1676108972474712'
+    name: Ahmed Ezzat Salama
+    type: LIKE
+  - id: '1876092405757348'
+    name: Ibrahem Mahmmoud
+    type: LIKE
+  - id: '319599321779545'
+    name: Yasmeen Ahmed
+    type: LOVE
+  - id: '10155783410490239'
+    name: Mohamed Abd El-Azeem
+    type: LIKE
+  - id: '10160007537500512'
+    name: Abbas Adel Ibrahim
+    type: LIKE
+  - id: '10155562150949690'
+    name: Hazem Adel
+    type: LIKE
+  - id: '10215165737036219'
+    name: Ahmed M. Maksoud
+    type: LIKE
+  - id: '10211231687978651'
+    name: Mohamed A. Tolba
+    type: LIKE
+  - id: '1555354924540360'
+    name: Mahmoud Adas
+    type: LIKE
+  - id: '1927910387525979'
+    name: Ashraf Elalfy
+    type: LIKE
+  - id: '1709278585800086'
+    name: Mohamed Khatab
+    type: LIKE
+  - id: '1158167907620094'
+    name: Mahmoud Nassar
+    type: LIKE
+  - id: '1291360544342967'
+    name: Hatem Said
+    type: LIKE
+  - id: '10215847428638318'
+    name: Mohab El-Shishtawy
+    type: LIKE
+  - id: '10214796374519514'
+    name: Islam AbdelMohaimen Hassan
+    type: LIKE
+  - id: '1789742254660158'
+    name: Hossam Doma
+    type: LIKE
+  - id: '10156122235026834'
+    name: Ahmed Atef
+    type: LIKE
+  - id: '10156475868535016'
+    name: Amr Sobhy
+    type: LIKE
+  - id: '10159893974840162'
+    name: Mohamed Salah
+    type: LIKE
+  - id: '1722658717785442'
+    name: Abd El Rhaman Ezzat
+    type: LIKE
+  - id: '2034019276639830'
+    name: Mahmoud Ħesham
+    type: LIKE
+  - id: '10155419951367523'
+    name: Ibrahim Sharaf ElDen
+    type: LIKE
+  - id: '402301146892668'
+    name: Esso de Nasr
+    type: LOVE
+  - id: '1574530695959412'
+    name: Mohamed A. Othman
+    type: LOVE
+  - id: '523313878040481'
+    name: Hazem Saeed
+    type: LIKE
+  - id: '1750827214940443'
+    name: Ahmad Mansour
+    type: LIKE
+  - id: '10156237978265039'
+    name: Muhammad Ahmed Hataba
+    type: LIKE
+  - id: '10156115350739764'
+    name: Mahmoud Tantawy
+    type: LIKE
+  - id: '10215834435679186'
+    name: Diaa Sami
+    type: LIKE
+  - id: '1791452377571672'
+    name: Mohammed Alaa El Komy
+    type: LIKE
+  - id: '10159750515025408'
+    name: Mohamed Tarek El Haddad
+    type: LIKE
+  - id: '10155828600595289'
+    name: Ahmed Mohamed Aly
+    type: LIKE
+  - id: '10156229200573311'
+    name: Osama Gamal
+    type: LIKE
+  paging:
+    cursors:
+      before: TnpVMU1ESTJNRFEyT2pFME9UWXpOREEzTVRZANk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TmpFMk5EQTRNekV3T2pFME9UWXhOVGd4TVRZANk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-05-30T15:53:08+0000'
+    from:
+      name: Mohamed Hamza
+      id: '1780939041979216'
+    message: "كنت كاتب اسكريبت صغير يـجيب معلومات عن الأفلام المتحملة على الجهاز من
+      imdb (التقييم والقصة وgenre...إلخ) ويحطهم في ملف csv عشان يسهل تقسيمهم وترتيبهم
+      حسب النوع أو التاريخ او التقييم إلخ وبالتالي يسرع عملية اختيار الفيلم اللي هيتشاف
+      :D \nالرابط للي مهتم\nhttps://github.com/MoHD20/export-Movies-rating"
+    id: '1498184670221236'
+  - created_time: '2017-05-30T15:53:08+0000'
+    from:
+      name: Omar Kamel
+      id: '10214030500170038'
+    message: Mina Sameh
+    id: '1498184676887902'
+  - created_time: '2017-05-30T18:53:02+0000'
+    from:
+      name: Moataz Elmasry
+      id: '10159865785365331'
+    message: |-
+      There is a great project called xbmc/kodi, that scraps all the movies on your disk and indexes them
+      https://kodi.tv/
+    id: '1498311850208518'
+  - created_time: '2017-05-31T11:45:50+0000'
+    from:
+      name: Mohammad Alaggan
+      id: '10154985539677085'
+    message: Collaborative filtering based on matrix factorization would be much better
+    id: '1499068713466165'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE1T0RFNE5EWTNNREl5TVRJek5qb3hORGsyTVRVNU5UZAzUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE1T1RBMk9EY3hNelEyTmpFMk5Ub3hORGsyTWpNeE1UVXgZD
+attachments:
+  data:
+  - description: movie-time - A movie recommendation system based on the GroupLens
+      dataset of MovieLens data
+    media:
+      image:
+        height: 400
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQDcjo3AvSBXJriV&w=720&h=720&url=https%3A%2F%2Favatars3.githubusercontent.com%2Fu%2F2833377%3Fv%3D3%26s%3D400&cfs=1&_nc_hash=AQCvpB-qn_ZGmWKI
+        width: 400
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Fosama-haggag%2Fmovie-time&h=ATP7LtsCm_aIBoeoctQRrJtyq8OpeeVR5F_fwdEEH_Rix_iwniUUvVlSVE0n1cr5cpAhWXx10PI_MbXybHnlw2AEs90JY1vdxHyh&s=1&enc=AZPqA6K7ekdqzIw5IXaJttqxISAxXScgEv_zAclYcK0c0uD1hNiLJIW17fllL_INUFtQV8cWxQt0BSkf9-McXlN5
+    title: osama-haggag/movie-time
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Fosama-haggag%2Fmovie-time&h=ATP7LtsCm_aIBoeoctQRrJtyq8OpeeVR5F_fwdEEH_Rix_iwniUUvVlSVE0n1cr5cpAhWXx10PI_MbXybHnlw2AEs90JY1vdxHyh&s=1&enc=AZPqA6K7ekdqzIw5IXaJttqxISAxXScgEv_zAclYcK0c0uD1hNiLJIW17fllL_INUFtQV8cWxQt0BSkf9-McXlN5

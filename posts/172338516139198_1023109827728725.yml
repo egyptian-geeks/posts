@@ -1,0 +1,70 @@
+---
+message: |-
+  Salam Alaikom, I'm trying to install Ubuntu 14.04 on Lenovo y50-70 preinstalled with Windows 8.1 With UEFI
+  I followed this topic: http://askubuntu.com/questions/221835/installing-ubuntu-on-a-pre-installed-windows-with-uefi?lq=1
+
+  My USB (which is compatible to run and boot with UEFI) didn't boot with UEFI, although I disabled "Secure Boot" and "Fast Start-up". I decided to go with Legacy Boot and It managed to boot and I got Ubuntu menu setup. the colors and background were corrupted, Ignoring that I proceed with "installing Ubuntu", command window starts initializing setup files and It end with errors like this: http://i.imgur.com/fAnp1jz.png and machine didn't respond after that. After searching for what is "nouveau" .. I realized that there's a problem with my NVidia driver. Now if I run the installation again with parameter ACPI=off, do I risk my machine?
+from:
+  name: Amr Ragaey
+  id: '10156097426513748'
+type: status
+created_time: '2015-10-23T17:47:48+0000'
+updated_time: '2015-10-23T18:46:59+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1023109827728725/
+id: '172338516139198_1023109827728725'
+reactions:
+  data:
+  - id: '10215834435679186'
+    name: Diaa Sami
+    type: LIKE
+  - id: '10213353993875904'
+    name: Amr Yassin
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRNNU16a3pOelUyTVRveE5EUTFOakkwTmpVMk9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRVNE1ETXpNemN3TXpveE5EUTFOakl6TXpZAeU9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2015-10-23T17:52:06+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: Risk your machine as in risk hardware damage? No such thing. The worst
+      that could happen is to corrupt your booting data and won't be able to boot
+      before you fix it. Make sure your important data is backed up.
+    id: '1023111224395252'
+  - created_time: '2015-10-23T18:02:28+0000'
+    from:
+      name: Amr Ragaey
+      id: '10156097426513748'
+    message: Ahmed Al-Amir As I read, this parameter will disable crucial features
+      like fans, which may cause my machine to overheat!
+    id: '1023114831061558'
+  - created_time: '2015-10-23T18:10:43+0000'
+    from:
+      name: Mahmoud Said
+      id: '10159857675500183'
+    message: I will advise you to search for a driver for NVidia, and check if some
+      other missing driver, before installing ubuntu
+    id: '1023117321061309'
+  - created_time: '2015-10-23T18:12:08+0000'
+    from:
+      name: Mahmoud Said
+      id: '10159857675500183'
+    message: for example, you might find the tracking pad isn't working as it supposed
+      to be ....
+    id: '1023117861061255'
+  - created_time: '2015-10-23T18:12:58+0000'
+    from:
+      name: Diaa Sami
+      id: '10215834435679186'
+    message: Running with ACPI=off is usually harmless, as far as I know, I tried
+      similar things before and I think I tried it too, but I think it's a bit of
+      an overkill and isn't the best thing you can do, may be there's a better flag
+      that would only have a smaller effect and still get things to work.
+    id: '1023118244394550'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF5TXpFeE1USXlORE01TlRJMU1qb3hORFExTmpJeU56STIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF5TXpFeE9ESTBORE01TkRVMU1Eb3hORFExTmpJek9UYzUZD

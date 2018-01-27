@@ -1,0 +1,84 @@
+---
+message: |-
+  I am working on a relatively large web app .. The UI is somehow complex .. I need the app to be SPA .. So to avoid getting lost in the future I decided to use Webpack to organise my project with either Vue/react ... I need working with the UI to be flexible and in a component based manner ...
+  Do you suggest any of react/vue over the other ..
+  Do you have any preference for a specific UI Framework to integrate with..
+  I am also starting the project without a design .. Just wireframes and user stories , So in this stage my focus is on the interaction with the user But I have also to showcase a nice looking UI to the client until a designer joins me .. So do you have any tips to help me avoid problems when replacing the styles of UI components later ?
+  ..
+  A side question .. Is it reasonable  to integrate jQuery and bootstrap plugins into a webpack powered web app or it will have bad side effects later?
+
+  Sorry for asking many questions but I am a bit confused
+from:
+  name: Mohamed Ahmed
+  id: '1470551303043336'
+type: status
+created_time: '2017-09-14T13:38:01+0000'
+updated_time: '2017-09-15T13:26:26+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1606794376026931/
+id: '172338516139198_1606794376026931'
+reactions:
+  data:
+  - id: '1547297148718242'
+    name: Sherif Abdel-Naby
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXpNVE01TVRReE1ETXhPakUxTURVME9EUXdOek02TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXpNVE01TVRReE1ETXhPakUxTURVME9EUXdOek02TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-09-14T13:45:33+0000'
+    from:
+      name: Tony Raoul Iscaros
+      id: '10156165643313420'
+    message: |-
+      Usually the answer would be use what you are more comfortable with , but here is the catch , react has a big issue regarding licenses.
+
+      I would recommend vue.js (personal taste)
+    id: '1606800372692998'
+  - created_time: '2017-09-14T13:49:00+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: "If its a large app then you shouldnt go for SPA. Because it will be
+      very complicated to maintain in the future with so many developers working on
+      it. \n\nSplit the app to different SPA so you can do releases easily and have
+      different people working on it.\n\nWhatever technology you will use once you
+      create the github repo add CI/CD (you will thank me for that later)\n\nGo away
+      from jQuery if the app is for production. But if its only a wireframe go ahead."
+    id: '1606802556026113'
+  - created_time: '2017-09-14T21:44:30+0000'
+    from:
+      name: Ahmed Islam
+      id: '10155961335362674'
+    message: "I recommend Angular4 + modularity structure + routing lazy loading.
+      \n\n-Huge support. \n-Very organized code. \n-High maintainability through deviding
+      your app into smaller modules. \nHigh performance through modules lazy loading."
+    id: '1607124199327282'
+  - created_time: '2017-09-15T00:30:10+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: React has huge learning curve, don't use it unless you want react native
+      out of it.. - based on personal years of experience and many failed deadlines
+      cuz of react :D
+    id: '1607199622653073'
+  - created_time: '2017-09-15T01:58:50+0000'
+    from:
+      name: Hossam Saraya
+      id: '10160260136260389'
+    message: "If you are new to React, don't wonder if you find yourself spending
+      much more time refactoring than writing new stuff. It takes a bit of time and
+      effort, but it's really worth it on the long run specially for a large scale
+      project. You should also use state manager/container like redux, flux, mobx..etc
+      as this is almost a necessity if you want your application to scale well. \n\nHere
+      is what I currently use in a current react project:\n- Styling: Styled Components\n-
+      Routing: react-router + react-redux-router\n- State: Redux\n- UI Library: Semantic
+      UI React\n\nOne last thing to mention is that if you are short on time, don't
+      use Redux and use some less verbose library for state management because redux
+      involves writing a lot of boilerplate code."
+    id: '1607249202648115'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl3Tmpnd01ETTNNalk1TWprNU9Eb3hOVEExTXprMk56TTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl3TnpJME9USXdNalkwT0RFeE5Ub3hOVEExTkRRd056TXcZD

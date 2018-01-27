@@ -1,0 +1,42 @@
+---
+message: "Hi, Geeks , i would like to ask about GPU video encoding using none maxwell
+  ,or kepler architecture i have to CUDA SDK , \n\"device nvidia quadro 6000 \" ,
+  \ so any tool , repository , paid software will be appreciated"
+from:
+  name: Mohamed A. Alqrwash
+  id: '10213394268464462'
+type: status
+created_time: '2016-10-01T22:42:49+0000'
+updated_time: '2016-10-05T15:41:21+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1246856965354009/
+id: '172338516139198_1246856965354009'
+comments:
+  data:
+  - created_time: '2016-10-02T12:06:16+0000'
+    from:
+      name: Mahmoud Hossam
+      id: '1360912124012585'
+    message: https://developer.nvidia.com/nvidia-video-codec-sdk
+    id: '1247340811972291'
+  - created_time: '2016-10-04T20:15:59+0000'
+    from:
+      name: Mohamed Ahmed
+      id: '385696705226073'
+    message: "your question caught my attention while i am not in the video market
+      but i started doing some research and read about it ,as far as i see fermi support
+      in the NVENC \"SDK\" is not availble , and no one from the open source community
+      is going for implementing cuda encoding for HA for that matter because of the
+      hardware limitation is not cross compatible so the work is doubled or tripled
+      for that matter to support each system , as i understood from your replay that
+      you have fermi gpu farm while its not using HA but if its working dont fix it
+      , but since you posted this question which mean you are not comfortable with
+      your current situation you have 3 option \n1- upgrade your cards \n2- move to
+      cloud and use CPU assistance which from what i read is far better than GPU \n3-
+      ask some one to program a patch for you \"not recommended\" because the encoder
+      is not supporting fermi anyway and it will all turn back to using CPU assistance
+      or some other hack .\n*btw thanks for making me read about this subject"
+    id: '1249424941763878'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkwTnpNME1EZA3hNVGszTWpJNU1Ub3hORGMxTkRBNU9UYzMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkwT1RReU5EazBNVGMyTXpnM09Eb3hORGMxTmpFeU1UVTUZD

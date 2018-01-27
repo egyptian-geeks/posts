@@ -1,0 +1,89 @@
+---
+message: "ايه احتماليه ان الحكومات تكون بتعرف تتجسس  علي المراسلات ف الواتس اب او
+  المسنجر \nكنت سمعت ان الحكومات بتشتري ال  quota access  من الشركات دي   وان ف طريقه
+  حد عنده معلومه ؟"
+from:
+  name: Ahmed Gamal
+  id: '1944835295781512'
+type: status
+created_time: '2017-12-22T19:43:45+0000'
+updated_time: '2017-12-26T02:48:54+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1699174463455588/
+shares:
+  count: 1
+id: '172338516139198_1699174463455588'
+reactions:
+  data:
+  - id: '10159908658495298'
+    name: Medhat EL-Qadi
+    type: LIKE
+  - id: '871016873079772'
+    name: Marwan Ahmed
+    type: LIKE
+  paging:
+    cursors:
+      before: TnpnM016WTFNamszT2pFMU1UUXhNREkyTURZANk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQTFNVFEwTURJME5EWTRPakUxTVRRd05URTNOalk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-12-22T19:56:38+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: الحكومه بقالها فتره بتعمل DPI ، احتمال وصولها للرسائل موجود طبعا.
+    id: '1699527153420319'
+  - created_time: '2017-12-22T20:09:53+0000'
+    from:
+      name: Ahmed Abd El-Qader
+      id: '10155218861346127'
+    message: |-
+      انا واحد صاحبي ظابط جيش قالي ان المخابرات بتراقب تليفونات الظباط و بيجيبوا رسايل الواتساب
+      بس مش بيعرفوا يعملوا كده في الايفون
+      اما المكالمات العادية فليهم channel في كل شركة بيدخلوا عليها يسمعوا اي مكالمة من غير ما يقولوا للشركات حتي.
+      والله اعلم
+    id: '1699534720086229'
+  - created_time: '2017-12-22T20:23:17+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: |-
+      Mass surveillance on WhatsApp is highly unlikely after E2E encryption was implemented, targeted attacks are always possible usually through other techniques like spywares.
+      This is assuming that WhatsApp itself is not handing data to governments, but it is still unlikely given that WhatsApp only holds the unread messages, and the payload is still encrypted, they don't save messages, again that's what they claim, but they already went into enough troubles with other governments due to strict encryption like in Brazil.
+    id: '1699542220085479'
+  - created_time: '2017-12-23T01:02:03+0000'
+    from:
+      name: Emad Omara
+      id: '10155049224141583'
+    message: "There are two different things here \n1-text messages \nAs Mohamed mentioned
+      they are end to end encrypted using Signal protocol , so what’s app can’t know
+      the content of the message however they have access to other metadata like type
+      of the message (text vs media) sender and recipient information like location
+      and IP. \nAlso note that the group protocol implemented in WhatsApp is semantically
+      weaker than 1:1 , basically it doesn’t guarantee future secrecy! \n\n2- RTP
+      communications (audio and video calling) I honestly don’t know what WhatsApp
+      using for this but most VOIP apps utilizes WebRTC which supports end to end
+      encryption using SRTP + DTLS, it is very easy to use but also very easy for
+      the server to do MitM attack as there is no easy way to verify the DTLS ephemeral
+      certificates and this is where the new KeyTransparency project from Google try
+      to solve \n\nThat being said, 99.99% you are safe if you use E2EE apps like
+      WhatsApp or Signal"
+    id: '1699689993404035'
+  - created_time: '2017-12-24T18:05:11+0000'
+    from:
+      name: Ahmed T. Yossef
+      id: '10208851388921736'
+    message: "For the cell phone provider they can easily impersonate you to gain
+      access to your whatsapp without your knowledge.. you'll be logged out but whatever
+      \U0001F602"
+    id: '1701314073241627'
+  - created_time: '2017-12-24T20:51:24+0000'
+    from:
+      name: Bassam Abd Elhamid
+      id: '1955441501387657'
+    message: كل حاجه مكسورة, كاننا ماشين فى الشارع عرينين, DiffieHellman still secure,
+      I think.
+    id: '1701433469896354'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFk1T1RVeU56RTFNelF5TURNeE9Ub3hOVEV6T1RjeU5UazUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN3TVRRek16UTJPVGc1TmpNMU5Eb3hOVEUwTVRRNE5qZAzAZD

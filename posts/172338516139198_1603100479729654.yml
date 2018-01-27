@@ -1,0 +1,94 @@
+---
+message: "في التعامل مع الـ APIs .. اعمل Server Side validation حتى للحاجات اللي API
+  عامل لها Validation و لا اتعامل بالـ response اللي جاي منه ..\nانا كدة كدة عامل
+  Client Side Validation يعني الـ Server Side Validation مش هيأثر على الـ User Experience
+  .. \nللتوضيح اكتر يعني مثلًا زي الصورة المفروض الـ API مش بيقبل تاريخ في الماضي
+  .. هل اي ابعت عليه اي تاريخ على طول و اعتمد على الـ Error اللي هيجي في الاكشن اللي
+  المفروض هاخده و لا من الأول مبعتش اصلًا تاريخ في الماضي .. \nانا بالنسبة لي شايف
+  انه مبعتش اصلًا تاريخ في الماضي بس برضه حابب اعرف يمكن فايت عني حاجة"
+link: https://www.facebook.com/photo.php?fbid=1349719938459807&set=gm.1603100479729654&type=3
+from:
+  name: Mohamed Ahmed
+  id: '1470551303043336'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/21462655_1349719938459807_6710513306457408548_n.jpg?oh=c3bded6bef2b228f7956d0a825002abb&oe=5B20858D
+created_time: '2017-09-10T05:21:10+0000'
+updated_time: '2017-09-11T18:35:00+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1603100479729654/
+id: '172338516139198_1603100479729654'
+reactions:
+  data:
+  - id: '10155224155802344'
+    name: Sameh Saeed
+    type: LIKE
+  - id: '10156243575441004'
+    name: Ahmad Zakaria
+    type: LIKE
+  - id: '10156089330442292'
+    name: Hany Ahmed
+    type: LIKE
+  - id: '1958308591089356'
+    name: Mohamed El-Naggar
+    type: LIKE
+  - id: '10215070655377585'
+    name: Mahmoud Kandeel
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRneU1UZAzNNelF6T2pFMU1EVXhOek0xTXpRNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRFMk5qZA3hNVFkzTmpveE5UQTFNREl3T1RZANE9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2017-09-10T05:30:22+0000'
+    from:
+      name: Mahmoud Hossam
+      id: '1360912124012585'
+    message: |-
+      You should always implement server side validation.
+
+      The server is the only constant in a world full of changing clients.
+
+      Also consider the situation where someone might have access to your API URLs (possibly by reverse engineering a client) and they start abusing your API by sending it invalid data and going hunting for vulnerabilities.
+
+      I don't think you want people to start poking around your API, do you?
+    id: '1603104369729265'
+  - created_time: '2017-09-10T07:47:46+0000'
+    from:
+      name: Hany Ahmed
+      id: '10156089330442292'
+    message: |-
+      Server side validation is Mandatory, cause your APIs may be accessed without client side validation for any reason(The user disabled JS, A hacker may skip your client side validation)
+      Client side validation is Optional yet highly recommended, it'll make your app faster and reduce the load on your server
+    id: '1603166576389711'
+  - created_time: '2017-09-11T18:34:58+0000'
+    from:
+      name: Pola Ashraf
+      id: '10155173051963199'
+    message: |-
+      If you Validated it in the API Layer, Don't Re-validate it in other layers.
+      make the validation consistent
+    id: '1604390492933986'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl3TXpFd05ETTJPVGN5T1RJMk5Ub3hOVEExTURJeE5ESXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl3TkRNNU1EUTVNamt6TXprNE5qb3hOVEExTVRVME9EazQZD
+attachments:
+  data:
+  - description: "في التعامل مع الـ APIs .. اعمل Server Side validation حتى للحاجات
+      اللي API عامل لها Validation و لا اتعامل بالـ response اللي جاي منه ..\nانا
+      كدة كدة عامل Client Side Validation يعني الـ Server Side Validation مش هيأثر
+      على الـ User Experience .. \nللتوضيح اكتر يعني مثلًا زي الصورة المفروض الـ API
+      مش بيقبل تاريخ في الماضي .. هل اي ابعت عليه اي تاريخ على طول و اعتمد على الـ
+      Error اللي هيجي في الاكشن اللي المفروض هاخده و لا من الأول مبعتش اصلًا تاريخ
+      في الماضي .. \nانا بالنسبة لي شايف انه مبعتش اصلًا تاريخ في الماضي بس برضه حابب
+      اعرف يمكن فايت عني حاجة"
+    media:
+      image:
+        height: 218
+        src: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/21457665_1349719938459807_6710513306457408548_o.jpg?oh=b6d66ba9fcb7129dfa72a9517e3cb387&oe=5AEAC8FE
+        width: 720
+    target:
+      id: '1349719938459807'
+      url: https://www.facebook.com/photo.php?fbid=1349719938459807&set=gm.1603100479729654&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=1349719938459807&set=gm.1603100479729654&type=3

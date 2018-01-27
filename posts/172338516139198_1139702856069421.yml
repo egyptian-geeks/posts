@@ -1,0 +1,313 @@
+---
+message: "انا سمعت عن الـ docker و مشيت ورا كام فيديو فيه. هو شبه مطابق لفكرة الـ
+  virtual box و الـ vagrant . \nانا عن نفسى بستخدم الـ virtual box بقالى فترة طويلة
+  و مستريح معاه. من الكام فيديو إلى شفتهم عن الـ docker حاسس أنه شبه تكرار لنفس الفكرة..
+  \nيا ترى فى حاجة جامدة فيه تخلينى أغير الـ virtual box او الـ vagrant و أعتمد عليه.
+  ولا هو تكرار لنفس الكلام بطريقة أفضل شوية ؟؟؟"
+from:
+  name: Ahmed Badawy
+  id: '1596110217148252'
+type: status
+created_time: '2016-05-08T14:52:57+0000'
+updated_time: '2016-05-10T08:35:31+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1139702856069421/
+shares:
+  count: 1
+id: '172338516139198_1139702856069421'
+reactions:
+  data:
+  - id: '10210172319016618'
+    name: Mohamed Hagras
+    type: LIKE
+  - id: '2022490591345439'
+    name: سامح دعبس
+    type: LIKE
+  - id: '10155432639833282'
+    name: Ahmed Abdo
+    type: LIKE
+  - id: '2032504700100329'
+    name: Mohammed Yassin
+    type: LIKE
+  - id: '1657509230977456'
+    name: Hosam Aly
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRVNU9ESXpNalU1TnpveE5EWXlPVEkzT0RJd09qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBd01EQXhOVFV4T0RRMk1EZAzBPakUwTmpJM01qQTNNalU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-05-08T14:55:29+0000'
+    from:
+      name: Mohamed Omar Zaian
+      id: '10155855162041047'
+    message: مش تكرار لأن دوكر containers و vagrant بيعمل vms وده مختلف تماماً
+    id: '1139703716069335'
+  - created_time: '2016-05-08T14:56:23+0000'
+    from:
+      name: Ahmed AbouZaid
+      id: '10159726802330618'
+    message: لأ يبقى إنت كدا مفهمتش فكرة دوكر :D
+    id: '1139703999402640'
+  - created_time: '2016-05-08T14:56:29+0000'
+    from:
+      name: Ahmed AbouZaid
+      id: '10159726802330618'
+    message: كمل قراية :D
+    id: '1139704049402635'
+  - created_time: '2016-05-08T14:59:18+0000'
+    from:
+      name: Ahmed Badawy
+      id: '1596110217148252'
+    message: مش عارف ليه حاسس أنه over-engineered أوى. فى حاجة مش محتاجة كل الزيطة
+      دى.
+    id: '1139705426069164'
+  - created_time: '2016-05-08T15:02:36+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "ازاي يا جدع \U0001F602\U0001F602 الفرق واضح جدا من اول طلعة \U0001F602\U0001F602
+      https://www.docker.com/what-docker"
+    id: '1139707672735606'
+  - created_time: '2016-05-08T15:06:56+0000'
+    from:
+      name: Ahmed Shahin
+      id: '10155514327198323'
+    message: "Guyz ... Ahmed Badawy is asking a legit normal question .. no need for
+      showing off ! \nAhmed M. AbouZaid don't act like daddy plz :)\nAmr ELsaqqa you
+      are too smart for us (normal ppl)"
+    id: '1139709816068725'
+  - created_time: '2016-05-08T15:08:18+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "الجروب للجيكس مش للنورمال بيبول \U0001F61B\nبالراحة ياعم..  انا فعلا
+      مستغرب لانه بيقول قرا..  مش شو ولا بتاع من ده!"
+    id: '1139710466068660'
+  - created_time: '2016-05-08T15:12:22+0000'
+    from:
+      name: Mahmoud El Kotoury
+      id: '10159892786570537'
+    message: "They are slightly different,\n\nVagrant is a local Development Environment
+      Management Tool  , Docker is a distribution Management Tool , Virtual box is
+      a Virtual Machine used in the Distribution layer also \n\nVagrant create a very
+      lightweight virtual machine boxes , for you to build your own local development
+      environment , it's very very lightweight virtual machine , under the naming
+      convention of Vagrant Box , it run headless (no Graphics ) with minimal requirements
+      needed to run the required OS or Distribution and that's why , it's a very lightweight
+      VM \n\nThe main comparison between Virtual Box and Docker , is that the docker
+      use what is called containers , which share the kernel , and differ between
+      each container in the user management layer , in the Virtual Box , each VM has
+      it's own Kernel  and it's own Operating System , so you 'll find yourself consuming
+      more resources such as RAM , CPU Usage and Disk Storage in the case of the Virtual
+      Machines"
+    id: '1139715459401494'
+  - created_time: '2016-05-08T15:12:54+0000'
+    from:
+      name: Mohammad Fouad
+      id: '10155755444625845'
+    message: |-
+      1- Docker containers share the same Kernel + Drivers + Hardware
+      Virtual Machines share the same Drivers + Hardware only, and each can have its own kernel.
+
+      So for example, you can run 2 VMs on the same host, one is Windows and the other is Linux.
+      But you can never 2 containers unless they are Linux containers compatible with the target Kernel of the host.
+
+      2- Docker containers does not need to boot, the kernel is already running, they just need to run the first User Mode process (init or systemd or netlogon or so)
+
+      These are the major two differences I think
+    id: '1139715652734808'
+  - created_time: '2016-05-08T15:13:42+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: في ال docker انت ماعندكش guest os بكل اللود بتاعه
+    id: '1139715946068112'
+  - created_time: '2016-05-08T15:17:33+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: Docker is lighter weight, meaning not the whole machine is virtualized,
+      as the containers can share Kernel + drivers, it is a way of sandboxing a dev
+      environment and in a production environment it is a way of sandboxing a deployment
+      of an application. Being lighter weight your host can support more containers
+      than VMs potentially and it is easier to share storage between containers and
+      to set up communications between services hosted on containers. Having said
+      all that, I am still struggling to get enough time to actually set it up on
+      my machine with something useful :)
+    id: '1139717329401307'
+  - created_time: '2016-05-08T15:17:56+0000'
+    from:
+      name: Omar Ibrahim
+      id: '10116066877056474'
+    message: 'Here is what I think I understand in easier terms, and please correct
+      me if I am wrong: with a virtual machine, you have your application + operating
+      system. You can easily move your installation from one server to another, but
+      you are also moving a whole copy of the operating system, and when you run the
+      application, you are running both the host and virtual operating systems. Docker
+      is like a virtual machine, but without the operating system. You get the same
+      portability, with an application instead of a whole operating system.'
+    id: '1139717496067957'
+  - created_time: '2016-05-08T15:21:06+0000'
+    from:
+      name: Ahmed Badawy
+      id: '1596110217148252'
+    message: "خلاص خلاص. بما أن الرأى العام كاسح لصالح الـ docker. بالتالى هو محتاج
+      وقفة كويسة و نجيب كورس ولا كتاب كويس و نذاكره. \nأكيد كل الناس دى مش هتقول حاجة
+      غلط يعنى...\nألف ألف شكر يا شباب على كل الردود..."
+    id: '1139719996067707'
+  - created_time: '2016-05-08T15:21:59+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: Ahmed Badawy you don't need a course or a book, usually videos on youtube
+      and the docker.com site will do it
+    id: '1139720422734331'
+  - created_time: '2016-05-08T15:22:49+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: https://docs.docker.com/linux/
+    id: '1139720732734300'
+  - created_time: '2016-05-08T15:23:03+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: There is also a windows and mac version
+    id: '1139720922734281'
+  - created_time: '2016-05-08T15:24:48+0000'
+    from:
+      name: Hosam Aly
+      id: '1657509230977456'
+    message: Many people talked about the technical details but not the use case.
+      Docker containers are meant to be deployed to production, whereas Vagrant is
+      not. This means that your development environment becomes exactly like production.
+    id: '1139721769400863'
+  - created_time: '2016-05-08T15:24:59+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: hat7es bl mwdoo3 da aktr wenta bt launch new container w wenta bt launch
+      new VM htla2i 7tta el VM bya5od wa2t kteer w el container msh bya5od wa2t kda.
+      VM lma bt run hatla2i el machine b2yt bt2ea bssb eno wa5od goz2 mn el memory
+      dedicated lel VM 7tta lw el VM mst5dmtsh kol el memory dy
+    id: '1139721846067522'
+  - created_time: '2016-05-08T15:25:04+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: "bos in a simple word: VM is a copy of OS, packages, virual hardware,
+      CPU cycles and machine resources.\n\ncontainer: is a portable OS with the packages
+      and softwares needed to run your app. \n\nw zai manta shayef kda el awalani
+      day hya5od memory kteer fa7t fa msh hat2dr t run aktr mn VM m3a b3d laken el
+      mwdoo3 m5talef shwya f mawdoo3 el containers. t2dar t run aktr mn 2 or 3 conrainer
+      on the same server w msh ht7es b mshakel zai ma bt7sal m3a el VM"
+    id: '1139721906067516'
+  - created_time: '2016-05-08T15:26:14+0000'
+    from:
+      name: Mahmoud El Kotoury
+      id: '10159892786570537'
+    message: Docker introduced the idea of the container , which is a very light virtual
+      machine ,a secured hosting environment for your applications, you'll feel that
+      you are running your application on a complete Virtual machine ,and at the same
+      time without consuming all the resources consumed from running more than one
+      Virtual machine ,and without the license overhead of the Operating system ,
+      so less cost indeed as well , also bare in mind that , it's true the containers
+      share resources like the kernel library and the drivers but they are totally
+      isolated in the user management layer and application layer , so you could configure
+      each container with different presetting
+    id: '1139722226067484'
+  - created_time: '2016-05-08T15:32:16+0000'
+    from:
+      name: Mahmoud El Kotoury
+      id: '10159892786570537'
+    message: Also since this post is concerning devops , I recommend checking chef
+      and/or puppet , which are an infrastructure as a code technology or tool , in
+      other word , it's a configuration management tool embedded in a code , so that
+      , you could always have a history of your configuration like git for coding
+      , chef and puppets , serve well , when you have a lot of repetitive tasks that
+      you need them to be stored , so that when you need to build or rebuild your
+      infrastructure ,you can do it in few steps , also it's useful to have versioning
+      for your infrastructure configuration management, so that if your current infrastructure
+      configuration not suiting you well , you could always go to the version which
+      best suit you , without doing everything manually
+    id: '1139724729400567'
+  - created_time: '2016-05-08T15:33:08+0000'
+    from:
+      name: Walid Ashraf
+      id: '10159896809840176'
+    message: https://washraf.gitbooks.io/the-docker-ecosystem/content/Chapter%201/Section%201/What%20are%20Containers.html
+    id: '1139725222733851'
+  - created_time: '2016-05-08T15:35:03+0000'
+    from:
+      name: Mohamed Omar Zaian
+      id: '10155855162041047'
+    message: نورمال بيبول ايه وجييكس ايه بس
+    id: '1139725849400455'
+  - created_time: '2016-05-08T16:18:57+0000'
+    from:
+      name: Mohamed Yosry
+      id: '10160309026495393'
+    message: الadded value بتاعة docker هى الpackaging. بما انة بيقدر encapsulate
+      الapp بكل الdependices فدة بيخلية مش محتاج server/environment provisioning اضافية
+      غير ان docker يكون موجود. لكن هو فى الاخر technology ممكن تحتاج حاجات اضافية
+      جنبها للsolution بتاعك. زى الorchestration(الى حيكون مسئول ان الcontainers حتفضل
+      شغالة ويكون مسئول انة يحافظ على الcommunication بينهم) و ولو بتفكر فى scalable
+      solutions  و عاوز تعمل cluster بتحتاج tools اضافية زى kubernetes او الحاجات
+      المبنية عليها زى openshift و دية بتخليك تقدر تmange cluster of machines و بتقدم
+      حلولها فى المجال دة فى نقط زى الstorage و الnetworking
+    id: '1139751939397846'
+  - created_time: '2016-05-08T16:38:27+0000'
+    from:
+      name: Mostafa Muhammad
+      id: '10155787111376210'
+    message: "هو الناس تقريبا خلصت الكلام ، أنا عايز أضيف إضافة صغيرة قريتها في مكان
+      ما بتقول إن من مميزات Docker إن الــ Platform  بتاعك بقى \"كود\" هو كمان. \nالـ
+      Platform هنا بقى نظام قاعدة البيانات واعدادات السرفر واي شيء آخر بجانب الكود
+      بتاعك.\n\nفبما إن الـ Platform كمان بقى كود ،  فانت تقدر تعمله Versioning وتعمل
+      معاه كل الـ Software engineering Techniques المعتادة."
+    id: '1139760229397017'
+  - created_time: '2016-05-08T17:00:47+0000'
+    from:
+      name: Mahmoud El Kotoury
+      id: '10159892786570537'
+    message: "I wrote this post before on my page \n\nhttps://www.facebook.com/rootcave/photos/a.1713299282227147.1073741827.1688902701333472/1719518254938583/?type=3&theater"
+    id: '1139773496062357'
+  - created_time: '2016-05-08T17:27:52+0000'
+    from:
+      name: Mohamed Omar Zaian
+      id: '10155855162041047'
+    message: I recommend this course for learning Docker http://pluralsight.com/library/courses/docker-deep-dive
+    id: '1139784849394555'
+  - created_time: '2016-05-08T17:30:09+0000'
+    from:
+      name: Mohamed Omar Zaian
+      id: '10155855162041047'
+    message: وياريت برضه تقرا البلوجاية ديه هتفهمك وفيها الزتونة https://the.binbashtheory.com/before-you-start-with-lxc-and-docker/
+    id: '1139786062727767'
+  - created_time: '2016-05-08T18:11:43+0000'
+    from:
+      name: Ahmed Khaled
+      id: '1673431476060100'
+    message: الميكانيزم بتاعت docker شغاله بشكل مختلف تماماً ياعني عن ال virtualbox
+      وده ليه استخدامه وده ليه استخدامة
+    id: '1139806126059094'
+  - created_time: '2016-05-08T18:18:32+0000'
+    from:
+      name: Mahmoud Fahmy
+      id: '10208882238008142'
+    message: Abd El-Rahman Rafaat
+    id: '1139809132725460'
+  - created_time: '2016-05-09T15:34:19+0000'
+    from:
+      name: Ashraf Saad
+      id: '610182979313091'
+    message: Docker is  a great  solution if your host machine is the same dev machine
+      , but in some cases like mine for example , my dev env. is hosted on vm according
+      to the company's security policy and unfortunately it's not applicable here
+      :(
+    id: '1140360202670353'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV6T1Rjd016Y3hOakEyT1RNek5Ub3hORFl5TnpFNU16STUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUwTURNMk1ESXdNalkzTURNMU16b3hORFl5T0RBNE1EVTUZD

@@ -1,0 +1,68 @@
+---
+message: "Hi guys, It's not that geeky but I need your help :) \nI want to implement
+  a so simple messaging service where users can send messages to each others \nthis
+  my two tables \ncreate table Users (ID INT, UserName TEXT, ShaletedHashedPassword
+  TEXT);\ncreate table Messages (Date int,FromUserID int, ToUserID int, MessageBody
+  TEXT);\n\nWhat I want is to make it secure by not allowing anyone to read messages
+  even db admin(just the sender and the receiver of the message), I understand that
+  security is much more than that, But let's say that I want to hide MessageBody from
+  anyone who can reach the database, Thank you"
+from:
+  name: Bassam Abd Elhamid
+  id: '1955441501387657'
+type: status
+created_time: '2016-01-16T08:01:08+0000'
+updated_time: '2016-01-16T08:52:08+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1063273620379012/
+id: '172338516139198_1063273620379012'
+comments:
+  data:
+  - created_time: '2016-01-16T08:03:07+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: Sounds like the message body needs to be encrypted
+    id: '1063273920378982'
+  - created_time: '2016-01-16T08:15:00+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      Password hash will not work when the user changes his password
+      Use PGP https://en.wikipedia.org/wiki/Pretty_Good_Privacy
+    id: '1063276523712055'
+  - created_time: '2016-01-16T08:22:08+0000'
+    from:
+      name: Hosam Aly
+      id: '1657509230977456'
+    message: The only viable option I can think of is *client-side* asymmetric encryption
+      (like PGP that Mohammad Tayseer suggested). I'll discuss the (unacceptable)
+      alternatives in replies to this comment isA.
+    id: '1063278230378551'
+  - created_time: '2016-01-16T08:25:36+0000'
+    from:
+      name: Taha Amin
+      id: '10155815529215590'
+    message: لو بتستخدم sql server ممكن تجرب https://msdn.microsoft.com/en-us/library/bb510663(v=sql.120).aspx
+    id: '1063279290378445'
+  - created_time: '2016-01-16T08:41:44+0000'
+    from:
+      name: Hosam Aly
+      id: '1657509230977456'
+    message: |-
+      *Secure* Option 10) You rely on the clients to exchange their public keys. They both use asymmetric encryption to encrypt their messages, which means you (the server-side app, the DB and the server) have no access to their private keys. You can store the message, but you have no way of decrypting it.
+
+      Now that's secure. However, clients need to find a way of maintaining their keys between different devices. That's less of an issue and it's probably an acceptable limitation.
+
+      Add to that message destruction as soon as the recipient confirms receiving it so that you don't even have the metadata about who talked to whom and when.
+    id: '1063282797044761'
+  - created_time: '2016-01-16T08:52:08+0000'
+    from:
+      name: Bassam Abd Elhamid
+      id: '1955441501387657'
+    message: Thank you guys.
+    id: '1063285373711170'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEEyTXpJM016a3lNRE0zT0RrNE1qb3hORFV5T1RNeE16ZAzMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEEyTXpJNE5UTTNNemN4TVRFM01Eb3hORFV5T1RNME16STQZD

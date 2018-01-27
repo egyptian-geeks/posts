@@ -1,0 +1,43 @@
+---
+message: "المشكلة عندى انى عامل Tabhost + ViewPager + Sliding menu فى Main Activity
+  ال Sliding menu عملها فى شكل List وكل row فية صور وجمبة title (اول Load على ال Main
+  thread )و كل fragment  بتتكون من Recycler view (تانى Load على ال Main thread ) فلم
+  بدخل تاب تانية ال app مش بيكراش بس بيضلم =D اللى هو ال Main thread مش قادر يتحمل
+  كل ال IO processing اللى بتم من خلال FirebaseUi وكمان الصور اللى بيتعملها Render
+  جواها هتقولى اعمل Multi threading هقولك ازاى وهو لازم كل حاجة تستخدم  Main thread
+  ui \nوكمان ال Firebase ui بتستخدم ال AsynchTask فى شغلها وبردة جربت احط شغل ال firebase
+  ui جوة Thread وجوة ال thread دة حطيت جزء ال UI اللى بيتمثل فى ال ViewHolder جو getActivity().runOnUiThread
+  وبردة المشكلة موجود ؟؟\nالمشكلة ان العميل عاوز جزء انيميشن كمان فى ال Recycle view
+  دى =D"
+from:
+  name: Ahmed Abo Mazin
+  id: '1758521440903748'
+type: status
+created_time: '2016-09-25T17:13:11+0000'
+updated_time: '2016-09-28T11:01:41+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1241391842567188/
+id: '172338516139198_1241391842567188'
+comments:
+  data:
+  - created_time: '2016-09-25T17:21:44+0000'
+    from:
+      name: Ahmed Saad
+      id: '10156047687358670'
+    message: |-
+      هي المشكله مش في ال components الكتيره و لا في ال firebase,  و ال runOnUiThread مش ليها لازمه جو ال ViewHolder لانه في ال UI بردو :D,
+      انا رأي اول حاجه و اهم حاجه هي الصور و اي حاجه فيها Render ما تكونش في ال UI, بالنسبه للصور تقدر تستخدم اي library زي fresco, picasso or glide لو عندك اي حاجه بترجع من السرفر خليها ف AsyncTask او استخدم library زي Volley or Retrofit
+    id: '1241398089233230'
+  - created_time: '2016-09-28T11:01:39+0000'
+    from:
+      name: Atef Khairy Etman
+      id: '10159996240855370'
+    message: انا مش شايف اي مشكله من الي انت بتقول عليها لاني عامل حاجه شبه الي انت
+      بتتكلم فيها دي وعادي الي انا عامله اني عامل لكل تاب فراجمينت خاص بيه والداتا
+      والركوستات وكل حاجه بتتم في الفراجمينت بتاعها انا مش مستخدم فاير بيز بس ماظنش
+      انها المشكله اتعامل مع كل فراجمينت لوحده وفكك من الاكتيفتي ماتخليها تعمل حاجه
+      غير انها بتهوست الفراجمينتس وبس
+    id: '1243760908996948'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkwTVRNNU9EQTRPVEl6TXpJek1Eb3hORGMwT0RJME1UQTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkwTXpjMk1Ea3dPRGs1TmprME9Eb3hORGMxTURZAd05UQXcZD

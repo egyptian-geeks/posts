@@ -1,0 +1,95 @@
+---
+message: لو عايز اعمل group chat في android app باستخدام ال firebase ممكن تتعمل ازاي
+from:
+  name: Ali Shawky
+  id: '10214552366261233'
+type: status
+created_time: '2017-07-10T13:22:56+0000'
+updated_time: '2017-07-11T11:55:12+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1543194992386870/
+id: '172338516139198_1543194992386870'
+comments:
+  data:
+  - created_time: '2017-07-10T13:27:47+0000'
+    from:
+      name: Ahmed Magdy
+      id: '1539856256110120'
+    message: Google "Gcm". Could help you
+    id: '1543199109053125'
+  - created_time: '2017-07-10T13:55:05+0000'
+    from:
+      name: Ahmed Ezzat Salama
+      id: '1676108972474712'
+    message: فيه course على udacity للfirebase و بيطبق على chat app اظن دة ممكن يساعد
+    id: '1543221219050914'
+  - created_time: '2017-07-10T13:59:11+0000'
+    from:
+      name: Møhämmêd Køkä
+      id: '1909000156078326'
+    message: "سهله بص يا سيدي خش عليfirebase\nواعمل new projectواتاكد انها بنفس اسم
+      واسمpackage بروجكت تطبيقك علي اندرويد ستوديو \nبعد كده الموقع هيديك تعليمات
+      تحطها ف البرنامج\nبعدها في اوبشن cloud messages اختاره واتبع التعليمات برضك
+      مع تصميم الdesignبتاعك اكيد وتظبيط الlog in/register"
+    id: '1543223535717349'
+  - created_time: '2017-07-10T14:11:35+0000'
+    from:
+      name: Ali Shawky
+      id: '10214552366261233'
+    message: هو في فعلا بس الفكرة ان ال chat app كلة مركز علي user to user انا عايز
+      اعمل مجموعة مع بعض ومش لاقي اي recources ليها
+    id: '1543233022383067'
+  - created_time: '2017-07-10T14:36:28+0000'
+    from:
+      name: Mahmoud Shawara
+      id: '1883117701730825'
+    message: الموضوع سهل بس معتمد على ال structure بتاع الداتا
+    id: '1543250292381340'
+  - created_time: '2017-07-10T15:41:57+0000'
+    from:
+      name: Mohamed Ibrahim
+      id: '10210867242069162'
+    message: في كورس على يوديستي بيشرح الموضوع بالتفصيل
+    id: '1543300575709645'
+  - created_time: '2017-07-11T02:21:05+0000'
+    from:
+      name: Mostafa Waleed
+      id: '1568841889866863'
+    message: |-
+      https://classroom.udacity.com/courses/ud009
+      الكورس ده حلو
+    id: '1543739935665709'
+  - created_time: '2017-07-11T06:53:28+0000'
+    from:
+      name: Ali Shawky
+      id: '10214552366261233'
+    message: شكرا ليكم
+    id: '1543906625649040'
+  - created_time: '2017-07-11T11:44:05+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: look at the topic section in the firebase docs. The main idea is you
+      have some users whom are subscripted to a specific topic. Then you'll be sending
+      a notification to that topic not to a specific user.
+    id: '1544101882296181'
+  - created_time: '2017-07-11T11:46:03+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: |-
+      https://firebase.google.com/docs/cloud-messaging/admin/manage-topic-subscriptions
+      https://firebase.google.com/docs/cloud-messaging/android/topic-messaging
+      https://firebase.google.com/docs/cloud-messaging/ios/topic-messaging
+    id: '1544103542296015'
+  - created_time: '2017-07-11T11:55:11+0000'
+    from:
+      name: Rafael Adel
+      id: '10156260406777122'
+    message: |-
+      A simple search and reading would do...
+      https://firebase.google.com/docs/cloud-messaging/
+    id: '1544110175628685'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUwTXpFNU9URXdPVEExTXpFeU5Ub3hORGs1Tmprek1qWTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUwTkRFeE1ERTNOVFl5T0RZANE5Ub3hORGs1TnpjME1URXgZD

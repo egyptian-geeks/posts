@@ -1,0 +1,98 @@
+---
+message: API Security Checklist for developers, Check it and if you want to add /
+  update anything the contributions is more than welcome.
+link: https://github.com/shieldfy/API-Security-Checklist
+from:
+  name: Eslam Salem Mahmoud
+  id: '10157134145555299'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQA6-WCtPZv1knOt&w=130&h=130&url=https%3A%2F%2Favatars1.githubusercontent.com%2Fu%2F10007026%3Fv%3D3%26s%3D400&cfs=1&_nc_hash=AQBO4-uSoyl6wRB6
+created_time: '2017-07-08T21:15:51+0000'
+updated_time: '2017-07-08T21:42:04+0000'
+name: shieldfy/API-Security-Checklist
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1541510232555346/
+id: '172338516139198_1541510232555346'
+reactions:
+  data:
+  - id: '10213382124519901'
+    name: Mohamed Oun
+    type: LIKE
+  - id: '10155277571022606'
+    name: Heba El Deeb
+    type: LIKE
+  - id: '10157017423792738'
+    name: Ibrahim Zaki
+    type: LIKE
+  - id: '1810744445631768'
+    name: Mohamed Kamel
+    type: LIKE
+  - id: '10156266511868081'
+    name: Ahmed Zain Mohammed
+    type: LIKE
+  - id: '10156548320540656'
+    name: Mohammad Zekrallah
+    type: LIKE
+  - id: '10160043889935145'
+    name: Mohammed Abd El Hady
+    type: LIKE
+  - id: '10205205301673812'
+    name: Ahmed Shawky
+    type: LIKE
+  - id: '1731634136889582'
+    name: Mahmoud Hammam
+    type: LIKE
+  - id: '1817887968229914'
+    name: Hazem Taha
+    type: LIKE
+  - id: '10155927653208847'
+    name: Mohamed Hisham
+    type: LIKE
+  - id: '1560359927364731'
+    name: Mahmoud Nawwar
+    type: LIKE
+  - id: '2112734515623407'
+    name: Mohamed Elghobaty
+    type: LIKE
+  - id: '10155037241837455'
+    name: Ali Dawood
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01qYzFPVGs0T0RveE5UQXdNemsyTmpZAMk9qSTFOREE1TmpFMk1UTT0ZD
+      after: TmpnMk9EVTNORFUwT2pFME9UazFORGcyTVRZANk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-07-08T21:23:37+0000'
+    from:
+      name: Mohamed Elghobaty
+      id: '2112734515623407'
+    message: Looks great! Keep it up. How about linking the most popular packages
+      which follow the defined guidelines for each section (across several programming
+      languages)?
+    id: '1541516412554728'
+  - created_time: '2017-07-08T21:35:15+0000'
+    from:
+      name: Mahmoud Nawwar
+      id: '1560359927364731'
+    message: |-
+      Don't store sensetive data in the JWT payload, it can be decoded easily.
+      are you talking about JWE (JSON Web Encryption) ?
+    id: '1541522672554102'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUwTVRVeE5qUXhNalUxTkRjeU9Eb3hORGs1TlRRNU1ERTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUwTVRVeU1qWTNNalUxTkRFd01qb3hORGs1TlRRNU56RTEZD
+attachments:
+  data:
+  - description: API-Security-Checklist - Checklist of the most important security
+      countermeasures when designing,testing, and releasing your API
+    media:
+      image:
+        height: 221
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQC_ZMlI_CwLR3Pm&w=720&h=720&url=https%3A%2F%2Favatars1.githubusercontent.com%2Fu%2F10007026%3Fv%3D3%26s%3D400&cfs=1&_nc_hash=AQBvG7rF-x6UYPq3
+        width: 221
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Fshieldfy%2FAPI-Security-Checklist&h=ATPcbVa9fUYZWsMhpUr_sQyWuqPfZvdO1ozcJlj2wp5J8reNVz2NZo6awFBXACFAv3OtONEESK3OHLGPigsXG-SxcElhctAHJwPc&s=1&enc=AZOOyKkV1MUeT4eipRbQL1c1cW1qUrmvO43ZBB0GkM-z78M9EU_47VgyOU-1J_04aIYH76TQeOungYTHekKUpJ-T
+    title: shieldfy/API-Security-Checklist
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Fshieldfy%2FAPI-Security-Checklist&h=ATPcbVa9fUYZWsMhpUr_sQyWuqPfZvdO1ozcJlj2wp5J8reNVz2NZo6awFBXACFAv3OtONEESK3OHLGPigsXG-SxcElhctAHJwPc&s=1&enc=AZOOyKkV1MUeT4eipRbQL1c1cW1qUrmvO43ZBB0GkM-z78M9EU_47VgyOU-1J_04aIYH76TQeOungYTHekKUpJ-T

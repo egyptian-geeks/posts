@@ -1,0 +1,38 @@
+---
+message: |-
+  I am using Angular2 and I am facing a problem with multiple Modules structure I've three main Modules (FooModule, BarModule, ParModule) and navigation component for the whole app is depends on app.routes.ts file and each module of the 3 main modules has file called name.routes.ts exporting it's routes to the main app.routes when I am using routerLink directive make an error and not able to render the components in the app page instead of router-outlet directive.
+  any help ?
+from:
+  name: Mahmoud A-Azim
+  id: '1958919217761339'
+type: status
+created_time: '2017-08-17T15:59:21+0000'
+updated_time: '2017-08-17T20:05:25+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1582458205127215/
+id: '172338516139198_1582458205127215'
+comments:
+  data:
+  - created_time: '2017-08-17T15:59:58+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: share code snippet perhaps?
+    id: '1582458685127167'
+  - created_time: '2017-08-17T16:12:56+0000'
+    from:
+      name: Ahmed Mansour
+      id: '10155263617066659'
+    message: RouterModule.forRoot() for the parent module ..... and .forChild() for
+      other Features Modules in their router files. If it's something else .... then
+      share your code
+    id: '1582467391792963'
+  - created_time: '2017-08-17T20:01:08+0000'
+    from:
+      name: Mahmoud A-Azim
+      id: '1958919217761339'
+    message: Solved Thank you
+    id: '1582610661778636'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU0TWpRMU9EWTROVEV5TnpFMk56b3hOVEF5T1RnMU5UazQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU0TWpZAeE1EWTJNVGMzT0RZAek5qb3hOVEF6TURBd01EWTQZD

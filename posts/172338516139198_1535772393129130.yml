@@ -1,0 +1,30 @@
+---
+message: |-
+  Apple did not patch the 32 bit date bug (date stops at 2038) in their 32 bit devices. Setting the date to 2038 will trigger weird behaviors.
+  Tested on my iPad 2 :v
+from:
+  name: Mostafa Alaa
+  id: '10208596993002679'
+type: status
+created_time: '2017-07-03T15:01:24+0000'
+updated_time: '2017-07-03T15:01:24+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1535772393129130/
+id: '172338516139198_1535772393129130'
+reactions:
+  data:
+  - id: '10215093583796418'
+    name: Muhammad Negm
+    type: HAHA
+  - id: '749299191938002'
+    name: Mohamed Ali
+    type: LIKE
+  - id: '10156301546469701'
+    name: Amr ELsaqqa
+    type: WOW
+  - id: '547020688991281'
+    name: Muhammad Kamal
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRNek5Ua3dOall4TXpveE5EazVNVEEzTWpFeE9qYzRPRFkwT0RBek56a3hNek14TWc9PQZDZD
+      after: TVRBd01ERXdOVEF3TmpRME9UYzFPakUwT1Rrd09UUXpNakU2TWpVME1EazJNVFl4TXc9PQZDZD

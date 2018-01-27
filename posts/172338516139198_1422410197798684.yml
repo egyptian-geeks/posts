@@ -1,0 +1,144 @@
+---
+message: "Are PHP frameworks overrated ?\n\nI had a small project I need to developer
+  a php rest API as a backend for my mobile app, \n\nmy first attempt was using laraval
+  .\n\nEnd product wasnt so bad, yet I noticed a sluggish performance \"average response
+  time was around 900ms\" and my Dev experience wasn't so great ! I noticed that I
+  nearly did not use any feature of Laravel except for router and orm.\n\nSo I moved
+  my project to use slim framework, yet I kept Laravel orm, response time was improved
+  \"640ms\" yet i wanted to optimized more.\n\nSo I ended up droping slim, and the
+  Orm. Replaced it with small query builder that I wrote, along with small router.
+  End result now my average response is less than 300ms \"that's 3X faster than laraval\"
+  and ram and CPU usage are even more than 10x less than when I used frameworks.\n\nSo
+  my question. When building a rest API.. should we stay away from bloated frameworks
+  ?\n\nWhat is your best php tools to build a simple rest API for Mobile apps ?"
+from:
+  name: Momen Al Zalabany
+  id: '10160388991030144'
+type: status
+created_time: '2017-03-16T17:32:41+0000'
+updated_time: '2017-03-20T11:48:49+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1422410197798684/
+id: '172338516139198_1422410197798684'
+reactions:
+  data:
+  - id: '980575922099042'
+    name: Yosra Hamza
+    type: LIKE
+  - id: '1158167907620094'
+    name: Mahmoud Nassar
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTBNems1TWprNE5UWXlPakUwT0RrMk9UZAzNORFE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlPREEyT0Rjek16VTFPakUwT0RrMk9UWTRNRE02TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-03-16T17:35:23+0000'
+    from:
+      name: Mahmoud Fahmy
+      id: '10208882238008142'
+    message: Ahmed Ashraf
+    id: '1422411977798506'
+  - created_time: '2017-03-16T17:44:00+0000'
+    from:
+      name: Ahmed Ghorab
+      id: '2053863088178362'
+    message: |-
+      For api use lumen (smaller version of laravel) and make sure to use php 7.
+      If you dont want to use any framework features then stick with native but 300ms is still much there is something making your php lag try to use nginx instead of Apache.
+    id: '1422417261131311'
+  - created_time: '2017-03-16T18:46:49+0000'
+    from:
+      name: Ahmed Zain Mohammed
+      id: '10156266511868081'
+    message: "بص النوع ده من التفكير انا بعتبره هو الي دمر ال career بتاعتي، انا كنت
+      مهوس ببساطة الكود و ال performance لدرجة اني كنت رافض استخدم اي فريم ورك و اي
+      snippet انا مش كاتبها بإيديي. في كل مرة كنت بسأل ليه Laravel محتاج كل الملفات
+      و ال dependancies دي، ليه بيحتاج اكتر من 500 ms عشان ي handle a simple request.
+      \n\nضيعت وقت كتير بكتب framework(s) بنفسي و ف كل مرة كانت بتفشل أنها ت scale
+      معايا و تغطي إحتياجاتي. الفكرة مش فإنك دلوقتي محتاج أيه، الفكرة المشروع محتاج
+      إيه وده معناه المستقبل قبل الحاضر. الكود لازم يكون MAINTAINABLE وده معناه أن
+      البنية لازم تكون قوية و tested و extensible. \n\nكنت معجب أوي بالكود بتاعي وطريقة
+      تنظيمي للأمور ومسمياتي الخاصة. لكن كان كل ده علي حساب المشروع نفسه، لأني كان
+      عندي split of focus ما بين تطوير المنتج و تطوير ال framework نفسه !! لأنك طبعاً
+      كل ما بتحتاج بتضيف و بتعدل عليه. \n\nدلوقتي انا بقالي اكتر من سنة شغال ب laravel
+      و مش عندي أي مشكلة مع ال performance لأن دي ليها حلول تانية ( أبسطها إستخدم
+      Lumen ) بس علي الأقل مطمن إني هابني بشكل أسرع و more standard و قدام شوية ها
+      scale اسرغ و اسهل.\n\nماتعملش غلطتي و إستخدم الكود الي الأف غيرك و غيري بيساهموا
+      في تطويره وتحسينه كل يوم و ليه ال ecosystem الضخم ده."
+    id: '1422468167792887'
+  - created_time: '2017-03-16T19:45:24+0000'
+    from:
+      name: Bellal Mohamed
+      id: '1672878506132188'
+    message: انا بستخدم laravel وكويس في ال optimization كان غي ريكوستس بتاخد 900ms
+      عملت optimization وصلتهم ل > 50 ms استخدم design patterns و optimized code هتلاقي
+      ال performance علي اكيد
+    id: '1422543891118648'
+  - created_time: '2017-03-16T19:49:16+0000'
+    from:
+      name: Mustafa Hussain
+      id: '1137775362991740'
+    message: |-
+      As bellal sayed it depends on your code quality at first
+      Also you can use lumen which is micro laravel I worked with it and I got great performance .
+    id: '1422549634451407'
+  - created_time: '2017-03-16T20:14:25+0000'
+    from:
+      name: Ahmed Ashraf
+      id: '930615110434715'
+    message: "هو الموضوع مش انها بقت overrated .. بس الفكرة انت لما تيجي تستخدم حاجه
+      تبقي عارف عيوبها و مميزاتها و تقرر بناء علي اللي انت شايفه في مصلحتك و مصلحه
+      البروجكت .. انت هتعمل Rest Api و رحت اشتغلت ب Fully Framework .. كان عندك Lumen
+      البيرفورمانس بتاعه افضل من Slim & Slix .. لقيت الريكوست تايم ٣٠٠ ملي مثلاً و
+      ده كان مضايقك حاول تشيل الdependencies اللي انت شايف انك مش هتحتاجها .. Midlware
+      مثلاً انت مش محتاجه .. و بعدين ٣٠٠ ملي كويس مش وحش مقابل التسهيلات اللي هتلاقيها
+      في الفريم ورك زي ال ORM .. انت لما احتجته نقلت لحاجه تانيه و اخدته معاك علشان
+      هو كان مناسب لاحتياجاتك .. \nبس هو انت ممكن تستخدم الCaching علشان يوفر عليك
+      وقت وبيرفورمانس اكتر .\nعاوز حاجه سوبر اوي جرب تبص علي Phalcon لو الApi اللي
+      انت بتعملها مهمه لدرجه انك شايف ان ٣٠٠ ملي كتير عليها . وده حصل معايا في شغلي
+      اني كنت محتاج سيرفرات تكلم بعضها و تعمل Realtime bidding لل ads و الموضوع كان
+      لازم يتم في ١٠٠ ملي ثانيه بحد اقصي .. و انتهي الامر باستخدام Phalcon Framework
+      .. ولو عاوز اكتر من كدا اكتب الApi ب C مثلاً :D .\n\nانت للاسف هتبقي مضطر تتنازل
+      عن حاجات و حاجات تانيه مش هتفرق معاك حسب المشروع نفسه و حسب احتياجاته"
+    id: '1422572394449131'
+  - created_time: '2017-03-16T21:28:00+0000'
+    from:
+      name: Mourad Al Ashry
+      id: '10160284573020019'
+    message: Abdallah Gamal check Lumen
+    id: '1422629677776736'
+  - created_time: '2017-03-16T22:17:34+0000'
+    from:
+      name: Mohamed Ahmed
+      id: '385696705226073'
+    message: I suggest Phalcon if you are looking for raw speed and micro code
+    id: '1422664547773249'
+  - created_time: '2017-03-17T06:42:44+0000'
+    from:
+      name: Mohamed Amgad
+      id: '10215367467803543'
+    message: Ramy Tamer
+    id: '1422968794409491'
+  - created_time: '2017-03-17T20:14:20+0000'
+    from:
+      name: Abdul-Hameed Riad
+      id: '10157097152299942'
+    message: 300ms with Opcache or without it?
+    id: '1423581687681535'
+  - created_time: '2017-03-17T20:57:18+0000'
+    from:
+      name: Mohamed Fergany
+      id: '10215339863195300'
+    message: استخدم phlacon هتلاقيه في الطبيعي بيرد في 90 مل ثانية
+    id: '1423620047677699'
+  - created_time: '2017-03-20T11:26:06+0000'
+    from:
+      name: Ahmed Talaat
+      id: '1705428696187875'
+    message: Mohamed Abdelwahab
+    id: '1426442617395442'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF5TWpReE1UazNOemM1T0RVd05qb3hORGc1TmpnMU56SXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF5TmpRME1qWXhOek01TlRRME1qb3hORGt3TURBNU1UWTIZD

@@ -1,0 +1,55 @@
+---
+message: |-
+  ف طريقه اقدر اخلى الservice  بتاعتى ف الاندرويد شغاله حتى بعد ما اليوزر يقفل الapp  خالص ,,
+  جربت ف العادى بتفضل شغاله لما اليوزر بيرمى الapp  فى ال background  لكن لما بيقفله خالص الservice   بتتقفل مع الapp
+from:
+  name: Dev Moha
+  id: '2003375106655602'
+type: status
+created_time: '2017-09-02T01:52:31+0000'
+updated_time: '2017-09-02T12:08:13+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1596125910427111/
+id: '172338516139198_1596125910427111'
+reactions:
+  data:
+  - id: '1634583633288004'
+    name: Omar Ayman
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlNRGt4TkRneE5qUTBPakUxTURRek1qRTJOamc2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlNRGt4TkRneE5qUTBPakUxTURRek1qRTJOamc2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-09-02T02:00:08+0000'
+    from:
+      name: Mohammed Hussien
+      id: '10154922289347024'
+    message: فيه طريقة اه
+    id: '1596130550426647'
+  - created_time: '2017-09-02T02:06:50+0000'
+    from:
+      name: Omar El Hefny
+      id: '10211089110288413'
+    message: ممكن تخلي الservice بتاعك يشتغل بطريقة periodically او تشتغل لما ايفنت
+      معين يحصل بال firebase job dispatcher
+    id: '1596134593759576'
+  - created_time: '2017-09-02T02:40:01+0000'
+    from:
+      name: Omar Hassan
+      id: '10156054633057370'
+    message: هي الطبيعي انها تفضل شغالة الا لو اليوزر عمل force stop للتطبيق بتاعك،
+      شوف on start command و اتأكد انها بترجع  start sticky
+    id: '1596154073757628'
+  - created_time: '2017-09-02T07:43:10+0000'
+    from:
+      name: Mahmoud Mortda
+      id: '1816374988414963'
+    message: "انت ممكن تستخدم اكتر من حاجة  \njob dispatcher\n(service + broadcast
+      receiver + alarm Manager) on service stop do alarm with a broadcast that runs
+      service after milliseconds \nوده بيختلف حسب ال context  بتاعك"
+    id: '1596342763738759'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU1TmpFek1EVTFNRFF5TmpZAME56b3hOVEEwTXpFM05qQTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU1TmpNME1qYzJNemN6T0RjMU9Ub3hOVEEwTXpNNE1Ua3gZD

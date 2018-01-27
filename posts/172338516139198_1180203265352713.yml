@@ -1,0 +1,53 @@
+---
+message: |-
+  هل في شخص ما يفيدني بناء على خبرته في التعامل مع Google Cloud في شوية نقاط
+
+  هل Google cloud بتحاسب بالإستخدام زي مفعلا بيقولوا يعني السعة المستخدمة و Bandwidth وغيرها ولا بسعر ثابت زي مثلا لو اخدت VPS في شركة معينة مثلا؟
+
+  هل اقدر اتحكم تحكم مباشر بحسابي عن طريق SSH وانزل Torrent Client مثلا على حسابي؟
+
+  هل التعامل سهل مع الخدمات؟
+
+  أي اضافة اخرى غير الاسئلة دي مرحب بها، شكرا.
+from:
+  name: Ahmed Jadelrab
+  id: '1798422387125726'
+type: status
+created_time: '2016-07-12T09:55:43+0000'
+updated_time: '2016-07-12T23:06:46+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1180203265352713/
+id: '172338516139198_1180203265352713'
+reactions:
+  data:
+  - id: '10213118809797201'
+    name: Muhammad El-Hennawy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRZAd01qZAzROVFF6TWpveE5EWTRNekl6TWpZANE9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRZAd01qZAzROVFF6TWpveE5EWTRNekl6TWpZANE9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2016-07-12T12:07:06+0000'
+    from:
+      name: Ahmed Aboulenein
+      id: '10160047384135438'
+    message: 'It depends on what you use, there are mainly Platform as a Service (PaaS)
+      which is Google App Engine and this one depends on usage and sells you a platform
+      (as opposed to infrastructure) and there is Infrastructure as a Service (IaaS)
+      which sells you the infrastructure itself so you are renting a computing unit
+      (could be HOURLY or 100% yours) - they call it Compute Engine. If you are looking
+      for IaaS solution, I suggest also looking at Amazon Web Services (AWS) which
+      is very competitive. Google products here: https://cloud.google.com/products/
+      and you can view the pricing for any product.'
+    id: '1180284745344565'
+  - created_time: '2016-07-12T23:06:46+0000'
+    from:
+      name: Ahmed Melege
+      id: '10156112171242375'
+    message: Overpriced... i dont recommend it
+    id: '1180606598645713'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU0TURJNE5EYzBOVE0wTkRVMk5Ub3hORFk0TXpJMU1qSTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU0TURZAd05qVTVPRFkwTlRjeE16b3hORFk0TXpZAME9EQTMZD

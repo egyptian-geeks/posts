@@ -1,0 +1,15 @@
+---
+message: "[Python] Guys , I have a python object that I want to serialize to json
+  , what is the best way to go ? I need the serializer to be able to deal with unicode
+  (Arabic characters for example).\nI have tried to use json.dump but it fails with
+  some Arabic characters\nThis is the error I got : \n'ascii' codec can't decode byte
+  0xd8 in position 1: ordinal not in range(128)\nThe project is small and opensource
+  , you view the code from here\n\nhttps://github.com/AhmedKamal/Shokran/blob/master/main.py"
+from:
+  name: Ahmed Kamal
+  id: '10204469829103969'
+type: status
+created_time: '2015-07-04T22:47:44+0000'
+updated_time: '2015-07-04T22:47:44+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/968254993214209/
+id: '172338516139198_968254993214209'

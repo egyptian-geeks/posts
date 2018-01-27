@@ -1,0 +1,14 @@
+---
+message: "using ionic1 or 2...\nwith firebase if i push an update with offline connection
+  it waits until connection goes well & send the push the update. \nbut that doesn't
+  happen if the session is interrupted. \n\ni want to update the firebase db with
+  delayed update even after a session interrupt. it there a best or recommended way
+  to do that other than the local storage api ..."
+from:
+  name: Ahmed Badawy
+  id: '1596110217148252'
+type: status
+created_time: '2016-11-06T15:01:58+0000'
+updated_time: '2016-11-06T15:01:58+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1283697465003292/
+id: '172338516139198_1283697465003292'

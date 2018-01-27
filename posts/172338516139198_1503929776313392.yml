@@ -1,0 +1,38 @@
+---
+message: فيه حد استخدام VMware ESXi على سيرفر ليه single public IP وشغل أكثر من VM
+  متصلة بالانترنت؟ انا عمال أقرا عن الموضوع بس الواضح انه معقد خصوصا أني مش متعمق
+  في الشبكات. السؤال حد فعلا نجح وعملها؟
+from:
+  name: Mohamed Eltantawi
+  id: '10160105091695314'
+type: status
+created_time: '2017-06-04T16:18:09+0000'
+updated_time: '2017-06-04T20:32:56+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1503929776313392/
+id: '172338516139198_1503929776313392'
+comments:
+  data:
+  - created_time: '2017-06-04T17:36:33+0000'
+    from:
+      name: Mohamed Radwan
+      id: '10159976552365192'
+    message: اعتقد كل VM Guest تقدر تطلع على الانترنت لو اخترت Network Bridge
+    id: '1504015109638192'
+  - created_time: '2017-06-04T17:38:19+0000'
+    from:
+      name: Dina Reda
+      id: '10155123895506641'
+    message: "Yes it is doable.. with different configuration as well ..\nU can NAT
+      the vms to use that ip.. \nU need to correctly configure ur vswitch"
+    id: '1504016166304753'
+  - created_time: '2017-06-04T20:32:53+0000'
+    from:
+      name: Mohamed Eltantawi
+      id: '10160105091695314'
+    message: Exactly, problem is that I do not have access to the networking hardware.
+      Everything has to be configured from within the VMware server :/
+    id: '1504154836290886'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV3TkRBeE5URXdPVFl6T0RFNU1qb3hORGsyTlRrM056azAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV3TkRFMU5EZA3pOakk1TURnNE5qb3hORGsyTmpBNE16Y3oZD

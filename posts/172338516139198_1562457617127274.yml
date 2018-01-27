@@ -1,0 +1,168 @@
+---
+message: |-
+  السلام عليكم
+  دلوقتي انا شغال على مشروع nodeJS من فترة وقاعدة البيانات الاساسية هيا MySQl، سبب اختيار ال MySql هوا ان المشروع كان في البداية php وبعدين انتقلنا لل Node
+  وطبعاً المقارنات اللي بشوفها ما بين ال MongoDb وال MySql بتخليني اتردد واعيد التفكير كتير، اللي انا قريته في اغلب المقارانات ان ال Mongo افضل بكتير في ال writes اما ال read تقريباً متقاربين،  وان مفيش joins في mongo طبعاً ينفع تعملها بس هتأثر على الاداء، كذلك قريت ان ال mongo افضل في ال scaling.
+
+  بالنسبة للمشروع مفيش غير جدولين بس اللي بعمل بينهم join، بس كون اني احول قاعدة البيانات كلها ل no-sql واغير في الكود هيكون امر متعب وهيتحتاج وقت كبير، فانا قولت اني ممكن استخدم الاتنين مع بعض، اشوف مثلاً الجداول اللي بيحصل عليها writes كتير تبقى تبع mongo والباقي MySql ، هل الفكرة دي مجدية او نقدر نقول عملية والشركات الكبيرة بيعملوا كدا وﻻ ﻷ، وﻻ في افكار تانية احسن من كدا
+  ارجو الافادة وجزاكم الله خيرا
+from:
+  name: Ahmed Sabry
+  id: '1847421335299420'
+type: status
+created_time: '2017-07-29T20:56:07+0000'
+updated_time: '2017-07-30T20:51:16+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1562457617127274/
+id: '172338516139198_1562457617127274'
+reactions:
+  data:
+  - id: '948314261984124'
+    name: Ahmed Shams
+    type: LIKE
+  - id: '1738787849518168'
+    name: Mostafa Elkhouly
+    type: LIKE
+  - id: '1385664498246611'
+    name: Sayed Said
+    type: LIKE
+  - id: '1884591875188014'
+    name: Ismail Ramdan
+    type: LIKE
+  - id: '1510156315763992'
+    name: Alaa Adel
+    type: LIKE
+  - id: '1930813343600325'
+    name: Abd Elrahman Telb
+    type: LIKE
+  - id: '10155918812835729'
+    name: Sara Adel
+    type: LIKE
+  - id: '1616377481790103'
+    name: Abd El Rahman Abied
+    type: LIKE
+  - id: '10215070655377585'
+    name: Mahmoud Kandeel
+    type: LIKE
+  - id: '402301146892668'
+    name: Esso de Nasr
+    type: LIKE
+  - id: '10204414533160604'
+    name: Moustafa Elkady
+    type: LIKE
+  - id: '10160057547260515'
+    name: Mohamed Anan
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTBNVFkyTnpjd01EYzJPakUxTURFME5UQXlORGM2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TnpVMU9UYzFOVEUwT2pFMU1ERXpOakl4TlRZANk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-07-29T21:12:37+0000'
+    from:
+      name: Ayman Fekri
+      id: '10155854534116011'
+    message: "انته ايه المشكله الي بتحاول تحلها . عندك مشاكل في ال  performance  على
+      \ مايسكول؟    ممكن تديني فكره عن حجم الinsert   الي بيحصل في الثانيه ؟  ايه
+      ال  engine  الي بتستعمله للمايسكول؟  ايه مواصفات الهارديسك والرام   والمعالج
+      .  \n عمليه التغيير لمجرد التغيير  عمري ما شفتها منطقيه انته ممكن بالمايسكول
+      تاخد اداء ممتاز جدا .  مونجو   مش احسن اختيار مهياش  اختيار لكل الحالات ."
+    id: '1562470313792671'
+  - created_time: '2017-07-29T21:20:47+0000'
+    from:
+      name: Mohamed Fergany
+      id: '10215339863195300'
+    message: كل الي اقدر اقولهولك ابعد عن مونجو علشان مش ستيبل
+    id: '1562476060458763'
+  - created_time: '2017-07-29T21:26:25+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: اللى محتاج تعرفه قبل ما تقترح حل انك تفهم المشكلة نفسها، لو بتحاول تحسن
+      الperformance يبقى محتاج الاول تprofile الابليكيشن بتاعك علشان تعرف ايه اكتر
+      حاجة بتاخد وقت، لو حصل وكانت الداتابيز فعندك ادوات كتير تستخدمها قبل ماتغير
+      الengine كله زي تحط اندكس فين، نوع الانجين بتاع الجداول، بتحاول تسرع الread
+      ولا الwrite، ايه الريسورسيز اللى مديها للداتابيز، فيه حاجات ممكن تعملها denormalization
+      فى الداتابيز، هل ممكن تعمل كاش للslow queries ، فيه ادوات كتير جدا الناس بتستخدمها
+      قبل ماتنقل لداتابيز تانية، فيه حلول غير تقليدية شوية زي لو الهارديسك بطىء والداتابيز
+      اقل من الميمورى تحطها على tmpfs علشان تكون فى الميمورى وتقلل الio blocks وتبقى
+      تعمل sync مع persistent filesystem ، فيه حلول كتير جدا المهم تفهم الاول المشكلة
+      وبعدين نفكر فى حل مناسب
+    id: '1562479260458443'
+  - created_time: '2017-07-29T21:32:23+0000'
+    from:
+      name: Ahmed Saad ElMaghraby
+      id: '10160119042585037'
+    message: Abd Elrahman Mohamed
+    id: '1562482077124828'
+  - created_time: '2017-07-29T22:44:16+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: |-
+      إسأل نفسك سؤالين:
+      1- هل انت محتاج Transactions؟
+      2- هل محتاج Relations؟
+      لو إجابة السؤالين دول بالنفي يبقى كله عند العرب صابون، بمعنى إن الاتنين موش هيفرقوا عن بعض واستخدم اللي تعرفه بس ساعتها في MySQL اعمل الجداول MyISAM .
+
+      لو إجابة السؤالين بنعم، يبقى خليك MySQL.
+      الاحتمالين التانيين ما اعرفش بصراحة تستخدم إيه.
+    id: '1562519480454421'
+  - created_time: '2017-07-29T23:15:25+0000'
+    from:
+      name: Sara Adel
+      id: '10155918812835729'
+    message: Mohamed Ziada could u read the comments
+    id: '1562537837119252'
+  - created_time: '2017-07-30T00:20:29+0000'
+    from:
+      name: Ahmed Aboulenein
+      id: '10160047384135438'
+    message: 'RDBMS is not versus NoSQL. They complement each other. Choose the right
+      one for your use case. Read this one please by Martin Fowler: https://martinfowler.com/articles/nosql-intro-original.pdf'
+    id: '1562572517115784'
+  - created_time: '2017-07-30T02:16:23+0000'
+    from:
+      name: Ahmed Sabry
+      id: '1847421335299420'
+    message: شكراً جداً لكل الناس اللي علقت، نقطة حابب اوضحها اني هدفي من البوست مش
+      المقارنة مابين النوعين، انا اقصد اني شايف انه مونجو ممكن يكون استخدامها كويس
+      في جزء معين من البروجكت فكان سؤالي ان هل استخدم الاتنين مع بعض شيء كويس ولا
+      ﻷ، زائد ان دا كلوا لسة local ، بس انا هاخد برأي ان الاحسن اني اخلي الموضوع بسيط
+      بدون تشتت، ف هاعمل profiling للبروجكت واشوف ايه ال bottlenecks اللي عندي وبقدر
+      الإمكان احسن ال performance كذلك الحاجات اللي ذكرها Emad Elsaid واخلي موضوع
+      تغيير قاعدة البيانات في الاخر، ولو لاقيت ان المشكلة بسبب قاعدة البيانات هاعمل
+      user simulation واجرب النوعين على اجزاء منه واشوف هل في فرق يستحق التغيير ولا
+      ﻷ
+    id: '1562639200442449'
+  - created_time: '2017-07-30T06:56:53+0000'
+    from:
+      name: Met Wally
+      id: '520998054938412'
+    message: "اه فى الشركات الكبيرة او حتى الصغيرة ال application ممكن يكون بيتعامل
+      اكتر من database engine. بيستفيد باحسن امكانيات موجودة فى كل engine. \nفى احد
+      ال applications اللي اشتغلت فيها كنا مستخدمين مثلا Cassandra وحاطين فيها table
+      واحد فقط. ده غير باقى ال engines التانية."
+    id: '1562794120426957'
+  - created_time: '2017-07-30T11:41:01+0000'
+    from:
+      name: Ibrahim Emara
+      id: '10215467470669264'
+    message: Ahmed Mohsen
+    id: '1562940343745668'
+  - created_time: '2017-07-30T20:51:13+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: "ele enta 2areto 3an el mogo da 80% 3'alat. la2eno kalam beyetkalem 3an
+      specific use case, not yours.\nبالنسبه لانك تستخدم التنين فا انا في واحد من
+      الابس بتاعتي بستخدم\nMysql(mariadb) for base db\nMogoDb (for part of the app
+      -email system-) and\ncouchdb for mobile-first parts of app\nو ده طبيعي لان كل
+      جذء عندي له متتطلبات غير التانيه:\n mysql \n اكيد احسن لل\nrealtions db while
+      nosql(mongo) is better for Document based Db.  while couchdb give me realtime
+      and data sync abilities in ease."
+    id: '1563315803708122'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUyTWpRM01ETXhNemM1TWpZAM01Ub3hOVEF4TXpZAeU56VTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUyTXpNeE5UZA3dNemN3T0RFeU1qb3hOVEF4TkRRM09EY3oZD

@@ -1,0 +1,52 @@
+---
+message: |-
+  I  am wondering how does truecaller database work ?
+
+  I mean if x people save me with x distinct names which name would it use ?
+from:
+  name: Omar Hossam Ahmed
+  id: '10156071955196730'
+type: status
+created_time: '2015-10-19T12:19:50+0000'
+updated_time: '2015-10-20T08:28:47+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1021380397901668/
+id: '172338516139198_1021380397901668'
+reactions:
+  data:
+  - id: '2011214035831274'
+    name: David Gerrad
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTRNamd3T1RBMk1qa3pPakUwTkRVeU5UYzJNRFU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTRNamd3T1RBMk1qa3pPakUwTkRVeU5UYzJNRFU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2015-10-19T13:13:02+0000'
+    from:
+      name: Hossam Abubakr
+      id: '10155858852348046'
+    message: "I don't think any of us actually knows the logic behind their system
+      but I would assume it would :\n1. Use the first entry/mention of the name/number
+      combination \n2. Keep looking for matches and if a new name is being used multiple
+      times for that specific number it would use that instead.\n\nSo I would assume
+      it would use the first name it gets, then the most common name that people use,
+      and if both names are mentioned for equal number of times it would use the oldest/newest
+      based on how they designed it."
+    id: '1021396554566719'
+  - created_time: '2015-10-19T13:23:09+0000'
+    from:
+      name: Omar Hossam Ahmed
+      id: '10156071955196730'
+    message: I guess it would be something close to what you said :D
+    id: '1021399147899793'
+  - created_time: '2015-10-20T08:28:47+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: Saves the first entry until u register  your number yourself.
+    id: '1021700764536298'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF5TVRNNU5qVTFORFUyTmpjeE9Ub3hORFExTWpZAd016ZA3oZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF5TVRjd01EYzJORFV6TmpJNU9Eb3hORFExTXpJNU56STMZD

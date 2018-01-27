@@ -1,0 +1,84 @@
+---
+message: |-
+  السلام عليكم
+
+  Entity Framework Full Text Search
+
+  من فضلكم يا شباب مطلوب منى عند البحث عن اسم مثلا (احمد) يجيب ليا كل اللى اسمهم احمد سواء يبتدى الاسم ب (أ) او (ا) والكلام ده يكون عن طريق Enity طبعا جربت pTDatas.PT_Name.StartsWith(PT_Name) ولكن لقيتها بتجيب النتايج حسب ما انا كاتب يعنى مثلا لو كان احمد بدون همزة كل النتائج حتكون بدون همزة وهكذا
+
+  جربت استخدم pTDatas.PT_Name.Contains(PT_Name) لكن طبعا كانت النتائج فى حاجات كتير بعيده عن البحث المطلوب
+
+  فممكن اعرف الموضوع ده ممكن يتعمل ازاى بحيث لما اكتب الاسم المطلوب يجيبه ليا سواء فيه همزة اولا لا ؟
+from:
+  name: Ahmed Amin
+  id: '1962172197389574'
+type: status
+created_time: '2016-07-31T19:06:34+0000'
+updated_time: '2016-08-01T13:13:23+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1193243724048667/
+id: '172338516139198_1193243724048667'
+comments:
+  data:
+  - created_time: '2016-07-31T21:01:29+0000'
+    from:
+      name: Ahmed Abdo
+      id: '10155432639833282'
+    message: |-
+      في حل
+      انك تعمل خانه تانه للاسم للبحث
+      تبدل فيها كل الحروف العربية القابلة للغبطه
+    id: '1193299660709740'
+  - created_time: '2016-07-31T21:15:53+0000'
+    from:
+      name: سامح دعبس
+      id: '2022490591345439'
+    message: |-
+      و عليك السلام
+      ده حوار, entity framework لا تدعم ال full text search بصورة افتراضية
+      عشان ما تقعدش تلف و تدور حوالين نفسك, أسهل حاجة - فيما أعلم - اعمل stored procedure ابحث فيه عن اللي أنت عاوزه
+    id: '1193304697375903'
+  - created_time: '2016-07-31T21:34:48+0000'
+    from:
+      name: Osama Ali
+      id: '10156238158522384'
+    message: |-
+      بص يا باشا ، بعيد عن اللغة اللي انت شغال بيها ، كفكرة بس ، المشكلة في اللغة العربية هما في الثلاث أحرف (الألف والياء ، والتاء المربوطة) ، كل اللي عليك انك هتبدل وجود اي حرف من دول لو لقيته في جملة البحث بكل إحتمالاته ، وبعدين تعمل OR ما بين كل الكلمات الناتجة ، كمثال لو انت بتبحث عن كلمة (إبراهيم موسى) ، إنت هتعمل script يطلع جملة البحث زي كده (إبراهيم ابراهيم أبراهيم آبراهيم عيسى عيسي) علشان تضمن ان يجيب كل احتمالات الكلمة ، وبعد كده ترتب الناتج حسب الـ Wieght اللي هو عدد ظهور الكلمة في نتائج البحث.
+      لو حابب ابعتلك الكود أنا كنت كتبته مرة بالـ PHP
+    id: '1193311140708592'
+  - created_time: '2016-07-31T22:10:35+0000'
+    from:
+      name: Ahmed Hammad
+      id: '10159881004380503'
+    message: |-
+      اسهل طريقة للقصة دي بتبقى الregex
+      بتحول الكلمة المطلوبة لregex فيه كل الاحتمالات
+
+      لو مفيش دعم للregex يبقى هاتضطر تلجأ للحل اللي في اول تعليق
+      خانة تانية فيها الاسم normalized
+      وتستخدمها وقت البحث فقط
+    id: '1193328354040204'
+  - created_time: '2016-08-01T01:25:17+0000'
+    from:
+      name: Ghoneim
+      id: '10159878140790481'
+    message: REGEX akeeed (y) do it !
+    id: '1193423087364064'
+  - created_time: '2016-08-01T11:04:59+0000'
+    from:
+      name: Mohamed Salem Korayem
+      id: '10159817376550705'
+    message: "What you're trying to achieve is done using Soundex Algorithm\n\nLuckily
+      you can do it in Arabic with .net \n\nhttp://www.codeproject.com/Articles/26880/Arabic-Soundex\n\nBonus:
+      I always use this Nuget with EF to build dynamic search queries ORed together
+      instead of ANDing https://github.com/ninjanye/SearchExtensions"
+    id: '1193676727338700'
+  - created_time: '2016-08-01T13:13:23+0000'
+    from:
+      name: Ahmed Samir
+      id: '10159800858645702'
+    message: Can you make Lucene.NET play well with EF?
+    id: '1193755903997449'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU1TXpJNU9UWTJNRGN3T1RjME1Eb3hORFk1T1RrNE9EZAzUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU1TXpjMU5Ua3dNems1TnpRME9Ub3hORGN3TURVM01qQTAZD

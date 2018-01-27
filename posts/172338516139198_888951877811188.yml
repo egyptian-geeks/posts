@@ -1,0 +1,25 @@
+---
+message: |-
+  First of all, if you didn't, please check that out. https://www.facebook.com/groups/egyptian.geeks/permalink/885359084837134/
+
+  The chrome extension part of that project is done, so now's the time to finish the back-end, but well... I've got a little problem there...
+
+  Originally I'm a PHP developer, but I work with a framework I've made myself. I edited some front-class-interface file I've found out somewhere and I combined it with Symfony2's Universal Class Loader. It was a difficult job but it ended up as something perfectly customized for my needs, I used that to implement few projects and it was perfect.
+
+  But when I think about this project, I need to use something that has more solid rules, like a solid framework or so. I tried CodeIgniter but honestly I don't believe it would be the perfect choice for something like that, especially after the discontinued support and then lending it to another organization and so.
+
+  I never worked with NodeJS nor Meteor (and I mentioned Meteor because even though it's not popular, I've heard incredibly positive feedback about it) so I don't know whether those would be a better choice or not.
+
+  So, what do you guys think? Which framework should I use for something like that? Or should I use my native thing?
+
+  EDIT:
+
+  The back-end should be a simple API that receives some data and returns a URL. There's a lot of processing done in the background though, specifically MHTML to HTML conversion and a lot of regex stuff. There should also be protection against spam so there will be a database that logs user entries where old entries get purged every while and then.
+from:
+  name: Amjad Mashaal
+  id: '10213738834576763'
+type: status
+created_time: '2015-02-01T01:16:46+0000'
+updated_time: '2015-02-09T04:50:31+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/888951877811188/
+id: '172338516139198_888951877811188'

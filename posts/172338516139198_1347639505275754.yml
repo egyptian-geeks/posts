@@ -1,0 +1,152 @@
+---
+message: |-
+  السلام عليكم يا Geeks
+  دلوقتي في مشكلة معايا الحلول البسيطة معاها مش هتنفع
+  المشكلة اني عاوز اقوم بعملية توليد لأرقام شركات اتصالات
+  العملية المفروض تديني قائمة بكل الارقام الممكنة حتي لو مليار رقم مش مهم.
+  Ex:
+  011 - 24873097
+  انا محتاج كل الاحتمال للجزء 24873097
+  الحل الي بدور عليه المفروض يبقي متاح لأرقام تانية احتمالات الجزء 24873097 يبقي اكبر
+  لان العملية هتبقي لشركات اتصالات بشكل موسع حول العالم.
+  حلول ال Nested Loop هتسبب مشاكل فعاوزين نوصل لحلول مثلي بقدر الامكان.
+  بصراحة انا معرفش ايه الحلول الي ممكن استخدمها بس ممكن نتناقش فيها.
+from:
+  name: احمد قرواش
+  id: '1561022257326859'
+type: status
+created_time: '2017-01-07T01:17:27+0000'
+updated_time: '2017-01-08T09:24:27+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1347639505275754/
+shares:
+  count: 1
+id: '172338516139198_1347639505275754'
+reactions:
+  data:
+  - id: '10211017680974039'
+    name: Moaaz Mahmoud
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRFeE5USXlORGc0T0RveE5EZA3pOelUwTmpBeU9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRFeE5USXlORGc0T0RveE5EZA3pOelUwTmpBeU9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2017-01-07T01:19:42+0000'
+    from:
+      name: احمد قرواش
+      id: '1561022257326859'
+    message: Muhammad Al Rabbani اسف اتمسح مني بالغلط البوست
+    id: '1347641225275582'
+  - created_time: '2017-01-07T01:20:22+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: so 8 digits, maximum is 99999999 and minumum is 000000000
+    id: '1347642448608793'
+  - created_time: '2017-01-07T01:20:43+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: why a nested loop, just do a single loop and generate the numbers or
+      use list comprehension in Python
+    id: '1347642685275436'
+  - created_time: '2017-01-07T01:20:49+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: or Streams in Java
+    id: '1347642721942099'
+  - created_time: '2017-01-07T01:22:44+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: |-
+      من الآخر انت بتنتج كل تباديل الأرقام من 0-9 على عدد معين من الأرقام, Permutations يعني, فيه طبعاً شوية قيود بتحدد الأرقام زي انت مفيش ارقام بتبدأ بصفر مثلاً.
+      دور على أي كود بيعمل  Permutation Generation With Repetition و استخدمه. الموضوع بسيط.
+      بس خلي بالك احنا بنتكلم على رقم في حدود 10^10
+    id: '1347643345275370'
+  - created_time: '2017-01-07T01:25:06+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: Why generate every time, generate once, a loop that goes up to 99999999
+      is not that much of a problem
+    id: '1347644665275238'
+  - created_time: '2017-01-07T01:25:31+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: we're talking 99 million here
+    id: '1347644935275211'
+  - created_time: '2017-01-07T01:25:48+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: or streams and just use the stream to generate the next number
+    id: '1347645028608535'
+  - created_time: '2017-01-07T01:29:49+0000'
+    from:
+      name: Rehan Hossam
+      id: '10156484962365616'
+    message: The 300 company has a prefixed 3 digits at least, so this is the first
+      loop, the 2nd loop will be all numbers from 00000000 to 99999999
+    id: '1347646251941746'
+  - created_time: '2017-01-07T01:32:48+0000'
+    from:
+      name: Mohamed Amin
+      id: '2016714868586746'
+    message: Permutations
+    id: '1347648145274890'
+  - created_time: '2017-01-07T01:40:38+0000'
+    from:
+      name: Ahmed Emad
+      id: '972427452913044'
+    message: "الرابط ده فيه شرح لاداه crunch علي لينكس بتعمل الي انت عايزه ده\nممكن
+      تفيدك \nhttp://tech-secu.blogspot.com.eg/2014/08/crunch-tool-password-generator.html?m=1"
+    id: '1347656951940676'
+  - created_time: '2017-01-07T01:41:53+0000'
+    from:
+      name: Taha Amin
+      id: '10155815529215590'
+    message: O(n) using python
+    id: '1347661091940262'
+  - created_time: '2017-01-07T02:07:23+0000'
+    from:
+      name: Mohannad Ali
+      id: '10155955385444519'
+    message: If you are going to use python, its better to use generators rather than
+      iterators or list comprehension if the list is going to be really big like in
+      your use-case
+    id: '1347678025271902'
+  - created_time: '2017-01-07T02:09:10+0000'
+    from:
+      name: Taha Amin
+      id: '10155815529215590'
+    message: It's one time use
+    id: '1347678701938501'
+  - created_time: '2017-01-07T08:31:11+0000'
+    from:
+      name: Mohamad Emad
+      id: '1487671784675336'
+    message: Try crunch it is for dictionary attacks but should work fine for you
+    id: '1347865848586453'
+  - created_time: '2017-01-07T12:04:56+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: في حاجة موش فاهمها. انت عاوز رقم مكون من 8 أعداد يعني حاجة (مبدأياً)
+      محصورة ما بين 10 مليون و 99 مليون و 999,999 إيه بقى اللي يمنع انك تعمل loop
+      عادي زي اللي كلنا عارفينه (ده باعتبار ان الكمبيوتر موش هيهنج) ولو كان هيهنج
+      يبقى تقسمهم على اكتر من loop
+    id: '1347969618576076'
+  - created_time: '2017-01-08T09:24:24+0000'
+    from:
+      name: Ahmed Eid
+      id: '762135870664322'
+    message: مفيش داعي ل nested loop .. هي loop واحده هتلف تكون ال permutations ...
+    id: '1348696958503342'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0wTnpZAME1USXlOVEkzTlRVNE1qb3hORGd6TnpVeE9UZA3kZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0wT0RZANU5qazFPRFV3TXpNME1qb3hORGd6T0RZAM05EWTEZD

@@ -1,0 +1,74 @@
+---
+message: 'Super useful this move save me about 1/4 of the space of the project on
+  github '
+link: http://stackoverflow.com/questions/21573405/how-to-prepare-a-unity-project-for-git
+from:
+  name: Ahmed Khaled
+  id: '2096358110650589'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQBicEnZEnV912SL&w=130&h=130&url=https%3A%2F%2Fcdn.sstatic.net%2FSites%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded&cfs=1&_nc_hash=AQDvsiX7ONHDf146
+created_time: '2017-03-31T12:46:32+0000'
+updated_time: '2017-03-31T13:47:10+0000'
+name: How to prepare a Unity project for git?
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1438113376228366/
+shares:
+  count: 2
+id: '172338516139198_1438113376228366'
+reactions:
+  data:
+  - id: '2029806313704072'
+    name: Adam Zahran
+    type: LIKE
+  - id: '1661221980591154'
+    name: Khalid Karam
+    type: LIKE
+  - id: '10155077834231790'
+    name: Mohamed Ossama Abdallah
+    type: LIKE
+  - id: '10156089336182292'
+    name: Hassan Aly Selim
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdNalF4Tmpnek16YzFPakUwT1RBNU56WTBNems2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TlRFNU5qa3lNamt4T2pFME9UQTVOalEwTnpnNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-03-31T12:49:00+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: One more thing that I'll try using next time I make a git repo for a
+      unity project is to use Git LFS to handle large binary assets, it should make
+      cloning/pulling faster.
+    id: '1438115362894834'
+  - created_time: '2017-03-31T13:43:05+0000'
+    from:
+      name: Mohamed Ossama Abdallah
+      id: '10155077834231790'
+    message: |-
+      +1 on using Git LFS and I advise everyone to use it in any new Unity/game/binary-heavy project and from the beginning before adding any files, track all the regularly updated binary files with it. It would be so smooth to setup on client side.
+
+      In game projects the repository could grow 1GB per month easily. It was actually a good reason for older projects to stay on SVN, we recently migrated to Git LFS and we're now almost stable at 330MB and increasing only a few MB's / month :D
+
+      The thing is though, migrating those binary files from the history to Git LFS is tricky and time-consuming, unless you're ready to throw the history away (or in some backup fork of the repo somewhere) then might be easier.
+    id: '1438158606223843'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF6T0RFeE5UTTJNamc1TkRnek5Eb3hORGt3T1RZAME5UUXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF6T0RFMU9EWXdOakl5TXpnME16b3hORGt3T1RZAM056ZAzEZD
+attachments:
+  data:
+  - description: What are the steps necessary to prepare a Unity project for committing
+      to a git repository eg. github? I don't want to store unnecessary files (specially
+      temp files and avoid binary formats as much...
+    media:
+      image:
+        height: 316
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAMFLWvXjUlRuS7&w=720&h=720&url=https%3A%2F%2Fcdn.sstatic.net%2FSites%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded&cfs=1&_nc_hash=AQBDUhzXdwnk-uG7
+        width: 316
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F21573405%2Fhow-to-prepare-a-unity-project-for-git&h=ATNpkM2bp_tkr6s5m497ORkRS9KjjyX1W7UvHuC12Ri4XhETHVLcdrKM1XPM5I0DZoxou56eBMxJBpVA8PfrEpo3WjxbPanugdbT&s=1&enc=AZOhNKnCE9WaVN-xNZn8geZGPniMhclJkGgx54id9U1wb25syb1ovhwqy7_GuH-KDrHiWVigAify-Fn3OV4qBNdL
+    title: How to prepare a Unity project for git?
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F21573405%2Fhow-to-prepare-a-unity-project-for-git&h=ATNpkM2bp_tkr6s5m497ORkRS9KjjyX1W7UvHuC12Ri4XhETHVLcdrKM1XPM5I0DZoxou56eBMxJBpVA8PfrEpo3WjxbPanugdbT&s=1&enc=AZOhNKnCE9WaVN-xNZn8geZGPniMhclJkGgx54id9U1wb25syb1ovhwqy7_GuH-KDrHiWVigAify-Fn3OV4qBNdL

@@ -1,0 +1,145 @@
+---
+message: "I have a dual boot ( Debian based distro with Windows 10 )\n\nI have problem
+  (moving, copying, processing) between the linux driver and other drivers. \n\nI
+  have tried changing premissions, along aside using root privileges, still can't
+  edit anything on the mounted drivers.\n\nAny advices?"
+from:
+  name: Ali Mohamed
+  id: '2005333593078956'
+type: status
+created_time: '2017-07-21T20:12:55+0000'
+updated_time: '2017-07-23T07:02:48+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1554325231273846/
+id: '172338516139198_1554325231273846'
+comments:
+  data:
+  - created_time: '2017-07-21T21:34:18+0000'
+    from:
+      name: Mohamed El-Shahawi
+      id: '2760687167500624'
+    message: "It would be better if you add the error msg or screenshot to your post\n\nIn
+      Terminal type\nsudo mount \nAnd check if partitions is mounted as r/w or doesn't
+      have 'ro' flag"
+    id: '1554381281268241'
+  - created_time: '2017-07-21T22:11:25+0000'
+    from:
+      name: Ali Mohamed
+      id: '2005333593078956'
+    message: as i told it's about permissions but i have already changed it to r/w,
+      so i dunno what to do further ..
+    id: '1554403164599386'
+  - created_time: '2017-07-21T22:14:12+0000'
+    from:
+      name: Mohamed El-Shahawi
+      id: '2760687167500624'
+    message: Please verify if the target partition is mounted without  'ro' flag or
+      mounted with 'rw' flag.
+    id: '1554404727932563'
+  - created_time: '2017-07-21T22:14:28+0000'
+    from:
+      name: Ali Mohamed
+      id: '2005333593078956'
+    message: |-
+      /dev/sda5 on /mnt/01D23A7234DDF590 type fuseblk (ro,nosuid,nodev,relatime,user_id=0,group_id=0,allow_other,blksize=4096)
+      binfmt_misc on /proc/sys/fs/binfmt_misc type binfmt_misc (rw,relatime)
+      /dev/sda7 on /mnt/01D23A7239C1A340 type fuseblk (ro,nosuid,nodev,relatime,user_id=0,group_id=0,allow_other,blksize=4096)
+      /dev/sda6 on /mnt/01D23A72373923A0 type fuseblk (ro,nosuid,nodev,relatime,user_id=0,group_id=0,allow_other,blksize=4096)
+
+      #readonly
+    id: '1554404944599208'
+  - created_time: '2017-07-21T22:16:07+0000'
+    from:
+      name: Mohamed El-Shahawi
+      id: '2760687167500624'
+    message: Multiple partitions are  mounted as Read Only
+    id: '1554406147932421'
+  - created_time: '2017-07-21T22:16:19+0000'
+    from:
+      name: Mohamed El-Shahawi
+      id: '2760687167500624'
+    message: Check /etc/fstab
+    id: '1554406291265740'
+  - created_time: '2017-07-21T22:18:26+0000'
+    from:
+      name: Ali Mohamed
+      id: '2005333593078956'
+    message: yep, i did ...but edit is beyond permissions
+    id: '1554407184598984'
+  - created_time: '2017-07-21T22:19:28+0000'
+    from:
+      name: Ali Mohamed
+      id: '2005333593078956'
+    message: |-
+      # /etc/fstab: static file system information.
+      #
+      # Use 'blkid' to print the universally unique identifier for a
+      # device; this may be used with UUID= as a more robust way to name devices
+      # that works even if disks are added and removed. See fstab(5).
+      #
+      # <file system> <mount point>   <type>  <options>       <dump>  <pass>
+      # / was on /dev/sda8 during installation
+      UUID=d0dc5bb4-25a3-4c5a-be56-b01794e1350a /               ext4    errors=remount-ro 0       1
+      # swap was on /dev/sda9 during installation
+      UUID=139b128c-a627-41f8-97f2-28010bb81b65 none            swap    sw              0       0
+      /dev/sr0        /media/cdrom0   udf,iso9660 user,noauto     0       0
+      /dev/disk/by-uuid/01D23A7234DDF590 /mnt/01D23A7234DDF590 auto nosuid,nodev,nofail,x-gvfs-show,ro 0 0
+      /dev/disk/by-uuid/01D23A72373923A0 /mnt/01D23A72373923A0 auto nosuid,nodev,nofail,x-gvfs-show,ro 0 0
+      /dev/disk/by-uuid/01D23A7239C1A340 /mnt/01D23A7239C1A340 auto nosuid,nodev,nofail,x-gvfs-show,ro 0 0
+    id: '1554407671265602'
+  - created_time: '2017-07-21T22:24:45+0000'
+    from:
+      name: Mohamed El-Shahawi
+      id: '2760687167500624'
+    message: |-
+      You need root permissions to access /etc/fstab
+      On the last three lines change ro to rw then reboot and try again
+    id: '1554412857931750'
+  - created_time: '2017-07-21T22:25:41+0000'
+    from:
+      name: Ali Mohamed
+      id: '2005333593078956'
+    message: im logging as a root user , that's actually my problem :D
+    id: '1554414011264968'
+  - created_time: '2017-07-21T22:28:45+0000'
+    from:
+      name: Ali Mohamed
+      id: '2005333593078956'
+    message: anyway thanks :)
+    id: '1554416624598040'
+  - created_time: '2017-07-21T22:30:29+0000'
+    from:
+      name: Mohamed El-Shahawi
+      id: '2760687167500624'
+    message: Can you tell me the output of ls -al /etc/fstab
+    id: '1554417387931297'
+  - created_time: '2017-07-22T05:26:31+0000'
+    from:
+      name: Mohamed Salah
+      id: '442714802813794'
+    message: http://www.ext2fsd.com/
+    id: '1554686497904386'
+  - created_time: '2017-07-22T06:21:12+0000'
+    from:
+      name: Ali Mohamed
+      id: '2005333593078956'
+    message: Mohamed problem solved, thank you ..
+    id: '1554720761234293'
+  - created_time: '2017-07-22T08:18:25+0000'
+    from:
+      name: Mohamed El-Shahawi
+      id: '2760687167500624'
+    message: |-
+      Ali Mohamed if you don't mind, please share the solution with us.
+      Thanks :)
+    id: '1554787537894282'
+  - created_time: '2017-07-23T07:02:45+0000'
+    from:
+      name: Ali Mohamed
+      id: '2005333593078956'
+    message: i have used Vim Editor and it worked, i dont know why it didn't work
+      with the cat !
+    id: '1555839447789091'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUxTkRNNE1USTRNVEkyT0RJME1Ub3hOVEF3TmpjeU9EVTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUxTlRnek9UUTBOemM0T1RBNU1Ub3hOVEF3Tnprek16WTEZD

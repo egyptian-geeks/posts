@@ -1,0 +1,191 @@
+---
+message: |-
+  أعيروني انتباهكم: أنا بعمل git cheatsheet ومحتاج مساعدتكم.
+  كل الcheatsheets بتنظم الcommands عن طريق إنها بتحط الcommands اللي ليها علاقة ببعض مع بعض.
+  أنا عايز أخلي الcheatsheet بتاعي يحط الcommands الأكثر استخداماً فالأقل والأقل.
+  ولذلك عايز كل واحد فيكوا يعلم علي أكتر خمس commands بيستخدمهم وهو شغال.
+  لاحظوا إني مش حاطط الحاجات الأساسية زي git status و git add وبتاع.
+  add your own choice if it doesn't exist.
+from:
+  name: Adam Zahran
+  id: '2029806313704072'
+type: status
+created_time: '2016-05-05T21:29:57+0000'
+updated_time: '2016-06-09T13:45:49+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1137998659573174/
+id: '172338516139198_1137998659573174'
+reactions:
+  data:
+  - id: '10215482677129679'
+    name: Ahmed Adel Radwan
+    type: LIKE
+  - id: '10154984279367167'
+    name: Hameed Gamal
+    type: LIKE
+  - id: '10156115350739764'
+    name: Mahmoud Tantawy
+    type: LIKE
+  - id: '10155718491105804'
+    name: Wahid Shalaly
+    type: LIKE
+  - id: '10155855157936047'
+    name: Mosab Ibrahim
+    type: LIKE
+  - id: '10155880569740170'
+    name: Meligy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRVeU1UQTBPRGN3TXpveE5EWTFORGd4TkRjME9qSTFOREE1TmpFMk1UTT0ZD
+      after: TlRRME9ERTFNVFk1T2pFME5qSTFNREV3TkRFNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-05-05T21:42:27+0000'
+    from:
+      name: Adam Zahran
+      id: '2029806313704072'
+    message: |-
+      this command could help you find out:
+      history | grep git | grep -v 'add\|commit\|push\|pull\|checkout\|merge\|branch\|clone\|status\|config\|remote'
+    id: '1138002006239506'
+  - created_time: '2016-05-05T22:05:07+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: "WOW why git fetch is so popular on its own, I usually just do \ngit
+      pull --rebase and call it a day :D"
+    id: '1138010496238657'
+  - created_time: '2016-05-05T22:45:11+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: |-
+      nice variations from above commands I like.
+      git log --oneline
+      git log --graph
+      You can mix the previous two as well.
+
+      git add --all
+      adds everything (including deleted or moved files to staging)
+
+      git pull --rebase
+      discussed above, in a previous commit.
+    id: '1138024796237227'
+  - created_time: '2016-05-06T02:21:06+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      Very good idea.
+
+      I checked the commands I often run from the terminal, and skipped things that I get a UI to do for me (for example, I don't usually run git add, and when I commit, I do it from Git Extensions). These include don't commands I sometimes run from UI and sometimes from terminal (like git pull).
+    id: '1138104536229253'
+  - created_time: '2016-05-06T05:53:10+0000'
+    from:
+      name: Adam Zahran
+      id: '2029806313704072'
+    message: I'd like to note that there's a special place in hell for those who voted
+      without reading the poll question. :D no offense.
+    id: '1138183602888013'
+  - created_time: '2016-05-06T08:11:14+0000'
+    from:
+      name: Mohamed Bassem
+      id: '10212826240185281'
+    message: |-
+      Something that's worth sharing is the "-p" flag. I hate "git add ." or "git add --all". Usually it ends up with me staging a binary, a file that I forgot to add to .gitignore or a debugging line that I forgot to remove. I got used to the following two commands:
+      git add -p
+      git checkout -p
+      The add one asks you about each diff whether you want to stage it, skip it for now or split it into smaller diffs. Same goes with the checkout one which asks you about each diff and whether you want to reset it to HEAD or not. Those two are very useful, you get to review each line you stage before committing it.
+      "git log -p" is also cool, it shows you the actual diffs in the logs instead of only showing you the commit messages.
+      Also another useful one that Saher told me about is this alias:
+      "dw = diff --color-words='\\w+|[^[:space:]]"
+      this gives you a diff colored by words instead of lines, like the one on github.
+    id: '1138240222882351'
+  - created_time: '2016-05-06T09:03:22+0000'
+    from:
+      name: Mahmoud Tantawy
+      id: '10156115350739764'
+    message: Am I the only one who would appreciate more a cheat sheet for the LEAST
+      used commands as they are the ones you are not accustomed to but need badly
+      in disasters?
+    id: '1138262169546823'
+  - created_time: '2016-05-06T14:34:02+0000'
+    from:
+      name: Mohammad Alaggan
+      id: '10154985539677085'
+    message: I am surprised I am not seeing git branch !
+    id: '1138396106200096'
+  - created_time: '2016-05-06T15:36:33+0000'
+    from:
+      name: Hany Essam
+      id: '1666352796756592'
+    message: يعنى add و status من الحاجات الأساسيه و commit و push لا ؟؟
+    id: '1138428276196879'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV6T0RBd01qQXdOakl6T1RVd05qb3hORFl5TkRnME5UUTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV6T0RReU9ESTNOakU1TmpnM09Ub3hORFl5TlRRNE9Ua3oZD
+attachments:
+  data:
+  - subattachments:
+      data:
+      - target:
+          id: '270658269942335'
+        title: Git commit
+        type: option
+      - target:
+          id: '1016584685044717'
+        title: git push
+        type: option
+      - target:
+          id: '1006797042723552'
+        title: Git pull
+        type: option
+      - target:
+          id: '1752095895030769'
+        title: git fetch
+        type: option
+      - target:
+          id: '530025157176380'
+        title: git diff
+        type: option
+      - target:
+          id: '1565446443753720'
+        title: git stash
+        type: option
+      - target:
+          id: '522004584668212'
+        title: git log
+        type: option
+      - target:
+          id: '1625990687725789'
+        title: git checkout
+        type: option
+      - target:
+          id: '1061105543959396'
+        title: Git add
+        type: option
+      - target:
+          id: '1571111209885893'
+        title: git reset --hard <commit>
+        type: option
+      - target:
+          id: '118946325180481'
+        title: git rebase
+        type: option
+      - target:
+          id: '631284603689942'
+        title: git rm, git mv
+        type: option
+    target:
+      id: '1137998646239842'
+      url: https://www.facebook.com/groups/egyptian.geeks/permalink/1137998659573174/
+    title: |-
+      أعيروني انتباهكم: أنا بعمل git cheatsheet ومحتاج مساعدتكم.
+      كل الcheatsheets بتنظم الcommands عن طريق إنها بتحط الcommands اللي ليها علاقة ببعض مع بعض.
+      أنا عايز أخلي الcheatsheet بتاعي يحط الcommands الأكثر استخداماً فالأقل والأقل.
+      ولذلك عايز كل واحد فيكوا يعلم علي أكتر خمس commands بيستخدمهم وهو شغال.
+      لاحظوا إني مش حاطط الحاجات الأساسية زي git status و git add وبتاع.
+      add your own choice if it doesn't exist.
+    type: question
+    url: https://www.facebook.com/groups/egyptian.geeks/permalink/1137998659573174/

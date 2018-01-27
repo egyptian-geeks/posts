@@ -1,0 +1,25 @@
+---
+message: |-
+  Hello geeks,
+
+  I have a project that requires data transfer between a desktop application written  with node-webkit and another application written in C#.
+
+  The communication will be done throw files ( A file written by either of them is read using the other )
+
+  the data must be encrypted in files. We use AES-256-CBC.
+
+  The problem is that the resulting string from the 2 parties are not identical when using the same key and IV.
+
+  Any one has any knowledge in this or has a working example ?
+
+  I can provide codes if you want.
+
+  Thank you
+from:
+  name: Mahmoud Abd El-Fattah
+  id: '10156358805885288'
+type: status
+created_time: '2015-02-11T10:54:59+0000'
+updated_time: '2015-02-12T17:54:47+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/893764397329936/
+id: '172338516139198_893764397329936'

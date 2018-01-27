@@ -1,0 +1,52 @@
+---
+message: 'ياريت لو حد من الجيكس اللي بيشتغلوا ب لارافيل 5 يساعدوني بإجابة على هذا
+  السؤال بخصوص ال Pagination:
+
+'
+link: https://stackoverflow.com/questions/42776102/how-to-remove-query-string-page-from-the-first-page-of-laravel-pagination
+from:
+  name: Said Bakr
+  id: '10155965038378745'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQBicEnZEnV912SL&w=130&h=130&url=https%3A%2F%2Fcdn.sstatic.net%2FSites%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded&cfs=1&_nc_hash=AQDvsiX7ONHDf146
+created_time: '2017-03-14T03:07:45+0000'
+updated_time: '2017-03-14T21:07:55+0000'
+name: How to remove query string page from the first page of laravel pagination?
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1419889958050708/
+id: '172338516139198_1419889958050708'
+comments:
+  data:
+  - created_time: '2017-03-14T06:33:26+0000'
+    from:
+      name: Ramy Tamer
+      id: '2020727481277546'
+    message: Why don't you check for the query string and if it equals 1, redirect
+      to the page without the page query param
+    id: '1419995114706859'
+  - created_time: '2017-03-14T18:41:27+0000'
+    from:
+      name: Khaled Elnaggar
+      id: '10215461207703148'
+    message: |-
+      ممكن تقرا الجزئية دي ؟  انك ممكن customize ال pagination view
+      https://laravel.com/docs/5.4/pagination#customizing-the-pagination-view
+    id: '1420519364654434'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF4T1RrNU5URXhORGN3TmpnMU9Ub3hORGc1TkRjek1qQTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF5TURVeE9UTTJORFkxTkRRek5Eb3hORGc1TlRFMk9EZAzUZD
+attachments:
+  data:
+  - description: 'I''m using laravel-5.4 pagination like the following: public function
+      index() { $jobs = Job::paginate(5); return view(''job.index'', compact(''jobs''));
+      } In the view: {{ $job...'
+    media:
+      image:
+        height: 316
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAMFLWvXjUlRuS7&w=720&h=720&url=https%3A%2F%2Fcdn.sstatic.net%2FSites%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded&cfs=1&_nc_hash=AQBDUhzXdwnk-uG7
+        width: 316
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F42776102%2Fhow-to-remove-query-string-page-from-the-first-page-of-laravel-pagination&h=ATPPbme3s1Vn-oWPlMvFtlyqPktrkLSO4Fv837Fm6oH-4pGrkFTjXvITADhw-uH566skAY_H98tw1Vcwsgm5HqdHttUhYIzhlj7v&s=1&enc=AZOXeN17mEtBjGQV6KpNxSPydhnaSGAeEgK8CcKDDpOI2mEvT8OHAY5qe3mgVrfrctgI6WphH-6hGFRrbPh9i3D9
+    title: How to remove query string page from the first page of laravel pagination?
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F42776102%2Fhow-to-remove-query-string-page-from-the-first-page-of-laravel-pagination&h=ATPPbme3s1Vn-oWPlMvFtlyqPktrkLSO4Fv837Fm6oH-4pGrkFTjXvITADhw-uH566skAY_H98tw1Vcwsgm5HqdHttUhYIzhlj7v&s=1&enc=AZOXeN17mEtBjGQV6KpNxSPydhnaSGAeEgK8CcKDDpOI2mEvT8OHAY5qe3mgVrfrctgI6WphH-6hGFRrbPh9i3D9

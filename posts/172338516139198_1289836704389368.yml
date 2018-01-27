@@ -1,0 +1,47 @@
+---
+message: Hello guys, so I wrote a small python program that uses imported packages,
+  how do I run it on another environment without having to import the packages again?
+from:
+  name: Mohamed Oun
+  id: '10213382124519901'
+type: status
+created_time: '2016-11-11T21:56:29+0000'
+updated_time: '2016-11-11T23:37:41+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1289836704389368/
+id: '172338516139198_1289836704389368'
+comments:
+  data:
+  - created_time: '2016-11-11T21:58:42+0000'
+    from:
+      name: Mariam Maarouf
+      id: '10155779091916638'
+    message: 'See this: http://docs.python-guide.org/en/latest/dev/virtualenvs/'
+    id: '1289837471055958'
+  - created_time: '2016-11-11T22:19:57+0000'
+    from:
+      name: Mohamed Oun
+      id: '10213382124519901'
+    message: I don't think that's what I meant, what I meant is I need a way to package
+      the imports with my project so when I run it anywhere I don't need to import
+      the packages again. Like compiling an exe.
+    id: '1289849377721434'
+  - created_time: '2016-11-11T22:23:56+0000'
+    from:
+      name: Mohamed Oun
+      id: '10213382124519901'
+    message: for example, my program uses numpy and sklearn, I want to run it on other
+      computers that don't have those installed. Can I do that?
+    id: '1289851247721247'
+  - created_time: '2016-11-11T23:12:57+0000'
+    from:
+      name: Hisham Abd El-Hafez Eid
+      id: '10156032627411171'
+    message: "If you are distributing it to technical audience or power users use
+      pip\nhttp://docs.python-guide.org/en/latest/shipping/packaging/\n\nif you are
+      distributing to end users, you need to freeze your code \nhttp://docs.python-guide.org/en/latest/shipping/freezing/#freezing-your-code-ref\nUse
+      something like pyinstaller to Freeze it.\nhttp://www.pyinstaller.org/"
+    id: '1289875911052114'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEk0T1Rnek56UTNNVEExTlRrMU9Eb3hORGM0T1RBeE5USXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEk0T1RnM05Ua3hNVEExTWpFeE5Eb3hORGM0T1RBMU9UZA3cZD

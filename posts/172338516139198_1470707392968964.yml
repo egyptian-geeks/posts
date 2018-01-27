@@ -1,0 +1,27 @@
+---
+message: |-
+  Node ppl,
+
+  Sequalize vs. Node ORM2 in terms of performance ?
+from:
+  name: Hatem Abdel Mowgoud Hassan
+  id: '10155782260721508'
+type: status
+created_time: '2017-05-01T19:16:22+0000'
+updated_time: '2017-05-02T07:34:35+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1470707392968964/
+id: '172338516139198_1470707392968964'
+comments:
+  data:
+  - created_time: '2017-05-02T07:34:29+0000'
+    from:
+      name: Tareq El-Masri
+      id: '2478303849061627'
+    message: |-
+      I don't think you'd find much difference in performance, but I would recommend Sequalize
+      https://npmcompare.com/compare/bookshelf,objection,orm,sequelize,sql-bricks
+    id: '1471084462931257'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEzTVRBNE5EUTJNamt6TVRJMU56b3hORGt6TnpFd05EY3kZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEzTVRBNE5EUTJNamt6TVRJMU56b3hORGt6TnpFd05EY3kZD

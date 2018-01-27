@@ -1,0 +1,68 @@
+---
+message: "احنا بنعمل app والمفروض هيبقى لكل عميل مستخدمة ال shared database بتاعتة
+  المشكلة دلوقتى انى المفروض اعمل archive data لكل عميل عندى فى db منفصلة اية الحل
+  لان \nMongoose doesn't allow to use multiple databases in single mongoose instance"
+from:
+  name: Ahmed Abo Mazin
+  id: '1758521440903748'
+type: status
+created_time: '2017-08-20T09:10:34+0000'
+updated_time: '2017-08-20T12:10:36+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1585017964871239/
+id: '172338516139198_1585017964871239'
+reactions:
+  data:
+  - id: '1975748132439825'
+    name: Tarek Mahmoud
+    type: LIKE
+  - id: '1999404703666635'
+    name: Ahmed HaMada
+    type: LIKE
+  - id: '1999765416908747'
+    name: Ahmed Khalifa
+    type: LIKE
+  - id: '1638668526186387'
+    name: Mostafa Sakr
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdNVE01TnpJMU1ESXhPakUxTURNeU16UTVOVEU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXhNamszTmpjeU56QTBPakUxTURNeU1qSXdNRE02TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-08-20T09:15:08+0000'
+    from:
+      name: Ahmad Hisham
+      id: '10159889607765058'
+    message: Use multiple instances, best do it in Containers using Docker
+    id: '1585019931537709'
+  - created_time: '2017-08-20T09:40:34+0000'
+    from:
+      name: Mostafa Sakr
+      id: '1638668526186387'
+    message: Build it as a multi tenant
+    id: '1585032471536455'
+  - created_time: '2017-08-20T10:30:20+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: Perfect use case for dynamodb
+    id: '1585061181533584'
+  - created_time: '2017-08-20T10:40:31+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: Although I need to ask for archival, couldn't you use S3? And query it
+      at rest?
+    id: '1585068584866177'
+  - created_time: '2017-08-20T10:44:20+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: انا مش فاهم المشكلة قوي برضه، يعني ال app بيحط بيانات كل المستخدمين في
+      نفس ال db بس انت عاوز ال archive يبقى في db منفصلة لكل عميل؟
+    id: '1585070418199327'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU0TlRBeE9Ua3pNVFV6Tnpjd09Ub3hOVEF6TWpJd05UQTUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU0TlRBM01EUXhPREU1T1RNeU56b3hOVEF6TWpJMU9EWXgZD

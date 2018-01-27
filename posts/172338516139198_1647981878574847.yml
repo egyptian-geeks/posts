@@ -1,0 +1,202 @@
+---
+message: سؤال لل..  موبايل جييكس  ..  احنا عندنا مشكله اننا عاوزيين نضمن ان الموبايلات
+  الي داخله علي البيج سيرفر سايد  عندنا من مكان معين    .. مول مثلا   ... اي حد بره
+  المول بمسافه كبيره ميت متر مثلا مينفعش يدخل ... ازاي نعملها سيرفر سايد و كلاينت
+  سايد موبايل اندروىد باستخدام اللوكيشن
+from:
+  name: Amr Abd El Latief
+  id: '1594051947344558'
+type: status
+created_time: '2017-10-31T10:58:56+0000'
+updated_time: '2017-11-01T05:12:51+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1647981878574847/
+id: '172338516139198_1647981878574847'
+reactions:
+  data:
+  - id: '1727796783939160'
+    name: Osama Mattar
+    type: LIKE
+  - id: '1996761363674162'
+    name: Amr A. Abd El-AZiz
+    type: LIKE
+  - id: '10155627181650141'
+    name: Mostafa Amin
+    type: LIKE
+  - id: '405904443164782'
+    name: ريم
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhNalkxTmpZAd016WTRPakUxTURrME9EUTBOekU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01ERXlNelUyT0RneU5qUTJPakUxTURrME5EZA3dPVGM2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-10-31T11:12:40+0000'
+    from:
+      name: Mahmoud Hossam
+      id: '1360912124012585'
+    message: |-
+      On the server side, you'll need a GIS enabled database like PostGIS.
+
+      PostGIS has functions like ST_DWithin that checks if the user's location is within a defined area (the mall in your case).
+
+      On the client side, you'll need to notify the server with location changes every few minutes and get authorization from the server based on the current location, typically through an endpoint on the server.
+
+      https://postgis.net/docs/ST_DWithin.html
+    id: '1648593645180337'
+  - created_time: '2017-10-31T11:15:51+0000'
+    from:
+      name: Hany Ahmed
+      id: '10156089330442292'
+    message: |-
+      1. get the gps coordinates of the user - client side JS/Android API
+      2. send them in a specific header with every request
+      3. check server-side
+
+      you can also make the same check client-side
+    id: '1648595295180172'
+  - created_time: '2017-10-31T11:22:54+0000'
+    from:
+      name: Ahmed Mustafa
+      id: '1618918961521078'
+    message: you should consider that mainly it depends on a client side so anyone
+      can manipulate the coordinates to any values and get access to the site
+    id: '1648599275179774'
+  - created_time: '2017-10-31T11:34:53+0000'
+    from:
+      name: Mohamed Aboali
+      id: '10156055860969104'
+    message: Google beacons https://developers.google.com/beacons/overview
+    id: '1648608408512194'
+  - created_time: '2017-10-31T11:57:51+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "You should consider that the user may fake his location, and you have
+      no way to share location other than client side provided data, so you should
+      never trust client side for critical decisions, access, authorization, validation..
+      etc..\nLocation may be used in a guiding manner or in non-critical operations,
+      or if a user cannot benefit from faking his location..\n\nOther solution I recommend
+      is that you limit the backend to a specific incoming real IP address of a WIFI
+      access point inside the mall, it will provide you with natural physical location
+      limitation (after immuning it from KRACK) \U0001F602\n\nThough it has a drawback
+      of forcing your users to switch their connection to your WiFi access point.\n\nYou
+      also have to set a client software in your network to update the backend with
+      the accepted IP address every time the ISP address is changed in case if you
+      went with that solution."
+    id: '1648624451843923'
+  - created_time: '2017-10-31T12:12:23+0000'
+    from:
+      name: Hany Ahmed
+      id: '10156089330442292'
+    message: |-
+      https://developers.google.com/maps/documentation/geolocation/intro
+      فيه معلومتين مهمين ممكن تفهم منهم مكان اليوزر غير ال GPS location
+      cellTowers وتبقى عارف ايه اقرب ابراج موبايل ليك ولكل الشبكات
+      wifiAccessPoints وتبقى محدد برضه شبكات الواي فاي
+    id: '1648633505176351'
+  - created_time: '2017-10-31T12:38:43+0000'
+    from:
+      name: Mohamed Magdy Elbadrawy
+      id: '10155046611920894'
+    message: Eslam Sabry
+    id: '1648653301841038'
+  - created_time: '2017-10-31T16:24:43+0000'
+    from:
+      name: Amr Abd El Latief
+      id: '1594051947344558'
+    message: Thanks a lot fot this valuaple openions
+    id: '1648850978487937'
+  - created_time: '2017-10-31T16:26:08+0000'
+    from:
+      name: Amr Abd El Latief
+      id: '1594051947344558'
+    message: First read The openions which inriched me with a lot of valuable info
+      In The  topic
+    id: '1648851885154513'
+  - created_time: '2017-10-31T16:27:03+0000'
+    from:
+      name: Amr Abd El Latief
+      id: '1594051947344558'
+    message: Just want to share And add to the discusdion ....
+    id: '1648852348487800'
+  - created_time: '2017-10-31T16:28:41+0000'
+    from:
+      name: Amr Abd El Latief
+      id: '1594051947344558'
+    message: As We prototyling know  We could neglect The client side location hacking
+      issue
+    id: '1648853581821010'
+  - created_time: '2017-10-31T16:30:26+0000'
+    from:
+      name: Amr Abd El Latief
+      id: '1594051947344558'
+    message: First And personally Iam with handling As much stuff As We could from
+      client side
+    id: '1648854915154210'
+  - created_time: '2017-10-31T16:34:50+0000'
+    from:
+      name: Amr Abd El Latief
+      id: '1594051947344558'
+    message: I was thinking of android native app which sends Its  lat And long    to  google
+      maps  client side   And gets  info on The current area i.e  street region ....
+      then send this info to the  back end   ...  which decided   if it relevant and
+      near the area
+    id: '1648857658487269'
+  - created_time: '2017-10-31T16:35:23+0000'
+    from:
+      name: Amr Abd El Latief
+      id: '1594051947344558'
+    message: If so it accept  and get the relevant response
+    id: '1648857991820569'
+  - created_time: '2017-10-31T16:37:31+0000'
+    from:
+      name: Amr Abd El Latief
+      id: '1594051947344558'
+    message: My question here does the mobile senario goes like i mentioned .. as
+      iam web developer dont know much on android native apps ?
+    id: '1648859655153736'
+  - created_time: '2017-10-31T16:40:11+0000'
+    from:
+      name: Amr Abd El Latief
+      id: '1594051947344558'
+    message: And other question thinking of making this design as general purpose  ...
+      not only this mall could make it configurable for other malls  i.e. give it
+      sone knew area and it operate on it ... thinking of making for each mall or
+      user a microservice with its contained separate database ... would you recomend
+      ?
+    id: '1648861341820234'
+  - created_time: '2017-10-31T16:42:08+0000'
+    from:
+      name: Amr Abd El Latief
+      id: '1594051947344558'
+    message: And for the gpsdata  base sugestion  .. what it adds here .. i think
+      Nosql  DB  is enough  would you agree Mahmoud Hossam Hany Ahmed  Amr ELsaqqa  Ahmed
+      Mustafa
+    id: '1648862588486776'
+  - created_time: '2017-10-31T18:32:46+0000'
+    from:
+      name: Rafael Adel
+      id: '10156260406777122'
+    message: |-
+      As a mobile developer i can tell about client side only,  you can use Google apis to get the distance from a point that can be configured from backend and the mobile device..  And check if is it within a certain radius or not
+      https://developer.android.com/reference/android/location/Location.html
+    id: '1648943821811986'
+  - created_time: '2017-10-31T21:47:21+0000'
+    from:
+      name: Mohamed Ali
+      id: '1702427916445050'
+    message: طالما بتتكلم في فروقات بسيطة في اللوكيشن، ممكن حل سهل طالما مول، ان يبقي
+      فيه شبكة واي فاي وتليميت الاكسس علي اللي جاي من الشبكة دي.. لو عايز حل معقد
+      اكتر ممكن تبص علي الاندور لوكيشن http://wiki.openstreetmap.org/wiki/Indoor_Mapping
+    id: '1649065661799802'
+  - created_time: '2017-11-01T05:12:47+0000'
+    from:
+      name: Diyaa Mahmoud
+      id: '1559170364118742'
+    message: Search for "Geofencing"
+    id: '1649341958438839'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkwT0RVNU16WTBOVEU0TURNek56b3hOVEE1TkRRNE16WTEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkwT1RNME1UazFPRFF6T0Rnek9Ub3hOVEE1TlRFek1UWTQZD

@@ -1,0 +1,46 @@
+---
+message: My new blog post about handling Unix user defined signals. The examples are
+  in Go but you can implement it in any programming language. I would love to hear
+  your feedback, comments or questions.
+link: http://blog.mbassem.com/2016/05/15/handling-user-defined-signals-in-go/
+from:
+  name: Mohamed Bassem
+  id: '10212826240185281'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQCY5z-wfE1J4s5t&w=130&h=130&url=http%3A%2F%2Fblog.mbassem.com%2Fimg%2Fhandling-user-defined-signals-in-go%2Fterminal.png&cfs=1&_nc_hash=AQDDylkAcVOJGi_e
+created_time: '2016-05-15T18:05:39+0000'
+updated_time: '2016-05-15T18:05:39+0000'
+name: Handling User Defined Signals in Go
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1144023132304060/
+id: '172338516139198_1144023132304060'
+reactions:
+  data:
+  - id: '10213805407262542'
+    name: Ahmed Nagy
+    type: LIKE
+  - id: '1561778180542287'
+    name: Ahmad Hassan Posten
+    type: LIKE
+  - id: '10156141798419343'
+    name: Jihan Adel
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBeU56ZAzNPRFEzTURveE5EWXpNek0yTWpNd09qSTFOREE1TmpFMk1UTT0ZD
+      after: TmpJMk56RTVNelF5T2pFME5qTXpNelUyTnpJNk1qVTBNRGsyTVRZAeE13PT0ZD
+attachments:
+  data:
+  - description: Signals represent a limited form of inter-process communication that
+      is used to interrupt the execution of a certain program to execute a predefined
+      handler. In this post, we are interested in the user-defined signals "USR1"
+      and "USR2". Those signals are there for you to define their handlers. I'll…
+    media:
+      image:
+        height: 461
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQCVw1m5KYakdnPG&w=720&h=720&url=http%3A%2F%2Fblog.mbassem.com%2Fimg%2Fhandling-user-defined-signals-in-go%2Fterminal.png&cfs=1&_nc_hash=AQDkqUfxD3Tn4ib4
+        width: 461
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fblog.mbassem.com%2F2016%2F05%2F15%2Fhandling-user-defined-signals-in-go%2F&h=ATPlGQfkeaitNrKRaSXNyKoQq2xANL0qvrcYj8LZHGNS7VgqSlhEunIwAZqakqkYyGGx8ZItya4WVasS4fxnQ8o48oD07TFLrk9B&s=1&enc=AZNhTNxRWmil7LC0CMvGekFaI1q3IMYz5rOAz58qTW8oR-0VKCpfD0eB9V5rqxpk6mtqIwB1WiqkNudiVYUEO79P
+    title: Handling User Defined Signals in Go
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fblog.mbassem.com%2F2016%2F05%2F15%2Fhandling-user-defined-signals-in-go%2F&h=ATPlGQfkeaitNrKRaSXNyKoQq2xANL0qvrcYj8LZHGNS7VgqSlhEunIwAZqakqkYyGGx8ZItya4WVasS4fxnQ8o48oD07TFLrk9B&s=1&enc=AZNhTNxRWmil7LC0CMvGekFaI1q3IMYz5rOAz58qTW8oR-0VKCpfD0eB9V5rqxpk6mtqIwB1WiqkNudiVYUEO79P

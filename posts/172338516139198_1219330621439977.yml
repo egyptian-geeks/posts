@@ -1,0 +1,159 @@
+---
+message: "background: (js noob & i know ng1 very well) \n\nfew month ago i found myself
+  in a cross road & i had to choose between ( reactjs & ng2 ) & i chose reactjs &
+  redux. \n\nnow after reviewing angular 2 as well i find my self comfortable with
+  both of them. but i still can't make up my mind. \n\nI really really dig ng2 & fell
+  it's faster & i don't have to write as much as i do in reactjs. \nI fell there is
+  a lot of limitation that i have with redux that i don't have with ng2. \ni really
+  think ng2 is simpler & faster.\n\nmy question is: what's your chosen framework ?
+  \n& is there any real advantage in reactjs that isn't in ng2 ?"
+from:
+  name: Ahmed Badawy
+  id: '1596110217148252'
+type: status
+created_time: '2016-08-31T16:33:35+0000'
+updated_time: '2016-09-02T17:46:51+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1219330621439977/
+id: '172338516139198_1219330621439977'
+reactions:
+  data:
+  - id: '10214557410906658'
+    name: Eman Herawy
+    type: LIKE
+  - id: '1973223889604082'
+    name: Sohaib Mohammed
+    type: LIKE
+  - id: '1645405498839451'
+    name: Bassem Abbas
+    type: LIKE
+  - id: '1596110217148252'
+    name: Ahmed Badawy
+    type: LIKE
+  - id: '10156301546469701'
+    name: Amr ELsaqqa
+    type: LIKE
+  - id: '10156089330442292'
+    name: Hany Ahmed
+    type: LIKE
+  - id: '1565540743500286'
+    name: Muhammad Elsayed
+    type: LIKE
+  - id: '10215070655377585'
+    name: Mahmoud Kandeel
+    type: LIKE
+  - id: '495080930892199'
+    name: Muhammed Nagy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRFMk1qY3pNamc0T0RveE5EY3lPRFkyTnpnek9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBd01ERXhOekE0T0RnM05UWTVPakUwTnpJMk5qSTJNakE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-08-31T16:53:11+0000'
+    from:
+      name: Hussein Osman
+      id: '10215804044119360'
+    message: I still using angular 1
+    id: '1219345311438508'
+  - created_time: '2016-08-31T16:58:32+0000'
+    from:
+      name: Ahmed A. Ibrahim
+      id: '10214818255267156'
+    message: I think the big advantage of using react is react-native .
+    id: '1219349594771413'
+  - created_time: '2016-08-31T17:36:59+0000'
+    from:
+      name: Muhammad Saleh
+      id: '10156649659196002'
+    message: "p.s.: if you consider yourself js noob and you use react or angular
+      then you might have a problem \nYou want my opinion? screw all of the frameworks\nALWAYS
+      have a strong js base and frameworks comes later"
+    id: '1219374561435583'
+  - created_time: '2016-08-31T19:15:13+0000'
+    from:
+      name: Ahmed Atalla
+      id: '574320702905312'
+    message: "Check this \nhttps://www.agriya.com/blog/2016/08/04/angular-2-vs-react-what-developers-often-forget/"
+    id: '1219436061429433'
+  - created_time: '2016-08-31T20:10:12+0000'
+    from:
+      name: Ahmed Eldosoukey
+      id: '10155780527142535'
+    message: |-
+      I've been using Angular since started, and I think Angular II represents the maturity level required to make it the flavored choice.
+
+      I gave ReactJS multiple trials, and in every time I feel like I'm missing something. I've never been comfortable with it :)
+
+      Even when building a cross platform App, unless you're a performance-freak :D, you'll find ionic the complementary framework.
+
+      I think, you can use ReactJS in the way it was presented as a cross platform framework, but when it comes to scalable large-scale web Apps, you may go with Angular (y)
+    id: '1219475561425483'
+  - created_time: '2016-08-31T21:16:45+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      You do not have to choose one.
+      You can do a project with that, another with this, and list both in your CV, since you truly and genuinely learned both.
+
+      I'm working with a team in very large company in Australia with huge IT department. We are building something with Angular 2, and the team is evaluating React because existing teams are using either Angular 1 or React (because Angular 2 wasn't as stable as it's in RC5 today) and we thought it might be nice if we use the same tech.
+
+      And guess what? Having watched a few Redux videos etc I was able to help the sub-team evaluating React myself. Admittedly many of their problems were Webpack related though, which you get to deal with in both worlds.
+
+      We haven't settled on a winner yet, but the team agrees they are very close (especially if you add NGRX/Store to the mix as an equivalent of Redux).
+
+      One adv Angular 2 has (for this specific case) is that it seems more friendly for long term projects. In 2-3 years maybe Redux won't be the big thing like Flux isn't (might be replaced by MobX or something totally new), but Angular 2 will likely be there, with styleguide that makes joining the project and working with it pretty easy and relevant.
+
+      Beware though that this concern is specific to large enterprises. If it's a small project then why not work with the hottest thing in the corner and when something even nicer comes out just move to it and get the benefits? That's the idea of the React community, and it's frankly awesome.
+
+      So, my advice is: if you did a lot of stuff with React / Redux, do something with Angular 2, and have booth tools in your toolbox. You honestly do not have to choose.
+    id: '1219524011420638'
+  - created_time: '2016-08-31T21:35:59+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: "On an unrelated part, I'd really appreciate it (for reasons explained
+      in my other reply) if you can expand a bit on this part:\n\n> I really really
+      dig ng2 & feel it's faster & i don't have to write as much as i do in reactjs.
+      \n> I feel there is a lot of limitation that i have with redux that i don't
+      have with ng2.\n\nCan you please explain which limitations? And in what way
+      you find ng2 dev faster?\n\nI'm asking for a friend ;)"
+    id: '1219550724751300'
+  - created_time: '2016-09-01T03:16:21+0000'
+    from:
+      name: سامح دعبس
+      id: '2022490591345439'
+    message: "If this question was asked in stackoverflow it will be closed as it
+      is opinion-based ;-). \nAnyway, I have another strategy to learn such technologies:\n1-
+      Don't! \n2- When the technology gains some traction, I just play with it to
+      know its use cases and the difference between its alternatives...etc. no deep
+      learning here, just scratching the technology surface.\n3- When I faced a use
+      case, I lookup my technology toolbox for the best fit.\nSome years ago, I was
+      plugging new technologies in every project, even if the technology is not mature
+      enough. I cannot think of any reason of doing so except to put it in my CV!
+      Shame on me:(\nIf you find yourself follow what is called \"Resume-Driven Development\",
+      Don't!\n-------\nHere are some other considerations for angular vs react:\n1-
+      If you have time: know both\n2- Angular has more traction in Egypt and Gulf
+      market (this is a gut feeling, I have no evidence on it)\n3- It's OK to feel
+      comfortable with one technology that the other. Personally, When I started playing
+      with react, I didn't like the idea of starting with js and generating html from
+      it. I feel more comfortable with the angular way, may be because I learned it
+      first. Maybe it is in my comfort zone:)\n3- Angular 1 is mature, but have problems,
+      especially performance. Angular 2 is simpler, and - hopefully - promises better
+      performance.\n4- Don't use angular 2 in any serious enterprise application,
+      it is still not released (I know it is RC5 now). It's OK with trivial apps.
+      As per react, I can't tell; I just scratched its surface!"
+    id: '1219735031399536'
+  - created_time: '2016-09-02T04:34:39+0000'
+    from:
+      name: Ahmed Badawy
+      id: '1596110217148252'
+    message: "ok, no one gave me a satisfying answer.\nthen i will follow my heart
+      & go on with the easy one:  ng2 \nuntil some performance freak prove to me that
+      react undoubtedly faster than ng2.\n\nthanks u guys..."
+    id: '1220678554638517'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl4T1RNME5UTXhNVFF6T0RVd09Eb3hORGN5TmpZAeU16a3gZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl5TURZAM09EVTFORFl6T0RVeE56b3hORGN5Tnprd09EZA3cZD

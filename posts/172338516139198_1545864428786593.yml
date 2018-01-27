@@ -1,0 +1,67 @@
+---
+message: لو سمحت يا جماعة ازاى استخدم service اغير بيها الIP والlocation بتاعى من
+  غير ما يتم التعرف عليا من الIP ان ده VPN او Proxy؟
+from:
+  name: Khaled Abolaynain
+  id: '10215591167673079'
+type: status
+created_time: '2017-07-13T06:30:25+0000'
+updated_time: '2017-07-25T23:29:06+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1545864428786593/
+id: '172338516139198_1545864428786593'
+reactions:
+  data:
+  - id: '1385664498246611'
+    name: Sayed Said
+    type: LIKE
+  - id: '10155858852348046'
+    name: Hossam Abubakr
+    type: HAHA
+  - id: '1918281994852992'
+    name: Abdo A. Fawzy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTBNRGt5TWpFeE5ESXhPakUwT1RrNU5qQXlNekU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXdNVE0yTXpBMU56TTNPakUwT1RrNU1qZAzFOak02TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-07-13T08:31:02+0000'
+    from:
+      name: Khaled Abolaynain
+      id: '10215591167673079'
+    message: ''
+    id: '1545924385447264'
+  - created_time: '2017-07-25T21:09:58+0000'
+    from:
+      name: Mohamed Eltantawi
+      id: '10160105091695314'
+    message: My guess is that you need to use a less known VPN provider, the famous
+      ones have their IPs known. That or disable location services on mobile/browser
+      and try.
+    id: '1558556384184064'
+  - created_time: '2017-07-25T22:50:11+0000'
+    from:
+      name: Khaled Abolaynain
+      id: '10215591167673079'
+    message: |-
+      So I was told. To use not so-known VPN or Proxy services, or use a virtual machine in the cloud to create my own VPN.
+      https://www.quora.com/How-can-I-change-my-IP-address-to-a-different-location-without-being-detected-as-VPN-Proxy
+    id: '1558625967510439'
+  - created_time: '2017-07-25T23:24:45+0000'
+    from:
+      name: احمد قرواش
+      id: '1561022257326859'
+    message: |-
+      خلينا متفقين ان معظم ال Proxy او VPN Providers كلهم مكشوفين من خلال
+      IPs Range
+      لو فكرت تعمل VM جوا كلاود برضو هتتقفش.
+      استخدامك ل Whoer.net او any anonymity test برضو مش هيجيب نتيجة كويسة
+
+      معظم السيرفيس ديه بتنكشف بسبب DNS Leak و Services علي جهازك الي بتكشفك
+      وده عشان تتخطاه كله بتبقي محتاج معجزة ومعتقدش انك هتحتاج كده الا لو ناوي تعمل كارثة
+    id: '1558657654173937'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUwTlRreU5ETTROVFEwTnpJMk5Eb3hORGs1T1RNME5qWXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUxT0RZAMU56WTFOREUzTXprek56b3hOVEF4TURJMU1EZAzIZD

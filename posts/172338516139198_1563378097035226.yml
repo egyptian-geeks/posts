@@ -1,0 +1,66 @@
+---
+message: What is the best solution if I want a host for a web app which will be used
+  by only  one user ??
+from:
+  name: Waleed Hamdy
+  id: '1737360106314589'
+type: status
+created_time: '2017-07-30T21:24:53+0000'
+updated_time: '2017-08-04T00:09:29+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1563378097035226/
+id: '172338516139198_1563378097035226'
+reactions:
+  data:
+  - id: '731440720388908'
+    name: Mohammed Awad
+    type: LIKE
+  - id: '1385664498246611'
+    name: Sayed Said
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTFOamc1TlRrNU1ETXhPakUxTURFME5UQXlORE02TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTBNRGt5TWpFeE5ESXhPakUxTURFME5UQXlNelk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-07-30T21:28:19+0000'
+    from:
+      name: Mahmoud Elshafaey
+      id: '10213485772596807'
+    message: heroku
+    id: '1563380490368320'
+  - created_time: '2017-07-30T22:50:29+0000'
+    from:
+      name: Ahmed El Mowafy
+      id: '1677576058930096'
+    message: It depends on what the web app do
+    id: '1563428527030183'
+  - created_time: '2017-08-02T23:44:39+0000'
+    from:
+      name: Ahmed Ibrahim
+      id: '1215411761924121'
+    message: If the matter is that you need it to show your works to clients or you
+      want to test your web app on real server, you can register a free hosting and
+      they will provide you with a domain as well please notice your web app is in
+      php and using mysql
+    id: '1566398333399869'
+  - created_time: '2017-08-02T23:46:34+0000'
+    from:
+      name: Mostafa Atta
+      id: '10155505344642029'
+    message: What about web services
+    id: '1566399133399789'
+  - created_time: '2017-08-03T01:48:02+0000'
+    from:
+      name: Ahmed Maher
+      id: '10211486748426315'
+    message: only for testing purposes/load free usage ,  you can host the webapp
+      on your machine for WAN on port other than 80 or 8080 ie:3000 , and forward
+      incoming traffic to port 3000 , then get a free dynamic dns account , make a
+      subdomain,  syncronize it with your wan ip using curl command , then give the
+      user the <subdomain url:3000> to access the webapp
+    id: '1566514793388223'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUyTXpNNE1EUTVNRE0yT0RNeU1Eb3hOVEF4TkRVd01EazUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUyTmpVeE5EYzVNek00T0RJeU16b3hOVEF4TnpJME9EZA3oZD

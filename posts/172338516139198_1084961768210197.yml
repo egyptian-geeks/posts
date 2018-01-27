@@ -1,0 +1,61 @@
+---
+message: "السلام عليكم.. انا بدات اذاكر ال anjular 2 النهاردة و حاسس بصعوبة فى فهمه
+  و فى حاجات كتييير غير منطقية و حاجات تانية ملهاش لزمة. \nاصعب من angular 1 بمراحل.
+  الكود منطقى جدا لانه es6 بس حكاية انك المفروض تكتب الصفحة كلها فى ال ts على شكل
+  قطع components. و الحكاية دى بتاخد وقت كبير و غير منطقية عشان لو احتاجت اعدل التصميم
+  هتبقى لفة كبيرة...\nو ثانيا بحتاج اكتب كتيير اكتر من ال 1 بمراحل و بالتالى زمن التطوير
+  اكتر...\nده انا كتبت todo فى ساعتين شغل متواصل فى حين ال 1 كنت كاتبة فى اقل من نص
+  ساعة... \nفى حد عنده المشكلة دى تانى و لا انا لوحدى. و لو حد عندة معلومات ليه ال
+  2 بيفكر بالطريقة الرخمة دة ياريت يعرفنى..."
+from:
+  name: Ahmed Badawy
+  id: '1596110217148252'
+type: status
+created_time: '2016-02-23T03:58:26+0000'
+updated_time: '2016-02-23T12:32:00+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1084961768210197/
+shares:
+  count: 1
+id: '172338516139198_1084961768210197'
+reactions:
+  data:
+  - id: '1821918031216201'
+    name: Muhamad Omar
+    type: LIKE
+  - id: '895970407247426'
+    name: Ahmad Magdy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhPVFF3TmpZAek5ETTJPakUwTlRZAeU56QTNORFU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTFNRE0wTWpRME5UQTBPakUwTlRZAeU1qSXhOekk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-02-23T08:54:28+0000'
+    from:
+      name: Ahmed El Gabri
+      id: '10159938698425582'
+    message: "Components are the future of the web. It gives us a way to package small
+      functionalities in isolation. Which is easier to maintain, reason about and
+      test. \n\nSo moving forward you need to think in components. \n\nRight now we
+      already have technologies/frameworks:\n- Web components\n- Polymer\n- Angular
+      2 components \n- React (it's all about components) \n- I think Ember too has
+      components. \n- vue.js\n- and more...\n\nSo you can see the trend already, Node
+      & ES2015 encourage modularization too by using CommonJS or ES2015 modules. Even
+      CSS has modules now (not native) called CSS Modules. \n\nI'm don't have experience
+      with TypeScript myself but I think this might be your problem not the components
+      itself, because as far as I know in TS you need to write interfaces first and
+      stuff like this which of course adds time."
+    id: '1085098974863143'
+  - created_time: '2016-02-23T10:20:29+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      BTW you don't have to write Components in TypeScript as far as I understand, you can do that in Dart or pure Javascript too :)
+      But even then, TypeScript is a true superset of Javascript, which means that ANY Javascript code is valid TypeScript code, all the extra features are completely optional :)
+    id: '1085153784857662'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE0TlRBNU9EazNORGcyTXpFME16b3hORFUyTWpFM05qWTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE0TlRFMU16YzRORGcxTnpZAMk1qb3hORFUyTWpJeU9ESTUZD

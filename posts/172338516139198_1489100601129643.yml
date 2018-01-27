@@ -1,0 +1,44 @@
+---
+message: |-
+  hi guys,
+  i have a ASP.NET Application
+  Could any one help me secure my hosted pdf files by make it viewable only and prevent making a "bulk download" using a third party tools
+  any suggestions?
+from:
+  name: Mohammad Amer
+  id: '10214580441719850'
+type: status
+created_time: '2017-05-21T08:30:04+0000'
+updated_time: '2017-05-21T11:19:55+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1489100601129643/
+id: '172338516139198_1489100601129643'
+reactions:
+  data:
+  - id: '10156398114322241'
+    name: Abdelrahman Muhammad
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRNeU1qVXlNalF3T2pFME9UVXpOVGN5TkRRNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRNeU1qVXlNalF3T2pFME9UVXpOVGN5TkRRNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-05-21T08:32:57+0000'
+    from:
+      name: Sameh Selim
+      id: '1907240172924468'
+    message: move files away from web shared folders and make a handler to download
+      the files , implement whatever security in the handler
+    id: '1489101847796185'
+  - created_time: '2017-05-21T11:19:53+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: Convert your PDF files to images, one image per page, then serve them
+      one by one, and rate limit images download per IP so that no one will download
+      all the book in short period.
+    id: '1489184844454552'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE0T1RFd01UZAzBOemM1TmpFNE5Ub3hORGsxTXpVMU5UYzMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE0T1RFNE5EZAzBORFExTkRVMU1qb3hORGsxTXpZAMU5UazAZD

@@ -1,0 +1,99 @@
+---
+message: "مساء الخير \nانا دلوقتى عندى graph فى اكتر من line وكل line ليه مجموعة نقط
+  (x,y) \nعاوز اجيب كل الاجزاء اللى بيتقاطعو فيها زى الصورة ده هما متقاطعين مرتين\nشكرا"
+link: https://www.facebook.com/photo.php?fbid=1614423858578029&set=gm.1600152090024493&type=3
+from:
+  name: Isaac K. Armanious
+  id: '1768931806460566'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/q83/s130x130/21371071_1614423858578029_8326608962739063474_n.jpg?oh=cfbcb4271e62fec60a749a9ed00aff40&oe=5AE43F5F
+created_time: '2017-09-06T15:50:55+0000'
+updated_time: '2017-09-07T20:19:40+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1600152090024493/
+id: '172338516139198_1600152090024493'
+comments:
+  data:
+  - created_time: '2017-09-06T16:00:22+0000'
+    from:
+      name: Tony Raoul Iscaros
+      id: '10156165643313420'
+    message: انت عندك الgraph ولا الdata ?
+    id: '1600157603357275'
+  - created_time: '2017-09-06T16:04:29+0000'
+    from:
+      name: Marwan Nabil Baghdad
+      id: '1732181426802228'
+    message: Hashtable 2d coordinate as key and 1 as a value (inverted indexing),
+      entries with value equal 2 is where they intersect. If you have the functions
+      use any scientific framework (numpy, octave, matlab)
+    id: '1600161830023519'
+  - created_time: '2017-09-06T16:17:15+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: على حسب الصورة هم متقاطعين مرة واحدة بس
+    id: '1600168933356142'
+  - created_time: '2017-09-06T16:38:58+0000'
+    from:
+      name: Fady Morris Milad
+      id: '10160030835075061'
+    message: |-
+      الداتا عندك شكلها إيه ؟
+      discrete or continuous ?
+      طب هل الـ graph بيبقى ليه معادلة رياضية بتعرفه ، ولا عبارة عن مجموعة نقط منفصلة من الـ data وانت بتوصلهم ببعض ؟
+    id: '1600183323354703'
+  - created_time: '2017-09-06T16:41:00+0000'
+    from:
+      name: Fady Morris Milad
+      id: '10160030835075061'
+    message: لو عندك data اعملها فى ملف text وارفعه وحط لينك ليه
+    id: '1600184433354592'
+  - created_time: '2017-09-06T16:41:03+0000'
+    from:
+      name: Diyaa Mahmoud
+      id: '1559170364118742'
+    message: مش فاهم يعني ايه كل الاجزاء اللي بيتقاطعو فيها ديه لكن بالبنسبه للتقاطع
+      بين مجموعه خطوط فالموضوع بيتقسم لمرحلتين اول حاجه تعرف هل فيه تقاطع اصلا بين
+      اي خطين من الخطوط intersection detection  وده عل ما اتذكر بيتعمل باكتر من طريقه
+      مثلا ممكن تحسب ال vector cross product      للفيكتور بتاع الخطوط وتشوف متقاطعين
+      ولا متوازيين  او لو الخطوط كتير ممكن تبص عل line sweep algorithm وعل ما اتذكر
+      الاتنينمممك تعرف بيهم نقطه  التقاطع بالظبط
+    id: '1600184463354589'
+  - created_time: '2017-09-06T17:17:54+0000'
+    from:
+      name: Mohamed Alzaki Abdullah
+      id: '10215713416047775'
+    message: "استخدم معادلتين الخطين عشان تجيب النقط\n y = c1 +  m1 * x \ny = c2 +
+      m2 * x \n\nintersectionX = (c2 - c1) / (m1 - m2)\nintersectionY = (m1*c1 - c2*m2)
+      / m1-m2"
+    id: '1600206400019062'
+  - created_time: '2017-09-07T19:39:30+0000'
+    from:
+      name: Ahmed Saleh
+      id: '10159933379005574'
+    message: لو عاوز تلون الجزء اللي بين الخطين دول لازم يكون فيه نهايه ليهم بحيث
+      انك تكون polygon و ممكن تعمله approximation ، زي opencv approximate polygon
+      ، و بعد كده تستخدم اي خواريمز filling polygons ، بتقسم المضلع ده لمثلثات و تمسح
+      line sweep و تلون. بس النقطه اني مش شايف نقطتين نهايه في المضلع ، اقصد الجزء
+      اللي عايز يتلون ، لازم يتملي الفراغ ده و الا مستحيل تقدر تلونه و انت مش عارف
+      "حدود" المضلع ده
+    id: '1601134856592883'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl3TURFMU56WXdNek0xTnpJM05Ub3hOVEEwTnpFek5qSXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl3TVRFek5EZAzFOalU1TWpnNE16b3hOVEEwT0RFek1UY3cZD
+attachments:
+  data:
+  - description: "مساء الخير \nانا دلوقتى عندى graph فى اكتر من line وكل line ليه
+      مجموعة نقط (x,y) \nعاوز اجيب كل الاجزاء اللى بيتقاطعو فيها زى الصورة ده هما
+      متقاطعين مرتين\nشكرا"
+    media:
+      image:
+        height: 615
+        src: https://scontent.xx.fbcdn.net/v/t1.0-9/21371071_1614423858578029_8326608962739063474_n.jpg?oh=dff0124cb89c6f4fdd25ae29179f8428&oe=5B1E041D
+        width: 599
+    target:
+      id: '1614423858578029'
+      url: https://www.facebook.com/photo.php?fbid=1614423858578029&set=gm.1600152090024493&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=1614423858578029&set=gm.1600152090024493&type=3

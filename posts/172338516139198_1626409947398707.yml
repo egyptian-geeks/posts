@@ -1,0 +1,50 @@
+---
+message: "Good morning everyone. I have been developing with Angular 1 for about 3
+  years now, and I find it to be awesome! Now I am trying to explore more with libraries
+  like Angular 2/4 and React. I find them both to be very interesting, but the one
+  thing I don't understand is that why the people behind React chose to go with one-way
+  binding and the state management hassle, instead of doing things the way Angular
+  does it; with watchers and digest cycles. \n\nWith React I need to tell the app
+  to render over and over again, but with Angular, it does this for me whenever it's
+  necessary and I don't need to state-manage anything! So, let me put it simply: why
+  React adopts the one-way binding style by default?!"
+from:
+  name: Ahmed Zain Mohammed
+  id: '10156266511868081'
+type: status
+created_time: '2017-10-07T08:23:12+0000'
+updated_time: '2017-10-07T12:22:25+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1626409947398707/
+id: '172338516139198_1626409947398707'
+reactions:
+  data:
+  - id: '10156325646928623'
+    name: Ahmed AMaksoud
+    type: LIKE
+  - id: '1826978233987348'
+    name: Khalid Gamil
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRVNU1qTXpOakl5T2pFMU1EY3pOemswT1RrNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQXdNalUxTmpZAeU5EYzBPakUxTURjek5qazVPRGc2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-10-07T08:46:36+0000'
+    from:
+      name: Mohamed Eltantawi
+      id: '10160105091695314'
+    message: 'Because they are like the rest of the 3235 other JS frameworks: Opinionated
+      and want to be different, for the better or worse :)'
+    id: '1626424147397287'
+  - created_time: '2017-10-07T12:01:46+0000'
+    from:
+      name: Mohamed Oun
+      id: '10213382124519901'
+    message: React is just the 'V' of the 'MVC'. Usually, it's accompanied by something
+      like Redux or MobX to handle state for you.
+    id: '1626529840720051'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl5TmpReU5ERTBOek01TnpJNE56b3hOVEEzTXpZAMU9UazMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl5TmpVeU9UZAzBNRGN5TURBMU1Ub3hOVEEzTXpjM056QTMZD

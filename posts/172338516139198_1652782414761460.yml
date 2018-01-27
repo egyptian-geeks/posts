@@ -1,0 +1,113 @@
+---
+message: "ممكن حد يوضحلي ببساطه الفرق بين web services و web api\n- الللي استنتجه
+  لغايه دلوقتي ان في حاجات مشتركه مابينهما زي \nMake comminaction between two different
+  application \n********\nWeb service :\n-use  soap protocol which use XML or json
+  to description data and HTTP to transfer data \n- use WSDL\n- client application
+  use proxy class to auto generated code to access method in the anthor application
+  and make serialization and determination for soap message \n***\nWeb api ??"
+from:
+  name: Ahmed Khalifa
+  id: '1999765416908747'
+type: status
+created_time: '2017-11-04T22:19:39+0000'
+updated_time: '2017-11-09T11:48:08+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1652782414761460/
+shares:
+  count: 4
+id: '172338516139198_1652782414761460'
+reactions:
+  data:
+  - id: '10213563122143953'
+    name: Ahmed Abdelaziz
+    type: LIKE
+  - id: '1141575932646478'
+    name: Osama Yasser
+    type: LIKE
+  - id: '1963622213652553'
+    name: Ahmed ElRefaey
+    type: LIKE
+  - id: '1930008130345906'
+    name: Mohammed Magdi
+    type: LIKE
+  - id: '10160119042585037'
+    name: Ahmed Saad ElMaghraby
+    type: LIKE
+  - id: '1573272439420590'
+    name: Abd ElRahman AshRaf
+    type: LIKE
+  - id: '1766628470034480'
+    name: Mahmoud Bassuni
+    type: LIKE
+  - id: '1765781893453545'
+    name: Hawary
+    type: LIKE
+  - id: '1978009525783037'
+    name: Ahmed Magdy
+    type: LIKE
+  - id: '1816473348363749'
+    name: Mohamed Ali
+    type: LIKE
+  - id: '1614182871998200'
+    name: Muhammad Essam
+    type: LIKE
+  - id: '1558917624215781'
+    name: Mohamed A. Salah
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRVM09UVXdOamsxTURveE5UQTVPVEV4TkRFME9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBd01EQXlPVEkyTnpVeU5EazVPakUxTURrNE16UXpPVGM2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-11-04T22:24:21+0000'
+    from:
+      name: Tamer Rezk
+      id: '10155078510027343'
+    message: Web api is 1. restful 2. Lightweight 3. Loosly couple connection 4. Can
+      use routing, all http functions and support caching
+    id: '1652815838091451'
+  - created_time: '2017-11-04T22:38:55+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: |-
+      الAPI فى العموم هو الواجهة اللى انت كديفلوبر بتكلم بيها اي سيستيم علشان تخليه يعمل وظيفة ما، يعني ويندوز ليه API كسيستيم علشان لما تعمل ابليكيشن ومحتاج تجيب معلومات من النظام بتكلم الAPI دي وهي بتديلك المعلومات، زي عدد الاجهزة المتوصلة بالUSB مثلا، والAPI بتخليك تطلب من النظام يعمل وظائف معينة، يعني لو محتاج ان ويندوز يعمل mount للUSB disk بتكلمه من API علشان يعمل كده.
+      الAPI دي ممكن تكون باي communication channel زي انك تخاطبها من socket file، او تكون device بتكلمها عن طريق السيستيم، او جهاز تاني على النتورك بتعمل معاه UDP او TCP connection
+      الAPI بيكون ليها بروتوكول HTTP, FTP, SMTP و فورمات للرسائل زي JSON, XML, RPC, GRPC بتكلم بيها الطرف التاني وبيرد عليك بفورمات منهم، ممكن يكون هو نفسه او مختلف.
+      الAPI ممكن تكون لأي نظام، سواء process شغالة على نفس الجهاز او جهاز متوصل مع الكمبيوتر بتاعك زي الmouse بتاعك، او جهاز تاني على الشبكة زي الmedia centers او جهاز على الانترنت زي facebook api
+      الويب سيرفيس هي unit من سيستيم كبير، ممكن تكون مالهاش API، بتتصل مثلا بداتابيز وبتبعت ايميلات للمستخدمين الجداد كل فترة، او بتعمل backup لداتابيز كل فترة، او ممكن تكون ليها API (web api( مثلا سيرفيس بتصغر الصور، بتطلب منها تصغير الصور وبترجعلك الصورة متصغرة، او بتعمل سيرش، بتديلها كلمة وترجعلك كل الdocuments اللى فيها الكلمة دي، او سيرفيس بتطلب منها بيانات المستخدمين او تفضيلاتهم او بتطلب منها تعمل بوست على بروفايل الشخص فبتعمل البوست وترجعلك نتيجة العملية دي زي الfacebook api
+    id: '1652823191424049'
+  - created_time: '2017-11-04T22:45:48+0000'
+    from:
+      name: Ibraheem Osama
+      id: '10155206310513093'
+    message: |-
+      Web Service is a convention for the application that expose your logic to 3rd party application (3rd: could be your own system or external), this application (Web Service) should communicate with a protocol to enable 3rd party apps to communicate with you like SOAP or REST.
+
+      Web Api: (I suppose you mean Asp.net Web API from your profile :) ) is a framework to communicate using REST protocol.
+      So Web Api is the implementation of the Web Service using Rest protocol.
+
+      Web Service is generic from how it is implemented, Web API is not :)
+    id: '1652826854757016'
+  - created_time: '2017-11-04T23:49:40+0000'
+    from:
+      name: Mohammed Magdi
+      id: '1930008130345906'
+    message: "لقيت اللينك ده لما عملت search ولقيت فيه الزتونة في الموضوع \nhttp://www.differencebetween.net/technology/internet/difference-between-api-and-web-service/"
+    id: '1652864201419948'
+  - created_time: '2017-11-05T02:11:59+0000'
+    from:
+      name: Mohammad Helmy
+      id: '10155848201515605'
+    message: Web API is a restful web service.
+    id: '1652939094745792'
+  - created_time: '2017-11-09T11:48:05+0000'
+    from:
+      name: Kareem Muhammad
+      id: '1924463681203785'
+    message: محمود الحسيني
+    id: '1657002084339493'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkxTWpneE5UZA3pPREE1TVRRMU1Ub3hOVEE1T0RNME1qWXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkxTnpBd01qQTRORE16T1RRNU16b3hOVEV3TWpJNE1EZAzEZD

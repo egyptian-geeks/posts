@@ -1,0 +1,74 @@
+---
+message: |-
+  السلام عليكم
+  من فضلكم يا شباب فى حد عنده استضافة على Microsoft Azure - عاوز استفسر عن كذا حاجة
+  اتمنى ان حد يفيدنى من فضلكم ؟
+
+  الفكرة انا عندى عميل عنده 8 مواقع منهم 4 عبارة عن  top level domain و 4 sub domain
+
+  هو عاوز يغير الاستضافة لأن بقالها فترة فيها مشاكل وبفكر اخليه على azure بس مش عارف اختار ايه وهل حيدفع كل شهر والا كل سنة وكام التكلفة ؟ وهل حيكون متاح انى اعمل sub domain بدون حد اقصى ؟ - حاولت اجرب اعرف الاسعار فلقيت basic شهريا 55$ وكده اغلى من الاستضافة الحالية - 192$ فى السنتين - وبعدين لقيت ان فى غير basic حاجة اسمها Shared ودى كانت ب 9$ دولار شهريا
+
+  اختار ايه وابلغه التكلفة كام ؟
+from:
+  name: Ahmed Amin
+  id: '1962172197389574'
+type: status
+created_time: '2016-01-10T07:10:47+0000'
+updated_time: '2016-01-11T00:22:36+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1059967217376319/
+id: '172338516139198_1059967217376319'
+reactions:
+  data:
+  - id: '10156191099748000'
+    name: Shady Mohamed Sherif
+    type: LIKE
+  - id: '1883585148342316'
+    name: Saad Abdou
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRVMk5qTTNPVGs1T2pFME5USTBNVE13TWpBNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQXdOekkxTkRjMk56VTJPakUwTlRJME1USTVNalk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-01-10T08:06:35+0000'
+    from:
+      name: Ahmed Shaher
+      id: '10215175206877568'
+    message: |-
+      ده الفرق بين خطط أسعار Azure
+      https://azure.microsoft.com/en-us/pricing/details/app-service/plans/
+      Shared لل Dev/Test و هم مش بيفضلوه لل Production علشان فيه شوية تحكمات.
+      ده Tutorial لإزاي ت Deploy
+      https://azure.microsoft.com/en-gb/documentation/articles/web-sites-php-mysql-deploy-use-git/
+      نصيحتي : أنك تاخد Free Instance و تجرب فيها لمده شهر مثلاً و تقرر ساعتها إذا كانت كافية ليك ولا ﻷ
+      خد بالك من حاجة, ال 192$ أللي أنت بتدفعهم حالياً غالباً داخل فيهم تمن ال Domains صح ؟
+      لو صح, يبقي أعمل حسابك و أنت بتحسب تكلفة Azure تمن ال Domains
+    id: '1059981680708206'
+  - created_time: '2016-01-10T08:38:35+0000'
+    from:
+      name: Ahmed Amin
+      id: '1962172197389574'
+    message: المشكلة عشان اشترك شهر مجانا بيطلب منى crdit card وانا اللى معايا debit
+      card ومش قابلها خالص ؟
+    id: '1059989567374084'
+  - created_time: '2016-01-10T09:10:08+0000'
+    from:
+      name: Ahmed Melege
+      id: '10156112171242375'
+    message: دي خدمة كلاود.. انت بس اللي تقدر تقول محتاج قد ايه، لانه بيكون حسب استهلاكك
+      واستهلاك الباندويدز.. بيكون حسب طبيعة الموقع/المواقع وعدد الزيارات، وكونك بتستخدم
+      CDN خارجي او لأ.. الخ...
+    id: '1060011120705262'
+  - created_time: '2016-01-10T09:17:52+0000'
+    from:
+      name: Mohammed ElQadi
+      id: '10156982440569368'
+    message: |-
+      الشركة دى بتقدم استضافة مجانية لمدة سنة لخمسة شركات, ممكن تدخل عمليك فيها لو اخذت الاستضافة دى
+      https://www.facebook.com/OptimumProgress/photos/a.361330544073992.1073741828.353613044845742/461891197351259/?type=3&__mref=message_bubble
+    id: '1060012860705088'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEExT1RrNE1UWTRNRGN3T0RJd05qb3hORFV5TkRFek1UazIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEEyTURBeE1qZAzJNRGN3TlRBNE9Eb3hORFV5TkRFM05EY3oZD

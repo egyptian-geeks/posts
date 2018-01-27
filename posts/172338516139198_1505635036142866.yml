@@ -1,0 +1,94 @@
+---
+message: "What's the best way to run macOS on a non-apple device? \ntell me your experiments,
+  please..."
+from:
+  name: Osama Soliman
+  id: '879271768900112'
+type: status
+created_time: '2017-06-05T23:59:28+0000'
+updated_time: '2017-06-06T03:40:51+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1505635036142866/
+shares:
+  count: 1
+id: '172338516139198_1505635036142866'
+comments:
+  data:
+  - created_time: '2017-06-06T00:00:40+0000'
+    from:
+      name: Ahmed Aziz
+      id: '1641565752594739'
+    message: |-
+      https://www.tonymacx86.com/threads/unibeast-install-macos-sierra-on-any-supported-intel-based-pc.200564/
+      runs smoothly af.
+    id: '1505635622809474'
+  - created_time: '2017-06-06T00:05:48+0000'
+    from:
+      name: Sameh Magdy
+      id: '1744871132236191'
+    message: Hackintosh.zone
+    id: '1505638159475887'
+  - created_time: '2017-06-06T00:21:44+0000'
+    from:
+      name: Mohamed Hamza
+      id: '1780939041979216'
+    message: أفضل طريقة انك تبعد عن كل التوزيعات المتعدل عليها أمثال Nirsh وغيرها
+      وتسطبه بـ "Vanilla Installation Method" وبعدين تبدأ تباتش ملفات الـDSDT و SSDT
+      حسب مواصفات جهازك.
+    id: '1505646186141751'
+  - created_time: '2017-06-06T00:43:45+0000'
+    from:
+      name: Mohamed Hamza
+      id: '1780939041979216'
+    message: "أنا كنت كاتب البوست دا قبل كدا عن تجربتي في الموضوع بس رابط البوست بيجيب
+      الصورة بس فنسخته لك.\nهتفهم معظم الحاجات لما تحاول تصلح مشاكل الكيبورد، التراك
+      باد، الشاشة إلخ...\nمن فترة كنت قررت ألعب مع الهاكنتوش شوية، فقررت أنزله على
+      لابتوبي ودي الخلاصة لأي حد عنده نفس اللابتوب وناوي يخوض التجربة...\nالموديل:hp
+      envy dv6 7202ee\nالمواصفات:\n\n    CPU: 2.4 GHz Intel Core i7-3630QM\n\n    GPU:
+      NVIDIA GeForce GT 630M (2 GB DDR3 dedicated)\n\n    GPU: Intel® HD Graphics
+      4000\n\n    WIFI: Intel 802.11 b/g/n with Widi; Bluetooth\n\n    ETHERNET: Integrated
+      10/100/1000 Gigabit Ethernet LAN\n\n    RAM: 16 GB DDR3 (2 DIMM)\n\n    SOUND:Beats
+      Audio with 4 speakers and HP Triple Bass Reflex Subwoofer\n\n-سطبت الهاكنتوش
+      بـUEFI وكنت عامل triple boot بينه وبين ويندوز ولينكس وكانت الدنيا حلوه (بعض
+      النظر عن ان التيرمنال بتاعت هاكنتوش نفذت كومند قبل ما أعدل فيه وطير لي بارتشنات
+      الويندوز ولينكس امبارح :3) \n- استخدمت البوت لودر clover ونصيحة أي حد ناوي يسطب
+      هاكنتوش على لابتوب أو PC مايستخدمش بوت لودر غيره.\n- تقريبًا كل حاجة شغاله ماعدا
+      الواي فاي ودا عشان يشتغل هحتاج أغير الcard لحاجة زي  Broadcom BCM943224HMS مثلًا
+      مع الوضع في الاعتبار ان HP بتعمل Whitelist  لكروت المتاحة وبالتالي الباقي حلين
+      لإما custom patch للبايوس أو كرت مدعوم من البايوس ومن الهاكنتوش. \n- الـeathernet
+      شغال بـRealtekRTL8111.kext\n- اللابتوب مقفول على  RAID mode فتحتاج SATA-RAID-282a.kext
+      عشان تخليه يشوف الهارد.\n- السماعات مش شغاله كلها... يعني أنا عندي ٤ سماعات
+      وبـBass؛ أعتقد اللي اشتغل سماعتين بس وطلعوا عيني الصراحة.. وفي الآخر استخدمت
+      AppleALC.kext عشان أحل المشكلة.\n- بحاول أقفل كرت نيفيديا حاليًا عشان شغال على
+      الفاضي وبيسحب من البطارية.\n- الـNative power management شغال بس أعتقد فيه مشاكل
+      لسه ربنا يسهل وأحلها.\n-البطارية تحت ضغط قعدت معايا ساعة وتلت تقريبًا... ماجربتهاش
+      استخدام خفيف الصراحة. وعشان حالتها تتعرض في شريط الحالة؟ المهام؟ (ماعرفش بتوع
+      ماك بيسموه ايه :3)هتضطر تلعب مع الـDSDT شوية بالإضافة إلى ACPIBatteryManager.kext.\n-الشاشة
+      شغالة تمامًا بكل درجات الـbrightness وبأعلى ريزيليوشن 1080x1920\nاستخدمت IntelBacklight.kext
+      وباتش الـDSDT عشان تتشغل.\n-الكيبورد والـتراك باد شغالين تمامًا بـVoodooPS2Controller.kext
+      آخر إصدار. بس في مشكلة في زراير البرايتنيس لسه ماصلحتهاش.\n- المايك والكام شغالين.
+      (ماجربتش جودة المايك الصراحة بس هو شغال يعني)\n\nملفات الـDSDT & SSDT بتاعت
+      لابتوتبي بعد ما عملت لها الباتشات اللازمة في الرابط التالي: (طبعًا دي حصرًا
+      لموديل لابتوبي اللي فوق واللي لازم يحتوي على نفس الهاردوير)\nhttps://www.dropbox.com/sh/nmift1xm18r61n1/AACtlt0BZqIxdDLS4B9G6k0Ba?dl=0\nطبعًا
+      أي حد ناوي يجرب بقوله (هاف فان) ودايمًا حط في بالك أنه في البداية خالص مافيش
+      حاجة هتشتغل حتى الكيبورد والتراك باد ممكن مايشتغلوش (مش هقولك الهاكنتوش ممكن
+      مايعملش بوت من الأساس عشان الاحباط وكدا :D) أو يحاول يشوف guide جاهزة للابتوبه
+      خصوصًا، وDSDT معمول له الباتشات اللازمة للابتوبه على وجه الخصوص.\nودمتم."
+    id: '1505665459473157'
+  - created_time: '2017-06-06T02:05:04+0000'
+    from:
+      name: Mamdouh El Nakeeb
+      id: '10215840177383638'
+    message: |-
+      to make bootable MacOS USB from windows
+      https://www.youtube.com/watch?v=Bbkj19CAPT4
+    id: '1505743606132009'
+  - created_time: '2017-06-06T02:12:34+0000'
+    from:
+      name: Mohammad Sakr
+      id: '1382560551854209'
+    message: Ahmed Fitoh
+    id: '1505749166131453'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV3TlRZAek5UWXlNamd3T1RRM05Eb3hORGsyTnpBM01qUXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV3TlRjME9URTJOakV6TVRRMU16b3hORGsyTnpFMU1UVTAZD

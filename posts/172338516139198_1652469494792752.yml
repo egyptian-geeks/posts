@@ -1,0 +1,77 @@
+---
+message: عندي مشكله مع amazon ec2 .. كنت عامل instance وليها public ip address اللي
+  بتعامل بيه ف api calls .. فجاه لقيت amazon باعتلي بتقولي ان يوم 17-11-2017 هايعملوا
+  retirement ل instance لاغيت هنا مفيش مشكله .. بس بعد الايميل اللي وصلي من amazon
+  لاقيت ال instance بتاعتي unreachable .. ومش عارف حته ادخل عليها ب ssh .. بعدها قررت
+  اني هاستخدم elastic ip عشان  لو حصلت المشكله دي تاني .. بس دلوقتي هل في اي طريقه
+  اخلي ip address القديم valid عشان متبقاش ال apps اللي بتعمل connect ع ip address
+  دي شغاله وبعد كده اعمل force update براحتي واظبط الدنيا ؟
+from:
+  name: Mohammed Khalaf
+  id: '2068715019823753'
+type: status
+created_time: '2017-11-04T16:28:07+0000'
+updated_time: '2017-11-05T08:11:59+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1652469494792752/
+id: '172338516139198_1652469494792752'
+reactions:
+  data:
+  - id: '1824520801181678'
+    name: Hamad Isht
+    type: LIKE
+  - id: '1634789043266994'
+    name: Sameer Al-Salous
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTROekV6TWpZAeU56VTRPakUxTURrNE56VTVPVE02TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlNRGMzTkRJeE5EYzBPakUxTURrNE1UVTBOVE02TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-11-04T16:32:03+0000'
+    from:
+      name: Morad Edwar
+      id: '10215772499725897'
+    message: |-
+      ماظنش انه ينفع ، بس جرب تكلم ال support يمكن ال ip لسة available وربما ينفع يدهولك ، بس حتى لو اخدت elastic ip مش best practice خالص انك تخلي ال app يكلم ip افرض بكرة حبيت تنقل من aws مثلا؟؟
+      خلي دنيتك كلها بالدومين وفى حالة زي دي كنت هتغير ال ip فى الدومين وخلاص
+    id: '1652472918125743'
+  - created_time: '2017-11-04T16:34:01+0000'
+    from:
+      name: Mohamed Magdy
+      id: '940225786146567'
+    message: تجنبا للحالة دي بعدين اربط علي دومين مش ip
+    id: '1652474461458922'
+  - created_time: '2017-11-04T16:46:43+0000'
+    from:
+      name: Muhammad Saleh
+      id: '10156649659196002'
+    message: |-
+      هو حتي لو مش هتربط الاي بي ب دومين المفروض ان الابلكيشن بتاعك يكون فيه كل API URLs configurable
+      يعني حاجه زي كده المفروض يكون معمول حسابها ف الابلكيشن بتاعك برده
+    id: '1652482604791441'
+  - created_time: '2017-11-04T19:19:31+0000'
+    from:
+      name: Mohamed Magdy
+      id: '940225786146567'
+    message: افتكرت مسالة ال unreachable حصلت معايا قبل كدا بس اكتشفت اني قفلت كل
+      البورتات ف الfirewall بتاع الinstance ودا خلاني معرفش ادخل تاني :3 بس لحسن الحظ
+      كانت لسة معمولة وفاضية ف مسحتها ومهتمتش
+    id: '1652703454769356'
+  - created_time: '2017-11-04T19:54:34+0000'
+    from:
+      name: Moataz Elmasry
+      id: '10159865785365331'
+    message: Stop the instance then start it (DO NOT REBOOT), it will start probably
+      start on a new hypervisor and you are good
+    id: '1652724011433967'
+  - created_time: '2017-11-05T08:11:56+0000'
+    from:
+      name: Mohamed Shaaban
+      id: '10156259295924301'
+    message: ليه ما بتستخدمش Route 53؟
+    id: '1653180414721660'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkxTWpRM01qa3hPREV5TlRjME16b3hOVEE1T0RFek1USTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkxTXpFNE1EUXhORGN5TVRZAMk1Eb3hOVEE1T0RZANU5URTIZD

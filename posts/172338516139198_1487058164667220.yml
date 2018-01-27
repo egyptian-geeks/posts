@@ -1,0 +1,46 @@
+---
+message: "السلام عليكم\nمحتاج سؤال بقاله كام يوم دايخ علي اجابة ليه بخصوص جزئية في
+  Threading و OS\nدلوقتي ال Fiber بيكون نوع ما Thread مكون من Stack و Context\nالويندوز
+  مش بيكون عنده علم عن ال Fiber بأي شكل من الأشكال\nوعشان كده بحتاج اني اهندل الموضوع
+  ده عشان اعمل Schedule ل Fibers الأخرى.\n\nطيب انا اعرف ان ال Thread بيحتوي علي ال
+  Fibers كتيرة وال OS هو الي بيهندل ال Thread انا عاوز اعرف بقي لو OS مش ليه يد علي
+  ال Fibers ف علي اي مستوي بيتم عمل كنترول علي الجزئية ديه.\n\nهل ينفع احط كنترول
+  علي الجزئية ديه لو انا شغال حاجة low level\n\nواخيرا انا اتبعت نصائح كانت اتقالت
+  ليه وبدات اذاكر في مراجع ي CLR via C#\nوقرات في ECMA \nبس هو المفروض ايه ال level
+  الي بعد كده\n\n====== ملحوظة=========\nفي المراجع ال fiber يعتبر Lightweight Thread\nبس
+  لما ببحث علي الانترنت بلاقيهم بيقولو ممكن ال Fiber يحتوي علي مجموعة من ال Threads\nفالموضوع
+  سبب لي ارتباك\n===================="
+from:
+  name: احمد قرواش
+  id: '1561022257326859'
+type: status
+created_time: '2017-05-19T04:23:33+0000'
+updated_time: '2017-05-19T17:49:00+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1487058164667220/
+id: '172338516139198_1487058164667220'
+comments:
+  data:
+  - created_time: '2017-05-19T09:19:27+0000'
+    from:
+      name: Ahmed Ali-Edlin
+      id: '1744427948942619'
+    message: الfiber؟
+    id: '1487217704651266'
+  - created_time: '2017-05-19T09:43:03+0000'
+    from:
+      name: Tony Raoul Iscaros
+      id: '10156165643313420'
+    message: |-
+      انا متعملتش مع الfibers قبل كدا ، بس هي زي ال coroutine بس في الo.s مش من اللغه نفسها . الthread مفهوش fibers ، الفكره باختصار انت اللي بتحدد امتى يشتغل و امتى يقف ، ياريت تحدد ايه هدف السؤال ؟
+      الفرق بين الthread و الfiber دا من managed من الkernel و دا من user space
+    id: '1487232911316412'
+  - created_time: '2017-05-19T09:44:12+0000'
+    from:
+      name: Mohamed Amin
+      id: '1809581442395089'
+    message: Hesham Moustafa
+    id: '1487233507983019'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE0TnpJeE56Y3dORFkxTVRJMk5qb3hORGsxTVRnMU5UWTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE0TnpJek16VXdOems0TXpBeE9Ub3hORGsxTVRnM01EVXkZD

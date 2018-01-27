@@ -1,0 +1,109 @@
+---
+message: "Is there a react.js fan tell me why anyone should use react.js\nIt give
+  only one feature and said we are the fastest :/ ????\nThe v in MV* !!! \nWhere are
+  the ng-if ng-repeat filters ....... Route?"
+from:
+  name: Islam Mousa
+  id: '10155714137044823'
+type: status
+created_time: '2016-05-02T15:30:31+0000'
+updated_time: '2016-05-03T03:49:03+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1136070593099314/
+id: '172338516139198_1136070593099314'
+reactions:
+  data:
+  - id: '1596110217148252'
+    name: Ahmed Badawy
+    type: LIKE
+  - id: '1487671784675336'
+    name: Mohamad Emad
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlORGM0Tmpnd09EVTJPakUwTmpJeU1UUXlOVE02TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlPVGMxT0RjM05qZAzFPakUwTmpJeU1URTFNelU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-05-02T16:09:50+0000'
+    from:
+      name: Mohammed El Sayed
+      id: '10155880598025170'
+    message: Ahmad Abd Arrahman
+    id: '1136089069764133'
+  - created_time: '2016-05-02T16:29:53+0000'
+    from:
+      name: Omnia Ibrahim
+      id: '10160080408015601'
+    message: What about ember.js?
+    id: '1136101893096184'
+  - created_time: '2016-05-02T16:31:49+0000'
+    from:
+      name: Mohamed Redavich Eldehiry
+      id: '10159983815940392'
+    message: Amr Hossam Sameh Mohamed EL-Shafie
+    id: '1136102783096095'
+  - created_time: '2016-05-02T17:43:37+0000'
+    from:
+      name: Ahmed Mozaly
+      id: '10155321930231313'
+    message: |-
+      ايه المشكلة اللي React  جاي يحلها؟
+      أفضل من تحصل منه على إجابة هو الفريق اللي فكر فيه أصلاً
+      (بص على الفيديو المرفق، هو بيتكلم في معظمه عن Flux بس هو جايب الحكاية من أولها لغاية React)
+      https://www.youtube.com/watch?list=PLb0IAmt7-GS188xDYE-u1ShQmFFGbrk0v&v=nYkdrAPrdcw
+    id: '1136145359758504'
+  - created_time: '2016-05-02T17:53:27+0000'
+    from:
+      name: Ahmed Mozaly
+      id: '10155321930231313'
+    message: |-
+      مما فهمته منهم:
+      ---------------------
+      المشكلة الرئيسية اللي كانت مقابلاهم، هي علاقة ال JavaScript بال Browser DOM
+      كان فيه مشاكل كتيرة، أهمهما
+      1- قلة التحكم فيما يحدث داخل ال Browser
+      2- البطء الملاحظ في إعادة ترتيب أو رسم أي حاجة جوه ال DOM
+      --
+      قبل React كان كل المكتبات المشهورة (Angular, Ember, Knockout....ect)
+      بتعمل كل شغلها على المتصفح مباشرة، الحل اللي جاء به React انه عمل طبقة وسيطة بين المتصفح وبين كود الجافاسكريبت
+
+      بقى يبني شجرة بكل عناصر الواجهة المطلوب رسمها، وأي حاجة جاية من السيرفر، تعدل في الشجرة ديه .. وأي رسم في المتصفح بيقرأ من الشجرة ديه
+
+      ده اتاح ميزة عظيمة ظهرت لوحدها، وهي ال Diffing ، بعد ما الشجرة ديه يتم تحديثها من بيانات السيرفر، نعمل عليها Diffing ونعرف بالظبط ايه اللي اتغير فيها ونعيد رسم **فقط** العناصر اللي اتغيرت، وده حسن الأداء بشكل ملحوووظ جداً
+    id: '1136149446424762'
+  - created_time: '2016-05-02T18:48:00+0000'
+    from:
+      name: Tarek Amr
+      id: '10155854949245944'
+    message: أي حد يقولك react أحسن من كذا عشان ال virtual dom إديله بالقلم على طول،
+      عشان ديه مش ميزة بالنسبة لأي حد غار خمس ست أنفار بتفرق معاهم السرعة والكلام
+      ده .. الفكرة كلها في طريقة التفكير، وديه غالبا أزواق .. ال react بيخليك بشكل
+      ما تخترع ال html tag بتاعتك وتحط فيها ال behaviours بتاعتها .. أو ما يعرف عند
+      العامة والدهماء بإسم ال components .. العالم التانية زي عنبر ember والزوايا
+      angular بيفكروا بشكل تاني، بينقلوا فكرة ال MVC الموجودة في ال Server Side وبيعملوا
+      زيها في ال client
+    id: '1136173539755686'
+  - created_time: '2016-05-02T19:13:13+0000'
+    from:
+      name: Ahmed Mozaly
+      id: '10155321930231313'
+    message: انا بقول عليها Components يبقى انا كدة من العامة والدهماء؟
+    id: '1136182699754770'
+  - created_time: '2016-05-02T19:16:32+0000'
+    from:
+      name: Tarek Amr
+      id: '10155854949245944'
+    message: هاها، حاشا لله
+    id: '1136183889754651'
+  - created_time: '2016-05-02T19:19:38+0000'
+    from:
+      name: Ahmed Mozaly
+      id: '10155321930231313'
+    message: |-
+      طيب غيرها لاي وصفين حلوين على زوقك عشان اقولك على كام واحد غير الخمس ست أنفار مهتمين بال Virtual DOM
+      :)
+    id: '1136184929754547'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV6TmpBNE9UQTJPVGMyTkRFek16b3hORFl5TWpBMU16a3cZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV6TmpFNE5Ea3lPVGMxTkRVME56b3hORFl5TWpFMk56YzQZD

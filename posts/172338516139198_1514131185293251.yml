@@ -1,0 +1,58 @@
+---
+message: Guys , would you share your experience how to protect your source code (
+  hosted in a private repository ) from being leaked when it's under development by
+  an offshore several team members ?
+from:
+  name: Nabiel Kmal
+  id: '913852418772611'
+type: status
+created_time: '2017-06-13T10:29:56+0000'
+updated_time: '2017-06-17T01:23:10+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1514131185293251/
+id: '172338516139198_1514131185293251'
+reactions:
+  data:
+  - id: '10155226291481186'
+    name: أحمد محمود محمد عبدالوهاب
+    type: SAD
+  paging:
+    cursors:
+      before: TmpVNE5USXhNVGcxT2pFME9UY3pOVEk1TkRNNk56ZAzROalE0TURNM09URXpNekV5
+      after: TmpVNE5USXhNVGcxT2pFME9UY3pOVEk1TkRNNk56ZAzROalE0TURNM09URXpNekV5
+comments:
+  data:
+  - created_time: '2017-06-13T19:01:12+0000'
+    from:
+      name: Moataz Elmasry
+      id: '10159865785365331'
+    message: In practice, you can not. People will always take source code when they
+      leave. What you can do is write scary statements in their work contracts of
+      what will happen if they steal source code.
+    id: '1514551495251220'
+  - created_time: '2017-06-13T20:11:21+0000'
+    from:
+      name: Mohamed Ashour
+      id: '331417197384185'
+    message: What about a local GIT repository like atlassian bitbucket accessed via
+      local hosted VMs which can be remotely access having a strong internet/intranet
+      & file sharing access restrictions ?
+    id: '1514617438577959'
+  - created_time: '2017-06-14T06:32:18+0000'
+    from:
+      name: Mohamed El Shaer
+      id: '1623854234340161'
+    message: "Based on my experience, I have never seen anyone steeling source code,
+      even if they already have the source code they will never open it again. *Maybe
+      this is me only* \U0001F644\n\nIf it is logic, you can seperate the application
+      to multiple components each has its own repository"
+    id: '1515096425196727'
+  - created_time: '2017-06-17T01:23:07+0000'
+    from:
+      name: Mohammed Hussien
+      id: '10154922289347024'
+    message: Maybe a decent NDA disclosure will be okay.
+    id: '1518222971550739'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV4TkRVMU1UUTVOVEkxTVRJeU1Eb3hORGszTXpnd05EY3oZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV4T0RJeU1qazNNVFUxTURjek9Ub3hORGszTmpZAeU5UZAzMZD

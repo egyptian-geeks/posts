@@ -1,0 +1,82 @@
+---
+message: |-
+  السلام عليكم
+  عندى linode server و كنت بحاول اجرب setup مختلف عشان احط كذا موقع على نفس السيرفر
+  الـ setup كالآتي
+  ١- بعمل user جديد  و يكون الـ shell بتاعه "/sbin/nologin"  وليكن إسمه deployer
+  ٢- بعمله home directory  و بحط ssh keys
+  ٣- بحط permissions على الفولدر نفسه زى الصورة اللى مع البوست. اللى فاهمه إن ACL ده طريقة تانية إنى احط permissions على الفولدرز و الفايلات أحسن من الـ chmod (أحسن بإنه اوضح شوية بالنسبة لي)
+  ٤- بعمل php fpm pool جديدة لليوزر ده عشان لو حصل حاجة للويبسايت بتاعه ميبقاش ليه access لباقي المواقع او السيرفر عامة
+  ===========================
+  دلوقتي المشكلة انى لما بحاول اعمل git clone  و احدد اليوزر اللي يعمل كدة انه يكون deployer ٬ بيقول permission denied!
+  إزاى؟ مش المفروض إن الـ permissions اللى فى الصورة دى معناها ان deployer هو الـ owner و ليه rwx permissions ؟ ولا فيه حاجة فايتانى؟
+link: https://www.facebook.com/photo.php?fbid=10154554047916186&set=gm.1495979150441788&type=3
+from:
+  name: أحمد محمود محمد عبدالوهاب
+  id: '10155226291481186'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/18739977_10154554047916186_8382670601999246474_n.jpg?oh=4e86d153feb9996c2723f8be208245d3&oe=5AEA3ABF
+created_time: '2017-05-28T17:09:44+0000'
+updated_time: '2017-05-29T00:38:27+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1495979150441788/
+id: '172338516139198_1495979150441788'
+reactions:
+  data:
+  - id: '10214124238595185'
+    name: Galal Atef
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBNE9UWTBORGd5TnpveE5EazFPVGt6TWpjek9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBNE9UWTBORGd5TnpveE5EazFPVGt6TWpjek9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2017-05-28T17:14:41+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "أفضل طريقة انك تنزل ع السيرفر virtualmin و دي زي cpanel بس اوبن سورس..
+      ومعاها webmin ( الويب انترفيس المعروف لكونفجيوريشن اللينكس) \nبتخليك متحكم في
+      كل حاجة.. هتمشي مانيوال كدة الموضوع هيبقى مش عملي خالص.. انا لسة عامل القصة
+      دي من اسبوع حاجة زي الفل يعني بصراحة \n\nيفضل تكون التوزيعة centos 7"
+    id: '1495982377108132'
+  - created_time: '2017-05-28T17:16:52+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "في البوست بتاعك انت ليه بتعمل sudo \n\nsu deployer - \nفي كومند لوحدها
+      وبعدين كومند ال git\nوبس.. هو ده سبب المشكلة ان الكومند مش صح اصلا :-)"
+    id: '1495983600441343'
+  - created_time: '2017-05-28T23:04:30+0000'
+    from:
+      name: Mohamed El-Sayed
+      id: '10155182529813309'
+    message: Can you please ls -ald /home/deployer/testlume...  ?
+    id: '1496202753752761'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE1TlRrNE1qTTNOekV3T0RFek1qb3hORGsxT1RreE5qZA3kZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE1TmpJd01qYzFNemMxTWpjMk1Ub3hORGsyTURFeU5qY3cZD
+attachments:
+  data:
+  - description: |-
+      السلام عليكم
+      عندى linode server و كنت بحاول اجرب setup مختلف عشان احط كذا موقع على نفس السيرفر
+      الـ setup كالآتي
+      ١- بعمل user جديد  و يكون الـ shell بتاعه "/sbin/nologin"  وليكن إسمه deployer
+      ٢- بعمله home directory  و بحط ssh keys
+      ٣- بحط permissions على الفولدر نفسه زى الصورة اللى مع البوست. اللى فاهمه إن ACL ده طريقة تانية إنى احط permissions على الفولدرز و الفايلات أحسن من الـ chmod (أحسن بإنه اوضح شوية بالنسبة لي)
+      ٤- بعمل php fpm pool جديدة لليوزر ده عشان لو حصل حاجة للويبسايت بتاعه ميبقاش ليه access لباقي المواقع او السيرفر عامة
+      ===========================
+      دلوقتي المشكلة انى لما بحاول اعمل git clone  و احدد اليوزر اللي يعمل كدة انه يكون deployer ٬ بيقول permission denied!
+      إزاى؟ مش المفروض إن الـ permissions اللى فى الصورة دى معناها ان deployer هو الـ owner و ليه rwx permissions ؟ ولا فيه حاجة فايتانى؟
+    media:
+      image:
+        height: 449
+        src: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/18739977_10154554047916186_8382670601999246474_n.jpg?oh=33b821f4dc3f7fbd9e331e25ae744a4a&oe=5AEC05B2
+        width: 720
+    target:
+      id: '10154554047916186'
+      url: https://www.facebook.com/photo.php?fbid=10154554047916186&set=gm.1495979150441788&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=10154554047916186&set=gm.1495979150441788&type=3

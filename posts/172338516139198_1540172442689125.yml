@@ -1,0 +1,69 @@
+---
+message: "[need help in my c# code]\n\ni have 2 Executable files A.exe & B.exe\ni'm
+  trying to : \n1- starting A.exe to send parameters (list of strings) from A.exe
+  to B.exe\n2- when B.exe starts it returns a string depending on the value (that
+  sent from A.exe) \n3-in A.exe read the returned string from B.exe \n\n_____\nNotes
+  :\n- i did step 1 but can't do 2 & 3\n- in B.exe i need to return string NOT INTEGER"
+from:
+  name: Hassan Essam
+  id: '2471742009716808'
+type: status
+created_time: '2017-07-07T16:34:47+0000'
+updated_time: '2017-07-07T18:13:55+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1540172442689125/
+id: '172338516139198_1540172442689125'
+reactions:
+  data:
+  - id: '1185233194941105'
+    name: عبدالرحمن إسماعيل
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXpOak16TURnNU1qWXhPakUwT1RrME9UUTJNREE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXpOak16TURnNU1qWXhPakUwT1RrME9UUTJNREE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-07-07T16:38:01+0000'
+    from:
+      name: Amr Hamdy Ahmed
+      id: '10154935403791059'
+    message: try to use queue messing system to hold the data so when b executes it
+      read it from the queue then act depending on ir
+    id: '1540174549355581'
+  - created_time: '2017-07-07T16:48:05+0000'
+    from:
+      name: Mohamed Ali
+      id: '10155700064031636'
+    message: https://msdn.microsoft.com/en-us/library/system.diagnostics.processstartinfo.redirectstandardoutput.aspx
+    id: '1540181286021574'
+  - created_time: '2017-07-07T16:51:38+0000'
+    from:
+      name: Sameh Selim
+      id: '1907240172924468'
+    message: Change b.exe to windows service and connect to it from a.exe using wcf
+    id: '1540184299354606'
+  - created_time: '2017-07-07T18:07:07+0000'
+    from:
+      name: Ibrahim Amer
+      id: '10214738123343685'
+    message: |-
+      1- You have to configure your B.exe to accept parameters. You can do this from the project properties if you are using Visual Studio. (Right click on your project->Properties->Debug->command line arguments now specify your arguments).
+      2- From A.exe start B.exe (Hidden) and send the required arguments to it using ProcessStartInfo  https://goo.gl/C1ZuaJ
+      3- B.exe  will do its job then output the result to console using Console.Writeline()
+      4- Capture console output from A.exe check this one https://goo.gl/CrcKzH
+    id: '1540267506012952'
+  - created_time: '2017-07-07T18:13:54+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: "I'm assuming A or B may or may not be running at the same time, but
+      you still want to make sure your are not missing anything, and when they start
+      they can process these messages.\nYou can do that using a couple of message
+      Queues, one for inputs from A to B, and one for the outputs from B to A. \nYou
+      just need to have some metadata in the message so you can relate which output
+      corresponds to which input."
+    id: '1540293942676975'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUwTURFM05EVTBPVE0xTlRVNE1Ub3hORGs1TkRRMU5EZA3gZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUwTURJNU16azBNalkzTmprM05Ub3hORGs1TkRVeE1qTTAZD

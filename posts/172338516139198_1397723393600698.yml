@@ -1,0 +1,38 @@
+---
+message: "I am currently developing an Android application with open cv library but
+  i don't know which jni architecture should i choose,  any recommendations?! \n(based
+  on that it is a mobile image processing application )"
+from:
+  name: Mostafa Mohab
+  id: '2017185724963327'
+type: status
+created_time: '2017-02-22T16:59:23+0000'
+updated_time: '2017-02-22T20:27:56+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1397723393600698/
+id: '172338516139198_1397723393600698'
+comments:
+  data:
+  - created_time: '2017-02-22T17:14:12+0000'
+    from:
+      name: Mohammed Hussien
+      id: '10154922289347024'
+    message: Consider reading this link :) https://developer.android.com/ndk/guides/abis.html#sa
+    id: '1397738596932511'
+  - created_time: '2017-02-22T20:21:13+0000'
+    from:
+      name: Mostafa Mohab
+      id: '2017185724963327'
+    message: Anybody knows anything?! ,  because i am really stuck in that point
+    id: '1397847896921581'
+  - created_time: '2017-02-22T20:27:51+0000'
+    from:
+      name: Mohammed Hussien
+      id: '10154922289347024'
+    message: Can you do some effort searching for your question you will find alot
+      of useful resources to start from :) here is the official documentation for
+      opencv telling you which arch to use !  http://docs.opencv.org/3.0-beta/doc/tutorials/introduction/android_binary_package/android_dev_intro.html
+    id: '1397851050254599'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE01Tnpjek9EVTVOamt6TWpVeE1Ub3hORGczTnpnek5qVTEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE01TnpnMU1UQTFNREkxTkRVNU9Ub3hORGczTnprMU1qYzAZD

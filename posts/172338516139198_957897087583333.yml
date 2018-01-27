@@ -1,0 +1,18 @@
+---
+message: "This is the most weirdest vulnerability I've ever seen, The XSS payload
+  got stored somehow in a cookie on ebay's remote server and I have exploited it without
+  being logged in or even putting a payload on either GET or POST request and via
+  a private browsing by just manipulating the referrer and the search string parameters
+  which are stored in the cookie. It's pretty obvious that they're storing the referrers
+  and the search history strings in their database unsanitized.\n\n"
+link: https://www.youtube.com/watch?v=6Ivy1_8WwkE&feature=youtu.be
+from:
+  name: Mohamed A. Baset
+  id: '2088941797787563'
+type: video
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQDfblAfFurkDBBS&w=130&h=130&url=http%3A%2F%2Fi.ytimg.com%2Fvi%2F6Ivy1_8WwkE%2Fmaxresdefault.jpg&cfs=1&_nc_hash=AQCNZawLlX34uCqG
+created_time: '2015-06-13T09:09:27+0000'
+updated_time: '2015-06-13T22:06:42+0000'
+name: eBay Weirdest Stored Cookie XSS vulnerability ever seen.
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/957897087583333/
+id: '172338516139198_957897087583333'

@@ -1,0 +1,61 @@
+---
+message: |-
+  --Update : Issue resolved Now...turns out Gson wasn't the issue.
+
+  Any suggestions from Java geeks in here?.. Trust me I have spent a lot of time Google-ing the issue
+link: http://stackoverflow.com/q/41061196/4759187
+from:
+  name: Amr Yousef
+  id: '10216129314284453'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQBicEnZEnV912SL&w=130&h=130&url=https%3A%2F%2Fcdn.sstatic.net%2FSites%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded&cfs=1&_nc_hash=AQDvsiX7ONHDf146
+created_time: '2016-12-09T14:00:57+0000'
+updated_time: '2016-12-09T16:37:03+0000'
+name: Error Parsing JSON String to JSONObject in Java
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1320242141348824/
+id: '172338516139198_1320242141348824'
+comments:
+  data:
+  - created_time: '2016-12-09T15:58:55+0000'
+    from:
+      name: Aly Saleh
+      id: '10157135743444899'
+    message: it works, check the answer :)
+    id: '1320339911339047'
+  - created_time: '2016-12-09T16:19:42+0000'
+    from:
+      name: Amr Yousef
+      id: '10216129314284453'
+    message: Thanks Aly..I Checked it.. It works when I fix the string itself in a
+      variable. However I  am getting this string from an Azure bus service queue
+      and for some reason it's malformed. When I use setLenient(true)  it cuts from
+      the json string.. To be specific it cuts from the start until the 'd' in "Road"
+      ... Any clues on what to do?
+    id: '1320352801337758'
+  - created_time: '2016-12-09T16:35:23+0000'
+    from:
+      name: Aly Saleh
+      id: '10157135743444899'
+    message: Nop, havent used Azure service queue before :( , but then the question
+      about the json parsing is somewhat irrelevant because the library works fine
+      but anyways Good luck :)
+    id: '1320365751336463'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE15TURNek9Ua3hNVE16T1RBME56b3hORGd4TWprNU1UTTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE15TURNMk5UYzFNVE16TmpRMk16b3hORGd4TXpBeE16STAZD
+attachments:
+  data:
+  - description: 'I have an application that stores this JSON String : String message
+      ="{\"uid\":\"1\",\"streetName\":\"road\",\"city\":\"London\",\"speedLimit\":20}"
+      Now I want to parse it back to a JSON Object, In'
+    media:
+      image:
+        height: 316
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAMFLWvXjUlRuS7&w=720&h=720&url=https%3A%2F%2Fcdn.sstatic.net%2FSites%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded&cfs=1&_nc_hash=AQBDUhzXdwnk-uG7
+        width: 316
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fq%2F41061196%2F4759187&h=ATMN0L7_sw_5FFYqzuGulMkvi05GniDu4-dV7zLnS_LqILBcuclJAUKMkW-9JTXx0uXcJMm5us222KsrRIAqPvHUhj1YSfODj5n_&s=1&enc=AZN6ayUFdqCA-Wa9PQI5iDsIrRdJ_Y7SwCrDaeLNgjp03gvbZc2Y3dgJlFJp6P8K-mAQqZq-0c_1pnXcCT8Aa_VQ
+    title: Error Parsing JSON String to JSONObject in Java
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fq%2F41061196%2F4759187&h=ATMN0L7_sw_5FFYqzuGulMkvi05GniDu4-dV7zLnS_LqILBcuclJAUKMkW-9JTXx0uXcJMm5us222KsrRIAqPvHUhj1YSfODj5n_&s=1&enc=AZN6ayUFdqCA-Wa9PQI5iDsIrRdJ_Y7SwCrDaeLNgjp03gvbZc2Y3dgJlFJp6P8K-mAQqZq-0c_1pnXcCT8Aa_VQ

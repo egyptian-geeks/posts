@@ -1,0 +1,69 @@
+---
+message: Anybody got php-mcrypt installed on CentOS 7 ? Trying for hours without success.
+from:
+  name: Ahmed Hosny
+  id: '2077007312536296'
+type: status
+created_time: '2016-08-02T12:21:57+0000'
+updated_time: '2016-08-03T09:07:10+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1194458257260547/
+id: '172338516139198_1194458257260547'
+comments:
+  data:
+  - created_time: '2016-08-02T12:25:54+0000'
+    from:
+      name: Mina YM
+      id: '10156157323332990'
+    message: 'Run first: yum install epel-release  then install mcrypt'
+    id: '1194460077260365'
+  - created_time: '2016-08-03T08:53:53+0000'
+    from:
+      name: Ahmed Hosny
+      id: '2077007312536296'
+    message: |-
+      Sorry for belated reply.
+
+      What I tried so far is:
+      yum install epel-release && yum install php-mcrypt
+
+      which always end with the following conflicts:
+
+      Error: Package: php-mcrypt-5.3.3-4.el6.x86_64 (epel)
+                 Requires: php(api) = 20090626
+                 Installed: php-common-5.4.16-36.1.el7_2.1.x86_64 (@updates)
+                     php(api) = 20100412-64
+                 Available: php-common-5.4.16-36.el7_1.x86_64 (base)
+                     php(api) = 20100412-64
+      Error: Package: php-mcrypt-5.3.3-4.el6.x86_64 (epel)
+                 Requires: php(zend-abi) = 20090626
+                 Installed: php-common-5.4.16-36.1.el7_2.1.x86_64 (@updates)
+                     php(zend-abi) = 20100525-64
+                 Available: php-common-5.4.16-36.el7_1.x86_64 (base)
+                     php(zend-abi) = 20100525-64
+    id: '1195040237202349'
+  - created_time: '2016-08-03T08:54:48+0000'
+    from:
+      name: Ahmed Hosny
+      id: '2077007312536296'
+    message: Tried many different ways of doing the same of epel-release and php-mcrypt
+      insalling, sometimes specifying being 64bit and more, according to many suggestions
+      in StackOverflow. No success with any.
+    id: '1195040453868994'
+  - created_time: '2016-08-03T09:05:50+0000'
+    from:
+      name: Ahmed Hosny
+      id: '2077007312536296'
+    message: |-
+      Finally worked, seems I used an old epel-release, with a yum upgrade got the new one, and a final yum install php-mcrypt got it installed and working.
+      Thanks guys !
+    id: '1195043453868694'
+  - created_time: '2016-08-03T09:07:08+0000'
+    from:
+      name: Ahmed Hosny
+      id: '2077007312536296'
+    message: Fogot to tell, Did also a yum clean before the upgrade.
+    id: '1195043737201999'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU1TkRRMk1EQTNOekkyTURNMk5Ub3hORGN3TVRRd056VTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU1TlRBME16Y3pOekl3TVRrNU9Ub3hORGN3TWpFMU1qSTQZD

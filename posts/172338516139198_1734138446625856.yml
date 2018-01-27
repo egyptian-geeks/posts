@@ -1,0 +1,74 @@
+---
+message: "Hello guys,I'm working on a project will it needs to fetch twitter account
+  followers, I do use twitter APIs, but it has some limitation when the account has
+  a big number of followers and following *hundred of thousands * which is our case.\n
+  I thought of making a python scrubber which will visit the account profile and starts
+  to scrub the data...I was just wondering if anyone was on my shoes before or tried
+  something similar to it, so he/she can share his experience with me \nthanks in
+  advance :'D"
+from:
+  name: Abd El Rhaman Ezzat
+  id: '1722658717785442'
+type: status
+created_time: '2018-01-26T13:27:44+0000'
+updated_time: '2018-01-26T21:26:37+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1734138446625856/
+id: '172338516139198_1734138446625856'
+reactions:
+  data:
+  - id: '158547971463325'
+    name: Mohamed Mohamedy
+    type: LIKE
+  - id: '1622194551179260'
+    name: Abdoelrhman Mohammed
+    type: LIKE
+  - id: '564149277272611'
+    name: Sherif Y. Ahmed
+    type: LIKE
+  - id: '1592297157519651'
+    name: Omar Elsaeed
+    type: LIKE
+  - id: '1766803903343609'
+    name: Abdelrahman Bonna
+    type: LIKE
+  - id: '10211580001118151'
+    name: Mohamed Edrees
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01ERTVNalF6TmprME5UY3dPakUxTVRjd01ERTJOVEk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRNd09UQTBNelk1T1RveE5URTJPVGN6TkRBd09qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2018-01-26T13:31:33+0000'
+    from:
+      name: Mohamed Edrees
+      id: '10211580001118151'
+    message: "انا كنت بستخدم اداه مش عارف اذا كانت هتساعدك ولا لاء كانت بتجيبلي المعلومات
+      عن الاكونت ومن ضمنها الفولورز \nاسمها tinfoleak"
+    id: '1734146656625035'
+  - created_time: '2018-01-26T16:16:35+0000'
+    from:
+      name: Karim Shoair
+      id: '1608327662579661'
+    message: |-
+      أستخدم مكتبه mechanicalsoup هتسهل عليك الدنيا جدا و أنا كنت لسا من فتره ناشر سكربت بيعمل حاجه زي كدا بس للجت هاب شوف الكود هتبدل كام حاجه بس
+      https://github.com/D4Vinci/My-laziness/blob/master/github_stargazers.py
+
+      وده سكربت كنت عامله لتويتر من زمان بيجيب الداتا الخاصه بأي يوزر بأستخدام ريچيكس وurllib ممكن يساعدك
+      https://github.com/D4Vinci/Twitter-Info
+
+      بالتوفيق يسطي :D
+    id: '1734291613277206'
+  - created_time: '2018-01-26T21:26:35+0000'
+    from:
+      name: Mohamed Mohamedy
+      id: '158547971463325'
+    message: "أنا عملت حاجة شبيهة لinstagram \nكنت بدور على ال related accounts ومفيش
+      api ليها \nفبدأت ا automate الموضوع دا وكان شغال كويس.\nأو ممكن تشوف tweepy
+      الأول."
+    id: '1734528273253540'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN6TkRFME5qWTFOall5TlRBek5Ub3hOVEUyT1Rjek5EazAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN6TkRVeU9ESTNNekkxTXpVME1Eb3hOVEUzTURBeE9UazEZD

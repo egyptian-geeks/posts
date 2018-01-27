@@ -1,0 +1,100 @@
+---
+message: "كنت عايز أخد رأيكم في Database Model عن Modeling ECommerce Product Variants
+  بعمله حالياً. كنت عايز أعرف إيه هيا عيوبه أو الـ possible near-future drawbacks
+  اللى ممكن يسببها؟\n\nالموضوع بإختصار إننا بنحاول نخلي الـ user يقدر يضيف كذا variant
+  للـ product الواحد. و كل variant هوا بيحدد إسمه إيه و بيقدر يضيف options للـ variant
+  دا.  بمعنى إن مثلاً \nTShirt X has variant (Color) of type (Red)\nكل variant ممكن
+  يكون ليه السعر أو الكمية أو الصورة الخاصة بيه. و هوا بيقدر يضيفهم طبعاً. \n\nأنا
+  وصلت إني أشتغل بـ Mongo just to reduce redundancy علماً إن المشروع هوا مزيج من Mongo
+  & SQL. و هوا دا الموديل اللى وصلتله بعد يوم تقريباً من البحث في المصادر و مراجعة
+  الـ Database models لحاجات زي OpenCart. \n\nGist: https://gist.github.com/omarking05/202ead7ee2492a7b01eb37970e251ebe\n\nوشكراً
+  مقدماً"
+link: https://www.facebook.com/photo.php?fbid=10214444708448066&set=gm.1730110127028688&type=3
+from:
+  name: Omar Ahmed
+  id: '10214495066066975'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/27067144_10214444708448066_7023351301965810173_n.jpg?oh=eaa5e7e0e9e378f97474cfc08fdb7b58&oe=5ADF68F2
+created_time: '2018-01-22T17:23:58+0000'
+updated_time: '2018-01-25T12:33:32+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1730110127028688/
+id: '172338516139198_1730110127028688'
+reactions:
+  data:
+  - id: '927490574073670'
+    name: Mahmoud Abdalazez
+    type: LIKE
+  - id: '10213961840660645'
+    name: Ahmed Abdelfttah
+    type: LIKE
+  - id: '838637592985111'
+    name: Mohammad Desouky
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTBNemd5TURjMk5URXlPakUxTVRZAM01UYzFPRGM2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTFNVFkyTXpNMU56azNPakUxTVRZAMk9UazRNVGc2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2018-01-23T14:03:21+0000'
+    from:
+      name: Bdr Mohamed
+      id: '2015246105157800'
+    message: |-
+      انا مش خبير database بس هقول رايي ف حاجه بعد اذنك.
+      ممكن ال item ياخد كذا variation وكمان ممكن نفس ال variation يكون لكذا item. د معناه ان ال relation many to many. ولا ايه؟
+    id: '1731019616937739'
+  - created_time: '2018-01-24T19:15:59+0000'
+    from:
+      name: أسامة يعقوب
+      id: '346030139207588'
+    message: |-
+      هى ال variants دى ال user اللى بيدخلها ؟ يعنى dynamic مش static صح؟
+      يعنى كل user ممكن يدخل اى حاجة
+    id: '1732398426799858'
+  - created_time: '2018-01-24T19:18:58+0000'
+    from:
+      name: أسامة يعقوب
+      id: '346030139207588'
+    message: و لا هى حاجات ثابتة ... لون و مقاس و كده
+    id: '1732400926799608'
+  - created_time: '2018-01-24T19:37:20+0000'
+    from:
+      name: Omar Ahmed
+      id: '10214495066066975'
+    message: لا هيا فعلا dynamic ال user يقدر يضيف اي variation يحبه
+    id: '1732413116798389'
+  - created_time: '2018-01-25T06:15:37+0000'
+    from:
+      name: أسامة يعقوب
+      id: '346030139207588'
+    message: انا مليش فى المونجو اوى ... بس ك rdbms ... أظنه كويس ... مع تظبيط الاندكس
+      على حسب ال queries بتاعتك
+    id: '1732855766754124'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN6TVRBeE9UWXhOamt6Tnpjek9Ub3hOVEUyTnpFMk1qQXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN6TWpnMU5UYzJOamMxTkRFeU5Eb3hOVEUyT0RZAd09UTTQZD
+attachments:
+  data:
+  - description: "كنت عايز أخد رأيكم في Database Model عن Modeling ECommerce Product
+      Variants بعمله حالياً. كنت عايز أعرف إيه هيا عيوبه أو الـ possible near-future
+      drawbacks اللى ممكن يسببها؟\n\nالموضوع بإختصار إننا بنحاول نخلي الـ user يقدر
+      يضيف كذا variant للـ product الواحد. و كل variant هوا بيحدد إسمه إيه و بيقدر
+      يضيف options للـ variant دا.  بمعنى إن مثلاً \nTShirt X has variant (Color)
+      of type (Red)\nكل variant ممكن يكون ليه السعر أو الكمية أو الصورة الخاصة بيه.
+      و هوا بيقدر يضيفهم طبعاً. \n\nأنا وصلت إني أشتغل بـ Mongo just to reduce redundancy
+      علماً إن المشروع هوا مزيج من Mongo & SQL. و هوا دا الموديل اللى وصلتله بعد يوم
+      تقريباً من البحث في المصادر و مراجعة الـ Database models لحاجات زي OpenCart.
+      \n\nGist: https://gist.github.com/omarking05/202ead7ee2492a7b01eb37970e251ebe\n\nوشكراً
+      مقدماً"
+    media:
+      image:
+        height: 291
+        src: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/27067144_10214444708448066_7023351301965810173_n.jpg?oh=66906f3db66b7d18b47e8b457ed8d100&oe=5B1E10FF
+        width: 720
+    target:
+      id: '10214444708448066'
+      url: https://www.facebook.com/photo.php?fbid=10214444708448066&set=gm.1730110127028688&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=10214444708448066&set=gm.1730110127028688&type=3

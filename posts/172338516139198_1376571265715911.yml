@@ -1,0 +1,42 @@
+---
+message: |-
+  Why should we use #React_Redux  over #Angular ? the idea of #reusable_component and #one_store of data can be done in angular if needed with Directive or Services . the #Angular problem of watchers and  2 way data binding performance can be ignored by dynamic rendering   and dispatch  actions to update models .
+  I am interested to know more information from any expert  here
+from:
+  name: Amr Almgwary
+  id: '1978556165731463'
+type: status
+created_time: '2017-02-02T20:07:38+0000'
+updated_time: '2017-02-04T17:27:50+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1376571265715911/
+id: '172338516139198_1376571265715911'
+reactions:
+  data:
+  - id: '1848749968530776'
+    name: Abd El-Rahman Rafat
+    type: LIKE
+  - id: '10215523479504700'
+    name: Abdulaziz Alaa
+    type: LIKE
+  - id: '10214843347173894'
+    name: Hesham Watany
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhPRGN6TnpJeE9UWXpPakUwT0RZAeE5EWXdPVGs2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRFek1qazJPRGt6T0RveE5EZAzJNVEl3TWpNd09qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2017-02-04T08:58:33+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: |-
+      Well, directives are no match for react components, also react will outperform angular1.x in any midum+ size project.
+      - also react is cross platform: server side rendering if u care about seo, react-native for native like mobile apps.
+      One more thing i migrated from angular to react for was bundle size. When our project was using angular the lib.js file alone was 1MB++ compared to 200k for react and i wasnt even using jquery ! Angular2 bundle size is even twice that size.
+    id: '1378126242227080'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0zT0RFeU5qSTBNakl5TnpBNE1Eb3hORGcyTVRrNE56RTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0zT0RFeU5qSTBNakl5TnpBNE1Eb3hORGcyTVRrNE56RTAZD

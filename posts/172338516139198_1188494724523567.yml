@@ -1,0 +1,100 @@
+---
+message: |-
+  للناس اللى إشتغلت Xamarin أو PhoneGap  مين فيهم أحسن؟
+  و مين ال Quality بتاعة الـ App فى الأخر بتبقى أحسن؟
+  و PhoneGap بيحتاج MacOS أو iOS عشان تــ Develop بيه iOS Apps ولا عادى؟
+  و تنصحوا أشتغل بمني فيهم أحسن!
+from:
+  name: Mohamed Emam
+  id: '1637456226316303'
+type: status
+created_time: '2016-07-24T20:06:43+0000'
+updated_time: '2016-07-25T06:54:05+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1188494724523567/
+id: '172338516139198_1188494724523567'
+reactions:
+  data:
+  - id: '10156131123229595'
+    name: Adam Moneib
+    type: LIKE
+  - id: '10214861141222529'
+    name: Abdelrady Fcis
+    type: LIKE
+  - id: '1487671784675336'
+    name: Mohamad Emad
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRnek9UYzVOVGswT2pFME5qa3pPVE14TnpJNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQXlPVGMxT0RjM05qZAzFPakUwTmprek9URTNPVGc2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-07-24T20:07:39+0000'
+    from:
+      name: Salah Jr Ahmed
+      id: '10155519026807880'
+    message: I recommend to add nativeScript with angular 2 to your choices
+    id: '1188495021190204'
+  - created_time: '2016-07-24T20:11:18+0000'
+    from:
+      name: Hany Saad
+      id: '10155270396306616'
+    message: "Xamarin is better if your background is C#, and also it's faster and
+      has better performance because of it's compiled to native code.\n\nPhoneGap
+      is better if your background is Javascript, but it's slower  and haven't access
+      to all native features as it runs as a hybrid app \n\nI also suggest to consider
+      Titanium as a JS based code, but run as a native app also not hybrid"
+    id: '1188496201190086'
+  - created_time: '2016-07-24T20:12:08+0000'
+    from:
+      name: Ahmad Magdy
+      id: '895970407247426'
+    message: i think Xamarin will give you better performance
+    id: '1188496671190039'
+  - created_time: '2016-07-24T20:22:09+0000'
+    from:
+      name: Ibraheem Osama
+      id: '10155206310513093'
+    message: |-
+      PhoneGap performance is not good, you can always detect if the application is built using phone gap from slow navigation and delayed scroll.
+      Xamarin provides a performance almost same as native apps.
+      Both requires Mac to build the ios application but you develop using windows for getting the android application and once done just get a mac to build your app for ios.
+      Lastly use Xamarin forms for cross platform , it will save you a lot of time.
+    id: '1188500334523006'
+  - created_time: '2016-07-24T20:46:29+0000'
+    from:
+      name: Omar Hassan
+      id: '10156054633057370'
+    message: Cordova +angular2 +ionic2 is your best choice
+    id: '1188516384521401'
+  - created_time: '2016-07-24T20:53:01+0000'
+    from:
+      name: Mohamed Mahmoud
+      id: '1585286318234570'
+    message: Xamarin is better than phonegap because it gives native app
+    id: '1188522521187454'
+  - created_time: '2016-07-24T22:03:13+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: |-
+      Xamarin delivers Native Apps
+      PhoneGap help u quicker , better and has wide support "in the end its Javsscript"
+      Both needs a Mac to develop "at least to submit to AppStore" however u can rent a mac in the cloud
+    id: '1188560897850283'
+  - created_time: '2016-07-25T05:48:10+0000'
+    from:
+      name: Musa Hamza
+      id: '10156020325916241'
+    message: Phonegap / Cordova need Mac and XCode for iOS apps
+    id: '1188759641163742'
+  - created_time: '2016-07-25T06:54:05+0000'
+    from:
+      name: Mohamed Nady
+      id: '10155293228608733'
+    message: Mohamed Rashed Amr Badawy
+    id: '1188777501161956'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU0T0RRNU5UQXlNVEU1TURJd05Eb3hORFk1TXprd09EVTUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU0T0RjM056VXdNVEUyTVRrMU5qb3hORFk1TkRJNU5qUTIZD

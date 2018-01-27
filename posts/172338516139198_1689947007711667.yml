@@ -1,0 +1,64 @@
+---
+message: |-
+  What is the best hosting service to host my MVC 5 website?
+  I'm currently using Godaddy but the website is slow on initial load and each time after it's idle it take some time to load again, apparently this is due to the application pool which kills it after some idle time.
+from:
+  name: Khairy Abd El-Zaher
+  id: '10215036468606659'
+type: status
+created_time: '2017-12-13T12:24:44+0000'
+updated_time: '2017-12-14T11:31:46+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1689947007711667/
+id: '172338516139198_1689947007711667'
+reactions:
+  data:
+  - id: '2001897360084292'
+    name: Ahsan Ali
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTNPVEl4TkRJd09UWXlPakUxTVRNek5qUXhPVGM2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTNPVEl4TkRJd09UWXlPakUxTVRNek5qUXhPVGM2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-12-13T12:30:32+0000'
+    from:
+      name: Mohamed Eltantawi
+      id: '10160105091695314'
+    message: |-
+      If you can manage your own server then I highly recommend either a VPS/Cloud/dedicated server depending on your traffic/performance requirements, you will have to pay for the Windows license though.
+
+      If you don't want to go that route, then I don't know much about Windows shared hosting, hope someone else can help.
+    id: '1690744014298633'
+  - created_time: '2017-12-13T15:41:27+0000'
+    from:
+      name: Hesham Desouky
+      id: '10215011048531592'
+    message: Azure? with always on feature
+    id: '1690899470949754'
+  - created_time: '2017-12-13T16:04:14+0000'
+    from:
+      name: AbdAllah Khashaba
+      id: '1032800230207501'
+    message: namecheap.com سرييييع جداً
+    id: '1690920020947699'
+  - created_time: '2017-12-13T21:20:22+0000'
+    from:
+      name: ياسر أحمد
+      id: '325391784622153'
+    message: |-
+      بص أنا مش متأكد أنت تقصد ايه بMVC5 لكن أيا كانت اللغة اللي مستخدمها احجز VPS لو أنت هتقدر تدير الموضوع كويس.
+      وأنا بأرشحلك ديجيتال أوشن
+      https://www.digitalocean.com
+      والأسعار بتبدأ من ٥ دولار في الشهر
+    id: '1691144460925255'
+  - created_time: '2017-12-14T11:31:38+0000'
+    from:
+      name: Ahmed Salah Ask
+      id: '10213072623002072'
+    message: try www.myasp.net it's awesome
+    id: '1691646957541672'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFk1TURjME5EQXhOREk1T0RZAek16b3hOVEV6TVRZANE1qTXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFk1TVRZAME5qazFOelUwTVRZAM01qb3hOVEV6TWpVeE1EazUZD

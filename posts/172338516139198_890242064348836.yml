@@ -1,0 +1,15 @@
+---
+message: "Hi Guys,\nIs Entity Framework suitable for application which makes automated
+  operations, most of these operations are inserting using multiple threads ?\n\nmy
+  case is : \n- small database contain 8 tables\n- only two table are used for automated
+  insert and they are the main tables for the system \n- the application perform insert
+  operations in parallel\n- the underline table contain about 1.5 millions of records
+  \n//note, i used instance per request \n\nPlease advise"
+from:
+  name: Mohamed Elnagar
+  id: '10215800137143118'
+type: status
+created_time: '2015-02-03T15:40:00+0000'
+updated_time: '2015-02-04T18:20:39+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/890242064348836/
+id: '172338516139198_890242064348836'

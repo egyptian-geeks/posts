@@ -1,0 +1,98 @@
+---
+message: |-
+  Hey WordPress gurus,
+
+  What's the latest and greatest WordPress backup / import-export plugin or tooling of the day in April 2016?
+
+  (Database, themes, plugins, extra files, and posts)
+
+  P.S.
+  I could obviously google for tools that do this. I'm flooded with results though. I was hoping for first hand experimenters recommendations instead of just more help googling.
+
+  Thanks a lot :)
+from:
+  name: Meligy
+  id: '10155880569740170'
+type: status
+created_time: '2016-04-20T04:02:49+0000'
+updated_time: '2016-04-21T16:38:53+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1127815353924838/
+id: '172338516139198_1127815353924838'
+reactions:
+  data:
+  - id: '10155138037322478'
+    name: Anas Emad
+    type: LIKE
+  - id: '1487671784675336'
+    name: Mohamad Emad
+    type: LIKE
+  - id: '2004705666469226'
+    name: Ahmed Essam
+    type: LIKE
+  - id: '10214782136417946'
+    name: Karim Aladdin Mansour
+    type: LIKE
+  - id: '1596110217148252'
+    name: Ahmed Badawy
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpjME9UTXlORGMzT2pFME5qRXlOVGd4TVRBNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQXlORGM0Tmpnd09EVTJPakUwTmpFeE1qWXdOalU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-04-20T06:03:03+0000'
+    from:
+      name: Loai Nagati
+      id: '1561923947178330'
+    message: I have checked plenty of them, and my favorite solution is to backup
+      every part separately
+    id: '1127888410584199'
+  - created_time: '2016-04-20T06:11:17+0000'
+    from:
+      name: أحمد محمود محمد عبدالوهاب
+      id: '10155226291481186'
+    message: |-
+      +1 @ Loai's answer
+      It seems like you might get a good database backup plugin, but regarding the wp-content folder, you need to back it up on your own.
+      Cannot we work together to write sth specific to our needs?
+    id: '1127890910583949'
+  - created_time: '2016-04-20T08:24:13+0000'
+    from:
+      name: Omar Ibrahim
+      id: '10116066877056474'
+    message: "If you are working with a small size WordPress website, then I recommend\"\n-
+      Duplicator (https://wordpress.org/plugins/duplicator/). \n- Backup Buddy (https://ithemes.com/purchase/backupbuddy/)
+      \n\nBackup Buddy is a paid plugin and slightly user friendly, Duplicator is
+      just fine. The way these two plugins work is by backing up all your files and
+      database into one zip file, in addition to a php \"extractor\" file.\n\nIf you
+      are working with a larger website, having a 1GB+ zip backup of your website
+      might not be that helpful when it's time to download/upload it. In that case,
+      I would do a local backup and use an FTP for compare and sync, or git if you
+      prefer, plus the database backup, manual or with a plugin. There is this powerful
+      database backup tool https://deliciousbrains.com/wp-migrate-db-pro/, if you
+      want a git type workflow, and want to make database migration just as easy to
+      push and pull (expensive for my needs but seems popular online).\n\nThere are
+      also web hosting services that offer decent WordPress backup solutions and integration
+      with git."
+    id: '1127957090577331'
+  - created_time: '2016-04-20T08:54:40+0000'
+    from:
+      name: Mohamed Amgad
+      id: '10215433203563275'
+    message: |-
+      you can just use Docker
+      https://www.docker.com/
+    id: '1127965350576505'
+  - created_time: '2016-04-20T17:50:44+0000'
+    from:
+      name: Eslam Hamouda
+      id: '10212947071504226'
+    message: |-
+      I'm using a plugin called "BackWPup" for more than a year with no problems at all, i'm scheduling a weekly full backup to my Dropbox account and it works very smoothly.
+      https://wordpress.org/plugins/backwpup/
+    id: '1128326027207104'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV5TnpnNE9EUXhNRFU0TkRFNU9Ub3hORFl4TVRNeU1UZA3oZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV5T0RNeU5qQXlOekl3TnpFd05Eb3hORFl4TVRjME5qUTEZD

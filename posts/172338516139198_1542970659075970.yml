@@ -1,0 +1,66 @@
+---
+message: "SA,\nI have an Angular app with a back-end API (unknown to me). I needed
+  to extract data from this app using that API. I used wireshark to track the http
+  requests, and it worked. My question is: are there other (smarter) tools to get
+  the APIs other than wireshark? \nThanks in advance."
+from:
+  name: Mohamed Gamal
+  id: '10156096685587328'
+type: status
+created_time: '2017-07-10T07:33:53+0000'
+updated_time: '2017-07-10T15:28:52+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1542970659075970/
+id: '172338516139198_1542970659075970'
+reactions:
+  data:
+  - id: '10159880265870164'
+    name: Kinan Qassar
+    type: LIKE
+  paging:
+    cursors:
+      before: T0RZAek1UUTFNVFl6T2pFME9UazJOelF3T1RBNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: T0RZAek1UUTFNVFl6T2pFME9UazJOelF3T1RBNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-07-10T08:04:04+0000'
+    from:
+      name: Ammar Youssef
+      id: '10155097484932190'
+    message: |-
+      لو هو موقع على الانترنت
+       افتح chrome
+      F12
+      Chrome dev tools وهتلاقي كل الطلبات في network tab
+
+      لو هو electron او nodewebkit
+      Shift+12
+       ونفس الكلام
+    id: '1542995512406818'
+  - created_time: '2017-07-10T08:08:01+0000'
+    from:
+      name: Kinan Qassar
+      id: '10159880265870164'
+    message: http://www.telerik.com/fiddler
+    id: '1542996982406671'
+  - created_time: '2017-07-10T08:50:33+0000'
+    from:
+      name: Omar Saqr
+      id: '10216335292360651'
+    message: burpsuite
+    id: '1543017592404610'
+  - created_time: '2017-07-10T12:44:37+0000'
+    from:
+      name: Mohamed Ashraf
+      id: '10155906116946287'
+    message: just network connections tab of the chrome or firefox dev tools
+    id: '1543164935723209'
+  - created_time: '2017-07-10T15:28:49+0000'
+    from:
+      name: George Moheb
+      id: '10210440074417898'
+    message: chrome developer tools and check the network tab
+    id: '1543291422377227'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUwTWprNU5UVXhNalF3TmpneE9Eb3hORGs1Tmpjek9EUTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUwTXpJNU1UUXlNak0zTnpJeU56b3hORGs1TnpBd05USTUZD

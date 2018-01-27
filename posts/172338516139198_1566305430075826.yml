@@ -1,0 +1,46 @@
+---
+message: "السلام عليكم\nانا بعمل فورم للطلاب فيها  تاب للبيانات الاساسيه وتاب للبيانات
+  الصحيه \nفي التاب البيانات الصحيه في partial view \nلعرض بيانات  المشاكل الصحيه
+  \ وهناك   link لاضافه جديد يفتح partisl view الاضافه في نفس المكان وعند عمل \nsubmit
+  \ في الcreate  يحدث redirect to action  لصفحه اخري يظهر بها  عرض المشاكل الصحيه
+  ولكن المشكله عاوزه ان يحدت استبدال في الصفحه الاساسيه ل create view ب index viewبدون
+  عمل refresh للصفحه كلها ويظهرفي نفس ال div\nعشاه مفقدش جميع الداتا الموجوده في الصفحه\nAsp
+  mvc"
+from:
+  name: Samar Abdelhamid
+  id: '10215412126240955'
+type: status
+created_time: '2017-08-02T21:23:49+0000'
+updated_time: '2017-08-02T21:53:03+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1566305430075826/
+id: '172338516139198_1566305430075826'
+comments:
+  data:
+  - created_time: '2017-08-02T21:50:52+0000'
+    from:
+      name: Mahmoud Ow
+      id: '561900310821366'
+    message: "استخدمى جافاسكربت ( جى كويرى ) و اعملى \nevent.preventDefault"
+    id: '1566324336740602'
+  - created_time: '2017-08-02T21:51:22+0000'
+    from:
+      name: Mahmoud Ow
+      id: '561900310821366'
+    message: هيتم عمل وقف للريفريش و بعدين تقدرى تعملى اجاكس ريكوست
+    id: '1566324663407236'
+  - created_time: '2017-08-02T21:53:02+0000'
+    from:
+      name: Mahmoud Ow
+      id: '561900310821366'
+    message: |-
+      $("#button").click( function (event){
+
+      // Ajax Request here
+
+      event.preventDefault;
+      });
+    id: '1566326780073691'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUyTmpNeU5ETXpOamMwTURZAd01qb3hOVEF4TnpFd05qVXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUyTmpNeU5qYzRNREEzTXpZANU1Ub3hOVEF4TnpFd056ZA3kZD

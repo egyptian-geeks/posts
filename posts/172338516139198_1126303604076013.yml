@@ -1,0 +1,111 @@
+---
+message: "I need your opinion about cheapest Parse replacement. I investigated a lot
+  in this topic but what I was getting as free at Parse will cost me now 100-200$
+  monthly in alternative solutions. \nrequirements:\n- I serve 4 million requests
+  per month serving only 20 000 users\n- db is 2 GB\n- I use cloud code / scheduled
+  jobs / push notifications / social authentication.\nNumbers mentioned above will
+  increase with the increase of users.\nHope you can help. Thanks in advance."
+from:
+  name: Hisham Hassan
+  id: '10156155579969187'
+type: status
+created_time: '2016-04-17T22:27:38+0000'
+updated_time: '2016-04-21T14:06:42+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1126303604076013/
+shares:
+  count: 1
+id: '172338516139198_1126303604076013'
+reactions:
+  data:
+  - id: '10156161420618658'
+    name: هاجر عبدالغفار
+    type: LIKE
+  - id: '10156117645943910'
+    name: Ahmed Elsayed Shoeib
+    type: LIKE
+  - id: '1657509230977456'
+    name: Hosam Aly
+    type: LIKE
+  paging:
+    cursors:
+      before: T0RBMU1qQXpOalUzT2pFME5qQTVOekEyTmpBNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQXhOVFV4T0RRMk1EZAzBPakUwTmpBNU16YzJORGs2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-04-17T22:30:32+0000'
+    from:
+      name: Morad Edwar
+      id: '10215772499725897'
+    message: |-
+      What about your own parse server??
+      It's not a big deal and I think you will only lose the push notifications which is easy to use any other alternative for it.
+    id: '1126304454075928'
+  - created_time: '2016-04-17T22:33:08+0000'
+    from:
+      name: Hisham Hassan
+      id: '10156155579969187'
+    message: I was with that option until I faced a situation where scheduled jobs
+      stopped working and Parse support team was a life saver for me. If I faced this
+      situation alone, my app would die. and I dont have that much time to do everything
+    id: '1126305660742474'
+  - created_time: '2016-04-17T22:43:11+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: Morad Edwar i've faced the same situation today too, hosting a managed
+      mongo cluster is fucking expensive :/
+    id: '1126310150742025'
+  - created_time: '2016-04-17T22:46:22+0000'
+    from:
+      name: Morad Edwar
+      id: '10215772499725897'
+    message: |-
+      I don't have a big apps like you guys so I don't see it that way and one server is enough for me to be an alternative for Parse.com
+      I think we learned a hard lesson with Parse so let's try not to use full BaaS for our Apps.
+    id: '1126311150741925'
+  - created_time: '2016-04-17T22:51:09+0000'
+    from:
+      name: Mahmoud Mortda
+      id: '1816374988414963'
+    message: google app-engine free quote
+    id: '1126315014074872'
+  - created_time: '2016-04-18T00:04:43+0000'
+    from:
+      name: Walid Ashraf
+      id: '10159896809840176'
+    message: https://buddy.com/
+    id: '1126346437405063'
+  - created_time: '2016-04-18T00:27:41+0000'
+    from:
+      name: Muhammad Saleh
+      id: '10156649659196002'
+    message: Hisham Hassan what about firebase?
+    id: '1126355800737460'
+  - created_time: '2016-04-18T05:04:29+0000'
+    from:
+      name: Ahmed Eldosoukey
+      id: '10155780527142535'
+    message: |-
+      Ya H, Amazon Offers AWS Mobile Hub, where you can live one more free year considering your numbers. They have Cognito for authentication, Lamda for cloud cod, SNS for push notifications. Have a look:
+      http://aws.amazon.com/mobile/
+    id: '1126476044058769'
+  - created_time: '2016-04-21T14:06:42+0000'
+    from:
+      name: Hisham Hassan
+      id: '10156155579969187'
+    message: 'seems that there is not a lot here faced the issue. I hoped to get a
+      lot of answers based on real experience. Anyway, Here is most propaply my final
+      decision after days of investigation. firebase is not suotable. amazon is powerfull
+      but complex and has more cost if you pay as you go and didnt pay first. google
+      app engine is easy and cheaper and will become more cheaper on Acoming July.
+      hosting parse server on my responsibility is very risky for my buisoness. so
+      final decision is : in short term: continue on parse for next 1-2 month.  then
+      host parse on Back4app.com which manages parse for you and add missing parts
+      but cost more money. long term to seitch to google app engine and write missing
+      parts with integration with other systems that cover mossing parts such as onesignal.com
+      for push notifications'
+    id: '1128914550481585'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV5TmpNd05EUTFOREEzTlRreU9Eb3hORFl3T1RNeU1qTXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV5T0RreE5EVTFNRFE0TVRVNE5Ub3hORFl4TWpRM05qQTAZD

@@ -1,0 +1,112 @@
+---
+message: |-
+  السلام عليكم يا شباب
+  أنا عندي مشكلة مع ال wireless adapter في ubuntu
+  بتلقط الإشارة ضعيفة جدا و كتير جدا drop connection
+  دي مواصفات ال hardware, و driver
+  و معاهم ال bash script اللي جمعهم۔
+
+  الحل اللي لقيته:
+  https://learntillyoudie.wordpress.com/2016/07/06/wifi-issue-in-laptops-having-rtl8732be-drivers/
+
+  الحل ده bios level
+  و أنا الحقيقة خبرتي كلها web development ماليش علاقة بالمستوى ده من البرمجيات۔ اللي هي مرتبطة أوي بالهاردوير و الos
+  فمش قادر أحكم علي الحل ده ممكن يسبب أضرار ولا لأ۔
+  فلو فيه أي حد Linux kernel developer أو أي تخصص related  يقدر يفيدني
+from:
+  name: محمود ياسر
+  id: '1575928095831402'
+type: status
+created_time: '2017-05-08T09:01:05+0000'
+updated_time: '2017-05-12T07:02:20+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/1476839842355719/
+shares:
+  count: 1
+id: '172338516139198_1476839842355719'
+reactions:
+  data:
+  - id: '10215352706918859'
+    name: Mohamed Ahmed Zidan
+    type: LIKE
+  - id: '1809581442395089'
+    name: Mohamed Amin
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRRM01UWTNPRFV4TXpveE5EazBNalF3TlRNMU9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBd01EQXdNamszTlRJMU1qWTVPakUwT1RReU16UXhPVE02TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-05-08T09:04:00+0000'
+    from:
+      name: Mohamed Amin
+      id: '1809581442395089'
+    message: انا بعاني من المشكلة دي انا كمان - على طول كدا وبقية الاجهزة اللي موجودة
+      في الشقة معايا بتبقى بتلقط إشارة الويرليس كويس جدا إلا انا
+    id: '1476840962355607'
+  - created_time: '2017-05-08T09:05:57+0000'
+    from:
+      name: Ramy Tamer
+      id: '2020727481277546'
+    message: اعتقد في مشكلة مع ubuntu وال wireless عامة ، لاني شفتها على كذا جهاز
+      و كذا version ، عشان كدة دايما بفضل اشتغل ب cable او اقعد جنب الراوتر بقى :D
+    id: '1476841765688860'
+  - created_time: '2017-05-08T10:08:46+0000'
+    from:
+      name: Robert Nabil
+      id: '1317736788371656'
+    message: جرب manjaro linux لايف من علي usb و اختار ال non-free drivers لو اشتغل
+      معاك تمام يبقي الموضوع كان bug فال network manager و محتاج تعملوا تحديث ...
+      ف لو ده اخر حاجه علي ubuntu يبقي استخدم توزيعه تانيه زي manjaro
+    id: '1476869709019399'
+  - created_time: '2017-05-08T10:48:59+0000'
+    from:
+      name: Mohamed Ahmed Zidan
+      id: '10215352706918859'
+    message: ''
+    id: '1476892895683747'
+  - created_time: '2017-05-08T15:07:22+0000'
+    from:
+      name: Ibrahim Zaki
+      id: '10157017423792738'
+    message: the same here
+    id: '1477059532333750'
+  - created_time: '2017-05-11T23:07:08+0000'
+    from:
+      name: محمود ياسر
+      id: '1575928095831402'
+    message: كله عنده المشكلة نفسها و ما حدش عنده حل؟
+    id: '1480178215355215'
+  - created_time: '2017-05-12T07:02:17+0000'
+    from:
+      name: محمود ياسر
+      id: '1575928095831402'
+    message: |-
+      الحل ده اشتغل عندي يا رجالة و لوز العنب. :D
+      الدنيا دلوقتي زي الفل
+    id: '1480489338657436'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEzTmpnME1EazJNak0xTlRZAd056b3hORGswTWpNME1qUXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE0TURRNE9UTXpPRFkxTnpRek5qb3hORGswTlRjeU5UTTQZD
+attachments:
+  data:
+  - media:
+      image:
+        height: 72
+        src: https://static.xx.fbcdn.net/rsrc.php/v3/yk/r/VCodXOH-RMH.png
+        width: 72
+    subattachments:
+      data:
+      - target:
+          id: '1476839842355719'
+          url: https://www.facebook.com/groups/egyptian.geeks/1476839842355719/
+        title: Photos from ‎محمود ياسر‎'s post in Egyptian Geeks
+        type: album
+        url: https://www.facebook.com/groups/egyptian.geeks/1476839842355719/
+    target:
+      id: '1886125264943108'
+      url: https://lookaside.fbsbx.com/file/wireless-info.zip?token=AWwONiYFNQZbJEvG6htvoHAbi36vlPsrLHJh87Ue3K7JPecPNGGRTyQ9RVky1Rz0yNCMDV6FADWx9XI4I30kh6mEGJKGequRWoy44uhNGoY0NVag4byst4mYGApDWd0GbdJt4_ek0JGgTVrFFoEcWoGJGPvieI_4r-Pe5fWiPW71C1pjvlE8chvGNwsvxcqo5pFrruhaXACSzgKOhh4VklRW
+    title: wireless-info.zip · version 1
+    type: file_upload
+    url: https://lookaside.fbsbx.com/file/wireless-info.zip?token=AWwONiYFNQZbJEvG6htvoHAbi36vlPsrLHJh87Ue3K7JPecPNGGRTyQ9RVky1Rz0yNCMDV6FADWx9XI4I30kh6mEGJKGequRWoy44uhNGoY0NVag4byst4mYGApDWd0GbdJt4_ek0JGgTVrFFoEcWoGJGPvieI_4r-Pe5fWiPW71C1pjvlE8chvGNwsvxcqo5pFrruhaXACSzgKOhh4VklRW

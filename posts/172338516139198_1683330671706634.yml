@@ -1,0 +1,74 @@
+---
+message: |-
+  I am building my first MVC project and I am somehow confused. I am building the models class and was whether I should do input validation in the models or not. My search resulted in an opinion saying that I should do business validation in models while checking trustworthy input should be done by the controller. I like this. other opinions saying that input validation should be done in the both model and controller. I am building a Library management system desktop app. so I am asking in this situation what should you do ? and what's the best practice?
+  #java #MVC #javafxml
+from:
+  name: Hossam Mohammed
+  id: '1793040840748253'
+type: status
+created_time: '2017-12-06T04:32:23+0000'
+updated_time: '2017-12-06T15:37:46+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1683330671706634/
+id: '172338516139198_1683330671706634'
+reactions:
+  data:
+  - id: '2001897360084292'
+    name: Ahsan Ali
+    type: LIKE
+  - id: '1805137162832273'
+    name: Mohamed Ali
+    type: LIKE
+  - id: '10208705059542635'
+    name: Bahaa Elden
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTNPVEl4TkRJd09UWXlPakUxTVRNek5qUTBORE02TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRjNU5UZAzBNVGs0TVRveE5URXlOVE0wT0RFNE9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2017-12-06T04:38:08+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: The cleanest way in my opinion to validate models is using Annotations,
+      it just makes the model self explanatory while making validation code reusable,
+      I am not sure which MVC framework you use since I am not familiar with Java,
+      but I believe SpringMVC supports validation through Annotation.
+    id: '1683718615001173'
+  - created_time: '2017-12-06T05:13:02+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: Fat model, fat controller dilemma really no single good answer, w/e controller
+      validation validate in puts from caller, which should not be same values of
+      model, model validation validates model itself, reuse as much for sure, but
+      the less ur model knows about ur controler the better decoupled & extendable
+      it is
+    id: '1683737194999315'
+  - created_time: '2017-12-06T05:49:20+0000'
+    from:
+      name: Hisham Fangary
+      id: '10156660518155839'
+    message: |-
+      Controller does basic validation on input, such as: Validate that numeric fields only have numbers, validate that dates entered in date fields are valid dates, validate string length doesn't exceed maximum, ...etc.
+
+      On the Model level you do business logic validation, ie: is the date entered after the recorded issuance date and before the recorded expiration date, is the user ID and password valid (check from DB), and more complex validation.
+    id: '1683759804997054'
+  - created_time: '2017-12-06T10:27:10+0000'
+    from:
+      name: Ahmed Khalifa
+      id: '1999765416908747'
+    message: "In asp.net mvc.. I am using any type of validation as possible :\n1-client
+      validation using javascript and jquery\n2-data annotations in model\n3-server
+      or back-end or controller validation\nFor example check if this email is exist
+      in database or \nnot ..\n4-database validation or constraint like Max number
+      of characters for this field ..\nYou must using try catch and except run time
+      error  because you depend on user input \nNote in controller you must check
+      if the model or data annotations is valid or not before you do any validation
+      in the back-end \nLast point try to read about data binding"
+    id: '1683928644980170'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFk0TXpjeE9EWXhOVEF3TVRFM016b3hOVEV5TlRNMU1EZAzUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFk0TXpreU9EWTBORGs0TURFM01Eb3hOVEV5TlRVMk1ETXgZD

@@ -1,0 +1,25 @@
+---
+message: |-
+  I'm getting (Additionally, a 500 Internal Server Error error was encountered while trying to use an ErrorDocument to handle the request) after about 10 minutes from running my php file, The page has a lot of CURL Requests in it, I have all timeouts and max execution time set to 0 :
+
+  @ini_set('max_execution_time', '0');
+  @ini_set('max_input_time', '0');
+  @ini_set('mbstring.func_overload', '0');
+  @ini_set('output_handler', '');
+  @ini_set('default_socket_timeout','10');
+  @ini_set('memory_limit','512M');
+  @set_time_limit(0);
+
+  And still getting the same error.
+
+  * This problem only happened when number of CURL Requests raised means it was working till yesterday and I'm pretty sure the code has nothing wrong with it.
+
+  any Ideas ?
+from:
+  name: Mostafa Kasem
+  id: '2342288709130763'
+type: status
+created_time: '2015-09-22T22:22:22+0000'
+updated_time: '2015-09-23T07:04:30+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1010490118990696/
+id: '172338516139198_1010490118990696'

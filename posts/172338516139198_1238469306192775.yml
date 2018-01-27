@@ -1,0 +1,74 @@
+---
+message: "Shell script for database backup with AWS :)\n\n"
+link: https://gist.github.com/abada/a40689aad7704061d27009c55ef5fb6c
+from:
+  name: AbduLatif Ahmed
+  id: '2214207455473502'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQCPjs5Zw2x0P3tp&w=130&h=130&url=https%3A%2F%2Favatars2.githubusercontent.com%2Fu%2F180586%3Fv%3D3%26s%3D400&cfs=1&sx=0&sy=0&sw=400&sh=400&_nc_hash=AQB5qNDlQIEkymVz
+created_time: '2016-09-22T07:16:57+0000'
+updated_time: '2016-09-24T12:41:10+0000'
+name: Shell script for database backup with AWS.
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1238469306192775/
+id: '172338516139198_1238469306192775'
+reactions:
+  data:
+  - id: '10156266511868081'
+    name: Ahmed Zain Mohammed
+    type: LIKE
+  - id: '383542948774034'
+    name: Mostafa Fotoh
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRRd016UTRNRGd3T2pFME56UTRNalF6TURFNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01ERXpOVFE1T1RVeU1UQXdPakUwTnpRMU5UWXhNVGs2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-09-22T08:15:45+0000'
+    from:
+      name: Mohamed Magdy
+      id: '10160022296715360'
+    message: |-
+      A small suggestion to reduce operations and lines, instead of:
+      cd /path
+
+      You may put it like this:
+      mysqldump \
+        --host ${MYSQL_HOST} \
+        --port ${MYSQL_PORT} \
+        -u ${MYSQL_USER} \
+        --password="${MYSQL_PASS}" \
+        ${MYSQL_DB} > /path/${file}
+    id: '1238495622856810'
+  - created_time: '2016-09-22T08:35:05+0000'
+    from:
+      name: AbduLatif Ahmed
+      id: '2214207455473502'
+    message: "التعديل القادم هيكون اكتر من داتابيز ان شا ءالله \nلما افضالها :)"
+    id: '1238533922852980'
+  - created_time: '2016-09-24T12:41:02+0000'
+    from:
+      name: Mohannad Ali
+      id: '10155955385444519'
+    message: |-
+      Great work! Here are some interesting links:
+      https://github.com/colinbjohnson/aws-missing-tools/
+    id: '1240341412672231'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl6T0RRNU5UWXlNamcxTmpneE1Eb3hORGMwTlRNeU1UUTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkwTURNME1UUXhNalkzTWpJek1Ub3hORGMwTnpJd09EWTIZD
+attachments:
+  data:
+  - description: Shell script for database backup with AWS.
+    media:
+      image:
+        height: 400
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQB-vuH795euuoYN&w=400&h=400&url=https%3A%2F%2Favatars2.githubusercontent.com%2Fu%2F180586%3Fv%3D3%26s%3D400&cfs=1&sx=0&sy=0&sw=400&sh=400&_nc_hash=AQABo8tVtUASx1jK
+        width: 400
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgist.github.com%2Fabada%2Fa40689aad7704061d27009c55ef5fb6c&h=ATMoALpzmu3Us0jb-Ueo2DSYH3Au0AL1Y0y6AJzzf2JPpaXjF22Q7gbleckFPwNCruSMZAMYzQ8KXwAuREUKunDYwWcqlkWRsJ-2&s=1&enc=AZOKn3XifaSxQBhTJ1HEzo7No0T4AzsK4fqFpkZGUD1DKPkVPA55J6WQh6_E22gIgy2GGhKGlpQFvj4EQ2odq6Vb
+    title: Shell script for database backup with AWS.
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgist.github.com%2Fabada%2Fa40689aad7704061d27009c55ef5fb6c&h=ATMoALpzmu3Us0jb-Ueo2DSYH3Au0AL1Y0y6AJzzf2JPpaXjF22Q7gbleckFPwNCruSMZAMYzQ8KXwAuREUKunDYwWcqlkWRsJ-2&s=1&enc=AZOKn3XifaSxQBhTJ1HEzo7No0T4AzsK4fqFpkZGUD1DKPkVPA55J6WQh6_E22gIgy2GGhKGlpQFvj4EQ2odq6Vb

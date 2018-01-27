@@ -1,0 +1,111 @@
+---
+message: What do you think the counter measure would be except taking the service
+  offline ??!!!
+link: https://www.bleepingcomputer.com/news/security/hackers-hijack-dns-server-of-blackwallet-to-steal-400-000/
+from:
+  name: Mohamed Ahmed
+  id: '385696705226073'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQCGCEZ8QEf0-Aty&w=130&h=130&url=https%3A%2F%2Fwww.bleepstatic.com%2Fcontent%2Fposts%2F2018%2F01%2F14%2FBlackWallet.png&cfs=1&_nc_hash=AQB8KNwCs-KzmWF5
+created_time: '2018-01-15T07:44:24+0000'
+updated_time: '2018-01-16T20:10:10+0000'
+name: Hackers Hijack DNS Server of BlackWallet to Steal $400,000
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1722656697774031/
+shares:
+  count: 1
+id: '172338516139198_1722656697774031'
+reactions:
+  data:
+  - id: '2093529544214867'
+    name: Yehia Hassan
+    type: LIKE
+  - id: '10213394268464462'
+    name: Mohamed A. Alqrwash
+    type: LIKE
+  - id: '10214861141222529'
+    name: Abdelrady Fcis
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTJOek0xTWpRNU16a3dPakUxTVRZAd05qVTBNams2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRJME5qZA3lNelF4TVRveE5URTJNREV5TWpNNU9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2018-01-15T08:18:19+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: I don't think taking the service offline would have helped though, the
+      DNS settings was changed to point to a whole different website that is a clone
+      of the original, typical DNS hijacking and Phishing, it is a terrible thing,
+      and I bet it is either a social engineering attack against the domain provider,
+      or worse some weak account settings that got the hacker into the domain control
+      panel.
+    id: '1722955101077524'
+  - created_time: '2018-01-15T09:03:21+0000'
+    from:
+      name: Tarek Dawoud
+      id: '10156109957694861'
+    message: "In order for the attack to succeed, certificates also had to be compromised.
+      DNS by itself would not fool clients using HTTPS. If a client is trying to reach
+      https://api.blackwallet.co to send it stuff, then it's not enough to just trick
+      the client by pointing it to a different IP. \n\nSo, undiscussed in the article
+      is... How did the keys get compromised?"
+    id: '1722978437741857'
+  - created_time: '2018-01-15T09:43:20+0000'
+    from:
+      name: Mohamed A. Alqrwash
+      id: '10213394268464462'
+    message: "حاسس بخدعه في الموضوع \nطبعا ممكن \nDNS attack \nتوقع الموقع وتخليه
+      غير متاح \nبس محافظ الكريبتو بتشتغل بطريقه تانيه خالص \nللناس اللي اشتغلت \nBlockchain
+      \nمعرف ان سرقه الهاش \nأو الفلس دي عمليه مستحيلة \nوان حتي المفروض التقنيه كلها
+      \nقايمه علي مفهوم decentralized \nممكن اصحاب المحفظة\nنفسهم بيصيعوا علي الموديعين
+      \nمجرد وجه نظر \nلأني واجهت\n dns attack\nقبل كده وليه حلول كتير مبتاخدش وقت
+      كبير"
+    id: '1723001191072915'
+  - created_time: '2018-01-15T23:47:31+0000'
+    from:
+      name: Tarek Dawoud
+      id: '10156109957694861'
+    message: "Mohamed Ahmed, to answer your starting question: How to protect against
+      this?\n\nThis is theft of infrastructure, i.e. They hijacked who you are before
+      your own security systems are even touched. Securing your infrastructure has
+      several approaches and steps:\n1) Own your infrastructure. That's what big companies
+      like Google and Microsoft and Amazon do. Their DNS entries are answered to by
+      name servers they own, their \"WhoIs\" entries point to them and not some DNS
+      provider like GoDaddy or 1and1. If you own your own infrastructure, you have
+      to do all the work to secure it, protect against IoT DDoS attacks and so on.
+      Most small companies do not have the time or resources to do that.\n2) Host
+      your infrastructure with major cloud providers like Azure DNS or AWS Something.
+      Basically, you buy the domain, you point it to *their* infrastructure and name
+      servers and they expose config UI for you to set it up. This is the recommended
+      approach in my mind for anyone serious enough about security of their infrastructure.
+      These providers have built in security meaures like not allowing a CNAME for
+      the root level domain and so forth. \n3) Cheapest option is host your DNS in
+      a DNS provider like they did. \n\nFor both #2 and #3, you have to have a detailed
+      plan of how you secure the accounts used to access that administration console.
+      How will you fall back if that account is deactivated or compromised? Where
+      is the \"red phone\" (to Azure or Amazon or GoDaddy) that you can use if someone
+      takes over the account or if the account is deleted by accident. \n\nBut there'
+      no code you can write inside your product that can save you from an infrastructure
+      hijack, the users are not hitting your code. :)"
+    id: '1723580854348282'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN5TWprMU5URXdNVEEzTnpVeU5Eb3hOVEUyTURBME16QXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN5TXpVNE1EZAzFORE0wT0RJNE1qb3hOVEUyTURZAd01EVXgZD
+attachments:
+  data:
+  - description: Unknown hackers have hijacked the DNS server for BlackWallet.co,
+      a web-based wallet application for the Stellar Lumen cryptocurrency (XLM), and
+      has stolen over $400,000 from users' accounts.
+    media:
+      image:
+        height: 455
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQCCBNYmHSmnXVw1&w=720&h=720&url=https%3A%2F%2Fwww.bleepstatic.com%2Fcontent%2Fposts%2F2018%2F01%2F14%2FBlackWallet.png&cfs=1&_nc_hash=AQAJQzK5kOL-vBjW
+        width: 455
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fhackers-hijack-dns-server-of-blackwallet-to-steal-400-000%2F&h=ATNaNyEk4k3hc9lFzZqaH4jq-ey7LR3RVo_R2rg_R2zsZgDNcuE9DzUtIkVsXUO3STEGs8snIpEFKEH9233c3ghHm9TJ3DE4-aYd&s=1&enc=AZPEHm_mjW6v5HjkdUIGYt3MJIyKZJmovfNpL4fLyQpY-Ac6qD-POn_2vFMxb6RpdyRpYQ5DDnX0ipqpjeHlwp7W
+    title: Hackers Hijack DNS Server of BlackWallet to Steal $400,000
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fhackers-hijack-dns-server-of-blackwallet-to-steal-400-000%2F&h=ATNaNyEk4k3hc9lFzZqaH4jq-ey7LR3RVo_R2rg_R2zsZgDNcuE9DzUtIkVsXUO3STEGs8snIpEFKEH9233c3ghHm9TJ3DE4-aYd&s=1&enc=AZPEHm_mjW6v5HjkdUIGYt3MJIyKZJmovfNpL4fLyQpY-Ac6qD-POn_2vFMxb6RpdyRpYQ5DDnX0ipqpjeHlwp7W

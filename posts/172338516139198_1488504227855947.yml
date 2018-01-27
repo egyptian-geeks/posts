@@ -1,0 +1,79 @@
+---
+message: شباب لوسمحت محتاج حد شغال angular يساعدني في حاجة ضروري.....شكرا
+from:
+  name: Mahmoud Hegazy
+  id: '10215510398092540'
+type: status
+created_time: '2017-05-20T15:58:36+0000'
+updated_time: '2017-05-20T16:47:25+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1488504227855947/
+id: '172338516139198_1488504227855947'
+reactions:
+  data:
+  - id: '10155226291481186'
+    name: أحمد محمود محمد عبدالوهاب
+    type: SAD
+  - id: '1680311882047514'
+    name: Muhammed Yousrii
+    type: LIKE
+  - id: '10155965038378745'
+    name: Said Bakr
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpVNE5USXhNVGcxT2pFME9UVXpNRGs1TlRrNk56ZAzROalE0TURNM09URXpNekV5
+      after: TnpnNU1ESXpOelEwT2pFME9UVXlPVGc0TmpBNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-05-20T16:04:26+0000'
+    from:
+      name: Abd El-Rahman Rafat
+      id: '1848749968530776'
+    message: قول الحاجة علي طول والناس هتساعدك بردوا
+    id: '1488508824522154'
+  - created_time: '2017-05-20T16:07:54+0000'
+    from:
+      name: Mahmoud Hegazy
+      id: '10215510398092540'
+    message: تمام انا عملت list ب داتا لاماكن ب ngFor دلوقتي عاوز لما ا select مكان
+      منهم اظهر صور وتفاصيل للمكان ده بclickevent واخلي بقيت ال list data تختفي
+    id: '1488513611188342'
+  - created_time: '2017-05-20T16:12:54+0000'
+    from:
+      name: Tareq El-Masri
+      id: '2478303849061627'
+    message: |-
+      بص يا سيدي، أحسن حل إنك تستخدم pipe على الـlist وهتديله الـkeyword بتاعتك وهو هيعمل filter عليهم
+      هيبقى في الأخر حاجة بالمنظر دا
+      ngFor="item in list | filterPipe:keyword"
+    id: '1488520721187631'
+  - created_time: '2017-05-20T16:15:32+0000'
+    from:
+      name: Omar Abdelaziz
+      id: '10213742366867705'
+    message: |-
+      حل سريع : غير ال list كلها لما يتعمل click و متخليش فيها غير ال item اللي انت عاوزه
+      حل افضل : استخدم filter
+    id: '1488522144520822'
+  - created_time: '2017-05-20T16:23:35+0000'
+    from:
+      name: Ahmed Elhadi
+      id: '2100856430150634'
+    message: https://angular.io/docs/ts/latest/guide/pipes.html
+    id: '1488530887853281'
+  - created_time: '2017-05-20T16:32:47+0000'
+    from:
+      name: Mahmoud Hegazy
+      id: '10215510398092540'
+    message: شكرا يا شباب هجربها دلوقتي
+    id: '1488540471185656'
+  - created_time: '2017-05-20T16:47:23+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: تفتكره Angular يطلع React :)
+    id: '1488548694518167'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE0T0RVd09EZA3lORFV5TWpFMU5Eb3hORGsxTWprMk1qWTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE0T0RVME9EWTVORFV4T0RFMk56b3hORGsxTWprNE9EUXoZD

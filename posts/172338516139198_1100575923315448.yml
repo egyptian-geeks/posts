@@ -1,0 +1,46 @@
+---
+message: |-
+  I have a question for guys who know about SEO (search engine optimization). What is the best way to know which search engine is the source of the visit?
+  For example, I have a website and I want to recognize the clicks that come from a specific website (i.e. google) to know the effectiveness of ads for a given platform vs the other
+  What is the best place to do that?
+  I looked it up, some people say it could be done by placing some metadata on the SEO listing itself but I never have done that before and not sure if it could be done this way or not?
+from:
+  name: Mohamed Moshrif
+  id: '1538447102877297'
+type: status
+created_time: '2016-03-18T05:00:18+0000'
+updated_time: '2016-03-19T05:38:15+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1100575923315448/
+id: '172338516139198_1100575923315448'
+reactions:
+  data:
+  - id: '1596110217148252'
+    name: Ahmed Badawy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlORGM0Tmpnd09EVTJPakUwTlRnek5qVTJOemc2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlORGM0Tmpnd09EVTJPakUwTlRnek5qVTJOemc2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-03-18T05:20:10+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      That's not an SEO question actually. That's a tracking / analytics question.
+
+      Most of the analytics services should be able to answer that. You'll need to install them on your website to collect data first. Often "installation" only means including a bit of JavaScript.
+
+      Something like Google Analytics can do the job very well, proven and free.
+    id: '1100582873314753'
+  - created_time: '2016-03-18T19:29:19+0000'
+    from:
+      name: Mohammed Farghal
+      id: '10155396126947689'
+    message: try "document.referrer" in javascript
+    id: '1101032016603172'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV3TURVNE1qZAzNNek14TkRjMU16b3hORFU0TWpjNE5ERXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV3TVRBek1qQXhOall3TXpFM01qb3hORFU0TXpJNU16VTUZD

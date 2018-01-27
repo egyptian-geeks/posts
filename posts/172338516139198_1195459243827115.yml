@@ -1,0 +1,83 @@
+---
+message: "السلام عليكم\n\nمن فضلكم انا شغال C# وعندى مشكلة صغيرة - هنا انا عامل Regex
+  بحيث يقبل ارقام و . \nفقط  Regex regex = new Regex(\"[^0-9.]+\");\n\n- المشكلة ان
+  لو المستخدم اخطأ وكتب اكتر من علامة عشرية ورا بعض بيقبل عادى زى مثلا 1...20\n\nفازاى
+  اقدر اخليه يقبل علامة عشرية واحدة فقط ؟ يعنى مثلا مينغفعش يدخل ارقام الا  Int زى
+  12345 او ارقام بعلامة عشرية واحدة 100.50 او 1000.75 وهكذا ......"
+from:
+  name: Ahmed Amin
+  id: '1962172197389574'
+type: status
+created_time: '2016-08-03T22:10:23+0000'
+updated_time: '2016-08-04T07:31:05+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1195459243827115/
+id: '172338516139198_1195459243827115'
+reactions:
+  data:
+  - id: '1466247800164499'
+    name: Mosaab Ahmed
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXpNemM0TnpreE16VTRPakUwTnpBeU9EYzFNVEU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXpNemM0TnpreE16VTRPakUwTnpBeU9EYzFNVEU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-08-03T22:17:06+0000'
+    from:
+      name: Osama Ali
+      id: '10156238158522384'
+    message: "[0-9]+\\.?[0-9]+"
+    id: '1195463647160008'
+  - created_time: '2016-08-03T22:17:11+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: "/^[0-9]*\\.?[0-9]+/"
+    id: '1195463727160000'
+  - created_time: '2016-08-03T22:27:04+0000'
+    from:
+      name: Osama Ali
+      id: '10156238158522384'
+    message: Try this please /[0-9]+(\.[0-9]+)?/
+    id: '1195470447159328'
+  - created_time: '2016-08-04T04:35:08+0000'
+    from:
+      name: Bassam Abd Elhamid
+      id: '1955441501387657'
+    message: هو فى اقتراحات تانية , مثالاً انك تستخدم نيمروك اب دون كونترول اوماسكد
+      تيكست بوكس, او تحاول تبارس التكست وتحولو لدبل لو اتحول يبقى تمام لو لا يبقى
+      فيه مشكلة
+    id: '1195648280474878'
+  - created_time: '2016-08-04T06:16:10+0000'
+    from:
+      name: Sameh Saeed
+      id: '10155224155802344'
+    message: باشا ممكن تورينا سطرين الكود اللي بتستخدمهم فيه كده، جايز يكون في حاجة
+      بسيطة بتخليه ما يشتغلش صح
+    id: '1195691853803854'
+  - created_time: '2016-08-04T07:15:31+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: |-
+      انت عاملها بـ regex ليه اصلا
+      ادخال رقم عشري مش محتاج regex !!!
+    id: '1195720367134336'
+  - created_time: '2016-08-04T07:30:58+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "عموما جرب ده من الاخر ;) \n\nوهيطلعلك الجزء الصحيح لوحده والعشري لوحده
+      كمان"
+    id: '1195724523800587'
+  - created_time: '2016-08-04T07:31:03+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "^([0-9]+)(?:\\.([0-9]+))?$"
+    id: '1195724593800580'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU1TlRRMk16WTBOekUyTURBd09Eb3hORGN3TWpZAeU5qSTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU1TlRjeU5EVTVNemd3TURVNE1Eb3hORGN3TWprMU9EWXoZD

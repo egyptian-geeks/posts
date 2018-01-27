@@ -1,0 +1,31 @@
+---
+message: "مساعدة يا شباب بعد إذنكم \nphp wordpress hosting\nالوقتي في موقع ورد برس
+  عاملينه زي مركز تحميل لملفات و أغلب الملفات دي مسحوبة scraping \nالعميل طلب مني
+  إنه عايز يخلي الموقع على سرفرين يسيب الملفات الموجودة حاليا على السرفر القديم و
+  يخلي الملفات الجديدة المرفوعة بعد كده تكون على السرفر الجديد\n الغرض الاساسي عنده
+  هو إن لو فرضا حصل ضغط على السرفر ممكن الدونلود يقف لكن ميأثرش على الinterface بتاعت
+  الموقع \nالسؤال الوقتي :\nازاي هقدر أتحكم في الداتا على سرفرين من لوحة تحكم واحدة
+  للوردبرس ؟\nأو إيه أفضل حل للأمر ده ؟"
+from:
+  name: Sameer Al-Salous
+  id: '1634789043266994'
+type: status
+created_time: '2017-08-01T23:17:43+0000'
+updated_time: '2017-08-01T23:33:33+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1565351993504503/
+id: '172338516139198_1565351993504503'
+comments:
+  data:
+  - created_time: '2017-08-01T23:22:24+0000'
+    from:
+      name: Mohamed Galal
+      id: '10215046906109886'
+    message: انا اشتغلت على تطبيق كان فيه نسخة من الملفات على السيرفرين وبين السيرفرين
+      load balancer بس مكنش ب wordpress >> الفكرة بسيطة وهي رفع ملف على اي سيرفر يتم
+      اخذ نسخة منه ورفعها على السيرفر التاني بحيث لو تعطل سيرفر فكل الملفات موجوده
+      على سيرفر تاني
+    id: '1565353990170970'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUyTlRNMU16azVNREUzTURrM01Eb3hOVEF4TmpJNU56UTEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUyTlRNMU16azVNREUzTURrM01Eb3hOVEF4TmpJNU56UTEZD

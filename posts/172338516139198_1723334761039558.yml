@@ -1,0 +1,67 @@
+---
+message: محتاج api او solution للبحث عن الاسماء المتشابهة وتطلع نسبة التشابة مثال
+  ابحث عن صيدلية اسمها الشفاء اطلع من قاعدة البيانات كل الاسماء القريبة من نفس الاسم
+from:
+  name: Ahmed AMaksoud
+  id: '10156325646928623'
+type: status
+created_time: '2018-01-15T18:19:23+0000'
+updated_time: '2018-01-15T21:06:28+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1723334761039558/
+id: '172338516139198_1723334761039558'
+reactions:
+  data:
+  - id: '511979489186653'
+    name: Mhmd S. Rohyme
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01ERXhNak00TVRreU5qUXdPakUxTVRZAd09URXdNams2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01ERXhNak00TVRreU5qUXdPakUxTVRZAd09URXdNams2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2018-01-15T18:41:37+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: ابسط حل اعتقد انك تستخدم full text search زي اللي موجود في اغلب قواعد
+      البيانات الكبيرة و ده بيبقى اذكى شوية من ال like clause اللي في ال SQL
+    id: '1723379081035126'
+  - created_time: '2018-01-15T18:53:18+0000'
+    from:
+      name: Ahmed AMaksoud
+      id: '10156325646928623'
+    message: انا مجربتش ال full text قبل كدا بس المطلوب حاجة زي search engine يعني
+      البحث عن اي كلمة لان مثلا في قاعدة البيانات ممكن تلاقي صيدلية الشفاء وكمان الشفاء
+      للصيدلة او الشفاء صيدلية
+    id: '1723386017701099'
+  - created_time: '2018-01-15T19:05:21+0000'
+    from:
+      name: Omar Attia
+      id: '2015042048739859'
+    message: Check "Locality Sensitive Hashing".
+    id: '1723398191033215'
+  - created_time: '2018-01-15T19:19:33+0000'
+    from:
+      name: Alaa Ezzat
+      id: '10156074051141565'
+    message: |-
+      لو عاوز حاجه quick qnd dirty
+      عندك ال soundex فنكشن
+    id: '1723413744364993'
+  - created_time: '2018-01-15T20:54:21+0000'
+    from:
+      name: Mohamed Tawfik
+      id: '10204074940031522'
+    message: I usually use elasticsearch
+    id: '1723476581025376'
+  - created_time: '2018-01-15T21:06:23+0000'
+    from:
+      name: Bahaa Alaa
+      id: '1757631157622091'
+    message: https://www.algolia.com/
+    id: '1723483577691343'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN5TXpNM09UQTRNVEF6TlRFeU5qb3hOVEUyTURReE5qazQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN5TXpRNE16VTNOelk1TVRNME16b3hOVEUyTURVd016ZA3oZD

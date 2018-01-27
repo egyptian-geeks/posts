@@ -1,0 +1,68 @@
+---
+message: "دا بروجكت جديد عامله عشان يفي باغراض ال realtime services كل مهمته انه بيستخدم
+  redis channels ويخلي اي حد يقدر listen عليها اكنها بالظبط فايل عادي، بمعني تاني
+  بدل مايرد ع البراوزر بفايل، لا بيرد بال changes ف ال channel وطبعا كله من خلال websocket
+  connection،\nالفكر بسيطه جدا، لكن حبيت انفذها ليا شخصيا... \n------\n الفكره الرئيسيه
+  اني عندي php apps وعايز generic solution ليهم من غير الاعتماد علي اي api فقط مهمتهم
+  يعملوا publish لل message في redis والباقي علي البروجكت بتعنا دا،\nفي جزئيتين فيه
+  كمان وبعتبرهم مهمين وهما ال auth و اني ابعت message ليوزرز محددين فقط، ودا بعد ما
+  راجعت pusher حاولت اعملها زيه بس بطريقه مبسطه\nدي ال repo لو حد عنده اقتراحات او
+  اراء ....\nhttps://github.com/alash3al/wsify"
+from:
+  name: Mohammed Al Ashaal
+  id: '965203406986813'
+type: status
+created_time: '2018-01-25T00:37:35+0000'
+updated_time: '2018-01-25T00:37:35+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1732341473472220/
+shares:
+  count: 1
+id: '172338516139198_1732341473472220'
+reactions:
+  data:
+  - id: '10155903911855943'
+    name: Ahmed Soliman
+    type: LIKE
+  - id: '2069499223273223'
+    name: Naggar
+    type: LIKE
+  - id: '10154904189965670'
+    name: Ahmad Alfy
+    type: LIKE
+  - id: '1607350322678128'
+    name: Waleed Mohamed
+    type: LIKE
+  - id: '1495149960582252'
+    name: Mohamed Wael
+    type: LIKE
+  - id: '1999765416908747'
+    name: Ahmed Khalifa
+    type: LIKE
+  - id: '10155502591672779'
+    name: Mo'men Bauomy
+    type: LIKE
+  - id: '10213969809692064'
+    name: Mahmoud Abuelwafa
+    type: LIKE
+  - id: '10156208529167577'
+    name: Amr Ibrahem
+    type: LIKE
+  - id: '10156115350739764'
+    name: Mahmoud Tantawy
+    type: LIKE
+  - id: '1941442462840331'
+    name: Apd Ulrhman II
+    type: LIKE
+  - id: '10156476353501062'
+    name: Tarik Ibrahim
+    type: LIKE
+  - id: '1789041438064902'
+    name: Mahmoud Hard
+    type: LIKE
+  - id: '2031809663759278'
+    name: Mohamed Moussa
+    type: LIKE
+  paging:
+    cursors:
+      before: TnpBeU5UazFPVFF5T2pFMU1UY3dORE15TlRrNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQTNPVEEzT1RJeE1Ea3pPakUxTVRZANE5EQTNOVFU2TWpVME1EazJNVFl4TXc9PQZDZD

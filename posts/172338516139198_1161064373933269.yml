@@ -1,0 +1,146 @@
+---
+message: |-
+  This is my first blog post ... it is on AWS autoscaling in production ... I will write a series of posts on managing AWS, review of different data stores, redis or memcached for caching and different use cases for redis, different methods for automating deployments, scalable logging solutions, managing elasticsearch and a review of using it as a primary data store with a case study, common vulnerabilities and how to secure them, recover from an attack and do basic forensic analysis ... etc
+  Feedback is highly appreciated
+link: https://medium.com/@ahmadposten/aws-auto-scaling-in-production-8e123739db6e#.s1ly25ikx
+from:
+  name: Ahmad Hassan Posten
+  id: '1561778180542287'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQBgEfhA2za2ScAM&w=130&h=130&url=https%3A%2F%2Fcdn-images-2.medium.com%2Fmax%2F1200%2F1%2Asxm-OJCZv_gi7Wv29czyXA.png&cfs=1&_nc_hash=AQDCGSJmP89nf70f
+created_time: '2016-06-12T23:26:20+0000'
+updated_time: '2016-06-13T18:06:21+0000'
+name: Aws Auto-scaling in production
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1161064373933269/
+id: '172338516139198_1161064373933269'
+reactions:
+  data:
+  - id: '10156262041239286'
+    name: Andrew Raafat
+    type: LIKE
+  - id: '10156191099748000'
+    name: Shady Mohamed Sherif
+    type: LIKE
+  - id: '946433645509687'
+    name: Ahmed Mohsen
+    type: LIKE
+  - id: '10160113682055085'
+    name: Karim Tarek
+    type: LIKE
+  - id: '1791277350884061'
+    name: Mostafa Alaa Mohamed
+    type: LIKE
+  - id: '1545538692229944'
+    name: Majd Latah
+    type: LIKE
+  - id: '10156266511868081'
+    name: Ahmed Zain Mohammed
+    type: LIKE
+  - id: '10216129314284453'
+    name: Amr Yousef
+    type: LIKE
+  - id: '10157134145555299'
+    name: Eslam Salem Mahmoud
+    type: LIKE
+  - id: '1216819495129208'
+    name: Soha Abuhamam
+    type: LIKE
+  - id: '10155229898632393'
+    name: Ahmed Ragab
+    type: LIKE
+  - id: '10160019571380077'
+    name: Hatem Maamoun
+    type: LIKE
+  - id: '10155276579769013'
+    name: Hosny Abdelrahman
+    type: LIKE
+  - id: '10159814040690403'
+    name: A Taha ElAnsary
+    type: LIKE
+  - id: '10155182529813309'
+    name: Mohamed El-Sayed
+    type: LIKE
+  - id: '10160260136260389'
+    name: Hossam Saraya
+    type: LIKE
+  - id: '1976373499069350'
+    name: Ahmed Bassell
+    type: LIKE
+  - id: '10156020325916241'
+    name: Musa Hamza
+    type: LIKE
+  - id: '10212826240185281'
+    name: Mohamed Bassem
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpNMU56VTVNamcxT2pFME5qVTROemM1TVRNNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBMk5qazRNRGMyTnpveE5EWTFOemMwTkRFNE9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2016-06-12T23:31:24+0000'
+    from:
+      name: Ahmad Hassan Posten
+      id: '1561778180542287'
+    message: Hossam Saraya you will like that
+    id: '1161065560599817'
+  - created_time: '2016-06-12T23:44:05+0000'
+    from:
+      name: Mohamed Bassem
+      id: '10212826240185281'
+    message: |-
+      Nice post. We used to have an auto scaling group of min 1 and max 1 with a relatively high bid price. To use cheaper spot instances instead of those reserved ones :D And yeah, we tolerate some downtime if the instance got killed :D
+      You mentioned that you use cloud-init for bootstrapping new instances and pulling the latest code version, but I would love to know how do you roll out new versions to already running instances. Also, I've never used AWS code deploy before, so I'll be waiting for a post about it :D
+    id: '1161070087266031'
+  - created_time: '2016-06-13T00:38:06+0000'
+    from:
+      name: Hossam Saraya
+      id: '10160260136260389'
+    message: "\U0001F44F\U0001F44F great post ya posten. Keep it up."
+    id: '1161091190597254'
+  - created_time: '2016-06-13T04:24:10+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: How much does it take to warn up the 4 machines until they are inside
+      the pool?
+    id: '1161166523923054'
+  - created_time: '2016-06-13T04:30:13+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: 'By the way, Read this: http://techblog.netflix.com/2012/01/auto-scaling-in-amazon-cloud.html'
+    id: '1161167813922925'
+  - created_time: '2016-06-13T10:29:16+0000'
+    from:
+      name: Ahmad Hassan Posten
+      id: '1561778180542287'
+    message: "every machine takes 5-6 mins to launch and come in service .. this does
+      not do us any harm since most of the time the spike is gradual and so the number
+      of machines increase smoothly. and decrease slowly  \nI read the netflex post
+      before ... awesome read"
+    id: '1161281123911594'
+  - created_time: '2016-06-13T14:36:59+0000'
+    from:
+      name: Karim Tarek
+      id: '10160113682055085'
+    message: "Nice one, keep going \U0001F44D"
+    id: '1161386403901066'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUyTVRBMk5UVTJNRFU1T1RneE56b3hORFkxTnpjME1qZAzEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUyTVRNNE5qUXdNemt3TVRBMk5qb3hORFkxT0RJNE5qRTUZD
+attachments:
+  data:
+  - description: This post is the first in a series of blog posts and tutorials on
+      how to manage AWS in production, review of different data stores, setting…
+    media:
+      image:
+        height: 506
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQDg_Bt-aeQSqFMO&w=720&h=720&url=https%3A%2F%2Fcdn-images-2.medium.com%2Fmax%2F1200%2F1%2Asxm-OJCZv_gi7Wv29czyXA.png&cfs=1&_nc_hash=AQAv_Mi6hfKao5oq
+        width: 506
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fmedium.com%2F%40ahmadposten%2Faws-auto-scaling-in-production-8e123739db6e%23.s1ly25ikx&h=ATM-Tzd8jqnSVqxX-Y4jLe1810x0eqPoWb7Ckn81fWwiUD4lp9fpHB_K6MlMZUGlrDJdqZ-0eePOMZtHIU26MZ3SzP3gPUtBripZ&s=1&enc=AZOwruReskuaefkGnNd8IMvFkjUtFGV72rn4Gz7VhCjuesGi_NzS_IZQXUsZR7f0fVx857w92-5SkS0B8NeD-71u
+    title: Aws Auto-scaling in production
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fmedium.com%2F%40ahmadposten%2Faws-auto-scaling-in-production-8e123739db6e%23.s1ly25ikx&h=ATM-Tzd8jqnSVqxX-Y4jLe1810x0eqPoWb7Ckn81fWwiUD4lp9fpHB_K6MlMZUGlrDJdqZ-0eePOMZtHIU26MZ3SzP3gPUtBripZ&s=1&enc=AZOwruReskuaefkGnNd8IMvFkjUtFGV72rn4Gz7VhCjuesGi_NzS_IZQXUsZR7f0fVx857w92-5SkS0B8NeD-71u

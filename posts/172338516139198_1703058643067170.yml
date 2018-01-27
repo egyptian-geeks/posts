@@ -1,0 +1,41 @@
+---
+message: I've a ruby on rails application where i'm using nginx as a webserver & also
+  i'm using a free ssl certificate from let's encrypt and everything is working fine
+  on the website and on android application which connects to the api, but iOS doesn't
+  work only on specific carrier ( Etisalat UAE ) but it works fine on DU UAE and Etisalat
+  isn't blocking us because the app is working on android fine. the error i get when
+  i try from the iOS application is " An SSL error has occurred and a secure connection
+  to the server cannot be made" , i've searched for the error but found nothing useful.
+  any one faced such issue or know where the problem can be ?!
+from:
+  name: Ahmed A. Ibrahim
+  id: '10214818255267156'
+type: status
+created_time: '2017-12-26T17:20:34+0000'
+updated_time: '2017-12-26T18:37:09+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1703058643067170/
+id: '172338516139198_1703058643067170'
+reactions:
+  data:
+  - id: '1557580064295784'
+    name: Mohamed H. Fakher
+    type: LIKE
+  - id: '1965866886776044'
+    name: Ahmed AbdElzaher
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhNekUwTVRjek1EVTRPakUxTVRRek1UY3pOVEE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXdOVGd5TlRZAMk1Ea3hPakUxTVRRek1EazBNekE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-12-26T17:29:25+0000'
+    from:
+      name: Hesham Desouky
+      id: '10215011048531592'
+    message: May be the ios doesn't has the root certificate chain of letsencrypt
+    id: '1703245483048486'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN3TXpJME5UUTRNekEwT0RRNE5qb3hOVEUwTXpBNU16WTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN3TXpJME5UUTRNekEwT0RRNE5qb3hOVEUwTXpBNU16WTIZD

@@ -1,0 +1,27 @@
+---
+message: Can anyone give me an article or such things about node js body-parser module
+  to simplify the concept behind it or what exactly does it do in simple english?
+from:
+  name: Mohamed A. Othman
+  id: '1574530695959412'
+type: status
+created_time: '2017-04-17T21:29:47+0000'
+updated_time: '2017-04-17T22:52:18+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1457021007670936/
+id: '172338516139198_1457021007670936'
+comments:
+  data:
+  - created_time: '2017-04-17T22:52:15+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      For non GET requests (POST etc), there's usually data passed in the request body. The body-parser allows parsing that body as JASON or other formats it might come in (form submit for example traditionally in didn't encoded format).
+
+      The Github page isn't that bad once you have this context
+      https://github.com/expressjs/body-parser/blob/master/README.md
+    id: '1457072810999089'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFExTnpBM01qZA3hNRGs1T1RBNE9Ub3hORGt5TkRZANU5UTTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFExTnpBM01qZA3hNRGs1T1RBNE9Ub3hORGt5TkRZANU5UTTIZD

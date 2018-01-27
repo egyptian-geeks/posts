@@ -1,0 +1,68 @@
+---
+message: ممكن حد يوضح ليه لما اجى اعمل push ل repository انا عاملها fork لازم أعمل
+  fetch لل repository الأصليه وأعمل merge معاها .. مش انا كده كده عامل pull ليها فى
+  ال local repository ؟
+from:
+  name: Islam Mansour
+  id: '2101901136700019'
+type: status
+created_time: '2018-01-11T19:57:56+0000'
+updated_time: '2018-01-12T09:45:31+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1719772824729085/
+shares:
+  count: 1
+id: '172338516139198_1719772824729085'
+reactions:
+  data:
+  - id: '1776223725745209'
+    name: Ahmed Saeed
+    type: LIKE
+  - id: '1466247800164499'
+    name: Mosaab Ahmed
+    type: LIKE
+  - id: '185662165521206'
+    name: Mohamed Mohamed
+    type: LIKE
+  - id: '179749179463545'
+    name: Omar M. Tmam
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdOekkzT1RjMk1UWTRPakUxTVRVM09EUTRNelU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01ESXlPRFV6T1RNd05ESTFPakUxTVRVM01ERXhOVE02TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2018-01-11T20:00:01+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: لو بتعمل push على forked branch بتاعك مش محتاج تعمل fetch الا لو حد تاني
+      عمل push لحاجة على ال fork بتاعك مثلا حد في الفريق بتاعك او كده. مش بتحتاج تعمل
+      fetch لل branch الاصلي غير لو ناوي تعمل Pull Request مثلا او محتاج حاجة عليه
+      حصلت بعد ما عملت ال fork
+    id: '1719777298061971'
+  - created_time: '2018-01-11T20:11:28+0000'
+    from:
+      name: Mohamed Jadelrab
+      id: '10156401691426535'
+    message: If any commits have been made to the upstream master branch, you should
+      rebase your development branch so that merging it will be a simple fast-forward
+      that won't require any conflict resolution work.
+    id: '1719788494727518'
+  - created_time: '2018-01-11T21:31:35+0000'
+    from:
+      name: Mohamed Shaheen
+      id: '1990508241211666'
+    message: If you using gitlab ,it has option to auto sync the upstream repo with
+      forked one
+    id: '1719839884722379'
+  - created_time: '2018-01-12T09:45:27+0000'
+    from:
+      name: Hesham Desouky
+      id: '10215011048531592'
+    message: To about the merge you can use git pull origin rebase, but be careful
+    id: '1720253424681025'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN4T1RjM056STVPREEyTVRrM01Ub3hOVEUxTnpBd09EQXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN5TURJMU16UXlORFk0TVRBeU5Ub3hOVEUxTnpVd016STQZD

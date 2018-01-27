@@ -1,0 +1,63 @@
+---
+message: زي النهارده من سنة :)
+from:
+  name: Ahmed Mozaly
+  id: '10155321930231313'
+type: status
+created_time: '2016-10-14T08:58:36+0000'
+updated_time: '2016-10-14T08:58:37+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1257534934286212/
+id: '172338516139198_1257534934286212'
+reactions:
+  data:
+  - id: '10215367467803543'
+    name: Mohamed Amgad
+    type: LIKE
+  - id: '2022490591345439'
+    name: سامح دعبس
+    type: LIKE
+  - id: '10160073977745637'
+    name: Ahmed Aswani
+    type: LIKE
+  - id: '10156228880479674'
+    name: Zeyad Assem
+    type: LIKE
+  - id: '10156077256184116'
+    name: Mustafa Gamal
+    type: LIKE
+  - id: '1582944861771273'
+    name: Muhammad Hassan
+    type: LIKE
+  - id: '10155880598025170'
+    name: Mohammed El Sayed
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRNME1UYzVORE0yTlRveE5EYzJOVEkxTkRVNU9qSTFOREE1TmpFMk1UTT0ZD
+      after: Tmpnek9EQTFNVFk1T2pFME56WTBNelUyTVRrNk1qVTBNRGsyTVRZAeE13PT0ZD
+attachments:
+  data:
+  - description: "Got a mission to revamp a codebase powering some website with 300
+      milliseconds average SERVER response time\nAfter months of work, we just unlocked
+      the 8 milliseconds milestone :D\n--\nFor people want more details, we passed
+      through these milestones inside an ASP.NET MVC website:\n.\n1- Database optimization,
+      we used sp_whoisactive stored procedure and other tools to identity and fix
+      slow sql queries\n.\n2- We started to use Dapper side-by-side with Entity Framework
+      to help us have more control on queries we need to optimize manually \n.\n3-
+      We built our own custom in-memory caching engine, at the heart it is powered
+      by ConcurrentDictionary \n.\n4- We refactored the model layer to minimize the
+      need for sql joins and lazy loading, inspired by document-oriented model from
+      \ NoSql world\n.\n5- We moved the sync operations between our in-memory caching
+      engine and the database to the background, thanks to Hangfire \n.\n6- We shoot
+      down any RenderAction as we can, we prepare view model once, and use RenderPartial
+      as much as we can \n.\n7- We used MiniProfiler all the way to measure server
+      response time :D"
+    media:
+      image:
+        height: 113
+        src: https://scontent.xx.fbcdn.net/v/t1.0-9/11222253_10153245956331313_4936035492241518217_n.jpg?oh=1d17bc02f0271564868fe07bd0d1d367&oe=5AE5C37C
+        width: 134
+    target:
+      url: https://www.facebook.com/photo.php?fbid=10153245956331313&set=p.10153245956331313&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=10153245956331313&set=p.10153245956331313&type=3

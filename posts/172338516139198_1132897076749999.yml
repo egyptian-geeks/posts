@@ -1,0 +1,35 @@
+---
+message: هو لية فى الدوت نت لم بجى اعمل web service بيكون فى constrain انى مقدرش اعمل
+  session فى حالة ال basicprofile1_1 هل الموضوع لية علاقة ب security ؟
+from:
+  name: Ahmed Abo Mazin
+  id: '1758521440903748'
+type: status
+created_time: '2016-04-27T17:06:37+0000'
+updated_time: '2016-04-27T19:14:19+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1132897076749999/
+id: '172338516139198_1132897076749999'
+reactions:
+  data:
+  - id: '1667730476625507'
+    name: Mohamed Ali Khaskia
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhOalUzTVRFek5UZA3hPakUwTmpFM056azFOREk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXhOalUzTVRFek5UZA3hPakUwTmpFM056azFOREk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-04-27T17:18:17+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: |-
+      الكلام ده قديم قوي على فكرة, ال Web Services SOAP Basic Profile 1.1 ده ظهر 2004 تقريباً, و ما أعتقدش حد بيستخدمه النهاردة غير لو مضطر علشان بيتعامل مع خدمات موجودة بالفعل.
+      عموماً, المفروض ان ال Web Service نفسها ما تبقاش عندها أي معلومات مخزنة من استعلامات سابقة, يعني بالبلدي ما ينفعش تفضل فاكرة حد كلمها قبل كده, لازم كل استعلام يبقى مفترض انه بيتكلم مع سيرفر عمره ما شافه قبل كده, و بيحمل كل البيانات اللازمة لده.
+      قبل ده كله انت بتحاول تعمل ايه محتاج ان السيرفر يفضل فاكر بيانات سابقة؟
+    id: '1132901973416176'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV6TWprd01UazNNelF4TmpFM05qb3hORFl4TnpjM05EazMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV6TWprd01UazNNelF4TmpFM05qb3hORFl4TnpjM05EazMZD

@@ -1,0 +1,130 @@
+---
+message: "مساء الخير، \nبشتغل حالياً على project معين وبستخدم فيه Laravel 5 وده تالت
+  مشروع اعمله بإستخدام الـ framework ده، وبالنسبالي دي أول تجربة ليا مع الـ back-end
+  development \nقبلها كان عندي شوية خبرة بسيطة في الـ competitive programming وكنت
+  بشتغل بـ Basic:medium features of C++ \n\nبعد ما كنت بستخدم C++ وفجأة بقيت بستخدم
+  حاجات زي الـ eloquent models ومفهوم ان الـ framework بيـ handle حاجات كتير مش هتتعرض
+  ليها مش عارف ليه بقيت حاسس اني Googler مش programmer، هل استخدام الـ frameworks
+  بدون استخدام الـ root technology نفسها ممكن يبقى استخدام خاطئ ليها؟ \n\nوهل في reference
+  معين بيتكلم عن الـ big picture للـ back-end development وبيتناول نظرياً المفاهيم
+  المتعلقة بيه؟ \nالمفاهيم اللي مش متعلقة بـ technology معينة."
+from:
+  name: Ibrahem A'mer
+  id: '10211047029111252'
+type: status
+created_time: '2016-07-19T17:09:12+0000'
+updated_time: '2016-07-20T20:19:31+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1185214504851589/
+id: '172338516139198_1185214504851589'
+reactions:
+  data:
+  - id: '1822467331117958'
+    name: Abdulla Adel Essa
+    type: LIKE
+  - id: '1491318780967328'
+    name: Ibrahim Al-maradny
+    type: LIKE
+  - id: '1989910374594728'
+    name: Ahmed Algaml
+    type: LIKE
+  - id: '541094946263412'
+    name: Mohamed Halawa
+    type: LIKE
+  - id: '2027932964114883'
+    name: Mohamed Salah Hassan
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdOalF4TWpZAMU16WTBPakUwTmprd01qSXlNVEk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTJPVFExT1RjeE9EUXhPakUwTmpnNU5USTROalE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-07-19T17:15:06+0000'
+    from:
+      name: Rafael Adel
+      id: '10156260406777122'
+    message: مفيش علم معين خاص بالويب اعتقد .. هو مجموعة من الادوات و تتعلم كل اداه
+      مش اكتر .. لكن فى concepts بسيطة زى MVC مثلا .. غير كدا هي برمجة عادي OOP و
+      algorithms مطلوبة .. غير كدا كمان ال framework بتعملك كل الشغل.. و قليل جدا
+      جدا جدا جدا جدا لما تلاقي مكان مش بيشتغل ب framework معين عشان ينجز ... طبعا
+      ال Databases مهمة .. و ساعات server administration
+    id: '1185218934851146'
+  - created_time: '2016-07-19T17:17:51+0000'
+    from:
+      name: Khaled Barie
+      id: '10155587494733172'
+    message: |-
+      افتكرت المقال ده :D
+      http://www.hanselman.com/blog/AmIReallyADeveloperOrJustAGoodGoogler.aspx
+    id: '1185220888184284'
+  - created_time: '2016-07-19T17:47:16+0000'
+    from:
+      name: Mohammad Fouad
+      id: '10155755444625845'
+    message: |-
+      I think Eloquent is just an ORM (Object Relation Mapping), it is a well known Pattern, and almost have an alternative in Every language (even C++)
+
+      Usually understanding the different "Design Patterns" and knowing their names gets you a long way.
+
+      This link lists some of the famous patterns that you will meet in most Client-Server frameworks http://martinfowler.com/eaaCatalog/index.html
+    id: '1185233404849699'
+  - created_time: '2016-07-19T18:31:46+0000'
+    from:
+      name: Hatem Goda
+      id: '2073635446203550'
+    message: ممكن تستخدم فريم ورك اخر قريب اكثر للكود و لل native  زى كود اجنتر مثلا  مجرد
+      بنيه ملفات  mvc  مش اكثر  و انت بتكتب  بعد كده  اغلب  كودك native php
+    id: '1185263268180046'
+  - created_time: '2016-07-19T18:33:05+0000'
+    from:
+      name: Hatem Goda
+      id: '2073635446203550'
+    message: او  ممكن تذاكز design pattern    و تبنى فريم ورك صغير خاص بيك ممكن تستخدم
+      فيه ال design pattern MVC   او اى  design pattern  اخر انت تفضله
+    id: '1185265511513155'
+  - created_time: '2016-07-19T18:36:49+0000'
+    from:
+      name: Hatem Goda
+      id: '2073635446203550'
+    message: ربما لانك ماخدتش فتره كبيره فى ال native php  و ال design pattern  فعندك
+      الشعور ده فمحتاج تاخدلك شويه تشتغل  و تبنى كل حاجه بنفسك بمفاهم ال oop  و ال
+      design pattern  قبل ما تطلع لرافل مره  واحده و وقت ما تحب ترجع للارفل  هتحس
+      ان لارفل ما هو الا لوحه فنان محترف جمع  كل اللى كنت بتذاكره و بتشتغل بيه فى
+      ال design pattern
+    id: '1185270764845963'
+  - created_time: '2016-07-19T21:05:14+0000'
+    from:
+      name: Mahmoud Ashraf
+      id: '1704228356325400'
+    message: "These topics May help \nI think you r In a transition state between
+      native codes and frameworks \n\nPHP Advanced Topics_Building MVC Framework In
+      php شرح بالعربى: http://www.youtube.com/playlist?list=PLaayosP9NTah5PVq6UaN3xrCjdq5-BVSG"
+    id: '1185339581505748'
+  - created_time: '2016-07-20T09:00:46+0000'
+    from:
+      name: Ibrahim Al-maradny
+      id: '1491318780967328'
+    message: يستحسن تشتغل بحاجه زي codeigniter الأول ﻷنها اكتر framework بتكتب فيها
+      كود بإيدك ممكن حتى تقول انها كود MVC جاهز مش framework و انت بتزود عليه فسهل
+      تعدل فيها براحتك و تفهم الموضوع ماشي ازاي :D
+    id: '1185612248145148'
+  - created_time: '2016-07-20T10:43:07+0000'
+    from:
+      name: Karim Tawfik
+      id: '10159730660210062'
+    message: |-
+      All frameworks are mainly -but not only- a collection of design patterns and best practices, it removes the headache of taking care of items already has been taken care of, or has been done millions of times with the same structure (e.g. security, mvc, logging, schedulers.. and many), and just you take care of your own business logic, which is enough to apply what what you want of design patterns and best practices
+
+      Tl;dr
+      Using framework doesn't take you away from core concepts, however you should know what is the rationale behind how this framework is built, and read about design patterns as much as you.
+    id: '1185652234807816'
+  - created_time: '2016-07-20T14:59:12+0000'
+    from:
+      name: Muhammed Nagy
+      id: '495080930892199'
+    message: اومال لو جربت ريلز هتقول ايه بقا :D كل كل حاجه ليها Gems انتا بتسرش بس
+    id: '1185771018129271'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU0TlRJeE9Ea3pORGcxTVRFME5qb3hORFk0T1RRNE5UQTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU0TlRjM01UQXhPREV5T1RJM01Ub3hORFk1TURJMk56VXkZD

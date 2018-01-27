@@ -1,0 +1,122 @@
+---
+message: "Hello, \nI have couple of questions regarding SSD to SSD migration process,\n1-
+  are there migration tools from SSD to SSD tools? both of the SSDs are kingstone,
+  the source is KS Fury X 120GB, the target is KS UV400 240GB.\n2- Can i use the Target
+  SSD as my boot drive right off the bat without having to install windows and other
+  software all over again? as all of my data is pretty valuable; whos not, but, its
+  not my own personal data.\n3- is Kingstone UV400 240GB worth the upgrade? i already
+  have Kingstone FuryX 120, but i m running out of space, and my budget only allows
+  me to upgrade to UV400, cant wait for longer cause my C drive space is below 1GB
+  most of the time, and i m aware of the danger i m running into if I left the SSD
+  in such situation."
+from:
+  name: Ameer Adel
+  id: '10156223826832269'
+type: status
+created_time: '2017-11-07T15:47:22+0000'
+updated_time: '2017-11-08T17:21:58+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1655298791176489/
+id: '172338516139198_1655298791176489'
+reactions:
+  data:
+  - id: '2032504700100329'
+    name: Mohammed Yassin
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdNakkwTlRVNU56RXpPakUxTVRBek9UVTVNRGs2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXdNakkwTlRVNU56RXpPakUxTVRBek9UVTVNRGs2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-11-07T15:57:36+0000'
+    from:
+      name: Sami Hanna
+      id: '10210874756404518'
+    message: "First of all you can't transfer old windows and program files to the
+      new SSD or any other external storages \nIt won't work and you will face many
+      issues \n\nAnd yes, 240GB SSD worth the upgrade! \nAlso you can buy a 1TB HDD
+      and merge it with the 120GB SSD\" if your device can take \ntwo internal drives\""
+    id: '1655327107840324'
+  - created_time: '2017-11-07T16:01:13+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: Sure you can migrate entire os to different media, where is the issue
+      exactly?
+    id: '1655329621173406'
+  - created_time: '2017-11-07T16:03:09+0000'
+    from:
+      name: Ameer Adel
+      id: '10156223826832269'
+    message: regarding the migration process i have talked about, the EaseUS todo
+      can handle that, and according to many articles it is feasible, i asked for
+      lack of knowledge. the link of the tools is https://www.todo-backup.com/backup-resource/data-transfer/migrate-windows-10-to-ssd.htm
+    id: '1655331201173248'
+  - created_time: '2017-11-07T16:04:20+0000'
+    from:
+      name: Ameer Adel
+      id: '10156223826832269'
+    message: the issue is i m not sure what about migrating latest version of windows
+      10, insider prerelease build
+    id: '1655331787839856'
+  - created_time: '2017-11-07T16:04:35+0000'
+    from:
+      name: Nasser Mohammed Ali
+      id: '10213493310141587'
+    message: |-
+      https://www.amazon.com/Samsung-2-5-Inch-Internal-MZ-75E250B-AM/dp/B00OAJ412U/ref=sr_1_2?ie=UTF8&qid=1510070115&sr=8-2&keywords=samsung+evo+850+250gb&dpID=319X5owiyFL&preST=_SX300_QL70_&dpSrc=srch
+
+      buy directly from Amazon, it costs about 122$ including shipping+ taxes.
+
+      it comes with a software that does exactly what you're asking about. clones your old drive into the new one.
+    id: '1655331894506512'
+  - created_time: '2017-11-07T16:41:00+0000'
+    from:
+      name: Ameer Adel
+      id: '10156223826832269'
+    message: thanks guys for the helpful feedback.
+    id: '1655354484504253'
+  - created_time: '2017-11-07T17:03:54+0000'
+    from:
+      name: Mohamed El-Shahawi
+      id: '2760687167500624'
+    message: |-
+      I have done this before:
+      1. I have used "Macrium Reflect" it is free.
+      2. Sure, It will be a clone just works as the old one
+      3. Use "WinDirState" it will give you a map of the files on disk, will really help you in understanding space usage.
+
+      Edit: you may need to enter BIOS/UEFI Config to choose the new SSD as boot disk
+    id: '1655368951169473'
+  - created_time: '2017-11-08T02:00:40+0000'
+    from:
+      name: Abdul Hamdy
+      id: '10155794996775813'
+    message: |-
+      بص يابني انا عارف انت عملت ايه و عملت نفس الحاجة قبل كدا..
+      حتجيب فلاشة و تحط عليها اوبونتو و تركب الهاردين.
+      تشغل اوبونتو and use dd to image the partitions exactly the same way
+      Masalan
+      dd if=/dev/sdX of=/dev/sdY bs=4K
+
+      This should create a clone of your old drive on the new one but be sure to adjust the device names and double check that you got the right one in input and in output.. Mistakes will erase your original hdd.
+      Then boot your new hdd.. Just like the old one and run chkdsk on all partitions. Or fsck if you have ext3/4 parts. Then use gparted to chsck that the partition table is fine and create a new partition in your extra space that will be unallocated.
+
+      Verify that the data is sound with an MD5 tool then format your old SSD and use it as storage or to shift around your partitions in case you need to rearrange things.
+
+      If all this is too hard for you.. Check these cute GUI apps that will do the steps for you.
+      https://en.m.wikipedia.org/wiki/Comparison_of_disk_cloning_software
+
+      I would recommend clonezilla.. You'd want a sector by sector clone for windows
+    id: '1655707521135616'
+  - created_time: '2017-11-08T17:21:56+0000'
+    from:
+      name: Ameer Adel
+      id: '10156223826832269'
+    message: thanks again guys for the feedback, i have successfully moved my data
+      from 110 to 220 without any troubles.
+    id: '1656359404403761'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkxTlRNeU56RXdOemcwTURNeU5Eb3hOVEV3TURjd01qVTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkxTmpNMU9UUXdORFF3TXpjMk1Ub3hOVEV3TVRZAeE56RTMZD

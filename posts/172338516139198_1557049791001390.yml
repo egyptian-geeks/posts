@@ -1,0 +1,97 @@
+---
+message: "Is there a credible & verified source for the text of the Holy Quran? \nDid
+  anyone here try to build an app for the Quran? \nIf yes, did you use text or pictures?
+  \nAnd, how did you verify the authenticity?"
+from:
+  name: Ahmed Tawfic
+  id: '10156085357729629'
+type: status
+created_time: '2017-07-24T11:50:11+0000'
+updated_time: '2017-07-24T21:40:41+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1557049791001390/
+id: '172338516139198_1557049791001390'
+reactions:
+  data:
+  - id: '1999765416908747'
+    name: Ahmed Khalifa
+    type: LIKE
+  - id: '561489484214935'
+    name: Zanoon Shehata
+    type: LIKE
+  - id: '1703823479655702'
+    name: أحمد أبوبكر
+    type: LIKE
+  - id: '2030441687177227'
+    name: Mohamed Moneim
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTJNalU1TWpNNE9EVXlPakUxTURFd01qSTVNVFU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTJNelF5TkRVek1ESXdPakUxTURBNE9UY3hNRFk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-07-24T11:55:06+0000'
+    from:
+      name: Ahmed Salah
+      id: '326700584509671'
+    message: |-
+      https://github.com/quran
+
+      they are the guys behind the most popular "Quran Android" app
+      Almost all of their work are open source
+
+      I think the web version (quran.com) is based on text
+      and the android version (Quran Android) is based on images
+
+      but please verify these info
+    id: '1557052787667757'
+  - created_time: '2017-07-24T11:58:34+0000'
+    from:
+      name: Aboubakr Gamal
+      id: '10215686755383013'
+    message: http://quran.ksu.edu.sa/
+    id: '1557054844334218'
+  - created_time: '2017-07-24T12:43:06+0000'
+    from:
+      name: Alaa Al-din Salama
+      id: '2007979049219431'
+    message: |-
+      This could be the same as quran.com , not sure:
+      http://everyayah.com/data/status.php
+    id: '1557093410997028'
+  - created_time: '2017-07-24T15:15:28+0000'
+    from:
+      name: Osama Soliman
+      id: '879271768900112'
+    message: |-
+      I have build this before
+      https://github.com/Microsmsm/ion-HolyQuran
+    id: '1557218427651193'
+  - created_time: '2017-07-24T16:58:39+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: |-
+      انا كنت عامل تطبيق ويب وكنت باستخدم مكتبة arPHP لتصيير النص على صور، وكان فيها بعض القصور لكنها كانت تؤدي الغرض.
+      الشاهد من تجربتي إستخدم صور معدة مسبقا للنص أفضل وممكن تركبها باستخدام GD لو انت شغال PHP على فريم او ما شابه.
+
+      اما عن النصوص وقاعدة البيانات كنت منزلها من موقع اسمه qurandatabase.org و التلاوات آية آية كنت منزلها من مشروع الملك سعود
+    id: '1557296787643357'
+  - created_time: '2017-07-24T18:38:11+0000'
+    from:
+      name: Amr Adel
+      id: '10155421921532775'
+    message: Hussein Maher
+    id: '1557378750968494'
+  - created_time: '2017-07-24T21:40:37+0000'
+    from:
+      name: Ahmed Tawfic
+      id: '10156085357729629'
+    message: |-
+      Thanks all for the replies. The below website has a database for the Quran text. They all also provide the required meta data (e.g. pages, suras, sajda locations...etc.) They detail all the verification they performed to assure authenticity of text provided
+      http://tanzil.net/docs/
+    id: '1557532687619767'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUxTnpBMU1qYzROelkyTnpjMU56b3hOVEF3T0RrM016QTUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUxTnpVek1qWTROell4T1RjMk56b3hOVEF3T1RNeU5ETTQZD

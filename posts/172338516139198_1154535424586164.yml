@@ -1,0 +1,36 @@
+---
+message: "Okay, this is a bit irritating. I'm subscribed to Etisalat ADSL, this morning
+  my Internet was not working. The ADSL line was working okay and the router showed
+  correct upstream and downstream readings. However, the Internet was not working
+  because the PPPoE interface was down (not connected). I filed a complaint and after
+  a couple of hours the PPPoE was working fine. The irritating part is now whenever
+  I try to open a page on any browser (on any device) it shows a notification from
+  Etisalat that I can't discard (the continue button call a JS function that should
+  redirect me back to the page I wanted but it doesn't work). I called tech support
+  and spent 40 minutes trying to explain to some Frontline idiot that my Internet
+  connection is fine (I even download router config files from Etisalat's website)
+  but with no avail. \nSo is there any way to bypass this redirect mess? \nOr since
+  this is PPPoE it is not possible? \n\nThe interesting part is that the only webpage
+  that instead of being redirected to the notification page shows connection timeout
+  is Facebook. I ran tracert to different Web pages and Facebook seems to have weird
+  hops. The rest just kept being directed to the same host (the notification page)."
+from:
+  name: Samuel A. Wilson
+  id: '10215340807979122'
+type: status
+created_time: '2016-06-02T09:38:35+0000'
+updated_time: '2016-06-02T09:55:11+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1154535424586164/
+id: '172338516139198_1154535424586164'
+comments:
+  data:
+  - created_time: '2016-06-02T09:55:11+0000'
+    from:
+      name: Khaled Karam
+      id: '10214843253811480'
+    message: Fady Taher
+    id: '1154540957918944'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUxTkRVME1EazFOemt4T0RrME5Eb3hORFkwT0RZAeE16RXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUxTkRVME1EazFOemt4T0RrME5Eb3hORFkwT0RZAeE16RXgZD

@@ -1,0 +1,99 @@
+---
+message: |
+  Just read this in a book and I thought I would share it with you. Consider you have the following code in C and you are using a 32bit system:
+
+  float a = 0;
+  while (true) {
+      a++;
+      if (a > 16777216) break;
+  }
+
+  When do you think the loop will stop?
+  By the way the float32 range is: -3.4E+38 to +3.4E+38. This means 3.4 * 10^38 to -3.4 * 10^38. So this value is in range
+
+  How about this code in go:
+
+  var f float32 = 16777216 // 1 << 24
+  fmt.Println(f == f+1)
+
+  What is the expected result?
+
+  Well the first C code will result in an infinite loop! The second go code will result in printing `true`!
+
+  If you want to know why in short read this answer in stackoverflow:
+link: http://stackoverflow.com/questions/12596695/why-does-a-float-variable-stop-incrementing-at-16777216-in-c#answer-12598343
+from:
+  name: Ahmed Essam
+  id: '2004705666469226'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQA4atFBdowvWO-S&w=130&h=130&url=http%3A%2F%2Fcdn.sstatic.net%2FSites%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded%26a&cfs=1&sx=0&sy=0&sw=316&sh=316&_nc_hash=AQDYVbPw7-vNSk2Z
+created_time: '2016-08-02T19:28:33+0000'
+updated_time: '2016-08-03T01:18:11+0000'
+name: Why does a float variable stop incrementing at 16777216 in C#?
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1194700143903025/
+id: '172338516139198_1194700143903025'
+reactions:
+  data:
+  - id: '1772542006152666'
+    name: Mohamed AbuIssa
+    type: LIKE
+  - id: '10214124238595185'
+    name: Galal Atef
+    type: LIKE
+  - id: '1596110217148252'
+    name: Ahmed Badawy
+    type: LIKE
+  - id: '1876092405757348'
+    name: Ibrahem Mahmmoud
+    type: LIKE
+  - id: '1657509230977456'
+    name: Hosam Aly
+    type: LIKE
+  - id: '1012026932279218'
+    name: Ahmed Mohamed Abd El-Hamid
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhPVEEyTlRBNU16RXlPakUwTnpBeU1UQXdPVE02TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTBNVFUzTmpFeE5EVTVPakUwTnpBeE5qZAzFORFk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-08-03T01:08:52+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      it's because of how floats are stored, it's like the scientific notation of big numbers (eg: 2.998 * 10^8), except in binary it's "a * 2^b", it stores the 'a' and 'b' and each has a maximum value, you can think of the size of 'a' as the largest number of "significant digits".
+      In this examples and many others, the problem is just a matter of not having enough significant digits to represent the number accurately and you have to approximate (in my speed of light example, if you can only represent 3 significant digit's it'll be 3.00 * 10^8).
+      The reason float.MaxValue is such a big number is because of the 'b' part (the exponent), but the reality is you lose a lot of accuracy waaaay before you reach that number.
+
+      Fun Fact: In the game Minecraft, the world is procedurally generated and practically infinite in size, but due to floating point errors (approximation) the physics of the game starts behaving weirdly after some point (things slide randomly in their own) and after some point the terrain generation code breaks and you get insane-looking terrain, the community called it "The Farlands" (the reached there using teleport commands), then later the developers clamped the player position so they don't get to the glitchy area :)
+    id: '1194861757220197'
+  - created_time: '2016-08-03T01:17:44+0000'
+    from:
+      name: Khaled M. Diab
+      id: '10215626626127168'
+    message: On the other hand, this can be used for memory optimization. If you know
+      some properties of your floats (e.g., they always positive, withing some range
+      or your application can tolerate some inacurracies etc...), you can allocate
+      less space for them especially if they're too many..
+    id: '1194867127219660'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU1TkRnMk1UYzFOekl5TURFNU56b3hORGN3TVRnMk5UTXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU1TkRnMk56RXlOekl4T1RZAMk1Eb3hORGN3TVRnM01EWTAZD
+attachments:
+  data:
+  - description: float a = 0; while (true) { a++; if (a > 16777216) break; // Will
+      never break... a stops at 16777216 } Can anyone explain this to me why a float
+      value stops incrementing at 167...
+    media:
+      image:
+        height: 316
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAntEGj6KNL8I7m&w=316&h=316&url=http%3A%2F%2Fcdn.sstatic.net%2FSites%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded%26a&cfs=1&sx=0&sy=0&sw=316&sh=316&_nc_hash=AQAI6p974RoCbfNJ
+        width: 316
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F12596695%2Fwhy-does-a-float-variable-stop-incrementing-at-16777216-in-c%23answer-12598343&h=ATPRFgHawT9zd2fYt6JRKaQgg8Mx0HMGDFHfSQW_98HylVzIbCAr2pagR_k5sOy0cj061Vo_mBAgdrafc_GNJMGGPlxNXXE06-x7&s=1&enc=AZPDbN1S8qFZ3svuYgXOJOZbYLhEMVQb_Fvjmycj8a78xwBqZ8e2kWFIfdodcmUtusG3YZxKPqkaxLBayv4EGmTZ
+    title: Why does a float variable stop incrementing at 16777216 in C#?
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F12596695%2Fwhy-does-a-float-variable-stop-incrementing-at-16777216-in-c%23answer-12598343&h=ATPRFgHawT9zd2fYt6JRKaQgg8Mx0HMGDFHfSQW_98HylVzIbCAr2pagR_k5sOy0cj061Vo_mBAgdrafc_GNJMGGPlxNXXE06-x7&s=1&enc=AZPDbN1S8qFZ3svuYgXOJOZbYLhEMVQb_Fvjmycj8a78xwBqZ8e2kWFIfdodcmUtusG3YZxKPqkaxLBayv4EGmTZ

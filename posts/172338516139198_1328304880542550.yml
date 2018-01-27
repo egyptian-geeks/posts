@@ -1,0 +1,133 @@
+---
+message: |-
+  إيه أحسن طريقة أفهم بيها  كود برنامج أول مرة أشوفه وكتبه واحد تانى ؟
+  البرنامج كبير مش صغير ومتفرع لأكتر من حاجه وليه داتا بيز كبيرة
+from:
+  name: Mostafa Yahia
+  id: '10214976937395534'
+type: status
+created_time: '2016-12-15T18:45:41+0000'
+updated_time: '2016-12-16T23:03:42+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1328304880542550/
+id: '172338516139198_1328304880542550'
+reactions:
+  data:
+  - id: '1763959737010749'
+    name: Ahmed Mahmoud
+    type: LIKE
+  - id: '1589304647821970'
+    name: Menem Salama
+    type: LIKE
+  - id: '10215429459185138'
+    name: Mohammed Shaker
+    type: LIKE
+  - id: '1216819495129208'
+    name: Soha Abuhamam
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhPVEF5TVRrM05Ea3lPakUwT0RFNU1qWTRNelE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTBNRE0xTURnMk5qSTFPakUwT0RFNE1qZAzBNVGc2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-12-15T18:46:52+0000'
+    from:
+      name: Mohamed Ahmed
+      id: '385696705226073'
+    message: Line by line execution and commenting
+    id: '1328305663875805'
+  - created_time: '2016-12-15T18:48:11+0000'
+    from:
+      name: Mostafa Yahia
+      id: '10214976937395534'
+    message: "للأسف البرنامج مرتبط بسيرفر و برنامج مهم لشركة \nفمقدرش أجرب فيه كتير
+      أوى غير انه مرتبط بداتا بيز \nوفيه حاجات كتير مش بتعمل حاجه مكتوبة وخلاص ملهاش
+      اى فانكشن"
+    id: '1328306460542392'
+  - created_time: '2016-12-15T18:51:33+0000'
+    from:
+      name: Mustafa Ezzat
+      id: '1791684854188024'
+    message: هنا بييجي دور الدزين باترن وهي مجموعة فيتشرز متعارف عليها بيستخدمها السوفتوير
+      انجينير الشاطر ف لما ييجي يعمل هاند اوفر ل سوفتوير انجينير تاني يقدر يفهم السورس
+      كود غير كدا بيكون الكود سباكتي وربنا يعينك عليه
+    id: '1328308537208851'
+  - created_time: '2016-12-15T18:52:46+0000'
+    from:
+      name: Mostafa Yahia
+      id: '10214976937395534'
+    message: البرنامج غير منظم نهائى والكود مش كويس فى طريقة كتابته
+    id: '1328309207208784'
+  - created_time: '2016-12-15T18:54:10+0000'
+    from:
+      name: MOhammed Salah
+      id: '2003551626552599'
+    message: Run and see the  output .. then try to understand  how it's generated
+      .
+    id: '1328309987208706'
+  - created_time: '2016-12-15T18:54:27+0000'
+    from:
+      name: Mohamed AbuIssa
+      id: '1772542006152666'
+    message: Clone it and run on a local VM and do as @Mohamed Ahmed said
+    id: '1328310093875362'
+  - created_time: '2016-12-15T18:55:00+0000'
+    from:
+      name: Mostafa Yahia
+      id: '10214976937395534'
+    message: تمام
+    id: '1328310850541953'
+  - created_time: '2016-12-15T18:55:21+0000'
+    from:
+      name: Ahmed Saleh
+      id: '10159933379005574'
+    message: use your debugger
+    id: '1328311073875264'
+  - created_time: '2016-12-15T18:57:54+0000'
+    from:
+      name: Muhammad El-Hennawy
+      id: '10213118809797201'
+    message: لازم تعرف الاول الداتا اللي بياخدها البرنامج شكلها عامل ازاي وايه هو
+      ال output المتوقع من البرنامج .. ساعتها ممكن تضع افتراضات assumptions حوالين
+      ازي الكود بيشتغل وتبدأ تختبر الافتراضات ده كل واحدة وتشوف النتيجة وبعد فترة
+      المفروض يكون عندك تصور عن تنظيم الكود !!
+    id: '1328313057208399'
+  - created_time: '2016-12-15T19:11:17+0000'
+    from:
+      name: Mostafa Yahia
+      id: '10214976937395534'
+    message: تمام شكرا يا شباب
+    id: '1328322470540791'
+  - created_time: '2016-12-16T10:05:38+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: |-
+      قراءة الكود بدون هدف محدد غير مفيدة, حاول تدخل على المشروع بهدف ما, مثلاً عاوز تصلح Bug أو تزود Feature أو تعرف حاجة محددة بتشتغل ازاي, لكن انك تفتح الكود و تقعد تقراه زي الجرنال, الصراحة مالهاش أي فايدة.
+      و عموماً في المشاريع الكبيرة ممكن تقعد سنين تشتغل في نفس الكود و فيه اجزاء في الكود عمرك ما احتجت تفتحها أصلاً.
+    id: '1328882923818079'
+  - created_time: '2016-12-16T17:09:36+0000'
+    from:
+      name: Mostafa Yahia
+      id: '10214976937395534'
+    message: تمام جدا
+    id: '1329186720454366'
+  - created_time: '2016-12-16T22:16:39+0000'
+    from:
+      name: Ahmed Moosa
+      id: '10210990493546895'
+    message: |-
+      لما يطلب منك تعدل فيه او تضيف عليه ساعتها هتفهمه. هيبقى عندك طرف خيط تقدر توصل ليه وتمشي وراه.
+      لكن هتفتح كود. دا بيعمل ايه ودا بيعمل ايه. هتعرف وتانى يوم هتنسي.
+      زي محمد الشريف ما قال. لازم يكون فيه هدف.
+    id: '1329386433767728'
+  - created_time: '2016-12-16T23:03:38+0000'
+    from:
+      name: Raymon Mina
+      id: '10155214903682727'
+    message: https://www.youtube.com/watch?v=nBtO1UOK9Hs
+    id: '1329419100431128'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE15T0RNd05UWTJNemczTlRnd05Ub3hORGd4T0RJM05qRXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE15T1RReE9URXdNRFF6TVRFeU9Eb3hORGd4T1RJNU5ERTUZD

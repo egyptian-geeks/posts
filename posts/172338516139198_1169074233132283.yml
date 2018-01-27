@@ -1,0 +1,79 @@
+---
+message: "i have a 3 GB database i need to import to mysql \nthe file is too big error
+  \n\ni am using windows server xamp \nhow to increase the size of the import file
+  \nwhat is the line i need to change in php.ini ???"
+from:
+  name: Mina Malak
+  id: '10155996037437456'
+type: status
+created_time: '2016-06-25T11:54:06+0000'
+updated_time: '2016-06-26T11:55:10+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1169074233132283/
+id: '172338516139198_1169074233132283'
+comments:
+  data:
+  - created_time: '2016-06-25T11:56:17+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: Import through mysql console
+    id: '1169074716465568'
+  - created_time: '2016-06-25T11:56:34+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: Mysql -u root -p
+    id: '1169074759798897'
+  - created_time: '2016-06-25T11:57:25+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: |-
+      use dbname
+      source dumpfilepath.sql;
+    id: '1169075089798864'
+  - created_time: '2016-06-25T12:00:06+0000'
+    from:
+      name: Michael Henry
+      id: '10156301492765955'
+    message: I think you can compress the database before the import,  to be gzip
+      or zip, and you will be surprised from the result
+    id: '1169075739798799'
+  - created_time: '2016-06-25T12:13:12+0000'
+    from:
+      name: George Awad
+      id: '1781519898587185'
+    message: mac or windows ! .. btw search for use Mysql Command line
+    id: '1169081189798254'
+  - created_time: '2016-06-25T13:21:14+0000'
+    from:
+      name: Ahmed Nour
+      id: '10160389698145144'
+    message: |-
+      xamp\mysql\bin
+      my.ini
+      max_allowed_packet = 3500M
+      php.ini
+      upload_max_filesize = 3500M
+      أعمل دول وان شاء الله هتشتغل :)
+    id: '1169109306462109'
+  - created_time: '2016-06-26T10:53:58+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: dude you cannot import such fat file using phpmyadmin. Instead ssh ur
+      machine and scp te file to the server then run "mysql -u username -p database_name
+      < file.sql"
+    id: '1169674323072274'
+  - created_time: '2016-06-26T10:55:52+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: dude you cannot import such fat file using phpmyadmin. Instead ssh ur
+      machine and scp te file to the server then run "mysql -u username -p database_name
+      < file.sql"
+    id: '1169675233072183'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUyT1RBM05EY3hOalEyTlRVMk9Eb3hORFkyT0RVMU56YzMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUyT1RZAM05USXpNekEzTWpFNE16b3hORFkyT1RNNE5UVXkZD

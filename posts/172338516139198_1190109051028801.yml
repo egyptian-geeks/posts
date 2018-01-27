@@ -1,0 +1,66 @@
+---
+message: |-
+  What do you guys think of certbot (Let's encrypt)? I used it and got my green https lock in 5 minutes for free. I mean it's one of those things that are too good to be true :-D
+  Do you think there's a catch or is the era of expensive ssl certificates is just over?
+from:
+  name: Adam Zahran
+  id: '2029806313704072'
+type: status
+created_time: '2016-07-27T07:10:15+0000'
+updated_time: '2016-07-27T13:09:33+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1190109051028801/
+id: '172338516139198_1190109051028801'
+reactions:
+  data:
+  - id: '1487671784675336'
+    name: Mohamad Emad
+    type: LIKE
+  - id: '10156284492809497'
+    name: Ahmed Hassan
+    type: LIKE
+  - id: '1574042042631934'
+    name: Mohamed Yahya
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlPVGMxT0RjM05qZAzFPakUwTmprMk16RXlNRFE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXdOemcwTmpFeE5UWTRPakUwTmprMk1EZAzVPRGM2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-07-27T07:54:12+0000'
+    from:
+      name: Sherief Alaa
+      id: '10210502816948315'
+    message: Amjad Mashaal :D
+    id: '1190121584360881'
+  - created_time: '2016-07-27T08:25:53+0000'
+    from:
+      name: Amjad Mashaal
+      id: '10213738834576763'
+    message: |-
+      I'm a Certbot contributor, glad you're using it! :D
+
+      For now, Let's Encrypt supports only domain validation (DV) (and not organization validation (OV) or extended validation (EV)). Let's Encrypt is sponsored by EFF, Chrome, Firefox, Akamai, and many others. I think that's enough proof to make it true :D
+
+      As Mostafa mentioned, such really expensive certificates (probably $100+) validate not only the domain itself but also the organization, and that requires legal paperwork. That has been discussed multiple times but it isn't considered yet.
+    id: '1190133137693059'
+  - created_time: '2016-07-27T10:54:36+0000'
+    from:
+      name: Hamdy Khalil
+      id: '10160159961475500'
+    message: "- Lets encrypt Doesn't support wild card domains, so they can't support
+      *.mydomain.com \n- If you plan your site to redirect to a payment gateway, some
+      payment gateways will request a more reputable issuer and won't accept letsencrypt"
+    id: '1190189864354053'
+  - created_time: '2016-07-27T11:08:59+0000'
+    from:
+      name: Adam Zahran
+      id: '2029806313704072'
+    message: |-
+      Thank you all for the info.
+      For my small projects I find that it's heavenly :D
+    id: '1190198121019894'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU1TURFeU1UVTRORE0yTURnNE1Ub3hORFk1TmpBMk1EVXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU1TURFNU9ERXlNVEF4T1RnNU5Eb3hORFk1TmpFM056UXcZD

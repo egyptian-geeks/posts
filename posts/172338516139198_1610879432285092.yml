@@ -1,0 +1,114 @@
+---
+message: |-
+  Is it any  programmatic way using .NET to convert Word files to PDF format, believe me the question looks simple but if you didn't try it before i want to tell u it's really painful thing.
+
+  The only free way that i found is using Microsoft office COM component with a very bad performance and it's not thread safe,  can't work concurrently.
+
+  Open office, iTextSharp, PdfSharp didn't support this.
+
+  The only solutions that i found are commercial and too expensive with 3k$ and more like aspose.
+
+  Any suggestions or workarounds?
+from:
+  name: Ahmed Marzouk
+  id: '1625359394210186'
+type: status
+created_time: '2017-09-19T00:36:33+0000'
+updated_time: '2017-09-19T15:01:40+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1610879432285092/
+id: '172338516139198_1610879432285092'
+reactions:
+  data:
+  - id: '10211284323084810'
+    name: Ahmed Mhana
+    type: LIKE
+  - id: '10213804085630819'
+    name: Ahmed Mustafa
+    type: LIKE
+  - id: '10215386861845749'
+    name: Mohamed Arabi Saleh
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRJMk1UYzNNRGd3TlRveE5UQTFPRFF4T0RZAek9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRJMk1qZA3hOelkwTVRveE5UQTFOems1TkRVNE9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2017-09-19T00:55:54+0000'
+    from:
+      name: Ammar Youssef
+      id: '10155097484932190'
+    message: |-
+      فيه مجاني وكويس، بس به بعض المشكال احيانا في الجداول المعقدة والصور الكثيرة
+      سارسل لك رابط عندما اتمكن من ذلك
+    id: '1610890828950619'
+  - created_time: '2017-09-19T00:58:28+0000'
+    from:
+      name: Ammar Youssef
+      id: '10155097484932190'
+    message: |-
+      اسمها unoconv
+      ولها docker container جاهز
+      https://github.com/zrrrzzt/docker-unoconv-webservice
+    id: '1610892252283810'
+  - created_time: '2017-09-19T03:54:53+0000'
+    from:
+      name: Sherif Sorour
+      id: '10155597740658096'
+    message: |-
+      You can try converting the word file to byte array and then convert it to pdf file.
+      Iam not sure about this idea but you can try it.
+    id: '1610978915608477'
+  - created_time: '2017-09-19T05:53:12+0000'
+    from:
+      name: Eslam Ahmed Hossni
+      id: '10155433043663528'
+    message: "انا اشتغلت بال itextsharp \nوكانت شغاله كويس مفيش مشاكل بيرفورمانس بس
+      ماشتغلتهاش multi threading"
+    id: '1611031558936546'
+  - created_time: '2017-09-19T05:54:26+0000'
+    from:
+      name: Eslam Ahmed Hossni
+      id: '10155433043663528'
+    message: بس انا كنت بارسم gdi+ واسيف image to pdf
+    id: '1611031988936503'
+  - created_time: '2017-09-19T06:02:55+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: |-
+      ممكن تحول على خطوتين
+      الاول ل html بعدين تستخدم مثلا wkhtmltopdf
+    id: '1611035475602821'
+  - created_time: '2017-09-19T07:50:42+0000'
+    from:
+      name: Islam Hossam
+      id: '10156028279105396'
+    message: Mohamed Khaled Fahmy
+    id: '1611079162265119'
+  - created_time: '2017-09-19T07:51:00+0000'
+    from:
+      name: Sameh Selim
+      id: '1907240172924468'
+    message: Print it to a pdf printer
+    id: '1611079292265106'
+  - created_time: '2017-09-19T08:24:42+0000'
+    from:
+      name: Zyad Madkour
+      id: '1966904200229324'
+    message: |-
+      * look for tools that convert from doc(x) to intermediate format like latex or html as mentioned above, then to PDF.
+      * to expand your search space look for libraries with CLI OR webservices that do it and run the cmd/terminal command using .Net, you don't have to make it internally, and you will find good libraries/webservices.
+    id: '1611094588930243'
+  - created_time: '2017-09-19T15:01:38+0000'
+    from:
+      name: Ammar Youssef
+      id: '10155097484932190'
+    message: |-
+      لا اعرف هل وصلت الى حل؟ ام صرفت النظر؟
+      هل جربت الافكار المكتوبة هنا ام لا؟
+    id: '1611329752240060'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl4TURnNU1EZA3lPRGsxTURZAeE9Ub3hOVEExTnpneU5UVTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl4TVRNeU9UYzFNakkwTURBMk1Eb3hOVEExT0RNek1qazQZD

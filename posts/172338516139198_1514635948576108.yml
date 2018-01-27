@@ -1,0 +1,42 @@
+---
+message: |-
+  Algorithms and data structures are very important topics, not for interviews, but only for a lot of topics regarding embedded systems and game development. For example in an embedded system like a telephone set, you would want to look for a name, if the names are in terms of millions, you would perform a linear time searching algorithms, which is very slow considering a uC which works with 10MHz frequency.What about receiving alot of bytes using you UART, how would you store them ? what if you miss some bytes, and you want to continue working with them when the connection is broken ? Have you heared of ring buffers? Queues ?.
+  The same story applies in game development, for example consider writing a large Finite state machine FSM for AI, are you going to write a large set of if else,.etc, how about descission trees ? suppose you are familiar with algorithms, how about finding paths for your AI agent using A* ? Considering you're familiar with tree data structure, and you have a large outdoor scene, which has million of objects, do you want the camera to render all those objects ? How about occlusion the objects that are out of your view ? Octree, KD-tree comes to rescue..
+from:
+  name: Ahmed Saleh
+  id: '10159933379005574'
+type: status
+created_time: '2017-06-13T20:39:28+0000'
+updated_time: '2017-06-13T20:39:28+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1514635948576108/
+id: '172338516139198_1514635948576108'
+reactions:
+  data:
+  - id: '1461293227327009'
+    name: Ramy Wafa
+    type: LIKE
+  - id: '1677576058930096'
+    name: Ahmed El Mowafy
+    type: LIKE
+  - id: '10212923578377489'
+    name: Nour Galaby
+    type: LIKE
+  - id: '1763181463721711'
+    name: Mohamed Nageh
+    type: LIKE
+  - id: '1819455044782386'
+    name: Samir Mohamed
+    type: LIKE
+  - id: '10156012693829804'
+    name: Ahmed Nader
+    type: LIKE
+  - id: '1999765416908747'
+    name: Ahmed Khalifa
+    type: LIKE
+  - id: '559710184381025'
+    name: Boba Hasseb
+    type: LOVE
+  paging:
+    cursors:
+      before: TVRBd01EQXpNemt3TXpjMU5EUXdPakUwT1RjME9EQTNPRFE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01ERXdNall4TkRRMU1qSTNPakUwT1Rjek9EWXpPVFE2TnpnNE5qUTRNRE0zT1RFek16RXkZD

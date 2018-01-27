@@ -1,0 +1,140 @@
+---
+message: '"All modern computers with Intel chips from the last 10 years appear to
+  be affected."'
+link: https://www.theregister.co.uk/2018/01/02/intel_cpu_design_flaw/
+from:
+  name: Fares Mehanna
+  id: '1703714063020384'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQCpfrBOsxp95UU5&w=130&h=130&url=https%3A%2F%2Fregmedia.co.uk%2F2016%2F02%2F03%2Fmalware_45656768.jpg%3Fx%3D1200%26y%3D794&cfs=1&_nc_hash=AQB0r55MTMbxK4Qs
+created_time: '2018-01-03T17:54:53+0000'
+updated_time: '2018-01-15T09:10:49+0000'
+name: "'Kernel memory leaking' Intel processor design flaw forces Linux, Windows redesign"
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1710893052283729/
+shares:
+  count: 3
+id: '172338516139198_1710893052283729'
+reactions:
+  data:
+  - id: '1656000381122763'
+    name: Mostafa Mahmoud
+    type: LIKE
+  - id: '2032504700100329'
+    name: Mohammed Yassin
+    type: LIKE
+  - id: '10215912205257566'
+    name: Mohammed Fouad Hassen
+    type: LIKE
+  - id: '140086213464226'
+    name: Mhmd Fares
+    type: LIKE
+  - id: '1853777334634345'
+    name: Mohamed Fathalla
+    type: LIKE
+  - id: '928444520664078'
+    name: Hossam L Dokkani
+    type: LIKE
+  - id: '10156058891705747'
+    name: George Leon
+    type: LIKE
+  - id: '1926152114064385'
+    name: Mohamed Abd Elnaeem
+    type: LIKE
+  - id: '10156007946428563'
+    name: Ahmad Nabil Yousry
+    type: LIKE
+  - id: '627907956'
+    name: Emad Elsaid
+    type: WOW
+  - id: '10211089110288413'
+    name: Omar El Hefny
+    type: LIKE
+  - id: '1985598625095777'
+    name: Ahmad Bahaa
+    type: LIKE
+  - id: '10156165643313420'
+    name: Tony Raoul Iscaros
+    type: LIKE
+  - id: '10160105091695314'
+    name: Mohamed Eltantawi
+    type: ANGRY
+  - id: '10160027316145066'
+    name: Mohamed Mohum
+    type: LIKE
+  - id: '10211045513280796'
+    name: Mohamed Ayman
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhNemcwTlRJNE5qTXdPakUxTVRZAd01qSTBNekU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRRME5ESTFNRFF3TnpveE5URTFNREF5TXpReE9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2018-01-03T18:00:18+0000'
+    from:
+      name: Youssef Ahmed
+      id: '1649131541832569'
+    message: "from the last 10 years \nYahia El Shahawy يبقى انت في أمان يا صديقي"
+    id: '1710937835612584'
+  - created_time: '2018-01-03T18:33:06+0000'
+    from:
+      name: Mohammed Gamal
+      id: '10156278338768296'
+    message: It's a hardware issue that hasn't been fully disclosed by Intel yet
+    id: '1710962305610137'
+  - created_time: '2018-01-03T18:50:34+0000'
+    from:
+      name: Ahmed Maher
+      id: '2162564797304338'
+    message: I hoped for it to be an April fool's joke but looks like we're in Jan
+      so this shit is real.
+    id: '1710974858942215'
+  - created_time: '2018-01-03T20:36:47+0000'
+    from:
+      name: Mohamed Eltantawi
+      id: '10160105091695314'
+    message: I noticed a bit of slowdown when I upgraded to the latest Windows Insider
+      build (17063 with the above fix) from 16299, I thought it is just my imagination
+      or because of the debugging part in the code or something, but now I see why!
+      Really shitty situation. Thanks for sharing.
+    id: '1711059962267038'
+  - created_time: '2018-01-03T23:05:24+0000'
+    from:
+      name: Tony Raoul Iscaros
+      id: '10156165643313420'
+    message: |-
+      Can the exploit run inside a browser and bypass its sandbox ?
+
+      Edit 1: it can run inside outdated Google chrome https://spectreattack.com/spectre.pdf
+    id: '1711168858922815'
+  - created_time: '2018-01-03T23:09:41+0000'
+    from:
+      name: Fares Mehanna
+      id: '1703714063020384'
+    message: The problem in the virtual memory part. so it's applicable with every
+      OS uses virtual memory.
+    id: '1711171972255837'
+  - created_time: '2018-01-05T16:35:21+0000'
+    from:
+      name: Mohammed Khalil
+      id: '10154893121761642'
+    message: "Is AMD better than \U0001F914"
+    id: '1712973578742343'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN4TURrek56ZA3pOVFl4TWpVNE5Eb3hOVEUxTURBeU5ERTUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN4TWprM016VTNPRGMwTWpNME16b3hOVEUxTVRjd01USXgZD
+attachments:
+  data:
+  - description: Other OSes will need an update, performance hits loom
+    media:
+      image:
+        height: 720
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQBGmbEEPh1P33R7&w=720&h=720&url=https%3A%2F%2Fregmedia.co.uk%2F2016%2F02%2F03%2Fmalware_45656768.jpg%3Fx%3D1200%26y%3D794&cfs=1&_nc_hash=AQBRmdEzud7ewXU1
+        width: 720
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.theregister.co.uk%2F2018%2F01%2F02%2Fintel_cpu_design_flaw%2F&h=ATOII3AdMghPCMFHxfhegmtzixt2pBeCWAKLp9D5WYnDNRH3ii6Peb8eyeAvP7aG1I9gTRQGl706xSWFTF8gg3BIWgR2UYAxfPpF&s=1&enc=AZMcA4rUhUVplfYlCQ3tu3j0KwbMEvCJae4mSpGPg-mYZNh4UNpkkiFiP3LZGuc376ZGdkJXBCl07hNCe9jlwRaR
+    title: "'Kernel memory leaking' Intel processor design flaw forces Linux, Windows
+      redesign"
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.theregister.co.uk%2F2018%2F01%2F02%2Fintel_cpu_design_flaw%2F&h=ATOII3AdMghPCMFHxfhegmtzixt2pBeCWAKLp9D5WYnDNRH3ii6Peb8eyeAvP7aG1I9gTRQGl706xSWFTF8gg3BIWgR2UYAxfPpF&s=1&enc=AZMcA4rUhUVplfYlCQ3tu3j0KwbMEvCJae4mSpGPg-mYZNh4UNpkkiFiP3LZGuc376ZGdkJXBCl07hNCe9jlwRaR

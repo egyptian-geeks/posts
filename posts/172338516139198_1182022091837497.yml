@@ -1,0 +1,36 @@
+---
+message: I want to cash about 4000 object in client side ,  in a way that enable me
+  to search in the fastest way..is there better way than saving them in js variable
+  and looping..i think about localstorage but it seems to save string valus only which
+  add one more step before searching..any suggestion or idea will be appreiated ..thanks
+from:
+  name: Kofi Kotga
+  id: '1683289718380917'
+type: status
+created_time: '2016-07-14T22:47:20+0000'
+updated_time: '2016-07-16T16:41:10+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1182022091837497/
+id: '172338516139198_1182022091837497'
+comments:
+  data:
+  - created_time: '2016-07-14T23:03:28+0000'
+    from:
+      name: سامح دعبس
+      id: '2022490591345439'
+    message: |-
+      Your problem has 2 sides:
+      1- storage/memory => 4k objects * (say) 1k = around 4 MB, which is not that big in web *application*
+      --> keeping the objects in memory is the *fastest* way!
+      if you still have problems in memory, you can use sqlite + sql.js
+      2- searching in objects => you can use any standard search algorithm, or use sql queries in case you will use sqlite
+    id: '1182028138503559'
+  - created_time: '2016-07-16T16:41:10+0000'
+    from:
+      name: Kofi Kotga
+      id: '1683289718380917'
+    message: Thanks
+    id: '1183196005053439'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU0TWpBeU9ERXpPRFV3TXpVMU9Ub3hORFk0TlRNM05EQTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU0TXpFNU5qQXdOVEExTXpRek9Ub3hORFk0TmpnM01qY3cZD

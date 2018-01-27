@@ -1,0 +1,126 @@
+---
+message: "مساء الخير،\n\n يا ريت حد يقدر يساعدني في الكام سؤال دول :D \n\nعندي data
+  متقسمة بين 3 tables كل واحد فيهم حوالي 400,000 entries.\nعايز أعمللهم join عشان
+  أطلع بجدول واحد فيه كل حاجة أنا محتاجها عشان يسهل لي شغل كتير بعد كده.\nكتبت الـ
+  query بأكتر طريقة naive تقريبا باعتبار إني عامل indexes على الـ joining attributes
+  و كده.\n\nالـ machine عندي عادية مش server يعني (Core i7, 8GB RAM) و شغال MariaDB.\n\nالأسئلة
+  هي:\n\n- هل 400,000 و 3 tables تعتبر كتير؟\nبمعنى آخر، هل هأقدر أشوف نتيجة الـ query
+  ده قبل ما أموت؟ :D\n\n- هل في طريقة ممكن أقدر الوقت اللي query زي ده ممكن يشتغل
+  فيه؟\n\n- بشكل أعم، هل في طريقة ممكن أسرع query بالمواصفات دي؟"
+from:
+  name: Omar Attia
+  id: '2015042048739859'
+type: status
+created_time: '2015-12-22T22:09:46+0000'
+updated_time: '2015-12-23T09:34:54+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1049816721724702/
+id: '172338516139198_1049816721724702'
+reactions:
+  data:
+  - id: '1678189785552668'
+    name: Abdullah Ahmed Abdelmonem
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdPRFE1T0RnMU1USTJPakUwTlRBNE5qSTBOamc2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXdPRFE1T0RnMU1USTJPakUwTlRBNE5qSTBOamc2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2015-12-22T22:26:32+0000'
+    from:
+      name: Mahmoud Ibrahim
+      id: '1613738175346157'
+    message: |-
+      بصراحة على mysql بالامكانيات دى كنت بدمج واحذف المتكرر فى 5 جدول كل جدول 500000 في 15 دقيقة تقريبا
+      ودة طبعا كان كتير علشان بحذف المتكرر في نفس العملية
+    id: '1049821285057579'
+  - created_time: '2015-12-22T22:30:17+0000'
+    from:
+      name: Mahmoud Ibrahim
+      id: '1613738175346157'
+    message: فا المفروض mariadb تخلص فى وقت اقل من كدة لكن تقدر الوقت بشكل محدد صعب
+    id: '1049822191724155'
+  - created_time: '2015-12-22T23:03:13+0000'
+    from:
+      name: Mohamed Omar Zaian
+      id: '10155855162041047'
+    message: Mohamed El-Sayed
+    id: '1049829945056713'
+  - created_time: '2015-12-22T23:06:19+0000'
+    from:
+      name: Omar Attia
+      id: '2015042048739859'
+    message: |-
+      شكل الـ Query.
+      كل جدول في الـ FROM clause فيه حوالي 400,000 entry.
+    id: '1049830588389982'
+  - created_time: '2015-12-22T23:44:05+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: رأيي إنك تعمل تطبيق يعمل الموضوع ده علشان مافيش حاجة تقع منك في السكة،
+      وكل ما يخلص مجموعة سجلات يسجل عنده المفتاح الرئيسي primary key بتاع آخر سجل
+      اشتغل في ملف نص مثلا علشان لما يبدأ في مجموعة تانية يعرف هيبدأ من فين. التطبيق
+      ده ممكن يكون بي php مثلا. وهتستخدم معاه client side جافاسكريبت علشان اعادة التشغيل
+      مع كل مجموعة وبالطريقة دي تقدر تعملها على عدة ايام لو حبيت كل يوم تشغله شوية
+      لحد ما تخلص بس طبعا في الجافا سكريبت هتخليه يستنى شوية ياخد منك استجابة لو حبيت
+      تخلع ولو ما استجبتش يكمل للمجموعة اللي بعدها علشان ما توقفوش وهو شغال في وسط
+      مجموعة.
+    id: '1049844448388596'
+  - created_time: '2015-12-23T00:10:03+0000'
+    from:
+      name: Hosam Aly
+      id: '1657509230977456'
+    message: I'd suggest that you try it at first. Remove the insert and run the select
+      with LIMIT 10000, and see how much time it takes. If it's acceptable after multiplying
+      by 40, then you're bottlenecks are going to be memory and disk. I don't know
+      how large your records are, but your field names suggest really small data,
+      so 2 GB of memory should be more than enough. The query will just take as much
+      time as it needs to write to disk.
+    id: '1049854481720926'
+  - created_time: '2015-12-23T00:13:42+0000'
+    from:
+      name: Hosam Aly
+      id: '1657509230977456'
+    message: To optimize the insertion, drop (or disable) all indexes, constraints,
+      and triggers on the "merged" table first. The database is going to write about
+      400k records. Assuming each is 512 bytes, that's about 200 MB, with some extra
+      for housekeeping. That should finish really quickly, in about 5 minutes at the
+      most (assuming the disk is uncontested).
+    id: '1049863011720073'
+  - created_time: '2015-12-23T01:30:41+0000'
+    from:
+      name: Hossam Dahshan
+      id: '1662257627174822'
+    message: What about creating a View and Select from it :D ?
+    id: '1049911891715185'
+  - created_time: '2015-12-23T01:38:21+0000'
+    from:
+      name: Mohamed M. Abdel Aty
+      id: '10155528337889092'
+    message: "if you need to merge them in one table \nyou can use merge (to  insert
+      if record not exists or  update if record exists  if you don't need to update
+      you can discard the record) , this will add all records into one table , then
+      you don't need to join , you can do it using cursors .\n* if the tables are
+      partitioned you, selection from partition itself  will increase the performance,
+      and make sure that  the index is local. \n\nBTW 400,000 not very large number.\nif
+      you can share your script , i can investigate with you."
+    id: '1049913395048368'
+  - created_time: '2015-12-23T09:17:00+0000'
+    from:
+      name: Hosam Aly
+      id: '1657509230977456'
+    message: If the tables are large (having many columns), then you might have better
+      luck pulling your data into temporary tables, and then applying the query to
+      those.
+    id: '1050096821696692'
+  - created_time: '2015-12-23T09:18:06+0000'
+    from:
+      name: Omar Attia
+      id: '2015042048739859'
+    message: The tables have three, four, and three columns only.
+    id: '1050097091696665'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEEwT1RneU1USTROVEExTnpVM09Ub3hORFV3T0RJek1Ua3oZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEExTURBNU56QTVNVFk1TmpZAMk5Ub3hORFV3T0RZAeU1qZAzIZD

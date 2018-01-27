@@ -1,0 +1,89 @@
+---
+message: "In my company we are responsible of about 35 applications mostly written
+  in C# and VB.net (with Microsoft SQL) we are using TFS for the source code and pretty
+  much everyone in the team is ok with it now (el 7amd lellah).\nThe problem is databases
+  aren't under any form of version control, I know this can't continue this way. I
+  am going to be the person who changes that so I'm trying to come up with the whole
+  process. I have researched few things but not sure which way to go:\n- Continue
+  using Microsoft SQL Management Studio for all the DB work and just connect it with
+  TFS and check in the change scripts.\nOR\n- Abandon the Management studio and use
+  Microsoft Visual studio (we have 2013) for the DB design, edit, and so on. And this
+  way I can use TFS to keep the DB under control. \nI'm open to all suggestions, but
+  be mindful we are really trying to keep it inside the Microsoft house.\nThank you
+  all."
+from:
+  name: Ahmed Shawky Ibrahim
+  id: '10155110527716700'
+type: status
+created_time: '2016-09-09T21:12:20+0000'
+updated_time: '2016-09-10T11:55:29+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1227690833937289/
+id: '172338516139198_1227690833937289'
+reactions:
+  data:
+  - id: '2032504700100329'
+    name: Mohammed Yassin
+    type: LIKE
+  - id: '10159902127070608'
+    name: Ahmed AboZaid
+    type: LIKE
+  - id: '10155999836938618'
+    name: Emad Mahdy
+    type: LIKE
+  - id: '10154599440254364'
+    name: Sarab Alzaman
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdNakkwTlRVNU56RXpPakUwTnpNNU1qRXlPVEE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TlRJMU5UUTBNell6T2pFME56TTBPREl5T0RRNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-09-09T23:36:31+0000'
+    from:
+      name: Abdelrahman Ghareeb
+      id: '10155827364301005'
+    message: |-
+      I'm not familiar with Microsoft's stack whatsoever so this is just a generic thought on the subject. What you have to keep in mind when dealing with database designs is how they evolve over time, so initially you have to document your data models obviously and generate scripts to create those models as a database schema, those designs go into your source control along with the migration scripts you will use to modify the database design while maintaining data integrity to minimize migration/updates time. Whichever tool you can use to achieve automated database creation and migration is the tool you should use, any extra features are a matter of taste IMHO..
+
+      Cheers
+    id: '1227796740593365'
+  - created_time: '2016-09-10T00:11:16+0000'
+    from:
+      name: Kofi Kotga
+      id: '1683289718380917'
+    message: We using Vault and had to put every script on it..i hope there are better
+      solutions
+    id: '1227815927258113'
+  - created_time: '2016-09-10T00:42:42+0000'
+    from:
+      name: Basem Mostafa
+      id: '10215138873815842'
+    message: We use flyway, basically devs create sql scripts or code to update the
+      DB and flyway manage the process of upgrading the DB structure. It keep a dedicated
+      table to track the DB version by maintaining in it which sql files or code has
+      been applied to the DB
+    id: '1227830010590038'
+  - created_time: '2016-09-10T10:36:32+0000'
+    from:
+      name: Hossam Barakat
+      id: '10159845140160623'
+    message: There are a lot of tools to put DB under source control. I usually prefer
+      using DBUp (https://dbup.github.io) as a first step to existing database. DBUp
+      could run normal sql scripts that your team would usually write the scripts
+      could be embedded into you project
+    id: '1228121813894191'
+  - created_time: '2016-09-10T11:02:54+0000'
+    from:
+      name: سامح دعبس
+      id: '2022490591345439'
+    message: |-
+      SQL Server DB project is awesome.
+      you can start the project from an existing db to generate all schema scripts, then publish these scripts to your local sql server.
+      To sync changes between source control and your local db, use sql compare in visaul studio, it will enable you to sync changes in both directions.
+      You can use sql compare as well to detect changes between the production db and your local/source control version.
+    id: '1228133270559712'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl5TnpjNU5qYzBNRFU1TXpNMk5Ub3hORGN6TkRZAME1Ua3gZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl5T0RFek16STNNRFUxT1RjeE1qb3hORGN6TlRBMU16YzEZD

@@ -1,0 +1,80 @@
+---
+message: |-
+  If we have a project written in asp.net web forms and we want to enhance code and make it more modular and easy to scale.
+  Should we continue with web forms or it would be better if we converted it into MVC. And how easy will it be to developers to work with MVC if they don't have experience with it before?
+from:
+  name: Amr Elsayed
+  id: '1973924972623528'
+type: status
+created_time: '2017-04-19T17:29:32+0000'
+updated_time: '2017-04-21T19:41:03+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1459003977472639/
+id: '172338516139198_1459003977472639'
+comments:
+  data:
+  - created_time: '2017-04-19T19:01:11+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      If you've never used any MVC framework before (all modern backend frameworks), it will be a big step for you, but it's a necessary step.
+      Instead of thinking in terms of pages, you think in terms of action methods, these could return HTML (from pages) or JSON or some bytes for a PNG or even plain text.
+      I'm not sure how can you make a modular design with WebForms, but MVC will encourage you to be more modular in general.
+    id: '1459082034131500'
+  - created_time: '2017-04-19T21:39:52+0000'
+    from:
+      name: Amr Magdy
+      id: '2034540860152218'
+    message: I would go with the MVC as Hassan mentioned; however, if you maintain
+      a huge project and a desire for rapid development, the reason that some folks
+      previously used to choose web-forms over MVC, you might use an N-tier architecture
+      to clean things up for easy scaling. It's also worth mentioning that .net core
+      currently does not support Web-Forms, and a lot of the modern web frameworks
+      are MVC by default.
+    id: '1459202090786161'
+  - created_time: '2017-04-19T22:15:27+0000'
+    from:
+      name: سامح دعبس
+      id: '2022490591345439'
+    message: F
+    id: '1459222994117404'
+  - created_time: '2017-04-19T22:34:06+0000'
+    from:
+      name: Ibraheem Osama
+      id: '10155206310513093'
+    message: |-
+      You can have webpages inside mvc project and vice versa. The change will be big but you need to switch at least to not be out dated from the market as a developer.
+      Start by converting a single page to mvc (controller/views) inside the same project to assess the difference.
+      Web pages is little bit easier than mvc especially in ajax, you have to think about how will you implement ajax in mvc, there are multiple options like api/ui framework like knockout.js for simplicity or ajax form with partial views (everytime you do request you read the partial view again and replace the required section in html) similar to what update panel does behind scene.
+
+      I'm a big fan of Asp.net MVC,  once you're mastering it you will never think about webforms because of the amount of control you have on your application beside being the future.
+    id: '1459232340783136'
+  - created_time: '2017-04-20T06:41:27+0000'
+    from:
+      name: Amr Elsayed
+      id: '1973924972623528'
+    message: Could someone suggest a good mvc course to start with
+    id: '1459580087415028'
+  - created_time: '2017-04-20T06:42:52+0000'
+    from:
+      name: Haitham Shaddad
+      id: '1591171607636188'
+    message: "الموضوع يعتمد على المشروع نفسه \nيعني لو حاجه موجوده ومفيش عليها تعديلات
+      والدنيا مستقره يبقى سيبه على حاله \nلو في مشاكل ومحتاج تعدل كل شويه يبقى ممكن
+      تفكر انك تنقل ل mvc بس لازم تعمل حساب الناس اللي هشتغل فيه عشان لو معندهمش خبره
+      يبقى هيعكو ويعملو الحاجات غلط وهتوصل لنفس المرحله برده وأنصحك لو هتحول يبقى
+      خليك asp. NET core"
+    id: '1459580680748302'
+  - created_time: '2017-04-21T19:40:55+0000'
+    from:
+      name: سامح دعبس
+      id: '2022490591345439'
+    message: |-
+      السؤال ده حلو قوي برضو، لو ربنا يسر شوية وقت هاجاوبك بالتفصيل
+      كنت كتبت المقالة دي من فترة، لها علاقة بالموضوع، يا رب تنفعك، و إن شاء الله أرجع تاني بتفاصيل أكثر
+      http://samehdeabes.blogspot.com/2016/02/if-working-it-is-reinvent-it-you.html?m=1
+    id: '1461355927237444'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFExT1RBNE1qQXpOREV6TVRVd01Eb3hORGt5TmpJNE5EY3gZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEyTVRNMU5Ua3lOekl6TnpRME5Eb3hORGt5T0RBek5qWXgZD

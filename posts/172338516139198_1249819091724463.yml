@@ -1,0 +1,237 @@
+---
+message: How is that even possible, guys?
+link: https://www.facebook.com/He.She.Ksa/photos/a.564892933666893.1073741829.564376393718547/675874952568690/?type=3
+from:
+  name: Rafael Youakeem
+  id: '10155364957371909'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/14572983_675874952568690_6203026105486407546_n.jpg?oh=2dae326c4a4248144a856f8bc8fffba5&oe=5B1CC761
+created_time: '2016-10-05T05:41:15+0000'
+updated_time: '2016-10-07T11:11:51+0000'
+name: هو وهي في السعودية
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1249819091724463/
+shares:
+  count: 1
+id: '172338516139198_1249819091724463'
+reactions:
+  data:
+  - id: '1979848165376268'
+    name: مصطفى يحيي
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdOVE16TVRFMk5UZAzVPakUwTnpVMk5qWTROamc2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXdOVE16TVRFMk5UZAzVPakUwTnpVMk5qWTROamc2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-10-05T05:43:03+0000'
+    from:
+      name: Aboubakr Gamal
+      id: '10215686755383013'
+    message: "It is possible  with photoshop \U0001F602"
+    id: '1249820535057652'
+  - created_time: '2016-10-05T05:50:12+0000'
+    from:
+      name: Mohamed Ahmed
+      id: '385696705226073'
+    message: لو حقيقى هيكون فى الغالب رقم من الارقام الى فى جروب بلغ  او الحكومة مشترية
+      decryption tool kit  ولو ان end to end encryption صعب الموضوع ده جامد بس مش
+      كل الناس مشغلاه
+    id: '1249823201724052'
+  - created_time: '2016-10-05T05:54:52+0000'
+    from:
+      name: Ahmad Hisham
+      id: '10159889607765058'
+    message: Everything is possible my dear, the Internet system there is governed
+      by Proxy Servers since it was available to the public, it is only part of the
+      evolution of the tools to allow for Man-in-the-Middle monitoring and interception
+      for messaging apps content.
+    id: '1249826141723758'
+  - created_time: '2016-10-05T05:57:21+0000'
+    from:
+      name: Rafael Youakeem
+      id: '10155364957371909'
+    message: But I mean how could they get the content of Whatsapp messages? All they
+      should get is encrypted data!
+    id: '1249827035057002'
+  - created_time: '2016-10-05T06:00:34+0000'
+    from:
+      name: Ahmad Hisham
+      id: '10159889607765058'
+    message: https://www.bluecoat.com/products-and-solutions/encrypted-traffic-management
+    id: '1249828375056868'
+  - created_time: '2016-10-05T06:03:47+0000'
+    from:
+      name: Ahmad Hisham
+      id: '10159889607765058'
+    message: |-
+      This is the Blue Coat Encrypted Traffic Management appliance, targeted to Medium Businesses and Enterprises, just think that the same company that now owns Blue Coat "Symantec" is the same one owning the most important Certificate Authority in the world "VeriSign" and has internal access to the private keys of the Root Certificates to most of the sites on the Internet.
+      So just think if Blue Coat (or similar company) have a super-sized super-fat super-confidential contract with a government to supply ISP-sized equipment to do exactly what you are seeing, it is not even technically difficult anymore.
+    id: '1249829398390099'
+  - created_time: '2016-10-05T09:21:04+0000'
+    from:
+      name: Rafael Youakeem
+      id: '10155364957371909'
+    message: If there are products that can break encryption this easy, I guess there
+      is no purpose to encrypt anymore!
+    id: '1249918785047827'
+  - created_time: '2016-10-05T09:38:28+0000'
+    from:
+      name: Ahmad Hisham
+      id: '10159889607765058'
+    message: Nope, these tools are-governments sized, but governments are not the
+      only threat that needs encryption, and this is not related to all kinds of encryption
+      (for example, if you want to stay Anonymous in the Internet, TOR is still very
+      usable (not bullet-proof, but mostly good enough), if you need files encryption,
+      VeraCrypt (one of the forks of TrueCrypt) is highly recommended, or use 7-Zip
+      and just make password-encrypted .7z archives.
+    id: '1249925778380461'
+  - created_time: '2016-10-05T09:42:16+0000'
+    from:
+      name: Ahmad Hisham
+      id: '10159889607765058'
+    message: And you can use a VPN tool to circumvent such Man-in-the-Middle interception,
+      I don't recommend a commercial offer here, get yourself a small Linux server
+      using a Cloud service and setup your own VPN using generated certificates (and
+      don't transfer it using emails or ftp, use ssh or a normal view and copy and
+      paste from the terminal screen.
+    id: '1249931448379894'
+  - created_time: '2016-10-05T10:33:20+0000'
+    from:
+      name: Abdelrhman H. Yassen
+      id: '10215112672708168'
+    message: ممكن تكون اشاعة عشان الناس تخاف ومتتكلمش
+    id: '1249960125043693'
+  - created_time: '2016-10-05T18:08:36+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      most probably a prank pulled by someone who was able to get a list of people's names and their phone numbers.
+      As far as I know, to spy on https traffic you need a trusted certificate of some sort, and I think even that can be detected if you do certificate pinning.
+      For the end-to-end encryption in WhatsApp though you need to intercept the initial key exchange, and even that can be detected by meeting your friend in-person to see if the keys match. I've read however that someone could change the key mid-conversation and WhatsApp wouldn't tell you by default, you can however go to Settings > Account > Security to make WhatsApp notify you when such a thing happens.
+    id: '1250240515015654'
+  - created_time: '2016-10-06T10:23:03+0000'
+    from:
+      name: هشام إبراهيم
+      id: '10214782719499032'
+    message: |-
+      I assume it's a prank, end to end encryption so far proved strong ability of defeating any trials to intercept message between both sides, even from the ISP itself.
+      https://en.wikipedia.org/wiki/End-to-end_encryption
+    id: '1250761428296896'
+  - created_time: '2016-10-06T10:54:01+0000'
+    from:
+      name: Mohamed Safwat
+      id: '1593170864069591'
+    message: Mahmoud Hard Dab Our
+    id: '1250774554962250'
+  - created_time: '2016-10-06T11:05:56+0000'
+    from:
+      name: Ahmad Hisham
+      id: '10159889607765058'
+    message: |-
+      On the governments side, especially the ones allied with USA, it is not that well-proven, just remember PRISM
+      https://en.wikipedia.org/wiki/PRISM_(surveillance_program)
+    id: '1250780404961665'
+  - created_time: '2016-10-06T12:06:59+0000'
+    from:
+      name: Anas Emad
+      id: '10155138037322478'
+    message: https://www.wikiwand.com/en/Deep_packet_inspection
+    id: '1250814868291552'
+  - created_time: '2016-10-06T12:07:30+0000'
+    from:
+      name: Anas Emad
+      id: '10155138037322478'
+    message: https://www.google.com/search?q=dpi+security+wikipedia&oq=dpi+security+wikipedia&aqs=chrome..69i57.5798j0j7&sourceid=chrome&ie=UTF-8#q=dpi+security+saudi+arabia
+    id: '1250815031624869'
+  - created_time: '2016-10-06T16:59:24+0000'
+    from:
+      name: Hisham Fangary
+      id: '10156660518155839'
+    message: "Its definitley a prank. \n1. Whatsapp and snapchat use end to end encryption,
+      and these are notoriously difficult if not impossible to decrypt using man in
+      the middle.\n2. One of the messages misspelled Whatsapp (Whatsabb). I'd like
+      to think if you have a state of the art decryption operation, they could at
+      least spell whatsapp properly."
+    id: '1250985668274472'
+  - created_time: '2016-10-07T11:11:49+0000'
+    from:
+      name: Asmaa Hassan Ahmed
+      id: '10155441522952569'
+    message: Ahmad Adel Hassan
+    id: '1251531118219927'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkwT1RneU1EVXpOVEExTnpZAMU1qb3hORGMxTmpRMk1UZA3oZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkxTVRVek1URXhPREl4T1RreU56b3hORGMxT0RNNE56QTUZD
+attachments:
+  data:
+  - subattachments:
+      data:
+      - media:
+          image:
+            height: 720
+            src: https://scontent.xx.fbcdn.net/v/t1.0-9/14572983_675874952568690_6203026105486407546_n.jpg?oh=5094a500cdce72dbaac006e527fe8e1d&oe=5ADCD0FC
+            width: 640
+        target:
+          id: '675874952568690'
+          url: https://www.facebook.com/He.She.Ksa/photos/a.564892933666893.1073741829.564376393718547/675874952568690/?type=3
+        type: photo
+        url: https://www.facebook.com/He.She.Ksa/photos/a.564892933666893.1073741829.564376393718547/675874952568690/?type=3
+      - media:
+          image:
+            height: 720
+            src: https://scontent.xx.fbcdn.net/v/t1.0-9/14494726_675874999235352_5240793452321249090_n.jpg?oh=e5dee91b7bfd9875afca5e12d4bd33bb&oe=5AE0077F
+            width: 404
+        target:
+          id: '675874999235352'
+          url: https://www.facebook.com/He.She.Ksa/photos/a.564892933666893.1073741829.564376393718547/675874999235352/?type=3
+        type: photo
+        url: https://www.facebook.com/He.She.Ksa/photos/a.564892933666893.1073741829.564376393718547/675874999235352/?type=3
+      - media:
+          image:
+            height: 720
+            src: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/14446142_675875025902016_3418561888696574252_n.jpg?oh=34e49c032f46b3cfa604f9d2a3654f9a&oe=5AE3BC39
+            width: 405
+        target:
+          id: '675875025902016'
+          url: https://www.facebook.com/He.She.Ksa/photos/a.564892933666893.1073741829.564376393718547/675875025902016/?type=3
+        type: photo
+        url: https://www.facebook.com/He.She.Ksa/photos/a.564892933666893.1073741829.564376393718547/675875025902016/?type=3
+      - media:
+          image:
+            height: 640
+            src: https://scontent.xx.fbcdn.net/v/t1.0-9/14572167_675875042568681_962705148582822857_n.jpg?oh=cf8c344e93fba92e699253e59da01e52&oe=5AECC419
+            width: 480
+        target:
+          id: '675875042568681'
+          url: https://www.facebook.com/He.She.Ksa/photos/a.564892933666893.1073741829.564376393718547/675875042568681/?type=3
+        type: photo
+        url: https://www.facebook.com/He.She.Ksa/photos/a.564892933666893.1073741829.564376393718547/675875042568681/?type=3
+      - media:
+          image:
+            height: 720
+            src: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/14572812_675875082568677_2643164106375167366_n.jpg?oh=be598c18d707bd2f7d69f1d3a070f6b5&oe=5B213108
+            width: 405
+        target:
+          id: '675875082568677'
+          url: https://www.facebook.com/He.She.Ksa/photos/a.564892933666893.1073741829.564376393718547/675875082568677/?type=3
+        type: photo
+        url: https://www.facebook.com/He.She.Ksa/photos/a.564892933666893.1073741829.564376393718547/675875082568677/?type=3
+      - media:
+          image:
+            height: 720
+            src: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/14523129_675875102568675_6181893309087902223_n.jpg?oh=506f4d0d091d8a044858327451649205&oe=5AE09F6A
+            width: 403
+        target:
+          id: '675875102568675'
+          url: https://www.facebook.com/He.She.Ksa/photos/a.564892933666893.1073741829.564376393718547/675875102568675/?type=3
+        type: photo
+        url: https://www.facebook.com/He.She.Ksa/photos/a.564892933666893.1073741829.564376393718547/675875102568675/?type=3
+    target:
+      id: '675875115902007'
+      url: https://www.facebook.com/He.She.Ksa/posts/675875115902007
+    title: Photos from ‎هو وهي في السعودية‎'s post
+    type: album
+    url: https://www.facebook.com/He.She.Ksa/posts/675875115902007

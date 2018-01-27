@@ -1,0 +1,15 @@
+---
+message: "Hello, If anyone has some experience with Mongodb \nI have 2 user and foo.
+  \nwhen I create a new foo it gets a user id.\nI end up with many foos belonging
+  to the same user, I need to find a way to keep only one foo per user \"keeping the
+  2 collections convention\".\n\nI thought of creating a cron job to find the subtraction
+  of the two sets but I think I wrote a really slow query...\n\nCan anyone help me
+  for reaching a better way ?"
+from:
+  name: Muhammad Negm
+  id: '10215093583796418'
+type: status
+created_time: '2015-02-13T13:34:40+0000'
+updated_time: '2015-02-13T15:35:15+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/894654330574276/
+id: '172338516139198_894654330574276'

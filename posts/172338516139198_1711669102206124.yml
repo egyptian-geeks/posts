@@ -1,0 +1,127 @@
+---
+message: |-
+  هل فيه طريقة يمكن تصورها تقدر تحط علامة مائية في الفيديو في مواقع الاستريمينج بحيث تكون العلامة المائية دي متغيرة بتغير اسم المستخدم اللي مسجل دخول يشوف الكورس.
+  و لو قام مثلا بتنزيل الفيديو و إعادة رفعه خارج المنصة فاسم المستخدم الخاص بيه يظهر و يكون تحت المساءلة القانونية ساعتها؟
+  في تصوري الموضوع شبه مستحيل، لأني متصور إن ملفات الفيديو ثابتة (وحدة واحدة)، و أي تعديل مستمر بطول الفيديو هيلزمنا بإنشاء ملف جديد تماما و دا في ذاته عبء كبير على التخزين.
+from:
+  name: Mohamad Ibn Osama
+  id: '10215443322775048'
+type: status
+created_time: '2018-01-04T11:28:07+0000'
+updated_time: '2018-01-04T19:35:50+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1711669102206124/
+id: '172338516139198_1711669102206124'
+reactions:
+  data:
+  - id: '10160030835075061'
+    name: Fady Morris Milad
+    type: LIKE
+  - id: '1824520801181678'
+    name: Hamad Isht
+    type: LIKE
+  - id: '10156191099748000'
+    name: Shady Mohamed Sherif
+    type: LIKE
+  - id: '2101901136700019'
+    name: Islam Mansour
+    type: LIKE
+  - id: '10208601723881059'
+    name: Ezz Eldeen
+    type: LIKE
+  - id: '1999765416908747'
+    name: Ahmed Khalifa
+    type: LIKE
+  - id: '2281368635210283'
+    name: Moataz Edrees
+    type: LIKE
+  - id: '1615436418535535'
+    name: Sabry ALzahar
+    type: LIKE
+  paging:
+    cursors:
+      before: T0RZANE5qZAzFNRFl3T2pFMU1UVXhNVFUyTlRBNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQXlNRGMxTnpZAeE9EVTFPakUxTVRVd056QXpOelk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2018-01-04T11:51:46+0000'
+    from:
+      name: Hamada Samir
+      id: '2273091446050191'
+    message: هي العملية في حد ذاتها كامكانية تنفيذ وارده جدا لكن زي ماقولت العبئ علي
+      موارد السيرفر بشكل عام مش التخزين بس هايبقي كبير
+    id: '1711686168871084'
+  - created_time: '2018-01-04T12:03:06+0000'
+    from:
+      name: Ibrahim Hussein
+      id: '10155686945529760'
+    message: ممكن يكون التحميل بيتعمل عن طريق background job بتعمل معالجة للفيديو
+      بحيث يتعمل نسخة عليها اسم المستخدم ولما يتم الانتهاء يتبعتله نوتيفيكيشن ورابط
+      تحميل فعال لمدة 24 ساعة مثلا بعدها بيتحذف الملف. دي يحل مشكلة التخزين والمشكلة
+      الأكبر اللي هي صعوبة توليد فيديو بالشكل ده on-demand لما المستخدم يضغط على رابط
+      التحميل. في نفس الوقت يكون الستريمينج بيعرض الفيديو الأصلي مع اسم المستخدم كannotation
+      على الفيديو، بحيث يفضل الفيديو الأصلي زي ما هو
+    id: '1711696078870093'
+  - created_time: '2018-01-04T12:16:53+0000'
+    from:
+      name: Galal Atef
+      id: '10214124238595185'
+    message: في طرق أذكى وافضل لل watermarking بتستخدمها شركات تأجير ال dvds
+    id: '1711706062202428'
+  - created_time: '2018-01-04T12:25:38+0000'
+    from:
+      name: Mohamed Ahmed
+      id: '385696705226073'
+    message: التكلفه بس مش اكتر الباقي كله سهل . ولو استخدمت حاجة زى امازون هتعملها
+      في ساعتين ،تلاته . الفلوس و الجدوى
+    id: '1711712315535136'
+  - created_time: '2018-01-04T12:54:52+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: "مش فاهم , بس فيه حلول كتير \n1- اولا ممكن طبعا في خلال الستريمنج تضيف
+      اي اوفرلاي على الفريمز \n2- ممكن تضيف فريم في النص بطريقه عشوائيه \n\nالفكره
+      ان مهما كانت الوسيله هتقدر تتشال بردو زي ما تم اضافتها , ولا تقصد انها على الاقل
+      \ هتقلل ؟"
+    id: '1711733442199690'
+  - created_time: '2018-01-04T13:07:29+0000'
+    from:
+      name: Muhammad Sherbeeny
+      id: '10159810258355527'
+    message: "دايما هيحاول كل مستخدم انه يستخدم برامج اخرى عشان يغطي على اسمه او الكود
+      بتاعه زي ما بنشوف في سرقة قنوات ماتشات الكورة.\n\nهل ممكن يكون الحل الأفضل هو
+      اخفاء كود اليوزر في بعض ال\nFrames\nالعشوائية؟\n\nيعني لو فيديو مدته ساعة مثلا..
+      بمعدل ٢٤ فريم في الثانية... يتحط كود اليوزر في مكان صغير كده بشكل عشوائي في
+      \n10 frames\nفي توقيتات عشوائية على مدار الفيلم كله\n\nيعني الكود بيظهر لمدة
+      جزء من الثانية\nفي توقيتات او اماكن غير معروفة\n\nوبالتالي صعب على المستخدمين
+      انهم يعرفوا يغطوا على الكود بتاعهم لانهم غالبا مايعرفوش لا مكانه ولا توقيته.\nوصعب
+      يدوروا على ١٠ فريمات موجودين في ٢٤ * ٦٠ * ٦٠ فريم."
+    id: '1711742735532094'
+  - created_time: '2018-01-04T13:56:07+0000'
+    from:
+      name: Mohamed Aboali
+      id: '10156055860969104'
+    message: "DRM \n حلت كل ده من زمان"
+    id: '1711782425528125'
+  - created_time: '2018-01-04T14:50:23+0000'
+    from:
+      name: Moaaz Taha
+      id: '182690789148803'
+    message: طب لو اليوزر عامل لوجين ب يوزرنيم لا يدل علي شخصيته .. مثلا user,person,admin
+      .. هيبقي اللي انت عملته ده كله عالفاضي
+    id: '1711831788856522'
+  - created_time: '2018-01-04T17:53:36+0000'
+    from:
+      name: Mohamed Tarek
+      id: '10208803437001649'
+    message: Abanoub Moner Ahmed AlSharkawy
+    id: '1711985755507792'
+  - created_time: '2018-01-04T19:35:47+0000'
+    from:
+      name: Mohammad Alaggan
+      id: '10154985539677085'
+    message: Traitor Tracing Schemes
+    id: '1712065248833176'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN4TVRZANE5qRTJPRGczTVRBNE5Eb3hOVEUxTURZAMk56QTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN4TWpBMk5USTBPRGd6TXpFM05qb3hOVEUxTURrME5UUTMZD

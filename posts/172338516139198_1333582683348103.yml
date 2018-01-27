@@ -1,0 +1,43 @@
+---
+message: "I require help representing Prayer names (Asr, Magrib .. etc) in ipa or
+  x-sampa phonetic alphabet. \n\nI'm working on a personal project, An Amazon Alexa
+  skill to tell me the prayer times, and i only get data from the Local mosque for
+  now. \n\nI have a problem with making Alexa pronounce the prayer names correctly.
+  The only way to do it in a decent way is by using SSML (https://en.wikipedia.org/wiki/Speech_Synthesis_Markup_Language),
+  (https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/speech-synthesis-markup-language-ssml-reference)
+  using the ipa (https://en.wikipedia.org/wiki/International_Phonetic_Alphabet) or
+  x-sampa (https://en.wikipedia.org/wiki/X-SAMPA) alphabet. \n\nMy problems is that
+  i have no idea how to pronounce the names correctly using any of those alphabets,
+  and i haven't found any resource for that online. \n\nI'd appreciate any help, specially
+  if any one has experience with phonetic alphabets."
+from:
+  name: Abdallah Hodieb
+  id: '10155961552416083'
+type: status
+created_time: '2016-12-21T13:37:21+0000'
+updated_time: '2016-12-21T17:03:46+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1333582683348103/
+id: '172338516139198_1333582683348103'
+reactions:
+  data:
+  - id: '1629690233758127'
+    name: Omar Mohsen
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhOVEUwT1RjeE1qYzJPakUwT0RJek5EYzBPVE02TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXhOVEUwT1RjeE1qYzJPakUwT0RJek5EYzBPVE02TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-12-21T17:03:41+0000'
+    from:
+      name: Hosam Aly
+      id: '1657509230977456'
+    message: |-
+      Wikipedia articles usually show how to pronounce a word. Check this as an example:
+      https://en.m.wikipedia.org/wiki/Zuhr_prayer
+    id: '1333748673331504'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE16TXpjME9EWTNNek16TVRVd05Eb3hORGd5TXpNNU9ESXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE16TXpjME9EWTNNek16TVRVd05Eb3hORGd5TXpNNU9ESXoZD

@@ -1,0 +1,44 @@
+---
+message: "I'm having a trouble connecting my arduino uno to the ethernet using ethernet
+  shield.\nThe situation is as follows: when i connect my arduino to the ethernet
+  in a certain home network it works fine, when i try it in another home network\nit
+  fails ! for example i try the built-in example DhcpChatServer and it's always stuck
+  at \"Failed to configure Ethernet using DHCP\".\nBasically the laptop,arduino,ethernet
+  shield and all the cables are the same in the two home networks. The only thing
+  that's different is the router itself\nthat i connect my ethernet cable to.\n\nSo
+  is there a specific setting in the router that i should check?\nor is it a compatibility
+  issue (ethernet shields are not compatible with some routers)\nor maybe the shield
+  is faulty?\n\nwhat i have already checked :\n1) No sd card is in the sd slot\n2)
+  DHCP server is enabled in both home network's routers\n3) The 3 LEDs of the ethernet
+  on the shield are on correctly \n4) when i tried the static ip (Ethernet.begin(mac,
+  ip)) it gives out the correct Ethernet.localIP() but when i enter it in the browser
+  it doesn't work"
+from:
+  name: Hadeel Tantawy
+  id: '10215919233763380'
+type: status
+created_time: '2017-03-16T18:10:04+0000'
+updated_time: '2017-03-16T18:32:39+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1422437107795993/
+id: '172338516139198_1422437107795993'
+reactions:
+  data:
+  - id: '10156115350739764'
+    name: Mahmoud Tantawy
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRFME5UYzVOell6T2pFME9EazJPVEkxTlRBNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRFME5UYzVOell6T2pFME9EazJPVEkxTlRBNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-03-16T18:27:34+0000'
+    from:
+      name: Mahmoud Hossam
+      id: '1360912124012585'
+    message: Have you tried asking there? http://arduino.stackexchange.com/
+    id: '1422454761127561'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF5TWpRMU5EYzJNVEV5TnpVMk1Ub3hORGc1TmpnNE9EVTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF5TWpRMU5EYzJNVEV5TnpVMk1Ub3hORGc1TmpnNE9EVTIZD

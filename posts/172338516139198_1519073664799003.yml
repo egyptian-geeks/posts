@@ -1,0 +1,70 @@
+---
+message: "دلوقتي لو عندي web application \nال backend عملتها web apis \nو ال front
+  end angular \nعايزة ارفع السايت على app harbor \nفهب هحتاج ارفع الاتنين على كل واحد
+  سايت مختلف و لا ارفعهم الاتنين نفس السايت ؟"
+from:
+  name: Sanaa Afifi
+  id: '2184295838464775'
+type: status
+created_time: '2017-06-17T21:55:48+0000'
+updated_time: '2017-06-21T18:07:10+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1519073664799003/
+id: '172338516139198_1519073664799003'
+reactions:
+  data:
+  - id: '934408920094293'
+    name: Muhammad Ahmed Fares
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTFOelUxT0RBME16VTJPakUwT1RjM05ERTNPVEU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTFOelUxT0RBME16VTJPakUwT1RjM05ERTNPVEU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-06-17T22:17:44+0000'
+    from:
+      name: Ahmed Abdo
+      id: '10155432639833282'
+    message: "make sub domain for API \nand host the site in the main domain normally"
+    id: '1519093048130398'
+  - created_time: '2017-06-18T12:46:18+0000'
+    from:
+      name: Haitham Shaddad
+      id: '1591171607636188'
+    message: Make sure to enable CORS and test it if you will host each one in its
+      own site
+    id: '1519654374740932'
+  - created_time: '2017-06-18T20:32:26+0000'
+    from:
+      name: Mohamed El Shaer
+      id: '1623854234340161'
+    message: "it is totally up to you there is no limitations, you can use the same
+      domain with a sub folder, create a sub domain or even have a totally different
+      sub domain.\n\nFor me I used to have the apis in the same domain with a /api/
+      prefix \U0001F644"
+    id: '1520001814706188'
+  - created_time: '2017-06-18T22:35:57+0000'
+    from:
+      name: Eslam Mostafa
+      id: '1575768239208294'
+    message: i don't know about app harbor, but if you have nginx, you can host both
+      on the same server, using nginx as a reverse proxy for the backend apis
+    id: '1520081661364870'
+  - created_time: '2017-06-20T20:36:02+0000'
+    from:
+      name: Sanaa Afifi
+      id: '2184295838464775'
+    message: "Tb ana mst5dma EF code first w 3mlt migration files , I have 2 files
+      , wa7ed deployed w l db created with l tables \nL tany for identity by_inherit
+      mn identityDbContext , l tables msh created , a3ml a"
+    id: '1521966507843052'
+  - created_time: '2017-06-21T17:57:53+0000'
+    from:
+      name: Hesham Adel
+      id: '798912850310002'
+    message: it depends on what you need but most of the time it's one server ....
+    id: '1522851591087877'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV4T1RBNU16QTBPREV6TURNNU9Eb3hORGszTnpNM09EWTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV5TWpnMU1UVTVNVEE0TnpnM056b3hORGs0TURZAM09EY3oZD

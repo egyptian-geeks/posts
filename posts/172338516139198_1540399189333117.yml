@@ -1,0 +1,101 @@
+---
+message: |+
+  في الــOO اللي أعرفه بــ model الــ behavior بتاع الــ Real world Object فبيكون عندنا classes بتــ model الــ behavior بتاع الــ Object ، بيكون فيها الــ methods اللي هيه المقابل للــ behavior الفلاني.
+
+  لما نيجي للــ MVC الــ model المفروض يكون مسؤول عن الــ data هو اللي بيجيب الــ data ، هل بقى هو كمان اللي بيكون كأنه class عادي لو بنستخدم الأسلوب العادي في الــ OO ( نعمل ORM و منه نطلع class diagram و الــ classes يكون فيها الـ Methods اللي بتــ model الــ behavior بتاع الــ Object) ؟
+
+  ولا بتكون الــ method في الــ controller و هيه بتستخدم الــ model عشان تجيب الــ data ؟
+
+  ولا بيكون فيه Layer تاني ( كأنه الــ class diagram العادي) و هو اللي حيستخدم الــ model عشان يجيب الـ data و الـ logic حيكون فيه و الــ controller  دوره إنه يظبط شكل الــdata النهائي عشان تتبعت للــ view ؟
+
+link: https://stackoverflow.com/q/13951445/5175946
+from:
+  name: الراغب في العلم
+  id: '10156226664785406'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQBicEnZEnV912SL&w=130&h=130&url=https%3A%2F%2Fcdn.sstatic.net%2FSites%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded&cfs=1&_nc_hash=AQDvsiX7ONHDf146
+created_time: '2017-07-07T19:05:16+0000'
+updated_time: '2017-07-09T16:19:10+0000'
+name: 'Yes or no: Should models in MVC contain application logic?'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1540399189333117/
+shares:
+  count: 3
+id: '172338516139198_1540399189333117'
+reactions:
+  data:
+  - id: '10156087054039146'
+    name: Belal Mohammed
+    type: LIKE
+  - id: '1620778754625427'
+    name: Sefo Noaman
+    type: LIKE
+  - id: '10215155574907910'
+    name: Mohamed H. Safey
+    type: LIKE
+  - id: '2096764887006623'
+    name: Abdalla Elnaggar
+    type: LIKE
+  - id: '10155432639833282'
+    name: Ahmed Abdo
+    type: LIKE
+  - id: '1928384107425504'
+    name: Ahmed Hashem
+    type: LIKE
+  - id: '10212822724180152'
+    name: SA Mir
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpFek16UTBNVFExT2pFME9UazFNVFE1TURBNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRFMU1EQTJPVE0yTkRveE5EazVORFUwTXprNE9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2017-07-07T19:32:05+0000'
+    from:
+      name: Ahmed Hashem
+      id: '1928384107425504'
+    message: |-
+      I think this will be useful https://martinfowler.com/eaaDev/uiArchs.htm
+
+      https://stackoverflow.com/questions/2056/what-are-mvp-and-mvc-and-what-is-the-difference
+    id: '1540419705997732'
+  - created_time: '2017-07-07T19:32:53+0000'
+    from:
+      name: Mohamed Abdelghani
+      id: '1854642424546313'
+    message: MVC represents only ui layer, controller should  has no logic, it only
+      maps url to action method, by model in mvc we don't mean business entity (usually),
+      it 's a bridge that connects view and  controller. ( sometimes we call it a
+      view model). in OO object should contains its data and behavior and hence your
+      business entity should contains data and behavior. for design reasons behavior
+      is delegated to separate layers.
+    id: '1540420869330949'
+  - created_time: '2017-07-09T16:19:06+0000'
+    from:
+      name: Ibrahim Zaki
+      id: '10157017423792738'
+    message: |-
+      There is 2 Design patterns in this
+      -- Entity manager based ORM pattern which say no you shouldn't put the logic in the model instead there should be a Dao and business layer components
+      --second is Active Record Pattern based ORM  it say yes you should do the logic in the model
+      They act the same almost  and its about a sense , and there is a lot of detailed comparisons about the 2 ways  everywhere
+    id: '1542292815810421'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUwTURReE9UY3dOVGs1Tnpjek1qb3hORGs1TkRVMU9USTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUwTWpJNU1qZA3hOVGd4TURReU1Ub3hORGs1TmpFM01UUTIZD
+attachments:
+  data:
+  - description: Yesterday I had some discussion with one of our developers regarding
+      MVC, more precisely about the role of the model component in MVC. In my opinion,
+      a model should just contain properties and alm...
+    media:
+      image:
+        height: 316
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAMFLWvXjUlRuS7&w=720&h=720&url=https%3A%2F%2Fcdn.sstatic.net%2FSites%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded&cfs=1&_nc_hash=AQBDUhzXdwnk-uG7
+        width: 316
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fstackoverflow.com%2Fq%2F13951445%2F5175946&h=ATMMNaJ6dDecZix2hyYpWVcPBn1hlBGOouJb3t_63V1nUSRVmamXCFg2yK2BygwQoa0buGMyzSesVQozsApULDtHatq6OlZ9bfk5&s=1&enc=AZNSmeuS2wbtcMhPEp5rDC5Em44q8K4MjBFNIJLD9IzerErNr4YA1tM16o8tbxpfDp0TIYfS4z5t-fZKrbxtxBmX
+    title: 'Yes or no: Should models in MVC contain application logic?'
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fstackoverflow.com%2Fq%2F13951445%2F5175946&h=ATMMNaJ6dDecZix2hyYpWVcPBn1hlBGOouJb3t_63V1nUSRVmamXCFg2yK2BygwQoa0buGMyzSesVQozsApULDtHatq6OlZ9bfk5&s=1&enc=AZNSmeuS2wbtcMhPEp5rDC5Em44q8K4MjBFNIJLD9IzerErNr4YA1tM16o8tbxpfDp0TIYfS4z5t-fZKrbxtxBmX

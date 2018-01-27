@@ -1,0 +1,85 @@
+---
+message: عاوز شرح كويس للــ Amortized analysis وخاصة للــ bankers mathod والـ physicist
+  method لو حد يعرف رابط فيه شرح  كويس للموضوع لان مش مستوعبهم أوي ... وهل هي مواضيع
+  مهمه إني أقف عندها ولا ماضيعش وقت فيها  ؟ّ
+from:
+  name: Khaled Elshamy
+  id: '1702183909837742'
+type: status
+created_time: '2017-07-07T23:59:16+0000'
+updated_time: '2017-07-08T16:32:47+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1540610192645350/
+id: '172338516139198_1540610192645350'
+reactions:
+  data:
+  - id: '10216248300579505'
+    name: Muhammad Nagy
+    type: LIKE
+  - id: '1845903015451864'
+    name: Mohamed Magdy
+    type: LIKE
+  - id: '10215626626127168'
+    name: Khaled M. Diab
+    type: LIKE
+  - id: '595477687454076'
+    name: Saher Abdelaziz
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRJeE1qVTRORE0xTlRveE5EazVOVGt4TWpNeE9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBd01EQTVOelUxTlRBeE1UWTJPakUwT1RrME9EVXhORGc2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-07-08T00:33:31+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: |-
+      هو انك تبقى عارف يعني ايه Amortized Cost ده شيء مهم، بس الطرق المختلفة لحسابه مش مهمة قوي غير لو انت بتدرس الموضوع اكاديميا يعني و عاوز تعرف تحسبها بنفسك ازاي.
+      بالبلدي يعني، لو عندك Data Structure او Algorithm معين بيبقى فيه عمليات بتحصل عادة بتاخد وقت بسيط بس عند ظرف معين بتحتاج تعمل عملية مكلفة، هل ساعتها نعتبر ال Algorirhm complexity هي أسوأ حاجة و الا أفضل حاجة؟ يعني أشهر مثال هو ال Dynamic Arrays زي ال Vectorsاو ال Lists في لغات البرمجة المختلفة، فكرته انه بيحاول يديلك مميزات ال array من حيث ال constant access time و في نفس الوقت يديلك مميزات ال Dynamic size بحيث انك ما تحتاجش تحدد حجم ثابت و انت بتعرفه.
+      فهو بيعمل ايه؟ هو بيحجز array عادي جدا بحجم معين، و بتفضل تستخدمه عادي و تستمع بال Constant Time Access لحد ما تيجي عند نقطة حيحس انك حتحتاج مساحة اكبر، فيحجز array تاني جديد و يعمل copy للعناصر من القديم للجديد، و ده طبعا مش Constant time، لكن لان العملية دي مش بتحصل الا نادرا او على الأقل بمعدل اقل بكثير من معدلات العمليات التانية اللي اخدت Constant Time فبنقول على الحالة دي انها Amortized Constant Time، يعني هي بالميت أداءها زي ال array العادي لو انت مش متشائم قوي يعني.
+    id: '1540637499309286'
+  - created_time: '2017-07-08T01:22:55+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: http://www.cs.cornell.edu/courses/cs3110/2013sp/lectures/lec21-amortized/lec21.html
+    id: '1540667585972944'
+  - created_time: '2017-07-08T09:08:56+0000'
+    from:
+      name: آية محفوظ
+      id: '10155347034245773'
+    message: You can audit the following course on coursera. They explain it nicely
+      https://www.coursera.org/learn/data-structures/home/info
+    id: '1540977529275283'
+  - created_time: '2017-07-08T16:32:46+0000'
+    from:
+      name: Khaled M. Diab
+      id: '10215626626127168'
+    message: "In addition to analyzing running time complexity, I usually use the
+      \"potential function\" method (physicist)  for calculating a competitive ratio
+      of online algorithms. \nOnline algorithms: are algs. which keep running, each
+      time with a new input (like replacement algorithms in OS)\nCompetitive ratio:
+      how far you algorithm from the opt. one (or sometimes less restrict opt. one
+      like the analysis of competitive ratio of LRU alg)\n\nA well-known recipe for
+      the potential function is to:\n1- design a \"potential\" function that represents
+      your algorithm costs across different inputs (usually this is the hard part,
+      and this depends on the algorithm)\nSamples are: items exist in optimal but
+      not in my algorithm\n2- take the diff. of the potential function between two
+      consecutive time instances (inputs)\n3- sum this diff. across all time instances..\n\nAt
+      some point while taking the diff. or making the sum, your algorithm should be
+      involved in the analysis. For example, some assumptions or invariants that your
+      alg. make will help you reducing the sum (improve competitive ratio for minimization
+      problems).\n\nThe hard part, in addition to designing a potential function,
+      is that you actually don't what optimal is. I remember I spent 3 weeks to find
+      a better competitive ratio of one of my algs, but I couldn't :D \n\nI like these
+      references (old but gold):\nR. E. Tarjan, “Amortized computational complexity,”
+      SIAM Journal on\nAlgebraic Discrete Methods, vol. 6, no. 2, pp. 306–318, Apr.
+      1985.\n\nA. Borodin and R. El-Yaniv, Online Computation and Competitive\nAnalysis.
+      USA: Cambridge University Press, 1998.\n\nS. Albers, “Competitive online algorithms,”
+      Department of Computer\nScience, University of Aarhus, vol. 54, 1996."
+    id: '1541286689244367'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUwTURZAek56UTVPVE13T1RJNE5qb3hORGs1TkRjME1ERXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUwTVRJNE5qWTRPVEkwTkRNMk56b3hORGs1TlRNeE5UWTIZD

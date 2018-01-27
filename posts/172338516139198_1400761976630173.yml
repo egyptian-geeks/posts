@@ -1,0 +1,83 @@
+---
+message: |-
+  DB Geeks Question: Does MariaDB supports native JSON column data type? I’m not talking about dynamic columns, I’m asking about native column JSON data type. In simple words, can I run the following code on any MariaDB version?
+
+  CREATE TABLE example (names JSON);
+
+  As far as I know, it doesn’t but I’m still not sure since there’s a lot of topics talking about JSON support on MariaDB for ages, but none said it’s finally implemented.
+link: http://dba.stackexchange.com/questions/165522/does-mariadb-supports-json-column-data-type
+from:
+  name: Abdelrahman Omran
+  id: '2203311556562655'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQB5x_uwliuA-ts4&w=130&h=130&url=https%3A%2F%2Fcdn.sstatic.net%2FSites%2Fdba%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D246e2cb2439c&cfs=1&_nc_hash=AQCsEAQbmlVih4WQ
+created_time: '2017-02-25T18:21:41+0000'
+updated_time: '2017-02-26T10:28:34+0000'
+name: Does MariaDB supports JSON column data type?
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1400761976630173/
+id: '172338516139198_1400761976630173'
+reactions:
+  data:
+  - id: '2015853231776327'
+    name: Mohamed Hafez
+    type: LIKE
+  - id: '1735197893208926'
+    name: Ahmad Zain
+    type: LIKE
+  - id: '1606039782811410'
+    name: Nader Khaled
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdOVFV3TURrek16YzJPakUwT0Rnd09UWXhOakU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlNVFl5TVRJM01UY3lPakUwT0Rnd05EZAzFNems2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-02-25T18:27:14+0000'
+    from:
+      name: Abdelrahman Omran
+      id: '2203311556562655'
+    message: |-
+      -- Update --
+      Just found three issues still open on MariaDB Jira about JSON data type support, which means it's still not yet implemented, right?
+
+      - https://jira.mariadb.org/browse/MDEV-9056
+      - https://jira.mariadb.org/browse/MDEV-9144
+      - https://jira.mariadb.org/browse/MDEV-6632
+    id: '1400765739963130'
+  - created_time: '2017-02-26T01:31:49+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: I haven't used MariaDB before, but maybe it supports JSON queries without
+      having a JSON column type, this is what SQL Server does. In SQL Server json
+      columns are regular nvarchar and you just use json functions on the columns
+      to get properties and values.
+    id: '1401083839931320'
+  - created_time: '2017-02-26T04:16:56+0000'
+    from:
+      name: Eslam Salem Mahmoud
+      id: '10157134145555299'
+    message: |-
+      As far as i know , its not available in the stable version.
+      But if you want JSON dataType , Use document based NoSQL db :P :P
+    id: '1401191869920517'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF3TURjMk5UY3pPVGsyTXpFek1Eb3hORGc0TURRM01qTTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF3TVRFNU1UZAzJPVGt5TURVeE56b3hORGc0TURneU5qRTIZD
+attachments:
+  data:
+  - description: Does MariaDB supports JSON column data type? I’m not talking about
+      dynamic columns, I’m asking about native column JSON data type. In simple words,
+      can I run the following code on any MariaDB versi...
+    media:
+      image:
+        height: 316
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQC51zqYK-SI7e4_&w=720&h=720&url=https%3A%2F%2Fcdn.sstatic.net%2FSites%2Fdba%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D246e2cb2439c&cfs=1&_nc_hash=AQAzVjlglpEO-YsQ
+        width: 316
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fdba.stackexchange.com%2Fquestions%2F165522%2Fdoes-mariadb-supports-json-column-data-type&h=ATMUtTiTT4EUWoV5iq2x6DhB1VueOEB3GIKKB0gC1hvKH5SZW9RRPhwT70qvL3nHaEHo4sj_yA2eV-OTYuCr8nLABTDQS1lbr4mA&s=1&enc=AZNRXdRlyO8vBleZo3WoZ4O7SAUZ8ARfcEjE24febNjZGXJfRvg0xxwhMp3MXgA_MNRVy4pNk0K7ymjKTv7A1Wdx
+    title: Does MariaDB supports JSON column data type?
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fdba.stackexchange.com%2Fquestions%2F165522%2Fdoes-mariadb-supports-json-column-data-type&h=ATMUtTiTT4EUWoV5iq2x6DhB1VueOEB3GIKKB0gC1hvKH5SZW9RRPhwT70qvL3nHaEHo4sj_yA2eV-OTYuCr8nLABTDQS1lbr4mA&s=1&enc=AZNRXdRlyO8vBleZo3WoZ4O7SAUZ8ARfcEjE24febNjZGXJfRvg0xxwhMp3MXgA_MNRVy4pNk0K7ymjKTv7A1Wdx

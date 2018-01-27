@@ -1,0 +1,77 @@
+---
+message: "ممكن لو حد يقدر يضيف حاجة للمقارنة دى لو فى حاجة ناقصة \nوامتى اخزن فى ملف
+  json منفصل ؟؟\nوهل ممكن افكر فى Redis على انى اخون فيها اكتر حاجة common بيحصلها
+  retrieve ؟؟"
+link: https://www.facebook.com/photo.php?fbid=1535250009897560&set=gm.1566911816681854&type=3
+from:
+  name: Ahmed Abo Mazin
+  id: '1758521440903748'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/20479979_1535250009897560_8446774251445519684_n.jpg?oh=69f3cf9096197d388e31d2348dcf0fa7&oe=5AEB17B9
+created_time: '2017-08-03T09:25:26+0000'
+updated_time: '2017-08-03T16:18:31+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1566911816681854/
+id: '172338516139198_1566911816681854'
+reactions:
+  data:
+  - id: '1385664498246611'
+    name: Sayed Said
+    type: LIKE
+  - id: '802499643272475'
+    name: Mohamad Shater
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTBNRGt5TWpFeE5ESXhPakUxTURFM05UTXhOVEk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTFNemN6TXpreU1qSTJPakUxTURFM05USTFNak02TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-08-03T09:27:04+0000'
+    from:
+      name: أحمد محمود محمد عبدالوهاب
+      id: '10155226291481186'
+    message: |-
+      سيبك من المقارنة دى :)
+      و اه ده استخدام  redis بس بتاخد بالك عشان الميمورى برضه :)
+    id: '1566912656681770'
+  - created_time: '2017-08-03T09:30:19+0000'
+    from:
+      name: Ammar Youssef
+      id: '10155097484932190'
+    message: |-
+      لو هتقرأ فقط فالملف jsonخيار جيد
+      لكن لو قراءة وكتابة فلا تفكر في json ،ولذلك صنعت جميع الادوات اللي فوقه
+    id: '1566914066681629'
+  - created_time: '2017-08-03T16:09:19+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: من 8.MySQL 5.7 ال JSON اصبح datatype اصلي فيها. يعني ممكن تعمل حقل نوعه
+      JSON.
+    id: '1567233746649661'
+  - created_time: '2017-08-03T16:18:28+0000'
+    from:
+      name: Mahmoud Nawwar
+      id: '1560359927364731'
+    message: أنا شايف إنه م underestimate ال MySQL خالص ، الناس شغالة بيها production
+      زي الفل
+    id: '1567239999982369'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUyTmpreE1qWTFOalk0TVRjM01Eb3hOVEF4TnpVeU5ESTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUyTnpJek9UazVPVGs0TWpNMk9Ub3hOVEF4TnpjM01UQTUZD
+attachments:
+  data:
+  - description: "ممكن لو حد يقدر يضيف حاجة للمقارنة دى لو فى حاجة ناقصة \nوامتى اخزن
+      فى ملف json منفصل ؟؟\nوهل ممكن افكر فى Redis على انى اخون فيها اكتر حاجة common
+      بيحصلها retrieve ؟؟"
+    media:
+      image:
+        height: 607
+        src: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/20479979_1535250009897560_8446774251445519684_n.jpg?oh=da07f5ad189a7c3ccfb961cb61647dcf&oe=5ADB40AC
+        width: 720
+    target:
+      id: '1535250009897560'
+      url: https://www.facebook.com/photo.php?fbid=1535250009897560&set=gm.1566911816681854&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=1535250009897560&set=gm.1566911816681854&type=3

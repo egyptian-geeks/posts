@@ -1,0 +1,153 @@
+---
+message: |-
+  So I placed a post a couple of days ago that was not clear so I’m modifying it now.
+
+  What would you say to a business owner that wants the quality output of a waterfall model in the timely manner of rapid prototyping model with very minimal number of resources to generate an eCommerce platform that serves thousands of customers per day?
+
+  Disclaimer: I am making this post mainly to share the responses with them
+from:
+  name: Mohamed Moshrif
+  id: '1538447102877297'
+type: status
+created_time: '2018-01-18T08:58:08+0000'
+updated_time: '2018-01-21T09:59:47+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1725695557470145/
+id: '172338516139198_1725695557470145'
+reactions:
+  data:
+  - id: '10159817376550705'
+    name: Mohamed Salem Korayem
+    type: LIKE
+  - id: '1999765416908747'
+    name: Ahmed Khalifa
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpZAMk56WTFOekEwT2pFMU1UWXpNRFk0TXpjNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQTJNalU1TWpNNE9EVXlPakUxTVRZAeU56QXhOVFU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2018-01-18T09:18:41+0000'
+    from:
+      name: Muhammad El-Shafie
+      id: '10215276255482572'
+    message: you can try to convince them with logic, studies , papers, other SME
+      opinion , external consultants/firms,  if not then the hard way (failures upon
+      doing their spaghetti suggestions)
+    id: '1725710374135330'
+  - created_time: '2018-01-18T09:26:19+0000'
+    from:
+      name: Mohamed Aboali
+      id: '10156055860969104'
+    message: |-
+      Rapid prototypes means just a working main scenario. it should be none-final solution and  without all bells and whistles! So to speak, just a minimal working model to show a working end to end main scenario.
+      Handling exceptional scenarios and additional side scenarios, enhancing preferences and mastering experience happens on later stages.
+
+      Developers are not magicians, nor future tellers, and certainly not astronomers , and should not work for someone who think they are!
+    id: '1725714074134960'
+  - created_time: '2018-01-18T09:28:53+0000'
+    from:
+      name: Mohamed Moshrif
+      id: '1538447102877297'
+    message: Nader Magdy
+    id: '1725716027468098'
+  - created_time: '2018-01-18T09:43:29+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      > people who don’t believe that you can only have 2 and you can have 3
+      > Don't lecture us like students by making some shit up
+
+      My harsh opinion: this is a sinking ship. Abandon.
+
+      Long version:
+      - Engineering is about compromises. Many people don't understand this, and that's OK. Your role as an engineering manager/CTO is to explain this to them, but here comes the critical problem ....
+      - They don't want to listen to you. If you can't solve this problem, then you're destined to a death march.
+    id: '1725724470800587'
+  - created_time: '2018-01-18T10:28:41+0000'
+    from:
+      name: Ibraheem Osama
+      id: '10155206310513093'
+    message: |-
+      Do you have estimates per release? People most of time understands estimates and man-days.
+      You can do a work breakdown structure with estimates and show it to them to select which features to release based on cost and time.
+      If they are ok with that then you can use kanban or lean to eliminate as much wastes as you can.
+    id: '1725750577464643'
+  - created_time: '2018-01-18T14:09:33+0000'
+    from:
+      name: Ahmed Sadek Mohamed Tawfik
+      id: '10155056867911922'
+    message: "النقطة الجدلية دى ما بتنتهيش أبدا :D \nبص مبدأيا قلبى معاك .. طبعا انتا
+      مش عايز تتهور عليهم و تقولهم كلام مش لطيف .. بس معلشى .. قولهم مافيش سفينة بتتحرك
+      فى البحر غير و معاها الوقود الكافى لمواصلة الرحلة.\n\nو ظيفتك كقبطان للسفينة
+      انك ما تعرضشى السفينة و الطاقم اللى فيها للغرق .. بسبب حمولة زيادة .. او حركة
+      زيادة .. او مانيوفر اكبر من قدرة السفينة على تحمله."
+    id: '1725911887448512'
+  - created_time: '2018-01-18T15:37:17+0000'
+    from:
+      name: Ahmed Amr Farid
+      id: '10155859538230336'
+    message: |-
+      too good to be true...
+      if so we would all be millionaires my friend..
+    id: '1725984567441244'
+  - created_time: '2018-01-18T16:31:28+0000'
+    from:
+      name: Ahmed Aboulenein
+      id: '10160047384135438'
+    message: You can achieve this with a couple of principle or distinguished engineers.
+      Start contacting James Gosling and Martin Fowler, haha
+    id: '1726041414102226'
+  - created_time: '2018-01-18T20:32:40+0000'
+    from:
+      name: Mohamed Salem Korayem
+      id: '10159817376550705'
+    message: "اطبخي يا جارية، كلف يا سيدي \U0001F602\n\nThis book is full of practical
+      tips on how to approach this problem practically. \n\nBut in all practicality,
+      it explicitly tells you to abandon ship when you try all the tricks and management
+      still doesn't get it.\n\nDeath March (2nd Edition) https://www.amazon.com/dp/013143635X/ref=cm_sw_r_cp_apa_IkqyAbVKYF9V7\n\nBut
+      personally I have a different point of view. Granted most CTO prolly are just
+      geeks who understand computers more than humans.\n\nInvest in learning about
+      business and people.\n\nI've worked with aforementioned type of managers and
+      had tough 1st year but eventually I reached the point where I influenced the
+      dates and enforced what I see fit technically. \n\nThe trick is this: management
+      see CTOs as computer geeks who don't fit any world outside the computer screen.
+      Honestly, they are right. They're fighting to get customers and investment to
+      keep paying your salary and all they hear from the CTOs is logical reasoning
+      on why the date, budget and quality combo they dictate will fail.\n\nYou must
+      break the mold and get outside the tech bubble and be able to also comprehend
+      the business needs and customer behaviour. Otherwise, his vicious cycle will
+      never end."
+    id: '1726238800749154'
+  - created_time: '2018-01-19T03:29:25+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: Sounds like a ready made platform with standard customization and extensions
+      made by a team that is expert on that platform. So they know the exact change
+      and how much it takes to do, meaning can estimate accurately, This will apply
+      to the 90% of common scenarios, there will still be 10% of non-conventional
+      scenarios that can either exceed normal estimates or turn out to be a bad idea.
+    id: '1726501584056209'
+  - created_time: '2018-01-19T21:58:21+0000'
+    from:
+      name: Mohamed Salem Korayem
+      id: '10159817376550705'
+    message: |-
+      Mohamed Moshrif what you just described here requires 2 teams:
+      1. Dev (Scrum) team working in sprints on medium to long-term objectives and they diligently follow their deadlines for the sprints because they themselves come up with the estimates + 20-40% to accommodate focus factor. This team is working with git feature branches running over staging branch
+      2. DevOps (Kanban) team working on short-term "quick fix" "get me this quickly out of the door" kind of requests. Those requests are done on git feature branches running over master branch.
+
+      When Team 1 approach releasing their sprint on production, they'll first merge with master which will always contain changes by Team 2.
+
+      It's like highway lanes keda. Right lanes are for slow paced vehicles while left one is for speeding ones.
+
+      In case you're in a startup and can't afford adding more people,  you can play the same game by distributing individual people's time to reserve, say 30% of their time for DevOps style effort.
+
+      Needless to say, this increase context switching AND prolongs both DevOps and Scrum efforts... but having git will def make managing the source code a breeze
+    id: '1727284583977909'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN5TlRjeE1ETTNOREV6TlRNek1Eb3hOVEUyTWpZAM01USXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN5TnpJNE5EVTRNemszTnprd09Ub3hOVEUyTXprNU1UQXkZD

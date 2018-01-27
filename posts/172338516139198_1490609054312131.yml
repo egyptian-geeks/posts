@@ -1,0 +1,144 @@
+---
+message: "سؤال بخصوص ال game programming \nلو عندي في ال scene حوالي 50 object \nوعايز
+  اعمل check لو اي اوبجيكت فيهم خارج منطقة معينة \nايه الافضل من ناحية ال performance
+  وليه ؟\n\n1-\nاني اعمل for loop جوا ال update function لكل اوبجيكت واتابع ال transform
+  تبعه .\n\n2- اني اعمل check لكل اوبجيكت ف ال update call الخاص بيه ؟ \n\nانا بسأل
+  عشان قريت ان غلط جدا كل اوبجيكت يبقي ليه update call لوحده \nوكمان غلط جدا يكون
+  في for loop جوا update function \n\nاي حد يفيدنا ؟"
+from:
+  name: Ahmed Mahmoud
+  id: '1917940025202392'
+type: status
+created_time: '2017-05-22T22:51:33+0000'
+updated_time: '2017-05-24T13:48:29+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1490609054312131/
+id: '172338516139198_1490609054312131'
+reactions:
+  data:
+  - id: '10156165643313420'
+    name: Tony Raoul Iscaros
+    type: LIKE
+  - id: '1907473535961793'
+    name: George Samir
+    type: LIKE
+  - id: '1978556165731463'
+    name: Amr Almgwary
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRNeU1qQTROREU1T2pFME9UVTJNemM1TXpRNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQTNNekV5T1RVM09UWXpPakUwT1RVMU1ESTFOVFk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-05-22T22:58:04+0000'
+    from:
+      name: Ahmed Magdy
+      id: '1978009525783037'
+    message: |-
+      انا معرفش Game Dev خالص
+      بس بما انك عارف الطريقتين يبقى الاحسن انك تجرب و تقارن الـ Performance و تشوف الاحسن
+    id: '1490612764311760'
+  - created_time: '2017-05-22T23:03:36+0000'
+    from:
+      name: Abdelrahman Mounir
+      id: '10157192201153569'
+    message: ممكن في ال start function تعمل InvokeRepeating لاسم ال function اللي
+      هتعمل بيها check و بتديله في ال parameters انت عاوز ت call ال function كل كام
+      ثانيه بدل ما تتعمل كل frame
+    id: '1490615374311499'
+  - created_time: '2017-05-22T23:03:56+0000'
+    from:
+      name: Mohamed Ahmed
+      id: '385696705226073'
+    message: متخلى كل اوبجيكت يتراك نفسه يعنى اكيد عنده كمثال x,y  فى كل اوبجيت ال
+      area بتاعتك ليها x , y محددين هتضيف ميثود ل object  checkoutOfBounds و يتعملها
+      كل بعد كل تورانسفورم ي run  الميثود ديه و بناء على ال bounds تشوف انت هتتصرف
+      فى الاوبجيكت ده ازاى
+    id: '1490615480978155'
+  - created_time: '2017-05-22T23:06:54+0000'
+    from:
+      name: Mohammad Hosny
+      id: '10155052403705843'
+    message: حسب اللوجيك يعني لو انت مبتحركش الاوبجكت بايدك و في update function يبقى
+      في الupdate لكن لو هم حزين الحركة و المنطقة الي بتشيك عليها بتتغير يبقى بفور
+    id: '1490616874311349'
+  - created_time: '2017-05-22T23:07:55+0000'
+    from:
+      name: Mohamed Elghobaty
+      id: '2112734515623407'
+    message: |-
+      لو في الامكان انك تستخدم Colliders، هيبقى الحل المثالي. المنطقة المعينة تعمل حواليها Collider، وت detect اول لما ال objects بتوعك يطلعوا بره ال collider دا، الحل دا أحسن ف ال performance بكتير جداً من الحلين اللى فوق، بس طبعا هتتوقف إمكانية تنفيذه ع انتا بتعمل ايه بالظبط.
+      https://docs.unity3d.com/ScriptReference/Collider.OnTriggerExit.html
+    id: '1490617920977911'
+  - created_time: '2017-05-23T09:26:27+0000'
+    from:
+      name: Ahmed Elyamani
+      id: '1735558236510039'
+    message: "لو انت اللي بتكتب الانجن فأكيد عندك فانكشن بتعمل ابديت اصلا بتعدي على
+      كل الاوجبكتس،سواء عشان الريندر أو الابديت لوجيك قبلها. \n\nالطريقة التانية أن
+      لو عندك الاحداثييات بتاع الاوبجكت بروبيرتي تقدر في ال set \nبتاعنا تشيك هل هوا
+      برا الشاشة ولا لا"
+    id: '1490928127613557'
+  - created_time: '2017-05-23T10:21:34+0000'
+    from:
+      name: Youssef M Samir
+      id: '1565838566805164'
+    message: كنت داخل اقولك على ال collider بس كويس فى حد قالك :D  دا احسن حل على
+      الاطلاق
+    id: '1490955820944121'
+  - created_time: '2017-05-23T20:04:55+0000'
+    from:
+      name: Moataz Elmasry
+      id: '10159865785365331'
+    message: I assume this is a hobby project, and not a real thing, because usually
+      people would use a game engine. Anyways there are many algorithms that achieve
+      that, for example ray tracer or binary space partitioning tree
+    id: '1491345094238527'
+  - created_time: '2017-05-23T21:44:30+0000'
+    from:
+      name: Mohamed Emam
+      id: '10156257513619883'
+    message: لو الموضوع محتاج  performance جامد دور على space partitioning algorithms
+      زي BSP , Octrees و k-d trees
+    id: '1491412647565105'
+  - created_time: '2017-05-23T21:57:02+0000'
+    from:
+      name: Mohamed Moshrif
+      id: '1538447102877297'
+    message: كنت لسة هاقترح موضوع ال space partitioning بس التعليق اللي قبلي قام بالواجب
+    id: '1491418594231177'
+  - created_time: '2017-05-23T22:08:14+0000'
+    from:
+      name: Waleed Saleh
+      id: '10159944189340357'
+    message: "استخدم graph او BSP tree \nدول نوعين عشان تعمل بيهم scene objects management
+      \nالاحسن بقه من دول انك تشوف الunity مستخدم انهى واحد فيهم  ؟ وليه ؟ واشمعنا
+      ؟"
+    id: '1491423447564025'
+  - created_time: '2017-05-23T22:20:13+0000'
+    from:
+      name: Ali Salem Korayem
+      id: '10156435293931294'
+    message: |-
+      You could create an observer object that tracks your objects of interest and does the necessary calculations in it's own update call. That way in 1 invoked update call you're accessing your entire objects (instead of having each object have it's update function called to do the necessary calculation)
+      For example 5 objects in 10 frames have 50 calculations in 50 calls
+      With the observer object you get 50 calculations in 10 calls
+    id: '1491433684229668'
+  - created_time: '2017-05-24T13:47:04+0000'
+    from:
+      name: Ahmed Saleh
+      id: '10159933379005574'
+    message: If it's an outdoor scene where height doesn't count much use quadtree,
+      otherwise use octree. Quake Implemented a binary space partitiong bsp tree,
+      which is suitable for indoor scenes
+    id: '1491980847508285'
+  - created_time: '2017-05-24T13:48:26+0000'
+    from:
+      name: Ahmed Saleh
+      id: '10159933379005574'
+    message: Read graphics programming by Michael abrash
+    id: '1491981644174872'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE1TURZAeE1qYzJORE14TVRjMk1Eb3hORGsxTkRrek9EZAzAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE1TVRrNE1UWTBOREUzTkRnM01qb3hORGsxTmpNek56QTMZD

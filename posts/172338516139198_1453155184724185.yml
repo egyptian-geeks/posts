@@ -1,0 +1,88 @@
+---
+message: |-
+  how to use gpu instead of cpu - c#
+  i searched a lot about this topic .. but i do not find any useful answar
+from:
+  name: Ahmed Khalifa
+  id: '1999765416908747'
+type: status
+created_time: '2017-04-14T04:51:19+0000'
+updated_time: '2017-04-14T19:31:46+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1453155184724185/
+id: '172338516139198_1453155184724185'
+reactions:
+  data:
+  - id: '402949863485446'
+    name: Abdulrhman Al-fiky
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01ERXpNVEV6TURZAMk9USTFPakUwT1RJeE5EYzRNRFU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01ERXpNVEV6TURZAMk9USTFPakUwT1RJeE5EYzRNRFU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-04-14T04:55:22+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: It does not make much sense to "use GPU instead of CPU". GPUs can be
+      used to perform certain tasks. What are you trying to achieve?
+    id: '1453159171390453'
+  - created_time: '2017-04-14T05:02:52+0000'
+    from:
+      name: Mohamed Ashraf
+      id: '10155906116946287'
+    message: To use the GPU for processing you need a relevant toolchain like opencl.
+      You don't just run normal code on the GPU since it has a different way of doing
+      things. Unless you are doing graphics (then your graphics library should probably
+      be GPU accelerated), you need to use a GPU toolchain like opencl (Nvidia has
+      one for its gpus as well but I don't remember the name).
+    id: '1453162651390105'
+  - created_time: '2017-04-14T05:08:26+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: |-
+      There is something called General Purpose GPU (GPGPU), and I remember there were some efforts in the .net community to make .net libraries for CUDA/OpenCL, I think this was one of the promising ones, however it hasn't been updated for almost 2 years
+      https://cudafy.codeplex.com
+    id: '1453165471389823'
+  - created_time: '2017-04-14T07:35:32+0000'
+    from:
+      name: Marwan Yassin
+      id: '10159953707250230'
+    message: Give OpenMP a try, check other .NET libraries for parallel programming
+      and if they support GPU offloading, try this one http://www.quantalea.com
+    id: '1453246251381745'
+  - created_time: '2017-04-14T12:38:36+0000'
+    from:
+      name: Mohamed AbuIssa
+      id: '1772542006152666'
+    message: |-
+      GPU programming with .NET
+      https://devblogs.nvidia.com/parallelforall/accelerate-net-applications-alea-gpu/
+    id: '1453437921362578'
+  - created_time: '2017-04-14T14:59:52+0000'
+    from:
+      name: Mohammad Bahaa ElDin
+      id: '10160002286380442'
+    message: Try CUDA or Opencl, CUDA's learning curve is less steep, but it can only
+      be used on Nvidia GPUs, while opencl's learning curve is more steep but it can
+      be used on any vendor card gpu and even on cpus
+    id: '1453560788016958'
+  - created_time: '2017-04-14T17:28:04+0000'
+    from:
+      name: Ghoneim
+      id: '10159878140790481'
+    message: "OpenCL \U0001F609"
+    id: '1453689291337441'
+  - created_time: '2017-04-14T19:31:40+0000'
+    from:
+      name: Aly Saleh
+      id: '10157135743444899'
+    message: I back up openMP, there is bunch of tutorials and you can write parallel
+      code really easy https://www.youtube.com/channel/UC7jgpE3sllixozoA4GzVRqQ
+    id: '1453778107995226'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFExTXpFMU9URTNNVE01TURRMU16b3hORGt5TVRRMU56SXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFExTXpjM09ERXdOems1TlRJeU5qb3hORGt5TVRrNE16QXoZD

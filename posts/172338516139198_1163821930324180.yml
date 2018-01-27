@@ -1,0 +1,94 @@
+---
+message: |-
+  سلام عليكم كنت عايز أسال هل ينفع حاليا استخدم angular 2 فى مشاريع طويلة الأمد (LTS) نفس الكلام برده بالنسبه لasp.net mvc 6 محتار اشتغل rc2ولا ايه هل هحتاج اغير قدام وانا شغال ياريت أى نصايح
+  ملحوظة المشروع لسه متعملش
+  #angular2 #asp.netcore #entityframework core
+from:
+  name: Mohamed Abdelrahman
+  id: '1785295468160956'
+type: status
+created_time: '2016-06-17T13:18:33+0000'
+updated_time: '2016-06-18T06:16:32+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1163821930324180/
+id: '172338516139198_1163821930324180'
+reactions:
+  data:
+  - id: '1596110217148252'
+    name: Ahmed Badawy
+    type: LIKE
+  - id: '2032504700100329'
+    name: Mohammed Yassin
+    type: LIKE
+  - id: '10214384757360026'
+    name: Saif Youssef
+    type: LIKE
+  - id: '1755035544536162'
+    name: Mohamed Hosni
+    type: LIKE
+  - id: '10213101784151931'
+    name: عبدالله محمد
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlORGM0Tmpnd09EVTJPakUwTmpZAeU5UQTVORGs2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBeE16WTNPVE13T0RveE5EWTJNVFk1TnpZAMk9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2016-06-17T14:19:26+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: Core is changing too rapidly now for my taste, I would switch to Spring
+      MVC and Java for the Back end Hibernate for your ORM, with AngularJS2 for the
+      front end.
+    id: '1163867386986301'
+  - created_time: '2016-06-17T14:34:32+0000'
+    from:
+      name: Salah Jr Ahmed
+      id: '10155519026807880'
+    message: angularjs 1 is totally different from 2 it would be like revamping
+    id: '1163874246985615'
+  - created_time: '2016-06-17T14:34:48+0000'
+    from:
+      name: Salah Jr Ahmed
+      id: '10155519026807880'
+    message: I myself recommend angular 2
+    id: '1163874340318939'
+  - created_time: '2016-06-18T00:50:20+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      Hello. This is the organizer of the AngularJS meetup in Sydney, ng-sydney
+
+      - Can I use Angular 2 in LTS projects?
+
+      Yes. Several people in my meetup have been reporting using it for work in the last 2 months at least, including enterprise apps.
+
+      - How about performance?
+
+      This is one of the main features in Angular 2!
+
+      - Is it stable?
+
+      Not 100%. There are still some changes happening with routing and forms. Not too crazy to be deal breakers though, except yes, expect a few.
+
+      Happy to take any further questions you may have.
+    id: '1164143913625315'
+  - created_time: '2016-06-18T06:16:32+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: I would personally not have trouble building Apps in Angular 2 and would
+      have it in the list of acceptable technologies, in any case, it is a JS client
+      side framework, so I would use it to build SPAs of limited/meduim size for my
+      organization, something that could be built in 2-4 2 week sprints with 3 devs
+      in a team. Otherwise, if you are talking about a large monolithic Application
+      with lots of business functionality, I would go for an older UI framework that
+      has stood the test of time as most of my business logic would be in the back
+      end/ middleware.
+    id: '1164300196943020'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUyTXpnMk56TTROams0TmpNd01Ub3hORFkyTVRjek1UWTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUyTkRNd01ERTVOamswTXpBeU1Eb3hORFkyTWpNd05Ua3kZD

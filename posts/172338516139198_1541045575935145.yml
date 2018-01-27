@@ -1,0 +1,127 @@
+---
+message: "هوا طبيعي اني ااخر عن العادي لما اكون بحاول انضف الكود بتاعي ؟ والمفروض
+  اكتب كود من اول مره نضيف ولا اكتب براحتي وفي الاخر انضف \U0001F600 \n*انا مش بتكلم
+  علي الcode-style"
+from:
+  name: Ahmed Khaled
+  id: '2096358110650589'
+type: status
+created_time: '2017-07-08T11:15:28+0000'
+updated_time: '2017-07-09T00:48:53+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1541045575935145/
+id: '172338516139198_1541045575935145'
+reactions:
+  data:
+  - id: '10208478691244351'
+    name: Mohamad Nabih
+    type: LIKE
+  - id: '10215070655377585'
+    name: Mahmoud Kandeel
+    type: LIKE
+  - id: '1255233001244388'
+    name: Hussien A. Ashour
+    type: LIKE
+  - id: '1780676198623196'
+    name: محمود كريم
+    type: LIKE
+  - id: '10211509160147894'
+    name: Ehab Hamdy
+    type: LIKE
+  - id: '758884390967304'
+    name: Salem Attia
+    type: HAHA
+  - id: '1758521440903748'
+    name: Ahmed Abo Mazin
+    type: LIKE
+  - id: '1978556165731463'
+    name: Amr Almgwary
+    type: LIKE
+  - id: '1872922309398245'
+    name: Khaled Abdelrahiem Elkholy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRneE9UTXdNREV4TVRveE5EazVOakUwTnpFME9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBd01EQXdOREUwT0RFd05UZA3dPakUwT1RrMU1UTTRNalU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-07-08T11:18:16+0000'
+    from:
+      name: Ahmed Thabet
+      id: '1849432635069365'
+    message: اسمه Code Editor مش writer :D
+    id: '1541046949268341'
+  - created_time: '2017-07-08T11:18:49+0000'
+    from:
+      name: Ahmed Ashraf
+      id: '930615110434715'
+    message: هي القاعده بتقول Make it work then make it better .. اغلب الوقت بتكتب
+      الكود علشان يعمل الحاجه اللي انت بتكتب الكود ده علشانها و لما يشغلها تبدا تراجع
+      و تشوف الغلطات فين .. بس ده مش معناها انك تنفض للoop و الdesign pattrern و بعدها
+      تقول هراجع البروجكت :D . الموضوع بيمشي انك بتقسم التاسك مثلاً ل scopes او steps
+      و كل step منهم تخلصها وتراجع عليها .. ده لو هي كبيره .. اما لو هي صغيره مش بتاخد
+      منك وقت كبير .. و لو ربنا كرمك و معاك تيم مهتم بالcode review و بيدي لكل تاسك
+      حقها ووقتها في كتابتها و مراجعتها الدنيا بتبقي علي طول نضيفه
+    id: '1541047252601644'
+  - created_time: '2017-07-08T11:23:21+0000'
+    from:
+      name: Moustafa Elkady
+      id: '10204414533160604'
+    message: Latter = Never
+    id: '1541049859268050'
+  - created_time: '2017-07-08T11:35:12+0000'
+    from:
+      name: Mohamed Samir
+      id: '10213955023125334'
+    message: لو كتيت براحتك مش هتعرف تنضف كودك بعد كده وهياخد منك وقت ومجهود ده غير
+      تضييع الوقت اللي هتاخده في تكرار حاجات كتير وانت بتكتب في الأول ؛ انصحك اقرأ
+      كتاب اتعلم ازاي تكتب clean code وبعدين وانت بتشتغل حاول تشتغل ب Design pattern
+      مناسب لل business بتاعك وميكونش قيه تكرار قسم شغلك كويس ؛ ممكن تستعين ب tools
+      تساعدك وانت بتكتب زي مثلا لو بتكتب c# ممكن تستخدم Resharper او مثلا تستخدم ال
+      visual studio rule set ؛ لكن انك تنضف كودك بعد ما تخلص ده rework and retest
+      duplicate كتير ومش هتنضف كودك نهائي ؛ خلى code enhancement لبعدين ممكن بعد لما
+      تخلص بس كودك يبقى clean الأول
+    id: '1541056162600753'
+  - created_time: '2017-07-08T11:38:43+0000'
+    from:
+      name: Mohamed Ibrahim
+      id: '10210867242069162'
+    message: "الطريقة الوحيدة عشان تكتب كود نضيف هي إنك تكتبه نضيف من الأول، والموضوع
+      محتاج ممارسة .. لكن إنك تقول هنضف بعدين .... فأنا عارف وانت عارف والتيم ليد
+      عارف، إنك عمرك مهتنضفه طالما اشتغل \U0001F602\U0001F602\U0001F602. ولو نضفته
+      هيبقى عشان تصلح bug مش أكتر\n'طبعا نضييف ولا لأ دا بيرجع لخبرتك ومعرفتك بالـ
+      unit test -  oop - Solid - design patterns - architecture .. مش بقلك استنى لما
+      تتعلم كل حاجة، المهم إنك تطبق اللي أنت عارفه بخصوص ال clean code حالا .. متستناش
+      لما تخلص التاسك وبعد كده تنضف.\nومشكلة الناس مع الكود النضيف إنهم فاكرين إنه
+      هيطول وقت الديفلوبمنت .. مع إنه بالعكس، هيوفر عليك مشاكل كتير بعدين، وهيسرع
+      عملية الmaintaining وbug fixing\nعم بوب بيقلك:\n  the only way to go fast —
+      is to keep the code as clean as possible at all times."
+    id: '1541059002600469'
+  - created_time: '2017-07-08T11:53:53+0000'
+    from:
+      name: Mohamed Abdelghani
+      id: '1854642424546313'
+    message: Your question may has a relation with Open closed principle (if you use
+      OO language). at some point of time you can't open your class to change it.
+      you have to extend it if you need to make any changes.before reaching this point
+      of time you are free to open your class and refactor it many times. but when
+      it's done? there is a debate over the answer of this question. I go with the
+      opinion that says it's done when it's shipped to the production.
+    id: '1541067329266303'
+  - created_time: '2017-07-08T17:54:08+0000'
+    from:
+      name: Mohamed Elghobaty
+      id: '2112734515623407'
+    message: Mohamed Kamel check out the comments
+    id: '1541356735904029'
+  - created_time: '2017-07-08T22:18:48+0000'
+    from:
+      name: Ahmed Ali Taha
+      id: '10211584252947828'
+    message: "write it 3 times ,\nfirst proof of concept\nsecond make it work\nthird
+      do it with best practice  , \nand finally you must have definition of done"
+    id: '1541550495884653'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUwTVRBME5qazBPVEkyT0RNME1Ub3hORGs1TlRFeU5qazIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUwTVRVMU1EUTVOVGc0TkRZAMU16b3hORGs1TlRVeU16STUZD

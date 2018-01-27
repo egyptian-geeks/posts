@@ -1,0 +1,138 @@
+---
+message: Reasons Not To Use Firebase
+link: https://crisp.im/blog/why-you-should-never-use-firebase-realtime-database/
+from:
+  name: Zanoon Shehata
+  id: '561489484214935'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQDUT0etMfjVMynE&w=130&h=130&url=https%3A%2F%2Fcrisp.im%2Fblog%2Fcontent%2Fimages%2F2016%2F09%2F3879581414_16f8e66499_b.jpg&cfs=1&sx=0&sy=0&sw=768&sh=768&_nc_hash=AQB51YHb9C2MAHJ-
+created_time: '2017-02-28T05:06:40+0000'
+updated_time: '2017-03-01T06:14:38+0000'
+name: Reasons Not To Use Firebase
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1404020062971031/
+shares:
+  count: 4
+id: '172338516139198_1404020062971031'
+reactions:
+  data:
+  - id: '1928384107425504'
+    name: Ahmed Hashem
+    type: LIKE
+  - id: '10216129314284453'
+    name: Amr Yousef
+    type: LIKE
+  - id: '402301146892668'
+    name: Esso de Nasr
+    type: LIKE
+  - id: '10215979763073379'
+    name: Ahmed Mansy
+    type: LIKE
+  - id: '1925164071134148'
+    name: إيمان حسام
+    type: LIKE
+  - id: '1994153190805861'
+    name: Ahmed Mostafa
+    type: LIKE
+  - id: '2096764887006623'
+    name: Abdalla Elnaggar
+    type: LIKE
+  - id: '10160007537500512'
+    name: Abbas Adel Ibrahim
+    type: LIKE
+  - id: '1672878506132188'
+    name: Bellal Mohamed
+    type: LIKE
+  - id: '10209092585265975'
+    name: Ahmed Sultan
+    type: LIKE
+  - id: '1792452607472013'
+    name: Ahmed Barakat
+    type: LIKE
+  - id: '10212947071504226'
+    name: Eslam Hamouda
+    type: LIKE
+  - id: '10213101784151931'
+    name: عبدالله محمد
+    type: LIKE
+  - id: '10155077834231790'
+    name: Mohamed Ossama Abdallah
+    type: LIKE
+  - id: '10215711768054114'
+    name: Mohanad Ayman
+    type: LIKE
+  - id: '10156115350739764'
+    name: Mahmoud Tantawy
+    type: LIKE
+  - id: '10159881004380503'
+    name: Ahmed Hammad
+    type: LIKE
+  - id: '10156435293931294'
+    name: Ali Salem Korayem
+    type: LIKE
+  - id: '1686958524659142'
+    name: Karim M. Elbayaa
+    type: LIKE
+  - id: '1747086688656435'
+    name: Mohamed Matloub
+    type: LIKE
+  - id: '547020688991281'
+    name: Muhammad Kamal
+    type: LIKE
+  - id: '1119306598205692'
+    name: Mahmoud Fouad
+    type: LIKE
+  - id: '10160105091405314'
+    name: Mohamed Elsherif
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTNOakUzT1RrMU5UVXdPakUwT0Rnek9URTVOekE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TnpRd056WTFNekV6T2pFME9EZA3lOakkzT1RFNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-02-28T06:19:48+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: This was a very good read, thanks a lot for sharing.
+    id: '1404061506300220'
+  - created_time: '2017-02-28T09:50:20+0000'
+    from:
+      name: Muhammad Kamal
+      id: '547020688991281'
+    message: Some of these issues head my way when developing an App it's nightmare
+      when going to implement  specific cases to fit business need you are inside
+      the fire.
+    id: '1404205262952511'
+  - created_time: '2017-02-28T18:17:06+0000'
+    from:
+      name: Abdelrahman Mohamed
+      id: '832020650303292'
+    message: So what's better than it !! Zanoon Shehata
+    id: '1404639852909052'
+  - created_time: '2017-03-01T06:14:35+0000'
+    from:
+      name: Apd Ulrhman II
+      id: '1941442462840331'
+    message: It's really a big problem
+    id: '1405284746177896'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF3TkRBMk1UVXdOak13TURJeU1Eb3hORGc0TWpZAeU56ZAzQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF3TlRJNE5EYzBOakUzTnpnNU5qb3hORGc0TXpRNE9EYzEZD
+attachments:
+  data:
+  - description: Building real-time applications is today standard. At Crisp, we used
+      Firebase in production over 9 month, starting from day one. From the dream to
+      the nightmare, here is our experience. Note that this article covers the production
+      aspect of using Firebase Realtime Database, and we still think that t...
+    media:
+      image:
+        height: 720
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAv_5lmnbyfuOZx&w=720&h=720&url=https%3A%2F%2Fcrisp.im%2Fblog%2Fcontent%2Fimages%2F2016%2F09%2F3879581414_16f8e66499_b.jpg&cfs=1&sx=0&sy=0&sw=768&sh=768&_nc_hash=AQA4Dqq3LHgvU8Vo
+        width: 720
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcrisp.im%2Fblog%2Fwhy-you-should-never-use-firebase-realtime-database%2F&h=ATPF8KLnNZn7vhvkLPgvnVGS4VhodG6izujLsrJ0y7ehYMEA2L8saSzYK8vz8zhwxEkVByqF7RM4pVO5QgoCoy1LK2KoTKmKC-5_&s=1&enc=AZOWz16JDMzYQdhh8YmIgiju_MsWrb9llFzdvtfUm5kgrCkQXcTb64ahGFcCCRuGrQcJtMio18i1XmwcYaSsBLFN
+    title: Reasons Not To Use Firebase
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcrisp.im%2Fblog%2Fwhy-you-should-never-use-firebase-realtime-database%2F&h=ATPF8KLnNZn7vhvkLPgvnVGS4VhodG6izujLsrJ0y7ehYMEA2L8saSzYK8vz8zhwxEkVByqF7RM4pVO5QgoCoy1LK2KoTKmKC-5_&s=1&enc=AZOWz16JDMzYQdhh8YmIgiju_MsWrb9llFzdvtfUm5kgrCkQXcTb64ahGFcCCRuGrQcJtMio18i1XmwcYaSsBLFN

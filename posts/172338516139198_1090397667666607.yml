@@ -1,0 +1,77 @@
+---
+message: |-
+  Hey Guys , I have some confusion about using the injection dependency at android like dagger and butter knife with architecture patterns , Does it consuming alot of processing time to arrange all these classes .. when I read codes about this I saw more lines of code but do very simple function .. so the paradox is why use this if it can be done with little code ?.
+  thnx
+from:
+  name: Bassem Qoulta
+  id: '10213297665910522'
+type: status
+created_time: '2016-03-02T22:29:19+0000'
+updated_time: '2016-03-02T23:47:29+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1090397667666607/
+id: '172338516139198_1090397667666607'
+reactions:
+  data:
+  - id: '10156476353501062'
+    name: Tarik Ibrahim
+    type: LIKE
+  - id: '10154922289347024'
+    name: Mohammed Hussien
+    type: LIKE
+  - id: '1596110217148252'
+    name: Ahmed Badawy
+    type: LIKE
+  - id: '10215454000325740'
+    name: Amr Hegazy
+    type: LIKE
+  paging:
+    cursors:
+      before: Tnpjd01Ea3hNRFl4T2pFME5UWTVOelV3T0RnNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRNd09Ua3lPRGMzTWpveE5EVTJPVFUzT0RFeU9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2016-03-02T22:40:49+0000'
+    from:
+      name: Ahmed Badawy
+      id: '1596110217148252'
+    message: "So you are advanced at android development... \nSorry to annoy you but
+      iam having a very hard time  in learning android.... & i am a bit lost in the
+      courses.\nCan you guide me to some video course to learn it please...\nDraw
+      me a path to learn it please..."
+    id: '1090400230999684'
+  - created_time: '2016-03-02T22:57:25+0000'
+    from:
+      name: Bassem Qoulta
+      id: '10213297665910522'
+    message: inbox
+    id: '1090407077665666'
+  - created_time: '2016-03-02T23:37:16+0000'
+    from:
+      name: Mohammed Hussien
+      id: '10154922289347024'
+    message: Well reaching the concept of layer separation has many many features
+      one of them that u can mock all your app components so all of your application
+      parts classes are testable :) also you will not feel that much of lines of code
+      until you are writing a huge app with different layers here it comes the benefit
+      from something like dagger.
+    id: '1090424060997301'
+  - created_time: '2016-03-02T23:43:25+0000'
+    from:
+      name: Mohammed Hussien
+      id: '10154922289347024'
+    message: |-
+      My recommendation before applying dependency injection or any other refer to a topic by Uncle Bob called the clean architecture how it can be achieved what  you can benefit from it and how you chose the right architecture for your application ... btw you can apply same what dagger do by yourself yet those Libraries made to make our life easier.
+
+       https://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html
+    id: '1090440657662308'
+  - created_time: '2016-03-02T23:45:40+0000'
+    from:
+      name: Bassem Qoulta
+      id: '10213297665910522'
+    message: Thnx , I'm doing on it nw .. but the code which I read used dagger .
+      so i'm trying understand the mixing between them
+    id: '1090441370995570'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE1TURRd01ESXpNRGs1T1RZANE5Eb3hORFUyT1RVNE5EVXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE1TURRME1UTTNNRGs1TlRVM01Eb3hORFUyT1RZAeU16UXcZD

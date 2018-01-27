@@ -1,0 +1,125 @@
+---
+message: انا عامل dual boot ubuntu  w windows  فنسخه ubuntu وقعت فكل ماافتح الاب يفتح
+  على نسخه الابويتو مش الويندوز حد عنده حل ؟؟؟
+link: https://www.facebook.com/photo.php?fbid=1404454199626771&set=gm.1411858845520486&type=3
+from:
+  name: Sherif El-Gaml
+  id: '1820077408064446'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/17191155_1404454199626771_1452293893943715195_n.jpg?oh=1ef3eba83ec84a11c34b1eb63b67572b&oe=5AE389FD
+created_time: '2017-03-07T11:33:53+0000'
+updated_time: '2017-03-08T14:51:13+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1411858845520486/
+id: '172338516139198_1411858845520486'
+reactions:
+  data:
+  - id: '1167702619999771'
+    name: Ahmed Omar
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlPREF4TXpNM05qSXdPakUwT0RnNU1ERTVOelk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlPREF4TXpNM05qSXdPakUwT0RnNU1ERTVOelk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-03-07T11:48:47+0000'
+    from:
+      name: Ali Bedaer
+      id: '1427552707353556'
+    message: احرق اى نسخه  على ubuntu على فلاشه اعملها bootable وادخل عليها live ومنها
+      تسطب برنامج اسمه boot repair وتشغله وهو هيظبطلك الدنيا لوحده
+    id: '1411867372186300'
+  - created_time: '2017-03-07T11:49:09+0000'
+    from:
+      name: Mohamed Elshaarawy
+      id: '10211389848085196'
+    message: حصلت معايا المشكلة دى قبل كدا فى 3 commands بتكتبهم علشان تعرف تخليه
+      يعمل boot على windows بس للأسف هتكتبهم كل مره
+    id: '1411867588852945'
+  - created_time: '2017-03-07T11:49:21+0000'
+    from:
+      name: Mahmoud Ghandour
+      id: '1386230231487509'
+    message: https://youtu.be/KV84OabGB08
+    id: '1411867775519593'
+  - created_time: '2017-03-07T11:56:10+0000'
+    from:
+      name: Seif Atalla
+      id: '577907769208604'
+    message: "اكتب ls \nواعرف البرتشن االي عليه سيستم و اكتب set root + partition
+      \nوسيرش شويه عشان لو موقع حاجه"
+    id: '1411872342185803'
+  - created_time: '2017-03-07T12:04:36+0000'
+    from:
+      name: Ibrahim Mohammed
+      id: '1886120441698692'
+    message: "ما انت خش البيوس و غير ال boot priority \nانا عندى لازم يسألنى الاول
+      عايز اخش ايه"
+    id: '1411877638851940'
+  - created_time: '2017-03-07T12:12:09+0000'
+    from:
+      name: Mahmoud Shady
+      id: '1548125758558672'
+    message: "هتفتح بوت على اي اسطوانة ويندوز وتعمل repair \nوتفتح command prompt
+      وتكتب الاوامر دي\nfixmbr\nfixboot"
+    id: '1411881092184928'
+  - created_time: '2017-03-07T12:35:18+0000'
+    from:
+      name: Amera Wageeh
+      id: '1846782672022423'
+    message: حصلت معايا المشكلة دي قبل كدا بسبب ابديت لويندوز 10 وكان الحل اني نزلت
+      نسخة من grub  وعملتلها بوت مع نسخة ابونتو على الفلاش ميموري وشغلت نسخة الابونتو
+      وعملت boot repair والمشكلة اتحلت الحمد لله
+    id: '1411896918850012'
+  - created_time: '2017-03-07T12:53:30+0000'
+    from:
+      name: Sherif El-Gaml
+      id: '1820077408064446'
+    message: شكرا ياجماعه المشكله اتحلت الحمد لله
+    id: '1411908895515481'
+  - created_time: '2017-03-07T15:53:33+0000'
+    from:
+      name: Ahmed Omar
+      id: '1167702619999771'
+    message: "اعتقد حاجة زي دي ممكن تنفعك \n\nhttps://help.ubuntu.com/community/Boot-Repair"
+    id: '1412048678834836'
+  - created_time: '2017-03-07T19:51:16+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: 'في سؤال: يا ترى عرفت ليه نسخة الأوبنتو وقعت؟!'
+    id: '1412212778818426'
+  - created_time: '2017-03-07T23:32:19+0000'
+    from:
+      name: Sherif Hesham
+      id: '10204188528229884'
+    message: happened to me before, boot-repair got the job done but i was thrown
+      into a black screen 2 days later, after a couple failed trials to solve it without
+      needing a grub disk every time i boot i backed up my stuff and wiped my drive
+      clean :(
+    id: '1412358818803822'
+  - created_time: '2017-03-08T14:51:10+0000'
+    from:
+      name: Ramy Ragab
+      id: '10214548274996939'
+    message: "هتفتح بوت على اي اسطوانة ويندوز وتعمل repair \nوتفتح command prompt
+      وتكتب الاوامر دي\nfixmbr\nfixboot"
+    id: '1413045735401797'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF4TVRnMk56TTNNakU0TmpNd01Eb3hORGc0T0RnM016STMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF4TXpBME5UY3pOVFF3TVRjNU56b3hORGc0T1RnME5qY3cZD
+attachments:
+  data:
+  - description: انا عامل dual boot ubuntu  w windows  فنسخه ubuntu وقعت فكل ماافتح
+      الاب يفتح على نسخه الابويتو مش الويندوز حد عنده حل ؟؟؟
+    media:
+      image:
+        height: 540
+        src: https://scontent.xx.fbcdn.net/v/t1.0-0/p180x540/17191155_1404454199626771_1452293893943715195_n.jpg?oh=df565891f5e700d488821cb3f4f2b53c&oe=5ADB8281
+        width: 720
+    target:
+      id: '1404454199626771'
+      url: https://www.facebook.com/photo.php?fbid=1404454199626771&set=gm.1411858845520486&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=1404454199626771&set=gm.1411858845520486&type=3

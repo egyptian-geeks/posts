@@ -1,0 +1,101 @@
+---
+message: "Hi Guys, \nFor those who familiar with Garbage Collector implementation,
+  I have a simple question, Why not to fire collect operation whenever an object become
+  unneeded, for example when setting some object to null or when returning from a
+  function, I want to add a method to collect one object and call it implicitly by
+  setting MyObject=null or explicitly using something like CG.Collect(MyObject) \n\nI
+  understand that moving memory is a bit costly, So I intend to invoke this method
+  in different thread\n\nMy idea is to replace current complicated GC implementation
+  with one simpler that simply get rid of objects once we don't need them by mark
+  it's memory as free/usable.\n\nWhat's wrong with my idea, Or maybe I misunderstand
+  something\nThanks in advance"
+from:
+  name: Bassam Abd Elhamid
+  id: '1955441501387657'
+type: status
+created_time: '2016-06-26T19:47:17+0000'
+updated_time: '2016-07-01T06:52:31+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1169940589712314/
+id: '172338516139198_1169940589712314'
+comments:
+  data:
+  - created_time: '2016-06-26T19:55:51+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: |-
+      Manually freeing memory isn't garbage collection. It's plain normal manual memory management.
+      Freeing resources when exiting scope is also provided in some programming languages. in C++, it's called RAII.
+    id: '1169943573045349'
+  - created_time: '2016-06-26T19:59:27+0000'
+    from:
+      name: Mohamed Moshrif
+      id: '1538447102877297'
+    message: If you do that, then there is no point of using GC. Just use C++ :D
+    id: '1169944946378545'
+  - created_time: '2016-06-26T20:08:32+0000'
+    from:
+      name: Mostafa Muhammad
+      id: '10155787111376210'
+    message: C++ Smart pointers do what you have just described but as far as I know
+      GC is a bit faster than Smart Pointers if all other factors are constant.
+    id: '1169949209711452'
+  - created_time: '2016-06-26T20:19:12+0000'
+    from:
+      name: Ahmad Hisham
+      id: '10159889607765058'
+    message: |-
+      This is not GC ... this is manual memory management, and a very simple implementation isn't even safe, maybe you are freeing an object which have references elsewhere, C++ and ObjectiveC have this ARC model, which counts the references about any new object and only frees it after the reference count is down to 0.
+      And in cases, it is the better way of doing  memory management, but the GC is something that the computer can do fairly well with very little intervention from the developer, and frees your precious time for things more important, like selecting the hex value of the color for that 10px UI element, or selecting the format of the error messages generated from your App/service :-P
+    id: '1169952133044493'
+  - created_time: '2016-06-26T20:23:54+0000'
+    from:
+      name: Ahmed Abo Mazin
+      id: '1758521440903748'
+    message: انا كنت بفكر فى الموضوع دة بالظبط بس لية تخلية يتفير لوحدة اولا دة هياخد
+      وقت عشان يفضى الميمورى مع كل object ثانيا ال sequential access  الخاصة بالميمورى
+      هيحصل فيها مشكلة فالطبيعى انك تعيد ترتيب ال Segments بتاع الميمورى لانك لم فضيت
+      مكانة فى الاول ال pointer بيشاور على المكان الفاضى اللى علية الدور عشان يملاه
+      باى حاجة فى ال heap فهيرجع ازاى للمكان الفاضى اللى انت فضيتة
+    id: '1169953833044323'
+  - created_time: '2016-07-01T03:17:38+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: "Garbage collection is trying to solve multiple problems\n1- Make memory
+      management automatic to make _your_ life easier. No leaked memory. No double-deletion.\n2-
+      Make memory allocation, deallocation & access fast. \n3- GC itself must be fast.
+      If it's slow, no one will use it.\n\nOn the surface, this might seem simple.
+      We will use reference counting (e.g. C++ shared_ptr), and the last pointer will
+      delete the object, right? Wrong. In a circular linked list you'll always have
+      a pointer, and you'll leak data.\n\nLet's try a different strategy: Every object
+      has a single owner, which will use it (e.g. unique_ptr). Everyone else who's
+      going to use it should use weak_ptr. In theory, it's a very nice idea. In reality,
+      most C++ code was not written with this in mind. They will use raw pointers,
+      or their own smart pointer! or they just need to share the responsibility, hence
+      going back to shared_ptr.\n\nSee here, there is no perfect solution. This is
+      why C++ provides you with _all of them_. Now you replaced the memory management
+      problem with a different problem!\n\nWhat GC is doing to solve this problem:
+      they will give you a pointer & you just write your code without worrying about
+      your memory 99% of the time. It tries to search for garbage, detecting cycles,
+      then clean them. As you said, this is a costly operation, better done in another
+      thread.\n\nLet's discuss (2): lots of allocation & deallocation means that memory
+      is fragmented & needs defragmentation. This means that the actual address of
+      the object will be changed. To manage this, you can use indirect referencing,
+      where the reference points to a table of objects which points to the actual
+      object address in memory. This allows your program to run concurrently with
+      the GC, but object access will be slower. Another solution is to use the actual
+      address, which makes object access faster, but the GC needs to pause your program
+      to run.\n\nAll of the above makes doing (3) really hard. One way to make the
+      GC faster is to split the heap into \"generations\": long-living objects will
+      live in one generation, and short-living objects will live on another. The GC
+      will scan the older generation less often, saving on time. A good question to
+      ask is: how to assign objects to generations? I won't answer here for 2 reasons:
+      a- I don't know the answer :D b) The answers come in the form of research papers.\n\nThis
+      link is an excellent starting point to know more http://c2.com/cgi/wiki?GarbageCollection.
+      Actually, C2 wiki is one of the best resources on the internet for programmers."
+    id: '1172676492772057'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUyT1RrME16VTNNekEwTlRNME9Ub3hORFkyT1Rjd09UVXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUzTWpZAM05qUTVNamMzTWpBMU56b3hORFkzTXpRek1EWXcZD

@@ -1,0 +1,41 @@
+---
+message: |-
+  Hello everyone,
+
+  I connect to a remote server running Windows Server 2012 R2 using RDP, this server has a group policy that logoff the server if idle after 3 hours. I can't change this policy and I use this server for running overnight activities on Jenkins. Any way I can override this policy?
+from:
+  name: Abdelrahman Y. ElFiky
+  id: '10155746533953941'
+type: status
+created_time: '2017-08-21T15:02:27+0000'
+updated_time: '2017-08-21T17:54:02+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1586194098086959/
+id: '172338516139198_1586194098086959'
+comments:
+  data:
+  - created_time: '2017-08-21T16:01:01+0000'
+    from:
+      name: Mohamed Asfour
+      id: '10156016150568334'
+    message: "You can not modify it through Local Group Policy, it is inhereting from
+      the Domain GPO\n\nBut every policy at the end is writing/modifying some keys/values
+      in Registry, and you can edit registry if you have a Local Admin permissions
+      \U0001F602\n\nSo if you searched for the registry location of this GPO, you
+      can change/overwrite it to desired values. \nBut GPO is regularly updated, so
+      it is better to re-overwrite every 1 hour for example (use schedule tasks) \n\nLast
+      thing:\nThis is just an info \"which I don't know if it is still valid today\",
+      we were using it in some administrative/management cases, and it is not allowed
+      to bypass a Domain GPO \"it is totally your responsibility here\""
+    id: '1586234171416285'
+  - created_time: '2017-08-21T16:04:07+0000'
+    from:
+      name: Mohamed Asfour
+      id: '10156016150568334'
+    message: "BTW, i think there is an easier solution\nIf you can simulate that you
+      are not idle\nYou can search for this tiny executable tools over internet \n\"most
+      of them do not even require an admin permission\""
+    id: '1586235884749447'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU0TmpJek5ERTNNVFF4TmpJNE5Ub3hOVEF6TXpNeE1qWXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU0TmpJek5UZAzRORGMwT1RRME56b3hOVEF6TXpNeE5EUTMZD

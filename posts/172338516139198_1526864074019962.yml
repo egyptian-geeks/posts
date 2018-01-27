@@ -1,0 +1,79 @@
+---
+message: |-
+  Okay
+  I need help figuring this one out
+  go to Facebook and click inspect element and then check the console (the one you write js code in and where the console.log() commands print)
+  you find the following (in the image)
+  how did they change the style of the printed words in it??
+link: https://www.facebook.com/photo.php?fbid=1535454853142146&set=gm.1526864074019962&type=3
+from:
+  name: Ahmed Moussa
+  id: '1750532274967735'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/19420894_1535454853142146_7351058643785584129_n.jpg?oh=1cbce8a99f86822a6dc88d096a9ac5cd&oe=5AD8EDD7
+created_time: '2017-06-25T21:10:33+0000'
+updated_time: '2017-06-25T21:38:14+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1526864074019962/
+id: '172338516139198_1526864074019962'
+reactions:
+  data:
+  - id: '1444984162297427'
+    name: Mohamed Fawzy
+    type: LIKE
+  - id: '1541854242578501'
+    name: Youssef El-Gendy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXpOVGMxTnpFNE16ZAzNPakUwT1RnMU1UY3lNek02TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlOakU0TVRrMU16WTVPakUwT1RnME1qVTFNRFk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-06-25T21:16:51+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "Maybe console.image or something similar \nhttps://github.com/adriancooney/console.image/blob/master/README.md"
+    id: '1526866984019671'
+  - created_time: '2017-06-25T21:21:59+0000'
+    from:
+      name: Ahmad El-Melegy
+      id: '10215984708437373'
+    message: https://developers.google.com/web/tools/chrome-devtools/console/console-write#styling_console_output_with_css
+    id: '1526872350685801'
+  - created_time: '2017-06-25T21:33:52+0000'
+    from:
+      name: Osama Soliman
+      id: '879271768900112'
+    message: |-
+      Check console API
+      https://developer.mozilla.org/en/docs/Web/API/console
+    id: '1526879164018453'
+  - created_time: '2017-06-25T21:38:11+0000'
+    from:
+      name: Ahmed Moussa
+      id: '1750532274967735'
+    message: thanks everyone :D
+    id: '1526881154018254'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV5TmpnMk5qazROREF4T1RZAM01Ub3hORGs0TkRJMU5ERTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV5TmpnNE1URTFOREF4T0RJMU5Eb3hORGs0TkRJMk5qa3gZD
+attachments:
+  data:
+  - description: |-
+      Okay
+      I need help figuring this one out
+      go to Facebook and click inspect element and then check the console (the one you write js code in and where the console.log() commands print)
+      you find the following (in the image)
+      how did they change the style of the printed words in it??
+    media:
+      image:
+        height: 205
+        src: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/19420894_1535454853142146_7351058643785584129_n.jpg?oh=1648679f346f342d13cb842b62aed534&oe=5AEC68C2
+        width: 720
+    target:
+      id: '1535454853142146'
+      url: https://www.facebook.com/photo.php?fbid=1535454853142146&set=gm.1526864074019962&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=1535454853142146&set=gm.1526864074019962&type=3

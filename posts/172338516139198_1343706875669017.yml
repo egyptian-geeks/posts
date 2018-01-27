@@ -1,0 +1,55 @@
+---
+message: Any idea how I can deploy a Django app on GitHub-Pages with the help of Firebase?
+from:
+  name: Mostafa Abdellatif Elgayar
+  id: '10156118743832220'
+type: status
+created_time: '2017-01-02T11:33:26+0000'
+updated_time: '2017-01-04T07:40:29+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1343706875669017/
+id: '172338516139198_1343706875669017'
+comments:
+  data:
+  - created_time: '2017-01-02T11:47:00+0000'
+    from:
+      name: Mahmoud Hossam
+      id: '1360912124012585'
+    message: Github pages are for static pages only.
+    id: '1343712222335149'
+  - created_time: '2017-01-02T13:02:15+0000'
+    from:
+      name: Alaa Ali
+      id: '10156025239731303'
+    message: |-
+      Django apps are not deploy-able on github pages, there is no server-side involved in github-pages. only static pages.
+      however if you want to have some kind of "dynamic" generated pages you can use static sites generators like Jekyll or Hexo.
+    id: '1343748122331559'
+  - created_time: '2017-01-02T13:55:15+0000'
+    from:
+      name: عبدالله محمد
+      id: '10213101784151931'
+    message: try Heroku ?
+    id: '1343791685660536'
+  - created_time: '2017-01-02T14:01:43+0000'
+    from:
+      name: Ahmed Atalla
+      id: '574320702905312'
+    message: You can use just firebase as back end and js on github ( you may use
+      react or angular)
+    id: '1343795725660132'
+  - created_time: '2017-01-02T14:26:41+0000'
+    from:
+      name: Amir Raouf Saad
+      id: '10214798901190713'
+    message: try heroku or pythonanywhere
+    id: '1343811318991906'
+  - created_time: '2017-01-03T01:49:29+0000'
+    from:
+      name: Ahmed Mūsā
+      id: '379428549186517'
+    message: طيب لو spring ? :D
+    id: '1344217515617953'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0wTXpjeE1qSXlNak16TlRFME9Ub3hORGd6TXpVM05qSXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0wTkRJeE56VXhOVFl4TnprMU16b3hORGd6TkRBNE1UWTUZD

@@ -1,0 +1,213 @@
+---
+message: ubuntu  16.04 lts   after update    with katoolin  :D  “THE SYSTEM IS RUNNIG
+  IN LOW GRAPHIC MODE” error   nvidia 525 cuda  can anyone solve this  ?   i tried
+  all these codes      في حل ؟
+link: https://www.facebook.com/photo.php?fbid=984332758308970&set=gm.1143043202402053&type=3
+from:
+  name: Hassan Mohamed
+  id: '1529784980430409'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/13177222_984332758308970_5256754192893842702_n.jpg?oh=60354258c23918431a4328ddcc33e7a2&oe=5B1F8EF5
+created_time: '2016-05-14T00:05:21+0000'
+updated_time: '2016-05-14T05:03:26+0000'
+name: Photos from Hassan Mohamed's post
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1143043189068721/
+id: '172338516139198_1143043189068721'
+comments:
+  data:
+  - created_time: '2016-05-14T00:10:09+0000'
+    from:
+      name: Mohammed Hussien
+      id: '10154922289347024'
+    message: Ubuntu 16.04 ?
+    id: '1143044979068542'
+  - created_time: '2016-05-14T00:10:42+0000'
+    from:
+      name: Hassan Mohamed
+      id: '1529784980430409'
+    message: yeah
+    id: '1143045149068525'
+  - created_time: '2016-05-14T00:10:52+0000'
+    from:
+      name: Hassan Mohamed
+      id: '1529784980430409'
+    message: after  update
+    id: '1143045239068516'
+  - created_time: '2016-05-14T00:12:03+0000'
+    from:
+      name: Mohammed Hussien
+      id: '10154922289347024'
+    message: is you driver supported ?
+    id: '1143045652401808'
+  - created_time: '2016-05-14T00:13:38+0000'
+    from:
+      name: Mohammed Hussien
+      id: '10154922289347024'
+    message: check if you can find it in this list https://help.ubuntu.com/community/RadeonDriver
+    id: '1143046135735093'
+  - created_time: '2016-05-14T00:14:10+0000'
+    from:
+      name: Mohamed Atia
+      id: '1449913351798387'
+    message: maybe try installing the original nvidia driver http://www.nvidia.com/object/linux-display-archive.html
+    id: '1143046325735074'
+  - created_time: '2016-05-14T00:14:45+0000'
+    from:
+      name: Hassan Mohamed
+      id: '1529784980430409'
+    message: ''
+    id: '1143046465735060'
+  - created_time: '2016-05-14T00:18:21+0000'
+    from:
+      name: Hassan Mohamed
+      id: '1529784980430409'
+    message: http://www.nvidia.com/Download/driverResults.aspx/97644/en-us
+    id: '1143047962401577'
+  - created_time: '2016-05-14T00:18:52+0000'
+    from:
+      name: Mohammed Hussien
+      id: '10154922289347024'
+    message: what is your CPU architecture ?
+    id: '1143048099068230'
+  - created_time: '2016-05-14T00:19:20+0000'
+    from:
+      name: Mohammed Hussien
+      id: '10154922289347024'
+    message: you are probably using a different architecture  you need to check this
+      :)
+    id: '1143048202401553'
+  - created_time: '2016-05-14T00:19:29+0000'
+    from:
+      name: Hassan Mohamed
+      id: '1529784980430409'
+    message: 64BIT
+    id: '1143048229068217'
+  - created_time: '2016-05-14T00:23:10+0000'
+    from:
+      name: Hassan Mohamed
+      id: '1529784980430409'
+    message: X86 FOR BOTH  Right ؟
+    id: '1143049139068126'
+  - created_time: '2016-05-14T00:23:35+0000'
+    from:
+      name: Hassan Mohamed
+      id: '1529784980430409'
+    message: "?"
+    id: '1143049225734784'
+  - created_time: '2016-05-14T00:24:30+0000'
+    from:
+      name: Hassan Mohamed
+      id: '1529784980430409'
+    message: IS THERE A CODE TO RUN IN TERMINAL ?
+    id: '1143049452401428'
+  - created_time: '2016-05-14T00:25:00+0000'
+    from:
+      name: Mohammed Hussien
+      id: '10154922289347024'
+    message: check this link :) http://askubuntu.com/questions/141606/how-to-fix-the-system-is-running-in-low-graphics-mode-error
+    id: '1143049585734748'
+  - created_time: '2016-05-14T00:27:05+0000'
+    from:
+      name: Hassan Mohamed
+      id: '1529784980430409'
+    message: i tried all these codes
+    id: '1143050225734684'
+  - created_time: '2016-05-14T00:27:48+0000'
+    from:
+      name: Hassan Mohamed
+      id: '1529784980430409'
+    message: it still gives me the error
+    id: '1143050422401331'
+  - created_time: '2016-05-14T00:30:08+0000'
+    from:
+      name: Hassan Mohamed
+      id: '1529784980430409'
+    message: sudo apt-get install nvidia-current
+    id: '1143051292401244'
+  - created_time: '2016-05-14T00:31:33+0000'
+    from:
+      name: Hassan Mohamed
+      id: '1529784980430409'
+    message: CPU
+    id: '1143051785734528'
+  - created_time: '2016-05-14T00:31:54+0000'
+    from:
+      name: Mohammed Hussien
+      id: '10154922289347024'
+    message: please check you Card details and check first if its supported or not
+      and download the right one for your architecture do these steps
+    id: '1143051849067855'
+  - created_time: '2016-05-14T00:34:13+0000'
+    from:
+      name: Hassan Mohamed
+      id: '1529784980430409'
+    message: ''
+    id: '1143052685734438'
+  - created_time: '2016-05-14T05:03:26+0000'
+    from:
+      name: Khaled
+      id: '1163673780435505'
+    message: Boot with the integrated graphics card first, then install nvidia. Try
+      first booting with nvidia disabled from BIOS then install the appropriate driver
+      in "Additional Drivers" make sure you chosoe the correct card, also make sure
+      to install the nvidia-current. Another option is, at the GRUB bootloader press
+      E, and add "nouveau.modeset=0" just after "quite splash" (or you can remove
+      splash to see what's happening). It should boot normally, then you install "additional
+      drivers". If this also doesn't work. The nuke option (which is recommended to
+      use it only once not permanently in your GRUB options) is to turn off the acpi
+      by adding "acpi=off" after "quite splash".
+    id: '1143149799058060'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUwTXpBME5EazNPVEEyT0RVME1qb3hORFl6TVRnME5qRXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUwTXpFME9UYzVPVEExT0RBMk1Eb3hORFl6TWpBeU1qQTIZD
+attachments:
+  data:
+  - subattachments:
+      data:
+      - media:
+          image:
+            height: 539
+            src: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/13220786_984332758308970_5256754192893842702_o.jpg?oh=365552bb97e27517526b81e367c89961&oe=5B22CE99
+            width: 720
+        target:
+          id: '984332758308970'
+          url: https://www.facebook.com/photo.php?fbid=984332758308970&set=gm.1143043202402053&type=3
+        type: photo
+        url: https://www.facebook.com/photo.php?fbid=984332758308970&set=gm.1143043202402053&type=3
+      - media:
+          image:
+            height: 540
+            src: https://scontent.xx.fbcdn.net/v/t31.0-0/p180x540/13235445_984333438308902_4762655724041138195_o.jpg?oh=ee051cd1c641e84c20327c93ebd5e484&oe=5ADB395E
+            width: 720
+        target:
+          id: '984333438308902'
+          url: https://www.facebook.com/photo.php?fbid=984333438308902&set=gm.1143043199068720&type=3
+        type: photo
+        url: https://www.facebook.com/photo.php?fbid=984333438308902&set=gm.1143043199068720&type=3
+      - media:
+          image:
+            height: 540
+            src: https://scontent.xx.fbcdn.net/v/t31.0-0/p180x540/13173294_984333868308859_5508987094940740808_o.jpg?oh=0453fd8e871ef0197fd178c8abc2218c&oe=5ADE76D9
+            width: 720
+        target:
+          id: '984333868308859'
+          url: https://www.facebook.com/photo.php?fbid=984333868308859&set=gm.1143043195735387&type=3
+        type: photo
+        url: https://www.facebook.com/photo.php?fbid=984333868308859&set=gm.1143043195735387&type=3
+      - media:
+          image:
+            height: 540
+            src: https://scontent.xx.fbcdn.net/v/t31.0-0/p180x540/13221319_984334061642173_990728423048690336_o.jpg?oh=8bb6dfa9aba294d2f0afd340b0950890&oe=5AEEAE79
+            width: 720
+        target:
+          id: '984334061642173'
+          url: https://www.facebook.com/photo.php?fbid=984334061642173&set=gm.1143043192402054&type=3
+        type: photo
+        url: https://www.facebook.com/photo.php?fbid=984334061642173&set=gm.1143043192402054&type=3
+    target:
+      id: '1143043189068721'
+      url: https://www.facebook.com/media/set/?set=pcb.1143043189068721&type=1
+    title: Photos from Hassan Mohamed's post
+    type: album
+    url: https://www.facebook.com/media/set/?set=pcb.1143043189068721&type=1

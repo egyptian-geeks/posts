@@ -1,0 +1,40 @@
+---
+message: |-
+  Angular js :
+
+  I need to post an object to server side and return an array using ngResource query  but query not accept object as a parameter .
+from:
+  name: Ahmed Mostafa
+  id: '1463621953765328'
+type: status
+created_time: '2016-08-08T07:50:08+0000'
+updated_time: '2016-08-08T11:21:08+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1198761946830178/
+id: '172338516139198_1198761946830178'
+reactions:
+  data:
+  - id: '934141160079681'
+    name: Ali She'sha
+    type: LIKE
+  - id: '1061734923967862'
+    name: Amira Mohamed
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTBOVEUwTVRZAeE5qVXhPakUwTnpBMk56Y3pPRFk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXpPVFF3T1RReU9USTRPakUwTnpBMk5UZAzVPREU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-08-08T08:13:50+0000'
+    from:
+      name: Ahmed Atalla
+      id: '574320702905312'
+    message: |-
+      ngResource support standard http methods , query will return all objects , get takes :id  and return single object. ,..... etc
+
+      https://docs.angularjs.org/api/ngResource/service/$resource
+    id: '1198779820161724'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU1T0RjM09UZA3lNREUyTVRjeU5Eb3hORGN3TmpRME1ETXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU1T0RjM09UZA3lNREUyTVRjeU5Eb3hORGN3TmpRME1ETXgZD

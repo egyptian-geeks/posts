@@ -1,0 +1,66 @@
+---
+message: can i control internet wifi connections and generate both IP addresses and
+  passwords using arduino ? if not what other kits can i use ??? any help please :D
+from:
+  name: Mrehan Elshehawy
+  id: '1770625066289989'
+type: status
+created_time: '2015-10-19T11:05:25+0000'
+updated_time: '2015-10-20T20:54:32+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1021360257903682/
+id: '172338516139198_1021360257903682'
+comments:
+  data:
+  - created_time: '2015-10-19T12:11:19+0000'
+    from:
+      name: Ahmad Tolba
+      id: '1923113658002033'
+    message: |-
+      I guess the question is wrong.
+      but if you want to have more control over the WiFi bandwidth, access and these stuff, then you need a real router, or a server that do the job for you, maybe a "mikrotik" with "arduino" could do what you want.
+    id: '1021378107901897'
+  - created_time: '2015-10-19T12:13:37+0000'
+    from:
+      name: Mrehan Elshehawy
+      id: '1770625066289989'
+    message: i want to control only the access of any phone or laptop to a real internet
+      router but with a kit which can control any other circuit ...
+    id: '1021378611235180'
+  - created_time: '2015-10-20T20:32:12+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: |-
+      Looks like a XY problem*.
+      What do you _really_ want to accomplish?
+
+      [*] http://meta.stackexchange.com/a/66378
+    id: '1021906554515719'
+  - created_time: '2015-10-20T20:45:54+0000'
+    from:
+      name: Mrehan Elshehawy
+      id: '1770625066289989'
+    message: I think the question is clear i want a kit that i can use to make a system
+      in which i can generate ip addresses and passwords for amultiple users at the
+      same time to have an internet access
+    id: '1021910047848703'
+  - created_time: '2015-10-20T20:52:14+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: |-
+      Why not use a stock hotspot and have the Arduino or whatever connect to it and use the admin console (e.g. TELNET if available, or at worst use the HTTP administration page).
+
+      You should really read about the XY Problem. The question might be clear but your intent and your details aren't.
+    id: '1021911921181849'
+  - created_time: '2015-10-20T20:54:32+0000'
+    from:
+      name: Mrehan Elshehawy
+      id: '1770625066289989'
+    message: I don't want to discuss my project in detail i just want to qsk about
+      something that doesn't mean that i have xy problem
+    id: '1021912524515122'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF5TVRNM09ERXdOemt3TVRnNU56b3hORFExTWpVMk5qZA3cZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF5TVRreE1qVXlORFV4TlRFeU1qb3hORFExTXpjME5EY3oZD

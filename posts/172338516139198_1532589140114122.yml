@@ -1,0 +1,94 @@
+---
+message: "شباب حد عنده خبرة مع\n Material Dashboard Pro Angular 2 from Creative Tim\nازاى
+  اضيفها لويب سايت او اضيف عليها components\nالفكرة انها بتنزل angular app كامل هل
+  الصح انى ادخل اعدل فى الfiles بتعتها واضيف الحاجة مفيش docs ازاى اعمل ده best practice
+  بدل ما انا اعد بقرأ file file \nولما تتحط للبرودكشن ازاى اعملها build"
+from:
+  name: Hossam L Dokkani
+  id: '928444520664078'
+type: status
+created_time: '2017-06-30T19:23:17+0000'
+updated_time: '2017-07-01T16:06:43+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1532589140114122/
+id: '172338516139198_1532589140114122'
+comments:
+  data:
+  - created_time: '2017-07-01T04:58:00+0000'
+    from:
+      name: Tony Raoul Iscaros
+      id: '10156165643313420'
+    message: ممكن تحط هنا package.js ?
+    id: '1533024740070562'
+  - created_time: '2017-07-01T10:24:21+0000'
+    from:
+      name: Hossam L Dokkani
+      id: '928444520664078'
+    message: |-
+      {
+        "name": "material-dashboard-pro-angular2",
+        "version": "1.0.0",
+        "scripts": {
+          "start": "concurrently \"npm run tsc:w\" \"npm run lite\" ",
+          "lite": "lite-server",
+          "tsc": "tsc",
+          "tsc:w": "tsc -w"
+        },
+        "license" : "SEE LICENSE IN LICENSE.pdf",
+        "repository" :
+        {
+            "type" : "git",
+            "url" : "https://github.com/creativetimofficial/material-dashboard-pro-angular.git"
+        },
+        "dependencies": {
+          "@angular/common": "~2.4.9",
+          "@angular/compiler": "~2.4.9",
+          "@angular/core": "~2.4.9",
+          "@angular/forms": "~2.4.9",
+          "@angular/http": "~2.4.9",
+          "@angular/platform-browser": "~2.4.9",
+          "@angular/platform-browser-dynamic": "~2.4.9",
+          "@angular/router": "~3.4.9",
+          "@angular/upgrade": "~2.4.9",
+          "@types/core-js": "0.9.35",
+          "angular-in-memory-web-api": "0.3.1",
+          "ng-chartist": "1.1.0",
+          "angular2-google-maps": "~0.17.0",
+          "chartist": "~0.9.8",
+          "core-js": "~2.4.1",
+          "jquery": "~3.1.1",
+          "reflect-metadata": "~0.1.8",
+          "rxjs": "5.0.1",
+          "systemjs": "~0.19.41",
+          "zone.js": "^0.7.2"
+        },
+        "devDependencies": {
+          "@types/chartist": "~0.9.33",
+          "@types/core-js": "0.9.35",
+          "@types/jquery": "~2.0.34",
+          "@types/node": "~6.0.45",
+          "concurrently": "~3.0.0",
+          "lite-server": "~2.2.2",
+          "typescript": "~2.0.3"
+        }
+      }
+    id: '1533347340038302'
+  - created_time: '2017-07-01T14:04:05+0000'
+    from:
+      name: Amir Labib
+      id: '1667689846599794'
+    message: |-
+      from their website :-
+      documentation and SASS files comes with the pro version.
+    id: '1533504786689224'
+  - created_time: '2017-07-01T16:00:05+0000'
+    from:
+      name: Tony Raoul Iscaros
+      id: '10156165643313420'
+    message: "As you can see in scripts part\nYou can the following to build \n\"npm
+      start\"\nIt doesn't have a build script here , does it have a gulp.js or grunt.js
+      files ?"
+    id: '1533607706678932'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV6TXpBeU5EYzBNREEzTURVMk1qb3hORGs0T0RnMU1EZA3gZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV6TXpZAd056Y3dOalkzT0Rrek1qb3hORGs0T1RJME9EQTIZD

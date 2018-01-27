@@ -1,0 +1,160 @@
+---
+message: هل Single variable calculus مهم فى مجال البرمجة ؟ هل مطلوبة فى ال Algorithms
+  ولا ملهاش علاقة بهندسة البرمجيات ؟
+from:
+  name: Rafael Adel
+  id: '10156260406777122'
+type: status
+created_time: '2016-04-30T17:33:10+0000'
+updated_time: '2016-05-01T21:51:55+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1134844813221892/
+shares:
+  count: 1
+id: '172338516139198_1134844813221892'
+reactions:
+  data:
+  - id: '1579863445426307'
+    name: Abdulla Ahmed Seif
+    type: LIKE
+  - id: '10155965038378745'
+    name: Said Bakr
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlNRGd3TURFMU5EQTFPakUwTmpJd05URTNORE02TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TnpnNU1ESXpOelEwT2pFME5qSXdNemd3TkRZANk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-04-30T18:03:03+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: The more you UNDERSTAND, the better, the key word is UNDERSTAND, not
+      get an A or a certificate, or something you forget after the exam, you must
+      LEARN as much as you can
+    id: '1134858939887146'
+  - created_time: '2016-04-30T21:13:06+0000'
+    from:
+      name: Ahmed Rashad Basuony
+      id: '10213719664640689'
+    message: |-
+      If you are interested about problem solving skills, I would recommend websites like topcoder.com or codeforces.com and seach for the topic that you want to train on after you have read about them from other sources.
+
+      About using them daily in your job or not, it highly depends on the nature of the projects you work on.
+    id: '1134940336545673'
+  - created_time: '2016-04-30T21:20:17+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: Khan Academy is also great and so is code academy. HackerRank.com and
+      codility.com are also good for testing your skills. I would start easy, get
+      used to writing code, like swaping variables, comparing, create a sort interface
+      and have a default method that swaps variables, then get every sort class you
+      write to implement the interface. Just start very easy, and incrementally get
+      harder questions, don't feel like you have to rush into anything. The smarter
+      person is not the one who learns quicker, but the one who understands deeper,
+      and that person might take more time than average but once he gets the concept,
+      he flies past everyone else. An good example of that was Einstein.4
+    id: '1134942756545431'
+  - created_time: '2016-04-30T22:01:53+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: "من الأسهل الاجابة إيه اللي مش محتاج تفاضل وتكامل.معظم التعليم الأساسي
+      بتتعلم الأدوات الرياضية اللازمة للتعامل مع القيم الثابتة فقط. التفاضل هو انك
+      توسع صندوق الادوات لدراسة القيم المتغيرة لحظيا. التكامل عشان تدرس القيم المتغيرة
+      في فترة زمنية.\n\nفي الرابط  https://i.imgur.com/JdIqPUP.gifv مدفع الدبابة بيتصرف
+      مع تغيرات لحظية (يعني تفاضل) و تغيرات بتمتد لمدة زمنية (تكامل). هندسة التحكم
+      اللي بتمكن كده مبنية على التفاضل والتكامل.\n\nبس عامة ده مجرد مثال. إنت حتحتاجها
+      في أي مجال هندسي/رياضي/فيزيائي عندك فيه دوال غير ثابتة (يعني تقريبا كل حاجة
+      عشان الحاجات اللي مش بتتغير مملة). بعض الأمثلة الأخرى:\n- لو عايز تقارن ما بين
+      الخواص ال asymptotic لخوارزميتين ممكن تسحسبها ب L'Hospital\n- لو عايز تضرب أعداد
+      كبيرة (BigInt) بكفاءة فممكن تعملها ب ال Fast Fourier Transform (التعامل مع الاعداد
+      الكبيرة (مئات الخانات العشرية) شائع في التشفير) \n- حساب الدوال المثلثية في
+      لغة البرمجة اللي بتستخدمها غالبا بال Chebyshev polynomials\n- لو عايز تحسب الحركات
+      اللازمة لتحريك يد روبوت غالبا حتحسب في ال S-Plane بعد ما تعمل Laplace Transform\n-
+      مجال الاتصالات (Signal Engineering) كذلك بتشتغل طول الوقت ب Laplace Transform\n-
+      Newton Raphson طريقة شائعة لحساب الجذر التربيعي ودوال أخرى بشكل تقريبي.\n- هندسة
+      التحكم كلها زي ما في المثال.\n- ال Machine Learning كله.\n- التعامل مع الضوء
+      مثلا في ال Computer Graphics. \n- Data compression\n- الاحصاء.\n- ... إلخ\n\nبس
+      more practically، الحاجات المهمة حتلاقيها في مكتبات حد تاني كتبها وفي معظم الحالات
+      مش حتحتاج تعرف هي شغالة ازاي أساسا.\nبس إنت اللي بتقرر أولوياتك. لو اتجاهك أكتر
+      لل web development مثلا فلأ غالبا عمرك ما حتحتك بها مباشرة.\nلو حتبرمج simulations
+      حيبقى ده كل شغلك.\n\nعلى أي حال. لا يضر انك يكون عندك فهم للموضوع ولو على مستوى
+      منهج الوزارة بتاع علمي رياضة."
+    id: '1134955613210812'
+  - created_time: '2016-04-30T23:20:24+0000'
+    from:
+      name: Shady Atef
+      id: '10213518317565801'
+    message: "It will depend on which field, you will work in as a programmer .. \neg.
+      If you choose to be become web developer... you won't use maths at all ... or
+      Maybe a little algebra for design calculations ..\nIf you will work in Control
+      System.. you won't use Single Variable calculus, you will use multiple variable
+      calculus, a lot of Maths theorem...... Although you will use Matlab for working
+      these calculations out, \nbut it's much better for to understand what does this
+      graph mean ??"
+    id: '1134990756540631'
+  - created_time: '2016-04-30T23:23:54+0000'
+    from:
+      name: Mohamed Moshrif
+      id: '1538447102877297'
+    message: بإختصار, مش هتحتاج أي معرفة بالرياضيات والفيزياء العميقه غير في حاجات
+      متخصصة جدا. حتي عالم برمجه الالعاب اللي المفروض معتمد اعتماد كلي على الموضوع
+      ده, مبقاش محتاج ده غير لو هتعمل engine من الصفر ومعظم الشركات مش بيعملوا كده
+    id: '1134993796540327'
+  - created_time: '2016-05-01T00:49:23+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: Actually, this takes passion for learning out of the equation, you can't
+      just say "why do I need to learn?" or "what's in it for me?", if you have passion
+      for learning you will excel. At one time it was not common for people to know
+      statistics, now statisticians who know computer science are called data scientists.
+      It is true that you don't need even year 10 education to become an every day
+      web developer, BUT, why not dream of doing more? Or being multidisciplinary?
+      A programmer who just does web pages is OK, but a programmer who understands
+      a business vertical will probably have a much better career. Also, mathematics
+      can be used in many fields, you don't have to force yourself to learn, but if
+      you find that learning maths is fun and you are capable, then by all means expand
+      your horizons. In my experience, there were times where my mathematics background
+      and knowledge of business gave me hindsight that even the company owners couldn't
+      know, I would tell them how wrong a decision was or suggest a better decision,
+      but they would find out I was right 2 years later. In the end, knowledge is
+      power. A guy who knows only one platform and OS can get a job, but he cannot
+      compare to someone who knows multiple platforms and has the capability to dive
+      into technologies and science easily. Plus with the advances in robotics, solar
+      energy, data analysis, there is always room for a brainiac to expand his horizons.
+      Just don't limit yourself.
+    id: '1135024156537291'
+  - created_time: '2016-05-01T00:51:03+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: P.S. the same applies to Biology, Chemistry, Philosophy, Physics. Knowing
+      Physics and computers can produce many opportunities
+    id: '1135024533203920'
+  - created_time: '2016-05-01T01:10:37+0000'
+    from:
+      name: Rafael Adel
+      id: '10156260406777122'
+    message: To be honest guys, I want to stay away as far as I can from web development,
+      I know it's the dominating field and I know it would be hard to land a job in
+      a development field other than web. But i've been a web developer for 2 and
+      half years I guess, And i'd really love to move to something more, scientific..
+      that requires something more than just doing CRUDs and laying out pages... So
+      what i got from what you guys said, that knowing math is required in only some
+      specific fields.. I think i'll have a shot at it.. despite not having a job
+      so far :D
+    id: '1135033333203040'
+  - created_time: '2016-05-01T21:34:21+0000'
+    from:
+      name: Muhammad El-Hennawy
+      id: '10213118809797201'
+    message: Just in case you want to train yourself in "brain teasers" for interview
+      in Google. !!  :)
+    id: '1135555406484166'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV6TkRnMU9Ea3pPVGc0TnpFME5qb3hORFl5TURNNU16ZA3oZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV6TlRVMU5UUXdOalE0TkRFMk5qb3hORFl5TVRNNE5EWXgZD

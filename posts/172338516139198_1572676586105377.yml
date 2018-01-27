@@ -1,0 +1,158 @@
+---
+message: "السلام عليكم. يارب تكونوا بخير . \n\nازاي اقدر احدد لو فيه Article انها
+  بتتكلم عن شخص معين . ك Actor . \nبتتكلم عن تيم كوك . او عمرو دياب . او رمضان صبحي
+  . \n\nنقدر نحدد ان رمضان الي هنا اسم شخص مش الشهر . هل الموضوع ممكن يمشي باني اخزن
+  كل الاسامي عندنا ونبدأ نشتغل عليها ولا فيه علم معين science ممكن ابدأ اقرأ فيها
+  علشان تفيدني في حاجة زي كدا او يبقي عندي خلفية عن الموضوع . \nالموضوع محتاجه يوصلني
+  لحاجة زي اني لما ابحث في  جوجل عن\nwho is the ceo of google\nبيطلعلي النتيجة نفسها
+  علي طول مش نتائج بحث لسه هدور عليها . بيطلعي اسم الشخص . \n\nشكرا مقدما ."
+from:
+  name: Mohamed Fergany
+  id: '10215339863195300'
+type: status
+created_time: '2017-08-08T19:31:48+0000'
+updated_time: '2017-08-09T14:16:56+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1572676586105377/
+id: '172338516139198_1572676586105377'
+reactions:
+  data:
+  - id: '1581849685226929'
+    name: Ayman Elbery
+    type: LIKE
+  - id: '10212947071504226'
+    name: Eslam Hamouda
+    type: LIKE
+  - id: '1995393497144207'
+    name: Mohamed Bakry
+    type: LIKE
+  - id: '1026669237472416'
+    name: Ahmed Gamal
+    type: LIKE
+  - id: '10215300742852086'
+    name: Mahmoud Ali
+    type: LIKE
+  - id: '10156115350739764'
+    name: Mahmoud Tantawy
+    type: LIKE
+  - id: '1978009525783037'
+    name: Ahmed Magdy
+    type: LIKE
+  - id: '10155903911855943'
+    name: Ahmed Soliman
+    type: LIKE
+  - id: '1930813343600325'
+    name: Abd Elrahman Telb
+    type: LIKE
+  - id: '2255222947828552'
+    name: Mohammed Talal Zidan
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlNRFUzTXpnek1qTTNPakUxTURJeU5qVTJOekE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXdNakkyTURVeE9EUTVPakUxTURJeU1qQTVNVGM2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-08-08T19:33:23+0000'
+    from:
+      name: Mustafa Raslan
+      id: '10215087338480942'
+    message: "Emad Elsaid \nانت كنت اتكلمت علي حاجه زي كده ف who is"
+    id: '1572677466105289'
+  - created_time: '2017-08-08T19:34:17+0000'
+    from:
+      name: Ahmed Magdy
+      id: '1978009525783037'
+    message: حاجات زي كدا ف NLP :3
+    id: '1572677996105236'
+  - created_time: '2017-08-08T19:34:25+0000'
+    from:
+      name: Ali Abd Elrahman
+      id: '1002647256557654'
+    message: "حاجة زي كدا ممكن تقرا في Natural Language Processing , NLP \nهتقدر تحدد
+      ال part of speech بتاع كل كلمة واعتقد فيه  algorithms جاهزة بتعمل كدا فلو انت
+      مثﻻ معاك text ممكن لو لقيت الكلمة اللي بتدور عليها تعرف هي اسم وﻻ فعل او كدا"
+    id: '1572678099438559'
+  - created_time: '2017-08-08T19:38:15+0000'
+    from:
+      name: Osman Ahmed Osman
+      id: '10101499994660478'
+    message: |-
+      Search about Google's Knowledge Graph to find out more. For English there are also API's that can do this for you (for instance, Alchemy API).
+
+      At Akhbarak we had actually built a system to do this in Arabic using the Wikipedia graph (which you can download). For your example about Ramadan Sobhy, it would look at the text, and it would match both Ramadan (month) and Ramadan (player). It would then look at other matches in that article that are connected to those two pages on Wikipedia and use that to decide which one to use (that's called disambiguation)
+    id: '1572680712771631'
+  - created_time: '2017-08-08T19:51:01+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: "Emad Elsaid I think you have some experience with that \U0001F609"
+    id: '1572689209437448'
+  - created_time: '2017-08-08T20:07:46+0000'
+    from:
+      name: Muhammad Yousef
+      id: '1823738041004235'
+    message: Read about, NER which stands for Named-Entity Recognition, It is a common
+      NLP subject
+    id: '1572699942769708'
+  - created_time: '2017-08-08T20:25:17+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: |-
+      الطريقة اللى بستخدمها فى https://www.whoispopulartoday.com/ بدائية شوية، انني يجيب كل الاسماء من ويكيبيديا وبعدين اشوف لو الاسم ده موجود فى الخبر، ومش بقدر اعرف لو الاسم كلمة واحدة زي رمضان  لازم يكون الاسم كامل "رمضان صبحي" لكن قبل ما اعمل الtagging ده بعدي كل النصوص سواء الاسماء او الاخبار على normalizer  بيشيل اي حاجة مالهاش لازمة زي الايموجيز والحروف الغير عربية وبيوحد بعض الحروف اللى شائع يحصل فيها اخطاء املائية زي ال"ي ى" وال ه ة والالف بكل همزاتها وبشيل كل التشكيل وبعدين اشوف لو الاسم موجود.
+      الجزء من العلم اللى بيتكلم على الموضوع ده زي ما محمد يوسف بيقول كده NER ده بتديله نص بيقولك ده اسم شخص وده اسم مكان وده تاريخ وده وقت وده اسم وزارة بيعرف كده من حاجات كتير زي انه بيعرف الافعال والاسماء وحروف الجر وبعدين فيه موديل كده بيقولك لو كلمة جاية بعد كذا وبعدها كذا تبقى احتمال بنسبة x% انها تكون اسم شخص مثلا، الموديل ده بيطلع من تدريب على نصوص موجودة وبعدين بيقدر يكتشف ده فى النصوص اللى بتديهاله من اللى اتعلمه، فيها حاجات كتير فى الموضوع ده معظمها انجليزي، فيه اناس عاملة ابحاث فى العربى بس الدقة لسة مش عالية وهيكون بعد كده عليك فى الاخر انك تعرف ان "رمضان" و "رمضان صبحي" اللى الالجوريزم اكتشفه ده هو نفس الشخص.
+      فيه مشاكل تانية زي التشابه فى الاسماء زي "أحمد عز" الممثل وبتاع مصانع الحديد والصلب هو نفس الاسم بس الشخص مختلف, دي برضه عليك تكتشفها، احيانا ممكن تفرق على حسب الدولة وساعات على حسب السياق فنون ولا صناعة لكن المشكلة اكبر فى لاعبين كرة قدم ليهم نفس الاسم.
+      الموضوع كبير انا مش متخصص فيه انا هاوي بس بعمل بيه مشروعات جانبية كده بس المدخل ليك هو الNLP وخصوصا الNER
+    id: '1572710139435355'
+  - created_time: '2017-08-08T20:30:42+0000'
+    from:
+      name: Muhammad Yousef
+      id: '1823738041004235'
+    message: |-
+      I suggest you to use the NLTK library which has a pre-trained machine learning classifiers, models, ..etc.
+      In order to achieve most of NLP functions.
+    id: '1572713496101686'
+  - created_time: '2017-08-08T21:52:21+0000'
+    from:
+      name: Basma Osman
+      id: '10155458642069624'
+    message: NLP science  there is many libraries for English  language  but Arabic
+      isn't much as English . If you post on big data group  you will find ones who
+      have experience in the world of  NLP
+    id: '1572760196097016'
+  - created_time: '2017-08-08T21:56:37+0000'
+    from:
+      name: Mohamed Taha
+      id: '1635412699859063'
+    message: انا شغال في مشروع جانبي وكنت محتاج حاجه زي كده NER system   عشان اعمله
+      كان فيه حلين قدامي ودول اللى ممكن اقترحهم عليك وهي انى استخدمهم API جاهزه او
+      انى اعمل انا السيستم واللى تقدر تستخدم فيه اما machine learning او  rule based
+      والافضل انك تعمل hyprid system  يجمع مميزات الاتنين دى ورقة بحثيه عن ال hyprid
+      https://www.researchgate.net/publication/268513573_A_Novel_Hybrid_Approach_to_Arabic_Named_Entity_Recognition
+    id: '1572762219430147'
+  - created_time: '2017-08-08T21:58:26+0000'
+    from:
+      name: Mohamed Taha
+      id: '1635412699859063'
+    message: ودى API بردوا وبامناسبه لو جربت فيها مثال "رمضان" هتقدر تفرق مابين الاسم
+      والشهر  https://www.rosette.com/capability/entity-extraction/#try-the-demo
+    id: '1572763049430064'
+  - created_time: '2017-08-09T14:15:35+0000'
+    from:
+      name: Ahmed Zaki
+      id: '1797366886980472'
+    message: |-
+      Checked stanford nlp tools?
+
+      https://nlp.stanford.edu/software/CRF-NER.shtml
+    id: '1573327499373619'
+  - created_time: '2017-08-09T14:16:48+0000'
+    from:
+      name: Ahmed Zaki
+      id: '1797366886980472'
+    message: https://sergey-tihon.github.io/Stanford.NLP.NET/StanfordNER.html
+    id: '1573328979373471'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUzTWpZAM056UTJOakV3TlRJNE9Ub3hOVEF5TWpJd09EQXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUzTXpNeU9EazNPVE0zTXpRM01Ub3hOVEF5TWpnNE1qRXgZD

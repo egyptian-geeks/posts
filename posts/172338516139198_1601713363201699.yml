@@ -1,0 +1,44 @@
+---
+message: |-
+  Is this the right way to use Math.Round method in C#? I've been searching the internet for help but wasn't able to come out with much
+
+  Main() {
+
+  Double num = 13.56;
+  Math.Round(num);
+  Console.WriteLine("num");
+  }
+
+  It prints out 13.56 instead of 14 for example. What am I doing wrong? How can I make it print the rounded value instead if the original
+from:
+  name: Mostafa Alaa
+  id: '10208596993002679'
+type: status
+created_time: '2017-09-08T13:33:25+0000'
+updated_time: '2017-09-08T16:06:53+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1601713363201699/
+id: '172338516139198_1601713363201699'
+comments:
+  data:
+  - created_time: '2017-09-08T13:37:39+0000'
+    from:
+      name: Osama Yousry
+      id: '302776110231223'
+    message: Shouldn't it be num = Math.Round(num) ?
+    id: '1601716176534751'
+  - created_time: '2017-09-08T16:06:45+0000'
+    from:
+      name: Hesham Desouky
+      id: '10215011048531592'
+    message: "This overload should return the nearest int32 \nIt seems that you are
+      facing the midpoint issue which you should another variant of the method\n\n\nIn
+      a midpoint value, the value after the least significant digit in the result
+      is precisely half way between two numbers. For example, 3.47500 is a midpoint
+      value if it is to be rounded two decimal places, and 7.500 is a midpoint value
+      if it is to be rounded to an integer. In these cases, the nearest value can't
+      be easily identified without a rounding convention.\n\nhttps://msdn.microsoft.com/en-us/library/system.math.round(v=vs.110).aspx"
+    id: '1601831739856528'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl3TVRjeE5qRTNOalV6TkRjMU1Ub3hOVEEwT0RjM09EWXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl3TVRnek1UY3pPVGcxTmpVeU9Eb3hOVEEwT0RnMk9EQTUZD

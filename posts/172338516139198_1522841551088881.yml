@@ -1,0 +1,111 @@
+---
+message: |-
+  انا بعمل weather app  ب استخدام openweathermap API
+  المهم الريسبونس بيقي ف الشكل الي ف الصورة ..ال --dt-- لما بحوله ل current date
+  بيجبلي تاريخ يناير 1970..هي المشكلة عندي و الي ف الريسبونس بتاع ال API
+  note that dt=current time in millis
+link: https://www.facebook.com/photo.php?fbid=1588654227835208&set=gm.1522841551088881&type=3
+from:
+  name: Bishoy Abd Lamey
+  id: '1809349152432380'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/19366111_1588654227835208_224436563507515395_n.jpg?oh=36a69182366f1831e2c118a8e9bbe6f5&oe=5AE77CB2
+created_time: '2017-06-21T17:45:16+0000'
+updated_time: '2017-06-21T18:10:29+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1522841551088881/
+shares:
+  count: 1
+id: '172338516139198_1522841551088881'
+reactions:
+  data:
+  - id: '1694785997245489'
+    name: Ali Mahmoud
+    type: LIKE
+  - id: '1394545720673871'
+    name: محمد عبدالله
+    type: LIKE
+  - id: '10216129314284453'
+    name: Amr Yousef
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhOREl6TVRVeU5qYzRPakUwT1RneE5UWTNOakE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRFNU9EVXhNRGN6TmpveE5EazRNRFk1TVRVek9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2017-06-21T17:50:07+0000'
+    from:
+      name: Michael Fikry
+      id: '1967048420001780'
+    message: hwwa el raqam da bey3abbar 3n eh?
+    id: '1522844914421878'
+  - created_time: '2017-06-21T17:50:51+0000'
+    from:
+      name: Marwan Nabil Baghdad
+      id: '1732181426802228'
+    message: is this epoch date?
+    id: '1522845327755170'
+  - created_time: '2017-06-21T17:51:40+0000'
+    from:
+      name: Bishoy Abd Lamey
+      id: '1809349152432380'
+    message: dt=current time in millis ...I will edit the post
+    id: '1522846121088424'
+  - created_time: '2017-06-21T17:52:07+0000'
+    from:
+      name: Amr Hesham
+      id: '1678725275519525'
+    message: هتلاقي الرابط الي حطينو ده للتجربه احذف example  من اول الرابط
+    id: '1522846397755063'
+  - created_time: '2017-06-21T17:53:37+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: أكيد المشكلة عندك لأنه لو من هناك كان هيطلع صفر في الريسبونس
+    id: '1522847544421615'
+  - created_time: '2017-06-21T17:55:50+0000'
+    from:
+      name: Maher Zaitoun
+      id: '10156951268919989'
+    message: |-
+      dt is Unix Time
+      The dt is for date and time.
+
+      The value of dt is in a format known as unix time
+
+      Unix time is a system for describing time, which is the number of seconds elapsed since 00:00:00 (UTC), Thursday, 1 January 1970.
+      يعني  المفروض تحسب الوقت
+    id: '1522848804421489'
+  - created_time: '2017-06-21T17:59:17+0000'
+    from:
+      name: Bishoy Abd Lamey
+      id: '1809349152432380'
+    message: the problem is solved ...thank you all..high five
+    id: '1522852734421096'
+  - created_time: '2017-06-21T18:10:28+0000'
+    from:
+      name: Ahmed Allam
+      id: '1820268484691717'
+    message: "Japan \U0001F602✋"
+    id: '1522859481087088'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV5TWpnME5Ea3hORFF5TVRnM09Eb3hORGs0TURZAM05EQTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV5TWpnMU9UUTRNVEE0TnpBNE9Eb3hORGs0TURZANE5qSTQZD
+attachments:
+  data:
+  - description: |-
+      انا بعمل weather app  ب استخدام openweathermap API
+      المهم الريسبونس بيقي ف الشكل الي ف الصورة ..ال --dt-- لما بحوله ل current date
+      بيجبلي تاريخ يناير 1970..هي المشكلة عندي و الي ف الريسبونس بتاع ال API
+      note that dt=current time in millis
+    media:
+      image:
+        height: 215
+        src: https://scontent.xx.fbcdn.net/v/t1.0-9/19366111_1588654227835208_224436563507515395_n.jpg?oh=3e3cce174d08f8775ddf7aee69cd16b5&oe=5AE87D2F
+        width: 623
+    target:
+      id: '1588654227835208'
+      url: https://www.facebook.com/photo.php?fbid=1588654227835208&set=gm.1522841551088881&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=1588654227835208&set=gm.1522841551088881&type=3

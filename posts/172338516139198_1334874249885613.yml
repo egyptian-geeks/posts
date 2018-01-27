@@ -1,0 +1,76 @@
+---
+message: "جهازي اتصاب ب malware بيخلي اعلانات ادفلاي تطلع ف كروم \nجربت امسح ال extensions
+  و history \nجربت اعمل scan ب avast ملوش اي لازمة مع انه برميوم \nجربت برنامج anti
+  malware  مطلعش حاجة \n\nحد عنده اقتراحات \n؟؟"
+from:
+  name: Ahmed Mahmoud
+  id: '1917940025202392'
+type: status
+created_time: '2016-12-22T21:22:17+0000'
+updated_time: '2016-12-24T20:10:12+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1334874249885613/
+id: '172338516139198_1334874249885613'
+reactions:
+  data:
+  - id: '1876092405757348'
+    name: Ibrahem Mahmmoud
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdOams0TWpFME1qQXhPakUwT0RJME5EUTFNREU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXdOams0TWpFME1qQXhPakUwT0RJME5EUTFNREU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-12-22T21:57:37+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      try making a web request (to google maybe) using curl or fiddler, and see the response you get, if you got a redirect to adfly, then maybe the malware installed itself as a proxy or of some sort. I have no idea how you can remove that though.
+      If that test returned the expected http response though, then maybe the malware infected your browser (also try spoofing chrome's user agent), in that case maybe try reinstalling it.
+    id: '1334892199883818'
+  - created_time: '2016-12-22T22:04:25+0000'
+    from:
+      name: Mostafa Kasem
+      id: '2342288709130763'
+    message: |-
+      عارف ال maleware ده ، جالي من فترة وشلته..
+      الفكرة انه بيغير البراوزر نفسه ، هتلاقيه بيفتح فايل مختلف تماما غير كروم ، شوف مكانه وشيله وسطب فايروال وشيل كروم خالص وشيل البلاجنز الي عندك قبلها ، بعدها حمله تاني هيبقي كله تمام. قبل ما تعمل انستول لاي حاجة ادخل ال Programs وشيل اي حاجة غريبة.
+    id: '1334894936550211'
+  - created_time: '2016-12-22T22:08:01+0000'
+    from:
+      name: Ibrahem Mahmmoud
+      id: '1876092405757348'
+    message: "انا ماتخلصتش منه غير لما حملت الاضافه دي \ntampermonkey \nوبعدها ضفت
+      اسكربت بيعمل بلوك لاي لينكات متعلقة بالاعلانات بصراحة ريحني خالص من قرف الموضوع
+      دة \nوعلي الموبايل استخدمت adaway \nوانا عامل رووت للموبايل \nجربت اللي بيقول
+      علية قاسم مانفعش للاسف"
+    id: '1334896979883340'
+  - created_time: '2016-12-22T22:29:35+0000'
+    from:
+      name: Ben Othman
+      id: '1731136486948588'
+    message: Very simple, Antivirus take care of limited type of viruses, you need
+      to install Anti-malware, the best is malwarebytes... I would advise you to install
+      Avira.
+    id: '1334905936549111'
+  - created_time: '2016-12-22T23:18:08+0000'
+    from:
+      name: Hesham Amin
+      id: '1604225349657987'
+    message: I was infected with it. But I found the problem was with the router.
+      Check DNS settings in your router.
+    id: '1334934143212957'
+  - created_time: '2016-12-24T16:23:36+0000'
+    from:
+      name: Hossam Saraya
+      id: '10160260136260389'
+    message: If it's infecting other devices on your network, then probably your router
+      is infected with a malware that changes DNS (and you might not see it in your
+      routers settings page). In that case, you can restore your router firmware to
+      the latest version
+    id: '1336285253077846'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE16TkRnNU1qRTVPVGc0TXpneE9Eb3hORGd5TkRRek9EVTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE16TmpJNE5USTFNekEzTnpnME5qb3hORGd5TlRrMk5qRTIZD

@@ -1,0 +1,70 @@
+---
+message: |-
+  Any Suggestions for 50-Inch Screen Operations dashboard?
+
+  I need it to support Cloudwatch, as well as 3rd party sources, as well as a way to script some 3rd party integration, without major changes "Minimal effort".
+
+  I took a look at Grafana, it seems promising to my use case, Did any body use it before can give me some heads up about its caveats ?
+from:
+  name: Muhammad Negm
+  id: '10215093583796418'
+type: status
+created_time: '2017-04-22T22:25:47+0000'
+updated_time: '2017-04-23T20:02:58+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1462426833797020/
+id: '172338516139198_1462426833797020'
+comments:
+  data:
+  - created_time: '2017-04-22T22:42:07+0000'
+    from:
+      name: Mohamed Bassem
+      id: '10212826240185281'
+    message: grafana is only for creating the dashboards. It needs a data source and
+      this data source is what you need to support cloudwatch or 3rd party integrations.
+      Some famous data sources are graphite and prometheus.
+    id: '1462436437129393'
+  - created_time: '2017-04-23T11:24:41+0000'
+    from:
+      name: Ahmed Soliman
+      id: '10152402728970388'
+    message: LG makes very good 50-inch screens :)
+    id: '1462957017077335'
+  - created_time: '2017-04-23T18:44:33+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Promethous with Grafana
+    id: '1463283620378008'
+  - created_time: '2017-04-23T19:00:29+0000'
+    from:
+      name: Dina Reda
+      id: '10155123895506641'
+    message: |-
+      Grafana is just a visualization tool.. you need whatever is going to process/store the data as well ..
+      You can also check kibana .. part of the elastic stack .. it integrates with elastic search as the storage and logstash as the processing tool..
+      So similar to grafana
+    id: '1463293583710345'
+  - created_time: '2017-04-23T19:48:39+0000'
+    from:
+      name: Dina Reda
+      id: '10155123895506641'
+    message: |-
+      If all u care abt is dashboards .. why not create ur own using d3.js..
+      It is so easy and lots of available options are in there.. not tied to any particular architecture or backend ..
+    id: '1463323933707310'
+  - created_time: '2017-04-23T19:49:02+0000'
+    from:
+      name: Dina Reda
+      id: '10155123895506641'
+    message: U will find lots of open source charts and cool visuals using d3
+    id: '1463324140373956'
+  - created_time: '2017-04-23T20:02:55+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: I need something fast and dirty no time to write it from scratch
+    id: '1463331663706537'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEyTWpRek5qUXpOekV5T1RNNU16b3hORGt5T1RBd09USTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEyTXpNek1UWTJNemN3TmpVek56b3hORGt5T1RjM056YzIZD

@@ -1,0 +1,42 @@
+---
+message: "i am designing  cloud solution based on MicroService Archi  and   looking
+  for Job Queuing server  that has :\n\nRest API interface \nDocker ready(has official
+  docker image)\ndelayed jobs\nready templates for doing basic tasks like http post/get
+  \nmanagement web console UI\ncould integrate with dataDog \n\nthe purpose is as
+  simple as scheduling  http post in specific date \n\ni have tested celery (complex)
+  and KUE( donot expose all functionalities on Rest API)\n\nany idea about alternative
+  to Celery,KUE and SQS ?"
+from:
+  name: Mohamed Shaheen
+  id: '1990508241211666'
+type: status
+created_time: '2017-07-10T19:07:28+0000'
+updated_time: '2017-07-10T20:40:01+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1543458769027159/
+id: '172338516139198_1543458769027159'
+comments:
+  data:
+  - created_time: '2017-07-10T19:14:25+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: Is there a question somewhere?
+    id: '1543464062359963'
+  - created_time: '2017-07-10T19:41:26+0000'
+    from:
+      name: George Moheb
+      id: '10210440074417898'
+    message: i think celery would do the job, and there are plenty of examples online,
+      i do not get why u dislike it?
+    id: '1543491579023878'
+  - created_time: '2017-07-10T20:39:58+0000'
+    from:
+      name: Haitham Shaddad
+      id: '1591171607636188'
+    message: Which Cloud Platform are you using in order to suggest proper framework?
+      also, why are you making it as a micro service in the first place?
+    id: '1543527622353607'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUwTXpRMk5EQTJNak0xT1RrMk16b3hORGs1TnpFME1EWTEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUwTXpVeU56WXlNak0xTXpZAd056b3hORGs1TnpFNU1UazUZD

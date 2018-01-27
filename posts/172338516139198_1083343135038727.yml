@@ -1,0 +1,95 @@
+---
+message: |-
+  السلام عليكم
+
+  من فضلكم عندى عميل اشترى دومين نهايته org.eg - المشكلة انى مش عارف اشغل الدومين ده على جوداداى او arvixe - هل الدومين ده لازم يشتغل على هوستنج معين ؟
+
+  مع العلم انا شغال .net
+from:
+  name: Ahmed Amin
+  id: '1962172197389574'
+type: status
+created_time: '2016-02-20T09:38:22+0000'
+updated_time: '2016-02-21T09:42:30+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1083343135038727/
+id: '172338516139198_1083343135038727'
+reactions:
+  data:
+  - id: '10156071955196730'
+    name: Omar Hossam Ahmed
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRZAME5qSXhOekk1T2pFME5UVTVOams0TlRnNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRZAME5qSXhOekk1T2pFME5UVTVOams0TlRnNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-02-20T09:58:08+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: في الكنترول بانل بتاع الدومين يا اما تغير ال name server بالنيم سيرفر
+      بتاع الهوست..  يا اما تحط a record في ال zone file ببشاور ع الاي بي بتاع موقعك
+    id: '1083347671704940'
+  - created_time: '2016-02-20T10:01:02+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      المفروض الدومين ليه حاجة اسمها Name Server (من غير كلمة دومين} أو NS. ده المكان اللي الـ browser هيروح يسأله على الدومين، و بيكون IP أو أكتر.
+      المكان اللي شاري منه الدومين (الـ registrar) هو المكان اللي بتحط فيه الـ NS.
+
+      الـ NS بتجيب عنوانه من الـ Domain hosting اللي هو غير الـ Website hosting. ده المكان اللي بتحط فيه الدومين بيشاور على إيه (الـ DNS records نفسها). عادة لما بتشتري دومين من Godaddy أو NameCheap أو كده بييجي معاه Domain hosting فمش بتحس بالليلة دي.
+
+      فشوف الراجل اشترى الدومين منين، و الـ Nameservers اللي GoDaddy مديهالك إيه، وخليه يحطها هناك. مش عارف تفاصيل الـ Control Panel نفسها، خد لك لفة فيهم.
+    id: '1083348288371545'
+  - created_time: '2016-02-20T10:03:11+0000'
+    from:
+      name: Ahmed Amin
+      id: '1962172197389574'
+    message: يعنى ممكن اخليه يشتغل على ارفيكس او جودادى عن طريق انى اغير النيم سيرفر
+      للنيم سيرفر بتاع الهوست ؟
+    id: '1083348955038145'
+  - created_time: '2016-02-20T10:03:40+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: ايوة اهم حاجة انت معاك الكنترول بانل بتاع الدومين؟
+    id: '1083349188371455'
+  - created_time: '2016-02-20T10:05:58+0000'
+    from:
+      name: Ahmed Amin
+      id: '1962172197389574'
+    message: معايا جودادى ومعايا ارفيكس - كده يبقا اطلب من العميل البيانات دى صح والا
+      ايه ؟
+    id: '1083349735038067'
+  - created_time: '2016-02-20T10:17:46+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: |-
+      ايوة يعني الحاجة اللي تثبت انه هو صاحب الدومين ويتحكم فيه..  لو الموضوع بيتضبط من الهوست بس
+      كدة اي حد هياخد الدومين عنده لو حب..  انما صاحب الدومين لازم يبقى معاه كنترول بانل للدومين بيوزر وباسورد هم اللي بيعبروا اصلا عن ملكيته للدومين ده
+    id: '1083352391704468'
+  - created_time: '2016-02-20T11:15:10+0000'
+    from:
+      name: Ahmed Amin
+      id: '1962172197389574'
+    message: تمام الله ينور عليكم يا شباب وشكرا جدا ع المساعدة
+    id: '1083374308368943'
+  - created_time: '2016-02-20T11:16:07+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: العفو على ايه..  واحنا معاك لحد ما يشتغل ان شاء الله
+    id: '1083374451702262'
+  - created_time: '2016-02-20T16:23:52+0000'
+    from:
+      name: Taha Amin
+      id: '10155815529215590'
+    message: اشتريته من شركة ايه؟
+    id: '1083535351686172'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE0TXpNME56WTNNVGN3TkRrME1Eb3hORFUxT1RZAeU1qZAzQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE0TXpVek5UTTFNVFk0TmpFM01qb3hORFUxT1RnMU5ETXkZD

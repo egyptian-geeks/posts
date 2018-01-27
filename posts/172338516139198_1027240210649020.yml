@@ -1,0 +1,77 @@
+---
+message: |-
+  Not a Good News, our website www.kenrys.com got hacked and we managed to clean it.
+
+  Here is the issue for all of you guys to take care:
+
+  Check your wordpress website for the following:
+  1- Installed Plugin called "SEO Advisor"
+  2- In the plugins directory, any strange plugin folder like "Wordpress Researchers" or other not identified names.
+  3- Strange Tables in the WP DB like "wp_cont, wp_core_log"
+  4- Check your users and if there is any user added.
+  5- New posts published under you website and they will not appear under posts section in the Dashboard.
+
+  to make sure just do a search on google for all indexed urls example: "site:kenrys.com"
+
+  If you found anything from the above, then your website got hacked.
+
+  To clean it you have to do the following steps:
+
+  1- Take a backup (yes from the infected website, you might lose all content during the cleaning process - from database & files).
+
+  2- Remove all unwanted plugins (mentioned above), you might end up with a broken website, don worry if you found error regarding a plugin called xcalendar, then go edit the wp-config file and remove the line that call that plugin.
+
+  3- Install a security plugin like "Wordfence". and do a scan.
+  4- Go to database using "phpmyadmin" and search post in the wp_posts table, and delete the inserted posts.
+  5- Change all passwords, admin, database and even ftp or cpanel pass.
+  6- Make sure your wordpress and all plugins are updated.
+  7- Install a 404 redirect plugin to make use of the fake links as traffic ;)
+  8- Take another backup from the clean version.
+
+  Good luck, If you need any help, please let me know.
+link: http://www.kenrys.com/
+from:
+  name: Michael Henry
+  id: '10156301492765955'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQBv-BCxZoBA4aEg&w=130&h=130&url=http%3A%2F%2Fkenrys.com%2Fwp-content%2Fuploads%2F2014%2F01%2FKenrys_consultancy_Facebook_OG.png&cfs=1&sx=99&sy=0&sw=300&sh=300&_nc_hash=AQDHZ9StNXr7Swud
+created_time: '2015-11-02T15:30:38+0000'
+updated_time: '2015-11-02T15:30:38+0000'
+name: Kenrys - Startups Consultants - Egypt
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1027240210649020/
+id: '172338516139198_1027240210649020'
+reactions:
+  data:
+  - id: '10155746533953941'
+    name: Abdelrahman Y. ElFiky
+    type: LIKE
+  - id: '10214625918258969'
+    name: Ahmed Saber
+    type: LIKE
+  - id: '10159920485330710'
+    name: Kirollos Georges
+    type: LIKE
+  - id: '1613362202050513'
+    name: Ramzy Karam
+    type: LIKE
+  - id: '10155182529813309'
+    name: Mohamed El-Sayed
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRNeE5UQTRPVFF3T2pFME5EWTFORFUxT0RZANk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TmpnMk9Ua3pNekE0T2pFME5EWTBOemc1TnpjNk1qVTBNRGsyTVRZAeE13PT0ZD
+attachments:
+  data:
+  - description: Kenrys are startups consultants, who deliver innovative affordable
+      consultancy for web, mobile development, internet of things in Egypt
+    media:
+      image:
+        height: 300
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQBeT_0NlZgwYq0e&w=300&h=300&url=http%3A%2F%2Fkenrys.com%2Fwp-content%2Fuploads%2F2014%2F01%2FKenrys_consultancy_Facebook_OG.png&cfs=1&sx=99&sy=0&sw=300&sh=300&_nc_hash=AQCJ1OQPxP1adGKc
+        width: 300
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.kenrys.com%2F&h=ATO_3WTkfnEzbUMZ2nFGrbR_APze7SmbAI-m_yeUzM3AYCzeVDvWaaoorTOCdZo5pH_SfwPdD0n3QJym62MNbNsfOnWKLqp0ukb-&s=1&enc=AZP_uecMJcMP3FymMRrQ6doIBBm7RBCHeXG_63sTXWEWBeak8-d9jovPgDRNJInr8dAtlfj4rd3ErnVjjvWK9vLg
+    title: Kenrys - Startups Consultants - Egypt
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.kenrys.com%2F&h=ATO_3WTkfnEzbUMZ2nFGrbR_APze7SmbAI-m_yeUzM3AYCzeVDvWaaoorTOCdZo5pH_SfwPdD0n3QJym62MNbNsfOnWKLqp0ukb-&s=1&enc=AZP_uecMJcMP3FymMRrQ6doIBBm7RBCHeXG_63sTXWEWBeak8-d9jovPgDRNJInr8dAtlfj4rd3ErnVjjvWK9vLg

@@ -1,0 +1,62 @@
+---
+message: |-
+  حد برضه من خبراء اللينكس:
+  السماحيات على الملفات ممكن تأثر في وصول خادم الويب للملفات من خارج الشبكة المحلية ( من الإنترنت يعني)
+
+  عندي أباتشي وكنت مشغل عليه تطبيق لارافيل على مضيف تخيلي Virtual Host وكنت باوصل له ب Dynamic DNS بتاع freemyip وكل حاجة كانت شغالة زي الفل (علشان ما حدش يفكر في ال NAT وال Port forward ) لحد ما اتبعت إجابة السؤال المذكور في رابطه تحت، أصبح الوضع إن التطبيق بيتوصل له بس من الشبكة المحلية غير كدة ما بيوصلش
+  https://stackoverflow.com/questions/30639174/file-permissions-for-laravel-5-and-others
+  وده رابط سؤال بعته على server fault بخصوص الموضوع:
+  https://serverfault.com/questions/859185/web-application-becomes-inaccessible-from-outside-the-lan-after-changing-file-pe
+
+  ملحوظة: المضيف الافتراضي بتاع اﻷباتشي شغال زي الفل.
+from:
+  name: Said Bakr
+  id: '10155965038378745'
+type: status
+created_time: '2017-07-03T22:42:41+0000'
+updated_time: '2017-07-04T03:13:38+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1536132963093073/
+id: '172338516139198_1536132963093073'
+comments:
+  data:
+  - created_time: '2017-07-03T22:46:56+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: لا مالهاش علاقة
+    id: '1536135336426169'
+  - created_time: '2017-07-04T00:54:51+0000'
+    from:
+      name: Marwan Yassin
+      id: '10159953707250230'
+    message: "معنى الشبكة المحلية انك جربت من جهاز تاني على نفس الشبكة ولا جربت من
+      نفس الجهاز؟\n\nفي Apache error.log وaccess.log بيقولوا ايه؟\n\nاعمل الكومند
+      دي وشوف لو في صلاحيات غريبة او غلط \nls -lahR"
+    id: '1536236883082681'
+  - created_time: '2017-07-04T01:13:07+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: في ملحوظة لما بخلي Allowoverride None الموقع بيشتغل، بس طبعا ال rewrite
+      بيبوظ وبيقولي موش لاقي عنوان صفحة الدخول.
+    id: '1536250973081272'
+  - created_time: '2017-07-04T03:13:36+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: "أشكر كل اللي حاول يساعد: Amr ELsaqqa Marwan Yassin\nالموضوع يا رجالة
+      جه من ناحية تانية خالص... \"الراوتر\"\nانا عندي راوترين بابدل بينهم لل ADSL
+      واحد هاواوي والتاني تي بي لينك، وفي راوتر تالت وايرليس لينكسيس هو ده اللي بعمل
+      به الشبكة.\n\nالمشكلة كانت في الراوتر التي بي لينك وتحديدا في الفايرول بتاعه
+      وهو ده اللي كان بيمنع الوصول للآي بي باسم الدومين بتاع freemyip وبيسمح فقط بالوصول
+      للأي بي ويجوز لما بيبقى الريكويست فيه حاجات تانية كان بيمنعها وهو محتاج عمل
+      فلاتر واستثناءات في إعدادات اﻷمن بتاعته وانا بصراحة موش فاضي لها دلوقتي.\n\nمع
+      الراوتر الهاواوي كله شغال تمام ومفتوح على البحري :) \n\nاللي عمل اللبس حاجتين:
+      إني غيرت لراوتر التي بي لينك بعد ما عملت تغيير إعدادات السماحيات والحاجة التانية
+      إن دي أول مرة استخدم vhost علشان تخدم برة  زمان كنت بعمل ال ddns على الرووت
+      وخلاص."
+    id: '1536347266404976'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV6TmpFek5UTXpOalF5TmpFMk9Ub3hORGs1TVRJeU1ERTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV6TmpNME56STJOalF3TkRrM05qb3hORGs1TVRNNE1ERTIZD

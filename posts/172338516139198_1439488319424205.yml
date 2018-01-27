@@ -1,0 +1,129 @@
+---
+message: انا كل شوية انزل windosws 7  و مافيش يوم و الا تقع لوحدها كدا .. ايه السبب
+  ؟!
+link: https://www.facebook.com/photo.php?fbid=1414914111906898&set=gm.1439488319424205&type=3
+from:
+  name: Alaa El-Din A. Mohamed
+  id: '1729285650469741'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/983878_1414914111906898_6933476245272714605_n.jpg?oh=e48ef05a69d0ae7032138186071d1064&oe=5ADE2F39
+created_time: '2017-04-01T17:42:43+0000'
+updated_time: '2017-04-05T06:53:50+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1439488319424205/
+id: '172338516139198_1439488319424205'
+reactions:
+  data:
+  - id: '360747627725804'
+    name: Ahmed El Emary
+    type: LIKE
+  - id: '10154984458877397'
+    name: Ahmed Baher
+    type: HAHA
+  paging:
+    cursors:
+      before: TVRBd01ERXpOekUzTURnek5EY3dPakUwT1RFd09UWXpNREk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TlRNME1EVTNNemsyT2pFME9URXdPRFU0TVRRNk56ZAzROalE0TURNM09URXpNekV5
+comments:
+  data:
+  - created_time: '2017-04-01T17:45:40+0000'
+    from:
+      name: Abdullah Ahmed
+      id: '1769346766455501'
+    message: ممكن يكون bad sector فى الهارد
+    id: '1439491586090545'
+  - created_time: '2017-04-01T17:48:05+0000'
+    from:
+      name: Pola Ashraf
+      id: '10155173051963199'
+    message: Hardware issue in general
+    id: '1439493309423706'
+  - created_time: '2017-04-01T18:01:49+0000'
+    from:
+      name: Mohamed Asfour
+      id: '10156016150568334'
+    message: "نزل دا وشغله وشوف هيقولك ايه السبب عن طريق انه بيقرا ال windows dump
+      اللي بتحصل عند ال BSoD \n\nhttp://www.nirsoft.net/utils/blue_screen_view.html"
+    id: '1439506626089041'
+  - created_time: '2017-04-01T18:07:22+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: |-
+      غالبا الشاشات الزرقة دي بتبقى حاجة في الرام، لكنك بتقول إنك بتضطر تنزل ويندوز باستمرار، فده معناه إن في حاجات بتتكتب على الهارد وبتطير فده يقوي نظرية الهارد، وممكن تكون محظوظ للغاية وعندك الحاجتين مع بعض.
+      المهم، علشان تختبر الرامات، يبقى لازم تنزل Memory Test على أسطوانة وتبوت منه وتسيبه شغال يعمل دورتين او تلاتة فحص او لحد ما تلاقيه مطلع لك رسائل خطأ (الميموري تيست ما بيخلصش)
+      إذا كانت سليمة فيبقى انت حددت الموضوع في الهارد، وعلشان ما تظلموش اعمل له بأي برنامج فحص حتى ولو بتاع الويندوز ذاته.
+      بالنسبة لمشكلة إن الويندوز موش عاوز يدخل أصلا ممكن تجيب اسطوانة لأوبونتو وهتلاقي عليها ميموري تيست قبل ما تفتح، وبعد كدة تختار انك تشغل لينكس من غير تسطيب ولما يفتح تشغل برنامج فحص الهارد من عليه Live CD
+    id: '1439510209422016'
+  - created_time: '2017-04-01T18:14:38+0000'
+    from:
+      name: Muhammad Sherbeeny
+      id: '10159810258355527'
+    message: |-
+      من الاسطوانة او الفلاشة اللي بتسطب منها... ادخل على repair
+      وقلب كده في الحاجات المتاحة لحد ماتلاقي memory tests
+    id: '1439517736087930'
+  - created_time: '2017-04-01T18:39:40+0000'
+    from:
+      name: Mohammad Ali Diab
+      id: '10155065357586363'
+    message: "1- check windows event log (application log and system log )  \"eventvwr.msc'
+      to get the windows error. \n2- the error description will point you to a file
+      with extrnsion *.dmp. this is the file that windows generates when it says \"generating
+      dump file\" in blue screen\n3- load the *.dmp file using  winddg debugger. (google
+      for how to get it from windows sdk or driver kit )\n4- once you load the file
+      it will point you to the failed stack thread process dll ... . probably a drivern
+      *.sys file. \n\nif you wanna quick and blind waynto fix it. then just update
+      you windows. scan your hdd for S.M.A.R.T errors using trial hdd scan  (hddscan.com).
+      ( S.M.A.R.T ) is some health paramaters saved into each HDD. that can predict
+      if the hdd isndying. sorry for not posting links. writing from mobile\n\nalso
+      run memory test from bootable CD or usb."
+    id: '1439545292751841'
+  - created_time: '2017-04-01T19:10:18+0000'
+    from:
+      name: Mohamed Hammad
+      id: '1845002905572251'
+    message: Memory
+    id: '1439568449416192'
+  - created_time: '2017-04-01T19:26:19+0000'
+    from:
+      name: Hisham Fangary
+      id: '10156660518155839'
+    message: This looks and behaves like a RAM or hard drive issue. Memory is cheap
+      these days so replace them both and try again .
+    id: '1439580632748307'
+  - created_time: '2017-04-02T00:05:35+0000'
+    from:
+      name: Eslam Kamel Morsi
+      id: '2291703341056162'
+    message: "رامات أو دايرة الرامات في البورده \nمن الاخر بنسبة ٩٠٪"
+    id: '1439776306062073'
+  - created_time: '2017-04-02T03:37:25+0000'
+    from:
+      name: Hani Esmael
+      id: '2039422762992740'
+    message: Check the drivers you install
+    id: '1439924159380621'
+  - created_time: '2017-04-05T06:48:59+0000'
+    from:
+      name: Ibrahim Mohammed
+      id: '1886120441698692'
+    message: اعمل check for bad sectors ب hdd regenerator
+    id: '1443215949051442'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF6T1RRNU1UVTROakE1TURVME5Ub3hORGt4TURZANE56UXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEwTXpJeE5UazBPVEExTVRRME1qb3hORGt4TXpjME9UTTUZD
+attachments:
+  data:
+  - description: انا كل شوية انزل windosws 7  و مافيش يوم و الا تقع لوحدها كدا ..
+      ايه السبب ؟!
+    media:
+      image:
+        height: 540
+        src: https://scontent.xx.fbcdn.net/v/t31.0-0/p180x540/17758473_1414914111906898_6933476245272714605_o.jpg?oh=df58bbb80afcc61e5ea73b4cc3de6b79&oe=5AE7A11F
+        width: 720
+    target:
+      id: '1414914111906898'
+      url: https://www.facebook.com/photo.php?fbid=1414914111906898&set=gm.1439488319424205&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=1414914111906898&set=gm.1439488319424205&type=3

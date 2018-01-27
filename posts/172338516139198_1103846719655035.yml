@@ -1,0 +1,44 @@
+---
+message: Hi guys if anyone have hands on elasticsearch or have a production app working
+  with it. what is the best way for replicating the data? instant replication or queue
+  based replication or what is the cases when we can do this or that?
+from:
+  name: Alaa Attya Mohamed
+  id: '10212906316506161'
+type: status
+created_time: '2016-03-22T09:24:05+0000'
+updated_time: '2016-03-22T14:57:40+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1103846719655035/
+id: '172338516139198_1103846719655035'
+reactions:
+  data:
+  - id: '771652519692786'
+    name: Anas Rabei
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTFORFF4TXpRMU16WXhPakUwTlRnMk5EWTNORE02TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTFORFF4TXpRMU16WXhPakUwTlRnMk5EWTNORE02TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-03-22T11:43:26+0000'
+    from:
+      name: Anas Rabei
+      id: '771652519692786'
+    message: "I worked a little with ES but I have no idea about these types of replication.
+      Could you explain what are these types? \nAlso, can you tell us what you are
+      using ES for? only search? data analysis?"
+    id: '1103963692976671'
+  - created_time: '2016-03-22T12:08:56+0000'
+    from:
+      name: Peter Yanni
+      id: '10156055962709183'
+    message: |-
+      Alaa, I think Instant replication is better than queue replication.
+
+      And use cases depends on your situation, as you can use it to recover your ass if instance down or to load balance by write to master and read from secondary.. Etc.
+    id: '1103987956307578'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV3TXprMk16WTVNamszTmpZAM01Ub3hORFU0TmpRM01EQTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV3TXprNE56azFOak13TnpVM09Eb3hORFU0TmpRNE5UTTIZD

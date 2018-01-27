@@ -1,0 +1,85 @@
+---
+from:
+  name: Hussein Osman
+  id: '10215804044119360'
+type: status
+created_time: '2016-09-29T17:49:20+0000'
+updated_time: '2016-09-30T19:01:44+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1244954685544237/
+shares:
+  count: 1
+id: '172338516139198_1244954685544237'
+reactions:
+  data:
+  - id: '1672878506132188'
+    name: Bellal Mohamed
+    type: LIKE
+  - id: '2032504700100329'
+    name: Mohammed Yassin
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlNekF4TmpReU5qYzVPakUwTnpVek5qYzNPVGM2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXdNakkwTlRVNU56RXpPakUwTnpVek16UTVOak02TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-09-30T11:32:27+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      Would have been nicer of you to refer to the original English source of the images you are posting.
+      Is it http://dsheiko.com/weblog/websockets-vs-sse-vs-long-polling/ ?
+    id: '1245536108819428'
+  - created_time: '2016-09-30T18:47:07+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: |-
+      "...البوست دا هيغير فكرتك تمام عن مستقبل تقنيه الويب..."
+      بصراحة انا موش فاهم، فين المستقبل؟ الحاجات دي كلها موجودة من زمان؟!
+      هذا لا يمنع أنها مصطلحات ومفاهيم مهمة.
+    id: '1245838578789181'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkwTlRVek5qRXdPRGd4T1RReU9Eb3hORGMxTWpNMU1UUTUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkwTlRnek9EVTNPRGM0T1RFNE1Ub3hORGMxTWpZAeE1qSTQZD
+attachments:
+  data:
+  - subattachments:
+      data:
+      - description: Long polling
+        media:
+          image:
+            height: 214
+            src: https://scontent.xx.fbcdn.net/v/t1.0-9/14485118_10210870202656407_4191023448139490612_n.jpg?oh=7e2819a2741b7927f9171b54a62dd70a&oe=5B1D99F1
+            width: 620
+        target:
+          url: https://www.facebook.com/photo.php?fbid=10210870202656407&set=p.10210870202656407&type=3
+        type: photo
+        url: https://www.facebook.com/photo.php?fbid=10210870202656407&set=p.10210870202656407&type=3
+      - description: AJAX
+        media:
+          image:
+            height: 266
+            src: https://scontent.xx.fbcdn.net/v/t1.0-9/14516487_10210870203096418_5651741275170109783_n.jpg?oh=7cbb8e276f672eb99826125708aeee7e&oe=5B1E3218
+            width: 482
+        target:
+          url: https://www.facebook.com/photo.php?fbid=10210870203096418&set=p.10210870203096418&type=3
+        type: photo
+        url: https://www.facebook.com/photo.php?fbid=10210870203096418&set=p.10210870203096418&type=3
+      - description: Web sockets
+        media:
+          image:
+            height: 413
+            src: https://scontent.xx.fbcdn.net/v/t1.0-9/14492480_10210870203336424_4390584007429881811_n.jpg?oh=d335c922bdd2bfccc05d9a791325bf2b&oe=5AE20EE5
+            width: 580
+        target:
+          url: https://www.facebook.com/photo.php?fbid=10210870203336424&set=p.10210870203336424&type=3
+        type: photo
+        url: https://www.facebook.com/photo.php?fbid=10210870203336424&set=p.10210870203336424&type=3
+    target:
+      url: https://www.facebook.com/dev.hussein.osman/posts/10210870203736434
+    title: Photos from Hussein Osman's post
+    type: album
+    url: https://www.facebook.com/dev.hussein.osman/posts/10210870203736434

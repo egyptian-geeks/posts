@@ -1,0 +1,54 @@
+---
+message: "This is definitely the most 'Drive you to madness' bug ever! \nI kept staring
+  at the code for 3 hours trying to find what the heck is wrong with it....\nLong
+  story short, It's the new arrow function's 'this' source.\n#NodeJS #ES6 #bug #JS"
+link: https://derickbailey.com/2015/09/28/do-es6-arrow-functions-really-solve-this-in-javascript/
+from:
+  name: Abdalla M. Magdy
+  id: '10213020152031880'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQDuULORW0BQyEfU&w=130&h=130&url=http%3A%2F%2Fderickbailey.com%2Fwp-content%2Fuploads%2F2015%2F09%2Fundefined-this.jpeg&cfs=1&_nc_hash=AQBAFHq4SxkyOBXW
+created_time: '2017-06-20T01:16:19+0000'
+updated_time: '2017-06-20T06:27:15+0000'
+name: Do ES6 Arrow Functions Really Solve "this" In JavaScript? - DerickBailey.com
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1521156937924009/
+id: '172338516139198_1521156937924009'
+reactions:
+  data:
+  - id: '10160388991030144'
+    name: Momen Al Zalabany
+    type: LIKE
+  paging:
+    cursors:
+      before: TnprM05UTTFNVFF6T2pFME9UYzVNems0TVRNNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TnprM05UTTFNVFF6T2pFME9UYzVNems0TVRNNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-06-20T06:27:13+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: |-
+      hahaha, I remember I was code reviewing something and I found this function in middle "const selector = ()=> ((this||{}).ge||f=>f)( (variableName||{}).value );
+      thats someone how said "god damn U cannot set property of undefined"
+    id: '1521358391237197'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV5TVRNMU9ETTVNVEl6TnpFNU56b3hORGszT1RRd01ETXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV5TVRNMU9ETTVNVEl6TnpFNU56b3hORGszT1RRd01ETXoZD
+attachments:
+  data:
+  - description: ES6 arrow functions are a powerful addition to the JavaScript language,
+      and make the management of "this" very simple in many cases. But beware - there
+      are limitations to what arrow functions can do. Don't get caught unaware when
+      "this" attacks with arrow functions.
+    media:
+      image:
+        height: 634
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQCE15-49k4hl-DW&w=720&h=720&url=http%3A%2F%2Fderickbailey.com%2Fwp-content%2Fuploads%2F2015%2F09%2Fundefined-this.jpeg&cfs=1&_nc_hash=AQD_p_KwTg-mzlG4
+        width: 634
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fderickbailey.com%2F2015%2F09%2F28%2Fdo-es6-arrow-functions-really-solve-this-in-javascript%2F&h=ATMXcY_poqPW4Oy_o459Qz5nWmjxAhhgAFzyyXMSKHCNTNFLz3hKOn_MS4IhZkrfeIQ7m3_igCKpXlYfQ8CFg-7-UDq92YmvDir_&s=1&enc=AZMG8lrMUAekneao_S9aRX_U3cuxHg9x7YdZ_XKsHSsDxApVsd5f59B39m9TXFoHbH933UWUj6fvxTyWym6GpLla
+    title: Do ES6 Arrow Functions Really Solve "this" In JavaScript? - DerickBailey.com
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fderickbailey.com%2F2015%2F09%2F28%2Fdo-es6-arrow-functions-really-solve-this-in-javascript%2F&h=ATMXcY_poqPW4Oy_o459Qz5nWmjxAhhgAFzyyXMSKHCNTNFLz3hKOn_MS4IhZkrfeIQ7m3_igCKpXlYfQ8CFg-7-UDq92YmvDir_&s=1&enc=AZMG8lrMUAekneao_S9aRX_U3cuxHg9x7YdZ_XKsHSsDxApVsd5f59B39m9TXFoHbH933UWUj6fvxTyWym6GpLla

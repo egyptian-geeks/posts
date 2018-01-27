@@ -1,0 +1,43 @@
+---
+message: |-
+  السلام عليكم ورحمة الله وبركاته
+  كل عام والجميع بخير ... عندي سؤال ومش عارف صراحة اذا كان ده المكان المناسب ولا لأ ... فأرجوا العذر لو أخطأت.
+
+  عندي مشكلة في تطبيق بروتوكول SMPP بيني وبين أحد ال Service Providers ... المشكلة بدأت باني لاحظت انه في رسائل كتير المفروض توصلني وللاسف مش بتوصل، ودي في الغالب بتبقى عيب routing من عند ال SP ... ولكن بعد الفحص لقينا ان ال routing سليم 100% .. ولكن المشكلة كانت ان ال SP لقى اني فاتح معاه اكتر من connection وانا لما اجي اشوف من عندي الاقي هو connection واحد بس اللي مفتوح ... بعد جدال طويل وكمية TCP Trace ملهاش اول من آخر وتغير السيرفر وال SMPP Client Application لقينا ان ال logs عندي بتقول: "System error 104: Connection reset by peer" وده معناه ان الكونيكشن اتقفل عن طريق السيرفر اللي انا بكونكت عليه اللي هو خاص بال SP، وده اللي بيدفعني اني اعمل كونكشن جديد، وطبعا ال SP بيقول انا مش بقفل الكونكشن اصلا ومليش دعوة بالموضوع ده.
+
+  النهاردة اخدنا TCP Trace جديد ولقينا زي ما في الصورة ان ال RST/ACK جاية من عند ال SP لعندي انا، يعني معنى كدة اني مش انا اللي عامل ال RESET اصلا، ومع ذلك ال SP بيقولي لا الموضوع مش زي ما انا فاهم وان ده مختلف تماما واستشهد بالبوست ده https://networkengineering.stackexchange.com/questions/2012/why-do-i-see-a-rst-ack-packet-instead-of-a-rst-packet/2017#2017
+
+  انا اصلا مش فاهم network والموضوع بالنسبالي معقد جدا، خصوصا ان دي اول حالة من نوعها تقابلني، فياريت لو حد استوعب الموضوع يفهمني ايه حوار ال RST/ACK ومين اللي بيعمل ال RST لو تكرمتم.
+
+  توضيح: احنا متصلين ببعض عن طريق VPN وال VPN شغالة تمام بدون اي مشكلة على حسب ال DataCenter عندي وعلى حسب برضه ال SP
+
+  وشكراً
+from:
+  name: Ahmed Negm
+  id: '596555060725764'
+type: status
+created_time: '2017-06-13T19:28:27+0000'
+updated_time: '2017-06-13T19:28:28+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/1514567178582985/
+id: '172338516139198_1514567178582985'
+attachments:
+  data:
+  - media:
+      image:
+        height: 72
+        src: https://static.xx.fbcdn.net/rsrc.php/v3/yk/r/VCodXOH-RMH.png
+        width: 72
+    subattachments:
+      data:
+      - target:
+          id: '1514567178582985'
+          url: https://www.facebook.com/groups/egyptian.geeks/1514567178582985/
+        title: Photos from Ahmed Negm's post in Egyptian Geeks
+        type: album
+        url: https://www.facebook.com/groups/egyptian.geeks/1514567178582985/
+    target:
+      id: '465948977072987'
+      url: https://lookaside.fbsbx.com/file/RST-ACK.png?token=AWymicO81lAsYr_bhyLJ7hJM3DMFsaaqEiplPLgjZQtH2TtvC4-qGBsYMWe8DsiOuZo97-_ynVbfHS8qYc1XLXfO1N-oaf7W8qV074fUxtRZQR6taVJ5nfD3ykQC0HcZ4uVErF17fSio3DWOBKf3kQ0p7A1SWubmicUoD2dftpo7Ujeb4He-gGlhH8CyXHlBT0_Tngsw6w_3e5m1UJrh5svI
+    title: RST-ACK.png · version 1
+    type: file_upload
+    url: https://lookaside.fbsbx.com/file/RST-ACK.png?token=AWymicO81lAsYr_bhyLJ7hJM3DMFsaaqEiplPLgjZQtH2TtvC4-qGBsYMWe8DsiOuZo97-_ynVbfHS8qYc1XLXfO1N-oaf7W8qV074fUxtRZQR6taVJ5nfD3ykQC0HcZ4uVErF17fSio3DWOBKf3kQ0p7A1SWubmicUoD2dftpo7Ujeb4He-gGlhH8CyXHlBT0_Tngsw6w_3e5m1UJrh5svI

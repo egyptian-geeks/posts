@@ -1,0 +1,61 @@
+---
+message: "Slam Alikoum ,\n\nShabab i have a question in Spring boot and i need help
+  :\n\nIn my application i have a function which i marked it as Transactional , inside
+  this function i called 2 different methods which do some work on the db , as i know
+  i assume if any method of those two methods raise Exception ; the caller method
+  will rollback the changes on the db.\n\nIn my case if the second called method raises
+  Exception , the first called method still applying the work on the db and its change
+  is not rollbacked .\n\nWhat is the problem that makes this sort of issue ? \n\nSimple
+  code that describes my case \n@Transactional(propagation= Required, rollbackFor
+  = RuntimeException.class)\nfunction doOnDb() { \n try{\n      A() ; \n      B();\n
+  \ }catch (RuntimeException e){\n   throw e;\n  }|\n}\n\nNote this code is just to
+  describe my issue , and it is inside Service class in my application .\n\nAppreciate
+  your answer , and thanks in advance ."
+from:
+  name: Mohamed Sweelam
+  id: '1987222834640127'
+type: status
+created_time: '2017-11-13T02:24:55+0000'
+updated_time: '2017-11-13T19:49:56+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1660458370660531/
+id: '172338516139198_1660458370660531'
+reactions:
+  data:
+  - id: '1587359294686403'
+    name: Mohamed Ibrahim
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlNemN3TkRNd09EVXlPakUxTVRBMk1EYzNORGs2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlNemN3TkRNd09EVXlPakUxTVRBMk1EYzNORGs2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-11-13T03:36:47+0000'
+    from:
+      name: هشام إبراهيم
+      id: '10214782719499032'
+    message: I had the same issue before, I dun remember the exact the solution but
+      you have to enable transaction manager in your init bean, also ur dao interferface
+      should be annotated with transactional, I will search for the code and post
+      it.
+    id: '1660513103988391'
+  - created_time: '2017-11-13T05:42:32+0000'
+    from:
+      name: Hany Ahmed
+      id: '10156089330442292'
+    message: is the exception thrown of type RuntimeException ?
+    id: '1660584620647906'
+  - created_time: '2017-11-13T07:50:41+0000'
+    from:
+      name: Farouk Elabady
+      id: '10156125708187299'
+    message: there is two possiblities , one that method A is annotated with transactional
+      annotation requires new so it runs in a separate transaction and got commited
+      or two the exception thrown is not a runtime exception it ab exception exteneding
+      the Exception class which us a level highrr than runtime exception so the whole
+      method doesn't get rolledback
+    id: '1660657100640658'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkyTURVeE16RXdNems0T0RNNU1Ub3hOVEV3TlRRME1qQTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkyTURZAMU56RXdNRFkwTURZAMU9Eb3hOVEV3TlRVNU5EUXkZD

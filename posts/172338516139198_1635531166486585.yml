@@ -1,0 +1,63 @@
+---
+message: "دلوقتي دي الطريقه اللي بشتغل بيها علشان اكريت داتا بيز واربطها بالابليكشن
+  بتاعي \n1- define all entites \n2- define all properties\n3-map the relationships
+  \nودرست انواع العلاقات كويس و ازاي احولها ل سكول او باك اند \n*****\nدلوقتي هل في
+  طريقه استاندر افضل من دي\n*****\nدلوقتي لو الابليكشن بتاعي هيتقسم ل \nدوله - محافظه
+  - مدينه.. حاجه زي اوليكس كده \nهل الافضل اعمل tables واحده لكل الابليكشن ؟\nو لا
+  علشان ال performance اعمل نفس ال tables لكل مدينه او اصغر unit عندي في المساحه الجغرافيه
+  وكده كده في ال login او ال sign-Up المستخدم بيحدد المكان اللي عايزه؟"
+from:
+  name: Ahmed Khalifa
+  id: '1999765416908747'
+type: status
+created_time: '2017-10-17T14:50:42+0000'
+updated_time: '2017-10-18T05:47:33+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1635531166486585/
+id: '172338516139198_1635531166486585'
+reactions:
+  data:
+  - id: '10154969360020213'
+    name: Mohammed Thabet Zaky
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpFM05UZAzFNakV5T2pFMU1EZA3lPVGd3TXpZANk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TmpFM05UZAzFNakV5T2pFMU1EZA3lPVGd3TXpZANk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-10-17T15:43:16+0000'
+    from:
+      name: Ahmed Atalla
+      id: '574320702905312'
+    message: "Rules of relational databases  \nhttps://en.wikipedia.org/wiki/Codd%27s_12_rules"
+    id: '1635666753139693'
+  - created_time: '2017-10-17T16:11:04+0000'
+    from:
+      name: Diyaa Mahmoud
+      id: '1559170364118742'
+    message: "بالبنسبه للجزء التاني\nالقاعده بتقول ابدأ normalization الاول ولما يبقي
+      فيه مشاكل اعمل denormalization  \nلو حاجه زي اولكيس اللي ممكن فيه اغير العنوان
+      من دوله لدوله وفيه بيانات مشتركه فافضل تخد حل وسط وتعمل table partitioning بالدوله
+      أما موضوع اصغر وحده ده فشايفه   over   \nللحاله ديه \nطبعا الكلام ده نظري بافتراض
+      عندك مشاكل في  ال performance وحجم الداتا كبير والكلام ده كله غير كده خليك في
+      تابل واحد حاليا"
+    id: '1635686609804374'
+  - created_time: '2017-10-17T20:43:04+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: |-
+      Multi-tenant database system thats what u rblooking for.
+      I prefer u build ur system as one, and split tables as you grow. U can even get away with table partitioning if u have less than 10mill row per table
+    id: '1635902713116097'
+  - created_time: '2017-10-18T05:47:30+0000'
+    from:
+      name: Haitham Shaddad
+      id: '1591171607636188'
+    message: لو عدد ال records هتوصل المليارات يبقى قسمهم في كذا database مش في tables
+      مختلفه يعني ال ابلكشين يبقى multi tenant
+    id: '1636189536420748'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl6TlRZAMk5qYzFNekV6T1RZANU16b3hOVEE0TWpVME9UazIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl6TmpFNE9UVXpOalF5TURjME9Eb3hOVEE0TXpBMU5qVXgZD

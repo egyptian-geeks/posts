@@ -1,0 +1,55 @@
+---
+message: "Dear all \nam not mobile developer but i need to ask if this things can
+  be done or not : \n\n- can Bumb android device with IOS or not ?\n- best OCR framework
+  we can use in both android and IOS devices    in English and Arabic .\n- if i can
+  extract design of card  (i need to separate design and           words in card )
+  \n\nthanks in advance"
+from:
+  name: Mohamed Naser Amein
+  id: '1544104592377915'
+type: status
+created_time: '2016-10-11T16:24:28+0000'
+updated_time: '2017-03-13T17:46:25+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1255025707870468/
+id: '172338516139198_1255025707870468'
+reactions:
+  data:
+  - id: '1965907793738864'
+    name: Mustafa Qamaruddin
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTVOVGc1T0RjM09UWXdPakUwTnpZAeU1ETXlNelk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTVOVGc1T0RjM09UWXdPakUwTnpZAeU1ETXlNelk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-10-11T18:25:17+0000'
+    from:
+      name: Tony Raoul Iscaros
+      id: '10156165643313420'
+    message: What do you mean by bumb Android device with iOS ?
+    id: '1255122914527414'
+  - created_time: '2016-10-11T19:11:39+0000'
+    from:
+      name: Mohamad Kamal
+      id: '10155224465177344'
+    message: Ocr framework is tasereact
+    id: '1255148251191547'
+  - created_time: '2016-10-11T19:12:22+0000'
+    from:
+      name: Mohamad Kamal
+      id: '10155224465177344'
+    message: Extract design will have to be done by custom algorithms
+    id: '1255148541191518'
+  - created_time: '2017-03-13T17:46:21+0000'
+    from:
+      name: Mohammad Hosny
+      id: '10155052403705843'
+    message: "for:\n1- OCR use tesseract (https://github.com/tesseract-ocr/tesseract/wiki)
+      \n2- extract card if predefined can use Leptonica image processing  (already
+      in tesseract)"
+    id: '1419572824749088'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkxTlRFeU1qa3hORFV5TnpReE5Eb3hORGMyTWpFd016RTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF4T1RVM01qZA3lORGMwT1RBNE9Eb3hORGc1TkRJM01UZA3kZD

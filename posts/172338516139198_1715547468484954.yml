@@ -1,0 +1,64 @@
+---
+message: "سلام عليكم يا باشمهندسين , بعد اذنكم لو حد يفيدني ويقولي يعني ايه :\n disk
+  I/O performance tuning\nيعني انا فاهم ان دلوقتي الهارد عشان يقرأ الداتا لازم يلف
+  الـ platters لدرجة معينه عشان تتم قراية الداتا بشكل صحيح  .. دي اللي هي اسمها seek
+  \nايه بقى موضوع  disk I/O performance tuning ده , يعني وظيفته ايه أو فايدته ؟\nشكراً
+  ليكم مقدماً"
+from:
+  name: Yasser Shaheen
+  id: '196883704381325'
+type: status
+created_time: '2018-01-08T01:04:31+0000'
+updated_time: '2018-01-08T05:01:13+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1715547468484954/
+id: '172338516139198_1715547468484954'
+reactions:
+  data:
+  - id: '10156165643313420'
+    name: Tony Raoul Iscaros
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRNeU1qQTROREU1T2pFMU1UVXpOek0yTnpnNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRNeU1qQTROREU1T2pFMU1UVXpOek0yTnpnNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2018-01-08T01:11:23+0000'
+    from:
+      name: Mohamed R. Almasry
+      id: '1610358195710784'
+    message: ايه السياق اللي بتسال فيه ؟ بتعمل tuning لابلكيشن والا لـ file system
+      والا  database partitioning ؟؟
+    id: '1715616961811338'
+  - created_time: '2018-01-08T02:03:51+0000'
+    from:
+      name: Yasser Shaheen
+      id: '196883704381325'
+    message: Tuning applications on a server in a virtual environments
+    id: '1715652278474473'
+  - created_time: '2018-01-08T02:05:32+0000'
+    from:
+      name: Mohamed R. Almasry
+      id: '1610358195710784'
+    message: what virtualization software are you using ? and what's your point ?
+      are you doing a research ?? or do you have an actual project that you want to
+      tune ?
+    id: '1715653388474362'
+  - created_time: '2018-01-08T02:13:00+0000'
+    from:
+      name: Yasser Shaheen
+      id: '196883704381325'
+    message: It's a research on Linux Server Performance, in some cases such as deploying
+      apps using containers like docker or doing security tests in a virtual environment
+      such as Virtual box.
+    id: '1715657995140568'
+  - created_time: '2018-01-08T05:01:11+0000'
+    from:
+      name: Tarek Omar
+      id: '10154987014676459'
+    message: Whats your work load?
+    id: '1715769051796129'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN4TlRZAeE5qazJNVGd4TVRNek9Eb3hOVEUxTXpjek9EZA3oZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN4TlRjMk9UQTFNVGM1TmpFeU9Ub3hOVEUxTXpnM05qY3gZD

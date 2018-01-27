@@ -1,0 +1,50 @@
+---
+message: |-
+  Hello Every Body,
+
+  I posted the following question, but I haven't received any answer.
+
+  What I am trying to do is to make replication between two processes. where one of them is alive and the other replica is sleeping but a third process keeps coping the state of the first and moving it the second one.
+
+  I am trying to do this in a process agnostic way by strapping both of them from the same script (A simple script as a poc) and copy both the heap and the stack of the process.
+
+  The memory mapping is visible in the /proc/pid/maps with the tags [heap] and [stack] the others are dynamically loaded and shall not be considered.
+
+  The /proc/pid/map_files doesn't even have the links to this pages its only used to map the needed files to memory pages.
+
+  Thanks in advance
+link: http://stackoverflow.com/questions/35854914/process-state-replication
+from:
+  name: Walid Ashraf
+  id: '10159896809840176'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQBBxyEJXpSqBr8p&w=130&h=130&url=http%3A%2F%2Fcdn.sstatic.net%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded%26a&cfs=1&_nc_hash=AQA5Q7_FL6tqp531
+created_time: '2016-03-09T13:07:46+0000'
+updated_time: '2016-03-09T13:07:46+0000'
+name: Process State replication
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1094143040625403/
+id: '172338516139198_1094143040625403'
+reactions:
+  data:
+  - id: '10214926437494875'
+    name: Hany Hesham
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRJME5qSXdNVFF5TXpveE5EVTNOVGsyT0RJM09qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRJME5qSXdNVFF5TXpveE5EVTNOVGsyT0RJM09qSTFOREE1TmpFMk1UTT0ZD
+attachments:
+  data:
+  - description: I Need to create process replication between two processes. I am
+      using a simple bash script that count to infinity. I am running it on server
+      1 and server 2 and making the process on server 2 always
+    media:
+      image:
+        height: 316
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQB5vW2ybah25rk5&w=720&h=720&url=http%3A%2F%2Fcdn.sstatic.net%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded%26a&cfs=1&_nc_hash=AQDX5paqA33iQdyD
+        width: 316
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F35854914%2Fprocess-state-replication&h=ATOLWWzAYiVxTxqICsTnetf_M4Tqi0FqsmtwAkUYxkHT-zNapNIuk1kmdNOqVI-YdiLsbQ6ORpIMViVa9gw2O6j3ylILp_A8pOq9&s=1&enc=AZN9hyFKmX7E1PNhd9zokUCxeZJONazpnWq98vg_9FAzN-nHTB_GfppdCM7cvDVwAJm_jho195rvIYp8DwQOb0Ga
+    title: Process State replication
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F35854914%2Fprocess-state-replication&h=ATOLWWzAYiVxTxqICsTnetf_M4Tqi0FqsmtwAkUYxkHT-zNapNIuk1kmdNOqVI-YdiLsbQ6ORpIMViVa9gw2O6j3ylILp_A8pOq9&s=1&enc=AZN9hyFKmX7E1PNhd9zokUCxeZJONazpnWq98vg_9FAzN-nHTB_GfppdCM7cvDVwAJm_jho195rvIYp8DwQOb0Ga

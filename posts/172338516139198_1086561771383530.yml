@@ -1,0 +1,132 @@
+---
+message: |-
+  Are you with or against GitFlow? Why?
+  Based on what do you decide to use GitFlow for a project?
+  ------------------------------------------------
+  So, i have been reading about gitflow long ago but never really had the chance to use it as the workflow for a project from the beginning, but i have that chance now so i decided to use it but then started reading about opinions against gitflow as well, and i kinda feel lost in between so i thought i should listen to your experiences and opinions! :)
+from:
+  name: Mahmoud Tantawy
+  id: '10156115350739764'
+type: status
+created_time: '2016-02-25T18:08:45+0000'
+updated_time: '2016-02-25T21:40:36+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1086561771383530/
+id: '172338516139198_1086561771383530'
+reactions:
+  data:
+  - id: '1596110217148252'
+    name: Ahmed Badawy
+    type: LIKE
+  - id: '10155855157936047'
+    name: Mosab Ibrahim
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlORGM0Tmpnd09EVTJPakUwTlRZAMk9USXdNVE02TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TnpVMU1ESTJNRFEyT2pFME5UWTBNelkwTlRjNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-02-25T18:08:53+0000'
+    from:
+      name: Mahmoud Tantawy
+      id: '10156115350739764'
+    message: |-
+      Simple explanation for GitFlow WorkFlow: http://jeffkreeftmeijer.com/2010/why-arent-you-using-git-flow/
+
+      Arguments against it: http://endoflineblog.com/gitflow-considered-harmful
+      and the follow-up: http://endoflineblog.com/follow-up-to-gitflow-considered-harmful
+
+      I've read these articles and the comments as well but couldn't make up my mind, also searched the group here for similar discussions but found none.
+    id: '1086561801383527'
+  - created_time: '2016-02-25T18:09:31+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: With for the sake of trying something new
+    id: '1086562001383507'
+  - created_time: '2016-02-25T18:12:55+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: Hassan Ibraheem your thoughts :D ?
+    id: '1086564951383212'
+  - created_time: '2016-02-25T18:15:26+0000'
+    from:
+      name: Hassan Ibraheem
+      id: '10157236848478228'
+    message: I'm against using anything as is. You should adapt to whatever makes
+      you and your team comfortable and productive. Just like "agile" and people saying
+      you're doing agile wrong or agile is better. Screw it. If you're happy with
+      svn and it fits the bill, go for it.  When it comes to gitflow, I don't see
+      it as a good starting point, but take a look at it, and take the parts that
+      would make your life better.
+    id: '1086566204716420'
+  - created_time: '2016-02-25T20:43:05+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: It gives a very logical, standardized yet easy way to manage a repo.
+      So why not?
+    id: '1086630001376707'
+  - created_time: '2016-02-25T21:35:14+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: "Well, I too have read the argument against it, when we were making the
+      shift to gitflow, and I found it to be bullshit. \n\nExcept for the history
+      readability part, which is partially solved by tags in Gitflow, the other points
+      seem to be emotional more than logical, and the dude seems to be disgruntled,
+      nothing more.\n\nWe are having a little problem with GitFlow, but we have had
+      the same exact problem with almost every other flow we had before, and it is
+      highly related to our codebase.\n\nI agree with Hassan Ibraheem in general,
+      but in this case I am very much for GitFlow.\n\nA few of the things i really
+      love about GitFlow:\n\n1. When you use the \"git flow\" command, it is way harder
+      to make mistakes, and take a branch from the wrong place, or merge a branch
+      to the wrong branch, or rebase on an outdated branch. This takes away a lot
+      of human errors.\n\n2. I like rebasing on top of develop branch, it keeps conflicts
+      contained in feature branches, and leaves the develop branch intact till the
+      developer deliberately decides to merge back into develop. Every developer will
+      fix the conflicts on their feature branch, and only they will suffer from broken
+      code, not the whole team.\n\n3. I like the concept of \"release\" branches,
+      very much."
+    id: '1086652254707815'
+  - created_time: '2016-02-25T21:38:10+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: Bottom line, it is not heaven, but it is really good.
+    id: '1086653344707706'
+  - created_time: '2016-02-25T21:40:36+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: "Also, it is better for teams than for individuals. Individuals don't
+      really need all that overhead. \n\nThat being said, I personally use it for
+      my own individual projects anyway. :)"
+    id: '1086654011374306'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE0TmpVMk1UZA3dNVE00TXpVeU56b3hORFUyTkRJek56TTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE0TmpZAMU5EQXhNVE0zTkRNd05qb3hORFUyTkRNMk5ETTIZD
+attachments:
+  data:
+  - subattachments:
+      data:
+      - target:
+          id: '1113796611985083'
+        title: With
+        type: option
+      - target:
+          id: '563577747150609'
+        title: Against
+        type: option
+    target:
+      id: '1086561758050198'
+      url: https://www.facebook.com/groups/egyptian.geeks/permalink/1086561771383530/
+    title: |-
+      Are you with or against GitFlow? Why?
+      Based on what do you decide to use GitFlow for a project?
+      ------------------------------------------------
+      So, i have been reading about gitflow long ago but never really had the chance to use it as the workflow for a project from the beginning, but i have that chance now so i decided to use it but then started reading about opinions against gitflow as well, and i kinda feel lost in between so i thought i should listen to your experiences and opinions! :)
+    type: question
+    url: https://www.facebook.com/groups/egyptian.geeks/permalink/1086561771383530/

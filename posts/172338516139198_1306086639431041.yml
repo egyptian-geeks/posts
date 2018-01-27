@@ -1,0 +1,46 @@
+---
+message: |-
+  يا جماعة أنا موش قادر أفهم less ده بيعمل إيه في CSS يعني فكرة إنك تحط قيم في متغيرات علشان ياخدها تفرق ايه عن إنك تستخدم Search and Replace في أي محرر؟ موش هتفرق كتير يعني!
+  السؤال ده سببه، إني عندي تطبيق Yii2 قررت أجرب معاه less التطبيق بيعتمد على bootstrap وفي عندي ملفين css على الترتيب theme.x.css وملف site.css ال x في اسم الملف الأول بتستبدل برقم علشان يقدر المستخدم اختيار theme.
+  الملف التاني site.css بيبقى فيه خواص عامة تنطبق على كل السمات ففكرت إن less ممكن ينفع في إني لو حبيت مثلا اعمل لون خلفية لل footer من متغير موجود في theme.x.less ويتم تطبيقه في site.less بعد ما يعمل import ل theme.x.less لكن وجدت مشكلة إنه موش دايناميك وعلشان اقدر اعمل حاجة زي كدة هينتهي الأمر بإن هيكون عندي اكتر من ملف site.x.css علشان يشتغل مع theme.x.css او إني أنقل الخاصية دي لل theme.x.css.
+
+  يبدو إن في حاجة انا موش فاهمها في الموضوع!
+from:
+  name: Said Bakr
+  id: '10155965038378745'
+type: status
+created_time: '2016-11-27T18:39:55+0000'
+updated_time: '2016-11-27T23:13:32+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1306086639431041/
+id: '172338516139198_1306086639431041'
+comments:
+  data:
+  - created_time: '2016-11-27T21:34:35+0000'
+    from:
+      name: Osama Mohamed
+      id: '2089650217931552'
+    message: "حسب ما فهت انت المفروض تعمل import ل site.less داخل ملف them.x.less
+      في الحالة دي هياخد كل الحاجات اللي في site واللي هي عامة بما فيها متغيرات الالوان
+      + الحاجات الخاصة بالثيم\nبالاضافة less فيها ميزات تانية مش بس المتغيرات \nhttp://lesscss.org/features/"
+    id: '1306215956084776'
+  - created_time: '2016-11-27T21:55:36+0000'
+    from:
+      name: Ahmed Zain Mohammed
+      id: '10156266511868081'
+    message: انا كونت بقول كده في الأول، بس بعد ما جربت SCSS مش بكتب Purse CSS تاني.
+      ال Mixins و المتغيرات و ال import و ال nesting، حجات بتلخص وقت كتير بصراحة.
+      و هاتكون مفيدة أكتر أكيد للناس ال UI designers
+    id: '1306226159417089'
+  - created_time: '2016-11-27T23:13:29+0000'
+    from:
+      name: Amged Osman
+      id: '10155060484417536'
+    message: "اولا غير ان الprocessing بتاعة اسرع، فالLESS بسخليك تعرف اسم لclass
+      واحد بعدة خصائص\nمثلا في site.css \n\n@color-base: #2d5e8b;\n.class1 {\n  background-color:
+      @color-base;\n  .class2 {\n    background-color: #fff;\n    color: @color-base;\n
+      \ }"
+    id: '1306276749412030'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE13TmpJeE5UazFOakE0TkRjM05qb3hORGd3TWpneU5EYzIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE13TmpJM05qYzBPVFF4TWpBek1Eb3hORGd3TWpnNE5ERXcZD

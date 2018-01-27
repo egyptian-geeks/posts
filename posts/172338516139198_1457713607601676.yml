@@ -1,0 +1,48 @@
+---
+message: "I'm doing #mentoring and mock up interviews on Skype, so everyday I will
+  post an interview question, and I hope I get Answers, First few questions are\nFor
+  Game Developers \n \nA. Describe geometrically the difference between applying\na
+  rigid transform to the vectors p=[x y z 1]^T and q=[x y z 0]^T.\n \n \n \n---------------------------------------------------------\n
+  \nB. Representing rigid transformations by 4x4 matrices will\nin a straightforward
+  implementation require 16 floats of data per object.\nBriefly describe a representation
+  using as few floats as possible\nwithout loss of precision."
+from:
+  name: Ahmed Saleh
+  id: '10159933379005574'
+type: status
+created_time: '2017-04-18T15:15:08+0000'
+updated_time: '2017-04-18T19:23:14+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1457713607601676/
+id: '172338516139198_1457713607601676'
+reactions:
+  data:
+  - id: '869318933246962'
+    name: محمد محبي بدر
+    type: LIKE
+  - id: '1999765416908747'
+    name: Ahmed Khalifa
+    type: LIKE
+  - id: '1357558894349445'
+    name: Fadi AlAzaba
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTFNRFkxT1RBMU1ERXpPakUwT1RJMU16YzBOakE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlPRFl3TkRJeE1qVTNPakUwT1RJMU1qa3hOVGc2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-04-18T18:32:38+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      I think these questions are more for "graphics developers", because these days game development has become so high-level now that many devs don't know these basics and they live just fine, they have another guy for the low-level stuff.
+
+      A. first one is homogeneous matrixes, second one wont really work, it should just be [x y z] without the zero, that's the non-homogenous representation with 3x3 matrices. I think putting the zero like that in some frameworks/engines would lead it to multiply the whole vector by infinity because it will try to make the last number equal to "1".
+
+      B. You can ignore the very last row, and make sure it's always [0 0 0 1] before storing it in the data structure (by multiplying/dividing by a scalar), which in this case will only be 12 floats. If you want to preserve that scale for whatever reason then you can just send it as an extra float (a 13th float) along with the matrix.
+    id: '1457885544251149'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFExTnpnNE5UVTBOREkxTVRFME9Ub3hORGt5TlRRd016VTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFExTnpnNE5UVTBOREkxTVRFME9Ub3hORGt5TlRRd016VTQZD

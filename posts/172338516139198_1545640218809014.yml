@@ -1,0 +1,13 @@
+---
+message: "I try to stream video from apache server but I keep getting Status Code:416,
+  I googled the problem I found that I should add these lines to my .htaccess or virtual
+  host file: \nHeader set Accept-Ranges none\nRequestHeader unset Range \n\nbut when
+  I add them I get 500 internal server error."
+from:
+  name: Bellal Mohamed
+  id: '1672878506132188'
+type: status
+created_time: '2017-07-12T23:59:56+0000'
+updated_time: '2017-07-12T23:59:56+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1545640218809014/
+id: '172338516139198_1545640218809014'

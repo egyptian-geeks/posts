@@ -1,0 +1,49 @@
+---
+link: http://raspberrypi.stackexchange.com/q/61912/41992?sfb=2
+from:
+  name: Mohamad Emad
+  id: '1487671784675336'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQAL_0tVVmJnUDlb&w=130&h=130&url=https%3A%2F%2Fcdn.sstatic.net%2FSites%2Fraspberrypi%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D38b7cb40765d&cfs=1&_nc_hash=AQAgYJZ7O3rWWd0p
+created_time: '2017-02-13T12:54:24+0000'
+updated_time: '2017-02-13T15:01:27+0000'
+name: Raspberry Pi connected to wifi But not the internet
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1387192281320476/
+id: '172338516139198_1387192281320476'
+comments:
+  data:
+  - created_time: '2017-02-13T13:11:39+0000'
+    from:
+      name: Mahmoud Tantawy
+      id: '10156115350739764'
+    message: |-
+      As the comments said, mention how you set the static IP and/or follow the linked answer and try again.
+      output from netstat -rn says that you don't have a route correctly configured for outside connections
+    id: '1387201344652903'
+  - created_time: '2017-02-13T13:19:06+0000'
+    from:
+      name: Mahmoud Mustafa El-Badry
+      id: '10156220501401654'
+    message: try pinging as root, if the ping worked, then your /etc/resolv.conf is
+      not readable by the user logged in and you need to chmod its permissions to
+      664
+    id: '1387205274652510'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE00TnpJd01UTTBORFkxTWprd016b3hORGcyT1RreE5EazUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE00TnpJd05USTNORFkxTWpVeE1Eb3hORGcyT1RreE9UUTIZD
+attachments:
+  data:
+  - description: 'my problem is that after connecting my Rpi to the home Wifi Network
+      it refuses to connect to the internet funny thing is: I am connected to it via
+      ssh. I tried to ping google but it said connect:'
+    media:
+      image:
+        height: 316
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQBQLQi61rkhQ8tL&w=720&h=720&url=https%3A%2F%2Fcdn.sstatic.net%2FSites%2Fraspberrypi%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D38b7cb40765d&cfs=1&_nc_hash=AQCoJk_jMBiNlF2b
+        width: 316
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fraspberrypi.stackexchange.com%2Fq%2F61912%2F41992%3Fsfb%3D2&h=ATPrs5T6CVwsWhxNxM5atTkHbypo3oJQUfcjVl0p3uYs-njUBAWOnL4asiEQ98-270Ou3g6JgQ52K8_jtZZySkq1wmqOs0O19Pgq&s=1&enc=AZMYu7X1gvK44cG0GecRR6r0Uc47y9Qc9E-p_G9p8rZMJpES4m2bjxhyJKTAi8XzhlmTl4mvUQU0ibTU1k8TBMxg
+    title: Raspberry Pi connected to wifi But not the internet
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fraspberrypi.stackexchange.com%2Fq%2F61912%2F41992%3Fsfb%3D2&h=ATPrs5T6CVwsWhxNxM5atTkHbypo3oJQUfcjVl0p3uYs-njUBAWOnL4asiEQ98-270Ou3g6JgQ52K8_jtZZySkq1wmqOs0O19Pgq&s=1&enc=AZMYu7X1gvK44cG0GecRR6r0Uc47y9Qc9E-p_G9p8rZMJpES4m2bjxhyJKTAi8XzhlmTl4mvUQU0ibTU1k8TBMxg

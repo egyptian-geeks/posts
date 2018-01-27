@@ -1,0 +1,72 @@
+---
+message: |-
+  كنت عاوز اعمل نظام مبيعات ومخازن. في مشكلة تتعلق بموضوع وحدات الأصناف، بمعنى ان الصنف ممكن يتباع على أكتر من هيئة. مثال في صيدلية مثلا ممكن صنف دواء أقراص يتباع بالعلبة او بالشريط او حتى بالقرص وكل هذا لصنف واحد.
+  ما هو المنطق المناسب للتعامل مع هذه المشكلة؟!
+  هل اعمل كل هيئة بيع للصنف على انها صنف مستقل، واعمل نظام تحويل أصناف ضمن المشتريات مثلا؟!
+
+  فكرت في عمل كينونة منفصلة للوحدات لكن الفكرة دي بتقابلها تعقيدات في حساب الأرصدة وخلافه.
+  ياريت لو حد عنده فكرة او مصدر بيشرح الموضوع يفيدني.
+from:
+  name: Said Bakr
+  id: '10155965038378745'
+type: status
+created_time: '2016-01-12T22:51:03+0000'
+updated_time: '2016-01-13T11:22:41+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1061412560565118/
+id: '172338516139198_1061412560565118'
+comments:
+  data:
+  - created_time: '2016-01-12T23:03:59+0000'
+    from:
+      name: Mariam Maarouf
+      id: '10155779091916638'
+    message: |-
+      ممكن تقسمها بحيث ان يبقى عندك table فيها الأصناف يبقى لكل صنف فيها ID وفيها كل البيانات الخاصة به (الشركة المصنعة، الخ) من غير أسعار،
+      وtable تانية فيها الـID ده ومعاه الهيئة وسعر الصنف ده في كل هيئة (وأي بيانات تانية تخص الهيئة فقط وليس الصنف ككل، يعني العدد مثلاً لو ينفع، الخ)
+    id: '1061416230564751'
+  - created_time: '2016-01-12T23:06:57+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: Units are your answer, so a pill can be sold by the pillbox, that is
+      a unit, or by the pill, another unit
+    id: '1061416840564690'
+  - created_time: '2016-01-12T23:08:01+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: remeber to use proper abstraction, so i pill group could have 25 pills,
+      another could have 100 (shereet)
+    id: '1061417113897996'
+  - created_time: '2016-01-13T08:50:21+0000'
+    from:
+      name: Hosam Aly
+      id: '1657509230977456'
+    message: In addition to units, you might want to consider what Odoo (formerly
+      OpenERP) calls Product Variants. Their examples usually start with clothes,
+      where you sell the same design, but it might have different sizes, or different
+      colors.
+    id: '1061650753874632'
+  - created_time: '2016-01-13T11:22:41+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: "حتى هذه اللحظة تقريبا سوف استقر على موضوع Entity او كينونة للوحدات بيحث
+      يكون فيها وحدات أولية (بمعنى ما لهاش وحدة تانية منبثقة عنها اصغر منها) مثل الجرام
+      او القرص وهيبقى لكل كائن (وحدة) خاصية اسمها child و دي بيبقى فيها تعريف ID الوحدة
+      الأصغر منها او المنبثقة عنها، ومنطقيا اي وحدة في الدنيا بينبثق عنها وحدة واحدة
+      فقط بالاضافة لخاصية تانية وهي مقدار ما تحتويه الوحدة من الوحدة المنبثقة عنها.\nمثال:
+      وحدة علبة 3 شرائط كل شريط فيها 12 قرص هيبقى عندي 3 وحدات: علبة 3 شريط، ينبثق
+      منها وحدة شريط 12 قرص، ينبثق منها وحدة قرص. والمقدار اللي هتحتويه بالترتيب هو
+      3، 12، 1 (1) الوحدة الأولية تحتوي 1 من نفسها.\nأما في المنتج ذاته فسوف أعين
+      خاصية الوحدة الافتراضية واللي بيها يتم حساب الأرصدة والمشتريات وتسجيلها ويتم
+      عملية تحويل بيع او شراء اي كمية من وحدات المنتج إليها.\nيعني مثلا لو رصيد هذا
+      المنتج علبة واحدة، وتم بيع شريط واحد هيبصبح الرصيد 1 - 1/3\nأو لو تم بيع قرص
+      واحد هيصبح الرصيد 1- (1/3 - 1/12)\n\nالمشكلة الباقية هي تطبيق هذا الكلام بال
+      SQL في MySQL وان شاء الله لها حل \nأشكركم على المساعدة ولو في اي تعليقات اخرى
+      ارحب بها."
+    id: '1061725490533825'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEEyTVRReE5qSXpNRFUyTkRjMU1Ub3hORFV5TmpNNU9ETTUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEEyTVRjeU5UUTVNRFV6TXpneU5Ub3hORFV5TmpnME1UWXgZD

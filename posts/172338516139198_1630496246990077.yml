@@ -1,0 +1,55 @@
+---
+message: "الخلاصه:\nnotify the specified webhook when a device is connected/disconnected\nالتفاصيل:\n-
+  كنت محتاج توول تعرفلي اى جهاز بيتصل او بينقطع اتصاله بالشبكه وتبعت ريكوست ل webhook
+  ع السرفر بالنتيجه اول باول\n- السبب: كنت محتاج اعرف امتى اجهزه معينه دخلت مكان معين
+  وامتى خرجت ( بناء على اتصالهم بال wifi ) ودون الوضع ف الاعتبار اى احتمال تانى ..
+  وفى نفس الوقت ان نفس الاجهزه تــ Login اوتوماتيك ع ال app ..\n- طبعا واضح انه للشغل
+  ال internal فقط ..\n- شرط تكون شغاله على نفس الجهاز اللى عليه Hotspot, \n- مكتوبه
+  بــ Go\nhttps://github.com/alash3al/arp2http"
+from:
+  name: Mohammed Al Ashaal
+  id: '965203406986813'
+type: status
+created_time: '2017-10-11T19:00:30+0000'
+updated_time: '2017-10-11T19:00:30+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1630496246990077/
+id: '172338516139198_1630496246990077'
+reactions:
+  data:
+  - id: '1208358265962928'
+    name: Muhammad Tarek
+    type: LIKE
+  - id: '10159810258355527'
+    name: Muhammad Sherbeeny
+    type: LIKE
+  - id: '10213017755051330'
+    name: Abdelrhman Shawky
+    type: LIKE
+  - id: '10213687758643698'
+    name: Amr Elmasry
+    type: LIKE
+  - id: '10215515935116102'
+    name: Agk TF
+    type: LIKE
+  - id: '1964650613774365'
+    name: Galal Aly
+    type: LIKE
+  - id: '1544312398999750'
+    name: Omar Said
+    type: LIKE
+  - id: '1495149960582252'
+    name: Mohamed Wael
+    type: LIKE
+  - id: '10154904189965670'
+    name: Ahmad Alfy
+    type: LIKE
+  - id: '10215497581739240'
+    name: Mahmoud Raafat
+    type: LIKE
+  - id: '1558917624215781'
+    name: Mohamed A. Salah
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXpOall5T1RjMU1qRXhPakUxTURjNE9EZAzFOREE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlPVEkyTnpVeU5EazVPakUxTURjM05USXhNVEE2TWpVME1EazJNVFl4TXc9PQZDZD

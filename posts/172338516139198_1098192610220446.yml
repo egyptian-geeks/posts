@@ -1,0 +1,65 @@
+---
+message: |-
+  Ideas?
+
+  Context:
+
+  My client uses AbcPdf (so, thanks, but it's unlikely to move to something else now). I'm running a thing on Windows 10, and according to Docs, the version I use (AbcPDF 9) supports IE11.
+
+  But some styles (only few of them) are not applied. I could spot a case where things like ":not(.some-class)" isn't working, although it's working in normal page when opened in IE11.
+
+  I looked for options, saw Selectivizr, but it seems to do nothing (I think I load it correctly, after jQuery and styles).
+
+  My assumption is that AbcPdf is working in some earlier IE mode or something. Is there any other option that adds the ":not()" etc selectors to earlier IE?
+
+  Or maybe, is there any way I can make sure AbcPDF is using the full capabilities of IE11 installed?
+
+  Thanks.
+from:
+  name: Meligy
+  id: '10155880569740170'
+type: status
+created_time: '2016-03-15T00:13:48+0000'
+updated_time: '2016-03-15T20:04:21+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1098192610220446/
+id: '172338516139198_1098192610220446'
+comments:
+  data:
+  - created_time: '2016-03-15T14:30:42+0000'
+    from:
+      name: Bassam Abd Elhamid
+      id: '1955441501387657'
+    message: لو الموضوع خاص بعرض البى دى اف فى البروزر ففى فكرة عبيطة احب اشارك بيها,
+      ممكن تحول الملف لصور- عند الطلب - وتعرض الصور فى يوزر كونترول ليه نفس مفاتيح
+      البى دى اف فييوار , يرسل للسرفر يعدل فى الصور ويرجعها او يطلب الصفحة الى بعدها
+      او الى قبلها.
+    id: '1098609380178769'
+  - created_time: '2016-03-15T14:54:26+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      I'm not sure if this is useful in your case or not, but I know that to make sure IE11 uses all it's supported features, you put this in the head:
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    id: '1098624810177226'
+  - created_time: '2016-03-15T19:44:47+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: I just confirmed that it renders as IE 9 (printed the classes in the
+      conditional comments around the HTML tags), which is crazy because it's running
+      on a Windows 10 machine that only has IE11.
+    id: '1098816700158037'
+  - created_time: '2016-03-15T20:04:20+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      I guess THIS must be related
+      https://www.facebook.com/photo.php?fbid=10153882092600170&set=a.10150382365805170.409044.544815169&type=3
+      Anyone with Windows 10 machine can tell me what they get for this?
+    id: '1098826303490410'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE1T0RZAd09UTTRNREUzT0RjMk9Ub3hORFU0TURVeU1qUXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE1T0RneU5qTXdNelE1TURReE1Eb3hORFU0TURjeU1qWXcZD

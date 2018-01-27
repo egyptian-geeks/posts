@@ -1,0 +1,46 @@
+---
+message: "ده طبيعي ولا ايه ؟؟ \n\nindra@indra-PC:~$ sensors\nacpitz-virtual-0\nAdapter:
+  Virtual device\ntemp1:        +57.5°C  (crit = +84.0°C)\n\ndell_smm-virtual-0\nAdapter:
+  Virtual device\nProcessor Fan:    0 RPM\nCPU:            +57.0°C  \nOther:          +49.0°C
+  \ \nOther:          +43.0°C  \nGPU:            +16.0°C  \n\ncoretemp-isa-0000\nAdapter:
+  ISA adapter\nPhysical id 0:  +61.0°C  (high = +80.0°C, crit = +85.0°C)\nCore 0:
+  \        +58.0°C  (high = +80.0°C, crit = +85.0°C)\nCore 1:         +60.0°C  (high
+  = +80.0°C, crit = +85.0°C)\n===========\nindra@indra-PC:~$ top\n\ntop - 03:00:35
+  up 13:13,  2 users,  load average: 1.23, 1.29, 1.13\nTasks: 229 total,   2 running,
+  227 sleeping,   0 stopped,   0 zombie\n%Cpu(s): 27.2 us,  3.3 sy,  0.0 ni, 69.5
+  id,  0.1 wa,  0.0 hi,  0.0 si,  0.0 st\nKiB Mem:   3950152 total,  3620320 used,
+  \  329832 free,    57904 buffers\nKiB Swap:        0 total,        0 used,        0
+  free.   916916 cached Mem"
+from:
+  name: Ahmed Saber
+  id: '10215232240456289'
+type: status
+created_time: '2017-05-30T01:00:09+0000'
+updated_time: '2017-05-30T01:13:19+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1497383573634679/
+id: '172338516139198_1497383573634679'
+comments:
+  data:
+  - created_time: '2017-05-30T01:01:03+0000'
+    from:
+      name: Mohamed Salah
+      id: '442714802813794'
+    message: yub, normal as it gets :)
+    id: '1497384196967950'
+  - created_time: '2017-05-30T01:03:48+0000'
+    from:
+      name: Mohamed Salah
+      id: '442714802813794'
+    message: use a cooling pad or a DYI solution like using Tea holders to left the
+      laptop of the surface allowing air to flow beneth it
+    id: '1497386793634357'
+  - created_time: '2017-05-30T01:11:59+0000'
+    from:
+      name: Mohamed Salah
+      id: '442714802813794'
+    message: "Ahmed just out of curiosity, which linux distro you're using \U0001F612"
+    id: '1497393463633690'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE1TnpNNE5ERTVOamsyTnprMU1Eb3hORGsyTVRBMk1EWTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE1TnpNNU16UTJNell6TXpZANU1Eb3hORGsyTVRBMk56RTUZD

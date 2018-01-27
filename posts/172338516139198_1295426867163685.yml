@@ -1,0 +1,45 @@
+---
+message: |-
+  شباب حد استخدم aws sdk مع Go قبل كدا ؟ عندي مشكلة انه لما بستخدم S3.PutObject() عشان ارفع صورة، كل مرة بيرفع الصور بنفس الاسم، فالبتالي بي override الصور القديمة.
+
+  عندكوا فكرة مثلا ازاي اقوله يحط الصورة باسم معين او جوا فولدر معين، انا فضلت الف فال docs بتاعة s3 بس موصلتش لحاجة.
+from:
+  name: Eslam Mostafa
+  id: '1575768239208294'
+type: status
+created_time: '2016-11-16T20:46:25+0000'
+updated_time: '2016-11-16T22:27:59+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1295426867163685/
+id: '172338516139198_1295426867163685'
+reactions:
+  data:
+  - id: '1772542006152666'
+    name: Mohamed AbuIssa
+    type: LIKE
+  - id: '10155224465177344'
+    name: Mohamad Kamal
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhPVEEyTlRBNU16RXlPakUwTnprek16WXpOekE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TmpFeU56TXlNelF6T2pFME56a3pNekl3T1RrNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-11-16T20:52:24+0000'
+    from:
+      name: Sam Nasser
+      id: '1527143767392039'
+    message: "I think this is how, \nAmazonS3 s3client = new AmazonS3Client(new ProfileCredentialsProvider());
+      \       \ns3client.putObject(new PutObjectRequest(bucketName, keyName, file));"
+    id: '1295429953830043'
+  - created_time: '2016-11-16T22:27:58+0000'
+    from:
+      name: Eslam Mostafa
+      id: '1575768239208294'
+    message: اتحلت المشكلة، انا كنت فاكر ان ال key هو ال aws secret key بس طلع دا
+      اسم الملف اللي انا عايزه.
+    id: '1295508933822145'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEk1TlRReU9UazFNemd6TURBME16b3hORGM1TXpJNU5UUTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEk1TlRVd09Ea3pNemd5TWpFME5Ub3hORGM1TXpNMU1qYzQZD

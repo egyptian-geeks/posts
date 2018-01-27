@@ -1,0 +1,51 @@
+---
+message: "السلام عليكم \nكنت عاوز اى فيديوهات او كتاب يكون شارح cluster mapping  \nمحتاج
+  اعمل شكل زى ده كده"
+link: https://www.facebook.com/photo.php?fbid=1279642132118404&set=gm.1430256817014022&type=3
+from:
+  name: Eslam Elkhafagy
+  id: '1570961289653152'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/17425142_1279642132118404_5893702510487144935_n.jpg?oh=c59ac36cbc1b29ebf5def0ea679abe78&oe=5ADD1BC7
+created_time: '2017-03-23T21:21:12+0000'
+updated_time: '2017-03-24T15:20:51+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1430256817014022/
+id: '172338516139198_1430256817014022'
+comments:
+  data:
+  - created_time: '2017-03-24T05:04:14+0000'
+    from:
+      name: Ibrahim Mohammed
+      id: '1886120441698692'
+    message: "It's not supported natively in any mapping library to do this thing,
+      here I'm talking about the charts not the clustering itself \nSo what i found
+      is that someone made this extension for gmaps i didn't use it but just a quick
+      search.\nhttps://github.com/hassanlatif/chart-marker-clusterer"
+    id: '1430598483646522'
+  - created_time: '2017-03-24T05:08:36+0000'
+    from:
+      name: Ibrahim Mohammed
+      id: '1886120441698692'
+    message: |-
+      And to be honest as a mapping guy, it's not something i would do for a map.
+      You can rather leave the clusters with its normal look and extended  the map with an google charts on click to get details in another panel or div, but it will mostly work only if you aggregated the points into polygons like what i did here.
+      http://Ibmap.cf
+    id: '1430601320312905'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF6TURVNU9EUTRNelkwTmpVeU1qb3hORGt3TXpNeE9EVTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF6TURZAd01UTXlNRE14TWprd05Ub3hORGt3TXpNeU1URTIZD
+attachments:
+  data:
+  - description: "السلام عليكم \nكنت عاوز اى فيديوهات او كتاب يكون شارح cluster mapping
+      \ \nمحتاج اعمل شكل زى ده كده"
+    media:
+      image:
+        height: 421
+        src: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/17425142_1279642132118404_5893702510487144935_n.jpg?oh=e8649a704ec515228f1d785698d8f2a5&oe=5AD994D2
+        width: 720
+    target:
+      id: '1279642132118404'
+      url: https://www.facebook.com/photo.php?fbid=1279642132118404&set=gm.1430256817014022&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=1279642132118404&set=gm.1430256817014022&type=3

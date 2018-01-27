@@ -1,0 +1,118 @@
+---
+message: "السلام عليكم و رحمة الله و بركاته\nعندى مسأله و ارجوا ان اجد عندكم الحل\nانا
+  عندى 32 سيرفر فى الفروع و هيرموا على 8 سيرفر و فى النهاية سيرفر رئيسى \nانا هعمل
+  ريبليكاشن كل ساعة  بناء على احتياج البيزنس\nالمشكلة عندى أن فيه  file stream   و
+  حجم كبير حوالى تيرا و نص و عاوز اعملهم ريبليكاشن من السيرفرات \nالسيرفرات سيكول
+  و الربليكيشن one way مش merge \nالسؤال هل الريبليكاشن هيدعم ال file stream ؟ \nو
+  ايه نوع الريبليكاشن المناسب؟\nو هل مع حجم الداتا فيه داتا هتقع أثناء الريبليكاشن؟\nو
+  جزاكم الله خيرا"
+from:
+  name: Hasan Ahmed Shaddad
+  id: '2053367764940163'
+type: status
+created_time: '2017-04-15T18:23:37+0000'
+updated_time: '2017-04-18T02:52:09+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1454803117892725/
+shares:
+  count: 1
+id: '172338516139198_1454803117892725'
+reactions:
+  data:
+  - id: '1757059004600122'
+    name: Mayy Abdel Bary
+    type: LIKE
+  - id: '2032504700100329'
+    name: Mohammed Yassin
+    type: LIKE
+  - id: '368237263651704'
+    name: Omar Ali
+    type: LIKE
+  - id: '1978556165731463'
+    name: Amr Almgwary
+    type: LIKE
+  - id: '10155371937748723'
+    name: Ahmed Badr Abdel-Moniem
+    type: LIKE
+  - id: '10156191099748000'
+    name: Shady Mohamed Sherif
+    type: LIKE
+  - id: '2053863088178362'
+    name: Ahmed Ghorab
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTRPRGd4TVRnMk16SXpPakUwT1RJek5UVTVNemc2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTJOalF3TnpJME9EUTFPakUwT1RJeU9EQTNNelU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-04-15T18:27:41+0000'
+    from:
+      name: Hasan Ahmed Shaddad
+      id: '2053367764940163'
+    message: "بالنسبة لل research \nGoogle\nStack overflow\nPluralsight\nMsdn\nBig
+      data geeks"
+    id: '1454806177892419'
+  - created_time: '2017-04-15T18:43:37+0000'
+    from:
+      name: Amr Almgwary
+      id: '1978556165731463'
+    message: ياريت الاجابات يكون فيها tutorial علشان نذاكر الحاجات دي =D
+    id: '1454817894557914'
+  - created_time: '2017-04-15T19:10:39+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: أعتقد النوع ده من الأسئلة يكون ServerFault هو الأنسب!
+    id: '1454839174555786'
+  - created_time: '2017-04-16T03:47:21+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      This is SQL Server if I understand right. I found some good things searching for "sql server replication filestream"
+
+      One of them is:
+      https://docs.microsoft.com/en-us/sql/relational-databases/blob/filestream-compatibility-with-other-sql-server-features#Replication
+
+      Quoting:
+      ========
+      A varbinary(max) column that has the FILESTREAM attribute enabled at the Publisher can be replicated to a Subscriber with or without the FILESTREAM attribute. To specify the way in which the column is replicated, use the Article Properties - <Article> dialog box or the @schema_option parameter of sp_addarticle or sp_addmergearticle. Data that is replicated to a varbinary(max) column that does not have the FILESTREAM attribute must not exceed the 2-GB limit for that data type; otherwise, a run-time error is generated. We recommend that you replicate the FILESTREAM attribute, unless you are replicating data to SQL Server 2005. Replicating tables that have FILESTREAM columns to SQL Server 2000 Subscribers is not supported, regardless of the schema option that is specified. +
+
+      AND:
+
+      Replicating large data values from SQL Server 2016 to SQL Server 2005 Subscribers is limited to a maximum of 256 MB data values. For more information, see Maximum Capacity Specifications. +
+    id: '1455164457856591'
+  - created_time: '2017-04-16T09:03:13+0000'
+    from:
+      name: Mohamed El Henawy
+      id: '10155884980625610'
+    message: انت محتاج تحط wan optimization  شوف الاجهزة بتاعة riverbed
+    id: '1455383217834715'
+  - created_time: '2017-04-16T14:34:51+0000'
+    from:
+      name: Amr Magdy
+      id: '2034540860152218'
+    message: Did you consider using sql file tables? Using file tables, you'll simply
+      upload the new and changed blobs as file storage.
+    id: '1455628104476893'
+  - created_time: '2017-04-17T03:15:10+0000'
+    from:
+      name: Muhammed Fahmy
+      id: '1605974269496621'
+    message: Ahmed Abdelmoteleb
+    id: '1456205864419117'
+  - created_time: '2017-04-18T02:52:08+0000'
+    from:
+      name: Abdul Hamdy
+      id: '10155794996775813'
+    message: "I'm very noobish in these things. But I did a much smaller hobbyist
+      thing before with rsync in a cron job. \nIn my general understanding, what you
+      are looking to do is send the changes in the last hour to patch the files on
+      the other side. This can mean that you can setup a remote mirror that updates
+      every hour... At the FS level away from the SQL. \nOr.. Look into what Facebook
+      is doing,I read they use bittorrent for this exact job"
+    id: '1457233637649673'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFExTkRnd05qRTNOemc1TWpReE9Ub3hORGt5TWpnd09EWXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFExTnpJek16WXpOelkwT1RZAM016b3hORGt5TkRnek9USTQZD

@@ -1,0 +1,36 @@
+---
+message: "hello\ni am having few problems with a website \nthe website host is seprate
+  from the domain register and web mail\nthe problem is i want to send email from
+  the server...but the emails are flaged as spams and i don't know why ?!"
+from:
+  name: Ahmed Bassell
+  id: '1976373499069350'
+type: status
+created_time: '2016-03-11T18:13:11+0000'
+updated_time: '2016-03-11T18:21:51+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1095522657154108/
+id: '172338516139198_1095522657154108'
+comments:
+  data:
+  - created_time: '2016-03-11T18:18:16+0000'
+    from:
+      name: Mohamed Essam
+      id: '1546098432153196'
+    message: Use preorder paid mail services like sendgrid , mailchimp ,or mailgun
+    id: '1095526463820394'
+  - created_time: '2016-03-11T18:21:46+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      I remember reading that there is something you have to do with your DNS record so mail servers can verify that the message is not spam.
+      I did a quick search and found this:
+      http://kb.kerio.com/product/kerio-connect/server-configuration/mail-delivery-and-dns-records/essential-dns-records-for-mail-delivery-and-spam-protection-1223.html
+      It's for a certain mail server product, but it might be useful in your case too.
+
+      Of course you can throw away all that and use things like SendGrid like Mohamed Essam suggested :)
+    id: '1095528850486822'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE1TlRVeU5qUTJNemd5TURNNU5Eb3hORFUzTnpJd01qazMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE1TlRVeU9EZAzFNRFE0TmpneU1qb3hORFUzTnpJd05UQTUZD

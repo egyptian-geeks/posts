@@ -1,0 +1,58 @@
+---
+message: 'How you guys skilled up in applying Advanced Abstractions Concepts Like
+  Design Patterns .. Now I try to understand the concepts, Solve problems in the most
+  intuitive way (Naive Solutions) and then I try to figure out how the concepts I
+  learnt can be applied to enhance my solution and start refactoring along .. This
+  method is effective but takes much time .. So I need your help with any tips or
+  ideas from your own experience on How to speed up this process .. I will also appreciate
+  if you suggest some useful resources on these topics other than the famous book
+  "Design Patterns: Elements of Reusable Object-Oriented Software "'
+from:
+  name: Mohamed Ahmed
+  id: '1470551303043336'
+type: status
+created_time: '2017-10-01T12:35:38+0000'
+updated_time: '2017-10-01T18:14:52+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1621431507896551/
+shares:
+  count: 1
+id: '172338516139198_1621431507896551'
+reactions:
+  data:
+  - id: '1601712166541624'
+    name: Hossam Hassan
+    type: LIKE
+  - id: '2031809663759278'
+    name: Mohamed Moussa
+    type: LIKE
+  - id: '1958972070797083'
+    name: Mina William
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhNRGcxTmpnek9EQTFPakUxTURZANE9EVXpNelU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXdOVEk1TWpnME1USTBPakUxTURZANE5qRTFNRFk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-10-01T12:45:00+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: |-
+      I think best method that worked for me was solving real production problem in real world app using a certain pattern and keep watching such solution read more and refactor solution, most tutorials will only scratch the surface only when you implement in rralworld app that you get a good grasp on in and out of each pattern.
+      Example i have a simple blog, i kept improving its pagination following pagination design pattern. Before i didnt really treat pagination as a design pattern, but after trying it in production and finding there are variations of such patterns (cursor based, realtime pagination etc..) pros and cons for each approach. Some times it will be over engineering to put a certain pattern in production app just for you to learn, but it sure gona lvl you up after lot of effort,
+    id: '1621448111228224'
+  - created_time: '2017-10-01T13:29:03+0000'
+    from:
+      name: سامح دعبس
+      id: '2022490591345439'
+    message: |-
+      The best way to use design patterns is during refactoring phase.
+      After you have some experience with design patterns you fill find it obviius to apply some patterns directly without refactoring.
+      Don't try to apply them for every problem you face, but try to solve problems as much as you can by applying basic OOP  concepts. In many cases you will end up with a known design pattern but you reached to it organically!
+      The best book in the topic IMHO is head first design patterns.
+    id: '1621486821224353'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl5TVRRME9ERXhNVEl5T0RJeU5Eb3hOVEEyT0RZAeE9UQXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl5TVRRNE5qZA3lNVEl5TkRNMU16b3hOVEEyT0RZAME5UUTAZD

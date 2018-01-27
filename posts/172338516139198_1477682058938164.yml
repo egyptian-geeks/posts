@@ -1,0 +1,48 @@
+---
+message: |-
+  I have a problem with my external HD in Media
+  So my laptop read it but not read the files,
+  Or read the files but I can't copy/paste any thing
+
+  Did any one face this problem before?
+from:
+  name: Moaz Rashad
+  id: '10210139567678503'
+type: status
+created_time: '2017-05-09T09:20:48+0000'
+updated_time: '2017-05-13T13:06:01+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1477682058938164/
+id: '172338516139198_1477682058938164'
+reactions:
+  data:
+  - id: '1759676437385773'
+    name: Nour Hakem
+    type: LIKE
+  - id: '1592917007496436'
+    name: Hesham Nasser
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdNekF6TURJME1UZA3pPakUwT1RRek1qSTRNRFE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXpNelEwTlRZAek56VTVPakUwT1RRek1qRTVNamc2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-05-09T10:02:22+0000'
+    from:
+      name: Mohamed Elshaarawy
+      id: '10211389848085196'
+    message: "user Permission...\nغالبا المشكلة دى حصلت لانك عملت share لل data دى
+      على network \nاو منقولة منها"
+    id: '1477753548931015'
+  - created_time: '2017-05-13T13:05:59+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      If it's a permissions issue, then you need to go to the a folder's properties, go to permissions then advanced then change owner then type the name of the current user (or search for it), then apply that change.
+      After than in the permissions, edit, then give "users" (as in all users on current machine) "full access", then apply. This will take an extremely long time to apply on all sub folders and contents, so go grab a coffee or something :D
+    id: '1481787571860946'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEzTnpjMU16VTBPRGt6TVRBeE5Ub3hORGswTXpJME1UUXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE0TVRjNE56VTNNVGcyTURrME5qb3hORGswTmpnd056VTUZD

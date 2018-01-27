@@ -1,0 +1,92 @@
+---
+message: حد سمع عن ال fingerprinting  اللي uber عملتوا في ال iOS و ازاي
+link: https://www.facebook.com/NowThisFuture/videos/1535499436491231/
+from:
+  name: Ahmed Ali Henawey
+  id: '2152813614952577'
+type: video
+picture: https://scontent.xx.fbcdn.net/v/t15.0-10/p130x130/18137444_1535501313157710_4251011930677837824_n.jpg?oh=094d3a1bfa1e098a84d4cd0414aa736a&oe=5AF2B4BC
+created_time: '2017-04-25T01:12:53+0000'
+updated_time: '2017-04-27T17:49:42+0000'
+name: NowThis Future
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1464694496903587/
+id: '172338516139198_1464694496903587'
+reactions:
+  data:
+  - id: '10155612462278241'
+    name: Mohamed Mohsen
+    type: LIKE
+  - id: '1745403242177624'
+    name: Hoby Mekawi
+    type: LIKE
+  - id: '2447460971946343'
+    name: Mohamed Hisham
+    type: LIKE
+  - id: '1547297148718242'
+    name: Sherif Abdel-Naby
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRVd01qRXpNalF3T2pFME9UTXhNRGszT1RNNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQXpNVE01TVRReE1ETXhPakUwT1RNd09ESTVOelU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-04-25T01:16:03+0000'
+    from:
+      name: Sherif Abdel-Naby
+      id: '1547297148718242'
+    message: اللعب كله في ازاي ديه :D و ازاي كانو مخبينه من Apple :D
+    id: '1464695703570133'
+  - created_time: '2017-04-25T04:22:32+0000'
+    from:
+      name: Mohab El-Shishtawy
+      id: '10215847428638318'
+    message: |-
+      They have kind of simulated program runs only in a correct mode when it detects Apple headquarter where they are applying tests and in evil mode elsewhere depending on that Apple apply only these test cases and code checks when program runs not when API called.
+      It's almost same trick done by VW to violate carbon emission rate
+    id: '1464828993556804'
+  - created_time: '2017-04-25T04:35:16+0000'
+    from:
+      name: Mohab El-Shishtawy
+      id: '10215847428638318'
+    message: The title somehow is misleading they are not tracking clients who deleted
+      the app they just keep recored in their DB with their profile account associated
+      with unique device ID which Apple considers as "fingerprinting" and violating
+      to their terms to identify these devices again if you put any other account
+      on same device.
+    id: '1464834696889567'
+  - created_time: '2017-04-25T09:30:58+0000'
+    from:
+      name: Sabr Bry
+      id: '10203807938637084'
+    message: |-
+      In iOS
+      1- Data in the keychain are not wiped even after uninstalling the App
+      2- Data in the clipboard will remain even after deleting the App
+      3- You can push code and run it -it violates Apple rules -
+
+      Using the above you can come up with a decent solution!
+    id: '1464982996874737'
+  - created_time: '2017-04-26T11:59:51+0000'
+    from:
+      name: Mohamed AbuIssa
+      id: '1772542006152666'
+    message: بلطجي بلطجي لازم تكون بلطجي
+    id: '1465943563445347'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEyTkRZANU5UY3dNelUzTURFek16b3hORGt6TURneU9UWTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEyTlRrME16VTJNelEwTlRNME56b3hORGt6TWpBM09Ua3gZD
+attachments:
+  data:
+  - media:
+      image:
+        height: 720
+        src: https://scontent.xx.fbcdn.net/v/t15.0-10/p720x720/18137444_1535501313157710_4251011930677837824_n.jpg?oh=4c6a6f1cd2ea56faf2ff16dea4d81968&oe=5AEE0C9E
+        width: 720
+    target:
+      id: '1535499436491231'
+      url: https://www.facebook.com/NowThisFuture/videos/1535499436491231/
+    title: Uber Tracked iPhones, Even When App was Deleted
+    type: video_inline
+    url: https://www.facebook.com/NowThisFuture/videos/1535499436491231/

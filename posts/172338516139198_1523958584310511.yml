@@ -1,0 +1,137 @@
+---
+message: |-
+  سلام عليكم يا شباب
+  تم نشر الواجهة البرمجية API لخدمة اسعار العملات الاجنبية فى البنوك المصرية مقدمة من dollarprice.me : https://dollarprice.me/api
+  لاى حد حابب يعتمد عليها فى اى مشروع او لو عندك موقع ووردبريس وعايز تضيف الخدمة مباشرة داخل الموقع تقدر تضيفها بكل سهولة
+  نتمنى ان تكون الخدمة مفيدة للجميع
+
+  بالتوفيق
+link: https://www.facebook.com/Jozoor/photos/a.286657918113711.60743.185231514923019/1282792531833573/?type=3
+from:
+  name: Mohamed Abd Elhalim
+  id: '10214110497771678'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/19396771_1282792531833573_8857851781927973400_n.png?oh=46a6b3852746524958855062d28697c0&oe=5B1C66D8
+created_time: '2017-06-22T20:48:04+0000'
+updated_time: '2017-06-24T16:40:57+0000'
+name: Jozoor
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1523958584310511/
+shares:
+  count: 5
+id: '172338516139198_1523958584310511'
+reactions:
+  data:
+  - id: '1598108023604185'
+    name: Mohamed Ebrahim
+    type: LIKE
+  - id: '10215453976125135'
+    name: Ahmed Bolica
+    type: LIKE
+  - id: '1494202580648907'
+    name: Abd Alrhman Serag
+    type: LIKE
+  - id: '491424374588685'
+    name: Karim Ebrahem
+    type: LIKE
+  - id: '577907769208604'
+    name: Seif Atalla
+    type: LIKE
+  - id: '10155299113287066'
+    name: يامن شاهين
+    type: LIKE
+  - id: '561895447479777'
+    name: Hamada Mahmoud
+    type: LIKE
+  - id: '10155804554618673'
+    name: Ahmed Nabil Mohamed
+    type: LIKE
+  - id: '1786644854713221'
+    name: Yahya Ghonim
+    type: LIKE
+  - id: '1981938721878297'
+    name: Eslam Nasser
+    type: LIKE
+  - id: '10208478691244351'
+    name: Mohamad Nabih
+    type: LIKE
+  - id: '10159726802330618'
+    name: Ahmed AbouZaid
+    type: LIKE
+  - id: '1713012965421989'
+    name: Ahmed Mamdouh
+    type: LIKE
+  - id: '895970407247426'
+    name: Ahmad Magdy
+    type: LIKE
+  - id: '1411488178980044'
+    name: Alaa Nassar
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlNVFV3TURnd09UVXhPakUwT1RnME1qTXdNems2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXpOVFkyTWpZAMU56WTFPakUwT1RneE5qVXdNVEU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-06-22T21:16:32+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: |-
+      Hello,
+      - Server is too slow 0.7~1.8 second for 1 request, I would say it's not ready yet for production https://gist.github.com/blazeeboy/9d5c28daac5872f2af9f3a34321efe00
+      - Please use one of the standards for the output preferably JSONAPI http://jsonapi.org/
+      - Rate limit is 600 per 10 minutes, with the current response time it's impossible to hit the limit
+      - requiring the "Accept: application/json" header would be a good idea, or adding the suffix ".json" to the url to indicate the requested content format, as it allows you to offer other formats in the future like HTML, YAML, XML..etc
+    id: '1523975164308853'
+  - created_time: '2017-06-23T18:13:23+0000'
+    from:
+      name: Karim Ebrahem
+      id: '491424374588685'
+    message: "Mohamed Abd Elhalim keep it up \U0001F4AA\U0001F3FB, i see it's the
+      best api built for currencies in Egypt till now.\n- Easy to use.\n- Clear documentation.\n-
+      Clear End point, and clear json format to follow.\n- It's will help a lot if
+      you wanna use probability and statics in your app.\nI used average end point
+      to build mini Currency Converter, and it work smoothly. \nThanks for this API
+      :)"
+    id: '1524845994221770'
+  - created_time: '2017-06-23T23:14:08+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Can you give us an overview on what was the technical challenge in your
+      project?
+    id: '1525079010865135'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV5TXprM05URTJORE13T0RnMU16b3hORGs0TVRZAMk1Ua3oZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV5TlRBM09UQXhNRGcyTlRFek5Ub3hORGs0TWpVNU5qUTQZD
+attachments:
+  data:
+  - description: |-
+      واجهة برمجية لتطبيقك أو موقعك بالووردبريس مقدمة من  dollarprice.me :
+      إضافة خدمة أسعار العملات الأجنبية فى البنوك المصرية داخل موقعك بكل سهولة
+      https://dollarprice.me/api
+      - لديك موقع ووردبريس : اضافة الخدمة مباشرة عن طريق إضافة Egypt DollarPrice plugin
+      https://dollarprice.me/api/wordpress
+      https://www.youtube.com/watch?v=hZ9MLEYA0jU
+      - مطور : يمكنك الاعتماد على الواجهة البرمجية API مباشرة
+      https://dollarprice.me/api/developer
+
+      #سعر_الدولار #الدولار #ووردبريس #api #اسعار_العملات #plugin #wordpress
+    description_tags:
+    - id: '726880507459868'
+      length: 14
+      name: dollarprice.me
+      offset: 52
+      type: page
+    media:
+      image:
+        height: 462
+        src: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/19390665_1282792531833573_8857851781927973400_o.png?oh=ce189d0198d33e5c7430ee635a619402&oe=5ADC25A2
+        width: 720
+    target:
+      id: '1282792531833573'
+      url: https://www.facebook.com/Jozoor/photos/a.286657918113711.60743.185231514923019/1282792531833573/?type=3
+    title: Timeline Photos
+    type: photo
+    url: https://www.facebook.com/Jozoor/photos/a.286657918113711.60743.185231514923019/1282792531833573/?type=3

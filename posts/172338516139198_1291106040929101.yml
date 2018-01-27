@@ -1,0 +1,235 @@
+---
+message: Which searching algorithm does this GIF represent ?
+link: http://i.imgur.com/HdvkIkZ.gif
+from:
+  name: Eslam Fathy Farghal
+  id: '10213942630053535'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQC95MGEVjXPnEb6&url=http%3A%2F%2Fi.imgur.com%2FHdvkIkZ.gif&_nc_hash=AQD9gGwRj3mofV9i
+created_time: '2016-11-13T04:05:51+0000'
+updated_time: '2016-11-13T23:05:56+0000'
+name: i.imgur.com
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1291106040929101/
+shares:
+  count: 11
+id: '172338516139198_1291106040929101'
+reactions:
+  data:
+  - id: '10157080439673242'
+    name: Yazeed Al Oyoun
+    type: LIKE
+  - id: '1757932150918002'
+    name: Ahmed Salah
+    type: LIKE
+  - id: '1533295126725494'
+    name: Mohamed Fathy
+    type: LIKE
+  - id: '1117679475033685'
+    name: Khaled Ali
+    type: WOW
+  - id: '1665308196861540'
+    name: Muhammad Khaled
+    type: LIKE
+  - id: '2003551626552599'
+    name: MOhammed Salah
+    type: LIKE
+  - id: '1683702878334561'
+    name: Kathem Amin
+    type: LIKE
+  - id: '1975115955836579'
+    name: Ehab Elfakharany
+    type: LIKE
+  - id: '547020688991281'
+    name: Muhammad Kamal
+    type: LIKE
+  - id: '2077007312536296'
+    name: Ahmed Hosny
+    type: LIKE
+  - id: '10157057056238989'
+    name: Hatem Abd El Aziz
+    type: WOW
+  - id: '10211072612477910'
+    name: Mohamed Hafez Abdallah
+    type: LIKE
+  - id: '1237674946332538'
+    name: Faisal Hameed
+    type: LIKE
+  - id: '10156284492809497'
+    name: Ahmed Hassan
+    type: LIKE
+  - id: '10155012812471631'
+    name: Mustapha Saeed
+    type: LIKE
+  - id: '10155587494733172'
+    name: Khaled Barie
+    type: LIKE
+  - id: '10155425083035028'
+    name: Sarah Gadallah
+    type: LIKE
+  - id: '10209987525676546'
+    name: مؤمن عبد القادر
+    type: LIKE
+  - id: '10213690728277019'
+    name: Omar Matar
+    type: LIKE
+  - id: '10157134502495299'
+    name: Hatim Mohammed
+    type: LIKE
+  - id: '1659849184077113'
+    name: Nader Nabil
+    type: LIKE
+  - id: '10214861141222529'
+    name: Abdelrady Fcis
+    type: LIKE
+  - id: '926707540818900'
+    name: Ahmed Gamal
+    type: LIKE
+  - id: '2029806313704072'
+    name: Adam Zahran
+    type: LIKE
+  - id: '10215412126240955'
+    name: Samar Abdelhamid
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRFeU5UUTRNalF4T2pFME56a3hOak01TURjNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRNM01URTNOekUwTnpveE5EYzVNREV6Tmpnd09qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2016-11-13T04:10:52+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: That looks like Breadth First Search.
+    id: '1291113404261698'
+  - created_time: '2016-11-13T04:12:07+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: Also I am not sure what it is searching for, it seems to be exploring
+      everything anyway.
+    id: '1291123307594041'
+  - created_time: '2016-11-13T04:14:29+0000'
+    from:
+      name: Moustafa Alzantot
+      id: '10155854894011815'
+    message: Most likely Breadth first search. You can also use Percolation algorithm
+      (Union-Find) to discover which areas are accessible from a given start .
+    id: '1291144930925212'
+  - created_time: '2016-11-13T04:51:41+0000'
+    from:
+      name: Ibrahim Mohammed
+      id: '1886120441698692'
+    message: I watched this because it's satisfying, idk what the hack is search algorithm
+      :D
+    id: '1291187057587666'
+  - created_time: '2016-11-13T05:07:09+0000'
+    from:
+      name: John Morcos
+      id: '10155638843272182'
+    message: |-
+      I think it is an Ant Colony algorithm
+
+      https://en.m.wikipedia.org/wiki/Ant_colony_optimization_algorithms
+    id: '1291224340917271'
+  - created_time: '2016-11-13T06:21:49+0000'
+    from:
+      name: Mahmoud Hossam
+      id: '1360912124012585'
+    message: I think percolation
+    id: '1291256337580738'
+  - created_time: '2016-11-13T06:44:01+0000'
+    from:
+      name: Ahmed Sadek Mohamed Tawfik
+      id: '10155056867911922'
+    message: looks like Flood Fill .. it dyes everything with red
+    id: '1291267787579593'
+  - created_time: '2016-11-13T07:19:53+0000'
+    from:
+      name: Mohammad Hefny
+      id: '10159955163690471'
+    message: maybe A* or RTA*
+    id: '1291313744241664'
+  - created_time: '2016-11-13T08:32:01+0000'
+    from:
+      name: Mustapha Saeed
+      id: '10155012812471631'
+    message: https://en.wikipedia.org/wiki/Flood_fill
+    id: '1291365900903115'
+  - created_time: '2016-11-13T08:46:54+0000'
+    from:
+      name: Ibrahim Amer
+      id: '10214738123343685'
+    message: "It would be more fun to find the path using image processing morphological
+      operations \U0001F603"
+    id: '1291371470902558'
+  - created_time: '2016-11-13T08:52:36+0000'
+    from:
+      name: Ahmed Fawzy
+      id: '10215102034853439'
+    message: اعتقد Flood fill .. والله اعلم بعني
+    id: '1291373827568989'
+  - created_time: '2016-11-13T12:45:27+0000'
+    from:
+      name: Omar Beshary
+      id: '10208412458988343'
+    message: 'https://en.wikipedia.org/wiki/Pathfinding ::'
+    id: '1291568020882903'
+  - created_time: '2016-11-13T12:52:22+0000'
+    from:
+      name: Mohamed Kamal
+      id: '10156041352029557'
+    message: Mostafa Mohamed Mohamed Magdy
+    id: '1291571824215856'
+  - created_time: '2016-11-13T13:27:29+0000'
+    from:
+      name: Mohanad Darwish
+      id: '10212449085756100'
+    message: Eslam Fathy Farghal so what is this algorithm ??? or u don't know too.
+    id: '1291596640880041'
+  - created_time: '2016-11-13T13:33:06+0000'
+    from:
+      name: Ahmed Saleh
+      id: '10159933379005574'
+    message: Flood fill + depth first search
+    id: '1291600344213004'
+  - created_time: '2016-11-13T13:48:37+0000'
+    from:
+      name: Jihad A. Abdel Majeed
+      id: '10155357846496295'
+    message: A* ?
+    id: '1291655280874177'
+  - created_time: '2016-11-13T14:27:21+0000'
+    from:
+      name: Ramy Tamer
+      id: '2020727481277546'
+    message: Greedy awe :-D bishof awel ft7a w y5osh feha
+    id: '1291688107537561'
+  - created_time: '2016-11-13T16:38:08+0000'
+    from:
+      name: Hazem Mohammed
+      id: '1433071816820805'
+    message: Hany Saad
+    id: '1291776594195379'
+  - created_time: '2016-11-13T17:05:35+0000'
+    from:
+      name: Muhammad Abdel Mageed
+      id: '10157156050999546'
+    message: Flood fill
+    id: '1291794947526877'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEk1TVRFeE16UXdOREkyTVRZANU9Eb3hORGM1TURFd01qVXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEk1TVRjNU5EazBOelV5TmpnM056b3hORGM1TURVMk56TTEZD
+attachments:
+  data:
+  - media:
+      image:
+        height: 480
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQC95MGEVjXPnEb6&url=http%3A%2F%2Fi.imgur.com%2FHdvkIkZ.gif&_nc_hash=AQD9gGwRj3mofV9i
+        width: 480
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fi.imgur.com%2FHdvkIkZ.gif&h=ATNyN9vqSKjluvH2HFZkyljipHB8kuiLMCXTN-_TkNP0hYof24GDiINsrY_6tODFuK5pawxQzTrM9OUCrPz-1tNATbJt409oYQEl&s=1&enc=AZOh5wxr2Rx6D4V_o3il_ddOVlt06jVEVyUiosUCatheA3OJ2gUEE5Kgx5s3jg2n_0DQXIzbEEQ1aLmCVOhvromk
+    title: i.imgur.com
+    type: animated_image_share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fi.imgur.com%2FHdvkIkZ.gif&h=ATNyN9vqSKjluvH2HFZkyljipHB8kuiLMCXTN-_TkNP0hYof24GDiINsrY_6tODFuK5pawxQzTrM9OUCrPz-1tNATbJt409oYQEl&s=1&enc=AZOh5wxr2Rx6D4V_o3il_ddOVlt06jVEVyUiosUCatheA3OJ2gUEE5Kgx5s3jg2n_0DQXIzbEEQ1aLmCVOhvromk

@@ -1,0 +1,69 @@
+---
+message: "عندى سؤال أنا شغال علي أندرويد أبلكيشن زي تويتر ومستخدمين ال \nfirebase
+  as a back end\nالمشكلة إني معنديش خبرة بال \nno Sql Database\nهي المشكلة اللي مواجهني
+  دلوقتي هي في تصميم الداتا بيز نفسها ما بين ال \nusers, tweets and hashtags tables
+  \nأنا عامل \nTable for users contains coloumn contains list of IDs of follwing users
+  and list Of tweets IDs \nTable for Tweets contains coloumn contains Content \nTable
+  for hashtags contains coloumn contains list of tweets IDs \nالمشكلة دلوقتي أني لما
+  أكون عايز \nList of tweets of the users that i follow \nبعمل شغل \nprocessing كتيير
+  قوي \nوأعتقد إن ده غلط لأنها لازم تكون \nquery واحدة \nعلشان أقدر أعمل \nlisten
+  \nلأي تغيير حصل فيها \nفهل في تصميم للداتا بيز أحسن من كدة وإيه هو؟؟"
+from:
+  name: أحمد أبوبكر
+  id: '1703823479655702'
+type: status
+created_time: '2017-11-18T16:31:51+0000'
+updated_time: '2017-11-18T20:23:13+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1665973353442366/
+id: '172338516139198_1665973353442366'
+reactions:
+  data:
+  - id: '2025782101044221'
+    name: Hassaan Omar
+    type: LIKE
+  - id: '548062595559343'
+    name: Ahmed EL-Metwally
+    type: LIKE
+  - id: '570714223277361'
+    name: Ismail Elmogy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTRNemN6TlRFMk5qY3lPakUxTVRFeU16UTVOakU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01ERXdNVFl6TmpVeE56VXlPakUxTVRFd01qa3pNemM2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-11-18T16:39:26+0000'
+    from:
+      name: Ahmed Soliman
+      id: '10156211262584756'
+    message: "enta momken te7el el mawdo3 daa be 7aga basetaa \n1- kol user leeh timeline
+      \n2- kol user create new post you have to add ref in the follower's timeline
+      \n3- create timeline for each hashtag. and add ref for new added posts as normal
+      users\nwhen user login just get his timeline and ref posts"
+    id: '1665982213441480'
+  - created_time: '2017-11-18T17:52:17+0000'
+    from:
+      name: Muhammad Kamal
+      id: '547020688991281'
+    message: "اي حاجه بتعمل عليها query ضيف .indexOn علي الفيلد في ال database rules
+      اللي انت محتاجه عشان ال performance\nكمان لازم تعمل ليمت لاي داتا بتجيبها وليكن
+      مثلا 20 تويته وده من عن طريق الميثود limitToLast  او limitToFirst   بس طريقة
+      ال pagination مش عارف بتم ازاي في فاير بيز لو عرفت ابقي قولي  عشان محتاجها جدا\U0001F600"
+    id: '1666035246769510'
+  - created_time: '2017-11-18T18:49:52+0000'
+    from:
+      name: Ahmed EL-Metwally
+      id: '548062595559343'
+    message: انا عملت حاجة زي كدة بس ال mongodb تعالي انبوكس وانا ابعتلك الكود
+    id: '1666077940098574'
+  - created_time: '2017-11-18T18:55:23+0000'
+    from:
+      name: Marwan Abdel Moneim
+      id: '408695269572490'
+    message: table?
+    id: '1666081093431592'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkyTlRrNE1qSXhNelEwTVRRNE1Eb3hOVEV4TURJek1UWTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkyTmpBNE1UQTVNelF6TVRVNU1qb3hOVEV4TURNeE16STAZD

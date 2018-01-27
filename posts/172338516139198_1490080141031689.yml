@@ -1,0 +1,50 @@
+---
+message: |-
+  Opinion question:
+  What do you think of services like AWS Lambda or google cloud functions?
+   Have you ever used any?
+  What do you think of it (good and bad stuff)?
+from:
+  name: Omar Waleed
+  id: '10156094658694549'
+type: status
+created_time: '2017-05-22T10:17:56+0000'
+updated_time: '2017-05-24T08:27:18+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1490080141031689/
+id: '172338516139198_1490080141031689'
+comments:
+  data:
+  - created_time: '2017-05-22T10:34:26+0000'
+    from:
+      name: Met Wally
+      id: '520998054938412'
+    message: "AWS Lambda is a peace of mind technology.\nif  your request lifetime
+      less than 200 ms it will pay a reasonable price .. bigger than this you will
+      pay a fortune..\n\na simple example:\n128 MB   executed 1000000 every day run
+      for 200 ms\nwill cost you $6.8 per month after subtract free tier compute \n\n128
+      MB  executed 1000000 every day run for 1 second\nwill cost $62 per month\n\n128
+      MB  executed 15000000 every day run for 1 second\nwill cost $1021\n\nThe free
+      tier for Lambda is:\n1,000,000 free requests per month\nUp to 3.2 million seconds
+      of compute time per month \nor 400,000 GB-seconds of compute time per month."
+    id: '1490093394363697'
+  - created_time: '2017-05-22T14:12:10+0000'
+    from:
+      name: Ahmed Aboulenein
+      id: '10160047384135438'
+    message: I used AWS Lambda, it's mainly used to run some script based on some
+      events in the AWS cloud but I think can also used to develop short running services
+      (it has a timeout). Maybe we can share more experience if you have a specific
+      question or let us know about your goals?
+    id: '1490283484344688'
+  - created_time: '2017-05-23T14:50:02+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: |-
+      We have been in our team using serverless stuff, we had more reliable services, less ops pain, we just suffered a little to be Fully on a CI path, but it got easier by time, now making lots of stuff regionally redundant with lambda.
+      We pay for our cloudwatch metrics more than Lambda... :D
+    id: '1491134227592947'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE1TURBNU16TTVORE0yTXpZANU56b3hORGsxTkRRNU1qWTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE1TVRFek5ESXlOelU1TWprME56b3hORGsxTlRVeE1EQXkZD

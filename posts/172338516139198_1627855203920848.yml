@@ -1,0 +1,104 @@
+---
+message: انا معايا ناس شغالة كتير و هما اكثر من تيم الصراحة بس كل واحد شغال بال mail
+  الشخصى ليه لعدة اسباب لا داعى لذكرها. المشكلة انى مقسمهم لاكثر من category فمثلا
+  سعات اى حد بيحتاج يبعت للteam leaders بس و سعات للjuniors بس و سعات للكل طبعا..
+  فهل فى طريقة اقدر اعمل  mail lists دى و طبعا تبقى مشتركة بحيث لو ضفت او غيرت حاجة
+  الكل يقدر يحس بالتغيير و شكرا.
+from:
+  name: Walid Ashraf
+  id: '10159896809840176'
+type: status
+created_time: '2017-10-08T21:17:15+0000'
+updated_time: '2017-10-09T06:12:50+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1627855203920848/
+id: '172338516139198_1627855203920848'
+reactions:
+  data:
+  - id: '1557580064295784'
+    name: Mohamed H. Fakher
+    type: LIKE
+  - id: '1952782671708244'
+    name: Mohamed Sakr
+    type: LIKE
+  - id: '10156237978265039'
+    name: Muhammad Ahmed Hataba
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhNekUwTVRjek1EVTRPakUxTURjMU5UZAzBPVFk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TnpVNU56STFNRE00T2pFMU1EYzBPVGt3TnpnNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-10-08T21:20:47+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: |-
+      طيب معذبين نفسكم ليه؟ Google Apps و انجز، او حتى Slack
+      غلط جدا أن الناس تستخدم الايميل الشخصي بتاعها في الشغل. و مالوش مبرر، لو الشغل اللي بتعملوه مش قادر يجيب تمن حاجة زي Google Apps او Office 365 يبقى مالوش لازمة الصراحة.
+    id: '1627870980585937'
+  - created_time: '2017-10-08T21:24:27+0000'
+    from:
+      name: Mohammed Yassin
+      id: '2032504700100329'
+    message: Search Slack
+    id: '1627873520585683'
+  - created_time: '2017-10-08T21:35:02+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "اعمل ايميل سيرفر على جودادي وﻻ اي حاجة باسم دومين شركتك وضيف الليستات
+      دى او الاكونتات حتى اللى باسم juniors, seniors,etc.. \nطبعا @yourcompany.com
+      \n\nوظبط بقى الـ rules بتاعتها (من ع السيرفر مش من ايميلك) بحيث اللى يبعت للادرس
+      الفلانى يعمل فوروارد لكذا وكذا وكذا .... \nوكل ما ينضم لكم حد جديد تضيفله رول
+      في الايميل بتاع all وبتاع الجروب اللى هو فيها..\n\nدى work around لو عايز تفضل
+      شغال زي ما انت as is قدر الامكان بغض النظر عن ان الطريقة دى كويسة وﻻ ﻻ او في
+      حل جذري افضل ليك وﻻ ﻻ.."
+    id: '1627879273918441'
+  - created_time: '2017-10-08T21:53:50+0000'
+    from:
+      name: George Emad
+      id: '10215439336243069'
+    message: "temporary solution: a shared google sheet with all categories and separate
+      each 2 mails with comma for example;  \nseniors | mail1@a.com, mail2@b.com,....etc
+      and copy the cell of the category you wanna send to."
+    id: '1627890703917298'
+  - created_time: '2017-10-08T22:04:23+0000'
+    from:
+      name: Mohamed Abd Elhalim
+      id: '10214110497771678'
+    message: Slack or Flock
+    id: '1627898130583222'
+  - created_time: '2017-10-08T22:27:57+0000'
+    from:
+      name: Mohamed Aboshady
+      id: '10156237406489642'
+    message: هتعمل ايميل مركزي للشركة علي جيميل وكلكم تبعتوا عليه وتكتبوا المجموعة
+      في موضوع الرسالة .. وتحط rules بناء علي موضوع الرسالة علي اساسها هو يعمل forward
+      لمجموعة ايميلات معينة
+    id: '1627911103915258'
+  - created_time: '2017-10-09T05:12:22+0000'
+    from:
+      name: Omar Gamal
+      id: '1817953731571403'
+    message: Google mailing list .. شوف دي
+    id: '1628116000561435'
+  - created_time: '2017-10-09T05:34:12+0000'
+    from:
+      name: Walid Assem
+      id: '10155090288751994'
+    message: Office 365
+    id: '1628126580560377'
+  - created_time: '2017-10-09T06:12:37+0000'
+    from:
+      name: Mahmoud Hossam
+      id: '1360912124012585'
+    message: |-
+      Check out GNU Mailman, it was designed specifically for this purpose.
+
+      https://www.gnu.org/software/mailman/
+    id: '1628147143891654'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl5TnpnM01EazRNRFU0TlRrek56b3hOVEEzTkRrM05qUTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl5T0RFME56RTBNemc1TVRZAMU5Eb3hOVEEzTlRJNU5UWTEZD

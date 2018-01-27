@@ -1,0 +1,90 @@
+---
+message: |-
+  if there is confirm window ,
+  how can I get it's value using php if the user select yes or no ?
+from:
+  name: Ahmed Mostafa
+  id: '10213651746345144'
+type: status
+created_time: '2016-05-19T19:26:55+0000'
+updated_time: '2016-05-19T22:04:36+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1146309045408802/
+id: '172338516139198_1146309045408802'
+reactions:
+  data:
+  - id: '859391800899712'
+    name: Mohamed Huzien
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTBPRFkyT1RrNU5UTTVPakUwTmpNMk9EZA3dOams2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTBPRFkyT1RrNU5UTTVPakUwTmpNMk9EZA3dOams2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-05-19T19:37:21+0000'
+    from:
+      name: Hesham Watany
+      id: '10214843347173894'
+    message: try java-script function call when pressing confirm
+    id: '1146314412074932'
+  - created_time: '2016-05-19T19:38:42+0000'
+    from:
+      name: Hesham Watany
+      id: '10214843347173894'
+    message: after that you can use ajax to send variables or anything to the php
+      file
+    id: '1146314828741557'
+  - created_time: '2016-05-19T19:39:53+0000'
+    from:
+      name: Ahmed Mostafa
+      id: '10213651746345144'
+    message: ok , so there is no direct method to get value with PHP
+    id: '1146315068741533'
+  - created_time: '2016-05-19T19:40:08+0000'
+    from:
+      name: Ahmed Mostafa
+      id: '10213651746345144'
+    message: thank i work on it
+    id: '1146315148741525'
+  - created_time: '2016-05-19T19:41:41+0000'
+    from:
+      name: Hesham Watany
+      id: '10214843347173894'
+    message: there is an option in mind, the confirmation window change it to just
+      a pop up window and make in it a form and then you can easily use it to send
+      directly to the needed action php script
+    id: '1146315535408153'
+  - created_time: '2016-05-19T19:42:13+0000'
+    from:
+      name: Hesham Watany
+      id: '10214843347173894'
+    message: you are welcome :)
+    id: '1146315718741468'
+  - created_time: '2016-05-19T19:46:02+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: There is no better answer than, that you have to make solid distinguish
+      between Server-side and Client-side.
+    id: '1146317735407933'
+  - created_time: '2016-05-19T19:54:21+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: |-
+      الشغل ده قديم
+      انت اصلا المفروض ما تستخدمش confirn ابدأ اشتغل بمعايير web 2.0 من دلوقتي احسن
+    id: '1146321565407550'
+  - created_time: '2016-05-19T22:04:36+0000'
+    from:
+      name: Ahmed Ibrahim
+      id: '1553986601317720'
+    message: |-
+      Msg =confirm("are you sure");
+      In case of confirm // true
+      In case of cancel // false
+    id: '1146365598736480'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUwTmpNeE5EUXhNakEzTkRrek1qb3hORFl6TmpnMk5qUXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUwTmpNMk5UVTVPRGN6TmpRNE1Eb3hORFl6TmprMU5EYzIZD

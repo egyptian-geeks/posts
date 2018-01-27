@@ -1,0 +1,109 @@
+---
+message: "اتمنى اعرف رأيكم في أول\nProof of Concept\nاعمله بنفسي\n\nانا مهندس اتصالات
+  لكن شغلي UX\nولما جاتلي الفكرة دي قررت ماستناش لما الاقي الشريك التكنيكال او المستثمر..
+  واخدت مني شهرين على ما اتعلمت جافا سكربت وعملتها الحمد لله\n\nوكل فترة حد بيقولي
+  على ثغرة في السيكيورتي وبعافر شوية لحد ما اعرف اقفلها\nوبدور على شريك تكنيكال يستمتع
+  بتأسيس المشروع ده بجودة تنافس حاجات زي\nAuth0\n\nانا مش مطور ومش بحاول أكون مطور...
+  عشان ماتتصدموش في جودة الشغل.. لكن يهمني رأيكم في الفكرة عموما ونصائحكم من ناحية
+  السكيورتي على الاقل.. واذا كان حد يعرف يخدع النسخة الحالية ويعمل\nLogin\nكأنه مثلا\nBatman@Gotham.com\n\U0001F603\n
+  بشرط ماتطلعلوش رسالة\nRequires inbox verification \n\nواتمنى يقولي عملها ازاي ويقترح
+  اقفلها ازاي؟\n\nوجزاكم الله خيرًا\n\n(طبعا باتمان مش محتاجني أقوله لينك الديمو \U0001F60E
+  )"
+from:
+  name: Muhammad Sherbeeny
+  id: '10159810258355527'
+type: status
+created_time: '2017-10-02T10:15:09+0000'
+updated_time: '2017-10-03T08:53:13+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1622152864491082/
+id: '172338516139198_1622152864491082'
+reactions:
+  data:
+  - id: '10156996105984325'
+    name: Mostafa El-Liethy
+    type: LIKE
+  - id: '10155502591672779'
+    name: Mo'men Bauomy
+    type: LIKE
+  - id: '10155750887566727'
+    name: Khaled Elkhawaga
+    type: LIKE
+  - id: '1999765416908747'
+    name: Ahmed Khalifa
+    type: LIKE
+  - id: '10155686945529760'
+    name: Ibrahim Hussein
+    type: LIKE
+  - id: '10155524491447762'
+    name: Mohamed Lotfy
+    type: LIKE
+  - id: '10209416046152800'
+    name: Mohanad Mohamed Ali
+    type: LIKE
+  paging:
+    cursors:
+      before: TnprNE9ERTVNekkwT2pFMU1EY3hPVE13TnpjNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRZAM05ERTNOVEl6T1RveE5UQTJPVFF3TVRJMU9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2017-10-02T11:17:33+0000'
+    from:
+      name: AbdAllah Khashaba
+      id: '1032800230207501'
+    message: جميله الفكرة ، نفس فكرة أنه يشوف بالكاميرا QR كود من أبلكيشن عندك
+    id: '1622222141150821'
+  - created_time: '2017-10-02T11:18:15+0000'
+    from:
+      name: AbdAllah Khashaba
+      id: '1032800230207501'
+    message: ممكن تطبق ك layer حماية زيادة في تطبيقات البنوك أو ما إلى ذلك
+    id: '1622222621150773'
+  - created_time: '2017-10-02T11:26:19+0000'
+    from:
+      name: Mohamed Lotfy
+      id: '10155524491447762'
+    message: "you are creating a new email ID which has the Auth token and link it
+      to the sender ID. great idea \U0001F4A1"
+    id: '1622227834483585'
+  - created_time: '2017-10-02T16:22:26+0000'
+    from:
+      name: Diyaa Mahmoud
+      id: '1559170364118742'
+    message: "ديه نتايج تست سريع\n- جوهر الفكره قايم عل تحويل سرفرك لinbound email
+      server عشان يستلم ايميلات الاكتفشن...  وده جحيم وباب شر في حد ذاته \n- انا جربت
+      اسجل من تلات email provider مختلفين \n-Aol \nوده بيبعت من دومين \nwebjas-vab147.srv.aolmail.net\n-fastmail
+      \nوده بيبعت من دومين\nwebmail.messagingengine.com\n\n-gmail\nوده بيبعت من دومين
+      \nmail.gmail.com\n\nfastmail و Aol  فشلو في التسحيل \n\nفي حين نجح الجميل وده
+      يخليني اشك انك بتعمل string match عل الدومين وده مش اسلوب مثالي خالص للتعامل
+      مع الميلات لو حد في ايده  smtp server  ممكن يبعت ايميلات بالدومين اللي يحبه\nفالافضل
+      تستخدم SPF -  DomainKeys -  DKIM  عشان تشيك عل الدومينات المسموح لها تبعت ميلات
+      \n\n- مش واضح هتعمل موضوع تغيير الايميل ازاي وديه النقطه اللي ممكن فعلا يحصل
+      فيها مشكله\n\n-لو بتسيف الكود الخاص بالتفعيل في الداتابيز فده ممكن يسبب مشكله
+      ... بوت لطيف يفضل شغال يطلب اكواد تفعيل .. فالافضل يكون في clientside وبس يتسيف
+      إذا وفقط جالك ميل بالكود \n\n- الفكره تعتبر Single  Point of Failure بامتيار
+      .. لو جهازي مفتوح وميلي لوجن أي حد ممكن يخش كل المواقع اللي مسجل فيها بدون أي
+      مشكله\n\n-زود الديمو شويه بتغيير الميل والوج اوت عشان تساعد عل التست اكتر \n\nبعيدا
+      عن كل ده الفكره ممتازه وعاجباني جدا تعتبر instant activation لطيفه .."
+    id: '1622441381128897'
+  - created_time: '2017-10-03T08:53:07+0000'
+    from:
+      name: Muhammad Sherbeeny
+      id: '10159810258355527'
+    message: https://security.bw.ventures/our-services/startup-program/
+    id: '1622991204407248'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl5TWpJeU1qRTBNVEUxTURneU1Ub3hOVEEyT1RRek1EVTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl5TWprNU1USXdORFF3TnpJME9Eb3hOVEEzTURJd056a3cZD
+attachments:
+  data:
+  - media:
+      image:
+        height: 405
+        src: https://scontent.xx.fbcdn.net/v/t15.0-10/s720x720/22200771_10159300706895527_6273841256787345408_n.jpg?oh=985f7e890efe5410156fbd54caa605dd&oe=5ADDCBE2
+        width: 720
+    target:
+      url: https://www.facebook.com/sherbeeny/videos/10159300695710527/
+    title: nanoAuth Demo
+    type: video_inline
+    url: https://www.facebook.com/sherbeeny/videos/10159300695710527/

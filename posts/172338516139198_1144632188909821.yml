@@ -1,0 +1,83 @@
+---
+message: My question is more like open discussion for Java Developers, Does anyone
+  here experienced unexpected behavior while using the conditional operator (aka ternary
+  operator) ?
+from:
+  name: هشام إبراهيم
+  id: '10214782719499032'
+type: status
+created_time: '2016-05-16T19:50:59+0000'
+updated_time: '2016-05-17T09:13:44+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1144632188909821/
+id: '172338516139198_1144632188909821'
+reactions:
+  data:
+  - id: '1596110217148252'
+    name: Ahmed Badawy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlORGM0Tmpnd09EVTJPakUwTmpNME5qTXhPVFU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlORGM0Tmpnd09EVTJPakUwTmpNME5qTXhPVFU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-05-16T20:33:28+0000'
+    from:
+      name: Mohamed Sweelam
+      id: '1987222834640127'
+    message: I always use it , but i did not face unexpected behavior before .
+    id: '1144651648907875'
+  - created_time: '2016-05-16T21:25:07+0000'
+    from:
+      name: Mohamed AbuIssa
+      id: '1772542006152666'
+    message: "I use it a lot in C#. Your problem may be caused by wrong assumption
+      for precedence, like 5 + x== 10? 20 : 10 + 30; \nIf your statement looks something
+      like this make sure it means what you want"
+    id: '1144671752239198'
+  - created_time: '2016-05-16T22:12:08+0000'
+    from:
+      name: Ahmed Hashem
+      id: '1928384107425504'
+    message: never failed me
+    id: '1144688185570888'
+  - created_time: '2016-05-17T03:02:48+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: nope, what version of Java?
+    id: '1144785185561188'
+  - created_time: '2016-05-17T06:21:17+0000'
+    from:
+      name: Muhammad El-Hennawy
+      id: '10213118809797201'
+    message: Use parentheses to assign the precedence of the expression. Also, check
+      in the "definite assignment " of the identifiers. finally,  stop beg the question
+      and tell us clearly what is your question? !!!
+    id: '1144845288888511'
+  - created_time: '2016-05-17T06:30:26+0000'
+    from:
+      name: هشام إبراهيم
+      id: '10214782719499032'
+    message: First of all sorry for the late response, I was trying to append a string,
+      and I used ternary operator to check the returned value(String) of a getter(if
+      it's null or not), it throws a null pointer exception, Althogh I used the same
+      syntax with another getter of the same type, it's value was null but it didn't
+      throw any exceptions and continue the condition normally
+    id: '1144846988888341'
+  - created_time: '2016-05-17T08:41:41+0000'
+    from:
+      name: George Leon
+      id: '10156058891705747'
+    message: can u write the code here ?
+    id: '1144884772217896'
+  - created_time: '2016-05-17T09:13:44+0000'
+    from:
+      name: Muhammad El-Hennawy
+      id: '10213118809797201'
+    message: ''
+    id: '1144893515550355'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUwTkRZAMU1UWTBPRGt3TnpnM05Ub3hORFl6TkRNd09EQTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUwTkRnNU16VXhOVFUxTURNMU5Ub3hORFl6TkRjMk5ESTAZD

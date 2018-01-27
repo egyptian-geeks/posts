@@ -1,0 +1,72 @@
+---
+message: "Please guys i need some help\nI want to send an image to a certain api i,m
+  developing on the server side. I'm trying base64\n\nBut it gives me an error that
+  the url is too long\nI try to resize the image to be able to send it by the api
+  but when trying to enlarge image again it was black. \nI searched alot but i can't
+  find any solution for this."
+from:
+  name: Ahmed Abd El-halem
+  id: '1927965150566536'
+type: status
+created_time: '2015-11-17T10:05:01+0000'
+updated_time: '2015-11-23T13:15:46+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1033296113376763/
+id: '172338516139198_1033296113376763'
+reactions:
+  data:
+  - id: '1700979476627162'
+    name: Amir Abou Eesa
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhORFV6TnpnNU9EUXhPakUwTkRneE1Ua3lOVFU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXhORFV6TnpnNU9EUXhPakUwTkRneE1Ua3lOVFU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2015-11-17T10:14:43+0000'
+    from:
+      name: Ahmed Khaled
+      id: '1497533366961869'
+    message: you can use http loader , it takes a large images and more fast
+    id: '1033298016709906'
+  - created_time: '2015-11-17T10:14:56+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: Are you trying to send it via a GET request?the maximum URL length in
+      this case would be 255 bytes for most servers, you should be using a PUT request
+      if you are uploading an image.
+    id: '1033298116709896'
+  - created_time: '2015-11-17T10:46:23+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: u should use a POST request not a GET one.
+    id: '1033305073375867'
+  - created_time: '2015-11-17T11:00:40+0000'
+    from:
+      name: Ibrahem Salah
+      id: '1391026811024185'
+    message: |-
+      Change max array length in endPoint in web config
+      and HTTP will send large image just convert your image to array of bytes: byte[]
+      and it will work
+    id: '1033307663375608'
+  - created_time: '2015-11-19T10:01:47+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: https://www.google.com.eg/search?client=ubuntu&channel=fs&q=url+is+too+long&ie=utf-8&oe=utf-8&gfe_rd=cr&ei=9p1NVrKpDMqs8wfd47SwBg
+    id: '1034066436633064'
+  - created_time: '2015-11-21T16:43:02+0000'
+    from:
+      name: Dina Amin Gad
+      id: '998097173688349'
+    message: |-
+      check the buffer size? i made a one before i hope it helps:
+      https://dinaag.wordpress.com/2015/05/20/send-image-asp-net-mvc-5-api-and-consume-it-in-a-universal-app/
+    id: '1035025919870449'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF6TXpJNU9EQXhOamN3T1Rrd05qb3hORFEzTnpVMU1qZA3oZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF6TlRBeU5Ua3hPVGczTURRME9Ub3hORFE0TVRJME1UZA3kZD

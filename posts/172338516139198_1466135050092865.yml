@@ -1,0 +1,127 @@
+---
+message: "مساء الخير. لو عندي نظام إلكتروني ومحتاج إختبره ضد الثغرات واخطاء الواجهة
+  وقابلية الإستخدام، إيه أسهل طريق؟ \n\nانا هنا مش بدور علي Tests للكود أو Penetration
+  انا بدور علي أخطاء بتنتج عن تجربة فعلية للنظام، حجات المبرمج نفسه أخطأ فيها أو مش
+  عامل حسابها، الأمور المتعلقة أكتر بال logic وقابلية الإستخدام. متخيل حد قاعد وبعد
+  ما يجرب النظام يقولي إزاي الرقم ده مثلا ماتغيرش بعد ما عملت كذا أو إزاي النظام ماعرضش
+  عليا يعمل كذا بعد ما حصل كذا. انا شغال علي نظام heavy logic و عايز أدمغة تانية ت
+  poke معايا و تديني تقرير بالثغرات والمشاكل الي متوقع تحصل عشان أطور المنتج بتاعي.\n\nالنوع
+  ده هل هو ال usability testing ولا شئ آخر ؟ ومين تعرفه ممكن يهندل حاجة زي دي ؟ انا
+  عارف طبعاً إن المستخدم النهائي هو الحل الأفضل لكن محتاج أكون مطمن أكتر قبل ما احط
+  النظام ف إيده.\n\nشكراً"
+from:
+  name: Ahmed Zain Mohammed
+  id: '10156266511868081'
+type: status
+created_time: '2017-04-26T15:45:16+0000'
+updated_time: '2017-04-27T12:59:17+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1466135050092865/
+id: '172338516139198_1466135050092865'
+reactions:
+  data:
+  - id: '10215912205257566'
+    name: Mohammed Fouad Hassen
+    type: LIKE
+  - id: '10214557410906658'
+    name: Eman Herawy
+    type: LIKE
+  - id: '2094486247447259'
+    name: Huda Ahmed
+    type: LIKE
+  - id: '10155138037322478'
+    name: Anas Emad
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRJeE9UWXhNalV3TkRveE5Ea3pNalkxTkRNNU9qSTFOREE1TmpFMk1UTT0ZD
+      after: TmpjME9UTXlORGMzT2pFME9UTXlNalk1TVRjNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-04-26T15:51:01+0000'
+    from:
+      name: Ahmed Kamal
+      id: '10208727810672580'
+    message: حضرتك جربت ال Behaviour testing أوما يسمى إختصارا ب BDD.
+    id: '1466169026756134'
+  - created_time: '2017-04-26T15:59:52+0000'
+    from:
+      name: Sarab Alzaman
+      id: '10154599440254364'
+    message: |-
+      read the docs of codeception
+
+      http://codeception.com/docs/01-Introduction
+
+      at the end u r free to use bdd, tdd or even just unit testing  :)
+    id: '1466199303419773'
+  - created_time: '2017-04-26T16:03:06+0000'
+    from:
+      name: Ibrahim Zaki
+      id: '10157017423792738'
+    message: "كل الكلام اللى حضرتك طالبه ده testing عادى \nاختبار المنتج مراحل تقريبا
+      حسب ما أنا فاهم من سؤالك انت محتاج heavy functionals testing\nجهز بيانات شبه
+      حقيقية و استخدمها فى إختبار المنتج لتتأكد من النتائج المرجوة\nأنا مش عارف إيه
+      علاقة testing بتطوير المنتج أعتقد دا دور مدير المنتج و مسألة بزنس فى الأساس
+      \nلكن أل testing دوره تأكيد أن دا المنتج المطلوب إلى يودى الوظائف المطلوبة بشكل
+      سليم"
+    id: '1466202060086164'
+  - created_time: '2017-04-26T16:05:08+0000'
+    from:
+      name: Sarab Alzaman
+      id: '10154599440254364'
+    message: |-
+      watch this video as well
+
+
+      https://m.facebook.com/story.php?story_fbid=1896447103901010&id=1691625671049822
+    id: '1466203303419373'
+  - created_time: '2017-04-26T16:08:16+0000'
+    from:
+      name: Ahmed Zain Mohammed
+      id: '10156266511868081'
+    message: |-
+      الي بدور عليه بعيد تماماً عن ال TDD أو ال Unit testing عشان اكون أوضح، انا بدور علي أشخاص بعيد تماماً عن عملية التطوير، أول مرة يشوف النظام، هايقعد ويجرب ويختبر خواص بعينها و يسأل لو عملت كذا هايحصل إيه ويحاول يخدع ويختبر النظام وقابلية إستخدامه.
+
+      مسألة إني أختبر النظام الي مصممه صعبه، لأنك مش بتشوف أخطاءك ولا الثغرات الي أنته سايبها وراك، دماغك دايماً بتاخد نفس الطريق في التفكير ومش بتحس إن في حاجة غلط ... في أغلب الأوقات.
+
+      هل في جهة ما متخصصة في انها ت poke في النظام وتطلع مشاكل في الإستخدام و ال functionality بتاعته؟
+    id: '1466207190085651'
+  - created_time: '2017-04-26T16:22:34+0000'
+    from:
+      name: Ibrahim Kamal
+      id: '1567204930053492'
+    message: ممكن اساعدك كيوزر لو تحب
+    id: '1466219533417750'
+  - created_time: '2017-04-26T18:50:42+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: User Acceptance Test
+    id: '1466327013407002'
+  - created_time: '2017-04-26T19:42:28+0000'
+    from:
+      name: Mohamed Elnagar
+      id: '10215800137143118'
+    message: "this would help If you mean Browser automation \nhttp://www.seleniumhq.org/"
+    id: '1466360920070278'
+  - created_time: '2017-04-26T20:40:13+0000'
+    from:
+      name: Mohamed Shaaban
+      id: '10156259295924301'
+    message: "Do a user lab, bring couple of users (separately not together), prepare
+      good amount of questions, cast everything live in a separate room (audio & video)
+      in order to note down what are their expectations, yours, and their feedback\n\ngive
+      them the app, and interview them \n\nDon't guide, leave them freely try the
+      app\n\nAnd enjoy the show"
+    id: '1466399440066426'
+  - created_time: '2017-04-27T03:58:10+0000'
+    from:
+      name: Mohammed Fouad Hassen
+      id: '10215912205257566'
+    message: You need to use focus groups to test your app and give you feedback on
+      it.
+    id: '1466642736708763'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEyTmpFMk9UQXlOamMxTmpFek5Eb3hORGt6TWpJeE9EWXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEyTmpZAME1qY3pOamN3T0RjMk16b3hORGt6TWpZAMU5Ea3cZD

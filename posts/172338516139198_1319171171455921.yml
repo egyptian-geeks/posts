@@ -1,0 +1,42 @@
+---
+message: "Using ASP.net, C# & Entity framework consider the following scenario: \nI
+  have a large number of clauses (sentences - think 10's) saved on a table. \nEach
+  clause belong to a category. Categories are saved on a different table. Both clauses
+  and categories are editable by the user.\nWhat I want to do is to create a page
+  where these clauses will be grouped by category. \nEach clause should have a check
+  box next to it allowing users to choose what applies.\nI'm not sure what ASP controls
+  to use. I thought about nested repeaters but the idea isn't appealing. \nI also
+  think a combination of a repeater and a gridview will also complicate things. \nIt
+  will be ideal not to show empty categories. \nI'm pretty sure you geeks will impress
+  me :)"
+from:
+  name: Ahmed Shawky Ibrahim
+  id: '10155110527716700'
+type: status
+created_time: '2016-12-08T22:30:40+0000'
+updated_time: '2016-12-09T16:34:00+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1319171171455921/
+id: '172338516139198_1319171171455921'
+comments:
+  data:
+  - created_time: '2016-12-09T16:29:50+0000'
+    from:
+      name: Ahmed Magdy
+      id: '1539856256110120'
+    message: It's more simple than using repeaters you could use a drop down for the
+      categories and 2 list one for assigned sentences and other for unassigned looks
+      like 2 pools
+    id: '1320361178003587'
+  - created_time: '2016-12-09T16:33:59+0000'
+    from:
+      name: Ahmed Shawky Ibrahim
+      id: '10155110527716700'
+    message: |-
+      I totally agree with you but I forgot to mention that the client is absolutely strict. They really wanted this way.
+      Currently I'm thinking about create custom user control. It will contain a header for the category name and a repeater underneath it for the associated clauses. Then programatically create those controls from the code behind for the non empty categories and fire them on the page.
+      How does that sound to you ?
+    id: '1320365064669865'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE15TURNMk1URTNPREF3TXpVNE56b3hORGd4TXpBd09Ua3cZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE15TURNMk5UQTJORFkyT1RnMk5Ub3hORGd4TXpBeE1qTTUZD

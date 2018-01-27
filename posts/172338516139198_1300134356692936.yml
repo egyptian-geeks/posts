@@ -1,0 +1,40 @@
+---
+message: Does anyone know of an api to search for restaurants/diners/bars in egypt?
+  i tried messaging elmenus and there was no response, otlob doesn't seem to have
+  one either.
+from:
+  name: Omar Wagih
+  id: '1804876806478909'
+type: status
+created_time: '2016-11-21T13:40:38+0000'
+updated_time: '2016-11-21T13:45:38+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1300134356692936/
+id: '172338516139198_1300134356692936'
+comments:
+  data:
+  - created_time: '2016-11-21T13:43:07+0000'
+    from:
+      name: Ahmed Melege
+      id: '10156112171242375'
+    message: |-
+      Give this a try:
+      https://developer.foursquare.com/
+    id: '1300136193359419'
+  - created_time: '2016-11-21T13:44:41+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      Have you checked the Google Places API?
+      https://developers.google.com/places/
+    id: '1300136910026014'
+  - created_time: '2016-11-21T13:45:36+0000'
+    from:
+      name: Omar Wagih
+      id: '1804876806478909'
+    message: Thanks guys, i'll check both of them :D
+    id: '1300137433359295'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE13TURFek5qRTVNek0xT1RReE9Ub3hORGM1TnpNMU56ZAzQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE13TURFek56UXpNek0xT1RJNU5Ub3hORGM1TnpNMU9UTTIZD

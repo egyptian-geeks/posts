@@ -1,0 +1,78 @@
+---
+message: |-
+  Question for Network Geeks,
+  I have a severe connectivity issue in my ADSL connection, with 2 different ISPs.
+  Packet Loss is varying over time between 30% up to 97%.
+  Hop 2 always timeout.
+  While other times, The line is full speed without issues.
+  Almost All wires were checked multiple times.
+  I tried without splitter, with different routers.
+
+  What could be the cause of such issue?!
+from:
+  name: Pola Ashraf
+  id: '10155173051963199'
+type: status
+created_time: '2017-04-30T11:19:30+0000'
+updated_time: '2017-07-12T21:18:02+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1469491109757259/
+id: '172338516139198_1469491109757259'
+comments:
+  data:
+  - created_time: '2017-04-30T11:44:27+0000'
+    from:
+      name: Mohamed El Henawy
+      id: '10155884980625610'
+    message: بتعمل تست ازاي؟
+    id: '1469509376422099'
+  - created_time: '2017-04-30T12:04:14+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: Did you change the router when you switched your ISP?
+    id: '1469522679754102'
+  - created_time: '2017-04-30T12:44:57+0000'
+    from:
+      name: M Sameh El Harty
+      id: '10159983801460392'
+    message: |-
+      If you are 100% certain that your line is good and SNR ratios and everything is good then this is on the ISP. Make sure your line is not passing next to high voltage wires like AC or fridge, this could be the reason that sometimes it works and sometimes not. Better yet, try replacing the phone lines with ethernet cables as they have better isolation.
+
+      On the router side, try playing a lot with MTU values. Google how to find the optimum MTU. Last but not least if all that fails, invest in a good modem/router. Might be expensive but will last with you for long so all in all it is a good investment.
+    id: '1469548366418200'
+  - created_time: '2017-04-30T13:38:40+0000'
+    from:
+      name: Mohamed El Henawy
+      id: '10155884980625610'
+    message: try to connect with ethernet and not WiFi and do the test
+    id: '1469585969747773'
+  - created_time: '2017-04-30T17:41:02+0000'
+    from:
+      name: Gerges Gadallah
+      id: '10154987018571459'
+    message: My opinion get new line with new number it will cost only 50 pound at
+      the beginning ( you spent more than that on 3G Data)
+    id: '1469775369728833'
+  - created_time: '2017-04-30T19:03:32+0000'
+    from:
+      name: Ahmed Aboulenein
+      id: '10160047384135438'
+    message: I am not a network geek at all, but I'd suggest testing from the router
+      itself. Most routers software will have ping and tracert testing. Output of
+      this will tell you at which side of the router the problem is (but won't tell
+      you if the deficiency is in the router itself).
+    id: '1469833709722999'
+  - created_time: '2017-07-12T21:18:00+0000'
+    from:
+      name: Pola Ashraf
+      id: '10155173051963199'
+    message: "So, after months with all teams of TEData, their solution was to configure
+      my router to use GDmt modulation only, instead of letting the router choose
+      from different modulations, however I found that the attainable rate is lowered.
+      \nThe line is a bit stable but not that stable that makes you work smoothly.
+      \nWhat do you think?"
+    id: '1545551538817882'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEyT1RVd09UTTNOalF5TWpBNU9Ub3hORGt6TlRVeU5qWTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUwTlRVMU1UVXpPRGd4TnpnNE1qb3hORGs1T0RrME1qZA3cZD

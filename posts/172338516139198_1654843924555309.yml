@@ -1,0 +1,169 @@
+---
+message: "سؤال للناس اللى شغالين  mango Db او  اى  Scalable Database\nلو عندى مثلا
+  جدول مستخدمين و جدول مقالات فى الmysql او اى  rotational database  بعمل جدول علاقه
+  بين الجدولين one to many و بحط user_id  فى جدول المقالات ك foreign  key  \nفى الmango
+  db بقى بتعملو ده ازاى بتعملو العلاقه دى ازاى و الmango db مفيهاش علاقات اصلا\nازاى
+  فى الmango db اعمل داتا بيز عباره عن شويه مستخدمين و كل مستخدم منهم ليه شويه مقالات
+  بحيث بعد كده اقدر اعمل استعلام  اجييب مقالات اى مستخدم او ارجع كل المستخدمين و مع
+  كل مستخدم مقالاته هو بس ؟؟\nممكن حد يفهمنى الفكره ؟\nممكن حد يدعم ده بمثال عدد 2
+  \ مستخدمين و 3 مقالات مثلا شكلهم بيبقى ازاى علشان اتخيل الفكره؟؟"
+link: https://www.facebook.com/photo.php?fbid=2032883110278784&set=gm.1654843924555309&type=3
+from:
+  name: Hatem Goda
+  id: '2073635446203550'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/23168033_2032883110278784_1395175686878817334_n.jpg?oh=1d48e2bcb7b6130da9029ceb6fe7e2ca&oe=5B1D9DA4
+created_time: '2017-11-07T04:23:47+0000'
+updated_time: '2017-11-07T16:15:03+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1654843924555309/
+shares:
+  count: 1
+id: '172338516139198_1654843924555309'
+reactions:
+  data:
+  - id: '263053970896020'
+    name: Mahmoud Alarby
+    type: LIKE
+  - id: '2069499223273223'
+    name: Naggar
+    type: LIKE
+  - id: '548062595559343'
+    name: Ahmed EL-Metwally
+    type: LIKE
+  - id: '1617628171623711'
+    name: Hady Yasser
+    type: LIKE
+  - id: '1695681870490390'
+    name: Mohamed Abd Elaziz
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01ERTFOelF5TlRZAMU56VXlPakUxTVRBeU5qVTNNREk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXhORFUzT0RFek1UZA3dPakUxTVRBd016ZAzJOakE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-11-07T04:29:39+0000'
+    from:
+      name: Mohammed Fox
+      id: '1534405689947170'
+    message: |-
+      embed the related documents into each other
+      or mimic the sql relation
+    id: '1654901257882909'
+  - created_time: '2017-11-07T04:32:57+0000'
+    from:
+      name: Mohamed Abd El Rahman
+      id: '10156281984177259'
+    message: Search for mongo db blogging system you will find alot of tutorials
+    id: '1654903017882733'
+  - created_time: '2017-11-07T04:33:17+0000'
+    from:
+      name: Nabawy Abbas
+      id: '10157039296997926'
+    message: Main collection for articles.. each article contain embedded document
+      for user.
+    id: '1654903214549380'
+  - created_time: '2017-11-07T04:34:49+0000'
+    from:
+      name: Nabawy Abbas
+      id: '10157039296997926'
+    message: Or user main collection and many embedded documents for his articles
+    id: '1654903751215993'
+  - created_time: '2017-11-07T05:56:23+0000'
+    from:
+      name: Hesham Desouky
+      id: '10215011048531592'
+    message: |-
+      Mongo supports joins now so you can create 2 collections and add reference id in the many table.
+      Embedded documents in the user table is OK but depends on how many docs will be stored per use since there is a max document size so it depends on your use case
+    id: '1654942997878735'
+  - created_time: '2017-11-07T06:05:34+0000'
+    from:
+      name: Shady Khalifa
+      id: '1270352106430652'
+    message: "في كذا طريق تقدر تمشي فيه\nEmbedded and Reference \nOr  Hyper\nالاول
+      و هو ان كل blog post هيبقي داخل فيه جزء اسمه اليوزر\nده لية ميزة و لية عيب\nميزته
+      انك وانت بتجيب البوستات اللي في البلوج هتجيبهم بأمر واحد و هيبقي معاه اليوزر
+      كمان و سهل التعامل\nانما العيب انه مثلا لو اليوزر حب يغير اسمه للاسف لازم تغيره
+      ف كل البوستات اللي قبل كده\nالنوع التاني اللي هو ريفرنس ، بيبقي عباره عن مثلا
+      ريفرنس لليوزر و هو هيمشي زي اللي فوقه كده وقت لما هتعمل امر انه يجيب البوست
+      ، هيحل الريفرنس ده و هيجيب اليوزر علطول ، بس ع ما اتذكر انه عيبه مش scaleabble
+      \nاو مش فاكر الصراحه\nفي بقي طريقه تالته scaleabble\nو جميله جداا ، و هي انك
+      تعمل نظام ال Buckets\nودي عباره عن كذا سله كده بيبقي كل سله فيها ١٠٠ بوست بس
+      ، و كلهم مربوطين بيوزر اي دي\nلو اليوزر ليه اكتر من ١٠٠ بوست تقدر تعمله سله
+      كمان و تربطهم بالاي دي الخاص باليوزر\nالرخم هنا هو حبه اللوجيك اللي هتعمله عشان
+      تقسم ال Buckets\nو هتعمل امرين الاول هتحتاج لما تجيب اي Bucket هتحتاج يا اما
+      البوست اي دي\nاو اليوزر اي دي + البوست برضو \nاو تجيب الاي دي بتاع السله علطول\nبص
+      عشان شكلي لغبطك كتير ، هوريك مثال من ال Documentation \nبتاعتهم"
+    id: '1654947874544914'
+  - created_time: '2017-11-07T06:23:52+0000'
+    from:
+      name: Ahmed Mostafa
+      id: '1463621953765328'
+    message: "ينفع تعمل reference \nيعني تاخد I'd من document وتحطه ك foreign key
+      في document تاني بس المشكله مثلا لو انت مسحت document اللي انت واخد I'd بتاعه
+      كدا اصبح foreign key مابيشورش علي حاجه"
+    id: '1654958017877233'
+  - created_time: '2017-11-07T07:54:40+0000'
+    from:
+      name: Ahmed Ali Taha
+      id: '10211584252947828'
+    message: 'Another solution : Add user summary inside Article collection, summary
+      means '' do not add all of user document, just pick up the userid and  fields
+      you want to be shown on the article view like name,.. etc. So you will gain
+      the a good performance while fetching besides mitigation the headache of user
+      update.'
+    id: '1655010307872004'
+  - created_time: '2017-11-07T11:17:50+0000'
+    from:
+      name: Diyaa Mahmoud
+      id: '1559170364118742'
+    message: |-
+      كقاعده عامه هدف العلاقات في relational db هو توزيع الدتا بحيث تقلل الstorage وميبقاش فيه تكرار في مقابل خساره سرعه جلب البيانات من اماكن متفرقه في  حين  non-relational db بتلغي فكره وجود العلاقات وبتوزع الداتا بحيث تقلل سرعه جلب البيانات في مقابل خساره ال الstorage  لانه بقي رخيص جدا فمش مهم وجود تكرار فلما تجي تفكر في تصميم داتابيز  non-relational بفضل انك تتبع مبدأ ال design by query  يعني حدد الاول ايه الكيوري اللي ناوي تعملها قبل التصميم ي الطريقه ديه هتساعدك كويس مثلا   لو هتجيب كل المقالات لشخص فممكن تعمل كده
+      user{
+      articles:[
+      article:{
+      id: whatever
+      title: whatever
+      }
+      ]
+      }
+      ولو عاوز كل المقالات باليوزر  يبقي كده مثلا
+      article{
+      owner{
+      id: whatever
+      name: whatever
+      }
+      }
+    id: '1655135131192855'
+  - created_time: '2017-11-07T13:13:10+0000'
+    from:
+      name: Ahmed Dobaa
+      id: '1560912387326769'
+    message: Ramy Ahmed
+    id: '1655207911185577'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkxTkRrd01USTFOemc0TWprd09Ub3hOVEV3TURJNE9UYzUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkxTlRJd056a3hNVEU0TlRVM056b3hOVEV3TURZAd016a3gZD
+attachments:
+  data:
+  - description: "سؤال للناس اللى شغالين  mango Db او  اى  Scalable Database\nلو عندى
+      مثلا جدول مستخدمين و جدول مقالات فى الmysql او اى  rotational database  بعمل
+      جدول علاقه بين الجدولين one to many و بحط user_id  فى جدول المقالات ك foreign
+      \ key  \nفى الmango db بقى بتعملو ده ازاى بتعملو العلاقه دى ازاى و الmango db
+      مفيهاش علاقات اصلا\nازاى فى الmango db اعمل داتا بيز عباره عن شويه مستخدمين
+      و كل مستخدم منهم ليه شويه مقالات بحيث بعد كده اقدر اعمل استعلام  اجييب مقالات
+      اى مستخدم او ارجع كل المستخدمين و مع كل مستخدم مقالاته هو بس ؟؟\nممكن حد يفهمنى
+      الفكره ؟\nممكن حد يدعم ده بمثال عدد 2  مستخدمين و 3 مقالات مثلا شكلهم بيبقى
+      ازاى علشان اتخيل الفكره؟؟"
+    media:
+      image:
+        height: 165
+        src: https://scontent.xx.fbcdn.net/v/t1.0-9/23168033_2032883110278784_1395175686878817334_n.jpg?oh=8c77f3e01cd0c3c6022b616f7f733f58&oe=5B2173CF
+        width: 306
+    target:
+      id: '2032883110278784'
+      url: https://www.facebook.com/photo.php?fbid=2032883110278784&set=gm.1654843924555309&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=2032883110278784&set=gm.1654843924555309&type=3

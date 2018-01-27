@@ -1,0 +1,145 @@
+---
+message: |-
+  I wrote a python script that download book chapters and generate a single PDF for the book from Wiley (http://onlinelibrary.wiley.com/).
+  The repo link : https://github.com/ashaherb/Wiley-Downloader
+
+  It's my first contribution to Open Source and I have the feeling that I am doing it wrong :D So please tell me your feedbacks.
+link: https://github.com/ashaherb/WileyScraper
+from:
+  name: Ahmed Shaher
+  id: '10215175206877568'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?w=130&h=130&url=https%3A%2F%2Favatars1.githubusercontent.com%2Fu%2F9308216%3Fv%3D3%26s%3D400&cfs=1&sx=0&sy=0&sw=400&sh=400&_nc_hash=AQAkZ1YYS3aQXa5r
+created_time: '2016-01-07T22:44:45+0000'
+updated_time: '2016-01-10T23:04:15+0000'
+name: ashaherb/WileyScraper
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1058837174155990/
+id: '172338516139198_1058837174155990'
+reactions:
+  data:
+  - id: '1487671784675336'
+    name: Mohamad Emad
+    type: LIKE
+  - id: '10210172319016618'
+    name: Mohamed Hagras
+    type: LIKE
+  - id: '10156266511868081'
+    name: Ahmed Zain Mohammed
+    type: LIKE
+  - id: '10156097426513748'
+    name: Amr Ragaey
+    type: LIKE
+  - id: '10211045513280796'
+    name: Mohamed Ayman
+    type: LIKE
+  - id: '10156016516346753'
+    name: Alaa El Nouby
+    type: LIKE
+  - id: '10213353993875904'
+    name: Amr Yassin
+    type: LIKE
+  - id: '1688265317898035'
+    name: AbdulRahman Amr
+    type: LIKE
+  - id: '10215602201117926'
+    name: Youssef Ashour
+    type: LIKE
+  - id: '1942788045736151'
+    name: Ahmed Mohsen
+    type: LIKE
+  - id: '1704389499626394'
+    name: Ahmed Alaa Ahmed
+    type: LIKE
+  - id: '10215070655377585'
+    name: Mahmoud Kandeel
+    type: LIKE
+  - id: '10213082711435215'
+    name: شيماء محمد
+    type: LIKE
+  - id: '1546098432153196'
+    name: Mohamed Essam
+    type: LIKE
+  - id: '2015042048739859'
+    name: Omar Attia
+    type: LIKE
+  - id: '10215093583796418'
+    name: Muhammad Negm
+    type: LIKE
+  - id: '10215648453949171'
+    name: Mahmoud Said Ahmed
+    type: LIKE
+  - id: '1566849603430479'
+    name: عمر ابراهيم
+    type: LIKE
+  - id: '1976373499069350'
+    name: Ahmed Bassell
+    type: LIKE
+  - id: '10155426916839779'
+    name: Amr Medhat
+    type: LIKE
+  - id: '1772542006152666'
+    name: Mohamed AbuIssa
+    type: LIKE
+  - id: '10155412453232426'
+    name: Ahmed Ezz El-din
+    type: LIKE
+  - id: '1295152053918948'
+    name: Ahmed Afifi
+    type: LIKE
+  - id: '1664266593616217'
+    name: Mohamed Anwer
+    type: LIKE
+  - id: '10154920298511537'
+    name: Adham Gad
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlPVGMxT0RjM05qZAzFPakUwTlRJM09ERTFNalk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TlRJMk1qRXhOVE0yT2pFME5USXlNRFkzTXpjNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-01-07T22:48:30+0000'
+    from:
+      name: Mohamed Anwer
+      id: '1664266593616217'
+    message: |-
+      This would be useful
+      I guess you should do some Regex matches instead of "url.startswith("http")"
+    id: '1058838520822522'
+  - created_time: '2016-01-07T23:12:27+0000'
+    from:
+      name: Hosam Aly
+      id: '1657509230977456'
+    message: That's probably illegal. You'd do yourself a favor by contacting Wiley
+      directly and asking for their permission.
+    id: '1058845200821854'
+  - created_time: '2016-01-08T00:01:33+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: I think that screw EULA and that's a good job I'll fork it to make sure
+      it still exists
+    id: '1058860834153624'
+  - created_time: '2016-01-10T23:04:14+0000'
+    from:
+      name: Omar Sherif
+      id: '10159730542520062'
+    message: Karim Moharam
+    id: '1060405193999188'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEExT0Rnek9EVXlNRGd5TWpVeU1qb3hORFV5TWpBMk9URXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEEyTURRd05URTVNems1T1RFNE9Eb3hORFV5TkRZAM01EVTEZD
+attachments:
+  data:
+  - description: WileyScraper - Download any book from Wiley
+    media:
+      image:
+        height: 400
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQD57sNxFNZtdjtZ&w=400&h=400&url=https%3A%2F%2Favatars1.githubusercontent.com%2Fu%2F9308216%3Fv%3D3%26s%3D400&cfs=1&sx=0&sy=0&sw=400&sh=400&_nc_hash=AQBxFEsmQlHGt2Xx
+        width: 400
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Fashaherb%2FWileyScraper&h=ATNiBnKciQNrNgxwwsLg9gTPOG_MwI3rKM4fmPVlNzlsPJEbSP75BvQshWQMVxwC_gX2doM4eOlgT2WikOHUX_v0UENgknt5ypU3&s=1&enc=AZPHqSKsX__3yQk0q3LOmHNidckg7Q8MUQEolFfAX8jLQG1-Sf964IfMk68ht4uHOsrVWEm26es6HiYVtyzWVDiP
+    title: ashaherb/WileyScraper
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Fashaherb%2FWileyScraper&h=ATNiBnKciQNrNgxwwsLg9gTPOG_MwI3rKM4fmPVlNzlsPJEbSP75BvQshWQMVxwC_gX2doM4eOlgT2WikOHUX_v0UENgknt5ypU3&s=1&enc=AZPHqSKsX__3yQk0q3LOmHNidckg7Q8MUQEolFfAX8jLQG1-Sf964IfMk68ht4uHOsrVWEm26es6HiYVtyzWVDiP

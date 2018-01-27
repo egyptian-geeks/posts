@@ -1,0 +1,99 @@
+---
+message: "how do you apply a sleep function in JS? I did some research and came up
+  with false implementations or obsolete code. \n\nCurrent code: \n$('#successMessage').text(\"All
+  set! Thank you\");\n// I need exection to stop here for like three seconds. \nwindow.location.reload();\nThanks"
+from:
+  name: Loai Nagati
+  id: '1561923947178330'
+type: status
+created_time: '2016-12-21T11:07:30+0000'
+updated_time: '2016-12-21T23:33:11+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1333477923358579/
+id: '172338516139198_1333477923358579'
+reactions:
+  data:
+  - id: '10204188528229884'
+    name: Sherif Hesham
+    type: LIKE
+  - id: '1571856266239735'
+    name: Mohamed Atef
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRjeU56RXlNRFExTXpveE5EZA3lOemszTVRjNU9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBd01EQXlORFl4TXpBME5EZA3pPakUwT0RJek1UazROVGs2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-12-21T11:13:07+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: what is your use case? you don't need this in fact, since js is single
+      threaded, you should not block its execution
+    id: '1333482356691469'
+  - created_time: '2016-12-21T11:13:32+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: its a single thread , i think your pattern needs to be changed
+    id: '1333482546691450'
+  - created_time: '2016-12-21T11:13:36+0000'
+    from:
+      name: Ahmed Galal
+      id: '1765957880089973'
+    message: if you want to postpone execution of some code fro a certain period you
+      can use setTimeout(function(){your_code}, period in millisecond);
+    id: '1333482570024781'
+  - created_time: '2016-12-21T11:31:56+0000'
+    from:
+      name: Nour Haridy
+      id: '10156101857379222'
+    message: |-
+      //Execute after 1000 milliseconds (1 second)
+      setTimeout(function(){
+      //Your code
+      }, 1000)
+    id: '1333490330024005'
+  - created_time: '2016-12-21T11:33:24+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: Ahmed Galal Nour Haridy setTimeout  works on a promise, it won't stop
+      any execution.
+    id: '1333490930023945'
+  - created_time: '2016-12-21T11:34:37+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: post a code snippet, so we can help you better
+    id: '1333491620023876'
+  - created_time: '2016-12-21T11:41:36+0000'
+    from:
+      name: Nour Haridy
+      id: '10156101857379222'
+    message: |-
+      Amir Abou Eesa Got it, try this simple synchronous wait function hack
+      function wait(ms) {
+         var start = Date.now(),
+         now = start;
+         while (now - start < ms) {
+            now = Date.now();
+         }
+      }
+    id: '1333496750023363'
+  - created_time: '2016-12-21T11:43:01+0000'
+    from:
+      name: Loai Nagati
+      id: '1561923947178330'
+    message: thank you all. Actually setTimeout() wasn't working for some conflict.
+    id: '1333497736689931'
+  - created_time: '2016-12-21T23:29:57+0000'
+    from:
+      name: Mohamed Amgad
+      id: '10215433203563275'
+    message: window.setTimeout(window.location.reload,3000);
+    id: '1333995786640126'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE16TXpRNE1qTTFOalk1TVRRMk9Ub3hORGd5TXpFNE56ZAzMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE16TXprNU5UYzROalkwTURFeU5qb3hORGd5TXpZAeU9UazQZD

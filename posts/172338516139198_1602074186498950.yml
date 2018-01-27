@@ -1,0 +1,137 @@
+---
+message: "دى Tool جديده لــ Docker \nالخلاصه: \nSSH into any container on a host from
+  anywhere\n---\nالتفاصيل:\nكنت عايز ادخل ع container ع السرفر بتاعى من غير ما أدخل
+  لل server بعدين ادخل ع الكونتينر, أو بمعنى اصح عشان ادى لشخص الصلاحيه انه يخش ب
+  ssh مباشر ع ال container من غير مايكون جوا ال container اى ssh-server وكمان من غير
+  مايدخل ع السرفر الرئيسي الاول فعملت ال tool دى.\n\nفكرتها ببساطه انها عباره عن SSH
+  Server بس بيــ Map مباشره لــلــ docker-exec , وبيعتمد ع Redis عشان يــ check الــ
+  login password\nوبيتم تحديد ال container بناء ع ال username, بالتالى ممكن تدخل ع
+  اى container ع نفس السرفر بتغيير اليوزر نيم بس, وشرط طبعا ينضاف ف ال registry زى
+  ماقولنا هنا redis\nset dockssh:mycontainerName:pass \"somesecurewordhere\"\n---\nhttps://github.com/alash3al/dockssh"
+from:
+  name: Mohammed Al Ashaal
+  id: '965203406986813'
+type: status
+created_time: '2017-09-08T22:15:04+0000'
+updated_time: '2017-09-09T07:51:44+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1602074186498950/
+shares:
+  count: 1
+id: '172338516139198_1602074186498950'
+reactions:
+  data:
+  - id: '10155866336577597'
+    name: Mohamed Taraman
+    type: LIKE
+  - id: '1732181426802228'
+    name: Marwan Nabil Baghdad
+    type: LIKE
+  - id: '930615110434715'
+    name: Ahmed Ashraf
+    type: LIKE
+  - id: '1624706067622242'
+    name: Ahmed M. Ammar
+    type: LIKE
+  - id: '1590320331045143'
+    name: Eman Abou Khatwa
+    type: LIKE
+  - id: '10155961930885692'
+    name: Oumar Yehia
+    type: LIKE
+  - id: '10155173051963199'
+    name: Pola Ashraf
+    type: LIKE
+  - id: '1666611296733941'
+    name: Ashraf Hefny
+    type: LIKE
+  - id: '1776283549051441'
+    name: Karim Ali
+    type: LIKE
+  - id: '1686052171461238'
+    name: Abdelaziz Ibrahim
+    type: LIKE
+  - id: '1582199678525921'
+    name: Ahmed Abdallah
+    type: LIKE
+  - id: '1791452377571672'
+    name: Mohammed Alaa El Komy
+    type: LIKE
+  - id: '10215497581739240'
+    name: Mahmoud Raafat
+    type: LIKE
+  - id: '10155318238153927'
+    name: Ahmed Nasr
+    type: LIKE
+  - id: '1970818952958553'
+    name: Mohamed Hamdi
+    type: LIKE
+  - id: '1722658717785442'
+    name: Abd El Rhaman Ezzat
+    type: WOW
+  - id: '1389660687805545'
+    name: Mohamed Abdallah
+    type: LIKE
+  - id: '10155926704141777'
+    name: Ahmed Abdelaziz
+    type: LIKE
+  - id: '1495149960582252'
+    name: Mohamed Wael
+    type: LIKE
+  - id: '10212724107229950'
+    name: Nader Mahfouz
+    type: LIKE
+  - id: '10214823935329516'
+    name: Hesham Mahmoud
+    type: LIKE
+  - id: '10155965038378745'
+    name: Said Bakr
+    type: LIKE
+  - id: '10154599440254364'
+    name: Sarab Alzaman
+    type: LIKE
+  - id: '10156476353501062'
+    name: Tarik Ibrahim
+    type: LIKE
+  - id: '10156250216094736'
+    name: Ahmed Fathy
+    type: LIKE
+  - id: '1781519898587185'
+    name: George Awad
+    type: LOVE
+  - id: '1252651658211875'
+    name: Amr Farhan
+    type: LIKE
+  - id: '10209264695408079'
+    name: Muhammad Habib
+    type: LIKE
+  - id: '10156218293834924'
+    name: Sherif Alaa Ismael
+    type: LIKE
+  - id: '1873673082698558'
+    name: Moh Dem
+    type: WOW
+  - id: '1921134601294705'
+    name: Hamam Ayman
+    type: LIKE
+  - id: '1580675855344703'
+    name: Kerilos Issac
+    type: LIKE
+  - id: '1692815150813994'
+    name: Mahmoud Atef Osman
+    type: LIKE
+  paging:
+    cursors:
+      before: Tmpjd09UazNOVGsyT2pFMU1EVXhOamcxTURnNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQXlOVFkxTnpjd01ESXpPakUxTURRNU1Ea3dNekk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-09-09T03:00:26+0000'
+    from:
+      name: Hesham Mahmoud
+      id: '10214823935329516'
+    message: I think u can tunnel ssh port of pod in kubernetes to access it directly
+    id: '1602216489818053'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl3TWpJeE5qUTRPVGd4T0RBMU16b3hOVEEwT1RJMk1ESTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl3TWpJeE5qUTRPVGd4T0RBMU16b3hOVEEwT1RJMk1ESTIZD

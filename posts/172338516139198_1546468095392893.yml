@@ -1,0 +1,465 @@
+---
+message: |-
+  بما إن نتيجة الثانوية العامة ظهرت إمبارح,حبيت اشارك معاكم حاجه يمكن حد يستفاد بيها.
+  أنا نزلت full JSON dump من النتيجه وعلشان معنديش معلومه عن أرقام الجلوس بتبدأ من انهي رقم وبتنتهي برضه عند انهي رقم, علمت 10 نسخ من ال script كل واحد بيغطي مدي 100,000 رقم, وإجمالاً الأرقام اللى غطيتها هم 900,000 رقم, بيبدأوا من رقم 100,000 وبينتهوا عند رقم 1,000,000.
+  وعلشان مشغلش جهازي طول الفتره دي, عملت VM على Azure شغلت عليها ال 10 نسخ من ال Script على التوازي لحد ما خلص, ورحت منزل النتايج وماسح ال VM والعمليه دي كلفتني حوالي 2.8 يورو. ;)
+
+  جدير بالذكر ان ال Script انا عدلت فيه فقط ما يتناسب مع ال output اللى انا محتاجه, لكن الشكر كله يرجع إلي Ahmed Magdy اللى عمله وشاركه على الجروب إمبارح.
+  لو حد مهتم بالداتا دي, انا رفعتهم على Github.
+
+  الخطوه اللى جايه بالنسبالي اني احط البيانات دي فى Elasticsearch واطلع منها شوية aggregations و graphs.
+
+  ملاحظة: مش كل الأرقام اللى تم تجربتها طبعاً جابت نتايج, علشان كدا هتلاقوا اختلاف ملحوظ فى حجم الملفات, مثلاً أكبرها مساحته 71 ميجابايت وبيحتوي على 86289 نتيجه من اصل 100 الف رقم جربهم ال script, وأصغرهم مساحته 22.6 ميجابايت وبيحتوي على 27155 نتيجه فقط.
+  ياريت لو حد عمل حاجه حلوه بالداتا دي يشاركها معانا ;)
+
+  تعديل: بعد مناقشات مع بعض الأعضاء, تم تعديل الملفات لكي لا تحتوي على المعلومات الخاصه بالطلبه مثل الإسم ورقم الجلوس إحتراماً لخصوصية الطلبه, شكراً للجميع على خلق وأداب الحوار.
+link: https://github.com/Mohammed-ElSayed/ThanawyaDumb
+from:
+  name: Mohammed El Sayed
+  id: '10155880598025170'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQAUm1p7nr4v9N_I&w=130&h=130&url=https%3A%2F%2Favatars2.githubusercontent.com%2Fu%2F4535397%3Fv%3D3%26s%3D400&cfs=1&sx=0&sy=0&sw=400&sh=400&_nc_hash=AQAQEW-NJjDoy326
+created_time: '2017-07-13T20:32:09+0000'
+updated_time: '2017-07-14T21:55:45+0000'
+name: Mohammed-ElSayed/ThanawyaDumb
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1546468095392893/
+shares:
+  count: 6
+id: '172338516139198_1546468095392893'
+reactions:
+  data:
+  - id: '564149277272611'
+    name: Sherif Y. Ahmed
+    type: LIKE
+  - id: '790235571178099'
+    name: Relina
+    type: LIKE
+  - id: '1821918031216201'
+    name: Muhamad Omar
+    type: LIKE
+  - id: '10214170166102276'
+    name: Shorouk Saeed A. Aziz
+    type: LIKE
+  - id: '2004705666469226'
+    name: Ahmed Essam
+    type: LIKE
+  - id: '10211673983586863'
+    name: Mahmoud Mustafa Al-desouky
+    type: LIKE
+  - id: '1876092405757348'
+    name: Ibrahem Mahmmoud
+    type: LIKE
+  - id: '10155500216578893'
+    name: Tasneem Farag
+    type: LIKE
+  - id: '10154996593781831'
+    name: Haitham Khireldin
+    type: LIKE
+  - id: '10212768937991554'
+    name: Mohamed Wagdy
+    type: LIKE
+  - id: '1801290743248815'
+    name: Mohamed Yehia
+    type: LIKE
+  - id: '10155113612632882'
+    name: Ahmed Magdy
+    type: LIKE
+  - id: '2069499223273223'
+    name: Naggar
+    type: LOVE
+  - id: '10159559535615538'
+    name: Andrew George Guirguis
+    type: LOVE
+  - id: '2012132359064709'
+    name: Mohamed Ragab
+    type: LIKE
+  - id: '10156266511868081'
+    name: Ahmed Zain Mohammed
+    type: LOVE
+  - id: '1574327095996823'
+    name: Ahmed Nashat
+    type: LIKE
+  - id: '10212947071504226'
+    name: Eslam Hamouda
+    type: LIKE
+  - id: '813329998872134'
+    name: Mahmoud Esam
+    type: LIKE
+  - id: '1987386858188073'
+    name: Mohamed Ibrahim
+    type: LIKE
+  - id: '1723960827662084'
+    name: Muhammad Refaat
+    type: LIKE
+  - id: '409911806105918'
+    name: Mostafa Elomda
+    type: LIKE
+  - id: '1823693027641765'
+    name: Mostafa Saeed
+    type: LIKE
+  - id: '10152402728970388'
+    name: Ahmed Soliman
+    type: LIKE
+  - id: '10155482273223768'
+    name: Antoine Magdi
+    type: HAHA
+  - id: '10155833475081885'
+    name: Mohamed El-Kholy
+    type: LIKE
+  - id: '10212777038359386'
+    name: Mahmoud Mustafa
+    type: LIKE
+  - id: '10160164397520529'
+    name: Mohamed Zaki
+    type: LIKE
+  - id: '10155027873517064'
+    name: Adel Moustafa
+    type: LIKE
+  - id: '1665584966863225'
+    name: Santos Ahmed
+    type: LIKE
+  - id: '368237263651704'
+    name: Omar Ali
+    type: LIKE
+  - id: '1576001382455519'
+    name: Bavly Morcos
+    type: LIKE
+  - id: '1054007208074428'
+    name: Abdo Dwidar
+    type: LIKE
+  - id: '10156008933453428'
+    name: Youssef Saqr
+    type: LIKE
+  - id: '1594190370659900'
+    name: Amr Alfy
+    type: LIKE
+  - id: '10212603354051798'
+    name: Abdelrahman Gamal
+    type: LIKE
+  - id: '10213056573263683'
+    name: Ahmed Mabrook
+    type: LIKE
+  - id: '10156862500198357'
+    name: Loay Elshall
+    type: LIKE
+  - id: '1853777334634345'
+    name: Mohamed Fathalla
+    type: LIKE
+  - id: '1591946764233497'
+    name: Mohamed Ragaey
+    type: LIKE
+  - id: '10156435293931294'
+    name: Ali Salem Korayem
+    type: LIKE
+  - id: '10210867242069162'
+    name: Mohamed Ibrahim
+    type: LIKE
+  - id: '1878583928880282'
+    name: Mohammed A Hasanin
+    type: LIKE
+  - id: '10208488609492331'
+    name: Mohamed Hessien
+    type: LIKE
+  - id: '1587359294686403'
+    name: Mohamed Ibrahim
+    type: LIKE
+  - id: '2022833371324486'
+    name: Abdelrahman Hassan
+    type: LIKE
+  - id: '853766894785086'
+    name: Eslam Waheed
+    type: LIKE
+  - id: '929844027193189'
+    name: Mahmoud Saeed Abdelrahman
+    type: LIKE
+  - id: '1608327662579661'
+    name: Karim Shoair
+    type: LIKE
+  - id: '10155600388037886'
+    name: Yahya Sabry
+    type: LIKE
+  - id: '1611254385623215'
+    name: Shaheed Haider
+    type: LIKE
+  - id: '1791106327627013'
+    name: Mohamed El Tamimy
+    type: LOVE
+  - id: '10155957176184424'
+    name: Abdallah Gamal
+    type: LIKE
+  - id: '1623777587708966'
+    name: Walid Abd El-Rahman
+    type: LIKE
+  - id: '10160028885630387'
+    name: Ahmed Maher Pasha
+    type: LIKE
+  - id: '10156998094983709'
+    name: Mohamed Ghayaty
+    type: LIKE
+  - id: '402301146892668'
+    name: Esso de Nasr
+    type: LIKE
+  - id: '1743826635639938'
+    name: Adel Ewis
+    type: LIKE
+  - id: '10211176320743477'
+    name: Islam Wahid
+    type: LIKE
+  - id: '10155138872916630'
+    name: Haytham Olwan
+    type: LIKE
+  - id: '1628359263896849'
+    name: أحمد رجب
+    type: LIKE
+  - id: '1864705780206703'
+    name: Youssef Ali
+    type: LIKE
+  - id: '10214471954062071'
+    name: Mohammad Aboelnour
+    type: LIKE
+  - id: '10155439552704482'
+    name: Moaaz Farag
+    type: LIKE
+  - id: '403777313391852'
+    name: أحمد
+    type: LIKE
+  - id: '10214824625666671'
+    name: Ali Essam
+    type: LIKE
+  - id: '10155432639833282'
+    name: Ahmed Abdo
+    type: LOVE
+  - id: '1581849685226929'
+    name: Ayman Elbery
+    type: LIKE
+  - id: '10215834435679186'
+    name: Diaa Sami
+    type: LIKE
+  - id: '10214495066066975'
+    name: Omar Ahmed
+    type: LIKE
+  - id: '1996970190329577'
+    name: Ahmed Adel Hossny
+    type: WOW
+  - id: '1163064820496983'
+    name: Ahmed Ayman Aladeeb
+    type: LOVE
+  - id: '1921134601294705'
+    name: Hamam Ayman
+    type: LIKE
+  - id: '762135870664322'
+    name: Ahmed Eid
+    type: LIKE
+  - id: '2054850488105080'
+    name: Ahmed Abdul Aziz
+    type: LIKE
+  - id: '10155883216925569'
+    name: Moataz Omr
+    type: LIKE
+  - id: '10159905066535634'
+    name: Emad Mokhtar Habib
+    type: LIKE
+  - id: '1641565752594739'
+    name: Ahmed Aziz
+    type: LIKE
+  - id: '2038408869766453'
+    name: Mahmoud Saad Abd-Elhares
+    type: LIKE
+  - id: '10155528128118040'
+    name: Ayman Habib
+    type: LIKE
+  - id: '1500810460029980'
+    name: Mohamed Abd Elrahman
+    type: LIKE
+  - id: '10214920210139245'
+    name: Ahmad Abd Arrahman
+    type: LIKE
+  - id: '1557588994326590'
+    name: نضال فكري
+    type: LIKE
+  - id: '10155350259616947'
+    name: Mahmoud Rizk
+    type: LIKE
+  - id: '10213082711435215'
+    name: شيماء محمد
+    type: LIKE
+  - id: '1791452377571672'
+    name: Mohammed Alaa El Komy
+    type: LIKE
+  - id: '627907956'
+    name: Emad Elsaid
+    type: LIKE
+  - id: '10212882091600362'
+    name: Ahmed Aly Hassan
+    type: LIKE
+  - id: '2203311556562655'
+    name: Abdelrahman Omran
+    type: LOVE
+  - id: '1847421335299420'
+    name: Ahmed Sabry
+    type: WOW
+  - id: '1681618765215075'
+    name: Mustafa Almaraghi
+    type: LIKE
+  - id: '10215070655377585'
+    name: Mahmoud Kandeel
+    type: LIKE
+  - id: '10214861141222529'
+    name: Abdelrady Fcis
+    type: LIKE
+  - id: '1580675855344703'
+    name: Kerilos Issac
+    type: LIKE
+  - id: '1762431007108688'
+    name: عمر أحمد
+    type: WOW
+  - id: '1030487477090699'
+    name: Mohamed Kotb
+    type: LIKE
+  - id: '1382560551854209'
+    name: Mohammad Sakr
+    type: LIKE
+  - id: '1574530695959412'
+    name: Mohamed A. Othman
+    type: LOVE
+  - id: '2027932964114883'
+    name: Mohamed Salah Hassan
+    type: LIKE
+  - id: '595477687454076'
+    name: Saher Abdelaziz
+    type: LIKE
+  - id: '1582457088504781'
+    name: Abdel-rahman Maged
+    type: LIKE
+  - id: '2093529544214867'
+    name: Yehia Hassan
+    type: LIKE
+  - id: '1683650738360094'
+    name: Mohamed Shehata
+    type: LIKE
+  - id: '1666331763426718'
+    name: Hatem Nasser
+    type: LIKE
+  - id: '1433938583395735'
+    name: Ahmed Mohamed Taha
+    type: LIKE
+  - id: '895970407247426'
+    name: Ahmad Magdy
+    type: LIKE
+  - id: '10160105091405314'
+    name: Mohamed Elsherif
+    type: LIKE
+  - id: '1978009525783037'
+    name: Ahmed Magdy
+    type: LOVE
+  - id: '10155517671429272'
+    name: Ihab Khattab
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01ERXdNekkyTXpBMk1UUTRPakUxTURBeE16SXhOemc2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TmpJeE56RTVNamN4T2pFME9UazVOemd3TmpNNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2017-07-13T20:36:51+0000'
+    from:
+      name: Ahmed Magdy
+      id: '1978009525783037'
+    message: "عاش عاش \U0001F604\U0001F60D\U0001F60D"
+    id: '1546471278725908'
+  - created_time: '2017-07-13T20:43:30+0000'
+    from:
+      name: Mohammed Farghal
+      id: '10155396126947689'
+    message: I have a similar dump in csv. But good work
+    id: '1546477712058598'
+  - created_time: '2017-07-13T21:30:48+0000'
+    from:
+      name: Mahmoud Mustafa El-Badry
+      id: '10156220501401654'
+    message: "it would better if you removed the names of the students to protect
+      their privacy\n(and the seat numbers if we want to be extra careful) \nthe data
+      would still be useful without them"
+    id: '1546506298722406'
+  - created_time: '2017-07-13T22:57:45+0000'
+    from:
+      name: Mohamed Shaaban
+      id: '10156259295924301'
+    message: This is not ethical, dude
+    id: '1546563715383331'
+  - created_time: '2017-07-13T22:58:58+0000'
+    from:
+      name: Mohamed Radwan
+      id: '10159976552365192'
+    message: "Emad Elsaid \nالاسم الرباعي لمليون طالب في صفحة الجكيز مش  اخلاقي ياريت
+      تكلام صاحب البوست يشيل الاسم ويحط مكانه XXXX . او يمسحهم خالص .\nMohammed El
+      Sayed \nعايز اقولك في شركة اوروبية شايلة اخر خانة من IPS وحاطين مكانهم XX على
+      الووج سيرفر مع انهم داخلين على السيرفرات بتعاتنا بس علشان الprivacy"
+    id: '1546564352049934'
+  - created_time: '2017-07-13T23:00:51+0000'
+    from:
+      name: Mohammad Aboelnour
+      id: '10214471954062071'
+    message: Yahya Sabry
+    id: '1546565545383148'
+  - created_time: '2017-07-13T23:08:27+0000'
+    from:
+      name: Omar Kamel
+      id: '10214030500170038'
+    message: Mohammad Kamel esht3'l :D
+    id: '1546570802049289'
+  - created_time: '2017-07-13T23:30:56+0000'
+    from:
+      name: Mohamed Adel
+      id: '2059314294312293'
+    message: |-
+      هو طبعا مجهود كويس، بس انت كده ضربت الـ privacy خالص
+      حتى لو فيه مواقع بحث عن النتائج بتكون بالاسم او رقم الجلوس، مش public dump كده لأى حد وخلاص
+
+      انا مش متأكد من صحة كلامى بس حاول تسيرش فيها كويس وتعرف ايه الصح برضو أحسن
+    id: '1546583845381318'
+  - created_time: '2017-07-13T23:32:38+0000'
+    from:
+      name: Ahmed Abulwafa
+      id: '10215430511626176'
+    message: |-
+      رسميا, انت مفيش عليك غلط و محدش يقدر يتهمك بانتهاك خصوصية لأن الداتا موجوده اونلاين و فيه مواقع بتتيح البحث بالأسم. و لكن اخلاقيا, اللي انت عملته بيتصنف كجرم في الدول المحترمة. الدول اللي بتحترم خصوصية مواطنيها و مبتبيعش درجات الثانوية حصري للي هيدفع اكتر. حط نفسك مكان الطالب نفسه, مش الوزارة, و هتعرف انه انتهاك خصوصية.
+
+      يفضل انك تحجب الاسماء و ارقام الجلوس على الاقل.
+    id: '1546585095381193'
+  - created_time: '2017-07-14T00:10:18+0000'
+    from:
+      name: Taha Amin
+      id: '10155815529215590'
+    message: لوبتكتب python او node كنت ممكن تعملها استضافة heroku.com ببلاش
+    id: '1546617365377966'
+  - created_time: '2017-07-14T21:42:32+0000'
+    from:
+      name: Tamer Ahmed
+      id: '10154452963482614'
+    message: ممكن أعرف ايه هي Section , student case  and Student type ?
+    id: '1547488708624165'
+  - created_time: '2017-07-14T21:55:43+0000'
+    from:
+      name: Tamer Ahmed
+      id: '10154452963482614'
+    message: there is a proplem in files 7 and 8
+    id: '1547495775290125'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUwTmpRM01USTNPRGN5TlRrd09Eb3hORGs1T1RjNE1qRXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUwTnpRNU5UYzNOVEk1TURFeU5Ub3hOVEF3TURZANU16UXoZD
+attachments:
+  data:
+  - description: ThanawyaDumb - a dumb JSON files which represents all Thanawya results
+      in Egypt for 2016/2017
+    media:
+      image:
+        height: 400
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAVQEVpqyWf5DvY&w=400&h=400&url=https%3A%2F%2Favatars2.githubusercontent.com%2Fu%2F4535397%3Fv%3D3%26s%3D400&cfs=1&sx=0&sy=0&sw=400&sh=400&_nc_hash=AQCLXnnaWaYE6uuC
+        width: 400
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2FMohammed-ElSayed%2FThanawyaDumb&h=ATPUIk9YqTuOjX2B2V8qA3iZliv_H6NBqfwawdRVLuIGy7WryryE6gXB918RzvfxTJg6aMvWo3kHQgFwvqw8sZhWDmLUDHVBvyIG&s=1&enc=AZNrLLcSqVltKb0NeoegVo9dNhztrHffLXYvTypjOmi2PF_Jfctr--xTxiLD77nv9-voUFb4fu08-UJfVVAYuKrH
+    title: Mohammed-ElSayed/ThanawyaDumb
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2FMohammed-ElSayed%2FThanawyaDumb&h=ATPUIk9YqTuOjX2B2V8qA3iZliv_H6NBqfwawdRVLuIGy7WryryE6gXB918RzvfxTJg6aMvWo3kHQgFwvqw8sZhWDmLUDHVBvyIG&s=1&enc=AZNrLLcSqVltKb0NeoegVo9dNhztrHffLXYvTypjOmi2PF_Jfctr--xTxiLD77nv9-voUFb4fu08-UJfVVAYuKrH

@@ -1,0 +1,181 @@
+---
+message: "دلوقتي انا شغال علي augmented reality application.... بتقابلني المشكله دي
+  ان الصور 360 بتكون الارضيه بتاعتها باللون الباهت ده لما تتصور من خلال موبايل ابليكشن
+  \ زي panorama 360 .. مش كاميرا .. حد عنده اقتراحات علشان اعالج المشكله دي .. زي
+  ابليكشن مشهوره مثلا بتنتج لي صور 360 و تعالجها و انا اقدر استخدمها و اخزنها عندي
+  \n*****\n انا دورت كتير في الويب بس للاسف ال resources تكاد تكون معدومه"
+from:
+  name: Ahmed Khalifa
+  id: '1999765416908747'
+type: status
+created_time: '2017-08-19T22:12:13+0000'
+updated_time: '2017-08-20T19:30:18+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1584611078245261/
+shares:
+  count: 1
+id: '172338516139198_1584611078245261'
+reactions:
+  data:
+  - id: '10214284437157546'
+    name: Mohamed Fekri
+    type: LIKE
+  - id: '1763959737010749'
+    name: Ahmed Mahmoud
+    type: LIKE
+  - id: '10155443115139385'
+    name: Abdelrhman Jalal
+    type: LIKE
+  - id: '10211042032353708'
+    name: Islam Nazir
+    type: LIKE
+  - id: '1941442462840331'
+    name: Apd Ulrhman II
+    type: LIKE
+  - id: '2076443865921795'
+    name: Mostafa Megria
+    type: LIKE
+  - id: '1746156678778631'
+    name: Islam Redhat
+    type: LIKE
+  - id: '10155263617066659'
+    name: Ahmed Mansour
+    type: LIKE
+  - id: '1623176774439940'
+    name: Mahmoud H. Helmy
+    type: LIKE
+  - id: '1848037425209496'
+    name: Omar Hisham
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBeE5EVTJNRGM0T1RveE5UQXpNalUzT1Rnd09qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBd01EQXdNRGszTmprMk16azNPakUxTURNeE9ERXpNams2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-08-19T23:24:11+0000'
+    from:
+      name: Ahmed Saleh
+      id: '10159933379005574'
+    message: انا مش فاهم ، بس الصورة باهته معناها في مشكله في الcolor encoding
+    id: '1584659618240407'
+  - created_time: '2017-08-19T23:40:16+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: ما يمكن موضوع فني خاص بالكاميرة نفسها. جربت مثلا تصور الصبح في ضوء الشمس؟
+    id: '1584668191572883'
+  - created_time: '2017-08-19T23:45:12+0000'
+    from:
+      name: Ahmed Saleh
+      id: '10159933379005574'
+    message: |-
+      انا لو منك ابعد عن الكلام ده و الابليكشن دي كلها و اعملها بنفسي الفكره بسيطه بتاخد صورتين و تجيب الصفات للصورتين باستخدام SURF  و تطلع مصفوفه Homogeneous Matrix ، و بعدين تعملperspective transformation. جوجل و هتلاقي دروس كتيره بالopencv
+      دلوقتي المشكله عندك دلوقتي في الموبايل ابليكشن نفسه و لا لما تعرفضها في الbrowser عندك ؟
+      ازاي بتاخد الصور real time في الbrowser ؟
+    id: '1584673408239028'
+  - created_time: '2017-08-20T00:13:01+0000'
+    from:
+      name: Ziad Sabry Mater
+      id: '10159934292695322'
+    message: هو أنا أعتقد إن حضرتك مش بتصور صورة 360 . لكن صورة panorama
+    id: '1584693931570309'
+  - created_time: '2017-08-20T00:15:46+0000'
+    from:
+      name: Ziad Sabry Mater
+      id: '10159934292695322'
+    message: ممكن ببساطة تجارب صورة 360 online . و تشوف المشكلة من إلبرنامج إلى بتصور
+      بيه ولا لا
+    id: '1584696838236685'
+  - created_time: '2017-08-20T00:16:33+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: انت تقصد بالارضية الباهتة هو الجزء المدور اللى تحت وزيه فوق الصورة نفسها
+      اللى واخد لون الصورة من الاطراف وعاملها باهتة؟
+    id: '1584697451569957'
+  - created_time: '2017-08-20T00:22:24+0000'
+    from:
+      name: Marwan Ayyad
+      id: '2226256680721686'
+    message: مفيش حل للمشكله ديه و السبب انك مش مصور صوره 360 , ديه panorama , و معتقدش
+      ان فى برنامج هايكمل الفراغ ده بصوره كويسه او يجبها من عنده , انا شغال Game developer
+      بعمل VR , AR Apps
+    id: '1584702074902828'
+  - created_time: '2017-08-20T00:31:34+0000'
+    from:
+      name: Pola Ashraf
+      id: '10155173051963199'
+    message: Did you try Google Camera App? It shoots 360 photos not Panorama
+    id: '1584710371568665'
+  - created_time: '2017-08-20T03:03:11+0000'
+    from:
+      name: Omar Salama
+      id: '1529543267141756'
+    message: معاك resources لو حد عايز يبدا في augmented reality ?
+    id: '1584805134892522'
+  - created_time: '2017-08-20T08:43:54+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: The problem is that the image is 360 cylindrical and not 360 spherical,
+      so there is no top and bottom in the image. Most panorama apps only take cylindrical
+      photos (you rotate in just one direction w bas keda), 360 cameras on the other
+      hand take spherical images.
+    id: '1585005631539139'
+  - created_time: '2017-08-20T13:16:36+0000'
+    from:
+      name: Yasser Saber
+      id: '10157016797267564'
+    message: Mohamed Eissa
+    id: '1585172741522428'
+  - created_time: '2017-08-20T15:29:45+0000'
+    from:
+      name: Ahmed Magdy
+      id: '10155113612632882'
+    message: Ahmed Khalifa el moshkla en swer el panorama is only horizontal 3lshan
+      kda el vertical tal3 be el shakl dh 3lshan asln matswrsh.
+    id: '1585271081512594'
+  - created_time: '2017-08-20T16:05:17+0000'
+    from:
+      name: Hu Ibrahim
+      id: '2034020136844409'
+    message: Ahmed Ismail Abd El Aziz Eishra
+    id: '1585301174842918'
+  - created_time: '2017-08-20T17:17:44+0000'
+    from:
+      name: Mohammad Allam
+      id: '10157198755818902'
+    message: |-
+      have you tried using google street view?
+      https://play.google.com/store/apps/details?id=com.google.android.street&hl=en
+    id: '1585356784837357'
+  - created_time: '2017-08-20T19:04:17+0000'
+    from:
+      name: Mohamed Fekri
+      id: '10214284437157546'
+    message: "النتيجة اللي وصلتها دي تعتبر اخر حدوود صورة مصورة بطريقة الـ\n 360º
+      Sweep Panorama\nاللي موجود في اغلب تطبيقات الموبيل لان الصورة بيقي ليها اطار
+      محدد بابعاد ومقيده بنوع العدسة فما تعتبرش صورة ٣٦٠ درجة بشكل اللي انت عايزة
+      ، لذلك الحل للمشكله دي هيكون من خلال تقنية التصوير نفسها لو استخدم اكتر من صور
+      مع بعض وتعمل حاجة اسمها :\n making sense of skyboxes \nاتقنية دي نتيجتها قوية
+      لو هتعمل بيها :\n 360 virtual background image      \nوفكرتها انك تعمل حاجة
+      اسمها انفراد لشكل المكان اللي بيتصور فيه يعني مثلا لو انت بتصور في غرفة و واقف
+      في منتصفها هيكون عندك ٤ جوانب حولك + سقف + ارض = ٦ صور منفصلة وبيتم تجميع الصور
+      مع بعض من خلال برنامج \n Blender او Unity \nاو ريح نفسك وجيب Samsung Gear 360
+      \U0001F609"
+    id: '1585435351496167'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU0TkRZAMU9UWXhPREkwTURRd056b3hOVEF6TVRnMU1EVXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU0TlRRek5UTTFNVFE1TmpFMk56b3hOVEF6TWpVMU9EVTMZD
+attachments:
+  data:
+  - media:
+      image:
+        height: 404
+        src: https://scontent.xx.fbcdn.net/v/t15.0-10/s720x720/20989536_1932529666965656_3416410836292337664_n.jpg?oh=bd45909a2b267283bf8882a00b69f761&oe=5AE01582
+        width: 720
+    target:
+      url: https://www.facebook.com/100006259238852/videos/1932528816965741/
+    type: video_inline
+    url: https://www.facebook.com/100006259238852/videos/1932528816965741/

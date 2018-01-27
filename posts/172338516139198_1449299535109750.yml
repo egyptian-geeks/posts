@@ -1,0 +1,35 @@
+---
+message: I'm trying to integrate hololens with ogre3d using directx 11. Does anybody
+  have experience with it ?
+from:
+  name: Ahmed Saleh
+  id: '10159933379005574'
+type: status
+created_time: '2017-04-10T15:36:37+0000'
+updated_time: '2017-04-11T13:52:10+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1449299535109750/
+id: '172338516139198_1449299535109750'
+reactions:
+  data:
+  - id: '1999765416908747'
+    name: Ahmed Khalifa
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTJNalU1TWpNNE9EVXlPakUwT1RFNE5EZAzROVGc2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTJNalU1TWpNNE9EVXlPakUwT1RFNE5EZAzROVGc2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-04-11T13:52:07+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      As far as I know, HoloLens can only run UWP apps (apps made for the Windows Store).
+      I didn't use Ogre3D before, but check if it can be used to make Windows Store apps, if yes then all you need to do after that is to reference the Windows Runtime Components (the .winmd files) and use the Holographic libraries.
+      I would suggest that you instead use a game engine that supports HoloLens out of the box (like Unity and Unreal), I'm sure you'll be able to transfer your Ogre3D experience to these engines, similar to how I transferred my XNA/MonoGame experience to Unity.
+    id: '1450251228347914'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFExTURJMU1USXlPRE0wTnpreE5Eb3hORGt4T1RFNE56STQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFExTURJMU1USXlPRE0wTnpreE5Eb3hORGt4T1RFNE56STQZD

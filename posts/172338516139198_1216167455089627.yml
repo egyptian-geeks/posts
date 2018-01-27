@@ -1,0 +1,64 @@
+---
+message: |-
+  السلام عليكم
+
+  من فضلكم يا جماعة هو انا ممكن استخدم Node.js داخل مشروع MVC عادى زى ما بستخدم angularjs ؟
+
+  وايه اللى بيميزها عن angularjs لأنى مفهمتش حاجة من اللى قريته الصراحة ؟
+from:
+  name: Ahmed Amin
+  id: '1962172197389574'
+type: status
+created_time: '2016-08-27T21:54:06+0000'
+updated_time: '2016-08-28T00:52:03+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1216167455089627/
+id: '172338516139198_1216167455089627'
+reactions:
+  data:
+  - id: '10155432639833282'
+    name: Ahmed Abdo
+    type: LIKE
+  - id: '1698463353600346'
+    name: Mahmoud S. Siddiq
+    type: LIKE
+  - id: '1466247800164499'
+    name: Mosaab Ahmed
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpBNU56QTRNamd4T2pFME56SXpNemd6TWpFNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQXpNemM0TnpreE16VTRPakUwTnpJek16VXdORFU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-08-27T21:55:48+0000'
+    from:
+      name: Ahmed Hammad
+      id: '10159881004380503'
+    message: |-
+      الNode.js بتاع Backend
+      بينما الAngular.js بتاع Frontend
+
+      فا مفيش اي علاقة بين الاتنين
+      غير ان الاتنين بيستخدموا الJavascript
+
+      بس كده :)
+    id: '1216168321756207'
+  - created_time: '2016-08-27T23:08:14+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: |-
+      الأول لازم نفهم انت بتحاول تعمل ايه بالظبط علشان كده هتختار nodejs علشان تحلهالك، يعىن انت لاقيت مثلأ library بس شغالة على node بس فعاوز تستخدمها فى مشروعك و مافيش بديل مثلأ ليها C# فلازم تستخدم دى؟ طيب لو كده الlibrary بتعمل ايه و عاوزها تشتغل clientside ولا serverside ؟ لو clientside يبقى انت مش محتاج nodejs ومحتاج تشغلها مع browserify مثلا عشان تشتغل فى البراوزر لو هى مش معمولة علشان تشتغل فيه.
+      ولو serverside معظم اللغات بتسمحلك تinvoke system command وتجيب الoutput فلو كده ممكن تعمل ابليكيشن ب javascript تبقى تinvoke الأبليكيشن ده و تجيب ال output اللى محتاجه. واحتمال يكون فيه بدائل شبيه بruby javascript runtime gems اللى عندنا اللى بتخلينى اexecute javascript on v8 فى نفس ال process.
+      فالموضوع كله بيعتمد على انت بتحاول توصل لإيه بالظبط وهتكون ايه الطيرقة المناسبة علشان توصل لكده.
+    id: '1216207848418921'
+  - created_time: '2016-08-28T00:52:01+0000'
+    from:
+      name: Ahmed Amin
+      id: '1962172197389574'
+    message: بارك الله فيكم يا شباب .....
+    id: '1216269785079394'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl4TmpFMk9ETXlNVGMxTmpJd056b3hORGN5TXpNME9UUTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl4TmpJMk9UYzROVEEzT1RNNU5Eb3hORGN5TXpRMU5USXgZD

@@ -1,0 +1,35 @@
+---
+message: |-
+  Good morning guys.
+  I'm looking for WhatsApp API or SDK to be able to sending messages through my App, I found several on github but it doesn't work, Have anyone ever seen or already know a good & healthy API for WhatsApp?
+from:
+  name: Omar Negm
+  id: '1655425661170220'
+type: status
+created_time: '2017-02-04T09:47:23+0000'
+updated_time: '2017-02-04T10:23:21+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1378148602224844/
+id: '172338516139198_1378148602224844'
+reactions:
+  data:
+  - id: '1955441501387657'
+    name: Bassam Abd Elhamid
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTNOalUwTnpnNU16RXdPakUwT0RZAeU1ERTROREU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTNOalUwTnpnNU16RXdPakUwT0RZAeU1ERTROREU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-02-04T09:55:11+0000'
+    from:
+      name: Senior Otaka
+      id: '10157081824552306'
+    message: |-
+      there is no formal API or SDK for WhatsApp ya Omar Negm
+      even if you found something working it will be based On reverse engineering the app requests and will be blocked after a while.
+    id: '1378156958890675'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0zT0RFMU5qazFPRGc1TURZAM05Ub3hORGcyTWpBeU1URXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0zT0RFMU5qazFPRGc1TURZAM05Ub3hORGcyTWpBeU1URXkZD

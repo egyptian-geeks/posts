@@ -1,0 +1,70 @@
+---
+message: "How to detect if my machine is abused for mining cryptocurrency? \nsometimes
+  disk achieves 100% on task manager but when I check the process they are always
+  system process and ending it will shut down the machine.\nIs there any advanced
+  methods?"
+from:
+  name: Abdallah Ebrahim
+  id: '1559095764197464'
+type: status
+created_time: '2017-09-20T12:24:56+0000'
+updated_time: '2017-09-20T20:16:31+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1612124148827287/
+shares:
+  count: 1
+id: '172338516139198_1612124148827287'
+comments:
+  data:
+  - created_time: '2017-09-20T12:25:14+0000'
+    from:
+      name: Abdallah Ebrahim
+      id: '1559095764197464'
+    message: Amgd Gocha ya 3m ya bta3 el security :D
+    id: '1612124305493938'
+  - created_time: '2017-09-20T12:29:22+0000'
+    from:
+      name: Ahmed Galal
+      id: '10160277627030455'
+    message: I dnt think hard disks are used that much in the mining process, usually
+      when the disk reaches 100% while showing low speeds like 2 or 3 mb it means
+      its damaged, i would replace it, i recommend ssds
+    id: '1612126812160354'
+  - created_time: '2017-09-20T12:37:15+0000'
+    from:
+      name: Bassel Ahmed
+      id: '1963857600600597'
+    message: I bet you're using HDD and it's significantly slower on Windows because
+      of too much system services and from my experience, the top service is the windows
+      defender, it literally kills the disk but with SSD this is not an issue at all
+      :D
+    id: '1612132965493072'
+  - created_time: '2017-09-20T13:37:29+0000'
+    from:
+      name: George Moheb
+      id: '10210440074417898'
+    message: "1) msh shart ay process feha disk io kteer tb2a malicious\n2) momken
+      el malware yeb2a m3ah rootkit aw bye5fy nfso fa msh hatshofo mn el task manager\n3)
+      nazel antivirus kwys w 5aly up-to-date ka prevention \n4) 3shn te3raf tela2i
+      7aga msta5bya \U0001F602 me7tag tool te3mel scan lel harddisk mn bara el operating
+      system aw 7ad fahem security yboselak 3ala el device\n5) lw hwa malware msh
+      by5aby nafso w beymine yeb2a lazem ysib traces 3shn el hashing by7tag processing
+      power fa hatshof en fe process btsta3mel cycles ktir wnta msh 3aref heya eh\n6)
+      el malware lazem yb2a beycommunicate through el network ta2ema bel cryptocurrency
+      network directly aw be7ad by2olo ye3mine eh w lw el malware bysra2 cyrptocurrency
+      private keys yb2a lazem yekalem 7ad 3shn yb3atlo el keys do fa monitor el network
+      bta3tak w shof fe traffic 3'arib wla la2"
+    id: '1612177522155283'
+  - created_time: '2017-09-20T16:52:59+0000'
+    from:
+      name: Khaled Ahmed
+      id: '10213395157926698'
+    message: dawr w e3raf mn el shabab lw fe3ln 3andk processes bet3ml minning w *3alben
+      mesh 7atla2y , mn 5ebrty e7tmal kber gedan yekon 3andk fl HDD bad sectors w
+      lw enta sha*3al w mara wa7da 100 % mn 3*er ay sbab 7ata fl task manager e7tmal
+      kber gedan badsectors w lw 3ayz tet2akd google "chkdsk cmd command" 3ashan terepair
+      aw temark them , good luck
+    id: '1612320142141021'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl4TWpFeU5ETXdOVFE1TXprek9Eb3hOVEExT1RFd016RTEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl4TWpNeU1ERTBNakUwTVRBeU1Ub3hOVEExT1RJMk16YzUZD

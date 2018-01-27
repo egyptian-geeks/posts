@@ -1,0 +1,41 @@
+---
+message: |-
+  Did anyone try using Facebook login with react native app that depends on a rails API?
+
+  I have a rails API that uses devise token auth and a react native app, now the sign in and sign up using email are working. But I am trying to implement sign in using Facebook.
+
+  Previously, when I needed to do this in a web app I just used omniauth-facebook which authenticates through facebook and redirect to callback URI.
+
+  Now, it's a bit confusing because there is a different flow of react native because there is the Facebook login that requires facebook SDK and it can handle all the login process. But I need to get the Facebook login working with the API to create user in the database and to track records of his activity on the app.
+from:
+  name: Saleh Aly
+  id: '2058761104403940'
+type: status
+created_time: '2017-12-24T20:16:28+0000'
+updated_time: '2017-12-27T09:30:46+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1701381829901518/
+id: '172338516139198_1701381829901518'
+reactions:
+  data:
+  - id: '2022833371324486'
+    name: Abdelrahman Hassan
+    type: LIKE
+  - id: '1754195911542041'
+    name: Taha Saleh
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTNPVE0xTWpnek1UWTRPakUxTVRReE5Ea3pNRFk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTROVFE1TkRjMU5qRTNPakUxTVRReE5EZAzRPVFU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-12-24T20:52:47+0000'
+    from:
+      name: Ahmed A. Ibrahim
+      id: '10214818255267156'
+    message: Yes, i did in around 4 apps
+    id: '1701435359896165'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN3TVRRek5UTTFPVGc1TmpFMk5Ub3hOVEUwTVRRNE56WTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN3TVRRek5UTTFPVGc1TmpFMk5Ub3hOVEUwTVRRNE56WTMZD

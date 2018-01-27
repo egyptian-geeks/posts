@@ -1,0 +1,60 @@
+---
+message: "Question for Java Developers : \nWhen Building Project in Netbeans on Windows
+  it Clearly build without any issues \nWhen Building the Same Project in Netbeans
+  on Ubuntu it Said : \nNo Base JDK Package will use System JRE .\nand Stop Packaging
+  Process...\nHow to Set the Base JDK Directory  or any Different way to Packaging
+  (.deb) or (.rpm) in Eclipse or any JavaFX IDE ? \nNotice * : \nJDK Installed Correctly
+  on Ubuntu .\nAny Help please... ThanQ"
+from:
+  name: Muhammad Gamal
+  id: '1499678500145208'
+type: status
+created_time: '2016-03-06T15:53:19+0000'
+updated_time: '2016-03-07T00:27:13+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1092445004128540/
+shares:
+  count: 1
+id: '172338516139198_1092445004128540'
+reactions:
+  data:
+  - id: '10213861471464409'
+    name: Mohamed Shaban
+    type: LIKE
+  - id: '1596110217148252'
+    name: Ahmed Badawy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBek5qYzVOREV3T1RveE5EVTNNekEwTkRnd09qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBd01EQXlORGM0Tmpnd09EVTJPakUwTlRjeU9EYzROamc2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-03-06T18:09:14+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: From bash what is the output of java -vesrion ?
+    id: '1092503274122713'
+  - created_time: '2016-03-06T19:40:10+0000'
+    from:
+      name: Ahmed Hesham Afify
+      id: '10213408947811174'
+    message: show el path beta3 el jre 3andk fl Ubuntu we shof el build path beta3
+      el eclipse el jre 3aleh error wala la2
+    id: '1092589184114122'
+  - created_time: '2016-03-06T19:58:59+0000'
+    from:
+      name: Abdulla Ahmed Seif
+      id: '1579863445426307'
+    message: "sudo apt-get install open-jdk7 \nأو ابحث عن jdk في software center"
+    id: '1092594807446893'
+  - created_time: '2016-03-07T00:27:13+0000'
+    from:
+      name: John G. Boutros
+      id: '10159712664330276'
+    message: installing oracle jdk instead of ubuntu's open jdk might help
+    id: '1092707530768954'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE1TWpVd016STNOREV5TWpjeE16b3hORFUzTWpnM056VTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE1TWpjd056VXpNRGMyT0RrMU5Eb3hORFUzTXpFd05ETXoZD

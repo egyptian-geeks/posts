@@ -1,0 +1,66 @@
+---
+message: "Hello geeks :D,\nI'm trying to write a simple AR app in ReactNative, it
+  should simply see 4 predefined markers and draw a rectangle as a boundary on the
+  live preview of the camera, the thing is I'm trying to do the processing in C++
+  using opencv so as to have the logic of the app in one place accessible to both
+  Android & IOS.\nhere's what I've been thinking \n1. write the OS dependent code
+  to open the camera and get permissions in (java/ObjC) & the C++ part to do processing
+  on each frame.\n2. call the C++ code (from within the native code) on each frame,
+  and that should return lets say coordinates for the markers.\n3. draw the rect if
+  4 markers found on the preview in native code.\n4. expose that preview to ReactNative
+  (Not sure about that or how to achieve it)\n\nI've looked at the react native camera
+  component but it doesn't provide access to frames & if that's even possible, I'm
+  not sure if it would be a good idea to send frames over the bridge between JS &
+  java/ObjC. \n\nthe problem is that I'm not sure of the performance or if that is
+  even possible.\n\nif you know of any ReactNative library that would be great."
+from:
+  name: Abdoo Fathy
+  id: '1531295853586174'
+type: status
+created_time: '2017-09-05T15:52:56+0000'
+updated_time: '2017-09-06T06:56:12+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1599361163436919/
+id: '172338516139198_1599361163436919'
+reactions:
+  data:
+  - id: '2067397180161531'
+    name: Omar Cherif Fathi
+    type: LIKE
+  - id: '145220886143035'
+    name: Omar AbdelFattah
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTJOek00TURjNU1qTTBPakUxTURRMk1qZA3lNVFk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01ERTVOalV6TnpJMU56Y3lPakUxTURRMk1qY3pNVE02TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-09-05T16:15:23+0000'
+    from:
+      name: Omar Cherif Fathi
+      id: '2067397180161531'
+    message: "If I would do something like this I would first checkout google's ARCore
+      and Apple's ARKit instead, I guess you would save some time \U0001F642"
+    id: '1599375170102185'
+  - created_time: '2017-09-05T18:50:22+0000'
+    from:
+      name: Tony Raoul Iscaros
+      id: '10156165643313420'
+    message: |-
+      Actually getting the frames from react native isn't a good idea even if it is possible.
+
+      You can develop entirely  your app in c++ or c# (check visual studio 2017 tools)
+
+      If you want to stick to react use react vuforia plugin.
+    id: '1599468730092829'
+  - created_time: '2017-09-05T20:02:08+0000'
+    from:
+      name: Omar Waleed
+      id: '10156094658694549'
+    message: So2al yabo abdo. Why use react native when u can go for unity? 3andak
+      balawi testa3melha for AR fee
+    id: '1599515190088183'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU1T1RNM05URTNNREV3TWpFNE5Ub3hOVEEwTmpJNE1USTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU1T1RVeE5URTVNREE0T0RFNE16b3hOVEEwTmpReE56STUZD

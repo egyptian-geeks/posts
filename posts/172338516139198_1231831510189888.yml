@@ -1,0 +1,56 @@
+---
+message: "مساء الخير .. انا بقالي كام يوم بحاول اعمل implementation لل merge sort
+  بال c++ iterators بس .. بدون استخدام arrays or indexes دلوقتي انا عامل ال merge
+  function مظبوطة لكن باجي لما اقسم الفكتور دة لما بعمل debug بلاقي فى مشكلة انه مش
+  بيتقسم صح .. انا مش عارف العيب فين جربت اغير ال base case مش نافع .. فياريت اللي
+  عنده فكرة يقوللي ... \n(ملحوظة ١: ده اول تعامل ليا مع ال iterators )\n(ملحوظة ٢:
+  انا بحاول اعمل  in place swapping مش بعمل فكتور جديد و احط فيه ال sorted values
+  )"
+link: https://gist.github.com/rafaeladel/2cbeb193680531bab2908e8a6635d057
+from:
+  name: Rafael Adel
+  id: '10156260406777122'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQAVjKjbWz24z9AA&w=130&h=130&url=https%3A%2F%2Favatars1.githubusercontent.com%2Fu%2F947722%3Fv%3D3%26s%3D400&cfs=1&_nc_hash=AQDm-NZnGm-bRvJc
+created_time: '2016-09-14T14:06:55+0000'
+updated_time: '2016-09-15T00:53:38+0000'
+name: mergesort.cpp
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1231831510189888/
+id: '172338516139198_1231831510189888'
+reactions:
+  data:
+  - id: '1800724693292343'
+    name: Biga Gaber
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdOalEwT0RnMU5qSTVPakUwTnpNNE5qTTVPVFU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXdOalEwT0RnMU5qSTVPakUwTnpNNE5qTTVPVFU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-09-14T15:23:26+0000'
+    from:
+      name: Mahmoud Refaat
+      id: '10159882193515635'
+    message: "انا مش فاهم الكود المفروض يشتغل ازاي. بس الواضح انك بتحاول تعمل merge
+      sort و insertion sort مع بعض لان merge sort مينفعش يتعمل in place بسهوله. مدام
+      كده كده هتعمل insertion sort  يبقى اعمله مرة واحده و خلاص من غير merge sort
+      خالص. \n\nفكرة كويسه انك تحاول تخليه in place علشان توفر memory بس ده كده ابطئ
+      من ابطئ sorting algorithm."
+    id: '1231896386850067'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl6TVRnNU5qTTROamcxTURBMk56b3hORGN6T0RZAMk5qQTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl6TVRnNU5qTTROamcxTURBMk56b3hORGN6T0RZAMk5qQTIZD
+attachments:
+  data:
+  - media:
+      image:
+        height: 390
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQDafFOBgCLM4_Z8&w=720&h=720&url=https%3A%2F%2Favatars1.githubusercontent.com%2Fu%2F947722%3Fv%3D3%26s%3D400&cfs=1&_nc_hash=AQBHW45aP2fLF6ko
+        width: 390
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgist.github.com%2Frafaeladel%2F2cbeb193680531bab2908e8a6635d057&h=ATNwIh986NoMRqeDiuCE_fQIchEesqFarhlJ8l7DfvZQ76dPaSwg914ERhykgEQrAQP5dWixCRBQfcvXSlq1x0t2IINl6g-m-ikW&s=1&enc=AZPG44UQOSl27kXIIXqePmboa5lEtZPIaMz2UyzlTI0EsES34x194Zj4RgWBWq39fPZmzYLnrDwUOXeAkzb-sKod
+    title: mergesort.cpp
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgist.github.com%2Frafaeladel%2F2cbeb193680531bab2908e8a6635d057&h=ATNwIh986NoMRqeDiuCE_fQIchEesqFarhlJ8l7DfvZQ76dPaSwg914ERhykgEQrAQP5dWixCRBQfcvXSlq1x0t2IINl6g-m-ikW&s=1&enc=AZPG44UQOSl27kXIIXqePmboa5lEtZPIaMz2UyzlTI0EsES34x194Zj4RgWBWq39fPZmzYLnrDwUOXeAkzb-sKod

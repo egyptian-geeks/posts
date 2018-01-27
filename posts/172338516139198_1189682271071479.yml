@@ -1,0 +1,100 @@
+---
+message: "For me, it is really weird behavior need to be changed \nassuming that hosting
+  environment is load-balancer-free is not the right assumption, asp.net mvc should
+  be cloud-ready by default \n\nI should not spend much time before figuring out that
+  asp.net mvc can't see the giant thing in front of it, so called load-balancer\n---\nياجدعان
+  حرام والله .. صحتنا"
+link: https://github.com/aspnet/Mvc/issues/4588
+from:
+  name: Ahmed Mozaly
+  id: '10155321930231313'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQDPBIHvZb1sudpc&w=130&h=130&url=https%3A%2F%2Favatars1.githubusercontent.com%2Fu%2F240164%3Fv%3D3%26s%3D400&cfs=1&sx=0&sy=0&sw=352&sh=352&_nc_hash=AQAEB-ZJpMoeT6KQ
+created_time: '2016-07-26T15:09:56+0000'
+updated_time: '2016-07-26T19:48:51+0000'
+name: 'Too many redirect when using RequireHttpsAttribute · Issue #4588 · aspnet/Mvc'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1189682271071479/
+id: '172338516139198_1189682271071479'
+reactions:
+  data:
+  - id: '10155000180792102'
+    name: Amr Salah Eldin
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpnM05EZA3lNVEF4T2pFME5qazFORGN4TnpBNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TmpnM05EZA3lNVEF4T2pFME5qazFORGN4TnpBNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-07-26T15:33:13+0000'
+    from:
+      name: Amr Salah Eldin
+      id: '10155000180792102'
+    message: "اه والله اه والله اه والله \U0001F602\U0001F602"
+    id: '1189693641070342'
+  - created_time: '2016-07-26T16:52:41+0000'
+    from:
+      name: Abdelrady Fcis
+      id: '10214861141222529'
+    message: |-
+      This is normal, and it's not an MVC issue. Your load balancer is removing ssl traffic (aka ssl offloading) and deliver only http packet to your web server.
+      But it add a specific header for you to know that the original packet was https
+    id: '1189730041066702'
+  - created_time: '2016-07-26T16:55:15+0000'
+    from:
+      name: Abdelrady Fcis
+      id: '10214861141222529'
+    message: Also this is a good feature in load balancers, removing ssl traffic will
+      reduce CPU usage in your web servers (decrypting the traffic)
+    id: '1189731381066568'
+  - created_time: '2016-07-26T17:51:49+0000'
+    from:
+      name: Ahmed Mozaly
+      id: '10155321930231313'
+    message: "معنديش مشكلة خالص مع اي ميزة يقدمهالي ال load balancer\nمشكلتي إن الدوت
+      نت يكون مكتوب وهو لا يراعي إمكانية وجود load balancer \nأمامه، ويتركني انا امام
+      مسؤلية تعديل الكود ليتناغم مع ال load balancer"
+    id: '1189758177730555'
+  - created_time: '2016-07-26T17:54:47+0000'
+    from:
+      name: Ahmed Mozaly
+      id: '10155321930231313'
+    message: ويبدو أنهم أخذوا هذا الكلام علي محمل الجد وتم اعادة فتح ال issue مرة
+      اخري
+    id: '1189759027730470'
+  - created_time: '2016-07-26T19:02:52+0000'
+    from:
+      name: Abdelrady Fcis
+      id: '10214861141222529'
+    message: المشكله إنها مش standard تقريبا .. كل load balancer بيحط الheader بتاعه
+    id: '1189793764393663'
+  - created_time: '2016-07-26T19:48:51+0000'
+    from:
+      name: Ahmed Mozaly
+      id: '10155321930231313'
+    message: |-
+      بس فيه حاجات خلاص بقت de-facto
+      زي x-forwarded-proto
+      لدرجة إن طلع ليها rfc عشان ممكن تتضاف للبروتوكول نفسه
+      زي المثال ده
+      https://tools.ietf.org/html/rfc7239
+    id: '1189815027724870'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU0T1RZANU16WTBNVEEzTURNME1qb3hORFk1TlRRM01Ua3oZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU0T1RneE5UQXlOemN5TkRnM01Eb3hORFk1TlRZAeU5UTXoZD
+attachments:
+  data:
+  - description: 'if a use RequireHttps in a controller class: [RequireHttps(Order
+      = int.MinValue)] [Authorize] [Route("[action]")] public class XXXController
+      if i remove RequireHttpsAttribute, it will work well....'
+    media:
+      image:
+        height: 352
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQDZPOsXKIRr7cg8&w=352&h=352&url=https%3A%2F%2Favatars1.githubusercontent.com%2Fu%2F240164%3Fv%3D3%26s%3D400&cfs=1&sx=0&sy=0&sw=352&sh=352&_nc_hash=AQBhyNh-yBDKQfZL
+        width: 352
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Faspnet%2FMvc%2Fissues%2F4588&h=ATPRkp8LEyWEIwp27NdmaR3GsTFGNHVd4JafyaXpONdBL2BvGIO9ZOJeZbvHGjeMrxuLxkTy-hdXLBTucqtI97QwycjEFUlD3gOU&s=1&enc=AZPWbmvQn8I0rdtlVBl8ePJT0XwSaocVMu4HazgwNVFR0Fy-10A2XVF0iCEK-gT57ybI7MG8LoPy2a13NPbBnCB3
+    title: 'Too many redirect when using RequireHttpsAttribute · Issue #4588 · aspnet/Mvc'
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Faspnet%2FMvc%2Fissues%2F4588&h=ATPRkp8LEyWEIwp27NdmaR3GsTFGNHVd4JafyaXpONdBL2BvGIO9ZOJeZbvHGjeMrxuLxkTy-hdXLBTucqtI97QwycjEFUlD3gOU&s=1&enc=AZPWbmvQn8I0rdtlVBl8ePJT0XwSaocVMu4HazgwNVFR0Fy-10A2XVF0iCEK-gT57ybI7MG8LoPy2a13NPbBnCB3

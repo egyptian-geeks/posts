@@ -1,0 +1,19 @@
+---
+message: "يا شباب ... الناس اللي ليها في ال Hosting وخصوصا علي Godaddy\nكان عندي هوست
+  ودومين علي IPage ونقلتهم علي Godaddy\nكان في ايميل في ال Host الاولي بس متسجل في
+  Google App Account وبيفتح من ال Gmail عادي ... بعد ما نقلت محتاج اني اعمل ايميلات
+  تانية علي الهوست اللي علي جودادي بس تكون مربوطة علي نفس الدومين\nيعني يكون :\nName1@Site.Com
+  دا الاول اللي موجود علي Google App Account\nو Name2@Site.Com ويكون دا موجودعلي ال
+  Host بتاع Godaddy\nلما بضيف ال MX Record بتاع جوجل وجودادي مع بعض في ال DNS Zone
+  File\nواحد منهم بيشتغل والتاني لا ...\nياريت حد يجيببلي الطريقة او تعديل في الMX
+  Record دا\n\n#Google_MX_Record\n2 @ ALT1.ASPMX.L.GOOGLE.COM \n3 @ ALT2.ASPMX.L.GOOGLE.COM
+  \n4 @ ALT3.ASPMX.L.GOOGLE.COM \n5 @ ALT4.ASPMX.L.GOOGLE.COM \n1 @ ASPMX.L.GOOGLE.COM\n\n#Godaddy_MX_Record\n0
+  @ smtp.secureserver.net\n10 @ mailstore1.secureserver.net\n\nشكرا مقدما ..."
+from:
+  name: Ibra de Sabry
+  id: '10209511967150706'
+type: status
+created_time: '2015-02-26T00:58:26+0000'
+updated_time: '2015-03-01T12:13:19+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/900959263277116/
+id: '172338516139198_900959263277116'

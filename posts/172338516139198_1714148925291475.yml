@@ -1,0 +1,205 @@
+---
+message: Is there somebody still using Windows as main OS for production purposes
+  ? - Just wondering.
+from:
+  name: Ahmed Hosny
+  id: '2077007312536296'
+type: status
+created_time: '2018-01-06T18:00:22+0000'
+updated_time: '2018-01-13T05:36:47+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1714148925291475/
+id: '172338516139198_1714148925291475'
+reactions:
+  data:
+  - id: '1353212641450189'
+    name: معتز الزعبي
+    type: LIKE
+  - id: '10160030835075061'
+    name: Fady Morris Milad
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlPRFF6T1RnNE56WXdPakUxTVRVeU56RXhPVGM2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: T0RZANE5qZAzFNRFl3T2pFMU1UVXlOalF5TVRZANk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2018-01-06T18:17:04+0000'
+    from:
+      name: Usama Fayez
+      id: '10155807421830280'
+    message: Websites using ASP.net for a start?
+    id: '1714189708620730'
+  - created_time: '2018-01-06T18:25:27+0000'
+    from:
+      name: Farouk Elabady
+      id: '10156125708187299'
+    message: https://en.wikipedia.org/wiki/Usage_share_of_operating_systems
+    id: '1714197088619992'
+  - created_time: '2018-01-06T18:32:00+0000'
+    from:
+      name: Mohamed Fawzy
+      id: '1773141282802951'
+    message: Why not?
+    id: '1714202035286164'
+  - created_time: '2018-01-06T18:32:51+0000'
+    from:
+      name: Amr Adel
+      id: '10155421921532775'
+    message: |-
+      According to stack overflow annual survey, 52.2 of respondents use Windows as their main OS.
+      https://insights.stackoverflow.com/survey/2016#technology-desktop-operating-system
+    id: '1714202625286105'
+  - created_time: '2018-01-06T18:44:30+0000'
+    from:
+      name: Fady Morris Milad
+      id: '10160030835075061'
+    message: "A true geek would use Linux \U0001F601"
+    id: '1714209628618738'
+  - created_time: '2018-01-06T18:50:42+0000'
+    from:
+      name: Shady Atef
+      id: '10213518317565801'
+    message: |-
+      I see a flame war here between Windows and Linux.
+
+      Honestly, it's all useless . A true geek would know his OS. It really doesn't matter what you are using (ex. OS or IDE or tool-chain) the important thing is to produce high quality software.
+    id: '1714213731951661'
+  - created_time: '2018-01-06T19:21:18+0000'
+    from:
+      name: Amr Adel
+      id: '10155421921532775'
+    message: |-
+      What kind of software are we talking about here?!
+      All Microsoft software is running on Windows, and this is a huge ecosystem for ex. Dynamics CRM, ERP, BizTalk, SharePoint, Sitecore, K2, Nintex... etc.
+       For mobile development, Android SDK runs smoothly on Windows. Games and graphics are done on Windows, for ex. Unity and it uses C# and mixed reality on hololens. Context makes a difference in this discussion.
+    id: '1714246508615050'
+  - created_time: '2018-01-06T19:30:18+0000'
+    from:
+      name: Ahmed Amr Farid
+      id: '10155859538230336'
+    message: sure, why not?
+    id: '1714252488614452'
+  - created_time: '2018-01-06T19:52:09+0000'
+    from:
+      name: Sedki G. Abdelhakim
+      id: '2080176988872369'
+    message: everything that can be done in linux can be done in windows, but not
+      the other way around. So i use windows cus i like to put the eggs all in one
+      basket :D
+    id: '1714270981945936'
+  - created_time: '2018-01-06T20:33:27+0000'
+    from:
+      name: Tony Raoul Iscaros
+      id: '10156165643313420'
+    message: I have to use Windows to use Photoshop and unity3d , they are closed
+      sourced and doesn't work well on wine hq
+    id: '1714307241942310'
+  - created_time: '2018-01-06T21:17:20+0000'
+    from:
+      name: Ali Helmy
+      id: '10154988356050583'
+    message: Me and Almost every non mobile gamedev I know of :)
+    id: '1714339485272419'
+  - created_time: '2018-01-06T21:41:44+0000'
+    from:
+      name: Mohammad Fouad
+      id: '10155755444625845'
+    message: |-
+      What do you mean by "production"?
+      because many of the replies think you meant "producing software".
+      I think you mean Production Environments, as in "The final release of software that the end user faces"
+
+      Most releases are done on Windows Server or Enterprise editions. They have different upgrade and licensing models than the workstation edition (Home, Pro, etc).
+      That being said, it is not usually for serving websites or web services. It is more used for Core services, UI applications (Think: banking, Productivity, Inventory, Documents, Workflows, etc).
+
+      Also #ActiveDirectory is very popular in medium-to-large organizations. And almost any application that needs to integrate with it will run on Windows.
+    id: '1714356088604092'
+  - created_time: '2018-01-07T09:59:43+0000'
+    from:
+      name: Mohamed Moshrif
+      id: '1538447102877297'
+    message: Because it doesn’t contribute at all to what you are building. Actually
+      let me take that back, development tools available on Windows are light years
+      compared to development tools available for any other platform. Just compare
+      visual studio as an IDE to any other IDE out there
+    id: '1714862688553432'
+  - created_time: '2018-01-07T10:24:32+0000'
+    from:
+      name: Marwan Abdel Moneim
+      id: '408695269572490'
+    message: |-
+      To all the people who are saying "a true geek would use X OS"
+      A true geek would use serverless tools :P
+    id: '1714879251885109'
+  - created_time: '2018-01-07T10:33:50+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: a true geek would never waste his time comparing toolings !
+    id: '1714886545217713'
+  - created_time: '2018-01-07T13:24:31+0000'
+    from:
+      name: Tarek Omar
+      id: '10154987014676459'
+    message: Keep wondering
+    id: '1715038185202549'
+  - created_time: '2018-01-07T14:09:27+0000'
+    from:
+      name: Mohamed Amr
+      id: '10154967652792610'
+    message: yes .. still using this OS
+    id: '1715076461865388'
+  - created_time: '2018-01-07T16:45:43+0000'
+    from:
+      name: Muhammad Nagy
+      id: '10216248300579505'
+    message: Yes, I am using windows server for production and windows 10 for most
+      of my development.
+    id: '1715215375184830'
+  - created_time: '2018-01-07T18:33:19+0000'
+    from:
+      name: Moustafa Elsaghier
+      id: '1551507444928258'
+    message: yes i still using it as my main os :D
+    id: '1715316358508065'
+  - created_time: '2018-01-07T22:41:38+0000'
+    from:
+      name: Mohamed Taraman
+      id: '10155866336577597'
+    message: Based on technology
+    id: '1715504001822634'
+  - created_time: '2018-01-07T22:52:31+0000'
+    from:
+      name: Fady Morris Milad
+      id: '10160030835075061'
+    message: |-
+      For working in development, Linux is far better, everything can be scripted and done using the command line. the Makefile build tool , gcc, python, everything is already installed and well supported without any excessive overhead.
+      For computer science students. Linux is far better than Windows. you can do operating system programming easily , play with socket programming. develop in c or c++ using gcc compiler. and find a treasure of various open source tools.
+      Scripting and automating tasks is enjoyable using bash scripts. In Linux you everything can be done using the command line, and this is so useful in scripting for system administration tasks, while in windows lots of configurations are done using GUI with poor support to scripting which is very tedious and error prone !
+    id: '1715509845155383'
+  - created_time: '2018-01-08T04:44:51+0000'
+    from:
+      name: Tarek Dawoud
+      id: '10156109957694861'
+    message: "About 87% of the planet, \nhttps://www.statista.com/statistics/218089/global-market-share-of-windows-7/\n\nIn
+      the enterprise world it's over 90%. \n\nSerious Software Development is unfortunately
+      still not possible on an iPhone. :)"
+    id: '1715761725130195'
+  - created_time: '2018-01-09T08:07:17+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: 'Now to all devs on this thread, one thing I learned is this: If you
+      truly understand OO/ Abstraction and design patterns, as a dev , languages become
+      more and more transparent to you. I have personally switch between Java and
+      C# ALMOST seamlessly, the only difference I feel is more about configuration
+      of a framework, like Spring MVC vs .NET Web API config files, otherwise, even
+      a language with slightly different syntax such as Python, I would take an hour
+      to totally be thinking Python. The idea is, you should not really be seeing
+      a difference in languages all the much, if you truly have that deeper understanding
+      of the concepts, in which case you just see syntax nuances.'
+    id: '1716901388349562'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN4TkRFNE9UY3dPRFl5TURjek1Eb3hOVEUxTWpZAeU5qSTEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN4Tmprd01UTTRPRE0wT1RVMk1qb3hOVEUxTkRnMU1qTTMZD

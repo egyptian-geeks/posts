@@ -1,0 +1,111 @@
+---
+message: |-
+  حد اشتغل قبل كدة docker وعمل local development environment وكان الدنيا كويسة ؟
+  لإني عايز انقل كل شغلي علي docker ومش عارف ايه النظام
+
+  وهل حد جرب انه يشتغل بـ gui عادي من علي docker وكان لطيف بردو؟
+from:
+  name: Belal Mohammed
+  id: '10156087054039146'
+type: status
+created_time: '2017-05-06T17:14:03+0000'
+updated_time: '2017-05-07T16:31:16+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1475316099174760/
+id: '172338516139198_1475316099174760'
+reactions:
+  data:
+  - id: '1209016109228789'
+    name: Hind Alsayed
+    type: LIKE
+  - id: '934408920094293'
+    name: Muhammad Ahmed Fares
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXpOakV5TXpNME1EazNPakUwT1RReE1ETXhPVFU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTFOelUxT0RBME16VTJPakUwT1RRd09URXdNelk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-05-06T18:15:19+0000'
+    from:
+      name: Mohamed Eltantawi
+      id: '10160105091695314'
+    message: 'I recommend VirtualBox instead, I asked a similar question before here:
+      https://m.facebook.com/groups/172338516139198?view=permalink&id=1458757230830647'
+    id: '1475355889170781'
+  - created_time: '2017-05-06T18:16:59+0000'
+    from:
+      name: Belal Mohammed
+      id: '10156087054039146'
+    message: But it's mentioned that docker is way ligther than virtual machines.
+    id: '1475356859170684'
+  - created_time: '2017-05-06T19:01:00+0000'
+    from:
+      name: Ahmed Thabet
+      id: '1849432635069365'
+    message: "انا بستخدم docker يوميا، ودا الأفضل عشان تحافظ على state الماشين بتاعتك
+      بعيد عن أي تغييرات عموما. \nمش فاهم قصدك ب GUI? دي شوية إعدادات لل container
+      عشان تديله ال DISPLAY وكدا (أقصى حاجة كانت تشغيل atom من جوا container ومش مستاهلة
+      الصراحة) لو ال GUI تهمك اوي كدا استخدم VM"
+    id: '1475388459167524'
+  - created_time: '2017-05-06T20:19:04+0000'
+    from:
+      name: Ahmed G. Elhalwagy
+      id: '10156125283698615'
+    message: Give up gui on your containers, that's not what they are designed for.
+      Still, use Docker, of course. Way lighter than a vm. Images come with pre-installed,
+      properly configured software. You can run mysql on an image, and MySql workbench
+      on the host and connect it to the image instance, Mongo on a container and robomongo
+      on the host, etc. Examples of docker images I use on daily basis are mysql,
+      redis, mongo, teamcity server and agents, elasticsearch, nats, and many others.
+    id: '1475441095828927'
+  - created_time: '2017-05-06T22:04:43+0000'
+    from:
+      name: Mohamed El-Sayed
+      id: '10155182529813309'
+    message: "IMHO, docker makes sense as a dev environment mostly in two cases:\n-
+      You are shipping/deploying your code in a docker image/container.\n- You have
+      a local CI environment/pipeline configured where you need to tear down and rebuild
+      the environment repeatedly... \n\nIt might just be in your way in other cases.
+      light weight containers are not Virtual Machines alternatives. They are basically
+      a new \"paradigm\".."
+    id: '1475506485822388'
+  - created_time: '2017-05-06T22:28:04+0000'
+    from:
+      name: Karim Samir
+      id: '10154961575686431'
+    message: لو هتشتغل local من تشتغل علي نفس فولد الشغل بتاعك ونفس  IDE من داخل الدوكر
+      ودي عن طريق عمل مشاركه workspace/path مع container
+    id: '1475517755821261'
+  - created_time: '2017-05-07T13:36:59+0000'
+    from:
+      name: Ahmed Abdel-Razzak
+      id: '10159998686175523'
+    message: Docker for local development is shit... because whether you are going
+      to use the native application or virtual machine (on windows or mac) it doesn't
+      utilizes the machine resources and end up being slower than running locally...
+      I'm a big fan of docker and use it in production and staging... but locally
+      I don't (unless I depend on a specific micro service) and most of the time I
+      use environment variables to control whether to use the micro services or the
+      local code
+    id: '1476091169097253'
+  - created_time: '2017-05-07T13:51:05+0000'
+    from:
+      name: Mohamed Shaheen
+      id: '1990508241211666'
+    message: "for docker to go prod , you need to master some subjects like \nkubernetes
+      , for dokcer HA and clustering , service discovery , failover policy \ndocker
+      image registery , how to pull docker images from Gitlab , etc\n\nfor dev, its
+      great and easy start option"
+    id: '1476100309096339'
+  - created_time: '2017-05-07T16:31:13+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: موش عارف هل لإن الإنسان عدو ما يجهل؟! لكني كل ما ابص على الاختراع ده
+      أحس إنه قنبلة موقوتة ومكلكع واروح راجع بعيد عنه.
+    id: '1476224139083956'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEzTlRNMU5UZAzRPVEUzTURjNE1Ub3hORGswTURrME5USXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEzTmpJeU5ERXpPVEE0TXprMU5qb3hORGswTVRjME5qYzAZD

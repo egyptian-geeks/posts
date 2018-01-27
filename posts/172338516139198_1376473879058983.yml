@@ -1,0 +1,43 @@
+---
+message: |-
+  hello geeks,
+  suppose I have a high-volume Video website like Coursera and pluralsight, what is best and affordable way to host these large amount of video files. I did some reading and many suggested a CDN service, so if you faced this situation, what is the best CDN for this scenario that give me insights and statistics and also give me full control over the video player to implement my own brand?
+  thanks
+from:
+  name: Ahmed Ezzat
+  id: '10212429445025821'
+type: status
+created_time: '2017-02-02T17:51:54+0000'
+updated_time: '2017-02-02T19:37:34+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1376473879058983/
+id: '172338516139198_1376473879058983'
+comments:
+  data:
+  - created_time: '2017-02-02T18:07:09+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: S3?
+    id: '1376488652390839'
+  - created_time: '2017-02-02T18:41:28+0000'
+    from:
+      name: Muhammed Nagy
+      id: '495080930892199'
+    message: S3 + CloudFront  are the best combination
+    id: '1376516572388047'
+  - created_time: '2017-02-02T18:50:27+0000'
+    from:
+      name: Mohamed Hany
+      id: '10155193287541787'
+    message: Amazon will be great
+    id: '1376521975720840'
+  - created_time: '2017-02-02T19:34:53+0000'
+    from:
+      name: Taha Amin
+      id: '10155815529215590'
+    message: Azure media service
+    id: '1376550722384632'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0zTmpRNE9EWTFNak01TURnek9Ub3hORGcyTURVNE9ETXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0zTmpVMU1EY3lNak00TkRZAek1qb3hORGcyTURZAME1Ea3oZD

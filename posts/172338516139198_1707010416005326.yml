@@ -1,0 +1,129 @@
+---
+message: |-
+  How do you manage video uploading by users?
+  One of most annoying bugs in my platform - its kinda a social network app- is that i allows users to upload videos directly from mobile app.
+  Problems arise from 1.users trying to upload Huge video captured by iPhone. 2. Users uploading god knows what video format.
+  So my app struggle to satisfy users by accepting any kind of video (like youtube and fb does) and saving video on server in a format that would work in html5 video/iframe tag cross browser.  & in mobile app video player.
+  Anyone faced similar trouble before?
+  Platform is using nodejs/php on backend but would gladly launch a new microservice that can handle video persistence
+from:
+  name: Momen Al Zalabany
+  id: '10160388991030144'
+type: status
+created_time: '2017-12-30T21:24:15+0000'
+updated_time: '2017-12-31T17:17:13+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1707010416005326/
+id: '172338516139198_1707010416005326'
+reactions:
+  data:
+  - id: '10155068203640974'
+    name: Hany Barakat
+    type: LIKE
+  - id: '871016873079772'
+    name: Marwan Ahmed
+    type: LIKE
+  - id: '1795274523825093'
+    name: Muhammad Gawad
+    type: LIKE
+  - id: '2272848772941626'
+    name: Nasser Adbullah
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRBNU1EQXdPVGN6T2pFMU1UUTNNREl5TkRBNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQTJORGsxTnpZANE1UTTNPakUxTVRRMk9EQTNNRFU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-12-30T21:28:52+0000'
+    from:
+      name: Marwan Yassin
+      id: '10159953707250230'
+    message: Use FFmpeg and convert on device to the desired format, or convert on
+      your server but will be an overhead if many users do are uploading simultaneously
+    id: '1707017939337907'
+  - created_time: '2017-12-30T21:28:56+0000'
+    from:
+      name: Hadi Salem
+      id: '10156059281107389'
+    message: Look at ffmpeg
+    id: '1707018002671234'
+  - created_time: '2017-12-30T21:33:14+0000'
+    from:
+      name: Nady Shalaby
+      id: '2086378701380044'
+    message: You can install cli tools like ffmpeg that help you collect some meta
+      information about the uploaded video such as height, width, resolution ... etc.  used
+      for
+    id: '1707020446004323'
+  - created_time: '2017-12-30T21:34:27+0000'
+    from:
+      name: Nady Shalaby
+      id: '2086378701380044'
+    message: Some web hosting companies support this by default like arvixe.com
+    id: '1707021076004260'
+  - created_time: '2017-12-30T21:37:19+0000'
+    from:
+      name: Nady Shalaby
+      id: '2086378701380044'
+    message: Also you can use some 3d party services to encode and convert your video
+      files into streamable formats
+    id: '1707022712670763'
+  - created_time: '2017-12-30T21:40:08+0000'
+    from:
+      name: Nady Shalaby
+      id: '2086378701380044'
+    message: https://www.encoding.com/formats/
+    id: '1707024286003939'
+  - created_time: '2017-12-30T21:42:26+0000'
+    from:
+      name: Mohamed Eltantawi
+      id: '10160105091695314'
+    message: Another alternative is to accept only YouTube URLs (so they/you have
+      to upload it there first). Maybe not the ideal UX but just to put the idea out
+      there.
+    id: '1707025312670503'
+  - created_time: '2017-12-30T21:43:48+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: use something like elastic transcoder, and standardize the formats.
+    id: '1707026082670426'
+  - created_time: '2017-12-31T06:23:50+0000'
+    from:
+      name: Hany Barakat
+      id: '10155068203640974'
+    message: |-
+      My team handles media for Facebook Messenger.
+
+      To upload media from phones you should:
+      1. Resize the media (this step in video is part of transcoding); cell phone cameras create massive media files, you should resize them to smaller sizes before uploading
+      2. Upload the media
+      3. Ensure media is compatible with all devices
+
+      Some tips/details that can help you with each step:
+      1. For resizing/transcoding videos on the client, transcode videos to mp4 media format with h264 video codec and aac audio codec. These are standard formats understandable and used by almost every major video player and website/service. Also most mobile cameras will actually write these formats/codecs anyway.
+
+      To resize the content on clients you *could* use ffmpeg like others have mentioned, but I wouldn't recommend this option (It's a bit tricky to integrate ffmpeg into your code, and if you use it as an external app on your phone, it's even trickier for your app to run an external app).
+      A better option would be to use the native OS libraries on either Android or iOS to transcode the media. Transcoding will also handle reading different video formats/codecs and transcoding the media to your desired format (ie: Read a video stream written by a codec, and outputs it to as a video stream with a desired codec); I'm pretty sure you could find open source projects/code and a ton of examples online to transcode media on clients (For Android, you can check out: https://developer.android.com/reference/android/media/MediaCodec.html).
+
+      Things to watch for:
+      a. Have a maximum size that your service can handle/upload. Reject any content larger than your maximum file size (also keep in mind that your file size should be much smaller after transcoding than before transcoding).
+      b. If you want to be a bit advanced on video quality/size, you can change the params you use for transcoding. You can read my comment here which will help you understand more about videos encoding: https://fburl.com/ztrgftml
+
+      2. For uploading the media, the client/mobile must handle failures and intermittent network conditions. Clients need to retry, have good user feedback against failures, retry in a smart way (is network back up before retrying? how long should your app retry? should you re-upload content that you already uploaded? You can you save bandwidth while retrying?... etc.).
+
+      3. Even when you use native OS libs to transcode the media on the client, videos could still be incompatible with some devices (videos are tricky that way!). So another option you could do is run ffmpeg on the server (ffmpeg is easily downloaded and runnable on servers vs clients) against your uploaded video with some preset params (there are multiple tips online that could provide you with a lot of known ffmpeg presets/options you can use); this will ensure that your video is compatible with a lot more wide range of devices/players.
+
+      Hope this helps. Feel free to ask for clarifications or any follow-up questions, would be glad to help.
+    id: '1707346085971759'
+  - created_time: '2017-12-31T17:17:09+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Stream the images and the sound separately and construct the video on
+      your server
+    id: '1707892055917162'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN3TnpBeE56a3pPVE16Tnprd056b3hOVEUwTmpZANU16TXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN3TnpnNU1qQTFOVGt4TnpFMk1qb3hOVEUwTnpRd05qTXcZD

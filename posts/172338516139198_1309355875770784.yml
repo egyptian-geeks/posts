@@ -1,0 +1,64 @@
+---
+message: |-
+  الناس العظيمة البتعمل GUI من غير drag & drop
+  دلوقتي الoverride method دي بتخلي الwindow يتحرك معايا من غير ما يكون الcursor علي الtitle bar
+  كل الفهمته بعد ما دورت ان الobject m بيتبعت فيها الevents البتحصل للwindow
+  و Msg بيبقي فيها الID بتاع الmessage البعتتها الoperating system
+  مش فاهم WM_NCHITTEST و HT_CAPTION و Result دول ايه هما او فيهم ايه
+  شكراً
+link: https://www.facebook.com/photo.php?fbid=10209172649087279&set=gm.1309355875770784&type=3
+from:
+  name: Kirolos Louis Saad
+  id: '10212779572138101'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/15232324_10209172649087279_3133678791517885_n.jpg?oh=3b08e144d6a0f84aecf601705e391bf6&oe=5AE37467
+created_time: '2016-12-01T19:34:44+0000'
+updated_time: '2016-12-02T21:32:57+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1309355875770784/
+id: '172338516139198_1309355875770784'
+reactions:
+  data:
+  - id: '821575244710628'
+    name: Amr Sa'eed
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTFOelEwT0RBME16TTRPakUwT0RBMk1qUTFOekU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTFOelEwT0RBME16TTRPakUwT0RBMk1qUTFOekU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-12-02T01:00:09+0000'
+    from:
+      name: Mostafa Mohamed Gamal
+      id: '10156066064944153'
+    message: |-
+      WM_NCHITTEST determines what part of the window corresponds to a particular screen coordinate :
+      https://msdn.microsoft.com/en-us/library/windows/desktop/ms645618(v=vs.85).aspx
+
+      When you click or move the cursor across the form, WndProc receives a message m which has two main properties Msg and Result and both are get/set properties.
+
+      so you are checking if the window gets a message of mouse action, and the m.Result set will force the window to read the mouse cursor is moving or sending action on the title bar which is HT_CAPTION.
+    id: '1309547625751609'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE13T1RVME56WXlOVGMxTVRZAd09Ub3hORGd3TmpRd05ERXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE13T1RVME56WXlOVGMxTVRZAd09Ub3hORGd3TmpRd05ERXoZD
+attachments:
+  data:
+  - description: |-
+      الناس العظيمة البتعمل GUI من غير drag & drop
+      دلوقتي الoverride method دي بتخلي الwindow يتحرك معايا من غير ما يكون الcursor علي الtitle bar
+      كل الفهمته بعد ما دورت ان الobject m بيتبعت فيها الevents البتحصل للwindow
+      و Msg بيبقي فيها الID بتاع الmessage البعتتها الoperating system
+      مش فاهم WM_NCHITTEST و HT_CAPTION و Result دول ايه هما او فيهم ايه
+      شكراً
+    media:
+      image:
+        height: 146
+        src: https://scontent.xx.fbcdn.net/v/t1.0-9/15232324_10209172649087279_3133678791517885_n.jpg?oh=77014bddb872e2d360c858523742679c&oe=5B2573D4
+        width: 660
+    target:
+      id: '10209172649087279'
+      url: https://www.facebook.com/photo.php?fbid=10209172649087279&set=gm.1309355875770784&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=10209172649087279&set=gm.1309355875770784&type=3

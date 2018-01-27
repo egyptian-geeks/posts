@@ -1,0 +1,106 @@
+---
+message: "What tricks you use to Prevent Downtime in Production MySQL Servers ? \n#vps
+  #web #lbk"
+from:
+  name: Momen Al Zalabany
+  id: '10160388991030144'
+type: status
+created_time: '2018-01-14T21:37:30+0000'
+updated_time: '2018-01-15T23:51:30+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1722621734444194/
+id: '172338516139198_1722621734444194'
+reactions:
+  data:
+  - id: '10216074172673746'
+    name: Hassan M. Amin
+    type: LIKE
+  - id: '10155318238153927'
+    name: Ahmed Nasr
+    type: LIKE
+  - id: '1774186562600446'
+    name: Abdulla Alsayyed
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRRek1qUTRPREEyT1RveE5URTJNREE0TnpRek9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBd01EQXdNamN6TlRrd01qYzVPakUxTVRVNU9EZAzVOekk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2018-01-14T22:04:49+0000'
+    from:
+      name: Mohamed Eltantawi
+      id: '10160105091695314'
+    message: Do a server of yours get downtime? how and why? the reason is the first
+      step to apply the right "trick" as there is many and the most generic trick
+      is to throw more money at it! :)
+    id: '1722643924441975'
+  - created_time: '2018-01-14T23:06:12+0000'
+    from:
+      name: عبدالله محمد
+      id: '10213101784151931'
+    message: |-
+      upgrade to mariadb the easy solution
+      and you can try these
+      https://www.tecmint.com/mysql-mariadb-performance-tuning-and-optimization/
+    id: '1722677217771979'
+  - created_time: '2018-01-14T23:13:20+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: https://aws.amazon.com/blogs/aws/in-the-works-amazon-aurora-serverless/
+    id: '1722680371104997'
+  - created_time: '2018-01-14T23:20:01+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: You can have a standby slave server
+    id: '1722683387771362'
+  - created_time: '2018-01-14T23:34:13+0000'
+    from:
+      name: Mohamed Sameeh Sharaf
+      id: '2167550119925504'
+    message: 'meaning of #lbk  ?'
+    id: '1722690421103992'
+  - created_time: '2018-01-15T17:57:55+0000'
+    from:
+      name: Mohamed Aboali
+      id: '10156055860969104'
+    message: |-
+      Setup an active-active cluster with load balancer
+
+      https://www.google.ae/amp/s/www.howtoforge.com/loadbalanced_mysql_cluster_debian/amp/
+
+      Or
+
+      https://severalnines.com/resources/tutorials/mysql-load-balancing-haproxy-tutorial
+    id: '1723346591038375'
+  - created_time: '2018-01-15T23:38:16+0000'
+    from:
+      name: Mohamed Radwan
+      id: '10159976552365192'
+    message: "If you use Master - Slave replication , use MHA https://mysqlstepbystep.com/2015/06/01/mysql-high-available-with-mha-2/\n-
+      also you can use DRBD.  \n- Or migrate to RDS  AWS"
+    id: '1723576494348718'
+  - created_time: '2018-01-15T23:41:40+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: HA introduces too much complexity for low/mid traffic app that still
+      wana stay up 99.9%, or am i wrong?
+    id: '1723577971015237'
+  - created_time: '2018-01-15T23:47:20+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: I have a single instance of mysql db on Ubuntu up and running and its
+      serving the purpose. I really dont wana shoot a flie with a canon and add up
+      too much complexity just cause once in 3 years db crashed in middle of rush
+      hour and i had to manually reboot it :D!! Although our poor customer support
+      had couple angry phone calls after and it toom me 16mins to plug in laptop find
+      wifii and reboot the thing! But this incidence had me thinking small projects
+      still need some backup plans! Right?
+    id: '1723580774348290'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN5TWpZAME16a3lORFEwTVRrM05Ub3hOVEUxT1RZAM05Ea3cZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN5TXpVNE1EYzNORE0wT0RJNU1Eb3hOVEUyTURZAd01EUXgZD

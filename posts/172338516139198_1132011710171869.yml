@@ -1,0 +1,111 @@
+---
+message: |-
+  Aside from the journalistic social media hype, bash on windows explained by technical guys. And it is actually impressive.
+  To sum up:
+  - This is a kernel emulator, it emulates kernel APIs for Linux programs.
+  - it handles File Modes and permissions and inserts them in NTFS extended attributes.
+  - Currently IPv6 might have some issues. if you have IPv4 it should work fine.
+  - You can run Ruby or Python and most of the GNU/Linux tools.
+  - Currently the Linux process is separate from the Win32 world, it runs in its own session (a windows term that is somewhat similar to a container), so /bin/ps will not show Windows processes running on Windows. (Confirm?)
+  - In the future they plan to span multiple Linux instances in multiple sessions, so each bash can be its own container (this might mean native docker support?)
+  - Difference from Cygwin and Msys, these are compiled ports to Win32 processes, while now you can run actual linux compiled code.
+  - Difference from the discontinued SFU that exists in Windows Server (Windows Subsystem [or Services] for Unix).
+  The difference is that SFU was emulating user mode calls to Win32 equivalents which is a much larger number of API than the Kernel mode.
+  - Not all the Kernel syscalls are implemented yet.
+  - Linux apps run in a pico-process (search DrawBridge), so a linux app cannot call a win32 user-mode APIs (also win32 apps cannot invoke linux syscalls),
+link: https://channel9.msdn.com/Blogs/Seth-Juarez/Windows-Subsystem-for-Linux-Architectural-Overview
+from:
+  name: Mohammad Fouad
+  id: '10155755444625845'
+type: video
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQCqADQZvij7rqPc&w=130&h=130&url=http%3A%2F%2Fvideo.ch9.ms%2Fch9%2Fad03%2F33a90710-0d66-4c48-8f7f-db974771ad03%2FWSFLArchitectureDeepuThomas_512.jpg&cfs=1&sx=0&sy=0&sw=288&sh=288&_nc_hash=AQChzVM-uObYUA9a
+created_time: '2016-04-26T09:34:40+0000'
+updated_time: '2016-04-27T08:03:31+0000'
+name: 'Windows Subsystem for Linux: Architectural Overview (Channel 9)'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1132011710171869/
+id: '172338516139198_1132011710171869'
+reactions:
+  data:
+  - id: '2029806313704072'
+    name: Adam Zahran
+    type: LIKE
+  - id: '2004705666469226'
+    name: Ahmed Essam
+    type: LIKE
+  - id: '1657509230977456'
+    name: Hosam Aly
+    type: LIKE
+  - id: '10155321930231313'
+    name: Ahmed Mozaly
+    type: LIKE
+  - id: '10213017755051330'
+    name: Abdelrhman Shawky
+    type: LIKE
+  - id: '10156089336182292'
+    name: Hassan Aly Selim
+    type: LIKE
+  - id: '10156301546469701'
+    name: Amr ELsaqqa
+    type: LIKE
+  - id: '1746639592054816'
+    name: Mohamed Shokr
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdNalF4Tmpnek16YzFPakUwTmpFM016ZAzNNemM2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXhNall6TnpVMU1qYzVPakUwTmpFMk5qWXhNekE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-04-26T10:44:43+0000'
+    from:
+      name: Mohammad Fouad
+      id: '10155755444625845'
+    message: 'which begs the logical question: why wouldn''t I just run normal Linux
+      or Ubuntu?!'
+    id: '1132042516835455'
+  - created_time: '2016-04-26T12:58:12+0000'
+    from:
+      name: Mohamad Emad
+      id: '1487671784675336'
+    message: that is not so bad
+    id: '1132117023494671'
+  - created_time: '2016-04-26T14:44:34+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "We actually wanted a native wine-like  alternative (by MS) to run Windows
+      API on linux..  Oh Microsoft you can do it..  Yes do it now honey \U0001F602\U0001F602\U0001F602\U0001F602"
+    id: '1132185806821126'
+  - created_time: '2016-04-26T17:38:00+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: |-
+      Native Docker containers as well as Hyper-V Containers are just around the corner, they will be released with the next Windows Server 2016 release, and the preview is already out.
+      https://msdn.microsoft.com/en-us/virtualization/windowscontainers/quick_start/manage_docker
+    id: '1132293723477001'
+  - created_time: '2016-04-27T06:32:09+0000'
+    from:
+      name: Adam Zahran
+      id: '2029806313704072'
+    message: cool so this is like reverse-wine
+    id: '1132622936777413'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV6TWpBME1qVXhOamd6TlRRMU5Ub3hORFl4TmpZAM05EZAzAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV6TWpZAeU1qa3pOamMzTnpReE16b3hORFl4TnpNNE56STUZD
+attachments:
+  data:
+  - description: In this video Deepu Thomas lays down the real scoop behind the Windows
+      Subsystem for Linux. There was a lot of speculation surrounding how this feature
+      actually worked so I decided to find out. This
+    media:
+      image:
+        height: 288
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQCRU4YY1lvIUU_d&w=288&h=288&url=http%3A%2F%2Fvideo.ch9.ms%2Fch9%2Fad03%2F33a90710-0d66-4c48-8f7f-db974771ad03%2FWSFLArchitectureDeepuThomas_512.jpg&cfs=1&sx=0&sy=0&sw=288&sh=288&_nc_hash=AQDhIS2VKfaimRQZ
+        width: 288
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fchannel9.msdn.com%2FBlogs%2FSeth-Juarez%2FWindows-Subsystem-for-Linux-Architectural-Overview&h=ATNwszc3EXSzYK-g7drFDJkn459EkxOh1W3z76MNBc13yVSIE_GZfD13GNVYcWvK6oC9WOh190a0PfPyDiIRGoYvyxLNCxYludut&s=1&enc=AZN6mQ3M06AUb0lNxXNOZpSYmTAT9IcFFjXRBN-tO7dR00qzg6qgHph6bIQj9GKwdjvTrMerZPnso9jZQZDQlaMt
+    title: 'Windows Subsystem for Linux: Architectural Overview (Channel 9)'
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fchannel9.msdn.com%2FBlogs%2FSeth-Juarez%2FWindows-Subsystem-for-Linux-Architectural-Overview&h=ATNwszc3EXSzYK-g7drFDJkn459EkxOh1W3z76MNBc13yVSIE_GZfD13GNVYcWvK6oC9WOh190a0PfPyDiIRGoYvyxLNCxYludut&s=1&enc=AZN6mQ3M06AUb0lNxXNOZpSYmTAT9IcFFjXRBN-tO7dR00qzg6qgHph6bIQj9GKwdjvTrMerZPnso9jZQZDQlaMt

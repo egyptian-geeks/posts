@@ -1,0 +1,94 @@
+---
+message: "Wasted a day, still cannot use jQuery with Angular 2. Please help. The tutorial
+  I was following, used jQuery inside typings folder. That did not work. Tried import
+  the library in side index.html through CDN, then use \ndeclare var $:any; still
+  not wokring"
+from:
+  name: Hosam Shafik
+  id: '2052010548351299'
+type: status
+created_time: '2016-11-17T00:34:09+0000'
+updated_time: '2016-11-17T12:52:35+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1295602310479474/
+id: '172338516139198_1295602310479474'
+comments:
+  data:
+  - created_time: '2016-11-17T07:30:53+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      jQuery, Angular & React were not designed to work with each other. All solutions on the web for this problem are temporary hacks: they may work for some time, but not always. Trying to do it yourself will waste your time.
+
+      One more thing: "not working" is not clear enough. Tell the people the exact problem, like "jQuery is not loaded" or "jQuery cannot find the elements" etc
+    id: '1295848137121558'
+  - created_time: '2016-11-17T09:22:46+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      If you are using the Angular CLI (my personal recommendation), you can do it as follows:
+
+      Install jQuery, the actual library
+      > npm install jquery --save
+
+      Install jQuery TypeScript autocomplete
+      > npm install @types/jquery --save-dev
+
+      Then go to the ./angular-cli.json file at the root of your Angular CLI project folder, and find the `scripts: []` property, add this inside it:
+      "../node_modules/jquery/dist/jquery.min.js"
+
+      After that, jQuery will be available for you as a global variable. You can log jQuery.fn.jquery (which brings jQuery's version) to ensure it's working brilliantly.
+    id: '1295964070443298'
+  - created_time: '2016-11-17T09:24:56+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: If you are using Webpack, we need to see a sample of your webpack config,
+      or which project seed did you used to create the project (applicable to Webpack
+      and Gulp projects).
+    id: '1295964833776555'
+  - created_time: '2016-11-17T11:15:15+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      You don't need jQuery for that:
+
+      In your component template:
+
+      <input (keyup)="someFunctionInYourComponent($event)" >
+    id: '1296033057103066'
+  - created_time: '2016-11-17T12:44:55+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      The Angular CLI does not work in Plunker. If you want to work in Plunker, go to angular.io, click GET STARTED, then scroll down and click the link that says "live example", or simply click here directly:
+      https://angular.io/resources/live-examples/quickstart/ts/plnkr.html
+    id: '1296090987097273'
+  - created_time: '2016-11-17T12:46:27+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      Here's a simple example:
+      http://plnkr.co/edit/Sjasp3N2gqnuTxXf7fAs?p=preview
+    id: '1296091893763849'
+  - created_time: '2016-11-17T12:46:50+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Check app/app.component.ts in the example
+    id: '1296092007097171'
+  - created_time: '2016-11-17T12:52:34+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: No problem. I spend a fair bit of my day helping people with Angular
+      2 :)
+    id: '1296094743763564'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEk1TlRnME9ERXpOekV5TVRVMU9Eb3hORGM1TXpZAM09EVXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEk1TmpBNU5EYzBNemMyTXpVMk5Eb3hORGM1TXpnM01UVTAZD

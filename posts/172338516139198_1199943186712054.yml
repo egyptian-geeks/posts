@@ -1,0 +1,125 @@
+---
+message: "ليس هجوما علي php phalcon ولكن احقاقا لل frameworks المجني عليها \nكذا حد
+  اتهم frameworks العادية و MySQL \nبس صدقني سطر كود واحد غلط ممكن يقتل ال performance
+  بتاعك \nمثلا. MySQL \nاسهل حاجه انك تحط index علشان الاداء \nوممكن برضو تلاقيه زي
+  ماهو \nوفي سبب بسيط هو السبب ال common\nان لو في field نوعه integer \nوفي ال \nMySQL
+  where clause \nحطيت varchar \nWhere x=\"123\"\nعاتشتغل برضو لكن مش هاتستخدم index
+  \nفهاتكون ولا عملت اي حاجه \nقيس علي كدا حاجات كتير جدا \nانا مش مقتنع بالكلام دا
+  لاني شوفت MySQL بالجيجا وشغاله زي الفل \nTable of users with 1.2 million users \nكفاية
+  علشان تقنعك ؟\nدا مش معناه ان مونجو او فالكون وحشين \nلكن دا دفاعا عن MySQL و php
+  engine \nالمظلومين \nفي tools كتير بتعمل ليك profiling  ف php\nXhprof وغيره"
+from:
+  name: Ahmed M. Araby
+  id: '10155547863649263'
+type: status
+created_time: '2016-08-09T19:40:43+0000'
+updated_time: '2016-08-10T16:19:36+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1199943186712054/
+id: '172338516139198_1199943186712054'
+reactions:
+  data:
+  - id: '1754447401272389'
+    name: Aasem Mohammed
+    type: LIKE
+  - id: '10155880569740170'
+    name: Meligy
+    type: LIKE
+  - id: '10156063390784776'
+    name: Hussein Galal
+    type: LIKE
+  - id: '744364165648487'
+    name: Ahmed Elsayed Shahawi
+    type: LIKE
+  - id: '1778357418863713'
+    name: Ahmad Farag
+    type: LIKE
+  - id: '10210820336483862'
+    name: Khaled Attia
+    type: LIKE
+  - id: '1516915481754969'
+    name: Ashraf Hesham
+    type: LIKE
+  - id: '930615110434715'
+    name: Ahmed Ashraf
+    type: LIKE
+  - id: '10213738834576763'
+    name: Amjad Mashaal
+    type: LIKE
+  - id: '1672878506132188'
+    name: Bellal Mohamed
+    type: LIKE
+  - id: '10159726802330618'
+    name: Ahmed AbouZaid
+    type: LIKE
+  - id: '10156161428368658'
+    name: Amr Mekkawy
+    type: LIKE
+  - id: '1581849685226929'
+    name: Ayman Elbery
+    type: LIKE
+  - id: '10214796374519514'
+    name: Islam AbdelMohaimen Hassan
+    type: LIKE
+  - id: '2020473801302639'
+    name: Eslam Ahmed Ramadan
+    type: LIKE
+  - id: '1867707726586896'
+    name: Mera Karam
+    type: LIKE
+  - id: '10160057547260515'
+    name: Mohamed Anan
+    type: LIKE
+  - id: '10213473914994186'
+    name: Eman Mohamed
+    type: LIKE
+  - id: '1636085573103865'
+    name: Karim Hassan
+    type: LIKE
+  - id: '10213324450719983'
+    name: Ahmed Samir
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhNakUwTXprMk1EYzFPakUwTnpBNE5ESTBOemM2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBMU9UUTRORGN4TnpveE5EY3dOemN4TnpRek9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2016-08-09T19:44:53+0000'
+    from:
+      name: Ahmed Hosny
+      id: '2077007312536296'
+    message: انا اشتغلت بـ Phalcon من فترة، وبشتغل بـ MongoDB كتير، لكن سؤال، هو ليه
+      حضرتك بتقول "مش معناه او مونجو او فالكون وحشين"، اقصد، ايه وجه الشبه بين MongoDB
+      و Phalcon Framework في المقارنة ديه ؟
+    id: '1199944720045234'
+  - created_time: '2016-08-09T19:55:56+0000'
+    from:
+      name: Mohamed Fergany
+      id: '10215339863195300'
+    message: "بص هنا \nhttp://blog.a-way-out.net/blog/2015/03/27/php-framework-benchmark/"
+    id: '1199949970044709'
+  - created_time: '2016-08-09T20:16:06+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: |-
+      بمناسبة سيرة MySQL الواحد يطنش على MyISAM ويخليه على طول مع InnoDB ولا يخليها مختلطة؟
+      في إصدارات من MySQL ما بتسمح ب FullText Index إذا كان InnoDB فيعني خلاصة الحكاية إيه؟
+    id: '1199958936710479'
+  - created_time: '2016-08-10T08:27:32+0000'
+    from:
+      name: Abdulrahman Mohamed
+      id: '1666406580084320'
+    message: it depends :D :D
+    id: '1200307653342274'
+  - created_time: '2016-08-10T15:42:10+0000'
+    from:
+      name: Mohamed Fawzy
+      id: '10159960198215788'
+    message: let's say i'm building hello world test app with laravel/phalcon without
+      optimization which one of them do you think would bet faster ? and why ?
+    id: '1200547936651579'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU1T1RrME5EY3lNREEwTlRJek5Eb3hORGN3TnpjeE9Ea3oZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl3TURVME56a3pOalkxTVRVM09Ub3hORGN3T0RRek56TXgZD

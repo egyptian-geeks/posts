@@ -1,0 +1,57 @@
+---
+message: "السلام عليكم\nمن فضلكم انا بحاول اجيب بيانات نت جدولين عن طريق SQL UNION
+  - وهما جدول OrdersPurchases وده مره فى حالة ان النوع مشتريات ومره تانية فى حالة
+  ان النوع مردودات مشتريات \nو PaidImmediateSupوده بشرط ان يكون نفس التاريخ ونفس كود
+  المورد\nالمشكلة ان كل مورد بيتكرر مرتين مره فى حالة مشتريات ومره فى حالة تسديدات
+  - فازاى اقدر اخليه ميكررش النتايج ويجمه لكل مورد صف واحد فقط فيه قيمة المردودات
+  وقيمة المشتريات وقيمة المدفوعات"
+link: https://gist.github.com/ahmedamen/35ecba33ff22582a1da6c8890a8d9b26
+from:
+  name: Ahmed Amin
+  id: '1962172197389574'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQA5vQfSewMWKwA5&w=130&h=130&url=https%3A%2F%2Favatars3.githubusercontent.com%2Fu%2F7356190%3Fv%3D3%26s%3D400&cfs=1&sx=0&sy=0&sw=180&sh=180&_nc_hash=AQApNqhCbWSzV0e1
+created_time: '2016-08-12T23:27:25+0000'
+updated_time: '2016-08-12T23:58:42+0000'
+name: SQL_UNION.sql
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1202742383098801/
+id: '172338516139198_1202742383098801'
+reactions:
+  data:
+  - id: '10156191099748000'
+    name: Shady Mohamed Sherif
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRVMk5qTTNPVGs1T2pFME56RXdOVGcyTlRNNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRVMk5qTTNPVGs1T2pFME56RXdOVGcyTlRNNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-08-12T23:30:06+0000'
+    from:
+      name: Ahmed Mamdouh
+      id: '10155017783825800'
+    message: group by supplier
+    id: '1202743736431999'
+  - created_time: '2016-08-12T23:30:31+0000'
+    from:
+      name: Ahmed Mamdouh
+      id: '10155017783825800'
+    message: select distinct if the whole row is repeated
+    id: '1202743989765307'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl3TWpjME16Y3pOalF6TVRrNU9Ub3hORGN4TURRME5qQTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl3TWpjME16azRPVGMyTlRNd056b3hORGN4TURRME5qTXgZD
+attachments:
+  data:
+  - media:
+      image:
+        height: 180
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQBQCSICvUU4RSdI&w=180&h=180&url=https%3A%2F%2Favatars3.githubusercontent.com%2Fu%2F7356190%3Fv%3D3%26s%3D400&cfs=1&sx=0&sy=0&sw=180&sh=180&_nc_hash=AQC7nnt3w3euz8sl
+        width: 180
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgist.github.com%2Fahmedamen%2F35ecba33ff22582a1da6c8890a8d9b26&h=ATOAtzSwvazrudlYsEyOGp5BoVrrzfWK3W8H10vr0gUEeLsVL42t27N2npChLwc5Z95GtKO2axchwbob4QllYXAGO3gw3qeZtVCp&s=1&enc=AZMJA9lW_fBEy5lF5ygZU6ululN2g21tbeIFaJFj_KMaVCSGu1H4H2kNuJOU1Qon4GDgJ0ECf6BOJ2gs2SVknH2y
+    title: SQL_UNION.sql
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgist.github.com%2Fahmedamen%2F35ecba33ff22582a1da6c8890a8d9b26&h=ATOAtzSwvazrudlYsEyOGp5BoVrrzfWK3W8H10vr0gUEeLsVL42t27N2npChLwc5Z95GtKO2axchwbob4QllYXAGO3gw3qeZtVCp&s=1&enc=AZMJA9lW_fBEy5lF5ygZU6ululN2g21tbeIFaJFj_KMaVCSGu1H4H2kNuJOU1Qon4GDgJ0ECf6BOJ2gs2SVknH2y

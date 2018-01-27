@@ -1,0 +1,103 @@
+---
+message: 'Some friends ask me about how to become a #FrontEnd engineer, just published
+  this post for anyone who''s interested in Front-Ending.'
+link: https://medium.com/@abu.muslim.amr/your-guideline-to-become-a-front-end-engineer-97654f64ac97#.ppyi92pvd
+from:
+  name: Amr AbuMuslim
+  id: '10213109008032575'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQArGoySC1ckmjGH&w=60&h=60&url=https%3A%2F%2Fcdn-images-1.medium.com%2Ffit%2Fc%2F60%2F60%2F0%2A5KnWlVr92An7_Wnw.&cfs=1&sx=0&sy=0&sw=60&sh=60&_nc_hash=AQBoBbZKECvUKhs8
+created_time: '2016-12-18T11:56:39+0000'
+updated_time: '2016-12-19T09:43:21+0000'
+name: Your guideline to become a Front-End engineer
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1330791656960539/
+shares:
+  count: 2
+id: '172338516139198_1330791656960539'
+reactions:
+  data:
+  - id: '2020866527940520'
+    name: Moatasem Elrouby
+    type: LIKE
+  - id: '10156109094072138'
+    name: Ahmad Farrag
+    type: LIKE
+  - id: '10155138037322478'
+    name: Anas Emad
+    type: LIKE
+  - id: '10155907524039651'
+    name: محمد عرفة
+    type: LIKE
+  - id: '1766425513381795'
+    name: Ali Farag
+    type: LIKE
+  - id: '1560359927364731'
+    name: Mahmoud Nawwar
+    type: LIKE
+  - id: '10215364474571429'
+    name: أحمد حجاج
+    type: LIKE
+  - id: '1788898074518553'
+    name: Ahmed Abdurrahman
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdOVEUxTnpZAeU56UXhPakUwT0RJeE5EQTNOVGc2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXhPVFV4TXpRME1UTTVPakUwT0RJd05qSTFPRGc2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-12-18T12:18:28+0000'
+    from:
+      name: Ahmed El Gabri
+      id: '10159938698425582'
+    message: "Good post but here are a couple of points regarding the article which
+      I assume was geared towards people who want to start learning about front-end.\n\nGeneral
+      feedback:\n\n- As a general rule, you always need to learn the basics of any
+      language. \n- You don't need to learn any frameworks, until it solves an issue
+      you are facing. So your advice to learn to \"master\" React, Angular or Angular2
+      is a bit off (same applies to CSS preprocessors & HTML preprocessors)\n- DON'T
+      learn CoffeeScript, AMD, Grunt, underscore or Bower. All are dead. And HTML
+      preprocessors are useless, you can pick it up in a couple of hours when needed.\n-
+      w3schools is NOT a trusted references, MDN is great & enough.\n- Read many blogs
+      not just only CSS-tricks.\n\nFor JavaScript:\n\n- You just need to learn JavaScript,
+      no need to complicate things with TypeScript & stuff.\n- When you feel the need
+      for a module system use ES modules. If you deal with node then use CJS & understand
+      that both are not exacty the same.\n\nFor CSS:\n\n- Best CSS is vanilla CSS,
+      no need for preprocessors. If you want imports & stuff look into PostCSS. But
+      in general preprocessors is not a must have skill.\n- Don't learn Bootstrap
+      or Material design or grids that comes with them, build your own & learn from
+      that. They are bloated & will never be used in production for a serious product.
+      \n- Learn about SVG instead of font-icons, which are bad for accessibility &
+      not as flexible as SVG.\n\nFor HTML:\n\n- HTML is more powerful sometimes than
+      what most people think it is, deeply understand tags, attributes & what you
+      can do with them without CSS & JS.\n\n----\n\nWhen I do hire people for my team
+      I only look for deep understanding of the stack (HTML, CSS & JS) most of the
+      time I don't care about what tools or things they use. I look for the knowledge,
+      frameworks comes & goes but knowledge is staying & it will enable you learn
+      any framework or lib.\n\nLearn the basics, not the specifics. the rest is easy.
+      And only learn things that solves your problems not because others are using
+      it."
+    id: '1330803970292641'
+  - created_time: '2016-12-19T09:43:19+0000'
+    from:
+      name: Mostafa Abdelaziz
+      id: '2231337206892281'
+    message: Moatasem Elrouby
+    id: '1331603260212712'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE16TURnd016azNNREk1TWpZAME1Ub3hORGd5TURZAek5UQTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE16TVRZAd016STJNREl4TWpjeE1qb3hORGd5TVRRd05UazUZD
+attachments:
+  data:
+  - description: Should I read this?
+    media:
+      image:
+        height: 60
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQArGoySC1ckmjGH&w=60&h=60&url=https%3A%2F%2Fcdn-images-1.medium.com%2Ffit%2Fc%2F60%2F60%2F0%2A5KnWlVr92An7_Wnw.&cfs=1&sx=0&sy=0&sw=60&sh=60&_nc_hash=AQBoBbZKECvUKhs8
+        width: 60
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fmedium.com%2F%40abu.muslim.amr%2Fyour-guideline-to-become-a-front-end-engineer-97654f64ac97%23.ppyi92pvd&h=ATMwCe9LgcAVdkhHzE_Q9F_nJA439Skt0oRaGShqoehmYidmi6TQtDMiZiAWWPeMEghcNjdy7gfUTeOGzPBsVgcGotOVrsHaVF8G&s=1&enc=AZMYCcHXP0Lv0QIiLNETGXv1-k49hwUn43i5I2kxJz-LDLyxH0ALJtoxNPEFsJbyLgSH5zmin-LN-AB9VLMCLpqH
+    title: Your guideline to become a Front-End engineer
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fmedium.com%2F%40abu.muslim.amr%2Fyour-guideline-to-become-a-front-end-engineer-97654f64ac97%23.ppyi92pvd&h=ATMwCe9LgcAVdkhHzE_Q9F_nJA439Skt0oRaGShqoehmYidmi6TQtDMiZiAWWPeMEghcNjdy7gfUTeOGzPBsVgcGotOVrsHaVF8G&s=1&enc=AZMYCcHXP0Lv0QIiLNETGXv1-k49hwUn43i5I2kxJz-LDLyxH0ALJtoxNPEFsJbyLgSH5zmin-LN-AB9VLMCLpqH

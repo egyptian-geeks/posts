@@ -1,0 +1,114 @@
+---
+message: "Hello guys,\ni want to know how to add texture tiling controller predefined
+  script in unity in a dynamically created models.\nThe problem that my texture is
+  being displayed so ugly\ncan anyone tell me how to solve this issue \nthe last image
+  is the solved case using texture tiling controller\nAny ideas or another solutions?"
+link: https://www.facebook.com/photo.php?fbid=812121295581409&set=gm.1092893030750404&type=3
+from:
+  name: Ibrahem Salah
+  id: '1391026811024185'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/12804739_812121295581409_7019587377294831811_n.jpg?oh=4d59f4c00c0620d5a68f0ee8f4e49f56&oe=5B25CB66
+created_time: '2016-03-07T09:31:00+0000'
+updated_time: '2016-03-09T20:21:15+0000'
+name: Photos from Ibrahem Salah's post
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1092893030750404/
+id: '172338516139198_1092893030750404'
+comments:
+  data:
+  - created_time: '2016-03-08T11:12:20+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      I don't understand what are you trying to achieve.
+      You're dynamically generating a mesh (setting vertices, normal, etc.) and want to apply a tiled texture to it?
+      From what I see in the third image, I think your problem might be in generating the UV coordinates for the vertices, when the height of the wall increases you don't change the UV accordingly (you keep using the same value as if the wall is short) so the texture gets skewed!
+    id: '1093508540688853'
+  - created_time: '2016-03-08T11:26:39+0000'
+    from:
+      name: Ibrahem Salah
+      id: '1391026811024185'
+    message: |-
+      Yup i kept searching for 6 hours :(
+      the problem is in my UVs values i'm trying to generate better values but nothing so far is ideal it's better but not the best yet
+    id: '1093520267354347'
+  - created_time: '2016-03-08T15:23:17+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: Try to make the U a multiple of X+Z and the V a multiple of Y
+    id: '1093623357344038'
+  - created_time: '2016-03-08T16:06:42+0000'
+    from:
+      name: Ibrahem Salah
+      id: '1391026811024185'
+    message: "Well i have been working on this for about 10 hours and i almost solved
+      all the issues just need a little more time on X UVs \nit was about UV and vertex
+      relation \ni created a 24 UVs points for each face in the house \ni got better
+      results. much better actually"
+    id: '1093642960675411'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE1TXpVd09EVTBNRFk0T0RnMU16b3hORFUzTkRNMU5UUXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE1TXpZAME1qazJNRFkzTlRReE1Ub3hORFUzTkRVek1qQXkZD
+attachments:
+  data:
+  - subattachments:
+      data:
+      - media:
+          image:
+            height: 334
+            src: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/12028701_812121295581409_7019587377294831811_o.jpg?oh=1d1ac2bee1814482a7f2911ecc4ca92f&oe=5B1E9E20
+            width: 720
+        target:
+          id: '812121295581409'
+          url: https://www.facebook.com/photo.php?fbid=812121295581409&set=gm.1092893030750404&type=3
+        type: photo
+        url: https://www.facebook.com/photo.php?fbid=812121295581409&set=gm.1092893030750404&type=3
+      - media:
+          image:
+            height: 334
+            src: https://scontent.xx.fbcdn.net/v/t31.0-8/q81/s720x720/905523_812121328914739_4835806743263403873_o.jpg?oh=79b2fad6dd13d92d0b7c7cde73d2433d&oe=5B23FE1B
+            width: 720
+        target:
+          id: '812121328914739'
+          url: https://www.facebook.com/photo.php?fbid=812121328914739&set=gm.1092893030750404&type=3
+        type: photo
+        url: https://www.facebook.com/photo.php?fbid=812121328914739&set=gm.1092893030750404&type=3
+      - media:
+          image:
+            height: 334
+            src: https://scontent.xx.fbcdn.net/v/t31.0-8/q81/s720x720/12841336_812121315581407_2269885961370915386_o.jpg?oh=35599084e540e8d422fdc44ba4a3aa2d&oe=5AF3AFE5
+            width: 720
+        target:
+          id: '812121315581407'
+          url: https://www.facebook.com/photo.php?fbid=812121315581407&set=gm.1092893030750404&type=3
+        type: photo
+        url: https://www.facebook.com/photo.php?fbid=812121315581407&set=gm.1092893030750404&type=3
+      - media:
+          image:
+            height: 334
+            src: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/12819287_812121578914714_5026040913971780354_o.jpg?oh=2fef142ca83fe80a2a83acedab749f9a&oe=5AF179A3
+            width: 720
+        target:
+          id: '812121578914714'
+          url: https://www.facebook.com/photo.php?fbid=812121578914714&set=gm.1092893030750404&type=3
+        type: photo
+        url: https://www.facebook.com/photo.php?fbid=812121578914714&set=gm.1092893030750404&type=3
+      - media:
+          image:
+            height: 635
+            src: https://scontent.xx.fbcdn.net/v/t1.0-9/12800135_812121475581391_8569760302431374924_n.jpg?oh=b007ea72c69c1dd4c64c9058d2d1f25d&oe=5AF20EEE
+            width: 343
+        target:
+          id: '812121475581391'
+          url: https://www.facebook.com/photo.php?fbid=812121475581391&set=gm.1092893030750404&type=3
+        type: photo
+        url: https://www.facebook.com/photo.php?fbid=812121475581391&set=gm.1092893030750404&type=3
+    target:
+      id: '1092893030750404'
+      url: https://www.facebook.com/media/set/?set=pcb.1092893030750404&type=1
+    title: Photos from Ibrahem Salah's post
+    type: album
+    url: https://www.facebook.com/media/set/?set=pcb.1092893030750404&type=1

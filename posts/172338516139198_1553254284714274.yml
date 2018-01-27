@@ -1,0 +1,82 @@
+---
+message: |-
+  What is the best hosting service satisfying the following:
+  - Big storage
+  - Reseller Account
+  - SSH
+  - Excellent support
+
+  We tried bluehost, hostgator, and hostmonster but there were many problems with them regarding the poor support. Also bluehost doesn't support reseller account and the server goes down a lot for maintenance (may last to more than 1 hour without prior notice)
+
+  We also tried mediatemple which has a good support but expensive and has low limit for storage and bandwidth.
+
+  What do you think given your experience?
+from:
+  name: Peter N. Nagib
+  id: '10155829746775630'
+type: status
+created_time: '2017-07-20T19:32:26+0000'
+updated_time: '2017-07-22T12:22:30+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1553254284714274/
+id: '172338516139198_1553254284714274'
+comments:
+  data:
+  - created_time: '2017-07-20T21:53:38+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: Can you define some numbers? Big storage for example is very subjective,
+      you could mean 500GB or 2TB, also you can always get a VPS and connect it to
+      S3 and you'll have instant "Big storage" so you're usage also should be specified
+      as storing images is different than data that are processes over time.
+    id: '1553350484704654'
+  - created_time: '2017-07-20T22:56:33+0000'
+    from:
+      name: Peter N. Nagib
+      id: '10155829746775630'
+    message: i need around 500GB with managed server
+    id: '1553397624699940'
+  - created_time: '2017-07-20T23:04:01+0000'
+    from:
+      name: Muhammed Nagy
+      id: '495080930892199'
+    message: "how many requests will you make? \nis it just a backup or real time
+      data? \nthe price differs too much"
+    id: '1553402014699501'
+  - created_time: '2017-07-20T23:05:47+0000'
+    from:
+      name: Peter N. Nagib
+      id: '10155829746775630'
+    message: i want to host sites with databases
+    id: '1553403211366048'
+  - created_time: '2017-07-21T07:42:56+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: then try Hetzner managed service, you'll find a 500GB with a control
+      panel of your choice
+    id: '1553715358001500'
+  - created_time: '2017-07-21T10:08:42+0000'
+    from:
+      name: Alaa Ezzat
+      id: '10156074051141565'
+    message: you can go for azure , you can host your sites /services/databases on
+      it and you can get as much storage as you want , for a price you won't want
+      mostly :D
+    id: '1553809624658740'
+  - created_time: '2017-07-21T15:39:43+0000'
+    from:
+      name: Malak Francis
+      id: '1746818785368203'
+    message: I'm looking for the same.. waiting for suggestions
+    id: '1554095611296808'
+  - created_time: '2017-07-22T12:22:27+0000'
+    from:
+      name: Mohammed Yassin
+      id: '2032504700100329'
+    message: Try Rackspace and GoDaddy
+    id: '1554947937878242'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUxTXpNMU1EUTRORGN3TkRZAMU5Eb3hOVEF3TlRnM05qRTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUxTkRrME56a3pOemczT0RJME1qb3hOVEF3TnpJMk1UUTQZD

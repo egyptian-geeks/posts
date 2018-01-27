@@ -1,0 +1,105 @@
+---
+message: "Dears,\nRsyncHero is one of my opensource projects for Linux servers backup
+  based on ( Python + Django + SQLite)\nhttps://github.com/RamyAllam/RsyncHero\n\n[Core
+  Features]\n1. Free and OpenSource project licensed under GPLv3.\n\n2. Threaded backup
+  solution as it works on speeding and optimizing the backup process of Rsync by running
+  parallel pool of workers for Rsync.\n\n3. Simple Web console to manage the whole
+  backup process and manage your clients.\n\n4. Users and Authentication system.\n\n5.
+  Template of files/folders names and extensions to exclude during the backup process
+  such tmp and cache files to speed up the backup process and to save disk space and
+  bandwidth.\n\n6. Email notifications system to send a health report of the backup
+  process whether it's successful or there are any failed process.\n\n7. Logs for
+  the backup process which stores the stdout and stderr and display the contents from
+  the web console.\n\n8. List and Restore backup option from Web Console to review
+  or restore. You still have the ability to manage your data from the backup server
+  using SSH.\n\n9. Pre-defined list of common paths to backup for cPanel servers.\n\n10.
+  View current running backup process for each server from the web console.\n\n11.
+  Kill all running backup process for each server from the web console.\n\n12. Test
+  SSH connectivity to the server.\n\n13. Light-weight SQLite database which stores
+  all the backup configuration. So that you can backup your backup configurations
+  and it will be simple for migratation across multiple servers.\n\n[Why?]\nI'm not
+  sure if I'm reinventing the wheel, But i had a long journey with ( I/O, Kernel Crash,
+  HIGH TTR ) issues with both free and enterprise backup solutions. So, I came along
+  with my own code with the help of the great and powerful Rsync utility and there
+  are still too much work to be done on the roadmap. \n\nI'm sharing it here and hope
+  this might be useful for SysAdmins or Python developers who may be interested in
+  such projects.\n\n[Request]\n- Professionals, There is always a better way to do!\nYour
+  feedback and contributions are highly appreciated. It's licensed under GPLv3. So,
+  feel free to fork and spread the world.\n\n- Frontend developers, I need your help
+  in the webpages design. The current design is a slow suicide but this is what it
+  looks like when a sysAdmin holds a painting brush :D\n\n- Users, Despite the fact
+  that I'm using RsyncHero on a production system with +200 machines with different
+  purposes. It's your environment and your choice to use it with no single line of
+  warranty. YOU WILL encounter bugs and YOU WILL have recommendations So, GitHub issues
+  is your friend.\n\nThanks!"
+link: https://github.com/RamyAllam/RsyncHero
+from:
+  name: Ramy Allam
+  id: '10214356167120184'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQA7d1LsUwN4Euv5&w=130&h=130&url=https%3A%2F%2Fraw.githubusercontent.com%2FRamyAllam%2FRsyncHero%2Fmaster%2Frsynchero_web%2Fscreenshots%2Frestore_bkp.png&cfs=1&_nc_hash=AQB7_mI-qggunrRQ
+created_time: '2016-08-16T21:55:39+0000'
+updated_time: '2016-08-16T21:55:40+0000'
+name: RamyAllam/RsyncHero
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1206151409424565/
+id: '172338516139198_1206151409424565'
+reactions:
+  data:
+  - id: '2004705666469226'
+    name: Ahmed Essam
+    type: LIKE
+  - id: '10156089336182292'
+    name: Hassan Aly Selim
+    type: LIKE
+  - id: '10215899125936386'
+    name: Mohamed Elmadeny
+    type: LIKE
+  - id: '10211089565935122'
+    name: Amr ElBsheer
+    type: LIKE
+  - id: '10154810902641362'
+    name: عبدالعزيز على
+    type: LIKE
+  - id: '1773141282802951'
+    name: Mohamed Fawzy
+    type: LIKE
+  - id: '1596110217148252'
+    name: Ahmed Badawy
+    type: LIKE
+  - id: '10156052502884860'
+    name: Omar Essam
+    type: LIKE
+  - id: '1898177370224684'
+    name: Abd El-Fattah Ghazy
+    type: LIKE
+  - id: '10215377993433708'
+    name: Mohamed Zeineldin
+    type: LIKE
+  - id: '1964650613774365'
+    name: Galal Aly
+    type: LIKE
+  - id: '10155783123700239'
+    name: Ahmed Mekkawy
+    type: LIKE
+  - id: '10159976552365192'
+    name: Mohamed Radwan
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTNPRGswTXpZAd05ETXdPakUwTnpFMU1USXhPVGM2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: T0RFNU5qRXdNVGt4T2pFME56RXpPRFEyTVRNNk1qVTBNRGsyTVRZAeE13PT0ZD
+attachments:
+  data:
+  - description: RsyncHero is a threaded backup solution, It works on speeding and
+      optimizing the backup process of rsync by running parallel pool of workers for
+      the backup process.
+    media:
+      image:
+        height: 649
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQCexlux_cXz8MT8&w=720&h=720&url=https%3A%2F%2Fraw.githubusercontent.com%2FRamyAllam%2FRsyncHero%2Fmaster%2Frsynchero_web%2Fscreenshots%2Frestore_bkp.png&cfs=1&_nc_hash=AQANBeDWtak8HqmC
+        width: 649
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2FRamyAllam%2FRsyncHero&h=ATMZ4w9fKhgKAGgd-c6ZscKi4TQ6RGP3VJUPixkr3xzYVb0pL9bdgOZ6LRlNjHbIRixax2dqUo1Vy5-1P6H4iop-9xlVNjAXJpfS&s=1&enc=AZNpPHVrWMo9PUXbyF9fwZRKtdVLDOJl1BYLr9w494t0tVEg2ulQUYnKvHjYgLqancFoLJMPUJnvwqW6nBmnaxv7
+    title: RamyAllam/RsyncHero
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2FRamyAllam%2FRsyncHero&h=ATMZ4w9fKhgKAGgd-c6ZscKi4TQ6RGP3VJUPixkr3xzYVb0pL9bdgOZ6LRlNjHbIRixax2dqUo1Vy5-1P6H4iop-9xlVNjAXJpfS&s=1&enc=AZNpPHVrWMo9PUXbyF9fwZRKtdVLDOJl1BYLr9w494t0tVEg2ulQUYnKvHjYgLqancFoLJMPUJnvwqW6nBmnaxv7

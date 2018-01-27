@@ -1,0 +1,46 @@
+---
+message: "Hey geeks \nI got a function in an asp website \nwhich takes long time to
+  execute \nso I but it into a thread but the thread keeps giving thread \n abort
+  exception in the middle of execution of the function \nany recommendation pls\nnote
+  thread.resetabort()\ndid not work and I have searched a lot"
+from:
+  name: Moaaz Mahmoud
+  id: '10211017680974039'
+type: status
+created_time: '2017-09-01T20:08:58+0000'
+updated_time: '2017-09-04T12:26:11+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1595899080449794/
+id: '172338516139198_1595899080449794'
+comments:
+  data:
+  - created_time: '2017-09-01T20:12:56+0000'
+    from:
+      name: Mohamed Gamal
+      id: '10156096685587328'
+    message: Working with many threads (especially in IO) is very dangerous, so make
+      sure you're doing it right first.
+    id: '1595901720449530'
+  - created_time: '2017-09-01T20:39:23+0000'
+    from:
+      name: Mohamed Nady
+      id: '10155293228608733'
+    message: If this function takes long time , why not dealing with it as background
+      task , so you can use this amazing framework https://www.hangfire.io
+    id: '1595921620447540'
+  - created_time: '2017-09-01T20:39:35+0000'
+    from:
+      name: Amr Faisal
+      id: '10159559536590538'
+    message: You're not supposed to use Threads directly unless u r writing a low
+      level code. You must check what language/framework wrappers available.
+    id: '1595921730447529'
+  - created_time: '2017-09-03T20:54:56+0000'
+    from:
+      name: Hossam Saraya
+      id: '10160260136260389'
+    message: Can you Share your code so that we can help you figure out whats wrong?.
+    id: '1597759916930377'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU1TlRrd01UY3lNRFEwT1RVek1Eb3hOVEEwTWprMk56YzIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU1TnpjMU9Ua3hOamt6TURNM056b3hOVEEwTkRjeU1EazIZD

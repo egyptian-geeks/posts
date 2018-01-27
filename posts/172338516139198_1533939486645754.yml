@@ -1,0 +1,84 @@
+---
+message: Ideas?
+link: https://stackoverflow.com/questions/44865241/how-to-find-matching-items-for-prefixes-in-query?noredirect=1#comment76710164_44865241
+from:
+  name: Mohamed Oun
+  id: '10213382124519901'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQBicEnZEnV912SL&w=130&h=130&url=https%3A%2F%2Fcdn.sstatic.net%2FSites%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded&cfs=1&_nc_hash=AQDvsiX7ONHDf146
+created_time: '2017-07-01T22:39:08+0000'
+updated_time: '2017-07-03T17:15:54+0000'
+name: How to find matching items for prefixes in query
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1533939486645754/
+id: '172338516139198_1533939486645754'
+comments:
+  data:
+  - created_time: '2017-07-01T22:43:45+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: "You need some text indexing capabilities, straight up SQL doesn't do
+      that, for example in SQL Server you may be able to do this with \"Full Text
+      Indexing\", I bet most databases have similar db specific things, or you can
+      use some indexing tools like Lucene \nhttps://lucene.apache.org/core/"
+    id: '1533942263312143'
+  - created_time: '2017-07-01T22:47:04+0000'
+    from:
+      name: هشام إبراهيم
+      id: '10214782719499032'
+    message: I am not sure, but did you try elastic search
+    id: '1533944219978614'
+  - created_time: '2017-07-01T22:54:40+0000'
+    from:
+      name: Ahmed Eid
+      id: '762135870664322'
+    message: |-
+      I'd say you should use SOLR or any other indexing tool built on top of Apache Lucene
+      If you want to know how to build the algorithm, I'd say text indexing maybe inverted index with some text relevance scoring/ similarity like in Elastic Search, stemming and edit distance
+      I'm not an expert but I guess that would be a good start
+      Ahmed Naiem what would you suggest ?
+    id: '1533949029978133'
+  - created_time: '2017-07-01T23:08:40+0000'
+    from:
+      name: Ahmed Naiem
+      id: '10155245211207653'
+    message: "The abstract problem solution is elastic search.\n\nI don't think he
+      want to do the engine him self.\nBut if you wanna try, index the strings using
+      stem (which will endup with really not so great result as you still need to
+      process the text for relevancy and ranking)\n\nIf you want a quick hack which
+      I have used in commercial products :D (Go for euclidean distance as an index
+      for words Then use edit distance)\n\nEclidian distance will help you map the
+      words on a straight line and from it find the closest for word, and you can
+      pick closest 10 and sort using edit distance \n\nThis trick works and it looks
+      legit but it is dump solution, I would say use it for PoC but not for a real
+      thing\n\nThe example in this link using 500,000 Tweet (each has between 6 to
+      15 words), it creats the index in 34 seconds and search in 0.1 milliesecond\nhttps://twitter.com/Neo_4583/status/727275881736093697"
+    id: '1533958036643899'
+  - created_time: '2017-07-02T04:12:10+0000'
+    from:
+      name: Mohamed Ali
+      id: '10155700064031636'
+    message: |-
+      If you are looking for the class of algorithms used to deal with prefixes and so, search for Stemming as part of natural language processing. While creating the index, you might store the roots only. However, the implementation should be language specific.
+
+      https://en.wikipedia.org/wiki/Stemming
+    id: '1534222166617486'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV6TXprME1qSTJNek14TWpFME16b3hORGs0T1RRNU1ESTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV6TkRJeU1qRTJOall4TnpRNE5qb3hORGs0T1RZANE56TXcZD
+attachments:
+  data:
+  - description: I didn't know how to explain it in the question title. Say I have
+      a query of 'Red interest cake' (sorry). I want to search a big database of items
+      (say descriptions). I need to find all descriptions/
+    media:
+      image:
+        height: 316
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAMFLWvXjUlRuS7&w=720&h=720&url=https%3A%2F%2Fcdn.sstatic.net%2FSites%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded&cfs=1&_nc_hash=AQBDUhzXdwnk-uG7
+        width: 316
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F44865241%2Fhow-to-find-matching-items-for-prefixes-in-query%3Fnoredirect%3D1%23comment76710164_44865241&h=ATN9jPaLoBzORaucQQExubcaEHLDvwwf4RQRctM1YyrZSV2MnZG14vE0EviRAgtk6jyX7uXzWXs3p_tBGXasVpKw4Moz__zCkuc_&s=1&enc=AZOVJ8Oqwa8sE0B__cUf9H2u3tL1yd0e_PmZx8MHOH3gNp7RcbKus_is0IN91nQbZsy8X6pnd4g0fWze-ulGivoX
+    title: How to find matching items for prefixes in query
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F44865241%2Fhow-to-find-matching-items-for-prefixes-in-query%3Fnoredirect%3D1%23comment76710164_44865241&h=ATN9jPaLoBzORaucQQExubcaEHLDvwwf4RQRctM1YyrZSV2MnZG14vE0EviRAgtk6jyX7uXzWXs3p_tBGXasVpKw4Moz__zCkuc_&s=1&enc=AZOVJ8Oqwa8sE0B__cUf9H2u3tL1yd0e_PmZx8MHOH3gNp7RcbKus_is0IN91nQbZsy8X6pnd4g0fWze-ulGivoX

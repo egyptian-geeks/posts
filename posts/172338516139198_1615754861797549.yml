@@ -1,0 +1,50 @@
+---
+message: |-
+  I've been away from this world for lots of time, I have done lots of readings but the docs and questions are quite contradictory, marketing I think screwed this world up.
+  I am creating a play2.5 app and I want to pack it up with a non relational database, the db should have higher throughput for reads, writes are not that often I can say 1:4 rate.
+
+  The ability to have multiple indexes over keys per table.
+  and low ops load, one db that meets my use case is DynamoDB, but I want something without cloud provider lockin.
+
+  Any suggestions?
+from:
+  name: Muhammad Negm
+  id: '10215093583796418'
+type: status
+created_time: '2017-09-24T15:21:02+0000'
+updated_time: '2017-09-24T16:09:15+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1615754861797549/
+id: '172338516139198_1615754861797549'
+reactions:
+  data:
+  - id: '1796357437324725'
+    name: Karim M. Lebowski
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTROVEUwTlRjMk5qQXdPakUxTURZAeU5qYzBNamM2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTROVEUwTlRjMk5qQXdPakUxTURZAeU5qYzBNamM2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-09-24T15:41:12+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: |-
+      FAQ:
+      Q: Did you look at mongodb?
+      A: my experience with mongo was 3 years ago and it was quite a shitty experience in ops, if the ops load had changed from your experience, I'll be happy to embrace it.
+    id: '1615768008462901'
+  - created_time: '2017-09-24T16:09:12+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: |-
+      FAQ2:
+      Q: did you look at Cassandra?
+      A: Most of the stuff seems to be sponsored content, marketing it as the defacto nosql, which gives me some shivers, need someone who worked closely with it to say so.
+    id: '1615785985127770'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl4TlRjMk9EQXdPRFEyTWprd01Ub3hOVEEyTWpZAM05qY3oZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl4TlRjNE5UazROVEV5TnpjM01Eb3hOVEEyTWpZANU16VXkZD

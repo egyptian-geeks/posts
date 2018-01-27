@@ -1,0 +1,49 @@
+---
+message: |-
+  About API designing, I am always confused when to use "Delete" versus " Remove" as method name, or when to use Size, Length, or Count for Property/Attribute name.
+  Is there any tips or resources to help me select the right naming convention, Thanks in advance.
+from:
+  name: Bassam Abd Elhamid
+  id: '1955441501387657'
+type: status
+created_time: '2017-03-07T04:46:32+0000'
+updated_time: '2017-03-07T08:36:27+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1411621535544217/
+id: '172338516139198_1411621535544217'
+reactions:
+  data:
+  - id: '10214861141222529'
+    name: Abdelrady Fcis
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRJME5qZA3lNelF4TVRveE5EZAzRPRFkwTXpZAMU9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRJME5qZA3lNelF4TVRveE5EZAzRPRFkwTXpZAMU9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2017-03-07T06:16:23+0000'
+    from:
+      name: Mohamed Abdelghani
+      id: '1854642424546313'
+    message: I think it's up to you, but consider naming consistency
+    id: '1411676315538739'
+  - created_time: '2017-03-07T06:38:50+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: Both Google and Microsoft have published api design guidelines, check
+      them out.
+    id: '1411692765537094'
+  - created_time: '2017-03-07T08:26:52+0000'
+    from:
+      name: Aly Saleh
+      id: '10157135743444899'
+    message: |-
+      I havent heard of an HTTP method called "Remove" does it really exist ? I cant find it also in the HTTP protocol 1.1 RFC http://www.rfc-base.org/txt/rfc-2616.txt
+
+      And as mentioned above, here is google api design guide https://cloud.google.com/apis/design/
+    id: '1411752795531091'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF4TVRZAM05qTXhOVFV6T0Rjek9Ub3hORGc0T0RZAM016ZA3oZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF4TVRjMU1qYzVOVFV6TVRBNU1Ub3hORGc0T0RjMU1qRTIZD

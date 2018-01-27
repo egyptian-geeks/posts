@@ -1,0 +1,45 @@
+---
+message: "Ok , this post re the latest Twitter leaks we discussed earlier.\n\nI was
+  discussing the same thing with someone who believes that its not a malware , its
+  a leak from inside twitter \"The guy is the CTO  of a security Agency which serves
+  CNN, BBC and some big cats so.\"\n\ni got so many surprising info from him \"which
+  im not sure 100% is correct\"\n\n1- As i said he believes its not a malware  \n2-
+  Twitter uses SHA-1 and many others \"which is easy to recovery , i think couple
+  of minutes should be enough\".\n\nSo what i think -or need to discuss- is that \n1-
+  how come all of those does not use a 2nd factor and risk context assessment too
+  !\n2- HSBC uses a simple  but nice method , they doesn't store passwords in hashes
+  instead i think its just encrypted, then they ask you for a random combination of
+  your password not the full one like \"1st 3rd and last digits only\" , which prevents
+  all kind of malware , MITM  , however still raise high risk for insiders attacks.\n3-
+  (EDIT) if we got 36 million hashed password we will need about 70 Years to recover
+  it , however this might happen in a distributed system.\n\nAny thoughts from our
+  Security giants here ?"
+from:
+  name: Amir Abou Eesa
+  id: '1700979476627162'
+type: status
+created_time: '2016-06-12T11:30:58+0000'
+updated_time: '2016-06-12T17:41:00+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1160754550630918/
+id: '172338516139198_1160754550630918'
+comments:
+  data:
+  - created_time: '2016-06-12T11:49:48+0000'
+    from:
+      name: Mohamed Abdel Aty
+      id: '10215620557573580'
+    message: "i still think it is far fetched to say this breach is from twitter internal
+      system, if someone can read twitter internal database there are some more profitable
+      things to do than sell the passwords\n\nTwitter does not use SHA-1 to hash passwords
+      , they use bcryt \nsource: https://twitter.com/_mwc/status/740764470708965376\n\nyour
+      source is mistaken hashing passwords for serving certificates which they do
+      use SHA-1 for \n\ni still need more proof to even consider the possibility this
+      was not done by malware \n\nand i think your HSBC example is wrong or misunderstood
+      or at least i hope so, hashing is way better than encryption in case of password
+      storing because in encryption the key have to be stored somewhere but in hashing
+      there is no key"
+    id: '1160760300630343'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUyTURjMk1ETXdNRFl6TURNME16b3hORFkxTnpNeU1UZAzQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUyTURjMk1ETXdNRFl6TURNME16b3hORFkxTnpNeU1UZAzQZD

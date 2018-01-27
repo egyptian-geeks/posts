@@ -1,0 +1,36 @@
+---
+message: |-
+  Hello all,
+  So I have been investigating for a while about Gradle and I wanted to use it for a new project instead of Maven, although it has some good advantages like less verbosity and ability to custom your own build script, but I really couldn't find a good IDE for gradle especially for Eclipse, all I wanted to do is make a multi-module project with profiles, but all the plugins seems to lack a lot in these regard even the ones Intellj IDEA, so what do you think guys is it worth the effort to change, and is there really and good IDE support for gradle.
+from:
+  name: Farouk Elabady
+  id: '10156125708187299'
+type: status
+created_time: '2017-10-05T12:19:33+0000'
+updated_time: '2017-10-05T15:07:52+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1624825100890525/
+id: '172338516139198_1624825100890525'
+comments:
+  data:
+  - created_time: '2017-10-05T13:52:42+0000'
+    from:
+      name: Mahmoud Hossam
+      id: '1360912124012585'
+    message: |-
+      Eclipse?? Why would you inflict this amount of pain on yourself?
+
+      I personally would learn the gradle CLI and use any text editor with good autocompletion.
+    id: '1624899344216434'
+  - created_time: '2017-10-05T15:07:51+0000'
+    from:
+      name: Hany Ahmed
+      id: '10156089330442292'
+    message: |-
+      I investigated to find something similar to maven profiles but with no result
+      My advice is to use maven or gradle based on the project frameworks and configurations
+      Some frameworks encourage using gradle like Android and Ratpack
+    id: '1624953127544389'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl5TkRnNU9UTTBOREl4TmpRek5Eb3hOVEEzTWpFeE5UWXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl5TkRrMU16RXlOelUwTkRNNE9Ub3hOVEEzTWpFMk1EY3gZD

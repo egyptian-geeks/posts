@@ -1,0 +1,71 @@
+---
+message: "فى مشكلة فى SQL Server Full text search اسمها Leading wildcard وهى لو انك
+  بتبحث عن كلمة مثلا زى \"علم\" مش هيقدر يجيب الكلمات اللى بدايتها غير متطابقة زى
+  \"العلم\" لكنه بيجيب الكلمات اللى بتبدى بنفس حروف كلمة البحث  زى \"علمى\" \nحد حل
+  المشكلة دى قبل كده ؟"
+from:
+  name: Mohamed Rashed
+  id: '10155764645725568'
+type: status
+created_time: '2016-10-18T11:20:10+0000'
+updated_time: '2016-10-19T07:48:29+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1261674123872293/
+id: '172338516139198_1261674123872293'
+reactions:
+  data:
+  - id: '1791258444267523'
+    name: Mostafa Elsayh
+    type: LIKE
+  - id: '2022490591345439'
+    name: سامح دعبس
+    type: LIKE
+  - id: '1012026932279218'
+    name: Ahmed Mohamed Abd El-Hamid
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhOVEF4TlRRek56WTNPakUwTnpZANE1EazNOak02TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTBNVFUzTmpFeE5EVTVPakUwTnpZAM09UWXpNamc2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-10-18T12:10:11+0000'
+    from:
+      name: Mohamed Nady
+      id: '10155293228608733'
+    message: Amro Ali عندك حل ؟
+    id: '1261733223866383'
+  - created_time: '2016-10-18T12:49:35+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: "يعني مثلا:\nLIKE %علم%\nما تجيبهاش؟! \nلو الأمر كدة، فمبدأيا عليك وعلى
+      السولار Solr فيما يختص بالبحث النصي."
+    id: '1261767177196321'
+  - created_time: '2016-10-18T14:43:04+0000'
+    from:
+      name: Tarik Ibrahim
+      id: '10156476353501062'
+    message: Use Solr or Lucene
+    id: '1261873480519024'
+  - created_time: '2016-10-18T15:19:21+0000'
+    from:
+      name: Mohamed Rashed
+      id: '10155764645725568'
+    message: للاسف مافيش وقت لحاجة زى كدة
+    id: '1261900207183018'
+  - created_time: '2016-10-18T18:14:36+0000'
+    from:
+      name: Tony Raoul Iscaros
+      id: '10156165643313420'
+    message: this is a bit hackish what about storing it in reverse ?
+    id: '1262089013830804'
+  - created_time: '2016-10-18T21:23:16+0000'
+    from:
+      name: Abdelrahman Othman Helal
+      id: '1640904045948674'
+    message: You can use things like Apache Solr or ElasticSearch.
+    id: '1262234693816236'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkyTVRjek16SXlNemcyTmpNNE16b3hORGMyTnpreU5qRXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkyTWpJek5EWTVNemd4TmpJek5qb3hORGMyT0RJMU56azIZD

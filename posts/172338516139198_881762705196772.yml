@@ -1,0 +1,31 @@
+---
+message: "الوضع كالتالي :D\n\nمن كام يوم بدأنا نستعمل Ansible بشكل فعلي في الشغل (واللي
+  ميعرفش أنسيبل إيه هو عبارة عن Configuration management tool).\nوكان في حاجة معينة
+  -صغيرة بس مهمة- عاوزينها بس مكانتش موجودة فيه، فعملت موديول ليه بباش في خمس دقايق.\n
+  \n \nأنسيبل فيه ملف inventory بيكون فيه متقسم السرفرات لمجموعات عشان لو عاوز تنفذ
+  حاجة معينة على مجموعة معينة من المجموعات.\nملفات الإنفينتوري بيكون شكله حاجة زي
+  التالي:\n\n[group1]\nmember1\nmember2\nmember3\n \n \n[group3]\nmember1\nmember2\nmember3\n
+  \n \n[group3]\nmember1\nmember2\nmember3\n \n \nاللي المفروض يعمله الموديول إنه
+  بيطلع الجروبز بس في شكل json.\n \n \nالموديول بالباش هنا (دي كانت النسخة الأولية،
+  حالياً السكربت بيطلع كل جروب فيه كام ميمبر).\nhttps://gist.github.com/AAbouZaid/066a3e5e026c599ec196\n
+  \n \nبعد كدا قولت أروش على نفسي شوية وأكتبه بـ AWK بس بدون أي Bash :D\nعملت نفس
+  النسخة من الموديويل في ١٠ دقايق وموجود هنا:\nhttps://gist.github.com/AAbouZaid/abf6f95bfb0fa1196dbe\n
+  \n \nانهاردة قررت أروش على نفسي أكتر وأجرب أكتب أول بايثون سكربت :D\nفعلياً أنا
+  معملتش أي حاجة قبل كدا ببايثون ولا حتى خلصت قراية فيه، بس عملت بالشوية اللي عارفهم
+  يعني :D والنتيجة كانت التالي:\nhttps://gist.github.com/AAbouZaid/82c6085cccbd1b0deb3c\n
+  \n \nدي أفضل طريقة \"نضيفة\" وصلت ليها لإن الغرض إن الموضوع يتعمل بنضافة مش مجرد
+  النتيجة النهائية :D\n \n \nأنا sysadmin مسكين بعمل أي حاجة عاوزها بباش أياً كانت
+  إيه هي ... لكن حابب أدوس أكتر في بايثون :D\nلو حد عنده طرق أكتر نضافة واختصاراً
+  من الكود اللي مكتوب هيكون شيء عظيم إني أسمع منه :D \nيعني بدور ازاي أعمل ده بطريقة
+  more pythonic :D"
+link: https://gist.github.com/AAbouZaid/066a3e5e026c599ec196
+from:
+  name: Ahmed AbouZaid
+  id: '10159726802330618'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQD1hV4llB2nbG9j&w=130&h=130&url=https%3A%2F%2Favatars1.githubusercontent.com%2Fu%2F6760103%3Fs%3D140&cfs=1&sx=0&sy=0&sw=140&sh=140&_nc_hash=AQAzdWAZhf259chn
+created_time: '2015-01-16T17:36:05+0000'
+updated_time: '2015-01-17T21:26:31+0000'
+name: AAbouZaid/Ansible module to list groups in inventory.
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/881762705196772/
+id: '172338516139198_881762705196772'

@@ -1,0 +1,40 @@
+---
+message: |-
+  ازاي ممكن امنع local admin من أنه ي access ال data بتاعت ال domain user ؟!!
+  وبدون فكرة حذف ال local admin لأنه ببساطة ممكن انقل الهارد على جهاز فيه local admin تاني و access الداتا
+  OS: windows 7
+from:
+  name: Mostafa Mohammed
+  id: '1810124152354850'
+type: status
+created_time: '2017-08-20T11:37:55+0000'
+updated_time: '2017-08-20T14:34:58+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1585102574862778/
+id: '172338516139198_1585102574862778'
+comments:
+  data:
+  - created_time: '2017-08-20T12:19:10+0000'
+    from:
+      name: Moaaz Mahmoud
+      id: '10211017680974039'
+    message: edit folder permissions
+    id: '1585130688193300'
+  - created_time: '2017-08-20T14:34:55+0000'
+    from:
+      name: Mohamed Asfour
+      id: '10156016150568334'
+    message: "ال local Admin في النهاية عنده كامل الصلاحيات علي ال System... واي policy
+      هتعملها يقدر بشكل او بأخر يعملها bypass \nلكن عشان تمنعه يبقي ادامك واحد من
+      حلين:\n\nيا اما تمنعه هوا نفسه عن طريف انك تعمله disable او تغير ال password
+      بتاعته بشكل randomly ... ودي ممكن تستخدم فيها Microsoft LAPS\n\nيا اما تعمل
+      NTFS encryption لل folders المهمة بتاعت ال domain user\nوفي الحالة دي معتقدش
+      انه ينفع انك تعمل encryption لكل ال user profile لاني اعتقد انه بيسجل اصلا ال
+      decryption key فيه \"معلومة مش مؤكدة بالنسبالي\" ... بس انت ممكن تعمل encryption
+      للحاجات المهمة بتاعته سواء في ال user profile او في اي مكان تاني تحددهوله\n\nولو
+      محتاج تحمي ال hard disk كله لو حد شاله وركبه في جهاز تاني او عمل بوت لاي os
+      تاني عليه يبقي افضل حل انك تعمل bitlocker او اي حاجة شبهها"
+    id: '1585229171516785'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU0TlRFek1EWTRPREU1TXpNd01Eb3hOVEF6TWpNeE5UVXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU0TlRJeU9URTNNVFV4TmpjNE5Ub3hOVEF6TWpNNU5qazIZD

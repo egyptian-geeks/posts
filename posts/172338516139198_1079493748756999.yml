@@ -1,0 +1,116 @@
+---
+message: |-
+  Is there an easier way to validate an Email ?
+  [a-z0-9_.-]+@[a-z0-9-]+\.[a-z]{2,3}(\.[a-z]{0,2})?
+from:
+  name: Osama Soliman
+  id: '879271768900112'
+type: status
+created_time: '2016-02-13T18:32:14+0000'
+updated_time: '2016-02-14T13:51:20+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1079493748756999/
+id: '172338516139198_1079493748756999'
+reactions:
+  data:
+  - id: '1763959737010749'
+    name: Ahmed Mahmoud
+    type: LIKE
+  - id: '765367340336395'
+    name: He Sham
+    type: LIKE
+  - id: '1596110217148252'
+    name: Ahmed Badawy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhPVEF5TVRrM05Ea3lPakUwTlRVMU5qVTFOVFk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlORGM0Tmpnd09EVTJPakUwTlRVek9UTXdPRE02TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-02-13T18:39:24+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "دي مش صح اصلا \U0001F601\U0001F601\U0001F601\U0001F601"
+    id: '1079496098756764'
+  - created_time: '2016-02-13T18:40:33+0000'
+    from:
+      name: Osama Soliman
+      id: '879271768900112'
+    message: معلش ايه الغلط :D ؟
+    id: '1079496982090009'
+  - created_time: '2016-02-13T18:42:01+0000'
+    from:
+      name: Osama Soliman
+      id: '879271768900112'
+    message: آه ثواني :D !
+    id: '1079497335423307'
+  - created_time: '2016-02-13T18:55:18+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      برده غلط!!
+      استعمل library
+    id: '1079501528756221'
+  - created_time: '2016-02-13T18:57:23+0000'
+    from:
+      name: Mohamed Zakaria El-Zoghbi
+      id: '10216095961255952'
+    message: "Don't try reinventing the wheel \nUse this if you r android dev. https://github.com/ragunathjawahar/android-saripaar
+      or any similar lib for any framework"
+    id: '1079502085422832'
+  - created_time: '2016-02-13T19:00:34+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: على سبيل المثال العنوان لازم يسمح بحرف + مثلا..
+    id: '1079503035422737'
+  - created_time: '2016-02-13T19:04:54+0000'
+    from:
+      name: Ahmed Abo Mazin
+      id: '1758521440903748'
+    message: "بعيدا على ال + انا هكتب ايميل على المكتوب \na@.com"
+    id: '1079504275422613'
+  - created_time: '2016-02-13T19:05:48+0000'
+    from:
+      name: Mahmoud Refaat
+      id: '10159882193515635'
+    message: https://davidcel.is/posts/stop-validating-email-addresses-with-regex/
+    id: '1079504748755899'
+  - created_time: '2016-02-13T19:24:25+0000'
+    from:
+      name: Youhana Sobhy
+      id: '10156214789922376'
+    message: ":) filter_Var($email,filter_validate_email) .5od de we ad3elyh"
+    id: '1079510082088699'
+  - created_time: '2016-02-13T20:55:44+0000'
+    from:
+      name: Mohamed El-Sayed
+      id: '10155182529813309'
+    message: "I am just gonna leave this here... \n\nhttp://www.ex-parrot.com/pdw/Mail-RFC822-Address.html"
+    id: '1079546275418413'
+  - created_time: '2016-02-13T21:05:48+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: الراجل ده جابلك من الاخر
+    id: '1079549055418135'
+  - created_time: '2016-02-13T22:23:21+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: |-
+      This might be alittle bit off topic, but I've been working on a side project to verify the existance of any given email address. This doesn't check if the email syntax is correct or not, it rather checks if the email address exists of not. It's still a work in progress and it's far from perfect.
+      https://github.com/kashwaa/MailVerify
+    id: '1079573212082386'
+  - created_time: '2016-02-14T01:00:19+0000'
+    from:
+      name: Ahmed Gaber Elneel
+      id: '1552352001546794'
+    message: "^([[:alnum:]_.]+@ [[:alnum:]-]+?\\.[[:alpha:]-]{2,33})(\\.{0,1}[[:alnum:]]{0,5})$"
+    id: '1079619188744455'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEEzT1RRNU5qQTVPRGMxTmpjMk5Eb3hORFUxTXpnNE56WTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEEzT1RZAeE9URTRPRGMwTkRRMU5Ub3hORFUxTkRFeE5qRTUZD

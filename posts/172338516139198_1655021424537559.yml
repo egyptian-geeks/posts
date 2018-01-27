@@ -1,0 +1,88 @@
+---
+message: |-
+  For discussion and feel free to share your knowledge and real experience.
+
+  How can i estimate software development task in man hours?
+
+  now working without a good approach estimation,
+  and after search i found out classical methods.
+  - Poker estimate,
+  - Comparison to similar projects,
+  - Bottom up & top down
+from:
+  name: Mohamed Hafez Abdallah
+  id: '10211072612477910'
+type: status
+created_time: '2017-11-07T08:17:41+0000'
+updated_time: '2017-11-07T18:29:32+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1655021424537559/
+shares:
+  count: 1
+id: '172338516139198_1655021424537559'
+reactions:
+  data:
+  - id: '2032504700100329'
+    name: Mohammed Yassin
+    type: LIKE
+  - id: '2062584277359210'
+    name: Ahmed Salem
+    type: LIKE
+  - id: '10155500216578893'
+    name: Tasneem Farag
+    type: LIKE
+  - id: '1255233001244388'
+    name: Hussien A. Ashour
+    type: LIKE
+  - id: '10155005083616400'
+    name: Ibrahim Abdelhady
+    type: LIKE
+  - id: '1137775362991740'
+    name: Mustafa Hussain
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdNakkwTlRVNU56RXpPakUxTVRBek9UWXdPRFU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlOemM0TmpBNU5qa3lPakUxTVRBd05ESTJPVGs2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-11-07T08:40:45+0000'
+    from:
+      name: Ahmed Amr Farid
+      id: '10155859538230336'
+    message: Interesting topic...
+    id: '1655043921201976'
+  - created_time: '2017-11-07T08:57:39+0000'
+    from:
+      name: Mohamed Shaaban
+      id: '10156259295924301'
+    message: Humans are not good about estimation, that's why methodologies like pocker/magic
+      estimation are used to define tasks in terms of complexity, and sometimes relative
+      to well-known base task. It's measured in story points
+    id: '1655051537867881'
+  - created_time: '2017-11-07T09:28:32+0000'
+    from:
+      name: Samy Ahmed
+      id: '10155774048735358'
+    message: Using PRINCE2 project management methodology it would suggest you compare
+      to similar projects / learn from previous experiences
+    id: '1655069364532765'
+  - created_time: '2017-11-07T09:44:31+0000'
+    from:
+      name: عمرو علي
+      id: '10159891311520297'
+    message: Divide your project into small development (coding) tasks, and estimate
+      them based on similar/previous experience. And add around 40% on top of it to
+      cover the design, deployment, and testing. Then add other overhead, like project
+      management, communications, meetings, workshops, and on top of that add your
+      contingency.
+    id: '1655080727864962'
+  - created_time: '2017-11-07T15:11:35+0000'
+    from:
+      name: Mohamed Hafez Abdallah
+      id: '10211072612477910'
+    message: Mona Shokrof
+    id: '1655296881176680'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkxTlRBME16a3lNVEl3TVRrM05qb3hOVEV3TURRME1EUTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkxTlRJNU5qZAzRNVEUzTmpZANE1Eb3hOVEV3TURZAM05EazEZD

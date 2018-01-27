@@ -1,0 +1,367 @@
+---
+message: أنا بقالي داخل على سنتين بستخدم Go و من ضمن الحاجات اللي كنت بحسها ناقصه
+  إن مفيش ORM بنفس قوة اللي موجودين في حاجة زي Ruby أو Node و كدة. جربت أستخدم الموجودين
+  و جربت حتى أكتب libraries فوقهم بس الموضوع بيبقي صعب. و لما حد بيسأل تلاقي الcommunity
+  على طول بيفضل الlibraries اللي في الstandard library أو الحاجات الminimal. دول اللي
+  هما بيخليك تexecute raw SQL و بيديك الfunctions اللي محتاجها علشان تmap الresults
+  لstructs و خلاص. طول عمري كنت فاكر إنك تكتب في الكود SQL بإيدك ديه حاجة مش صح أو
+  code smell أو كدة, بس ليه؟ الإجابة بتاعت إحنا ليه محتاجين ORMs كانت بتبقى علشان
+  تكتب protable code بين الdatabases المختلفة (mysql, postgresql,...) بس هو إنت كام
+  مرة بدأت project و غيرت الdatabase في النص؟  هل أصلا الفروق بينهم كبيرة لدرجة إنك
+  محتاج adapter في النص؟ فا السؤال, هل إحنا فعلا محتاجين ORMs؟
+from:
+  name: Mohamed Bassem
+  id: '10212826240185281'
+type: status
+created_time: '2017-03-01T16:35:59+0000'
+updated_time: '2017-03-02T21:51:44+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1405749259464778/
+shares:
+  count: 1
+id: '172338516139198_1405749259464778'
+reactions:
+  data:
+  - id: '10208488609492331'
+    name: Mohamed Hessien
+    type: LIKE
+  - id: '1824047834273067'
+    name: Mohamed Hashim
+    type: LIKE
+  - id: '10160260136260389'
+    name: Hossam Saraya
+    type: LIKE
+  - id: '1937942979568084'
+    name: Muhamad Eissa
+    type: LIKE
+  - id: '2055094011399825'
+    name: Ahmed Yassin
+    type: LIKE
+  - id: '10210440074417898'
+    name: George Moheb
+    type: LIKE
+  - id: '10156089336182292'
+    name: Hassan Aly Selim
+    type: LIKE
+  - id: '2009083949371201'
+    name: Abdullah Soliman
+    type: LIKE
+  - id: '1978556165731463'
+    name: Amr Almgwary
+    type: LIKE
+  - id: '1282305855203832'
+    name: Mohamed Hesham Alma'zon
+    type: LIKE
+  - id: '1584827604972265'
+    name: Essam Abdelrahman
+    type: LIKE
+  - id: '1921134601294705'
+    name: Hamam Ayman
+    type: LIKE
+  - id: '10211006524505471'
+    name: Abdallah Nassar
+    type: LIKE
+  - id: '10156466588051416'
+    name: Mohamed A Monem
+    type: LIKE
+  - id: '934408920094293'
+    name: Muhammad Ahmed Fares
+    type: LIKE
+  - id: '10209987525676546'
+    name: مؤمن عبد القادر
+    type: LIKE
+  - id: '1561778180542287'
+    name: Ahmad Hassan Posten
+    type: LIKE
+  - id: '1163064820496983'
+    name: Ahmed Ayman Aladeeb
+    type: LIKE
+  - id: '895970407247426'
+    name: Ahmad Magdy
+    type: LIKE
+  - id: '1560359927364731'
+    name: Mahmoud Nawwar
+    type: LIKE
+  - id: '10156089330442292'
+    name: Hany Ahmed
+    type: LIKE
+  - id: '1589304647821970'
+    name: Menem Salama
+    type: LIKE
+  - id: '1848749968530776'
+    name: Abd El-Rahman Rafat
+    type: LIKE
+  - id: '10212947071504226'
+    name: Eslam Hamouda
+    type: LIKE
+  - id: '10215489165042760'
+    name: Ahmed Ashraf Gamal
+    type: LIKE
+  - id: '10156141798419343'
+    name: Jihan Adel
+    type: LIKE
+  - id: '927294070755888'
+    name: Emad Elmogy
+    type: LIKE
+  - id: '1788801214484268'
+    name: Abdelrhman Mohamed
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRneU1ESXhNak01T1RveE5EZAzROVFU1TkRZANU9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBd01EQXdOak15TWpBek56WTRPakUwT0Rnek9EWXlNalU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-03-01T16:40:10+0000'
+    from:
+      name: Mohamed Bassem
+      id: '10212826240185281'
+    message: اه و مش محتاج طبعا أقول إن الstandard libraries بتhandle الSQL injection
+      و كدة.
+    id: '1405752482797789'
+  - created_time: '2017-03-01T16:42:04+0000'
+    from:
+      name: Bassam Abd Elhamid
+      id: '1955441501387657'
+    message: مش بس تغيير الداتا بيز, لاكن استخدام اكتر من داتا بيز -لاكثر من مشروع-
+      بدون الخوض فى التفاصيل, كمان لكتابة كود استاتكلى تيبد ودعم المحرر ذى الاكمال
+      التلقائى, ومنع المجك استرنجس, بالمناسبة, كنت ناوى اكتب او ار ام من فترة بافكار
+      جديده لكن الكل قال لا داعى لاعادة اختراع العجلة :V
+    id: '1405754042797633'
+  - created_time: '2017-03-01T16:46:33+0000'
+    from:
+      name: Ahmed Salah
+      id: '2026040137665107'
+    message: طيب و ايه مشكلة الـORM !
+    id: '1405756342797403'
+  - created_time: '2017-03-01T16:48:04+0000'
+    from:
+      name: Eslam Hamouda
+      id: '10212947071504226'
+    message: "اجابة قصيرة : أه. \nفي أغلب السيناريوهات البسيطة والمتكررة هو موفر جداً
+      للجهد والوقت، بالإضافة لميزة مهمة جداً -لو مدعومة- زي Migrations، دي حاجة انت
+      في غنى عن وجع الدماغ بتاعها"
+    id: '1405757309463973'
+  - created_time: '2017-03-01T16:48:11+0000'
+    from:
+      name: Mohammed Farghal
+      id: '10155396126947689'
+    message: |-
+      Also if you are performing complex queries (analytics queries) and you tried to do them with ORM you will probably end up with terrible performance.
+
+      But for the case of writing straightforward projects (Standard CRUD  for example) Writing SQL sucks bsra7a
+    id: '1405757369463967'
+  - created_time: '2017-03-01T16:49:49+0000'
+    from:
+      name: Ibrahim Zaki
+      id: '10157017423792738'
+    message: "انت محتاج orm ضرورى لو انت عايز تعيش opject oriented و فلسفته فى مشروعك
+      فمحتاج تغطى قصة الجداول و الصفوف و الأعمدة بطبقة orm علشان توحد شغلك \nلكن لو
+      انت شغال بلغة ميهمهاش ال oop اوى مش هتبقى محتاج orm"
+    id: '1405758242797213'
+  - created_time: '2017-03-01T16:55:59+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: غالبا تكون محتاجها، لأنك ممكن تعمل تطبيق على قواعد بيانات معينة، وتجد
+      إن العميل نظامه على نوع تاني خالص، ففي الحالة دي بتلاقي الدنيا ماشية بسلاسة
+      خالص.
+    id: '1405762966130074'
+  - created_time: '2017-03-01T16:58:01+0000'
+    from:
+      name: Mahmoud Hossam
+      id: '1360912124012585'
+    message: Go is not an object oriented language, so an ORM would be defeating the
+      purpose of the language, you can look for something that maps SQL records to
+      structs instead.
+    id: '1405764376129933'
+  - created_time: '2017-03-01T17:01:43+0000'
+    from:
+      name: Ahmed Abdul Aziz
+      id: '2054850488105080'
+    message: Aya Elawdan بيتكلم عن GO
+    id: '1405766299463074'
+  - created_time: '2017-03-01T17:27:17+0000'
+    from:
+      name: Ahmed Ashraf
+      id: '930615110434715'
+    message: جايز متكونش مهمه بس انا بفضل دايما ان شغلي كله في الداتابيز يبقي بيتعامل
+      ب ORM او Active Record علشان ع الاقل لو غيرت نوع الداتابيز او مثلا اكتشفت اني
+      مش مهندل ال SQL injection صح يبقي اعدل في ميثود بدل ما الف ع البروجكت كله
+    id: '1405793529460351'
+  - created_time: '2017-03-01T17:28:38+0000'
+    from:
+      name: Met Wally
+      id: '520998054938412'
+    message: |-
+      الـ ORM فى العصر اللى احنا فيه ده هرى على الفاضى .. خف نفسك وخف الكود بتاعك .. انت بتقول شغال GO .. حلو اوى .. يعنى اكيد مش بتعمل ERP ولا Banking Systems
+      هفترض انك بتعمل microservices .. انسى بقى الـ ORM وعيش هتلاقى حياتك افضل واسهل.
+      تغير الداتا بيز ده غالباً مابيحصلش .. ولو حصل بيبقى نادراً ومش بيبقى حاجة urgent.
+    id: '1405794349460269'
+  - created_time: '2017-03-01T17:47:16+0000'
+    from:
+      name: Walid Ashraf
+      id: '10159896809840176'
+    message: "لو عايز تفهم ايه اهمية الorm وليه اصلا احنا محتاجينه وهيفرق\rفي ايه
+      في عمليات البرمجة بص علي DDD بتاع Eric Evans و ال patterns of enterprise architecture
+      بتاع Martin fowler ... غير كدة شكليات \U0001F609"
+    id: '1405806706125700'
+  - created_time: '2017-03-01T17:49:19+0000'
+    from:
+      name: سامح دعبس
+      id: '2022490591345439'
+    message: |-
+      عشان تجاوب على السؤال ده محتاج تعرف الأول إيه هي المشاكل اللي بيحلها الORM و إيه المشاكل اللي جابها معاه و هو جاي:
+      أولا: إيه لازمة الORM؟
+      * مشكلة رقم 1: impedence mismatch و دي لو أنت اشتغلت بالتقنيات القديمة (عصر ما قبل الorm) هاتلاقي إنك كنت دايما بتعمل class و تعبي فيها النتائج بتاعت الكويريز بتاعتك، و ده أمر مرهق جدا، الorm عملهولك ببساطة. ميزة إضافية هنا إنك ممكن تربط الclass بتاعتك بكذا جدول، أو جدول واحد يتفك ف كذا class
+      * مشكلة رقم 2: persistence ignorance و دي تعني إنك فعليا بتتعامل مع الobjects كobjects بعض النظر هي جاية من داتابيز و لا من ملف، و بغض النظر نوع الداتابيز دي إيه أو الملف ده إيه. دي مفيدة في بعض الحالات الغير شائعة
+      ...يتبع - إن شاء الله-
+    id: '1405807822792255'
+  - created_time: '2017-03-01T17:58:11+0000'
+    from:
+      name: سامح دعبس
+      id: '2022490591345439'
+    message: |-
+      * مشكلة رقم 3: كتابة و صيانة أكواد الsql عملية مش لطيفة خالص، خاصة إن البزنس بتاعك بيبقى موزع على التطبيق و قاعدة البيانات، فالorm بيساعدك في تنفيذ الseparation of concerns و بيديك لغة زي ال sql بس غالبا بتكون statically typed و هذا يعني إنك ممكن تكتشف مشاكل الsyntax من غير من تشغل البرنامج، و فيه pattern مستخدم هنا اسمه object query pattern، و من أجمد التطبيقات للباترن ده: LINQ
+      * مشكلة رقم 4: الcaching: لما بتجيب حاجة من قاعدة البيانات، ليه تروح تجيبها تاني لما ممكن تحتفظ بيها طول الفترة اللي ممكن تحتاجها فيها؟ و عشان يعملوا الcaching ده فيه pattern بيستخدموه اسمه identity map. فيه مستويين من الcaching: المستوى الأول في الsession الواحدة، و دي موجودة في أغلب الorms. و المستوى التاني فيما بين الsessions المختلفة، و دي موجودة في بعض الorms. المستوى الأول بيسموه 1st level cache و المستوى التاني بيسموه 2nd level cache
+      ... يتبع - إن شاء الله -
+    id: '1405813079458396'
+  - created_time: '2017-03-01T18:07:14+0000'
+    from:
+      name: سامح دعبس
+      id: '2022490591345439'
+    message: |-
+      * مشكلة رقم 5: أحيانا بيكون بيانات مرتبطة ببعضيها بس موزعة على كذا جدول، في الأول بتجيب الmaster record و بعدين بتكتب كويري منفصل عشان تجيب البيانات المرتبطة بيه من الجداول التانية. الموضوع ده بيبقى رخم لما بيبقى كتير. الorms جواها lazy loading implementation عشان يسهل عليك الحوار ده: البيانات المرتبطة هي عبارة عن reference to object و أول ما بتستعمله الorm بتروح تجيبهولك من غير ما أنت تبذل أي مجهود.
+      ده لذيذ جدا لغاية لما تخبط في مشكلى اسمها n+1: و دي تعني إنك مثلا عندك 100 كلهم ليهم بيانات مرتبطة بالmaster records. فأنت لما تعوز تجيب البيانات المرتبطة دي بتعمل for loop كل مرة فيها الorm هايروح قاعدة البيانات من غير ما أنت تبقى واخد بالك، و كده أنت فشخت الperformance لما رحت 100 مرة + المرة الأولى اللي جبت فيها قائمة البيانات الأساسية.
+      و دي برضو الorm عامل لك ليها حل إنك تقدر تجيب البيانات الأساسية بالبيانات المرتبطة بيهم مرة واحدة، و ده بيسمى: eager loading
+      يتبع - إن شاء الله -
+    id: '1405818066124564'
+  - created_time: '2017-03-01T18:20:29+0000'
+    from:
+      name: سامح دعبس
+      id: '2022490591345439'
+    message: |-
+      ثانيا: إيه هي المشاكل اللي بتحصل لما تستخدم الorms؟
+      * مشكلة رقم 1: سوء الاستخدام!!
+      - المبرمجين بيتستهلوا فبيعكوا في كتابة أكواد الاستعلام فبيطلع sql query زبالة، فبيأثر على الperformance!
+      و بسبب سوء الاستخدام ممكن تخبط في مشكلة n+1 اللي ذكرتها في التعليق السابق.
+      و بسبب سوء الاستخدام ممكن ما تنتبهش إن الorm بيعمل caching للobjects و تحتفظ بالsession لفترة طويلة أنت مش محتاجها (صدق أو لا تصدق: شفت برنامج بيحتاج 170 GB RAM عشان المبرمج كان بيحط الdbcontext في ال session بتاعت كل مستخدم!!!)
+      و ممكن نقول هنا بصفة عامة الكويريز اللي بتطلع من الOrms ما بتبقاش لطيفة!
+      * مشكلة رقم 2: التأثير السلبي على performance.عشان كده لازم تبقى فاهم الorm كويس عشان ما تعكش منك.
+      * مشكلة رقم 3: استخدامه في حالات هناك حلولا أفضل منها: مثال, إنك تستخدم الorm في التقارير، هنا مثلا أنت مش محتاج إن الorm يعمل caching للobjects و عاوزه يبقى سريع جدا، و الorm هايبطأ لك الدنيا
+      ---
+      نكتفي بهذا القدر و لو افتكرت حاجة تانية هاكتبها - إن شاء الله - :)
+    id: '1405826526123718'
+  - created_time: '2017-03-01T18:57:16+0000'
+    from:
+      name: Hany Ahmed
+      id: '10156089330442292'
+    message: |-
+      الاجابة باختصار
+      ال ORM بيحل مشاكل ويعمل بدالها مشاكل تانية
+    id: '1405859259453778'
+  - created_time: '2017-03-01T19:00:37+0000'
+    from:
+      name: Mahmoud Nawwar
+      id: '1560359927364731'
+    message: "ال cofounder بتاع stackoverflow كان وصف ال ORM ب The Vietnam of Computer
+      Science \nانا على العكس منه تماما مش متخيل الناس كانت عايشة ازاي من غيره \U0001F604\nال
+      caching وال typed queries وال select constructor"
+    id: '1405861192786918'
+  - created_time: '2017-03-01T20:08:30+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: |-
+      انا شايف ان ال ORM زيها زى اى Abstraction layer بتعملها علشان تhide ال implementation details وتعمل انترفيس ابسط او متسقة مع الدومين اللى انت فيه، زيها زى اي API Wrapper مانت ممكن ماتسخدمش Facebook SDK وتبعت انت الريكويستس بنفسك بأى networking library، لكن احنا كل اللى قاعدين بنعمله طول الوقت هو مستويات و مستويات من الabstraction ، لحد المستوى اللى العميل بيستخدمه فى الأخر مننا، لكننا مستهلكين لمستويات تانية من الabstraction زى الapi wrappers, memory managers, process schedulers كل الكلام ده ابستراكشن، انت عليك تختار موقعك بينهم وايه اللى محتاج انه يكون abstracted away منك و ايه اللى محتاج تبص جواه.
+      ده مايخليش الORM حلوة او وحشة لكن يخليها convenient لبعض الناس عن ناس تانية
+    id: '1405957829443921'
+  - created_time: '2017-03-01T20:26:23+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "انا اقولك.. SQL يعني Structured Query Language \nالكلام ده عمليا مش
+      واقعي الا جوة ال DBMS نفسه .. انما في لغات البرمجة انت بتتعامل مع SQL على انها
+      string وكل شغلك عمال ت build strings يعني مش structured  ولا حاجة.. حاجة قمة
+      الملل \nلو عايز تعمل where conditions بتاخد اكتر من احتمال.. شغلانة.. ال relations..
+      حوار.. مفيش عندك كيان بيتبني زي ال model وال active record ومعاه كل اللوجيك
+      بتاعه.. انت عمال كل مرة تبني الجملة من الاول كأن الابليكيشن بتاعك مش فاهم انت
+      بتعمل ايه اصلا.. طبعا لها عيوب ومن اهمها انك بتنزل لل lowest features ال common
+      في كل ال  supported dbms adapters وفيها كمان عيب ان اكيد ال resulting sql مش
+      دايما optimum.. بس هي tradeoff في مقابل مميزات تانية كتير.. والمميزات تستاهل
+      ال tradeoff ده\n\nبالمناسبة في اتجاه فعلا بيتبنى نفس رايك ده وانا قريته قبل
+      كدة بس مش فاكر فين.. بس لا.. التجربة العملية بتقول ان  ال orm أفضل وخصوصا في
+      ال maintainability"
+    id: '1405968066109564'
+  - created_time: '2017-03-01T20:47:28+0000'
+    from:
+      name: Mohammad Fouad
+      id: '10155755444625845'
+    message: |-
+      Why use an ORM, because you have to use Models, why:
+      1- Writing Business logic in SQL is very hard, writing login on objects and structs is readable, maintainable, and TESTABLE.
+      You can't unit test SQL AFAIK
+      2- Once you have a decent frontend, it needs to see object models or view models in order to handle business logic as well.
+      3- You want need to change the DB, but you will change the caching layers (or add one).
+      4- SQL is not compiled and can't be tested easily. if you change a model or change the DB, the orm will warn you. if you write raw SQL, you will only notice in the runtime and only when you execute the code.
+
+      Some ORMs support writing raw SQL and only does the mapping for you. I believe this is the best of both words sometime.
+
+      But if you fix the problems above (as your project grows) you will discover you just implemented a new ORM.
+    id: '1405982916108079'
+  - created_time: '2017-03-01T22:48:59+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: |-
+      ١. اسهل .. لا لو انت محتاج حاجه اكتر من simple read .. Like AVG, concat ... Aw pivots.
+      2. Testables .. So is the queries !
+      3. It give you models.. It doesnot. You build model specific for an orm.. Remove orm and retain same object if you must it workz exactly same.
+      ال و.ر.م. زي اي تول مفيد في مواقف معينه بكن مش غي المطلق.. و عموما انا ضض اي تول تغير في البيزنس مودل بتاعي عشانها..
+      ال تول توستخدم و هيه ساكته :D مش تمشيني علي مزاجها !!.
+      I actually never used orm in a production app ! , the performance penalty you get from using one has always over weight the benefits for me.. Orm is not worth it man.. +1 for you
+    id: '1406058699433834'
+  - created_time: '2017-03-02T08:03:50+0000'
+    from:
+      name: Mohammed Al Ashaal
+      id: '965203406986813'
+    message: "انا Gopher بردو,\nبص عموما اغلب اللى بيستخدم Go ومتقنها او بيتقنها فى
+      الغالب بيكون خارج نطاق اى حاجه  تقليديه تانيه, يعنى بيكون بيبعد عن اى Framework
+      أو اى حاجه ليها علاقه بيها الا فى اضيق الحدود و فى ظروف معينه وبس, \n--\nتانى
+      نقطه, اى pattern أو technique مش شرط بتنفع فى كل الأحوال, يعنى ال ORM مش دايما
+      صح, ﻷنه فى الغالب اللى بيبدأ بــ Database System معين بيكون هيكمل بيه إلا لو
+      خلاص جاب اخره, وهنا بيكون من الطبيعى هيغير حاجات فى الكود, فبيكون من الاول عامل
+      حسابه على كدا فبيكون فاصل ال Models لوحدها بحيث متأثرش حتى لو غير مليون مره,\n--\nانا
+      واحد عمره ف حياته ما إستخدم اى ORM :D"
+    id: '1406365736069797'
+  - created_time: '2017-03-02T19:20:14+0000'
+    from:
+      name: Amr Mohamed
+      id: '1437867079657591'
+    message: "ال ORMs ف رأيي فايدتها فى انها \nاول حاجه بتبعدك كمبرمج عن كتابه سطور
+      كتير من ال sql علشان تجيب collection معينه من الداتا فى حين انك بتكتبها ف سطر
+      واحد باي orm محترم وبيكون الكود readable لاقصي حد.\nتاني حاجه تخيل معايا كمية
+      ال loops وال processing اللي هتعمله كل مره علي ال raw داتا الجايه من الكويري
+      علشان تحولها ل objects ممكن تأكسس خصائصها وتعدلها وتعمل عليها اي عمليات وتستخدمها
+      جوا كودك.\nتالت حاجه ال security ودي حاجه مهمه جدا جدا لا غني عنها بتوفرهالك
+      ال orms من البدايه وبتوفر عليك كود مكرر كتير هتكتبه علشان تحمي الداتا بتاعتك
+      من ال attacks المختلفه.\nرابع حاجه تعريف ال Schema بتاعت الداتابيز بتاعتك تمثيل
+      العلاقات بين الجداول فى شكل Classes وال migrations اللي بتبني الجداول كل ده
+      بيسهل عليك جدا وبيخلي الكود منظم ونضيف لاقصي حد وكمان يمكن اعادة استخدامه فى
+      حتت تانيه.\nانا جربت ال ORMs فى لغات php, python, js وفعلا من اكتر الحاجات المفيده
+      واللي بتسهل عليا كدفلوبر من امثله ال ORMs اللي تعرضت ليها \nEloquent in Laravel
+      php framework.\nMongoose in node.js\nsequelizejs in node.js\nbuilt in ORM in
+      python Odoo ERP."
+    id: '1406743222698715'
+  - created_time: '2017-03-02T21:51:41+0000'
+    from:
+      name: George Moheb
+      id: '10210440074417898'
+    message: |-
+      yes ORM, in projects with multiple datasources, w dol mwgodin ktir u need an ORM tonabstract the data layer
+
+      polymprphism is easier when using ORMs w kaman el object oriented style is more intuitive maling it easier for all the developers working on a project with different skill levels
+    id: '1406918309347873'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF3TlRjMU1qUTRNamM1TnpjNE9Ub3hORGc0TXpnMk5ERXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF3TmpreE9ETXdPVE0wTnpnM016b3hORGc0TkRreE5UQXkZD

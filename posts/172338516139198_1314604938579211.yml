@@ -1,0 +1,117 @@
+---
+message: |-
+  مواقع الوزارات في مصر يمكن إدخال الأرقام وبتظهر الأرقام عليها بالأعداد الهندية (الأعداد بتاعتنا) وموش عارف أوصل لحاجة زي كدة مع البي إتش بي؟! فهل هذه خاصية في ال IIS اللي بيبقى شغال عليه الدوت نت ولا ايه بالضبط؟
+  مثال: موقع وزارة التجارة والصناعة:
+  mti.gov.eg
+from:
+  name: Said Bakr
+  id: '10155965038378745'
+type: status
+created_time: '2016-12-05T20:44:37+0000'
+updated_time: '2016-12-07T19:00:10+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1314604938579211/
+id: '172338516139198_1314604938579211'
+comments:
+  data:
+  - created_time: '2016-12-05T20:47:14+0000'
+    from:
+      name: Samuel A. Wilson
+      id: '10215340807979122'
+    message: "I think this is related to font-end and not PHP. Maybe it is done using
+      JS! \nI maybe wrong on this, this is just my speculation."
+    id: '1314611465245225'
+  - created_time: '2016-12-05T20:53:09+0000'
+    from:
+      name: Sarab Alzaman
+      id: '10154599440254364'
+    message: |-
+      Check out example 3
+
+      http://php.net/manual/en/function.array-map.php
+    id: '1314625661910472'
+  - created_time: '2016-12-05T20:53:26+0000'
+    from:
+      name: Hussein Ghaly
+      id: '10160069424510193'
+    message: |-
+      أعتقد إنها في الـ
+      css
+    id: '1314626178577087'
+  - created_time: '2016-12-05T20:59:45+0000'
+    from:
+      name: Sarab Alzaman
+      id: '10154599440254364'
+    message: |-
+      Am not sure whether this what u r looking for or not:
+
+
+      http://stackoverflow.com/a/17946727
+    id: '1314641975242174'
+  - created_time: '2016-12-05T21:41:17+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: |-
+      It's the font ... GE SS Two display the letters in Hindi. If you change the font from the inspector you will get the Arabic numbers (the one we call English)
+      http://www.fonts2u.com/ge-ss-two-bold.font
+    id: '1314694761903562'
+  - created_time: '2016-12-05T21:46:49+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: |-
+      On a side note, GE SS Two costs $6800 USD (attaching the price quotation for the font that we got when we tried to buy its license from the author) and I see people use it every now and then freely! Even worse this website belongs to the Ministry of Trade and Industry I can tell 100% that they didn't pay for it.
+      Designers use font freely without thinking of the consequences, your buisness could get hurt if you don't pay for the license of the font you use.
+    id: '1314700791902959'
+  - created_time: '2016-12-05T21:46:50+0000'
+    from:
+      name: Ibrahim Mohammed
+      id: '1886120441698692'
+    message: الارقام الهنديه مش هى الأرقام بتاعتنا
+    id: '1314700815236290'
+  - created_time: '2016-12-06T00:20:17+0000'
+    from:
+      name: Mohamed Galal
+      id: '10215046906109886'
+    message: لو عايزه يظهر بالارقام العربي مهما كان الفونت .. دي الطريقة php
+    id: '1314918048547900'
+  - created_time: '2016-12-06T00:20:18+0000'
+    from:
+      name: Mohamed Galal
+      id: '10215046906109886'
+    message: str_replace(range(0, 9), array('٠', ..., '٩'), $number);
+    id: '1314918068547898'
+  - created_time: '2016-12-06T16:33:41+0000'
+    from:
+      name: Hazem Noor
+      id: '10156016759599354'
+    message: "I use this function\n\n<?php\nfunction hindi_digits( $arabic_digits
+      ) { \n    $indic_digits = array(\n        \"\\xD9\\xA0\",\n        \"\\xD9\\xA1\",\n
+      \       \"\\xD9\\xA2\",\n        \"\\xD9\\xA3\",\n        \"\\xD9\\xA4\",\n
+      \       \"\\xD9\\xA5\",\n        \"\\xD9\\xA6\",\n        \"\\xD9\\xA7\",\n
+      \       \"\\xD9\\xA8\",\n        \"\\xD9\\xA9\",\n    );\n\n    return str_replace(array_keys($indic_digits),
+      $indic_digits, $arabic_digits);\n};\n?>"
+    id: '1315616745144697'
+  - created_time: '2016-12-06T17:10:02+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      I will write in English to enforce the right layout.
+
+      The characters representing non-localized numbers fall in the range \u0030 - \u0039. How they are displayed will be different depending on the client machine locale. If you want to enforce the indic representation of numbers, you can use their indexes in unicode \u0660 - \u0669. Just write a function in PHP to search for these characters & replace them.
+
+      You must make sure that the font that you are using supports these characters in the first place, or it will appear as empty boxes.
+    id: '1315638468475858'
+  - created_time: '2016-12-07T19:00:09+0000'
+    from:
+      name: Ahmed Eid
+      id: '762135870664322'
+    message: |-
+      يعني انت تقصد الكتابه و العرض يكون بالارقام الهنديه ؟؟
+      لو ده المقصود اظن الموضوع بيتلخص فانك تستخدم font بيدعم شكل الارقام اللي انت عاوزه
+    id: '1317532488286456'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE14TkRZAeE1UUTJOVEkwTlRJeU5Ub3hORGd3T1Rjd09ETTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE14TnpVek1qUTRPREk0TmpRMU5qb3hORGd4TVRNM01qQTUZD

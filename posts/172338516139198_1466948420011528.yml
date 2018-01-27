@@ -1,0 +1,98 @@
+---
+message: "Help me!\U0001F61E"
+link: http://stackoverflow.com/questions/43659391/compile-compass-framework-with-sass-2090-related-to-github-issues
+from:
+  name: Mahmoud Mohamed Zakria
+  id: '10215522601159616'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQBicEnZEnV912SL&w=130&h=130&url=https%3A%2F%2Fcdn.sstatic.net%2FSites%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded&cfs=1&_nc_hash=AQDvsiX7ONHDf146
+created_time: '2017-04-27T13:39:23+0000'
+updated_time: '2017-04-27T13:48:35+0000'
+name: 'Compile compass framework with sass #2090 related to github issues'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1466948420011528/
+id: '172338516139198_1466948420011528'
+comments:
+  data:
+  - created_time: '2017-04-27T13:40:43+0000'
+    from:
+      name: Tareq El-Masri
+      id: '2478303849061627'
+    message: Which compiler are you using?
+    id: '1466949430011427'
+  - created_time: '2017-04-27T13:41:02+0000'
+    from:
+      name: Mahmoud Mohamed Zakria
+      id: '10215522601159616'
+    message: Grunt-sass
+    id: '1466949650011405'
+  - created_time: '2017-04-27T13:41:23+0000'
+    from:
+      name: Mahmoud Mohamed Zakria
+      id: '10215522601159616'
+    message: Actually it's grunt-contrib-sass
+    id: '1466950150011355'
+  - created_time: '2017-04-27T13:43:02+0000'
+    from:
+      name: Tareq El-Masri
+      id: '2478303849061627'
+    message: https://github.com/gruntjs/grunt-contrib-sass#compass
+    id: '1466951793344524'
+  - created_time: '2017-04-27T13:46:09+0000'
+    from:
+      name: Tareq El-Masri
+      id: '2478303849061627'
+    message: |-
+      I figured it out, Compass is no longer supported by sass compilers, I think you will have to go with old version of the compiler, one which supports compass
+      https://github.com/Compass/compass/issues/2090#issuecomment-227877462
+    id: '1466956613344042'
+  - created_time: '2017-04-27T13:46:42+0000'
+    from:
+      name: Mahmoud Mohamed Zakria
+      id: '10215522601159616'
+    message: |-
+      Yaaaaah tabn leya an bgd!
+      It works
+    id: '1466957546677282'
+  - created_time: '2017-04-27T13:47:22+0000'
+    from:
+      name: Mahmoud Mohamed Zakria
+      id: '10215522601159616'
+    message: Yeah I know but one of our projects still uses it! :(
+    id: '1466959256677111'
+  - created_time: '2017-04-27T13:47:36+0000'
+    from:
+      name: Tareq El-Masri
+      id: '2478303849061627'
+    message: Did it work?
+    id: '1466959383343765'
+  - created_time: '2017-04-27T13:48:09+0000'
+    from:
+      name: Mahmoud Mohamed Zakria
+      id: '10215522601159616'
+    message: Yup Thank you so much :D
+    id: '1466961033343600'
+  - created_time: '2017-04-27T13:48:32+0000'
+    from:
+      name: Tareq El-Masri
+      id: '2478303849061627'
+    message: Awesome you're welcome!
+    id: '1466961926676844'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEyTmprME9UUXpNREF4TVRReU56b3hORGt6TXpBd05EUXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEyTmprMk1Ua3lOalkzTmpnME5Eb3hORGt6TXpBd09URXkZD
+attachments:
+  data:
+  - description: 'I know that Compass is not anymore supported or maintained, but
+      I''m working on one of repos whose still use it so I got this issue in _support.scss
+      Error: (full-support: true) isn''t a valid CSS va...'
+    media:
+      image:
+        height: 316
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAMFLWvXjUlRuS7&w=720&h=720&url=https%3A%2F%2Fcdn.sstatic.net%2FSites%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded&cfs=1&_nc_hash=AQBDUhzXdwnk-uG7
+        width: 316
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F43659391%2Fcompile-compass-framework-with-sass-2090-related-to-github-issues&h=ATOUF92Y5MRlRnEXzj_UNAXev9Hypp16DV7dVvlh2xCX9HSFRSaY1mrQCqXpRd3aFbRZQMe3rNXfQmKEC-_H0lFomItsz9httlgs&s=1&enc=AZO8q7s9bYTpc9P6GOlRVjN_K-U0Jcj7F7a821mNWkwc4zM9IUEqxcA8CE63eyWKAEHoZ0oQh43_M8KluaYi2Zaz
+    title: 'Compile compass framework with sass #2090 related to github issues'
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F43659391%2Fcompile-compass-framework-with-sass-2090-related-to-github-issues&h=ATOUF92Y5MRlRnEXzj_UNAXev9Hypp16DV7dVvlh2xCX9HSFRSaY1mrQCqXpRd3aFbRZQMe3rNXfQmKEC-_H0lFomItsz9httlgs&s=1&enc=AZO8q7s9bYTpc9P6GOlRVjN_K-U0Jcj7F7a821mNWkwc4zM9IUEqxcA8CE63eyWKAEHoZ0oQh43_M8KluaYi2Zaz

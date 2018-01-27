@@ -1,0 +1,54 @@
+---
+message: "State management is one of annoying things in browsers apps (SPA) after
+  Facebook announced Flux, statement management got a great push to have better solutions
+  for \n\nI really liked this course, it is a great start for the topic in general
+  and for Redux, one of the implementation for the Flux idea/design"
+link: https://egghead.io/series/getting-started-with-redux
+from:
+  name: Ahmed Mozaly
+  id: '10155321930231313'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQBZR3G5OvqfnrwD&w=130&h=130&url=https%3A%2F%2Fd2eip9sf3oo6c2.cloudfront.net%2Fseries%2Fcovers%2F000%2F000%2F025%2Ffull%2FEGH_Redux-New-cover.png%3F1461772196&cfs=1&_nc_hash=AQCqdNAArltW_Mlz
+created_time: '2016-05-08T16:35:03+0000'
+updated_time: '2016-05-08T16:48:27+0000'
+name: Getting Started with Redux - Course by @dan_abramov
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1139758822730491/
+id: '172338516139198_1139758822730491'
+comments:
+  data:
+  - created_time: '2016-05-08T16:36:44+0000'
+    from:
+      name: Abdalla Mohamed
+      id: '10156010719963774'
+    message: Trying to wrap my head around the Flux architecture. Any recommended
+      readings?
+    id: '1139759442730429'
+  - created_time: '2016-05-08T16:48:27+0000'
+    from:
+      name: Ahmed Mozaly
+      id: '10155321930231313'
+    message: |-
+      To summarize my understanding, Flux created to solve the problem of multiple components in the same page sharing the same state
+
+      that's when the story begins :)
+    id: '1139768582729515'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV6T1RjMU9UUTBNamN6TURReU9Ub3hORFl5TnpJMU5EQTEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV6T1RjMk9EVTRNamN5T1RVeE5Ub3hORFl5TnpJMk1UQTMZD
+attachments:
+  data:
+  - description: "> I had no idea why I'd want to use Redux when I started this course.
+      This course really made it easy to understand the how & why of redux. Thanks
+      Dan! Managing state in an application is critical, and is often done haphazardly.
+      Redux provides a state container for JavaScript applications that will…"
+    media:
+      image:
+        height: 400
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQDGaaEeVX9hRKau&w=720&h=720&url=https%3A%2F%2Fd2eip9sf3oo6c2.cloudfront.net%2Fseries%2Fcovers%2F000%2F000%2F025%2Ffull%2FEGH_Redux-New-cover.png%3F1461772196&cfs=1&_nc_hash=AQBUy0ujiLv9ggns
+        width: 400
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fegghead.io%2Fseries%2Fgetting-started-with-redux&h=ATOEHNJKHgBueJyRJjcuFvcpRsj4VNriKIXbZQaKpZBf8jprFuRmaWLPepD18KunwCp9BFwkFsiCZ7bBTCuUeKoUJ-lC9LURli88&s=1&enc=AZPBJE0E7ZQW86farfsoVbhT2ALTu0wzCrev-QSeQ0QDCGdDrAXxoU2WXwvYlVQbJ9gf-jWaduIPYGQpMenmlruq
+    title: Getting Started with Redux - Course by @dan_abramov
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fegghead.io%2Fseries%2Fgetting-started-with-redux&h=ATOEHNJKHgBueJyRJjcuFvcpRsj4VNriKIXbZQaKpZBf8jprFuRmaWLPepD18KunwCp9BFwkFsiCZ7bBTCuUeKoUJ-lC9LURli88&s=1&enc=AZPBJE0E7ZQW86farfsoVbhT2ALTu0wzCrev-QSeQ0QDCGdDrAXxoU2WXwvYlVQbJ9gf-jWaduIPYGQpMenmlruq

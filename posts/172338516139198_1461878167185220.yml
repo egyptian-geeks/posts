@@ -1,0 +1,95 @@
+---
+message: "الاقتراحات والحلول اخر البوست :)\n\nكان فيه حد من فتره كان بيتكلم عن ان
+  احنا نلاقي حل لمشكلة ال VOIP وكل الي وراها , احنا بنتناقش هنا في البوست - الي انا
+  مش فاكره للاسف :) - كنا بنقول ان احنا ممكن نبدا نعمل مع بعض Network من VPNs ببساطه
+  هيكون فيه سيرفر بيوزع الاعداادات و load balancer وكل حد يقدر يضيف VPN جديده للنيتورك
+  تطوعيا , هاجه مقتبسه من Onion protocol بس VPNs , ايه رايكوا وهل فيه ايمشاكل تقنيه
+  او قانونيه طبعا ممكن تواجهنا :)\n\n------------------- توضيح اكتير \n\nهو الي في
+  بي ان كله مركزي , بس وجهة نظرك في مركزية الحل مظبوطه عشان كده كنت بسال الي عنده
+  فكره يقولها.\nازاي نقدر نعمل شبكة من ال VPNs كل حد عايز يتبرع ويضيف فيها يضيف وفي
+  نفس الوقت اي حد يقدر يكونكت عليها ومتبقاش فيها نقطه مركزيه يتعملها بلوك \"زي الاونيون
+  بروتكول\".\nاعتقد ممكن نشتغل زي التورنت\n\nحل عشان الموضوع ميبقاش مركزي وميتعملوش
+  بلوك @Ahmad Hisham\nإنتاج ممكن تعمل Git repo الناس تسجل فيه السيرفرات بتاعتها، وتعمل
+  script بيشتغل علي أي جهاز يعمل health checksويحط نتائجه في ال git repo تاني\n\nممكن
+  نعتمد على ال Free Tier في امازون بس هنحتاج حاجه زي Load balancer"
+from:
+  name: Amir Abou Eesa
+  id: '1700979476627162'
+type: status
+created_time: '2017-04-22T10:03:37+0000'
+updated_time: '2017-04-22T17:04:40+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1461878167185220/
+id: '172338516139198_1461878167185220'
+reactions:
+  data:
+  - id: '10215070655377585'
+    name: Mahmoud Kandeel
+    type: LIKE
+  - id: '10154903513366315'
+    name: Ahmed Ali Salim
+    type: LIKE
+  - id: '10210807665171166'
+    name: Majed Rayan
+    type: LIKE
+  - id: '523313878040481'
+    name: Hazem Saeed
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRFMk5qZA3hNVFkzTmpveE5Ea3lPRFl4TmpnMk9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBd01ERXdPRFUyTVRrMU56ZAzRPakUwT1RJNE5UZAzFNVEE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-04-22T11:19:16+0000'
+    from:
+      name: Mohamed Samir
+      id: '1579793612127821'
+    message: قانونيه هيقولك تمرير مكالمات تقريبا
+    id: '1461923640514006'
+  - created_time: '2017-04-22T11:30:00+0000'
+    from:
+      name: Ahmad Hisham
+      id: '10159889607765058'
+    message: الحاجة إللي بتخللي ال VPN شغال هو إنك صعب تعمله recognition ومن من نقطة
+      مركزية ممكن تعملها بلوك. إللي بتقترحه بيتعارض مع فكرة اللامركزية، فغالبا هايعرفوا
+      يمنعوه.
+    id: '1461932233846480'
+  - created_time: '2017-04-22T12:02:40+0000'
+    from:
+      name: Marwan Nabil Baghdad
+      id: '1732181426802228'
+    message: |-
+      What I know is Skype already works that way, a super-node with a healthy bandwidth become the master for other nodes/hosts, so I have been confused about how they blocked it, plus that Skype uses random ports to overcome the firewall.
+      Anyway, I think you should look into resilient overlay network (Ron for short) short explanation that a group hosts connects via a vlan and monitor the paths between them, and they choose the path with least overhead, e.g three hosts A B C, A wants to send to C but direct connection is slow so it sends it to B which forwards to C using its fast tunnel
+    id: '1461952897177747'
+  - created_time: '2017-04-22T12:51:36+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: الحل من وجهة نظري الند للند P2P اللي عاوزين يكلموا بعض يدوا لبعض الآيبهات
+      والبورتات زي أرقام التليفون من خلال تطبيق. هي حتى اسمها Voice Over IP موش Voice
+      Over HTTP ولا اي حاجة تانية.
+    id: '1461989013840802'
+  - created_time: '2017-04-22T13:45:34+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: هوه ايه يضمن ان الداتا بتاعتك مش حتعدي علي لنجن يبارس رقم الكريدت كاردس
+      مثلا.. او بوست بusename & password ، هوه الفبن قبل ولا بعد الhttps?
+    id: '1462042120502158'
+  - created_time: '2017-04-22T14:44:21+0000'
+    from:
+      name: Islam Isamm
+      id: '10156503240482971'
+    message: 23tk 2n di  nfs fkrtk ?  http://www.vpngate.net/en/
+    id: '1462091853830518'
+  - created_time: '2017-04-22T14:44:43+0000'
+    from:
+      name: Islam Isamm
+      id: '10156503240482971'
+    message: https://gist.github.com/Lazza/bbc15561b65c16db8ca8
+    id: '1462092160497154'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEyTVRreU16WTBNRFV4TkRBd05qb3hORGt5T0RVNU9UVTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEyTWpBNU1qRTJNRFE1TnpFMU5Eb3hORGt5T0RjeU1qZAzMZD

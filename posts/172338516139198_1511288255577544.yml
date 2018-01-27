@@ -1,0 +1,66 @@
+---
+message: "السلام عليكم\nشباب أنا بحاول انزل ابليكشن على ويندوز10 عند عميل وبيطلب\n
+  منى  net framwork 3.5 SP1  ك prerequisite\n\nدورت شوية وتقريبا الطريقة الوحيدة اللى
+  لقيتها هى الطريقة اللى موجودة فى الفيديو دا \nhttp://bit.ly/2sOGVV6\nوهى انى استخدم
+  الكومند ده مع تغيير ال path بتاع ال operating system source\nCMD Code: \nDism /online
+  /enable-feature:NetFx3 /All /Source:X:\\sources\\sxs /LimitAccess\n\nوفعلا استخدمته
+  وبت success مفيش مشكلة  .. المشكلة انى اجى انزل الابليكشن تانى يطلب منى انزل net
+  framwork 3.5 SP1 تانى\n\nعملت remove ل net framwork 4.6 ونزلت net framwork 3.5 SP1
+  تانى باستخدام نفس الكومند بس متحلتش \n\nحد عندوا workaround او طريقة تانية ممكن
+  اسطب بيها net framwork 3.5 SP1 على ويندوز10"
+link: http://bit.ly/2sOGVV6
+from:
+  name: Shiba Sinceta
+  id: '10210921708461949'
+type: video
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQDqb-5Qn6i8-qnH&w=130&h=130&url=https%3A%2F%2Fi.ytimg.com%2Fvi%2Fxo-l-iwdD5Q%2Fmaxresdefault.jpg&cfs=1&_nc_hash=AQAQU0Fk0lr1aDHy
+created_time: '2017-06-10T16:48:09+0000'
+updated_time: '2017-06-10T21:44:54+0000'
+name: How To Enable/Install .Net Framework 3.5 SP1 In Windows 10
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1511288255577544/
+shares:
+  count: 1
+id: '172338516139198_1511288255577544'
+reactions:
+  data:
+  - id: '1902412456467009'
+    name: Ahmed Minshawi
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdPVFE0TWpBek56WXpPakUwT1RjeE1UTXpOREU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXdPVFE0TWpBek56WXpPakUwT1RjeE1UTXpOREU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-06-10T21:18:44+0000'
+    from:
+      name: Ahmed Yousif
+      id: '10213191691965880'
+    message: جربت add feature
+    id: '1511515962221440'
+  - created_time: '2017-06-10T21:44:51+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: والله أعلم يبقى في حاجة برضه غلط في الأبليكشن. لأن المعتاد لما يبقى في
+      حاجة مطلوبة بتكون هي الأقل بس ممكن يشتغل على اللي اعلى منها.
+    id: '1511534782219558'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV4TVRVeE5UazJNakl5TVRRME1Eb3hORGszTVRJNU5USTEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV4TVRVek5EYzRNakl4T1RVMU9Eb3hORGszTVRNeE1Ea3kZD
+attachments:
+  data:
+  - description: 'Check Blog-post for How To Enable/Install .Net Framework 3.5 SP1
+      In Windows 10: http://goo.gl/E6gM97 OneClick Install Here (https://goo.gl/t9B9lj)
+      CMD Code: ...'
+    media:
+      image:
+        height: 720
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQC1xvGuITnr1zWQ&w=720&h=720&url=https%3A%2F%2Fi.ytimg.com%2Fvi%2Fxo-l-iwdD5Q%2Fmaxresdefault.jpg&cfs=1&_nc_hash=AQCM4io37UyJNBi7
+        width: 720
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fbit.ly%2F2sOGVV6&h=ATNqbu6dlqERdg-_p3Vj3DifWTSqR37lRhSWX8ykRtwYlOLC99LJA3dHZnARILZDIp5LfLZUVoucG0caIssFTzFIXETm2OR_JXLb&s=1&enc=AZNQUgomJDES07PqHiVS-5vRF5QPBrzuXuPnggMmzp_XpblxvYH40iCEEJJXJ9fXizf9LaABbzl7gmTUvyfM8zdk
+    title: How To Enable/Install .Net Framework 3.5 SP1 In Windows 10
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fbit.ly%2F2sOGVV6&h=ATNqbu6dlqERdg-_p3Vj3DifWTSqR37lRhSWX8ykRtwYlOLC99LJA3dHZnARILZDIp5LfLZUVoucG0caIssFTzFIXETm2OR_JXLb&s=1&enc=AZNQUgomJDES07PqHiVS-5vRF5QPBrzuXuPnggMmzp_XpblxvYH40iCEEJJXJ9fXizf9LaABbzl7gmTUvyfM8zdk
