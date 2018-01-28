@@ -10,3 +10,70 @@ created_time: '2012-10-29T07:37:49+0000'
 updated_time: '2012-11-01T10:37:52+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/477906295582417/
 id: '172338516139198_477906295582417'
+comments:
+  data:
+  - created_time: '2012-10-31T21:34:46+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: Would you please give more context of what you're trying to do?
+    id: '479036378802742'
+  - created_time: '2012-11-01T08:12:18+0000'
+    from:
+      name: Ahmed Magdy
+      id: '10155638727450376'
+    message: ":) if your company has a proxy (TMG or ISA) and you set the proxy configuration
+      through the internet option you might found windows update not working and essential
+      security also not updating so to solve this you run the mentioned command to
+      redirect any request to the proxy you set before. Because not evey requests
+      goes though the proxy server even if set it in the internet option"
+    id: '479186922121021'
+  - created_time: '2012-11-01T09:41:06+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      You can set the HTTP_PROXY environment variable to http://username:password@proxy_ip:port
+
+      This will tell Windows to tunnel all HTTP traffic to the proxy
+    id: '479207268785653'
+  - created_time: '2012-11-01T09:44:39+0000'
+    from:
+      name: Ahmed Magdy
+      id: '10155638727450376'
+    message: from where?
+    id: '479207775452269'
+  - created_time: '2012-11-01T09:46:42+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: Right-click on my computer -> properties, click "Advanced System Settings",
+      press "Environment Variables" and add the HTTP_PROXY environment variable
+    id: '479208112118902'
+  - created_time: '2012-11-01T09:48:57+0000'
+    from:
+      name: Ahmed Magdy
+      id: '10155638727450376'
+    message: Does this mean I have to enable it from internet options?
+    id: '479208605452186'
+  - created_time: '2012-11-01T09:50:40+0000'
+    from:
+      name: Ahmed Magdy
+      id: '10155638727450376'
+    message: |-
+      for mine, does this formula right?
+      http://domain\username:passowrdWithDot@proxyIp:port
+    id: '479209068785473'
+  - created_time: '2012-11-01T10:37:52+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      When you set HTTP_PROXY, you don't need to set internet options from IE
+
+      I believe that HTTP_PROXY works on Linux too
+    id: '479218672117846'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAORGM1TURNMk16YzRPREF5TnpReU9qRXpOVEUzTVRreU9EWT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAORGM1TWpFNE5qY3lNVEUzT0RRMk9qRXpOVEUzTmpZAeU56ST0ZD

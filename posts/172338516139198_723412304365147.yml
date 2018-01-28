@@ -13,3 +13,79 @@ updated_time: '2014-03-31T19:08:21+0000'
 name: mahmoudelbadry/cutter
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/723412304365147/
 id: '172338516139198_723412304365147'
+reactions:
+  data:
+  - id: '1546098432153196'
+    name: Mohamed Essam
+    type: LIKE
+  - id: '10159865326055331'
+    name: Ahmed Attyah
+    type: LIKE
+  - id: '10215626626127168'
+    name: Khaled M. Diab
+    type: LIKE
+  - id: '10155970088481341'
+    name: Mohammad Tayseer
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlOVGt4TmpFMk5UVXpPakV6T1RZAek9ETTVPVEk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TmpZAeE1qWXhNelF3T2pFek9UWXlOekE0TkRjNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2014-03-31T13:00:59+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: "+1 that you didn't use jQuery :)"
+    id: '723417144364663'
+  - created_time: '2014-03-31T16:36:36+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: |-
+      Add this to your index.html to fix the HTML5 issues on IE9:
+
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+
+      And for the placeholder issue: http://corymathews.com/html5-placeholder-in-ie/
+    id: '723507704355607'
+  - created_time: '2014-03-31T18:47:47+0000'
+    from:
+      name: Khaled M. Diab
+      id: '10215626626127168'
+    message: |-
+      ElBaradei will like this one :P
+      nice one, I have two suggestions:
+      - besides the per-tweet button, add one button to tweet all the cut tweets
+      - add back button at top as well
+    id: '723554841017560'
+  - created_time: '2014-03-31T19:08:21+0000'
+    from:
+      name: Mahmoud Mustafa El-Badry
+      id: '10156220501401654'
+    message: the problem is I don't know if it's possible to post a tweet to twitter
+      from javascript (same origin policy) , I'll look into it and as for the back
+      button and the placeholder i'll try to add them soon
+    id: '723563261016718'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekl6TkRFM01UUTBNelkwTmpZAek9qRXpPVFl5TnpBNE5Uaz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekl6TlRZAek1qWXhNREUyTnpFNE9qRXpPVFl5T1RJNU1ERT0ZD
+attachments:
+  data:
+  - description: cutter - a webapp that cuts your paragraphs into multipart tweets
+    media:
+      image:
+        height: 400
+        src: https://external.xx.fbcdn.net/safe_image.php?w=400&h=400&url=https%3A%2F%2Favatars1.githubusercontent.com%2Fu%2F576494%3Fs%3D400&cfs=1&sx=0&sy=0&sw=400&sh=400&_nc_hash=AQCjdESr8jIRaFmZ
+        width: 400
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Fmahmoudelbadry%2Fcutter&h=ATNwcGArX57EQCyYcn5MERqhrlzoniQ5t9pxxFQuH-p_KUZKNhfApBX3aLshyye9w62eC8vL8MTXT1Vk7pHnEUEdP8ReUxFKb1LA&s=1&enc=AZOLOpVimR72pTkhJA8oJBJqmaHPzGLXHt0TjvS8awirONCfMlH6RXwrjIQA1B0Yp4WAo92S3rU3KI9FKtPUh6h9
+    title: mahmoudelbadry/cutter
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Fmahmoudelbadry%2Fcutter&h=ATNwcGArX57EQCyYcn5MERqhrlzoniQ5t9pxxFQuH-p_KUZKNhfApBX3aLshyye9w62eC8vL8MTXT1Vk7pHnEUEdP8ReUxFKb1LA&s=1&enc=AZOLOpVimR72pTkhJA8oJBJqmaHPzGLXHt0TjvS8awirONCfMlH6RXwrjIQA1B0Yp4WAo92S3rU3KI9FKtPUh6h9

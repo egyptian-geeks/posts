@@ -13,3 +13,79 @@ created_time: '2012-10-27T06:15:49+0000'
 updated_time: '2012-10-27T14:23:05+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/477074338998946/
 id: '172338516139198_477074338998946'
+reactions:
+  data:
+  - id: '10216171489907822'
+    name: Sameh Ammar
+    type: LIKE
+  - id: '10215800137143118'
+    name: Mohamed Elnagar
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRRMk9EWTNNekkyTnpveE16VXhNek14TXpjME9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRRek5URTFNekEwT0RveE16VXhNekl6T0RVek9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2012-10-27T06:18:20+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: |-
+      You can follow the Metro Design Language which this UI was built on
+      http://en.wikipedia.org/wiki/Metro_(design_language)
+    id: '477075505665496'
+  - created_time: '2012-10-27T09:29:15+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      مترو مش بس تغيير في الشكل لكن تغيير برده في طريقة عرض المعلومات وطريقة الاستخدام
+
+      مثلا إنت عايز المستخدم  يشارك معاك صورة أو فيديو، وممكن يشاركها علي صفحته أو صفحات تانية أو مجموعات تانية، يبقي إنت محتاج تصمم البرنامج بتاعك عشان يبين له كده
+
+      حاول تخليها wizard ده هيكون أسهل (من وجهة نظري)
+    id: '477109612328752'
+  - created_time: '2012-10-27T12:00:23+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Merge 2 and 3, remove 5 (merge with 4), use less words. This gives you
+      "3" steps instead of "5". The user will feel it's easier. In your application
+      afterwards assume the user didn't read it.
+    id: '477146945658352'
+  - created_time: '2012-10-27T12:01:25+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Another thing, Isn't this a a bit dark and a bit too little color for
+      your audience? I'd suggest making 2 o 3 designs and showing to friends to choose
+      from / comment on.
+    id: '477147355658311'
+  - created_time: '2012-10-27T14:23:05+0000'
+    from:
+      name: Eslam Hamouda
+      id: '10212947071504226'
+    message: بالظبط هي دي التلميحات اللي كنت محتاجها , إن شاء الله هاخود بيها أكيد
+      , ربنا يكرمكم يارب , الكلام لما بيطلع من الناس الخبرة كده بيبقى ليه رونق خاص
+      :D - وما شاء الله كل واحد فيكم ليه رؤية خاصة جميلة جداً :)
+    id: '477195075653539'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAORGMzTURjMU5UQTFOalkxTkRrMk9qRXpOVEV6TVRnM01EQT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAORGMzTVRrMU1EYzFOalV6TlRNNU9qRXpOVEV6TkRjM09EVT0ZD
+attachments:
+  data:
+  - description: "تفتكروا ان البساطة في التصميم بتفرق مع المستخدم ؟\r\nولا المستخدم
+      دايماً عينة زايغة وبيحب البهرجة والحركات وبتاع ؟\r\nده تصميم بسيط مقتبس من Visual
+      Studio 2012 Splash Screen :D"
+    media:
+      image:
+        height: 500
+        src: https://scontent.xx.fbcdn.net/v/t1.0-9/409226_4316989095632_166750143_n.jpg?oh=7db0552aa2a085d22f66247fb18b8c88&oe=5B1DF743
+        width: 650
+    target:
+      id: '4316989095632'
+      url: https://www.facebook.com/photo.php?fbid=4316989095632&set=gm.477074338998946&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=4316989095632&set=gm.477074338998946&type=3

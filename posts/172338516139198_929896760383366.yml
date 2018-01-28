@@ -11,3 +11,36 @@ updated_time: '2015-04-22T19:01:33+0000'
 name: How to avoid data loss in python postgresql bulk insertion
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/929896760383366/
 id: '172338516139198_929896760383366'
+comments:
+  data:
+  - created_time: '2015-04-22T15:07:35+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: I posted an answer there
+    id: '929922517047457'
+  - created_time: '2015-04-22T19:01:33+0000'
+    from:
+      name: Morad Edwar
+      id: '10215772499725897'
+    message: Thx
+    id: '930003493706026'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEk1T1RJeU5URTNNRFEzTkRVM09qRTBNamszTVRVeU5UVT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVE13TURBek5Ea3pOekEyTURJMk9qRTBNamszTWpreU9UTT0ZD
+attachments:
+  data:
+  - description: 'I want to insert my data into PostgreSQL 1000 by 1000 records (
+      Bulk Insertion ) to make it quick and low load on the DBMS, So my code for now
+      is : cursor.execute("INSERT INTO bar(first_name,last_...'
+    media:
+      image:
+        height: 316
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAgI-ZAZZIE993Q&w=720&h=720&url=http%3A%2F%2Fcdn.sstatic.net%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3Dea71a5211a91%26a&cfs=1&_nc_hash=AQCR3o9tiXlp2ihi
+        width: 316
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F29799827%2Fhow-to-avoid-data-loss-in-python-postgresql-bulk-insertion&h=ATO_8pkNhlxG22sNBX90cU0MwhFrfaqBFvPzibTyGBfICdXplzfbBOzJFzO6QBaU01by8VBinY_dzoO8tcHi1RbJrJBO3TLpO-Ng&s=1&enc=AZPE3_fxlbSO8g64nhmBPRzj8f_4RJ5iYFAOldQYbp2QLh-OpT8jhx9mcYPX_EOecbV3evxsucCIXmRn4MGKzcBF
+    title: How to avoid data loss in python postgresql bulk insertion
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F29799827%2Fhow-to-avoid-data-loss-in-python-postgresql-bulk-insertion&h=ATO_8pkNhlxG22sNBX90cU0MwhFrfaqBFvPzibTyGBfICdXplzfbBOzJFzO6QBaU01by8VBinY_dzoO8tcHi1RbJrJBO3TLpO-Ng&s=1&enc=AZPE3_fxlbSO8g64nhmBPRzj8f_4RJ5iYFAOldQYbp2QLh-OpT8jhx9mcYPX_EOecbV3evxsucCIXmRn4MGKzcBF

@@ -13,3 +13,59 @@ updated_time: '2015-02-24T22:05:53+0000'
 name: How to change the voice source in a call in android?
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/900328373340205/
 id: '172338516139198_900328373340205'
+comments:
+  data:
+  - created_time: '2015-02-24T15:34:34+0000'
+    from:
+      name: Ahmed Saleh
+      id: '10159933379005574'
+    message: I'm not sure If you can access the digital data from the mic through
+      the android API in realtime, then feed it back to the API during the call.
+    id: '900329556673420'
+  - created_time: '2015-02-24T15:37:18+0000'
+    from:
+      name: Ahmed Saleh
+      id: '10159933379005574'
+    message: I remember years ago that I wanted to encrypt the voice on Android, and
+      the only way was to use VOIP. Basically the mic data goes to internally analog
+      to digital converters, then thru the operating system's driver/API those digital
+      data are then modulated to be transferred by the internal GSM Chips and then
+      sent by the antenna.  Not sure if the latest Android API can give you access
+      to that level.
+    id: '900330570006652'
+  - created_time: '2015-02-24T15:47:07+0000'
+    from:
+      name: Mahmoud El Sharkawy
+      id: '1260309064071265'
+    message: '"Basically the mic data goes to internally analog to digital converters"
+      could i interrupt the process here  and make my changes on the digital converted
+      data ?!'
+    id: '900333093339733'
+  - created_time: '2015-02-24T22:05:53+0000'
+    from:
+      name: Ahmed Saleh
+      id: '10159933379005574'
+    message: You can record your mic and there are software for that.. the problem
+      is there is no API layer that can let you get your mic digital data and then
+      use it while calling AFAIK. By API I mean something that talks with the driver
+      layer.
+    id: '900453013327741'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEF3TXpJNU5UVTJOamN6TkRJd09qRTBNalEzT1RJd056UT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEF3TkRVek1ERXpNekkzTnpReE9qRTBNalE0TVRVMU5UTT0ZD
+attachments:
+  data:
+  - description: Is it possible to change the voice source(Mic) with another voice
+      source like a song for example in a call ?! ,um working on an android app in
+      which I want to implement voice changes during a call.
+    media:
+      image:
+        height: 316
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQBSZii2p9Ehvvce&w=720&h=720&url=http%3A%2F%2Fcdn.sstatic.net%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3Dea71a5211a91&cfs=1&_nc_hash=AQAED1QD94FYiwn2
+        width: 316
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F28699730%2Fhow-to-change-the-voice-source-in-a-call-in-android&h=ATPGPs_oTWF8_EVDigoXtbUegbM5aXNdGSACuGQhvxZ_vly2FK4Ho6aBfPXSc7HL0XaFnipRKsdOnaD5-UiBVDia80bAPj86L8PY&s=1&enc=AZPV-Lyvh6I_qpozKYd_LH2sJ5hQV5QU3DkJK3LcpnnFNoevJDG_5DChjgxn_RJKGzUKtAhXene1F5U4p9cKI4p9
+    title: How to change the voice source in a call in android?
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F28699730%2Fhow-to-change-the-voice-source-in-a-call-in-android&h=ATPGPs_oTWF8_EVDigoXtbUegbM5aXNdGSACuGQhvxZ_vly2FK4Ho6aBfPXSc7HL0XaFnipRKsdOnaD5-UiBVDia80bAPj86L8PY&s=1&enc=AZPV-Lyvh6I_qpozKYd_LH2sJ5hQV5QU3DkJK3LcpnnFNoevJDG_5DChjgxn_RJKGzUKtAhXene1F5U4p9cKI4p9

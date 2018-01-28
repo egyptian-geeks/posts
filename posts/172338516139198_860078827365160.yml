@@ -13,3 +13,158 @@ created_time: '2014-12-12T22:52:09+0000'
 updated_time: '2014-12-13T22:26:45+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/860078827365160/
 id: '172338516139198_860078827365160'
+comments:
+  data:
+  - created_time: '2014-12-12T23:04:09+0000'
+    from:
+      name: Muhammad Saleh
+      id: '10156649659196002'
+    message: |-
+      If it's only a landing page... without complicated workflows or anything
+      Hmmmmm.. I would give it 2 to 3 days average
+    id: '860082984031411'
+  - created_time: '2014-12-12T23:05:05+0000'
+    from:
+      name: Muhammad Saleh
+      id: '10156649659196002'
+    message: But again as you said it depends on soooo many factors and parameters
+    id: '860083224031387'
+  - created_time: '2014-12-13T00:01:13+0000'
+    from:
+      name: AbdAllah Khashaba
+      id: '1032800230207501'
+    message: how could such question be answered :)  what you are asking is a relative
+      thing not all landing pages are the same
+    id: '860101110696265'
+  - created_time: '2014-12-13T01:14:32+0000'
+    from:
+      name: Yehya Hafez
+      id: '2296596577032538'
+    message: Thanks Muhammad Saleh :) yes depends a looot..
+    id: '860123117360731'
+  - created_time: '2014-12-13T01:16:45+0000'
+    from:
+      name: Yehya Hafez
+      id: '2296596577032538'
+    message: Arabs Knight I know that it is very diffecult question.. but at the end
+      of day  there is an average estimate time for the average page design/coding
+    id: '860123684027341'
+  - created_time: '2014-12-13T01:19:12+0000'
+    from:
+      name: Yehya Hafez
+      id: '2296596577032538'
+    message: Muhammad Saleh you mean for design or for coding?
+    id: '860124297360613'
+  - created_time: '2014-12-13T01:28:26+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: your sketches are the only one that can tell u :)
+    id: '860126924027017'
+  - created_time: '2014-12-13T01:30:20+0000'
+    from:
+      name: Yehya Hafez
+      id: '2296596577032538'
+    message: Makes sense also :) ya Mohamed Alaa El Din
+    id: '860127707360272'
+  - created_time: '2014-12-13T03:53:51+0000'
+    from:
+      name: AbdAllah Khashaba
+      id: '1032800230207501'
+    message: "which case ?\n1- PSD ready made design and you need to code it to html
+      , CSS\n2- No imagination and you have to do one then apply\n3- imagination (
+      Specific Elements ) you have to built\n\nwhat is no of sections in the design
+      ?\n1-  ( 2 : 4 )\n2- ( 4 : 8 )\n3- ( 8 : 10 )\n\nwhat are the techs. ?\n1- HTML
+      CSS \n2- HTML5 CSS3\n3- HTML5 CSS3 JS"
+    id: '860167947356248'
+  - created_time: '2014-12-13T07:56:47+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: |-
+      It takes me about 3~4 days to make all templates initially (Usually the master/root template, homepage, 1 column and 2 columns templates) then after all website development is completed I spend about 1~1.5 day adjusting responsive stuff , testing, optimization, cleaning, styling new elements/components/widgets/templates that we added during the development .. etc.
+
+      Back to the days before modern browsers and before Bootstrap and similar frameworks, having to support IE, a lot of hacking and browsers incompatibilities, a lot of testing-fixing-F5 cycles on multiple browsers simultaneously it was taking more 5~6 days or so.
+
+      But you know it depends, sometimes a homepage might take 4 days if it has some special UI widgets, animations or new requirements or eftekasat.. etc.
+
+      The more clear requirements you get and the more wire-frames/design/concept you get that covers all cases and answers all the questions that popup in your mind during the implementation the more it becomes a piece of cake and takes less time and efforts even if the design is sophisticated.
+    id: '860219330684443'
+  - created_time: '2014-12-13T09:00:30+0000'
+    from:
+      name: Yehya Hafez
+      id: '2296596577032538'
+    message: Arabs Knight lets say the first case.. ready made psd and you need to
+      code it to a responsive html5 css3 and js with 4 to 8 sections
+    id: '860234354016274'
+  - created_time: '2014-12-13T09:21:51+0000'
+    from:
+      name: Muhammad Saleh
+      id: '10156649659196002'
+    message: Yehya Hafez I meant for coding only.. and I was talking about the average
+      landing pages like what you might see on themeforest
+    id: '860239724015737'
+  - created_time: '2014-12-13T09:59:26+0000'
+    from:
+      name: Yehya Hafez
+      id: '2296596577032538'
+    message: Moutaz Shams thanks for such detailed reply. Very useful. Do you mean
+      by to make all templates thd all deign templates like home page, about and so
+      on?
+    id: '860249984014711'
+  - created_time: '2014-12-13T10:00:53+0000'
+    from:
+      name: Yehya Hafez
+      id: '2296596577032538'
+    message: Oh sorry Moutaz Shams now I get it :)
+    id: '860250367348006'
+  - created_time: '2014-12-13T16:25:57+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: |-
+      I mean the templates/master-pages plus the homepage. For other sub pages.. the majority usually contain simple links, images, paragraphs.. etc, a few of them contain stuff like galleries, grids, tabs.. etc but styling them does not take a long time because they will inherit a lot of styles. You know by completing the homepage and the main templates you complete the styles for links, headers, different types of buttons, sliders, icons.. lists, containers, bread-crumbs and maybe forms too and so on which makes other pages almost get automatically styled.
+
+      Am I slow or fast? I don't care because I believe that if I am slow and want to become faster I can easily do that by learning and practicing, I consider myself fast enough as long as I deliver the project on time and the client/boss is happy with the results.
+
+      If it is your boss who thinks you or your team is slow consider reading this:
+      https://www.facebook.com/groups/egyptian.geeks/permalink/851742001532176/
+
+      If its you who think you are slow consider reading this:
+      https://www.facebook.com/groups/egyptian.geeks/permalink/753488791357498/
+    id: '860372764002433'
+  - created_time: '2014-12-13T16:37:01+0000'
+    from:
+      name: Yehya Hafez
+      id: '2296596577032538'
+    message: Moutaz Shams - Very rich comment.. I will go through the 2 links.. thanks
+      a lot
+    id: '860376697335373'
+  - created_time: '2014-12-13T16:37:58+0000'
+    from:
+      name: Yehya Hafez
+      id: '2296596577032538'
+    message: and yes.. it is just me who is not sure about how fast/slow would my
+      work be
+    id: '860377000668676'
+  - created_time: '2014-12-13T19:07:48+0000'
+    from:
+      name: AbdAllah Khashaba
+      id: '1032800230207501'
+    message: |-
+      Yehya Hafez : about 15 : 18 hours
+
+      but this is a template for usage not for sale ,
+
+      to be for sale you need to duplicate the hours , so that you get the CSS optimized and the code as well
+    id: '860422760664100'
+  - created_time: '2014-12-13T22:26:45+0000'
+    from:
+      name: Yehya Hafez
+      id: '2296596577032538'
+    message: Sounds good Arabs Knight. It almost take us the same time
+    id: '860482937324749'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFl3TURneU9UZAzBNRE14TkRFeE9qRTBNVGcwTWpVME5Eaz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFl3TkRneU9UTTNNekkwTnpRNU9qRTBNVGcxTURrMk1EVT0ZD

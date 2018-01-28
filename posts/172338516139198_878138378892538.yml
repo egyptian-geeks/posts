@@ -13,3 +13,68 @@ created_time: '2015-01-09T07:09:35+0000'
 updated_time: '2015-01-10T00:51:57+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/878138378892538/
 id: '172338516139198_878138378892538'
+reactions:
+  data:
+  - id: '1958687201063367'
+    name: احمد محمود محمدابو زياد
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTNOall6TVRnNU1qVXhPakUwTWpBM09UWTFNamc2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTNOall6TVRnNU1qVXhPakUwTWpBM09UWTFNamc2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2015-01-09T08:45:38+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      Is there anything that has high cost (long developer time to create or user time to user, high hardware requirements or costly licenses)?
+
+      Are you sure there are no other alternatives? Are there no other alternatives in general or no alternatives due to other decisions made in the design?
+    id: '878159018890474'
+  - created_time: '2015-01-09T08:49:08+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      Typically you'd test the design theoretically against some various tasks you want to accomplish in the application and see if it fits them and makes them easy.
+
+      Not everything will be easy but you should be able to have some image of which areas are made easier and which are not (and know that the ones you made easier are more).
+    id: '878159725557070'
+  - created_time: '2015-01-09T08:49:10+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: A good design is one that doesn't cause much pain developing the actual
+      application. If there's much pain, especially pain discovered later in the process,
+      it means the design is not a good fit (either the design didn't fit from beginning,
+      or requirements changed and design didn't change early enough to fit these changes).
+    id: '878159735557069'
+  - created_time: '2015-01-10T00:50:25+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: There is a concept called an Architecure Spike,, where you develop a
+      POC containing  the main layers involved and test them to see if the Design/Architecture
+      works. An example, if you want to use a specific ORM, I would create a scenario
+      for CRUD operations on a simple ERD and a more complex one with multiple relationships
+      (1-1, 1-M, M-M), develop the POC all the way up to the UI, just for this small
+      example and validate your Architeure in terms of development time, features
+      and quality, you can then reuse the UI and change the ORM to try the other ORM
+      in the same scenario. Your dev team can test the code and get a feel of how
+      it feels to develop under the framework. It would then be a lot clearer and
+      easier to decide on the right platform to use.
+    id: '878488355524207'
+  - created_time: '2015-01-10T00:51:57+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: A spike should normally be done in max 1-3 days. If you can't have a
+      working spike in that time, then you don't have the time/skills for thisframework,
+      or you know that the framework is too complex to achieve anything quickly.
+    id: '878488865524156'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGM0TVRVNU1ERTRPRGt3TkRjME9qRTBNakEzT1RNeE16ZAz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGM0TkRnNE9EWTFOVEkwTVRVMk9qRTBNakE0TlRFeE1UYz0ZD

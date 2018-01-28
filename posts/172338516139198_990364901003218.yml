@@ -12,9 +12,129 @@ from:
   name: Anas Ben Baligh
   id: '10155856433916578'
 type: link
-picture: https://external.xx.fbcdn.net/safe_image.php?w=130&h=130&url=http%3A%2F%2Fcdn.sstatic.net%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3Dfde65a5a78c6&cfs=1&_nc_hash=AQA_YeL8hRg1vUjp
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQA5QuuBM5i555L5&w=130&h=130&url=http%3A%2F%2Fcdn.sstatic.net%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3Dfde65a5a78c6&cfs=1&_nc_hash=AQC9Awq5Ii5uvPKu
 created_time: '2015-08-15T16:43:56+0000'
 updated_time: '2015-08-15T23:12:13+0000'
 name: 'Database design: Calculating the Account Balance'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/990364901003218/
 id: '172338516139198_990364901003218'
+reactions:
+  data:
+  - id: '1307490926061480'
+    name: Mhd Ghiath Marzouka
+    type: LIKE
+  - id: '10155880598025170'
+    name: Mohammed El Sayed
+    type: LIKE
+  - id: '610182979313091'
+    name: Ashraf Saad
+    type: LIKE
+  - id: '10208871690868270'
+    name: AbdulRahim Sayed Al-Refaey
+    type: LIKE
+  - id: '1882857495066964'
+    name: Hagar Abou Abdou
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTBNREUzTlRReE9Ea3hPakUwTXprMk9ERXpNamc2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXdNamd4T1RVeE56YzNPakUwTXprMk5UYzVNREk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2015-08-15T16:46:33+0000'
+    from:
+      name: Amir Mohamed Atia
+      id: '10155967624789840'
+    message: بص انا بفضل انك تعمل جدول كامل لحركة حساب العميل وكل ما يحصل حاجة تخص
+      الحسابات تتسجل فيه
+    id: '990365474336494'
+  - created_time: '2015-08-15T16:53:09+0000'
+    from:
+      name: Anas Ben Baligh
+      id: '10155856433916578'
+    message: تمام ده بالنسبة لحركة الحسابات , بس التوتال احسبه في ال run time ع الرغم
+      ا ده هيبقى ابطأ وخاصة مع الوقت و زيادة الحركات ع الحساب ؟! ولا أن يبقى في ballance
+      table يبقى فيه التوتال و اي عملية في ال transaction تغير في قيمته على طول .
+      بالتالي لما احتاجه اناديه من ballance table ؟
+    id: '990367721002936'
+  - created_time: '2015-08-15T16:53:56+0000'
+    from:
+      name: Amir Mohamed Atia
+      id: '10155967624789840'
+    message: زود عمود في جدول الحسابات ده وحط فيه قيمة الرصيد مع كل عملية
+    id: '990367877669587'
+  - created_time: '2015-08-15T16:54:26+0000'
+    from:
+      name: Amir Mohamed Atia
+      id: '10155967624789840'
+    message: ولما يحب يجيب رصيد العميل يجيب اخر قيمة في الجدول بالنسبة للعميل ده
+    id: '990368027669572'
+  - created_time: '2015-08-15T17:07:24+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: الطريقة الأحسن من وجهة نظري هي الـ calculation ولو بتاخد وقت لما قاعدة
+      البيانات بتكبر كيّش القيمة في الذاكرة أو في قاعدة البيانات والكاش يتدمر لما
+      علمية جديدة تحصل مثلا أو كدا، طبعا كل مشروع له سياقه وأظن في أنظمة بنوك وتحويل
+      وتأكيد تحويل وإلغاء والخ الأمور ممكن تختلف لكن التحليل ثم التصميم السليم المنطقي
+      الـ normalized لقاعدة البيانات لازم يكون هو الأساس وغير قابل للتفاوض أو التنازل
+      عن حاجه فيه وبعد كدا يتم حل أي مشاكل تظهر بحلول تتبنى فوق التصميم السليم ده
+    id: '990371931002515'
+  - created_time: '2015-08-15T17:58:24+0000'
+    from:
+      name: Ahmed Refaey
+      id: '1808892215797147'
+    message: Moutaz Shams performance issues momken tkhalek ttbna workarounds
+    id: '990386191001089'
+  - created_time: '2015-08-15T18:02:44+0000'
+    from:
+      name: Mostafa Sakr
+      id: '10156282426693825'
+    message: ك structure مظبوط لسيستم كبير او هايبقى كبير  انك تعمل  جدول  balance
+      بلاحظ الطريقه دى موجوده فى كل الانظمه الكبيره فغالبا هايكون لها سبب انها افضل
+      بس انا مش عارفه :)
+    id: '990387641000944'
+  - created_time: '2015-08-15T18:25:56+0000'
+    from:
+      name: Anas Ben Baligh
+      id: '10155856433916578'
+    message: |-
+      هتبقى أسرع في البيرفورمنس , و هتبقى أفضل لو في multiuser .
+      تخيل كده سيستم بنك , و عاوزتعرف حساب العميل ده , و اللي حاصل انك بتحسبه بالكويري , و بتعمل parse في transaction table عن عمليات العميل ده وبتحسبها و تجمعها عشان تشوف حسابه , و حد تاني بيضيف في نفس الوقت عملية ايداع مثلا ليه مش هتتحسب ساعتها .
+      بس لو في ballance table هتعمل هولد ليها لو حد بيضيف حساب , فانت كواحد عاوز يشوف حسابه في كم هيظهر عندك في هولد دلوقتي عشان في عملية أيداع بتتم .
+
+      أعتقد ده السبب
+    id: '990394001000308'
+  - created_time: '2015-08-15T21:11:13+0000'
+    from:
+      name: Sameh Manaa
+      id: '10211273355406661'
+    message: |-
+      لو ال database بتاعتك بتدعم ال materialized view
+       اعمل واحد و خليه يعمل ال calculation دي و بكده هيبقى ال performance بتاع ال query أحسن و الmodel هيبقى normalized و ال database هي اللي هتهندل ال synchronization ما بين ال two tables
+    id: '990439660995742'
+  - created_time: '2015-08-15T23:12:13+0000'
+    from:
+      name: Anas Ben Baligh
+      id: '10155856433916578'
+    message: http://www.fromdual.com/mysql-materialized-views
+    id: '990508794322162'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVGt3TXpZAMU5EYzBNek0yTkRrME9qRTBNemsyTlRjeE9UTT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVGt3TlRBNE56azBNekl5TVRZAeU9qRTBNemsyT0RBek16TT0ZD
+attachments:
+  data:
+  - description: How do I design the database to calculate the account balance? 1)
+      Currently I calculate the account balance from the transaction table In my transaction
+      table I have "description" and "amount" etc...
+    media:
+      image:
+        height: 316
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQCz3rmhv1AH6XyC&w=720&h=720&url=http%3A%2F%2Fcdn.sstatic.net%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3Dfde65a5a78c6&cfs=1&_nc_hash=AQDYMA7sVVUu6LYN
+        width: 316
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F4373968%2Fdatabase-design-calculating-the-account-balance&h=ATMSf35qHwqoboXmeXI84A-V96YXaL3YS4fcy2e1bl5aRFQ5w_uWzchtC5FfZUlCPVefc40segVPw8bGIQPKyibbd-MSaT3Y6gr9&s=1&enc=AZOkEt3wvw9fxHEj1cOp6O02RvyLmUuMwqNzNa6MK_zI1Pvy5x1mwVu30m-MycjjhEhfSMJoxYPh8K4_THLqob24
+    title: 'Database design: Calculating the Account Balance'
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F4373968%2Fdatabase-design-calculating-the-account-balance&h=ATMSf35qHwqoboXmeXI84A-V96YXaL3YS4fcy2e1bl5aRFQ5w_uWzchtC5FfZUlCPVefc40segVPw8bGIQPKyibbd-MSaT3Y6gr9&s=1&enc=AZOkEt3wvw9fxHEj1cOp6O02RvyLmUuMwqNzNa6MK_zI1Pvy5x1mwVu30m-MycjjhEhfSMJoxYPh8K4_THLqob24

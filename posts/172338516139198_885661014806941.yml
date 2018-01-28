@@ -12,3 +12,130 @@ created_time: '2015-01-24T19:20:24+0000'
 updated_time: '2015-01-25T06:11:37+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/885661014806941/
 id: '172338516139198_885661014806941'
+comments:
+  data:
+  - created_time: '2015-01-24T19:33:40+0000'
+    from:
+      name: Amr Monjid
+      id: '10155918513180729'
+    message: Elaborate more
+    id: '885664891473220'
+  - created_time: '2015-01-24T19:37:33+0000'
+    from:
+      name: Adel K. Khalil
+      id: '10159958402365584'
+    message: "I need to show a notification to the user but not the standard push
+      notification you get, i need to provide couple of actions on the notification
+      view itself. let's say a download button and cancel button. \n\nI can do this
+      with in-app notifications but that require the app to be working on the background.
+      I need to be able to show these custom views notifications while the app is
+      closed if that possible.\n\nI am not sure if its possible yet, but i've seen
+      Facebook notifications with LIKE button."
+    id: '885665864806456'
+  - created_time: '2015-01-24T19:39:07+0000'
+    from:
+      name: Amr Monjid
+      id: '10155918513180729'
+    message: R u developing native apps or cross platform?
+    id: '885666491473060'
+  - created_time: '2015-01-24T19:39:55+0000'
+    from:
+      name: Adel K. Khalil
+      id: '10159958402365584'
+    message: Doesn't matter still researching can choose the platform if the feature
+      is available.
+    id: '885666804806362'
+  - created_time: '2015-01-24T19:57:08+0000'
+    from:
+      name: Amr Monjid
+      id: '10155918513180729'
+    message: "As far as I know custome actions in the notification can be done in
+      android v4.1 and higher.. native development required \nhttp://developer.android.com/guide/topics/ui/notifiers/notifications.html"
+    id: '885671538139222'
+  - created_time: '2015-01-24T19:58:23+0000'
+    from:
+      name: Amr Monjid
+      id: '10155918513180729'
+    message: But let me check if this can be done using a cross platform framework
+    id: '885672034805839'
+  - created_time: '2015-01-24T20:12:27+0000'
+    from:
+      name: Adel K. Khalil
+      id: '10159958402365584'
+    message: thx
+    id: '885676618138714'
+  - created_time: '2015-01-24T20:20:27+0000'
+    from:
+      name: Adel K. Khalil
+      id: '10159958402365584'
+    message: again nothing about closed or active apps, very confusing.
+    id: '885678988138477'
+  - created_time: '2015-01-24T20:25:49+0000'
+    from:
+      name: Amr Monjid
+      id: '10155918513180729'
+    message: This can be done using a BroadcastReceiver even if the app is closed
+      NOT killed from app manager
+    id: '885680321471677'
+  - created_time: '2015-01-24T20:26:50+0000'
+    from:
+      name: Hisham Abd El-Hafez Eid
+      id: '10156032627411171'
+    message: |-
+      This can be done in Apache Cordova, check the below
+      http://devgirl.org/2013/07/17/tutorial-implement-push-notifications-in-your-phonegap-application/
+
+      If you get the notification while your app is closed, tapping the notification will open your app and show whatever custom view you implemented.
+    id: '885680518138324'
+  - created_time: '2015-01-24T23:17:13+0000'
+    from:
+      name: Mahmoud Abd El-Fattah
+      id: '10156358805885288'
+    message: Action based push notifications are now available on iOS 8 and I think
+      Android 4+. In this kind of notifications, you can send a direct action to the
+      user like a subscribe button to newsletters or a question with simple answers
+      like yes and no
+    id: '885730731466636'
+  - created_time: '2015-01-24T23:17:37+0000'
+    from:
+      name: Mahmoud Abd El-Fattah
+      id: '10156358805885288'
+    message: This can be done using third party providers like Urban Airship or Netmera
+    id: '885731078133268'
+  - created_time: '2015-01-24T23:18:40+0000'
+    from:
+      name: Mahmoud Abd El-Fattah
+      id: '10156358805885288'
+    message: |-
+      Something like this:
+      http://313e5987718b346aaf83-f5e825270f29a84f7881423410384342.r78.cf1.rackcdn.com/1410890745-2014-09-16-at-18-01-57-.jpeg
+    id: '885731674799875'
+  - created_time: '2015-01-24T23:19:12+0000'
+    from:
+      name: Mahmoud Abd El-Fattah
+      id: '10156358805885288'
+    message: and this kind of notifications do not require the app to be running in
+      the background
+    id: '885731924799850'
+  - created_time: '2015-01-24T23:20:29+0000'
+    from:
+      name: Mahmoud Abd El-Fattah
+      id: '10156358805885288'
+    message: 'and this is from Skype for iOS 8:'
+    id: '885732484799794'
+  - created_time: '2015-01-24T23:20:30+0000'
+    from:
+      name: Mahmoud Abd El-Fattah
+      id: '10156358805885288'
+    message: http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2014/09/c7-220x390.png
+    id: '885732498133126'
+  - created_time: '2015-01-25T06:11:37+0000'
+    from:
+      name: Adel K. Khalil
+      id: '10159958402365584'
+    message: Thank you
+    id: '885845974788445'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGcxTmpZAME9Ea3hORGN6TWpJd09qRTBNakl4TWpnd01qQT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGcxT0RRMU9UYzBOemc0TkRRMU9qRTBNakl4TmpZAeU9UYz0ZD

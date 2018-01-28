@@ -16,3 +16,227 @@ created_time: '2015-04-05T19:53:27+0000'
 updated_time: '2015-04-06T17:58:45+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/920848004621575/
 id: '172338516139198_920848004621575'
+reactions:
+  data:
+  - id: '1657509230977456'
+    name: Hosam Aly
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhOVFV4T0RRMk1EZAzBPakUwTWpneU56RTNOelk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXhOVFV4T0RRMk1EZAzBPakUwTWpneU56RTNOelk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2015-04-05T19:54:55+0000'
+    from:
+      name: Amir Mohamed Atia
+      id: '10155967624789840'
+    message: طب ما طالما بديك ملف اكسيل اعمله read عند وخد الداتا منه مش لازم نوع
+      قاعدة بيانات معين
+    id: '920848427954866'
+  - created_time: '2015-04-05T19:58:19+0000'
+    from:
+      name: Mohamed Atef Abd ElWahab
+      id: '10156191599532048'
+    message: مهو الجهاز اللى انا شوفته حاليا  بيخرجلى ملف اكسيل . كتقرير كل اسبوع  او
+      فى نهاية كل يوم .. انا السيستم عندى لحظى .. بمجرد ما أخد بصمة الشخص عايز اعرف
+      من الجهاز انه حضر عشان أبدأ اسمحله بالدخول للمكان و يظهر على موقع الشركة ان
+      الشخص ده موجود فى الشركة . ف انا محتاج اقدر اشوف الداتابيز بتاعت الجهاز فى الوقت
+      اللى انا أحدده
+    id: '920849394621436'
+  - created_time: '2015-04-05T20:02:06+0000'
+    from:
+      name: Ahmed Kamal
+      id: '1664703396921221'
+    message: طيب انا ممكن اعملك نظام بداله يقرى البصمه ويطلعلك الناتج بتاعها وتعمل
+      بيه اللى انت عايزه
+    id: '920850781287964'
+  - created_time: '2015-04-05T20:03:25+0000'
+    from:
+      name: Mohamed Atef Abd ElWahab
+      id: '10156191599532048'
+    message: التكلفة مش هتسمح خالص .. لأن ده مشروع تخرج :/ .. انا اسف
+    id: '920851647954544'
+  - created_time: '2015-04-05T20:06:04+0000'
+    from:
+      name: Ahmed Kamal
+      id: '1664703396921221'
+    message: تعالى لعمو ياحبيبى . انا برضه نفس النظام :D
+    id: '920852797954429'
+  - created_time: '2015-04-05T20:07:16+0000'
+    from:
+      name: Mohamed Atef Abd ElWahab
+      id: '10156191599532048'
+    message: كلنا كده للأسف .. وانا ممكن برضو أعمله بس المشكلة ان ده جزء  من الموضوع
+      :D .. فلو تعرف اماكن شركات الحاجات دى وتقدر تدلنى يبقا كتر خيرك :D
+    id: '920853321287710'
+  - created_time: '2015-04-05T20:07:59+0000'
+    from:
+      name: Ahmad Tolba
+      id: '1923113658002033'
+    message: انا كنت فاكر ان الجروب معمول علشان نفيد بعض مش نعمل شغل على بعض :\
+    id: '920853537954355'
+  - created_time: '2015-04-05T20:09:28+0000'
+    from:
+      name: Ahmed Abd El Hady
+      id: '10155994963444544'
+    message: انا تعاملت مع المكن ده قبل كده كان حضور وانصراف وهى على ما اعتقد قريبة
+      جدا من access gate  اللى فى حالتك وغالبا هتلاقى البرنامج اللى جى مع المكنة بعد
+      ما تسطبه تقدر تختار انه يرمى على سيكول داتا بيز ابحث على الاسطوانة عن اى ملف
+      بامتداد sql  وغالبا لو البرنامج بيدعم انه يكتب فى سيكويل هتلاقى ملف تعمل منه
+      ستركشر الداتا بيز وفيه جداول زى CHECKINOUT وفى حالتنا عملنا trigger after insert
+      وكنا بنكتب فى داتا بيز تانية خاصة بمشروعنا ونشتغل عليها بس البرنامج مش بيشتغل
+      اتوماتيك لازم حد يفتح ويسحب الحركات من المكنة ودى ممكن تلاقى ليها حل ان شاء
+      الله
+    id: '920854127954296'
+  - created_time: '2015-04-05T20:10:40+0000'
+    from:
+      name: Ahmed Abd El Hady
+      id: '10155994963444544'
+    message: حل تانى لو مفيش غير excel file عندك تقدر تقرأ منه وتكتب فى سيكويل داتا
+      بيز باستخدام SSIS
+    id: '920854391287603'
+  - created_time: '2015-04-05T20:10:42+0000'
+    from:
+      name: Ahmed Kamal
+      id: '1664703396921221'
+    message: "Mohamed Atef Abd ElWahab مش عارف . انت ممكن تشوفه شغال ازاى وتتعامل
+      معاه \nAhmad A. Elghany مش عيب وﻻ حرام ياهندسه  . وبلاش ظيطه على الفاضى :D"
+    id: '920854401287602'
+  - created_time: '2015-04-05T20:11:59+0000'
+    from:
+      name: Mohamed Atef Abd ElWahab
+      id: '10156191599532048'
+    message: طب حضرتك كنت جايب الجهاز من شركة ايه .. عشان انا مش عارف شركات فى مصر
+      خالص أستاذ Ahmed Abd El Hady
+    id: '920854897954219'
+  - created_time: '2015-04-05T20:38:10+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: هو في الغالب مش Excel قوي يعني، هتلاقيه CSV - Comma Separated Values
+      و ده سهل تدخله و تخرجه في أي database و بأي لغة
+    id: '920864137953295'
+  - created_time: '2015-04-05T20:41:54+0000'
+    from:
+      name: Mahmoud Gehad Diab
+      id: '10212901533707598'
+    message: Mohamed Atef Abd ElWahab check this machine it contain APIs for developer,
+      or contact me i can help u and make one for free to support your project
+    id: '920864987953210'
+  - created_time: '2015-04-05T20:44:42+0000'
+    from:
+      name: Mohamed Atef Abd ElWahab
+      id: '10156191599532048'
+    message: |-
+      Mahmoud Gehad Diab
+      First Thanks for nice support  ^_^ .. second which machine ?
+    id: '920866341286408'
+  - created_time: '2015-04-05T20:47:15+0000'
+    from:
+      name: Mahmoud Gehad Diab
+      id: '10212901533707598'
+    message: Mohamed Atef Abd ElWahab sorry i forgot to send the link :D --> http://www.iguardsystem.eu/
+    id: '920866987953010'
+  - created_time: '2015-04-05T20:47:27+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: يا مان كل اللي عليك تاخد الداتا تحولها CSV و تحطها في الجهاز. أي جهاز
+      بيتعامل Excel دايما بيبقى معناها CSV
+    id: '920867067953002'
+  - created_time: '2015-04-05T20:55:38+0000'
+    from:
+      name: Hussein Khalifa
+      id: '10100126826681456'
+    message: I am not sure about this device. But these device operate by keeping
+      a log on it. And the software that comes with it connect to it on certain port
+      and pull this list (probably in CSV format). The software will then produce
+      excel or whatever. If this is the case with this device then you can connect
+      and pull this data from the device manually. Use wireshark to see the protocol
+      commands used for the pulling. Also note that sometime it only allows a certain
+      IP to connect to it. This is the IP you set on the device manually.
+    id: '920869317952777'
+  - created_time: '2015-04-05T20:57:00+0000'
+    from:
+      name: Mohamed Atef Abd ElWahab
+      id: '10156191599532048'
+    message: "انا عندى عدد متوقع مثلا 1000 شخص يسجلوا بصمتهم على الجهاز كل 3 ساعات
+      ! . فانا محتاج اقدر ادخل على داتابيز الجهاز وقت ما أحب .. ومش عايز ادخل بطريقة
+      يدوية .. انا عايز السيستم وقت ما يحب يشوف حد يدخل على الداتابيز ويعمل Access
+      \ للناس اللى حاضرة .. انما فى حالة الأكسيل انا مجبر انى يا احدد ميعاد يخرجلى
+      فيه الملف .. او انى  اخرجه بنفسى كل شوية \nMohamed Meligy"
+    id: '920869894619386'
+  - created_time: '2015-04-05T22:05:19+0000'
+    from:
+      name: Hany Saad
+      id: '10155270396306616'
+    message: |-
+      هو فعلا ممكن تقرأ من الاكسيل عادى، لكن عموما فى جهاز انا اتعاملت معاه بيخزن الداتا فى سيكوال داتابيز، اسمه BioEntry plus، من شركة كورية اسمها Suprema، وبيبقى معاه كمان SDK بتاعته
+      https://www.supremainc.com/en/product/access-control/bioentry-plus
+      بس وقتها انا مالقتهوش فى مصر وفتها وجبته شحن.
+    id: '920895791283463'
+  - created_time: '2015-04-05T23:27:11+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: This device has an SDK , which u should integrate than u could invoke
+      using its events
+    id: '920935717946137'
+  - created_time: '2015-04-06T01:45:36+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: سيلفرلايت مين الله يرحمه
+    id: '921188194587556'
+  - created_time: '2015-04-06T13:27:48+0000'
+    from:
+      name: Abdelrady Fcis
+      id: '10214861141222529'
+    message: Silverlight is DEAD :D :D
+    id: '921470417892667'
+  - created_time: '2015-04-06T17:05:30+0000'
+    from:
+      name: Emad Mokhtar Habib
+      id: '10159905066535634'
+    message: What I know now BioStar has its own central database and its own application
+      and you can pull the daily trans and users from there
+    id: '921558181217224'
+  - created_time: '2015-04-06T17:08:48+0000'
+    from:
+      name: Mohamed Atef Abd ElWahab
+      id: '10156191599532048'
+    message: thanks all for your help .. what i wanted was a fingerprint Reader Device
+      with an open source system or at least allowed access to its database .. and
+      i wondered if a device such that is available in Egypt or not ^_^
+    id: '921559491217093'
+  - created_time: '2015-04-06T17:58:45+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: Btw this is an access control device not a finger print device.
+    id: '921576497882059'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEl3T0RRNE5ESTNPVFUwT0RZAMk9qRTBNamd5TmpNMk9UVT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEl4TlRjMk5EazNPRGd5TURVNU9qRTBNamd6TkRNeE1qVT0ZD
+attachments:
+  data:
+  - description: "السلام عليكم .. بما ان محدش هيفهمنى ألا الناس اللى هنا . ف انا هسأل
+      سؤالى هنا  بعد أذنكم . \nانا حاليا شغال على سيستم \nفى جزء من السيستم مطلوب
+      منى أستخدم جهاز Fingerprint Reader لفحص بصمة الشخص و أسمحله بالدخول او الخروج
+      على  أساس الداتابيز اللى عندى فى السيستم مش اللى موجودة فى الجهاز  .. ف  أنا
+      سئلت وعرفت ان الأجهزة المتوفرة حاليا ال output بتاعها Excel file .. أنا عايز
+      اسئل بقا لو فى جهاز بيخرجلى داتابيز او معاه داتابيز اقدر اعدل عليها بحيث اربطها
+      فى الداتابيز اللى عندى بسهولة .. و أيه الشركات الموجودة فى مصر اللى ممكن اسئلها
+      ؟؟\n\nشكراً مقدماً"
+    media:
+      image:
+        height: 489
+        src: https://scontent.xx.fbcdn.net/v/t1.0-9/10174933_10153212636917048_3247577637537103323_n.jpg?oh=d702afd7995a3a63340c270ca70d9fbc&oe=5B1D0376
+        width: 703
+    target:
+      id: '10153212636917048'
+      url: https://www.facebook.com/photo.php?fbid=10153212636917048&set=gm.920848004621575&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=10153212636917048&set=gm.920848004621575&type=3

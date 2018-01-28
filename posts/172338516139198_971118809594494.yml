@@ -15,3 +15,428 @@ created_time: '2015-07-11T23:25:58+0000'
 updated_time: '2015-07-12T12:28:12+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/971118809594494/
 id: '172338516139198_971118809594494'
+reactions:
+  data:
+  - id: '10211322750531914'
+    name: Shady Yousef
+    type: LIKE
+  - id: '1547105455367937'
+    name: Wahed Mn El-Nas
+    type: LIKE
+  - id: '10210139567678503'
+    name: Moaz Rashad
+    type: LIKE
+  - id: '10215070655377585'
+    name: Mahmoud Kandeel
+    type: LIKE
+  - id: '2089650217931552'
+    name: Osama Mohamed
+    type: LIKE
+  - id: '1550774681686883'
+    name: Eslam Esmaeal
+    type: LIKE
+  - id: '10214861141222529'
+    name: Abdelrady Fcis
+    type: LIKE
+  - id: '1570218796388620'
+    name: عبدالرحمن محمود
+    type: LIKE
+  - id: '10211325385431402'
+    name: Abdalla Zaki Al-Kateb
+    type: LIKE
+  - id: '1534801716637376'
+    name: Ahmed Osman
+    type: LIKE
+  - id: '1777734152251155'
+    name: Ahmed Yakout
+    type: LIKE
+  - id: '805223612983889'
+    name: Mohamed Gouda
+    type: LIKE
+  - id: '10211495185926361'
+    name: Mohamed Ahmed Zaki
+    type: LIKE
+  - id: '10211166836833369'
+    name: Mohamed El-Banna
+    type: LIKE
+  - id: '10157028049108496'
+    name: Omar Sabet
+    type: LIKE
+  - id: '1382560551854209'
+    name: Mohammad Sakr
+    type: LIKE
+  - id: '10155033005467307'
+    name: Mostafa Goher
+    type: LIKE
+  - id: '10155892561930993'
+    name: Amr Ayman Zewar
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRRMU5UQTFOakV5TVRveE5ETTNNVFl4TURRd09qSTFOREE1TmpFMk1UTT0ZD
+      after: TmpJMU56SXdPVGt5T2pFME16WTJOVGMwT0RVNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2015-07-11T23:30:52+0000'
+    from:
+      name: Ahmed Alaaeldin
+      id: '1553410924755364'
+    message: |-
+      Emad Elsaid Mohamed Meligy @
+      Mohammad Tayseer
+    id: '971119636261078'
+  - created_time: '2015-07-11T23:32:15+0000'
+    from:
+      name: Mostafa Goher
+      id: '10155033005467307'
+    message: فكره ممتاذه ربنا يوفقك
+    id: '971119862927722'
+  - created_time: '2015-07-11T23:32:49+0000'
+    from:
+      name: Ahmed Alaaeldin
+      id: '1553410924755364'
+    message: ana 3iez raa2eko anzeloh wla astan :D
+    id: '971120156261026'
+  - created_time: '2015-07-11T23:35:14+0000'
+    from:
+      name: Mohanad El-Hely
+      id: '871511519703421'
+    message: O3zrne nta 7r2t fkrt bernamg ai 7d mkn ysr2o mnk bkl shoola
+    id: '971120602927648'
+  - created_time: '2015-07-11T23:35:26+0000'
+    from:
+      name: Ahmed Alaaeldin
+      id: '1553410924755364'
+    message: el mshkla ana 3rd 3lehom el fkra w waf2o w b3den a3d ymatlny w myrdsh
+      3lya k2ny bsh7at mnoh m3 any oltloh 3la 3rod momkin easy taxi tstfad aw sponser
+      bs hwa mnfdly :D b2aly aktr mn shahr b7awel m3ahom
+    id: '971120666260975'
+  - created_time: '2015-07-11T23:36:02+0000'
+    from:
+      name: Amr Salman
+      id: '10211225443773296'
+    message: شوف Google Maps بيحبوا الافكار دي اوي ع فكرة
+    id: '971120759594299'
+  - created_time: '2015-07-11T23:37:07+0000'
+    from:
+      name: Ahmed Alaaeldin
+      id: '1553410924755364'
+    message: el mwdou3 msh sahl 3shan el fikra b algorithm mo3en msh baseta ya3ny
+      w b3d m7awalat kbera ya3ny :D
+    id: '971121002927608'
+  - created_time: '2015-07-11T23:39:20+0000'
+    from:
+      name: Ahmed Alaaeldin
+      id: '1553410924755364'
+    message: maho el mwdou3 msh hyb2a mtbat bs fe afkar tania bs el moshkla m7tagen
+      users 3shan kda fakrt f by2olak
+    id: '971121452927563'
+  - created_time: '2015-07-11T23:42:26+0000'
+    from:
+      name: Ahmed Alaaeldin
+      id: '1553410924755364'
+    message: 'aywa hwa already 3aml 7aga zy kda fe rmadan :  https://www.facebook.com/Bey2ollak/photos/a.163742876983999.34287.159381114086842/1032074390150839/?type=1'
+    id: '971121999594175'
+  - created_time: '2015-07-11T23:42:33+0000'
+    from:
+      name: Ibrahim Mohammed
+      id: '1886120441698692'
+    message: this is a gis project, first you should get your database, then you have
+      to go with esri ArcGIS online feature services to host your databased as a spatial
+      service or using ArcGIS server installed on a detected server, after that you
+      will use the Geotrigger feature to enable your app to launch massages or notifications
+      for the user when he reach a certain point like " matab ", you can do this with
+      other tools of course but in anyway you will need some knowledge in GIS
+    id: '971122036260838'
+  - created_time: '2015-07-11T23:43:37+0000'
+    from:
+      name: Ibrahim Mohammed
+      id: '1886120441698692'
+    message: anyway this is very simple for GIS developers
+    id: '971122289594146'
+  - created_time: '2015-07-11T23:43:52+0000'
+    from:
+      name: Ahmed Alaaeldin
+      id: '1553410924755364'
+    message: im already worked with arcobject and i get GIS course in my faculty
+    id: '971122316260810'
+  - created_time: '2015-07-11T23:44:41+0000'
+    from:
+      name: Ahmed Alaaeldin
+      id: '1553410924755364'
+    message: maho el moshkla en mafesh database aw m7dsh rady ysa3dny beha :D
+    id: '971122406260801'
+  - created_time: '2015-07-11T23:48:21+0000'
+    from:
+      name: Islam Waheed
+      id: '10160311597520713'
+    message: try وصلني - Wasalny not as bey2ollak but there are searching for any
+      idea to compete with bey2ollak
+    id: '971123022927406'
+  - created_time: '2015-07-11T23:51:55+0000'
+    from:
+      name: Ibrahim Mohammed
+      id: '1886120441698692'
+    message: |-
+      mmmm gis is all about the data, anyway if you needed any help i'm here,
+      crowd sourcing is your only solution or digitize the data by yourself or your team from satellite imagery which i think is much harder
+    id: '971124122927296'
+  - created_time: '2015-07-11T23:53:34+0000'
+    from:
+      name: Ahmed Alaaeldin
+      id: '1553410924755364'
+    message: maho el fikra lazm tkon el data mn 3arbea 3la shakl track mn gps logger
+      3shan kda fkrt fe easy taxi
+    id: '971124702927238'
+  - created_time: '2015-07-11T23:54:50+0000'
+    from:
+      name: Ahmed Alaaeldin
+      id: '1553410924755364'
+    message: tb lw 7d y3rf awsal l 7d mn UBER Egypt ymkn ykono a7sn mn easy taxi :D
+    id: '971124879593887'
+  - created_time: '2015-07-12T00:01:25+0000'
+    from:
+      name: Ahmed Alaaeldin
+      id: '1553410924755364'
+    message: hwa already m3aya prototype bs el moshkla fel nas m7dsh by7awel yysa3d
+      7d 7ta zmaily fel kolia elly homa cs brdo msh da5la dma8hom :D
+    id: '971127702926938'
+  - created_time: '2015-07-12T00:03:33+0000'
+    from:
+      name: Mohamed El-Banna
+      id: '10211166836833369'
+    message: L2 kamel de fekra gmda w sagelha b esmk bdal ma 7d ysra2ha mnk
+    id: '971127902926918'
+  - created_time: '2015-07-12T00:05:44+0000'
+    from:
+      name: Ahmed Alaaeldin
+      id: '1553410924755364'
+    message: 3la fikra el loger msh m7tag net asln byshta8l bel GPS :D ya3ny el mwdou3
+      baset lazm GPS bs fel mobile
+    id: '971128519593523'
+  - created_time: '2015-07-12T00:13:17+0000'
+    from:
+      name: Ahmed Eskander
+      id: '10159985916830444'
+    message: |-
+      لو الابليكيشن هيسجل المطبات لوحده اتفق مع كام سواق تاكسي ينزلوه وتدفع لهم فلوس.. المشكلة ان جي بي اس بياكل البطارية وهيخافوا علي تليفوناتهم اللي هتبقي عالشاحن باستمرار وهتضطر انت تجيبلهم تليفونات كمان.
+      اما لو هيبلغوا عن المطبات بايدهم فصعب حد يوافق.
+    id: '971129959593379'
+  - created_time: '2015-07-12T00:14:12+0000'
+    from:
+      name: Amr Salman
+      id: '10211225443773296'
+    message: ممكن يكون ده في خطتهم او يكونوا شغالين عليها فعلا وده هيحسن موقفه اكتر
+      وهيكونوا مقتنعين بالفكرة اصلا لانهم بيطبقوها
+    id: '971130079593367'
+  - created_time: '2015-07-12T00:14:51+0000'
+    from:
+      name: Ahmed Alaaeldin
+      id: '1553410924755364'
+    message: la2 automatic :D
+    id: '971130179593357'
+  - created_time: '2015-07-12T00:17:46+0000'
+    from:
+      name: Ahmed Eskander
+      id: '10159985916830444'
+    message: |-
+      خلاص سهله بس هتكلفك شويه.
+      او في حل ببلاش بس محتاج تكتيك.. انك تعمل ابليكيشن يخدم سواقين التاكسي ويغريهم ينزلوه وتحط فيه الكود بتاعك.. او تتفق مع حد صاحب ابليكيشن منتشر يحطلك الكود بمقابل مادي وينزله في ابديت.
+    id: '971130526259989'
+  - created_time: '2015-07-12T00:24:18+0000'
+    from:
+      name: Mostafa Alaa Mohamed
+      id: '1791277350884061'
+    message: Mohamed Ramadan
+    id: '971131709593204'
+  - created_time: '2015-07-12T00:32:55+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: |-
+      Ahmed Alaaeldin Your idea is very very good and can have a great impact outside of Egypt. Don't depend on the help from EasyTaxi. Make an application that focus on the safety of Drivers in General not only Taxis.
+
+      Good luck with your project. it's really a very good idea.
+    id: '971133722926336'
+  - created_time: '2015-07-12T00:48:45+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      1- الفكرة ظريفة ومفيدة طبعا
+
+      2- الأفكار لوحدها ببلاش. التنفيذ هواللي بيخلي ليها قيمة. الفكرة زي ماجتلك جت لبيقولك وإنتو الاتنين عملتوها، وجت لناس كتير قبل منك وعملوها. شوف حلقة خواطر النهارده مثلا. ليه بأقولك كل ده؟ عشان ماتروحش تسجل فكرتك!
+
+      َ3- زي ماالشباب قالوا إنت محتاج تشوف طريقة تانية غير الـ GPS لإن معظم الناس مبتشغلوش. أنا مش شايف إنك لما تحط إمكانية للناس إنهم يدخلوا البيانات بإيديهم إنه غلط. معظم البرامج المشابهة شغالة بنفس الطريقة
+
+      4-إنت قلت إنه مشروع تخرجك. إنت أكيد نفسك يكسر الدنيا (يارب :) ) بس مش معني كده إنك تديله أكتر من حقه. ممكن تبدأ إنت ومجموعة المشروع كل واحد يركب مواصلة مختلفة رايح جاي وتسجلوا المطبات
+
+      5- ليه بيقولك و Easy Taxi نفضولك؟ هم شايفين إنك مستفيد، بس من الناحية التانية هم مش هيستفيدوا حاجة منك، وخصوصا لو كان عندهم نفس الفكرة قبلك وبنفذوها!
+    id: '971136506259391'
+  - created_time: '2015-07-12T00:51:15+0000'
+    from:
+      name: Ahmed Alaaeldin
+      id: '1553410924755364'
+    message: la2 el brnamig msh m7tag 7d ysagl ydawy hwa m7tag track .gpx fel lat
+      w long w time bs zy ay gps logger msh m7tag 7d yda5l data b 2edoh Mohammad Tayseer
+    id: '971136989592676'
+  - created_time: '2015-07-12T00:53:17+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: أنا فاهم ده. أنا بأقول لك إن فيه ناس مش بتحب تشغل الـ GPS عشان البطارية
+      ماتخلصش. الناس دول إنت محتاج توفر لهم وسيلة تانية
+    id: '971137366259305'
+  - created_time: '2015-07-12T00:54:23+0000'
+    from:
+      name: Ahmed Alaaeldin
+      id: '1553410924755364'
+    message: tmam (Y)
+    id: '971137659592609'
+  - created_time: '2015-07-12T00:55:44+0000'
+    from:
+      name: Ibrahim Mohammed
+      id: '1886120441698692'
+    message: مينفعش يا بشمهندس , لازم يكون ال GPS شغال على ال Device و بعدين لو زى
+      ما انت بتقول Ahmed Alaaeldin يبقى انت مش محتاج انك تعمل لود للداتا بيز مسبقا
+      , لان اليوزر هيعمل ديتكت للمطب On the fly , بس مش هى دى الطريقه اللى المفروض
+      يشتغل بيها ابلكيشن زى دا
+    id: '971137802925928'
+  - created_time: '2015-07-12T00:58:57+0000'
+    from:
+      name: Ahmed Alaaeldin
+      id: '1553410924755364'
+    message: hwa el app fe 2 phase server side dah bya5od csv file w yrg3 el matb
+      w feh client side elly hwa el app elly bynabh el user w momkin anzel bel app
+      offline kman el fikra fe an ykon m3aya el tracks bs msh aktr w feeh kam feature
+      kman bs kolohom hay3tmdoh 3la 3dd el use
+    id: '971138536259188'
+  - created_time: '2015-07-12T01:02:51+0000'
+    from:
+      name: Ibrahim Mohammed
+      id: '1886120441698692'
+    message: صدقنى الموضوع ابسط من كدا بكتير جدا , انت حتى ممكن تعمله على fake data
+      sample فى 5 دقايق بالظبط, هى الفكره كلها ان يبقى معاك Lat long لكل مطب فى المدينه
+      اللى انت بتعمل عليها الابليكيشن بس.
+    id: '971139282925780'
+  - created_time: '2015-07-12T01:04:15+0000'
+    from:
+      name: Ahmed Alaaeldin
+      id: '1553410924755364'
+    message: aywa mana btklm f el algorithm elly bygeb lat w long el matb :D
+    id: '971139502925758'
+  - created_time: '2015-07-12T01:12:15+0000'
+    from:
+      name: Ibrahim Mohammed
+      id: '1886120441698692'
+    message: "لحد دلوقتى مفيش , فى ناس اشتغلت على مشاريع تعمل detect لل geographical
+      object من ال satellite imagery بس الكلام دا للحاجات الكبيره زى الطرق و المبانى
+      و مش ناجحه بنسبه كبيره و غير دقيقه فى الاشكال , انما انت بتتكلم عن نقطه واحده
+      يعنى محتاج دقه فى الرصد و دا مش بيتحقق غير ب data collection on the ground manually
+      او ب crowd source \nهى الشغلانه كلها ايه غير انك بتقف جمب المكان بال GPS و تسجل
+      الاحداثيات !"
+    id: '971141152925593'
+  - created_time: '2015-07-12T01:13:19+0000'
+    from:
+      name: Ahmed Yousef
+      id: '1841761432524477'
+    message: شوف الفكرة دى https://www.facebook.com/7asebMa6ab وممكن تتكلم مع صاحب
+      الفكرة Medhat Dawoud أعتقد ممكن تفيدك
+    id: '971141249592250'
+  - created_time: '2015-07-12T02:21:57+0000'
+    from:
+      name: Hesham Sabry El-Nawawy
+      id: '10159893735380542'
+    message: انا كان عندي نفس الفكرة بس لاماكن الرادار... بس مش عارف مدى قانونيتها
+    id: '971154542924254'
+  - created_time: '2015-07-12T10:31:50+0000'
+    from:
+      name: Emad Mokhtar Habib
+      id: '10159905066535634'
+    message: Hesham Sabry El-Nawawy Check Waze https://www.waze.com/
+    id: '971254549580920'
+  - created_time: '2015-07-12T11:02:43+0000'
+    from:
+      name: Yahya Sabry
+      id: '10155600388037886'
+    message: |-
+      طيب صلي بينا علي النبي:
+
+      ١- الفكره حلوه مفيش كلام... ناس كتير بتلم داتا علي الطرق بس مشفتش شخصيا حد بيلم عن المطبات و خصوصا في مصر...
+
+      ٢- موضوع انك تلم داتا بالموبايل GPS ... او انك تركب جهاز في العربيه ... ده ممنوع في مصر و لازم موافقه جهه امنيه و جهه سياديه (في الغالب مش هتعرف تعملها) خصوصا حاليا... فأتأكد من المعلومه دي و لو صح هيبقي صعب في فكره لِسَّه طالعه تمشي غير قانوني.
+
+      ٣- انا شخصيا اعرف حد كان بيلم داتا عن الطرق و بيركب جهاز في العربيات علشان يحدد (نفس فكرتك في جمع الداتا ) و قفل علشان السبب انها مش مرخصه
+
+      ٤- انت كده ممكن حاجه من ٢ يا اما تجيب حد بتاع بيزنس صايع يعرف يبيعها ل easy taxi او uber ... و دول علشان شركتين عالميتين فهو هيبقي بيبيع علي الحاجه بتاعه مصر و ان السوق المصري محتاج حاجه زي كده مفيش كلام و ان حاجه جامده جدا انهم يعرفوا حاله الطرق في الاسواق بتاعتهم كميزه تحددلهم جوده الطرق و الحفاظ علي العربيات و بتاع (دي لو مش عندهم اساسا) دور بقي...
+
+      ٥- يا اما تعمل بروتوتايب سريع تلم بيه داتا (مش قانوني) و تركي الجهاز في كام تاكسي ... نقول ١٠ مثلا ... اللي اعرفه عمل كده كان جايب الأجهزه من الصين (عدت علي فكره من جمرك المطار) بس كان من ٣ سنين ... و الجهاز بتركيبه للسواق كان بيكلفه ٥٠٠ جنيه ... ١٠٠ جهاز و ٤٠٠ للسواق يساعده في القسط... كان حاطط ميزه حلوه بيقنع بيها السواقين انه يقدر يحدد مكان ألعربيه في اي وقت ففالغالب لو اتسرقت هيعرفه مكانها فين ودي سهله ليك انت كمان...
+
+      ٦- لما تلم داتا محترمه و معاك حاجه شغاله... اطلع بيها علي انكيوبيتر او لم فلوس من مستثمرين علي انك تعمل الفكره (بره مصر) سوق الخليج هيبقي ممتاز ... بس في كل الأحوال مش هتعرف تبيع و لا تلم فلوس غير لما تجيب حد بتاع بيزنس صاااايع...
+
+      وربنا يوفقك ... فكره حلوه اوي :)
+    id: '971260886246953'
+  - created_time: '2015-07-12T11:50:10+0000'
+    from:
+      name: Sabr Bry
+      id: '10203807938637084'
+    message: "IT WON'T WORK\n\nThe need is not high, I mean\n\nانا عارف طريقي بالمطبات
+      بتاعته .. امتي الواحد هيمشي في طريق مامشيش فيه قبل كده؟! .. ولو امشي هيفتكر
+      يستخدم الابليكيشن بتاعك ؟\n\nمن الناحيه الماديه .. هتكسب ازاي؟ انت فاكر ان الناس
+      بتكسب من الـ \nApps\nفي مصر؟\n\nمشروع تخرجك فرصه انك تعمل حاجه كويسه تكون بذره
+      ليك في المستقبل انك تعمل عملك الخاص .. ماتضيعهاش علي الفكره ديه .. \n\n\"ابعد
+      عن السوق المصري\" \n\"مش لازم تبتكر .. لو عملت حاجه معموله بس سهلت الاستخدام
+      هتنجح\"\n\"الابتكار المتناهي بيقلل فرص النجاح لأنك بتعمل حاجه محدش عملها قبلك
+      ومفيش اي دراسه للسوق\"\n\nعارف انك مش هتسمع كلامي .. بس هاتفتكره بعدين !\nوربنا
+      معاك\n\nAhmed Alaaeldin"
+    id: '971269882912720'
+  - created_time: '2015-07-12T11:56:03+0000'
+    from:
+      name: Yahya Sabry
+      id: '10155600388037886'
+    message: "Sabr bry... مختلف معاك ... الفكره حلوه و ليها نييد و ساعات كتير الواحد
+      بيمشي في طرق اول مره بعرفها و بيلبس ... \n\nمتفكرش انها المفروض تكون موبيل ...
+      ممكن جهاز في ألعربيه يدي انزار قبل المطب ب ١٠٠ متر مثلا ...\n\nالتفكير في الفلوس
+      مهم ... و الفكره عاوزه واخد بتاع بيزنس بيفهم هو اللي يظبط ... متقفلهاش في وشه
+      ...\n\nمعاك انه لو عاوز يعملها حاجه لاااازم يطّلع بره البلد"
+    id: '971270796245962'
+  - created_time: '2015-07-12T12:07:03+0000'
+    from:
+      name: Radwa Elsahn
+      id: '10160005338450051'
+    message: Mohamed Salem Korayem
+    id: '971272686245773'
+  - created_time: '2015-07-12T12:08:10+0000'
+    from:
+      name: Sabr Bry
+      id: '10203807938637084'
+    message: Yahya Sabry هم بره عندهم مطبات :) ؟
+    id: '971272889579086'
+  - created_time: '2015-07-12T12:24:13+0000'
+    from:
+      name: Yahya Sabry
+      id: '10155600388037886'
+    message: "Sabr Bry بص انا مسافرتش كتير بس دبي مثلا بتخطيط اجنبي و علي ارقي مستوي
+      و فيها مطبات عادي .. بس منظمة و مدروسة و ظاهرة ... مش هتحتاج 100 تحذير قبليها
+      ... \nعلشان كده قلتله .. لو هيروح لشركة كبيرة ذي easy taxi او uber يكون الكلام
+      علي حاله الطرق و المظبات العشوائية علشان يحافظوا علي عربياتهم ...\nو لو بره
+      مصر برده الداتا عن حالة الطرق دي حاجة مفتكرش انها ملهاش لازمة ..."
+    id: '971279269578448'
+  - created_time: '2015-07-12T12:27:17+0000'
+    from:
+      name: Sabr Bry
+      id: '10203807938637084'
+    message: |-
+      Yahya Sabry المطبات اللي بره متخططه صح .. مش محتاجه برنامج
+      الفكره محليه تماما ومش هاتنجح -في رائي الشخصي-
+    id: '971279882911720'
+  - created_time: '2015-07-12T12:28:12+0000'
+    from:
+      name: Yahya Sabry
+      id: '10155600388037886'
+    message: ممكن يكون عندك حق
+    id: '971280072911701'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVGN4TVRFNU5qTTJNall4TURjNE9qRTBNelkyTlRjME5UST0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVGN4TWpnd01EY3lPVEV4TnpBeE9qRTBNelkzTURRd09UST0ZD

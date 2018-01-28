@@ -1,0 +1,54 @@
+---
+message: |-
+  Hello,
+
+  I want to start a discussion about which front-end framework would you recommend for a beginner to learn in 2018 ? and what would be your criteria for choosing this specific framework?
+  -----------------------------------------------------------------------------------------------
+
+  here is what I think of the current big 3 [Angular, React, vue]. I haven't used any of them for an extended amount of time other than react. so take my opinion with a grain of salt.
+
+  My main criteria for judging is : relevancy in the job market, learning curve, development speed and advocating good development practices.
+
+  - Angular: I don't think angular 1 is relevant anymore. for angular2 though I think it's accessible and relevant enough. but I fear typescript maybe not a intuitive to those who are just starting to learn JavaScript. also last time I used it there seems to be always trouble finding packages that have typescript typing. also RxJS is not that intuitive. However I haven't used angular2 for over a year now so maybe that has changed.
+
+  - React: while I think react is one the most relevant and well designed framework/rendering Library. it doesn't come free of cost though since it's learning curve is not negligible. and JSX and Redux look very intimidating at first. I think it deserves extra points though for advocating good practices like unidirectional data flow and functional programming. but it loses these points due to the fact that it's ecosystem is so vast. that any beginners will get decision fatigue really quickly thus leading to slow development speed.
+
+  - Vue: I have only used vue recently so my opinion is not rock solid. but so far it seems to try to find the sweet spot between development speed and good development practices. it does most of the stuff that react almost in a similar way but with less boilerplate. also it has a nice mature ecosystem with easy integrations. for example vue-router is stupidly easy to integrate. however I still doubt it's capabilities in bigger projects and I am not a fan of it's templating engine or it how uses strings to reference stuff around [too much magic for me]. it still seems like a really good option to start with.
+
+  So TL;DR for me I think Vue is the best to start with for beginners.
+from:
+  name: Ali Hassan
+  id: '1843891078979183'
+type: status
+created_time: '2018-01-27T21:34:58+0000'
+updated_time: '2018-01-27T21:58:36+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1735389086500792/
+id: '172338516139198_1735389086500792'
+reactions:
+  data:
+  - id: '10211837909289309'
+    name: Mohamed Hussein
+    type: LIKE
+  - id: '1592917007496436'
+    name: Hesham Nasser
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRReE56UTRNREl5TlRveE5URTNNRGc1TWprMU9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBd01EQXpNelEwTlRZAek56VTVPakUxTVRjd09Ea3hOVFk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2018-01-27T21:39:15+0000'
+    from:
+      name: Hesham Nasser
+      id: '1592917007496436'
+    message: "if a beginner starts with react, angular, Vue then he will be just implementer
+      and limited by the framework. \nmaybe it's a fast way, but who will develop
+      other framework and from where can build the imagination and creativity.\nYes,
+      I agree its good with companies and business but not for learning.\nif you mean
+      after learning the basics and that's for not start its okay"
+    id: '1735581933148174'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN6TlRVNE1Ua3pNekUwT0RFM05Eb3hOVEUzTURnNU1UVTEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN6TlRVNE1Ua3pNekUwT0RFM05Eb3hOVEUzTURnNU1UVTEZD

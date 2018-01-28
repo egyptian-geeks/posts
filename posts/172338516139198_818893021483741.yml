@@ -9,3 +9,47 @@ created_time: '2014-09-24T14:57:20+0000'
 updated_time: '2014-09-24T17:38:08+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/818893021483741/
 id: '172338516139198_818893021483741'
+comments:
+  data:
+  - created_time: '2014-09-24T14:59:32+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: A trade-off between the features your application needs and the number
+      of devices you want to support.
+    id: '818893664817010'
+  - created_time: '2014-09-24T15:00:24+0000'
+    from:
+      name: Sherif Omar
+      id: '10159954581715092'
+    message: So which sdk version do you use ?
+    id: '818893974816979'
+  - created_time: '2014-09-24T15:03:48+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: It depends, for example an application that is intended for public service
+      named Yalahwy (shameless plug, sorry) we are targeting API 9 to cover as many
+      devices as possible. But for another app that features OpenGL rendering we are
+      targeting API 16.
+    id: '818895091483534'
+  - created_time: '2014-09-24T15:22:29+0000'
+    from:
+      name: Ahmed Ibrahim Khalil
+      id: '10152956726593657'
+    message: I guess you should be okay starting from API 4 so that you can target
+      as many devices as possible, as version 4 support library includes many utilities
+      and widgets that fills the gap between the older and newer SDKs.
+    id: '818901754816201'
+  - created_time: '2014-09-24T17:38:08+0000'
+    from:
+      name: Ahmed Mahmoud
+      id: '1994039280610267'
+    message: it depend on the client  most of them chose to start from API 14 and
+      ignore 12.1% of the device or support them after the release of the first version
+      .
+    id: '818947111478332'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPREU0T0Rrek5qWTBPREUzTURFd09qRTBNVEUxTnpBM056ST0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPREU0T1RRM01URXhORGM0TXpNeU9qRTBNVEUxT0RBeU9EZAz0ZD

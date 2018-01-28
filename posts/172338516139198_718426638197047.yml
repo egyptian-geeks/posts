@@ -8,3 +8,108 @@ created_time: '2014-03-22T06:59:28+0000'
 updated_time: '2014-03-22T10:43:49+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/718426638197047/
 id: '172338516139198_718426638197047'
+comments:
+  data:
+  - created_time: '2014-03-22T08:15:31+0000'
+    from:
+      name: Abdalla Elnaggar
+      id: '2096764887006623'
+    message: مش عارف بس نعتبر انها  return اى حاجه
+    id: '718447974861580'
+  - created_time: '2014-03-22T08:16:04+0000'
+    from:
+      name: Abdalla Elnaggar
+      id: '2096764887006623'
+    message: لو بترتن value هيروح فين
+    id: '718448141528230'
+  - created_time: '2014-03-22T08:17:31+0000'
+    from:
+      name: Abdalla Elnaggar
+      id: '2096764887006623'
+    message: |-
+      Bundle extras = getIntent().getExtras();
+      if (extras == null) {
+        return;
+      }
+      // get data via the key
+      String value1 = extras.getString(Intent.EXTRA_TEXT);
+      if (value1 != null) {
+        // do something with the data
+      }
+    id: '718448358194875'
+  - created_time: '2014-03-22T08:26:45+0000'
+    from:
+      name: Ahmed Moosa
+      id: '10210990493546895'
+    message: الكود دا يفترض إنه داخل Void   Method  , يعنى مش بترجع قيمة , والكود
+      دا معناه, لو xx Is Null , إخرج خارج الـ Method , يعنى مش تنفذ باقى الكود _________بس
+      خلاص __ بالتوفيق .
+    id: '718450278194683'
+  - created_time: '2014-03-22T08:29:35+0000'
+    from:
+      name: Abdalla Elnaggar
+      id: '2096764887006623'
+    message: انا والله عارف ال method كويس بس انا استغربه من الشكل قولت يمكن فى حاجه
+      انا معرفهاش علشان كده بسئل
+    id: '718451278194583'
+  - created_time: '2014-03-22T08:31:20+0000'
+    from:
+      name: Ahmed Moosa
+      id: '10210990493546895'
+    message: |-
+      Mostafa Hussein
+      لا , إنت ممكن تستخدم Return بس, لو محتاج تنهى تنقيذ الكود , وإنت داخل Void Method, أما Return false , الكلام دا لو محتاج ترجع قيمة bool ________ وصلت ولا لسة فيه غموض فى الشرح ؟
+    id: '718451681527876'
+  - created_time: '2014-03-22T08:33:37+0000'
+    from:
+      name: Ahmed Moosa
+      id: '10210990493546895'
+    message: لا مش صح , لإن Break  بتكسر Loop, ومش بتخرج من Method, إنما Return بتخرج
+      .
+    id: '718452014861176'
+  - created_time: '2014-03-22T08:34:41+0000'
+    from:
+      name: Ahmed Moosa
+      id: '10210990493546895'
+    message: و لاحظ إن مسموح بـ Return بس , داخل Void Method .
+    id: '718452234861154'
+  - created_time: '2014-03-22T08:43:39+0000'
+    from:
+      name: Mohammed Al-awadi
+      id: '10212213217418830'
+    message: Return; بتستخدم لما الميثود ال return type is void and it means stop
+      executing the method . i assume you using this on oncreate android in this case
+      will stop on create .
+    id: '718453868194324'
+  - created_time: '2014-03-22T08:49:58+0000'
+    from:
+      name: Khaled M. Diab
+      id: '10215626626127168'
+    message: |-
+      In C, you can just write 'return;' even if the function is supposed to return something, in C the logic behind this is "It is the developer responsibility"!
+
+      In C++, you still can do something like this (to just return, even if the function requires a return value), but you need to pass -fpermissive flag to the compiler. Generally, -fpermissive flag is not recommended to be used, since it can really mess with your compilation process ...
+
+      For the code snippet, I don't know if it's a C code, since C doesn't have 'null' unless you define a macro
+      #define null 0
+      In C, NULL is used for this macro definition ...
+    id: '718455074860870'
+  - created_time: '2014-03-22T08:50:59+0000'
+    from:
+      name: Khaled M. Diab
+      id: '10215626626127168'
+    message: In C++11, the new keyword nullptr is used rather than NULL or the 0,
+      which is more convenient ...
+    id: '718455241527520'
+  - created_time: '2014-03-22T10:43:49+0000'
+    from:
+      name: Mahmoud Abd El-Fattah
+      id: '10156358805885288'
+    message: This code is only valid if the method return type is void. This means
+      to stop the execution and exit the whole function. Something like "break" in
+      loops but for the whole method.
+    id: '718479954858382'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekU0TkRRM09UYzBPRFl4TlRnd09qRXpPVFUwTnpZAeE16RT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekU0TkRjNU9UVTBPRFU0TXpneU9qRXpPVFUwT0RVd01qaz0ZD

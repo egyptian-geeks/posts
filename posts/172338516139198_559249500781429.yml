@@ -13,3 +13,52 @@ updated_time: '2013-05-03T22:31:00+0000'
 name: https://api.parse.com/1/push
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/559249500781429/
 id: '172338516139198_559249500781429'
+comments:
+  data:
+  - created_time: '2013-04-28T19:52:06+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: I don't thik you can push notifications if you app is not running in
+      the background. one thing you can do is to make a background worker to check
+      for the json file searching for new messages.
+    id: '559402444099468'
+  - created_time: '2013-04-29T05:08:36+0000'
+    from:
+      name: Adel K. Khalil
+      id: '10159958402365584'
+    message: Actually you can, i did that just not with PhoneGap
+    id: '559540257419020'
+  - created_time: '2013-05-02T21:06:55+0000'
+    from:
+      name: Adel K. Khalil
+      id: '10159958402365584'
+    message: Once your app is installed and established a connection with Apple Push
+      APIs or Google Push APIs you will be able to do that when the app is offline,
+      in fact this is the primary goal of push notifications.
+    id: '561009983938714'
+  - created_time: '2013-05-03T21:51:20+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: yes but how you app is gonna send notification if it's not working :D
+      or in the background ?
+    id: '561401777232868'
+  - created_time: '2013-05-03T22:31:00+0000'
+    from:
+      name: Adel K. Khalil
+      id: '10159958402365584'
+    message: good question :) I was after pushing notification from the server to
+      the app so that works.
+    id: '561411940565185'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOVFU1TkRBeU5EUTBNRGs1TkRZANE9qRXpOamN4TnpnM01qWT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOVFl4TkRFeE9UUXdOVFkxTVRnMU9qRXpOamMyTWpBeU5qQT0ZD
+attachments:
+  data:
+  - target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fapi.parse.com%2F1%2Fpush&h=ATMa43kdJ0_Lmn9OyrH2799NhU17Nu7NfmkwbhPoRkIbTgEqFMyXKOkMIg9Mdja-Nyvp2MU8PcuQsO1xONWBlV60L3uL7bM5Sgns&s=1&enc=AZNNvV0N7f4nyO3z_2yZR6ji69aKjzEd2RcdwS8c2rqF3MuTg4F_k73RDae_jv4ZOl0pTDP0ZPKHPQB7oME0-IIs
+    title: https://api.parse.com/1/push
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fapi.parse.com%2F1%2Fpush&h=ATMa43kdJ0_Lmn9OyrH2799NhU17Nu7NfmkwbhPoRkIbTgEqFMyXKOkMIg9Mdja-Nyvp2MU8PcuQsO1xONWBlV60L3uL7bM5Sgns&s=1&enc=AZNNvV0N7f4nyO3z_2yZR6ji69aKjzEd2RcdwS8c2rqF3MuTg4F_k73RDae_jv4ZOl0pTDP0ZPKHPQB7oME0-IIs

@@ -10,3 +10,32 @@ created_time: '2014-12-08T17:11:01+0000'
 updated_time: '2014-12-09T13:22:17+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/858040450902331/
 id: '172338516139198_858040450902331'
+reactions:
+  data:
+  - id: '10215620557573580'
+    name: Mohamed Abdel Aty
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRRek1ETXhNRFkwTURveE5ERTRNVGsyT0RreU9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRRek1ETXhNRFkwTURveE5ERTRNVGsyT0RreU9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2014-12-08T17:35:06+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: A 32bit bus is capable of  addressing 2^32 locations, each containing
+      a byte, thus total memory is 2^32 bytes.
+    id: '858048947568148'
+  - created_time: '2014-12-08T17:47:28+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: Here is some ASCII art explaining that. Each address targets a whole
+      byte, not a single bit.
+    id: '858053260901050'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFU0TURRNE9UUTNOVFk0TVRRNE9qRTBNVGd3TmpBeE1EWT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFU0TURVek1qWXdPVEF4TURVd09qRTBNVGd3TmpBNE5EZAz0ZD

@@ -10,3 +10,156 @@ created_time: '2015-06-18T12:35:02+0000'
 updated_time: '2015-06-18T14:51:37+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/960138437359198/
 id: '172338516139198_960138437359198'
+reactions:
+  data:
+  - id: '10210172319016618'
+    name: Mohamed Hagras
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRVNU9ESXpNalU1TnpveE5ETTBOak0wTURjeE9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRVNU9ESXpNalU1TnpveE5ETTBOak0wTURjeE9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2015-06-18T12:44:58+0000'
+    from:
+      name: Ahmed Mabrook
+      id: '10213056573263683'
+    message: Yes you can, it's common and not hard. try Googling it before posting
+      this question, people here would eat you alive for that :D
+    id: '960141427358899'
+  - created_time: '2015-06-18T12:50:45+0000'
+    from:
+      name: Mohamed Mostafa
+      id: '2333723516854125'
+    message: i'd tried alot of answers on stack and it's still not working
+    id: '960143600692015'
+  - created_time: '2015-06-18T13:08:42+0000'
+    from:
+      name: Ahmed Ibrahim Khalil
+      id: '10152956726593657'
+    message: |-
+      No, I don't think you can, ACTION_PACKAGE_REMOVED broadcast will be sent to all other apps on your system except for your uninstalled app.
+      Google Play though, does give you insights about the number of installed/uninstalled users.
+    id: '960149344024774'
+  - created_time: '2015-06-18T13:13:32+0000'
+    from:
+      name: Mohamed Mostafa
+      id: '2333723516854125'
+    message: Thanks
+    id: '960150524024656'
+  - created_time: '2015-06-18T13:15:25+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: So the expected behavior is that once the user uninstalls the app, Chrome
+      will suddenly open a web page? Do you think this is an acceptable behavior in
+      the first place?
+    id: '960151130691262'
+  - created_time: '2015-06-18T13:21:37+0000'
+    from:
+      name: Ahmed Mabrook
+      id: '10213056573263683'
+    message: Ahmed Ibrahim Khalil i guess there's a work around to have an independent
+      service in the background installed separated from the app
+    id: '960153034024405'
+  - created_time: '2015-06-18T13:23:20+0000'
+    from:
+      name: Ahmed Ibrahim Khalil
+      id: '10152956726593657'
+    message: Ahmed Mabrook Since your service is written inside the AndroidManifest.xml
+      of your application, it will be uninstalled as well.
+    id: '960153397357702'
+  - created_time: '2015-06-18T13:23:21+0000'
+    from:
+      name: Mohamed Mostafa
+      id: '2333723516854125'
+    message: As it will open a servey to ask the user what is the matter with the
+      application to improve it i think it's  acceptable
+    id: '960153400691035'
+  - created_time: '2015-06-18T13:25:02+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: Acceptability is not a matter of what you as a developer want to achieve.
+      It is a matter of what users find acceptable. Personally, as an Android user,
+      I would report an app that employs such invasive tactics.
+    id: '960154204024288'
+  - created_time: '2015-06-18T13:25:32+0000'
+    from:
+      name: Ahmed Ibrahim Khalil
+      id: '10152956726593657'
+    message: |-
+      Muhammad Mustafa
+      And why would a user waste his time on your survey especially after he wasted his time with your application ?
+    id: '960154440690931'
+  - created_time: '2015-06-18T13:28:39+0000'
+    from:
+      name: Mohamed Mostafa
+      id: '2333723516854125'
+    message: |-
+      I just want to know how many user has uninstalled my app i don't need to know anything  else
+
+      I wouldn't  trace anything else :) i can do it btw but i'll put a very critical  permission  which i refused to put it in my app :))
+    id: '960155424024166'
+  - created_time: '2015-06-18T13:29:10+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: That piece info is available in the Google Play developer console.
+    id: '960155597357482'
+  - created_time: '2015-06-18T13:32:23+0000'
+    from:
+      name: Mohamed Mostafa
+      id: '2333723516854125'
+    message: In alpha and beta versions the possibility  of uninstalling app is very
+      high i want to know why he uninstalled it to do the exact  improvement  in the
+      app
+    id: '960156224024086'
+  - created_time: '2015-06-18T13:33:15+0000'
+    from:
+      name: Mohamed Mostafa
+      id: '2333723516854125'
+    message: Thanks guys and happy ramadan :)
+    id: '960156417357400'
+  - created_time: '2015-06-18T13:34:15+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: You have changed your mind twice so far. What is it exactly that you
+      want to do?
+    id: '960156827357359'
+  - created_time: '2015-06-18T13:34:58+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: And as for alpha/bet versions and improvements, that is usually done
+      via testers, you do not release your app into the wild and then ask people what
+      they think *after* they uninstall it.
+    id: '960157057357336'
+  - created_time: '2015-06-18T14:32:59+0000'
+    from:
+      name: Hisham Hassan
+      id: '10156155579969187'
+    message: 'I am sure you can. There is an ad network that can display an ad or
+      a survey when a user uninstall your app. Check it and see how it is working:
+      http://www.appjolt.com'
+    id: '960175324022176'
+  - created_time: '2015-06-18T14:44:12+0000'
+    from:
+      name: Ahmed Ibrahim Khalil
+      id: '10152956726593657'
+    message: "After investigating Hisham Hassan's answer.\nI found a good approach
+      in this answer[1], but you will have to add the GET_TASKS permission, and I
+      don't think it is 100% working across all devices. \n\n[1] http://stackoverflow.com/a/18816716/429962"
+    id: '960180264021682'
+  - created_time: '2015-06-18T14:51:37+0000'
+    from:
+      name: Mohamed Mostafa
+      id: '2333723516854125'
+    message: thanks <3 i hope it works
+    id: '960185967354445'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFl3TVRReE5ESTNNelU0T0RrNU9qRTBNelEyTXpFME9UZAz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFl3TVRnMU9UWTNNelUwTkRRMU9qRTBNelEyTXprd09UYz0ZD

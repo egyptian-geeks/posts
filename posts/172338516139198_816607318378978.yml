@@ -10,3 +10,53 @@ created_time: '2014-09-19T12:02:39+0000'
 updated_time: '2014-09-20T08:05:00+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/816607318378978/
 id: '172338516139198_816607318378978'
+reactions:
+  data:
+  - id: '10155961552416083'
+    name: Abdallah Hodieb
+    type: LIKE
+  - id: '10156649659196002'
+    name: Muhammad Saleh
+    type: LIKE
+  paging:
+    cursors:
+      before: TnpNeE5qRXhNRGd5T2pFME1URXlOalE0T1RVNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TmprMU5UazJNREF4T2pFME1URXhNekUzT0RnNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2014-09-19T22:10:31+0000'
+    from:
+      name: Mahmoud Fawzy
+      id: '10212961449483338'
+    message: umm, nice article that will be very useful in the days to come :D but
+      ... probably I'm missing something; Towards the end of the article, the writer
+      has mentioned "OpeVPN through SSH Tunnel"  .... why would one need to use a
+      VPN (for the purpose of hiding traffic) along with an SSH Tunnel ? (shouldn't
+      the SSH Tunnel be sufficient to encrypt all the traffic? specially if done through
+      something like SSHuttle? )
+    id: '816807788358931'
+  - created_time: '2014-09-20T07:13:32+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: That's to masquerade the VPN connection since DPI in the mentioned countries
+      has blocked it.
+    id: '817014961671547'
+  - created_time: '2014-09-20T08:05:00+0000'
+    from:
+      name: Mahmoud Fawzy
+      id: '10212961449483338'
+    message: Yes I understand that this is the goal of the entire article anyways.  But
+      I'm just wondering if the SSH tunnel by itself is just sufficient to bypass
+      DPI? I've always thought that the SSH Tunnel is some sort of a *secure* channel
+      as all the packets between the two hosts are encrypted by default,  in which
+      case is a VPN just an overhead (given how stupid connections in Egypt are already
+      :D)  or is it still absolutely required? ...  (this is quiet different from
+      asking why should I care about masquerading my VPN traffic though; I do appreciate
+      that part but am a little confused about the other one about combining SSH tunneling
+      and VPNs). Really appreciate your time :)
+    id: '817025648337145'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPREUyT0RBM056ZAzRNelU0T1RNeE9qRTBNVEV4TmpRMk16RT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPREUzTURJMU5qUTRNek0zTVRRMU9qRTBNVEV5TURBek1EQT0ZD

@@ -10,3 +10,90 @@ updated_time: '2015-02-18T20:57:13+0000'
 name: HTTP/2, the first update to HTTP in 16 years, has been finalized
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/896789673694075/
 id: '172338516139198_896789673694075'
+reactions:
+  data:
+  - id: '1595017670586877'
+    name: Abdelrahman Mohsen
+    type: LIKE
+  - id: '10155815529215590'
+    name: Taha Amin
+    type: LIKE
+  - id: '10155173051963199'
+    name: Pola Ashraf
+    type: LIKE
+  - id: '10159879865770402'
+    name: Ahmed Koraïem
+    type: LIKE
+  - id: '1550774681686883'
+    name: Eslam Esmaeal
+    type: LIKE
+  - id: '10159888022555052'
+    name: Fady Anwar
+    type: LIKE
+  - id: '10156284492809497'
+    name: Ahmed Hassan
+    type: LIKE
+  - id: '10214108936010929'
+    name: Ahmed Youssef
+    type: LIKE
+  - id: '1657509230977456'
+    name: Hosam Aly
+    type: LIKE
+  - id: '10156223405241800'
+    name: Mina Alber
+    type: LIKE
+  - id: '10211136228265195'
+    name: Abdullah S. Al Nady
+    type: LIKE
+  - id: '10213017755051330'
+    name: Abdelrhman Shawky
+    type: LIKE
+  - id: '10160105091405314'
+    name: Mohamed Elsherif
+    type: LIKE
+  - id: '10156484977540616'
+    name: Mohamed Elawady
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlNelU1TnprNE9EZA3pPakUwTWpRek1EUTRNalk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TlRZAeU5EUXdOakUxT2pFME1qUXlORE16TmprNk1qVTBNRGsyTVRZAeE13PT0ZD
+attachments:
+  data:
+  - description: Today, the next major version of HTTP took a big step toward becoming
+      a reality; it’s been officially finalized and now moves towards being fully
+      standardized.<p>According to a blog by Mark Nottingham, the chair of the IETF
+      HTTP Working Group, the standard was completed today and is on its way to the
+      RFC Editor to go through editorial processes before being published as a standard.<p>HTTP/2
+      is a huge deal; it’s the next big version of the Hypertext Transfer Protocol,
+      marking the largest change since 1999 when HTTP 1.1 was adopted.<p>The new standard
+      brings a number of benefits to one of the Web’s core technologies, such as faster
+      page loads, longer-lived connections, more items arriving sooner and server
+      push. HTTP/2 uses the same HTTP APIs that developers are familiar with, but
+      offers a number of new features they can adopt.<p>One notable change is that
+      HTTP requests will be ‘cheaper’ to make. The Web community has often told developers
+      to avoid adding too many HTTP requests to their pages, which lead to optimization
+      techniques like code inlining or concatenation to reduce the requests. With
+      HTTP/2, a new multiplexing feature allows lots of requests to be delivered at
+      the same time, so the page load isn’t blocked.<p>HTTP/2 also uses significantly
+      fewer connections, hopefully resulting in lower load for servers and networks.
+      Nottingham previously published a number of other improvements coming to the
+      standard on his blog.<p>The new HTTP standard was based on Google’s SPDY protocol,
+      which is used today by some technologies to manipulate traffic which helps improve
+      latency and security, delivering faster page load times. Google announced just
+      a few days ago that it plans to switch fully to HTTP/2 in Chrome.<p>Developers
+      wishing to test HTTP/2 before it becomes official can already do so now in Firefox
+      and Chrome, along with downloadable test servers to try improvements for themselves.
+      More information is available in the HTTP/2 FAQ.<p>It should be a relatively
+      short time before the standard is passed through the Request-For-Comments Editor
+      and published for use in its final form.<p>➤ HTTP/2 is Done [mnot’s blog]
+    media:
+      image:
+        height: 93
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAcoyNalp-DsxGT&w=720&h=720&url=http%3A%2F%2Fcdn.flipboard.com%2Ftnwcdn.com%2F9752e69fcd788dc9ef5a087ce842ce9dbcaf05c6%2Fthumbnail.jpg&cfs=1&_nc_hash=AQDeH7GD7C3dcGVw
+        width: 93
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fflip.it%2FytvAp&h=ATP9uASfNpuT-54gOPyGcwWsj7i8y1gVYx5f1U5MAlGN3v1t-ijy73QjvdpncIq53LATnv3uCXb3IbM3tuJg5WodzOFPbk32my1F&s=1&enc=AZMQg6mlkX6Y7cLbnXi9ID4jE2Ixm-DdqEy7DxyBQ8TQ8s6aKmz_tprwNb7DI_WdqktB5BQ0390r4SGtwLs-5asZ
+    title: HTTP/2, the first update to HTTP in 16 years, has been finalized
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fflip.it%2FytvAp&h=ATP9uASfNpuT-54gOPyGcwWsj7i8y1gVYx5f1U5MAlGN3v1t-ijy73QjvdpncIq53LATnv3uCXb3IbM3tuJg5WodzOFPbk32my1F&s=1&enc=AZMQg6mlkX6Y7cLbnXi9ID4jE2Ixm-DdqEy7DxyBQ8TQ8s6aKmz_tprwNb7DI_WdqktB5BQ0390r4SGtwLs-5asZ

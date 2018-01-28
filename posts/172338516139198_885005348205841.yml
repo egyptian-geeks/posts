@@ -11,3 +11,82 @@ updated_time: '2015-01-23T17:36:26+0000'
 name: Andrew Betts on Twitter
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/885005348205841/
 id: '172338516139198_885005348205841'
+reactions:
+  data:
+  - id: '10156207737619180'
+    name: Ahmed Al-Amir
+    type: LIKE
+  - id: '10156115350739764'
+    name: Mahmoud Tantawy
+    type: LIKE
+  - id: '627907956'
+    name: Emad Elsaid
+    type: LIKE
+  - id: '10213738834576763'
+    name: Amjad Mashaal
+    type: LIKE
+  - id: '1672329366148161'
+    name: Muhammad Sweilam
+    type: LIKE
+  - id: '10155226291481186'
+    name: أحمد محمود محمد عبدالوهاب
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpZAMU16VTVNVGM1T2pFME1qSXdNelExT0RnNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TmpVNE5USXhNVGcxT2pFME1qSXdNVGMyT1RBNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2015-01-23T12:56:38+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: they want to bypass IE checks ?
+    id: '885006954872347'
+  - created_time: '2015-01-23T13:01:42+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: https://gist.github.com/jacobrossi/c9699b27df2f4e97c0bd#comment-1377769
+    id: '885008308205545'
+  - created_time: '2015-01-23T16:42:27+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: أنا مش عارفني. أنا تهت مني. أنا مش أنا!
+    id: '885171584855884'
+  - created_time: '2015-01-23T17:24:25+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: |-
+      Microsoft is removing any reference to IE in the 'User Agent' string ... Basically because it is a common practice to sniff the UA and provide  IE with *special* responses to address the issues IE have. They promise that the new browser will behave well like other modern browsers so you no longer need to respond to IE with a less robust code!
+      Opera did something similar long time ago; before migrating to Webkit/Blink, Presto engine used to understand the Webkit prefix. At this time a lot of people were caring only about Mozilla and Webkit based browsers and didn't care much about Opera prefix because of its market share (although Opera supported these features as well even better than Webkit based browsers). Opera did the exact same thing (removing any reference to Opera in the UA string) and no one had any problems with that because it was standard compliant and didn't need any special treatment. It even had more innovative features than other browsers at this time.
+      The problem with IE is its history. Microsoft always promise that the new version of their browser will be more standard compliant, will have better support for features but it always cause troubles. Removing any reference to IE will make life harder :)
+      UA sniffing generally is a bad practice and people should rely on feature detection ... but in some conditions, there is no other way around it.  There is an interesting article I read before, it worth reading to understand why all user agents start with Mozilla :D
+      http://webaim.org/blog/user-agent-string-history/
+    id: '885185958187780'
+  - created_time: '2015-01-23T17:36:26+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: عزوة برضه
+    id: '885189168187459'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGcxTURBMk9UVTBPRGN5TXpRM09qRTBNakl3TVRjM09UZAz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGcxTVRnNU1UWTRNVGczTkRVNU9qRTBNakl3TXpRMU9EWT0ZD
+attachments:
+  data:
+  - description: “New IE replacement to have "Spartan/1" UA string! No just kidding
+      it names every browser except itself. https://t.co/dH70zxv3TZ”
+    media:
+      image:
+        height: 400
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQDkPayqkSdgP4C9&w=400&h=400&url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F2601930580%2Fa7exh9e74z7hzs4cyrqr_400x400.jpeg&cfs=1&sx=0&sy=0&sw=400&sh=400&_nc_hash=AQCX9NWyV3y06lUb
+        width: 400
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Ftwitter.com%2Ftriblondon%2Fstatus%2F558161890741092352&h=ATMAHb4xwdlTU6MMvM4z6w5LHuPVDj-GOc-KDu8IFUQW7XYHB7X4z5LLy2XUJtEFdsqcxs4lN7ICguDClAAXFU6rw8Ai8hmNBY3y&s=1&enc=AZPxw0Yyjnai-oYXbzDiKKSTMpmyFzZbskNsdUe6XhJT_t002qbKfgSe-sd5x2odvjBgz79phtAfFVMIqnH-tNK0
+    title: Andrew Betts on Twitter
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Ftwitter.com%2Ftriblondon%2Fstatus%2F558161890741092352&h=ATMAHb4xwdlTU6MMvM4z6w5LHuPVDj-GOc-KDu8IFUQW7XYHB7X4z5LLy2XUJtEFdsqcxs4lN7ICguDClAAXFU6rw8Ai8hmNBY3y&s=1&enc=AZPxw0Yyjnai-oYXbzDiKKSTMpmyFzZbskNsdUe6XhJT_t002qbKfgSe-sd5x2odvjBgz79phtAfFVMIqnH-tNK0

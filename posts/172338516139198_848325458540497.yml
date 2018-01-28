@@ -12,3 +12,70 @@ created_time: '2014-11-19T06:35:32+0000'
 updated_time: '2014-11-19T09:53:34+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/848325458540497/
 id: '172338516139198_848325458540497'
+comments:
+  data:
+  - created_time: '2014-11-19T06:38:17+0000'
+    from:
+      name: Bassam Abd Elhamid
+      id: '1955441501387657'
+    message: I am working on new PL and thinking of allowing this
+    id: '848325908540452'
+  - created_time: '2014-11-19T07:01:07+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: Interfaces are merely contracts; a means to define what operations to
+      expect, not how the operations are performed. Defining the basic workings of
+      those operations is the task of Abstracts.
+    id: '848329685206741'
+  - created_time: '2014-11-19T07:03:09+0000'
+    from:
+      name: Ahmed Moosa
+      id: '10210990493546895'
+    message: "منطقياً, الـ Interface, وجودها علشان خاطر عمل Implement .\nوالمقصد من
+      وراء كلمة Implement هو إعطاء محتوى (Body).\nفزى ما أنت قولت إنت ممكن تستخدم
+      Base Class لو حابب تثبّت حاجة عند الجميع. ولو حابب تثبّت مع التغيير فى البعض,
+      تقدر تستخدم Virtual /Override , وكذلك تقدر تستخدم Abstract . \nفهل عندك هدف
+      تانى من النقطة دى ؟"
+    id: '848330011873375'
+  - created_time: '2014-11-19T07:19:45+0000'
+    from:
+      name: Bassam Abd Elhamid
+      id: '1955441501387657'
+    message: "My problem with inheritance some classes that has this interface already
+      inherits from some other class and I Can't insert the interface ( as a base
+      class) in inheritance tree because it is not useful for all subclasses, Only
+      for some classes but not all\nInterfaces still abstract but with extra code
+      \nimagine \nYou can delete a User or Product and they don't have the same base
+      class\nor\nYou can send a file, email or httprequest and they don't have the
+      same base class\nor\nyou can close a stream, db connection or serial port \n\nwhat
+      I mean is to do some action on known  members regardless of its type"
+    id: '848332955206414'
+  - created_time: '2014-11-19T07:25:27+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: There is a problem related to multiple inheritance about the method resolution
+      order (MRO) in a diamond inheritance scheme. C# & Java avoid solving it by restricting
+      multiple inheritance to interfaces only. Others like Python use some algorithms
+      for MRO. You can read online about them.
+    id: '848333968539646'
+  - created_time: '2014-11-19T07:37:28+0000'
+    from:
+      name: Ahmed Saleh
+      id: '10159933379005574'
+    message: You should prefer composition to inheritance. http://stackoverflow.com/questions/49002/prefer-composition-over-inheritance
+    id: '848336105206099'
+  - created_time: '2014-11-19T09:53:34+0000'
+    from:
+      name: Emad Mokhtar Habib
+      id: '10159905066535634'
+    message: as Mohammad Tayseer said one of  interfaces purpose to solve multi-inheritance  plus
+      it is act like class contract, in your case you create abstract class instead
+      of interface. or to apply SRP create a class that is responsible about sending
+      message to contact.
+    id: '848377855201924'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFE0TXpJMU9UQTROVFF3TkRVeU9qRTBNVFl6Tnprd09UYz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFE0TXpjM09EVTFNakF4T1RJME9qRTBNVFl6T1RBNE1UUT0ZD

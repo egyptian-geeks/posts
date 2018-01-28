@@ -11,3 +11,43 @@ created_time: '2014-01-31T20:22:55+0000'
 updated_time: '2014-02-01T20:25:38+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/694194820620229/
 id: '172338516139198_694194820620229'
+comments:
+  data:
+  - created_time: '2014-02-01T09:57:04+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      Another "not an expert" comment (sorry). Short answer, I don't think so.
+
+      The best I could come up with from Google is this http://dba.stackexchange.com/questions/35292/is-data-retrieved-from-sql-server-compressed-for-transmission
+      It's old, but I can't see anything special in regards to 2012.
+    id: '694416023931442'
+  - created_time: '2014-02-01T14:56:25+0000'
+    from:
+      name: Abdelrady Fcis
+      id: '10214861141222529'
+    message: "@Amr Eldib , Yes i mean the transmission between sql on remote server
+      and a web server in another location (so data will go through network)"
+    id: '694506190589092'
+  - created_time: '2014-02-01T19:49:04+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: |-
+      ميكروسوفت دايما كانت بتقول إن البروتوكول أو الماسورة اللي بيتنقل فيها الداتا بتاع الـ SQL اللي اسمها TDS دي أسرع وأفضل شيء، أظن إن حتى لو عرفت تضغطها أو تستخدم بروفايدر تاني ربما النقل يكون أسرع لكن المعالجة بطيئه
+
+      أحسن حاجه تكيّش الداتا في السيرفر اللي فيه الـ application قدر الإمكان. الـ views أو الـ stored procedures مش هتساعد لأنها كدا كدا هترجع نفس "الكمية" اللي بترجعها الكويريهات، ده غير أصلا إن فيه جدال قديم حوالين هل أصلا الستورد-بروسيدير بتساعد جامد في الأداء وتستاهل واللا لأ
+
+      لو العملية فارقه معاك أوي ممكن تحاول تعمل Web API في السيرفر اللي فيه قاعدة البيانات وتخليها تضغط اللي بترجعه مثلا gzip ، ويكون تعامل التطبيق بتاعك مع الـ API مش مع قاعدة البيانات، بس جرّب الأول على حسب كودك ونوعية البيانات اللي عندك الحل ده هيوفر أد إيه
+    id: '694613423911702'
+  - created_time: '2014-02-01T20:25:38+0000'
+    from:
+      name: Abdelrady Fcis
+      id: '10214861141222529'
+    message: mmmmm ok, will see what is the best solution .. Thanks !
+    id: '694625683910476'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamswTkRFMk1ESXpPVE14TkRReU9qRXpPVEV5TkRnMk1qUT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamswTmpJMU5qZA3pPVEV3TkRjMk9qRXpPVEV5T0RZAek16ZAz0ZD

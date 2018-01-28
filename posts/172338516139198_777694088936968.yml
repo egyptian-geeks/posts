@@ -11,3 +11,81 @@ created_time: '2014-07-06T11:07:47+0000'
 updated_time: '2014-07-07T00:45:18+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/777694088936968/
 id: '172338516139198_777694088936968'
+reactions:
+  data:
+  - id: '2195335297360393'
+    name: Haitham Nowar
+    type: LIKE
+  - id: '10155510171727909'
+    name: BoTinya WaHeed
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTJOVEU0TXpFNE1qUTBPakUwTURRMk9UYzJOamM2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TmpnMk9EQTNPVEE0T2pFME1EUTJORFkwTURnNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2014-07-06T15:04:11+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: متهيألي أنسب حاجه حاليا هي الـ Premium SMS بالنسبة للخدمات الاليكترونية
+      اللي سعرها قليل Micro Payments، صحيح بيوصل جيبك في الآخر ربما 30% من اللي دفعه
+      العميل لكن في المقابل تقدر تبيع بها أكتر بكتير لأن الناس مش هتكسل ولا هتخاف
+      تدفع بها، لو بتبيع حاجات مش اليكترونية أحسن حاجه الدفع عند الاستلام
+    id: '777800888926288'
+  - created_time: '2014-07-06T15:05:06+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: وطبعا في كل الأحوال لازم تدعم كل طرق الدفع في موقعك
+    id: '777801195592924'
+  - created_time: '2014-07-06T19:42:18+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: "tl;dr: Online payments in Egypt is a dead end, if you can avoid it by
+      incorporating your business outside Egypt then you've done your business and
+      your sanity a great service.\n\n---\nFor on-site credit card processing:\n-
+      2Checkout\n- Spreedly\n- Payfort\n- BlueSnap\n\nFor off-site credit card processing:\n-
+      Skrill moneybookers\n- Wallety\n- CashU\n- Fastspring\n\n2Checkout has one of
+      the most rigid admission processes I've seen so far, mostly end up in rejection.
+      They also require the merchant to be a registered legal entity.\n\nSpreedly
+      will require the merchant to be a registered legal entity because the only reason
+      they support Egypt is because they support MiGS and the only two banks that
+      offer MiGS are the Al Ahly bank and the Arab African bank.\nBoth of which are
+      not so keen on giving out merchant accounts specially to a company they don't
+      have a joint contract with, like Spreedly.\n\nNote: Dealing with banks in Egypt
+      to acquire a merchant account is no different than selling your soul to the
+      devil to get a meal you're willing to pay for.\n\nPayfort will require the merchant
+      to be a registered legal entity because \n1) It's too expensive \n2) It has
+      a joint contract with Al Ahly bank \n3) You'll need to sign a contract with
+      them and the bank\n\nNote: Payfort's system is notoriously bad, poorly documented
+      and just shit stupid. But... It works, not so well for recurring billing though
+      (You'll end up implementing a recurring payments system on top of their Gateway).\n\nBlueSnap
+      is like Payfort. Except Payfort is Arab (Duabi based with an Egyptian founder
+      if I'm not mistaken)\n\nSkrill (Formally moneybookers) is just crap. Steer away
+      from it, it follows the traditional model of redirecting a customer to their
+      website. One good point about them is you can  charge non-skrill users.\n\nWallety
+      is Egyptian, same model as Skrill but require your customers to have an account
+      on Wallety\n\nCashU similar to the previous two, also require your customers
+      to have an account but popular and trusted amongst Arabs\n\nFastSpring is so
+      far the only off-site experience that's somewhat acceptable, but it's invitation
+      only and they're extremely selective.\n\nIf I had to recommend something, I'd
+      recommend not accepting payments as an Egyptian business and incorporate outside
+      Egypt. In such case you'll have access to one of the following four which I
+      highly recommend:\n\n- Stripe\n- Pin payments in Australia\n- Paymill in Europe\n-
+      Authorize.net\n\nSince establishing a business outside Egypt for non-residents
+      is notoriously painful for most people, I'd recommend CashU, FastSpring or Spreedly.\n\nGood
+      luck."
+    id: '777908815582162'
+  - created_time: '2014-07-07T00:45:18+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Cash or SMS in Egypt, PayPal in gulf, like UAE.
+    id: '778149742224736'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemMzT0RBd09EZAzRPVEkyTWpnNE9qRTBNRFEyTlRrd05URT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemM0TVRRNU56UXlNakkwTnpNMk9qRTBNRFEyT1RNNU1UZAz0ZD

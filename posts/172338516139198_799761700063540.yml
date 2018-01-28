@@ -11,3 +11,137 @@ created_time: '2014-08-15T15:46:37+0000'
 updated_time: '2014-08-18T14:56:20+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/799761700063540/
 id: '172338516139198_799761700063540'
+reactions:
+  data:
+  - id: '10159968598420224'
+    name: Tarek Omar
+    type: LIKE
+  - id: '1663778243671058'
+    name: Amro Samy
+    type: LIKE
+  - id: '1634865896569420'
+    name: Ahmed Elnady
+    type: LIKE
+  - id: '10155855157936047'
+    name: Mosab Ibrahim
+    type: LIKE
+  - id: '10156089336182292'
+    name: Hassan Aly Selim
+    type: LIKE
+  - id: '10215834435679186'
+    name: Diaa Sami
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpVeU5qY3dNakl6T2pFME1EZA3pOemcxTnpBNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRNNU16a3pOelUyTVRveE5EQTRNVEl6TURJeU9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2014-08-15T15:49:41+0000'
+    from:
+      name: Sabr Bry
+      id: '10203807938637084'
+    message: Alaa New I'm calling him now already :)
+    id: '799762746730102'
+  - created_time: '2014-08-15T15:50:32+0000'
+    from:
+      name: Sabr Bry
+      id: '10203807938637084'
+    message: "Alaa New \nلا مافتحش حاجه"
+    id: '799762946730082'
+  - created_time: '2014-08-15T15:55:22+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: أظن ده طبيعي، على الأقل علشان يعمل preview أو يكتب summary عن اللينك
+      وعنوانه؟ مادام مش عليه authentication يبقى من حق "أي حد" ع النت إنه يقراه ويفهرسه
+    id: '799764283396615'
+  - created_time: '2014-08-15T16:05:46+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Facebook Bots are Evils!
+    id: '799767336729643'
+  - created_time: '2014-08-15T16:12:16+0000'
+    from:
+      name: Sabr Bry
+      id: '10203807938637084'
+    message: |-
+      It is a simple experiment anyway to be repeated
+      Create a google doc and send it to your friend an see if anonymous user appears
+
+      or may be better try to create your own private link and log the IP address of the bot :)
+    id: '799769310062779'
+  - created_time: '2014-08-15T16:15:27+0000'
+    from:
+      name: Mahmoud Hosnei
+      id: '10155334444513932'
+    message: امبارح ضفت لينك من موقع سوق في كومنت بعدها على طول ظهرتلي إعلانات من
+      موقع سوق لنفس اللينك ونفس نوعية اللاب توب وبمواصفات مختلفه
+    id: '799770310062679'
+  - created_time: '2014-08-15T16:18:35+0000'
+    from:
+      name: Sabr Bry
+      id: '10203807938637084'
+    message: "Moutaz Shams صحيح .. بس \nGoogle Docs\nYoutube\nفيهم خاصيه انك تبقي\nNot
+      Listed\nوفي نفس الوقت \nPublic\n ده نوع من انواع الخصوصيه بيعتبر ان الـ \nURL
+      \nهو الباسورد\n\nفده تعدي اكيد من \nFacebook\nعلي خصوصيتك"
+    id: '799771443395899'
+  - created_time: '2014-08-15T16:21:23+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: I will play the devil advocate here; Facebook needs to read some <meta>
+      tags to generate the preview image/text. And in the case of the Google document
+      being only visible to those who have a URL, Facebook has no way of detecting
+      that; it will try to fetch the document and the document will be fetched.
+    id: '799772356729141'
+  - created_time: '2014-08-15T16:24:03+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: 'Sticking around the document beyond reading the tags, however, is a
+      completely different story. But I imagine they would justify that in the same
+      way Google did with using people''s Google+ photos: "you handed the document
+      to us, we did not steal it from you".'
+    id: '799773523395691'
+  - created_time: '2014-08-15T16:47:52+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: Assuming that they respect user's privacy. Which I believe they do not.
+      They only care about things that could drag them into court. There is no such
+      thing as "being nice" in corporate world, unfortunately.
+    id: '799784866727890'
+  - created_time: '2014-08-15T19:45:14+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: This shouldn't be a surprise. FB makes a full GET request to the URL
+      you share or write into a message to generate a preview & do security analysis.
+      In their user agent they put this link https://www.facebook.com/externalhit_uatext.php
+    id: '799852890054421'
+  - created_time: '2014-08-17T03:27:34+0000'
+    from:
+      name: Mostafa Muhammad
+      id: '10155787111376210'
+    message: |-
+      As a side note, this tools show you what the Facebook bot sees and does
+      https://developers.facebook.com/tools/debug
+      Write a url to see how will Facebook parse it
+
+      You can see that your link is allocated its own graph URL just by being shared
+    id: '800386416667735'
+  - created_time: '2014-08-18T14:56:20+0000'
+    from:
+      name: Ahmed Ali
+      id: '2016898865266142'
+    message: it's the same with gmail, they read the text, the attached files, even
+      they read inside the attached zip file , now they use this info for ads , but
+      at least we know there is no such real privacy, as Ahmed T. Al-Amir mentioned
+      , it's just the matter of courts
+    id: '801046736601703'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOems1TnpZAeU56UTJOek13TVRBeU9qRTBNRGd4TVRjM09ERT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPREF4TURRMk56TTJOakF4TnpBek9qRTBNRGd6TnpNM09EQT0ZD

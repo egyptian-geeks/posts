@@ -12,3 +12,168 @@ updated_time: '2015-03-05T01:27:00+0000'
 name: Codebox
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/903851716321204/
 id: '172338516139198_903851716321204'
+reactions:
+  data:
+  - id: '10214861141222529'
+    name: Abdelrady Fcis
+    type: LIKE
+  - id: '10156129652479747'
+    name: Radwa Kamal
+    type: LIKE
+  - id: '10159868592475564'
+    name: Mohamed Adel Mahmoud
+    type: LIKE
+  - id: '1382560551854209'
+    name: Mohammad Sakr
+    type: LIKE
+  - id: '1817887968229914'
+    name: Hazem Taha
+    type: LIKE
+  - id: '10215523479504700'
+    name: Abdulaziz Alaa
+    type: LIKE
+  - id: '1553756688076753'
+    name: Abdelmuneim Hussein
+    type: LIKE
+  - id: '10215175206877568'
+    name: Ahmed Shaher
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRJME5qZA3lNelF4TVRveE5ESTFPREF5TURZAek9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRNMU5EWTBPREUzTkRveE5ESTFOREk1TVRFM09qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2015-03-04T22:58:55+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: void main -_-
+    id: '904323536274022'
+  - created_time: '2015-03-04T23:06:58+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Ahmad Fatoum so?
+    id: '904326052940437'
+  - created_time: '2015-03-04T23:36:19+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: More often than not, it's a sign of unportable/obsolete coding practices
+      (especially that int main was standardized 26 years ago now). I would stay clear
+      of anything that advocates its use; there are enough standard conforming resources,
+      that others can (and should) be ignored.
+    id: '904334009606308'
+  - created_time: '2015-03-04T23:42:28+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: ':D :D :D I love your conformance to standards, but the idea here is
+      that the most important algorithms are implemented. I don''t know what you mean
+      by "int main" was standardized 26 years ago, but back in 1992 when I was coding
+      on Turbo C ++ it was void main, and it stayed like that in the early 2000s as
+      well. I understand the idea about standards, but believe me, there are Biarne
+      books with void main :)'
+    id: '904335909606118'
+  - created_time: '2015-03-04T23:44:57+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: I remeber cause I had the C++ handbook amd there was even an older book
+      about just Plain C, which is why here you have printf and scanf. Because this
+      is an app that shows code to implement algorithms, I guess the main thing here
+      is the naming conventions.  And if you're smart enough to be able to code all
+      the algorithms, we can forgive you for using void main :)
+    id: '904336842939358'
+  - created_time: '2015-03-04T23:47:49+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: 'Ahmad Fatoum you are right about int main : // The Hello world program.  //
+      pg 46, sec 3.2, Hello, World!  // No guarantees offered. Constructive comments
+      to bs@research.att.com    #include <iostream>  int main() {  std::cout << "Hello,
+      world!\n"; }  // note that "return 0;" isn''t required in ISO C++'
+    id: '904337802939262'
+  - created_time: '2015-03-04T23:49:30+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: this was code from Bjarne's book, but amazingly I have been using void
+      main since I started to program in the 90s. Not that I coded C++ for 20 years,
+      but even in Uni there was no fuss. Anyway, the point is, the algorithm implementation
+      is too much of a benefit to miss over this small mistake if we can call it that
+    id: '904338309605878'
+  - created_time: '2015-03-05T00:54:05+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: "Well, I didn't expect you to agree but as you put effort into answering
+      me, I will try it nonetheless :)\nA good reference code, I would entrust a beginner
+      with should:\n- not use compiler extensions (especially not of an obsolete compiler)\n-
+      should not have security vulnerabilities (buffer overflows is the only thing
+      I spotted though)\n- should mitigate undefined behavior (out-of-bounds-access,
+      division-by-zero)\n- should be as portable as possible (Seriously, if every
+      example ends with getch(), I doubt the author knows how to use a terminal properly)\n-
+      should be clean, neat and interview-level material (one example: no unnecessary
+      casts; one snippet has a rare sight of a cast that actually hides a bug, that
+      would make the program crash on systems where sizeof(int) != sizeof(void*).
+      64-bit Linux is an example of such a system; have fun debugging that)\n- should
+      not use obsolete headers, should not use non-standard functions in standard
+      headers\n\nNone of the examples seem to satisfy the above points.\nI just looked
+      for easily spotted things and didn't follow the flow of the algorithms, so I
+      can't say how it would be performance-wise.\n\nWhat I can say that's not C I
+      would recommend to someone. That's badly-written Turbo C++ for DOS, which despite
+      still being used academically in India and some Arab countries, ought to die.
+      Discouraging its use is a step nearer to that.\n\n(And yes I do know standard-conformance
+      is not always possible/needed. I use GNU extensions extensively at work/private,
+      but at least I can justify it (embedded systems or other low level stuff) and
+      I do know that some of what I write is not \"real\" C. \nExamples meant for
+      a beginner on the other hand should be correct and compilable with any conforming
+      C compiler)."
+    id: '904357079604001'
+  - created_time: '2015-03-05T01:07:29+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Ahmad Fatoum great information, and yes it was Turbo C++ for Dos 3.0
+      then 3.2 then 3.22. So tell me, What IDE do you use over Linux ? and do you
+      have a "good" reference imlementation that is this comprehensive? I personally
+      would convert all the samples into Python and send it to the develper if and
+      when I have the time, cause I mainly like Python. I still have this nostalgic
+      soft spot for C and C++. Also, with your permission I can send these comments
+      to the Author :) now you made me feel like this is more "bershamat qabl imti7an"
+      at uni :)
+    id: '904360536270322'
+  - created_time: '2015-03-05T01:27:00+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: |-
+      I am using windows actually. Too much of a game addict to leave the dark side :(
+      I am not sure what you mean with reference implementation here, but a good C resource is http://cppreference.com. Quite a bit of it is also available in Arabic (http://ar.cppreference.com).
+
+      Freenode's ##C channel has a useful website with resources:
+      http://www.iso-9899.info/wiki/Software
+      Personally, I didn't have the need to use an integrated environment yet; I am quite content with VIM mode and + gcc/clang + some plugins, I might switch to CLion though when it's production-ready (academic free license, yay!). Other good options are in the link above.
+
+      And feel free to use what I wrote. I doubt the developer would care enough though.
+
+      But now I think, I understand what you mean with reference implementation. I got no idea where to get good C implementations of basic algorithms. Maybe Rosetta Stone? having a Wiki format should ensure not too awful code, I guess.
+    id: '904365069603202'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEEwTXpJek5UTTJNamMwTURJeU9qRTBNalUxTURrNU16VT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEEwTXpZAMU1EWTVOakF6TWpBeU9qRTBNalUxTVRnNE1qQT0ZD
+attachments:
+  data:
+  - media:
+      image:
+        height: 720
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQDg6ZNcjoWrqndU&w=720&h=720&url=https%3A%2F%2Flh5.ggpht.com%2FbM1dFCngU6X-MvCAWQuAAV_zYpj8RTl3d68JD2Q2B43R_HRKETc3EQPWxXP57blwMyEh%3Dh900&cfs=1&_nc_hash=AQBnvAy5AveW1UTw
+        width: 720
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.codeguys.codebox&h=ATP8lm8sUa248rxToalY7WOl7HlbQx5aE5rUXqxYjjHNrv2qp1bTKM2C2elYKz2TdRrGpdQxx2tbGbawRtPpdNj_Q9-3Mfo5VvHU&s=1&enc=AZMtfuNqG7dQjPDq3gkqkEqpbOTzlP6IUnrPeRQbFK_AGwojYePAMy6Ot0J80xsVkBksD-wfEAvKUVckyli2kpy1
+    title: Codebox
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.codeguys.codebox&h=ATP8lm8sUa248rxToalY7WOl7HlbQx5aE5rUXqxYjjHNrv2qp1bTKM2C2elYKz2TdRrGpdQxx2tbGbawRtPpdNj_Q9-3Mfo5VvHU&s=1&enc=AZMtfuNqG7dQjPDq3gkqkEqpbOTzlP6IUnrPeRQbFK_AGwojYePAMy6Ot0J80xsVkBksD-wfEAvKUVckyli2kpy1

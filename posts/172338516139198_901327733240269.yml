@@ -13,3 +13,125 @@ created_time: '2015-02-26T19:50:33+0000'
 updated_time: '2015-02-27T14:55:41+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/901327733240269/
 id: '172338516139198_901327733240269'
+comments:
+  data:
+  - created_time: '2015-02-26T19:51:10+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: use drush to create a login link
+    id: '901327826573593'
+  - created_time: '2015-02-26T19:51:21+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: do you have drush installed ?
+    id: '901327863240256'
+  - created_time: '2015-02-26T19:51:35+0000'
+    from:
+      name: Yara Mohamed
+      id: '10155057143777797'
+    message: nope
+    id: '901327939906915'
+  - created_time: '2015-02-26T19:52:13+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: |-
+      install drush here
+      https://www.drupal.org/node/1248790
+    id: '901328096573566'
+  - created_time: '2015-02-26T19:52:37+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      According to this you can do it from database
+      https://www.drupal.org/node/44164
+    id: '901328186573557'
+  - created_time: '2015-02-26T19:52:49+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: and then drush uli
+    id: '901328223240220'
+  - created_time: '2015-02-26T19:53:17+0000'
+    from:
+      name: Yara Mohamed
+      id: '10155057143777797'
+    message: After i install it ,what should i do ??
+    id: '901328306573545'
+  - created_time: '2015-02-26T19:53:55+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: |-
+      Just type
+      drush uli
+      it'll generate a link with root login for you "One time use"
+      change the password and you're good.
+    id: '901328426573533'
+  - created_time: '2015-02-26T19:54:35+0000'
+    from:
+      name: Yara Mohamed
+      id: '10155057143777797'
+    message: Mohamed Meligy Thank u a lot i will try this solution
+    id: '901328649906844'
+  - created_time: '2015-02-26T19:55:00+0000'
+    from:
+      name: Yara Mohamed
+      id: '10155057143777797'
+    message: Muhammad Negm I will install it ,Thank u  a lot
+    id: '901328799906829'
+  - created_time: '2015-02-26T21:54:20+0000'
+    from:
+      name: Yara Mohamed
+      id: '10155057143777797'
+    message: i got this error when i typed drush uli,Muhammad Negm may u check it
+      ?
+    id: '901377286568647'
+  - created_time: '2015-02-26T22:03:48+0000'
+    from:
+      name: Yara Mohamed
+      id: '10155057143777797'
+    message: ''
+    id: '901380283235014'
+  - created_time: '2015-02-27T14:54:00+0000'
+    from:
+      name: Mohamed ElSaudi
+      id: '1798113550497103'
+    message: "I don't know how to solve your problem, but I am suggesting to use turnkey
+      virtual appliances. A ready made debian based distribution of most of well known
+      web apps, and drupal is among them. \nIt will save your time and efforts of
+      the installation process. It is ready to go out of the box, just supply passwords
+      and you are up and running.\nDrupal 7 http://www.turnkeylinux.org/drupal7\nDrupal
+      6 http://www.turnkeylinux.org/drupal6\nYou can install this distro on a real
+      computer, or as a virtual machine of Vmware of VirtualBox.\nI prefer VirtualBox
+      as it is free of charge and free open source too"
+    id: '901664699873239'
+  - created_time: '2015-02-27T14:55:41+0000'
+    from:
+      name: Mohamed ElSaudi
+      id: '1798113550497103'
+    message: For those who are interested, VirtualBox is here https://www.virtualbox.org/
+    id: '901665283206514'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEF4TXpJM09ESTJOVGN6TlRrek9qRTBNalE1T0RBeU56QT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEF4TmpZAMU1qZA3pNakEyTlRFME9qRTBNalV3TkRnNU5ERT0ZD
+attachments:
+  data:
+  - description: |-
+      S.A
+      I am not able to login to the drupal site as admin or even create new user
+      What is the solution to this problem ??
+    media:
+      image:
+        height: 404
+        src: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/11025996_10152661832522797_8507105090199885202_o.jpg?oh=74dc4c52af3e1119aba7ba95baa85f71&oe=5AE816A7
+        width: 720
+    target:
+      id: '10152661832522797'
+      url: https://www.facebook.com/photo.php?fbid=10152661832522797&set=gm.901327733240269&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=10152661832522797&set=gm.901327733240269&type=3

@@ -12,3 +12,77 @@ created_time: '2015-03-03T13:04:31+0000'
 updated_time: '2015-03-04T20:16:05+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/903630513009991/
 id: '172338516139198_903630513009991'
+reactions:
+  data:
+  - id: '2068715019823753'
+    name: Mohammed Khalaf
+    type: LIKE
+  - id: '10215754268108851'
+    name: Nouran Sami
+    type: LIKE
+  - id: '10210153230139190'
+    name: NaDa YaSser
+    type: LIKE
+  - id: '1704389499626394'
+    name: Ahmed Alaa Ahmed
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdOVFU0TWpRME5EWTFPakUwTWpVMk5UY3hPRFU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXhOall3T0RFNU16UXpPakUwTWpVek9EZA3pNakk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2015-03-03T17:11:33+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: ماعنديش خبرة في مشاريع من النوعية دي تحديدا، ربما يكون فيه برامج مباشرة
+      بتسهّل المحاكاة، إنما لو بيئة ثلاثية الأبعاد بشكل عام هأفكر استخدم Unity لأنه
+      بيدعم سي-شارب، وبيشتغل على أنظمة كتير ومن ضمنها الويب، وسهل وله مصادر تعليم
+      كتير. بالنسبة للـ modeling فالبرامج المذكورة امكانياتهم متشابهة وكلهم بيعرفوا
+      يعملوا export لبعضهم ولأشهر أنواع الملفات ولهم مصادر كتير والخ ولذلك أحسن اختيار
+      هو البرنامج اللي حد في الفريق يعرفه أكتر
+    id: '903720556334320'
+  - created_time: '2015-03-04T18:48:00+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      I don't fully understand what you're trying to do, but Unity is a great game engine (that supports C#) and could be suitable for 3D Simulations depending on what you want to do and what aspect of the simulation you want to focus on.
+      Maybe you should focus first on modeling the train movement and interruptions first then think about the 3D rendering later as there are many options for that.
+    id: '904247432948299'
+  - created_time: '2015-03-04T19:26:33+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Ahmed Sadek Mohammed Tawfeek
+    id: '904262186280157'
+  - created_time: '2015-03-04T19:53:09+0000'
+    from:
+      name: Ahmed Sadek Mohamed Tawfik
+      id: '10155056867911922'
+    message: hello .. as Hassan said you should focus on the train movement mathematical
+      model .. that can be implemented later in any language .. by the way blender
+      and Maya are tools for creating  3D modes that 3D engines should try to load
+      it and put it on the environment .. personally I don't have experience with
+      3D engines .. but there are many engines out there .. I may suggest the famous
+      MonoGame engine.  but you actually need to focus on the mathematical model.  my
+      advice is to start simply with a 2D plan .. and treat the train as a moving
+      point on the 2D .. then add the third dimension later.
+    id: '904270716279304'
+  - created_time: '2015-03-04T19:56:52+0000'
+    from:
+      name: Ahmed Sadek Mohamed Tawfik
+      id: '10155056867911922'
+    message: "for a concise review from my side .. begin with vector analysis dot
+      and cross products ..  remember always that the cross product gives you a vector
+      normal to the plan of the two vectors .. \nthen review the concept of the parametric
+      functions \nfinally it seems you will need to draw the train path with Bezier
+      Curves .. only use a cubic bezier curve functions .. WARNING: DO NOT jump into
+      the splines .. keep your implementation simple with bezier curves of four control
+      points."
+    id: '904272506279125'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEF6TnpJd05UVTJNek0wTXpJd09qRTBNalUwTURJMk9UTT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEEwTWpjeU5UQTJNamM1TVRJMU9qRTBNalUwT1Rrd01UST0ZD

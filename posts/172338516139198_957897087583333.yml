@@ -16,3 +16,171 @@ updated_time: '2015-06-13T22:06:42+0000'
 name: eBay Weirdest Stored Cookie XSS vulnerability ever seen.
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/957897087583333/
 id: '172338516139198_957897087583333'
+reactions:
+  data:
+  - id: '10156089336182292'
+    name: Hassan Aly Selim
+    type: LIKE
+  - id: '1991369571184170'
+    name: صصحح يافار
+    type: LIKE
+  - id: '879271768900112'
+    name: Osama Soliman
+    type: LIKE
+  - id: '10160105091405314'
+    name: Mohamed Elsherif
+    type: LIKE
+  - id: '10214055964849051'
+    name: Ahmad Abubakr
+    type: LIKE
+  - id: '1752209668156568'
+    name: Mohamed K. Fathy
+    type: LIKE
+  - id: '10156266511868081'
+    name: Ahmed Zain Mohammed
+    type: LIKE
+  - id: '1841761432524477'
+    name: Ahmed Yousef
+    type: LIKE
+  - id: '1325154427631174'
+    name: Diaa Elsayed
+    type: LIKE
+  - id: '10213017755051330'
+    name: Abdelrhman Shawky
+    type: LIKE
+  - id: '10157134145555299'
+    name: Eslam Salem Mahmoud
+    type: LIKE
+  - id: '895970407247426'
+    name: Ahmad Magdy
+    type: LIKE
+  - id: '1960105977337489'
+    name: Ahmed Mousa
+    type: LIKE
+  - id: '2342288709130763'
+    name: Mostafa Kasem
+    type: LIKE
+  - id: '10160028885050387'
+    name: Mahmoud M. Abdel-Fattah
+    type: LIKE
+  - id: '1898638260169553'
+    name: Diaa Diab
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRFNU5qa3lNamt4T2pFME16UXpNVFE0TURJNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQXdOekF4T1RJd05UQXdPakUwTXpReE9EWTJPVEk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2015-06-13T09:20:26+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: wow!
+    id: '957899094249799'
+  - created_time: '2015-06-13T09:27:30+0000'
+    from:
+      name: Diaa Diab
+      id: '1898638260169553'
+    message: لا لا لا لا تعلالى بقى كدا :v
+    id: '957900284249680'
+  - created_time: '2015-06-13T09:31:18+0000'
+    from:
+      name: Mohamed A. Baset
+      id: '2088941797787563'
+    message: ":D"
+    id: '957900997582942'
+  - created_time: '2015-06-13T09:32:03+0000'
+    from:
+      name: Diaa Diab
+      id: '1898638260169553'
+    message: هتيجى بابلك ولا برايفت .... من الأخر يعنى :v
+    id: '957901074249601'
+  - created_time: '2015-06-13T09:37:45+0000'
+    from:
+      name: Mohamed A. Baset
+      id: '2088941797787563'
+    message: براحتك، ولو النقاش هيبقى تيكنيكال خلينا هنا والناس تستفيد :D بس طبعا
+      اللى يريحك
+    id: '957901924249516'
+  - created_time: '2015-06-13T09:40:14+0000'
+    from:
+      name: Diaa Diab
+      id: '1898638260169553'
+    message: '"I have exploited it without being logged in" أيه بقى يا كبير الكلام
+      دا علشان انا مش واخد بالى من السيناريو صراحه !!'
+    id: '957902797582762'
+  - created_time: '2015-06-13T09:48:14+0000'
+    from:
+      name: Mohamed A. Baset
+      id: '2088941797787563'
+    message: الموضوع بدأ انى مكنتش داخل عندى نية خالص انى اهنت، بدور على موبايل وكدا،
+      فقولت اشوف ال Search bar نظامة ايه فحطيت فيه ال Payload اللى انت شوفتها فى الفيديو
+      وبالتأكيد المكان دا مهروس مليون لا مليون ايه، مليار مره وبالتأكيد مفهوش اى vulnerability
+      وطلعت شكوكى فى محلها، مفيش اى شئ حصل، شويه وانا بعمل browsing وبدور فى صفحة
+      النتايج عن الموبايل ولقيت ال confirm dialog الخاص بال payload اللى حطيته ظهرلى
+      فجأه، قولت اشوف الموضوع جايز يكون الصفحه اللى انا فيها دى مصابه ب Stored XSS
+      مثلا فى كومنت فى اى حاجه، عملت سيرش فى كل ال elements الموجوده فى الصفحه مفيش
+      اى شئ باين انه injected بواسطة اى يوزر، عملت Dump للركوست وروحت بيه على Burp
+      زى مانت شوفت فى الفيديو مفيش اى post ولا get ركوست فيهم اى payloads وكررت الركوست
+      على كل البروازرات الموجوده عندى لقيته لسه بيعمل ال confirm alert الخاص بال payload
+      ساعتها حاولت اعمل reproduce علشان ابلغ فمعرفتش، استنيت شويه، كررت نفس الكلام
+      اللى عملته بشكل تانى بردو مفيش، بصيت شوية فى الكوكى بتاعتهم لقيتهم بيتخزن فيها
+      ال referrer اللى كان قبل الصفحه اللى انت موجود فيها وحتى كمان الاسترنج اللى
+      انت بحثت عنه بشكل مشفر فتأكدت ساعتها ان ال payload اتخزن فى الكوكى، وبالتالى
+      اتخزن فى الداتابيز، بعتلهم وقولتلهم عايز شرح للى حصل دا لأنى انا عن نفسى مش
+      فاهم ايه اللى خلف الكواليس فقالولى السبب اللى وضحتهولك انهم بيخزنوا الرفيرير
+      والسيرش سترينج عندهم فى الداتابيز علشان لو دخلت صفحه تانيه يعملوا Customization
+      لل Content بناء على اللى كنت بتعمله قبل كدا، بس للاسف كانوا بيخزنوا ويسترجعوا
+      ال strings دى بدون اى فلتره
+    id: '957903994249309'
+  - created_time: '2015-06-13T09:53:21+0000'
+    from:
+      name: Diaa Diab
+      id: '1898638260169553'
+    message: opsss, يعنى دى سيلف أكس أس أس 100% مظبوط كدا ؟
+    id: '957905257582516'
+  - created_time: '2015-06-13T10:05:45+0000'
+    from:
+      name: Mohamed A. Baset
+      id: '2088941797787563'
+    message: |-
+      سيلف لما اكون لوجد ان عالاقل :D
+      انا اديت ال Request Dump بالكوكى وكل شئ لحد تانى واكد انها شغاله، فلو صادفت والكوكى دى بقت عند حد بأى Escalation بشكل ما هتبقى كارثه
+    id: '957908564248852'
+  - created_time: '2015-06-13T22:00:45+0000'
+    from:
+      name: Mohamed A. Baset
+      id: '2088941797787563'
+    message: "Diaa Diab \nصدقنى انا عن نفسى مستغرب جدا بسببها لدرجة انى طلبت منهم
+      ال Technical Details اللى حصلت فى ال Backend  :D"
+    id: '958122317560810'
+  - created_time: '2015-06-13T22:04:31+0000'
+    from:
+      name: Diaa Diab
+      id: '1898638260169553'
+    message: Asly ya symbian ;)
+    id: '958122847560757'
+  - created_time: '2015-06-13T22:06:42+0000'
+    from:
+      name: Mohamed A. Baset
+      id: '2088941797787563'
+    message: حبيبي :)
+    id: '958123144227394'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFUzT0RrNU1EazBNalE1TnprNU9qRTBNelF4T0RjeU1qWT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFU0TVRJek1UUTBNakkzTXprME9qRTBNelF5TXpNeU1EST0ZD
+attachments:
+  data:
+  - description: Description
+    media:
+      image:
+        height: 720
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQD5qhj01V3bni4r&w=720&h=720&url=http%3A%2F%2Fi.ytimg.com%2Fvi%2F6Ivy1_8WwkE%2Fmaxresdefault.jpg&cfs=1&_nc_hash=AQBU7J9C3D7RenWm
+        width: 720
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D6Ivy1_8WwkE%26feature%3Dyoutu.be&h=ATOdVEXA-yJ06V7E3l5hl3DCLa5z_CtMXT2QaOT1O3OjodE2l_9uwcYDlY_QT8YiNHB2DA6nb9uL245snpHxROmAwoB_UNmlR4-C&s=1&enc=AZP-7lpRcfhSbqajxaUFx7_fIaSmbSc_v6FnmpjVh8qSWxeL4eBKNxCRLhcg5oUXsspwW42BiOb9qBSWrikGYcJU
+    title: eBay Weirdest Stored Cookie XSS vulnerability ever seen.
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D6Ivy1_8WwkE%26feature%3Dyoutu.be&h=ATOdVEXA-yJ06V7E3l5hl3DCLa5z_CtMXT2QaOT1O3OjodE2l_9uwcYDlY_QT8YiNHB2DA6nb9uL245snpHxROmAwoB_UNmlR4-C&s=1&enc=AZP-7lpRcfhSbqajxaUFx7_fIaSmbSc_v6FnmpjVh8qSWxeL4eBKNxCRLhcg5oUXsspwW42BiOb9qBSWrikGYcJU

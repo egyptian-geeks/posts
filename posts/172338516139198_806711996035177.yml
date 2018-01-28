@@ -11,3 +11,91 @@ updated_time: '2014-08-30T23:02:24+0000'
 name: How to configure large website Pools, configurations,CDNs
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/806711996035177/
 id: '172338516139198_806711996035177'
+comments:
+  data:
+  - created_time: '2014-08-30T09:53:39+0000'
+    from:
+      name: Mohammed El Sayed
+      id: '10155880598025170'
+    message: |-
+      السلام عليكم, محتاج منك بس بعض المعلومات, وعلى أساسها نقيم الوضع ونحدد أولويات العمل على كل جزء من الموقع على حدا.
+      انا هكتبهم فى الكومينت التالى علشان موضوع دمج العربي والإنجليزي فى الفيسبوك بيخرف :)
+    id: '806713669368343'
+  - created_time: '2014-08-30T09:55:19+0000'
+    from:
+      name: Mohammed El Sayed
+      id: '10155880598025170'
+    message: |-
+      1- what type of websites are we talking about? (news-media-social-reports-shopping-etc)
+      2- visits per day?
+      3- are the DB operations mostly reads or writes?
+      4- how many servers for the web/db?
+      5- Connection utilization between the DB & web instances. (I've seen times when the problem was that the 100MB connection was saturated, and upgrading to a 1 Gbit connection has solved certain problems).
+      6- have you evaluated the executed SQL queries using tools like "SQL Server Tuning Advisor"?
+      7- snapshot of the average resources allocation of each server (web-db) covering CPU average %, Ram,network.
+
+      you don't have to reveal all these info on public :), if you prefer we may have a phone call and let's discuss it over there.
+      if it's fine to report these points here, kindly let me know your feedback, and ISA we gonna have a discussion to reach the perfect solution for your scenario :)
+    id: '806713886034988'
+  - created_time: '2014-08-30T10:02:32+0000'
+    from:
+      name: Mohammed El Sayed
+      id: '10155880598025170'
+    message: 'Finally: Thank you for calling "Egyptian Geeks" support team :D'
+    id: '806715539368156'
+  - created_time: '2014-08-30T10:42:42+0000'
+    from:
+      name: Ashraf Kaabi
+      id: '10156258607755921'
+    message: "first of all you must understand that the concept of CDN is depend on
+      site has multi geographical visitors. so I don't know who you target. as if
+      you building custom cdn is quite expensive. and is most used for videos hosting
+      site. but if is news or just html data and you have china in your concern as
+      visitors so then you need build distribution caching server in China.\n\nand
+      if what you looking is hardware availability to reduce cpu loads etc ... in
+      this case you need load balancer either with hardware or/and software \n\nand
+      if you looking for network solution high availability like 100% in this case
+      is more expensive and still need to be managed by network designer for each
+      datacenter you gonna to host at.\n\nyour question is really very open and I
+      believe is not  asp.net question or any developing related question. this what
+      network engineer and sys admin do. if you're not a sys admin you better work
+      with someone then who can advise you more and give you tailored solution on
+      demand of what you required"
+    id: '806726132700430'
+  - created_time: '2014-08-30T17:05:18+0000'
+    from:
+      name: Adel K. Khalil
+      id: '10159958402365584'
+    message: CDNs have benefits beyond geo distributed visitors. You still offload
+      the work of serving files to different machine. Browser can request only 6 files
+      simultaneously from a single point. Add the traffic associated with the CDN
+      file.. You get the picture
+    id: '806856272687416'
+  - created_time: '2014-08-30T23:02:24+0000'
+    from:
+      name: Ashraf Kaabi
+      id: '10156258607755921'
+    message: if you want to reduce load or making high availability you can make load
+      balancer or many other solutions. but when it comes to cdn so is same concept
+      but with multi location all over the world which is more expensive than single
+      location hosting
+    id: '806956189344091'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPREEyTnpFek5qWTVNelk0TXpRek9qRTBNRGt6T1RJME1Uaz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPREEyT1RVMk1UZAzVNelEwTURreE9qRTBNRGswTXprM05EUT0ZD
+attachments:
+  data:
+  - description: i have a big website built by ASP.net and SQL server2014 and it's
+      growing too fast , and have some trouble i faced some of them i found solution
+      for it and some other not. i made a sub-domains for:...
+    media:
+      image:
+        height: 316
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQCz3rmhv1AH6XyC&w=720&h=720&url=http%3A%2F%2Fcdn.sstatic.net%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3Dfde65a5a78c6&cfs=1&_nc_hash=AQDYMA7sVVUu6LYN
+        width: 316
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F25551463%2Fhow-to-configure-large-website-pools-configurations-cdns&h=ATPFXhAzty472U5Jwjrv1jD8eA5_4THwXoWGJMfDzco4j5dddUynYPovuN7Z0Tgtav6S6Rh5E6Hry7we7mZs0tMV68HYJLX4wxze&s=1&enc=AZMOB7DRvFCExAHvaOuEdV1xEqDQAwHjxrRuHQkHzyHnz30fmkkL48Nn5SWj44ZIBwwefZCja3mN6un9w8Ga6gni
+    title: How to configure large website Pools, configurations,CDNs
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F25551463%2Fhow-to-configure-large-website-pools-configurations-cdns&h=ATPFXhAzty472U5Jwjrv1jD8eA5_4THwXoWGJMfDzco4j5dddUynYPovuN7Z0Tgtav6S6Rh5E6Hry7we7mZs0tMV68HYJLX4wxze&s=1&enc=AZMOB7DRvFCExAHvaOuEdV1xEqDQAwHjxrRuHQkHzyHnz30fmkkL48Nn5SWj44ZIBwwefZCja3mN6un9w8Ga6gni

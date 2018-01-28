@@ -11,3 +11,60 @@ created_time: '2014-11-01T21:43:34+0000'
 updated_time: '2014-11-02T17:06:25+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/839636889409354/
 id: '172338516139198_839636889409354'
+comments:
+  data:
+  - created_time: '2014-11-01T21:51:44+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: ده إيرور إنه مش عارف يظهر الرسالة اللي فيها الإيرور الأصلي؟! واضح إنه
+      تهييس جامد، متأكد إن الـ Management Studio نازل كويس و الـ Service Packs وكدا؟
+      عموما أحسن طريقة بأنقل بها قواعد البيانات هي الـ backup وبعدين restore ودائما
+      بتمر بسلام، أنا مش خبير أوي في الـ administration لكن نقل قاعدة البيانات عن
+      طريق نقل الملفات الأساسية MDF واللوج وكدا كان دايما بيعمل مشاكل وأظن إن مش هو
+      الطريق الصح
+    id: '839639039409139'
+  - created_time: '2014-11-01T21:54:17+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: http://dba.stackexchange.com/questions/46491/permissions-needed-to-attach-adventureworks-database
+    id: '839639779409065'
+  - created_time: '2014-11-02T17:05:45+0000'
+    from:
+      name: Ahmed El-Makawy
+      id: '1434309000003706'
+    message: اه نازل كامل ومعملش اي مشاكل وطريقة الريستور عملت نفس المشكله ولو عايز
+      اعمل داتا بيز تانيه نفس المشكله
+    id: '839987812707595'
+  - created_time: '2014-11-02T17:06:12+0000'
+    from:
+      name: Ahmed El-Makawy
+      id: '1434309000003706'
+    message: عملت كل الخطوات يا عماد ومفيش خالص والتول بتبجي في الكوماند يقول اكسس
+      دنايد
+    id: '839987996040910'
+  - created_time: '2014-11-02T17:06:25+0000'
+    from:
+      name: Ahmed El-Makawy
+      id: '1434309000003706'
+    message: ومع العلم كله شغال كادمنستريتور
+    id: '839988106040899'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRE01TmpNNU1ETTVOREE1TVRNNU9qRTBNVFE0TnpnM01EUT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRE01T1RnNE1UQTJNRFF3T0RrNU9qRTBNVFE1TkRjNU9EVT0ZD
+attachments:
+  data:
+  - description: "السلام عليكم\nشباب لم بعمل اتشمنت للداتا بيز \nبتجيلي الرساله دي\nما
+      السبب و الحل ؟ :)"
+    media:
+      image:
+        height: 185
+        src: https://scontent.xx.fbcdn.net/v/t1.0-9/1908449_572745086160106_2178324466145763001_n.jpg?oh=2dbf10880b453cac7e30853557a0864c&oe=5B1F67FB
+        width: 611
+    target:
+      id: '572745086160106'
+      url: https://www.facebook.com/photo.php?fbid=572745086160106&set=gm.839636889409354&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=572745086160106&set=gm.839636889409354&type=3

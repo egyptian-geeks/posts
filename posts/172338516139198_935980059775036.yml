@@ -17,3 +17,48 @@ created_time: '2015-05-05T10:44:37+0000'
 updated_time: '2015-05-05T14:17:38+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/935980059775036/
 id: '172338516139198_935980059775036'
+reactions:
+  data:
+  - id: '10155819655346066'
+    name: Shady M. Najib
+    type: LIKE
+  - id: '10210300649304955'
+    name: Akram Mohamed
+    type: LIKE
+  - id: '10155469719432326'
+    name: Mohamed Mansour
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRnM05EWXhNRFkxT2pFME16RXdPVE0xTlRZANk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TnpJek5UUXlNekkxT2pFME16QTRNelUxTURjNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2015-05-05T12:25:08+0000'
+    from:
+      name: Mohammed El Sayed
+      id: '10155880598025170'
+    message: 'workaround: http://dba.stackexchange.com/questions/14153/treating-certain-arabic-characters-as-identical'
+    id: '936004426439266'
+  - created_time: '2015-05-05T13:43:21+0000'
+    from:
+      name: Fady Wadie
+      id: '2031164983805336'
+    message: Change the catalog to be accent insensitive.
+    id: '936024356437273'
+  - created_time: '2015-05-05T14:15:54+0000'
+    from:
+      name: Mahmoud Abd El-Fattah
+      id: '10156358805885288'
+    message: Thank you so much Fady, works perfectly now :)
+    id: '936032389769803'
+  - created_time: '2015-05-05T14:17:38+0000'
+    from:
+      name: Fady Wadie
+      id: '2031164983805336'
+    message: You welcome Mahmoud :)
+    id: '936032726436436'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVE0yTURBME5ESTJORE01TWpZAMk9qRTBNekE0TWpnM01EZAz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVE0yTURNeU56STJORE0yTkRNMk9qRTBNekE0TXpVME5UZAz0ZD

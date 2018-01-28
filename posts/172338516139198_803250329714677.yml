@@ -9,3 +9,66 @@ created_time: '2014-08-23T16:47:39+0000'
 updated_time: '2014-08-23T21:34:35+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/803250329714677/
 id: '172338516139198_803250329714677'
+reactions:
+  data:
+  - id: '10156089336182292'
+    name: Hassan Aly Selim
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRFNU5qa3lNamt4T2pFME1EZAzRPRGMwTXpVNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRFNU5qa3lNamt4T2pFME1EZAzRPRGMwTXpVNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2014-08-23T17:06:59+0000'
+    from:
+      name: أحمد محمود محمد عبدالوهاب
+      id: '10155226291481186'
+    message: |-
+      7aga zy keda?
+      http://blogs.msdn.com/b/webdev/archive/2013/07/03/understanding-owin-forms-authentication-in-mvc-5.aspx
+    id: '803256896380687'
+  - created_time: '2014-08-23T18:18:27+0000'
+    from:
+      name: Mohamed Samir
+      id: '10213955023125334'
+    message: Thanks :) i need more info. about how to add & manage Roles
+    id: '803282259711484'
+  - created_time: '2014-08-23T18:28:14+0000'
+    from:
+      name: أحمد محمود محمد عبدالوهاب
+      id: '10155226291481186'
+    message: I never used it before actually xD rabena m3ak
+    id: '803284799711230'
+  - created_time: '2014-08-23T18:33:09+0000'
+    from:
+      name: Abdelrady Fcis
+      id: '10214861141222529'
+    message: Pluralsight.com ya man :D
+    id: '803285986377778'
+  - created_time: '2014-08-23T21:32:19+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      In OWIN authentication you don't have roles, you have claims. You can use claims to implement system-wide roles or more specific entity roles (document owner, sub-group admin, etc.)
+      See http://msdn.microsoft.com/en-au/library/ff359101.aspx
+    id: '803369159702794'
+  - created_time: '2014-08-23T21:33:45+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: When you create a claim identity, you set some claim types, one of these
+      types is role, for code example see http://www.khalidabuhakmeh.com/asp-net-mvc-5-authentication-breakdown-part-deux
+    id: '803369463036097'
+  - created_time: '2014-08-23T21:34:35+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Then when you want to get all roles for the user, you get all their claims
+      with claim type role.
+    id: '803369616369415'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPREF6TWpVMk9EazJNemd3TmpnM09qRTBNRGc0TVRNMk1Uaz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPREF6TXpZANU5qRTJNelk1TkRFMU9qRTBNRGc0TWprMk56VT0ZD

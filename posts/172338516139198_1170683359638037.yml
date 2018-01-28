@@ -34,6 +34,14 @@ comments:
       id: '1962172197389574'
     message: طيب انا ممكن أوصل للسبب ازاى يعنى اعمل ايه ؟
     id: '1170685116304528'
+  - created_time: '2016-06-28T00:01:43+0000'
+    from:
+      name: Mohammed Salah ElDin Mohammed
+      id: '10156126278858410'
+    message: Please check the windows event logs it may help you finding out the reason
+      of this issue also you can use a fresh virtual machine in order to reproduce
+      the crash on ur environment
+    id: '1170690219637351'
   - created_time: '2016-06-28T00:29:34+0000'
     from:
       name: Ahmed Amin

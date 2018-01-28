@@ -12,3 +12,67 @@ created_time: '2014-08-14T11:42:55+0000'
 updated_time: '2014-08-15T08:59:08+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/799261140113596/
 id: '172338516139198_799261140113596'
+comments:
+  data:
+  - created_time: '2014-08-14T12:01:52+0000'
+    from:
+      name: Ahmad Mohammad
+      id: '10156154732953169'
+    message: "Storage mistakes 8albn. Or bad sectors. Could be anything. Try another
+      stick or any other ISO USB app. \nchecksum the iso file as well."
+    id: '799265193446524'
+  - created_time: '2014-08-14T17:17:53+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: |-
+      Are you sure you tried Google? Here are some search results.
+
+      https://www.google.com.eg/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=casper%2Fvmlinuz%20read%20error
+    id: '799380343435009'
+  - created_time: '2014-08-14T19:17:14+0000'
+    from:
+      name: Amr Tag
+      id: '10211180899988571'
+    message: "Ahmed T. Al-Amir:This is my search result, perhaps I looked in a wrong
+      manner. Thank you. \nAhmad Mohammad: I tried the same USB stick on the computer
+      lab in my university and you know how shitty they are."
+    id: '799422720097438'
+  - created_time: '2014-08-15T03:23:58+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: I found this http://linustechtips.com/main/topic/40055-ubuntu-boot-loader-error/
+      by searching for this "boot loader read error usb". Note that the number is
+      probably random based on which random file was corrupted so it doesn't help
+      in searching. Also, I have found Google sometimes confused by symbols like "/",
+      ":", "@", I'd usually replace them with spaces and/or put quotes around the
+      "../../.." string.
+    id: '799563206750056'
+  - created_time: '2014-08-15T08:59:08+0000'
+    from:
+      name: Amr Tag
+      id: '10211180899988571'
+    message: |-
+      a thousand thanks to you. as I am trying to install linux on a friend's laptop, I cant immediately test these solutions but I will inform you once I do.
+      thanks a lot again :)
+    id: '799634740076236'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOems1TWpZAMU1Ua3pORFEyTlRJME9qRTBNRGd3TVRjM01UST0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOems1TmpNME56UXdNRGMyTWpNMk9qRTBNRGd3T1RNeE5EZAz0ZD
+attachments:
+  data:
+  - description: |-
+      On trying to load linux from a USB, I encountered this error, it doesn't go beyond that. I didn't find any google documents on the matter
+      Anyone can help?
+    media:
+      image:
+        height: 537
+        src: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/10606564_10202444222977106_5567467670148699217_n.jpg?oh=b2535116e5b1804177fbbadd8af0df51&oe=5AF2F912
+        width: 720
+    target:
+      id: '10202444222977106'
+      url: https://www.facebook.com/photo.php?fbid=10202444222977106&set=gm.799261140113596&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=10202444222977106&set=gm.799261140113596&type=3

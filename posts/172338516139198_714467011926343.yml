@@ -9,3 +9,163 @@ created_time: '2014-03-13T14:21:11+0000'
 updated_time: '2014-03-13T22:22:03+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/714467011926343/
 id: '172338516139198_714467011926343'
+reactions:
+  data:
+  - id: '10215070655377585'
+    name: Mahmoud Kandeel
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRFMk5qZA3hNVFkzTmpveE16azBOekl4TVRFM09qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRFMk5qZA3hNVFkzTmpveE16azBOekl4TVRFM09qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2014-03-13T14:33:52+0000'
+    from:
+      name: Mahmoud Kandeel
+      id: '10215070655377585'
+    message: تسلم ياعمده، طيب ايه رايك تعمل اسكربت يعمل فحص للشبكة lan بحيث لو فيه
+      عدد معين من لاجهزة ينفذا امر معين، ولو فيه اجهزة جديدة فتحت مثلاً يعمل لك تنبيه
+      صوتى، و notification وايضا ينفذ اوامر telnet :)
+    id: '714471325259245'
+  - created_time: '2014-03-13T14:34:27+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: انا عملت السكريبت ده بالبايثون قبل كده استنى ادور عليه
+    id: '714471471925897'
+  - created_time: '2014-03-13T14:35:25+0000'
+    from:
+      name: Mahmoud Kandeel
+      id: '10215070655377585'
+    message: Eslam Hamouda عاوزينك فى المهمة دى معانا :)
+    id: '714471725259205'
+  - created_time: '2014-03-13T14:38:03+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: اهه لاقيته http://www.linuxac.org/forum/threads/65232-Nadar-Network-Radar-%D8%AA%D8%B7%D8%A8%D9%8A%D9%82-%D8%A8%D8%A7%D9%8A%D8%AB%D9%88%D9%86-%D8%A8%D8%A5%D9%83%D8%AA%D8%B4%D8%A7%D9%81-%D8%A7%D9%84%D8%A3%D8%AC%D9%87%D8%B2%D8%A9-%D8%B9%D9%84%D9%89-%D9%86%D9%81%D8%B3-%D8%A7%D9%84%D8%B4%D8%A8%D9%83%D8%A9
+    id: '714473098592401'
+  - created_time: '2014-03-13T14:41:04+0000'
+    from:
+      name: Mahmoud Kandeel
+      id: '10215070655377585'
+    message: Emad Elsaid انت راجل مية المية المية المية ياعمده (Y) تسلم ياكير، هجربه
+      كده وهحاول اشوف اللى ناقصة واضيفه له ان عرفت :(
+    id: '714473891925655'
+  - created_time: '2014-03-13T14:42:26+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: هتلاقيه بسيط ان شاء الله
+    id: '714474315258946'
+  - created_time: '2014-03-13T14:50:36+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      It's a nice & very useful as it is now, but if you want to scale it you need to take care of two things
+      1. This method won't work when the file is changed but the content is of the same size
+      2. If the directories contain a lot of files (thousands)
+      3. Queue changes
+
+      This can be useful https://pypi.python.org/pypi/watchdog
+    id: '714477218591989'
+  - created_time: '2014-03-13T14:53:16+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: i got 2nd and 3rd point but i can't get 1st point, can you describe a
+      use case ?
+    id: '714478275258550'
+  - created_time: '2014-03-13T15:15:08+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: If I changed the content in a file from "baba" to "mama" then new_size
+      will equal size & you won't call alert_size_exceeded
+    id: '714485171924527'
+  - created_time: '2014-03-13T15:15:58+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: I don't want to sound like a guy who criticizes everybody's work. I admire
+      your work (Y)
+    id: '714485448591166'
+  - created_time: '2014-03-13T15:19:33+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: "no it is ok criticism is fine i learn more from your codes and tips,
+      \nare you sure about point 1? as i don't replace size in $directories_to_watch
+      hash."
+    id: '714486461924398'
+  - created_time: '2014-03-13T15:27:20+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: I revised your script & point 1 doesn't apply
+    id: '714488821924162'
+  - created_time: '2014-03-13T15:27:40+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: هييييييييه :D
+    id: '714488901924154'
+  - created_time: '2014-03-13T16:20:05+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: "On linux with a kernel version ≥ 2.6.13  you can also use pyinotify,
+      a python interface to the kernel's inotify \n\ninotify is a Linux kernel subsystem
+      that acts to extend filesystems to notice changes to the filesystem, and report
+      those changes to applications.\n\nSo your application will not monitor the filesystem,
+      it will just listen to the kernel, and whenver a watched directory(ies) change
+      a notification is sent to your application accordingly. \n\nYou can also listen
+      on specific actions and discard the rest.\n\nhttps://github.com/seb-m/pyinotify"
+    id: '714506541922390'
+  - created_time: '2014-03-13T16:48:44+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: Mosab Ahmad the package I mentioned earlier is cross-platform & uses
+      the correct API on each OS
+    id: '714518758587835'
+  - created_time: '2014-03-13T22:22:03+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: Didn't know that :)
+    id: '714643648575346'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekUwTkRjeE16STFNalU1TWpRMU9qRXpPVFEzTWpFeU16ST0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekUwTmpRek5qUTROVGMxTXpRMk9qRXpPVFEzTkRrek1qTT0ZD
+attachments:
+  data:
+  - description: |-
+      Monitor directories sizes and take an action if one of them exceeded
+
+      this is a simple script for system administrators to monitor directories sizes
+      and report to them if one of them exceeded the allocated size.
+
+      the problem arise if you're responsible of a system and wanted to monitor small websites
+      sizes without blocking their expansion, so you'll have to create a deamon application that
+      alert you when one of them exceeds the size expected.
+
+      this script will do so, it'll iterate on a set of directories and check their size
+      and alert you if one of them exceeded their size, and will wait for one hour then try again
+
+      you can change the waiting period and directories set and sizes expected in bytes.
+
+      gist: https://gist.github.com/9527136
+    media:
+      image:
+        height: 482
+        src: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/1798119_10151990258317957_1111562078_n.jpg?oh=6391f487b0dee0fa56586d29b9e4fc14&oe=5AE9847F
+        width: 720
+    target:
+      id: '10151990258317957'
+      url: https://www.facebook.com/photo.php?fbid=10151990258317957&set=gm.714467011926343&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=10151990258317957&set=gm.714467011926343&type=3

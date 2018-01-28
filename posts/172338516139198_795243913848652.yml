@@ -11,3 +11,249 @@ updated_time: '2014-08-08T21:37:38+0000'
 name: Power Grid Load Status
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/795243913848652/
 id: '172338516139198_795243913848652'
+reactions:
+  data:
+  - id: '2037969632887452'
+    name: Osama Khaled
+    type: LIKE
+  - id: '10159726802330618'
+    name: Ahmed AbouZaid
+    type: LIKE
+  - id: '10155210073496198'
+    name: Waleed Youssry
+    type: LIKE
+  - id: '10159836581160433'
+    name: Mahmoud M. El-Safty
+    type: LIKE
+  - id: '10159968598420224'
+    name: Tarek Omar
+    type: LIKE
+  - id: '10160029019015066'
+    name: Mostafa Kamal
+    type: LIKE
+  - id: '10157058270083136'
+    name: Muhammad El-Labban
+    type: LIKE
+  - id: '10160007537500512'
+    name: Abbas Adel Ibrahim
+    type: LIKE
+  - id: '10155970088481341'
+    name: Mohammad Tayseer
+    type: LIKE
+  - id: '10155961552416083'
+    name: Abdallah Hodieb
+    type: LIKE
+  - id: '10214861141222529'
+    name: Abdelrady Fcis
+    type: LIKE
+  - id: '10155833475081885'
+    name: Mohamed El-Kholy
+    type: LIKE
+  - id: '10156207737619180'
+    name: Ahmed Al-Amir
+    type: LIKE
+  - id: '10212947071504226'
+    name: Eslam Hamouda
+    type: LIKE
+  - id: '10215615937451922'
+    name: Mohamed Hassan
+    type: LIKE
+  - id: '10155018788506126'
+    name: Hosam Mohie El Din
+    type: LIKE
+  - id: '10155880569740170'
+    name: Meligy
+    type: LIKE
+  - id: '10214796374519514'
+    name: Islam AbdelMohaimen Hassan
+    type: LIKE
+  - id: '10159933404285574'
+    name: Amr Saafan
+    type: LIKE
+  - id: '10155446870048095'
+    name: Diaa Radwan
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdNak16TURRM056RTVPakUwTURjMU16YzFNamM2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TlRVM05qWXpNRGswT2pFME1EY3pOek0yTVRjNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2014-08-07T01:07:05+0000'
+    from:
+      name: Diaa Radwan
+      id: '10155446870048095'
+    message: Like without seeing :)
+    id: '795246810515029'
+  - created_time: '2014-08-07T01:07:51+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: ":)"
+    id: '795247033848340'
+  - created_time: '2014-08-07T01:13:36+0000'
+    from:
+      name: Omar Sabet
+      id: '10157028049108496'
+    message: Daangggerr Zoooneee
+    id: '795248980514812'
+  - created_time: '2014-08-07T01:55:44+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Great job :)
+    id: '795261580513552'
+  - created_time: '2014-08-07T03:30:04+0000'
+    from:
+      name: Khaled M. Diab
+      id: '10215626626127168'
+    message: "Good work, I have some notes:\n- In the controller, you define two actions
+      index (for the home page of the website) and status (for the JSON API that you
+      provide) .. this results in code duplication and sort of bad design choice.
+      I would suggest that the index action uses your JSON API directly as a typical
+      client (service-url/status), parses the JSON and directs the view to render
+      what it wants. \n- I think that the test is fake, right?\n- As you probably
+      know, parsing their html is not stable from your API viewpoint, but I think
+      this is the only method you have for now ...\n- By the load distribution over
+      time, are you going to parse this page MiniCurrentLoadClock2.aspx? I would suggest
+      moving your API one step forward and incorporate sort of prediction based on
+      the load distribution .. now you provide something, egyptera doesn't provide
+      ..\n- Why GPL? :D"
+    id: '795294553843588'
+  - created_time: '2014-08-07T03:31:44+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: |-
+      #1 that was my plan, but I wanted to sleep and I was being super lazy :)
+
+      #2 I agree
+
+      #3 right, generated automaticaly
+
+      #4 Agreed
+
+      #5 Great idea
+
+      #6 Why not?! :D
+    id: '795295017176875'
+  - created_time: '2014-08-07T03:33:28+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: Also, you are welcome to fork the code and introduce whatever features
+      you like :)
+    id: '795295500510160'
+  - created_time: '2014-08-07T03:34:54+0000'
+    from:
+      name: Khaled M. Diab
+      id: '10215626626127168'
+    message: you really want to sleep, because I wrote 5 notes, and you replied to
+      6 out of 5 :D
+    id: '795296060510104'
+  - created_time: '2014-08-07T03:35:13+0000'
+    from:
+      name: Khaled M. Diab
+      id: '10215626626127168'
+    message: Sure. But I am not a php fan :|
+    id: '795296177176759'
+  - created_time: '2014-08-07T03:35:36+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: ":D"
+    id: '795296240510086'
+  - created_time: '2014-08-07T05:16:22+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: Awesome (Y)
+    id: '795330833839960'
+  - created_time: '2014-08-07T05:42:28+0000'
+    from:
+      name: Mohamed El-Kholy
+      id: '10155833475081885'
+    message: they don't offer past/historical data ?
+    id: '795335850506125'
+  - created_time: '2014-08-07T13:56:10+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: The offer nothing! :/
+    id: '795518260487884'
+  - created_time: '2014-08-07T14:18:15+0000'
+    from:
+      name: Mohamed El-Kholy
+      id: '10155833475081885'
+    message: ":("
+    id: '795529883820055'
+  - created_time: '2014-08-07T14:19:40+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: Khaled M. Diab, build your application that keeps track using your favourite
+      language :P
+    id: '795530230486687'
+  - created_time: '2014-08-07T14:22:22+0000'
+    from:
+      name: Khaled M. Diab
+      id: '10215626626127168'
+    message: LOL :D
+    id: '795531007153276'
+  - created_time: '2014-08-07T15:37:09+0000'
+    from:
+      name: Elsharnouby Mohamed
+      id: '10155984416966904'
+    message: المشكلة دايما انهم مبيدوش داتا عن المناطق ودا شيء ملوش لزمة :/
+    id: '795555643817479'
+  - created_time: '2014-08-08T12:24:08+0000'
+    from:
+      name: Ahmed Kamal
+      id: '10204469829103969'
+    message: |-
+      Mosab Ahmad
+      https://www.facebook.com/tiec.egypt/posts/561826530589288
+    id: '796060027100374'
+  - created_time: '2014-08-08T16:41:49+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: |-
+      Nice idea, Converted it into js
+      http://kashwaa.github.io/loadmeter/
+      I assume we could predict outage if we have enough data, I don't think it's available from official sources, maybe crowd-sourcing?!
+    id: '796162853756758'
+  - created_time: '2014-08-08T16:46:55+0000'
+    from:
+      name: Mohamed El-Kholy
+      id: '10155833475081885'
+    message: Does that require a mobile app for people to report outage? Or try to
+      harvest twitter ?
+    id: '796165057089871'
+  - created_time: '2014-08-08T21:37:38+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: If all tweets were tagged with location, we could map out where the power
+      goes out, then maybe figure some trend (maybe they just cut them out in a specific
+      order), but I don't think there will be many tweets about power outage that
+      are tagged with a location :\
+    id: '796383707068006'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemsxTWpRMk9ERXdOVEUxTURJNU9qRTBNRGN6TnpNMk1qVT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemsyTXpnek56QTNNRFk0TURBMk9qRTBNRGMxTXpNNE5UZAz0ZD
+attachments:
+  data:
+  - description: This is an attempt at parsing the data in the Load Meter provided
+      by The Egyptian Electric Utility and Consumer Protection Regulatory Agency (EGYPTERA).
+    media:
+      image:
+        height: 355
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQB7lQtcA23f5yVs&w=720&h=720&url=http%3A%2F%2Fwww.aecom.com%2Fdeployedfiles%2FInternet%2FCapabilities%2FEnvironment%2FMarkets%2FCropped_iStock_000003058682Medium_electric%2520power%2520lines.jpg&cfs=1&_nc_hash=AQCu96PIpRYquVT7
+        width: 355
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fpower-grid-status.mos3abof.com%2F&h=ATPoeuKDhPB74XK31YR4V0X6ZAz2emmk6YgiuOiDsQftcOX-GU_4OenIuCXNDryfw5FTQAJ6asR4lUWTqwaGfyUfHlrLxy3ew2dW&s=1&enc=AZOlPhJ0cMEpCEsxmznOjWLtGZF09jFo3uVYlkcMVqPITOTh4V1FrOxQCOoSSXVmCX7VTQaqtP-SdB9ykU_0UjLF
+    title: Power Grid Load Status
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fpower-grid-status.mos3abof.com%2F&h=ATPoeuKDhPB74XK31YR4V0X6ZAz2emmk6YgiuOiDsQftcOX-GU_4OenIuCXNDryfw5FTQAJ6asR4lUWTqwaGfyUfHlrLxy3ew2dW&s=1&enc=AZOlPhJ0cMEpCEsxmznOjWLtGZF09jFo3uVYlkcMVqPITOTh4V1FrOxQCOoSSXVmCX7VTQaqtP-SdB9ykU_0UjLF

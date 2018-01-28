@@ -18,3 +18,128 @@ created_time: '2015-03-03T20:07:31+0000'
 updated_time: '2015-03-03T22:37:28+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/903778266328549/
 id: '172338516139198_903778266328549'
+reactions:
+  data:
+  - id: '10155547807454234'
+    name: Michel Aguib
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRFd05EQTBNak16T2pFME1qVTBNekkzTkRRNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRFd05EQTBNak16T2pFME1qVTBNekkzTkRRNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2015-03-03T20:26:48+0000'
+    from:
+      name: Ahmed Koraïem
+      id: '10159879865770402'
+    message: AFAIK Hackintoshs had to be installed on PCs with exact similar H/W specs
+      as a real Mac. So if your wifi card for example has never been used in an actual
+      mac the OS will never recognize it.
+    id: '903783929661316'
+  - created_time: '2015-03-03T20:29:22+0000'
+    from:
+      name: Ahmed Koraïem
+      id: '10159879865770402'
+    message: You can identify the boot partition using fdisk, and go from there to
+      replace the bootsector with a windows one. All windows ISO installations have
+      a bootsect.exe in them that you can use to install the boot sector. But there
+      are other easier ways I persume.
+    id: '903784562994586'
+  - created_time: '2015-03-03T20:31:35+0000'
+    from:
+      name: Ahmed Koraïem
+      id: '10159879865770402'
+    message: You have better chances installing Mac OS on a desktop pc, where u can
+      customize the specs while building to guarantee the result.
+    id: '903785939661115'
+  - created_time: '2015-03-03T20:51:26+0000'
+    from:
+      name: أحمد محمود محمد عبدالوهاب
+      id: '10155226291481186'
+    message: remove it and install linux :D
+    id: '903791579660551'
+  - created_time: '2015-03-03T20:55:49+0000'
+    from:
+      name: Muhammad Sherbeeny
+      id: '10159810258355527'
+    message: Linux can be for developers... Mac for Designers... Windows for Office
+      :D
+    id: '903792659660443'
+  - created_time: '2015-03-03T20:56:44+0000'
+    from:
+      name: أحمد محمود محمد عبدالوهاب
+      id: '10155226291481186'
+    message: then get a mac .. it will never be the same even if u install it on windows
+      ... the trackpad .. keyboard .. wifi .. bluetooth .. a lot of issues to resolve
+      and it wont be the same :D
+    id: '903792892993753'
+  - created_time: '2015-03-03T20:57:02+0000'
+    from:
+      name: أحمد محمود محمد عبدالوهاب
+      id: '10155226291481186'
+    message: go for windows .. windows is good (a beautiful lie)
+    id: '903792969660412'
+  - created_time: '2015-03-03T20:58:57+0000'
+    from:
+      name: Muhammad Sherbeeny
+      id: '10159810258355527'
+    message: |-
+      I've just sold my mac :D
+      I depend more on my iPad
+      I was just testing Hackintosh, that's all... Don't really need it :)
+    id: '903793572993685'
+  - created_time: '2015-03-03T21:03:40+0000'
+    from:
+      name: أحمد محمود محمد عبدالوهاب
+      id: '10155226291481186'
+    message: "ah ok :D \nHackintosh is really weird and you may have the same specs
+      like someone online and it won't work .. because you forgot a variable or sth
+      and the kernel panics .. lol it was hell ... but fun :D"
+    id: '903795146326861'
+  - created_time: '2015-03-03T22:28:11+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: "بالنسبة للوايفاى مش هينفع، حاول تتعايش مع كارت وايفاى خارجى بيبقى دونجل
+      صغير كده USB ممكن تجيبه فى حدود ال ٨٠ جنيه مثلآ \nبالنسبة لكارت الجرافيكس، المفروض
+      تلاقى kext مناسب لكارت الجرافيكس بتاعك و حاول تقفل ال switchable graphics علشان
+      يشوف كارت الإنتل بس ، لأن ساعات بيتلخبط بين الكارتين و ممكن تجرب اكتر من بوت
+      لودر انا اللى شغال معايا chemeleon\nالصوت نزله درايفر VoodooHDA الأخير احتمال
+      كبير يشتغل الناس عاملين فيه شغل كويس\nانا عندى فيه مشكلة واحدة ان الأيونة بتاعته
+      مش بتقلل و تعلى الصوت و بضطر اعلى و اوطى من السلايدر بتاع PCM فى الSettings.\nالبلوتوث
+      برضه مش شغال تعايش برضه :D"
+    id: '903821706324205'
+  - created_time: '2015-03-03T22:37:28+0000'
+    from:
+      name: Omar Mohsen
+      id: '1629690233758127'
+    message: You shoud search for the drivers which are kernel extensions they will
+      work better only if these drivers exists
+    id: '903823832990659'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEF6Tnpnek9USTVOall4TXpFMk9qRTBNalUwTVRRME1EZAz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEF6T0RJek9ETXlPVGt3TmpVNU9qRTBNalUwTWpJeU5EZAz0ZD
+attachments:
+  data:
+  - description: "I've posted this long time ago, there:\nhttps://www.hackintosh.zone/hackintosh-topic/6037-wifi-sound-and-ati-5145-vga-on-asus-k52jb/\n\nbut
+      got no answer, maybe someone here can help?\n\n \nI installed the latest version
+      Yosemite 10.10.1 on my Asus laptop, K52JB:\nhttp://www.asus.com/Notebooks_Ultrabooks/K52JB/specifications/\n\n
+      \ni5 with 8GB ram\n \nfirst partition has windows 8.1, Yosemite is on a second
+      separate partition of almost 50GB space.\n \nBut it only works with GraphicsEnabler=No\n
+      \nSo, poor VGA (ATI mobility radeon HD 5145 - 512MB)\nalso No sound and no wifi
+      (Qualcomm Atheros AR9285)\n \n \nSo, is there anything can be done to make it
+      fully functioning ?\nor should I let it go? :(\n \nif I should let it go, how
+      can I remove it and restore the windows bootloader?\n \nThank you in advance
+      :)"
+    media:
+      image:
+        height: 537
+        src: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/11053892_10155253716960527_2351584373643043175_n.jpg?oh=935b1361fcbc36218d6474b053be5470&oe=5AE14658
+        width: 720
+    target:
+      id: '10155253716960527'
+      url: https://www.facebook.com/photo.php?fbid=10155253716960527&set=gm.903778266328549&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=10155253716960527&set=gm.903778266328549&type=3

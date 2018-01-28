@@ -12,3 +12,134 @@ created_time: '2015-08-09T13:15:44+0000'
 updated_time: '2015-08-10T07:53:31+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/987317561307952/
 id: '172338516139198_987317561307952'
+reactions:
+  data:
+  - id: '895970407247426'
+    name: Ahmad Magdy
+    type: LIKE
+  - id: '10156052502884860'
+    name: Omar Essam
+    type: LIKE
+  - id: '10156258607755921'
+    name: Ashraf Kaabi
+    type: LIKE
+  - id: '10215834435679186'
+    name: Diaa Sami
+    type: LIKE
+  - id: '10155855157936047'
+    name: Mosab Ibrahim
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTFNRE0wTWpRME5UQTBPakUwTXpreE1qa3dNamc2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TnpVMU1ESTJNRFEyT2pFME16a3hNall5TnpBNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2015-08-09T13:17:58+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: ":D"
+    id: '987317934641248'
+  - created_time: '2015-08-09T13:19:26+0000'
+    from:
+      name: Diaa Sami
+      id: '10215834435679186'
+    message: '"Unused RAM is a wasted resource" after I had that change of mentality
+      years ago, I now wish the OS would cache as much of the disk as possible in
+      the RAM until it''s full (I know it does but it''s not that aggressive)'
+    id: '987318174641224'
+  - created_time: '2015-08-09T13:20:00+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: Exactly, it is just sitting there eating electricity (not that much really)
+      and gathering dust!
+    id: '987318321307876'
+  - created_time: '2015-08-09T13:22:52+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      Some people do not have too much RAM. Several expensive laptops come with 8GB of RAM. Some people also have naturally-RAM-Hungary apps like IDEs or DBs or legacy corporate apps.
+
+      When combining a few RAM hungry apps together,  you might run out if RAM and your OS caches stuff to disk.  This degrades your're system performance even if you have an SSD.
+    id: '987319014641140'
+  - created_time: '2015-08-09T13:26:42+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: Well, IMO the problem in this scenario is paying for an expensive laptop
+      that will be used for extensive work and settling for 8GB RAM.
+    id: '987320271307681'
+  - created_time: '2015-08-09T13:31:44+0000'
+    from:
+      name: Hosam Aly
+      id: '1657509230977456'
+    message: Even without doing much work, just by having about 20 tabs open in Chrome,
+      including a number of Google docs and spreadsheets, the browser may be consuming
+      more than 3 GB of RAM. That's a LOT!
+    id: '987321991307509'
+  - created_time: '2015-08-09T13:33:06+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: RAM is just one factor in laptops purchase.  I used to have a 32GB RAM
+      ThinkPad and i once had a VM with 12GB of RAM because I had to use some customer
+      server simulation apps that were RAM Hungary. I sometimes ran multiple VMs at
+      the same time. Now I have a Macbook with 16GB of RAM. If Chrome takes more than
+      4GBs RAM, this means the max my Parallels VM can use is around 8-10GB RAM without
+      OS system degradation.
+    id: '987322464640795'
+  - created_time: '2015-08-09T13:35:23+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: It was not actually the main point of the post, but you should choose
+      the machine that suits your needs not the other way around. If you need 32GB
+      to finish a task, then your problem is the machine that does not have more than
+      16, not that you should limit your tasks to suit your machine.
+    id: '987323537974021'
+  - created_time: '2015-08-09T21:31:12+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: If you use a frugal OS like Linux you will have a lot better RAM statistics.
+      I feel much better when my Debian starts with just 125 MB RAM. As for browsers,
+      I noticed, Chrome and FFox use a lot, but I guess that is the price of having
+      so much JS and media running. Other than that, I have a host OS (Ubuntu) for
+      browsing and checnking out multimedia. Then I have a custim built dev environement(s)
+      one is Gnusense, which takes 175 MB RAM, Debian based, the other is Debian with
+      only a file manager and no fancy Desktop UI. I have notcied that with Linux,
+      you can have UI that is much fancier than windows (my subjective opnion) AND
+      you actually make a lot better use of HD space and Network bandwidth. I can
+      send you many more statistics if you like. So 16 GB RAM with Debian is great
+      because the host only takes 100 -400 MB depending on Desktop UI, which you can
+      even choose at boot time, so you can oick a different one each time. Also with
+      an SSD, you will notice a tremendous speed increase so you won't even have a
+      problem with the heaviest apps.
+    id: '987587414614300'
+  - created_time: '2015-08-10T07:44:00+0000'
+    from:
+      name: Mohamed Tarek El Haddad
+      id: '10159750515025408'
+    message: Matlab
+    id: '987738141265894'
+  - created_time: '2015-08-10T07:50:41+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: Emulating the universe? :D
+    id: '987739411265767'
+  - created_time: '2015-08-10T07:53:31+0000'
+    from:
+      name: Mohamed Tarek El Haddad
+      id: '10159750515025408'
+    message: |-
+      Hahah
+      Ya rait .. Just some image processing
+    id: '987740091265699'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVGczTXpFM09UTTBOalF4TWpRNE9qRTBNemt4TWpZAeU56ZAz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVGczTnpRd01Ea3hNalkxTmprNU9qRTBNemt4T1RNeU1URT0ZD

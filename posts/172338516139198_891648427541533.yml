@@ -9,3 +9,68 @@ created_time: '2015-02-06T23:46:49+0000'
 updated_time: '2015-02-07T07:23:09+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/891648427541533/
 id: '172338516139198_891648427541533'
+reactions:
+  data:
+  - id: '1550774681686883'
+    name: Eslam Esmaeal
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlOak13T1RjMk5Ua3pPakUwTWpNeU56QTFOREk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlOak13T1RjMk5Ua3pPakUwTWpNeU56QTFOREk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2015-02-07T00:04:53+0000'
+    from:
+      name: Amjad Mashaal
+      id: '10213738834576763'
+    message: The fact that it's an android application doesn't make a difference,
+      it all depends on what are you having there. Relational? Not relational? Scalable?
+      Cheap? Huge community, small community? Takes a lot of resources, light? etc.
+    id: '891655197540856'
+  - created_time: '2015-02-07T00:08:07+0000'
+    from:
+      name: Aya E Mahmoud
+      id: '981197072029923'
+    message: It's relational and yes it will take a lot of resources, so can I use
+      for example MySql and connect it to my android app?
+    id: '891655710874138'
+  - created_time: '2015-02-07T00:09:10+0000'
+    from:
+      name: Amjad Mashaal
+      id: '10213738834576763'
+    message: If you're not expecting a huge number of people, do that. It's better
+      not to connect to the database directly, though. Create your own API.
+    id: '891656140874095'
+  - created_time: '2015-02-07T00:10:36+0000'
+    from:
+      name: Aya E Mahmoud
+      id: '981197072029923'
+    message: OK got it. Thanks for the help.
+    id: '891656430874066'
+  - created_time: '2015-02-07T00:13:09+0000'
+    from:
+      name: Tarik Ibrahim
+      id: '10156476353501062'
+    message: I do not think there's nothing called  "The best" , it should depend
+      on the case you are in , you can start small taking scaleability into consideration
+    id: '891656950874014'
+  - created_time: '2015-02-07T00:16:02+0000'
+    from:
+      name: Aya E Mahmoud
+      id: '981197072029923'
+    message: You're right. Thanks for the help.
+    id: '891657584207284'
+  - created_time: '2015-02-07T07:23:09+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: If it's on the server, it doesn't matter. You probably want to encapsulate
+      your logic in a web service or something and do all your security and application-specific
+      features in there. Then the Android app just talks to your service regardless
+      of what DB is behind it.
+    id: '891795934193449'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGt4TmpVMU1UazNOVFF3T0RVMk9qRTBNak15TmpjME9UTT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGt4TnprMU9UTTBNVGt6TkRRNU9qRTBNak15T1RNM09Eaz0ZD

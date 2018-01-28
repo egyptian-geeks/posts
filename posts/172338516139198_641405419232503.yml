@@ -10,3 +10,63 @@ updated_time: '2013-10-22T15:22:24+0000'
 name: Introduction to HTTP Compression - Safari Books Online's Official Blog
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/641405419232503/
 id: '172338516139198_641405419232503'
+reactions:
+  data:
+  - id: '10204363718130247'
+    name: Ahmed ELgendy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRjME9EZAzJNalEyTkRveE16ZA3lORFEyTkRVek9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRjME9EZAzJNalEyTkRveE16ZA3lORFEyTkRVek9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2013-10-22T12:48:19+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: 'Yes'
+    id: '641421699230875'
+  - created_time: '2013-10-22T15:05:38+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      Related: If for whatever reason you had to apply dynamic compression, and not from IIS (happened to me at one client), you can use this technique:
+
+      http://gurustop.net/blog/2013/06/08/manually-gzip-compressing-any-asp-net-page-pagemethod-mvc-action-httphandler-deflate/
+    id: '641480322558346'
+  - created_time: '2013-10-22T15:16:25+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: Mohamed Meligy why not an ASP.net HTTP module?
+    id: '641485482557830'
+  - created_time: '2013-10-22T15:22:24+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      This is the core technique, you can call it fro an MVC action or filter, or some webforms page or some HTTP Module or whatever.
+
+      In my case we were injecting an Angular.JS app into a 10 years old webforms app (last updated .NET 3.5), and our web services were in fact webforms Page Methods if you remember those [ScriptMethod] ones. Only some of these needed the compression so we just called the helper where needed, but again, the technique can be used in several ways.
+    id: '641486919224353'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOalF4TkRJeE5qazVNak13T0RjMU9qRXpPREkwTkRZAd09Uaz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOalF4TkRnMk9URTVNakkwTXpVek9qRXpPREkwTlRVek5EUT0ZD
+attachments:
+  data:
+  - description: A guest post by Dean Hume, a software developer and techie living
+      in London, is also the author of Fast ASP.NET Websites, a book aimed at improving
+      the per
+    media:
+      image:
+        height: 261
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQDbYp06pmKhdMOh&w=720&h=720&url=http%3A%2F%2Fblog.safaribooksonline.com%2Fwp-content%2Fuploads%2F2013%2F10%2Ffig2.jpg&cfs=1&_nc_hash=AQA6BaNUwnjG9JyC
+        width: 261
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fblog.safaribooksonline.com%2F2013%2F10%2F21%2Fintroduction-to-http-compression%2F&h=ATMMNP-jcPPBWyox4goC2hl6Ye4GgSKthVRVrbJcHGQ12V_BZNoL7ntw8RWdVhhtF3_yjFSptl4zWkEjTMJXGGkkzLPGshNX5OmV&s=1&enc=AZNdLo8nlS5_umQc84MDwsMIXk213cGUX6gstj6W6dstQ5kEfuDHOSJ7lcZqdONFP2nkGrGLHee6tj3XAHRVznxy
+    title: Introduction to HTTP Compression - Safari Books Online's Official Blog
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fblog.safaribooksonline.com%2F2013%2F10%2F21%2Fintroduction-to-http-compression%2F&h=ATMMNP-jcPPBWyox4goC2hl6Ye4GgSKthVRVrbJcHGQ12V_BZNoL7ntw8RWdVhhtF3_yjFSptl4zWkEjTMJXGGkkzLPGshNX5OmV&s=1&enc=AZNdLo8nlS5_umQc84MDwsMIXk213cGUX6gstj6W6dstQ5kEfuDHOSJ7lcZqdONFP2nkGrGLHee6tj3XAHRVznxy

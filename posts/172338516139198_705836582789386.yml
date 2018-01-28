@@ -12,3 +12,70 @@ created_time: '2014-02-24T09:54:26+0000'
 updated_time: '2014-02-25T05:57:43+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/705836582789386/
 id: '172338516139198_705836582789386'
+comments:
+  data:
+  - created_time: '2014-02-24T09:58:51+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: I can do it for you in Python
+    id: '705837809455930'
+  - created_time: '2014-02-24T10:25:38+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: I can do it in C# :)
+    id: '705846656121712'
+  - created_time: '2014-02-24T10:50:12+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: |-
+      So much hassle for a very simple problem. If the CSV data in both files are in the same order.
+      Short_file.csv [email, first_name, last_name]
+      long_file.csv [email, first_name, last_name]
+
+      Then a fast-grep will do the job (Disclaimer, make backup copies first):
+      grep -Fvf bad_users.csv all_users.csv > users_final.csv
+
+      https://gist.github.com/l0gicpath/9185572
+    id: '705853726121005'
+  - created_time: '2014-02-24T18:27:56+0000'
+    from:
+      name: Abdo Magdy
+      id: '10155273874266167'
+    message: Thanks Hady trying to make the grep command work on windows, installed
+      the GnuWin32 but unable to call command, anyway it can work on Windows?
+    id: '706020266104351'
+  - created_time: '2014-02-24T18:29:13+0000'
+    from:
+      name: Abdo Magdy
+      id: '10155273874266167'
+    message: 'That''s the boy I installed: http://gnuwin32.sourceforge.net/packages/grep.htm'
+    id: '706020686104309'
+  - created_time: '2014-02-24T18:36:02+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: Abdelrahman Magdy it should definitely work without changes. Is the error
+      indicating that it can't find the grep command or it runs but breaks with an
+      error?
+    id: '706023032770741'
+  - created_time: '2014-02-24T19:14:13+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: You can do it with Google Spreadsheet :)
+    id: '706034782769566'
+  - created_time: '2014-02-25T05:57:43+0000'
+    from:
+      name: Abdo Magdy
+      id: '10155273874266167'
+    message: Thanks Hady I managed to do it easier with Excel by embedding both files,
+      highlighting duplicate records, delete and export. Couldn't get the command
+      to run on my CMD.EXE for some reason.
+    id: '706295079410203'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekExT0RNM09EQTVORFUxT1RNd09qRXpPVE15TXpVNU16RT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekEyTWprMU1EYzVOREV3TWpBek9qRXpPVE16TURjNE5qTT0ZD

@@ -9,3 +9,66 @@ created_time: '2015-10-04T15:53:36+0000'
 updated_time: '2015-10-05T12:10:17+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1015186068521101/
 id: '172338516139198_1015186068521101'
+comments:
+  data:
+  - created_time: '2015-10-04T16:18:00+0000'
+    from:
+      name: Ahmed Samir Nouh
+      id: '10155919191613567'
+    message: Etfy elgehad weft7o tany
+    id: '1015192525187122'
+  - created_time: '2015-10-04T17:31:58+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: I think nodejs made already to visual studio right ?
+    id: '1015219521851089'
+  - created_time: '2015-10-04T17:36:03+0000'
+    from:
+      name: Anwar Mohamed
+      id: '10156130617059680'
+    message: actually i am using mono, making a rest server
+    id: '1015221251850916'
+  - created_time: '2015-10-04T17:36:42+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: If you're using mono for .net I see no point...
+    id: '1015221568517551'
+  - created_time: '2015-10-05T01:34:50+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      Do you have high concurrency problems? If yes, let's talk specifics, if not, do not prematurely optimize.
+
+      In .NET there are 3 options: Web API (builtin, free), Nancy Fx (free), and ServiceStack (commercial for anything serious).
+
+      They all do the job well. Web API is dominant when finding developers with skills matter. Go with it till you hit a roadblock.
+    id: '1015350708504637'
+  - created_time: '2015-10-05T01:36:31+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: I second Negm though. There is not much point in using Mono for high
+      performance / concurrency requirements. You'll get this from IIS, but Mono isn't
+      abused badly enough, so it doesn't have solutions to these problems, as not
+      enough users had it.
+    id: '1015351101837931'
+  - created_time: '2015-10-05T02:25:50+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: WebAPI with good use of asynchronous programming go far enough.
+    id: '1015362765170098'
+  - created_time: '2015-10-05T12:10:17+0000'
+    from:
+      name: Mohamed Rashed
+      id: '10155764645725568'
+    message: "WebpAPI is the standard choice now, but you have to take a look on Service
+      Stack (v3 free) \nIt's better in performance compared to WebAPI\n\nhttps://github.com/ServiceStack/ServiceStack/wiki/Real-world-performance"
+    id: '1015523701820671'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF4TlRFNU1qVXlOVEU0TnpFeU1qb3hORFF6T1RjMU5EZA3cZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF4TlRVeU16Y3dNVGd5TURZAM01Ub3hORFEwTURRM01ERTQZD

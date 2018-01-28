@@ -10,3 +10,183 @@ updated_time: '2015-08-05T22:44:18+0000'
 name: Sadly, Windows 10 Is Stealing Your Bandwidth 'By Default' — Disable It...
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/983757831663925/
 id: '172338516139198_983757831663925'
+reactions:
+  data:
+  - id: '2003168383032265'
+    name: Ahmed Osama
+    type: LIKE
+  - id: '10159888022555052'
+    name: Fady Anwar
+    type: LIKE
+  - id: '2184614908219238'
+    name: Mohamed M-Gomaa
+    type: LIKE
+  - id: '10155984416966904'
+    name: Elsharnouby Mohamed
+    type: LIKE
+  - id: '10156258607755921'
+    name: Ashraf Kaabi
+    type: LIKE
+  - id: '10155815529215590'
+    name: Taha Amin
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdNVGN6TmpnMk16a3lPakUwTXpnMk16azROVFk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TmpFd09EYzFOVGc1T2pFME16ZAzJNREU0TmpVNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2015-08-03T11:37:44+0000'
+    from:
+      name: Taha Amin
+      id: '10155815529215590'
+    message: http://windows.microsoft.com/en-us/windows-10/windows-update-delivery-optimization-faq
+    id: '983764168329958'
+  - created_time: '2015-08-03T11:41:09+0000'
+    from:
+      name: Anas Rabei
+      id: '771652519692786'
+    message: There are two sides here. The person how want the updates and the other
+      who give it. From the first person's point of view, it is a feature. From the
+      other side it is not :)
+    id: '983764831663225'
+  - created_time: '2015-08-03T20:04:14+0000'
+    from:
+      name: Fady Anwar
+      id: '10159888022555052'
+    message: بخلاف انه ميكروسوفت قلبتها تورنت.. حد متخيل الخازوق المحتمل لو حد عرف
+      يابلود داتا تانيه للمستخدمين اللي حواليه؟
+    id: '983915411648167'
+  - created_time: '2015-08-05T14:45:42+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      Fady Anwar Torrents avoid that using hashes to verify the data, the torrent file is actually a list of trackers and hashes (similar thing with magnet links), to break this you'll need two cause to values to give the same hash, it should be extremely hard to do that, if it isn't then the hashing algorithm is weak (eg: MD5 is known to be weak).
+      I'm sure Microsoft did something similar, probably also sending these hashes from their servers signed by a specific certificate so nobody else can impersonate them and send different hashes :)
+    id: '984976484875393'
+  - created_time: '2015-08-05T17:14:25+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: Actually this feature helps with limited bandwidth situation within a
+      local network, if you have multiple PC's in your network, this will avoid all
+      the PC's downloading the updates on their own, and they can share the updates
+      between them once one of them downloaded the updates.
+    id: '985047371534971'
+  - created_time: '2015-08-05T18:05:08+0000'
+    from:
+      name: Fady Anwar
+      id: '10159888022555052'
+    message: Hassan Aly Selim two words.. hash collisions! Because of the limited
+      nature of the MD5 hash output length and the infinite possibilities of data
+      that can be hashed, one can possibly (very luckily) find a hash collision between
+      a critical windows file and  a his backdoor code that have some garbage data
+      inserted to generate the same hash using rainbow tables for instance, if not,
+      at least will be able to replace the critical file with some corrupted one,
+      contaminate the pool and cause havoc, I.e. DOS which might be already happening
+      and causing the strange error messages people are getting.. even on local networks,
+      it's very hard to secure such adhoc networks.
+    id: '985063084866733'
+  - created_time: '2015-08-05T18:06:04+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: Nobody uses MD5 for years, it is broken on so many levels, it is actually
+      against all security practices and policies to use it
+    id: '985063264866715'
+  - created_time: '2015-08-05T18:06:48+0000'
+    from:
+      name: Fady Anwar
+      id: '10159888022555052'
+    message: All hashing algorithms are vulnerable to hash collisions
+    id: '985063494866692'
+  - created_time: '2015-08-05T18:14:14+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: |-
+      Yes theoretically, but probability of collision in good Algorithms is almost impossible to craft a collision, if it was practical on any level you would have seen it happen in stuff like Bitcoin for example which is basically built on it, also any electronic signature is effectively a hash function.
+      However we are here talking about having with no keys, once you add a key it is a different story, for example bcrypt which is typically used with passwords
+    id: '985065721533136'
+  - created_time: '2015-08-05T18:15:33+0000'
+    from:
+      name: Fady Anwar
+      id: '10159888022555052'
+    message: I said very luckily :-)
+    id: '985066624866379'
+  - created_time: '2015-08-05T18:16:59+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: I would say very Unlikely, especially that bits are always signed, you
+      need to have Microsoft's private keys to do this.
+    id: '985068251532883'
+  - created_time: '2015-08-05T18:18:39+0000'
+    from:
+      name: Fady Anwar
+      id: '10159888022555052'
+    message: Also most people salt their hashes, might be beneficial until someone
+      recover the salt from client side, we all know security is a myth and we are
+      merely trying to raise the bar, but with a high value target like Windows 10
+      you always tend to reduce the attack surface, Microsoft's move sounds more like
+      they are asking for it :-)
+    id: '985068584866183'
+  - created_time: '2015-08-05T18:21:39+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: |-
+      There is nothing new here, you could still do this theoretical attack on any updates delivered online with a man in the middle, it is a known target, and that's why it is secured.
+      You can't stop development because you have theoretical attacks, otherwise you won't do anything, you mitigate them.
+    id: '985069301532778'
+  - created_time: '2015-08-05T18:25:30+0000'
+    from:
+      name: Fady Anwar
+      id: '10159888022555052'
+    message: But using unkown and random machines to share your bits? It might be
+      theoritical now until some motivated enough would actually make it feasible..
+    id: '985070291532679'
+  - created_time: '2015-08-05T18:29:39+0000'
+    from:
+      name: Fady Anwar
+      id: '10159888022555052'
+    message: Windows for years used ambiguity for security, since me and (assumingly)
+      you don't have access to the code, we will never be able to tell if it's secure
+      or not until someone clever and motivated enough with lots of time on his hands
+      manages to understand the traffic and find a vulnerability somewhere and cause
+      havoc, that's why I mentioned minimizing the attack surface..
+    id: '985071761532532'
+  - created_time: '2015-08-05T18:32:42+0000'
+    from:
+      name: Anas Rabei
+      id: '771652519692786'
+    message: ما تستهدوا بالله كده يا رجالة :D :D :D انا تعبت من متابعة الـ comments
+      والله :D :D :D
+    id: '985072534865788'
+  - created_time: '2015-08-05T22:44:18+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      Fady Anwar I think there are many people motivated to try to break hashing algorithms (and find collisions) due to how common they are in security systems, but so far I haven't heard of anybody breaking any of the known algorithms except for MD5.
+      Whatever hashing system they're using to verify updates, there are tons of other systems that rely on it too, an exploit in the algorithm is bad news for everybody, not just windows updates :D
+    id: '985165861523122'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVGd6TnpZAME1UWTRNekk1T1RVNE9qRTBNemcyTURFNE5qUT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVGcxTVRZAMU9EWXhOVEl6TVRJeU9qRTBNemc0TVRRMk5UZAz0ZD
+attachments:
+  data:
+  - description: Windows 10 is stealing users' bandwidth by default. Learn how to
+      disable It
+    media:
+      image:
+        height: 400
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQADgByCWLbZtJD6&w=720&h=720&url=http%3A%2F%2F1.bp.blogspot.com%2F-Lny0wddjE8U%2FVb8yXjZ2tdI%2FAAAAAAAAjy4%2FLhdmJQkHNL4%2Fs1600%2Fwindows-10-update-download.png&cfs=1&_nc_hash=AQAZOTfAkAu7Ggfr
+        width: 400
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fthehackernews.com%2F2015%2F08%2Fwindows-10-update.html&h=ATNMVZKoehNnTC3bzDc4Y4hOMM7wFjqJlrhhLlo64eo_B4cawyqDNiva1zQuGuxXqB03ELxktwrde7_xMHiEJLw8CG0uFVYXHdkC&s=1&enc=AZO_NR6caRVMSBv_fKxycIw6chODcsYH8_TZO78lfdfO3IbJRTwc0RGYw9wYeD2QOpHNy0N-6D1aFMTDUQou9FdS
+    title: Sadly, Windows 10 Is Stealing Your Bandwidth 'By Default' — Disable It...
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fthehackernews.com%2F2015%2F08%2Fwindows-10-update.html&h=ATNMVZKoehNnTC3bzDc4Y4hOMM7wFjqJlrhhLlo64eo_B4cawyqDNiva1zQuGuxXqB03ELxktwrde7_xMHiEJLw8CG0uFVYXHdkC&s=1&enc=AZO_NR6caRVMSBv_fKxycIw6chODcsYH8_TZO78lfdfO3IbJRTwc0RGYw9wYeD2QOpHNy0N-6D1aFMTDUQou9FdS

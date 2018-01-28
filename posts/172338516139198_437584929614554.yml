@@ -10,3 +10,104 @@ created_time: '2012-07-13T13:26:16+0000'
 updated_time: '2012-07-15T12:00:34+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/437584929614554/
 id: '172338516139198_437584929614554'
+comments:
+  data:
+  - created_time: '2012-07-13T13:37:31+0000'
+    from:
+      name: Sameh Ammar
+      id: '10216171489907822'
+    message: كنت مدمن كروم   وكنت بحس انه الفيرفوكس تقيل ولكن ف الاصدارت الاخيرة للكروم  تقريبا  بيدمر
+      الدنيا رجعت للفيرفوكس
+    id: '437588069614240'
+  - created_time: '2012-07-15T10:34:25+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      Just because the extensions show their memory in task manager can't get you 100% confidence they are irrelevant.
+      There could be a lot of things affecting this:
+      - Side effects of loaded extensions in each of the pages
+      - The obvious, amount of opened tabs
+      - The less obvious, like amount of closed tabs
+      - and also amount of history, bookmarks, and even cookies
+      - Not to mention size of session-specific history (since browser we opened)
+      - Does the memory include HTML5 local storage that maube some sites support in certain browser implementation but not another?
+      - Do the sites include Flash? Is it sure to perform equally in both browsers?
+
+      To have a fair comparison, you need to create a new user profile, and perform the same exact steps (including closing tabs or going from one page to another in same tab), without extensions or themes or anything.
+    id: '438314976208216'
+  - created_time: '2012-07-15T10:49:41+0000'
+    from:
+      name: Mohammed El Sayed
+      id: '10155880598025170'
+    message: "Thank you Mohamed Meligy for this nice comment, I've already did a clean
+      comparison between FF and chrome inside a fresh Windows 7 VM , both browsers
+      with new installation with NO EXTENSTIONS at all,  and chrome still eats more
+      ram than FF, see the results below:\n\nnew window (no tabs, just after a system
+      restart): \nFF==> 102MB,\nChrome==> 168MB\n\nopen 10 tabs: \nFF==> 486MB\nChrome==>
+      752MB\n\n5 minutes after closing the 10 tabs,\nFF==> 131MB\nchrome==> 196MB\n\nit's
+      now clear enough to say that Chrome team has made a BIG mistake in recent versions
+      that affects memory consumption, but I have no clue about what specifically
+      is causing this.\n\nI love Chrome, but I'm now forced to get back to FF."
+    id: '438318369541210'
+  - created_time: '2012-07-15T10:53:37+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: I wouldn't worry about ~ 100 MB RAM difference, not in recent time machines.
+      The other difference you refer to (the jump after 5 minutes) looks like a V8
+      JavaScript VM thing to me. Looks like a lot of JavaScript objects or so that
+      were later garbage collected. Maybe they have an issue though (which to me is
+      sort-of acceptable). Might be worth bringing it to them.
+    id: '438319472874433'
+  - created_time: '2012-07-15T10:55:21+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Firefox 12 and 13 have been doing great stuff recently as well anyway,
+      but you know, Chrome is the new IE5/6. A lot of sites are optimized for pre-approved
+      Chrome standard "proposals".
+    id: '438319712874409'
+  - created_time: '2012-07-15T11:13:12+0000'
+    from:
+      name: Mohammed El Sayed
+      id: '10155880598025170'
+    message: |-
+      I agree with you, except for the point of 100 MB.
+      as you can see, it's not 100 MB, it's around 330mb+ with 10 tabs.
+      and as you know, we (tech guys) surf usually with around 15 ~ 50 tabs opened, so expect a difference in GB scale, and this can't be acceptable from just a "Browser".
+    id: '438323472874033'
+  - created_time: '2012-07-15T11:16:30+0000'
+    from:
+      name: Mohammed El Sayed
+      id: '10155880598025170'
+    message: |-
+      as I said, I love Chrome, but I can't live with this issue no more.
+      my machine has only 4 GB (Home & work), so this affects the overall performance of my machine too much.
+      moving to Firefox, I now have enough to play with, taking into consideration that I've only 4 GB to play with.
+      but when I was using Chrome, I convinced myself that I've only 3 GB or so, cause Chrome:The-king was reserving the rest for his majesty :)
+    id: '438324276207286'
+  - created_time: '2012-07-15T11:17:07+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      I was more talking about the after-5-min result. I usually run my machine with a client VM taking up to 6 GB of my total 10 GB RAM, and have Chrome open all the time on the host machine with many tabs. Rarely a problem.
+      Are you using the final release channels of both or some pre-final equivalents?
+    id: '438324409540606'
+  - created_time: '2012-07-15T12:00:34+0000'
+    from:
+      name: Mohammed El Sayed
+      id: '10155880598025170'
+    message: yes.
+    id: '438333719539675'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAORE0zTlRnNE1EWTVOakUwTWpRd09qRXpOREl4T0RZAMk5URT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAORE00TXpNek56RTVOVE01TmpjMU9qRXpOREl6TlRNMk16UT0ZD
+attachments:
+  data:
+  - description: This attachment may have been removed or the person who shared it
+      may not have permission to share it with you.
+    title: Attachment Unavailable
+    type: unavailable

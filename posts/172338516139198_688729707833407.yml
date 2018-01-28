@@ -10,3 +10,89 @@ created_time: '2014-01-21T16:03:47+0000'
 updated_time: '2014-01-22T16:59:48+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/688729707833407/
 id: '172338516139198_688729707833407'
+reactions:
+  data:
+  - id: '10156020325916241'
+    name: Musa Hamza
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpReU5qYzJNalF3T2pFek9UQXpNakF5TmprNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TmpReU5qYzJNalF3T2pFek9UQXpNakF5TmprNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2014-01-21T16:08:51+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: https://github.com/blowmage/minitest-rails
+    id: '688735701166141'
+  - created_time: '2014-01-21T16:22:36+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: My secret weapon in learning any topic in ruby on rails is http://railscasts.com/
+      :) let me know if you need a specific cast I have a subscription there :)
+    id: '688741881165523'
+  - created_time: '2014-01-21T16:31:57+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: Wow, thanks, i will definitely, i watched many casts on railscasts, actually
+      ryan is the cause to switch to rails, to be specific the active admin gem video.
+    id: '688748414498203'
+  - created_time: '2014-01-21T17:15:10+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Now you know my secret weapon :D
+    id: '688765137829864'
+  - created_time: '2014-01-21T22:29:31+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: Be pragmatic. 100% coverage is not the goal. Write tests when you need
+      them, or the complex parts only
+    id: '688898801149831'
+  - created_time: '2014-01-21T22:29:55+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: Django admin also is the thing which attracted me to Django also :)
+    id: '688898977816480'
+  - created_time: '2014-01-22T13:59:38+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: |-
+      Being pragmatic doesn't mean your test coverage goes below 100% In fact it's completely irrelevant, first things first a 100% test coverage is less likely to happen in any project from day one.
+      Not because someone is being pragmatic, but because we are lazy creatures with a fancy name called programmers.
+
+      A healthy project will likely go through two or three minor refactors in its first 8 month and 1 major refactor after a year/a year and a half, it's likely to have a complete test coverage just before you do your major refactor or else you are walking on thin ice.
+
+      And once you do your major refactor and you've likely changed gears and are headed into a different direction, your test coverage will linger behind once again and so on.
+
+      Emad Elsaid I understand you find it rather unproductive following a strict TDD/BDD flow, that's because it's almost like trying to build a web app in 2014 using JEE. The reason we push people to do it isn't because it's useful today, it's because it's useful tomorrow.
+      It's useful the day you find your software broken up into 10 different moving parts, integrated with external and internal systems, it's that time when you can't for the life of you write a component or replace a file without breaking something if you are not careful, *really* careful.
+
+      So what do we do? We let the system take care of it, you've already written your tests and your systems integration is all green, today you are replacing a file. Done your deed? Now run the tests to see if anything broke.
+
+      It's more of a retrospective activity. Can you replace it with anything else? Sure, you can deploy to a staging server. But then again we hit a bug that affected 20% of our user base, it's breaking the experience.
+      Last thing you'll think about is pushing to a staging server and **manually** testing..
+
+      No, you'll push to a production server a quick fix and hope to god it doesn't break something, or fix, run tests and push.
+
+      Lastly, when your product grows into some two digits feature set, you will not for the life of you recall to test out every possible scenario manually.
+      Keep a deployment checklist, or a feature checklist, cool it'll still be a pain.
+      13 clicks and 4 inputs or one command and get a slice of that pizza? I'll go for the pizza.
+    id: '689210517785326'
+  - created_time: '2014-01-22T16:59:48+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: "^ ياه كل ده كومنت ؟"
+    id: '689285214444523'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamc0TnpNMU56QXhNVFkyTVRReE9qRXpPVEF6TWpBMU16RT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamc1TWpnMU1qRTBORFEwTlRJek9qRXpPVEEwTURrNU9EZAz0ZD

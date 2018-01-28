@@ -13,3 +13,146 @@ created_time: '2015-02-06T21:41:18+0000'
 updated_time: '2015-02-06T22:50:22+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/891614007544975/
 id: '172338516139198_891614007544975'
+reactions:
+  data:
+  - id: '1629690233758127'
+    name: Omar Mohsen
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhOVEUwT1RjeE1qYzJPakUwTWpNeU5qWXdPVEU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXhOVEUwT1RjeE1qYzJPakUwTWpNeU5qWXdPVEU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2015-02-06T21:43:55+0000'
+    from:
+      name: Ahmed ElSebaei
+      id: '1281616575316079'
+    message: Distro ?
+    id: '891614480878261'
+  - created_time: '2015-02-06T21:49:27+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Crunchbang.org
+    id: '891615937544782'
+  - created_time: '2015-02-06T21:54:57+0000'
+    from:
+      name: Ahmed ElSebaei
+      id: '1281616575316079'
+    message: Mohamed Samy Since it's based on Debian , I think you are not losing
+      much. what about customizing Debian it self to match what you need ?
+    id: '891617157544660'
+  - created_time: '2015-02-06T22:03:06+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Mohamed Salah what do you mean the current trend? I have been using it
+      for 6 months now, Linux for 3 years. I use forums for reference when I need
+      help. What do you mean by the "current trend"?
+    id: '891619730877736'
+  - created_time: '2015-02-06T22:04:03+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Ahmed ElSebaei yes, I have downloaded netinstall and customized it, but
+      this just takes 30 mins to install and bang! you have everything installed and
+      configured. How do I go about creating something like that?
+    id: '891620057544370'
+  - created_time: '2015-02-06T22:04:56+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Ahmed ElSebaei Debian + Open box + Conky + Applications including Iceweasel
+      with Flash player?
+    id: '891620224211020'
+  - created_time: '2015-02-06T22:13:33+0000'
+    from:
+      name: Ahmed ElSebaei
+      id: '1281616575316079'
+    message: "Mohamed Samy Yes you can achieve that by downloading debian minimal
+      iso , then install just what you need . I have Debian minimal + XMonad + XDM
+      + many other packages \nhttps://www.debian.org/CD/netinst/"
+    id: '891622114210831'
+  - created_time: '2015-02-06T22:19:12+0000'
+    from:
+      name: Ahmed ElSebaei
+      id: '1281616575316079'
+    message: Mohamed Samy Sorry I didn't notice your previous comment about netinstall
+    id: '891623400877369'
+  - created_time: '2015-02-06T22:23:18+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Yes, but what would it take to make it all in one iso so you can just
+      install it as one instead of going through the whole process and configuring?
+      How would I create a distro like that?
+    id: '891624480877261'
+  - created_time: '2015-02-06T22:25:59+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Mohamed Salah I basically want to know how to create  my own customized
+      distro in an iso I candownload and just install.  you get my point?
+    id: '891625280877181'
+  - created_time: '2015-02-06T22:27:38+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Nothing is wrong, what I am wondering is, when Debian 8 comes, how do
+      I create a crunchbang out of that that I can download as an iso and make availble
+      to others?
+    id: '891625837543792'
+  - created_time: '2015-02-06T22:29:30+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: '"remastersys" now that is the first thread. So you are saying that #!
+      was just that? Debian + tools  then remastersys to make it into an iso?  I thought
+      there was more involved, or am I worng?'
+    id: '891626230877086'
+  - created_time: '2015-02-06T22:32:40+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: funny this  "I have been doing this for almost 7 years  now and after
+      all the bs some folks created for me I have decided to  stop development of
+      remastersys and it will no longer be available. The  remastersys forum sections
+      will stay up for a very short period of time  and then will be removed. I just
+      have no desire to put up with it  anymore for a free software project. I've
+      had enough and will no longer  be doing anything with development."
+    id: '891626894210353'
+  - created_time: '2015-02-06T22:44:36+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Mohamed Salah I understand what you;re saying. Conky can be replicated.
+      It's the scripts that I will need to download that do the configuring and the
+      sources.list and i guess other stuff I don't know. It was just so much easier
+      when other people did that for me. I asked the owner, and he said that they
+      are discussing on how to move forward on the forums. For instance, on thing
+      I would love to add to the world in an EMACS with the proper configuration for
+      a Python dev environement with auto completion and a dark theme that you can
+      just download and it works. EMACS has been very difficult for me, and I see
+      I need to learn a lot to master it :)
+    id: '891630417543334'
+  - created_time: '2015-02-06T22:45:43+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Thanks guys, I like the info you shared and this I guess is enough to
+      get me started :) I appreciate your help and support
+    id: '891630644209978'
+  - created_time: '2015-02-06T22:49:45+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: 'Mohamed Salah my scond best choice is LMDE, I feel so much better with
+      Debian as opposed to Ubuntu. But still #! boots with 150 mb ram, that''s what
+      made me crazy about it :) I like cinnamon UI, but when I got used to the dark
+      theme and small footprint, I was hooked.'
+    id: '891632017543174'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGt4TmpFME5EZA3dPRGM0TWpZAeE9qRTBNak15TlRrd016VT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGt4TmpNeU1ERTNOVFF6TVRjME9qRTBNak15TmpJNU9EVT0ZD

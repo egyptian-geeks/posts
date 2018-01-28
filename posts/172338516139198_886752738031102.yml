@@ -9,3 +9,65 @@ created_time: '2015-01-26T23:27:28+0000'
 updated_time: '2015-01-27T15:10:31+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/886752738031102/
 id: '172338516139198_886752738031102'
+comments:
+  data:
+  - created_time: '2015-01-27T08:09:26+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: I can't relate to your question, could you elaborate please?
+    id: '886895658016810'
+  - created_time: '2015-01-27T10:53:48+0000'
+    from:
+      name: Mohamed Makeen
+      id: '10156031350846054'
+    message: i need to allow word document to be opened in asp.net web Page so the
+      user can write and modify his document , the same like Online word .
+    id: '886932968013079'
+  - created_time: '2015-01-27T11:03:29+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: ahaa, ok,  just to make sure you get a good help, let us know what are
+      your search results, what did you try and what is your current status, just
+      to make sure you won't get the same trials you already did and failed.
+    id: '886936518012724'
+  - created_time: '2015-01-27T11:04:12+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: "and is embeding the file in your page like so : \nhttp://en.support.wordpress.com/word-web-app/\ncould
+      help you?"
+    id: '886936748012701'
+  - created_time: '2015-01-27T11:11:00+0000'
+    from:
+      name: Mohamed Makeen
+      id: '10156031350846054'
+    message: Great but i need to host the file inside my organization for example
+      in share point Server  or something like that , not in external data source
+    id: '886937988012577'
+  - created_time: '2015-01-27T11:12:26+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: ok, let us know how far did you get to push you forward from there.
+    id: '886938238012552'
+  - created_time: '2015-01-27T14:46:55+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: Sharepoint should allow you to edit word files in it
+    id: '887007971338912'
+  - created_time: '2015-01-27T15:10:31+0000'
+    from:
+      name: Amr Reda
+      id: '10160087313865372'
+    message: INMO; It can be down by using Word Online Service which is part of the
+      Office Services deployed along with the SharePoint (Server/Online) BUT if you're
+      targeting Office 365 tenant. you can use Office 365 API to manage user's document,
+      mailboxes, etc..
+    id: '887015868004789'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGcyT0RrMU5qVTRNREUyT0RFd09qRTBNakl6TkRZAeE5qWT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGczTURFMU9EWTRNREEwTnpnNU9qRTBNakl6TnpFME16RT0ZD

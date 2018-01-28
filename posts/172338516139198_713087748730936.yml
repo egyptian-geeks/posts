@@ -8,3 +8,41 @@ created_time: '2014-03-10T14:00:13+0000'
 updated_time: '2014-03-10T20:47:24+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/713087748730936/
 id: '172338516139198_713087748730936'
+comments:
+  data:
+  - created_time: '2014-03-10T14:56:32+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: |-
+      لو الاتنين صح؟
+      السؤال سببه MOOC عن ال programming paradigms بادرسه الفتره دي, بيقول ان ال tail recursion , اللي هوا اساس ال looping , احسن من ناحيه الاداء بالسنبه لل recursion, دي بالنسبالي معلومه جديده, كنت دايما بافضل ال recursion وباعمله في كل مناسبه ممكنه, اقصر واشيك لكن واضح ان ذياده حجم ال call stack في حاله ال recursion بيخلي ال looping احسن
+    id: '713109935395384'
+  - created_time: '2014-03-10T15:41:42+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: "In principle recursion is better especially tail recursion because of
+      many reasons. For example of you do it right you won't have any mutable state.
+      Each function call is a smaller version of the original problem which the compiler
+      can help you optimize it. \nSome languages especially the pure functional don't
+      have loops to being with. \nHowever in practice you need both."
+    id: '713126485393729'
+  - created_time: '2014-03-10T15:59:10+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: so the bottom line here is to favor looping/tail recursion over recursion
+      in regards to performance
+    id: '713132815393096'
+  - created_time: '2014-03-10T20:47:24+0000'
+    from:
+      name: Emad Shaaban
+      id: '1483867968332898'
+    message: "ال recursion عادة بتكون اوضح و اسهل \n بس للاسف مش كل اللغات فيها tail
+      recursion"
+    id: '713252848714426'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekV6TVRBNU9UTTFNemsxTXpnME9qRXpPVFEwTmpNek9UST0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekV6TWpVeU9EUTROekUwTkRJMk9qRXpPVFEwT0RRME5EUT0ZD

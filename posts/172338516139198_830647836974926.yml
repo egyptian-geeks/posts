@@ -11,3 +11,80 @@ updated_time: '2014-10-16T11:37:53+0000'
 name: 'Hussam Hussien: Change database URLs may damage you site !'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/830647836974926/
 id: '172338516139198_830647836974926'
+comments:
+  data:
+  - created_time: '2014-10-15T00:26:07+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: didn't get what was the challenge here ? changing a bunch of urls because
+      wordpress is an idiot to serialize the array of the theme settings?!
+    id: '830752570297786'
+  - created_time: '2014-10-15T05:31:13+0000'
+    from:
+      name: Hussam Hussien
+      id: '1849298651796769'
+    message: |-
+      Hi Mohamed , I thought that in the past 'Wordpress is an idiot to serialize the array of the theme settings' , but i found that Wordpress only serialize it's own data , and it can unserialize it again without distribute you .
+
+      Serialization if a feature , in some cases you yourself should use it to get benefit from translating data structures or object state into a format that can be stored .
+
+      Let's say you have some post data, but your database can't be modified to store the new post data in separate fields.
+
+      You could serialize your $_POST array and store it in the persistent storage.  I've found the necessity of storing the POST as a "payload" of sorts quite invaluable at times.
+
+      Knowing you can do something, doesn't mean you have to use it everywhere.
+    id: '830843256955384'
+  - created_time: '2014-10-16T11:32:27+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: |-
+      Wordpress serializes its own data because it didn't yet understand the meaning of a relational database! Check the wp_options table for instance!
+
+      They also are very stupid to rely on database for config variables that are proven to be better stored in config files.
+
+      In other systems (CMSes or not) it is perfectly easy to fix this using a one liner .htaccess rule, but in Wordpress you have to SUFFER!
+    id: '831363256903384'
+  - created_time: '2014-10-16T11:34:19+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: |-
+      This is the MOST STUPID design I have ever seen! Also to change the site url, you need to change TWO different records in the wp_options table!
+
+      Just check the docs :
+
+      http://codex.wordpress.org/Changing_The_Site_URL
+    id: '831364146903295'
+  - created_time: '2014-10-16T11:36:46+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: |-
+      Also, if you are stuck in such a problem, there are tons of plugins dedicated to this purpose that handle this specific issue like this plugin that is a lot easier than the script you shared in the post :
+
+      https://wordpress.org/plugins/velvet-blues-update-urls/
+    id: '831365513569825'
+  - created_time: '2014-10-16T11:37:53+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: I am sorry, but I really HATE Wordpress :D
+    id: '831365873569789'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRE13TnpVeU5UY3dNamszTnpnMk9qRTBNVE16TXpJM05qYz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRE14TXpZAMU9EY3pOVFk1TnpnNU9qRTBNVE0wTlRrME56TT0ZD
+attachments:
+  data:
+  - media:
+      image:
+        height: 80
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQCKJjYxg7f0mbl2&w=720&h=720&url=http%3A%2F%2Flh3.googleusercontent.com%2F--ufLs5NZWDY%2FAAAAAAAAAAI%2FAAAAAAAAABI%2FD-miF243ixc%2Fs80-c%2Fphoto.jpg&cfs=1&_nc_hash=AQCKSYiz_xO9prcH
+        width: 80
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fhussam7ussien.blogspot.com%2F2014%2F10%2Fchange-database-urls-may-damage-you-site.html&h=ATNnlDv4wx6-p10rZyXttoNIuTVRqVxArM72M0NkgdN3QtLdmB9E293iP_SLV8-iVJ8PX-ZR18AvOM-CBn5iE1dfRJf192c_wC9q&s=1&enc=AZNDfD4z1gELdvdeLFPOTtkAJbr1xP_szqIu71kDmS5mlZ3sBmDEM52HrR-u-hYdseG9OmZI5ucGC7vaqpPi-ZtO
+    title: 'Hussam Hussien: Change database URLs may damage you site !'
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fhussam7ussien.blogspot.com%2F2014%2F10%2Fchange-database-urls-may-damage-you-site.html&h=ATNnlDv4wx6-p10rZyXttoNIuTVRqVxArM72M0NkgdN3QtLdmB9E293iP_SLV8-iVJ8PX-ZR18AvOM-CBn5iE1dfRJf192c_wC9q&s=1&enc=AZNDfD4z1gELdvdeLFPOTtkAJbr1xP_szqIu71kDmS5mlZ3sBmDEM52HrR-u-hYdseG9OmZI5ucGC7vaqpPi-ZtO

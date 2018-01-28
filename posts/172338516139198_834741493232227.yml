@@ -9,3 +9,124 @@ created_time: '2014-10-22T20:13:33+0000'
 updated_time: '2014-10-28T11:12:14+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/834741493232227/
 id: '172338516139198_834741493232227'
+reactions:
+  data:
+  - id: '10214080331513711'
+    name: Ebram Tharwat
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRVM05Ea3hNemswTlRveE5ERTBNREV6TWpVME9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRVM05Ea3hNemswTlRveE5ERTBNREV6TWpVME9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2014-10-27T07:21:13+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: "Don't! \n\nUse a proven existing data access layer or ORM that goes
+      with whatever technology you are using."
+    id: '836803123026064'
+  - created_time: '2014-10-27T07:46:23+0000'
+    from:
+      name: Yahia Alaa
+      id: '10204400996661453'
+    message: why? i'm gone face bugs and don't know what's gone on
+    id: '836814943024882'
+  - created_time: '2014-10-27T07:49:08+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: |-
+      Facing bugs is a lot better than getting stuck for months in building a layer that people already have collectively built, enhanced and solved bugs for.
+
+      And you will end up having bugs yourself, but this time you will have wasted your project's time building a data access layer instead of building your project!
+    id: '836815846358125'
+  - created_time: '2014-10-27T07:51:08+0000'
+    from:
+      name: Yahia Alaa
+      id: '10204400996661453'
+    message: ok thanks for information but what the most preferred dal or orm do u
+      like?
+    id: '836817589691284'
+  - created_time: '2014-10-27T07:52:52+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: |-
+      The ones I like are SQLAlchemy for Python and Doctrine for PHP, but the list is HUGE! You will need to do your own research :)
+
+      http://en.wikipedia.org/wiki/List_of_object-relational_mapping_software
+    id: '836819033024473'
+  - created_time: '2014-10-27T07:54:33+0000'
+    from:
+      name: Yahia Alaa
+      id: '10204400996661453'
+    message: thanks
+    id: '836819439691099'
+  - created_time: '2014-10-27T11:45:51+0000'
+    from:
+      name: Mohamed Rashed
+      id: '10155764645725568'
+    message: What is the technology?
+    id: '836891979683845'
+  - created_time: '2014-10-27T12:04:12+0000'
+    from:
+      name: Yahia Alaa
+      id: '10204400996661453'
+    message: entity frame work code frist
+    id: '836900906349619'
+  - created_time: '2014-10-27T12:11:05+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: There are many good alternatives. Back in the day NHibernate was the
+      king, but now Entity Framework has grown "good enough" that I see this less
+      and less. Some people use micro ORMs like Dapper and Peta Poco and even Massive
+      but it's easier to manage EF in large scale.
+    id: '836903146349395'
+  - created_time: '2014-10-27T12:11:51+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: I'd say don't use the migrations feature though. Can be a pain in large
+      team, not very merge friendly (in source control terms). Use something like
+      DbUp or FluentMigrator, etc.
+    id: '836903433016033'
+  - created_time: '2014-10-27T20:34:13+0000'
+    from:
+      name: Mohamed Rashed
+      id: '10155764645725568'
+    message: |-
+      Strongly recommend PetaPoco, it was selected in very large open source projects, which all trust, like umbraco & DNN.
+      Personally it's my main Tiny ORM
+    id: '837094356330274'
+  - created_time: '2014-10-28T04:57:04+0000'
+    from:
+      name: Aymanov Yassinovitch Mohamed
+      id: '10159959701725603'
+    message: Mohamed Meligy i have heard the same words from you regarding ORMs tools
+      since 4 years in code camp :)
+    id: '837293886310321'
+  - created_time: '2014-10-28T07:41:01+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: "At this time EF was still horrible. I used it in 2009 and regretted
+      and became a big fan of NHibernate and threw a lot of weight in its community.
+      Now EF although not great is very good for so many cases. I used it successfully
+      in several projects. \n\nMigrations are not there still, they improved but main
+      problems remained. Micro ORMs are improving greatly, but by definition or even
+      name they are not for big teams. \n\nSo, yes, this area of the world has been
+      boring recently"
+    id: '837331952973181'
+  - created_time: '2014-10-28T11:12:14+0000'
+    from:
+      name: Mohamed Rashed
+      id: '10155764645725568'
+    message: Amr Badawy
+    id: '837408999632143'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRE0yT0RBek1USXpNREkyTURZAME9qRTBNVFF6T1RRME56TT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRE0zTkRBNE9UazVOak15TVRRek9qRTBNVFEwT1RRM016UT0ZD

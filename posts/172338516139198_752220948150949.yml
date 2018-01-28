@@ -10,3 +10,190 @@ created_time: '2014-05-24T11:43:09+0000'
 updated_time: '2014-06-01T01:05:01+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/752220948150949/
 id: '172338516139198_752220948150949'
+reactions:
+  data:
+  - id: '1547083592012332'
+    name: Helal Ali Helal
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhNekl4TVRnMU5qZAzBPakUwTURBNU5URTJOamM2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXhNekl4TVRnMU5qZAzBPakUwTURBNU5URTJOamM2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2014-05-24T11:47:35+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      ممكن تروح مكان يبقى مزنوق قوي في كل شعراية performance فيستخدمه.
+      احتمال مش قوي و لا ضروري يحصل.
+      سيبها بظروفها و خليها على الله و ما تشغلش دماغك.
+    id: '752222378150806'
+  - created_time: '2014-05-24T11:49:30+0000'
+    from:
+      name: MohAmed HAmada
+      id: '905385256303172'
+    message: "مش فهمت حضرتك بصراحه مشغلش دماغي ازاي \nيعني انت تقصد لازم اتعلم ال
+      2 ؟؟"
+    id: '752222941484083'
+  - created_time: '2014-05-24T11:52:04+0000'
+    from:
+      name: Ahmed Fawzy Omaira
+      id: '10213985926195361'
+    message: هو بصراحه لازم تبقى عارف كل حاجه او على الاقل عندك فكره... بس دا ميمنعش
+      انك تتعلم LINQ دلوقتى وبعدين تتعلم ال ADO.Net وياحبذا لو تتعلم ال Entity قدام
+      :)
+    id: '752223828150661'
+  - created_time: '2014-05-24T11:53:10+0000'
+    from:
+      name: MohAmed HAmada
+      id: '905385256303172'
+    message: |-
+      Ahmed Fawzy Omaira
+      تمام يا هندسة :)
+    id: '752224038150640'
+  - created_time: '2014-05-24T11:56:54+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: سيبها بظروفها. ما تشغلش وقت فيها ممكن يكون مفيد اكتر في حاجة تانية. لو/لما
+      تحتاجه ابقى اتعلمه
+    id: '752225568150487'
+  - created_time: '2014-05-24T11:58:33+0000'
+    from:
+      name: MohAmed HAmada
+      id: '905385256303172'
+    message: |-
+      Mohamed Meligy
+      تمام فهمتك كده يا هندسه
+    id: '752226014817109'
+  - created_time: '2014-05-24T12:03:20+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      اسمح لي ارجع في كلامي او اوضحه. لو ما تعرفش SQL  مهم تتعلمه، و ينفع من ال entity framework تبعت Sql و كده برده على فكرة. اعرف ال sql profiler و افهم من حلاله ال linq بيكتب ايه. ده مهم.
+      انما ال data reader و data set و typed data set و كده سيبك منهم
+    id: '752227558150288'
+  - created_time: '2014-05-24T12:09:59+0000'
+    from:
+      name: MohAmed HAmada
+      id: '905385256303172'
+    message: "اهااا اناا بالطبع شغال ناو مع نفسي كورس SQL \nولسه مش دخلت ف اي حاجه
+      زي LINQ او ADO او entity framework\nعشان كده قولت استشير حضراتكم الآفضل بحيث
+      اناا معنديش ادني خبره ف حاجه زي كده \nو اناا ناوي ان شاء الله ع مجال ال Web"
+    id: '752230061483371'
+  - created_time: '2014-05-24T12:23:23+0000'
+    from:
+      name: Emad Mokhtar Habib
+      id: '10159905066535634'
+    message: زي ماقلك محمد مليجي شغل ADO.NET 2 دا سيبك منه مش حيفيدك إلا إذا حتشتغل
+      على برنامج قديم و نزل LinqPad و درب نفيك من عليها على ال Linq http://www.linqpad.net/
+    id: '752236158149428'
+  - created_time: '2014-05-24T12:30:10+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: "بص. أولا فيه LINQ و دي طريقة ترجمة من كود dot NET لـ SQL، و قبل ما تتعلمها،
+      مهم تتعلم الـ SQL نفسه، و تتعلم ازاي تطلع الـ SQL اللي بيكتبه الـ LINQ و ممكن
+      تعمل ايه يخليه يترجم لـ SQL أحسن و كده\n.\nفوق ده فيه LINQ To SQL و رغم الاسم
+      المريب إلا إنه مش LINQ نفسه، و انما بيستخدمه علشان يحول من SQL Tables لـ dot
+      NET classes.\n\nقبل وجوده كان لازم تستخدم الحاجات اللي في الـ ADO.NET علشان
+      تحول بنفسك، أو ماتحولش أصلا. \n\nالـ LINQ To SQL مايكروسوفت موتته و عملت بداله
+      الـ Entity Framework، و فيه طريقتين، طريقة فيها designer و طريقة اسمها Code
+      First. الطريقة اللي فيها Designer و اسمها Database First أو Model First هايموت
+      الكلام ده كله مع النسخة القادمة من Entity Framework (لسة قدامة شوية كتير) و
+      هيتبقى بس الـ Code First.\n\nلذا، اتعلم SQL ثم Entity Framework Code First بما
+      فيه LINQ و سيبك من أي حاجة تانية."
+    id: '752240871482290'
+  - created_time: '2014-05-24T12:48:42+0000'
+    from:
+      name: MohAmed HAmada
+      id: '905385256303172'
+    message: "Mohamed Meligy \nيعني اناا فهمت من حضرتك ان الآفضل ان ابدااا بتعلم SQL
+      Server و بعد كده اخش ف ال Linq, Entity Framework\nو عامة ديه محتويات الكورس
+      اليل معاياا ياريت راي حضرتك فيه \n((\nI.  Module 1: C# 3.0 Language Features\n\n1.
+      \ Developer Productivity Features - Implicit typing, Object and collection initializers,
+      Automatic \nproperties, Anonymous types\n2.  Extensibility Features - Extension
+      methods, Partial methods\n3.  Functional Programming Features - Lambda expressions,
+      Expression trees\n4.  LINQ Support Features - An overview of language query
+      operators\n\nII.  Module 2: LINQ Query Operators\n\n1.  Motivation for Query
+      Operators - Declarative vs. Imperative programming\n2.  Developing Query Operators
+      - C# 2.0 Iterators, Deferred execution\n3.  Categorizing Query Operators - Filtering,
+      aggregation, ordering, grouping, projection, and \nmiscellaneous operators\n4.
+      \ Language Integration of Query Operators\n\nIII.  Module 3: Applied LINQ to
+      Objects\n\n1.  Using Query Operators with Objects\n2.  Customizing Query Operators\n3.
+      \ The Query Pattern\n4.  Examples of LINQ to Objects - Reflection, File System,
+      Strings, WCF Contracts\n\nIV.  Module 4: LINQ to XML\n\n1.  Introducing the
+      XElement API\n2.  Functional XElement Construction\n3.  Querying XElement DOMs\n4.
+      \ Axis Methods\n\nV.  Module 5: LINQ to SQL\n\n1.  LINQ to DataSet - Why DataSets
+      are not enough\n2.  LINQ to SQL as an Object-Relational Mapper - Mapping using
+      attributes, mapping using external \nXML mapping files, mapping inheritance
+      relationships\n3.  The Data Context - Queries, updates, inserts, deletes, stored
+      procedures and database functions, \ncustom SQL strings, database creation from
+      schema, transactions, preloading and tracking data, \noptimistic locking and
+      concurrency control\n4.  Visual Studio LINQ to SQL Designer vs. SQLMetal\n\nVI.
+      \ Module 6: Beyond LINQ\n\n1.  Overview of Parallel LINQ\n2.  Overview of ADO.NET
+      Entity Framework\n3.  Overview of ADO.NET Data Services \n4.  Overview of Custom
+      Query Providers\n5.  Performance Considerations of LINQ to Objects\n6.  Performance
+      Considerations of LINQ to XML\n7.  Performance Considerations of LINQ to SQL"
+    id: '752247098148334'
+  - created_time: '2014-05-24T12:50:02+0000'
+    from:
+      name: MohAmed HAmada
+      id: '905385256303172'
+    message: "Ahmad Abd-Elghany \nتقصد من اولهاا ان ابداا بتعلم \nADO \n, و بعد كده
+      LINQ ثم Entity Framework"
+    id: '752248031481574'
+  - created_time: '2014-05-24T13:11:01+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: بص، أنت طالما ماشي على كورس بالفعل يبقى سيبك من كل الكلام. أي حاجة علم
+      هاتفيد. كلامي كان عن الحاجات اللي بتتعلمها مع نفسك أو تدور على كورسات فيها من
+      البداية، انما طالما خلاص دخلت في الكورس، يبقى كل حاجة هاتفهمها الفهم حتى و إن
+      كان مش مفيد بشكل عملي في أي حاجة (مثلا يعني) فهو هايبقى مفيد في تعلم الحاجات
+      التانية المفيدة عمليا
+    id: '752258588147185'
+  - created_time: '2014-05-24T20:15:19+0000'
+    from:
+      name: Adham EL-Deeb
+      id: '1748637668514027'
+    message: هي دلوقتي مش إسمها ADO إسمها entity framework و هي الأفضل طبعا و الدعم
+      هيفضل ليها و مش هيكون فى دعم لل LINQ تاني .. هي أصلا كانو بيجربو بيها حاجه مش
+      أكتر خليك فى EF
+    id: '752488418124202'
+  - created_time: '2014-05-24T23:52:45+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: و زي ما انت شايف هاتلافي ناس لما تيجي تقول LINQ يبقى قصدها LINQ TO SQL
+      مش ال LINQ = language integrated query اللي هي طريقة الترجمة من dot NET لحاجة
+      وسيطة يقدر ال LINQ TO SQL او ال Entity Framework يحولها ل SQL. بس في الغالب
+      و انت بتقرأ في مصادر أجنبي مش هاتلاقي اللخبطة دي.
+    id: '752584501447927'
+  - created_time: '2014-05-25T01:05:40+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: هو مش منهج و حتمتحن فيه، لما تقابل حاجة تحتاج فيها ال Ado. Net ممكن تلمه
+      في كام ساعة
+    id: '752606888112355'
+  - created_time: '2014-05-31T14:12:10+0000'
+    from:
+      name: Mohamed Sameeh Sharaf
+      id: '2167550119925504'
+    message: Mohamed Meligy  هو انت ليه بتقول ان ال code first  هو المستقبل
+    id: '756703497702694'
+  - created_time: '2014-06-01T01:05:01+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: لأن Entity Framework 7 هايبقى Code First بس. حسب الفيديوهات بتاعة TechEd
+      2014 بيقولوا لأنهم لقوا هو ده اللي أغلب الناس بتستخدمه.
+    id: '756950227678021'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOelV5TWpJeU16YzRNVFV3T0RBMk9qRTBNREE1TXpJd05UVT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOelUyT1RVd01qSTNOamM0TURJeE9qRTBNREUxT0RRM01ERT0ZD

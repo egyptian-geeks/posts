@@ -12,3 +12,500 @@ created_time: '2014-01-30T17:07:27+0000'
 updated_time: '2014-02-01T19:33:30+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/693498000689911/
 id: '172338516139198_693498000689911'
+reactions:
+  data:
+  - id: '2007426285938916'
+    name: Abdelrahman M. Moez
+    type: LIKE
+  - id: '1931982003481921'
+    name: Ahmed Ghattas
+    type: LIKE
+  - id: '10155749012575342'
+    name: Mohammed Magdy Diab
+    type: LIKE
+  - id: '10155819655346066'
+    name: Shady M. Najib
+    type: LIKE
+  - id: '2096764887006623'
+    name: Abdalla Elnaggar
+    type: LIKE
+  - id: '10213864188932344'
+    name: صلاح الدين محمود
+    type: LIKE
+  - id: '10156025239731303'
+    name: Alaa Ali
+    type: LIKE
+  - id: '10215070655377585'
+    name: Mahmoud Kandeel
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdNVFEyT1RJMk1qRTFPakV6T1RFME5qVTBNakU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRFMk5qZA3hNVFkzTmpveE16a3hNVEUyTURFNE9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2014-01-30T17:48:15+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: https://github.com/mtayseer/euler/blob/master/2.py
+    id: '693530574019987'
+  - created_time: '2014-01-30T19:10:24+0000'
+    from:
+      name: Ahmad Abou Hashem
+      id: '1245206065581053'
+    message: https://gist.github.com/Im-ahmad/8716328
+    id: '693562970683414'
+  - created_time: '2014-01-30T21:06:23+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: "الحل بتاعى ب PHP :) \nhttps://gist.github.com/8718659"
+    id: '693605250679186'
+  - created_time: '2014-01-30T21:08:39+0000'
+    from:
+      name: Mohamed El-Alfy
+      id: '1589145544505470'
+    message: |-
+      my solution in actionscript 3.0
+      https://gist.github.com/mo7amedelalfy/8718679
+    id: '693606294012415'
+  - created_time: '2014-01-30T21:12:10+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: انا فى شخص معين هاموت و اشوف الكود بتاعه :D
+    id: '693607414012303'
+  - created_time: '2014-01-30T21:14:16+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: I need to dig up my old code :D I solved this one years ago
+    id: '693608030678908'
+  - created_time: '2014-01-30T21:16:15+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: "^ here he comes :D"
+    id: '693608617345516'
+  - created_time: '2014-01-30T21:33:24+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: اشمعنى :D المسألة دي سهلة يعني مش حيبقى فيها اختراع كثير
+    id: '693613820678329'
+  - created_time: '2014-01-30T21:35:25+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: "^ اهه كده بس رغم اننى كنت فاكر ان كل الناس هاتحلها traight forward لكن
+      فى ناس حلتها بطريقة مختلفة ... checkout the other solutions bove"
+    id: '693614314011613'
+  - created_time: '2014-01-30T21:43:07+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: |-
+      mine in good old c
+      https://gist.github.com/kashwaa/8720503
+    id: '693619220677789'
+  - created_time: '2014-01-30T21:45:00+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: "^ wow فين طيب؟"
+    id: '693619970677714'
+  - created_time: '2014-01-30T21:52:54+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: |-
+      Python
+      https://github.com/bashmohandes/ProjectEuler/blob/master/Problem_2.py
+    id: '693622717344106'
+  - created_time: '2014-01-30T21:54:28+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: I prefer to write a full fibonacci since more problems will be using
+      it, so you can reuse it
+    id: '693623204010724'
+  - created_time: '2014-01-30T21:54:57+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: Although python is way too weakly typed for my taste,I can't help but
+      admire the simplicity of the first solution Mohammad Tayseer
+    id: '693623397344038'
+  - created_time: '2014-01-30T21:55:42+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: Mohammad Tayseer is a Python master :D
+    id: '693623610677350'
+  - created_time: '2014-01-30T21:55:47+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: "^3 اها فهمت عملت كده فى الحلول اللى بتعتمد على الprime numbers"
+    id: '693623627344015'
+  - created_time: '2014-01-30T21:56:59+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: Yes, many problems use fib & prime numbers down the road, actually some
+      problems are just the same problem with different input size that if you solved
+      it earlier with a bad algorithm you have to get a better algorithm to solve
+      the other oen
+    id: '693624010677310'
+  - created_time: '2014-01-30T21:57:25+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: Like Problem 18 & 67
+    id: '693624137343964'
+  - created_time: '2014-01-30T22:01:51+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: هانجيلهم المسائل دى :)  ، انا كنت لسة الصبح برضه بحل مسائل لموقع hired
+      و كان فيها حاجات جامدة برضه ، كان قدامى 3 ساعات ل5 مسائل حليت واحد و نص :D كنت
+      عاوز اطخ نفسى بالنار.
+    id: '693625540677157'
+  - created_time: '2014-01-30T22:09:35+0000'
+    from:
+      name: Mustafa Abdullah
+      id: '10156099084105126'
+    message: https://gist.github.com/melnaquib/8720992
+    id: '693628130676898'
+  - created_time: '2014-01-30T22:33:10+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: "^ آآآ انا فى حاجات كتير مش فاهمها فى الكود ، ممكن تضيف كومنتس على الكود
+      ؟ يعنى الحتة مثلآ اللى فيها 012 و متغير اماكنهم مش فاهمها خالص."
+    id: '693636294009415'
+  - created_time: '2014-01-30T22:36:17+0000'
+    from:
+      name: Ahmed Sadek Mohamed Tawfik
+      id: '10155056867911922'
+    message: "my solution with quantity system calculator  \nhttps://gist.github.com/ibluesun/8721534"
+    id: '693637004009344'
+  - created_time: '2014-01-30T22:41:47+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: "^ didn't see that coming \nانا اول مرة اسمع عن البلاتفورم دى"
+    id: '693638764009168'
+  - created_time: '2014-01-30T22:42:45+0000'
+    from:
+      name: Ahmed Sadek Mohamed Tawfik
+      id: '10155056867911922'
+    message: دى من تأليف و مجهود العبد لله :)
+    id: '693639137342464'
+  - created_time: '2014-01-30T23:09:15+0000'
+    from:
+      name: Emad Shaaban
+      id: '1483867968332898'
+    message: https://gist.github.com/emadshaaban92/8722026
+    id: '693646974008347'
+  - created_time: '2014-01-30T23:14:09+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: aaaand here we are with ruby https://gist.github.com/8722158
+    id: '693648277341550'
+  - created_time: '2014-01-30T23:22:47+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: Emad Shaaban حلك طريقة منظمة و جميلة، اخدت قسمتها خطوات صغيره و حليتها
+      ورا بعض و الحتة بتاعة الكاشينج دى جميلة برضه ماكنتش عارف ان فى حاجة زى كده فى
+      بايثون.
+    id: '693650260674685'
+  - created_time: '2014-01-30T23:50:52+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: https://gist.github.com/MohamedAlaa/8722642
+    id: '693657694007275'
+  - created_time: '2014-01-30T23:51:34+0000'
+    from:
+      name: Emad Shaaban
+      id: '1483867968332898'
+    message: |-
+      Emad Elsaid
+      الحتة بتاعت الكاشينج دي موجودة في Python3 بس .. و ربنا يخليلنا ال generators :)
+    id: '693657847340593'
+  - created_time: '2014-01-31T01:55:04+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: For Emad, my solution on a gist https://gist.github.com/mtayseer/8725256
+    id: '693692060670505'
+  - created_time: '2014-01-31T02:44:49+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: |-
+      Emad Elsaid I implemented the caching with a custom decorator in my solution
+      https://github.com/bashmohandes/ProjectEuler/blob/master/Problem_2.py
+
+      The decorator
+      https://github.com/bashmohandes/ProjectEuler/blob/master/Memoize.py
+    id: '693709564002088'
+  - created_time: '2014-01-31T03:10:53+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: 'Erlang: https://gist.github.com/l0gicpath/8726032'
+    id: '693718767334501'
+  - created_time: '2014-01-31T07:09:03+0000'
+    from:
+      name: Tarek Amr
+      id: '10155854949245944'
+    message: Done here, let me now read the others, https://gist.github.com/gr33ndata/8727727
+    id: '693777180661993'
+  - created_time: '2014-01-31T08:24:01+0000'
+    from:
+      name: Eslam Hamouda
+      id: '10212947071504226'
+    message: https://gist.github.com/EslaMx7/8728176
+    id: '693799130659798'
+  - created_time: '2014-01-31T11:56:56+0000'
+    from:
+      name: Mustafa Abdullah
+      id: '10156099084105126'
+    message: |-
+      added some comments on gist
+      https://gist.github.com/melnaquib/8720992
+    id: '693854150654296'
+  - created_time: '2014-01-31T12:24:55+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: "^ I'd elect that for the IOCCC :), nice idea though"
+    id: '693892420650469'
+  - created_time: '2014-01-31T13:06:43+0000'
+    from:
+      name: Ahmed Ibrahim Khalil
+      id: '10152956726593657'
+    message: https://gist.github.com/R4md4c/0fbd3b662643121ef5b2
+    id: '693920157314362'
+  - created_time: '2014-01-31T13:16:18+0000'
+    from:
+      name: Tarek Amr
+      id: '10155854949245944'
+    message: Moral of this thread, people who do not program in python, use their
+      keyboards hell too much
+    id: '693924853980559'
+  - created_time: '2014-01-31T13:20:17+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: Hady Ahmed ماكنت متخيل اننى هلاقى حلول بerlang ، انت اول ديفلوبر اشوفله
+      بيستخدم اللغة دى بصراحة :)
+    id: '693926260647085'
+  - created_time: '2014-01-31T13:21:15+0000'
+    from:
+      name: Tarek Amr
+      id: '10155854949245944'
+    message: Erlang yekhally 3'aseelek lang
+    id: '693926600647051'
+  - created_time: '2014-01-31T13:23:20+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: لووووووول :D ، ياسلام لو حد كمان الاقيه مستخدم lua ، تبقى كملت
+    id: '693927197313658'
+  - created_time: '2014-01-31T13:25:43+0000'
+    from:
+      name: Emad Shaaban
+      id: '1483867968332898'
+    message: حليتها قبل كده ب SML بس حاليا معنديش SML عالجهاز فكسلت و حليتها بايثون
+      :)
+    id: '693927977313580'
+  - created_time: '2014-01-31T13:36:18+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: انا كنت فاكر ان معظم الناس هاتحل بالحاجات المشهور زى php, ruby.python,
+      c, c++, java, c# بس واضح ان الtalents هنا اكبر من كده
+    id: '693931900646521'
+  - created_time: '2014-01-31T13:39:15+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: |-
+      3 lines of Erlang code, because my 5 lines Erlang code was too long...
+
+      https://gist.github.com/l0gicpath/8732180
+
+      The points I'm making with this code snippet are:
+
+      1) Python is not a swiss army knife, neither is Erlang or any other but to say Python saves keystrokes because it's a dynamic language, is equal to saying Cobol is too expressive it makes you smarter which isn't the case in either.
+
+      2) Python like any other of the same class, Ruby for instance can produce rather short and obscure code. Obscure code is not maintainable, not readable and is easy to produce in majority of languages. I'm positive I can produce an even shorter solution in lisp.
+
+      3) Erlang still kicks ass amongst all the solutions provided here ;) top it if you can.
+    id: '693932800646431'
+  - created_time: '2014-01-31T13:40:47+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: Tarek Amr كنت بتقول اللى مش بيستخدم بايثون إيه بقى ؟ :D اهه عملها فى
+      3 سطور
+    id: '693933357313042'
+  - created_time: '2014-01-31T13:45:00+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: "Emad Shaaban الموقع ده ممكن تبرمج عليه بsmaltalk \nhttp://ideone.com/\nو
+      لغات تانية كتير و بيشغله و يطلع الناتج ... ناس طيبين قوى"
+    id: '693934647312913'
+  - created_time: '2014-01-31T15:08:11+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: |-
+      It's only appropriate since I've been doing ruby daily for the past 5 years
+
+      One-liner solution... https://gist.github.com/l0gicpath/8733723
+    id: '694011633971881'
+  - created_time: '2014-01-31T15:09:47+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: oh god O_O
+    id: '694012050638506'
+  - created_time: '2014-01-31T15:11:36+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: انا محتاج تفسير للحل ده لأنى رغم اننى بستخدم روبى كل يوم دلوقتى بس مش
+      فاهم خالص
+    id: '694013290638382'
+  - created_time: '2014-01-31T15:14:47+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: هههه طيب ماتعمل بوست كده فيه المنهج إيه بحيث نشوف لو المناهج دى عالنت
+      او يوتيوب او كتب بسيطة نقولك عليها.
+    id: '694014453971599'
+  - created_time: '2014-01-31T15:24:38+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: ههههههه ربنا يديلك على قد نيتك يابنى :D
+    id: '694025193970525'
+  - created_time: '2014-01-31T17:14:35+0000'
+    from:
+      name: Tarek Amr
+      id: '10155854949245944'
+    message: I gave up solving it in prolog :(
+    id: '694116080628103'
+  - created_time: '2014-01-31T17:18:05+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: انا مش فاكرها خالص بصراحة. اعتقد اننى هاجرب كده it'll be fun
+    id: '694117453961299'
+  - created_time: '2014-01-31T18:14:59+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: |-
+      Emad Elsaid I've explained the code for you in a comment on the gist https://gist.github.com/l0gicpath/8733723
+
+      Regarding Erlang, indeed ever since we've moved our infrastructure at Tabshora to it we've faced a serious hiring problem. It served us well when we released a Pusher/Pubnub alternative, now defunct.
+
+      Nonetheless, I've found peace doing a combo of Erlang and Ruby and we've built a rather solid toolchain to aid in deployment, monitoring and development. It's a solid mix. Erlang comes at a price just as Ruby does, to each their use cases and the work we do fits perfectly well with both together.
+    id: '694142200625491'
+  - created_time: '2014-01-31T19:06:23+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: The number of lines of code is not important, but I believe that the
+      language you use teaches you a way of thinking & writing code, even if you use
+      different languages, e.g. Python enhanced how I write C# & C++.
+    id: '694164267289951'
+  - created_time: '2014-01-31T19:38:15+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: Hady Ahmed شكرآ جدآ، انت استخدمت الtrinary operator زى مابيستخدموها فى
+      الجافاسكريبت :)
+    id: '694176623955382'
+  - created_time: '2014-01-31T20:31:53+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      For fun, solution in Python in a single line https://gist.github.com/mtayseer/8741809
+
+      You can write unreadable code in any language
+    id: '694200407286337'
+  - created_time: '2014-01-31T20:41:29+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: LOOOOOOOOL :D
+    id: '694206470619064'
+  - created_time: '2014-01-31T21:29:40+0000'
+    from:
+      name: Emad Shaaban
+      id: '1483867968332898'
+    message: "My Opa Solution :) \n\nhttps://gist.github.com/emadshaaban92/8744165"
+    id: '694223523950692'
+  - created_time: '2014-01-31T23:08:07+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: |-
+      Because ruby's unreadable code still looks better than python and fits in a tweet :D
+      https://twitter.com/l0gicpath/status/429388804202303488
+
+      The gist: https://gist.github.com/l0gicpath/8745087
+
+      I absolutely agree with you Mohammad Tayseer, Erlang, Asm and lisp enhanced how I think.
+    id: '694256867280691'
+  - created_time: '2014-02-01T19:29:03+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: Opa ? :'D طيب دى إيه دى ؟
+    id: '694607363912308'
+  - created_time: '2014-02-01T19:30:46+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: هى دى ؟ http://opalang.org/
+    id: '694608030578908'
+  - created_time: '2014-02-01T19:33:30+0000'
+    from:
+      name: Emad Shaaban
+      id: '1483867968332898'
+    message: "ايووة .. هي مش عارف اصنفها لغة و ﻻ فريم وورك و ﻻ ايه :D \nبس هي Pure
+      Functional و بت compile لجافا سكربت \n\nو بتكتب بيها Web App لكشه واحده علي
+      بعض اكنك بتكتب Desktop App و هي بتتعامل في موضوع ال Client/Server \n\nشوفتها
+      من فترة و عجبتني و سطبتها عندي بس ماستخدمتهاش .. اول مرة اجربها امبارح :D"
+    id: '694608997245478'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamt6TlRNd05UYzBNREU1T1RnM09qRXpPVEV4TURRd09UVT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamswTmpBNE9UazNNalExTkRjNE9qRXpPVEV5T0RNeU1UQT0ZD
+attachments:
+  data:
+  - description: "بما ان دى اول مرة تعالوا نبدأ بحاجة بسيطة و straight forward \nدى
+      مسألة الأسبوع : http://projecteuler.net/problem=2\nالقواعد فى الصورة ، حل و
+      ماتزعلش القطة :)"
+    media:
+      image:
+        height: 540
+        src: https://scontent.xx.fbcdn.net/v/t1.0-0/p180x540/1609688_10151912397582957_2062430867_n.jpg?oh=a3f461e39e4e7cfab098f851e74da6ed&oe=5AEF8A75
+        width: 720
+    target:
+      id: '10151912397582957'
+      url: https://www.facebook.com/photo.php?fbid=10151912397582957&set=gm.693498000689911&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=10151912397582957&set=gm.693498000689911&type=3

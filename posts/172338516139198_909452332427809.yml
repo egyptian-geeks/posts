@@ -11,3 +11,209 @@ updated_time: '2015-03-16T16:15:26+0000'
 name: mosamy/MyBlog
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/909452332427809/
 id: '172338516139198_909452332427809'
+reactions:
+  data:
+  - id: '1892175991092416'
+    name: عبدالرحمن کداه
+    type: LIKE
+  - id: '10213118809797201'
+    name: Muhammad El-Hennawy
+    type: LIKE
+  - id: '936932426464423'
+    name: Ali Zawahry
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTVNREF4TURBd01UUXdPakUwTWpZAMU1qZA3pNemM2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTBORE13TWpNMU1USTBPakUwTWpZAek56azNNRE02TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2015-03-15T00:22:14+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: You know about Github Pages?
+    id: '909452689094440'
+  - created_time: '2015-03-15T00:27:53+0000'
+    from:
+      name: Mohamed Bassem
+      id: '10212826240185281'
+    message: https://help.github.com/articles/using-jekyll-with-pages/
+    id: '909454335760942'
+  - created_time: '2015-03-15T00:30:28+0000'
+    from:
+      name: Mohamed Bassem
+      id: '10212826240185281'
+    message: "^ It's even better than plain markdown, My blog is hosted completely
+      on github and many other blogs are hosted on github with the jekyll/Github pages
+      combination."
+    id: '909455025760873'
+  - created_time: '2015-03-15T00:31:25+0000'
+    from:
+      name: Ahmed Saleh
+      id: '1707137612683071'
+    message: هو مبن عم الشيخ ده حضرتك :D :D
+    id: '909455192427523'
+  - created_time: '2015-03-15T00:41:10+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Ahmad Fatoum you mean Wiki on Github? I also saw an article as a GIST
+    id: '909457822427260'
+  - created_time: '2015-03-15T00:41:39+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: https://github.com/mosamy/MyBlog/wiki
+    id: '909457972427245'
+  - created_time: '2015-03-15T00:42:16+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: Nope, look it up.
+    id: '909458149093894'
+  - created_time: '2015-03-15T00:45:06+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Ahmed Saleh he is Shaikh Nazim my spiritual teacher and guide
+    id: '909458942427148'
+  - created_time: '2015-03-15T00:46:42+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Ahmad Fatoum  Muhammad Bassem and what would be wrong with just writing
+      in the wiki?
+    id: '909459262427116'
+  - created_time: '2015-03-15T00:49:31+0000'
+    from:
+      name: Mohamed Bassem
+      id: '10212826240185281'
+    message: Mohamed Samy Github pages gives you a github subdomain ( something.github.io
+      ) and you can even link it to your custom domain, allows javascript and CSS
+      styling, You can use something like disqus.com for having comments on your blog.
+      Basically github pages gives you a static website host for free.
+    id: '909460035760372'
+  - created_time: '2015-03-15T00:53:22+0000'
+    from:
+      name: Mohamed Bassem
+      id: '10212826240185281'
+    message: Nothing is wrong with just writing in the Wiki, but it's bad. You don't
+      have full control on styling, you can't link it with your domain ( other than
+      redirection ). If you want to link to your blog, the link would be ( github.com/username/repo/wiki
+      ) which is awful. Github pages is the best place for what you are trying to
+      do.
+    id: '909461525760223'
+  - created_time: '2015-03-15T00:54:54+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Muhammad Bassem if you read my actual post, I don't want anythng fancy
+      , and comments can just be added on the wiki or on the file like with code.
+      I also like simplitic text. I am even using EMACS because I have this thing
+      now for text editors. Muhammad Bassem I will try it out but seems like added
+      complexity. WIll get back to you with what I will do :)
+    id: '909461879093521'
+  - created_time: '2015-03-15T01:00:22+0000'
+    from:
+      name: Mohamed Bassem
+      id: '10212826240185281'
+    message: "Btw on github pages your content will still be version controlled. It's
+      still in a public repo and u can still use emacs :D And concerning the complexity
+      and simplicity, there are many ready to use templates in which you just write
+      the post in markdown and it will handle the styling for you. I use one for my
+      own blog, to give you an example :\nhere's a post from my blog's repo :\nhttps://github.com/MohamedBassem/MyBlog/blob/gh-pages/_posts/2015-02-04-my-journey-with-trustious.md\nand
+      that's what I wrote using vim : \nhttps://raw.githubusercontent.com/MohamedBassem/MyBlog/gh-pages/_posts/2015-02-04-my-journey-with-trustious.md\nand
+      here's how it got rendered on github pages :\nhttp://blog.mbassem.com/2015/02/04/my-journey-with-trustious/\nYou
+      can notice the difference :D"
+    id: '909463262426716'
+  - created_time: '2015-03-15T01:05:06+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: yeah Big difference, the idea is to use as much plain text as possible
+      for me. You know when you open Notepad and just type text? No fonts not bull
+      droppings :) But of course the pne on github pages is much smoother :)
+    id: '909465139093195'
+  - created_time: '2015-03-15T01:10:12+0000'
+    from:
+      name: Mohamed Bassem
+      id: '10212826240185281'
+    message: Yeah I know that feeling :D What I mean is that the wiki is not the most
+      convenient thing to use for your readers' experience :D 3mtn Good luck :D
+    id: '909466829093026'
+  - created_time: '2015-03-15T01:11:45+0000'
+    from:
+      name: Mohamed Bassem
+      id: '10212826240185281'
+    message: Ah and concerning the plain text thing :D notice the link I've added
+      in my edited comment :D
+    id: '909467162426326'
+  - created_time: '2015-03-15T01:12:20+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: How about this article as a GIST https://gist.github.com/hadley/820f09ded347c62c2864
+    id: '909467272426315'
+  - created_time: '2015-03-15T01:12:31+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: it has comments and formatting
+    id: '909467352426307'
+  - created_time: '2015-03-15T01:23:59+0000'
+    from:
+      name: Mohamed Bassem
+      id: '10212826240185281'
+    message: I got what you mean. That's the basic markdown formatting. But how did
+      you get the link of this article ? Do you think that's a good url for a blog
+      ? If you are - for example - talking about some javascript example, would you
+      be able to embed a demo in the gist ?  Too many limitations that you can avoid
+      with a 5 mins setup and then doing the exact same effort that you'll do in the
+      wiki. But with those 5 mins you will give your readers a better experience.
+      That's my opinion :D
+    id: '909470939092615'
+  - created_time: '2015-03-15T07:22:30+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: "yup mine too hosted on github and wrote a guide for people to do the
+      same \nhttp://www.blazeboy.me/how-to-create-a-blog-like-this-for-free-octopress-3-scribble-theme-github.html\nalso
+      lots of people use it as blogging platform, i used it with my ruby scripts repository\nhttps://github.com/blazeeboy/RubyScripts/tree/master/2014-06-24"
+    id: '909576749082034'
+  - created_time: '2015-03-15T08:53:15+0000'
+    from:
+      name: Mohamed Said
+      id: '10155091454175952'
+    message: |-
+      I'm also hosting my blog on Github pages http://themsaid.github.io/
+
+      Matt Stauffer also created https://gistlog.co/ it has the same idea you are talking about, however I see it better to have your github pages blog, better customisation and better linking.
+    id: '909598129079896'
+  - created_time: '2015-03-15T09:41:30+0000'
+    from:
+      name: Ahmed El Gabri
+      id: '10159938698425582'
+    message: |-
+      BTW, you can use any of these static site generators https://www.staticgen.com/ and host them on Github or even Heroku.
+
+      I migrated my website from WordPress and paid hosting to use HarpJS & hosted it on Herkou. https://github.com/ahmedelgabri/gabri.me
+    id: '909610599078649'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEE1TkRVeU5qZAzVNRGswTkRRd09qRTBNall6TnpnNU16UT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEE1TmpFd05UazVNRGM0TmpRNU9qRTBNalkwTVRJME9UQT0ZD
+attachments:
+  data:
+  - description: MyBlog - This is where I plan to blog, I guess you could say I will
+      hack Github :)
+    media:
+      image:
+        height: 350
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQDMGLmLv1pXiMFZ&w=350&h=350&url=https%3A%2F%2Favatars1.githubusercontent.com%2Fu%2F4498551%3Fv%3D3%26s%3D400&cfs=1&sx=0&sy=0&sw=350&sh=350&_nc_hash=AQD1tUjS9MzbJs4O
+        width: 350
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Fmosamy%2FMyBlog%2Fblob%2Fmaster%2FMyFirstBlogPost.md&h=ATP2MSPPGBLJZzi8aLdPhesqdNLsaPS-G1wJUDWwvZixYvlPKl9Lvhrjf9uVhe14RXldEX60oAOw-IQiUnvMBTZjb1I40d19qqlT&s=1&enc=AZO3taXawa0O5e2asLMcdIwlY2qbGpyvaxeskBCB0g_CKMiGr491OgddysnH_ChcidtKBGvUgJdot2L-EItdgLfQ
+    title: mosamy/MyBlog
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Fmosamy%2FMyBlog%2Fblob%2Fmaster%2FMyFirstBlogPost.md&h=ATP2MSPPGBLJZzi8aLdPhesqdNLsaPS-G1wJUDWwvZixYvlPKl9Lvhrjf9uVhe14RXldEX60oAOw-IQiUnvMBTZjb1I40d19qqlT&s=1&enc=AZO3taXawa0O5e2asLMcdIwlY2qbGpyvaxeskBCB0g_CKMiGr491OgddysnH_ChcidtKBGvUgJdot2L-EItdgLfQ

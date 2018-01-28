@@ -13,3 +13,137 @@ updated_time: '2012-10-07T06:33:12+0000'
 name: Why does TypeScript have to be the answer to anything? - Scott Hanselman
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/468687683170945/
 id: '172338516139198_468687683170945'
+reactions:
+  data:
+  - id: '10155880598025170'
+    name: Mohammed El Sayed
+    type: LIKE
+  paging:
+    cursors:
+      before: Tmpnek9EQTFNVFk1T2pFek5EazFORE16TXpVNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: Tmpnek9EQTFNVFk1T2pFek5EazFORE16TXpVNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2012-10-06T17:21:51+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: 'لماذا لا يتم دعم وتطوير شيء مثل الـ سكريبت-شارب وخلاص؟ لحد إمتى هنفضل
+      مضطرين للكتابة بالجافاسكربت أو بلغات محسنه منها؟ مش بتتخض وقلبك بيقولك إن فيه
+      حاجه غلط لما تقعد من نفسك بالليل وتلائي إن الويب الحالي والقادم بيعتمد على لغة
+      كارثية اسمها جافاسكربت فيها:'
+    id: '468732383166475'
+  - created_time: '2012-10-06T17:22:00+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: ".3 - .2 != .4 - .3  !!"
+    id: '468732439833136'
+  - created_time: '2012-10-07T02:27:20+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: لأان أغلب مطورين الويب (و أنا منهم) مش شايفين الجافاسكريبت كارئية أو
+      حتى ليها بديل عملي، و لأن من أهم المميزات اللي تايبسكريبت بتنافس بيها الحلول
+      التانية زي ما أنت شايف هي كونها مجرد جافاسكريبت، على عكس دارت و كوفيسكريبت مثلا،
+    id: '468892363150477'
+  - created_time: '2012-10-07T02:45:33+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: أغلب مطوري الويب شايفين الجافاسكريبت كارثية، وصعب إنك تعمل بها شغل كبير،
+      و ده أول شيء قاله الحاج أندرس وهو بيقدم التايبسكربت، لدرجة إنهم في ميكروسوفت
+      وغيرها كانو بيستخدموا سكريبت-شارب في مشروعات الجافاسكريبت الكبيرة (أظن في أدوات
+      الأجاكس والخ). إنما من ناحية البديل ففعلا مافيش بديل للأسف وعلشان كدا لازم يكون
+      فيه حلول زي تايبسكريبت أو سكريب-شارب وأنا بالنسبة لي كان تطوير أو صناعة شيء
+      مثل السكريبت-شارب وحل مشكلات الحل ده أفضل بكتير من إنك تعمل لغة محسّنة من الجافاسكريبت،
+      ليه ماتخليش اللغة المحّسنة دي هي السي شارب أصلا وخلاص وتتصرف في أي طريقه تشغل
+      بها كود ومكتبات الجافاسكريبت جواها
+    id: '468898846483162'
+  - created_time: '2012-10-07T02:59:40+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: مايكروسوفت ولا حاجة في عالم تطويرات الويب المعتمدة بكثافة على جافاسكريبت
+      مع أنها اللي بدأتها. و كلام أندرس ده أكتر حاجة انتقدها الناس في الفيديو بتاعه
+      أصلا :)
+    id: '468903669816013'
+  - created_time: '2012-10-07T02:59:42+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: شوف ازاي Node مثلا بدأت و مجحت، لو كان أغلب المطورين شايفينها كارثية
+      كاتو اعتبروا نقلها للسرفر مصيبة. أكتر حاجة نجحت Node أنهم استخدموا JavaScript.
+      ميزة JavaScript أنها أصبحت لغة البرمجة العالمية للويب، حتى Windows 8 لما حب
+      يجذب مطورين من بتوع الويب قال لهم ممكن تستخدموها عندنا برده.
+    id: '468903693149344'
+  - created_time: '2012-10-07T05:53:13+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: ".3 - .2 != .4 - .3\n\nده بيحصل في لغات كتير (مثلا سي++ وبايثون) مش جافاسكريبت
+      بس، والسبب إن معظم اللغات بتستعمل IEEE 754 لتخزين الأرقام الـ floating point،
+      ودي طريقة مش دقيقة في حفظ الأرقام ونسبة الغلط اسمها epsilon\n\nيعني عشان تتأكد
+      من الحسبة بناعتك صح ولا غلط المفروض تكتبها بالصورة دي \n\nabs((.4 - .3) - (.3
+      - .2)) < EPSILON"
+    id: '468955569810823'
+  - created_time: '2012-10-07T06:02:07+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: طيب خلاص مادام الجافاسكريبت عاجبه الناس أوي كدا وانتقدوا كلام أندرس عن
+      ألم عمل تطبيقات كبيرة بيها.. إذن التايبسكريبت مالهاش لازمه، ولا دارت ولا أي
+      شيء آخر، تاعبين نفسهم ليه؟ أنا متفق مع عالمية الجافاسكريبت وإنها أوشكت أن تصبح
+      كروس-بلاتفورم لكن هي حقيره في ذاتها وكنت أتمنى إن ميكروسوفت تدلعنا وتخلينا نكتب
+      كود سي شارب مش تخلينا نكتب كود لغه مهجنه عجيبه تشبه الجافاسكريبت اسمها تايبسكريبت
+    id: '468957236477323'
+  - created_time: '2012-10-07T06:17:18+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: "جافا سكريبت فيها مميزات وعيوب. من ضمن المميزات إنها لغة functional (من
+      وجهة نظري)، لكن من وجهة نظر ناس تانيين ده عيب إنها مش object-oriented بالمعني
+      المعروف (classes, inheritance, encapsulation)\n\nولإن كل واحد شايف مشاكل معينة
+      بيحاول يحل المشاكل اللي هو شايفها. واحد بيكره كل حاجة في الجافاسكريب (syntax,
+      semantics, libraries) يقوم يعمل مترجم للغة تانية (Script#, GWT) أو شايف المشكلة
+      في شوية خواص زيادة عايز يزودها زي الـ object-oriented أو يعدلها زي تايب سكريبت
+      مثلا، أو مشكلته في الـ syntax (زي CoffeeScript) أو في أدوات اللغة نفسها وبيحاول
+      يعمل IDE للجافاسكريبت، أو واحد بيعمل Libraries زي underscore.js، وفيه ناس شغالين
+      علي تحسين جافاسكريبت نفسها وبيعملوا EcmaScript 6 \n\nكلها وجهات نظر، بالظبط
+      زي السياسة :)"
+    id: '468960919810288'
+  - created_time: '2012-10-07T06:31:27+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      معتز: "لكن هي حقيره في ذاتها"
+      تيسير: "بالظبط زي السياسة"
+      مليجي: "زيها زيادة عن اللزوم"
+    id: '468963589810021'
+  - created_time: '2012-10-07T06:33:12+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Not everybody is similar in the way they think about programming languages,
+      and there is no single right answer. There is no silver-bullet / one-solution-fits-all
+      as well.
+    id: '468964009809979'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAORFk0TnpNeU16ZA3pNVFkyTkRjMU9qRXpORGsxTkRReE1URT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAORFk0T1RZAME1EQTVPREE1T1RjNU9qRXpORGsxT1RFMU9UST0ZD
+attachments:
+  data:
+  - description: Scott Hanselman on Programming, User Experience, The Zen of Computers
+      and Life in General
+    media:
+      image:
+        height: 434
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAgIJ-cmzrl-e1e&w=720&h=720&url=http%3A%2F%2Fwww.hanselman.com%2Fblog%2Fcontent%2Fbinary%2FWindows-Live-Writer%2FTypeScript_B2E0%2Fvs-refactor_3.png&cfs=1&_nc_hash=AQDh_oQU3Yfszzhx
+        width: 434
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.hanselman.com%2Fblog%2FWhyDoesTypeScriptHaveToBeTheAnswerToAnything.aspx&h=ATMuBXieZorbdmZhnMSSvZjuuYy1U-NekTtzVg-0a1f7sag4i_T4R67CdNEjtmhmiJi_Jmt6hjKvzsfcSEAbb_EBN3fX_uun3oR1&s=1&enc=AZNLnPUwkc3lP0Zsd1UTVXLy6ZUMVwgdMnfTty4qAADS-cwtzGUWCFw3pX_BP9ZSbMNy2Qlk6YAfxxHA3FzFwgsA
+    title: Why does TypeScript have to be the answer to anything? - Scott Hanselman
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.hanselman.com%2Fblog%2FWhyDoesTypeScriptHaveToBeTheAnswerToAnything.aspx&h=ATMuBXieZorbdmZhnMSSvZjuuYy1U-NekTtzVg-0a1f7sag4i_T4R67CdNEjtmhmiJi_Jmt6hjKvzsfcSEAbb_EBN3fX_uun3oR1&s=1&enc=AZNLnPUwkc3lP0Zsd1UTVXLy6ZUMVwgdMnfTty4qAADS-cwtzGUWCFw3pX_BP9ZSbMNy2Qlk6YAfxxHA3FzFwgsA

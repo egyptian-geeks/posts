@@ -13,3 +13,152 @@ updated_time: '2015-06-07T15:29:37+0000'
 name: Muse Tools
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/955343364505372/
 id: '172338516139198_955343364505372'
+reactions:
+  data:
+  - id: '10154904189965670'
+    name: Ahmad Alfy
+    type: LIKE
+  - id: '10159750515025408'
+    name: Mohamed Tarek El Haddad
+    type: LIKE
+  - id: '10156089336182292'
+    name: Hassan Aly Selim
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRrMU1USTFOalk1T2pFME16TTJPREU1TVRJNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRFNU5qa3lNamt4T2pFME16TTJOemt6TmpnNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2015-06-07T12:16:28+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      You did this on your own? nice :)
+      What engine/framework did you use?
+    id: '955353681171007'
+  - created_time: '2015-06-07T12:37:26+0000'
+    from:
+      name: Ahmed Imam
+      id: '2020632204851242'
+    message: Hassan Aly Selim Thanks man. Did it on Unity. Took me 8 months to finish
+      it.
+    id: '955358324503876'
+  - created_time: '2015-06-07T12:59:36+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: Nice work but ... I fail to understand how the game works
+    id: '955364177836624'
+  - created_time: '2015-06-07T13:00:42+0000'
+    from:
+      name: Ahmed Imam
+      id: '2020632204851242'
+    message: Ahmad Alfy Thanks man. The game is a first person platfomer. Here is
+      some gameplay footage. https://www.youtube.com/watch?v=SDLZ5PVBP2o
+    id: '955364441169931'
+  - created_time: '2015-06-07T13:11:53+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      Do you have a Windows or WebPlayer build for it? :)
+      BTW did you make all the models? what about the images?
+    id: '955366774503031'
+  - created_time: '2015-06-07T13:15:47+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      and some basic advice
+      make the player movement much faster, this feels more like a fast-paced game, so walking slowly towards an artifact seems like it would break the mood.
+      maybe try increasing the camera's field of view, that way you can see more of what's going on and not feel lost, but maybe I just felt lost because I was watching a video and not actually controlling the character.
+    id: '955367664502942'
+  - created_time: '2015-06-07T13:19:44+0000'
+    from:
+      name: Ahmed Imam
+      id: '2020632204851242'
+    message: Hassan Aly Selim Sorry man, only iOS at the moment. If all goes well,
+      I'm planning a PC version sometime in late September. I can send you beta version
+      for testing when it comes out. All the models are made in Maya and textures
+      are done in photoshop.
+    id: '955368531169522'
+  - created_time: '2015-06-07T13:23:33+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      Well this is Unity, so it shoudn't take much time to port it to Windows or anything else, you just need to add keyboard controls and do a tiny bit of testing (I'm a unity developer myself BTW).
+      It's awesome that you can handle every aspect of game making (maybe consider joining Ludum Dare solo?), I tried that for a while but now I just stick to programming, and help with brainstorming for gameplay and story with my team :)
+    id: '955369524502756'
+  - created_time: '2015-06-07T13:23:46+0000'
+    from:
+      name: Ahmed Imam
+      id: '2020632204851242'
+    message: Hassan Aly Selim Thanks man for the input. I tried to keep movement speed
+      and the camera as close as possible to standard FPS.
+    id: '955369577836084'
+  - created_time: '2015-06-07T13:26:41+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      well standard FPS is about shooting things and not jumping over platforms that's why they are slow and don't have a crazy field of view.
+      But even then, there are fast-paced FPS games like Quake Live (or Quake III Arena) and Warsow, they both focus a lot on moving quickly and doing insane jumps so the enemies can't aim at you, and these have crazy movements speeds and people prefer playing them on a high field of view :)
+    id: '955370027836039'
+  - created_time: '2015-06-07T13:33:43+0000'
+    from:
+      name: Ahmed Imam
+      id: '2020632204851242'
+    message: Hassan Aly Selim You are right man but one of the reasons I kept a slow
+      speed is for navigation purposes. I played around with a couple of speeds but
+      found this to best for the mobile. Since sometimes you need very precise movement
+      so as not to fall. I just hope people wouldn't mind it ;) For porting to PC,
+      I have all the keyboard and mouse already mapped but I need to create higher
+      res textures, add normal mapping, maybe bloom and lens flare. By the way what
+      games are you working on. Its always good to meet other game developers from
+      the area (y)
+    id: '955371604502548'
+  - created_time: '2015-06-07T13:46:49+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      Trying to do accurate jumps while moving with high speed could be a challenge on its own (instead of completely relying on tricky platforms), but since you spent 8 months trying to get it right, I'll assume you figured out the best parameters for the kind of game you're aiming for :)
+
+      Yeah I really like discovering Egyptians who work in Game Development.
+      I used to make incomplete games ever since I learned game dev in 2008, I was using XNA back then (and switched to MonoGame, the opensource clone), and exactly 1 year ago I decided to learn Unity and started making much better things with it.
+      I currently work with a team called "Null DIES" (FB Page: Null), our two most recent games which are "Dilemma" and "Drop It" were made as part as Global Game Jam 2015 (48 hours!) and Ludum Dare 32 (72 hours!), Drop It is almost done, but Dilemma needs levels and better story which is what we're working on right now :)
+      Here is our website where you can play these two games: http://nulldies.com/ (download the Windows builds because WebGL doesn't always work)
+    id: '955382074501501'
+  - created_time: '2015-06-07T14:06:23+0000'
+    from:
+      name: Ahmed Imam
+      id: '2020632204851242'
+    message: Hassan Aly Selim Just checked your page. You got something good going
+      there. Good luck man. Also I'm definitely checking out the games. Drop it looks
+      very cool. Cool concept and execution
+    id: '955386681167707'
+  - created_time: '2015-06-07T15:29:37+0000'
+    from:
+      name: Ali Helmy
+      id: '10154988356050583'
+    message: Nice looking game
+    id: '955406821165693'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFUxTXpVek5qZA3hNVGN4TURBM09qRTBNek0yTnprek9EZAz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFUxTkRBMk9ESXhNVFkxTmprek9qRTBNek0yT1RBNU56Yz0ZD
+attachments:
+  data:
+  - media:
+      image:
+        height: 405
+        src: https://scontent.xx.fbcdn.net/v/t15.0-10/s720x720/632538_850898288314099_863970006_n.jpg?oh=ed8c41f592a8ee89c5950b42c33a566a&oe=5ADE7C67
+        width: 720
+    target:
+      id: '850888641648397'
+      url: https://www.facebook.com/musetools/videos/850888641648397/
+    type: video_inline
+    url: https://www.facebook.com/musetools/videos/850888641648397/

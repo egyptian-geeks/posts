@@ -10,3 +10,122 @@ updated_time: '2013-03-10T15:08:07+0000'
 name: ADTV-EP01 - MicroORM
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/539465056093207/
 id: '172338516139198_539465056093207'
+reactions:
+  data:
+  - id: '10155795206725831'
+    name: Mahmoud Ibrahim
+    type: LIKE
+  - id: '10156575426331336'
+    name: Amr Ali Tealeb
+    type: LIKE
+  - id: '10154893385496642'
+    name: Mahmoud Sami
+    type: LIKE
+  - id: '10155819655346066'
+    name: Shady M. Najib
+    type: LIKE
+  - id: '10159905066535634'
+    name: Emad Mokhtar Habib
+    type: LIKE
+  - id: '10156510099900110'
+    name: Hossam Zain
+    type: LIKE
+  - id: '10160101975555457'
+    name: Michael Youssef
+    type: LIKE
+  - id: '10212947071504226'
+    name: Eslam Hamouda
+    type: LIKE
+  - id: '2027306007286851'
+    name: Moutaz Shams
+    type: LIKE
+  - id: '10155880569740170'
+    name: Meligy
+    type: LIKE
+  - id: '10155638727450376'
+    name: Ahmed Magdy
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRRMU5qZA3dPRE13T2pFek5qSTVPVE14TlRZANk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRRNU1qTXdNemMxT2pFek5qSTRNalEzTURVNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2013-03-09T13:00:55+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      Great choice of topic, and nice explanation as usual.
+      I'm involved in some internal and future work related to this, what are you using for capturing the video? SnagIt / Camtasia?
+    id: '539523612754018'
+  - created_time: '2013-03-09T18:59:04+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: No, Camtasia is very expensive, I am using CamStudio, and Windows Movie
+      Maker for editing :) Poor man tools
+    id: '539640426075670'
+  - created_time: '2013-03-09T20:57:12+0000'
+    from:
+      name: Emad Mokhtar Habib
+      id: '10159905066535634'
+    message: I'm using using PetaPoco http://www.emadmokhtar.com/2012/05/getting-started-petapoco-create-poco-and-perform-crud/
+    id: '539681159404930'
+  - created_time: '2013-03-09T21:31:18+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Emad Mokhtar Habib yes, the two are the biggest names in this space.
+    id: '539689916070721'
+  - created_time: '2013-03-09T21:33:40+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Mohammed Hossam yes, used this one before for recording internal sessions,
+      currently the ones I know are using SnagIt as a cheap alternative to Camtasia.
+      Was interested in how other people handle it.
+    id: '539690862737293'
+  - created_time: '2013-03-10T14:14:13+0000'
+    from:
+      name: Amr Ali Tealeb
+      id: '10156575426331336'
+    message: try to improve the video quality next time :)
+    id: '539945059378540'
+  - created_time: '2013-03-10T14:15:13+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Actually the video quality was great. Check what quality Youtube automatically
+      selected for you. When I changed it to full HD in Youtube player, it made a
+      big difference.
+    id: '539945272711852'
+  - created_time: '2013-03-10T14:25:43+0000'
+    from:
+      name: Amr Ali Tealeb
+      id: '10156575426331336'
+    message: thanks Mohamed Meligy , it was my fault :)
+    id: '539948306044882'
+  - created_time: '2013-03-10T15:08:07+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: I record in full 1080p :)
+    id: '539964839376562'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOVE01TlRJek5qRXlOelUwTURFNE9qRXpOakk0TXpRd05UVT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOVE01T1RZAME9ETTVNemMyTlRZAeU9qRXpOakk1TWpnd09EYz0ZD
+attachments:
+  data:
+  - description: شرح لمبادئ تطبيقات الMicroORM و دراسة حالة Dapper بشكل خاص
+    media:
+      image:
+        height: 720
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQCEorhg_0Bw2pzR&w=720&h=720&url=http%3A%2F%2Fi1.ytimg.com%2Fvi%2F8ym7HmF63Ek%2Fmaxresdefault.jpg&cfs=1&_nc_hash=AQDsJtX1w3AEMM-P
+        width: 720
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D8ym7HmF63Ek&h=ATOjrfUV07mUgGHHKYzif--hVLSa9IkS5SVqABL2sYMaWlH_Z0uirC2oMkK8yddBiV-hGKPwZxRcwM1OLxwYgBtGoJueHJqMTU7o&s=1&enc=AZOUHnH3a4hqMtdP-hUukgJSk7jUTKuEOb-fxtqYAUDWs7C_LMrBrPV1tCQkq42Iq-C0vBQpHQ3t8RZOMGgfPZmC
+    title: ADTV-EP01 - MicroORM
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D8ym7HmF63Ek&h=ATOjrfUV07mUgGHHKYzif--hVLSa9IkS5SVqABL2sYMaWlH_Z0uirC2oMkK8yddBiV-hGKPwZxRcwM1OLxwYgBtGoJueHJqMTU7o&s=1&enc=AZOUHnH3a4hqMtdP-hUukgJSk7jUTKuEOb-fxtqYAUDWs7C_LMrBrPV1tCQkq42Iq-C0vBQpHQ3t8RZOMGgfPZmC

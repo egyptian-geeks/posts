@@ -28,3 +28,219 @@ created_time: '2014-02-03T06:37:51+0000'
 updated_time: '2014-02-08T09:11:32+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/695321003840944/
 id: '172338516139198_695321003840944'
+comments:
+  data:
+  - created_time: '2014-02-03T15:53:35+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: |-
+      I don't care if you release the source code or not, it's completely up to you. But not releasing it for "security issues"? That's a bit of a stretch there...
+      Nonetheless, good luck.
+    id: '695609120478799'
+  - created_time: '2014-02-03T15:58:53+0000'
+    from:
+      name: Abdelrahman M. Moez
+      id: '2007426285938916'
+    message: hmmm ... I don't think so :/
+    id: '695611213811923'
+  - created_time: '2014-02-03T20:29:05+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: not only that. most of the security apps make a backdoor and no body
+      want to have a backdoor in his computer :)
+    id: '695756863797358'
+  - created_time: '2014-02-03T21:46:16+0000'
+    from:
+      name: Abdelrahman M. Moez
+      id: '2007426285938916'
+    message: Ahmad قريب هنشر الـSource code ... و عامة انا على طول بعمل كده حتى على
+      الصفحة بتاعتى .. بس فيه موضوع بفكر فيه قبل ما انشر الـSource code بتاع البرنامج
+      ده ... :)
+    id: '695793293793715'
+  - created_time: '2014-02-03T21:59:45+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: |-
+      Look honestly man, no one is directly or indirectly asking you to publish anything, that'd be very kind of you to donate your time and effort if you put this up as an open source project.
+      My objection was the reason behind closing the source.
+
+      a) The security and crypto industry produces secure products because it's peer-reviewed. Whether in a closed setting or in a public setting (OSS)
+
+      b) Unless your product, say for example neutralizes a certain class of threats using a specific algorithm that if exposed this class of threats becomes immune to it then that's about as far as I can imagine someone would want to close their source for security issues
+
+      Example: If you are developing a rootkit removal tool for a specific type of rootkits. It wouldn't be wise to release the source code, that's like giving the rootkit author a manual for how to deface your tool or become undetected.
+
+      c) Your software is not as secure as you think it is, what happens if I get a terminal from a bootable *nix? Or a recovery windows disc? What happens if I go into safe mode? And your source code isn't out of reach either, at the very least "how it functions" isn't out of reach for an attacker.
+
+      Best of luck :)
+    id: '695797440459967'
+  - created_time: '2014-02-03T22:03:54+0000'
+    from:
+      name: Abdelrahman M. Moez
+      id: '2007426285938916'
+    message: Well, you got a point thanks :)
+    id: '695798933793151'
+  - created_time: '2014-02-04T04:04:30+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: http://en.wikipedia.org/wiki/Kerckhoffs%27_principle
+    id: '695908647115513'
+  - created_time: '2014-02-04T05:10:10+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: Just to let you know, I was able to reverse-engineer the application
+      & know the "algorithm" that you use!!
+    id: '695936677112710'
+  - created_time: '2014-02-04T09:29:58+0000'
+    from:
+      name: Abdelrahman M. Moez
+      id: '2007426285938916'
+    message: Mohammad Tayseer Do it :)
+    id: '696005913772453'
+  - created_time: '2014-02-04T09:31:01+0000'
+    from:
+      name: Abdelrahman M. Moez
+      id: '2007426285938916'
+    message: Ahmad Abd-Elghany تمام هو من الواضح ان البرنامج مش ناجح أوى .. بس أوعدكم
+      البرامج الجاية هتبقى أحسن من ده ;)
+    id: '696006123772432'
+  - created_time: '2014-02-04T09:56:22+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      You use py2exe to create exe out of Python files. I used unpy2exe to extract *.pyc files, then use uncompyle to convert them to the original source code
+
+      You store all your settings - including plain text password - in  %LOCALAPPDATA%\settings.json. Even if I ignore this, I found a way to bypass your program.
+
+      I wanted to prove a point: the security is not in the algorithm. It's in the key (as mentioned in Wikipedia link I sent earlier). To store a password, use a hashing algorithm made for passwords.
+
+      Security is a _very_ hard topic. You need to learn the basics. Creating programs like what you did here is an excellent way of learning, but remember that it's not production-ready.
+    id: '696011557105222'
+  - created_time: '2014-02-04T10:02:06+0000'
+    from:
+      name: Abdelrahman M. Moez
+      id: '2007426285938916'
+    message: |-
+      First, good job ... second I always do what you said earlier :) which is hashing the pass, but I need to know first if the program is good for using or not - apparently it is not :D .
+
+      I have some good ideas in my pocket which I will be executing.
+
+      I am glad with this conversation guys, nice to be here. :)
+    id: '696013183771726'
+  - created_time: '2014-02-04T10:14:51+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: Mohammad Tayseer :D must you bust the bubble, I saw this coming frankly,
+      on a serious note; the passwords were in plain text?
+    id: '696015517104826'
+  - created_time: '2014-02-04T10:16:25+0000'
+    from:
+      name: Abdelrahman M. Moez
+      id: '2007426285938916'
+    message: You can ask me :D yeah they are.
+    id: '696015887104789'
+  - created_time: '2014-02-04T10:24:13+0000'
+    from:
+      name: Mohamed Badawi
+      id: '1532825676787208'
+    message: استفدت من تعليقات البوست جدا - شكرا ليكم كلكم
+    id: '696017993771245'
+  - created_time: '2014-02-04T11:08:22+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: |-
+      Man, I hate this poke the dead body with a stick so please don't take it personal. Best of luck with your endeavours. Your arguments are just a tad out of proportion to what I would deem acceptable from a proclaimed security application.
+      There are no excuses to storing a user's password in plaintext. None.
+
+      So as a sign of constructivism, this will help http://blog.existentialize.com/so-you-want-to-crypto.html
+    id: '696029213770123'
+  - created_time: '2014-02-04T11:12:52+0000'
+    from:
+      name: Abdelrahman M. Moez
+      id: '2007426285938916'
+    message: |-
+      No no, it's okay, but really as I told you, I was hesitating to release this program, so I needed first to know what people think about it, maybe I was wrong yeah about somethings.
+      But believe me, about the password issue, I've never done what  I did with PC Locker, I always encrypt them :D
+
+      Anyway, thank you all for everything, and predict more from me  :D ;)
+    id: '696030680436643'
+  - created_time: '2014-02-04T11:14:47+0000'
+    from:
+      name: Abdelrahman M. Moez
+      id: '2007426285938916'
+    message: |-
+      btw, to make this conversation more productive ... what do u think should this program have, to be more useful and cooler :) ?
+
+      Well, I want you all to contribute kindly :)
+    id: '696031637103214'
+  - created_time: '2014-02-04T11:44:09+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: |-
+      Chapeau for this approach, well I personally would like to see something different than the traditional approach of password-based authentication.
+      Visual login screens come to mind, the likes of pattern based mobile lock screen.
+
+      That's web based: http://blog.stef.be/patternlock
+    id: '696039473769097'
+  - created_time: '2014-02-04T12:20:45+0000'
+    from:
+      name: Abdelrahman M. Moez
+      id: '2007426285938916'
+    message: "I am inspired :) \nI am gonna make this one and I will mention you as
+      my inspiration ... thanx Hady (Y)"
+    id: '696049207101457'
+  - created_time: '2014-02-04T12:22:47+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: I'm flattered, much appreciated :) Best of luck
+    id: '696049873768057'
+  - created_time: '2014-02-04T12:28:48+0000'
+    from:
+      name: Abdelrahman M. Moez
+      id: '2007426285938916'
+    message: |-
+      I just want you to check this :P ;)
+      https://www.facebook.com/Hacker.Bedo/posts/799406253407598
+    id: '696051467101231'
+  - created_time: '2014-02-08T00:31:27+0000'
+    from:
+      name: Abdelrahman M. Moez
+      id: '2007426285938916'
+    message: "حابب بس أعرض عليكوا الجزء اللى وصلتله :) \n\nhttps://www.facebook.com/photo.php?fbid=457664137667894&set=a.283090025125307.48664.266287680138875&type=1&stream_ref=10"
+    id: '697971260242585'
+  - created_time: '2014-02-08T08:28:54+0000'
+    from:
+      name: Emad Mokhtar Habib
+      id: '10159905066535634'
+    message: I want to point something here, if you'll hash passwords, you also need
+      to add salt to it before hashing and what I've read in Jeff Atwood's book, you
+      need to store the salt in place other than where you're storing the hashed password,
+      I'm still figuring out how to do last part, but hashing password with salt is
+      the basic now.
+    id: '698084330231278'
+  - created_time: '2014-02-08T09:11:32+0000'
+    from:
+      name: Abdelrahman M. Moez
+      id: '2007426285938916'
+    message: Thanx Emad I will make sure to do that.
+    id: '698092450230466'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamsxTmpBNU1USXdORGM0TnprNU9qRXpPVEUwTkRJNE1UVT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOams0TURreU5EVXdNak13TkRZAMk9qRXpPVEU0TlRBMk9UST0ZD
+attachments:
+  data:
+  - description: This attachment may have been removed or the person who shared it
+      may not have permission to share it with you.
+    title: Attachment Unavailable
+    type: unavailable

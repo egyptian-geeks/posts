@@ -12,3 +12,74 @@ created_time: '2015-03-15T10:53:30+0000'
 updated_time: '2015-03-15T13:52:03+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/909631885743187/
 id: '172338516139198_909631885743187'
+comments:
+  data:
+  - created_time: '2015-03-15T11:02:26+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: جوجل ومحركات البحث بتعمل كدا تقريبا، ويوم بعد يوم بتكبّر الـ snippet
+      اللي بيتعرض في صفحة نتيجة البحث، وبعض الفقرات من الكتب وبعض الأجوبة مباشرة من
+      المواقع والخ، وعناوين الأخبار وملخصات لها وجداول ونتائج المباريات الرياضية،
+      طبعا المسألة فيها مشكلة كبيرة من ناحية حقوق الملكية، والناس بقت بدل ما تدخل
+      تقرا في الموقع بتقرا من صفحة نتائج جوجل وخلاص، يعني كأن المواقع والصحف شغّاله
+      عند جوجل، لكن لأن جوجل بتاعة ناس مهمين فبتكسب القضايا أو بتدفع تعويضات أو بتشتري
+      مجالس إدارات كبرى الشركات وتعمل شراكات معاهم، لكن بعض الدول والكيانات رفضت وبالفعل
+      قامت جوجل بإيقاف مقاطع الأخبار مؤخرا في عدة دول. لكن أنا لو مكانك عموما مش هسأل
+      في النقطة دي دقولتي إلا لما تبدأ تعمل مشكلة.. لو بقيت مشهور لدرجة إن الناس بلّغوا
+      عن مشكلات حقوق الملكية ساعتها هيبقى معاك فلوس تعمل شراكات أو تستثني اللي يبلّغ
+      أو يشتكي زي ما يوتيوب بيعمل والخ
+    id: '909635649076144'
+  - created_time: '2015-03-15T11:03:58+0000'
+    from:
+      name: Mohamed Said
+      id: '10155091454175952'
+    message: u'll need these sites to provide an API in order for you to able to search
+      its content.
+    id: '909635962409446'
+  - created_time: '2015-03-15T11:04:15+0000'
+    from:
+      name: Ibrahim Hammad
+      id: '10154919620001486'
+    message: "Technically, for search you can use Google search Api. For the content
+      you can use RSS reading or you can do regular expression to extract the content
+      from the Web site. \nEthically and legally, I don't have experience with it
+      but I think for some websites they won't like you doing that unless you refer
+      to them by a link."
+    id: '909636009076108'
+  - created_time: '2015-03-15T11:28:48+0000'
+    from:
+      name: Omar Ibrahim
+      id: '10116066877056474'
+    message: "kimonolabs.com is perfect for what you are trying to accomplish. \n\nIt
+      allows you to create an API by visually selecting the fields you want, the urls
+      to look into (pagination and search query parameters), and setting a scrapping
+      schedule (daily, hourly, etc...).\n\nAs for copyright violation, there is a
+      thin line between content curation and copyright violation. What I would do
+      is have a short version of the content and give a link to the original full-version
+      of the content."
+    id: '909642272408815'
+  - created_time: '2015-03-15T11:52:58+0000'
+    from:
+      name: Tamer Ahmed
+      id: '10154452963482614'
+    message: beside Kimono there is https://import.io which is totally free
+    id: '909649595741416'
+  - created_time: '2015-03-15T13:26:20+0000'
+    from:
+      name: Ahmad Gamaleldin Hassanein
+      id: '10155945694126276'
+    message: |-
+      the concept is called "web scrapping" or "web spiders"
+      you will find many websites offering it.
+    id: '909683665738009'
+  - created_time: '2015-03-15T13:43:55+0000'
+    from:
+      name: Hazem Taha
+      id: '1817887968229914'
+    message: thanks alot guys ... really helped :)
+    id: '909691069070602'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEE1TmpNMU5qUTVNRGMyTVRRME9qRTBNalkwTVRjek5EWT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEE1TmpreE1EWTVNRGN3TmpBeU9qRTBNalkwTWpjd016VT0ZD

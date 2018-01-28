@@ -10,3 +10,166 @@ created_time: '2015-05-01T17:12:19+0000'
 updated_time: '2015-05-02T09:55:08+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/934592836580425/
 id: '172338516139198_934592836580425'
+reactions:
+  data:
+  - id: '1824245244266988'
+    name: Muhammed Abuali
+    type: LIKE
+  - id: '10155764645725568'
+    name: Mohamed Rashed
+    type: LIKE
+  - id: '1495149960582252'
+    name: Mohamed Wael
+    type: LIKE
+  - id: '1550774681686883'
+    name: Eslam Esmaeal
+    type: LIKE
+  - id: '1624177287670190'
+    name: Yousef Al Kahky
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdORFExT1RBd01UYzFPakUwTXpFeU1ETXdOVFE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlNek00TURRMU9UazBPakUwTXpBMU1ESXlOVFE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2015-05-01T17:20:25+0000'
+    from:
+      name: Mahmoud Said
+      id: '10159857675500183'
+    message: they are indexed by a unique id, not by the timestamp
+    id: '934594359913606'
+  - created_time: '2015-05-01T17:27:47+0000'
+    from:
+      name: Osama Soliman
+      id: '879271768900112'
+    message: I meant on the same post ... which one will appear first to us :D !
+    id: '934601303246245'
+  - created_time: '2015-05-01T17:39:05+0000'
+    from:
+      name: Osama Soliman
+      id: '879271768900112'
+    message: "so for example ur comment id=934594359913606 \nmine is=934601303246245
+      \nif they were just at the same time ... took the same ID what would happen
+      \U0001F602  !"
+    id: '934604209912621'
+  - created_time: '2015-05-01T17:47:09+0000'
+    from:
+      name: Moataz Mahmoud
+      id: '1581325828647500'
+    message: The term "at the same time" is meaningless here, it makes no sense. If
+      you comment at the time, then one comment reaches the database before the other,
+      due to some connection issues and routing. It's the same the marathon, does
+      it make sense that there are two runners reaches the FINISH line at the same
+      time!
+    id: '934606679912374'
+  - created_time: '2015-05-01T18:06:11+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: |-
+      ^ It does make sense, say on a multiprocessor system.
+      For that reason, MySQL locks part (or all) of the table when doing stuff. That allows for something like auto_increment which takes care of generating an id, that's never a duplicate.
+    id: '934611909911851'
+  - created_time: '2015-05-01T18:27:13+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: |-
+      قاعدة البيانات مش زي الملفات، كل أنظمة إدارة قواعد البيانات بتضمن عدم حدوث المشكلات اللي من النوع ده من غير ما المطور يعمل حاجه، فوق ده المطور المفروض يصمم الجدول بحيث يكون فيه Primary Key مميز يستحيل إنه يتكرر في الجدول، وأي نظام بيوفر ويضمن ده، اللي هو الـ Id مثلا في الحالة دي، ده من ناحية التخزين، إنما من ناحية استرجاع البيانات فالكود اللي بيجيب التعليقات بيرتبها غالبا بكذا حاجه، بالوقت وبعدد اللايكات وقرب المستخدم منك مثلا والخ.. وعموما لو كل كل كل الشروط بتتطابق تماما مع كافة التعليقات ومن ضمنها الوقت باللحظة فهتلائيها تختلف غالبا بين كل نظام، بعض الأنظمة هترتبهم بحسب الأقدمية (بحسب الصف اللي إتخزن الأول في الجدول، أو العكس) أو اللي تقدر تسترجعه أسرع من الهارد-ديسك أو كدا والخ
+
+      بالمناسبة  قريب كنت بأرتب منتجات بحسب الأسعار فقط في صفحة فيها Paging فكانت بتعمل مشكلة لأن لما السعر يتكرر كان نظام قاعدة البيانات أو أحد الـ Layers اللي مابين الدنيتين بيرتبهم عشوائيا لما السعر يكون واحد، فكان ده بيعمل مشكلة لأن في الحالة دي بعض المنتجات ممكن ماتتعرضش للمستخدم وهو بينتقل بين الصفحات أو على أقل تقدير لما يعمل ريفريش أو back هيلائي المنتجات ترتيبها اختلف والخ لذلك قررت إن أنا دايما أحط الـ Id المميز في الـ order by دايما حتى لو مش عايز أرتبهم، بعكس ما ينصح به بإنك ماتعملش order by أو ماتزودش فيه علشان السرعة
+    id: '934616946578014'
+  - created_time: '2015-05-01T18:40:38+0000'
+    from:
+      name: Moataz Mahmoud
+      id: '1581325828647500'
+    message: What you said doesn't mean that it makes sense. When the database is
+      shared for all the cores, then the arrival time of two packages mayn't be the
+      same!
+    id: '934621596577549'
+  - created_time: '2015-05-01T18:43:45+0000'
+    from:
+      name: Fady Anwar
+      id: '10159888022555052'
+    message: This question boils down to networking, basically you are asking is it
+      possible for two packets to reach the same destination on the same time with
+      the exact timestamp I.e. on the same wire.. and if you look at it this way you
+      will figure it out by yourself.. obviously you can't..
+    id: '934622456577463'
+  - created_time: '2015-05-01T18:53:22+0000'
+    from:
+      name: Fady Anwar
+      id: '10159888022555052'
+    message: For example ofcourse any online server  receives millions of packets
+      in the same time, usually they use some sort of queuing data structure to handle
+      requests, so how your packet gets ordered in this queue? Will in the end of
+      the day it will boil down to the actual elecric signal on some wire in zeros
+      and ones.. you can never be able to fit two bits in one bit unless it's a Shrewdinger's
+      bit :-)
+    id: '934625226577186'
+  - created_time: '2015-05-01T19:29:08+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: |-
+      Ok, packet 1 arrived then packet 2 arrived. Most databases don't block when they handle a query, they accept new queries too. So they offload the execution of query1 to one thread and query2 to another thread. If each thread runs on another core, they can run at exactly the same time.
+      Your networking example might be true, if there is a single core real time system on the receiving end, which won't be ever the case.
+
+      To answer the specific questions:
+      Moataz Mahmoud Yes, the network interface doesn't receive 2 packets at the same time. But they can very well be processed at the exact same time, which is what matters. In that case it's not unlikely they have the same timestamp. Physics might treat time as continuous but system time will always be discrete. That means there is a finite resolution, two consecutive calls to whatever get_system_time functions might return the same value.
+      If you insert by id, it can be possible that you attempt insertion of the same id from two different threads at the same time. That's called a race condition and can be avoided by a lock, which MySQL (which Facebook uses) indeed does.
+      Fady Anwar I think I addressed all the points above. It boils down to nondeterministic order of execution => race condition => need for a locking mechanism.
+    id: '934644383241937'
+  - created_time: '2015-05-01T19:54:38+0000'
+    from:
+      name: Youhana Sobhy
+      id: '10156214789922376'
+    message: By default every behaviour have an ID
+    id: '934653356574373'
+  - created_time: '2015-05-02T06:23:50+0000'
+    from:
+      name: Mohamed Moshrif
+      id: '1538447102877297'
+    message: This would never ever happen. Read more on ACID properties that any respectful
+      RDMBS would support
+    id: '934794589893583'
+  - created_time: '2015-05-02T07:44:58+0000'
+    from:
+      name: Fady Anwar
+      id: '10159888022555052'
+    message: "Ahmad Fatoum even on a multicore processor system there will be an instruction
+      id and a thread id that can be used to tell which is first and even before it
+      reaches the processors the network interface will assign a packet id for each
+      packet.. on another hand that's why there is a   database log that keeps tracks
+      of transactions before they actually gets committed to the actual tables.. \nIn
+      the end of the day I don't really think Facebook people really care who made
+      the first comment to the extent that they design their databases in a way that
+      might hinder their performance just to keep track of it :-)"
+    id: '934811996558509'
+  - created_time: '2015-05-02T09:04:15+0000'
+    from:
+      name: Geish
+      id: '10100126826302216'
+    message: |-
+      Facebook doesn't care. If I remember correctly, they don't even care about comments' count when there's a conflict.
+      http://en.m.wikipedia.org/wiki/Eventual_consistency
+    id: '934829029890139'
+  - created_time: '2015-05-02T09:21:23+0000'
+    from:
+      name: Fady Anwar
+      id: '10159888022555052'
+    message: Osama Soliman from the ongoing discussion I can say good question!
+    id: '934832523223123'
+  - created_time: '2015-05-02T09:55:08+0000'
+    from:
+      name: Osama Soliman
+      id: '879271768900112'
+    message: Fady Anwar the most interesting thing that I am a frontend designer and
+      even a noob one :D and couldn't understand upto 30% of the discussion :') but
+      I do enjoy it ;) ... thx for the compliment <3 ^_^
+    id: '934838929889149'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVE0wTlRrME16VTVPVEV6TmpBMk9qRTBNekExTURBNE1qVT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVE0wT0RNNE9USTVPRGc1TVRRNU9qRTBNekExTmpBMU1EZAz0ZD

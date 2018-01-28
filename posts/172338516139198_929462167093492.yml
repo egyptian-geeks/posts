@@ -17,3 +17,222 @@ created_time: '2015-04-21T16:44:32+0000'
 updated_time: '2015-04-21T23:04:46+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/929462167093492/
 id: '172338516139198_929462167093492'
+reactions:
+  data:
+  - id: '1629690233758127'
+    name: Omar Mohsen
+    type: LIKE
+  - id: '10156223405241800'
+    name: Mina Alber
+    type: LIKE
+  - id: '10156207737619180'
+    name: Ahmed Al-Amir
+    type: LIKE
+  - id: '1550774681686883'
+    name: Eslam Esmaeal
+    type: LIKE
+  - id: '10155263010608321'
+    name: Mohammed Hassan
+    type: LIKE
+  - id: '10154922289347024'
+    name: Mohammed Hussien
+    type: LIKE
+  - id: '1574042042631934'
+    name: Mohamed Yahya
+    type: LIKE
+  - id: '10156274593643013'
+    name: Amany Elguindy
+    type: LIKE
+  - id: '10156649659196002'
+    name: Muhammad Saleh
+    type: LIKE
+  - id: '1281616575316079'
+    name: Ahmed ElSebaei
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhOVEUwT1RjeE1qYzJPakUwTWprMk9UQXdNVGM2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTBNRE15TkRjM05EWTJPakUwTWprMk16UTRNek02TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2015-04-21T16:47:52+0000'
+    from:
+      name: Ahmed ElSebaei
+      id: '1281616575316079'
+    message: Good move :)
+    id: '929463603760015'
+  - created_time: '2015-04-21T16:49:49+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Ahmed ElSebaei I am seriously thinking of trying OpenBSD, but as you
+      take it takes time and investment, so you know if it would be worth it?
+    id: '929464313759944'
+  - created_time: '2015-04-21T16:54:56+0000'
+    from:
+      name: Eslam Hamouda
+      id: '10212947071504226'
+    message: Restart in the Context-Menu !!!
+    id: '929466053759770'
+  - created_time: '2015-04-21T16:55:45+0000'
+    from:
+      name: Ahmed ElSebaei
+      id: '1281616575316079'
+    message: Mohamed Samy I think Debian is very mature and a solid ground for a development
+      environment  . Never tried OpenBSD.
+    id: '929466740426368'
+  - created_time: '2015-04-21T16:56:05+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: 'Eslam Hamouda google #openbox :)'
+    id: '929467057093003'
+  - created_time: '2015-04-21T16:56:15+0000'
+    from:
+      name: Muhammad Saleh
+      id: '10156649659196002'
+    message: And I thought configuring my VPS was hard...
+    id: '929467153759660'
+  - created_time: '2015-04-21T16:57:38+0000'
+    from:
+      name: Eslam Hamouda
+      id: '10212947071504226'
+    message: انا مش بستعجب عملتها ازاي ! انا بستعجب حاطتها ليه في مكان احتمال كبير
+      جداً تضغط عليها بالغلط !
+    id: '929467907092918'
+  - created_time: '2015-04-21T16:57:56+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: BTW, just to not massage my ego too much, I downloaded the netintsaller
+      for debian, installed minimum services, ran the Jesbang script, then did some
+      configuration and command line to configure the menu, the panel above (Tint),
+      Conky and the theme
+    id: '929468107092898'
+  - created_time: '2015-04-21T16:58:29+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Eslam Hamouda that is in Open Box, I can make it internal, plus don't
+      worry, I get a confirm dialogbox :)
+    id: '929468377092871'
+  - created_time: '2015-04-21T16:58:55+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Mostly, I searched Google and copied and pasted commands :)
+    id: '929468600426182'
+  - created_time: '2015-04-21T17:00:46+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Eslam Hamouda so what's your dev environement?
+    id: '929469273759448'
+  - created_time: '2015-04-21T17:01:01+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Ahmed ElSebaei what's your dev environement?
+    id: '929469347092774'
+  - created_time: '2015-04-21T17:05:50+0000'
+    from:
+      name: Ahmed ElSebaei
+      id: '1281616575316079'
+    message: Mohamed Samy Debian + XMonad + Many other packages
+    id: '929471443759231'
+  - created_time: '2015-04-21T17:07:06+0000'
+    from:
+      name: Eslam Hamouda
+      id: '10212947071504226'
+    message: Mohamed Samy what do you expect from a Windows guy ? :D
+    id: '929471950425847'
+  - created_time: '2015-04-21T17:37:00+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Ahmed ElSebaei is there something that can accumulate all the packages
+      so we can just run one script and replicate the environement and packages. It
+      seems you know better Debian than me I hope :)
+    id: '929488953757480'
+  - created_time: '2015-04-21T17:51:14+0000'
+    from:
+      name: Ahmed ElSebaei
+      id: '1281616575316079'
+    message: Mohamed Samy  I don't have a script for installing packages or config
+      the environment  , I just install what I need and configure it . I'm not sure
+      if there is something like that or not !
+    id: '929493730423669'
+  - created_time: '2015-04-21T17:58:07+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: I <3 Debian :v
+    id: '929496100423432'
+  - created_time: '2015-04-21T18:24:42+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      See answers here to know how to list all installed packages & install the same on another machine
+
+      http://askubuntu.com/questions/17823/how-to-list-all-installed-packages
+    id: '929504450422597'
+  - created_time: '2015-04-21T18:58:53+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Mohammad Tayseer I saw that link before, and will read it more closely,
+      I was hoping for a tool to read the installed programs with config files and
+      just create one big SH file like Jesbang script
+    id: '929515507088158'
+  - created_time: '2015-04-21T19:11:05+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Ahmed ElSebaei what version of the Kernel do you have? is it 3.2.x? Is
+      there any reason for me to upgrade to 3.16?
+    id: '929519350421107'
+  - created_time: '2015-04-21T19:30:17+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: This is my dump of packages https://gist.github.com/mosamy/7ab1e926030f524dd7de
+    id: '929527020420340'
+  - created_time: '2015-04-21T23:00:58+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Ahmed ElSebaei Allah yesam7ak, XMonad is all I have been thinking about
+      :)
+    id: '929633463743029'
+  - created_time: '2015-04-21T23:04:46+0000'
+    from:
+      name: Ahmed ElSebaei
+      id: '1281616575316079'
+    message: Mohamed Samy Use xmonad if you love tiling , it's superb when it comes
+      to that ;)
+    id: '929634130409629'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEk1TkRZAek5qQXpOell3TURFMU9qRTBNamsyTXpRNE56ST0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEk1TmpNME1UTXdOREE1TmpJNU9qRTBNamsyTlRjME9EWT0ZD
+attachments:
+  data:
+  - description: |-
+      Showing off a little bit :)
+
+      This is my #Debian net install after I ran #Jesbang script and installed #openbox and Conky. I also have #Pycharm and #Emacs installed and about to install #Eclipse all from code and compiled (except Pycharm)
+
+      Notice the Conky declares only 75 MB RAM use after 3 days of rrunning straight, opening Iceweasel browser, Pycharm and closing again.
+
+      Please also share with me your development or Custom envirornment.
+    media:
+      image:
+        height: 404
+        src: https://scontent.xx.fbcdn.net/v/t31.0-8/q89/s720x720/11021431_10155989719505355_6767868969730658437_o.jpg?oh=c93a15e5358205b4d6dcfcb408b9dc9a&oe=5AE26D7A
+        width: 720
+    target:
+      id: '10155989719505355'
+      url: https://www.facebook.com/photo.php?fbid=10155989719505355&set=gm.929462167093492&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=10155989719505355&set=gm.929462167093492&type=3

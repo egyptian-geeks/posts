@@ -11,3 +11,62 @@ updated_time: '2015-10-01T10:59:30+0000'
 name: gernest/utron
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1012423428797365/
 id: '172338516139198_1012423428797365'
+reactions:
+  data:
+  - id: '10155755444625845'
+    name: Mohammad Fouad
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRRM05UVXdPRFEwT2pFME5ETTBNall3TlRrNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRRM05UVXdPRFEwT2pFME5ETTBNall3TlRrNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2015-09-30T19:45:16+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: "My problem with most Golang web frameworks is that they're always fighting
+      the language. Constantly under this gridlock of trying to port a framework from
+      another language while retaining most of its inherent features. Most of which
+      are attributed to the implementation language. \nI suppose that's why I've personally
+      mostly elected to go for net/http to carry out most of my work.\nThe boilerplate
+      grows exponentially though, until you take the time to extract some common patterns
+      from your work into a reusable package."
+    id: '1013590842013957'
+  - created_time: '2015-09-30T19:52:57+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: |-
+      The community at large is mostly oriented towards this common patterns methodology than embracing a single source of truth regarding an idiomatic framework.
+
+      Surprisingly though, most gophers are ex-rubyist and python engineers. I've always been baffled at that thought.
+      I reckon it's how the core team have mostly influenced and positioned the language.
+
+      For instance, core ruby does afterall, embrace rails as the defacto standard to web development in ruby.
+    id: '1013592742013767'
+  - created_time: '2015-10-01T10:59:30+0000'
+    from:
+      name: Mohammed Al Ashaal
+      id: '965203406986813'
+    message: "in my opinion, Go doesn't need a framework, \nbecause Go is Go, not
+      { python, ruby, php, java .. etc }"
+    id: '1013813435325031'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF4TXpVNU1EZAzBNakF4TXprMU56b3hORFF6TmpReU16RTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF4TXpneE16UXpOVE15TlRBek1Ub3hORFF6TmprM01UY3cZD
+attachments:
+  data:
+  - description: utron - A lightweight MVC framework for Go(Golang)
+    media:
+      image:
+        height: 400
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAgjI0N9vijwQvl&w=400&h=400&url=https%3A%2F%2Favatars3.githubusercontent.com%2Fu%2F6039952%3Fv%3D3%26s%3D400&cfs=1&sx=0&sy=0&sw=400&sh=400&_nc_hash=AQDzKfQnhTG7sK5j
+        width: 400
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Fgernest%2Futron&h=ATOwUXApH9MnNbpxtJanfy_Z5syOW-xOCWoJRLeXAxYOzxANPq3VDcjruO2XTu0wM4Ve7w1NhTXIbS3-5TqucyaSIH4fP03oeWDZ&s=1&enc=AZPEUbEjR5OrKVLjRL3YQyAGOWFCT7AM_Nw_9YR5fZKiads_gfoWQV_3P_IKrjzzlE7rqBAw9qaSJ0sAo1Lu8yXR
+    title: gernest/utron
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Fgernest%2Futron&h=ATOwUXApH9MnNbpxtJanfy_Z5syOW-xOCWoJRLeXAxYOzxANPq3VDcjruO2XTu0wM4Ve7w1NhTXIbS3-5TqucyaSIH4fP03oeWDZ&s=1&enc=AZPEUbEjR5OrKVLjRL3YQyAGOWFCT7AM_Nw_9YR5fZKiads_gfoWQV_3P_IKrjzzlE7rqBAw9qaSJ0sAo1Lu8yXR

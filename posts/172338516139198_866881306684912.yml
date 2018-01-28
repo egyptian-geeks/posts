@@ -11,3 +11,71 @@ updated_time: '2014-12-25T11:31:02+0000'
 name: No data received for long process on production server asp.net
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/866881306684912/
 id: '172338516139198_866881306684912'
+reactions:
+  data:
+  - id: '2019632041613744'
+    name: Fatma Mamdouh
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTNNREE1TURNME5qTTJPakUwTVRrME5UY3lORGs2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTNNREE1TURNME5qTTJPakUwTVRrME5UY3lORGs2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2014-12-24T21:57:17+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: In other words, your page takes 6 minutes to load? this will cause most
+      browsers & servers to timeout.
+    id: '866888066684236'
+  - created_time: '2014-12-25T05:10:44+0000'
+    from:
+      name: AbdElrahman Ahmed
+      id: '10155281306198977'
+    message: But why it doesn't timeout when i run it on server locally, although
+      it the same time !!
+    id: '867031333336576'
+  - created_time: '2014-12-25T11:11:14+0000'
+    from:
+      name: Amir Mohamed Atia
+      id: '10155967624789840'
+    message: "add this code to connection string \nConnection Timeout=30"
+    id: '867169289989447'
+  - created_time: '2014-12-25T11:12:33+0000'
+    from:
+      name: Amir Mohamed Atia
+      id: '10155967624789840'
+    message: |-
+      and also add this line to web.config
+      <system.web>
+      <sessionState mode="InProc" timeout="540" />
+      </system.web>
+    id: '867169976656045'
+  - created_time: '2014-12-25T11:31:02+0000'
+    from:
+      name: AbdElrahman Ahmed
+      id: '10155281306198977'
+    message: I already did this but nothing changes . The weird thing that when i
+      login to the server with remote desktop and run the code locally it works well
+      !!!
+    id: '867175919988784'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFkyT0RnNE1EWTJOamcwTWpNMk9qRTBNVGswTlRneU16Yz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFkzTVRjMU9URTVPVGc0TnpnME9qRTBNVGsxTURjd05qST0ZD
+attachments:
+  data:
+  - description: Hi i've some legacy code that takes about 6 minutes to produce result.
+      the problem that when i connect to production server and run the code locally
+      the result successfully returned but if i connec...
+    media:
+      image:
+        height: 316
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQCz3rmhv1AH6XyC&w=720&h=720&url=http%3A%2F%2Fcdn.sstatic.net%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3Dfde65a5a78c6&cfs=1&_nc_hash=AQDYMA7sVVUu6LYN
+        width: 316
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fq%2F27638280%2F1239169&h=ATMzld3qv0UmYRybZh4LJECSt6q578yk63hhgEsX9L8EGM2NwbzGqGGH-VNt9Jm4YkHlbU9mlDYKmKWOEiE07_2I675G1OFkoquz&s=1&enc=AZOXM0SCCJ0vgecb0r9aE2RX-XvvlTgfQwQ6552p8niP3d2jhveU6ngEurr76ckCpxh47ERC18k38z8bcZ5nVzhb
+    title: No data received for long process on production server asp.net
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fq%2F27638280%2F1239169&h=ATMzld3qv0UmYRybZh4LJECSt6q578yk63hhgEsX9L8EGM2NwbzGqGGH-VNt9Jm4YkHlbU9mlDYKmKWOEiE07_2I675G1OFkoquz&s=1&enc=AZOXM0SCCJ0vgecb0r9aE2RX-XvvlTgfQwQ6552p8niP3d2jhveU6ngEurr76ckCpxh47ERC18k38z8bcZ5nVzhb

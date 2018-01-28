@@ -11,3 +11,23 @@ created_time: '2015-09-26T21:57:25+0000'
 updated_time: '2015-09-27T22:54:12+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1012022965504078/
 id: '172338516139198_1012022965504078'
+comments:
+  data:
+  - created_time: '2015-09-26T22:00:23+0000'
+    from:
+      name: Diaa Sami
+      id: '10215834435679186'
+    message: |-
+      1. OpenGL ES on Android is similar to OpenGL on the desktop, it's a subset and it uses fixed-point math instead of floating point (used on the desktop), so you'll have to be familiar with that as well.
+      2. Yes, OpenGL is a platform independent graphics library and works on several platforms including consoles.
+    id: '1012024695503905'
+  - created_time: '2015-09-27T22:54:12+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: Why do you want to use pure OpenGL? Why not use a library or an engine?
+    id: '1012427798796928'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF4TWpBeU5EWTVOVFV3TXprd05Ub3hORFF6TXpBME9ESXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF4TWpReU56YzVPRGM1TmpreU9Eb3hORFF6TXprME5EVXkZD

@@ -9,3 +9,31 @@ created_time: '2013-01-24T15:59:35+0000'
 updated_time: '2013-01-24T17:20:11+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/517106918329021/
 id: '172338516139198_517106918329021'
+comments:
+  data:
+  - created_time: '2013-01-24T16:50:42+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Chrome / IE developer tools?
+    id: '517121358327577'
+  - created_time: '2013-01-24T16:53:41+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      IE10 (maybe 9) dev toolbar: Tools -> Change user agent string
+
+      Chrome (tested in 26.0.1386.0 dev) dev toolbar -> Settings icon in bottom right -> Overrides left menu) -> User Agent
+    id: '517122384994141'
+  - created_time: '2013-01-24T17:20:11+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: 'Thanks man. I also found this: https://addons.mozilla.org/en-US/firefox/addon/user-agent-changer/?src=ss
+      and a huge list for browser agents to be imported in the addon http://techpatterns.com/forums/about304.html'
+    id: '517130404993339'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOVEUzTVRJeE16VTRNekkzTlRjM09qRXpOVGt3TkRZAeU5EST0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOVEUzTVRNd05EQTBPVGt6TXpNNU9qRXpOVGt3TkRnd01URT0ZD

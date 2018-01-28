@@ -28,3 +28,56 @@ created_time: '2015-07-01T22:24:09+0000'
 updated_time: '2015-07-01T22:50:44+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/966868650019510/
 id: '172338516139198_966868650019510'
+comments:
+  data:
+  - created_time: '2015-07-01T22:25:17+0000'
+    from:
+      name: Osama Soliman
+      id: '879271768900112'
+    message: "*this picture for the GUI that checks the new battery status*"
+    id: '966868966686145'
+  - created_time: '2015-07-01T22:50:44+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: |-
+      The battery seems to be faulty, it could be one of numerous issues:
+      * The case is empty, i.e. the number of cells is less than advertised and the battery controller IC is reporting false capacity.
+      * Battery cells are damaged.
+      * Battery IC is faulty.
+    id: '966877300018645'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFkyT0RZANE9UWTJOamcyTVRRMU9qRTBNelUzT0RrMU1UYz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFkyT0RjM016QXdNREU0TmpRMU9qRTBNelUzT1RFd05EUT0ZD
+attachments:
+  data:
+  - description: |-
+      #Hardware #Compatibility
+      [Q] Replaced my HP Probook 4540s original battery with 4330s lousy - made in china- one ...
+      The problem, it doesn't accept charging (plugged in and charging) but no charge percentage increase !
+
+      Some numbers u may ask for :
+      Old battery voltage = this one
+      Old mAh is 4300 < this one 4400
+
+      Contacted the IT seller but is it a myth or a real to let it 8 hours charging -while lap is off- for the first time to work properly ?
+
+      I tried googling if u can teach me better keywords :
+      q=replace+hp+probook+4540s+battery+with+%24
+      q=%22replace+probook+4540s+battery+with+4330s+battery%22
+      q=replaced+battery+won%27t+charge
+      q=replaced+hp+battery+won%27t+charge
+
+      **also followed this topic but noting new till now
+      http://h30434.www3.hp.com/t5/Other-Notebook-PC-Questions/New-battery-won-t-charge/td-p/1550987
+    media:
+      image:
+        height: 474
+        src: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/11110257_457358801091413_7578561542855925824_n.jpg?oh=ba1de62cd42d3f799bf63614bb209943&oe=5B1D1226
+        width: 720
+    target:
+      id: '457358801091413'
+      url: https://www.facebook.com/photo.php?fbid=457358801091413&set=gm.966868650019510&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=457358801091413&set=gm.966868650019510&type=3

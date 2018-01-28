@@ -10,3 +10,80 @@ updated_time: '2014-07-03T15:48:08+0000'
 name: PHP Arab
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/775425032497207/
 id: '172338516139198_775425032497207'
+comments:
+  data:
+  - created_time: '2014-07-03T15:24:31+0000'
+    from:
+      name: Mostafa Mohamed
+      id: '774118609449243'
+    message: أعتقد أن الموضوع ملتبس شوية ... Mysql هى Database System متغيرتش فى حاجة
+      ، mysqli  دى تغيير فى الطريقة الى بتتعامل بيها ال PHP مع MySQL نتيجة للمشاكل
+      اللى كانت فى الطريقة القديمة ... mysqli موجودة فى ال PHP فقط و ليست نظام جديد
+      للداتا بيس ... لزم التنويه
+    id: '775731892466521'
+  - created_time: '2014-07-03T15:25:36+0000'
+    from:
+      name: Mahmoud Elnezamy
+      id: '10155942661664351'
+    message: اقرأ التفاصيل
+    id: '775732272466483'
+  - created_time: '2014-07-03T15:32:41+0000'
+    from:
+      name: Mostafa Mohamed
+      id: '774118609449243'
+    message: Mahmoud Elnezamy مجرد توضيح حتى لا يختلط الأمر الكلام اللى مكتوب صحيح
+      و لا أشكك فيه
+    id: '775734879132889'
+  - created_time: '2014-07-03T15:48:08+0000'
+    from:
+      name: Mahmoud Elnezamy
+      id: '10155942661664351'
+    message: "شكرا لك Mostafa Mohamed  \nوتم اضافه ملاحظه بالتنبيه"
+    id: '775740752465635'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemMxTnpNeE9Ea3lORFkyTlRJeE9qRTBNRFEwTURFd056RT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemMxTnpRd056VXlORFkxTmpNMU9qRTBNRFEwTURJME9EZAz0ZD
+attachments:
+  data:
+  - description: "هل تعلم \nأنه تم الإستغناء عن mysql فى إصدارات php \n إعتبارا من
+      الاصدار 5.5.0 وسيتم ازالتها فى الاصدارات القادمه\nوبما ان معظم المبدئين مازالوا
+      يستعملون mysql وجب التنبيه انه البرمجيات او المشاريع التى استخدمت فيها mysql
+      لن تعمل فى المستقبل القريب  لذلك يجب الانتقال الى\n mysqli او PDO\n\n-------------------------------------------------------------------------\n---------------
+      ملحوظه مهمه جدا لكى لا يختلط الامر -------------- \n-------------------------------------------------------------------------\nmysql
+      هى محرك بقاعدة بينات  لم ولن يتم حذفها  انما المقصود من حذف mysql هى الدوال
+      الخاصه بالتخاطب مع قاعدة بينات mysql الخاصه بال php وتم استبدالها ب mysqli\n\nيعنى
+      باختصار السيرفرات الاونلاين بتحدث اصدارات البى اتش بى كل فتره فلو انت عامل برنامج
+      او مشروع معتمد على دوال  mysql القديمه مثل mysql_query الخ ..\nلن يعمل على الاصدارات
+      الحديثه ل php \nيعنى لازم تعمل حساب المستقبل حاليا هتلاقى مشروعك شغال عادى\n
+      فى المستقبل هتقابل مشاكل مع بعض السيرفرات المحدث لديها اصدار البى اتش بى \n--------------------------------------------------------------------------\n\nMySqli
+      ليست نوع جديد من قواعد البيانات بل هي extension للغة PHP مسؤولة عن عملية الربط
+      بين PHP وقواعد بيانات Sql التقليدية.\n\nطُورت MySqli لتستبدل الـ extension القديمة
+      للربط بين PHP و MySql التي كان اسمها MySql، ولهذا سُميت بـ MySqli أي اختصار
+      لـ MySql improved.\n\nكانت الحاجة لتطوير MySqli حتى تُستغل مميزات قواعد بيانات
+      MySql الحدثية التي لم تدعم من خلال الـ extension القديمة المسماه MySql.\n\nmysqli
+      هى نسخه من mysql لكن تم تطويرها وتحسينها وتم معالجه الثغرات اللتى كانت فى mysql
+      واضافه مميزات جديده وصارت اسرع \n\npdo من اهم مميزاتها انها تدعم حوالى 12 محرك
+      لقواعد البينات من ضمنها mysql وهى ايضا محسنه ولها نفس مميزات mysqli وامكانيات
+      اكثر \n\nبالنسبه للأختيار بين mysqli , PDO\n ينبغى انت تتعرف عليهم اولا ولك
+      حرية الاختيار بما يناسبك \n\nفاذا كنت تنوى استخدام اكثر من محرك لقواعد البينات
+      فى مشروعك فالاختيار الافضل PDO \n\nاما اذا غير ذلك فيمكنك استخدام mysqli \n\nكولكشن
+      لشروحات عربيه واجنبيه ل mysqli\nMysqli\nhttp://goo.gl/QFZcaf\n\nكورس شامل لشرح
+      PDO عربى ل Ashraf Hefny\nPDO\nhttp://goo.gl/fs0OD0\n\nبى اتش بى عرب\n#PHP_Arab"
+    description_tags:
+    - id: '160112044166136'
+      length: 13
+      name: PHP Arab
+      offset: 2044
+      type: page
+    media:
+      image:
+        height: 501
+        src: https://scontent.xx.fbcdn.net/v/t1.0-9/10306244_301452010032138_4792144033008936152_n.jpg?oh=a1e37cebbe4ba3e2e2812059d374cafa&oe=5ADF8D47
+        width: 453
+    target:
+      id: '301452010032138'
+      url: https://www.facebook.com/Projects4Arab/photos/a.517587408418596.1073741833.160112044166136/301452010032138/?type=3
+    title: هل تعلم !
+    type: photo
+    url: https://www.facebook.com/Projects4Arab/photos/a.517587408418596.1073741833.160112044166136/301452010032138/?type=3

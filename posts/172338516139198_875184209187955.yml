@@ -9,3 +9,334 @@ created_time: '2015-01-05T17:39:54+0000'
 updated_time: '2015-01-06T14:11:36+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/875184209187955/
 id: '172338516139198_875184209187955'
+reactions:
+  data:
+  - id: '10213118809797201'
+    name: Muhammad El-Hennawy
+    type: LIKE
+  - id: '1589145544505470'
+    name: Mohamed El-Alfy
+    type: LIKE
+  - id: '1823047314436316'
+    name: Ahmed Aboshanab
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRZAd01qZAzROVFF6TWpveE5ESXdOVEE1TlRNM09qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBd01EQXhPVE14T1RZAek1UUTBPakUwTWpBME9ERXpNRGs2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2015-01-05T17:41:05+0000'
+    from:
+      name: Karim Shalaby
+      id: '10155884568151145'
+    message: coding any language is fun ya samy
+    id: '875184529187923'
+  - created_time: '2015-01-05T17:42:50+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: I never have fun in Javascript ya Shalablab , I don't know if someone
+      "3amaly 3amal" ? But I have an extreme loathing and refusal to write code in
+      this language. Python is on the contrary, I love it and can never get enough
+      of it. ASP classic was the same, I am trying to understand this.
+    id: '875184932521216'
+  - created_time: '2015-01-05T17:52:16+0000'
+    from:
+      name: Rafael Adel
+      id: '10156260406777122'
+    message: Even thought i'm a PHP developer. I really love JS, I just wait from
+      time to time to have a chance to program with it. Also studying the internals
+      of it is so much fun and pleasure for me. I'm in love ! :D
+    id: '875188765854166'
+  - created_time: '2015-01-05T17:56:13+0000'
+    from:
+      name: Alaa Ali
+      id: '10156025239731303'
+    message: Try to read more about functional programming paradigm and you will understand
+      more about the nature of these languages.
+    id: '875190215854021'
+  - created_time: '2015-01-05T17:56:53+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: "JS has some really good parts mixed with really bad parts. underscorejs
+      & jquery are examples of what you can do when you really know the language.
+      \n\nBoth JS & Python are dynamic. Dynamic languages _can_ be strongly typed.
+      Python do all the required type checking at runtime & gives you good error messages,
+      e.g. \"TypeError: unsupported operand type(s) for +: 'int' and 'str'\" at the
+      exact line which contains the error. JS, although it knows about types, weakens
+      the type system by doing automatic conversion, which is wrong most of the time.\n\nThese
+      2 jokes are funny because they are real\nhttp://anongallery.org/220/javascript:_the_good_parts\n\nhttps://www.destroyallsoftware.com/talks/wat"
+    id: '875190502520659'
+  - created_time: '2015-01-05T18:02:24+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      Ahmed Shalaby
+      > console.log(status)
+      undefined
+    id: '875192675853775'
+  - created_time: '2015-01-05T18:13:34+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: أنا مابحبهاش كلغة، بالإضافة إلى إني باكرهها علشان لأننا كبشر معترفين
+      إن مش دي أفضل لغة عملناها لكن مضطرين نستخدمها علشان أهو اللي حصل بقى والتوافق
+      اللي حصل عليها اللي أغلبه تم لاشعوريا والخ، وده بيذكرني بمأساتنا الأزلية
+    id: '875197622519947'
+  - created_time: '2015-01-05T18:21:17+0000'
+    from:
+      name: Mohamed El-Alfy
+      id: '1589145544505470'
+    message: The same feeling it is a horrible language
+    id: '875200902519619'
+  - created_time: '2015-01-05T18:32:09+0000'
+    from:
+      name: Abdelhameed Tourky
+      id: '10156434261949271'
+    message: |-
+      I enjoy js, specially in the server side "node js"
+      Being able to write a script and run it just write now on the already opened browser's console is lovely
+    id: '875205765852466'
+  - created_time: '2015-01-05T18:45:25+0000'
+    from:
+      name: Muhammad Sweilam
+      id: '1672329366148161'
+    message: There was a time when you had to insert 8-bit opcodes byte by byte to
+      formulate basic functions even with absence of a working assembler.. We owe
+      a lot to interpreted languages.. Cherish JS !
+    id: '875210462518663'
+  - created_time: '2015-01-05T19:00:45+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: |-
+      People always mix between JavaScript the language and the DOM. A lot of the hate originally is caused by the horrible implementation of the DOM which really is browsers vendors' fault.
+      JavaScript was written and shipped in 10 days. A lot of the bad parts in it is left for backward compatibility (like the only object in JavaScript that evaluates to false ... Something very similar to the reason why Microsoft named the new Windows 10 instead of 9 )
+      When you spend long time with JavaScript you begin to understand how it works and you will begin to feel its beauty.
+    id: '875216222518087'
+  - created_time: '2015-01-05T19:03:51+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: |-
+      Mohammad Tayseer Ahmed Shalaby
+      it actually return undefined because the log function returns nothing :D
+    id: '875217145851328'
+  - created_time: '2015-01-05T19:04:34+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: لغة إتعملت في 5 أيام أو 10 أيام مافهاش جمال، "ده توحد مع المعتدي" :D
+      حبّها علشان تعرف تكتب كود بها.. شوف الـ bugs اللي فيها على إنها features والخ
+      ، هي حلوه بس أنا كنت شايفها من زاوية غلط أو وهي صاحيه من النوم
+    id: '875217355851307'
+  - created_time: '2015-01-05T19:12:22+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      Ahmad Alfy In Chrome console & Node, the result is
+
+      > console.log('11')
+      11
+      undefined
+
+      In FF
+      > console.log('11')
+      undefined
+      11
+
+      So, it's implementation dependent!
+    id: '875219752517734'
+  - created_time: '2015-01-05T19:31:38+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Guys, I like Python cause the language itself has very nice and clean
+      syntax, I like the indentations instead of curly braces, being a big fan of
+      VB and also no more ";". The thing I hate about JS is it looks like C# and Java
+      but it isn't. It also has very bad autocomplete and debugging and I hate being
+      tied to a browser to test my code. Sometimes it is nice just to write some server
+      side code or maybe some algorithms or even in Python a Tkinter application which
+      is like a windows application. Also Python can be used for scripting and access
+      the file system. JS on the other hands just does access to HTML elements and
+      the syntax is never really that readable to me, whereas in Python I can read
+      what the program is doing and understand. I can easily download Pycharm or Eric
+      or even some Emacs mods and work on Python with great Autocomplete and debugging.
+      I don't know how I can do that in JS, Also, even the JS frameworks you guys
+      mention are mainly UI manipulation and I don't really get a buzz out of that,
+    id: '875226125850430'
+  - created_time: '2015-01-05T20:20:10+0000'
+    from:
+      name: Ammar Youssef
+      id: '10155097484932190'
+    message: بأقولك إيه... الجافاسكربت دي كويسة .. بس كده :) .... لا فعلا ، ادخل شوية
+      على nodejs وشوف الليلة الكبيرة اللي عاملاها ، سرعة في عمل برامج كبيرة أو صغيرة
+      ، ببساطة وخفة تجعلك تدمنها ، مش لازم تكون مطور ويب ، يكفي أن تكون مطورا ....
+      أظن ان هناك شيئا لا يستغنى عنه المطور وهو automation ، وأعتقد ان حبك لل Python
+      لأنها مفيدة جدا في ال automation ... جرب دخول الباب على الجافاسكربت بس على node
+      هتعرف كيف هي جميلة ومرنة  ...  اقرأ عن Grunt أو Gulp  في ال automation ، انسى
+      ال UI تماما .. اللغة دي بتعمل كل حاجة ، أنا عملت cross platform media player   في
+      نصف ساعة، بأقل من 70 سطر كود ، شوف انت بقى
+    id: '875243345848708'
+  - created_time: '2015-01-05T20:23:05+0000'
+    from:
+      name: MasȜod Ahmed
+      id: '2254453967901994'
+    message: i hate js Complexity
+    id: '875244499181926'
+  - created_time: '2015-01-05T21:35:54+0000'
+    from:
+      name: Fady Samir
+      id: '2405590472799673'
+    message: انتوا اكيد بتهزروا js is one of the most used programming language and
+      soon it will make a revolution in the backend "nodejs" as well as frontend
+    id: '875271475845895'
+  - created_time: '2015-01-05T22:13:27+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Fady Samir My question is not whether or not it is popular, which it
+      undeniably is, the issue is whether or not you like writing JS code?
+    id: '875366539169722'
+  - created_time: '2015-01-05T22:15:41+0000'
+    from:
+      name: Fady Samir
+      id: '2405590472799673'
+    message: Languages are like tools , you love them when they get the job done .
+    id: '875367082503001'
+  - created_time: '2015-01-05T22:17:10+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Actually, you don't just take caffiene tablets to wake up, you get yourself
+      a good coffee bean and a good coffee maker and make yourself a cup of heaven.
+      If it were getting the job done, we'd all just be sniffing nescafe powder :)
+    id: '875367442502965'
+  - created_time: '2015-01-05T22:28:59+0000'
+    from:
+      name: Mohammad Mahmoud
+      id: '10160051624520533'
+    message: Sure I enjoy js, I always feel job is done when it comes to js :)
+    id: '875370962502613'
+  - created_time: '2015-01-06T01:37:27+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: I really Love writing Javascript :)
+    id: '875439072495802'
+  - created_time: '2015-01-06T01:49:59+0000'
+    from:
+      name: Tarik Ibrahim
+      id: '10156476353501062'
+    message: You have to use JS in real application to love it ,. it's the web swiss
+      army knife
+    id: '875443082495401'
+  - created_time: '2015-01-06T08:09:10+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: 'Samy don''t Like Javascript Since long time. it has become very powerful.
+      something similar like GoLang because it doesn''t consume a lot of resources
+      on the servers: http://highscalability.com/blog/2014/12/31/linus-the-whole-parallel-computing-is-the-future-is-a-bunch.html'
+    id: '875709459135430'
+  - created_time: '2015-01-06T09:01:51+0000'
+    from:
+      name: Ahmed El Gabri
+      id: '10159938698425582'
+    message: "Mohamed Samy According to your comments, you don't like JS for:\n\n1-
+      The Syntax.\n2- Poor autocompletion.\n3- Debugging.\n4- \"JS on the other hands
+      just does access to HTML elements\".\n\nFor me these more like a personal preference/bad
+      experience rather than the language itself.\n\n1- The syntax: You can use CoffeeScript
+      which is white space sensitive, but I won't recommend this cause CoffeeScript
+      hides some implementation details through it syntactic sugar syntax. I like
+      it but I think ES6 is close enough for me to use than CoffeeScript. There is
+      also LiveScript & TypeScript (but personally I think they look awful syntax
+      wise). \n\nI work in a Python company (I'm not a Python dev), to be honest Python
+      syntax is nice but the lack of closing bracket, or \"end\" like in Ruby makes
+      me get lost sometimes and reminds me of callback hell/xmas tree http://res.cloudinary.com/joshwright/image/upload/q59qyti9rzkqvfjbb1dx.png
+      in JS :D cause everything is going to right with no \"visual\" end)\n\n2- It
+      depends on which editor/IDE you use, If you are an editor guy you will need
+      to install some plugins for Sublime or Vim or <your text editor here> to get
+      a decent autocompletion (might not be perfect, but it's good enough) or you
+      might want to create your own snippets library for the pieces of code you use
+      a lot. Or a combination of both. For IDEs (I hate IDEs, thats my personal preference)
+      but I heard a lot of good things about https://www.jetbrains.com/webstorm/ and
+      its JavaScript capabilities.\n\n3- Debugging, mmmm... honestly I find debugging
+      JS is not that hard, the amount of tool that we have right know is amazing.
+      And also to prevent some issues you should use a linter (jshint or eslint) it's
+      like PEP8 but for JavaScript so you can prevent syntax errors/bugs and only
+      focus on real bugs, not a ASI bug or something. and console.log/dir() are your
+      friends :D + the devtools (they are very powerful). on the node side there are
+      other tools to use too to debug.\n\n4- This statement is wrong, the DOM is not
+      JavaScript. The DOM is the browser API. Also, you have Node now which is backend,
+      also used for apps using node-webkit Slack, HipChat, Atom editor etc... are
+      build using node-webkit.\n\nMy personal advice, is if you don't enjoy JS don't
+      write JS. Focus your energy on what you like Python, JS is gaining popularity
+      yes but Python, Ruby, Java, whatever is not going to vanish (example PHP :D)
+      maybe learn something else other than JS (Scala, Haskel, Go, something else).
+      Also, please don't write JS cause you have too cause most probably you will
+      write code that you don't care about but the poor Front-end guys like us will
+      inherit this code and will lose our hair trying to fix it :D"
+    id: '875738242465885'
+  - created_time: '2015-01-06T10:21:40+0000'
+    from:
+      name: Ammar Youssef
+      id: '10155097484932190'
+    message: كمان نقطة بالنسبة لل Debugging  ... مايكروسفت عملت شغل حلو جدا في visual
+      studio يخليك تعمل ما تريد ما الجافاسكربت ... غير طبعا ال chrome dev tools فكلهم
+      حاجات قوية وبتسهل ال debugging
+    id: '875758199130556'
+  - created_time: '2015-01-06T10:23:07+0000'
+    from:
+      name: Ammar Youssef
+      id: '10155097484932190'
+    message: slack is chrome extension not node-webkit, and Atom.io is built using
+      Atomshell
+    id: '875758592463850'
+  - created_time: '2015-01-06T10:52:18+0000'
+    from:
+      name: Ahmed El Gabri
+      id: '10159938698425582'
+    message: Ammar Osama You are right about Atom. But Slack uses node-webkit https://twitter.com/matthewdeaners/status/461277384461672449
+    id: '875766515796391'
+  - created_time: '2015-01-06T11:14:20+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: "I think the hate of Javascript mainly is based on a misconception of
+      what it actually does and what are the capabilities of writing a good clean
+      javascript. javascript is no longer a client side language it's not empowering
+      the server side as well like NodeJS and thanks for SocketIO we have more real
+      time apps than ever before. \n\nLike this Job posting :D it's clearly people
+      has a really big misconception in Javascript :D"
+    id: '875775379128838'
+  - created_time: '2015-01-06T11:21:00+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Mohammad Tayseer Loved the Sarcasm Talk you shared :D https://www.destroyallsoftware.com/talks/wat
+    id: '875777395795303'
+  - created_time: '2015-01-06T11:37:39+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      It took me a long time to get how inheritence gets hacked in JS and I really didn't like it, it's not easy to wrap your head around prototypes compared to inheritence in other languages (like C# and Java).
+      And I really don't like the lack of meaningful errors/exceptions and how sometimes "undefined" propagates everywhere.
+      This all lead to a very bad experience when trying to make a simple 2D game with HTML5 Canvas.
+      I know that I could use libraries to make things easier, but this just shows that the language itself on its own isn't well made.
+    id: '875787355794307'
+  - created_time: '2015-01-06T14:11:36+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Hassan Aly Selim & Mohamed Samy  listen to this short talk https://www.youtube.com/watch?v=Rj49rmc01Hs
+    id: '876013442438365'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGMxTVRnME5USTVNVGczT1RJek9qRTBNakEwTnprMk5qVT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGMyTURFek5EUXlORE00TXpZAMU9qRTBNakExTlRNME9UWT0ZD

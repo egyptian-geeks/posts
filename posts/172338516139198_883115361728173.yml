@@ -10,3 +10,64 @@ updated_time: '2015-01-19T15:37:14+0000'
 name: PHP code - 14 lines - codepad
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/883115361728173/
 id: '172338516139198_883115361728173'
+comments:
+  data:
+  - created_time: '2015-01-19T14:34:18+0000'
+    from:
+      name: Husamuddin Hamad
+      id: '1566613306769040'
+    message: انا لقيت دا http://stackoverflow.com/questions/6608613/are-objects-in-array-passed-by-reference
+      بس معرفش دا مفروض يفيدني بأية
+    id: '883115848394791'
+  - created_time: '2015-01-19T14:43:02+0000'
+    from:
+      name: Eslam Salem Mahmoud
+      id: '10157134145555299'
+    message: "بص يا سيدي\nالمشكلة ان عندك 2 array اللي هما a1 و a2\nو الاتنين جواهم
+      نفس الكلاس اللي اسمها object \nو انت لما جيت غيرت , غيرت الكلاس , فعلشان كده
+      اتغيرت في الاتنين array\n\nيعني المشكلة ان ال object هوه نفسه جوه الاتنين arrays
+      مش clone منه"
+    id: '883118148394561'
+  - created_time: '2015-01-19T14:51:48+0000'
+    from:
+      name: Shady Atef
+      id: '10213518317565801'
+    message: "The language overall passes objects by reference, \nIf you want to do
+      a copy use clone, http://php.net/manual/en/language.oop5.cloning.php\n\nNote
+      : PHP just shallow clones object properties ,"
+    id: '883123048394071'
+  - created_time: '2015-01-19T15:04:14+0000'
+    from:
+      name: Husamuddin Hamad
+      id: '1566613306769040'
+    message: |-
+      دا اللي وصلتله
+      http://codepad.org/PeNhE9xA
+      في حاجة زي دي بتتحصل مع ال javascript  وبحلها كدة
+      http://codepen.io/anon/pen/RNVojN
+      كنت اتنمنا لو مضطرش اني اعمل loop علي كل object واعمله clone
+    id: '883127118393664'
+  - created_time: '2015-01-19T15:04:46+0000'
+    from:
+      name: Husamuddin Hamad
+      id: '1566613306769040'
+    message: شكرا يا رجالة :)
+    id: '883127451726964'
+  - created_time: '2015-01-19T15:37:14+0000'
+    from:
+      name: Shady Atef
+      id: '10213518317565801'
+    message: "5le balk bs men shallow & deep cloning \n3shan mmoken w enta msh wa5ed
+      balk tla2eek z3lt"
+    id: '883136131726096'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGd6TVRFMU9EUTRNemswTnpreE9qRTBNakUyTnpnd05UZAz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGd6TVRNMk1UTXhOekkyTURrMk9qRTBNakUyT0RFNE16UT0ZD
+attachments:
+  data:
+  - target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fcodepad.org%2FXruSYd0r&h=ATPxi8VauQ25uq1Zi8C4Vb7QuII3yxNAFHv-RipTT-8CcgZXk2QJyjViM7M0zRFVfm0DgOyF8wQ6c3RNHv7ih6LdFv9ezOx_VrhQ&s=1&enc=AZPeD5AqzbZRqZ8EVMeKu_FZ5JBEqYACZ6ZuKj85ooeShq5bz98WEwo1iUT2TX1gGtAjAUwPzoz9y4ZDfJbugS5U
+    title: PHP code - 14 lines - codepad
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fcodepad.org%2FXruSYd0r&h=ATPxi8VauQ25uq1Zi8C4Vb7QuII3yxNAFHv-RipTT-8CcgZXk2QJyjViM7M0zRFVfm0DgOyF8wQ6c3RNHv7ih6LdFv9ezOx_VrhQ&s=1&enc=AZPeD5AqzbZRqZ8EVMeKu_FZ5JBEqYACZ6ZuKj85ooeShq5bz98WEwo1iUT2TX1gGtAjAUwPzoz9y4ZDfJbugS5U

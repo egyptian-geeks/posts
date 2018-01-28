@@ -12,3 +12,98 @@ name: 'eventtus: Discover interesting events, concerts and festivals. Organize g
   events and sell...'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/745469245492786/
 id: '172338516139198_745469245492786'
+comments:
+  data:
+  - created_time: '2014-05-12T21:46:08+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: مبروك :) هل مسموح لنا بالنقد؟
+    id: '745507412155636'
+  - created_time: '2014-05-12T21:53:29+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: |-
+      LOL ايه يا عم بس :D
+      لما صاحب الشأن يقول بس :)
+    id: '745514665488244'
+  - created_time: '2014-05-12T21:56:53+0000'
+    from:
+      name: Mohammed Morsi
+      id: '10216137430288057'
+    message: 3alatol keda :D ... do whatever you want if it's in purpose of improving
+      ... Also this is just the start, a lot of work is still ahead of me
+    id: '745522418820802'
+  - created_time: '2014-05-12T22:17:05+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: |-
+      I am not a troll so don't worry :)
+      My comment are purely on code ...
+      1- There is something wrong with your "build" process ...If you checked the HTML you will find comments that should be handled by Grunt's usemin task  <!-- build:js --> , <!-- build:CSS --> ... I am sure you know what these are supposed to do.
+      2- You are using the whole set of Modernizr's features on the homepage ... You are supposed to generate a custom version containing the features you are using. That's 50Kb of features you don't need. You should only be using to test the features you are going to need. Or you can automate the process using Grunt-modernizr which is supposed to be a part of Grunt's tasks.
+      3- Modernizr isn't included in the internal pages at all ... Do you really need it on the homepage?
+      4- You are an awesome guy following the recommendations and using only one CSS file ... but you created a file for the homepage and another one for the internals *both* of them containing Bootstrap's CSS. This is adding 200KB on your users. Best thing is to revise that and merge the 2 files. Also Normalize ...
+      5- You are not using all Bootstrap features ... You are using like 30% of it ... Why are you using the whole library? That's a huge performance hit.
+      Personal note: I hate scroll hijacking no matter how beautiful is it done
+      Design note: When viewing the landing page on iPhone, the graphics for eventuts doesn't fit well with the rest of the components.
+    id: '745547935484917'
+  - created_time: '2014-05-12T22:18:17+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: My thought is ... You rushed with launching and you missed those tiny
+      things that the users won't see :) I am sure you were going to address these
+      in the future ... Am just highlighting them because you know ... I am looking
+      for attention :D LOL
+    id: '745548182151559'
+  - created_time: '2014-05-12T22:33:41+0000'
+    from:
+      name: Mohamed Sameeh Sharaf
+      id: '2167550119925504'
+    message: أنا شوفت اللوجو دا فين قبل كدا
+    id: '745552268817817'
+  - created_time: '2014-05-13T09:29:30+0000'
+    from:
+      name: Mohammed Morsi
+      id: '10216137430288057'
+    message: Ahmad Alfy yeah I'm aware of all of what u said but about bootstrap I
+      didn't include it all ... Ahmad Abd-Elghany alright I'll see what can I do ...
+      Thanks for ur feedback
+    id: '745729458800098'
+  - created_time: '2014-05-13T10:36:41+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: Check css files... it is imcluded
+    id: '745746142131763'
+  - created_time: '2014-05-14T09:04:32+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: "I would recommend removing the 'fullPage-nav' if you make a lil-scroll
+      with a normal mouse it will not slide to the next section. \n\nthere is a HUGE
+      waiting time \"663.590ms\"\n\nYou are using jQuery twice (http://eventtus.com/js/js/bower_components/jQuery/dist/jquery.min.js?1399980062
+      & http://eventtus.com/js/js/bower_components/jQuery/dist/jquery.js )"
+    id: '746236485416062'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOelExTlRBM05ERXlNVFUxTmpNMk9qRXpPVGs1TXpFeE5qZAz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOelEyTWpNMk5EZAzFOREUyTURZAeU9qRTBNREF3TlRneU56ST0ZD
+attachments:
+  data:
+  - description: eventtus helps you make the most out of every moment. Discover great
+      events before they happen, or organize your own and make it a success.
+    media:
+      image:
+        height: 677
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQDHgsjnirHkkpmo&w=720&h=720&url=http%3A%2F%2Feventtus.com%2Fcss%2Fimages%2Flanding%2Fmacbook.png%3F1399924232&cfs=1&_nc_hash=AQA_aA9WzDojTQOr
+        width: 677
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Feventtus.com%2F&h=ATMKyEHOcBYfw3pnd6YZH6urPP4Uu_4EtXhG6qvvKP2_8xpK5Iw1BpR9t-Bbh2uTmjSn48_i5ozcM3oEgSUnKIO8b12vXuhIyWsu&s=1&enc=AZM5nkmT6ijljot7hAdbjPhCZFrOP9UiGR3MAcQUzIuHPdfJnvMh0Xkei_4huwAtyZwLdDOfyG4GnFk0wsq8vEuJ
+    title: 'eventtus: Discover interesting events, concerts and festivals. Organize
+      great events and sell...'
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Feventtus.com%2F&h=ATMKyEHOcBYfw3pnd6YZH6urPP4Uu_4EtXhG6qvvKP2_8xpK5Iw1BpR9t-Bbh2uTmjSn48_i5ozcM3oEgSUnKIO8b12vXuhIyWsu&s=1&enc=AZM5nkmT6ijljot7hAdbjPhCZFrOP9UiGR3MAcQUzIuHPdfJnvMh0Xkei_4huwAtyZwLdDOfyG4GnFk0wsq8vEuJ

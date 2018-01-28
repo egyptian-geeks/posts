@@ -9,3 +9,85 @@ created_time: '2014-07-17T13:53:57+0000'
 updated_time: '2014-07-17T17:56:14+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/784889388217438/
 id: '172338516139198_784889388217438'
+comments:
+  data:
+  - created_time: '2014-07-17T14:00:44+0000'
+    from:
+      name: Ahmed Saleh
+      id: '10159933379005574'
+    message: What kind of performance you're trying to measure ? Reading/Writing data?
+      By far SSDs are the fastest of course, they have no mechanical structure, as
+      a pure analog control circuits, but SSDs are pure digital, and their SATA interface
+      speed SATA, > 1.5 Gbit/s.
+    id: '784892164883827'
+  - created_time: '2014-07-17T14:01:27+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Of course I'm not asking whether SSDs are faster :D :D
+    id: '784892341550476'
+  - created_time: '2014-07-17T14:03:06+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: It used to be said that sort of physical load distribution happens when
+      you run things on multiple partitions, that is less than multiple physical disks,
+      and is more than a single partition. I was wondering whether the same wisdom
+      applies to SSDs, and whether it applies to virtual disks as well (Hyper-V in
+      particular, if it makes a difference).
+    id: '784892928217084'
+  - created_time: '2014-07-17T14:03:12+0000'
+    from:
+      name: Ahmed Saleh
+      id: '10159933379005574'
+    message: I don't know why would partitioning disks can increase the performance
+      ? maybe someone elaborate the technical idea behind that.
+    id: '784892984883745'
+  - created_time: '2014-07-17T14:03:16+0000'
+    from:
+      name: Omar Sabet
+      id: '10157028049108496'
+    message: Partitioning has little real world significance in terms of performance...
+      if you want that you should look for RAID configs or SSDs or the 10krpm HDDS
+    id: '784893048217072'
+  - created_time: '2014-07-17T14:05:43+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: To be more specific, I have a Hyper-V VM (VPS), with SSD disk, I was
+      wondering whether I'd gain any performance by partitioning it, or not worth
+      it (with backup / disaster recovery aside for this question).
+    id: '784893841550326'
+  - created_time: '2014-07-17T14:06:17+0000'
+    from:
+      name: Omar Sabet
+      id: '10157028049108496'
+    message: Short answer, no! but you can try it out and run some benchmarks.. the
+      difference will mainly be synthetic.
+    id: '784894014883642'
+  - created_time: '2014-07-17T14:07:14+0000'
+    from:
+      name: Ahmed Saleh
+      id: '10159933379005574'
+    message: I don't think so, SSDs their own structure (memory mapped), lets you
+      to read the data very fast regardless of the partitions. basically consider
+      your SSD is just a normal Flash Memory.
+    id: '784894364883607'
+  - created_time: '2014-07-17T14:08:46+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: I'm kind of leaning towards "No" as well. For being a virtual disk more
+      than for being SSD, but needed validation from someone else, not to just depend
+      on guessing.
+    id: '784894884883555'
+  - created_time: '2014-07-17T17:56:14+0000'
+    from:
+      name: Mahmoud Refaat
+      id: '10159882193515635'
+    message: No. Partitioning will not increase performance.
+    id: '784968758209501'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemcwT0RreU1UWTBPRGd6T0RJM09qRTBNRFUyTURVMk5EUT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemcwT1RZANE56VTRNakE1TlRBeE9qRTBNRFUyTVRrM056UT0ZD

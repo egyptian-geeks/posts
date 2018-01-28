@@ -8,3 +8,22 @@ created_time: '2013-06-13T16:29:48+0000'
 updated_time: '2013-06-13T16:33:43+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/578870092152703/
 id: '172338516139198_578870092152703'
+comments:
+  data:
+  - created_time: '2013-06-13T16:33:43+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: "The FileReader API is only available as of Safari 6.0 http://caniuse.com/filereader\n
+      \ \nSo, no, unfortunately since Apple dropped support for Safari on Windows
+      I do't think there is a way to get it to work \"as is\".  \n  \nHowever, if
+      it's important for you to have this functionality in all browsers, you could
+      test for the availability of the FileReader API:  \n\nif(window.FileReader)
+      {   //do this\n} else {\n   //the browser doesn't support the FileReader Object,
+      so do this\n}\n  \nThen, if it is not supported, you could POST the file via
+      AJAX to a simple PHP/ASP.NET/RUBY script, which would then echo back the contents."
+    id: '578871108819268'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOVGM0T0RjeE1UQTRPREU1TWpZANE9qRXpOekV4TkRFeU1qTT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOVGM0T0RjeE1UQTRPREU1TWpZANE9qRXpOekV4TkRFeU1qTT0ZD

@@ -13,3 +13,51 @@ updated_time: '2015-10-07T16:18:22+0000'
 name: AskaoAhmedSaad/WeekDayTitleInMultiLanguages
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1016194608420247/
 id: '172338516139198_1016194608420247'
+reactions:
+  data:
+  - id: '1784664158235103'
+    name: Abdelrhman Ahmed
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdOelEyTURnM05qZAzJPakUwTkRReU1Ea3dNRFk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXdOelEyTURnM05qZAzJPakUwTkRReU1Ea3dNRFk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2015-10-07T15:32:03+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      1- Don't reinvent the wheel. Arrow will do this for you (http://crsmithdev.com/arrow/#humanize). Our friend Mosab Ahmad added Arabic support for it
+
+      2- Use a dictionary instead of "if language == 'afr'", then your function will be just "weekdays[][day_date.weekday()]"
+
+      3- No need for an Weekday class. A function is enough.
+
+      4- You're not using consistent language codes. Make it consistent.
+    id: '1016380695068305'
+  - created_time: '2015-10-07T16:18:22+0000'
+    from:
+      name: Askao Ahmed Saad
+      id: '10213786857415913'
+    message: I didn't see Arrow module before, dictionary idea is good thanks :)
+    id: '1016395408400167'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF4TmpNNE1EWTVOVEEyT0RNd05Ub3hORFEwTWpNeE9USXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF4TmpNNU5UUXdPRFF3TURFMk56b3hORFEwTWpNME56QXoZD
+attachments:
+  data:
+  - description: WeekDayTitleInMultiLanguages - python module to get weekday in multi
+      languages
+    media:
+      image:
+        height: 400
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAITVVj9PibS6G9&w=400&h=400&url=https%3A%2F%2Favatars1.githubusercontent.com%2Fu%2F8887950%3Fv%3D3%26s%3D400&cfs=1&sx=0&sy=0&sw=400&sh=400&_nc_hash=AQAilr7NxiNrMQGF
+        width: 400
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2FAskaoAhmedSaad%2FWeekDayTitleInMultiLanguages&h=ATNJ562uPWtWuInDnZ-pIn-zcVMKRImkhK3eanBPIsIeBF14v6inH2TKn-4YFXHI9nSKaqeES1i5f0kHodI4R1sGy2rBsrhX6Np-&s=1&enc=AZOK7aHWrwSK4jYFlCnnbePA0y3bhC3T4Q6Nlok60jw-l_68qaxyz-BCYrjoFH3QX4YykdcsJHS8U16-ko1FRnnA
+    title: AskaoAhmedSaad/WeekDayTitleInMultiLanguages
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2FAskaoAhmedSaad%2FWeekDayTitleInMultiLanguages&h=ATNJ562uPWtWuInDnZ-pIn-zcVMKRImkhK3eanBPIsIeBF14v6inH2TKn-4YFXHI9nSKaqeES1i5f0kHodI4R1sGy2rBsrhX6Np-&s=1&enc=AZOK7aHWrwSK4jYFlCnnbePA0y3bhC3T4Q6Nlok60jw-l_68qaxyz-BCYrjoFH3QX4YykdcsJHS8U16-ko1FRnnA

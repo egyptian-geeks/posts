@@ -17,8 +17,210 @@ from:
   name: Muhammad Sherbeeny
   id: '10159810258355527'
 type: photo
-picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/10999769_10155229015880527_6509758889449106229_n.jpg?oh=59ffaedf6c6b84bc5933635e06699e14&oe=5AF3E406
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/10999769_10155229015880527_6509758889449106229_n.jpg?oh=d487ac6439b5a913aff47321896a1f9f&oe=5B1B7106
 created_time: '2015-02-24T12:50:55+0000'
 updated_time: '2015-02-25T16:26:05+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/900248696681506/
 id: '172338516139198_900248696681506'
+reactions:
+  data:
+  - id: '10210172319016618'
+    name: Mohamed Hagras
+    type: LIKE
+  - id: '1763959737010749'
+    name: Ahmed Mahmoud
+    type: LIKE
+  - id: '1752209668156568'
+    name: Mohamed K. Fathy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRVNU9ESXpNalU1TnpveE5ESTBPRFV6TnpBMU9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBd01EQXhNREkyTlRVNE5URXpPakUwTWpRM09EUXhNalU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2015-02-24T12:52:54+0000'
+    from:
+      name: Amjad Mashaal
+      id: '10213738834576763'
+    message: اظن انها مش هتشوف كدة كدة
+    id: '900249290014780'
+  - created_time: '2015-02-24T13:02:12+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: I believe the ISP does not see beyond your router. I do not have specific
+      networks knowledge, but I believe it would not be possible to acquire specific
+      details about your internal network without a device on that network being a
+      snitch.
+    id: '900258103347232'
+  - created_time: '2015-02-24T13:03:00+0000'
+    from:
+      name: Amjad Mashaal
+      id: '10213738834576763'
+    message: "^ Exactly"
+    id: '900258326680543'
+  - created_time: '2015-02-24T13:04:04+0000'
+    from:
+      name: Ahmed Koraïem
+      id: '10159879865770402'
+    message: الآي اس بي يقدر يعرف ان في اجهزة مختلفة بتخش من الراوتر من خلال بيانات
+      الجهاز ومش الآي بي آدرس بتاعه.. البديل انك تستعمل vpn.. غير كده ممكن يعرفوا
+      بالتقريب عدد الاجهزة اللي بتستخدم الكونكشن عندك، وان كنت لا اعتقد انهم بيعملوا
+      كده بشكل اعتيادي
+    id: '900258610013848'
+  - created_time: '2015-02-24T13:04:50+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: You mean the router itself reports back information about connected devices?
+    id: '900258803347162'
+  - created_time: '2015-02-24T13:07:29+0000'
+    from:
+      name: Ibrahim Hammad
+      id: '10154919620001486'
+    message: I don't have much networking skills. However, the ISP has access to your
+      router that they have given to you and from it they can know all the devices
+      connected to this network directly. To achieve what you need,  you may start
+      by adding a new router behind the their router in this case the new router will
+      give the devices their ips and will appear on the company router as one device.
+    id: '900259396680436'
+  - created_time: '2015-02-24T13:08:01+0000'
+    from:
+      name: Ahmed Koraïem
+      id: '10159879865770402'
+    message: Nop.. the router does nothing more than "route" the packets, but these
+      packets could contain your browser's user agent, computer name, operating system,
+      and in some cases your internal IP address.
+    id: '900259546680421'
+  - created_time: '2015-02-24T13:10:57+0000'
+    from:
+      name: Ibrahim Hammad
+      id: '10154919620001486'
+    message: اللي انت عملته ده تقريبا هو المطلوب بس انت صعبتها بوجود كمبيوتر و معرفش
+      هيفرق في السرعه و لا لأ. انا شايف الافضل جهاز روتر تاني يخفى الشبكه اللي وراه.
+    id: '900260253347017'
+  - created_time: '2015-02-24T13:31:39+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: |-
+      Ahmed Koraïem, makes sense, did not think of that.
+
+      Ibrahim Hammad, I believe having an extra router/server will not solve the issue of "extra" information available in packets.
+    id: '900266390013070'
+  - created_time: '2015-02-24T13:35:34+0000'
+    from:
+      name: Ibrahim Hammad
+      id: '10154919620001486'
+    message: Ahmed Al-Amir you are right. But at least the ISP won't have the information
+      easily from the router. He has to track for sometime to be able to figure out
+      how many devices are connected at this point of time.
+    id: '900267426679633'
+  - created_time: '2015-02-24T13:53:20+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: طالما في بيت عيلة ميقدروش يقولولك حاجة.
+    id: '900272486679127'
+  - created_time: '2015-02-24T21:43:55+0000'
+    from:
+      name: Mohamed Samir
+      id: '1579793612127821'
+    message: 'I have a small experience with mikrotik servers, I think there is some
+      kind of encryption layer on the server that send encrypted data throu the router,
+      since its encrypted data, the isp won''t know anything about it except the size.
+      the $6.000.000 question: HOW? sadly, I don''t know'
+    id: '900447089995000'
+  - created_time: '2015-02-25T03:43:56+0000'
+    from:
+      name: Muhammad Sherbeeny
+      id: '10159810258355527'
+    message: |-
+      I posted my concern on pfSense community and got this:
+
+      They are probably judging your LAN size based on either bandwidth use or number of DNS queries.
+
+      You can use pfsense as your DNS server instead of their provided DNS servers but good luck hiding bandwidth use from them.
+
+      If you are on pfsense 2.2 and did a fresh install of pfsense 2.2 pfsense is your DNS server by default.
+
+      If not, you have to turn off dns forwarder in 2.2, turn on dns resolver so that all the queries hit pfsense and pfsense will query the root dns servers on the web.
+
+      Ref:
+      https://forum.pfsense.org/index.php?topic=89370
+    id: '900565266649849'
+  - created_time: '2015-02-25T06:01:15+0000'
+    from:
+      name: Ayman
+      id: '1759633657666331'
+    message: |-
+      Router performs IP natting which should hide your internal network from your ISP if they don't have access to your router, however more information can be obtained by analyzing network layer 7 information (user agent header ...).
+      You can use a proxy that rewrites all http user agent headers or better go with either TOR box or a VPN service, but it may affect your connection speed (specially TOR box)
+    id: '900618423311200'
+  - created_time: '2015-02-25T14:35:59+0000'
+    from:
+      name: Hosam Aly
+      id: '1657509230977456'
+    message: |-
+      Any router should be able to give an admin (via a web interface or telnet) a list of the MAC addresses connected to it and the IPs assigned to them (a.k.a. ARP table). If you use an access point or another router in bridged mode, then all your machines are exposed to that router.
+
+      Even if you use multiple non-NAT routers to serve different subnets within your LAN, I think the ARP table in all the routers would contain entries for all the machines.
+
+      If you use another NAT router behind your main router, then supposedly only the internal router knows about the connected machines, which all appear as a single device (the internal router) to the main router.
+
+      However, you're still subject to tracing techniques like those mentioned by Ahmed Koraïem and Ayman. You may be able to work around these using a proxy, but you'll have to configure it to proxy all kinds of communication, including HTTPS.
+
+      I would guess that what would really expose you are apps that use UPnP (e.g. torrent apps). I'm not familiar with the technology, but I think that the kind of packets it exposes would show the different devices you have.
+    id: '900759099963799'
+  - created_time: '2015-02-25T16:23:03+0000'
+    from:
+      name: Mina Montaser Youssef
+      id: '1803160183081119'
+    message: بكل بساطه انتا بتستهلك كميه كبيره من البندودز وعشان كده انتا بقيت تارجت
+      وهوا لما بيدخل على الروتر بيقدر يشوف الاجهزة اللي عندك على النتورك بس طلما انتا
+      مش بتكونكت بشكل مباشر على الروتر يبقى هو مش حيقدر يعرف بس بشكل بسيط فتح الروتر
+      وعرف ان فيه حاجه واحده بس كونكتد عليه وبتبعتله انكربتد بكت بمعنى اصح اي فير
+      واال بتعمل نات وتخفي الشبكه اللي واراها وبالتالي خمن ان فيه فير والل عندك بعد
+      الروتر وحاول يفتح اللي متوصل على الروتر وهنا كانت الشك يتحول الي يقين بف سنس
+      من ال اوبن سورس فير والل فاكيد الشخص اللي موصل حاجه زي ديه غنده يبقى بيقسم ويبيع
+      النت يبقى زي ما انتا بتقوول
+    id: '900794033293639'
+  - created_time: '2015-02-25T16:26:05+0000'
+    from:
+      name: Mina Montaser Youssef
+      id: '1803160183081119'
+    message: حكايت انك في بيت عيله والكلام ده مش صح بصراحه رغم ان تكلفة النت في مصر
+      غاليه جداً عن برا وسرعه رديئه  بس هما عملوا كده مخصوص عشان خاطر سيدتك يعني لو
+      كنا قتلناك انت وال 6 % مكنش حصل فينا كده ههههههههههههههههه لا طبعاً هما المفروض
+      انهم ملهمش دعوه نهائي بالموضوع انتا متعاقد على سرعة يبقى تخدها  انشا اللـه حاطت
+      100 جهاز في البيت طلما مش شركة المفروض يعملوا كده على الشركات مش البيوت
+    id: '900794853293557'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEF3TWpRNU1qa3dNREUwTnpnd09qRTBNalEzT0RJek56UT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEF3TnprME9EVXpNamt6TlRVM09qRTBNalE0T0RFMU5qVT0ZD
+attachments:
+  data:
+  - description: |-
+      ازاي اخفي عدد اجهزة الشبكة المحلية عندي عن شركة الانترنت؟
+
+      انا في بيت عيلة وعددنا كبير... وحصلت مشكلة مع لينك انتهت بإني لغيت اشتراكي معاهم
+      تفاصيل المشكلة هنا:
+      https://www.facebook.com/groups/Dont.shop.here/permalink/10155245293045338
+
+      المهز... اني من زمان عامل سيرفر في البيت لتقسيم السرعات عشان محدش يسحب سرعة عالية تبطئ النت عند الباقيين
+
+      النظام اللي بستخدمه اسمه pfSense
+
+      حد يعرف ازاي اخلي شركات الانترنت ماتشوفش الاجهزة اللي واخدة من السيرفر ده؟
+    media:
+      image:
+        height: 720
+        src: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/10999769_10155229015880527_6509758889449106229_n.jpg?oh=bf4164448203d49358c08c97b6821275&oe=5ADD3B0B
+        width: 540
+    target:
+      id: '10155229015880527'
+      url: https://www.facebook.com/photo.php?fbid=10155229015880527&set=gm.900248696681506&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=10155229015880527&set=gm.900248696681506&type=3

@@ -12,3 +12,52 @@ created_time: '2013-03-17T18:53:27+0000'
 updated_time: '2013-03-17T20:21:20+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/542847979088248/
 id: '172338516139198_542847979088248'
+comments:
+  data:
+  - created_time: '2013-03-17T18:56:15+0000'
+    from:
+      name: Eslam Hamouda
+      id: '10212947071504226'
+    message: "The API won't return an email address to you. If you're interested in
+      a user's email address, you'll have to ask the user for it within your own application
+      as a completely distinct act. \nhttps://dev.twitter.com/discussions/4019"
+    id: '542848822421497'
+  - created_time: '2013-03-17T20:09:44+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: "+1 to Eslam. This is how it used to be for very long time. I had an
+      application completely built around emails, allows users to automate sending
+      tweets to lists of emails."
+    id: '542871932419186'
+  - created_time: '2013-03-17T20:10:07+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: We show a notification to the user once logged in (in the app) to tell
+      them the value of adding their email (in this case we set the emails as reply-to
+      addresses to the emails we send). Your app may do it differently, so for example
+      may make it part of the registration process.
+    id: '542872019085844'
+  - created_time: '2013-03-17T20:15:39+0000'
+    from:
+      name: Ahmed Al-Bagalaty
+      id: '10214955013179388'
+    message: Can i have a sample Mohamed Meligy ??
+    id: '542873512419028'
+  - created_time: '2013-03-17T20:19:03+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: http://tweettoemail.com
+    id: '542874295752283'
+  - created_time: '2013-03-17T20:21:20+0000'
+    from:
+      name: Ahmed Al-Bagalaty
+      id: '10214955013179388'
+    message: Thanks Mohamed Meligy :)
+    id: '542874899085556'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOVFF5T0RRNE9ESXlOREl4TkRrM09qRXpOak0xTkRZAMU56VT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOVFF5T0RjME9EazVNRGcxTlRVMk9qRXpOak0xTlRFMk9EQT0ZD

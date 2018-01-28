@@ -26,3 +26,109 @@ created_time: '2015-03-16T20:38:42+0000'
 updated_time: '2015-03-17T16:03:30+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/910412578998451/
 id: '172338516139198_910412578998451'
+reactions:
+  data:
+  - id: '10215282097155427'
+    name: Mohamed Ali Abuelwafa
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRVeU5EY3hOVFE1TlRveE5ESTJOVE01TlRJNE9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRVeU5EY3hOVFE1TlRveE5ESTJOVE01TlRJNE9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2015-03-16T23:31:35+0000'
+    from:
+      name: Mohamed Ali Abuelwafa
+      id: '10215282097155427'
+    message: |-
+      I dont think its a good idea to make more than one website in one git repo. Bitbucket is an alternative which provides unlimited private repos and if  you can develop the whole website publicly then github is even better.
+      For big projects you can make your project-specific deploy scripts along with the use of post commit hooks to move your code from the repo to the hosting server (Research more on the topic of git workflows, bitbucket help is a great resource for this topic).
+      git-ftp is a useful command line tool to push files through git if I dont have full ssh access to the server (maybe old websites on shared hosting).
+      consider fitting grunt/gulp, and bower into your workflow to automate most of the repetitve tasks during development.
+      Finally, your development workflow will be constantly evolving because tools come and go. So introduce new tools to your workflow as long as you see the value they provide to your project.
+    id: '910463402326702'
+  - created_time: '2015-03-17T05:29:27+0000'
+    from:
+      name: Ian Douglas
+      id: '10156434357078690'
+    message: Thanks for the feedback. The reason I was looking to stay within Beanstalk
+      was both to skirt around FTP (i.e., cut out a stage), but also for the GUI.
+      I'm one of those (yes, I know) that tries to avoid the command line when I can.
+      But perhaps I can find a way to integrate that function with Alfred, which is
+      great for keyword or trigger scripting. I agree that it's better to have domains
+      in their own repositories. Thanks for the other hints, Mohamed. You're right
+      about tools continually evolving. No doubt in a year or two something will replace
+      Vagrant, even.
+    id: '910595318980177'
+  - created_time: '2015-03-17T09:28:41+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: I havent tried beanstalk before, but have you tried Jenkins/Hudson for
+      deploying through a UI
+    id: '910667505639625'
+  - created_time: '2015-03-17T09:29:03+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: It will be a pain in the butt to configure at first, but it will be only
+      done once and then you can easily copy and paste.
+    id: '910667572306285'
+  - created_time: '2015-03-17T09:30:16+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: http://jenkins-ci.org/
+    id: '910667885639587'
+  - created_time: '2015-03-17T09:30:23+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: http://hudson-ci.org/
+    id: '910667908972918'
+  - created_time: '2015-03-17T09:44:24+0000'
+    from:
+      name: Ian Douglas
+      id: '10156434357078690'
+    message: Thanks for that, Mosab. I'll look into it
+    id: '910672172305825'
+  - created_time: '2015-03-17T15:51:50+0000'
+    from:
+      name: Amjad Mashaal
+      id: '10213738834576763'
+    message: If you're into GIT repos with automatic deployment you might need to
+      check GitLab and post-hooks. GitLab is a free opensource GIT repository wrapper
+      with a quite neat web interface, just throw it on a 1 GB RAM instance from Linode,
+      DigitalOcean or Amazon, and it'll do the job. Using post-hooks is a dirty way
+      to do deployment, so if you'd rather go with Jenkins then you would actually
+      opt the better option.
+    id: '910797785626597'
+  - created_time: '2015-03-17T15:57:20+0000'
+    from:
+      name: Amjad Mashaal
+      id: '10213738834576763'
+    message: Also, GIT command-line is really, really user-friendly. I do know what
+      you're talking about, command-line usually sucks (and I won't even talk about
+      chmod), but GIT's nice.
+    id: '910799548959754'
+  - created_time: '2015-03-17T16:02:48+0000'
+    from:
+      name: Ian Douglas
+      id: '10156434357078690'
+    message: Many thanks, Amjad. At this point I'm really just beginning, so a GUI
+      interface like Tower (which is very nice also) helps me figure out what this
+      all is. But once I learn the basics, I hope I can move on to doing more in the
+      Terminal. It has many advantages, and I don't dislike the aesthetic. Above all,
+      it's hard to beat command line for speed
+    id: '910801062292936'
+  - created_time: '2015-03-17T16:03:30+0000'
+    from:
+      name: Amjad Mashaal
+      id: '10213738834576763'
+    message: Good luck then :D
+    id: '910801285626247'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEV3TkRZAek5EQXlNekkyTnpBeU9qRTBNalkxTkRnMk9UVT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEV3T0RBeE1qZAzFOakkyTWpRM09qRTBNalkyTURneU1UQT0ZD

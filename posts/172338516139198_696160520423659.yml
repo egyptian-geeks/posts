@@ -10,3 +10,193 @@ created_time: '2014-02-04T17:33:58+0000'
 updated_time: '2014-02-06T17:42:46+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/696160520423659/
 id: '172338516139198_696160520423659'
+reactions:
+  data:
+  - id: '10215070655377585'
+    name: Mahmoud Kandeel
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRFMk5qZA3hNVFkzTmpveE16a3hOVFEwTWprNE9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRFMk5qZA3hNVFkzTmpveE16a3hOVFEwTWprNE9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2014-02-04T17:52:10+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: what do you mean by clean out? remove duplicates for example?
+    id: '696166757089702'
+  - created_time: '2014-02-04T18:14:31+0000'
+    from:
+      name: Abdo Magdy
+      id: '10155273874266167'
+    message: Mostly remove emails that's invalid, emails that's not working which
+      will result in a failure notice if sent. That usually affect the reputation
+      of the sender.
+    id: '696175937088784'
+  - created_time: '2014-02-04T18:23:01+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: well, it's fairly easy to check for for the valid emails, I could write
+      a script for that, but checking for the ones that aren't working isn't that
+      easy, any ideas?
+    id: '696178753755169'
+  - created_time: '2014-02-04T18:27:21+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: on second thought, the script could telnet the email exchanger for each
+      domain and check if the address exists, but for such large number of emails
+      will take forever to execute
+    id: '696180347088343'
+  - created_time: '2014-02-04T18:34:15+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: "Abdelrahman been a long time buddy :) quick question, has the email
+      list been tried out? Sent any emails yet? \nIf not, then I'm afraid whether
+      an email address is reachable or not will be hard to discover early on but let
+      me look it up. In general, you need to wait till an email bounces off an address
+      multiple times to flag it.\n\nKareem Kashwaa a domain check won't need telnetting
+      anywhere, just a run through a whois will be sufficient, looking up some dns
+      values (mx records) and some predefined mail configurations for popular mail
+      servers\n\n- Google apps\n- Microsoft live\n\nThen a tld extention check, that
+      can be done through a registar, fairly easy as well, most offer apis\nAnd finally
+      a regex rundown on the address\n\nThat ought to be sufficient for validation"
+    id: '696183067088071'
+  - created_time: '2014-02-04T18:39:21+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: Hady Ahmed It's not validation that I had in mind, checking for email
+      syntax correctness and if the domain exists is the easy part, checking if the
+      address exists on the domain requires telnetting the host I guess, correct me
+      if I'm wrong
+    id: '696186327087745'
+  - created_time: '2014-02-04T18:42:36+0000'
+    from:
+      name: Abdo Magdy
+      id: '10155273874266167'
+    message: |-
+      Thanks Hady and Kareem. I'm aware that there are various products for this kind of thing, only that it's quite expensive, you can check a list here: http://www.marketingtechblog.com/verify-email-lists/
+
+      That bit is that they are all quite expensive for my taste. Wouldn't pay couple of hundred bucks for something than can at least be done manually, you know.
+    id: '696187210420990'
+  - created_time: '2014-02-04T18:46:14+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: |-
+      Kareem Kashwaa Telnet is an overkill and implies an intention to establish a session. You can ping the domain name to check if it's reachable to begin with or not.
+
+      Abdelrahman Magdy  Don't sweat it, homegrown solution can be knocked up. What system are you running on top? Windows, Linux, Mac?
+    id: '696188253754219'
+  - created_time: '2014-02-04T18:51:21+0000'
+    from:
+      name: Abdo Magdy
+      id: '10155273874266167'
+    message: The server is ran by Linux, I'm on Windows Software.
+    id: '696189967087381'
+  - created_time: '2014-02-04T18:54:14+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: |-
+      Well, since we delved into it, Kareem Kashwaa In theory, you could also verify the existence of an email address at the host if it has any SMTP servers running. IIRC, SMTP had a verify command that'll do an address lookup and check if it has it or reachable to it.
+
+      Except most MTAs will have it turned off to prevent spam. You'd likely get blacklisted too. So truly the most cost efficient way is to wait until an email bounces multiple times before flagging it as dead.
+
+      Plus the additional validation techniques I mentioned above, from TLDs to regexs and pings.
+    id: '696190877087290'
+  - created_time: '2014-02-04T18:59:12+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: another point, even if you managed to verify the existence of an address,
+      you can never check for other factors that may prevent emails form arriving,
+      out of quota for say
+    id: '696192870420424'
+  - created_time: '2014-02-04T19:08:06+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: |-
+      That's why I mentioned to email it multiple times and watch it bounce before crossing it off.
+
+      Email address verification and validation is most possibly one of those 50 decade issues that are very less likely to be resolved into a single solution facade.
+
+      It's significance is far too important to allow a clear cut automated solution. It's already a serious hassle that it's well formatted (spammable). It's like getting an API to verify if your home address exists, if you are present at home now and your national ID represents a real person.
+
+      - Emails link directly to online identities and variations of personas that represent you (Twitter, Facebook, Work, University, Service X and Service Z)
+      - Emails are your direct identity (no different than a real life ID)
+      - The validity of an email is a likelihood indication that you are a real person who exists, on a personal level if we meet face to face I'll hand over an email or on in a more formal setting like here, I'm certainly "me" commenting for the most part. And on a business transaction level, you still verify "me" by emailing me a couple of emails (confirmation, welcome, follow up)
+
+      You can't just, automate it all. You shouldn't. Spammers will have a field day.
+    id: '696196187086759'
+  - created_time: '2014-02-04T19:11:27+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: Abdelrahman Magdy do you mind showing us a sample of the csv file with
+      real email addresses replaced by bogus emails like "foo@boo.com".
+    id: '696197480419963'
+  - created_time: '2014-02-04T19:13:07+0000'
+    from:
+      name: Abdo Magdy
+      id: '10155273874266167'
+    message: |-
+      That's the structure of the CSV file:
+
+      Email,First Name,Last Name
+      demo@demo.com,Bob,Smith
+      demo@example.com,Jane,Doe
+    id: '696198163753228'
+  - created_time: '2014-02-04T19:13:53+0000'
+    from:
+      name: Abdo Magdy
+      id: '10155273874266167'
+    message: With other tools it only requires emails in the CSV file, I can remove
+      "First Name" and "Last Name" columns, to join have a CSV file with a list of
+      email addresses.
+    id: '696198430419868'
+  - created_time: '2014-02-04T19:15:23+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: No sweat, the email can be extract alone. However, if you have an export
+      option to only export the addresses, that'll certainly save a few brain hops
+      and a bit of the environment :)
+    id: '696199090419802'
+  - created_time: '2014-02-04T19:16:30+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: values in your file enclosed in quotation marks?
+    id: '696199413753103'
+  - created_time: '2014-02-04T19:18:24+0000'
+    from:
+      name: Abdo Magdy
+      id: '10155273874266167'
+    message: No, I just added quotation marks in my comment to highlight the column
+      titles.
+    id: '696200053753039'
+  - created_time: '2014-02-04T19:52:57+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: care for a .net solution? checks for emails syntax, host reach-ability,
+      free and opensource?
+    id: '696212923751752'
+  - created_time: '2014-02-06T17:42:46+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: python can save you a lot of time processing this mailing list depending
+      on whatever you wanna achieve!
+    id: '697235383649506'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamsyTVRZAMk56VTNNRGc1TnpBeU9qRXpPVEUxTXpZAek16QT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamszTWpNMU16ZA3pOalE1TlRBMk9qRXpPVEUzTURnMU5qWT0ZD

@@ -17,3 +17,52 @@ created_time: '2015-01-26T14:12:37+0000'
 updated_time: '2015-01-27T02:57:55+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/886547634718279/
 id: '172338516139198_886547634718279'
+reactions:
+  data:
+  - id: '10156115350739764'
+    name: Mahmoud Tantawy
+    type: LIKE
+  - id: '2053503301601758'
+    name: علي قريطنة
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRFME5UYzVOell6T2pFME1qSXpNRFUwTlRnNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQTRNall6TWpNME9EWXdPakUwTWpJeU9UVTNORGc2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2015-01-26T14:43:02+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      I didn't complete the "Two Scoops of Django", but the answer might be there. Here are my recommendations
+
+      1- ModelManager is the DB abstraction layer. It's similar to the repository pattern which is popular in .net. As an example, if you want to implement soft-delete (where objects are not actually deleted, but a flag is set), you can do something like
+
+      Employees.objects.active()
+
+      `active` is a method on the model manager, which filters against the deleted flag. You can implement more methods in your manager to give a better API, e.g.
+
+      Route.objects.within_distance(station1, Distance(miles=1))
+
+      2- ModelForm is like the ViewModel pattern. There will be more than 1 ModelForm per model. Personally I prefer to put all of my validation in the model, but there are cases where the validation should be in the ModelForm itself. BTW you can use ModelForm with APIs as well, but you should use django-rest-framework instead
+
+      3- Business logic should be in the model itself. I believe in "thin controller, fat model"
+    id: '886558781383831'
+  - created_time: '2015-01-26T16:56:23+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: Look no more. Just follow this http://www.tangowithdjango.com/
+    id: '886609458045430'
+  - created_time: '2015-01-27T02:57:55+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: http://www.pluralsight.com/courses/django-fundamentals
+    id: '886833741356335'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGcyTlRVNE56ZA3hNemd6T0RNeE9qRTBNakl5T0RNek9EST0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGcyT0RNek56UXhNelUyTXpNMU9qRTBNakl6TWpjME56VT0ZD

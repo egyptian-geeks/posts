@@ -15,3 +15,131 @@ created_time: '2015-06-07T06:38:34+0000'
 updated_time: '2015-06-07T17:46:21+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/955273127845729/
 id: '172338516139198_955273127845729'
+reactions:
+  data:
+  - id: '2009299512663455'
+    name: Kareem Hatem
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTNOVEF5TnpZANU9EUTJPakUwTXpNMk5UazBPREU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTNOVEF5TnpZANU9EUTJPakUwTXpNMk5UazBPREU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2015-06-07T06:43:48+0000'
+    from:
+      name: Osama Soliman
+      id: '879271768900112'
+    message: 'I hv done a small trick in the #2 prob .. I hv placed a <h2> tag ...
+      so my items can temporarily appear correctly !'
+    id: '955274197845622'
+  - created_time: '2015-06-07T07:37:36+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: 1. It should be the icon next to the `x`. It has a small arrow / triangle
+      on the bottom right. Click and pull that to get the new-window button
+    id: '955285171177858'
+  - created_time: '2015-06-07T07:37:42+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: 2. I don't know Inoic (on my list as it's booming), but in similar frameworks,
+      you usually have to have some margin or padding to push the content after the
+      fixed position header
+    id: '955285197844522'
+  - created_time: '2015-06-07T07:37:46+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: 3. It's a JavaScript framework. The API doesn't build on a lot of JS
+      concepts at user front, so, it's not an absolute requirement, but JS is full
+      of gotchas, and you could fall into these with any JS framework even Angular.
+      Knowing these helps avoid wasting time pulling your hair because of something
+      that you just didn't know works in an illogical way.
+    id: '955285214511187'
+  - created_time: '2015-06-07T07:49:33+0000'
+    from:
+      name: Osama Soliman
+      id: '879271768900112'
+    message: |-
+      Mohamed Meligy thx for ur answers ^^
+      but 1. I need to seperate the dev tools completely in a new win ... the button u mentioned just changes the position of it  if horizontal or vertical in the same window
+
+      2. It's my first time using an UI framework I used to develop my apps completely from zero ... I tried overwriting the framework css by a style.css file and messing with some paddings or margins .. nothing happened !? so should I change the main css ?!!
+
+      3. JS is really weird :) ! u can't figure out where the problem easily .. so ur advice to knowing more JS concepts ? and trying again with AngularJS .. ^_^ !
+    id: '955287191177656'
+  - created_time: '2015-06-07T07:52:37+0000'
+    from:
+      name: Osama Soliman
+      id: '879271768900112'
+    message: ooooh Eureka !!
+    id: '955288197844222'
+  - created_time: '2015-06-07T07:55:53+0000'
+    from:
+      name: Osama Soliman
+      id: '879271768900112'
+    message: u "long click"  the icon ..  another icon appears click it .. u got a
+      separate window dev tools :D <3
+    id: '955288811177494'
+  - created_time: '2015-06-07T07:56:30+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: It does get new window if you notice the triangle I told you about and
+      press it instead of the button itself. You'll see another button of two intersecting
+      squares
+    id: '955288914510817'
+  - created_time: '2015-06-07T07:57:18+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: For 2, show me a fiddle of your html
+    id: '955288977844144'
+  - created_time: '2015-06-07T08:03:41+0000'
+    from:
+      name: Osama Soliman
+      id: '879271768900112'
+    message: http://jsfiddle.net/et1vz1sh/7/
+    id: '955289977844044'
+  - created_time: '2015-06-07T08:18:51+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: I'm on mobile and can't play with it until an hour or so. Have you tried
+      giving top padding to the container?
+    id: '955292691177106'
+  - created_time: '2015-06-07T08:22:15+0000'
+    from:
+      name: Osama Soliman
+      id: '879271768900112'
+    message: worked !! after adding some _'s !! :) !
+    id: '955293367843705'
+  - created_time: '2015-06-07T08:24:12+0000'
+    from:
+      name: Osama Soliman
+      id: '879271768900112'
+    message: and also worked after padding for the whole container <3
+    id: '955293737843668'
+  - created_time: '2015-06-07T10:39:48+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: http://jsfiddle.net/Meligy/et1vz1sh/9/
+    id: '955334924506216'
+  - created_time: '2015-06-07T17:46:21+0000'
+    from:
+      name: Osama Soliman
+      id: '879271768900112'
+    message: "Oh frameworks :) ! for lazy professional coders ^^.. it's like dragging
+      and dropping !! Saves time incredibly\nThis application supposed to : \n1. Shows
+      cv the good way\n2. Remotly update it with my new skills ...\n3. Push notification
+      when I achieve something remarkable \n\nAlpha release .. Still working on it
+      .. the android api 22 took me a lot of time while downloading .. it's necessary
+      to compile the ionic app .."
+    id: '955458571160518'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFUxTWpjME1UazNPRFExTmpJeU9qRTBNek0yTlRrME1qZAz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFUxTkRVNE5UY3hNVFl3TlRFNE9qRTBNek0yT1RreE9ERT0ZD

@@ -11,3 +11,44 @@ updated_time: '2013-01-11T18:05:12+0000'
 name: Geeks Sarcasm Society
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/511296415576738/
 id: '172338516139198_511296415576738'
+comments:
+  data:
+  - created_time: '2013-01-11T17:25:24+0000'
+    from:
+      name: Ahmed Adel
+      id: '10157228231404129'
+    message: what is actually the type of this phone??
+    id: '511304578909255'
+  - created_time: '2013-01-11T18:05:12+0000'
+    from:
+      name: Amr Reda
+      id: '10160087313865372'
+    message: This HTC 8X , I think!
+    id: '511315678908145'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOVEV4TXpBME5UYzRPVEE1TWpVMU9qRXpOVGM1TWpVeE1qUT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOVEV4TXpFMU5qYzRPVEE0TVRRMU9qRXpOVGM1TWpjMU1UST0ZD
+attachments:
+  data:
+  - description: |-
+      and that's a Windows phone!
+      Thanks Microsoft !
+      admin negma
+    description_tags:
+    - id: '20528438720'
+      length: 9
+      name: Microsoft
+      offset: 35
+      type: page
+    media:
+      image:
+        height: 720
+        src: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/1152_402334736521168_2069748980_n.jpg?oh=f20232e2f0c0f55a98eb1bba22d7a115&oe=5B1E8997
+        width: 540
+    target:
+      id: '402334736521168'
+      url: https://www.facebook.com/EgyGSS/photos/a.355842111170431.89676.345190738902235/402334736521168/?type=3
+    title: Timeline Photos
+    type: photo
+    url: https://www.facebook.com/EgyGSS/photos/a.355842111170431.89676.345190738902235/402334736521168/?type=3

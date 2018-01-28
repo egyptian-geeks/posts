@@ -17,3 +17,128 @@ created_time: '2015-06-07T11:05:28+0000'
 updated_time: '2015-06-07T13:31:18+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/955340267839015/
 id: '172338516139198_955340267839015'
+reactions:
+  data:
+  - id: '10215834435679186'
+    name: Diaa Sami
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRNNU16a3pOelUyTVRveE5ETXpOamMzTmpZAMU9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRNNU16a3pOelUyTVRveE5ETXpOamMzTmpZAMU9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2015-06-07T11:08:43+0000'
+    from:
+      name: Mohamed El-Kholy
+      id: '10155833475081885'
+    message: I had a similar issue with a TEDATA connection with some parameter that
+      needed adjustment , it was about maximum frame size or something like this (layer
+      2 parameter) it should be 66 or something like that , I changed my modem and
+      didnt have the sameissue later so I can't remember the exact names and values
+    id: '955341254505583'
+  - created_time: '2015-06-07T11:14:37+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: |-
+      Was that "MTU Size"?
+
+      It was set to a default value of 1500, a bit of online research showed that LinkDSL (which is the provider behind my ISP) uses a value of 1492. I tried that and will see what happens.
+    id: '955342301172145'
+  - created_time: '2015-06-07T11:23:55+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: Nope, the same stupid issue is still there.
+    id: '955343737838668'
+  - created_time: '2015-06-07T11:29:50+0000'
+    from:
+      name: Mohamed El-Kholy
+      id: '10155833475081885'
+    message: Yes exactly , i will try to find the value i needed
+    id: '955344754505233'
+  - created_time: '2015-06-07T11:30:08+0000'
+    from:
+      name: Mohamed El-Kholy
+      id: '10155833475081885'
+    message: I remember that when using vpn , i was ok
+    id: '955344801171895'
+  - created_time: '2015-06-07T11:50:09+0000'
+    from:
+      name: Diaa Sami
+      id: '10215834435679186'
+    message: 'As I thought, seems that someone is caching things locally, this 404
+      looks ancient, this is what stack overflow 404 looks like:'
+    id: '955348621171513'
+  - created_time: '2015-06-07T11:51:55+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: The 404 page I am getting looks suspiciously like IIS 6 or something
+      of that era.
+    id: '955348967838145'
+  - created_time: '2015-06-07T11:56:49+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: Now this is funny, I changed the MTU again as per Mohamed's suggestion,
+      now I am getting this (this domain is owned by LinkDSL)  :D
+    id: '955349701171405'
+  - created_time: '2015-06-07T11:57:52+0000'
+    from:
+      name: Mohamed El-Kholy
+      id: '10155833475081885'
+    message: Your isp is providing caching service for u ?
+    id: '955349904504718'
+  - created_time: '2015-06-07T11:59:39+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: Apparently someone thought of coming up with something 'clever' and started
+      this whole mess.
+    id: '955350241171351'
+  - created_time: '2015-06-07T12:32:52+0000'
+    from:
+      name: Mohamed El-Kholy
+      id: '10155833475081885'
+    message: would u face same issue when using tor ? I would assume the answer is
+      no , also do you face it with http only ?
+    id: '955357471170628'
+  - created_time: '2015-06-07T12:35:12+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: I believe it won't show up with TOR. As for the protocol, it does not
+      matter whether it is http or https.
+    id: '955357901170585'
+  - created_time: '2015-06-07T13:31:18+0000'
+    from:
+      name: Amjad Mashaal
+      id: '10213738834576763'
+    message: This looks very much like a crappy caching system
+    id: '955371147835927'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFUxTXpReE1qVTBOVEExTlRnek9qRTBNek0yTnpVek1qTT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFUxTXpjeE1UUTNPRE0xT1RJM09qRTBNek0yT0RNNE56ZAz0ZD
+attachments:
+  data:
+  - description: |-
+      For the network geeks out there, I get internet in my house via some mysterious wireless device on my roof that connects to an internet provider about 3 Kms away.
+
+      Anyway, those people are seriously incompetent, and I never run out of internet problems on a daily basis. The latest issues is randomly getting 404 errors. The issue is completely random, not related to a certain site or a certain time.
+
+      I tried changing my DNS server to 8.8.8.8 to no effect. The issue only goes away when I use an SSH tunnel to a USA server, which of course is too slow for daily usage.
+
+      I appreciate any help on this matter, since my incompetent ISP do not even know where to start looking.
+    media:
+      image:
+        height: 275
+        src: https://scontent.xx.fbcdn.net/v/t1.0-9/11252594_10153531524384180_5327685090179813806_n.jpg?oh=68221068f2d1bad9428b70921c6efd52&oe=5ADE0F94
+        width: 535
+    target:
+      id: '10153531524384180'
+      url: https://www.facebook.com/photo.php?fbid=10153531524384180&set=gm.955340267839015&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=10153531524384180&set=gm.955340267839015&type=3

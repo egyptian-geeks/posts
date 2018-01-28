@@ -12,3 +12,54 @@ updated_time: '2011-04-07T04:32:28+0000'
 name: http://www.sample.com/fr
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/198826143490435/
 id: '172338516139198_198826143490435'
+comments:
+  data:
+  - created_time: '2011-04-06T23:52:25+0000'
+    from:
+      name: Ahmed M. Ali
+      id: '10155294825154607'
+    message: |-
+      Use this in JavaScript:
+      str.replace(/http:\/\/www\.sample\.com\/fr\/imagename/ig, "http://www.company.conmm/fr/imagename.jpg")
+    id: '198828323490217'
+  - created_time: '2011-04-06T23:53:39+0000'
+    from:
+      name: Ahmed M. Ali
+      id: '10155294825154607'
+    message: The variable "str" holds your string of course...
+    id: '198828470156869'
+  - created_time: '2011-04-07T02:46:39+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Thanks a lot Ahmed, The thing that i must use it in Regex :S
+    id: '198855566820826'
+  - created_time: '2011-04-07T04:28:50+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: regex_replace("http://www.sample.com/fr/(.*?)", "http://www.company.conmm/fr/\\1.jpg")
+    id: '198869026819480'
+  - created_time: '2011-04-07T04:32:00+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Thank you a lot ya Tito :D I will try it and i will let you know :)
+    id: '198869480152768'
+  - created_time: '2011-04-07T04:32:28+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: check your inbox because FB screwed it up :)
+    id: '198869540152762'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGs0T0RJNE16SXpORGt3TWpFM09qRXpNREl4TXpNNU5EVT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGs0T0RZANU5UUXdNVFV5TnpZAeU9qRXpNREl4TlRBM05EZAz0ZD
+attachments:
+  data:
+  - target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.sample.com%2Ffr&h=ATOE-gChODxb0HGXy_HIs-UbVOyrLoFg0LXB8-fEjBZUYM372KxK64MVDGIJ9OvZTVNoWrQbguSyS1iGCy1oM1JwDxCIVcz_XEiT&s=1&enc=AZMstky2Qj6UYnQRcE95u_ifwVjFP3vCNzmq3498gM5f82HZaH4qpSQwnrsZJ9Zpst2vd8s2x8_TN9wIcSFwSO5J
+    title: http://www.sample.com/fr
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.sample.com%2Ffr&h=ATOE-gChODxb0HGXy_HIs-UbVOyrLoFg0LXB8-fEjBZUYM372KxK64MVDGIJ9OvZTVNoWrQbguSyS1iGCy1oM1JwDxCIVcz_XEiT&s=1&enc=AZMstky2Qj6UYnQRcE95u_ifwVjFP3vCNzmq3498gM5f82HZaH4qpSQwnrsZJ9Zpst2vd8s2x8_TN9wIcSFwSO5J

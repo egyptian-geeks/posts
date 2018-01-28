@@ -10,3 +10,47 @@ created_time: '2014-07-27T20:09:00+0000'
 updated_time: '2014-07-29T17:29:29+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/790254301014280/
 id: '172338516139198_790254301014280'
+reactions:
+  data:
+  - id: '10215348668691955'
+    name: Ahmed Agamy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRJNU16RTBNemMyTVRveE5EQTJOalU0TXprME9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRJNU16RTBNemMyTVRveE5EQTJOalU0TXprME9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2014-07-29T15:45:27+0000'
+    from:
+      name: Abdelrady Fcis
+      id: '10214861141222529'
+    message: Ahmed Agamy
+    id: '791166640923046'
+  - created_time: '2014-07-29T17:29:29+0000'
+    from:
+      name: Ahmad El-Melegy
+      id: '10215984708437373'
+    message: |-
+      In your db class you need to implement a method to get all elements in the db, it should be something like getAllContacts() methods in this tutorial: http://www.androidhive.info/2011/11/android-sqlite-database-tutorial/
+      you may need setter & getter methods also [mentioned in the above link].
+
+      Then in your activity you can call getAllContacts() method, it returns a a list of objects of Contact class, you can get a specific column of each contact, or convert it to a string as you want.
+
+      Contact contact_instance = new Contact();
+      ArrayList<Contact> allContactObjects = contact_instance .getAllContacts(context);
+      String[] items = new String[allContactObjects.size];
+      for (Contact cn : contacts) {
+                  items[i] = Name: " + cn.getName();
+      }
+
+      ListView mylistview = (ListView) findViewById(R.id.listView1);
+      ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,                   android.R.layout.simple_list_item_1, items);
+      mylistview.setAdapter(adapter);
+
+      about being clickable you can check this answer: http://stackoverflow.com/a/13281256/1708105
+    id: '791203020919408'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemt4TVRZAMk5qUXdPVEl6TURRMk9qRTBNRFkyTkRnM01qYz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemt4TWpBek1ESXdPVEU1TkRBNE9qRTBNRFkyTlRRNU5qaz0ZD

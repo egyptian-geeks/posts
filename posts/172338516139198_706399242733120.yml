@@ -11,3 +11,52 @@ created_time: '2014-02-25T10:31:10+0000'
 updated_time: '2014-02-25T11:48:54+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/706399242733120/
 id: '172338516139198_706399242733120'
+reactions:
+  data:
+  - id: '10215070655377585'
+    name: Mahmoud Kandeel
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRFMk5qZA3hNVFkzTmpveE16a3pNekkwT0Rnd09qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRFMk5qZA3hNVFkzTmpveE16a3pNekkwT0Rnd09qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2014-02-25T10:43:07+0000'
+    from:
+      name: Mahmoud Kandeel
+      id: '10215070655377585'
+    message: رائع، تسلم ياعمده بجد :)
+    id: '706404079399303'
+  - created_time: '2014-02-25T10:46:10+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: اى خدمة، لو عندك افكار لسكريبتات جديدة قوللى علشان ماعنديش فكرة لسكريبت
+      بكرة :)
+    id: '706405026065875'
+  - created_time: '2014-02-25T11:48:54+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: فى حد عمل فورك و عدله علشان يبقى ستاد الون و ممكن تبعتله اسم المقال من
+      الترمينال على طول https://gist.github.com/mahemoff/9207040
+    id: '706465702726474'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekEyTkRBME1EYzVNems1TXpBek9qRXpPVE16TWpRNU9EYz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekEyTkRZAMU56QXlOekkyTkRjME9qRXpPVE16TWpnNU16UT0ZD
+attachments:
+  data:
+  - description: "Ask wikipedia from command line using Ruby \nhttps://gist.github.com/9206453\n\n#ruby
+      #rails #ror #wikipedia"
+    media:
+      image:
+        height: 454
+        src: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/1660592_10151960688742957_1474158030_n.jpg?oh=b964c8a4c4f797ad9b3d26ebca1d1204&oe=5ADF384D
+        width: 720
+    target:
+      id: '10151960688742957'
+      url: https://www.facebook.com/photo.php?fbid=10151960688742957&set=gm.706399242733120&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=10151960688742957&set=gm.706399242733120&type=3

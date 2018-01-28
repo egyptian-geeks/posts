@@ -11,3 +11,113 @@ created_time: '2014-06-08T13:08:54+0000'
 updated_time: '2014-06-11T06:27:59+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/761121350594242/
 id: '172338516139198_761121350594242'
+reactions:
+  data:
+  - id: '1480631008702069'
+    name: Amr M. Aboualam
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlOalUxTlRJMU9USXhPakUwTURJeU16TXhPVEE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlOalUxTlRJMU9USXhPakUwTURJeU16TXhPVEE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2014-06-08T13:18:16+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: "Personally, I believe there is potential, but someone has to stand-up
+      & take the risk. I will list the list of problems that should be solved.\n\nBig
+      part of it is about legal restriction, but mobile carriers want to get into
+      this area. \n\nCash is still the dominant payment method, but my impression
+      is that the upper class is increasingly using credit cards.\n\nI suggest that
+      you initially launch in the gulf. They've the money!\n\nMohammad Al-Ayouti (of
+      Vodafone) may give you good insight as well."
+    id: '761124600593917'
+  - created_time: '2014-06-08T13:23:58+0000'
+    from:
+      name: Ahmed Fathalla
+      id: '10159783218960262'
+    message: "I'm not suggesting building a payment gateway like Payfort or Gate2Play.
+      \ We are working with Payfort for our billing system. But we had to do all the
+      logic related to \n\n- Creating different pricing tiers\n- Charging people in
+      each pricing tier the correct amount\n- Sending emails confirming the charge
+      has been done\n- Managing people upgrading/downgrading their plan\n- Issuing
+      invoices\n\nMy understanding is that Chargify and Recurly do this stuff regardless
+      of your payment gateway."
+    id: '761126517260392'
+  - created_time: '2014-06-08T13:27:24+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: As I understand, your customers are businesses?
+    id: '761135230592854'
+  - created_time: '2014-06-08T13:29:57+0000'
+    from:
+      name: Ahmed Fathalla
+      id: '10159783218960262'
+    message: This is not the point. The issue is if you are trying to build a SAAS
+      business like UserTalk, you'll have to write a lot of code that manages billing
+      users on a monthly basis and invoicing them. Payment gateways don't really offer
+      this out of the box. Hence the existence of businesses like Recurly and Chargify.
+      I was asking if building something like this would be viable in the Middle East.
+    id: '761141243925586'
+  - created_time: '2014-06-08T13:32:39+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: In other words, you're asking "How many companies in MENA uses subscription
+      model?". I don't have an immediate answer.
+    id: '761142267258817'
+  - created_time: '2014-06-08T13:33:47+0000'
+    from:
+      name: Ahmed Fathalla
+      id: '10159783218960262'
+    message: Yes exactly that was my question.
+    id: '761142660592111'
+  - created_time: '2014-06-08T13:34:42+0000'
+    from:
+      name: Ahmed Fathalla
+      id: '10159783218960262'
+    message: I still believe that even for companies that DO NOT use a subscription
+      model, building something on top of Payment gateways that can integrate to your
+      system and give you good reporting on your transactions could be useful.
+    id: '761143030592074'
+  - created_time: '2014-06-08T17:47:43+0000'
+    from:
+      name: Muhammad Saleh
+      id: '10156649659196002'
+    message: Ahmed do you mean something like http://www.amember.com/ ?
+    id: '761258777247166'
+  - created_time: '2014-06-09T05:35:41+0000'
+    from:
+      name: Ahmed Fathalla
+      id: '10159783218960262'
+    message: Muhammad Saleh not really like it. This seems to be geared more towards
+      managing your user profiles. Recurly and Chargify are more related to recuring
+      subscription billing
+    id: '761513373888373'
+  - created_time: '2014-06-10T20:44:10+0000'
+    from:
+      name: Adel K. Khalil
+      id: '10159958402365584'
+    message: Ahmed Fathalla We @ DrBridge will definitely pay for this if you build
+      it :)
+    id: '762399090466468'
+  - created_time: '2014-06-11T05:46:30+0000'
+    from:
+      name: Ahmed Fathalla
+      id: '10159783218960262'
+    message: Adel K. Khalil do you mean the recurring billing part or the transaction
+      reporting?
+    id: '762575467115497'
+  - created_time: '2014-06-11T06:27:59+0000'
+    from:
+      name: Adel K. Khalil
+      id: '10159958402365584'
+    message: Recurring billing.
+    id: '762582743781436'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOell4TVRJME5qQXdOVGt6T1RFM09qRTBNREl5TXpNME9UWT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOell5TlRneU56UXpOemd4TkRNMk9qRTBNREkwTmpnd056az0ZD

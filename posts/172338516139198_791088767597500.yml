@@ -11,3 +11,31 @@ updated_time: '2014-07-29T12:39:50+0000'
 name: 'Amr Saafan: How to get Year, Month and Day out of SQL Date in SQL Server'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/791088767597500/
 id: '172338516139198_791088767597500'
+comments:
+  data:
+  - created_time: '2014-07-29T12:39:50+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: There is a short cut function for year, month and day by the way, SELECT
+      YEAR(@myDate), MONTH(@myDate), DAY(@myDate)
+    id: '791099337596443'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemt4TURrNU16TTNOVGsyTkRRek9qRTBNRFkyTXpjMU9UQT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemt4TURrNU16TTNOVGsyTkRRek9qRTBNRFkyTXpjMU9UQT0ZD
+attachments:
+  data:
+  - description: Let is say that we have the following Date 2007-04-05 10:13:14.109
+      and we want to get Year, Month and Day out of this date. There is a function
+      named DATEPART() that can be used to archive this.
+    media:
+      image:
+        height: 124
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQB76D-MHPmGNNhA&w=720&h=720&url=http%3A%2F%2F3.bp.blogspot.com%2F-pmf290dBxaA%2FUUgZs50hJzI%2FAAAAAAAAAHY%2Fy5c7b5qOHj4%2Fs220%2FDSC_0199.jpg&cfs=1&_nc_hash=AQDSCWv8pbQm9I8q
+        width: 124
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Famrsaafan.blogspot.com%2F2013%2F03%2Fhow-to-get-year-month-and-day-out-of.html&h=ATPasNuX6jVw0CD1oml6ekWJcWcrvo0Vzg_G86S3479irFiFNmfBfPd0JenYxOXvtnzZp8yVHtiyLpT6wQEL5hRaQ47rw_Fk8Ex0&s=1&enc=AZONvysGBdrW33BjJqNwG5kCygKY3ev8WJu6J5QQKfihjglQp0CiCMYRpUPQLugEOvupmfMT5KZsMkv554jNs-bv
+    title: 'Amr Saafan: How to get Year, Month and Day out of SQL Date in SQL Server'
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Famrsaafan.blogspot.com%2F2013%2F03%2Fhow-to-get-year-month-and-day-out-of.html&h=ATPasNuX6jVw0CD1oml6ekWJcWcrvo0Vzg_G86S3479irFiFNmfBfPd0JenYxOXvtnzZp8yVHtiyLpT6wQEL5hRaQ47rw_Fk8Ex0&s=1&enc=AZONvysGBdrW33BjJqNwG5kCygKY3ev8WJu6J5QQKfihjglQp0CiCMYRpUPQLugEOvupmfMT5KZsMkv554jNs-bv

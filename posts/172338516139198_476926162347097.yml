@@ -9,3 +9,144 @@ created_time: '2012-10-26T21:45:10+0000'
 updated_time: '2012-10-27T00:19:09+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/476926162347097/
 id: '172338516139198_476926162347097'
+comments:
+  data:
+  - created_time: '2012-10-26T21:45:51+0000'
+    from:
+      name: Abdelrady Fcis
+      id: '10214861141222529'
+    message: Internet tab3an
+    id: '476926299013750'
+  - created_time: '2012-10-26T21:46:09+0000'
+    from:
+      name: Mahmoud Ramadan
+      id: '10154929749795916'
+    message: i think LAN , you can notice that from speed :)
+    id: '476926345680412'
+  - created_time: '2012-10-26T21:46:51+0000'
+    from:
+      name: Mohamed Sameeh Sharaf
+      id: '2167550119925504'
+    message: |-
+      مادام فى اختلاف كدا
+      احنا نسال شيخ :)
+    id: '476926525680394'
+  - created_time: '2012-10-26T21:47:07+0000'
+    from:
+      name: Abdelrady Fcis
+      id: '10214861141222529'
+    message: |-
+      look you can sniff the stream and see by yourself
+      use WireShark
+    id: '476926622347051'
+  - created_time: '2012-10-26T21:47:49+0000'
+    from:
+      name: Abdelrady Fcis
+      id: '10214861141222529'
+    message: bos 3la destination IP ya rayes
+    id: '476926775680369'
+  - created_time: '2012-10-26T21:47:50+0000'
+    from:
+      name: Mohammed El Sayed
+      id: '10155880598025170'
+    message: |-
+      as I guess, LAN.
+      I've experienced this behavior using MSN Messenger.
+      I was transferring a file to another PC on the same network,  and the transfer was like copying over the lan.
+    id: '476926782347035'
+  - created_time: '2012-10-26T21:48:38+0000'
+    from:
+      name: Mahmoud Ramadan
+      id: '10154929749795916'
+    message: هو الدين بيقول اييييييييه :)  انا جربت مرة انقل حاجات على النيتورك و
+      كانت سرعتها اضعاف سرعة الانترنت ..جواب نهائى ..اللان :)
+    id: '476926969013683'
+  - created_time: '2012-10-26T21:49:46+0000'
+    from:
+      name: Abdelrady Fcis
+      id: '10214861141222529'
+    message: hagarabha w ashoof keda
+    id: '476927252346988'
+  - created_time: '2012-10-26T21:51:05+0000'
+    from:
+      name: Mohamed Sameeh Sharaf
+      id: '2167550119925504'
+    message: i agree with LAN option until Abdelrady Fcis tell us about his results
+      :)
+    id: '476927642346949'
+  - created_time: '2012-10-26T22:07:53+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: you can easily test this by simply restarting ADSL modem during the file
+      transfer :D
+    id: '476932339013146'
+  - created_time: '2012-10-26T22:13:18+0000'
+    from:
+      name: Abdelrady Fcis
+      id: '10214861141222529'
+    message: |-
+      1- elly bey7sal en feeh commuincation fel awel been skype client and the remote server
+      2- then the server realizes that both clients come from the same Source IP
+      3- using a specific protocol (which i don't know), both clients communicate internally and send the file across LAN
+    id: '476933789013001'
+  - created_time: '2012-10-26T22:14:55+0000'
+    from:
+      name: Abdelrady Fcis
+      id: '10214861141222529'
+    message: |-
+      1- start communication between client and the remote server
+      http://i50.tinypic.com/2a0f29s.png
+    id: '476934235679623'
+  - created_time: '2012-10-26T22:16:33+0000'
+    from:
+      name: Abdelrady Fcis
+      id: '10214861141222529'
+    message: |-
+      2- server respond to the client and let it know to communicate internally to the other client and data start sending
+      http://i45.tinypic.com/2yl8sw7.png
+    id: '476934585679588'
+  - created_time: '2012-10-26T22:18:51+0000'
+    from:
+      name: Abdelrady Fcis
+      id: '10214861141222529'
+    message: Amr ELsaqqa just wait untill the communication start and the process
+      of sending data starts and then you can safely power of your router but not
+      the LAN
+    id: '476936045679442'
+  - created_time: '2012-10-26T23:11:05+0000'
+    from:
+      name: Mohamed Sameeh Sharaf
+      id: '2167550119925504'
+    message: "شكرا يا عبد الراضى على المساعدة :)\nجزاكم الله خيرا \nجزاكم الله خيرا
+      يا شباب"
+    id: '476949069011473'
+  - created_time: '2012-10-26T23:59:26+0000'
+    from:
+      name: Mohamed Hosney
+      id: '1705079752863653'
+    message: m3lsh 3lshan al comments kteer w ana mksl a2ra :D eih al answer fel a5ar??!
+      Mohamed Sameeh Sharaf
+    id: '476960845676962'
+  - created_time: '2012-10-27T00:18:10+0000'
+    from:
+      name: Mohamed Sameeh Sharaf
+      id: '2167550119925504'
+    message: through LAN :)
+    id: '476965142343199'
+  - created_time: '2012-10-27T00:18:39+0000'
+    from:
+      name: Mohamed Hosney
+      id: '1705079752863653'
+    message: thnx ^_^
+    id: '476965249009855'
+  - created_time: '2012-10-27T00:19:09+0000'
+    from:
+      name: Mohamed Sameeh Sharaf
+      id: '2167550119925504'
+    message: welcome :)
+    id: '476965339009846'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAORGMyT1RJMk1qazVNREV6TnpVd09qRXpOVEV5T0RjNU5URT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAORGMyT1RZAMU16TTVNREE1T0RRMk9qRXpOVEV5T1RjeE5Eaz0ZD

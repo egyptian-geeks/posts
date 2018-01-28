@@ -15,3 +15,211 @@ updated_time: '2015-04-27T08:53:01+0000'
 name: Brython
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/931781120194930/
 id: '172338516139198_931781120194930'
+reactions:
+  data:
+  - id: '10160069424510193'
+    name: Hussein Ghaly
+    type: LIKE
+  - id: '10155458642069624'
+    name: Basma Osman
+    type: LIKE
+  - id: '1550774681686883'
+    name: Eslam Esmaeal
+    type: LIKE
+  - id: '1581325828647500'
+    name: Moataz Mahmoud
+    type: LIKE
+  - id: '744364165648487'
+    name: Ahmed Elsayed Shahawi
+    type: LIKE
+  - id: '10156284492809497'
+    name: Ahmed Hassan
+    type: LIKE
+  - id: '10155055938141574'
+    name: Mostafa Essam Eldin
+    type: LIKE
+  - id: '10155175878485868'
+    name: Maged M. Eljazzar
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpNd01UUTFNVGt5T2pFME16QXpORFkxTWpBNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TmpJNE5qTTFPRFkzT2pFME16QXdORGMzTnpjNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2015-04-26T12:05:45+0000'
+    from:
+      name: Ibraheem Osama
+      id: '10155206310513093'
+    message: 'Samy I think no :) #Python is an amazing language but the future is
+      for #javascript most of platforms now supporting native JS programming like
+      #Windows and I heard that android team is working on it and in server side there
+      is #NodeJS also #Chrome apps are developed using JS :) also there is #ReactJS
+      . JS is the future :) :P'
+    id: '931795833526792'
+  - created_time: '2015-04-26T12:11:47+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Ibraheem Osama Mohamed On Android there is Kivy for Python framework
+      that makes building an app a piece of cake :) Actually, I can imagine a Python
+      program running on windows phone and all that will be required is the Python
+      interpreter and a couple of helper files in Python :) The funny thing is I had
+      kidney pain yesterday and was very sad, when I saw this I was happy, not because
+      Python can do client side, but the thought that JS will die.
+    id: '931798333526542'
+  - created_time: '2015-04-26T12:19:43+0000'
+    from:
+      name: Ibraheem Osama
+      id: '10155206310513093'
+    message: I totally disagree with you because javascript will never die because
+      it is supported by all big companies ( ex Google, Microsoft) and they push for
+      it to be the future  :) also a lot of developers now are moving to NodeJS (
+      npm is used everywhere :D )
+    id: '931808053525570'
+  - created_time: '2015-04-26T12:20:56+0000'
+    from:
+      name: Ibraheem Osama
+      id: '10155206310513093'
+    message: I'm not saying python will die sooner or later but the future is for
+      JS
+    id: '931808406858868'
+  - created_time: '2015-04-26T12:57:27+0000'
+    from:
+      name: Kareem Elansary
+      id: '10156256566230530'
+    message: Can you minify it?
+    id: '931824876857221'
+  - created_time: '2015-04-26T13:04:31+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: |-
+      What I predict: A standard VM model for web browsers. No silly arguments about JS then, people will be able to compile their favourite assembly language to bytecode and just include it.
+      And this book will become reality as it ought.
+
+      But seriously speaking, I do think the asm.js approach is the future. Better than silly source level translation from python to javascript at **client side** (You are interpreting a subset of python on top of javascript to output a subset of javascript that you then can feed into the javascript interpreter; for what? so end users who shouldn't read the code anyway, can see python instead of JS?).
+    id: '931828960190146'
+  - created_time: '2015-04-26T13:24:42+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: minify Python? Why?
+    id: '931841063522269'
+  - created_time: '2015-04-26T13:25:08+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Ibraheem Osama Mohamed yana yal wad JS dah 3al browaser
+    id: '931841186855590'
+  - created_time: '2015-04-26T13:26:49+0000'
+    from:
+      name: Ibraheem Osama
+      id: '10155206310513093'
+    message: hahahaha :D the idea is JS is now working everywhere not only browsers
+      :D bas lw mesh 3agbak ya kbiir ne5alas 3aliha :D
+    id: '931841870188855'
+  - created_time: '2015-04-26T17:56:02+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Ibraheem Osama Mohamed 3ayzeen ne7ott 3al Javascript dah we ba3deen kaman
+      bafakar ne3mel zorar 3al browser ye-disable el Javascript zay zaman ma konna
+      bene3mel fel 90s :)
+    id: '931948530178189'
+  - created_time: '2015-04-26T18:27:06+0000'
+    from:
+      name: Ahmed Sadek Mohamed Tawfik
+      id: '10155056867911922'
+    message: "Python interpreted by Javascript .. bad bad :D :D .. Javascript still
+      rocks :D \nو لا عزاء للبايثون :D :D"
+    id: '931959673510408'
+  - created_time: '2015-04-26T18:29:06+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Ahmed Sadek Mohammed Tawfeek what's to stop the Python interpretter from
+      running in the browser? The issue is that because they don't know if you have
+      it or not so they interpret with JS, but it would be easy for the browser to
+      run Python :)
+    id: '931960200177022'
+  - created_time: '2015-04-26T18:43:51+0000'
+    from:
+      name: Ahmed Sadek Mohamed Tawfik
+      id: '10155056867911922'
+    message: |-
+      ايوه ايوه .. هيا ناس متحمسة للبايثون زيك .. قالت لازم نخلى البايثون يشتغل على البراوزر .. لغاية اما تيجى الناس المتمحمسة تكتب بالبايثون على البراوزر .. الشركات الكبيرة تلاقى نفسها اتزنقت .. تضطر تعمل بايثون نايتيف على البراوزر ..
+      تقنيا مافيش حاجة تمنع البايثون انه يشتغل على البراوزر .. فعليا الناس مش حاببباااه :D
+    id: '931965380176504'
+  - created_time: '2015-04-26T18:45:41+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Ahmed Sadek Mohammed Tawfeek they don't like Python but they like {}()[].method(method);;;;>?
+      Javascript?
+    id: '931965813509794'
+  - created_time: '2015-04-26T19:00:34+0000'
+    from:
+      name: Ahmed Sadek Mohamed Tawfik
+      id: '10155056867911922'
+    message: "yep .. the same way people liked the overloading operators in C++ ..
+      that was hilarious .. people always tend to express their feelings in their
+      source code .. this includes changing their semantics while writing their master
+      piece of code :D\nthere are two types of people in programming .. first type
+      {tied with rules .. love maintenance .. and think accumulated}\nsecond type
+      {اصرف ما فى الجيب يأتيك ما فى الغيب}  :D  .. they love chaos .. fond of many
+      operators and hidden meanings {{ check old perl for example :D }} and love assembly
+      language (without MACRO directives) \nI am the second type .. who will overload
+      operators with different meanings .. use #define keyword instead of clean functions
+      .. use the javascript inheritance chain in a destructive ways .. \nI like freedom
+      .. give me more dynamic syntax and more dynamic objects so I can love you more
+      :D :D."
+    id: '931971450175897'
+  - created_time: '2015-04-26T19:39:09+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: So Python is Dynamic, and C++ is strongly typed, but C++ is a well built
+      language, Python also is well built. Javascript however is not, reminds me of
+      the language of the slums (bee2a)
+    id: '931988413507534'
+  - created_time: '2015-04-26T19:42:50+0000'
+    from:
+      name: Ahmed Sadek Mohamed Tawfik
+      id: '10155056867911922'
+    message: racist :P :P :P
+    id: '931990936840615'
+  - created_time: '2015-04-26T19:50:15+0000'
+    from:
+      name: Moataz Mahmoud
+      id: '1581325828647500'
+    message: Mostafa Samir
+    id: '931995973506778'
+  - created_time: '2015-04-27T08:53:01+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      Brython has been there for many years now. It's too late for it to become popular, unless it gets a killer app/framework.
+
+      You can create your own VM to run Python in the browser. The hard part is convincing people to use it.
+
+      Kareem Elansary yes, you can minimize Python.
+    id: '932283573478018'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVE14TnprMU9ETXpOVEkyTnpreU9qRTBNekF3TkRrNU5EVT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVE15TWpnek5UY3pORGM0TURFNE9qRTBNekF4TWpRM09ERT0ZD
+attachments:
+  data:
+  - description: Brython
+    media:
+      image:
+        height: 720
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQD9zN93d7Bzr4UL&w=720&h=720&url=http%3A%2F%2Fwww.brython.info%2Fbrython.svg&cfs=1&_nc_hash=AQCtKRlXwEGIela1
+        width: 720
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.brython.info%2Findex.html&h=ATNXNXeQb91rwUpGBLJbat5t4oZi2h7fzoszX6kGwiHKOO2mfAdSL8SisHGUg-cSDeY6CmCBYP4RLBMn7JZCpi3d4puKtuOUag7V&s=1&enc=AZPpIscIQBHsZYxdtjLXW7pbPUbHY6CAwiTPFAkV2F2dLbozrI7l_7zNWzHryh7zkucaKrmfLAeiLA43z64Db73C
+    title: Brython
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.brython.info%2Findex.html&h=ATNXNXeQb91rwUpGBLJbat5t4oZi2h7fzoszX6kGwiHKOO2mfAdSL8SisHGUg-cSDeY6CmCBYP4RLBMn7JZCpi3d4puKtuOUag7V&s=1&enc=AZPpIscIQBHsZYxdtjLXW7pbPUbHY6CAwiTPFAkV2F2dLbozrI7l_7zNWzHryh7zkucaKrmfLAeiLA43z64Db73C

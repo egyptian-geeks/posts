@@ -17,3 +17,209 @@ updated_time: '2014-10-01T13:30:19+0000'
 name: YouTube
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/821557224550654/
 id: '172338516139198_821557224550654'
+comments:
+  data:
+  - created_time: '2014-09-30T11:45:04+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      ممكن تكون مشكلة بروكسي. شوف النظام ايه لو عامل اي خاصية تمنع المواقع المرغوب فيها (الاباحية و كده) جرب توقف الخصائص دي مؤقتا، و لو مش بتستخدم حاجة كده دور لو فيه حاجة بتعمل ده تكون فتحتها بالغلط.
+      و برده اعمل بينج او trace route لامواقع و شوف ال request بتعدي على ايه
+    id: '821560557883654'
+  - created_time: '2014-09-30T11:46:20+0000'
+    from:
+      name: أبو حبيبه
+      id: '1631083283615215'
+    message: أوكـ ،،، هجرب وأبلغكـ بالنتيجة وألف شكر مقدماً
+    id: '821560857883624'
+  - created_time: '2014-09-30T11:46:24+0000'
+    from:
+      name: Fady Anwar
+      id: '10159888022555052'
+    message: احتمال تكون عملت بلوك للبورت 80 بالغلط.. جرب اعمل تست بال telnet
+    id: '821560874550289'
+  - created_time: '2014-09-30T12:03:50+0000'
+    from:
+      name: أبو حبيبه
+      id: '1631083283615215'
+    message: "Telnetنتيجة الـ \nTrying 213.158.189.23...\ntelnet: Unable to connect
+      to remote host: Connection timed out\n\nPingنتيجة الـ \n\nPinging 213.158.189.23
+      with 32 bytes of data:\nRequest timed out.\nRequest timed out.\nRequest timed
+      out.\nRequest timed out.\n\nPing statistics for 213.158.189.23:\n    Packets:
+      Sent = 4, Received = 0, Lost = 4 (100% loss),"
+    id: '821566211216422'
+  - created_time: '2014-09-30T12:04:03+0000'
+    from:
+      name: أبو حبيبه
+      id: '1631083283615215'
+    message: مفيش أي أستجابة :(
+    id: '821566277883082'
+  - created_time: '2014-09-30T12:09:47+0000'
+    from:
+      name: Fady Anwar
+      id: '10159888022555052'
+    message: did you try different TCP ports?
+    id: '821567577882952'
+  - created_time: '2014-09-30T12:43:16+0000'
+    from:
+      name: أبو حبيبه
+      id: '1631083283615215'
+    message: مش فاهمك Fady Anwar
+    id: '821577101215333'
+  - created_time: '2014-09-30T12:46:42+0000'
+    from:
+      name: Fady Anwar
+      id: '10159888022555052'
+    message: "جرب تعمل تست بال telnet بارقام بورت مختلفه\nيعني مثلا \ntelnet host
+      25\ntelnet host 80\ntelnet host 443"
+    id: '821578424548534'
+  - created_time: '2014-09-30T13:05:03+0000'
+    from:
+      name: أبو حبيبه
+      id: '1631083283615215'
+    message: تمام ،،، هجرب  كدا
+    id: '821583641214679'
+  - created_time: '2014-09-30T14:21:15+0000'
+    from:
+      name: أبو حبيبه
+      id: '1631083283615215'
+    message: Emad Elsaid عندكـ حل يا هندسه ؟!
+    id: '821610087878701'
+  - created_time: '2014-09-30T14:28:21+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: هو اعتقد ان بورت 80 فعلآ مقفول من firewall ولا حاجة، عليك تحطه فى الwhite
+      list و تعمل flush للرولز و تجرب تانى، انا ماشتغلتش على النوع ده من الأجهزة بس
+      لو النظام ده لينوكس يبقى مجرد تحط رول لبورت 80 و تعمل فلش فعلآ.
+    id: '821612674545109'
+  - created_time: '2014-09-30T14:31:18+0000'
+    from:
+      name: أبو حبيبه
+      id: '1631083283615215'
+    message: هو فعلاً النظام لينوكس
+    id: '821613581211685'
+  - created_time: '2014-09-30T14:39:50+0000'
+    from:
+      name: أبو حبيبه
+      id: '1631083283615215'
+    message: لو سمحت يا هندسه يعني أيه أعمل flush
+    id: '821616024544774'
+  - created_time: '2014-09-30T14:42:35+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: "لما بتعدل الiptables مش بتتطبق القواعد على طول بتضطر تعمل flush كده
+      \niptables -F علشان القواعد الجديدة تتطبق، ده لو اللى مانع فعلآ البورت هو الiptables
+      يعنى"
+    id: '821616877878022'
+  - created_time: '2014-09-30T14:48:22+0000'
+    from:
+      name: أبو حبيبه
+      id: '1631083283615215'
+    message: بس أنا لما شوفت الـ Ip Service List لقيت أن البورت 80 مفعل زي ما في الصورة
+      كدا
+    id: '821619347877775'
+  - created_time: '2014-09-30T15:02:16+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: كده مش عارف السبب ده كان السبب اللى فى دماغى
+    id: '821623664544010'
+  - created_time: '2014-09-30T15:03:10+0000'
+    from:
+      name: أبو حبيبه
+      id: '1631083283615215'
+    message: تسلم يا هندسه وأسف علي تعبكـ معايا أنت وكل الشباب هنا .
+    id: '821623927877317'
+  - created_time: '2014-09-30T15:05:11+0000'
+    from:
+      name: Fady Anwar
+      id: '10159888022555052'
+    message: Use Wireshark to know exactly what is happening to your network traffic..
+    id: '821624407877269'
+  - created_time: '2014-09-30T15:08:39+0000'
+    from:
+      name: Mohammed Ragab
+      id: '2020898428198432'
+    message: شوف الكاش لو انت مفعل ااكاش غالبا بيعمل مشاكل فى النسخ الكراكد
+    id: '821625481210495'
+  - created_time: '2014-09-30T15:10:39+0000'
+    from:
+      name: أبو حبيبه
+      id: '1631083283615215'
+    message: Fady Anwar ممكن لو سمحت ترفعلي برنامج الـ Wireshark هنا علي المجموعة
+      لأني مش هعرف أحمله بسبب المشكلة دي ،،،،
+    id: '821626057877104'
+  - created_time: '2014-09-30T15:12:37+0000'
+    from:
+      name: أبو حبيبه
+      id: '1631083283615215'
+    message: Mohammed Ragab بالفعل يا هندسه أنا عندي النسخة 5.20 مكركه لكن أنا مش
+      مفعل الكاش لأني عامل سيرفر سكويد للكاش ومربوط بالمايكروتيك
+    id: '821626614543715'
+  - created_time: '2014-09-30T15:28:25+0000'
+    from:
+      name: Fady Anwar
+      id: '10159888022555052'
+    message: I can't drag and drop it to Facebook, maybe I've a network issue too...
+    id: '821631271209916'
+  - created_time: '2014-09-30T15:29:40+0000'
+    from:
+      name: أبو حبيبه
+      id: '1631083283615215'
+    message: Fady Anwar شكراً جزيلا هحاول أحمله
+    id: '821631611209882'
+  - created_time: '2014-09-30T15:37:53+0000'
+    from:
+      name: أبو حبيبه
+      id: '1631083283615215'
+    message: أنا بحمله حالياً من علي موقع الشركة بس فيه حاجة غريبه التحميل بطئ جداً
+      رغم أن المفروض أني شغال علي 10 ميجا ومفيش يوزرز شغالين غير علي الفيس لأنه مفيش
+      موقع غيره بيفتح هل ده ليه علاقة بالمشكلة ولا دا بطء من سيرفر الشركة ؟!
+    id: '821634007876309'
+  - created_time: '2014-09-30T20:11:24+0000'
+    from:
+      name: Boda Mohamed
+      id: '2042916219323441'
+    message: يعني ايه
+    id: '821762041196839'
+  - created_time: '2014-10-01T11:53:46+0000'
+    from:
+      name: أبو حبيبه
+      id: '1631083283615215'
+    message: شكراً جزيلاً لكم يا شباب المشكله طلعت من سيرفر السكويد كاش ،،، كل الشكر
+      لكل اللي أهتموا بالبوست وساعدوني Emad Elsaid & Fady Anwar & Mohammed Ragab &
+      Mohamed Meligy
+    id: '822007171172326'
+  - created_time: '2014-10-01T13:28:16+0000'
+    from:
+      name: Boda Mohamed
+      id: '2042916219323441'
+    message: يعني ايه
+    id: '822040011169042'
+  - created_time: '2014-10-01T13:30:19+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: "^ معلش ممكن تكمل السؤال ، ايه الجزء اللى مش فاهمه علشان نقدر نساعدك
+      يا Boda Mohamed ؟"
+    id: '822043161168727'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPREl4TlRZAd05UVTNPRGd6TmpVME9qRTBNVEl3TnpjMU1EUT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPREl5TURRek1UWXhNVFk0TnpJM09qRTBNVEl4TnpBeU1Uaz0ZD
+attachments:
+  data:
+  - description: Share your videos with friends, family, and the world
+    media:
+      image:
+        height: 200
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQC5RvwCrcMqHwTf&w=720&h=720&url=http%3A%2F%2Fs.ytimg.com%2Fyts%2Fimg%2Fyoutube_logo_stacked-vfl225ZTx.png&cfs=1&_nc_hash=AQDsljxi1BCT_bex
+        width: 200
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.youtube.com%2F&h=ATNFVcuWWu7ussr8nYHPtLk5KbZ7KTp8DWH5DhxdVHbY4jzm_HGnPKB8EIR-4ULVOKwQrJROjxBPOzgGN5odD8Bsq6Er3un6CIhQ&s=1&enc=AZOr6dlGnLqkt7rapYhNRE1TIoGghJ0_L2F21upnsJQMb7y-R9PxH_qxaqmz6g_OnMyEy5izSEDcbtZp815FnSt0
+    title: YouTube
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.youtube.com%2F&h=ATNFVcuWWu7ussr8nYHPtLk5KbZ7KTp8DWH5DhxdVHbY4jzm_HGnPKB8EIR-4ULVOKwQrJROjxBPOzgGN5odD8Bsq6Er3un6CIhQ&s=1&enc=AZOr6dlGnLqkt7rapYhNRE1TIoGghJ0_L2F21upnsJQMb7y-R9PxH_qxaqmz6g_OnMyEy5izSEDcbtZp815FnSt0

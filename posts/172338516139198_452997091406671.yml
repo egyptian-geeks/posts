@@ -7,3 +7,33 @@ created_time: '2012-08-25T15:45:43+0000'
 updated_time: '2012-08-25T15:45:43+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/452997091406671/
 id: '172338516139198_452997091406671'
+attachments:
+  data:
+  - description: |-
+      we will extends RegExp
+
+       
+
+      RegExp.quote = function(str) {
+
+          return (str+'').replace(/([.?*+^$[\]\\(){}|-])/g, "\\$1");
+
+      };
+
+       
+
+      how to use it
+
+       
+
+      var reg = new RegExp(RegExp.quote(' ( str $ * needs { to be quoted ) '), 'g'); var html = html.replace(reg,"replaced text");
+
+       
+
+      u hope you like it guys
+    target:
+      id: '452997081406672'
+      url: https://www.facebook.com/notes/egyptian-geeks/escape-character-in-regex-javascript-hints/452997081406672/
+    title: escape character in regex- javascript hints
+    type: note
+    url: https://www.facebook.com/notes/egyptian-geeks/escape-character-in-regex-javascript-hints/452997081406672/

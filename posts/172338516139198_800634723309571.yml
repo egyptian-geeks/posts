@@ -11,3 +11,40 @@ created_time: '2014-08-17T15:55:24+0000'
 updated_time: '2014-08-17T16:42:23+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/800634723309571/
 id: '172338516139198_800634723309571'
+reactions:
+  data:
+  - id: '10156243575441004'
+    name: Ahmad Zakaria
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRrek9EVXhNREF6T2pFME1EZA3pNVGMzTmpBNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRrek9EVXhNREF6T2pFME1EZA3pNVGMzTmpBNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2014-08-17T16:17:25+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: |-
+      You need a surge protector. You can find it in RadioShack.
+
+      Note: my understanding is that surge protectors divert surges to ground,  but since we don't have ground connections in Egypt, I am not sure how effective it would be.
+    id: '800641789975531'
+  - created_time: '2014-08-17T16:18:44+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: Stabilizer I got an old one, I can't recommend a certain model
+    id: '800642193308824'
+  - created_time: '2014-08-17T16:19:43+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: A stabilizer would make sure mains voltage stay within safe limits, but
+      usually does not react against sudden surges.
+    id: '800642489975461'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPREF3TmpReE56ZAzVPVGMxTlRNeE9qRTBNRGd5T1RJeU5EVT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPREF3TmpReU5EZAzVPVGMxTkRZAeE9qRTBNRGd5T1RJek9ETT0ZD

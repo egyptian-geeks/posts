@@ -10,3 +10,75 @@ created_time: '2014-05-22T15:00:24+0000'
 updated_time: '2014-05-22T23:07:36+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/751082351598142/
 id: '172338516139198_751082351598142'
+comments:
+  data:
+  - created_time: '2014-05-22T15:00:38+0000'
+    from:
+      name: Mohammed Alazhary
+      id: '10156036339794793'
+    message: C#
+    id: '751082594931451'
+  - created_time: '2014-05-22T15:44:55+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: Have you searched for a solution?
+    id: '751103884929322'
+  - created_time: '2014-05-22T15:49:08+0000'
+    from:
+      name: Mohammed Alazhary
+      id: '10156036339794793'
+    message: "شوور\nبس اللي فهمته هنا ان الصورة لازم تكون من نوع bitmap  بس .. دا
+      غير انها مش متباصية من البيكشر بوكس\npublic Bitmap CropImage(Bitmap source,
+      Rectangle section)\n{\n // An empty bitmap which will hold the cropped image\n
+      Bitmap bmp = new Bitmap(section.Width, section.Height);\n\n Graphics g = Graphics.FromImage(bmp);\n\n
+      // Draw the given area (section) of the source image\n // at location 0,0 on
+      the empty bitmap (bmp)\n g.DrawImage(source, 0, 0, section, GraphicsUnit.Pixel);\n\n
+      return bmp;\n}\n\n// Example use:     \nBitmap source = new Bitmap(@\"C:\\tulips.jpg\");\nRectangle
+      section = new Rectangle(new Point(12, 50), new Size(150, 150));\n\nBitmap CroppedImage
+      = CropImage(source, section);"
+    id: '751114458261598'
+  - created_time: '2014-05-22T15:51:07+0000'
+    from:
+      name: Mohammed Alazhary
+      id: '10156036339794793'
+    message: "مممم Bitmap source = new Bitmap(@\"C:\\tulips.jpg\"); \nدا جمييل ..
+      ممكن ابصيله الصورة من هنا\nبس المشكلة ف انواع الصور المختلفة"
+    id: '751115161594861'
+  - created_time: '2014-05-22T15:51:27+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: |-
+      Googling "C# crop imagebox" got this, it's the 2nd link in the search results.
+
+      http://stackoverflow.com/questions/17520976/crop-an-image-in-imagebox-control-and-save-it
+    id: '751115254928185'
+  - created_time: '2014-05-22T15:54:21+0000'
+    from:
+      name: Mohammed Alazhary
+      id: '10156036339794793'
+    message: |-
+      همممممم .. انتريستنج :D
+      تِسلم ..
+    id: '751116221594755'
+  - created_time: '2014-05-22T15:55:35+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: |-
+      Kindly do some proper research for a solution before posting, the next post like this, will get canned.
+
+      You've wasted my time, wasted everyone else's time and most of all, you wasted your time.
+    id: '751116541594723'
+  - created_time: '2014-05-22T15:58:03+0000'
+    from:
+      name: Mohammed Alazhary
+      id: '10156036339794793'
+    message: "عندك حق .. معلش الدماغ المصرية بقى واخدة ع الاستسهال .. -_- \nموش هاتتكر
+      تاني ان شاااء الله :  )"
+    id: '751117214927989'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOelV4TURneU5UazBPVE14TkRVeE9qRTBNREEzTnpBNE16ZAz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOelV4TVRFM01qRTBPVEkzT1RnNU9qRTBNREEzTnpReU9ETT0ZD

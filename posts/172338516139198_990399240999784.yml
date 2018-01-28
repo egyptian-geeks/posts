@@ -11,3 +11,78 @@ updated_time: '2015-08-15T18:42:22+0000'
 name: Probhacking
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/990399240999784/
 id: '172338516139198_990399240999784'
+reactions:
+  data:
+  - id: '1546098432153196'
+    name: Mohamed Essam
+    type: LIKE
+  - id: '780207808835710'
+    name: Mohamed Ali
+    type: LIKE
+  - id: '10215462521020547'
+    name: Abanoub Milad Hanna
+    type: LIKE
+  - id: '10215821417795301'
+    name: Loai Adel Abdelmoniem
+    type: LIKE
+  - id: '10211860855744972'
+    name: Ahmed Adel
+    type: LIKE
+  - id: '1282305855203832'
+    name: Mohamed Hesham Alma'zon
+    type: LIKE
+  - id: '2184614908219238'
+    name: Mohamed M-Gomaa
+    type: LIKE
+  - id: '1597124390366331'
+    name: Menna Mustafa
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlOVGt4TmpFMk5UVXpPakUwTXprM016UTVOVEE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlNRFl6TlRZANE5EQXlPakUwTXprMk5qUXhOVGs2TWpVME1EazJNVFl4TXc9PQZDZD
+attachments:
+  data:
+  - description: "عدنا إليكم من جديد :D\n\nشكل شركة Lenovo مش بتحرم! :3\n\nلتانى مرة،
+      فى نفس السنة، الشركة دى تتقفش فى من حاجة مش مظبوطة بتعملها مع الـ users بتوعها،
+      للى الناس اللى مش عارفة المشكلة الأولى، ده لينك ليها اتفضل :v\nhttp://on.fb.me/1J8PgH7\n\nمشكلة
+      المرة دى بقى ..\n\nفيه utility اسمها \"Lenovo Service Engine\" بتبقى موجودة
+      فى الـ BIOS فى أجهزة Lenovo، و دى بتنزّل برنامج اسمه \"OneKey Optimizer\" و
+      وظيفته انه بيحسن الأداء بتاع الجهاز  و يعمل update للـ firmware و الـ drivers
+      و الـ pre-install programs و بتشوف الـ  junk files و تمسحها و شوية حاجات تانية،
+      و كمان بتبعت سجل بمعلومات عن كيفية استخدامك للـ product بتاعهم و الشركة بتدعى
+      إن المعلومات دى مافيهاش حاجة \"شخصية\".\nالمشكلة، إن الـ users مايعرفوش اللى
+      بيحصل فعلاً زائد إن التخلص من اللى بيحصل ده صعب جداً!\n-\nلو انت بتستخدم Windows
+      7 Or 8 .. فالـ BIOS بيعمل check على لو إن الـ file اللى بالـ path ده:\nC:\\Windows\\system32\\autochk.exe\nهل
+      هو بتاع Microsoft و لا فيه الـ signature بتاعة Lenovo؟  و مافهوش الـ signature
+      فبيتم إعادة الكتابة عليه بالـ signature بتاعتهم.\n-\nبعد كده، الـ autochk المتعدل
+      عليه ده فى الـ boot اللى بعد كده للويندوز بيشتغل و فيه فايلين تانيين بيتم إنشائهم:
+      LenovoUpdate.exe و LenovoCheck.exe، و اللى بيبتدوا بدورهم بإنهم ينزلوا files
+      تانية لما يبقى فيه Internet Connection.\n-\nماشى، فين المشكلة بالظبط؟!\nفى 31
+      يوليو، اكتشفوا وجود \"ثغرة\" فى الـ Lenovo Service Engine اللى بتبقى موجودة
+      فى الـ BIOS بتاعة أجهزة لينوفو، و اللى الـhackers ممكن يستخدموها علشان يعملوا
+      شغلهم بقى 3:)\n\nالشركة نزلت patch علشان يعالج المشكلة دى، بس للأسف الكلام ده
+      مش فعال 100% و مش بيوقف وظيفة الـutility دى، و فيه جزء يدوى لازم يتعمل مش الـ
+      patch هو اللى يعملها! :/ \n- \nMicrosoft ليها دخل بالموضوع ده!\nفيه mechanism
+      لينوفو بتستخدمها من Microsoft Windows اسمها:\n\"Windows Platform Binary Table\"
+      و كان أول مرة تتطبق فى 2011 و تم تحديثها يوليو السنة دى.\nماشى، ها و بعدين؟\nالـ
+      mechanism دى بتسمح لصانعى أجهزة الكمبيوتر إنهم ينزلوا software على الـ system
+      \ من الـ BIOS!\nو من هنا جه موضوع استغلال الثغرة اللى هنا و اللى بيها الـ hackers
+      يقدروا ينزلوا أى حاجة على الجهاز بتاعك! :/ :/\n- \nالـ models المصابة بالموضوع
+      ده:\nFlex 2 Pro-15/Edge 15 (Broadwell/Haswell models),\nFlex 3-1470/1570/1120,
+      G40-80/G50-80/G50-80 Touch/V3000, S21e, S41-70/U40-70, S435/M40-35, Yoga 3 14,
+      Yoga 3 11, Y40-80, Z41-70/Z51-70 and Z70-80 / G70-80.\n\n-\nيا ترى ايه آخرة
+      Lenovo فى المواضيع دى؟\nمعروف انها شركة كبيرة و بنت اسم فى وقت قليل، شايف ان
+      ده هيهد من اسمها و لا لأ؟\nو هل الموضوع ده غير من رأيك فيها كشركة و قلل من ثقتك
+      فيها؟\n-\nلتفاصيل أكتر و المصدر: http://bit.ly/1J4Yy2l"
+    media:
+      image:
+        height: 480
+        src: https://scontent.xx.fbcdn.net/v/t31.0-0/p480x480/11227069_937312629669961_5326117068895764790_o.png?oh=a35ca57125936287985d7aa3f72d297e&oe=5AE654EE
+        width: 720
+    target:
+      id: '937312629669961'
+      url: https://www.facebook.com/probhacking/photos/a.751940524873840.1073741828.736304119770814/937312629669961/?type=3
+    title: Timeline Photos
+    type: photo
+    url: https://www.facebook.com/probhacking/photos/a.751940524873840.1073741828.736304119770814/937312629669961/?type=3

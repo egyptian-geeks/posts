@@ -1,0 +1,88 @@
+---
+message: |-
+  This might be a weird problem and might have other alternate solutions, but this is just what I want to do, and I want to know any clues:
+
+  - I don't want to cancel or disable automatic Windows update
+  - I don't want to stop the update service
+  - I don't want to install any firewall
+  - I need to block the process from downloading or block its port temporarily whenever I need the network traffic it consumes (hint killing the process halts the system)
+
+  Any ideas for commands or hacks for this?
+from:
+  name: Amr Medhat
+  id: '10155426916839779'
+type: status
+created_time: '2018-01-27T21:35:29+0000'
+updated_time: '2018-01-28T00:27:55+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1735425566497144/
+id: '172338516139198_1735425566497144'
+reactions:
+  data:
+  - id: '10156058891705747'
+    name: George Leon
+    type: LIKE
+  - id: '10155904322461093'
+    name: Mohamed Shehata
+    type: LIKE
+  - id: '1778598065504043'
+    name: Mohamed Zahran
+    type: LIKE
+  - id: '10116066877056474'
+    name: Omar Ibrahim
+    type: LIKE
+  paging:
+    cursors:
+      before: T0RBeU9URXdOelEyT2pFMU1UY3dPVE00T1RZANk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: T1RNM01UazBPRG94TlRFM01EZAzVNVGMwT2pJMU5EQTVOakUyTVRNPQZDZD
+comments:
+  data:
+  - created_time: '2018-01-27T21:41:40+0000'
+    from:
+      name: Ahmed Hassan
+      id: '10156284492809497'
+    message: I've been looking into ways to avoid disabling the updates altogether
+      but also stopping it from hogging all my bandwidth as well. Not sure if that'd
+      work for you but one option I found is that you could throttle the amount of
+      bandwidth it can use to download the updates via the windows group policy editor.
+    id: '1735583553148012'
+  - created_time: '2018-01-27T21:45:47+0000'
+    from:
+      name: Mohamed Eltantawi
+      id: '10160105091695314'
+    message: In Windows 10, you can set Windows Update to not use "metered" connections
+      to download updates, then set your connection to metered whenever you want the
+      bandwidth, then set it back as normal after.
+    id: '1735586439814390'
+  - created_time: '2018-01-27T22:12:45+0000'
+    from:
+      name: Eyad AlBahi
+      id: '10159879507655084'
+    message: Assuming your DSL router is your home DNS resolver, can't you just create
+      loophole/fake DNS A-host entries for the MS update domains used and point them
+      to a wrong IP like your gateway's IP? Then you remove those entries when you
+      really want it to update. Also, don't forget to set the DNS entries' TTL to
+      a very low value so that once you delete them, the client can connnect immediately.
+    id: '1735605073145860'
+  - created_time: '2018-01-27T22:21:18+0000'
+    from:
+      name: Mohamed Shehata
+      id: '10155904322461093'
+    message: I believe disabling the update "service" .
+    id: '1735610743145293'
+  - created_time: '2018-01-27T22:30:47+0000'
+    from:
+      name: Ahmed Mudhar
+      id: '1811551685586388'
+    message: use netlimiter 4
+    id: '1735616696478031'
+  - created_time: '2018-01-27T23:59:06+0000'
+    from:
+      name: Mohamed Abozaid
+      id: '1772673672756950'
+    message: i use resource monitor and Suspend the service that's updating, works
+      everytime for me.
+    id: '1735683956471305'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN6TlRVNE16VTFNekUwT0RBeE1qb3hOVEUzTURnNU16QXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN6TlRZANE16azFOalEzTVRNd05Ub3hOVEUzTURrM05UUTMZD

@@ -1,0 +1,41 @@
+---
+message: "Hi guys, \n\nThe GM asked me to find a way for a rapid development cross
+  platform system.. He wants to increase the productivity but I have concerns regarding
+  the ready made tools rather I want a tool that can generate cross platform code
+  but give me the ability to customize the code and add an architectural touch on
+  it. \n\nCould you help please?"
+from:
+  name: Mohammed Salah ElDin Mohammed
+  id: '10156126278858410'
+type: status
+created_time: '2016-12-26T14:16:37+0000'
+updated_time: '2016-12-28T20:30:37+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1337996242906747/
+id: '172338516139198_1337996242906747'
+comments:
+  data:
+  - created_time: '2016-12-26T14:55:51+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: There are no silver bullets. Even the choice to go crossplatform vs native
+      depends on what you are doing and how you want to achieve it. Generic requests
+      like "increased productivity" are usually a sign of bad things to come. What
+      exactly is your GM trying to achieve?
+    id: '1338030149570023'
+  - created_time: '2016-12-27T13:59:45+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: Cross platform for what? Desktop, mobile?
+    id: '1338814979491540'
+  - created_time: '2016-12-28T20:30:35+0000'
+    from:
+      name: Hossam Saraya
+      id: '10160260136260389'
+    message: I would go with React, React Native & Electron
+    id: '1339834082722963'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE16T0RBek1ERTBPVFUzTURBeU16b3hORGd5TnpZAME1UVXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE16T1Rnek5EQTRNamN5TWprMk16b3hORGd5T1RVM01ETTEZD

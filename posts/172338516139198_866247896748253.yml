@@ -11,3 +11,63 @@ created_time: '2014-12-23T17:49:55+0000'
 updated_time: '2014-12-24T09:44:52+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/866247896748253/
 id: '172338516139198_866247896748253'
+comments:
+  data:
+  - created_time: '2014-12-24T09:16:53+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: What are you using for the modal?
+    id: '866526883387021'
+  - created_time: '2014-12-24T09:20:20+0000'
+    from:
+      name: Khaled Ramadan
+      id: '10157199016384478'
+    message: just $modal
+    id: '866527980053578'
+  - created_time: '2014-12-24T09:22:34+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Just double checking, have you tried the official guidance on this ?
+      As in https://github.com/angular-ui/ui-router/wiki/Frequently-Asked-Questions#how-to-open-a-dialogmodal-at-a-certain-state
+    id: '866529133386796'
+  - created_time: '2014-12-24T09:31:18+0000'
+    from:
+      name: Khaled Ramadan
+      id: '10157199016384478'
+    message: |-
+      Yes but my case is Open modal at first step is to upload file and after that file uploaded successfully then at its success handler i should navigate to another view.
+      Currently first step works successfully but when i hit success handler and call $state.go('sellerAction') it doesn't navigate to that state
+    id: '866548726718170'
+  - created_time: '2014-12-24T09:33:17+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Well, file upload is always a hassle in these JS apps. Have you tried
+      a fiddle without the upload? What are you using for upload?
+    id: '866549256718117'
+  - created_time: '2014-12-24T09:34:23+0000'
+    from:
+      name: Khaled Ramadan
+      id: '10157199016384478'
+    message: angularFileUpload module
+    id: '866549770051399'
+  - created_time: '2014-12-24T09:38:32+0000'
+    from:
+      name: Khaled Ramadan
+      id: '10157199016384478'
+    message: http://www.mono-software.com/blog/post/Mono/233/Async-upload-using-angular-file-upload-directive-and-net-WebAPI-service/
+    id: '866550800051296'
+  - created_time: '2014-12-24T09:44:52+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Hmm. I have only used https://github.com/blueimp/jQuery-File-Upload with
+      AngularJS in the past, but have you been able to reproduce this without the
+      upload functionality?
+    id: '866552183384491'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFkyTlRJMk9EZA3pNemczTURJeE9qRTBNVGswTVRJMk1UTT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFkyTlRVeU1UZA3pNemcwTkRreE9qRTBNVGswTVRReU9UST0ZD

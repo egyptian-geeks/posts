@@ -9,3 +9,226 @@ created_time: '2015-07-27T18:22:57+0000'
 updated_time: '2015-07-27T20:49:22+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/980230055350036/
 id: '172338516139198_980230055350036'
+comments:
+  data:
+  - created_time: '2015-07-27T18:54:25+0000'
+    from:
+      name: Eslam Hamouda
+      id: '10212947071504226'
+    message: |-
+      لو انت على VM وعاوز تربطها بالدومين فـ Azure مالوش علاقة نهائي بالموضوع ده.
+      كل اللي انت محتاجة تظبط الـ Nameservers بتاعت الدومين من لوحة تحكم الـ Domain Registrar بتاعك ، وتعمل A Record يشاور على الـ Public IP بتاع الـ VM ، وتخلي الويب سيرفر يعمل Bind للـ Domain Name في الكونفيجريشن بتاعت الويب سايت.
+      واصبر شوية حلوين كده او اعمل Flush DNS وهتلاقي كله تمام.
+    id: '980240395349002'
+  - created_time: '2015-07-27T19:00:52+0000'
+    from:
+      name: Mina Malak
+      id: '10155996037437456'
+    message: لا براحه عليا فين الnamespaces ?
+    id: '980241965348845'
+  - created_time: '2015-07-27T19:02:45+0000'
+    from:
+      name: Mina Malak
+      id: '10155996037437456'
+    message: "بص انا عملت من godady الhostname و عملت الnameserver\nو عملت الa record
+      و عملت انه يشاور على الip \nكل ده معمول تمام"
+    id: '980242432015465'
+  - created_time: '2015-07-27T19:02:52+0000'
+    from:
+      name: Mina Malak
+      id: '10155996037437456'
+    message: احمد رأفت
+    id: '980242452015463'
+  - created_time: '2015-07-27T19:03:09+0000'
+    from:
+      name: Eslam Hamouda
+      id: '10212947071504226'
+    message: "الـ Nameservers أسف ، \nhttps://www.godaddy.com/help/setting-custom-nameservers-for-domains-registered-with-us-12317"
+    id: '980242488682126'
+  - created_time: '2015-07-27T19:03:34+0000'
+    from:
+      name: Eslam Hamouda
+      id: '10212947071504226'
+    message: اعمل nslookup domainname.tld وشوف الأي بي هيرجع مظبوط ولا لأ
+    id: '980242582015450'
+  - created_time: '2015-07-27T19:03:38+0000'
+    from:
+      name: Mina Malak
+      id: '10155996037437456'
+    message: كل ده معمول تمام
+    id: '980242595348782'
+  - created_time: '2015-07-27T19:07:12+0000'
+    from:
+      name: Mina Malak
+      id: '10155996037437456'
+    message: |-
+      مش شايف الip
+      Error determining IP Addresses
+    id: '980243445348697'
+  - created_time: '2015-07-27T19:08:33+0000'
+    from:
+      name: Mina Malak
+      id: '10155996037437456'
+    message: "de el errors \nhttp://intodns.com/restart-technology.com"
+    id: '980243855348656'
+  - created_time: '2015-07-27T19:08:35+0000'
+    from:
+      name: Omar Mohsen
+      id: '1629690233758127'
+    message: You need to add a CNAME record in your DNS zone what is the domain name?
+    id: '980243858681989'
+  - created_time: '2015-07-27T19:09:36+0000'
+    from:
+      name: Mina Malak
+      id: '10155996037437456'
+    message: cname is directing the domain not pointing it should work anyway with
+      the direct right ???
+    id: '980244232015285'
+  - created_time: '2015-07-27T19:15:46+0000'
+    from:
+      name: Omar Mohsen
+      id: '1629690233758127'
+    message: |-
+      1)You need to fix all the DNS issues, especially your name server issues.
+      2)CNAME is type of DNS record which is used as an alias for another domain e.g for a CNAME record:
+      www.google.com CNAME google.com www.google.com points to google.com, you need to configure a CNAME  as required to point to the other domain requested by Azure that is through modifying your DNS zone.
+    id: '980246635348378'
+  - created_time: '2015-07-27T19:18:10+0000'
+    from:
+      name: Mina Malak
+      id: '10155996037437456'
+    message: |-
+      why mn el awl it's not working this is the first time this happens ...
+      Omar Mohsen
+    id: '980247122014996'
+  - created_time: '2015-07-27T19:21:25+0000'
+    from:
+      name: Omar Mohsen
+      id: '1629690233758127'
+    message: You have an issue with your name server 157.56.183.24, I am not sure
+      what is wrong with the name server, there is insufficient information.
+    id: '980247988681576'
+  - created_time: '2015-07-27T19:22:54+0000'
+    from:
+      name: Mina Malak
+      id: '10155996037437456'
+    message: it comes from azure there is something you need to know this ip is attached
+      to a domain azure gave me so right now i made a cname to that domain azure gave
+      me so that www will direct my domain to that azure domain they gave me correct
+      me if i am wrong
+    id: '980248348681540'
+  - created_time: '2015-07-27T19:26:58+0000'
+    from:
+      name: Omar Mohsen
+      id: '1629690233758127'
+    message: www is just an example, I am not sure what is required from the Azure
+      documentation you will have to refer to that, even if you solve the CNAME issue,
+      you need to fix your DNS issues first.
+    id: '980249812014727'
+  - created_time: '2015-07-27T19:28:05+0000'
+    from:
+      name: Mina Malak
+      id: '10155996037437456'
+    message: cool how to fix it then :D Omar Mohsen
+    id: '980250848681290'
+  - created_time: '2015-07-27T19:37:29+0000'
+    from:
+      name: Omar Mohsen
+      id: '1629690233758127'
+    message: You might have to look in your DNS zone, it most likely to be a problem
+      with your BIND DNS zone configuration
+    id: '980257622013946'
+  - created_time: '2015-07-27T20:17:05+0000'
+    from:
+      name: Raafat Agha
+      id: '913727892128041'
+    message: |-
+      dig @157.56.183.24 restart-technology.com
+
+      ; <<>> DiG 9.9.7 <<>> @157.56.183.24 restart-technology.com
+      ; (1 server found)
+      ;; global options: +cmd
+      ;; Got answer:
+      ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 45785
+      ;; flags: qr aa rd; QUERY: 1, ANSWER: 1, AUTHORITY: 2, ADDITIONAL: 3
+      ;; WARNING: recursion requested but not available
+
+      ;; OPT PSEUDOSECTION:
+      ; EDNS: version: 0, flags:; udp: 4096
+      ;; QUESTION SECTION:
+      ;restart-technology.com.                IN      A
+
+      ;; ANSWER SECTION:
+      restart-technology.com. 86000   IN      A       157.56.183.24
+
+      ;; AUTHORITY SECTION:
+      restart-technology.com. 86000   IN      NS      ns2.restart-technology.com.
+      restart-technology.com. 86000   IN      NS      ns1.restart-technology.com.
+
+      ;; ADDITIONAL SECTION:
+      ns1.restart-technology.com. 86000 IN    A       157.56.183.24
+      ns2.restart-technology.com. 86000 IN    A       157.56.183.24
+
+      ;; Query time: 0 msec
+      ;; SERVER: 157.56.183.24#53(157.56.183.24)
+      ;; WHEN: Mon Jul 27 20:16:26 UTC 2015
+      ;; MSG SIZE  rcvd: 135
+    id: '980271652012543'
+  - created_time: '2015-07-27T20:17:39+0000'
+    from:
+      name: Raafat Agha
+      id: '913727892128041'
+    message: الbind server configuration مفهوش مشاكل
+    id: '980271822012526'
+  - created_time: '2015-07-27T20:20:38+0000'
+    from:
+      name: Raafat Agha
+      id: '913727892128041'
+    message: انا access ع السيرفر بتاعه و متابع معاكم :D
+    id: '980272718679103'
+  - created_time: '2015-07-27T20:27:35+0000'
+    from:
+      name: Mina Malak
+      id: '10155996037437456'
+    message: Eslam Hamouda why you removed the comment ... it's wrong ?
+    id: '980274612012247'
+  - created_time: '2015-07-27T20:28:09+0000'
+    from:
+      name: Omar Mohsen
+      id: '1629690233758127'
+    message: |-
+      Please check the A records
+      dig @8.8.4.4 restart-technology.com a
+
+      ; <<>> DiG 9.9.5-3ubuntu0.3-Ubuntu <<>> @8.8.4.4 restart-technology.com a
+      ; (1 server found)
+      ;; global options: +cmd
+      ;; Got answer:
+      ;; ->>HEADER<<- opcode: QUERY, status: SERVFAIL, id: 14411
+      ;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+      ;; OPT PSEUDOSECTION:
+      ; EDNS: version: 0, flags:; udp: 512
+      ;; QUESTION SECTION:
+      ;restart-technology.com. IN A
+
+      ;; Query time: 3188 msec
+      ;; SERVER: 8.8.4.4#53(8.8.4.4)
+      ;; WHEN: Mon Jul 27 22:27:48 EET 2015
+      ;; MSG SIZE  rcvd: 51
+    id: '980274762012232'
+  - created_time: '2015-07-27T20:49:22+0000'
+    from:
+      name: Ahmed Magdy
+      id: '10155638727450376'
+    message: |-
+      I believe that you don't need to change your nameservers.
+      1- Create DNS A Record to you www.urdomain.com with your VM public IP; note that each VM in azure has both private and public IP
+      2- If you have windows VM and hosting in IIS then make sure to change the binding to add your domain (for example: www.urdomain.com) as a host header
+
+      Since u r using VMs (IaaS) so u r responsible for your configurations and u won't need any CNAME records
+    id: '980279572011751'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVGd3TWpRd016azFNelE1TURBeU9qRTBNemd3TWpNeU5qVT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVGd3TWpjNU5UY3lNREV4TnpVeE9qRTBNemd3TXpBeE5qST0ZD

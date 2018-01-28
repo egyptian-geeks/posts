@@ -11,3 +11,116 @@ created_time: '2014-04-30T16:03:50+0000'
 updated_time: '2014-05-01T16:02:01+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/739216736118037/
 id: '172338516139198_739216736118037'
+reactions:
+  data:
+  - id: '10204363718130247'
+    name: Ahmed ELgendy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRjME9EZAzJNalEyTkRveE16azRPRGMzTmpZANU9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRjME9EZAzJNalEyTkRveE16azRPRGMzTmpZANU9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2014-04-30T19:28:53+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: |-
+      I've always enjoyed AB for quick stuff, if I'm load testing on a production system it's non-other than Tsung. The latest thing that caught my eyes was boom in Go.
+      AB is actually lovely if you know what you're doing and Tsung is an Erlang love child so that's a sweet spot for me.
+
+      There's also Ruby's benchmark module. For a head start on AB you can follow this http://robots.thoughtbot.com/7-minute-ab-impatient-mans-load-tests-for-a-heroku it's from 2011 but still relevant.
+    id: '739300539442990'
+  - created_time: '2014-04-30T19:33:11+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: https://github.com/rakyll/boom That's the Go version, the original written
+      in Python is at https://github.com/tarekziade/boom
+    id: '739302099442834'
+  - created_time: '2014-04-30T20:02:17+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: Hady Ahmed Im satisfied with ab the only thing I wish it had is results
+      graphs I had to save results as a scv then visualize them with gnuplot or any
+      other tool so I was wandering if there's a combo tool :D
+    id: '739316656108045'
+  - created_time: '2014-04-30T20:29:04+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: That's about the best combo you'll get if you're going vanilla with nix
+      tools
+    id: '739324856107225'
+  - created_time: '2014-04-30T20:30:31+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: http://www.bradlanders.com/2013/04/15/apache-bench-and-gnuplot-youre-probably-doing-it-wrong/
+    id: '739329012773476'
+  - created_time: '2014-04-30T20:31:24+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: "yup. im also need to know much more about cpu and memory utilization
+      do you have an idea?! \n\ndude while search i read this comment!\nhttp://stackoverflow.com/questions/2528266/how-to-benchmark-apache-nginx-setup#answer-11174936"
+    id: '739329926106718'
+  - created_time: '2014-04-30T20:37:47+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: |-
+      Yeah.. No. I came across it last year and it struck me, been serving the internet since 1999 and been stuck in 1997, so I passed.
+
+      There's an array of tools out there, I only shared the ones I've had a pleasant experience with. Take your pick and have fun ;)
+      http://www.opensourcetesting.org/performance.php
+    id: '739331689439875'
+  - created_time: '2014-04-30T20:39:54+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: |-
+      lol think i'll get stuck too :D
+      thanks man it's a fruitful link :)
+    id: '739332219439822'
+  - created_time: '2014-05-01T05:09:08+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: what exactly you want to benchmark ?
+    id: '739496122756765'
+  - created_time: '2014-05-01T15:09:43+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: CPU and memory utilization and the response time for sure
+    id: '739670409406003'
+  - created_time: '2014-05-01T15:31:13+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: Response time can be measured with JMeter. CPU & memory utilization is
+      measured by using the normal Unix tools. There is no one-size-fits-all.
+    id: '739677459405298'
+  - created_time: '2014-05-01T15:40:58+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: Mohammad Tayseer yes da eli kan asdy 3leh, there's no one tool for doing
+      all. but do do know a trick to measure CPU and memory usage only during the
+      stress testing process?!
+    id: '739681302738247'
+  - created_time: '2014-05-01T16:02:01+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      Even at one of the world's largest corporations, we used tricks like this http://unix.stackexchange.com/questions/554/how-to-monitor-cpu-memory-usage-of-a-single-process
+      you start it & stop it manually, or you write a script to automate the whole process
+    id: '739687796070931'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOek01TXpBd05UTTVORFF5T1Rrd09qRXpPVGc0T0RZAeE16TT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOek01TmpnM056azJNRGN3T1RNeE9qRXpPVGc1TmpBeE1qRT0ZD

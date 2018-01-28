@@ -10,3 +10,80 @@ updated_time: '2014-11-10T10:40:54+0000'
 name: Dev.Opera — Everything You Need to Know About the CSS will-change Property
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/843933438979699/
 id: '172338516139198_843933438979699'
+reactions:
+  data:
+  - id: '10208377163265082'
+    name: Mo'az Mohsen
+    type: LIKE
+  - id: '10155322935023683'
+    name: Mosaad Ghaly
+    type: LIKE
+  - id: '1573619512716214'
+    name: Mohamed Alaa El Din
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRjNE5UTXhORGs1TWpveE5ERTFPVEEwT1RnNE9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBd01EQXlNRFExTkRJNU1ESTVPakUwTVRVMU9URTVORFk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2014-11-10T07:36:57+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: |-
+      This is a less-ugly hack replacing an ugly hack. The whole problem is supposed to be fixed by the browsers vendors. We shouldn't trigger the GPU to work.
+      This is still a working draft, I believe that if there is one sane person at the W3C then this specification will be deprecated.
+    id: '843985555641154'
+  - created_time: '2014-11-10T08:20:05+0000'
+    from:
+      name: Ahmed Elbaz
+      id: '1757500217628545'
+    message: my understanding of will-change is to optimize the startup time for heavy
+      changes by telling the browser your intention. I think the tradeoff here is
+      that browsers can't prepare for all or most possible optimizations due to the
+      limited resources and at the same time developers know which optimizations matter
+      most.
+    id: '843994225640287'
+  - created_time: '2014-11-10T09:33:30+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: |-
+      I am not sure what you mean by "startup time". What I know is that it will trigger the Graphic Processing Unit of your hardware to take care of the rendering of the elements instead of the rendering engine of the browser. This results in smoother animation, eradication of flickering and forcing of continuous elements repainting...
+      This is always a problem when properties like width,height, border,position change... (More about this here;http://www.html5rocks.com/en/tutorials/speed/unnecessary-paints/ and here: http://www.phpied.com/rendering-repaint-reflowrelayout-restyle/)
+    id: '844011298971913'
+  - created_time: '2014-11-10T10:39:10+0000'
+    from:
+      name: Ahmed Elbaz
+      id: '1757500217628545'
+    message: I meant it is not about forcing the browser to use GPU instead of CPU.
+      It is more about informing the browser which changes are going to happen to
+      get ready and do the required optimizations for these changes to render fast
+    id: '844033058969737'
+  - created_time: '2014-11-10T10:40:54+0000'
+    from:
+      name: Ahmed Elbaz
+      id: '1757500217628545'
+    message: I am talking here about will-change new attribute ☺
+    id: '844033502303026'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFF6T1RnMU5UVTFOalF4TVRVME9qRTBNVFUyTURVd01UYz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFEwTURNek5UQXlNekF6TURJMk9qRTBNVFUyTVRZAd05UUT0ZD
+attachments:
+  data:
+  - description: Everything You Need to Know About the CSS will-change PropertyIntroductionIf
+      you’ve ever noticed “that flicker” in WebKit-based browsers while performing
+      certain CSS operations, especially CSS transforms and animations, then you’ve
+      most likely come across the term “hardware acceleration” before.The…
+    media:
+      image:
+        height: 256
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAJSSD1FbN7Fzsy&w=256&h=256&url=https%3A%2F%2Fdev.opera.com%2Fauthors%2Fsara-soueidan.jpg&cfs=1&sx=0&sy=0&sw=256&sh=256&_nc_hash=AQAoeLuVzgrgrAvo
+        width: 256
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fdev.opera.com%2Farticles%2Fcss-will-change-property%2F&h=ATOjRsfzFKdIX0GyfKxPU_5LUCVqFfb_9S94sg8o0N3OuYVif7_Oq57jK4nv6R8NElCrtkovS7uDSzaLI2QMg87SpzyoCliAhBFI&s=1&enc=AZM6z-vRkAfXG98iFPZIKso5LEoYJAVkcwCmg3csu6yBwtyj1Jt8Vu44UtD28KZ34BG2bKzgqDvhE9CXBXWBSGcO
+    title: Dev.Opera — Everything You Need to Know About the CSS will-change Property
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fdev.opera.com%2Farticles%2Fcss-will-change-property%2F&h=ATOjRsfzFKdIX0GyfKxPU_5LUCVqFfb_9S94sg8o0N3OuYVif7_Oq57jK4nv6R8NElCrtkovS7uDSzaLI2QMg87SpzyoCliAhBFI&s=1&enc=AZM6z-vRkAfXG98iFPZIKso5LEoYJAVkcwCmg3csu6yBwtyj1Jt8Vu44UtD28KZ34BG2bKzgqDvhE9CXBXWBSGcO

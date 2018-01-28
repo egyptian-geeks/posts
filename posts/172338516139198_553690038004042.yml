@@ -11,3 +11,142 @@ created_time: '2013-04-14T05:01:36+0000'
 updated_time: '2013-04-14T15:49:28+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/553690038004042/
 id: '172338516139198_553690038004042'
+reactions:
+  data:
+  - id: '10212980030990010'
+    name: Ahmed Wahdan
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBMk9EWTFOVEF5TXpveE16WTFPVEUyTXpjMU9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBMk9EWTFOVEF5TXpveE16WTFPVEUyTXpjMU9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2013-04-14T05:03:52+0000'
+    from:
+      name: Eslam Hamouda
+      id: '10212947071504226'
+    message: "public static string Solve(long a,long b)\n        {\n            long
+      count = 0;\n            for (long i = a; i <= b; i++)\n            {\n                if
+      (IsSquare(i))\n                    count++;\n            }\n            return
+      count.ToString();\n        }\n\n        public static bool IsSquare(long num)\n
+      \       {\n            double res = Math.Sqrt(num);       \n            return
+      (res % 1 == 0);\n        }"
+    id: '553690548003991'
+  - created_time: '2013-04-14T05:05:32+0000'
+    from:
+      name: Eslam Hamouda
+      id: '10212947071504226'
+    message: |-
+      a=8;
+      b=82617287827162;
+    id: '553690954670617'
+  - created_time: '2013-04-14T05:18:26+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: "Are you trying to count the number of perfect squares?\n\npublic static
+      int Solve(long a,long b)\n{\n long count = 0;\n for (long i = a; i <= Math.Sqrt(b);
+      i++)\n { \n count++;\n }\n return count;\n}"
+    id: '553693674670345'
+  - created_time: '2013-04-14T05:25:26+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: It will help if you can tell us what you are trying to do.
+    id: '553694974670215'
+  - created_time: '2013-04-14T05:25:35+0000'
+    from:
+      name: Eslam Hamouda
+      id: '10212947071504226'
+    message: |-
+      yes i'm trying to count the numbers within a to b range if this condition is true :
+      if (IsPlindrome(i) &&IsSquare(i)&&IsPlindrome((long)Math.Sqrt(i)))
+                          count++;
+      and this works fine if the number is int not long !!!
+    id: '553694981336881'
+  - created_time: '2013-04-14T05:26:39+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: In English please - Or arabic - what is the purpose of the program.
+    id: '553695091336870'
+  - created_time: '2013-04-14T05:27:33+0000'
+    from:
+      name: Eslam Hamouda
+      id: '10212947071504226'
+    message: https://code.google.com/codejam/contest/2270488/dashboard#s=p2
+    id: '553695194670193'
+  - created_time: '2013-04-14T05:30:24+0000'
+    from:
+      name: Eslam Hamouda
+      id: '10212947071504226'
+    message: 'another link : http://blog.csdn.net/june_fiend/article/details/8795927'
+    id: '553695594670153'
+  - created_time: '2013-04-14T06:00:29+0000'
+    from:
+      name: Eslam Hamouda
+      id: '10212947071504226'
+    message: |-
+      ما توجعش دماغك وتضيع وقتك بالمشكلة وحلها , انا بس عاوز أعرف مشكلة الأرقام الكبيرة أوي دي هتعامل معاها ازاي في المشاكل اللي بعد كده , الجولة دي حليتها وخلصت وخلاص بس قولت اعرف المشكلة فين عشان لو قابلتني حاجة زيها بعد كده خسارة أضيع النقط بتاعتها :)
+      وغالباً حاجة زي دي هتبقى محتاجة مكتبات خارجية للتعامل مع الارقام دي زي ما لقيتهم كاتبين في الشروط :
+      http://intx.codeplex.com/
+    id: '553700911336288'
+  - created_time: '2013-04-14T06:04:26+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: هو الSquares بتاعة الأرقام دي مش حينفع تحطها في long أعتقد حتحتاج تستخدم
+      BigInteger
+    id: '553701794669533'
+  - created_time: '2013-04-14T06:04:48+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: BigInteger دي class في ال#C
+    id: '553701871336192'
+  - created_time: '2013-04-14T10:33:33+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      You need to optimize your algorithm. You check all the numbers between 8 and 82617287827162, which is 82617287827154. Assuming that each iteration in the loop takes 1 nanosecond, then running your loop will take almost 23 hours
+
+      MHossam has sent the optimized version. You just need to add "IsPalindrome"
+    id: '553758307997215'
+  - created_time: '2013-04-14T10:38:59+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: Using MHossam optimization & Python implementation, it took 20 seconds
+      to run
+    id: '553759057997140'
+  - created_time: '2013-04-14T15:35:09+0000'
+    from:
+      name: Eslam Hamouda
+      id: '10212947071504226'
+    message: فعلاً تم حل المشكلة بعد التعديلات اللي قولتوا عليها والمشكلة فعلاً في
+      الألجوريزم كان شغال بس كان هياخود وقت كتير جداً زي ما قولت لكن بعد التعديل وتشغيلة
+      10000 مرة باختلاف المدى اللي هيبحث جواه , طلع النتائج كلها سليمة في 126 ثانية
+      , شكراً ليكم :)
+    id: '553914124648300'
+  - created_time: '2013-04-14T15:46:04+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: العفو :) علي فكرة مسابقات أويلر وكود جام في الأغلب مش هينفع معاها الـ
+      brute force solutions. عشان كده حاول تعمل optimization  دايما
+    id: '553917301314649'
+  - created_time: '2013-04-14T15:49:28+0000'
+    from:
+      name: Eslam Hamouda
+      id: '10212947071504226'
+    message: تمام أوي , أصل اول مرة ادخلها وما اتدربتش عليها قبل كده خالص وماكنش في
+      وقت كتير قدامي ويادوب حليت الـ Small Sample لكن لما جيت في الارقام الكبيرة حصلت
+      المشكلة دي معايا , بس الحمد لله عديت مرحلة التأهيل , هحاول بقى اتدرب على حلول
+      النوع ده من المشاكل :)
+    id: '553918424647870'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOVFV6Tmprd05UUTRNREF6T1RreE9qRXpOalU1TVRVNE16ST0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOVFV6T1RFNE5ESTBOalEzT0Rjd09qRXpOalU1TlRRMU5qZAz0ZD

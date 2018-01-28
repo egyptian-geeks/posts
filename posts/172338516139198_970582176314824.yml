@@ -13,3 +13,177 @@ updated_time: '2015-07-11T16:59:38+0000'
 name: Get a Redis
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/970582176314824/
 id: '172338516139198_970582176314824'
+reactions:
+  data:
+  - id: '10155880569740170'
+    name: Meligy
+    type: LIKE
+  - id: '1555752981144826'
+    name: Essam A. Hassan
+    type: LIKE
+  - id: '10156102161974222'
+    name: Mohamed Mahmoud Abdallah
+    type: LIKE
+  - id: '10155738795381858'
+    name: Mohamed Abdellatif
+    type: LIKE
+  - id: '10155396126947689'
+    name: Mohammed Farghal
+    type: LIKE
+  - id: '1657509230977456'
+    name: Hosam Aly
+    type: LIKE
+  - id: '10213017755051330'
+    name: Abdelrhman Shawky
+    type: LIKE
+  - id: '1249002138533425'
+    name: Ahmed Hatata
+    type: LIKE
+  - id: '10160260136260389'
+    name: Hossam Saraya
+    type: LIKE
+  - id: '1655425661170220'
+    name: Omar Negm
+    type: LIKE
+  - id: '2138170729844659'
+    name: Saad Shahd
+    type: LIKE
+  - id: '10159825719935065'
+    name: Shenouda Bertel
+    type: LIKE
+  - id: '10216171489907822'
+    name: Sameh Ammar
+    type: LIKE
+  - id: '10155780527142535'
+    name: Ahmed Eldosoukey
+    type: LIKE
+  - id: '10212947071504226'
+    name: Eslam Hamouda
+    type: LIKE
+  - id: '10214204524280003'
+    name: Ahmed Helil
+    type: LIKE
+  - id: '10156101750354025'
+    name: Mohamed Samy
+    type: LIKE
+  - id: '10159958402365584'
+    name: Adel K. Khalil
+    type: LIKE
+  - id: '10155855157936047'
+    name: Mosab Ibrahim
+    type: LIKE
+  - id: '10159730542520062'
+    name: Omar Sherif
+    type: LIKE
+  - id: '1763959737010749'
+    name: Ahmed Mahmoud
+    type: LIKE
+  - id: '859391800899712'
+    name: Mohamed Huzien
+    type: LIKE
+  - id: '10155547863649263'
+    name: Ahmed M. Araby
+    type: LIKE
+  - id: '1570218796388620'
+    name: عبدالرحمن محمود
+    type: LIKE
+  - id: '10156044918196465'
+    name: Salman El-Dash
+    type: LIKE
+  - id: '1666406580084320'
+    name: Abdulrahman Mohamed
+    type: LIKE
+  - id: '10214796374519514'
+    name: Islam AbdelMohaimen Hassan
+    type: LIKE
+  - id: '1635412699859063'
+    name: Mohamed Taha
+    type: LIKE
+  - id: '10156141798419343'
+    name: Jihan Adel
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRRME9ERTFNVFk1T2pFME16WTJOakF5T1RnNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TmpJMk56RTVNelF5T2pFME16WTFNelF6TmpnNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2015-07-10T14:02:49+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: Awesome! (Y)
+    id: '970595279646847'
+  - created_time: '2015-07-10T14:06:11+0000'
+    from:
+      name: Mohamed Bassem
+      id: '10212826240185281'
+    message: Eslam Hamouda, btw I inspired the project idea from your graduation project
+      :D
+    id: '970597196313322'
+  - created_time: '2015-07-10T14:06:50+0000'
+    from:
+      name: Mohamed Bassem
+      id: '10212826240185281'
+    message: Mosab Ahmad, Thank you :D
+    id: '970597412979967'
+  - created_time: '2015-07-10T14:22:16+0000'
+    from:
+      name: Ahmed Zain Mohammed
+      id: '10156266511868081'
+    message: ''
+    id: '970602582979450'
+  - created_time: '2015-07-10T15:00:25+0000'
+    from:
+      name: Eslam Hamouda
+      id: '10212947071504226'
+    message: |-
+      Very Impressive! (y)
+      and it will be more AWESOME if you finished the up coming item in your ToDo ;)
+    id: '970613702978338'
+  - created_time: '2015-07-11T11:44:40+0000'
+    from:
+      name: Mohamed Bassem
+      id: '10212826240185281'
+    message: |-
+      Eslam, Thank you ^_^ Yeah my plan  is to offer many services with just a click. So for example you are writing a proof of concept for something, you need mysql, redis and elasticsearch, with three clicks and without leaving the same page you can get them.
+      Currently adding more services is as easy as changing a variable because of docker, the problem is with managing those services. The good thing about redis is that it is very lightweight. Yesterday I had four one core droplets each running 40 redis containers without the cpu usage going over 8%. It won't be the case with mysql and for sure not with elasticsearch for example :D
+    id: '970918762947832'
+  - created_time: '2015-07-11T12:13:45+0000'
+    from:
+      name: Essam A. Hassan
+      id: '1555752981144826'
+    message: amazing! thank you :D
+    id: '970924536280588'
+  - created_time: '2015-07-11T16:57:58+0000'
+    from:
+      name: Mohamed Bassem
+      id: '10212826240185281'
+    message: Essam, thank you ^_^
+    id: '971006789605696'
+  - created_time: '2015-07-11T16:59:38+0000'
+    from:
+      name: Mohamed Bassem
+      id: '10212826240185281'
+    message: That's the cpu usage of one of the hosts that reached 40 containers,
+      you can notice that the cpu usage didn't exceed 6% :D w you can also notice
+      the usage getting low again after the end of the 12 hours :D
+    id: '971007002939008'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVGN3TlRrMU1qYzVOalEyT0RRM09qRTBNelkxTXpZANU5qaz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVGN4TURBM01EQXlPVE01TURBNE9qRTBNelkyTXpNNU56ZAz0ZD
+attachments:
+  data:
+  - description: A one click, docker based, auto scaling, Redis host implemented in
+      Go and hosted on Digitalocean.
+    media:
+      image:
+        height: 656
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQBOyjNJxmr56SZE&w=720&h=720&url=http%3A%2F%2Fgetaredis.mbassem.com%2Fimgs%2FGetARedisHomePage.png&cfs=1&_nc_hash=AQAusskuDEvDhZRV
+        width: 656
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fgetaredis.mbassem.com%2F&h=ATPa2EBDAshvyXKNXOvCLIn4GVIczK3PZVc44u-yHUeYtFr4LNE0kZRfxNQuQtp-StGsC3vR5w8kiN9QLDshkMgA-SBJNgO5BZDx&s=1&enc=AZOa5Bar8m8tKnA777gu8YfpR0B8Rk8-bRIu-Gpk3-PnGWhgbevo5lEhO7f9tUH9lTvFLme7pRKt39M7WFdgaYg9
+    title: Get a Redis
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fgetaredis.mbassem.com%2F&h=ATPa2EBDAshvyXKNXOvCLIn4GVIczK3PZVc44u-yHUeYtFr4LNE0kZRfxNQuQtp-StGsC3vR5w8kiN9QLDshkMgA-SBJNgO5BZDx&s=1&enc=AZOa5Bar8m8tKnA777gu8YfpR0B8Rk8-bRIu-Gpk3-PnGWhgbevo5lEhO7f9tUH9lTvFLme7pRKt39M7WFdgaYg9

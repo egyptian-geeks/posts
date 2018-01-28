@@ -12,3 +12,187 @@ updated_time: '2015-02-02T18:36:54+0000'
 name: Raspberry Pi 2 on sale now at $35 | Raspberry Pi
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/889568337749542/
 id: '172338516139198_889568337749542'
+reactions:
+  data:
+  - id: '10159845609090858'
+    name: Mohamed Kassem
+    type: LIKE
+  - id: '10156095976664136'
+    name: Moustafa Abdelaziz
+    type: LIKE
+  - id: '10155173051963199'
+    name: Pola Ashraf
+    type: LIKE
+  - id: '10155056867911922'
+    name: Ahmed Sadek Mohamed Tawfik
+    type: LIKE
+  - id: '10160105091405314'
+    name: Mohamed Elsherif
+    type: LIKE
+  - id: '1629690233758127'
+    name: Omar Mohsen
+    type: LIKE
+  - id: '10156575426331336'
+    name: Amr Ali Tealeb
+    type: LIKE
+  - id: '10156089336182292'
+    name: Hassan Aly Selim
+    type: LIKE
+  - id: '10155134229550373'
+    name: Hussein Eldabaa
+    type: LIKE
+  - id: '10159793085030431'
+    name: Ahmed El Deraa
+    type: LIKE
+  - id: '10215834435679186'
+    name: Diaa Sami
+    type: LIKE
+  - id: '10155833475081885'
+    name: Mohamed El-Kholy
+    type: LIKE
+  paging:
+    cursors:
+      before: TnpRNU16WXdPRFUzT2pFME1qSTVOamN3TVRVNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TmpFeU1URTJPRGcwT2pFME1qSTROekF4TkRBNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2015-02-02T13:45:06+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      I want one with Windows 10 :D
+      And ... Quad Core ARM processor with 1GB RAM? That's as powerful as my smartphone! Impressive :)
+    id: '889659061073803'
+  - created_time: '2015-02-02T14:05:47+0000'
+    from:
+      name: Hisham Abd El-Hafez Eid
+      id: '10156032627411171'
+    message: I am already doing so much with my Raspberry Pi B+, can't imagine what
+      I can do more. I will definitely host my web site one this new one :)
+    id: '889680931071616'
+  - created_time: '2015-02-02T14:09:18+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Hassan Aly Selim you need to taste the power of Linux
+    id: '889682627738113'
+  - created_time: '2015-02-02T14:15:38+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      I did taste it ... back in 2007/2008 using Ubuntu 7.10 :D
+      It was cool and fancy, but when it got to real usage (not just stuff in a browser) I was more comfortable in Windows, I'm not a terminal person.
+      I also like how MS now unified the dev tools for all their platforms, so this "IoT version" of Windows 10 should be programmable using the same WinRT APIs I use for desktop/tablet Win8.1 and WP8.1, and I'm already heavily invested in C# (and XAML), so this would be the easier way for me. Even if I use Ubuntu on it, Mono (or .Net Core) will be the first thing I apt-get :D
+      (edit: and I know that Python is very powerful too and (almost?) as readable as C#, but it would take some time for me to get used to it)
+    id: '889684401071269'
+  - created_time: '2015-02-02T14:19:58+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Hassan Aly Selim After doing work in Python, then going back to C# then
+      Python. I feel do much more expressive in Python. The thing that does sound
+      strange to me, are you developing native apps on Windows? Can you give examples?
+    id: '889686034404439'
+  - created_time: '2015-02-02T14:21:54+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: I do have mono for C#, but I prefer to fire up y windows VM and use VStudio
+      if I do work on c#. I have found that my dev environements need to live on VMs.  So
+      Python is all on a linux environment, whether I sue Pycharm, VIM or Emacs. C#,
+      there is only one real alternative for that and that is VStudio.
+    id: '889687661070943'
+  - created_time: '2015-02-02T14:22:25+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Daily use, Linux is more stable and handles memory much better. It also
+      makes a great host for VMs
+    id: '889688171070892'
+  - created_time: '2015-02-02T14:32:55+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Hassan Aly Selim I also have no doubt in my mind that you can write great
+      scripts and do apt-get very easily, since you are obviously a developer and
+      have at least 5 years experience coding, and I am sure you have a lot more
+    id: '889692384403804'
+  - created_time: '2015-02-02T14:34:59+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      If by native you mean unmanaged (C++) then no, but I do tons of stuff in C# (desktop and web). And on the Win8/WP8 side of things, I have very few complete stuff that are on the store, probably the fanciest is "Mawaweel" on Win8.1 and WP8 which is music player that plays stuff from mawaly.com (I don't like arabic music, I just got the chance to do this because a friend made an unofficial api for that website :D)
+
+      And about stable environments, it seemed to me that every now and then there would be a not-so-stable Ubuntu release, and to me memory handling isn't a big issue (I just upgraded my laptop from 4GB to 8GB), the only problem I have right now is that Windows 8/8.1 seem to lock on hard drive access more than Win7 as if they assumed most people have SSDs now (or maybe my Hard Drive just got old), apart from that I comfortably run multiple instances of VS and debug stuff on my Phone and on IIS Express :)
+    id: '889693164403726'
+  - created_time: '2015-02-02T14:38:24+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Hassan Aly Selim  The mawaly thing :) I mean by native Windows forms
+      applications, not the so called Apps people do these days. Debian has proven
+      very stable and in 3 years I have had no problem with Ubuntu 12.04, 13. I am
+      actually at 12.04.
+    id: '889694401070269'
+  - created_time: '2015-02-02T14:39:13+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: I now have Debian CrunchBang, and Ubuntu and Mint. But my favourite is
+      basically debian with a plus like Crunchbang or Mint.
+    id: '889694647736911'
+  - created_time: '2015-02-02T14:40:36+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: And about RAM, Windows has issues with memory, it is always taking more
+      than Ubuntu or Debian, And if you use much more memory, then close that app,
+      windows seems to always have more leakage
+    id: '889694987736877'
+  - created_time: '2015-02-02T14:41:23+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Debian starts at 350 MB with Gnome. Also, with Linux you can add diffrent
+      desktop enviroonemnets and that must appeal to a geek like you.
+    id: '889695351070174'
+  - created_time: '2015-02-02T14:48:14+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      I recently delved a bit into the world of scripting, I learned Powershell which I found interesting and I wrote some PS scripts to help me manage an Azure VM (without having to Remote Desktop, but I still do anyways :D), but I also tried ScriptCS which uses Roslyn to make C# act like a scripting language which I found easier and more natural to me than Powershell :D
+
+      and about WinForms, I haven't done anything significant with WinForms (apart from an app to backup your tweets to sql compact, to make is searchable w keda :D) because I quickly switched to WPF as it felt more powerful.
+
+      and about desktop environments, my geekness doesn't really show up in that area :D I'm not a multi-monitor freak (although I'm trying make use of Win10's multiple desktop feature) and don't use crazy file explorers, and I'm quite used to keyboard navigation on Windows with my Win+E and Win+S and Win+W w keda :D
+    id: '889697377736638'
+  - created_time: '2015-02-02T18:36:54+0000'
+    from:
+      name: Pola Ashraf
+      id: '10155173051963199'
+    message: I really enjoyed this Geeks Talk :D
+    id: '889783197728056'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGc1TmpVNU1EWXhNRGN6T0RBek9qRTBNakk0T0RRM01EWT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGc1Tnpnek1UazNOekk0TURVMk9qRTBNakk1TURJeU1UUT0ZD
+attachments:
+  data:
+  - description: 'Raspberry Pi 2 on sale now at $35 Eben Upton 2nd Feb 2015 7 Comments
+      Let’s get the good stuff out of the way above the fold. Raspberry Pi 2 is now
+      on sale for $35 (the same price as the existing Model B+), featuring: A 900MHz
+      quad-core ARM Cortex-A7 CPU (~6x performance) 1GB LPDDR2 SDRAM (2x memory)…'
+    media:
+      image:
+        height: 283
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQABKVsq3T7oNK5e&w=720&h=720&url=http%3A%2F%2Fwww.raspberrypi.org%2Fwp-content%2Fuploads%2F2015%2F01%2FPi2ModB1GB_-comp-500x283.jpeg&cfs=1&_nc_hash=AQA3k53SJPM5WZB-
+        width: 283
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.raspberrypi.org%2Fraspberry-pi-2-on-sale%2F&h=ATO7j6v4GjY80Z8eQCZfKWYzznt65RZ_Q_rz8dNLQaicU2WyMapXbkhao8OJQ69y3wlIYgjHu4Fzh1atfAHZ0qdzhApyKOmPoybn&s=1&enc=AZOkhViEAFERXFm4eJS3-FIsULIvyjTRreaQh3EY1dyOB2Gm68T2g8-I89o8A3R39ol1fCJ38ZGtXig8pkfCqm3P
+    title: Raspberry Pi 2 on sale now at $35 | Raspberry Pi
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.raspberrypi.org%2Fraspberry-pi-2-on-sale%2F&h=ATO7j6v4GjY80Z8eQCZfKWYzznt65RZ_Q_rz8dNLQaicU2WyMapXbkhao8OJQ69y3wlIYgjHu4Fzh1atfAHZ0qdzhApyKOmPoybn&s=1&enc=AZOkhViEAFERXFm4eJS3-FIsULIvyjTRreaQh3EY1dyOB2Gm68T2g8-I89o8A3R39ol1fCJ38ZGtXig8pkfCqm3P

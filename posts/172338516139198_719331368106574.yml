@@ -11,3 +11,63 @@ updated_time: '2014-03-24T07:54:35+0000'
 name: rawgithub.com
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/719331368106574/
 id: '172338516139198_719331368106574'
+reactions:
+  data:
+  - id: '10155880569740170'
+    name: Meligy
+    type: LIKE
+  - id: '10212906316506161'
+    name: Alaa Attya Mohamed
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRRME9ERTFNVFk1T2pFek9UVTJNamczT1RJNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBek56WTBOVEExTkRveE16azFOakl5TmpJM09qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2014-03-24T02:39:54+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Yeah I use it all the time. Sometimes you see JSfiddle exmaples broken
+      in Chrome because they were written before a restriction was added to the browser
+      requiring script files to have a JavaScript mime type, while the fiddle had
+      direct references to github repo raw URL, which returns a plain text mime type.
+      Replacing them with a RawGithub URL (just copying and removing a dot) gets them
+      to work again.
+    id: '719393078100403'
+  - created_time: '2014-03-24T07:33:16+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: I prefer to use GH pages. It has the added benefit of working on the
+      default branch freely, while considering the gh-pages as the stable branch
+    id: '719453881427656'
+  - created_time: '2014-03-24T07:54:35+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      This is useful for very quick / experimental prototyping fiddle-style stuff, when you want to use files created by others to test something.
+
+      I remember there is a disclaimer / warning there about not relying on it for anything serious.
+    id: '719459001427144'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekU1TXprek1EYzRNVEF3TkRBek9qRXpPVFUyTWpnM09UUT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekU1TkRVNU1EQXhOREkzTVRRME9qRXpPVFUyTkRjMk56VT0ZD
+attachments:
+  data:
+  - description: You've got a raw.github.com URL that points to some work-in-progress
+      HTML, JavaScript, or CSS. You'd like to share it with someone for a quick demo,
+      or maybe you'd like to use it in a jsPerf test.
+    media:
+      image:
+        height: 149
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAs6i2SgooBf0O8&w=720&h=720&url=https%3A%2F%2Fs3.amazonaws.com%2Fgithub%2Fribbons%2Fforkme_right_darkblue_121621.png&cfs=1&_nc_hash=AQDeD-gYxKeYNQcK
+        width: 149
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Frawgithub.com%2F&h=ATPREkV0K6WIUlhbpYrH7Cji_OxK8DkqUCGT0IonwZekUaKHxKQFPLUCZZjs-rimxCU7vX7BPWtBqU0UD_Rxdm8vby4FBuRaytYK&s=1&enc=AZOBCgeb62U6gaZd692hEfhXmUJhgKjx0gRYmtDipAK1tyVR4-Zz-KV89-bKYmDa9yfHB7DvKunAMu5Y8NX77mW9
+    title: rawgithub.com
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Frawgithub.com%2F&h=ATPREkV0K6WIUlhbpYrH7Cji_OxK8DkqUCGT0IonwZekUaKHxKQFPLUCZZjs-rimxCU7vX7BPWtBqU0UD_Rxdm8vby4FBuRaytYK&s=1&enc=AZOBCgeb62U6gaZd692hEfhXmUJhgKjx0gRYmtDipAK1tyVR4-Zz-KV89-bKYmDa9yfHB7DvKunAMu5Y8NX77mW9

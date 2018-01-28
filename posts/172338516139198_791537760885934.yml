@@ -14,3 +14,108 @@ permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/79153776
 shares:
   count: 1
 id: '172338516139198_791537760885934'
+comments:
+  data:
+  - created_time: '2014-07-30T11:28:22+0000'
+    from:
+      name: Amr Tag
+      id: '10211180899988571'
+    message: the issue I found most people saying caused this is the strong params
+      not being accessible in migration file but this is not the case, I have the
+      permit_params method in my adminuser.rb file
+    id: '791538890885821'
+  - created_time: '2014-07-30T11:32:59+0000'
+    from:
+      name: Ahmad Mohammad
+      id: '10156154732953169'
+    message: What gems you've been using with your project?
+    id: '791540564218987'
+  - created_time: '2014-07-30T11:33:37+0000'
+    from:
+      name: Amr Tag
+      id: '10211180899988571'
+    message: active admin, devise, and protected_attributes
+    id: '791540764218967'
+  - created_time: '2014-07-30T11:34:58+0000'
+    from:
+      name: Amr Tag
+      id: '10211180899988571'
+    message: |-
+      from my gemfile:
+      gem 'activeadmin', github: 'gregbell/active_admin'
+      gem 'devise', '~> 3.2.4'
+    id: '791541047552272'
+  - created_time: '2014-07-30T12:05:52+0000'
+    from:
+      name: Ahmad Mohammad
+      id: '10156154732953169'
+    message: |-
+      Would you post your admin_user.rb file ? It seems you are not whitelisting the attr, this might be the problem. In old rails 3 attr_accessible was used to whitelist.
+      On rails 4 permitted attr. Is false by default. You have to change that by permit! Or permits.
+    id: '791551770884533'
+  - created_time: '2014-07-30T12:28:30+0000'
+    from:
+      name: Amr Tag
+      id: '10211180899988571'
+    message: |-
+      here is the file on pastebin
+      http://pastebin.com/qeY7ubug
+    id: '791559684217075'
+  - created_time: '2014-07-30T12:29:16+0000'
+    from:
+      name: Amr Tag
+      id: '10211180899988571'
+    message: |-
+      and this is the line concerned with the attributes
+      permit_params :email, :password, :password_confirmation
+    id: '791559997550377'
+  - created_time: '2014-07-30T12:50:40+0000'
+    from:
+      name: Ahmad Mohammad
+      id: '10156154732953169'
+    message: "bear with me and try these out :\n1- I am suspecting a syntax error
+      here ? \npermit_params  (:email, :password, :password_confirmation)\n\n2- Try
+      to permit the entire hash of parameters  ( say log_entry)\nparams.require(:log_entry).permit!\nbeware,
+      all future parameters added to the hash will be blindly permitted."
+    id: '791568210882889'
+  - created_time: '2014-07-30T12:59:55+0000'
+    from:
+      name: Amr Tag
+      id: '10211180899988571'
+    message: "1. It didn't work any other way, I made sure from other projects with
+      the gem on github. \n2. I tried params.require(:email, :password, :password_confirmation).permit!\nReturned:\"undefined
+      method params\""
+    id: '791571064215937'
+  - created_time: '2014-07-30T13:21:15+0000'
+    from:
+      name: Ahmad Mohammad
+      id: '10156154732953169'
+    message: |-
+      غلب حماري :)
+      Browse these topics
+      https://github.com/rails/strong_parameters
+
+      http://blog.remarkablelabs.com/2012/12/strong-parameters-rails-4-countdown-to-2013
+
+      أنا متأكد إن في حاجة ناقصة في الموديل أو الكونترولر ، لو عرفت توصل لحاجة إبقى عرفني ، وأنا هدور كمان لعل وعسى.
+    id: '791579074215136'
+  - created_time: '2014-07-30T13:38:43+0000'
+    from:
+      name: Amr Tag
+      id: '10211180899988571'
+    message: Ok. Thanks a lot :)
+    id: '791585824214461'
+  - created_time: '2014-08-03T20:39:11+0000'
+    from:
+      name: Amr Tag
+      id: '10211180899988571'
+    message: |-
+      Ok, so here is the thing.
+      1. Dont run the rails generate active_admin:install twice.
+      2. If you are using the protected_attributes gem! you have to go to your models>admin_user.rb and add the required attributes (email, password, password_confirmation) as attr_accessible.
+      That just worked for me.
+    id: '793680780671632'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemt4TlRNNE9Ea3dPRGcxT0RJeE9qRTBNRFkzTVRrM01EST0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemt6Tmpnd056ZA3dOamN4TmpNeU9qRTBNRGN3T1Rnek5URT0ZD

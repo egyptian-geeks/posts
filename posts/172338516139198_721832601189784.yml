@@ -9,3 +9,60 @@ created_time: '2014-03-28T21:19:45+0000'
 updated_time: '2014-03-29T11:25:34+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/721832601189784/
 id: '172338516139198_721832601189784'
+comments:
+  data:
+  - created_time: '2014-03-28T23:15:41+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      I hope el franko yeb2a ok :D
+      note: ana gedeed fe 3alam el Azure fa momken ma3lomaty mateb2ash dakeeka.
+
+      Azure mesh 7aga wa7da, Azure dah magmoo3a mn el services testa7'dem menhom elly enta 3ayzo.
+
+      Feeh Software-as-a-Service elly howwa el Azure Websites, dah scalable hosting le website (ASP.NET 2w 7aga mn el 7agat el tanya elly supported), w 3ando monitoring lateef w momken te-deploy b FTP 2w GIT 2w TFS (for continuous integration wel 3alam dah).
+
+      Feeh Platform-as-a-Service elly howwa el Azure Cloud Service, dah 7aga betedeelak more control, bet-deploy "roles" momken yeb2a web role (IIS yan3i) 2w roles bete3mel 2y 7aga tanya (processing some data masalan).
+
+      Feeh Infrastructure-as-a-Service elly howwa el Azure Virtual Machines, dah ba2a el highest level of control, dah ka2ennak 2eshtareet Dedicated Server, beyedeelak Virtual Machine momken te7ot 3aleeha Windows Server 2w 2y Linux distro (Ubuntu Server, RedHat, ..etc) w beyseebak tenazzel 3aleeh elly enta 3ayzo, w lw Windows Server beygeelak 3aleeh Remote Desktop metzabbat 3ashan te7'osh testa7'demo bel UI 3ady ka2enno el computer beta3ak (tab3an feeh lag fel soora lw el net 3andak batee2). Ana marra 3amalt Azure VM so3'ayyar w 7ateet 3aleeh Minecraft Server (game server keda) 3ashan ana w so7aby nel3ab multiplayer men3'eer lag w kan sahl w lateef :)
+
+      Feeh ba2a kaza service tanya, 7aga lel Push Notifications (Windows Phone, Windows 8, Android, iOS), w 7aga torbot beeha el VMs wel Services beba3daha fe "Virtual Network" w momken todommaha ma3 el network elly fe sherka (7aga keda), w feeh Caching service, w 7agat tanya keteer mesh gayya 3ala baly delwa2ty :D
+    id: '721866511186393'
+  - created_time: '2014-03-28T23:19:48+0000'
+    from:
+      name: Abdalla Elnaggar
+      id: '2096764887006623'
+    message: تسلم ياعمنا
+    id: '721867387852972'
+  - created_time: '2014-03-28T23:29:27+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: you're welcome :)
+    id: '721869877852723'
+  - created_time: '2014-03-29T02:10:12+0000'
+    from:
+      name: Ahmed Kamal
+      id: '10204469829103969'
+    message: |-
+      شوف دول يارب يساعدوك :)
+
+      https://www.youtube.com/playlist?list=PLv9K0JdhsVnWNO0k4XsvpK2lgZ5lnJ2KO
+    id: '721984834507894'
+  - created_time: '2014-03-29T05:25:35+0000'
+    from:
+      name: Ahmed Moosa
+      id: '10210990493546895'
+    message: Windows Azure =  Microsoft Cloud Computing.
+    id: '722030137836697'
+  - created_time: '2014-03-29T11:25:34+0000'
+    from:
+      name: Mohamed Badawi
+      id: '1532825676787208'
+    message: دي حاجة لو عرفتوها تبقوا Mayors
+    id: '722231834483194'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekl4T0RZAMk5URXhNVGcyTXprek9qRXpPVFl3TkRnMU5ERT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekl5TWpNeE9ETTBORGd6TVRrME9qRXpPVFl3T1RJek16UT0ZD

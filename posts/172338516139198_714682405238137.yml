@@ -14,3 +14,121 @@ created_time: '2014-03-13T23:15:01+0000'
 updated_time: '2014-03-16T22:01:45+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/714682405238137/
 id: '172338516139198_714682405238137'
+reactions:
+  data:
+  - id: '10215070655377585'
+    name: Mahmoud Kandeel
+    type: LIKE
+  - id: '2037969632887452'
+    name: Osama Khaled
+    type: LIKE
+  - id: '10156484977540616'
+    name: Mohamed Elawady
+    type: LIKE
+  - id: '10160105091405314'
+    name: Mohamed Elsherif
+    type: LIKE
+  - id: '790501411145334'
+    name: Abuzeid Ibrahim
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRFMk5qZA3hNVFkzTmpveE16azFNREExT0RVMk9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBd01EQTFOVFkwTkRZANU1EUXpPakV6T1RRM05USTFOekU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2014-03-14T06:52:58+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: https://github.com/bashmohandes/ProjectEuler/blob/master/Problem_38.py
+    id: '714815541891490'
+  - created_time: '2014-03-15T12:08:11+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: انا قريت الشرح اللى فوق الكود بس ماعرفتش انت استنتجت النقط اللى فى رقم
+      ٤ ازاى، عملت تجارب بالكود و لا حسابات يدوية ؟
+    id: '715350645171313'
+  - created_time: '2014-03-15T15:22:00+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: يدويا
+    id: '715416835164694'
+  - created_time: '2014-03-15T17:27:53+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: |-
+      Emad Elsaid I had a break down of how to conclude #4 in the following notes.
+      -----------------------------
+      ** if X is 1 digit (which means X = 9 given the finding in #3) the max number will be the one given in the example
+          ** if X is 2 digits (98 ~ 91) there is no value of n that can produce a D with 9 digits
+          ** if X is 3 digits (987 ~ 912) there is no value of n that can produce a D with 9 digits
+          ** if X is 4 digits (9876 ~ 9123) the only value of n > 1 to produce D with 9 digits is n = 2
+          ** if X is 5 digits (98765 ~ 91234) there is no value of n that can produce D with 9 digits
+      ----------------------------
+    id: '715463728493338'
+  - created_time: '2014-03-15T19:46:58+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: |-
+      https://gist.github.com/kashwaa/9572836
+      c# in 60 milliseconds
+    id: '715511311821913'
+  - created_time: '2014-03-16T05:25:35+0000'
+    from:
+      name: Geish
+      id: '10100126826302216'
+    message: https://gist.github.com/elgeish/9578926
+    id: '715714048468306'
+  - created_time: '2014-03-16T16:28:30+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      Python solution taking between 1ms & 2ms
+      https://gist.github.com/mtayseer/9585854
+    id: '715914238448287'
+  - created_time: '2014-03-16T16:43:00+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: "^ انا شفت الحل بتاعك فبكيت حتى ابتلت لحيتى :D ، إيييه الحلاوة دى :D
+      ماشاء الله حل جميل جدآ."
+    id: '715918851781159'
+  - created_time: '2014-03-16T16:44:48+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: إعتبرها هدية خطوبتك :) ألف مبروك
+    id: '715919411781103'
+  - created_time: '2014-03-16T16:45:06+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: الله يبارك فيك :)
+    id: '715919611781083'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekUwT0RFMU5UUXhPRGt4TkRrd09qRXpPVFEzTnprNU56ZAz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekUxT1RFNU5qRXhOemd4TURnek9qRXpPVFE1T0Rnek1EWT0ZD
+attachments:
+  data:
+  - description: "حفلة الأسبوع \n----------\nالمسألة المرة دى : http://projecteuler.net/problem=38\nهى
+      بتتكلم عن مفهوم جديد فى نظرية الأعداد و هى الأعداد الpandigital \nhttp://en.wikipedia.org/wiki/Pandigital_number\nو
+      دى اعداد ليها خاصية مميزة وهى ان الأرقام اللى بيتكون منها السيستيم المفروض تكون
+      موجودة على الأقل مرة واحدة فى العدد.\nركز فى المسألة، السحلب جنبك، الكومبيلر
+      معاك، وورينا الأكواد العظيمة\nسورى على التأخير، رحت اخطب و جيت :D"
+    media:
+      image:
+        height: 540
+        src: https://scontent.xx.fbcdn.net/v/t1.0-0/p180x540/1794723_10151991031217957_1063397047_n.jpg?oh=6ae5630df17196ba7c86b77ef40ea806&oe=5B2462DA
+        width: 720
+    target:
+      id: '10151991031217957'
+      url: https://www.facebook.com/photo.php?fbid=10151991031217957&set=gm.714682405238137&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=10151991031217957&set=gm.714682405238137&type=3

@@ -9,3 +9,158 @@ created_time: '2014-03-27T20:23:58+0000'
 updated_time: '2014-03-28T13:57:12+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/721046611268383/
 id: '172338516139198_721046611268383'
+reactions:
+  data:
+  - id: '10157072407451982'
+    name: Mahmoud Abdallah
+    type: LIKE
+  - id: '10215070655377585'
+    name: Mahmoud Kandeel
+    type: LIKE
+  - id: '10212947071504226'
+    name: Eslam Hamouda
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpBeE5qYzJPVGd4T2pFek9UVTVOVFUzTmpJNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRZAeE5ERXlNREUyTkRveE16azFPVFV5TWpNek9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2014-03-27T20:31:41+0000'
+    from:
+      name: Eslam Hamouda
+      id: '10212947071504226'
+    message: |-
+      أول مرة أعرفها ! ويمكن أخر حاجة اتوقعها !
+      بس اتبسط والله وزادت ثقتي في اللغة اللي بحبها برده اكتر :)
+    id: '721050961267948'
+  - created_time: '2014-03-27T20:41:23+0000'
+    from:
+      name: Muhammad Saleh
+      id: '10156649659196002'
+    message: I dont think that this is correct, can u plz post more sources ?
+    id: '721055604600817'
+  - created_time: '2014-03-27T20:43:05+0000'
+    from:
+      name: Mohamed Yosry
+      id: '10160309026495393'
+    message: هو الاكيد انة مش فى الcore بتاع السيستم.  بس فى بعض برامج سطح المكتب
+      زى Banshee.
+    id: '721056844600693'
+  - created_time: '2014-03-27T20:43:45+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Microsoft have participated in developing some parts of the Kernel and
+      other components for linux.  http://www.theregister.co.uk/2013/09/16/linux_foundation_kernel_report_2013/
+    id: '721057324600645'
+  - created_time: '2014-03-27T20:45:15+0000'
+    from:
+      name: Muhammad Saleh
+      id: '10156649659196002'
+    message: Yes but not with C#
+    id: '721057927933918'
+  - created_time: '2014-03-27T20:58:14+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: C# could be compiled and run on linux using mono, C# specs is open for
+      anyone to implement it so Mono came out with the implementation for  linux systems,
+      and some default applications on ubuntu is written using C# like banshee and
+      tomboy.
+    id: '721062241266820'
+  - created_time: '2014-03-27T22:49:20+0000'
+    from:
+      name: Khaled M. Diab
+      id: '10215626626127168'
+    message: |-
+      C# can run on linux, that's right. However, to contribute to the kernel, you "have to" write in C (and some assembly; if you can!). This is by design to hopefully reduce the overhead to the minimal, and to be close to the hardware layer. Also there is a technical issue behind it:
+
+      In linux, there is a difference between user- and kernel-space modules/programs. .net applications requires using .net vm which runs in user space; you can't develop linux kernel with C# since it requires user-space vm.
+
+      The Ohloh page is inaccurate, these links may help:
+      http://www.quora.com/Ohloh/Why-is-Ubuntu-considered-mostly-written-in-C-by-ohloh
+      http://askubuntu.com/questions/277055/ubuntu-is-mostly-written-in-c
+    id: '721094904596887'
+  - created_time: '2014-03-27T22:49:35+0000'
+    from:
+      name: Khaled M. Diab
+      id: '10215626626127168'
+    message: "As an exercise, I downloaded the ubuntu-trusty kernel (http://kernel.ubuntu.com/git?p=ubuntu/ubuntu-trusty.git;a=summary)
+      ~ 1.7 Gb. I ran the CLOC (count lines of code) program on it, and here are the
+      results: 80% C, 17%, C/C++ headers and 2% assembly ~ 99% of the code!\n\nNote:
+      the asp code is not the MS asp for web pages, it is code that runs on DSP (digital
+      signal processor). You can find it here: ./sound/pci/cs46xx/imgs/cwcdma.asp.
+      I believe that the asp.net file will have a similar explanation, but couldn't
+      figure out where it is!\n\n   45725 text files.\n   44109 unique files.                                          \n
+      \   6193 files ignored.\n\nhttp://cloc.sourceforge.net v 1.58  T=569.0 s (67.4
+      files/s, 30105.1 lines/s)\n--------------------------------------------------------------------------------\nLanguage
+      \                     files          blank        comment           code\n--------------------------------------------------------------------------------\nC
+      \                            19740        1886846        1829317        9723604\nC/C++
+      Header                  15955         386163         662284        2121378 \nAssembly
+      \                      1340          44610          57997         276459 \nXML
+      \                            156           3231            283          46552\nmake
+      \                           910           5660           5301          24694\nPerl
+      \                            55           4378           3479          21699\nBourne
+      Shell                     84            989           1917           5397\nyacc
+      \                             7            558            342           3571\nPython
+      \                          22            658            398           2956 \nlex
+      \                              7            258            254           1576\nBourne
+      Again Shell               45            267            248           1564\nC++
+      \                              1            209             57           1529\nawk
+      \                              8             89             88            728\nNAnt
+      scripts                      1             96              0            383\nHTML
+      \                             2             58              0            378\nPascal
+      \                           3             49              0            231\nLisp
+      \                             1             63              0            218\nObjective
+      C++                     1             55              0            189\nASP
+      \                              1             33              0            137\nm4
+      \                               1             15              1             95\nXSLT
+      \                             6             13             27             70\nsed
+      \                              1              0              3             30\nASP.Net
+      \                          1              0              0             28\nvim
+      script                        1              3             12             27\nTeamcenter
+      def                    1              0              2              6\n--------------------------------------------------------------------------------\nSUM:
+      \                         38350        2334301        2562010       12233499\n--------------------------------------------------------------------------------"
+    id: '721094964596881'
+  - created_time: '2014-03-28T07:52:30+0000'
+    from:
+      name: Emad Mokhtar Habib
+      id: '10159905066535634'
+    message: First I didn't say it's the kernel code, I said there is C# code lives
+      inside Ubuntu code repository, it might be like some say apps written in C#
+      and inside the repository, Second yes sure the kernel can't have C# because
+      it's managed code language as Khaled Diab investegate and give us the results.
+    id: '721245801248464'
+  - created_time: '2014-03-28T07:53:36+0000'
+    from:
+      name: Emad Mokhtar Habib
+      id: '10159905066535634'
+    message: I still love C# :P
+    id: '721245961248448'
+  - created_time: '2014-03-28T08:02:25+0000'
+    from:
+      name: Khaled M. Diab
+      id: '10215626626127168'
+    message: back to your first statement "Ubuntu the great Linux operating system
+      has C# code in it", I don't think these are ubuntu standard apps, I mean they
+      are not packaged with the official ubuntu, right?
+    id: '721247424581635'
+  - created_time: '2014-03-28T10:44:09+0000'
+    from:
+      name: Emad Mokhtar Habib
+      id: '10159905066535634'
+    message: I'm not sure I got this inoformation based in the link I've posted
+    id: '721299211243123'
+  - created_time: '2014-03-28T13:57:12+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      speaking about C# and OS kernels, a cool bunch of people made a compiler than convers IL to assembly (and something like C# called X#), and they used that to make a managed OS kernel using C# :)
+      check it out: http://cosmos.codeplex.com/
+    id: '721357851237259'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekl4TURVd09UWXhNalkzT1RRNE9qRXpPVFU1TlRJek1ERT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekl4TXpVM09EVXhNak0zTWpVNU9qRXpPVFl3TVRVd016ST0ZD

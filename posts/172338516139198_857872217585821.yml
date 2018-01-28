@@ -10,3 +10,117 @@ created_time: '2014-12-08T11:23:17+0000'
 updated_time: '2014-12-08T14:39:16+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/857872217585821/
 id: '172338516139198_857872217585821'
+reactions:
+  data:
+  - id: '1635412699859063'
+    name: Mohamed Taha
+    type: LIKE
+  - id: '10155984416966904'
+    name: Elsharnouby Mohamed
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhOekV3TkRZAM01UWXlPakUwTVRnd016azFNRFU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TnpjME1UTXhPVEF6T2pFME1UZA3dNemd3TmpJNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2014-12-08T11:29:27+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: "You can follow the scheme used in payments. \nparam+haskey+param+hashkey........
+      then hash the results with a predefined key. The calculated hash should be send
+      with the request\nwhen you receive the request at the serve just recalculate
+      the hash to make sure that no one has missed up with the params."
+    id: '857874100918966'
+  - created_time: '2014-12-08T11:33:53+0000'
+    from:
+      name: Amr Sobhy
+      id: '10156475868535016'
+    message: but any hashing happening within the app can be figured out by decoding
+      the apk, someone can re-use the hashkey stored within the app to mimic the same
+      request, hence rendering internal hashing non-useful?
+    id: '857875777585465'
+  - created_time: '2014-12-08T11:38:01+0000'
+    from:
+      name: Ammar Youssef
+      id: '10155097484932190'
+    message: تقدر تخبي الهاش في الأبليكشن ماحدش يعرف يجيبه  code obfuscation
+    id: '857877027585340'
+  - created_time: '2014-12-08T11:39:03+0000'
+    from:
+      name: Ammar Youssef
+      id: '10155097484932190'
+    message: وممكن تمنع ال same request  باستخدام unique nonce + timestamp
+    id: '857877737585269'
+  - created_time: '2014-12-08T11:43:06+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: "ummm maybe you can check this solution \nhttp://stackoverflow.com/a/10163623/2441473"
+    id: '857879574251752'
+  - created_time: '2014-12-08T11:58:00+0000'
+    from:
+      name: Mahmoud Abou-Eita
+      id: '10155476283875735'
+    message: Have you checked this? https://www.saikoa.com/dexguard
+    id: '857884694251240'
+  - created_time: '2014-12-08T11:58:55+0000'
+    from:
+      name: Mahmoud Abou-Eita
+      id: '10155476283875735'
+    message: ah sorry it's not free.
+    id: '857884934251216'
+  - created_time: '2014-12-08T13:37:00+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: I've always found HMAC based authentication to the best solution for
+      securing an API if you have no need for OAuth. We implemented it back in Tabshora
+      when we were working on WireIO and Voiced.
+    id: '857918044247905'
+  - created_time: '2014-12-08T13:38:45+0000'
+    from:
+      name: Ahmed Ezz
+      id: '10155853377281955'
+    message: "+1 for hmac"
+    id: '857918594247850'
+  - created_time: '2014-12-08T14:03:27+0000'
+    from:
+      name: Mostafa Gazar
+      id: '1498735030245950'
+    message: |-
+      Decompiling aside, if someone is running a rooted android device, he should be able to monitor all network traffic (as simple as Shark for Root, Network Log, ...)
+      +1 hmac
+    id: '857931564246553'
+  - created_time: '2014-12-08T14:21:01+0000'
+    from:
+      name: Ammar Youssef
+      id: '10155097484932190'
+    message: عمرو علق على استخدام HMAC بكيف يستخدمه اذا كان بامكان أحد ان يعمل decompile
+      ويعرف ال key الخاص ب HMAC  هنا يكون ال HMAC عديم الفائدة
+    id: '857937770912599'
+  - created_time: '2014-12-08T14:30:30+0000'
+    from:
+      name: Amr Sobhy
+      id: '10156475868535016'
+    message: "yes I am not encryption expert of any sort but what if attackers reverse
+      the app to get insight how the encryption works internally? defence may be broken?
+      and/or as Mostafa mentioned montior all network traffic and get valid hash to
+      communicate with the service.\n\nI was trying to check if someone has hands
+      on experience of doing this before to allow only my mobile app to access certain
+      resources even if \n1) someone was able to decode the apk\n2) someone was able
+      to listen to all requests happening\n\nThanks for all your insights and help."
+    id: '857958777577165'
+  - created_time: '2014-12-08T14:39:16+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      as for listening to all requests, adding a nonce (or timestamp) as part of the hashed request will prevent any sniffer from resending the same request (as it will have the same nonce)
+      as for prevention against decompiling, I thought about it a lot and I couldn't think of a solution about it, I haven't really searched about this issue, but good obfuscation can be make this task very hard.
+    id: '857970630909313'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFUzT0RjME1UQXdPVEU0T1RZAMk9qRTBNVGd3TXpneE5qYz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFUzT1Rjd05qTXdPVEE1TXpFek9qRTBNVGd3TkRrMU5UWT0ZD

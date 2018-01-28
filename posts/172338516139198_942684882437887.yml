@@ -20,3 +20,47 @@ created_time: '2015-05-21T17:04:06+0000'
 updated_time: '2015-05-21T21:55:13+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/942684882437887/
 id: '172338516139198_942684882437887'
+reactions:
+  data:
+  - id: '10211673983586863'
+    name: Mahmoud Mustafa Al-desouky
+    type: LIKE
+  - id: '10213861471464409'
+    name: Mohamed Shaban
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRJNE5UTXdOelV6TURveE5ETXlNak16TXpBM09qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBek5qYzVOREV3T1RveE5ETXlNakk1TnpJMk9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2015-05-21T17:05:41+0000'
+    from:
+      name: Mohammed Agwa
+      id: '10213691948826326'
+    message: Abdel Latif Ahmed
+    id: '942685402437835'
+  - created_time: '2015-05-21T21:52:25+0000'
+    from:
+      name: Amjad Mashaal
+      id: '10213738834576763'
+    message: |-
+      You're not even setting Access-Control-Allow-Headers. You need to set it correctly.
+
+      Additionally, check that out before adding it. http://stackoverflow.com/questions/13146892/cors-access-control-allow-headers-wildcard-being-ignored
+
+      It doesn't accept wildcards.
+    id: '942783252428050'
+  - created_time: '2015-05-21T21:55:13+0000'
+    from:
+      name: Amjad Mashaal
+      id: '10213738834576763'
+    message: |-
+      Basically, add that.
+
+      Access-Control-Allow-Headers: origin, content-type, x-requested-with, accept
+    id: '942783652428010'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFF5TmpnMU5EQXlORE0zT0RNMU9qRTBNekl5TWpjNU5ERT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFF5Tnpnek5qVXlOREk0TURFd09qRTBNekl5TkRVek1UTT0ZD

@@ -29,3 +29,226 @@ updated_time: '2015-01-17T21:26:31+0000'
 name: AAbouZaid/Ansible module to list groups in inventory.
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/881762705196772/
 id: '172338516139198_881762705196772'
+reactions:
+  data:
+  - id: '10155854949245944'
+    name: Tarek Amr
+    type: LIKE
+  - id: '10156129652479747'
+    name: Radwa Kamal
+    type: LIKE
+  - id: '10156282426693825'
+    name: Mostafa Sakr
+    type: LIKE
+  - id: '1807286182904587'
+    name: Ali Saber
+    type: LIKE
+  - id: '10155819655346066'
+    name: Shady M. Najib
+    type: LIKE
+  - id: '10215026432191337'
+    name: Ali El-Wafdy
+    type: LIKE
+  - id: '1382560551854209'
+    name: Mohammad Sakr
+    type: LIKE
+  - id: '10155945694126276'
+    name: Ahmad Gamaleldin Hassanein
+    type: LIKE
+  - id: '10214796374519514'
+    name: Islam AbdelMohaimen Hassan
+    type: LIKE
+  - id: '10159836581160433'
+    name: Mahmoud M. El-Safty
+    type: LIKE
+  - id: '1964650613774365'
+    name: Galal Aly
+    type: LIKE
+  - id: '10155961552416083'
+    name: Abdallah Hodieb
+    type: LIKE
+  - id: '10155984416966904'
+    name: Elsharnouby Mohamed
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRVeU5USTFPVFF6T2pFME1qRTFNekF4TmpFNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TnpjME1UTXhPVEF6T2pFME1qRTBNekUyTlRNNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2015-01-16T18:07:28+0000'
+    from:
+      name: Elsharnouby Mohamed
+      id: '10155984416966904'
+    message: I think you can post it too on code review on stackexchange
+    id: '881773875195655'
+  - created_time: '2015-01-16T18:09:30+0000'
+    from:
+      name: Ahmed AbouZaid
+      id: '10159726802330618'
+    message: لا يا عم شرنو أنا لسه غلبان xD
+    id: '881774495195593'
+  - created_time: '2015-01-16T18:09:49+0000'
+    from:
+      name: Ahmed AbouZaid
+      id: '10159726802330618'
+    message: لكن فكرة عظيمة :D
+    id: '881774568528919'
+  - created_time: '2015-01-16T18:14:54+0000'
+    from:
+      name: Elsharnouby Mohamed
+      id: '10155984416966904'
+    message: I think they know they're reviewing. So I suppose they're not harsh as
+      stackoverflow :-D
+    id: '881776441862065'
+  - created_time: '2015-01-16T18:15:54+0000'
+    from:
+      name: Elsharnouby Mohamed
+      id: '10155984416966904'
+    message: I did read some of python code reviews there and they were awesome, although
+      I don't remember that much now
+    id: '881776841862025'
+  - created_time: '2015-01-16T18:49:09+0000'
+    from:
+      name: Ahmed AbouZaid
+      id: '10159726802330618'
+    message: هجرب أضيف الحته بتاعت عد الميمبرز في كل جروب وابوسته هناك :D
+    id: '881787145194328'
+  - created_time: '2015-01-16T19:10:21+0000'
+    from:
+      name: Abdallah Hodieb
+      id: '10155961552416083'
+    message: "This is not exactly a review because im not that good yet :D  but those
+      are some suggestions :\n\nUsing \"with\" when dealing with files is always a
+      good idea.\n\nhttps://www.python.org/dev/peps/pep-0343/\n\nAlso when iterating
+      on the file lines you don't need to read lines before iterating on them. \n\nExample:\n\nwith
+      open('file.config') as f:\n      for line in f: \n           print line"
+    id: '881793358527040'
+  - created_time: '2015-01-16T19:23:34+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      I'll write this post in English, to keep the LTR layout
+
+      The code can be greatly simplified if you make small modifications to your regex & handle the file as a whole, instead of for-loop for each line
+
+      Also I changed it to read the path to ansible.cfg as a command-line parameter
+
+      https://gist.github.com/mtayseer/b94a5f436a9433a71d55
+    id: '881797311859978'
+  - created_time: '2015-01-16T19:25:10+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: I have no idea what is happening here, but I love how Tayseer simplified
+      the python code.
+    id: '881797958526580'
+  - created_time: '2015-01-16T19:57:27+0000'
+    from:
+      name: Ahmed AbouZaid
+      id: '10159726802330618'
+    message: "Abdallah Hodieb\nأنا شوفت with فعلاً بس مفهمتهاش أوي ففوتها :D\n\nMohammad
+      Tayseer\nكم أنت برنس :D هو ده بالظبط اللي بتكلم فيه :D\nلإن كدا الكود بتاعي
+      بقى أكبر من باش وده ميصحش يعني \U0001F602\n\nهي في مشكلة وحيدة ... كنت بجرب
+      إذا كان في ملف الكونفجريشن أكتر من سطر بيبدأ بـ hostfile أو حتى متهيش.\n\nالتعديل
+      بتاعك مش بيشتغل لو في سطر أوله hostfile متهيش .. يعني زي كدا\n#hostfile\n\nجربت
+      أعمل.\nhosts_file = re.findall(\"^hostfile\\s*=\\s*(.*)\", ansible_conf_file)\n\nبردو
+      بس مشتغلش ... بيطلع نتيجة فاضية \"[]\""
+    id: '881808091858900'
+  - created_time: '2015-01-16T20:26:25+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: غريبة. لما أنا جربت اشتغل معايا. ممكن تعمل كومنت علي gist وتحط هناك sample؟
+    id: '881816978524678'
+  - created_time: '2015-01-16T20:38:30+0000'
+    from:
+      name: Ahmed AbouZaid
+      id: '10159726802330618'
+    message: |-
+      Mohammad Tayseer
+      حطيت الإيرور اللي بيطلع، وشكل الكونفجريشن :‑)
+    id: '881820408524335'
+  - created_time: '2015-01-16T21:01:28+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      اللي أنا فهمته من كلامك غير المشكلة :)
+      أنا عدلت الكود ودلوقتي بيشتغل صح. اللي إنت عملته (إنك تزود "^") ده جزء من الحل. اقرأ في الـ re بتاع بايثون هتلاقيه بيشرح كل حاجة
+      https://gist.github.com/mtayseer/b94a5f436a9433a71d55
+    id: '881826808523695'
+  - created_time: '2015-01-16T22:01:49+0000'
+    from:
+      name: Ahmed AbouZaid
+      id: '10159726802330618'
+    message: |-
+      Mohammad Tayseer
+      معلش لسه على قدي خالص :D
+
+      عموماً ده كان الهدف الأساسي من السكربت ... إنه يجيب عدد الجروبز وعدد اللي جواها.
+
+      دي كانت النتيجة بعد ملاحظات الناس البرنسيين :D
+      https://gist.github.com/AAbouZaid/758ba28e4e4f6f753750
+
+      الجزء الجديد بتاع العد ده مش عارف إذا كان ليه طريقة ظريفة زي اللي عملتلها ولا لأ بس هكون سعيد لو في ( حاسه لسه مدي على بيرل وباش :D )
+
+      وفي مثال على النتيجة اللي بيطلعها في الجيستاية :D
+    id: '881844718521904'
+  - created_time: '2015-01-16T23:07:21+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      I updated my scripts again. I'm using the dict itself for counting https://gist.github.com/mtayseer/b94a5f436a9433a71d55
+
+      Another way of doing this is using ansible itself http://docs.ansible.com/playbooks_variables.html#magic-variables-and-how-to-access-information-about-other-hosts
+    id: '881868828519493'
+  - created_time: '2015-01-17T12:52:04+0000'
+    from:
+      name: Ahmed AbouZaid
+      id: '10159726802330618'
+    message: |-
+      ـ
+      Mohammad Tayseer
+      كدا الكود بقى ظريف جداً فعلاً :D استخدام variable عشان يعد حركة باشي جداً :D
+      مش متعود لسه على الأنواع التانية من الداتا زي الـ dicts :D
+
+      النقطة الوحيدة اللي مش قادر أفهمها على وجه الدقة الحتة بتاعت السطور الفاضية ... مش فاهم الاكسبرشن بتاع if not ازاي بيفوت السطور الفاضية؟ :D
+    id: '882098451829864'
+  - created_time: '2015-01-17T13:01:11+0000'
+    from:
+      name: Ahmed AbouZaid
+      id: '10159726802330618'
+    message: |-
+      ـ
+      Mohammad Tayseer
+      وصحيح ... اللينك بتاع دوكمنتيشن أنسيبل بيتكلم عن جوا الـ playbook نفسه -سكربتات أنسيبل- مش من الكوماند لاين وده اللي معمول عشانه الموديول.
+
+      يعني بديل للأوبشن --list-hosts لكن للجروبز ... حاجة زي كدا
+      ansible localhost -m listgroups
+    id: '882102198496156'
+  - created_time: '2015-01-17T21:26:31+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: strip() removes whitespaces. Python treats empty strings as false values.
+    id: '882355341804175'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGd4Tnpjek9EYzFNVGsxTmpVMU9qRTBNakUwTXpFMk5EZAz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGd5TXpVMU16UXhPREEwTVRjMU9qRTBNakUxTWprNU9URT0ZD
+attachments:
+  data:
+  - description: "- Gist is a simple way to share snippets of text and code with others."
+    media:
+      image:
+        height: 140
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAHMNCLbsrxzOjW&w=140&h=140&url=https%3A%2F%2Favatars1.githubusercontent.com%2Fu%2F6760103%3Fs%3D140&cfs=1&sx=0&sy=0&sw=140&sh=140&_nc_hash=AQAKLI4yHUDUXBy8
+        width: 140
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgist.github.com%2FAAbouZaid%2F066a3e5e026c599ec196&h=ATORVznUzAw6Mme-P7UcFvqXjhTXpiTJSNxauSaMW3sg_w9x5MixSR8prduf-hoYDKl4oN0mUjur1c3VSg8_EQQQ7BjSx8E2O-uF&s=1&enc=AZOciO-ci81skLxiEvCpQnh8M8N8C7phnLp0HL8IsfNZWKtWTrF-GZsTrcJhaF_vN7h0qAx4h233aFU8n0BCxFkH
+    title: AAbouZaid/Ansible module to list groups in inventory.
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgist.github.com%2FAAbouZaid%2F066a3e5e026c599ec196&h=ATORVznUzAw6Mme-P7UcFvqXjhTXpiTJSNxauSaMW3sg_w9x5MixSR8prduf-hoYDKl4oN0mUjur1c3VSg8_EQQQ7BjSx8E2O-uF&s=1&enc=AZOciO-ci81skLxiEvCpQnh8M8N8C7phnLp0HL8IsfNZWKtWTrF-GZsTrcJhaF_vN7h0qAx4h233aFU8n0BCxFkH

@@ -15,3 +15,417 @@ created_time: '2015-02-22T19:45:39+0000'
 updated_time: '2015-02-23T23:31:47+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/898918093481233/
 id: '172338516139198_898918093481233'
+reactions:
+  data:
+  - id: '2006787816004607'
+    name: Mohamed Hassan
+    type: LIKE
+  - id: '10159960083910788'
+    name: Essraa Abbas
+    type: LIKE
+  - id: '10157097242024554'
+    name: Radwa Ibrahim
+    type: LIKE
+  - id: '857329281113998'
+    name: Mohamed Soliman
+    type: LIKE
+  - id: '10159880265870164'
+    name: Kinan Qassar
+    type: LIKE
+  - id: '1635412699859063'
+    name: Mohamed Taha
+    type: LIKE
+  - id: '10156435301616294'
+    name: Ehab El-Masry
+    type: LIKE
+  - id: '2057259367622787'
+    name: Ahmad ಌ˚͜˚ಌ Shawky
+    type: LIKE
+  - id: '1550774681686883'
+    name: Eslam Esmaeal
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdNakF5TWpNMk56STFPakUwTWpRNU1EY3hPVFE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlOak13T1RjMk5Ua3pPakUwTWpRMk16UTFNelU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2015-02-22T19:47:49+0000'
+    from:
+      name: Ahmed Koraïem
+      id: '10159879865770402'
+    message: في ناس بتعرف بايثون كويس بس قليلين.. اعتقد انه حسب حجم الشغلانة.. 3000
+      ممكن يبقوا كويس لو حاجة تاخد كام يوم
+    id: '898918903481152'
+  - created_time: '2015-02-22T19:49:57+0000'
+    from:
+      name: Omar Ibrahim
+      id: '10116066877056474'
+    message: Javascript (Node.js)
+    id: '898919936814382'
+  - created_time: '2015-02-22T19:50:03+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: Most of Google services are in either C++ or Java, and most recently
+      they've been pushing more Go
+    id: '898919963481046'
+  - created_time: '2015-02-22T19:52:43+0000'
+    from:
+      name: Mohammed Agwa
+      id: '10213691948826326'
+    message: I Recommended NodeJs Or PHP
+    id: '898921433480899'
+  - created_time: '2015-02-22T19:57:56+0000'
+    from:
+      name: Ahmed Abdurrahman
+      id: '1788898074518553'
+    message: |-
+      We r building our backend www.zingo-app.com with node. The full stack is Mongo/Express/Node, I strongly recommend it, fast+almost all developers are somewhat familiar with JS.
+      Wishing u the best of luck.
+    id: '898924550147254'
+  - created_time: '2015-02-22T19:58:42+0000'
+    from:
+      name: Pola Ashraf
+      id: '10155173051963199'
+    message: https://parse.com/
+    id: '898925126813863'
+  - created_time: '2015-02-22T20:00:30+0000'
+    from:
+      name: Fady Anwar
+      id: '10159888022555052'
+    message: For performance always go for a native language, managed languages such
+      as java and .net have very bad performance, interpreted languages such as php
+      and python are even worst.. for cost of development go for languages that have
+      a good ecosystem such as .net languages, Microsoft have built a huge ecosystem
+      in the Egyptian market, but be aware that unlike open source languages most
+      of the software you will need is not for free.. it's a hard decision :-)
+    id: '898925903480452'
+  - created_time: '2015-02-22T20:04:13+0000'
+    from:
+      name: Fady Anwar
+      id: '10159888022555052'
+    message: Anyway if you are low in cash, always go after open source technologies..
+      that is a given.. for performance critical applications use C++ or even C but
+      it will depend more on the developer rather than the technology to tune the
+      application really good!
+    id: '898927140146995'
+  - created_time: '2015-02-22T20:05:54+0000'
+    from:
+      name: ÀMer Yehia
+      id: '10159847330930623'
+    message: Security should be highly considered :)
+    id: '898927463480296'
+  - created_time: '2015-02-22T20:13:27+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: I would suggest Parse.com for a backend. Very versatile and easy to use
+      and provides SDKs for a variety of client types. They provide storage, user
+      registration, custom objects.. etc. Also, it is free to use unless you are making
+      30+ requests per second.
+    id: '898930026813373'
+  - created_time: '2015-02-22T20:31:33+0000'
+    from:
+      name: Hosam Aly
+      id: '1657509230977456'
+    message: |-
+      It all boils down to what you're trying to do, and your resource consumption patterns. For example, Ruby has a rich library, but its loops are slow. They make it up by using C (or Java for JRuby) to implement most important functions. Python can be a memory hog if the developer is novice or just not careful enough. C++ can be fast, but you'd probably use a bridge to expose it over an API. Java can be even faster in some cases due to dynamic optimization, but it usually allocates a lot of memory to minimize the overhead of the GC. Go compiles to native code AFAIK, but it's knowledge is very rare, and so are its libraries. JavaScript and PHP have optimized VMs (e.g V8 and HHVM), but due to their dynamic nature I doubt they can do much to an algorithm that could make use of CPU vector operations. Vector based languages such as R and MATLAB are best for number crunching.
+
+      So what is it that you're trying to do? :-)
+    id: '898936956812680'
+  - created_time: '2015-02-22T20:34:44+0000'
+    from:
+      name: Hosam Aly
+      id: '1657509230977456'
+    message: I'd stay away from .NET if I were you. There is no point in paying for
+      a license for Windows if you're building a backend tool.
+    id: '898938356812540'
+  - created_time: '2015-02-22T20:36:20+0000'
+    from:
+      name: Ben Othman
+      id: '1731136486948588'
+    message: https://golang.org/
+    id: '898938770145832'
+  - created_time: '2015-02-22T20:39:31+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: I agree with Hosam Aly comment above. If you can give us more details
+      about what you're trying to do, the expected number of transactions per second,
+      etc, this will help us give you a realistic advice.
+    id: '898939750145734'
+  - created_time: '2015-02-22T20:48:15+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: |-
+      GO
+      NODE
+    id: '898942560145453'
+  - created_time: '2015-02-22T20:52:43+0000'
+    from:
+      name: Kinan Qassar
+      id: '10159880265870164'
+    message: Python is faster than PHP and consume less CPU, but it depends on how
+      many requests do you process per second, and you can start with shared hosting
+      until you need VPS.
+    id: '898944330145276'
+  - created_time: '2015-02-22T20:59:38+0000'
+    from:
+      name: Mohamed Ragab
+      id: '10157272347312468'
+    message: "YOU ALL WRONG \nAlgorithm performance measured differently, Time complexity
+      measure by some technique called (Big Oh Notation).\nRead about it and you will
+      know that all of you are WRONG"
+    id: '898946366811739'
+  - created_time: '2015-02-22T21:02:18+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: "^ Duh"
+    id: '898947143478328'
+  - created_time: '2015-02-22T21:03:13+0000'
+    from:
+      name: Muhammad Sherbeeny
+      id: '10159810258355527'
+    message: |-
+      Update:
+      The app is a matching app similar to Tinder.
+    id: '898947390144970'
+  - created_time: '2015-02-22T21:08:57+0000'
+    from:
+      name: Mohamed Ragab
+      id: '10157272347312468'
+    message: |-
+      Watch this:
+      https://www.youtube.com/watch?v=MZLWUuw-uHY
+    id: '898949113478131'
+  - created_time: '2015-02-22T21:09:16+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: "^Duh"
+    id: '898949176811458'
+  - created_time: '2015-02-22T21:10:01+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: Did you even read the question buddy ?
+    id: '898949636811412'
+  - created_time: '2015-02-22T21:11:49+0000'
+    from:
+      name: Kinan Qassar
+      id: '10159880265870164'
+    message: 3000 ولا حيكفوا حاجة يادوب يفهم انت عايز ايه :)
+    id: '898950146811361'
+  - created_time: '2015-02-22T21:12:16+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: |-
+      Muhammad Sherbeeny
+      https://jaxbot.me/articles/benchmarks_nodejs_vs_go_vs_php_3_14_2013
+      Considering that both nodejs has an async io which may help you in heavy loads
+    id: '898950250144684'
+  - created_time: '2015-02-22T21:20:03+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: I would say go with whatever technology you know you can get it done
+      with and released faster!
+    id: '898955313477511'
+  - created_time: '2015-02-22T21:21:38+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: |-
+      If you are still going to release the app, there is no need to worry about scaling. You won't hit the ground with scalability problems!
+
+      Scale when you run into scalability problems. Not now. Otherwise you will spend a lot of time and money trying to make the app scalable, and end up releasing it too late or not releasing it in the first place.
+    id: '898955836810792'
+  - created_time: '2015-02-22T21:58:07+0000'
+    from:
+      name: Diaa Sami
+      id: '10215834435679186'
+    message: |-
+      I believe that productivity is more important that runtime, if you write everything in C I can guarantee it will run fast but it will probably take ages to implement and maintenance will be need a lot of time, you need to balance between productivity and performance depending on your needs, usually for prototyping you prefer productivity and then for implementation you find something that provides a good balance.
+      but to answer your question, C++ > Java > C#/.NET > Python > Ruby, not sure about PHP but I think it's between C++ and Java.
+      http://benchmarksgame.alioth.debian.org/
+    id: '898967336809642'
+  - created_time: '2015-02-22T23:32:14+0000'
+    from:
+      name: Wissam Saleh
+      id: '647470523612'
+    message: 'In regards to freelancers, you can go ahead and contact premium freelancers
+      and see for yourself on : www.mostaqqel.com'
+    id: '899362916770084'
+  - created_time: '2015-02-22T23:42:06+0000'
+    from:
+      name: Muhammad Sherbeeny
+      id: '10159810258355527'
+    message: |-
+      @wissam
+      I tried to sign up with fb, but it keeps reloading the page and doesn't let me login!
+    id: '899375496768826'
+  - created_time: '2015-02-23T01:23:59+0000'
+    from:
+      name: Fouad Abd ELrazek
+      id: '10215316053233596'
+    message: |-
+      PPPR :)
+      Paython , Perl , PHP ,ROR
+      all can be ran in the same server .
+      Performance wise since its not text editing i will say C is better than them all its the best solution
+    id: '899423860097323'
+  - created_time: '2015-02-23T07:19:03+0000'
+    from:
+      name: Tamer Mahfouz
+      id: '10156247342126522'
+    message: Node.js
+    id: '899710793401963'
+  - created_time: '2015-02-23T07:32:06+0000'
+    from:
+      name: Fady Anwar
+      id: '10159888022555052'
+    message: I second Mosab Ahmad opinion, don't start optimizing your software now
+      and forget about the business core functions and revenue generation model
+    id: '899713003401742'
+  - created_time: '2015-02-23T08:02:01+0000'
+    from:
+      name: Eslam Salem Mahmoud
+      id: '10157134145555299'
+    message: |-
+      بص على حسب  :-
+      1- ال algorithm :-
+      بيعمل ايه , يعني لو الموضوع مجرد تعامل مع ال database يبقى ممكن نقول node مع mongodb هيبقى فل , لو فيه شغل complex ك algorithm يبقى انت محتاج حاجه اخف لان ال node بتستهلك memory كتير , لو علشان ال concurrent connections يبقى ممكن node مع socket.io او خدمة زي parse او firebase , لو هتحتاج شغل على ال geo  يبقى خليك مع database  MongoDB او Postgre
+      2-  المبرمج :-
+      مبرمج php  جامد و عارف هوه بيعمل ايه احسن من مبرمج node او python مش عارف بيعمل ايه .
+
+      بإختصار , ابعد عن ال .net و ال java , ركز مع Node او go او python انسب لموضوع ال webservice و ال api
+    id: '899718256734550'
+  - created_time: '2015-02-23T09:50:35+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      If you have millions of requests like this site.....
+      (and developers are not particularly expensive, unfortunately)
+      http://www.troyhunt.com/2015/02/stories-from-trenches-sizing-and-penny.html
+    id: '899768686729507'
+  - created_time: '2015-02-23T10:08:14+0000'
+    from:
+      name: Mohamed El-Alfy
+      id: '1589145544505470'
+    message: Why do you build backend services from A-Z when you can use an open source
+      BaasBox :)
+    id: '899773083395734'
+  - created_time: '2015-02-23T10:09:30+0000'
+    from:
+      name: Mohamed El-Alfy
+      id: '1589145544505470'
+    message: http://baasbox.com
+    id: '899773613395681'
+  - created_time: '2015-02-23T12:40:56+0000'
+    from:
+      name: Ali Elsayed Salem
+      id: '10213676087910035'
+    message: PHP OR Ruby
+    id: '899815886724787'
+  - created_time: '2015-02-23T12:41:06+0000'
+    from:
+      name: Ali Elsayed Salem
+      id: '10213676087910035'
+    message: Facebook by PHP
+    id: '899815930058116'
+  - created_time: '2015-02-23T14:04:23+0000'
+    from:
+      name: Hossam Abubakr
+      id: '10155858852348046'
+    message: Abdelrahman M. Moez
+    id: '899842576722118'
+  - created_time: '2015-02-23T14:26:24+0000'
+    from:
+      name: Eslam Salem Mahmoud
+      id: '10157134145555299'
+    message: 'note : facebook not using regular php it uses php in the main code optimized
+      with HHVM , and also with heavily optimzed load balancers'
+    id: '899849616721414'
+  - created_time: '2015-02-23T14:38:12+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: "But facebook used pure PHP when they launched! \n\nJust launch and optimize
+      later!"
+    id: '899854446720931'
+  - created_time: '2015-02-23T14:41:57+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: "Flame war won't do your app any good! And every one will find a real
+      rock star platform that uses the language they love!\n\nStackOverflow -> .Net\nYoutube
+      -> started with PHP and moved to Python\nGithub -> Ruby \nTwitter -> Java\nGoogle
+      -> C/C++ and Java\nToggl -> Go\nLinkedin -> Java / Scala\nYahoo -> Mainly PHP\n\nJust
+      get it done!"
+    id: '899855530054156'
+  - created_time: '2015-02-23T14:42:57+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: Flame wars are fun in other contexts, but not in this one!
+    id: '899855740054135'
+  - created_time: '2015-02-23T15:06:30+0000'
+    from:
+      name: Eslam Salem Mahmoud
+      id: '10157134145555299'
+    message: |-
+      I agree but php is not the best choice , Mark used php coz he knew php , and then they optimized the code instead of rewriting it .
+      i think if he wants to launch the MVP , and after the market validation then he can decide whats best for his case
+    id: '899862703386772'
+  - created_time: '2015-02-23T23:00:01+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: GOLang
+    id: '900044383368604'
+  - created_time: '2015-02-23T23:23:45+0000'
+    from:
+      name: Mohamed Badawi
+      id: '1532825676787208'
+    message: كان جزء من السؤال هو لو فيه اداه بتعمل نفس التاسك اسرع - هل التكلفة بتقل
+      او لا - مهتم اشوف رأي الناس ف الموضوع دا
+    id: '900050346701341'
+  - created_time: '2015-02-23T23:26:54+0000'
+    from:
+      name: Mohamed El-Alfy
+      id: '1589145544505470'
+    message: http://baasbox.com/
+    id: '900051690034540'
+  - created_time: '2015-02-23T23:28:22+0000'
+    from:
+      name: Mohamed El-Alfy
+      id: '1589145544505470'
+    message: https://www.parse.com
+    id: '900052146701161'
+  - created_time: '2015-02-23T23:29:00+0000'
+    from:
+      name: Mohamed El-Alfy
+      id: '1589145544505470'
+    message: http://azure.microsoft.com/en-us
+    id: '900052280034481'
+  - created_time: '2015-02-23T23:30:11+0000'
+    from:
+      name: Mohamed El-Alfy
+      id: '1589145544505470'
+    message: http://www.kinvey.com
+    id: '900052700034439'
+  - created_time: '2015-02-23T23:31:47+0000'
+    from:
+      name: Mohamed El-Alfy
+      id: '1589145544505470'
+    message: http://www.shephertz.com
+    id: '900053143367728'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGs0T1RFNE9UQXpORGd4TVRVeU9qRTBNalEyTXpRME5qaz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEF3TURVek1UUXpNelkzTnpJNE9qRTBNalEzTXpRek1EYz0ZD

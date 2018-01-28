@@ -18,3 +18,164 @@ created_time: '2014-03-21T00:02:58+0000'
 updated_time: '2014-03-22T11:04:03+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/717906208249090/
 id: '172338516139198_717906208249090'
+reactions:
+  data:
+  - id: '1745737135446986'
+    name: Mohamed Mahrous
+    type: LIKE
+  - id: '1748637668514027'
+    name: Adham EL-Deeb
+    type: LIKE
+  - id: '939161812915764'
+    name: Mohamed Fotouh Shalan
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdNekl4TkRnek9ESTRPakV6T1RVME1ERTBNVE02TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTBOalU0TmpJeE9UTXlPakV6T1RVek5qSTRNekE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2014-03-21T00:14:15+0000'
+    from:
+      name: Mohamed Elawady
+      id: '10156484977540616'
+    message: we already solved this problem ya 3omda ;)
+    id: '717908881582156'
+  - created_time: '2014-03-21T00:15:22+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: ماتفكرنيش المسابقة دى ماطلعتش منها غير بT-Shirt :D
+    id: '717909104915467'
+  - created_time: '2014-03-21T05:30:13+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: |-
+      Verbose but quick and readable :)
+      https://github.com/bashmohandes/ProjectEuler/blob/master/CodeJam_Practice_Problem_C_T9.py
+    id: '717999561573088'
+  - created_time: '2014-03-21T05:50:28+0000'
+    from:
+      name: Geish
+      id: '10100126826302216'
+    message: https://gist.github.com/elgeish/9680291
+    id: '718004238239287'
+  - created_time: '2014-03-21T05:52:53+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: "^^ Nice solution, very compact and readable."
+    id: '718004564905921'
+  - created_time: '2014-03-21T05:54:12+0000'
+    from:
+      name: Geish
+      id: '10100126826302216'
+    message: Thank you! I just read yours, it's almost the same, but I chose an int
+      instead of a string for the code.
+    id: '718004961572548'
+  - created_time: '2014-03-21T05:54:45+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: ":D I chose to expand the map since it is pretty small"
+    id: '718005034905874'
+  - created_time: '2014-03-21T05:55:49+0000'
+    from:
+      name: Geish
+      id: '10100126826302216'
+    message: Yea, that's how I solved it first, then I wanted to generate it; in a
+      contest, I'd definitely just list the values :)
+    id: '718005198239191'
+  - created_time: '2014-03-21T10:24:52+0000'
+    from:
+      name: Adham EL-Deeb
+      id: '1748637668514027'
+    message: Amr Zaki
+    id: '718062991566745'
+  - created_time: '2014-03-21T14:27:42+0000'
+    from:
+      name: Adham EL-Deeb
+      id: '1748637668514027'
+    message: https://github.com/adham90/Problem-C.-T9-Spelling-with-Ruby/blob/master/T9_Spelling.rb
+    id: '718134924892885'
+  - created_time: '2014-03-21T15:56:35+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: Geish can you explain it a little bit ?
+    id: '718166381556406'
+  - created_time: '2014-03-21T16:01:00+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: "Adham EL-Deeb i think chomp will remove the new line at the end\nline.to_s.gsub(\"\\n\",
+      \"\")\ncould be replaced by \nline.chomp"
+    id: '718167671556277'
+  - created_time: '2014-03-21T16:02:36+0000'
+    from:
+      name: Adham EL-Deeb
+      id: '1748637668514027'
+    message: tmam tslam :)
+    id: '718168168222894'
+  - created_time: '2014-03-21T17:30:02+0000'
+    from:
+      name: Geish
+      id: '10100126826302216'
+    message: For each char from 'a' to 'z', drop the character into a bucket (starting
+      with key = 2) with the frequency specified in "freq[]"; inside each bucket,
+      pick the key and multiply it with 10 then add key to get the sequence 2, 22,
+      222, etc.
+    id: '718196478220063'
+  - created_time: '2014-03-22T00:15:42+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      By chance, my Python solution looks very similar to Adham EL-Deeb :)
+
+      https://gist.github.com/mtayseer/9699181
+    id: '718323318207379'
+  - created_time: '2014-03-22T00:20:29+0000'
+    from:
+      name: Adham EL-Deeb
+      id: '1748637668514027'
+    message: و ده شرف ليا :) Mohammad Tayseer
+    id: '718324511540593'
+  - created_time: '2014-03-22T11:04:03+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: https://gist.github.com/kashwaa/9705264
+    id: '718487031524341'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekUzT1RBNE9EZA3hOVGd5TVRVMk9qRXpPVFV6TmpBNE5UVT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekU0TkRnM01ETXhOVEkwTXpReE9qRXpPVFUwT0RZAeU5ETT0ZD
+attachments:
+  data:
+  - description: |-
+      حفلة كووووود
+      -----------
+
+      ديزاين جديد و كده، و كمان بناء على اقتراح Kareem Kashwaa لاقينا اننا ممكن نجدد سنة بسيطة فى الحفلة ، بدل مسائل project Euler -مع اننى بحبه شخصيآ- هانجرب نحل مسائل التدربيات لGoogle Code Jam ، فى منها السهل و الصعب و الوسط، مسألتنا هاتكون واحدة من الوسط
+      https://code.google.com/codejam/contest/dashboard?c=351101#s=p2
+      مسائل جوجل كود جام بعيدة شوية عن الnumber theory و افكارها مختلفة.
+      يللا شغل الكومبيلر و اسمع الأغانى اللى بتحبها و شغل مكنة الكود.
+      Have Fun Coding ^_^
+    description_tags:
+    - id: '10155729844185546'
+      length: 14
+      name: Kareem Kashwaa
+      offset: 68
+      type: user
+    media:
+      image:
+        height: 540
+        src: https://scontent.xx.fbcdn.net/v/t1.0-0/p180x540/1620423_10152004231172957_2040194862_n.jpg?oh=dc8cfd86ab4b33697ab214a9f61a5584&oe=5B25F7D9
+        width: 720
+    target:
+      id: '10152004231172957'
+      url: https://www.facebook.com/photo.php?fbid=10152004231172957&set=gm.717906208249090&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=10152004231172957&set=gm.717906208249090&type=3

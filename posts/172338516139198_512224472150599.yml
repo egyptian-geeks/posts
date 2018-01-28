@@ -14,3 +14,134 @@ created_time: '2013-01-13T21:40:28+0000'
 updated_time: '2013-01-16T08:08:05+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/512224472150599/
 id: '172338516139198_512224472150599'
+comments:
+  data:
+  - created_time: '2013-01-13T21:45:23+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: سيرفر أونلاين عليه قاعدة البيانات، والبرامج بتتصل بقاعدة البيانات دوغري
+      من غير سيرفسات
+    id: '512225708817142'
+  - created_time: '2013-01-13T21:49:11+0000'
+    from:
+      name: Mohamed Sameeh Sharaf
+      id: '2167550119925504'
+    message: دوغرى :)
+    id: '512226678817045'
+  - created_time: '2013-01-13T21:53:13+0000'
+    from:
+      name: Mohamed Sameeh Sharaf
+      id: '2167550119925504'
+    message: طيب كدا العميل هيكون مستكنيس
+    id: '512227908816922'
+  - created_time: '2013-01-13T21:57:05+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: موضوع إنه يبقى مسكنيس ده حاجه تانيه، حط له نكت ومقاطع بلوتوث ساخنه
+    id: '512229112150135'
+  - created_time: '2013-01-13T22:15:28+0000'
+    from:
+      name: Mohamed Sameeh Sharaf
+      id: '2167550119925504'
+    message: مفيش اسهل منها :D
+    id: '512233285483051'
+  - created_time: '2013-01-13T22:47:44+0000'
+    from:
+      name: Mohammed Abdel-Aleem
+      id: '10155029730871786'
+    message: In addition to Moutaz suggestion you can make your application work in
+      offline mode in order to insure database access reliability.
+    id: '512242938815419'
+  - created_time: '2013-01-13T22:56:11+0000'
+    from:
+      name: Mohamed Sameeh Sharaf
+      id: '2167550119925504'
+    message: "طيب لما البرنامج يكون اوفلاين واعمل فواتير وارجع تانى اون لاين \n:(\nهعمل
+      ايه"
+    id: '512245442148502'
+  - created_time: '2013-01-14T04:25:21+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: احفظهم لوكال في ملف اكس-ام-ال أو في قاعدة بيانات مؤقتة وبعدين لما يرجع
+      أونلاين احفظهم في قاعدة البيانات الأم
+    id: '512359208803792'
+  - created_time: '2013-01-14T10:49:42+0000'
+    from:
+      name: Mahmoud Magdy
+      id: '10156022098445645'
+    message: |-
+      I will have to disagree with Moutaz, using HTTPs enables much more
+      flexibility for several reasons, HTTP/s optimized for slow network and reconnect, you can also do encryption, WAN optimization and you will have
+      more control over it.
+
+      don't use direct IP, you will regret it.
+    id: '512439992129047'
+  - created_time: '2013-01-15T15:46:55+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Use online database and you store your data offline in JSON and Sync
+      the data once you find internet connection. if you are offline you can ping
+      your server every 2-3 minutes. once you get a response stop pinging your server
+      and just work online.
+    id: '512986165407763'
+  - created_time: '2013-01-15T15:47:38+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: XML is old fashion thought! use JSON.
+    id: '512986338741079'
+  - created_time: '2013-01-15T16:28:18+0000'
+    from:
+      name: Mohammed Abdel-Aleem
+      id: '10155029730871786'
+    message: |-
+      I would recommend working offline by default and not to ping the server every minutes... in a real production environment with multiple clients access this technique could make a lot of problems i.e loads of traffic to the server...
+      If the application is working offline by default you could do the sync process 2 or 3 times daily for every client in different times.
+    id: '512999062073140'
+  - created_time: '2013-01-15T17:52:21+0000'
+    from:
+      name: Mohammed El Sayed
+      id: '10155880598025170'
+    message: I think because financial data is all about stock level and money, you
+      cannot work offline unless you don't have an internet connection available at
+      this time.
+    id: '513026478737065'
+  - created_time: '2013-01-15T17:54:21+0000'
+    from:
+      name: Mohammed El Sayed
+      id: '10155880598025170'
+    message: so the default MUST be an online solution that connects to a WCF/Web
+      service which the client initiate the first call with the service to acquire
+      an access token, and using this access token with all future communications
+      until it get expired.
+    id: '513026912070355'
+  - created_time: '2013-01-15T17:56:05+0000'
+    from:
+      name: Mohammed El Sayed
+      id: '10155880598025170'
+    message: this approach will insure that the data is always in sync, so querying
+      stock level should always be reflected by the most recent changes, and a secure
+      HTTPs communication mean is being used to avoid sniffing the request data.
+    id: '513027372070309'
+  - created_time: '2013-01-15T17:57:46+0000'
+    from:
+      name: Mohammed El Sayed
+      id: '10155880598025170'
+    message: 'conclusion: a mix of Moutaz Shams''s solution and my suggestion is what
+      I can think about right now.'
+    id: '513027838736929'
+  - created_time: '2013-01-16T08:08:05+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: Keep it simple. Don't do anything unless you *have to*. If the branches
+      have good connections, then ignore offline storage.
+    id: '513298048709908'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOVEV5TWpJMU56QTRPREUzTVRReU9qRXpOVGd4TVRNMU1qTT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOVEV6TWprNE1EUTROekE1T1RBNE9qRXpOVGd6TWpNMk9EVT0ZD

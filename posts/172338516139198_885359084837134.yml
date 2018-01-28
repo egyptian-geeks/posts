@@ -11,3 +11,131 @@ name: A website where you highlight text, right click, and retrieve a link inclu
   the whole page...
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/885359084837134/
 id: '172338516139198_885359084837134'
+reactions:
+  data:
+  - id: '1763959737010749'
+    name: Ahmed Mahmoud
+    type: LIKE
+  - id: '10155127398715933'
+    name: Amir Abdel-Rahman El-Sherbiny
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhPVEF5TVRrM05Ea3lPakUwTWpJeE1EWTFNRGc2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TnpJMk9USTFPVE15T2pFME1qSXdPRFExTnpBNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2015-01-24T07:55:41+0000'
+    from:
+      name: Amir Abdel-Rahman El-Sherbiny
+      id: '10155127398715933'
+    message: Nice idea! Are you the founder? If so, you need to consider some competitors
+      like www.diigo.com and btw, don't listen to the comment you got on Reddit and
+      think of it as a full fledged business. It seems to be a promising business.
+      A social annotation company like Genius has already received funding of more
+      than $50 M so far. Still, the business model design won't be straightforward
+      in my opinion.
+    id: '885436124829430'
+  - created_time: '2015-01-24T12:47:59+0000'
+    from:
+      name: Amjad Mashaal
+      id: '10213738834576763'
+    message: The key feature is that it will be extremely simple. Not an application,
+      not a toolbox, just right click, "link to selected text", and bam
+    id: '885511694821873'
+  - created_time: '2015-01-24T15:14:03+0000'
+    from:
+      name: Amir Abdel-Rahman El-Sherbiny
+      id: '10155127398715933'
+    message: OK just do it and share it with us :)
+    id: '885563264816716'
+  - created_time: '2015-01-25T01:18:42+0000'
+    from:
+      name: Nadi Hassan Hassan
+      id: '10160008770060338'
+    message: http://marginize.com
+    id: '885772864795756'
+  - created_time: '2015-01-25T01:21:20+0000'
+    from:
+      name: Amjad Mashaal
+      id: '10213738834576763'
+    message: |-
+      Nadi Hassan Hassan That was made by eSpace. I work there and I shared the idea with the people there, no one even mentioned that it was close to Marginize.
+
+      According to its FAQ as well, it's completely different.
+    id: '885773531462356'
+  - created_time: '2015-01-25T01:24:14+0000'
+    from:
+      name: Nadi Hassan Hassan
+      id: '10160008770060338'
+    message: My apologies then :) I sort of quick read the description . My advice
+      is if your idea is simple , go ahead and make a prototype out of it and try
+      to see where it goes . However over the idea / concept of the product , you
+      will have major issues mainly with user reception. Once again if an idea is
+      simple enough I'd say go ahead and do it . Some ideas are simpler to implement
+      in the wild then do a study about.
+    id: '885774261462283'
+  - created_time: '2015-01-25T01:25:36+0000'
+    from:
+      name: Amjad Mashaal
+      id: '10213738834576763'
+    message: 'Well, the problem is that it''s simple for the user and for the developers
+      D: Technically it''s a nightmare, but it can be done.'
+    id: '885774584795584'
+  - created_time: '2015-01-25T01:26:56+0000'
+    from:
+      name: Nadi Hassan Hassan
+      id: '10160008770060338'
+    message: If you can give me more details I can try to help as much as I can :)
+    id: '885774931462216'
+  - created_time: '2015-01-25T01:31:02+0000'
+    from:
+      name: Amjad Mashaal
+      id: '10213738834576763'
+    message: |-
+      Well, alright, there you go.
+
+      The first problem was obtaining the code of the page itself. It wasn't really easy to figure out how to save the page (including the media) as a "blob" and send it to the server. Fortunately, that part's done, as a prototype at least. I still don't know how to make it work on every page out there but I believe that isn't a solid wall, it just needs more research.
+
+      The next problem is the highlighting itself. I guess obtaining the text out of the context would be easy, but since we would highlight the text using CSS it would probably mess with the context.
+
+      Here's an example to explain.
+
+      <div id="Div1">Some div 1 text</div><div id="Div2">Some div 2 text</div>
+
+      Now let's consider that the user selected the text from "1 text" till "div 2". If we're using divs to highlight, then that's how it will end up as.
+
+      <div id="Div1">Some div <div id="HighlightThat">1 text</div><div id="Div2">Some div 2</div> text</div>
+
+      Imagine the mess.
+
+      Up till now, that's the part I can't figure out how to solve. Everything else just needs a bit more research, I guess.
+    id: '885775661462143'
+  - created_time: '2015-01-25T01:32:54+0000'
+    from:
+      name: Amjad Mashaal
+      id: '10213738834576763'
+    message: |-
+      Oh, since that might get you confused, here's an overview of how it's supposed to work.
+
+      The user selects text, right click, chooses to upload, the browser saves the whole page as an MHTML content and sends it to the server along with the selected text, the server adds a class to highlight this sentence, along with some CSS code, generates a link, sends it back, and there you go.
+    id: '885776178128758'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGcxTkRNMk1USTBPREk1TkRNd09qRTBNakl3T0RZAeE5ERT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGcxTnpjMk1UYzRNVEk0TnpVNE9qRTBNakl4TkRrMU56UT0ZD
+attachments:
+  data:
+  - description: I'm a founder of a small startup, we're only 2 people, I'm the developer
+      and my pal who co-founded the startup is a designer. Few months ago we...
+    media:
+      image:
+        height: 256
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAoPhbiR44CzKuU&w=720&h=720&url=http%3A%2F%2Fwww.redditstatic.com%2Ficon.png&cfs=1&_nc_hash=AQBBlG-B4lypDD_h
+        width: 256
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.reddit.com%2Fr%2FEntrepreneur%2Fcomments%2F2th12n%2Fa_website_where_you_highlight_text_right_click%2F&h=ATM9azDTRJ3pZjhNFNWq4MLuxq1OTUFm4Gmiucqnkd3CdbdlcqCEn5d0Uo_wJs5dTspvtGcWpsBH72-mIi6DRlGmKE1Cxv4rla3J&s=1&enc=AZOpC2HnMYhfp0Se3YXXIS9pkr6Hvqk_5sIRue_8qVHYc6-XEZ7qDNGyQc80xMIasx_ukevTV6LsIzSae5VHmS94
+    title: A website where you highlight text, right click, and retrieve a link including
+      the whole page...
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.reddit.com%2Fr%2FEntrepreneur%2Fcomments%2F2th12n%2Fa_website_where_you_highlight_text_right_click%2F&h=ATM9azDTRJ3pZjhNFNWq4MLuxq1OTUFm4Gmiucqnkd3CdbdlcqCEn5d0Uo_wJs5dTspvtGcWpsBH72-mIi6DRlGmKE1Cxv4rla3J&s=1&enc=AZOpC2HnMYhfp0Se3YXXIS9pkr6Hvqk_5sIRue_8qVHYc6-XEZ7qDNGyQc80xMIasx_ukevTV6LsIzSae5VHmS94

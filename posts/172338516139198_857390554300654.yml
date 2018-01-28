@@ -10,3 +10,44 @@ created_time: '2014-12-07T13:19:02+0000'
 updated_time: '2014-12-07T15:09:53+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/857390554300654/
 id: '172338516139198_857390554300654'
+comments:
+  data:
+  - created_time: '2014-12-07T14:10:44+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: "Well, don't.\nI work as a consultant, every few months I have a different
+      customer, and the one I'm working with happens to have exactly that: MVC & Webforms
+      in the same site. To make it even worse, they also use some commercial IIS rewriting
+      3rd party tool that I've never seen anyone else use (and think is pointless).\n\nThey
+      didn't try to mix MVC and Webforms though. I think it's too much trouble for
+      no good income. Of course things will break either in webforms or MVC. Instead,
+      they had some pages in MVC and some in Webforms. Yes, this meant layouts and
+      master pages with duplicate code, and yes, it's ugly.\n\nBased on that, I suggest
+      one of the following:\n\n- If you really have to, apply that, use separate layouts
+      and master pages and maybe try to have as much code as possible in shared utility
+      classes \n\n- Forget about MVC altogether. If the target is just sanity in programming,
+      here's another alternative also from experience: build as many features as possible
+      in AngularJS or some other client framework. Use Web API controllers (or even
+      webforms PageMethods as script methods returning JSON) to communicate to the
+      client framework and use as little as possible of webforms itself."
+    id: '857413240965052'
+  - created_time: '2014-12-07T14:24:35+0000'
+    from:
+      name: Ahmed G. Elhalwagy
+      id: '10156125283698615'
+    message: '"It''s ugly." Seconded.'
+    id: '857417590964617'
+  - created_time: '2014-12-07T15:09:53+0000'
+    from:
+      name: Khaled Ramadan
+      id: '10157199016384478'
+    message: |-
+      Thanks for all replies even the joke :)
+      Mohamed Meligy
+      You are right, we already did some features using AngularJs but unfortunately not all of my team know Angular and in the same time my customer has a huge ugly eCommerce portal that built upon Asp web forms  and  want to migrate to MVC but we need to do it step by step without interrupting the current running one and for those reasons i decided to divided that project into 3 parts the old one (webforms), MVC and Angular + Web Api but unfortunately the localization on their old site stopped working when using our routing and if i stopped our routing their site working successfully but our parts stopped working :(
+    id: '857434557629587'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFUzTkRFek1qUXdPVFkxTURVeU9qRTBNVGM1TmpFME5EUT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFUzTkRNME5UVTNOakk1TlRnM09qRTBNVGM1TmpRNU9UTT0ZD

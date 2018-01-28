@@ -22,3 +22,42 @@ created_time: '2015-08-30T19:31:43+0000'
 updated_time: '2015-08-31T14:56:21+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/999155293457512/
 id: '172338516139198_999155293457512'
+reactions:
+  data:
+  - id: '10159888519190052'
+    name: Omar Lotfy Alqady
+    type: LIKE
+  paging:
+    cursors:
+      before: T0RFeE5UYzFNRFV4T2pFME5EQTVOalkxTXpFNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: T0RFeE5UYzFNRFV4T2pFME5EQTVOalkxTXpFNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2015-08-30T19:36:30+0000'
+    from:
+      name: Ahmed Aboulenein
+      id: '10160047384135438'
+    message: It's called "pagination". It depends on your database implementation,
+      in MySQL for instance you need to use OFFSET and LIMIT in the select statement.
+      And yes, you need to make a new request when you need more data that would do
+      a new DB query.
+    id: '999156750124033'
+  - created_time: '2015-08-30T19:44:34+0000'
+    from:
+      name: Mohammad Fouad
+      id: '10155755444625845'
+    message: |-
+      in SQL Server, you can use OFFSET with SELECT and ORDERBY, but it is not guaranteed to optimize the query speed.
+
+      if you are also looking for speed, I would recommend looking into #clustered_index, if you write your queries right, a where condition could cut the table scan time greatly, and provide the pagination you need: WHERE id > 50 AND Id < 100
+    id: '999159196790455'
+  - created_time: '2015-08-31T14:56:21+0000'
+    from:
+      name: Abanoub Milad Hanna
+      id: '10215462521020547'
+    message: "(Y) great, thx . Mina Sameh check this"
+    id: '999526386753736'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVGs1TVRVMk56VXdNVEkwTURNek9qRTBOREE1TmpNek9UQT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVGs1TlRJMk16ZAzJOelV6TnpNMk9qRTBOREV3TXpJNU9ERT0ZD

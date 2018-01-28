@@ -12,3 +12,101 @@ updated_time: '2014-07-08T17:47:30+0000'
 name: Please Calculate This Circle’s Circumference
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/779437832095927/
 id: '172338516139198_779437832095927'
+reactions:
+  data:
+  - id: '10156089336182292'
+    name: Hassan Aly Selim
+    type: LIKE
+  - id: '10155961552416083'
+    name: Abdallah Hodieb
+    type: LIKE
+  - id: '10155984416966904'
+    name: Elsharnouby Mohamed
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRFNU5qa3lNamt4T2pFME1EUTRPVGN3TXpRNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TnpjME1UTXhPVEF6T2pFME1EUTRNakl6TnpRNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2014-07-08T12:28:49+0000'
+    from:
+      name: Elsharnouby Mohamed
+      id: '10155984416966904'
+    message: |-
+      الموضوع طلع كبير :D
+      مكنتش متخيل ان دا يأثر على البرامج الكبيرة كدا .. he's a valve developer :)
+    id: '779441002095610'
+  - created_time: '2014-07-08T12:43:36+0000'
+    from:
+      name: Ahmed Saleh
+      id: '10159933379005574'
+    message: He would just use Assembly (inline) and the FPU instruction set and write
+      the function to the lowest level, I' m sure at valve they use a lot of SIMD,
+      FPU,..etc.
+    id: '779445358761841'
+  - created_time: '2014-07-08T12:49:09+0000'
+    from:
+      name: Ahmed Saleh
+      id: '10159933379005574'
+    message: "Something like that would work,\nfloat f_pi = 3.14159265358979323846f;\nfloat
+      f_circum;\nfloat f_radius;\n_asm {\nFLD f_pi \nFMUL f_radius  \nFSTP f_circum\n//
+      the stack\n} // end asm"
+    id: '779447245428319'
+  - created_time: '2014-07-08T16:19:44+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: I am not sure the complexity of using assembly is rewarded with any real
+      gains in this case. I mean that would probably yield the same machine code.
+    id: '779533932086317'
+  - created_time: '2014-07-08T16:44:11+0000'
+    from:
+      name: Elsharnouby Mohamed
+      id: '10155984416966904'
+    message: |-
+      That's appears to be right. Inline assembly is slower. Compilers have powerful optimisation
+
+      http://stackoverflow.com/questions/9601427/is-inline-assembly-language-slower-than-native-c-code
+    id: '779545478751829'
+  - created_time: '2014-07-08T16:50:12+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: I guess both processors and compilers are more complex nowadays and writing
+      your own assembly tends to get in the way of compiler's optimization.
+    id: '779547518751625'
+  - created_time: '2014-07-08T17:07:49+0000'
+    from:
+      name: Ahmed Saleh
+      id: '10159933379005574'
+    message: Well, If you know what are you doing, then inline assembly won't be slower,
+      ever. Unless you're writing an advanced ray-tracer or complex 3D Renderer, computer
+      vision,,ec, you should  notcare about speed.
+    id: '779553368751040'
+  - created_time: '2014-07-08T17:47:30+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: Your app does not have to be that advanced for speed to be important.
+      Small losses can easily add up and become a bottleneck in a loop.
+    id: '779567235416320'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemM1TkRReE1EQXlNRGsxTmpFd09qRTBNRFE0TWpJMU1qaz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemM1TlRZAM01qTTFOREUyTXpJd09qRTBNRFE0TkRFMk5UQT0ZD
+attachments:
+  data:
+  - description: "“Please write a C++ function that takes a circle’s diameter as a
+      float and returns the circumference as a float.” It sounds like the sort of
+      question you might get in the first week of a C++ progra..."
+    media:
+      image:
+        height: 200
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQDa8b8D31coWHDe&w=720&h=720&url=http%3A%2F%2Fwordpress.com%2Fi%2Fblank.jpg%3Fm%3D1383295312g&cfs=1&_nc_hash=AQBmaVpJsS7MUAdN
+        width: 200
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Frandomascii.wordpress.com%2F2014%2F06%2F26%2Fplease-calculate-this-circles-circumference%2F&h=ATMgX8CMfqj35uMz_5Mnz4pMDzZFqe9FwFMXYhb1tk1dITojmtPb4rGnGHZbtZzNgQkPBZ9EFR_ecjHqCuB_CXRGbyKemOAClHFx&s=1&enc=AZOlZr492y5936Tv66KlqmQuXVEcKW-N548IL-MHY3hNFCTu2TTmmzWlUIo59t-IB2O6QyK10Za7aIqb9Bzkk3V8
+    title: Please Calculate This Circle’s Circumference
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Frandomascii.wordpress.com%2F2014%2F06%2F26%2Fplease-calculate-this-circles-circumference%2F&h=ATMgX8CMfqj35uMz_5Mnz4pMDzZFqe9FwFMXYhb1tk1dITojmtPb4rGnGHZbtZzNgQkPBZ9EFR_ecjHqCuB_CXRGbyKemOAClHFx&s=1&enc=AZOlZr492y5936Tv66KlqmQuXVEcKW-N548IL-MHY3hNFCTu2TTmmzWlUIo59t-IB2O6QyK10Za7aIqb9Bzkk3V8

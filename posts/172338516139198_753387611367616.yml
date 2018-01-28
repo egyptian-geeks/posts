@@ -13,3 +13,49 @@ created_time: '2014-05-26T11:08:54+0000'
 updated_time: '2014-05-26T12:31:17+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/753387611367616/
 id: '172338516139198_753387611367616'
+comments:
+  data:
+  - created_time: '2014-05-26T11:23:08+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: This effect was popular in Bootstrap as "ScrollSpy". Check the "JavaScript"
+      section in Bootstrap site if you use it, or google "scrollspy" if you don't.
+      Some option from random googling https://github.com/sxalexander/jquery-scrollspy
+    id: '753393504700360'
+  - created_time: '2014-05-26T12:18:39+0000'
+    from:
+      name: Amr Tag
+      id: '10211180899988571'
+    message: |-
+      I came across him as well, thanks....
+      now I'm facing another issue, I manually wrote the code for scroll animation and it works nice in google chrome, but doesnt work in firefox. any tips? (I'm still quiet a noob at this, I started learning the front-end thing two months ago)
+    id: '753411034698607'
+  - created_time: '2014-05-26T12:27:12+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      Well, I haven't used this myself, when I googled "/jquery-scrollspy firefox" (without quotes, the first result was a StackOverflow accepted answer: http://stackoverflow.com/questions/10684210/scrollspy-jquery-doesnt-work-in-firefox-opera
+      I hope it helps.
+    id: '753414078031636'
+  - created_time: '2014-05-26T12:31:17+0000'
+    from:
+      name: Amr Tag
+      id: '10211180899988571'
+    message: |-
+      sorry for not clarifying, but this is the version that didn't work:
+
+      <script type="text/javascript">
+       $('#element li a').click(function(){
+       $('html body').animate({"scrollTop": $($(this).attr("href")).offset().top}, 1000);
+       console.log("it worked!");
+       });
+       </script>
+
+      I'll use scrollpy though, I'm reading the documentation. thanks a lot for help
+    id: '753416161364761'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOelV6TXprek5UQTBOekF3TXpZAd09qRTBNREV4TURNek9EZAz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOelV6TkRFMk1UWXhNelkwTnpZAeE9qRTBNREV4TURjME56Yz0ZD

@@ -16,3 +16,111 @@ updated_time: '2015-06-12T10:01:31+0000'
 name: MicroPython - Python for microcontrollers
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/957279237645118/
 id: '172338516139198_957279237645118'
+reactions:
+  data:
+  - id: '10155134229550373'
+    name: Hussein Eldabaa
+    type: LIKE
+  - id: '10215282097155427'
+    name: Mohamed Ali Abuelwafa
+    type: LIKE
+  - id: '10215800137143118'
+    name: Mohamed Elnagar
+    type: LIKE
+  - id: '10160105091405314'
+    name: Mohamed Elsherif
+    type: LIKE
+  - id: '10156102161974222'
+    name: Mohamed Mahmoud Abdallah
+    type: LIKE
+  - id: '10155854949245944'
+    name: Tarek Amr
+    type: LIKE
+  - id: '10215523479504700'
+    name: Abdulaziz Alaa
+    type: LIKE
+  - id: '936932426464423'
+    name: Ali Zawahry
+    type: LIKE
+  - id: '10155245211207653'
+    name: Ahmed Naiem
+    type: LIKE
+  - id: '1532825676787208'
+    name: Mohamed Badawi
+    type: LIKE
+  - id: '10215834435679186'
+    name: Diaa Sami
+    type: LIKE
+  - id: '10156207737619180'
+    name: Ahmed Al-Amir
+    type: LIKE
+  - id: '10155855157936047'
+    name: Mosab Ibrahim
+    type: LIKE
+  - id: '10215564715853753'
+    name: Mokhtar Awwad
+    type: LIKE
+  - id: '10155726948921273'
+    name: Diaa Mohamed Kasem
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRnMU16TTFNemN5T2pFME16UXhOVEE0TURZANk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TmpNMU1ERTJNamN5T2pFME16UXdORGt3TkRFNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2015-06-11T20:34:47+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: Diaa, you were looking into a similar subject before, right?
+    id: '957315907641451'
+  - created_time: '2015-06-11T20:40:17+0000'
+    from:
+      name: Diaa Sami
+      id: '10215834435679186'
+    message: |-
+      Yes, I was looking for high-level languages that run on embedded systems, how embedded is this system though, how much memory does the board have ? I couldn't find this piece of info.
+      Running the code on the board from the browser is very nice, I have to say :)
+    id: '957317014308007'
+  - created_time: '2015-06-11T23:45:20+0000'
+    from:
+      name: Ali Zawahry
+      id: '936932426464423'
+    message: So why is this better than OpenWRT with a python package ??
+    id: '957361180970257'
+  - created_time: '2015-06-12T07:48:56+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: I don't know about OpenWRT
+    id: '957489170957458'
+  - created_time: '2015-06-12T08:50:30+0000'
+    from:
+      name: Diaa Sami
+      id: '10215834435679186'
+    message: I believe OpenWRT runs regular python which can run on any system with
+      a couple hundred megabytes of ram (Rpi, mobile phones, routers, etc), however
+      the system we have here has a couple hundred kilobytes of ram
+    id: '957523617620680'
+  - created_time: '2015-06-12T10:01:31+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      OpenWRT is a whole linux OS (so you can do lots of things), while PyBoard runs only a special version of Python. I think OpenWRT vs MicroPython is like RaspberryPI vs Arduino.
+
+      I'm not an expert. I just searched for this for 5m, so take this with a bag of salt :)
+    id: '957544157618626'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFUzTXpFMU9UQTNOalF4TkRVeE9qRTBNelF3TlRRNE9EYz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFUzTlRRME1UVTNOakU0TmpJMk9qRTBNelF4TURNeU9URT0ZD
+attachments:
+  data:
+  - description: MicroPython - Python for microcontrollers
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fmicropython.org%2Flive%2F&h=ATOTEDPacZiOxozRg3HgaDM8yR_0Un3GV-HZQHLQqSrybFEkYnuSU88WQeqGxYfC6UhNGhUQIuWjpZAUS6WDAOqphqn-zrprFg4B&s=1&enc=AZO7uoapEsCGUbukt3_yfjwv7Vl41rx-AKGaH9vXsphAhwOoqs0R6dxFp1KOf9dOsnrcTgMHr4SMSyIosWU7mBKY
+    title: MicroPython - Python for microcontrollers
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fmicropython.org%2Flive%2F&h=ATOTEDPacZiOxozRg3HgaDM8yR_0Un3GV-HZQHLQqSrybFEkYnuSU88WQeqGxYfC6UhNGhUQIuWjpZAUS6WDAOqphqn-zrprFg4B&s=1&enc=AZO7uoapEsCGUbukt3_yfjwv7Vl41rx-AKGaH9vXsphAhwOoqs0R6dxFp1KOf9dOsnrcTgMHr4SMSyIosWU7mBKY

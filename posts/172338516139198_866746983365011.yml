@@ -9,3 +9,43 @@ created_time: '2014-12-24T16:07:14+0000'
 updated_time: '2014-12-24T16:25:22+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/866746983365011/
 id: '172338516139198_866746983365011'
+reactions:
+  data:
+  - id: '1544104592377915'
+    name: Mohamed Naser Amein
+    type: LIKE
+  - id: '1615562848483091'
+    name: Muhamad Abd El Galil
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXpNelV4TmpZAM09EQTBPakUwTVRrNU5URTJOalk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXdPRGd4TnpRMU1UZA3dPakUwTVRrME16YzFOVEk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2014-12-24T16:22:57+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      By "make documentation", you mean "write", "generate", or "host" documentation?
+
+      Also, you want to write docs yourself, or generate them from code?
+    id: '866753126697730'
+  - created_time: '2014-12-24T16:24:07+0000'
+    from:
+      name: Beshoy Semsem
+      id: '1973245399616106'
+    message: "لو هتعمل generate  مفهوم يبقى كويس \nلو مش هتعمل وعايزينى اكتب comments
+      بشكل معين وهى generate تمام"
+    id: '866753766697666'
+  - created_time: '2014-12-24T16:25:22+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: Google returned this http://stackoverflow.com/questions/6096649/documenting-node-js-projects
+    id: '866754366697606'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFkyTnpVek1USTJOamszTnpNd09qRTBNVGswTXpneE56Yz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFkyTnpVME16WTJOamszTmpBMk9qRTBNVGswTXpnek1qST0ZD

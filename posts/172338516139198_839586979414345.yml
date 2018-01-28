@@ -13,3 +13,215 @@ created_time: '2014-11-01T19:29:17+0000'
 updated_time: '2014-11-02T21:40:10+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/839586979414345/
 id: '172338516139198_839586979414345'
+reactions:
+  data:
+  - id: '1703405903057034'
+    name: Mohamed Hashem
+    type: LIKE
+  - id: '10156358805885288'
+    name: Mahmoud Abd El-Fattah
+    type: LIKE
+  - id: '10157028049108496'
+    name: Omar Sabet
+    type: LIKE
+  - id: '10157134145555299'
+    name: Eslam Salem Mahmoud
+    type: LIKE
+  - id: '10209868256375843'
+    name: Khaled Mhd
+    type: LIKE
+  - id: '10155638727450376'
+    name: Ahmed Magdy
+    type: LIKE
+  - id: '10157072407451982'
+    name: Mahmoud Abdallah
+    type: LIKE
+  - id: '10156089336182292'
+    name: Hassan Aly Selim
+    type: LIKE
+  - id: '10215093583796418'
+    name: Muhammad Negm
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhOakk1TWpFMk56TTNPakUwTVRRNU1ESTVOakE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRNek5Ua3dOall4TXpveE5ERTBPRGN3TXprd09qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2014-11-01T19:37:47+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: I applied it while viewing this post on facebook ... this is AWESOME!
+      :D
+    id: '839589942747382'
+  - created_time: '2014-11-01T19:38:37+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: |-
+      Make your life awesome:
+
+      setInterval(function () { [].forEach.call($$("*"),function(a){
+      a.style.outline="2px solid #"+(~~(Math.random()*(1<<12))).toString(16) }, 5);
+      }, 100)
+    id: '839590209414022'
+  - created_time: '2014-11-01T19:41:39+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      I tried turning it into a bookmarklet but it didn't work :\
+      javascript:[].forEach.call($$("*"),function(a){a.style.outline="1px solid #"+(~~(Math.random()*(1<<24))).toString(16)});
+    id: '839590982747278'
+  - created_time: '2014-11-01T19:47:43+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: |-
+      try this:
+
+      javascript:(function(){[].forEach.call($$("*"),function(a){a.style.outline="1px solid #"+(~~(Math.random()*(1<<24))).toString(16)})});
+    id: '839592786080431'
+  - created_time: '2014-11-01T19:56:55+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: hmmm... still not working, I'll look into it later :\
+    id: '839596342746742'
+  - created_time: '2014-11-02T00:20:16+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: http://egyptian-geeks.github.io/CSSDebuggingTools/
+    id: '839683516071358'
+  - created_time: '2014-11-02T00:20:23+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Done ;)
+    id: '839683556071354'
+  - created_time: '2014-11-02T00:27:45+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: https://twitter.com/mohammedalaa/status/528703992562319360
+    id: '839685709404472'
+  - created_time: '2014-11-02T01:27:02+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: on IE it's parsing the double quotes in the code as an ending for the
+      href attribute, I think you need to escape them :\
+    id: '839703339402709'
+  - created_time: '2014-11-02T01:28:39+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Hassan Aly Selim fork it, fix it and pull request ;)
+    id: '839703849402658'
+  - created_time: '2014-11-02T01:29:02+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: I don't have IE on my Mac and I won't so i can actually see that behaviour
+      :S
+    id: '839703922735984'
+  - created_time: '2014-11-02T01:31:46+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: ok, tomorrow, because my few attempts haven't worked so far, and I need
+      to sleep :D
+    id: '839704492735927'
+  - created_time: '2014-11-02T01:43:12+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: same problem with Chrome 32 on Windows BTW :S
+    id: '839708162735560'
+  - created_time: '2014-11-02T21:08:33+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      yeah I'm getting "$$ is undefined" in both IE 11 and Chrome 32 when pressing on the button or when entering it in the address bar, but works fine when entered into the console.
+      I'm not very good with JS and it's the first time for me to see this "$$", I only know the "$" from jQuery :D
+      Is there a replacement for $$ part?
+    id: '840078629365180'
+  - created_time: '2014-11-02T21:10:00+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: It's not part of jquery
+    id: '840079009365142'
+  - created_time: '2014-11-02T21:11:39+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: "$$ is like document.querySelectorAll() however it's not part of jQuery.
+      I replaced it I guess with the document.querySelectorAll('*') so it work on
+      all browsers."
+    id: '840079446031765'
+  - created_time: '2014-11-02T21:13:01+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      yeah I know that it's not part of jQuery (I don't see any <script> tags in the page you made), it seems to be part of plain-old JS that I never heard of before.
+      I didn't know normal JS had a way to select things based on CSS selectors, I thought it was a jQuery thing, so I just learned something new today :D
+    id: '840079976031712'
+  - created_time: '2014-11-02T21:14:36+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: ";) let me know when you get it to work, did you fork it already ?"
+    id: '840080632698313'
+  - created_time: '2014-11-02T21:17:10+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      I'm kind of embarrassed to say this ... but this will be my first fork ever :D
+      Previously I just pulled from origin and made a few local changes for personal use and that's it :D
+    id: '840081606031549'
+  - created_time: '2014-11-02T21:17:46+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: There is always a first time :) So go for it :)
+    id: '840081759364867'
+  - created_time: '2014-11-02T21:18:02+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Fork it and push your changes to your Repo
+    id: '840081806031529'
+  - created_time: '2014-11-02T21:18:14+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: and once it's done just make a pull request and I will accept it.
+    id: '840081829364860'
+  - created_time: '2014-11-02T21:18:24+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: ok :)
+    id: '840081896031520'
+  - created_time: '2014-11-02T21:29:25+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: done :) Turns out it was a simple fix :D
+    id: '840085276031182'
+  - created_time: '2014-11-02T21:40:10+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Merged and Working like a Charm ;)
+    id: '840088749364168'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRE01TlRnNU9UUXlOelEzTXpneU9qRTBNVFE0TnpBMk5qYz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFF3TURnNE56UTVNelkwTVRZANE9qRTBNVFE1TmpRME1UQT0ZD

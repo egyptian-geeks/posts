@@ -5,9 +5,109 @@ from:
   name: Kareem Elansary
   id: '10156256566230530'
 type: link
-picture: https://external.xx.fbcdn.net/safe_image.php?w=130&h=130&url=http%3A%2F%2Fcdn.sstatic.net%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3Dfde65a5a78c6&cfs=1&_nc_hash=AQA_YeL8hRg1vUjp
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQA5QuuBM5i555L5&w=130&h=130&url=http%3A%2F%2Fcdn.sstatic.net%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3Dfde65a5a78c6&cfs=1&_nc_hash=AQC9Awq5Ii5uvPKu
 created_time: '2015-08-12T07:38:38+0000'
 updated_time: '2015-08-12T10:58:14+0000'
 name: Create Package in Bower Using bitbucket repository
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/988804924492549/
 id: '172338516139198_988804924492549'
+reactions:
+  data:
+  - id: '10154904189965670'
+    name: Ahmad Alfy
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRrMU1USTFOalk1T2pFME16a3pOall3TnpnNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRrMU1USTFOalk1T2pFME16a3pOall3TnpnNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2015-08-12T07:54:34+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: |-
+      This is one of the earliest issues reported on bower and it seem like they fixed it: https://github.com/bower/registry/issues/4
+      What's the error you are getting?
+    id: '988808144492227'
+  - created_time: '2015-08-12T08:05:22+0000'
+    from:
+      name: Kareem Elansary
+      id: '10156256566230530'
+    message: Ahmad Alfy :(
+    id: '988810234492018'
+  - created_time: '2015-08-12T08:08:11+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: Trying to help man give me more info instead of a sad face :(
+    id: '988810947825280'
+  - created_time: '2015-08-12T08:09:21+0000'
+    from:
+      name: Kareem Elansary
+      id: '10156256566230530'
+    message: not fixed ... did you tried this before ? to register a bower package
+      from a bitbucket ?
+    id: '988811214491920'
+  - created_time: '2015-08-12T08:15:17+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: Didn't register private packages before actually. Can you move that to
+      github? Or it is gonna be a private package?
+    id: '988812301158478'
+  - created_time: '2015-08-12T08:15:38+0000'
+    from:
+      name: Kareem Elansary
+      id: '10156256566230530'
+    message: Private
+    id: '988812381158470'
+  - created_time: '2015-08-12T08:18:48+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: This pull request didn't reslove it ? https://github.com/bower/registry/pull/78
+    id: '988813177825057'
+  - created_time: '2015-08-12T08:35:31+0000'
+    from:
+      name: Kareem Elansary
+      id: '10156256566230530'
+    message: ok, so they make a decision not to register any private repo as a package
+      .. it should be public. either on github or bitbucket
+    id: '988817424491299'
+  - created_time: '2015-08-12T10:58:14+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      It makes sense to register only public repositories into the public registry.
+
+      Depending on "Why" you want to do this, you can choose from the following options
+
+      - Open the repo for public if possible. Delete it quick if the reason for private is testing with no rubbish behind you.
+
+      - Have a different repository just for the bower distribution artefacts. A lot of even public OSS projects do that. You can push to it manually or set it up in your build process.
+
+      - Instead of a registry, just tell people to install the dependency from the git URL you have. Yes, bower can install dependencies from HTTPS private git repositories. I have done it before. I just stick the URL in the bower.json file and run bower install You can even specify branch name to pull from, or a specific tag.
+
+      - You can have a private bower registry and get other people in your team to add manually. I could find a few articles about it with a simple search. I don't see much value of doing that over just installing from the git URL though.
+    id: '988857524487289'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVGc0T0RBNE1UUTBORGt5TWpJM09qRTBNemt6TmpZAd056UT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVGc0T0RVM05USTBORGczTWpnNU9qRTBNemt6Tnpjd09UUT0ZD
+attachments:
+  data:
+  - description: I am trying to register a package using bower register <name> https://git@bitbucket.org..
+      but bower is not creating a new package and throwing error as it is not a valid
+      url and URl has to st...
+    media:
+      image:
+        height: 316
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQCz3rmhv1AH6XyC&w=720&h=720&url=http%3A%2F%2Fcdn.sstatic.net%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3Dfde65a5a78c6&cfs=1&_nc_hash=AQDYMA7sVVUu6LYN
+        width: 316
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F27816530%2Fcreate-package-in-bower-using-bitbucket-repository&h=ATNHbibbKTTsGB06fv0O_2yOyKSWp41lP8AbsWq3lOcYadI5FypOBVTcG2j3zEB_kiFjmopEZJa_BFGseoEvQ7UoRnzMJ4ZCOKMe&s=1&enc=AZO9qF_9RrBhZE7PxtX5vqSN1SJptA0j2HSi_mcpVSlgXgZtS1xgJ1e6aAUQZY2-vuWNod5RhaTVE8LqQgffOICA
+    title: Create Package in Bower Using bitbucket repository
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F27816530%2Fcreate-package-in-bower-using-bitbucket-repository&h=ATNHbibbKTTsGB06fv0O_2yOyKSWp41lP8AbsWq3lOcYadI5FypOBVTcG2j3zEB_kiFjmopEZJa_BFGseoEvQ7UoRnzMJ4ZCOKMe&s=1&enc=AZO9qF_9RrBhZE7PxtX5vqSN1SJptA0j2HSi_mcpVSlgXgZtS1xgJ1e6aAUQZY2-vuWNod5RhaTVE8LqQgffOICA

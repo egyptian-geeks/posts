@@ -11,3 +11,111 @@ created_time: '2014-08-27T21:53:43+0000'
 updated_time: '2014-08-28T02:54:58+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/805457376160639/
 id: '172338516139198_805457376160639'
+comments:
+  data:
+  - created_time: '2014-08-27T21:59:03+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Is your widget fixed ? or vary from post to another?
+    id: '805458689493841'
+  - created_time: '2014-08-27T22:01:07+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Fixed
+    id: '805459076160469'
+  - created_time: '2014-08-27T22:01:24+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: It has options, but the options don't change per post.
+    id: '805459176160459'
+  - created_time: '2014-08-27T22:01:56+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: I might want to include it only in posts that have particular tags, but
+      I can live with just including it everywhere.
+    id: '805459282827115'
+  - created_time: '2014-08-28T00:50:54+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: I have a widget already, a 3rd party one. I'd ideally have it added as
+      [wordpress shortcode] to the post (I have a plugin that allows me to append
+      things to posts). But from quick reading it seems WordPress doesn't have a builtin
+      shortcode for widgets.
+    id: '805500366156340'
+  - created_time: '2014-08-28T00:52:38+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: It's mailchimp widget, if I can't get this sorted I'll just use embedded
+      form otherwise.
+    id: '805500722822971'
+  - created_time: '2014-08-28T00:58:02+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Speaking of that, what's the best personally recommended shortcodes plugin?
+      I don't think the plugin I use "Page Layout" supports shortcodes other than
+      the plugins own codes as well
+    id: '805501959489514'
+  - created_time: '2014-08-28T01:12:19+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: I use the official one (named just "MailChimp"), but will look at this
+      too. Thanks.
+    id: '805506212822422'
+  - created_time: '2014-08-28T01:16:09+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Should I be worried that the rating is just 3? :D There seem to be many
+      other plugins with higher ratings. Might give it a night to try multiple variations.
+      Do you use it personally?
+    id: '805507279488982'
+  - created_time: '2014-08-28T01:36:12+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Thanks. Yeah, I was trying to save myself the evaluation process really
+      using something that fiends suggest. Ideally I'll soon be also looking for one
+      of those pop-up things, setting it to show only after users have read the post.
+    id: '805511966155180'
+  - created_time: '2014-08-28T02:39:25+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: |-
+      Mohamed Meligy This is what you need https://wordpress.org/plugins/custom-sidebars/
+
+      You create a new sidebar from Wordpress admin and per post you can set which one to be loaded after the post. Although you might need to include the custom sidebar include after your post.
+    id: '805528222820221'
+  - created_time: '2014-08-28T02:51:38+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Thanks Alaa, but I need something inline not in the sidebar.
+    id: '805531492819894'
+  - created_time: '2014-08-28T02:53:27+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: The sidebar is the term is not the location of the widget content, you
+      can have a "sidebar" in the footer or in the header, not necessarily it's the
+      right block on the blog or the left one. the sidebar also is the only place
+      that can hold your widget. can you share a link to your blog please?
+    id: '805531832819860'
+  - created_time: '2014-08-28T02:54:58+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: It's the same and only one http://gurustop.net
+    id: '805532152819828'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPREExTkRVNE5qZAzVORGt6T0RReE9qRTBNRGt4TnpZAM05ETT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPREExTlRNeU1UVXlPREU1T0RJNE9qRTBNRGt4T1RRME9UZAz0ZD

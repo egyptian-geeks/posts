@@ -12,3 +12,132 @@ created_time: '2015-04-17T15:55:19+0000'
 updated_time: '2015-04-21T15:48:11+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/927305617309147/
 id: '172338516139198_927305617309147'
+reactions:
+  data:
+  - id: '1653791508068257'
+    name: Asmaa Elkholy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXpNVEl5TnpFMk9EUTBPakUwTWpreU9EWXhOVGc2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXpNVEl5TnpFMk9EUTBPakUwTWpreU9EWXhOVGc2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2015-04-17T16:00:55+0000'
+    from:
+      name: Asmaa Elkholy
+      id: '1653791508068257'
+    message: I think en mafe4 7aga gahza t3mel keda ,its depends on NLP (natural language
+      processing ) so yo have to build code from scratch using specific algorithms
+      , i will search with you
+    id: '927307363975639'
+  - created_time: '2015-04-17T16:13:12+0000'
+    from:
+      name: Hussein Mohamed Momtaz
+      id: '10156208031698896'
+    message: '2wlan speech to text dah esmo speech recognition  w f el android el
+      link dah momken yesa3ed : http://viralpatel.net/blogs/android-speech-to-text-api/    laken
+      enno ye2ra men wara2 dah feeh two steps: 2wel 7aga OCR framework  zay deh (http://www.abbyy.com/mobileocr/android/)  tetargem
+      el 7rof men el wara2 l text w ba3d keda text to speech engine w dool  mawgooden
+      kteer 3shan yekra2 elly et7awel'
+    id: '927312093975166'
+  - created_time: '2015-04-17T16:23:16+0000'
+    from:
+      name: Usama Fayez
+      id: '10155807421830280'
+    message: |-
+      Like Hussein Said
+      You can search Google for "Speech Recognition Android" and "OCR Android"
+    id: '927315163974859'
+  - created_time: '2015-04-17T16:26:21+0000'
+    from:
+      name: Ahmed Eskander
+      id: '10159985916830444'
+    message: Hussein Mohamed Momtaz does it support arabic?
+    id: '927316253974750'
+  - created_time: '2015-04-17T16:29:57+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: Since you basically need the whole thing coded for you. It does not seem
+      like you have done any research, you just need someone to come up with solution
+      and code it as well. So, How much are you willing to pay for someone to make
+      it for you?
+    id: '927317283974647'
+  - created_time: '2015-04-17T16:30:07+0000'
+    from:
+      name: Hussein Mohamed Momtaz
+      id: '10156208031698896'
+    message: i have not tried it yet, but arabic support is always hard to find.
+    id: '927317337307975'
+  - created_time: '2015-04-17T16:44:38+0000'
+    from:
+      name: Mohamed Elnagar
+      id: '10215800137143118'
+    message: http://cmusphinx.sourceforge.net/
+    id: '927322010640841'
+  - created_time: '2015-04-17T17:29:55+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: did you even google the damn question ?
+    id: '927338863972489'
+  - created_time: '2015-04-17T17:33:58+0000'
+    from:
+      name: Usama Fayez
+      id: '10155807421830280'
+    message: Maybe she didn't know the right keywords?
+    id: '927340037305705'
+  - created_time: '2015-04-17T17:41:10+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: Is she asking about keywords? She is asking for code.
+    id: '927346053971770'
+  - created_time: '2015-04-17T18:25:19+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: Do you want something to decode human genes, cure cancer and enforce
+      world peace along what you asked?!
+    id: '927360107303698'
+  - created_time: '2015-04-21T13:13:03+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: Seriously?! We now share code in pictures?! What else?! Are we going
+      to write code on paper and send it using the amazing Egyptian postal system?!
+    id: '929382790434763'
+  - created_time: '2015-04-21T13:27:14+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: seriously guys? code in pictures?
+    id: '929388797100829'
+  - created_time: '2015-04-21T13:35:30+0000'
+    from:
+      name: Amr Abouldahab
+      id: '1665478456806698'
+    message: |-
+      I think that ridicule ??
+      Sorry !!
+    id: '929391130433929'
+  - created_time: '2015-04-21T13:37:38+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: "Imagine somebody handing you images to copy code from! Pretty unusable
+      isn't it? \n\nCode is text, can be easily shared. Either by uploading the java
+      classes, or using services like http://www.pastebin.com or http://gist.github.com"
+    id: '929391723767203'
+  - created_time: '2015-04-21T15:48:11+0000'
+    from:
+      name: Mohamed El-Alfy
+      id: '1589145544505470'
+    message: "For building mobile app like Siri i suggest this SDK \n http://nuancemobiledeveloper.com/public/index.php\n(Speech
+      recognition & text to speech) \nFor OCR I used \nhttps://code.google.com/p/tesseract-ocr/"
+    id: '929442457095463'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEkzTXpBM016WXpPVGMxTmpNNU9qRTBNamt5T0RZAME5UVT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEk1TkRReU5EVTNNRGsxTkRZAek9qRTBNamsyTXpFeU9URT0ZD

@@ -10,3 +10,35 @@ created_time: '2014-02-11T18:29:52+0000'
 updated_time: '2014-02-12T01:33:52+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/699732526733125/
 id: '172338516139198_699732526733125'
+reactions:
+  data:
+  - id: '10214861141222529'
+    name: Abdelrady Fcis
+    type: LIKE
+  - id: '2296596577032538'
+    name: Yehya Hafez
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRJME5qZA3lNelF4TVRveE16a3lNVFV3TVRVNE9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBd01EQXdORFkyTlRVMU5EazBPakV6T1RJeE5Ea3hNRFE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2014-02-11T23:23:31+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: What was the problem?
+    id: '699841130055598'
+  - created_time: '2014-02-12T01:33:52+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: a Fuckin wordpress plugin quick cache was running a very heavy query
+      on mysql infinitely. the query takes 11 sec. to run but it runs it on many threads
+      which was causing memory allocation problem and the server goes down.
+    id: '699888453384199'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOams1T0RReE1UTXdNRFUxTlRrNE9qRXpPVEl4TmpFd01URT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOams1T0RnNE5EVXpNemcwTVRrNU9qRXpPVEl4TmpnNE16ST0ZD

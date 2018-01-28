@@ -13,3 +13,90 @@ created_time: '2014-11-29T00:07:54+0000'
 updated_time: '2014-11-29T15:07:31+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/853220544717655/
 id: '172338516139198_853220544717655'
+comments:
+  data:
+  - created_time: '2014-11-29T00:20:36+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: why not? If you can be productive with it quickly, then it is a good
+      choice. Old JDBC or ODBC is fine as you just need to connect to the database
+      and do your usual CRUD operations.
+    id: '853224064717303'
+  - created_time: '2014-11-29T00:34:36+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: why not do it web ?
+    id: '853228441383532'
+  - created_time: '2014-11-29T00:39:28+0000'
+    from:
+      name: Marwa Dosoky
+      id: '10156104209581248'
+    message: because i would need another apps to make it running. like a web server
+      . I am just aiming for simplicity and speed development. I am afraid that the
+      client will feel strange to use IE or FireFox
+    id: '853229751383401'
+  - created_time: '2014-11-29T00:53:34+0000'
+    from:
+      name: Mohamed Adel Mahmoud
+      id: '10159868592475564'
+    message: why not as M.Samy said ... even if it's not the best way to develop on
+      windows ... always consider the time constraints ... for sure, you will take
+      a lot of time to learn something new ... this learning curve time will be added
+      to the total project time... Thus if you are learning something complex you
+      will take a lot of time which will make the project revenue like nothing for
+      you.. the more simple, fast the better it is for business apps if you are seeking
+      revenue ... otherwise, if you are seeking to get some knowledge and invest in
+      yourself ... I think using the WPF framework would be a very good fancy choice
+      for doing such a windows application like this 1.... best wishes;
+    id: '853233224716387'
+  - created_time: '2014-11-29T00:59:39+0000'
+    from:
+      name: Moustafa Abdelaziz
+      id: '10156095976664136'
+    message: |-
+      Well, it is all up to you .. What I suggest is (it might be wrong):
+      since you are a web developer, you can use different web technologies to accomplish the assigned project .. afterwards you can either submit a documentation for the people who are going to use that app for the clients so that they get to know how to use it or you simply educate them of how to use the app.
+
+      Web server might be a problem if you are working with web technologies .. Okay, forget about my suggestion for now and go for the most productive way you are familiar with
+
+      (I should be in bed by now) =D
+    id: '853235008049542'
+  - created_time: '2014-11-29T01:33:16+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Why you wanna go for Java instead of going for a lighter framework? Something
+      like Sinatra, Ruby can help you get the job done very fast and easily!
+    id: '853243581382018'
+  - created_time: '2014-11-29T03:12:45+0000'
+    from:
+      name: Mostafa Muhammad
+      id: '10155787111376210'
+    message: |-
+      I used Nullsoft installer to create a setup file that gives the client this "offline application feel". The installer installs the HTTP server, the database server and configures everything and then adds a shortcut to the application on the user desktop. Unless the user is very perceptive and tech-savvy, he may not notice he is running a web app
+
+      http://nsis.sourceforge.net/Main_Page
+    id: '853270768045966'
+  - created_time: '2014-11-29T11:15:22+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: |-
+      Mohamed Alaa El Din that's off topic from what the OP was asking for. The OP is talking swing, so it's clearly a desktop application, Sinatra won't build you a desktop app.
+
+      One possible option, is to build a desktop application using web technologies, the sdk I tried for this was http://www.tidesdk.org/
+    id: '853458954693814'
+  - created_time: '2014-11-29T15:07:31+0000'
+    from:
+      name: Marwa Dosoky
+      id: '10156104209581248'
+    message: Those were the things i hoped to find.  Thx geks.  U helped a lot .  Last
+      question.  How much money should i ask for?  It ls a tiny app after all.  But
+      i dont have a good knowledge in pricing freelance tasks
+    id: '853546771351699'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFV6TWpJME1EWTBOekUzTXpBek9qRTBNVGN5TWpBME16WT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFV6TlRRMk56Y3hNelV4TmprNU9qRTBNVGN5TnpNMk5URT0ZD

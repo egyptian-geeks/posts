@@ -10,3 +10,81 @@ updated_time: '2014-12-14T16:16:54+0000'
 name: Pulling a Large MySQL Table into elasticsearch - 21st Century DevOps
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/860308937342149/
 id: '172338516139198_860308937342149'
+comments:
+  data:
+  - created_time: '2014-12-13T22:31:50+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: |-
+      This trick is used in most big websites. lets say e-commerce.
+
+      You save your product in mysql the data get exported to either memcached, Elasticsearch or Solr and you get your data directly from them. You will also find the need to expire keys maybe by using any good MQ systems and running a full import in case of something wrong or running a migration.
+    id: '860484190657957'
+  - created_time: '2014-12-13T22:46:11+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: Mohamed Alaa El Din I always get into troubles when it comes to importing
+      big data tables either to a caching engine like reddis or memcahed or even with
+      elasticsearch :/
+    id: '860487560657620'
+  - created_time: '2014-12-13T23:10:38+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: why is that? what kind of troubles?
+    id: '860493577323685'
+  - created_time: '2014-12-13T23:42:14+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: Mohamed Alaa El Din I got a mysql table with +100000 records needs to
+      be synced to the cache and mysql server got hang up will the cronjob was pulling
+      the data :(
+    id: '860501350656241'
+  - created_time: '2014-12-14T06:47:48+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: something u are doing wrong. coz i do the same with millions of records
+      and it works. can u show me a flow chart of your process and i will try to help
+      u debugging it.
+    id: '860664237306619'
+  - created_time: '2014-12-14T09:51:51+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: "Mohamed Alaa El Din i got the problem you was right it was my fault.
+      pulling all the table records every time. \nkont dayef field 3shan a3raf beh
+      el record dah synced 3la elasticsearch wla la2. 3aref eih el moshkla :D el field
+      kan wa5ed default value b false le kol el records w fy query tany byupdato b
+      false kol shwya (leeh m3rfsh ana kan f dma3'y eih sa3taha)."
+    id: '860731047299938'
+  - created_time: '2014-12-14T15:58:50+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: ":D Good U got it solved Alaa Attya Mohamed (Y) Very well done :) Can
+      u tell me in which app u use it just a general idea."
+    id: '860925987280444'
+  - created_time: '2014-12-14T16:16:54+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: Mohamed Alaa El Din may be a new startup ;)
+    id: '860936347279408'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFl3TkRnME1Ua3dOalUzT1RVM09qRTBNVGcxTURrNU1UQT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFl3T1RNMk16UTNNamM1TkRBNE9qRTBNVGcxTnpNNE1UUT0ZD
+attachments:
+  data:
+  - description: If you need to perform realtime queries against a huge MySQL table,
+      but are no longer able to due to the size of the table, read on to find out
+      how …
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fblog.randywallace.com%2Fblog%2F2013%2F08%2F27%2Fpulling-a-large-mysql-table-into-elasticsearch%2F&h=ATPH5F-tt84SJ0i_DwNo0Sbz7iy04dGDr8bYYiju4rzysnnhDwGo1aKvh-XMeyIXJZVPySX6FdTZLlzAO1GOaXZy8WGfnT7m_PB8&s=1&enc=AZOo2XBW_SJHQUT9aVpYh7W-9nxr4Gik9BY8lACBakNW5hN18rWjVEYTlAu5T5i62KB7eG74Xqnt0_ntyLjNV-qi
+    title: Pulling a Large MySQL Table into elasticsearch - 21st Century DevOps
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fblog.randywallace.com%2Fblog%2F2013%2F08%2F27%2Fpulling-a-large-mysql-table-into-elasticsearch%2F&h=ATPH5F-tt84SJ0i_DwNo0Sbz7iy04dGDr8bYYiju4rzysnnhDwGo1aKvh-XMeyIXJZVPySX6FdTZLlzAO1GOaXZy8WGfnT7m_PB8&s=1&enc=AZOo2XBW_SJHQUT9aVpYh7W-9nxr4Gik9BY8lACBakNW5hN18rWjVEYTlAu5T5i62KB7eG74Xqnt0_ntyLjNV-qi

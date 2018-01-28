@@ -10,3 +10,24 @@ created_time: '2015-07-23T10:53:46+0000'
 updated_time: '2015-07-28T12:09:54+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/977557765617265/
 id: '172338516139198_977557765617265'
+comments:
+  data:
+  - created_time: '2015-07-23T10:55:16+0000'
+    from:
+      name: Mostafa Essam Eldin
+      id: '10155055938141574'
+    message: Mohamed Hammad  if you know how to support him
+    id: '977558182283890'
+  - created_time: '2015-07-28T12:09:54+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      as far as I know, WPF already has great support for touch, almost all controls have events for touch (as well as mouse and stylus), so I don't think you'll need any 3rd-party libraries.
+
+      Edit: also consider making a universal windows app (aka metro/modern), the XAML and code are very similar and the platform is designed to work great with touch.
+    id: '980727291966979'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVGMzTlRVNE1UZA3lNamd6T0Rrd09qRTBNemMyTkRnNU1UWT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVGd3TnpJM01qa3hPVFkyT1RjNU9qRTBNemd3T0RVek9UUT0ZD

@@ -8,3 +8,36 @@ created_time: '2014-11-13T04:31:03+0000'
 updated_time: '2014-11-13T05:05:35+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/845349785504731/
 id: '172338516139198_845349785504731'
+comments:
+  data:
+  - created_time: '2014-11-13T04:49:06+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Youtube provide an API which gives you 3 cover images of the video.
+    id: '845353585504351'
+  - created_time: '2014-11-13T04:51:12+0000'
+    from:
+      name: Mohamed Taha
+      id: '1635412699859063'
+    message: yes but i don't want thumbnails i need more than 3 images with more control
+    id: '845354052170971'
+  - created_time: '2014-11-13T04:53:02+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: |-
+      Then you will have to process the video. Download it to your own server, convert the encoding to mp4 or whatever encoding you want and then extract it to images and select the images you want.
+
+      Might be useful if you tell us what's exactly the problem you are trying to solve here.
+    id: '845354405504269'
+  - created_time: '2014-11-13T05:05:35+0000'
+    from:
+      name: Mohamed Taha
+      id: '1635412699859063'
+    message: ok thanks, i'm trying to take some screenshots of youtube video automatically
+    id: '845357002170676'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFExTXpVek5UZAzFOVEEwTXpVeE9qRTBNVFU0TlRReE5EWT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFExTXpVM01EQXlNVGN3TmpjMk9qRTBNVFU0TlRVeE16VT0ZD

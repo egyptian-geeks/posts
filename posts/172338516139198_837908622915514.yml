@@ -8,3 +8,68 @@ created_time: '2014-10-29T13:37:12+0000'
 updated_time: '2014-10-29T22:59:59+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/837908622915514/
 id: '172338516139198_837908622915514'
+comments:
+  data:
+  - created_time: '2014-10-29T13:38:16+0000'
+    from:
+      name: أحمد محمود محمد عبدالوهاب
+      id: '10155226291481186'
+    message: attachment unavailable
+    id: '837909139582129'
+  - created_time: '2014-10-29T13:39:04+0000'
+    from:
+      name: Ahmed Magdy
+      id: '10155638727450376'
+    message: |-
+      Since the site html source contains only the guid from there the browser shows the favicon?
+
+      http://guid.azurewebsites.net/
+    id: '837909362915440'
+  - created_time: '2014-10-29T13:48:32+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: "كروم لما بيطلب اى بيدج بيطلب من السيرفر الfav icon لو السيرفر رد بيها
+      بيحطها، لو مافيش meta ليها بيسأل على الdefault name بتاعها اللى هو favicon.ico
+      فى حالة الفيسبوك مثلآ \nhttps://www.facebook.com/favicon.ico\nفى حالة الويبسايت
+      ده \nhttp://guid.azurewebsites.net/favicon.ico"
+    id: '837912326248477'
+  - created_time: '2014-10-29T13:56:55+0000'
+    from:
+      name: Omar Essam
+      id: '10156052502884860'
+    message: اعتقد الinspector بيعمل Parse للصفحه علي انها html فلو فيها حاجه مش مظبوطه
+      بيصلحها هو
+    id: '837915742914802'
+  - created_time: '2014-10-29T14:07:36+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: الdeveloper tools بتحاول تحول اى محتوى لصفحة، حتى لو فتحت صورة او صوت
+      هتلاقيها محولاها HTML page و حط المحتوى فى الbody
+    id: '837919486247761'
+  - created_time: '2014-10-29T14:49:48+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: Emad Elsaid That's right, Chrome and Firefox get the favicon by default,
+      yet they will not show the request in either the developer's tools in chrome
+      nor Firefox's firebug, in Chrome though, you may find the request in chrome://net-internals/#events
+    id: '837936079579435'
+  - created_time: '2014-10-29T14:50:54+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: انا اكتشفتها لما ببص فى rails server output او الNodejs output ، بلاقيه
+      بيطلبه بمجرد مافتح البيدج.
+    id: '837936416246068'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRE0zT1RBNU1UTTVOVGd5TVRJNU9qRTBNVFExT0RrNE9UWT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRE0zT1RNMk5ERTJNalEyTURZANE9qRTBNVFExT1RReU5UUT0ZD
+attachments:
+  data:
+  - description: This attachment may have been removed or the person who shared it
+      may not have permission to share it with you.
+    title: Attachment Unavailable
+    type: unavailable

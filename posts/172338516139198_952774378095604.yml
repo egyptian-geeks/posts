@@ -10,3 +10,163 @@ updated_time: '2015-06-04T14:06:33+0000'
 name: Installing XAMPP on Linux - Here's how I did it.
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/952774378095604/
 id: '172338516139198_952774378095604'
+reactions:
+  data:
+  - id: '10210172319016618'
+    name: Mohamed Hagras
+    type: LIKE
+  - id: '10155880569740170'
+    name: Meligy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRVNU9ESXpNalU1TnpveE5ETXpNak0yT0RnNE9qSTFOREE1TmpFMk1UTT0ZD
+      after: TlRRME9ERTFNVFk1T2pFME16TXlNek13TXpJNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2015-06-02T07:48:07+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Good post. Where did you learn about the terminal commands for Linux?
+    id: '952940194745689'
+  - created_time: '2015-06-02T09:19:02+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: May I ask what is the point of installing xampp on linux?
+    id: '952959818077060'
+  - created_time: '2015-06-02T09:20:03+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: I mean it is better if you use the packages provided by your distribution,
+      or build the services yourself from source.
+    id: '952960101410365'
+  - created_time: '2015-06-02T12:20:05+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Sandboxing maybe? Curious to know the OP's answer.
+    id: '952998511406524'
+  - created_time: '2015-06-02T13:30:50+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: Mohamed Meligy +1 for using the term OP
+    id: '953015324738176'
+  - created_time: '2015-06-02T15:48:27+0000'
+    from:
+      name: Ashraf Abdel Aleem
+      id: '1996472664009073'
+    message: I did "Reinvent The Wheel" once 7 years ago when I created my own php
+      framework, I'll never do it again :-(
+    id: '953105264729182'
+  - created_time: '2015-06-02T15:49:56+0000'
+    from:
+      name: Ashraf Abdel Aleem
+      id: '1996472664009073'
+    message: And... Linux commands can be learned step by step on the go while you
+      use the OS
+    id: '953105611395814'
+  - created_time: '2015-06-02T18:28:27+0000'
+    from:
+      name: Ahmed Zain Mohammed
+      id: '10156266511868081'
+    message: |-
+      Ashraf Abdel Aleem I have these questions for u:
+      - Why did you drop your framework for another ?
+      - What framework gave you the push to make the trade ?
+      - What framework are you using now ?
+      - Can i have a look at your old framework ?
+    id: '953156924724016'
+  - created_time: '2015-06-02T22:54:32+0000'
+    from:
+      name: Ashraf Abdel Aleem
+      id: '1996472664009073'
+    message: "Ahmed Zain Mohammed here are the answers:      \n1- Mine was lake the
+      support for ORACLE DB and I hit the wall of supporting another DB rather than
+      MySQL.\n2- ZF 1.6  was the framewrok that I had to deal with since I was a part
+      of a teamwork.\n3- I am using CodeIgniter at the moment and I satisfy with it
+      because of its increadible lightweight and looseness.\n4- Yes you can but it
+      comes with a price dear :-) ... it's more than 180 hours of hard working."
+    id: '953239691382406'
+  - created_time: '2015-06-03T12:44:36+0000'
+    from:
+      name: Ahmed Zain Mohammed
+      id: '10156266511868081'
+    message: Na, I was just curious.
+    id: '953534601352915'
+  - created_time: '2015-06-03T15:37:49+0000'
+    from:
+      name: Ashraf Abdel Aleem
+      id: '1996472664009073'
+    message: |-
+      OK Ahmed Zain Mohammed, Let's make this conversation even more richer, how about to answer some of your questions?
+      1- What's your FW?
+      2- How did you evaluate the FW before decide to use it?
+      3- What reason would make you change your FW?
+      4- Did you ever start a new project from scratch, and was it giving you the feeling of power control?
+    id: '953589028014139'
+  - created_time: '2015-06-03T15:59:47+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: '"apt-get install lamp-server" is hardly a command :D'
+    id: '953598104679898'
+  - created_time: '2015-06-04T12:27:01+0000'
+    from:
+      name: Ahmed Zain Mohammed
+      id: '10156266511868081'
+    message: "Ashraf Abdel Aleem\nFirst of all, I NEVER USED A FRAMEWORK (or even
+      a CMS !). But I like Laravel. \n\nSince I started coding with PHP (that was
+      7+ years ago), I was never comfortable using someone else 's code, so I never
+      bothered to learn to use a framework or a CMS. I always loved writing everything
+      from scratch.\n\nMy first framework (I named it \"Unique\") was very simple
+      and lightweight, I loved it so much and decided to use it and work more on it,
+      hoping that someday I could open-source it and share it with the world.\n\nAfter
+      3 years of development and about 10+ projects it became more sophisticated and
+      elegant, I named it \"Zonda\".\n\nNowadays, it's more awesome than ever. And
+      it's called \"Rhino\", it's basically an HMVC, but instead of the Model part
+      I use something that I call \"DB Handlers\", and instead of the View i use \"Widgets\".
+      \n\nRhino is so unbelievably fast, lightweight and secure. And it was intended
+      to build Web Apps, not websites. I love this thing sooo much, here are some
+      code sample:\n\n$clients = DB_Clients::whereNameLike(' ... ')->orderByName()->limit(10)->get(['name',
+      'website']);\n\nDatabase\\Connections::get('master')->databases();\n\nDB_clients::backup();\n\n$dir
+      = new Files\\Directory( ... );\n$dir->files(['php', 'psd'])->delete()->backup();\n\nPlus
+      so much more ..."
+    id: '954049061301469'
+  - created_time: '2015-06-04T13:53:35+0000'
+    from:
+      name: Abdulla Ahmed Seif
+      id: '1579863445426307'
+    message: Ahmed Zain Mohammed تقدر ترفع الفريم وورك بتاعك نشوفه  بالإضافه هل هو
+      موثق (inline doc)
+    id: '954118607961181'
+  - created_time: '2015-06-04T14:06:33+0000'
+    from:
+      name: Ahmed Zain Mohammed
+      id: '10156266511868081'
+    message: "Ah documentation kamel :) \n\nMaybe soon, I've been wanting to put it
+      on Gitup for so damn long, but I keep telling myself: Why, no one would use
+      it, it will be ANOTHER PHP FRAMEWORK"
+    id: '954123224627386'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFV5T1RRd01UazBOelExTmpnNU9qRTBNek15TXpFeU9EYz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFUwTVRJek1qSTBOakkzTXpnMk9qRTBNek0wTWpZAM09UTT0ZD
+attachments:
+  data:
+  - description: Since I am using Linux Mint 17.1 'Rebecca', Cinnamon Edition, "XAMPP"
+      was the right choice for me to configure an Apache server and continue building
+      PHP apps but on Linux platform this time. My pr...
+    media:
+      image:
+        height: 200
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQC62lLYvOtCi5SQ&w=720&h=720&url=https%3A%2F%2Fs0.wp.com%2Fi%2Fblank.jpg&cfs=1&_nc_hash=AQB9G6dBOCxzPH-v
+        width: 200
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fashrafproweb.wordpress.com%2F2015%2F05%2F20%2Finstalling-xampp-on-linux-heres-how-i-did-it%2F&h=ATNNJwQhMwq1wxxmD9booZ5_XC1FoAHjANg-rHyJW-vdvf8irP4v7VCIINknoyl9-pXoz96V-mGUcqvC555JvhrupL51n7yTHbfM&s=1&enc=AZOmbkZaDAP9k3evdsCBeLFNBq_IgKmN3qjCOa3CctvF2HmT9hIXQipyTR0OOZdHfhvEIxsJ_n05WGBPgUrlhBK6
+    title: Installing XAMPP on Linux - Here's how I did it.
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fashrafproweb.wordpress.com%2F2015%2F05%2F20%2Finstalling-xampp-on-linux-heres-how-i-did-it%2F&h=ATNNJwQhMwq1wxxmD9booZ5_XC1FoAHjANg-rHyJW-vdvf8irP4v7VCIINknoyl9-pXoz96V-mGUcqvC555JvhrupL51n7yTHbfM&s=1&enc=AZOmbkZaDAP9k3evdsCBeLFNBq_IgKmN3qjCOa3CctvF2HmT9hIXQipyTR0OOZdHfhvEIxsJ_n05WGBPgUrlhBK6

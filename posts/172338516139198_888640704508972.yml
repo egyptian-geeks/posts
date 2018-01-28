@@ -10,3 +10,135 @@ created_time: '2015-01-31T11:29:15+0000'
 updated_time: '2015-02-02T14:34:35+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/888640704508972/
 id: '172338516139198_888640704508972'
+reactions:
+  data:
+  - id: '1986935694906879'
+    name: Muhammad Gamal
+    type: LIKE
+  - id: '1872433002767763'
+    name: Taghreed Mohammed Kamel
+    type: LIKE
+  - id: '10215036976427882'
+    name: Amgad X Diiab
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTNOekUwTURJNE56ZAzRPakUwTWpNMU5UVTJOVGM2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRVek5ETXdOelE0T0RveE5ESXlOekEwTmpnek9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2015-01-31T11:35:48+0000'
+    from:
+      name: Mostafa Muhammad
+      id: '10155787111376210'
+    message: I am not sure if such thing exists but I can help you with a Google search
+      keyword.. .This process is called "Transliteration". So I would start by looking
+      for "Arabic transliteration" ...
+    id: '888642384508804'
+  - created_time: '2015-01-31T11:38:56+0000'
+    from:
+      name: Ibrahim Hammad
+      id: '10154919620001486'
+    message: I know that this is not answer for your question. But I tried the Google
+      translation now for many names and some of them are not popular and it translates
+      it well.
+    id: '888643211175388'
+  - created_time: '2015-01-31T11:56:56+0000'
+    from:
+      name: Mostafa Ashour
+      id: '10159943766970252'
+    message: "The term is transliteration. There were three main players in this space:\n1)
+      Microsoft has a product called Maren that does that (disclaimer: I was involved
+      in that).  There used to be plans for an api but I am not sure if that ever
+      shipped.\nhttp://afkar.microsoft.com/en/maren/\n\n2) Yamli also has a similar
+      product and I think at one point in time they did have an API \nhttp://www.yamli.com\n\n3)
+      Google had a service called Google transliterate and now they have merged it
+      with something called Google Input Tools.\nhttp://www.google.com/inputtools/services/features/transliteration.html"
+    id: '888648607841515'
+  - created_time: '2015-01-31T11:57:06+0000'
+    from:
+      name: Ahmed Melege
+      id: '10156112171242375'
+    message: http://www.yamli.com/api/
+    id: '888648654508177'
+  - created_time: '2015-01-31T12:51:54+0000'
+    from:
+      name: Rafael Adel
+      id: '10156260406777122'
+    message: Ahmed Nagy
+    id: '888691257837250'
+  - created_time: '2015-01-31T13:20:56+0000'
+    from:
+      name: Mohab Elkaref
+      id: '10159932941280506'
+    message: You can look up 'Buckwalter' transformation. It's a standard set by IBM
+      that is widely used in research into Arabic. Thing is, it represents letters
+      that aren't in English with a combination of letters and numbers. You can find
+      a lot of implementations of it, so you can also edit that to remove the unhelpful
+      characters and you're good to go.
+    id: '888702507836125'
+  - created_time: '2015-01-31T14:49:10+0000'
+    from:
+      name: Ahmad Gamaleldin Hassanein
+      id: '10155945694126276'
+    message: "مظنش ان الموضوع الترجمه الحرفيه حينفع \nاولا، فيه اختلافات كتير في الإسم
+      الواحد بالانجليزي بس المقابل في العربي واحد بس صح\nوهل عايز تقبل فرانكو ولا
+      لأ\nاظن لو ملقيتش API ذكية بشكل كافي مع الأسماء بالذات حتحتاج تكتب Class محترمة
+      تعدل الأسامي الأول وتجهزها للتحويل\nمثلا، اي Abd,Abdul,Abdel, Abd el...\nتحولها
+      الأول ل 3bd مثلا وبالتالي لما تترجم تطلع صح\nطبعا ده محتاج شغل جامد و testing
+      على اسامي كتير جدا وتشوف ايه محتاج يتعدل"
+    id: '888739841165725'
+  - created_time: '2015-01-31T14:50:30+0000'
+    from:
+      name: Ahmad Gamaleldin Hassanein
+      id: '10155945694126276'
+    message: ياريت لو نويت تعمل كدة تخليها Open Source وتبعتهالنا نساعدك فيها :)
+    id: '888741344498908'
+  - created_time: '2015-01-31T17:57:25+0000'
+    from:
+      name: Amir Mohamed Atia
+      id: '10155967624789840'
+    message: انا كان عندي عميل عايز حاجة زي دي وكان عنده ملفات اكسل فيها حوالي مليون
+      صف اسامي رباعية كانت عايزة تترجم  يعني حوالي اربعة مليون اسم وكانت اسامية سورية
+      ومصرية وفلبينية وبنجلادش والسودان  وسحبتهم كلهم وحذفت كل المتشابه والمكرر وصفو
+      على حوالي 60 الف اسم اديتهم لكذا حد داتا انتري ترجمهوملي وترجمتله بيهم الملفات
+      الاكسل بعد كده
+    id: '888821814490861'
+  - created_time: '2015-01-31T20:11:49+0000'
+    from:
+      name: Adel K. Khalil
+      id: '10159958402365584'
+    message: We used Yamli with a limited success around 30% couple of years ago.
+      We had some ideas to improve the out come by checking if the word is translatable
+      against Google Translate first but we abandoned the project.
+    id: '888866211153088'
+  - created_time: '2015-02-01T10:05:41+0000'
+    from:
+      name: Tarek Amr
+      id: '10155854949245944'
+    message: As Mohab Elkaref said, Buckwalter' transformation is a well known transliteration
+      tool for that.You can read Nizar Habash paper about the tool here, https://scholar.google.co.uk/scholar?q=arabic+transliteration+&btnG=&hl=en&as_sdt=0%2C5
+    id: '889085514464491'
+  - created_time: '2015-02-02T13:52:47+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: I'd like to add a small point about Maren and Yamli that you might find
+      useful, from my use I noticed that Maren is optimized for the Egyptian accent
+      while Yamli can recognize your accent from the corrections you make and change
+      its suggestions to follow that accent :)
+    id: '889662107740165'
+  - created_time: '2015-02-02T14:34:35+0000'
+    from:
+      name: Ahmad Gamaleldin Hassanein
+      id: '10155945694126276'
+    message: |-
+      كومنت بعيد شوية عن الموضوع الاصلي
+      انا كنت عملت keyboard layout عشان اسهل كتابه العربي بس من غير اي برامج او مواقع بينزل زي اي لغه عاديه
+      جربوه بقى :D
+      www.3arabik.com
+    id: '889692951070414'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGc0TmpReU16ZAzBOVEE0T0RBME9qRTBNakkzTURReE5EZAz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGc1TmpreU9UVXhNRGN3TkRFME9qRTBNakk0T0RjMk56VT0ZD

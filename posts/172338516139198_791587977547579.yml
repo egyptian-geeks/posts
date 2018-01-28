@@ -10,3 +10,57 @@ updated_time: '2014-07-30T19:36:56+0000'
 name: Understanding JavaScript Function Invocation and “this” « Katz Got Your Tongue?
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/791587977547579/
 id: '172338516139198_791587977547579'
+reactions:
+  data:
+  - id: '10156476353501062'
+    name: Tarik Ibrahim
+    type: LIKE
+  - id: '10155452467310950'
+    name: Mohamed Mostafa Abouzeid
+    type: LIKE
+  - id: '10156089336182292'
+    name: Hassan Aly Selim
+    type: LIKE
+  paging:
+    cursors:
+      before: Tnpjd01Ea3hNRFl4T2pFME1EWTRPVGd3TlRFNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRFNU5qa3lNamt4T2pFME1EWTNNemt3TWprNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2014-07-30T16:58:38+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      Interesting! I've personally avoided using "this" in JavaScript because I found it confusing (and doesn't really mean what it should mean if JS was a normal language).
+      But what about normal DOM Events (without using jQuery) like:
+      <div onclick="myFunc(this)" />
+      wouldn't "this" be the div I clicked on? or will it still be the "window"?
+    id: '791657540873956'
+  - created_time: '2014-07-30T19:36:56+0000'
+    from:
+      name: Amr Ali Tealeb
+      id: '10156575426331336'
+    message: i think it will be the clicked element
+    id: '791730367533340'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemt4TmpVM05UUXdPRGN6T1RVMk9qRTBNRFkzTXprMU1UZAz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemt4TnpNd016WTNOVE16TXpRd09qRTBNRFkzTkRrd01UWT0ZD
+attachments:
+  data:
+  - description: "Yehuda Katz is a member of the Ember.js, Ruby on Rails and jQuery
+      Core Teams; his 9-to-5 home is at the startup he founded, Tilde Inc.. There
+      he works on Skylight, the smart profiler for Rails, and does Ember.js consulting\uFEFF.
+      He is best known for his open source work, which also includes Thor and Han…"
+    media:
+      image:
+        height: 195
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQDaKgYpPJQ9vAuc&w=720&h=720&url=http%3A%2F%2Fyehudakatz.com%2Fwp-content%2Fuploads%2F2011%2F08%2Fthis-table2.png&cfs=1&_nc_hash=AQCUg69E_xpJgHGg
+        width: 195
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fyehudakatz.com%2F2011%2F08%2F11%2Funderstanding-javascript-function-invocation-and-this%2F&h=ATPzDQ5sKxJ8JfWTz0ElLyq6odd-PPiRSL7lTCri5VCYDxQWtHj_b7xlIfY7I2KFnq8anfl5-cjcQJIQIKyz4r-nUcYMWJTW43Ip&s=1&enc=AZOU0HjOV5j2rd4vQ5sc83K0cnc0kaGwBw2FgB4o6zQ3lkgdMYBg_5qMoixmpSzLewbTt1OhIXZjcjvF55sEwOok
+    title: Understanding JavaScript Function Invocation and “this” « Katz Got Your
+      Tongue?
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fyehudakatz.com%2F2011%2F08%2F11%2Funderstanding-javascript-function-invocation-and-this%2F&h=ATPzDQ5sKxJ8JfWTz0ElLyq6odd-PPiRSL7lTCri5VCYDxQWtHj_b7xlIfY7I2KFnq8anfl5-cjcQJIQIKyz4r-nUcYMWJTW43Ip&s=1&enc=AZOU0HjOV5j2rd4vQ5sc83K0cnc0kaGwBw2FgB4o6zQ3lkgdMYBg_5qMoixmpSzLewbTt1OhIXZjcjvF55sEwOok

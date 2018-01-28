@@ -11,3 +11,116 @@ updated_time: '2015-01-09T03:23:29+0000'
 name: youtube/vitess
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/878018848904491/
 id: '172338516139198_878018848904491'
+reactions:
+  data:
+  - id: '10157134145555299'
+    name: Eslam Salem Mahmoud
+    type: LIKE
+  - id: '10215070655377585'
+    name: Mahmoud Kandeel
+    type: LIKE
+  - id: '1555752981144826'
+    name: Essam A. Hassan
+    type: LIKE
+  - id: '1573619512716214'
+    name: Mohamed Alaa El Din
+    type: LIKE
+  - id: '10159825719935065'
+    name: Shenouda Bertel
+    type: LIKE
+  - id: '2088941797787563'
+    name: Mohamed A. Baset
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpFeU9UTTFNams0T2pFME1qQTRNRFE1T0RJNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQXdNVFV5T0RnMk1UQXhPakUwTWpBM05UazROVGM2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2015-01-09T01:49:54+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: ''
+    id: '878067642232945'
+  - created_time: '2015-01-09T01:51:14+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: ouch this is bad, how did youtube push something like that and did not
+      even notice!
+    id: '878067878899588'
+  - created_time: '2015-01-09T01:51:26+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: btw i did not notice too :D
+    id: '878067932232916'
+  - created_time: '2015-01-09T01:56:59+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: hahahaha they probably notice because if they use travis they should
+      get notifications. Better see Facebook and their advance in MySQL and they even
+      forked it and have their own modified version!
+    id: '878069075566135'
+  - created_time: '2015-01-09T01:58:19+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: https://github.com/facebook/mysql-5.6
+    id: '878069958899380'
+  - created_time: '2015-01-09T01:58:26+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: yea i've heard a talk about it and how they it even with the new chat
+      messenger
+    id: '878069985566044'
+  - created_time: '2015-01-09T01:59:07+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Yep that talk is Epic! Would love to know why Redis Failed for them!
+    id: '878070105566032'
+  - created_time: '2015-01-09T02:01:27+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: the same quest came cross my mind too :D stackoverflow is working fine
+      with redis i think!
+    id: '878070522232657'
+  - created_time: '2015-01-09T02:03:16+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Yes but in real time you have to consider other stuff! I imagine redis
+      for stackoverflow is replicate of mysql in key-value for faster read and you
+      can even add a caching layers on top of it but for real time it's a real challenge
+      with FB Massanger you can't cache at all!
+    id: '878070945565948'
+  - created_time: '2015-01-09T02:08:29+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: maybe you're right, how come to cache all those values what a holy memory
+      that can cache all those values :D
+    id: '878072205565822'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGM0TURZAM05qUXlNak15T1RRMU9qRTBNakEzTmpneE9UUT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGM0TURjeU1qQTFOVFkxT0RJeU9qRTBNakEzTmprek1Eaz0ZD
+attachments:
+  data:
+  - description: vitess provides servers and tools which facilitate scaling of MySQL
+      databases for large scale web services.
+    media:
+      image:
+        height: 400
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAMMO__H4luf2YF&w=720&h=720&url=https%3A%2F%2Favatars3.githubusercontent.com%2Fu%2F4052902%3Fv%3D3%26s%3D400&cfs=1&_nc_hash=AQBTFvBWKkNwH6fv
+        width: 400
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Fyoutube%2Fvitess&h=ATOMKBXudCkizncj7KzE6f-jSTwKU0fwMTKjAkp9M_wtEN1ObwNBVI2QYdYiaRSkGnsUrDGRa10L26RX8G9HfmKjRiNCH0wSm3gk&s=1&enc=AZOmnfmq_Jt4aV87eyOGAzgQeWBdhJTMMeowXAum_Vfp3x1QuwuFOUf3wmBQsgHyDhfq9yIJFZpxTmI6dnGANakv
+    title: youtube/vitess
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Fyoutube%2Fvitess&h=ATOMKBXudCkizncj7KzE6f-jSTwKU0fwMTKjAkp9M_wtEN1ObwNBVI2QYdYiaRSkGnsUrDGRa10L26RX8G9HfmKjRiNCH0wSm3gk&s=1&enc=AZOmnfmq_Jt4aV87eyOGAzgQeWBdhJTMMeowXAum_Vfp3x1QuwuFOUf3wmBQsgHyDhfq9yIJFZpxTmI6dnGANakv

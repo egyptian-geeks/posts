@@ -7,3 +7,109 @@ created_time: '2011-12-23T07:50:25+0000'
 updated_time: '2011-12-23T07:50:25+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/306705646035817/
 id: '172338516139198_306705646035817'
+attachments:
+  data:
+  - description: |-
+      step 1. Install dependencies
+
+
+
+      Install git : Git is the most popular (as well as  fast and efficient; Linux kernel uses it; developed by Linux Torwalds,  the same guy who developed Linux kernel) open source version control system. You can install it in one simple command to install it from the official package repository -
+
+       
+
+      sudo apt-get install git
+
+       
+
+      Install Curl : Curl is a command line tool to get a file from FTP/HTTP/HTTPS server. To install, open terminal and execute the command -
+
+      sudo apt-get install curl
+
+       
+
+      step 2. Install RVM (Ruby Version Manager)
+
+      Open terminal and execute the command (I assume you’ve already completed the step 1, otherwise first do that):
+
+       
+
+      bash < <(curl -s https://rvm.beginrescueend.com/install/rvm)
+
+       
+
+      Now, you might have to edit the bashrc file to load RVM in shell session. To do that type -
+
+      gedit ~/.bashrc
+
+       
+
+      and add the following line to the end (and save the file)
+
+      [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+      Then reload the shell session using the command -
+
+      source ~/.bashrc
+
+      Now you can test whether the RVM has been installed successfully or not. Open terminal and execute the command -
+
+      type rvm | head -1
+
+       
+
+      After executing above command you should be getting this output -
+
+      rvm is a function
+
+      That’s All.. You’ve successfully installed the RVM. Next, you are  supposed to install few additional dependencies. To find out those  programs type -
+
+      rvm requirements
+
+      After executing the above command, install the additional packages recommended by RVM -
+
+      sudo apt-get install build-essential openssl libreadline6 libreadline6-dev zlib1g zlib1g-dev libssl-dev libyaml-dev libsqlite3-0 libsqlite3-dev sqlite3 libxml2-dev libxslt-dev autoconf libc6-dev ncurses-dev automake libtool bison subversion
+
+       
+
+      step 3. Install Ruby
+
+      Now, it’s time to install the ruby version you want (you’re recommended to use either 1.8.7 or 1.9.2). The generic syntax is rvm use version_name. It will also install the associated packages such as RubyGems and Bundler.
+
+      rvm install 1.9.2
+
+      Then select the version, you want to use -
+
+      rvm use 1.9.2
+
+      If you aren’t sure about the ruby version currently being used, then type -
+
+      ruby -v
+
+       
+
+      step 4. install Rails
+
+      Finally, you can install the rails gem using a simple command -
+
+      gem install rails
+
+       
+
+      That’s All.
+
+      Now, create a sample application (just for testing) using Ruby on Rails.
+
+      rails new my_app bundle install cd my_app rails server
+
+       
+
+      Then open your browser and type the following address (to see the application running) -
+
+      http://localhost:3000
+    target:
+      id: '306705639369151'
+      url: https://www.facebook.com/notes/egyptian-geeks/install-ruby-on-rails-in-ubuntu/306705639369151/
+    title: Install Ruby on Rails in Ubuntu
+    type: note
+    url: https://www.facebook.com/notes/egyptian-geeks/install-ruby-on-rails-in-ubuntu/306705639369151/

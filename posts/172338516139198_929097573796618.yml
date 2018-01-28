@@ -10,3 +10,117 @@ created_time: '2015-04-20T21:45:44+0000'
 updated_time: '2015-04-21T16:09:18+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/929097573796618/
 id: '172338516139198_929097573796618'
+reactions:
+  data:
+  - id: '1865600480329055'
+    name: Ahmed ElMenshawy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTJNemN6TmpJME5URXhPakUwTWprMU56QTVNemc2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTJNemN6TmpJME5URXhPakUwTWprMU56QTVNemc2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2015-04-20T21:48:29+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: 'Critical question: Why do you have to ask to ask?'
+    id: '929098450463197'
+  - created_time: '2015-04-20T21:50:53+0000'
+    from:
+      name: Ibrahim Mohammed
+      id: '1886120441698692'
+    message: because i need to know if is there anyone knows or work with the previous
+      things i have listed first then i will ask him !
+    id: '929099027129806'
+  - created_time: '2015-04-20T21:51:36+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: Why not just ask your question and let people decide if they can answer?
+    id: '929099217129787'
+  - created_time: '2015-04-20T21:52:05+0000'
+    from:
+      name: Ibrahim Mohammed
+      id: '1886120441698692'
+    message: because not anyone will understand what i'm asking !
+    id: '929099320463110'
+  - created_time: '2015-04-20T21:52:44+0000'
+    from:
+      name: Mustafa Eid
+      id: '10155946993181276'
+    message: ask me
+    id: '929099463796429'
+  - created_time: '2015-04-20T21:54:46+0000'
+    from:
+      name: Ibrahim Mohammed
+      id: '1886120441698692'
+    message: Ok, if we are calling data to the map canvas using GeoJson , Kml or ArcGIS
+      server, i want to create a function to create a list to filter the data by attributes
+      stored on those data we have called
+    id: '929099967129712'
+  - created_time: '2015-04-20T21:55:53+0000'
+    from:
+      name: Mustafa Eid
+      id: '10155946993181276'
+    message: I think Ali Abozaid can help better thank me in this one
+    id: '929100267129682'
+  - created_time: '2015-04-20T23:02:30+0000'
+    from:
+      name: Ahmed ElMenshawy
+      id: '1865600480329055'
+    message: what?
+    id: '929120423794333'
+  - created_time: '2015-04-20T23:03:23+0000'
+    from:
+      name: Ibrahim Mohammed
+      id: '1886120441698692'
+    message: the question is in top of the previous comment , please see if you can
+      help
+    id: '929120593794316'
+  - created_time: '2015-04-21T05:44:25+0000'
+    from:
+      name: Ali Abozaid
+      id: '10155982420530690'
+    message: "Hi Ibrahim \nAt first I am not understand your question well and I will
+      be appreciate if you more clarify your question. Second I have not experience
+      in this condition but I will try to help you and I will answer based on my assumption
+      that I understand your question right. Now you have the data I assume that you
+      get it in geoJson or Kml and you want to filter data based on types (points,
+      lines, polygons, etc.) I think you will not have a problem with this all you
+      need is to check the type of the return object and put it in right position(type-list)
+      but if you want to filter the data to remove redundant data that if you get
+      data from multiple resource you should make your own algorithm to get redundant.
+      I wish that I am not (bafty) :D"
+    id: '929242760448766'
+  - created_time: '2015-04-21T11:12:56+0000'
+    from:
+      name: Ibrahim Mohammed
+      id: '1886120441698692'
+    message: Amr Eldib what i meant of map canvas is just the div where the map live
+      not a specific api , what you have showed is interesting but not what i need
+      , i want a drop down list which allow the user to choose from  a certain properties
+      to filter the data according to that , but i'm not sure about the data type
+      i should use as you know " esri have their own feature service " and other apis
+      works with geojson etc .
+    id: '929340467105662'
+  - created_time: '2015-04-21T11:15:31+0000'
+    from:
+      name: Ibrahim Mohammed
+      id: '1886120441698692'
+    message: Ali Abozaid thanks for you respond ,the data holder " kml " , "geojson
+      " has an attribute data which i want to enable the user to filter it, that's
+      it i think Amr is close to what i need ,
+    id: '929341263772249'
+  - created_time: '2015-04-21T16:09:18+0000'
+    from:
+      name: Ibrahim Mohammed
+      id: '1886120441698692'
+    message: i'm using all the api's but i need this much for google and leaflet,
+      because esri has the web app builder can achieve that without code
+    id: '929449237094785'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEk1TURrNE5EVXdORFl6TVRrM09qRTBNamsxTmpZAMU1Eaz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEk1TkRRNU1qTTNNRGswTnpnMU9qRTBNamsyTXpJMU5UZAz0ZD

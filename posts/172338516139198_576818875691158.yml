@@ -14,3 +14,145 @@ updated_time: '2013-06-09T04:35:43+0000'
 name: How to draw/create arrows by using CSS only
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/576818875691158/
 id: '172338516139198_576818875691158'
+reactions:
+  data:
+  - id: '10156575426331336'
+    name: Amr Ali Tealeb
+    type: LIKE
+  - id: '10154952507951086'
+    name: Mona Nouh
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRJeE16YzJNek0xT2pFek56QTNPREUwTURVNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRjeU5UazJNRGcxT2pFek56QTNOVEUwTmpFNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2013-06-09T03:48:58+0000'
+    from:
+      name: Sameh Saeed
+      id: '10155224155802344'
+    message: |-
+      Very good video I'm really enjoyed :), we can also combine the two classes in one like this please try it and tell me your comment.
+
+        display: inline-block;
+        width:0px;
+        height:0px;
+        margin :0px;
+        padding: 0px;
+        background : transparent;
+        border : transparent 50px solid;
+        border-left : 50px solid red;
+        border-right-width : 0px;
+    id: '576847882354924'
+  - created_time: '2013-06-09T03:54:19+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      The idea is that you can have different classes for top, bottom, right and left arrows, that all share the same parts that make an arrow at all.
+
+      This is what I did in the second example, starting at 7:56
+      http://youtu.be/tRjYbpfBhco?t=7m56s
+    id: '576849095688136'
+  - created_time: '2013-06-09T03:57:56+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      If I'm building a reusable CSS style for arrows, I'll use a base class with multiple classes for multiple directions. If it's a one-time thing, I'll use one class.
+
+      Note that the dropdown example uses one class only. The example starts at 9:43
+      http://youtu.be/tRjYbpfBhco?t=9m43s
+    id: '576849675688078'
+  - created_time: '2013-06-09T04:05:13+0000'
+    from:
+      name: Sameh Saeed
+      id: '10155224155802344'
+    message: Check this http://jsbin.com/oyulup/2/edit
+    id: '576850739021305'
+  - created_time: '2013-06-09T04:06:02+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: That's exactly it. Good job :)
+    id: '576850845687961'
+  - created_time: '2013-06-09T04:15:24+0000'
+    from:
+      name: Sameh Saeed
+      id: '10155224155802344'
+    message: but I have a question, could we change this drop-down:after with a css
+      low level compatiable
+    id: '576852565687789'
+  - created_time: '2013-06-09T04:18:11+0000'
+    from:
+      name: Sameh Saeed
+      id: '10155224155802344'
+    message: because you know that pseudo-elements not supported in IE7 and it's partial
+      supported in IE8
+    id: '576853092354403'
+  - created_time: '2013-06-09T04:18:41+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      If you mean support older IE versions than 8, then maybe. There is a library https://code.google.com/p/ie7-js/ which has a demo for just that here http://ie7-js.googlecode.com/svn/test/after.html
+      In reality, if you add this library late in the development and you have very complex design, it can have bad side effects.
+    id: '576853245687721'
+  - created_time: '2013-06-09T04:21:18+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Frankly, if you worry about IE7 support, then just use actual SPAN elements
+      or so. I wouldn't use :before and :after. Your selector could then change to
+      something like ".drop-down > .arrow". The project I worked on recently was for
+      a bank. We did worry about IE7 support, IE7.js fiddled with other complex things
+      we built, so, we just added empty elements.
+    id: '576853655687680'
+  - created_time: '2013-06-09T04:24:09+0000'
+    from:
+      name: Sameh Saeed
+      id: '10155224155802344'
+    message: do you mean you didn't show the arrows in ie7 and display an empty element
+      instead ?
+    id: '576854065687639'
+  - created_time: '2013-06-09T04:26:44+0000'
+    from:
+      name: Sameh Saeed
+      id: '10155224155802344'
+    message: I tried the IE7.js but I found it not good at all in the complex code
+      so I leave it.
+    id: '576854502354262'
+  - created_time: '2013-06-09T04:29:10+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      I meant I have an empty element at the end of the drop-down (for all browsers), and target it with CSS instead of targeting :after. Like:
+      http://jsbin.com/evecar/1/edit
+    id: '576855205687525'
+  - created_time: '2013-06-09T04:35:43+0000'
+    from:
+      name: Sameh Saeed
+      id: '10155224155802344'
+    message: aha I got it :)  thx
+    id: '576856589020720'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOVGMyT0RRM09EZA3lNelUwT1RJME9qRXpOekEzTkRrM016ZAz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOVGMyT0RVMk5UZAzVNREl3TnpJd09qRXpOekEzTlRJMU5ETT0ZD
+attachments:
+  data:
+  - description: "For best\uFEFF experience (or\uFEFF if you have trouble watching
+      the video), set the video quality to 720p. This video shows how to draw arrows
+      in pure CSS, in a way t..."
+    media:
+      image:
+        height: 360
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQDNf_LjJFyhlrzX&w=720&h=720&url=http%3A%2F%2Fi1.ytimg.com%2Fvi%2FtRjYbpfBhco%2Fhqdefault.jpg%3Ffeature%3Dog&cfs=1&_nc_hash=AQAZUlU4woTPbGE4
+        width: 360
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DtRjYbpfBhco%26feature%3Dyoutu.be&h=ATOHAL1vZCXHWdqWapeHBaFgoWh3Y2VBL01w6hXlIi0EcnJbSW5kcM841wbaHhgvtFRfEi29X0Ab6B22jy3kpu3OxVyoLYUN-RS7&s=1&enc=AZOyn6vBkfZIWr2fCmkJHoT-QDLogZfmcenig0wimiHWy-bzVWOb3SrqaAvo761SE1VT2EMSJubWHPbojEVwtax-
+    title: How to draw/create arrows by using CSS only
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DtRjYbpfBhco%26feature%3Dyoutu.be&h=ATOHAL1vZCXHWdqWapeHBaFgoWh3Y2VBL01w6hXlIi0EcnJbSW5kcM841wbaHhgvtFRfEi29X0Ab6B22jy3kpu3OxVyoLYUN-RS7&s=1&enc=AZOyn6vBkfZIWr2fCmkJHoT-QDLogZfmcenig0wimiHWy-bzVWOb3SrqaAvo761SE1VT2EMSJubWHPbojEVwtax-

@@ -13,3 +13,161 @@ created_time: '2015-02-10T14:53:31+0000'
 updated_time: '2015-02-17T22:31:55+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/893407740698935/
 id: '172338516139198_893407740698935'
+reactions:
+  data:
+  - id: '1763959737010749'
+    name: Ahmed Mahmoud
+    type: LIKE
+  - id: '1790862481216585'
+    name: Ana Mohamed
+    type: LIKE
+  - id: '1544104592377915'
+    name: Mohamed Naser Amein
+    type: LIKE
+  - id: '857329281113998'
+    name: Mohamed Soliman
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhPVEF5TVRrM05Ea3lPakUwTWpReU1ETTBOems2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTFNVEE0TURJek1USTRPakUwTWpNMU9ERXhOamM2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2015-02-10T14:58:11+0000'
+    from:
+      name: Sabr Bry
+      id: '10203807938637084'
+    message: What is the percentage of those who disable javascript? answer this question
+      then decide.
+    id: '893409597365416'
+  - created_time: '2015-02-10T15:00:02+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: |-
+      The question isn't who is disabling JavaScript ... The question is how search engines would crawl a website that is heavily dependent on JavaScript ... I would recommend you check this article http://www.yearofmoo.com/2012/11/angularjs-and-seo.html
+      Although I would generally go against using Angular for the whole eCommerce solution. Perhaps use it in some parts (filtering, search ...) not the whole thing
+    id: '893410520698657'
+  - created_time: '2015-02-10T15:02:11+0000'
+    from:
+      name: Khaled Ramadan
+      id: '10157199016384478'
+    message: really i don't know but, that issue takes the highest priority from that
+      SEO company :(
+    id: '893411134031929'
+  - created_time: '2015-02-10T15:04:47+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: And they are right ... if you are building a tool like Basecamp, Harvest
+      or anything that shouldn't be crawled I would say go for Angular or any other
+      JS frameworks ... But Angular for an eCommerce? Hell no :D You will definitely
+      face a lot of challenges to make it work + you will have to do a lot of work
+      to prefetch and render on the server if a crawling bot tried to access the website.
+      Good luck
+    id: '893412170698492'
+  - created_time: '2015-02-10T15:11:03+0000'
+    from:
+      name: Mohamed Sameeh Sharaf
+      id: '2167550119925504'
+    message: Disable Java Script Disable Internet Connection
+    id: '893414200698289'
+  - created_time: '2015-02-10T15:24:26+0000'
+    from:
+      name: Ibrahim Hammad
+      id: '10154919620001486'
+    message: "I did little bit investigation on this subject before and I've also
+      implemented a small proof of concept. \nFirst :Google started gradually to index
+      the websites that use javascript in rendering \nhttp://googlewebmastercentral.blogspot.com/2014/05/understanding-web-pages-better.html?m=1\n\nSecond,
+      for the other search engines, as per the seo standards,  they change the part
+      of the url that is used by the js libraries (!#) so simply you can intercept
+      the httprequest that is coming from the search engine crawler and pre-fetch
+      the page thin give it as loaded html to the search engine. You can use PhantomJs
+      to do so.\n\nhttp://phantomjs.org"
+    id: '893418624031180'
+  - created_time: '2015-02-10T15:25:32+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: "(!#)  = hashbangs ... Twitter used it before but ditched them now."
+    id: '893419104031132'
+  - created_time: '2015-02-10T15:25:38+0000'
+    from:
+      name: Ibrahim Hammad
+      id: '10154919620001486'
+    message: Please let me know if you need further support.
+    id: '893419204031122'
+  - created_time: '2015-02-10T15:28:02+0000'
+    from:
+      name: Abdelhameed Tourky
+      id: '10156434261949271'
+    message: Search engines definitely are executing java script, there is even a
+      project called phantom JS, that lets you run a web page' js and get the result
+      document
+    id: '893421887364187'
+  - created_time: '2015-02-10T16:05:18+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: If your business relies heavily on search engines and you also want to
+      provide good user experience, you might want to consider making search engines
+      traffic get a slightly different treatment, for example using when search engines
+      hit your website run it through PhantomJS to execute the markup
+    id: '893437017362674'
+  - created_time: '2015-02-10T18:22:36+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: |-
+      And there are few open source implementation already available.
+      http://backbonetutorials.com/seo-for-single-page-apps/
+      https://www.npmjs.com/package/seoserver
+    id: '893483720691337'
+  - created_time: '2015-02-12T19:15:18+0000'
+    from:
+      name: Ahmed Eid
+      id: '762135870664322'
+    message: Amr Magdy I think you can help here
+    id: '894348603938182'
+  - created_time: '2015-02-16T17:29:10+0000'
+    from:
+      name: Amr Magdy
+      id: '10156051885698119'
+    message: "Google started executing the js but still as beta i think,\n\n* from
+      monitoring Google boats : \n they do 2 requests for the pages that contains
+      Ajax one with executing the js for the normal page and another one with the
+      !# replacement or fragment tag way \n\n* from the simulation of Google crawler
+      provided by Google:\nthey execute the js without the !# replacement or the fragment
+      tag\n\nnote that : better to use !#  than fragment tag , as i noticed that when
+      i use fragment tag it doesn't execute the js first time and executes the second
+      time, but when i use !# it executes the js from the first time\n-----------------------------------------------------------------------------\n*in
+      my view  it is better if you detect the crawler with the !# and use phantomJS
+      to execute the js on the server ( if the user is a crawler ) so you will be
+      sure that it will work whatever they search engine support js executing or not.
+      and make both methods result are SEO friendly not only the output of the phantomjs
+      method."
+    id: '896086997097676'
+  - created_time: '2015-02-17T20:25:22+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: Why don't ecommerce websites use Magento or Shopify ?
+    id: '896609153712127'
+  - created_time: '2015-02-17T22:25:36+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: "^ cause sometimes you need to reinvent the wheel and create something
+      with your own flavor. That's something good actually :D"
+    id: '896647063708336'
+  - created_time: '2015-02-17T22:31:55+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: But this also means that you'll pay to damn much to do something that
+      was already done and reviewed and debugged.
+    id: '896648490374860'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGt6TkRBNU5UazNNelkxTkRFMk9qRTBNak0xT0RBeU9URT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGsyTmpRNE5Ea3dNemMwT0RZAd09qRTBNalF5TVRJek1UVT0ZD

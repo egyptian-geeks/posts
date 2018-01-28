@@ -9,3 +9,65 @@ created_time: '2012-03-12T08:10:53+0000'
 updated_time: '2012-03-15T10:59:17+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/359631550743226/
 id: '172338516139198_359631550743226'
+comments:
+  data:
+  - created_time: '2012-03-12T08:11:41+0000'
+    from:
+      name: Mohamed Sameeh Sharaf
+      id: '2167550119925504'
+    message: "GC,Safari,Opera \ni think they have the same implementation because
+      they are based on \nWebToolkit"
+    id: '359631704076544'
+  - created_time: '2012-03-12T10:31:25+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "ff is gecko \nie is shit :D"
+    id: '359671067405941'
+  - created_time: '2012-03-12T10:31:49+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: all but ie use ECMA javascript
+    id: '359671170739264'
+  - created_time: '2012-03-14T20:27:42+0000'
+    from:
+      name: Eslam Salem Mahmoud
+      id: '10157134145555299'
+    message: "there is a lot of misunderstanding in these post and comments ,  -ECMA
+      script is the  standards of javascript and standard over all browser depends
+      on ECMA script version \n- Chrome and safari uses webkit engine not webtoolkit
+      and chrome uses V8 as javascript engine and safari uses SquirrelFish\nand opera
+      uses KHTML engine  and Carakan as js engine , and IE uses Triednt Engine and
+      use Chakra js engine in IE9 \nthe topic is really complex for implementing simple
+      app just use a framework to handle it like JQuery Or Prototype"
+    id: '361235957249452'
+  - created_time: '2012-03-14T20:31:58+0000'
+    from:
+      name: Eslam Salem Mahmoud
+      id: '10157134145555299'
+    message: oh i forgot FF ,FF uses Gecko and SpiderMonkey as JS Engine
+    id: '361238893915825'
+  - created_time: '2012-03-14T20:32:27+0000'
+    from:
+      name: Eslam Salem Mahmoud
+      id: '10157134145555299'
+    message: for reference http://en.wikipedia.org/wiki/List_of_ECMAScript_engines
+      ,http://en.wikipedia.org/wiki/ECMAScript
+    id: '361239193915795'
+  - created_time: '2012-03-14T20:34:17+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: thanks Eslam for your informative comments :)
+    id: '361240073915707'
+  - created_time: '2012-03-15T10:59:17+0000'
+    from:
+      name: Eslam Salem Mahmoud
+      id: '10157134145555299'
+    message: you are welcome
+    id: '361588467214201'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANelU1TmpNeE56QTBNRGMyTlRRME9qRXpNekUxTXprNU1ERT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANell4TlRnNE5EWTNNakUwTWpBeE9qRXpNekU0TURreE5UYz0ZD

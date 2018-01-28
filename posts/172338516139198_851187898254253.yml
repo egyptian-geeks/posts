@@ -9,3 +9,45 @@ created_time: '2014-11-25T09:05:14+0000'
 updated_time: '2014-11-25T10:36:33+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/851187898254253/
 id: '172338516139198_851187898254253'
+reactions:
+  data:
+  - id: '10156358805885288'
+    name: Mahmoud Abd El-Fattah
+    type: LIKE
+  - id: '10155519026807880'
+    name: Salah Jr Ahmed
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRFNU1UazFNamczT2pFME1UWTVNall4TnpBNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TnpjNE9ESXlPRGM1T2pFME1UWTVNRGczT1RjNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2014-11-25T09:12:47+0000'
+    from:
+      name: Ahmed Shahin
+      id: '10155514327198323'
+    message: Mohamed El Sayed
+    id: '851189228254120'
+  - created_time: '2014-11-25T10:29:54+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      Code generators are so old school. Of day use something like NHibernate ORM or so.
+
+      But to answer your question, the tools in LLBLGen ORM have very good generators. A great commercial tool.
+    id: '851210024918707'
+  - created_time: '2014-11-25T10:36:33+0000'
+    from:
+      name: Mohammed El Sayed
+      id: '10155880598025170'
+    message: |-
+      I agree with Meligy as the most mature ORM I've ever used in the .NET world was LLBLGen.
+      it supports number of the most popular DBs (sql,mysql,oracle, and more).
+      Give it a try and see if it can fit your specific needs, and if not, I guess building one with your custom requirements will not be a mysterious task anymore, but i'm not with solutions which reinvents the ORM (wheel) :)
+    id: '851212174918492'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFV4TVRnNU1qSTRNalUwTVRJd09qRTBNVFk1TURZAM05qYz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFV4TWpFeU1UYzBPVEU0TkRreU9qRTBNVFk1TVRFM09UTT0ZD

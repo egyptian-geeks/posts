@@ -11,3 +11,66 @@ updated_time: '2015-09-27T22:50:58+0000'
 name: anishathalye/git-remote-dropbox
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1012119708827737/
 id: '172338516139198_1012119708827737'
+reactions:
+  data:
+  - id: '10155855157936047'
+    name: Mosab Ibrahim
+    type: LIKE
+  - id: '10213861471464409'
+    name: Mohamed Shaban
+    type: LIKE
+  - id: '10155802654056014'
+    name: Islam Azab
+    type: LIKE
+  paging:
+    cursors:
+      before: TnpVMU1ESTJNRFEyT2pFME5ETTJNek15T0RjNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRVek9UazJNREV6T2pFME5ETXpOREUyTkRRNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2015-09-27T09:54:52+0000'
+    from:
+      name: Ammar Youssef
+      id: '10155097484932190'
+    message: متخيل لو 2 أو اكتر عملوا push فين نفس الوقت .. هتبقى معكوكة على الآخر
+      ...
+    id: '1012204915485883'
+  - created_time: '2015-09-27T21:31:51+0000'
+    from:
+      name: Ammar Youssef
+      id: '10155097484932190'
+    message: http://stackoverflow.com/questions/750765/concurrency-in-a-git-repo-on-a-network-shared-folder
+    id: '1012408778798830'
+  - created_time: '2015-09-27T21:33:16+0000'
+    from:
+      name: Ammar Youssef
+      id: '10155097484932190'
+    message: بيتكلم عن استخدامه كمجلد مشترك على الشبكة.. لو ٢ عملوا push مع بعض -
+      مش لازم نفس الثانية - احتمال ال repo يتعك
+    id: '1012408985465476'
+  - created_time: '2015-09-27T22:50:58+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      It actually guarantees atomicity, because it doesn't rely on the dropbox program to sync, instead it manually syncs via the dropbox API
+      If you see the readme, it adds a new dropbox:// url scheme and listens to it, and sync changes as part of the git push
+    id: '1012427225463652'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF4TWpJd05Ea3hOVFE0TlRnNE16b3hORFF6TXpRM05qa3kZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF4TWpReU56SXlOVFEyTXpZAMU1qb3hORFF6TXprME1qVTQZD
+attachments:
+  data:
+  - description: 'git-remote-dropbox - A transparent bridge between Git and Dropbox
+      - use a Dropbox (shared) folder as a Git remote! :gift:'
+    media:
+      image:
+        height: 400
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQDBYJP6pv1rYeXs&w=720&h=720&url=https%3A%2F%2Favatars1.githubusercontent.com%2Fu%2F3526486%3Fv%3D3%26s%3D400&cfs=1&_nc_hash=AQCMjZ5ySTAaSAeZ
+        width: 400
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Fanishathalye%2Fgit-remote-dropbox%3Futm_source%3DPython%2BWeekly%2BNewsletter%26utm_campaign%3D88a4432a93-Python_Weekly_Issue_206_August_27_2015%26utm_medium%3Demail%26utm_term%3D0_9e26887fc5-88a4432a93-312682145&h=ATP46Jqf75hy_TlQ6uz0-tCAkJcQ8CN-Q2qmIw8kd6GpJtLBjISbZO7umE3QVFHJYh1t1OSFtyF5b-vWBmsgWcD37jlWRW787LoT&s=1&enc=AZMc8gw0oT17BnlewAHv4HRXjHf-lnPJvxm6gMdjUJuWQycuJKoaG9tQ6avJG90MAO7Uwjg5U2pllH555U50x1b7
+    title: anishathalye/git-remote-dropbox
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Fanishathalye%2Fgit-remote-dropbox%3Futm_source%3DPython%2BWeekly%2BNewsletter%26utm_campaign%3D88a4432a93-Python_Weekly_Issue_206_August_27_2015%26utm_medium%3Demail%26utm_term%3D0_9e26887fc5-88a4432a93-312682145&h=ATP46Jqf75hy_TlQ6uz0-tCAkJcQ8CN-Q2qmIw8kd6GpJtLBjISbZO7umE3QVFHJYh1t1OSFtyF5b-vWBmsgWcD37jlWRW787LoT&s=1&enc=AZMc8gw0oT17BnlewAHv4HRXjHf-lnPJvxm6gMdjUJuWQycuJKoaG9tQ6avJG90MAO7Uwjg5U2pllH555U50x1b7

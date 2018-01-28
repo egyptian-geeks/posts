@@ -9,3 +9,52 @@ created_time: '2013-09-16T15:00:30+0000'
 updated_time: '2013-09-16T21:12:18+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/623219671051078/
 id: '172338516139198_623219671051078'
+reactions:
+  data:
+  - id: '10214861141222529'
+    name: Abdelrady Fcis
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRJME5qZA3lNelF4TVRveE16YzVNelkxT0RnME9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRJME5qZA3lNelF4TVRveE16YzVNelkxT0RnME9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2013-09-16T18:05:39+0000'
+    from:
+      name: Shady M. Najib
+      id: '10155819655346066'
+    message: I think the claims that the Customer can really be part of it is a hoax..
+      that could work a small project.. but not the average project. Instead an analyst
+      might be involved in it, or better, just a way to connect your user stories
+      to the code (in a more solid way). I used to use SpecFlow.. been awhile since
+      I last did though :(
+    id: '623285334377845'
+  - created_time: '2013-09-16T18:37:36+0000'
+    from:
+      name: Emad Shaaban
+      id: '1483867968332898'
+    message: "استخدمته في كورس من كورسيرا قبل كده .. اديت كويس في الكورس بس مكملتش
+      بعد كده .. و رأيي فيه انه فكرة لذيذة جدا برغم انها تبدو مملة في الاول و التعود
+      عليها صعب في الاول (بالنسبالي وقتها مكنتش حتي اشتغلت TDD و ﻻ كنت اعرف اي حاجة
+      عن ال Testing ) \nال tools اللي استخدمتها كانت \nRuby , Rails , Rspec and Cucumber"
+    id: '623297824376596'
+  - created_time: '2013-09-16T20:51:06+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      I used Jasmine & felt that it was easier to read & write than xunit & similar libraries. I like Jasmine/RSpec/NSpec method than Cucumber & SpecFlow method.
+
+      Did anyone use BDD in a big project?
+    id: '623350364371342'
+  - created_time: '2013-09-16T21:12:18+0000'
+    from:
+      name: Abdelrady Fcis
+      id: '10214861141222529'
+    message: worked a little bit with SpecFlow in C#
+    id: '623358797703832'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOakl6TWpnMU16TTBNemMzT0RRMU9qRXpOemt6TlRRM016az0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOakl6TXpVNE56azNOekF6T0RNeU9qRXpOemt6TmpVNU16ZAz0ZD

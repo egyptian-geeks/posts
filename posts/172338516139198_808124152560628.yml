@@ -13,3 +13,74 @@ updated_time: '2014-09-02T11:09:27+0000'
 name: slap-editor/slap
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/808124152560628/
 id: '172338516139198_808124152560628'
+reactions:
+  data:
+  - id: '1973223889604082'
+    name: Sohaib Mohammed
+    type: LIKE
+  - id: '10205205301673812'
+    name: Ahmed Shawky
+    type: LIKE
+  - id: '10159932941280506'
+    name: Mohab Elkaref
+    type: LIKE
+  - id: '10156274593643013'
+    name: Amany Elguindy
+    type: LIKE
+  - id: '10155880569740170'
+    name: Meligy
+    type: LIKE
+  - id: '10156020325916241'
+    name: Musa Hamza
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTNORGswTnpBd05UVTRPakUwTURrMk5qZAzJNak02TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TmpReU5qYzJNalF3T2pFME1EazJOVEV5TnpjNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2014-09-02T10:13:35+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Interesting. I always thought a console-based editor would be nice, but
+      being a dark matter developer I was always scared by the vim and brothers crap.
+      Good to see people ae moving this in some good direction, although the "yet
+      another sublime clones" is silly I agree.
+    id: '808135062559537'
+  - created_time: '2014-09-02T10:56:53+0000'
+    from:
+      name: Mohab Elkaref
+      id: '10159932941280506'
+    message: You sometimes can't avoid the console and if you're not a vim person
+      it's gonna be a real pain. I like that the dev just took something everyone
+      finds useful and made it available in a new useful way. This is not a clone,
+      this is what we should call incremental progress.
+    id: '808164002556643'
+  - created_time: '2014-09-02T11:09:27+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: In my enterprisy work I don't need to edit files in the console. I almost
+      never touch the production environment except with log viewer tools, etc. anyway.
+      The deployment and changes are always done via CI. When I'm working locally
+      from the console (PowerShell most often), it's very easy to run sublime on a
+      particular file or even explorer on current folder
+    id: '808167055889671'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPREE0TVRNMU1EWXlOVFU1TlRNM09qRTBNRGsyTlRJNE1UVT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPREE0TVRZAM01EVTFPRGc1TmpjeE9qRTBNRGsyTlRZAeE5qYz0ZD
+attachments:
+  data:
+  - description: slap - Sublime-like terminal-based text editor
+    media:
+      image:
+        height: 388
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQD4Ncr-ruaLuafk&w=720&h=720&url=https%3A%2F%2Fraw.githubusercontent.com%2Fslap-editor%2Fslap%2Fmaster%2Fscreenshot.png&cfs=1&_nc_hash=AQA-igeBWzaaEcEa
+        width: 388
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Fslap-editor%2Fslap&h=ATNYN8E0B1SWlvJoDVGUNJl_LMXRQ5vBtO2mwrAs9ViIWqa0Gre9xSNknBVceS-qZ4d8JPvCfJ5Ubl7T6Naa4hYRmh5kadAkcCiK&s=1&enc=AZPTJLGx06B9CfooNqdWjL1U1YqP_6mTnE9ON6316AXsOj-Bvlhaj7jFCxbeeiFH8Pd6TyZmzRRqiHMr5ZFDhE1t
+    title: slap-editor/slap
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Fslap-editor%2Fslap&h=ATNYN8E0B1SWlvJoDVGUNJl_LMXRQ5vBtO2mwrAs9ViIWqa0Gre9xSNknBVceS-qZ4d8JPvCfJ5Ubl7T6Naa4hYRmh5kadAkcCiK&s=1&enc=AZPTJLGx06B9CfooNqdWjL1U1YqP_6mTnE9ON6316AXsOj-Bvlhaj7jFCxbeeiFH8Pd6TyZmzRRqiHMr5ZFDhE1t

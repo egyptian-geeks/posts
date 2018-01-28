@@ -8,3 +8,58 @@ created_time: '2015-06-15T15:57:12+0000'
 updated_time: '2015-06-16T09:19:10+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/958932314146477/
 id: '172338516139198_958932314146477'
+reactions:
+  data:
+  - id: '1769376096426993'
+    name: Hadil Ossama
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdOak00TmpBMk5qQTVPakUwTXpRek9URTBNREk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXdOak00TmpBMk5qQTVPakUwTXpRek9URTBNREk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2015-06-15T16:22:24+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: |-
+      I missclicked and can't remove it. :(
+      Neither I'd say, these are backend things.
+    id: '958938120812563'
+  - created_time: '2015-06-15T16:40:02+0000'
+    from:
+      name: Sameh Magdy
+      id: '1744871132236191'
+    message: |-
+      Yeah, I know they're back-end languages.
+      I'm willing to get some "basic" back-end knowledge along the front-end stuff.
+    id: '958943157478726'
+  - created_time: '2015-06-16T09:19:10+0000'
+    from:
+      name: Sameh Magdy
+      id: '1744871132236191'
+    message: So Node it is.
+    id: '959211444118564'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFU0T1RNNE1USXdPREV5TlRZAek9qRTBNelF6T0RVek5EUT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFU1TWpFeE5EUTBNVEU0TlRZAME9qRTBNelEwTkRZAek5UQT0ZD
+attachments:
+  data:
+  - subattachments:
+      data:
+      - target:
+          id: '1491732654450961'
+        title: Node.js
+        type: option
+      - target:
+          id: '1454733374841049'
+        title: PHP
+        type: option
+    target:
+      id: '958932307479811'
+      url: https://www.facebook.com/groups/egyptian.geeks/permalink/958932314146477/
+    title: Which is better for a newcomer who is more focused on front-end?
+    type: question
+    url: https://www.facebook.com/groups/egyptian.geeks/permalink/958932314146477/

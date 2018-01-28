@@ -13,3 +13,237 @@ created_time: '2015-02-20T13:16:25+0000'
 updated_time: '2015-02-21T20:49:14+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/897865423586500/
 id: '172338516139198_897865423586500'
+reactions:
+  data:
+  - id: '10157144460289251'
+    name: Mohamed Sayed
+    type: LIKE
+  - id: '10159726802330618'
+    name: Ahmed AbouZaid
+    type: LIKE
+  - id: '10155173051963199'
+    name: Pola Ashraf
+    type: LIKE
+  - id: '10155970088481341'
+    name: Mohammad Tayseer
+    type: LIKE
+  - id: '10159750515025408'
+    name: Mohamed Tarek El Haddad
+    type: LIKE
+  - id: '10155967624789840'
+    name: Amir Mohamed Atia
+    type: LIKE
+  - id: '10156095976664136'
+    name: Moustafa Abdelaziz
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRNek5UWTBNalV3T2pFME1qUTJNelV4T0RBNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TmprME1qSTVNVE0xT2pFME1qUTBNemcyTXprNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2015-02-20T18:52:30+0000'
+    from:
+      name: Shady M. Najib
+      id: '10155819655346066'
+    message: Yup, check angular, ember, react, and brothers. Another thing, "separation
+      of concern" is a case-by-case thing. Doing the above side by side my business
+      logic is a personal decision, I could do it and live with the maintenance hell
+      I put my self in. Or I could separate business logic and my UI logic as much
+      as I can and have a little bit better maintenance burden.
+    id: '897987436907632'
+  - created_time: '2015-02-20T18:54:41+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Shady M. Najib but do we really need to write UI code in 2015? Should
+      we? Shouldn't there be something like VStudio and VB days when it was just drag
+      and drop and properties?
+    id: '897987943574248'
+  - created_time: '2015-02-20T18:59:08+0000'
+    from:
+      name: Shady M. Najib
+      id: '10155819655346066'
+    message: Really? انت مقتنع؟ :D How do you do your current projects UI, now?
+    id: '897989156907460'
+  - created_time: '2015-02-20T19:02:49+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: For business Apps, either Windows UI or SP web parts or ASP.NET Webforms.
+    id: '897990433573999'
+  - created_time: '2015-02-21T01:08:20+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      The web app of today should work on different devices, with different screen sizes. An internet connection is not always available, so your app should be able to work offline. The data flow is not a client request & server response model. The server can push updates to your app. You also want to implement all of this efficiently.
+
+      You need to apply the ViewModel pattern to the UI, and with it you need controllers (to handle different UI events), repository pattern (to abstract the difference between backend service & local storage), concurrency control, caching, performance.
+
+      Think of Facebook, Gmail, Google maps, etc. Even if you're working on an inventory system, if you know you've 100K materials, you will use auto-complete from the start, not a drop down.
+
+      It has been sometime since I used jQuery like this. The last time I wrote it, it was for a static website. See, jQuery is the shell script of the web. You can't create Gmail with jQuery, or shell scripts.
+    id: '898116520228057'
+  - created_time: '2015-02-21T01:18:47+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Mohammad Tayseer the idea is you can use controls like Telerik to do
+      stuff like that and they handle all that behaviour for you, there is no reason
+      a developer with  a valuable brain should be wasting his valuable time doing
+      presentation layer stuff, unless you are making a game maybe. As for offline
+      versions on an inventory system, you would use a windows application or even
+      GTK for that, not a web application for sure. In ERP systems it is important
+      to take advantage of client processing power and a 3-tier approach makes a lot
+      of sense.  As for MVC, I really see no need to use that unless you like the
+      pattern or there is a specific need that warrants its use, which is pretty rare.
+      In terms of GMAIL, Google maps and FB, they are just that, no one wants there
+      ERP experience to be anything like that and it is never worth the time or investment
+      or even considered an enhancement, they would rather have more fine grained
+      control over the financial tree.  Amazingly, most simple websites don't really
+      require all the complexity you talk about.  :)
+    id: '898118916894484'
+  - created_time: '2015-02-21T01:22:18+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: "1- If you're building simple websites, you won't write jQuery for hours
+      :)\n\n2- Front-end engineer is associated with larger websites\n\n3- Telerik/Angular/Ember/React/...
+      are all valid options, but you still have to write code\n\n4- Desktop apps require
+      deployment on devices. Web apps don't\n\n5- >  As for MVC, I really see no need
+      to use that unless you like the pattern or there is a specific need\nIt depends
+      on what you're building\n\n6- > no one wants their ERP experience to be anything
+      like that \nYou've more experience in the area of ERP apps than me, but personally
+      I never found a corporate app that I would even consider acceptable.\n\nOn the
+      other hand, no one said that front-end frameworks is for everyone."
+    id: '898119613561081'
+  - created_time: '2015-02-21T01:32:04+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: I updated my comment above
+    id: '898121823560860'
+  - created_time: '2015-02-21T01:38:59+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Mohammad Tayseer with ease of deployment these days, in a corp environement
+      that is no longer a problem and on the web as well, maybe I am old fashioned,
+      but instead of having manyapplications open now we have many browser tabs. In
+      the end, he number of apps I really use were never that big. I use and IDE,
+      a browser and rarelly office like applications. I never use smartphone apps
+      and have never found a really useful one that has me glued to my smarphone,
+      maybe and IDE ? :) Other than that, I could use Web apps like office on the
+      web when I rarely need to edit documnets, then it is mostly evernote.
+    id: '898124150227294'
+  - created_time: '2015-02-21T01:39:34+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Mohammad Tayseer is debugging javascript code as fun as I imagine it
+      to be? :)
+    id: '898124456893930'
+  - created_time: '2015-02-21T01:40:31+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: 'And BTW, I really like coffeescript, it looks a lot like python and
+      does not require the massive amount of (){}[] and : : :) Which pretty much renders
+      the code unreadable, you might as well write the code in Russian'
+    id: '898124666893909'
+  - created_time: '2015-02-21T01:44:14+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Shady M. Najib thanks for the tips :)
+    id: '898125703560472'
+  - created_time: '2015-02-21T01:44:54+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: ديباجينج جافاسكريبت إذ خره!
+    id: '898125883560454'
+  - created_time: '2015-02-21T01:46:40+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Mohammad Tayseer so coffescript sounds like a saner option or just buy
+      telerik and convince the customer. Also, which customer have you met has a website
+      that works offline?? :)
+    id: '898126193560423'
+  - created_time: '2015-02-21T01:47:59+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      Anything is saner than JS.
+
+      I created a cloud management system which works entirely offline :P
+    id: '898126486893727'
+  - created_time: '2015-02-21T01:48:38+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: You also created an inventory system in Oman :)
+    id: '898126593560383'
+  - created_time: '2015-02-21T01:50:08+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      For Oman, not in Oman!
+
+      & BTW, the cloud management system could actually work offline! No joking!
+    id: '898126796893696'
+  - created_time: '2015-02-21T01:57:31+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Haymanage el cloud ezzay offline?
+    id: '898128060226903'
+  - created_time: '2015-02-21T01:57:52+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Yes in Oman  btw thhe one which did not support returns
+    id: '898128150226894'
+  - created_time: '2015-02-21T02:04:33+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: We wanted to demo a cloud management system to some investors. We created
+      the UI with Angular. We used Angular dependency injection to mock the backend
+      services. The mocks used browser localStorage. Later, we started creating the
+      real backend services one by one, and still kept the mocks for integration testing.
+    id: '898129860226723'
+  - created_time: '2015-02-21T02:19:06+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: I can only imagine what syntax you had to write to do dependency injection
+      with JS, and how easy it was to debug
+    id: '898134526892923'
+  - created_time: '2015-02-21T20:47:21+0000'
+    from:
+      name: Shady M. Najib
+      id: '10155819655346066'
+    message: Again you need to check DI in angular :D
+    id: '898468650192844'
+  - created_time: '2015-02-21T20:48:49+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Guys, I will check, I like Coffeescript and PythonJs so far :)
+    id: '898469383526104'
+  - created_time: '2015-02-21T20:49:14+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: But JS will always suck and I will always want to avoid it as a technology
+      choice
+    id: '898469930192716'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGszT1RnM05ETTJPVEEzTmpNeU9qRTBNalEwTlRnek5UQT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGs0TkRZANU9UTXdNVGt5TnpFMk9qRTBNalExTlRFM05UUT0ZD

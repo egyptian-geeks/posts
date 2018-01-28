@@ -11,3 +11,29 @@ created_time: '2013-12-29T18:15:41+0000'
 updated_time: '2013-12-30T02:52:22+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/677085222331189/
 id: '172338516139198_677085222331189'
+comments:
+  data:
+  - created_time: '2013-12-29T18:46:43+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: Maybe, different environment variables for cmd and GUI?
+    id: '677095522330159'
+  - created_time: '2013-12-29T19:02:12+0000'
+    from:
+      name: Eslam Hamouda
+      id: '10212947071504226'
+    message: it works for me in both Run , CMD and PowerShell "snippingtool" , double
+      check the PATH values for your current user and system in the Environment Variables
+      that includes the System32 path, may be another app changed it.
+    id: '677100318996346'
+  - created_time: '2013-12-30T02:52:22+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: "+1 to Eslam here. Works from cmd as expected."
+    id: '677251182314593'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamMzTURrMU5USXlNek13TVRVNU9qRXpPRGd6TkRJNE1ETT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamMzTWpVeE1UZA3lNekUwTlRrek9qRXpPRGd6TnpFNU5EST0ZD

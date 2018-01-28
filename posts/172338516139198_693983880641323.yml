@@ -16,3 +16,161 @@ updated_time: '2014-02-01T12:28:51+0000'
 name: Online Compiler, Editor & IDE for C, C++, C#, Java, Javascript, PHP, Ruby, VB
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/693983880641323/
 id: '172338516139198_693983880641323'
+reactions:
+  data:
+  - id: '10156020325916241'
+    name: Musa Hamza
+    type: LIKE
+  - id: '10156225504143578'
+    name: Ahmed Emad
+    type: LIKE
+  - id: '1996970190329577'
+    name: Ahmed Adel Hossny
+    type: LIKE
+  - id: '10212947071504226'
+    name: Eslam Hamouda
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpReU5qYzJNalF3T2pFek9URXlNRFEzTWprNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRZAeE5ERXlNREUyTkRveE16a3hNVGM0TVRZAMU9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2014-01-31T14:16:19+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: فكرت انه بيعمل مستخدم جديد مع كل سيشن و يلغيه مع انتهائها بس مش عارف
+      ده فعلآ ممكن يأمن ولا لأ. و ازاى بيضمنوا ان السيستيم يكون ستيبل بعد كل اضافة
+      و الغاء المستخدمين ده.
+    id: '693984353974609'
+  - created_time: '2014-01-31T14:24:24+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: ماهذا ؟ :D
+    id: '693990590640652'
+  - created_time: '2014-01-31T14:26:07+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: |-
+      تصدق لما دورت بالكلمة اللى قلتها طلعلى دى http://opennebula.org/tryout/sandboxvirtualbox/
+      بس مش عارف هل بيستخدموا ده فعلآ ولا لأ.
+    id: '693991093973935'
+  - created_time: '2014-01-31T14:27:04+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: بعد لما قريت الديسكريبشن اعتقد مالوش علاقة.
+    id: '693991767307201'
+  - created_time: '2014-01-31T14:34:18+0000'
+    from:
+      name: Eslam Hamouda
+      id: '10212947071504226'
+    message: كمان تخيل لو في عملية حسابية معقدة بتاخود وقت كبير جداً في المعالجة أكيد
+      ده هيأثر على النظام , وأكيد هما عاملين حد لأقصى وقت لتنفيذ الكود كذا ثانية وخلاص.
+      , كمان أكيد هما محددين مكتبات وفانكشنز معينة بس اللي تقدر تستخدمها لأني جربت
+      اعمل Run لأكواد بتعمل UI حاجة بسيطة زي mbox اوJOptionPane  وماكنش بيقبلها فعلى
+      ما اعتقد هما عاملين CustomParser لكل لغة بالWhite List Expressions اللي تقدر
+      تنفذها عندهم ولو طلعت متوافقة يبعتها للكومبيلر بتاع اللغه بس اعتقد موضوع صعب
+      ومتعب جداً , ياريت حد يقولنا ايه حلول المشاكل دي كفكرة عامة !
+    id: '693996103973434'
+  - created_time: '2014-01-31T14:35:31+0000'
+    from:
+      name: Ahmed Ibrahim Khalil
+      id: '10152956726593657'
+    message: "هو احد الحلول \nانك تخلي الباك اند تعمل كومبايل للكود عن طريق \nLLVM
+      Compiler \nو تطلع \nLLVM Assembly Binary\nthen you can run the binary in your
+      browser using \nLLVM.js\nhttp://badassjs.com/post/39573969361/llvm-js-llvm-itself-compiled-to-javascript-via"
+    id: '693996560640055'
+  - created_time: '2014-01-31T14:42:12+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: طيب دى للحاجات الكومبايلد طيب والحاجات الinterpreted ؟ بايثون و روبى
+      و php و كده ؟
+    id: '693999790639732'
+  - created_time: '2014-01-31T14:44:15+0000'
+    from:
+      name: Ahmed Ibrahim Khalil
+      id: '10152956726593657'
+    message: "الحاجات دي مش محتاجة security  لأن كل لغة من دول بتبقى شغالة في \nVM
+      or Sandbox خاصة بيها\nwhich take cares of security issues of your program.\nهذا
+      طبعا الله أعلى و أعلم :D"
+    id: '694001180639593'
+  - created_time: '2014-01-31T14:45:50+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: ايه حلول الSandBox اللى ممكن تعمل كده يا Ahmed Ibrahim Khalil  ؟
+    id: '694002270639484'
+  - created_time: '2014-01-31T14:52:09+0000'
+    from:
+      name: Ahmed Ibrahim Khalil
+      id: '10152956726593657'
+    message: "أنا مقلتش حلول SandBox\nانا قلت ان مفيش قلق انك تعمل run لل interpreted
+      languages\nفي الباك اند عشان كل لغة ليها ال VM or Sandbox الي بتاخد بالها من
+      الحوار و بيبقى في layer ما بين your code and the underlying OS\n\nناخد أمثلة
+      الي انت قلتها\nPython - Is run by compilling the code into a bytecode format
+      which is executed by the python VM.\nhttp://en.wikipedia.org/wiki/Python_%28programming_language%29#Implementations\n\nRuby-
+      Is the same case as python uses a VM to execute code\nhttp://en.wikipedia.org/wiki/Ruby_%28programming_language%29#Implementations\n\nPHP
+      - Same as Ruby and Python\nhttp://stackoverflow.com/questions/3380581/does-php-have-a-virtual-machine-like-java\n\nممكن
+      قد يكون في Special Cases for other languages\nبس لحادة كدة \nMy Knowledge Stops
+      Here :P"
+    id: '694005347305843'
+  - created_time: '2014-01-31T18:34:10+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: "I can still nuke your box with enough clever code obfuscation whether
+      I'm an interpreted language running on top of a VM or not.\nAlso most interpreted
+      languages can get statically compiled so it's more of an implementation detail
+      than a language feature.\nOnly technology I'm strongly familiar with (I don't
+      know everything) that have -debatably- decent sandboxing is the JVM and anything
+      that goes on top of it. IIRC, you'll still need proper security policies in
+      place not to mention a lot of control revoked on the system level.\n\nEven then,
+      running on an unprivileged user account you'd still be subject to privilege
+      escalation exploits. \n\nWith regards to memory allocation, process runtime
+      and just about anything that could lead to a system DOS, *nix systems ship with
+      a lot of tools for monitoring and limiting resources per processes so that'll
+      come handy.\n\nllvm.js is an overkill for the task at hand but a nice idea,
+      eventually you'll end up doing a mix of a chrooted/jailed environment, if you
+      wanna push it further then you'll put it inside  a lightweight container, I
+      always recommend lxc.\n\nFinally, depending on the target language and how much
+      of its core is exposed, you can get your hands super dirty with meta programming
+      and write your own sandboxing code.\nI'll try to dig out some old nodejs code
+      I wrote for this, but other technologies that come to mind are Erlang, Ruby
+      (albeit will be a pain...), lisp (you'll love this), python, lua, c.\nYou'll
+      be going along the lines of isolating the piece of code, treating it as data
+      and executing it in a sandboxed process/thread with resource traps and limited
+      context access (likely facades/proxies)\n\nIf I have time, I'll blog about implementing
+      something like that.\nGood luck."
+    id: '694149660624745'
+  - created_time: '2014-01-31T21:44:51+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: اه ياريت فعلآ لو تكتب posts عن الموضوع ده لان حتى لو مش هانعمل حاجة زى
+      كده لكن التكنولوجى اللى فى الimplementation لوحدها ممكن تكون مفيدة فى حاجات
+      تانية.
+    id: '694228160616895'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamt6T1RnME16VXpPVGMwTmpBNU9qRXpPVEV4TnpjM056az0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamswTWpJNE1UWXdOakUyT0RrMU9qRXpPVEV5TURRMk9URT0ZD
+attachments:
+  data:
+  - description: Compilr is an online compiler & IDE. Start writing code in minutes
+      directly from your web browser using Compilr. No installs, no setup, no hassles!
+    media:
+      image:
+        height: 220
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQDmc9enhiKqESXl&w=720&h=720&url=https%3A%2F%2Fcompilr.com%2Fassets%2Fnew%2Fimg%2Fmarketing%2Fcustomizable_interface.jpg&cfs=1&_nc_hash=AQDArlSCiDSs8HWn
+        width: 220
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcompilr.com%2F&h=ATNLPfodLQF-ZgfFbLeXGbkXmWNjIj4Ih6s2Jadl8hZi9StJ8fE3J51BAn5T7KtzgdBcE8DW7UiNnYIqch_nX5A5cUzr0nn_OiOL&s=1&enc=AZNkIk2gGhvEe-VqwcPEqATo8g9dnDXY5zU3j0rbtzzHVAD8JaLZ8IdBaHvBZcF5ttifkonfiO-UGUnJKX9_Ljsz
+    title: Online Compiler, Editor & IDE for C, C++, C#, Java, Javascript, PHP, Ruby,
+      VB
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcompilr.com%2F&h=ATNLPfodLQF-ZgfFbLeXGbkXmWNjIj4Ih6s2Jadl8hZi9StJ8fE3J51BAn5T7KtzgdBcE8DW7UiNnYIqch_nX5A5cUzr0nn_OiOL&s=1&enc=AZNkIk2gGhvEe-VqwcPEqATo8g9dnDXY5zU3j0rbtzzHVAD8JaLZ8IdBaHvBZcF5ttifkonfiO-UGUnJKX9_Ljsz

@@ -10,3 +10,147 @@ updated_time: '2013-11-27T14:01:59+0000'
 name: Learn Ractive.js
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/659768884062823/
 id: '172338516139198_659768884062823'
+reactions:
+  data:
+  - id: '10155854949245944'
+    name: Tarek Amr
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRVeU5USTFPVFF6T2pFek9EVTFOVEkxTmpNNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRVeU5USTFPVFF6T2pFek9EVTFOVEkxTmpNNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2013-11-26T19:01:49+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: I really hate this library ... feels like Facebook rushed to release
+      an MVC framework just because everyone is doing so ... Seriously I don't know
+      any added-value anyone can come up with ... It's so much like AngularJS ...
+      both sucks any way (that's a biased opinion)
+    id: '660399637333081'
+  - created_time: '2013-11-26T20:28:28+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: Ahmad Alfy May I know why you think so?
+    id: '660443657328679'
+  - created_time: '2013-11-26T20:40:26+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: BTW Ractive is not made by Facebook. Maybe you mean http://facebook.github.io/react/?
+    id: '660448783994833'
+  - created_time: '2013-11-26T21:40:30+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: |-
+      Opps. Yup I was meaning react :) Why would people choose a similar name to a library that do the same?
+      Which part of my comment you meant to discuss? That I hate the library or that I think both react and AngularJS sucks ?
+    id: '660471473992564'
+  - created_time: '2013-11-26T21:41:29+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: Both :)
+    id: '660471777325867'
+  - created_time: '2013-11-26T21:57:35+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: |-
+      Mohammad Tayseer
+      Well ... I basically hate AngularJS because I was rushed in a 3 weeks marathon to create an application for a multinational corp built using AngularJS ... At this time it was buggy as hell and the documentation was horrible ... I had to buy the book written by one of the core developers and had it delivered in less than a week only to start with the basic stuff :( The app I was creating required a lot of work ... The UX guys did an awesome job to be honest but I believe the idea they had in mind was "Let's torture the front-end developer who's gonna code that ..." I mean ... inline editing, lot of validation rules, sub-views, push notifications ... Everything was taking A LOT of time to find how to do it properly ... That makes me remember, one of my questions on StackOverflow got me a golden badge today because it was opened more than 10k ... You won't believe what the question was about! It was about how to invoke modal window written in AngularJS directive ... It sounds very easy to do ... but it wasn't :( ... Any way, fast forward the three weeks, I delivered in time after a lot of sleepless nights ... Sorry for talking about that to0 much :D
+
+      Now let's talk about why I think react and AngularJS sucks
+    id: '660477723991939'
+  - created_time: '2013-11-26T22:05:22+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: |-
+      I am comparing both to a loose framework like Backbone ... Come'on! Backbone is awesome! It's super flexible. It just provide the structure and data binding to your app ...
+
+      You render the data the way you want ... do whatever when it's updated, you are free to use whatever plugins ... Unlike Angular's directive :(
+
+      Just today, I spent around 15 minutes helping a friend just to fire a callback when AngularJS finish rendering the data cause he didn't wanted to use directives.
+    id: '660480357325009'
+  - created_time: '2013-11-26T22:09:32+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: |-
+      Link to the super easy question mentioned
+      http://stackoverflow.com/q/16265844/497828
+    id: '660482630658115'
+  - created_time: '2013-11-26T22:13:42+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: I've been working for angular for sometime. I hate that you've to reimplement
+      everthing the "angular way". I've no experience with other frameworks, but I'm
+      planning to learn something else (Backbone, Ember, etc)
+    id: '660484187324626'
+  - created_time: '2013-11-26T22:18:24+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: |-
+      Yup ... you have to write "Directives" ... Once you know how it becomes easier ... I would recommend you check Addy Osmani's Book about Backbone.js ... It's a free book :-) Probably three days and you will be rocking with Backbone already :-)
+
+      http://addyosmani.github.io/backbone-fundamentals/
+    id: '660486217324423'
+  - created_time: '2013-11-26T22:19:36+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: Not sure why everything is double posted ... maybe something with Facebook
+      :D
+    id: '660486533991058'
+  - created_time: '2013-11-27T01:15:50+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: |-
+      I am glad two of my friends are having a great conversation :D
+
+      Perhaps we could arrange an outing or meeting?!
+
+      Mohammad Tayseer, Ahmad Alfy
+    id: '660595233980188'
+  - created_time: '2013-11-27T08:44:33+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: Why all my friends want to get out when I'm out of the country? :D
+    id: '660756317297413'
+  - created_time: '2013-11-27T10:38:15+0000'
+    from:
+      name: Dody Gunawinata
+      id: '10159821384890487'
+    message: "Ractive.js is developed by Guardian newspaper's developer. It is a great
+      View toolkit with two way binding, template and eventing. There is no 'framework'
+      to structure your app, which I like. The learning curve is also very low. \n\nI
+      use it with TypeScript, PubSub, JQuery and Underscore."
+    id: '660782767294768'
+  - created_time: '2013-11-27T14:01:59+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: |-
+      Mosab Ahmad Sure any time :) Ya reeeet :D
+      Dody thanks for your input. Will try to use it in a  future project
+    id: '660870767285968'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOall3TXprNU5qTTNNek16TURneE9qRXpPRFUwT1RJMU1Eaz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOall3T0Rjd056WTNNamcxT1RZANE9qRXpPRFUxTmpBNU1Uaz0ZD
+attachments:
+  data:
+  - target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Flearn.ractivejs.org%2F&h=ATNyzTBQmI5yu9NFDwWW4dt5eAhYwr8oMK10R8qqa9z5gdQAxotxHVo-iWQ2pwxOmtQVUbPy4ZPkt1n5iMyU6RB5wNMMRTEs4TBK&s=1&enc=AZNodIjzxkTALu7MG_LgPXhxf6FcNg3ksBlgfr622EhjlTXT8mbUrrUf0xb_hNtqZpNk8v-qgOXzqUHKkD0vJLVz
+    title: Learn Ractive.js
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Flearn.ractivejs.org%2F&h=ATNyzTBQmI5yu9NFDwWW4dt5eAhYwr8oMK10R8qqa9z5gdQAxotxHVo-iWQ2pwxOmtQVUbPy4ZPkt1n5iMyU6RB5wNMMRTEs4TBK&s=1&enc=AZNodIjzxkTALu7MG_LgPXhxf6FcNg3ksBlgfr622EhjlTXT8mbUrrUf0xb_hNtqZpNk8v-qgOXzqUHKkD0vJLVz

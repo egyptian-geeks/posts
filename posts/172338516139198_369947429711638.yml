@@ -16,3 +16,193 @@ created_time: '2012-03-28T15:49:00+0000'
 updated_time: '2012-04-02T21:40:37+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/369947429711638/
 id: '172338516139198_369947429711638'
+comments:
+  data:
+  - created_time: '2012-03-28T15:53:10+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: this way only works for academic studies :D Real life experience is you
+      write the code and from the code you will know the requirements and the Design
+      will suddenly appear :P this is not a joke this is how companies in Egypt work.
+    id: '369949373044777'
+  - created_time: '2012-03-28T15:57:02+0000'
+    from:
+      name: Mahmoud Abd El-Fattah
+      id: '10156358805885288'
+    message: Yes ... Mohamed is right. First, you write the code then, you extract
+      the requirements - which change rapidly during the implementation phase. Then,
+      comes a new requirement that destroys all the test cases that you have already
+      tested your code against.
+    id: '369951409711240'
+  - created_time: '2012-03-28T16:06:05+0000'
+    from:
+      name: Mohamed Sameeh Sharaf
+      id: '2167550119925504'
+    message: "- انا اتصدمت :(((((\n- طيب الكلام اللى انا قلته فوق من الناحية الاكاديمية
+      صح ولا غلط\n-وبرده من الناحية الاكاديمية ايه المميزات والعيوب \n-يعنى ايه اكتب
+      الكود وبعد كدا اعمل extract لل req \nازااااااااااااى .؟؟؟؟"
+    id: '369956169710764'
+  - created_time: '2012-03-28T16:24:26+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: "بعد ما تكتب الكود إعمل ال\nTest Cases\nعلى كل وظيفة فيه, وبعد كدا اكتب
+      كود ال\nTest Cases\nوشغلهم على المشروع أو على جزء من المشروع على حسب إنتم شغالين
+      إزاي, بعد تشغيلهم بيطلع تقرير في الآخر يقولك لو فيه حالة فشلت, شوف الحالة اللي
+      فشلت وصلحها. من ناحية الأدوات فيه كتير طبعا على حسب ظروف المشروع, أنا في الويب
+      مثلا شغال أغلب الوقت \nWebForms\nمش\nMVC\nعلشان كدا الموضوع معقد فيها شويه ولازم
+      البراوزر يشتغل في أكتر الحالات فبستخدم أدوات كتير جنب الفيجوال ستوديو"
+    id: '369965923043122'
+  - created_time: '2012-03-28T16:29:34+0000'
+    from:
+      name: Mohamed Sameeh Sharaf
+      id: '2167550119925504'
+    message: "Moutaz Shams\nاعتقد الكلام اللى اانت قولته يا هندسة مش TDD\nمش المفروض
+      فى ال TDD انى اعمل   test cases الاول وبعد كدا اكتب كود \nانت فوق يا هندسة قولت
+      ان انا بكووود وبعد كدا بعمل test cases ودا العادى فى اى project ماعدا TDD !!\n\nطيب
+      ايه ال tools اللى انت بتسخدمها مع ال visual studio"
+    id: '369968639709517'
+  - created_time: '2012-03-28T16:48:03+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: |-
+      WatiN + MbUnit + Gallio + Visual Studio
+      ماشي ممكن يكون "التفكير" أو التخطيط لل
+      Test Cases
+      بتعمله الأول قبل ماتكتب أي كود عادي بناء على ال
+      Specifications, requirements, UML .. etc
+      لكن إنت بتكتب كودك الأول وبعد كدا تكتب كود ال
+      Test Cases
+      ده من خبرتي في الويب مش قادر أتخيل إنك تعرف تكتب التست كيس قبل ماتكتب كودك, يمكن في مشاريع تانيه أو كدا ظروفها بتكون مختلفة
+      Context is the king
+    id: '369978093041905'
+  - created_time: '2012-03-28T17:16:55+0000'
+    from:
+      name: Mohamed Sameeh Sharaf
+      id: '2167550119925504'
+    message: "جزاكم الله خيرا يا هندسة \nهو فعلا ال default انى اشتغل الحاجات اللى
+      انت ذكرتها فوق \nreq>design>coding>testing \nلكن فى ال model الغريب دا الموضوع
+      مختلف شوية \n\nhttp://www.codeproject.com/Articles/321154/Test-Driven-Development-TDD-in-Csharp\n\nبس
+      سوال يا هندسة انت ليه مش بتستخدم NUnit \nولا عشان الشغل :)"
+    id: '369994029706978'
+  - created_time: '2012-03-28T18:38:05+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: "أيوا أنا فهمت كدا المقصود, الحقيقه هي مش فارقه لأنك كدا كدا لازم برضو
+      بتكتب الكود بتاعك الأول بجانب إنها مش عمليه. يعني شوف في المقال ده هو بدأ يكتب
+      كود التست الأول في مشروع ال\nTDDExample.Test\nو بينادي فيه على كلاس اسمه:\nSentenceParser\nو
+      بينادي على وظيفه جواه اسمها:\nGetNoofWordsInString\nعلشان يختبرها, وبعد كدا
+      عمل للمشروع كومبايل ورايح علشان يشغل التست! طبعا المشروع نفسه مش هيعمل كومبايل
+      أصلا لو الكلاس ده مش موجود أو الوظيفه مش موجوده, فلازم يكون كاتبهم الأول, وهو
+      الحقيقه كتبهم الأول لكن ماكتبش \"كود حقيقي\" في الوظيفه وكتب فقط سطر واحد زي:\nthrow
+      new NotImplementedException();\nوهو ده الاكسبشن اللي طلعله لما شغل التست أول
+      مرة, طلعله الاكسبشن اللي هو بيرميه من جوه الوظيفه اللي جوه الكلاس, لو كان الكلاس
+      مش موجود أو الوظيفه مش موجوده كان مشروع التست ماعملش كومبايل..\n\nبعدما شغل
+      التست وقاله إن فيه اكسبشن نوعه كذا بيطلع في الوظيفه اللي إنت كاتبها فقام رايح
+      يكتب \"جواها\" الكود الحقيقي, إنما الوظيفه والكلاس بتاعها مكتوبين في الأول ولو
+      كانوا معتمدين على كلاسات تانيه وهكذا فكل الكلاسات والوظائف لازم تكون مكتوب تعريفها
+      برضو في الأول علشان يعرف يعمل كومبايل. فواضح إن المقصود بانك تكتب كودك في الآخر
+      هو انك تكتب \"كودك الحقيقي\" في الآخر بعدما تخلص كتابة تعريفات الكلاسات وتخلص
+      التس كيسس! \n\nوالحقيقة أنا شايف انها طريقة مش عملية وغير مرنه بالمره, إنت ممكن
+      في ربع أو نص أو في آخر المشروع تكون اضطريت تغير في كلاسات كتير و تضيف وتحذف
+      وظائف كتير والخ بسبب أنه في \"الغالب\" متطلبات المشروع مش بتكون \"كامله\" ومعروفة
+      بالكامل في بداية المشروع وحتى لو كانت كاملة ومعروفة تماما ومفهومة وهذا نادر
+      جدا فأكيد تصميم المشروع والتخطيط له مش هيكون \"كامل\" ومغطي كل المتطلبات, فمن
+      المؤكد إنك هتلائي التستات اللي إنت عملتها محتاج يتغير فيها ويتحذف منها ويتضاف
+      فيها حاجات كتير وهتكون عبء كبير عليك لو مصمم إنك تكتبها في الأول وهتلائي إن
+      مشروع التست محتاج تست هو كمان"
+    id: '370036859702695'
+  - created_time: '2012-03-28T18:44:39+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: |-
+      ال
+      NUnit
+      مشهوره وجامده بس مش فاكر كانت مشكلتها إيه معايا
+    id: '370040266369021'
+  - created_time: '2012-03-28T20:07:06+0000'
+    from:
+      name: Ahmed Shehab
+      id: '10155148152117681'
+    message: |-
+      Well, as I understand it, TDD has nothing to do with requirements extraction. And it's impossible to write all the "test cases" -actually they are called unit tests, all upfront before writing the actual code. You always start with one unit test, fail it -because of course there is no code to make it pass and probably you'll get compiler errors, then you write the least amount of code to make this unit test pass, then you run the test and see if it passes. Then you move on and write the next unit test and do the same thing you did previously. After a couple of tests, you will probably find yourself in a need to do some code re-factoring -maybe in both the actual code and the test code, this process is called Red (fail), Green (pass), Re-factor. Notice here that unit tests are written as code with the same target language of the project. They are also called Programmer tests, and TDD is also called Test First programming.
+
+      The advantages of TDD are very powerful because:
+      *it will force you to adhere to the S.O.L.I.D. principles of OOD.
+      *you can, at any given moment, do a complete and thorough checkup on your project at the unit level in a matter of seconds. Which is, needless to say, a tremendous benefit because each time you wanna add new/change functionality to an existing component chances are you're gonna break something somewhere else.
+      *it works as a documentation to the project.
+
+      Disadvantages:
+      *High learning curve.
+    id: '370085749697806'
+  - created_time: '2012-03-29T19:36:55+0000'
+    from:
+      name: Mohamed Sameeh Sharaf
+      id: '2167550119925504'
+    message: "@moutaz shams\nاعتقد ان ال TDD بيستخدم فى بيئة انا بكون فاهم فيها ال
+      req كويس جدا جدا \nAhmed Shehab\nجزاكم الله خيرا على الرد بس انا مش فاهم الجزء
+      الخاص بال advantages \nالنقطة الاولى والثانية ياريت حضرتك توضحهم اكتر كمان هو
+      شركة Asset شغاله ب TDD ولا لا"
+    id: '370781876294860'
+  - created_time: '2012-03-30T00:55:29+0000'
+    from:
+      name: Khaled Saleh
+      id: '10212639900687220'
+    message: |-
+      Mohamed Sameeh Sharaf
+      may be this help u
+
+      http://www.cleancoders.com/codecast/clean-code-episode-6-part-1/show
+    id: '370939976279050'
+  - created_time: '2012-03-30T15:08:37+0000'
+    from:
+      name: Mohamed Sameeh Sharaf
+      id: '2167550119925504'
+    message: |-
+      Khaled Saleh
+      انت بتدينى موقع فيه فيديوهات بفلوس ليه يا خالد شايفنى من بنها
+    id: '371253136247734'
+  - created_time: '2012-03-30T16:26:29+0000'
+    from:
+      name: Shady M. Najib
+      id: '10155819655346066'
+    message: 'Not sure if the technology will suit you, but try this one: http://remi.org/'
+    id: '371292282910486'
+  - created_time: '2012-04-01T16:40:43+0000'
+    from:
+      name: Shady M. Najib
+      id: '10155819655346066'
+    message: check this one too http://tekpub.com/view/concepts/3
+    id: '372527406120307'
+  - created_time: '2012-04-01T16:43:22+0000'
+    from:
+      name: Shady M. Najib
+      id: '10155819655346066'
+    message: http://tekpub.com/view/concepts/5
+    id: '372528849453496'
+  - created_time: '2012-04-01T16:46:44+0000'
+    from:
+      name: Khaled Saleh
+      id: '10212639900687220'
+    message: "Mohamed Sameeh Sharaf\nانت مسمعتش المثل اللى بيقول\nno pain \"paying\"
+      .... no gain \n:D"
+    id: '372530889453292'
+  - created_time: '2012-04-02T21:40:37+0000'
+    from:
+      name: Ahmed Shehab
+      id: '10155148152117681'
+    message: |-
+      Here you can find more information about the principles of OOD
+
+      http://lostechies.com/wp-content/uploads/2011/03/pablos_solid_ebook.pdf
+
+      You asked me if my employer promotes TDD; the answer is NO. But however, there is a number of software firms in Egypt that do.
+    id: '373356879370693'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANelk1T1RRNU16Y3pNRFEwTnpjM09qRXpNekk1TkRrNU9UQT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANemN6TXpVMk9EYzVNemN3Tmprek9qRXpNek0wTURJNE16Yz0ZD

@@ -9,3 +9,112 @@ created_time: '2014-03-10T10:25:06+0000'
 updated_time: '2014-03-11T23:07:34+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/713025845403793/
 id: '172338516139198_713025845403793'
+comments:
+  data:
+  - created_time: '2014-03-10T10:30:27+0000'
+    from:
+      name: Eslam Hamouda
+      id: '10212947071504226'
+    message: i used SignalR , and worked like a charm for me + works fine on Mobile
+      Browsers too. i liked it because it takes care of fall back for me. and make
+      your code a little bit high level of abstraction.
+    id: '713026968737014'
+  - created_time: '2014-03-10T10:52:01+0000'
+    from:
+      name: Ahmed Refaat
+      id: '10100126848108516'
+    message: Checkout Meteor.com, firebase.com and derbyjs.com
+    id: '713034445402933'
+  - created_time: '2014-03-10T11:41:19+0000'
+    from:
+      name: Mohamed Abdellatif
+      id: '10155738795381858'
+    message: I don't get your question Tayseer, are you looking for a web app framework
+      or looking for some person who managed to develop using such a thing?
+    id: '713045955401782'
+  - created_time: '2014-03-10T12:08:16+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: |-
+      Yes, we built an entire platform in erlang with bindings for ruby and php via rest apis and websockets on the client side that falls back to flash then comet.
+      Full support for IE8+, Firefox, Chrome, Safari and Opera. Why?
+    id: '713052688734442'
+  - created_time: '2014-03-10T14:12:05+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: I'm learning about real-time web technologies in the past few days. I'm
+      trying with pure Python & I was able to create some demos, but nothing works
+      on IE8 yet (except Firebase). I wanted to see the experience of others as well
+    id: '713091742063870'
+  - created_time: '2014-03-10T14:20:03+0000'
+    from:
+      name: Moataz Omr
+      id: '10155883216925569'
+    message: I used SignalR in .Net and Atomsphere in JAVA both work on main browsers
+      and mobile chrome
+    id: '713095205396857'
+  - created_time: '2014-03-10T15:14:32+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Node.js
+    id: '713116418728069'
+  - created_time: '2014-03-10T15:23:06+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: |-
+      Node is not a magic bullet :) its single threaded approach isn't novel either, non-blocking io and event loops models hit mainstream long ago. Node.js only made it accessible. You'll still need to implement a backend for the proper protocols/techniques (websockets, comet...etc) Or use a library, same applies for any other platform.
+
+      We packaged the product commercially Mohammad Tayseer but it's been defunct for almost a year now so we might open source it.
+    id: '713118788727832'
+  - created_time: '2014-03-10T15:34:55+0000'
+    from:
+      name: Islam AbdelMohaimen Hassan
+      id: '10214796374519514'
+    message: Try socket.io, it has many fallback backups. I use it with nodejs and
+      tested it on firefox, chrome and an android app that I've built.
+    id: '713123135394064'
+  - created_time: '2014-03-11T19:42:03+0000'
+    from:
+      name: Shady M. Najib
+      id: '10155819655346066'
+    message: 'Tayseer: For IE8 you should fall back to long-polling. No new tricks
+      would work'
+    id: '713666698673041'
+  - created_time: '2014-03-11T20:01:36+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Scoket.io supports IE6+ :)
+    id: '713674828672228'
+  - created_time: '2014-03-11T20:02:53+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: but it allows 1400-1800 concurrent connection. check this before you
+      decide to use it. http://drewww.github.io/socket.io-benchmarking/
+    id: '713675212005523'
+  - created_time: '2014-03-11T20:03:11+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: I think the best frameworks for this exist in .NET and Node. When it
+      comes to old platforms compatibility you are already beyond simple solutions
+      already most of the time, so, it helps to use a framework that covers the edges
+      instead of rolling up something simple on your own.
+    id: '713675295338848'
+  - created_time: '2014-03-11T23:07:34+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: If you are thinking on expansion to 1Million con current connection for
+      example it will be depending on your infrastructure. I would think of making
+      a central socket as a balancer that distribute the traffic to various servers.
+    id: '713737225332655'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekV6TURJMk9UWTROek0zTURFME9qRXpPVFEwTkRjME1qYz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekV6TnpNM01qSTFNek15TmpVMU9qRXpPVFExTnpreU5UUT0ZD

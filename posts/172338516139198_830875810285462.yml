@@ -10,3 +10,25 @@ created_time: '2014-10-15T07:29:53+0000'
 updated_time: '2014-10-15T12:17:58+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/830875810285462/
 id: '172338516139198_830875810285462'
+comments:
+  data:
+  - created_time: '2014-10-15T11:53:19+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      Both on rootScope? No, it's not expected.
+      Can you provide a sample reproduce fiddle?
+    id: '830939226945787'
+  - created_time: '2014-10-15T12:17:58+0000'
+    from:
+      name: Abdelmawla Mohamed
+      id: '10155529060497804'
+    message: Thanks Mohamed Meligy I figured out the issue one of those controllers
+      that was listening to the event wasn't attached to any DOM element  :) beginners
+      mistakes
+    id: '830946060278437'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRE13T1RNNU1qSTJPVFExTnpnM09qRTBNVE16TnpNNU9Uaz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRE13T1RRMk1EWXdNamM0TkRNM09qRTBNVE16TnpVME56ZAz0ZD

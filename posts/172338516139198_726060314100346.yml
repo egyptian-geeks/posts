@@ -16,3 +16,61 @@ updated_time: '2014-04-06T08:49:37+0000'
 name: Pensqr - Connects you to what always matter
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/726060314100346/
 id: '172338516139198_726060314100346'
+comments:
+  data:
+  - created_time: '2014-04-06T08:41:48+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      Here are my thoughts
+
+      1. I like the idea & design. What I'm missing is: what would make a normal user register in your site & ignore similar websites, e.g. pinterest, delicious, etc? This is the most important question that you need to answer.
+
+      2. You're doing a good job of caching images, progressive loading of "pens", using S3, but there are still some issues related to performance.
+
+      3. On this page http://www.pensqr.com/8/k_roushdy/, the background image takes a lot of time to load, because it's 1.5MB. Also, png is not the correct format for such an image. IMHO, the best is to use CSS gradient.
+
+      4. Your bundled JS file contains multiple copies of the used libraries (classie, bootstrap, jQuery form, etc).
+
+      I hope the best for you, guys
+    id: '726075280765516'
+  - created_time: '2014-04-06T08:45:32+0000'
+    from:
+      name: Mohammed ElBalkini
+      id: '10159762148090562'
+    message: "that was really helpful Thanks Mohammad Tayseer \n1) did you get the
+      difference in Pensqr of the message is not clear ? \n2) we are working on the
+      performance specially the speed of website loading an please feel free to give
+      me tips on how to do so\n3) I will remove multiples in js, it seems assetic
+      management doubled some js files"
+    id: '726076194098758'
+  - created_time: '2014-04-06T08:49:37+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      1. The difference was not clear
+      2. I gave a session before about front-end optimizations. Find below video & slides
+
+      https://www.youtube.com/watch?v=m_yV9ad4hOo
+      http://mtayseer.net/files/talks/front-end-optimization/Introduction%20to%20Front-end%20optimization.html#/
+    id: '726077040765340'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekkyTURjMU1qZA3dOelkxTlRFMk9qRXpPVFkzTnpNM01EZAz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekkyTURjM01EUXdOelkxTXpRd09qRXpPVFkzTnpReE56Yz0ZD
+attachments:
+  data:
+  - description: a fun, organized & visualized space for people who share the same
+      passion amd interest about something.
+    media:
+      image:
+        height: 720
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAvyqym2YouENAJ&w=720&h=720&url=https%3A%2F%2Fs3.amazonaws.com%2Fsomebucket-name%2FDefaultUser.png&cfs=1&_nc_hash=AQCDovxr89298wpo
+        width: 720
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.pensqr.com%2F&h=ATPbyT74ITyFORryL5hfhenJVexqhqTFcjyVzrRwGsYbKopwft1thgsvvhQIQGfunW07cXXbqJnPv8PMFSSfFXVqJrOTW88vm4Cj&s=1&enc=AZNwKqzwTcaapfz5Atobzl4-7jUtQg7cQpIz3kzQu0vb3VMgiLHafTQgMJNA89IC0JWXKZRRffzaYXdA04BoD9f5
+    title: Pensqr - Connects you to what always matter
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.pensqr.com%2F&h=ATPbyT74ITyFORryL5hfhenJVexqhqTFcjyVzrRwGsYbKopwft1thgsvvhQIQGfunW07cXXbqJnPv8PMFSSfFXVqJrOTW88vm4Cj&s=1&enc=AZNwKqzwTcaapfz5Atobzl4-7jUtQg7cQpIz3kzQu0vb3VMgiLHafTQgMJNA89IC0JWXKZRRffzaYXdA04BoD9f5

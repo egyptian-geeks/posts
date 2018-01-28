@@ -10,3 +10,62 @@ created_time: '2015-07-02T15:25:57+0000'
 updated_time: '2015-07-02T20:19:21+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/967334159972959/
 id: '172338516139198_967334159972959'
+comments:
+  data:
+  - created_time: '2015-07-02T16:19:35+0000'
+    from:
+      name: Ahmed Anwar
+      id: '10213138823258512'
+    message: لا خلاص مدام نقلته هيتنقل , بس بتاخد وقت شويه عقبال ما تتظبط ي كل حته
+    id: '967357363303972'
+  - created_time: '2015-07-02T16:20:19+0000'
+    from:
+      name: Ahmed Anwar
+      id: '10213138823258512'
+    message: |-
+      48 hours
+      Name server changes usually take 24 to 48 hours to fully start working. This period, called propagation, is the projected length of time it takes for root name servers and cache records across the entire web to be updated with your website's DNS information.
+    id: '967357533303955'
+  - created_time: '2015-07-02T16:24:16+0000'
+    from:
+      name: Mina Malak
+      id: '10155996037437456'
+    message: "بس فى ٢ ip \nبنفس الname server ???"
+    id: '967358616637180'
+  - created_time: '2015-07-02T16:36:30+0000'
+    from:
+      name: Ahmed Anwar
+      id: '10213138823258512'
+    message: انا مش فاهمك اوي , بس انت عندك دومين و  كنت رابطه بمكان , بعدين حبيت
+      تنق مكان تاني , ف رحت للدومين و غيرت ال DNS ف غلاص هيتنقل المكان التاني . حتى
+      لو انت كنت سايب في الهوستينج الاولاني اي حاجه , الي بيربط الدنيا هو الدومين
+    id: '967361666636875'
+  - created_time: '2015-07-02T16:46:31+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: لا بالراحة كده علشان كلامك مش واضح خالص، انت عندك دومين عاوز تنقل الدومين
+      نفسه لشركة دومينز تانية ولا عاوز الدومين يشاور على سيرفر تانى مش اكتر ؟
+    id: '967364286636613'
+  - created_time: '2015-07-02T20:13:30+0000'
+    from:
+      name: Mina Malak
+      id: '10155996037437456'
+    message: "يشاور\nانا دلوقتى عاوز افهم فكره الdns template \nانا الى بكتبه و لا
+      ديه بيطلعلى منين"
+    id: '967432589963116'
+  - created_time: '2015-07-02T20:19:21+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: |-
+      الدومين الشركة اللى انت بتكون شاريه معاها بتكون رابطاه ب nameservers بتحط على ال nameservers دى ال records بتاعتك اللى هى ال A, CNAME, TXT,..etc ، ولما حد بيطلب منها تعمل resolve للدومين ده بترجعله الناتج بحسب ال records اللى متسجله عنده
+      فيه name servers اسرع و احسن من غيرها ، مثلآ name servers بتاعة name.com اسرع واحدة شوفتها لما بتعمل اى تعديل بيسمع فى خلال دقيقة.
+      الفكرة دلوقتى انك الدومين مع شركة وليكن name.com بيبقى مربوط by default بال name servers بتاعة name.com ولما بتدخل على ال DNS Records بتحدد القواعد اللى النيم سيرفر ده هيحول المستخدم على اساسها.
+      ليك الحق انك تغير ال name servers بتاعة الدومين عادى و تخليه يبقى تبع نيم سيرفرز شركة تانية خالص وليكن الشركة اللى واخد معاها السيرفرات و من الكنترول بانل بتاعة الشركة التانية دى بتروح تعدل ال records بقى علشان يشاور على ال http server بتاعك او ال SMTP/POP servers على حسب عاوز تعمل ايه.
+      ده الحوار بتاع ال name servers
+    id: '967433826629659'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFkzTXpVM016WXpNekF6T1RjeU9qRTBNelU0TlRNNU56VT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFkzTkRNek9ESTJOakk1TmpVNU9qRTBNelU0Tmpnek5qRT0ZD

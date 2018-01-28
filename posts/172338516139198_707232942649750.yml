@@ -8,3 +8,111 @@ created_time: '2014-02-27T00:36:21+0000'
 updated_time: '2014-02-27T19:36:25+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/707232942649750/
 id: '172338516139198_707232942649750'
+reactions:
+  data:
+  - id: '10156231955704873'
+    name: Michael Farag
+    type: LIKE
+  - id: '10155898279795619'
+    name: Hassan Sultan
+    type: LIKE
+  - id: '1757500217628545'
+    name: Ahmed Elbaz
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpjNE16YzVPRGN5T2pFek9UTTFNREV4T0RFNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQXhNRFUzTlRBeE5USXdPakV6T1RNME56ZA3pNelE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2014-02-27T00:37:23+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: cc مُحَمَّد أبو آدم
+    id: '707233329316378'
+  - created_time: '2014-02-27T00:41:33+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: |-
+      It's but it's very complicated. Depending on your output I use a wrapper library based on D3 called http://nvd3.org/ and if you are stuck with a request of linechart+zoom use http://dygraphs.com/
+
+      let me know what is your objective so I can help you selecting the most near library based on your needs.
+    id: '707235369316174'
+  - created_time: '2014-02-27T00:53:11+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: "Helping someone with this:\n\nMy client wants to display some simple
+      line, bar and gauge style charts. \nan intranet scenario, where all the files
+      and resources are required to be local (i.e. not reference online libraries)"
+    id: '707238549315856'
+  - created_time: '2014-02-27T02:26:49+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: if it's light charts then no need for high charts or D3 go for something
+      simple like http://www.oesmith.co.uk/morris.js/ and it's based on Raphael so
+      it won't be hard achieving the gauge style charts http://justgage.com/
+    id: '707266795979698'
+  - created_time: '2014-02-27T02:52:21+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: thanks a lot :)
+    id: '707275439312167'
+  - created_time: '2014-02-27T05:41:34+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Always welcome bro
+    id: '707328072640237'
+  - created_time: '2014-02-27T05:50:07+0000'
+    from:
+      name: Mohamed Nady
+      id: '10155293228608733'
+    message: I like http://www.highcharts.com it has alto of fancy things .. but talking
+      about simple you can use Abo-Adam suggestion Morris.js
+    id: '707331405973237'
+  - created_time: '2014-02-27T08:08:35+0000'
+    from:
+      name: Amr Monjid
+      id: '10155918513180729'
+    message: i used amCharts before and its full of bugs
+    id: '707359089303802'
+  - created_time: '2014-02-27T08:08:43+0000'
+    from:
+      name: Amr Monjid
+      id: '10155918513180729'
+    message: Highcharts is the best
+    id: '707359095970468'
+  - created_time: '2014-02-27T19:35:04+0000'
+    from:
+      name: Mohamed Kassem
+      id: '10159845609090858'
+    message: I tried DC charts its built over d3 and it was good.
+    id: '707646449275066'
+  - created_time: '2014-02-27T19:35:21+0000'
+    from:
+      name: Mohamed Kassem
+      id: '10159845609090858'
+    message: dc js
+    id: '707646515941726'
+  - created_time: '2014-02-27T19:35:43+0000'
+    from:
+      name: Mohamed Kassem
+      id: '10159845609090858'
+    message: d3 + crossfilter => dc
+    id: '707646609275050'
+  - created_time: '2014-02-27T19:36:25+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: ye, but that's if he want complex graphs may be but since it's really
+      very simple graphs i would implement something lighter.
+    id: '707646775941700'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekEzTWpNek16STVNekUyTXpjNE9qRXpPVE0wTmpFME5ETT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekEzTmpRMk56YzFPVFF4TnpBd09qRXpPVE0xTWprM09EVT0ZD

@@ -11,3 +11,101 @@ updated_time: '2014-03-20T09:44:24+0000'
 name: http://alaaattya.wordpress.com/2014/01/20/120/
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/717271381645906/
 id: '172338516139198_717271381645906'
+reactions:
+  data:
+  - id: '1745737135446986'
+    name: Mohamed Mahrous
+    type: LIKE
+  - id: '10155210332186198'
+    name: Heba Darweesh
+    type: LIKE
+  - id: '10213833339461331'
+    name: Mostafa Hamza
+    type: LIKE
+  - id: '10215070655377585'
+    name: Mahmoud Kandeel
+    type: LIKE
+  - id: '10159762148090562'
+    name: Mohammed ElBalkini
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdNekl4TkRnek9ESTRPakV6T1RVeU5EWTROelU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TnpneE9USXdOVFl4T2pFek9UVXlORFEzT0RVNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2014-03-19T16:20:16+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Dude don't use mongoos you will have a really very hard time with performance
+      and once things gets bigger you will have more hard time in the migration.
+    id: '717279561645088'
+  - created_time: '2014-03-19T16:21:38+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: are you talking about mongBB or moogse as a node module?!
+    id: '717279988311712'
+  - created_time: '2014-03-19T17:25:00+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: |-
+      I use Mongo-Express-Aangular-Nodejs "mean", yet I think he means mongo.
+      Mongo is abit slow
+    id: '717306311642413'
+  - created_time: '2014-03-19T22:50:56+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Yes I mean Mongo
+    id: '717431078296603'
+  - created_time: '2014-03-19T22:53:24+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: If you're talking about mongo you're right :D for big data it's very
+      bad and it's the worst as it has no joins :/ loops b2a w bta3 to get the data
+      you need. Here I used mongo for just demoing as I was working with json w kDa
+    id: '717431868296524'
+  - created_time: '2014-03-20T03:15:48+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: I know because of experience. and they charge you 5K dollars for an hour
+      support :) so if you ever get your stuff really big be prepared :D
+    id: '717510088288702'
+  - created_time: '2014-03-20T08:31:41+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: You still can use a relational DB. I like Postgres. It supports json
+      & array datatypes
+    id: '717577398281971'
+  - created_time: '2014-03-20T09:44:24+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: Mohammad Tayseer i've heard about postgres before bs mgrabtahash bsra7a,
+      you've encouraged me to start playing with it kda :D
+    id: '717593498280361'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekUzTWpjNU5UWXhOalExTURnNE9qRXpPVFV5TkRZAd01UWT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekUzTlRrek5EazRNamd3TXpZAeE9qRXpPVFV6TURnMk5qUT0ZD
+attachments:
+  data:
+  - description: Hi Geeks, first i've a quotes which i blieve in "Javascript will
+      rule the world!". Despite being a PHP developer, last days i got stuck loving
+      JS. Actually last couple of months i was just started ...
+    media:
+      image:
+        height: 200
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQDxfrgCNisAkVeS&w=200&h=200&url=http%3A%2F%2F1.gravatar.com%2Fblavatar%2Ff11ba80a669ccfb72e49db31a0c2f1a9%3Fs%3D200&cfs=1&sx=0&sy=0&sw=200&sh=200&_nc_hash=AQBA_Oe36b3y2Lkh
+        width: 200
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Falaaattya.wordpress.com%2F2014%2F01%2F20%2F120%2F&h=ATOIDaSQ4IaAt6-AB4b2xv42oYmUkvkzNkiJkB-0PJ0qhm9KmH5wXfXktONyXTSB13a0nN3hZ3TRTuO8ljqqDzbJ0Kjy3T_JBIs6&s=1&enc=AZNwRJuxPozGRQeqOiyiNKXZXYpN9Oe7dBTgtF18xR5DBp10-yLjYjjgPUIfTtgk54qvUwSoVdao4dFaQDGkzrY_
+    title: http://alaaattya.wordpress.com/2014/01/20/120/
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Falaaattya.wordpress.com%2F2014%2F01%2F20%2F120%2F&h=ATOIDaSQ4IaAt6-AB4b2xv42oYmUkvkzNkiJkB-0PJ0qhm9KmH5wXfXktONyXTSB13a0nN3hZ3TRTuO8ljqqDzbJ0Kjy3T_JBIs6&s=1&enc=AZNwRJuxPozGRQeqOiyiNKXZXYpN9Oe7dBTgtF18xR5DBp10-yLjYjjgPUIfTtgk54qvUwSoVdao4dFaQDGkzrY_

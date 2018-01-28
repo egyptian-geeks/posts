@@ -13,3 +13,40 @@ created_time: '2014-08-10T14:10:33+0000'
 updated_time: '2014-08-10T14:37:52+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/797315416974835/
 id: '172338516139198_797315416974835'
+reactions:
+  data:
+  - id: '10156476353501062'
+    name: Tarik Ibrahim
+    type: LIKE
+  paging:
+    cursors:
+      before: Tnpjd01Ea3hNRFl4T2pFME1EYzJPRE15TURjNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: Tnpjd01Ea3hNRFl4T2pFME1EYzJPRE15TURjNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2014-08-10T14:25:39+0000'
+    from:
+      name: Islam Ali
+      id: '10155659498433780'
+    message: "for 1st request \ncheck this http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_Python_django.html\nand
+      2nd: you can run PHP as usual on Apache and to run run python on Apache you
+      will need to use of mod_wsgi"
+    id: '797320250307685'
+  - created_time: '2014-08-10T14:36:11+0000'
+    from:
+      name: Hisham El-Sheshtawy
+      id: '10215464505030811'
+    message: Islam Ali do you have example link to make it clear ? .. I can deploy
+      my main django app and if I needed to write other service in PHP or JS I just
+      install their servers .. am i getting you right ?
+    id: '797327966973580'
+  - created_time: '2014-08-10T14:37:52+0000'
+    from:
+      name: Islam Ali
+      id: '10155659498433780'
+    message: 'yes'
+    id: '797328476973529'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemszTXpJd01qVXdNekEzTmpnMU9qRTBNRGMyT0RBM016az0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemszTXpJNE5EYzJPVGN6TlRJNU9qRTBNRGMyT0RFME56ST0ZD

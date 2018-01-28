@@ -9,3 +9,56 @@ created_time: '2015-05-17T09:24:34+0000'
 updated_time: '2015-05-17T13:07:27+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/940714305968278/
 id: '172338516139198_940714305968278'
+comments:
+  data:
+  - created_time: '2015-05-17T10:02:20+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: "try flex with a normal server \nhttps://plex.tv/\nand open the ssh port
+      and you're done."
+    id: '940722042634171'
+  - created_time: '2015-05-17T10:08:41+0000'
+    from:
+      name: AbdAllah Khashaba
+      id: '1032800230207501'
+    message: |-
+      Thanks Emad Elsaid
+      this is only for media streaming. i need full support , all file types , uploading , downloading , user accounts privileges , monitoring , backup , browsing
+    id: '940723212634054'
+  - created_time: '2015-05-17T12:02:25+0000'
+    from:
+      name: Hisham Abd El-Hafez Eid
+      id: '10156032627411171'
+    message: I use my raspberry pi as a NAS controller, hooking it to a 1 Tera external
+      hard disk, use debian on the Pi to share the drive using samba. and since this
+      is debian so you will find packages to do the features you want. Although this
+      setup is very tempting, I do not recommend it because it has low transfer rates
+      from and to the NAS. It is OK if you want to use it for small files, but if
+      you are planning to move large files (movies or so), it will be slow
+    id: '940749802631395'
+  - created_time: '2015-05-17T12:08:54+0000'
+    from:
+      name: Hisham Abd El-Hafez Eid
+      id: '10156032627411171'
+    message: something I want to try is https://owncloud.org/ but it is going to need
+      something larger than the Pi to host it
+    id: '940751525964556'
+  - created_time: '2015-05-17T12:59:46+0000'
+    from:
+      name: AbdAllah Khashaba
+      id: '1032800230207501'
+    message: seems promising
+    id: '940762905963418'
+  - created_time: '2015-05-17T13:07:27+0000'
+    from:
+      name: AbdAllah Khashaba
+      id: '1032800230207501'
+    message: "I found this Motherboard  : \nhttp://www.gigabyte.com/products/product-page.aspx?pid=3455\n\nSmall
+      dimensions .\ncan work with 200 Watt Power supply .\ncan hold 4 HDDs , 3 Ram
+      solts \n\ni will search for a mini case for it"
+    id: '940765405963168'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFF3TnpJeU1EUXlOak0wTVRjeE9qRTBNekU0TlRZANU5EQT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFF3TnpZAMU5EQTFPVFl6TVRZANE9qRTBNekU0Tmpnd05EYz0ZD

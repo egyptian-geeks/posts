@@ -11,3 +11,96 @@ created_time: '2013-01-07T10:02:40+0000'
 updated_time: '2013-01-07T21:07:41+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/509427549096958/
 id: '172338516139198_509427549096958'
+comments:
+  data:
+  - created_time: '2013-01-07T10:17:22+0000'
+    from:
+      name: Sameh Ammar
+      id: '10216171489907822'
+    message: why u not using any version control like Git ??
+    id: '509430839096629'
+  - created_time: '2013-01-07T10:18:27+0000'
+    from:
+      name: Sameh Ammar
+      id: '10216171489907822'
+    message: or u can host your project on GitHup ?
+    id: '509431122429934'
+  - created_time: '2013-01-07T10:58:57+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: If you only need 5 users, you can use Bitbucket free private repositories.
+    id: '509440175762362'
+  - created_time: '2013-01-07T11:02:04+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      For Dropbox, you can pause syncing:
+      https://www.dropbox.com/help/180/en
+    id: '509440879095625'
+  - created_time: '2013-01-07T11:05:51+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      Another free private Git repo (unlimited users, 1 GB):
+      http://offers.assembla.com/free-git-hosting/
+    id: '509441512428895'
+  - created_time: '2013-01-07T11:11:37+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      Another option is set dropbox as your remote/origin repository. You'd have another "local" repository where you do your work and then push it to the dropbox folder (on your machine too) acting as remote/origin.
+      Downsides:
+      - Each of the team will need to setup this on their own machine (the local repo)
+      - You have two copies of the entire repo on each machine
+    id: '509443542428692'
+  - created_time: '2013-01-07T11:14:33+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      More free private git repo providers:
+      https://git.wiki.kernel.org/index.php/GitHosting
+    id: '509444689095244'
+  - created_time: '2013-01-07T11:39:21+0000'
+    from:
+      name: Eslam Hamouda
+      id: '10212947071504226'
+    message: you Give me what i need , thanks a lot :)
+    id: '509451165761263'
+  - created_time: '2013-01-07T15:58:04+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: 'I think Microsoft offers a free plan for what you need: http://tfs.visualstudio.com/en-us/pricing/information/'
+    id: '509530875753292'
+  - created_time: '2013-01-07T16:05:08+0000'
+    from:
+      name: Eslam Hamouda
+      id: '10212947071504226'
+    message: |-
+      OMG , tmam awy awy y3ny kont fakrha NOT Free !
+      Sorry, we were unable to create the 'eslamx7' account. The service is under temporary maintenance.
+      they updating the service now , anyway i will try it ASAP :)
+    id: '509533875752992'
+  - created_time: '2013-01-07T16:09:16+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: هتلائي الموظف عايز حاجه أظرفه عشره جوند أو قول له إنك من طرفي
+    id: '509535402419506'
+  - created_time: '2013-01-07T21:07:41+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: the only catch is it's experimental service, and everything can happen
+      to the terms ) the build processing is already not cleared), but it's THE way
+      to go if you need complete free CI (within the limits), AND you like TFS
+    id: '509638102409236'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOVEE1TkRNd09ETTVNRGsyTmpJNU9qRXpOVGMxTlRNNE5EST0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOVEE1TmpNNE1UQXlOREE1TWpNMk9qRXpOVGMxT1RJNE5qRT0ZD

@@ -19,3 +19,200 @@ updated_time: '2015-03-23T06:52:04+0000'
 name: AAbouZaid/ping_time_test
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/913390662033976/
 id: '172338516139198_913390662033976'
+reactions:
+  data:
+  - id: '10155855157936047'
+    name: Mosab Ibrahim
+    type: LIKE
+  - id: '1550774681686883'
+    name: Eslam Esmaeal
+    type: LIKE
+  - id: '1325154427631174'
+    name: Diaa Elsayed
+    type: LIKE
+  - id: '1955441501387657'
+    name: Bassam Abd Elhamid
+    type: LIKE
+  paging:
+    cursors:
+      before: TnpVMU1ESTJNRFEyT2pFME1qY3dPVGN5TnpnNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQTNOalUwTnpnNU16RXdPakUwTWpjd016azFOVE02TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2015-03-22T15:51:46+0000'
+    from:
+      name: Ahmed AbouZaid
+      id: '10159726802330618'
+    message: |-
+      Output sample:
+       test1, packet_loss=10, ping_time=1862.1, min=191, max=71.3, avg=206.9, (10 71.3 331 358 42.0 281 250 191 24.8 313)
+       test2, packet_loss=30, ping_time=1695.0, min=116, max=369, avg=242.1, (30 369 357 152 293 238 116 170)
+       test3, packet_loss=10, ping_time=1542.3, min=132, max=98.5, avg=171.3, (10 213 37.1 309 220 98.5 81.7 232 132 219)
+    id: '913390705367305'
+  - created_time: '2015-03-22T15:53:17+0000'
+    from:
+      name: Ahmed AbouZaid
+      id: '10159726802330618'
+    message: Mosab Ahmad Ahmed Toulan Ahmed Ezzat Afifi
+    id: '913391242033918'
+  - created_time: '2015-03-22T15:56:17+0000'
+    from:
+      name: Amjad Mashaal
+      id: '10213738834576763'
+    message: Maybe it deals with the numbers as strings?
+    id: '913392738700435'
+  - created_time: '2015-03-22T16:02:04+0000'
+    from:
+      name: Ahmed Ezzat
+      id: '10155148213707681'
+    message: "^this"
+    id: '913394958700213'
+  - created_time: '2015-03-22T16:27:12+0000'
+    from:
+      name: Ahmed AbouZaid
+      id: '10159726802330618'
+    message: |-
+      Amjad Mash'al
+      عاش :D
+    id: '913406005365775'
+  - created_time: '2015-03-22T16:27:51+0000'
+    from:
+      name: Ahmed AbouZaid
+      id: '10159726802330618'
+    message: السؤال بقى ... ليه ده بيحصل في آخر نتيجة بس! جربتها كتير مش بتظهر غير
+      في آخر نتيجة!
+    id: '913406242032418'
+  - created_time: '2015-03-22T16:31:40+0000'
+    from:
+      name: Ahmed Ezzat
+      id: '10155148213707681'
+    message: بص نصيحة وانت بتتعلم جرب اعمل حاجة
+    id: '913409738698735'
+  - created_time: '2015-03-22T16:32:25+0000'
+    from:
+      name: Ahmed Ezzat
+      id: '10155148213707681'
+    message: اوبس نسيت اللينك معلش http://paste.ubuntu.com/10653131/
+    id: '913410332032009'
+  - created_time: '2015-03-22T16:32:27+0000'
+    from:
+      name: Ahmed AbouZaid
+      id: '10159726802330618'
+    message: أعمل إيه لامؤاخذة؟ :D
+    id: '913410342032008'
+  - created_time: '2015-03-22T16:33:06+0000'
+    from:
+      name: Ahmed AbouZaid
+      id: '10159726802330618'
+    message: كم أنت برنس يا عفيفي :D
+    id: '913410645365311'
+  - created_time: '2015-03-22T16:33:31+0000'
+    from:
+      name: Ahmed Ezzat
+      id: '10155148213707681'
+    message: او ممكن تعمل *obj وتبعتلها اللي انت عايزة, خصصها حسب احتياجاتك
+    id: '913410848698624'
+  - created_time: '2015-03-22T17:04:34+0000'
+    from:
+      name: Omar Mohsen
+      id: '1629690233758127'
+    message: |-
+      replace min(lines_status_list[1:]) with min(float(lines_status_list[1:]))
+      and max(lines_status_list[1:]) with max(float(lines_status_list[1:])) we oli
+    id: '913424278697281'
+  - created_time: '2015-03-22T17:07:29+0000'
+    from:
+      name: Ahmed AbouZaid
+      id: '10159726802330618'
+    message: |-
+      مش هتستغل يا عمر أكيد عشان float و int مش بتشتغل غير على سترنج أو أرقام مش list.
+
+      السبب إن findall بيطلع الحاجات ك string in list ... ودي اللي عدلتها بحيث يضيف الأرقام من البداية صح.
+    id: '913425555363820'
+  - created_time: '2015-03-22T17:20:52+0000'
+    from:
+      name: Ahmed AbouZaid
+      id: '10159726802330618'
+    message: |-
+      ظبطتها وشغالة زي الفل :D
+      https://gist.github.com/AAbouZaid/fd9e540da002f28f3c61
+
+      أي ملاحظات على الكود هبقى سعيد أكتر :D
+    id: '913431772029865'
+  - created_time: '2015-03-22T17:59:34+0000'
+    from:
+      name: Ahmed AbouZaid
+      id: '10159726802330618'
+    message: |-
+      الناتج من الفانكشن الأولى عبارة عن list of lists ... كل list من الصغيرين بشوف أكبر وأصغر رقم فيهم.
+
+      المشكلة سببها إن الحاجات اللي في الـ lists دي عبارة عن strings مش integers وده بسبب findall اللي بيطلع النتيجة اللي بيلاقيها كـ string حتى لو هي رقم فعلاً.
+
+      فانكش max و min بيشتغلوا بطريقة مختلفة تماماً على الـ strings ( أيوة بيشتغلوا حتى مع السترنج عادي بس بطريقة مختلفة :D )
+
+      مش عارف ليه كان بيحصل المشكلة في آخر نتيجة بس ... بس ده السبب يعني :D
+    id: '913450652027977'
+  - created_time: '2015-03-22T18:00:50+0000'
+    from:
+      name: Omar Mohsen
+      id: '1629690233758127'
+    message: Bos ana mesh merakez ma3ak awi
+    id: '913451215361254'
+  - created_time: '2015-03-22T18:01:21+0000'
+    from:
+      name: Omar Mohsen
+      id: '1629690233758127'
+    message: Inbox
+    id: '913451435361232'
+  - created_time: '2015-03-22T19:05:10+0000'
+    from:
+      name: Fady Anwar
+      id: '10159888022555052'
+    message: And that's why I hate using duck typing languages..
+    id: '913487342024308'
+  - created_time: '2015-03-22T20:42:23+0000'
+    from:
+      name: Mustafa Eid
+      id: '10155946993181276'
+    message: Consider http://www.fabfile.org/
+    id: '913521498687559'
+  - created_time: '2015-03-22T21:29:29+0000'
+    from:
+      name: Shady Atef
+      id: '10213518317565801'
+    message: LOL, enta zabtha w ana 2a3ed b7awel a3ml reproduction ll error :D
+    id: '913546552018387'
+  - created_time: '2015-03-22T22:00:44+0000'
+    from:
+      name: Ahmed AbouZaid
+      id: '10159726802330618'
+    message: |-
+      جود بوينت :D
+      ضفت توضيح في البوست وظبطت اللينكات :D
+    id: '913555908684118'
+  - created_time: '2015-03-23T06:52:04+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: |-
+      Yeah, it is the string thing :) I fell to that once. sorry I have no internet at home currently and I couldn't see it sooner.
+
+      On a side note, that note from Afifi about printing out the type of an object is priceless. Hang on to it :)
+    id: '913712762001766'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEV6TXprd056QTFNelkzTXpBMU9qRTBNamN3TXprMU1EWT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEV6TnpFeU56WXlNREF4TnpZAMk9qRTBNamN3T1RNMU1qUT0ZD
+attachments:
+  data:
+  - description: "- Gist is a simple way to share snippets of text and code with others."
+    media:
+      image:
+        height: 140
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAHMNCLbsrxzOjW&w=140&h=140&url=https%3A%2F%2Favatars1.githubusercontent.com%2Fu%2F6760103%3Fs%3D140&cfs=1&sx=0&sy=0&sw=140&sh=140&_nc_hash=AQAKLI4yHUDUXBy8
+        width: 140
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgist.github.com%2FAAbouZaid%2Ffd9e540da002f28f3c61&h=ATPcfMEUNiScsvKqFz8eCsxPAsH-l2jGpGKVyylRfyVZRLjr4qEL-hPqiRAdnvbZeC0VEjn-Alp0mGhfgQTpr8PpJdz_hI1V-yLA&s=1&enc=AZOgo-5UdCJeOpjLQJVDfY5-9n4UBKExrULGWveoPJlq_oHOWFe_mxXwqca_GLzYNYmM93xTSB7vgvVkSXoINXGH
+    title: AAbouZaid/ping_time_test
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgist.github.com%2FAAbouZaid%2Ffd9e540da002f28f3c61&h=ATPcfMEUNiScsvKqFz8eCsxPAsH-l2jGpGKVyylRfyVZRLjr4qEL-hPqiRAdnvbZeC0VEjn-Alp0mGhfgQTpr8PpJdz_hI1V-yLA&s=1&enc=AZOgo-5UdCJeOpjLQJVDfY5-9n4UBKExrULGWveoPJlq_oHOWFe_mxXwqca_GLzYNYmM93xTSB7vgvVkSXoINXGH

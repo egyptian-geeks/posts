@@ -12,3 +12,49 @@ updated_time: '2014-10-01T10:07:43+0000'
 name: Speak Me Up
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/820452907994419/
 id: '172338516139198_820452907994419'
+comments:
+  data:
+  - created_time: '2014-09-30T10:46:38+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      I like the app's UI, but there are two small UI problems:
+      The Splash Image needs to have a higher jpeg compression quality (low jpeg quality hurts my eyes)
+      and the Ads aren't aligned with the rest of the UI and have a black background which looks weird when the app's background in white.
+      (and I think the "about" should be an appbar item not an appbar button, makes more sense this way, but that's just my opinion)
+      As for functionality, the app crashed on first start (I don't know why, check the crash logs on the store) but worked on the second time
+      The play/pause doesn't work, it doesn't actually pause and it doesn't get un-pressed when the audio has finished playing
+      and when I backed out from the about page, the audio played again even though I didn't press play
+    id: '821545357885174'
+  - created_time: '2014-10-01T10:07:24+0000'
+    from:
+      name: Mohamed Emam
+      id: '1637456226316303'
+    message: Hassan Aly Selim i really appreciate your comment, i will be working
+      on an update :)
+    id: '821979324508444'
+  - created_time: '2014-10-01T10:07:43+0000'
+    from:
+      name: Mohamed Emam
+      id: '1637456226316303'
+    message: Hassan Aly Selim i really appreciate your comment, i will be working
+      on an update :)
+    id: '821979464508430'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPREl4TlRRMU16VTNPRGcxTVRjME9qRTBNVEl3TnpNNU9UZAz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPREl4T1RjNU5EWTBOVEE0TkRNd09qRTBNVEl4TlRnd05qTT0ZD
+attachments:
+  data:
+  - description: Browse or download Speak Me Up, certified for Windows Phone.
+    media:
+      image:
+        height: 252
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQCv0v0chgnBmQ0G&w=720&h=720&url=http%3A%2F%2Fcdn.marketplaceimages.windowsphone.com%2Fv8%2Fimages%2F103c231b-c8d6-41d9-a4e7-ed35dc447576%3FimageType%3Dws_icon_large&cfs=1&_nc_hash=AQCoe7DIa5oLOcaQ
+        width: 252
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fbit.ly%2F1Be4LWl&h=ATNLtdj0A9TrKWby-Eq1SND-uCgWVv1kCay8BKE-hoOuGwJYHF2WJi6sohoko4Z6xU37-pnttVkEEZ0F0gZ2-0bKdmm7CsGGI2bK&s=1&enc=AZOjD_MSjwy_cMc0c4KWEBu0Vf9kL5TwXn6MTFCoi3usKAWpPmgNyJ5MHrOBWLYd651l2JwKtMBQt9awX1Tddjxt
+    title: Speak Me Up
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fbit.ly%2F1Be4LWl&h=ATNLtdj0A9TrKWby-Eq1SND-uCgWVv1kCay8BKE-hoOuGwJYHF2WJi6sohoko4Z6xU37-pnttVkEEZ0F0gZ2-0bKdmm7CsGGI2bK&s=1&enc=AZOjD_MSjwy_cMc0c4KWEBu0Vf9kL5TwXn6MTFCoi3usKAWpPmgNyJ5MHrOBWLYd651l2JwKtMBQt9awX1Tddjxt

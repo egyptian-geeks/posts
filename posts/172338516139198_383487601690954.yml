@@ -10,3 +10,86 @@ created_time: '2012-04-16T15:57:58+0000'
 updated_time: '2012-04-20T03:39:58+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/383487601690954/
 id: '172338516139198_383487601690954'
+comments:
+  data:
+  - created_time: '2012-04-16T16:50:57+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Ahmed Raslan Waleed Raslan Abdallah Mohsen Ahmed Kamal any suggestion?
+    id: '383546141685100'
+  - created_time: '2012-04-16T16:54:08+0000'
+    from:
+      name: Abdallah Mohsen
+      id: '10157033331269838'
+    message: |-
+      search in your junk email, and enable displaying the error on your script by adding these lines:
+      ini_set ( "display_errors", 1 );
+      error_reporting ( E_ALL & ~ E_NOTICE );
+    id: '383547891684925'
+  - created_time: '2012-04-16T18:09:37+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: it's not that :S i think the hosting company is disabled php mail() function
+      :S
+    id: '383621461677568'
+  - created_time: '2012-04-16T18:21:31+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: i'm not sure if this will help but we are hosting our emails in different
+      hosting (google Apps)
+    id: '383633911676323'
+  - created_time: '2012-04-16T18:47:32+0000'
+    from:
+      name: Mahmoud Tantawy
+      id: '10156115350739764'
+    message: mafesh customer support aw knowledge-base t2dr t2ra feha?
+    id: '383663535006694'
+  - created_time: '2012-04-17T01:09:55+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: 'Thanks a lot guys i''ve used this: http://code.google.com/a/apache-extras.org/p/phpmailer/
+      and it''s working good'
+    id: '384036104969437'
+  - created_time: '2012-04-18T19:22:23+0000'
+    from:
+      name: Ahmed Raslan
+      id: '10159932656445029'
+    message: just saw this post my friend, i wanted to help but it seems that u did
+      it/ ;)
+    id: '385467094826338'
+  - created_time: '2012-04-18T21:09:54+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Ahmed Raslan wala yehemak ya 7obby walahy fi so2al 3andy :) yenfa3 be
+      cURL 2a3mel hit 3ala service with 100 Multithread at the same time? if not then
+      what do you recommend?
+    id: '385529314820116'
+  - created_time: '2012-04-19T11:02:07+0000'
+    from:
+      name: Ahmed Raslan
+      id: '10159932656445029'
+    message: 'I need you to explain more, if u just want to hit u can use apache benchmark
+      after u make sure that apache 2 is installed then use this command: ab -n 100
+      -c 100 [URL]'
+    id: '385916868114694'
+  - created_time: '2012-04-19T11:02:23+0000'
+    from:
+      name: Ahmed Raslan
+      id: '10159932656445029'
+    message: good luck ya sadaka, if u need any further help plz Skype me anytime
+    id: '385916951448019'
+  - created_time: '2012-04-20T03:39:58+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Thanks a lot man. and if i want to do it with php? can i use cURL multithread?
+    id: '386501704722877'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANemd6TlRRMk1UUXhOamcxTVRBd09qRXpNelExT1RVd05UYz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANemcyTlRBeE56QTBOekl5T0RjM09qRXpNelE0T1RNeE9UZAz0ZD

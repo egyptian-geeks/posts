@@ -11,3 +11,59 @@ created_time: '2013-11-20T13:48:31+0000'
 updated_time: '2013-11-20T20:10:12+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/656430584396653/
 id: '172338516139198_656430584396653'
+comments:
+  data:
+  - created_time: '2013-11-20T14:06:25+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      http://httpbin.org/
+      http://wiki.openstreetmap.org/wiki/Nominatim
+    id: '656437467729298'
+  - created_time: '2013-11-20T14:08:42+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Thanks. This is a bit similar to http://apiary.io (which is nice BTW,
+      we're using it in current project) and http://httpstat.us mixed together. I'm
+      more looking for publicly available JSON dataset on a remote server (don't want
+      to include server-technology, even Node)
+    id: '656438124395899'
+  - created_time: '2013-11-20T14:18:35+0000'
+    from:
+      name: Islam Eldemery
+      id: '10159774797555461'
+    message: Flickr
+    id: '656441194395592'
+  - created_time: '2013-11-20T14:30:41+0000'
+    from:
+      name: Dody Gunawinata
+      id: '10159821384890487'
+    message: http://data.worldbank.org/node/9
+    id: '656444947728550'
+  - created_time: '2013-11-20T14:33:42+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      Some of the samples here https://github.com/blog/1541-geojson-rendering-improvements
+      https://github.com/blog/1528-there-s-a-map-for-that
+      http://blog.visual.ly/data-sources/
+    id: '656445824395129'
+  - created_time: '2013-11-20T14:38:26+0000'
+    from:
+      name: Tarek Amr
+      id: '10155854949245944'
+    message: Google+ API, https://developers.google.com/+/api/
+    id: '656447181061660'
+  - created_time: '2013-11-20T20:10:12+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Thanks a lot guys :). Will have a look.
+    id: '656577477715297'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOalUyTkRNM05EWTNOekk1TWprNE9qRXpPRFE1TlRZAek9EVT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOalUyTlRjM05EYzNOekUxTWprM09qRXpPRFE1TnpneU1UST0ZD

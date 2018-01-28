@@ -12,3 +12,95 @@ created_time: '2014-02-27T20:49:44+0000'
 updated_time: '2014-02-27T22:28:46+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/707671999272511/
 id: '172338516139198_707671999272511'
+reactions:
+  data:
+  - id: '763305200524752'
+    name: Shamiul Mowla
+    type: LIKE
+  - id: '10215070655377585'
+    name: Mahmoud Kandeel
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTFNelU0TXpjek16UTNPakV6T1RNMk5EQTFOVE02TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRFMk5qZA3hNVFkzTmpveE16a3pOVE0wTXpRNU9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2014-02-27T21:37:35+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Dude lets make it a service :)
+    id: '707688939270817'
+  - created_time: '2014-02-27T21:37:39+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: I put the UI :)
+    id: '707688979270813'
+  - created_time: '2014-02-27T21:38:55+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: cool, lets do it, it won't take much time i think>
+    id: '707689342604110'
+  - created_time: '2014-02-27T21:40:10+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Do you have a private Repo ? or i make one and give you an admin permission
+      ?
+    id: '707689722604072'
+  - created_time: '2014-02-27T21:41:01+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: nop, i don't, but why private?, do you want it to be paid ?
+    id: '707689925937385'
+  - created_time: '2014-02-27T22:09:20+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: ":D لما عرضت السكريبت على واحد صاحبى ادانى ده \nhttp://regex101.com/\n:D"
+    id: '707698415936536'
+  - created_time: '2014-02-27T22:12:07+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: |-
+      A paid regex testing ground? I'd pay for it if it had some ground breaking UI that can help me analyze say, something as complex as the rfc-822 email validation regex.
+      Aside from that, you got http://rubular.com/ http://regexpal.com/ and possibly two dozen other services for that. Not to mention desktop programs..
+    id: '707699115936466'
+  - created_time: '2014-02-27T22:18:08+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: http://ex-parrot.com/~pdw/Mail-RFC822-Address.html
+    id: '707700602602984'
+  - created_time: '2014-02-27T22:28:46+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: I wasn't talking about Paid :) My Idea is to make it like a Repo for
+      submitted Regular expressions DB :) Go and find a fucking regular expression
+      for email format easily and you don't have to re-invent the wheel.
+    id: '707703445936033'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekEzTmpnNE9UTTVNamN3T0RFM09qRXpPVE0xTXpjd05UVT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekEzTnpBek5EUTFPVE0yTURNek9qRXpPVE0xTkRBeE1qWT0ZD
+attachments:
+  data:
+  - description: |-
+      create a regular expression testing playground using ruby and sinatra
+      https://gist.github.com/9259204
+    media:
+      image:
+        height: 467
+        src: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/1920960_10151964779637957_667817446_o.jpg?oh=69229ac997fb62912b2a3e661e548845&oe=5ADE2B23
+        width: 720
+    target:
+      id: '10151964779637957'
+      url: https://www.facebook.com/photo.php?fbid=10151964779637957&set=gm.707671999272511&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=10151964779637957&set=gm.707671999272511&type=3

@@ -24,3 +24,275 @@ created_time: '2014-07-28T14:56:35+0000'
 updated_time: '2014-08-12T22:23:42+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/790632850976425/
 id: '172338516139198_790632850976425'
+reactions:
+  data:
+  - id: '2013971785283630'
+    name: Omar GamalEldeen
+    type: LIKE
+  - id: '845000588995030'
+    name: Noor Nbail
+    type: LIKE
+  - id: '1429757163797342'
+    name: Yousef Ebrahim Elerian
+    type: LIKE
+  - id: '10215510983155696'
+    name: Osama Samy
+    type: LIKE
+  - id: '10155855157936047'
+    name: Mosab Ibrahim
+    type: LIKE
+  - id: '10212947071504226'
+    name: Eslam Hamouda
+    type: LIKE
+  - id: '10213864188932344'
+    name: صلاح الدين محمود
+    type: LIKE
+  - id: '1573619512716214'
+    name: Mohamed Alaa El Din
+    type: LIKE
+  - id: '10159944189340357'
+    name: Waleed Saleh
+    type: LIKE
+  - id: '10209601946319408'
+    name: Muhammad Samman
+    type: LIKE
+  - id: '10215070655377585'
+    name: Mahmoud Kandeel
+    type: LIKE
+  - id: '10155046441970759'
+    name: Reham Wahid
+    type: LIKE
+  - id: '10215974821831350'
+    name: Amr Salama
+    type: LIKE
+  - id: '1681618765215075'
+    name: Mustafa Almaraghi
+    type: LIKE
+  - id: '10156072243168535'
+    name: Mohamed Hassan
+    type: LIKE
+  - id: '1808892215797147'
+    name: Ahmed Refaey
+    type: LIKE
+  - id: '10152079006144157'
+    name: Ahmed Gaber
+    type: LIKE
+  - id: '1976373499069350'
+    name: Ahmed Bassell
+    type: LIKE
+  - id: '1473039562824753'
+    name: احمد ابو العنين
+    type: LIKE
+  - id: '1748637668514027'
+    name: Adham EL-Deeb
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdNVEkwT0RRMk56azJPakUwTURjNU1EQXhNREE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXhNRE0wTXpJeU1qYzRPakUwTURZAMU5UazFPRFU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2014-07-28T15:09:12+0000'
+    from:
+      name: Maged Eladawy
+      id: '1539250002856228'
+    message: "@ramezashraf has such experience with analysing facebook content & converting
+      it into more structured data. He already developed a desktop application for
+      this.  I invited him to this group & I'd be happy if he shared this experience
+      with you guys..."
+    id: '790637954309248'
+  - created_time: '2014-07-28T15:19:26+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: Great, هو الريدى الملفات موجودة اهه، الهدف بقى الاستفادة منها.
+    id: '790641654308878'
+  - created_time: '2014-07-28T15:26:27+0000'
+    from:
+      name: Maged Eladawy
+      id: '1539250002856228'
+    message: و انا شايف إننا نعمل Contribute على مشروع موجود أو مشروع واحد أحسن ما
+      كل واحد يقدم حل منفصل
+    id: '790644254308618'
+  - created_time: '2014-07-28T15:27:18+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: كل واحد براحته المهم تحل المشكلة، لو عاوز تfork و تكمل عليه حل المشكلة
+      فشطة
+    id: '790644574308586'
+  - created_time: '2014-07-28T15:30:05+0000'
+    from:
+      name: Maged Eladawy
+      id: '1539250002856228'
+    message: ممكن بردو...انا بس نفسى أشوف أننا بنطلع ببرودكت لكل مشكلة بندورلها على
+      حل فى أخر الأسبوع
+    id: '790645514308492'
+  - created_time: '2014-07-28T15:54:12+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: ممكن تعمل الحل مع اكتر من حد، مش لازم لواحدك ;)
+    id: '790653794307664'
+  - created_time: '2014-07-28T18:02:41+0000'
+    from:
+      name: Ahmed Gaber
+      id: '10152079006144157'
+    message: I've an idea, and I'll start with implementation from now, I'll start
+      auto hashtagging the old posts with respect to the content just to highlight
+      the main idea of the post, I'll do the same with comment later.
+    id: '790698630969847'
+  - created_time: '2014-07-28T18:34:21+0000'
+    from:
+      name: Ahmed Gaber
+      id: '10152079006144157'
+    message: |-
+      normally keyword extraction algorithms work over single language, I mean, arabic, english, even franco-arab
+       بس ميكس كلام عربي بكلام انجليزي, الalgorthim كده هايفرهد مني :D
+    id: '790712530968457'
+  - created_time: '2014-07-28T18:42:41+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: ممكن تعمل preprocessing تفضل العربى عن الإنجليزى و تعامل كل واحد على
+      انه post منفصل .
+    id: '790722094300834'
+  - created_time: '2014-07-28T18:45:10+0000'
+    from:
+      name: Ahmed Gaber
+      id: '10152079006144157'
+    message: ههههههههههه
+    id: '790733220966388'
+  - created_time: '2014-07-28T18:46:19+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: ماينفعش ؟
+    id: '790737570965953'
+  - created_time: '2014-07-28T18:47:21+0000'
+    from:
+      name: Ahmed Gaber
+      id: '10152079006144157'
+    message: انا بتكلم علي البوست الواحد, يعني مثلا اخر كومنت ليك, فيه مكس كلام عربي
+      علي كلام انجليزي, الالجورزم بتاعي مش هايعرف مثلا كلمه post  اللي في اخر كومنت
+      ليك معناها ايه في الجملع بالتالي مش هايقدر يحدد هي keyword ولا لاء
+    id: '790739610965749'
+  - created_time: '2014-07-28T18:48:22+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: انا طبعآ مش عارف هو بيحدد على اى اساس، ممكن توضحلى هو بيختار الkeywords
+      ازاى ؟
+    id: '790740524298991'
+  - created_time: '2014-07-28T19:10:52+0000'
+    from:
+      name: Ahmed Gaber
+      id: '10152079006144157'
+    message: "بص يا باشا في كذا طريقه منهم واحده بتختار كل الكلمات اللي اكتر من مقطعين
+      صوتيين, في طريقه تانيه بتعتمد علي انك يكون عندك كميه داتا كتير تكست و كلهم مرتبطين
+      بموضوع معين, اللي هي حالتنا تعمل عليهم بروسيسنج و تبدأ بقي تطلع vocabulary منهم
+      كلهم, بيطلع عندك dıctıonary بكلمات كتير ليها علاقه بالموضوع بتاع التكنولوجي
+      مثلا, \nالمشكله بقي هاتبقي في الخطوة التانيه, دلوقيتي علشان احط تاج, لازم افهم
+      البوست بتتكلم عن ايه,  ده بقي بيبقي من اني امسك الkeywords في البوست دي و اعمل
+      حاجه اسمها topic detection, هو ده الالجورزم اللي هايفرهد مني, انا الالجورزم
+      بتاعي شغال علي لغه واحده عربي او انجليزي, الفرانكو هنا انا بعتبره انجليزي او
+      لسه هاشوف ممكن احول الفرانكو لعربي, ميكس الكلام بقي عربي و انجليزي في البوست
+      ده هو المشكله اللي انا هاقعد احل فيها"
+    id: '790748430964867'
+  - created_time: '2014-07-29T09:18:54+0000'
+    from:
+      name: Ahmed Kamal
+      id: '10204469829103969'
+    message: "Emad Elsaid Amr Eldib\n\nانا عندي اقتراح بسيط و هو اننا بعد ما نحدد
+      الفكرة الأساسية نبدأ نشوف الاقتراحات بتاعت Features و نتفق علي شوية بشكل مبدئي\n\nو
+      الناس تبدأ تشتغل كلها علي نفس repo و اللي عنده اقتراحات بعد كدا يبقي يعني fork
+      مفيش مشاكل \n\nفي رأيي دا حيخلي الدنيا محددة شوية و يشجع الناس لان حتبقي قدمها
+      هدف واضح و حيضمن اننا كل مرة نطلع بناتج علي الأقل بالإضافة لان اللي عنده وقت
+      او مستواه عالي ممكن يمسك حاجة كبيرة و اللي حابب يشترك بحاجة صغيرة يعرف و دا
+      هدف opensource عموما :)"
+    id: '791028534270190'
+  - created_time: '2014-07-30T20:35:44+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: "انا عملت سيرفر بروبى اون ريلز بيعرض البوستس ، عملته على هيئة ابليكيشن
+      جوة المشروع الأساسى بتاعنا \nhttps://github.com/blazeeboy/EgyptianGeeksArchive/tree/gh-pages/script/server\nحطيت
+      المشروع على Runnable و ممكن تشغله من هنا : \nhttp://runnable.com/U9lVz0AP_r0fR-Wo/egyptian-geeks-archive-server-for-ruby-on-rails\nممكن
+      تشغله و بعدين تفتحه full screen علشان ده فيه turbo links مش هايشتغل فى iframe"
+    id: '791752024197841'
+  - created_time: '2014-07-30T21:08:18+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: |-
+      هو شكله كده  ،
+      Amr Eldib مش عارف اعمل pull request  و نضمه للمشروع الأساسى ؟ ولا نسيبه منفصل ؟
+    id: '791762637530113'
+  - created_time: '2014-07-30T21:39:08+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Momken te3melo push bas 3ala branch monfasel
+    id: '791771164195927'
+  - created_time: '2014-07-31T11:58:53+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: A sneak peek of my project
+    id: '792095467496830'
+  - created_time: '2014-07-31T23:06:32+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: Amr Eldib what technology stack are you using?
+    id: '792341057472271'
+  - created_time: '2014-08-06T10:26:07+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: النهاردة الأربعاء، احب افكر الناس ان بكرة هايكون فيه مشروع جديد، يا ترى
+      وصلتوا لفين فى المشروعات اللى بتعملوها ؟
+    id: '794825873890456'
+  - created_time: '2014-08-08T00:09:42+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: باقي حاجات صغيره وحاعمل اول كوميت, انزل بالاكتيفيتي التانيه
+    id: '795805013792542'
+  - created_time: '2014-08-12T22:23:42+0000'
+    from:
+      name: Ahmed Kamal
+      id: '10204469829103969'
+    message: Emad Elsaid msh mafrood 2n fe new activity ?
+    id: '798536956852681'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemt3TmpNM09UVTBNekE1TWpRNE9qRTBNRFkxTmpBeE5UST0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOems0TlRNMk9UVTJPRFV5TmpneE9qRTBNRGM0T0RJeU1qST0ZD
+attachments:
+  data:
+  - description: "كل اسبوع هانطرح مشكلة جديدة محتاجة حل، عليك انك تعمل ابليكيشن يحلها،
+      بأى طريقة حل، بأى لغة برمجة، اكتب documentation او حتى README صغير، اعرض حلك
+      على github و حط اللينك هنا فى كومنت و اتفرج على حلول الناس، ناقش الحلول و اعرف
+      الناس فكرت كده ليه.\nجرب تكتشف لغات جديدة، مكتبات جديدة، خوارزميات جديدة، او
+      حتى طريقة جديدة فى البرمجة.\n-----------\nتحدى الأسبوع ده \n================\nفى
+      الجروب هنا عملنا ابليكيشن علشان يطلع كل البوستات فى الجروب و يحفظهم فى ملفات
+      json كل ملف فيه post ، ممكن تتفرج عليهم من هنا : \nhttps://github.com/egyptian-geeks/EgyptianGeeksArchive/tree/gh-pages/data/post\nالمشكلة
+      اللى بتظهر بعد كده هى ازاى نستفيد من الملفات دى، ازاى نعرضها و نقراها و نتعامل
+      معاها؟، ممكن نعمل ابليكيشن ديسكتوب يقراها و يعمل فيها بحث؟ ممكن نعمل ويبسايت
+      يعرضهم ؟ ممكن نحول البوستس بتاعة كل اسبوع لPDF ؟ تيجى نعمل احصائيات عليهم كمان
+      و نشوف عدد اللايكس ؟ ، تفتكر ممكن نعمل محرك قواعد بيانات نعمل عليه query و يبقى
+      ليه query language ؟ ، احنا ممكن كمان نحولها ل Text files او Word Documents
+      او Excel sheets ؟ \nازاى ممكن نستفيد منها اقصى استفادة ممكنة ؟ الأفكار كتير.\nفكر
+      ازاى ممكن نستفيد منها، او نفذ فكرة من اللى اقترحتها وورينا إبداعك. \nمش مهم
+      الفكرة سهلة او صعبة المهم تشارك بفكرة :) ."
+    media:
+      image:
+        height: 500
+        src: https://scontent.xx.fbcdn.net/v/t1.0-9/10298914_10152251455722957_4191275632072137625_n.jpg?oh=082c891bdc2c65bb90207d81decfc086&oe=5AE68B2F
+        width: 500
+    target:
+      id: '10152251455722957'
+      url: https://www.facebook.com/photo.php?fbid=10152251455722957&set=gm.790632850976425&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=10152251455722957&set=gm.790632850976425&type=3

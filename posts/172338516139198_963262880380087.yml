@@ -13,3 +13,151 @@ updated_time: '2015-06-24T12:28:46+0000'
 name: Composer
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/963262880380087/
 id: '172338516139198_963262880380087'
+reactions:
+  data:
+  - id: '10213861471464409'
+    name: Mohamed Shaban
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBek5qYzVOREV3T1RveE5ETTFNVFV4TnpRMU9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBek5qYzVOREV3T1RveE5ETTFNVFV4TnpRMU9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2015-06-24T11:21:34+0000'
+    from:
+      name: Omar Saqr
+      id: '10216335292360651'
+    message: like a package manager
+    id: '963263640380011'
+  - created_time: '2015-06-24T11:23:40+0000'
+    from:
+      name: Omar Saqr
+      id: '10216335292360651'
+    message: to install classes and components with autoloader
+    id: '963264033713305'
+  - created_time: '2015-06-24T11:24:23+0000'
+    from:
+      name: Omar Saqr
+      id: '10216335292360651'
+    message: like npm in node
+    id: '963264153713293'
+  - created_time: '2015-06-24T11:28:14+0000'
+    from:
+      name: Muhammad Yousef
+      id: '1823738041004235'
+    message: "Omar but i am just a beginner in php,\nFrankly i knew about composer
+      from a course .. \nThe instructor explained php basics .. And now he is going
+      to build the first website in the course .. but he said he will use composer
+      .. So i didn't understood anything"
+    id: '963265987046443'
+  - created_time: '2015-06-24T11:30:15+0000'
+    from:
+      name: Ahmed M. Araby
+      id: '10155547863649263'
+    message: "1)\nIf you want to use Library/Package X\nand Library X requires package
+      Y\nthen you need to know and install both X and Y manually , although you wanted
+      X\nwith composer , you only specificy that you need x \ncomposer will search
+      for what x wants and install it too \nthis is simply dependency mgmt \n2)\nwhen
+      you add PSR-0 package,\ncomposer uses that and creates auto-loader for you ,
+      that auto load all package class\n3) \nit handles packages update hassle , for
+      example If I want to update all libraries I use , I only need to \ncomposer
+      update\n4) \npost install scripts, some frameworks or packages add some post
+      install , copy js/images to public_html"
+    id: '963266850379690'
+  - created_time: '2015-06-24T11:34:53+0000'
+    from:
+      name: Ahmed M. Araby
+      id: '10155547863649263'
+    message: "btw I highly recommend to take a look or even use Symfony framework
+      \nwill be tough , but you will learn more than you can Imagine \nhttp://symfony.com/"
+    id: '963268720379503'
+  - created_time: '2015-06-24T11:42:13+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: Symfony for a PHP beginner is a HELL! he can start with laravel
+    id: '963272553712453'
+  - created_time: '2015-06-24T11:45:28+0000'
+    from:
+      name: Muhammad Yousef
+      id: '1823738041004235'
+    message: And i think composer for beginner is a HELL also ! :D
+    id: '963273517045690'
+  - created_time: '2015-06-24T11:49:45+0000'
+    from:
+      name: Ahmed M. Araby
+      id: '10155547863649263'
+    message: "بالنسبة لواحد بيبدأ \nمش هاتفرق كتير الاتنين من بعض خصوصا ان الاتنين
+      ال components بتاعتهم عددهم كبير\nانا مش شايف الموضوع محتاج \"تدريج\" في التعليم"
+    id: '963274490378926'
+  - created_time: '2015-06-24T11:52:23+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: |-
+      bs el structure bt3ata as3ab mn laravel b kteer, ana grab a3ml kda m3a nas beginners et3a2do w afslo mn el framework asln. lazem tbda2aha step by step
+      lw fy 7aga sahal mmkn 7aga zai selix or slim dy sahla w baseeta w bt-support composer
+    id: '963275353712173'
+  - created_time: '2015-06-24T12:00:08+0000'
+    from:
+      name: Saieed Ess
+      id: '10211778810251146'
+    message: There is no framework for beginners, all of them are good frameworks,
+      People say Symfony is the best php framework on earth , and they forgot about
+      Zend , and some people say Laravel is not Symfony , however Zend , Symfony and
+      Laravel are just php frameworks , they all are do the same at the end ...
+    id: '963277483711960'
+  - created_time: '2015-06-24T12:03:59+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: "Saieed Ess i'm not comparing the functions of the two frameworks, and
+      BTW there's not \"best framework\". Each one fits its project size. So this
+      is not our debate aslo there's no debate :D \nI'm just trying to mention a framework
+      for just loading a package using composer to create a POC for composer."
+    id: '963283400378035'
+  - created_time: '2015-06-24T12:10:24+0000'
+    from:
+      name: Saieed Ess
+      id: '10211778810251146'
+    message: Ohh, Sorry i totally misunderstood i thought you talk about frameworks
+      and wich one is easier and good :D
+    id: '963285333711175'
+  - created_time: '2015-06-24T12:11:25+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: Saieed Ess never mind it's ramadan's i think :D
+    id: '963286283711080'
+  - created_time: '2015-06-24T12:12:35+0000'
+    from:
+      name: Saieed Ess
+      id: '10211778810251146'
+    message: yes it is :D
+    id: '963286753711033'
+  - created_time: '2015-06-24T12:28:46+0000'
+    from:
+      name: Ahmed M. Araby
+      id: '10155547863649263'
+    message: |-
+      he's learning anyway , and step by step is this is really a time waste and boring , symfony is vast he'll learn a lot and he will only learn what he need for now
+      anyway It's personal point of view depending on him mainly , for me I like crash course
+    id: '963291010377274'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFl6TWpZAek5qUXdNemd3TURFeE9qRTBNelV4TkRRNE9UUT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFl6TWpreE1ERXdNemMzTWpjME9qRTBNelV4TkRnNU1qWT0ZD
+attachments:
+  data:
+  - description: Dependency Management for PHP
+    media:
+      image:
+        height: 290
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAzcs4Q-8M7nJFi&w=720&h=720&url=https%3A%2F%2Fgetcomposer.org%2Fimg%2Flogo-composer-transparent4.png&cfs=1&_nc_hash=AQCXgqpCz0jTxG-p
+        width: 290
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.getcomposer.org%2F&h=ATOJkTYfhQGc6rIFqglINnc1W5OngjTHC9_UsFdFdk_ltg9xt7MAgjvHZSRIb3OpvZ0P8z6Kj1XESyuvF2AufMZSr210Pos1KBNM&s=1&enc=AZPUfzru6Zw5Q22HU7sX_MXsfkavUmhAltJrV83bzxfI71FpxuuVpGGR2D8FVYozQrzwe3quI611f0J-BhrBlSwB
+    title: Composer
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.getcomposer.org%2F&h=ATOJkTYfhQGc6rIFqglINnc1W5OngjTHC9_UsFdFdk_ltg9xt7MAgjvHZSRIb3OpvZ0P8z6Kj1XESyuvF2AufMZSr210Pos1KBNM&s=1&enc=AZPUfzru6Zw5Q22HU7sX_MXsfkavUmhAltJrV83bzxfI71FpxuuVpGGR2D8FVYozQrzwe3quI611f0J-BhrBlSwB

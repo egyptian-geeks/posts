@@ -10,3 +10,40 @@ created_time: '2014-10-14T10:16:56+0000'
 updated_time: '2014-10-14T11:03:50+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/830397223666654/
 id: '172338516139198_830397223666654'
+comments:
+  data:
+  - created_time: '2014-10-14T10:30:48+0000'
+    from:
+      name: Mohamed Emad
+      id: '1565527460161097'
+    message: thanks
+    id: '830401673666209'
+  - created_time: '2014-10-14T10:43:42+0000'
+    from:
+      name: Mohamed Emad
+      id: '1565527460161097'
+    message: i tried but i gives me this message ActiveRecord::PendingMigrationError
+    id: '830407533665623'
+  - created_time: '2014-10-14T10:51:52+0000'
+    from:
+      name: Mohamed Emad
+      id: '1565527460161097'
+    message: finally it works
+    id: '830410083665368'
+  - created_time: '2014-10-14T10:58:28+0000'
+    from:
+      name: Mohamed Emad
+      id: '1565527460161097'
+    message: sort of solutions i need based in direct experience as you said before
+      so i ask because i need some answers enforced with some advises :)
+    id: '830412063665170'
+  - created_time: '2014-10-14T11:03:28+0000'
+    from:
+      name: AbdAllah Khashaba
+      id: '1032800230207501'
+    message: http://stackoverflow.com/questions/12520456/execjsruntimeerror-on-windows-trying-to-follow-rubytutorial
+    id: '830413643665012'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRE13TkRBeE5qY3pOalkyTWpBNU9qRTBNVE15T0RJMk5EZAz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRE13TkRFek5qUXpOalkxTURFeU9qRTBNVE15T0RRMk1EZAz0ZD

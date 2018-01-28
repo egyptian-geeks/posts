@@ -9,3 +9,123 @@ created_time: '2014-03-20T12:25:40+0000'
 updated_time: '2014-03-21T09:50:15+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/717636601609384/
 id: '172338516139198_717636601609384'
+reactions:
+  data:
+  - id: '1763181463721711'
+    name: Mohamed Nageh
+    type: LIKE
+  - id: '1745737135446986'
+    name: Mohamed Mahrous
+    type: LIKE
+  - id: '10212947071504226'
+    name: Eslam Hamouda
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdPRGsyTWpNek5qWXpPakV6T1RVek16azNNelk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRZAeE5ERXlNREUyTkRveE16azFNekU0TkRZAMU9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2014-03-20T12:28:46+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: "aaaand this is our hall of fame : \n- \"مُحَمَّد أبو آدم\": 24\n- Mohammad
+      Tayseer: 16\n- Emad Elsaid: 14\n- Ahmed Hassan: 10\n- Mohamed Meligy: 9\n- Mohamed
+      Elsherif: 3\n- Ahmed Moosa: 3\n- Alaa Attya Mohamed: 2\n- Abdalla Elnaggar:
+      2\n- Mohamed Sameeh Sharaf: 2\n- Kareem Kashwaa: 2\n- Mostafa Yahia: 2\n- Mahmoud
+      Ibrahim: 2\n- Ahmed El-Jabry: 2\n- Amr Eldib: 2\n- Ahmad Hamdi: 1\n- Mo ElHaggar:
+      1\n- Mohammed ElBalkini: 1\n- Emad Mokhtar Habib: 1\n- \"المهووس\": 1\n- Abdelrady
+      Fcis: 1\n- Mohamed Hantirah: 1\n- Mahmoud Soubih: 1\n- Abdullah El-menawy: 1\n-
+      Hady Ahmed: 1\n- Seif Aldin Nabil: 1\n- \"عز وحيد\": 1\n- Ahmed PiTech: 1\n-
+      Ahmed Magdy: 1\n- Eslam Hamouda: 1\n- Shady M. Najib: 1\n- Mohamed Sadek: 1\n-
+      Ebrahim Hamdy: 1\n- Amr Selim: 1\n- Khaled M. Diab: 1\n- Ebeid Atef Ebeid: 1\n-
+      Moutaz Shams: 1\n- Moђameđ Ebieđ: 1\n- Mohammad Mahmoud: 1\n- Zeyad Assem: 1"
+    id: '717637438275967'
+  - created_time: '2014-03-20T12:33:23+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: |-
+      Nice work, don't raise an Exception though. Big no, Exceptions deal with a lot more than standard errors, they include environment errors.
+      In your case, either raise a StandardError, ArgumentError or a NameError
+    id: '717638604942517'
+  - created_time: '2014-03-20T12:52:29+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: cool, thanks for the tip, i'll use it next time.
+    id: '717642971608747'
+  - created_time: '2014-03-20T15:23:25+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Nice :D I got the same results also with Javascript. using FB API
+    id: '717694264936951'
+  - created_time: '2014-03-20T15:26:50+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: WOOW im on the HOF :D
+    id: '717695484936829'
+  - created_time: '2014-03-20T15:28:02+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: we can also enhance it to count comments for each post, but it'll take
+      lots of time to request these from FB API.
+    id: '717695841603460'
+  - created_time: '2014-03-20T18:04:12+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: I even thought of making user authentication using device and check if
+      the user is a member of the group to let him in :) this way we can also post
+      to the group from our app/site.
+    id: '717752554931122'
+  - created_time: '2014-03-20T18:17:15+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: yes a Read/Write/Comment App with hall of fame, hashtags and search,
+      users can interact through app or through facebook. :D
+    id: '717756774930700'
+  - created_time: '2014-03-20T19:35:47+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Actually u know what hold it right here and jump to the chat :)
+    id: '717783051594739'
+  - created_time: '2014-03-21T09:50:15+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: What are facebook rate limits like? and how do they compare to say twitter?
+    id: '718055474900830'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekUzTmpNM05ETTRNamMxT1RZAM09qRXpPVFV6TVRnMU1qWT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekU0TURVMU5EYzBPVEF3T0RNd09qRXpPVFV6T1RVME1UVT0ZD
+attachments:
+  data:
+  - description: "Facebook group hall of fame script\n\nif you're a facebook group
+      admin, and you faced a tiny problem\nof \"who are the active members in my group?\"
+      and want to make\nanalytics about it, here is the magical way.\n\nthis script
+      will find the target group by its name and get the\nlatest posts pages till
+      it reach a certain limit or exceed it\nthen will merge the posts in the form
+      of (user -> count of posts)\nthen sort them descending and show you the group
+      Hall of fame\n\ni usedkoala gem (it is very simple and i used it before alot),
+      \npsych gem to to_yaml, if you prefer you can save it as json or\nany other
+      format, have fun playing with it.\n\nPS: BTW, this song is a little inspiring
+      when you're running the script :D\nhttps://www.youtube.com/watch?v=mk48xRzuNvA\n\nGist:
+      https://gist.github.com/9662408"
+    media:
+      image:
+        height: 440
+        src: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/1899782_10152003281842957_1047773824_o.jpg?oh=42ee52c8e5ec5689e3dfa0c8b2f79b21&oe=5AED3AF8
+        width: 720
+    target:
+      id: '10152003281842957'
+      url: https://www.facebook.com/photo.php?fbid=10152003281842957&set=gm.717636601609384&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=10152003281842957&set=gm.717636601609384&type=3

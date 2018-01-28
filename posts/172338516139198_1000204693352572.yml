@@ -15,3 +15,43 @@ created_time: '2015-09-02T00:29:15+0000'
 updated_time: '2015-09-03T11:40:35+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1000204693352572/
 id: '172338516139198_1000204693352572'
+comments:
+  data:
+  - created_time: '2015-09-02T04:49:22+0000'
+    from:
+      name: Mohamed Adel
+      id: '2059314294312293'
+    message: "انا اللى جه فى بالى برضو انى اعل Column واشوف لو التاريخ المحدد أكبر
+      من التاريخ الموجود يوم فتح الابليكيشن هيبقى Hidden لو اصغر هيبقى مفتوح عادى
+      \n\nبس الفكرة فى التنفيذ ولو فيه طريق احسن ممكن نتعلم برضو :D"
+    id: '1000319263341115'
+  - created_time: '2015-09-02T04:58:24+0000'
+    from:
+      name: Mohamed Adel
+      id: '2059314294312293'
+    message: تمام جدا شكرا :D
+    id: '1000324983340543'
+  - created_time: '2015-09-03T09:36:46+0000'
+    from:
+      name: Mahmoud Tantawy
+      id: '10156115350739764'
+    message: 'I think it''d be better to exclude the database record in the query
+      on the server instead if hiding by using display: none as any kid can discover
+      it and display it'
+    id: '1000854549954253'
+  - created_time: '2015-09-03T09:40:43+0000'
+    from:
+      name: Mohamed Adel
+      id: '2059314294312293'
+    message: Thanks Moaaz and Mahmoud.
+    id: '1000855376620837'
+  - created_time: '2015-09-03T11:40:35+0000'
+    from:
+      name: Mohamed Adel
+      id: '2059314294312293'
+    message: Should i add it to migrations as timestamps or dateTime
+    id: '1000892706617104'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF3TURNeE9USTJNek0wTVRFeE5Ub3hORFF4TVRZANU16WXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF3TURnNU1qY3dOall4TnpFd05Eb3hORFF4TWpnd05ETTEZD

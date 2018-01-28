@@ -19,3 +19,216 @@ updated_time: '2015-04-30T17:54:27+0000'
 name: Photos from Mohamed Samy's post
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/933684820004560/
 id: '172338516139198_933684820004560'
+reactions:
+  data:
+  - id: '1830940156918303'
+    name: Mohamed Essam
+    type: LIKE
+  - id: '10213571333170420'
+    name: Mohamed Atwa
+    type: LIKE
+  - id: '1763959737010749'
+    name: Ahmed Mahmoud
+    type: LIKE
+  - id: '10159750515025408'
+    name: Mohamed Tarek El Haddad
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdNRGN3TURneE56WTBPakUwTXpBME1ERXlNekk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TmprNU5UVXdOREEzT2pFME16QXpOakkyTkRRNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2015-04-30T02:58:51+0000'
+    from:
+      name: Mohamed Tarek El Haddad
+      id: '10159750515025408'
+    message: I am actually interested in your setup and I'm following your posts too!
+      (Following.your.posts ... creeped out yet?)
+    id: '933825376657171'
+  - created_time: '2015-04-30T08:42:36+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: 'Mohamed Tarek El Haddad wallahi if you like #Debian then I''m happy,
+      might make a detailed post of the setup and all components :)'
+    id: '933931883313187'
+  - created_time: '2015-04-30T15:45:28+0000'
+    from:
+      name: Mohamed Moshrif
+      id: '1538447102877297'
+    message: |-
+      Actually that's a big misconception about people comparing the overall RAM usage to the performance of the system. What you need to actually compare is the page faults because the architecture of RAM caching is totally different between Linux and Windows.
+
+      For example, when you use SQL Server under windows, the server process would be taking almost all your free memory, does this mean that it's actually using that much memory? Short answer is "NO", long answer, well, it's very long, but what I can say is that is takes over the entire memory and create a huge memory pool to decrease page faults and memory loading to the minimum. Same thing is actually done by Windows since Windows XP (lookup the "Cached" section of your performance monitor for windows)
+    id: '934132683293107'
+  - created_time: '2015-04-30T15:53:34+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Mohamed Moshrif Wallahi that s the most useful info I have heard in a
+      long while, will look this up and try to understand more. But I will say, Debian
+      is quick, it doean't clog my resources, and it would be great  OS as a host
+      for many VMs.  Also, subjectively, nothing has ever crashed running for weeks
+      at a ed on debian even after weeks of continuous use. IF I do close everything
+      I get back to 150- MB RAM which would imply great memory management :)
+    id: '934135606626148'
+  - created_time: '2015-04-30T15:54:35+0000'
+    from:
+      name: Mohamed Moshrif
+      id: '1538447102877297'
+    message: Nope, it just implies a different caching algorithms, nothing more nothing
+      less :)
+    id: '934136249959417'
+  - created_time: '2015-04-30T15:54:59+0000'
+    from:
+      name: Mohamed Moshrif
+      id: '1538447102877297'
+    message: as for VMs, I have like 5 running concurrently on my Windows 2012 Hyper-V
+      and they all work like magic :)
+    id: '934136343292741'
+  - created_time: '2015-04-30T15:58:11+0000'
+    from:
+      name: Mohamed Moshrif
+      id: '1538447102877297'
+    message: |-
+      I would give you an example. Windows has a feature (since Windows XP) called super fetch, here you are some info about it from Wikipedia. If you just used memory usage as a comparison between systems, then you would reach the conclusion that Windows is using way more than Linux, but the fact is, it is not:
+
+      http://en.wikipedia.org/wiki/Windows_Vista_I/O_technologies#SuperFetch
+    id: '934137513292624'
+  - created_time: '2015-04-30T16:06:52+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: I am sure Windows 2012 hyper-v is great for VMs, don't get me wrong,
+      I never said it was rubbish. What I am saying is, with Debian you get an operating
+      system that 1. Has low footprint 2. Is reliable/stable 3. Has tons of free tools
+      and doocumentation 4. Is absolutely free 5. You can go for months or maybe years
+      without seeing a crash
+    id: '934140879958954'
+  - created_time: '2015-04-30T16:09:33+0000'
+    from:
+      name: Mohamed Moshrif
+      id: '1538447102877297'
+    message: |-
+      I dont see a crash on my system too and I only restart it when I have a forced update which is like every 2-3 months.
+
+      As for a low footprint/USB system, you can look up something like Windows To Go (http://en.wikipedia.org/wiki/Windows_To_Go), the whole idea is that if you wanna the system to have a low footprint, you can disable all these services (but then you would have a much more page faults rate and worst performance) but you would get a very low footprint
+    id: '934141836625525'
+  - created_time: '2015-04-30T16:13:48+0000'
+    from:
+      name: Mohamed Moshrif
+      id: '1538447102877297'
+    message: Last time I saw a crash was like 9 years ago, and btw, unlike most people
+      think, more than 95% of Blue crash screens are not because of Windows but because
+      of morons building their hardware drivers into the kernel space without really
+      building a reliable driver, so when the driver has any problem, it takes the
+      entire system down. You dont see that problem in Linux because the amount of
+      morons who build drivers for Linux is almost near ZERO, which is basically why
+    id: '934143313292044'
+  - created_time: '2015-04-30T16:14:58+0000'
+    from:
+      name: Mohamed Moshrif
+      id: '1538447102877297'
+    message: Every time you get that warning of "the driver you are trying to install
+      is not signed" and you press continue, it means you are signing over the fact
+      that you could be seeing a blue crash screen, this would never happen unless
+      you use these very cheap hardware (i.e. brandless web cam) on your system
+    id: '934143613292014'
+  - created_time: '2015-04-30T16:18:10+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: sure, but also notice small setup and program files, not Gigs like window
+      and small memory footprint. Just windows/office/VStudio is like 20 GBs on disk
+    id: '934144509958591'
+  - created_time: '2015-04-30T16:18:56+0000'
+    from:
+      name: Mohamed Moshrif
+      id: '1538447102877297'
+    message: Again, you can strip all of that. See how big the Windows on your phone
+      is? It's actually the same code base that is used on Desktop now
+    id: '934144689958573'
+  - created_time: '2015-04-30T16:32:47+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Yes, But Debian with 5 IDEs including Eclipse, Pycharm, Monodevelop,
+      other stuff, is like 4.4 GB total disc space.
+    id: '934149313291444'
+  - created_time: '2015-04-30T16:33:34+0000'
+    from:
+      name: Mohamed Moshrif
+      id: '1538447102877297'
+    message: You can still install all of these on a stripped version of Windows if
+      all what you care about is disk usage ;)
+    id: '934149566624752'
+  - created_time: '2015-04-30T17:21:43+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Mohamed Moshrif no, I care about usage and stability and low memory footprint.
+      In the end I can run the VM I showed you on 1 GB RAM. I actually give it 2 GB
+      RAM and it works like a charm. If this were windows, it would be at least 8
+      GB and the VHD file would be 100 GB. Here the VHD file is like 10 GB with half
+      empty. Plus everything is FREE of charge and FREE of ads and license requirements.
+      Everything is just mine, to do anything I wish with it, to change code, recompile,
+      rebrand, I can put my picture and call it the Mohamed Samy OS (extreme), in
+      the end I can know every little secret I want to know about the OS, AND it is
+      very small and I can carry it around on a  small USB drive.  I can change the
+      binaries, the code is feels like I have absilte authoruty and it really is exciting
+      when you get things running. Windows always is bloated and the options are so
+      limited. Start with the GUI, why would I want a server with Touch screen interface?
+      At least let me chooose :)
+    id: '934187966620912'
+  - created_time: '2015-04-30T17:23:28+0000'
+    from:
+      name: Mohamed Moshrif
+      id: '1538447102877297'
+    message: |-
+      Who told you that you can't choose?! You can do everything, but most people don't know they can!
+      Plus I am really tired of the idea of "I can change the OS as much as I can" because frankly, how many people who use Linux know how their way around kernel debugging and OS programming?! It's useless unless you can really change the OS code!
+    id: '934188463287529'
+  - created_time: '2015-04-30T17:54:27+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: I don't know my way around OS code, but I can customize config files,
+      I can control where the OS pulls it's updates and I can control every piece
+      of themeing in the system. I can control what gets installed, and what doesn't
+      including system services. Defenitley much more then I ever could with windows.
+    id: '934200613286314'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVE16T0RJMU16YzJOalUzTVRjeE9qRTBNekF6TmpJM016RT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVE0wTWpBd05qRXpNamcyTXpFME9qRTBNekEwTVRZAME5qYz0ZD
+attachments:
+  data:
+  - subattachments:
+      data:
+      - media:
+          image:
+            height: 404
+            src: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/11187291_10156025255985355_3977508180530157377_o.jpg?oh=2624b51b5065fe3e5440b6be474eff12&oe=5AE79626
+            width: 720
+        target:
+          id: '10156025255985355'
+          url: https://www.facebook.com/photo.php?fbid=10156025255985355&set=gm.933684820004560&type=3
+        type: photo
+        url: https://www.facebook.com/photo.php?fbid=10156025255985355&set=gm.933684820004560&type=3
+      - media:
+          image:
+            height: 404
+            src: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/11148397_10156025291410355_500854046068218023_o.jpg?oh=8e79ab3a33f4c892c25aaf42d2b3cb57&oe=5ADBCA38
+            width: 720
+        target:
+          id: '10156025291410355'
+          url: https://www.facebook.com/photo.php?fbid=10156025291410355&set=gm.933684820004560&type=3
+        type: photo
+        url: https://www.facebook.com/photo.php?fbid=10156025291410355&set=gm.933684820004560&type=3
+    target:
+      id: '933684820004560'
+      url: https://www.facebook.com/media/set/?set=pcb.933684820004560&type=1
+    title: Photos from Mohamed Samy's post
+    type: album
+    url: https://www.facebook.com/media/set/?set=pcb.933684820004560&type=1

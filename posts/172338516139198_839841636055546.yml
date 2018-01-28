@@ -10,3 +10,98 @@ created_time: '2014-11-02T10:26:51+0000'
 updated_time: '2014-11-03T08:03:26+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/839841636055546/
 id: '172338516139198_839841636055546'
+comments:
+  data:
+  - created_time: '2014-11-02T20:06:42+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      Did you check these?
+      http://stackoverflow.com/questions/9888294/signalr-connection-using-subdomains
+      http://stackoverflow.com/questions/9984534/signalr-cross-domain-connections-cors-access-control-allow-origin-issues
+      Sorry if you did, a mandatory "did you google it first"  check.
+    id: '840056246034085'
+  - created_time: '2014-11-02T20:09:26+0000'
+    from:
+      name: Amir Mohamed Atia
+      id: '10155967624789840'
+    message: yes but cant work for me
+    id: '840057359367307'
+  - created_time: '2014-11-02T20:10:00+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Any specific problem?
+    id: '840057526033957'
+  - created_time: '2014-11-02T20:10:01+0000'
+    from:
+      name: Amir Mohamed Atia
+      id: '10155967624789840'
+    message: are you work on signalr before??
+    id: '840057539367289'
+  - created_time: '2014-11-02T20:10:58+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Well, let's say I know a few things about it. Stating a problem will
+      help you more than just asking if people used it.
+    id: '840058146033895'
+  - created_time: '2014-11-02T20:12:09+0000'
+    from:
+      name: Amir Mohamed Atia
+      id: '10155967624789840'
+    message: |-
+      yes, the maximum concurrent connection  in the browser is 6
+      that mean when user try to open 7 tab in my web in the browser the server cant respond
+    id: '840058469367196'
+  - created_time: '2014-11-02T20:13:35+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      This has nothing to do with subdomains, unless you are talking about using subdomains to solve it.
+      See this exact comment: http://stackoverflow.com/questions/9984534/signalr-cross-domain-connections-cors-access-control-allow-origin-issues#comment33188242_9984798
+    id: '840058929367150'
+  - created_time: '2014-11-02T20:14:35+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      Your problem and solution are also discussed here:
+      http://stackoverflow.com/a/13037378
+    id: '840059276033782'
+  - created_time: '2014-11-02T20:19:43+0000'
+    from:
+      name: Amir Mohamed Atia
+      id: '10155967624789840'
+    message: |-
+      i have checked all this links and not work for me
+      and most of solution advice to use subdomains to solve this problem  and i dont know how to make subdomain in the same app
+    id: '840060926033617'
+  - created_time: '2014-11-02T20:19:55+0000'
+    from:
+      name: Amir Mohamed Atia
+      id: '10155967624789840'
+    message: and thanks for your interest
+    id: '840060979366945'
+  - created_time: '2014-11-02T20:25:01+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Do you do your mapping as part of the OWIN startup as in the SO comment
+      (not the answer itself), did it have the subdomains property?
+    id: '840062736033436'
+  - created_time: '2014-11-03T08:03:26+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      > i dont know how to make subdomain in the same app
+
+      then you should learn how to configure multiple domains to be served by the same app!
+    id: '840276289345414'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFF3TURVMk1qUTJNRE0wTURnMU9qRTBNVFE1TlRnNE1EST0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFF3TWpjMk1qZAzVNelExTkRFME9qRTBNVFV3TURFNE1EWT0ZD

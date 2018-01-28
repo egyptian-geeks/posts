@@ -11,3 +11,72 @@ created_time: '2014-12-01T19:03:09+0000'
 updated_time: '2014-12-01T22:31:44+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/854684421237934/
 id: '172338516139198_854684421237934'
+reactions:
+  data:
+  - id: '10215626626127168'
+    name: Khaled M. Diab
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRRNE5qWTFNRGt3T1RveE5ERTNORFl4TmpJM09qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRRNE5qWTFNRGt3T1RveE5ERTNORFl4TmpJM09qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2014-12-01T19:20:56+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: Alternative to what?
+    id: '854689281237448'
+  - created_time: '2014-12-01T19:21:22+0000'
+    from:
+      name: Essam A. Hassan
+      id: '1555752981144826'
+    message: suggestions anyway
+    id: '854689417904101'
+  - created_time: '2014-12-01T19:22:26+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: My suggestion is to have a service that exposes some HTTP Web API's to
+      the mobile app for the specific scenarios needed, and the Service makes the
+      Database calls on behalf of the mobile app.
+    id: '854689731237403'
+  - created_time: '2014-12-01T19:46:56+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: https://www.google.com/?q=connect%20to%20remote%20mysql%20android
+    id: '854697084570001'
+  - created_time: '2014-12-01T19:55:31+0000'
+    from:
+      name: Mokhtar Ali Ebrahim
+      id: '10155287610712742'
+    message: in case of mysql so there is php then use json encoding to export data
+      as json and call it from your app very easy
+    id: '854699277903115'
+  - created_time: '2014-12-01T22:20:36+0000'
+    from:
+      name: Ahmed Eid
+      id: '762135870664322'
+    message: rest api do the query ,, then use cordova to implement client
+    id: '854748904564819'
+  - created_time: '2014-12-01T22:22:15+0000'
+    from:
+      name: Essam A. Hassan
+      id: '1555752981144826'
+    message: maybe I wasn't clear enough :D I was asking for the client server tools
+      to use :D
+    id: '854749367898106'
+  - created_time: '2014-12-01T22:31:44+0000'
+    from:
+      name: AbdAllah Khashaba
+      id: '1032800230207501'
+    message: "build API what ever the method RESTFUL or another method depending on
+      the authentication you want \n\nthen use a service in the mobile app. to connect
+      through the API after authenticating HTTP requests is one method.\n\nhttps://www.facebook.com/groups/egyptian.geeks/permalink/853743364665373/"
+    id: '854752704564439'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFUwTmpnNU1qZA3hNak0zTkRRNE9qRTBNVGMwTmpFMk5UWT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFUwTnpVeU56QTBOVFkwTkRNNU9qRTBNVGMwTnpNeE1EUT0ZD

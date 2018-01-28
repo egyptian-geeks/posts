@@ -9,3 +9,147 @@ created_time: '2014-04-26T18:11:41+0000'
 updated_time: '2014-04-28T11:20:18+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/737268249646219/
 id: '172338516139198_737268249646219'
+comments:
+  data:
+  - created_time: '2014-04-26T18:51:31+0000'
+    from:
+      name: Mohamed Sameeh Sharaf
+      id: '2167550119925504'
+    message: |-
+      i found a solution :)
+      $("#mylist[value=]1").hide().attr("disabled", "disabled");
+    id: '737284042977973'
+  - created_time: '2014-04-26T18:52:30+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: |-
+      The problem has nothing to do with jQuery if I understood your issue correctly, hiding or disabling a select option is not cross browser,  It'll likely work on FF but not chrome, maybe IE8 but not Opera. You're better off just removing the option when it's not needed.
+
+      If that's not the problem you're facing, I suggest you create a jsfiddle so I can reproduce your situation.
+    id: '737284356311275'
+  - created_time: '2014-04-26T19:00:55+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: |-
+      On a second thought, maybe you can by wrapping the option with a span but that's gonna break per specs.
+      Mohamed Sameeh Sharaf Could you try it on FF and chrome?
+    id: '737287369644307'
+  - created_time: '2014-04-26T19:04:28+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: Your solution only disables the element, which I suppose is what you're
+      eventually seeking. Not having the option selectable, but it doesn't hide it
+      on chrome. It'll likely work in FF but I can't verify that now.
+    id: '737288759644168'
+  - created_time: '2014-04-26T19:05:55+0000'
+    from:
+      name: Mohamed Sameeh Sharaf
+      id: '2167550119925504'
+    message: "i have two select elements , <select id=\"category\" ..../> ,\n <select
+      id=\"products\" ..../>  products are depend on category \nso i load all products
+      from database and add custom attribute for each option catId=\"\" and filter
+      products select with the $(\"#category\").val()"
+    id: '737289232977454'
+  - created_time: '2014-04-26T19:08:19+0000'
+    from:
+      name: Mohamed Sameeh Sharaf
+      id: '2167550119925504'
+    message: "so i used \n\n>>>show matched elements \n$(\"[cateid=\"+$(\"#category\").val()+\"
+      ]\").show().removeAttr(\"disabled\");\n\n  >>>> hide an other elements \n          $(\"[catid]\").not(\"[cateid=\"+$(\"#category\").val()+\"
+      ]\").hide().attr(\"disabled\", \"disabled\");"
+    id: '737290069644037'
+  - created_time: '2014-04-26T19:12:51+0000'
+    from:
+      name: Mohamed Sameeh Sharaf
+      id: '2167550119925504'
+    message: i tried it on FF it works well , about IE i will enforce my customers
+      not to use it so i wont test it :D
+    id: '737291806310530'
+  - created_time: '2014-04-26T19:16:44+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: Doesn't work in chrome latest on a mac.
+    id: '737294079643636'
+  - created_time: '2014-04-26T19:20:57+0000'
+    from:
+      name: Mohamed Sameeh Sharaf
+      id: '2167550119925504'
+    message: for me works in chrome latest on windows
+    id: '737295669643477'
+  - created_time: '2014-04-26T19:33:58+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: have your product/category as json and refill the products dropdown every
+      time the category is changed, hiding some options and showing some of them is
+      not a practical way...
+    id: '737302042976173'
+  - created_time: '2014-04-26T19:52:37+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: |-
+      I saw code similar to this some 2-3 years ago but can't find it anymore. So here's a recreation http://jsfiddle.net/HNysu/1/
+      It hides the option which should work on FF and wraps the option in a hidden span to hide it on Chrome, should also in theory work on IE if I recall correctly. The hidden span trick wont work on FF because it's actually invalid HTML.
+      Nonetheless, this should be cross-platform. If anyone is kind enough to verify it, that'd be great.
+
+      Good luck.
+
+      Edit: Just noticed a bug, if you select nothing on the category, the products list wont return to showing the full list of products. So the fiddle is updated to solve this.
+    id: '737309762975401'
+  - created_time: '2014-04-27T21:28:38+0000'
+    from:
+      name: Mohamed Sameeh Sharaf
+      id: '2167550119925504'
+    message: "it works well in Chrome , FF and IE \nthanks a lot for your help :)"
+    id: '737881222918255'
+  - created_time: '2014-04-27T21:30:07+0000'
+    from:
+      name: Mohamed Sameeh Sharaf
+      id: '2167550119925504'
+    message: |-
+      Amr ELsaqqa
+      why not practical way ?
+    id: '737881662918211'
+  - created_time: '2014-04-27T22:40:54+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "it's a dirty way too :D not only impractical :D\n\nwhy not having something
+      like below instead !\neasy, more logical and less code, no browser issues ,
+      structured (so you can easily add unlimited entries  directly from database.without
+      changing the code) . etc.. etc..\n\n<select class=\"brand\">\n   <option value=\"\">Select
+      Brand</option>\n    <option value=\"1\">BMW</option>\n    <option value=\"2\">Hyundai</option>\n
+      \   <option value=\"3\">Kia</option>\n    <option value=\"4\">Renault</option>\n</select>\n\n<select
+      class=\"model\">\n   <option value=\"\">Please Select Brand</option>\n</select>\n\n<script
+      type=\"text/javascript\">\nvar brandModels = {\n1 : { 1 : \"316\" , 2 : \"318\",
+      3: \"520\" } ,\n2: { 4:   \"Accent\",  5: \"Elantra\" }, \n3 : { 6: \"Cerato\",
+      7: \"Rio\", 8: \"Sportage\" } , \n4: { 9: \"Logan\", 10: \"Fluence\" }\n\n }
+      ; \n\n$(function(){\n\n    $('.brand').on('change', function(){\n    \n       $('.model').empty();
+      \n    \n       if($(this).val() in brandModels) {\n          $('.model').append($('<option>').text('Select
+      Model')) ; \n          var brand = $(this).val();\n          for (var i in brandModels[brand])
+      {\n            $('.model').append($('<option>').text(brandModels[brand][i]).attr('value',
+      \ i)) ; \n    \n          }\n       } else {\n           $('.model').append($('<option>').text('Please
+      Select Brand')) ; \n       }\n    \n    }).trigger('change');\n}) ;\n</script>\n\ntry
+      it live here :\nhttp://jsfiddle.net/p8Ygj/"
+    id: '737943689578675'
+  - created_time: '2014-04-28T10:48:43+0000'
+    from:
+      name: Mohamed Sameeh Sharaf
+      id: '2167550119925504'
+    message: your solution is awesome but my solution is sexy :P
+    id: '738139786225732'
+  - created_time: '2014-04-28T11:20:18+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: ya wad ya SEXY :D
+    id: '738163589556685'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOek0zTWpnME1EUXlPVGMzT1Rjek9qRXpPVGcxTXpneU9URT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOek00TVRZAek5UZAzVOVFUyTmpnMU9qRXpPVGcyT0RRd01UZAz0ZD

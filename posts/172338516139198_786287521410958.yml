@@ -9,3 +9,71 @@ updated_time: '2014-07-27T16:29:54+0000'
 name: Introduction to A*
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/786287521410958/
 id: '172338516139198_786287521410958'
+reactions:
+  data:
+  - id: '627907956'
+    name: Emad Elsaid
+    type: LIKE
+  - id: '1703405903057034'
+    name: Mohamed Hashem
+    type: LIKE
+  - id: '10156089336182292'
+    name: Hassan Aly Selim
+    type: LIKE
+  - id: '10160073977745637'
+    name: Ahmed Aswani
+    type: LIKE
+  - id: '10157228231404129'
+    name: Ahmed Adel
+    type: LIKE
+  - id: '10156284492809497'
+    name: Ahmed Hassan
+    type: LIKE
+  - id: '10155114629021466'
+    name: Professor Mina
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpJM09UQTNPVFUyT2pFME1EWTBOemc0TVRjNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TmpJMk56WTJORFkxT2pFME1EVTROak0xT1RVNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2014-07-27T02:10:48+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      Thank you very much for this link! :)
+      I've know about depth-first search (very easy) and deduced how breadth-first search would work, I studied Dijkstra a few times but in a confusing way (we studied it for routing in networks), and I always felt like A* is that really crazy thing that would be impossible to understand.
+      ... and now I understood all of them in a few minutes =)
+    id: '789902971049413'
+  - created_time: '2014-07-27T08:10:27+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: AI field is not so complex, but the way some people teach it makes it
+      hard
+    id: '790002917706085'
+  - created_time: '2014-07-27T16:29:54+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: yeah, professors make it sound hard, a friend of mine once wrote a post
+      explaining pruning (for board game AIs) in a simple way, it was the first time
+      for me to notice that these stuff aren't as hard as they seem :)
+    id: '790150404358003'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemc1T1RBeU9UY3hNRFE1TkRFek9qRTBNRFkwTWpjd05EZAz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemt3TVRVd05EQTBNelU0TURBek9qRTBNRFkwTnpnMU9UUT0ZD
+attachments:
+  data:
+  - description: In games we often want to find paths from one location to another.
+      A* is a commonly recommended algorithm. Breadth First Search, Dijkstra’s Algorithm,
+      and A* are graph search algorithms that use the same basic structure. They represent
+      the map as a graph and then find a path in that graph. If you ha…
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.redblobgames.com%2Fpathfinding%2Fa-star%2Fintroduction.html&h=ATOJp7-kxPw3XHsitlZK3EBw6yQfi7So9Q9BemCJTVcYSdxDsJBINrd04nKjr-UilM9zlDgk2-Bqjy5zMZ5dbKF1MHJDJCSh55Pf&s=1&enc=AZPKzRSe9nkHj_7BKjUo5FB8sY-jgXPeKOYyoDM-5u6HR6mbEoameIt1gsHb-vRpNBF-dYSM3gAjRfNzUlFeLq0m
+    title: Introduction to A*
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.redblobgames.com%2Fpathfinding%2Fa-star%2Fintroduction.html&h=ATOJp7-kxPw3XHsitlZK3EBw6yQfi7So9Q9BemCJTVcYSdxDsJBINrd04nKjr-UilM9zlDgk2-Bqjy5zMZ5dbKF1MHJDJCSh55Pf&s=1&enc=AZPKzRSe9nkHj_7BKjUo5FB8sY-jgXPeKOYyoDM-5u6HR6mbEoameIt1gsHb-vRpNBF-dYSM3gAjRfNzUlFeLq0m

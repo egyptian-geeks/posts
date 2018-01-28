@@ -9,3 +9,28 @@ created_time: '2014-03-14T14:53:00+0000'
 updated_time: '2014-03-14T14:53:00+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/714946041878440/
 id: '172338516139198_714946041878440'
+attachments:
+  data:
+  - description: "Download your latest 30 Github Gists to local directory\n\ngithub
+      API is very simple REST API, similar to Facebook Graph API\nif you sent a GET
+      request to some URL will respond in JSON with \nthe entity data.\n\nGithub API
+      rate limit is 60 request per hour per IP address, so\nyou'll hit teh limit pretty
+      fast if you don't have an authorized \napplication, Oauth applications gets
+      upto 5,000 requests per Hours\nPer IP address, this script uses a non authorized
+      approach.\n\nfirst you'll get the users first page of gists, to get second page\nyou
+      need to add \"?page=2\" to the end of URL, but as we said we can't\ndo this
+      because of the rate limit, if you'll use the second approach \nthen you're welcome
+      to add this parameter and increase it each time.\n\nsecond we'll iterate over
+      all gists and make directory for each using\nits unique ID and save the gist
+      files to that directory.\n\naaaand its done, you have your latest 30 gists in
+      a your local machine\nin no time. :)\n\nGist: https://gist.github.com/9547245"
+    media:
+      image:
+        height: 488
+        src: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/375753_10151992045372957_1355498535_n.jpg?oh=34fea1d0ff683ff561bad6ba94f9e530&oe=5AE2EF18
+        width: 720
+    target:
+      id: '10151992045372957'
+      url: https://www.facebook.com/photo.php?fbid=10151992045372957&set=gm.714946041878440&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=10151992045372957&set=gm.714946041878440&type=3

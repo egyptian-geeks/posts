@@ -1,0 +1,37 @@
+---
+message: |-
+  Hello Geeks,
+
+  i'm trying to make snapchat filters like application using Xamarin,
+  if there any experience to make such app that tracking eyes - eyebrows - lips using any JS library or even Xamarin plugin ?
+
+  please share your experience :)
+from:
+  name: Mohamed Ezzat
+  id: '179696229429042'
+type: status
+created_time: '2018-01-27T21:35:43+0000'
+updated_time: '2018-01-27T23:20:49+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1735368843169483/
+id: '172338516139198_1735368843169483'
+comments:
+  data:
+  - created_time: '2018-01-27T21:49:47+0000'
+    from:
+      name: Ahmed Saleh
+      id: '10159933379005574'
+    message: You need to know about Computer Vision, face detection, convex hull,
+      harris detectors..etc
+    id: '1735589056480795'
+  - created_time: '2018-01-27T23:20:41+0000'
+    from:
+      name: Ahmed Khalifa
+      id: '1999765416908747'
+    message: |-
+      Try This opencv component for xamarin Android but I do not know it work with iOS or not..check it's decumentian.. Any way you will be use opencv
+      https://components.xamarin.com/view/xpand.opencvbinding
+    id: '1735657629807271'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN6TlRVNE9UQTFOalE0TURjNU5Ub3hOVEUzTURnNU56ZAzMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN6TlRZAMU56WXlPVGd3TnpJM01Ub3hOVEUzTURrMU1qUXgZD

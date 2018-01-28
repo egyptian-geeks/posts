@@ -9,3 +9,36 @@ created_time: '2014-03-16T18:52:41+0000'
 updated_time: '2014-03-16T18:52:41+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/715966451776399/
 id: '172338516139198_715966451776399'
+reactions:
+  data:
+  - id: '10215070655377585'
+    name: Mahmoud Kandeel
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRFMk5qZA3hNVFkzTmpveE16azFNREExTVRRNU9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRFMk5qZA3hNVFkzTmpveE16azFNREExTVRRNU9qSTFOREE1TmpFMk1UTT0ZD
+attachments:
+  data:
+  - description: "Create Matrix Like screen using Ruby\n\nthe idea is that this screen
+      is a vertical lines each line\nmoves vertically in random speed.\n\neach line
+      has number of entities, each entity has a random \ncharacter with random size.\n\neach
+      character is will be changed randomly, \nso we created an entity class with
+      this features \nthen created the vertical lines of them has the same number
+      \nof characters but with different speeds.\n\nand let them roll..\nafter creating
+      it i noticed that it changed to new character\nby 60 change per second (the
+      FPS) so i had to invent a small technique\nto skip some second for the character
+      changing.\n\ni could have been changed the FPS to lower value but this will
+      slow\ndown the lines movement, so to keep lines moving smoothly i kept FPS \nhigh
+      anad skipped random number of frames using a entity class member\nupdate_limit
+      and last_update\n\nGist: https://gist.github.com/9584057"
+    media:
+      image:
+        height: 480
+        src: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/1781826_10151995687057957_1850519523_o.jpg?oh=d1e2ccb39598ee0b7f26df4ffd270431&oe=5B251534
+        width: 720
+    target:
+      id: '10151995687057957'
+      url: https://www.facebook.com/photo.php?fbid=10151995687057957&set=gm.715966451776399&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=10151995687057957&set=gm.715966451776399&type=3

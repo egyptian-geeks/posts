@@ -15,3 +15,84 @@ created_time: '2014-06-12T21:46:01+0000'
 updated_time: '2014-06-13T07:34:26+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/763520633687647/
 id: '172338516139198_763520633687647'
+reactions:
+  data:
+  - id: '10159750515025408'
+    name: Mohamed Tarek El Haddad
+    type: LIKE
+  - id: '10214796374519514'
+    name: Islam AbdelMohaimen Hassan
+    type: LIKE
+  paging:
+    cursors:
+      before: TmprNU5UVXdOREEzT2pFME1ESTJNVGc0TnpNNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRFek1ERTJNakkwTnpveE5EQXlOakUxTWpZAek9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2014-06-12T22:02:25+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: |-
+      It's not crazy, I can think of a lot of cases where that's needed.
+
+      You're probably looking for traits and/or mixins. Some languages do support traits out of the box others build around mixins. Ruby uses mixins, Scala has beautiful support for traits (and behaviours)
+
+      Others like Rust, D (with an extension), Python (a package for traits), Javascript delegations and possibly quite a few others.
+
+      You might also want to look at the decorator pattern.
+    id: '763526760353701'
+  - created_time: '2014-06-12T22:06:50+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: But to answer your question, restrictions per inheritance? I don't think
+      so. It'll be an anti pattern. The outcome you're describing is best achieved
+      with trails/mixins.
+    id: '763528707020173'
+  - created_time: '2014-06-12T22:40:30+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: If this is doable it would be considered a bad practice, I think the
+      strategy pattern addresses this scenario
+    id: '763539627019081'
+  - created_time: '2014-06-12T23:12:28+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: |-
+      Quite of a gray area, I was worried about this answer showing up Kareem Kashwaa
+
+      The similarities amongst decorator, strategy, presenter and composite are strikingly -and confusingly- similar
+
+      Nonetheless, the strategy pattern wont address the intended requirement of selective inheritance as per the intent of inheritance to begin with. Inheritance eventually extends the behavior of an object, it doesn't swap implementations and that's the intention of a strategy pattern.
+
+      Decorators attach extra responsibilities to an object, hence dubbed an alternative to subclassing.
+
+      In layman's terms, if you're extending functionality then decorate, if you're replacing functionality then go for the strategy pattern. Inheritance whether selective or not, is a functionality extension tool.
+    id: '763549833684727'
+  - created_time: '2014-06-12T23:19:01+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: I assumed replacement in the given scenario, where foo and bar are the
+      algorithms that should replace each others, I quite agree with you nonetheless
+    id: '763551973684513'
+  - created_time: '2014-06-13T07:34:26+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      I'm thinking of the concept itself. If you want to inherit foo but not bar, then both are two different things. In this case you should put foo in a class D & bar in a class E. B inherits D. C inherits E. A inherits D & E.
+
+      There languages which allows multiple inheritance (C++ & Python). Others implement it with mixins (Ruby).
+
+      In C#, you can get around this using interfaces + extension methods. To apply it to the above example: D & E will be interfaces, then you should create DeeExtensions containing an extension method foo & EeeExtensions containing extension method bar.
+
+      What if you can't control A? You can make B inherit from it, then override bar to throw an NotImplementedException. If you're using a dynamic language (e.g. Python), you can remove the method from the class.
+    id: '763719757001068'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOell6TlRJMk56WXdNelV6TnpBeE9qRTBNREkyTVRBMU5EVT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOell6TnpFNU56VTNNREF4TURZANE9qRTBNREkyTkRRNE5qWT0ZD

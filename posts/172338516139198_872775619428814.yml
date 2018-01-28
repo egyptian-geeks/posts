@@ -10,3 +10,115 @@ created_time: '2015-01-02T12:27:53+0000'
 updated_time: '2015-01-03T00:38:30+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/872775619428814/
 id: '172338516139198_872775619428814'
+reactions:
+  data:
+  - id: '10213738834576763'
+    name: Amjad Mashaal
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRVNE1qYzNNelkzTVRveE5ESXdNakF4TnpNNU9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRVNE1qYzNNelkzTVRveE5ESXdNakF4TnpNNU9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2015-01-02T12:41:03+0000'
+    from:
+      name: Islam Azab
+      id: '10155802654056014'
+    message: I am sure you must have googled it and found that http://blog.teamtreehouse.com/unobtrusive-javascript-important
+    id: '872780632761646'
+  - created_time: '2015-01-02T12:41:35+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: and I didn't understand =D
+    id: '872780756094967'
+  - created_time: '2015-01-02T12:54:24+0000'
+    from:
+      name: Islam Azab
+      id: '10155802654056014'
+    message: The thing is that you keep your HTML clean, it won't be containing JavaScript
+      allover the place.
+    id: '872784996094543'
+  - created_time: '2015-01-02T12:56:58+0000'
+    from:
+      name: Islam Azab
+      id: '10155802654056014'
+    message: Also, imagine if you are adding a specific action to an HTML tag, if
+      you are using obtrusive js you will have to repeat the function and update it
+      in all occurring instances. However if you are using unobtrusive js you will
+      add the even to all tag with a specific tag and modify/upfate the function in
+      on place.
+    id: '872785842761125'
+  - created_time: '2015-01-02T13:01:20+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: |-
+      I can add a class to the div and do this
+      Why there's jquery-ujs ?
+    id: '872786986094344'
+  - created_time: '2015-01-02T13:45:16+0000'
+    from:
+      name: Pola Ashraf
+      id: '10155173051963199'
+    message: f
+    id: '872809889425387'
+  - created_time: '2015-01-03T00:15:40+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: "Muhammad Negm It's mainly for maintainability and learning how to write
+      a clean code.\n\nLet's say you have this example:\n\n<a href=\"javascript:window.open('http://www.w3.org/wiki/The_principles_of_unobtrusive_JavaScript')\">W3C
+      Article</a> \n\nand you use many of it in all your application and you application
+      grow and grow and this piece of code grow as well. imagine the headache of going
+      throw all your code and adding a class like 'js-newwindow' and cleaning all
+      your code and test it. so why not taking 5 min planning before you write this
+      code and make it abstract and clean.\n\n- Don’t repeat yourself (DRY) is a principle
+      of software development: http://en.wikipedia.org/wiki/Don%27t_repeat_yourself\n\nNeed
+      more?"
+    id: '873117342727975'
+  - created_time: '2015-01-03T00:18:48+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: I understand this but, why there's 'jquery-ujs'
+    id: '873118046061238'
+  - created_time: '2015-01-03T00:21:09+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: I assume you are using it in a Rails Project, Right?
+    id: '873118649394511'
+  - created_time: '2015-01-03T00:21:49+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: Yep
+    id: '873118839394492'
+  - created_time: '2015-01-03T00:25:45+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: |-
+      Alright :) Let me explain to you:
+
+      jquery-ujs wires event handlers to eligible DOM elements to provide enhanced functionality. In most cases, the eligible DOM elements are identified by HTML5 data attributes.
+
+      So you must have seen something like this:
+      <%= form_for item, data: { confirm: 'Are you sure?' } %>
+
+      jquery-ujs attaches a handler to links or forms with the data-confirm attribute that displays a JavaScript confirmation dialog. The user can choose to proceed with or cancel the action.
+
+      This is a very good article explains how jquery-ujs: http://robots.thoughtbot.com/a-tour-of-rails-jquery-ujs
+    id: '873120122727697'
+  - created_time: '2015-01-03T00:38:30+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: got it now thanks
+    id: '873124166060626'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGN5Tnpnd05qTXlOell4TmpRMk9qRTBNakF5TURJME5qTT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGN6TVRJME1UWTJNRFl3TmpJMk9qRTBNakF5TkRVMU1UQT0ZD

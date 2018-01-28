@@ -13,3 +13,45 @@ created_time: '2014-02-24T11:00:58+0000'
 updated_time: '2014-02-24T12:21:09+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/705856352787409/
 id: '172338516139198_705856352787409'
+comments:
+  data:
+  - created_time: '2014-02-24T12:19:12+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: |-
+      Nice work but can be better, no need to require time or recreate two time objects in the loop. One is clearly a constant.
+
+      dot notation following an 'end' is unreadable and confusing for a beginner. Also "Date_of_birth" should begin with a small letter.
+      Be liberal with your indentation, you should align patterns, check my fork's array formatting.
+
+      Lastly, use descriptive vocabulary when appropriate (Time.new is the same as Time.now)
+
+      I forked it: https://gist.github.com/l0gicpath/9187232
+    id: '705883672784677'
+  - created_time: '2014-02-24T12:21:09+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: yup, there is always a better way to do it ^_^, thanks
+    id: '705884572784587'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekExT0Rnek5qY3lOemcwTmpjM09qRXpPVE15TkRRek5UST0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekExT0RnME5UY3lOemcwTlRnM09qRXpPVE15TkRRME5qaz0ZD
+attachments:
+  data:
+  - description: |-
+      Calculate your age in years, days, hours, minutes, seconds in ruby
+      https://gist.github.com/9185583
+      #rails #ruby #ROR #coding
+    media:
+      image:
+        height: 434
+        src: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/1279009_10151958899937957_1847982394_o.jpg?oh=6f272ee5d4a6137ff7c3f8eb353e4df2&oe=5AEE6F1C
+        width: 720
+    target:
+      id: '10151958899937957'
+      url: https://www.facebook.com/photo.php?fbid=10151958899937957&set=gm.705856352787409&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=10151958899937957&set=gm.705856352787409&type=3

@@ -15,3 +15,45 @@ created_time: '2014-09-04T09:24:59+0000'
 updated_time: '2014-09-04T12:39:19+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/808960295810347/
 id: '172338516139198_808960295810347'
+comments:
+  data:
+  - created_time: '2014-09-04T10:36:41+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: "You will need to stub the repo in either case, just a side note there
+      unless you use a specific repo for testing that gets cleaned up after every
+      test run.\n\nCircular dependencies in test suites is often resolved by bootstrapping
+      (what we usually call setup and later -the cleanup phase- teardown) the test
+      environment before running each unit test or your entire suite. \n\nYour repo
+      should be pre-populated with an entity for the Exists unit test. You'll need
+      something called fixtures, a test fixture is a consistent state of which you
+      test your software against. \n\nThis state can be data expected to have been
+      there in one test scenario, like testing Exists on a populated repo, could be
+      a scenario were an entity does exist but corrupted or a partial entity or a
+      scenario where it's just not there.\n\nSo tl;dr;\nYou'll need setup and teardown
+      methods which will load your fixtures and clean up after that. I suppose you
+      use NUnit, like any unit testing framework they have extensive documentations
+      about this."
+    id: '808977969141913'
+  - created_time: '2014-09-04T10:38:14+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: http://nunit.com/index.php?p=testFixture&r=2.5
+    id: '808978355808541'
+  - created_time: '2014-09-04T10:47:29+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: "Hady Ahmad That's exactly what I was planning to do, the repo is an
+      Elasticsearch instance by the way, My plan was to use a suffixed index that
+      gets deleted after every test, \nNow for the test fixture, to setup the test
+      case,if I use my Create method then I'm back into the loop, I could of course
+      create the first index manually to test Exists, then use it to test Create if
+      that's the only way, but I don't find this idea very appealing"
+    id: '808980495808327'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPREE0T1RjM09UWTVNVFF4T1RFek9qRTBNRGs0TWpjd01ERT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPREE0T1Rnd05EazFPREE0TXpJM09qRTBNRGs0TWpjMk5Eaz0ZD

@@ -13,3 +13,116 @@ created_time: '2015-08-18T18:35:59+0000'
 updated_time: '2015-08-18T19:27:08+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/991852377521137/
 id: '172338516139198_991852377521137'
+reactions:
+  data:
+  - id: '10157134145555299'
+    name: Eslam Salem Mahmoud
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpFeU9UTTFNams0T2pFME16azVNamcyT0RRNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TmpFeU9UTTFNams0T2pFME16azVNamcyT0RRNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2015-08-18T18:43:58+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      Googling "Bootstrap RTL" gave me this, which was updated 5 days ago!!!
+      https://github.com/morteza/bootstrap-rtl
+    id: '991856997520675'
+  - created_time: '2015-08-18T18:49:53+0000'
+    from:
+      name: Ahmed Zain Mohammed
+      id: '10156266511868081'
+    message: وقع ف إيدي, أفضلم, بس ف حجات ضاربة كتير :( , مش عارف ليه المشروع نفسه
+      مايدعمش ال rtl يا رب ال major release الجاية تدعم ال rtl . شكلها هاترسي علي
+      الحل ده و خلاص
+    id: '991858424187199'
+  - created_time: '2015-08-18T18:49:58+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: |-
+      Creating an RTL override for Bootstrap is a 30 minute job, I almost do it manually on every project ...
+      I am considering now releasing my override soon
+    id: '991858450853863'
+  - created_time: '2015-08-18T18:51:29+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: Then try this https://cssjanus.github.io/
+    id: '991858857520489'
+  - created_time: '2015-08-18T18:51:35+0000'
+    from:
+      name: Ahmed Zain Mohammed
+      id: '10156266511868081'
+    message: صدق مافكرتش ف الحوار ده :) هههه, بس المفترض بقي تكون مغطي اغلب ال components
+      , شكراً مقدماً
+    id: '991858954187146'
+  - created_time: '2015-08-18T18:52:01+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: |-
+      This is the asshole who is reponsible for removing RTL from Bootstrap 3:
+      https://github.com/twbs/bootstrap/issues/13564#issuecomment-44230448
+    id: '991859030853805'
+  - created_time: '2015-08-18T18:53:16+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: Mohammad Tayseer the problem with the flipping tools is that you are
+      replicating the same file ... not just creating an override, so you end up with
+      two CSS files that are almost identical.
+    id: '991859310853777'
+  - created_time: '2015-08-18T18:56:35+0000'
+    from:
+      name: Ahmed Zain Mohammed
+      id: '10156266511868081'
+    message: إشطه, هي رسيت خلاص علي الحل بتاع الأخ Morteza ده, يا إما بقي يا Ahmad
+      Alfy تظبطنا أنته و نلاقي الرابط ع github قريب :) Thnx y man
+    id: '991860297520345'
+  - created_time: '2015-08-18T19:00:19+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: Ahmad Alfy By asshole you mean morteza ?
+    id: '991861987520176'
+  - created_time: '2015-08-18T19:00:43+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: 'Yes'
+    id: '991862130853495'
+  - created_time: '2015-08-18T19:12:25+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: Mohammad Tayseer Probably I shouldn't have said that but I was offended
+      with that thread. Most of the things he is arguing about is invalid and I reached
+      a conclusion that he is only doing this to promote his own work. There was literally
+      hundreds of requests pushing mdo and fat to support RTL ... after it was done,
+      he started his thread and boom it is gone. I hate myself for saying that but
+      he really is an asshole ... I sent him an email explaining my opinion about
+      that issue and he replied that I am bullying and harrasing him. He reported
+      me to github at the end.
+    id: '991865657519809'
+  - created_time: '2015-08-18T19:26:02+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: Ahmad Alfy I almost agree with you, but also I don't know why mdo listened
+      to him
+    id: '991868954186146'
+  - created_time: '2015-08-18T19:27:08+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: Exactly!
+    id: '991869344186107'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVGt4T0RVMk9UazNOVEl3TmpjMU9qRTBNems1TWpNME16ZAz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVGt4T0RZANU16UTBNVGcyTVRBM09qRTBNems1TWpZAd01qZAz0ZD

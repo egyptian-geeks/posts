@@ -13,3 +13,88 @@ name: 'JavaScript is Assembly Language for the Web: Sematic Markup is Dead! Clea
   vs. Machine-coded HTML -.'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/481919568514423/
 id: '172338516139198_481919568514423'
+comments:
+  data:
+  - created_time: '2012-11-08T07:05:33+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: Javascript is fun :) but I used to like Assembly too :)
+    id: '481999688506411'
+  - created_time: '2012-11-08T08:59:06+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: Assembly is low level and hard but does make sense, but JS is crazy you
+      know, x != x is true if x is NaN, .3 - .2 != .2 - .1, allow minus zero.. etc
+    id: '482020198504360'
+  - created_time: '2012-11-08T22:04:30+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      Moutaz if you remember, in math infinity != infinity, NaN != NaN. It has nothing to do with JS
+
+      .3 - .2 is related to floating points representation, and it happens in C++, Python, and all other languages which use this representation.
+    id: '482239868482393'
+  - created_time: '2012-11-08T23:48:28+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: |-
+      But these languages you mentioned may have double, decimal, float, and integer data types. JS has only one type for numbers. That's why it is a pain in JS.
+
+      "in math infinity != infinity, NaN != NaN" yes that's in math/logic, but in JS: Infinity does equal Infinity, null does equal null, undefined does equal undefined, null does equal undefined, BUT NaN does not equal NaN and does not equal anything. And what make this worse in JS is because it is untyped, it does not throw exceptions/errors in overflow and has crazy implicit type conversions.
+
+      In SQL I know that null != null and null != anything, and in C# null = null, but I am 100% comfortable with this in C# and SQL because there is a consistent philosophy in every language, but JS has no philosophy, it is made in two weeks with trial and error. I only mentioned few samples, everybody knows how bad and painful it is and that's why they are making stuff like Dart and TypeScript.. etc
+    id: '482270171812696'
+  - created_time: '2012-11-09T03:45:10+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: Don't use == and !=. You should use !== and === because the first pair
+      of operators will try to be smart, but actially it will be stupid :D
+    id: '482345291805184'
+  - created_time: '2012-11-09T17:14:02+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: |-
+      If i use === all time I will encounter other crazy stuff like:
+      3 !== new Number(3) and Number(3) !== new Number(3) and so on
+    id: '482533885119658'
+  - created_time: '2012-11-10T01:00:53+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      This is the output from firebug
+
+      >>> typeof 3
+      "number"
+      >>> typeof Number(3)
+      "number"
+      >>> typeof new Number(3)
+      "object"
+
+      but I agree that some parts suck
+    id: '482677965105250'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAORGd4T1RrNU5qZAzROVEEyTkRFeE9qRXpOVEl6TlRnek16TT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAORGd5TmpjM09UWTFNVEExTWpVd09qRXpOVEkxTURreU5UTT0ZD
+attachments:
+  data:
+  - description: Scott Hanselman on Programming, User Experience, The Zen of Computers
+      and Life in General
+    media:
+      image:
+        height: 720
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQCOG66SKe-yUoWS&w=720&h=720&url=http%3A%2F%2Fwww.hanselman.com%2Fblog%2Fcontent%2Fbinary%2FWindows-Live-Writer%2FDoes-View-Source-still-matter_DC82%2Fimage_thumb_1.png&cfs=1&_nc_hash=AQCvPmsqcX2NWKDJ
+        width: 720
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.hanselman.com%2Fblog%2FJavaScriptIsAssemblyLanguageForTheWebSematicMarkupIsDeadCleanVsMachinecodedHTML.aspx&h=ATNhUCuuOqr7ADfZYQbQ1jZcgYiXi7BtVMH_qK3klqm7GDIw-ZG58WWWQv1cjNg21CL1ErG0JbzL_oU4iYJZ-zAf-O29-W9Ebgec&s=1&enc=AZMGobnxe-n7cFzj3HMkqtA7dg6wDtOQYsjnePfdID0ES57vKrypzNmS9ETtA_4y7wqO0gKv_ePL8U1DuRTaJz-z
+    title: 'JavaScript is Assembly Language for the Web: Sematic Markup is Dead! Clean
+      vs. Machine-coded HTML -.'
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.hanselman.com%2Fblog%2FJavaScriptIsAssemblyLanguageForTheWebSematicMarkupIsDeadCleanVsMachinecodedHTML.aspx&h=ATNhUCuuOqr7ADfZYQbQ1jZcgYiXi7BtVMH_qK3klqm7GDIw-ZG58WWWQv1cjNg21CL1ErG0JbzL_oU4iYJZ-zAf-O29-W9Ebgec&s=1&enc=AZMGobnxe-n7cFzj3HMkqtA7dg6wDtOQYsjnePfdID0ES57vKrypzNmS9ETtA_4y7wqO0gKv_ePL8U1DuRTaJz-z

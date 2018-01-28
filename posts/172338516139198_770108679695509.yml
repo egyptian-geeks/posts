@@ -13,3 +13,106 @@ updated_time: '2014-06-24T14:33:01+0000'
 name: Fenix Web Server
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/770108679695509/
 id: '172338516139198_770108679695509'
+reactions:
+  data:
+  - id: '10156020325916241'
+    name: Musa Hamza
+    type: LIKE
+  - id: '10159726802330618'
+    name: Ahmed AbouZaid
+    type: LIKE
+  - id: '10215984708437373'
+    name: Ahmad El-Melegy
+    type: LIKE
+  - id: '10156207737619180'
+    name: Ahmed Al-Amir
+    type: LIKE
+  - id: '1681048438622911'
+    name: Omar El-sayed Zaki
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpReU5qYzJNalF3T2pFME1EUXlOekV4T1RFNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQXhOVE16TVRReU1qazJPakUwTURNMk1USTROek02TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2014-06-24T13:44:14+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: |-
+      Mostafa Hussein take your pick from those
+
+      https://gist.github.com/willurd/5720255
+
+      Most notably are Ruby:
+
+      ruby -run -e httpd . -p 8081
+
+      And Python 2:
+
+      python -m SimpleHTTPServer 8081
+      python -m http.server 8081 # for Python 3
+
+      Coupled with an ssh tunnel https://ngrok.com/ and you get the same thing.
+
+      That's not resilient though. They also seem to be using localtunnel, which requires a Javascript environment setup on your box, then you can easily get it via npm. ngrok is written in Go, so you get a single executable binary for your arch. without any dependencies.
+    id: '770144389691938'
+  - created_time: '2014-06-24T13:54:07+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      For Linux
+
+      > cd mydir
+      > python -m SimpleHTTPServer
+    id: '770149156358128'
+  - created_time: '2014-06-24T13:55:27+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: "^ That still doesn't solve exposing that directory to the outside world."
+    id: '770149959691381'
+  - created_time: '2014-06-24T14:31:48+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: Add this http://localtunnel.me/
+    id: '770170093022701'
+  - created_time: '2014-06-24T14:32:44+0000'
+    from:
+      name: Ahmed AbouZaid
+      id: '10159726802330618'
+    message: "**بيشيل اللايك عشان مفيش نسخة لينوكس من البرنامج :D**"
+    id: '770170629689314'
+  - created_time: '2014-06-24T14:32:51+0000'
+    from:
+      name: Ahmed AbouZaid
+      id: '10159726802330618'
+    message: ":D"
+    id: '770170676355976'
+  - created_time: '2014-06-24T14:33:01+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: Or as i mentioned above ngrok and lose the nodejs dependency.
+    id: '770170756355968'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemN3TVRRME16ZAzVOamt4T1RNNE9qRTBNRE0yTVRjME5UUT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemN3TVRjd056VTJNelUxT1RZANE9qRTBNRE0yTWpBek9ERT0ZD
+attachments:
+  data:
+  - description: Fenix is a beautiful desktop web server designed for developers and
+      designers.
+    media:
+      image:
+        height: 330
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQBQcq71R18MI3gj&w=720&h=720&url=http%3A%2F%2Ffenixwebserver.com%2Fimg%2Fwin32%2Fpreview-create.png&cfs=1&_nc_hash=AQDJfPAzVk6uaF8j
+        width: 330
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Ffenixwebserver.com%2F&h=ATOVVNov43L6RbXgzFBvup4l9mkjSx-CiB0Yk30ak8C9sTw8LkF2ALKRzc4OqlycMVf18PhvFF3PD5DobVLinFpl8QR6mmrNrZ53&s=1&enc=AZObHlWwAw_FtlZP6ql19VS9jTtiSYl79ZFyv3I6IzsivcpTYbFeiX3CALjekWshf2XQQJ27wURyHro74Jq0s8fL
+    title: Fenix Web Server
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Ffenixwebserver.com%2F&h=ATOVVNov43L6RbXgzFBvup4l9mkjSx-CiB0Yk30ak8C9sTw8LkF2ALKRzc4OqlycMVf18PhvFF3PD5DobVLinFpl8QR6mmrNrZ53&s=1&enc=AZObHlWwAw_FtlZP6ql19VS9jTtiSYl79ZFyv3I6IzsivcpTYbFeiX3CALjekWshf2XQQJ27wURyHro74Jq0s8fL

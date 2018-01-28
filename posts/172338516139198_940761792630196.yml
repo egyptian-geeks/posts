@@ -11,3 +11,147 @@ created_time: '2015-05-17T12:54:02+0000'
 updated_time: '2015-05-17T22:28:56+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/940761792630196/
 id: '172338516139198_940761792630196'
+reactions:
+  data:
+  - id: '10213109008032575'
+    name: Amr AbuMuslim
+    type: LIKE
+  - id: '10159879865770402'
+    name: Ahmed Koraïem
+    type: LIKE
+  - id: '1763959737010749'
+    name: Ahmed Mahmoud
+    type: LIKE
+  - id: '10213887918505715'
+    name: Haitham Shaaban
+    type: LIKE
+  - id: '1991655244385769'
+    name: Hanan Abozaid
+    type: LIKE
+  - id: '10210561943180042'
+    name: Muhamed Ahmed
+    type: LIKE
+  - id: '1973223889604082'
+    name: Sohaib Mohammed
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRZAeE5USTBNelV6T0RveE5ETXlNVFF5T1RnNU9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBd01EQTNORGswTnpBd05UVTRPakUwTXpFNE5qYzBNems2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2015-05-17T12:55:21+0000'
+    from:
+      name: Ahmed Mabrook
+      id: '10213056573263683'
+    message: |-
+      is that even possible ? :D
+      femtosecond ?! :v
+    id: '940761999296842'
+  - created_time: '2015-05-17T13:03:02+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: انا لحد دلوقتى مش مصدق الrunning time ده والله
+    id: '940763955963313'
+  - created_time: '2015-05-17T13:03:34+0000'
+    from:
+      name: Ahmed Mabrook
+      id: '10213056573263683'
+    message: tried more than once ? maybe it's a lag
+    id: '940764062629969'
+  - created_time: '2015-05-17T13:17:29+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: اه جربته مرتين و برضه طلع نفس الوقت :D
+    id: '940767702629605'
+  - created_time: '2015-05-17T14:41:02+0000'
+    from:
+      name: Diaa Sami
+      id: '10215834435679186'
+    message: A processor clock cycle takes a third of a nanosecond(assuming 3 GHz
+      clock), so for some lines of code amounting to ~50-100 simple instructions,
+      the runtime would be 33-66 nanoseconds (assuming 2 clocks cycles per instruction),
+      so yeah, you can wrote some simple code and their runtime is less than a millisecond
+      (or a microsecond even).
+    id: '940806585959050'
+  - created_time: '2015-05-17T15:02:58+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: that was a surprise to me, as the same CPP solution took about 6-7 ms,
+      C was 6x faster than C++
+    id: '940813115958397'
+  - created_time: '2015-05-17T15:04:12+0000'
+    from:
+      name: Diaa Sami
+      id: '10215834435679186'
+    message: |-
+      the slowest part is usually fetching things from the memory, I think it's 1000 clock cycles or so.
+      I'm mentioning this because I was asked about it in an interview recently so I wanted to share the knowledge :)
+    id: '940815159291526'
+  - created_time: '2015-05-17T15:04:56+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: oh, you were interviewing for what position?
+    id: '940815359291506'
+  - created_time: '2015-05-17T15:05:15+0000'
+    from:
+      name: Diaa Sami
+      id: '10215834435679186'
+    message: Software engineer :)
+    id: '940815422624833'
+  - created_time: '2015-05-17T15:12:01+0000'
+    from:
+      name: Diaa Sami
+      id: '10215834435679186'
+    message: I would really like to figure out why there is this big difference between
+      C and C++ especially when C++ constructs(classes, polymorphism, etc) are not
+      used.
+    id: '940816565958052'
+  - created_time: '2015-05-17T15:18:44+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: i'm curious too, if you find anything about it let me know.
+    id: '940818345957874'
+  - created_time: '2015-05-17T20:21:47+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: My c# solution took 176 ms :)
+    id: '940909529282089'
+  - created_time: '2015-05-17T21:21:39+0000'
+    from:
+      name: Shady Atef
+      id: '10213518317565801'
+    message: "Python Soln Took 60 ms :D \nhttps://gist.github.com/JerryTheMouse/5fc58078775e99a4b7ed\n\nw
+      shkly hro7 fe dahya bokra fe emt7an :D bsbb Site dah"
+    id: '940927942613581'
+  - created_time: '2015-05-17T22:28:56+0000'
+    from:
+      name: Geish
+      id: '10100126826302216'
+    message: C is as close as it gets to assembly without actually writing the solution
+      in assembly -- may be you should try the latter :)
+    id: '940948319278210'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFF3TnpZAeE9UazVNamsyT0RReU9qRTBNekU0Tmpjek1qRT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFF3T1RRNE16RTVNamM0TWpFd09qRTBNekU1TURFM016WT0ZD
+attachments:
+  data:
+  - description: "الحل بتاعى بالسى اشتغل فى 0 ms \n:D انا انبهرت والله بالحل اللى
+      ماخدش وقت خالص ده \nhttps://leetcode.com/problems/remove-nth-node-from-end-of-list/"
+    media:
+      image:
+        height: 391
+        src: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/10947403_10152875378872957_4114663796003672321_o.jpg?oh=e21a652f5dde9abd36efd6ad05a998ee&oe=5AD8366F
+        width: 720
+    target:
+      id: '10152875378872957'
+      url: https://www.facebook.com/photo.php?fbid=10152875378872957&set=gm.940761792630196&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=10152875378872957&set=gm.940761792630196&type=3

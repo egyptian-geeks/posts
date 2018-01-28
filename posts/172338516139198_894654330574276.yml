@@ -13,3 +13,83 @@ created_time: '2015-02-13T13:34:40+0000'
 updated_time: '2015-02-13T15:35:15+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/894654330574276/
 id: '172338516139198_894654330574276'
+comments:
+  data:
+  - created_time: '2015-02-13T13:48:41+0000'
+    from:
+      name: Islam AbdelMohaimen Hassan
+      id: '10214796374519514'
+    message: To solve this, I'd simply use a schema and define the user_id field in
+      foo as unique.
+    id: '894663530573356'
+  - created_time: '2015-02-13T15:13:52+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: if it's unique it'll refuse the newly added fields
+    id: '894692653903777'
+  - created_time: '2015-02-13T15:14:43+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: |-
+      The scenario is happening in MeteorJs using collectionsfs
+      I am trying to add profile pictures to the users.
+      I want it fast and async =D.
+    id: '894692890570420'
+  - created_time: '2015-02-13T15:17:14+0000'
+    from:
+      name: Islam AbdelMohaimen Hassan
+      id: '10214796374519514'
+    message: I didn't use collectionsfs before, but I think the schema solution works
+      in meteor too.
+    id: '894693657237010'
+  - created_time: '2015-02-13T15:18:30+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: |-
+      there's unique for meteor, I didn't use it yet but I'll give it a spin "I usually don't use schema in mongo"
+      but seriously is there's another option?.
+      Because I read this file
+      https://github.com/meteor/meteor/blob/devel/packages/accounts-base/accounts_server.js#L1136
+
+      this is accounts in Meteor and it seems that inserting with a uniqie will give and exception of duplicates, but I do want to replace immediately "I don't want to remove the duplicate in try block"
+    id: '894693927236983'
+  - created_time: '2015-02-13T15:21:53+0000'
+    from:
+      name: Islam AbdelMohaimen Hassan
+      id: '10214796374519514'
+    message: I don't know if there's something more efficient, you can always query
+      foo for objects containing user_id=x before creating new foo but I don't think
+      that'd be an efficient solution.
+    id: '894694717236904'
+  - created_time: '2015-02-13T15:23:02+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: "Islam AbdelMohaimen Hassan I thought of a cron job that runs daily cleaning
+      the mess. \nbut I am in doubt of it's efficiency"
+    id: '894695000570209'
+  - created_time: '2015-02-13T15:29:21+0000'
+    from:
+      name: Islam AbdelMohaimen Hassan
+      id: '10214796374519514'
+    message: I'm no expert, but IMHO I don't think the cron job solution will be efficient,
+      I usually go for the most obvious and simple solution, that'd be the unique
+      modifier or query for existing foos before creating a new one, or in this special
+      case you can simply use meteor accounts and add a profile_pic field in the user.profile
+      object.
+    id: '894697153903327'
+  - created_time: '2015-02-13T15:35:15+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: "I already do that the issue is the redundant data \nI need to upload
+      using collection fs \"It's the most customizable there\".\n\nI'll give the hooks
+      a try"
+    id: '894699267236449'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGswTmpZAek5UTXdOVGN6TXpVMk9qRTBNak00TXpVek1qRT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGswTmprNU1qWTNNak0yTkRRNU9qRTBNak00TkRFM01UVT0ZD

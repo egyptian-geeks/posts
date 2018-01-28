@@ -17,3 +17,32 @@ created_time: '2015-08-05T05:46:48+0000'
 updated_time: '2015-08-05T09:03:38+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/984562558250119/
 id: '172338516139198_984562558250119'
+comments:
+  data:
+  - created_time: '2015-08-05T07:26:52+0000'
+    from:
+      name: Maher Mohamed Gamal
+      id: '1772996012725233'
+    message: It depends on which scala version you're using.
+    id: '984584191581289'
+  - created_time: '2015-08-05T08:01:59+0000'
+    from:
+      name: Anas Rabei
+      id: '771652519692786'
+    message: Scala 2.11.6 .
+    id: '984595204913521'
+  - created_time: '2015-08-05T09:03:38+0000'
+    from:
+      name: Anas Rabei
+      id: '771652519692786'
+    message: I think I solved the problem. The only Scala version installed on my
+      machine is 2.11.6. The java application (which is maven application) contains
+      dependency to another version of scala-library (usually I am putting the latest
+      version I found in http://mvnrepository.com/) When I changed the version in
+      the POM file to match the installed version on my machine every thing works
+      fine :D :D
+    id: '984655201574188'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVGcwTlRnME1Ua3hOVGd4TWpnNU9qRTBNemczTlRrMk1UST0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVGcwTmpVMU1qQXhOVGMwTVRnNE9qRTBNemczTmpVME1UZAz0ZD

@@ -10,3 +10,98 @@ updated_time: '2014-02-13T01:57:15+0000'
 name: EslaMx7/ScreenTask
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/700274580012253/
 id: '172338516139198_700274580012253'
+reactions:
+  data:
+  - id: '10155729844185546'
+    name: Kareem Kashwaa
+    type: LIKE
+  - id: '1532825676787208'
+    name: Mohamed Badawi
+    type: LIKE
+  - id: '2015853231776327'
+    name: Mohamed Hafez
+    type: LIKE
+  - id: '10155880569740170'
+    name: Meligy
+    type: LIKE
+  - id: '10155029730871786'
+    name: Mohammed Abdel-Aleem
+    type: LIKE
+  - id: '2464165023808087'
+    name: Ahmed Saeed
+    type: LIKE
+  - id: '1937368159611054'
+    name: Ahmed Sherif
+    type: LIKE
+  paging:
+    cursors:
+      before: TnpJeE5qQTFOVFExT2pFek9USXlPRGt4TURrNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQXdNVE0yTmpVMk1UWTFPakV6T1RJeU5EQXhOekk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2014-02-12T22:28:55+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: |-
+      Nice work, any reason why you picked the approach of canning multiple screenshots and pushing that to the browser?
+
+      Regarding your firewall rule, it's worrisome.. UX wise, it'd be nice to put a description for the rule.
+      From a security stand point, why aren't you specifying your program as the only candidate for the network activity?
+      You are also not specifying a profile.
+    id: '700297863343258'
+  - created_time: '2014-02-12T22:37:59+0000'
+    from:
+      name: Eslam Hamouda
+      id: '10212947071504226'
+    message: |-
+      Thanks a lot for your feedback , regarding the firewall rules i spent most of time testing a lot of options , the most pain-full one when i specify the path for my app [it really doesn't work for me on other devices on the same network] unless i choose to allow all applications that matches the rule [ and still can't figure out why !] , i really want to be more specified on some options of the rule but i have ended up using the defaults and let Windows decide , the most attribute i was care about is to make remoteip=localsubnet to prevent public access.
+      it will be great if you tried to delete my rule and create a custom one and try to figure out the problem then fork the code with solution if you have time , i really appreciate your words :)
+    id: '700300753342969'
+  - created_time: '2014-02-12T22:44:29+0000'
+    from:
+      name: Eslam Hamouda
+      id: '10212947071504226'
+    message: about the reason of this stupid heavy-weight approach , i don't have
+      enough experience with image processing to compare which parts of the image
+      has been changed and send the differents only to save some bandwidth , also
+      with a Non-Internet Network you will not care about mass requests which for
+      this reason i picked up this one and works smoothly , also i was thinking of
+      using SignalR & WebAPI(Self-Hosting) but i ended up building my own Web Server!
+    id: '700302633342781'
+  - created_time: '2014-02-13T01:57:15+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: |-
+      Mohamed Elkady that's not very nice of you. Unless you have something to contribute to a thread, please don't derail one off topic. You're always free to start a thread of your own.
+
+      Eslam Hamouda  I haven't touched windows (or .net for that matter) in an awfully long time but thanks for the invitation to contribute :) Much appreciated.
+
+      That might give you some pointers http://technet.microsoft.com/en-us/library/dd734783(v=ws.10).aspx#BKMK_3_add
+
+      Do you manually type out the application's path or use something more generalized?
+
+      As for the approach, sending part of the image would prompt you to assemble the image on the client side which will end up being a hassle unless you use some creative approach (like maybe dividing your screen up into squares, as for the client side you'll end up with a canvas as your best approach)
+
+      Have you considered sending a video stream? That might involve some DX or if windows has some device API I'm not aware of that can let you capture the monitor as a video stream.
+      Now streaming that over to the client becomes a painless process and receiving that into a video tag on the client side is just about as easy as it gets.
+    id: '700388676667510'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekF3TWprM09EWXpNelF6TWpVNE9qRXpPVEl5TkRReE16VT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekF3TXpnNE5qYzJOalkzTlRFd09qRXpPVEl5TlRZAMk16VT0ZD
+attachments:
+  data:
+  - description: ScreenTask - Desktop App in C# to Share Your Screen With Your Friends
+      Inside The Internal Network.
+    media:
+      image:
+        height: 720
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQA4yCWwRso5rkAo&w=720&h=720&url=https%3A%2F%2Fraw2.github.com%2FEslaMx7%2FScreenTask%2Fmaster%2FScreenTask%2FScreenTaskWebUI.png&cfs=1&_nc_hash=AQAylGM6F0ollhwb
+        width: 720
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2FEslaMx7%2FScreenTask&h=ATPGXcTl1U8VviekwJ72f8Sb-lAKrxRT3GJrHxX0nZMJCv2MRUHVXFIuwkgBQi0Rpcf-COpJHBJQHu7u_PgOwBZk3zBYKJiGHufK&s=1&enc=AZOWuCPQnFn7cRLVTFMrDPygPLlmTpvsEzfYJrbpWeP5C8UnftbJRH3ge4JfvzLo4wqkZ9ATraLVvzTVnMUTWJBG
+    title: EslaMx7/ScreenTask
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2FEslaMx7%2FScreenTask&h=ATPGXcTl1U8VviekwJ72f8Sb-lAKrxRT3GJrHxX0nZMJCv2MRUHVXFIuwkgBQi0Rpcf-COpJHBJQHu7u_PgOwBZk3zBYKJiGHufK&s=1&enc=AZOWuCPQnFn7cRLVTFMrDPygPLlmTpvsEzfYJrbpWeP5C8UnftbJRH3ge4JfvzLo4wqkZ9ATraLVvzTVnMUTWJBG

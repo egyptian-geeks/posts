@@ -9,3 +9,58 @@ created_time: '2014-11-23T15:21:05+0000'
 updated_time: '2014-11-23T16:22:40+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/850338938339149/
 id: '172338516139198_850338938339149'
+comments:
+  data:
+  - created_time: '2014-11-23T15:29:25+0000'
+    from:
+      name: Mohab Elkaref
+      id: '10159932941280506'
+    message: The chrome executable itself can take arguments. You can simply give
+      it a url/filepath and it would open in a new tab if the browser was already
+      open.
+    id: '850342871672089'
+  - created_time: '2014-11-23T15:31:21+0000'
+    from:
+      name: Sherif Talaat
+      id: '10159868049405564'
+    message: Thanks Mohab :)
+    id: '850343518338691'
+  - created_time: '2014-11-23T15:37:13+0000'
+    from:
+      name: Sherif Talaat
+      id: '10159868049405564'
+    message: Mohab Elkaref, does it mean that for each tab I need to start a new chrome
+      process ?!
+    id: '850345228338520'
+  - created_time: '2014-11-23T15:40:13+0000'
+    from:
+      name: Mohab Elkaref
+      id: '10159932941280506'
+    message: Unfortunately, yes. Chrome treats every tab as it's own separate process,
+      but they all have 1 parent process. You can verify that by opening the task
+      manager and looking at the process tree. It's one of the many reasons why Chrome
+      is such a memory hog.
+    id: '850345915005118'
+  - created_time: '2014-11-23T15:43:44+0000'
+    from:
+      name: Sherif Talaat
+      id: '10159868049405564'
+    message: trust me .. Chrome comparing too IE is not consuming any memory :) :)
+      :)
+    id: '850347201671656'
+  - created_time: '2014-11-23T15:47:52+0000'
+    from:
+      name: Mohab Elkaref
+      id: '10159932941280506'
+    message: Hahaha touché! :D
+    id: '850349128338130'
+  - created_time: '2014-11-23T16:22:40+0000'
+    from:
+      name: Sherif Talaat
+      id: '10159868049405564'
+    message: edrab dah :) wp.me/potQE-6E
+    id: '850363651670011'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFV3TXpReU9EY3hOamN5TURnNU9qRTBNVFkzTlRZAMU5qVT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFV3TXpZAek5qVXhOamN3TURFeE9qRTBNVFkzTlRrM05qQT0ZD

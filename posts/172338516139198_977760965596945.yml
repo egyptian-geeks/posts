@@ -6,9 +6,105 @@ from:
   name: Mohamed Atef Abd ElWahab
   id: '10156191599532048'
 type: link
-picture: https://external.xx.fbcdn.net/safe_image.php?w=130&h=130&url=http%3A%2F%2Fi3.asp.net%2Fimages%2Fui%2Fasplogo-square.png%3Fcdn_id%3D2015-07-02-001&cfs=1&_nc_hash=AQA3iiHJSmWoX3-V
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQDqFdjSkI-5w7z6&w=130&h=130&url=http%3A%2F%2Fi3.asp.net%2Fimages%2Fui%2Fasplogo-square.png%3Fcdn_id%3D2015-07-02-001&cfs=1&_nc_hash=AQD2xyFhxcRFrY3s
 created_time: '2015-07-23T19:33:33+0000'
 updated_time: '2015-07-24T05:22:34+0000'
 name: The Official Microsoft ASP.NET Site
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/977760965596945/
 id: '172338516139198_977760965596945'
+reactions:
+  data:
+  - id: '10213861471464409'
+    name: Mohamed Shaban
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBek5qYzVOREV3T1RveE5ETTNOamcxTWpnMU9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBek5qYzVOREV3T1RveE5ETTNOamcxTWpnMU9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2015-07-23T22:18:10+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: What is the question?
+    id: '977828725590169'
+  - created_time: '2015-07-23T23:56:35+0000'
+    from:
+      name: Mohamed Atef Abd ElWahab
+      id: '10156191599532048'
+    message: I want to connect to a database     on server using a asp.net web api
+      i want to know what should i do in my Javascript code to connect to the api
+    id: '977875265585515'
+  - created_time: '2015-07-24T04:47:58+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Well.. Just make an Ajax call to the address of the API I guess. Is that
+      really the question?
+    id: '977997198906655'
+  - created_time: '2015-07-24T04:48:59+0000'
+    from:
+      name: Mohamed Atef Abd ElWahab
+      id: '10156191599532048'
+    message: i did but it is not working :/ i am not a stupid but i tried more and
+      more in no vain
+    id: '977997325573309'
+  - created_time: '2015-07-24T04:50:06+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      I mean: which piece is missing? How to make an Ajax call? How to host the API? How to get the URL?
+
+      What is the error or the problem?
+    id: '977997535573288'
+  - created_time: '2015-07-24T04:52:07+0000'
+    from:
+      name: Mohamed Atef Abd ElWahab
+      id: '10156191599532048'
+    message: i hosted the api and it supposed to return a json that contains hello
+      world when i open it using internet explorer i can download the json object
+      and see "hello World" but when i call it from javascript i got error instead
+      of success function :/
+    id: '977997878906587'
+  - created_time: '2015-07-24T04:59:29+0000'
+    from:
+      name: Mohamed Atef Abd ElWahab
+      id: '10156191599532048'
+    message: |-
+      here is my Api  Mohamed Meligy
+
+      http://myservice.gear.host/api/HelloWorld
+    id: '977999162239792'
+  - created_time: '2015-07-24T05:14:08+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Have you see the accept request header to json?
+    id: '978007168905658'
+  - created_time: '2015-07-24T05:22:34+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: If you are trying on the phone, try accessing the URL from the phone
+      directly. Also try the page in the desktop browser
+    id: '978009022238806'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVGMzT0RJNE56STFOVGt3TVRZANU9qRTBNemMyT0RrNE9UQT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVGM0TURBNU1ESXlNak00T0RBMk9qRTBNemMzTVRVek5UUT0ZD
+attachments:
+  data:
+  - description: ASP.NET is a free web framework for building great Web sites and
+      Web applications using HTML, CSS and JavaScript.
+    media:
+      image:
+        height: 248
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQCzdYH_2R6ZHQkK&w=720&h=720&url=http%3A%2F%2Fi3.asp.net%2Fimages%2Fui%2Fasplogo-square.png%3Fcdn_id%3D2015-07-02-001&cfs=1&_nc_hash=AQBMcckROxV_F1Yi
+        width: 248
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fasp.net%2F&h=ATM9m0-xXUHP_yeIswbbisAKqVnwIJQ2lW-E4nDOlCn6HKhv9qzpqDLIgteeIq66aYnUAouXtsRT3wkX_FhcGbHoHSlXJmuOxAya&s=1&enc=AZMl-LhW7gBUX72vPvS6B015KtLUOZtHIxhwnvqz9x1E0DrJHV72GB9iFzSz2hWYflSS0PuiRmAO9i4OLKplu_8p
+    title: The Official Microsoft ASP.NET Site
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fasp.net%2F&h=ATM9m0-xXUHP_yeIswbbisAKqVnwIJQ2lW-E4nDOlCn6HKhv9qzpqDLIgteeIq66aYnUAouXtsRT3wkX_FhcGbHoHSlXJmuOxAya&s=1&enc=AZMl-LhW7gBUX72vPvS6B015KtLUOZtHIxhwnvqz9x1E0DrJHV72GB9iFzSz2hWYflSS0PuiRmAO9i4OLKplu_8p

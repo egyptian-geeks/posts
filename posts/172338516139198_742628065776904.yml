@@ -19,3 +19,152 @@ created_time: '2014-05-07T15:31:08+0000'
 updated_time: '2014-05-09T04:02:29+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/742628065776904/
 id: '172338516139198_742628065776904'
+reactions:
+  data:
+  - id: '10215438789260604'
+    name: Mohamed Salah
+    type: LIKE
+  - id: '2056383471040184'
+    name: Mostafa OutLaw
+    type: LIKE
+  - id: '627907956'
+    name: Emad Elsaid
+    type: LIKE
+  - id: '1578279322250870'
+    name: Ahmed Bahnasy
+    type: LIKE
+  - id: '1699074346827689'
+    name: Mohsen Tareq
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRFMk16ZAzJPVGc1TWpveE16azVOVFF4TmpZAeU9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBd01EQXhOelUwTWpFM09UQTFPakV6T1RrME56YzVOelU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2014-05-07T15:32:30+0000'
+    from:
+      name: Mohamed Sameeh Sharaf
+      id: '2167550119925504'
+    message: طيب ممكن تحط اللينك علشان نتأكد :D
+    id: '742628642443513'
+  - created_time: '2014-05-07T15:32:56+0000'
+    from:
+      name: Ahmed Gaber
+      id: '10152079006144157'
+    message: هههههههههههههه بشوفها والله
+    id: '742628792443498'
+  - created_time: '2014-05-07T15:39:19+0000'
+    from:
+      name: Mohamed Sameeh Sharaf
+      id: '2167550119925504'
+    message: '"بدون حذف والله" الشعب المصرى دا عظيم والله بجد عظيم :D'
+    id: '742631472443230'
+  - created_time: '2014-05-07T15:40:01+0000'
+    from:
+      name: Ahmed Gaber
+      id: '10152079006144157'
+    message: الكود طلع تركي :D, بس صاحب اللينك مصري وش, ابداااااع
+    id: '742631712443206'
+  - created_time: '2014-05-07T15:49:34+0000'
+    from:
+      name: Ahmed Gaber
+      id: '10152079006144157'
+    message: |-
+      خدوا دي كمان, السكربت بيستخدم ابليكشن التويتر اللي بيبعت علي الفيسبوك
+      https://apps.facebook.com/twitter/
+    id: '742636742442703'
+  - created_time: '2014-05-07T15:53:22+0000'
+    from:
+      name: Mohsen Tareq
+      id: '1699074346827689'
+    message: مفكرتش اخش اصلا
+    id: '742639179109126'
+  - created_time: '2014-05-07T18:05:33+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: It's weird how the FB JavaScript SDK works, it doesn't require the client
+      secret at all (if it did, people would see it in View Source anyways) which
+      makes it possible to make the user login to another app (and post stuff) because
+      the app id is easy to know, this doesn't make sense, am I missing something?
+    id: '742683422438035'
+  - created_time: '2014-05-07T21:18:44+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Our localized version of http://www.troyhunt.com/2012/10/she-did-what-in-school-mechanics-of.html
+      :D
+    id: '742746862431691'
+  - created_time: '2014-05-07T21:22:31+0000'
+    from:
+      name: Ahmed Gaber
+      id: '10152079006144157'
+    message: ههههههههههههههههههه بس الاجنبي يكسب الصراحه :D
+    id: '742748215764889'
+  - created_time: '2014-05-07T21:44:01+0000'
+    from:
+      name: Ahmed Gaber
+      id: '10152079006144157'
+    message: |-
+      الهوم عندي غرقان اللينك ده:D
+      انا عايز افهم ازاي بياخد اكسس تةكن بتاعه ابليكشن تاني؟ جيكس الفيس, حد يفهمني الله يخليكم
+    id: '742756945764016'
+  - created_time: '2014-05-07T23:03:41+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: I dug around for 1.5 minutes and found that the JavaScript SDK make the
+      dev show a login screen with just the app id (without the client secret), and
+      it's very easy to know other app's app id, that's probably how he impersonated
+      twitter, what I don't understand this how would facebook allow this kind of
+      login, that why I feel like I'm missing a piece of info. (my experience with
+      the FB SDK is limited to the server side)
+    id: '742780569094987'
+  - created_time: '2014-05-09T04:02:29+0000'
+    from:
+      name: Eslam Hamouda
+      id: '10212947071504226'
+    message: "as i commented before , i have reported this bug year ago , this was
+      my message : \n\ni have discovered a security bug about apps on facebook platform
+      that i can use any App without knowing the App Secret by just knowing the App
+      ID (and that's so clear on any app link you find the id on the end of the link)
+      from desktop applications.\n\nthe details : (tested on TweetDeck App.)\n\ni
+      found that i didn't need to include the app secret in the login url started
+      with \"m\" not \"www\"for desktop applications and the \"response_type=token\"
+      , so i added more permissions to the scope like \"manage_pages\" , it successfully
+      redirected me to the login page then to allow to the extra permissions i added
+      in the link , then i got a WORKING access_token returned on the url after \"#access_token=\"
+      , i take this access_token and tried to get all my pages and worked then i start
+      to share content on the pages and successfully shared via TweetDeck in my case.\n\nthe
+      point that anyone can make any Desktop Fake App. and use the real application
+      for sharing stuff , and he knows it's impossible that application like TweetDeck
+      from Twitter Inc. could be banned or restricted . so it may be used to share
+      a lot of spam content by the users they have a lot of pages or groups, and i
+      already tested this by users have more than 200 page and shared the same post
+      [with images,links] on the same time and all successfully posted !.\n\nany technical
+      additions you need i could explain farther .\n\nRESPONSE : \nHi Eslam,\n\nThe
+      problem here is how you get the token. You might be able to fool people into
+      authorizing a legitimate app for extra permissions, but how do you harvest the
+      resulting token and use it to make those requests? \nAdditionally, we have monitoring
+      systems in place to help detect attacks spreading at large scales, even if they
+      involve legitimate apps, and can respond in a variety of ways to limit their
+      impact.\n\nأعتقد ان الوضع اختلف دلوقتي وما المشكلة ما بقيتش محتاجة ديسكتوب أبلكيشن
+      , بس عشان يقللوا الموضوع نزلوا أوبشن جديد في التطبيقات من فترة اسمه Client OAuth
+      Login \nلو مطور التطبيق لغاه ماحدش هيقدر يحصل على أي صلاحيات الا لما يكون معاه
+      App Secret\nوللأسف أغلب التطبيقات الكبيرة والمشهورة كانت شغاله من غيره قبل كده
+      وأغلبهم ليه ديسكتوب أبلكيشن فلو فعلوا الأوبشن ده  ممكن يحصل مشاكل , لكنه مفيد
+      للتطبيقات الجديدة لو عاوزة تحمي نفسها من النوع ده من الهجمات.\n\nيعني بإختصار
+      المشكلة في OAuth flow\nالمفروض يراجعوا نفسهم فيه\n\nكمان هتلاقي عندك في صفحة
+      المطورين Graph Explorer \nالمفروض انه بيخليك تحصل على أكسس توكن لأي تطبيق من
+      بتوعك , لو شوفت الريكوست اللي بيتبعت بـ Fiddler \nوغيرت ال App ID \nبأي أبلكيشن
+      تاني تكون انت مشترك فيه ومديله صلاحيات قبل كده زي ساوند كلاودم مثلاً , هيجيلك
+      الأكسس تكون بتاعتك عليه :D\nبس ولاد التيت عاملين حركة صايعة تخليك ما تقدرش تستخرج
+      الأكسس تكون ده بأي طريقة بالجافا سكريبت وقافلين JSONP \nحاجة زي دي مثلاً لو
+      حد لقى فيها ثغرة واستخدم صلاحيات أبلكيشن الموبيل خلاص شكراً كده يقدر يعمل الجلاشة
+      مع أي حد :D"
+    id: '743363072370070'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOelF5TmpJNE5qUXlORFF6TlRFek9qRXpPVGswTnpZAM05UQT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOelF6TXpZAek1EY3lNemN3TURjd09qRXpPVGsyTURneE5Eaz0ZD

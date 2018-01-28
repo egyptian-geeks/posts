@@ -10,3 +10,19 @@ updated_time: '2013-07-18T16:15:26+0000'
 name: 5 Coding Hacks to Reduce GC Overhead | Takipi Blog
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/595466927159686/
 id: '172338516139198_595466927159686'
+attachments:
+  data:
+  - description: In this post we’ll look at five ways in which we can use efficient
+      coding to help our garbage collector spend less CPU time allocating and freeing
+      memory, and reduce GC overhead. Long GCs can often lead to our code being stopped
+      while memory is reclaimed (AKA “stop the world”)
+    media:
+      image:
+        height: 579
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAI0qdH31ga569A&w=720&h=720&url=http%3A%2F%2Fblog.takipi.com%2Fwp-content%2Fuploads%2F2013%2F03%2FTakipi_Blog.jpg&cfs=1&_nc_hash=AQCaKv_gl_2cL1ib
+        width: 579
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.takipiblog.com%2F2013%2F07%2F18%2F5-coding-hacks-to-reduce-gc-overhead%2F&h=ATOMceNxTejsvDn0HDUtXzY_uiG7FE7CzG9pqsSKHTW-eQUU-CkXveOp00HdgZEWTIMInDC96nWPmSL8XSZgjAgzmWYvMnMAYmHR&s=1&enc=AZPIUhKhaJ3niHGFpu3jer2TfNZIs0wQsZL-g16Vy7Y5yLOnZBGMJcYH59qwUcAPStaTs7AZTuTK7wacuMdXZHyR
+    title: 5 Coding Hacks to Reduce GC Overhead | Takipi Blog
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.takipiblog.com%2F2013%2F07%2F18%2F5-coding-hacks-to-reduce-gc-overhead%2F&h=ATOMceNxTejsvDn0HDUtXzY_uiG7FE7CzG9pqsSKHTW-eQUU-CkXveOp00HdgZEWTIMInDC96nWPmSL8XSZgjAgzmWYvMnMAYmHR&s=1&enc=AZPIUhKhaJ3niHGFpu3jer2TfNZIs0wQsZL-g16Vy7Y5yLOnZBGMJcYH59qwUcAPStaTs7AZTuTK7wacuMdXZHyR

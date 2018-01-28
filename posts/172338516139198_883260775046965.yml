@@ -11,3 +11,109 @@ permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/88326077
 shares:
   count: 2
 id: '172338516139198_883260775046965'
+reactions:
+  data:
+  - id: '10215812029993258'
+    name: عز وحيد
+    type: LIKE
+  - id: '10155853377281955'
+    name: Ahmed Ezz
+    type: LIKE
+  - id: '10156476353501062'
+    name: Tarik Ibrahim
+    type: LIKE
+  - id: '1763959737010749'
+    name: Ahmed Mahmoud
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRJeE9Ua3pNRFEwTVRveE5ESXhOemc0T1RneE9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBd01EQXhPVEF5TVRrM05Ea3lPakUwTWpFM01ESXdOalE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2015-01-19T21:08:36+0000'
+    from:
+      name: Ammar Youssef
+      id: '10155097484932190'
+    message: https://github.com/Redth/PushSharp
+    id: '883263258380050'
+  - created_time: '2015-01-19T23:08:13+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      You can use Microsoft SignalR on Android & iOS
+
+      https://github.com/SignalR/java-client
+      https://github.com/DyKnow/SignalR-ObjC
+    id: '883292691710440'
+  - created_time: '2015-01-19T23:11:19+0000'
+    from:
+      name: Ammar Youssef
+      id: '10155097484932190'
+    message: |-
+      SignalR بيعمل real-time app
+      هو بيسأل عن
+      Push Notification
+      يعني حاجة تكلم سيرفر جوجل وأبل عشان تبعت تنبيهات.. والتنبيهات يعني البرنامج مغلق
+      SignalR  بيحتاج ان البرنامج يكون شغال
+    id: '883293431710366'
+  - created_time: '2015-01-19T23:40:14+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: Try pushbots
+    id: '883302388376137'
+  - created_time: '2015-01-20T00:09:10+0000'
+    from:
+      name: Kariem Soudy
+      id: '10159924320535274'
+    message: |-
+      This is for google push notification
+
+      There are some keys u get from google when u create the project in developer console
+
+      WebRequest tRequest = WebRequest.Create("https://android.googleapis.com/gcm/send");
+                      tRequest.Method = "post";
+                      tRequest.ContentType = " application/x-www-form-urlencoded;charset=UTF-8";
+                      tRequest.Headers.Add(string.Format("Authorization: key={0}", SERVER_API_KEY));
+                      tRequest.Headers.Add(string.Format("SenderID: id={0}", SENDER_ID_PROJECT_NUMBER));
+
+                      string postData = @"collapse_key=" + DateTime.Now.ToString("hhmmssmmmm") + "&delay_while_idle=false&data.message=" + HttpUtility.UrlEncode(MessageCombinedWithREQID) + @"&registration_id=" + device_Id + "";
+
+                      Byte[] byteArray = Encoding.UTF8.GetBytes(postData);
+                      tRequest.ContentLength = byteArray.Length;
+                      Stream dataStream = tRequest.GetRequestStream();
+                      dataStream.Write(byteArray, 0, byteArray.Length);
+                      dataStream.Close();
+                      WebResponse tResponse = tRequest.GetResponse();
+                      dataStream = tResponse.GetResponseStream();
+                      StreamReader tReader = new StreamReader(dataStream);
+                      String sResponseFromServer = tReader.ReadToEnd();
+                      string response = sResponseFromServer; //response from GCM server.
+                      tReader.Close();
+                      dataStream.Close();
+                      tResponse.Close();
+                      ////////////////////////////////////////////////
+    id: '883313525041690'
+  - created_time: '2015-01-20T05:38:09+0000'
+    from:
+      name: Ahmed Ali Ragheb
+      id: '10156148250158724'
+    message: |-
+      Also you can use Parse Service .. it has an Android and IOS SDk .. and restful API to push notification from C#.
+      http://parse.com/
+    id: '883400795032963'
+  - created_time: '2015-01-20T10:32:46+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      Azure Notification Hubs gives you Push Notification for iOS, Android and Windows Phone (and Windows 8) and has libraries for all backends (including .Net of course) and has a free plan which gives you 1 million notifications per month :)
+      http://azure.microsoft.com/en-us/pricing/details/notification-hubs/
+      I haven't tried it myself though, but it will be the first thing I try when I need this functionality :)
+    id: '883464528359923'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGd6TWpZAek1qVTRNemd3TURVd09qRTBNakUzTURFM01UWT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGd6TkRZAME5USTRNelU1T1RJek9qRTBNakUzTkRrNU5qWT0ZD

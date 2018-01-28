@@ -10,3 +10,110 @@ created_time: '2015-05-28T13:38:07+0000'
 updated_time: '2015-05-31T11:49:17+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/947726755267033/
 id: '172338516139198_947726755267033'
+comments:
+  data:
+  - created_time: '2015-05-28T14:00:12+0000'
+    from:
+      name: Mohammed Ragab
+      id: '2020898428198432'
+    message: read group roles ,and try to search in google firstly
+    id: '947733435266365'
+  - created_time: '2015-05-28T14:01:27+0000'
+    from:
+      name: Ibra de Sabry
+      id: '10209511967150706'
+    message: ok
+    id: '947733811932994'
+  - created_time: '2015-05-28T14:38:45+0000'
+    from:
+      name: Muhammad Sherbeeny
+      id: '10159810258355527'
+    message: Google "prevent concurrent login"
+    id: '947743891931986'
+  - created_time: '2015-05-28T15:46:04+0000'
+    from:
+      name: Amir Mohamed Atia
+      id: '10155967624789840'
+    message: هتعمل جدول تسجل فيه ال id بتاع اليوزر اللي داخلين حاليا وهتعملهم حذف
+      من الجدول وهم خارجين مثلا بحيث لما يجي يوزر داخل ابحث الاول في الجدول اشوفه
+      موجود ولا لاء
+    id: '947762918596750'
+  - created_time: '2015-05-28T15:56:35+0000'
+    from:
+      name: Ibra de Sabry
+      id: '10209511967150706'
+    message: انا عملت حاجة زي كدا فعلا ... بس عملت Column اسمه IsLoggedin في جدول
+      اليوزرز بالفعل ونوعه bit >>> بس المشكلة لو اليوزر معملش لوج اوت ... لو مثلا
+      قفل البراوزر او السيشن بتاعته خلصت ... مش هيعرف يعمل لوجن تاني ..
+    id: '947765158596526'
+  - created_time: '2015-05-28T17:00:02+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: "هتعمل جدول اسمه access_tokens فيه بتحط رقم المستخدم و accesstoken \nكل
+      لما مستخدم يعمل login هتغير الaccesstoken دى بواحدة جديدة ابقى اعملها بحروف
+      و ارقام عشوائية.\nكل لما المستخدم يدخل على بيدج شوف هل ال access_token اللى
+      انت حاطتها فى ال session اول مادخل لسة موجودة ولا لأ لو مش موجودة اعمله logout
+      ، \nكده لو مستخدم دخل من جهاز -أ- و بعدين دخل من جهاز -ب- لو حاول يدخل على اى
+      بيدج من الجهاز -أ- تانى السيستيم مش هيسمحله و هيفضل داخل من الجهاز -ب-"
+    id: '947784348594607'
+  - created_time: '2015-05-28T19:13:23+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: 'It doesn''t have to with language. U generate a flag: isLoggedin and
+      before login the user always check the value is false'
+    id: '947828078590234'
+  - created_time: '2015-05-28T22:44:31+0000'
+    from:
+      name: Ahmed Ibrahim
+      id: '1553986601317720'
+    message: One session per username
+    id: '947885048584537'
+  - created_time: '2015-05-28T23:55:29+0000'
+    from:
+      name: Khaled M. Diab
+      id: '10215626626127168'
+    message: "As Mohamed suggested a simple bit would suffice. To solve the problem
+      you said about not logging out, add a timeout value to the session. If the user
+      logs in, set isLogged to True and set a timestamp. When that user keeps using
+      the website, update the timestamp with the current time. The timestamp is the
+      measure of user interactivity with the system.\nIf another user with same name
+      within the defined timeout (say 5 second: CurrentTime - Timestamp <= 5) tries
+      to log in, discard him. Otherwise, accept him if his credentials are correct.\nThe
+      final solution would be: add a session table, with user_id, isLoggedIn, lastActivity_Timestamp,
+      any information for that session like location etc... \nNote 1: make sure that
+      the timestamp uses one clock (say UTC) for synchronization issues...\nNote 2:
+      I assume either you use ACID database like mysql, or CP datastore like zookeeper.
+      If you use AP datastores, this solution may incur inconsistency issues (two
+      users may be logged in to the same account at the same time).\nNote 3: I assume
+      that you want the first logged in session to be the primary one, so that the
+      second user will not override the first logged in session."
+    id: '947904165249292'
+  - created_time: '2015-05-31T11:44:23+0000'
+    from:
+      name: Ibra de Sabry
+      id: '10209511967150706'
+    message: شكرا يا Emad ... مشيت بالطريقة اللي انت قولت عليها بس عملتها في نفس جدول
+      اليوزرز علطول ... معملتش جدول منفصل ... شكرا جدا لمساعدتك ... وشكرا لكل الناس
+      اللي عملت كومنتات عشان تساعد :D :D
+    id: '949872138385828'
+  - created_time: '2015-05-31T11:45:52+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: الطريقة بتاعة الجدول المنفصل دى بتبقى extensible اكتر علشان ممكن تخلى
+      بعد كده كل مستخدم ليه اكتر من access_token واحدة للديسكتوب و واحدة للموبايل
+      مثلآ و ممكن تشوز لكل access_token وقت تexpire بعده اوتوماتيك، بس انك تعملها
+      فى نفس الجدول هتشتغل برضه زى الفل، بالتوفيق يا ريس
+    id: '949872428385799'
+  - created_time: '2015-05-31T11:49:17+0000'
+    from:
+      name: Ibra de Sabry
+      id: '10209511967150706'
+    message: تمام يا باش مهندس ... شكرا تعبتك معايا :)
+    id: '949879218385120'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFEzTnpNek5ETTFNalkyTXpZAMU9qRTBNekk0TWpFMk1UST0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFE1T0RjNU1qRTRNemcxTVRJd09qRTBNek13TnpJNU5UYz0ZD

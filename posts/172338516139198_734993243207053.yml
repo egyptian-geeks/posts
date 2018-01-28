@@ -12,3 +12,159 @@ created_time: '2014-04-22T12:52:36+0000'
 updated_time: '2014-04-24T23:34:18+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/734993243207053/
 id: '172338516139198_734993243207053'
+comments:
+  data:
+  - created_time: '2014-04-22T13:18:36+0000'
+    from:
+      name: Alaa Ali
+      id: '10156025239731303'
+    message: web sockets with polyfill for older browsers
+    id: '735000783206299'
+  - created_time: '2014-04-22T13:20:46+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: As said in other comments, sockets are better but you'll need a workaround
+      for old browser. I wouldn't worry myself about the details and would use a framework
+      that encapsulates this for me. For every server framework there's at least one
+      option, like SignalR in .NET, socket.io for Node, etc.
+    id: '735001336539577'
+  - created_time: '2014-04-22T13:35:11+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: |-
+      i've tried websockets using socket.io it has no problem with old browsers (as i may remeber it's now supports firefox old versions) also this is not the problem. i'm just asking about performance wise and the concept itself. i've an argument with a friend of mine about it, he was talking about the cost of the opened socket with the browser. but does this cost really matter?!
+      and which has the lowest cost having a socket or the ajax long polling?!
+    id: '735005966539114'
+  - created_time: '2014-04-22T13:37:06+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Differentiate between the performance of the technology in general (web
+      sockets) and the framework (socket.io), and even maybe the specific application
+      (for example, maybe the server is very low in resources the less you use it
+      the better perf you get, or maybe the client is mobile and it's the other way
+      around, and many other factors).
+    id: '735006466539064'
+  - created_time: '2014-04-22T13:37:54+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: http://stackoverflow.com/questions/10028770/html5-websocket-vs-long-polling-vs-ajax-vs-webrtc
+    id: '735006706539040'
+  - created_time: '2014-04-22T13:45:40+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: "Mohamed Meligy so if we're talking about a server with good infrastructure
+      does it matter to migrate from ajax to websockets?! does it has a problem with
+      big data apps?! \ndoes it has an effect on mobile browsers?! also why facebook
+      and twitter still dealing with ajax?!!!!\nBTW that's for the link dude it's
+      a fruitful one :)"
+    id: '735009183205459'
+  - created_time: '2014-04-22T13:46:51+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: i've updated the question description to be more specific about my needs
+    id: '735009539872090'
+  - created_time: '2014-04-22T14:21:47+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Big data is beyond your scenario. Unless you are sending terabytes of
+      data to your client.
+    id: '735024546537256'
+  - created_time: '2014-04-22T14:32:33+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      If what you are after is a good argument / case "for" websockets, check:
+
+      http://blog.fogcreek.com/the-trello-tech-stack/
+
+      http://stackoverflow.com/questions/10377384/why-use-ajax-when-websockets-is-available
+
+      https://www.engineyard.com/articles/websocket
+
+      My understanding is that Twitter streaming API uses websockets as well, although they don't use the term in their documentation but it's present in a few questions about it.
+    id: '735032989869745'
+  - created_time: '2014-04-22T14:35:30+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: thanks dude, i loved that conversation :) i was searching about how twitter
+      streaming API is working behind the scene (enta 3reft mneen enty bdwar 3leha)
+      :D
+    id: '735033993202978'
+  - created_time: '2014-04-23T17:34:39+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: "I've been researching this issue as well lately. Here is what I learnt\n\n1.
+      WebSockets is the most efficient, but it's not supported in all browsers. See
+      http://caniuse.com/#search=websockets\n\n2. Long polling is less efficient than
+      websockets, because you're still using HTTP with all its overhead. \n\n3. There
+      are other techniques to get server notifications, depending on the browser &
+      server.\n\n4. There are different tools to abstract these techniques. They use
+      the most suitable technique for your browser. They also require support from
+      your server software. Examples: SignalR (.net only AFAIK), Socket.io (mainly
+      NodeJS, but supported on different server-side stacks) & SockJS (similar in
+      purpose to socket.io)\n\n5. There are products which allows you to send server
+      notifications without installing anything extra on your server stack. Examples:
+      Firebase & Pusher.\n\nThis is not comprehensive. There are many things that
+      I heard about but didn't have enough time to investigate: TogetherJS, WebRTC,
+      Faye, Google Drive Real-time. The list is very looooooooooong"
+    id: '735609436478767'
+  - created_time: '2014-04-23T19:13:43+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: we had the same issue in our of the projects i'm working on right now.
+      As Meligy mentioned the best solution is to open a Socket and receive your stuff
+      throw the socket this way you will have more control to close the socket and
+      for concurrency you have a big advantage with socket instead of blocking the
+      server process.
+    id: '735643929808651'
+  - created_time: '2014-04-24T07:28:29+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: |-
+      It's much more easier to scale a sockets server, amongst some of the limitations you'll face configuring a server for that is your box's maximum file descriptors which is set to 1024 by default. Linux always requires a lot of tuning for smooth scaling.
+      Try to scale a comet server and I'll truly wish you the best of luck with that.. Luck is needed for such task. Http handshakes are expensive and long-living connections are memory hungry.
+    id: '735908886448822'
+  - created_time: '2014-04-24T07:31:24+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: |-
+      Also the model never was intended for such task, http is a hit and run protocol, stateless.
+      Server sent events are interesting as well but they're not bidirectional.
+    id: '735909629782081'
+  - created_time: '2014-04-24T22:49:57+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: |-
+      but guys don't you think that on a heavy traffic of opened socket i'll have a big problem with the memory?!
+
+      Hady Ahmed always confuses me with your thoughts :D
+    id: '736366393069738'
+  - created_time: '2014-04-24T23:34:18+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: "Nop, you won't sockets are very light and you will have the advantage
+      of having 2800 concurrent socket open before your sockets start to drops. also
+      with socket.io if the socket drop alone it will retry if not if will close automatically,
+      \n\nFor the best performance try when the socket finish the job you can destroy
+      it and open a new one :) instead of keeping your socket open for ever.\n\nbest
+      of luck buddy"
+    id: '736413869731657'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOek0xTURBd056ZA3pNakEyTWprNU9qRXpPVGd4TnpJM01UWT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOek0yTkRFek9EWTVOek14TmpVM09qRXpPVGd6T0RJME5UZAz0ZD

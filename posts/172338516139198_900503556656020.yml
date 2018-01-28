@@ -11,3 +11,135 @@ updated_time: '2015-02-26T20:03:54+0000'
 name: Introducing ASP.NET 5
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/900503556656020/
 id: '172338516139198_900503556656020'
+reactions:
+  data:
+  - id: '10156089336182292'
+    name: Hassan Aly Selim
+    type: LIKE
+  - id: '1763959737010749'
+    name: Ahmed Mahmoud
+    type: LIKE
+  - id: '10156575426331336'
+    name: Amr Ali Tealeb
+    type: LIKE
+  - id: '1550774681686883'
+    name: Eslam Esmaeal
+    type: LIKE
+  - id: '1880383681981248'
+    name: Ahmed Misr
+    type: LIKE
+  - id: '1928384107425504'
+    name: Ahmed Hashem
+    type: LIKE
+  - id: '1555752981144826'
+    name: Essam A. Hassan
+    type: LIKE
+  - id: '10156358805885288'
+    name: Mahmoud Abd El-Fattah
+    type: LIKE
+  - id: '1565527460161097'
+    name: Mohamed Emad
+    type: LIKE
+  - id: '10212947071504226'
+    name: Eslam Hamouda
+    type: LIKE
+  - id: '10155226291481186'
+    name: أحمد محمود محمد عبدالوهاب
+    type: LIKE
+  - id: '10155848201515605'
+    name: Mohammad Helmy
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRFNU5qa3lNamt4T2pFME1qVXhOVFU0TkRRNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TmpNNU16WXdOakEwT2pFME1qUTRNamN4TnpJNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2015-02-25T00:21:43+0000'
+    from:
+      name: Ahmed Saleh
+      id: '1707137612683071'
+    message: So no need to run debug and run?
+    id: '900503766655999'
+  - created_time: '2015-02-25T00:23:25+0000'
+    from:
+      name: Mohammed El Sayed
+      id: '10155880598025170'
+    message: 'the correct sentence is: Recompiling (build-rebuild) after any C#/VB
+      code change will no longer be required. :)'
+    id: '900504059989303'
+  - created_time: '2015-02-25T00:39:54+0000'
+    from:
+      name: Mohamed Sameeh Sharaf
+      id: '2167550119925504'
+    message: Instant Building
+    id: '900507999988909'
+  - created_time: '2015-02-25T02:05:11+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: I had dynamic updates since 2005!
+    id: '900534343319608'
+  - created_time: '2015-02-25T02:14:36+0000'
+    from:
+      name: Bassam Abd Elhamid
+      id: '1955441501387657'
+    message: We need more :)
+    id: '900536789986030'
+  - created_time: '2015-02-25T02:14:55+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: It took static language like C# 10 years to have a compiler that can
+      give you this behavior that is natural in dynamic languages
+    id: '900536866652689'
+  - created_time: '2015-02-25T02:20:53+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: I think there was a project type in VS which allowed dynamic updates,
+      so whats new here?
+    id: '900539093319133'
+  - created_time: '2015-02-25T02:25:44+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: I guess the main difference that this uses the new compiler platform
+      "Roslyn".
+    id: '900540823318960'
+  - created_time: '2015-02-25T02:26:13+0000'
+    from:
+      name: Bassam Abd Elhamid
+      id: '1955441501387657'
+    message: MSIL code contains a lot of Nope that can be replaced at runtime while
+      debugging, I think the new part is the autorefresh for the client code( the
+      browser)
+    id: '900540959985613'
+  - created_time: '2015-02-26T20:03:54+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      ASPX/ASCX & Razor files are compiled in the background by IIS, so have dynamic updates. The new things are:
+      - The whole thing is compiled dynamically now. All your C# files
+      - The compiled version stays in the memory. No need for slow disk IO (this saves you from very annoying few seconds of waiting for the new compilation to kick in)
+    id: '901331636573212'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEF3TlRBek56WTJOalUxT1RrNU9qRTBNalE0TWpNM01ETT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEF4TXpNeE5qTTJOVGN6TWpFeU9qRTBNalE1T0RFd016UT0ZD
+attachments:
+  data:
+  - description: The first preview release of ASP.NET 1.0 came out almost 15 years
+      ago.  Since then millions of developers have used it to build and run great
+      web applications, and over the years we have added …
+    media:
+      image:
+        height: 317
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQDM_iQ5v66k9DzZ&w=720&h=720&url=https%3A%2F%2Fmscblogs.blob.core.windows.net%2Fmedia%2Fscottgu%2FWindowsLiveWriter%2FIntroducingASP.NET5_12282%2Fimage_thumb.png&cfs=1&_nc_hash=AQCxdmsz_dN9ayzr
+        width: 317
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fweblogs.asp.net%2Fscottgu%2Fintroducing-asp-net-5&h=ATN19EmoEYU2XhsdDF12zIvCACPr2NF4Lr1FSEtpk6NPuSvdjUrrUh1gymVn8lQTaLVShhbZ-8tinqee5q2TnkDJGWVySNHTQccl&s=1&enc=AZMQxyTP8rTE8HFyjYBHd8-JGjVzQ-y3JkbxsHgWHrztcqv0z2Jrxq1oiLog3M0lszj-9QirxbBNbbOS2pV_DGle
+    title: Introducing ASP.NET 5
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fweblogs.asp.net%2Fscottgu%2Fintroducing-asp-net-5&h=ATN19EmoEYU2XhsdDF12zIvCACPr2NF4Lr1FSEtpk6NPuSvdjUrrUh1gymVn8lQTaLVShhbZ-8tinqee5q2TnkDJGWVySNHTQccl&s=1&enc=AZMQxyTP8rTE8HFyjYBHd8-JGjVzQ-y3JkbxsHgWHrztcqv0z2Jrxq1oiLog3M0lszj-9QirxbBNbbOS2pV_DGle

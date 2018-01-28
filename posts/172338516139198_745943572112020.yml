@@ -11,3 +11,53 @@ created_time: '2014-05-13T19:27:16+0000'
 updated_time: '2014-05-13T20:04:02+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/745943572112020/
 id: '172338516139198_745943572112020'
+comments:
+  data:
+  - created_time: '2014-05-13T19:38:26+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: Did you try to Google this before posting here?
+    id: '745946945445016'
+  - created_time: '2014-05-13T19:41:02+0000'
+    from:
+      name: Abdalla Elnaggar
+      id: '2096764887006623'
+    message: this a url for radio channel
+    id: '745947978778246'
+  - created_time: '2014-05-13T19:43:16+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: Clearly, however your question was about what kind of a URL it was. My
+      question is, did you try to search for an answer before posting?
+    id: '745948482111529'
+  - created_time: '2014-05-13T19:45:47+0000'
+    from:
+      name: Abdalla Elnaggar
+      id: '2096764887006623'
+    message: 'yes'
+    id: '745949228778121'
+  - created_time: '2014-05-13T19:58:29+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: "The mms uri schema is usually associated with a  microsoft data streaming
+      protocol that's usually used for entertainment data streaming services (audio/video)
+      through a server with the same name.\nThat's however not to be mixed up with
+      MMS, the multimedia messaging service that builds on top of SMS.\nThe protocol
+      has been ruled out of service in favour of RTSP - rfc 2326 - \n\nHow are these
+      different than say, UDP which is the go-to transport layer protocol for media/entertainment
+      data streaming? RTSP and MMS are application layer protocols, the higher you
+      go up the network stack the less worries you get - roughly speaking -"
+    id: '745953078777736'
+  - created_time: '2014-05-13T20:00:18+0000'
+    from:
+      name: Abdalla Elnaggar
+      id: '2096764887006623'
+    message: انا كتبت الurl كامل ما طلعليش حاجه عن mms بس الحمد لله الفكره وصلت شكرا
+    id: '745953555444355'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOelExT1RRMk9UUTFORFExTURFMk9qRTBNREF3TURrNU1EWT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOelExT1RVek5UVTFORFEwTXpVMU9qRTBNREF3TVRFeU1UZAz0ZD

@@ -10,3 +10,76 @@ created_time: '2011-08-22T04:02:56+0000'
 updated_time: '2011-08-23T05:12:39+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/245179235521792/
 id: '172338516139198_245179235521792'
+comments:
+  data:
+  - created_time: '2011-08-22T04:11:48+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: 'this is the error i get: Uncaught ReferenceError: _$ is not defined'
+    id: '245181648854884'
+  - created_time: '2011-08-22T05:59:13+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: Are you using a script manager? if you are not you might be having some
+      trouble writing the right path for jQuery script in your page, especially if
+      your master page is not on the same level as your other pages.
+    id: '245209575518758'
+  - created_time: '2011-08-22T06:51:01+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: This is exactly what's happening, I'm not using a script manager . the
+      question here is what's the correct way to attach it in the master page ?
+    id: '245221192184263'
+  - created_time: '2011-08-22T06:52:18+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: If you are using a Script Manager it is easy, because you can reference
+      the script from the root folder using ~/ so wherever the page that ends up using
+      the Masterpage it will have the right path
+    id: '245221422184240'
+  - created_time: '2011-08-22T06:54:05+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: One more thing you can do, if you don't wanna use Script manager, is
+      to use one of the public online jQuery CDN's I believe Google was providing
+      one let me fetch that for you
+    id: '245221738850875'
+  - created_time: '2011-08-22T06:54:46+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: |-
+      Here you go
+      http://code.google.com/apis/libraries/devguide.html#jquery
+    id: '245221868850862'
+  - created_time: '2011-08-22T07:11:54+0000'
+    from:
+      name: Ahmed Magdy
+      id: '10155638727450376'
+    message: |-
+      You can use something like the following without Script Manager:
+      <script src='<%= ResolveUrl("~/Scripts/jquery-1.6.2.min.js") %>' type="text/javascript"></script>
+      And make sure that the file you referenced in the jQuery one, and I would recommend to redownload it again in case of download issues (md5check)
+    id: '245224998850549'
+  - created_time: '2011-08-23T02:01:48+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Ahmed Magdy VS don't like the = sign in the <%= ResolveUrl %> ... I managed
+      to embed it using the Google CDN Thanks to Mohammed Hossam :)
+    id: '245649518808097'
+  - created_time: '2011-08-23T05:12:39+0000'
+    from:
+      name: Ahmed Magdy
+      id: '10155638727450376'
+    message: It's working with me all of the time! But good to go with CDN
+    id: '245711415468574'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANalExTVRneE5qUTRPRFUwT0RnME9qRXpNVE01T0RZAek1EZAz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANalExTnpFeE5ERTFORFk0TlRjME9qRXpNVFF3TnpZAek5Uaz0ZD

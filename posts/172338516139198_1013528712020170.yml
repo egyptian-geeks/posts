@@ -10,3 +10,49 @@ created_time: '2015-09-30T16:54:28+0000'
 updated_time: '2015-09-30T21:57:32+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1013528712020170/
 id: '172338516139198_1013528712020170'
+comments:
+  data:
+  - created_time: '2015-09-30T16:55:55+0000'
+    from:
+      name: Amjad Mashaal
+      id: '10213738834576763'
+    message: Google Apps or no Google Apps.
+    id: '1013529198686788'
+  - created_time: '2015-09-30T16:59:38+0000'
+    from:
+      name: Mohamed Omar Zaian
+      id: '10155855162041047'
+    message: It's totally different please explain more about your needs a web server?
+      or webmail or a complete mail system?
+    id: '1013530618686646'
+  - created_time: '2015-09-30T17:04:51+0000'
+    from:
+      name: Yara Mohamed
+      id: '10155057143777797'
+    message: i need to host a wordpress site and have good mailing system to handle
+      all the mails we have
+    id: '1013532845353090'
+  - created_time: '2015-09-30T18:19:45+0000'
+    from:
+      name: Mohamed Omar Zaian
+      id: '10155855162041047'
+    message: No what you need is to have a MTA so that you can relay emails through
+      it from ur wordpress, i suggest that you install postfix its available in most
+      linux platforms, which platform do you use for your hosting?
+    id: '1013565165349858'
+  - created_time: '2015-09-30T18:38:50+0000'
+    from:
+      name: Ahmed Hassan
+      id: '1928718333823741'
+    message: https://github.com/andryyy/mailcow
+    id: '1013571462015895'
+  - created_time: '2015-09-30T21:57:32+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: A Full mail server !, Enable server.
+    id: '1013624875343887'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF4TXpVeU9URTVPRFk0TmpjNE9Eb3hORFF6TmpNeU1UVTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF4TXpZAeU5EZAzNOVE0wTXpnNE56b3hORFF6TmpVd01qVXoZD

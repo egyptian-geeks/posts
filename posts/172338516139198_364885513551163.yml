@@ -10,3 +10,26 @@ created_time: '2012-03-20T16:01:41+0000'
 updated_time: '2012-03-20T16:11:57+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/364885513551163/
 id: '172338516139198_364885513551163'
+comments:
+  data:
+  - created_time: '2012-03-20T16:05:37+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "just begin with \"/\" \ne.g. include(\"includes/function.php\") ; //
+      relative path\ninclude(\"/home/user/www/myphp/includes/function.php\") // *nix
+      absolute path\n\ninclude(\"D:/xampp/htdocs/myphp/includes/function.php\") ;
+      // windows absolute path"
+    id: '364887193550995'
+  - created_time: '2012-03-20T16:11:57+0000'
+    from:
+      name: Eslam Salem Mahmoud
+      id: '10157134145555299'
+    message: |-
+      use dirname(__FILE__) to get the current absolute directory
+      and then you can use it in includes
+    id: '364890223550692'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANelkwT0RnM01Ua3pOVFV3T1RrMU9qRXpNekl5TlRrMU16Yz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANelkwT0Rrd01qSXpOVFV3TmpreU9qRXpNekl5TlRrNU1UYz0ZD

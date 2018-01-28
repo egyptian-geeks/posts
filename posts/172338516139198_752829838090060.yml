@@ -8,3 +8,126 @@ created_time: '2014-05-25T12:16:34+0000'
 updated_time: '2014-05-26T08:41:52+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/752829838090060/
 id: '172338516139198_752829838090060'
+comments:
+  data:
+  - created_time: '2014-05-25T12:21:18+0000'
+    from:
+      name: Ahmed Tarek
+      id: '10214196954891680'
+    message: "that was the first result on google :D i didn't get it clearly :) \ni
+      just need two examples showing the difference it would be nice"
+    id: '752832181423159'
+  - created_time: '2014-05-25T12:23:08+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "why are you confused with them? \nthis is like asking what is the difference
+      between php and windows :D"
+    id: '752833511423026'
+  - created_time: '2014-05-25T12:25:47+0000'
+    from:
+      name: Ahmed Tarek
+      id: '10214196954891680'
+    message: Mostafa Hussein Amr ELsaqqa ana wallahy aret el klam da :D , m3lsh ymkn
+      ana fehmy 3la ady ... ana bas shoft example l todo app using angularJS you can
+      do the same using ajax ? what is special about angularJS (still stupid question)
+      ?
+    id: '752835001422877'
+  - created_time: '2014-05-25T12:29:57+0000'
+    from:
+      name: Ahmed Tarek
+      id: '10214196954891680'
+    message: Mostafa Hussein thnx :)
+    id: '752837568089287'
+  - created_time: '2014-05-25T12:30:23+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: |-
+      you can consider it like the difference between using native php and php framework, a well structured platform with new possibilities to code powerful front-end apps with ease
+
+       when you get start with angular JS you will understand the concept about it
+    id: '752837761422601'
+  - created_time: '2014-05-25T12:32:11+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: think about pure js and jQuery, angular js is another LAYER of abstraction
+    id: '752839018089142'
+  - created_time: '2014-05-25T12:32:38+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: that means it does not provide new technologies by itself
+    id: '752839151422462'
+  - created_time: '2014-05-25T13:07:44+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: "Vanilla php vs a php framework is a wrong analogy and if he can't wrap
+      his head around ajax then I wouldn't expect him to grasp jquery.\n\nThe idea
+      is simple Ahmed Tarek, ignore angularjs for now. Let's take a look at how the
+      web works from a bird's eye view.\n\nYou got a web browser, let's say Firefox.
+      You got a web server, somewhere around the world. It's hosting a website, let's
+      call it thewebrocks.tld\n\nNow, Mr. Foobar decided he will visit thewebrocks.com,
+      so he opened his Firefox, typed thewebrocks.tld then... he waited.\n\n.. still
+      waiting\n\n.. he has a slow connection, nothing is showing up yet, he's still
+      waiting\n\n.. now he thinks TEData did the deed, and cut off his Internet.\n\nAha!!
+      Finally, the website loads.\nWhat happed was Firefox sent a \"synchronous\"
+      request to the web server that hosts thewebrocks.tld\n\nAnd it waited for a
+      reply, blocking everything. Showing nothing until the whole thing loads.\n\nSomeone
+      at Microsoft in the 90s came up with a brilliant idea (this is a rare occasion
+      in Microsoft, we're grateful) of \"asynchronous\" requests. That is, to send
+      a request in the background and forget about it.\n\nUntil the request is complete,
+      the website (thewebrocks.tld) and the browser are free to do anything else they
+      want.\n\nHence the name, Ajax = Asynchronous Javascript and xml, aka making
+      browsers suck less.\nWhat happens is, using Javascript you can send asynchronous
+      http requests to a server and then continue whatever else you were doing.\n\nHow
+      is this any different than angularjs, jquery, emberjs, knockout, backbonejs,
+      spinejs? There's no relation between them.\n\nAjax is just a fancy set of technologies
+      to make asynchronous requests less painful, it's a communication model, it's
+      a way through which your client side code would communicate with a server.\n\nAngularjs
+      and the likes are frameworks, a framework is a set of reusable components, libraries
+      and functions that abstract away concepts like data binding, view templates
+      (reusable html bits), server communication, event handling, code organization...etc.
+      \n\nIf after reaching to this line, you still have issues understanding then
+      you're shit outta luck.\n\nGood luck."
+    id: '752853228087721'
+  - created_time: '2014-05-25T13:20:36+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: |-
+      It most certainly does, unless you included some resource in your page's head that was blocking the flow, eventually not being able to read the body tag. That was only a simplification of the synchronous communication model, that it happens _now_ and you _actively_ wait for it.
+
+      As opposed to it happening in the background and being notified about its status with a callback mechanism of some sort, in the case of asynchronous models.
+    id: '752857761420601'
+  - created_time: '2014-05-26T07:30:11+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: "AJAX is loading some parts of the page in the background, or posting
+      data (if needed) and getting results in the background. \n\nBrowsers give you
+      APIs to do that. Some JS frameworks like jQuery and Angular.JS give you nicer
+      APIs that wrap the browser one, and give you more features in general which
+      differ by framework. \n\njQuery for example allows you to get a nicer API for
+      communicating with DOM (HTML elements) in your JS code. Angular.JS gives you
+      an API to handle this communication for you so rhat you don't have to write
+      it at all (in most cases, and keep the code that talks to DOM for the rest of
+      the cases).\n\nWhen it comes to API both jQuery and Angular.JS have features
+      like intercepting all requests and defereed/promie (a way to chain multiple
+      success/error handlers) , etc. Angular.JS API integrates with the rest of Angular.JS
+      features of course if you prrfer the DOM to be handled for you to have cleaner
+      code.\n\nGoogle \"$.ajax\" and \"$http\" for syntax differences"
+    id: '753304138042630'
+  - created_time: '2014-05-26T08:41:52+0000'
+    from:
+      name: Ahmed Tarek
+      id: '10214196954891680'
+    message: Hady Ahmed Mohamed Meligy Amr ELsaqqa Mostafa Hussein thnx all i think
+      everything is clear for me now
+    id: '753346994705011'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOelV5T0RNeU1UZA3hOREl6TVRVNU9qRTBNREV3TWpBME56ZAz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOelV6TXpRMk9UazBOekExTURFeE9qRTBNREV3T1RNM01UST0ZD

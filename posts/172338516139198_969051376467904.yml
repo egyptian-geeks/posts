@@ -13,3 +13,88 @@ updated_time: '2015-07-08T10:11:14+0000'
 name: Photos from Ahmed Mozaly's post
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/969051376467904/
 id: '172338516139198_969051376467904'
+reactions:
+  data:
+  - id: '1707137612683071'
+    name: Ahmed Saleh
+    type: LIKE
+  - id: '1763959737010749'
+    name: Ahmed Mahmoud
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhOakExTkRZAeE1EVXdPakUwTXpZAeU5EQTBORFU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXhPVEF5TVRrM05Ea3lPakUwTXpZAeU1UVXpORFE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2015-07-06T20:33:27+0000'
+    from:
+      name: Morad Edwar
+      id: '10215772499725897'
+    message: متهيألى ان من اول ال ip اللي اخره 114 انت كدة طلعت برة مصر خلاص
+    id: '969053666467675'
+  - created_time: '2015-07-06T20:35:43+0000'
+    from:
+      name: Samuel A. Wilson
+      id: '10215340807979122'
+    message: "I don't know how to help I ran the same test on my laptop: \nInternet
+      Speed: 4096 Kbps Downspeed, 768 Kbps Upspeed\nISP: Etisalat ADSL (it shows Tedata
+      in the test which is super interesting)"
+    id: '969054239800951'
+  - created_time: '2015-07-06T20:38:23+0000'
+    from:
+      name: Ahmed Mozaly
+      id: '10155321930231313'
+    message: |-
+      forget to tell that I'm using TEData,
+      I'm forced to use TEData ADSL in my home because they changed land lines to fiber and no one except them can provide a fiber-based service in my home area
+    id: '969054723134236'
+  - created_time: '2015-07-06T21:45:47+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      1- tfbnw.net is FB CDN http://www.quora.com/What-does-tfbnw-net-stand-for
+      2- Too many hops for FB (15) compared to AlmasryAlyoum (8). Even when I tried tracert from Zurich, FB has 18 hops while AlmasryAlyoum has 13
+      3- Dead beaf :D
+    id: '969071073132601'
+  - created_time: '2015-07-08T10:11:14+0000'
+    from:
+      name: Ahmed Mozaly
+      id: '10155321930231313'
+    message: Thank you all guys for your valuable comments
+    id: '969752343064474'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFk1TURVek5qWTJORFkzTmpjMU9qRTBNell5TVRRNE1EYz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFk1TnpVeU16UXpNRFkwTkRjME9qRTBNell6TlRBeU56UT0ZD
+attachments:
+  data:
+  - subattachments:
+      data:
+      - media:
+          image:
+            height: 498
+            src: https://scontent.xx.fbcdn.net/v/t1.0-9/10369570_10153055532301313_1829134502592164851_n.jpg?oh=c0aad65f2df7e9bdd3ac0602ae886db2&oe=5ADCEEB4
+            width: 677
+        target:
+          id: '10153055532301313'
+          url: https://www.facebook.com/photo.php?fbid=10153055532301313&set=gm.969051376467904&type=3
+        type: photo
+        url: https://www.facebook.com/photo.php?fbid=10153055532301313&set=gm.969051376467904&type=3
+      - media:
+          image:
+            height: 341
+            src: https://scontent.xx.fbcdn.net/v/t1.0-9/11261936_10153055532661313_3148109631246642808_n.jpg?oh=a8c17eedaf033d397a9041b6c291de73&oe=5B1E83BF
+            width: 677
+        target:
+          id: '10153055532661313'
+          url: https://www.facebook.com/photo.php?fbid=10153055532661313&set=gm.969051376467904&type=3
+        type: photo
+        url: https://www.facebook.com/photo.php?fbid=10153055532661313&set=gm.969051376467904&type=3
+    target:
+      id: '969051376467904'
+      url: https://www.facebook.com/media/set/?set=pcb.969051376467904&type=1
+    title: Photos from Ahmed Mozaly's post
+    type: album
+    url: https://www.facebook.com/media/set/?set=pcb.969051376467904&type=1

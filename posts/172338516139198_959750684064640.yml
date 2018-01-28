@@ -15,3 +15,266 @@ created_time: '2015-06-17T13:54:17+0000'
 updated_time: '2015-06-21T23:50:02+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/959750684064640/
 id: '172338516139198_959750684064640'
+reactions:
+  data:
+  - id: '10159933404285574'
+    name: Amr Saafan
+    type: LIKE
+  paging:
+    cursors:
+      before: TnpZAMk56a3dOVGN6T2pFME16UTJNekUxTmpnNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TnpZAMk56a3dOVGN6T2pFME16UTJNekUxTmpnNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2015-06-17T14:51:22+0000'
+    from:
+      name: Muhammad Abulmagd
+      id: '2021787941370576'
+    message: "grab linux b2a   e3ml bootable USB  ubuntu mslan .. (u dont need to
+      install it ) \nhttp://www.ubuntu.com/download/desktop/try-ubuntu-before-you-install\n\n5od
+      el data bt3tak 3la ay external hard  b3den shof ht3ml a :D"
+    id: '959771037395938'
+  - created_time: '2015-06-17T15:30:23+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      Do you have multiple disks or partitions? Are you sure it's loading from the C: or from this disk at all?
+      Double check the disk first, then use the "fdisk" tool (by bringing the command prompt after you open the Windows CD installer, I think it's F3 or F10 that brings it, google it, and google FDisk). With FDisk you can make sure the partition you want is the primary one and can actually delete and create it. If you can clean the entire disk (the command "clean" inside fdisk") do it as well.
+    id: '959783514061357'
+  - created_time: '2015-06-17T16:07:24+0000'
+    from:
+      name: Osama Soliman
+      id: '879271768900112'
+    message: "I am very thankful for your responds :)\nIt was the 350MB system partition
+      problem ... I deleted it .. the C \nAnd recreated them ...installed the system
+      ... the charm happened and everything is fixed ^_^"
+    id: '959795654060143'
+  - created_time: '2015-06-17T17:50:11+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: Upgrade to Linux and have a more enlightened computing experience :)
+    id: '959826357390406'
+  - created_time: '2015-06-17T18:10:01+0000'
+    from:
+      name: Osama Soliman
+      id: '879271768900112'
+    message: |-
+      I am not so good with CLI ... I use windows for 15.5 years now :D !
+      you think I can survive in Linux sea ?
+    id: '959832340723141'
+  - created_time: '2015-06-17T18:15:39+0000'
+    from:
+      name: Osama Soliman
+      id: '879271768900112'
+    message: why I use "I" too much :D !!! any advice to avoid that habit ?
+    id: '959833484056360'
+  - created_time: '2015-06-17T18:22:07+0000'
+    from:
+      name: Amr Tag
+      id: '10211180899988571'
+    message: "Yeah, not everything in Linux dependant on CLI, plus, you can pick it
+      up in no time. \n\nUnless you are a designer or a gamer, Linux is better experience
+      overall (try elementary os, it's like a Mac)"
+    id: '959835550722820'
+  - created_time: '2015-06-17T19:30:24+0000'
+    from:
+      name: Fady Anwar
+      id: '10159888022555052'
+    message: In linux there is your salvation..
+    id: '959856014054107'
+  - created_time: '2015-06-17T20:07:41+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: Osama Soliman Linux has become so much more user friendly and has so
+      much documentation and help, including such a helpful community that you will
+      not only survive, you will flourish. Also, you can code .Net on Linux as well
+      as any other language, you can use MS Office documents and it uses very little
+      system resources and is extremely stable. I advise you to try ubuntu as the
+      link posted above, I think you will be blown away. Oh, and it is all free forever
+      :)
+    id: '959871614052547'
+  - created_time: '2015-06-17T20:07:55+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: P.S. Free as in Freedom, but also, Free Beer :)
+    id: '959871697385872'
+  - created_time: '2015-06-18T10:19:17+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      Excuse me commenters. This thread is not about moving to Linux. I'd recommend if you want to talk about that you can open a new thread on the topic.
+
+      This is a question about certain software. Suggesting to completely replace the software with a radically different one is an overkill IMHO.
+
+      Not to mention that there is a possibility that this is a booting issue unrelated to disk configuration not the OS itself.
+    id: '960095324030176'
+  - created_time: '2015-06-18T11:12:54+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: |-
+      Try to get any linux iso and boot life cd or life usb
+      Save your files on another partion
+      Wipe the C Clean Using GParted
+      And try to re install
+    id: '960110097362032'
+  - created_time: '2015-06-18T14:25:20+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: Just to avoid any arguments, I am seriously speaking, as a 25 year window
+      user as well as acclaimed expert in my field and lover of all things Microsoft.
+      I did find Linux so much easier to install and so much more stable and even
+      the beta versions were more stable even than some final Windows versions. Also,
+      the term free is purely objective as it is really free
+    id: '960172720689103'
+  - created_time: '2015-06-19T02:11:36+0000'
+    from:
+      name: Osama Soliman
+      id: '879271768900112'
+    message: |-
+      Muhammad 25-year-user OMG .. MSA.. so you must be a friend of Gates :D !
+
+      I WANT TO SAY ... THE SAME PROBLEM JUST HAPPENED AGAIN THE SAME WAY ... JUST A SHITTY JUNE UPDATE ...
+      DO NOT USE WINDOWS 10 IT'S NOT READY YET !!!
+      Honestly ... I am thinking of changing the OS !! Maybe I will be back temporarily to the most stable one I ever used "windows 7" [[8abby]] until I get familiar with Linux ....
+      But am I the only one who faced this problem ? I hv checked the latest tweets ... everyone is saying #Windows10 is an amazing miracle :S
+    id: '960463747326667'
+  - created_time: '2015-06-19T09:43:44+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: Which build do you use?
+    id: '960586040647771'
+  - created_time: '2015-06-19T11:00:57+0000'
+    from:
+      name: Osama Soliman
+      id: '879271768900112'
+    message: "I use 10125 ... and with long cycle update \nThe 10147 was supposed
+      to be installed ... Muhammad"
+    id: '960607097312332'
+  - created_time: '2015-06-19T11:18:55+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: |-
+      I was planning to replace my windows 8.1 installation with 10
+      but it looks like MSDN doesn't have these builds :D
+    id: '960613600645015'
+  - created_time: '2015-06-19T11:25:58+0000'
+    from:
+      name: Osama Soliman
+      id: '879271768900112'
+    message: http://lmgtfy.com/?q=windows+10+build+10125
+    id: '960615603978148'
+  - created_time: '2015-06-19T11:27:04+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: you didn't get the idea that they only put stable builds on msdn do you
+      ?
+    id: '960615880644787'
+  - created_time: '2015-06-19T11:48:20+0000'
+    from:
+      name: Fady Anwar
+      id: '10159888022555052'
+    message: Microsoft as usual using you as lab rats..
+    id: '960621363977572'
+  - created_time: '2015-06-19T11:51:21+0000'
+    from:
+      name: Osama Soliman
+      id: '879271768900112'
+    message: 1000000 likes
+    id: '960622397310802'
+  - created_time: '2015-06-19T11:55:36+0000'
+    from:
+      name: Fady Anwar
+      id: '10159888022555052'
+    message: Microsoft knows that the the PC market is dying in front the mobile one,
+      they are trying to catch up to android by pushing windows 10 down the throats
+      of windows users for free which is supposedly can compete with android on the
+      mobile platforms later when pc users get used to it and move eventually to the
+      mobile platform.. Microsoft have used the same tactics before in the browser
+      wars and they hope to repeat it again now, but this time their strategy is flowed
+      not to mention they show the signs of a strategic drift already..
+    id: '960623493977359'
+  - created_time: '2015-06-19T12:00:11+0000'
+    from:
+      name: Fady Anwar
+      id: '10159888022555052'
+    message: Microsoft is losing on different grounds, they use a strategy similar
+      to Yahoo's one which lead them to their demise.. they are distributing their
+      resources too thin on different fronts!
+    id: '960624927310549'
+  - created_time: '2015-06-19T12:01:23+0000'
+    from:
+      name: Osama Soliman
+      id: '879271768900112'
+    message: What a deep view ! ... You are totally right !
+    id: '960625130643862'
+  - created_time: '2015-06-19T14:49:59+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: I told you to stay on the "slow" update cycle :P
+    id: '960693483970360'
+  - created_time: '2015-06-19T14:52:13+0000'
+    from:
+      name: Osama Soliman
+      id: '879271768900112'
+    message: I swear I did :D !
+    id: '960694800636895'
+  - created_time: '2015-06-19T14:53:15+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: I'm on the slow cycle and didn't get 10125, I got 10130 3alatool (which
+      was yesterday) :D
+    id: '960695263970182'
+  - created_time: '2015-06-19T14:56:36+0000'
+    from:
+      name: Osama Soliman
+      id: '879271768900112'
+    message: It was an ISO clean install for 10125. :( so the 10130 worked for you
+      normally ?! rbna ybareklak .. but how some ppl got the 10147 today ?
+    id: '960698003969908'
+  - created_time: '2015-06-19T14:58:27+0000'
+    from:
+      name: Osama Soliman
+      id: '879271768900112'
+    message: fast cycle ? Anyway I downgraded to 7 :D !
+    id: '960698477303194'
+  - created_time: '2015-06-21T23:50:02+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: I used DOS 3 and my first computer was a 386 sx with 2 MB ram. Before
+      that it was a commodore 64. So anyway, here you go http://linuxmint.com/
+    id: '961874057185636'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFU1TnpjeE1ETTNNemsxT1RNNE9qRTBNelExTlRJMk9EST0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFl4T0RjME1EVTNNVGcxTmpNMk9qRTBNelE1TXpBMk1EST0ZD
+attachments:
+  data:
+  - description: "I am facing this problem for 18 hours now ... it was windows 10
+      build 10125 asked me to restart ... took a very long time restarting ... and
+      faild to boot again :( \nTried reinstalling the windows ... and keep old files
+      ... formating the whole C and installing the windows ... tried installing another
+      OS-blue unlovely screen appears- ... tried advanced system restore ... tried
+      repairing ...tried resetting ... nothing better happens\nany advice please ?"
+    media:
+      image:
+        height: 540
+        src: https://scontent.xx.fbcdn.net/v/t1.0-0/p180x540/1505060_451485988345361_9030850572696476629_n.jpg?oh=24afca766e1d0cf800cba42fba43621b&oe=5AEDE371
+        width: 720
+    target:
+      id: '451485988345361'
+      url: https://www.facebook.com/photo.php?fbid=451485988345361&set=gm.959750684064640&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=451485988345361&set=gm.959750684064640&type=3

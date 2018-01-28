@@ -10,3 +10,184 @@ created_time: '2012-10-01T22:27:39+0000'
 updated_time: '2012-10-02T20:05:52+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/466923360014044/
 id: '172338516139198_466923360014044'
+comments:
+  data:
+  - created_time: '2012-10-01T22:29:04+0000'
+    from:
+      name: Ahmed Melege
+      id: '10156112171242375'
+    message: im curious to know that website.. :D would u post a url?
+    id: '466923733347340'
+  - created_time: '2012-10-01T22:37:32+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: You can use Fiddler or Chrome Speed Tracer extension
+    id: '466925713347142'
+  - created_time: '2012-10-01T23:02:43+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: http://breezi.com
+    id: '466935133346200'
+  - created_time: '2012-10-01T23:02:55+0000'
+    from:
+      name: Adel K. Khalil
+      id: '10159958402365584'
+    message: Fiddler is a great tool as Mohammed pointed out, also there is FireBug
+      Net panel, YSlow plug-in and another more of an all-in-one solution New Relic.
+    id: '466935263346187'
+  - created_time: '2012-10-01T23:04:47+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Can't install Fiddler (I'm working on MAC) :S
+    id: '466936303346083'
+  - created_time: '2012-10-01T23:05:31+0000'
+    from:
+      name: Ahmed Melege
+      id: '10156112171242375'
+    message: Media Temple managed service = BAD PERFORMANCE
+    id: '466936720012708'
+  - created_time: '2012-10-01T23:06:50+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: I know! had to upgrade from VS3 to VS4 and it's stupid process migrating
+      everything!
+    id: '466937523345961'
+  - created_time: '2012-10-01T23:07:46+0000'
+    from:
+      name: Ahmed Melege
+      id: '10156112171242375'
+    message: I think you should consider migrating to another datacenter
+    id: '466938056679241'
+  - created_time: '2012-10-01T23:08:13+0000'
+    from:
+      name: Ahmed Melege
+      id: '10156112171242375'
+    message: big companies use them for testing purposes, not production sites.
+    id: '466938316679215'
+  - created_time: '2012-10-01T23:09:14+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: what do you recommend ?
+    id: '466938893345824'
+  - created_time: '2012-10-01T23:10:49+0000'
+    from:
+      name: Ahmed Melege
+      id: '10156112171242375'
+    message: |-
+      if you will manage your own server/VPS, go for Hetzner.com.
+      if you want a cloud server, stormondemand.com
+      for a managed server/VPS, liquidweb.com
+    id: '466939366679110'
+  - created_time: '2012-10-01T23:11:40+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Yeah, I will be managing the server
+    id: '466939540012426'
+  - created_time: '2012-10-01T23:12:30+0000'
+    from:
+      name: Ahmed Melege
+      id: '10156112171242375'
+    message: Hetzner.com is perfect. trust me. sites like Mawaly.com are hosted there.
+      Check the website performance
+    id: '466939773345736'
+  - created_time: '2012-10-01T23:31:08+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: 'i minimized the delay using Pragma Caching. Waiting time now is: 93ms.'
+    id: '466944883345225'
+  - created_time: '2012-10-01T23:32:24+0000'
+    from:
+      name: Ahmed Melege
+      id: '10156112171242375'
+    message: u can also switch to nginx
+    id: '466945186678528'
+  - created_time: '2012-10-01T23:33:18+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: ngnix caching?
+    id: '466945346678512'
+  - created_time: '2012-10-01T23:34:41+0000'
+    from:
+      name: Ahmed Melege
+      id: '10156112171242375'
+    message: |-
+      nginx webserver... much faster
+      http://joeandmotorboat.com/2008/02/28/apache-vs-nginx-web-server-performance-deathmatch/
+    id: '466945573345156'
+  - created_time: '2012-10-01T23:40:25+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: 'Yes, I already use it: http://d.pr/i/2j2M'
+    id: '466947210011659'
+  - created_time: '2012-10-02T19:27:14+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: One way you can do it is clear cache in chrome, open dev toolbar (F12),
+      switch to Network panel, and open the website, see the timeline telling you
+      what time spent on what.
+    id: '467232229983157'
+  - created_time: '2012-10-02T19:28:32+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Doing this, it seems to me that you have so many JS and CSS files, that
+      are exceeding the limit of parallel downloads and had to be queued, some of
+      the files are a bit big too (over 100K). The solution? Consider combining files
+      together into single file in production, and maybe minify files as well.
+    id: '467232626649784'
+  - created_time: '2012-10-02T19:35:31+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Yes, We've passed all the limits in this website because we have videos/HD
+      photos in the home page (I'm hosting some of them in S3 to get advantage of
+      parallel loading).
+    id: '467234639982916'
+  - created_time: '2012-10-02T19:37:27+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: A lot of the files I see in the network tab are CSS/JS. Not sure what
+      technology you are using, but there must be an asset management / bundling /
+      combination and minification framework for it. All big platforms have at least
+      one now.
+    id: '467235239982856'
+  - created_time: '2012-10-02T19:37:32+0000'
+    from:
+      name: Ahmed Melege
+      id: '10156112171242375'
+    message: you may try Google Page speed service.. It minifies your html and combines
+      all css/javascript
+    id: '467235266649520'
+  - created_time: '2012-10-02T19:40:04+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Combination in this case is even more important than minification (although
+      it is still important), every tech stack will have something that uses google's
+      or Yahoos or Microsoft's or something else, just get anything, and again, start
+      with combining the files.
+    id: '467236176649429'
+  - created_time: '2012-10-02T20:05:52+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: I see the total page size is really big, it exceeds 3MB, and it contains
+      a lot of elements which make it very slow in browser anyway so I would load
+      most of it asynchronously using JS/AJAX on demand when user scrolls down, this
+      will speed up the landing time, or at least use lazy loading tricks for images
+    id: '467244853315228'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAORFkyT1RJek56TXpNelEzTXpRd09qRXpORGt4TXpBMU5EUT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAORFkzTWpRME9EVXpNekUxTWpJNE9qRXpORGt5TURnek5UST0ZD

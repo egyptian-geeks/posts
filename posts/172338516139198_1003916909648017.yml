@@ -9,3 +9,29 @@ created_time: '2015-09-09T12:23:36+0000'
 updated_time: '2015-09-09T18:48:58+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1003916909648017/
 id: '172338516139198_1003916909648017'
+reactions:
+  data:
+  - id: '1823047314436316'
+    name: Ahmed Aboshanab
+    type: LIKE
+  - id: '10159867502420361'
+    name: Amr AbdelAziz
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhPVE14T1RZAek1UUTBPakUwTkRFNE1qUXlNalk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: T0RRMk9UTXdNell3T2pFME5ERTRNREU0TURNNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2015-09-09T18:48:58+0000'
+    from:
+      name: Ahmed Aboshanab
+      id: '1823047314436316'
+    message: |-
+      This is a nice article that compares MongoDB with other NoSQL DBs, but unfortunately it doesn't mention DocumentDB:
+      http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-vs-redis
+    id: '1004066539633054'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF3TkRBMk5qVXpPVFl6TXpBMU5Eb3hORFF4T0RJME5UTTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF3TkRBMk5qVXpPVFl6TXpBMU5Eb3hORFF4T0RJME5UTTQZD

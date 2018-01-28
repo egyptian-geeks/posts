@@ -16,3 +16,127 @@ updated_time: '2014-08-21T09:57:09+0000'
 name: nazariyg/Phred
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/802264913146552/
 id: '172338516139198_802264913146552'
+reactions:
+  data:
+  - id: '1612268142186191'
+    name: Muhammad Saied
+    type: LIKE
+  - id: '10209601946319408'
+    name: Muhammad Samman
+    type: LIKE
+  - id: '10212947071504226'
+    name: Eslam Hamouda
+    type: LIKE
+  - id: '10208829952864521'
+    name: Mahmoud Maghraby
+    type: LIKE
+  - id: '1748637668514027'
+    name: Adham EL-Deeb
+    type: LIKE
+  - id: '10215800137143118'
+    name: Mohamed Elnagar
+    type: LIKE
+  - id: '10159968598420224'
+    name: Tarek Omar
+    type: LIKE
+  - id: '10155855157936047'
+    name: Mosab Ibrahim
+    type: LIKE
+  - id: '1673431476060100'
+    name: Ahmed Khaled
+    type: LIKE
+  - id: '1544104592377915'
+    name: Mohamed Naser Amein
+    type: LIKE
+  - id: '10155547863649263'
+    name: Ahmed M. Araby
+    type: LIKE
+  - id: '10214796374519514'
+    name: Islam AbdelMohaimen Hassan
+    type: LIKE
+  - id: '10215974821831350'
+    name: Amr Salama
+    type: LIKE
+  - id: '10154904189965670'
+    name: Ahmad Alfy
+    type: LIKE
+  - id: '10156020325916241'
+    name: Musa Hamza
+    type: LIKE
+  - id: '10214068119353277'
+    name: Mahmoud Elkholly
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlNRGt3TmpFd056ZAzFPakUwTURnM01EY3dPVEU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRFeU1EYzNORGd6TlRveE5EQTROakV3T0RZAM09qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2014-08-21T09:49:39+0000'
+    from:
+      name: Ashraf Kaabi
+      id: '10156258607755921'
+    message: |-
+      ممكن تستخدم فريم وورك زي Laravel
+      ده اقرب حاجة لمنطق Ruby on rails
+
+      اما بخصوص البى اتش بى فمفروض فيه تطورات كتيرة فيه نسخة PHP 7
+      هيكون فيها JIT زي HHVM
+      بس للاسف لسى على النسخة كتير ممكن 2016 او 2017
+    id: '802276276478749'
+  - created_time: '2014-08-21T09:51:39+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: "^ لا يا اشرف انا بتكلم عن اللغات نفسها مش الفريموركس،\nو تحديدآ ال primitive
+      data types زى strings, integers, arrays \nده التعديل اللى فى النسخة اللى فوق\n-
+      هو فى نسخة PHP 7 دى غيروا الpremitive data types لObjects ؟"
+    id: '802276756478701'
+  - created_time: '2014-08-21T09:52:18+0000'
+    from:
+      name: Ashraf Kaabi
+      id: '10156258607755921'
+    message: http://www.phpclasses.org/blog/post/242-PHP-7-Features-and-Release-Date.html
+    id: '802276979812012'
+  - created_time: '2014-08-21T09:55:20+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: اه زى ماتوقعت لسة ال primitive data types فيها مش objects
+    id: '802277583145285'
+  - created_time: '2014-08-21T09:55:32+0000'
+    from:
+      name: Ashraf Kaabi
+      id: '10156258607755921'
+    message: "data types مش هيكون فيها اى تغييرات بس على فكرة هى نفس المنطق بتاع C
+      Language \nفانتا لو قديم فى البى اتش بى مفروض تكون اتعوضت على منطق برمجة معين
+      الا لو محبيتش المنطق نفسه فوقتها هتتضطر تغير من لغة للغة زي ما ناس كتيرة عملت
+      كدة عشان يشوفه ايه الانسب ليهم"
+    id: '802277609811949'
+  - created_time: '2014-08-21T09:57:09+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: اه ماهو اعتراضى على الموضوع ده ان مافيش تغييرات فى اللغة، مع انهم ببساطة
+      ممكن يخلوا الdata types بتاعتهم objects و تشتغل بالطريقة القديمة برضه مع datatype_*
+      functions بس تحسهم مكسلين.
+    id: '802277833145260'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPREF5TWpjMk1qYzJORGM0TnpRNU9qRTBNRGcyTVRRMU56az0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPREF5TWpjM09ETXpNVFExTWpZAd09qRTBNRGcyTVRVd01qaz0ZD
+attachments:
+  data:
+  - description: Phred - Extends PHP to a consistent, fully object-oriented coding
+      standard with Unicode support for OOP strings, components for i18n/L10n, and
+      with other essential features for creating modern web applications
+    media:
+      image:
+        height: 400
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQA1PSpDSrYsVkTZ&w=720&h=720&url=https%3A%2F%2Favatars2.githubusercontent.com%2Fu%2F6996416%3Fv%3D2%26s%3D400&cfs=1&_nc_hash=AQCEu4wEBplQMbeY
+        width: 400
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Fnazariyg%2FPhred&h=ATNSJqaeOvEo1sZGT_UPKG4IQ5as-xL4Jq7HimN7QIm-sfj3ssYvFKM3yoFs34sW8rL0b_E7W30jsljU4kzjEA0lWS4Mgut_Hbo8&s=1&enc=AZML49iPzD7Jz1Q-SANE9q_-56kuuXoZW1kvlM3hGFru27KmHnsTzz8hllifyVzadbCHZp7UihTl6RZgU2oCBMh0
+    title: nazariyg/Phred
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Fnazariyg%2FPhred&h=ATNSJqaeOvEo1sZGT_UPKG4IQ5as-xL4Jq7HimN7QIm-sfj3ssYvFKM3yoFs34sW8rL0b_E7W30jsljU4kzjEA0lWS4Mgut_Hbo8&s=1&enc=AZML49iPzD7Jz1Q-SANE9q_-56kuuXoZW1kvlM3hGFru27KmHnsTzz8hllifyVzadbCHZp7UihTl6RZgU2oCBMh0

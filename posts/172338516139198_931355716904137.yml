@@ -11,3 +11,26 @@ created_time: '2015-04-25T14:03:36+0000'
 updated_time: '2015-04-26T09:30:43+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/931355716904137/
 id: '172338516139198_931355716904137'
+comments:
+  data:
+  - created_time: '2015-04-25T23:59:54+0000'
+    from:
+      name: Ahmed Ibrahim Khalil
+      id: '10152956726593657'
+    message: |-
+      No sure If you have tried it or not, but I've used ZXing in my Android applications and it worked great (at least for  EAN_128 didn't try with Code 39 ).
+
+      It has bindings for several languages one of them is for the .NET platform.
+
+      https://github.com/zxing/zxing/
+    id: '931566303549745'
+  - created_time: '2015-04-26T09:30:43+0000'
+    from:
+      name: Amr Ali Tealeb
+      id: '10156575426331336'
+    message: I tried the .Net implementation but it is not working for all cases
+    id: '931744593531916'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVE14TlRZAMk16QXpOVFE1TnpRMU9qRTBNekF3TURZAek9UUT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVE14TnpRME5Ua3pOVE14T1RFMk9qRTBNekF3TkRBMk5ETT0ZD

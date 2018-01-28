@@ -10,3 +10,34 @@ created_time: '2014-03-18T19:28:42+0000'
 updated_time: '2014-03-19T11:00:37+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/716891915017186/
 id: '172338516139198_716891915017186'
+comments:
+  data:
+  - created_time: '2014-03-18T19:56:55+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: you are suggesting giving up the use of static constructors all together
+    id: '716902998349411'
+  - created_time: '2014-03-19T08:05:10+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: ممكن بدل ال static constructor تعملهم lazy loading بمعنى إنك في ال get
+      بتاع كل property تشوف ال private value بتاعها له قيمة واللا مالوش، لو مالوش
+      قيمة حاول تجيب قيمته من قاعدة البيانات وفي الآخر رجعه. أو إعمل private bool
+      ك flag زي ما باسم بيقول واعمل private static method هي اللي بعمل init من قاعدة
+      البيانات لكل ال properies وفي كل get بتاع property وفي ال static constructor
+      شوف ال flag ده لو false نادي على ال init method
+    id: '717125328327178'
+  - created_time: '2014-03-19T11:00:37+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      I personally don't think static constructors are a good idea here, it's usually better to call a static Initialize method to have more control :)
+      In your case, if you are using an ORM, see of there is any event or virtual method that gets called when the database is ready and call your static Initialize method there, also have a static bool variable to prevent double-initialization. It's not the cleanest solution, but static stuff are usually annoying like that.
+    id: '717175931655451'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekUyT1RBeU9UazRNelE1TkRFeE9qRXpPVFV4TnpJMk1UVT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekUzTVRjMU9UTXhOalUxTkRVeE9qRXpPVFV5TWpZANE16Yz0ZD

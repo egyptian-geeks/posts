@@ -8,3 +8,65 @@ created_time: '2014-03-29T21:25:21+0000'
 updated_time: '2014-03-30T00:21:54+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/722484201124624/
 id: '172338516139198_722484201124624'
+comments:
+  data:
+  - created_time: '2014-03-29T22:45:56+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: Share the code.
+    id: '722509294455448'
+  - created_time: '2014-03-29T22:51:29+0000'
+    from:
+      name: Abdalla Elnaggar
+      id: '2096764887006623'
+    message: new Thread(new Horse("Elrahwan", race, trough)).start();
+    id: '722510917788619'
+  - created_time: '2014-03-29T23:04:48+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: |-
+      Interesting piece of code. I'll try my best in arabic.
+      howa ely by7sal hena eno by3mel thread gedid w bedylo object men class Horse, el class dah lazem bykon 3amel implement le Runnable interface, y3ny 3mel implement le method esmha run
+      w b3d keda el new thread dah by3melo start 3ashn ybtedy executing el code ely gowa el run method ely gowa el horse class
+    id: '722514017788309'
+  - created_time: '2014-03-29T23:23:28+0000'
+    from:
+      name: Abdalla Elnaggar
+      id: '2096764887006623'
+    message: تمام انا فاهم بيعمل ايه انا عايز افهم طريقه الكتابه ده علشان انا بطلغبط
+      يعنى ممكن شويه توضيح اكتر
+    id: '722524604453917'
+  - created_time: '2014-03-29T23:25:41+0000'
+    from:
+      name: Abdalla Elnaggar
+      id: '2096764887006623'
+    message: شكل الكود غريب شويه بالنسبه لى
+    id: '722525064453871'
+  - created_time: '2014-03-29T23:48:22+0000'
+    from:
+      name: Mahmoud Abou-Eita
+      id: '10155476283875735'
+    message: |-
+      if this will make it more readable it's the same as having:                   Horse horse = new Horse("Elrahwan", race, trough); // Where Horse is a Runnable
+      Thread thread = new Thread(horse);
+      thread.start();
+    id: '722536554452722'
+  - created_time: '2014-03-29T23:48:51+0000'
+    from:
+      name: Mahmoud Abou-Eita
+      id: '10155476283875735'
+    message: if it's still unclear check this post http://tutorials.jenkov.com/java-concurrency/creating-and-starting-threads.html
+    id: '722536831119361'
+  - created_time: '2014-03-30T00:21:54+0000'
+    from:
+      name: Abdalla Elnaggar
+      id: '2096764887006623'
+    message: شكرا وصلت الحكايه هوكان شكل الكود اللى غريب شويه بس فهمت انه ممكن يتكتب
+      بالطريقه ده
+    id: '722545597785151'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekl5TlRBNU1qazBORFUxTkRRNE9qRXpPVFl4TXpNeE5UWT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekl5TlRRMU5UazNOemcxTVRVeE9qRXpPVFl4TXpnNU1UUT0ZD

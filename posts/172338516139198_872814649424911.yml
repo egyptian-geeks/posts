@@ -8,3 +8,205 @@ created_time: '2015-01-02T13:54:46+0000'
 updated_time: '2015-01-02T21:28:41+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/872814649424911/
 id: '172338516139198_872814649424911'
+reactions:
+  data:
+  - id: '10156476353501062'
+    name: Tarik Ibrahim
+    type: LIKE
+  - id: '10155138037322478'
+    name: Anas Emad
+    type: LIKE
+  paging:
+    cursors:
+      before: Tnpjd01Ea3hNRFl4T2pFME1qQXlORFV6T0RJNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TmpjME9UTXlORGMzT2pFME1qQXlNVGc0TnpBNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2015-01-02T14:02:53+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      You mean here in this group? I think a few do. As in: yes.
+      So, where does this take the conversaion?
+    id: '872817546091288'
+  - created_time: '2015-01-02T14:08:21+0000'
+    from:
+      name: Pola Ashraf
+      id: '10155173051963199'
+    message: |-
+      Just wanted to ask about the reasons that would make you choose using it. Some real and personal reasons, I already did a lot of searches, but not convinced yet with what I got of results, So I'm seeking for personal thoughts.
+
+      And the second question is how did you managed to start thinking of it as a server side language ? How did you start to think of it differently ?
+    id: '872819909424385'
+  - created_time: '2015-01-02T14:22:38+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Mohamed Alaa El Din تطلع الطلعة دي؟
+    id: '872824832757226'
+  - created_time: '2015-01-02T14:42:16+0000'
+    from:
+      name: Rafael Adel
+      id: '10156260406777122'
+    message: "I've used Node.js in a realtime project. That depended heavily on sockets
+      and instant responses. During the lifetime of the project only 3 or 4 requests
+      cycles are made and around 10 sockets events are fired. \n\nI used Node.js as
+      a rest server with AngularJS. Node is quite responsive when it comes to heavy
+      number of requests. \n\nIt's also all about asynchronous calls, So you'll face
+      a lot of hard times trying to figure out why a function returns undefined when
+      it should've returned a value. Then you'll figure out its event-driven approach,
+      And you'll really have to get your head around it in order to be able to create
+      anything using Node.js. I literally mean it, If you can't work with events and
+      manage your code according to it, just stay away from Node.js, But If you did,
+      you'll find programming using Node.js just magical :)"
+    id: '872832506089792'
+  - created_time: '2015-01-02T14:58:03+0000'
+    from:
+      name: ElMohanned Ahmed
+      id: '10155446052327104'
+    message: Mohamed Nar
+    id: '872839369422439'
+  - created_time: '2015-01-02T15:56:43+0000'
+    from:
+      name: Randa Hisham
+      id: '10155867649316043'
+    message: Mohamed Meligy i have used it in a project  before i was trying to do
+      real time notification but i found that the server is down after five notification
+      ,so i stop the service what is the specification of the host if i want to use
+      it again?
+    id: '872921696080873'
+  - created_time: '2015-01-02T16:06:53+0000'
+    from:
+      name: Sabr Bry
+      id: '10203807938637084'
+    message: The backend of https://itunes.apple.com/us/app/boximize-structured-note-taking/id828889086?mt=8
+      is built using Node.js and dynamoDB (not released yet though) .. as Rafael Adel
+      said it's magical :)
+    id: '872925542747155'
+  - created_time: '2015-01-02T16:14:09+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: I think Randa Hisham may have meant to mention Rafael Adel in her comment
+      mentioning me. Raph?
+    id: '872928386080204'
+  - created_time: '2015-01-02T16:30:33+0000'
+    from:
+      name: Sherif Medhat
+      id: '10155008686891793'
+    message: Amir Allam
+    id: '872935996079443'
+  - created_time: '2015-01-02T16:48:50+0000'
+    from:
+      name: Eslam Salem Mahmoud
+      id: '10157134145555299'
+    message: |-
+      yes ,
+      for ( real time notifications using socket.io ) in a project
+      and for a file monitoring script ( in house project )
+    id: '872944962745213'
+  - created_time: '2015-01-02T17:00:09+0000'
+    from:
+      name: Amir Allam
+      id: '10213312485660401'
+    message: We use it in our backend at elmenus.com, it's API centric with our website
+      and mobile apps connecting to it. It's not for every kind of application so
+      don't follow the hype and use it for the wrong reasons just because it's cool
+      and new (although sometimes this is good enough reason). For us, it's been covering
+      all our needs, attracted the right kind of developers for us and is supporting
+      our real time needs for apps like our push server and a socket.io based application
+      we're developing
+    id: '872948956078147'
+  - created_time: '2015-01-02T17:05:25+0000'
+    from:
+      name: Amr Saleh
+      id: '10159856278220366'
+    message: Mohamed Yahya
+    id: '872951789411197'
+  - created_time: '2015-01-02T17:27:11+0000'
+    from:
+      name: Abdelhameed Tourky
+      id: '10156434261949271'
+    message: Don't go for something real without async.js though
+    id: '872960429410333'
+  - created_time: '2015-01-02T17:35:05+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: "I didn't use it in production, but I've been learning about real-time
+      web apps for some time now.\n\nSome people do the non real-time part of their
+      website with the technology familiar to them & do the real-time part only with
+      NodeJS. \n\nThis is an example using django & NodeJS, but it can be applied
+      with any technology http://www.maxburstein.com/blog/realtime-django-using-nodejs-and-socketio/\n\nAlso,
+      most technologies now allow you to do real-time apps. With .net there is SignalR.
+      With Java there is Jetty. You'll find also for Python, Ruby, etc"
+    id: '872966386076404'
+  - created_time: '2015-01-02T17:50:57+0000'
+    from:
+      name: Rafael Adel
+      id: '10156260406777122'
+    message: "Mohamed Meligy Sorry for late response. About your question Randa Hisham.\n\nTo
+      be honest, I was hosting the app on a personal computer and was a part of a
+      network.\n\nBut generally, Node.js creates it's own process (web server) and
+      listens on a particular port. You won't need Apache at all. In fact if you want
+      to host a Node.js application on apache you'll have to do some work. \n\nSo
+      you can host a Node.js app nearly on any server but it varies in the difficulty
+      to get it running. \n\n1 -  You can just run Node.js by itself on a server without
+      apache and tell it to listen on a certain port.. But you'll have to manage error
+      handling and stuff like that. Becaus if an exception is thrown and not handled
+      the process of the application stops and will not be responding until you restart
+      that process. \n\nYou'll have to make sure also that no other application on
+      your server is using the same port node is using. especially if you're using
+      web sockets.\n\n2 - You can use Node.js in combination with nginx to create
+      proxies i think in order to prevent any port blocking (not really sure if this
+      is the only benefit )\n\n3 - You can host it on Apache, But you'll have to do
+      some Virtual Hosts stuff. Not really sure.\n\n4 - You can use PaaS or IaaS,
+      Which handles nearly every server maintenance task. Like rebooting in case of
+      an exception, load balancing, deployment and starting/stopping your app.\n\nPaaS
+      is like Heroku and Nodejitsu \nIaaS is like Amazone AWS\n\nNote: I did some
+      researches before and readings to get this information. Please if there's something
+      incorrect about it tell me. Thanks."
+    id: '872973652742344'
+  - created_time: '2015-01-02T21:11:00+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: |-
+      Thanks Mohamed Meligy I will take it from here :D (My Favorite Part Thank You)
+
+      Node.js is built upon libuv, a cross-platform library that abstracts apis/syscalls for asynchronous (non-blocking) input/output provided by the supported OSes (Unix, OS X and Windows at least).
+
+      Pola Ashraf it depends mostly on what you need. NodeJS & Socket as Most of the members mentioned are the best solutions for sending messages, notifications and making non-blocking code (Async) which in normal cases if you try to do it alone with any programing language you will need a queue server to process them in the background.
+
+      Another Things is how fast NodeJS/ExpressJS respond. they take 10-30ms which is awesome.
+
+      Randa Hisham I use NodeJS in Production apps and I made a test on  my server to see the concurrency and I got 2500 concurrent request which is 150K PRM (Request Per Minute) So I believe You are doing something wrong that blocks the server and there for the server goes down.
+    id: '873054399400936'
+  - created_time: '2015-01-02T21:14:08+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: |-
+      Finally I recommend you to see this post to understand why NodeJS for Notifications, PubSub Servers, Messaging, etc...
+
+      http://stackoverflow.com/questions/14795145/how-the-single-threaded-non-blocking-io-model-works-in-node-js
+    id: '873057292733980'
+  - created_time: '2015-01-02T21:28:41+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: "Ahhhhh, I forgot Something Really VERY VERY Important! REST APIs with
+      NodeJS it's the best thing EVER coz you get to respond in a very minimum time.\n\nBooks
+      & Materials I recommend:\n\nFor Beginners:\n- Jump Start Node.js\n\nFor Intermediate
+      and APIs Interested: \n-  Building Hypermedia APIs with HTML5 and Node\n\nArticles:
+      (Google What You need)\n- http://scottksmith.com/blog/2014/05/02/building-restful-apis-with-node/\n\nAdvanced
+      Users:\n- MEAN stack (Mongo, Express, Angular & Node) http://mean.io/\n\nCourses
+      (I like Learning By doing Real Stuff)\n- https://www.codeschool.com/courses/real-time-web-with-node-js\n-
+      https://www.codeschool.com/courses/building-blocks-of-express-js\n\nI think
+      this is very Good and Suggestions are more than welcome :)"
+    id: '873062189400157'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGN5T0RFM05UUTJNRGt4TWpnNE9qRTBNakF5TURjek56TT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGN6TURZAeU1UZAzVOREF3TVRVM09qRTBNakF5TXpReE1qRT0ZD

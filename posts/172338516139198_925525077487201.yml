@@ -11,3 +11,102 @@ created_time: '2015-04-13T20:13:45+0000'
 updated_time: '2015-04-15T07:52:20+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/925525077487201/
 id: '172338516139198_925525077487201'
+comments:
+  data:
+  - created_time: '2015-04-13T20:50:14+0000'
+    from:
+      name: Taha Amin
+      id: '10155815529215590'
+    message: google for business rules engine
+    id: '925537810819261'
+  - created_time: '2015-04-13T20:57:07+0000'
+    from:
+      name: Khaled Ramadan
+      id: '10157199016384478'
+    message: |-
+      thnx for reply
+      what you meant by google for business rules engine?
+      do you mean "hammurabi" as rule engine or you meant i should search google?
+    id: '925539964152379'
+  - created_time: '2015-04-13T21:04:22+0000'
+    from:
+      name: Ahmed Aboulenein
+      id: '10160047384135438'
+    message: For large scale apps, you should have a business rules engine "BRE" that
+      comes with a UI suitable for your client needs. The app business logic will
+      be dependent on these configurable rules. Your customer uses the UI to change
+      the rules ---> the app behavior changes to reflect their changes.
+    id: '925542317485477'
+  - created_time: '2015-04-13T21:06:59+0000'
+    from:
+      name: Ahmed Aboulenein
+      id: '10160047384135438'
+    message: If it is small scale and just some configurable parameters, probably
+      you can just create a simple UI for your client to configure some DB-persistent
+      parameters. In the business logic, use these parameters to change the behavior.
+    id: '925543177485391'
+  - created_time: '2015-04-13T21:14:39+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: That's a pretty broad and vague requirements, I would urge asking for
+      more specific examples on what are the types of business rules that are open
+      for customers to specify.
+    id: '925545157485193'
+  - created_time: '2015-04-13T21:19:59+0000'
+    from:
+      name: Khaled Ramadan
+      id: '10157199016384478'
+    message: |-
+      :)
+      my customer have some of payment methods on his eCommerce site but each payment method requires some rules to be applied.
+      like product that have price greater than 3000$ can't have payment method x
+      product that have weight greater than 30 KG  can't have free deliver fees
+      Also he can do combination of 2 or 3 rules to create new rule. and so on
+    id: '925547027485006'
+  - created_time: '2015-04-13T21:40:23+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: That sounds way more simpler than the original request :) at least it
+      is scoped to payment system, how open the rules are, and how often they may
+      change, if these rules are fixed (except for some values like weights and stuff)
+      that could be even simpler
+    id: '925552500817792'
+  - created_time: '2015-04-13T21:49:39+0000'
+    from:
+      name: Khaled Ramadan
+      id: '10157199016384478'
+    message: ":) NDA basha"
+    id: '925555157484193'
+  - created_time: '2015-04-14T15:43:20+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: If you want something ready, try https://rulesengine.codeplex.com/ (I
+      didn't use it before)
+    id: '925872084119167'
+  - created_time: '2015-04-15T01:38:26+0000'
+    from:
+      name: Abdelmawla Mohamed
+      id: '10155529060497804'
+    message: Also you can use specification design pattern. http://martinfowler.com/apsupp/spec.pdf
+    id: '926083620764680'
+  - created_time: '2015-04-15T06:46:18+0000'
+    from:
+      name: Cloud Innovation
+      id: '830150553853830'
+    message: R u a sw engineer, experiebced
+    id: '926164340756608'
+  - created_time: '2015-04-15T07:52:20+0000'
+    from:
+      name: Khaled Ramadan
+      id: '10157199016384478'
+    message: |-
+      Lim Moe
+      we are professional outsourcing  service provider and I am the sotware architect and the owner
+    id: '926177837421925'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEkxTlRNM09ERXdPREU1TWpZAeE9qRTBNamc1TlRneU1UUT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEkyTVRjM09ETTNOREl4T1RJMU9qRTBNamt3T0RRek5EQT0ZD

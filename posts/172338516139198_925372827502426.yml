@@ -11,3 +11,150 @@ updated_time: '2015-04-13T19:32:37+0000'
 name: Phabricator
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/925372827502426/
 id: '172338516139198_925372827502426'
+reactions:
+  data:
+  - id: '10159825719935065'
+    name: Shenouda Bertel
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRrd056WXdNRFkwT2pFME1qZAzVNemt6TkRrNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRrd056WXdNRFkwT2pFME1qZAzVNemt6TkRrNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2015-04-13T13:47:22+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: Yup ... use it all the time. It's quite good for tech savvy users but
+      hard to grasp if you want your clients and customer to use it to report bugs.
+      We use it for bug tracking internally and to host git repos
+    id: '925373964168979'
+  - created_time: '2015-04-13T13:54:19+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: Ahmad Alfy seems interesting, I'm searching for a one tool for documentation
+      and bug tracing as I'll be replacing jira. Does it fit my situation?
+    id: '925375890835453'
+  - created_time: '2015-04-13T13:58:18+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: In my experience, it was hard for our customers to use. We use it internally
+      only. Like I said if you want something that involve input from your client
+      I think you should look for better options.  It's really hard for me to compare
+      it to JIRA cause I never used it.
+    id: '925377237501985'
+  - created_time: '2015-04-13T14:00:02+0000'
+    from:
+      name: Mohamed Jadelrab
+      id: '10156401691426535'
+    message: Alaa Attya Mohamed why you want to replace Jira ?!
+    id: '925377650835277'
+  - created_time: '2015-04-13T14:05:10+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: Mohamed Jadelrab my colleagues do not seem to like it. So just needed
+      a new simple tool to be used as a documentation and bug tracking.
+    id: '925379090835133'
+  - created_time: '2015-04-13T14:06:36+0000'
+    from:
+      name: Mohamed Jadelrab
+      id: '10156401691426535'
+    message: Alaa Attya Mohamed mmmm where is your code hosted ?!
+    id: '925379517501757'
+  - created_time: '2015-04-13T14:07:01+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: Private git repos
+    id: '925379707501738'
+  - created_time: '2015-04-13T14:07:56+0000'
+    from:
+      name: Mohamed Jadelrab
+      id: '10156401691426535'
+    message: Alaa Attya Mohamed github or your own server ? can you move to gitlab
+      and use it's wiki for documentation and issues ? if gitlab is not sufficient
+      for issues you can use mantis
+    id: '925380027501706'
+  - created_time: '2015-04-13T14:42:18+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: Mohamed Jadelrab nope we're using github. I'll be checking mantis
+    id: '925396950833347'
+  - created_time: '2015-04-13T15:36:32+0000'
+    from:
+      name: Shenouda Bertel
+      id: '10159825719935065'
+    message: "☝\U0001F3FC"
+    id: '925421657497543'
+  - created_time: '2015-04-13T16:51:05+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: |-
+      Alaa Attya Mohamed, if the only reason is that your colleagues don't like it, give them some time.
+
+      We use JIRA at work, we made the switch from Pivotal Tracker. I hated everything about the move. But eventually I got used to it. And now I don't have any problems with it.
+
+      Set it up properly, and give them some time.
+    id: '925450104161365'
+  - created_time: '2015-04-13T17:00:47+0000'
+    from:
+      name: Mohamed Jadelrab
+      id: '10156401691426535'
+    message: I second what Mosab said
+    id: '925452994161076'
+  - created_time: '2015-04-13T17:47:52+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: 'I used this: https://codeclimate.com/'
+    id: '925471014159274'
+  - created_time: '2015-04-13T19:25:15+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: Mosab Ahmad I think one month is enough :D
+    id: '925508967488812'
+  - created_time: '2015-04-13T19:28:14+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: Not really! It took me 3 months to stop bitching about it :D
+    id: '925509820822060'
+  - created_time: '2015-04-13T19:29:29+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: The key to this is to have a PROPER setup of JIRA, and a PROPER process
+      in place.
+    id: '925510340822008'
+  - created_time: '2015-04-13T19:32:37+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: Mosab Ahmad yup yup they have a problem with creating a proper process
+      and the setup of the agile plugin
+    id: '925511387488570'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEkxTXpjek9UWTBNVFk0T1RjNU9qRTBNamc1TXpJNE5EST0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEkxTlRFeE16ZAzNORGc0TlRjd09qRTBNamc1TlRNMU5UYz0ZD
+attachments:
+  data:
+  - description: Phabricator is a suite of open source tools for peer code review,
+      task management, and project communication.
+    media:
+      image:
+        height: 720
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAelesrcsb6_ooL&w=720&h=720&url=http%3A%2F%2Fphabricator.org%2Frsrc%2Fimages%2Fphabricator%2Fhero_2x.png&cfs=1&_nc_hash=AQCjh0omjMm2Zda9
+        width: 720
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fphabricator.org%2F&h=ATOaWx4Lm9QZtjs4J6gIMAK0uwfU2tmGuEikZP442CIxObwwg6x2l-PLdzV_x68aSPcEOvSj5Vqb49aelzwXknfHsHBmXisnA9Ef&s=1&enc=AZPMSTmhfeBVkIMBy4VDYya4FqLNUC4ITM3jnFDAdLZPGIgNTffD0fh-3D7QCRy_bkfJV_Tv_KLXOup8gTG3PzLu
+    title: Phabricator
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fphabricator.org%2F&h=ATOaWx4Lm9QZtjs4J6gIMAK0uwfU2tmGuEikZP442CIxObwwg6x2l-PLdzV_x68aSPcEOvSj5Vqb49aelzwXknfHsHBmXisnA9Ef&s=1&enc=AZPMSTmhfeBVkIMBy4VDYya4FqLNUC4ITM3jnFDAdLZPGIgNTffD0fh-3D7QCRy_bkfJV_Tv_KLXOup8gTG3PzLu

@@ -13,3 +13,133 @@ updated_time: '2012-05-07T14:17:12+0000'
 name: http://www2.youm7.com/News.asp?NewsID=99999999999999999999999
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/399095140130200/
 id: '172338516139198_399095140130200'
+comments:
+  data:
+  - created_time: '2012-05-05T21:20:25+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: tab feen el 2 videos? :D Share Please :)
+    id: '399098753463172'
+  - created_time: '2012-05-05T21:25:43+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: الحل هو إنك دايما تاخد بالك من أي شيء يقدر المستخدم يغيره أو يكتبه, أي
+      مدخلات من المستخدم في العنوان أو في فورم أو حتى في الكوكيز لأنه ممكن يلعب في
+      الكوكيز لازم يتم التحقق منها
+    id: '399101510129563'
+  - created_time: '2012-05-05T21:28:58+0000'
+    from:
+      name: Emad Mokhtar Habib
+      id: '10159905066535634'
+    message: Always parameterize your query it's not only for prevent sql injection
+      but also for query increase query speed because sql server will save its  execution
+      plan
+    id: '399103093462738'
+  - created_time: '2012-05-05T21:44:06+0000'
+    from:
+      name: Mohamed Sameeh Sharaf
+      id: '2167550119925504'
+    message: "Mohamed Alaa\nاتفضل يا كبير but use it in ethical way :D\nSql injection\nhttp://www.securitytube.net/video/256\nXSS
+      \nhttp://www.securitytube.net/video/458\nhttp://www.securitytube.net/video/459\nدا
+      ديمو عشان تجرب فيه \nDamn Vulnerable Web Application\n\nدا cheat sheet \nhttp://pentestmonkey.net/category/cheat-sheet\n\nMoutaz
+      Shams هو ممكن يلعب ازاااااااااااى فى الكوكيز\n\nEmad Mokhtar but also for query
+      increase query speed because sql server will save its execution plan\nانا مش
+      فاهم الجزء دا \nاللى انا اعرفه ان ال Stored procedure ميزيتها عن ال SQL statement
+      هى ال execution plan"
+    id: '399113796795001'
+  - created_time: '2012-05-05T21:52:28+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: "الكوكيز بتكون متسجلة في كاش البراوزر على الطاير أو متسجلة كملف في الجهاز,
+      فالهاكر يقدر يوصلها ويلعب في اللي فيها براحته, و جوجل كروم فيه طريقة سهلة تخليك
+      تلعب في الكوكيز بسهولة, افتح أي صفحة وبعدين اضغط:\nCTRL + SHIFT + J\nو اضغط
+      فوق على \nResources\nهتلائي فيها بتاعه تظهرك كل الكوكيز, اضغط على الكوكي وهتقدر
+      تشوف البيانات اللي فيه وتعدل فيها. وأظن أغلب البراوزرات دلوقتي فيها الإمكانيات
+      دي, و حتى لو مش فيها فالهاكر يقدر يوصلها بالطرق التقليدية لأنها عبارة عن ملفات
+      نصية عادية موجودة على الكمبيوتر"
+    id: '399117896794591'
+  - created_time: '2012-05-05T21:59:34+0000'
+    from:
+      name: Emad Mokhtar Habib
+      id: '10159905066535634'
+    message: Stored Procedure is a parameterized query but stored inside sql server
+      that's why the debate of stored procedure is not faster than inline sql query,
+      so parameterize sql query  have execution plan as well
+    id: '399121370127577'
+  - created_time: '2012-05-05T22:10:12+0000'
+    from:
+      name: Mohamed Sameeh Sharaf
+      id: '2167550119925504'
+    message: "Emad Mokhtar\nبعتذر لعدم الفهم \nهل معنى كدا ان ال stored procedure
+      مش اسرع من inline query"
+    id: '399126273460420'
+  - created_time: '2012-05-06T09:03:30+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "الحل انك ما تدخلش الداتا اللى جاية من الـ get  او الـ post على الكويرى
+      مباشرة ، ده اكبر غلط \nيعنى مثلا ما ينفعش اكتب في البي اتش بي مثلا \n$q= \"SELECT
+      * FROM TABLE WHERE id = '\" . $_GET['id'] . '\" ; \n\nلازم تعمل filtering للداتا
+      \nيعنى مثلا ابسط حاجة \n$id = (int) $_GET['id']  ; \nوبعد كدة تباصيه للكويرى\n\nوطبعا
+      لو بتستخدم framework محترم\nهيوفر عليك الكلام ده لأنه هيبقى فيه كل الكلاساات
+      بتاعت الفلترينج والفاليديشن وكل حاجة"
+    id: '399382366768144'
+  - created_time: '2012-05-06T18:52:45+0000'
+    from:
+      name: Emad Mokhtar Habib
+      id: '10159905066535634'
+    message: Mohamed Sameeh Sharaf The answer is Yes,please read this article by Jeff
+      Atwood http://www.codinghorror.com/blog/2004/10/who-needs-stored-procedures-anyways.html
+    id: '399647363408311'
+  - created_time: '2012-05-07T05:44:12+0000'
+    from:
+      name: Eslam Hamouda
+      id: '10212947071504226'
+    message: "هو بص المعيد بتاعنا كان اتكلم في النقطة دي كتير وقالنا , ان الثغرة دي
+      من 2005 لحد دلوقتي مالهاش حل وهو نفسه كان شغال هاكر في شركة كبيرة على الثغرة
+      دي وكان بيسرقوا بيها فيزا وكده , الحل انك تقدر تقلل نسبة الاختراق لأبعد نسبة
+      ممكنة , وزي ما الناس تفضلوا مشكورين قالوا أغلب الحلول في الكومنتات اللي فاتت
+      وكلها حلول صحيحة وهتقلل نسبة الدخول بطريقة كبيرة , لكن برده في خطوات كده حاول
+      تتبعها (خصوصا في الدوت نت)\n1- حاول تستخدم ما تستخدمش جمل الاستعلام مباشرة واستخدم
+      Stored Procedures \n2- اذا استخدمت جمل استعلام مباشرة استخدم Parameters \n3-
+      اعمل Validation على النصوص كويس جدا وما تسمحش للمستخدم انه يدخل الرموز دي نهائي
+      :(='`,/*)\n4- حدد استخدام تاجات الـHTML وماتسبهاش مفتوحة عشان ممكن حد يدخلك
+      منها ويبهدلك الدنيا يعني كفاية <b> <u> والباقي احذره\n6- احذر برده من طرق الاتصال
+      والكونكشن استرينج انه يكون مباشر , يفضل انك تعمل ويب سيرفس مشفرة وتتصل عن طريقها\n7-
+      اعمل Log للأبلكيشن بتاعك عشان تعرف مين اللي بيحاول يدخل مظبوط ومين اللي بيحاول
+      يخترق وتعمله حظر على الأقل للأي بي بتاعه ."
+    id: '399948376711543'
+  - created_time: '2012-05-07T05:46:02+0000'
+    from:
+      name: Eslam Hamouda
+      id: '10212947071504226'
+    message: 'Moutaz Shams : اتبسط لما لقيت تشارلز بيتزولد صديق مشترك بينا :) , If
+      You Know What I Mean :D'
+    id: '399949086711472'
+  - created_time: '2012-05-07T11:02:26+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: الشيخ بيتزولد ده حبيبي من أيام الجيزه هههههه , كاتبي المفضل وكتبه لها
+      فضل كبير علي
+    id: '400047033368344'
+  - created_time: '2012-05-07T14:17:12+0000'
+    from:
+      name: Eslam Hamouda
+      id: '10212947071504226'
+    message: علينا كلنا يا معلم , الراجل ده أسطورة :)
+    id: '400128776693503'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANems1TURrNE56VXpORFl6TVRjeU9qRXpNell5TlRJNE1qVT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOREF3TVRJNE56YzJOamt6TlRBek9qRXpNelkwTURBeU16ST0ZD
+attachments:
+  data:
+  - target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fwww2.youm7.com%2FNews.asp%3FNewsID%3D99999999999999999999999&h=ATNnE16oDzFbnumt3noYWWStFi3w41Oc3lWNZAKkuz7JO_vXiuWg1OSHc7roMvLGgKsLJRzUzou_FUJNTaYBiFVrJ8xjgCcnVFXZ&s=1&enc=AZOKhfA_Ufb3uBEJInSCKa7JCd_oyuECjDLxGw-UKc-xjmmov07rRJ7sD2FPNF9Ev_W4Ag2cb0B1otSJm-ziTCKa
+    title: http://www2.youm7.com/News.asp?NewsID=99999999999999999999999
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fwww2.youm7.com%2FNews.asp%3FNewsID%3D99999999999999999999999&h=ATNnE16oDzFbnumt3noYWWStFi3w41Oc3lWNZAKkuz7JO_vXiuWg1OSHc7roMvLGgKsLJRzUzou_FUJNTaYBiFVrJ8xjgCcnVFXZ&s=1&enc=AZOKhfA_Ufb3uBEJInSCKa7JCd_oyuECjDLxGw-UKc-xjmmov07rRJ7sD2FPNF9Ev_W4Ag2cb0B1otSJm-ziTCKa

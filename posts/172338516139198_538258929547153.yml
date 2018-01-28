@@ -10,3 +10,79 @@ created_time: '2013-03-06T12:17:01+0000'
 updated_time: '2013-03-09T14:15:24+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/538258929547153/
 id: '172338516139198_538258929547153'
+comments:
+  data:
+  - created_time: '2013-03-06T21:02:21+0000'
+    from:
+      name: Shady M. Najib
+      id: '10155819655346066'
+    message: I'm not sure what's switches/flippers though
+    id: '538424809530565'
+  - created_time: '2013-03-07T16:27:35+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: HYG http://code.flickr.net/2009/12/02/flipping-out/
+    id: '538738712832508'
+  - created_time: '2013-03-07T21:40:08+0000'
+    from:
+      name: Shady M. Najib
+      id: '10155819655346066'
+    message: Thanks
+    id: '538845926155120'
+  - created_time: '2013-03-08T20:56:36+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Why don't you explain to us in one of our meetings? I'd actually like
+      to use it :)
+    id: '539250349448011'
+  - created_time: '2013-03-09T08:24:17+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Shady M. Najib it's widely known as feature toggles http://martinfowler.com/bliki/FeatureToggle.html
+    id: '539430476096665'
+  - created_time: '2013-03-09T14:15:24+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: I can talk about it tonight ISA :) maybe show an example as well
+    id: '539546809418365'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOVE00TkRJME9EQTVOVE13TlRZAMU9qRXpOakkyTURNM05ERT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOVE01TlRRMk9EQTVOREU0TXpZAMU9qRXpOakk0TXpnMU1qUT0ZD
+attachments:
+  data:
+  - subattachments:
+      data:
+      - target:
+          id: '129479830564687'
+        title: I use feature branches
+        type: option
+      - target:
+          id: '217269151749213'
+        title: I tag the version of my code with release numbers
+        type: option
+      - target:
+          id: '504872392910989'
+        title: I use feature switches/flippers
+        type: option
+      - target:
+          id: '587644534579608'
+        title: I don't know what are you talking about ya 3am
+        type: option
+      - target:
+          id: '298379816957702'
+        title: I know tags/branches/feature switches, but I don't use them (write
+          why below)
+        type: option
+    target:
+      id: '538258926213820'
+      url: https://www.facebook.com/groups/egyptian.geeks/permalink/538258929547153/
+    title: It's saddening that there are developers who don't use tags, feature branches
+      or feature switches  Did you use them? If you know about them & don't use them,
+      please mention why
+    type: question
+    url: https://www.facebook.com/groups/egyptian.geeks/permalink/538258929547153/

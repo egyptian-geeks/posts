@@ -15,3 +15,116 @@ updated_time: '2014-08-17T03:45:24+0000'
 name: Crosswalk
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/798984493474594/
 id: '172338516139198_798984493474594'
+reactions:
+  data:
+  - id: '10155210073496198'
+    name: Waleed Youssry
+    type: LIKE
+  - id: '10215464505030811'
+    name: Hisham El-Sheshtawy
+    type: LIKE
+  - id: '10155984416966904'
+    name: Elsharnouby Mohamed
+    type: LIKE
+  - id: '10155869398711136'
+    name: محمد عبد القهار
+    type: LIKE
+  - id: '10155536294218918'
+    name: Muhammad Mahmoud
+    type: LIKE
+  - id: '10155738795381858'
+    name: Mohamed Abdellatif
+    type: LIKE
+  - id: '10212961449483338'
+    name: Mahmoud Fawzy
+    type: LIKE
+  - id: '10155746814728941'
+    name: Amr Elhagary
+    type: LIKE
+  - id: '10214384757360026'
+    name: Saif Youssef
+    type: LIKE
+  - id: '10156258906723010'
+    name: Usama Soliman
+    type: LIKE
+  - id: '10155880569740170'
+    name: Meligy
+    type: LIKE
+  - id: '10154904189965670'
+    name: Ahmad Alfy
+    type: LIKE
+  - id: '10156649659196002'
+    name: Muhammad Saleh
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpRMk56TTJNVGszT2pFME1EZA3pOakUwTnpJNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TmprMU5UazJNREF4T2pFME1EYzVOalF3T1RZANk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2014-08-13T21:10:17+0000'
+    from:
+      name: Muhammad Saleh
+      id: '10156649659196002'
+    message: Ahmed Hassan Salem Mohammed Saudii eh ?
+    id: '798988023474241'
+  - created_time: '2014-08-13T21:39:20+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Are you plugging it into the Java project phonegap generates?
+    id: '798997710139939'
+  - created_time: '2014-08-13T21:49:01+0000'
+    from:
+      name: Mostafa Muhammad
+      id: '10155787111376210'
+    message: |-
+      No, Crosswalk generates its own APKs.
+
+      I stumbled upon a cordova-chromium project somewhere but I didn't test thoroughly.
+
+      Another good thing about Crosswalk is that it is written in python so I can look under the hood and even modify it. I'm yet to meet my first gotcha though
+    id: '799000386806338'
+  - created_time: '2014-08-17T03:45:24+0000'
+    from:
+      name: Mostafa Muhammad
+      id: '10155787111376210'
+    message: |-
+      After a 4 days hackathon, I think I have a few additional notes
+
+      1) Crosswalk will only work on Android 4.0+
+
+      2) You can embed Crosswalk into a native Android App (I took that approach), They have a cordova version as well but I didn't test that
+
+      3) One of the MOST useful features is the possibility to use Chrome remote debugging to inspect and interact with elements that are in my embedded WebView directly from my desktop browser, Getting all the goodies of Chrome developer tools (Javascript/Dom Breakpoints, Running console code, Real Time CSS modification, etc....)
+
+      4) My App size is about 20MB my assets and resources are about ... 5MB, so I think crosswalk does inflate your app size
+
+      5) You can have your Javascript code interact with your Java code by using JavascriptInterface as you would with a WebView but to have your Java code execute Javascript code in Crosswalk you have an "evaluateJavascript" method which feels cleaner than the "loadUrl" approach employed by WebView (Prior to Kitkat which comes with a chromium webview)
+
+      6) You can use all sorts of bleeding edge HTML5 and CSS3 in your app, I found the CSS3 Transitions to look spectacular under Crosswalk. Libraries like animate.css work flawlessly on Crosswalk (Thanks Alfy), Also You can use APIs like FileStorage, LocalStorage, Audio, etc. Some of those will require the proper <user-permission> tags in your manifest
+
+      7) The app sometimes becomes less responsive and I felt the mobile overheat a bit, nothing objective here just an unsubstantiated observation but It safe to say that while you are using HTML/CSS you should always remember that you are running on a phone with limited resources and that chromium is not doing voodoo magic. If you do expensive stuff in your code your app will lag, drain battery and overheat the device
+
+      That's all I have for now, It was a 4 days hackathon I didn't have time to neither profile nor optimize the code so I think I might have more when I dig into that matter
+    id: '800391796667197'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOems0T1RnNE1ESXpORGMwTWpReE9qRTBNRGM1TmpReU1UYz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPREF3TXpreE56azJOalkzTVRrM09qRTBNRGd5TkRjeE1qUT0ZD
+attachments:
+  data:
+  - description: Crosswalk is a web runtime for ambitious HTML5 applications. It provides
+      all the features of a modern browser, combined with deep device integration
+      and an API for adding native extensions. It is especially suited to mobile devices,
+      with support for both Android and Tizen.
+    media:
+      image:
+        height: 313
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQDzNCpY4tc4l4z4&w=720&h=720&url=https%3A%2F%2Fcrosswalk-project.org%2Fassets%2Farchitecture_crosswalk.png&cfs=1&_nc_hash=AQAtnYm6PMIUcksb
+        width: 313
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcrosswalk-project.org%2F&h=ATP_f8yWAzMyW45k9lYVdC_v3mpI2TDH3Aixw8xcJ60tED6Yw6Pdy0zV38oo_qWnlWZEM6P4wNmhVk2LaufSEUFv6xfp1Jfzplaa&s=1&enc=AZNT7TOZSESGuf_IAfxCUAadIOvlT5ehmVaqO8K0m7ktbNTLageHhab9voFZwEusXf_Lrq8c6kGKxXHBGU94rVjl
+    title: Crosswalk
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcrosswalk-project.org%2F&h=ATP_f8yWAzMyW45k9lYVdC_v3mpI2TDH3Aixw8xcJ60tED6Yw6Pdy0zV38oo_qWnlWZEM6P4wNmhVk2LaufSEUFv6xfp1Jfzplaa&s=1&enc=AZNT7TOZSESGuf_IAfxCUAadIOvlT5ehmVaqO8K0m7ktbNTLageHhab9voFZwEusXf_Lrq8c6kGKxXHBGU94rVjl

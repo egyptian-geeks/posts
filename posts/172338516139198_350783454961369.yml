@@ -18,3 +18,147 @@ updated_time: '2012-02-27T21:42:15+0000'
 name: Cross-domain requests with jQuery – James Padolsey
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/350783454961369/
 id: '172338516139198_350783454961369'
+reactions:
+  data:
+  - id: '10155148152117681'
+    name: Ahmed Shehab
+    type: LIKE
+  - id: '10159990320105038'
+    name: Romany Thomas
+    type: LIKE
+  - id: '10154993661007443'
+    name: Mona Salama
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpNM09UQXlOamd3T2pFek16QTFNakV6T1RRNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TmprNU56ZA3lORFF5T2pFek16QXpORFl4TmpFNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2012-02-27T12:27:22+0000'
+    from:
+      name: Mohammed El Sayed
+      id: '10155880598025170'
+    message: 'more about "same origin policy": http://en.wikipedia.org/wiki/Same_origin_policy'
+    id: '350783891627992'
+  - created_time: '2012-02-27T12:29:18+0000'
+    from:
+      name: Mohammed El Sayed
+      id: '10155880598025170'
+    message: 'CORRECTION: "same origin policy" is implemented in the scripting languages,
+      not the browsers, sorry for the mistake :)'
+    id: '350784808294567'
+  - created_time: '2012-02-27T13:58:45+0000'
+    from:
+      name: Adel K. Khalil
+      id: '10159958402365584'
+    message: |-
+      Yes, Mohamed this is prohibted for security reasosns but you can use JSONP i've written a post about how to do that few years ago.
+      http://bloggingabout.net/blogs/adelkhalil/archive/2009/08/14/cross-domain-jsonp-with-jquery-call-step-by-step-guide.aspx
+    id: '350823951623986'
+  - created_time: '2012-02-27T14:26:05+0000'
+    from:
+      name: Mohammed El Sayed
+      id: '10155880598025170'
+    message: |-
+      Nice share Adel.
+      my recent task (Chrome Extension project) will allow nothing more than JS, CSS, HTML. so I needed something that is client-side top-to-bottom, that's why I've invested some time and came up with the contents of this post.
+    id: '350837458289302'
+  - created_time: '2012-02-27T14:26:33+0000'
+    from:
+      name: Mohammed El Sayed
+      id: '10155880598025170'
+    message: BTW, you are no longer posting to your blog, and this is @#$%#$%$ bad
+      :)
+    id: '350837654955949'
+  - created_time: '2012-02-27T15:13:10+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: yep the same happened to me 2 days ago also the cross domain policy I
+      couldn't Fetch json contents from other domain!
+    id: '350860074953707'
+  - created_time: '2012-02-27T15:50:11+0000'
+    from:
+      name: Mohammed El Sayed
+      id: '10155880598025170'
+    message: 'Mohamed Alaa: I hope that this post may help you to resolve these issues.'
+    id: '350878831618498'
+  - created_time: '2012-02-27T15:59:33+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: i resolve the issue by having my code in the same server and display
+      the data inside an iframe :D you will see it soon, it's a mp3 player for http://deliradio.com
+      :)
+    id: '350883624951352'
+  - created_time: '2012-02-27T18:43:23+0000'
+    from:
+      name: Adel K. Khalil
+      id: '10159958402365584'
+    message: You can also use Page Methods if you work on server side stuff to work
+      as a proxy, server connection of course are permitted. not sure if helps but
+      this think SignalR might do u some good in that area.
+    id: '350975318275516'
+  - created_time: '2012-02-27T19:57:06+0000'
+    from:
+      name: Mohammed El Sayed
+      id: '10155880598025170'
+    message: yeah, sure this is applicable, but mine was totally client side.
+    id: '351023324937382'
+  - created_time: '2012-02-27T21:26:38+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: |-
+      all the cross domain policies says that you can fetch data such as JSON from remote servers but they forgot to mention you need to have access to this server and allow the cross domain policy! so in fact this is useless! if you are trying with jquery may be you should try to use something like this:
+
+      var xhr = new XMLHttpRequest();
+      xhr.open("GET", "http://dev.jquery.com/~john/xdomain/test.php", true);
+      xhr.onreadystatechange = function(){
+        if ( xhr.readyState == 4 ) {
+          if ( xhr.status == 200 ) {
+            document.body.innerHTML = "My Name is: " + xhr.responseText;
+          } else {
+            document.body.innerHTML = "ERROR";
+          }
+        }
+      };
+      xhr.send(null);
+    id: '351075831598798'
+  - created_time: '2012-02-27T21:33:17+0000'
+    from:
+      name: Mohammed El Sayed
+      id: '10155880598025170'
+    message: |-
+      Mohamed Alaa: I think this was something that Firefox has started to support from a couple of years ago, but I sincerely don't know if it's supported on other browsers or not.
+
+      after looking around for sometime, I found that this type of calls was available only to extensions and trusted code within Firefox itself, right?
+      let me check and you too, and let's post our finding here.
+
+      but seriously, nice catch, like usual ;)
+    id: '351079871598394'
+  - created_time: '2012-02-27T21:42:15+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: 'Actually this is just normal javascript: http://answers.oreilly.com/topic/2205-remote-scripting-options-in-javascript-including-xmlhttprequest-and-jsonp/
+      if you are trying to get JSON may be you should try this solution from Douglas
+      Crockford: https://github.com/douglascrockford/JSON-js i hope this work :) you
+      can try it first in jsfiddle.net or jsbin.com :)'
+    id: '351085441597837'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANelV3Tnpnek9Ea3hOakkzT1RreU9qRXpNekF6TkRVMk5EST0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANelV4TURnMU5EUXhOVGszT0RNM09qRXpNekF6TnpnNU16VT0ZD
+attachments:
+  data:
+  - description: Chris Heilmann recently posted on how to use YQL to make cross-domain
+      requests, which would usually be prohibited due to the same-domain-policy. I
+      already knew about YQL, but I had no idea that it allowed retrieval of HTML
+      from other sites, via JSON, returned as a single string!
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fjames.padolsey.com%2Fjavascript%2Fcross-domain-requests-with-jquery%2F&h=ATOGqYgYBG1rnMb3ZSd0IgqJzirFi8H5qpZ5pAaNa8B0skBkfmjdy8ndL8kc72kP3gQdhjY-rNdfMZzQBPZsACXg0pwgZDDOQrW6&s=1&enc=AZMFhacE1_AywNHM03KU5TSTH6zg9cc5r9wcLkMY61sniyOQ5oCwNx9EVhNCChq3Pc4AF3-2vtE8KgMSRUAhhRkX
+    title: Cross-domain requests with jQuery – James Padolsey
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fjames.padolsey.com%2Fjavascript%2Fcross-domain-requests-with-jquery%2F&h=ATOGqYgYBG1rnMb3ZSd0IgqJzirFi8H5qpZ5pAaNa8B0skBkfmjdy8ndL8kc72kP3gQdhjY-rNdfMZzQBPZsACXg0pwgZDDOQrW6&s=1&enc=AZMFhacE1_AywNHM03KU5TSTH6zg9cc5r9wcLkMY61sniyOQ5oCwNx9EVhNCChq3Pc4AF3-2vtE8KgMSRUAhhRkX

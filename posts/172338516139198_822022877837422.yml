@@ -12,3 +12,55 @@ updated_time: '2014-10-01T14:35:12+0000'
 name: Parallel In-Place Merge Sort
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/822022877837422/
 id: '172338516139198_822022877837422'
+reactions:
+  data:
+  - id: '2072820782951834'
+    name: AbdulRahman Mahmoud ElBieh
+    type: LIKE
+  - id: '10156358805885288'
+    name: Mahmoud Abd El-Fattah
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTJOekUzT1RZAMU9EVXlPakUwTVRJMU5URXlNakk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TlRFNU1UazFNamczT2pFME1USXhOekkwTVRZANk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2014-10-01T13:54:31+0000'
+    from:
+      name: Ahmed Naiem
+      id: '10155245211207653'
+    message: sounds cool but still too complex for the problem it self, I would go
+      for heap sort if I want to keep the memory low.
+    id: '822055334500843'
+  - created_time: '2014-10-01T14:33:52+0000'
+    from:
+      name: Mohamed Moshrif
+      id: '1538447102877297'
+    message: That's similar to one of the join operations done inside SQL Server engine
+      "Merge Join"
+    id: '822104327829277'
+  - created_time: '2014-10-01T14:35:12+0000'
+    from:
+      name: Mohamed Moshrif
+      id: '1538447102877297'
+    message: When the join operation requires a sort
+    id: '822105201162523'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPREl5TURVMU16TTBOVEF3T0RRek9qRTBNVEl4TnpFMk56RT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPREl5TVRBMU1qQXhNVFl5TlRJek9qRTBNVEl4TnpReE1UST0ZD
+attachments:
+  data:
+  - description: A very fast, parallel, simple to implement sort makes efficient use
+      of memory.
+    media:
+      image:
+        height: 471
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQA4VuP2tfMan0Fj&w=720&h=720&url=http%3A%2F%2Ftwimgs.com%2Fddj%2Fimages%2Farticle%2F2014%2F0914%2FVictor.gif&cfs=1&_nc_hash=AQD7hOxa292HJ33A
+        width: 471
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.drdobbs.com%2Fparallel%2Fparallel-in-place-merge-sort%2F240169094&h=ATMrJa_jsRVtcdpAxiZg_8UO9neRebHPpf0ggA9hX8H816JyPxMuIRKuoD4xqh2Ezzkjs1a2dbD7c3YQBjtTqNgiSZhlM2f6Ljr-&s=1&enc=AZMKfLc7gTk-p72fUwekO0ukdFDdpChDoN82M1TFzH7UCvKOoxYo3WHp1RVVbv01vnmeOppXl1ZqrL4D9vCWd8O8
+    title: Parallel In-Place Merge Sort
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.drdobbs.com%2Fparallel%2Fparallel-in-place-merge-sort%2F240169094&h=ATMrJa_jsRVtcdpAxiZg_8UO9neRebHPpf0ggA9hX8H816JyPxMuIRKuoD4xqh2Ezzkjs1a2dbD7c3YQBjtTqNgiSZhlM2f6Ljr-&s=1&enc=AZMKfLc7gTk-p72fUwekO0ukdFDdpChDoN82M1TFzH7UCvKOoxYo3WHp1RVVbv01vnmeOppXl1ZqrL4D9vCWd8O8

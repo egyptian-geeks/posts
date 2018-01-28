@@ -13,3 +13,69 @@ created_time: '2014-06-01T12:42:02+0000'
 updated_time: '2014-06-01T13:43:52+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/757157964323914/
 id: '172338516139198_757157964323914'
+comments:
+  data:
+  - created_time: '2014-06-01T12:53:43+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Think of an array as reference type, similar to C# for example, or any
+      language that has pointers. array is copied by reference. All line 68 did was
+      copying the reference to the same array in memory to a new array reference variable,
+      which refers to the same array in memory.
+    id: '757164924323218'
+  - created_time: '2014-06-01T12:55:24+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: If you want to make another copy of the array, the actual steps (which
+      can be wrapped in single method call) is to create a new array with the same
+      size and make each position refer to the same object (or copy of it, if value
+      type, like most primitives, or string, as special case).
+    id: '757166350989742'
+  - created_time: '2014-06-01T13:23:33+0000'
+    from:
+      name: Amr Tag
+      id: '10211180899988571'
+    message: |-
+      So it's like creating a "variable "containing the original array, any methods applied to it would affect the original array in the "variable", right?
+
+      This doesn't happen in ruby, right? When applying methods to arrays it created a new array with the result but doesn't affect the original, correct?
+    id: '757185147654529'
+  - created_time: '2014-06-01T13:42:08+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Applying methods to arrays depends on each method. Some might return
+      new array, some might change array and return nothing or return the changed
+      array. In line 68, you are just making a copy of the reference that points to
+      this array (and used to call its methods and access it in any way), not calling
+      a method on it.
+    id: '757210744318636'
+  - created_time: '2014-06-01T13:43:52+0000'
+    from:
+      name: Amr Tag
+      id: '10211180899988571'
+    message: so changing this reference/variable would affect the array, that's what
+      I meant..sorry..
+    id: '757212030985174'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOelUzTVRZAME9USTBNekl6TWpFNE9qRTBNREUyTWpjeU1qTT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOelUzTWpFeU1ETXdPVGcxTVRjME9qRTBNREUyTXpBeU16ST0ZD
+attachments:
+  data:
+  - description: |-
+      my question is about the code between lines 58 to 74.
+      my question is in the comment on line 69.
+      thanks :)
+    media:
+      image:
+        height: 406
+        src: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/10387034_10201997023997411_520072103443238912_o.jpg?oh=d7a8429371b1b7f5e9eb085a747b7433&oe=5B24EF0E
+        width: 720
+    target:
+      id: '10201997023997411'
+      url: https://www.facebook.com/photo.php?fbid=10201997023997411&set=gm.757157964323914&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=10201997023997411&set=gm.757157964323914&type=3

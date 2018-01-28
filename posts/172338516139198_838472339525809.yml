@@ -9,3 +9,124 @@ created_time: '2014-10-30T13:16:05+0000'
 updated_time: '2014-10-30T17:07:20+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/838472339525809/
 id: '172338516139198_838472339525809'
+comments:
+  data:
+  - created_time: '2014-10-30T13:17:10+0000'
+    from:
+      name: Ahmed El-Makawy
+      id: '1434309000003706'
+    message: صورة المشكله ولم بحثت عنها لقيته بيقول المسار مش موجود مع العلم انه موجود
+      وانا مختاره من الجهاز
+    id: '838472736192436'
+  - created_time: '2014-10-30T13:45:12+0000'
+    from:
+      name: Ahmed El-Makawy
+      id: '1434309000003706'
+    message: تمام كده :)
+    id: '838483982857978'
+  - created_time: '2014-10-30T13:52:34+0000'
+    from:
+      name: Professor Mina
+      id: '10155114629021466'
+    message: "I think the account your sql server is running under does not have permission
+      to write to this specific folder (Windows 7 security \U0001F612). You mentioned
+      that a static path works but you didn't say which path you tried, I bet it is
+      something outside the users folder. To isolate the issue first try selecting
+      another folder (try something simple, d:\\backup for example)\n\nIf this works
+      but you wanna make sure you can backup to desktop you'll have to read a little
+      bit about windows 7 security."
+    id: '838486852857691'
+  - created_time: '2014-10-30T13:54:36+0000'
+    from:
+      name: Ahmed El-Makawy
+      id: '1434309000003706'
+    message: على فكره تاكود كان شغال الفرق اني كنت كاتب نفس الديريكتوري ده بس في الكود
+      ناو انا اخترته في تكست بره
+    id: '838487649524278'
+  - created_time: '2014-10-30T13:58:25+0000'
+    from:
+      name: Ahmed El-Makawy
+      id: '1434309000003706'
+    message: الفكره ان البرنامج كان شغال بس لم اختار التكست تبق في السي البرنامج هنج
+      جربت انا على الفيجوال ستوديو طلع اريور
+    id: '838489109524132'
+  - created_time: '2014-10-30T14:00:50+0000'
+    from:
+      name: Ahmed El-Makawy
+      id: '1434309000003706'
+    message: طب منا عايز حل للمشكله يعني ازاي اخلي اليوزر مينفعش يختار فولدر في السي
+      ؟؟
+    id: '838489992857377'
+  - created_time: '2014-10-30T14:01:42+0000'
+    from:
+      name: Ahmed El-Makawy
+      id: '1434309000003706'
+    message: مع العلم ان مطلوب مع البرنامج ان هو اللي يحدد مسار الباكب
+    id: '838490416190668'
+  - created_time: '2014-10-30T14:04:50+0000'
+    from:
+      name: Ahmed El-Makawy
+      id: '1434309000003706'
+    message: انا بكلمك من جهازه هههههههه
+    id: '838491562857220'
+  - created_time: '2014-10-30T14:05:51+0000'
+    from:
+      name: Ahmed El-Makawy
+      id: '1434309000003706'
+    message: من فعلا حليت المشكله ب تراي وكاتش بس كنت عايز افهم سبب المشكله
+    id: '838491866190523'
+  - created_time: '2014-10-30T14:07:18+0000'
+    from:
+      name: Ahmed El-Makawy
+      id: '1434309000003706'
+    message: ممكن حد يوضحلي سبب ان مفيش بريمشن
+    id: '838492396190470'
+  - created_time: '2014-10-30T14:15:50+0000'
+    from:
+      name: Ahmed El-Makawy
+      id: '1434309000003706'
+    message: Professor Mina في ناس انا جربت عندهم الكود واتعمل الباكب على الديسك توب
+      من غير مشاكل ؟! ممكن افهم السبب
+    id: '838495312856845'
+  - created_time: '2014-10-30T14:23:14+0000'
+    from:
+      name: Ahmed El-Makawy
+      id: '1434309000003706'
+    message: وفعلا انا كنت عامله على دايركشن ستاتيك دي باكب غيرته بس لم اتطلب علشن
+      كده اول مره تواجهني المشكله بس جربت على 4 اجهزه ناو وفي اجهزه معملتش مشاكل وجهازين
+      الدنيا هنجت !
+    id: '838498032856573'
+  - created_time: '2014-10-30T14:51:22+0000'
+    from:
+      name: Professor Mina
+      id: '10155114629021466'
+    message: |-
+      Check the permissions part in this article: http://www.windowsecurity.com/articles-tutorials/authentication_and_encryption/Desktops-Local-Rights-Privileges.html
+
+      I'm not an expert with windows security, it always confuses me, but I can summarize some possibilities for the machines that worked:
+      1. You are logged in as administrator thus your application have admin privileges.
+      2. Altered desktop folder permissions.
+      3. UAC is disabled !!
+    id: '838508262855550'
+  - created_time: '2014-10-30T15:03:16+0000'
+    from:
+      name: Ahmed El-Makawy
+      id: '1434309000003706'
+    message: ":) شكرا"
+    id: '838512099521833'
+  - created_time: '2014-10-30T15:05:45+0000'
+    from:
+      name: Professor Mina
+      id: '10155114629021466'
+    message: عفوا :)
+    id: '838513269521716'
+  - created_time: '2014-10-30T17:07:20+0000'
+    from:
+      name: Amir Mohamed Atia
+      id: '10155967624789840'
+    message: شغل الفيجوال استوديو run as adninstrator
+    id: '838555919517451'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRE00TkRjeU56TTJNVGt5TkRNMk9qRTBNVFEyTnpVd016QT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRE00TlRVMU9URTVOVEUzTkRVeE9qRTBNVFEyT0RnNE5EQT0ZD

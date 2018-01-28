@@ -15,3 +15,64 @@ created_time: '2014-03-03T11:54:12+0000'
 updated_time: '2014-03-03T14:00:21+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/709436522429392/
 id: '172338516139198_709436522429392'
+reactions:
+  data:
+  - id: '1763181463721711'
+    name: Mohamed Nageh
+    type: LIKE
+  - id: '10204269299005575'
+    name: Harisankar PS
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdPRGsyTWpNek5qWXpPakV6T1RNNE5EZAzRNalU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRZAeU1USTJNVGt5TmpveE16a3pPRFEzTnpNMk9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2014-03-03T11:56:24+0000'
+    from:
+      name: Harisankar PS
+      id: '10204269299005575'
+    message: Nice script. thanks for sharing
+    id: '709437289095982'
+  - created_time: '2014-03-03T12:30:13+0000'
+    from:
+      name: Abd El Rhman Ahmed
+      id: '10214901654953185'
+    message: Good , support arabic ?
+    id: '709448335761544'
+  - created_time: '2014-03-03T12:32:22+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: yup i think so.
+    id: '709448945761483'
+  - created_time: '2014-03-03T14:00:21+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: good job, but you should care about not exceeding the posting limit and
+      if it exceeds the limit just break the loop
+    id: '709481602424884'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekE1TkRNM01qZAzVNRGsxT1RneU9qRXpPVE00TkRjM09EUT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekE1TkRneE5qQXlOREkwT0RnME9qRXpPVE00TlRVeU1qRT0ZD
+attachments:
+  data:
+  - description: |-
+      posting to facebook groups  all at once with ruby
+      https://gist.github.com/9323267
+
+      # use it wisely guys please, we don't wont to spam the groups.
+      PS. i will use a similar script to post my scripts to rails/ruby groups daily
+    media:
+      image:
+        height: 521
+        src: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/1925105_10151971359637957_1930753914_n.jpg?oh=fa0216d0d84a7b08e544d96b50281793&oe=5AEC3F57
+        width: 720
+    target:
+      id: '10151971359637957'
+      url: https://www.facebook.com/photo.php?fbid=10151971359637957&set=gm.709436522429392&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=10151971359637957&set=gm.709436522429392&type=3

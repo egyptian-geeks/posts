@@ -7,3 +7,39 @@ created_time: '2011-10-14T12:59:20+0000'
 updated_time: '2011-10-18T12:27:23+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/269822123057503/
 id: '172338516139198_269822123057503'
+comments:
+  data:
+  - created_time: '2011-10-18T11:24:46+0000'
+    from:
+      name: Mahmoud Hossam
+      id: '1360912124012585'
+    message: According to Wikipedia, div doesn't really do anything, it's only used
+      for grouping parts of a certain document, maybe they used div to make it easier
+      to manipulate buttons using CSS and JS?
+    id: '271572546215794'
+  - created_time: '2011-10-18T11:56:44+0000'
+    from:
+      name: Ahmed Magdy
+      id: '10155638727450376'
+    message: I believe so, may be for buttons state !! but also I notcied that facebook
+      is using links everywhere and format it as a buttons and rarely used buttons/inputs
+      wired!!
+    id: '271579936215055'
+  - created_time: '2011-10-18T12:27:23+0000'
+    from:
+      name: Mahmoud Hossam
+      id: '1360912124012585'
+    message: I think this might be a coding convention, or something that's required
+      by whatever JS framework they're using, it also might be generated automatically,
+      not written.
+    id: '271587076214341'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANamN4TlRjeU5UUTJNakUxTnprME9qRXpNVGc1TXpjd09EWT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANamN4TlRnM01EYzJNakUwTXpReE9qRXpNVGc1TkRBNE5ETT0ZD
+attachments:
+  data:
+  - description: This attachment may have been removed or the person who shared it
+      may not have permission to share it with you.
+    title: Attachment Unavailable
+    type: unavailable

@@ -13,3 +13,116 @@ updated_time: '2014-08-22T22:29:59+0000'
 name: AlaaAttya/sys-admin-automation
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/802565416449835/
 id: '172338516139198_802565416449835'
+reactions:
+  data:
+  - id: '10156055962709183'
+    name: Peter Yanni
+    type: LIKE
+  - id: '1563209213765177'
+    name: Mahmoud Eldaly
+    type: LIKE
+  - id: '2088941797787563'
+    name: Mohamed A. Baset
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRreE16YzBNVGd5T2pFME1EZAzNNakF5TlRnNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQXdNVFV5T0RnMk1UQXhPakUwTURnMk9EVXdNemc2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2014-08-22T02:06:01+0000'
+    from:
+      name: Ahmed Melege
+      id: '10156112171242375'
+    message: انت هتخرب بيوتنا ليه :D اركن بقى
+    id: '802566763116367'
+  - created_time: '2014-08-22T02:07:28+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: lol just trying to help non-experienced sysAdmin developers in managing
+      their server :D
+    id: '802567186449658'
+  - created_time: '2014-08-22T02:07:53+0000'
+    from:
+      name: Ahmed Melege
+      id: '10156112171242375'
+    message: they can order managed servers :P
+    id: '802567273116316'
+  - created_time: '2014-08-22T02:15:34+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: btw ana b3ml kda :D bs for the staging servers i manage it manually
+    id: '802569213116122'
+  - created_time: '2014-08-22T07:23:52+0000'
+    from:
+      name: Moustafa Hamdy
+      id: '1704630429602365'
+    message: Mamdouh El-Oraby شوف الحوار ده هيفيدك ولا لا يا ممدوح
+    id: '802637609775949'
+  - created_time: '2014-08-22T10:59:21+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: "@amr I've started with creating virtual host for apache2. You'll have
+      to create a config file, update the hosts file and then enable the new vs and
+      finally restart the server. You'll find the php script as the first task to
+      automate suchrocess. All you need is to run sudo php script-name.php then follow
+      the prompts you'll insert two parameters and you're done"
+    id: '802722573100786'
+  - created_time: '2014-08-22T12:00:36+0000'
+    from:
+      name: Ashraf Kaabi
+      id: '10156258607755921'
+    message: |-
+      Alaa Attya Mohamed The project idea is great, but since you need contribution to this project I could help as I have very good experience in PHP & Linux sys admin
+
+      but when I browse your project I only see single php file which could be adjustable to run from cli. but the problem if I contribute with new another file for predefined automated function to help sys admin, this mean by end of years you may got like 10-20 helper files and all are separates files which need the sys admin memorize each file features and etc ...
+
+      don't you need to build something first to centralized all future contribution ? like 1 single bash script to with help commands to run all these scripts ? also you may need php installer script to install php for servers which hasn't php installed.
+
+      Just try to put a roadmap for your project, and maybe we start creates new issues with features needed according to your roadmap and then I will be the first one ready to contribute on your project
+    id: '802738976432479'
+  - created_time: '2014-08-22T14:57:05+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: Ashraf Kaabi I like your idea, I'll start thinking about a road map and
+      keep you updated. I just push such script in less that two hours as it was just
+      an idea came across my mind.
+    id: '802796716426705'
+  - created_time: '2014-08-22T19:07:53+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: It would also be great if you make a note of some planned/suggested scripts,
+      it could be used for requesting scripts and features as well
+    id: '802886239751086'
+  - created_time: '2014-08-22T22:29:59+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: "@kareem sure will add a road map to the read me file. So any one who
+      aims to add any new features can send a pull request and update the file"
+    id: '802944809745229'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPREF5TlRZAMk56WXpNVEUyTXpZAM09qRTBNRGcyTnpNeE5qRT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPREF5T1RRME9EQTVOelExTWpJNU9qRTBNRGczTkRZAMU9Uaz0ZD
+attachments:
+  data:
+  - description: sys-admin-automation - A project to turning the day to day system
+      admin tasks easy to be done by any developer with a minimum experience in linux
+      commands. The project is separated into folders in the root directory. Each
+      directory is a sysAdmin task. Each task can be implemented in various language…
+    media:
+      image:
+        height: 400
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQDeqEScyOlY8jYJ&w=400&h=400&url=https%3A%2F%2Favatars3.githubusercontent.com%2Fu%2F2943218%3Fv%3D2%26s%3D400&cfs=1&sx=0&sy=0&sw=400&sh=400&_nc_hash=AQARCwI1qC94I04M
+        width: 400
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2FAlaaAttya%2Fsys-admin-automation&h=ATMCZt2m9b-d52qgwrrib5pSk6viEVgk0E8SNz6oq7S4f6zjES-6Wor90YUTdxCWjY1sKIO-y_uJPf3K6b5qfwvNkoWUQP2_93kd&s=1&enc=AZNeHYaQFg73-6lqMZ2QS3T8drCjoryR84fS3A6PZVUEsL1WN7SZnCXIokQnS378l6TO1WGi4d70jcmt4OrneAql
+    title: AlaaAttya/sys-admin-automation
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2FAlaaAttya%2Fsys-admin-automation&h=ATMCZt2m9b-d52qgwrrib5pSk6viEVgk0E8SNz6oq7S4f6zjES-6Wor90YUTdxCWjY1sKIO-y_uJPf3K6b5qfwvNkoWUQP2_93kd&s=1&enc=AZNeHYaQFg73-6lqMZ2QS3T8drCjoryR84fS3A6PZVUEsL1WN7SZnCXIokQnS378l6TO1WGi4d70jcmt4OrneAql

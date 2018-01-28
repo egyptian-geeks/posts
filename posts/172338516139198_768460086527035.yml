@@ -11,3 +11,98 @@ created_time: '2014-06-21T19:39:46+0000'
 updated_time: '2014-06-22T11:08:39+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/768460086527035/
 id: '172338516139198_768460086527035'
+comments:
+  data:
+  - created_time: '2014-06-21T19:44:09+0000'
+    from:
+      name: Ahmed Osman
+      id: '10156632909083484'
+    message: but  you casted the output back again to a float (output of max is a
+      float). You should return an int instead
+    id: '768461433193567'
+  - created_time: '2014-06-21T19:45:01+0000'
+    from:
+      name: Shady Atef
+      id: '10213518317565801'
+    message: Okay The output must be 30.00 if it's gonna print float number, it return
+      int casted to float..
+    id: '768461836526860'
+  - created_time: '2014-06-21T23:05:53+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: |-
+      I believe the application was optimized by substituting the function call with the function body itself.
+
+      The following is a shot in the dark (فتي السنين): apparently when doing this substitution the casting of the parameters to int was ignored since passed values and return value has the same type.
+    id: '768525836520460'
+  - created_time: '2014-06-21T23:47:31+0000'
+    from:
+      name: Shady Atef
+      id: '10213518317565801'
+    message: Ahmed T. Al-Amir Inline expansion LOL :D bsr7a msh 3arf
+    id: '768539866519057'
+  - created_time: '2014-06-22T00:15:01+0000'
+    from:
+      name: Mohamed Elghobaty
+      id: '2112734515623407'
+    message: Can you add a line to print a, b, (double) a, (double) b once the function
+      is called and show us the output?
+    id: '768547853184925'
+  - created_time: '2014-06-22T00:20:06+0000'
+    from:
+      name: Shady Atef
+      id: '10213518317565801'
+    message: Muhammad Barrima I currently don;t have access to the machine that happened
+      on it. so maybe later
+    id: '768549136518130'
+  - created_time: '2014-06-22T01:05:46+0000'
+    from:
+      name: Shreef Ahmed
+      id: '10156206757476579'
+    message: "There is another overloaded function being included by iostream that
+      accepts doubles as parameters. \nYour function never get used as it accepts
+      integers. \nComment out your max function declaration code and the code should
+      continue working just fine.\n\nProgramming is fun, I know!"
+    id: '768563089850068'
+  - created_time: '2014-06-22T02:42:35+0000'
+    from:
+      name: Shady Atef
+      id: '10213518317565801'
+    message: "Ahmed Shreef I know about that & it's included in algorithm header I
+      believe it's generic one also according to cplusplus.com reference\nBut I don't
+      think that iostream will include algorthim... and if it's the case why does
+      compiler calls the function  i wrote when it's compiled .. \nI still insist
+      I may even pay a visit to my friend & debug the app watching the call stack
+      :D"
+    id: '768594819846895'
+  - created_time: '2014-06-22T02:57:47+0000'
+    from:
+      name: Shady Atef
+      id: '10213518317565801'
+    message: But I believe more in your interpretation :)
+    id: '768599013179809'
+  - created_time: '2014-06-22T11:08:39+0000'
+    from:
+      name: Hussein El Motayam
+      id: '10155792948785306'
+    message: https://ideone.com/pE0G1h
+    id: '768866906486353'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOelk0TkRZAeE5ETXpNVGt6TlRZAM09qRTBNRE16TnprNE5Eaz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOelk0T0RZAMk9UQTJORGcyTXpVek9qRTBNRE0wTXpVek1Uaz0ZD
+attachments:
+  data:
+  - description: "Holla \nThe anticipated output is 30 (due to implicit conversion),
+      but I got 30.5.\ndoes anyone have interpretation of what happened ?"
+    media:
+      image:
+        height: 319
+        src: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/10467038_10203131028010054_9109854385407540997_o.jpg?oh=b3fc60fd5e9c513b4b7a8fb3f207260c&oe=5B25C966
+        width: 720
+    target:
+      id: '10203131028010054'
+      url: https://www.facebook.com/photo.php?fbid=10203131028010054&set=gm.768460086527035&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=10203131028010054&set=gm.768460086527035&type=3

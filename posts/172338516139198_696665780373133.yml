@@ -9,3 +9,190 @@ created_time: '2014-02-05T15:59:50+0000'
 updated_time: '2014-02-08T04:50:58+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/696665780373133/
 id: '172338516139198_696665780373133'
+comments:
+  data:
+  - created_time: '2014-02-05T16:15:33+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: مش فاهم بصراحة آخر الجملة and the executable file is only an iframe ؟
+    id: '696672933705751'
+  - created_time: '2014-02-05T16:25:07+0000'
+    from:
+      name: Amr Reda
+      id: '10160087313865372'
+    message: Elaborate more
+    id: '696679337038444'
+  - created_time: '2014-02-05T16:34:26+0000'
+    from:
+      name: Eslam Hamouda
+      id: '10212947071504226'
+    message: |-
+      for fast installation i prefer to use the WinRar SFX archive it have most of the options you need for the installation like creating shortcuts,choose the installation path,logo,silent install,etc... but you files could be extracted without installation if the user has noticed that.
+
+      a Tip for running html application as iframe in Windows , try to change the extension of the index file of the application to ".hta" -> "HTML Application" this will open the website on separated frame as if you open a normal application , instead of creating a C# app as container to view your website.
+    id: '696682187038159'
+  - created_time: '2014-02-05T18:11:34+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: can it be installable? the objective here is that to make it installable
+    id: '696734100366301'
+  - created_time: '2014-02-05T18:13:53+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: I wanna make an app that people can install on windows machine. the only
+      functionality of the app is detecting connectivity if you are online i will
+      render an iFrame if you are not online i will show a message. the app is meant
+      for windows 7+
+    id: '696735083699536'
+  - created_time: '2014-02-05T18:28:51+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: so C# and inno setup combination is not suitable because?
+    id: '696741067032271'
+  - created_time: '2014-02-05T20:16:09+0000'
+    from:
+      name: Adel K. Khalil
+      id: '10159958402365584'
+    message: Ya abo Adam a3melholak ana, da enta 7abeby :)
+    id: '696785080361203'
+  - created_time: '2014-02-05T22:04:11+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Thanks a lot ya Adoool :) I'm trying to use Xamarin Studio but I forgot
+      the fuckin structure of the .NET Solutions :D and I'm getting an error in the
+      parser for the <html> tag :D http://d.pr/i/uc0t
+    id: '696828033690241'
+  - created_time: '2014-02-05T22:12:38+0000'
+    from:
+      name: Mahmoud Abd El-Fattah
+      id: '10156358805885288'
+    message: You can use an adobe AIR application
+    id: '696831457023232'
+  - created_time: '2014-02-05T22:13:58+0000'
+    from:
+      name: Mahmoud Abd El-Fattah
+      id: '10156358805885288'
+    message: you can add a web view that renders HTML and make it full size and the
+      HTML file contains an iframe (or you can put the URL directly in the web view
+      and it will act as an iframe)
+    id: '696832060356505'
+  - created_time: '2014-02-05T22:14:58+0000'
+    from:
+      name: Mahmoud Abd El-Fattah
+      id: '10156358805885288'
+    message: this also will be installable on all platforms and you can publish them
+      for tablets as well
+    id: '696832443689800'
+  - created_time: '2014-02-05T22:34:31+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Thanks alot buddies I will propose the solution with Adobe Air I think
+      this is much better than making a C# solution in a non-native environment :D
+    id: '696840037022374'
+  - created_time: '2014-02-05T22:54:39+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: ok Adobe Air is not an option :( they don't want it to be depending on
+      anything :S so I will need help making it in .NET (I main objective is a Executable
+      EXE that open a native menu with an embedded iFrame)
+    id: '696846213688423'
+  - created_time: '2014-02-06T09:15:03+0000'
+    from:
+      name: Mahmoud Abd El-Fattah
+      id: '10156358805885288'
+    message: but in .NET, you still need the frame work. and with Adobe AIR, you can
+      embed the runtime withing the same executable.
+    id: '697024797003898'
+  - created_time: '2014-02-06T09:38:54+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: http://www.tidesdk.org/ never tried it though
+    id: '697029863670058'
+  - created_time: '2014-02-06T10:32:41+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: "You can use AutoHotKey to check for connectivity & start the browser.
+      AHK can generate a 1MB standalone exe. This is an example\n\nIf ConnectedToInternet()
+      \n    Run, iexplore.exe http://www.mtayseer.net\nelse \n    Msgbox, 48, WinInet.dll,
+      OFFLINE! \nReturn \n\nConnectedToInternet(flag=0x40) { \n    Return DllCall(\"Wininet.dll\\InternetGetConnectedState\",
+      \"Str\", flag,\"Int\",0) \n}"
+    id: '697041587002219'
+  - created_time: '2014-02-06T14:34:31+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: |-
+      Ala Frg I'd hate to burst your bubble but the proposed solution is a tad far from the OP's problem. It's also far from being user friendly, certainly breaks out of the expected UX for a windows consumer.
+      Also, albeit I'm no fan of Air or just about anything developer related from Adobe* but by all means, AS and the Air runtime are amongst some of the most well documented platforms I've stumbled upon. However, in all fairness, Adobe's developer resources is just sincerely painful and their IA is badly designed.
+
+      Specially if you are building plugins for say, Photoshop or any other of their tools. Also, there seems to be a very blurred line between "Free" and "Paid" in Adobe developer tools, almost always you'll find yourself about to pay if you aren't too careful or if you didn't dig hard enough for an alternative.
+    id: '697158270323884'
+  - created_time: '2014-02-06T15:19:11+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: "Ala Frg I believe you didn't grasp my comment well enough. \nI said
+      \"your solution is far from the OP's problem\"\nAnd I said \"I'm no fan of Air\".\n\nYou
+      also clearly missed out on a critical requirement mentioned by the OP, it has
+      to be packaged as an executable file. And it's not about opening up a webpage
+      in a browser, you can write do this in C and get done with it.\nIt's about embedding
+      the iFrame, the OP wants an executable that checks for connectivity, finds it
+      then loads an iFrame within the application's window. If not then it'll display
+      a message.\nSo how do you propose embedding an iFrame with a shell script?\n\nLastly,
+      good for you for migrating from Air. But please stay objective when you present
+      a counter argument to a platform and state hard evidence to your claims. \"Platform
+      is very stupid\", \"Security issues\" and \"Lack of documentation\" simply doesn't
+      cut it through. A platform is only as good as for what it's intended to be used
+      for.\n\nIf you try to build a web app in assembly, you certainly can but that'd
+      be stupid, painful, very likely exploitable and certainly for that task, documentation
+      would be lacking. That doesn't mean that assembly with it's various assemblers
+      aren't well documented.\n\nLike I said, I'm no fan of Air but I'm also no fan
+      of unfair technical assessments."
+    id: '697174466988931'
+  - created_time: '2014-02-06T16:09:23+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: "Yes but most of the windows users has .NET framework pre-installed or
+      at least the basics to run an non-fancy exe file without the need to tell the
+      user you need to install this app. the Tidesdk looks awesome as the only functionality
+      of the app will be to open a website. nothing more and nothing less. I tried
+      the xamarin studio but it seems complicated for such a simple task!  i was hoping
+      to find something like: http://fluidapp.com/ for windows but apparently it's
+      too simple to exist! and I think this can be a very cool app if anyone would
+      do it and sell it on the windows app store. \n\nA fuckin simple app you drag
+      and drop the icon tell it which website you want to load when the user execute
+      it and nothing more. \n\nLet me know if anyone is interested I don't mind investing
+      part of my time for this type of apps.\n\nBest Regards,"
+    id: '697195370320174'
+  - created_time: '2014-02-06T17:10:13+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: AutoHotKey is the perfect solution. It allows you to generate EXE with
+      your own icon http://www.autohotkey.com/
+    id: '697220433651001'
+  - created_time: '2014-02-06T17:11:12+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: |-
+      شوف ده كدا exe مش بيطلب dependencies غير الدوت نت 2 يعني يشتغل على أغلب الويندوزات وحجمه أقل من ميجا، المشكلة يمكن اللي فيه هي إنه غالبا هيعرض الموقع بـ IE engine اصدار 6 أو 7 أو كدا
+
+      http://intlaqa.com/websiteshortcut.exe
+
+      لو حلو معاك قل لي على أي تعديلات أعملهالك لو لسه مش فاكر تتعامل مع الدوت نت
+    id: '697221083650936'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamsyTmpjeU9UTXpOekExTnpVeE9qRXpPVEUyTVRZANU16TT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamszTWpJeE1EZA3pOalV3T1RNMk9qRXpPVEUzTURZAMk56ST0ZD

@@ -10,3 +10,38 @@ created_time: '2012-03-30T01:49:50+0000'
 updated_time: '2012-03-30T22:39:14+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/370964336276614/
 id: '172338516139198_370964336276614'
+comments:
+  data:
+  - created_time: '2012-03-30T02:16:59+0000'
+    from:
+      name: Adel K. Khalil
+      id: '10159958402365584'
+    message: Try using something like DropBox APIs https://www.dropbox.com/developers/reference/api#files-GET
+    id: '370978436275204'
+  - created_time: '2012-03-30T16:47:13+0000'
+    from:
+      name: Eslam Salem Mahmoud
+      id: '10157134145555299'
+    message: http://www.html5rocks.com/en/features/storage and there is flash storgae
+      but it depends about your needs
+    id: '371302596242788'
+  - created_time: '2012-03-30T16:56:59+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: what i need is to store an id along with an URL that the user can't just
+      clear it from cookies or local storage. :S this has to be done Client side!
+      or if there is a way to save these info in the user google account?!
+    id: '371307636242284'
+  - created_time: '2012-03-30T22:39:14+0000'
+    from:
+      name: Eslam Salem Mahmoud
+      id: '10157134145555299'
+    message: in the client side there is no way that you can protect from changing
+      or removing , you can save it in server side and access the user google account
+      via OAuth
+    id: '371490016224046'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANemN3T1RjNE5ETTJNamMxTWpBME9qRXpNek13TnpNNE1Uaz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANemN4TkRrd01ERTJNakkwTURRMk9qRXpNek14TkRjeE5UUT0ZD

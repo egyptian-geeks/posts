@@ -10,3 +10,40 @@ updated_time: '2014-01-09T13:34:37+0000'
 name: Exploring the FileSystem APIs - HTML5 Rocks
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/682320081807703/
 id: '172338516139198_682320081807703'
+comments:
+  data:
+  - created_time: '2014-01-09T12:49:12+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: I haven't read the article yet, but wouldn't that be a security risk?
+    id: '682640785108966'
+  - created_time: '2014-01-09T13:34:37+0000'
+    from:
+      name: Mahmoud Ibrahim
+      id: '10155795206725831'
+    message: |-
+      I don't think so, coz it's just giving u an isolated storage on the client machine for only ur app or as it's mentioned in the article "sandboxed section of the user's local file system.".
+       It's like the IsolatedStorage in silverlight if u r familiar with silverligh
+      http://msdn.microsoft.com/en-us/library/bdts8hk0(v=vs.95).aspx
+
+      And after all everything happens only if the client grant ur app the appropriate permissions.
+    id: '682653828440995'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamd5TmpRd056ZAzFNVEE0T1RZAMk9qRXpPRGt5TnpFM05UST0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamd5TmpVek9ESTRORFF3T1RrMU9qRXpPRGt5TnpRME56Yz0ZD
+attachments:
+  data:
+  - description: The FileSystem APIs give applications the ability to read/write files
+      and directories in a secure, sandboxed file system on a user's local machine.
+    media:
+      image:
+        height: 720
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQCVvbndSAE82D7G&w=720&h=720&url=http%3A%2F%2Fwww.html5rocks.com%2Fen%2Ftutorials%2Ffile%2Ffilesystem%2Fterminal.png&cfs=1&_nc_hash=AQBwV2bij_6-dEgx
+        width: 720
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.html5rocks.com%2Fen%2Ftutorials%2Ffile%2Ffilesystem%2F&h=ATMz6Q1KqldwQ0iKpjRQZTqmk92ygoZ6mdaFMIvzE05akMNlwr532hp9NIn584C7tTfh57Gbtw6a_vZEf-vq-EhLirwAkicg6SGK&s=1&enc=AZNNlO_H7rj3J4NxpRWEf8U2ZS7V0ZxD7w9XfVT067acDHcCeRoE04cKJiAXUkE9PSoji4JGSg3GiOHpkzn-ezKu
+    title: Exploring the FileSystem APIs - HTML5 Rocks
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.html5rocks.com%2Fen%2Ftutorials%2Ffile%2Ffilesystem%2F&h=ATMz6Q1KqldwQ0iKpjRQZTqmk92ygoZ6mdaFMIvzE05akMNlwr532hp9NIn584C7tTfh57Gbtw6a_vZEf-vq-EhLirwAkicg6SGK&s=1&enc=AZNNlO_H7rj3J4NxpRWEf8U2ZS7V0ZxD7w9XfVT067acDHcCeRoE04cKJiAXUkE9PSoji4JGSg3GiOHpkzn-ezKu

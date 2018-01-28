@@ -9,3 +9,67 @@ created_time: '2013-05-12T11:39:57+0000'
 updated_time: '2013-05-12T21:07:21+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/564848626888183/
 id: '172338516139198_564848626888183'
+comments:
+  data:
+  - created_time: '2013-05-12T11:47:22+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: hmm.. the beginning point might be `git reflog`, then going by what you
+      see in there. reflog is very strong utility
+    id: '564851200221259'
+  - created_time: '2013-05-12T11:48:42+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: "Random results from people that used git reflog for similar purpose:
+      \n- http://blag.ahax.de/post/421939327/recovering-a-deleted-branch-using-git-reflog\n-
+      http://stackoverflow.com/questions/4674226/does-github-keep-deleted-remote-branches-in-history-if-so-can-those-be-restore\n-
+      http://stackoverflow.com/questions/5543280/how-do-i-get-the-deleted-branch-back-in-git"
+    id: '564852376887808'
+  - created_time: '2013-05-12T11:52:17+0000'
+    from:
+      name: Ahmed El Gabri
+      id: '10159938698425582'
+    message: Already used it but it didn't help. to be more clear an Orphan branch
+      doesn't have a parent that's the problem. you create a new branch with no history
+      so I "guess" that's why reflog is not working
+    id: '564853473554365'
+  - created_time: '2013-05-12T12:30:56+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: did you use the `--all` flag?
+    id: '564867963552916'
+  - created_time: '2013-05-12T12:32:45+0000'
+    from:
+      name: Ahmed El Gabri
+      id: '10159938698425582'
+    message: 'Yes'
+    id: '564868656886180'
+  - created_time: '2013-05-12T12:33:58+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: and all the commits in that branch only did not come up?
+    id: '564868986886147'
+  - created_time: '2013-05-12T16:41:11+0000'
+    from:
+      name: Ahmed El Gabri
+      id: '10159938698425582'
+    message: |-
+      Yes, because an orphan branch has no parent commit so when you delete it apparently you delete all of it's history too & since it's doesn't point to any commits in the history of any branch you can't get it back.
+
+      http://stackoverflow.com/questions/16506726/restoring-a-deleted-orphan-remote-branch-in-git/
+    id: '564951073544605'
+  - created_time: '2013-05-12T21:07:21+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: As per your own post, someone who has the commits needs to do the reflog
+      and restore the commits. Anyway, good luck.
+    id: '565036426869403'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOVFkwT0RVeE1qQXdNakl4TWpVNU9qRXpOamd6TlRreU5EST0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOVFkxTURNMk5ESTJPRFk1TkRBek9qRXpOamd6T1RJNE5ERT0ZD

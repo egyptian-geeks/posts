@@ -12,3 +12,100 @@ updated_time: '2015-03-11T10:19:19+0000'
 name: Goodbye MongoDB, Hello PostgreSQL
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/907415295964846/
 id: '172338516139198_907415295964846'
+reactions:
+  data:
+  - id: '1572280639535580'
+    name: Ibrahim Mohamed
+    type: LIKE
+  - id: '10212980030990010'
+    name: Ahmed Wahdan
+    type: LIKE
+  - id: '10215984708437373'
+    name: Ahmad El-Melegy
+    type: LIKE
+  - id: '10159726802330618'
+    name: Ahmed AbouZaid
+    type: LIKE
+  - id: '10211637533318780'
+    name: Amira Nasrullah
+    type: LIKE
+  - id: '10155270396306616'
+    name: Hany Saad
+    type: LIKE
+  - id: '10156476353501062'
+    name: Tarik Ibrahim
+    type: LIKE
+  - id: '10214782719499032'
+    name: هشام إبراهيم
+    type: LIKE
+  - id: '10154984458877397'
+    name: Ahmed Baher
+    type: LIKE
+  - id: '10212947071504226'
+    name: Eslam Hamouda
+    type: LIKE
+  - id: '10156575248820931'
+    name: Omar Afifi
+    type: LIKE
+  - id: '10155755444625845'
+    name: Mohammad Fouad
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlOakE1TnpjM09Ea3dPakUwTWpZAd09UYzFPRGc2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TlRRM05UVXdPRFEwT2pFME1qWXdNekUyTnprNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2015-03-10T23:11:47+0000'
+    from:
+      name: Ibrahim Mohammed
+      id: '1886120441698692'
+    message: we use postgreSQL in our GIS and spatial Databases applications
+    id: '907416932631349'
+  - created_time: '2015-03-10T23:54:18+0000'
+    from:
+      name: Mohammad Fouad
+      id: '10155755444625845'
+    message: |-
+      This article has some other arguments against storing social data in a Document DB.
+      I guess the point behind it is: "if your data is (interesting), store it in a relational DB"
+
+      http://www.sarahmei.com/blog/2013/11/11/why-you-should-never-use-mongodb/
+    id: '907427369296972'
+  - created_time: '2015-03-11T00:27:16+0000'
+    from:
+      name: Ahmed Aboulenein
+      id: '10160047384135438'
+    message: 'This might be useful as well: http://martinfowler.com/articles/schemaless/
+      scalability is another point to consider.'
+    id: '907437019296007'
+  - created_time: '2015-03-11T10:12:42+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: 'Postgres has many interesting features: GIS, array data type, json,
+      duct, bson, stored procedures with many languages, CTE, etc. I recommend it'
+    id: '907581752614867'
+  - created_time: '2015-03-11T10:19:19+0000'
+    from:
+      name: Tarek Amr
+      id: '10155854949245944'
+    message: That's sort of the message of this book, I recommend it. http://amzn.to/1NIHPI7
+    id: '907583445948031'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEEzTkRFMk9UTXlOak14TXpRNU9qRTBNall3TWpreE1EYz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEEzTlRnek5EUTFPVFE0TURNeE9qRTBNall3TmpreE5Uaz0ZD
+attachments:
+  data:
+  - description: Migrating from MongoDB to PostgreSQL
+    media:
+      image:
+        height: 365
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQD8V5Bu0AGvh9hR&w=720&h=720&url=http%3A%2F%2Fdeveloper.olery.com%2Fimages%2Fpostgres%2Fagora_timeline.png&cfs=1&_nc_hash=AQDWprT98EHOXQP9
+        width: 365
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fdeveloper.olery.com%2Fblog%2Fgoodbye-mongodb-hello-postgresql%2F&h=ATMoRx4Sw6x30IZ8iWX-CP_XaLAJ-DecZJymTfuyxR_8m0S89mmeNVfjbuoro9CYGeSZLwZU1dUI4Yi2a7SbTIUI1nYfN04zql4V&s=1&enc=AZOxZkGlwK6Va-VD3DssrvhhmbjepsK_iIrbRP8Itlc4_Wh_A2i4q3-UsNIc3aFbGFXWMoAKuagbVQP-cBLjOiDy
+    title: Goodbye MongoDB, Hello PostgreSQL
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fdeveloper.olery.com%2Fblog%2Fgoodbye-mongodb-hello-postgresql%2F&h=ATMoRx4Sw6x30IZ8iWX-CP_XaLAJ-DecZJymTfuyxR_8m0S89mmeNVfjbuoro9CYGeSZLwZU1dUI4Yi2a7SbTIUI1nYfN04zql4V&s=1&enc=AZOxZkGlwK6Va-VD3DssrvhhmbjepsK_iIrbRP8Itlc4_Wh_A2i4q3-UsNIc3aFbGFXWMoAKuagbVQP-cBLjOiDy

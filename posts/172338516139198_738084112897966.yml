@@ -11,3 +11,99 @@ updated_time: '2014-04-28T22:18:06+0000'
 name: New Vulnerability Found in Every Single Version of Internet Explorer
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/738084112897966/
 id: '172338516139198_738084112897966'
+reactions:
+  data:
+  - id: '1546098432153196'
+    name: Mohamed Essam
+    type: LIKE
+  - id: '10156358805885288'
+    name: Mahmoud Abd El-Fattah
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlOVGt4TmpFMk5UVXpPakV6T1RnMk9UUXdORE02TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TlRFNU1UazFNamczT2pFek9UZAzJPREF5TXpnNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2014-04-28T08:09:13+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: IE & Security don't mix
+    id: '738098109563233'
+  - created_time: '2014-04-28T09:45:35+0000'
+    from:
+      name: Amr Badawy
+      id: '10156121984986834'
+    message: https://technet.microsoft.com/library/security/2963983
+    id: '738119469561097'
+  - created_time: '2014-04-28T09:47:10+0000'
+    from:
+      name: Muhammad Saleh
+      id: '10156649659196002'
+    message: Yes it's a disaster :(
+    id: '738120486227662'
+  - created_time: '2014-04-28T11:49:16+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: In a bank environment they lock every file upload / download to IE only
+      via some admin stuff. Vulnerabilities are often discovered in every OS and browser
+      (often by white hat hackers / security experts), and they are not a good indication
+      of which is most secure.
+    id: '738171872889190'
+  - created_time: '2014-04-28T11:49:26+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Actually, some see it the other way around, since nothing is 100% secure,
+      the browser with least "patched" vulnerabilities might -just might- be simply
+      the most vulnerable.
+    id: '738171929555851'
+  - created_time: '2014-04-28T12:59:01+0000'
+    from:
+      name: Muhammad Saleh
+      id: '10156649659196002'
+    message: |-
+      You may have a point here but Microsoft stopped supporting XP therefore there might wont be a patch for this issue for these users and I don't know if Microsoft will make an exception for this case or not
+      Also as far as I know Microsoft still didn't release a patch till now which makes us all vulnerable :)
+    id: '738199859553058'
+  - created_time: '2014-04-28T18:20:58+0000'
+    from:
+      name: Ahmed Hassan
+      id: '10156284492809497'
+    message: Who the hell uses IE for anything anyway?
+    id: '738322396207471'
+  - created_time: '2014-04-28T18:22:11+0000'
+    from:
+      name: Muhammad Saleh
+      id: '10156649659196002'
+    message: 26% of the users are still using it unfortunately :)
+    id: '738322796207431'
+  - created_time: '2014-04-28T22:13:37+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      "IE8 unfortunately regained 0.48 percentage points, and it’s still the world’s most popular browser at 21.73 percent. "
+      http://thenextweb.com/insider/2014/03/01/ie10-falls-ie9-market-share-firefox-hits-60-month-low-chrome-gains/#!y36N7
+    id: '738417542864623'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOek00TURrNE1UQTVOVFl6TWpNek9qRXpPVGcyTnpJMU5UTT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOek00TkRFM05UUXlPRFkwTmpJek9qRXpPVGczTWpNeU1UYz0ZD
+attachments:
+  data:
+  - description: According to a confirmation by Microsoft late last night, a new zero
+      day vulnerability has been found to affect every version of Internet Explorer.
+      In other words—over a quarter of the entire browser market.
+    media:
+      image:
+        height: 288
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQDDAk23H6BPLmUk&w=720&h=720&url=http%3A%2F%2Fi.kinja-img.com%2Fgawker-media%2Fimage%2Fupload%2Fs--zhpgblh7--%2F698533315982397221.jpg&cfs=1&_nc_hash=AQAJfsSpKcudp9Nn
+        width: 288
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fgizmodo.com%2Fnew-vulnerability-found-in-every-single-version-of-inte-1568383903%3Futm_campaign%3Dsocialflow_gizmodo_facebook%26utm_source%3Dgizmodo_facebook%26utm_medium%3Dsocialflow&h=ATO8A1XQ9JWwluzclDAkqqFYZ55A-7TFb2iwt33QzQ21nzzkfBntgsC-6jEOywXr54jWihVPd3L4GTDpruwQ7x3vBLnbbj-KqJvD&s=1&enc=AZPffTv5tBEaf_gLVhOMLK0f9QPqVf3n4GJ8NTi2T0eEkn4h66ORnFY_8MrSqTjMA5k12WNAk3eNYw3NUJFJIwLy
+    title: New Vulnerability Found in Every Single Version of Internet Explorer
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fgizmodo.com%2Fnew-vulnerability-found-in-every-single-version-of-inte-1568383903%3Futm_campaign%3Dsocialflow_gizmodo_facebook%26utm_source%3Dgizmodo_facebook%26utm_medium%3Dsocialflow&h=ATO8A1XQ9JWwluzclDAkqqFYZ55A-7TFb2iwt33QzQ21nzzkfBntgsC-6jEOywXr54jWihVPd3L4GTDpruwQ7x3vBLnbbj-KqJvD&s=1&enc=AZPffTv5tBEaf_gLVhOMLK0f9QPqVf3n4GJ8NTi2T0eEkn4h66ORnFY_8MrSqTjMA5k12WNAk3eNYw3NUJFJIwLy

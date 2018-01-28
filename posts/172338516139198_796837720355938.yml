@@ -11,3 +11,106 @@ created_time: '2014-08-09T13:13:36+0000'
 updated_time: '2014-08-10T03:39:14+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/796837720355938/
 id: '172338516139198_796837720355938'
+reactions:
+  data:
+  - id: '1704630429602365'
+    name: Moustafa Hamdy
+    type: LIKE
+  - id: '1763181463721711'
+    name: Mohamed Nageh
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhOall5TnpNM01EUTJPakUwTURjMU9USTRNRFE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXdPRGsyTWpNek5qWXpPakUwTURjMU9UQXhNekE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2014-08-09T13:17:15+0000'
+    from:
+      name: Ahmed Kamal
+      id: '10204469829103969'
+    message: "I wrote this blog post about getting Hijri data in Windows 8.1 before.
+      windows Phone and windows 8 are very similar so I guess it may be useful \n\nhttp://ahmedkamal.github.io/2014/04/how-to-get-the-hijri-date-in-windows-8-1-accurately.html"
+    id: '796838617022515'
+  - created_time: '2014-08-09T13:19:24+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: You can get the day, month, year and day of week using the methods that
+      get these in the class, then get the days of the month using month and year
+      you have, and create your UI based on that.
+    id: '796839563689087'
+  - created_time: '2014-08-09T13:26:31+0000'
+    from:
+      name: Abdullah El-menawy
+      id: '10203990338636211'
+    message: |-
+      Ahmed Kamal Thank you very much :)
+      Mohamed Meligy
+      Any recommendations or advices of how to create it ?
+    id: '796841497022227'
+  - created_time: '2014-08-09T13:31:37+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      You just new it. Look at this example: http://msdn.microsoft.com/en-us/library/system.globalization.hijricalendar.getmonth(v=vs.110).aspx
+      Replace myDT with something like DateTime.Now (if there's such in WP8) and continue with the rest of the xample
+    id: '796843317022045'
+  - created_time: '2014-08-09T13:32:24+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: I assume if you click on any of the methods in http://msdn.microsoft.com/en-us/library/system.globalization.hijricalendar(v=vs.110).aspx
+      and go down to the example you'll see how to create it, which is just `new HijriCalendar()`
+    id: '796843510355359'
+  - created_time: '2014-08-09T13:34:56+0000'
+    from:
+      name: Abdullah El-menawy
+      id: '10203990338636211'
+    message: |-
+      No, you misunderstood me
+      I'm talking about the calendar's UI
+    id: '796844067021970'
+  - created_time: '2014-08-09T13:35:46+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: 'You''ll probably need to create it from scratch yourself using some
+      sort of grid control or so - In short: I don''t know :D'
+    id: '796844303688613'
+  - created_time: '2014-08-09T13:38:20+0000'
+    from:
+      name: Abdullah El-menawy
+      id: '10203990338636211'
+    message: |-
+      Amazing :D
+      Thank you very much for your help, I really appreciate your help ^^
+
+      Eslam Hamouda May you help me please ? :D
+    id: '796845053688538'
+  - created_time: '2014-08-09T21:05:45+0000'
+    from:
+      name: Ahmed Kamal
+      id: '10204469829103969'
+    message: "Abdullah El-menawy Do you know XAML well ? If so , it would be easy
+      for you to create / customize an existing code to fit your needs. You will use
+      grid , some stackpanels , buttons and some data binding :)\n\nAlso if you aren't
+      looking for a very specific features , you can use some f the available controls
+      \n\nCheck this project :\nhttp://wpcontrols.codeplex.com/\n\nTelerik also provides
+      a calendar control that you can use if you have access to Telerik Controls\n\nhttp://www.telerik.com/products/windows-phone/overview/all-controls/calendar.aspx\n\nAlso\n\nhttp://maheshprasad.blogspot.in/2010/12/calendar-control-for-windows-phone-7.html\n\nGoogle
+      should be your friend :)"
+    id: '796995743673469'
+  - created_time: '2014-08-10T03:39:14+0000'
+    from:
+      name: Eslam Hamouda
+      id: '10212947071504226'
+    message: |-
+      i will go exactly  for Ahmed Kamal answer.
+      + you might find something interesting in the Android one, a great project has written the pickers again with XML/Java you may want to take a look on the source code there are a full implementation  of HijriCalender including UI.
+      https://github.com/derekbrameyer/android-betterpickers
+    id: '797127153660328'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemsyT0RNNE5qRTNNREl5TlRFMU9qRTBNRGMxT1RBeU16VT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemszTVRJM01UVXpOall3TXpJNE9qRTBNRGMyTkRFNU5UUT0ZD

@@ -11,3 +11,92 @@ created_time: '2014-12-07T07:16:16+0000'
 updated_time: '2014-12-07T10:40:22+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/857294514310258/
 id: '172338516139198_857294514310258'
+reactions:
+  data:
+  - id: '10155819655346066'
+    name: Shady M. Najib
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRnM05EWXhNRFkxT2pFME1UZA3dNRGs1T1RNNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRnM05EWXhNRFkxT2pFME1UZA3dNRGs1T1RNNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2014-12-07T07:39:37+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      Have you checked what Stash can do?
+
+      https://www.atlassian.com/software/stash
+    id: '857299357643107'
+  - created_time: '2014-12-07T08:11:14+0000'
+    from:
+      name: Marwa Dosoky
+      id: '10156104209581248'
+    message: |-
+      Mohamed Meligy I wish :D . I am in a company that supports open source; to the core. but it would be very good for me  though :)
+
+      I think I am gonna use gitolite, the free un-user-friendly solution ;)
+    id: '857305970975779'
+  - created_time: '2014-12-07T10:18:17+0000'
+    from:
+      name: Ahmed M. Araby
+      id: '10155547863649263'
+    message: "Git doesn't use os authen. It uses any mean you provide \nGitolite is
+      a headace after I used it , limited and probably you might want t o use cgit
+      too , too much work\nBut you don't have to go through the hassle of doing everything
+      \nTry gitlab : gitlab.com\nGit management using single host os account , smart
+      issue tracking , nice GUI , ...\nEven it has os specific packages rpm, deb ,
+      so the installation will be straight forward"
+    id: '857337410972635'
+  - created_time: '2014-12-07T10:23:10+0000'
+    from:
+      name: Marwa Dosoky
+      id: '10156104209581248'
+    message: i came through it, but I didn't figure how the developers will commit
+      through eclipse or through its GUI. Committing through command line is a bigger
+      headache. that is why I want to use gitolite over gitlab or Gitblit
+    id: '857338530972523'
+  - created_time: '2014-12-07T10:32:09+0000'
+    from:
+      name: Ahmed M. Araby
+      id: '10155547863649263'
+    message: "Imagine for ftp :\nUsers can use command line tool called , ftp\nOr
+      use GUI called filezilla to do the very same thing \nAs long as both command
+      line and GUI tool understand the same protocol , both will do the same thing
+      \n\nNetbeans and other IDEs have libraries enables them to fetch , pull push
+      to git server just like the command line tool \n\nAnd both , as long as they
+      support git they will use the authen method you configured your git server to
+      it , SSH or HTTP or whatever \n\nI think you should try make your own github
+      repo and try yourself before taking the decision"
+    id: '857341097638933'
+  - created_time: '2014-12-07T10:33:10+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      Actually Gitlab is awesome. Thanks Araby for mentioning (I forgot all about it although a colleague blogged about it a few years ago).
+
+      It's just a virtual machine that contains git and preinstalled web UI to manage it.
+
+      The nature of the git server doesn't dictate how the developers commit/push. Even if it uses SSH, there are UI clients on Windows and Mac (GitExtensions comes with putty integrated by default and Source Tree has it built in its own UI, Eclipse sure can do something too)
+    id: '857341330972243'
+  - created_time: '2014-12-07T10:34:49+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: The past I referred to  http://www.aaron-powell.com/posts/2012-09-21-a-simple-git-server-on-windows.html
+    id: '857343030972073'
+  - created_time: '2014-12-07T10:40:22+0000'
+    from:
+      name: Marwa Dosoky
+      id: '10156104209581248'
+    message: what i like about gitlab, it isn't just an admin tool for Git repos .
+      it is much more (Y)
+    id: '857344584305251'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFUzTWprNU16VTNOalF6TVRBM09qRTBNVGM1TXpjNU56Yz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFUzTXpRME5UZAzBNekExTWpVeE9qRTBNVGM1TkRnNE1qST0ZD

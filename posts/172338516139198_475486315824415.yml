@@ -12,3 +12,54 @@ name: IoC container solves a problem you might not have but it’s a nice proble
   have | Krzysztof Koźmic
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/475486315824415/
 id: '172338516139198_475486315824415'
+reactions:
+  data:
+  - id: '10214861141222529'
+    name: Abdelrady Fcis
+    type: LIKE
+  - id: '10155638727450376'
+    name: Ahmed Magdy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRJME5qZA3lNelF4TVRveE16VXhNVEExTnpFNE9qSTFOREE1TmpFMk1UTT0ZD
+      after: TlRRNU1qTXdNemMxT2pFek5UQTVPVGszT1RBNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2012-10-23T12:55:09+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: In case you don't know him, the writer of the post is the guy behind
+      Castle Windsor container. Trust me, he knows this stuff very damn well!
+    id: '475486605824386'
+  - created_time: '2012-10-23T13:09:18+0000'
+    from:
+      name: Dody Gunawinata
+      id: '10159821384890487'
+    message: Just watch out for fat constructor parameters and dangling objects due
+      to misconfigurations
+    id: '475489995824047'
+  - created_time: '2012-10-23T13:12:06+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Yeah, mixing transient objects with long living ones can be quite tricky,
+      and pretty much leads to the quote included at the very beginning of the post.
+    id: '475490709157309'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAORGMxTkRnMk5qQTFPREkwTXpnMk9qRXpOVEE1T1RZANU1Eaz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAORGMxTkRrd056QTVNVFUzTXpBNU9qRXpOVEE1T1RjNU1qWT0ZD
+attachments:
+  data:
+  - description: IoC container solves a problem you might not have but it's a nice
+      problem to havePosted byKrzysztofunderDesign,IoCOctober 23rd, 2012On frame­works
+      and librariesA log­ging frame­work helps you log what's hap­pen­ing in your
+      appli­ca­tion. A UIframe­work helps you ren­der and ani­mate UIs to the user....
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fkozmic.pl%2F2012%2F10%2F23%2Fioc-container-solves-a-problem-you-might-not-have-but-its-a-nice-problem-to-have%2F&h=ATPXegzQuVz36GmleIndpaVuR6hyogD9ayMitepYCqdTv6qaUgc8R2kd0aQHURMp-YRa741UeGWA0lDZ9eKQe9chviUSSCamEvS8&s=1&enc=AZMF5Gmgs0-wW3CnvcOKIpxzd1wCOp-AMWvF6CrBeCwKMxZa2zRQRbfyOFU-Jwq5Cj9J148yLXJGJ3kSwTTjJJ-H
+    title: IoC container solves a problem you might not have but it’s a nice problem
+      to have | Krzysztof Koźmic
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fkozmic.pl%2F2012%2F10%2F23%2Fioc-container-solves-a-problem-you-might-not-have-but-its-a-nice-problem-to-have%2F&h=ATPXegzQuVz36GmleIndpaVuR6hyogD9ayMitepYCqdTv6qaUgc8R2kd0aQHURMp-YRa741UeGWA0lDZ9eKQe9chviUSSCamEvS8&s=1&enc=AZMF5Gmgs0-wW3CnvcOKIpxzd1wCOp-AMWvF6CrBeCwKMxZa2zRQRbfyOFU-Jwq5Cj9J148yLXJGJ3kSwTTjJJ-H

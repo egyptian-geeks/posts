@@ -12,3 +12,161 @@ created_time: '2015-06-18T09:56:22+0000'
 updated_time: '2015-06-21T02:20:10+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/960089897364052/
 id: '172338516139198_960089897364052'
+reactions:
+  data:
+  - id: '1969998133040174'
+    name: Fady Dawood
+    type: LIKE
+  - id: '1550774681686883'
+    name: Eslam Esmaeal
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdPVEF3TVRrek16WTBPakUwTXpRMk5EZA3hPREk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlOak13T1RjMk5Ua3pPakUwTXpRMk5ETTBOVGc2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2015-06-18T10:13:00+0000'
+    from:
+      name: Amr Tag
+      id: '10211180899988571'
+    message: What you are talking about are script kids, people who run scripts without
+      understanding what they do, a hacker who is truly professional actually does
+      write a lot of code and scripts...
+    id: '960093887363653'
+  - created_time: '2015-06-18T10:19:12+0000'
+    from:
+      name: Osama Soliman
+      id: '879271768900112'
+    message: "Hacking is \"gain unauthorized access to data in a system or computer.\"
+      \nhowever the \"method\"  whatever the \"age\" kid or child :D \nHe hacked something
+      I think Hacker is how he will be called ..."
+    id: '960095310696844'
+  - created_time: '2015-06-18T10:27:21+0000'
+    from:
+      name: Amr Tag
+      id: '10211180899988571'
+    message: |-
+      The definition varies and there are classifications to that
+
+      May be this encyclopaedia page can be of a little help
+
+      https://en.m.wikipedia.org/wiki/Hacker_(computer_security)
+    id: '960097290696646'
+  - created_time: '2015-06-18T13:55:12+0000'
+    from:
+      name: Fady Anwar
+      id: '10159888022555052'
+    message: Hacking really requires intensive amounts of time writing code and reviewing
+      existing code.. you can't consider your self a hacker without being a code guru
+      in the first place so you can be able to write exploits, backdoors and other
+      tools with very good understanding for networking protocols.. using only other
+      people tools is not really called hacking not to mention experienced hackers
+      don't trust other hackers tools unless they have its source code..
+    id: '960163367356705'
+  - created_time: '2015-06-18T14:22:07+0000'
+    from:
+      name: Osama Soliman
+      id: '879271768900112'
+    message: |-
+      http://edition.cnn.com/2014/04/04/tech/gaming-gadgets/5-year-old-xbox-hack/
+      http://thehackernews.com/2014/04/5-year-old-boy-discovers-microsoft-xbox.html
+
+      :D ! seems CNN THN were mistaken too XD !!
+    id: '960171510689224'
+  - created_time: '2015-06-18T16:52:58+0000'
+    from:
+      name: Mohamed Tarek El Haddad
+      id: '10159750515025408'
+    message: Just because he stumbled on a vulnerability  does not mean he's a hacker,
+      and I don't think they're reporting the news as such. To be able to actively
+      and consciously hack systems, using code, you would have to be really good at
+      coding among many other things.
+    id: '960229297350112'
+  - created_time: '2015-06-18T16:55:50+0000'
+    from:
+      name: Mohamed Tarek El Haddad
+      id: '10159750515025408'
+    message: So yeah "scripting kids" - which is a very well fitting patronizing statement
+      rather than a reference to atheir age group - will definitely be stumped when
+      they find out that coding something is a lot more involved than using a twisted-looking
+      tool made by cyb3rz0mbie or whatever ..
+    id: '960230837349958'
+  - created_time: '2015-06-18T17:21:28+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: |-
+      To me hacking is being able to adjust a system to a need unintended by its creator. When I write atrocious CPP to generate code for me, I call that hacking. If I attach a Lua repl to a game so I can automate something, hacking too. If I can gain access to something via a sql injection into a searchbar, also hacking.
+      I visited a hackerspace some months ago, where they hacked a 30 year old weaving machine and removed the mechanical-copy-template part and instead made it controllable from a PC. Then they bought another weaving machine and combined them to print a 3D patterned scarf.
+
+      Bottom line: If you (ab)use something to fit your need, you are hacking it. The child hacked their system, because it did so without use of any specialized tools. The people you call hackers aren't creatively modifying anything, they are using prewritten utilities made for that specific purpose. They are doing penetration (testing), not hacking.
+    id: '960239617349080'
+  - created_time: '2015-06-18T19:23:29+0000'
+    from:
+      name: Fady Anwar
+      id: '10159888022555052'
+    message: Well, for me hacking got me into coding in the very first place when
+      I realized that I need to understand and write code in different languages in
+      order for me to be able to hack..
+    id: '960284780677897'
+  - created_time: '2015-06-19T15:07:50+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      I share the same understanding of "hacking" as Ahmad Fatoum, when I abuse the Extension Methods feature in C# so that most of my code looks like one-liners (something.DoThat().ThenThat().Then(c => c.ThisThing()).ThrowIfBad()) ... I feel like I've wrote hacky code, which looks very awesome but is very unreadable to somone else :D
+      I find myself doing that because I don't like useless intermediate variables (ones that I use only once) and I don't like having code where the order of method names is the opposite of their execution order, for example int.Parse(str.Substring(0, 2)) instead of str.Substring(0, 2).ParseInt() where ParseInt is an extension method I wrote
+    id: '960701330636242'
+  - created_time: '2015-06-21T00:00:56+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: This reminds of https://www.youtube.com/watch?v=J1qMtPrHoVs (watch it
+      don't just read the title)
+    id: '961386980567677'
+  - created_time: '2015-06-21T01:11:45+0000'
+    from:
+      name: Osama Soliman
+      id: '879271768900112'
+    message: |-
+      With all due respect, Maybe you don't ... but,
+      Let me borrow the "Script kids" expression ... u know how many of them living on this planet +1ed? just google any "how to hack .. something" and see the views !
+
+      When they grow older, wiser and want to code  ... I am sure they would love to GIVE A SHIT and see such advice.
+    id: '961406133899095'
+  - created_time: '2015-06-21T01:17:06+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Did you watch the video?
+    id: '961407220565653'
+  - created_time: '2015-06-21T01:19:32+0000'
+    from:
+      name: Osama Soliman
+      id: '879271768900112'
+    message: as far as I understand he says these are useless questions ...
+    id: '961407863898922'
+  - created_time: '2015-06-21T01:31:37+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      I really liked that video, I think I might be directing people towards that video in a bunch of situations even if it has nothing to do with programming, it's a nice response to hateful people who just want to hate on things instead of actually dealing with them.
+      (this post and comments weren't hateful though from what I've read, just fun talk)
+    id: '961411570565218'
+  - created_time: '2015-06-21T02:20:10+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      What I wanted to say is: it doesn't matter. It shouldn't matter. Those are all interconnected areas and you can be following a process ava having to hack certain things, etc.
+
+      Hacking is often used to mean "putting this thing together without really knowing what I'm doing". I need to know what I'm doing most of the time, and I  have needs to use things I don't know about as well so I hack stuff together.
+
+      So, which side am I in? In polite words: I don't care, and I don't think you should too
+    id: '961428977230144'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFl3TURrek9EZAzNNell6TmpVek9qRTBNelEyTWpJek9EQT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFl4TkRJNE9UYzNNak13TVRRME9qRTBNelE0TlRNeU1UQT0ZD

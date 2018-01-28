@@ -9,3 +9,243 @@ created_time: '2014-03-31T06:20:54+0000'
 updated_time: '2014-04-01T20:37:26+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/723272827712428/
 id: '172338516139198_723272827712428'
+reactions:
+  data:
+  - id: '10214861141222529'
+    name: Abdelrady Fcis
+    type: LIKE
+  - id: '10156567427614311'
+    name: Adi Gupta
+    type: LIKE
+  - id: '10205205301673812'
+    name: Ahmed Shawky
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRJME5qZA3lNelF4TVRveE16azJNelEyTVRFNE9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRJNE16a3hOVGN3TWpveE16azJNalUxTWpVeU9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2014-03-31T06:29:37+0000'
+    from:
+      name: Ahmed Magdy
+      id: '10155638727450376'
+    message: Depends on the application size! Sure for me I will use Microsoft ASP.NET
+      Stack and based on the project requirement & size I will choose either asp.net
+      mvc or web forms. If it's an enterprise application with some CMS I will go
+      for MS SharePoint
+    id: '723274767712234'
+  - created_time: '2014-03-31T06:32:13+0000'
+    from:
+      name: Ahmed Magdy
+      id: '10155638727450376'
+    message: The reason I choose asp.net that is my area of expertise :)
+    id: '723275301045514'
+  - created_time: '2014-03-31T06:57:14+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: Emad Elwany I think this is the most buzzword to word density I have
+      seen in one comment :D
+    id: '723281204378257'
+  - created_time: '2014-03-31T07:08:25+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: Emad Elwany NodeJS ecosystem is amazing, it is one of the technologies
+      that I haven't had chance to use it in any serious stuff, but I think it is
+      amazing how things are progressing on its end
+    id: '723283354378042'
+  - created_time: '2014-03-31T07:12:34+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: |-
+      My latest project used this stack
+
+      Python Flask as web platform
+      SQLAlchemy for ORM
+      MySQL DB
+      Knockout.JS for front end
+      Linux server \ nothing prevents it from running on Windows though
+
+      I liked the Python Flask model of very thin plugins, so you can always only use what you need.
+    id: '723284054377972'
+  - created_time: '2014-03-31T07:14:10+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: WOW You are the only one I know who used TypeScript for NodeJS application,
+      this needs to be talked about further more :D
+    id: '723284491044595'
+  - created_time: '2014-03-31T07:15:47+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: Say hi to Anders Hejlsberg
+    id: '723284857711225'
+  - created_time: '2014-03-31T07:17:25+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: This project I was working on had a very extensive use of Knockout, it
+      was very good, we didn't consider Angular though it was an overkill for our
+      case, we only wanted a good MVVM style binding
+    id: '723285187711192'
+  - created_time: '2014-03-31T07:17:26+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Depend on the project case and the problem we are trying to solve. but
+      in general if i need a web application i would go for Ruby-on-Rails and if there
+      is any real time feature required I would add Nodejs+Socket.io MySQL DB works
+      99% for my needs while I can go for PostgreSQL in very specific needs.
+    id: '723285194377858'
+  - created_time: '2014-03-31T07:20:11+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: I haven't gone far in Angular but i used Backbone in many projects and
+      i really like it a lot. However I wanna go a bit deeper in Angular to see the
+      best use case for using it.
+    id: '723285744377803'
+  - created_time: '2014-03-31T08:34:39+0000'
+    from:
+      name: Dody Gunawinata
+      id: '10159821384890487'
+    message: "Front End:\nRactive.js (not to be confused with reactive.js)\nPubSub.js\nTypeScript\n\nWindows
+      Backend:\nMVC 5\nWeb API 2\nSQL Server \nElastic Search\nRabbitMQ\n\nLinux Backend:\nHack/HHVM\nRethinkDB
+      or PostgreSQL\nElastic Search\nRabbitMQ"
+    id: '723299931043051'
+  - created_time: '2014-03-31T08:44:38+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: "- Ruby with sinatra for personal projects, with maybe 2-3 really good
+      ruby developers\n\n- Ruby on rails for work projects, with maybe a mid or entry
+      level developers on the team.\n\n- Emberjs ( previously spinejs and cappuccino
+      ) won't replace cappuccino anytime soon.\n\n- Erlang is indispensable if we
+      have any realtime components\n\n- Redis as a message bus, depending on our requirements
+      we either persist on it or elsewhere.\n\n- MySQL is our database of choice\n\n-
+      OCaml where we need an external support utility. We went from Ruby to C then
+      finally OCaml\n\n- We use our internal metrics tools they measure AARRR metrics
+      plus mixpanel\n\n- We use Google analytics but our own reporting (weekly mail
+      digests, super neat)\n\n- Capistrano for deployment\n\n- Utility scripts in
+      ruby for server management\n\n- No server monitoring, now linode added that
+      for us, so we use this from linode and we're a long time happy camper there.\n\n-
+      Nginx and Thin for all our production deployments.\n\n- Bootstrap for work projects\n\n-
+      Compass css for personal projects\n\n- Zepto.js for large 3rd party javascript
+      projects, for smaller ones we have an in-house library. \n\n- jQuery for anything
+      else, designing for mobile is a byproduct of our process not a first priority
+      since most of what we build or what I'm personally interested in building in
+      my personal time is far from usable on a small screen.\n\n- Git for version
+      control, we track everything from server configuration to code and host at bitbucket.\n\nEdit:
+      More signal, less noise."
+    id: '723301434376234'
+  - created_time: '2014-03-31T08:45:56+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: ASP.NET web forms and some kind of code generator like codesmith. Probably
+      Telerik controls. No need for fancy buzz words or JS frameworks unless you are
+      making a user portal with cool UI
+    id: '723301671042877'
+  - created_time: '2014-03-31T08:57:07+0000'
+    from:
+      name: Dody Gunawinata
+      id: '10159821384890487'
+    message: I am not smart enough to understand JS frameworks - so I don't use them
+      either.
+    id: '723304271042617'
+  - created_time: '2014-03-31T11:51:56+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: "Web framework: Django when I have the choice. I like the ORM, admin
+      UI & lots of reusable apps. For very small apps & services I use bottle. Bottle
+      also has better support for websockets & SSE. I'm thinking of trying NodeJS.\n\nScripting:
+      Python, but I tried NodeJS lately for its async capabilities & it was awesome.
+      AutoHotKey if it can be done with it\n\nDB: SQLite is good because it's simple.
+      I like Postgres very much because of its GIS features & DB types. Rob Conery
+      gave a great session just scratching the surface of Postgres. SQL Server is
+      fine, but I can't say I'm a fan. I'm still thinking of trying Mongo, specially
+      its features & Redis later.\n\nFront-end: I used Angular & Knockout. Both has
+      advantages & disadvantages. \n\nDesktop apps: currently I prefer PyQt because
+      it's cross-platform."
+    id: '723376764368701'
+  - created_time: '2014-03-31T13:26:50+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      This is what I use now. I'd probably consider reusing most of them just because they get the job done and my company has proper setup for getting them up quickly:
+
+      The tools:
+
+      http://gurustop.net/blog/2014/04/01/tools-i-use-when-developing-on-net/
+    id: '723427124363665'
+  - created_time: '2014-04-01T09:36:11+0000'
+    from:
+      name: Mohamed Badawi
+      id: '1532825676787208'
+    message: ملاحظ مفيش جافا خالص
+    id: '723818230991221'
+  - created_time: '2014-04-01T09:55:37+0000'
+    from:
+      name: Abdelrady Fcis
+      id: '10214861141222529'
+    message: Asp.Net MVC wesh :D
+    id: '723822834324094'
+  - created_time: '2014-04-01T11:46:58+0000'
+    from:
+      name: Shady Atef
+      id: '10213518317565801'
+    message: Python Via Django - Although I am not so good at Python or even Django
+      .
+    id: '723857197653991'
+  - created_time: '2014-04-01T19:10:46+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: غالبا بيبقى اللي تغلبه العبه Principle
+    id: '724054334300944'
+  - created_time: '2014-04-01T19:12:36+0000'
+    from:
+      name: Mohamed Badawi
+      id: '1532825676787208'
+    message: مشروع وفيه فريق و ديد لاين ؟ مظنش سهل اتعلم له
+    id: '724055090967535'
+  - created_time: '2014-04-01T19:17:36+0000'
+    from:
+      name: Mohamed Badawi
+      id: '1532825676787208'
+    message: يعنى مثلا يا احمد انت تعرف بايثون وانطلب منك نيتف اندرويد اب - تتعلم
+      مكتبه زي كيفي - ولا تدور على احسن حاجة وتعد تذاكر جافا ؟
+    id: '724056977634013'
+  - created_time: '2014-04-01T20:18:04+0000'
+    from:
+      name: Ayman Mahfouz
+      id: '10155647847437025'
+    message: |-
+      Java, anyone?!
+
+      What if you had to integrate with some existing Java system, what would you use?
+    id: '724084324297945'
+  - created_time: '2014-04-01T20:26:26+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: For Java I use Spring MVC. I am so exploring Play but very early to judge
+    id: '724086994297678'
+  - created_time: '2014-04-01T20:37:26+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: |-
+      Ayman Mahfouz That really depends on what are you integrating with. SOA? REST? Maybe you're given access to a message broker, an ESB. Maybe it follows the unix philosophy.
+      Legacy system integration usually comes in with a lot of variables.  What about your new system, it has requirements as well.
+    id: '724090737630637'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekl6TWpjME56WTNOekV5TWpNME9qRXpPVFl5TkRjek56Yz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekkwTURrd056TTNOak13TmpNM09qRXpPVFl6T0RRMk5EWT0ZD

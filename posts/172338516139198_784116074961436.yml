@@ -10,3 +10,79 @@ created_time: '2014-07-15T22:23:58+0000'
 updated_time: '2014-07-16T07:03:12+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/784116074961436/
 id: '172338516139198_784116074961436'
+reactions:
+  data:
+  - id: '10156649659196002'
+    name: Muhammad Saleh
+    type: LIKE
+  - id: '10160105091405314'
+    name: Mohamed Elsherif
+    type: LIKE
+  - id: '10156025239731303'
+    name: Alaa Ali
+    type: LIKE
+  paging:
+    cursors:
+      before: TmprMU5UazJNREF4T2pFME1EVTBOak0wTVRRNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRNd01qZA3hNekF5T2pFME1EVTBOak14T1RRNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2014-07-15T23:01:35+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: 'I used it once, I remember: turning jQuery plugins into directives was
+      a pain specially when you have a lot of them, flickering problems, multiple/nested
+      views problems'
+    id: '784133134959730'
+  - created_time: '2014-07-15T23:14:19+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: I see what you mean on jquery plugins. Can you name some examples please?
+      I also didn't get the views problem. Thanks a lot.
+    id: '784140341625676'
+  - created_time: '2014-07-16T00:16:09+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: "For plugins I remember jQuery Raty, typeahead.js (Thank god I found
+      it included in Angular UI) and some not-so-popular image sliders and charts.
+      \n\nFor the views problem, I wanted to load ng-views inside each others and
+      keep the 'state' of all of them, have a look at the attached shots, in photo
+      1 the user searches estate agents and gets a list, when an item is clicked the
+      details view should appear with animation on the right and the clicked item
+      on the main ng-view gets highlighted and all its state including pagination,
+      search term, sort.. etc should remain.. after struggling with this I had to
+      use Angular UI Router and remove some features I was planning to do, I thought
+      stuff like these are definitely supported and I can go crazy as much as I want
+      but I had to find a workaround for almost everything I wanted to do, making
+      them with jQuery would be a lot easier actually but I wanted to try angular.js
+      and I loved it anyway"
+    id: '784159438290433'
+  - created_time: '2014-07-16T00:16:21+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: '1'
+    id: '784159491623761'
+  - created_time: '2014-07-16T00:16:31+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: '2'
+    id: '784159528290424'
+  - created_time: '2014-07-16T07:03:12+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Routing is something where Ember really exists and Angular is quite behind
+      (maybe until 2.0 this will remain the case). Don't feel bad about using ui-router
+      BTW, it's way more superior, and the guys who created it are pretty much Angular
+      team or so close to it, plus it's going to be main source of inspiration for
+      angular router in 2.0, and so many people and places recommend using it by default.
+    id: '784283281611382'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemcwTVRNek1UTTBPVFU1TnpNd09qRTBNRFUwTmpVeU9UVT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemcwTWpnek1qZA3hOakV4TXpneU9qRTBNRFUwT1RReE9UST0ZD

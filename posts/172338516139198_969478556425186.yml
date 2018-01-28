@@ -8,9 +8,202 @@ from:
   name: Osama Mohamed
   id: '2089650217931552'
 type: link
-picture: https://external.xx.fbcdn.net/safe_image.php?d=AQB2yVVw-2kRoLXq&w=130&h=130&url=http%3A%2F%2Fcdn.sstatic.net%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3Dea71a5211a91%26a&cfs=1&_nc_hash=AQBCPfH6cIWkKP5O
+picture: https://external.xx.fbcdn.net/safe_image.php?w=130&h=130&url=http%3A%2F%2Fcdn.sstatic.net%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3Dea71a5211a91%26a&cfs=1&_nc_hash=AQDwtzkG0eHhMpB4
 created_time: '2015-07-07T18:55:22+0000'
 updated_time: '2015-07-09T04:34:21+0000'
 name: javascript - OOP - executeSql return the result into a var , it shows undefined
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/969478556425186/
 id: '172338516139198_969478556425186'
+comments:
+  data:
+  - created_time: '2015-07-07T19:11:03+0000'
+    from:
+      name: Ahmed Mahmoud
+      id: '1917940025202392'
+    message: لسه شايف السؤال الصبح  اتاريك انت :D
+    id: '969482626424779'
+  - created_time: '2015-07-07T19:12:36+0000'
+    from:
+      name: Osama Mohamed
+      id: '2089650217931552'
+    message: مطلعة عيني من امبارح :D
+    id: '969483906424651'
+  - created_time: '2015-07-07T19:13:51+0000'
+    from:
+      name: Ahmed Mahmoud
+      id: '1917940025202392'
+    message: اعملك اب فوت ياسطي اي خدمات :D
+    id: '969484233091285'
+  - created_time: '2015-07-07T19:15:38+0000'
+    from:
+      name: Osama Mohamed
+      id: '2089650217931552'
+    message: تسلم بس عاوز حل بجد :\
+    id: '969484823091226'
+  - created_time: '2015-07-07T20:09:52+0000'
+    from:
+      name: Ahmed Ibrahim Khalil
+      id: '10152956726593657'
+    message: "في السطر دا \nvar myResult = newInvoice.read();\nالمشكلة انك معتمد ان
+      دي \nBlocking Operation\nبس هي Non Blocking\nيعني المفروض الصح يكون\nnewInvoice.read(function(myResult)
+      {\nalert(myResult);\n});\n\nهتلاقي الكود بطريقة منظمة هنا\nhttps://jsfiddle.net/uwcfq8ww/"
+    id: '969504673089241'
+  - created_time: '2015-07-07T20:53:26+0000'
+    from:
+      name: Osama Mohamed
+      id: '2089650217931552'
+    message: |-
+      قرأت ده
+      http://stackoverflow.com/questions/1898178/callback-return-value-and-html5-executesql-function
+      لما بجربها زي ما حضرتك قلت بتطلع تمام
+      لكن لما بعملها كدا
+      var myResult = newInvoice.read(function(myResult) {
+          return myResult;
+      });
+      alert(myResult);
+      بيقول undefined :/
+    id: '969514706421571'
+  - created_time: '2015-07-07T20:58:43+0000'
+    from:
+      name: Ahmad M Arafa
+      id: '10208662024666994'
+    message: اخي , دا اسمة Asynchronous , لازم تنفذ الامر التالي , عن طريق callback
+      function او عن طريق promise لان مهما عملت return هيفضل null
+    id: '969519313087777'
+  - created_time: '2015-07-08T00:38:41+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      In your code, the alert is outside of the callback, which means that it happens right after the read "begins" but before the read "ends" (because the read actually happens in parallel anynscronously), so the alert has to be inside the callback dunction (before the closing braces/brackets) for it to happen after the read ends, so yes anything that needs "myResult" needs to be written inside that callback function, anything you need to happen after that read is done has to be moved from outside to inside that callback function.
+
+      if you still don't understand what's going on, see if you could put some breakpoints in the code to see the order in which things are executed.
+    id: '969571573082551'
+  - created_time: '2015-07-08T01:41:26+0000'
+    from:
+      name: Ahmed Mahmoud
+      id: '1917940025202392'
+    message: هو ده اللي كنت بتكلم عليه Asynchronous   الداله بتاخد وقت وانت بتنفذ
+      حاجة بعديها ع طول
+    id: '969585966414445'
+  - created_time: '2015-07-08T14:58:06+0000'
+    from:
+      name: Osama Mohamed
+      id: '2089650217931552'
+    message: طيب هل معنى كدا إني مش هأقدر أحفظ الداتا ف فاريبول ؟
+    id: '969829436390098'
+  - created_time: '2015-07-08T15:00:42+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: Put it in a variable, do whatever you want with the data ... but do all
+      of that inside the callback function! Because this function is called when the
+      data is available, otherwise it will still be undefined.
+    id: '969830146390027'
+  - created_time: '2015-07-08T15:00:44+0000'
+    from:
+      name: Osama Mohamed
+      id: '2089650217931552'
+    message: "@ Hassan Aly Selim  , @ Sky Walker  \nالمفروض بناءا على كلامكم لو خليتها
+      تعمل return بعد 5 ثواني مثلا \"ودا وقت كبير جدا بالنسبة للي بتاخده الفانكشن
+      عشان تتنفذ\" ان كل حاجة تتم تمام\nﻷن اللي فهمته ان المشكلة مشكلة وقت مش أكتر\nبس
+      أنا جربت الكود بالصورة دي ونفس الفكرة مش بيحفظ الدتا :/"
+    id: '969830159723359'
+  - created_time: '2015-07-08T15:00:46+0000'
+    from:
+      name: Osama Mohamed
+      id: '2089650217931552'
+    message: |-
+      var newInvoice = new Invoice();
+      var myResult = newInvoice.read(function(myResult) {
+          setTimeout(function(){ return(myResult); }, 5000);
+      });
+      setTimeout(function(){ alert(myResult); }, 6000);
+    id: '969830176390024'
+  - created_time: '2015-07-08T15:01:59+0000'
+    from:
+      name: Osama Mohamed
+      id: '2089650217931552'
+    message: "@ Hassan Aly Selim \nطب ازاي ممكن فكرة للحل :/"
+    id: '969830473056661'
+  - created_time: '2015-07-08T15:12:13+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      var newIvoice = new Invoice();
+      var myResult;
+      newInvoice.read(function(r} { myResult = r; });
+      setTimeout(function() { alert(myResult); }, 6000);
+
+      This will work, but that is NOT how you use asynchronous functions, you need to read about it because it's a very different way of thinking that is hard to explain in a comment.
+    id: '969835926389449'
+  - created_time: '2015-07-08T15:28:12+0000'
+    from:
+      name: Osama Mohamed
+      id: '2089650217931552'
+    message: "للأسف بيطلع undefined \nhttp://jsfiddle.net/OsamaMohamed/b7e96qn4/"
+    id: '969840886388953'
+  - created_time: '2015-07-08T15:34:00+0000'
+    from:
+      name: Osama Mohamed
+      id: '2089650217931552'
+    message: ممكن مصادر للحاجات دي لاني مش عارف اوصل لحاجة واضحة :/
+    id: '969842929722082'
+  - created_time: '2015-07-08T15:51:42+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      Well this now went outside my knowledge, because I haven't dealt with PhoneGap before :D
+      I was just trying to help you understand the concept of asynchrony, the same behavior applies to many other languages and frameworks (.Net used to be like that before the new async/await system).
+    id: '969848116388230'
+  - created_time: '2015-07-08T15:55:17+0000'
+    from:
+      name: Osama Mohamed
+      id: '2089650217931552'
+    message: طيب ممكن ريسورسس كويسة للموضوع بشكل عام
+    id: '969849369721438'
+  - created_time: '2015-07-08T16:22:32+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: Sadly, I don't have a resource for this, I can't remember when and how
+      I learn about this asynchronous pattern :\
+    id: '969856496387392'
+  - created_time: '2015-07-09T04:32:22+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      Try to follow something like http://www.adamwadeharris.com/remote-debugging-in-phonegap-with-chrome-devtools/ to debug the app
+      See if there are errors in the console
+    id: '970063253033383'
+  - created_time: '2015-07-09T04:34:21+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Once you have that setup, you can also add breakpoint, use this version
+      http://jsfiddle.net/b7e96qn4/1/ with debugger statemenets (like breakpoints,
+      or just use breakpoints) and examine what arguments were passed and what their
+      values were.
+    id: '970063786366663'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFk1TkRneU5qSTJOREkwTnpjNU9qRTBNell5T1RZAeU5qTT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVGN3TURZAek56ZAzJNelkyTmpZAek9qRTBNelkwTVRZAME5qRT0ZD
+attachments:
+  data:
+  - description: I'm trying to use Phonegap function executeSql to fetch a SQL Query
+      with a select statement , i'm just want to return a query results from my OOP
+      function i read this question Return executeSQL fu...
+    media:
+      image:
+        height: 316
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAgI-ZAZZIE993Q&w=720&h=720&url=http%3A%2F%2Fcdn.sstatic.net%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3Dea71a5211a91%26a&cfs=1&_nc_hash=AQCR3o9tiXlp2ihi
+        width: 316
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F31266215%2F&h=ATNn9UwLQfQA8LbSRw4PtItTeekPgvzZDtueQDNzLvDbCbLqJogsRNt8VvTLa2FxNSC0bgVPWYPPstbQb9LhLej2k50TCGYlNE28&s=1&enc=AZNuAWiYN333jV5XYkqdDEE2CfEJL0tp2CO5WjdiGLC7s3QndVa-b3bKyCSLY1_O5hTRufYvQxZz8GMvBTIMASAv
+    title: javascript - OOP - executeSql return the result into a var , it shows undefined
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F31266215%2F&h=ATNn9UwLQfQA8LbSRw4PtItTeekPgvzZDtueQDNzLvDbCbLqJogsRNt8VvTLa2FxNSC0bgVPWYPPstbQb9LhLej2k50TCGYlNE28&s=1&enc=AZNuAWiYN333jV5XYkqdDEE2CfEJL0tp2CO5WjdiGLC7s3QndVa-b3bKyCSLY1_O5hTRufYvQxZz8GMvBTIMASAv

@@ -16,3 +16,137 @@ created_time: '2014-07-26T17:52:35+0000'
 updated_time: '2014-07-27T18:42:06+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/789742687732108/
 id: '172338516139198_789742687732108'
+reactions:
+  data:
+  - id: '10159871545170134'
+    name: Mahmoud Said
+    type: LIKE
+  - id: '10155263617066659'
+    name: Ahmed Mansour
+    type: LIKE
+  - id: '10155226291481186'
+    name: أحمد محمود محمد عبدالوهاب
+    type: LIKE
+  paging:
+    cursors:
+      before: TnpJek5EUXdNVE16T2pFME1EWTBNRFF5TkRRNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TmpVNE5USXhNVGcxT2pFME1EWXpPVGd4T1RBNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2014-07-26T18:10:04+0000'
+    from:
+      name: أحمد محمود محمد عبدالوهاب
+      id: '10155226291481186'
+    message: الكلام صح اه :D
+    id: '789748721064838'
+  - created_time: '2014-07-26T18:41:26+0000'
+    from:
+      name: Ahmed Mansour
+      id: '10155263617066659'
+    message: مضبوط
+    id: '789758377730539'
+  - created_time: '2014-07-26T21:00:33+0000'
+    from:
+      name: Shady Atef
+      id: '10213518317565801'
+    message: Yes consider them as two remote-controls control the same T.V
+    id: '789806017725775'
+  - created_time: '2014-07-27T06:33:13+0000'
+    from:
+      name: Ahmed Mozaly
+      id: '10155321930231313'
+    message: |-
+      MohAmed HAmada now you have extra step to clarify .. why we need to use the keyword 'ref' in certain cases?
+      ---
+      it is clear for you or it need some clarification?
+    id: '789975981042112'
+  - created_time: '2014-07-27T11:55:44+0000'
+    from:
+      name: MohAmed HAmada
+      id: '905385256303172'
+    message: "I know the reason of using keyword 'ref' with an argument to control
+      the value for example if we have a value as an argument  and doing on it some
+      calculation it will be effect on the value itself on the Main \nAhmed Mozaly"
+    id: '790058041033906'
+  - created_time: '2014-07-27T12:55:13+0000'
+    from:
+      name: Ahmed Mozaly
+      id: '10155321930231313'
+    message: |-
+      this is right for value types,
+      one other thing, we can use 'ref' keyword for reference types too, why the need?
+      ---
+      for example
+      public void Send(ref UserMessage userMessage){
+      .....
+      }
+    id: '790074334365610'
+  - created_time: '2014-07-27T13:32:03+0000'
+    from:
+      name: Ahmed Mozaly
+      id: '10155321930231313'
+    message: "when you write: var x = new UserMessage();\nyou can think in 'x' as
+      a envelop contains the address for certain instance of 'UserMessage'\nnow ,
+      when we call NotificationHelper.Send(x);\nwe just created new envelop put the
+      same address which 'x' has inside the new envelop, pass the new envelop the
+      'NotificationHelper.Send(x)'\n--------------\nnow lets see what is happening
+      inside the normal (without ref keyword)\npublic void Send(UserMessage userMessage){......}
+      \n----\nif made this: userMessage.Title = 'hello mohamed';\nthis goes to the
+      passed envelop 'userMessage' reads the address inside it and go to the address,
+      change whatever it needs and that's it\n--\nnow what if we deiced to change
+      the address inside envelop it self?\nwe do not need to change the instance the
+      the envelop has the address to, we need to change the address the the envelop
+      is holding?"
+    id: '790086461031064'
+  - created_time: '2014-07-27T13:33:36+0000'
+    from:
+      name: Ahmed Mozaly
+      id: '10155321930231313'
+    message: "this will be made through this \npublic void Send(ref UserMessage userMessage){\n
+      \       userMessage = new SmsUserMessage(); // the envelop userMessage now has
+      new address\n}"
+    id: '790088204364223'
+  - created_time: '2014-07-27T13:34:34+0000'
+    from:
+      name: Ahmed Mozaly
+      id: '10155321930231313'
+    message: it is all about the 'new' keyword
+    id: '790088524364191'
+  - created_time: '2014-07-27T13:36:44+0000'
+    from:
+      name: Ahmed Mozaly
+      id: '10155321930231313'
+    message: and in NotificationHelper.Send(x); NO new envelops will be created in
+      case of using 'ref' keyword, instead the same envelop will be passed to the
+      method
+    id: '790089114364132'
+  - created_time: '2014-07-27T13:37:42+0000'
+    from:
+      name: MohAmed HAmada
+      id: '905385256303172'
+    message: "thanks i understand it from MSDN so i deleted my comment but what i
+      understood that it  changes the address that is stored in   \n        parameter
+      . Because parameter is a ref parameter, the \n      address that is stored in
+      variable item in Main also is changed !!"
+    id: '790089394364104'
+  - created_time: '2014-07-27T13:40:20+0000'
+    from:
+      name: MohAmed HAmada
+      id: '905385256303172'
+    message: i think it work as the value type change the origin value in Main by
+      changing the address of it
+    id: '790090347697342'
+  - created_time: '2014-07-27T18:42:06+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: The way I think about using ref with a reference type, is that it sends
+      a reference to the reference (a pointer of a pointer in C++ terms), same thing
+      with "out" except that the compiler will warn you if you send an uninitialized
+      variable to a ref parameter (while it wont if it's an out parameter), which
+      makes a lot of sense.
+    id: '790220781017632'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemc1TnpRNE56SXhNRFkwT0RNNE9qRTBNRFl6T1RneU1EUT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemt3TWpJd056ZA3hNREUzTmpNeU9qRTBNRFkwT0RZAMU1qWT0ZD

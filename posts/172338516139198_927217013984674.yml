@@ -13,3 +13,157 @@ permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/92721701
 shares:
   count: 2
 id: '172338516139198_927217013984674'
+reactions:
+  data:
+  - id: '10156996105984325'
+    name: Mostafa El-Liethy
+    type: LIKE
+  - id: '1586798974745846'
+    name: Mohamad Elgabbas
+    type: LIKE
+  - id: '627907956'
+    name: Emad Elsaid
+    type: LIKE
+  - id: '10209177154420899'
+    name: Elsayed Awdallah
+    type: LIKE
+  - id: '10156115350739764'
+    name: Mahmoud Tantawy
+    type: LIKE
+  - id: '10155426916839779'
+    name: Amr Medhat
+    type: LIKE
+  - id: '10159857675500183'
+    name: Mahmoud Said
+    type: LIKE
+  - id: '10155945694126276'
+    name: Ahmad Gamaleldin Hassanein
+    type: LIKE
+  - id: '1666537356735632'
+    name: Muhammad Alsaied
+    type: LIKE
+  paging:
+    cursors:
+      before: TnprNE9ERTVNekkwT2pFME1qa3pPRGt6TXpRNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQXhNemd4TlRFMk9EZAzBPakUwTWpreU56SXhNREk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2015-04-17T11:52:29+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: Reported to occur to a lot of subscribers
+    id: '927217190651323'
+  - created_time: '2015-04-17T11:55:16+0000'
+    from:
+      name: Morad Edwar
+      id: '10215772499725897'
+    message: مش بيشتغل عندى وانا tedata
+    id: '927218297317879'
+  - created_time: '2015-04-17T11:56:18+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: |-
+      http://pastebin.com/QCrg9CAg
+      Traceroute output
+    id: '927218550651187'
+  - created_time: '2015-04-17T11:56:37+0000'
+    from:
+      name: Morad Edwar
+      id: '10215772499725897'
+    message: This paste has been removed!
+    id: '927218627317846'
+  - created_time: '2015-04-17T11:58:50+0000'
+    from:
+      name: Kinan Qassar
+      id: '10159880265870164'
+    message: ايوا فتح عندي
+    id: '927219140651128'
+  - created_time: '2015-04-17T12:15:04+0000'
+    from:
+      name: Amjad Mashaal
+      id: '10213738834576763'
+    message: ''
+    id: '927223210650721'
+  - created_time: '2015-04-17T13:53:11+0000'
+    from:
+      name: Ahmed Koraïem
+      id: '10159879865770402'
+    message: فتح عندي - تي اي داتا
+    id: '927255537314155'
+  - created_time: '2015-04-17T13:58:09+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: Same here, I asked a networks expert friend of mine, waiting for his
+      answer.
+    id: '927257020647340'
+  - created_time: '2015-04-17T14:10:49+0000'
+    from:
+      name: Mohamed El-Kholy
+      id: '10155833475081885'
+    message: could it be the next hop router ?
+    id: '927261463980229'
+  - created_time: '2015-04-17T14:17:25+0000'
+    from:
+      name: Hany Saad
+      id: '10155270396306616'
+    message: Mostafa Adel
+    id: '927264030646639'
+  - created_time: '2015-04-17T14:58:41+0000'
+    from:
+      name: Sameh Ammar
+      id: '10216171489907822'
+    message: ''
+    id: '927281987311510'
+  - created_time: '2015-04-17T15:40:22+0000'
+    from:
+      name: Tarek Amr
+      id: '10155854949245944'
+    message: 192.168.anything is a private ip address, it is most probably one of
+      TEData's local devices or something
+    id: '927301537309555'
+  - created_time: '2015-04-17T16:01:43+0000'
+    from:
+      name: Hussein Khalifa
+      id: '10100126826681456'
+    message: Mis configuration by tedata...this shouldn't be routable from ur dsl
+      connnection. Its probably a device belonging to tedata.
+    id: '927307587308950'
+  - created_time: '2015-04-17T16:08:33+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: Tarek Amr, what is the scope of the word "local" in this case?
+    id: '927310400642002'
+  - created_time: '2015-04-17T16:09:31+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: I think the users connected to the same ADSL Gateway
+    id: '927310927308616'
+  - created_time: '2015-04-17T16:18:21+0000'
+    from:
+      name: Marwan H. Soliman
+      id: '1593326774037450'
+    message: هما كده مقسمين السرعه
+    id: '927313503975025'
+  - created_time: '2015-04-17T16:20:04+0000'
+    from:
+      name: Tarek Amr
+      id: '10155854949245944'
+    message: Local as in not public on the internet, there can be as much devices
+      with the same IP within such range, as long as they are all in private networks.
+      And yeah, TEData's network in this case is also considered a private network
+    id: '927314150641627'
+  - created_time: '2015-04-21T21:56:50+0000'
+    from:
+      name: Ahmed Refaey
+      id: '1808892215797147'
+    message: Ahmed Sayed Elshemy
+    id: '929608447078864'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEkzTWpFM01Ua3dOalV4TXpJek9qRTBNamt5TnpFMU5Eaz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEk1TmpBNE5EUTNNRGM0T0RZAME9qRTBNamsyTlRNME1UQT0ZD

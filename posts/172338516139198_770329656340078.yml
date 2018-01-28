@@ -12,3 +12,41 @@ created_time: '2014-06-24T19:41:02+0000'
 updated_time: '2014-06-25T12:18:05+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/770329656340078/
 id: '172338516139198_770329656340078'
+comments:
+  data:
+  - created_time: '2014-06-25T11:31:47+0000'
+    from:
+      name: Taher Amin
+      id: '1995772710450716'
+    message: Mohamed 3amil eh ya 7ag :D
+    id: '770655669640810'
+  - created_time: '2014-06-25T11:32:12+0000'
+    from:
+      name: Taher Amin
+      id: '1995772710450716'
+    message: Mohamed 3amil eh ya 7ag :D
+    id: '770655809640796'
+  - created_time: '2014-06-25T11:32:33+0000'
+    from:
+      name: Mohamed Talaat
+      id: '10211225775629391'
+    message: tmaaaaaaaaaaam ya kbeeeeeeeeeeeeeer
+    id: '770655899640787'
+  - created_time: '2014-06-25T12:10:40+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: 'Re: your example http://msdn.microsoft.com/en-us/library/system.security.cryptography.hmacsha512(v=vs.110).aspx'
+    id: '770670962972614'
+  - created_time: '2014-06-25T12:18:05+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      Mohamed Meligy: I know that there is a class for HMAC-SHA512, but that's just hashing (with a key), what I'm looking for is PBKDF2 (key derivation function) that uses HMAC-SHA512 internally, the PBKDF2 implementation in the BCL is called "Rfc2898DeriveBytes" and it uses HMAC-SHA1 internally.
+      I've seen some implementations of PBKDF2 that accepts any HMAC algorithm on Stackoverflow and Blogs, but I don't know if I could trust them, small mistakes can cause disasters when it comes to security :\
+    id: '770677262971984'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemN3TmpVMU5qWTVOalF3T0RFd09qRTBNRE0yT1RVNU1EYz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemN3TmpjM01qWXlPVGN4T1RnME9qRTBNRE0yT1RnMk9EVT0ZD

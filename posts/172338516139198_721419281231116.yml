@@ -15,3 +15,112 @@ created_time: '2014-03-28T15:05:43+0000'
 updated_time: '2014-03-30T02:43:25+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/721419281231116/
 id: '172338516139198_721419281231116'
+reactions:
+  data:
+  - id: '10156089441669813'
+    name: Khalid Mohamed ElSayed
+    type: LIKE
+  - id: '10215070655377585'
+    name: Mahmoud Kandeel
+    type: LIKE
+  - id: '1782308771803822'
+    name: Zouhair Isksiou
+    type: LIKE
+  - id: '10213518317565801'
+    name: Shady Atef
+    type: LIKE
+  - id: '10209868256375843'
+    name: Khaled Mhd
+    type: LIKE
+  - id: '10213443570697789'
+    name: Hady Mahmoud
+    type: LIKE
+  - id: '1681618765215075'
+    name: Mustafa Almaraghi
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRJME56azBPREV5T2pFek9UWXlORGN4TXprNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQXhNREE1TURRMU1EUTFPakV6T1RZAd01Ua3pNVFE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2014-03-29T10:33:58+0000'
+    from:
+      name: Geish
+      id: '10100126826302216'
+    message: https://github.com/elgeish/Challenges/blob/master/CodeJam/Rotate.cpp
+    id: '722218494484528'
+  - created_time: '2014-03-29T13:29:53+0000'
+    from:
+      name: Shady Atef
+      id: '10213518317565801'
+    message: Geish It's really hard to read your code especially the won function
+      but thanks for the variable K idea :D
+    id: '722277127811998'
+  - created_time: '2014-03-29T17:00:35+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: https://gist.github.com/kashwaa/9858029
+    id: '722357977803913'
+  - created_time: '2014-03-29T17:22:44+0000'
+    from:
+      name: Geish
+      id: '10100126826302216'
+    message: I don't worry about readability when I solve programming challenges,
+      but for the sake of sharing, I can explain; won checks the board in the same
+      order of ways to win as described in the problem (vertically, horizontally,
+      and diagonally), and solve reads the input and rotates a row to be a column
+      treated as a stack that only accepts R's or B's.
+    id: '722369774469400'
+  - created_time: '2014-03-29T17:35:22+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: ايه ده انا ازاي ما شفتش البوست ده. ححاول الاقي وقت احلها أن شاء الله
+    id: '722375871135457'
+  - created_time: '2014-03-29T23:55:47+0000'
+    from:
+      name: Mahmoud Refaat
+      id: '10159882193515635'
+    message: |-
+      The two good tricks in my solutions are:
+      1. the use of dynamic programming to find the winner.
+      2. the use of multithreding to solve questions in parallel, and to check the each player in parallel. This won't be really useful unless you have multiprocessors machine because the operation is CPU pound, but I thought it's a good opportunity to show how easy is it to write multithreaded core in .NET
+
+      https://github.com/mahref/CodeJam/blob/master/BoardSolver.cs
+    id: '722538664452511'
+  - created_time: '2014-03-30T01:52:42+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: https://github.com/bashmohandes/ProjectEuler/blob/master/CodeJam_Practice_Round1A_2010.py
+    id: '722666451106399'
+  - created_time: '2014-03-30T02:43:25+0000'
+    from:
+      name: Mahmoud Refaat
+      id: '10159882193515635'
+    message: Neat :)
+    id: '722682664438111'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekl5TWpFNE5EazBORGcwTlRJNE9qRXpPVFl3T0RreU16ZAz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekl5TmpneU5qWTBORE00TVRFeE9qRXpPVFl4TkRjME1EVT0ZD
+attachments:
+  data:
+  - description: "حفلة الأسبوع \n\nالمسألة من Google Code jam ، بتحكى عن لعبة connect
+      4 بس ليها خاصية زيادة ان الأعمدة مفتوحة بالعرض فلو قلبت البوردة ٩٠ درجة و الجاذبية
+      سحبت الcoins للأرض الترتيب هايتغير و ممكن انت تكسب او زميلك يكسب او انتوا الإتنين
+      او ماحدش يكسب، فبيقولك لو بتلعب مع حد و هاتغش فى اللعبة بانك تدورها قولنا مين
+      هايكسب \nhttps://code.google.com/codejam/contest/544101/dashboard\nالمسألة interesting
+      صراحة و اتمنى ان اننا نشوف حلول creative  ^_^\nHappy Coding Geeks"
+    media:
+      image:
+        height: 540
+        src: https://scontent.xx.fbcdn.net/v/t1.0-0/p180x540/1237835_10152017003332957_1441619223_n.jpg?oh=a3f90023c296942a202c52a6da197a64&oe=5AE61C02
+        width: 720
+    target:
+      id: '10152017003332957'
+      url: https://www.facebook.com/photo.php?fbid=10152017003332957&set=gm.721419281231116&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=10152017003332957&set=gm.721419281231116&type=3

@@ -8,3 +8,108 @@ created_time: '2015-06-25T00:08:09+0000'
 updated_time: '2015-06-25T01:49:59+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/963627703676938/
 id: '172338516139198_963627703676938'
+reactions:
+  data:
+  - id: '10213861471464409'
+    name: Mohamed Shaban
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBek5qYzVOREV3T1RveE5ETTFNakV5T0Rrek9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBek5qYzVOREV3T1RveE5ETTFNakV5T0Rrek9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2015-06-25T00:24:07+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: You should not be using pixels at all.
+    id: '963631167009925'
+  - created_time: '2015-06-25T00:29:49+0000'
+    from:
+      name: Ahmed Syam
+      id: '10216014996153587'
+    message: |-
+      طيب و الحل ؟
+      أستخدم ايه طيب
+    id: '963632630343112'
+  - created_time: '2015-06-25T00:32:09+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: |-
+      Not using pixels is a general guideline for anything Android.
+
+      Regarding your specific problem, you are not giving enough info to work with. For example, what defines this path you draw? Why is there a canvas with the map?
+    id: '963633237009718'
+  - created_time: '2015-06-25T01:39:03+0000'
+    from:
+      name: Ahmed Syam
+      id: '10216014996153587'
+    message: "الموضوع باختصار اني عامل Custom map لمكان\nوبوصل الناس من المكان اللي
+      هما فيه لأي مبني \nانا واخد احداثيات المباني بالـ Pixels علي صورة الخريطة\nو
+      الالجوريزم بيطلعلي ال Path من النقطة اللي الشخص فيها للنقط اللي هيمشي عليها
+      لحد ما يوصل للمبني\n\nانا مفروض عاوز أرسم المسار ده"
+    id: '963652493674459'
+  - created_time: '2015-06-25T01:40:31+0000'
+    from:
+      name: Ahmed Syam
+      id: '10216014996153587'
+    message: |-
+      اللي انا محتاجه ازاي أخلي الرسمة بتاعة الماب عند 0,0 pixel من الشاشة
+      و لو برسم مسار مثلا من نقطة  100,120 لنقطة 210,400 مثلا يكون نفس الـ Scale ده هو Scale الصورة الاصلية
+    id: '963652943674414'
+  - created_time: '2015-06-25T01:42:18+0000'
+    from:
+      name: Ahmed Syam
+      id: '10216014996153587'
+    message: |-
+      الفكرة اني كل ما بحاول أرسم علي حسب حجم الشاشة بلاقي  الـ Scale ده بيختلف
+      فأوقات بلاقي المسار صغير جدا مقارنة بالخريطة
+      او بلاقيه أكبر من الخريطة
+    id: '963653390341036'
+  - created_time: '2015-06-25T01:44:19+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: |-
+      You should not convert coordinates to pixels, stick to LngLat. If you insist, subclass the map control and override the onDraw() function, you should have the control size there and figure out your scaling.
+
+      Scaling here will be really tricky because there are two levels of scale: map scale which relates to how much the map is zoomed in/out, and control scaling which relates to screen size and density.
+
+      Once again, unless you want to draw everything freehand, stay away from pixels and deal with LngLat, or whatever the map is using.
+    id: '963654897007552'
+  - created_time: '2015-06-25T01:46:27+0000'
+    from:
+      name: Ahmed Syam
+      id: '10216014996153587'
+    message: خلاص هبدأ أجرب ان شاء الله
+    id: '963655323674176'
+  - created_time: '2015-06-25T01:46:57+0000'
+    from:
+      name: Ahmed Syam
+      id: '10216014996153587'
+    message: ومتشكر جدا ليك يأ أحمد
+    id: '963655390340836'
+  - created_time: '2015-06-25T01:48:10+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: No problem, I opened the original post and saw something about this being
+      related to a graduation project. If so, then the most sincere piece of advice
+      I can give you is to concentrate on how to get things working. Do not start
+      with "awesome", start with "functional" and then make it "awesome".
+    id: '963655603674148'
+  - created_time: '2015-06-25T01:49:59+0000'
+    from:
+      name: Ahmed Syam
+      id: '10216014996153587'
+    message: |-
+      ده فعلا اللي انا عملته
+      انا بدأت بخريطة فيها 20 node بس و الالجوريزم اشتغل تمام و بكبر الدنيا دلوقت
+      الرسم مش متناسق بنسبة كبيرة فبحاول احسن
+    id: '963656120340763'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFl6TmpNeE1UWTNNREE1T1RJMU9qRTBNelV4T1RFNE5EYz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFl6TmpVMk1USXdNelF3TnpZAek9qRTBNelV4T1RZANU9Uaz0ZD

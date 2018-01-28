@@ -12,3 +12,264 @@ created_time: '2014-09-15T00:36:40+0000'
 updated_time: '2014-09-17T01:46:31+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/814588581914185/
 id: '172338516139198_814588581914185'
+comments:
+  data:
+  - created_time: '2014-09-15T10:09:55+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: The question is, why Java?
+    id: '814758275230549'
+  - created_time: '2014-09-15T10:12:52+0000'
+    from:
+      name: معتز سالم
+      id: '10156042534287154'
+    message: "Well, my team knowledge-based on Java \nCan you suggest any other? And
+      how this going to affect the overall architecture?"
+    id: '814759041897139'
+  - created_time: '2014-09-15T10:15:18+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: Honestly I cannot formulate a good argument about why you shouldn't use
+      Java to build a web application but I know it is not right.  Ahmed Mostafa can
+      you help me with that?
+    id: '814759858563724'
+  - created_time: '2014-09-15T11:10:17+0000'
+    from:
+      name: Mohamed Mostafa Abouzeid
+      id: '10155452467310950'
+    message: |-
+      Typically JSF 2.0, also Java 7 stack provides out of the box REST support and you may use typical JDBC support
+      You may also consider ADF UI & business components (out of the box persistance) for building rapid web applications
+    id: '814776091895434'
+  - created_time: '2014-09-15T11:16:01+0000'
+    from:
+      name: معتز سالم
+      id: '10156042534287154'
+    message: thanks Mohamed Mostafa Abouzeid, but both JSF and ADF follow the same
+      architecture which totally conflicts with the first requirement (single web
+      page application)
+    id: '814777975228579'
+  - created_time: '2014-09-15T12:13:24+0000'
+    from:
+      name: أحمد محمود محمد عبدالوهاب
+      id: '10155226291481186'
+    message: |-
+      Ahmad Alfy Actually the JVM & servlets are epic when it comes to Webservers xD
+      معتز سالم: You can use PLAY! as restful framework (MVC) it uses scala as its core engine but you can still use java anyways xD
+    id: '814796291893414'
+  - created_time: '2014-09-15T12:18:22+0000'
+    from:
+      name: معتز سالم
+      id: '10156042534287154'
+    message: |-
+      Thanks Guys, i am not debating the JVM as i have no doubt it can handle whatever you throw at it.
+      i am just seeking your experience with the requirements i mentioned above.
+      i know PLAY! but again, it conflicts with the first requirement (anyways, if i ended up using PLAY! i would have replaced it with Django)
+    id: '814797558559954'
+  - created_time: '2014-09-15T12:19:50+0000'
+    from:
+      name: أحمد محمود محمد عبدالوهاب
+      id: '10155226291481186'
+    message: |-
+      <3 django <3
+      It has some performance issues as the python interpreter is not as powerful as JVM but python rocks <3
+    id: '814797975226579'
+  - created_time: '2014-09-15T12:21:19+0000'
+    from:
+      name: معتز سالم
+      id: '10156042534287154'
+    message: that is just because python is not getting the same attention as Java,
+      but indeed, Python is the next best thing
+    id: '814798285226548'
+  - created_time: '2014-09-15T13:38:42+0000'
+    from:
+      name: Ahmed Aboshanab
+      id: '1823047314436316'
+    message: |-
+      I would recommend Rails, since you would find a lot of reusable components already made for you, tested by thousands of users and updated daily/weekly for issues (http://rubygems.org). But since your team is already proficient in using Java then I would suggest Play!
+
+      P.S:  I've never seen it in a production environment
+    id: '814822718557438'
+  - created_time: '2014-09-16T22:09:10+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      I've few comments on this discussion. Just trying to make few things clear
+
+      1- All due respect, but most people on this group are not working with the Java tech stack. You will get more & better answers if you ask the EGJUG (https://www.facebook.com/EGJUG)
+
+      2- Python is not the "next" best thing! Python is already mature & popular. Actually it's popularity is starting to decline, slowly replaced by nodejs & go, because of its shortcoming related to real-time web apps
+
+      3- If it's OK for _your team_ to work on django, then this is my suggestion for the tech stack
+      server-side: django
+      restful framework: django-rest-framework
+      DB: Postgres
+      Data access: default django ORM
+      front-end: Angular (sorry Ahmad Alfy)
+      App server: gunicorn
+      Web server: nginx
+      Caching: redis or memcached
+      Scalability/Availability/blah-blah-bility: have the problem first, then solve it!
+    id: '815432305163146'
+  - created_time: '2014-09-16T22:10:02+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Java Frame work for one page website!!!!! Dude what happened to Pure
+      HTML+CSS+JS Frameworks!
+    id: '815432468496463'
+  - created_time: '2014-09-16T22:32:38+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: "^ http://i.imgur.com/uzZMeSB.gif"
+    id: '815439871829056'
+  - created_time: '2014-09-16T22:55:07+0000'
+    from:
+      name: معتز سالم
+      id: '10156042534287154'
+    message: "Thanks guys...\nMohamed tayseer...thanks for your suggestions but I
+      also have my comments... \n\n1-I'm not interested in a full java stack... I
+      just need it to run the restful web services. \nThat is why Angular was my first
+      pick but I wanted to know if you know/recommend something else.\n\n2- I still
+      see Java dominates the server side implementations, with many more varieties,
+      that is why I called Python the next best thing. \n\n3- Python - thus Django
+      - is not an option.\n\n4- blah-blah-bility, you have to think of them during
+      design phase or you will end up with an application that is - for instance -
+      not scalable, those problems do exist from projects' day one.\n\nMohamed Alaa,
+      Java for the server side code, obviously!"
+    id: '815445185161858'
+  - created_time: '2014-09-17T00:11:50+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: |-
+      Why you need Java server side for a one single page app! you are complicating things! Java is Awesome of course but for specific use cases! You can get your restful web services using something very light like Node.JS, Ruby, .NET or even PHP! That's why I don't get you to be honest!
+
+      Java Dominates where is Aplicable when you need a heavy server side Operations or processing. So Don't get a Monster to make a bartender work for example!
+
+      As Mohammad Tayseer Mentioned don't try to solve a problem you don't even have! Never Think of scalability because simply you will not afford it while you are just starting up! Twitter Didn't start Scaling unless they had the need to do it (Remember The Famous Whale Page) I can tell you by experience that scaling infrastructure will cost you at least 5K Dollars a Month **Minimum**
+
+      There is no project that scale in one day! that's absolute bullshit! You keep watching your analytics and measure how people use your application and the business it self will ask you to scale when it's time.
+    id: '815464795159897'
+  - created_time: '2014-09-17T00:26:19+0000'
+    from:
+      name: معتز سالم
+      id: '10156042534287154'
+    message: "Mohamed Alaa, we don't conflict and I agree but please read my words
+      again, I never mentioned that I will start with scaled system but scalable system
+      there is difference. \n\nI hope we are on the same page about what a single
+      page application is (it is not a one and only page rather than Dom manipulation
+      to serve multiple page portions) \n\nThe application is not simple but that
+      makes no difference on the technology you use, what makes difference is the
+      support of the framework, its market share, how the community  reacts to it
+      and the team knowledge.\n\nSo Java is a definite winner for me here."
+    id: '815468715159505'
+  - created_time: '2014-09-17T00:38:01+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: |-
+      - Scalable systems doesn't work without thinking in Infrastructure.
+
+      - I think we are not on the same page, Single one Page App is a Single one Page app. I'm not sure about what kind of app you are trying to make here but even though using java for your backend to consume it on the front end is not the best stack. May be you can share with us what;s the problem you are trying to solve here (Not Technology) and Hopefully we can help you save your time and efforts.
+
+      It's for you to decide which is best for you we are only here trying to give you our experience so it's also up to you to accept it or not. We've made a Spotify like as a single page app and our stack was much much simpler than what you are talking about.
+    id: '815471905159186'
+  - created_time: '2014-09-17T00:53:41+0000'
+    from:
+      name: معتز سالم
+      id: '10156042534287154'
+    message: "Thanks Mohamed,\nI agree again about the scalability, but let's assume
+      that your application writes files on the local disk and you wanted to move
+      the files to a shared directory, writing fixed path in your code will make the
+      application not scalable. So this has to be in mind during design time.\n\nFor
+      the availability, assume that your application uses urls for links instead of
+      uri, that will simply brake the application availability.\n\nI just want to
+      say that you have to keep these stuff in your mind while designing your stack
+      by those two simple example. \n\nWhile I mentioned why is Java is the best fit
+      for me; you didn't mention why you don't recommend it.\n\nLet's return to the
+      simple question, if I wanted to develop a single Web page app, what do you recommend?
+      \n\nThanks again; your responses are much appreciated."
+    id: '815475368492173'
+  - created_time: '2014-09-17T00:57:21+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: |-
+      I'm Sorry what do you mean by: "and you wanted to move the files to a shared directory, writing fixed path in your code will make the application not scalable."?
+
+      Sorry I Also didn't get what do you mean by "assume that your application uses urls for links instead of uri, that will simply brake the application availability."
+
+      Explain these 2 points and I will tell why Java will not be the best option for your App ;)
+    id: '815476265158750'
+  - created_time: '2014-09-17T01:10:02+0000'
+    from:
+      name: معتز سالم
+      id: '10156042534287154'
+    message: "Ok, assume that you started with 50gb of disk space and it simply ran
+      out and you have to allocate a new disk with 100gb of size fixing the disk path
+      in your code will limit your application to 50gb of space, right? So you have
+      to think about the application scalability here and how you gonna act when a
+      resource reaches its cap before starting you app development. \n\nFor the availability,
+      normally you front your application by a Web application in a DMZ area so the
+      real application server is not exposed to the end user, now assume that the
+      application server has the following ip address 10.20.30.40 and you have writen
+      your links like this http://10.20.30.40/testFunction instead of /testFunction
+      (URL vs URI) now the browser will request a page from the Web server and in
+      turn the Web server will ask the application server, now the application server
+      will respond with HTML containing URLs that is unknown to the user network,
+      got the idea? So you have to leave this job for the browser by using URIs (or
+      dynamic URLs )"
+    id: '815479838491726'
+  - created_time: '2014-09-17T01:30:38+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: "Ok, I got what you mean so here goes my answers. \n\n- That's Why Amazon
+      S3 is your best buddy for not worrying about disk space at all! Even thought
+      scaling your hard drive can be done on the infrastructure side and your code
+      doesn't have to do anything here. Normally any good enough hosting provider
+      send you alarms when you are running out of memory or desk space so you can
+      login to your account and upgrade your memory and your disk space.\n\n- URLs
+      vs URIs is a very easy solvable problem, If you have a a router in your application
+      that manage your urls you can tell your router when the user gets /testFunction
+      do whatever action you want to do such as load the home page with and load a
+      specific partial of contents according to your needs!\n\nNow As Promised Why
+      java is not the best option. You Thought of the Technology before thinking what
+      actually makes you finish the task as fast as possible (Which will save money
+      and time for you and your company assuming this project is for your company
+      you are working at).\n\nNow a very simple question How Much would it take you
+      to build your backend and how many person will be participating in this task?
+      I'm also assuming you only need it for Restful APIs so please correct my assumption
+      if i'm wrong."
+    id: '815484445157932'
+  - created_time: '2014-09-17T01:41:31+0000'
+    from:
+      name: معتز سالم
+      id: '10156042534287154'
+    message: "Thanks Mohamed, \nI was just mentioning simple examples, it is not just
+      a matter of alerting or disk expansion it is a matter of your application readiness
+      for both scalability and availability. (you have to configure a router for every
+      single URL, how is that gonna work?) anyways, let's not get into sub discussions.
+      \n\n6 months, 6 devs for restful web services which are the heart and soul of
+      the application."
+    id: '815486571824386'
+  - created_time: '2014-09-17T01:46:31+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: |-
+      Nop, Who said you need to configure a a router for every single url! Let's assume you are trying to make a dropbox ok?
+
+      So you would make a router that process all the urls that has /files/ in the url and this will dispatch an event to your javascript asking for a file that has the url /files/how-to-make-awesome-apps.pdf which you ask for the file availability using your rest API and if the file exist you serve it if not you trigger a 404 handler.
+
+      Have you investigated other technologies that is not Java ? Have you checked Node.JS or even ExpressJS for server side? the learning curve is very slow and the Restful APIs can take up to 2 weeks to be done using 1 Person depending on your needs.
+    id: '815487608490949'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPREUwTnpVNE1qYzFNak13TlRRNU9qRTBNVEEzTnpVM09UVT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPREUxTkRnM05qQTRORGt3T1RRNU9qRTBNVEE1TVRnek9URT0ZD

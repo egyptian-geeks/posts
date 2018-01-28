@@ -14,3 +14,203 @@ created_time: '2015-03-18T17:32:28+0000'
 updated_time: '2015-03-18T21:32:01+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/911373105569065/
 id: '172338516139198_911373105569065'
+reactions:
+  data:
+  - id: '1821918031216201'
+    name: Muhamad Omar
+    type: LIKE
+  - id: '1485663794864432'
+    name: Ahmed Rabie
+    type: LIKE
+  - id: '1550774681686883'
+    name: Eslam Esmaeal
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhPVFF3TmpZAek5ETTJPakUwTWpZAM01ETTRNVGs2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlOak13T1RjMk5Ua3pPakUwTWpZAM01EQTVOemc2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2015-03-18T17:44:44+0000'
+    from:
+      name: Mohamed Atef Abd ElWahab
+      id: '10156191599532048'
+    message: ممكن المشكلة فى الداتابيز نفسها ال Encoding بتاعها مش معمول utf8 .. والله
+      اعلم
+    id: '911380495568326'
+  - created_time: '2015-03-18T17:47:08+0000'
+    from:
+      name: Ahmed Mohsen
+      id: '946433645509687'
+    message: "هو في Encoding علي مستوي ال database كلها ؟ غير ال column ؟ \nزي ما
+      كنت قولت ال Encoding في ال column معمول utf8"
+    id: '911381108901598'
+  - created_time: '2015-03-18T17:48:11+0000'
+    from:
+      name: Mohamed Atef Abd ElWahab
+      id: '10156191599532048'
+    message: معنديش خبرة كبيرة بصراحة .. بس كنت شغال MySql  ونسيت اعمل Encoding لل
+      داتابيز كلها وحصلت معايا المشكلة دى .. فرجعت عملتها
+    id: '911381418901567'
+  - created_time: '2015-03-18T17:50:12+0000'
+    from:
+      name: Muhammad Sabry Abdulwanis
+      id: '10215004393844887'
+    message: في Encoding علي مستوى الـDatabase كلها، وفي Encoding علي مستوى الـDB
+      server، شوف أنت شغال بأى DB ودور بتغير الـEncoding بتاعها إزاى
+    id: '911381965568179'
+  - created_time: '2015-03-18T17:52:33+0000'
+    from:
+      name: Mohamed Hassan Gad-Elrab
+      id: '10213811010243202'
+    message: 1st, how the data are displayed in DB viewer Mysql workbench for example...
+      2nd, make sure that php whatever! reader is set to Utf-8 ..
+    id: '911382535568122'
+  - created_time: '2015-03-18T18:02:32+0000'
+    from:
+      name: Mostafa Kasem
+      id: '2342288709130763'
+    message: استخدم mysql_set_charset وخلي ال Encoding UTF8 ومن الداتا بيز نفسها خليه
+      برضه نفس القصة
+    id: '911386765567699'
+  - created_time: '2015-03-18T18:03:36+0000'
+    from:
+      name: Mohammad Ali
+      id: '931399460358043'
+    message: set names utf8
+    id: '911386982234344'
+  - created_time: '2015-03-18T18:10:32+0000'
+    from:
+      name: Ahmed Rabie
+      id: '1485663794864432'
+    message: Abdu Shahen
+    id: '911389432234099'
+  - created_time: '2015-03-18T18:13:09+0000'
+    from:
+      name: Mohamed Galal
+      id: '10215046906109886'
+    message: ادخل من phpmyadmin ان كانت البيانات عربي وقابلة للقراءة يبقى ترميز الداتابيز
+      نفسها صحيح تشوف ترميز الاتصال نفسة وترميز ملفات php.. ان كانت البيانات مش مقرؤة
+      من phpmyadmin شوف اوامر انشاء الجداول وشوف ترميز الجداول ايه لأنه كده مش utf
+    id: '911390388900670'
+  - created_time: '2015-03-18T18:21:50+0000'
+    from:
+      name: Abdallah Mohamed
+      id: '10213416156112692'
+    message: http://stackoverflow.com/questions/6859018/save-data-in-arabic-in-mysql-database
+      -- Check This
+    id: '911394318900277'
+  - created_time: '2015-03-18T18:38:54+0000'
+    from:
+      name: Ahmed Hassan
+      id: '1928718333823741'
+    message: "انت بتستتخدم HTTP ? \nالبيانات متخزنة بالشكل دا ؟  ØªØ·Ø¨ÙŠÙ‚ Ø´ÙÙˆÙŠ
+      \ \nياريت تحدد التفاصيل دي"
+    id: '911400325566343'
+  - created_time: '2015-03-18T18:51:42+0000'
+    from:
+      name: Ahmed Mohsen
+      id: '946433645509687'
+    message: "Ahmad Hassan بالنسبة لل http ايوه \nو بالنسبة للبيانات ايوه هي متخزنة
+      بالشكل ده و دي المشكلة اصلا اني حتي لو غيرت ال encoding في الوقت الحالي الداتا
+      دي مش هتغيير و انا محتاج ارجعها لاصلها  او اقدر استخدمها لاني مليش اي access
+      علي ال php solution"
+    id: '911404548899254'
+  - created_time: '2015-03-18T19:21:47+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: 'خلينا ناخد المشكلة حتة حتة وركز معايا: لما بتفتح موفع ال php بيطلع بالشكل
+      اللي بتقوله ده، جرب في ال browser بتاعك تغير ال encoding يبقي utf-8 وقولي هيتعرض
+      صح ولا لأ'
+    id: '911415278898181'
+  - created_time: '2015-03-18T19:24:54+0000'
+    from:
+      name: Mohammed Sameer
+      id: '10159851097570371'
+    message: MySQL عنده انكودنج للكونكشن و للداتابيس و للداتا نفسها. اتاكد ان الكونكشن
+      نفسها  utf-8
+    id: '911416288898080'
+  - created_time: '2015-03-18T19:25:00+0000'
+    from:
+      name: Ahmed Mohsen
+      id: '946433645509687'
+    message: |-
+      طيب تاني الموقع المعمول بال php شغال صح و الداتا بتطلع صح "عربي", بس انا مش عارف عنه اي حاجة . نقطة
+      بالنسبة للداتا في الdatabase شكلها كده :  ØªØ·Ø¨ÙŠÙ‚ Ø´ÙÙˆÙŠ  لو محطوطة من ال website
+    id: '911416348898074'
+  - created_time: '2015-03-18T19:38:28+0000'
+    from:
+      name: Mostafa Kasem
+      id: '2342288709130763'
+    message: "بص مشكلتك حلها واحد من دول:\nلو بتستخدم MYSQL   |\n  mysql_set_charset('utf8',$link);
+      \ \nلو MYSQLI   |\nmysqli_set_charset($link,\"utf8\"); \n$link ده المتغير بتاع
+      الكونكت طبعاً \n----------\nاتاكد ان ال  Collation بتاعت الداتا بيز قيمتها زي
+      مافي الصورة\n-----------\nاتاكد من ان الترميز بتاع الفايل نفسه utf8 لو شغال
+      علي Notepad++ هتلاقي فوق في منيو اسمها Encoding لو Sublime text هتلاقي Save
+      with Encoding ، افتح الفايل الي بيعمل insert للداتا واتاكد منه."
+    id: '911420715564304'
+  - created_time: '2015-03-18T20:38:58+0000'
+    from:
+      name: Osama Mohamed
+      id: '2089650217931552'
+    message: |-
+      ^ التعديل دا هيفيد في المدخﻻت الجديدة
+      لكن هو عنده حاجات مخزنة بترميز "غلط" وعاوز يحولها لترميز تاني "صح"
+    id: '911446508895058'
+  - created_time: '2015-03-18T20:55:07+0000'
+    from:
+      name: Mostafa Kasem
+      id: '2342288709130763'
+    message: هو تقريبا بيقول الموجود سليم الي بيدخل جديد هو الي بيدخل  بالشكل ده
+    id: '911451578894551'
+  - created_time: '2015-03-18T21:02:37+0000'
+    from:
+      name: Mohamed Galal
+      id: '10215046906109886'
+    message: على فكره الموضوع حله سهلة جداً وبيحصل كتيرمعانا لما بنشتغل على مشاريع
+      فيها كود قديم .. اما الداتا بيز ترميزها utf8 يكون المشكلة في الاسكربت تتأكد
+      من ان ترميز الملفات utf والـ html فيها meta tag بيقول ان ترميز الموقع utf اضافة
+      الا انك تتأكد من ترميز اتصالك مع الداتابيز عن طريق  SET NAMES 'utf8'  و  SET
+      CHARACTER SET utf8   .. الاحتمال التاني ترميز قاعده البيانات مش utf مثلاً حاجه
+      زي latin1 وقتها طبعاً مفيش طريقة مباشرة لتحويل بيانات باللغة العربية  من ترميز
+      اخر الى utf اي حد يقولك طرق بسيطة غلط هتفقد البيانات .. لازم يكون فيه سكربت
+      يستخرج البيانات من قاعده البيانات القديمة وييحول ترميزها الى utf ويحفظها في
+      داتا بيز جديدة .. ولو البيانات حجمها ضخم جداً الافضل تتخزن االاول في ملفات json
+      او xml وبعدين تعملها insert بشكل تدريجي في قاعده البيانات الجديدة
+    id: '911453585561017'
+  - created_time: '2015-03-18T21:03:22+0000'
+    from:
+      name: Ahmed Mohsen
+      id: '946433645509687'
+    message: لوول , بص هو في حاجتين website و mobile app كل واحد بيدخل الداتا بشكل
+      مختلف و الداتا في ال database بتتسجل بشكل مختلف علي حسب هي جايه منين xD و الاتين
+      بيقروا الداتا اللي حطوها صح , المشكلة مثلا لما المويبل يجي يقرا داتا حاططها
+      ال website
+    id: '911453802227662'
+  - created_time: '2015-03-18T21:05:30+0000'
+    from:
+      name: Ahmed Mohsen
+      id: '946433645509687'
+    message: "^^ انا اكتشفت اه فعلا  latin1  :D"
+    id: '911454295560946'
+  - created_time: '2015-03-18T21:08:26+0000'
+    from:
+      name: Mostafa Kasem
+      id: '2342288709130763'
+    message: اتصلحت كده تمام؟
+    id: '911455152227527'
+  - created_time: '2015-03-18T21:32:01+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: |-
+      Depending on the mysql server, you might need to explicitly announce the encoding.
+      query("SET NAMES utf8")
+
+      There are many things to mess up doing UTF-8 cross-domain though, you would need to give more information if this doesn't work.
+    id: '911463385560037'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEV4TXpnd05EazFOVFk0TXpJMk9qRTBNalkzTURBMk9EUT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEV4TkRZAek16ZAzFOVFl3TURNM09qRTBNalkzTVRRek1qRT0ZD

@@ -13,3 +13,55 @@ created_time: '2014-10-06T02:10:52+0000'
 updated_time: '2014-10-06T02:19:40+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/825089760864067/
 id: '172338516139198_825089760864067'
+comments:
+  data:
+  - created_time: '2014-10-06T02:15:35+0000'
+    from:
+      name: Mahmoud Said
+      id: '10159871545170134'
+    message: |-
+      You can add another has_and_belongs_to_many association independent from the existing one...  You can actually do as many associations as you want between the 2 models
+
+      The default convention will be one..  But you are not limited to that
+    id: '825091140863929'
+  - created_time: '2014-10-06T02:16:23+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: does it make sense ? I feel like it doesn't make sense ?
+    id: '825091424197234'
+  - created_time: '2014-10-06T02:16:59+0000'
+    from:
+      name: Mahmoud Said
+      id: '10159871545170134'
+    message: |-
+      In the "likes"  this is not necessarily HABTM
+
+      It could be user has many likes and posts has many likes (if u want to recording the timing of the action for example)
+    id: '825091640863879'
+  - created_time: '2014-10-06T02:18:49+0000'
+    from:
+      name: Mahmoud Said
+      id: '10159871545170134'
+    message: "It does make sense \n\nThink of a post model that has\nReviewer_id and
+      author_Id\nBoth belong to user.  But capturing different information and meaning"
+    id: '825092080863835'
+  - created_time: '2014-10-06T02:19:21+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: |-
+      Okay then lets roll it up in the oven !!
+
+      Thanks Mahmoud =D
+    id: '825092244197152'
+  - created_time: '2014-10-06T02:19:40+0000'
+    from:
+      name: Mahmoud Said
+      id: '10159871545170134'
+    message: Welcome
+    id: '825092344197142'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPREkxTURreE1UUXdPRFl6T1RJNU9qRTBNVEkxTmpFM016VT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPREkxTURreU16UTBNVGszTVRReU9qRTBNVEkxTmpFNU9EQT0ZD

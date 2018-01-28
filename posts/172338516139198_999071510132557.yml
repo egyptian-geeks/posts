@@ -10,3 +10,39 @@ created_time: '2015-08-30T15:29:40+0000'
 updated_time: '2015-08-30T20:35:11+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/999071510132557/
 id: '172338516139198_999071510132557'
+reactions:
+  data:
+  - id: '1614917008596857'
+    name: Maged Apdelghaney
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlNelUzTWpFd01qUTVPakUwTkRBNU5UUTFOemc2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlNelUzTWpFd01qUTVPakUwTkRBNU5UUTFOemc2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2015-08-30T19:55:21+0000'
+    from:
+      name: Abdelrady Fcis
+      id: '10214861141222529'
+    message: I believe that the error is not in this line, it seems something above
+      or below it
+    id: '999162493456792'
+  - created_time: '2015-08-30T20:20:30+0000'
+    from:
+      name: Ibrahim Amer
+      id: '10214738123343685'
+    message: I don't think so because when I remove FormatApplicationMessage on click
+      call the error is gone
+    id: '999171746789200'
+  - created_time: '2015-08-30T20:35:11+0000'
+    from:
+      name: Abdelrady Fcis
+      id: '10214861141222529'
+    message: Ok what about putting the first parameter in single quotes (the integer
+      one)
+    id: '999176016788773'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVGs1TVRZAeU5Ea3pORFUyTnpreU9qRTBOREE1TmpRMU1qRT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVGs1TVRjMk1ERTJOemc0Tnpjek9qRTBOREE1TmpZANU1URT0ZD

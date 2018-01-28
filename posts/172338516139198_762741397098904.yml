@@ -14,3 +14,94 @@ updated_time: '2014-06-11T19:54:29+0000'
 name: Transactional Email from MailChimp - Mandrill
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/762741397098904/
 id: '172338516139198_762741397098904'
+reactions:
+  data:
+  - id: '10155880569740170'
+    name: Meligy
+    type: LIKE
+  - id: '10215464505030811'
+    name: Hisham El-Sheshtawy
+    type: LIKE
+  - id: '10214818255267156'
+    name: Ahmed A. Ibrahim
+    type: LIKE
+  - id: '10156207737619180'
+    name: Ahmed Al-Amir
+    type: LIKE
+  - id: '10205205301673812'
+    name: Ahmed Shawky
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRRME9ERTFNVFk1T2pFME1ESTFNelEzTkRnNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRJNE16a3hOVGN3TWpveE5EQXlORGszTlRjeE9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2014-06-11T14:37:16+0000'
+    from:
+      name: Ahmed Fathalla
+      id: '10159783218960262'
+    message: I use SendGrid but I don't think they provide the 12K free quota
+    id: '762742190432158'
+  - created_time: '2014-06-11T14:42:47+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: SendGrid allows you up to 200 emails/day for free, but it's not shown
+      clearly on their pricing page :). See the orange button at the bottom. http://sendgrid.com/transactional-email/pricing
+    id: '762744677098576'
+  - created_time: '2014-06-11T14:43:26+0000'
+    from:
+      name: Ahmed Fathalla
+      id: '10159783218960262'
+    message: Yeah but if you have more than 200 users that you want to email concurrently
+      ur screwed.
+    id: '762745027098541'
+  - created_time: '2014-06-11T14:51:55+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: 40K for $9.95 on SendGrid & $5.60 on Mandrill, so Mandrill is cheaper,
+      but I believe both are cheap
+    id: '762749790431398'
+  - created_time: '2014-06-11T19:28:41+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: https://postmarkapp.com/pricing
+    id: '762865973753113'
+  - created_time: '2014-06-11T19:30:34+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: "$0.10 per thousand. http://aws.amazon.com/ses/pricing/"
+    id: '762866673753043'
+  - created_time: '2014-06-11T19:54:29+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: |-
+      Ses is the cheapest of them all, bundle it with sendy and you get a cheaper version of mailchimp in the long run.
+
+      It's worth noting though that mandrill and ses have a ramp up period. In mandrill you're never given the 12k on day one. You have "up" to 12k for free monthly but you need to reach it. They start at a ridiculously low quota until you're rates are good and you're verified as a trusted sender.
+
+      Your email opens vs unread ratio is high, your spam reports ratio is low, email opens vs click through ratio is also calculated.
+    id: '762876193752091'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOell5TnpReU1Ua3dORE15TVRVNE9qRTBNREkwT1RjME16WT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOell5T0RjMk1Ua3pOelV5TURreE9qRTBNREkxTVRZAME5qaz0ZD
+attachments:
+  data:
+  - description: Mandrill is a new way for apps to send transactional email. It runs
+      on the delivery infrastructure that powers MailChimp.
+    media:
+      image:
+        height: 210
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQBxhFo0vs1DTogm&w=720&h=720&url=http%3A%2F%2Fmandrill.com%2Fassets%2Fstatic%2Fmandrill-opengraph.png&cfs=1&_nc_hash=AQB1qEGEU9iXZ8Vi
+        width: 210
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fmandrill.com%2F&h=ATMyDFWFRt7NcmxZMqIQ-2QR0BvigpUxCofoDv9FaNrvsJtFblrEVYDBloTGJMVdqXmEgBahyiTAW4L0rKeF418jIBrhxE7qYB1O&s=1&enc=AZOlJ3LLlc1xmRWjc9FmHKKtcX8QH1YglN0QQJCQAZzwYXOP7aJTzo_qb-a9CG1pvfgdNbWoy9GwJGq6rwBvvrZD
+    title: Transactional Email from MailChimp - Mandrill
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fmandrill.com%2F&h=ATMyDFWFRt7NcmxZMqIQ-2QR0BvigpUxCofoDv9FaNrvsJtFblrEVYDBloTGJMVdqXmEgBahyiTAW4L0rKeF418jIBrhxE7qYB1O&s=1&enc=AZOlJ3LLlc1xmRWjc9FmHKKtcX8QH1YglN0QQJCQAZzwYXOP7aJTzo_qb-a9CG1pvfgdNbWoy9GwJGq6rwBvvrZD

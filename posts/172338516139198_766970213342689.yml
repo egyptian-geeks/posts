@@ -13,3 +13,82 @@ created_time: '2014-06-19T01:18:54+0000'
 updated_time: '2014-06-19T11:51:42+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/766970213342689/
 id: '172338516139198_766970213342689'
+reactions:
+  data:
+  - id: '10155321930231313'
+    name: Ahmed Mozaly
+    type: LIKE
+  - id: '10155855157936047'
+    name: Mosab Ibrahim
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpNNE5EazJNekV5T2pFME1ETXhPREEwTURrNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TnpVMU1ESTJNRFEyT2pFME1ETXhOelV5TURBNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2014-06-19T10:19:17+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: it didn't work for me, i use zsh and added the line to ~/.gitconfig but
+      when i type "git lg" it can't recognize the command, am i missing something.
+    id: '767141379992239'
+  - created_time: '2014-06-19T10:51:04+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: |-
+      Because it shouldn't be thrown out in the wild like this in your .gitconfig, it should be scoped under [alias]
+      Should look like that https://gist.github.com/l0gicpath/7d4f8e9ba803b44a2379
+      Git configuration files are ini files
+
+      Just note that my configurations are different.
+    id: '767151346657909'
+  - created_time: '2014-06-19T10:52:04+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: |-
+      If you want to edit your ~/.gitconfig file manually :
+
+      1. You should add an [alias] section if it is not there already
+
+      2. add the alias in the above command replacing the double quotes surrounding the format with single quotes like this :
+
+      [alias]
+      ____lg = log --graph --full-history --all --color --date=short --pretty=format:'%Cred%x09%h %Creset%ad%Cblue%d %Creset %s %C(bold)(%an)%Creset'
+    id: '767151706657873'
+  - created_time: '2014-06-19T10:53:14+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: 'Note : I only added underscores in the above comment before "lg" (____lg)
+      to indicate indentation. You should replace them with an indentation.'
+    id: '767152276657816'
+  - created_time: '2014-06-19T11:51:42+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: wow, it worked, thanks guys
+    id: '767172026655841'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOelkzTVRReE16YzVPVGt5TWpNNU9qRTBNRE14TnpNeE5UYz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOelkzTVRjeU1ESTJOalUxT0RReE9qRTBNRE14TnpnM01EST0ZD
+attachments:
+  data:
+  - description: "Nice Trick to add to your .gitconfig file\n\nlg = git config --global
+      alias.tree 'log --graph --full-history --all --color --date=short --pretty=format:\"%Cred%x09%h
+      %Creset%ad%Cblue%d %Creset %s %C(bold)(%an)%Creset\"'\n\nThen go to your terminal
+      and run the following: \n$ git lg"
+    media:
+      image:
+        height: 353
+        src: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/10444757_638875026190672_4644330807222061797_n.jpg?oh=85450893f680f29d4fa3bc0f5861d5d5&oe=5AF223E2
+        width: 720
+    target:
+      id: '638875026190672'
+      url: https://www.facebook.com/photo.php?fbid=638875026190672&set=gm.766970213342689&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=638875026190672&set=gm.766970213342689&type=3

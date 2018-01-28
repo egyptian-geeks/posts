@@ -9,3 +9,45 @@ created_time: '2014-06-30T21:31:34+0000'
 updated_time: '2014-06-30T23:17:40+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/774189959287381/
 id: '172338516139198_774189959287381'
+comments:
+  data:
+  - created_time: '2014-06-30T21:35:15+0000'
+    from:
+      name: Abdo Magdy
+      id: '10155273874266167'
+    message: 'See the white logo at the first screen here: http://www.makeit.intel.com/
+      once you scroll down the logo is replaced by a new header. We are doing something
+      similar and wan t to hide/delete the logo once the "header" is triggered.'
+    id: '774190995953944'
+  - created_time: '2014-06-30T21:49:38+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: The header becomes fixed once you scroll to a distance equivalent to
+      the document's height ... That should be easily done with jQuery
+    id: '774196909286686'
+  - created_time: '2014-06-30T21:56:15+0000'
+    from:
+      name: Abdo Magdy
+      id: '10155273874266167'
+    message: Thanks Ahmad, the case is slightly different with us, you can check it
+      from http://egypreneur.com/beta it's not associated with a certain height.
+    id: '774199752619735'
+  - created_time: '2014-06-30T22:02:21+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: This is even simpler ... Just check if the scroll position is > 0 and
+      hide the header image :)
+    id: '774201229286254'
+  - created_time: '2014-06-30T23:17:40+0000'
+    from:
+      name: Mostafa Mohamed
+      id: '774118609449243'
+    message: Your link is no longer working. But you can easily use the Jquery method
+      hide() to hide any element if that is what you need.
+    id: '774223985950645'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemMwTVRrd09UazFPVFV6T1RRME9qRTBNRFF4TmpReE1UVT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemMwTWpJek9UZAzFPVFV3TmpRMU9qRTBNRFF4TnpBeU5qQT0ZD

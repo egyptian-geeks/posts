@@ -10,3 +10,195 @@ updated_time: '2015-08-01T16:10:08+0000'
 name: Ahmed Syam
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/982467058459669/
 id: '172338516139198_982467058459669'
+reactions:
+  data:
+  - id: '1874177109539639'
+    name: Nada A. Muhammad
+    type: LIKE
+  - id: '10155708972265971'
+    name: Usama Nada
+    type: LIKE
+  - id: '10154949886067133'
+    name: Taha Salah
+    type: LIKE
+  - id: '10159926835745593'
+    name: Yehia Shouman
+    type: LIKE
+  - id: '10156358805885288'
+    name: Mahmoud Abd El-Fattah
+    type: LIKE
+  - id: '10156988470019008'
+    name: Mohamed El Abassy
+    type: LIKE
+  - id: '10154897814857303'
+    name: Mohammed Ahmed Fouad El-Touny
+    type: LIKE
+  - id: '10213382124519901'
+    name: Mohamed Oun
+    type: LIKE
+  - id: '10159880265870164'
+    name: Kinan Qassar
+    type: LIKE
+  - id: '10156115350739764'
+    name: Mahmoud Tantawy
+    type: LIKE
+  - id: '10156129652479747'
+    name: Radwa Kamal
+    type: LIKE
+  - id: '10155065357586363'
+    name: Mohammad Ali Diab
+    type: LIKE
+  - id: '1470275583084714'
+    name: Ahmed H. Morsy
+    type: LIKE
+  - id: '10156476353501062'
+    name: Tarik Ibrahim
+    type: LIKE
+  - id: '10155490954528983'
+    name: Mohamed El Sayed
+    type: LIKE
+  - id: '10157203333609498'
+    name: Ahmed Said
+    type: LIKE
+  - id: '791582357696657'
+    name: Hossam Eldien
+    type: LIKE
+  - id: '10154893385496642'
+    name: Mahmoud Sami
+    type: LIKE
+  - id: '1562466440508789'
+    name: Ahmed Tomax
+    type: LIKE
+  - id: '1700979476627162'
+    name: Amir Abou Eesa
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTROREl4TURNeE9USXpPakUwTXpnNE56YzJPRGs2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXhORFV6TnpnNU9EUXhPakUwTXpnek9ESTROakk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2015-07-31T22:44:14+0000'
+    from:
+      name: Abdulrahman Mohamed
+      id: '1666406580084320'
+    message: session & cookies
+    id: '982468061792902'
+  - created_time: '2015-08-01T01:47:32+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: |-
+      As any security system, it is built on Trust, so the application trusts some set of Identity providers (IdP's) these identity providers have a public TLS/SSL Certificate that they expose to the world, and the applications know these certificates.
+      Each time a user tries to log in to the application, the application will redirect the user to an IdP (for example an application may accept Facebook Identity, Google Identity, Twitter ... etc and the user can choose which one to use) and the user then provides his/her credentials to the IdP, and then the IdP will generate a token (which most of the time contains a set of claims) and also signs the Token with the IdP private key which only the IdP has, and redirects the user back to the application with the Token, then the application verifies the Token authenticity and integrity using the Public key that is published in the IdP certificate, which can only work if the token was signed with the corresponding private key, so if a signature check passes, the application Trusts the token, and accept it, and start acting on the information provided in it.
+
+      To help understand the scenario, it is very similar to real world, for example you want to rent a car, the car rental place needs to know who you are, how old are you, whether you can drive or not and where do you live, so you present them your Driver's License, which is issued from a Government agency, that the rental car knows and trust, the Driver License has some watermarks that are hard to fake, and contains all the claims that is needed to complete this transaction,
+    id: '982510575121984'
+  - created_time: '2015-08-01T01:59:10+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: |-
+      Just in case you are wondering why we do this, why can't we just use username/password for each application as we always did.
+      The answer is that security is hard, and your application better do something else that you care about, so delegate the Identity management and authentication problem to some other providers that know more about it, also it helps the users by reusing their identity instead of recreating it every time they need a new service.
+    id: '982514441788264'
+  - created_time: '2015-08-01T02:49:45+0000'
+    from:
+      name: Ahmed Magdy
+      id: '10155638727450376'
+    message: "Mohamed one of the best explanations I've read \U0001F44D"
+    id: '982528808453494'
+  - created_time: '2015-08-01T02:51:13+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: Ahmed happy to help :)
+    id: '982529341786774'
+  - created_time: '2015-08-01T07:00:46+0000'
+    from:
+      name: Rafael Adel
+      id: '10156260406777122'
+    message: Mohamed Elsherif what if that token was hijacked? I think I've read somewhere
+      about Facebook token hijacking
+    id: '982648038441571'
+  - created_time: '2015-08-01T07:09:11+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: It depends on what you mean by Hijacking, if you mean intercepting the
+      traffic and stealing the token, this can be mitigated, by making the whole communication
+      happen over SSL/TLS so the browser always sure that it is speaking to the actual
+      server, or if you mean modifying the token, this is already mitigated by signing
+      the token, because signing usually means calculating a hash of the content using
+      some sort of secure hash technique like HMAC Sha256 which the server can easily
+      detect any modification of content even a single bit of change.
+    id: '982649361774772'
+  - created_time: '2015-08-01T07:10:48+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: And usually in security nothing is a silver bullet, you just keep raising
+      the bar higher and higher which requires more sophisticated and expensive attacks.
+    id: '982649671774741'
+  - created_time: '2015-08-01T10:01:45+0000'
+    from:
+      name: Fady Anwar
+      id: '10159888022555052'
+    message: Of course both techniques without proper encryption would be vulnerable
+      to session hijacking, man in the middle and replay attacks.. but the thing about
+      encryption protocols even like TLS that you can never be sure that they are
+      properly implemented and really secure even it's open source and have all eyes
+      on it, for example the case of heartbleed proven that the world was having a
+      false sense of security which is far more dangerous than total lack of security,
+      it's more like putting all of your important stuff within envelopes marked with
+      big red font "Top Secret" then sending it via the egyptian public postal system
+      feeling secure because you labeled them as top secret!
+    id: '982695005103541'
+  - created_time: '2015-08-01T16:10:08+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: There will never be a perfect security system, and the principal usually
+      when designing security systems is to Assume Breach, and put the right precautions
+      and processes to detect and handle breaches as well as limit their damages,
+      like only using the right amount of privileges to do the job, not too much that
+      in case this actor gets compromised it can be a disaster, having strong passwords
+      and roll them all the time, and using multifactor authentication and doing continuous
+      off site backups, and encrypting data in motion and on rest and many many more
+      techniques that just makes breaching harder and puts enough check points so
+      you can detect and act in case.
+    id: '982821095090932'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVGd5TkRZANE1EWXhOemt5T1RBeU9qRTBNemd6T0RJMk5UUT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVGd5T0RJeE1EazFNRGt3T1RNeU9qRTBNemcwTkRVME1EZAz0ZD
+attachments:
+  data:
+  - subattachments:
+      data:
+      - media:
+          image:
+            height: 720
+            src: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/11729008_392280494316536_7125635881034008873_o.png?oh=0f5265e4b59fab4a7171bafaa3099d6b&oe=5AEE8AE1
+            width: 443
+        target:
+          id: '392280494316536'
+          url: https://www.facebook.com/Ahmedsyam.official/photos/a.281964532014800.1073741828.185094818368439/392280494316536/?type=3
+        type: photo
+        url: https://www.facebook.com/Ahmedsyam.official/photos/a.281964532014800.1073741828.185094818368439/392280494316536/?type=3
+      - media:
+          image:
+            height: 720
+            src: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/11234937_392280487649870_5191912007962485760_o.png?oh=0695ce58807abdbaa94d648ec42809ed&oe=5ADF85EF
+            width: 545
+        target:
+          id: '392280487649870'
+          url: https://www.facebook.com/Ahmedsyam.official/photos/a.281964532014800.1073741828.185094818368439/392280487649870/?type=3
+        type: photo
+        url: https://www.facebook.com/Ahmedsyam.official/photos/a.281964532014800.1073741828.185094818368439/392280487649870/?type=3
+    target:
+      id: '392280560983196'
+      url: https://www.facebook.com/Ahmedsyam.official/posts/392280560983196
+    title: Photos from Ahmed Syam's post
+    type: album
+    url: https://www.facebook.com/Ahmedsyam.official/posts/392280560983196

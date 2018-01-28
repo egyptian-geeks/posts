@@ -10,3 +10,25 @@ created_time: '2014-11-16T17:58:35+0000'
 updated_time: '2014-11-17T15:22:34+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/846996772006699/
 id: '172338516139198_846996772006699'
+comments:
+  data:
+  - created_time: '2014-11-17T15:20:49+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      I think DWG is a closed format, so you'll probably have to reverse-engineer the file format, or check if someone already did that, but even then it might not be legal though.
+      If you could export the files as FBX though then you can easily read it and render it, I think all Autodesk products can export/import FBX, and they made a tool called FBX Converter than can convert 3DS, DXF, DAE and OBJ to FBX.
+    id: '847534025286307'
+  - created_time: '2014-11-17T15:22:34+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: Open Asset Import Library (assimp) seems to support DXF but I didn't
+      test it with that format, so it should allow you to parse DXF files, there is
+      also a .Net wrapper for it :)
+    id: '847534538619589'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFEzTlRNME1ESTFNamcyTXpBM09qRTBNVFl5TXpjMk5Eaz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFEzTlRNME5UTTROakU1TlRnNU9qRTBNVFl5TXpjM05UUT0ZD

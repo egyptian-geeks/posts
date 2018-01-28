@@ -11,3 +11,31 @@ updated_time: '2015-03-26T10:34:11+0000'
 name: "[WIP] Builtin terminal emulation by tarruda · Pull Request #2076 · neovim/neovim"
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/915133048526404/
 id: '172338516139198_915133048526404'
+reactions:
+  data:
+  - id: '10159726802330618'
+    name: Ahmed AbouZaid
+    type: LIKE
+  - id: '10215093583796418'
+    name: Muhammad Negm
+    type: LIKE
+  paging:
+    cursors:
+      before: T0RnMk5qRXdOakUzT2pFME1qYzBPREU1T0RVNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRNek5Ua3dOall4TXpveE5ESTNOREF3TVRNMU9qSTFOREE1TmpFMk1UTT0ZD
+attachments:
+  data:
+  - description: 'This PR uses libvterm(big thanks to @leonerd for that project) to
+      implement a full VT220 terminal emulator using Neovim buffers and windows. It
+      will also refactor the calling of shell commands to use this facility, fixing
+      #1044 #1386 #1...'
+    media:
+      image:
+        height: 400
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAXntTjPOMJf7am&w=400&h=400&url=https%3A%2F%2Favatars2.githubusercontent.com%2Fu%2F842846%3Fv%3D3%26s%3D400&cfs=1&sx=0&sy=0&sw=400&sh=400&_nc_hash=AQDMsMH4hbSTqmvm
+        width: 400
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Fneovim%2Fneovim%2Fpull%2F2076&h=ATMsn3AsUDhWhogGbPiyrIBYsKhL2D1Q05UYujrNFvK7AWis2vhy9bDwKCTUHWcsJ4VlRrPqLyGwQ7UFiXbFxKTPCxt6hKTe2Qyk&s=1&enc=AZPz6UlNOfQb4IUo0yvapi7-NMmz94xGLIF08dZ_6l9PsT8zUB3zYq5p2_DG71POiIxOXwmNAnsfFZVd-yxiwGJO
+    title: "[WIP] Builtin terminal emulation by tarruda · Pull Request #2076 · neovim/neovim"
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Fneovim%2Fneovim%2Fpull%2F2076&h=ATMsn3AsUDhWhogGbPiyrIBYsKhL2D1Q05UYujrNFvK7AWis2vhy9bDwKCTUHWcsJ4VlRrPqLyGwQ7UFiXbFxKTPCxt6hKTe2Qyk&s=1&enc=AZPz6UlNOfQb4IUo0yvapi7-NMmz94xGLIF08dZ_6l9PsT8zUB3zYq5p2_DG71POiIxOXwmNAnsfFZVd-yxiwGJO

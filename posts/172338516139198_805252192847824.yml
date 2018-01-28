@@ -11,3 +11,105 @@ created_time: '2014-08-27T15:15:53+0000'
 updated_time: '2014-08-27T20:28:42+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/805252192847824/
 id: '172338516139198_805252192847824'
+reactions:
+  data:
+  - id: '1818052548266459'
+    name: Samir Ibrahem
+    type: LIKE
+  - id: '1565527460161097'
+    name: Mohamed Emad
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhPRFV4T1RNME5ESXhPakUwTURreE5qRXhNalU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXhNVEUxTnpVek1qWTFPakUwTURreE5UUXlPRFE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2014-08-27T15:20:09+0000'
+    from:
+      name: Omar Sabet
+      id: '10157028049108496'
+    message: AJAX w/ JSON or XML
+    id: '805253152847728'
+  - created_time: '2014-08-27T15:29:26+0000'
+    from:
+      name: Ahmed Kamal
+      id: '10204469829103969'
+    message: just some categories such that each category has about 10 links and users
+      can add links and all the categories are shown to all users and users can search
+      for categories too. So reading and storing data are needed.
+    id: '805256046180772'
+  - created_time: '2014-08-27T15:29:53+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: I did it once using Parse.com
+    id: '805256162847427'
+  - created_time: '2014-08-27T15:39:59+0000'
+    from:
+      name: Ehab El-Masry
+      id: '10156435301616294'
+    message: HTML5 comes with browser based storage, supported by many browsers, I
+      guess with max storage of 4 GB..The new cookies if I can say
+    id: '805259316180445'
+  - created_time: '2014-08-27T15:40:34+0000'
+    from:
+      name: Ahmed Ali
+      id: '2016898865266142'
+    message: |-
+      you can read data without server side code using the XML or any other way  but i doubt if you can add or edit
+       if there is someone knows a way to add and edit without using server side code please correct me
+    id: '805259569513753'
+  - created_time: '2014-08-27T19:58:18+0000'
+    from:
+      name: Ahmed Kamal
+      id: '10204469829103969'
+    message: Amr Eldib Omar Sabet Would it be proper with writing / updating too ?
+    id: '805425699497140'
+  - created_time: '2014-08-27T20:03:15+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: Ahmed Kamal Writing to the server using the client side only is not possible,
+      there has to be some server side script to handle this, which is not available
+      in case of gh pages
+    id: '805427112830332'
+  - created_time: '2014-08-27T20:05:08+0000'
+    from:
+      name: Ahmed Kamal
+      id: '10204469829103969'
+    message: so there is no way to perform writing and updating without using server
+      side code right ?
+    id: '805427572830286'
+  - created_time: '2014-08-27T20:06:11+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: absolutely not
+    id: '805427906163586'
+  - created_time: '2014-08-27T20:08:15+0000'
+    from:
+      name: Dina Amin Gad
+      id: '998097173688349'
+    message: Json, u cant go 2 the server if u r nt doing some asp.net thing for example
+      without the js family
+    id: '805428742830169'
+  - created_time: '2014-08-27T20:21:28+0000'
+    from:
+      name: Ahmed Kamal
+      id: '10204469829103969'
+    message: Thanks a lot for all your answers :)
+    id: '805432412829802'
+  - created_time: '2014-08-27T20:28:42+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: Ahmed Kamal There are some workarounds though, as I mentioned before,
+      we had this problem while creating the group archive, one solution was to use
+      parse.com api to upload data to their flat database and retrieve it as json,
+      both could be done easily from javascript
+    id: '805434059496304'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPREExTWpVek1UVXlPRFEzTnpJNE9qRTBNRGt4TlRJNE1Eaz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPREExTkRNME1EVTVORGsyTXpBME9qRTBNRGt4TnpFek1qST0ZD

@@ -14,3 +14,93 @@ created_time: '2015-01-05T19:07:16+0000'
 updated_time: '2015-01-06T09:53:38+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/875218215851221/
 id: '172338516139198_875218215851221'
+reactions:
+  data:
+  - id: '10159880265870164'
+    name: Kinan Qassar
+    type: LIKE
+  - id: '1163064820496983'
+    name: Ahmed Ayman Aladeeb
+    type: LIKE
+  paging:
+    cursors:
+      before: T0RZAek1UUTFNVFl6T2pFME1qQTFOVE00TVRBNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQXpPREEwTWpjMU5EVXdPakUwTWpBME9EVTBPRGs2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2015-01-05T19:11:09+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: Try to add something that is not specifically language related to the
+      mix, something a bit abstract like Design, Security, Unit Testing, ... etc this
+      can have a good long term effect on your skills.
+    id: '875219445851098'
+  - created_time: '2015-01-05T19:11:30+0000'
+    from:
+      name: Amjad Mashaal
+      id: '10213738834576763'
+    message: |-
+      I'd suggest you stick with web development stuff.
+
+      Check out Ruby (Ruby the language, followed by Ruby on Rails) or NodeJS
+    id: '875219549184421'
+  - created_time: '2015-01-05T19:18:01+0000'
+    from:
+      name: Ahmed Ayman Aladeeb
+      id: '1163064820496983'
+    message: Learn Node.js, it seems like interesting.
+    id: '875221479184228'
+  - created_time: '2015-01-05T19:22:14+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      The below is a guidance, not a plan. Add or remove what you like
+
+      1- General: Design, Cryptograohy/Security, TDD, CI
+      2- DBs: Postgres, Mongo
+      3- Techniques for realtime web (websockets, SSE, sockjs, ...)
+      4- Front-end libs & frameworks (Angular, React, Polymer, SASS, )
+      5- message queues: 0mq, RabbitMQ, ...
+
+      then, you can get into nodejs, django, rails, or golang
+    id: '875222999184076'
+  - created_time: '2015-01-05T19:23:45+0000'
+    from:
+      name: Ahmed Ayman Aladeeb
+      id: '1163064820496983'
+    message: I agree with the previous comment ^
+    id: '875223505850692'
+  - created_time: '2015-01-05T19:30:29+0000'
+    from:
+      name: Ahmed G. Elhalwagy
+      id: '10156125283698615'
+    message: Or maybe Data Science .. R is fun (statistical probability is even more
+      fun). Plus there is a specialized track on coursera .. for free.
+    id: '875225735850469'
+  - created_time: '2015-01-05T19:32:34+0000'
+    from:
+      name: Peter Yanni
+      id: '10156055962709183'
+    message: Try to earn some money with what you already have learned.
+    id: '875226399183736'
+  - created_time: '2015-01-05T20:11:55+0000'
+    from:
+      name: Adham EL-Deeb
+      id: '1748637668514027'
+    message: 2. Ruby on Rails
+    id: '875240135849029'
+  - created_time: '2015-01-06T09:53:38+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: |-
+      +1 for django i'm playing with it the last days and loved it. try flask too if you're willing to go with python.
+      try to get dirty hands with some big data and try hadoob and elasticsearch (btw i'm a big fan with elasticsearch it save alot  of time spend on search optimization you can try elastica for php).
+      try to get some badges on hackerranck and some fame on stackoverflow (da lw fdelak wa2t tany b3d kol dah :D).
+    id: '875751812464528'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGMxTWpFNU5EUTFPRFV4TURrNE9qRTBNakEwT0RVd05qaz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGMxTnpVeE9ERXlORFkwTlRJNE9qRTBNakExTXpnd01UZAz0ZD

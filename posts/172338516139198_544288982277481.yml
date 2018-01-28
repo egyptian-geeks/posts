@@ -9,3 +9,114 @@ created_time: '2013-03-21T00:58:51+0000'
 updated_time: '2013-03-23T06:31:43+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/544288982277481/
 id: '172338516139198_544288982277481'
+comments:
+  data:
+  - created_time: '2013-03-21T01:14:22+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: What do you mean on Client side? From the customer side you mean?? or
+      client code side?
+    id: '544292435610469'
+  - created_time: '2013-03-21T01:34:40+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: ممكن ترسم ال Html في لامؤاخذه canvas  وبعدين تاخد صوره منه. أنا ما جربتهاش
+      قبل كدا إنما أكيد فيها صعوبات، الأحسن والأسهل تكون سيرفر-سايد.
+    id: '544297975609915'
+  - created_time: '2013-03-21T01:38:41+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: شوف دي http://html2canvas.hertzen.com/#/ شو
+    id: '544298832276496'
+  - created_time: '2013-03-21T03:40:16+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: 'ok drawing html in canvas is not possible. #html2canvas has a lot of
+      issues in rendering fonts. what i want to do is I have an iFrame and inside
+      a page and i would like to take a screenshot only for this iframe :S I''m open
+      to use java, Flex or Flash :S'
+    id: '544335995606113'
+  - created_time: '2013-03-21T04:26:32+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: all 3rd party services that you can imagine ALL SUCKS :D that;s why i
+      wanna do it client-side
+    id: '544349965604716'
+  - created_time: '2013-03-21T04:59:59+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Mahmoud Abd El-Fattah  As the most Expert person i have ever seen in
+      Flash :) can I load an iFrame inside a SWF? and can i take a screenshot for
+      part of the page using Flash ?
+    id: '544354862270893'
+  - created_time: '2013-03-21T05:34:47+0000'
+    from:
+      name: Mohammed El Sayed
+      id: '10155880598025170'
+    message: 'Check out this link: http://stackoverflow.com/questions/2568271/how-to-get-screen-shot-screen-capture-from-web-user-on-mvc-site'
+    id: '544360032270376'
+  - created_time: '2013-03-21T05:39:19+0000'
+    from:
+      name: Mohammed El Sayed
+      id: '10155880598025170'
+    message: |-
+      and as Moutaz Shams has mentioned, this is something describing how to do so via Canvas drawing, I'my sharing it because the user said it works!
+      http://stackoverflow.com/questions/923885/capture-html-canvas-as-gif-jpg-png-pdf
+    id: '544360765603636'
+  - created_time: '2013-03-21T06:55:26+0000'
+    from:
+      name: Mahmoud Abd El-Fattah
+      id: '10156358805885288'
+    message: 'Mohamed Alaa: lel asaf la2 ya basha ... el kalam dah yenfa3 fe adobe
+      AIR bas :('
+    id: '544373758935670'
+  - created_time: '2013-03-21T06:56:57+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: so only Desktop only ? :S
+    id: '544373988935647'
+  - created_time: '2013-03-21T07:04:43+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: "Mohamed El Sayed the Canvas only work if you have your html online normal.
+      in my case i'm loading a scaled iframe and i want to generate a screenshot from
+      this iFrame. \n\nI tried most of the services that exist and so far the best
+      wa url2png but they have a HUGEEE delay in their API response other services
+      cause issues with fonts rendering.\n\nJS Solutions like PhantomJS failed big
+      time. I also tried Flash and Flex. My only solution now is to use Java. I think
+      this is the only way left.\n\nIt's really amazing how all the screenshots services
+      SUCKS and they are so fuckin Expensive and the cheap ones give you a very small
+      API calls per day.\n\nThe problem in my case is that the iFrame contents change
+      every time you refresh the page so i can't use a service and cache the screenshot
+      image :S and i can't load too many iframes on the same page because it will
+      cause memory leaks in browser and my target browsers are (IE9+, Chrome latest
+      and FF Latest)."
+    id: '544375285602184'
+  - created_time: '2013-03-21T08:01:26+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: Did you try loading the iframe in a SVG foreignObject then using the
+      SVG as an image and draw it on a canvas then take a photo of the canvas? But
+      anyway why don't you make your own server-side solution? it will be very much
+      easier that all this
+    id: '544383448934701'
+  - created_time: '2013-03-23T06:31:43+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: ok so the conclusion of this experiment is that there is no way to achieve
+      what i wanted.
+    id: '545211418851904'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOVFEwTWpreU5ETTFOakV3TkRZANU9qRXpOak00TWpnME5qST0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOVFExTWpFeE5ERTRPRFV4T1RBME9qRXpOalF3TWpBek1ETT0ZD

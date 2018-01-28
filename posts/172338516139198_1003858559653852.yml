@@ -11,3 +11,35 @@ updated_time: '2015-09-09T19:20:55+0000'
 name: what is the suitable number of nodes in elasticsearch cluster
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1003858559653852/
 id: '172338516139198_1003858559653852'
+comments:
+  data:
+  - created_time: '2015-09-09T19:20:55+0000'
+    from:
+      name: Mohammed Al Ashaal
+      id: '965203406986813'
+    message: |-
+      this is a repeated question in elasticsearch world,
+      i'll suggest you to start with the minimal requirements and then when your app grows, just use '_aliases' api
+      > new index will point to another index > point to another index ...
+      ---
+      https://www.elastic.co/guide/en/elasticsearch/reference/current/indices-aliases.html
+    id: '1004075492965492'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF3TkRBM05UUTVNamsyTlRRNU1qb3hORFF4T0RJMk5EVTEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF3TkRBM05UUTVNamsyTlRRNU1qb3hORFF4T0RJMk5EVTEZD
+attachments:
+  data:
+  - description: 'If I configured my elasticsearch cluster with the following configuration,
+      and I have to create about 10 indexes, what will be the suitable number of nodes
+      I need ? index.number_of_shards: 7'
+    media:
+      image:
+        height: 316
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAgI-ZAZZIE993Q&w=720&h=720&url=http%3A%2F%2Fcdn.sstatic.net%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3Dea71a5211a91%26a&cfs=1&_nc_hash=AQCR3o9tiXlp2ihi
+        width: 316
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F32477018%2Fwhat-is-the-suitable-number-of-nodes-in-elasticsearch-cluster&h=ATN_-jBuez7ltSIwdv3nuayQRTl2ZG4XmS4rOn-7if3IrO0-wIipUfOTVHWHpie6fX34CVJ1oXGi4kQ9SvHqPd7W8NcM9qBa5qQ_&s=1&enc=AZOFnDB7A0WmLq-6OOGVJqPbcrqY-0p7mZcQOh8hDnzsdc4tgdw4ImQbRlkjDlZsz8_WgtcwNITTTvCw8UQS7EwU
+    title: what is the suitable number of nodes in elasticsearch cluster
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F32477018%2Fwhat-is-the-suitable-number-of-nodes-in-elasticsearch-cluster&h=ATN_-jBuez7ltSIwdv3nuayQRTl2ZG4XmS4rOn-7if3IrO0-wIipUfOTVHWHpie6fX34CVJ1oXGi4kQ9SvHqPd7W8NcM9qBa5qQ_&s=1&enc=AZOFnDB7A0WmLq-6OOGVJqPbcrqY-0p7mZcQOh8hDnzsdc4tgdw4ImQbRlkjDlZsz8_WgtcwNITTTvCw8UQS7EwU

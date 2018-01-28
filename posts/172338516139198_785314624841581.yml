@@ -11,3 +11,92 @@ created_time: '2014-07-18T11:43:18+0000'
 updated_time: '2014-07-19T13:40:24+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/785314624841581/
 id: '172338516139198_785314624841581'
+reactions:
+  data:
+  - id: '10156072243168535'
+    name: Mohamed Hassan
+    type: LIKE
+  - id: '10155945694126276'
+    name: Ahmad Gamaleldin Hassanein
+    type: LIKE
+  - id: '10157028049108496'
+    name: Omar Sabet
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRjMU1UY3pOVE0wT2pFME1EVTVPRFUwTnpZANk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRBeU9UVTRORGsxT2pFME1EVTJPRFF6TkRRNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2014-07-18T12:02:12+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: Let me tag the expert Mahmoud Mahfouz Zaza
+    id: '785319344841109'
+  - created_time: '2014-07-18T13:41:55+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: https://gist.github.com/lancejpollard/1398757
+    id: '785346798171697'
+  - created_time: '2014-07-18T13:43:11+0000'
+    from:
+      name: Muhammad Saleh
+      id: '10156649659196002'
+    message: NICE - Thanks a lot !!!!
+    id: '785347148171662'
+  - created_time: '2014-07-18T15:34:28+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: Try to follow mean.io stack
+    id: '785445151495195'
+  - created_time: '2014-07-19T00:16:47+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: I'm surprised none of these used folder per feature / submodule
+    id: '785631904809853'
+  - created_time: '2014-07-19T00:19:45+0000'
+    from:
+      name: Muhammad Saleh
+      id: '10156649659196002'
+    message: If you have a recommendation I will be grateful :) an article or anything
+    id: '785632588143118'
+  - created_time: '2014-07-19T00:36:16+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Judging by quick googling, it seems that structuring by feature is not
+      popular or conventional in node. https://github.com/madhums/node-express-mongoose-demo/
+      http://stackoverflow.com/questions/5778245/expressjs-how-to-structure-an-application
+    id: '785637124809331'
+  - created_time: '2014-07-19T00:39:07+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: I like what John Papa did with the client side of it, and also like when
+      node apps are split into `client` and `server` top-level folders http://www.johnpapa.net/angular-app-structuring-guidelines/
+    id: '785638108142566'
+  - created_time: '2014-07-19T13:40:24+0000'
+    from:
+      name: Muhammad Saleh
+      id: '10156649659196002'
+    message: |-
+      I like the LIFT idea..
+      So I think it will be
+      Client > Client Side (Replaces the public folder)
+      Server > Server Side
+
+      Server:
+      App > (M/V/C)
+      Config
+      Server.js
+
+      This looks great to me
+    id: '785835028122874'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemcxTXpFNU16UTBPRFF4TVRBNU9qRTBNRFUyT0RRNU16ST0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemcxT0RNMU1ESTRNVEl5T0RjME9qRTBNRFUzTnpjeU1qUT0ZD

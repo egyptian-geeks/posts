@@ -11,3 +11,44 @@ created_time: '2015-01-30T20:19:01+0000'
 updated_time: '2015-01-30T23:40:36+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/888397844533258/
 id: '172338516139198_888397844533258'
+comments:
+  data:
+  - created_time: '2015-01-30T20:45:08+0000'
+    from:
+      name: Moustafa Abdelaziz
+      id: '10156095976664136'
+    message: |-
+      Well, I'm not sure if I know something that can do this for you .. but why not using PHP (PDO) since that it has a unified database API and it is easy to switch from a database driver to another ?!
+
+      I hope that this reply was of help to you :)
+    id: '888405754532467'
+  - created_time: '2015-01-30T22:16:49+0000'
+    from:
+      name: Khaled Ramadan
+      id: '10157199016384478'
+    message: |-
+      thnx for your reply, but i think there is something that i missed to say :)
+      I am a Microsoft Developer and don't know PHP :(
+    id: '888437527862623'
+  - created_time: '2015-01-30T22:22:25+0000'
+    from:
+      name: Ahmed Sadek Mohamed Tawfik
+      id: '10155056867911922'
+    message: khaled .. AFAIK, sqlite uses a standard sql 92 statements .. so actually
+      you don't need to convert anything !!!
+    id: '888439077862468'
+  - created_time: '2015-01-30T22:26:10+0000'
+    from:
+      name: Khaled Ramadan
+      id: '10157199016384478'
+    message: |-
+      something like
+      INSERT OR IGNORE INTO
+      or like
+      INSERT OR REPLACE INTO
+      i don't know what is the equivalent in SQL
+    id: '888439777862398'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGc0TkRBMU56VTBOVE15TkRZAM09qRTBNakkyTlRBM01EZAz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGc0TkRNNU56YzNPRFl5TXprNE9qRTBNakkyTlRZAM056QT0ZD

@@ -11,3 +11,79 @@ updated_time: '2014-12-15T15:49:01+0000'
 name: Overv/vramfs
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/861012867271756/
 id: '172338516139198_861012867271756'
+reactions:
+  data:
+  - id: '10156020325916241'
+    name: Musa Hamza
+    type: LIKE
+  - id: '10154988356050583'
+    name: Ali Helmy
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpReU5qYzJNalF3T2pFME1UZAzNOREU0TXpNNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRFeU5UZAzFOVGd5T2pFME1UZAzFPRFV3T0RFNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2014-12-14T21:14:30+0000'
+    from:
+      name: Diaa Sami
+      id: '10215834435679186'
+    message: Finally, I can put my swap file on an encrypted file system that lives
+      on the graphics card :P
+    id: '861080257265017'
+  - created_time: '2014-12-14T21:19:01+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: Yeah, finally a solution to an everyday real life scenario :D
+    id: '861081457264897'
+  - created_time: '2014-12-15T11:55:07+0000'
+    from:
+      name: Khaled M. Diab
+      id: '10215626626127168'
+    message: "I went through its code quickly; I wouldn't use this in a real application
+      or performance-critical ones for reasons:\n- it uses one context for each GPU
+      device. this means that multiple processes can read/write unauthorized data
+      from/to GPU memory. a quick solution is implementing a software memory management
+      unit (MMU), however, this would just decrease the read/write performance.\n-
+      this is a user-space library, for example: it uses the command queue in opencl
+      and C++ to manage read/write workloads. these operations can be enhanced using
+      kernel-space modules.\n- by design, it should be slow as noted from the developer
+      description. it is not thread safe, so it uses mutexes in reads/writes. I believe
+      that the performance will drop in concurrent read/writes ..\n\nFor example,
+      the tested GPU card would give you >200 GB/sec memory bandwidth, however, the
+      achieved bandwidth is about 2 GB/sec which is 100X slower! \nWhen we write code
+      that reads/writes to RAM, we expect a transfer rate of 5-10 GB/s (more or less
+      based on the used RAM), one simply wouldn't provision for this large decrease
+      in the transfer rate resulted from poor implementation of this library, especially
+      with the comparison of RAM price vs GPU price. \nHowever, I think this is a
+      good effort, and better implementation(s) will make it an interesting library
+      to use or investigate. Also, it will be interesting to implement this in distributed
+      setups."
+    id: '861426853897024'
+  - created_time: '2014-12-15T15:49:01+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: I like it that you have been through the code, but it says right there
+      in the intro that it is for fun and not intended for production environments
+      :)
+    id: '861604697212573'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFl4TURnd01qVTNNalkxTURFM09qRTBNVGcxT1RFMk56QT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFl4TmpBME5qazNNakV5TlRjek9qRTBNVGcyTlRnMU5ERT0ZD
+attachments:
+  data:
+  - description: vramfs - VRAM based file system for Linux
+    media:
+      image:
+        height: 400
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAffISVTT93t9dY&w=400&h=400&url=https%3A%2F%2Favatars2.githubusercontent.com%2Fu%2F285063%3Fv%3D3%26s%3D400&cfs=1&sx=0&sy=0&sw=400&sh=400&_nc_hash=AQDtWJwok72fYqnq
+        width: 400
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2FOverv%2Fvramfs&h=ATMpyR58aWcLFiZ98zae3RxyGS8TdrYh-nY0xyVFV1ElHpUJ5MBphHyBti0JsYzqzfOa9CPqHG-qx4E56-QcJxfb4rq4jMfDeZz3&s=1&enc=AZMpaAnEiD2A3wRInn33kIrFZ6zy6Eu5oWcZrsQaxbn5-Rniu8wxzIZ3Ehn2Tp9CzdcBUiCWM-OCBAu8sJ9ARRhb
+    title: Overv/vramfs
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2FOverv%2Fvramfs&h=ATMpyR58aWcLFiZ98zae3RxyGS8TdrYh-nY0xyVFV1ElHpUJ5MBphHyBti0JsYzqzfOa9CPqHG-qx4E56-QcJxfb4rq4jMfDeZz3&s=1&enc=AZMpaAnEiD2A3wRInn33kIrFZ6zy6Eu5oWcZrsQaxbn5-Rniu8wxzIZ3Ehn2Tp9CzdcBUiCWM-OCBAu8sJ9ARRhb

@@ -11,3 +11,86 @@ created_time: '2015-06-04T09:05:21+0000'
 updated_time: '2015-06-05T15:33:46+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/953993757973666/
 id: '172338516139198_953993757973666'
+reactions:
+  data:
+  - id: '1763959737010749'
+    name: Ahmed Mahmoud
+    type: LIKE
+  - id: '1964610676912528'
+    name: Menem Elkatan
+    type: LIKE
+  - id: '10156940538048906'
+    name: Fikry Samy Yussef
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhPVEF5TVRrM05Ea3lPakUwTXpNME5EWXlPREk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TmpZAMU5EQXpPVEExT2pFME16TTBNRGc0TmprNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2015-06-04T09:26:43+0000'
+    from:
+      name: Hassan Ragab
+      id: '10155170380276027'
+    message: Umbraco or Orchard
+    id: '954003351306040'
+  - created_time: '2015-06-04T09:27:06+0000'
+    from:
+      name: Mohamed Badr
+      id: '10156868932277814'
+    message: http://www.codeproject.com/Articles/717523/Top-NET-Based-CMS-Content-Management-System
+    id: '954003417972700'
+  - created_time: '2015-06-04T12:58:46+0000'
+    from:
+      name: Ahmed Tawfiq
+      id: '2224653207761636'
+    message: If I said ".Net CMS" from cmsaspnet.com would it be a bad answer? :)
+    id: '954057434633965'
+  - created_time: '2015-06-04T15:45:58+0000'
+    from:
+      name: Ahmed Samir
+      id: '10213461163996393'
+    message: |-
+      i tried both and dotnetnuke is very limited and orchard is promise one .
+      http://stackoverflow.com/questions/16313497/dotnetnuke-umbraco-or-orchard
+      http://vschart.com/compare/orchard-project/vs/dotnetnuke
+      http://w3techs.com/technologies/comparison/cm-dotnetnuke,cm-orchard
+    id: '954154671290908'
+  - created_time: '2015-06-05T07:56:08+0000'
+    from:
+      name: Ahmed Refaey
+      id: '1808892215797147'
+    message: SiteCore awesome
+    id: '954487854590923'
+  - created_time: '2015-06-05T14:27:48+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Umbraco (and other similar products) work on Freemium model and are really
+      meant to be purchased. DotNetNuke is very old and bad investment IMHO (I did
+      very little work on it in 2012 on legacy app and really hated it). Your only
+      option is Orchard.
+    id: '954581957914846'
+  - created_time: '2015-06-05T14:34:57+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: If you consider removing the "Free" criteria, Umbraco seems to be the
+      preferred CMS for design agencies that have to work with a .NET CMS. If you
+      stick to free and you want a .NET CMS just because you are a .NET guy and YAGNI
+      (You Aint Gonna Need It) to actual CMS programming, get a proper CMS (the best
+      ones are in PHP), and that might just be WordPress.
+    id: '954583851247990'
+  - created_time: '2015-06-05T15:33:46+0000'
+    from:
+      name: Emad Mokhtar Habib
+      id: '10159905066535634'
+    message: Orchard is good and has built-in workflow, but the lack of documentation
+      and contributions is one of its cons. You can find many outdated plugins and
+      all developers request another developer to update the plugin, and this is an
+      issue in .NET community.
+    id: '954603714579337'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFUwTURBek16VXhNekEyTURRd09qRTBNek0wTVRBd01ETT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFUwTmpBek56RTBOVGM1TXpNM09qRTBNek0xTVRnME1qWT0ZD

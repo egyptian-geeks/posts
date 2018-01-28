@@ -11,3 +11,51 @@ updated_time: '2015-07-05T21:46:41+0000'
 name: In managed code we trust, our recent battles with the .NET Garbage Collector
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/968483023191406/
 id: '172338516139198_968483023191406'
+reactions:
+  data:
+  - id: '10155469719432326'
+    name: Mohamed Mansour
+    type: LIKE
+  - id: '10156089336182292'
+    name: Hassan Aly Selim
+    type: LIKE
+  - id: '10214861141222529'
+    name: Abdelrady Fcis
+    type: LIKE
+  - id: '10213861471464409'
+    name: Mohamed Shaban
+    type: LIKE
+  - id: '10156358805885288'
+    name: Mahmoud Abd El-Fattah
+    type: LIKE
+  paging:
+    cursors:
+      before: TnpJek5UUXlNekkxT2pFME16WXhNelV5TnpVNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRFNU1UazFNamczT2pFME16WXhNREk1T0RFNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2015-07-05T21:46:41+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      I like these kinds of deep dives into .Net :)
+      I once went on to explore how exactly the GC deals with delegates (specially lambdas), I made a bunch of tests to see when exactly things get disposed in various cases, it was exciting :)
+    id: '968646953175013'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFk0TmpRMk9UVXpNVGMxTURFek9qRTBNell4TXpJNE1ERT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFk0TmpRMk9UVXpNVGMxTURFek9qRTBNell4TXpJNE1ERT0ZD
+attachments:
+  data:
+  - description: Sam's Spot - Sam saffron's web log
+    media:
+      image:
+        height: 275
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQBGhtNaw8T0IIk-&w=720&h=720&url=http%3A%2F%2Fdiscuss.samsaffron.com%2Fuploads%2Fdefault%2F_optimized%2F670%2Fb93%2F47cce078a6_690x275.png&cfs=1&_nc_hash=AQAB-XZG9kTDEiAC
+        width: 275
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fsamsaffron.com%2Farchive%2F2011%2F10%2F28%2Fin-managed-code-we-trust-our-recent-battles-with-the-net-garbage-collector&h=ATNj7e0LQ_SAO0sFIyOxJ8jbvgv8c7F_o9KGKxm8C8jyw7bxViNVdF8i4f3z5qN-A3enHLEfsA15GsE8qgIsppBK_ewlGxoVesxX&s=1&enc=AZMox9cfsCwUbJdNv5Gs2xUXLtPsLPxAjdtocCbT_7aoM5hD2g8yTovqkSx3MhjsA2gTsxZzBEecGbxxnsUSHE6I
+    title: In managed code we trust, our recent battles with the .NET Garbage Collector
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fsamsaffron.com%2Farchive%2F2011%2F10%2F28%2Fin-managed-code-we-trust-our-recent-battles-with-the-net-garbage-collector&h=ATNj7e0LQ_SAO0sFIyOxJ8jbvgv8c7F_o9KGKxm8C8jyw7bxViNVdF8i4f3z5qN-A3enHLEfsA15GsE8qgIsppBK_ewlGxoVesxX&s=1&enc=AZMox9cfsCwUbJdNv5Gs2xUXLtPsLPxAjdtocCbT_7aoM5hD2g8yTovqkSx3MhjsA2gTsxZzBEecGbxxnsUSHE6I

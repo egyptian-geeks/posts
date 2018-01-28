@@ -21,3 +21,173 @@ created_time: '2015-01-30T02:40:58+0000'
 updated_time: '2015-01-30T18:38:22+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/888097484563294/
 id: '172338516139198_888097484563294'
+reactions:
+  data:
+  - id: '10156284492809497'
+    name: Ahmed Hassan
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpnM01qUTBORGsyT2pFME1qSTJNVEUxTWpZANk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TmpnM01qUTBORGsyT2pFME1qSTJNVEUxTWpZANk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2015-01-30T02:54:34+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: |-
+      running LMDE for 3 years,arch for 2 years, Ubuntu for 3 years
+      and I love it,I never liked the idea of vms.
+
+      if you want to isolate your work from your computer use crashbang and use vagrent for development on it.
+    id: '888101091229600'
+  - created_time: '2015-01-30T02:59:10+0000'
+    from:
+      name: Ahmed Sadek Mohamed Tawfik
+      id: '10155056867911922'
+    message: I used vmware to install ubuntu on external hard drive (talking about
+      windows here) .. after that I booted from this drive into ubuntu natively ..
+      so I guess I have the two options ready .. the annoying thing is that the hard
+      drive is an external drive, and I kick the usb cable frequently :)
+    id: '888102167896159'
+  - created_time: '2015-01-30T03:01:07+0000'
+    from:
+      name: Ahmed AbouZaid
+      id: '10159726802330618'
+    message: |-
+      Anybody else cannot find the problem here? :D
+      It's depends on how long you will use CB? It's not big deal to install any distro when you decided to move from one to other. So what's previous distro? Ubuntu? Fedora? I think you will not find any problem when you go with CB.
+
+      IMHO, VMs stay VMs, so go with full OS, and may you like to use the same /home with multi distros.
+    id: '888102511229458'
+  - created_time: '2015-01-30T03:06:57+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: '@ Ahmed M. AbouZaid There is no "problem", just making the decision.
+      A compact VM I can take anywhere, or a primary OS? Primary OS is Ubuntu.'
+    id: '888104121229297'
+  - created_time: '2015-01-30T03:11:38+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: 'Muhammad Negm The problem now is I spend so much time in the #! VM that
+      I no longer feel at home on my primary OS, except when I need to get to it to
+      run the windows 7 VM  for work. I was thinking if #! is primary, it will always
+      be there and I can run Win7 fro work. But being Native install means I loose
+      the portabilty. Vagrant seems like a great idea though, I obviously need to
+      look more into it.'
+    id: '888105254562517'
+  - created_time: '2015-01-30T03:17:52+0000'
+    from:
+      name: Ahmed AbouZaid
+      id: '10159726802330618'
+    message: |-
+      Aha, I see :D
+      Ok, If I won't go anywhere (Should I? :DD) and I have sufficient space on my disk, I will install CB alongside Ubuntu, and leave Ubuntu as it. I'm not fan of VMs for daily use at all :‑)
+    id: '888106847895691'
+  - created_time: '2015-01-30T03:43:50+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: 'Ahmed M. AbouZaid But Dual boot seems like a waste of HD space and you
+      always have on unusable partition. Why not a VM daily? If I can give it 8 -10
+      GB RAM or even more, and it only uses 2 GB full load anyway? And with an SSD
+      and #! resource handling I feel absolutely no difference, actually #! VM is
+      faster cause it is just a Window manager and no eyecandy. I browse the web,
+      write code.  Email is a web client. I play games on host OS, Ubuntu and basically
+      Open Arena only. I am also interested in EMACS and if you know that is a bother
+      to configure, you basically need an PHD. So after I get everything up to scratch
+      and stable, if the HD dies or I want to move to another device for any reason,
+      I just copy a VM file. The VM is already maximum resolution.  The only issue
+      is if I wanna set it up to program cuda cores.'
+    id: '888113521228357'
+  - created_time: '2015-01-30T03:45:35+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: ok, let me clarify. VM + Portability or Primary OS + (?) the ? is my
+      question. What do I gain from making it primary? I only think I will lose portability.
+      Get where I am going?
+    id: '888113934561649'
+  - created_time: '2015-01-30T03:46:07+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: The only big files I have are VMs
+    id: '888114034561639'
+  - created_time: '2015-01-30T03:57:59+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Muhammad Negm Allah yesam7ak, I a, now obsessing with Vagrant :)
+    id: '888116961228013'
+  - created_time: '2015-01-30T08:39:24+0000'
+    from:
+      name: Omar Ibrahim
+      id: '10116066877056474'
+    message: "\"The problem now is I spend so much time in the #! VM that I no longer
+      feel at home on my primary OS \"... so your OCD is pushing you to do something
+      about the 3 minutes you boot, login, then boot the VM, and the other 30 seconds
+      you close VM, shutdown computer? \n\nIf so, have you considered looking for
+      ways to boot directly from the VM. One way is to place it on an external drive/usb
+      \ http://www.howtogeek.com/97923/how-to-boot-a-vmware-virtual-machine-from-a-usb-drive/
+      . I have seen people do this using VMware Server, but that would be an overkill
+      in your case.\n\nAnother silly suggestion would be to setup a windows user that
+      loads the VM on startup, and set that user to auto-login. So basically, if you
+      open your computer and went to grab a bottle of water, when you are back you
+      have your fullscreen VM running."
+    id: '888174971222212'
+  - created_time: '2015-01-30T09:43:21+0000'
+    from:
+      name: Essam A. Hassan
+      id: '1555752981144826'
+    message: "3. It will relax my OCD tendencies to make it a full install. \nthats
+      funny :D"
+    id: '888188034554239'
+  - created_time: '2015-01-30T14:23:16+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Omar Ibrahim Ahmed I like your option, but the last paragraph that said
+      windows not so much.
+    id: '888268131212896'
+  - created_time: '2015-01-30T14:31:47+0000'
+    from:
+      name: Omar Ibrahim
+      id: '10116066877056474'
+    message: lol... for some reason i remember you saying you had to use windows for
+      work. Anyway, replace "windows" with your "primary os"
+    id: '888270751212634'
+  - created_time: '2015-01-30T18:35:35+0000'
+    from:
+      name: Ahmed Aly Hassan
+      id: '10212882091600362'
+    message: Instead of using VM use a VHD and install the new os on it and your software
+      then configure this vhd to boot from it after that you will have dual boot option.
+    id: '888360667870309'
+  - created_time: '2015-01-30T18:35:44+0000'
+    from:
+      name: Ahmed Aly Hassan
+      id: '10212882091600362'
+    message: Instead of using VM use a VHD and install the new os on it and your software
+      then configure this vhd to boot from it after that you will have dual boot option.
+    id: '888360717870304'
+  - created_time: '2015-01-30T18:36:48+0000'
+    from:
+      name: Omar Ibrahim
+      id: '10116066877056474'
+    message: neat!
+    id: '888361097870266'
+  - created_time: '2015-01-30T18:38:22+0000'
+    from:
+      name: Omar Ibrahim
+      id: '10116066877056474'
+    message: wait... I was just reading a tutorial on this, and it said that you can
+      do this but only if the OS inside the VHD is windows.... http://blogs.msdn.com/b/knom/archive/2009/04/07/windows-7-vhd-boot-setup-guideline.aspx
+    id: '888361734536869'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGc0TVRBeE1Ea3hNakk1TmpBd09qRTBNakkxT0RZAME56UT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGc0TXpZAeE56TTBOVE0yT0RZANU9qRTBNakkyTkRNeE1EST0ZD

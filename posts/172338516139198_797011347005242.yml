@@ -9,3 +9,61 @@ created_time: '2014-08-09T22:03:50+0000'
 updated_time: '2014-08-10T00:19:01+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/797011347005242/
 id: '172338516139198_797011347005242'
+reactions:
+  data:
+  - id: '10215282097155427'
+    name: Mohamed Ali Abuelwafa
+    type: LIKE
+  - id: '10214796374519514'
+    name: Islam AbdelMohaimen Hassan
+    type: LIKE
+  - id: '10157228031308782'
+    name: Loay Hany
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRVeU5EY3hOVFE1TlRveE5EQTNOamsyTnpRNE9qSTFOREE1TmpFMk1UTT0ZD
+      after: Tmpjek5qTTROemd4T2pFME1EYzJNakU1T0RnNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2014-08-09T22:49:45+0000'
+    from:
+      name: Mohammed Ragab
+      id: '2020898428198432'
+    message: Callbacks are commonly used when you have an asynchronous operation that
+      should notify the caller about its completion
+    id: '797023257004051'
+  - created_time: '2014-08-09T22:50:55+0000'
+    from:
+      name: Mohammed Ragab
+      id: '2020898428198432'
+    message: Promises are a replacement for Callbacks to help you deal with composition
+      of multiple async operations while also making error handling simpler in some
+      cases.
+    id: '797023480337362'
+  - created_time: '2014-08-09T22:51:45+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: so, I should always use promises ?
+    id: '797023683670675'
+  - created_time: '2014-08-09T22:54:57+0000'
+    from:
+      name: Mohammed Ragab
+      id: '2020898428198432'
+    message: promises are only resolved once they can be used for smart caching or
+      for cases where you might have multiple calls trying to execute same action
+      which should only happen once
+    id: '797024643670579'
+  - created_time: '2014-08-10T00:19:01+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      I should always use promises ?
+      Whenever they are available, yes.
+    id: '797047173668326'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemszTURJek1qVTNNREEwTURVeE9qRTBNRGMyTWpRMU9EVT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemszTURRM01UY3pOalk0TXpJMk9qRTBNRGMyTWprNU5ERT0ZD

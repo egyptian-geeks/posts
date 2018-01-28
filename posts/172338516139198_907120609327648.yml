@@ -12,3 +12,94 @@ updated_time: '2015-03-10T10:59:01+0000'
 name: Are class names in CSS selectors case sensitive?
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/907120609327648/
 id: '172338516139198_907120609327648'
+reactions:
+  data:
+  - id: '1657509230977456'
+    name: Hosam Aly
+    type: LIKE
+  - id: '10155945694126276'
+    name: Ahmad Gamaleldin Hassanein
+    type: LIKE
+  - id: '1356410114464931'
+    name: Ahmad Fatoum
+    type: LIKE
+  - id: '10155173051963199'
+    name: Pola Ashraf
+    type: LIKE
+  - id: '1955441501387657'
+    name: Bassam Abd Elhamid
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhOVFV4T0RRMk1EZAzBPakUwTWpVNU9Ua3hOemc2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTNOalUwTnpnNU16RXdPakUwTWpVNU56VTVOelE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2015-03-10T09:18:27+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: |-
+      Classes and IDs *values* are case-sensitive ... Attribute themselves aren't, like if you tried to style an input with a "required" attribute ... If the attribute is uppercase like "REQUIRED" you can still select it using input[required] and it will be picked up by the element (check out this fiddle http://jsfiddle.net/2rrt00e9/)
+
+      To comply with XHTML standards all your tags, attributes (not talking about values here) should be in lowercase ... As a general rule, any value that's not meant for displaying info (like contents of data attributes if you are depending on its value for instance) is better to be written in lowercase ... This is like a convention a lot of people used to follow ...
+
+      All the talk about using a flag for case-sensitivity in CSS selectors level 4 is pure non-sense .... trash talk, I don't believe there is any need for that. Just because you can add whatever to standards doesn't mean you should. Better push in other directions that are truly needed.
+
+      *edit: rephrased a few words and corrected a wrong information. Thanks to Ahmad Fatoum
+    id: '907133219326387'
+  - created_time: '2015-03-10T09:25:49+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: "@up you mean XHTML standard?"
+    id: '907135419326167'
+  - created_time: '2015-03-10T09:31:46+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: Yup, XHTML was a standard that meant to make HTML comply with XML standards
+      ... Like having quotation marks around attributes, attributes should always
+      have value (hence the odd required="required", tags should always be closed
+      and a lot of other things
+    id: '907137182659324'
+  - created_time: '2015-03-10T09:41:03+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: Well, they way you phrased it in the first comment, one would assume
+      it's XML thath requires lowercase, which isn't correct.
+    id: '907140509325658'
+  - created_time: '2015-03-10T09:47:17+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: I didn't know that, when XHTML came out I assumed from the recommendation
+      that XML require lowercase ... I guess this is the W3C's touch :D More interesting
+      information I found here http://stackoverflow.com/a/1075011/497828
+    id: '907141869325522'
+  - created_time: '2015-03-10T10:59:01+0000'
+    from:
+      name: Ahmad Gamaleldin Hassanein
+      id: '10155945694126276'
+    message: we need more posts like that :)
+    id: '907162799323429'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEEzTVRNek1qRTVNekkyTXpnM09qRTBNalU1TnpreE1EYz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEEzTVRZAeU56azVNekl6TkRJNU9qRTBNalU1T0RVeE5ERT0ZD
+attachments:
+  data:
+  - description: I keep reading everywhere that CSS is not case sensitive, but I have
+      this selector .holiday-type.Selfcatering which when I use in my HTML, like this,
+      gets picked up <div class="holiday-type
+    media:
+      image:
+        height: 316
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQCz3rmhv1AH6XyC&w=720&h=720&url=http%3A%2F%2Fcdn.sstatic.net%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3Dfde65a5a78c6&cfs=1&_nc_hash=AQDYMA7sVVUu6LYN
+        width: 316
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fa%2F12533957%2F70439&h=ATPcYw2IlyCEd2T_WMYgPWV3Z3NXADXm46R-ZUkni7LVVARBIVekKNvUscjd-9otEHmkfVChIdoMAwl2ANcmJtFc10OTpp6kkNwI&s=1&enc=AZMhZeZn7H3P30U8QWUF8b_yd3n28MJtR8x0G0U_-cLb53o4UmmEJndb8WNAh8DOZCUmnPEqftfrvj2KUilhBM6X
+    title: Are class names in CSS selectors case sensitive?
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fa%2F12533957%2F70439&h=ATPcYw2IlyCEd2T_WMYgPWV3Z3NXADXm46R-ZUkni7LVVARBIVekKNvUscjd-9otEHmkfVChIdoMAwl2ANcmJtFc10OTpp6kkNwI&s=1&enc=AZMhZeZn7H3P30U8QWUF8b_yd3n28MJtR8x0G0U_-cLb53o4UmmEJndb8WNAh8DOZCUmnPEqftfrvj2KUilhBM6X

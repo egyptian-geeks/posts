@@ -11,3 +11,72 @@ updated_time: '2015-09-03T09:26:30+0000'
 name: Why is char[] preferred over String for passwords?
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/999946666711708/
 id: '172338516139198_999946666711708'
+reactions:
+  data:
+  - id: '10155819655346066'
+    name: Shady M. Najib
+    type: LIKE
+  - id: '10155855157936047'
+    name: Mosab Ibrahim
+    type: LIKE
+  - id: '1763959737010749'
+    name: Ahmed Mahmoud
+    type: LIKE
+  - id: '1391026811024185'
+    name: Ibrahem Salah
+    type: LIKE
+  - id: '951706934991792'
+    name: Eyad Hossam
+    type: LIKE
+  - id: '10155396126947689'
+    name: Mohammed Farghal
+    type: LIKE
+  - id: '1743826635639938'
+    name: Adel Ewis
+    type: LIKE
+  - id: '10160047384135438'
+    name: Ahmed Aboulenein
+    type: LIKE
+  - id: '1491318780967328'
+    name: Ibrahim Al-maradny
+    type: LIKE
+  - id: '10155497922120674'
+    name: Ahmad Emam
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRnM05EWXhNRFkxT2pFME5ERTBOVEE0TnpnNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TmpRM01UZA3dOamN6T2pFME5ERXhNRGt5TWpZANk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2015-09-01T12:24:44+0000'
+    from:
+      name: Ibrahim Al-maradny
+      id: '1491318780967328'
+    message: nice one :D
+    id: '999955083377533'
+  - created_time: '2015-09-03T09:26:30+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: Interesting!
+    id: '1000852773287764'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVGs1T1RVMU1EZA3pNemMzTlRNek9qRTBOREV4TVRBeU9EUT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF3TURnMU1qYzNNekk0TnpjMk5Eb3hORFF4TWpjeU16a3cZD
+attachments:
+  data:
+  - description: In Swing, the password field has a getPassword() (returns char[])
+      method instead of the usual getText() (returns String) method. Similarly, I
+      have come across a suggestion not to use Strings to han...
+    media:
+      image:
+        height: 316
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAgI-ZAZZIE993Q&w=720&h=720&url=http%3A%2F%2Fcdn.sstatic.net%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3Dea71a5211a91%26a&cfs=1&_nc_hash=AQCR3o9tiXlp2ihi
+        width: 316
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F8881291%2Fwhy-is-char-preferred-over-string-for-passwords%3Futm_medium%3Dsocial%26utm_source%3Dfacebook.com%26utm_campaign%3Dso-facebook&h=ATO8b14asN8IjJ78KLZAuDYiggoeJaxldOubCRBBNztB9PWOIiDE0ZkAB27ofp2sviweuG2EpRFm4zC49OsUnPPSzUUR2bP1p4Rm&s=1&enc=AZOoenqrwN_BvlYJPQkSU8XmnKhS1KQ9vcdoKQRP1ArNWzJC5rwB38dCaqrVJls438Uc_UF8xCczBhTvK5RzvW1n
+    title: Why is char[] preferred over String for passwords?
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F8881291%2Fwhy-is-char-preferred-over-string-for-passwords%3Futm_medium%3Dsocial%26utm_source%3Dfacebook.com%26utm_campaign%3Dso-facebook&h=ATO8b14asN8IjJ78KLZAuDYiggoeJaxldOubCRBBNztB9PWOIiDE0ZkAB27ofp2sviweuG2EpRFm4zC49OsUnPPSzUUR2bP1p4Rm&s=1&enc=AZOoenqrwN_BvlYJPQkSU8XmnKhS1KQ9vcdoKQRP1ArNWzJC5rwB38dCaqrVJls438Uc_UF8xCczBhTvK5RzvW1n

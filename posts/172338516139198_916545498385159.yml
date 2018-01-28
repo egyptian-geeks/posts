@@ -16,3 +16,51 @@ updated_time: '2015-03-29T11:04:54+0000'
 name: typekit/webfontloader
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/916545498385159/
 id: '172338516139198_916545498385159'
+reactions:
+  data:
+  - id: '10154904189965670'
+    name: Ahmad Alfy
+    type: LIKE
+  - id: '10215713416047775'
+    name: Mohamed Alzaki Abdullah
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRrMU1USTFOalk1T2pFME1qYzJNamN3T1RrNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRJeE5EQTFNalk1T0RveE5ESTNOakEwTURnNU9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2015-03-29T10:56:57+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: |-
+      Honestly I think this issue is taking way more interest/effort than it should. There is even a proposal for the CSSWG to unify font loading order, timeout time ... etc. More information here: https://github.com/KenjiBaheux/css-font-rendering
+      I think it is over complicating a silly issue. It's just a three seconds gap (except for Safari I think that keeps blocking till network timeout)]
+    id: '916648631708179'
+  - created_time: '2015-03-29T11:04:54+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: |-
+      After a second thought, this might actually be good for eliminating page rendering block (not talking about FOUSC, I am talking about when the whole rendering of the page is blocked because it is trying to access Google fonts for example ...)
+      I will give it a try
+    id: '916650618374647'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEUyTmpRNE5qTXhOekE0TVRjNU9qRTBNamMyTWpZAMk1UYz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEUyTmpVd05qRTRNemMwTmpRM09qRTBNamMyTWpjd09UUT0ZD
+attachments:
+  data:
+  - description: webfontloader - Web Font Loader gives you added control when using
+      linked fonts via @font-face.
+    media:
+      image:
+        height: 400
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAIPpt46I72P8pu&w=720&h=720&url=https%3A%2F%2Favatars0.githubusercontent.com%2Fu%2F32504%3Fv%3D3%26s%3D400&cfs=1&_nc_hash=AQCY4G42DLSMqZFz
+        width: 400
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Ftypekit%2Fwebfontloader&h=ATOJjr83Jzbq7sEJmG6WiuwRfOmsM7UCYGdpRuxexQF1PAtDreCVnGv2T9zmoK3GoNZHE5MyF7eFowbsjuIcKsXuXpp9B3_duxMl&s=1&enc=AZNK_Us6ryj2R2DJkn08xKEEzXB_TDwb9vRNSohDuDOfDFyDiijrGRNLMwUydR2zUzZewm4I9BZ6EmakUFwskckC
+    title: typekit/webfontloader
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Ftypekit%2Fwebfontloader&h=ATOJjr83Jzbq7sEJmG6WiuwRfOmsM7UCYGdpRuxexQF1PAtDreCVnGv2T9zmoK3GoNZHE5MyF7eFowbsjuIcKsXuXpp9B3_duxMl&s=1&enc=AZNK_Us6ryj2R2DJkn08xKEEzXB_TDwb9vRNSohDuDOfDFyDiijrGRNLMwUydR2zUzZewm4I9BZ6EmakUFwskckC

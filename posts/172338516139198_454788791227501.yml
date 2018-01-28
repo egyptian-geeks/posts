@@ -11,3 +11,41 @@ updated_time: '2012-08-30T12:36:49+0000'
 name: Development Village
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/454788791227501/
 id: '172338516139198_454788791227501'
+reactions:
+  data:
+  - id: '10160101975555457'
+    name: Michael Youssef
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpZANU5EQXdORFUyT2pFek5EWXpOVFkwTnpnNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TmpZANU5EQXdORFUyT2pFek5EWXpOVFkwTnpnNk1qVTBNRGsyTVRZAeE13PT0ZD
+attachments:
+  data:
+  - description: "Microsoft SharePoint 2010: If you got \"Namespace prefix 'xsd' is
+      not defined.\" error as in the image so to fix this:\r\n\r\n1) Set your browser
+      to use IE8 standards - you can do this by using F12 to get the IE developer
+      tools panel and setting Document Mode to IE8 standards in the developer tools
+      menu/ribbon thing.\r\n\r\n2) Add the meta tag: <meta http-equiv=\"X-UA-Compatible\"
+      content=\"IE=8\"/> to your master page. This will force the browser to use IE8
+      Standards.\r\n\r\nUnfortunately you lose the benefit of the IE9 rendering engine
+      which why it might be preferable to use the first method as and when required,
+      rather than forcing all IE9 users to effectively downgrade to view your pages.\r\n\r\nRef:
+      http://www.spdoctor.net/Pages/message.aspx?name=namespace-prefix-xsd-is-not-defined"
+    description_tags:
+    - id: '7209431541'
+      length: 20
+      name: Microsoft SharePoint
+      offset: 0
+      type: page
+    media:
+      image:
+        height: 382
+        src: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/287923_458802114165027_1621491125_o.jpg?oh=0396bc942453a9b3437bdb7b1d157e94&oe=5B214B61
+        width: 720
+    target:
+      id: '458802114165027'
+      url: https://www.facebook.com/Devville/photos/a.110399852338590.5380.105733406138568/458802114165027/?type=3
+    title: Timeline Photos
+    type: photo
+    url: https://www.facebook.com/Devville/photos/a.110399852338590.5380.105733406138568/458802114165027/?type=3

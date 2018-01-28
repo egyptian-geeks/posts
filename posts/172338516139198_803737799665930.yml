@@ -11,3 +11,66 @@ created_time: '2014-08-24T18:30:03+0000'
 updated_time: '2014-08-24T19:11:27+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/803737799665930/
 id: '172338516139198_803737799665930'
+reactions:
+  data:
+  - id: '2006444532704633'
+    name: Samuel Medhat
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdNVGN6TVRZAek5UZAzNPakUwTURnNU1EYzBNVEE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXdNVGN6TVRZAek5UZAzNPakUwTURnNU1EYzBNVEE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2014-08-24T18:57:49+0000'
+    from:
+      name: Mohamed Nasr
+      id: '10213536302595495'
+    message: ana msh fahm ay 7aga mn al log file :/
+    id: '803747772998266'
+  - created_time: '2014-08-24T19:08:32+0000'
+    from:
+      name: Mohamed Nasr
+      id: '10213536302595495'
+    message: i found an error and i am trying to insall it one more time
+    id: '803752816331095'
+  - created_time: '2014-08-24T19:10:16+0000'
+    from:
+      name: Mohamed Nasr
+      id: '10213536302595495'
+    message: la hwa almoshkla kant an al .net already m3molo setup m3 alwindows bs
+      msh kol al features enabled
+    id: '803754039664306'
+  - created_time: '2014-08-24T19:10:31+0000'
+    from:
+      name: Mohamed Nasr
+      id: '10213536302595495'
+    message: dh l2yto fwst al log file
+    id: '803754092997634'
+  - created_time: '2014-08-24T19:11:27+0000'
+    from:
+      name: Mohamed Nasr
+      id: '10213536302595495'
+    message: |-
+      BlockIf evaluated to false
+      BlockIf: The .NET Framework 4.5 and this update are already installed on your computer as part of the Windows operating system, but they must be enabled. In Control Panel, choose Programs and Features, choose Turn Windows features on or off, and then select the .NET Framework 4.5 check box.
+    id: '803755029664207'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPREF6TnpRM056Y3lPVGs0TWpZAMk9qRTBNRGc1TURZAMk5qaz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPREF6TnpVMU1ESTVOalkwTWpBM09qRTBNRGc1TURjME9EYz0ZD
+attachments:
+  data:
+  - description: this is the error that appear when i try to install VS2013 i search
+      google and the answers was to setup .net 4.5.1 manually but also this didn't
+      work
+    media:
+      image:
+        height: 404
+        src: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/1540418_10203851793888830_3681980362591155935_o.jpg?oh=36245c75257d457c355b6d016c7e30ee&oe=5AECAA16
+        width: 720
+    target:
+      id: '10203851793888830'
+      url: https://www.facebook.com/photo.php?fbid=10203851793888830&set=gm.803737799665930&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=10203851793888830&set=gm.803737799665930&type=3

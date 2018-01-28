@@ -13,3 +13,50 @@ created_time: '2014-05-23T01:24:10+0000'
 updated_time: '2014-05-23T16:28:32+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/751344204905290/
 id: '172338516139198_751344204905290'
+comments:
+  data:
+  - created_time: '2014-05-23T02:19:37+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: Pick a language.
+    id: '751374004902310'
+  - created_time: '2014-05-23T06:48:03+0000'
+    from:
+      name: Ahmed Hassan
+      id: '10156284492809497'
+    message: Web stuff, I know php and Python as server side languages and all the
+      other front-end stuff. And I know c# for desktop applications but I don't reckon
+      there are many open source .net stuff, is there?
+    id: '751441188228925'
+  - created_time: '2014-05-23T13:52:35+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: |-
+      Ruby:
+      - https://github.com/clearhaus/clearhaus-ruby (disclaimer: I wrote that)
+      - https://github.com/saturnine/redis_analytics (rails)
+      - https://github.com/ace-subido/pouchnote (rails)
+      - https://github.com/swanson/stringer (sinatra)
+
+      Nodejs:
+      - https://github.com/arunoda/open-comment-box
+
+      Python:
+      - https://github.com/psobot/foreverfm
+
+      Just off the top of my head, I'll dig out some more of my favourites later. It's also a good habit to check Github explore.
+
+      Good luck
+    id: '751602801546097'
+  - created_time: '2014-05-23T16:28:32+0000'
+    from:
+      name: Ahmed Hassan
+      id: '10156284492809497'
+    message: Thanks a lot guys. Will have a look at those. Much appreciated.
+    id: '751665211539856'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOelV4TXpjME1EQTBPVEF5TXpFd09qRTBNREE0TVRFMU56Yz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOelV4TmpZAMU1qRXhOVE01T0RVMk9qRTBNREE0TmpJMU1UST0ZD

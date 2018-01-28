@@ -10,3 +10,87 @@ created_time: '2014-12-12T11:00:02+0000'
 updated_time: '2014-12-12T11:14:54+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/859824174057292/
 id: '172338516139198_859824174057292'
+reactions:
+  data:
+  - id: '10156913867022699'
+    name: Kareem Moustafa
+    type: LIKE
+  paging:
+    cursors:
+      before: TnpBM05qYzNOams0T2pFME1UZA3pPREl4TnpFNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TnpBM05qYzNOams0T2pFME1UZA3pPREl4TnpFNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2014-12-12T11:03:11+0000'
+    from:
+      name: Kareem Moustafa
+      id: '10156913867022699'
+    message: what's up?
+    id: '859825057390537'
+  - created_time: '2014-12-12T11:04:46+0000'
+    from:
+      name: Belal Mohammed
+      id: '10156087054039146'
+    message: |-
+      Now ana 3amalt table inside a tab pane .. It has several columns .. ezay a3mel rows now ? .. I can't find any option in SceneBuilder .. And I think I'll have to put them on my own using java code. right?
+
+      just guide me :D
+    id: '859825454057164'
+  - created_time: '2014-12-12T11:07:16+0000'
+    from:
+      name: Kareem Moustafa
+      id: '10156913867022699'
+    message: "بص يا باشا, حضرتك مينفعش تملى الداتا من SceneBuilder , \nهتروح للـ Controller
+      بتاع Scene و تجيب التابل بتاعك ده , وتملى الداتا في DataModel و بعدين تحطها
+      للتابل \nأنصحك بتحميل JavaFX samples اللي موجودة على اوراكل, فيها كود كل حاجة
+      هتحتاجها"
+    id: '859826254057084'
+  - created_time: '2014-12-12T11:08:12+0000'
+    from:
+      name: Belal Mohammed
+      id: '10156087054039146'
+    message: Great .. I have everything in something called Ensembler. Now I want
+      to add columns not the data itself ;)
+    id: '859826404057069'
+  - created_time: '2014-12-12T11:09:33+0000'
+    from:
+      name: Kareem Moustafa
+      id: '10156913867022699'
+    message: انت بتحط ال Columns عادي في البيلدر, وبتملى الداتا من ال Controller
+    id: '859826730723703'
+  - created_time: '2014-12-12T11:10:14+0000'
+    from:
+      name: Belal Mohammed
+      id: '10156087054039146'
+    message: يعني دة معناه اني اظبطه علي انه يضيف صفوف جديدة مع كل Data جديدة ؟
+    id: '859826860723690'
+  - created_time: '2014-12-12T11:11:21+0000'
+    from:
+      name: Belal Mohammed
+      id: '10156087054039146'
+    message: يمكن انا نظرتي كانت مختلفة عشان متعود علي انه يبقي في صفوف فاضية دائما
+      بسبب الـ Excel  :D .. عمتا شكرا جدا علي التوضيح :)
+    id: '859827234056986'
+  - created_time: '2014-12-12T11:11:29+0000'
+    from:
+      name: Kareem Moustafa
+      id: '10156913867022699'
+    message: أنا مش متذكر بصراحة اوي, بس اعتقد الـ JavaFX مجرد ما تعدل في DataModel
+      هو بيأبديت الداتا لوحده, لو كده هتضطر انك تعملها بنفسك
+    id: '859827404056969'
+  - created_time: '2014-12-12T11:12:56+0000'
+    from:
+      name: Belal Mohammed
+      id: '10156087054039146'
+    message: عمتا انا اهو هجرب واشوف وان شاء الله ربنا يستر :D
+    id: '859828670723509'
+  - created_time: '2014-12-12T11:14:54+0000'
+    from:
+      name: Belal Mohammed
+      id: '10156087054039146'
+    message: Thank you so much Moo Az :)
+    id: '859829100723466'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFU1T0RJMU1EVTNNemt3TlRNM09qRTBNVGd6T0RJeE9URT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFU1T0RJNU1UQXdOekl6TkRZAMk9qRTBNVGd6T0RJNE9UUT0ZD

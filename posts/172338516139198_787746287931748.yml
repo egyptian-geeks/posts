@@ -11,3 +11,193 @@ created_time: '2014-07-22T15:03:52+0000'
 updated_time: '2014-07-23T21:12:40+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/787746287931748/
 id: '172338516139198_787746287931748'
+reactions:
+  data:
+  - id: '10214861141222529'
+    name: Abdelrady Fcis
+    type: LIKE
+  - id: '10155226291481186'
+    name: أحمد محمود محمد عبدالوهاب
+    type: LIKE
+  - id: '10155855157936047'
+    name: Mosab Ibrahim
+    type: LIKE
+  - id: '10214067472016798'
+    name: Ahmed Hassan Hegazy
+    type: LIKE
+  - id: '1566613306769040'
+    name: Husamuddin Hamad
+    type: LIKE
+  - id: '10156089336182292'
+    name: Hassan Aly Selim
+    type: LIKE
+  - id: '10160105091405314'
+    name: Mohamed Elsherif
+    type: LIKE
+  - id: '10155227707788372'
+    name: Ahmed Mahmoud
+    type: LIKE
+  - id: '2296596577032538'
+    name: Yehya Hafez
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRJME5qZA3lNelF4TVRveE5EQTJNVFEyT1RrME9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBd01EQXdORFkyTlRVMU5EazBPakUwTURZAd05ERTBPVFk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2014-07-22T15:24:33+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: LOL :D
+    id: '787753511264359'
+  - created_time: '2014-07-22T15:48:34+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: I was just thinking of getting one. How much does it cost? How much time
+      does it gives you before it run out?
+    id: '787761557930221'
+  - created_time: '2014-07-22T15:57:08+0000'
+    from:
+      name: Omar Sabet
+      id: '10157028049108496'
+    message: Well it depends how much watts/vA you'll connect to it. A 1000vA (if
+      not lower) will suffice for most desktops. this is the 1500va version. I should
+      be getting about 20-40 mins of operation after it cuts, depending on load. What
+      i noticed so far is that my electricity suffers constant voltage drops almost
+      every 30 mins.
+    id: '787764384596605'
+  - created_time: '2014-07-22T15:57:57+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: Thanks for your feedback. Any idea about the cost?
+    id: '787764597929917'
+  - created_time: '2014-07-22T15:59:23+0000'
+    from:
+      name: Omar Sabet
+      id: '10157028049108496'
+    message: i got it from jumia, it was the lowest price i could find online. Its
+      for 3.4k. but you can get 1500va for as low as ~1.8k with lesser features
+    id: '787765101263200'
+  - created_time: '2014-07-22T16:00:16+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: Thanks :)
+    id: '787765367929840'
+  - created_time: '2014-07-22T16:01:04+0000'
+    from:
+      name: Omar Sabet
+      id: '10157028049108496'
+    message: You're welcome :)
+    id: '787765744596469'
+  - created_time: '2014-07-22T21:04:39+0000'
+    from:
+      name: أحمد محمود محمد عبدالوهاب
+      id: '10155226291481186'
+    message: what is 1000va?
+    id: '787909664582077'
+  - created_time: '2014-07-22T21:29:58+0000'
+    from:
+      name: Omar Sabet
+      id: '10157028049108496'
+    message: 1000 volt-ampere
+    id: '787917377914639'
+  - created_time: '2014-07-23T16:06:01+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      Volt Ampere? That basically means Watt :)
+      hmm... which doesn't make much sense, I would expect the capacity of something like that to be measured in Coulombs (or Ampere-Hour) or maybe Joules (or Watt-Hour)
+    id: '788375554535488'
+  - created_time: '2014-07-23T16:08:52+0000'
+    from:
+      name: أحمد محمود محمد عبدالوهاب
+      id: '10155226291481186'
+    message: |-
+      yes I wanted to make sure it's watt :D
+      I need 1000 watt, I guess I'll check jumia isA :D
+    id: '788376421202068'
+  - created_time: '2014-07-23T16:10:08+0000'
+    from:
+      name: أحمد محمود محمد عبدالوهاب
+      id: '10155226291481186'
+    message: Hassan Aly Selim You just want to know the load it can support. Does
+      the time it can work offline varies a lot from model to model?
+    id: '788376831202027'
+  - created_time: '2014-07-23T16:14:57+0000'
+    from:
+      name: Omar Sabet
+      id: '10157028049108496'
+    message: Nope its not the same...  There is an efficiency variable  missing...  Industry
+      standard is 70% so to find the wattage it supports.  For example  1000va equals
+      to 1000x0.7= 700watts  and so forth.  Va is not equal watt in this case
+    id: '788378317868545'
+  - created_time: '2014-07-23T16:17:30+0000'
+    from:
+      name: أحمد محمود محمد عبدالوهاب
+      id: '10155226291481186'
+    message: |-
+      :'(
+      In this case I will need 1500, but with lesser features :P
+      Thanks man :D You motivated me to take this step :D
+    id: '788379037868473'
+  - created_time: '2014-07-23T16:19:27+0000'
+    from:
+      name: أحمد محمود محمد عبدالوهاب
+      id: '10155226291481186'
+    message: any advice for what to consider when buying it? :D
+    id: '788379604535083'
+  - created_time: '2014-07-23T16:20:31+0000'
+    from:
+      name: Omar Sabet
+      id: '10157028049108496'
+    message: Go for it haha it took me a lot of time to warrant the cost and buy one
+      too..  But with electricity cuts these days its a good time for it..
+    id: '788380327868344'
+  - created_time: '2014-07-23T21:04:27+0000'
+    from:
+      name: Omar Sabet
+      id: '10157028049108496'
+    message: |-
+      First electricity cut :) Happy to announce my Desktop went the full hour on battery no problem, till the power came back! Now the next step is maintaining internet connection and my 5.1 surround...then nerdgasm achieved lol
+
+      any way to hook up a moshtarak to this thing ?
+    id: '788487321190978'
+  - created_time: '2014-07-23T21:05:07+0000'
+    from:
+      name: أحمد محمود محمد عبدالوهاب
+      id: '10155226291481186'
+    message: dude ... you need to give it a try and let us know :P
+    id: '788487701190940'
+  - created_time: '2014-07-23T21:12:40+0000'
+    from:
+      name: Omar Sabet
+      id: '10157028049108496'
+    message: haha for sure, ill figure it out, there is already a bit of surplus i
+      can still use, i'm barely at half load most of the time. Problem is it only
+      takes an AC power cable extensions.. the female part! Soo gotta research that
+      shit and see if its even possible
+    id: '788492057857171'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemczTnpVek5URXhNalkwTXpVNU9qRTBNRFl3TkRJMk56TT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemc0TkRreU1EVTNPRFUzTVRjeE9qRTBNRFl4TkRrNU5qQT0ZD
+attachments:
+  data:
+  - description: Just got a small but very heavy upgrade in the mail :) can't wait
+      for the electricity to cut now lol
+    media:
+      image:
+        height: 720
+        src: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/10448435_10152966089703496_5703191460282920348_o.jpg?oh=f2f93bd893da9bf996198f9a78cac599&oe=5AE54F3A
+        width: 540
+    target:
+      id: '10152966089703496'
+      url: https://www.facebook.com/photo.php?fbid=10152966089703496&set=gm.787746287931748&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=10152966089703496&set=gm.787746287931748&type=3

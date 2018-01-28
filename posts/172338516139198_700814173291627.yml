@@ -16,3 +16,588 @@ created_time: '2014-02-13T23:46:06+0000'
 updated_time: '2014-02-17T05:48:29+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/700814173291627/
 id: '172338516139198_700814173291627'
+reactions:
+  data:
+  - id: '10213461163996393'
+    name: Ahmed Samir
+    type: LIKE
+  - id: '1801290743248815'
+    name: Mohamed Yehia
+    type: LIKE
+  - id: '10215070655377585'
+    name: Mahmoud Kandeel
+    type: LIKE
+  - id: '807046759356351'
+    name: Mohamed Hamed Akef
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRZAeE9UUXlOVGM1TXpveE16a3lORGsyTmprNU9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBd01EQXhOVE14TURRMk9UYzJPakV6T1RJek5qUXhORGs2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2014-02-14T01:02:59+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: Erlang solution https://gist.github.com/l0gicpath/8987472
+    id: '700834829956228'
+  - created_time: '2014-02-14T01:26:57+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: الحل ده فيه شبه كبير من prolog هو المفروض اللغتين زى بعض ؟ facts, predicates
+      و كده ؟
+    id: '700842173288827'
+  - created_time: '2014-02-14T01:31:36+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: Facts and predicates? No, Similarity with prolog? Yes. First version
+      of Erlang was written in Prolog and it has been one of the largest influencers
+      to a lot of aspects in the language. However, it's a 25-30 something years old
+      language, things change, not too fast in Erlang but as it stands today it has
+      less and less common grounds with prolog than when it first began.
+    id: '700844336621944'
+  - created_time: '2014-02-14T01:43:30+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: |-
+      Ruby solution
+      https://gist.github.com/l0gicpath/8994339
+    id: '700847489954962'
+  - created_time: '2014-02-14T01:46:10+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: |-
+      ^ this solution is AWESOME ، انا باين عليا اخترت لغة بنت ناس علشان اشتغل بيها.
+      side note: انا لازم اقرا اكتر فى الruby std libraries
+    id: '700848136621564'
+  - created_time: '2014-02-14T02:02:39+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: "انا حاولت امسك الكود اشوف فيه اى حاجة اعملها optimisation ولا لاقى أى
+      حاجة ده بالعكس حاولت اشيل repeated_permutation و احط مكانها permutation لاقيتها
+      ادتنى وقت اكبر، \nبالمناسبة بقى ليه استخدم repeated_permutation مش permutation
+      ؟ :D"
+    id: '700900146616363'
+  - created_time: '2014-02-14T02:16:42+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: |-
+      :D I'll see if I can optimize anything, as for why repeated_permutation, because it doesn't factor out identical pairs, hence the "repeated". Repeated will generate things like [1, 1], [2, 2] non-repeated will never give you that.
+      Haven't given it much thought to whether that's even needed or not, generating all possible outcomes was the laziest way to a solution.
+    id: '700914713281573'
+  - created_time: '2014-02-14T21:25:48+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: واخد وقت قليل جدآ على الماشين بتاعتك، O_O ، خمسة و خمسية خمسة و خمسية
+      :D  ، هو انا قريت الكود بس مش مجمع قوى فكرة الحل.
+    id: '701343929905318'
+  - created_time: '2014-02-14T21:39:43+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: I think doing `collect` before `select` will simplify the code a bit.
+      Here is mine https://gist.github.com/mtayseer/9009867
+    id: '701348473238197'
+  - created_time: '2014-02-14T21:47:17+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: سطر رقم ٧ فى الكود اعتقد ممكن بدل ماتخليه يجرب من m ل n تخليه يجرب من
+      i ل n علشان مايكررش ضرب عددين لأن بيتهيألى دلوقتى بيجرب يضرب ١٠٠*٢٠٠ و يرجع
+      يجرب ٢٠٠*١٠٠
+    id: '701350306571347'
+  - created_time: '2014-02-14T22:50:37+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: This cut the time almost in half. Thanks (Y)
+    id: '701372843235760'
+  - created_time: '2014-02-14T23:39:31+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: ":) عفوآ ، عليك ٥ جنيه :D"
+    id: '701388143234230'
+  - created_time: '2014-02-14T23:55:35+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: I translated Alaa code to Python. Taking 61ms instead of my other solution
+      which took ~300ms https://gist.github.com/mtayseer/9012059
+    id: '701392929900418'
+  - created_time: '2014-02-14T23:57:26+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: Emad Elsaid the first problems in Euler are easy. Why don't we jump to
+      the more interesting problems? ;)
+    id: '701393446567033'
+  - created_time: '2014-02-14T23:57:47+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: Mohammad Tayseer do you mean the ruby code I posted? If you _just_ change
+      the order of operations, collect coming before select the solution wont be correct.
+    id: '701393489900362'
+  - created_time: '2014-02-14T23:59:16+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: اوووكى، الأسبوع الجاى هاعدى شوية :D عمومآ ده كله تسخين علشان اللى لسة
+      مش متعود على حل المسائل يدخل فى المود، :D يامسهل,
+    id: '701393896566988'
+  - created_time: '2014-02-15T00:05:54+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: Hady Ahmed If you do the collect first, you won't need to do addition
+      in the select. This is the simplification I meant
+    id: '701395566566821'
+  - created_time: '2014-02-15T00:16:35+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: |-
+      Mohammad Tayseer sure, you can do it in many ways. You can do it all inside collect, you can do it with an inject, replace everything with a map. The grammar is fairly liberal, differences are subtle.
+      Doing a collect though is more computationally intensive than two separate operations. Because eventually we'll need to eliminate nils due to how collect operates over the array.
+      I've updated the code so you can see the difference https://gist.github.com/l0gicpath/8994339
+    id: '701398729899838'
+  - created_time: '2014-02-15T00:48:12+0000'
+    from:
+      name: Emad Shaaban
+      id: '1483867968332898'
+    message: |-
+      حلي الاسبوع ده بطئ جدا .. بس بيوصل في الاخر :D
+
+      كود اخر الليل بقى .. هحاول اظبطه ﻻحقا :)
+
+      https://gist.github.com/emadshaaban92/9012626
+    id: '701407456565632'
+  - created_time: '2014-02-15T11:45:31+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: |-
+      https://gist.github.com/kashwaa/9018210
+
+      c# in 00.0099371 seconds
+    id: '701615759878135'
+  - created_time: '2014-02-15T11:48:37+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: قلبى الصغير لايتحمل
+    id: '701616499878061'
+  - created_time: '2014-02-15T12:23:18+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: "فى حاجات كتير فى  inumerable \nhttp://devdocs.io/ruby/enumerable\nو
+      array \nhttp://devdocs.io/ruby/array\nمفيدين جدآ بس الواحد بيقراهم و ينسى، لو
+      افتكرهم وانا بحل هايوفر عليا جامد.\nالstandard library بتاعت روبى rich جدآ"
+    id: '701626466543731'
+  - created_time: '2014-02-15T15:45:46+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: "^ حلو الحل ده بس فى حتة الoptimisation اللى قلتها فوق برضه هاتقلل الوقت
+      ، فى سطر ١٤ ممكن تخليه بدل y >= 100 يبقى y >= x  \nهو اخد وقت قد إيه ؟ المفروض
+      يكون اقل بكتير من اللغات التانية."
+    id: '701715733201471'
+  - created_time: '2014-02-15T16:50:11+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: ":D ماهو الCPP هاتديك performance برضه اكبر اكيد من روبى بكتير :) الحكاية
+      كلها تريد اوف، فى الروبى بدلنا شوية سرعة بسهولة كتابة مش اكتر :)"
+    id: '701748879864823'
+  - created_time: '2014-02-15T16:57:55+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: |-
+      Performance has no relationship with the length of your code. Ruby is slower than a language compiled to native exactly because C for example is in fact compiled to native while ruby's current standard implementation (mri) is interpreted.
+
+      Python and Ruby are in the same execution speed category, unless you went for a different python implementation than the interpreted one. Python has a GIL, you can segfault your C code and crash the whole system.
+
+      OCamel can be compiled to byte code, runs around the same speed of perl or compiled to native and runs around the same speed of C. But again, you need to factor in the solution implementation.
+
+      A common misconception, that dumb implementations are longer, efficient implementations are concise and shorter but it really depends on the language.
+      A dumb implementation in ruby is a one liner. A super efficient implementation with C (obscured) can be in a 100+ characters. The trade off here is always stability, maintainability and readability. An obscure implementation in C would be making a lot of assumptions about it's execution environment and the validity of its input.
+
+      I'd rather write more code that I can read/modify 7 month later and don't have to worry about an a--hole user who decided to press all the 105 keys on a keyboard
+    id: '701750803197964'
+  - created_time: '2014-02-15T17:10:26+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      > The trade off here is always stability, maintainability and readability.
+
+      Well said.
+
+      I'd like to mention an example: Peter Norvig (director of research at Google) write a simple spelling corrector in Python. The following days, many people rewrote the same in different languages. Although everyone was just rewriting the same algorithm, the differences in lines of code was significant, even for the same language, e.g. you will find 2 versions in Java: one is 35 lines & the other is 372.
+
+      Original article & links to different implementations http://norvig.com/spell-correct.html
+    id: '701754446530933'
+  - created_time: '2014-02-15T17:42:51+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: I will always perfere the longer code if it's better readable, a cryptic
+      one liner is never a good thing
+    id: '701764736529904'
+  - created_time: '2014-02-15T17:50:16+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: انا رأيى بسيط، ان الكود المفروض يكون مفهوم، سريع، سهل التعديل، لو حقق
+      ال٣ دول مايهمنيش هو طويل او قصير او سطر واحد، اهم حاجة من وجهة نظرى ال٣ صفات
+      دول.
+    id: '701767109863000'
+  - created_time: '2014-02-15T17:56:18+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: |-
+      Quick enough
+      https://github.com/bashmohandes/ProjectEuler/blob/master/Problem_4.py
+    id: '701769043196140'
+  - created_time: '2014-02-15T18:11:09+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: "I'm curious to why these challenges have turned into a problem solving
+      challenge in the most trivial sense. Majority of people drop in a solution that's
+      neither challenging nor unique in some aspect (super short, expressive, new
+      language)\n\nI understand we all have comfort zones, but if anything; this is
+      about the only chance most of us will get to pick up a new language or explore
+      some aspect not native to the language (like my first ruby solution, which was
+      a port of my other erlang's list comprehension solution)\n\nI'd like to propose
+      that next challenge would at the very least, incite people to explore something
+      outside their comfort zone. \nI'd like to see SML or some dialects of it, I'll
+      provide an OCamel solution next time. I'd like to see Awk, Bash, Perl, Asm,
+      Haskell, some dialect of Lisp, Javascript, CoffeeScript, Rust, golang, C, D,
+      CF, Dart, Haxe, HLA, Groovey...etc\n\nAnything! Come on guys... Just enough
+      with the c#, php, AS, c++...etc.\n\nEdit: For the heck of it, i'll provide a
+      brainfuck solution next time as well. Won't give out any Erlang or Ruby unless
+      the problem is mind stretching that my solution will expose some unique implementation.\n\nThis
+      should be fun, not an interview challenge. Can someone provide BASIC or even
+      VB6? :D"
+    id: '701774729862238'
+  - created_time: '2014-02-15T18:16:30+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: |-
+      Hady Ahmed A language is not a goal in itself, problem solving is, at least for me.
+      Being language agnostic is nice, but having a favorite language is also OK, and in fact nobody is 100% language agnostic, you will always do better in one language versus the other.
+    id: '701776589862052'
+  - created_time: '2014-02-15T18:16:37+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: ":) هى بس كل واحد بيحط الأهداف المناسبة ليه يا هادى ، لأن فى ناس مثلآ
+      مابتحلش مسائل خالص فهدفهم هايكون الوصول للحل قبل اى شىء و ناس بتحل عادى بس حلولها
+      بتكون بطيئة فهايكون هدفهم انهم يوصلوا للحل بسرعة اكتر و ناس هتلاقى نفسها مالهاش
+      فى الألجوريزم فالمفروض يكون هدفهم افضل الجوريزم ممكن و مشهور ، و ناس زيك عرفين
+      لغات و متمكنين منها فهايكون هدفهم زيك انهم يتعلموا بلغة جديد و يخلوا الموضوع
+      challenging اكتر :)، سو خلى كل واحد يحط اهدافه الخاصة علشان الموضوع كله فور
+      فن :) وخلى بالك احنا لسة فى البداية مجرد تسخين و كدة .\nده حليى straight forward
+      \nhttps://gist.github.com/9022993"
+    id: '701776639862047'
+  - created_time: '2014-02-15T18:25:36+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: |-
+      Mohamed Elsherif I never encouraged anyone to be language agnostic, a jack of all is a master of none. The language in such "collaborative" challenges should be the goal besides the solution.
+
+      They both go hand in hand.
+
+      I'm not talk syntactically, a language is much more than syntax. I'm talking semantically. I'm talking how you twist a language to offer a unique solution in at least one aspect.
+      I'm talking the unconventional use of language semantics, a language brings to the table a lot of ideologies, techniques and a different line of thoughts that I can't hardly find a particular benefit in 6 people offering C#, Ruby, Python, Php and C++ with identical solutions.
+
+      All of which are imperative programming languages offering roughly the same constructs with little added to the table but a few syntactic enhancements and some subtle differences (C# and Ruby are both OOP languages, ruby however stretches this further)
+
+      These are ports of one solution and in most cases a waste of time for everyone the implementor and the reviewer.
+
+      Edit: I also chose my words carefully, i said "incite" not "demand". If these challenges are about solution, I'd like to see more than iterative loops in solutions.. Haven't seen anyone offering a recursive version of anything.
+
+      The code challenges are there to prompt collaboration, experience sharing and to broaden one's perspectives. A one minute code execution time fails to do that and the same languages with the same ideologies with roughly the same implementations... also fail to do that.
+
+      /2cents
+    id: '701779009861810'
+  - created_time: '2014-02-15T18:29:07+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: طيب إيه رأيك تبدأ انت الإنيشيات ؟ ممكن تبدأ تحل بلغات تانية و توضحلنا
+      انها فيها مميزات هايلة و كده و بكده الناس تبدأ تاخد المنحى ده بطريقة تطوعية
+      و طبيعية؟ ، غير لما نقول احنا ياريت كل واحد يحل بلغات غير كذاو كذا و كذا ، دى
+      هاتبقى الطف كتير، يللا و احنا وراك ^_^
+    id: '701780133195031'
+  - created_time: '2014-02-15T18:32:14+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: |-
+      Emad Elsaid once again :) like I said, I'll take the initiative with OCamel and brainfuck. And I indeed have already with Erlang. It has been a core part of our work at Tabshora for the past year and if you recall I took the initiative offering solutions in that :)
+
+      I also chose my words carefully, I said "incite" not "demand" or "mandate". I'm not saying put it as a rule, I'm saying "suggest", "encourage" people to "go outside their comfort zone".
+    id: '701781159861595'
+  - created_time: '2014-02-15T18:34:09+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: اوه، اوكى. just calm down, we're just having fun :)
+    id: '701781649861546'
+  - created_time: '2014-02-15T18:35:19+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: Oh no, I'm calm :D just in a hurry, my apologies if I came across aggressive.
+    id: '701781989861512'
+  - created_time: '2014-02-15T18:35:35+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: |-
+      Changing the language doesn't magically translate into different style of code, people like me who are relatively new to functional world catch themselves all the time write imperative style, like writing Java in Scala syntax, or C# in Python syntax.
+      Writing in a new language and writing fluently in this language is totally difference, for example look how Mohammad Tayseer writes Python and how I for example write python.
+    id: '701782083194836'
+  - created_time: '2014-02-15T18:37:32+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: أنا بقول نعمل لغة برمجة اسمها Sisi لما تعمل Compiler errors كثير, تعملك
+      فورمات على طول.
+    id: '701782549861456'
+  - created_time: '2014-02-15T18:37:38+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: "^ :D هاموت و اعرف مشكلتك فى الرياضيات ، طب ماتجرب تجيبها من اول خط خالص
+      احتمال يكون الأساس هو المشكلة ، من اول المعادلات و المتباينات و كده"
+    id: '701782616528116'
+  - created_time: '2014-02-15T18:41:12+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: equations and inequalities بس كنت فى مدارس حكومية 3:)
+    id: '701783569861354'
+  - created_time: '2014-02-15T18:41:43+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: تعليم أميري يا باشا, كلنا هذا الرجل.
+    id: '701783706528007'
+  - created_time: '2014-02-15T18:41:54+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: |-
+      Mohamed Elsherif I don't disagree with you. But it's a good start, most of the problems being pushed into this challenge are trivial enough for someone to pick up a new language and offer a solution in it.
+
+      That's when the "review" part comes handy. Maybe someone's been doing a language for some time and gained a few pointers that can share it. Not sure why aren't we on the same page, my arguments don't refute yours because neither have I explicitly nor implicitly stated a refuting assumption.
+
+      All I'm asking is to make this more intriguing, the community here is nearly dead with only a few people contributing, this is a good chance to awaken things up.
+    id: '701783756528002'
+  - created_time: '2014-02-15T18:43:40+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: well, for me this is never about the language, solving such problems
+      only require the use of the most basic aspects of a language,learning to loop
+      or use control statements in a language that's new to me will definitely not
+      take me out of my comfort zone, I'm doing this for the algorithm, the challenge
+      to me is to write the fastest and most clear code that I can
+    id: '701784209861290'
+  - created_time: '2014-02-15T18:44:46+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: 'Hady Ahmed It is all about what motivates you, I stated earlier that
+      my #1 goal is to Solve the problem, your goal(s) is/are different and that''s
+      perfectly fine, my main disagreement is imposing your goal on others or making
+      their effort less valuable just because they don''t share your motivation.'
+    id: '701784649861246'
+  - created_time: '2014-02-15T18:47:12+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: |-
+      Mohamed Elsherif then you've clearly missed my point, no where have I undermined anyone's effort, nor am I imposing my goal. I urge you to reread my earlier comment.
+      Because under such case, I'm compelled to consider your refuting argument as an imposed opinion as well. But that isn't the case, not for you or myself.
+    id: '701785509861160'
+  - created_time: '2014-02-15T18:47:44+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: Ok, so my bad then.
+    id: '701785606527817'
+  - created_time: '2014-02-15T19:46:26+0000'
+    from:
+      name: Emad Shaaban
+      id: '1483867968332898'
+    message: "Hady Ahmed اللغة اللي بستخدمها في الحلول بتاعتي من ساعت مابدأت OpaLang
+      تبقي بنت OCaml الصغيرة \nهي Pure Functional و مفيهاش Loops .. و ال syntax بتاعها
+      كان شبه OCaml و SML .. بس غيروه عشان عايزين اللغة تاخد شعبية اكتر و تبقى اسهل
+      شوية خلوها شبه JavaScript (في الشكل بس)\n\nانا متفق معاك جدا في ان حاجة زي دي
+      فرصة كويسة اننا نتعلم حاجات جديدة و ده اللي خلاني اختار لغة مختلفة .. و اللغة
+      عجبتني بصراحة :D و بفكر اعمل بيها حاجة بجد \nبس بردو شوية و هغير للغة تانية"
+    id: '701807653192279'
+  - created_time: '2014-02-15T19:56:32+0000'
+    from:
+      name: Emad Shaaban
+      id: '1483867968332898'
+    message: "Emad Elsaid عن نفسي انا مش جامد اوي في حل المسائل دي .. بس الاوﻻنيين
+      سهلين و حليتهم قبل كده الحلول المعروفة باللغات المعروفة .. فقولت استغل الكام
+      سؤال السهلين دول في اني اشوف لغة مختلفة و اوريها للناس بدل ماحلهم تاني نفس الحلول
+      المعروفة اللي مش هتفيدني و ﻻ هتفيد حد \n\nبس يا عالم هقدر اصمد لامتي :D"
+    id: '701811129858598'
+  - created_time: '2014-02-15T19:57:55+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: "^ شد حيلك :D انا بحاول احل ٧٠ الجهاز بيموت فى ايدى و مش عارف يطلع الحل
+      برضه"
+    id: '701811583191886'
+  - created_time: '2014-02-15T20:11:00+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      I agree with Hady. I learnt earlier in my career that a language which doesn't change the way how you think is useless. I was happy to find Erlang solutions using pattern matching. I was sad when I found most C++ solutions written old style (no STL, for example). I learnt about `retry` in Ruby from Emad solution to a previous problem. Using `repeated_permutations` was a nice touch in Ruby as well & inspired me to rewrite my Python solution to use `product`.
+
+      Learning Python helped me become a better C# programmer, specially with introduction of LINQ & related features. It helped me also write concise programs in almost any language.
+    id: '701815936524784'
+  - created_time: '2014-02-16T21:46:18+0000'
+    from:
+      name: Emad Shaaban
+      id: '1483867968332898'
+    message: |-
+      smaller and much faster (8 seconds :D)
+
+      https://gist.github.com/emadshaaban92/9012626
+    id: '702393913133653'
+  - created_time: '2014-02-16T21:48:04+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: ":D استمر، بس انت كده عمومآ ماشى صح علشان اقل من دقيقة تبقى فى السليم"
+    id: '702394303133614'
+  - created_time: '2014-02-16T21:52:25+0000'
+    from:
+      name: Emad Shaaban
+      id: '1483867968332898'
+    message: "فيه حلول فوق بتحسب من 800 ل 999 بس :D .. لو عملت كده هينزل ل 87 ms \nو
+      اللغة اللي بكتب بيها دي بت compile ل Javascript :D"
+    id: '702395276466850'
+  - created_time: '2014-02-16T22:35:45+0000'
+    from:
+      name: Emad Shaaban
+      id: '1483867968332898'
+    message: ظبطته اكتر بقى 6 ثواني و لو بحسب من 999 ل 899 بس بياخد 52 ms
+    id: '702406806465697'
+  - created_time: '2014-02-16T23:32:30+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: انا ماخدتش بالى من الحلول اللى عاملة range اعتقد ان لازم يكون فى سبب
+      منطقى للرينج اللى تحطه زى انه بيطلع من معادلة ما، لكن اننا نعرف الحل و بعدين
+      نlimit الinputs ده عيب و حرام و يتهزله سبع سماوات.
+    id: '702423253130719'
+  - created_time: '2014-02-16T23:34:24+0000'
+    from:
+      name: Emad Shaaban
+      id: '1483867968332898'
+    message: |-
+      jlog('906609')
+
+      0.00001 ms :D
+    id: '702423963130648'
+  - created_time: '2014-02-16T23:35:36+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: "^ LOOOOOOOL :D اسكت انا بقالى يومين بحل فى مسألة ٧٠ و متكدر و متربسة
+      معايا لازم تتحل."
+    id: '702424216463956'
+  - created_time: '2014-02-16T23:38:22+0000'
+    from:
+      name: Emad Shaaban
+      id: '1483867968332898'
+    message: مسيرها هتتحل .. ربنا يعينك
+    id: '702425013130543'
+  - created_time: '2014-02-16T23:44:52+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: projecteuler.net/problem=70
+    id: '702427096463668'
+  - created_time: '2014-02-17T02:33:17+0000'
+    from:
+      name: Emad Shaaban
+      id: '1483867968332898'
+    message: "My Python solution (0.04 s) \n\nhttps://gist.github.com/emadshaaban92/9043654\n\nThe
+      same algorithm takes 27 seconds in Opa :D, coz I had to implement the merge
+      (recursively and without tail recursion optimizations :S) , but thanks to the
+      heap queue implementation in python stdlib, I could make this AWESOME solution
+      in my lovely python :)"
+    id: '702472249792486'
+  - created_time: '2014-02-17T03:22:17+0000'
+    from:
+      name: Emad Shaaban
+      id: '1483867968332898'
+    message: "الحل ده قدر يجيب اكبر palindrome بين 100000 و 999999 \nفي 24 ثانية :D
+      \n\nالفكرة فيه اني مش عايز احسب كل ال palindromes عشان اجيب اكبر واحد فيهم \n\nطلعت
+      ال combinations في iterators .. كل واحد paired مع كل اللي بعديه (بالترتيب من
+      الكبير للصغير) \nو دخلت ال iterators دول يتعملهم merge مع بعض .. طلع من الناحية
+      التانية iterator شايل كل ال combinations مترتبين (بالمجموع) من الكبير للصغير\nو
+      من ده بقى كملنا لعب .. طلع ال products و ال palindromes و كل ده في iterators
+      مفيش اي حاجة اتحسبت لحد دلوقتي \n\nاخر سطر يروح ينفذ كل اللي فات ده لحد مايوصل
+      لاول palindrome و يجيبه و ييجي و احنا متأكدين انه اكبر واحد \n\nفي ال inputs
+      الصغيرة مش هتفرق كتير و ممكن ال nested loop اللي بتحسب كله تبقي اسرع كمان (عشان
+      ال overhead بتاع ال sorting عندي)\nانما في ال inputs الكبيرة .. لو خلينا الكلام
+      علي 6 digits مثلا بدل 3 .. اعتقد ال nested loop مش هتوصل لحاجة\n\nبس بصراحة
+      Opa عملتني حاجات حلوة و الحاجات اللي بشوفها في حلول الناس علمتني حاجات احلى
+      .. شكرا Emad Elsaid :)"
+    id: '702485526457825'
+  - created_time: '2014-02-17T05:48:29+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: Emad Shaaban using heapq.merge is a nice touch. It made it faster
+    id: '702516399788071'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekF3T0RNME9ESTVPVFUyTWpJNE9qRXpPVEl6TXprM056az0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekF5TlRFMk16azVOemc0TURjeE9qRXpPVEkyTVRZAeE1Eaz0ZD
+attachments:
+  data:
+  - description: "حفلة الأسبوووووووووع ^_^\nدى مسألة المرة دى : \nhttp://projecteuler.net/problem=4\n----------\nزى
+      ما احنا عارفين القواعد، الكود بيطلع الناتج فى اقل من دقيقة، الكود بيتحط فى gist.\nانا
+      لاحظت ان الناس لما بتشرح الكود بيتفهم اكتر من اننا نقرأ الكود نفسه، سو بليز
+      ابقى اشرح فكرتك عن الحل لأننى رغم ان فى اكواد مافهمتهاش المرة اللى فاتت و كنت
+      فاكرها بطيئة لكن لما اتشرحلى فكرة عملها لاقيتها احسن من حللى بمراحل.\n----------\nمش
+      قادر اوصفلكوا قد إيه انا بستفاد techniques من الأكواد، يارب يكون الموضوع مفيد
+      للجميع زى ما هو مفيد ليا :)\n----------\nبالتوفيق لجميع الجيكس."
+    media:
+      image:
+        height: 540
+        src: https://scontent.xx.fbcdn.net/v/t1.0-0/p180x540/1901257_10151939632737957_709672779_n.jpg?oh=4bd5e8f4560488488253670b197d235c&oe=5B2644D5
+        width: 720
+    target:
+      id: '10151939632737957'
+      url: https://www.facebook.com/photo.php?fbid=10151939632737957&set=gm.700814173291627&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=10151939632737957&set=gm.700814173291627&type=3

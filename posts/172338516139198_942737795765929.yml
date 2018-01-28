@@ -13,3 +13,181 @@ created_time: '2015-05-21T19:12:14+0000'
 updated_time: '2015-06-01T21:25:51+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/942737795765929/
 id: '172338516139198_942737795765929'
+reactions:
+  data:
+  - id: '10156083919157661'
+    name: Osama Ahmed Attia
+    type: LIKE
+  - id: '1816265025073895'
+    name: Hossam Abdulwahab
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpZAME1qVTNOall3T2pFME16SXlPVFEyTWpjNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQXdOekV5TkRVd01qRTVPakUwTXpJeU56QXpOemc2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2015-05-22T17:27:56+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: Symfony*
+    id: '943224309050611'
+  - created_time: '2015-05-22T21:42:44+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: I don't do PHP (so didn't answer), but I saw a lot of places (pretty
+      much everywhere that talks about it, that I read) saying Laravel is the most
+      popular.
+    id: '943295662376809'
+  - created_time: '2015-05-22T21:45:54+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: Symfony is the best out there but it still depends upon your project.
+      some projects does not need having even too fat frameworks and you may go for
+      something like slim.
+    id: '943296279043414'
+  - created_time: '2015-05-23T07:28:51+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Can't Agree More with Alaa Attya Mohamed :)
+    id: '943431045696604'
+  - created_time: '2015-05-23T09:58:43+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: Or silex instead of slim :)
+    id: '943466985693010'
+  - created_time: '2015-05-23T09:59:40+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: Mohamed Meligy, Laravel is gaining traction, and it does use components
+      from Symfony, but I still have a bad feeling about it (nothing that I can explain
+      scientifically or methodically) :)
+    id: '943473155692393'
+  - created_time: '2015-05-23T17:44:46+0000'
+    from:
+      name: Ahmed Zain Mohammed
+      id: '10156266511868081'
+    message: http://www.sitepoint.com/best-php-framework-2015-sitepoint-survey-results/
+    id: '943602235679485'
+  - created_time: '2015-05-24T06:23:55+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: |-
+      ^ Popular does not mean best, specially in the PHP world.
+
+      One obvious example is Wordpress! It sucks on all technical levels, from architecture, to extensibility to utilizing resources to plugin compatibility to separation of concerns, etc. Yet, it is the most used PHP CMS out there!
+    id: '943781615661547'
+  - created_time: '2015-05-24T06:29:10+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      WordPress is awesome. When I see all the ecosystems and business that were built on top of it, all the plugins that do everything I need.
+
+      And from being interested in startup and & marketing world, seeing all its enabling non-tech people to do from injecting landing pages to selling stuff to running online courses and much much more...
+    id: '943782448994797'
+  - created_time: '2015-06-01T21:05:52+0000'
+    from:
+      name: Ahmed Zain Mohammed
+      id: '10156266511868081'
+    message: I am with Mosab Ahmad on this one. WordPress SUCKS big time on the technical
+      level, the code is a mess! Yet, as a product it's great.
+    id: '952784328094609'
+  - created_time: '2015-06-01T21:22:49+0000'
+    from:
+      name: Eslam Salem Mahmoud
+      id: '10157134145555299'
+    message: "Laravel or Symfony \nActually laravel is built on symfony components
+      :) but more and more developer friendly"
+    id: '952789658094076'
+  - created_time: '2015-06-01T21:25:51+0000'
+    from:
+      name: Eslam Salem Mahmoud
+      id: '10157134145555299'
+    message: It depends on your use . If you prefere developer friendly powerful go
+      for laravel if you want high performance micro framework there is slim and lumen
+      . If you want to control every thing build your own using symphony componenets
+      and composer for psr autoload
+    id: '952790331427342'
+  - created_time: '2015-06-01T22:15:35+0000'
+    from:
+      name: Ian Douglas
+      id: '10156434357078690'
+    message: I'm looking forward to the advances of recent years shaping up into a
+      new CMS that ordinary people can use and build with and that goes beyond and
+      outperforms Wordpress
+    id: '952803738092668'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFF6TWpJME16QTVNRFV3TmpFeE9qRTBNekl6TVRVMk56WT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFV5T0RBek56TTRNRGt5TmpZANE9qRTBNek14T1RZANU16VT0ZD
+attachments:
+  data:
+  - subattachments:
+      data:
+      - target:
+          id: '914818118578445'
+        title: Laravel
+        type: option
+      - target:
+          id: '909577805730131'
+        title: Symphony
+        type: option
+      - target:
+          id: '435018660012488'
+        title: Silex Microframework
+        type: option
+      - target:
+          id: '1040325662646700'
+        title: CodeIgniter
+        type: option
+      - target:
+          id: '683179325141955'
+        title: "[I USE A FRAMEWORK I BUILT MYSELF]"
+        type: option
+      - target:
+          id: '1597870670454584'
+        title: Slim Framework
+        type: option
+      - target:
+          id: '434201993425245'
+        title: CakePHP
+        type: option
+      - target:
+          id: '390374061150578'
+        title: Phalcon Framework
+        type: option
+      - target:
+          id: '1448346468794941'
+        title: Yii Framework
+        type: option
+      - target:
+          id: '1406721372986484'
+        title: Zend Framework
+        type: option
+      - target:
+          id: '817746344975204'
+        title: Nette
+        type: option
+      - target:
+          id: '1457437417888400'
+        title: PHPixie
+        type: option
+    target:
+      id: '942737775765931'
+      url: https://www.facebook.com/groups/egyptian.geeks/permalink/942737795765929/
+    title: "[PHP coders only]\nI never liked the idea of using a framework. Like many
+      of us, I always had an opinion about everything in these frameworks, and I wanted
+      things to be done MY way. \nAfter 7+ years writing PHP using my own frameworks
+      (started with something called Unique, then Zonda and finally Rhino), I started
+      looking at frameworks like Phalcon and Laravel, and I said to myself: it's time
+      to use someone else 's code!\nSo, what is your framework of choice?"
+    type: question
+    url: https://www.facebook.com/groups/egyptian.geeks/permalink/942737795765929/

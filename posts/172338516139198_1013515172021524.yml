@@ -11,3 +11,92 @@ updated_time: '2015-10-02T03:28:18+0000'
 name: Why are the sizes of programs so large?
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1013515172021524/
 id: '172338516139198_1013515172021524'
+reactions:
+  data:
+  - id: '10159955163690471'
+    name: Mohammad Hefny
+    type: LIKE
+  - id: '1588787661215871'
+    name: Ibrahim Eid
+    type: LIKE
+  - id: '10155855157936047'
+    name: Mosab Ibrahim
+    type: LIKE
+  - id: '627907956'
+    name: Emad Elsaid
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpVMk5UUTFORGN3T2pFME5ETTNNRFkzTWpVNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TmpJM09UQTNPVFUyT2pFME5ETTJNekV4TWpBNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2015-10-01T13:39:47+0000'
+    from:
+      name: Mohammad Hefny
+      id: '10159955163690471'
+    message: I believe that as mentioned in replies ... optimizing for maintenance
+      and time to market is the right ans.
+    id: '1013863215320053'
+  - created_time: '2015-10-02T02:54:28+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: |-
+      Interesting, I think the one argument that resonated well with me was the lack of necessity today to optimize for size and memory opposed to how it was before.
+
+      I think we got sloppy along the way too, as engineers. I mean, how often do you see an engineer today so consumed writing, say a debugger? When was the last time you had to do some gut wrenching brain twisting task? If you've happen to have done so anytime recently, congrats you're one of very few who do it occasionally not even daily. IMHO anyway.
+
+      I think we've outgrown the need to worry too much about how big will the software be on delivery, or how much memory will it consume as long as it doesn't eat up all available memory and die.
+
+      Consumers aren't certainly helping either, they keep lowering the bar. I recall a time when consumer had power over the final product's performance. If shit was too unstable, they'll call it out. Rate it low and advise against it, if not recommend an alternative.
+
+      They'd do it collectively too, so misbehaviour software was indeed rare, if anything was at fault it'd be the OS.
+
+      Today, the common consensus amongst users is, if it doesn't work it's okay. Throw more ram at it, get more processor juice for it.
+    id: '1014118655294509'
+  - created_time: '2015-10-02T03:01:08+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: "But thinking more about it, consumer is not to blame for it all. Storage,
+      ram and processing power have indeed dropped in costs. \n\nIn our fast paced
+      lives, it's more cost effective for a consumer to just buy more than having
+      to settle for a less charming alternative. And we too think like that. \nIf
+      I'm shipping for desktop I'd be thinking well, the lowest end laptop on the
+      market now has half a tera in storage and at least 4 gigs of ram. My program
+      will surely run.\n\nI think the biggest beneficiaries to that mentality are
+      game developers. If I'm buying, I'm serious. And if I'm serious, I'll surely
+      upgrade my specs for a game so it's O.K. to ship bulky, memory and storage consuming
+      games."
+    id: '1014120185294356'
+  - created_time: '2015-10-02T03:28:18+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: |-
+      Totally agree with you. And I believe it will be getting worse. I am not that old, but I have seen the days where bytes were significant and processor cycles mattered. Sometimes my whole task was to optimize a piece of software because it is using a few megabytes more RAM than planned. Over time things got easier as hardware became cheaper.
+
+      But when you consider that there are generations of devs who grew up being told not to care about that! It is not a matter of making a concise choice between deadlines and performance, but rather a complete ignorance of what the hardware is doing and how the software is interacting with it. The kind of ignorance that people take pride in, unfortunately.
+
+      So, right now it is not about those few megabytes, because they really do not matter anymore. It is about expecting devs to know what is happening behind the scene. Overtime devs are becoming end-users clicking some fancy buttons themselves.
+    id: '1014126318627076'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF4TXpnMk16SXhOVE15TURBMU16b3hORFF6TnpBMk56ZAzQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF4TkRFeU5qTXhPRFl5TnpBM05qb3hORFF6TnpVMk5EazQZD
+attachments:
+  data:
+  - description: If we look at the vintage program Netscape Navigator or an early
+      version of Microsoft Word, those programs were less than 50 MB in size. Now
+      when I install google chrome it is 200 MB and desktop ve...
+    media:
+      image:
+        height: 316
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAZGn_GbiKwBBNg&w=720&h=720&url=http%3A%2F%2Fcdn.sstatic.net%2Fprogrammers%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D8a6d048f3c78%26a&cfs=1&_nc_hash=AQCvVCRY5sFtMr82
+        width: 316
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fprogrammers.stackexchange.com%2Fquestions%2F298117%2Fwhy-are-the-sizes-of-programs-so-large%3Futm_medium%3Dsocial%26utm_source%3Dfacebook.com%26utm_campaign%3Dse-facebook&h=ATP1IOBmgsctpI8Y_hQ0ZrN_OMvBFwvwm9cwDef_j5rIte2QYTCZosjIgzJsYQ8RzO4OwhnJQfX2CRNRWoJCwolBCUaOXrTtbRg1&s=1&enc=AZPcGCHYTacK566PDYgTZJK7syjYt3UdtjYvUxu7H8HooUotwVTwAfSsE7np8S7bRATkJeDBeO2SyzMlBiRXnuO3
+    title: Why are the sizes of programs so large?
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fprogrammers.stackexchange.com%2Fquestions%2F298117%2Fwhy-are-the-sizes-of-programs-so-large%3Futm_medium%3Dsocial%26utm_source%3Dfacebook.com%26utm_campaign%3Dse-facebook&h=ATP1IOBmgsctpI8Y_hQ0ZrN_OMvBFwvwm9cwDef_j5rIte2QYTCZosjIgzJsYQ8RzO4OwhnJQfX2CRNRWoJCwolBCUaOXrTtbRg1&s=1&enc=AZPcGCHYTacK566PDYgTZJK7syjYt3UdtjYvUxu7H8HooUotwVTwAfSsE7np8S7bRATkJeDBeO2SyzMlBiRXnuO3

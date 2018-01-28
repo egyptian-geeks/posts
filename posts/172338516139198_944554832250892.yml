@@ -10,3 +10,52 @@ created_time: '2015-05-25T06:44:50+0000'
 updated_time: '2015-05-25T10:30:58+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/944554832250892/
 id: '172338516139198_944554832250892'
+comments:
+  data:
+  - created_time: '2015-05-25T08:45:08+0000'
+    from:
+      name: Mohamed Rashed
+      id: '10155764645725568'
+    message: also I like Kendo-UI Grid
+    id: '944608625578846'
+  - created_time: '2015-05-25T09:49:19+0000'
+    from:
+      name: Mohammad Helmy
+      id: '10155848201515605'
+    message: Kendo grid is made by Telerik. I'm not a fan of any of them although
+      I worked with all of them
+    id: '944622172244158'
+  - created_time: '2015-05-25T10:30:58+0000'
+    from:
+      name: Ahmed Refaey
+      id: '1808892215797147'
+    message: they all shit heavy load and memory leak on production
+    id: '944629735576735'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFEwTmpBNE5qSTFOVGM0T0RRMk9qRTBNekkxTkRNMU1EZAz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFEwTmpJNU56TTFOVGMyTnpNMU9qRTBNekkxTkRrNE5UZAz0ZD
+attachments:
+  data:
+  - subattachments:
+      data:
+      - target:
+          id: '1635422630014229'
+        title: Telerik
+        type: option
+      - target:
+          id: '368279106710481'
+        title: DevExpress
+        type: option
+      - target:
+          id: '822031594501136'
+        title: Infragistics
+        type: option
+    target:
+      id: '944554828917559'
+      url: https://www.facebook.com/groups/egyptian.geeks/permalink/944554832250892/
+    title: |-
+      Which of the following ASP.NET controls provider is better? I am speaking about professional grids and other controls.
+      Please answer if you used the controls on a production environment and you know it very well.
+    type: question
+    url: https://www.facebook.com/groups/egyptian.geeks/permalink/944554832250892/

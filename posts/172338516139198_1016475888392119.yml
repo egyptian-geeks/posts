@@ -12,3 +12,27 @@ created_time: '2015-10-07T19:34:41+0000'
 updated_time: '2015-10-08T07:22:24+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1016475888392119/
 id: '172338516139198_1016475888392119'
+comments:
+  data:
+  - created_time: '2015-10-07T23:48:42+0000'
+    from:
+      name: Mahmoud Said
+      id: '10159857675500183'
+    message: |-
+      You should set the MX record for the domain, A or CNAME will not do it
+      https://en.wikipedia.org/wiki/MX_record
+    id: '1016545881718453'
+  - created_time: '2015-10-08T07:22:24+0000'
+    from:
+      name: Mohammad Fouad
+      id: '10155755444625845'
+    message: |-
+      mostly because you enabled "Secure Authentication" in the client (gmail)
+      The thing is that your own domain does not have an SSL certificate, so authentication fails if you use Secure Auth option.
+      Instead of using mail.mydomain.com, use mail.godaddyservername.com.
+      The shared hosting server usually has an SSL cert
+    id: '1016647038375004'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF4TmpVME5UZAzRNVGN4T0RRMU16b3hORFEwTWpZAeE56SXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF4TmpZAME56QXpPRE0zTlRBd05Eb3hORFEwTWpnNE9UUTAZD

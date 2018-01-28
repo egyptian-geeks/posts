@@ -10,3 +10,45 @@ created_time: '2012-12-15T08:06:00+0000'
 updated_time: '2012-12-15T08:06:53+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/497062577000122/
 id: '172338516139198_497062577000122'
+comments:
+  data:
+  - created_time: '2012-12-15T08:06:53+0000'
+    from:
+      name: Galal Atef
+      id: '10214124238595185'
+    message: |-
+      8_Conclusion:
+
+      When implementing a web server system which will never experience high load, or in which performance, throughput, and reliability under high load is not an issue, then the use of any of the analyzed languages or web servers will achieve similar performance results.
+
+       If outstanding performance and throughput is the primary goal,
+      then the use of JSP over PHP is advisable. However, if a 5-10% difference in throughput and performance is acceptable, then the implementer of a web system can achieve similar results using either PHP or JSP. In which case, other requirements such as developer language familiarity and programming efficiency, maintainability,
+      security, reliability, middleware compatibility, etc. would be the deciding factors.
+
+       It is also reassuring to developers of both language runtimes and web servers, that enhancements to either can offer performance improvements to the community.
+    id: '497062707000109'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAORGszTURZAeU56QTNNREF3TVRBNU9qRXpOVFUxTlRnNE1UTT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAORGszTURZAeU56QTNNREF3TVRBNU9qRXpOVFUxTlRnNE1UTT0ZD
+attachments:
+  data:
+  - media:
+      image:
+        height: 72
+        src: https://static.xx.fbcdn.net/rsrc.php/v3/yC/r/CLpq6N2heN6.png
+        width: 72
+    subattachments:
+      data:
+      - target:
+          id: '497062577000122'
+          url: https://www.facebook.com/groups/egyptian.geeks/497062577000122/
+        title: Photos from Galal Atef's post in Egyptian Geeks
+        type: album
+        url: https://www.facebook.com/groups/egyptian.geeks/497062577000122/
+    target:
+      id: '112921822209596'
+      url: https://lookaside.fbsbx.com/file/200812_middleware2008specweb.pdf?token=AWxB2nNO1aD22-H1CQM530A_E3H0xh4l4EuwCx-neri81vU5VbzOn2indcSU98Mau19pPiItSSRR-07UjVQY5CJYphTT90TnWHFc0sSwqzFsIieGgK5xhbTPu8ky_uMxDD3wD2EtyE5m6T-DlGqSGqgNSvIe3IF5LONLNkblAX1wh7iX99ISjXOGpJPQi0yC6qyNVOHHn4hEfjQe-61T4O6n
+    title: 200812_middleware2008specweb.pdf · version 1
+    type: file_upload
+    url: https://lookaside.fbsbx.com/file/200812_middleware2008specweb.pdf?token=AWxB2nNO1aD22-H1CQM530A_E3H0xh4l4EuwCx-neri81vU5VbzOn2indcSU98Mau19pPiItSSRR-07UjVQY5CJYphTT90TnWHFc0sSwqzFsIieGgK5xhbTPu8ky_uMxDD3wD2EtyE5m6T-DlGqSGqgNSvIe3IF5LONLNkblAX1wh7iX99ISjXOGpJPQi0yC6qyNVOHHn4hEfjQe-61T4O6n

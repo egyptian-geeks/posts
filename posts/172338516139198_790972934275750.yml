@@ -11,3 +11,117 @@ updated_time: '2014-07-29T19:59:22+0000'
 name: CSS Triggers...
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/790972934275750/
 id: '172338516139198_790972934275750'
+reactions:
+  data:
+  - id: '1964650613774365'
+    name: Galal Aly
+    type: LIKE
+  - id: '10157134145555299'
+    name: Eslam Salem Mahmoud
+    type: LIKE
+  - id: '10215282097155427'
+    name: Mohamed Ali Abuelwafa
+    type: LIKE
+  - id: '10156207737619180'
+    name: Ahmed Al-Amir
+    type: LIKE
+  - id: '10213786857415913'
+    name: Askao Ahmed Saad
+    type: LIKE
+  - id: '10156089336182292'
+    name: Hassan Aly Selim
+    type: LIKE
+  - id: '10213909908158538'
+    name: Jav Gloria
+    type: LIKE
+  - id: '1748637668514027'
+    name: Adham EL-Deeb
+    type: LIKE
+  - id: '10155855157936047'
+    name: Mosab Ibrahim
+    type: LIKE
+  - id: '10156434261949271'
+    name: Abdelhameed Tourky
+    type: LIKE
+  - id: '10159932656445029'
+    name: Ahmed Raslan
+    type: LIKE
+  - id: '10155880569740170'
+    name: Meligy
+    type: LIKE
+  - id: '10155226291481186'
+    name: أحمد محمود محمد عبدالوهاب
+    type: LIKE
+  - id: '1681618765215075'
+    name: Mustafa Almaraghi
+    type: LIKE
+  - id: '10214861141222529'
+    name: Abdelrady Fcis
+    type: LIKE
+  - id: '10157072407451982'
+    name: Mahmoud Abdallah
+    type: LIKE
+  - id: '10155224155802344'
+    name: Sameh Saeed
+    type: LIKE
+  - id: '10156204541853921'
+    name: Tariq Muhammad
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTJPRGd6TXpVNE5qQXdPakUwTURZAMk56RTJNREk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TnpnNE16QTRPVEl3T2pFME1EWTJNVFUwT0RJNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2014-07-29T06:31:37+0000'
+    from:
+      name: Sameh Saeed
+      id: '10155224155802344'
+    message: "(Y)"
+    id: '790973374275706'
+  - created_time: '2014-07-29T11:16:12+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Layout, Paint, Composite. Which of these is more severe than which? Which
+      to try to avoid changing as lot?
+    id: '791061997600177'
+  - created_time: '2014-07-29T19:28:43+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: "Alright, You always should try to avoid the repainting of the pixels
+      in the page. this is always caused by bad coded animations in css. \n\nhttp://www.stubbornella.org/content/2009/03/27/reflows-repaints-css-performance-making-your-javascript-slow/"
+    id: '791257520913958'
+  - created_time: '2014-07-29T19:59:22+0000'
+    from:
+      name: Mohamed Ali Abuelwafa
+      id: '10215282097155427'
+    message: "layout is the most expensive since it makes the browser to recalculate
+      the position of page elements and then triggers painting and then compositing.
+      that's why animating properties that triggers layout makes severe consequences
+      on page performance and frame rate.\npainting has less cost than layout but
+      it's the developer job to find what areas of the page are painted and try to
+      minimize it as possible as he can. the worst thing for page performance is having
+      continuous paints for the whole page within every frame. \ncompositing has the
+      least effect on the page performance as it promotes the targeted elements to
+      a separate layer and animation is handled by gpu. the properties that triggers
+      composite only are opacity and transforms. that's why it's advisable to try
+      to fit all page changes and animation within these properties. more resources
+      about this topic\nhttp://www.html5rocks.com/en/tutorials/speed/high-performance-animations/\nhttp://addyosmani.com/blog/making-a-site-jank-free/\nhttps://www.youtube.com/watch?v=HAqjyCH_LOE\nhttps://www.youtube.com/watch?v=R6TXuXV1bbY
+      (about parallax performance but has good information about page performance
+      in general)\nhttp://www.paulirish.com/2011/dom-html5-css3-performance/ (old
+      but good )"
+    id: '791272880912422'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemt3T1Rjek16YzBNamMxTnpBMk9qRTBNRFkyTVRVME9UYz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemt4TWpjeU9EZA3dPVEV5TkRJeU9qRTBNRFkyTmpNNU5qST0ZD
+attachments:
+  data:
+  - description: A game of layout, paint and composite
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fcsstriggers.com%2F&h=ATNlhl0TPHE2JhEjpi5pE5mXy0cSTX-dqEzMZ0Ati4g3fd2uJ1vnDB4NZ6q5bHwZ3_Ni3o3AR4lIxIFqIRLjr_Fvi4JGCuqfgOFu&s=1&enc=AZOkVc0gU9OLKdIvH-Pf9djDkCQTSKg9UgoXuF-WiltH8qKJJdAhnjT5TveKZg3aNX3_6ht2G6_Xrq0fct0NRb2E
+    title: CSS Triggers...
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fcsstriggers.com%2F&h=ATNlhl0TPHE2JhEjpi5pE5mXy0cSTX-dqEzMZ0Ati4g3fd2uJ1vnDB4NZ6q5bHwZ3_Ni3o3AR4lIxIFqIRLjr_Fvi4JGCuqfgOFu&s=1&enc=AZOkVc0gU9OLKdIvH-Pf9djDkCQTSKg9UgoXuF-WiltH8qKJJdAhnjT5TveKZg3aNX3_6ht2G6_Xrq0fct0NRb2E

@@ -8,3 +8,652 @@ created_time: '2015-08-20T15:53:41+0000'
 updated_time: '2015-08-27T05:32:19+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/992975680742140/
 id: '172338516139198_992975680742140'
+reactions:
+  data:
+  - id: '10215036976427882'
+    name: Amgad X Diiab
+    type: LIKE
+  - id: '10156072243168535'
+    name: Mohamed Hassan
+    type: LIKE
+  - id: '10156996105984325'
+    name: Mostafa El-Liethy
+    type: LIKE
+  - id: '1710704122328122'
+    name: Mohamed Ashraf
+    type: LIKE
+  - id: '1151809561622555'
+    name: Ali ElSheikh
+    type: LIKE
+  - id: '10156088484756660'
+    name: BahiNour MosTafa
+    type: LIKE
+  - id: '10155417112958379'
+    name: Mayada Talaat
+    type: LIKE
+  - id: '1553756688076753'
+    name: Abdelmuneim Hussein
+    type: LIKE
+  - id: '10159847614865510'
+    name: Amr Abd El-Monsif El-Mokadem
+    type: LIKE
+  - id: '1772542006152666'
+    name: Mohamed AbuIssa
+    type: LIKE
+  - id: '10155972981848326'
+    name: Mosovic Al
+    type: LIKE
+  - id: '10155515192198264'
+    name: Lamia Ali
+    type: LIKE
+  - id: '1867707726586896'
+    name: Mera Karam
+    type: LIKE
+  - id: '10214581484027107'
+    name: Eslam Noureldin
+    type: LIKE
+  - id: '1749613135095199'
+    name: Ebraheem ELbayomiey
+    type: LIKE
+  - id: '10213864188932344'
+    name: صلاح الدين محمود
+    type: LIKE
+  - id: '1894669443939000'
+    name: Mustafa Al Gharbawy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRVek5ETXdOelE0T0RveE5EUXdNVEl4TmpnNE9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBd01EQXhPRGM0T0RrM05UZA3dPakUwTkRBd09EWTBOVE02TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2015-08-20T15:59:56+0000'
+    from:
+      name: Ahmed Ismail
+      id: '10215302740901080'
+    message: الشبكات المفتوحة في الغالب مش بتكون متأمنة ولو حد فاهم هو بيعمل ايه يقدر
+      يستخدم بعض البيانات والثغرات لكن مش بالشكل دا اوي وخاصة إذا كان في انتي فيروس
+      او انترنت سيكيورتي
+    id: '992978650741843'
+  - created_time: '2015-08-20T16:01:16+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: اه الكلام ده مظبوط يا مبروك، ممكن تعمل شبكة مفتوحة و تكتب اسمها بحيث
+      يشجع الناس يدخلوا عليها و تعمل عليها الattacks المكتوبة دى و هتجمع sessions
+      بالهبل، بيسموها فعلآ honeypot
+    id: '992979030741805'
+  - created_time: '2015-08-20T16:01:48+0000'
+    from:
+      name: Ahmed Khaled
+      id: '1673431476060100'
+    message: الي مش بيكون متأمن هو إتصالك مع الراوتر بس إنت لو بتستخدم موقع HTTPS
+      إتصالك هيكون متشفر عادي لإن دي ملهاش علاقة بالروتر الكلام ده لو إنت شغال HTTP
+      بس أو عامل شبكه داخليه في بروتوكولات مش متأمنه زي ال FTP.
+    id: '992979194075122'
+  - created_time: '2015-08-20T16:02:37+0000'
+    from:
+      name: Usama Fayez
+      id: '10155807421830280'
+    message: الكلام ده اغلبه كلام فاضي .. انت لو بتدخل HTTPS على المواقع اللي تهمك
+      مش هيقدر يسرق منك اي حاجه
+    id: '992979407408434'
+  - created_time: '2015-08-20T16:03:18+0000'
+    from:
+      name: Ahmed Khaled
+      id: '1673431476060100'
+    message: بالضبط ولا حتى ال cookies بتاع ال sessions لإنها هتبقا secured
+    id: '992979627408412'
+  - created_time: '2015-08-20T16:07:15+0000'
+    from:
+      name: Muhammed Fayed
+      id: '763855317138689'
+    message: الكلام ده مظبوط  و انا اقدر اعمل معظم الي بيتكلم عليه
+    id: '992980947408280'
+  - created_time: '2015-08-20T16:08:54+0000'
+    from:
+      name: Ahmed Fawzy Omaira
+      id: '10213985926195361'
+    message: Muhammed Rawdy ممكن تقولنا هتعمله ازاى؟
+    id: '992981507408224'
+  - created_time: '2015-08-20T16:09:05+0000'
+    from:
+      name: Mahmoud Kandeel
+      id: '10215070655377585'
+    message: فعلا الكلام دا مظبوط؛ حتى https اداة زي ssl strip بتخليك تقدر تجسس على
+      مواقع https
+    id: '992981557408219'
+  - created_time: '2015-08-20T16:13:02+0000'
+    from:
+      name: Muhammed Fayed
+      id: '763855317138689'
+    message: Ahmed في ادوات جاهزه دلؤقتي بتنزل علي الموبيلات الاندرويد كنت بعرف اعمل
+      بيها معظم الكلام ده بدون زكر اسمائهم عشان محدش يستخدمهم في الازيه بس انا جربت
+      الكام ده فتره و كنت بعد علي القهوه و اتحكم في الناس الي داخله علي الواي فاي
+      و اخليهم يخشوا علي لينك معين لما يدخلو علي اي حاجه و ابوظلهم شكل الموقع الي
+      بيدخل عليه انا مستخدمش حجات اكتر من كده عشان حرام
+    id: '992982697408105'
+  - created_time: '2015-08-20T16:13:03+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: |-
+      Yup, partially true, and doesn't need a whole lot of technical expertise to achieve a man in the middle attack with a rogue WiFi network, except that part about SSL mentioned more details below.
+      A nice slap in the face though is connecting to the open WiFi and then using a secure VPN :D
+      [Edited]
+    id: '992982700741438'
+  - created_time: '2015-08-20T16:15:19+0000'
+    from:
+      name: Usama Fayez
+      id: '10155807421830280'
+    message: الموضوع كله بيعتمد على المستخدم في الآخر .. ممكن الواحد ميقعش في الSSL
+      Stripping بانه يتأكد من الbrowser و الlock اللي بيظهر في اي صفحه بيستخدمها ..
+      بس لو واحد مش واخد باله زي معظم الناس ممكن فعلاً يقع في الفخ ده
+    id: '992983227408052'
+  - created_time: '2015-08-20T16:16:59+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: The only part that is not as easy as it sounds is SSL stripping, it needs
+      a crappy SSL implementation on the server that allows falling back to http and
+      a bit naive user to not notice
+    id: '992983707408004'
+  - created_time: '2015-08-20T16:18:34+0000'
+    from:
+      name: Mohamed Moshrif
+      id: '1538447102877297'
+    message: معظم ال browsers دلوقتي أصلا بتعمل detect لل SSL stripping ده غير إن
+      معظم الحاجات اللي ليها لازمة بتستعمل HSTS دلوقتي. الموضوع مبقاش بالسهولة اللي
+      كان فيها من سنة ولا اتنين
+    id: '992984000741308'
+  - created_time: '2015-08-20T16:18:51+0000'
+    from:
+      name: Mahmoud Kandeel
+      id: '10215070655377585'
+    message: Try search dSploit & WifiKill pro for android and see magic :D
+    id: '992984137407961'
+  - created_time: '2015-08-20T16:20:12+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: Bottom line in most cases if SSL connection is established, it will mitigate
+      man in the middle, and the router can't do anything to read the SSL traffic
+      unless somehow it infected your machine with a worm that added a new root certificate
+      to your certificate store. Which in this case it may elevate the router to act
+      more like a proxy which can forge fake SSL certs
+    id: '992984774074564'
+  - created_time: '2015-08-20T16:25:51+0000'
+    from:
+      name: Fady Anwar
+      id: '10159888022555052'
+    message: Possible, but not easy as it sounds. You can't guarantee that all of
+      your applications running in the background are using encrypted communication
+      with their servers, at least your identity can be easily exposed..
+    id: '992987200740988'
+  - created_time: '2015-08-20T16:27:04+0000'
+    from:
+      name: Fady Anwar
+      id: '10159888022555052'
+    message: In Tor there is your salvation..
+    id: '992987907407584'
+  - created_time: '2015-08-20T16:29:37+0000'
+    from:
+      name: Mohamed Abdel Aty
+      id: '10215620557573580'
+    message: basically correct    but you most likely will not be able to simply use
+      ssl strip to get sessions of websites like Facebook or Gmail if the user is
+      using an updated browser because of the HSTS  , but this might be successful
+      combined with other attacks
+    id: '992988647407510'
+  - created_time: '2015-08-20T17:11:02+0000'
+    from:
+      name: Yasser El Batal
+      id: '10159896187785333'
+    message: Hazem El Batal fahm
+    id: '993003447406030'
+  - created_time: '2015-08-20T17:13:27+0000'
+    from:
+      name: Mohamed Abdel Aty
+      id: '10215620557573580'
+    message: Ahmed Elsobky i have found some Facebook-related & google-related apps
+      that use requests that do not enforce https and still sends & receive requests
+      and responses that contain parameters and data that can expose user identity
+      or in some cases contain tokens or could be used to forge content   , and as
+      you know they usually don't accept this type or vulnerabilities so basically
+      they say if you got MITM you are already screwed
+    id: '993004154072626'
+  - created_time: '2015-08-20T17:15:48+0000'
+    from:
+      name: Hamza Mahmoud
+      id: '1636228423136367'
+    message: الكلام دا حقيقي بنسبة 90% (y) , و عادي لو عاوز تتعلمه ممكن ابعتلك لينكات
+      :D
+    id: '993007080739000'
+  - created_time: '2015-08-20T17:18:49+0000'
+    from:
+      name: Hamza Mahmoud
+      id: '1636228423136367'
+    message: |-
+      انا بستخدم كالي و باك بوكس .. و بيهم سهل تعمل كل الكلام دا ,
+
+      و فعلا زي ما قال Hussain .. ابسط حاجة ممكن تعملها انك تعمل سبوف لـ صفحة مزورة من ام جنيه و نص :D
+    id: '993016384071403'
+  - created_time: '2015-08-20T17:53:44+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: apart from the security stuff, how would someone know how to change his
+      SSID to "msh 3aref 2a7ot pass" and not know how to set the Wi-Fi password, the
+      trap doesn't make sense :D
+    id: '993036057402769'
+  - created_time: '2015-08-20T18:01:06+0000'
+    from:
+      name: Mohamed Abdel Aty
+      id: '10215620557573580'
+    message: الحقيقة السؤال مش الكلام ده صح ولا لا  , السؤال الحقيقى هوا ليه البوست
+      خد كل الشير المهول ده ... اللهم لا حسد :D
+    id: '993039010735807'
+  - created_time: '2015-08-20T18:15:09+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: الكلام فتي طبعا دي اسمها end to end encryption دي اقل تعليق يتقال ، غير
+      طبعا ان معظم الكلاود شغال اي سسرفش بتشخدمها فيها معلومات ليها اي قيمه اكيد هتبقا
+      انكربتد  oauth
+    id: '993044767401898'
+  - created_time: '2015-08-20T18:18:39+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: Amir OAuth is not an Encryption algorithm, or technique, it is just an
+      authentication protocol.
+    id: '993049464068095'
+  - created_time: '2015-08-20T18:22:38+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: "@mohamed I was replying to the one mentioned \"apps calling apis \"
+      the encryption part was related to end to end sentence bas el kalam la5bat \U0001F60A
+      \ , thanks for the comment anyway I'm not the security person."
+    id: '993050937401281'
+  - created_time: '2015-08-20T18:23:26+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: no problem, E2E encryption is the key here for sure
+    id: '993051190734589'
+  - created_time: '2015-08-20T18:23:41+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: "@mohamed he mentioned sending password btw \U0001F603"
+    id: '993051270734581'
+  - created_time: '2015-08-20T18:25:31+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: I think he meant stealing authentication cookies (or Web Session Impersonation)
+      which may happen if you don't transfer cookies over SSL or not mark your cookies
+      as Secure and HttpOnly
+    id: '993051704067871'
+  - created_time: '2015-08-20T18:25:55+0000'
+    from:
+      name: Tarek Amr
+      id: '10155854949245944'
+    message: Man in the middle (MITM) is meant for End to End encryption. The only
+      thing, is that that attacker will not be able to use a trusted certificate for
+      your session, however, if the end user ignores the certificate warning, he is
+      vulnerable
+    id: '993051827401192'
+  - created_time: '2015-08-20T18:27:36+0000'
+    from:
+      name: Fady Anwar
+      id: '10159888022555052'
+    message: Another famous trick is to use the same SSID for a legit network
+    id: '993052930734415'
+  - created_time: '2015-08-20T18:27:57+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: "@mohamed it all about e2e as u said"
+    id: '993052994067742'
+  - created_time: '2015-08-20T18:28:03+0000'
+    from:
+      name: Mohamed Anan
+      id: '10160057547260515'
+    message: "مش فتي في أداة لل sniffing \nولا ايه \U0001F602\U0001F602\U0001F602
+      Ahmed Sabry"
+    id: '993053097401065'
+  - created_time: '2015-08-20T18:28:49+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: "@tarek can u elobrate more ?"
+    id: '993053347401040'
+  - created_time: '2015-08-20T18:30:34+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: Tarek I am not sure if this is possible nowadays, most browsers won't
+      allow the user to ignore cert errors especially self-signed certs, and you will
+      need to have a Root Cert to bypass this, as I mentioned earlier
+    id: '993054014067640'
+  - created_time: '2015-08-20T18:32:14+0000'
+    from:
+      name: Tarek Amr
+      id: '10155854949245944'
+    message: Mohamed Elsherif The browser warns you, but will still allow you if you
+      ignore the warning
+    id: '993054500734258'
+  - created_time: '2015-08-20T18:32:25+0000'
+    from:
+      name: Eslam Hamouda
+      id: '10212947071504226'
+    message: 'Mohamed if there is something that i have learned from my GP is that
+      : OAuth is Authorization protocol not Authentication. that mistake makes me
+      re-create the project again from scratch.'
+    id: '993054544067587'
+  - created_time: '2015-08-20T18:32:43+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: "@tarek totally agree."
+    id: '993054647400910'
+  - created_time: '2015-08-20T18:34:14+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: Eslam true :)
+    id: '993055230734185'
+  - created_time: '2015-08-20T18:35:37+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: Usually you combine OpenIDConnect with OAuth to achieve both AuthZ and
+      AuthN
+    id: '993055870734121'
+  - created_time: '2015-08-20T18:35:43+0000'
+    from:
+      name: Tarek Amr
+      id: '10155854949245944'
+    message: Amir Abou Eesa http://security.stackexchange.com/questions/8145/does-https-prevent-man-in-the-middle-attacks-by-proxy-server
+    id: '993055917400783'
+  - created_time: '2015-08-20T18:36:16+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: "@eslam @tarek a typical user will need to read and confirm to procced
+      anyway."
+    id: '993056090734099'
+  - created_time: '2015-08-20T18:36:52+0000'
+    from:
+      name: Tarek Amr
+      id: '10155854949245944'
+    message: correct
+    id: '993056227400752'
+  - created_time: '2015-08-20T18:40:13+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: "@eslam I didn't understand the Las part , what is the need for administrator
+      of victim pc , couldn't Issue the self signed from my aide and he just accept
+      it"
+    id: '993057044067337'
+  - created_time: '2015-08-20T18:40:48+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: Tarek still the proxy can't read the encrypted data unless it modifies
+      the client and installs root certs, which what I mentioned earlier.
+    id: '993057210733987'
+  - created_time: '2015-08-20T18:40:49+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: "@Eslam aha the admniatrator to accept the new one , thanks"
+    id: '993057214067320'
+  - created_time: '2015-08-20T18:41:50+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: Still not practical in my opinion :)
+    id: '993057410733967'
+  - created_time: '2015-08-20T19:00:46+0000'
+    from:
+      name: Hussein Khalifa
+      id: '10100126826681456'
+    message: If you connect to my open wireless network I will do more than this to
+      you. ;)...but u can use a VPN service to tunnel and encrypt all u'r transmitted
+      data. This will help make this difficult for the attacker
+    id: '993064504066591'
+  - created_time: '2015-08-20T19:48:00+0000'
+    from:
+      name: Mohamed Abdel Aty
+      id: '10215620557573580'
+    message: Amir Abou Eesa i'd hate to give hacking tips so the admin is free to
+      delete my comment if they want to  , if the website or the app is using a CDN
+      that does not enforce https requests the CDN request could be stripped down
+      to http leaving the content to read or even modified for further attacks as
+      they will end up eventually in the user browser / app  , also if the website
+      is using api requests to another domain other than the main domain of the website
+      without enforcing https these requests also could be stripped mostly without
+      the app complaining  , this need a smart type of attack as striping everything
+      will usually break the connection from the start preventing any requests to
+      be made but a smart attacker performing a specific strip in a timely fashion
+      could still get some information
+    id: '993091164063925'
+  - created_time: '2015-08-20T19:49:59+0000'
+    from:
+      name: Shaimaa Hasan Derbaz
+      id: '10208531944855065'
+    message: الكلام مطنش إنه فتي ولا حاجة , الدوك شرحلنا حاجة زي كده وهو نفسه عمل
+      أكتر من مرة تجربة وساب الواي فاي من غير باسوورد وكان بيعمل كده
+    id: '993091844063857'
+  - created_time: '2015-08-20T20:23:25+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: Mohamed Abdel Aty this is will still give a warning in the browser, however
+      it will be a way less severe warning, that the content on the page is not all
+      secure, and most people will not even notice it.
+    id: '993105397395835'
+  - created_time: '2015-08-20T20:27:17+0000'
+    from:
+      name: Mohamed Abdel Aty
+      id: '10215620557573580'
+    message: Mohamed Elsherif you are still thinking browser  , what about mobile
+      apps that still act as browsers with less security implementations  , for example
+      if you clicked an external link on Facebook iPhone app it will load the content
+      inside the app
+    id: '993106324062409'
+  - created_time: '2015-08-20T20:30:35+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: True that :D
+    id: '993107060729002'
+  - created_time: '2015-08-20T20:43:41+0000'
+    from:
+      name: Mohamed Bassem
+      id: '10212826240185281'
+    message: هو بأي منطق واحد معايا على الnetwork يقدر يaccess الملفات اللي على الdevice
+      بتاعي؟
+    id: '993111390728569'
+  - created_time: '2015-08-20T20:45:25+0000'
+    from:
+      name: Mohamed Abdel Aty
+      id: '10215620557573580'
+    message: Muhammad Bassem 0dayes
+    id: '993111850728523'
+  - created_time: '2015-08-20T20:50:35+0000'
+    from:
+      name: Adel Riyad
+      id: '10160070111940193'
+    message: If the attacker with any mean could take control of the victim machine,
+      he could add a root CA to the browser and this will make it possible not to
+      show the HTTPS certificate warning.  In some enterprise environment this is
+      how they monitor HHTPS, SSH, and such protocols. Open WiFi is always not a good
+      idea.
+    id: '993113330728375'
+  - created_time: '2015-08-20T20:50:43+0000'
+    from:
+      name: Adel Riyad
+      id: '10160070111940193'
+    message: take a look on OpenWRT..
+    id: '993113360728372'
+  - created_time: '2015-08-20T20:52:54+0000'
+    from:
+      name: Mohamed Abdel Aty
+      id: '10215620557573580'
+    message: Adel Riyad if the attacker can take control of the victim machine with
+      administrator rights which what is required to install rouge certificate he
+      could just added a spyware and exclude it from the antivirus instead :]
+    id: '993114150728293'
+  - created_time: '2015-08-20T20:54:30+0000'
+    from:
+      name: Adel Riyad
+      id: '10160070111940193'
+    message: Spyware could be later detected either by anti-virus or whatever tool,
+      any semi experienced user can notice the difference in the machine performance
+      after being infected. But with rouge cert the machine performance is still as
+      perfect as it is..
+    id: '993123190727389'
+  - created_time: '2015-08-20T20:57:05+0000'
+    from:
+      name: Adel Riyad
+      id: '10160070111940193'
+    message: almost un-noticeable, unless u of the type that frequently checks his
+      browsers config :-).
+    id: '993132107393164'
+  - created_time: '2015-08-20T20:59:13+0000'
+    from:
+      name: Mohamed Abdel Aty
+      id: '10215620557573580'
+    message: "Adel Riyad blelive me , there are some spyware out there that present
+      very small performance issues  , just check hacking team hacked files to know
+      what i mean  \n\ni agree having a rouge certificate is more \"clean\" , but
+      that require physical access which make it not the most profitable attack scenario
+      from this situations  , remember that there are also hardware keyloggers out
+      there"
+    id: '993132510726457'
+  - created_time: '2015-08-20T21:02:15+0000'
+    from:
+      name: Adel Riyad
+      id: '10160070111940193'
+    message: I dont argue that some spyware are very great master pieces, but why
+      should I get myself into trouble of hiding my spyware or wishing that the new
+      antivirus wont detect it?? one of the aims of a good attack is to stay as long
+      as possible undetected.
+    id: '993133604059681'
+  - created_time: '2015-08-20T21:05:11+0000'
+    from:
+      name: Mohamed Abdel Aty
+      id: '10215620557573580'
+    message: Adel Riyad because once i get my spyware running on the machine i can
+      prevent new antivirus from installing  , and why just be content with watching
+      only the victim internet traffic when i can also get his local content including
+      his cam recordings :)
+    id: '993134290726279'
+  - created_time: '2015-08-20T21:05:20+0000'
+    from:
+      name: Adel Riyad
+      id: '10160070111940193'
+    message: And key loggers in general r easy to trick assuming u already know u
+      r infected with a key logger, which is not always the case :-)
+    id: '993134337392941'
+  - created_time: '2015-08-20T21:08:05+0000'
+    from:
+      name: Adel Riyad
+      id: '10160070111940193'
+    message: This is not very true actually, there is always a chance that some antivirus
+      can overcome the spyware, and there is offline scan that will definitely detect
+      the spyware :-).  And I am not speaking about cam recording and voice and chat
+      things here, personally i wouldn't pay any effort to get someone's cam feed
+      :-), most likely it wont be a pleasant thing to watch man :-D..
+    id: '993134924059549'
+  - created_time: '2015-08-20T21:08:53+0000'
+    from:
+      name: Adel Riyad
+      id: '10160070111940193'
+    message: And most likely if u have the wireless AP then u can get the cam whenver
+      he/she uses it online..
+    id: '993135037392871'
+  - created_time: '2015-08-20T21:10:12+0000'
+    from:
+      name: Mohamed Abdel Aty
+      id: '10215620557573580'
+    message: Adel Riyad if we are talking security  , then you have to assume that
+      the devil is in the conversation 3:)
+    id: '993135350726173'
+  - created_time: '2015-08-20T21:10:39+0000'
+    from:
+      name: Adel Riyad
+      id: '10160070111940193'
+    message: "+ one more thing, all of the above maybe correct assuming u speaking
+      about a windows victim, but what the victim has Linux or Mac?? Infecting with
+      a rootkit will be much harder thing to do.."
+    id: '993135430726165'
+  - created_time: '2015-08-20T21:11:03+0000'
+    from:
+      name: Adel Riyad
+      id: '10160070111940193'
+    message: The devil is in everywhere bro :-)
+    id: '993135524059489'
+  - created_time: '2015-08-27T05:31:39+0000'
+    from:
+      name: Ahmed Ezz
+      id: '10159862798570006'
+    message: علي فكره كلامه كله صح وانا اصلا من الناس الي بعمل الحركة ديه و عملتها
+      مره جوة سلنترو وخليت كل الناس الي قاعده تصقف ليا
+    id: '996908097015565'
+  - created_time: '2015-08-27T05:32:19+0000'
+    from:
+      name: Ahmed Ezz
+      id: '10159862798570006'
+    message: You can use backtrack 5 r2 to test this exploit
+    id: '996908230348885'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVGt5T1RjNE5qVXdOelF4T0RRek9qRTBOREF3T0RZAek9UWT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVGsyT1RBNE1qTXdNelE0T0RnMU9qRTBOREEyTlRNMU16az0ZD
+attachments:
+  data:
+  - description: "لما تلاقي واحد - حمار - كاتب ال SSID الخاص بشبكة Wifi بتاعه .. \nزي
+      اللى ف الصوره كدا ..\n\nوسايبه مفتوح لأي حد انه يعمل اتصال عليه ويستخدمه ..
+      \nوانت تفرح عشان صاحب الشبكة ساذج !!!\n\nاعرف ساعتها انك بلعت طُعم ومش داري
+      بيه .. !!!\nعشان انت بدخولك ع الشبكه دي .. بتقع برجليك ف مصيده هو عاملهالك ..
+      !\nلأنه بالحركه اللى عاملها دي ..\n \n- هيقدر انه يـ Access ع جهازك ويحوّل معظم
+      اتصالاتك ال HTTPS لـ  HTTP \n  بدون ما يظهرلك تحذير من المتصفح عن طريق SSL Strip
+      !\n.\n- هيقدر يسرق Cookies المتصفح لأي جلسه اتصال بينك وبين أي موقع , \n  ودا
+      ف حالة لو انت من اللى بيعملوا اختيار \" Remember me \" اثناء دخولهم , \nوساعتها
+      مش هيحتاج باسورد يدخل بيه ع حسابك ف المواقع دي .. \nلانه بقا معاه اللى يوازي
+      الباسوردات دي !\n.\n- هيقدر يستخدم معاك طريقه MITM ويحوّل اتصالاتك ع الشبكه
+      لأي صفحه هو عاوزها !\n.\n- هيقدر يستخدم معاك طريقه Honypot ويعرف كل المواقع
+      اللى بتفتحها , وخد عندك الباسوردات بالمره !\n.\n- لو فاهم شويتين تلاته .. هيدخل
+      ع صور جهازك وملفاتك .. ويسحب اللى عاوز يسحبه !\n.\n- لو فاهم اكتر واكتر .. هيبعتلك
+      تطبيق صغير ع موبايلك ع انه تحديث للموبايل .. واول ما تقبله .. كدا هو يقدر يتحكم
+      ف موبايلك Remotely حتي بعد ما تفصل من شبكته وتتصل علي اي شبكه تانيه , بل ويفتح
+      الكاميرا بتاعك كمان بدون ما تحس  !!!\n.\n- هيقدر يتجسس ع مكالماتك ورسايلك عالواتس
+      والفايبر .. وغيره وغيره !! ( حَدِّث ولا حرج )\n.\n.\nمعظم الكلام اللى فوق ..
+      ناس كتيره مش هتعرف معناه بس الخلاصه و من الآخر .. \n.\nلو لقيت شبكه Wi-fi مفتوحه
+      .. فكر ألف مره قبل ما تعمل دخول عليها !!!\n.\nالحدايه مبتحدّفش كتاكيت ..\n\nياريت
+      الناس تاخد بالها من الحاجات دي .. !\n\nدخولك ع شبكه مفتوحه  ..  كأنك بتسَلّم
+      خصوصيتك للغير تسليم أهالي !!\n\nتعديل بسيط : \n=========\n1- مكنتش اعرف ان المنشور
+      اللى كاتبه بمجهود شخصي \nعلشان احذر فيه اصدقائي ع البروفايل .. هياخد الشير دا
+      كله  !! اتصدمت بصراحه :D !\n\n2- بعتذر اني قفلت التعليقات ع المنشور بعد ما لقيته
+      انتشر واتوسع .. لانها كانت هتبقي اكبر واكتر من طاقتي اني ارد عليها واتابعها
+      .. \n\n3- هدفي ف كتابه المنشور من الاساس اني استخدم اللى اتعلمته في تحذير الناس
+      اللى متعرفش بالخطر دا ..\nوبعتذر لو كان الموضوع فيه نسبه خطأ ولو بسيطة ف توصيل
+      المعلومه والشرح .. \nالا انه في المجمل صحيح !!\n\n4- المنشور هدفه التوعيه العامة
+      مش أكتر وانا برئ تماماً من اي استخدام خاطئ له ..\n\nبالله عليك لو استفدت ولو
+      معلومه .. متنسانيش وأهلي بدعوه بظهر الغيب .. :))\n\nانشر وعرف غيرك ..\nو لو
+      هتنقل الموضوع .. متنساش تكتب مصدره تقديراً لمجهودي فيه ع الأقل !\n\nHamZa El-Express"
+    media:
+      image:
+        height: 575
+        src: https://scontent.xx.fbcdn.net/v/t1.0-9/1623390_10206753863799045_1691383249646549507_n.jpg?oh=2ae899351066d31a640c4116d7992ccc&oe=5AE251CE
+        width: 325
+    target:
+      url: https://www.facebook.com/photo.php?fbid=10206753863799045&set=p.10206753863799045&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=10206753863799045&set=p.10206753863799045&type=3

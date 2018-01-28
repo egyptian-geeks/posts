@@ -15,3 +15,93 @@ created_time: '2014-08-28T07:13:52+0000'
 updated_time: '2014-08-28T11:14:21+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/805607789478931/
 id: '172338516139198_805607789478931'
+reactions:
+  data:
+  - id: '10156868942177814'
+    name: Ahmed AbdElmaksod
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRVeU1UY3lPREV6T2pFME1Ea3lNVEl3TVRRNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRVeU1UY3lPREV6T2pFME1Ea3lNVEl3TVRRNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2014-08-28T07:43:36+0000'
+    from:
+      name: Ahmed Shabana Al-Saigh
+      id: '10154916632286595'
+    message: if you not prefer or not to investment at new HW you can do this enhancement
+      , 1. Aggregate the warehouse data , i.e. use cubes , to make lookup to processed
+      data instead of repeat IO load to it , 2. try to categoraize table that considered
+      to be CDRs and put it at any free schema DB i.e. cassandra or mongo DB , 4.
+      it is very important to make the old lookup query act in its separate space
+      to remove its impact on the production environment
+    id: '805612472811796'
+  - created_time: '2014-08-28T07:44:44+0000'
+    from:
+      name: Ahmed Shabana Al-Saigh
+      id: '10154916632286595'
+    message: if you have problem at working data you can check vertical and horizental
+      partitioning approaches
+    id: '805612632811780'
+  - created_time: '2014-08-28T08:28:13+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      You don't need to put the data back into the production system. Separating the old data from the newer data is called "Data Warehousing". Searching & reporting should work only on the data warehouse.
+
+      I'm not an expert in data warehousing. You can search more about data warehousing in SQL Server & SSIS.
+    id: '805620139477696'
+  - created_time: '2014-08-28T08:38:00+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: |-
+      Reading and Writing in Databases are two different optimization problems, and most of the time you can only optimize for one at a time.
+      The most common solution is usually to separate the OLTP database (your typical application database transaction) in a separate DB, and a different Reporting DB that can have a completely different table schema (most common schemas for reporting are Star Schema, and Snow-Flake Schema) and in between you develop regular integration jobs that run regularly usually off working hours time to read all the data that happened since the last time it ran from the OLTP system and transform the data and load it into the reporting DB, this operation is usually referred to as ETL (Extract \ Transform \ Load) technologies like SSIS can help you with this.
+    id: '805621696144207'
+  - created_time: '2014-08-28T08:41:40+0000'
+    from:
+      name: Mohammed Abdelhay
+      id: '10155306455658527'
+    message: best solution for That Mohamed Nady is creating multi database files
+      and using part function to split data by date and save each range into its physical
+      database file
+    id: '805622319477478'
+  - created_time: '2014-08-28T08:46:18+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: |-
+      One other problem that usually makes reading optimization conflict with writing is that people usually want to search using multiple criteria (especially Dates) so you wish you can put indexes on all columns, but if you are writing in the same db from your live system the more indexes the slower the writes will be, also making long queries on the DB will slow the database, which will slow your live system as well.
+      so you get more freedom in optimization by separating the two systems, you can run from completely different hardware, and making indexes on any columns you like and also make any transformation on the data that makes sense for your reporting like denormalizing some data to reduce the unnecessary joins.
+    id: '805623096144067'
+  - created_time: '2014-08-28T08:52:54+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: |-
+      http://www.scalebase.com/resources/database-sharding/
+
+      I would recommend using Solr or Elastic Search for Indexing the database automatically and you can ask Solr for whatever you want from the database.
+    id: '805626129477097'
+  - created_time: '2014-08-28T11:14:21+0000'
+    from:
+      name: Wael Ali Salim
+      id: '10159800592940304'
+    message: Well, making business decisions does not necessary require to keep the
+      row transactions data. The system provider can produce a full set of reports
+      showing both service, and system KPIs per day, per service, per department,
+      per city, per governorate, or per whatever can be grouped by. You then can store
+      these reports/summary data for a longer time and drop the historical row data.
+      i.e You keep 2 months of transnational data and 22 months of summary and reporting
+      data. This will reduce the size dramatically and you can even use these summary
+      data to generate a higher level set of reports. You will need to refer to the
+      historical transactions only in case of complains or single specific transaction
+      investigation;
+    id: '805663999473310'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPREExTmpFeU5EY3lPREV4TnprMk9qRTBNRGt5TVRFNE1UWT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPREExTmpZAek9UazVORGN6TXpFd09qRTBNRGt5TWpRME5qRT0ZD

@@ -9,3 +9,44 @@ created_time: '2015-08-19T09:54:01+0000'
 updated_time: '2015-08-19T11:29:41+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/992109987495376/
 id: '172338516139198_992109987495376'
+comments:
+  data:
+  - created_time: '2015-08-19T10:34:53+0000'
+    from:
+      name: Ahmed Gaber
+      id: '1624998054212441'
+    message: Would you specify more? Are you asking for a function in a specific Programming
+      language, or you just need a tool for visualizing your data?
+    id: '992120810827627'
+  - created_time: '2015-08-19T10:39:22+0000'
+    from:
+      name: Ibrahem Salah
+      id: '1391026811024185'
+    message: A function in any language I'm using java
+    id: '992122014160840'
+  - created_time: '2015-08-19T10:53:41+0000'
+    from:
+      name: Ahmed Gaber
+      id: '1624998054212441'
+    message: "Then, I'd recommend going with any statistical computing programming
+      language as they meant to solve such problems. \n\nR programming language, in
+      my opinion, will be very helpful in your case. \n\nYou can start by this simple
+      Codeschool tutorial:\n-- http://tryr.codeschool.com/levels/1/challenges/1\n--
+      https://www.codeschool.com/courses/try-r\n\nThen, take a look at these articles:\n--
+      http://www.phaget4.org/R/image_matrix.html\n-- http://www2.warwick.ac.uk/fac/sci/moac/people/students/peter_cock/r/matrix_contour/\n\nOctave
+      is another opensource good option: https://www.gnu.org/software/octave/"
+    id: '992124720827236'
+  - created_time: '2015-08-19T11:29:41+0000'
+    from:
+      name: Mohamed Nabil
+      id: '10214391993461017'
+    message: "You could try Octave:\nLet matrix A be the matrix you want to plot,\nimagesc(A)
+      \ \n%would give different color representation for each number.\nimagesc(A),
+      colorbar, colormap gray;\n% same thing but with different shades of gray.\n\nThis
+      would probably work on Matlab too (as most commands work on Octave work on Matlab),
+      however I only tried it on Octave."
+    id: '992134074159634'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVGt5TVRJd09ERXdPREkzTmpJM09qRTBNems1T0RBME9UTT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVGt5TVRNME1EYzBNVFU1TmpNME9qRTBNems1T0RNM09ERT0ZD

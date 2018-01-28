@@ -11,3 +11,66 @@ created_time: '2014-08-03T08:35:02+0000'
 updated_time: '2014-08-03T14:33:27+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/793415400698170/
 id: '172338516139198_793415400698170'
+reactions:
+  data:
+  - id: '10155371233278174'
+    name: Badr Mohy
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpRd01USTRNVGN6T2pFME1EY3dOakUzT0RZANk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TmpRd01USTRNVGN6T2pFME1EY3dOakUzT0RZANk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2014-08-03T10:24:56+0000'
+    from:
+      name: أحمد محمود محمد عبدالوهاب
+      id: '10155226291481186'
+    message: try to get the detailed error message not the custom one
+    id: '793443680695342'
+  - created_time: '2014-08-03T10:30:14+0000'
+    from:
+      name: Eslam Hamouda
+      id: '10212947071504226'
+    message: |-
+      you can find the detailed error message in the Website Log under Dashboard tab  called : Management Services >Operation Logs.
+      and make sure that if you are using a SQL Azure database it has been added as a linked resource in the website.
+    id: '793445044028539'
+  - created_time: '2014-08-03T10:31:22+0000'
+    from:
+      name: أحمد محمود محمد عبدالوهاب
+      id: '10155226291481186'
+    message: "@eslam: is it a must? to add the database as linked resource?"
+    id: '793445290695181'
+  - created_time: '2014-08-03T10:33:58+0000'
+    from:
+      name: Eslam Hamouda
+      id: '10212947071504226'
+    message: not sure, but i think because they are preventing any remote connection
+      unless the IP in the white list, and adding it to the linked resource will bypass
+      this issue. also Visual Studio is making this for you if you are logged with
+      your Azure Account.
+    id: '793445914028452'
+  - created_time: '2014-08-03T14:26:03+0000'
+    from:
+      name: Noha Basiony
+      id: '10157199028844478'
+    message: أحمد محمود محمد عبدالوهاب this is the detailed error
+    id: '793537480685962'
+  - created_time: '2014-08-03T14:26:36+0000'
+    from:
+      name: Noha Basiony
+      id: '10157199028844478'
+    message: Eslam Hamouda  There's no operation logs
+    id: '793537700685940'
+  - created_time: '2014-08-03T14:33:27+0000'
+    from:
+      name: أحمد محمود محمد عبدالوهاب
+      id: '10155226291481186'
+    message: "hwa dh el full stack trace? \nw fi repository ll app wala hwa private
+      wala eh?"
+    id: '793540510685659'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemt6TkRRek5qZA3dOamsxTXpReU9qRTBNRGN3TmpFME9UWT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemt6TlRRd05URXdOamcxTmpVNU9qRTBNRGN3TnpZAME1EYz0ZD

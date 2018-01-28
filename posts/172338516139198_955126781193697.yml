@@ -15,3 +15,25 @@ updated_time: '2015-06-07T00:59:45+0000'
 name: jsfiddle.net
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/955126781193697/
 id: '172338516139198_955126781193697'
+comments:
+  data:
+  - created_time: '2015-06-07T00:59:45+0000'
+    from:
+      name: Sameh Saeed
+      id: '10155224155802344'
+    message: |-
+      ok, I found a solution the key is to fill the array first to can work with it later , because i don't use ng-repeat, so i need to bind my child check boxes to the $scope first
+
+      Solution:     http://jsfiddle.net/samehsaeed/q8csfwyz/8/
+    id: '955178884521820'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFUxTVRjNE9EZAzBOVEl4T0RJd09qRTBNek0yTXpnM09EVT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFUxTVRjNE9EZAzBOVEl4T0RJd09qRTBNek0yTXpnM09EVT0ZD
+attachments:
+  data:
+  - target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fjsfiddle.net%2Fsamehsaeed%2Fq8csfwyz%2F7&h=ATMI1R-EZiBlKQwJHj3LZilQ0jIoAdNUGC4KxvZXdsYXRhOwm1GNZP_Yz6w68imVXVK3fTiBppaYLmQdnJ4ip8ZuAH5NGgOYjBy7&s=1&enc=AZPj6Q2lrC8CQeoUVIgZf9aCYZExk18-fSb4BpkyRsXCmjSj8JetE0ZFi22CKkZm2oIvgPhHws2JuZP23YFaU0q9
+    title: jsfiddle.net
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fjsfiddle.net%2Fsamehsaeed%2Fq8csfwyz%2F7&h=ATMI1R-EZiBlKQwJHj3LZilQ0jIoAdNUGC4KxvZXdsYXRhOwm1GNZP_Yz6w68imVXVK3fTiBppaYLmQdnJ4ip8ZuAH5NGgOYjBy7&s=1&enc=AZPj6Q2lrC8CQeoUVIgZf9aCYZExk18-fSb4BpkyRsXCmjSj8JetE0ZFi22CKkZm2oIvgPhHws2JuZP23YFaU0q9

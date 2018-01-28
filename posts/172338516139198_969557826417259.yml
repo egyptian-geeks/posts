@@ -13,3 +13,443 @@ created_time: '2015-07-07T23:39:33+0000'
 updated_time: '2015-07-11T00:25:39+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/969557826417259/
 id: '172338516139198_969557826417259'
+comments:
+  data:
+  - created_time: '2015-07-08T00:34:24+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: It might be a Virtualbox problem, because I've been using the previews
+      for a long time (since november) and haven't faced any critical problems since
+      then (no blue screens), and I've been upgrading from one preview to the other
+      every few weeks and didn't lose any data :)
+    id: '969570743082634'
+  - created_time: '2015-07-08T01:19:05+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: I don't think so, because I am using the latest version of virtualbox
+      with the latest update
+    id: '969581326414909'
+  - created_time: '2015-07-08T01:20:44+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      maybe Windows 10 boots differently, and thus you might need a future version of Virtualbox.
+      Or maybe Windows 10 has a few bugs that relate to virtualization that are yet to be fixed.
+    id: '969581843081524'
+  - created_time: '2015-07-08T01:41:58+0000'
+    from:
+      name: Ahmad Ahmad
+      id: '2037041826574789'
+    message: |-
+      Could you possibly try using vmware workstation v10 or v11?
+      I have the technical preview running well on it
+    id: '969585993081109'
+  - created_time: '2015-07-08T01:42:57+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: Guys the idea is that this is supposed to be a cool OS that can run on
+      multiple devices, it certainly hasn't done this so far
+    id: '969586169747758'
+  - created_time: '2015-07-08T01:45:19+0000'
+    from:
+      name: Ahmad Ahmad
+      id: '2037041826574789'
+    message: I have encountered a couple of bugs. But not something really serious
+      like urs. I think that's the idea behind a technical preview. Perhaps it's got
+      something to do with the HDD settings in "VirtualBox". Try switching between
+      AHCI and IDE.
+    id: '969586509747724'
+  - created_time: '2015-07-08T01:46:55+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      Well a VM isn't really a device, it's more like a trick :D
+      But anyways, I think it has happened before where VM software needed an update to support a certain OS, I remember Parallels on Mac needed an update to support Windows 8, so this isn't a new thing.
+    id: '969587059747669'
+  - created_time: '2015-07-08T02:26:24+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: the point is I can grab any old or new OS off the internet and install
+      it in 5 mins, Windows cannot do that. Also, Windows is 3.5 GB while the biggest
+      linux OS with bells and whistles won't exceed 1.5 GB. The main Windows differentiator
+      long ago was ease of use and compatibility, now that that is gone, I don't expect
+      a bright future for Windows 10. In fact, I make a bold prediction that the next
+      Windows will be Linux based ...
+    id: '969599326413109'
+  - created_time: '2015-07-08T02:30:08+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: Well if you insist on being extremely biased like that then go ahead
+      and install your beautiful bug-free Linux, ta3eb nafsak 3ala eeh ya3ni badam
+      keda keda what you believe will always be the same no matter what we say? :D
+    id: '969600153079693'
+  - created_time: '2015-07-08T02:31:40+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: I am talking about real world experience here, not biased emotions. P.S.
+      I used Windows since 1991 so I guess that would make me an expert :)
+    id: '969600573079651'
+  - created_time: '2015-07-08T02:33:40+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: Also, after trying both, these are my findings. They said an OS for all
+      devices. I used to give Linux a really hard time back in 93 when it was a very
+      basic UI and mostly command line. I remember a Linux guru friend of mine who
+      showed me the first apt-get install when we were using a dial up modem :)
+    id: '969601256412916'
+  - created_time: '2015-07-08T02:35:10+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: If you've been using Windows for the previous years then you should know
+      what technical preview means, you don't sound like someone who tried Windows
+      8 developer preview and saw how horrible it was back then :D
+    id: '969601619746213'
+  - created_time: '2015-07-08T02:36:55+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: man, I tried Windows Vista prerelease, I can't imagine anything worse
+      than that. Anyway, the point is not the war stories here, after installing latest
+      Virtualbox, is there anything else I can do besides hate Windows?
+    id: '969602076412834'
+  - created_time: '2015-07-08T02:40:50+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: Wait till Windows 10 is released at the end of this month, then go to
+      VirtualBox's forums and see if there are patches that need to be done to make
+      it work, if not then try installing it again :)
+    id: '969603196412722'
+  - created_time: '2015-07-08T02:41:53+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: ":) Yeah, I won't be waiting, I have no reason to. The thing is, if they
+      release a preview, they could at least test it on the environment that it will
+      most likely be installed i.e. Virtualbox :)"
+    id: '969603469746028'
+  - created_time: '2015-07-08T02:43:53+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: Or do what I did, get a very old PC, put an SSD in it, and try Windows
+      10 preview in it, and be ready to see the start menu crash every few days, I'm
+      on build 10130, they fixed must of the start menu issues but there are still
+      a few of them that will probably be fixed by the end of the month.
+    id: '969604083079300'
+  - created_time: '2015-07-08T02:45:14+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: And BTW it seems that it works on VMWare (according to Ahmed Ahmed) which
+      as far as I know is much better than VirtualBox, so you can try that too
+    id: '969604489745926'
+  - created_time: '2015-07-08T02:45:47+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: even the most unstable versions of Linux are more stable than that. And
+      the start menu isn't really what I was watching for, rather memory footprint
+      and performance. Oh, well.
+    id: '969604736412568'
+  - created_time: '2015-07-08T02:48:14+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: Performance in preview build is very bad because you are running debug
+      builds that logs everything and sends it back to Microsoft automatically and
+      you can't disable that because that's why they let people try the previews.
+    id: '969605576412484'
+  - created_time: '2015-07-08T02:50:48+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: know, the thing is, unstable, untested. That's bad even for a tech preview
+    id: '969606206412421'
+  - created_time: '2015-07-08T02:53:37+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: "..."
+    id: '969606793079029'
+  - created_time: '2015-07-08T02:59:14+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: Anyway, thanks for your time Hassan Aly Selim, you've been a champ, if
+      you find out anything new please ping me :)
+    id: '969608169745558'
+  - created_time: '2015-07-08T03:00:04+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: I'm not sure if you read all the things I wrote :D
+    id: '969608389745536'
+  - created_time: '2015-07-08T09:01:30+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: "..."
+    id: '969735706399471'
+  - created_time: '2015-07-08T14:17:59+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: Hassan Aly Selim I understand you, but I urge you to try some early release
+      linux on Virtualbox and compare that experience, then you will understand why
+      I find the quality poor. You see, if you build quality into your lifecycle at
+      all stages, the output will always be high quality, quality is not something
+      you put at the very end of the cycle. Reference Agile, Lean, TDD ...etc
+    id: '969818263057882'
+  - created_time: '2015-07-08T14:21:21+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: To make it even more clear, a system like NT was stable and did what
+      it said it would do because they used the heartbeat model for the project, with
+      all the CI, CD, TDD around you would expect that of MS's next OS, if they had
+      done that right, I would expect higher quality Alpha, Beta's etc
+    id: '969819776391064'
+  - created_time: '2015-07-08T14:51:37+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      I can't believe you're actually comparing OSes based on how well they work on a simple VM like VirtualBox (not even a powerful one like VMWare or HyperV). *epic facepalm*
+      and BTW bug fixing and performance tweaking usually happens after you're done implementing the features, either at the end of a sprint or at the final milestone.
+    id: '969827446390297'
+  - created_time: '2015-07-08T17:44:41+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: Virtualbox is a pretty powerful VM, but I guess that is a matter of opinion.
+      Unit testing, CI, CD happen as you are developing the features BTW so you start
+      off with something more stable. In terms of Virtualization, I don't see how
+      VMWare or HyperV are "more powerful", I highly recommend you read about Vagrant.
+    id: '969892456383796'
+  - created_time: '2015-07-08T17:47:37+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: Finally, I compare OSes on performance, storage footprint, memory footprint,
+      ease of install (Linus actually refused Debian cause he found it hard to install
+      :) ), stability, file syystems supported (NTFS, FAT, FAT 32 only in case of
+      Windows) and of course hardware support (Linux has issues with Nvidia)
+    id: '969893703050338'
+  - created_time: '2015-07-09T04:06:39+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: To everyone else, I was about to join the argument, but I find that a
+      waste of time. I thought you could benefit from highlighting it might be to
+      you too.
+    id: '970056859700689'
+  - created_time: '2015-07-09T04:08:19+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Now, about the problem itself, try to use UEFI booting, try removing
+      any CPU related features like nested virtualization, etc. until you nail it
+      down to which feature of VirtualBox might be causing the problem.
+    id: '970057023034006'
+  - created_time: '2015-07-09T04:09:57+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      Also check if this seems relevant at all
+      https://www.virtualbox.org/ticket/13459
+    id: '970057366367305'
+  - created_time: '2015-07-09T04:12:19+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      Another thing to try, read the part following "f your attempt to install the Windows 10 VM isn't successful, try tweaking these settings" in http://www.pcworld.com/article/2690339/how-to-install-the-windows-10-technical-preview-everything-you-need-to-know.html
+      Which is basically EFI and removing PXE (CPU feature) as mentioned in earlier comment
+    id: '970057739700601'
+  - created_time: '2015-07-09T04:14:26+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      This post also suggests you have a look a video settings as well
+      http://www.extremetech.com/computing/198427-how-to-install-windows-10-in-a-virtual-machine
+    id: '970057946367247'
+  - created_time: '2015-07-09T12:57:26+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: Thank your for turning this into a useful thread, and I apologize for
+      allowing me and him to basically spam the comments with a useless conversation.
+    id: '970187359687639'
+  - created_time: '2015-07-09T14:14:30+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: First, I object to the language and judgement Hassan Aly Selim for calling
+      this a spam and useless thread, that us totally uncalled for and totally useless
+      in itself. Mohamed Meligy thanks for the tech information, but please take note,
+      this is not a debate or argument, if you read carefully you will see that I
+      am making serious criticism of a new OS for what it claims to be. In future
+      please try to read conversations without bias or criticism, there is skill to
+      understand what the other person is trying to say, I think that would also be
+      beneficial to you.
+    id: '970210269685348'
+  - created_time: '2015-07-09T14:31:00+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: 'To get back to the teach issues Mohamed Meligy Article 1 is about Debian
+      as the gues OS with Windows 10 as the host, which is not the case here.  Quoting
+      article 2: “The Program Services include experimental and early prerelease software.
+      This means that you may experience occasional crashes and in rare cases data
+      loss. To recover, you may have to reinstall your applications, the operating
+      system, or re-flash your device. Using the Program Services on some devices
+      may impact your  warranty (check with your device provider). By participating,
+      you agree to frequently backup your data.”  The ideao  I wanted to highlight
+      is that an OS promising so much SHOULD IMHO be more stable from the get go,
+      these kinds of statements by MS show to me that their development methodology
+      has not changed much, which in my opinion is a mistake, I seriously believe
+      they need to take pointers from the Linux world as they are doing today and
+      as someone like Nadella is applying. When Hassan Aly Selim replied he was more
+      interested in defending MS than in answering that point or discussing it which
+      I call the old "Ballmer" approach. The deeper meaning behing the post is that
+      the paradigm has changed and is changing, will MS dev teams be able to  keep
+      up with the changes happening in this world or not? Another point I found funny
+      was saying the Virtualbox was a weak virtualization technology as opposed to
+      VMWare or Hyper-V , I find such a statement unqualified and not even scientific,
+      maybe it was a reference to some client features, but Virtualbox goes far beyond
+      that, especially coupled with a technology like Vagrant.  So the main idea which
+      I guess many don''t get is that the software that is being released now and
+      the services are coming in a very delicate time in IT history and MS needs to
+      step thingss up if they want to even keep part of their relevance for the future
+      decade.'
+    id: '970215249684850'
+  - created_time: '2015-07-09T14:37:45+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: Yes, most of my comments here were stupid and I apologize for that, I
+      accidentally fell into pointless talk, I should have stopped when I ran out
+      of actual points of arguments.
+    id: '970217003018008'
+  - created_time: '2015-07-09T14:47:08+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: Hassan Aly Selim I don't mean any offence, I hope you see the point I
+      was trying to make. And I thank you for participating, I am hoping that we could
+      discuss in future your opinions of the direction MS is taking, what you think
+      they are doing right and what you think they should do better.
+    id: '970219503017758'
+  - created_time: '2015-07-10T00:23:11+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      OK, let's have some useless fun...
+      From comments "the main idea which I guess many don't get is that the software that is being released now and the services are coming in a very delicate time in IT history and MS needs to step thingss up"
+
+      From post "Of course this is not just a Windows bashing post" - that's why I thought you are looking for help, not an opportunity to bash windows
+    id: '970393036333738'
+  - created_time: '2015-07-10T00:24:33+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: 'I did read your comments carefully, careful enough that I didn''t even
+      know which part to start talking about first. That was when I realised: There
+      is no point in talking at all'
+    id: '970393286333713'
+  - created_time: '2015-07-10T00:25:32+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: If you tried the suggestions I highlighted let us know how it went and
+      we go from there, otherwise, <sarcasm>continue to have fun with the problem</sarcasm>
+    id: '970393469667028'
+  - created_time: '2015-07-10T11:34:58+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: "> I don't see how VMWare or HyperV are \"more powerful\", I highly \n>
+      recommend you read about Vagrant. \n\nDid you read about it? Because you sound
+      pretty clueless there with your since-the-90s-windows-experience and the first-dpkg-package-of-glory.\n\nThis
+      post is intended to incite a flamewar not solve a problem. So time to put a
+      leash on it... I'm keeping it for the kindness that Meligy showed in presenting
+      solid technical insights instead of shunning it. If this thread drifts again,
+      it'll be removed.\n\nLet this also be a fair warning, this group is not a place
+      to have a flamewar. There's another place for that, they call it IRC. Yeah...
+      It's still running. \nFlamewar inciting posts will be removed without warning.\n\nThanks."
+    id: '970558552983853'
+  - created_time: '2015-07-10T14:20:44+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: Hady Ahmad Actually what you are saying is the start of a flame war and
+      you are being rude and insulting "Did you read about it? Because you sound pretty
+      clueless there with your since-the-90s-windows-experience and the first-dpkg-package-of-glory."
+      This was a very childish way of answering. At least if you try to interfere
+      in a decent conversation do so with maturity. Mohamed Meligy Mohammad Tayseer
+      I don't know how you guys pick admins, but at least have a policy that they
+      need to take a more mature approach to conversations.
+    id: '970602176312824'
+  - created_time: '2015-07-10T14:24:42+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: Obviously because many people need to know about Virtualbox, and I guess
+      virtualization in general, I reccomend this link  https://www.virtualbox.org/
+    id: '970603279646047'
+  - created_time: '2015-07-10T14:29:39+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: Mohamed Meligy I am downloadibd going VirtualBox 5 to people can see
+      how that goes. They should at least have a Live CD opition so that people can
+      actuall try the OS.
+    id: '970604546312587'
+  - created_time: '2015-07-11T00:21:58+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: I also wanted to add some information about Vagrant to the thread for
+      those interested in creating development environments with an Automated tool,
+      I believe it and similar tools are used in cloud hosting companies https://www.vagrantup.com/about.html
+    id: '970763679630007'
+  - created_time: '2015-07-11T00:25:39+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: And here is an informed discussion about Virtualbox vs. VMWare http://discourse.ubuntu.com/t/virtualbox-or-vmware-for-linux-on-windows/1810/16
+    id: '970764326296609'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFk1TlRjd056UXpNRGd5TmpNME9qRTBNell6TVRVMk5qUT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVGN3TnpZAME16STJNamsyTmpBNU9qRTBNelkxTnpRek16az0ZD
+attachments:
+  data:
+  - description: |-
+      After 4 attempts, the final being upgrading  Virtualbox to the most recent version, I guess things are not looking good for Windows 10, the OS that is supposed to run on many devices.
+
+      Of course this is not just a Windows bashing post, so anyone who knows how to get this to work, please enlighten me with your abundant knowledge :)
+    media:
+      image:
+        height: 404
+        src: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/11699001_140044836326772_7114306411562208902_o.jpg?oh=becb6536ef6230de57b14c01fabc6d96&oe=5AE139B4
+        width: 720
+    target:
+      id: '140044836326772'
+      url: https://www.facebook.com/photo.php?fbid=140044836326772&set=gm.969557826417259&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=140044836326772&set=gm.969557826417259&type=3

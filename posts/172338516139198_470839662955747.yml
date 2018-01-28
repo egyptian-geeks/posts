@@ -9,3 +9,79 @@ created_time: '2012-10-11T20:16:54+0000'
 updated_time: '2012-10-13T15:48:05+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/470839662955747/
 id: '172338516139198_470839662955747'
+reactions:
+  data:
+  - id: '10214861141222529'
+    name: Abdelrady Fcis
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRJME5qZA3lNelF4TVRveE16UTVPVGt4TVRBMk9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRJME5qZA3lNelF4TVRveE16UTVPVGt4TVRBMk9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2012-10-11T21:31:50+0000'
+    from:
+      name: Abdelrady Fcis
+      id: '10214861141222529'
+    message: really ?!!!!
+    id: '470861392953574'
+  - created_time: '2012-10-12T05:52:42+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: No I think it supports lazy loading as all LINQ stuff
+    id: '470990936273953'
+  - created_time: '2012-10-12T05:53:14+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: However it depends on what you are doing
+    id: '470991016273945'
+  - created_time: '2012-10-12T07:09:41+0000'
+    from:
+      name: Shady M. Najib
+      id: '10155819655346066'
+    message: Even if this is true, calculate the percentage taken by 100M of RAM compared
+      to the average of RAM of an average PC (not to mention a Server) :)
+    id: '471005319605848'
+  - created_time: '2012-10-12T11:29:15+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: 'There are different ways of loading & processing XML: DOM, SAX, XQuery
+      are the ones I know. You should select what is the best for your situation'
+    id: '471053419601038'
+  - created_time: '2012-10-13T14:51:20+0000'
+    from:
+      name: Mohamed Sameeh Sharaf
+      id: '2167550119925504'
+    message: "Moutaz Shams\ncan you provide link about lazy loading in XML \n\nMohammad
+      Tayseer\ni think DOM is better one because i only know it :) ,what is your opinion
+      ?"
+    id: '471519989554381'
+  - created_time: '2012-10-13T14:59:26+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: It all depends on the situation. Learn about all of them & see what fits
+      you better.
+    id: '471522856220761'
+  - created_time: '2012-10-13T15:19:50+0000'
+    from:
+      name: Mohamed Sameeh Sharaf
+      id: '2167550119925504'
+    message: |-
+      Mohammad Tayseer
+      can you provide links about SAX and XQuery in LINQ :)
+    id: '471529636220083'
+  - created_time: '2012-10-13T15:48:05+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: Google for XmlReader and XPath
+    id: '471539236219123'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAORGN3T0RZAeE16a3lPVFV6TlRjME9qRXpORGs1T1RFeE1UQT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAORGN4TlRNNU1qTTJNakU1TVRJek9qRXpOVEF4TkRNeU9EVT0ZD

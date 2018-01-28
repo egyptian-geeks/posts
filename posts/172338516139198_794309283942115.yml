@@ -9,3 +9,64 @@ created_time: '2014-08-05T07:11:19+0000'
 updated_time: '2014-08-06T00:37:09+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/794309283942115/
 id: '172338516139198_794309283942115'
+comments:
+  data:
+  - created_time: '2014-08-05T07:27:14+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Thanks. From link 2 it seemed the updates arrive very very late to IntelliJ,
+      which made me hesitant on it. I tweeted it a few minutes before asking this
+      question but haven't got comments yet. I guess my main question is how practically
+      they keep the plugins and actual IDEs in sync.
+    id: '794313417275035'
+  - created_time: '2014-08-05T07:29:21+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: I'm also not sure what they mean by simpler settings and opening from
+      folder not being supported. I wonder whether it's possible but is an edge case
+      to use IntelliJ for these, or is common and not exactly adventurous.
+    id: '794313690608341'
+  - created_time: '2014-08-05T08:00:46+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      They Webstorm account replied to me and said that IntelliJ includes both, and that RubyMine includes WebStorm
+
+      https://twitter.com/Meligy/status/496552395568996353
+      https://twitter.com/WebStormIDE/status/496561893243629568
+    id: '794320567274320'
+  - created_time: '2014-08-05T10:36:04+0000'
+    from:
+      name: Mohammed El Sayed
+      id: '10155880598025170'
+    message: https://twitter.com/jetbrains/status/496388902597693441/photo/1
+    id: '794356870604023'
+  - created_time: '2014-08-05T10:49:48+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: 'The interesting bit to this: It means RubyMine and PyCharm support NodeJS!'
+    id: '794361843936859'
+  - created_time: '2014-08-06T00:37:07+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: So, it is confirmed that RubyMine is fully inclusive of WebStorm, and
+      IntelliJ IDEA has most RubyMine features (except ones shared with AppCode, and
+      except simplified project/folder options, and maybe other things).
+    id: '794658897240487'
+  - created_time: '2014-08-06T00:37:09+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: The question remains, *in practice* is it a good idea to just get IDEA?
+      Anyone here made the decision to buy both IDEA and RubyMine (or to not do so)?
+      How did that go?
+    id: '794658907240486'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemswTXpFek5ERTNNamMxTURNMU9qRTBNRGN5TWpNMk16UT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemswTmpVNE9UQTNNalF3TkRnMk9qRTBNRGN5T0RVME1qaz0ZD

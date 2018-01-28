@@ -15,3 +15,38 @@ created_time: '2013-09-05T20:58:03+0000'
 updated_time: '2013-09-06T17:22:22+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/618253671547678/
 id: '172338516139198_618253671547678'
+comments:
+  data:
+  - created_time: '2013-09-06T14:49:01+0000'
+    from:
+      name: Amr Reda
+      id: '10160087313865372'
+    message: You can initialize Timer Object that configured to start with the App
+      Establishment and run the desired function periodically.. check that end of
+      that article http://goo.gl/eLJI4
+    id: '618626671510378'
+  - created_time: '2013-09-06T15:07:52+0000'
+    from:
+      name: Abdelrady Fcis
+      id: '10214861141222529'
+    message: |-
+      but one of the things I've been told that this approach(using .net timers) is not good because it's affected by the OS date & time, so if you changed time it'll be affected or so
+      the second thing is, it it really effective in case of long periods (initialize a timer that will run/elapse after a month or so ) ?
+    id: '618632374843141'
+  - created_time: '2013-09-06T16:24:32+0000'
+    from:
+      name: Amr Reda
+      id: '10160087313865372'
+    message: You've other solution is to configure a job/task in the Database (SQL
+      Server in our case) Engine itself
+    id: '618655384840840'
+  - created_time: '2013-09-06T17:22:22+0000'
+    from:
+      name: Abdelrady Fcis
+      id: '10214861141222529'
+    message: I'll try this option, Thanks a lot :)
+    id: '618673878172324'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOakU0TmpJMk5qY3hOVEV3TXpjNE9qRXpOemcwTnpnNU5ERT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOakU0Tmpjek9EYzRNVGN5TXpJME9qRXpOemcwT0RneE5EST0ZD

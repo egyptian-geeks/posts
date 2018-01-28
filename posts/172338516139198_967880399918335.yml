@@ -11,3 +11,150 @@ created_time: '2015-07-03T23:21:22+0000'
 updated_time: '2015-07-04T06:40:11+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/967880399918335/
 id: '172338516139198_967880399918335'
+reactions:
+  data:
+  - id: '10213861471464409'
+    name: Mohamed Shaban
+    type: LIKE
+  - id: '1669393646472683'
+    name: عبدالعظيم حسني
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBek5qYzVOREV3T1RveE5ETTJNRE0wTnpnek9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBd01EQXlNRFl4T1RFeE1EVTJPakUwTXpVNU56RXlNakk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2015-07-03T23:35:20+0000'
+    from:
+      name: Sameh Saeed
+      id: '10155224155802344'
+    message: طيب ايه السؤال؟
+    id: '967883033251405'
+  - created_time: '2015-07-03T23:35:47+0000'
+    from:
+      name: Shady Atef
+      id: '10213518317565801'
+    message: محتار في Response Code بتاعهم
+    id: '967883703251338'
+  - created_time: '2015-07-03T23:35:58+0000'
+    from:
+      name: Sameh Saeed
+      id: '10155224155802344'
+    message: ليه؟
+    id: '967883753251333'
+  - created_time: '2015-07-03T23:38:16+0000'
+    from:
+      name: Shady Atef
+      id: '10213518317565801'
+    message: "ناخدهم واحدة واحدة : في أول واحدة هو مش بيطلب حاجة معينة .. ف لو Empty
+      Set ارجع 4xx ولا 200 \n2- اعتقد اني لازم ارجع 404 بس بتأكد"
+    id: '967884256584616'
+  - created_time: '2015-07-03T23:39:41+0000'
+    from:
+      name: Sameh Saeed
+      id: '10155224155802344'
+    message: لا مش فاهم معلش ، خلي الشرح أوضح شوية بعد إذنك
+    id: '967884663251242'
+  - created_time: '2015-07-03T23:40:22+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: 404 مش رد صحيح اظن حيكون محير جداً للكلاينت سايد
+    id: '967884743251234'
+  - created_time: '2015-07-03T23:49:58+0000'
+    from:
+      name: Shady Atef
+      id: '10213518317565801'
+    message: "Sameh Saeed Mohammad انا قصدي ع Status Code بتاع HTTP \nاتمني تكون فهمت
+      السؤال \n\nMuhammad Negm يعني ممكن نعتبر ان Empty Set as a valid response ونبعت
+      200"
+    id: '967886703251038'
+  - created_time: '2015-07-04T00:05:33+0000'
+    from:
+      name: Sameh Saeed
+      id: '10155224155802344'
+    message: اه تمام معلش أنا كل ده مفكر أنت عايز ترجع json  مثلا ولا xml لأنك كنت
+      بتقول Response Code  :)
+    id: '967889449917430'
+  - created_time: '2015-07-04T00:09:01+0000'
+    from:
+      name: Sameh Saeed
+      id: '10155224155802344'
+    message: بص هو ما ينفعش تبعت 404 لأن ال request جالك ورجع بنجاح ، ورأيي أبعد عن
+      ال status code ال reserved  وأبعت custom لأن ممكن تيجي لأي سبب حاجة تخلي ال
+      request ما ينجحش وساعتها هيرجع ال code الخاص بالحالة ديه ، وده ممكن يسببلك أنت
+      لخبطة بعد كده
+    id: '967889993250709'
+  - created_time: '2015-07-04T00:15:29+0000'
+    from:
+      name: Muhammad Saleh
+      id: '10156649659196002'
+    message: |-
+      اللي انا شايفه انك لازم ترجع 200 وفي كذا كود معينيين لحالات معينه اوي زي مثلا ال redirect
+      واعتقد انت مش محتاج حاجه تاني في الحالات دي غير 200 في رأيي
+    id: '967891103250598'
+  - created_time: '2015-07-04T00:43:48+0000'
+    from:
+      name: Ahmed Aboulenein
+      id: '10160047384135438'
+    message: |-
+      I think:
+      1. Group exists but without meetings: code 200 and empty list: []
+      2. Specific item that doesn't exist: code 404, no content or error message if needed.
+    id: '967896569916718'
+  - created_time: '2015-07-04T00:50:16+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      1. Can use 204 (no content) as most accurate. 200 might be easier for some clients but it shouldn't be s big deal
+      2. Looks like a straight 404 tho me. Why do you think it might be something else?
+      The difference is that the first is not an error but the second is. I'd this assumption is eating then you need to explain more please
+    id: '967898269916548'
+  - created_time: '2015-07-04T00:50:59+0000'
+    from:
+      name: Islam Gad
+      id: '10208513681277868'
+    message: |-
+      get /students/1 -> if no result 404. resource is not found
+      get /students -> empty list 204 and no message cause http code 204 will respond with no data even if u sent a data .:)
+    id: '967898346583207'
+  - created_time: '2015-07-04T01:05:21+0000'
+    from:
+      name: Mahmoud Maghraby
+      id: '10208829952864521'
+    message: Islam Gad get /students -> empty 204 b2a :D
+    id: '967901489916226'
+  - created_time: '2015-07-04T01:24:30+0000'
+    from:
+      name: Ashraf Kaabi
+      id: '10156258607755921'
+    message: Shady Atef  I guess this may be helpful for you http://archive.oreilly.com/pub/post/restful_error_handling.html
+    id: '967905386582503'
+  - created_time: '2015-07-04T02:38:03+0000'
+    from:
+      name: Islam Gad
+      id: '10208513681277868'
+    message: Mahmoud H. Maghraby haha i meant 204 and u know that !! Edited, Miss
+      u bro isA ill see u soon ;)
+    id: '967924016580640'
+  - created_time: '2015-07-04T02:41:16+0000'
+    from:
+      name: Mahmoud Maghraby
+      id: '10208829952864521'
+    message: Islam Gad i know bro 3amleno sawa ;) you too, Isallah :D
+    id: '967924653247243'
+  - created_time: '2015-07-04T06:40:11+0000'
+    from:
+      name: Hosam Aly
+      id: '1657509230977456'
+    message: "I'd advise against 204, as it's almost like returning a null for a request
+      that should return an empty list. The client would have to use a special check
+      for it unnecessarily. \n\n200 is fine. Just return an empty list, which is the
+      most accurate answer to the client's question."
+    id: '967996819906693'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFkzT0Rnek1ETXpNalV4TkRBMU9qRTBNelU1TmpZAMU1qQT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFkzT1RrMk9ERTVPVEEyTmprek9qRTBNelU1T1RJd01URT0ZD

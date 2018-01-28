@@ -18,3 +18,116 @@ updated_time: '2014-07-01T13:53:52+0000'
 name: Grunt vs Gulp - Beyond the Numbers — Jack Hsu
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/772908866082157/
 id: '172338516139198_772908866082157'
+reactions:
+  data:
+  - id: '10156020325916241'
+    name: Musa Hamza
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpReU5qYzJNalF3T2pFME1EUXlOall6TVRJNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TmpReU5qYzJNalF3T2pFME1EUXlOall6TVRJNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2014-06-29T11:56:28+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Addy Osmani from Google is loving it, and it may be the reason (guessing)
+      it was used in Google web UI starter kit. I find the numbers more useful though,
+      so, even if Gulp is better, most often (not always) you find more plugins ready
+      to use with Grunt than with Gulp.
+    id: '772925452747165'
+  - created_time: '2014-06-29T12:31:15+0000'
+    from:
+      name: Muhammad Saleh
+      id: '10156649659196002'
+    message: I think I might give it a try. . But just like what you said Grunt's
+      community is larger but for me most of the plugins I use are written for Gulp
+      too..
+    id: '772938369412540'
+  - created_time: '2014-06-29T14:05:30+0000'
+    from:
+      name: Ahmed Raslan
+      id: '10159932656445029'
+    message: Islam Magdy
+    id: '772973039409073'
+  - created_time: '2014-06-30T03:39:05+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Its much better than Grunt. I used both of them and i recomeng Gulp over
+      Grunr. Google released a new Ui framework based on Grunt as well.
+    id: '773640442675666'
+  - created_time: '2014-06-30T05:06:43+0000'
+    from:
+      name: Ahmed El Gabri
+      id: '10159938698425582'
+    message: |-
+      I used both & switched to Gulp, much better.
+
+      Here is Google web-starter kit using Gulp https://github.com/google/web-starter-kit
+    id: '773673182672392'
+  - created_time: '2014-06-30T07:24:36+0000'
+    from:
+      name: Muhammad Saleh
+      id: '10156649659196002'
+    message: Thank you guys I will definitely give it a try :)
+    id: '773757789330598'
+  - created_time: '2014-06-30T20:16:05+0000'
+    from:
+      name: Eslam Hamouda
+      id: '10212947071504226'
+    message: |-
+      a nice talk here about them at the end of the video with some basic examples, also he talked about the points of comparison you mentioned above.
+      http://vimeo.com/97501414
+    id: '774161839290193'
+  - created_time: '2014-06-30T21:55:31+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: |-
+      The best analogy I heard about Gulp was from Christopher Coyer ... Basically with Grunt you have to do a lot of things manually. Let's say you are compiling Jade templates into HTML then concatenate the JS files and replace the group of links with only one then minify the HTML ... In Grunt you define the temporary folder where you store the HTML files after being compiled from Jade ... Then tell the next task to scan the files at the temp location and replace the tags with the new one and overwrite the temp files again then tell the minification process to act once again on the files in the temp location and finally copy it to your *build* directory ...
+      With Gulp it is totally different ... It's like chaining with jQuery ... For the sake of simplification it would be like:
+      htmlFiles.CompileJade().replaceTags().minify().moveToDist()
+    id: '774199539286423'
+  - created_time: '2014-07-01T08:37:38+0000'
+    from:
+      name: Muhammad Saleh
+      id: '10156649659196002'
+    message: So the only plus point for Grunt till now is the community.. I think
+      also that Gulp's community is getting bigger
+    id: '774487859257591'
+  - created_time: '2014-07-01T13:45:36+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: The Problem with Grunt is that it's not easy to remember the syntax and
+      it gets messy in big projects. i've used it in http://livefyre.com and it was
+      awesome back then because it was the only task runner back then but now i really
+      recommend Gulp after seeing it's usuage!
+    id: '774619909244386'
+  - created_time: '2014-07-01T13:49:47+0000'
+    from:
+      name: Ahmed Raslan
+      id: '10159932656445029'
+    message: Islam Magdy what do you think ?
+    id: '774621842577526'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemN5T1RJMU5EVXlOelEzTVRZAMU9qRTBNRFF3TkRJNU9EZAz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemMwTmpJeE9EUXlOVGMzTlRJMk9qRTBNRFF5TWpJMU9EYz0ZD
+attachments:
+  data:
+  - description: And so the evolution of front-end development continues with Gulp,
+      the new build system that has already garnered praise amongst many web developers.
+    media:
+      image:
+        height: 583
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQC239oPp8iF_M7J&w=720&h=720&url=http%3A%2F%2Fjaysoo.ca%2Fimages%2Fgrunt-compile-2.png&cfs=1&_nc_hash=AQA-eoNn2VberBeU
+        width: 583
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fjaysoo.ca%2F2014%2F01%2F27%2Fgruntjs-vs-gulpjs%2F&h=ATPeeZzyrHCVMNjkXIiA192Bfav5LYXKFMeWk9AudJp3h5OKlduhY8YhGAso2E2IvIw8DVC9bKRuogHiV8x75Dx6swfA4S3C5jB-&s=1&enc=AZNxkl9YLbBX0cTQmv0ccSXSw00ggJcYRQCMVZt3-8USPhRzT8KQWX12JxbLlkLFNYf4kL9OsP1OdiDMQ_oUY9Vo
+    title: Grunt vs Gulp - Beyond the Numbers — Jack Hsu
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fjaysoo.ca%2F2014%2F01%2F27%2Fgruntjs-vs-gulpjs%2F&h=ATPeeZzyrHCVMNjkXIiA192Bfav5LYXKFMeWk9AudJp3h5OKlduhY8YhGAso2E2IvIw8DVC9bKRuogHiV8x75Dx6swfA4S3C5jB-&s=1&enc=AZNxkl9YLbBX0cTQmv0ccSXSw00ggJcYRQCMVZt3-8USPhRzT8KQWX12JxbLlkLFNYf4kL9OsP1OdiDMQ_oUY9Vo

@@ -11,3 +11,209 @@ created_time: '2015-06-23T17:20:24+0000'
 updated_time: '2015-06-24T00:26:29+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/962928150413560/
 id: '172338516139198_962928150413560'
+reactions:
+  data:
+  - id: '1463621953765328'
+    name: Ahmed Mostafa
+    type: LIKE
+  - id: '879271768900112'
+    name: Osama Soliman
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXpOVEkyTVRFMU56QTNPakUwTXpVd09EYzVPRGs2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTBOVEU0T1RFM01EY3hPakUwTXpVd09EQXhNREU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2015-06-23T17:31:54+0000'
+    from:
+      name: Abdelrhman Shawky
+      id: '10213017755051330'
+    message: "انا جربت rekognition\nو كانت حلوة ، بس هي مش free \nفيه limit كده بس
+      مش فاكر كان كام query  بصراحة."
+    id: '962931523746556'
+  - created_time: '2015-06-23T17:34:57+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: Unless you have an infrared camera that detects depth and heat, you can't
+      trust a regular camera, because it can be easily fooled with a picture
+    id: '962932710413104'
+  - created_time: '2015-06-23T17:36:04+0000'
+    from:
+      name: Sameh Saeed
+      id: '10155224155802344'
+    message: good, how mach this infrared camera
+    id: '962932977079744'
+  - created_time: '2015-06-23T17:36:18+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: You can't trust face detection
+    id: '962933007079741'
+  - created_time: '2015-06-23T17:37:08+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: |-
+      There's a paper how ever made by fb called deepface
+      try to implement it or find an alternative implementation
+    id: '962933287079713'
+  - created_time: '2015-06-23T17:37:32+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: Muhammad Negm You can trust it as long as you have the right detection
+      hardware.
+    id: '962933393746369'
+  - created_time: '2015-06-23T17:37:45+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: https://research.facebook.com/publications/480567225376225/deepface-closing-the-gap-to-human-level-performance-in-face-verification/
+    id: '962933467079695'
+  - created_time: '2015-06-23T17:39:20+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: Mohamed Elsherif Kinect maybe :D
+    id: '962934110412964'
+  - created_time: '2015-06-23T17:41:51+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: or Intel RealSense, there will be more cameras in this category coming
+      up soon, Windows 10 supports Facial recognition using the new Microsoft Hello
+      technology, which explicitly doesn't work with regular web cams.
+    id: '962934880412887'
+  - created_time: '2015-06-23T17:44:06+0000'
+    from:
+      name: Sameh Saeed
+      id: '10155224155802344'
+    message: so i need to buy an infrared camera to can trust this type of recognition
+    id: '962937900412585'
+  - created_time: '2015-06-23T17:45:50+0000'
+    from:
+      name: Sameh Saeed
+      id: '10155224155802344'
+    message: is there any othe ways can be used for identification
+    id: '962943260412049'
+  - created_time: '2015-06-23T17:46:57+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: Why would you not consider finger print or RF-ID and go for a more expensive
+      model that doesn't give you 100% :D ?
+    id: '962943913745317'
+  - created_time: '2015-06-23T17:49:23+0000'
+    from:
+      name: Sameh Saeed
+      id: '10155224155802344'
+    message: I can't use finger print because the workers finger's print erased or
+      Distorted
+    id: '962944513745257'
+  - created_time: '2015-06-23T17:54:46+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: MIB :D ? *men in black*
+    id: '962946420411733'
+  - created_time: '2015-06-23T17:55:13+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: Give them RF-ID cards then, every one has a card in his wallet and bam
+      you're in.
+    id: '962946580411717'
+  - created_time: '2015-06-23T17:56:54+0000'
+    from:
+      name: Sameh Saeed
+      id: '10155224155802344'
+    message: refusd by the owner they are workers and 70% or higher will be cheating
+    id: '962947057078336'
+  - created_time: '2015-06-23T17:57:55+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: You can't trust the face recognition, thats what I learnt the hard way
+      :)
+    id: '962947360411639'
+  - created_time: '2015-06-23T17:58:44+0000'
+    from:
+      name: Sameh Saeed
+      id: '10155224155802344'
+    message: good what about eye or ear ?
+    id: '962947833744925'
+  - created_time: '2015-06-23T18:01:13+0000'
+    from:
+      name: Sameh Saeed
+      id: '10155224155802344'
+    message: https://play.google.com/store/apps/details?id=com.eyeverify.android_verify&__hssc=&__hstc=&hsCtaTracking=472b273d-1f57-4818-9b1b-6a62a8d8365f%7C994f5c50-16ef-4877-bedd-a82cdb2136b7
+    id: '962948770411498'
+  - created_time: '2015-06-23T18:02:45+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: |-
+      About eye All I go that you'll need costy tools to implement it.
+      ears : I have no idea O.o.
+    id: '962949557078086'
+  - created_time: '2015-06-23T18:07:38+0000'
+    from:
+      name: Sameh Saeed
+      id: '10155224155802344'
+    message: ear like eye and fingre has a unique print
+    id: '962957873743921'
+  - created_time: '2015-06-23T19:07:32+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: Putting an image in front of the camera will trick you only for a day,
+      because the next day the person will take a different pose, while an image will
+      look the same
+    id: '962978850408490'
+  - created_time: '2015-06-23T19:09:29+0000'
+    from:
+      name: Sameh Saeed
+      id: '10155224155802344'
+    message: i know that trick so i'm searching for a pro solution
+    id: '962979377075104'
+  - created_time: '2015-06-23T19:33:41+0000'
+    from:
+      name: Ahmed Mostafa
+      id: '1463621953765328'
+    message: I like this discussion
+    id: '962989167074125'
+  - created_time: '2015-06-23T19:39:18+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: |-
+      2 years ago A friend of mine implemented Eigenfaces and he was confused... His face tricked the machine to match anyone randomly expect his own face... And till now we don't know why his face was doing that
+      We doubted the code, used an open source implementation,... still the same thing
+    id: '962990723740636'
+  - created_time: '2015-06-23T19:48:19+0000'
+    from:
+      name: Ahmed Mostafa
+      id: '1463621953765328'
+    message: My friend implemented face detection using opencv Watch "Real Time Face
+      Detection using OpenCV with Java "with code"" on YouTube - https://youtu.be/WeLET1tZPaE
+    id: '962993857073656'
+  - created_time: '2015-06-23T23:34:00+0000'
+    from:
+      name: Omar Sameh Shehata
+      id: '10155438303996219'
+    message: What about voice authentication? http://www.voiceit-tech.com/
+    id: '963076767065365'
+  - created_time: '2015-06-24T00:26:29+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: What makes a solution more "pro"? You can make it as complicated as you
+      want, but it will be more expensive for your client & it will be harder for
+      you (e.g. more bugs).
+    id: '963103493729359'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFl5T1RNeE5USXpOelEyTlRVMk9qRTBNelV3T0RBM01UUT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFl6TVRBek5Ea3pOekk1TXpVNU9qRTBNelV4TURVMU9Eaz0ZD

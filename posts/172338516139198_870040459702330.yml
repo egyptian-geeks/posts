@@ -11,3 +11,291 @@ updated_time: '2014-12-30T23:44:18+0000'
 name: ".NET Design Pattern Framework - dofactory.com"
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/870040459702330/
 id: '172338516139198_870040459702330'
+reactions:
+  data:
+  - id: '10211281555858409'
+    name: Roshdy Abuzeid
+    type: LIKE
+  - id: '10156476353501062'
+    name: Tarik Ibrahim
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRNME5URXlPREEyTWpveE5ERTVPVFUzTmpjd09qSTFOREE1TmpFMk1UTT0ZD
+      after: Tnpjd01Ea3hNRFl4T2pFME1UazVNak0xTWpFNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2014-12-29T10:53:11+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      It's old (which you can also read as: well established).
+
+      It was booming when design patterns were booming in. NET world, more of better alternate to things like Enterprise Library. I think the community eventually preferred less frameworks whenever possible.
+
+      You probably don't need it, but if you think the same way the framework thinks, it's not a bad one, it's just a niche as mainstream is more simple I guess.
+    id: '870103316362711'
+  - created_time: '2014-12-29T11:51:47+0000'
+    from:
+      name: Mohammad Helmy
+      id: '10155848201515605'
+    message: I avoid using or creating large frameworks
+    id: '870124386360604'
+  - created_time: '2014-12-29T12:45:15+0000'
+    from:
+      name: Mohamed Rashed
+      id: '10155764645725568'
+    message: "You don't need to use it as is, as mentioned in the link \n\" .NET architects
+      who purchased the Design Pattern Framework tell us they use this application
+      each and every day as an architectural reference to their own projects. \"\n\n
+      it has many components and they have a massive update in the framework (supporting
+      WebAPI, SPA , REST , OAuth , and the new SPARK Framework) , also they have a
+      code generator built on top of t4 , if you take the pro version.\n\nthe bad
+      point they didn't have a trial version even for evaluation"
+    id: '870152489691127'
+  - created_time: '2014-12-29T18:39:53+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Mohamed Rashed so what applications do you plan on building? Websites?
+      Data portals? Middleware?
+    id: '870417896331253'
+  - created_time: '2014-12-29T18:52:45+0000'
+    from:
+      name: Ammar Youssef
+      id: '10155097484932190'
+    message: بلاش تشتري فيل كبير بيدعي انه بيعمل كل حاجة ، حتى لو كان المبنى بتاعك
+      "تاج محل"  ، هتتزنق عشان هتضطر تعمل كل حاجة به فقط
+    id: '870422232997486'
+  - created_time: '2014-12-29T18:53:21+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: "+++1 Ammar Osama"
+    id: '870422496330793'
+  - created_time: '2014-12-29T19:32:52+0000'
+    from:
+      name: Mohamed Rashed
+      id: '10155764645725568'
+    message: |-
+      Mainly custom CRUD Apps , based on scalable platform , also some legacy modules like users management , security, logging , auditing ,  lookups , .. Also service layer is a must as angular will be act as ui layer.
+
+      For ammar , did you use this framework before ? , I think what you say applied on something like CSLA and spring,net
+    id: '870436119662764'
+  - created_time: '2014-12-29T19:38:35+0000'
+    from:
+      name: Ammar Youssef
+      id: '10155097484932190'
+    message: بالنسبة لي كنت من مستخدمي enterprise library جيد ... بعدين تعودت أن استخدم
+      أشياء صغيرة وقت الحاجة ... لو CRUD انصحك ب odata بسيطة في التعلم وقياسية standard
+      وأدائها هائل ... user management شوف آخر حاجة مع webapi و ال individual security
+      ... وهكذا ... قسم عملك ومش لازم تجيب حاجات كبيرة لأشياء بسيطة
+    id: '870438382995871'
+  - created_time: '2014-12-29T20:12:08+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Ammar Osama You prefer odata over EF?
+    id: '870450289661347'
+  - created_time: '2014-12-29T20:26:21+0000'
+    from:
+      name: Ammar Youssef
+      id: '10155097484932190'
+    message: odata is webservice over EF
+    id: '870454749660901'
+  - created_time: '2014-12-29T20:42:17+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Ammar Osama but that would only be used if you needed data over the web,
+      and would need to be secured heavily, Also,  Http would provide a lot of overhead
+      and so would XML.
+    id: '870459916327051'
+  - created_time: '2014-12-29T20:44:48+0000'
+    from:
+      name: Ammar Youssef
+      id: '10155097484932190'
+    message: ـ CRUD apps فهمت منها  CRUD apis وبالتالي هتبقى http and data over web
+    id: '870461509660225'
+  - created_time: '2014-12-29T20:47:06+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: CRUD apps could also be data entry where just the pages are served over
+      the web but you could also be right, depends on the  case.
+    id: '870462069660169'
+  - created_time: '2014-12-30T03:20:29+0000'
+    from:
+      name: Emad Mokhtar Habib
+      id: '10159905066535634'
+    message: "من الأخر  بعد ما استعملت Python and Django اتضحلي أن ال. NET developers
+      بيحبوا التعقيد و ان الكلام دا مش موجود في العالم التاني \U0001F609"
+    id: '870591606313882'
+  - created_time: '2014-12-30T03:27:09+0000'
+    from:
+      name: Emad Mokhtar Habib
+      id: '10159905066535634'
+    message: 'And BTW MVC is good way to build you apps you can use any kind of models:
+      EF models, NoSQL documents,  miniORM pocos, or EF data services OData like mentioned
+      above which will give you the flexibility to query your data via Web services
+      out of the box, etc.. Controllers and the routing table will handle the requests,
+      also you can change the View which is the presentation layer with anything like
+      AngularJS if you want to build SPA (Single Page Application) or use the standard
+      Razor view'
+    id: '870594076313635'
+  - created_time: '2014-12-30T03:46:35+0000'
+    from:
+      name: Mohamed Rashed
+      id: '10155764645725568'
+    message: "عمر ماحد قال ان مستوى التعقيد بيعتمد على لغة البرمجة ، مستوى التعقيد
+      بيعتمد على فكر المبرمج\n\nثانيا انا عايز اقول ان ال odata\n حلوة مافيش كلام
+      ، بس للاسف دى حاجة عاملاها مايكروسوفت ومقيفاها على ال EF \nيعنى لو حبيت تشغلها
+      مع tinyORM \nمش هتعرف ، انا شخصيا بتجيلى حساسية من ال EF \nالله يحرقه"
+    id: '870601326312910'
+  - created_time: '2014-12-30T03:52:38+0000'
+    from:
+      name: Mohamed Rashed
+      id: '10155764645725568'
+    message: |-
+      صدقنى انت لما بتشتغل مع تيم كبير مثلا ١٠ افراد و كمان ممكن تشتغل فى شركة فيها اكتر من تيم , بيبقى مهم جدا ان الشركة يكون ليها شكل و لون موحد فى بناء البرامج وإلا هتبقى سمك لبن تمر هندى بعد كام سنة لو كل واحد هيشتغل بدماغه
+
+      ومن هنا بتيجى فايدة البتاع اللى فوق ده ، او غيره مش شرط هوه ، وده له ابعاد كتير جدا يطول شرحها ، اقلها عملية تغيير افراد التيم لسبب او لاخر مثلا ، انضمام ناس جديدة ومحتاجة تدريب ، عملية الدعم الفنى واللى غالبا بتكون من تييم تانى فى بعض الشركات
+    id: '870605536312489'
+  - created_time: '2014-12-30T03:58:05+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: "أنا اشتغلت بالـ Entity Framework 4 و ندمت كتير لدرجة اني دخلت جامد جدا
+      في الـ NHibernate (وظيفتي الحالية اللي حكالي عليها كان واحد من الـ main committers
+      في NHibernate - ده يقول لك قد ايه تعمقت فيه). \n\nشغلي الحالي بأروح لشركات برمجة
+      تانية و أشتغل بأي عفريت عندهم و من وقت للتاني بس يبقى عندي الاختيار. مؤخرا عملت
+      حوالي ٣ مشاريع بـ EF 6.x و الحقيقة الراجل كان أظرف مما توقعت بكتير. في اتنين
+      منهم حطينا OData  علشان AngularJS على فكرةـ\n\nو كان مقضي الغرض تمام يعني. الحقيقة
+      الـ Performance بتاع الـ queries اللي كان بيعملها من جمل LINQ معقدة أبهرني جدا
+      (بالرغم من الـ queries دي كان يبان شكلها غبي قوي و أنت بتقرأها بس كانت سرعتها
+      رهيبة)."
+    id: '870606686312374'
+  - created_time: '2014-12-30T04:00:55+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: لاحظ إن عيب البتاع ده مقارنة بطريقة معينة في استخدام الـ EF و أدوات مشهورة
+      تانية هو ان الـ learning curve أسوأ بكتير. بدل ما تقول لواحد مثلا احنا بنقفل
+      الـ lazy loading و بنحط الـ queries بس في الـ layer الفلانية أنت بتعلمه الـ
+      framework كله (لإن صعب تلاقي حد متعلمه جاهز)ـ و طالما هايتعلم أكتر هايعمل أخطاء
+      أكتر.
+    id: '870607362978973'
+  - created_time: '2014-12-30T04:06:10+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: "مهم قوي في التيمز الكبيرة (انا اشتغلت في شغل بنوك اشتغل فيه مئات الناس
+      من أستراليا و أمريكا و الهند) أنك تبقى mainstream بقدر الإمكان - غالبا هاتضطر
+      تعمل حاجات مختلفة علشان حجم المشروع أو التيم كده كده، فمتكترش منها لانك كده
+      كده هايبقى عندك منها \n\nعلشان الناس لما تكون ما استخدموهاش قوي ما تقاوحش معاك
+      كتير انت ليه استخدمتها و مايحسوش انهم مش مستفيدين باللي بيتعلموه علشان غالبا
+      مش هايلاقوا حد تاني بيستخدم نفس الكلام في الشركات التانية، و يبقى سهل عليهم
+      لما يقعوا في مشاكل يدوروا و يلاقوا الحلول بنفسهم.\n\nحتى علشان يبقى سهل على
+      الجداد يفهموا الكود القديم (مثلا مايجيش حد جديد يعدل في كود generated بالغلط
+      و بعدين يقول فين شغلي لما يحصل generation تاني). \n\nما تعملش حاجة مجنونة أو
+      مش مشهورة كفاية إلا لو فعلا مضطر."
+    id: '870612749645101'
+  - created_time: '2014-12-30T05:45:33+0000'
+    from:
+      name: Mohamed Rashed
+      id: '10155764645725568'
+    message: "شكراً يامحمد على ردك الوافى ... انا مقتنع جدا بكلامك و انا شخصيا خبط
+      كتير فى مشاكل من هذا النوع مع حاجات تانية .. الله يرحم أيام ال DNN و CSLA\nعموما
+      انا كان نفسى يكون ال DoFactory حاجة مختلفة , لان الواحد تعب من كتر ما كل تيم
+      ماشى بمزاجه \n\nمن جهة تانية طيب ايه الافضل , ان الواحد يبنى كل حاجة بايده ,
+      و لا يستعين بحاجة معمولة جاهزة , مع العلم ان فى فخوخ كتير على النت"
+    id: '870640596308983'
+  - created_time: '2014-12-30T05:57:47+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      زي ما أنت أكيد عارف It depends.
+      بس في العموم ممكن تدور على حلول كاملة لو الـ community بتاعها كبير. دايما قارن مابين مشاكل و تكلفة انك تعملها و مشاكل و تكلفة الحاجة الجاهزة و قرر بناء على ده. في كذا موقف و كذا حاجة انت عايز تجربها الاجاية هاتكون مختلفة في كل مرة.
+    id: '870643756308667'
+  - created_time: '2014-12-30T05:59:53+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: و لاحظ إن لو الدنيا ماشية عندك صح المفروض يبقى عادي لو اكتشفت بعد كده
+      ان قرار مش صح و حطيت خطة لاستبداله و نفذتها على المدى الزمني المناسب
+    id: '870644302975279'
+  - created_time: '2014-12-30T07:09:30+0000'
+    from:
+      name: Mostafa Alaa Mohamed
+      id: '1791277350884061'
+    message: طيب انا عندي سؤال هل الEF افضل الخيارات لل .Net؟
+    id: '870659619640414'
+  - created_time: '2014-12-30T12:43:24+0000'
+    from:
+      name: Mohamed Nady
+      id: '10155293228608733'
+    message: |-
+      احب اعرف راى الناس اية فى التالى :
+      عملية الــ MIX بمعنى :
+      بما ان عمليات الاضافة والتعديل والحذف مبتعملش Load عالى او قت كبير يمكن ان نستخدم EF فيها
+      وعمليات الــ heavy queries and reads نعمل direct stored procedure ونستدعية مباشرة من EF
+    id: '870776426295400'
+  - created_time: '2014-12-30T12:44:58+0000'
+    from:
+      name: Mohamed Nady
+      id: '10155293228608733'
+    message: ثانيا Mohamed Rashed ياريت تحكلنا عن مشاكلك مع الــ EF  لان فى مشروع
+      كبير وبيتعامل مع بيانات بالملاين وناوين نستخدمها فية
+    id: '870776956295347'
+  - created_time: '2014-12-30T16:13:23+0000'
+    from:
+      name: Mohamed Rashed
+      id: '10155764645725568'
+    message: |-
+      اه طبعا ينفع تعمل mix
+      شوف كده الراجل الجامد ده
+      http://martinfowler.com/bliki/CQRS.html
+    id: '870863366286706'
+  - created_time: '2014-12-30T16:19:51+0000'
+    from:
+      name: Mohamed Rashed
+      id: '10155764645725568'
+    message: "بالنسبة لل EF \nزى ماقال محمد معظم الناس خدت فكرة وحشة عنه من v. 4\nوانا
+      وقفت لحد هنا \nواللى اداله فرصة تانية فى v. 6\nبيقول اتحسن كتير \nانا مثلا شوفت
+      جحيم تحت الماء لما استخدمته لل oracle\nوكمان ال designer بتاعه كان شنيع\nمعظم
+      اللى سد معاهم كانوا بيستخدموا ال T4 templates  بتاعته وبس \nوال complex queries
+      in SPs \nغير كده انا شخصيا عاشق لمبدأ ال tiny ORM \nو عامل شغل كتير و ممتاز
+      بال PetaPoco"
+    id: '870865716286471'
+  - created_time: '2014-12-30T16:27:03+0000'
+    from:
+      name: Mohamed Rashed
+      id: '10155764645725568'
+    message: "عايز أقولك كمان ان ناس كتير راحت لل tinyORMs\nعندك مثلا ال DNN & Umbraco
+      بيستخموا ال petapoco \nوال StackOverFlow مبنى على dappernet"
+    id: '870868399619536'
+  - created_time: '2014-12-30T23:44:18+0000'
+    from:
+      name: Mohamed Nady
+      id: '10155293228608733'
+    message: شكرًا ياشباب بجد بوست كويس
+    id: '871033199603056'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGN3TVRBek16RTJNell5TnpFeE9qRTBNVGs0TlRBek9URT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGN4TURNek1UazVOakF6TURVMk9qRTBNVGs1T0RNd05UZAz0ZD
+attachments:
+  data:
+  - description: ".NET Design Pattern Framework and SPARK Platform."
+    media:
+      image:
+        height: 489
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQARTKtfIzucuhxp&w=720&h=720&url=http%3A%2F%2Fwww.dofactory.com%2FImages%2Fvisualstudio2012.jpg&cfs=1&_nc_hash=AQA2zTpww-jzQHjt
+        width: 489
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.dofactory.com%2Fproducts%2Fnet-design-pattern-framework&h=ATOaUgJ1iVkWeGKapCr_FbE6jwrtx3J6Kp2FbnFIAmrYfhPNVkvwBv1uY8ary6kZxh5enmWdhrpV_B67DTLcO-gjHc7RTVInEFcN&s=1&enc=AZPKeUkBwwtu8xw0-qOUrS9r8NsJXxug2y9zq2NHSPZetFuHDLdhwQjINjQ2phRjbbwZ6NlE5Fn92CJRu2q4_FDR
+    title: ".NET Design Pattern Framework - dofactory.com"
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.dofactory.com%2Fproducts%2Fnet-design-pattern-framework&h=ATOaUgJ1iVkWeGKapCr_FbE6jwrtx3J6Kp2FbnFIAmrYfhPNVkvwBv1uY8ary6kZxh5enmWdhrpV_B67DTLcO-gjHc7RTVInEFcN&s=1&enc=AZPKeUkBwwtu8xw0-qOUrS9r8NsJXxug2y9zq2NHSPZetFuHDLdhwQjINjQ2phRjbbwZ6NlE5Fn92CJRu2q4_FDR

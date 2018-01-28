@@ -13,3 +13,175 @@ created_time: '2014-02-11T20:53:40+0000'
 updated_time: '2014-02-13T12:17:37+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/699793696727008/
 id: '172338516139198_699793696727008'
+comments:
+  data:
+  - created_time: '2014-02-11T20:54:47+0000'
+    from:
+      name: Ebrahim Hamdy
+      id: '1815196425191163'
+    message: Emad Elsaid
+    id: '699794066726971'
+  - created_time: '2014-02-11T21:09:54+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: https://groups.google.com/forum/#!msg/rubyinstaller/E4pb4Scw5SU/fBu9CpUyFR8J
+    id: '699799670059744'
+  - created_time: '2014-02-11T22:21:12+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: جرب كده تشيل السطر بتاعالجيم ديمن gemfile اعمل للسطر اللي فيه sdoc كومنت
+      و جرب كده
+    id: '699820746724303'
+  - created_time: '2014-02-11T22:32:59+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: you are installing it on mac, linux or windows?
+    id: '699824376723940'
+  - created_time: '2014-02-11T22:35:54+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: اعتقد ويندوز لان الكوماند لاين بتاعه مش بيحول الاكواد لالوان فابيطلع
+      حاجات زي [31 و الاسهم و الكلام ده
+    id: '699825680057143'
+  - created_time: '2014-02-11T23:19:15+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: "For anyone to properly help here, we need three things...\n\n- Your
+      Gemfile (Use http://pastie.org)\n\n- What kind of platform are you on (this
+      is clearly a windows running a MinGw chain, but I need to know what windows
+      are we talking about)\n\n- Your systems configuration, please answer these questions:\n
+      -- how did you get ruby installed (did you use pik?), what version is your ruby?\n
+      -- did you build it yourself? then what build configurations did you use?\n
+      -- how did you get rails installed? \n\nAlso you are saying, you were installing
+      the Ruby on Rails framework and you are generating a controller, did you actually
+      install Ruby on Rails?\n\nAlso how are you running your commands, using a \"bundle
+      exec\"?\n\nEdit: Also kindly http://pastie.org the entire terminal output."
+    id: '699839630055748'
+  - created_time: '2014-02-12T07:25:28+0000'
+    from:
+      name: Ebrahim Hamdy
+      id: '1815196425191163'
+    message: "this the first time to work on ruby on rails , so some thing may i missing
+      \n-http://pastie.org/8725027 (if that the gem file that you talking about)\n-i
+      have window 8.1\n-i install the ruby form the website (http://rubyonrails.org/download)\n-i
+      setup rails from this website (http://railsinstaller.org/en)\n-i mean i installed
+      ruby and framework rails \n- i read the command (gem install bundle) but out
+      the error\n- http://pastie.org/8725057"
+    id: '699978050041906'
+  - created_time: '2014-02-12T07:38:03+0000'
+    from:
+      name: Ebrahim Hamdy
+      id: '1815196425191163'
+    message: Emad Elsaid i didn't get what you talk about !
+    id: '699980723374972'
+  - created_time: '2014-02-12T10:25:00+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: |-
+      open: Gemfile -> this fiel will be found in the root of your project
+      comment the line that contain : sdoc
+      save
+      run: bundle install again
+    id: '700020396704338'
+  - created_time: '2014-02-12T21:08:55+0000'
+    from:
+      name: Ebrahim Hamdy
+      id: '1815196425191163'
+    message: "Emad Elsaid sorry , but the same error \ni want to install bitnami !?"
+    id: '700269933346051'
+  - created_time: '2014-02-12T21:58:28+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: |-
+      Ebrahim Hamdy the gem file is named "Gemfile", kindly pastie this.
+      And pastie the output from "gem list"
+
+      Also this command "gem install bundle" should be "gem install bundler"
+
+      So you installed ruby using rubyinstaller for windows, which version? 1.8, 1.9 or 2.0
+
+      Edit Explanation to what's happening: In general, this error is sometimes related to a gem not being required for some reason. Might be a mess up from a 3rd-party gem or you're forcefully instructing rails not to require that gem during boot sequence.
+
+      I don't know what's included in your Gemfile, but if you have something like
+      > gem "sdoc", :require => false
+      or
+      > gem "sdoc", require: false
+
+      please remove the "require" part. then run "bundle install"
+    id: '700286240011087'
+  - created_time: '2014-02-12T22:19:35+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: |-
+      The gem looks something like this one:
+
+      source 'https://rubygems.org'
+
+      gem 'rails', '3.2.14'
+      gem 'mysql2', '0.3.13'
+      gem 'bcrypt-ruby', '~> 3.0.0'
+
+      group :development do
+        gem 'quiet_assets', "1.0.2"
+        gem "debugger", '1.6.2'
+        gem 'letter_opener', "1.1.2"
+      end
+
+      group :staging, :production do
+        gem 'unicorn', '4.6.3'
+      end
+    id: '700294590010252'
+  - created_time: '2014-02-13T09:03:11+0000'
+    from:
+      name: Ebrahim Hamdy
+      id: '1815196425191163'
+    message: thank you the error solved , but i have a problem to connect to localhost:3000
+      !?
+    id: '700500386656339'
+  - created_time: '2014-02-13T09:14:18+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: in your hosts file do you have mapping localhost 127.0.0.1 ?
+    id: '700502126656165'
+  - created_time: '2014-02-13T09:15:25+0000'
+    from:
+      name: Ebrahim Hamdy
+      id: '1815196425191163'
+    message: "that is the contains of host file \n\n# Copyright (c) 1993-2009 Microsoft
+      Corp.\n#\n# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.\n#\n#
+      This file contains the mappings of IP addresses to host names. Each\n# entry
+      should be kept on an individual line. The IP address should\n# be placed in
+      the first column followed by the corresponding host name.\n# The IP address
+      and the host name should be separated by at least one\n# space.\n#\n# Additionally,
+      comments (such as these) may be inserted on individual\n# lines or following
+      the machine name denoted by a '#' symbol.\n#\n# For example:\n#\n#      102.54.94.97
+      \    rhino.acme.com          # source server\n#       38.25.63.10     x.acme.com
+      \             # x client host\n\n# localhost name resolution is handled within
+      DNS itself.\n# 127.0.0.1       localhost\n# ::1             localhost\n127.0.0.1
+      activate.adobe.com\n127.0.0.1 practivate.adobe.com\n127.0.0.1 lm.licenses.adobe.com"
+    id: '700502256656152'
+  - created_time: '2014-02-13T09:16:08+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: 'you need to uncomment # 127.0.0.1 localhost'
+    id: '700502336656144'
+  - created_time: '2014-02-13T09:20:46+0000'
+    from:
+      name: Ebrahim Hamdy
+      id: '1815196425191163'
+    message: done , but the problem to connect to 127.0.0.1:3000
+    id: '700503143322730'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOams1TnprME1EWTJOekkyT1RjeE9qRXpPVEl4TlRJd09EYz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekF3TlRBek1UUXpNekl5TnpNd09qRXpPVEl5T0RNeU5EWT0ZD

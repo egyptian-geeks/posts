@@ -9,3 +9,208 @@ created_time: '2015-05-18T16:09:07+0000'
 updated_time: '2015-05-18T19:22:16+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/941254152580960/
 id: '172338516139198_941254152580960'
+comments:
+  data:
+  - created_time: '2015-05-18T16:21:42+0000'
+    from:
+      name: AbdAllah Khashaba
+      id: '1032800230207501'
+    message: 'I think it is a font related issue , the font : GESSTwoMedium  , supports
+      hindi digits as i think'
+    id: '941260732580302'
+  - created_time: '2015-05-18T16:21:56+0000'
+    from:
+      name: AbdAllah Khashaba
+      id: '1032800230207501'
+    message: http://www.fonts2u.com/ge-ss-two-medium.font
+    id: '941260822580293'
+  - created_time: '2015-05-18T16:22:52+0000'
+    from:
+      name: Marwan Atef
+      id: '10213447132206011'
+    message: للأسف جربت اكتر من نوع خط بس المشكلة هيا هيا
+    id: '941261152580260'
+  - created_time: '2015-05-18T16:23:21+0000'
+    from:
+      name: AbdAllah Khashaba
+      id: '1032800230207501'
+    message: can i see a live version ?
+    id: '941261512580224'
+  - created_time: '2015-05-18T16:23:40+0000'
+    from:
+      name: Ahmed Mostafa
+      id: '1463621953765328'
+    message: ممكن تكتب jquery script
+    id: '941261619246880'
+  - created_time: '2015-05-18T16:24:25+0000'
+    from:
+      name: Marwan Atef
+      id: '10213447132206011'
+    message: ''
+    id: '941262082580167'
+  - created_time: '2015-05-18T16:24:49+0000'
+    from:
+      name: AbdAllah Khashaba
+      id: '1032800230207501'
+    message: This is arial font :)
+    id: '941262202580155'
+  - created_time: '2015-05-18T16:25:06+0000'
+    from:
+      name: Marwan Atef
+      id: '10213447132206011'
+    message: اها منا غيرتة بردو و نفس النتيجة Arabs Knight
+    id: '941262422580133'
+  - created_time: '2015-05-18T16:25:32+0000'
+    from:
+      name: Marwan Atef
+      id: '10213447132206011'
+    message: Ahmed Mostafa لو عملت كدا هيعدل فى اول صفحة ببس انا محتاج التقرير كلة
+      يتعدل علشان العميل بيطبع تقرير 5 6 صفحات
+    id: '941262549246787'
+  - created_time: '2015-05-18T16:25:42+0000'
+    from:
+      name: AbdAllah Khashaba
+      id: '1032800230207501'
+    message: "user the GESSTwoMedium and force CSS to use the font using \n\n!important;"
+    id: '941262615913447'
+  - created_time: '2015-05-18T16:26:18+0000'
+    from:
+      name: Marwan Atef
+      id: '10213447132206011'
+    message: كدا هيعدل الجزء ال ظاهر مش هيعدل باقى التقرير Arabs Knight
+    id: '941262839246758'
+  - created_time: '2015-05-18T16:29:20+0000'
+    from:
+      name: AbdAllah Khashaba
+      id: '1032800230207501'
+    message: |-
+      .nice_font{
+          font-family:xxxxxxx !important;
+      }
+
+      and give nice_font class to any text you need to show this font
+    id: '941263525913356'
+  - created_time: '2015-05-18T16:29:58+0000'
+    from:
+      name: AbdAllah Khashaba
+      id: '1032800230207501'
+    message: http://3naw.in ... inspect the element and try the font
+    id: '941263672580008'
+  - created_time: '2015-05-18T16:30:57+0000'
+    from:
+      name: Marwan Atef
+      id: '10213447132206011'
+    message: انا فاهم الفكرة دى بس المشكلة ان دى هتعدل فى الصفحات ال بتظهر لو التقرير
+      10 صفحات بيظهر منها صفحة واحدة بس و دي ال هتتعدل لكن هوا بيطبع كلة فاهممنى
+    id: '941263875913321'
+  - created_time: '2015-05-18T16:32:29+0000'
+    from:
+      name: Mohamad Eldhemy
+      id: '10213371165626932'
+    message: "كنت عملت حاجة زي دي لكن ب php و مرة برضو ب JavaScript \nشوف حضرتك هتعمل\nReplace
+      each occurrence \nمن اي حاجة قبل ما تعرضها بحيث تستبدل الارقام في النص بالارقام
+      الهندية \nممكن تنسخها من التعليق بتاعي و تحطهم في array \n١٢٣٤٥٦٧٨٩٠"
+    id: '941264169246625'
+  - created_time: '2015-05-18T16:32:36+0000'
+    from:
+      name: AbdAllah Khashaba
+      id: '1032800230207501'
+    message: مش قادر أفهم ليه أول صفحة اللى هتتعدل ... المفروض كل الصفحات زى بعضها
+      و لكن إختلاف ال data بس
+    id: '941264202579955'
+  - created_time: '2015-05-18T16:33:24+0000'
+    from:
+      name: AbdAllah Khashaba
+      id: '1032800230207501'
+    message: كل الصفحات واخده نفسه ال CSS rules ... لأنها كلها نفس ال template
+    id: '941264445913264'
+  - created_time: '2015-05-18T16:34:51+0000'
+    from:
+      name: Marwan Atef
+      id: '10213447132206011'
+    message: لا علشان ال crystal viewer مش بيعرض فى صفحات دا بيعرض جوا حاجة زى ال
+      paging كدا
+    id: '941264725913236'
+  - created_time: '2015-05-18T16:36:11+0000'
+    from:
+      name: AbdAllah Khashaba
+      id: '1032800230207501'
+    message: غير إنتا بقى الحاجه الى جوه دى :) .. إعمل overwrite لل CSS rules بتاعتها
+    id: '941264985913210'
+  - created_time: '2015-05-18T16:37:19+0000'
+    from:
+      name: AbdAllah Khashaba
+      id: '1032800230207501'
+    message: |-
+      for ex
+
+      .mypage  iframe  table  tr  td {
+       font-family: xxxx !important;
+      }
+    id: '941265212579854'
+  - created_time: '2015-05-18T16:37:20+0000'
+    from:
+      name: Ahmed Mostafa
+      id: '1463621953765328'
+    message: Font family ملوش علاقه بالارقام
+    id: '941265215913187'
+  - created_time: '2015-05-18T16:38:12+0000'
+    from:
+      name: AbdAllah Khashaba
+      id: '1032800230207501'
+    message: Ahmed Mostafa شوفت الصورة اللى أنا رافعها فى كومنت فوق ؟
+    id: '941265382579837'
+  - created_time: '2015-05-18T18:33:49+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Ahmed Mostafa For sure the font family has to do with the number :) can
+      you try to show an Arabic numbers using "Comic Sans" ?
+    id: '941304045909304'
+  - created_time: '2015-05-18T19:09:43+0000'
+    from:
+      name: Ahmed Mostafa
+      id: '1463621953765328'
+    message: Comic sans not showing the Arabic numbers
+    id: '941313925908316'
+  - created_time: '2015-05-18T19:10:29+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Now try it with Tahoma :)
+    id: '941314065908302'
+  - created_time: '2015-05-18T19:14:21+0000'
+    from:
+      name: Ahmed Mostafa
+      id: '1463621953765328'
+    message: ''
+    id: '941314955908213'
+  - created_time: '2015-05-18T19:14:38+0000'
+    from:
+      name: Ahmed Mostafa
+      id: '1463621953765328'
+    message: ''
+    id: '941315012574874'
+  - created_time: '2015-05-18T19:20:24+0000'
+    from:
+      name: AbdAllah Khashaba
+      id: '1032800230207501'
+    message: "Mohamed Alaa El Din Tahoma does not support arabic letters but only
+      in some systems ( special versions )\n\nAhmed Mostafa  try this one :\n\nhttp://3naw.in/application/views/assets/fonts/GESSTwoMedium.otf\n\n@font-face
+      {  \n      font-family: nice_font ;  \n      src: url(\"http://3naw.in/application/views/assets/fonts/GESSTwoMedium.otf\")
+      format(\"opentype\");  \n      unicode-range:\"U+0-10FFFF\";\n}\n\nthen use
+      it with as:\n\nfont-family:nice_font;"
+    id: '941316222574753'
+  - created_time: '2015-05-18T19:22:16+0000'
+    from:
+      name: AbdAllah Khashaba
+      id: '1032800230207501'
+    message: |-
+      also you must identify the unicode-range of the font :
+
+      https://developer.mozilla.org/en-US/docs/Web/CSS/unicode-range
+    id: '941316635908045'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFF4TWpZAd056TXlOVGd3TXpBeU9qRTBNekU1TmpZAeE1EST0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFF4TXpFMk5qTTFPVEE0TURRMU9qRTBNekU1TnpZANU16WT0ZD

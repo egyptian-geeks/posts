@@ -16,3 +16,122 @@ permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/65157779
 shares:
   count: 1
 id: '172338516139198_651577798215265'
+comments:
+  data:
+  - created_time: '2013-11-11T10:47:06+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: "I would make it with SQL, something like : \n\nFieldTypes:\nId\nName\nRegexExpressionOrIdOrSQLType..etc\n\nForms:\nId\nName\n\nFormFields:\nId\nFormId\nFieldTypeId\nFieldLabel\nDisplayOrder\nDefaultValueOrValues\n\nFormFieldValidations:\nId\nFormFieldId\nRegexExpressionOrId\n\nأظن
+      من غير سكيما هتعك أوي وتكون صعبه وبطيئه في عمل تقارير واحصائيات حلوه والخ لما
+      الداتا تكبر، ساعات باتعامل مع قواعد بيانات زي اللي إنت عايز تعملها وغالبا بتكون
+      مقرفه مثلا لو أنا عايز أجيب إيميلات كل الناس من كل الفورمز مش باقدر بسهوله لأن
+      فيلدات الإيميل في كل فورم مختلفة مثلا وباسماء مختلفة والخ وحاجات كتير من دي،
+      بس إنت عموما أدرى بالنظام اللي بتعمله"
+    id: '651590958213949'
+  - created_time: '2013-11-11T11:09:17+0000'
+    from:
+      name: Mohamed El Kerdany
+      id: '10156046970459919'
+    message: What you added is how to create the form , this isn't the issue is on
+      saving information and loading the information inside each form , it could be
+      done in SQL by adding JSON objects in DB but it will be big headache in search
+      and slow for serialization and deserialization
+    id: '651597971546581'
+  - created_time: '2013-11-11T16:26:04+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: "حفظ المعلومات هيكون مثلا:\n\nSubmittedForms:\nId\nFormId\nDate\nEtc\n\nSubmittedFormValues:\nId\nSubmittedFormId\nFormFieldId\nFormFieldValue\n\nساعتها
+      هيكون \nFormFieldValue\nفيلد واحد بس متسجل فيه كل البيانات تقدر تعمل فيه سيرش
+      بسهولة لو عملته مثلا\nnvarchar(max)\nوأظن الأداء هيكون أعلى حاجه مقارنة بلو
+      عملت \nSerialize\nأو سجلتهم \nXML or JSON\n\nالفكره بس كلها اللي أنصح بيها هي
+      شيء يخليك تسيطر إن مايحصلش عك في البيانات لدرجة إنك ماتبقاش عارف تعمل كود يجيب
+      أسماء الناس كلها مثلا من قاعدة البيانات لأن الفورمز مختلفة والمستخدم عامل الفيلدات
+      بمليون اسم وبحث ومعالجة البيانات المدخلة والبحث فيها بناء على نوعها لو كان تاريخ
+      أو رقم أو نص والخ"
+    id: '651711588201886'
+  - created_time: '2013-11-11T16:31:03+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Mongo has a serious problems with Performance. you should check the performance
+      issues before planning ahead :)
+    id: '651713328201712'
+  - created_time: '2013-11-12T12:16:36+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: PostgreSQL is a relational DB which supports json & hstore (hash store)
+      data types with good performance, so you get the best of both worlds.
+    id: '652240758148969'
+  - created_time: '2013-11-14T10:09:27+0000'
+    from:
+      name: Dody Gunawinata
+      id: '10159821384890487'
+    message: I second on PostgreSQL + hstore. If you prefer something closer to NoSql,
+      pick RethinkDB. Don't make MongoDB as your primary store.
+    id: '653238974715814'
+  - created_time: '2013-11-14T10:20:19+0000'
+    from:
+      name: Mohamed El Kerdany
+      id: '10156046970459919'
+    message: I will use the NoSQl specifically for this part only in the system else
+      i m using SQL Server
+    id: '653241428048902'
+  - created_time: '2013-11-14T10:42:00+0000'
+    from:
+      name: Dody Gunawinata
+      id: '10159821384890487'
+    message: PostgreSQL HStore is now has semantic equivalent to JSON support (string,
+      bool and number) http://www.sai.msu.su/~megera/postgres/talks/hstore-dublin-2013.pdf
+    id: '653245958048449'
+  - created_time: '2013-11-14T10:46:36+0000'
+    from:
+      name: Salah Jr Ahmed
+      id: '10155519026807880'
+    message: My friend what you are going to decide upon is are u archiving more or
+      retrieving more as insertion is way to slow with NoSQL approach but selection
+      is way faster so that's a one So "I guess No SQL" then as u are using a userbase
+      so what u really need is graph database or graph approach by a noaql database
+      so I reccomend Neo4j or Mongodb if u are going outside these 2 approaches you
+      are going to suffer a lot in documentation .. Mongo is about to be Visual studio
+      partner and well defined by MVP like Scott Scott Allen
+    id: '653247444714967'
+  - created_time: '2013-11-14T10:47:30+0000'
+    from:
+      name: Salah Jr Ahmed
+      id: '10155519026807880'
+    message: but I used Neo4j as it has a well maintained service from readify which
+      I trust from previous exp
+    id: '653247844714927'
+  - created_time: '2013-11-14T10:47:59+0000'
+    from:
+      name: Salah Jr Ahmed
+      id: '10155519026807880'
+    message: data analytics like graphs too ..
+    id: '653247904714921'
+  - created_time: '2013-11-14T11:04:28+0000'
+    from:
+      name: Dody Gunawinata
+      id: '10159821384890487'
+    message: It wouldn't make sense to use a Graph DB for document oriented data.
+    id: '653251728047872'
+  - created_time: '2013-11-14T14:22:09+0000'
+    from:
+      name: Salah Jr Ahmed
+      id: '10155519026807880'
+    message: graph itself is document oriented
+    id: '653316744708037'
+  - created_time: '2013-11-14T14:48:09+0000'
+    from:
+      name: Dody Gunawinata
+      id: '10159821384890487'
+    message: Well you can use Graph to describe pretty much everything. If you can
+      just stuff all your data in one document, then that's ideal. You just have to
+      worry about one thing.
+    id: '653324064707305'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOalV4TlRrd09UVTRNakV6T1RRNU9qRXpPRFF4TmpZANE1qWT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOalV6TXpJME1EWTBOekEzTXpBMU9qRXpPRFEwTkRBME9Eaz0ZD

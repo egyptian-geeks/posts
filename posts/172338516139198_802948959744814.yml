@@ -17,3 +17,180 @@ created_time: '2014-08-22T22:48:11+0000'
 updated_time: '2014-08-25T00:35:45+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/802948959744814/
 id: '172338516139198_802948959744814'
+reactions:
+  data:
+  - id: '10156089336182292'
+    name: Hassan Aly Selim
+    type: LIKE
+  - id: '10159798652150161'
+    name: Ahmed Mourad
+    type: LIKE
+  - id: '10156284492809497'
+    name: Ahmed Hassan
+    type: LIKE
+  - id: '10155029730871786'
+    name: Mohammed Abdel-Aleem
+    type: LIKE
+  - id: '10215834435679186'
+    name: Diaa Sami
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRFNU5qa3lNamt4T2pFME1EZAzRNREE0TXpjNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRNNU16a3pOelUyTVRveE5EQTROelE0T1RjNE9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2014-08-22T23:14:48+0000'
+    from:
+      name: Ashraf Kaabi
+      id: '10156258607755921'
+    message: you cant wipe ur harddrive data literaly. as harddrives is doesnt delete
+      sectors is only overwrite it. so im not aware of cipher but only reasonable
+      tool to remove data totally from hd that is must overwrite it with new false
+      files
+    id: '802955413077502'
+  - created_time: '2014-08-22T23:15:31+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: Which is exactly what cipher does, as I have explained above.
+    id: '802955549744155'
+  - created_time: '2014-08-22T23:33:05+0000'
+    from:
+      name: Ashraf Kaabi
+      id: '10156258607755921'
+    message: my bad. didnt read your post carefully
+    id: '802959423077101'
+  - created_time: '2014-08-23T05:41:33+0000'
+    from:
+      name: Mohamed Moshrif
+      id: '1538447102877297'
+    message: |-
+      Technically, I remember that this needs to be done like 7 times because it would still be recoverable even when you wipe if and rewrite it once (I never did it myself but I know that theoretically, it does). That's why the old DoD protocol for wiping HDD was like 3 passes and now it's 7.
+
+      A very good and free tool that does that is called Eraser:
+
+      http://eraser.heidi.ie/
+    id: '803047219734988'
+  - created_time: '2014-08-23T13:33:46+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      I think if you want to recover files after an overwrite you have to take the magnetic disks inside the HDD and put it in a specialized machine that can detected tiny parts where the magnetic field wasn't fully switched by the overwrite.
+      Basically it's done via special hardware and not software, so you need to be working in the CIA for someone to care enough to go through with that procedure :D
+    id: '803187983054245'
+  - created_time: '2014-08-23T13:34:16+0000'
+    from:
+      name: Mohamed Moshrif
+      id: '1538447102877297'
+    message: It's not hardware, believe me :)
+    id: '803188099720900'
+  - created_time: '2014-08-23T13:37:34+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: then how would you be able to access the information via software? Even
+      if you somehow communicate with the HDD directly and not through OS APIs, how
+      will you let it read the leftover magnetic fields?
+    id: '803188829720827'
+  - created_time: '2014-08-23T13:39:11+0000'
+    from:
+      name: Mohamed Moshrif
+      id: '1538447102877297'
+    message: As I said, I don't know exactly but a technician in a police station
+      in US (not CIA or NSA) was able to do it to a device I owned which was not only  overridden
+      once, it was also encrypted and the key deleted and he was able to recover a
+      lot of data which at some point I thought to be impossible. So imagine the tools
+      available at higher level then
+    id: '803189116387465'
+  - created_time: '2014-08-23T13:39:38+0000'
+    from:
+      name: Mohamed Moshrif
+      id: '1538447102877297'
+    message: you can read the manual of Eraser's different deletion methods to get
+      an idea (Appendix A)
+    id: '803189249720785'
+  - created_time: '2014-08-23T13:40:04+0000'
+    from:
+      name: Mohammed El Sayed
+      id: '10155880598025170'
+    message: |-
+      Mohamed Moshrif: you are correct about the 7 times issue, but note that restoring data which has been overwritten more than 3 times is not possible using only software solutions.
+      it is only possible using a combination of special hardware & software, which is somehow impossible for individuals to get hands on.
+      that's why when you are using a wiping solution, it will have a preference to wipe 3 times (usual standard) or 7 times (government standard).
+    id: '803189336387443'
+  - created_time: '2014-08-23T13:40:42+0000'
+    from:
+      name: Mohamed Moshrif
+      id: '1538447102877297'
+    message: That's what I said above :)
+    id: '803189519720758'
+  - created_time: '2014-08-23T13:40:52+0000'
+    from:
+      name: Mohamed Moshrif
+      id: '1538447102877297'
+    message: my main comment was targeting "one pass" deletion
+    id: '803189569720753'
+  - created_time: '2014-08-23T13:41:06+0000'
+    from:
+      name: Mohammed El Sayed
+      id: '10155880598025170'
+    message: mashy :)
+    id: '803189619720748'
+  - created_time: '2014-08-23T13:43:58+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      interesting :)
+      and that encryption thing is a bit scary :D
+    id: '803190333054010'
+  - created_time: '2014-08-23T13:50:26+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: Guys, if I had something incriminating on that HDD I would just melt
+      it with a torch and then break it into a million pieces and throw them in the
+      sea :D
+    id: '803192169720493'
+  - created_time: '2014-08-23T13:58:33+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: well if you were part of the e7'wan or had videos of rab3a then it would
+      technically be incriminating here ... but I don't think our police are as smart
+      as the US Police Station mentioned here :D
+    id: '803194626386914'
+  - created_time: '2014-08-23T14:07:25+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: '"Primitive" ways are preferred here. Beat the living daylight out of
+      the suspect until the case is closed. Does not matter what the truth is or who
+      the perpetrators are.'
+    id: '803197719719938'
+  - created_time: '2014-08-23T14:11:11+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      RELEVANT XKCD :D
+      http://xkcd.com/538/
+    id: '803198899719820'
+  - created_time: '2014-08-23T14:12:40+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: LOL. There is always a relevant XKCD :D
+    id: '803199199719790'
+  - created_time: '2014-08-23T14:12:49+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: True :D
+    id: '803199253053118'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPREF5T1RVMU5ERXpNRGMzTlRBeU9qRTBNRGczTkRreU9EZAz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPREF6TVRrNU1qVXpNRFV6TVRFNE9qRTBNRGc0TURNeE5qaz0ZD

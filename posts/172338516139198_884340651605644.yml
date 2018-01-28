@@ -10,3 +10,59 @@ created_time: '2015-01-22T01:15:42+0000'
 updated_time: '2015-01-22T03:44:39+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/884340651605644/
 id: '172338516139198_884340651605644'
+comments:
+  data:
+  - created_time: '2015-01-22T02:39:21+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: |-
+      I think this is against the natural order of how events are propagated. So, here is a quick hack: the div event handler stops event propagation, so the event handling will stop here, then we can manually do what we want.
+
+      I modified the fiddle to show what I mean.
+      http://jsfiddle.net/au1hpj5L/1/
+    id: '884363424936700'
+  - created_time: '2015-01-22T03:39:15+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      There are two phases of event dispatching.
+      1. Event capturing, this happens from parent to child, and happens first
+      2. Event bubbling, which happens from child to parent, and happens after capturing
+    id: '884378958268480'
+  - created_time: '2015-01-22T03:39:45+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      All recommendation is to use event bubbling as much as possible. I think jQuery doesn't event support event capturing
+      So, to do this, you can use the DOM API directly, like http://jsfiddle.net/au1hpj5L/2/
+    id: '884379098268466'
+  - created_time: '2015-01-22T03:42:01+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      Read here to tell what the 'true' extra function argument does
+      https://developer.mozilla.org/en/docs/Web/API/EventTarget.addEventListener
+    id: '884379718268404'
+  - created_time: '2015-01-22T03:42:50+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: See, this is one of the reasons I dislike JS. It allows developers like
+      myself who barely know how to code JS make crazy things :D
+    id: '884380081601701'
+  - created_time: '2015-01-22T03:44:39+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: I think the point of trying to run the window handler first is to not
+      have to modify inner DOM handlers, but that's something the OP needs to decide
+      on.
+    id: '884380708268305'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGcwTXpZAek5ESTBPVE0yTnpBd09qRTBNakU0T1RRek5qRT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGcwTXpnd056QTRNalk0TXpBMU9qRTBNakU0T1RneU56az0ZD

@@ -12,3 +12,106 @@ created_time: '2014-05-16T13:48:17+0000'
 updated_time: '2014-05-16T20:20:19+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/747515558621488/
 id: '172338516139198_747515558621488'
+reactions:
+  data:
+  - id: '1483304861797468'
+    name: Ibrahem Ismail
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXpOVE01TURVM056UTBPakUwTURBeU5qTXpOVFU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXpOVE01TURVM056UTBPakUwTURBeU5qTXpOVFU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2014-05-16T13:52:57+0000'
+    from:
+      name: Ahmed Melege
+      id: '10156112171242375'
+    message: |-
+      حجم البيانات.. نوع البروجكت.. التقنيات اللي هتتعامل معاها..  الخطط المستقبلية.. الخ
+      على اساسهم هتختار لغة البرمجة او لغات البرمجة اللي هتشتغل بيها مع بعض
+    id: '747516838621360'
+  - created_time: '2014-05-16T13:59:11+0000'
+    from:
+      name: Omar Sameh Shehata
+      id: '10155438303996219'
+    message: |-
+      Of course there's no such as "The best programming language". The languages are like tools, and it's all about choosing the best tool for the job at hand.
+
+      Another thing worth mentioning is, the value isn't intrinsically in the tool itself. It also depends on the programmer's experience and the codebase he has access to with this tool. C may be a faster language but if it takes you days to write the program and optimize it, as opposed to a few hours with something like Python, then Python would obviously be the way to go for this specific job.
+    id: '747518708621173'
+  - created_time: '2014-05-16T15:38:26+0000'
+    from:
+      name: Hossam Shahen
+      id: '1760157247368094'
+    message: هو فعلا مفيش حاجة اسمها  فيه لغة برمجة احسن من لغة . بس فيه حاجة اسمها
+      فيه لغة برمجة استخدامها ف مشروع معين هيبق احسن من استخدام لغة  تانية . يعنى
+      مثلا انت لو عاوز تعمل برامج اندرويد يبق اكيد جافا بلامنازع ولو عاوز تعمل ديسك
+      توب ابليكيشن يبق اكيد c# ولو عاوز تشتغل ويب يبق اكيد php فخلاصة الكلام انت بتختار
+      اللغة على حسب المشروع اللى انت بتعمله . وعلشان تعرف انه لغة هتفيدك المفروض تبق
+      عارف الاول  ايه سبب نشاة هذه اللغة . يعنى مثلا عندك ف اوائل التسعينات اتعملت
+      جافا علشان تلبى احتياجات النت  يبق اكيد جافا حلوة للنت والاندرويد . وهكذا بقى
+      .
+    id: '747570481949329'
+  - created_time: '2014-05-16T15:39:10+0000'
+    from:
+      name: Hossam Shahen
+      id: '1760157247368094'
+    message: لكن سؤال هل كل اللغات متوافقة دى مش هعرف اجاوبه بصراحة علشان مافتيش .
+      بس اللى اعرفه ان  لغات البرمجة متوافقة بس اللى مش متوافق انظمة التشغيل .
+    id: '747571071949270'
+  - created_time: '2014-05-16T20:08:20+0000'
+    from:
+      name: Shady Atef
+      id: '10213518317565801'
+    message: "All of the above comments are 100% Correct, I will just illustrate an
+      example : Let's say the you want to build a dynamic website ( You can do this
+      using most languages, I will just compare between Python & C++)\nof-course using
+      C++ is a real pain, but u gain a high performance.. So If you build a small
+      to kinda large Website you won't really care about performance that much that
+      make u use C++ \nPython : Many Ppl Love it, easy to use and can be used in many
+      fields ..\nGenerally Python is many times slower than C++\n\nSo let's pick a
+      live example : Facebook \nFacebook was initially written in PHP (a dynamic slow
+      language compared to C++ ), but when the traffic on facebook was gigantic, They
+      developed HipHop Project : compiler from PHP to c++ (They really Gained a huge
+      boosting to their performance - some bench-marking show the HipHop is faster
+      6x Php) \n\nN.B : Facebook has deprecated the HpHpc (The compiler ) & Made a
+      virtual Machine like Java's One for PHP & they also made a new language called
+      Hack .."
+    id: '747688441937533'
+  - created_time: '2014-05-16T20:15:51+0000'
+    from:
+      name: Shady Atef
+      id: '10213518317565801'
+    message: "Generally Learn More than one Language & try to master one or two of
+      them ...\nAdvice : learn more than one type of language to get the concepts
+      no more..\nLearn C++ or Java or any static Language & old School OOP (Compiled
+      or Run on VM as java )\nLearn Python or Ruby : Dynamic, Interpreted \nLearn
+      HTML or XML : to know about the Marking-up Languages (XML really helps to transfer
+      data )\nThis my opinion. some Ppl can disagree with me, it's okay"
+    id: '747690668603977'
+  - created_time: '2014-05-16T20:17:37+0000'
+    from:
+      name: Hossam Shahen
+      id: '1760157247368094'
+    message: انت جبت من الاخر Shady Atef
+    id: '747691188603925'
+  - created_time: '2014-05-16T20:18:50+0000'
+    from:
+      name: Shady Atef
+      id: '10213518317565801'
+    message: Hossam Shahen El mohm el fayda :D ana kont kda abl kda l3;yt mt3lmt aktr
+      men lo3;a wo 3mlt Behom Projects
+    id: '747691638603880'
+  - created_time: '2014-05-16T20:20:19+0000'
+    from:
+      name: Hossam Shahen
+      id: '1760157247368094'
+    message: ههههههههههههههههههههه . لا ياعم ان شاء الله خير . انا برده كنت كده بس  فعلا
+      تعليم اكتر من لغة هيفيد جدا . والاهم من كده انك تقرا ليه اصلا اللغة دى انشئت
+      علشان تعرفها مميزاتها وعيوبها ونقط ضعفها وقوتها
+    id: '747692318603812'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOelEzTlRFMk9ETTROakl4TXpZAd09qRTBNREF5TkRnek56Yz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOelEzTmpreU16RTROakF6T0RFeU9qRTBNREF5TnpFMk1Uaz0ZD

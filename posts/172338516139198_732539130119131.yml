@@ -11,3 +11,154 @@ updated_time: '2014-04-21T11:16:52+0000'
 name: The Problem with Time & Timezones - Computerphile
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/732539130119131/
 id: '172338516139198_732539130119131'
+reactions:
+  data:
+  - id: '10155819655346066'
+    name: Shady M. Najib
+    type: LIKE
+  - id: '627907956'
+    name: Emad Elsaid
+    type: LIKE
+  - id: '10155848201515605'
+    name: Mohammad Helmy
+    type: LIKE
+  - id: '1573619512716214'
+    name: Mohamed Alaa El Din
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRnM05EWXhNRFkxT2pFek9UZA3dOelU0T0RNNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQXlNRFExTkRJNU1ESTVPakV6T1RjM09UTXlNRFE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2014-04-18T03:53:10+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: 'even javascript lake time calculation :) try this simple one: new Date(''2014-04-13'')
+      you will find it eating one day :)'
+    id: '732570990115945'
+  - created_time: '2014-04-18T04:46:00+0000'
+    from:
+      name: Mohammad Helmy
+      id: '10155848201515605'
+    message: Oh my Godnees
+    id: '732628326776878'
+  - created_time: '2014-04-18T07:49:24+0000'
+    from:
+      name: Shady M. Najib
+      id: '10155819655346066'
+    message: Did you hear/read Jon Skeet talking about his experience building Noda
+      Time :D
+    id: '732674976772213'
+  - created_time: '2014-04-18T07:54:16+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: It's interesting how unpopular NodaTime itself is.
+    id: '732675923438785'
+  - created_time: '2014-04-18T09:10:03+0000'
+    from:
+      name: Moutaz Srabil
+      id: '2034286453520755'
+    message: |-
+      when u deal with App need Multi timezones Just use only unix timestamp and make one function take the date And User timezone to show it (when u want to print this date ).
+      and in internal APP logic  use it with (UTC) timezone
+    id: '732692550103789'
+  - created_time: '2014-04-18T09:20:17+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: I assume you watched the video before commenting on it?
+    id: '732694636770247'
+  - created_time: '2014-04-18T09:31:13+0000'
+    from:
+      name: Moutaz Srabil
+      id: '2034286453520755'
+    message: |-
+      i think this becouse u try to convert it client side
+      i am working in many projects using this
+      what i mean is make every thing server side
+      get date by time() => unix timestamp
+      save in DB
+      And when u print date to user , convert with server side script
+      but when use date like (2014-04-13) it will take long time in parse it Spechialy on long list
+    id: '732697340103310'
+  - created_time: '2014-04-18T09:31:58+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: That was not my question, but nevermind.
+    id: '732697483436629'
+  - created_time: '2014-04-18T09:32:37+0000'
+    from:
+      name: Moutaz Srabil
+      id: '2034286453520755'
+    message: sorry
+    id: '732697630103281'
+  - created_time: '2014-04-18T09:32:51+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      As per Shady M. Najib's mention, another explanation of the timezone problem and NodaTime
+      https://vimeo.com/77323770
+    id: '732697696769941'
+  - created_time: '2014-04-18T09:40:11+0000'
+    from:
+      name: Moutaz Srabil
+      id: '2034286453520755'
+    message: |-
+      sorry , this is in (.net) :)
+      what i say in PHP
+    id: '732699543436423'
+  - created_time: '2014-04-18T09:42:20+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: My original question had a typo, I asked if you watched the value, while
+      I meant the video. The reason is that Unix time is addressed near the end. I
+      will not comment further, except saying that setting your server to UTC as you
+      said is a good idea.
+    id: '732699973436380'
+  - created_time: '2014-04-18T09:46:58+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: For the record for non .NET devs, the coverage of the time problem in
+      both videos is platform agnostic BTW.
+    id: '732700906769620'
+  - created_time: '2014-04-18T11:42:49+0000'
+    from:
+      name: Shady M. Najib
+      id: '10155819655346066'
+    message: Thanks for the link first time to know about tretton37 (Y)
+    id: '732729890100055'
+  - created_time: '2014-04-21T11:16:52+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      I really like all Tom Scott's videos on Computerphile:
+      http://www.youtube.com/playlist?list=PL96C35uN7xGLux5q2c4P_IqbKF11-pfsR
+      Even if I already knew everything about the topic, it's still very interesting to hear it in a very simplified manner :)
+    id: '734460243260353'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOek15TlRjd09Ua3dNVEUxT1RRMU9qRXpPVGMzT1RNeE9UQT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOek0wTkRZAd01qUXpNall3TXpVek9qRXpPVGd3Tnprd01UST0ZD
+attachments:
+  data:
+  - description: A web app that works out how many seconds ago something happened.
+      How hard can coding that be? Tom Scott explains how time twists and turns like
+      a twisty-tur...
+    media:
+      image:
+        height: 720
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQCh1msV0FfzfjJK&w=720&h=720&url=http%3A%2F%2Fi1.ytimg.com%2Fvi%2F-5wpm-gesOY%2Fmaxresdefault.jpg&cfs=1&sx=840&sy=0&sw=1080&sh=1080&_nc_hash=AQCFnzmo3ox0fcgp
+        width: 720
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Ft.co%2FEo9Eyx8YKn&h=ATMkXJLl4l0uoCzKWZmQO2UNzpuerSWVO3OoKTHrrACkiwE9SGhmvm_sV1RzSq8cEdmeYh1nxgcuWY0hD2cgkmRuzVV1LRZLejoV&s=1&enc=AZNgpW_K66_AU8UOFm3iKhZZxVQTAkxikPDWVIr53S6KPTez30OIIgBWx7a0WyOEh9t9J8va3x5F1OuBzFh1QUW2
+    title: The Problem with Time & Timezones - Computerphile
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Ft.co%2FEo9Eyx8YKn&h=ATMkXJLl4l0uoCzKWZmQO2UNzpuerSWVO3OoKTHrrACkiwE9SGhmvm_sV1RzSq8cEdmeYh1nxgcuWY0hD2cgkmRuzVV1LRZLejoV&s=1&enc=AZNgpW_K66_AU8UOFm3iKhZZxVQTAkxikPDWVIr53S6KPTez30OIIgBWx7a0WyOEh9t9J8va3x5F1OuBzFh1QUW2

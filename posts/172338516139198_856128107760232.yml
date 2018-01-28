@@ -11,3 +11,132 @@ updated_time: '2014-12-04T22:22:14+0000'
 name: recaptcha
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/856128107760232/
 id: '172338516139198_856128107760232'
+reactions:
+  data:
+  - id: '10155819655346066'
+    name: Shady M. Najib
+    type: LIKE
+  - id: '10156118743832220'
+    name: Mostafa Abdellatif Elgayar
+    type: LIKE
+  - id: '10214861141222529'
+    name: Abdelrady Fcis
+    type: LIKE
+  - id: '1657509230977456'
+    name: Hosam Aly
+    type: LIKE
+  - id: '10155293228608733'
+    name: Mohamed Nady
+    type: LIKE
+  - id: '10157072407451982'
+    name: Mahmoud Abdallah
+    type: LIKE
+  - id: '10159905066535634'
+    name: Emad Mokhtar Habib
+    type: LIKE
+  - id: '2020898428198432'
+    name: Mohammed Ragab
+    type: LIKE
+  - id: '10155059843432097'
+    name: Somaya Mostafa
+    type: LIKE
+  - id: '10156089336182292'
+    name: Hassan Aly Selim
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRnM05EWXhNRFkxT2pFME1UYzRNRE16TURnNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRFNU5qa3lNamt4T2pFME1UYzNNVEV3TURFNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2014-12-04T16:07:24+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: You mean a new landing page or is there something new in their technology?
+      (because it looks the same to me)
+    id: '856133691093007'
+  - created_time: '2014-12-04T16:13:22+0000'
+    from:
+      name: Mohamed Atia
+      id: '1449913351798387'
+    message: http://googleonlinesecurity.blogspot.de/2014/12/are-you-robot-introducing-no-captcha.html
+    id: '856135594426150'
+  - created_time: '2014-12-04T16:36:51+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: interesting :)
+    id: '856142724425437'
+  - created_time: '2014-12-04T17:24:01+0000'
+    from:
+      name: AbdAllah Khashaba
+      id: '1032800230207501'
+    message: |-
+      just applied it in my project :
+
+      http://khashabawy.com/company_script/contact_us
+    id: '856159134423796'
+  - created_time: '2014-12-04T17:58:52+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      I think it's monitoring user behaviour like how you move your cursor on the screen and how fast you type and your pauses (and probably monitoring your actions before you reach the part of the page that has the CAPTCHA), I'm assming there have been research that modeled human behaviour in that area so they can differentiate that from any randomization you can try to do with code.
+      But in they end they know it's not very accurate and still show you a CAPTCHA if they're not really sure.
+    id: '856171744422535'
+  - created_time: '2014-12-04T18:07:33+0000'
+    from:
+      name: AbdAllah Khashaba
+      id: '1032800230207501'
+    message: "Amr Eldib it is google and google is smart enough to detect your movement
+      and analyze what you are doing and if this is human being actions or no. \n\nit
+      depends on your IP and the wedget secret_key\n\nif you click on the checkbox
+      , google sends an http request to its servers \n\nif google have some records
+      in its dbs about your movements related to your current IP , then you are trusted
+      and google releases you immediately ,otherwise you will see the old reCaptcha
+      code and have to enter it to be released .\n\n a hidden input named : g-recaptcha-response
+      will have some value depending on your final status after verification , otherwise
+      it is zero\n\nwhen the form is posted you are then half human ,\n\nyour [ IP
+      ] is taken with the [ widget secret _key ]  and [ the response ] and  and sent
+      to google API to determine the other half of being full human"
+    id: '856177041088672'
+  - created_time: '2014-12-04T18:36:19+0000'
+    from:
+      name: AbdAllah Khashaba
+      id: '1032800230207501'
+    message: http://khashabawy.com/blog/كيف-تعمل-no-captcha-الجديده-من-جوجل/
+    id: '856186011087775'
+  - created_time: '2014-12-04T22:13:46+0000'
+    from:
+      name: Mostafa Abdellatif Elgayar
+      id: '10156118743832220'
+    message: 5 Years from now, it would be easily passed by hackers... I am sure :)
+    id: '856259341080442'
+  - created_time: '2014-12-04T22:22:14+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: that's always the case with security, and also in 5 years, google will
+      figure out a better way, it will never end :D
+    id: '856262144413495'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFUyTVRNek5qa3hNRGt6TURBM09qRTBNVGMzTURreU5EUT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFUyTWpZAeU1UUTBOREV6TkRrMU9qRTBNVGMzTXpFM016UT0ZD
+attachments:
+  data:
+  - description: The new reCAPTCHA is here. A significant number of your users can
+      now attest they are human without having to solve a CAPTCHA. Instead with just
+      a single click they’ll confirm they are not a robot. We’re calling it the No
+      CAPTCHA reCAPTCHA experience. See blog for more details.
+    media:
+      image:
+        height: 164
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAYQIZyqjfkKBbK&w=720&h=720&url=https%3A%2F%2Fwww.google.com%2Frecaptcha%2Fintro%2Fimages%2Fhero-recaptcha-demo.gif&cfs=1&_nc_hash=AQDpPPwY1v7r1wOj
+        width: 164
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.google.com%2Frecaptcha%2Fintro%2Findex.html&h=ATM_EqjDLtiCXaevZjPiR4OQRyThNyDK3Z8ys8qTzactoCDIj9yP6KilRJDkyfNP-DWaWsEgu8AyRyj6zv1KsNkzTPU8lnE6D43Z&s=1&enc=AZMEpwBPbPcA1D8oN6NOENxuJP9Ah54_9NKlaGUpexd0Ayh-8MQhyaqiy2EbWj2hbXBb-PiYDRijxFCfxCytobsR
+    title: recaptcha
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.google.com%2Frecaptcha%2Fintro%2Findex.html&h=ATM_EqjDLtiCXaevZjPiR4OQRyThNyDK3Z8ys8qTzactoCDIj9yP6KilRJDkyfNP-DWaWsEgu8AyRyj6zv1KsNkzTPU8lnE6D43Z&s=1&enc=AZMEpwBPbPcA1D8oN6NOENxuJP9Ah54_9NKlaGUpexd0Ayh-8MQhyaqiy2EbWj2hbXBb-PiYDRijxFCfxCytobsR

@@ -9,3 +9,90 @@ created_time: '2012-07-24T21:07:09+0000'
 updated_time: '2012-07-25T14:47:56+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/441762249196822/
 id: '172338516139198_441762249196822'
+reactions:
+  data:
+  - id: '2167550119925504'
+    name: Mohamed Sameeh Sharaf
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdNVEUyTVRFMk56RTJPakV6TkRNeE9ESTVPREE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXdNVEUyTVRFMk56RTJPakV6TkRNeE9ESTVPREE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2012-07-24T21:20:17+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: I use both, definitely it is not that important, JS compressors/minifiers
+      and browser interpreters may do these similar optimization stuff for you if
+      it really matters
+    id: '441765419196505'
+  - created_time: '2012-07-24T21:28:32+0000'
+    from:
+      name: Mahmoud Abd El-Fattah
+      id: '10156358805885288'
+    message: I usually use switch. It has a very slight performance gain over if statements.
+      Please also take into consideration that it will depend on how you write the
+      consecutive if statements; If you write consecutive if statements without using
+      else, then the test will be executed in all cases while using switch will only
+      evaluate the test once or in the worst case, it will stop upon finding the correct
+      test.
+    id: '441767289196318'
+  - created_time: '2012-07-24T21:33:29+0000'
+    from:
+      name: Mahmoud Abd El-Fattah
+      id: '10156358805885288'
+    message: |-
+      It will not make a difference if you use few case or your code is executed only a few times. Unless you put the conditional statements in a 100k loop :D.
+
+      More information can be found here:
+      http://stackoverflow.com/questions/2922948/javascript-switch-vs-if-else-if-else
+    id: '441768549196192'
+  - created_time: '2012-07-25T02:16:14+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Don't worry bro i don't put the condition in a 100K loop :D ta3lemak
+      ya excellence :D I asked the question because i was using Switch normal but
+      the fuckin JSLint is tell me to replace it with an if statement!
+    id: '441839019189145'
+  - created_time: '2012-07-25T14:47:56+0000'
+    from:
+      name: Eslam Salem Mahmoud
+      id: '10157134145555299'
+    message: it depends on situation , for me  i prefer to use switch with big cases
+      , any way benchmark your code and you will find the best
+    id: '442021505837563'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAORFF4TnpZAMU5ERTVNVGsyTlRBMU9qRXpORE14TmpRNE1UYz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAORFF5TURJeE5UQTFPRE0zTlRZAek9qRXpORE15TWpjMk56WT0ZD
+attachments:
+  data:
+  - subattachments:
+      data:
+      - target:
+          id: '370771599658003'
+        title: Use "Switch"
+        type: option
+      - target:
+          id: '347228252020124'
+        title: use switch with more than 2 cases
+        type: option
+      - target:
+          id: '128269970648666'
+        title: I'm Not Sure...
+        type: option
+      - target:
+          id: '268454956594440'
+        title: Use "IF" Statement
+        type: option
+    target:
+      id: '441762239196823'
+      url: https://www.facebook.com/groups/egyptian.geeks/permalink/441762249196822/
+    title: 'Javascript Optimization/Performance Question: JSLint is advising me to
+      use "if statement" instead of "Switch".  Please comment saying Why to use it
+      or Not.'
+    type: question
+    url: https://www.facebook.com/groups/egyptian.geeks/permalink/441762249196822/

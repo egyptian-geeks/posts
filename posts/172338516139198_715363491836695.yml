@@ -9,3 +9,35 @@ created_time: '2014-03-15T12:47:35+0000'
 updated_time: '2014-03-15T12:47:35+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/715363491836695/
 id: '172338516139198_715363491836695'
+attachments:
+  data:
+  - description: |-
+      Live Calculator + Math module using ruby and sinatra
+
+      this calculator will open port 3000 using sinatra and listen on two
+      paths the root (http://localhost:3000/) to load the calculator HTML
+      and /calc path (http://localhost:3000/calc) to evaluate expression
+
+      when you write any expression such as (2+2) javascrip will send the
+      expression as you type to /calc path and get teh result into a div with
+      id=result
+
+      i included the Math module so you can use cos, sin, tan and any method
+      within the ruby Math Module.
+
+      also as this calculator uses eval method you can use it to evaluate a
+      pure ruby expression such as "Emad "*10 this will print "Emad" 10 times
+
+      have fun and let me know how did you use it ;)
+
+      Gist: https://gist.github.com/9565542
+    media:
+      image:
+        height: 468
+        src: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/1939527_10151993484187957_1141634780_o.jpg?oh=b2d0e2f11a5cc1affd7a2bb8c4b9dc18&oe=5AE1CD31
+        width: 720
+    target:
+      id: '10151993484187957'
+      url: https://www.facebook.com/photo.php?fbid=10151993484187957&set=gm.715363491836695&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=10151993484187957&set=gm.715363491836695&type=3

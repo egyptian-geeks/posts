@@ -9,3 +9,61 @@ created_time: '2013-01-27T10:04:14+0000'
 updated_time: '2013-01-27T12:24:25+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/518283758211337/
 id: '172338516139198_518283758211337'
+comments:
+  data:
+  - created_time: '2013-01-27T10:18:45+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: I'm using it on Windows 8 to automate some AutoHotKey script, works nicely
+      for over a month now. If this is for code, then consider building a Windows
+      Service using TopShelf http://topshelf-project.com/
+    id: '518288918210821'
+  - created_time: '2013-01-27T10:44:40+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: |-
+      إحنا محتاجينه بس يفتح صفحات URLs كل يوم أو كل ساعه على حسب، والصفحات بتعمل كل حاجه، المفروض ده شيء بسيط. جربنا قبل كدا Windows Services لكنها بتهيس بالظبط زي الـ Task Scheduler. وجربنا طبعا كل شيء خاص بالأولويات وإيقاظ الويندوز لو لقاه نايم والخ الخ وبقالنا على كدا سنين.
+
+      كمان زمان كان عندنا Control Panel مش فاكر إسمها إيه كانت زي Plesk والحاجات دي وكان فيها Task Scheduler غير بتاع الويندوز، وكان بيهيس أيضا.
+
+      على الجانب الآخر من كذا سنه اشتركت في موقع من اللي بيشوف الـ Up Time للمواقع وبيرسل رساله لما الموقع يقع، وكانت الخدمه شغاله زي الفل، يعني المشكلة في الويندوز نفسه بتجيله أوقات كدا ينام فيها على ودنه ومايشغلش أي حاجه لها علاقه بالوقت، بيكون شغال عادي والمواقع وقواعد البيانات شغاله زي الفل إنما بيكون فاقد الاحساس بالوقت كدا، تقريبا مشكله نفسيه مش تقنيه :D
+    id: '518295391543507'
+  - created_time: '2013-01-27T10:46:53+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: ممكن تكون حاجة ليها علاقة بالبرنامج تفسه. شفت الـ Windows Error Log في
+      الأوقات اللي مش بيشتغل فيها؟
+    id: '518295978210115'
+  - created_time: '2013-01-27T10:57:13+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Cronjobs are *nix equivalent to Windows Scheduled Tasks BTW, looks like
+      the people are hosting these for you.
+    id: '518298678209845'
+  - created_time: '2013-01-27T11:02:47+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: شكرا يا بسام. المشكلة يا محمد مش في البرنامج لأن لما بدخل على السيرفر
+      بلائي إن التاسك نفسها ماشغلتش، رغم إن التاسكات هبله وبسيطه جدا مثل تشغيل البراوزر
+      وفتح URL محدد. جربنا كافة الخيارات على مدار سنين على مختلف البرامج والسيرفرات
+      اللي إشتغلنا عليها، عملنا Console Applications و Windows Services والخ لكن اليندوز
+      هو اللي بيتنح، شكلنا مضطرين لاستخدام حاجه زي اللي شيرها بسام، أنا مستغرب بس
+      لأن شيء زي ده المفروض يكون شغال وتمام في أي سيرفر
+    id: '518299861543060'
+  - created_time: '2013-01-27T12:24:25+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: أنا مستغرب جداً من موضوع الScheduled Tasks معاك ده, البتاع ده يعني من
+      أيام الهكسوس و شغال عادي ما بيقولش لأ, و برامج كتير بتنزل تستخدمه زي الAntiviruses
+      و الAuto updaters لبرامج كتير
+    id: '518328064873573'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOVEU0TWpnNE9URTRNakV3T0RJeE9qRXpOVGt5T0RFNU1qVT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOVEU0TXpJNE1EWTBPRGN6TlRjek9qRXpOVGt5T0RrME5qVT0ZD

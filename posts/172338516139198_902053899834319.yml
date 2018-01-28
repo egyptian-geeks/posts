@@ -5,9 +5,153 @@ from:
   name: Mohamed Rashed
   id: '10155764645725568'
 type: link
-picture: https://external.xx.fbcdn.net/safe_image.php?w=130&h=130&url=http%3A%2F%2F3a0ojxkezud2pogen3j4z0w18nq.wpengine.netdna-cdn.com%2Fwp-content%2Fuploads%2F2015%2F02%2F02jQuery-300x225.png&cfs=1&_nc_hash=AQBjzNS1Ahu9vbmA
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQDMxVCyP8Rp8XrT&w=130&h=130&url=http%3A%2F%2F3a0ojxkezud2pogen3j4z0w18nq.wpengine.netdna-cdn.com%2Fwp-content%2Fuploads%2F2015%2F02%2F02jQuery-300x225.png&cfs=1&_nc_hash=AQBm-WNB7F5H7mXy
 created_time: '2015-02-28T05:51:38+0000'
 updated_time: '2015-02-28T20:26:29+0000'
 name: Top 10 Changes in ASP.NET 5 and MVC 6 | Stephen Walther
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/902053899834319/
 id: '172338516139198_902053899834319'
+reactions:
+  data:
+  - id: '10155458642069624'
+    name: Basma Osman
+    type: LIKE
+  - id: '10204469829103969'
+    name: Ahmed Kamal
+    type: LIKE
+  - id: '10157578621854852'
+    name: Hisham Ades
+    type: LIKE
+  - id: '10156260406777122'
+    name: Rafael Adel
+    type: LIKE
+  - id: '1703405903057034'
+    name: Mohamed Hashem
+    type: LIKE
+  - id: '10157072407451982'
+    name: Mahmoud Abdallah
+    type: LIKE
+  - id: '10214108936010929'
+    name: Ahmed Youssef
+    type: LIKE
+  - id: '10155173051963199'
+    name: Pola Ashraf
+    type: LIKE
+  - id: '10155226291481186'
+    name: أحمد محمود محمد عبدالوهاب
+    type: LIKE
+  - id: '10154919900757132'
+    name: Wael El Saeed
+    type: LIKE
+  - id: '1635412699859063'
+    name: Mohamed Taha
+    type: LIKE
+  - id: '10155638727450376'
+    name: Ahmed Magdy
+    type: LIKE
+  - id: '10211281555858409'
+    name: Roshdy Abuzeid
+    type: LIKE
+  - id: '10155880569740170'
+    name: Meligy
+    type: LIKE
+  - id: '10154937781971184'
+    name: Ahmed Salem
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRJeE1qZAzVOakl6T2pFME1qVXhOVEV3TlRRNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRrM05EazJNVGd6T2pFME1qVXhNREk0TWpFNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2015-02-28T12:46:32+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: I guess the shame is for ASP.NET web forms and VB.NET, the whole idea
+      of .NET is to support multiple languages. Also, MVC is just a design pattern
+      that many geeks prefer but it is not the best and most useful pattern. ASP.NET
+      webfors is great for many projects and it is a shame that they would lose such
+      an option. Oh, well, it will be interesting to see how the world reacts :)
+    id: '902216089818100'
+  - created_time: '2015-02-28T14:58:23+0000'
+    from:
+      name: Rafael Adel
+      id: '10156260406777122'
+    message: Wow ! ditching Web Forms and VB is the most ambitious decision Microsoft
+      took so far. Really.. This will lead to smarter companies with cleaner code
+    id: '902259859813723'
+  - created_time: '2015-02-28T15:00:21+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Rafael Adel why do you say smarter and cleaner code? Is it in your view
+      that ALL apps should be MVC, like the 90% CRUDDY ones?
+    id: '902260589813650'
+  - created_time: '2015-02-28T15:08:40+0000'
+    from:
+      name: Rafael Adel
+      id: '10156260406777122'
+    message: |-
+      MVC is not only for CRUD operations, It also allows your application to be more separated and scalable. Not only being a great design pattern that developers should embrace, But in my opinion it allows larger number of individuals to work on a same project in the same time. It gives you the mentality of separating your code. And focusing on one aspect of it.
+
+      And really, I worked as a .Net developer before. And was an intern in a company that builds government systems. And it was all written in VB ! I don't have anything against VB and Web Forms but I really feel like i'm not developing when using both of them.
+    id: '902263799813329'
+  - created_time: '2015-02-28T15:11:52+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Rafael Adel that is really a stigma, but VB is a programming language
+      just as much as anything else, there are other languages like Python that use
+      Basic like syntax which I love. In fact there is a trend to have simpler more
+      expressive languages then brackets and semi colons. As for webforms, if you
+      don't care about pretty html and you have to do master detail CRUD, I really
+      don't see how MVC would do anything but make an already painful process into
+      more pain. I think web forms are more ewuipped to handle the CRUD :)
+    id: '902264759813233'
+  - created_time: '2015-02-28T15:18:35+0000'
+    from:
+      name: Rafael Adel
+      id: '10156260406777122'
+    message: Mohamed Samy I respect your opinion. Let's see how it goes for the next
+      couple of years. I really like how Microsoft is trying to move out of its isolated
+      island and making huge changes like this. Not to mention facilitating using
+      .net outside Windows (Which i'm not really sure if its gonna work or not) :D
+    id: '902266873146355'
+  - created_time: '2015-02-28T15:20:12+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Rafael Adel I wish Python would take the place of Javascript and if it
+      came with the browser anyone could develop Windows like applications using Python
+      or even C# on any platform, then the web could get back to browsing and we could
+      have apps for dataentry and get back to 3 tier again :)
+    id: '902267499812959'
+  - created_time: '2015-02-28T20:26:29+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      In the last ASP.NET Community Standup they said there will be no support for VB in the first release, but they might add it in later releases (things are abstracted enough to easily allow for that afaik).
+      I don't know about the WebForms part, I've seen all the Compunity Standups and I don't remember that being mentioned, which is weird.
+    id: '902374659802243'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEF5TWpFMk1EZAzVPREU0TVRBd09qRTBNalV4TWpjMU9UST0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEF5TXpjME5qVTVPREF5TWpRek9qRTBNalV4TlRVeE9Eaz0ZD
+attachments:
+  data:
+  - description: I spent the last couple of weeks writing sample code for ASP.NET
+      5/MVC 6 and I was surprised by the depth of the changes in the current beta
+      release of ASP.NET 5. ASP.NET 5 is the most significant new release of ASP.NET
+      in the history of the ASP.NET framework — it has been rewritten from the ground…
+    media:
+      image:
+        height: 225
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQDbZHPw1cn3Kh-N&w=720&h=720&url=http%3A%2F%2F3a0ojxkezud2pogen3j4z0w18nq.wpengine.netdna-cdn.com%2Fwp-content%2Fuploads%2F2015%2F02%2F02jQuery-300x225.png&cfs=1&_nc_hash=AQDlpixkfKi6jbvn
+        width: 225
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstephenwalther.com%2Farchive%2F2015%2F02%2F24%2Ftop-10-changes-in-asp-net-5-and-mvc-6&h=ATOVmWxjhRMNOrreMoQlN4f4-NzOCCZ8YMJE3y5eM5yPhQ7gKFzLiIaDgxth6z7COJJVZfEnOvQj80-UBoL4XMy82KVsq0hB6Fpi&s=1&enc=AZOav0pyaj1XwzJqOBl2wTpqhiOe3BpQr2rlwWbuwgnyOZbcvCRVflkkUOderAmCyxjv53m2j7PF39QYRVfsXv26
+    title: Top 10 Changes in ASP.NET 5 and MVC 6 | Stephen Walther
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstephenwalther.com%2Farchive%2F2015%2F02%2F24%2Ftop-10-changes-in-asp-net-5-and-mvc-6&h=ATOVmWxjhRMNOrreMoQlN4f4-NzOCCZ8YMJE3y5eM5yPhQ7gKFzLiIaDgxth6z7COJJVZfEnOvQj80-UBoL4XMy82KVsq0hB6Fpi&s=1&enc=AZOav0pyaj1XwzJqOBl2wTpqhiOe3BpQr2rlwWbuwgnyOZbcvCRVflkkUOderAmCyxjv53m2j7PF39QYRVfsXv26

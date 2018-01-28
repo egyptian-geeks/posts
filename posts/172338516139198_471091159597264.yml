@@ -10,3 +10,104 @@ updated_time: '2012-10-15T01:50:35+0000'
 name: JavaScript Array Methods Reference - Impressive Webs
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/471091159597264/
 id: '172338516139198_471091159597264'
+comments:
+  data:
+  - created_time: '2012-10-13T02:17:17+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: If you need to deal with IE8, be careful, not all will work. I think
+      IndexOf doesn't.
+    id: '471330586239988'
+  - created_time: '2012-10-13T06:33:48+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Thanks for the info ya gameel yes indexOf is not supported in IE8 but
+      we only support 9+ :) isn't that cooool :D
+    id: '471395482900165'
+  - created_time: '2012-10-14T17:44:28+0000'
+    from:
+      name: Michael Youssef
+      id: '10160101975555457'
+    message: and console.log()  too :)
+    id: '472008646172182'
+  - created_time: '2012-10-14T22:47:00+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: 'In my current project, we are using JSHint on the build server to prevent
+      having invalid JavaScript checked-in. One of the rules we enforce is: no console.log
+      calls are to be pushed to the repository.'
+    id: '472109029495477'
+  - created_time: '2012-10-14T22:48:07+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: You do console.log just for a bit of quick debugging, and that's all.
+      If you need it with IE8 or IE7 debugging, you run IE9 or IE10 with dev toolbar
+      open and Browser/DOM modes set to the version you need.
+    id: '472109252828788'
+  - created_time: '2012-10-14T22:51:14+0000'
+    from:
+      name: Michael Youssef
+      id: '10160101975555457'
+    message: by the way my ex manager will be working in your company at the beginning
+      of the next month .
+    id: '472110136162033'
+  - created_time: '2012-10-15T00:25:17+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Sounds awesome. What's his name? Any idea how he heard about Readify?
+      Would you like to consider it too? ;)
+    id: '472130436160003'
+  - created_time: '2012-10-15T00:27:33+0000'
+    from:
+      name: Michael Youssef
+      id: '10160101975555457'
+    message: His name is michael fahim... he already have an immigration visa and
+      tried to search about best companies there before leaving Egypt and he got accepted...
+    id: '472130899493290'
+  - created_time: '2012-10-15T00:38:10+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Yeah, he is in Sydney and we have met already. He may even start earlier
+      than planned :)
+    id: '472133289493051'
+  - created_time: '2012-10-15T00:39:44+0000'
+    from:
+      name: Michael Youssef
+      id: '10160101975555457'
+    message: yeah... he was my manager for more than a year... almost the best manager
+      i have ever had on all levels... (personal ,technical, managerial)..... he will
+      be a member of your team ?
+    id: '472133672826346'
+  - created_time: '2012-10-15T01:50:35+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: No, he will probably be joining another team than the one I lead, the
+      same client though (big one).
+    id: '472153219491058'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAORGN4TXpNd05UZAzJNak01T1RnNE9qRXpOVEF3T1RRMk16Yz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAORGN5TVRVek1qRTVORGt4TURVNE9qRXpOVEF5TmpVNE16VT0ZD
+attachments:
+  data:
+  - description: Back in July I wrote a post called JavaScript String Methods Reference,
+      outlining many of the ways strings can be manipulated in JavaScript. Another
+      area where JavaScript has a number of different methods available for use is
+      Array manipulation, which I'll cover in this post. As usual, I'll do my be...
+    media:
+      image:
+        height: 720
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQBsUJ8RmnABrWGw&w=720&h=720&url=http%3A%2F%2Fwww.impressivewebs.com%2Fwp-content%2Fthemes%2Fiw-2013%2Fimages%2Flogo.png&cfs=1&_nc_hash=AQAdYWvQp2G7GeiJ
+        width: 720
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.impressivewebs.com%2Fjavascript-array-methods-reference%2F&h=ATOUr9W2zYFJZYm6nMkKl4XKOcSioLQTHHj2FVp4_k4wKFxD0nf8gjOLOKlJo7hFOxmEQmNCzMNqhV1f-ibUtR2PhoRZAy9qxON3&s=1&enc=AZOcTYlbU5wGkTHor2a-QzsGQKS95evbLGDZ5YIkRE_TfxkNqRHk7COBpfXfIsGzukuSNEbkTRir_PWJMzwIKwIR
+    title: JavaScript Array Methods Reference - Impressive Webs
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.impressivewebs.com%2Fjavascript-array-methods-reference%2F&h=ATOUr9W2zYFJZYm6nMkKl4XKOcSioLQTHHj2FVp4_k4wKFxD0nf8gjOLOKlJo7hFOxmEQmNCzMNqhV1f-ibUtR2PhoRZAy9qxON3&s=1&enc=AZOcTYlbU5wGkTHor2a-QzsGQKS95evbLGDZ5YIkRE_TfxkNqRHk7COBpfXfIsGzukuSNEbkTRir_PWJMzwIKwIR

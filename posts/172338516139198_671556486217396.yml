@@ -9,3 +9,75 @@ created_time: '2013-12-18T12:18:40+0000'
 updated_time: '2013-12-18T12:53:25+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/671556486217396/
 id: '172338516139198_671556486217396'
+reactions:
+  data:
+  - id: '10157199028844478'
+    name: Noha Basiony
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpVMk56ZAzVORGMzT2pFek9EY3pOamt4TlRRNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TmpVMk56ZAzVORGMzT2pFek9EY3pOamt4TlRRNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2013-12-18T12:38:06+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Basically you defer the whole process to a 3rd party payment gateway.
+      Some will require to have their own pages with particular styling and give you
+      some control over the styles, some will allow you to render the form and submit
+      to them, in all cases, you MUST not store credit card data (no, don't think
+      about encrypting it or whatever, there're horrible legal issues to deal with
+      if you do -at least in many countries-, and trust me, you won't implement it
+      right the first or 5th time). You'll also need an SSL certificate to use for
+      the payment form.
+    id: '671562226216822'
+  - created_time: '2013-12-18T12:38:51+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: I don't know which payment gateways support paying to Egyptian bank accounts
+      (or credit cards). This may be an OK starrt http://www.wamda.com/2013/02/payment-gateways-in-the-arab-world-2013-infographic
+      or ask Egypreneur ريادي الأعمال المصري
+    id: '671562389550139'
+  - created_time: '2013-12-18T12:40:01+0000'
+    from:
+      name: Amr Reda
+      id: '10160087313865372'
+    message: actually, I'm looking for something based in Saudi Arabia, Thanks :)
+    id: '671562682883443'
+  - created_time: '2013-12-18T12:41:26+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: If it's a big organization, talk to STC. If it's like UAE, most gov,
+      semi-gov, and big organizations will use the biggest telco company as their
+      payment processor.
+    id: '671563059550072'
+  - created_time: '2013-12-18T12:46:29+0000'
+    from:
+      name: Amr Reda
+      id: '10160087313865372'
+    message: frankly speaking, I'm looking for something for start-up project that
+      requires to gather fees from online customers, most of the payment gateway that
+      mentioned in the infographic support KSA, so I'll investigate more which one
+      is suitable for the project.
+    id: '671564259549952'
+  - created_time: '2013-12-18T12:50:35+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Maybe consider Paypal for beginning, or Google Checkout, or Stripe (that's
+      what Tekpub used) or BrainTree (used in Tekpub sample as well).
+    id: '671565512883160'
+  - created_time: '2013-12-18T12:53:25+0000'
+    from:
+      name: Amr Reda
+      id: '10160087313865372'
+    message: thanks for the recommendations :)
+    id: '671566232883088'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN4TlRZAeU1qSTJNakUyT0RJeU9qRXpPRGN6TnpBeU9EWT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN4TlRZAMk1qTXlPRGd6TURnNE9qRXpPRGN6TnpFeU1EVT0ZD

@@ -11,3 +11,76 @@ created_time: '2015-06-18T08:16:46+0000'
 updated_time: '2015-06-19T18:39:04+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/960064267366615/
 id: '172338516139198_960064267366615'
+reactions:
+  data:
+  - id: '10155855157936047'
+    name: Mosab Ibrahim
+    type: LIKE
+  paging:
+    cursors:
+      before: TnpVMU1ESTJNRFEyT2pFME16UTJOakUwTkRJNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TnpVMU1ESTJNRFEyT2pFME16UTJOakUwTkRJNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2015-06-18T09:00:28+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: |-
+      FILE* and fopen, fwrite, fclose .. etc are an example of OOP in C.
+      FILE is a forward declared but undefined struct. You only have a pointer to it (Encapsulation)
+      fopen and fclose, construct/destruct it.
+      All functions take a FILE* which acts like the this pointer.
+      The standard guarantees no padding at start of a struct, so you can make a SPECIAL_FILE with  FILE as first member and cast between them, given you know the composition of it (Inheritance).
+
+      If you want to go overboard, you can hack some preprocessor code for new/delete and make class-like things using structs of function pointers.
+
+      For private static members you can use different translation units (files) and declare them static.
+
+      That's what I could think of. There is a free ebook (http://www.cs.rit.edu/~ats/books/ooc.pdf) which I didn't have time to read yet. It surely has a lot more ideas on how to do this.
+
+      Also remember the very first C++ compiler was just a preprocessor for C. You can go a long way without explicit OO support.
+      I even once saw a OO implementation in BATCH (yes, windows batch), but can't find it at the moment.
+    id: '960075777365464'
+  - created_time: '2015-06-18T09:06:17+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: Another language I had limited exposure to is Lua. It uses key/value
+      pairs to add functions and variables to an object, thereby emulating classes
+      and allows you to register custom handlers with the VM to handle operators.
+      Might be worth looking into.
+    id: '960076820698693'
+  - created_time: '2015-06-18T09:18:24+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: |-
+      mm, ignore my first example. I didn't see the object-oriented languages part..
+      For languages designed with OO in mind but with no classes look here:
+      http://programmers.stackexchange.com/questions/115418/do-object-oriented-programming-languages-exist-that-are-not-class-based
+    id: '960079644031744'
+  - created_time: '2015-06-18T16:42:21+0000'
+    from:
+      name: Muhammed Abuali
+      id: '1824245244266988'
+    message: doesn't javascript apply too
+    id: '960225474017161'
+  - created_time: '2015-06-18T22:48:04+0000'
+    from:
+      name: Tarek Amr
+      id: '10155854949245944'
+    message: C for example (not C++), it is common to make objects there by passing
+      pointer to a structure to a bunch of functions, so that they all share the same
+      data, and act as object methods
+    id: '960401103999598'
+  - created_time: '2015-06-19T18:39:04+0000'
+    from:
+      name: Ahmed Mahmoud
+      id: '1917940025202392'
+    message: "JavaScript \nthere is no class keyword"
+    id: '960788603960848'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFl3TURjMU56YzNNelkxTkRZAME9qRTBNelEyTVRnd01qZAz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFl3TnpnNE5qQXpPVFl3T0RRNE9qRTBNelEzTXpreE5EUT0ZD

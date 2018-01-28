@@ -10,3 +10,109 @@ created_time: '2014-08-11T21:21:52+0000'
 updated_time: '2014-08-12T06:37:47+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/797992040240506/
 id: '172338516139198_797992040240506'
+reactions:
+  data:
+  - id: '10159871545170134'
+    name: Mahmoud Said
+    type: LIKE
+  - id: '10215282097155427'
+    name: Mohamed Ali Abuelwafa
+    type: LIKE
+  paging:
+    cursors:
+      before: TnpJek5EUXdNVE16T2pFME1EYzRNREV6T0RZANk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRVeU5EY3hOVFE1TlRveE5EQTNOemsxT0RZAek9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2014-08-11T21:30:13+0000'
+    from:
+      name: Islam AbdelMohaimen Hassan
+      id: '10214796374519514'
+    message: |-
+      Follow this guide
+      https://dev.twitter.com/docs/working-with-timelines
+    id: '797994730240237'
+  - created_time: '2014-08-11T21:31:26+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: "checking it up \nDanken Islamo ! =D"
+    id: '797995090240201'
+  - created_time: '2014-08-11T21:39:32+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: Well I need dates not ranges =D.
+    id: '797997296906647'
+  - created_time: '2014-08-11T22:03:12+0000'
+    from:
+      name: Islam AbdelMohaimen Hassan
+      id: '10214796374519514'
+    message: Can you elaborate more?
+    id: '798004373572606'
+  - created_time: '2014-08-11T22:05:07+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: date from 12-dec-2011 to 15-jun-2012
+    id: '798004836905893'
+  - created_time: '2014-08-11T22:05:09+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: kda =D
+    id: '798004843572559'
+  - created_time: '2014-08-11T22:22:17+0000'
+    from:
+      name: Mohamed Ali Abuelwafa
+      id: '10215282097155427'
+    message: twitter search api doesn't get you tweets back for this long period.
+      the twitter index only holds tweets from around 6-9 days ago (and not all the
+      tweets for this period either). the only way to get historical twitter data
+      is through another service that is a partner with twitter that provides historical
+      twitter data access like http://gnip.com/
+    id: '798009340238776'
+  - created_time: '2014-08-11T22:26:40+0000'
+    from:
+      name: Mohamed Ali Abuelwafa
+      id: '10215282097155427'
+    message: if anyone knows a way to get tweets back until this time, i'd love to
+      know it. because i used to have the same problem. :)
+    id: '798010876905289'
+  - created_time: '2014-08-11T22:30:03+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: |-
+      Well you sound reasonable :)), I searched for it for 2 days.
+      the way i came out with is to use the web advanced search and render it with phantomjs, and let the spider go twitter =D
+    id: '798011933571850'
+  - created_time: '2014-08-11T22:36:16+0000'
+    from:
+      name: Mohamed Ali Abuelwafa
+      id: '10215282097155427'
+    message: interestingly, i noticed that the twitter search through the website
+      returns more tweets and for periods of time more than the search api index.
+      but it's still a very small subset of the total number of tweets that is already
+      there (couple hundreds when the actual number may be thousands or tens of thousands)
+    id: '798014330238277'
+  - created_time: '2014-08-11T22:37:34+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: Yep I noticed that too. sadly the old apis doesn't work anymore :@
+    id: '798014640238246'
+  - created_time: '2014-08-12T06:37:47+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: I was thinking about doing something else with Twitter and went PhantomJS
+      as well (was playing, never made it to production, yet), good I wasn't completely
+      insane as someone else thought in a similar way. Although I didn't really use
+      PhantomJS directly (used Selenium to talk to it, and when debugging ran it in
+      Chrome instead of PhantomJS to see and debug easily).
+    id: '798169153556128'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemszT1RrME56TXdNalF3TWpNM09qRTBNRGMzT1RJMk1UTT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOems0TVRZANU1UVXpOVFUyTVRJNE9qRTBNRGM0TWpVME5qYz0ZD

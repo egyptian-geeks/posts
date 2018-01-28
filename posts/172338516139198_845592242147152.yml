@@ -15,3 +15,131 @@ name: Issue 400522 - chromium - Cursor in text fields is vertically top aligned 
   of center...
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/845592242147152/
 id: '172338516139198_845592242147152'
+comments:
+  data:
+  - created_time: '2014-11-13T18:40:05+0000'
+    from:
+      name: Muhammad Sweilam
+      id: '1672329366148161'
+    message: ''
+    id: '845593935480316'
+  - created_time: '2014-11-13T18:40:44+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: بالحب ...
+    id: '845594095480300'
+  - created_time: '2014-11-13T18:45:45+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: |-
+      Alright, So you have to explain to the client that this is a Browser issue caused by an update that broke the textbox not only your website is affected but millions of other websites. (I would give him a sample websites)
+
+      Now that you pointed the problem. Offer the solution. an easy solution would be using a polyfill or vertical align depends on how bad is the situation :D
+    id: '845595592146817'
+  - created_time: '2014-11-13T19:10:59+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: It is affecting websites like Google Groups for example ...I got your
+      point ... Thanks Mohamed ... I don't think I will go for a work around. Too
+      much to do ... calculating padding and height. It doesn't worth the effort.
+    id: '845604435479266'
+  - created_time: '2014-11-13T19:12:15+0000'
+    from:
+      name: Hisham Fangary
+      id: '10156660518155839'
+    message: |-
+      Handeling The Client: Show the client the error happening on google's own websites, like in the link: https://productforums.google.com/forum/#!forum/chrome
+      If google itself is facing the same issue, they can't argue.
+
+      Actual Workaround: If it's possible, simply remove the Line Height property from the field, and just use the "height" property, it certainly fixes the issue in the link provided. Not sure about your website and how you are using the line-height property!
+
+      Posting a link of your actual website with the issue would help as well ;)
+    id: '845604728812570'
+  - created_time: '2014-11-13T20:13:40+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: "^I needed a second opinion saying that, thanks Amr"
+    id: '845632795476430'
+  - created_time: '2014-11-13T20:14:16+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: Hisham When the line-height property and the height are equal, the text
+      is vertically aligned within that container.
+    id: '845633008809742'
+  - created_time: '2014-11-13T20:18:10+0000'
+    from:
+      name: Hisham Fangary
+      id: '10156660518155839'
+    message: Ahmad Alfy I understand, remove the line-height property from your css
+      for that text field,  or reset it to initial. That worked for me on google's
+      website.
+    id: '845638575475852'
+  - created_time: '2014-11-13T20:18:58+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: but in that case, it wont be perfectly vertically aligned :)
+    id: '845645942141782'
+  - created_time: '2014-11-13T20:21:18+0000'
+    from:
+      name: Hisham Fangary
+      id: '10156660518155839'
+    message: It should be perfectly vertically aligned because that is the default
+      behaviour, it did align automacally for me. :)
+    id: '845649405474769'
+  - created_time: '2014-11-13T20:32:24+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: Confirmed, you are right. I thought that's a bad behavior from Chrome
+      but this is exactly the same on FF and IE too. Was it always like this? Ever
+      since I started to write CSS I always thought I have to declare line-height
+      on input. I am not sure but do you know if that's a recent change? Cause I am
+      like 99.9% positive that that wasn't the case like 6 years ago :D
+    id: '845654272140949'
+  - created_time: '2014-11-13T20:34:44+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: |-
+      See: http://stackoverflow.com/a/945812/497828
+      That's a 5 years old answer on Stackoverflow asking about the exact same thing ... Back at this time achieving the vertical align was an issue ... Seems like the browsers treat it differently now!
+    id: '845654812140895'
+  - created_time: '2014-11-13T21:05:24+0000'
+    from:
+      name: Hisham Fangary
+      id: '10156660518155839'
+    message: For sure, alot has changed since 5 years ago, css3 only acheived full
+      implementation as soon as just 2 years ago, the turnover for browsers is very
+      high. Last year you still had to write out different browser specific prefixes
+      for many css properties, today the majority of them are standards and no longer
+      need browser specific prefixes.
+    id: '845664775473232'
+  - created_time: '2014-11-13T21:10:18+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Can you show an example of the issue live ?
+    id: '845666355473074'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFExTlRrek9UTTFORGd3TXpFMk9qRTBNVFU1TURRd01EVT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFExTmpZAMk16VTFORGN6TURjME9qRTBNVFU1TVRNd01UZAz0ZD
+attachments:
+  data:
+  - media:
+      image:
+        height: 82
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQB_Mx55oeKTtYoU&w=720&h=720&url=https%3A%2F%2Fchromium.googlecode.com%2Fissues%2Fattachment%3Faid%3D4005220011000%26name%3DScreen%2BShot%2B2014-08-18%2Bat%2B15.09.21.png%26token%3DABZ6GAePsXNNSJsvSlfmWrAq3gcoOqCcuQ%253A1415903427808%26inline%3D1%26thumb%3D1&cfs=1&_nc_hash=AQCjVUGM5cgvrJmy
+        width: 82
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcode.google.com%2Fp%2Fchromium%2Fissues%2Fdetail%3Fid%3D400522&h=ATM5XkTUJ4gPkmTy34MIdaSV-vywYBVipxfmWKKDokFdhNkPEGN6uGCp5PPKx1clhBZ63Mdjk-4bytcUbWIrbFeNciav1s0dGhlY&s=1&enc=AZMAjikYveT3pfww0aAFsLc1jeNjKswvdljlitgDRulOiBSkNTkh0NLmgU2KY_vz9Glkt7kIvTPttIAX9eXONAP8
+    title: Issue 400522 - chromium - Cursor in text fields is vertically top aligned
+      instead of center...
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fcode.google.com%2Fp%2Fchromium%2Fissues%2Fdetail%3Fid%3D400522&h=ATM5XkTUJ4gPkmTy34MIdaSV-vywYBVipxfmWKKDokFdhNkPEGN6uGCp5PPKx1clhBZ63Mdjk-4bytcUbWIrbFeNciav1s0dGhlY&s=1&enc=AZMAjikYveT3pfww0aAFsLc1jeNjKswvdljlitgDRulOiBSkNTkh0NLmgU2KY_vz9Glkt7kIvTPttIAX9eXONAP8

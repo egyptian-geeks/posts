@@ -15,3 +15,124 @@ created_time: '2015-03-26T17:55:33+0000'
 updated_time: '2015-03-26T20:12:37+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/915294391843603/
 id: '172338516139198_915294391843603'
+comments:
+  data:
+  - created_time: '2015-03-26T18:07:33+0000'
+    from:
+      name: Mohamed Said
+      id: '10155091454175952'
+    message: How do you echo? show some code
+    id: '915299338509775'
+  - created_time: '2015-03-26T18:14:44+0000'
+    from:
+      name: Moustafa Abdelaziz
+      id: '10156095976664136'
+    message: Here is a sample code .. the data are transmitted to refresh.php page
+      .. which the same page
+    id: '915301961842846'
+  - created_time: '2015-03-26T18:15:23+0000'
+    from:
+      name: Moustafa Abdelaziz
+      id: '10156095976664136'
+    message: The data have been submitted above, but I can't display it on the screen
+    id: '915302198509489'
+  - created_time: '2015-03-26T18:17:58+0000'
+    from:
+      name: Moustafa Abdelaziz
+      id: '10156095976664136'
+    message: The strange thing is that If I used "echo" function to display anything
+      on the screen, it works perfectly. However, it doesn't work with the variables
+      that received data from the form :)
+    id: '915302918509417'
+  - created_time: '2015-03-26T18:26:21+0000'
+    from:
+      name: Moustafa Abdelaziz
+      id: '10156095976664136'
+    message: |-
+      Well, when I removed this function:
+      - mysql_real_escape_string();
+
+      it worked well, but I need to validate the data I received from server-side. Any ideas why mysql_real_escape_string() caused this error ?! :)
+    id: '915305418509167'
+  - created_time: '2015-03-26T18:34:27+0000'
+    from:
+      name: Moustafa Abdelaziz
+      id: '10156095976664136'
+    message: Okay .. I found the reason behind mysql_real_escape_string() causing
+      such an error below
+    id: '915307985175577'
+  - created_time: '2015-03-26T18:37:29+0000'
+    from:
+      name: Mohamed El Shaer
+      id: '1623854234340161'
+    message: For the sake of simplicity you can use strip_slashes and strip_tags in
+      addition to htmlentities "it is better to replace it with htmlspecialchars",
+      mysql_blabla() functions are deprecated furthermore you should connect to the
+      mysql server before using this function "as i remember"
+    id: '915308775175498'
+  - created_time: '2015-03-26T18:39:00+0000'
+    from:
+      name: Mohamed Said
+      id: '10155091454175952'
+    message: Mustafa Hammad I have a question for you, why don't you use one of the
+      many PHP frameworks instead of using raw php? is it a product you are building
+      wla you are exercising?
+    id: '915309985175377'
+  - created_time: '2015-03-26T18:40:41+0000'
+    from:
+      name: Moustafa Abdelaziz
+      id: '10156095976664136'
+    message: You are right Mohamed El Shaer .. my bad
+    id: '915312091841833'
+  - created_time: '2015-03-26T18:46:09+0000'
+    from:
+      name: Moustafa Abdelaziz
+      id: '10156095976664136'
+    message: |-
+      Mohamed Said
+      Would you believe me if I told you that I like using raw PHP over PHP frameworks ?! .. but that could change in the near future .. who knows. I was not really exercising, I was building something and this issue came across .. Thanks :)
+    id: '915314131841629'
+  - created_time: '2015-03-26T19:43:35+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: '"Using XAMPP package to simulate server-side codes in my localhost"
+      ought to be "I have XAMPP running on my machine". We are engineers, we get to
+      the point directly!'
+    id: '915336218506087'
+  - created_time: '2015-03-26T19:55:57+0000'
+    from:
+      name: Moustafa Abdelaziz
+      id: '10156095976664136'
+    message: Ahmad Fatoum .. Okay
+    id: '915341625172213'
+  - created_time: '2015-03-26T20:01:49+0000'
+    from:
+      name: Mahmoud Tantawy
+      id: '10156115350739764'
+    message: "i think your php code is not executed till the end, mysql_real_escape_string
+      requires that a MySQL connection be opened before calling it (because it uses
+      this connection to get encoding info needed to decide what characters to escape
+      and other stuff)\n\nso, i think calling this function stops php code execution\n\ntry
+      this at the very beginning of the page \n<?php\necho '<pre>';\nprint_r($_GET);\necho
+      '</pre>';\n?>\n\nand post back the result"
+    id: '915343851838657'
+  - created_time: '2015-03-26T20:02:49+0000'
+    from:
+      name: Mahmoud Tantawy
+      id: '10156115350739764'
+    message: sry, just noticed that someone else already solved it for you
+    id: '915344181838624'
+  - created_time: '2015-03-26T20:12:37+0000'
+    from:
+      name: Moustafa Abdelaziz
+      id: '10156095976664136'
+    message: |-
+      Yeah .. this guy solved it for me (Mohamed El Shaer) and I confirmed what he said from www.php.net manual of using mysql_real_escape_string() =)
+
+      as you said, this function won't work unless MySQL connection was opened and here is the result. Thank you for extending on what El Shaer said earlier Mahmoud Tantawy =)
+    id: '915347995171576'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEUxTWprNU16TTROVEE1TnpjMU9qRTBNamN6T1RNeU5UTT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEUxTXpRM09UazFNVGN4TlRjMk9qRTBNamMwTURBM05UYz0ZD

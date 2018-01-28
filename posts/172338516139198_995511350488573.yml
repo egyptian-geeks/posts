@@ -13,3 +13,75 @@ created_time: '2015-08-24T14:44:54+0000'
 updated_time: '2015-08-24T17:18:34+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/995511350488573/
 id: '172338516139198_995511350488573'
+reactions:
+  data:
+  - id: '1495149960582252'
+    name: Mohamed Wael
+    type: LIKE
+  - id: '10156266511868081'
+    name: Ahmed Zain Mohammed
+    type: LIKE
+  - id: '10212848342936370'
+    name: Ramy Farid
+    type: LIKE
+  - id: '10155586683174822'
+    name: Moataz Farid
+    type: LIKE
+  - id: '1571856266239735'
+    name: Mohamed Atef
+    type: LIKE
+  - id: '10215523479504700'
+    name: Abdulaziz Alaa
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlOakUzT0RjeU56STFPakUwTkRBME9EZAzVOVEU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRNM01EWTFPRFUwTmpveE5EUXdOREkzTlRNMk9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2015-08-24T16:07:10+0000'
+    from:
+      name: Ahmed Aboulenein
+      id: '10160047384135438'
+    message: 'A difficult question to answer as this skills is built more with experience
+      and hands on. I would suggest you do two things, 1. reading design patterns
+      with practical examples and projects. 2. participate in open source projects
+      where you can learn a lot. I also find reading Java core libraries source code
+      and how they are designed very useful. For (1) above, if you haven''t read GoF
+      Design Patterns book yet, I highly recommend it for you as a start. It goes
+      through the patterns and have an example application, a word processing application
+      that illustrates the usage of design patterns, so you get to know how to use
+      each of them. I read this book 15 years ago and I am still so grateful to the
+      GoF :)   https://en.wikipedia.org/wiki/Design_Patterns This one gives the basic
+      design patters, in Java EE, there is another set of patterns targeting web applications,
+      J2EE Design Patterns, I read this one and it was extremely useful: http://corej2eepatterns.com/
+      Next higher level is at architecture level, I didn''t come across a single good
+      reference, but you can start from here as an index to explore more: https://en.wikipedia.org/wiki/Architectural_pattern
+      however I wouldn''t care about the architecture level as I start, that''s more
+      advanced and related to large distributed and integrated systems. First master
+      the GoF design patterns, then the Java EE core patterns if interested in web-applications
+      development (especially on Java platform). All the best :)'
+    id: '995550210484687'
+  - created_time: '2015-08-24T16:16:47+0000'
+    from:
+      name: Omar Essam
+      id: '10156052502884860'
+    message: Thanks I'll definitely read those
+    id: '995552727151102'
+  - created_time: '2015-08-24T16:43:03+0000'
+    from:
+      name: Ahmed Aboulenein
+      id: '10160047384135438'
+    message: You're very welcome!
+    id: '995561463816895'
+  - created_time: '2015-08-24T17:18:34+0000'
+    from:
+      name: Ahmed Aboulenein
+      id: '10160047384135438'
+    message: Please check this one out as well, it answers your question much better
+      and have tons of references at the bottom :) http://karim-ouda.blogspot.co.uk/2012/04/design-patterns-and-principles.html
+    id: '995578920481816'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVGsxTlRVd01qRXdORGcwTmpnM09qRTBOREEwTXpJME16QT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVGsxTlRjNE9USXdORGd4T0RFMk9qRTBOREEwTXpZAM01UUT0ZD

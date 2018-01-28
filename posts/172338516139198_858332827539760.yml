@@ -15,3 +15,179 @@ updated_time: '2014-12-09T15:30:29+0000'
 name: Cannot open mysql for the first time
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/858332827539760/
 id: '172338516139198_858332827539760'
+comments:
+  data:
+  - created_time: '2014-12-09T09:38:56+0000'
+    from:
+      name: Ahmed M. Araby
+      id: '10155547863649263'
+    message: "/var/run/mysqld/mysqld.sock is unix socket , don't try to check it ,
+      you need to check mysql itself and for the reference :\n\ncheck if mysql port
+      is opened :\nnetstat -ntpl | grep 330[6]\nlsof -i TCP:3306\n\ncheck mysql process:
+      \nps aux | grep -i mysq[l]\n\nno one can \"guess\" the problem \nYou need to
+      check mysql log and get it \n\n/var/log/mysqld.log\nor /var/log/mysql.log\nor
+      /var/lib/mysql/$HOSTNAME.log\nDepending on your distribution , which I think
+      It's ubuntu \n\n1-now , try to , \nsudo mysql start\n2-What's the output\n3-
+      check mysql process\n4-check mysql port\n5- check mysql logs"
+    id: '858335700872806'
+  - created_time: '2014-12-09T09:59:47+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: 'Sidenote: note trying to be a nazi but you should familiarize yourself
+      with how to use markdown properly on Stackoverflow.http://stackoverflow.com/help/formatting'
+    id: '858341077538935'
+  - created_time: '2014-12-09T10:00:24+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: inb4 Ahmad Abd-Elghany comes and say I am a nazi, yes I am when it comes
+      to Stackoverflow :P
+    id: '858341217538921'
+  - created_time: '2014-12-09T10:04:58+0000'
+    from:
+      name: Marwa Dosoky
+      id: '10156104209581248'
+    message: Ahmad Alfy it's ok, thx for the hint
+    id: '858342120872164'
+  - created_time: '2014-12-09T10:07:39+0000'
+    from:
+      name: Marwa Dosoky
+      id: '10156104209581248'
+    message: "Ahmed M. Araby I have tried what you said, the result is:\n>>netstat
+      -ntpl | grep 330[6]\nnothing came out in the terminal\n\n>>lsof -i TCP:3306\nnothing
+      too\n\nps aux | grep -i mysq[l]\n>>>\na whole punch of things came out, but
+      i don't know if they do matter \nroot      4137  0.0  0.0  75368  2192 pts/1
+      \   S+   11:48   0:00 sudo aptitude install mysql-server\nroot      4138  3.4
+      \ 1.5 240724 94656 pts/1    Sl+  11:48   0:36 aptitude install mysql-server\nroot
+      \     6341  0.0  0.1  24992  7236 pts/3    Ss+  11:49   0:00 /usr/bin/dpkg --status-fd
+      118 --configure libmysqlclient18:amd64 libdbd-mysql-perl:amd64 mysql-client-5.5:amd64
+      mysql-server-5.5:amd64 mysql-server:all\nroot      6350  0.0  0.2  67996 14608
+      pts/3    S+   11:49   0:00 /usr/bin/perl -w /usr/share/debconf/frontend /var/lib/dpkg/info/mysql-server-5.5.postinst
+      configure \nroot      6360  0.0  0.0  16784  1728 pts/3    S+   11:49   0:00
+      /bin/bash /var/lib/dpkg/info/mysql-server-5.5.postinst configure \njavwebd+
+      \ 6538  0.0  0.4 658732 25748 ?        Sl   11:51   0:00 file-roller /usr/share/doc/mysql-server-5.5/README.Debian.gz\nroot
+      \     6592  0.0  0.0   4444   728 pts/3    S+   11:53   0:00 /bin/sh /usr/sbin/invoke-rc.d
+      mysql start\nroot      6621  0.0  0.0  23784  2516 pts/3    S+   11:53   0:00
+      start mysql\nmysql    24014  0.0  0.6 418472 41416 ?        Ssl  12:06   0:00
+      /usr/sbin/mysqld"
+    id: '858342657538777'
+  - created_time: '2014-12-09T10:11:04+0000'
+    from:
+      name: Marwa Dosoky
+      id: '10156104209581248'
+    message: "and as for the logs,  empty logs . however i found another log file
+      in /var/log/mysql/error.log and found this line:\n141209 12:02:25 [ERROR] Can't
+      open the mysql.plugin table. Please run mysql_upgrade to create it.\n\nthe whole
+      thread was :\n141209 12:09:52  InnoDB: Starting shutdown...\n141209 12:09:52
+      \ InnoDB: Shutdown completed; log sequence number 1595675\n141209 12:09:52 [Note]
+      \n141209 12:09:53 [Warning] Using unique option prefix myisam-recover instead
+      of myisam-recover-options is deprecated and will be removed in a future release.
+      Please use the full name instead.\n141209 12:09:53 [Note] Plugin 'FEDERATED'
+      is disabled.\n/usr/sbin/mysqld: Unknown error 1146\n141209 12:09:53 [ERROR]
+      Can't open the mysql.plugin table. Please run mysql_upgrade to create it.\n141209
+      12:09:53 InnoDB: The InnoDB memory heap is disabled\n141209 12:09:53 InnoDB:
+      Mutexes and rw_locks use GCC atomic builtins\n141209 12:09:53 InnoDB: Compressed
+      tables use zlib 1.2.8\n141209 12:09:53 InnoDB: Using Linux native AIO\n141209
+      12:09:53 InnoDB: Initializing buffer pool, size = 128.0M\n141209 12:09:53 InnoDB:
+      Completed initialization of buffer pool\n141209 12:09:53 InnoDB: highest supported
+      file format is Barracuda.\n141209 12:09:54  InnoDB: Waiting for the background
+      threads to start\n141209 12:09:55 InnoDB: 5.5.40 started; log sequence number
+      1595675\n141209 12:09:55 [ERROR] Aborting\n\nand that thread is keep appending,
+      as it is gone in infinite loop :)"
+    id: '858343440872032'
+  - created_time: '2014-12-09T10:23:18+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: |-
+      Please start mysql with this:
+
+      sudo service mysql restart
+    id: '858346564205053'
+  - created_time: '2014-12-09T10:24:25+0000'
+    from:
+      name: Ahmed M. Araby
+      id: '10155547863649263'
+    message: "I can tell you what to do , but then I won't be helping you alot \nread
+      the error line and try what It says"
+    id: '858346880871688'
+  - created_time: '2014-12-09T11:11:24+0000'
+    from:
+      name: Marwa Dosoky
+      id: '10156104209581248'
+    message: "Ahmed M. Araby that what i was trying to do. it failed :\nLooking for
+      'mysql' as: mysql\nLooking for 'mysqlcheck' as: mysqlcheck\nFATAL ERROR: Upgrade
+      failed\nthat was the result\n\nit seems that it couldn't connect to the socket
+      too\n\nfor some reason i hoped that the problem is the password, though i didn't
+      enter any, so I entered the command to reset the psw:\n>> sudo dpkg-reconfigure
+      mysql-server-5.5\n\nand it returned \n/usr/sbin/dpkg-reconfigure: mysql-server-5.5
+      is broken or not fully installed"
+    id: '858365094203200'
+  - created_time: '2014-12-09T11:13:05+0000'
+    from:
+      name: Marwa Dosoky
+      id: '10156104209581248'
+    message: i don't know how to fix this broken installation . i have tried to remove
+      the package all over using purge, but the problem still occurs
+    id: '858365507536492'
+  - created_time: '2014-12-09T11:14:23+0000'
+    from:
+      name: Marwa Dosoky
+      id: '10156104209581248'
+    message: is it normal that i didn't find the pid file of the server?
+    id: '858366247536418'
+  - created_time: '2014-12-09T11:25:59+0000'
+    from:
+      name: Marwa Dosoky
+      id: '10156104209581248'
+    message: mesh lel daraga di :D. i did that and i did 2 other different ways too
+      :)
+    id: '858372274202482'
+  - created_time: '2014-12-09T11:33:12+0000'
+    from:
+      name: Ahmed M. Araby
+      id: '10155547863649263'
+    message: "if you don't have databases there which I believe It's the case \ntry
+      to clean up the mess first and do the housekeeping \n\nkillall aptitude dpk
+      mysqld\nkillall -9 mysqld\n\nthen move the old nice database\nmv /var/lib/mysql
+      mv /var/lib/mysql-bak1\n\nthen , start the service \nservice mysl start\nmysql_secure_installation"
+    id: '858376417535401'
+  - created_time: '2014-12-09T14:57:30+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: What's the version of your Ubuntu ?
+    id: '858443780861998'
+  - created_time: '2014-12-09T15:30:29+0000'
+    from:
+      name: Marwa Dosoky
+      id: '10156104209581248'
+    message: "resolved \nI was removing the installation without sufficient commands,
+      as it seems, finally i have removed it using the following :\n#sudo service
+      mysql stop  \n#sudo killall -9 mysql\n#sudo killall -9 mysqld\n#sudo apt-get
+      remove --purge mysql-server mysql-client mysql-common #sudo apt-get autoremove\n#sudo
+      apt-get autoclean\n#sudo deluser mysql\n#sudo rm -rf /var/lib/mysql\n#sudo apt-get
+      purge mysql-server-core-5.5 #sudo apt-get purge mysql-client-core-5.5 \nThis
+      time i have removed the user as well. I didn't know that would \nmatter. anyway
+      after reinstalling it again it worked just fine"
+    id: '858454950860881'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFU0TXpNMU56QXdPRGN5T0RBMk9qRTBNVGd4TVRjNU16WT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFU0TkRVME9UVXdPRFl3T0RneE9qRTBNVGd4TXprd01qaz0ZD
+attachments:
+  data:
+  - description: I have installed mysql from Ubunto software center, mysql client
+      and mysql workbench as well. the problem is I cannot do anything but to call
+      sudo mysql start and sudo mysql stop when i try to ru...
+    media:
+      image:
+        height: 316
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQCz3rmhv1AH6XyC&w=720&h=720&url=http%3A%2F%2Fcdn.sstatic.net%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3Dfde65a5a78c6&cfs=1&_nc_hash=AQDYMA7sVVUu6LYN
+        width: 316
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F27374092%2Fcannot-open-mysql-for-the-first-time&h=ATNytUd4x4JGRjPx0EV1uOCj2Mrr2u5nM80MqGy2fiMf2yhPfxoIzlmWMAFV2uf4fM9QUkgmjvr0DGovDNh-PV-TIQrJPU50JFJv&s=1&enc=AZOsw_ZYpAonWrekvIS1o59qhnEr5FIBwXpC2S2ye7T8KSUeMFeSWpkgRdwe5yO405UxijPrPu9L5w_8LuWz-q2g
+    title: Cannot open mysql for the first time
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F27374092%2Fcannot-open-mysql-for-the-first-time&h=ATNytUd4x4JGRjPx0EV1uOCj2Mrr2u5nM80MqGy2fiMf2yhPfxoIzlmWMAFV2uf4fM9QUkgmjvr0DGovDNh-PV-TIQrJPU50JFJv&s=1&enc=AZOsw_ZYpAonWrekvIS1o59qhnEr5FIBwXpC2S2ye7T8KSUeMFeSWpkgRdwe5yO405UxijPrPu9L5w_8LuWz-q2g

@@ -12,3 +12,64 @@ updated_time: '2014-09-18T15:31:25+0000'
 name: ngrok - secure introspectable tunnels to localhost
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/815601461812897/
 id: '172338516139198_815601461812897'
+reactions:
+  data:
+  - id: '10155819655346066'
+    name: Shady M. Najib
+    type: LIKE
+  - id: '10159726802330618'
+    name: Ahmed AbouZaid
+    type: LIKE
+  - id: '10154904189965670'
+    name: Ahmad Alfy
+    type: LIKE
+  - id: '10156207737619180'
+    name: Ahmed Al-Amir
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRnM05EWXhNRFkxT2pFME1URXhNVEEwTkRZANk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TmpZAMU16VTVNVGM1T2pFME1UQTVOREUwTWpnNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2014-09-17T10:33:53+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: I'd be interested in how SSL works. I know the guys behind http://readme.localtest.me/
+      and at first they got a real certificate but then later CA didn't like what
+      they were doing because the private key wasn't secure, and they thought any
+      other authority will think the same and gave up on it.
+    id: '815638778475832'
+  - created_time: '2014-09-17T10:42:32+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: I heard this story as well. I don't know if ngrok solved the SSL problem
+      or just the CA didn't revoke certifcate yet :)
+    id: '815640461808997'
+  - created_time: '2014-09-18T15:31:25+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: You know that with Gulp they have a module that does this for you when
+      you start your local server?
+    id: '816271535079223'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPREUxTmpNNE56YzRORGMxT0RNeU9qRTBNVEE1TlRBd016TT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPREUyTWpjeE5UTTFNRGM1TWpJek9qRTBNVEV3TlRReU9EVT0ZD
+attachments:
+  data:
+  - description: ngrok secure introspectable tunnels to localhost webhook development
+      tool and debugging tool
+    media:
+      image:
+        height: 498
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQD3YIaIz5EssUzg&w=720&h=720&url=https%3A%2F%2Fngrok.com%2Fstatic%2Fimg%2Foverview.png&cfs=1&_nc_hash=AQBRw6iRNwrCd5I5
+        width: 498
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fngrok.com%2F&h=ATPMn-3XcyJ3zDJX9zR0y0mc_vovJvWK9F4mrZB-nMvJlGldra9VMY-YEAEKrGbb9aiJt4cWrHQq4rXPSjCoJP7ZMJduJZKlzYdb&s=1&enc=AZPxWfwTVnjXprYumiDR6l8I-VvNaG3Ozl5Th3fPV85h49LoTZxb_cRx3m9r97rLLDay2pMfcUCwrLGcO1TEMHPf
+    title: ngrok - secure introspectable tunnels to localhost
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fngrok.com%2F&h=ATPMn-3XcyJ3zDJX9zR0y0mc_vovJvWK9F4mrZB-nMvJlGldra9VMY-YEAEKrGbb9aiJt4cWrHQq4rXPSjCoJP7ZMJduJZKlzYdb&s=1&enc=AZPxWfwTVnjXprYumiDR6l8I-VvNaG3Ozl5Th3fPV85h49LoTZxb_cRx3m9r97rLLDay2pMfcUCwrLGcO1TEMHPf

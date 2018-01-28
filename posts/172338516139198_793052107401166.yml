@@ -9,3 +9,75 @@ created_time: '2014-08-02T11:45:00+0000'
 updated_time: '2014-08-02T14:20:10+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/793052107401166/
 id: '172338516139198_793052107401166'
+comments:
+  data:
+  - created_time: '2014-08-02T12:10:17+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: I have not tried it myself, but my company as a whole is heavily investing
+      in it with many clients and seeing tremendous success. The guys in Xamarin are
+      so smart and doing their job very well, with inside support from equally smart
+      people at Microsoft, so, the result product really reflects that.
+    id: '793058717400505'
+  - created_time: '2014-08-02T13:09:15+0000'
+    from:
+      name: Marwan Atef
+      id: '10213447132206011'
+    message: it`s awesome i tried the student licence , it`s simply works to compile
+      your c# code to the java or objective c  code , the result is run a real native
+      app . but it`s dependent on your architecture of app if you need a huge application
+      i recommend xamarin but a note (the apk will be huge with xamarin ), if  u need
+      a small app use (phoneGap or intel XDK ) but it`s run on HTML viewer , finally
+      you should try the new android studio it`s really very good i amazed
+    id: '793075760732134'
+  - created_time: '2014-08-02T13:39:39+0000'
+    from:
+      name: Salah Jr Ahmed
+      id: '10155519026807880'
+    message: Actually I was about to ask this question .. I have a server/client mobile
+      app all data coming from the server .. Is Xamarin that good  when it comes to
+      performance .. I had a very bad experience with phoneGap since when I hate cross-browser
+      approaches?!
+    id: '793085180731192'
+  - created_time: '2014-08-02T13:40:23+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Xamarin performance is very good in terms of performance, especially
+      compared to PhoneGap
+    id: '793085374064506'
+  - created_time: '2014-08-02T14:12:42+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      I haven't played a lot with it, but I made a small game with MonoGame framework (XNA port) and I used Xamarin Trial and it worked great.
+      @Marwan Atef: It compiles C# to IL (like the Microsoft's compiler) then for iOS then do some Ahead-of-Time compilation to iOS Native, and for Android they package Mono's runtime (interpreter) with your app's IL (that's why the APK is huge).
+      The Xamarin guys claim that C# runs faster than Java on Android in many cases, and they actually tried porting some parts of Android from Java to C# and it worked faster :D
+    id: '793097374063306'
+  - created_time: '2014-08-02T14:17:44+0000'
+    from:
+      name: أحمد محمود محمد عبدالوهاب
+      id: '10155226291481186'
+    message: |-
+      so xamarin is like writing the same code and compile it for different platforms?
+      one code => 2 native apps?
+    id: '793099317396445'
+  - created_time: '2014-08-02T14:19:26+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Unless you use the recently released "Xamarin Forms" you'll still ned
+      to write the UI code in the native environment.
+    id: '793099897396387'
+  - created_time: '2014-08-02T14:20:10+0000'
+    from:
+      name: أحمد محمود محمد عبدالوهاب
+      id: '10155226291481186'
+    message: I guess I'll give it a try xD
+    id: '793100114063032'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemt6TURVNE56RTNOREF3TlRBMU9qRTBNRFk1T0RFME1UYz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemt6TVRBd01URTBNRFl6TURNeU9qRTBNRFk1T0RreU1UQT0ZD

@@ -21,3 +21,46 @@ created_time: '2015-08-31T13:13:51+0000'
 updated_time: '2015-09-01T12:35:21+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/999478000091908/
 id: '172338516139198_999478000091908'
+comments:
+  data:
+  - created_time: '2015-09-01T12:16:19+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: |-
+      you are taking the system view of communication course?:)
+      I didn't figure it out yet, but mostly is line: tx_bs = [byte];replaces the entire vector with the array, it should add it to the end instead
+    id: '999952660044442'
+  - created_time: '2015-09-01T12:28:01+0000'
+    from:
+      name: Abdulrahman Rdwan
+      id: '583924271948588'
+    message: yes i'm , you almost there the wrong was with it and the correct is tx_bs
+      = [tx_bs , byte];  for not overwriting the characters
+    id: '999956253377416'
+  - created_time: '2015-09-01T12:29:49+0000'
+    from:
+      name: Abdulrahman Rdwan
+      id: '583924271948588'
+    message: i'm stuck with matlab programming and still figure this problem out
+    id: '999956753377366'
+  - created_time: '2015-09-01T12:31:20+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: programming is programming after all, if you are good with any other
+      language you should be able to figure your way around matlab in no time, getting
+      used to the syntax is the laborious part.
+    id: '999957223377319'
+  - created_time: '2015-09-01T12:35:21+0000'
+    from:
+      name: Abdulrahman Rdwan
+      id: '583924271948588'
+    message: i have a little experience in java and nowadays i take Mitx.6 with paython
+      , all in all do you have some experience with this course to help me in some
+      few things ??
+    id: '999959143377127'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVGs1T1RVeU5qWXdNRFEwTkRReU9qRTBOREV4TURrM056az0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVGs1T1RVNU1UUXpNemMzTVRJM09qRTBOREV4TVRBNU1qRT0ZD

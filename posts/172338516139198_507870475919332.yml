@@ -10,3 +10,113 @@ created_time: '2013-01-03T23:42:56+0000'
 updated_time: '2013-01-04T02:28:25+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/507870475919332/
 id: '172338516139198_507870475919332'
+comments:
+  data:
+  - created_time: '2013-01-04T00:01:28+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: jQuery UI?
+    id: '507876249252088'
+  - created_time: '2013-01-04T00:56:54+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      If you are happy to pay, Kendo UI.
+      Otherwise maybe jQuery UI yeah. There are some HTML helper wrappers for it, but I suggest you use the JS stuff directly. We're using it in a very large banking project that has been going for over 2 years now.
+    id: '507893519250361'
+  - created_time: '2013-01-04T02:10:49+0000'
+    from:
+      name: Abdelrady Fcis
+      id: '10214861141222529'
+    message: |-
+      But I've a lot of problems when merging Jquery UI controls into my MVC project and i think it's about JS files conflict and i spend a lot of time try to solve why the control doesn't appear or work correctly,
+      Any suggestions about linking JS files (Jquery , Jquery UI , other JS libs) without conflicts ?
+      Thank's A lot for your collaboration :)
+    id: '507963842576662'
+  - created_time: '2013-01-04T02:14:42+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Nothing special, just load jQuery first, then jQuery UI, then your custom
+      scripts. Don't override global objects unless you know what you are doing.
+    id: '507976199242093'
+  - created_time: '2013-01-04T02:15:51+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: I remember once I had a problem with jQuery UI not loading, turned out
+      the original template added another jQuery reference in another place in the
+      document after my jQuery and jQuery UI references, causing jQuery to be loaded
+      twice and the 2nd one after jQuery UI.
+    id: '507976539242059'
+  - created_time: '2013-01-04T02:18:14+0000'
+    from:
+      name: Abdelrady Fcis
+      id: '10214861141222529'
+    message: yeah this actually happened to me also :( , but i'm wondering now when
+      trying to merge some open source controls within the page which has Jquery already
+      linked and the controls don't appear or work correctly???
+    id: '507977439241969'
+  - created_time: '2013-01-04T02:19:25+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Your browser concolse is the first place to check in this case. And also
+      all sanity checks like reviewing generated HTML for anything weird like the
+      problem I mentioned above.
+    id: '507977699241943'
+  - created_time: '2013-01-04T02:19:57+0000'
+    from:
+      name: Abdelrady Fcis
+      id: '10214861141222529'
+    message: it made me very angry actually, and feel like i'm a scriptkiddy
+    id: '507977885908591'
+  - created_time: '2013-01-04T02:21:08+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: This is not jQuery UI specific, I lead the UI team in a very large project
+      as I told you, and we developed tens of custom widgets on top of jQuery UI actually,
+      even our application JS code is built using jQuery UI Widget factory. I'm also
+      talking about 30-70 developers in Australia, US and India. It WORKS :)
+    id: '507978169241896'
+  - created_time: '2013-01-04T02:21:31+0000'
+    from:
+      name: Abdelrady Fcis
+      id: '10214861141222529'
+    message: yeah i'm every time go through this process of debugging, but as you
+      know when it debugging goes to JQuery.js (and other long files) you don't figure
+      it out (the proplem)
+    id: '507978265908553'
+  - created_time: '2013-01-04T02:22:25+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Usually you get the stack trace, track it to the last sight in your custom
+      files.
+    id: '507978429241870'
+  - created_time: '2013-01-04T02:23:52+0000'
+    from:
+      name: Abdelrady Fcis
+      id: '10214861141222529'
+    message: ok i'll try it again, and wish me luck :)
+    id: '507978805908499'
+  - created_time: '2013-01-04T02:27:33+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Don't worry. Debugging JS is possible. I have been doing it more than
+      anything else (well, except writing emails maybe) in the last year or so :D
+    id: '507979822575064'
+  - created_time: '2013-01-04T02:28:25+0000'
+    from:
+      name: Abdelrady Fcis
+      id: '10214861141222529'
+    message: hhhhhhhhhhhh :D
+    id: '507980115908368'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOVEEzT0RjMk1qUTVNalV5TURnNE9qRXpOVGN5TlRjMk9EZAz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOVEEzT1Rnd01URTFPVEE0TXpZANE9qRXpOVGN5TmpZAMU1EVT0ZD

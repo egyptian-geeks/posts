@@ -11,3 +11,39 @@ updated_time: '2014-05-15T13:44:20+0000'
 name: How to build a queuing server
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/746856598687384/
 id: '172338516139198_746856598687384'
+comments:
+  data:
+  - created_time: '2014-05-15T13:38:50+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: you forgot to make abortion method for your jobs you never know when
+      you will need it :) lets say i send a job to the queue that has 80K email as
+      per your queuing server I don't see how you can abort the job if I want to cancel
+      it.
+    id: '746860038687040'
+  - created_time: '2014-05-15T13:44:20+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: ummm i think this is work can be done by your supervisord command manager
+    id: '746861858686858'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOelEyT0RZAd01ETTROamczTURRd09qRTBNREF4TmpFeE16QT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOelEyT0RZAeE9EVTROamcyT0RVNE9qRTBNREF4TmpFME5qQT0ZD
+attachments:
+  data:
+  - description: Today i’ll gonna talk about queuing server and how you can you it
+      to optimize processing you big data. First i would like to start with defining
+      the queuing process itself. queuing is putting jobs ...
+    media:
+      image:
+        height: 646
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQDP62aOByxvMpxx&w=720&h=720&url=http%3A%2F%2Falaaattya.files.wordpress.com%2F2014%2F05%2Fqueuing-server.png&cfs=1&_nc_hash=AQC_e4AAy0ydJfuX
+        width: 646
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Falaaattya.wordpress.com%2F2014%2F05%2F15%2Fhow-to-build-a-queuing-server%2F&h=ATM_8r1ehO08CDgGZ53-V8HML-lbx46MVgkPk_t_1yxjGbl_rrKvnayHiLw0erEKlomT3VwfJFvwdOt2X4FKdR3E5aY_P6OjCOHt&s=1&enc=AZP0ZANszSf4slL7yGGJYilJw8P8-8L-FvzyEJ2f_6bGt6PlCYWp2sJTlrZI5o5htXNPiRo9DkV_uJyICTs-j_lb
+    title: How to build a queuing server
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Falaaattya.wordpress.com%2F2014%2F05%2F15%2Fhow-to-build-a-queuing-server%2F&h=ATM_8r1ehO08CDgGZ53-V8HML-lbx46MVgkPk_t_1yxjGbl_rrKvnayHiLw0erEKlomT3VwfJFvwdOt2X4FKdR3E5aY_P6OjCOHt&s=1&enc=AZP0ZANszSf4slL7yGGJYilJw8P8-8L-FvzyEJ2f_6bGt6PlCYWp2sJTlrZI5o5htXNPiRo9DkV_uJyICTs-j_lb

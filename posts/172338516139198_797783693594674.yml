@@ -11,3 +11,53 @@ created_time: '2014-08-11T12:55:42+0000'
 updated_time: '2014-08-11T14:18:48+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/797783693594674/
 id: '172338516139198_797783693594674'
+reactions:
+  data:
+  - id: '10160130232360294'
+    name: Rasha Ali
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpVMk5qQTFNamt6T2pFME1EYzRNRFV6TWpnNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TmpVMk5qQTFNamt6T2pFME1EYzRNRFV6TWpnNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2014-08-11T13:01:45+0000'
+    from:
+      name: Mohammad Metwally
+      id: '10155729850405546'
+    message: انا عارف انا بسأل لو حد كان عنده testing app ممكن يكون مش محتاجها و التاريخ
+      علشان ال fb قفل ال post search  و في thread على stack overflow بتقول ان ال aps
+      قبل التاريخ ممكن  تعمل search.  فكنت محتاج اتأكد من الكلام دن قبل ما اقرر ححل
+      المشكلة ازاي
+    id: '797785793594464'
+  - created_time: '2014-08-11T13:47:11+0000'
+    from:
+      name: Eslam Hamouda
+      id: '10212947071504226'
+    message: "Yes it works with the old API version, you can try it without having
+      an old AppId, you can use the Graph API Explorer access_token , it works for
+      me with calling this URL : \nhttps://graph.facebook.com/search?type=post&q=Gaza&access_token={Graph
+      API Explorer access_token}\n* you can get the access_token directly from here:\nhttps://developers.facebook.com/tools/explorer\nhope
+      this helps ;)"
+    id: '797799240259786'
+  - created_time: '2014-08-11T13:49:39+0000'
+    from:
+      name: Eslam Hamouda
+      id: '10212947071504226'
+    message: |-
+      sorry if the url has been miss-viewed by fb, clear the spaces and replace the ZZZZ with the access token
+      "https :// graph. facebook .com/search?type=post&q=Gaza&access_token=ZZZZ"
+    id: '797800933592950'
+  - created_time: '2014-08-11T14:18:48+0000'
+    from:
+      name: Mohamed Ali Abuelwafa
+      id: '10215282097155427'
+    message: |-
+      the upgrade guide from v1 to v2 on facebook developers: https://developers.facebook.com/docs/apps/upgrading#v1tov2
+      according to it, the answer on the stackoverflow is right. anyways v1 will be supported until april 2015, so you better solve your problems with api v2 from now.
+    id: '797814213591622'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemszTnpnMU56a3pOVGswTkRZAME9qRTBNRGMzTmpJeE1EVT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemszT0RFME1qRXpOVGt4TmpJeU9qRTBNRGMzTmpZAM01qZAz0ZD

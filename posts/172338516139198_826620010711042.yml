@@ -10,3 +10,39 @@ created_time: '2014-10-08T11:50:53+0000'
 updated_time: '2014-10-08T13:35:06+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/826620010711042/
 id: '172338516139198_826620010711042'
+comments:
+  data:
+  - created_time: '2014-10-08T11:57:49+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: "I don't think you can control that since it's a device behavior but
+      look at this one. \n\nhttp://stackoverflow.com/questions/5298467/prevent-orientation-change-in-ios-safari"
+    id: '826622580710785'
+  - created_time: '2014-10-08T12:00:02+0000'
+    from:
+      name: Marek Jan
+      id: '1639341279493496'
+    message: I saw that.. will it work on a WINDOWS tablet though? The problem is
+      detecting the browser orientation, in this case its not a mobile browser, but
+      a Windows 8 browser (which is not a mobile one). In essence it doesn't work
+      like a mobile iOS browser. Anyway.. will give it a try. :-)
+    id: '826624217377288'
+  - created_time: '2014-10-08T12:07:46+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: To detect metro IE, you can try the "Win64" method from http://stackoverflow.com/questions/8751479/javascript-detect-metro-ui-version-of-ie
+      - it seems the most reasonable to me as I think nobody runs desktop IE x64
+    id: '826627260710317'
+  - created_time: '2014-10-08T13:35:06+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: I believe you wanna do something weird. Can you tell us what's the real
+      problem you are trying to fix? :D
+    id: '826658960707147'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPREkyTmpJeU5UZA3dOekV3TnpnMU9qRTBNVEkzTmprME5qaz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPREkyTmpVNE9UWXdOekEzTVRRM09qRTBNVEkzTnpVek1EWT0ZD

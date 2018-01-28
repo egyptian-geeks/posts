@@ -11,3 +11,70 @@ created_time: '2014-07-03T23:24:54+0000'
 updated_time: '2014-07-04T00:50:25+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/775952659111111/
 id: '172338516139198_775952659111111'
+reactions:
+  data:
+  - id: '1622085274539496'
+    name: Sara Hussien
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlNVFF4TVRZAd05ERTVPakUwTURRME16YzVOelk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlNVFF4TVRZAd05ERTVPakUwTURRME16YzVOelk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2014-07-03T23:26:43+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: Have you gone enough profiling to see where the time is being spent?
+      Whether it is in the SQL Server stack or the Java stack or network?
+    id: '775953262444384'
+  - created_time: '2014-07-03T23:27:51+0000'
+    from:
+      name: Ahmed Kamal
+      id: '10204469829103969'
+    message: nope , how could I do this ?
+    id: '775953679111009'
+  - created_time: '2014-07-03T23:36:00+0000'
+    from:
+      name: Adel K. Khalil
+      id: '10159958402365584'
+    message: Use SQL Profiler from Tools menu in management studio or from start menu.
+      Start a session and try the scenario that takes long time. This will give you
+      an idea if the problem in the sql server stack.
+    id: '775956775777366'
+  - created_time: '2014-07-03T23:38:06+0000'
+    from:
+      name: Ahmed Kamal
+      id: '10204469829103969'
+    message: SQL server itself is working fine. The problem appears when I try to
+      connect java with sql server in Netbeans. The update operation takes too much
+      time
+    id: '775957305777313'
+  - created_time: '2014-07-04T00:44:15+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: You can't improve what you can't measure, you need to profile first to
+      see how much time is being spent for executing the update statement, and then
+      do a change for example add an index or modify the statement and profile again
+      and see if that really helped
+    id: '775982709108106'
+  - created_time: '2014-07-04T00:47:29+0000'
+    from:
+      name: Ahmed Kamal
+      id: '10204469829103969'
+    message: I though u mean a specific tool but now I get what u mean
+    id: '775983955774648'
+  - created_time: '2014-07-04T00:50:25+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: SQL profiler as Adel K. Khalil said is the way to go, but this will only
+      measure SQL server time, if the problem is somewhere else you will need another
+      tool for that.
+    id: '775984709107906'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemMxT1RVek1qWXlORFEwTXpnME9qRTBNRFEwTXpBd01ETT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemMxT1RnME56QTVNVEEzT1RBMk9qRTBNRFEwTXpVd01qVT0ZD

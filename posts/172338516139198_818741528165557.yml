@@ -14,3 +14,37 @@ updated_time: '2014-09-24T04:30:04+0000'
 name: NDK With Android Studio - Shanee's Diaries
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/818741528165557/
 id: '172338516139198_818741528165557'
+comments:
+  data:
+  - created_time: '2014-09-24T04:26:55+0000'
+    from:
+      name: Mohammad Hefny
+      id: '10159955163690471'
+    message: also this link http://stackoverflow.com/questions/25122782/android-studio-andengine-ndk-compilation-error
+    id: '818741571498886'
+  - created_time: '2014-09-24T04:30:04+0000'
+    from:
+      name: Mohammad Hefny
+      id: '10159955163690471'
+    message: "main points to remmeber:\n1- add NDK path in local.properties \n2- add
+      NDK Home variable in System Env.\n3- in build.gardle define the module that
+      is written in c ndk {} and define sourceSets.main {}"
+    id: '818742604832116'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPREU0TnpReE5UY3hORGs0T0RnMk9qRTBNVEUxTXpJNE1UVT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPREU0TnpReU5qQTBPRE15TVRFMk9qRTBNVEUxTXpNd01EUT0ZD
+attachments:
+  data:
+  - description: Unless you are using a game engine with an integrated scripting language,
+      game development is usually done with C++. On the other hand, most Android …
+    media:
+      image:
+        height: 720
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQDgZBBRi8w0l4-D&w=720&h=720&url=http%3A%2F%2Fwww.shaneenishry.com%2Fimages%2Fblog%2Fndk-android-studio%2Ferror.png&cfs=1&_nc_hash=AQDH9iZrv-A4kpMS
+        width: 720
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.shaneenishry.com%2Fblog%2F2014%2F08%2F17%2Fndk-with-android-studio%2F&h=ATPAIDtULr0KhmHjSbQlKMcqGU4iR1D8iTZQhLQ4iL_cSxF-jtv8S8h1oD09M21tfrK4I0VUK-zLiKcyigRcGJfufpz3UY9xmNUr&s=1&enc=AZOvOAqMF9kGMO92GwIVxX45DHX2NlE23PCLE-f6GRbui1LYEiKpMJ8DF926yI5OxpSWG9utdlyaAVX7xlSEeGaf
+    title: NDK With Android Studio - Shanee's Diaries
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.shaneenishry.com%2Fblog%2F2014%2F08%2F17%2Fndk-with-android-studio%2F&h=ATPAIDtULr0KhmHjSbQlKMcqGU4iR1D8iTZQhLQ4iL_cSxF-jtv8S8h1oD09M21tfrK4I0VUK-zLiKcyigRcGJfufpz3UY9xmNUr&s=1&enc=AZOvOAqMF9kGMO92GwIVxX45DHX2NlE23PCLE-f6GRbui1LYEiKpMJ8DF926yI5OxpSWG9utdlyaAVX7xlSEeGaf

@@ -10,3 +10,47 @@ created_time: '2014-05-09T16:31:18+0000'
 updated_time: '2014-05-11T00:22:05+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/743631762343201/
 id: '172338516139198_743631762343201'
+reactions:
+  data:
+  - id: '1987468894616418'
+    name: Abdelrhman Saleh
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdOVGs1TnprM01qWTBPakV6T1RrMk5UY3dOREE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXdOVGs1TnprM01qWTBPakV6T1RrMk5UY3dOREE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2014-05-09T23:33:28+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      Answering Q1: Logging allows you to write information to trace the execution of your program. You can write this information to a file, DB, message queue, logging server, etc.
+
+      A logging framework will do many things for you, like rolling files, handling multiple threads writing to log, log to multiple targets at the same time).
+
+      Writing a file has many different purposes. You can write a configuration file, output results file, html file, etc.Writing a log file is one of these purposes.
+
+      A lot of people do logging by writing to a file directly. Do this only for very simple things.
+
+      You should learn the logging framework for your programming language. It will help you know the difference.
+
+      I will leave the answer to Q2 to other people here :)
+    id: '743810712325306'
+  - created_time: '2014-05-11T00:21:20+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: If you are looking for a decent logging library in PHP use "monolog"
+    id: '744386242267753'
+  - created_time: '2014-05-11T00:22:05+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: Default logging in PHP sucks, a lot!
+    id: '744386438934400'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOelF6T0RFd056RXlNekkxTXpBMk9qRXpPVGsyTnpnME1EZAz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOelEwTXpnMk5ETTRPVE0wTkRBd09qRXpPVGszTmpjM01qVT0ZD

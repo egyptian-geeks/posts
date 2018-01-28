@@ -12,3 +12,104 @@ created_time: '2014-12-27T00:56:54+0000'
 updated_time: '2014-12-27T23:58:54+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/868425706530472/
 id: '172338516139198_868425706530472'
+comments:
+  data:
+  - created_time: '2014-12-27T01:00:53+0000'
+    from:
+      name: Ali Saber
+      id: '1807286182904587'
+    message: "معتقدش هتنفع الفكرة دى لعدة اسباب انا مش قادر اقولها \U0001F603"
+    id: '868426736530369'
+  - created_time: '2014-12-27T01:01:56+0000'
+    from:
+      name: Shady Atef
+      id: '10213518317565801'
+    message: وانظر الي التعليق بتعجب .. متأملا ماذا  قد تكون الأسباب :D
+    id: '868427013197008'
+  - created_time: '2014-12-27T01:02:44+0000'
+    from:
+      name: Ali Saber
+      id: '1807286182904587'
+    message: هههههههه التعليق على سبيل الهزار :)
+    id: '868427303196979'
+  - created_time: '2014-12-27T01:03:14+0000'
+    from:
+      name: Ali Saber
+      id: '1807286182904587'
+    message: يا اخي الدومين كلوا ب خمسين جنيه وريح دماغك :)
+    id: '868427446530298'
+  - created_time: '2014-12-27T01:05:19+0000'
+    from:
+      name: Shady Atef
+      id: '10213518317565801'
+    message: "أنا دورت بس مش فاهم أوي ... لسه هدور تاني ولقيت حاجة همشي وراها.. \n\nمش
+      فكرة فلوس .. بس أنا عايز أشوفها تنفع ولا ﻻء .. :D"
+    id: '868427946530248'
+  - created_time: '2014-12-27T01:09:27+0000'
+    from:
+      name: Ahmad Fikreator
+      id: '1636829019711534'
+    message: |-
+      dynamic dns or no-ip
+      على ما اعتقد
+    id: '868429353196774'
+  - created_time: '2014-12-27T01:10:59+0000'
+    from:
+      name: Bassam Abd Elhamid
+      id: '1955441501387657'
+    message: 'بالمناسبة: جودادى عاملة عرض ليوم خمسة الدومين بواحد ونص دولار'
+    id: '868429813196728'
+  - created_time: '2014-12-27T01:17:35+0000'
+    from:
+      name: Islam AbdelMohaimen Hassan
+      id: '10214796374519514'
+    message: http://duckdns.org
+    id: '868431706529872'
+  - created_time: '2014-12-27T01:26:32+0000'
+    from:
+      name: Shady Atef
+      id: '10213518317565801'
+    message: "احمد رأفت .. بص أنا أصلا كنت هعمله عشان موقعين .. 3 مش أكثر  والمواقع
+      دي بين عدد قليل أصﻻ من 100 ل 10K وأكيد مش كلهم  هيدخلوا في نفس  الوقت .. من
+      الاخر اخري 50 hit / second أصﻻ لو جبتهم\n\nأما بالنسبة للكهربا .. فمش عارف الصراحة
+      أعمل ايه -_- \n\nIslam AbdelMohaimen Hassan Dynamic Dns, won't help me. it does
+      address the issue of dynamic ips.."
+    id: '868434599862916'
+  - created_time: '2014-12-27T01:28:50+0000'
+    from:
+      name: Shady Atef
+      id: '10213518317565801'
+    message: علي صالح ما هو حتي لو عندي domain من برا و شغال و الServer في البيت و
+      الكهربا قطعت .. يبقي ملهاش حل .
+    id: '868435536529489'
+  - created_time: '2014-12-27T08:22:24+0000'
+    from:
+      name: Fouad Abd ELrazek
+      id: '10215316053233596'
+    message: |-
+      هو الانترنت عندك سرعته قد ايه ؟ :)
+      لو بتتكلم فى اقل من 50 - 100 ميجا يبقى لا يصلح لاكثر من كام صفحة HTML ولو دخل عليه اكتر من 5 زوار فى نفس الوقت محدش حيشوف حاجة :)
+    id: '868652949841081'
+  - created_time: '2014-12-27T09:00:25+0000'
+    from:
+      name: Mahmoud Tantawy
+      id: '10156115350739764'
+    message: |-
+      +1 for DigitalOcean or linode, or generally the idea of a VPS
+      sell your old PC and using the money you can pay for the VPS for about a year or more while gaining money from the hosted websites.
+      i am configuring my vps these days (using DigitalOcean + Ubuntu), if you need any help let me know :)
+    id: '868662989840077'
+  - created_time: '2014-12-27T23:58:54+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      I once hosted a Minecraft Server on my laptop as well as an ASP.NET MVC website that controls the server (so my friends can start/stop and execute server commands on it), I used dyndns and made a subdomain of a domain I already own be a cname to the dyndns subdomain (to make the url look less ugly), so mc.hassanselim.me pointed to something.dyndns.org (7aga keda) which pointed to my router :)
+      I had no problem with 3-4 friends accessing the website at the same time (which has AJAX for the server status and server console), the problem was with the Minecraft server itself as it uploads all the block data to all the other players (but it worked good enough for me and 2 friends at the same time).
+      My DSL was 1 Mbps at that time, so 256 Kbps upload or 32 KB/s upload.
+      Now I just have that on an Azure VM that I turn on when I need to play with friends then turn off again, and I made some powershell cmdlets to let me do that easily :)
+    id: '869137256459317'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFk0TkRJMk56TTJOVE13TXpZANU9qRTBNVGsyTkRJd05UTT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFk1TVRNM01qVTJORFU1TXpFM09qRTBNVGszTWpRM016UT0ZD

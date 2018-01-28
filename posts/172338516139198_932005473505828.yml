@@ -12,3 +12,220 @@ created_time: '2015-04-26T20:12:02+0000'
 updated_time: '2015-04-29T08:35:41+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/932005473505828/
 id: '172338516139198_932005473505828'
+reactions:
+  data:
+  - id: '1865818557043620'
+    name: Mohamed Khoulali
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTRORFkwT0RFME9UTXhPakUwTXpBd09EQTFOVEU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTRORFkwT0RFME9UTXhPakUwTXpBd09EQTFOVEU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2015-04-26T20:24:24+0000'
+    from:
+      name: Ahmed Khaled
+      id: '1673431476060100'
+    message: هتبقا nested loop هتعدي على أول رقم في ال array مثلاً وتاخد تاني رقم
+      في ال arrya برضة وتشوف هلى الرقمين الي في ال array دول فيهم رقم أكبر من ال X
+      ورقم تاني أصغر من ال X وهكذا
+    id: '932023096837399'
+  - created_time: '2015-04-26T20:25:20+0000'
+    from:
+      name: Ahmed Mahmoud
+      id: '1917940025202392'
+    message: تمام نفس اللي فكرت فيه بس هل لو في حاجة افضل او طرق تانيه من باب المعرفه
+      مش اكتر :)
+    id: '932025140170528'
+  - created_time: '2015-04-26T20:26:53+0000'
+    from:
+      name: Mohamed Badawi
+      id: '1532825676787208'
+    message: Binary search
+    id: '932027466836962'
+  - created_time: '2015-04-26T20:32:00+0000'
+    from:
+      name: Ibrahim Amer
+      id: '10214738123343685'
+    message: law el array guaranteed enha sorted est5dm binary search
+    id: '932034906836218'
+  - created_time: '2015-04-26T20:33:23+0000'
+    from:
+      name: Ahmed Mahmoud
+      id: '1917940025202392'
+    message: تمام هي المصفوفه هتكون مرتبه فعلا ف Binary search  هتكون شغاله بس هضطر
+      اكيد اعدلها عشان ترجع رقم اكبر واصغر لانها مش هتتساوي باي رقم ف المصفوفه
+    id: '932035623502813'
+  - created_time: '2015-04-26T20:35:33+0000'
+    from:
+      name: Ahmed Mahmoud
+      id: '1917940025202392'
+    message: "تمام تمام هي دي \nهحاول اطبقها ع الجافاسكريبت"
+    id: '932040993502276'
+  - created_time: '2015-04-26T20:36:03+0000'
+    from:
+      name: Ahmed Mohamed Abd Elmeguid
+      id: '1144547438981160'
+    message: |-
+      اشتغل بيناري
+      هات اول رقم اكبر من x
+      و بعدها طل الرقم ده و الرقم اللي قبله في الاراي
+    id: '932041796835529'
+  - created_time: '2015-04-26T21:26:34+0000'
+    from:
+      name: Ahmed Mohamed Abd Elmeguid
+      id: '1144547438981160'
+    message: |-
+      @ahmed hassan how?
+      its sorted!
+    id: '932060976833611'
+  - created_time: '2015-04-26T21:30:02+0000'
+    from:
+      name: Ahmed Mohamed Abd Elmeguid
+      id: '1144547438981160'
+    message: |-
+      اول رقم اكبر من اكس مش معناها اول رقم يقابله
+      معناها بتجيب اصغر رقم اكبر من اكس
+      بس بتتقال اول واحد لانه اول واحد بعد الاكس في الاراي لو الاكس في الاراي
+      بنمشي زي البيناري العادي
+      بس في نقطه لو الرقم اصغر من الcurrent بنخلي الcurrent بيساوي الاندكس مش الانكدس+١
+      و بنغير شرط الwhile بيبقي اضغر مش اضغر او يساوي
+      كده هيطلع اضغر رقم اكير من الc
+    id: '932062446833464'
+  - created_time: '2015-04-26T21:30:08+0000'
+    from:
+      name: Ahmed Mohamed Abd Elmeguid
+      id: '1144547438981160'
+    message: اكبر من x*
+    id: '932062466833462'
+  - created_time: '2015-04-26T21:32:17+0000'
+    from:
+      name: Amir Mohamed Atia
+      id: '10155967624789840'
+    message: "اعمل مصفوفة تانيه وحط فيها فرق الطرح بين الرقم ده وكل خليه في المصفوفة
+      \nوشوف اصغر رقم موجب واكبر رقم سالب"
+    id: '932063043500071'
+  - created_time: '2015-04-26T21:41:42+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: |-
+      Let's look at the worst case:
+      binary: 2 comparsions
+      linear: 3 comparsions
+
+      average case:
+      binary: 2 comparsions
+      linear: 2 comparsions
+
+      best case:
+      binary: 2 comparsions
+      linear: 1 comparsions
+
+      Sounds like binary is better, right? But it's not.
+      A linear search will almost certainly incur at most 1 branch misprediction.
+      A binary search will incur floor(0.5*log(n)) misses which is 50% chance of 1 but 25% chance of 2.
+
+      A branch misprediction is easily a dozen cycles, so for small datasets (5 is definitely a small dataset), linear search is better by a large margin.
+
+      TL;DR: small dataset = linear search.
+    id: '932065683499807'
+  - created_time: '2015-04-27T07:19:19+0000'
+    from:
+      name: Adel Riyad
+      id: '10160070111940193'
+    message: من غير nested loops. Loop واحده, كل مره خد item[i] and item[i+1] و شوف
+      X يقع بينهم ولا لأ.
+    id: '932257816813927'
+  - created_time: '2015-04-27T12:43:44+0000'
+    from:
+      name: Andrew Raafat
+      id: '10156262041239286'
+    message: man you will only need one loop with the check if( x > a[i] && x < a[i+1]
+      )
+    id: '932360006803708'
+  - created_time: '2015-04-27T13:09:29+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: |-
+      up & 2 up: if you compare with arr[i] and arr[i+1] and next cycle you compare with arr[i+1] and arr[i+2], i.e you have one additional unneeded comparison every cycle. Nested loops aren't needed either.
+      It's quite straight forward:
+      for(i =1; i < 4; ++i) if (x < arr[i]) break;
+      // x is between arr[i] & arr[i-1]
+
+      If the size ist constant and small, I would unroll (remove) the loop:
+      if (x < arr[1]) i = 1;
+      else if (x < arr[2]) i = 2;
+      else if (x < arr[3]) i = 3;
+      else i = 4
+
+      In C, most compilers would do that anyway, but I am not sure if existing JS implementations do that.
+    id: '932369156802793'
+  - created_time: '2015-04-27T13:22:19+0000'
+    from:
+      name: Andrew Raafat
+      id: '10156262041239286'
+    message: "^ that's even better (y)"
+    id: '932373523469023'
+  - created_time: '2015-04-27T13:53:48+0000'
+    from:
+      name: Adel Riyad
+      id: '10160070111940193'
+    message: |-
+      This is buggy algorithm!!!
+      If the array is 10,20,30,40,50 and x=5, it will break after first ittrration since 5<20 and gives u that x is between 20 and 10.
+    id: '932384386801270'
+  - created_time: '2015-04-27T14:09:39+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: |-
+      ^ nope, just a buggy example.
+      Question: number lies between 2 pairs, find pairs.
+      Your Example: number doesn't lie between 2 pairs, doesn't apply to question.
+    id: '932390223467353'
+  - created_time: '2015-04-27T19:41:42+0000'
+    from:
+      name: Adel Riyad
+      id: '10160070111940193'
+    message: If you want to design algorithm u hv to consider all ranges of input.
+      You dont want ur client to input 5 and get that it is between 10 and 20 :-)..
+    id: '932549330118109'
+  - created_time: '2015-04-27T19:43:38+0000'
+    from:
+      name: Adel Riyad
+      id: '10160070111940193'
+    message: U cant rely on client's example to design a solution..
+    id: '932549930118049'
+  - created_time: '2015-04-27T19:53:53+0000'
+    from:
+      name: Wael Medhat El-Sawy
+      id: '10155605853493702'
+    message: |-
+      في خوارزمية سهلة اسمها binary search تجيب اكبر رقم و اصغر رقم وتجيب المتوسط وتقارن مع x لو اكبر من المتوسط تخلي المتوسط الصغير وتقارن تاني وهكذا
+      انا لخصتلك الفكرة لو لسه مش وصلالك قولي واكتبهولك خوارزمية
+    id: '932552796784429'
+  - created_time: '2015-04-27T19:54:36+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: |-
+      The question written in clearer terms:
+      for a given x and a vector arr: find {x1,x2 | x1 ≤ x ≤ x2; x1 ≰ x3 ≰ x2; x1,x2,x3 ∈ arr}
+      The snippet above satisfies it.
+      If your interpretation is what OP wants (which he would have to specify), either change the input to start with INT_MIN and end with INT_MAX or add change the bounds of the for to 0 to 5, but as it stands now the answer is good.
+    id: '932552993451076'
+  - created_time: '2015-04-29T08:35:41+0000'
+    from:
+      name: Usama Fayez
+      id: '10155807421830280'
+    message: |-
+      This is very easy. For a number "n", you want to find two numbers "x", "y" such that x < n < y and |x - y| is minimum.
+      You can just loop once through the array to find "x" and "y". you'll just minimize |arr[i] - n| to find x and y.
+    id: '933313356708373'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVE15TURJek1EazJPRE0zTXprNU9qRTBNekF3TnprNE5qUT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVE16TXpFek16VTJOekE0TXpjek9qRTBNekF5T1RZAMU5ERT0ZD

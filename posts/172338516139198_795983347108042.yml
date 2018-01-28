@@ -9,3 +9,51 @@ updated_time: '2014-08-08T14:05:09+0000'
 name: Khareeta - A Google Maps jQuery Plugin
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/795983347108042/
 id: '172338516139198_795983347108042'
+reactions:
+  data:
+  - id: '10155025067907484'
+    name: Khaled Rashad
+    type: LIKE
+  - id: '10159902111665608'
+    name: Hazem Nasef
+    type: LIKE
+  - id: '10155227707788372'
+    name: Ahmed Mahmoud
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpRek56azNORGd6T2pFME1EYzBPVGswTURBNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRFeU9ETTRNemN4T2pFME1EYzBPRGczTWpRNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2014-08-08T12:03:16+0000'
+    from:
+      name: Khaled Rashad
+      id: '10155025067907484'
+    message: This is awesome, can it render the distance between two points on the
+      line?
+    id: '796053197101057'
+  - created_time: '2014-08-08T14:05:09+0000'
+    from:
+      name: Mostafa Muhammad
+      id: '10155787111376210'
+    message: |-
+      Khaled Rashad I am not sure what do you mean by "render" but you can calculate the distance between two geographical points using the formulas highlighted in this article
+      http://www.movable-type.co.uk/scripts/latlong.html
+    id: '796099710429739'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemsyTURVek1UazNNVEF4TURVM09qRTBNRGMwT1Rrek9UWT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemsyTURrNU56RXdOREk1TnpNNU9qRTBNRGMxTURZAM01Eaz0ZD
+attachments:
+  data:
+  - description: Khareta (خريطة) means "Map" in Arabic, It is a jQuery plugin that
+      transforms your average textarea into a Google Maps Input component where the
+      user can place points, polylines or polygons on the map and have the result
+      serialized to the textarea immediately. For documentation please visit Khareta
+      o…
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Falfehrest.org%2Fsub%2Fkhareta%2Findex.html&h=ATPQ2O10dyxqppqRFz7abxI2lP6ddWUhfhujlCQPd3mwsidDBG-Ter8Nep8Lw9IOIIAMDNWVX2j3k6h4RwAZ0kUzKlEzIQ60G_uA&s=1&enc=AZOdzNxZAci7XcRHtll9YE3yumTRDqKVsxFkMzQcF8HK1hV8PQKYVEpeJxF9VgLeONMTf-3JJnrBComT-0F9w7aE
+    title: Khareeta - A Google Maps jQuery Plugin
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Falfehrest.org%2Fsub%2Fkhareta%2Findex.html&h=ATPQ2O10dyxqppqRFz7abxI2lP6ddWUhfhujlCQPd3mwsidDBG-Ter8Nep8Lw9IOIIAMDNWVX2j3k6h4RwAZ0kUzKlEzIQ60G_uA&s=1&enc=AZOdzNxZAci7XcRHtll9YE3yumTRDqKVsxFkMzQcF8HK1hV8PQKYVEpeJxF9VgLeONMTf-3JJnrBComT-0F9w7aE

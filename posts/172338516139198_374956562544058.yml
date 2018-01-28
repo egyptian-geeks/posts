@@ -13,3 +13,199 @@ created_time: '2012-04-05T12:27:05+0000'
 updated_time: '2012-04-08T12:31:25+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/374956562544058/
 id: '172338516139198_374956562544058'
+comments:
+  data:
+  - created_time: '2012-04-05T12:29:29+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: مش هتلائي أنضف من الفيجوال ستوديو يابني في الحاجات دي. اشتغل دوت نت وعيش
+      عيشة الملوك :D
+    id: '374957502543964'
+  - created_time: '2012-04-05T12:29:36+0000'
+    from:
+      name: Eslam Salem Mahmoud
+      id: '10157134145555299'
+    message: there is no IDE debugger in php as i know to do such things but there
+      is debugging extentions and classes you can attach to your code for testing
+      and debugging
+    id: '374957545877293'
+  - created_time: '2012-04-05T12:31:44+0000'
+    from:
+      name: Eslam Salem Mahmoud
+      id: '10157134145555299'
+    message: visual studio and XCode is the best IDE platforms ever , but i dont like
+      visual studio and dotnet any way :)
+    id: '374958365877211'
+  - created_time: '2012-04-05T12:33:16+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "ههههههههههه اصل البي اتش بي كانت لذيذة لحد ما بقت object oriented :D\nانت
+      عمال تـ extend كلاسات ومش عارف هى اصلا موجودة فين وايه الميثودز الاصلية بتاعتها
+      .. .\nحاجة تيت تيت تيت يعنى \n\nطيب هو في كود معين احطه في اي مكان واعمل print
+      لكل الـ methods المتاحه عند اي نقطة \n\nزي ما كنا بنعمل مع الـ arrays ؟ او الـ
+      std class objects \n \necho \"<pre>\" ; \nprint_r($myarray) ;\necho \"</pre>\"
+      ; \ndie() ;"
+    id: '374959015877146'
+  - created_time: '2012-04-05T12:34:30+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: والـ frameworks ونظام MVC ده خنيق لأنه بيفترض انك حافظ كل الكلاسات بالميثودز
+      بتاعتها عن ظهر قلب
+    id: '374959485877099'
+  - created_time: '2012-04-05T12:36:04+0000'
+    from:
+      name: Eslam Salem Mahmoud
+      id: '10157134145555299'
+    message: if you dont use __autoload you can auto complete classes, functions and
+      methods easily with ide's such as Eclipse
+    id: '374960235877024'
+  - created_time: '2012-04-05T12:41:31+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: |-
+      I'm learning yii framework and building a project with it.
+      I think it uses kinda autoload features ( this is a big advantage in yii )
+
+      but it's very difficult to edit a file like this without a powerful IDE :
+
+      class  ItemsController extends Controller {
+      ....
+
+      }
+    id: '374962582543456'
+  - created_time: '2012-04-05T12:47:00+0000'
+    from:
+      name: Eslam Salem Mahmoud
+      id: '10157134145555299'
+    message: "it a little bit harder if the framework uses ORM \n$dbTable->find()
+      , or $this->find() , because the class is inherited from  object wrapper or
+      another meaning on the fly, you must know the right syntax for each framework
+      , sorry but these is the way to do :)"
+    id: '374964752543239'
+  - created_time: '2012-04-05T12:48:56+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: |-
+      حاجة غريبة !!
+       الموضوع ده عقد الدنيا بدل ما يسهلها !!
+      في الدوت نت رغم انى ما بحبهاش ولا متخصص فيها
+      لما بحب اعمل اي حاجة في السي شارب بعملها بكل سهولة !!
+    id: '374965542543160'
+  - created_time: '2012-04-05T12:56:39+0000'
+    from:
+      name: Eslam Salem Mahmoud
+      id: '10157134145555299'
+    message: |-
+      ساعات كتير الحاجات المعقدة بتبقى أحسن من السهل ,
+      دور هتلاقي كل اللغات القوية زي البايثون و الروبي نفس القصة , مفيش حد بيسهل الموضوع قوي لإنه التقنية معقدة و مفيش ايديتور هيمشي ورا كل اوبجكت بالتعقيد ده
+    id: '374968885876159'
+  - created_time: '2012-04-05T12:57:56+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: خدعوك فقالوا "الحاجات المعقده أحسن من السهل" هههههههه
+    id: '374969375876110'
+  - created_time: '2012-04-05T12:58:56+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "جتلى فكرة ممكن تخلى الواحد يتعلم اسرع \n\nاجى عند اي كلاس او اوبجكت
+      مش عارف جاى منين ولا رايح فين واعمل"
+    id: '374969865876061'
+  - created_time: '2012-04-05T12:59:00+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: die(print_r(get_class_methods($myobject)) ) ;
+    id: '374969879209393'
+  - created_time: '2012-04-05T12:59:46+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: بس طبعا ده كله بيخلى وقت الـ development بطيء جدا !
+    id: '374970219209359'
+  - created_time: '2012-04-05T13:00:34+0000'
+    from:
+      name: Eslam Salem Mahmoud
+      id: '10157134145555299'
+    message: ممكن , و كان فيه في ال cakephp زي refrence فيه كل ال methods اللي ممكن
+      تطلعها من اي class كان رائع صراخة
+    id: '374970789209302'
+  - created_time: '2012-04-05T13:00:46+0000'
+    from:
+      name: Eslam Salem Mahmoud
+      id: '10157134145555299'
+    message: or build your own framework ;)
+    id: '374970935875954'
+  - created_time: '2012-04-05T13:38:59+0000'
+    from:
+      name: Mahmoud Tantawy
+      id: '10156115350739764'
+    message: fakes PHP OOP 5ales, PHP 27sn fl modular programming w 7agazy dreamweaver
+      feeh 7aga shabah el intellisense hyngz m3ak fl sho3'l
+    id: '374988289207552'
+  - created_time: '2012-04-05T13:41:47+0000'
+    from:
+      name: Eslam Salem Mahmoud
+      id: '10157134145555299'
+    message: i really like mvc under php i know its not as good as mvc under ruby
+      , but i really like it and there is many oop improvements in php 6
+    id: '374990699207311'
+  - created_time: '2012-04-05T13:44:35+0000'
+    from:
+      name: Mahmoud Tantawy
+      id: '10156115350739764'
+    message: for me, i got used to modular with PHP so i think i'll stick with it
+    id: '374992259207155'
+  - created_time: '2012-04-05T13:50:26+0000'
+    from:
+      name: Amr Adel
+      id: '10155421921532775'
+    message: |-
+      aptana studio 3 feh intellisense we momken yshta'3al 3ala el frameworks .. shof dah keda http://www.adampatterson.ca/blog/2010/08/php-frameworks-intellisense-for-aptana/
+
+      if this is what you are looking for :)
+    id: '374994669206914'
+  - created_time: '2012-04-05T13:55:33+0000'
+    from:
+      name: Mahmoud Tantawy
+      id: '10156115350739764'
+    message: aptana da ana 23dt esbo3 mesh 3aref 2nzlo 3l Ubuntu :S
+    id: '374996939206687'
+  - created_time: '2012-04-05T13:59:54+0000'
+    from:
+      name: Amr Adel
+      id: '10155421921532775'
+    message: |-
+      ana sha'3al windows we lesa mnazelo awil embare7 .. bas bsra7a 7lw gedan :D
+      bas ana lesa magarabtesh mwdo3 el intellisense lel frameworks dah ..
+    id: '374998989206482'
+  - created_time: '2012-04-05T14:01:43+0000'
+    from:
+      name: Mahmoud Tantawy
+      id: '10156115350739764'
+    message: |-
+      a friend of mine recommended komodoEdit abl kda bs mgrbtoosh bsara7a
+      ka 7aga PHP + intellisense
+    id: '374999802539734'
+  - created_time: '2012-04-05T15:33:53+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: try Netbeans :)
+    id: '375045549201826'
+  - created_time: '2012-04-08T12:31:25+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "النت بينز بقى جامد جدا \nاخر مرة جربته زمان مكنش كدة خالص"
+    id: '376848982354816'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANemMwT1RVM05UQXlOVFF6T1RZAME9qRXpNek0yTWpnNU5qaz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANemMyT0RRNE9UZA3lNelUwT0RFMk9qRXpNek00T0RneU9EVT0ZD

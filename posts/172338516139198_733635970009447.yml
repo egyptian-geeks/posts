@@ -11,3 +11,27 @@ updated_time: '2014-04-20T00:45:27+0000'
 name: Why are 5381 and 33 so important in the djb2 algorithm?
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/733635970009447/
 id: '172338516139198_733635970009447'
+reactions:
+  data:
+  - id: '10213443570697789'
+    name: Hady Mahmoud
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBMU5Ua3hOREkyTmpveE16azNPVGN5TlRVeU9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBMU5Ua3hOREkyTmpveE16azNPVGN5TlRVeU9qSTFOREE1TmpFMk1UTT0ZD
+attachments:
+  data:
+  - description: The djb2 algorithm has a hash function for strings. unsigned long
+      hash = 5381; int c; while (c = *str++) hash = ((hash << 5) + hash) + c; /* hash
+      * 33 + c */ Why are 5381 and 33 so
+    media:
+      image:
+        height: 316
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQCz3rmhv1AH6XyC&w=720&h=720&url=http%3A%2F%2Fcdn.sstatic.net%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3Dfde65a5a78c6&cfs=1&_nc_hash=AQDYMA7sVVUu6LYN
+        width: 316
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F1579721%2Fwhy-are-5381-and-33-so-important-in-the-djb2-algorithm&h=ATPZaAww3AjAgJPXb-cu4f6zFraHgJqC-8VCAokmWkHQo6NlTBan7Ln47_cead2NPw9a4HWPmgQEcAJai-pT4yy5MvYlS_oFDel4&s=1&enc=AZNZOat5wOLfuvARXN_N5d9tPzv4m-HBG9Rksyg0-DJm__yJmGZGTBlb7Zmv4pMFnbLT6cdJ7_Z3lTzieOhEVh5k
+    title: Why are 5381 and 33 so important in the djb2 algorithm?
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F1579721%2Fwhy-are-5381-and-33-so-important-in-the-djb2-algorithm&h=ATPZaAww3AjAgJPXb-cu4f6zFraHgJqC-8VCAokmWkHQo6NlTBan7Ln47_cead2NPw9a4HWPmgQEcAJai-pT4yy5MvYlS_oFDel4&s=1&enc=AZNZOat5wOLfuvARXN_N5d9tPzv4m-HBG9Rksyg0-DJm__yJmGZGTBlb7Zmv4pMFnbLT6cdJ7_Z3lTzieOhEVh5k

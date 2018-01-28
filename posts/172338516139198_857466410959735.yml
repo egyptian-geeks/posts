@@ -12,3 +12,64 @@ created_time: '2014-12-07T16:46:36+0000'
 updated_time: '2014-12-08T05:16:07+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/857466410959735/
 id: '172338516139198_857466410959735'
+comments:
+  data:
+  - created_time: '2014-12-07T16:55:42+0000'
+    from:
+      name: Youssef Goher
+      id: '10159815172670696'
+    message: in apache commons there is an api for telnet. u can easily write ur own
+      tests as you wish. i ve done the same.
+    id: '857469267626116'
+  - created_time: '2014-12-07T16:56:37+0000'
+    from:
+      name: Mohamed El-Kholy
+      id: '10155833475081885'
+    message: Will I need a specific telnet server ? or the API will do this part for
+      me ?
+    id: '857469544292755'
+  - created_time: '2014-12-07T16:58:02+0000'
+    from:
+      name: Youssef Goher
+      id: '10159815172670696'
+    message: Mohamed El-Kholy http://commons.apache.org/proper/commons-net/apidocs/org/apache/commons/net/telnet/TelnetClient.html
+    id: '857470014292708'
+  - created_time: '2014-12-07T16:58:45+0000'
+    from:
+      name: Mohamed El-Kholy
+      id: '10155833475081885'
+    message: I was looking into it :) thanks a lot ya kibeer :)))
+    id: '857470247626018'
+  - created_time: '2014-12-07T16:59:13+0000'
+    from:
+      name: Youssef Goher
+      id: '10159815172670696'
+    message: u basicly get the telnetclient object and then open the output and input
+      streams.
+    id: '857470380959338'
+  - created_time: '2014-12-07T16:59:45+0000'
+    from:
+      name: Youssef Goher
+      id: '10159815172670696'
+    message: it just works for any telnet server as far as i seen
+    id: '857470544292655'
+  - created_time: '2014-12-07T23:28:31+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      I think it would be very easy to create that tool yourself as a quick console app, record mode will be a client that saves everything it recieves into a file, playback mode will be a server sending everything in that saved file :)
+      Another way to achieve the same goal (the ability to test) is to abstract your code by creating an interface which has two implementations, the default one being the actual telnet client, and the other is a fake one for testing that just replies to you as if it's connected to a server :)
+    id: '857615067611536'
+  - created_time: '2014-12-08T05:16:07+0000'
+    from:
+      name: Mohamed El-Kholy
+      id: '10155833475081885'
+    message: I am modifying an existing app so I can play with classes and interfaces
+      during development but will fall back to needing the tool for fvt,  I will go
+      for the console app , may try python if I find a suitable api
+    id: '857774834262226'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFUzTkRZANU1qWTNOakkyTVRFMk9qRTBNVGM1TnpFek5EST0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFUzTnpjME9ETTBNall5TWpJMk9qRTBNVGd3TVRVM05qYz0ZD

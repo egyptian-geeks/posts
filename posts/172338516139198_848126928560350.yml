@@ -9,3 +9,44 @@ created_time: '2014-11-18T19:23:05+0000'
 updated_time: '2014-11-19T19:57:24+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/848126928560350/
 id: '172338516139198_848126928560350'
+reactions:
+  data:
+  - id: '10155227707788372'
+    name: Ahmed Mahmoud
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRFeU9ETTRNemN4T2pFME1UWXpOREF5TVRrNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRFeU9ETTRNemN4T2pFME1UWXpOREF5TVRrNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2014-11-18T20:03:31+0000'
+    from:
+      name: Mohamed Tarek El Haddad
+      id: '10159750515025408'
+    message: |-
+      That's the only VNC I know of: http://en.wikipedia.org/wiki/Virtual_Network_Computing
+      Are you asking about how to run Matlab code remotely on another machine?
+    id: '848142321892144'
+  - created_time: '2014-11-18T20:24:56+0000'
+    from:
+      name: Mohamed Fotouh Shalan
+      id: '939161812915764'
+    message: yup, i want to access a matlab code that run on any server
+    id: '848151698557873'
+  - created_time: '2014-11-19T19:56:49+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: "^ this is not clear.. be specific.."
+    id: '848601691846207'
+  - created_time: '2014-11-19T19:57:24+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: Imagine VNC like team viewer =D, if you don't get what's VNC
+    id: '848601895179520'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFE0TVRReU16SXhPRGt5TVRRME9qRTBNVFl6TkRFd01URT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFE0TmpBeE9EazFNVGM1TlRJd09qRTBNVFkwTWpjd05EUT0ZD

@@ -13,3 +13,180 @@ created_time: '2014-08-05T17:42:21+0000'
 updated_time: '2014-08-06T20:51:49+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/794515250588185/
 id: '172338516139198_794515250588185'
+reactions:
+  data:
+  - id: '10213118809797201'
+    name: Muhammad El-Hennawy
+    type: LIKE
+  - id: '10155452467310950'
+    name: Mohamed Mostafa Abouzeid
+    type: LIKE
+  - id: '10159603911485467'
+    name: Marwa ElSayed
+    type: LIKE
+  - id: '10157072407451982'
+    name: Mahmoud Abdallah
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRZAd01qZAzROVFF6TWpveE5EQTNNamMzTkRFeE9qSTFOREE1TmpFMk1UTT0ZD
+      after: TmpBeE5qYzJPVGd4T2pFME1EY3lOakV5TmpnNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2014-08-05T17:45:59+0000'
+    from:
+      name: Ahmed Adel Hossny
+      id: '1996970190329577'
+    message: How about customizing the media queries by yourself? I think this would
+      be better solution
+    id: '794524620587248'
+  - created_time: '2014-08-05T17:47:08+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: I guess I can always resort to that, but to be honest my experience in
+      this part is very limited especially in deciding the right threshold values
+      for each type of devices, if you have a good cheatsheet or guide that would
+      be awesome
+    id: '794525140587196'
+  - created_time: '2014-08-05T17:49:20+0000'
+    from:
+      name: Ahmed Adel Hossny
+      id: '1996970190329577'
+    message: Let me check once I reach home
+    id: '794525647253812'
+  - created_time: '2014-08-05T17:50:12+0000'
+    from:
+      name: Ibrahim Hammad
+      id: '10154919620001486'
+    message: Twitter Bootstrap
+    id: '794525900587120'
+  - created_time: '2014-08-05T17:50:43+0000'
+    from:
+      name: Muhammad Saleh
+      id: '10156649659196002'
+    message: |-
+      I would recommend you try to apply the media queries yourself.. If not then try a responsive grid system only.. If not then I would recommend Pure. I didn't use it before but i've alwayes liked it
+      And in all cases I will be more than happy to help :)
+    id: '794526020587108'
+  - created_time: '2014-08-05T17:50:49+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: Twitter Bootstrap is awesome, but for my case it is too much
+    id: '794526040587106'
+  - created_time: '2014-08-05T17:51:29+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: Muhammad Saleh I liked Pure because it is modular, so I can only use
+      grid system if I want.
+    id: '794526233920420'
+  - created_time: '2014-08-05T17:51:54+0000'
+    from:
+      name: Ahmed Adel Hossny
+      id: '1996970190329577'
+    message: Wait check html5 boilerplate it has a very simple responsive grid.
+    id: '794526323920411'
+  - created_time: '2014-08-05T17:52:15+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: cool let me look at that too
+    id: '794526463920397'
+  - created_time: '2014-08-05T17:53:08+0000'
+    from:
+      name: Ahmed Adel Hossny
+      id: '1996970190329577'
+    message: Also I guess 960gridsystem now has one. I think you need to look for
+      a grid system not a framework
+    id: '794526757253701'
+  - created_time: '2014-08-05T18:02:46+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: You guys are awesome, keep them coming :)
+    id: '794530027253374'
+  - created_time: '2014-08-05T18:16:01+0000'
+    from:
+      name: Ehab El-Masry
+      id: '10156435301616294'
+    message: "Twitter Bootstrap .. and u can check themeforest.net for many ready
+      made themes with tons of pages with cool effects .. u can easily reuse .. \ni
+      would recommend Neon : themeforest.net/item/neon-bootstrap-admin-theme/6434477\n\nu
+      can find also a lot of free themes from http://getbootstrap.com"
+    id: '794534477252929'
+  - created_time: '2014-08-05T18:16:02+0000'
+    from:
+      name: Ehab El-Masry
+      id: '10156435301616294'
+    message: 'if u want to get deeper search, this comparison may help: http://usablica.github.io/front-end-frameworks/compare.html'
+    id: '794534490586261'
+  - created_time: '2014-08-05T18:19:27+0000'
+    from:
+      name: Ehab El-Masry
+      id: '10156435301616294'
+    message: good thing about  Twitter Bootstrap is tht it supports RTL ..
+    id: '794535383919505'
+  - created_time: '2014-08-05T18:21:27+0000'
+    from:
+      name: Ahmad Ajmi
+      id: '897784993717544'
+    message: If what you need is just a simple grid system I created a very simple
+      version of Foundation grid so it can be used alone and I always use it personally
+      https://github.com/ahmadajmi/ajmi-grid
+    id: '794536090586101'
+  - created_time: '2014-08-05T18:24:32+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Foundation is what you need if you want only the Skeleton.
+    id: '794536907252686'
+  - created_time: '2014-08-05T19:33:40+0000'
+    from:
+      name: Mohammad Mahmoud
+      id: '10160051624520533'
+    message: I was going to recommend Bootstrap, then found you already checked it.
+    id: '794557053917338'
+  - created_time: '2014-08-05T19:58:56+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: Skeleton
+    id: '794566067249770'
+  - created_time: '2014-08-05T20:51:45+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: If all you need is a grid, you can just get the grid from bootstrap (in
+      customize page on website, or by including the LESS / SASS modules you want,
+      it is modular). Not that this is *the8 way to go, butmight be an option.
+    id: '794584047247972'
+  - created_time: '2014-08-05T21:32:57+0000'
+    from:
+      name: Ahmad Mohammad
+      id: '10156154732953169'
+    message: Html5 Boilerplate with 320up might be of help.
+    id: '794601363912907'
+  - created_time: '2014-08-05T22:36:25+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: |-
+      Mohamed Elsherif Lists of media queries for standard devises/sizes
+
+      http://css-tricks.com/snippets/css/media-queries-for-standard-devices/
+      http://stephen.io/mediaqueries/ (iPhone/iPad only)
+      http://nmsdvid.com/snippets/
+    id: '794622170577493'
+  - created_time: '2014-08-06T20:51:49+0000'
+    from:
+      name: Salah Jr Ahmed
+      id: '10155519026807880'
+    message: Why do not use the twitter bootstrap the responsive framework  css very
+      light. ?
+    id: '795104677195909'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemswTlRJME5qSXdOVGczTWpRNE9qRTBNRGN5TmpBM05Uaz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemsxTVRBME5qYzNNVGsxT1RBNU9qRTBNRGN6TlRnek1Eaz0ZD

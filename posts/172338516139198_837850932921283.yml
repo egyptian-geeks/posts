@@ -9,3 +9,45 @@ created_time: '2014-10-29T10:38:56+0000'
 updated_time: '2014-10-30T09:41:04+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/837850932921283/
 id: '172338516139198_837850932921283'
+reactions:
+  data:
+  - id: '10154995862711573'
+    name: Ahmed Abdelhady Yassen
+    type: LIKE
+  paging:
+    cursors:
+      before: Tmprd09UVTJOVGN5T2pFME1UUTJPVEF3TkRnNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: Tmprd09UVTJOVGN5T2pFME1UUTJPVEF3TkRnNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2014-10-29T11:33:07+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      https://github.com/blueimp/jQuery-File-Upload
+      It has advanced / full-feature mode and a basic mode. Even if you choose to use the basic mode, let the server return the JSON expected from the advanced mode, and set the content type as HTML not JSON, that will take care of IE 8 . I used it with Angular.JS 1.1x & 1.2x.
+    id: '837866139586429'
+  - created_time: '2014-10-30T07:35:51+0000'
+    from:
+      name: Waleed H. Elkoush
+      id: '10156113843706563'
+    message: have you used it before? because i found it but it doesn't work and generates
+      some Javascript errors
+    id: '838348746204835'
+  - created_time: '2014-10-30T08:45:46+0000'
+    from:
+      name: Ahmed Fawzy Omaira
+      id: '10213985926195361'
+    message: Waleed Hammad Check ur inbox
+    id: '838362316203478'
+  - created_time: '2014-10-30T09:41:04+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Yes I did as mentioned above.
+    id: '838375209535522'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRE0zT0RZAMk1UTTVOVGcyTkRJNU9qRTBNVFExT0RJek9EYz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRE00TXpjMU1qQTVOVE0xTlRJeU9qRTBNVFEyTmpJd05qUT0ZD

@@ -11,3 +11,45 @@ created_time: '2015-05-20T01:01:52+0000'
 updated_time: '2015-05-20T18:30:17+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/941778819195160/
 id: '172338516139198_941778819195160'
+reactions:
+  data:
+  - id: '1431461800297712'
+    name: Tecno Word
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXpNREUzTVRjeU56QTNPakUwTXpJeE1qRXlNVEE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXpNREUzTVRjeU56QTNPakUwTXpJeE1qRXlNVEE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2015-05-20T11:25:23+0000'
+    from:
+      name: Ahmed Zain Mohammed
+      id: '10156266511868081'
+    message: |-
+      Same here, it's really amazing.Check this out
+
+      http://hackr.io/tutorials/angular-js
+    id: '941900555849653'
+  - created_time: '2015-05-20T18:03:11+0000'
+    from:
+      name: Sameh Magdy
+      id: '1744871132236191'
+    message: Can it completely replace jQuery in your opinion? Or are they meant for
+      different situations/tasks?
+    id: '941993755840333'
+  - created_time: '2015-05-20T18:30:17+0000'
+    from:
+      name: Ahmed Zain Mohammed
+      id: '10156266511868081'
+    message: |-
+      Both were created to handle different tasks. I don't think it's smart to compare both libraries. Angular was created to take HTML to the next step, it's amazing with data binding and much much more.
+
+      AngularJS even has something called jQueryLite that offers most of the jQuery functionalities (like .addClass/On/change/ ... ) !
+
+      You can compare AngularJS to libraries like React or Ember.
+    id: '941999445839764'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFF4T1RBd05UVTFPRFE1TmpVek9qRTBNekl4TWpFeE1qTT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFF4T1RrNU5EUTFPRE01TnpZAME9qRTBNekl4TkRZAMk1UYz0ZD

@@ -10,3 +10,133 @@ created_time: '2015-02-03T08:32:50+0000'
 updated_time: '2015-02-03T11:26:12+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/890042771035432/
 id: '172338516139198_890042771035432'
+reactions:
+  data:
+  - id: '857329281113998'
+    name: Mohamed Soliman
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTFNVEE0TURJek1USTRPakUwTWpJNU5qTTBNRFE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTFNVEE0TURJek1USTRPakUwTWpJNU5qTTBNRFE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2015-02-03T10:35:58+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: These attributes mainly are targeted by assistive devices like screen
+      readers to aid people with disabilities to identify certain parts of web pages.
+      Russ Weakly has a great introduction about this topic. You can omit them but
+      it's a good practice to use them. Bootstrap recently added a lot of the ARIA
+      recommendations to its demos. Go for it
+    id: '890090164364026'
+  - created_time: '2015-02-03T10:37:39+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: https://speakerdeck.com/othree/wai-aria
+    id: '890090501030659'
+  - created_time: '2015-02-03T10:49:54+0000'
+    from:
+      name: Ahmed Magdy
+      id: '10155638727450376'
+    message: طيب ليه بعض الفريموركس بيستخدموه وهوا بس لل disabilities ؟زي بوتستراب
+      مثلا ؟
+    id: '890098461029863'
+  - created_time: '2015-02-03T10:56:54+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: علشان المفروض كل حاجة تبقى accessible by default
+    id: '890101657696210'
+  - created_time: '2015-02-03T10:59:53+0000'
+    from:
+      name: Ahmed Magdy
+      id: '10155638727450376'
+    message: يعني هوا كدة مش ضروري في markup بتاع bootstrap ؟ يعني لو شيلته الكود
+      هايشتغل عادي ، صح؟
+    id: '890102444362798'
+  - created_time: '2015-02-03T11:00:15+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: أصلا في حاجات للحكومة ممنوع قانونا تطلع من غير ما تكون accessible. أنا
+      قعدت شهور كتير من عمري في private framework team لأحد البنوك الكبيرة في أستراليا
+      نص وقتنا مثلا كان رايح على الـ ARIA و الحاجات التانية لوازم الـ accesibilty
+      علشان لما الـ feature teams يستخدموها تكون accessible جاهزة لأن قانونا موقع
+      البنك ماينفعش يطلع إلا لو بيعدي اختبارات  WCAG أو Web Content Accessibilty Guidelines.
+    id: '890102647696111'
+  - created_time: '2015-02-03T11:00:31+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: أيوة هايشتغل :S
+    id: '890102711029438'
+  - created_time: '2015-02-03T11:02:28+0000'
+    from:
+      name: Ahmed Magdy
+      id: '10155638727450376'
+    message: بارك الله فيك يا  شباب
+    id: '890103164362726'
+  - created_time: '2015-02-03T11:04:50+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: فيه حملات توعية كتير بتتم للناس انهم يعتبروا الـ accessibility جزء من
+      الـ done criteria و فيه modules لـ Angular و Polymer مثلا علشان تعمل كل الحاجات
+      اللي تقدر تخمنها من غير ما أنت تضطر تكتبها. الموضوع لسة مش ناس كتير بما يكفي
+      بتتبناه بره، أما عندنا ما حدش بيعبره أو بيفكر فيه أبدا أصلا، حتى الحكومات اللي
+      ليها مواقع محترمة زي الإمارات أعتقد (ما لم يكونوا اتحسنوا في الأربع سنين الأخيرة
+      - اشك). أنا نفسي ما فكرتش فيه إلا لما اشتغلت عليه في المشروع ده.
+    id: '890104294362613'
+  - created_time: '2015-02-03T11:16:16+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: من كام شهر كان فيه شغل جامد جدا على الـ web components عشان موضوع الـ
+      ِaccessibility ده لأن للأسف وقت ما الـ specs اتحطت مكنش في دماغ أي حد أي حاجة
+      عن الـ accessibility لأنك بتعمل الـ markup بتاعك فانت وضميرك بقى ... الحلقة
+      دي من Shoptalkshow كانت عن النموضوع ده http://shoptalkshow.com/episodes/141-marcy-sutton/
+    id: '890106997695676'
+  - created_time: '2015-02-03T11:17:31+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: |-
+      Mohamed Meligy المفروض والله العظيم التعليق ده يتحط في برواز
+      https://www.facebook.com/groups/egyptian.geeks/permalink/890042771035432/?comment_id=890101657696210&offset=0&total_comments=10
+    id: '890107347695641'
+  - created_time: '2015-02-03T11:19:11+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: |-
+      أنا فيه فترة اشتغلت من الـ reference ده للأمم المتحدة http://www.un.org/webaccessibility/
+      دي النقاط اللي على الأقل محتاج تغطيها ان لم يكن أكثر منها :D
+    id: '890107887695587'
+  - created_time: '2015-02-03T11:23:21+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: بص، الـ Web Components كـ set of standards مش محتاجة للـ accessibility
+      أكتر من attributes توصف الحاجة اللي بتعملها، و ده متوفر بالفعل في ARIA من سنين,
+      باقي بس اللي بيعمل الـ component يستخدمه. الشغل في الـ Web components accessibility
+      بيكون عادة في الـ component libraries and frameworks زي polymer و x-tags. أن
+      مثلا كل الـ custom elements اللي في polymer من أول الـ core elements لحد الـ
+      paper / material elements تكون جاية accessible جاهزة منها فيها (يعني الـ HTML
+      المستخبي جوة الـ shadow DOM بتاع الـ component أو الـ custom element من دول
+      يكون accessible).
+    id: '890108981028811'
+  - created_time: '2015-02-03T11:26:12+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      لو فيه مصطلحات كتير غربية في أخر تعليق، بخصوص الـ Web Components و Polyme، ممكن الفيديو ده يساعد
+      https://www.youtube.com/watch?v=6sInFhc7b1U
+    id: '890109724362070'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGt3TURrd01UWTBNelkwTURJMk9qRTBNakk1TlRrM05UZAz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGt3TVRBNU56STBNell5TURjd09qRTBNakk1TmpJM056ST0ZD

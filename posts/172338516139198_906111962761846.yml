@@ -11,3 +11,124 @@ updated_time: '2015-03-10T15:39:32+0000'
 name: Netanyahu’s Speech in Charts
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/906111962761846/
 id: '172338516139198_906111962761846'
+reactions:
+  data:
+  - id: '2072820782951834'
+    name: AbdulRahman Mahmoud ElBieh
+    type: LIKE
+  - id: '10156220501401654'
+    name: Mahmoud Mustafa El-Badry
+    type: LIKE
+  - id: '10155490135004195'
+    name: Ahmed Bedir
+    type: LIKE
+  - id: '10155438303996219'
+    name: Omar Sameh Shehata
+    type: LIKE
+  - id: '10155738795381858'
+    name: Mohamed Abdellatif
+    type: LIKE
+  - id: '10156089336182292'
+    name: Hassan Aly Selim
+    type: LIKE
+  - id: '1574042042631934'
+    name: Mohamed Yahya
+    type: LIKE
+  - id: '10155755444625845'
+    name: Mohammad Fouad
+    type: LIKE
+  - id: '1573619512716214'
+    name: Mohamed Alaa El Din
+    type: LIKE
+  - id: '10156207737619180'
+    name: Ahmed Al-Amir
+    type: LIKE
+  - id: '1955441501387657'
+    name: Bassam Abd Elhamid
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTJOekUzT1RZAMU9EVXlPakUwTWpZAd05ERTJPVEE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTNOalUwTnpnNU16RXdPakUwTWpVNE1UQXpOREk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2015-03-08T11:58:50+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: |-
+      This is really cool. A couple of questions, in the section discussing whether the deal is good or bad:
+
+      - Does the graph linking words that are "near" a keyword sorted in any particular order?
+
+      - Is the inference of statements like "the deal is bad, it will lead to bomb".. etc. automated somehow or is it man made?
+    id: '906145606091815'
+  - created_time: '2015-03-08T12:15:41+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: And this is the Power of Data Mining :) Well Done Tarek Amr :)
+    id: '906152452757797'
+  - created_time: '2015-03-08T12:21:33+0000'
+    from:
+      name: Tarek Amr
+      id: '10155854949245944'
+    message: Ahmed Al-Amir For the first question, they are not sorted, but I used
+      nltk.collocations.BigramAssocMeasures() so these are the top pairs with highest
+      pairwise mutual information. I excluded words appearing less than 3 times and
+      limited the distance between the pairs of words to 3 words in between. I added
+      a link to the code used now, at the end of the article. Regarding your second
+      question, no, I was just being sarcastic here. I only could see the links between
+      the words, the sarcasm is mine.
+    id: '906154512757591'
+  - created_time: '2015-03-08T12:21:51+0000'
+    from:
+      name: Tarek Amr
+      id: '10155854949245944'
+    message: Mohamed Alaa El Din Thank you Mohamed, glad you liked it
+    id: '906154609424248'
+  - created_time: '2015-03-08T12:22:31+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: Thank you. Again, awesome work.
+    id: '906154772757565'
+  - created_time: '2015-03-09T15:27:06+0000'
+    from:
+      name: Omar Sameh Shehata
+      id: '10155438303996219'
+    message: This is so awesome. What sort of tools/languages do you generally like
+      to use for your data analysis? How accurate was the speech-to-text?
+    id: '906779569361752'
+  - created_time: '2015-03-09T15:46:54+0000'
+    from:
+      name: Tarek Amr
+      id: '10155854949245944'
+    message: Omar Sameh Shehata I used Python (NLTK), I used the available transcripts
+      for the speech, no speech to text involved here, too complex for my simple mind
+      :)
+    id: '906788482694194'
+  - created_time: '2015-03-10T15:39:32+0000'
+    from:
+      name: Ahmed Bedir
+      id: '10155490135004195'
+    message: great work
+    id: '907260545980321'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEEyTVRRMU5qQTJNRGt4T0RFMU9qRTBNalU0TVRVNU16QT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEEzTWpZAd05UUTFPVGd3TXpJeE9qRTBNall3TURFNU56ST0ZD
+attachments:
+  data:
+  - description: Iran and nuclear program are trendy now, while peace and democracy
+      are so two-thousand-and-late.
+    media:
+      image:
+        height: 371
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQDsvXsgW2tf8Abu&w=720&h=720&url=https%3A%2F%2Fd262ilb51hltx0.cloudfront.net%2Fmax%2F800%2F1%2AZ4UcJokPuq70C-cV20ZcfA.png&cfs=1&_nc_hash=AQCj1q9ioU_VcC0Q
+        width: 371
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fmedium.com%2F%40gr33ndata%2Fnetanyahu-s-speech-in-charts-765894f153d0&h=ATOY3UFCW1MyoKxSOvvomdjK85wdllKQkuUA2-HXA0fx7IC7IJUc_XVWZ30YmfKukKDXF0yCFcIp6hSocLSidzmEPabmhnq9O88Q&s=1&enc=AZNkwGhLDQYMyM7fpMfyoK2TK4t3Zi9V1SJxtMsxZZGECOrllBiDbEZWXunwQLoR8b60t3oXJCMtT8dnsFXZ82bA
+    title: Netanyahu’s Speech in Charts
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fmedium.com%2F%40gr33ndata%2Fnetanyahu-s-speech-in-charts-765894f153d0&h=ATOY3UFCW1MyoKxSOvvomdjK85wdllKQkuUA2-HXA0fx7IC7IJUc_XVWZ30YmfKukKDXF0yCFcIp6hSocLSidzmEPabmhnq9O88Q&s=1&enc=AZNkwGhLDQYMyM7fpMfyoK2TK4t3Zi9V1SJxtMsxZZGECOrllBiDbEZWXunwQLoR8b60t3oXJCMtT8dnsFXZ82bA

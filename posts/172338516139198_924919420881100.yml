@@ -10,3 +10,95 @@ created_time: '2015-04-12T17:09:24+0000'
 updated_time: '2015-04-12T19:15:40+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/924919420881100/
 id: '172338516139198_924919420881100'
+reactions:
+  data:
+  - id: '2044729859105544'
+    name: Nezar Saleh Hasan
+    type: LIKE
+  - id: '10215836374411013'
+    name: محمد عمران
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTNNRFUyTkRnMk16UXhPakUwTWpnNE5qazVNVEE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRRNU5EY3pPRFUzTWpveE5ESTRPRFk0TXpJNE9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2015-04-12T17:10:44+0000'
+    from:
+      name: Mohamed Said
+      id: '10155091454175952'
+    message: JS? iOS? Andorid?
+    id: '924920934214282'
+  - created_time: '2015-04-12T17:11:22+0000'
+    from:
+      name: Aya E Mahmoud
+      id: '981197072029923'
+    message: Android. Sorry I forgot to attach that.
+    id: '924921627547546'
+  - created_time: '2015-04-12T17:23:30+0000'
+    from:
+      name: Ahmed Emad
+      id: '10156225504143578'
+    message: |-
+      I think the closest answer i have right now, is to have a list of positions and start animating to each node and when the animation end,  start animating to the next one.
+      http://stackoverflow.com/questions/14864664/animating-markers-on-google-maps-v2
+    id: '924937950879247'
+  - created_time: '2015-04-12T17:29:42+0000'
+    from:
+      name: Aya E Mahmoud
+      id: '981197072029923'
+    message: Ahmed Emad thanks for the help. The problem is it never goes throw the
+      route it goes form a location to another even if there is a building or any
+      thing it doesn't move according to the route at all.
+    id: '924956634210712'
+  - created_time: '2015-04-12T17:30:20+0000'
+    from:
+      name: Aya E Mahmoud
+      id: '981197072029923'
+    message: Mustafa Hammad I'm sorry but can you clarify that please?
+    id: '924958980877144'
+  - created_time: '2015-04-12T17:32:17+0000'
+    from:
+      name: Moustafa Abdelaziz
+      id: '10156095976664136'
+    message: I misunderstood what you asked .. I thought that you wanted to remove
+      the marker .. not move it. In addition, I'm experienced in the JS API and your
+      are asking for the Android one. Thus, I removed my comment :)
+    id: '924968060876236'
+  - created_time: '2015-04-12T17:34:08+0000'
+    from:
+      name: Aya E Mahmoud
+      id: '981197072029923'
+    message: Mustafa Hammad Thanks any way for responding.
+    id: '924970840875958'
+  - created_time: '2015-04-12T17:38:29+0000'
+    from:
+      name: Ahmed Emad
+      id: '10156225504143578'
+    message: "Aya E Mahmoud http://wptrafficanalyzer.in/blog/drawing-driving-route-directions-between-two-locations-using-google-directions-in-google-map-android-api-v2/
+      \n\nahhh! This example illustrate how you could get a driving route and from
+      this point you can get the positions of each marker and then proceed with the
+      first answer i gave to you. However, if you need to give the user the capability
+      to navigate from X to Y while driving, i would advice you to send the longitude
+      and the latitude  to start navigating to the destination ( Using the Google
+      Navigation app). I hope it helps."
+    id: '924986090874433'
+  - created_time: '2015-04-12T19:12:54+0000'
+    from:
+      name: Abdalla Elnaggar
+      id: '2096764887006623'
+    message: "hears an API that return A XMLString  the holds the points between \nuse
+      them to animate your marker\nhttp://stackoverflow.com/questions/14444228/android-how-to-draw-route-directions-google-maps-api-v2-from-current-location-t"
+    id: '925034044202971'
+  - created_time: '2015-04-12T19:15:40+0000'
+    from:
+      name: Abdalla Elnaggar
+      id: '2096764887006623'
+    message: "and Hears another one That return A JSON String \nParse It get you LonLat
+      Points\nthen animate Your Marker \nhttp://stackoverflow.com/questions/14702621/answer-draw-path-between-two-points-using-google-maps-android-api-v2"
+    id: '925035284202847'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEkwT1RJd09UTTBNakUwTWpneU9qRTBNamc0TlRnMk5EUT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEkxTURNMU1qZAzBNakF5T0RRM09qRTBNamc0TmpZAeE5EQT0ZD

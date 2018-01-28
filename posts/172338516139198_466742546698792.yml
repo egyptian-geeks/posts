@@ -10,3 +10,52 @@ updated_time: '2012-10-01T13:57:54+0000'
 name: Splitting Strings With Substrings | DaedTech
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/466742546698792/
 id: '172338516139198_466742546698792'
+comments:
+  data:
+  - created_time: '2012-10-01T13:20:04+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      The array requirement is a bit silly, but you don't need to use string[], just [] is enough, plus I almost always prefer to set that enum, not to None. My usual call is like:
+       y.Split(new[] { ".." }, StringSplitOptions.RemoveEmptyEntries)
+    id: '466747013365012'
+  - created_time: '2012-10-01T13:23:45+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: I think Split is very much faster than Regex, I did not measure but Regex
+      functions have more code, they validate the passed pattern and have other checks,
+      it is not MSIL.. etc
+    id: '466747916698255'
+  - created_time: '2012-10-01T13:53:14+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      Yeah, I didn't even bother talking about that. You also need to escape any special characters in the "pattern", etc.
+      Of course it has its place based on complicity and size though, but not for this one.
+    id: '466756733364040'
+  - created_time: '2012-10-01T13:57:54+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: You can make a helper method or an extension method to the String object
+      and make it much simpler. I also think Regex class is much more advanced and
+      have way more code that is not needed for simple split of string
+    id: '466758193363894'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAORFkyTnpRM01ERXpNelkxTURFeU9qRXpORGt3T1RjMk1EUT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAORFkyTnpVNE1Ua3pNell6T0RrME9qRXpORGt3T1RrNE56UT0ZD
+attachments:
+  data:
+  - description: Here, “tokens” will be an array of strings containing “Erik” and
+      “Dietrich”. It’s not exactly Earth Shattering to tokenize a string in this fashion
+      and some incarnation or another of this predates .NET, C# and probably even
+      my time on this planet.
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.daedtech.com%2Fsplitting-strings-with-substrings&h=ATMH1Y_xLi7HZmBRD0bn1iEZJqvFY3bHV5wYge-FylRXy5J3E2d0LOuMg9pvmCsu90REZRehn4nvAB4IwHWIaaWE-I37LiZXijVY&s=1&enc=AZOmYz5URAafCEgnbr5UvRMIbT94EJ4rM1yBNVLZtbXhALyNKXy__oll0cO3ZFSTAzJDCC-fRWdWN7s0J45htBRr
+    title: Splitting Strings With Substrings | DaedTech
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.daedtech.com%2Fsplitting-strings-with-substrings&h=ATMH1Y_xLi7HZmBRD0bn1iEZJqvFY3bHV5wYge-FylRXy5J3E2d0LOuMg9pvmCsu90REZRehn4nvAB4IwHWIaaWE-I37LiZXijVY&s=1&enc=AZOmYz5URAafCEgnbr5UvRMIbT94EJ4rM1yBNVLZtbXhALyNKXy__oll0cO3ZFSTAzJDCC-fRWdWN7s0J45htBRr

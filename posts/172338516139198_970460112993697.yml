@@ -17,3 +17,42 @@ created_time: '2015-07-10T05:45:14+0000'
 updated_time: '2015-07-10T10:50:19+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/970460112993697/
 id: '172338516139198_970460112993697'
+comments:
+  data:
+  - created_time: '2015-07-10T06:11:08+0000'
+    from:
+      name: Hazem Salem
+      id: '10159894024455174'
+    message: Do it Async by using Ajax.  And I will put that long time consuming  method  in
+      a different controller
+    id: '970464552993253'
+  - created_time: '2015-07-10T06:23:25+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: 'ربع ساعه كتير جدا على إنها تشتغل جوّه web application، شوف: http://www.hanselman.com/blog/HowToRunBackgroundTasksInASPNET.aspx'
+    id: '970466459659729'
+  - created_time: '2015-07-10T10:49:15+0000'
+    from:
+      name: Usama Fayez
+      id: '10155807421830280'
+    message: |-
+      1- One way is to do it using AJAX, and modify web.config to make the request timeout more than 15 minutes, however this is not the way it's usually done and there is a better way.
+
+      2- You should create a Request class that has all the needed parameters of the request the user is submitting, and create a queue of these requests as a static object when your web application starts
+
+      When the user clicks the button, the backend should insert a new request in this queue and return immediately.
+      You should also create a background thread in the web application to periodically check the queue for new requests and process them.
+
+      3- The best way however, is not to have background threads in your web application, and to insert the requests in a database or something, and have another application process periodically check the database for new requests, process new requests, and update their status in the database to show to the user if he needs to see status updates on the request.
+    id: '970547752984933'
+  - created_time: '2015-07-10T10:50:19+0000'
+    from:
+      name: Mohamed Moshrif
+      id: '1538447102877297'
+    message: "(Y)"
+    id: '970547969651578'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVGN3TkRZAME5UVXlPVGt6TWpVek9qRTBNelkxTURnMk5qZAz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVGN3TlRRM09UWTVOalV4TlRjNE9qRTBNelkxTWpVME1Uaz0ZD

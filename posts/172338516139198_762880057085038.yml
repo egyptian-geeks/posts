@@ -10,3 +10,105 @@ created_time: '2014-06-11T20:03:22+0000'
 updated_time: '2014-06-18T09:15:31+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/762880057085038/
 id: '172338516139198_762880057085038'
+comments:
+  data:
+  - created_time: '2014-06-11T20:04:08+0000'
+    from:
+      name: Wael Ali Salim
+      id: '10159800592940304'
+    message: Mohammad Tayseer
+    id: '762880287085015'
+  - created_time: '2014-06-11T20:04:42+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      http://www.sqlite.org/
+      1- Embedded (no need to install a separate server)
+      2- Faster than MySql
+      3- The DB is 1 file
+    id: '762880430418334'
+  - created_time: '2014-06-11T20:11:26+0000'
+    from:
+      name: Hisham Abd El-Hafez Eid
+      id: '10156032627411171'
+    message: the real question is, why are you creating a Java desktop application
+      ? :)
+    id: '762882423751468'
+  - created_time: '2014-06-11T20:11:40+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: If the database is only gonna be used by this application and not shared
+      by any other apps or services, so you are basically looking for a fancy file
+      format in which case Sqlite is perfect
+    id: '762882497084794'
+  - created_time: '2014-06-11T20:13:50+0000'
+    from:
+      name: Wael Ali Salim
+      id: '10159800592940304'
+    message: Hisham Abd El-Hafez Eid because the company resources are perfect in
+      Java :D ..
+    id: '762883773751333'
+  - created_time: '2014-06-11T20:14:03+0000'
+    from:
+      name: Wael Ali Salim
+      id: '10159800592940304'
+    message: Hisham Abd El-Hafez Eid do you have other recommendation
+    id: '762884143751296'
+  - created_time: '2014-06-11T20:14:08+0000'
+    from:
+      name: Wael Ali Salim
+      id: '10159800592940304'
+    message: "@All, thanks :)"
+    id: '762884223751288'
+  - created_time: '2014-06-11T20:16:40+0000'
+    from:
+      name: Hisham Abd El-Hafez Eid
+      id: '10156032627411171'
+    message: tell us more about the requirements ..
+    id: '762884950417882'
+  - created_time: '2014-06-11T20:17:50+0000'
+    from:
+      name: Wael Ali Salim
+      id: '10159800592940304'
+    message: Windows Desktop Application - That's enough for public :D
+    id: '762885257084518'
+  - created_time: '2014-06-11T20:19:13+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: "Desktop apps in Java yukh \U0001F61D"
+    id: '762885667084477'
+  - created_time: '2014-06-11T20:32:03+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: If it's for Windows only, you can use .net
+    id: '762889583750752'
+  - created_time: '2014-06-11T21:56:05+0000'
+    from:
+      name: A Taha ElAnsary
+      id: '10159814040690403'
+    message: Postgres is the best in my pov
+    id: '762917103748000'
+  - created_time: '2014-06-14T12:09:47+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: If it's Windows 7 then it has .Net 3.0 built in (it's part of the default
+      installation as far as I remember), so you can go with that :)
+    id: '764382143601496'
+  - created_time: '2014-06-18T09:15:31+0000'
+    from:
+      name: Ahmed Essam
+      id: '2004705666469226'
+    message: This depends on what you want from database engine. If what you need
+      is a simple database with basic functionality I recommend you use "SQLite" It
+      is perfect for small applications, no server needed, high preformance. MySQL
+      is great but it needs a server and might not be suitable for small applications.
+    id: '766601106712933'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOell5T0Rnd01qZAzNNRGcxTURFMU9qRTBNREkxTVRjd05EZAz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOelkyTmpBeE1UQTJOekV5T1RNek9qRTBNRE13T0RJNU16RT0ZD

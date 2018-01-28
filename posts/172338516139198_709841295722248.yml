@@ -8,3 +8,42 @@ created_time: '2014-03-04T06:51:01+0000'
 updated_time: '2014-03-04T06:51:01+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/709841295722248/
 id: '172338516139198_709841295722248'
+reactions:
+  data:
+  - id: '10157199028844478'
+    name: Noha Basiony
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpVMk56ZAzVORGMzT2pFek9UTTVNVFkyT1RrNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TmpVMk56ZAzVORGMzT2pFek9UTTVNVFkyT1RrNk1qVTBNRGsyTVRZAeE13PT0ZD
+attachments:
+  data:
+  - subattachments:
+      data:
+      - target:
+          id: '1479615575593890'
+        title: Underscrore
+        type: option
+      - target:
+          id: '616866398406322'
+        title: JsRender
+        type: option
+      - target:
+          id: '221668454696461'
+        title: Handlebars
+        type: option
+      - target:
+          id: '218056578394069'
+        title: Mustache
+        type: option
+      - target:
+          id: '221561358041025'
+        title: Embedded JS
+        type: option
+    target:
+      id: '709841285722249'
+      url: https://www.facebook.com/groups/egyptian.geeks/permalink/709841295722248/
+    title: Which JavaScript templating engine do you use?
+    type: question
+    url: https://www.facebook.com/groups/egyptian.geeks/permalink/709841295722248/

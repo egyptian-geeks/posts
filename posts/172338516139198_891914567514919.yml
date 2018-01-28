@@ -13,3 +13,77 @@ created_time: '2015-02-07T14:11:11+0000'
 updated_time: '2015-02-07T15:52:14+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/891914567514919/
 id: '172338516139198_891914567514919'
+comments:
+  data:
+  - created_time: '2015-02-07T14:14:24+0000'
+    from:
+      name: Mohammed Hussien
+      id: '10154922289347024'
+    message: i think you need to read this :)  https://developer.android.com/reference/android/printservice/PrinterDiscoverySession.html
+    id: '891915374181505'
+  - created_time: '2015-02-07T14:17:11+0000'
+    from:
+      name: Donia El Akkad
+      id: '10154999190200047'
+    message: i read it but still cant get , which kind of connection does it fetch
+      , is it USB or Cloud or i should register printer before
+    id: '891916174181425'
+  - created_time: '2015-02-07T14:22:24+0000'
+    from:
+      name: Mohammed Hussien
+      id: '10154922289347024'
+    message: well i think it discover all devices in all types of connections :) ,
+      and this will be one of your code testing approach to test your application
+      with all connections.
+    id: '891928454180197'
+  - created_time: '2015-02-07T14:32:22+0000'
+    from:
+      name: Muhammad Saleh
+      id: '10156649659196002'
+    message: Mohammed Hussien Ahmed Hassan Salem Ahmed Mahmoud Eltaher tazbeta li
+      o5toko ya ged3an Allah ykremko :D
+    id: '891932304179812'
+  - created_time: '2015-02-07T15:06:03+0000'
+    from:
+      name: Ahmed Salem
+      id: '10154810911821362'
+    message: have you tried connecting to the printer using an already made app from
+      Google play ? There are ones for HP,Canon ,...
+    id: '891944480845261'
+  - created_time: '2015-02-07T15:15:24+0000'
+    from:
+      name: Donia El Akkad
+      id: '10154999190200047'
+    message: yes , i tried printshare but i would like to create one for specific
+      printer (doesn't have existing plugin)
+    id: '891947610844948'
+  - created_time: '2015-02-07T15:33:18+0000'
+    from:
+      name: Ahmed Salem
+      id: '10154810911821362'
+    message: did printshare work ? and how do you want to connect this specific printer
+      ? wifi/bluetooth/?
+    id: '891954517510924'
+  - created_time: '2015-02-07T15:34:00+0000'
+    from:
+      name: Donia El Akkad
+      id: '10154999190200047'
+    message: yeah it worked using OTG Cable
+    id: '891954730844236'
+  - created_time: '2015-02-07T15:49:37+0000'
+    from:
+      name: Ahmed Salem
+      id: '10154810911821362'
+    message: "in that case the phone can discover your printer which is great news
+      \n\ntake a look at these articles on how to use and setup the printer service:\n\nhttp://hdfpga.blogspot.com/2014/09/dropbox-printservice-on-android-44.html\nhttp://possiblemobile.com/2013/11/android-gets-a-print-framework/"
+    id: '891959947510381'
+  - created_time: '2015-02-07T15:52:14+0000'
+    from:
+      name: Donia El Akkad
+      id: '10154999190200047'
+    message: Thanks
+    id: '891960930843616'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGt4T1RFMU16YzBNVGd4TlRBMU9qRTBNak16TVRnME5qUT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGt4T1RZAd09UTXdPRFF6TmpFMk9qRTBNak16TWpRek16UT0ZD

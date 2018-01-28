@@ -9,3 +9,116 @@ created_time: '2014-08-12T06:33:49+0000'
 updated_time: '2014-08-13T11:46:33+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/798165963556447/
 id: '172338516139198_798165963556447'
+comments:
+  data:
+  - created_time: '2014-08-12T06:35:21+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: "* assuming you do not have a pre-defined set of tags to test the text
+      against"
+    id: '798166330223077'
+  - created_time: '2014-08-12T06:48:50+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: Regex can be used to extract text like phones, zip code, dates... etc
+    id: '798171296889247'
+  - created_time: '2014-08-12T06:52:06+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: "Also you can use some machine learning techniques for classification.
+      \nhttp://stackoverflow.com/questions/13788229/very-simple-text-classification-by-machine-learning"
+    id: '798171813555862'
+  - created_time: '2014-08-12T06:52:15+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: 'What I''m after is exacting keywords rather than meta information. Say
+      you want to display tags in this group''s archive and want it to apply to historical
+      posts which don''t have explicit #tags.'
+    id: '798171836889193'
+  - created_time: '2014-08-12T07:27:19+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: I think that you mean part-of-speech tagging. This is an example by Tarek
+      Amr https://github.com/gr33ndata/NLP_GDGCairo2013
+    id: '798179896888387'
+  - created_time: '2014-08-12T07:33:29+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: Like Google and other SE, I would depend first on <title> then header
+      tags, then <strong> / <b> , first paragraph <p>, then the last part of the URL
+      (page name), then the keywords and description meta tags, then the rest of copy
+      on page and <img>'s alternate text, it requires some NLP to get good results
+    id: '798180996888277'
+  - created_time: '2014-08-12T07:54:20+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Great stuff Mohammad Tayseer. Dies the idea change much if my target
+      is extracting list of tags (to display to user all the tags from all recorded
+      pages) rather than testing for predefined list?
+    id: '798186203554423'
+  - created_time: '2014-08-12T08:00:28+0000'
+    from:
+      name: Tarek Amr
+      id: '10155854949245944'
+    message: Is it Named-entity recognition what you need, or what? Give me an example
+      of what you consider "keywords" here? http://en.wikipedia.org/wiki/Named-entity_recognition
+    id: '798187640220946'
+  - created_time: '2014-08-12T08:15:06+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Let's say you want add tags to previous posts in the group archive, like
+      JavaScript, AngularJS, CSS, etc. Let's ignore that AngularJS is JavaScript,
+      you want to tag the posts, and get lost if distinct tags to display to use,
+      preferably without stating from a predefined list (or some technique to obtain
+      large list, and allow fast testing of all tags in this list)
+    id: '798191396887237'
+  - created_time: '2014-08-12T08:16:32+0000'
+    from:
+      name: Tarek Amr
+      id: '10155854949245944'
+    message: If you have a predefined list of tags, then it is text classification,
+      if no predefined list of tags then it is text clustering.
+    id: '798191616887215'
+  - created_time: '2014-08-12T15:24:45+0000'
+    from:
+      name: Mohab Elkaref
+      id: '10159932941280506'
+    message: I do think that the solutions suggested so far are overkill (giddan giddan).
+      If all you need is to extract a few good tags for each post then I would suggest
+      that you either do some clustering, or simply calculate co-occurence (how often
+      2 words appear together in the same sentence/paragraph/post versus how often
+      those words appear in general). To make things a little more useful I suggest
+      that you exclude all stop words (like a, the, that, etc. example here http://www.textfixer.com/resources/common-english-words.txt),
+      and if you want to get fancy, calculate tf-idf scores for each co-occurence
+      to narrow down the really useful stuff (but now we're back in overkill territory
+      :D ). Hope that helps. ;)
+    id: '798385390201171'
+  - created_time: '2014-08-12T15:27:42+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      I don't want to get fancy, I wouldn't mind a service that does this for me or some software to install and interop with somehow :D
+      It's something I might give up for now though.
+    id: '798386186867758'
+  - created_time: '2014-08-13T11:46:33+0000'
+    from:
+      name: Ahmed Ali
+      id: '2016898865266142'
+    message: if it's about web search engines , as Moutaz Shams mentioned above, the
+      page title and the meta tag on the head of the page. also i put the text in
+      an invisible tag like a div or any container on the page body still the it will
+      be indexed on the web search engines
+    id: '798771790162531'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOems0TVRZAMk16TXdNakl6TURjM09qRTBNRGM0TWpVek1qRT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOems0TnpjeE56a3dNVFl5TlRNeE9qRTBNRGM1TXpBek9UTT0ZD

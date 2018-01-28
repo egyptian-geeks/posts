@@ -12,3 +12,30 @@ name: 'Elasticsearch rails gem: timeout when saving a document after changing in
   name'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/806697529369957/
 id: '172338516139198_806697529369957'
+reactions:
+  data:
+  - id: '10156014041447629'
+    name: Mohammed ElSayed
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRRM05qZAzNOakk0T2pFME1Ea3pPRGcxTmprNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRRM05qZAzNOakk0T2pFME1Ea3pPRGcxTmprNk1qVTBNRGsyTVRZAeE13PT0ZD
+attachments:
+  data:
+  - description: I'm trying to index a simple document using the elasticsearch gem,
+      index is created successfully but I get a timeout error when I try to index
+      a simple document (LogEntry) after changing the index name although connection
+      to the search server is reachable through other commands, this happens on my
+      p…
+    media:
+      image:
+        height: 316
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQCz3rmhv1AH6XyC&w=720&h=720&url=http%3A%2F%2Fcdn.sstatic.net%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3Dfde65a5a78c6&cfs=1&_nc_hash=AQDYMA7sVVUu6LYN
+        width: 316
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F25576637%2Felasticsearch-rails-gem-timeout-when-saving-a-document-after-changing-index-nam&h=ATNMq6t84wdCjv0XATn3YrsvPdq6jJi6M3JltKWOY4DwaBQH7rHGl-dTyJOdW0FXxW4gcQ6r6-EJw_F_dv7BDxyMTwT83C0wrOuH&s=1&enc=AZNnt2BE6BlOJViJ5pT8iEYmy0yF_MxtHyed_sIiu9DJxHURudQlyr_bV82FbXu2mikgGbSUqYFXecndMfWgcu-_
+    title: 'Elasticsearch rails gem: timeout when saving a document after changing
+      index name'
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F25576637%2Felasticsearch-rails-gem-timeout-when-saving-a-document-after-changing-index-nam&h=ATNMq6t84wdCjv0XATn3YrsvPdq6jJi6M3JltKWOY4DwaBQH7rHGl-dTyJOdW0FXxW4gcQ6r6-EJw_F_dv7BDxyMTwT83C0wrOuH&s=1&enc=AZNnt2BE6BlOJViJ5pT8iEYmy0yF_MxtHyed_sIiu9DJxHURudQlyr_bV82FbXu2mikgGbSUqYFXecndMfWgcu-_

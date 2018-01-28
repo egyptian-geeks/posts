@@ -9,3 +9,103 @@ created_time: '2014-05-07T20:42:33+0000'
 updated_time: '2014-05-07T21:21:15+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/742735589099485/
 id: '172338516139198_742735589099485'
+comments:
+  data:
+  - created_time: '2014-05-07T20:46:01+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '1161014864034820'
+    message: |-
+      اهلا بيك ..
+
+      انا ببعت من الموبايل بتاعى حروف وارقام عن طريق ابليكشن معين ، وعايز اشوف ايه هى الحروف والارقام اللى بتتبعت دى على اللاب بتاعى ..
+    id: '742736522432725'
+  - created_time: '2014-05-07T20:48:46+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '1161014864034820'
+    message: مش فاهم قصدك ممكن توضح اكتر
+    id: '742737185765992'
+  - created_time: '2014-05-07T20:49:17+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: |-
+      اعتقد wireshark بيقدر يعمل capture للبلوتوث داتا
+      Ahmad Abd-Elghany اكيد وش بس, لو كان وش وضهر كان الضهر شاف الداتا وخلاص
+    id: '742737355765975'
+  - created_time: '2014-05-07T20:50:26+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: |-
+      Bluetooth capture setup
+
+      You can capture Bluetooth traffic to or from your machine on Linux in Wireshark with libpcap 0.9.6 and later, if the kernel includes the BlueZ Bluetooth stack; starting with the 2.4.6 kernel, the BlueZ stack was incorporated into the mainline kernel. If it's supported, and if you have sufficient privileges to capture, there will be interfaces named bluetoothN for various values of N starting with 0.
+    id: '742737665765944'
+  - created_time: '2014-05-07T20:55:18+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '1161014864034820'
+    message: |-
+      مفيش اى Commands ممكن تقوم بالموضوع ده
+      Kareem Kashwaa
+    id: '742739435765767'
+  - created_time: '2014-05-07T20:58:55+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: |-
+      ماعنديش فكره لو فيه حاجه ابسط من واير شارك, اعتقد البديل انك تكتب برنامج يعامل capture للداتا المبعوته من الموبايل,
+      لو وضحت اكتر انت عاوز تعمل ايه اعتقد الناس حاتقدر تساعك اكتر
+    id: '742740689098975'
+  - created_time: '2014-05-07T21:00:38+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: "وواير شارك بيشتغل من الكوماند لاين لو دا حايساعدك, راجع الموقع \nhttp://www.wireshark.org/docs/wsug_html_chunked/ChCustCommandLine.html"
+    id: '742741092432268'
+  - created_time: '2014-05-07T21:00:41+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '1161014864034820'
+    message: |-
+      تمام ، الموبايل بتاعى بيبعت حروف وارقام فى ابليكشن معين..
+      انا عايز استقبل الحروف والارقام دى عندى على الكمبيوتر ..
+      والعكس ابعت حروف وارقام من عندى من على الكمبيوتر واستقبلها على الموبايل
+    id: '742741105765600'
+  - created_time: '2014-05-07T21:05:44+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: في الحاله دي اكتب client/server يستقبل ويبعت الداتا... دور علي جوجل حاتلاقي
+      اللي انت عاوزه بالظبط
+    id: '742742782432099'
+  - created_time: '2014-05-07T21:06:26+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '1161014864034820'
+    message: شكرا ليك Kareem Kashwaa
+    id: '742742992432078'
+  - created_time: '2014-05-07T21:14:08+0000'
+    from:
+      name: Ibraheem Nour
+      id: '10160162930935160'
+    message: Watch###Bluetooth/$ent_mobile-laptopy
+    id: '742745482431829'
+  - created_time: '2014-05-07T21:16:42+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '1161014864034820'
+    message: what's this ? Ibraheem Nour
+    id: '742746172431760'
+  - created_time: '2014-05-07T21:21:15+0000'
+    from:
+      name: Ibraheem Nour
+      id: '10160162930935160'
+    message: 'Dan Linux command ... law tla3lak format C: type "Y” ± enter'
+    id: '742747732431604'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOelF5TnpNMk5USXlORE15TnpJMU9qRXpPVGswT1RVMU5qRT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOelF5TnpRM056TXlORE14TmpBME9qRXpPVGswT1RjMk56VT0ZD

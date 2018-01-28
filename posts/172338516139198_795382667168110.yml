@@ -11,3 +11,98 @@ updated_time: '2014-08-07T09:45:25+0000'
 name: 'Reconstructing Ruby, Part 1: Our First Lexer'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/795382667168110/
 id: '172338516139198_795382667168110'
+reactions:
+  data:
+  - id: '10215800137143118'
+    name: Mohamed Elnagar
+    type: LIKE
+  - id: '10156476353501062'
+    name: Tarik Ibrahim
+    type: LIKE
+  - id: '10214796374519514'
+    name: Islam AbdelMohaimen Hassan
+    type: LIKE
+  - id: '10215093583796418'
+    name: Muhammad Negm
+    type: LIKE
+  - id: '1823047314436316'
+    name: Ahmed Aboshanab
+    type: LIKE
+  - id: '10205205301673812'
+    name: Ahmed Shawky
+    type: LIKE
+  - id: '965203406986813'
+    name: Mohammed Al Ashaal
+    type: LIKE
+  - id: '10156207737619180'
+    name: Ahmed Al-Amir
+    type: LIKE
+  - id: '10214872286537392'
+    name: Ahmed Anwer Ezz El-Dien
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRRek5URTFNekEwT0RveE5EQTNORFEwTWpRMk9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRFek16a3hNakUyTlRveE5EQTNNems1TWpjMk9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2014-08-07T08:15:28+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: Now, that is hardcore. I got mixed feelings when I saw Flex, though.
+      Good stuff, but reminds me of horrible college days :)
+    id: '795383320501378'
+  - created_time: '2014-08-07T08:22:34+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: In college, I used a tool called pyggy (parser generator for Python).
+      We were able to finish the project faster than all the teams who used lex +
+      yacc. I was able to convince 2 other teams to use it & their result was good
+      as well. In the next year the TA responsible for the project told the students
+      that Python was not acceptable (your batch I believe Ahmed T. Al-Amir)
+    id: '795384997167877'
+  - created_time: '2014-08-07T08:29:48+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: I would need someone from my batch to confirm that, I hardly ever attended
+      :D
+    id: '795387177167659'
+  - created_time: '2014-08-07T08:42:03+0000'
+    from:
+      name: Khaled M. Diab
+      id: '10215626626127168'
+    message: |-
+      This is a bad start, the writer needs to define the language specifications and gives the big picture first. Usually, compiler implementation requires defining the language (in BNF format) and then work from there ... the main steps are lexical analysis (using lex or flex, the purpose of this article) and parser (something like yacc) ..
+      I don't consider this article as C implementation, it's more like using flex (and probably yacc or the like in future). Some of C implementation aspects will be memory management, efficient garbage collection, etc...
+    id: '795389473834096'
+  - created_time: '2014-08-07T08:42:19+0000'
+    from:
+      name: Khaled M. Diab
+      id: '10215626626127168'
+    message: but it reminds me with college anyway :D
+    id: '795389503834093'
+  - created_time: '2014-08-07T09:45:25+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: "my first lovely language \nhttps://github.com/blazeeboy/Sema-lang/blob/master/src/sema.par"
+    id: '795405793832464'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemsxTXpnek16SXdOVEF4TXpjNE9qRTBNRGN6T1Rrek1qZAz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemsxTkRBMU56a3pPRE15TkRZAME9qRTBNRGMwTURRM01qVT0ZD
+attachments:
+  data:
+  - description: 'halogenandtoast06 Aug 2014Reconstructing Ruby, Part 1: Our First
+      LexerPlease read my introduction to this series to find out more about it.The
+      first step in writing our implementation of Ruby is to create a lexer. What
+      is a lexer? The job of a lexer is to read your code and identify what we call
+      tok…'
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.halogenandtoast.com%2Freconstructing-ruby-our-first-lexer%2F&h=ATPGC0ZYRMf-Wc0EGd-Fgih0FVKzE8fke1hVb6rPUFfMT1WnLBibkfZko4PppcciRl1b0ZXk1gAk6I9Lm4CzB-7wJpzqI0R0HOpw&s=1&enc=AZONfZShY0zr2eZCGWQrXHGM7rCVCmF6vVZJJP2ET93T1E6D_FFbA7wx6vGO6MkY-N3MpihuQvqE9tD_9Ryu6o62
+    title: 'Reconstructing Ruby, Part 1: Our First Lexer'
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.halogenandtoast.com%2Freconstructing-ruby-our-first-lexer%2F&h=ATPGC0ZYRMf-Wc0EGd-Fgih0FVKzE8fke1hVb6rPUFfMT1WnLBibkfZko4PppcciRl1b0ZXk1gAk6I9Lm4CzB-7wJpzqI0R0HOpw&s=1&enc=AZONfZShY0zr2eZCGWQrXHGM7rCVCmF6vVZJJP2ET93T1E6D_FFbA7wx6vGO6MkY-N3MpihuQvqE9tD_9Ryu6o62

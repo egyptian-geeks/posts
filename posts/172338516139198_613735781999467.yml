@@ -11,3 +11,54 @@ updated_time: '2013-08-27T19:34:34+0000'
 name: JavascriptPromise
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/613735781999467/
 id: '172338516139198_613735781999467'
+reactions:
+  data:
+  - id: '10214861141222529'
+    name: Abdelrady Fcis
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRJME5qZA3lNelF4TVRveE16YzNOVGM0TURNNE9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRJME5qZA3lNelF4TVRveE16YzNOVGM0TURNNE9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2013-08-27T04:34:40+0000'
+    from:
+      name: Abdelrady Fcis
+      id: '10214861141222529'
+    message: "(Y)"
+    id: '613923195314059'
+  - created_time: '2013-08-27T19:32:28+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: I assume your comment is just joking. Well, in jQuery and Angular.JS,
+      AJAX calls return a promise object, which gets resolved when the call finishes.
+    id: '614224885283890'
+  - created_time: '2013-08-27T19:34:34+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      Note that promise API although has a standard in progress, is not always the same when implemented by different libraries. This video I recorded at SydJS usergroup in June shows what a promise is and how different libraries implement it:
+      http://www.youtube.com/watch?v=_sY9R68mhqI
+    id: '614225271950518'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOakV6T1RJek1UazFNekUwTURVNU9qRXpOemMxTnpnd09EQT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOakUwTWpJMU1qY3hPVFV3TlRFNE9qRXpOemMyTXpJd056UT0ZD
+attachments:
+  data:
+  - description: In Javascript, promises are objects which represent the pending result
+      of an asynchronous operation. You can use these to schedule further activity
+      after the asynchronous operation has completed by supplying a callback.
+    media:
+      image:
+        height: 349
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQCU_THoBW1EPhEA&w=349&h=349&url=http%3A%2F%2Fmartinfowler.com%2Fmf.jpg&cfs=1&sx=0&sy=0&sw=349&sh=349&_nc_hash=AQD-2ktT-5VrD9WL
+        width: 349
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fmartinfowler.com%2Fbliki%2FJavascriptPromise.html&h=ATNtXsKRsQBckHotdVKSui-hmaIpGoAmWnZqyndwqQlbDoEfRTJmZZOu81b0jTIa5Uut9G5tQBDzj28cZ02Mf26Zn0xvO2f9-udR&s=1&enc=AZPxF9GcCt3al1Y4SceB-uqXrsheSODXBTwkXXbfltu-O88SWjyGDJ6cMXMT4OwfbqOW95d7s_2FJccJqQ0ir6aW
+    title: JavascriptPromise
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fmartinfowler.com%2Fbliki%2FJavascriptPromise.html&h=ATNtXsKRsQBckHotdVKSui-hmaIpGoAmWnZqyndwqQlbDoEfRTJmZZOu81b0jTIa5Uut9G5tQBDzj28cZ02Mf26Zn0xvO2f9-udR&s=1&enc=AZPxF9GcCt3al1Y4SceB-uqXrsheSODXBTwkXXbfltu-O88SWjyGDJ6cMXMT4OwfbqOW95d7s_2FJccJqQ0ir6aW

@@ -8,3 +8,34 @@ created_time: '2012-11-19T22:43:23+0000'
 updated_time: '2012-11-20T00:05:54+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/486481828058197/
 id: '172338516139198_486481828058197'
+comments:
+  data:
+  - created_time: '2012-11-19T23:10:50+0000'
+    from:
+      name: Amr Adel
+      id: '10155421921532775'
+    message: http://ar.wikipedia.org/wiki/%D8%AA%D8%B5%D9%86%D9%8A%D9%81:%D9%85%D8%AF%D9%86_%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A7%D8%AA_%D9%85%D8%B5%D8%B1
+    id: '486489968057383'
+  - created_time: '2012-11-20T00:04:27+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      Oh, this is going to be fun time parsing this data :S
+
+      For example, when clicking on الشرقية, getting its cities was like:
+
+      $("#mw-pages").find("li > a").map(function() { return $(this).text();});
+
+      Having to go through all pages etc is the fun I talked about!
+    id: '486503788056001'
+  - created_time: '2012-11-20T00:05:54+0000'
+    from:
+      name: Waleed Mohamed
+      id: '10156649670631002'
+    message: thx
+    id: '486504141389299'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAORGcyTkRnNU9UWTRNRFUzTXpnek9qRXpOVE16TmpZAMk5UQT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAORGcyTlRBME1UUXhNemc1TWprNU9qRXpOVE16TmprNU5UUT0ZD

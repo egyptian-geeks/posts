@@ -9,3 +9,66 @@ created_time: '2014-03-30T00:36:52+0000'
 updated_time: '2014-03-30T01:31:29+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/722642847775426/
 id: '172338516139198_722642847775426'
+comments:
+  data:
+  - created_time: '2014-03-30T00:39:12+0000'
+    from:
+      name: Khaled M. Diab
+      id: '10215626626127168'
+    message: |-
+      you can't create an object from an abstract class ...
+      But you can create a reference:
+      MyAbstractClass ref = new MyConcreteClass()
+      Given that MyConcreteClass inherits MyAbstractClass
+    id: '722649707774740'
+  - created_time: '2014-03-30T00:54:45+0000'
+    from:
+      name: Aboubakr Gamal
+      id: '10215686755383013'
+    message: Actually you make object from child classes
+    id: '722652831107761'
+  - created_time: '2014-03-30T00:55:43+0000'
+    from:
+      name: Abdalla Elnaggar
+      id: '2096764887006623'
+    message: child that implements or extends
+    id: '722653034441074'
+  - created_time: '2014-03-30T00:56:31+0000'
+    from:
+      name: Aboubakr Gamal
+      id: '10215686755383013'
+    message: Both
+    id: '722653204441057'
+  - created_time: '2014-03-30T01:06:08+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: "What you likely see are anonymous interface implementations common in
+      event handlers. \nStill the rule applies, you can't instantiate an object from
+      an abstract class or an interface. \n\nYou can instantiate from a child that
+      extends an abstract class AND implements all its abstract methods (or you're
+      forced to declare that child as abstract as well and it in turn can't be instantiated)\n\nYou
+      can also instantiate from a non-abstract class that implements ALL methods of
+      an interface, your compiler will complain about partially implemented interfaces
+      without declaring a class as abstract."
+    id: '722654997774211'
+  - created_time: '2014-03-30T01:16:28+0000'
+    from:
+      name: Mohamed Moshrif
+      id: '1538447102877297'
+    message: Interface is not an abstract class. Interface is just a representation
+      of specific actions that a specific object can do, it doesn't implement how
+      these actions can be done. It basically used to define contracts between multiple
+      objects where each object could expect specific action to exist in a specific
+      class if it implements a given interface
+    id: '722657197773991'
+  - created_time: '2014-03-30T01:31:29+0000'
+    from:
+      name: Aboubakr Gamal
+      id: '10215686755383013'
+    message: Code contract
+    id: '722661057773605'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekl5TmpRNU56QTNOemMwTnpRd09qRXpPVFl4TXprNU5UST0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekl5TmpZAeE1EVTNOemN6TmpBMU9qRXpPVFl4TkRNd09Eaz0ZD

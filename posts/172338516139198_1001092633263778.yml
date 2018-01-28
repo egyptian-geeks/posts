@@ -7,3 +7,37 @@ created_time: '2015-09-03T21:33:16+0000'
 updated_time: '2015-09-03T21:35:36+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1001092633263778/
 id: '172338516139198_1001092633263778'
+comments:
+  data:
+  - created_time: '2015-09-03T21:35:36+0000'
+    from:
+      name: Mohammed Hussien
+      id: '10154922289347024'
+    message: Muhammad Tolba
+    id: '1001093273263714'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF3TVRBNU16STNNekkyTXpjeE5Eb3hORFF4TXpFMk1UTTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF3TVRBNU16STNNekkyTXpjeE5Eb3hORFF4TXpFMk1UTTIZD
+attachments:
+  data:
+  - description: |-
+      Free Spotify Users With Rooted Android Phones
+      This will enable unlimited skips and also allow you to choose the song to play
+      If you don't have Spotify installed in your Phone yet, download it from here : http://www.apkmirror.com/apk/spotify-ltd/spotify/
+      then download Xposed Installer from here
+      http://repo.xposed.info/module/de.robv.android.xposed.installer
+      Install the framework, then download & install this APK
+      http://repo.xposed.info/module/net.madnation.sskip
+      Enable the Module from Xposed
+      Reboot
+      Enjoy
+    media:
+      image:
+        height: 720
+        src: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/11151033_10207437135388172_442013645951759727_n.jpg?oh=1d1188ba165da60a61f249aeb556fd04&oe=5B216AD2
+        width: 716
+    target:
+      url: https://www.facebook.com/photo.php?fbid=10207437135388172&set=p.10207437135388172&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=10207437135388172&set=p.10207437135388172&type=3

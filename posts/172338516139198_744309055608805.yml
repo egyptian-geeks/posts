@@ -21,3 +21,55 @@ created_time: '2014-05-10T20:27:49+0000'
 updated_time: '2014-05-10T21:04:23+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/744309055608805/
 id: '172338516139198_744309055608805'
+comments:
+  data:
+  - created_time: '2014-05-10T20:33:43+0000'
+    from:
+      name: Muhammad Saleh
+      id: '10156649659196002'
+    message: |-
+      Grunt is not meant to update the reference in your HTML file
+      You should in your HTML file reference the output file
+    id: '744311115608599'
+  - created_time: '2014-05-10T20:35:30+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: |-
+      There is a Grunt task that replace
+
+      <!-- build:js scripts/plugins.js -->
+      <script src="scripts/file.js"></script>
+      <script src="scripts/another-file.js"></script>
+      <!-- endbuild -->
+
+      with
+      <script src="scripts/plugins.js"></script>
+
+      And it works perfectly well with HTML ... I am trying to get it to parse .jade files that's all
+    id: '744311542275223'
+  - created_time: '2014-05-10T20:38:19+0000'
+    from:
+      name: Muhammad Saleh
+      id: '10156649659196002'
+    message: That's nice I never used it before
+    id: '744312492275128'
+  - created_time: '2014-05-10T20:40:48+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: You should :) I create A LOT of HTML files daily ... my life was never
+      easier.
+    id: '744316085608102'
+  - created_time: '2014-05-10T21:04:23+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: |-
+      Found the solution ... I had to use usemin-patterns to allow usemin to parse .jade files ... https://www.npmjs.org/package/usemin-patterns
+      LOTS OF trials and errors but it worth it.
+    id: '744325425607168'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOelEwTXpFeE1URTFOakE0TlRrNU9qRXpPVGszTlRRd01qTT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOelEwTXpJMU5ESTFOakEzTVRZANE9qRXpPVGszTlRVNE5qTT0ZD

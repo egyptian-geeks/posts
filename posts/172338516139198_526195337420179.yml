@@ -11,3 +11,79 @@ updated_time: '2013-02-08T19:30:51+0000'
 name: Structuring Unit Tests
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/526195337420179/
 id: '172338516139198_526195337420179'
+reactions:
+  data:
+  - id: '10155819655346066'
+    name: Shady M. Najib
+    type: LIKE
+  - id: '10156476353501062'
+    name: Tarik Ibrahim
+    type: LIKE
+  - id: '10160105091405314'
+    name: Mohamed Elsherif
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRnM05EWXhNRFkxT2pFek5qQXpOVEU0TlRjNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TnpRd056WTFNekV6T2pFek5qQXhOREF5TmpjNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2013-02-06T08:42:57+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: Smart and simple, I achieve similar grouping using the TestGroup attribute
+      in Nunit so I can group related cases together, but this approach in the Phill
+      Haack blog is better
+    id: '526200260753020'
+  - created_time: '2013-02-07T09:04:45+0000'
+    from:
+      name: Mahmoud Ibrahim
+      id: '10155795206725831'
+    message: I do like this approach but some people consider it bad as you now have
+      nested classes in your test and I know that they are right in this point but
+      it makes organizing related tests very easy
+    id: '526645214041858'
+  - created_time: '2013-02-07T09:05:25+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: What's wrong with nested classes ?
+    id: '526645267375186'
+  - created_time: '2013-02-07T13:12:57+0000'
+    from:
+      name: Mahmoud Ibrahim
+      id: '10155795206725831'
+    message: "Well if you don't use CTRL+M CTRL+O it kindda makes the code hard to
+      read specially that \n\nmost people (at least the people i know) expect one
+      class per file and that's why I \n\nthink using public nested claases is not
+      good approache because if you are gonna make \n\npublic why don't you make it
+      in a seperate file?. But in the testing scenario once you \n\nget used to it.
+      It's nice"
+    id: '526705377369175'
+  - created_time: '2013-02-08T19:30:51+0000'
+    from:
+      name: Shady M. Najib
+      id: '10155819655346066'
+    message: "I don't finding that confusing. To me it's the same as using regions
+      but it has the extra benefits of \n1) Grouping of related tests\n2) Shorter
+      test names"
+    id: '527344983971881'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOVEkyTWpBd01qWXdOelV6TURJd09qRXpOakF4TkRBeE56Yz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOVEkzTXpRME9UZA3pPVGN4T0RneE9qRXpOakF6TlRFNE5URT0ZD
+attachments:
+  data:
+  - description: Phil Haack attempts to infuse technology and software development
+      with humor and a pragmatic eye... Attempts.
+    media:
+      image:
+        height: 508
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQDwj3DCtk6UmtlV&w=720&h=720&url=http%3A%2F%2Fhaacked.com%2Fimages%2Fhaacked_com%2FWindows-Live-Writer%2FStructuring-Unit-Tests_CF0E%2Funittests-spec_thumb.png&cfs=1&_nc_hash=AQDkejzQpADS8Nlb
+        width: 508
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fhaacked.com%2Farchive%2F2012%2F01%2F02%2Fstructuring-unit-tests.aspx&h=ATOfncnuqSPHH_-ZTsCc6m8QIJYbFVb-Rcs69VoGVTpKS51hsz9Rqfp6SVF0qFoNQAKNq54d_zme0YW2AowGoRtX67tEDwR9vSjC&s=1&enc=AZPTxJDI9wHcjXXcwJF9krZr-fo3-nQo8bUVJuAOmbI1hle38FLkMEj5BV3CCYg0YiegCrlV3Gt-OnN-DnL3FSY-
+    title: Structuring Unit Tests
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fhaacked.com%2Farchive%2F2012%2F01%2F02%2Fstructuring-unit-tests.aspx&h=ATOfncnuqSPHH_-ZTsCc6m8QIJYbFVb-Rcs69VoGVTpKS51hsz9Rqfp6SVF0qFoNQAKNq54d_zme0YW2AowGoRtX67tEDwR9vSjC&s=1&enc=AZPTxJDI9wHcjXXcwJF9krZr-fo3-nQo8bUVJuAOmbI1hle38FLkMEj5BV3CCYg0YiegCrlV3Gt-OnN-DnL3FSY-

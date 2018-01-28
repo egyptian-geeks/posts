@@ -8,3 +8,25 @@ created_time: '2015-09-02T15:57:06+0000'
 updated_time: '2015-09-02T18:05:05+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1000513839988324/
 id: '172338516139198_1000513839988324'
+comments:
+  data:
+  - created_time: '2015-09-02T18:03:30+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      If I remember correctly, you just need to push a view matrix.
+      To make the camera rotate you'd have to pop the view matrix, recreate it with a new rotation value, then push the new matrix.
+      and BTW if your scene has just once object, rotating the object will be the same as rotating the camera but in the opposite direction :D
+    id: '1000551606651214'
+  - created_time: '2015-09-02T18:05:05+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: 'side note: this is a very easy thing to google, and you should google
+      things before asking here.'
+    id: '1000552086651166'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF3TURVMU1UWXdOalkxTVRJeE5Eb3hORFF4TWpFM01ERXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF3TURVMU1qQTROalkxTVRFMk5qb3hORFF4TWpFM01UQTEZD

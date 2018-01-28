@@ -12,3 +12,124 @@ created_time: '2015-03-16T17:49:01+0000'
 updated_time: '2015-03-20T11:01:31+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/910319645674411/
 id: '172338516139198_910319645674411'
+reactions:
+  data:
+  - id: '895970407247426'
+    name: Ahmad Magdy
+    type: LIKE
+  - id: '1844415455578407'
+    name: Iligent Person
+    type: LIKE
+  - id: '1550774681686883'
+    name: Eslam Esmaeal
+    type: LIKE
+  - id: '1763959737010749'
+    name: Ahmed Mahmoud
+    type: LIKE
+  - id: '1892175991092416'
+    name: عبدالرحمن کداه
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTFNRE0wTWpRME5UQTBPakUwTWpZAMk1UazROVGs2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTVNREF4TURBd01UUXdPakUwTWpZAMU1qZA3pNek02TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2015-03-16T17:58:36+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: What is the response string you're getting? I mean the responseContent
+      variable you're getting?
+    id: '910325139007195'
+  - created_time: '2015-03-16T18:12:24+0000'
+    from:
+      name: Ahmed AL-Graihy
+      id: '10212862741738217'
+    message: "it is suppose to be JSON,  but what happened here is this line \n\nvar
+      response = await client.PostAsync(\"image\", contentPost);\n\ndoesn't return
+      \ any value (page waiting/loading) so, it blocks the remaining code from being
+      execute, and I didn't have the chance to check the value of  responseContent
+      variable."
+    id: '910344405671935'
+  - created_time: '2015-03-16T18:28:35+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: If you have a http debugger, like FIddler, you can see what is happening
+      on the wire, may be the picture is too big and it is being uploaded for a long
+      time.
+    id: '910351742337868'
+  - created_time: '2015-03-16T18:37:57+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: همممم، مش عارف، مش عاوز اكون غلس، بس مش ده سؤال فى كود و مكانه الأفضل
+      فى SOF ؟
+    id: '910355605670815'
+  - created_time: '2015-03-16T18:40:01+0000'
+    from:
+      name: Omar Mohsen
+      id: '1629690233758127'
+    message: was the image converted to a base64 string?
+    id: '910356372337405'
+  - created_time: '2015-03-16T20:10:37+0000'
+    from:
+      name: Ahmed AL-Graihy
+      id: '10212862741738217'
+    message: Omar Mohsen yes.
+    id: '910402742332768'
+  - created_time: '2015-03-17T06:49:15+0000'
+    from:
+      name: Eslam Hamouda
+      id: '10212947071504226'
+    message: |-
+      after a quick look on the API page, i guess the problem with the Request Header Content-Type value, the default is usually text/plain, and you are sending a base64 image data in the body so you need to make the Content-Type: application/x-www-form-urlencoded
+      and make the body similar to : "image={StringContent Here}"
+      + i guess you may need to use Uri.EscapeDataString(image);
+    id: '910616195644756'
+  - created_time: '2015-03-17T06:54:44+0000'
+    from:
+      name: Eslam Hamouda
+      id: '10212947071504226'
+    message: |-
+      after looking at this example : https://github.com/eirikb/gifie/blob/gh-pages/app.js
+      now i can see the problem is the API is expecting JSON data in the request body, so you need to make the Content-Type: application/json
+      and the body : {
+      image: "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      type: "base64"
+      }
+      * This works for me and uploaded a tiny 1x1 px gif image using cURL ;)
+    id: '910619125644463'
+  - created_time: '2015-03-17T20:18:46+0000'
+    from:
+      name: Ahmed AL-Graihy
+      id: '10212862741738217'
+    message: thank you Eslam, I will give it another try.
+    id: '910910772281965'
+  - created_time: '2015-03-20T11:01:31+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: 'Suggestion: dump JS and use Python, you will  get meaningful exceptions'
+    id: '912327125473663'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEV3TXpJMU1UTTVNREEzTVRrMU9qRTBNalkxTWpnM01UWT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEV5TXpJM01USTFORGN6TmpZAek9qRTBNalk0TkRreU9URT0ZD
+attachments:
+  data:
+  - description: "Hi guys, \nI am working on project that I need to upload image to
+      imgur.com, I wrote the method which do that, but it didn't work when it came
+      to posting part (actually no exception thrown or any types of warning appears)!
+      so, any suggestions?\nthanks."
+    media:
+      image:
+        height: 252
+        src: https://scontent.xx.fbcdn.net/v/t1.0-9/11048720_10204699131053052_4279136338652306494_n.jpg?oh=00a5567fcdf637b28cdb249d7d8d57bc&oe=5B24EF4A
+        width: 600
+    target:
+      id: '10204699131053052'
+      url: https://www.facebook.com/photo.php?fbid=10204699131053052&set=gm.910319645674411&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=10204699131053052&set=gm.910319645674411&type=3

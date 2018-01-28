@@ -11,3 +11,80 @@ updated_time: '2013-03-10T12:48:55+0000'
 name: Storing password in plain text, you’re doing it wrong «  Emad Mokhtar's Framework
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/539338402772539/
 id: '172338516139198_539338402772539'
+reactions:
+  data:
+  - id: '2167550119925504'
+    name: Mohamed Sameeh Sharaf
+    type: LIKE
+  - id: '10156476353501062'
+    name: Tarik Ibrahim
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdNVEUyTVRFMk56RTJPakV6TmpJNE16RTBPRFU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: Tnpjd01Ea3hNRFl4T2pFek5qSTRNVFl6T1RrNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2013-03-10T08:20:00+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      Nice article. Unfortunately I found that some people don't know a lot about passwords.
+
+      I suggest that you add a little explanation of what are the differences between bcrypt & sha1 hashing, so people know what they should use
+    id: '539851359387910'
+  - created_time: '2013-03-10T11:51:05+0000'
+    from:
+      name: Ahmed Saleh
+      id: '10159933379005574'
+    message: In encryption you can get back the decrypted password by knowing the
+      key, so the idea is where to store the key ?. however, while performing hashing
+      on a string, you can not get back to the original string.
+    id: '539906039382442'
+  - created_time: '2013-03-10T11:54:51+0000'
+    from:
+      name: Ahmed Saleh
+      id: '10159933379005574'
+    message: I would like to note also something about using hashing. You can get
+      collisions so easily ( a repeated hash), so you need to use open addressing,
+      or any methods that appears in algorithms books. Also using hashing is so fast,
+      o(1) or o(n) worst case, so its better to use it to look for people's passwords
+      in database instead of using their names..etc.
+    id: '539906889382357'
+  - created_time: '2013-03-10T12:46:09+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      1. Hashing passwords should be slow. If it's fast, it will be easier to break. Fast hashes (like MD5) are for file validation
+      2. If you use hashed password only for user lookup without using salt, you can log in if you write the password for _any_ user
+    id: '539920506047662'
+  - created_time: '2013-03-10T12:48:55+0000'
+    from:
+      name: Ahmed Saleh
+      id: '10159933379005574'
+    message: Mohammad Tayseer Sorry, I didn't clear it..I mean about fast is about
+      the searching or look up not about the way they are stored.
+    id: '539921449380901'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOVE01T0RVeE16VTVNemczT1RFd09qRXpOakk1TURNMk1EQT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOVE01T1RJeE5EUTVNemd3T1RBeE9qRXpOakk1TVRrM016VT0ZD
+attachments:
+  data:
+  - description: If you’re software developer then there is big chance you’ll implement
+      user login feature, and you must store the username and password in your system.
+      Most of developers stored these precious information in database as plain text,
+      yes we did include myself I was doing it wrong, and if you’re doing…
+    media:
+      image:
+        height: 282
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQCK5lBMOlZMYPCz&w=720&h=720&url=http%3A%2F%2Fwww.emadmokhtar.com%2Fwp-content%2Fuploads%2F2013%2F03%2F114166encryption.jpg&cfs=1&_nc_hash=AQBqiPgNUUrNofzc
+        width: 282
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.emadmokhtar.com%2F2013%2F03%2Fstoring-password-in-plain-text-youre-doing-it-wrong%2F&h=ATNmqkvF2XjGYLw34AVNzV3XqIWOdT6iSdqPvurKS-XFMv7JJlOvWAcd-AGNSB59-ydRtRvnLR7EIFyCT8FTuw8LXD6Z__DXpEzY&s=1&enc=AZMBbi1IiGt8yV8WrkXY7sfbTbbH-eXwR3AC-NAPp-nPb0Sfp9YpSgGBZaX6aVwd9Rz3zuA5N-Qt1dL1vuoVZkjx
+    title: Storing password in plain text, you’re doing it wrong «  Emad Mokhtar's
+      Framework
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.emadmokhtar.com%2F2013%2F03%2Fstoring-password-in-plain-text-youre-doing-it-wrong%2F&h=ATNmqkvF2XjGYLw34AVNzV3XqIWOdT6iSdqPvurKS-XFMv7JJlOvWAcd-AGNSB59-ydRtRvnLR7EIFyCT8FTuw8LXD6Z__DXpEzY&s=1&enc=AZMBbi1IiGt8yV8WrkXY7sfbTbbH-eXwR3AC-NAPp-nPb0Sfp9YpSgGBZaX6aVwd9Rz3zuA5N-Qt1dL1vuoVZkjx

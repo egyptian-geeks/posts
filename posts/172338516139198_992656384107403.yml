@@ -5,9 +5,40 @@ from:
   name: Anas Rabei
   id: '771652519692786'
 type: link
-picture: https://external.xx.fbcdn.net/safe_image.php?d=AQDS9fgbwur_otgA&w=130&h=130&url=https%3A%2F%2Fengineering.pinterest.com%2Fsites%2Fengineering%2Ffiles%2FScreen%2520Shot%25202015-08-17%2520at%25204.34.12%2520PM.png&cfs=1&_nc_hash=AQCGGwu40L5m6UH1
+picture: https://external.xx.fbcdn.net/safe_image.php?w=130&h=130&url=https%3A%2F%2Fengineering.pinterest.com%2Fsites%2Fengineering%2Ffiles%2FScreen%2520Shot%25202015-08-17%2520at%25204.34.12%2520PM.png&cfs=1&_nc_hash=AQD6zR3q7dpBCVlj
 created_time: '2015-08-20T07:30:11+0000'
 updated_time: '2015-08-20T07:30:11+0000'
 name: 'Sharding Pinterest: How we scaled our MySQL fleet'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/992656384107403/
 id: '172338516139198_992656384107403'
+reactions:
+  data:
+  - id: '10159857675500183'
+    name: Mahmoud Said
+    type: LIKE
+  - id: '10215093583796418'
+    name: Muhammad Negm
+    type: LIKE
+  - id: '1924463681203785'
+    name: Kareem Muhammad
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRVME1UUTFNVGd5T2pFME5EQXdPREF6TWprNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQTVNakExTVRZAMk5UUXlPakUwTkRBd05UWTVPREE2TWpVME1EazJNVFl4TXc9PQZDZD
+attachments:
+  data:
+  - description: "“Shard. Or do not shard. There is no try.”                                           -
+      Yoda   This is a technical dive into how we split our data across many MySQL
+      servers. We finished launching this sharding approach in early 2012, and it’s
+      still the system we use today to store our core data. Befo…"
+    media:
+      image:
+        height: 513
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQBDOeY65tpDOeXH&w=720&h=720&url=https%3A%2F%2Fengineering.pinterest.com%2Fsites%2Fengineering%2Ffiles%2FScreen%2520Shot%25202015-08-17%2520at%25204.34.12%2520PM.png&cfs=1&_nc_hash=AQA1mkaUYbY8h1Zc
+        width: 513
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fengineering.pinterest.com%2Fblog%2Fsharding-pinterest-how-we-scaled-our-mysql-fleet&h=ATOxReMiz_DtVXMTdV_cecaalLvFOI4AvfGVthCEuOIwJn1FefKA0_Oo63yn1a_Z8z6SrWUHVdzf6zF3_HRz_elNbXdJZrxQQZao&s=1&enc=AZOvJiEROJkfXOg0e4yFYpt-FfrjiHqlYvhlqqoP0xZcZqiWHMx1yGPubOpvd2L9ZFrSCXhEggFyc_7wKKO8SKLX
+    title: 'Sharding Pinterest: How we scaled our MySQL fleet'
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fengineering.pinterest.com%2Fblog%2Fsharding-pinterest-how-we-scaled-our-mysql-fleet&h=ATOxReMiz_DtVXMTdV_cecaalLvFOI4AvfGVthCEuOIwJn1FefKA0_Oo63yn1a_Z8z6SrWUHVdzf6zF3_HRz_elNbXdJZrxQQZao&s=1&enc=AZOvJiEROJkfXOg0e4yFYpt-FfrjiHqlYvhlqqoP0xZcZqiWHMx1yGPubOpvd2L9ZFrSCXhEggFyc_7wKKO8SKLX

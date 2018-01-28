@@ -8,3 +8,50 @@ created_time: '2015-01-29T10:53:01+0000'
 updated_time: '2015-01-30T15:52:09+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/887795077926868/
 id: '172338516139198_887795077926868'
+reactions:
+  data:
+  - id: '1532825676787208'
+    name: Mohamed Badawi
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhOemt6TnpBNE56TXhPakUwTWpJM01qQTFNamM2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXhOemt6TnpBNE56TXhPakUwTWpJM01qQTFNamM2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2015-01-29T11:04:27+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: الكود اللي لازم يتكتب رغم انه ملوش علاقة مباشرة باللوجيك بتاع السوفتوير
+      بتاعك. ابسط مثال على كدة الsetters/getters. بتبقى حاجة رخمة و طويلة في كتابتها
+      خصوصا لو عندك models كتير. في tools طبعا بتخلصك من كتابة الboilerplate، و في
+      لغات بتسهل ده من نفسها، زي مثلا {get; set;} في C#
+    id: '887798011259908'
+  - created_time: '2015-01-30T11:30:54+0000'
+    from:
+      name: Adel K. Khalil
+      id: '10159958402365584'
+    message: Authentication, logging, data access...etc.
+    id: '888216394551403'
+  - created_time: '2015-01-30T11:53:09+0000'
+    from:
+      name: Fady Anwar
+      id: '10159888022555052'
+    message: Boiler plate expression comes from a cooking technique where you mold
+      an object like a buscuite into a certain form using a plate with a pre design..
+      it's used to descripe coders using ready made templates implementing certain
+      design patters without understanding the principles behind it.. for example
+      10 years ago software companies in Egypt used to worship the 3 tier design which
+      wasn't suitable for every project and that is boiler plating my friend..
+    id: '888222771217432'
+  - created_time: '2015-01-30T15:52:09+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: كود حشو مضطر تكتبه
+    id: '888297347876641'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGczTnprNE1ERXhNalU1T1RBNE9qRTBNakkxTWprME5qYz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGc0TWprM016UTNPRGMyTmpReE9qRTBNakkyTXpNeE1qaz0ZD

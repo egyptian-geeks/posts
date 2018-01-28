@@ -12,3 +12,128 @@ created_time: '2014-02-21T01:05:33+0000'
 updated_time: '2014-02-22T05:59:55+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/704245379615173/
 id: '172338516139198_704245379615173'
+reactions:
+  data:
+  - id: '2002017776732077'
+    name: تعب كلها الحياة
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTNOekUyTWpFMU9URTNPakV6T1RNd01UUXhORGc2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTNOekUyTWpFMU9URTNPakV6T1RNd01UUXhORGc2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2014-02-21T02:28:48+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: ":D لسة ياعم البوست من ساعة"
+    id: '704269626279415'
+  - created_time: '2014-02-21T17:38:59+0000'
+    from:
+      name: Emad Shaaban
+      id: '1483867968332898'
+    message: "غطست جوه و جبتلنا مسئلة سهلة بردو :D \nحليتها حل مباشر و بسيط بس مش
+      عاجبني :D .. هفكرلها في حل تاني يكون بينفع مع input اكبر و احطه"
+    id: '704547112918333'
+  - created_time: '2014-02-21T18:28:38+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: طب فين الكود ؟ عادى حط الإتنين :) خللى الناس تشوفه و تinspire منه
+    id: '704562492916795'
+  - created_time: '2014-02-21T18:50:37+0000'
+    from:
+      name: Emad Shaaban
+      id: '1483867968332898'
+    message: "ده الحل المباشر \nبياخد 0.017 ثانية .. و بال caching بينزل ل 0.012 \nبس
+      بيتعب اوي لو حاولنا نزود n ل 1000 \n\nhttps://gist.github.com/emadshaaban92/9140651"
+    id: '704570009582710'
+  - created_time: '2014-02-21T18:53:10+0000'
+    from:
+      name: Emad Shaaban
+      id: '1483867968332898'
+    message: "و ده الحل اللي مش مباشر اوي \nبياخد 0.003 ثانية \nو بيقدر يوصل للحل
+      لو n وصلت ل 1000 في 0.5 ثانية\n\nhttps://gist.github.com/emadshaaban92/9140730"
+    id: '704570782915966'
+  - created_time: '2014-02-21T18:55:45+0000'
+    from:
+      name: Emad Shaaban
+      id: '1483867968332898'
+    message: الحل الاخير ده فكرته اني بحسب ncr من اللي قبلها بدل ماحسب كل مرة من الاول
+    id: '704571496249228'
+  - created_time: '2014-02-21T20:05:27+0000'
+    from:
+      name: Emad Shaaban
+      id: '1483867968332898'
+    message: |-
+      with ifliter instead of filter
+      I can save memory to get the result even if MAX N = 10000
+      Although it takes 242 seconds :D
+    id: '704596372913407'
+  - created_time: '2014-02-21T20:06:19+0000'
+    from:
+      name: Emad Shaaban
+      id: '1483867968332898'
+    message: هقوم اتفرج علي باسم و ارجع اجرب احلها ب Go
+    id: '704596589580052'
+  - created_time: '2014-02-21T23:01:12+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: |-
+      Brute Force works fine :)
+      https://github.com/bashmohandes/ProjectEuler/blob/master/Problem_53.py
+
+      Runs in 0.03 secs on my Linux box
+    id: '704698072903237'
+  - created_time: '2014-02-22T00:33:41+0000'
+    from:
+      name: Emad Shaaban
+      id: '1483867968332898'
+    message: |-
+      Go Solution
+      https://gist.github.com/emadshaaban92/9146646
+    id: '704736076232770'
+  - created_time: '2014-02-22T00:37:02+0000'
+    from:
+      name: Emad Shaaban
+      id: '1483867968332898'
+    message: "معنديش Go Compiler على جهازي فشغلته هنا \nhttp://play.golang.org/p/3ECNm5uR3k\n\nبس
+      يبدو ان ال timer مش متظبط عال playground ده .. او انا بقيسه غلط .. هي عموما
+      دي اول مرة اكتب Go .. بس واضح ان اختراع ال channel ده لطيف جدا"
+    id: '704737362899308'
+  - created_time: '2014-02-22T04:49:25+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: |-
+      OCaml solution with an execution time avg. of 0m0.441s wall clock time, tested on a sample of 15 runs with the unix time command.
+      https://gist.github.com/l0gicpath/9148851
+    id: '704813926224985'
+  - created_time: '2014-02-22T05:59:55+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: "**SPOILER ALERT** \nLooking up some interesting solution, this blog
+      post has a very nice efficient solution using Pascal Triangle.\nhttp://www.mathblog.dk/project-euler-53-cnr-exceed-one-million/"
+    id: '704830342890010'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekEwTWpZANU5qSTJNamM1TkRFMU9qRXpPVEk1TkRrM01qZAz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekEwT0RNd016UXlPRGt3TURFd09qRXpPVE13TkRnM09UVT0ZD
+attachments:
+  data:
+  - description: "حفلة الأسبوع :) \nالمسألة كالتالى : http://projecteuler.net/problem=53\nانا
+      عملت skip للمسائل اللى فى البداية علشان الموضوع يكون اصعب :D بناء على طلب المشاهدين.\nربنا
+      يقويكوا :D"
+    media:
+      image:
+        height: 540
+        src: https://scontent.xx.fbcdn.net/v/t1.0-0/p180x540/1932205_10151952947587957_2095102580_n.jpg?oh=10ffd769d78c8bcc79210eb129086c3c&oe=5AD8FD95
+        width: 720
+    target:
+      id: '10151952947587957'
+      url: https://www.facebook.com/photo.php?fbid=10151952947587957&set=gm.704245379615173&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=10151952947587957&set=gm.704245379615173&type=3

@@ -21,3 +21,148 @@ created_time: '2015-08-09T12:39:17+0000'
 updated_time: '2015-08-09T20:56:00+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/987302837976091/
 id: '172338516139198_987302837976091'
+reactions:
+  data:
+  - id: '1324134847732844'
+    name: Ramy Medhat Ahmed
+    type: LIKE
+  - id: '1282305855203832'
+    name: Mohamed Hesham Alma'zon
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTBNRGt3TWpVME1USXdPakUwTXpreE1qYzRPVFk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlOek15T0RneU9EYzJPakUwTXpreE1qUTRPVEE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2015-08-09T13:09:18+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: |-
+      While writing stuff from scratch and getting your hands dirty is a good (best?) way of learning, it is usually very expensive in the real world.
+
+      At the top of my head there is the issue of stability; why write something from scratch and waste time testing it (or worse, not test it) if there is another product that had a chance to evolve and correct its course?
+
+      As is the case with anything software, there is not a magical solution that fits everything, and there are indeed cases where nothing available is suitable, but those are usually rare and "specialized" cases.
+
+      I would google the term "dry principle", the first few hits are good reads, specially the wikipedia article and its see-also section.
+    id: '987316134641428'
+  - created_time: '2015-08-09T13:14:40+0000'
+    from:
+      name: Mohammed Tareq
+      id: '10156301540910466'
+    message: You clearly answered your question, it all falls down on the time of
+      delivery factor, i mean if you have a tight deadline you won't go and be "imma
+      write my own html parsing library" instead of using beautiful-soup, that would
+      be destructive to your delivery time.
+    id: '987317391307969'
+  - created_time: '2015-08-09T13:23:23+0000'
+    from:
+      name: Ahmed Mozaly
+      id: '10155321930231313'
+    message: "كتير من المبرمجين *في بدايتهم* بيحبوا ينزلوا لأقل مستوى ممكن في شغلهم
+      بدون الاستعانه بالمكتبات أو المنصات الجاهزة عشان يتعلموا يعملوا شغل من الأول
+      للآخر بنفسهم .. وديه مرحلة  كويسة .. بس الاستمرار فيها فترة طويلة هيكون مش بس
+      عملية مرهقة .. مكلفة أكتر كمان\n\nالمبرمج لا يتم تعيينه لكتابة كود جميل في المقام
+      الأول .. الهدف الأساسي ان اللي تكتبه يكون سبب في نجاح الشركة/الكيان اللي هيستعمل
+      البرنامج .. والاستعانة بالمكتبات أو المنصات  \"الموثوق منها\" أسرع وأرخص من
+      كتابة كل حاجة من الأول خاصة إن طلب منك حاجات خاصة بالتأمين والحماية البرمجية\n\nأخيراً
+      \n“If you wish to make an apple pie from scratch, you must first invent the
+      universe.”\n-- Carl Sagan"
+    id: '987319071307801'
+  - created_time: '2015-08-09T13:25:54+0000'
+    from:
+      name: Ashraf Kaabi
+      id: '10156258607755921'
+    message: |-
+      You have to trust community are much stronger than single user, out there they are very strong frameworks much advanced and betters than you can build alone, if you need to do things from scratch you still can do it for learning and also for implementing it to one of your choices frameworks as library, module or addon. and top of all with your current experience you can decide which framework will suit you more, you could measure it by community size, license type & standards/philosophy they following.
+
+      and in business industry most of small to mid size companies are using opensource framework to done their projects.
+    id: '987320024641039'
+  - created_time: '2015-08-09T13:47:37+0000'
+    from:
+      name: Mahmoud Mohamed Zakria
+      id: '10215522601159616'
+    message: "Ahmed Al-Amir you said \" and there are indeed cases where nothing available
+      is suitable, but those are usually rare and \"specialized\" cases.\" \n\nsorry
+      i didn't get it well"
+    id: '987327954640246'
+  - created_time: '2015-08-09T14:01:15+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: "I will cite a project that I worked on about 7 years ago: an Arabic
+      search engine that supports morphological analysis. Nothing in the market at
+      the time was available and nearly everything needed to be written from scratch.
+      \n\nBut as you see, this is not common. And even in my case, once the product
+      was finished, I spent the following couple of years in the same company stitching
+      existing code together."
+    id: '987333624639679'
+  - created_time: '2015-08-09T14:02:49+0000'
+    from:
+      name: Mahmoud Mohamed Zakria
+      id: '10215522601159616'
+    message: "Ahmed Mozaly الإستمرار فيها فترة طويلة هتبقي عملية مرهقة ومكلفة اوك
+      كلام صحيح بس ده في حالة اني في كل مرة بعيد صياغة الشئ من اوله \nمش بحفظ الحاجة
+      عندي as snippets\nلكن في حالة لو بحفظ الحاجة عندي ده مرة علي مرة هلاقي كمية
+      functions w methods\nتقدر تعملي حاجات كتيرة وممكن من خلالها اكتسب logic رائع
+      ... مش ده هي هي بالمقارنة لما اجي اعتمد علي مكتبات جاهزة حتي علي الاقل ؟؟\nطيب
+      المبرمج لا يتم تعيينه لكتابة كود جميل في المقام الأول ... انا ماتكلمتش عن code
+      quality مع ان ده يعني اكيد كلنا متفقين عليها انها اساسية طبعاً بس بتكلم هل انت
+      بتعرف تكتب كود أصلاً ولا لا ؟"
+    id: '987334167972958'
+  - created_time: '2015-08-09T14:28:53+0000'
+    from:
+      name: Hisham Fangary
+      id: '10156660518155839'
+    message: Ahmed Mozaly You get an autmatic like from me just because you quoted
+      Carl Sagan.
+    id: '987344947971880'
+  - created_time: '2015-08-09T15:19:24+0000'
+    from:
+      name: Ahmed Mozaly
+      id: '10155321930231313'
+    message: "Mahmoud Mohamed Zakria making an assumption that every project you will
+      work on, will be in your \"Technical Comfort Zone\" is not the most right assumption
+      \n\nyou may (and you will) work on projects with different technologies than
+      you are comfortable with,\n\nso we all should be ready to take the right decisions
+      to get job done, which may not be 'create everything from scratch'\n\nfinally
+      (again :))\n\"if all you have is a hammer, everything looks like a nail.\"\n--
+      Abraham Maslow"
+    id: '987365411303167'
+  - created_time: '2015-08-09T15:31:04+0000'
+    from:
+      name: Hisham Fangary
+      id: '10156660518155839'
+    message: |-
+      By all means, create your own functions and methods and even classes if you are working on a small or mid sized project, if anything because it will be a learning experience.
+
+      But that's not why or where people use existing libraries or frameworks, they use libraries/frameworks because they often contain hundreds of packages that contain hundreds of classes that should - and often do - cover all your needs in a particular area.
+
+      Like if you are going to draw a circle on the screen that flashes red and blue, by all means program that whole thing yourself.
+
+      But if you are going to create a UI with advanced graphics, or a video game with a 3d environment, you better download an advanced graphics library/framework. In fact, many companies license the professional graphics engines/libraries/framework for thousands of dollars.
+      Also, these libraries come in really handy if you want to create that same red circle flashing blue, but your employer gave you only 5 minutes to do it.
+    id: '987368521302856'
+  - created_time: '2015-08-09T17:03:01+0000'
+    from:
+      name: Mahmoud Mohamed Zakria
+      id: '10215522601159616'
+    message: a lot of thanks for your advises guys i appreciate it  .
+    id: '987434447962930'
+  - created_time: '2015-08-09T20:56:00+0000'
+    from:
+      name: Abdelrahman Aly Abounegm
+      id: '1761499490527755'
+    message: انا عن نفسي كنت بعمل مشروع بسيط أوي بالarduino من فترة، و كنت عامل فيه
+      keypad و password. دول موجودين كlibraries جاهزة، بس في نفس الوقت عملهم من الأول
+      مش صعب خالص. اللي عملته بقى اني اخدت الlibraries دي و فتحتها و قريت كل الكود
+      بتاعها، و اتأكدت انها تمام، و زودت حته function بسيطة كده كمان. من الآخر، :D
+      انا معنديش مشكلة استخدم اي حاجة جاهزة، بس ابقى واثق فيها و عارف اني أقدر اعملها
+      بنفسي و لو أقدر افتحها أقرأ الsource بتاعها يكون أحسن.
+    id: '987578997948475'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVGczTXpFMk1UTTBOalF4TkRJNE9qRTBNemt4TWpVM05UZAz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVGczTlRjNE9UazNPVFE0TkRjMU9qRTBNemt4TlRNM05qQT0ZD

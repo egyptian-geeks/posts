@@ -9,3 +9,56 @@ created_time: '2014-08-11T01:35:36+0000'
 updated_time: '2014-08-11T14:09:02+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/797578896948487/
 id: '172338516139198_797578896948487'
+comments:
+  data:
+  - created_time: '2014-08-11T01:47:29+0000'
+    from:
+      name: Fouad Abd ELrazek
+      id: '10215316053233596'
+    message: اعمل جدول فى الداتا بيز و اتحكم فى مدخلاته بفورم من لوحة التحكم و اعرضهم
+      فى الــ Select Box
+    id: '797582926948084'
+  - created_time: '2014-08-11T02:06:29+0000'
+    from:
+      name: Hany Mohsen
+      id: '797367337115380'
+    message: مفهمتش اوي بس هو مفيش مثلا function للوردبريس ؟
+    id: '797589590280751'
+  - created_time: '2014-08-11T05:30:06+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: http://www.advancedcustomfields.com/
+    id: '797646423608401'
+  - created_time: '2014-08-11T07:38:59+0000'
+    from:
+      name: Hany Mohsen
+      id: '797367337115380'
+    message: انا اقصد دي http://codex.wordpress.org/Function_Reference/wp_dropdown_pages
+    id: '797677936938583'
+  - created_time: '2014-08-11T07:39:07+0000'
+    from:
+      name: Hany Mohsen
+      id: '797367337115380'
+    message: عملتها بس ال style راح مني
+    id: '797677960271914'
+  - created_time: '2014-08-11T07:43:18+0000'
+    from:
+      name: Hany Mohsen
+      id: '797367337115380'
+    message: ال style رجع لل default
+    id: '797681066938270'
+  - created_time: '2014-08-11T14:09:02+0000'
+    from:
+      name: Mohamed Ali Abuelwafa
+      id: '10215282097155427'
+    message: |-
+      for the controlling from WP admin part, you can create a custom admin page and use the WP settings api to save the options you create to the database. reference tutorial: http://www.sitepoint.com/wordpress-options-panel/
+      if your options are specific to a post type and not the theme, then you would need to create custom metaboxes. reference tutorial: http://code.tutsplus.com/tutorials/how-to-create-custom-wordpress-writemeta-boxes--wp-20336
+
+      I recommend creating above things from scratch for learning purpose and knowing the api well before giving up and using the advanced custom fields plugin or even better building your own wordpress framework.
+    id: '797807643592279'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemszTlRneU9USTJPVFE0TURnME9qRTBNRGMzTWpFMk5Eaz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemszT0RBM05qUXpOVGt5TWpjNU9qRTBNRGMzTmpZAeE5EST0ZD

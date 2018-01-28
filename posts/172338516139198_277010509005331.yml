@@ -11,3 +11,19 @@ updated_time: '2011-10-30T18:41:38+0000'
 name: Blog of Metrics
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/277010509005331/
 id: '172338516139198_277010509005331'
+attachments:
+  data:
+  - description: "   SELECT ds, dnt_type,  count(distinct ip_address)  FROM web_logs
+      WHERE (request_url LIKE ‘%Firefox/4.0%’ OR request_url LIKE ‘%Firefox/5.0%’
+      OR request_url LIKE ‘%Firefox/6.0%’) AND dnt_type != ‘DNT:1, 1′ AND ds = ‘$dateTime’
+      GROUP BY ds, dnt_type ORDER BY ds desc;"
+    media:
+      image:
+        height: 720
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQCphAeiADDKaghw&w=720&h=720&url=http%3A%2F%2Fblog.mozilla.com%2Fuserresearch%2Ffiles%2F2011%2F08%2Fnavigation_methods.png&cfs=1&_nc_hash=AQD-wzsqwFm4uRNy
+        width: 720
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fblog.mozilla.com%2Fmetrics%2F&h=ATPSdbs0hU7XWRkeVQ3N9YlFSRBZLY3COVSYhfTINpvqwZDOxKriH0q2XwSDXW6m2N8aQE5jsk2ImlrW_YkZ-n1yBfvNdzo1Kwts&s=1&enc=AZOQPgTG1ciIcpyLaT1kOPHr2hLaI0SFmfIzt0lSXWd5O4UhFlQ1zjutDpsO1bWLW7HVF5N3inIbaVQCPuDX6Ibr
+    title: Blog of Metrics
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fblog.mozilla.com%2Fmetrics%2F&h=ATPSdbs0hU7XWRkeVQ3N9YlFSRBZLY3COVSYhfTINpvqwZDOxKriH0q2XwSDXW6m2N8aQE5jsk2ImlrW_YkZ-n1yBfvNdzo1Kwts&s=1&enc=AZOQPgTG1ciIcpyLaT1kOPHr2hLaI0SFmfIzt0lSXWd5O4UhFlQ1zjutDpsO1bWLW7HVF5N3inIbaVQCPuDX6Ibr

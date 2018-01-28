@@ -11,3 +11,84 @@ created_time: '2015-03-16T19:33:44+0000'
 updated_time: '2015-03-16T21:23:12+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/910377195668656/
 id: '172338516139198_910377195668656'
+comments:
+  data:
+  - created_time: '2015-03-16T19:34:59+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: |-
+      Simpy if you want it to work on Macosx and Linux and widnows use gtk or wxwidgets
+      if you don't care about osx and linux then go windows api
+    id: '910377535668622'
+  - created_time: '2015-03-16T19:50:09+0000'
+    from:
+      name: Diaa Sami
+      id: '10215834435679186'
+    message: I suggest wxWidgets, high-level and you'll get native look and behavior
+      (in addition to being cross-platform).
+    id: '910382995668076'
+  - created_time: '2015-03-16T19:56:49+0000'
+    from:
+      name: Mohamed Gamal
+      id: '10156096685587328'
+    message: Does wxWidgets work with C ?
+    id: '910387372334305'
+  - created_time: '2015-03-16T19:59:08+0000'
+    from:
+      name: Diaa Sami
+      id: '10215834435679186'
+    message: C++
+    id: '910389525667423'
+  - created_time: '2015-03-16T19:59:17+0000'
+    from:
+      name: Usama Fayez
+      id: '10155807421830280'
+    message: Never use the native Windows API or even MFC. Use Qt or GTK+
+    id: '910389589000750'
+  - created_time: '2015-03-16T20:12:45+0000'
+    from:
+      name: Mohamed Ayman
+      id: '10211045513280796'
+    message: "Gtk+ \nEasy to use with some good documentations and tutorials, mobility
+      due to being cross platform and open source :D"
+    id: '910403348999374'
+  - created_time: '2015-03-16T20:19:58+0000'
+    from:
+      name: Diaa Sami
+      id: '10215834435679186'
+    message: I've researched this a lot previously and I always chose wxWidgets for
+      two things, the first being native look and behavior and the second being binary
+      size (the second choice which is Qt, is much larger)
+    id: '910405385665837'
+  - created_time: '2015-03-16T20:38:43+0000'
+    from:
+      name: Mohamed Ayman
+      id: '10211045513280796'
+    message: Guys it's C based not cpp
+    id: '910412585665117'
+  - created_time: '2015-03-16T20:59:39+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: |-
+      Why are you asking for efficiency? The bottleneck will never be drawing the GUI, it's always the user.
+      That said in the long run, learning C++ with Qt would be the best if you want to do GUIs that are easily interacting with C.
+      If you plan on continuing Windows GUI development, you should know your way around the WinAPI too, so you might as well start learning it in your current project.
+      GTK+ Is also good but looks too ugly (unnative) for my taste.
+
+      Disclaimer: I don't do UIs in C.
+    id: '910419442331098'
+  - created_time: '2015-03-16T21:23:12+0000'
+    from:
+      name: Ahmed Saleh
+      id: '10159933379005574'
+    message: Which platform do you want to cover? BTW, Language has nothing to do
+      with the GUI API. If you have access to the framebuffe of the GPU or software
+      renderer using the CPU, you can write your own GUI. Use a library that is cross-platform
+      like Qt.
+    id: '910425868997122'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEV3TXpjM05UTTFOalk0TmpJeU9qRTBNalkxTXpRME9Uaz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEV3TkRJMU9EWTRPVGszTVRJeU9qRTBNalkxTkRBNU9UST0ZD

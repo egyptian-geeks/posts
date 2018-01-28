@@ -14,3 +14,113 @@ created_time: '2014-08-08T09:47:07+0000'
 updated_time: '2014-08-08T16:04:50+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/796000190439691/
 id: '172338516139198_796000190439691'
+reactions:
+  data:
+  - id: '2028856183798810'
+    name: Hossam Daoud
+    type: LIKE
+  - id: '1346421922169729'
+    name: مصطفى الاسلامبولى
+    type: LIKE
+  - id: '1534801716637376'
+    name: Ahmed Osman
+    type: LIKE
+  - id: '10214080331513711'
+    name: Ebram Tharwat
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdNak16TkRRM016VTVPakUwTURjNE5EUTBNalU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRVM05Ea3hNemswTlRveE5EQTNORGt4TlRNeE9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2014-08-08T11:00:25+0000'
+    from:
+      name: Khaled Rashad
+      id: '10155025067907484'
+    message: I haven't dealt with something like this before, but I guess you need
+      some sort of bucket search approach. You need to find some property to bucketize
+      the images offline (ie size, dimension, histograms, hashing pixel values, etc),
+      this way you will filter out most of the images and end up searching small number
+      of images in real time.
+    id: '796025263770517'
+  - created_time: '2014-08-08T11:12:57+0000'
+    from:
+      name: Mohammed Ragab
+      id: '2020898428198432'
+    message: Khaled Rashad "great" but Accuracy is very important factor for me in
+      this process
+    id: '796038280435882'
+  - created_time: '2014-08-08T11:57:26+0000'
+    from:
+      name: Khaled Rashad
+      id: '10155025067907484'
+    message: The buckets just help you to quickly filter out the irrelevant ones.
+      Once you nail down the relevant bucket, you can search them to find the similar
+      images.
+    id: '796051677101209'
+  - created_time: '2014-08-08T12:58:53+0000'
+    from:
+      name: Ahmed Osman
+      id: '10156632909083484'
+    message: whats the criteria for the comparison? Two images are exactly the same?
+    id: '796071620432548'
+  - created_time: '2014-08-08T13:03:24+0000'
+    from:
+      name: Mohammed Ragab
+      id: '2020898428198432'
+    message: Ahmed Osman Someone snapped a picture of someone somewhere, and someone
+      else picked up the picture of the same person in another place
+    id: '796072937099083'
+  - created_time: '2014-08-08T13:17:54+0000'
+    from:
+      name: Ahmed Osman
+      id: '10156632909083484'
+    message: There isn't an optimal solution way for this problem, its still an unsolved
+      problem and a topic of research.  If the subject of comparison is a face, then
+      you could use a library that supports face recognition to compare two faces,
+      I recommend OpenCV, here is a useful tutorial on doing face recognition using
+      opencv http://docs.opencv.org/trunk/modules/contrib/doc/facerec/
+    id: '796076777098699'
+  - created_time: '2014-08-08T13:19:54+0000'
+    from:
+      name: Mohammed Ragab
+      id: '2020898428198432'
+    message: "Ahmed Osman Thanks, but I do not ask how images are compared or face
+      detection \nbut i ask what is the optimal solution to make process more performance.
+      :)"
+    id: '796077547098622'
+  - created_time: '2014-08-08T14:02:48+0000'
+    from:
+      name: Kofi Kotga
+      id: '1683289718380917'
+    message: when saving them in the first time analyis them and extract faces charctestic
+      , the when comparing compare propertise extraxted before
+    id: '796098743763169'
+  - created_time: '2014-08-08T15:19:01+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: What kind of comparison you are looking for, if you want an exact match
+      bytes wise, you can always save a checksum using any hashing algorithm in a
+      separate field along with the image, and whenever you want to compare a new
+      image you calculate the hash of the new image and do exact match with previous
+      hashes, you can even put an index on the hash values which will make your searches
+      very efficient.
+    id: '796123963760647'
+  - created_time: '2014-08-08T15:26:31+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: SIFT. If you want something faster but less accurate then SURF.
+    id: '796127263760317'
+  - created_time: '2014-08-08T16:04:50+0000'
+    from:
+      name: Mohammed Ragab
+      id: '2020898428198432'
+    message: I understand that you can not combine Accuracy and speed together ؟
+    id: '796144057091971'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemsyTURJMU1qWXpOemN3TlRFM09qRTBNRGMwT1RVMk1qVT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemsyTVRRME1EVTNNRGt4T1RjeE9qRTBNRGMxTVRNNE9UQT0ZD

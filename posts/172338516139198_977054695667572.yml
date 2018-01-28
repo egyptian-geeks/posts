@@ -9,3 +9,24 @@ created_time: '2015-07-23T00:23:39+0000'
 updated_time: '2015-07-23T04:05:56+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/977054695667572/
 id: '172338516139198_977054695667572'
+comments:
+  data:
+  - created_time: '2015-07-23T00:56:24+0000'
+    from:
+      name: Mohamed Rashed
+      id: '10155764645725568'
+    message: |-
+      Make sure the file status is published & approved.
+      finally if it didn't work, use the fake version trick (browser cache buster trick)  to make sure you request a new version from css file , ex) site.css?v1.0  then site.css?v1.1
+    id: '977061249000250'
+  - created_time: '2015-07-23T04:05:56+0000'
+    from:
+      name: Roshdy Abuzeid
+      id: '10211281555858409'
+    message: "Its published and approved \nAnd updating to request a new version require
+      new deployment"
+    id: '977127238993651'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVGMzTURZAeE1qUTVNREF3TWpVd09qRTBNemMyTVRJNU9EUT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVGMzTVRJM01qTTRPVGt6TmpVeE9qRTBNemMyTWpRek5UWT0ZD

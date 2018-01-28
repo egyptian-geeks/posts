@@ -8,3 +8,116 @@ created_time: '2015-05-26T15:56:49+0000'
 updated_time: '2015-05-28T14:14:42+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/945823412124034/
 id: '172338516139198_945823412124034'
+comments:
+  data:
+  - created_time: '2015-05-26T16:00:15+0000'
+    from:
+      name: Mohamed Said
+      id: '10155091454175952'
+    message: I use http://canvasjs.com/ and it's working for me
+    id: '945824012123974'
+  - created_time: '2015-05-26T16:01:26+0000'
+    from:
+      name: Mohamed Said
+      id: '10155091454175952'
+    message: It has a small issue if u r going to show the charts in a hidden element,
+      tab for example, but the fix is easy.
+    id: '945824242123951'
+  - created_time: '2015-05-26T16:02:41+0000'
+    from:
+      name: Mohamed Gamal
+      id: '10156096685587328'
+    message: |-
+      Have you tried jqPlot before ?
+      If yes, which one is much reliable ?
+    id: '945824478790594'
+  - created_time: '2015-05-26T16:49:01+0000'
+    from:
+      name: Omar Sameh Shehata
+      id: '10155438303996219'
+    message: I haven't used it yet, but dimple might be a good contender (it's used
+      in the Udacity course on Data Visualization) http://dimplejs.org/
+    id: '945947252111650'
+  - created_time: '2015-05-26T17:22:27+0000'
+    from:
+      name: خالد سلامة
+      id: '10155119917285143'
+    message: Highcharts
+    id: '945956028777439'
+  - created_time: '2015-05-26T19:31:40+0000'
+    from:
+      name: Abdelhameed Tourky
+      id: '10156434261949271'
+    message: Highcharts
+    id: '946098445429864'
+  - created_time: '2015-05-26T19:59:36+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Depends on your plotting requirements and browser support requirements
+    id: '946104732095902'
+  - created_time: '2015-05-26T20:00:34+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: If you are looking at D3, you might also want to check http://nvd3.org/
+    id: '946105085429200'
+  - created_time: '2015-05-26T20:01:18+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: I have also had good luck implementing this for IE8 support http://www.flotcharts.org/
+    id: '946105262095849'
+  - created_time: '2015-05-26T20:01:53+0000'
+    from:
+      name: Mohamed Gamal
+      id: '10156096685587328'
+    message: Thank you ^_^
+    id: '946105375429171'
+  - created_time: '2015-05-26T20:32:28+0000'
+    from:
+      name: Anas Rabei
+      id: '771652519692786'
+    message: I am voting for highcharts and D3
+    id: '946111545428554'
+  - created_time: '2015-05-26T21:59:19+0000'
+    from:
+      name: Sameh Saeed
+      id: '10155224155802344'
+    message: |-
+      I'm using highcharts it's very good
+      http://www.highcharts.com
+    id: '946129232093452'
+  - created_time: '2015-05-26T22:36:58+0000'
+    from:
+      name: Ahmed Eid
+      id: '762135870664322'
+    message: على حسب استخدامك .. محتاج حاجات بسيطة و مباشره زي pie , bar etc استخدم
+      high charts .. محتاج حاجات advanced اكتر و تقدر ت customize فيها .. انصحك ب
+      d3..
+    id: '946136472092728'
+  - created_time: '2015-05-26T22:54:56+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: "Highcharts\nor you can always use Google Charts \nBkam we used Highcharts/Highstocks
+      for a long time but we ended up using Google charts for smaller footprint in
+      the client side."
+    id: '946140612092314'
+  - created_time: '2015-05-27T10:23:12+0000'
+    from:
+      name: Ahmed ElSawaf
+      id: '10156054543304084'
+    message: http://www.jsgraphs.com/
+    id: '946503688722673'
+  - created_time: '2015-05-28T14:14:42+0000'
+    from:
+      name: Malicia Rogue
+      id: '10215513558251195'
+    message: D3 is great, also Charts.js is excellent (license and integration better
+      than HighCharts for ex.)
+    id: '947737755265933'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFExT0RJME1ERXlNVEl6T1RjME9qRTBNekkyTlRZAd01UVT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFEzTnpNM056VTFNalkxT1RNek9qRTBNekk0TWpJME9EST0ZD

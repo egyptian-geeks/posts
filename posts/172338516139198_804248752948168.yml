@@ -11,3 +11,95 @@ updated_time: '2014-08-27T18:51:36+0000'
 name: 'fluent validation : validate multiple properties with one rule'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/804248752948168/
 id: '172338516139198_804248752948168'
+comments:
+  data:
+  - created_time: '2014-08-25T21:02:05+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: I think Ahmed ElMalt had some good experience in similar areas
+    id: '804249182948125'
+  - created_time: '2014-08-25T21:03:21+0000'
+    from:
+      name: Mohamed Samir
+      id: '10213955023125334'
+    message: "you can use custom validation \nhttp://stackoverflow.com/questions/16100300/asp-net-mvc-custom-validation-by-dataannotation"
+    id: '804249502948093'
+  - created_time: '2014-08-25T21:29:21+0000'
+    from:
+      name: Adel K. Khalil
+      id: '10159958402365584'
+    message: Can't you just implement the interface IValidatableObject on your model.
+    id: '804255806280796'
+  - created_time: '2014-08-25T22:01:11+0000'
+    from:
+      name: Ahmed ElMalt
+      id: '10159771145765005'
+    message: I haven't really worked with this library! but i built similar fluent
+      libraries in the past. It seems natural to me that you should be able to either
+      implement your own Fluent extension class RuleForAll(x).NotEmpty().Length(2,
+      50).WithMessage("*"); or change the current implementation of the fluent interface
+      "RuleFor" to accept multiple lambdas, the syntax should be something like that
+      RuleFor(x => x.FirstName, x => x.LastName).NotEmpty().Length(2, 50).WithMessage("*");
+      In any case i will look into this library later today to see what extensibility
+      options it  offers!
+    id: '804267686279608'
+  - created_time: '2014-08-26T07:14:33+0000'
+    from:
+      name: Mostafa Abdelrasoul
+      id: '2286413964717399'
+    message: create custom validation attribute
+    id: '804531396253237'
+  - created_time: '2014-08-26T07:27:41+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: I'm trying to find out the *real problem* behind your question. These
+      are 3 different properties. Why do you want to write a single validation rule
+      to validate all of them at once?
+    id: '804534299586280'
+  - created_time: '2014-08-27T18:24:32+0000'
+    from:
+      name: Mohamed Sameeh Sharaf
+      id: '2167550119925504'
+    message: "Mohamed Samir man i using fluent validation not data annotation \nhttps://fluentvalidation.codeplex.com"
+    id: '805394922833551'
+  - created_time: '2014-08-27T18:32:27+0000'
+    from:
+      name: Mohamed Sameeh Sharaf
+      id: '2167550119925504'
+    message: "Mohammad Tayseer \ni want to implement 3 rules on the three properties\n:
+      \nRuleFor(model=>model.FirstName).NotNull().NotEmpty().Length(2,100).withMessage(\"*\");\n\nRuleFor(model=>model.FatherName).NotNull().NotEmpty().Length(2,100).withMessage(\"*\");\n\nRuleFor(model=>model.FamilyName).NotNull().NotEmpty().Length(2,100).withMessage(\"*\");\n\ni
+      want one way to combine these rules in one line like this \n\nRuleFor(mode=>mode.FirstName,Model.FatherName,Model.FamilyName).NotEmpty().Length(2,100).WithMessage(\"*\");\n\nthis
+      will save a lot of Time"
+    id: '805397279499982'
+  - created_time: '2014-08-27T18:51:36+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      so I believe you want something like
+
+      RuleForAll(model => {model.FirstName, model.FatherName, model.FamiltyName}).ToExist().WithMessage("*")
+
+      Just the same as what Ahmed ElMalt said above
+    id: '805404199499290'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPREEwTWpRNU1UZA3lPVFE0TVRJMU9qRTBNRGt3TURBMU1qVT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPREExTkRBME1UazVORGs1TWprd09qRTBNRGt4TmpVME9UWT0ZD
+attachments:
+  data:
+  - description: having person class class person { public string FirstName { get;
+      set; } public string FatherName { get; set; } public string FamilyName { get;
+      set; } } each property of this class ...
+    media:
+      image:
+        height: 316
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQCz3rmhv1AH6XyC&w=720&h=720&url=http%3A%2F%2Fcdn.sstatic.net%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3Dfde65a5a78c6&cfs=1&_nc_hash=AQDYMA7sVVUu6LYN
+        width: 316
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F25484868%2Ffluent-validation-validate-multiple-properties-with-one-rule&h=ATPisVPZoNSPg56mV3xKVSgJ2TJ_DM4nTpte2HEgYyfRsSdqPErmN_fkJPV8h6HZsd_QlBabZGcgm5BqbdNkM9MxHMS4ekbtiV2f&s=1&enc=AZMpeJWwjpbsJVyP06csvdMgs9Ub3gOeZltT3vWGq5ghKcNPj87Ok9sNwjbMcpSDpdPw5mnFvV7Osb-de_5IZpvD
+    title: 'fluent validation : validate multiple properties with one rule'
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F25484868%2Ffluent-validation-validate-multiple-properties-with-one-rule&h=ATPisVPZoNSPg56mV3xKVSgJ2TJ_DM4nTpte2HEgYyfRsSdqPErmN_fkJPV8h6HZsd_QlBabZGcgm5BqbdNkM9MxHMS4ekbtiV2f&s=1&enc=AZMpeJWwjpbsJVyP06csvdMgs9Ub3gOeZltT3vWGq5ghKcNPj87Ok9sNwjbMcpSDpdPw5mnFvV7Osb-de_5IZpvD
