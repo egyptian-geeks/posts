@@ -13,6 +13,24 @@ updated_time: '2016-12-14T19:39:50+0000'
 name: Photos from Ahmed Mahmoud's post
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1327156640657374/
 id: '172338516139198_1327156640657374'
+comments:
+  data:
+  - created_time: '2016-12-14T19:39:46+0000'
+    from:
+      name: Mostafa Hussein
+      id: '751286211748718'
+    message: "بناء علي ملف ال ReadMe اللي فيه طريقة استخدام ال debugger دي . كل انظمة
+      التشغيل بيبدأوا بأنك محتاج تشغل كروم اصلا كخطوة اولى بالبراميتر دا \n--remote-debugging-port=YOUR_PORT\nو
+      بعدها تكمل اللي انت عامله في الصورة فالمفروض وقتها يشتغل لان ال editor مش بيشغل
+      service . هو بيفتح لينك و متوقع انه يلاقي service شغالة علي البورت دا انما عشان
+      مفيش حاجة بتعمل listen علي البورت و ال editor مش مجهز انه يشغل service مثلا
+      الاول فبيطلعلك connection refused اللي في الصورة التانية\n\nو خطوات استخدام
+      ال debugger مكتوبة هنا:\nhttps://github.com/Microsoft/vscode-chrome-debug/blob/master/README.md"
+    id: '1327331627306542'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE15TnpNek1UWXlOek13TmpVME1qb3hORGd4TnpRME16ZAzQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE15TnpNek1UWXlOek13TmpVME1qb3hORGd4TnpRME16ZAzQZD
 attachments:
   data:
   - subattachments:

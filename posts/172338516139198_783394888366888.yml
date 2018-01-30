@@ -1,0 +1,416 @@
+---
+message: |-
+  when i opened akhbarak.net i can see a website grouping articles from other websites into one website, how it works or how to achive something similar ?. i don't know what should i call it and i don't know what i should type in google so i asked here.
+
+  www.akhbarak.net
+link: http://www.akhbarak.net/
+from:
+  name: Mostafa Hussein
+  id: '751286211748718'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQDiPdJiCn6GqQG2&w=130&h=130&url=http%3A%2F%2Fwww.akhbarak.net%2Fimages%2Fcampaigns%2Fworldcup%2Fworldcup_2014_cover.jpg%3F1404814831&cfs=1&_nc_hash=AQA_bEGKKPKjY73e
+created_time: '2014-07-14T17:55:25+0000'
+updated_time: '2014-07-16T00:31:53+0000'
+name: أخبارك.نت
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/783394888366888/
+id: '172338516139198_783394888366888'
+reactions:
+  data:
+  - id: '10156358805885288'
+    name: Mahmoud Abd El-Fattah
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRFNU1UazFNamczT2pFME1EVXpPVFk1TmpZANk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRFNU1UazFNamczT2pFME1EVXpPVFk1TmpZANk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2014-07-14T17:59:58+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: RSS Feeds
+    id: '783396461700064'
+  - created_time: '2014-07-14T18:01:09+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: http://www.bbc.co.uk/arabic/index.xml
+    id: '783396841700026'
+  - created_time: '2014-07-14T21:35:41+0000'
+    from:
+      name: أحمد محمود محمد عبدالوهاب
+      id: '10155226291481186'
+    message: and there're crawlers of course :D
+    id: '783467775026266'
+  - created_time: '2014-07-14T22:51:07+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Exactly, or a background job that run every time interval to grap the
+      news from these RSS feeds
+    id: '783491048357272'
+  - created_time: '2014-07-14T22:55:05+0000'
+    from:
+      name: Mostafa Hussein
+      id: '751286211748718'
+    message: |-
+      بالنسبة للrss feed شفت مثال عليها دلوقتي
+       وتقصدوا  بcrawlers اني اكون بستغل الpage source نفسه او الxml و اخد البيانات اللي عايزها ؟
+    id: '783492435023800'
+  - created_time: '2014-07-14T22:59:57+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: you don't need crawlers at all, you need a script to fetch and parse
+      the RSS Feeds and program your server to run it every let's say 3 hours. which
+      programing language do you use?
+    id: '783493931690317'
+  - created_time: '2014-07-14T23:03:59+0000'
+    from:
+      name: Mostafa Hussein
+      id: '751286211748718'
+    message: دي اللي شوفتها http://railscasts.com/episodes/168-feed-parsing حاليا
+      و بما انها من 2009 ف لسة هبقي اشوف لو في طرق احدث من كدة
+    id: '783495075023536'
+  - created_time: '2014-07-14T23:05:00+0000'
+    from:
+      name: Mostafa Hussein
+      id: '751286211748718'
+    message: هو مبدأيا اعتقد دا نفس الكونسبت اللي في الموقع اللي كاتبه في البوست ولا
+      انا غلطان ؟
+    id: '783495375023506'
+  - created_time: '2014-07-14T23:06:22+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: 'So you do Rails, Awesome. use this gem: http://feedjira.com/'
+    id: '783495735023470'
+  - created_time: '2014-07-14T23:11:45+0000'
+    from:
+      name: Fouad Abd ELrazek
+      id: '10215316053233596'
+    message: Or you can build your own scraper using CURL in case the site don't provide
+      RSS :)
+    id: '783496988356678'
+  - created_time: '2014-07-14T23:15:22+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Why to reinvent the wheel, most of the news sites has an RSS to use for
+      there mobile apps and for the Rss Readers! You don't need a scrapper at all
+      avoid making any scrapper because you will put your self in a Chaos Loop. not
+      all the sites has a symantic code that you can parse so you will build a scrapper
+      per site and if for any reason they change the markup of a small thing you will
+      need to go and investigate and modify your scrapper and when they see the hits
+      to their website they will block your IP and all what you did is worthless!
+    id: '783497918356585'
+  - created_time: '2014-07-14T23:16:15+0000'
+    from:
+      name: Fouad Abd ELrazek
+      id: '10215316053233596'
+    message: Just said " in case the site don't provide RSS"
+    id: '783498145023229'
+  - created_time: '2014-07-14T23:31:39+0000'
+    from:
+      name: Fouad Abd ELrazek
+      id: '10215316053233596'
+    message: |-
+      Forget you to mention in case you going to use CURL you may send your requested from behind proxies or socks to avoid blocking your main server IP .
+      and FYI scraping content is very bad idea since its against SEO and your website may get banned from google due the duplicated content
+    id: '783502025022841'
+  - created_time: '2014-07-14T23:33:29+0000'
+    from:
+      name: Mostafa Hussein
+      id: '751286211748718'
+    message: لا امشي عدل يحتار جوجل فيك :D لما ابدأ البروجكت ان شاء الله هعتمد علي
+      اللي موفرين ال RSS :D
+    id: '783502408356136'
+  - created_time: '2014-07-15T00:14:47+0000'
+    from:
+      name: Ahmed Kamal
+      id: '10204469829103969'
+    message: "First , using RSS Feeds will not allow you to get too much news , only
+      limited number and you will need to get the content using a parser at the end.\n\nYou
+      need to build your own crawler and there are multiple tools that can help you
+      do that but you will need a dedicated server or to deploy it on a cloud service
+      for example \n\nWe used Abot as we aer developing in C# and it did the job.
+      By the way you will need to write a parser for each website but be aware that
+      you can be blocked because of excessive requests if you are crawling English
+      websites."
+    id: '783515095021534'
+  - created_time: '2014-07-15T03:10:08+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: |-
+      Ahmed Kamal You mentioned building his own crawler and making his own spider etc.. without asking if they have the following:
+
+      1. A good budget to sustain the business.
+      2. A good servers that will be crawling and exporting whatever they find in the database.
+      3. if they already have an Algorithm to crawl and get the exact information they need or they will crawl whatever data!
+
+      Most of the good news website has APIs or RSS Feeds so if you want to make a crawler is because you want special cases website and I don't think he will need to crawl a website.
+
+      Last thing as you said he can get blocked, so why to do it the wrong way of he only can do it the correct way without getting blocked at all!
+    id: '783575808348796'
+  - created_time: '2014-07-15T03:48:53+0000'
+    from:
+      name: Ahmed Kamal
+      id: '10204469829103969'
+    message: |-
+      First I mentioned the need for a dedicated server or cloud service in addition to parsers to build a good crawler :)
+
+      I also mentioned the reason why I prefer them in my comment , RSS feeds are very limited and if he is going to build a large news aggregator  with different features then he shouldn't depend on RSS.  RSS is suitable for a mobile app version of a website or simple news aggregator imo.
+
+      مُحَمَّد أبو آدم
+    id: '783588188347558'
+  - created_time: '2014-07-15T03:55:32+0000'
+    from:
+      name: Mahmoud Abd El-Fattah
+      id: '10156358805885288'
+    message: Guys, I work on that website :D
+    id: '783590355014008'
+  - created_time: '2014-07-15T03:55:53+0000'
+    from:
+      name: Mahmoud Abd El-Fattah
+      id: '10156358805885288'
+    message: basically, it is a news aggregator that aggregates news through RSS feeds
+    id: '783590445013999'
+  - created_time: '2014-07-15T03:56:20+0000'
+    from:
+      name: Mahmoud Abd El-Fattah
+      id: '10156358805885288'
+    message: then, crawlers run periodically on the collected news URLs to grab full
+      articles
+    id: '783590565013987'
+  - created_time: '2014-07-15T03:56:52+0000'
+    from:
+      name: Mahmoud Abd El-Fattah
+      id: '10156358805885288'
+    message: the full articles' text is extracted using RegEx specially tailored for
+      every source
+    id: '783590665013977'
+  - created_time: '2014-07-15T03:57:56+0000'
+    from:
+      name: Mahmoud Abd El-Fattah
+      id: '10156358805885288'
+    message: then, another background job runs to extract tags from the articles based
+      on Wikipedia knowledge base which is freshly downloaded every 2 weeks
+    id: '783590905013953'
+  - created_time: '2014-07-15T03:58:20+0000'
+    from:
+      name: Mahmoud Abd El-Fattah
+      id: '10156358805885288'
+    message: tags are then used to group similar articles under one coverage
+    id: '783590995013944'
+  - created_time: '2014-07-15T03:58:36+0000'
+    from:
+      name: Mahmoud Abd El-Fattah
+      id: '10156358805885288'
+    message: like Mubarak's trial or Areesh explosions and so on
+    id: '783591041680606'
+  - created_time: '2014-07-15T03:59:00+0000'
+    from:
+      name: Mahmoud Abd El-Fattah
+      id: '10156358805885288'
+    message: this is the very wide description about how the system work
+    id: '783591118347265'
+  - created_time: '2014-07-15T03:59:10+0000'
+    from:
+      name: Mahmoud Abd El-Fattah
+      id: '10156358805885288'
+    message: works *
+    id: '783591155013928'
+  - created_time: '2014-07-15T03:59:41+0000'
+    from:
+      name: Mahmoud Abd El-Fattah
+      id: '10156358805885288'
+    message: it is written in Ruby on Rails and uses many dedicated servers for background
+      jobs and database servers
+    id: '783591235013920'
+  - created_time: '2014-07-15T04:00:09+0000'
+    from:
+      name: Mahmoud Abd El-Fattah
+      id: '10156358805885288'
+    message: and uses cloud instances for frontend that serves output to the users
+    id: '783591328347244'
+  - created_time: '2014-07-15T04:24:52+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: 'Via: Ahmed E. Naiem : https://github.com/aessam/ikhbr-SmartArabicNewsAggregator'
+    id: '783597891679921'
+  - created_time: '2014-07-15T13:21:55+0000'
+    from:
+      name: Ahmed Naiem
+      id: '10155245211207653'
+    message: "It is work in progress it suppose to be something like Akhbark.net with
+      more tricks (the regression module that will predict what people share and read)\n\nRegarding
+      similar topics (textually), read about TF-IDF, Stemming, K-Means.\nAlso there
+      is a good free book about Data Mining \nhttp://guidetodatamining.com/?utm_source=hackernewsletter&utm_medium=email"
+    id: '783861508320226'
+  - created_time: '2014-07-15T15:03:34+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Wowwwww, Nice share Ahmed! Do you recommend a specific book for data
+      mining ? Something like Mining by Example :D
+    id: '783898658316511'
+  - created_time: '2014-07-15T15:14:26+0000'
+    from:
+      name: Ahmed Naiem
+      id: '10155245211207653'
+    message: "Well, the link I have just shared is good as a starter \n\nThere is
+      little bit intense one \nhttp://www-nlp.stanford.edu/IR-book/\n\nThe problem
+      you will face is, you will need some understanding of statistics."
+    id: '783903118316065'
+  - created_time: '2014-07-15T15:14:52+0000'
+    from:
+      name: Ahmed Naiem
+      id: '10155245211207653'
+    message: I am thinking of doing some sort of what you have mentioned :D, simple
+      data mining tricks that make products look cooler and smatter
+    id: '783903251649385'
+  - created_time: '2014-07-15T16:21:13+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: That would be awesome man, I think you will have a very good chance to
+      hit Top Selling if you make data-mining by example. Focus more on mining social
+      networks to get what's trending and get news based on this information. imagine
+      a smart app that knows what's trending and show the relevant information based
+      on that!
+    id: '783955328310844'
+  - created_time: '2014-07-15T16:27:02+0000'
+    from:
+      name: Mostafa Hussein
+      id: '751286211748718'
+    message: انا تهت جدا علي فكرة بقيت حاسس الموضوع اصعب مما يبدو عليه :D
+    id: '783961108310266'
+  - created_time: '2014-07-15T16:28:04+0000'
+    from:
+      name: أحمد محمود محمد عبدالوهاب
+      id: '10155226291481186'
+    message: لا هو الكلام وسع بس و دخلوا قى موضوع تانى كبير بس حلو :D
+    id: '783961748310202'
+  - created_time: '2014-07-15T16:29:13+0000'
+    from:
+      name: Mostafa Hussein
+      id: '751286211748718'
+    message: ايوة انا مش معترض والله هو عاجبني الكلام اللي شايفه قدامي بس دا كتير
+      :D :D
+    id: '783962318310145'
+  - created_time: '2014-07-15T16:35:57+0000'
+    from:
+      name: أحمد محمود محمد عبدالوهاب
+      id: '10155226291481186'
+    message: افتراء معناها انهم بيكدبوا يبنى هاهاهاهاهاهاهاها
+    id: '783964698309907'
+  - created_time: '2014-07-15T16:58:24+0000'
+    from:
+      name: Ahmed Kamal
+      id: '10204469829103969'
+    message: |-
+      Building a news aggregator is what you are looking for , now they are  talking about building smart news aggregator that can know more about what it views and to achieve that you need to know some stuff from Data Mining and IR and these are broad sciences of course that requires some mathematics and statistics background  :)
+      Mostafa Hussein
+    id: '783975381642172'
+  - created_time: '2014-07-15T21:49:10+0000'
+    from:
+      name: Mahmoud Abd El-Fattah
+      id: '10156358805885288'
+    message: I forgot to tell you that Akhbarak.net uses social media shares, likes
+      and tweets to determine importance of a news article in order to promote it
+      and change orders
+    id: '784103844962659'
+  - created_time: '2014-07-16T00:01:15+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: you forgot to leave the source code hahahahahahahaha
+    id: '784155538290823'
+  - created_time: '2014-07-16T00:14:19+0000'
+    from:
+      name: Ahmed Naiem
+      id: '10155245211207653'
+    message: Actually Facebook has API to inquiry about how many shares for link,
+      I think also FB has similar thing.
+    id: '784158901623820'
+  - created_time: '2014-07-16T00:18:06+0000'
+    from:
+      name: Ahmed Naiem
+      id: '10155245211207653'
+    message: |-
+      And using reoccurring (15 to 30 minutes) service to collect number of shares you will know when people share.
+
+      You can also integrate with something like weather to know under what condition people read news, also integrating with something like Waslny and By2olk can help a lot.
+
+      At the end all this stuff are factors that directly effect people and their actions, and using simple math (Regression) you can tell what's next because human are highly predictable.
+    id: '784159908290386'
+  - created_time: '2014-07-16T00:19:33+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Same as logging seasons, annual events, etc...
+    id: '784160331623677'
+  - created_time: '2014-07-16T00:21:47+0000'
+    from:
+      name: Ahmed Naiem
+      id: '10155245211207653'
+    message: "And you can predict what will people do using what they have read (in
+      F16Apps we were about to build something I call perspective, using some trained
+      data we can know the number of people who will vote for certain candidate) :D
+      \n\nfor instance we take the article and define the parties (the involved parties
+      in the article lets say Ikhwan and Governement), we define the polarity based
+      on the subject, so if it is arresting some Ikhwan, the polarity is negative
+      for Ikhwan and positive to government supporter, neutral for average people,
+      negative for human rights and so on.\n\nUnfortunately we hit a wall before even
+      writing one line of code in this :("
+    id: '784160918290285'
+  - created_time: '2014-07-16T00:23:56+0000'
+    from:
+      name: Ahmed Naiem
+      id: '10155245211207653'
+    message: I even used to use servers response time to know when they get overloaded
+      :D, all data is useful if you know how to use it.
+    id: '784161484956895'
+  - created_time: '2014-07-16T00:24:08+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: 'I know a company that does this perfectly: http://wizeline.com let me
+      know if you need any help as i know a couple of lead devs in this company :)'
+    id: '784161554956888'
+  - created_time: '2014-07-16T00:29:54+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Yeah, the problem in data mining is not collecting the information is
+      how you can connect them and make use of them.
+    id: '784162994956744'
+  - created_time: '2014-07-16T00:31:53+0000'
+    from:
+      name: Ahmed Naiem
+      id: '10155245211207653'
+    message: |-
+      Exactly + we used to do something called "Augmented Intelligence", using human where they are good and machine can't get over.
+
+      IT was so cool, we didn't get enough time to get this stuff out :D
+    id: '784163338290043'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemd6TXprMk5EWXhOekF3TURZAME9qRTBNRFV6TmpBM09UZAz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemcwTVRZAek16TTRNamt3TURRek9qRTBNRFUwTnpBM01UTT0ZD
+attachments:
+  data:
+  - description: الأخبار من أشهر المواقع الإخبارية العربية
+    media:
+      image:
+        height: 105
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQDJHd6HSlpf6I0G&w=720&h=720&url=http%3A%2F%2Fwww.akhbarak.net%2Fimages%2Fcampaigns%2Fworldcup%2Fworldcup_2014_cover.jpg%3F1404814831&cfs=1&_nc_hash=AQBY8dN-idCO6Rnj
+        width: 105
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.akhbarak.net%2F&h=ATOkvz-DInfikmgiflGut_UAerBHi1rT3t_4S7to0xYhqOTrF1k1DFOhWAK8d_BKdVpOJ7cxLlPaE8MsWVnBPzLxFJ1Tmxy4c6FS&s=1&enc=AZOfYIV-bfg_vGwFVMnCAYSz3_RU0nQMoeEc_BBleHMeNi61TyDdDs21VYws65aOXUOKHnjBnV9UTm6g4RFm3plK
+    title: أخبارك.نت
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.akhbarak.net%2F&h=ATOkvz-DInfikmgiflGut_UAerBHi1rT3t_4S7to0xYhqOTrF1k1DFOhWAK8d_BKdVpOJ7cxLlPaE8MsWVnBPzLxFJ1Tmxy4c6FS&s=1&enc=AZOfYIV-bfg_vGwFVMnCAYSz3_RU0nQMoeEc_BBleHMeNi61TyDdDs21VYws65aOXUOKHnjBnV9UTm6g4RFm3plK

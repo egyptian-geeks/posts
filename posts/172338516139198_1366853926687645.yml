@@ -1,0 +1,52 @@
+---
+message: "in Android, EventBus Lib \n\ni update project which using EventBus lib and
+  i don't have a dept knowledge with it but as i'm dealing with it now it is like
+  interfaces and callbacks ?? \n\nwhat is the advantages of it over interfaces ?"
+from:
+  name: Mohamed Abd El-Sattar
+  id: '1636842766361831'
+type: status
+created_time: '2017-01-26T12:38:14+0000'
+updated_time: '2017-01-28T12:45:17+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1366853926687645/
+id: '172338516139198_1366853926687645'
+reactions:
+  data:
+  - id: '1928384107425504'
+    name: Ahmed Hashem
+    type: LIKE
+  - id: '1413493802105995'
+    name: Mahmoud Mohamed Osman
+    type: LIKE
+  - id: '1541302242586169'
+    name: Shady Adel
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTNOakUzT1RrMU5UVXdPakUwT0RVME56YzBNekU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXhNVGt5TWpNeU1EWTVPakUwT0RVME16WTNNams2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-01-27T00:48:26+0000'
+    from:
+      name: Ahmed Hashem
+      id: '1928384107425504'
+    message: "in Android activities can not interact with each other using interfaces
+      \ not like (activity/fragment) interaction so there has to be a solution for
+      that which is the Pub/Sub design pattern in other word EventBus \n\nit is like
+      Action<> in C# if you worked with it before, in simple terms EventBus used to
+      send a msg(Publisher) and if there are any activity/fragment is listening to
+      that msg(Subscriber), it is like using Broadcasts but without the need for it.\n\nusing
+      it you can send a whole class not just a msg for instance you can send a UserProfileInfos
+      \n\nNote: EventBus delivers it's msgs by value not by reference"
+    id: '1367570333282671'
+  - created_time: '2017-01-27T11:15:21+0000'
+    from:
+      name: Ahmed Ateek
+      id: '1812131428831070'
+    message: http://stackoverflow.com/questions/29008418/eventbus-vs-callbacks-which-to-use-when
+    id: '1368212636551774'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0yTnpVM01ETXpNekk0TWpZAM01Ub3hORGcxTkRjNE1UQTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0yT0RJeE1qWXpOalUxTVRjM05Eb3hORGcxTlRFMU56SXoZD

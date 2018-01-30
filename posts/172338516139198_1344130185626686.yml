@@ -161,6 +161,16 @@ comments:
       Drivers have their own application which is always running in the foreground. The Location libraries in Android allows you to listen and be notified of location changes through a function called onLocationUpdate or something similar. My guess is when the driver location changes the app sends it to Uber servers.
       I don't think it is related to Google or Google Maps API. It should be purely based on Android or iOS.
     id: '1344432502263121'
+  - created_time: '2017-01-03T09:41:30+0000'
+    from:
+      name: Mohamed Abd El-Sattar
+      id: '1636842766361831'
+    message: "i worked on something like this \nwe did it like Amr Yousef said we
+      listen on the location on driver deceive when it is changed  it hit our server
+      with the new location and on the other side on the client device every 3 sec
+      we hit the same service that give us the location of the driver and update it
+      on google maps"
+    id: '1344445335595171'
   - created_time: '2017-01-03T12:54:22+0000'
     from:
       name: Ahmed Aboulenein

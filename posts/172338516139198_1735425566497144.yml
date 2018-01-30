@@ -13,11 +13,14 @@ from:
   id: '10155426916839779'
 type: status
 created_time: '2018-01-27T21:35:29+0000'
-updated_time: '2018-01-28T00:27:55+0000'
+updated_time: '2018-01-29T12:39:00+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1735425566497144/
 id: '172338516139198_1735425566497144'
 reactions:
   data:
+  - id: '1853777334634345'
+    name: Mohamed Fathalla
+    type: LIKE
   - id: '10156058891705747'
     name: George Leon
     type: LIKE
@@ -32,7 +35,7 @@ reactions:
     type: LIKE
   paging:
     cursors:
-      before: T0RBeU9URXdOelEyT2pFMU1UY3dPVE00T1RZANk1qVTBNRGsyTVRZAeE13PT0ZD
+      before: TVRBd01EQXdNRFl5T1RBM09UQTBPakUxTVRjeE5EZAzVOakE2TWpVME1EazJNVFl4TXc9PQZDZD
       after: T1RNM01UazBPRG94TlRFM01EZAzVNVGMwT2pJMU5EQTVOakUyTVRNPQZDZD
 comments:
   data:
@@ -82,7 +85,45 @@ comments:
     message: i use resource monitor and Suspend the service that's updating, works
       everytime for me.
     id: '1735683956471305'
+  - created_time: '2018-01-28T00:53:03+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: Use Linux :D
+    id: '1735716066468094'
+  - created_time: '2018-01-28T03:05:12+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: ''
+    id: '1735813686458332'
+  - created_time: '2018-01-28T04:23:24+0000'
+    from:
+      name: Kareem Joseph
+      id: '1701678096558716'
+    message: Mkarious Medhat
+    id: '1735857966453904'
+  - created_time: '2018-01-29T11:48:03+0000'
+    from:
+      name: Ahmed Amr Farid
+      id: '10155859538230336'
+    message: Insert a fake DNS record into local hosts file, and when you want it
+      to work comment that entry...
+    id: '1737069966332704'
+  - created_time: '2018-01-29T12:38:59+0000'
+    from:
+      name: Amr Medhat
+      id: '10155426916839779'
+    message: |-
+      Thank you guys
+
+      I tried 2 tricks and the second just worked (Y) alhamdullilah
+
+      The first changing group policy configs for both BITS and Delivery Optimization , but this required restarting both services to take effect, and the second prevented that while running
+
+      The simpler direct one is just setting my connection as metered, and tada ! .. my browser can smell fresh bandwidth again : ))
+    id: '1737102876329413'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN6TlRVNE16VTFNekUwT0RBeE1qb3hOVEUzTURnNU16QXcZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN6TlRZANE16azFOalEzTVRNd05Ub3hOVEUzTURrM05UUTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN6TnpFd01qZAzNOak15T1RReE16b3hOVEUzTWpJNU5UTTUZD

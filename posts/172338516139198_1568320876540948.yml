@@ -46,6 +46,9 @@ reactions:
   - id: '1853777334634345'
     name: Mohamed Fathalla
     type: LIKE
+  - id: '10211387034451165'
+    name: Ahmed Hussein
+    type: LIKE
   - id: '1791452377571672'
     name: Mohammed Alaa El Komy
     type: LIKE
@@ -166,7 +169,16 @@ comments:
     message: في اثنين reviews عن الانترفيو للشركة دي علي glassdoor, والاثنين اسوء
       من بعض والاثنين برضه بخصوص ال HR !
     id: '1569383083101394'
+  - created_time: '2017-08-05T17:51:53+0000'
+    from:
+      name: Ahmed Shalaby
+      id: '10215565754801598'
+    message: 'اخر شركة اشتغلت فيها وكان فيها hr admin بنت مريضة كانت بتراجع معايا
+      شيت الحضور والانصراف وبتشتكى منى انى عامل لها مشكلة فى شغلها عشان بامشى متأخر
+      (صباح اليوم التالى: بعد 12 صباحا) ودا شئ كان مضايقها طبعا, خصمتلى ربع الشهر
+      عشان باجى تانى يوم متأخر'
+    id: '1569417073097995'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUyT0RNM09USTVOalV6TlRFd05qb3hOVEF4T0RZANE1ESTEZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUyT1RNNE16QTRNekV3TVRNNU5Eb3hOVEF4T1RVeU16azIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUyT1RReE56QTNNekE1TnprNU5Ub3hOVEF4T1RVMU5URXoZD

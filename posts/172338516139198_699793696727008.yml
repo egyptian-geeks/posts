@@ -89,6 +89,22 @@ comments:
       save
       run: bundle install again
     id: '700020396704338'
+  - created_time: '2014-02-12T10:35:02+0000'
+    from:
+      name: Mostafa Hussein
+      id: '751286211748718'
+    message: انا قرأت انك بتكتب gem install bundle اولا الgem نفسها اسمها bundler
+      ثانيا هو يقصد انك تكتب bundle install بس عشان يعمل install للgems الناقصة
+    id: '700023050037406'
+  - created_time: '2014-02-12T10:45:26+0000'
+    from:
+      name: Mostafa Hussein
+      id: '751286211748718'
+    message: لو اللي كانت نقصاك bundler نفسها كنت ساعتها هتزلها ب gem install bundler
+      بس هي اصلا هتكون موجوده عندك, لكن كل ما هتضيف gem جوا ال gem file هتنزلها بانك
+      تكتب bundle install بس لكن لما كنت بتكتب gem install bundle كان بيظهرلك error
+      لانه ميعرفش اللي انت كتبته
+    id: '700025430037168'
   - created_time: '2014-02-12T21:08:55+0000'
     from:
       name: Ebrahim Hamdy
@@ -181,7 +197,13 @@ comments:
       id: '1815196425191163'
     message: done , but the problem to connect to 127.0.0.1:3000
     id: '700503143322730'
+  - created_time: '2014-02-13T12:17:37+0000'
+    from:
+      name: Mostafa Hussein
+      id: '751286211748718'
+    message: try to write it as localhost:3000
+    id: '700550809984630'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOams1TnprME1EWTJOekkyT1RjeE9qRXpPVEl4TlRJd09EYz0ZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekF3TlRBek1UUXpNekl5TnpNd09qRXpPVEl5T0RNeU5EWT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekF3TlRVd09EQTVPVGcwTmpNd09qRXpPVEl5T1RNNE5UYz0ZD

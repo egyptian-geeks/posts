@@ -10,6 +10,20 @@ permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/71842663
 id: '172338516139198_718426638197047'
 comments:
   data:
+  - created_time: '2014-03-22T08:11:47+0000'
+    from:
+      name: Mostafa Hussein
+      id: '751286211748718'
+    message: المفروض يreturn ايه بقي ؟
+    id: '718447518194959'
+  - created_time: '2014-03-22T08:14:19+0000'
+    from:
+      name: Mostafa Hussein
+      id: '751286211748718'
+    message: اولا هي هنا يشوف قيمة الxx بتساوي null ولا لأ يعني فاضية ولا لأ , لو
+      فاضية يعني true المفروض يعمل حاجة اللي هي مكان return دي لكن كدة الكلام مش واضح
+      مينفعش return و بس
+    id: '718447798194931'
   - created_time: '2014-03-22T08:15:31+0000'
     from:
       name: Abdalla Elnaggar
@@ -37,6 +51,24 @@ comments:
         // do something with the data
       }
     id: '718448358194875'
+  - created_time: '2014-03-22T08:26:07+0000'
+    from:
+      name: Mostafa Hussein
+      id: '751286211748718'
+    message: |-
+      اعتقد ان المفروض return عموما تكون جوا method مش لوحدها و تاني حاجة لازم تكون بتreturn value انت اللي بتستخدمها علي مزاجك , يعني في الjavascript مثلا الreturn دي لازم تكون جوا function و عموما مشوفتهاش بتتكتب قبل كدة في اي لغة من غير function
+      انت بتقولها return طيب هتreturn ايه ؟
+
+      حاجة زي كدة مثلا :
+    id: '718450064861371'
+  - created_time: '2014-03-22T08:26:41+0000'
+    from:
+      name: Mostafa Hussein
+      id: '751286211748718'
+    message: "/** Return the max between two numbers */\npublic static int max(int
+      num1, int num2) {\n   int result;\n   if (num1 > num2)\n      result = num1;\n
+      \  else\n      result = num2;\n\n   return result; \n}"
+    id: '718450268194684'
   - created_time: '2014-03-22T08:26:45+0000'
     from:
       name: Ahmed Moosa
@@ -45,6 +77,20 @@ comments:
       دا معناه, لو xx Is Null , إخرج خارج الـ Method , يعنى مش تنفذ باقى الكود _________بس
       خلاص __ بالتوفيق .
     id: '718450278194683'
+  - created_time: '2014-03-22T08:27:34+0000'
+    from:
+      name: Mostafa Hussein
+      id: '751286211748718'
+    message: |-
+      المثال دا من هنا عشان متختبرنيش في الجافا بس :D
+      http://www.tutorialspoint.com/java/java_methods.htm
+    id: '718450388194672'
+  - created_time: '2014-03-22T08:29:08+0000'
+    from:
+      name: Mostafa Hussein
+      id: '751286211748718'
+    message: Ahmed Moosa طيب مش المفروض تكون مكتوبة return false ?
+    id: '718451201527924'
   - created_time: '2014-03-22T08:29:35+0000'
     from:
       name: Abdalla Elnaggar
@@ -60,6 +106,12 @@ comments:
       Mostafa Hussein
       لا , إنت ممكن تستخدم Return بس, لو محتاج تنهى تنقيذ الكود , وإنت داخل Void Method, أما Return false , الكلام دا لو محتاج ترجع قيمة bool ________ وصلت ولا لسة فيه غموض فى الشرح ؟
     id: '718451681527876'
+  - created_time: '2014-03-22T08:32:49+0000'
+    from:
+      name: Mostafa Hussein
+      id: '751286211748718'
+    message: لا تمام فهمت يعني تقدر تقول انها بتدي معني break صح ؟
+    id: '718451878194523'
   - created_time: '2014-03-22T08:33:37+0000'
     from:
       name: Ahmed Moosa
@@ -111,5 +163,5 @@ comments:
     id: '718479954858382'
   paging:
     cursors:
-      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekU0TkRRM09UYzBPRFl4TlRnd09qRXpPVFUwTnpZAeE16RT0ZD
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekU0TkRRM05URTRNVGswT1RVNU9qRXpPVFUwTnpVNU1EYz0ZD
       after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekU0TkRjNU9UVTBPRFU0TXpneU9qRXpPVFUwT0RVd01qaz0ZD

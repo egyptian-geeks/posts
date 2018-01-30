@@ -21,11 +21,14 @@ from:
   id: '1843891078979183'
 type: status
 created_time: '2018-01-27T21:34:58+0000'
-updated_time: '2018-01-27T21:58:36+0000'
+updated_time: '2018-01-29T23:20:38+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1735389086500792/
 id: '172338516139198_1735389086500792'
 reactions:
   data:
+  - id: '10156105173127334'
+    name: Khaled W. Abuelenain
+    type: LIKE
   - id: '10211837909289309'
     name: Mohamed Hussein
     type: LIKE
@@ -34,7 +37,7 @@ reactions:
     type: LIKE
   paging:
     cursors:
-      before: TVRReE56UTRNREl5TlRveE5URTNNRGc1TWprMU9qSTFOREE1TmpFMk1UTT0ZD
+      before: TmpRME5UYzNNek16T2pFMU1UY3hOVFkwTmpNNk1qVTBNRGsyTVRZAeE13PT0ZD
       after: TVRBd01EQXpNelEwTlRZAek56VTVPakUxTVRjd09Ea3hOVFk2TWpVME1EazJNVFl4TXc9PQZDZD
 comments:
   data:
@@ -48,7 +51,65 @@ comments:
       I agree its good with companies and business but not for learning.\nif you mean
       after learning the basics and that's for not start its okay"
     id: '1735581933148174'
+  - created_time: '2018-01-28T01:32:27+0000'
+    from:
+      name: Mohamed Huzayen
+      id: '1988431424751762'
+    message: 'For me at the very least I think they need to cover the background before
+      that, meaning they need to know JavaScript''s async nature, you don''t know
+      JavaScript book series or pluralsight''s course deep JavaScript foundations,
+      and a little ES6 wouldn''t hurt, maybe the net ninja YouTube playlist on that,
+      after that maybe build processes, whether task runners or module bundlers, I
+      think for the modern JavaScript developer what is needed is to get caught up
+      not left out, a great book that might help is JavaScript application design:
+      a build first approach where the writer gets at the core of what is to be known
+      conceptually from build processes, testing, MVC architecture, and so on'
+    id: '1735742763132091'
+  - created_time: '2018-01-28T02:01:06+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: angularjs
+    id: '1735760263130341'
+  - created_time: '2018-01-28T09:22:08+0000'
+    from:
+      name: Hisham Fangary
+      id: '10156660518155839'
+    message: "Dependencies dependencies dependencies.\nI miss just using pure HTML
+      5 + CSS + jQuery on notepad++. \nThe good old days.\nI loathe these new \"modern\"
+      UI frameworks and all their dependencies."
+    id: '1736024446437256'
+  - created_time: '2018-01-28T12:02:17+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: React or Vue.js
+    id: '1736123276427373'
+  - created_time: '2018-01-28T12:35:52+0000'
+    from:
+      name: Mohamed Moshrif
+      id: '1538447102877297'
+    message: You need to be very good at basic JS and CSS before jumping into any
+      frameworks. We rejected so many candidates who are super good at frameworks
+      but were unable to figure out basic questions like JS scoping and CSS positions!
+    id: '1736144909758543'
+  - created_time: '2018-01-28T19:06:47+0000'
+    from:
+      name: Mohammed Farouk
+      id: '10155260414706847'
+    message: |-
+      have you ever had a look on Backbone JS
+      it was the only framework I had used in a real world project, i really liked it.
+      it is so simple, Backbone offers simple MVVM pattern, but no out of the box templating engine, binding or dependency injection, you are free to choose any library to achieve complete the missing blocks, or even write your own.
+      it really fills the gab between just following the framework and have good understanding of what going under the hoods
+    id: '1736444536395247'
+  - created_time: '2018-01-29T23:20:33+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: https://risingstars.js.org/2017/en/
+    id: '1737638779609156'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN6TlRVNE1Ua3pNekUwT0RFM05Eb3hOVEUzTURnNU1UVTEZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN6TlRVNE1Ua3pNekUwT0RFM05Eb3hOVEUzTURnNU1UVTEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN6TnpZAek9EYzNPVFl3T1RFMU5qb3hOVEUzTWpZANE1ETTAZD

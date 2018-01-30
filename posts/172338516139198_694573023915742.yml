@@ -1,0 +1,268 @@
+---
+message: |-
+  سؤال فني هو اللي بيعمل web application بيشتغل ازاي ؟ يعني الdevelopment environment عن نفسي عندي مشكلة بس مش عارف ازاي احلها , لو في app المفروض انك هتستخدمه in production او عملت حاجة معينة و انا كمستخدم محتاج البرنامج بتاعك فبحمله عندي و المفروض اني استخدمه , ازاي بقي اعمل حاجة تشتغل ب values تانية انا اصلا معرفش اية اللي ممكن غيري يستعمله
+
+  يعني عملت مثلا عملت في الapp  عدد الشكاوي اللي ليهم high priority كدة انت شغال في ال developement environment طيب بالنسبة للproduction دي تتحل ازاي افرض اللي هيستخدم البرنامج غير ال high دي و خلها emergency مثلا . اعمل اية بقي :D حد فهم مني حاجة :D
+from:
+  name: Mostafa Hussein
+  id: '751286211748718'
+type: status
+created_time: '2014-02-01T17:59:52+0000'
+updated_time: '2014-02-02T09:34:31+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/694573023915742/
+id: '172338516139198_694573023915742'
+comments:
+  data:
+  - created_time: '2014-02-01T18:01:31+0000'
+    from:
+      name: Mostafa Hussein
+      id: '751286211748718'
+    message: ولا لازم اعرف اللي هيستخدمه ان في حاجات معينة لازم يستخدمها ؟
+    id: '694573647249013'
+  - created_time: '2014-02-01T18:03:01+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: مش فاهم ولا كلمة، ماله الكاسيت؟
+    id: '694574153915629'
+  - created_time: '2014-02-01T18:08:23+0000'
+    from:
+      name: Mostafa Hussein
+      id: '751286211748718'
+    message: |-
+      حاجة زي osticket كدة هل هو مش هيشتغل بحاجة غير high and normal مثلا ؟ يعني زي ما انت شايف الديمو ولا اية بالظبط ؟
+
+      http://www.ostickethacks.com/demo/scp/
+    id: '694575857248792'
+  - created_time: '2014-02-01T18:13:23+0000'
+    from:
+      name: Mostafa Hussein
+      id: '751286211748718'
+    message: يعني الchart مثلا هي مكتوبة انها تشتغل علي values معينة انت مجبر تستخدمها
+      عشان البرنامج يبقي شغال ؟
+    id: '694577710581940'
+  - created_time: '2014-02-01T18:27:57+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: which language u use
+    id: '694584547247923'
+  - created_time: '2014-02-01T18:28:33+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: |-
+      في الغالب دائما ينصح طبعا إن كل الحاجات دي تسجلها وتسترجعها من قاعدة البيانات، يعني تعمل جدول اسمه
+      Priorities
+      Id - int
+      Name - nvarchar
+      وتخزن جواه إنت high و low وكدا ، وهكذا لكل الحاجات اللي في المشروع، وبعد كدا لو قدامك وقت خلّي المستخدم يقدر يضيف ويعدل في الجدول ده
+    id: '694584873914557'
+  - created_time: '2014-02-01T18:28:45+0000'
+    from:
+      name: Mostafa Hussein
+      id: '751286211748718'
+    message: ruby on rails
+    id: '694584957247882'
+  - created_time: '2014-02-01T18:29:43+0000'
+    from:
+      name: Mostafa Hussein
+      id: '751286211748718'
+    message: طيب الكود نفسه حضرتك هتكون عمله علي value معينة في الحالة دي لازم يعدل
+      الكود بنفسه ؟
+    id: '694585257247852'
+  - created_time: '2014-02-01T18:31:17+0000'
+    from:
+      name: Mostafa Hussein
+      id: '751286211748718'
+    message: اصل لو علي الحل الاول دا ماشي لانه هيبقي مناسب للكود لكن لو بدل high
+      هو عملها very high مثلا ؟ لازم يغير في الكود الاول صح ؟
+    id: '694585943914450'
+  - created_time: '2014-02-01T18:33:24+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: ليه تعمله على value معينه؟ لو فيه حالات شديدة الخصوصة مثلا زي Completed
+      والخ اللي بناء عليها بتتخذ قرارات في البيزنس لوجيك ممكن تعملهم predefined وتخلي
+      المستخدم مايقدرش يعدل فيهم ولا يمسحهم، بس أظن غالبا لو لقيت نفسك بتعمل كود بناء
+      على قيمة محددة كدا يبقى بتقلل فرصة إن النظام يكون customizable بما يكفي، حاول
+      بقدر الإمكان تخليه يقدر يتحكم في كل حاجه، حتى لو مش هو اللي هيتحكم فيها أو مش
+      قدامك وقت تعمله واجهة تخليه يقدر يتحكم في كل حاجه فهذا سيكون مصلحه ليك شخصيا
+      علشان العميل غالبا بيطلب تعديلات فلما يطلب تعديل تقدر إنت تعدل بسهولة
+    id: '694586843914360'
+  - created_time: '2014-02-01T18:33:59+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: إنت مثلا إيه الكود اللي هتكتبه وبيعتمد على قيمة الـ high مثلا؟
+    id: '694587010581010'
+  - created_time: '2014-02-01T18:34:44+0000'
+    from:
+      name: Mostafa Hussein
+      id: '751286211748718'
+    message: مثلا query زي دا http://pastebin.com/1W8vdXd0
+    id: '694587527247625'
+  - created_time: '2014-02-01T18:35:39+0000'
+    from:
+      name: Mostafa Hussein
+      id: '751286211748718'
+    message: و زيه واحد للhigh و كدة ف دي معتمده علي الاسم دا و بس
+    id: '694587817247596'
+  - created_time: '2014-02-01T18:42:44+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: |-
+      الكود ده شكله بيعمل تقرير أو بيعرض التيكتات ومش شايف إن لها لازمه إنه يتكتب كدا، تقدر لو عملت كل حاجه في قاعدة البيانات عادي تخرّج تقارير وتعرض براحتك والخ
+
+      مثلا في الصفحة اللي بتعرض التكتات، تعمل فوق checkbox list فيها كل الصفوف اللي في جدول الـ Priorities والمستخدم يختار كذا حاجه وكودك يكون
+
+      select * from tickets where priority in @selectedPriorietes
+
+      وطبعا التقارير وطرق العرض تعرف تعمل group by priority وتقدر تعمل كل حاجه عادي لو هم ديناميك متسجلين في قاعدة البيانات بغض النظر عن أساميهم
+    id: '694590567247321'
+  - created_time: '2014-02-01T18:43:48+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: "دى حلها بسيط انت مالكش دعوة بالlabel ولا بالID بتاعها ، حط column تانى
+      قيمته تكون هى اللى تselect بيها \nيعنى انت مثلآ الchart محتاج high و low بدل
+      ماتدور بيهم دور على الrecord اللى انت حاططله الflag بتاع high فى الcolumn الجديد
+      .\nواخدلى بالك ؟"
+    id: '694590923913952'
+  - created_time: '2014-02-01T18:48:38+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: الطريقة دى هاتكون حلوة ان المستخدم لو غير الlabel او حب يخلى record تانى
+      خالص هو المقصود كل الحكاية انه يشيل الflag من القديم و يحطه للجديد و السيستيم
+      هايمشى عادى مالوش اى دعوة
+    id: '694592857247092'
+  - created_time: '2014-02-01T18:49:54+0000'
+    from:
+      name: Mostafa Hussein
+      id: '751286211748718'
+    message: طيب انا اقرأ عن دا فين و لا example عشان انا بقيت حاسس ان اللي بعمله
+      دا غلط في غلط :D
+    id: '694593387247039'
+  - created_time: '2014-02-01T18:50:58+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: ثوانى هاكتبها blogpost و اجيلك
+    id: '694593770580334'
+  - created_time: '2014-02-01T18:51:29+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: |-
+      u have everything u need in ruby on rails using rake.
+
+      when u setup your project u need to run rake db:create which will create ur database from the database.yml
+    id: '694594170580294'
+  - created_time: '2014-02-01T18:52:04+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: then db:migrate which will create the db structure from the migrations
+      you did in the moment of creating new mode/controller
+    id: '694594533913591'
+  - created_time: '2014-02-01T18:52:44+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: then rake db:seed which will seed the database with anything you set
+      like default admin user etc...
+    id: '694594793913565'
+  - created_time: '2014-02-01T18:53:55+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: Mostafa Hussein اوعى تقوللى ان اللى انت تقصده هو الdb:seed ؟
+    id: '694595263913518'
+  - created_time: '2014-02-01T18:57:27+0000'
+    from:
+      name: Mostafa Hussein
+      id: '751286211748718'
+    message: لا seed دي في الdevelopment انا مثلا خلصت البرنامج و حضرتك مش عاجبك كلمة
+      high و عايزها very high طيب ساعتها الكود دا ارمية اقرب bakset ? :D ما انا معرفش
+      ان اللي هيستخدمه هيحتاج كلمة بمعني تاني و كل اللي مكتوب في الكود معتمد علي high
+      مش هيشتغل لانه مستني دي بس very high ميعرفش عنها حاجة
+    id: '694596503913394'
+  - created_time: '2014-02-01T18:58:41+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: اه تمام انا كده فاهم صح. صوانى اروح اكتب الطريقة و ارجعلك
+    id: '694596900580021'
+  - created_time: '2014-02-01T19:14:32+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: hope that helps http://www.blazeboy.me/2014/02/01/making-your-code-record-independent/
+    id: '694602290579482'
+  - created_time: '2014-02-02T00:55:57+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: |-
+      The concepts you seem to be misunderstanding are more on the web engineering side and less on Rails, so I did a brain dump mixing both at http://hadyahmed.com/rails-points-of-confusion-debunked
+
+      If that still doesn't clarify what you need, let me know. Best of luck.
+    id: '694716533901391'
+  - created_time: '2014-02-02T01:34:30+0000'
+    from:
+      name: Mostafa Hussein
+      id: '751286211748718'
+    message: "Hady Ahmed طيب هو كدة في نقطة في اتفاق عليها ان استخدم values جاهزة
+      من الseed نفسه و  بالنسبة للموضوع اللي حضرتك كتبته :\nاعيد النظر في اي raw sql
+      انا كاتبه لو عرفت اكتبه بactiverecord هيكون احسن و هعمل كدة ان شاء الله اصل
+      لسة مش عارف اتعود علي ال activerecord اوي بس بحاول معاه ساعات\nتاني حاجة ال
+      hard code values مسموح بيها و طلما انا مش مزود في الinterface انه يغير في الstatus
+      مثلا يبقي عادي هيستعمل الhardcode values \n\nالجهة التانية اني لو هزودها او
+      حتي مش مزودها بس المستخدم مش عاجبه الاسم : باشمهندس عماد قالي حل اللي فهمته
+      اني هعمل constant اسمه high و هخلي قيمته ب ١ مثلا و ابني الquery بتاعي او الكود
+      علي الconstant دا \nو هعمل column في status model اسمه flag مثلا و اخلي قيمته
+      ب١ , و طبعا هيبقي الrecord كله داخل عن طريق الseed فلو المستخدم حب يغير كلمة
+      high دي هيغيرها عادي لان انا هكون معتمد علي رقم ١ من attribute اسمه flag من
+      نفس الrecord\n\nالحل اللي حضرتك تقصده اية بقي ؟ مش فاهم موضوع store to user
+      and dynamically add labels دي"
+    id: '694727740566937'
+  - created_time: '2014-02-02T09:00:12+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: تخيّل يا مصطفى إن ده مش نظام tickets لها status ، تخيل إنه نظام products
+      لها categories لإدارة فرشة فكهاني السعادة وناوي تبيعه لمحل ذهب وكشك السجاير
+      وتاجر سيارات، والمستخدم لما يجي يدخل ticket جديدة أقصد لما يجي يدخل product
+      جديد بيكتب بياناته وبيختار الـ status بتاعته أقصد بيختار الـ category بتاعته
+      هل المنتج فاكهة أم خضار أم عيار 24 أم فور-باي-فور .. مش معقول هتعمل الـ categories
+      هارد-كودد وتعدّل في السورس كود كل لما حد يشتريه أو كل لما حد يحتاج يعدل أو يضيف
+      أو يحذف categories!
+    id: '694840480555663'
+  - created_time: '2014-02-02T09:09:55+0000'
+    from:
+      name: Mostafa Hussein
+      id: '751286211748718'
+    message: Moutaz Shams في الحالة دي يبقي هعمل الinterface بتاعي انه يسمح بالتعديل
+      في القيم دي و اعتمد علي attribute تاني في الكود بتاعي عشان لما يغير الاسم يبقي
+      الrecord ثابت معايا في الكود دا حل بشمهندس عماد و قالي ان يكون الattribute دا
+      مش من ضمن الحاجات اللي هتتعدل و لوحصل و المستخدم حب يمسح كل دا يبقي عارف ان
+      في قيم اساسية بattribute معين لازم يحطها . انا دا اللي فهمته يعني علي قد ما
+      عرفت :D صح كدة و لا انا غبي جدا ؟ :D
+    id: '694842843888760'
+  - created_time: '2014-02-02T09:34:31+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: |-
+      الطريقة بتاع الأخ عماد بتستخدم في حالات مثلا لو كان من المتطلبات إن الـ tickets اللي حالتها urgent وماحدش من الموظفين فتحها في خلال ساعة لازم يتبعت لمدير المصلحة إيميل يقوله شوف الموظفين بتوعك نايمين واللا إيه، في الطلب ده حالة الـ urgent حالة خاصة محتاج تعرفها وانت بتكتب الكود علشان تكتب
+
+      if ticket-status = urgent or = 13 { sendEmail
+
+      إنما لو مش عندك أي حالات خاصة زي دي تتعلق بالبيزنس رولز ماتعملش hard code لحاجه، وبالنسبة للتقرير والخ أعمله كله ديناميك في الـ runtime وحتى الـ select أو الـ list اللي فيها الحالات هاتها من قاعدة البيانات والخ دايما ماتكتبش حاجه في الكود.. علشان يكون النظام customizable قدر الإمكان أو "على الأقل" علشان يكون "سهل عليك إنت" تعديله باضافة وحذف وتعديل حالات جديدة حتى لو مش هتخلي المستخدم هو اللي يعدل، مش معقول لو جه في دماغك تضيف status جديدة تدخل تعدل في مليون حته في السورس كود
+    id: '694854013887643'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamswTlRjek5qUTNNalE1TURFek9qRXpPVEV5TnpjMk9URT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamswT0RVME1ERXpPRGczTmpRek9qRXpPVEV6TXpNMk56RT0ZD

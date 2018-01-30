@@ -1,0 +1,81 @@
+---
+message: |-
+  Gees, I have a wordpress question.
+  I have two plugins, and I want to take a field that the first plugin inputs, and echo it onto the other plugin.
+
+  Is it even possible :D ?
+from:
+  name: Tamer Azab
+  id: '762095253977022'
+type: status
+created_time: '2016-01-01T01:45:54+0000'
+updated_time: '2016-01-01T02:17:38+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1055050494534658/
+id: '172338516139198_1055050494534658'
+comments:
+  data:
+  - created_time: '2016-01-01T01:49:46+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: this is the wrong group to post such question, a wordpress group would
+      be most appropriate for such question.
+    id: '1055051847867856'
+  - created_time: '2016-01-01T01:52:59+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: Your question is super generic and nearly impossible to answer with the
+      information you're providing :) What have you tried?
+    id: '1055053594534348'
+  - created_time: '2016-01-01T01:55:57+0000'
+    from:
+      name: Tamer Azab
+      id: '762095253977022'
+    message: |-
+      Okay let me explain.
+
+      First Plugin, gives out a field called = billing_field_887
+      This field is a custom text field for woocommerce.
+
+      The second plugin is a ticketing plugin, using the below style in echoing data.
+                          <?php echo $WooCommerceEventsHourEnd.':'.$WooCommerceEventsMinutesEnd; ?>
+
+      Now, I want to echo the billing_field_887 from the first plugin to this page.
+    id: '1055054237867617'
+  - created_time: '2016-01-01T02:01:00+0000'
+    from:
+      name: Hesham Watany
+      id: '10214843347173894'
+    message: more details ?
+    id: '1055056114534096'
+  - created_time: '2016-01-01T02:03:29+0000'
+    from:
+      name: Tamer Azab
+      id: '762095253977022'
+    message: Hesham I gave more details foo2 aho :)
+    id: '1055057804533927'
+  - created_time: '2016-01-01T02:05:55+0000'
+    from:
+      name: Hesham Watany
+      id: '10214843347173894'
+    message: "law ana fehmt sa7, \n7otaha fel session\nwkhodha fel page el tanya wb3d
+      kda ems7ha\nI hope enny akoon fehmtk"
+    id: '1055058564533851'
+  - created_time: '2016-01-01T02:12:48+0000'
+    from:
+      name: George Awad
+      id: '1781519898587185'
+    message: You can make query to get data from database directly
+    id: '1055060257867015'
+  - created_time: '2016-01-01T02:15:51+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: As George suggested, you might be able to store stuff in $wpdb with a
+      common prefix and use that.
+    id: '1055061161200258'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEExTlRBMU1UZAzBOemcyTnpnMU5qb3hORFV4TmpFeU9UZAzIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEExTlRBMk1URTJNVEl3TURJMU9Eb3hORFV4TmpFME5UVXgZD

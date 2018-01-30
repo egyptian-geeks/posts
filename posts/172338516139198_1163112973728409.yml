@@ -20,6 +20,23 @@ reactions:
     cursors:
       before: TVRBd01EQXlORGM0Tmpnd09EVTJPakUwTmpZAd09URXdOVGM2TWpVME1EazJNVFl4TXc9PQZDZD
       after: TVRBd01EQXlORGM0Tmpnd09EVTJPakUwTmpZAd09URXdOVGM2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-06-16T12:53:54+0000'
+    from:
+      name: Mostafa Hussein
+      id: '751286211748718'
+    message: |-
+      ممكن بشكل مؤقت لحد ما تعدل نظام ال containers عندك دا . في طريقة تانية بس متعبة شويتين . انك تستخدم امر docker cp .  هتنسخ من الهوست لل container . بس طبعا الافضل تستخدم الحل اللي عمرو قاله
+
+      دا لينك في ملعومات اكتر عن امر cp
+
+      https://docs.docker.com/engine/reference/commandline/cp/
+    id: '1163187707054269'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUyTXpFNE56Y3dOekExTkRJMk9Ub3hORFkyTURneE5qTTEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUyTXpFNE56Y3dOekExTkRJMk9Ub3hORFkyTURneE5qTTEZD
 attachments:
   data:
   - description: Let's say that I have docker image with web server, database server
@@ -31,7 +48,7 @@ attachments:
         src: https://external.xx.fbcdn.net/safe_image.php?d=AQAntEGj6KNL8I7m&w=316&h=316&url=http%3A%2F%2Fcdn.sstatic.net%2FSites%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded%26a&cfs=1&sx=0&sy=0&sw=316&sh=316&_nc_hash=AQAI6p974RoCbfNJ
         width: 316
     target:
-      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fq%2F37857095%2F2505648%3Fsfb%3D2&h=ATOt7lHSyiiBjFpvCGoWDqT9Jvu_4Wi5poUxaF52YiVt75ZC8FWB2PD8nss9BMifMBgzDJEvFwkMu6aWjX9WjFJPs6LmzmMJeZLQ&s=1&enc=AZPyb4zH9Yw7fnv0wFBXsZN-GJl37gJa-n4bwYqcEtRd3EWBehTSo3b5Aekbk8QU_guaSRpIDEGTgT0Eqp0FAvvy
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fq%2F37857095%2F2505648%3Fsfb%3D2&h=ATNm8JwiJBr1ttEtrVcHmNc98rgJ55Nqik3be7ue3F62Z8qs3alau7MRU_ayjf3GtROUT3Byd-m1JqvNfixElkiBY6G9bVmkevsx&s=1&enc=AZMcqZKDv-jR3TfcK2FxzT6vKpLM-ZCYpS4iqEjJlN5snySRRXyOXaI2kwBDreAj-fnTs3lwVYgWLmyeAgvmhbrY
     title: Can I push application updates to docker image without rebuilding?
     type: share
-    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fq%2F37857095%2F2505648%3Fsfb%3D2&h=ATOt7lHSyiiBjFpvCGoWDqT9Jvu_4Wi5poUxaF52YiVt75ZC8FWB2PD8nss9BMifMBgzDJEvFwkMu6aWjX9WjFJPs6LmzmMJeZLQ&s=1&enc=AZPyb4zH9Yw7fnv0wFBXsZN-GJl37gJa-n4bwYqcEtRd3EWBehTSo3b5Aekbk8QU_guaSRpIDEGTgT0Eqp0FAvvy
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fq%2F37857095%2F2505648%3Fsfb%3D2&h=ATNm8JwiJBr1ttEtrVcHmNc98rgJ55Nqik3be7ue3F62Z8qs3alau7MRU_ayjf3GtROUT3Byd-m1JqvNfixElkiBY6G9bVmkevsx&s=1&enc=AZMcqZKDv-jR3TfcK2FxzT6vKpLM-ZCYpS4iqEjJlN5snySRRXyOXaI2kwBDreAj-fnTs3lwVYgWLmyeAgvmhbrY

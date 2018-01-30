@@ -1,0 +1,40 @@
+---
+message: Why a lot of major cloud services providers don't allow FTP? and any suggestions
+  for "reliable" services do use FTP?
+from:
+  name: Hazem Hussien
+  id: '1638740126180375'
+type: status
+created_time: '2018-01-29T06:44:05+0000'
+updated_time: '2018-01-29T11:42:04+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1736817006358000/
+id: '172338516139198_1736817006358000'
+comments:
+  data:
+  - created_time: '2018-01-29T07:18:49+0000'
+    from:
+      name: Hadi Salem
+      id: '10156059281107389'
+    message: If SFTP is an option for you then I highly recommend it, it’s simple
+      SSH
+    id: '1736904579682576'
+  - created_time: '2018-01-29T08:25:28+0000'
+    from:
+      name: Eyad AlBahi
+      id: '10159879507655084'
+    message: FTP is like HTTP, it sends data in clear text and unencrypted. For your
+      own data security, not just for the provider, you should avoid using it and
+      only use SFTP. Actually, if someone is forcing you to use FTP only, you should
+      avoid dealing with them for your own good.
+    id: '1736943663012001'
+  - created_time: '2018-01-29T11:42:01+0000'
+    from:
+      name: Hazem Hussien
+      id: '1638740126180375'
+    message: 'So the question would be: What secure cloud services that provide SFTP?
+      (I hope with zero knowledge from the service provider).'
+    id: '1737066126333088'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN6Tmprd05EVTNPVFk0TWpVM05qb3hOVEUzTWpFd016STUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN6TnpBMk5qRXlOak16TXpBNE9Eb3hOVEUzTWpJMk1USXkZD

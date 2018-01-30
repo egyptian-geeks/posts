@@ -11,12 +11,32 @@ permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/71693187
 id: '172338516139198_716931871679857'
 comments:
   data:
+  - created_time: '2014-03-18T20:59:03+0000'
+    from:
+      name: Mostafa Hussein
+      id: '751286211748718'
+    message: المفروض يكون في space ما بين الnot null و اللي قبلها و بالنسبة للsql
+      انت شغال علي ايه ? اصل اللي فاكره ان مكنش في single qoute علي اسم الattributes
+      او الtables
+    id: '716933548346356'
   - created_time: '2014-03-18T20:59:54+0000'
     from:
       name: Abdalla Elnaggar
       id: '2096764887006623'
     message: work bench
     id: '716933951679649'
+  - created_time: '2014-03-18T21:01:47+0000'
+    from:
+      name: Mostafa Hussein
+      id: '751286211748718'
+    message: طيب جرب اللي قولتلك عليه و ايه الerror اللي بيظهر معاك اصلا ?
+    id: '716934595012918'
+  - created_time: '2014-03-18T21:03:24+0000'
+    from:
+      name: Mostafa Hussein
+      id: '751286211748718'
+    message: في حاجات في الكود المفروض يكون في space قبلها زي كلمة not و INTEGER
+    id: '716935305012847'
   - created_time: '2014-03-18T21:03:56+0000'
     from:
       name: Abdalla Elnaggar
@@ -75,5 +95,5 @@ comments:
     id: '717266021646442'
   paging:
     cursors:
-      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekUyT1RNek9UVXhOamM1TmpRNU9qRXpPVFV4TnpZAek9UUT0ZD
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekUyT1RNek5UUTRNelEyTXpVMk9qRXpPVFV4TnpZAek5ETT0ZD
       after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekUzTWpZAMk1ESXhOalEyTkRReU9qRXpPVFV5TkRNNE9UWT0ZD

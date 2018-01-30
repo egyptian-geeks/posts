@@ -35,7 +35,23 @@ comments:
       using your module bundler (webpack/browserify) and then specify your compiled
       file path as your library entry point. \n\n{\n  \"main\": \"/path/to/your/compiled/library.js\"\n}"
     id: '1598520873520948'
+  - created_time: '2017-09-04T18:00:17+0000'
+    from:
+      name: Ahmed Hussein
+      id: '10211387034451165'
+    message: "if you use create-react-app that should do pretty everything for you
+      letting you focusing on the app, but I recommend you to learn build tools like
+      gulp, and for react it is recommended to use webpack, check this blog post:\n\nhttps://medium.freecodecamp.org/a-roadmap-to-becoming-a-web-developer-in-2017-b6ac3dddd0cf\n\nfor
+      learning material check:\n\nhttps://facebook.github.io/react/\n\nbtw what converts
+      es6 to vanilla js a transpiler called babel and you can use it with your build
+      tool (gulp, webpack).\n\ncheck this website as well for popular and trending
+      technologies:\nhttps://bestof.js.org/\n\ninteractive learning:\nhttps://www.codecademy.com\n\n(YOUTUBE)\nlearn
+      es6 and react:\nhttps://www.youtube.com/user/Mrgexal/playlists\nlearncode.cademy\nthe
+      net ninja \ntraversey media\n\nConfs:\nhttps://youtu.be/7HSd1sk07uU?list=PLb0IAmt7-GS3fZ46IGFirdqKTIxlws7e0\n\n(GITHUB)\nYou
+      can always find useful guides like these:\n\nhttps://github.com/P1xt/p1xt-guides/blob/master/cs-wd.md\nhttps://github.com/facebookincubator/create-react-app\nhttps://github.com/airbnb/javascript\n\nBlogs:\n\nhttps://www.lullabot.com/articles/how-to-learn-react\nhttp://www.makeuseof.com/tag/best-free-tutorials-react-web-apps/\n\nand
+      much much more, just keep looking."
+    id: '1598544623518573'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU1T0RVeU1EZAzNNelV5TURrME9Eb3hOVEEwTlRRMU9UazQZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU1T0RVeU1EZAzNNelV5TURrME9Eb3hOVEEwTlRRMU9UazQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU1T0RVME5EWXlNelV4T0RVM016b3hOVEEwTlRRNE1ERTQZD

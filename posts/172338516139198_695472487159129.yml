@@ -1,0 +1,141 @@
+---
+message: "من يومين كدة كانت واقفة معايا مشكلة ان لو كلمة 'High', 'Normal' و كدة لو
+  المستخدم احتاج انه يغيرها من ملف ال seed مثلا ل very high or improtant و انا مش
+  هكون عامل حسابي علي حاجة زي كدة و هيكون سببها ان الكود بتاعي كله هيضرب طبعا لان
+  مفيش و لا قيمة من اللي مستنيها موجودة . لما سألت حضرتكم هنا حددتولي اعمل سيرش علي
+  اية بالظبط عشان اعرف هطبق ازاي و اخيرا وصلت لده \nhttp://rails-bestpractices.com/posts/708-clever-enums-in-rails\nفمثلا
+  عندي \nTICKET_STATUS = [OPEN = 'Open', PROGRESS = 'In Progress', PENDING = 'Pending',
+  SOLVED = 'Solved', CLOSED = 'Closed']\n\nالquery هيكون كالأتي\nscope :opened   ,
+  includes({ticket_statuses: :status}).where('statuses.ticket_status = ? '  , OPEN)\nو
+  ممكن يرخم و يبقي لازم تتكتب Ticket::OPEN \nو اللاين دا \nvalidates :status, inclusion:
+  {in: TICKET_STATUS}\nعشان المستخدم ميغيرهاش بمزاجه و ان حصل و حب يغير حاجة من القيم
+  هيغيرها من ال enum نفسه و بقيت الكود هيقراها عادي بدون مشاكل طالما انها اتعرفت \nبالنسبة
+  للsql query انا حاولت اكتبه عن طريق activerecord من غير ما استخدم find_by_sql بس
+  معرفتش صراحة استخدمته و خلاص بقي بس برضه خليته يستخدم الconstant عادي عملت intrpulation
+  عشان يغير مكان كل constant بالقيمة بتاعته لما يعمل execute للquery زي كدة مثلا \n\n
+  COUNT(CASE p.priority_name WHEN '#{Ticket::HIGH}'  THEN 1 END) AS high_complaints\nانا
+  قلت اكتبها يمكن يجي حد غيري و يقع معاها :D"
+link: http://rails-bestpractices.com/posts/708-clever-enums-in-rails
+from:
+  name: Mostafa Hussein
+  id: '751286211748718'
+type: link
+created_time: '2014-02-03T12:26:19+0000'
+updated_time: '2014-02-04T13:47:05+0000'
+name: Rails Best Practices | Clever enums in rails
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/695472487159129/
+id: '172338516139198_695472487159129'
+comments:
+  data:
+  - created_time: '2014-02-04T04:26:22+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: Why don't you map them with the ID. and you get out of all type of problems.
+      the user can change the label but the ID won't get changed at all ;)
+    id: '695923113780733'
+  - created_time: '2014-02-04T12:37:39+0000'
+    from:
+      name: Mostafa Hussein
+      id: '751286211748718'
+    message: "انا مجربتش صراحة بس ممكن تنفع لو مش عندي charts لان الchart انا بكون
+      محتاج انها تظهرلي داتا معينة الchart اللي بستخدمها بكون محددلها الroute اللي
+      هيوصل للaction اللي فية الquery و منها تعمل  للoutput write as json مش عارف
+      صراحة جايز حل حضرتك اسهل من اللي انا عملته دا اكيد و اكون انا شايف اني مش هعرف
+      اطبقه \nيعني دي مثلا فيها query generate series using postgresql و بعدين بتعمل
+      اللي انا كتبه فوق دا"
+    id: '696054747100903'
+  - created_time: '2014-02-04T12:37:45+0000'
+    from:
+      name: Mostafa Hussein
+      id: '751286211748718'
+    message: |-
+      open_status = Ticket.open_timeline
+            open_status = open_status.collect {|k| [k['date'].to_i,k['count'].to_i]}
+            File.open('./app/views/tickets/open_status.json','w') do |f|
+              f.write(JSON.pretty_generate(open_status))
+            end
+    id: '696054757100902'
+  - created_time: '2014-02-04T12:39:32+0000'
+    from:
+      name: Mostafa Hussein
+      id: '751286211748718'
+    message: انا حاسس اني معقد الموضوع اكتر من اللازم بس يلا اهو كل مرة بعرف حاجة
+      جديدة اغير بيها طريقة الكود اللي كنت بكتبه و يبقي احسن :D
+    id: '696055317100846'
+  - created_time: '2014-02-04T12:41:24+0000'
+    from:
+      name: Mostafa Hussein
+      id: '751286211748718'
+    message: انا طبقت كمان نفس الفكرة علي الroles اللي عندي , عشان مثلا admin محدش
+      يغيرها من نفسه و تبقي administrator مثلا عشان حاجة زي كده
+    id: '696055730434138'
+  - created_time: '2014-02-04T12:44:54+0000'
+    from:
+      name: Mostafa Hussein
+      id: '751286211748718'
+    message: |-
+      def admin?
+          self.role == "#{User::ADMIN}"
+        end
+    id: '696056673767377'
+  - created_time: '2014-02-04T13:10:49+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: Why are you writing the data to a json file?
+    id: '696067160432995'
+  - created_time: '2014-02-04T13:14:48+0000'
+    from:
+      name: Mostafa Hussein
+      id: '751286211748718'
+    message: "عشان بستخدم الchart دي تحديدا \nhttp://www.highcharts.com/stock/demo/compare\nواحدة
+      3 lines و التانية 5 lines فهي بتحتاج json file بالشكل دا http://www.highcharts.com/samples/data/jsonp.php?filename=aapl-c.json"
+    id: '696068677099510'
+  - created_time: '2014-02-04T13:29:01+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: |-
+      Interesting but you don't need to write this to disk, could you fill me in on what are you trying to accomplish? Give me a 10,000ft preview. What exactly are you building?
+      Edit: Pitch it like I'm a potential customer
+    id: '696073110432400'
+  - created_time: '2014-02-04T13:43:57+0000'
+    from:
+      name: Mostafa Hussein
+      id: '751286211748718'
+    message: "هو انا مش عارف اذا كان في طريقة غير ال json file through ajax connection
+      اقدر اعمل بيها نفس الchart دي ولا لأ. انا لما دورت لقيت عشان اخليها تستقبل data
+      لازم same type من الوقت يكون epoch time then multiplied by 1000 \nزي كدة https://gist.github.com/Code-Vortex/99c55b8ae0c14b38a110\nو
+      بعد كدة باخد الناتج و يتعمله write as json عشان ال chart تقرا منه يعني لو انا
+      مسحت الquery هي هتفضل تقرا من اخر file عندها فبعد كدة عملت كل query يكون يحسب
+      status معينة او priority معينة. لحد بقي ما قلت لو حد غير الpriority name ساعتها
+      هيفضل يطلع القيمة ب 0 \n\nو دا اللي حصل معايا امبارح اني غيرت كل الكود يستخدم
+      ال constant و نسيت اغير الكود بتاع الquery انه يستخدم constant و كان بيطلع الcount
+      ب 0 لانه كان بيدور علي string with a capital letter و اصلا انا كنت غيرت كله
+      ل small فموضوع الconstants دا عاجبني جدا :D \nو كمان امبارح لقيت دا في الofficial
+      guide \nhttp://edgeguides.rubyonrails.org/active_record_validations.html#inclusion\n\nبس
+      الحمد لله يعني لولا اني لقيتكم عرفتوني موضوع الconstant مكنش هيجي علي بالي و
+      غير كمان حددت وقت المشكلة انا محتاج search عن اية بالظبط اللي بيها وصلني لحل
+      المشكلة :D"
+    id: '696077777098600'
+  - created_time: '2014-02-04T13:47:05+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: |-
+      :D el7 3ala kol 7aga, trust me though writing it to a file isn't such a good idea. To help you better, I need to understand what are you building.
+      So kindly, pitch me the whole product.
+    id: '696079203765124'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamsxT1RJek1URXpOemd3TnpNek9qRXpPVEUwT0RjNU9EST0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamsyTURjNU1qQXpOelkxTVRJME9qRXpPVEUxTWpFMk1qVT0ZD
+attachments:
+  data:
+  - description: rails, ruby on rails, best practices, tips, tricks
+    target:
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Frails-bestpractices.com%2Fposts%2F708-clever-enums-in-rails&h=ATO-du7stjizW4Tm1YJWa1pYOoK4A-mWYHKd50F_47mnxHe_344disJjhSckEhPmlSo24a1E_bBNSeBUVefSBAvSIS4z5gV23ohH&s=1&enc=AZPEUdHaB9f6qN2MwKBVyqI67PY6VXuLBcCxKLHDgbPjsiTJgqqgVEWpg5mefgWkTs4XTZneLJy1sXzU10Zme9OS
+    title: Rails Best Practices | Clever enums in rails
+    type: share
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Frails-bestpractices.com%2Fposts%2F708-clever-enums-in-rails&h=ATO-du7stjizW4Tm1YJWa1pYOoK4A-mWYHKd50F_47mnxHe_344disJjhSckEhPmlSo24a1E_bBNSeBUVefSBAvSIS4z5gV23ohH&s=1&enc=AZPEUdHaB9f6qN2MwKBVyqI67PY6VXuLBcCxKLHDgbPjsiTJgqqgVEWpg5mefgWkTs4XTZneLJy1sXzU10Zme9OS

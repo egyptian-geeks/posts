@@ -39,9 +39,6 @@ reactions:
   - id: '2087296984840826'
     name: Ahmed Khaled
     type: LIKE
-  - id: '383542948774034'
-    name: Mostafa Fotoh
-    type: LOVE
   - id: '1706331916053658'
     name: محمود أحمد مصطفى
     type: LIKE
@@ -58,18 +55,6 @@ reactions:
     cursors:
       before: TVRBd01EQTRNamt5TmpFeU9EYzBPakUwT1RZAeU56STRPVEE2TWpVME1EazJNVFl4TXc9PQZDZD
       after: TVRBd01EQXhPVGMyTURJek16ZAzNPakUwT1RVNU56a3hORFk2TWpVME1EazJNVFl4TXc9PQZDZD
-comments:
-  data:
-  - created_time: '2017-05-28T14:04:25+0000'
-    from:
-      name: Mostafa Fotoh
-      id: '383542948774034'
-    message: Mohamed Shahin
-    id: '1495847853788251'
-  paging:
-    cursors:
-      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE1TlRnME56ZAzFNemM0T0RJMU1Ub3hORGsxT1Rnd01qWTEZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE1TlRnME56ZAzFNemM0T0RJMU1Ub3hORGsxT1Rnd01qWTEZD
 attachments:
   data:
   - description: للي مخدش باله موقع lynda نزل كام كورس حلوين ل python django

@@ -28,6 +28,30 @@ reactions:
       after: TVRJME5qZA3lNelF4TVRveE5EY3hPVFl5TkRJNU9qSTFOREE1TmpFMk1UTT0ZD
 comments:
   data:
+  - created_time: '2016-08-23T16:22:33+0000'
+    from:
+      name: Mostafa Hussein
+      id: '751286211748718'
+    message: "انا وصلت لحل تاني دلوقتي جربت ك اتصال  و شغال عادي دخلت السيرفر من غير
+      مشاكل\nبس مش عارف اجيب سيرفر دلوقتي يكون في مشكلة اتصال من مصر. ممكن حد يجربها
+      برضو و يقولنا لو بتنفع \n\nهتشغل سيرفر تور برضو و بعدها تنفذ الامر دا:\ntorsocks
+      ssh user@ip\nو بعدين من جوا السيرفر شوفت الايبي اللي انا مسجل دخول عن طريقه
+      لقيت انه من رومانيا\n\nبس طبعا مشكلة كل الحلول دي لو السيرفر نفسه عليه فايروول
+      او غيره فأكيد مش هيتعرف علي الايبي بتاعك و وقتها مش هيرضي يدخل السيرفر اصلا
+      \nفأحسن حل فعليا يكون عندك vpn لو في حالة ان السيرفر عليه حماية . غير كدة ممكن
+      نشتغل بطريقة محمد او بأمر torsocks :D"
+    id: '1212168948822811'
+  - created_time: '2016-08-23T16:30:07+0000'
+    from:
+      name: Mostafa Hussein
+      id: '751286211748718'
+    message: |-
+      Simple use of torsocks with SSH
+          $ torsocks ssh user@host.com -p 1234
+
+      Set your current shell in Tor mode.
+          $ . torsocks on
+    id: '1212173085489064'
   - created_time: '2016-08-23T21:19:30+0000'
     from:
       name: Ahmed Tawfik
@@ -42,7 +66,7 @@ comments:
     id: '1212934412079598'
   paging:
     cursors:
-      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl4TWpNNU1qRTNNakV6TXpneU1qb3hORGN4T1RnM01UY3cZD
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl4TWpFMk9EazBPRGd5TWpneE1Ub3hORGN4T1RZANU16VTAZD
       after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl4TWprek5EUXhNakEzT1RVNU9Eb3hORGN5TURNMU16YzMZD
 attachments:
   data:

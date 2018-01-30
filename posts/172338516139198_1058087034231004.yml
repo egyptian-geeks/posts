@@ -1,0 +1,65 @@
+---
+message: "rails geeks, :)\n\nin a multi-lingual website, assets pipe-lining needs
+  every css file to be precompiled, while we have at least 1 file to be conditionally
+  added (ie: style-rtl.css) if locale == \"ar\"\n\nI am looking for the \"rials way\"
+  to get over it, all I could find is some suggestions for workarounds \n\nyour advice
+  is deeply appreciated"
+from:
+  name: Ahmed Shalaby
+  id: '10215565754801598'
+type: status
+created_time: '2016-01-06T14:55:30+0000'
+updated_time: '2016-01-06T15:47:40+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1058087034231004/
+id: '172338516139198_1058087034231004'
+comments:
+  data:
+  - created_time: '2016-01-06T14:56:26+0000'
+    from:
+      name: Hany ElMulla
+      id: '10208745123345322'
+    message: اقفل الروتر وافتحه تانى
+    id: '1058087307564310'
+  - created_time: '2016-01-06T14:58:33+0000'
+    from:
+      name: Ahmed Shalaby
+      id: '10215565754801598'
+    message: ":D"
+    id: '1058088287564212'
+  - created_time: '2016-01-06T15:03:31+0000'
+    from:
+      name: Ahmed Shahin
+      id: '10155514327198323'
+    message: Could u please elaborate more? Will be glad to help Ahmed Shalaby
+    id: '1058091797563861'
+  - created_time: '2016-01-06T15:19:46+0000'
+    from:
+      name: Mahmoud Said
+      id: '10159857675500183'
+    message: |-
+      Just don't include it in the assets pipeline, should be something like this in the template itself
+      ```
+      if locale.eql?('ar')
+      = stylesheet_link_tag 'somecss file'
+      ```
+    id: '1058098427563198'
+  - created_time: '2016-01-06T15:26:21+0000'
+    from:
+      name: Ahmed Yousry Ebrahim
+      id: '10155690780307481'
+    message: |-
+      http://stackoverflow.com/questions/7134034/using-rails-3-1-assets-pipeline-to-conditionally-use-certain-css
+      I guess this is what you need
+    id: '1058101404229567'
+  - created_time: '2016-01-06T15:36:20+0000'
+    from:
+      name: Ahmed Shalaby
+      id: '10215565754801598'
+    message: |-
+      3 manifests !
+      will give it a try
+    id: '1058105214229186'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEExT0RBNE56TXdOelUyTkRNeE1Eb3hORFV5TURreU1UZAzMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEExT0RFd05USXhOREl5T1RFNE5qb3hORFV5TURrME5UZA3gZD

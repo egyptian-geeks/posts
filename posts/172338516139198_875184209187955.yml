@@ -69,6 +69,14 @@ comments:
       the type system by doing automatic conversion, which is wrong most of the time.\n\nThese
       2 jokes are funny because they are real\nhttp://anongallery.org/220/javascript:_the_good_parts\n\nhttps://www.destroyallsoftware.com/talks/wat"
     id: '875190502520659'
+  - created_time: '2015-01-05T18:01:34+0000'
+    from:
+      name: Ahmed Shalaby
+      id: '10215565754801598'
+    message: |-
+      status = (javascript && enjoy) ? "don't mix !" : "just do your job !" ;
+      console.log(status);
+    id: '875192119187164'
   - created_time: '2015-01-05T18:02:24+0000'
     from:
       name: Mohammad Tayseer
@@ -78,6 +86,14 @@ comments:
       > console.log(status)
       undefined
     id: '875192675853775'
+  - created_time: '2015-01-05T18:06:03+0000'
+    from:
+      name: Ahmed Shalaby
+      id: '10215565754801598'
+    message: |-
+      yes, it's usually "undefined" :D
+      just set the boolean values of the 2 variables and it will run
+    id: '875193975853645'
   - created_time: '2015-01-05T18:13:34+0000'
     from:
       name: Moutaz Shams

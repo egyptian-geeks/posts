@@ -124,9 +124,6 @@ reactions:
   - id: '1809581442395089'
     name: Mohamed Amin
     type: LIKE
-  - id: '10203990338636211'
-    name: Abdullah El-menawy
-    type: LIKE
   - id: '1555602977858565'
     name: Mazen Sabri Hammam
     type: LIKE
@@ -307,9 +304,6 @@ reactions:
   - id: '1989910374594728'
     name: Ahmed Algaml
     type: LIKE
-  - id: '934408920094293'
-    name: Muhammad Ahmed Fares
-    type: LIKE
   - id: '10215138798527846'
     name: Eslam Eissa
     type: LIKE
@@ -463,6 +457,9 @@ reactions:
   - id: '1621838804568441'
     name: Ahmed Hamouda
     type: LIKE
+  - id: '1323462141091607'
+    name: Khaled Fares
+    type: LIKE
   - id: '10215864285619330'
     name: Moustafa Kassem
     type: LIKE
@@ -492,6 +489,9 @@ reactions:
     type: LIKE
   - id: '2033909946622355'
     name: Muhammad Hasan
+    type: LIKE
+  - id: '751286211748718'
+    name: Mostafa Hussein
     type: LIKE
   - id: '1665988986754750'
     name: Osama Nour
@@ -763,12 +763,6 @@ comments:
       id: '10214080331513711'
     message: is there a chance to change the date, or it is final ?
     id: '1197721033600936'
-  - created_time: '2016-08-06T21:58:30+0000'
-    from:
-      name: Muhammad Ahmed Fares
-      id: '934408920094293'
-    message: ايه رائيك في الجريك كامبس؟
-    id: '1197723716934001'
   - created_time: '2016-08-06T22:10:02+0000'
     from:
       name: Mohammad Tayseer

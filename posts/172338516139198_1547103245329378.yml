@@ -1,0 +1,55 @@
+---
+message: "السلام عليكم \nلو عندى سيرفر شغال windows server وحطيت عليه sharepoint server
+  واشتغل تمام بعد كده حطيت apache و php 5  ف حصل  كونفلكت وكل م اعمل browse لاى موقع
+  ع السيرفر  بيظهرلى 404 error ومشتغلش ولا شيربوينت ولا apache \nعملت سيرش على حلول
+  كتير لكن مافيش حل اشتغل ... \nممكن لو حد عنده حل اعمله يشغل الاتنين ؟؟؟ \nوشكرا
+  مقدما ."
+from:
+  name: Eman Abd Elhamid
+  id: '1621366417983983'
+type: status
+created_time: '2017-07-14T13:27:43+0000'
+updated_time: '2017-07-14T15:59:04+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1547103245329378/
+id: '172338516139198_1547103245329378'
+reactions:
+  data:
+  - id: '1996593583935189'
+    name: Mohamed El Hawary
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTNOVE0yT1RrME1UZAzVPakUxTURBd016a3dORGc2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTNOVE0yT1RrME1UZAzVPakUxTURBd016a3dORGc2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-07-14T13:29:13+0000'
+    from:
+      name: Ahmed Magdy
+      id: '1978009525783037'
+    message: قولي الحلول اللى وصلتيلها و منفعتش عشان الناس تقدر تفيد احسن
+    id: '1547104205329282'
+  - created_time: '2017-07-14T13:33:36+0000'
+    from:
+      name: Bassam Abd Elhamid
+      id: '1955441501387657'
+    message: معرفش الحل, بس الى اعرفه انك ممكن تشغلى بى اتش بى من خلال الاى اس اس
+      You can run php in IIS using PHP Module that can be installed using Microsoft
+      Web Platform Installer.
+    id: '1547108101995559'
+  - created_time: '2017-07-14T13:33:44+0000'
+    from:
+      name: Eman Abd Elhamid
+      id: '1621366417983983'
+    message: الproxy _mod و تغيير كونفجريشن ف httpd file و تغيير  port و عملت stopلشيربوينت
+    id: '1547108168662219'
+  - created_time: '2017-07-14T15:59:02+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: غالبا ده سببه البورتات.
+    id: '1547223121984057'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUwTnpFd05ESXdOVE15T1RJNE1qb3hOVEF3TURNNE9UVXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUwTnpJeU16RXlNVGs0TkRBMU56b3hOVEF3TURRM09UUXkZD

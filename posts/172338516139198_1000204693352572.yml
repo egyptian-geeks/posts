@@ -17,6 +17,16 @@ permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/10002046
 id: '172338516139198_1000204693352572'
 comments:
   data:
+  - created_time: '2015-09-02T04:40:04+0000'
+    from:
+      name: Mostafa Hussein
+      id: '751286211748718'
+    message: "اللي جيه في تفكيري انك تضيف column جديد في قاعدة البيانات خاص بالتاريخ
+      دا و طبعا هيتحدد عن طريق الفورم . بعدين تعمل condition لما يكون الcurrent date
+      هو نفسه ال expiration date يبدأ انه يعمل hide ممكن عن طريق انه هيزود display
+      none للdiv اللي معروض جواه الحاجة دي. \nلو في طرق احسن مش عارف صراحة بس دا اللي
+      ممكن اعمله عن نفسي"
+    id: '1000316466674728'
   - created_time: '2015-09-02T04:49:22+0000'
     from:
       name: Mohamed Adel
@@ -25,6 +35,14 @@ comments:
       من التاريخ الموجود يوم فتح الابليكيشن هيبقى Hidden لو اصغر هيبقى مفتوح عادى
       \n\nبس الفكرة فى التنفيذ ولو فيه طريق احسن ممكن نتعلم برضو :D"
     id: '1000319263341115'
+  - created_time: '2015-09-02T04:51:45+0000'
+    from:
+      name: Mostafa Hussein
+      id: '751286211748718'
+    message: طيب نصيحة بقي زود اللي فكرت فيه دا في البوست ووضح انك بتسأل لو في طرق
+      احسن من الطريقة دي يعني عشان اللي يقرأ البوست يبقي عارف انه كان في فكرة معينة
+      و انت بتسأل لو في طرق افضل
+    id: '1000319570007751'
   - created_time: '2015-09-02T04:58:24+0000'
     from:
       name: Mohamed Adel
@@ -45,6 +63,19 @@ comments:
       id: '2059314294312293'
     message: Thanks Moaaz and Mahmoud.
     id: '1000855376620837'
+  - created_time: '2015-09-03T09:51:01+0000'
+    from:
+      name: Mostafa Hussein
+      id: '751286211748718'
+    message: do you mean having another table like career_archive ?
+    id: '1000858096620565'
+  - created_time: '2015-09-03T09:51:44+0000'
+    from:
+      name: Mostafa Hussein
+      id: '751286211748718'
+    message: or maybe it would be better if there is another column called career_display
+      its default is True ?
+    id: '1000858199953888'
   - created_time: '2015-09-03T11:40:35+0000'
     from:
       name: Mohamed Adel
@@ -53,5 +84,5 @@ comments:
     id: '1000892706617104'
   paging:
     cursors:
-      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF3TURNeE9USTJNek0wTVRFeE5Ub3hORFF4TVRZANU16WXkZD
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF3TURNeE5qUTJOalkzTkRjeU9Eb3hORFF4TVRZANE9EQTAZD
       after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF3TURnNU1qY3dOall4TnpFd05Eb3hORFF4TWpnd05ETTEZD

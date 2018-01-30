@@ -37,6 +37,20 @@ comments:
       match mobile user agents in nginx configuration, fastcgi cache works well in
       most common cases..
     id: '1365656486807389'
+  - created_time: '2017-01-25T11:38:40+0000'
+    from:
+      name: Mostafa Hussein
+      id: '751286211748718'
+    message: "هو اللي شايفه صح من وجهة نظري . \nبشكل عام لو بتستخدم Nginx فالمفروض
+      يكون Nginx هو ال Front و يكون مسئول عن ال Static content cache و ال SSL termination\nو
+      Varnish تكون مهمته الكاش الخاص بحاجة زي ال php لو دا اللي معمول بيه الموقع \n\nو
+      بالنسبة لل device detection هتحتاج تعمل configuration للفارنيش انه يعملها عشان
+      تفصل ما بين كاش الموبايل و كاش الديسك توب لتفادي مشاكل في شكل الموقع باختلاف
+      الاجهزة\n\nلو على حسب كلامك مش هينفع تستخدم nginx دلوقتي ممكن تجرب hitch عشان
+      موضوع ال ssl termination بس في الاخر هي هي هتحتاج حاجة تشتغل ك proxy لمجرد انها
+      تعمل ال ssl termination و هيبقى nginx احسن لانه هيفيدك في مسألة ال static content
+      cache اعتقد كمان هو احسن من فارنيش في النقطة دي تحديد"
+    id: '1365709416802096'
   - created_time: '2017-01-25T22:38:33+0000'
     from:
       name: Mohammed Halim

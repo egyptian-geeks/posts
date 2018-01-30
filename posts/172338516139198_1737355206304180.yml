@@ -1,0 +1,248 @@
+---
+message: "البوستس اللى كنت عملتلها Export فى الrepository دي من يومين \nhttps://github.com/egyptian-geeks/posts\nعملت
+  ويب ابليكيشن بruby on rails هنا امبارح \nhttps://github.com/egyptian-geeks/website\nالأبليكيشن
+  بيعمل import لجزء من الداتا (مابيعملش import للكومنتس على سبيل المثال) وبيعرضهم
+  فى بيدج كده زي التايملاين.\n\n- النهاردة عملت docker file للمشروع ده\n- مع كل push
+  للmaster branch هيتعمل بيلد للدوكر فايل على docker hub هنا https://hub.docker.com/r/egygeeks/website/\n\nالإيمدج
+  هيكون فيها الابليكيشن والبوستس والداتابيز والassets وكل حاجة جاهزة انها تشتغل على
+  طول، يعني ممكن تعملها pull وتشغلها على جهازك بأمر واحد\n\nفيه سكريبت بيعمل deploy
+  للمشروع على سيرفر ريموت، هتلاقي تفاصيل ازاي تعمل deploy هنا https://github.com/egyptian-geeks/website#deployment-1\n\n-
+  انا عملت deploy للمشروع بالطريقة دي على سيرفري واديته subdomain من الdomain بتاعي
+  ممكن تشوفه من اللينك ده\nhttp://egygeeks.emadelsaid.com/\n\n- المشروع ممكن يتعمله
+  deploy فى اكتر من مكان ولو حابب ممكن تغير الdockerfile علشان يسحب posts repository
+  تانية خالص لو عملت export لبوستس لجروب تاني."
+from:
+  name: Emad Elsaid
+  id: '627907956'
+type: status
+created_time: '2018-01-29T17:01:01+0000'
+updated_time: '2018-01-29T23:13:39+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1737355206304180/
+shares:
+  count: 1
+id: '172338516139198_1737355206304180'
+reactions:
+  data:
+  - id: '10211072612477910'
+    name: Mohamed Hafez Abdallah
+    type: LIKE
+  - id: '10214925485592247'
+    name: Ahmed Kamal
+    type: LIKE
+  - id: '10215178635767384'
+    name: Mohamed Abdelhamed
+    type: LIKE
+  - id: '1876092405757348'
+    name: Ibrahem Mahmmoud
+    type: LIKE
+  - id: '1679860805369262'
+    name: Abdelrahman Ghanem
+    type: LIKE
+  - id: '1673603399344899'
+    name: Mohamed Nabeel
+    type: LIKE
+  - id: '1608327662579661'
+    name: Karim Shoair
+    type: LIKE
+  - id: '10211255380562770'
+    name: Mohamed Nabil
+    type: LIKE
+  - id: '1692645467424046'
+    name: Osama Ahmad
+    type: LIKE
+  - id: '10156266511868081'
+    name: Ahmed Zain Mohammed
+    type: LIKE
+  - id: '1864838400255982'
+    name: Abdelwahab Mahmoud
+    type: LIKE
+  - id: '1978218419170605'
+    name: Ahmed Mhmd
+    type: LIKE
+  - id: '10155517671429272'
+    name: Ihab Khattab
+    type: LIKE
+  - id: '1712965368734053'
+    name: Asmaa Hassan Nofal
+    type: LIKE
+  - id: '1611746292276841'
+    name: Wafia Mustafa
+    type: LIKE
+  - id: '1137775362991740'
+    name: Mustafa Hussain
+    type: LIKE
+  - id: '197921750790469'
+    name: Mostafa Bili
+    type: LIKE
+  - id: '1615436418535535'
+    name: Sabry ALzahar
+    type: LIKE
+  - id: '10214861141222529'
+    name: Abdelrady Fcis
+    type: LIKE
+  - id: '557626114592197'
+    name: Ahmed Fraag
+    type: LIKE
+  - id: '10156115350739764'
+    name: Mahmoud Tantawy
+    type: LIKE
+  - id: '1589650927785028'
+    name: محمود الحسيني
+    type: LIKE
+  - id: '1723960827662084'
+    name: Muhammad Refaat
+    type: LIKE
+  - id: '1776283549051441'
+    name: Karim Ali
+    type: LIKE
+  - id: '10155450305207869'
+    name: Muhammad Hamed
+    type: LIKE
+  - id: '2032269470343650'
+    name: MO Ibrahim
+    type: LIKE
+  - id: '1455346657917758'
+    name: Mariem Abdelhady
+    type: WOW
+  - id: '10155855157936047'
+    name: Mosab Ibrahim
+    type: LIKE
+  - id: '1999765416908747'
+    name: Ahmed Khalifa
+    type: LOVE
+  - id: '181682482588996'
+    name: Ahmad Hegazy
+    type: LIKE
+  - id: '1603918496360868'
+    name: Mahmoud Jaber Wahrani
+    type: LIKE
+  - id: '1638717356163715'
+    name: Hesham Magdy
+    type: LIKE
+  - id: '879271768900112'
+    name: Osama Soliman
+    type: LIKE
+  - id: '10155961552416083'
+    name: Abdallah Hodieb
+    type: LIKE
+  - id: '1819455044782386'
+    name: Samir Mohamed
+    type: LIKE
+  - id: '973044862844261'
+    name: Ahmed Milad
+    type: LIKE
+  - id: '10156129652479747'
+    name: Radwa Kamal
+    type: LIKE
+  - id: '10215011048531592'
+    name: Hesham Desouky
+    type: LIKE
+  - id: '1635838433163394'
+    name: Mostafa Saber
+    type: LIKE
+  - id: '10156259295924301'
+    name: Mohamed Shaaban
+    type: LIKE
+  - id: '2015853231776327'
+    name: Mohamed Hafez
+    type: LOVE
+  - id: '2273091446050191'
+    name: Hamada Samir
+    type: LIKE
+  - id: '1012026932279218'
+    name: Ahmed Mohamed Abd El-Hamid
+    type: LOVE
+  - id: '1769679443064146'
+    name: Gerges Bernaba
+    type: LIKE
+  - id: '10156045771551796'
+    name: Ahmed Nader
+    type: LIKE
+  - id: '1770692349617787'
+    name: Mohammed M. Ennabah
+    type: LIKE
+  - id: '1163064820496983'
+    name: Ahmed Ayman Aladeeb
+    type: LOVE
+  - id: '10154958844281106'
+    name: Kareem El Sayed
+    type: LOVE
+  - id: '1825352097496736'
+    name: Ahmed El-Lithy
+    type: LIKE
+  - id: '1557580064295784'
+    name: Mohamed H. Fakher
+    type: LIKE
+  - id: '10160105091405314'
+    name: Mohamed Elsherif
+    type: LIKE
+  - id: '2063921527225518'
+    name: Shiref Ka
+    type: LIKE
+  - id: '1927910387525979'
+    name: Ashraf Elalfy
+    type: LIKE
+  - id: '10155259295420418'
+    name: Tarek Mostafa
+    type: LIKE
+  - id: '2022490591345439'
+    name: سامح دعبس
+    type: LIKE
+  - id: '1581849685226929'
+    name: Ayman Elbery
+    type: LOVE
+  - id: '10215515935116102'
+    name: Agk TF
+    type: LIKE
+  - id: '2160088437562198'
+    name: Shady Mohamed
+    type: LIKE
+  - id: '2760687167500624'
+    name: Mohamed El-Shahawi
+    type: LIKE
+  - id: '2029908667286506'
+    name: Waheed Ibrahim
+    type: LIKE
+  - id: '10155419951367523'
+    name: Ibrahim Sharaf ElDen
+    type: LIKE
+  - id: '930615110434715'
+    name: Ahmed Ashraf
+    type: LIKE
+  - id: '1978009525783037'
+    name: Ahmed Magdy
+    type: LOVE
+  - id: '1602773226469668'
+    name: Mahmoud Ibraheem
+    type: LIKE
+  - id: '10152079006144157'
+    name: Ahmed Gaber
+    type: LOVE
+  paging:
+    cursors:
+      before: TVRRek16YzNNRE00TkRveE5URTNNamN6TnpRM09qSTFOREE1TmpFMk1UTT0ZD
+      after: TlRRNE5UQTVNVFUyT2pFMU1UY3lORFV6TWpBNk56ZAzROalE0TURNM09URXpNekV5
+comments:
+  data:
+  - created_time: '2018-01-29T17:02:45+0000'
+    from:
+      name: Ahmed Gaber
+      id: '10152079006144157'
+    message: I was missing these posts from you, buddy
+    id: '1737356249637409'
+  - created_time: '2018-01-29T21:06:11+0000'
+    from:
+      name: Ahmed Zain Mohammed
+      id: '10156266511868081'
+    message: Awesome
+    id: '1737555856284115'
+  - created_time: '2018-01-29T22:04:58+0000'
+    from:
+      name: Ibrahem Mahmmoud
+      id: '1876092405757348'
+    message: "تقريبا في مشكلة في الsub domain \nمش شغال ياعماد"
+    id: '1737593436280357'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN6TnpNMU5qSTBPVFl6TnpRd09Ub3hOVEUzTWpRMU16WTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN6TnpVNU16UXpOakk0TURNMU56b3hOVEUzTWpZAek5EazUZD
