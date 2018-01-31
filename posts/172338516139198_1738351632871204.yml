@@ -11,11 +11,20 @@ from:
   id: '1987222834640127'
 type: status
 created_time: '2018-01-30T17:20:52+0000'
-updated_time: '2018-01-30T22:21:26+0000'
+updated_time: '2018-01-31T19:18:37+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1738351632871204/
 id: '172338516139198_1738351632871204'
 reactions:
   data:
+  - id: '1466247800164499'
+    name: Mosaab Ahmed
+    type: LIKE
+  - id: '427358481016891'
+    name: Mahmoud Hozayen
+    type: LIKE
+  - id: '1620183618049194'
+    name: Ahmed Taha
+    type: LIKE
   - id: '1975748132439825'
     name: Tarek Mahmoud
     type: LIKE
@@ -36,7 +45,7 @@ reactions:
     type: LIKE
   paging:
     cursors:
-      before: TVRBd01EQXdNVE01TnpJMU1ESXhPakUxTVRjek5UQTROalE2TWpVME1EazJNVFl4TXc9PQZDZD
+      before: TVRBd01EQXpNemM0TnpreE16VTRPakUxTVRjek56UXhOekU2TWpVME1EazJNVFl4TXc9PQZDZD
       after: TVRBd01EQXdNRFUwTkRBMk5EY3hPakUxTVRjek16TXdNakU2TWpVME1EazJNVFl4TXc9PQZDZD
 comments:
   data:
@@ -144,7 +153,18 @@ comments:
       you have to run some server validations with input changes or whatever. Cach
       some data on client to run these validations on client.
     id: '1738643316175369'
+  - created_time: '2018-01-31T19:18:35+0000'
+    from:
+      name: Mahmoud El Shaffie
+      id: '723368071200557'
+    message: It is all about tradeoffs evaluation, it depends on priority of related
+      ux requirements, and your computing cost. In line validation to provide user
+      with guidance, to enhance his experience. It very usefull in case of, one-time
+      task just as mail registeration, but i don't think that it convenient with daily
+      repetitive task. Controlling fields by providing filtered data it will be more
+      convenient.
+    id: '1739486869424347'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN6T0RNNE5UYzVNamcyTnpjNE9Eb3hOVEUzTXpNek5EazMZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN6T0RZAME16TXhOakUzTlRNMk9Ub3hOVEUzTXpVek1qRXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN6T1RRNE5qZAzJPVFF5TkRNME56b3hOVEUzTkRJMk16RTIZD

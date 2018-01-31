@@ -1,0 +1,61 @@
+---
+message: "التحدي ده شوفته كتير الصفحات الجنبية قرفانه بيه قعدت حليته بالجافا سكريبت
+  باستخدام regular expressions\nكتمرين ليا و اخد ساعه بالظبط :)\n#problem_solving\n#javascript
+  <3\n\nvar num=\"\";\nfor( var i=0 ; i <=999 ; i++ ) {\n\n    if ( i <= 9){  \n    num
+  = \"00\" + i;\n\n    }\nelse if ( i <= 99 ){ \n\n   num = \"0\" + i;\n    \n} else
+  {\n\nnum = i;\n}\n\nif (/^6|\\d8\\d|2$/.test(num)) {\n\n    \nif (!/^6|\\d1\\d|4$/.test(num)
+  && /6|1|4/.test(num)) { \nif (!/^2|\\d0\\d|6$/.test(num) && num.match(/2|0|6/g).length
+  == 2) {\nif (!/^7|\\d8\\d|0$/.test(num) && /7|8|0/.test(num)) {\n\ndocument.write(num
+  + \"<br>\")\n}\n}\n}\n}\n} //By Hassan Elsharnoby :)"
+link: https://www.facebook.com/photo.php?fbid=961831867299282&set=gm.1739496879423346&type=3
+from:
+  name: Hasan El Sharnoby
+  id: '961933410622461'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/27540719_961831867299282_3617488124015800147_n.jpg?oh=3cf61dd8a50fe6c71019bcacedcee690&oe=5B1FD77D
+created_time: '2018-01-31T21:44:17+0000'
+updated_time: '2018-01-31T22:02:18+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1739496879423346/
+id: '172338516139198_1739496879423346'
+reactions:
+  data:
+  - id: '10215178635767384'
+    name: Mohamed Abdelhamed
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRRM056VXlNems0TVRveE5URTNORE0zTXpFMU9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRRM056VXlNems0TVRveE5URTNORE0zTXpFMU9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2018-01-31T22:02:14+0000'
+    from:
+      name: Mohamed Ali
+      id: '1563997147013392'
+    message: "جرب تعمل بقي الجورزم يعمل المسأله نفسها بقي \U0001F609\nMastermind Games
+      Bot ده بوت بيعملها"
+    id: '1739602162746151'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN6T1RZAd01qRTJNamMwTmpFMU1Ub3hOVEUzTkRNMk1UTTEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN6T1RZAd01qRTJNamMwTmpFMU1Ub3hOVEUzTkRNMk1UTTEZD
+attachments:
+  data:
+  - description: "التحدي ده شوفته كتير الصفحات الجنبية قرفانه بيه قعدت حليته بالجافا
+      سكريبت باستخدام regular expressions\nكتمرين ليا و اخد ساعه بالظبط :)\n#problem_solving\n#javascript
+      <3\n\nvar num=\"\";\nfor( var i=0 ; i <=999 ; i++ ) {\n\n    if ( i <= 9){  \n
+      \   num = \"00\" + i;\n\n    }\nelse if ( i <= 99 ){ \n\n   num = \"0\" + i;\n
+      \   \n} else {\n\nnum = i;\n}\n\nif (/^6|\\d8\\d|2$/.test(num)) {\n\n    \nif
+      (!/^6|\\d1\\d|4$/.test(num) && /6|1|4/.test(num)) { \nif (!/^2|\\d0\\d|6$/.test(num)
+      && num.match(/2|0|6/g).length == 2) {\nif (!/^7|\\d8\\d|0$/.test(num) && /7|8|0/.test(num))
+      {\n\ndocument.write(num + \"<br>\")\n}\n}\n}\n}\n} //By Hassan Elsharnoby :)"
+    media:
+      image:
+        height: 681
+        src: https://scontent.xx.fbcdn.net/v/t1.0-9/27540719_961831867299282_3617488124015800147_n.jpg?oh=0737d153f8d0168eae742fde32ea097f&oe=5AE420E0
+        width: 720
+    target:
+      id: '961831867299282'
+      url: https://www.facebook.com/photo.php?fbid=961831867299282&set=gm.1739496879423346&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=961831867299282&set=gm.1739496879423346&type=3

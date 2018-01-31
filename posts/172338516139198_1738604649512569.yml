@@ -1,0 +1,174 @@
+---
+message: "ازاي بتعرفوا ان ال application بتاعك هايستحمل عدد كبير من ال active users
+  ولا لا ؟! \nانا جربت load test with jmeter بس مش عارف ايه الارقام المنطقية اللي
+  اعمل بيها test \nهو الابليكشن عليه 20K users وفيه marketing campign هاتبتدي ومتوقع
+  انه هايوصل ل 100k users\nتاني حاجة ازاي امنع dos attack من ع api .. يعني لو حد شغل
+  jmeter ع ال api عندي هايستهلك السيرفر عندي تمام ومش هايستجيب لليوزرز"
+from:
+  name: Mina William
+  id: '1958972070797083'
+type: status
+created_time: '2018-01-31T07:22:10+0000'
+updated_time: '2018-01-31T22:08:57+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1738604649512569/
+shares:
+  count: 4
+id: '172338516139198_1738604649512569'
+reactions:
+  data:
+  - id: '1631297976984313'
+    name: Abdelrhman ElSayed
+    type: LIKE
+  - id: '10156144434017417'
+    name: Mohamed Fawaz
+    type: LIKE
+  - id: '10215535363045092'
+    name: Soasoa Fawzy
+    type: LIKE
+  - id: '2338429422840365'
+    name: Islam Ismail
+    type: LIKE
+  - id: '1615436418535535'
+    name: Sabry ALzahar
+    type: LIKE
+  - id: '1271705306308815'
+    name: Kareem ȜAssi
+    type: LIKE
+  - id: '2101901136700019'
+    name: Islam Mansour
+    type: LIKE
+  - id: '1999765416908747'
+    name: Ahmed Khalifa
+    type: LIKE
+  - id: '10213134558890825'
+    name: Kamal Marcus
+    type: LIKE
+  - id: '1847421335299420'
+    name: Ahmed Sabry
+    type: LIKE
+  - id: '1625359394210186'
+    name: Ahmed Marzouk
+    type: LIKE
+  - id: '1634789043266994'
+    name: Sameer Al-Salous
+    type: LIKE
+  - id: '2074369722795584'
+    name: Sayed Abdul- Hakiem
+    type: LIKE
+  - id: '1453768164722463'
+    name: Abdallah Shatla
+    type: LIKE
+  - id: '1353212641450189'
+    name: معتز الزعبي
+    type: LIKE
+  - id: '10156191099748000'
+    name: Shady Mohamed Sherif
+    type: LIKE
+  - id: '1620183618049194'
+    name: Ahmed Taha
+    type: LIKE
+  - id: '1796497250435839'
+    name: Abdel Rahman Kamhawy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXpNVEl6Tnprd01EQXlPakUxTVRjME16Y3pNamc2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlNalkzTkRNMU5UWTJPakUxTVRjek9EVTROVGc2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2018-01-31T07:30:06+0000'
+    from:
+      name: Mohamed Eltantawi
+      id: '10160105091695314'
+    message: اعمل ليميت لعدد الrequests per ip per minute
+    id: '1738956992810668'
+  - created_time: '2018-01-31T07:35:52+0000'
+    from:
+      name: Omar Ğomaa
+      id: '994866153997784'
+    message: Ahmed Salem
+    id: '1738960496143651'
+  - created_time: '2018-01-31T07:40:36+0000'
+    from:
+      name: Ȝamr Hamam
+      id: '10159922929640055'
+    message: use cloudflare https://www.cloudflare.com
+    id: '1738962999476734'
+  - created_time: '2018-01-31T08:00:36+0000'
+    from:
+      name: Ahmed Ashraf
+      id: '930615110434715'
+    message: من خلال تجربتي البسيطه في ال large scale .. انت محتاج تعمل تست علي العدد
+      اللي انت متوقع يجيلك منه كونكرت ريكوست ممكن تستخدم apache benchmarking tool
+      علشان تشوف الابلكيشن بتاعك هيستحمل لغايه كام ف لو مثلاً انت عندك ٣٠٠٠ كونكرت
+      و الابلكيشن بيشيل ١٠٠٠ بس يبقي تعمل ٣ نودز و لوود بالانسر علشان كل واحده فيهم
+      تشيل الف .. وبردو خلي بالك الريكوست الواحد هيبروسيس داتا قد ايه و هياخد قد ايه
+      من الميموري و ال cpu علشان لو الترافيك عندك علي مره واحده متلاقيش الريكوستات
+      بتقع بسبب ان مفيش ميموري كفايه
+    id: '1738973872808980'
+  - created_time: '2018-01-31T08:22:48+0000'
+    from:
+      name: Karim Tawfik
+      id: '10159730660210062'
+    message: You should use rate limiting mechanism, and this is can be applied using
+      api gateway in case you r on Aws or azure
+    id: '1738985856141115'
+  - created_time: '2018-01-31T08:50:19+0000'
+    from:
+      name: Ahmed Hosny
+      id: '2077007312536296'
+    message: You should apply Rate Limit to the API, that would be enough for misuse
+      by authorized users, and sure a firewall would be required for heavier attacks.
+    id: '1738999632806404'
+  - created_time: '2018-01-31T08:58:11+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: Throttle and be ready to spin more hosts, or autoscalling if using aws
+    id: '1739003566139344'
+  - created_time: '2018-01-31T11:11:20+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: http://bytes.schibsted.com/five-checkups-increase-e-commerce-sales-black-friday/
+    id: '1739100529462981'
+  - created_time: '2018-01-31T12:41:24+0000'
+    from:
+      name: Mohsen Ahmed
+      id: '10211244813975768'
+    message: Marwa Emad
+    id: '1739169129456121'
+  - created_time: '2018-01-31T19:29:52+0000'
+    from:
+      name: Mohamed Shaaban
+      id: '10156259295924301'
+    message: Assuming you've load balancer in place, normally when you load test your
+      service, you start with as few requests (e.g. 1 user 1 req per second), monitor
+      your metrics (e.g. CPU, Memory, latency, event-loop if you're using nodejs,
+      ...etc), then start increasing the requests gradually (e.g linearly) to see
+      how the service behaves, keep increasing the requests until you reach either
+      your target (2x or 3x the expected requests per second) or you reach a critical
+      path where your metrics graphs don't follow your requests graph anymore (e.g.
+      requests increased by 2, but CPU increased by 3)
+    id: '1739496116090089'
+  - created_time: '2018-01-31T19:36:28+0000'
+    from:
+      name: Mohamed Shaaban
+      id: '10156259295924301'
+    message: And regarding rate limiting, first start it in shadow mode, where you
+      set the limit to some number (e.g. 20 req per minute) and once you decided to
+      block this user, just log it in your rate limiting metric and not actually block
+      it, to monitor how many users were blocked (virtually) and if this limit is
+      high or low, once you found your threshold, turn off the shadow mode and start
+      block them
+    id: '1739501309422903'
+  - created_time: '2018-01-31T20:03:17+0000'
+    from:
+      name: Mohamed Radwan
+      id: '10159976552365192'
+    message: هو الابلكشين على AWS ؟ لو كده اعمل ASG
+    id: '1739522462754121'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN6T0RrMU5qazVNamd4TURZAMk9Eb3hOVEUzTXpnek9EQTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN6T1RVeU1qUTJNamMxTkRFeU1Ub3hOVEUzTkRJNE9UazQZD
