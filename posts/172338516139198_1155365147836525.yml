@@ -1,0 +1,80 @@
+---
+message: |-
+  anyone worked on face detection problem before ?
+
+  I'm trying to search for a diverse dataset that contains different faces sizes, illumination diversity .. etc (i've found some of them already), but all what I've found up-till now are easy datasets (faces are almost the same size and the same pose).
+
+  also i'm searching for hard negative examples (pictures that look like faces but aren't actually faces) to make sure that the detector is robust, or retrain if necessary.
+
+  Thank you
+from:
+  name: عمر أمين
+  id: '10159929493885634'
+type: status
+created_time: '2016-06-03T17:49:34+0000'
+updated_time: '2016-06-05T10:26:42+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1155365147836525/
+id: '172338516139198_1155365147836525'
+reactions:
+  data:
+  - id: '10155080430175951'
+    name: Heba Hamdy Farahat
+    type: LIKE
+  - id: '10156284492809497'
+    name: Ahmed Hassan
+    type: LIKE
+  - id: '1722587847764316'
+    name: Fady Khalaf
+    type: LIKE
+  - id: '10213765601288538'
+    name: Abdarhman Taha
+    type: LIKE
+  - id: '784238185107566'
+    name: Ahmed Fathi Ghreeb
+    type: LIKE
+  - id: '1688231024566741'
+    name: Amr Rady
+    type: LIKE
+  - id: '10208601723881059'
+    name: Ezz Eldeen
+    type: LIKE
+  - id: '1664266593616217'
+    name: Mohamed Anwer
+    type: LIKE
+  - id: '10155412453232426'
+    name: Ahmed Ezz El-din
+    type: LIKE
+  - id: '10156016516346753'
+    name: Alaa El Nouby
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRZAeU1qWTFPVFV3T2pFME5qVXdPREl5TlRBNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRZANU1UYzJOelV5T2pFME5qUTVOell5TWprNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2016-06-04T00:11:51+0000'
+    from:
+      name: Mohammed Farghal
+      id: '10155396126947689'
+    message: I think it's not that easy to get hard negative examples for faces dataset.
+      One hack is to analyse false positives to have an idea of what images you need
+      to add in your training.
+    id: '1155537831152590'
+  - created_time: '2016-06-04T22:41:41+0000'
+    from:
+      name: Hamdy Khalil
+      id: '10160159961475500'
+    message: Marwan Osman
+    id: '1156125634427143'
+  - created_time: '2016-06-05T10:26:42+0000'
+    from:
+      name: Malicia Rogue
+      id: '10215513558251195'
+    message: Use TinEye's API and just pull whatever images you'd like. Thus, you
+      create your own corpus rather than trying to use someone else's one ;)
+    id: '1156382504401456'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUxTlRVek56ZA3pNVEUxTWpVNU1Eb3hORFkwT1RrNU1URXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUxTmpNNE1qVXdORFF3TVRRMU5qb3hORFkxTVRJeU5EQXkZD

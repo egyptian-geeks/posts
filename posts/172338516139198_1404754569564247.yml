@@ -1,0 +1,66 @@
+---
+message: "حد عدي علي حاجة زي كده قبل كده ؟\n\nالمفروض اني بعمل setup لpython bindings
+  لlibrary معينة \n\nو الsetup خلص .. بس لما بحاول اعمل\nimport pcl\nبيطلعلي \nImportError:
+  libpcl_io.so.1.7: cannot open shared object file: No such file or directory\n\nبعد
+  الSetup   ال.so نزل في الdist-packages بتاعة python 2.7\nلما بعمل \nldd _pcl.so\nفي
+  المكان اللي نزلت فيه\nبيطلعلي كذه library not found من الDependencies بتاعتها  ومنهم
+  الlibpcl_io.so.1.7 مع انهم موجودين في الusr/local/lib\nبس الdependency بتاعة الfile
+  معتمدة علي libpcl*.so.1.7\nو الفايل ده symbolic link لlibpcl*.so.1.7.2\n\n و المفروض
+  الusr/local/lib متضاف لل LD_LIBRARY_PATH\n\nبس لسه الدنيا مش شغالة .. انا فتحت issue
+  في الRepo بس بيتاخروا في الرد"
+from:
+  name: عمر أمين
+  id: '10159929493885634'
+type: status
+created_time: '2017-02-28T20:35:46+0000'
+updated_time: '2017-03-01T09:51:34+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1404754569564247/
+id: '172338516139198_1404754569564247'
+comments:
+  data:
+  - created_time: '2017-02-28T20:38:37+0000'
+    from:
+      name: عمر أمين
+      id: '10159929493885634'
+    message: |-
+      ldd output
+      /usr/local/lib/python2.7/dist-packages/pcl$ ldd _pcl.so | grep libpcl
+      libpcl_io.so.1.7 => not found
+      libpcl_segmentation.so.1.7 => not found
+      libpcl_features.so.1.7 => not found
+      libpcl_filters.so.1.7 => not found
+      libpcl_surface.so.1.7 => not found
+      libpcl_search.so.1.7 => not found
+      libpcl_kdtree.so.1.7 => not found
+      libpcl_octree.so.1.7 => not found
+      libpcl_common.so.1.7 => not found
+    id: '1404756139564090'
+  - created_time: '2017-02-28T20:38:54+0000'
+    from:
+      name: Bassam Abd Elhamid
+      id: '1955441501387657'
+    message: Try to use easy_install, It may help
+    id: '1404756252897412'
+  - created_time: '2017-02-28T20:39:18+0000'
+    from:
+      name: Ahmed Saleh
+      id: '10159933379005574'
+    message: is it point cloud library ?
+    id: '1404756446230726'
+  - created_time: '2017-02-28T21:50:50+0000'
+    from:
+      name: Saif Youssef
+      id: '10214384757360026'
+    message: 'Sidenote: mixing a lot of arabic and english fucks up the text direction
+      and general flow, your post is incomprehensible'
+    id: '1404807389558965'
+  - created_time: '2017-03-01T05:29:07+0000'
+    from:
+      name: Andrew Raafat
+      id: '10156262041239286'
+    message: did you try pip?
+    id: '1405240446182326'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF3TkRjMU5qRXpPVFUyTkRBNU1Eb3hORGc0TXpFME16RTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF3TlRJME1EUTBOakU0TWpNeU5qb3hORGc0TXpRMk1UUTMZD

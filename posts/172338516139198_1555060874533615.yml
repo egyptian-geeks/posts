@@ -1,0 +1,98 @@
+---
+message: |-
+  I'm working on a remote machine on several computer vision related tasks, many times i need to see the output of some scripts on some videos, so i have to do this using either teamviewer (which is very slow) or using vlc, which needs additiona steps
+
+  Are there any tools that enable me to watch videos or navigate througy images easily from a remote machine smoothly ?
+from:
+  name: عمر أمين
+  id: '10159929493885634'
+type: status
+created_time: '2017-07-22T14:32:21+0000'
+updated_time: '2017-07-22T21:15:38+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1555060874533615/
+id: '172338516139198_1555060874533615'
+reactions:
+  data:
+  - id: '1873673082698558'
+    name: Moh Dem
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhOamMyTlRReU16VTRPakUxTURBM05ESTJNVE02TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXhOamMyTlRReU16VTRPakUxTURBM05ESTJNVE02TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-07-22T14:42:17+0000'
+    from:
+      name: Ahmad Amr Attiah
+      id: '10213915088303362'
+    message: هو انا مش فاهم اوي ,, بس كروم كاست زي تيم فيوور كده لكن اسرع :D
+    id: '1555073187865717'
+  - created_time: '2017-07-22T14:52:33+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "خلي الفيديوهات ال output دي accessible على ويب سيرفر مثلا وادخل دايركت
+      شوفها streaming \nمعرفش ده قصدك بال vlc ولا لا بس هيكون في طرق تانية ايه غير
+      كدة \U0001F603"
+    id: '1555084264531276'
+  - created_time: '2017-07-22T14:54:52+0000'
+    from:
+      name: Khaled Saleh
+      id: '10212639900687220'
+    message: |-
+      I use Jupyter notebook usually for that
+      https://coderwall.com/p/ohk6cg/remote-access-to-ipython-notebooks-via-ssh
+
+      Other options could be Cyberduck [1] if you are using windows/mac machine or Filezilla [2] if you are using linux/mac/windows machine
+
+      ---------------
+      [1] https://cyberduck.io/?l=en
+      [2] https://filezilla-project.org
+    id: '1555085864531116'
+  - created_time: '2017-07-22T15:00:05+0000'
+    from:
+      name: Mohamed Rashad
+      id: '842430635938599'
+    message: |-
+      انا شايف ان مافيش اسرع من ssh connection بين ال two machines اللى شغال عليهم.
+      https://superuser.com/questions/557622/how-can-i-view-pictures-via-ssh
+      اللينك ده فيه واحد قدر يكتب script in python يحل مشكلتك عن طريق انه وجه ال web browser بتاعه لل port اللى موجود عليه ال connection وسحب منهم الصور ماعرفش اذا كانت الطريقة دى بتدعم الفيديوهات ولا لا ... ممكن تاخد جولة فى اللينك بتاع github  اللى موجود. ✌
+    id: '1555089721197397'
+  - created_time: '2017-07-22T15:36:21+0000'
+    from:
+      name: Said Bakr
+      id: '10155965038378745'
+    message: did you try remote desktop?
+    id: '1555119194527783'
+  - created_time: '2017-07-22T16:05:02+0000'
+    from:
+      name: Mohamed Ahmed
+      id: '385696705226073'
+    message: If the system has good uplink create a private channel on YouTube and
+      stream it from there you can find many scripts online that automate that
+    id: '1555142841192085'
+  - created_time: '2017-07-22T16:14:53+0000'
+    from:
+      name: Mohammed Farghal
+      id: '10155396126947689'
+    message: Use Jupyter
+    id: '1555149394524763'
+  - created_time: '2017-07-22T21:09:47+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: |-
+      Remote desktop in Windows uses RemoteFX for hardware acceleration so you can watch videos remotely fairly decent depending on how good your connection is for sure.
+      https://technet.microsoft.com/en-us/library/ff817578(v=ws.10).aspx
+    id: '1555375971168772'
+  - created_time: '2017-07-22T21:15:28+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: you can stream the video directly using ssh + vlc https://superuser.com/questions/781581/vlc-can-i-stream-over-ssh
+    id: '1555381747834861'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUxTlRBM016RTROemcyTlRjeE56b3hOVEF3TnpNME5UTTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUxTlRNNE1UYzBOemd6TkRnMk1Ub3hOVEF3TnpVNE1UTTIZD

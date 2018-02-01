@@ -1,0 +1,100 @@
+---
+message: |-
+  Anyone here have a deep understanding of  hidden markov models (viterbi algorithm), conditional random fields or recurrent neural networks and their applications in pattern spotting from a continuous stream without explicit segmentation?
+
+  Thanks
+from:
+  name: عمر أمين
+  id: '10159929493885634'
+type: status
+created_time: '2015-10-01T19:15:36+0000'
+updated_time: '2015-10-04T17:38:34+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1013973591975682/
+id: '172338516139198_1013973591975682'
+reactions:
+  data:
+  - id: '10155412453232426'
+    name: Ahmed Ezz El-din
+    type: LIKE
+  - id: '10156025239731303'
+    name: Alaa Ali
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRRNU9UWXlOREkxT2pFME5ETTNOVEE1TlRZANk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRNd01qZA3hNekF5T2pFME5ETTNNamN5TWpnNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2015-10-01T19:31:20+0000'
+    from:
+      name: Mohamed Anwer
+      id: '1664266593616217'
+    message: انا طبعا
+    id: '1013978591975182'
+  - created_time: '2015-10-01T19:31:36+0000'
+    from:
+      name: Mohamed Anwer
+      id: '1664266593616217'
+    message: انا خبره فوق ال 40 سنه
+    id: '1013978665308508'
+  - created_time: '2015-10-01T19:33:55+0000'
+    from:
+      name: Mohamed Anwer
+      id: '1664266593616217'
+    message: بس للاسف انا with explicit segmentation
+    id: '1013979485308426'
+  - created_time: '2015-10-02T02:26:43+0000'
+    from:
+      name: Hady Mahmoud
+      id: '10213443570697789'
+    message: "The plethora of terminologies you've included in your post. It's like
+      Ask Jeeves all over again but without NLP. \n\nJust when you think people would
+      stop calling sentence parsing + word graphing and some dependency graphing an
+      NLU system... /rant\n\nEdit: See what I did up there? Lol..\n\nAnyway, what
+      we know about your post now, is that you're attempting to do some sort of pattern
+      spotting on a continuous stream of entities that have no clear segmentation.
+      Uh, okay... And?\n\nAre you building a keyword spotting system? Everything you've
+      said in the post aligns with that. RNN, viterbi algorithms, continuous stream
+      (of text, I presume). \n\nThrowing a bunch of buzz words together without an
+      clear intent or a solid technical question is hardly a good conversation starter."
+    id: '1014106978629010'
+  - created_time: '2015-10-02T03:20:51+0000'
+    from:
+      name: عمر أمين
+      id: '10159929493885634'
+    message: |-
+      Thanks for replying :)
+
+      Sorry for ambiguity, the continuous stream represents a one dimensional analog signal, i've some meaningful patterns that might occur within the continuous stream, these patterns have temporal variations (not fixed time), i.e pattern #1 could take 5 ms or 7 ms or 10 ms, but the overall shape of the pattern in the same.
+
+      what i want to do is to make live decoding for the continuous stream into a series of meaningful pattern classes given that, i don't know how to know where each pattern will begin or end in the continuous stream , also the stream might have non meaningful patterns that i'm not interested in and should discard from decoding.
+
+      What i've currently implemented is a classifier that can classify any of these patterns given that the signal has a defined beginning and ending,
+    id: '1014124565293918'
+  - created_time: '2015-10-03T02:10:59+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      This guy does Neural Networks -> Mohab Elkaref
+      Not sure about the other buzzwords though :D
+      Edit: after giving it more thought, I feel this might not be close to his field of focus, but let's see.
+    id: '1014499445256430'
+  - created_time: '2015-10-03T08:27:40+0000'
+    from:
+      name: Mohab Elkaref
+      id: '10159932941280506'
+    message: "OK I'll keep this short. The only successful attempts at something similar
+      that I know of are (1) a speech recognition system that uses a combination of
+      Long Short-term Memory (lstm) networks together with a bi-directional RNN. Look
+      for a paper authored by Alex Graves and some Canadian guy. (2) The PhD dissertation
+      of Felix Gers. He used LSTMs as well to predict random spikes in a continuous
+      signal. You can download his cpp code for that, but its an absolute bitch to
+      read. \n\nCan't help you out much with HMMs I'm afraid, but if I were you I'd
+      explore them further IF I was comfortable with Support Vector Machines.\n\nHope
+      that helps."
+    id: '1014588771914164'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF4TXprM09EVTVNVGszTlRFNE1qb3hORFF6TnpJM09EZA3gZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEF4TkRVNE9EYzNNVGt4TkRFMk5Eb3hORFF6T0RZAd09EWXgZD

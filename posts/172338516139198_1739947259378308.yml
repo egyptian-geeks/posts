@@ -1,0 +1,68 @@
+---
+message: |-
+  How to handle difficulty levels in game ?
+
+  I am making simple game(TicTacToe) &using Min-Max algorithm in my AI Agent this work good for complete Expert Agent but how to handle different levels of difficulty ?
+
+  I defined "AI_Level" for every level I have(easy,med,hard,expert) then I use random number to indicate using the (min max )algorithm or (random move) due to the "AI_Level" for the current level .
+
+  It looks fine there is obvious change in every level than each other but the Agent it self isn't stable sometimes looks genius sometimes looks dump (not in expert mode).
+
+  Is there better solution  for this ?
+  Thanks .
+from:
+  name: Mohamed Ahmed
+  id: '1516953755041060'
+type: status
+created_time: '2018-02-01T09:13:41+0000'
+updated_time: '2018-02-01T21:29:44+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1739947259378308/
+id: '172338516139198_1739947259378308'
+reactions:
+  data:
+  - id: '1999765416908747'
+    name: Ahmed Khalifa
+    type: LIKE
+  - id: '771233199742137'
+    name: Mina Malak
+    type: LIKE
+  - id: '1791452377571672'
+    name: Mohammed Alaa El Komy
+    type: LIKE
+  - id: '1589304647821970'
+    name: Menem Salama
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTJNalU1TWpNNE9EVXlPakUxTVRjMU1qSXhPREE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlNamN6TkRrMU16RTJPakUxTVRjME56WTFOVFk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2018-02-01T09:46:50+0000'
+    from:
+      name: AbdAllah AbdElfatah
+      id: '1578876598875211'
+    message: |-
+      One Idea is to consider the search tree depth as an indicator for the difficulty level.
+
+      Meaning is that for the expert model you will go the whole search tree, for the med you will go only 3 levels, and for the easy you will go only one level.
+
+      This will have mainly 2 advantages:-
+      1- It will keep your searching algorithm(i.e MinMax algorithm) consistent, which is something you complain about as a side effect to your current method.
+
+      2- I think the approach is extandable even for chess AI agents, which is a huge benefit if you think about it.
+
+      Finally, the above is just old thoughts when I implemented the MinMax algorithm back in clg, so don't take literally. :))
+
+      let us know your findings. :D
+    id: '1740034259369608'
+  - created_time: '2018-02-01T21:29:41+0000'
+    from:
+      name: Ahmed Saleh
+      id: '10159933379005574'
+    message: Look for decision trees, its the basic AI data structure
+    id: '1740592442647123'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMwTURBek5ESTFPVE0yT1RZAd09Eb3hOVEUzTkRjNE5ERXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMwTURVNU1qUTBNalkwTnpFeU16b3hOVEUzTlRJd05UZA3kZD

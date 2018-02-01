@@ -10,12 +10,53 @@ from:
 type: link
 picture: https://external.xx.fbcdn.net/safe_image.php?d=AQDYRRRkgAuA6vxg&w=130&h=130&url=https%3A%2F%2Favatars2.githubusercontent.com%2Fu%2F202050%3Fs%3D400%26v%3D4&cfs=1&sx=0&sy=0&sw=400&sh=400&_nc_hash=AQDspfc39w3v5O1m
 created_time: '2018-01-31T21:45:36+0000'
-updated_time: '2018-01-31T22:04:56+0000'
+updated_time: '2018-02-01T13:47:04+0000'
 name: drdrsh/vc-crypt
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1739368476102853/
+shares:
+  count: 1
 id: '172338516139198_1739368476102853'
 reactions:
   data:
+  - id: '1692645467424046'
+    name: Osama Ahmad
+    type: LIKE
+  - id: '10156105173127334'
+    name: Khaled W. Abuelenain
+    type: LIKE
+  - id: '1672329366148161'
+    name: Muhammad Sweilam
+    type: LIKE
+  - id: '10155318238153927'
+    name: Ahmed Nasr
+    type: LIKE
+  - id: '10214384757360026'
+    name: Saif Youssef
+    type: LIKE
+  - id: '1620183618049194'
+    name: Ahmed Taha
+    type: LIKE
+  - id: '1590414361038063'
+    name: Mahmoud Soliman
+    type: LIKE
+  - id: '1578541785563334'
+    name: Mohamed Abo El-Kheir
+    type: LIKE
+  - id: '10155065423406363'
+    name: Sayed Moawad
+    type: LIKE
+  - id: '10215227781350006'
+    name: Kareem Mostafa
+    type: LIKE
+  - id: '10211664343986862'
+    name: Mohamed Nabil
+    type: LIKE
+  - id: '10159750515025408'
+    name: Mohamed Tarek El Haddad
+    type: LIKE
+  - id: '10159968598420224'
+    name: Tarek Omar
+    type: LIKE
   - id: '1999765416908747'
     name: Ahmed Khalifa
     type: LIKE
@@ -24,7 +65,7 @@ reactions:
     type: LIKE
   paging:
     cursors:
-      before: TVRBd01EQTJNalU1TWpNNE9EVXlPakUxTVRjME16Y3pOemM2TWpVME1EazJNVFl4TXc9PQZDZD
+      before: TVRBd01EQXdNelU0TWpnNE1Ea3lPakUxTVRjMU1EWXpOalE2TWpVME1EazJNVFl4TXc9PQZDZD
       after: TmpVMk5ERTRNVGMxT2pFMU1UYzBNelV5TXpnNk1qVTBNRGsyTVRZAeE13PT0ZD
 comments:
   data:
@@ -34,10 +75,28 @@ comments:
       id: '10213312263494962'
     message: 2alak doctor w teb!
     id: '1739603319412702'
+  - created_time: '2018-01-31T23:09:08+0000'
+    from:
+      name: Mohannad Ali
+      id: '10155955385444519'
+    message: 'You can use ansible-vault as well: http://docs.ansible.com/ansible/2.4/vault.html'
+    id: '1739637359409298'
+  - created_time: '2018-02-01T05:22:24+0000'
+    from:
+      name: Tarek Dawoud
+      id: '10156109957694861'
+    message: |-
+      Ok, some serious feedback:
+      1-Arbitrary password complexity rules. > 3 and < 32... But no actual character complexity. What's the point? So, "1234" is a good password?
+      2-No consequences to trying to brute force guess the 4 character password.
+      3-Password in the log as you said.
+      4-Password in clear text in memory.
+      5-Most importantly, you did not solve the main problem (of having a website password in clear text in your config file), you just moved the problem to another file. Securing your boot strap secret is something Azure solves with Managed Service Identity, AWS has something else, but that is the problem you're trying to actually address.
+    id: '1739848226054878'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN6T1RZAd016TXhPVFF4TWpjd01qb3hOVEUzTkRNMk1qazAZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN6T1RZAd016TXhPVFF4TWpjd01qb3hOVEUzTkRNMk1qazAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN6T1RnME9ESXlOakExTkRnM09Eb3hOVEUzTkRZAeU5UUTEZD
 attachments:
   data:
   - description: Contribute to vc-crypt development by creating an account on GitHub.
@@ -47,7 +106,7 @@ attachments:
         src: https://external.xx.fbcdn.net/safe_image.php?d=AQB0dNLk2Ozmonx_&w=400&h=400&url=https%3A%2F%2Favatars2.githubusercontent.com%2Fu%2F202050%3Fs%3D400%26v%3D4&cfs=1&sx=0&sy=0&sw=400&sh=400&_nc_hash=AQCi6FGMF14zovQL
         width: 400
     target:
-      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Fdrdrsh%2Fvc-crypt&h=ATOWx4cubRtCuBzUUG82vEfSOUuICsWBgnEjLIWQe1zUl3aFtesn3jJVvj8ObC6z0a3VSeSrJ_pwPLdhNc-bu6JBgIArgyx5e_3TsL3PckTIq8y40Rh3&s=1&enc=AZNYoYbYzuLumTXlPxopZMnmvcB3yM0OKAKgn-ay5np0kUX6kWKYn06dWFrwQOdAIzjg9JcdU0Z_MgqVkg6Z16ZE
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Fdrdrsh%2Fvc-crypt&h=ATOtusRezpIeuTB32S9iOemKZmzglYQarTZLj_jrH-JUUPO4ttlsETVqYsbhYeHrO68wL_tqRcZaUgvAksA1j_244P6EbFvgknqwZpHmRmy_mpglqKpb&s=1&enc=AZNrtgqZPCna5x11l6RL3jVFJLqYy9UothIC1d-9cw_I7dcgeZA6hJmfcwkFl4g9iTY
     title: drdrsh/vc-crypt
     type: share
-    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Fdrdrsh%2Fvc-crypt&h=ATOWx4cubRtCuBzUUG82vEfSOUuICsWBgnEjLIWQe1zUl3aFtesn3jJVvj8ObC6z0a3VSeSrJ_pwPLdhNc-bu6JBgIArgyx5e_3TsL3PckTIq8y40Rh3&s=1&enc=AZNYoYbYzuLumTXlPxopZMnmvcB3yM0OKAKgn-ay5np0kUX6kWKYn06dWFrwQOdAIzjg9JcdU0Z_MgqVkg6Z16ZE
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Fdrdrsh%2Fvc-crypt&h=ATOtusRezpIeuTB32S9iOemKZmzglYQarTZLj_jrH-JUUPO4ttlsETVqYsbhYeHrO68wL_tqRcZaUgvAksA1j_244P6EbFvgknqwZpHmRmy_mpglqKpb&s=1&enc=AZNrtgqZPCna5x11l6RL3jVFJLqYy9UothIC1d-9cw_I7dcgeZA6hJmfcwkFl4g9iTY

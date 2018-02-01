@@ -1,0 +1,99 @@
+---
+message: "السنة دي هدي lab  في الكلية عن الحاجات دي\n1.Gnu compilers, gprof, and valgrind
+  profilers \n\nو لاب تاني \n2.Linux \nو لاب تالت\n3.OpenMP and avx\n\nو دي المرة
+  الوحيدة اللي هيعدي فيها الطلبة علي الكلام ده لحد ما يتخرجوا .. و انا ممكن ادي وقت
+  في شرح و كده\n\nايه التطبيقات اللي اشتغلتوا بيها باستخدام الحاجات اللي فوق 1,3  و
+  ايه الحاجات اللي شايفين انها لازم تتغطي في ال3 دول\n\nهل حد شاف محاضرة مثلا الشباب
+  ممكن يذاكروا منها و لطيفة و كده عن اي topic من اللي فوق دول\n\nهل فيه حاجة الطلبة
+  ممكن يعملوها كassignment بعد اللاب تتعمل في اقل من اسبوع و تثبت في دماغهم الموضوع
+  كويس ؟ ( انا فيه حاجات بعملها معاهم)\n\nعن الlinux بقي\nازاي يقتنعوا انه مهم ..
+  انا في شغلي بحتاجه اكيد و عندي اسبابي بس كل ما المعلومات تبقي اكتر كل ما يكون احسن\n\n===========\nCurrently\nThe
+  examples given on profilers are\nOn gprof\nTrivial example on recursive implementation
+  for fib sequence which takes lots of time \n\nOn valgrind (cache grind)\nMatrix
+  multiplication as an example to show the importance of cache locality on optimization\n\nWe
+  don't cover freeing memory .. etc\n\n===========\nOpenmp report\nI ask them to implement
+  a parallel version of pi calculation by calculating the integration of a function
+  that produce the PI value, so they learn how to parallelize the implentation\n\nAlso
+  they're asked to implement the taylor series expansion of the cosine function for
+  an array of values using AVX acceleration\n\nAlso they're asked to write parallel
+  code to find the prime numbers in a big range for them to try different for loop
+  scheduling strategies (static and dynamic)"
+from:
+  name: عمر أمين
+  id: '10159929493885634'
+type: status
+created_time: '2017-09-13T21:00:53+0000'
+updated_time: '2017-09-13T23:58:55+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1606261666080202/
+id: '172338516139198_1606261666080202'
+reactions:
+  data:
+  - id: '2020380554871378'
+    name: منة الله حمدى
+    type: LOVE
+  - id: '1761139437294005'
+    name: Alaa Al-Rayes
+    type: LIKE
+  - id: '1530328990407747'
+    name: Rahma Elzefzafy
+    type: LIKE
+  - id: '10160030835075061'
+    name: Fady Morris Milad
+    type: LIKE
+  - id: '10214030500170038'
+    name: Omar Kamel
+    type: LIKE
+  - id: '1241796689255334'
+    name: Abdelrhman El Behery
+    type: LIKE
+  - id: '10159750515025408'
+    name: Mohamed Tarek El Haddad
+    type: LIKE
+  - id: '10154950104465216'
+    name: Nader Al-Sharkawy
+    type: LIKE
+  - id: '559618117708040'
+    name: Ahmed Abdelrahman
+    type: LIKE
+  - id: '1617399354965943'
+    name: Mostafa M. Abdallah
+    type: LIKE
+  - id: '1809890339023474'
+    name: Ali Badawy
+    type: LIKE
+  - id: '664166063973912'
+    name: Mahmoud Mohamed
+    type: LIKE
+  - id: '1687061354649928'
+    name: Abdelrhman Magdy
+    type: LIKE
+  - id: '10155518305294091'
+    name: Muhammad Salah El-Okda
+    type: LIKE
+  - id: '1816593775059988'
+    name: سارة حسن
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTJPVGd6TlRrME56STBPakUxTURVMk56QXdNalU2TnpnNE5qUTRNRE0zT1RFek16RXkZD
+      after: TVRBd01EQXhNamd4TkRreU9EQTJPakUxTURVek16WTFNVEU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-09-13T21:53:05+0000'
+    from:
+      name: Ahmed Nasser Qassem
+      id: '10210905199695279'
+    message: "خليهم يعملوا vectorized operations زي بتاعت numpy \U0001F608"
+    id: '1606296226076746'
+  - created_time: '2017-09-13T23:58:53+0000'
+    from:
+      name: Fady Morris Milad
+      id: '10160030835075061'
+    message: |-
+      لسة النهاردة كنت شغال فى الموضوع ده ، ودى النوتس اللى كتبتها عن ال distributed parallel compiling :
+      https://app.simplenote.com/publish/QN2Wgq
+    id: '1606367639402938'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl3TmpJNU5qSXlOakEzTmpjME5qb3hOVEExTXpNNU5UZAzEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl3TmpNMk56WXpPVFF3TWprek9Eb3hOVEExTXpRM01UTXoZD
