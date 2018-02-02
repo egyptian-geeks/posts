@@ -10,11 +10,14 @@ from:
   id: '10213786857415913'
 type: status
 created_time: '2018-01-31T20:06:45+0000'
-updated_time: '2018-02-01T00:11:52+0000'
+updated_time: '2018-02-02T18:53:13+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1739388042767563/
 id: '172338516139198_1739388042767563'
 reactions:
   data:
+  - id: '2508066406084482'
+    name: Hoba Hoby
+    type: LIKE
   - id: '181682482588996'
     name: Ahmad Hegazy
     type: LIKE
@@ -26,7 +29,7 @@ reactions:
     type: LIKE
   paging:
     cursors:
-      before: TVRBd01ESXlOREUzTXpVeE1UWXlPakUxTVRjME5UazJOVGM2TWpVME1EazJNVFl4TXc9PQZDZD
+      before: TVRBd01EQTJORE0wTkRJeE1UUTVPakUxTVRjMU5qSTVOVE02TWpVME1EazJNVFl4TXc9PQZDZD
       after: TVRBd01EQTBNREV6T1RjeE56Y3dPakUxTVRjME16UXhOalE2TWpVME1EazJNVFl4TXc9PQZDZD
 comments:
   data:
@@ -76,7 +79,27 @@ comments:
     message: Mine is Mac ProBook Touch Bar Core i5 2017. I heavily use it for programming.
       Usually between 8 to 12 hours daily. And it rocks.
     id: '1739585129414521'
+  - created_time: '2018-02-02T00:39:05+0000'
+    from:
+      name: أحمد محمود محمد عبدالوهاب
+      id: '10155226291481186'
+    message: |-
+      macbook air is totally fine for development. Just make sure it is 8gb ram
+      However, I was researching recebtly and found out that its price is close to a macbook pro baseline, which has newer hardware and better screen.
+    id: '1740715072634860'
+  - created_time: '2018-02-02T18:53:11+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: Assuming you want Macbook Air because you want a lightweght laptop. I
+      reccomend going for a DELL Inspiron 13 inch with 32 GB RAM, with i7 M or greater
+      (more cores). The OS you could use would be a Linux Ubuntu variant which is
+      more frugal with your RAM and you can set up VirtualBox VMs for development
+      environments of choice. 8 GB Ram is what I would use for my phone, a dev machine
+      should be at least 16 GB in my opinion. So I favour 1. Processor cores count
+      , 2. RAM, 3. SSD over having a MAC
+    id: '1741468792559488'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN6T1RVME9EQTRNamMxTVRVMU9Ub3hOVEUzTkRNeE1URTIZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN6T1RVNE5URXlPVFF4TkRVeU1Ub3hOVEUzTkRNME5EWXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMwTVRRMk9EYzVNalUxT1RRNE9Eb3hOVEUzTlRrM05Ua3gZD

@@ -1,0 +1,57 @@
+---
+message: |-
+  حد يعرف إزاي أرفع ملف BingSiteAuth.xml في magento2 عشان اعتماد الموقع في محرك البحث؟ الأكاونت بتاعي أدمن ومع كدا مش عارفة أaccess الـ FTP.
+
+  #SEO
+from:
+  name: Emy Ahmad
+  id: '714462715416491'
+type: status
+created_time: '2018-01-21T21:38:44+0000'
+updated_time: '2018-01-22T20:56:31+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1729236967116004/
+id: '172338516139198_1729236967116004'
+reactions:
+  data:
+  - id: '926988170782543'
+    name: Ta Ha
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTBNVFF4TURVNE9ESTJPakUxTVRZAMk1qZA3pNVE02TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTBNVFF4TURVNE9ESTJPakUxTVRZAMk1qZA3pNVE02TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2018-01-21T21:59:28+0000'
+    from:
+      name: Emy Ahmad
+      id: '714462715416491'
+    message: "\U0001F636"
+    id: '1729304913775876'
+  - created_time: '2018-01-21T22:07:24+0000'
+    from:
+      name: Ahmed Hamdy
+      id: '10159955250425013'
+    message: لو بتستخدمي ال credentials بتاعة الmagento فغالبا مش هتشتغل معاكي، يا
+      اما يكون معاكي ال credentials الخاصة بالftp او ال cpanel نفسها وترفعي الملف
+      من الfile manager
+    id: '1729310527108648'
+  - created_time: '2018-01-22T04:53:33+0000'
+    from:
+      name: Omar Ibrahim
+      id: '10116066877056474'
+    message: "Emy Ahmad I think you can do it without FTP. \n\nBing provides multiple
+      ways for authentication, 1) Uploading a file, which requires FTP, 2) Adding
+      a meta tag, which you can do using Magneto Admin Panel \n\nhttps://www.bing.com/webmaster/help/how-to-verify-ownership-of-your-site-afcfefc6\n\nhttps://magento.stackexchange.com/questions/7527/google-webmaster-verification"
+    id: '1729568347082866'
+  - created_time: '2018-01-22T20:56:28+0000'
+    from:
+      name: Emy Ahmad
+      id: '714462715416491'
+    message: Ok i did it! I had to choose a specific store and not add it in the default
+      config.
+    id: '1730294027010298'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN5T1RNd05Ea3hNemMzTlRnM05qb3hOVEUyTlRjeE9UWTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN6TURJNU5EQXlOekF4TURJNU9Eb3hOVEUyTmpVME5UZAzUZD

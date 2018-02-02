@@ -9,13 +9,22 @@ from:
   id: '1958972070797083'
 type: status
 created_time: '2018-01-31T07:22:10+0000'
-updated_time: '2018-02-01T19:14:36+0000'
+updated_time: '2018-02-02T20:39:58+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1738604649512569/
 shares:
   count: 6
 id: '172338516139198_1738604649512569'
 reactions:
   data:
+  - id: '1864838400255982'
+    name: Abdelwahab Mahmoud
+    type: LIKE
+  - id: '980575922099042'
+    name: Yosra Hamza
+    type: LIKE
+  - id: '2508066406084482'
+    name: Hoba Hoby
+    type: LIKE
   - id: '1435332426592731'
     name: Mohamed El Mallah
     type: LIKE
@@ -67,15 +76,12 @@ reactions:
   - id: '10156191099748000'
     name: Shady Mohamed Sherif
     type: LIKE
-  - id: '1620183618049194'
-    name: Ahmed Taha
-    type: LIKE
   - id: '1796497250435839'
     name: Abdel Rahman Kamhawy
     type: LIKE
   paging:
     cursors:
-      before: TVRBd01EQXpORGM1TmpJek5USTVPakUxTVRjME56QTJOekU2TWpVME1EazJNVFl4TXc9PQZDZD
+      before: TVRBd01EQXhPRGsxTWpFME5Ea3lPakUxTVRjMk1EWTVPVGM2TWpVME1EazJNVFl4TXc9PQZDZD
       after: TVRBd01EQXlNalkzTkRNMU5UWTJPakUxTVRjek9EVTROVGc2TWpVME1EazJNVFl4TXc9PQZDZD
 comments:
   data:
@@ -171,7 +177,27 @@ comments:
       id: '10159976552365192'
     message: هو الابلكشين على AWS ؟ لو كده اعمل ASG
     id: '1739522462754121'
+  - created_time: '2018-02-02T08:15:18+0000'
+    from:
+      name: Samer Ismail
+      id: '10215428278162727'
+    message: Your application’s backend/middle layers & tiers should be designed and
+      architecture as loosely coupled autonomous components/services that can scale
+      out independently to spin more instances/nodes during peak times & scale down
+      during normal load.
+    id: '1740983209274713'
+  - created_time: '2018-02-02T20:39:54+0000'
+    from:
+      name: Mohamed Shaaban
+      id: '10156259295924301'
+    message: |-
+      Mina William I forgot to mention, as you're expecting a marketing campaign to be launched, most probably you will have a huge spike in requests, which means auto-scaling group (ASG) most probably wont help (it will take time to spawn and attach a new instance + time to warm up), and you might end up losing instances, because you hit it hard.
+
+      So better be prepared and start more instances ahead (e.g. 2x) before the campaign is launched to be able to serve the requests. Keep in mind the scale-down policy might be triggered right before the campaign launches, because of low CPU, memory, or whatsoever, and in order to avoid this, you need to set the minimum number of instances as the desired one (remember the 2x?)
+
+      All of the above assumes you already got familiar with your system and you measured how much requests your services can handle
+    id: '1741552842551083'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN6T0RrMU5qazVNamd4TURZAMk9Eb3hOVEUzTXpnek9EQTMZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN6T1RVeU1qUTJNamMxTkRFeU1Ub3hOVEUzTkRJNE9UazQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMwTVRVMU1qZAzBNalUxTVRBNE16b3hOVEUzTmpBek9UazEZD
