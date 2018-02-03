@@ -1,0 +1,93 @@
+---
+message: "Is DNS hijacking related to telephone centrals here in Egypt?\nmultiple
+  times I found my router with strange dns ips\nsometime even its firmware is being
+  played with.\ncan't find any malware in my pc .\n\ntl;dr;\nsometimes in my area
+  me and my friends connected to the same telephone central get redirects to adware
+  pages when visiting some specific websites i.e.(facebook, google). sometimes nothing
+  is reachable. and of course the chronic click-popups in any website. I use the same
+  devices in my network, in different network in different area and I don't get any
+  adware or click-popus. \nI reset my router to factory settings multiple times but
+  this issues just keep coming back!\nI had this issue using ubuntu 12/14/16 windows
+  7/8/8.1/10 and android.\nthe last adware DNS server ip forced to my router was:
+  79.143.82.186\nclick popups redirects to wonderlands.com with urls like this:\nwonderlandads.com/afu.php?zoneid=437742\n\nthought
+  I would share this with you if you have any useful info because I'm a total networks
+  noob."
+from:
+  name: Mohamed Ramdan
+  id: '10215947438979022'
+type: status
+created_time: '2016-09-04T23:25:58+0000'
+updated_time: '2016-09-06T06:49:09+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1223245184381854/
+id: '172338516139198_1223245184381854'
+reactions:
+  data:
+  - id: '10155970357301341'
+    name: Amr Magdy Abdel Aziz
+    type: LIKE
+  - id: '10215070655377585'
+    name: Mahmoud Kandeel
+    type: LIKE
+  - id: '1673431476060100'
+    name: Ahmed Khaled
+    type: LIKE
+  - id: '807217676124758'
+    name: Youssef Yossry
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpFNU5EazJNelF3T2pFME56TXhNREEwTXpNNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQTFNRGsxT1Rrd016RTJPakUwTnpNd016STVNekU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-09-05T00:13:36+0000'
+    from:
+      name: Ahmed Khaled
+      id: '1673431476060100'
+    message: finally someone is talking about that!
+    id: '1223277461045293'
+  - created_time: '2016-09-05T00:13:57+0000'
+    from:
+      name: Mohamed El-Sayed
+      id: '10155182529813309'
+    message: It's a vulnerability in the router itself. Try to update it's firmware.
+      It might help. You are correlating it to you re area, because whole ranges of
+      IPs get attacked, and they are usually in the same area. This has been happening
+      for years ..
+    id: '1223277601045279'
+  - created_time: '2016-09-05T06:01:10+0000'
+    from:
+      name: Mohamed Abdel Aty
+      id: '10215620557573580'
+    message: "Most routers have remote exploits.  Make sure no one could access your
+      router from the wan \n\nA little trick to do so is to port forward port 80 to
+      a fake ip"
+    id: '1223465347693171'
+  - created_time: '2016-09-05T18:35:41+0000'
+    from:
+      name: Amr Magdy Abdel Aziz
+      id: '10155970357301341'
+    message: Happened to my routet also. Factory resetting for the router helped for
+      sometime but at last I had to get a new router.
+    id: '1223926854313687'
+  - created_time: '2016-09-05T20:01:46+0000'
+    from:
+      name: Mohamed Ramdan
+      id: '10215947438979022'
+    message: I think the best solution is factory reset and setting administrator
+      password for a strong one.
+    id: '1224000307639675'
+  - created_time: '2016-09-06T03:26:07+0000'
+    from:
+      name: Mohamed A. Baset
+      id: '2088941797787563'
+    message: "-Make sure that your router is not vulnerable to rom0 exploit.  \n\n-Make
+      sure that the DMZ and the port forwarding features are disabled and not accessible
+      via WAN\n\n-Do a local port forwarding for these ports (21, 23) \n\n-Activate
+      ACL by allowing only your local machine to access specific ports like 80 also
+      your machine's ip address have to be static to do so."
+    id: '1224273124279060'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl5TXpJM056UTJNVEEwTlRJNU16b3hORGN6TURNME5ERTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl5TkRJM016RXlOREkzT1RBMk1Eb3hORGN6TVRNeU16WTMZD

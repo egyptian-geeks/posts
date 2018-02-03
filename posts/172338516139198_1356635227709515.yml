@@ -229,6 +229,9 @@ reactions:
   - id: '596754867329273'
     name: Mahmoud Hamdy
     type: LIKE
+  - id: '1777747355608739'
+    name: Kareem Ali
+    type: WOW
   - id: '10215102492336576'
     name: Fady Khafagy
     type: LIKE
@@ -664,9 +667,6 @@ reactions:
   - id: '410813692680596'
     name: Nada N. Elmeligy
     type: LIKE
-  - id: '495080930892199'
-    name: Muhammed Nagy
-    type: LIKE
   - id: '1723960827662084'
     name: Muhammad Refaat
     type: LIKE
@@ -727,9 +727,6 @@ reactions:
   - id: '1867908683243176'
     name: Maged Fathy Ghazouly
     type: LIKE
-  - id: '10208484240383892'
-    name: Amr Adel
-    type: LIKE
   - id: '1517871968329749'
     name: Karim Haggag
     type: LIKE
@@ -775,12 +772,6 @@ comments:
       id: '10155858852348046'
     message: Mahmoud M Ali
     id: '1356644521041919'
-  - created_time: '2017-01-16T20:48:51+0000'
-    from:
-      name: Muhammed Nagy
-      id: '495080930892199'
-    message: عاااش يا ادهم
-    id: '1356650351041336'
   - created_time: '2017-01-16T20:49:02+0000'
     from:
       name: Nada N. Elmeligy
@@ -847,12 +838,6 @@ comments:
       id: '10210346747776038'
     message: Esraa Afifi check that =D
     id: '1356730851033286'
-  - created_time: '2017-01-16T23:24:26+0000'
-    from:
-      name: Amr Adel
-      id: '10208484240383892'
-    message: Khaled Nasr
-    id: '1356737421032629'
   - created_time: '2017-01-17T00:07:27+0000'
     from:
       name: Atef Khairy Etman
@@ -902,6 +887,12 @@ comments:
     message: "احسنت حاول الاستقاد من openEEG سوف تكون القرائه اسهل من قرائه اوتار
       اليد \nhttp://openeeg.sourceforge.net\n:-)"
     id: '1357216954318009'
+  - created_time: '2017-01-17T14:55:51+0000'
+    from:
+      name: Kareem Ali
+      id: '1777747355608739'
+    message: عاش جداا
+    id: '1357254024314302'
   - created_time: '2017-01-17T22:38:06+0000'
     from:
       name: Hussein El-Sherif

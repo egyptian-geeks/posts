@@ -80,6 +80,9 @@ reactions:
   - id: '10155276579769013'
     name: Hosny Abdelrahman
     type: LIKE
+  - id: '1400832526728579'
+    name: Ahmed Ali
+    type: LIKE
   - id: '10210819387389849'
     name: Safouane Fakhfakh
     type: LIKE
@@ -137,10 +140,20 @@ comments:
       بتبقي عايزة مستوي اعلي شوية.. كورسات المبتدئين مغرقة ال youtube. عايزيين الحاجة
       المتخصصة شوية."
     id: '1266702060036166'
+  - created_time: '2016-10-23T17:24:58+0000'
+    from:
+      name: Ahmed Ali
+      id: '1400832526728579'
+    message: بس ال data structure , design pattern , algorithm يتصنفو advanced بشكل
+      عام فى ال programming بصرف النظر عن اللغة... اعتقد بما ان الكورس Mastering Javascript
+      يبقى مهم يكون advanced فى اللغة نفسها ويكون بيتكلم بشكل مفصل عن ال core javascript
+      اللى بسبب ضعفها عند ناس كتير بتخليهم مستصعبين اللغة ومبيبقوش فاهمين ال behavior
+      وبيتوهو فاتبقى copy&paste من ال Documentation من غير فهم.
+    id: '1266751996697839'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkyTmpZANE9UazVOamN3TkRBek9Ub3hORGMzTWpNNE5UZA3oZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkyTmpjd01qQTJNREF6TmpFMk5qb3hORGMzTWpNNU5ETTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkyTmpjMU1UazVOalk1Tnpnek9Ub3hORGMzTWpRek5EazQZD
 attachments:
   data:
   - description: "ازيكم يا شباب ، ابتديت تسجيل كورس جديد بعنوان \"Mastering Javascript\"

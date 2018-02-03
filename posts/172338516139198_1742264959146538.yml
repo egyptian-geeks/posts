@@ -1,0 +1,131 @@
+---
+message: شباب محتاج مساعدة ازاي اوقف  ddos attacks تماما .. عملت محاولات كتير قللت
+  الموضوع كتير لكن مازال الموقع بيقع لمدة دقتين ثلاثة مرة او اتنين يوميا
+from:
+  name: Amro Shalaby
+  id: '947913522023811'
+type: status
+created_time: '2018-02-03T17:13:01+0000'
+updated_time: '2018-02-03T22:58:32+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1742264959146538/
+id: '172338516139198_1742264959146538'
+reactions:
+  data:
+  - id: '1808404355859805'
+    name: Ahmed Saeed
+    type: LIKE
+  - id: '1435332426592731'
+    name: Mohamed El Mallah
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdOekEzTnpRMk1UQTNPakUxTVRjMk9ETTVNakE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXpORGM1TmpJek5USTVPakUxTVRjMk9EQTRNakk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2018-02-03T17:14:17+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: ممكن تقولنا ايه اللى عملته لحد دلوقتي علشان ماحدش يقولك حل مكرر ؟ بما
+      انك عملت محاولات كتير ده معناه ان معظم اللى الناس هتقترحه عليك هتكون عملته فعلا
+      فمحتاجين نعرف انت عملت ايه علشان نقولك ايه اللى انت ماعملتوش
+    id: '1742386565801044'
+  - created_time: '2018-02-03T17:15:51+0000'
+    from:
+      name: Ahmed Amr Farid
+      id: '10155859538230336'
+    message: what kind of ddos are u exposed to and which ones you still cannot stop?
+    id: '1742387702467597'
+  - created_time: '2018-02-03T17:32:43+0000'
+    from:
+      name: Ahmed Ashraf
+      id: '930615110434715'
+    message: "المفروض ان الmoving to cloudflare و تفعل الddos mode يظبطلك الحوار ده
+      ! \nمتاكد ان الموقع لما بيقع بيبقي بسبب الريكوستات الكتير ؟ ممكن يكون فيه صفحه
+      عندك بتعمل كومبلكيس كويري جامد و هي اللي بتوقعه"
+    id: '1742399502466417'
+  - created_time: '2018-02-03T17:47:06+0000'
+    from:
+      name: Mahmoud M. Abdel-Fattah
+      id: '10160028885050387'
+    message: Cloudflare?
+    id: '1742410405798660'
+  - created_time: '2018-02-03T18:06:53+0000'
+    from:
+      name: AbdAllah Khashaba
+      id: '1032800230207501'
+    message: نفس القصة حصلت من موظف شغال معايا عنده فيروس على جهازه وسرعة نت 16 ميجا
+      وقعلي السيرفر تماما ، اشتركت في cloudflare ب  20$ شهرياً وريحت دماغي ، والسيرفر
+      بقى أسرع من الأول كتير جداً
+    id: '1742426892463678'
+  - created_time: '2018-02-03T18:13:28+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: |-
+      Fail2Ban
+      لو ده سيرفر vps وعندك فل كنترول عليه... هيمنع الكلام ده كله على مستوى كل السيرفسز ع السيرفر
+    id: '1742433109129723'
+  - created_time: '2018-02-03T18:35:27+0000'
+    from:
+      name: Mohamed Zeineldin
+      id: '10215377993433708'
+    message: بص هوا fail2ban عمل معايا شغل حلو اوى فى ال Ddos
+    id: '1742453082461059'
+  - created_time: '2018-02-03T19:20:35+0000'
+    from:
+      name: Ahmed Abu Eldahab
+      id: '2056383631300860'
+    message: cloudflare free plan and activate ddos mode
+    id: '1742495332456834'
+  - created_time: '2018-02-03T20:49:43+0000'
+    from:
+      name: Mohamed Hamza
+      id: '1780939041979216'
+    message: |-
+      مادام بتستخدم كلاود فلير أعمل بلوك لكل الترافيك اللي جايلك من  اي مكان غير ايبيهات كلاود فليير عشان لو معاه الآي بي
+      cloudflare.com/ips-v4
+    id: '1742554389117595'
+  - created_time: '2018-02-03T21:16:33+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: |-
+      Use something like cloudflare or Aws Sheild,
+      Change your ips
+      Block outgoing and ongoing traffic but from cloudflare/Sheild servers.
+    id: '1742573589115675'
+  - created_time: '2018-02-03T21:40:14+0000'
+    from:
+      name: Mohamed Fergany
+      id: '10215339863195300'
+    message: "انا عارف ان حلي ممكن يبقي غريب بس انا خدت بالي انت قلت Blocking XML-RPC
+      فالمشكلة حصلت معاي علي دجتال اوشن زيك كدا . \n\n انا كانت عندي مشكلة علي كل
+      الووردبريس علي ديجتال اوشن مع اني كنت حاطط كل سايت منهم علي سيرفر لوحده مهما
+      جبت سيرفرات اعلي مكنش بيحصل حاجة وبرده السايت كان بيقع مع ان مفيش حد بيستخدم
+      المواقع دي تقريبا غيري. نقلت من ديجتال اوشن للينود وحطيت المواقع كلها علي سيرفر
+      واحد وشغال زي الفل \n\nوالسؤال الي عاوز اساله عرفت منين انه DDos attack . المفروض
+      لما تركب كلاودفلير لو فيه ددوس المشكلة تكون اتحلت . فممكن تبقي في حاجة تاني
+      ."
+    id: '1742587795780921'
+  - created_time: '2018-02-03T21:55:15+0000'
+    from:
+      name: AbdAllah Khashaba
+      id: '1032800230207501'
+    message: انا شاكك انك عندك cronjob هي اللي موقعالك الموقع ممكن تكون بتلووب على
+      داتا كتير
+    id: '1742600645779636'
+  - created_time: '2018-02-03T22:51:53+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: "Then you should see why still your app is collapsing and if its an app
+      bug where you hit db limit or connections or its a server configurations. \n\nIve
+      seen an app that just starting trying to make 500 connection to the db. Your
+      issue will be something around that."
+    id: '1742635095776191'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMwTWpNNE5qVTJOVGd3TVRBME5Eb3hOVEUzTmpjNE1EVTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMwTWpZAek5UQTVOVGMzTmpFNU1Ub3hOVEUzTmprNE16RTAZD

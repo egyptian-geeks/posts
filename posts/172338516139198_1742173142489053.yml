@@ -1,0 +1,326 @@
+---
+message: "هشارك معاكم اخطاء شوفتها في التعامل مع AWS:\n1- صديق كان شغال في مشروع على
+  github وبالغلط عمل Push لل access key and secret keys. جاتله فاتورة 35 الف دولار
+  في يوم واحد . امازون بعتت ليه ان keys على github وعملوا freeze للaccount وفي الاخر
+  ماخذوش منه فلوس.\n2- زميل كان شغال على region وبيستخدم terraform وبالغلط مسح كل
+  instances بتاعت الproduction .\n3- زميل كل شغال على lambda وبالغلط عمل loop لما
+  حاجة تتضاف على S3 ي trigger lambda \n4- زميل بالغلط استخدم I/O   كبير مش فاكر كان
+  4000 وهو بيعمل EBS وكانت بتكلف يوميا 400 دولار\n5- غير الاخطاء الزملاء الي بيسيبوا
+  instances شغالة ونسيها . دائما استخدم tags والي معلهاش tag تتقفل .\n 6- كان في مشكلة
+  في CDN والزميل عمل switch للtraffic من CDN الى ec2 instances عليها varnish ونسي
+  يرجع تاني لل CDN بعد ما المشكلة اتحلت . جيت فاتورة فوق 30 الف يورو من AWS\n\nلو
+  حد عنده اضافة ياريت يكتبها"
+from:
+  name: Mohamed Radwan
+  id: '10159976552365192'
+type: status
+created_time: '2018-02-03T13:15:35+0000'
+updated_time: '2018-02-03T22:20:46+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1742173142489053/
+shares:
+  count: 6
+id: '172338516139198_1742173142489053'
+reactions:
+  data:
+  - id: '1862328800505232'
+    name: Isn Ibrahim
+    type: LIKE
+  - id: '1821918031216201'
+    name: Muhamad Omar
+    type: HAHA
+  - id: '2022490591345439'
+    name: سامح دعبس
+    type: LIKE
+  - id: '10156274589078013'
+    name: Ahmed Hammad
+    type: LIKE
+  - id: '10159960198215788'
+    name: Mohamed Fawzy
+    type: HAHA
+  - id: '10155827364301005'
+    name: Abdelrahman Ghareeb
+    type: HAHA
+  - id: '10211255380562770'
+    name: Mohamed Nabil
+    type: LIKE
+  - id: '927490574073670'
+    name: Mahmoud Abdalazez
+    type: LIKE
+  - id: '723368071200557'
+    name: Mahmoud El Shaffie
+    type: LIKE
+  - id: '1411704762273285'
+    name: Mostafa Zaghloul
+    type: LIKE
+  - id: '1824520801181678'
+    name: Hamad Isht
+    type: LIKE
+  - id: '1769679443064146'
+    name: Gerges Bernaba
+    type: HAHA
+  - id: '10213109008032575'
+    name: Amr AbuMuslim
+    type: LIKE
+  - id: '10156259295924301'
+    name: Mohamed Shaaban
+    type: LIKE
+  - id: '2263610936997643'
+    name: Karim Mohamed
+    type: LIKE
+  - id: '777858945748876'
+    name: Ahmed Radwan
+    type: LIKE
+  - id: '10154904189965670'
+    name: Ahmad Alfy
+    type: WOW
+  - id: '10211637533318780'
+    name: Amira Nasrullah
+    type: LIKE
+  - id: '1163064820496983'
+    name: Ahmed Ayman Aladeeb
+    type: WOW
+  - id: '433680763739830'
+    name: Hussein Elturkey
+    type: LIKE
+  - id: '568720840148161'
+    name: Abeer Kamal
+    type: LIKE
+  - id: '10213471465713812'
+    name: Marwa Farrag
+    type: LIKE
+  - id: '980575922099042'
+    name: Yosra Hamza
+    type: LIKE
+  - id: '2098460670179130'
+    name: Muhammed Raafat
+    type: LIKE
+  - id: '627907956'
+    name: Emad Elsaid
+    type: LIKE
+  - id: '10159817376550705'
+    name: Mohamed Salem Korayem
+    type: LIKE
+  - id: '10155802654056014'
+    name: Islam Azab
+    type: LIKE
+  - id: '402301146892668'
+    name: Esso de Nasr
+    type: LIKE
+  - id: '10156129652479747'
+    name: Radwa Kamal
+    type: LIKE
+  - id: '10214510847625890'
+    name: Amr Mustafa Zaki
+    type: LIKE
+  - id: '2096358110650589'
+    name: Ahmed Khaled
+    type: LIKE
+  - id: '10155476389245805'
+    name: Rahal Elshahhawi
+    type: LIKE
+  - id: '10155012005352687'
+    name: Eman A. Ahmed
+    type: LIKE
+  - id: '1930008130345906'
+    name: Mohammed Magdi
+    type: HAHA
+  - id: '1593162530738796'
+    name: Ahmed Samer Zaid
+    type: LIKE
+  - id: '2278815482143916'
+    name: Mohamed Azazy
+    type: HAHA
+  - id: '1743826635639938'
+    name: Adel Ewis
+    type: LIKE
+  - id: '10156482645683455'
+    name: Sameh El Ramlawy
+    type: LIKE
+  - id: '10211325385431402'
+    name: Abdalla Zaki Al-Kateb
+    type: HAHA
+  - id: '10159917785635125'
+    name: Osama Elgebaly
+    type: LIKE
+  - id: '10215138639890449'
+    name: Heba Mahgoub
+    type: HAHA
+  - id: '574455952897021'
+    name: Jasmine G. Abdelrahim
+    type: LIKE
+  - id: '1589304647821970'
+    name: Menem Salama
+    type: LIKE
+  - id: '1818224478190849'
+    name: Yousef Mahmoud
+    type: WOW
+  - id: '10155547863649263'
+    name: Ahmed M. Araby
+    type: LIKE
+  - id: '343093782858862'
+    name: Ahmed Hammad
+    type: LIKE
+  - id: '1873673082698558'
+    name: Moh Dem
+    type: LIKE
+  - id: '10215178635767384'
+    name: Mohamed Abdelhamed
+    type: LIKE
+  - id: '10160007537500512'
+    name: Abbas Adel Ibrahim
+    type: WOW
+  - id: '1208358265962928'
+    name: Muhammad Tarek
+    type: HAHA
+  - id: '10215514716364029'
+    name: Amir Asaad
+    type: LIKE
+  - id: '1532825676787208'
+    name: Mohamed Badawi
+    type: LIKE
+  - id: '10155787111376210'
+    name: Mostafa Muhammad
+    type: LIKE
+  - id: '10159726802330618'
+    name: Ahmed AbouZaid
+    type: LIKE
+  - id: '2186710791556561'
+    name: Omar Abdelkader
+    type: LIKE
+  - id: '1812131428831070'
+    name: Ahmed Ateek
+    type: LIKE
+  - id: '859391800899712'
+    name: Mohamed Huzien
+    type: LIKE
+  - id: '806846412831925'
+    name: Ahmed Shirin
+    type: HAHA
+  - id: '10154958844281106'
+    name: Kareem El Sayed
+    type: HAHA
+  - id: '1697848296942410'
+    name: Taha Magdy
+    type: HAHA
+  - id: '10156998094983709'
+    name: Mohamed Ghayaty
+    type: LIKE
+  - id: '181682482588996'
+    name: Ahmad Hegazy
+    type: LIKE
+  - id: '10160030835075061'
+    name: Fady Morris Milad
+    type: LIKE
+  - id: '10155967922169840'
+    name: Ahmed Raafat
+    type: LIKE
+  - id: '10156301546469701'
+    name: Amr ELsaqqa
+    type: LIKE
+  - id: '1978009525783037'
+    name: Ahmed Magdy
+    type: LIKE
+  - id: '10215462521020547'
+    name: Abanoub Milad Hanna
+    type: LIKE
+  - id: '10156649659196002'
+    name: Muhammad Saleh
+    type: LIKE
+  - id: '1723960827662084'
+    name: Muhammad Refaat
+    type: LIKE
+  - id: '10159976784510596'
+    name: Islam Abdelaziz
+    type: LIKE
+  - id: '1444931018966857'
+    name: Amr MUhamed
+    type: LIKE
+  - id: '1999765416908747'
+    name: Ahmed Khalifa
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhPRFF6T1RBM016SXpPakUxTVRjMk9UZAzNPREE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTJNalU1TWpNNE9EVXlPakUxTVRjMk5qTTRNamc2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2018-02-03T13:20:30+0000'
+    from:
+      name: Muhammad Saleh
+      id: '10156649659196002'
+    message: محمد بعد اذنك ممكن تبقي تبقولي Terraform ده بيستعمل لايه بالظبط؟
+    id: '1742179135821787'
+  - created_time: '2018-02-03T13:23:25+0000'
+    from:
+      name: Mohamed Akram
+      id: '10215217873899540'
+    message: في طريقة نقفل بيها سكة سحب الفلوس دي خالص شغالين مشروع تخرج عليه و الفيزا
+      بتاعتي و مش ناويين نستخدم اي حاجة بره الfree tier
+    id: '1742181149154919'
+  - created_time: '2018-02-03T13:30:47+0000'
+    from:
+      name: Mohamed Mostafa Hassan
+      id: '10155001593816507'
+    message: هو ممكن يتعمل budget limit دولار مثلا ولما تعديه يتبعتلك اميل
+    id: '1742185879154446'
+  - created_time: '2018-02-03T14:22:31+0000'
+    from:
+      name: Moustafa Elkady
+      id: '10204414533160604'
+    message: ليه خاد 35 الف دولار لما عمل بوش مش فاهم ايه السبب ؟
+    id: '1742228579150176'
+  - created_time: '2018-02-03T14:25:12+0000'
+    from:
+      name: Ahmed Metwally
+      id: '175379436568373'
+    message: |-
+      انا معاك ومع اى حد فى ان اللعب فى ال aws resources بدون وعي كامل هيزعلك ويزعل الشركة ويزعل اى حد معدي من جنب الشركة.
+      بس هو فى علاج لمنع المشاكل دى
+      اولاً بالنسبة للفاتورة فى إمكانية انك تعمل Limit ليها .. وده لازم يتعمل فى حالة او انت عارف اخرك كام.. فى الحالة دى aws بتعمل estimate لكل service انت بتعملها provision ولو ال cost هيدعي بيبعتلك إيميل.
+      ثانياُ اغلب ال services ليها default limit وعلشان تعديه لازم تطلبه بنفسك من ال support بتاع aws.
+      يعنى الحالة بتاعة انه عمل IPOS كتير دى تنفع فى حالتين لو كان الـ limit بتاع ال IPOS مفتوح قبل كدة .. او لو كان هو بنفسه طلب انه يتفتح. غير كدة مش هينفع.
+
+      الخلاصة فعلاً من موضع زى ده .. ان infrastructure الناس مش لعبة.. وولاد الأصول لازم يراعوا الـ infrastructure المسؤلين عنها كويس ومايلعبوش بمشاعرها وفواتيرها.
+      وربنا ما يكتب علينا.
+    id: '1742231622483205'
+  - created_time: '2018-02-03T15:23:30+0000'
+    from:
+      name: Osama Elgebaly
+      id: '10159917785635125'
+    message: في ناس بتعمل instances وبعد ما تبقي مش محتاجاها بتعملها termination وتفتكر
+      كده خلصت،  اللي بيحصل ان احيانا ال root volume بيفضل موجود حتي بعد ال termination
+      لل instance,  لازم كل فتره تعمل termination لل EBS volumes وال AMIs اللي انت
+      مش محتاجاها
+    id: '1742288055810895'
+  - created_time: '2018-02-03T15:25:24+0000'
+    from:
+      name: Ahmed Abu Eldahab
+      id: '2056383631300860'
+    message: بسبب الحاجات دي وعلشان متدبسش بحاول دايما أستخدم خدمات شركات تانية أقل
+      في المنتجات المعروضة زي digitalocean  وباقي الخدمات اعملها بصورة منفصله زي الcdn
+      or push notifications etc .. بحيث يبقي فيه limit معروف لكل حاجة وغير مسموح انها
+      تتعداه تحت أي ظرف من الظروف
+    id: '1742290602477307'
+  - created_time: '2018-02-03T18:59:01+0000'
+    from:
+      name: Ahmed Hamza
+      id: '10208549015323357'
+    message: لو حد هنا محتاج كوبونات AWS بأسعار كويسة يكلمني
+    id: '1742474909125543'
+  - created_time: '2018-02-03T22:20:43+0000'
+    from:
+      name: Ahmed Mansour
+      id: '10155263617066659'
+    message: "طب اقولك ع حاجة مضحكة شوية ... انا كان في تاسك مطلوبة مني اتعلم EC2
+      & aws lambda ....المهم اضطريت اسجل بالكارت بتاعي ... الكلام ده تقريبا عدى عليه
+      فترة كبيرة بس مش سنة ... المهم انا مشتغلتش ع الموضوع ده اوي وسبته ... لقيت امازون
+      بعتالي اميل ... ان free tier قرب يخلص وحتبدا تدفع ... وانا كنت فعلا محدد له
+      limit يبعت لي ايميل ... المهم رحت قفلت الاكاونت خالص مع اني مستخمدتش حاجة خالص
+      .... لقيت اميل تاني بعدها من امازون بيقولولي احنا اسفين الاميل اللي جالك ...
+      جالك بالغلط ومفيش اي تكلفة جاية عليك \U0001F602\U0001F602\U0001F602 .... قلتلهم
+      والله مانا فاتحه برضو ... انتو فاكريني الوليد بن طلال \U0001F605"
+    id: '1742615745778126'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMwTWpFM09URXpOVGd5TVRjNE56b3hOVEUzTmpZAME1ETXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMwTWpZAeE5UYzBOVGMzT0RFeU5qb3hOVEUzTmprMk5EUXoZD

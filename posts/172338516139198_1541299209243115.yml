@@ -26,13 +26,6 @@ comments:
     message: Maybe the web server in front of node is timing out, what's the webserver
       in both nodes (local/EC2)?
     id: '1541315232574846'
-  - created_time: '2017-07-08T17:28:35+0000'
-    from:
-      name: Muhammed Nagy
-      id: '495080930892199'
-    message: "maybe the web server in front of NodeJS refuses big file uploads \nnginx
-      does that by default and i think Apache too"
-    id: '1541335195906183'
   - created_time: '2017-07-08T18:07:27+0000'
     from:
       name: Met Wally

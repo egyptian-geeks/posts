@@ -7,11 +7,17 @@ from:
   id: '2004569133151942'
 type: status
 created_time: '2018-02-02T20:57:51+0000'
-updated_time: '2018-02-02T21:40:06+0000'
+updated_time: '2018-02-03T18:26:35+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1741534655886235/
 id: '172338516139198_1741534655886235'
 reactions:
   data:
+  - id: '2022833371324486'
+    name: Abdelrahman Hassan
+    type: LIKE
+  - id: '197921750790469'
+    name: Mostafa Bili
+    type: LIKE
   - id: '10156190664898866'
     name: Mohamed Reda Abdou
     type: LIKE
@@ -23,7 +29,7 @@ reactions:
     type: LIKE
   paging:
     cursors:
-      before: T0RBNU5UZA3pPRFkxT2pFMU1UYzJNVEF4TVRjNk1qVTBNRGsyTVRZAeE13PT0ZD
+      before: TVRBd01EQTNPVE0xTWpnek1UWTRPakUxTVRjMk56WXdPRE02TWpVME1EazJNVFl4TXc9PQZDZD
       after: TVRBd01EQXlNalkzTkRNMU5UWTJPakUxTVRjMk1EWXhOekE2TWpVME1EazJNVFl4TXc9PQZDZD
 comments:
   data:
@@ -62,7 +68,49 @@ comments:
       id: '879271768900112'
     message: Blockchain Egypt
     id: '1741596102546757'
+  - created_time: '2018-02-02T23:48:16+0000'
+    from:
+      name: Tamer Mahfouz
+      id: '10156247342126522'
+    message: |-
+      الفيديو اللي فوق ده ضعيف جداً.  الفيديو ده أفضل
+      https://www.youtube.com/watch?v=GiU4b7ldKMs
+    id: '1741676532538714'
+  - created_time: '2018-02-03T00:06:17+0000'
+    from:
+      name: Ahmed Sha'alan
+      id: '1722000621197785'
+    message: |-
+      If you want the elevator pitch then it's a mechanism you use if you don't want to have a central point where the system verifies its integrity.
+
+      For example, what is the single point of truth of how much money you owe in the world? Your bank. If your bank goes up in smoke then you don't have said money anymore (regardless of Central Bank insurance etc.)
+      What is the single point of truth of who owns your flat? El shahr el 3aqary, or the Egyptian gov't in general. If it goes up in smoke then you don't own the flat anymore... etc.
+
+      Blockchain aims to solve this by distributing data storage and verification over all nodes in the system. The same way Git does to your code. If one node dies, the system functions normally (hail Hydra? Anyone?). So theoretically there's no single point of failure or centralized control.
+
+      You use it if you want to create a system that does contracting between people, maslan, like Ethereum. I can *promise* to send you money on 6/9/2042 and the system verifies said promise so everyone in the network has it, and the network can even send the money on said date. Without having any central control that I can hack or destroy etc. to not pay you.
+
+      Of course better to read more, but maybe this helps.
+    id: '1741686235871077'
+  - created_time: '2018-02-03T00:44:53+0000'
+    from:
+      name: Ahmad Hegazy
+      id: '181682482588996'
+    message: |-
+      لو عايز تأكد المعلومة الكود دا هيوصلك الفكرة بشكل كويس technically
+
+      https://youtu.be/zVqczFZr124
+      https://youtu.be/HneatE69814
+    id: '1741707959202238'
+  - created_time: '2018-02-03T18:26:32+0000'
+    from:
+      name: Abdo Muhammad
+      id: '2004569133151942'
+    message: "طيب يشباب انا اخد فكره عن blockchain \nبس في عميل طالب مشروع وعايز يعمله
+      ب blockchain  \nوانا مشتغلتش علي blockchain  قبل كدة \nوهو عايز المشروع ضروري
+      فا لو حد عمل مشاريع قبل كدة ب blockchain  \nيكلمني ننتفق سواء"
+    id: '1742444055795295'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMwTVRVMk9UUXhNalUwT1RReU5qb3hOVEUzTmpBMU5Ea3kZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMwTVRVNU5qRXdNalUwTmpjMU56b3hOVEUzTmpBM05qQTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMwTWpRME5EQTFOVGM1TlRJNU5Ub3hOVEUzTmpneU16a3kZD
