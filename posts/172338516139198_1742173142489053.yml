@@ -15,13 +15,112 @@ from:
   id: '10159976552365192'
 type: status
 created_time: '2018-02-03T13:15:35+0000'
-updated_time: '2018-02-03T22:20:46+0000'
+updated_time: '2018-02-04T22:10:39+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1742173142489053/
 shares:
-  count: 6
+  count: 7
 id: '172338516139198_1742173142489053'
 reactions:
   data:
+  - id: '1982406812082146'
+    name: Ahmed Mahmoud Mahmoud Hussien
+    type: LIKE
+  - id: '1494202580648907'
+    name: Abd Alrhman Serag
+    type: LIKE
+  - id: '1466247800164499'
+    name: Mosaab Ahmed
+    type: LIKE
+  - id: '10159750515025408'
+    name: Mohamed Tarek El Haddad
+    type: LIKE
+  - id: '871016873079772'
+    name: Marwan Ahmed
+    type: LIKE
+  - id: '934408920094293'
+    name: Muhammad Ahmed Fares
+    type: LIKE
+  - id: '1548995248522253'
+    name: Ahmed Naguib
+    type: LIKE
+  - id: '1152604288209875'
+    name: Amr Aly
+    type: LIKE
+  - id: '10215979763073379'
+    name: Ahmed Mansy
+    type: LIKE
+  - id: '1703823479655702'
+    name: أحمد أبوبكر
+    type: LIKE
+  - id: '2045412419061917'
+    name: Mohamed Elwan
+    type: LIKE
+  - id: '10155804554618673'
+    name: Ahmed Nabil Mohamed
+    type: LIKE
+  - id: '1927910387525979'
+    name: Ashraf Elalfy
+    type: LIKE
+  - id: '10159914924465173'
+    name: Amr M. Ramadan
+    type: LIKE
+  - id: '2031809663759278'
+    name: Mohamed Moussa
+    type: LIKE
+  - id: '10213835707023058'
+    name: Abd Elrahman Mohamed
+    type: LIKE
+  - id: '1584827604972265'
+    name: Essam Abdelrahman
+    type: LIKE
+  - id: '1190802527717096'
+    name: Amgad HaSsan
+    type: LIKE
+  - id: '1426226024170585'
+    name: Ahmed E. Eldeeb
+    type: LIKE
+  - id: '1735197893208926'
+    name: Ahmad Zain
+    type: HAHA
+  - id: '335464610283657'
+    name: Ahmed Soliman
+    type: LIKE
+  - id: '10155903911855943'
+    name: Ahmed Soliman
+    type: LIKE
+  - id: '10156191099748000'
+    name: Shady Mohamed Sherif
+    type: LIKE
+  - id: '821074424760423'
+    name: Kareem Adel
+    type: LIKE
+  - id: '1811783138842190'
+    name: Alaa Moustafa Bakr
+    type: LIKE
+  - id: '10216030396495261'
+    name: Noha MoAmary
+    type: LIKE
+  - id: '2015532505328242'
+    name: Maher El Gamil
+    type: WOW
+  - id: '1789041438064902'
+    name: Mahmoud Hard
+    type: LIKE
+  - id: '909264299254917'
+    name: Mohamed Tarek
+    type: LIKE
+  - id: '954758908006488'
+    name: Noura Hussein
+    type: LIKE
+  - id: '10159888022555052'
+    name: Fady Anwar
+    type: LIKE
+  - id: '1945472072160429'
+    name: Mhmd Phawzy
+    type: HAHA
+  - id: '1360912124012585'
+    name: Mahmoud Hossam
+    type: HAHA
   - id: '1862328800505232'
     name: Isn Ibrahim
     type: LIKE
@@ -240,7 +339,7 @@ reactions:
     type: LIKE
   paging:
     cursors:
-      before: TVRBd01EQXhPRFF6T1RBM016SXpPakUxTVRjMk9UZAzNPREE2TWpVME1EazJNVFl4TXc9PQZDZD
+      before: TVRBd01EQTVNemcxTkRBMU16a3hPakUxTVRjM056ZAzNORGs2TWpVME1EazJNVFl4TXc9PQZDZD
       after: TVRBd01EQTJNalU1TWpNNE9EVXlPakUxTVRjMk5qTTRNamc2TWpVME1EazJNVFl4TXc9PQZDZD
 comments:
   data:
@@ -320,7 +419,45 @@ comments:
       جالك بالغلط ومفيش اي تكلفة جاية عليك \U0001F602\U0001F602\U0001F602 .... قلتلهم
       والله مانا فاتحه برضو ... انتو فاكريني الوليد بن طلال \U0001F605"
     id: '1742615745778126'
+  - created_time: '2018-02-03T23:56:46+0000'
+    from:
+      name: Ahmed Saad ElMaghraby
+      id: '10160119042585037'
+    message: Abd Elrahman Mohamed
+    id: '1742673299105704'
+  - created_time: '2018-02-04T06:43:15+0000'
+    from:
+      name: Abdalla Elewa
+      id: '10154962607487130'
+    message: Moutaz Elfeky
+    id: '1742932125746488'
+  - created_time: '2018-02-04T19:47:38+0000'
+    from:
+      name: Tarek Dawoud
+      id: '10156109957694861'
+    message: Mohamed Elsherif, did you ever do an episode on hosting in cloud services
+      and some of the major Do's and Dont's? I think this is worth a full topic, from
+      source control and boot strapping of secrets all the way out to Prod access.
+    id: '1743527152353652'
+  - created_time: '2018-02-04T20:35:04+0000'
+    from:
+      name: Mahmoud M. Abdel-Fattah
+      id: '10160028885050387'
+    message: Diaa Radwan
+    id: '1743561339016900'
+  - created_time: '2018-02-04T21:14:08+0000'
+    from:
+      name: Mohamed Nageh
+      id: '1763181463721711'
+    message: Abdelrahman Khedr
+    id: '1743591095680591'
+  - created_time: '2018-02-04T22:08:42+0000'
+    from:
+      name: Hatem Said
+      id: '1291360544342967'
+    message: Tarek Bassiouny
+    id: '1743626249010409'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMwTWpFM09URXpOVGd5TVRjNE56b3hOVEUzTmpZAME1ETXgZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMwTWpZAeE5UYzBOVGMzT0RFeU5qb3hOVEUzTmprMk5EUXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMwTXpZAeU5qSTBPVEF4TURRd09Ub3hOVEUzTnpneU1USXkZD

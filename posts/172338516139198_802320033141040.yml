@@ -1,0 +1,114 @@
+---
+message: "السلام عليكم ورحمه الله\n\nيا بشمهندسين احتاج لمساعدتكم\nانا عامل app علي
+  Rails 4 \nومحتاج استخدم gem twitter عشان اجيب تtweets لاشخاص معينه وتتعرض في app\nياريت
+  حد يساعدني استخدم ال gem دي ازاي لاني تعبت من كتر ما حولت وبرضوا مفيش اي نتيجه \nمتشكر
+  جدا"
+from:
+  name: Usama Mohammed Kabel
+  id: '1565702893505449'
+type: status
+created_time: '2014-08-21T12:27:04+0000'
+updated_time: '2014-08-21T13:37:55+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/802320033141040/
+id: '172338516139198_802320033141040'
+comments:
+  data:
+  - created_time: '2014-08-21T12:40:52+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: طيب ممكن تقول حاولت ازاى و تقولنا المفروض يشتغل ازاى و الخطأ إيه هو و
+      توريلنا الكود علشان اقدر اساعدك اكتر ؟
+    id: '802323836473993'
+  - created_time: '2014-08-21T12:42:49+0000'
+    from:
+      name: Usama Mohammed Kabel
+      id: '1565702893505449'
+    message: انا اشتغلت من الصفحه دي بالضبط http://www.synaptian.com/blog/posts/using-the-twitter-gem-in-your-rails-application
+    id: '802324466473930'
+  - created_time: '2014-08-21T12:47:21+0000'
+    from:
+      name: Usama Mohammed Kabel
+      id: '1565702893505449'
+    message: "والاخطاء \n- وانا بشغل السيرفير يقولي Deprecated \n- ولما ادخل الصفحه
+      اللي بيتعرض عليها التويته بيطلع undefined method"
+    id: '802327839806926'
+  - created_time: '2014-08-21T12:54:13+0000'
+    from:
+      name: Ahmed Al-Amir
+      id: '10156207737619180'
+    message: This article is from 2006, it must be using the old Twitter API. Check
+      out the official documentation on https://dev.twitter.com/ to make sure you
+      are contacting the right endpoints with the right data.
+    id: '802329893140054'
+  - created_time: '2014-08-21T12:55:42+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: "طيب عمومآ الAPI بتاعة تويتر المفروض انها اتعدلت و فى حاجات بقى لازم
+      ليها تاخد auth token من المستخدم  ,و كده، انا كتبت سكريبت قبل كده من قريب و
+      كان شغال هتلاقيه هنا \nhttps://github.com/blazeeboy/RubyScripts/blob/f9cc59f9e26faacfa61d9469afa94425a3987583/2014-03-25/now-playing.rb\nكل
+      اللى عليك تملأ المتغيرات اللى فى البداية ببيانات التويتر ابليكيشن بتاعك."
+    id: '802330289806681'
+  - created_time: '2014-08-21T13:15:40+0000'
+    from:
+      name: Usama Mohammed Kabel
+      id: '1565702893505449'
+    message: لا انا مش عايز اخد auth من اليوزر انا عايز ايا كان اليوزر اللي فاتح بيعرض
+      قدامه تويتات لشخصيات عامه
+    id: '802336293139414'
+  - created_time: '2014-08-21T13:17:12+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: للأسف الحوار ده اتقفل زى ما فهمت -ويارب ماكونش ناسى-
+    id: '802336769806033'
+  - created_time: '2014-08-21T13:18:37+0000'
+    from:
+      name: Usama Mohammed Kabel
+      id: '1565702893505449'
+    message: يعني انا بعمل app وبحط انا auth بتاعه الاب بتاعي اللي عملته زي ما هو
+      واضح في اللينك اللي حطيته فوق؟
+    id: '802337379805972'
+  - created_time: '2014-08-21T13:32:38+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: اينعم
+    id: '802341036472273'
+  - created_time: '2014-08-21T13:36:02+0000'
+    from:
+      name: Usama Mohammed Kabel
+      id: '1565702893505449'
+    message: ايا كان عايز استخدم دي https://github.com/sferik/twitter في ال app ازاي
+      يا جماعه واعرف اعرض التويتات
+    id: '802341993138844'
+  - created_time: '2014-08-21T13:36:37+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: السكريبت اللى انا كاتبه شغال بيها
+    id: '802342126472164'
+  - created_time: '2014-08-21T13:37:17+0000'
+    from:
+      name: Usama Mohammed Kabel
+      id: '1565702893505449'
+    message: انا شغال RoR احط فين ال اسكربت دي؟
+    id: '802342266472150'
+  - created_time: '2014-08-21T13:37:47+0000'
+    from:
+      name: Usama Mohammed Kabel
+      id: '1565702893505449'
+    message: او بمعني ادق اوصفلي احط كل كود فين عشان انا بجد احترت من الحوار ده
+    id: '802342413138802'
+  - created_time: '2014-08-21T13:37:55+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: ده سكريبت تتعلم منه و بعدين لما تفهم شغال ازاى بالظبط هاتعرف ازاى تكتب
+      نفس الحاجة فى الكود بتاعك،
+    id: '802342469805463'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPREF5TXpJek9ETTJORGN6T1Rrek9qRTBNRGcyTWpRNE5UST0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPREF5TXpReU5EWTVPREExTkRZAek9qRTBNRGcyTWpneU56VT0ZD

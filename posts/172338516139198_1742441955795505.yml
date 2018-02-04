@@ -1,0 +1,79 @@
+---
+message: "انا مش قادر احدد انا محتاج قد ايه من AWS.\nيا ريت تفيدوني.\nالسيناريو:\n-
+  موبايل app\n- مستخدمين حوالي 1000\n- ويب application \n- الموبايل بيتواصل مع الويب
+  application \n- ال server بيقوم بمعالجة كل البيانات\n- ال server بيخزن ال database
+  \n- ال data معظمها text وبعضها صور (مش صور كتير)\n- المساحة الي هيحتجها كل مستخدم
+  صغيرة بالميجا\n- ال 1000 مستخدم ممكن يستخدمو 10 جيجا\n- المستخدم بيستخدم الموبايل
+  app بمتوسط مرتين في الاسبوع\nبرائيكم كخبراء. ايه الخطة الي محتاجها في AWS؟ نوع الخطة,
+  نوع السيرفر الخ\nخطة تقريبية\nرئيكم يهمني \nشكرا"
+from:
+  name: يامن شاهين
+  id: '10155299113287066'
+type: status
+created_time: '2018-02-04T08:35:02+0000'
+updated_time: '2018-02-04T20:20:13+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1742441955795505/
+id: '172338516139198_1742441955795505'
+reactions:
+  data:
+  - id: '871016873079772'
+    name: Marwan Ahmed
+    type: LIKE
+  - id: '546598029039266'
+    name: Tarek Badr
+    type: LIKE
+  - id: '1999765416908747'
+    name: Ahmed Khalifa
+    type: LIKE
+  - id: '1435332426592731'
+    name: Mohamed El Mallah
+    type: LIKE
+  - id: '1978009525783037'
+    name: Ahmed Magdy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTFNVFEwTURJME5EWTRPakUxTVRjM05UY3dPRFE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTNNakl3TWpZAeE5qSXhPakUxTVRjM016TTBNVEE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2018-02-04T08:40:23+0000'
+    from:
+      name: Khaled Elkhawaga
+      id: '10155750887566727'
+    message: ممكن توضح نوع الdatabase عشان الناس تعرف تساعد أكتر.
+    id: '1742993295740371'
+  - created_time: '2018-02-04T08:42:32+0000'
+    from:
+      name: Khaled Elkhawaga
+      id: '10155750887566727'
+    message: بالنسبة للstorage أعتقد S3 bucket حيبقى مناسب جدأ ورخيص، وكمان scalable
+      جداً لو حبيت تزود
+    id: '1742994245740276'
+  - created_time: '2018-02-04T14:39:29+0000'
+    from:
+      name: Alaa Ezzat
+      id: '10156074051141565'
+    message: |-
+      انا معلوماتي محدوده في ال AWS
+      بس اظن ان احتياجاتك قليله كفايه لانك تستعمل هوست عادي الا لو كان فيه  خطه لزيادة عدد اليوزر في فتره قريبه و ده المفروض يكون ارخص
+    id: '1743254869047547'
+  - created_time: '2018-02-04T15:58:58+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: "أظن أنك مش محتاج سيرفرات أصلا\nجرب تخلي الباك ايند لامبدا وحط الصور
+      عليs3 \nشوف لو محتاج داتابيس حتبقي لو محتاج داتابيس ريلاشنوال يبقي جرب الارورا
+      سيرفرليس غير كدة عليك بدينامو\n\nالتكلفة غالباً بالحمل ده حتكون الداتا ترانسفير
+      بالإضافة لخمسة دولار علي دينامو\nاول سنة حتكون  فراغ تام لأنك جوا الفري تير"
+    id: '1743323525707348'
+  - created_time: '2018-02-04T20:20:10+0000'
+    from:
+      name: Mahmoud Atef
+      id: '10155148102196835'
+    message: T2 large + 50 gb storage
+    id: '1743551345684566'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMwTWprNU16STVOVGMwTURNM01Ub3hOVEUzTnpNek5qSTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMwTXpVMU1UTTBOVFk0TkRVMk5qb3hOVEUzTnpjMU5qRXcZD

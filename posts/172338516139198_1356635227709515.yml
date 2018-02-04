@@ -115,9 +115,6 @@ reactions:
   - id: '1791258444267523'
     name: Mostafa Elsayh
     type: LIKE
-  - id: '1550028545093963'
-    name: Abdul-Rahman M. Nada
-    type: LIKE
   - id: '1805231259529380'
     name: 'Ahmed Adel SamKk '
     type: LIKE
@@ -727,6 +724,9 @@ reactions:
   - id: '1867908683243176'
     name: Maged Fathy Ghazouly
     type: LIKE
+  - id: '10208484240383892'
+    name: Amr Adel
+    type: LIKE
   - id: '1517871968329749'
     name: Karim Haggag
     type: LIKE
@@ -838,6 +838,12 @@ comments:
       id: '10210346747776038'
     message: Esraa Afifi check that =D
     id: '1356730851033286'
+  - created_time: '2017-01-16T23:24:26+0000'
+    from:
+      name: Amr Adel
+      id: '10208484240383892'
+    message: Khaled Nasr
+    id: '1356737421032629'
   - created_time: '2017-01-17T00:07:27+0000'
     from:
       name: Atef Khairy Etman

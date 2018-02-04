@@ -120,6 +120,18 @@ comments:
       get /students/1 -> if no result 404. resource is not found
       get /students -> empty list 204 and no message cause http code 204 will respond with no data even if u sent a data .:)
     id: '967898346583207'
+  - created_time: '2015-07-04T00:54:09+0000'
+    from:
+      name: Moaaz Goda
+      id: '2090414371178400'
+    message: |-
+      Check this out
+      http://www.slideshare.net/landlessness/teach-a-dog-to-rest
+
+      U will return 200 in most cases, with custom message for such cases.
+
+      The slide compares to apis like facebook's
+    id: '967898979916477'
   - created_time: '2015-07-04T01:05:21+0000'
     from:
       name: Mahmoud Maghraby

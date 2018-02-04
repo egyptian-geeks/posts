@@ -55,10 +55,10 @@ attachments:
     media:
       image:
         height: 576
-        src: https://external.xx.fbcdn.net/safe_image.php?d=AQCXmVo2Booor8DB&w=720&h=720&url=http%3A%2F%2Fexcess-xss.com%2Fdom-based-xss.png&cfs=1&_nc_hash=AQDDRRiVfolZ_Z70
+        src: https://external.xx.fbcdn.net/safe_image.php?w=720&h=720&url=http%3A%2F%2Fexcess-xss.com%2Fdom-based-xss.png&cfs=1&_nc_hash=AQBfwRUfpG85gCuI
         width: 576
     target:
-      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fexcess-xss.com%2F&h=ATP9Vihi69i4XgA0P-uKVTrk7uaN_8r8NCLnZTu2_0KSDM7rZTdQtYa0sJSX2-fInIWppBXCn-hq56zxWNkRQ01u6BRyZJ1CVnU7_NR6zo76AlLfrOeV&s=1&enc=AZMUeWSaVYd9a7TY29pNH2Xe2m2lZ58MowoBMXjyj-XdfHiQXuldJXKxbrQK4dKo44E
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fexcess-xss.com%2F&h=ATOhMieQ3CYs_BR7y-s6eROwoeOlrCsoNhrnrqKaWLRXLDcNFTvO3o6PDZUCtv-A81fIFqWOWGGA1HAcqh3bN1R9NwfaeV2cyUy1-Mh3Kj48O8GlajaS&s=1&enc=AZMsnExLPryuXdqrsYtiqpMbJZ6xkgzLhTi0qgGf3HedwRIvKoUvgpj80_d4ce3oEq0
     title: 'Excess XSS: A comprehensive tutorial on cross-site scripting'
     type: share
-    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fexcess-xss.com%2F&h=ATP9Vihi69i4XgA0P-uKVTrk7uaN_8r8NCLnZTu2_0KSDM7rZTdQtYa0sJSX2-fInIWppBXCn-hq56zxWNkRQ01u6BRyZJ1CVnU7_NR6zo76AlLfrOeV&s=1&enc=AZMUeWSaVYd9a7TY29pNH2Xe2m2lZ58MowoBMXjyj-XdfHiQXuldJXKxbrQK4dKo44E
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fexcess-xss.com%2F&h=ATOhMieQ3CYs_BR7y-s6eROwoeOlrCsoNhrnrqKaWLRXLDcNFTvO3o6PDZUCtv-A81fIFqWOWGGA1HAcqh3bN1R9NwfaeV2cyUy1-Mh3Kj48O8GlajaS&s=1&enc=AZMsnExLPryuXdqrsYtiqpMbJZ6xkgzLhTi0qgGf3HedwRIvKoUvgpj80_d4ce3oEq0

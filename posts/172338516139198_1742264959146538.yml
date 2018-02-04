@@ -6,11 +6,14 @@ from:
   id: '947913522023811'
 type: status
 created_time: '2018-02-03T17:13:01+0000'
-updated_time: '2018-02-03T22:58:32+0000'
+updated_time: '2018-02-04T09:04:56+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1742264959146538/
 id: '172338516139198_1742264959146538'
 reactions:
   data:
+  - id: '871016873079772'
+    name: Marwan Ahmed
+    type: LIKE
   - id: '1808404355859805'
     name: Ahmed Saeed
     type: LIKE
@@ -19,7 +22,7 @@ reactions:
     type: LIKE
   paging:
     cursors:
-      before: TVRBd01EQXdOekEzTnpRMk1UQTNPakUxTVRjMk9ETTVNakE2TWpVME1EazJNVFl4TXc9PQZDZD
+      before: TVRBd01EQTFNVFEwTURJME5EWTRPakUxTVRjM05UY3hPVE02TWpVME1EazJNVFl4TXc9PQZDZD
       after: TVRBd01EQXpORGM1TmpJek5USTVPakUxTVRjMk9EQTRNakk2TWpVME1EazJNVFl4TXc9PQZDZD
 comments:
   data:
@@ -125,7 +128,26 @@ comments:
       seen an app that just starting trying to make 500 connection to the db. Your
       issue will be something around that."
     id: '1742635095776191'
+  - created_time: '2018-02-03T23:36:24+0000'
+    from:
+      name: Mohamed Radwan
+      id: '10159976552365192'
+    message: شوف requests جاية من فين لو من الصين ومعندكش customer منها اعمل بلوك
+      لل ips . وكمان ممكن scale servers علشان تشيل load
+    id: '1742662862440081'
+  - created_time: '2018-02-04T09:04:51+0000'
+    from:
+      name: Tarek Dawoud
+      id: '10156109957694861'
+    message: "أولاً اقرأ عن المشكلة وأنواعها وحلول كل نوع... \nhttps://insights.sei.cmu.edu/sei_blog/2016/11/distributed-denial-of-service-attacks-four-best-practices-for-prevention-and-response.html
+      \n\nالنصيحة العامة هي: ما تحاولش تبني البنية التحتة بتاعتك بإيدك. في كل حاجة
+      استخدم شركة وبنية تحتية محترمة... مثلاً في الـ DNS ما تقوّمش السيرفر بتاعك وتجهزه
+      بنفسك... هاتطّحن. استعمل DNS provider معروف ومحترم. \n\nبفرض إنك أمنت البية
+      التحتية الشبكية اللي بيبقى عليك هو إنك تكتب كود نظيف ما بيغرّقش الباك إند بطلبات
+      غير معرّفة. استخدم الكاش واستخدم الـ CDN\n\nموضوع حجب العناوين (IP blocking)
+      مش مفيد قوي لأن المهاجمين عادة بيغيّروا العناوين كل 3-4 أيام"
+    id: '1743006955739005'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMwTWpNNE5qVTJOVGd3TVRBME5Eb3hOVEUzTmpjNE1EVTQZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMwTWpZAek5UQTVOVGMzTmpFNU1Ub3hOVEUzTmprNE16RTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMwTXpBd05qazFOVGN6T1RBd05Ub3hOVEUzTnpNMU1Ea3kZD
