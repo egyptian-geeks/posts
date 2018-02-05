@@ -1,0 +1,131 @@
+---
+message: "using System.IO;\nusing System;\n\nprivate void Read Txt()     \n{\n string
+  myTxt;\n using(streamReader read Txt= new streamReader (@”C:\\\\dd\\\\Mytxt.Txt”))\n
+  { \n myTxt=readTxt.Readline();\n }\n MessageBox.Show(“Read Text” + myTxt , “New
+  Text”. MessageBoxButtons.OK);\n }\n\nplz y gma3a 7d y3rf l code da leh msh sh3'al
+  ???"
+from:
+  name: Sherry Girgis
+  id: '1830190833658730'
+type: status
+created_time: '2015-02-16T00:01:56+0000'
+updated_time: '2015-02-16T11:19:05+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/895759223797120/
+id: '172338516139198_895759223797120'
+reactions:
+  data:
+  - id: '1790862481216585'
+    name: Ana Mohamed
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTROemcxTlRBek1UQXdPakUwTWpReE9ESXlNRFk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTROemcxTlRBek1UQXdPakUwTWpReE9ESXlNRFk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2015-02-16T00:05:58+0000'
+    from:
+      name: Mostafa Hussein
+      id: '751286211748718'
+    message: 3malty search 3n el error ely bytla3 ? w hal wslty l 7aga mn el search
+      da ?
+    id: '895760160463693'
+  - created_time: '2015-02-16T00:06:53+0000'
+    from:
+      name: Sherry Girgis
+      id: '1830190833658730'
+    message: hwa by2oli l main feha moshkla
+    id: '895760357130340'
+  - created_time: '2015-02-16T00:07:28+0000'
+    from:
+      name: Mostafa Hussein
+      id: '751286211748718'
+    message: eh el error nafso ?
+    id: '895760470463662'
+  - created_time: '2015-02-16T00:10:55+0000'
+    from:
+      name: Ramzy Karam
+      id: '1613362202050513'
+    message: leah 3amla skip lel back slash wenty 7ata el @ ?!
+    id: '895761083796934'
+  - created_time: '2015-02-16T00:12:45+0000'
+    from:
+      name: Sherry Girgis
+      id: '1830190833658730'
+    message: 'by2oli can''t open assemply "main.exe" : No such file or directory'
+    id: '895761460463563'
+  - created_time: '2015-02-16T00:13:06+0000'
+    from:
+      name: Sherry Girgis
+      id: '1830190833658730'
+    message: hwa momkn ykon msh shayf el file el esmo Mytxt el 2na 3mlalo create ?
+    id: '895761530463556'
+  - created_time: '2015-02-16T00:13:56+0000'
+    from:
+      name: Sherry Girgis
+      id: '1830190833658730'
+    message: Ramzy Karam wd7li aktr
+    id: '895761657130210'
+  - created_time: '2015-02-16T00:15:21+0000'
+    from:
+      name: Ramzy Karam
+      id: '1613362202050513'
+    message: |-
+      either remove the @ or make it single back slash
+      @”C:\dd\Mytxt.Txt” or ”C:\\dd\\Mytxt.Txt”
+    id: '895762087130167'
+  - created_time: '2015-02-16T00:16:04+0000'
+    from:
+      name: Sherry Girgis
+      id: '1830190833658730'
+    message: tmam okkk
+    id: '895762280463481'
+  - created_time: '2015-02-16T00:26:04+0000'
+    from:
+      name: Sherry Girgis
+      id: '1830190833658730'
+    message: tab kan 3nde so2al ,, hwa l program hysht3'l mn 3'er main 3ade?
+    id: '895765147129861'
+  - created_time: '2015-02-16T00:26:17+0000'
+    from:
+      name: Sherry Girgis
+      id: '1830190833658730'
+    message: merci gdan Ali Ahmed
+    id: '895765193796523'
+  - created_time: '2015-02-16T00:32:50+0000'
+    from:
+      name: Sherry Girgis
+      id: '1830190833658730'
+    message: y3ni asde n 2y program lazm ykon leh main () sa7 ?
+    id: '895766970463012'
+  - created_time: '2015-02-16T00:50:36+0000'
+    from:
+      name: أحمد محمود محمد عبدالوهاب
+      id: '10155226291481186'
+    message: Sherry Girgis it's working?
+    id: '895771840462525'
+  - created_time: '2015-02-16T00:53:30+0000'
+    from:
+      name: أحمد محمود محمد عبدالوهاب
+      id: '10155226291481186'
+    message: and regarding .NET as far as I know it needs a class and main function
+      to run just like java.
+    id: '895772687129107'
+  - created_time: '2015-02-16T10:44:59+0000'
+    from:
+      name: Shady Atef
+      id: '10213518317565801'
+    message: "Sherry Girgis 1st Thing. I'd like to introduce http://pastie.org/ \nIt
+      helps ppl to share their code with highlighted lines\n & Yes it requires main
+      function with this signature \n\n static void Main(string[] args)"
+    id: '895934167112959'
+  - created_time: '2015-02-16T11:19:05+0000'
+    from:
+      name: Sherry Girgis
+      id: '1830190833658730'
+    message: Merci leko gdaaaaaaaaan esht3' m m3ayaaa ...merci gdaaaan
+    id: '895943610445348'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGsxTnpZAd01UWXdORFl6Tmprek9qRTBNalF3TkRVeE5UZAz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGsxT1RRek5qRXdORFExTXpRNE9qRTBNalF3T0RVMU5EVT0ZD

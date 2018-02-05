@@ -11,7 +11,7 @@ from:
   id: '10155299113287066'
 type: status
 created_time: '2018-02-04T08:35:02+0000'
-updated_time: '2018-02-04T20:20:13+0000'
+updated_time: '2018-02-05T06:36:28+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1742441955795505/
 id: '172338516139198_1742441955795505'
 reactions:
@@ -73,7 +73,39 @@ comments:
       id: '10155148102196835'
     message: T2 large + 50 gb storage
     id: '1743551345684566'
+  - created_time: '2018-02-05T00:31:24+0000'
+    from:
+      name: Abdallah Hodieb
+      id: '10155961552416083'
+    message: |-
+      فكر انك تستخدم serverless architecture ، lambda and. api gateway لمعالجة البيانات،  dynamoDb و s3 للتخزين.
+
+      خصوصاً ان معدل الاستخدام الي بتقول عليه ممكن ميعديش ال aws free tier، فا هتبدأ منغير ما تدفع حاجه او هتدفع فلوس بسيطة.
+    id: '1743712205668480'
+  - created_time: '2018-02-05T04:03:28+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: "الصراحة . رأيي إنت محتاج واحد shared host و شكرا :D...\nوافر فلوسك,
+      اللي إنت بتتكلم فيه حاجة زي crocweb pure ssd hosting أكتر من ممتاز . \nلو احتجت
+      قدام ابقى النقل . لحد mobile we-webapp , فاكس //"
+    id: '1743840522322315'
+  - created_time: '2018-02-05T05:53:22+0000'
+    from:
+      name: يامن شاهين
+      id: '10155299113287066'
+    message: ال shared host مش اوبشن بالنسبة للمشروع ده نهائي
+    id: '1743909942315373'
+  - created_time: '2018-02-05T06:36:21+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: "then its really depend on your team experience.\nDatabase: you cannot
+      go wrong with aurora as you mysql database. \nstorage: s3 for sure. and take
+      advantage of cdn, optimized delivery\nserver: if your team know Amazon Api Gateway
+      then use it for sure !. other wise its https://diginomica.com/2017/06/29/aws-lambda-amazon-ecs-two-paths-one-goal-which-best/"
+    id: '1743930682313299'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMwTWprNU16STVOVGMwTURNM01Ub3hOVEUzTnpNek5qSTAZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMwTXpVMU1UTTBOVFk0TkRVMk5qb3hOVEUzTnpjMU5qRXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMwTXprek1EWTRNak14TXpJNU9Ub3hOVEUzT0RFeU5UZA3gZD

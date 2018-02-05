@@ -1,0 +1,65 @@
+---
+message: "Hi guys ! \nUsing laravel 5 with \n( laravel-excel package , symfony Process
+  , artisan commands ) i managed to chunk and import huge number of excel records
+  in DB and returning percentage loading message to user . \nThe question is : what
+  is the best practice to validate unique imported data ?"
+from:
+  name: Fawzy Tat
+  id: '10213837415983994'
+type: status
+created_time: '2018-02-05T11:31:24+0000'
+updated_time: '2018-02-05T16:50:27+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1744043772301990/
+id: '172338516139198_1744043772301990'
+reactions:
+  data:
+  - id: '1561022257326859'
+    name: احمد قرواش
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlOVGN5T1RnMU1qSXlPakUxTVRjNE16azBOVGc2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlOVGN5T1RnMU1qSXlPakUxTVRjNE16azBOVGc2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2018-02-05T14:42:23+0000'
+    from:
+      name: Mohamed Alaa El Din
+      id: '1573619512716214'
+    message: On DB level make unique fields so if it gets repeated it wont be imported.
+      Same as you do for email and username field in your database
+    id: '1744230238950010'
+  - created_time: '2018-02-05T15:09:57+0000'
+    from:
+      name: Ahmed Amr Farid
+      id: '10155859538230336'
+    message: |-
+      if you don't depend of database integrity and implement your own logic you will kill the performance...
+      Instead, commit the insert after each record, keep a history of those who fail to display in the summary for the user...
+    id: '1744248318948202'
+  - created_time: '2018-02-05T15:13:09+0000'
+    from:
+      name: Mohamed Hamed
+      id: '1550253781719261'
+    message: After importing data, query the database to keep only one row of duplicate
+      records.
+    id: '1744250692281298'
+  - created_time: '2018-02-05T16:47:32+0000'
+    from:
+      name: Nady Shalaby
+      id: '2086378701380044'
+    message: Use a data structure that prevents duplications e.g. Sets. Or set validation
+      constraints
+    id: '1744315205608180'
+  - created_time: '2018-02-05T16:50:23+0000'
+    from:
+      name: Nady Shalaby
+      id: '2086378701380044'
+    message: Also I hope you take in consideration the performance doing this, I will
+      go with Ahmed Amr Farid suggestions. Or you can hint the user to not to upload
+      duplicated data.
+    id: '1744317288941305'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMwTkRJek1ESXpPRGsxTURBeE1Eb3hOVEUzT0RReE56UTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMwTkRNeE56STRPRGswTVRNd05Ub3hOVEUzT0RRNU5ESTAZD
