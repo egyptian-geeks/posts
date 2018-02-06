@@ -44,6 +44,13 @@ reactions:
       after: TlRZAMU56RTBOekF3T2pFME9EazBOREF4TXpVNk1qVTBNRGsyTVRZAeE13PT0ZD
 comments:
   data:
+  - created_time: '2017-03-13T20:53:34+0000'
+    from:
+      name: Soaad Abdel-Aziz
+      id: '1731579053561535'
+    message: "function add(){ var sum=0;\n\nfor(var i =0;i< arguments.length; i++)
+      \n{\n\nsum+= arguments[i];\n}\nreturn sum;\n}//call it with\nconsole.log(add(3,4,5,10));"
+    id: '1419682558071448'
   - created_time: '2017-03-13T20:57:29+0000'
     from:
       name: Omar Beshary
@@ -80,6 +87,14 @@ comments:
     message: This is a plain currying example, do you want an answer or is it some
       sort of a quiz? :)
     id: '1419695948070109'
+  - created_time: '2017-03-13T21:16:51+0000'
+    from:
+      name: Soaad Abdel-Aziz
+      id: '1731579053561535'
+    message: "function sum(a) {\n    var sum = a;\n\n    function closure(b){\n        sum
+      += b;\n        return closure;\n    }\n\n    closure.toString = function() {
+      return sum };\n\n    return closure;     \n}\n\nalert( sum(1)(2)(8) );"
+    id: '1419696754736695'
   - created_time: '2017-03-13T21:19:25+0000'
     from:
       name: Ibrahem Amin
@@ -195,5 +210,5 @@ comments:
     id: '1420280414678329'
   paging:
     cursors:
-      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF4T1RZANE5EUTRPREEzTVRJMU5Ub3hORGc1TkRNNE5qUTUZD
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF4T1RZANE1qVTFPREEzTVRRME9Eb3hORGc1TkRNNE5ERTEZD
       after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF5TURJNE1EUXhORFkzT0RNeU9Ub3hORGc1TlRBME1EUTAZD
