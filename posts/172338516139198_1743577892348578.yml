@@ -11,13 +11,16 @@ from:
   id: '2022490591345439'
 type: status
 created_time: '2018-02-04T21:07:59+0000'
-updated_time: '2018-02-05T19:21:19+0000'
+updated_time: '2018-02-07T10:02:43+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1743577892348578/
 shares:
   count: 16
 id: '172338516139198_1743577892348578'
 reactions:
   data:
+  - id: '1769679443064146'
+    name: Gerges Bernaba
+    type: LIKE
   - id: '1835921803149515'
     name: Saef Rahal
     type: LOVE
@@ -164,7 +167,7 @@ reactions:
     type: LIKE
   paging:
     cursors:
-      before: TVRBd01EQXhPVFV4TkRBM01EVXpPakUxTVRjNU5EZAzFORGs2TnpnNE5qUTRNRE0zT1RFek16RXkZD
+      before: TVRBd01EQXdOall6TWpNME5EazFPakUxTVRnd01EUTJNVFU2TWpVME1EazJNVFl4TXc9PQZDZD
       after: TVRBd01EQXhPRGsxTWpFME5Ea3lPakUxTVRjM056azFPVGc2TWpVME1EazJNVFl4TXc9PQZDZD
 comments:
   data:
@@ -186,10 +189,16 @@ comments:
       id: '1032800230207501'
     message: Darsh Shoman انت عظيم يا دعبس
     id: '1743867498986284'
+  - created_time: '2018-02-07T10:02:41+0000'
+    from:
+      name: Amr Medhat
+      id: '10155426916839779'
+    message: ما تسرسبيش يا frameworks من بين إيدينا ، وما تقفشيش دة احنا يادوب ابتدينا
+    id: '1745874652118902'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMwTXpVNU1qa3hNak0wTnpBM05qb3hOVEUzTnpjNU1EUXoZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMwTXpnMk56UTVPRGs0TmpJNE5Eb3hOVEUzT0RBMU5EVTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMwTlRnM05EWTFNakV4T0Rrd01qb3hOVEUzT1RrM056WXkZD
 attachments:
   data:
   - description: "حبة software engineering بالهجايص (5): تسرب تفاصيل التتنفيذ Leaky

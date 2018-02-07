@@ -1,0 +1,146 @@
+---
+message: 'RTL bootstrap 4.00 stable
+
+'
+link: https://github.com/cairocoder/bootstrap-4-rtl-stable-final
+from:
+  name: Said Abdul Aziem
+  id: '10157134494285299'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQDG5N61dQ5641gK&w=130&h=130&url=https%3A%2F%2Favatars1.githubusercontent.com%2Fu%2F4701497%3Fs%3D400%26v%3D4&cfs=1&sx=0&sy=0&sw=400&sh=400&_nc_hash=AQCuoT8AMMa-tw-5
+created_time: '2018-02-07T00:55:00+0000'
+updated_time: '2018-02-07T18:14:36+0000'
+name: cairocoder/bootstrap-4-rtl-stable-final
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1745509238822110/
+shares:
+  count: 1
+id: '172338516139198_1745509238822110'
+reactions:
+  data:
+  - id: '547020688991281'
+    name: Muhammad Kamal
+    type: LIKE
+  - id: '10155019881421751'
+    name: Khalid Abdallah
+    type: LIKE
+  - id: '10204414533160604'
+    name: Moustafa Elkady
+    type: LIKE
+  - id: '2186710791556561'
+    name: Omar Abdelkader
+    type: LIKE
+  - id: '1872433002767763'
+    name: Taghreed Mohammed Kamel
+    type: LIKE
+  - id: '1999765416908747'
+    name: Ahmed Khalifa
+    type: LIKE
+  - id: '10214475095887869'
+    name: Fady Elias
+    type: LIKE
+  - id: '1600541900032315'
+    name: Omar El Ghandour
+    type: LIKE
+  - id: '10215795587468352'
+    name: George Kastour
+    type: LIKE
+  - id: '10213136680788843'
+    name: Amr Tharwat
+    type: LIKE
+  - id: '10155827364301005'
+    name: Abdelrahman Ghareeb
+    type: LIKE
+  - id: '10156127994703656'
+    name: محمد إبراهيم
+    type: LIKE
+  - id: '10208666086248052'
+    name: Mohammed Adel Fouad
+    type: LIKE
+  - id: '1208358265962928'
+    name: Muhammad Tarek
+    type: LIKE
+  - id: '10213739687579174'
+    name: Kamal Al Seisy
+    type: LIKE
+  - id: '1664266593616217'
+    name: Mohamed Anwer
+    type: LIKE
+  - id: '10214400225536793'
+    name: Assem Makhyon
+    type: LIKE
+  - id: '10160087308580372'
+    name: Shireef Adel
+    type: LIKE
+  - id: '1824520801181678'
+    name: محمد علاء الدين
+    type: LIKE
+  - id: '10155856743191578'
+    name: Mo Hemmat
+    type: LIKE
+  - id: '10215278828988466'
+    name: Mahmoud Abd Elgawad
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01ERXdOVEF3TmpRME9UYzFPakUxTVRnd01qUTVOak02TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRNMk5qazBNelF6TkRveE5URTNPVFkxTWpnM09qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2018-02-07T04:34:28+0000'
+    from:
+      name: Mostafa Bili
+      id: '197921750790469'
+    message: |-
+      يعني ايهrtl
+      انا شغالbootstrap4 بس مش عارف يعني ايهrtl
+    id: '1745699528803081'
+  - created_time: '2018-02-07T06:36:42+0000'
+    from:
+      name: Mostafa Mohammed
+      id: '10214108945173285'
+    message: "يعني لمؤخذه عربي يمين للشمال \U0001F602"
+    id: '1745759662130401'
+  - created_time: '2018-02-07T08:14:28+0000'
+    from:
+      name: Yamen Sharaf
+      id: '10155853632381955'
+    message: فريق بوتستراب شغالين على الحوار ده وحيبقا أوفيشال قريب، بس قريب بالنسبة
+      لبوتستراب ممكن ميكونش قريب أوي.
+    id: '1745812812125086'
+  - created_time: '2018-02-07T08:52:34+0000'
+    from:
+      name: Hisham Fangary
+      id: '10156660518155839'
+    message: |-
+      بصراحة أنا كنت بستعمل bootstrap 3 لسببين: الgrid system علشان الlayout بالكلاسيك css (flex-less)، و علشان ال glyphicons. (بقيت الحاجات زي الhamburger menu و الfade و الforms بعملها بcss و خلاص، سهلة)
+
+      إنما دلوقتي bootstrap 4 بقي flex و كمان شالوا glyphicons (بيقوللك روح نزلها لوحدك ز لما تروح تلاقي version جديدة بتستعمل js library علشان تعمل generate icons بدل الfont)، فبصراحة 4 bootstrap مبقالهوش لازمة بالنسبالي لما كل حاجة بالflexbox سهلة و مش محتاج اقعد أحط classnames علي كل html tag.
+      هو selector بسيط في CSS و خلصت.
+      ده غير إن الفريم وورك كمان مش cross browser، يعني IE لسه فيه حاجات مابتشتغلش عليه. زي قلته.
+    id: '1745832588789775'
+  - created_time: '2018-02-07T17:40:14+0000'
+    from:
+      name: Ahmed El Mowafy
+      id: '1677576058930096'
+    message: |-
+      كان الافضل انك تحطه ك sass
+      وتعمل file منفصل للتعديلات بتاعتك
+    id: '1746202862086081'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMwTlRZANU9UVXlPRGd3TXpBNE1Ub3hOVEUzT1RjNE1EWTUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMwTmpJd01qZAzJNakE0TmpBNE1Ub3hOVEU0TURJMU1qRTAZD
+attachments:
+  data:
+  - description: bootstrap-4-rtl-stable-final - This is RTL version for bootstrap
+      4 stable release
+    media:
+      image:
+        height: 400
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQDfFta9_8kKOM5i&w=400&h=400&url=https%3A%2F%2Favatars1.githubusercontent.com%2Fu%2F4701497%3Fs%3D400%26v%3D4&cfs=1&sx=0&sy=0&sw=400&sh=400&_nc_hash=AQAUWx6A8drAo2mA
+        width: 400
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Fcairocoder%2Fbootstrap-4-rtl-stable-final&h=ATN9C32jq93Xy88PadJbeBGGmabyaLeeWZL9yr3vsxnsFym3bueya-VFYyjtmMitrt2dEXtniHrP5-lDqubr0n85KN_uKuxomX5Q949kwQy5EiXSTRSV9i2ZxVWzi3KHwSFQsF_5DhOWRjGh&s=1
+    title: cairocoder/bootstrap-4-rtl-stable-final
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Fcairocoder%2Fbootstrap-4-rtl-stable-final&h=ATN9C32jq93Xy88PadJbeBGGmabyaLeeWZL9yr3vsxnsFym3bueya-VFYyjtmMitrt2dEXtniHrP5-lDqubr0n85KN_uKuxomX5Q949kwQy5EiXSTRSV9i2ZxVWzi3KHwSFQsF_5DhOWRjGh&s=1
