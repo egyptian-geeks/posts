@@ -15,13 +15,25 @@ from:
   id: '10159976552365192'
 type: status
 created_time: '2018-02-03T13:15:35+0000'
-updated_time: '2018-02-05T07:53:54+0000'
+updated_time: '2018-02-08T11:22:27+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1742173142489053/
 shares:
-  count: 8
+  count: 9
 id: '172338516139198_1742173142489053'
 reactions:
   data:
+  - id: '10215847428638318'
+    name: Mohab El-Shishtawy
+    type: LIKE
+  - id: '10155638460272639'
+    name: Ahmed Talaat
+    type: LIKE
+  - id: '10214861141222529'
+    name: Abdelrady Fcis
+    type: LIKE
+  - id: '10156115350739764'
+    name: Mahmoud Tantawy
+    type: LIKE
   - id: '10211231687978651'
     name: Mohamed A. Tolba
     type: LIKE
@@ -144,6 +156,9 @@ reactions:
     type: LIKE
   - id: '909264299254917'
     name: Mohamed Tarek
+    type: LIKE
+  - id: '954758908006488'
+    name: Noura Hussein
     type: LIKE
   - id: '10159888022555052'
     name: Fady Anwar
@@ -369,7 +384,7 @@ reactions:
     type: LIKE
   paging:
     cursors:
-      before: TVRVMU1qTTNPRE13TkRveE5URTNPVFEzTmpBMU9qSTFOREE1TmpFMk1UTT0ZD
+      before: TVRJeU16UXlOVFF4TmpveE5URTRNVEUyT1RjME9qSTFOREE1TmpFMk1UTT0ZD
       after: TVRBd01EQTJNalU1TWpNNE9EVXlPakUxTVRjMk5qTTRNamc2TWpVME1EazJNVFl4TXc9PQZDZD
 comments:
   data:
@@ -480,7 +495,17 @@ comments:
       id: '1898177370224684'
     message: Ahmed Essam
     id: '1743676655672035'
+  - created_time: '2018-02-08T00:35:52+0000'
+    from:
+      name: Diaa Radwan
+      id: '10155446870048095'
+    message: Most of the issues are operational issues that are common mistakes that
+      can be avoided if you are following a framework. check the well architected
+      framework document https://d0.awsstatic.com/whitepapers/architecture/AWS_Well-Architected_Framework.pdf.
+      Also for the billing points, you can enable the billing alerts. Apply IAM polices
+      to limit users to certian region. A good practice would enable cloudtrail (globally).
+    id: '1746500032056364'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMwTWpFM09URXpOVGd5TVRjNE56b3hOVEUzTmpZAME1ETXgZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMwTXpZAM05qWTFOVFkzTWpBek5Ub3hOVEUzTnpnMk56RTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMwTmpVd01EQXpNakExTmpNMk5Eb3hOVEU0TURVd01UVXkZD

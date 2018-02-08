@@ -1,0 +1,33 @@
+---
+message: Anybody has a dataset of tweets or a tweets crawler for twitter? I need either
+  Urgently for my bachelor thesis.
+from:
+  name: Islam Elgohary
+  id: '10215113759578386'
+type: status
+created_time: '2018-02-08T16:17:41+0000'
+updated_time: '2018-02-08T17:08:47+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1747082048664829/
+id: '172338516139198_1747082048664829'
+comments:
+  data:
+  - created_time: '2018-02-08T16:53:19+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: |-
+      أنا كنت محتاج أعمل wordlist عربي من twitter مرة وكتبت السكريبت ده:
+      https://gist.github.com/a3f/75bd3510692cd183ec3857df82caca33
+
+      بتشغله وحيطبع على stdout الكلمات، بيخزن آخر مكان كان فيه ويكمل من هناك، ممكن تعمل redirect و تبعت له SIGUSR1 (أو ctrl+t على الماك) ويرد عليك هو لم كام كلمة.
+    id: '1747107248662309'
+  - created_time: '2018-02-08T17:08:45+0000'
+    from:
+      name: Ahmed Taweel
+      id: '10212776398099827'
+    message: Mohammed Ali Ashour
+    id: '1747118778661156'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMwTnpFd056STBPRFkyTWpNd09Ub3hOVEU0TVRBNE9EQXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMwTnpFeE9EYzNPRFkyTVRFMU5qb3hOVEU0TVRBNU56STIZD

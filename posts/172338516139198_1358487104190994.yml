@@ -29,14 +29,6 @@ comments:
     message: it's not typical rdp but I think teamviewer can do the job, it doesn't
       charge you for personal use
     id: '1358499974189707'
-  - created_time: '2017-01-19T05:09:34+0000'
-    from:
-      name: Amr Samir
-      id: '10155088457516078'
-    message: |-
-      Actually i do not fully understand your request , do you want to rent it ? in this case , go ahead , buy some cheap VPS / Cloud (Centos or Ubuntu) , install GUI (Gnome is the best , keep away from KDE) on it along with vnc-server , and use a VNC viewer client (exist for both windows and linux) to remotely access it . in case you want to install the OS at your own PC/Lap , you may download and install Centos /Ubuntu with GNOME , and as mentioned above , use a VNC viewer client to access it from any other device (even your mobile device) , This may help :
-      https://uk.godaddy.com/help/set-up-a-linux-desktop-with-gnome-and-vnc-6012
-    id: '1358849417488096'
   - created_time: '2017-01-19T05:47:29+0000'
     from:
       name: Ahmed Atalla
