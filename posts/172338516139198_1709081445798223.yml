@@ -38,9 +38,9 @@ comments:
       1. Media format. For example jpeg/pjpeg vs webp vs png... etc. Mp4 vs gif... etc.
       2. Dimensions of content vs view size. It doesn't make sense to download a 4K media on a 640px view size. We would be wasting a ton of data that will not be used.
       3. Timing. Can we prefetch some of these assets? Should we?
-      4. Caching. Best way to save bytes is not by downloading them at all!
+      4. Caching. Best way to save bytes is by not downloading them at all!
 
-      Otherwise, to view the images on your screen, everyone will probably use a standard image format when downloading to clients otherwise how would clients/standard browsers understand how to compress the media?
+      Otherwise, to view the images on your screen, everyone will probably use a standard image format when downloading to clients. Otherwise how would clients/standard browsers understand how to compress the media?
       For example, Dropbox created an image compression technique they called Lepton to save disk space when storing those images, but again the trick is, before viewing those on clients, they first decompress and convert back to regular jpeg format so that clients can reuse/view them.
 
       For regular images, jpeg or pjpeg is the most appropriate; it produces fairly small images. Unless your image contains transparency, then I'd consider webp as well. For animation, consider webp or mp4/videos.
@@ -66,7 +66,7 @@ attachments:
         src: https://external.xx.fbcdn.net/safe_image.php?d=AQBqRBoTdQkMYSCx&w=720&h=720&url=https%3A%2F%2Fwww.pexels.com%2Fassets%2Fpexels-stock-photos-dfd81c30db2753ad29f4f247cb6d364b43d0a45d95e0b1cbc446c992b2147398.jpg&cfs=1&sx=131&sy=0&sw=822&sh=822&_nc_hash=AQCILsV6ix2Mhvot
         width: 720
     target:
-      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.pexels.com%2F&h=ATOBySn0Usuba3xD8DoIADrAnczuxVq-Dq5PEsi4ui9ycdy4P64GPSayoZ4u9SOasx1WhR0pvnJ1HPb5M7cMSM00jZM_BNpwkHpKMdUXLL5k46vXqagdZVjUujsfojtBXyJsbWVkxvzYz_Y_&s=1
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.pexels.com%2F&h=ATPfdJsTA1W3cNzwfDZNksvcr8HAXJrJFYdTR4rfG6kVjM9Zr2zTmvIAZvYIMcD3pkVsqXmVxta5lgxxPXgWlmLfchpav5bPU4d2CQbr3Lg-8A00cK-1zQgBenia1VEcQev1f7l2V1S7OMC_&s=1
     title: Free stock photos · Pexels
     type: share
-    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.pexels.com%2F&h=ATOBySn0Usuba3xD8DoIADrAnczuxVq-Dq5PEsi4ui9ycdy4P64GPSayoZ4u9SOasx1WhR0pvnJ1HPb5M7cMSM00jZM_BNpwkHpKMdUXLL5k46vXqagdZVjUujsfojtBXyJsbWVkxvzYz_Y_&s=1
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.pexels.com%2F&h=ATPfdJsTA1W3cNzwfDZNksvcr8HAXJrJFYdTR4rfG6kVjM9Zr2zTmvIAZvYIMcD3pkVsqXmVxta5lgxxPXgWlmLfchpav5bPU4d2CQbr3Lg-8A00cK-1zQgBenia1VEcQev1f7l2V1S7OMC_&s=1

@@ -1,0 +1,37 @@
+---
+message: "السلام عليكم جميعا.\nحاليا انا انشئت AWS RDS Instance لمشروع جديد باستخدام
+  Elastic Beanstalk و حبيت اعمل كونكت عليه بدون استخدام mysql cli او aws cli علي ال
+  endpoint ... فحبيت اني اعمل SSH Port forwarding من localhost عندي الي  RDS endpoint
+  عن طريق ال EC2 Public IPv4. \n\nكل ده عشان اقدر اعمل كونت ب Sequal Pro من الماك
+  عندي علي الداتا بيز. المشكلة ان الطريقة دي مرهقة في كل مره اعملها .... مفيش طريقة
+  احسن من كده تريحني عن طريق ال Dashboard لل AWS"
+from:
+  name: Nady Shalaby
+  id: '2086378701380044'
+type: status
+created_time: '2018-02-09T00:06:45+0000'
+updated_time: '2018-02-09T00:11:33+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1747453138627720/
+id: '172338516139198_1747453138627720'
+reactions:
+  data:
+  - id: '1426226024170585'
+    name: Ahmed E. Eldeeb
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXpORGsyTURJeE1UWTVPakUxTVRneE5qVTVNekU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXpORGsyTURJeE1UWTVPakUxTVRneE5qVTVNekU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2018-02-09T00:11:29+0000'
+    from:
+      name: Mohamed Ahmed
+      id: '385696705226073'
+    message: ال RDS  بال BS مش معموله لكده افضلك تعملك instance عاديه و تنزل عليها
+      mysql و تستخدم ال security groups  و تكونكت عادى و بعد ماتسس انقل شغلك لل beanstalk
+    id: '1747464071959960'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMwTnpRMk5EQTNNVGsxT1RrMk1Eb3hOVEU0TVRNMU1Ea3cZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMwTnpRMk5EQTNNVGsxT1RrMk1Eb3hOVEU0TVRNMU1Ea3cZD
