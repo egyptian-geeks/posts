@@ -46,21 +46,12 @@ reactions:
   - id: '10156649659196002'
     name: Muhammad Saleh
     type: LIKE
-  - id: '1281616575316079'
-    name: Ahmed ElSebaei
-    type: LIKE
   paging:
     cursors:
       before: TVRBd01EQXhOVEUwT1RjeE1qYzJPakUwTWprMk9UQXdNVGM2TWpVME1EazJNVFl4TXc9PQZDZD
-      after: TVRBd01EQTBNRE15TkRjM05EWTJPakUwTWprMk16UTRNek02TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TmprMU5UazJNREF4T2pFME1qazJNelV6TnpnNk1qVTBNRGsyTVRZAeE13PT0ZD
 comments:
   data:
-  - created_time: '2015-04-21T16:47:52+0000'
-    from:
-      name: Ahmed ElSebaei
-      id: '1281616575316079'
-    message: Good move :)
-    id: '929463603760015'
   - created_time: '2015-04-21T16:49:49+0000'
     from:
       name: Mohamed Samy
@@ -74,13 +65,6 @@ comments:
       id: '10212947071504226'
     message: Restart in the Context-Menu !!!
     id: '929466053759770'
-  - created_time: '2015-04-21T16:55:45+0000'
-    from:
-      name: Ahmed ElSebaei
-      id: '1281616575316079'
-    message: Mohamed Samy I think Debian is very mature and a solid ground for a development
-      environment  . Never tried OpenBSD.
-    id: '929466740426368'
   - created_time: '2015-04-21T16:56:05+0000'
     from:
       name: Mohamed Samy
@@ -134,12 +118,6 @@ comments:
       id: '10160396852830355'
     message: Ahmed ElSebaei what's your dev environement?
     id: '929469347092774'
-  - created_time: '2015-04-21T17:05:50+0000'
-    from:
-      name: Ahmed ElSebaei
-      id: '1281616575316079'
-    message: Mohamed Samy Debian + XMonad + Many other packages
-    id: '929471443759231'
   - created_time: '2015-04-21T17:07:06+0000'
     from:
       name: Eslam Hamouda
@@ -154,14 +132,6 @@ comments:
       so we can just run one script and replicate the environement and packages. It
       seems you know better Debian than me I hope :)
     id: '929488953757480'
-  - created_time: '2015-04-21T17:51:14+0000'
-    from:
-      name: Ahmed ElSebaei
-      id: '1281616575316079'
-    message: Mohamed Samy  I don't have a script for installing packages or config
-      the environment  , I just install what I need and configure it . I'm not sure
-      if there is something like that or not !
-    id: '929493730423669'
   - created_time: '2015-04-21T17:58:07+0000'
     from:
       name: Mosab Ibrahim
@@ -205,17 +175,10 @@ comments:
     message: Ahmed ElSebaei Allah yesam7ak, XMonad is all I have been thinking about
       :)
     id: '929633463743029'
-  - created_time: '2015-04-21T23:04:46+0000'
-    from:
-      name: Ahmed ElSebaei
-      id: '1281616575316079'
-    message: Mohamed Samy Use xmonad if you love tiling , it's superb when it comes
-      to that ;)
-    id: '929634130409629'
   paging:
     cursors:
-      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEk1TkRZAek5qQXpOell3TURFMU9qRTBNamsyTXpRNE56ST0ZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEk1TmpNME1UTXdOREE1TmpJNU9qRTBNamsyTlRjME9EWT0ZD
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEk1TkRZAME16RXpOelU1T1RRME9qRTBNamsyTXpRNU9Eaz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEk1TmpNek5EWXpOelF6TURJNU9qRTBNamsyTlRjeU5UZAz0ZD
 attachments:
   data:
   - description: |-
@@ -229,7 +192,7 @@ attachments:
     media:
       image:
         height: 404
-        src: https://scontent.xx.fbcdn.net/v/t31.0-8/q89/s720x720/11021431_10155989719505355_6767868969730658437_o.jpg?oh=c93a15e5358205b4d6dcfcb408b9dc9a&oe=5AE26D7A
+        src: https://scontent.xx.fbcdn.net/v/t31.0-8/q89/s720x720/11021431_10155989719505355_6767868969730658437_o.jpg?oh=25a858efbf12d6c28da928d4309b40b6&oe=5B09FA7A
         width: 720
     target:
       id: '10155989719505355'

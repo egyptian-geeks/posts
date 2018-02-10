@@ -1,0 +1,135 @@
+---
+message: |-
+  طيب ... ده أول كود golang أكتبه :D
+
+  الدنيا شغالة، بس أنا بحاول أشوف حد يعمله review عشان أعرف إيه ممكن يتحسن لإني جاي من باكجرواد Python/OOP/Interpreted.
+
+  أنا كاتب الأسئلة في الكود والتفاصيل في ملف readme.
+  ف حد يتكرم كدا ويبص عليه بصة متأنية :D
+link: https://github.com/AAbouZaid/golang-playground/tree/master/flume
+from:
+  name: Ahmed AbouZaid
+  id: '10159726802330618'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQD2VDBUpXfVg76C&w=130&h=130&url=https%3A%2F%2Favatars2.githubusercontent.com%2Fu%2F6760103%3Fs%3D400%26v%3D4&cfs=1&sx=0&sy=0&sw=400&sh=400&_nc_hash=AQAOEKkdmLYnCL46
+created_time: '2018-02-10T12:50:50+0000'
+updated_time: '2018-02-10T18:27:09+0000'
+name: AAbouZaid/golang-playground
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1748925235147177/
+shares:
+  count: 1
+id: '172338516139198_1748925235147177'
+reactions:
+  data:
+  - id: '1571159766293275'
+    name: Yasser Sobhy
+    type: LIKE
+  - id: '10209987525676546'
+    name: مؤمن عبد القادر
+    type: LIKE
+  - id: '1947408088855899'
+    name: ناصر الطامى
+    type: LIKE
+  - id: '1978009525783037'
+    name: Ahmed Magdy
+    type: LIKE
+  - id: '10214471954062071'
+    name: Mohammad Aboelnour
+    type: LIKE
+  - id: '2005523986395864'
+    name: Marco Younan
+    type: LIKE
+  - id: '10160028885050387'
+    name: Mahmoud M. Abdel-Fattah
+    type: LIKE
+  - id: '930615110434715'
+    name: Ahmed Ashraf
+    type: LIKE
+  - id: '973044862844261'
+    name: Ahmed Milad
+    type: LIKE
+  - id: '10155756361480041'
+    name: Ahmed Soliman
+    type: LIKE
+  - id: '1390865184357058'
+    name: Ahmed Hamdy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhPVGMzT1RrNE1UVTJPakUxTVRnek1EQTNPVEk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXpNREEzTmpnNE1qVTNPakUxTVRneU5qY3pPREk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2018-02-10T12:58:11+0000'
+    from:
+      name: Ahmed Hamdy
+      id: '1390865184357058'
+    message: "الكود ١٠٠ ١٠٠ وكله تمام \U0001F603\U0001F4AA\U0001F3FB"
+    id: '1748973818475652'
+  - created_time: '2018-02-10T13:12:09+0000'
+    from:
+      name: Galal Aly
+      id: '1964650613774365'
+    message: Mohammed Al Ashaal
+    id: '1748988978474136'
+  - created_time: '2018-02-10T13:21:26+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: Mohamed Bassem
+    id: '1749001958472838'
+  - created_time: '2018-02-10T13:24:46+0000'
+    from:
+      name: Ahmed Ashraf
+      id: '930615110434715'
+    message: موضوع ال inArray ده بردو انا استخدمته في بروجكت شغال عليه لاني لما عملت
+      شويه سيرش عن اي package او حاجه في اللغه بتعمل الموضوع ده ملقتش
+    id: '1749005465139154'
+  - created_time: '2018-02-10T13:57:33+0000'
+    from:
+      name: Ayman Hassan Afif
+      id: '10213023273988979'
+    message: no need for getJson you can just implement son Marshal and UnMarshal
+      functions in your struct so when you pass it to any object uses Json it will
+      work
+    id: '1749034945136206'
+  - created_time: '2018-02-10T15:19:17+0000'
+    from:
+      name: Mohamed Bassem
+      id: '10212826240185281'
+    message: |-
+      I had a quick look and wrote my code review in this issue (https://github.com/AAbouZaid/golang-playground/issues/2). It's mostly about the way you structured the code. Also, it would have made it much easier for us if you provided a sample from the json response you receive from the server.
+      Finally, have a look at (https://github.com/golang/go/wiki/CodeReviewComments), it will tell you the DOs and DONTs.
+    id: '1749121475127553'
+  - created_time: '2018-02-10T16:34:08+0000'
+    from:
+      name: Hany Said
+      id: '10156179627726738'
+    message: log.Fatalf calls os.Exit(1) which exits your program killing other goroutines.
+      That's why you see only one error.
+    id: '1749180325121668'
+  - created_time: '2018-02-10T18:02:17+0000'
+    from:
+      name: Mohamed R. Almasry
+      id: '1610358195710784'
+    message: create a pull request against any empty branch so that we can review
+      the code properly :)
+    id: '1749257075113993'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMwT0RrM016ZA3hPRFEzTlRZAMU1qb3hOVEU0TWpZAM05Ea3oZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMwT1RJMU56QTNOVEV4TXprNU16b3hOVEU0TWpnMU56TTMZD
+attachments:
+  data:
+  - description: Contribute to golang-playground development by creating an account
+      on GitHub.
+    media:
+      image:
+        height: 400
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQDEZtjd8-CVk9tL&w=400&h=400&url=https%3A%2F%2Favatars2.githubusercontent.com%2Fu%2F6760103%3Fs%3D400%26v%3D4&cfs=1&sx=0&sy=0&sw=400&sh=400&_nc_hash=AQD7CsSUhM60Mu7X
+        width: 400
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2FAAbouZaid%2Fgolang-playground%2Ftree%2Fmaster%2Fflume&h=ATNzVHWDK0RoceHUACqHoKbxIt6N7dssulPX8eUzU2lnxvpyghRLckjRfkhlxg0VonUsxAiyAQeqTVKd7YLCTGrEXt4rKt8gn0I8meGlVt54LoTUOZaoxlhUWXUjctXJSCgAhxwsD-UzzK9F&s=1
+    title: AAbouZaid/golang-playground
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2FAAbouZaid%2Fgolang-playground%2Ftree%2Fmaster%2Fflume&h=ATNzVHWDK0RoceHUACqHoKbxIt6N7dssulPX8eUzU2lnxvpyghRLckjRfkhlxg0VonUsxAiyAQeqTVKd7YLCTGrEXt4rKt8gn0I8meGlVt54LoTUOZaoxlhUWXUjctXJSCgAhxwsD-UzzK9F&s=1

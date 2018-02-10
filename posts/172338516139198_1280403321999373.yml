@@ -1,0 +1,57 @@
+---
+message: |-
+  انا عندى مشكله بقالى اكتر من 3 سعات بدورلها على حل وكل الحلول اللى شفتها عالجيت هب عباره عن حل واحد بيعيد نفسه والسبب فيه ال inline source maps of large concatenated stylesheet وانا معنديش المشكله دى خالص .
+  انا كل اللى بحاول اعمله انى افتح ال node-inspector لملف index.js وربنا :D
+  عملت node-inspector فى ال node command line وقالى :
+  Node Inspector v0.12.8
+  Visit http://127.0.0.1:8080/?port=5858 to start debugging.
+  تمام لحد هنا وبيفتح معايه ال node-inspector عادى ,, رحت فاتح node command line تانى ورحت لل path بتاع الملف وقلتله node --debug-brk index علشان يفتحلى ملف ال index واعمله debug وقالى :
+  Debugger listening on [::]:5858
+  وكده الدنيا تمام ,, اجى فى البراوزر افتح نفس اللينك اللى كان شغال اللى هو :
+  http://127.0.0.1:8080/?port=5858
+  مش بيرضى يفتح بأه وبيجبلى الرساله اللى فى الصوره دى وانا مش عارف احلها ازاى لحد دلوقتى
+link: https://www.facebook.com/photo.php?fbid=648640258650039&set=gm.1280403321999373&type=3
+from:
+  name: Yahya Elharony
+  id: '887784854735577'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/q87/s130x130/14956005_648640258650039_5075096284593970368_n.jpg?oh=e6db45c0256b6f4f3510d98008b54ec0&oe=5ADC9A31
+created_time: '2016-11-04T07:21:50+0000'
+updated_time: '2016-11-04T12:14:05+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1280403321999373/
+id: '172338516139198_1280403321999373'
+comments:
+  data:
+  - created_time: '2016-11-04T12:14:03+0000'
+    from:
+      name: Yahya Elharony
+      id: '887784854735577'
+    message: up :(
+    id: '1280571818649190'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEk0TURVM01UZA3hPRFkwT1RFNU1Eb3hORGM0TWpZAeE5qUXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEk0TURVM01UZA3hPRFkwT1RFNU1Eb3hORGM0TWpZAeE5qUXoZD
+attachments:
+  data:
+  - description: |-
+      انا عندى مشكله بقالى اكتر من 3 سعات بدورلها على حل وكل الحلول اللى شفتها عالجيت هب عباره عن حل واحد بيعيد نفسه والسبب فيه ال inline source maps of large concatenated stylesheet وانا معنديش المشكله دى خالص .
+      انا كل اللى بحاول اعمله انى افتح ال node-inspector لملف index.js وربنا :D
+      عملت node-inspector فى ال node command line وقالى :
+      Node Inspector v0.12.8
+      Visit http://127.0.0.1:8080/?port=5858 to start debugging.
+      تمام لحد هنا وبيفتح معايه ال node-inspector عادى ,, رحت فاتح node command line تانى ورحت لل path بتاع الملف وقلتله node --debug-brk index علشان يفتحلى ملف ال index واعمله debug وقالى :
+      Debugger listening on [::]:5858
+      وكده الدنيا تمام ,, اجى فى البراوزر افتح نفس اللينك اللى كان شغال اللى هو :
+      http://127.0.0.1:8080/?port=5858
+      مش بيرضى يفتح بأه وبيجبلى الرساله اللى فى الصوره دى وانا مش عارف احلها ازاى لحد دلوقتى
+    media:
+      image:
+        height: 110
+        src: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/14956005_648640258650039_5075096284593970368_n.jpg?oh=e2e9003f5c81c58379b2bc315b8a167a&oe=5AD99BB3
+        width: 720
+    target:
+      id: '648640258650039'
+      url: https://www.facebook.com/photo.php?fbid=648640258650039&set=gm.1280403321999373&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=648640258650039&set=gm.1280403321999373&type=3

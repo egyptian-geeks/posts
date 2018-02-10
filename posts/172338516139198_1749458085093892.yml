@@ -1,0 +1,50 @@
+---
+message: |-
+  my commits are appearing unknown after commiting from my local machine did you know the reason for such a behavior ?
+   and is there any way to restore them back to my account ?
+link: https://www.facebook.com/photo.php?fbid=2104732789813121&set=gm.1749458085093892&type=3
+from:
+  name: Ahmed Khaled
+  id: '2096358110650589'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/27750476_2104732789813121_8123253564177598684_n.jpg?oh=b28248210795fb7c10e0b283976fb212&oe=5B0F46F2
+created_time: '2018-02-10T22:35:17+0000'
+updated_time: '2018-02-10T22:45:22+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1749458085093892/
+id: '172338516139198_1749458085093892'
+comments:
+  data:
+  - created_time: '2018-02-10T22:39:03+0000'
+    from:
+      name: Abdelrahman Hamdy
+      id: '2131402737081552'
+    message: |-
+      You are committing from an account which has different email than the primary one.
+
+      adjust the account data, check this to know how:
+      https://help.github.com/articles/setting-your-commit-email-address-in-git/
+
+      " is there any way to restore them back to my account ?"
+      Once you changed the email, all your upcoming commits will not appear as unknown, for the previous ones, yeah, you still can fix this.
+      add the email from which you made the last commits to your emails on github, from here:
+      https://github.com/settings/emails
+    id: '1749465741759793'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMwT1RRMk5UYzBNVGMxT1RjNU16b3hOVEU0TXpBeU16UTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMwT1RRMk5UYzBNVGMxT1RjNU16b3hOVEU0TXpBeU16UTAZD
+attachments:
+  data:
+  - description: |-
+      my commits are appearing unknown after commiting from my local machine did you know the reason for such a behavior ?
+       and is there any way to restore them back to my account ?
+    media:
+      image:
+        height: 392
+        src: https://scontent.xx.fbcdn.net/v/t1.0-9/27750476_2104732789813121_8123253564177598684_n.jpg?oh=b48ef58f8c7c10a58f78528b3da091e4&oe=5B0C2199
+        width: 604
+    target:
+      id: '2104732789813121'
+      url: https://www.facebook.com/photo.php?fbid=2104732789813121&set=gm.1749458085093892&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=2104732789813121&set=gm.1749458085093892&type=3
