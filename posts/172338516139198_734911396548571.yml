@@ -1,0 +1,128 @@
+---
+message: مش عارف ده موجود ولا لا ... كنت عاوز حاجه ذى فى ام وير او فرتشيل بوكس يركب
+  على الجهاز بدون نظام تشغيل يعنى يكون هو نظام التشغيل .. بس :)
+from:
+  name: Bassam Abd ElHamid
+  id: '10216304570715925'
+type: status
+created_time: '2014-04-22T08:24:56+0000'
+updated_time: '2014-04-22T17:22:54+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/734911396548571/
+id: '172338516139198_734911396548571'
+comments:
+  data:
+  - created_time: '2014-04-22T08:29:57+0000'
+    from:
+      name: Mohamed Sameeh Sharaf
+      id: '2167550119925504'
+    message: يعنى انت عاوز البوت لودر يبوت من ال OS بتاع ال virtual box :)
+    id: '734912359881808'
+  - created_time: '2014-04-22T08:32:19+0000'
+    from:
+      name: Mohamed Badawi
+      id: '1532825676787208'
+    message: |-
+      فين الفرشواليزاشن ف كدا؟
+      ولا قصدك اوبريتنج سيستم متخصص بس للغرض دا؟
+    id: '734913119881732'
+  - created_time: '2014-04-22T08:32:24+0000'
+    from:
+      name: Mahmoud Magdy
+      id: '10156022098445645'
+    message: Use esxi or hyperv core
+    id: '734913156548395'
+  - created_time: '2014-04-22T08:32:53+0000'
+    from:
+      name: Mohamed Badawi
+      id: '1532825676787208'
+    message: http://wiki.xenproject.org/wiki/Xen_Overview
+    id: '734913293215048'
+  - created_time: '2014-04-22T08:33:23+0000'
+    from:
+      name: Mohamed Sameeh Sharaf
+      id: '2167550119925504'
+    message: |-
+      Mahmoud Magdy
+      كنت لسه هعملك تاج :)
+    id: '734913416548369'
+  - created_time: '2014-04-22T08:33:58+0000'
+    from:
+      name: Mahmoud Magdy
+      id: '10156022098445645'
+    message: U r too slow for me ;-)
+    id: '734913556548355'
+  - created_time: '2014-04-22T08:37:41+0000'
+    from:
+      name: Mohamed Sameeh Sharaf
+      id: '2167550119925504'
+    message: |-
+      your are prince :)
+      طيب ما تشرح لينا كدا هتتعمل ازاى او ايه الخطوات يعنى يا كبير
+    id: '734914596548251'
+  - created_time: '2014-04-22T08:39:22+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: شكراً لكم جميعاً , هى فكرتى لو عندى جهاز بستخدمو للتستنج عليه اكتر من
+      امج لاكتر من نظام تشغيل وانا مش عاوز منو غير تشغيل الفى ام وير ... فمفيش داعى
+      اشغل وندوز كامل بخدماتو ببرامجو عشان اشغل الفى ام وير ... شكراً باشمهندس محمد
+      مجدى هشوف الروابط ويارب يكون الزن فرى :)
+    id: '734915096548201'
+  - created_time: '2014-04-22T08:40:31+0000'
+    from:
+      name: Mahmoud Magdy
+      id: '10156022098445645'
+    message: |-
+      Esxi and hyperv core r free
+      Sameeh load the dvd and keep clicking next ;-)
+    id: '734915546548156'
+  - created_time: '2014-04-22T08:44:22+0000'
+    from:
+      name: Mohamed Badawi
+      id: '1532825676787208'
+    message: لو فوق نظام تشغيل عادى بيبقى اسهل تاخد صورة نظام وتنقلها براحتك بين الأجهزة
+      - ولو بتستخدم حاجة زي vagrant هتلاقى الدنيا منظمة بشكل كويس جدا
+    id: '734916479881396'
+  - created_time: '2014-04-22T09:02:20+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: واو واو واوا ... مكنتش متخيل انها بالسهولة دى... فكرت شركات الاستضافة
+      بتستخدم هاردوير مختلف شكراً ياباش مهندس
+    id: '734920969880947'
+  - created_time: '2014-04-22T09:48:25+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      If you want one image at a time then Hyper-V has boot from VHD, but I expect you mean a host of several VMs.
+      Most hosting companies I know run Windows Server Enterprise for Hyper-V host. I assume you can run Windows Server Core for a minimalist experience. Same for Linux, some lightweight distro,
+    id: '734932026546508'
+  - created_time: '2014-04-22T09:48:51+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: Here is an example for Windows Server Core, although it's not common
+      I guess http://4sysops.com/archives/how-to-install-hyper-v-on-server-core/
+    id: '734932099879834'
+  - created_time: '2014-04-22T09:49:56+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      Here are the operating systems used to host Xen virtualization (popular Linux enterprise virtualization)
+      http://en.wikipedia.org/wiki/Xen#Hosts
+      You can see there are so many
+    id: '734932379879806'
+  - created_time: '2014-04-22T09:50:41+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      OpenVZ  (the other popular Linux enterprise virtualization) is typically used with CentOS as a host
+      http://openvz.org/Quick_installation#Requirements
+    id: '734932563213121'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOek0wT1RFeU16VTVPRGd4T0RBNE9qRXpPVGd4TlRVek9UYz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOek0wT1RNeU5UWXpNakV6TVRJeE9qRXpPVGd4TmpBeU5ERT0ZD

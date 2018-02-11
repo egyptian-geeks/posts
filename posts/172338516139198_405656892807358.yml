@@ -13,6 +13,9 @@ reactions:
   - id: '10156278338768296'
     name: Mohammed Gamal
     type: LIKE
+  - id: '10216304570715925'
+    name: Bassam Abd ElHamid
+    type: LIKE
   - id: '10155459907523981'
     name: Mohammad Elsheimy
     type: LIKE
@@ -25,6 +28,13 @@ reactions:
       after: TlRFME5UYzVOell6T2pFek16Y3hOVEV3TWpNNk1qVTBNRGsyTVRZAeE13PT0ZD
 comments:
   data:
+  - created_time: '2012-05-16T07:59:31+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: لم اعد احتاج للنقابه ... بببرمج بقالى اكتر من عشر سنين ومش ضامن هعيش
+      لبكره ولا لا :)
+    id: '405675229472191'
   - created_time: '2012-05-16T12:41:50+0000'
     from:
       name: Mohamed Sameeh Sharaf
@@ -34,16 +44,35 @@ comments:
       نفترض انت عاوز تروح مثلا تصيف فى بلطيم او تروح رحلة لمدينة الملاهى دريم بارك او عاوز تجوز وتشترى شقة وتستلمها بعد لما تكون مش عارف لما تكون ايه المهم بعد مدة مش قليلة
       النقابة مصلحتك اولا
     id: '405787262794321'
+  - created_time: '2012-05-16T13:11:11+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: اه فعلاً مكنتش عامل حسابى فى موضوع المصيف ده ... على فكره انا مش خريج
+      حسبات ولا درست كمبيوتر غير الدوس والبيزك ... انا معهد فنى تجارى :)
+    id: '405800606126320'
   - created_time: '2012-05-17T18:55:54+0000'
     from:
       name: Mohamed Sameeh Sharaf
       id: '2167550119925504'
     message: هو ايه معنى ال naked object لانى حاولت ادور عليه وملقتش حاجة
     id: '406671426039238'
+  - created_time: '2012-05-19T06:26:21+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: http://en.wikipedia.org/wiki/Naked_objects
+    id: '407595435946837'
+  - created_time: '2012-05-19T06:26:33+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: http://en.wikipedia.org/wiki/Naked_objects
+    id: '407595475946833'
   paging:
     cursors:
-      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOREExTnpnM01qWXlOemswTXpJeE9qRXpNemN4TnpJeE1UQT0ZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOREEyTmpjeE5ESTJNRE01TWpNNE9qRXpNemN5T0RBNU5UUT0ZD
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOREExTmpjMU1qSTVORGN5TVRreE9qRXpNemN4TlRVeE56RT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOREEzTlRrMU5EYzFPVFEyT0RNek9qRXpNemMwTURnM09UTT0ZD
 attachments:
   data:
   - description: This attachment may have been removed or the person who shared it

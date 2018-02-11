@@ -37,6 +37,18 @@ reactions:
       after: TVRBd01EQXdNakkwTlRVNU56RXpPakUxTVRBek9UVXpNemM2TWpVME1EazJNVFl4TXc9PQZDZD
 comments:
   data:
+  - created_time: '2017-11-09T02:49:47+0000'
+    from:
+      name: Abdelrahman Hosny
+      id: '10212827860786253'
+    message: |-
+      Would you make your problem definition more clear? For me, it sounds like one of the following:
+      - You need better hosting -> the solution is to just find a better hosting that supports all your needs and move there
+      - all these instances make your life really hard -> you would tackle the problem of the software architecture itself that you misused microservices; it is supposed to make your life easy and understandable, not hard
+      - Google sql is really slow -> perhaps the problem is not with google. Usually sql connections originating from a different server/domain (+ not in the same data center) have latency to pass by the security layer of the db engine. So, you might not want to blame Google, but to review your architecture again
+      - you want to move to one single place -> it's not about the place, but the architecture itslef and how those small services collaborate. It's completely fine (and advised) to move to one single place (same provider). I'd recommend to look into whatever is easier for you and your technical background. Don't over-engineer.
+      - Docker will introduce more challenges to you at the current state of your architecture; I think.
+    id: '1656688397704195'
   - created_time: '2017-11-09T03:10:25+0000'
     from:
       name: Mohammed Fox
@@ -119,5 +131,5 @@ comments:
     id: '1657192887653746'
   paging:
     cursors:
-      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkxTmpjd01UQXpOemN3TWprek1Ub3hOVEV3TVRrM01ESTEZD
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkxTmpZANE9ETTVOemN3TkRFNU5Ub3hOVEV3TVRrMU56ZAzQZD
       after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkxTnpFNU1qZAzROelkxTXpjME5qb3hOVEV3TWpRek56azEZD

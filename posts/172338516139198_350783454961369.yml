@@ -29,10 +29,13 @@ reactions:
   - id: '10154993661007443'
     name: Mona Salama
     type: LIKE
+  - id: '10216304570715925'
+    name: Bassam Abd ElHamid
+    type: LIKE
   paging:
     cursors:
       before: TmpNM09UQXlOamd3T2pFek16QTFNakV6T1RRNk1qVTBNRGsyTVRZAeE13PT0ZD
-      after: TmprNU56ZA3lORFF5T2pFek16QXpORFl4TmpFNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRVd016WTFOVFF3TlRveE16TXdNelExTnpBeU9qSTFOREE1TmpFMk1UTT0ZD
 comments:
   data:
   - created_time: '2012-02-27T12:27:22+0000'
@@ -78,6 +81,13 @@ comments:
     message: yep the same happened to me 2 days ago also the cross domain policy I
       couldn't Fetch json contents from other domain!
     id: '350860074953707'
+  - created_time: '2012-02-27T15:38:19+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: In silverlight you can access whatever you want BUT using trusted mode
+      only :)
+    id: '350872528285795'
   - created_time: '2012-02-27T15:50:11+0000'
     from:
       name: Mohammed El Sayed
@@ -158,7 +168,7 @@ attachments:
       already knew about YQL, but I had no idea that it allowed retrieval of HTML
       from other sites, via JSON, returned as a single string!
     target:
-      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fjames.padolsey.com%2Fjavascript%2Fcross-domain-requests-with-jquery%2F&h=ATMoS-wo6KWaYWv4GHRZp9gc2dQgwwxA1tj-Vo30UIC2q7a6rUAzmXeB09QOxheyus8ZtzgnR3SbjaYqeaBXcpMmL1uq-nrABq4-H_r28ZAFV-q8bTqjEtRw9Vw9sfq_Wvf67VFaGlwkN7Vt&s=1
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fjames.padolsey.com%2Fjavascript%2Fcross-domain-requests-with-jquery%2F&h=ATNk3ksXVcK9m17xj-619xup5XS3QwyxHoi2EArBIXM_zGZArgqpXaOc3mGRE7TQkP_1kKp6zA6SfLbp1qHl5xi--emSsWIXd_pzucjW5TBlVahC0Dn8-RIMBLrV8RUUO5K6cW2xbqHZCkzo&s=1
     title: Cross-domain requests with jQuery – James Padolsey
     type: share
-    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fjames.padolsey.com%2Fjavascript%2Fcross-domain-requests-with-jquery%2F&h=ATMoS-wo6KWaYWv4GHRZp9gc2dQgwwxA1tj-Vo30UIC2q7a6rUAzmXeB09QOxheyus8ZtzgnR3SbjaYqeaBXcpMmL1uq-nrABq4-H_r28ZAFV-q8bTqjEtRw9Vw9sfq_Wvf67VFaGlwkN7Vt&s=1
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fjames.padolsey.com%2Fjavascript%2Fcross-domain-requests-with-jquery%2F&h=ATNk3ksXVcK9m17xj-619xup5XS3QwyxHoi2EArBIXM_zGZArgqpXaOc3mGRE7TQkP_1kKp6zA6SfLbp1qHl5xi--emSsWIXd_pzucjW5TBlVahC0Dn8-RIMBLrV8RUUO5K6cW2xbqHZCkzo&s=1

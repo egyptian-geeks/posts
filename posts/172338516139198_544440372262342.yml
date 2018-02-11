@@ -12,6 +12,9 @@ reactions:
   - id: '10160101975555457'
     name: Michael Youssef
     type: LIKE
+  - id: '10216304570715925'
+    name: Bassam Abd ElHamid
+    type: LIKE
   - id: '10214861141222529'
     name: Abdelrady Fcis
     type: LIKE
@@ -19,6 +22,20 @@ reactions:
     cursors:
       before: TmpZANU5EQXdORFUyT2pFek5qUTNOemd5T1RRNk1qVTBNRGsyTVRZAeE13PT0ZD
       after: TVRJME5qZA3lNelF4TVRveE16WXpPRGMzTWpVM09qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2013-03-21T15:44:38+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: هما الى عاوزين كده ... كتير من الشركات شغالة بالى تعرفو احسن من الى متعرفوش
+      فعندهم شوية مكتبات وافكار شغالين بيها وممنوع كسرهم او استخدام غيرهم الا لما
+      يتحطو فى موقف يحتم عليهم ذى اى يكون عندهم طلب معملوش ذيو قبل كده
+    id: '544489592257420'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOVFEwTkRnNU5Ua3lNalUzTkRJd09qRXpOak00T0RBMk56ZAz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOVFEwTkRnNU5Ua3lNalUzTkRJd09qRXpOak00T0RBMk56ZAz0ZD
 attachments:
   data:
   - description: This attachment may have been removed or the person who shared it

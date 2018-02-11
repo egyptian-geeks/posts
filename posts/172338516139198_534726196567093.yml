@@ -39,12 +39,21 @@ reactions:
   - id: '10212947071504226'
     name: Eslam Hamouda
     type: LIKE
+  - id: '10216304570715925'
+    name: Bassam Abd ElHamid
+    type: LIKE
   paging:
     cursors:
       before: TlRnM05EWXhNRFkxT2pFek5qSXhOemczTkRBNk1qVTBNRGsyTVRZAeE13PT0ZD
-      after: TVRZAeE5ERXlNREUyTkRveE16WXhPVGM0TWpBNU9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRVd016WTFOVFF3TlRveE16WXhPVEUyTlRJNE9qSTFOREE1TmpFMk1UTT0ZD
 comments:
   data:
+  - created_time: '2013-02-26T22:09:10+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: عجبانى الفكره واعتذر عن عدم قدرتى على المشاركه
+    id: '534726699900376'
   - created_time: '2013-02-26T22:20:25+0000'
     from:
       name: Mohamed Elsherif
@@ -255,5 +264,5 @@ comments:
     id: '536287226410990'
   paging:
     cursors:
-      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOVE0wTnpNd05Ua3pNak16TXpJd09qRXpOakU1TVRjeU1qVT0ZD
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOVE0wTnpJMk5qazVPVEF3TXpjMk9qRXpOakU1TVRZAMU5UQT0ZD
       after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOVE0yTWpnM01qSTJOREV3T1Rrd09qRXpOakl5TlRJeE5Eaz0ZD

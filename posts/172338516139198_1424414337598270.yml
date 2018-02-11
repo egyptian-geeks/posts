@@ -2,7 +2,7 @@
 message: "#Javascript \n \nvar foo = {n: 1};\nvar bar = foo;\nfoo.x = foo = {n: 2};\n\nWhat
   is the value of foo.x, why, and how these two = working?"
 from:
-  name: Osama Soliman
+  name: Osama Ahmed Soliman
   id: '879271768900112'
 type: status
 created_time: '2017-03-18T13:47:07+0000'
@@ -46,7 +46,7 @@ comments:
     id: '1424434040929633'
   - created_time: '2017-03-18T14:23:23+0000'
     from:
-      name: Osama Soliman
+      name: Osama Ahmed Soliman
       id: '879271768900112'
     message: "Meligy Naggar Lemme hijack this thread and ask another question:\n\nvar
       a=[1,2,3];\nvar b=a;\nb.push(4,5);\nconsole.log(b); // [1, 2, 3, 4, 5]\nconsole.log(a);
@@ -61,7 +61,7 @@ comments:
     id: '1424479717591732'
   - created_time: '2017-03-18T19:35:55+0000'
     from:
-      name: Osama Soliman
+      name: Osama Ahmed Soliman
       id: '879271768900112'
     message: "Guys, Wait a second!\n\nWhat exactly happen when we do \na = b = c ...\n\nAs
       Naggar Assumed in his answer to this question what happens is we start from
@@ -80,7 +80,7 @@ comments:
     id: '1424703920902645'
   - created_time: '2017-03-18T19:41:11+0000'
     from:
-      name: Osama Soliman
+      name: Osama Ahmed Soliman
       id: '879271768900112'
     message: "أنا الinterpreter عندي يعمل اللي هو عاوزة واللي عنده مشكلة في جافاسكريبت
       يلمها والسلام عليكم ورحمة الله \U0001F602 \U0001F602 \U0001F602"

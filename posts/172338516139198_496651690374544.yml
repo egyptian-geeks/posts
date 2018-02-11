@@ -13,10 +13,13 @@ reactions:
   - id: '2167550119925504'
     name: Mohamed Sameeh Sharaf
     type: LIKE
+  - id: '10216304570715925'
+    name: Bassam Abd ElHamid
+    type: LIKE
   paging:
     cursors:
       before: TVRBd01EQXdNVEUyTVRFMk56RTJPakV6TlRVMk5UTTBOVEU2TWpVME1EazJNVFl4TXc9PQZDZD
-      after: TVRBd01EQXdNVEUyTVRFMk56RTJPakV6TlRVMk5UTTBOVEU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRVd016WTFOVFF3TlRveE16VTFOVEV4TVRRMU9qSTFOREE1TmpFMk1UTT0ZD
 comments:
   data:
   - created_time: '2012-12-14T22:33:15+0000'
@@ -39,6 +42,12 @@ comments:
       before MS launches its interoperability library , This library used to fully
       integrate .NET solution inside VB6 legacy ERP"
     id: '496904523682594'
+  - created_time: '2012-12-15T04:46:31+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: 'I have coded #NSIS DOM library in c#'
+    id: '497014020338311'
   - created_time: '2012-12-15T05:18:30+0000'
     from:
       name: Mohamed Sameeh Sharaf

@@ -14,12 +14,25 @@ permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/73499324
 id: '172338516139198_734993243207053'
 comments:
   data:
+  - created_time: '2014-04-22T13:08:33+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: I think web socket is better, But cant guaranty that it will work with
+      all browsers
+    id: '734998049873239'
   - created_time: '2014-04-22T13:18:36+0000'
     from:
       name: Alaa Ali
       id: '10156025239731303'
     message: web sockets with polyfill for older browsers
     id: '735000783206299'
+  - created_time: '2014-04-22T13:19:35+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: If you want to try sockets consider using Node.js and Socket.IO
+    id: '735001039872940'
   - created_time: '2014-04-22T13:20:46+0000'
     from:
       name: Meligy
@@ -166,5 +179,5 @@ comments:
     id: '736413869731657'
   paging:
     cursors:
-      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOek0xTURBd056ZA3pNakEyTWprNU9qRXpPVGd4TnpJM01UWT0ZD
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOek0wT1RrNE1EUTVPRGN6TWpNNU9qRXpPVGd4TnpJeE1UTT0ZD
       after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOek0yTkRFek9EWTVOek14TmpVM09qRXpPVGd6T0RJME5UZAz0ZD

@@ -42,13 +42,10 @@ reactions:
   - id: '1982406812082146'
     name: Ahmed Mahmoud Mahmoud Hussien
     type: SAD
-  - id: '1641565752594739'
-    name: Ahmed Aziz
-    type: LIKE
   paging:
     cursors:
       before: TVRBd01EQTJNRFk1TkRBeU5EWTNPakUwT1RjeE5qQXhPREk2TnpnNE5qUTRNRE0zT1RFek16RXkZD
-      after: TVRBd01EQXlNak01T1RFMk5UUXpPakUwT1RjeE1UZAzROak02TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTVNemcxTkRBMU16a3hPakUwT1RjeE1Ua3lNalE2TnpnNE5qUTRNRE0zT1RFek16RXkZD
 comments:
   data:
   - created_time: '2017-06-10T18:07:25+0000'
@@ -57,16 +54,6 @@ comments:
       id: '1978009525783037'
     message: 'Yes'
     id: '1511360832236953'
-  - created_time: '2017-06-10T18:08:53+0000'
-    from:
-      name: Ahmed Aziz
-      id: '1641565752594739'
-    message: |-
-      شغال بس اتمنع من مصر :'D.
-
-      http://www.isitdownrightnow.com/medium.com.html
-      فيه حد "بيلعب" في النت فى أم البلد الغبية المتخلفة دي !
-    id: '1511361548903548'
   - created_time: '2017-06-10T18:10:28+0000'
     from:
       name: Mohab El-Shishtawy
@@ -124,15 +111,6 @@ comments:
     message: Actually i was writing an article on Medium 2 hours ago suddenly i saw
       message that it's not reachable at all.
     id: '1511386632234373'
-  - created_time: '2017-06-10T18:51:41+0000'
-    from:
-      name: Yahya Elharony
-      id: '887784854735577'
-    message: |-
-      It is working fine on Testing Platforms, but it is not working with me, same as Sameh Mabrouk described! :(
-      Check it:
-      http://www.isitdownrightnow.com/medium.com.html
-    id: '1511390582233978'
   - created_time: '2017-06-10T19:11:16+0000'
     from:
       name: Hesham Desouky
@@ -168,6 +146,12 @@ comments:
       id: '10154922289347024'
     message: بعتلهم علي تويتر وابعت للي تقدر توصله
     id: '1511493625557007'
+  - created_time: '2017-06-10T21:05:36+0000'
+    from:
+      name: Amro Alsayed
+      id: '1947291655599231'
+    message: اتحجب شغال بال vpn
+    id: '1511502205556149'
   - created_time: '2017-06-10T22:12:17+0000'
     from:
       name: Muhammad Saleh

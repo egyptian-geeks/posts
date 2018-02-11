@@ -1,0 +1,95 @@
+---
+message: |-
+  public static class Class1
+      {
+          public static string md5 = "";//this file md5 :)
+      }
+  ماذا لو اردت وضع هاش الملف داخله :)
+from:
+  name: Bassam Abd ElHamid
+  id: '10216304570715925'
+type: status
+created_time: '2014-02-17T02:18:00+0000'
+updated_time: '2014-02-17T10:58:59+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/702466816459696/
+id: '172338516139198_702466816459696'
+comments:
+  data:
+  - created_time: '2014-02-17T02:23:20+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: |-
+      ممكن تعمل كده بس حتحتاج انك تحط الهاش كود في مكان محدد جوة الملف, على سبيل المثال اول 128 بت (حسب طول الهاش) يكون هو الهاش كود, و باقي الملف هو المحتوى. و البرنامج بتاعك بيقرأ الهاش و بيقرى المحتوى و يعيد حسابة الهاش على المحتوى و يقارن علشان يتأكد من الFile Integrity.
+      ده حينفع لو انت متحكم في الFile Structure, يعني من الآخر الملف ده خاص بالبرنامج بتاعك بس لكن مش حينفع مع صورة أو مستند وورد أو أي حاجة تانية متوقع انها تشتغل مع برامج تانية.
+    id: '702468033126241'
+  - created_time: '2014-02-17T02:27:59+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: هو انا كنت عاوز احط الهاش لملف اسمبلى دوت نت واختبره عشان اعرف انه متغيرش
+      .. التحدى ان اضع الهاش داخل الملف قبل البلد
+    id: '702469596459418'
+  - created_time: '2014-02-17T02:30:37+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: |-
+      و ليه يابني توجع دماغك, قول كده من الأول :D اعمل Strong Name و Assembly Signing و ساعتها الدوت نت حيعملك ده توماتيكي
+      http://msdn.microsoft.com/en-us/library/wd40t7ad(v=vs.110).aspx
+    id: '702470886459289'
+  - created_time: '2014-02-17T02:33:52+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: هو بصراحة انا حليتها من خلال تخزين الهاش فى ملف csv خارجى والكلام ده
+      كان من فتره بس فكرت عملناها تحدى او حبينا ننفذ الفكره دى هنحتاج ايه
+    id: '702472569792454'
+  - created_time: '2014-02-17T02:34:52+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: الحل بتاع الدوت نت أقوى, لأن الCheck اللي بيحصل بيعمله الRuntime نفسها,
+      و كمان انت بتستخدم Certificate في الSigning. حوار طويل,بس أقوى بكثير من مجرد
+      Hashing
+    id: '702472799792431'
+  - created_time: '2014-02-17T02:37:45+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: الحل الوحيد من وجهة نظرى القاصرة اننا نستخدم سوبر كمبيوتر يحاول يضع نص
+      الهاش بشكل عشوائى ويعمل بلد وبعد كل عملية بلد يختبر اذا كان فعلاً نص الهاش الى  داخل
+      الملف يساوى الهاش الفعلى للملف ... يفضل يلوب كده يومين ولا حاجه
+    id: '702473706459007'
+  - created_time: '2014-02-17T02:37:46+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: اه انا فهمت مضوعوع السيننج ده ... بس بتكلم عن المشكلة بشكل نظرى
+    id: '702473713125673'
+  - created_time: '2014-02-17T02:49:03+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: |-
+      هو طبعاً حسب نوع الAlgorithm بتاع الHashing فيه أنواع مضروبة بقالها فترة و فيه بالفعل Techniques بتستخدم علشان تعمل Hash Collision زي الMD5 Algorithm ده مضروب من فترة.
+      لكن فيه Hashing Algorithms كثير قوية جداً و ما ينفعش معاها Brute force على الأقل باستخدام القوة المتاحة لينا حالياً
+    id: '702477893125255'
+  - created_time: '2014-02-17T02:57:08+0000'
+    from:
+      name: Mohamed Abdel Aty
+      id: '10215620557573580'
+    message: "if you like this kind of problems  , check this post out \n\nhttps://www.facebook.com/erling/posts/177013872424281"
+    id: '702479649791746'
+  - created_time: '2014-02-17T10:58:59+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: |-
+      I think it's impossible to do that, maybe someone better than me in theoretical stuff can prove it to you, but basically whatever hash you write in that string would affect the result of hashing the file, you're basically hashing a hash (plus other stuff) which will always give you completely different results.
+      Hashing is a one-way function, so you can't go the other way round to figure out how can you change the code to make the resulting hash unchanged, if that was possible then signing your code like that would be useless as the attacker would do the same thing to change the code without affecting the hash!
+    id: '702585573114487'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekF5TkRZANE1ETXpNVEkyTWpReE9qRXpPVEkyTURNNE1EQT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOekF5TlRnMU5UY3pNVEUwTkRnM09qRXpPVEkyTXpRM016az0ZD

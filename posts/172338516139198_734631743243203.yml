@@ -162,42 +162,204 @@ comments:
       id: '10156301546469701'
     message: "/^(1|2)[0-9]{9}$/"
     id: '734643359908708'
+  - created_time: '2014-04-21T18:39:04+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: زمان ايام ماكان فيه منتديات عملت درس طويل عن الريجيكس هحاول ادور يمكن
+      حد نسخو فى مدونه ولا حاجه
+    id: '734644403241937'
   - created_time: '2014-04-21T18:39:49+0000'
     from:
       name: Mohamed Sameeh Sharaf
       id: '2167550119925504'
     message: ياريت ياريس بسوم :)
     id: '734644703241907'
+  - created_time: '2014-04-21T18:44:59+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: المركب ام رايسين ياريس ... http://vb4arb.com/vb/showthread.php?1404
+    id: '734646486575062'
+  - created_time: '2014-04-21T18:45:39+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: بص كبر دماغك انا هلخصلك الموضوع فى خمس قواعد بسيطة جداً
+    id: '734646686575042'
+  - created_time: '2014-04-21T18:46:09+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: |-
+      هو ده رابط الجزء الثانى
+      http://vb4arb.com/vb4/showthread.php?1405-Regular-Expression-%C7%E1%CC%D2%C1-%C7%E1%CB%C7%E4%EC
+    id: '734646813241696'
+  - created_time: '2014-04-21T18:48:15+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: هما بصراحة اكتر من خمس قواعد بس بساط جداً القاعدة الاولى هى النص الثابت
+      يعنى لو فى نص فى الصيغة هيبحث عن النص نفسو مثل لو حولت تبحث او تتحقق من الصيغة
+      Egypt هيتم التحقق فقط اذا كان المدخل هذا النص بالضبط كذلك فى البحث
+    id: '734647486574962'
   - created_time: '2014-04-21T18:50:19+0000'
     from:
       name: Mohamed Sameeh Sharaf
       id: '2167550119925504'
     message: اتفضل ياريس
     id: '734648296574881'
+  - created_time: '2014-04-21T18:50:20+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: اظن القاعدة الاولة مش محتاجة شرح اكتر القاعدة الثانية النقطة تحل محل
+      اى حرف او رقم او اى شئ فى الغالب يعنى مثال Egy... يعنى البحث عن اى ست احرف تبداء
+      بالنص الثابت المذكور
+    id: '734648303241547'
+  - created_time: '2014-04-21T18:50:59+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: معلهش الحروف العربى بتلف مع النص الانجليذى
+    id: '734648499908194'
   - created_time: '2014-04-21T18:51:37+0000'
     from:
       name: Mohamed Sameeh Sharaf
       id: '2167550119925504'
     message: كمل ياريس ولا يهمك
     id: '734648743241503'
+  - created_time: '2014-04-21T18:52:25+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: The pattern "hi." will match hix hiz hi9 hi@ or any As the dot can be
+      any char
+    id: '734648913241486'
+  - created_time: '2014-04-21T18:54:07+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: 'The 3rd : groping if you want to match one char of groub we use the
+      [] for example the pattern [ch]at will match cat or hat'
+    id: '734649513241426'
+  - created_time: '2014-04-21T18:54:38+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: so if you want to match one diget you can use [0123456789]
+    id: '734649713241406'
+  - created_time: '2014-04-21T18:55:30+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: and if you want to match number of three digets you can use [0123456789][0123456789][0123456789]
+    id: '734649996574711'
+  - created_time: '2014-04-21T18:55:45+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: تمام ولا ايه
+    id: '734650066574704'
   - created_time: '2014-04-21T18:57:07+0000'
     from:
       name: Mohamed Sameeh Sharaf
       id: '2167550119925504'
     message: تمام يا كبير كمل
     id: '734650466574664'
+  - created_time: '2014-04-21T18:58:12+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: The last pattern can be written as [0123456789]{3}
+    id: '734650769907967'
   - created_time: '2014-04-21T18:58:50+0000'
     from:
       name: Mohamed Sameeh Sharaf
       id: '2167550119925504'
     message: or like this [0-9]{3}
     id: '734651013241276'
+  - created_time: '2014-04-21T18:59:16+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: we use {n} to limet reptation to n numbers of the previce char or groub
+    id: '734651146574596'
+  - created_time: '2014-04-21T19:00:04+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: So if you want a number of 9 digts you can use [0123456789]{9}
+    id: '734651383241239'
+  - created_time: '2014-04-21T19:02:03+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: Inside the groub we can use the dash char to mean TO ,That's means we
+      can write [0-9] insted of [0123456789]
+    id: '734651989907845'
+  - created_time: '2014-04-21T19:02:46+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: now we can write [0-9]{9} to get number of 9 digts
+    id: '734652249907819'
+  - created_time: '2014-04-21T19:03:52+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: we can use the pipe | to means or, The pattern a|b will match a or b
+    id: '734652733241104'
+  - created_time: '2014-04-21T19:05:00+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: So 0|1[0-9]{9} will get you a 10 digts number starting with 0 or 1
+    id: '734653199907724'
+  - created_time: '2014-04-21T19:08:13+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: We can make it shorter by using \d insted of [0-9]
+    id: '734654299907614'
+  - created_time: '2014-04-21T19:09:39+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: 0|1\d{9} :D
+    id: '734655089907535'
   - created_time: '2014-04-21T19:10:05+0000'
     from:
       name: Mohamed Sameeh Sharaf
       id: '2167550119925504'
     message: تسلم يا وحش ما هيا التبسيط دا هو اللى بخلينى أكرها :D
     id: '734655279907516'
+  - created_time: '2014-04-21T19:10:49+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: One last thing ^ means start of the text and $ means end of the text
+      so the full pattern should look like
+    id: '734655476574163'
+  - created_time: '2014-04-21T19:11:18+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: "^0|1\\d{9}$"
+    id: '734655689907475'
+  - created_time: '2014-04-21T19:11:51+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: لو عايزها بالتفصيل يبقى عليك وعلى الاوتوميتا والفنيت استيت مشاينز :)
+    id: '734655969907447'
+  - created_time: '2014-04-21T19:14:30+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: By the way, {3,5} means from 3 to 5 in length and {4,} means at least
+      4 and {,5} means maximam of 5
+    id: '734656943240683'
   - created_time: '2014-04-21T19:15:19+0000'
     from:
       name: Amr ELsaqqa
@@ -208,6 +370,13 @@ comments:
       زي الفرق بين + و ؟ و * ودى مع تكرار الممارسة مش بتتنسى وتكرار الشغل بيعلمك اكتر
       زي الكود والبرمجة العادية بالظبط
     id: '734657363240641'
+  - created_time: '2014-04-21T19:16:42+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: you can use () for more control, You can escape special chars by using
+      \
+    id: '734657743240603'
   - created_time: '2014-04-21T20:07:27+0000'
     from:
       name: A Taha ElAnsary

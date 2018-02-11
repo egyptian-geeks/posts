@@ -1,0 +1,73 @@
+---
+message: شباب حد يعرف اذاى اعمل هاىلايتنج لتكست فى تيكست اريا
+from:
+  name: Bassam Abd ElHamid
+  id: '10216304570715925'
+type: status
+created_time: '2012-12-01T19:07:14+0000'
+updated_time: '2012-12-01T19:19:27+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/491087937597586/
+id: '172338516139198_491087937597586'
+comments:
+  data:
+  - created_time: '2012-12-01T19:08:11+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: How can I highlight text into textarea using css and js
+    id: '491088184264228'
+  - created_time: '2012-12-01T19:08:37+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: with defrant colors
+    id: '491088327597547'
+  - created_time: '2012-12-01T19:10:16+0000'
+    from:
+      name: Mahmoud Ibrahim
+      id: '10155795206725831'
+    message: "if i remember correctly u can use \n txtArea.selectionStart & txtArea.SelectionEnd
+      for selection but for the selection color i don't know"
+    id: '491088764264170'
+  - created_time: '2012-12-01T19:13:02+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: شكراً استاذ محمد ... انا بحاول اعمل كود ايديتور ذى CodeMerrior بس فرم
+      اسكراتش
+    id: '491089720930741'
+  - created_time: '2012-12-01T19:17:49+0000'
+    from:
+      name: Mahmoud Ibrahim
+      id: '10155795206725831'
+    message: |-
+      function setTextAreaSelection() {
+        var txtArea = document.getElementById('textarea1');
+          txtArea.selectionStart = 5;
+           txtArea.selectionEnd = textArea.text.length;
+      }
+
+      this will select the text from the 5th char to the end. just tested it
+    id: '491091260930587'
+  - created_time: '2012-12-01T19:18:42+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: Thank you :)
+    id: '491091980930515'
+  - created_time: '2012-12-01T19:19:18+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: I will try
+    id: '491092154263831'
+  - created_time: '2012-12-01T19:19:27+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: I may use this http://codemirror.net/
+    id: '491092200930493'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAORGt4TURnNE1UZAzBNalkwTWpJNE9qRXpOVFF6T0RnNE9URT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAORGt4TURreU1qQXdPVE13TkRrek9qRXpOVFF6T0RrMU5qYz0ZD

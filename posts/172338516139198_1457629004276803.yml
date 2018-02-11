@@ -15,9 +15,6 @@ reactions:
   - id: '769500683244812'
     name: Ahmed Mohamed
     type: LIKE
-  - id: '887784854735577'
-    name: Yahya Elharony
-    type: LIKE
   - id: '765335353652341'
     name: Mohamed AbdElaziz
     type: LIKE
@@ -105,16 +102,6 @@ comments:
       id: '10155549760031026'
     message: http://api.yamli.com/transliterate.ashx?word=mat2oleesh&tool=api&account_id=&prot=&hostname=&path=&build=&sxhr_id
     id: '1457675467605490'
-  - created_time: '2017-04-19T13:28:53+0000'
-    from:
-      name: Yahya Elharony
-      id: '887784854735577'
-    message: |-
-      Try using a JavaScript/jQuery solution, it will be instantly translated in your browser instead of using a back-end solution.
-      I think you need to make your own dictionary using a pre-developed plugin.
-      Check this thread, it might help you or give you an overview of what you need to use.
-      http://stackoverflow.com/questions/5388127/javascript-jquery-get-text-and-translate-it
-    id: '1458805180825852'
   - created_time: '2017-04-19T16:24:11+0000'
     from:
       name: Ahmed Galal

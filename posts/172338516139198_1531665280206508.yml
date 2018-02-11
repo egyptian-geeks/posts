@@ -30,13 +30,6 @@ comments:
       حاجة لازم تشيلي الفولدر بتاع ubuntu من EFI. ده لينك في شرح للحوار: http://linuxbsdos.com/2015/09/05/how-to-delete-grub-files-from-a-boot-efi-partition-in-windows-10/
       - بعد كده ممكن تنزلي Ubuntu تاني من الأول عادي خالص.'
     id: '1531667960206240'
-  - created_time: '2017-06-29T23:24:56+0000'
-    from:
-      name: Omar Saqr
-      id: '10216335292360651'
-    message: "لو المشكلة في البوت فقط \nممكن تتصلح بال boot repair\nhttps://help.ubuntu.com/community/Boot-Repair\nهتشغل
-      أوبنتو من فلاشة live و تتبع الخطوات"
-    id: '1531670196872683'
   - created_time: '2017-06-29T23:25:44+0000'
     from:
       name: Taghreed Mohammed Kamel
@@ -44,17 +37,6 @@ comments:
     message: "هي المشكلة  Failed to start session \nجربت أفتح الترمينال وأجرب الحلول
       اللي بحثت عنها  ومنفعتش"
     id: '1531670913539278'
-  - created_time: '2017-06-29T23:26:58+0000'
-    from:
-      name: Omar Saqr
-      id: '10216335292360651'
-    message: |-
-      لو عايز تشيل الأوبنتو القديم و تسطب جديد
-      هتشغل بردو اوبنتو من الفلاشة و إنت بتعمل install
-      هتختار advanced
-      و تشيل البارتشن القديم و تعمل سواب و بارتشن جديد
-      mounting point /
-    id: '1531671596872543'
   - created_time: '2017-06-29T23:36:47+0000'
     from:
       name: Robert Nabil

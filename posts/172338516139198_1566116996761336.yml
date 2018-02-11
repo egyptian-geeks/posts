@@ -563,9 +563,6 @@ reactions:
   - id: '10159844861985632'
     name: Vame Shalaby
     type: HAHA
-  - id: '934408920094293'
-    name: Muhammad Ahmed Fares
-    type: LIKE
   - id: '1849388421799071'
     name: Ahmed Samy
     type: HAHA
@@ -587,6 +584,9 @@ reactions:
   - id: '10155552325188495'
     name: Ahmed Helmi
     type: LIKE
+  - id: '1565766623458519'
+    name: Omnea Abd El-Aleem
+    type: HAHA
   - id: '10211020989828511'
     name: Michael Fahmy
     type: LIKE
@@ -881,9 +881,6 @@ reactions:
   - id: '1636144886482440'
     name: Afraym Nageh
     type: HAHA
-  - id: '1641565752594739'
-    name: Ahmed Aziz
-    type: HAHA
   - id: '10155476910093471'
     name: Yousef Hamza
     type: HAHA
@@ -1113,7 +1110,7 @@ comments:
     id: '1566191873420515'
   - created_time: '2017-08-02T20:59:00+0000'
     from:
-      name: Osama Soliman
+      name: Osama Ahmed Soliman
       id: '879271768900112'
     message: |-
       He used normal quotes instead of backtick quotes or the browser doesn't support ES2015

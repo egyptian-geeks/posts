@@ -1,0 +1,203 @@
+---
+link: https://www.facebook.com/photo.php?fbid=10203376042950811&set=gm.693308634042181&type=3
+from:
+  name: Bassam Abd ElHamid
+  id: '10216304570715925'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/1780873_10203376042950811_1268806190_n.jpg?oh=b8a34cf32f6a42eb4908017a59b9876b&oe=5B1A281E
+created_time: '2014-01-30T07:19:59+0000'
+updated_time: '2014-01-30T19:34:08+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/693308634042181/
+id: '172338516139198_693308634042181'
+comments:
+  data:
+  - created_time: '2014-01-30T07:27:04+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: ماتخلي الكود أحسن كدا
+    id: '693309824042062'
+  - created_time: '2014-01-30T07:27:19+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: |-
+      public class FileParser
+      {
+
+      public void Parse(System.IO.FileInfo file)
+      {
+
+      switch(file.Extension)
+      {
+      case "php":
+      // code to parse php or a method call or..
+      }
+
+      }
+
+      }
+    id: '693309867375391'
+  - created_time: '2014-01-30T07:28:41+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: |-
+      IParser theParser = null;
+
+      switch(file.Extension)
+      {
+      case "php":
+      theParser = new PhpParser();
+      break;
+      case "cs":
+      .... etc
+      }
+
+      theParser.Parse(file);
+
+      }
+    id: '693310137375364'
+  - created_time: '2014-01-30T07:31:31+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: لو إنت عايزها تكون ديناميك بقى ويعمل كائن لوحده فأنا مش شايف إنها حاجه
+      عمليه أو لها لازمه إلا في حالة واحده وهي إنك هتعمل البرنامج مثلا عادي فيه parsers
+      لملفات محددة وبعد كدا هتبقى تعمل parsers في DLLs مثلا كـ plugins تحطها مع البرنامج،
+      لو هتعمل كدا ممكن تستخدم Load Assembly وتشغل الـ DLL في الميموري وتنادي على
+      اللي فيها والخ عادي
+    id: '693310667375311'
+  - created_time: '2014-01-30T07:32:12+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: مهو انا نست اقول مش عاوز استخدم Switch :D \n متشكر جداً طبعاً على ردك
+      :)
+    id: '693310730708638'
+  - created_time: '2014-01-30T07:34:18+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: |-
+      if (File.Exists(file.Extention + ".dll")
+      {
+      Assemby x = LoadAssembly(file.Extention + ".dll")
+      x.CallMethodOrSomething.. etc
+      }
+      else
+      {
+      throw new Exception("No parsers found for type " + file.Extension);
+      }
+    id: '693311100708601'
+  - created_time: '2014-01-30T07:38:42+0000'
+    from:
+      name: Moutaz Shams
+      id: '2027306007286851'
+    message: لو مش عايز switch إعملل حسابك لكذا اتمداد علشان حوار ملفات الـ html,
+      htm ومثلا jpeg, jpg والخ
+    id: '693312100708501'
+  - created_time: '2014-01-30T07:39:13+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: اه عارف الطريقة دى وعشان اعمل ان لود كنت بستخدم AppDoamin تانى والغى
+      تحميله بعد ما اخلص
+    id: '693312194041825'
+  - created_time: '2014-01-30T07:39:38+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: "Reflection is an overkill, you can still do extensible solution by doing
+      something similar to this\n\ninterface IParser\n{\n void Parse(string fileName);\n}\n\nclass
+      CSharpParser : IParser\n{\n public void Parse(string fileName)\n {\n //TODO:
+      Add CS Parsing here\n }\n}\n\nclass PhpParser : IParser\n{\n public void Parse(string
+      fileName)\n {\n //TODO: Add php Parsing here\n }\n}\n\nclass GenericParser :
+      IParser\n{\n Dictionary<string, IParser> mapper = new Dictionary<string, IParser>();\n
+      \n public void RegisterParser(string extension, IParser parser)\n {\n mapper[extension]
+      = parser;\n }\n \n public void Parse(string fileName)\n {\n IParser parser;\n
+      string extension = Path.GetExtension(fileName);\n if(!mapper.TryGetValue(extension,
+      out parser))\n {\n throw new NotSupportedException(String.Format(\"Extension
+      {0} is not supported\", extension)); \n }\n parser.Parse(fileName);\n }\n}\n\nvoid
+      Main(string[] args)\n{\n var genericParser = new GenericParser();\n genericParser.RegisterParser(\".cs\",
+      new CSharpParser());\n genericParser.RegisterParser(\".php\", new PhpParser());\n
+      \n genericParser.Parse(\"test.php\");\n}"
+    id: '693312297375148'
+  - created_time: '2014-01-30T07:40:56+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: and you can keep adding support for new parsers without modifying the
+      classes that were already written, hence Open for extension, Closed for modification
+      principle preserved.
+    id: '693312527375125'
+  - created_time: '2014-01-30T07:41:15+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: هو بصراحة افضل الخيارات الى وصلت ليها هى ميف MEF  بيسمح باستكشاف الملفات
+      بشكل تلقائى كمان سهل وابسط بكتير من الطرق التانية بس تعليمه فى البداية مربك
+      شوية
+    id: '693312567375121'
+  - created_time: '2014-01-30T07:44:51+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: |-
+      If you want to do it manually, Reflection, separate AppDomains, I blogged about this before many many years ago :D
+      http://blogs.msdn.com/b/bashmohandes/archive/2006/05/17/how-to-increase-application-scalability-using-plugins.aspx
+    id: '693313394041705'
+  - created_time: '2014-01-30T07:45:16+0000'
+    from:
+      name: Mohammad Tayseer
+      id: '10155970088481341'
+    message: |-
+      You can use a dictionary of delegates
+
+      var extensionHandler = new Dictionary<string, HandlerDelegate>() {
+          new { ".cs", CSharpParser.parse },
+          new { ".php", ParsePHP }
+      };
+    id: '693313444041700'
+  - created_time: '2014-01-30T07:46:08+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: I also prefer a dictionary, it is the simplest solution, I did a similar
+      solution up with interfaces, but sure delegates can do that too
+    id: '693313614041683'
+  - created_time: '2014-01-30T07:53:11+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: متشكر جداً وميحرمنيش منكم ابداً :)
+    id: '693314700708241'
+  - created_time: '2014-01-30T19:34:08+0000'
+    from:
+      name: Kareem Kashwaa
+      id: '10155729844185546'
+    message: did you ever consider using the factory pattern, I guess it would be
+      most suitable for this case
+    id: '693570100682701'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamt6TXpBNU9ESTBNRFF5TURZAeU9qRXpPVEV3TmpZANE1qUT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamt6TlRjd01UQXdOamd5TnpBeE9qRXpPVEV4TVRBME5EZAz0ZD
+attachments:
+  data:
+  - description: "شباب ... هل فى طريقة صريحة وبسيطه بدون \nاعمل نسخة من كائن بواسطة
+      اتربيوت عليه بدون معرفة اسمه\nفقط اتربيوت وانترفيس\n\nيعنى مثلاً فى الصوره بحاول
+      اعمل بارسنج لمجموعة ملفات حسب امتداد الملف\nيعنى لو امتداد الملف سى شارب اعمل
+      نسخة من كلاس البارسر للسى شارب ولو غير كده اعمل نسخة من كلاس تانى حسب الاكستنشن
+      وهكذا\nمش لازم نسخة جديد ممكن اكول نسخة موجوده\n\nكنت بعملها زمان بالميف واكيد
+      ليها حل بالريفلكشن بسمفكرتش ان ممكن يكون ليها حل ابسط من كده\nمتشكر مقدماً :)"
+    media:
+      image:
+        height: 405
+        src: https://scontent.xx.fbcdn.net/v/t1.0-9/1780873_10203376042950811_1268806190_n.jpg?oh=84016f955e6d1088cb8007b76680c8c0&oe=5B07F9DC
+        width: 582
+    target:
+      id: '10203376042950811'
+      url: https://www.facebook.com/photo.php?fbid=10203376042950811&set=gm.693308634042181&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=10203376042950811&set=gm.693308634042181&type=3

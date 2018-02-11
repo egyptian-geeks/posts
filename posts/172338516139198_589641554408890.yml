@@ -1,0 +1,118 @@
+---
+message: حد يعرف اذاى اغير لون نص فى RichTextBox فى WinForms بدون ما اسليكت النص او
+  اعمل رفريش او حتى اعدل فى ال RTF مباشرتاً
+from:
+  name: Bassam Abd ElHamid
+  id: '10216304570715925'
+type: status
+created_time: '2013-07-06T11:41:02+0000'
+updated_time: '2013-07-06T14:51:51+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/589641554408890/
+id: '172338516139198_589641554408890'
+comments:
+  data:
+  - created_time: '2013-07-06T11:52:47+0000'
+    from:
+      name: Eslam Hamouda
+      id: '10212947071504226'
+    message: وضح أكتر معلش , عاوز السيناريو اللي يحصل ايه بالظبط ؟ أصل الكومبوننت
+      ده غلبني كتير , وبعدين اسمها مباشرةً يا أستاذنا :D
+    id: '589644047741974'
+  - created_time: '2013-07-06T11:55:53+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: هعلهش اصلاً انا ضقافتى هندى :)
+    id: '589644591075253'
+  - created_time: '2013-07-06T11:57:34+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: بص بقى عشان تفرمت اى نص فى RTB فى طريقتين الاولى تختار النص وبعدين تغير
+      لونو او نوع الخط او ... من خلال RTB.Selection والطريقة التانية انك تعدل على
+      كود ال RTF وكلا الطريقتين لو الملف كبير شوية بيحصل رفرش وبيكون بطئ حتى لو حاولت
+      تعملت فورمات لسطر واحد .. بس
+    id: '589644967741882'
+  - created_time: '2013-07-06T11:57:56+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: فكنت ببحث عن طريقة لفرمتت نص بشكل مباشر بدون استبداله او اختياره
+    id: '589645034408542'
+  - created_time: '2013-07-06T11:58:23+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: الطريقة الى بستخدمها حالياً انى ارسم نفس النص فوق النص الاصلى باللون
+      الجديد ... بس شكلو مش عاجبنى
+    id: '589645114408534'
+  - created_time: '2013-07-06T12:04:14+0000'
+    from:
+      name: Eslam Hamouda
+      id: '10212947071504226'
+    message: بسيطة ما تستخدمش البتاع ده أصلاً , لو مهتم بالتنسيق وكده ممكن تستخدم
+      الويب براوزر , هتتعب شوية عشان تعمل ميثودز للتنسيقات اللي محتاجها بس تطبيقها
+      أسهل بكتير وهتحصل على النتائج اللي انت عاوزها وكلها Selection + Find & Replace
+      مش هتاخود في إيدك كتير. هو اقتراح غبي بس ممكن وجربته قبل كده ونوعاً ما مُرضي
+      , بس مش عارف بقى اللي انت عاوزه ده هتعمله ازاي الحقيقه.
+    id: '589646774408368'
+  - created_time: '2013-07-06T12:07:27+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: انا اشتغلت كتير بفكرت البروزر ... بس انا محتاج احرر النص ... ياختصار
+      انا بعمل محرر كود ذى النوت باد بلس بلس بس بالسى شارب كذلك لا اريد الاعتماد على
+      الادوات الجاهزة وحاولت الاطلاع على كوده لافهم منه الفكره لاكن اغلبهم به الكثير
+      من التعقيدات التى لم استوعبها ببساطه ...هو ال RTB فيه كل الخصائص التى احتاجها
+      هى بس حتة السينتاكس هايلتنج دى ... وانا متاكد ان لها حل ربما بدول API's لاكن
+      لا اعرفها حالياً
+    id: '589647447741634'
+  - created_time: '2013-07-06T12:09:24+0000'
+    from:
+      name: Eslam Hamouda
+      id: '10212947071504226'
+    message: آه ده الموضوع كبير بقى , لا ربنا معاك وتلاقيلها حل ان شاء الله وابقى
+      قولي عليه :)
+    id: '589647991074913'
+  - created_time: '2013-07-06T12:09:50+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: شكراً ... اكيد :)
+    id: '589648417741537'
+  - created_time: '2013-07-06T13:13:36+0000'
+    from:
+      name: Mohamed Shehata
+      id: '10155904322461093'
+    message: Using the RTF Control, you can select text/RTF and change color or font
+      attributes directly from the properties, the selection marquee won't appear
+      to user, ( according to my experience of RTF at 2003 ! 11 years ago ), if you
+      have problem with that you can do that quickly and 'deselect' after applying
+      font-chances so user won't notice any thing ISA .
+    id: '589669591072753'
+  - created_time: '2013-07-06T13:14:41+0000'
+    from:
+      name: Mohamed Shehata
+      id: '10155904322461093'
+    message: "- you can also change on the RTF text-code itself but this is hassle,
+      this is require understanding of RTF file format."
+    id: '589669884406057'
+  - created_time: '2013-07-06T13:15:50+0000'
+    from:
+      name: Mohamed Shehata
+      id: '10155904322461093'
+    message: "- Another control like HTML Edit will give you the same functionality
+      but it is a bit slower in rendering than RTF, also you will do some workaround
+      to override some functionlities like toggle normal Break when user press Enter
+      instead of adding new Paragraph ( default action ! )."
+    id: '589670181072694'
+  - created_time: '2013-07-06T14:51:51+0000'
+    from:
+      name: Bassam Abd ElHamid
+      id: '10216304570715925'
+    message: شكراً مفيش طريقة تالتة؟ :)
+    id: '589699537736425'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOVGc1TmpRME1EUTNOelF4T1RjME9qRXpOek14TVRFMU5qYz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOVGc1TmprNU5UTTNOek0yTkRJMU9qRXpOek14TWpJek1URT0ZD
