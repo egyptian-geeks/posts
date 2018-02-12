@@ -1,0 +1,72 @@
+---
+message: any recommendation for learning Android Architecture (MVC - MVP - MVVM) ?
+from:
+  name: Abanoub Safwat
+  id: '1631486873610130'
+type: status
+created_time: '2018-02-12T20:02:01+0000'
+updated_time: '2018-02-12T21:35:45+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1751172181589149/
+id: '172338516139198_1751172181589149'
+reactions:
+  data:
+  - id: '1656232011110591'
+    name: Ahmed Zakaria
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhOekUwTWpNMU5EZA3hPakUxTVRnME5qZA3lOVGM2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXhOekUwTWpNMU5EZA3hPakUxTVRnME5qZA3lOVGM2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2018-02-12T20:10:09+0000'
+    from:
+      name: Emad Saeed
+      id: '1775266282497365'
+    message: "I'm not an android developer, but you can learn these patterns from
+      the design patterns lib from pluralsight, an awesome course. they implement
+      their examples using C# but I never faced a problem getting the idea of any
+      lecture \nMVVM, MVP are explained in a very good way in that course. I recommend
+      it"
+    id: '1751339858239048'
+  - created_time: '2018-02-12T20:19:45+0000'
+    from:
+      name: Mina Alfy Shaker
+      id: '2056553274563512'
+    message: I recommend MVP with rxjava
+    id: '1751347228238311'
+  - created_time: '2018-02-12T20:21:45+0000'
+    from:
+      name: محمد
+      id: '10211594485559338'
+    message: If you have the knowledge about design patterns you can learn them easily
+      from any resource, if not i suggest you read Head first design patterns book
+      first.
+    id: '1751349691571398'
+  - created_time: '2018-02-12T20:25:38+0000'
+    from:
+      name: Abanoub Safwat
+      id: '1631486873610130'
+    message: i learned the concept .. just need good courses or tutorials about how
+      to write mvp android program
+    id: '1751351768237857'
+  - created_time: '2018-02-12T20:32:22+0000'
+    from:
+      name: Mahmoud Ramadan
+      id: '1720973887925132'
+    message: https://github.com/mrabelwahed/MVVM-Demo
+    id: '1751356328237401'
+  - created_time: '2018-02-12T21:35:42+0000'
+    from:
+      name: Omar Adel
+      id: '1169766573157316'
+    message: |-
+      ممكن الكود ده يعجبك كمثال عال
+      Mvp
+      وفيه حاجات تانية  مفيدة عامة
+      https://github.com/omar-adel-7/template-android-with-backend
+    id: '1751401038232930'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMxTVRNek9UZAzFPREl6T1RBME9Eb3hOVEU0TkRZAMk1qRXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMxTVRRd01UQXpPREl6TWprek1Eb3hOVEU0TkRjeE16UXoZD

@@ -99,16 +99,6 @@ comments:
     message: It's part of Windows Components. In start search for windows components
       and look for it.
     id: '1064597943579913'
-  - created_time: '2016-01-18T20:30:00+0000'
-    from:
-      name: Ahmed Salah
-      id: '10155456561408635'
-    message: "0. Load your Installation media (ISO image/ DVD/ USB) you installed
-      Windows from.\n1. Run cmd as administrator.\n\n2. use the following command:
-      \nDISM /Online /Enable-Feature /FeatureName:NetFx3 /All /LimitAccess /Source:d:\\sources\\sxs
-      \n\nwhere:\nd:\\ specifies the location of the installation drive (DVD/ USB
-      /ISO)"
-    id: '1064613970244977'
   - created_time: '2016-01-18T23:30:10+0000'
     from:
       name: Ibrahim Mohammed
