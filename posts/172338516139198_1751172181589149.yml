@@ -5,17 +5,22 @@ from:
   id: '1631486873610130'
 type: status
 created_time: '2018-02-12T20:02:01+0000'
-updated_time: '2018-02-12T21:35:45+0000'
+updated_time: '2018-02-13T16:38:54+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1751172181589149/
+shares:
+  count: 1
 id: '172338516139198_1751172181589149'
 reactions:
   data:
+  - id: '1698558773568486'
+    name: Mina George
+    type: LIKE
   - id: '1656232011110591'
     name: Ahmed Zakaria
     type: LIKE
   paging:
     cursors:
-      before: TVRBd01EQXhOekUwTWpNMU5EZA3hPakUxTVRnME5qZA3lOVGM2TWpVME1EazJNVFl4TXc9PQZDZD
+      before: TVRBd01EQXlORE14TkRBME5Ea3hPakUxTVRnMU1ETXdOelU2TWpVME1EazJNVFl4TXc9PQZDZD
       after: TVRBd01EQXhOekUwTWpNMU5EZA3hPakUxTVRnME5qZA3lOVGM2TWpVME1EazJNVFl4TXc9PQZDZD
 comments:
   data:
@@ -66,7 +71,34 @@ comments:
       وفيه حاجات تانية  مفيدة عامة
       https://github.com/omar-adel-7/template-android-with-backend
     id: '1751401038232930'
+  - created_time: '2018-02-13T02:51:47+0000'
+    from:
+      name: Mohamed Ali
+      id: '894488847398032'
+    message: you should learn android architecture components instead ( it mainly
+      depends on mvvm )
+    id: '1751590684880632'
+  - created_time: '2018-02-13T06:42:24+0000'
+    from:
+      name: Abanoub Safwat
+      id: '1631486873610130'
+    message: Thanks all
+    id: '1751744281531939'
+  - created_time: '2018-02-13T15:25:33+0000'
+    from:
+      name: Ahmed Salama
+      id: '2012659682322595'
+    message: "و زي ماقلك  Mohamed Ali \nhttps://www.youtube.com/watch?v=c9-057jC1ZA\nhttps://www.youtube.com/watch?v=FrteWKKVyzI"
+    id: '1752145784825122'
+  - created_time: '2018-02-13T16:38:48+0000'
+    from:
+      name: Ahmed Fathy
+      id: '10213492459958875'
+    message: |-
+      https://developer.android.com/topic/libraries/architecture/guide.html
+      this is opinionated though, and it explains it using the architectures components. but you can replace them with Rxjava
+    id: '1752203911485976'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMxTVRNek9UZAzFPREl6T1RBME9Eb3hOVEU0TkRZAMk1qRXcZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMxTVRRd01UQXpPREl6TWprek1Eb3hOVEU0TkRjeE16UXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMxTWpJd016a3hNVFE0TlRrM05qb3hOVEU0TlRNNU9USTUZD

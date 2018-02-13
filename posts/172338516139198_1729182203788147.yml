@@ -19,6 +19,9 @@ reactions:
   - id: '1864838400255982'
     name: Abdelwahab Mahmoud
     type: LIKE
+  - id: '319957501826978'
+    name: NourEddine Khaled
+    type: LIKE
   - id: '1665489910175505'
     name: Mostafa Omran
     type: LIKE
@@ -57,6 +60,14 @@ comments:
       https://developers.facebook.com/docs/graph-api/reference/v2.11/post
       Facebook has an API for such purposes. According to this doc page, you need the person's access token if it's a profile, so either the person give it to you or that person is you & you get it from your own settings.
     id: '1729306357109065'
+  - created_time: '2018-01-22T12:43:02+0000'
+    from:
+      name: NourEddine Khaled
+      id: '319957501826978'
+    message: |-
+      https://github.com/minimaxir/facebook-page-post-scraper  شوف دا كدة
+      PS : مجربتهوش
+    id: '1729879580385076'
   - created_time: '2018-01-22T13:39:17+0000'
     from:
       name: Ahmed Ebn Elhaj Ramzy

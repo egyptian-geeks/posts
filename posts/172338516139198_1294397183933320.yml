@@ -179,9 +179,6 @@ reactions:
   - id: '1823738041004235'
     name: Muhammad Yousef
     type: LIKE
-  - id: '1955441501387657'
-    name: Bassam Abd Elhamid
-    type: LIKE
   - id: '1702975809723529'
     name: Omar Hisham
     type: LIKE
@@ -194,6 +191,14 @@ reactions:
       after: TVRBd01EQTBNVEExTlRZANU5EYzBPakUwTnpreU5EQXpOalU2TWpVME1EazJNVFl4TXc9PQZDZD
 comments:
   data:
+  - created_time: '2016-11-15T20:13:01+0000'
+    from:
+      name: Hazem Mahmoud
+      id: '812860882248624'
+    message: "اللي انا ملاحظه ان الشباب الجديد مش متعلمين كويس للاسف \nمش عارف انا
+      بس اللي حاسس كده ولا الناس كلها ملاحظه ده\nالشباب الجديدة اللي هما خريجين اخر
+      3 سنين مثلا كده"
+    id: '1294401247266247'
   - created_time: '2016-11-15T20:16:22+0000'
     from:
       name: Rafael Adel
@@ -375,5 +380,5 @@ comments:
     id: '1295809670458738'
   paging:
     cursors:
-      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEk1TkRRd01qZAzFNRFU1T1RReU1Eb3hORGM1TWpRd09UZA3kZD
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEk1TkRRd01USTBOekkyTmpJME56b3hORGM1TWpRd056ZA3kZD
       after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEk1TlRnd09UWTNNRFExT0Rjek9Eb3hORGM1TXpZAME5ETXkZD

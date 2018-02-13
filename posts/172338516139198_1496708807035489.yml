@@ -30,6 +30,12 @@ comments:
       id: '10156165643313420'
     message: Can you paste here what's running from top/htop whatever you have ?
     id: '1496749347031435'
+  - created_time: '2017-05-29T13:12:15+0000'
+    from:
+      name: Muhammed Nagy
+      id: '495080930892199'
+    message: "you can check what is listening to what port using \nnetstat -plnt"
+    id: '1496767987029571'
   - created_time: '2017-05-29T14:06:28+0000'
     from:
       name: Amr ELsaqqa

@@ -19,15 +19,6 @@ comments:
       id: '10215565754801598'
     message: هو الويب ايه غير جافا سكريبت وشوية حاجات كده جنبها
     id: '1301230113250027'
-  - created_time: '2016-11-22T13:31:14+0000'
-    from:
-      name: Bassam Abd Elhamid
-      id: '1955441501387657'
-    message: |-
-      php is for backend (server) programming, Javascript is for browser programming, Whenever you want to do programming in the browser it would be in JavaScript (Mostly).
-
-      But, Why you write code for the browser when you can do anything from the server (using php for example)? In some cases you want to do some processing using the browser without posting to the server, Some thing like validating inputs or hashing passwords, In other cases loading/updating some parts of the page without reloading the whole page, or just load data (in json for example) and visualize it using some template engine, You may also add some animations or customized slideshow, You can do a lot of things in the browser using JavaScript.
-    id: '1301232826583089'
   - created_time: '2016-11-22T13:36:53+0000'
     from:
       name: Amr Tharwat

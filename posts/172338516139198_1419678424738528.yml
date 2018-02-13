@@ -23,9 +23,6 @@ reactions:
   - id: '1545491685565248'
     name: Monzer Alsadeg
     type: LIKE
-  - id: '1955441501387657'
-    name: Bassam Abd Elhamid
-    type: LIKE
   - id: '10208596993002679'
     name: Mostafa Alaa
     type: LIKE
@@ -58,15 +55,6 @@ comments:
     message: ليه متعديش علي كل char في string , تتاكد من إنه numeric و تجمعه مع counter
       بعد لما تجيب قيمته ؟
     id: '1419684488071255'
-  - created_time: '2017-03-13T21:03:15+0000'
-    from:
-      name: Bassam Abd Elhamid
-      id: '1955441501387657'
-    message: |-
-      I am about to make it... :)
-
-      function sum(x){if(x==undefined || x==0) return 0; else return x+window['sum'].call(this,x);}
-    id: '1419687868070917'
   - created_time: '2017-03-13T21:03:29+0000'
     from:
       name: Amr ELsaqqa

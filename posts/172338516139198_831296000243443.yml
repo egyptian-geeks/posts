@@ -20,9 +20,6 @@ reactions:
   - id: '10155855157936047'
     name: Mosab Ibrahim
     type: LIKE
-  - id: '1955441501387657'
-    name: Bassam Abd Elhamid
-    type: LIKE
   - id: '10214811000325401'
     name: Ashraf Saied
     type: LIKE
@@ -41,13 +38,6 @@ comments:
       id: '10155787111376210'
     message: He doesn't comment on the performance though...
     id: '831296283576748'
-  - created_time: '2014-10-17T06:40:50+0000'
-    from:
-      name: Bassam Abd Elhamid
-      id: '1955441501387657'
-    message: طيب ايه رايكو لو عملنا ريكوست للعنوان ده لو رجع اوك يبقى تمام غير كده
-      يبقى نوت فيلد
-    id: '831765153529861'
   - created_time: '2014-10-17T08:15:47+0000'
     from:
       name: Mohamed Elsherif
@@ -67,7 +57,7 @@ attachments:
       of URLs from a given string of text (even though some of the regexes on this
       page are capable of doing that). I also don’t want to allow every possible…
     target:
-      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fmathiasbynens.be%2Fdemo%2Furl-regex&h=ATOvRwqvJaLjivh-CSxjLmBgWoLEhvR6e1_7cABopUZ8SfirRc_pQ8jHzl-hviDOnf-SIS_k5XqQTiL7SPt4utPzmilkhUnIiubUIwpo1U1xAgZb2DsaxCe52PlJkWTUhqm5Lz9qE3QLgrjm&s=1
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fmathiasbynens.be%2Fdemo%2Furl-regex&h=ATPeeNXMXjQaU3LUSf5Ms0e4mgUsGreqtakQPsKFMl1n_oaXJH1SqNHqZr4L_hWBBmdQoz-bIfWwSCFO0XsC3Rgoe-lslAcZIUMsQP2yV4mj9yRB-bTjr4FiYlSOKsFr6G7kupdRVA_ODBS7&s=1
     title: In search of the perfect URL validation regex
     type: share
-    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fmathiasbynens.be%2Fdemo%2Furl-regex&h=ATOvRwqvJaLjivh-CSxjLmBgWoLEhvR6e1_7cABopUZ8SfirRc_pQ8jHzl-hviDOnf-SIS_k5XqQTiL7SPt4utPzmilkhUnIiubUIwpo1U1xAgZb2DsaxCe52PlJkWTUhqm5Lz9qE3QLgrjm&s=1
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fmathiasbynens.be%2Fdemo%2Furl-regex&h=ATPeeNXMXjQaU3LUSf5Ms0e4mgUsGreqtakQPsKFMl1n_oaXJH1SqNHqZr4L_hWBBmdQoz-bIfWwSCFO0XsC3Rgoe-lslAcZIUMsQP2yV4mj9yRB-bTjr4FiYlSOKsFr6G7kupdRVA_ODBS7&s=1
