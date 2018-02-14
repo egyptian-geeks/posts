@@ -10,18 +10,22 @@ permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/11518008
 id: '172338516139198_1151800854859621'
 comments:
   data:
-  - created_time: '2016-05-28T18:03:49+0000'
-    from:
-      name: Nasser Mohammed Ali
-      id: '10213493310141587'
-    message: http://stackoverflow.com/questions/8644960/java-library-to-compare-image-similarity
-    id: '1151802324859474'
   - created_time: '2016-05-28T18:26:13+0000'
     from:
       name: Mohamed Atia
       id: '1449913351798387'
     message: Keypoint extraction algorithms like Sift and surf
     id: '1151810698191970'
+  - created_time: '2016-05-28T19:12:34+0000'
+    from:
+      name: عمر أمين
+      id: '10159929493885634'
+    message: "اعتقد \nyou need to add a context \n\nمعتقدش ان الunconstrained images
+      هتعرف تلاقيلها حل مباشر \n\nيعني لو مثلا صورت نفسك مرتين بخلفيتين مختلفتين ...
+      هتلاقي الSURF and SIFT features\n\nطلعوا مختلفين .. و مش بعيد يطلعوا من الخلفية
+      .فمش هيحصل matching بين الtwo images زي مانت متخيل .. الموضوع محتاج شوية constraints
+      لانه مش بسيط اوي"
+    id: '1151833078189732'
   - created_time: '2016-05-28T22:31:12+0000'
     from:
       name: Waleed Saleh
@@ -36,5 +40,5 @@ comments:
     id: '1152118878161152'
   paging:
     cursors:
-      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUxTVRnd01qTXlORGcxT1RRM05Eb3hORFkwTkRVNE5qTXgZD
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUxTVRneE1EWTVPREU1TVRrM01Eb3hORFkwTkRVNU9UY3oZD
       after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUxTWpFeE9EZAzNPREUyTVRFMU1qb3hORFkwTlRBMk5qVTQZD

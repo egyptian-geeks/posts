@@ -33,6 +33,42 @@ comments:
       and the other one is Model driven forms ,, that depends on FormGroup
       please check this : http://blog.angular-university.io/introduction-to-angular-2-forms-template-driven-vs-model-driven/
     id: '1311331732239865'
+  - created_time: '2016-12-04T01:47:53+0000'
+    from:
+      name: Meligy
+      id: '10155880569740170'
+    message: |-
+      It's possible, with a gotcha...
+
+      # Template Forms
+
+      If you look for the selector for ngForm directive in Angular2, you'll find it like that:
+      form:not([ngNoForm]):not([formGroup])
+      ngForm
+      [ngForm]
+
+      Note that last one. Any element with ngForm attribute should work.
+
+      Reference: https://angular.io/docs/ts/latest/api/forms/index/NgForm-directive.html
+
+      # Reactive Forms
+
+      The selector for formGroup directive is:
+      [formGroup]
+
+      Which also means that any element with formGroup attribute should work.
+
+      Reference:
+      https://angular.io/docs/ts/latest/api/forms/index/FormGroupDirective-directive.html
+
+      # Note
+
+      There is a critical bug with non-form elements used as forms in Angular 2. The submit events do not work. The implementation is just not as mature as Angular 1.
+
+      I have raised a bug here in March, but it's probably a low priority:
+      https://github.com/angular/angular/issues/7807
+      You might be able to comment on it stating your scenario to bring it some attention.
+    id: '1311495628890142'
   - created_time: '2016-12-04T18:30:27+0000'
     from:
       name: Hossam Ahmed

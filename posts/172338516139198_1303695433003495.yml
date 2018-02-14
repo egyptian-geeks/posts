@@ -32,6 +32,9 @@ reactions:
   - id: '1703823479655702'
     name: أحمد أبوبكر
     type: LIKE
+  - id: '1357558894349445'
+    name: Fadi AlAzaba
+    type: LIKE
   - id: '1928384107425504'
     name: Ahmed Hashem
     type: HAHA
@@ -59,6 +62,15 @@ comments:
     message: كان عندى نفس المشكلة بس عليت ال رامات ل 12 وعملت تعديلات على gradle عشان
       يbuild اسرع
     id: '1303708679668837'
+  - created_time: '2016-11-24T20:46:27+0000'
+    from:
+      name: Ahmed Aziz
+      id: '1641565752594739'
+    message: |-
+      البروسيسور موديل ايه بالضبط ؟
+      علشان انا I5 4670k وبيبقي full load حرفياً على البروسيسور بتردد 4.5GHz كمان.
+      ده غير ان ال HDD بطيئ جدا لازم SSD للأسف.
+    id: '1303712383001800'
   - created_time: '2016-11-24T20:52:05+0000'
     from:
       name: Heba Ghonaemy
@@ -90,12 +102,6 @@ comments:
       using Google emulator, consider using genymotion or customize your current emulator
       to take less resources
     id: '1303738332999205'
-  - created_time: '2016-11-24T21:48:16+0000'
-    from:
-      name: Mohamed Salah Hassan
-      id: '2027932964114883'
-    message: على لينكس الوضع مختلف سريع وكويس جدا
-    id: '1303746412998397'
   - created_time: '2016-11-24T22:07:15+0000'
     from:
       name: Mohammad Helal

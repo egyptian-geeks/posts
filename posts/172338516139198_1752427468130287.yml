@@ -1,0 +1,86 @@
+---
+message: "with out google \U0001F609\nwhat is the output ?\nConsole.WriteLine((\"?\"
+  ?? \"???\") == \"?\" ? \"??\" : \"???\");"
+from:
+  name: Mustafa Abdelhakam Mahmoud
+  id: '10204492738553942'
+type: status
+created_time: '2018-02-14T08:53:29+0000'
+updated_time: '2018-02-14T20:32:41+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1752427468130287/
+id: '172338516139198_1752427468130287'
+reactions:
+  data:
+  - id: '1830940156918303'
+    name: Mohamed Essam
+    type: LIKE
+  - id: '10155187026391899'
+    name: Kamal Aldin Hosny
+    type: LIKE
+  - id: '2012659682322595'
+    name: Ahmed Salama
+    type: LIKE
+  - id: '1550253781719261'
+    name: Mohamed Hamed
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdNRGN3TURneE56WTBPakUxTVRnMk16QXhOekU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlNRE01TmpNd016ZAzBPakUxTVRnMU9UazROVFU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2018-02-14T09:19:14+0000'
+    from:
+      name: Mohamed Hamed
+      id: '1550253781719261'
+    message: |-
+      لو تقصد كدا
+      Console.WriteLine(("?" ?: "???") == "?" ? "??" : "???");
+      يبقى الناتج "؟؟"
+      لو مش كدا يبقي مش عارف
+    id: '1752901818082852'
+  - created_time: '2018-02-14T09:21:04+0000'
+    from:
+      name: Mohammad Hosny
+      id: '10155052403705843'
+    message: |-
+      1- ("?" ?? "???") --> "?"
+      2- "?" == "?" --> true
+      3- true ? "??" : "???" --> "??"
+      so output will be "??"
+    id: '1752902871416080'
+  - created_time: '2018-02-14T09:54:06+0000'
+    from:
+      name: Mohammed Sameer
+      id: '10159851097570371'
+    message: "*"
+    id: '1752921841414183'
+  - created_time: '2018-02-14T09:59:51+0000'
+    from:
+      name: Hossam Ahmed Mohammed
+      id: '10155678609406281'
+    message: "??"
+    id: '1752924971413870'
+  - created_time: '2018-02-14T11:09:18+0000'
+    from:
+      name: Mohammad Desouky
+      id: '838637592985111'
+    message: "the output will be \"??\" because the immediate if operator condition
+      equals \"?\" \n(\"?\" ?? \"???\") == \"?\" <==>   \"?\" == \"?\""
+    id: '1752968264742874'
+  - created_time: '2018-02-14T12:27:52+0000'
+    from:
+      name: Mahmoud Nady Mahmoudnady
+      id: '916487488519275'
+    message: مشفاهم الحل يشباب ياريت حد يوضحه
+    id: '1753027344736966'
+  - created_time: '2018-02-14T14:42:30+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: '"Cannot implicitly convert type ''string'' to ''bool''" :P'
+    id: '1753140304725670'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMxTWprd01UZA3hPREE0TWpnMU1qb3hOVEU0TlRrNU9UVTEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMxTXpFME1ETXdORGN5TlRZAM01Eb3hOVEU0TmpFNU16VXcZD
