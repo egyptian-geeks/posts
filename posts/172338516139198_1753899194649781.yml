@@ -1,0 +1,43 @@
+---
+message: "Hi Geeks , \nMy team is in the process of creating a project which follows
+  the serverless architecture , we are using AWS Lambda , NodeJS and Serverless framework
+  . \nThe application will be a set of services each one will be handled as a separate
+  function \nI found examples combining multiple functions under the same project
+  then using cloud formation to deploy all at once , but with some defects we don't
+  want .\n\nmy question : \ndo you know the best way to organize a project containing
+  multiple functions , each one has it's separate .yaml and configurations with the
+  ability to deploy all of them when needed or specify selective updated functions
+  to be deployed ?"
+from:
+  name: Emad Omara
+  id: '10156496579682437'
+type: status
+created_time: '2018-02-15T09:57:42+0000'
+updated_time: '2018-02-15T20:21:55+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1753899194649781/
+id: '172338516139198_1753899194649781'
+reactions:
+  data:
+  - id: '1883716168580920'
+    name: Jo Mahmoud
+    type: LIKE
+  - id: '909264299254917'
+    name: Mohamed Tarek
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTRNamMyTmpVM016a3lPakUxTVRnMk9USTNPVFE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTFNVFF3TmpVek56ZA3pPakUxTVRnMk9EZAzNOREU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2018-02-15T12:56:57+0000'
+    from:
+      name: Amr Khaled
+      id: '10155799358646501'
+    message: "I’m not sure if I fully understood your question but you might use Ansible
+      to manage functions on AWS lambda. \n\nhttp://docs.ansible.com/ansible/latest/lambda_module.html"
+    id: '1754035934636107'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMxTkRBek5Ua3pORFl6TmpFd056b3hOVEU0TmprNU5ERTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMxTkRBek5Ua3pORFl6TmpFd056b3hOVEU0TmprNU5ERTQZD

@@ -18,13 +18,16 @@ from:
 type: photo
 picture: https://scontent.xx.fbcdn.net/v/t1.0-0/p130x130/26814453_10154854564622723_1040439648671811677_n.jpg?oh=11b31cf64a1aea8ac998bfe1ec98a29c&oe=5B1A91EF
 created_time: '2018-01-21T17:37:23+0000'
-updated_time: '2018-02-04T14:50:01+0000'
+updated_time: '2018-02-15T16:14:44+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1728753367164364/
 shares:
   count: 10
 id: '172338516139198_1728753367164364'
 reactions:
   data:
+  - id: '1883716168580920'
+    name: Jo Mahmoud
+    type: LIKE
   - id: '10214925485592247'
     name: Ahmed Kamal
     type: LIKE
@@ -58,9 +61,6 @@ reactions:
   - id: '10159892786570537'
     name: Mahmoud El Kotoury
     type: LOVE
-  - id: '1589304647821970'
-    name: Menem Salama
-    type: LIKE
   - id: '10211293877573078'
     name: Ahmed Fahmy
     type: LIKE
@@ -171,7 +171,7 @@ reactions:
     type: LIKE
   paging:
     cursors:
-      before: TVRJNE1USTNNekF4TkRveE5URTNOemd5TWpZAMk9qSTFOREE1TmpFMk1UTT0ZD
+      before: TVRBd01EQTRNamMyTmpVM016a3lPakUxTVRnMk9USTRNRFU2TWpVME1EazJNVFl4TXc9PQZDZD
       after: TnpBeU5UazFPVFF5T2pFMU1UWTFOVGN5TnpjNk1qVTBNRGsyTVRZAeE13PT0ZD
 comments:
   data:
@@ -424,10 +424,30 @@ comments:
       id: '1567739586596515'
     message: Let me know if you are open for remote talks
     id: '1743246782381689'
+  - created_time: '2018-02-15T06:01:56+0000'
+    from:
+      name: Assem Makhyon
+      id: '10214400225536793'
+    message: so is it confirmed?
+    id: '1753773634662337'
+  - created_time: '2018-02-15T06:04:30+0000'
+    from:
+      name: Hazem El-kilisly
+      id: '10154871067072723'
+    message: "Hello all, the event will be Saturday 24th isAlah.. We will announce
+      it in another post with all the details during this weekend :) \nI'm waiting
+      to know all of you :D"
+    id: '1753774967995537'
+  - created_time: '2018-02-15T08:02:14+0000'
+    from:
+      name: Hisham Hamdoun
+      id: '915399865296564'
+    message: I'm looking for Docker Speaker in Egypt
+    id: '1753832131323154'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN5T1RFeU1UVXlNRFEyTURnNE1qb3hOVEUyTlRVM05UUTMZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMwTXpJME5qYzRNak00TVRZANE9Ub3hOVEUzTnpVME5EZA3kZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMxTXpnek1qRXpNVE15TXpFMU5Eb3hOVEU0TmpneE56TTAZD
 attachments:
   data:
   - description: "For all Ruby developers currently in Egypt:\n\nWho would be interested

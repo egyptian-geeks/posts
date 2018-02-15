@@ -265,9 +265,6 @@ reactions:
   - id: '10214471954062071'
     name: Mohammad Aboelnour
     type: LIKE
-  - id: '10156415267997448'
-    name: Mohamed Osman
-    type: LIKE
   - id: '10160035809660220'
     name: Shady Abdel Aziz
     type: LIKE
@@ -418,18 +415,10 @@ comments:
       id: '2203406963006619'
     message: Abdelrhman El Behery شوف ده كده :D
     id: '1511978658841837'
-  - created_time: '2017-06-11T09:40:50+0000'
-    from:
-      name: Mohamed Osman
-      id: '10156415267997448'
-    message: Very promising project and nice documentation. I would suggest reporting
-      the evaluation in a more professional way (accuracy, confusion matrix, etc..),
-      and also extending to more digits.
-    id: '1512041852168851'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV4TVRjMk5ESXpNakU1TmpZAeE16b3hORGszTVRRNU56VXgZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV4TWpBME1UZAzFNakUyT0RnMU1Ub3hORGszTVRjME1EVXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV4TVRrM09EWTFPRGcwTVRnek56b3hORGszTVRZANU1EZAzQZD
 attachments:
   data:
   - description: Implementation of a realtime speech recognition system, Frontend
@@ -441,7 +430,7 @@ attachments:
         src: https://external.xx.fbcdn.net/safe_image.php?d=AQCoXxkCfDid6wLM&w=720&h=720&url=https%3A%2F%2Fi.ytimg.com%2Fvi%2FhxbMyYtls48%2Fmaxresdefault.jpg&cfs=1&_nc_hash=AQDRUiRMjDO50hKC
         width: 720
     target:
-      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DhxbMyYtls48&h=ATMJpDroSOWq7Fc7Sxmj2GXMGHit1CJTY97kdEuQ3iHMewl__SY-gQqtCpRg2tkkzclIU8mAGlDuoNObCzlipCYfvjzSrnYRCfzCRFcxSSQXU-69-LoRK7hc_86dt0RPJ9fpwu16zKWsmJiu&s=1
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DhxbMyYtls48&h=ATOZwWHmy7239JkTxO71IrO841bYG0YC-1C44d-pFMKrL-Yd9CuiwXA_8kHa_p_vZ4HR4SMSmJTeoTBP2AaWAvaju80wrNM1hIv3FlBRF7rx7IkrbRsmrXsaEjtwYHGDDc_8vEvFZrFL7bmx&s=1
     title: FPGA Speech Recognition (MATLAB + Altera DE0)
     type: share
-    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DhxbMyYtls48&h=ATMJpDroSOWq7Fc7Sxmj2GXMGHit1CJTY97kdEuQ3iHMewl__SY-gQqtCpRg2tkkzclIU8mAGlDuoNObCzlipCYfvjzSrnYRCfzCRFcxSSQXU-69-LoRK7hc_86dt0RPJ9fpwu16zKWsmJiu&s=1
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DhxbMyYtls48&h=ATOZwWHmy7239JkTxO71IrO841bYG0YC-1C44d-pFMKrL-Yd9CuiwXA_8kHa_p_vZ4HR4SMSmJTeoTBP2AaWAvaju80wrNM1hIv3FlBRF7rx7IkrbRsmrXsaEjtwYHGDDc_8vEvFZrFL7bmx&s=1

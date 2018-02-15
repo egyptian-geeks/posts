@@ -1,0 +1,82 @@
+---
+message: "السلام عليكم يا شباب \n\nعندي مشكلة في الاتصال مع vpn الشغل وواضح ان المشكلة
+  من شركات الاتصالات ومزودي الخدمة \n\nهل فيه حل استخدم اي tool او protocol او حتي
+  نغير configuration علشان نحل المشكلة دي?"
+from:
+  name: Abdelrady Fcis
+  id: '10214861141222529'
+type: status
+created_time: '2018-02-15T07:59:05+0000'
+updated_time: '2018-02-15T19:36:55+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1751244904915210/
+shares:
+  count: 1
+id: '172338516139198_1751244904915210'
+reactions:
+  data:
+  - id: '1883716168580920'
+    name: Jo Mahmoud
+    type: LIKE
+  - id: '10155926704141777'
+    name: Ahmed Abdelaziz
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTRNamMyTmpVM016a3lPakUxTVRnMk9USTNNVGc2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TlRrd09EZA3hOemMyT2pFMU1UZAzJPRFE0TmprNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2018-02-15T08:03:46+0000'
+    from:
+      name: Fady Elias
+      id: '10214475095887869'
+    message: |-
+      عن تجربة
+      https://myvoice.nottrees.com/ar/subscriptions
+    id: '1753833151323052'
+  - created_time: '2018-02-15T10:30:52+0000'
+    from:
+      name: Muhammad Saleh
+      id: '10156649659196002'
+    message: |-
+      I had a similar issue and I made a really nice trick (on Mac)
+
+      I subscribed to a VPN service with Stunnel support
+      And then I connected to work VPN
+
+      You will find that the work VPN is connected but your traffic is still routed through the first VPN
+
+      The trick was to manually route the traffic from the first VPN interface to the second
+
+      I did this for a specific URL but I guess there should be a solution for routing all of the traffic
+
+      I did this using this command:
+      `sudo route add -host www.name.com -interface ppp0`
+
+      You may also take a look at a tool called Shimo:
+      https://www.shimovpn.com/
+
+      Hope that helps
+    id: '1753921421314225'
+  - created_time: '2018-02-15T12:14:51+0000'
+    from:
+      name: Nabeel Molham
+      id: '10214708401524482'
+    message: Use SSTP protocol, it works for me
+    id: '1754003644639336'
+  - created_time: '2018-02-15T12:40:21+0000'
+    from:
+      name: Hany Said
+      id: '10156179627726738'
+    message: I use my own OpenVPN server with obfsproxy.
+    id: '1754023091304058'
+  - created_time: '2018-02-15T13:09:20+0000'
+    from:
+      name: Mohamed Abdul-Razzak
+      id: '10156072402827065'
+    message: جرب بورت TCP 80
+    id: '1754046281301739'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMxTXpnek16RTFNVE15TXpBMU1qb3hOVEU0TmpneE9ESTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMxTkRBME5qSTRNVE13TVRjek9Ub3hOVEU0TnpBd01UWXcZD

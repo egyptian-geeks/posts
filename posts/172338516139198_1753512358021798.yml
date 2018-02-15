@@ -1,0 +1,61 @@
+---
+message: "عندى سؤالين ، هى برمجة العاب الاندرويد بإستخدام لغة جافا ، إيه الأدوات اللى
+  أحتاجها عشان أطور ألعاب هل أندريد ستوديو ولا يونيتي ولا ايه بحيث أكود بلغة جافا
+  \nوالسؤال التانى : هل برمجة الIOS غير مجدية عن طريق جهاز عادى ؟ ولازم جهاز mac ؟
+  \nوشكرا جدا"
+from:
+  name: Moussa Adel
+  id: '1875636852457056'
+type: status
+created_time: '2018-02-15T07:56:34+0000'
+updated_time: '2018-02-15T10:58:58+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1753512358021798/
+id: '172338516139198_1753512358021798'
+reactions:
+  data:
+  - id: '10156058891705747'
+    name: George Leon
+    type: LIKE
+  paging:
+    cursors:
+      before: T0RBeU9URXdOelEyT2pFMU1UZAzJPVEF4TURRNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: T0RBeU9URXdOelEyT2pFMU1UZAzJPVEF4TURRNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2018-02-15T08:08:53+0000'
+    from:
+      name: Mahmoud El-Ghobashy
+      id: '10213787796941968'
+    message: "Unity dosen't support java language \nIt only supports C#, JavaScript
+      and boo\nIt's a cross-platform that can be used to build Android,IOS and any
+      other platform that you need \nIf you are using unity to build for IOS you'll
+      need a mac OS as it generates the code to be used into xcode to produce the
+      game \nUnlike Android games unity generates the APK directly"
+    id: '1753837091322658'
+  - created_time: '2018-02-15T08:14:40+0000'
+    from:
+      name: Eyad AlBahi
+      id: '10159879507655084'
+    message: If you are looking into 2D gaming on Android with Java, take a look at
+      AndEngine, it is a library that you add to Java code. It is a bit old (not on
+      Maven repo) but works fine and is sufficient if you want 2D only. Last time
+      I used it was 3 years ago, I don't know if there is something better nowadays.
+      Unity has 2D/3D but it is in C# and more of scripting rather than Android Java
+      dev.
+    id: '1753839931322374'
+  - created_time: '2018-02-15T08:46:44+0000'
+    from:
+      name: Ahmed Saleh
+      id: '10159933379005574'
+    message: Libgdx
+    id: '1753859237987110'
+  - created_time: '2018-02-15T10:22:55+0000'
+    from:
+      name: George Leon
+      id: '10156058891705747'
+    message: unity i think need licence, not 100 % sure, can any 1 confirm ?
+    id: '1753916807981353'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMxTXpnek56QTVNVE15TWpZAMU9Eb3hOVEU0TmpneU1UTXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMxTXpreE5qZA3dOems0TVRNMU16b3hOVEU0Tmprd01UYzEZD

@@ -1,0 +1,35 @@
+---
+message: "I am starting to solve Programming Problems like this one : https://www.hackerearth.com/practice/algorithms/searching/binary-search/practice-problems/algorithm/the-soap-mystery/\n\nBut
+  i am having a problem with the compile time , Like it take more than the best subbmissions
+  , my q is how can i decrease this time, what should i learn more or consider to
+  be better in solving problems , and is that normal for a beginner?\n\nThis is my
+  code for example in python3 :\n\nhow_many_bars_of_soap = int(input())\nlist_of_prices
+  = input().split()\nqueries = int(input())\nmoney = []\n\nfor _ in range(queries):\n
+  money.append(int(input()))\n\nfor j in range(0, len(money)):\n num = 0\n for k in
+  range(0, len(money)+1):\n if int(list_of_prices[k]) < money[j]:\n num = (num+1)\n
+  \n print(num)"
+link: https://www.hackerearth.com/practice/algorithms/searching/binary-search/practice-problems/algorithm/the-soap-mystery/
+from:
+  name: Peter E. Roshdy
+  id: '1416163505149761'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?w=130&h=130&url=https%3A%2F%2Fhackerearth.global.ssl.fastly.net%2Fstatic%2Fhackerearth%2Fimages%2Flogo%2FHE_cover.jpg&cfs=1&_nc_hash=AQBqySd7E6QPe6vu
+created_time: '2018-02-15T16:43:10+0000'
+updated_time: '2018-02-15T16:43:10+0000'
+name: The Soap Mystery | Binary Search & Algorithms Practice Problems
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1754176051288762/
+id: '172338516139198_1754176051288762'
+attachments:
+  data:
+  - description: Cool boy goes to buy soap from a shop.The shop contains N soaps.
+      The prices of soap are given in the form of an array A. The price of ith ...
+    media:
+      image:
+        height: 350
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQDWlltjzTjZkIBD&w=720&h=720&url=https%3A%2F%2Fhackerearth.global.ssl.fastly.net%2Fstatic%2Fhackerearth%2Fimages%2Flogo%2FHE_cover.jpg&cfs=1&_nc_hash=AQDztXUOT1Ues3nc
+        width: 350
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.hackerearth.com%2Fpractice%2Falgorithms%2Fsearching%2Fbinary-search%2Fpractice-problems%2Falgorithm%2Fthe-soap-mystery%2F&h=ATODbtpu9JazxBGxokPiWEk6ifu45oljg3D2RgfoSPKXyo-QV_Si5VIxj35l-r_LgGygraHRxGE6DMitMON7CnEMOu3syStfttMHgH0ZeQupbIPkjY2eS9wkGcvNctut1__dKlU6PJmfjYtv&s=1
+    title: The Soap Mystery | Binary Search & Algorithms Practice Problems
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.hackerearth.com%2Fpractice%2Falgorithms%2Fsearching%2Fbinary-search%2Fpractice-problems%2Falgorithm%2Fthe-soap-mystery%2F&h=ATODbtpu9JazxBGxokPiWEk6ifu45oljg3D2RgfoSPKXyo-QV_Si5VIxj35l-r_LgGygraHRxGE6DMitMON7CnEMOu3syStfttMHgH0ZeQupbIPkjY2eS9wkGcvNctut1__dKlU6PJmfjYtv&s=1
