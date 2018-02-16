@@ -1,0 +1,59 @@
+---
+message: "Anyone having problems with GitHub today ? \n\nSpecially the graphs section"
+from:
+  name: Abdelrahman Elkady
+  id: '1673286316072645'
+type: status
+created_time: '2016-03-15T13:16:37+0000'
+updated_time: '2016-03-16T19:21:30+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1098564296849944/
+id: '172338516139198_1098564296849944'
+reactions:
+  data:
+  - id: '2004705666469226'
+    name: Ahmed Essam
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTNPRGswTXpZAd05ETXdPakUwTlRneE1URXhPVEk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTNPRGswTXpZAd05ETXdPakUwTlRneE1URXhPVEk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-03-16T05:44:18+0000'
+    from:
+      name: Adam Zahran
+      id: '2029806313704072'
+    message: 'yes'
+    id: '1099084383464602'
+  - created_time: '2016-03-16T05:44:27+0000'
+    from:
+      name: Adam Zahran
+      id: '2029806313704072'
+    message: slow and shitty
+    id: '1099084406797933'
+  - created_time: '2016-03-16T19:10:02+0000'
+    from:
+      name: Mohamed Essam
+      id: '1546098432153196'
+    message: npm too is so slow
+    id: '1099533943419646'
+  - created_time: '2016-03-16T19:12:00+0000'
+    from:
+      name: Abdelrahman Elkady
+      id: '1673286316072645'
+    message: |-
+      It's a problem with the cdn, can't be reached properly and thus the CSS and JS are not loaded unless it's cached
+
+      The same goes for Slack sometimes
+    id: '1099535423419498'
+  - created_time: '2016-03-16T19:17:04+0000'
+    from:
+      name: Mohamed Essam
+      id: '1546098432153196'
+    message: I just ping it , Fastly CDN may doesn't reach us smoothly ..somehow happened
+      with ISP
+    id: '1099539333419107'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE1T1RBNE5ETTRNelEyTkRZAd01qb3hORFU0TVRBM01EVTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE1T1RVek9UTXpNelF4T1RFd056b3hORFU0TVRVMU9ESTAZD

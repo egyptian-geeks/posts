@@ -24,10 +24,13 @@ reactions:
   - id: '1806285449669873'
     name: Medo Gamey
     type: LIKE
+  - id: '1641565752594739'
+    name: Ahmed Aziz
+    type: LIKE
   paging:
     cursors:
       before: TVRBd01EQXdNamswTlRFM016ZAzBPakUwTnpZANU9EUXpOREU2TWpVME1EazJNVFl4TXc9PQZDZD
-      after: TVRBd01EQTROalV6TURVNU56YzVPakUwTnpZANU9EQXlOemc2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlNak01T1RFMk5UUXpPakUwTnpZANU9EQXlOelU2TWpVME1EazJNVFl4TXc9PQZDZD
 comments:
   data:
   - created_time: '2016-10-20T16:24:06+0000'
@@ -42,6 +45,23 @@ comments:
       id: '10154922289347024'
     message: وبعدين انت ليه تاج ال build.each متكرر مرتين ؟
     id: '1263808150325557'
+  - created_time: '2016-10-20T16:31:52+0000'
+    from:
+      name: Ahmed Aziz
+      id: '1641565752594739'
+    message: |-
+      علشان تقدر تخش على الكورس ده محتاج تاخد الكورس ده الأول :
+      https://www.udacity.com/course/android-basics-networking--ud843
+
+      ودي الليست الكاملة اللى محتاج تكمل فيها قبل ماتخش على الكورس الأساسي الـ intermediate نفسه وبالترتيب ده :
+      Android Basics: User Interface
+      Android Basics: User Input
+      Android Basics: Multiple App Screens
+      Android Basics: Networking
+      Android Basics: Data Storage
+
+      حتلاقيهم كلهم على udacity.com/google
+    id: '1263813510325021'
   - created_time: '2016-10-20T16:32:24+0000'
     from:
       name: Ayman Elarian

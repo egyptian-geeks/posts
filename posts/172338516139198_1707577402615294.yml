@@ -87,6 +87,9 @@ reactions:
   - id: '1575151622553633'
     name: Mohamed Ahmed
     type: LIKE
+  - id: '1641565752594739'
+    name: Ahmed Aziz
+    type: LIKE
   - id: '724172594459030'
     name: Mohamed Jimmy
     type: LIKE
@@ -144,19 +147,10 @@ comments:
     message: هو جميل بس لازم يكون given انو الزوايا قائمة فعلا، تطبيق هينفع معاك في
       شكل معين مش كل حاجة..طبعا له تطبيقات ممكنة زي الفحص البصري في خطوط الإنتاج
     id: '1707949689244732'
-  - created_time: '2018-01-01T00:43:37+0000'
-    from:
-      name: Abbey Fathy
-      id: '2031457363797357'
-    message: |-
-      اتنفذت الفكرة دي في الصين في ال surveillance cctv cameras ،وبالتحديد من شركة Dahua.
-
-      لكن أبعاد منفصلة للأحجام، مش مساحتها
-    id: '1708273845878983'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN3Tnpjd016STNPVEkyT1RNM016b3hOVEUwTnpNd09ESXcZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN3T0RJM016ZAzBOVGczT0RrNE16b3hOVEUwTnpZAM05ERTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN3TnprME9UWTRPVEkwTkRjek1qb3hOVEUwTnpRek5USTQZD
 attachments:
   data:
   - description: ازاي تقيس حجم صندوق من صورة  واحده ؟ دي فكرتي و ليه الحق إني انشرها

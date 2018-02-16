@@ -1,0 +1,51 @@
+---
+message: "سؤال لطيف\n\nأنا معنديش فكرة ازاي ال safe streaming بيحصل لل audio/video
+  عموما\n\nبس دلوقتي لما بيكون فيه private video على ال Facebook مبيبقاش سهل إنك ت
+  access ال resource ده و انت مش authenticated \n\nدلوقتي فيه tools معينة ناس بتستخدمها
+  علشان ت download videos in private groups و كلها بتشتغل عن طريق إنهم ياخدوا ال source
+  code بتاع ال page كلها ( Ctrl + U )\n\nدلوقتي سؤالي كالتالي:\n\n- ايه اللي أدور
+  فيه علشان أفهم ال process أصلا بتاعت إن ال resources دي متبقاش accessible for non
+  authenticated users ؟ ( keywords )\n\n- ايه اللي بيبقى ال downloader محتاجه بالضبط
+  من ال page source ؟ هل entry points معينة بيقدر ي Access بيها ال resource ده ؟ المفترض
+  إنه ملوش access على حاجة مفيدة من ال source ده إلا لو حاجة generated لل session
+  دي بالذات\n\n- هل الموضوع فيه حاجات مخيفة أكتر من كده ؟ :D ﻷن بصراحة أنا فاهم إن
+  ال videos مش أسهل حاجة يتعمل لها protection، بس مكنتش متخيل إن الموضوع منتشر و فيه
+  tools بتعمل الكلام ده و الناس بتستخدمها عادي جدا"
+from:
+  name: Abdelrahman Elkady
+  id: '1673286316072645'
+type: status
+created_time: '2017-03-10T22:21:13+0000'
+updated_time: '2017-03-10T22:52:05+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1416877471685290/
+id: '172338516139198_1416877471685290'
+reactions:
+  data:
+  - id: '1531295853586174'
+    name: Abdoo Fathy
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhNVGN6TWpJek9UQTRPakUwT0RreE9EUTFPRFE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXhNVGN6TWpJek9UQTRPakUwT0RreE9EUTFPRFE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-03-10T22:21:48+0000'
+    from:
+      name: Abdelrahman Elkady
+      id: '1673286316072645'
+    message: 'Example: http://getfbstuff.com/facebook-private-video-downloader'
+    id: '1416877801685257'
+  - created_time: '2017-03-10T22:26:42+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: |-
+      المفروض البروسس دى تبقى implemented  ع السيرفر يعنى الـ middleware مثلا بتاع الـ static files ممكن يتعمل بحيث انه يهاندل حتة الـ authenticated users دي
+
+      بالنسبة للموضوع بتاع الفيس بوك، اعتقد لينك الفيديو ما بيبقاش لينك فاينل، بس لما بتاخد سورس الصفحة، هو بطريقة معينة بيـ extract منها الـ direct mp4 url مثلا .. ممكن يكون الموضوع بالبساطة دى عادى :D
+    id: '1416881145018256'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF4TmpnM056ZA3dNVFk0TlRJMU56b3hORGc1TVRnME5UQTUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF4TmpnNE1URTBOVEF4T0RJMU5qb3hORGc1TVRnME9EQXkZD

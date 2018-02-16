@@ -151,9 +151,6 @@ reactions:
   - id: '1799546877005481'
     name: Eslam Alaa Eldin
     type: LIKE
-  - id: '1990062157689920'
-    name: Abdelrahman Gomaa
-    type: LIKE
   - id: '1760650110714877'
     name: Muhammed Abd El-Nabe
     type: LIKE
@@ -181,6 +178,9 @@ reactions:
   - id: '1977586272565429'
     name: Mohammed Tokhi
     type: LOVE
+  - id: '10155500216578893'
+    name: Tasneem Farag
+    type: LIKE
   - id: '10215472687836160'
     name: Marwan Saad Salem
     type: LIKE
@@ -1075,6 +1075,9 @@ reactions:
   - id: '1917684404913201'
     name: أحمد حمدي
     type: LIKE
+  - id: '954505461365503'
+    name: Gilang Permana
+    type: LOVE
   - id: '940225786146567'
     name: Mohamed Magdy
     type: LIKE
@@ -2041,6 +2044,9 @@ reactions:
   - id: '1970852886277104'
     name: Ahmed Sayed
     type: LIKE
+  - id: '10155018423441784'
+    name: Aya Hamdy Ali
+    type: LIKE
   - id: '2046856075528599'
     name: Ebra Him K Eldesouki
     type: LOVE
@@ -2452,9 +2458,6 @@ reactions:
   - id: '10156250216079736'
     name: Ahmed Ehab
     type: LIKE
-  - id: '10155961930885692'
-    name: Oumar Yehia
-    type: LIKE
   - id: '10212826240185281'
     name: Mohamed Bassem
     type: LIKE
@@ -2485,9 +2488,6 @@ reactions:
   - id: '1622194551179260'
     name: Abdoelrhman Mohammed
     type: LOVE
-  - id: '10213725154056198'
-    name: احمد سمير
-    type: LIKE
   - id: '1518983061552107'
     name: Mohammed Abu-Dahsh
     type: LIKE
@@ -3144,6 +3144,15 @@ comments:
       لانس".. في global market دلوقت بينافس السوق المصري.. وبيرفع من ال market value
       بتاعت المبرمجين المصريين
     id: '1651502994889402'
+  - created_time: '2017-11-03T15:50:22+0000'
+    from:
+      name: Bassam Abd Elhamid
+      id: '1955441501387657'
+    message: |-
+      يعمر بيتك يا استاذ فادى.
+
+      انا نفسى بقى الكلام ده يكون موجود فى صفحة على النت ذى تراخيص الاستخدام مثلاً ونحط رابط ليه فى السى فى :)
+    id: '1651514204888281'
   - created_time: '2017-11-03T16:18:18+0000'
     from:
       name: Abdelrady Fcis

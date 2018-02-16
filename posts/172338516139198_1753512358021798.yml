@@ -8,17 +8,20 @@ from:
   id: '1875636852457056'
 type: status
 created_time: '2018-02-15T07:56:34+0000'
-updated_time: '2018-02-15T10:58:58+0000'
+updated_time: '2018-02-16T10:13:51+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1753512358021798/
 id: '172338516139198_1753512358021798'
 reactions:
   data:
+  - id: '871016873079772'
+    name: Marwan Ahmed
+    type: LIKE
   - id: '10156058891705747'
     name: George Leon
     type: LIKE
   paging:
     cursors:
-      before: T0RBeU9URXdOelEyT2pFMU1UZAzJPVEF4TURRNk1qVTBNRGsyTVRZAeE13PT0ZD
+      before: TVRBd01EQTFNVFEwTURJME5EWTRPakUxTVRnM09UQTNNekk2TWpVME1EazJNVFl4TXc9PQZDZD
       after: T0RBeU9URXdOelEyT2pFMU1UZAzJPVEF4TURRNk1qVTBNRGsyTVRZAeE13PT0ZD
 comments:
   data:
@@ -55,7 +58,16 @@ comments:
       id: '10156058891705747'
     message: unity i think need licence, not 100 % sure, can any 1 confirm ?
     id: '1753916807981353'
+  - created_time: '2018-02-16T08:33:22+0000'
+    from:
+      name: Sherif Elmetainy
+      id: '10155248504590994'
+    message: |-
+      بالنسبة للiOS الSDK بتاعه مش بيشتغل غير على macOS
+      حتى لو بتشتغل على حاجة زي xamarin و visual studio على windows لازم يبقى متوصل على ال network بجهاز mac OS بيعمل عليه الbuild والdebugging الخ
+      في طرق انك تنزل macOS على virtual machine أو جهاز عادي بس أولاً الموضوع ده غير قانوني ثانيا مشاكله كتير أبسطها إن الmac OS عليه drivers للأجهزة الmac بس و إن apple كل ما بتعمل update الhack ده ممكن مايشتغلش
+    id: '1754842667888767'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMxTXpnek56QTVNVE15TWpZAMU9Eb3hOVEU0TmpneU1UTXoZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMxTXpreE5qZA3dOems0TVRNMU16b3hOVEU0Tmprd01UYzEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMxTkRnME1qWTJOemc0T0RjMk56b3hOVEU0Tnpjd01EQXoZD

@@ -22,13 +22,10 @@ reactions:
   - id: '10154950104465216'
     name: Nader Al-Sharkawy
     type: LIKE
-  - id: '1772542006152666'
-    name: Mohamed AbuIssa
-    type: LIKE
   paging:
     cursors:
       before: TVRBd01EQXlOVGd5T1RVME5UTXlPakUwT0RBNU5qUTNOVGM2TWpVME1EazJNVFl4TXc9PQZDZD
-      after: TVRBd01EQXhPVEEyTlRBNU16RXlPakUwT0RBNU5EVTVORGc2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TlRrMk1EUTFNakUxT2pFME9EQTVOakUzTmpRNk1qVTBNRGsyTVRZAeE13PT0ZD
 comments:
   data:
   - created_time: '2016-12-05T13:51:50+0000'
@@ -38,14 +35,6 @@ comments:
     message: "I think you should stress test your app \nWrite an integration test
       to do that"
     id: '1314060688633636'
-  - created_time: '2016-12-05T14:05:29+0000'
-    from:
-      name: Mohamed AbuIssa
-      id: '1772542006152666'
-    message: |-
-      I guess this can help, it calculates benchmarks for different frameworks combinations. and it's really awesome. but I guess you should also test you own design and configuration.
-      https://www.techempower.com/benchmarks/#section=data-r13&hw=ph&test=update
-    id: '1314078345298537'
   - created_time: '2016-12-05T16:51:48+0000'
     from:
       name: Aly Saleh

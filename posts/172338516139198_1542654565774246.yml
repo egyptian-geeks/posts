@@ -66,6 +66,29 @@ comments:
     message: i'm not sure i understand what you u mean by "from scratch with same
       perofmrance of "it is now" ?" what does it, and now refer to ?
     id: '1542720335767669'
+  - created_time: '2017-07-10T02:19:19+0000'
+    from:
+      name: Bassam Abd Elhamid
+      id: '1955441501387657'
+    message: Native arrays (in languages like c for example) is nothing but a piece
+      of memory, and you know about it at least two information, The address of the
+      first byte and the total length of it, Actually when initializing array you
+      have to specif the length and get the location/address as a result, The key
+      difference between arrays and normal scalier variable is you can store more
+      than one item inside it, But how this can be done, First you have to know the
+      size of the item data type and how many items you intend to store in the array,
+      then multiple both numbers to get to total size for initializing the array,
+      But how you can access items by index, You can do this by direct accessing the
+      address of the item you want and to get the item address you simply multiply
+      the index by the data type size then add the array starting address.
+    id: '1542792815760421'
+  - created_time: '2017-07-10T02:38:51+0000'
+    from:
+      name: Bassam Abd Elhamid
+      id: '1955441501387657'
+    message: We can't implement arrays is Javascript because we have no direct access
+      to memory, Try learning it using low level language.
+    id: '1542803449092691'
   - created_time: '2017-07-10T04:34:02+0000'
     from:
       name: Ibraheem Mamdouh

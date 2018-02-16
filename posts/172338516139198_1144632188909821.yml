@@ -27,14 +27,6 @@ comments:
       id: '1987222834640127'
     message: I always use it , but i did not face unexpected behavior before .
     id: '1144651648907875'
-  - created_time: '2016-05-16T21:25:07+0000'
-    from:
-      name: Mohamed AbuIssa
-      id: '1772542006152666'
-    message: "I use it a lot in C#. Your problem may be caused by wrong assumption
-      for precedence, like 5 + x== 10? 20 : 10 + 30; \nIf your statement looks something
-      like this make sure it means what you want"
-    id: '1144671752239198'
   - created_time: '2016-05-16T22:12:08+0000'
     from:
       name: Ahmed Hashem

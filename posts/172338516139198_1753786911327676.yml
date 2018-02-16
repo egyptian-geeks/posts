@@ -10,13 +10,25 @@ from:
   id: '1888485454796049'
 type: status
 created_time: '2018-02-15T07:56:17+0000'
-updated_time: '2018-02-15T22:17:26+0000'
+updated_time: '2018-02-16T13:39:39+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1753786911327676/
 shares:
   count: 1
 id: '172338516139198_1753786911327676'
 reactions:
   data:
+  - id: '10159817376550705'
+    name: Mohamed Salem Korayem
+    type: LIKE
+  - id: '871016873079772'
+    name: Marwan Ahmed
+    type: LIKE
+  - id: '1660033374035215'
+    name: Assem Shaker
+    type: LIKE
+  - id: '1993542497562437'
+    name: Mahmoud Elnaggar
+    type: LIKE
   - id: '870270319821936'
     name: Mahmoud Jamal
     type: LIKE
@@ -136,7 +148,7 @@ reactions:
     type: LIKE
   paging:
     cursors:
-      before: TVRBd01EQTFNVFk1TWpnd056WTVPakUxTVRnM016UTBOek02TWpVME1EazJNVFl4TXc9PQZDZD
+      before: TmpZAMk56WTFOekEwT2pFMU1UZAzRNRFUyT0RRNk1qVTBNRGsyTVRZAeE13PT0ZD
       after: TVRBd01EQTJNell4TWpNeE5qWTFPakUxTVRnMk9ERTRORFU2TWpVME1EazJNVFl4TXc9PQZDZD
 comments:
   data:
@@ -195,15 +207,6 @@ comments:
       id: '10155060652857633'
     message: "فب ناس بتسرق الapplication كله مش شوية كود \U0001F603"
     id: '1753838937989140'
-  - created_time: '2018-02-15T08:13:50+0000'
-    from:
-      name: Oumar Yehia
-      id: '10155961930885692'
-    message: |-
-      Often, companies license the work produced by their employees in contract terms. By law, employees should be explicitly prohibited to do so.
-
-      Here's an interesting read about a similar situation: https://www.quora.com/Can-your-work-on-GitHub-actually-make-your-resume-worse
-    id: '1753839467989087'
   - created_time: '2018-02-15T08:17:35+0000'
     from:
       name: Ahmed Soliman
@@ -516,13 +519,6 @@ comments:
 
       معظم الشركات اللي اشتغلت فيها ما كانتش مشاكلها unique و بالتالي الحلول بارضو مش اختراعات و ملكية فكرية تتطلب license كود تعرف تجيب له مصادر تانية و تنقل منها و انت في الامان(كتب، medium, stack overflow)  . انت بتبقى عارف لو دا كود جاي من stack overflow ولا اللي قبلك تعب فيه ؟ اللي جاي من مصدر ارجع  للأصل و اللي كان كود ابداع و تخطيط شخص اسأله عن مصادره و هو فكر ازاي و كانت إيه المشكلة اللي عايز يحلها (على فرض أنه إنسان على وعي أنه يعلم اللي حواليه) و امشي في نفس الطريق و اوصل لنفس النتيجة من غير سرقة. لكن انك تاخد مشروع شركة كله و تظبطه لعميل عندك دا أمر تاني دا اللي فيه سرقة
     id: '1754326837940350'
-  - created_time: '2018-02-15T19:34:53+0000'
-    from:
-      name: احمد سمير
-      id: '10213725154056198'
-    message: "علي حسب عقدك في الشركه \nلو مضيت أن مينفعش تطلع شغل \nيبقا الكود نفسه
-      مش من حقك\nلاكن الفكره و الخبره بتاعتك\nلاكن الفايل و الي مكتوب فيه مش بتاعك"
-    id: '1754382204601480'
   - created_time: '2018-02-15T20:22:56+0000'
     from:
       name: Ashraf Saad
@@ -559,7 +555,41 @@ comments:
       كامله من سيستم او برودكت تحطها ف حته تانيه \nانما سطر كود بيعمل filter  لحاجه
       معينه \nهل لو استخدمته فى حته تانيه يبقى انا كده غلط"
     id: '1754480601258307'
+  - created_time: '2018-02-16T00:02:32+0000'
+    from:
+      name: Moustafa Elsaghier
+      id: '1551507444928258'
+    message: "هو طبعآ حاجه مش ethical خالص بس احما عندنا داء الكسل ومبدأ ليه اعمل
+      الحاجه تانى اما ممكن اخدها من مشروع X \nبس هقولك فكره حلوه. \nانت ممكن تعمل
+      حاجه اسمها Skelton Project\nودا عباره عن مشروع بيكون فيه كل حاجه بتستخدما فى
+      الشغل بتاعك بس معموله ف شكل dynamic بمعنى .. مثلآ ميثود بتعمل كونكت ع سيرفر
+      متخليهاش ثابته ع سيرفر معين لا خلى السيرفر دا بيجى من برامتر .. وهكذا ف باقى
+      الشغل واعتقد انت كدا وفرت ع نفسك موضوع الlicense  لانك هتكون بتاخد كودك الخاص
+      وتعدل عليه على حسب متطلبات كل بروجكت بتشتغل فيه .\n#مجرد_رأى"
+    id: '1754548287918205'
+  - created_time: '2018-02-16T00:40:40+0000'
+    from:
+      name: Mazen Mohamed
+      id: '1966205680294666'
+    message: Mahmoud M. Sayed
+    id: '1754568457916188'
+  - created_time: '2018-02-16T06:41:11+0000'
+    from:
+      name: Ahmed Samer Zaid
+      id: '1593162530738796'
+    message: |-
+      انا بعمل نفس فكرة مصطفي تقريبا. الكود الي بستخدمه بيتعمل كلاس او حاجة شبهه كده وبيكون مشروع بتاعي مش بتاع الشركة وطالع له license بتاعتي او MIT او ايا ما كان انا محتاج اطلعه باي ترخيص واستدعيه زي اي مكتبة بالتراخيص بتاعته واستخدمه في المشروع بتاعي تبع اي شركة او فريلانس.
+      والمشروع الكبير الي فيه الكلاسات وكده طبعا كل لما اعمل بروجكت جديد وفيه خواص جديدة عايز اضيفها بحطها في المشروع بتاعي وارجع استدعيها في المشروع بتاع الشركة وكده.
+    id: '1754784251227942'
+  - created_time: '2018-02-16T12:15:25+0000'
+    from:
+      name: محمد عبد القهار
+      id: '10155869398711136'
+    message: |-
+      هو الكلام عن أي حاجة في مصر قانونا ملهاش معنى، بس إجمالا أي شخص بيشتغل أي مهنة بيبقى ملزم بحاجتين: العقد اللي ماضيه مع شركته والعُرف العام اللي عليه أهل المهنة في المجتمع بتاعه. هل انت ممنوع من إعادة استخدام أي كود كتبته حتى الكود العام أو الـskeleton اللي انت عملته مثلا ولا أصلا دا مش ف دماغ أصحاب الشركة نفسهم لأنك في مصر يعني ومش كل المشاريع بيتعمل فيها شغل رهيب والعملية عندنا أبسط من كدا؟ ولا هي مشاريع ومشاريع، وفيه تيم كامل ممكن يشتغل علشان يعمل dao layer  معينة وخد فيها شهر ولا اتنين وانت تيجي ع الجاهز كدا تقوم واخدها كلها وتوفر شغل الشهر!
+       كل حالة على حسب العقد اللي بينك وبين الشركة وعلى حسب العُرف العام للمهنة.
+    id: '1754999197873114'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMxTXpnek16WXhOems0T1RZAM01qb3hOVEU0TmpneE9EYzUZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMxTkRRNE1EWXdNVEkxT0RNd056b3hOVEU0TnpNek1EUXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMxTkRrNU9URTVOemczTXpFeE5Eb3hOVEU0Tnpnek16STIZD
