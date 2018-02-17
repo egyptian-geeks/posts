@@ -56,21 +56,6 @@ comments:
     message: I think he's looking for something to embed in the library, not a general
       key/value store.
     id: '1164526450253728'
-  - created_time: '2016-06-19T07:32:26+0000'
-    from:
-      name: Ashraf Kaabi
-      id: '10156258607755921'
-    message: "Text file since is only key value wht u required  and you dont need
-      relational db for this simple task. \nIf you gonna go further with ur project
-      and need a db then sqlite is good choice for single use only."
-    id: '1164921160214257'
-  - created_time: '2016-06-19T07:37:11+0000'
-    from:
-      name: Ashraf Kaabi
-      id: '10156258607755921'
-    message: Btw u still can use json/xml locally. I really cant get why u want to
-      store only some values in relational db.
-    id: '1164923040214069'
   - created_time: '2016-06-19T10:10:16+0000'
     from:
       name: Mostafa Hussein

@@ -198,9 +198,6 @@ reactions:
   - id: '10155012329047676'
     name: Mohamed Ahmed Abada
     type: LIKE
-  - id: '10156258607755921'
-    name: Ashraf Kaabi
-    type: LIKE
   - id: '1821352131269578'
     name: Mohamed Fathy
     type: LIKE
@@ -255,16 +252,6 @@ comments:
       id: '10159750515025408'
     message: يا ديني o.O
     id: '968020743237634'
-  - created_time: '2015-07-04T08:56:49+0000'
-    from:
-      name: Ashraf Kaabi
-      id: '10156258607755921'
-    message: Codespaces been a victim for centralized everything under 1 hosting provider
-      which is AWS. if instead of paying the cost of backup solutions in AWS and throw
-      same money to another provider they would be still alive till now, and also
-      for any small to big company they should have they own inhouse backup server
-      which designed to pull backups from remote cloud/server
-    id: '968028043236904'
   - created_time: '2015-07-04T08:58:44+0000'
     from:
       name: Mohamed Elsherif

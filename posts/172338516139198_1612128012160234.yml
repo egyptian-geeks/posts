@@ -1,0 +1,33 @@
+---
+message: |-
+  دلوقتي أنا كنت بعمل web scraping بجيب داتا من أمازون, بستخدم Laravel + Goutte
+  دلوقتي أنا قدامي مشكلتين مش عارف أحلهم:
+  1- الRequest بطيء جداً, أعتقد انه بيحمل الصفحة كلها و بيحمل الصور و ملفات الcss كل مرة أعمل ريكويست.
+  2- مش دايما الداتا بتيجي, ساعات الresponse بيجيلي ناقص, تقريبا بيكون فيه asynchronous functions لسة مخلصتش مثلاً, ازاي اضمن ان المحتوي اللي أنا عايزه حمل أصلاً.
+from:
+  name: Mostafa Ellethy
+  id: '10214033822832549'
+type: status
+created_time: '2017-09-20T12:31:07+0000'
+updated_time: '2017-09-20T16:24:09+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1612128012160234/
+id: '172338516139198_1612128012160234'
+comments:
+  data:
+  - created_time: '2017-09-20T15:22:18+0000'
+    from:
+      name: Mohamed Galal
+      id: '10215046906109886'
+    message: جرب ده https://developer.yahoo.com/yql/
+    id: '1612256695480699'
+  - created_time: '2017-09-20T16:24:06+0000'
+    from:
+      name: Ahmed Eid
+      id: '762135870664322'
+    message: I guess you should us a headless browser like PhantomJS and you can disable
+      loading images
+    id: '1612302015476167'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl4TWpJMU5qWTVOVFE0TURZANU9Ub3hOVEExT1RJd09UUXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl4TWpNd01qQXhOVFEzTmpFMk56b3hOVEExT1RJME5qUTMZD

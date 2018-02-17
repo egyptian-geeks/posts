@@ -43,25 +43,6 @@ comments:
       id: '10155880598025170'
     message: 'Finally: Thank you for calling "Egyptian Geeks" support team :D'
     id: '806715539368156'
-  - created_time: '2014-08-30T10:42:42+0000'
-    from:
-      name: Ashraf Kaabi
-      id: '10156258607755921'
-    message: "first of all you must understand that the concept of CDN is depend on
-      site has multi geographical visitors. so I don't know who you target. as if
-      you building custom cdn is quite expensive. and is most used for videos hosting
-      site. but if is news or just html data and you have china in your concern as
-      visitors so then you need build distribution caching server in China.\n\nand
-      if what you looking is hardware availability to reduce cpu loads etc ... in
-      this case you need load balancer either with hardware or/and software \n\nand
-      if you looking for network solution high availability like 100% in this case
-      is more expensive and still need to be managed by network designer for each
-      datacenter you gonna to host at.\n\nyour question is really very open and I
-      believe is not  asp.net question or any developing related question. this what
-      network engineer and sys admin do. if you're not a sys admin you better work
-      with someone then who can advise you more and give you tailored solution on
-      demand of what you required"
-    id: '806726132700430'
   - created_time: '2014-08-30T17:05:18+0000'
     from:
       name: Adel K. Khalil
@@ -71,19 +52,10 @@ comments:
       simultaneously from a single point. Add the traffic associated with the CDN
       file.. You get the picture
     id: '806856272687416'
-  - created_time: '2014-08-30T23:02:24+0000'
-    from:
-      name: Ashraf Kaabi
-      id: '10156258607755921'
-    message: if you want to reduce load or making high availability you can make load
-      balancer or many other solutions. but when it comes to cdn so is same concept
-      but with multi location all over the world which is more expensive than single
-      location hosting
-    id: '806956189344091'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPREEyTnpFek5qWTVNelk0TXpRek9qRTBNRGt6T1RJME1Uaz0ZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPREEyT1RVMk1UZAzVNelEwTURreE9qRTBNRGswTXprM05EUT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPREEyT0RVMk1qY3lOamczTkRFMk9qRTBNRGswTVRnek1UZAz0ZD
 attachments:
   data:
   - description: i have a big website built by ASP.net and SQL server2014 and it's
@@ -95,7 +67,7 @@ attachments:
         src: https://external.xx.fbcdn.net/safe_image.php?d=AQCz3rmhv1AH6XyC&w=720&h=720&url=http%3A%2F%2Fcdn.sstatic.net%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3Dfde65a5a78c6&cfs=1&_nc_hash=AQDYMA7sVVUu6LYN
         width: 316
     target:
-      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F25551463%2Fhow-to-configure-large-website-pools-configurations-cdns&h=ATPL7xxHk5KBhSkVsHcNffyI7-SJUJlk8Kbg8WFK1UL_GjWn8ffVutV2NErEYas5xpf08jJYE3Hqn62kiGg34DtNlnuz-31XPX7rea6P_gBEBOHHiANrNQw_R1gMEhtHU1129mNfuADJ28bm&s=1
+      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F25551463%2Fhow-to-configure-large-website-pools-configurations-cdns&h=ATN-Ax2TEw6ajZxkr1xzAMqp5tK1rtpgqnLBq4ph_KtUmKUon2WVyPSTasl40icT4NLkRttUFCXKO3qzr67WMNZi9ZF13-pnEP8jNU0-YHfyYoXwpqlLGby-Gp0RH7dcGHkKW1oX8Xg4rI5o&s=1
     title: How to configure large website Pools, configurations,CDNs
     type: share
-    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F25551463%2Fhow-to-configure-large-website-pools-configurations-cdns&h=ATPL7xxHk5KBhSkVsHcNffyI7-SJUJlk8Kbg8WFK1UL_GjWn8ffVutV2NErEYas5xpf08jJYE3Hqn62kiGg34DtNlnuz-31XPX7rea6P_gBEBOHHiANrNQw_R1gMEhtHU1129mNfuADJ28bm&s=1
+    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F25551463%2Fhow-to-configure-large-website-pools-configurations-cdns&h=ATN-Ax2TEw6ajZxkr1xzAMqp5tK1rtpgqnLBq4ph_KtUmKUon2WVyPSTasl40icT4NLkRttUFCXKO3qzr67WMNZi9ZF13-pnEP8jNU0-YHfyYoXwpqlLGby-Gp0RH7dcGHkKW1oX8Xg4rI5o&s=1

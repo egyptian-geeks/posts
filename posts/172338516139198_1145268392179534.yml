@@ -154,6 +154,17 @@ comments:
       FollowSymLinks MultiViews\n    AllowOverride all\n        Order Allow,Deny\n
       \       Require all granted\n    Allow from all\n</Directory>"
     id: '1145477328825307'
+  - created_time: '2016-05-18T11:13:23+0000'
+    from:
+      name: Mostafa Ellethy
+      id: '10214033822832549'
+    message: |-
+      نفس المشكلة حصلت معايا, و اللي حل المشكلة هو:
+      Toggle WAMP from offline to online.
+      Disable any enabled firewall.
+      In httpd.conf add "Listen 80" without IP or Localhost.
+      I wish it works with you too :)
+    id: '1145496582156715'
   - created_time: '2016-05-18T13:18:09+0000'
     from:
       name: Alaa Attya Mohamed

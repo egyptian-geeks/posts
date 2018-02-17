@@ -6,7 +6,7 @@ from:
   id: '10160105091695314'
 type: status
 created_time: '2018-02-16T18:58:47+0000'
-updated_time: '2018-02-16T22:56:37+0000'
+updated_time: '2018-02-17T00:42:17+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1754972141209153/
 id: '172338516139198_1754972141209153'
 comments:
@@ -70,12 +70,12 @@ attachments:
         title: Stable
         type: option
       - target:
-          id: '1131976840275292'
-        title: Beta
-        type: option
-      - target:
           id: '414465468990431'
         title: Canary
+        type: option
+      - target:
+          id: '1131976840275292'
+        title: Beta
         type: option
       - target:
           id: '339697729869114'
