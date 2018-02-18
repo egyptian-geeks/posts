@@ -1,0 +1,115 @@
+---
+message: هو المكالمات ال encrypted بتاعت الفيسبوك او الواتساب هل من الممكن التصنت
+  عليها ؟ سواء ال voice أو ال text ؟؟
+from:
+  name: Ibrahim Abdelhady
+  id: '10155005083616400'
+type: status
+created_time: '2018-02-18T04:55:36+0000'
+updated_time: '2018-02-18T18:20:07+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1756785844361116/
+id: '172338516139198_1756785844361116'
+reactions:
+  data:
+  - id: '871016873079772'
+    name: Marwan Ahmed
+    type: LIKE
+  - id: '1825352097496736'
+    name: Ahmed El-Lithy
+    type: LIKE
+  - id: '10160030835075061'
+    name: Fady Morris Milad
+    type: LIKE
+  - id: '1636228423136367'
+    name: Hamza Mahmoud
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTFNVFEwTURJME5EWTRPakUxTVRnNU56ZAzFPRFU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlORGMyTnpZAeE5UZAzNPakUxTVRnNU16QXlOVGs2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2018-02-18T05:04:02+0000'
+    from:
+      name: Muhammad El-Shafie
+      id: '10215276255482572'
+    message: لا
+    id: '1756824171023950'
+  - created_time: '2018-02-18T05:04:03+0000'
+    from:
+      name: Hamza Mahmoud
+      id: '1636228423136367'
+    message: |-
+      لأ .. لو مكالمة ع الواتس او الماسنجر مينفعش التصنّت عليها
+
+      لو voice note ممكن ... أو بمعنى اصح كان ممكن من فترة و في باحث أمني تقريبا اسمه محمد عبد الباسط عمل التكنيك دا و كتبلهم feedback ، ماعرفش لسة ممكن وللا لأ
+    id: '1756824197690614'
+  - created_time: '2018-02-18T05:11:42+0000'
+    from:
+      name: Ibrahim Abdelhady
+      id: '10155005083616400'
+    message: كان فيه مقال إتنشر إن الحكومة المصرية بتتصنت على المكالمات المشفرة و
+      دة عمل مشكلة في جوجل و شركة  DigitalOcean نفسها كان حصل فيها مشكلة نتيجة إن
+      إلي كان بيلعب كان بيخبط  .. المقال أهو https://www.madamasr.com/ar/2017/01/31/feature/%D8%B3%D9%8A%D8%A7%D8%B3%D8%A9/%D8%B9%D9%8A%D9%86-%D9%81%D9%8A-%D8%AC%D9%87%D8%A7%D8%B2%D9%83-%D8%A7%D9%84%D8%AD%D9%83%D9%88%D9%85%D8%A9-%D8%AA%D8%B5%D8%B9%D8%AF-%D8%AD%D8%B1%D8%A8%D9%87%D8%A7-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%A7/
+    id: '1756832281023139'
+  - created_time: '2018-02-18T05:46:22+0000'
+    from:
+      name: Mohammed Shaker
+      id: '10215429459185138'
+    message: Till now. No way as I know.
+    id: '1756853554354345'
+  - created_time: '2018-02-18T06:05:34+0000'
+    from:
+      name: Emad Omara
+      id: '10155049224141583'
+    message: |-
+      Messenger call is not end to end encrypted. So theoretically they can!
+
+      However for WhatsApp, it is end to end encrypted and they can’t break it, but they can collect some metadata like the call type (video vs Audio), duration, etc!
+    id: '1756865484353152'
+  - created_time: '2018-02-18T09:14:38+0000'
+    from:
+      name: Ahmed Ibrahim
+      id: '10160008892470094'
+    message: https://www.schuermann.eu/2017/03/15/zrtp.html
+    id: '1757004991005868'
+  - created_time: '2018-02-18T15:31:48+0000'
+    from:
+      name: NourEddine Khaled
+      id: '319957501826978'
+    message: |-
+      المكالمات في الفيسبوك أعتقد مش End-to-end encrypted
+      يعني ممكن الفيسبوك يتصنت عليها
+    id: '1757342510972116'
+  - created_time: '2018-02-18T15:33:53+0000'
+    from:
+      name: Mahmoud Abuelwafa
+      id: '10213969809692064'
+    message: Data sent to a routing server before sending to  the other peer so data
+      can be saved some where
+    id: '1757344370971930'
+  - created_time: '2018-02-18T15:40:19+0000'
+    from:
+      name: Mosab Ibrahim
+      id: '10155855157936047'
+    message: "ينفع يسجلها، ونظريا ينفع يفك التشفير بعدين. \n\nالفكرة إن الـdecryotion
+      عملية هتكلف وقت وموارد وفلوس، فاقتصاديا هي حاجة شبه مستحيلة يعملها لكل الناس
+      طول الوقت.\n\nإنما لو في شخص بعينه مهم كفاية إنهم يصرفوا كل الموارد دي على إنهم
+      يعرفوا محتوى مكالماته، فهو ينفع."
+    id: '1757350370971330'
+  - created_time: '2018-02-18T15:44:42+0000'
+    from:
+      name: NourEddine Khaled
+      id: '319957501826978'
+    message: Use Wire wire.com or Signal signal.org
+    id: '1757354004304300'
+  - created_time: '2018-02-18T18:20:04+0000'
+    from:
+      name: Ibrahim Abdelhady
+      id: '10155005083616400'
+    message: متشكر جدا لكل من ساهم في الرد .. معلوماتكم اكثر من رائعة و فادتني كتير
+    id: '1757513634288337'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMxTmpneU5ERTNNVEF5TXprMU1Eb3hOVEU0T1RNd01qUXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMxTnpVeE16WXpOREk0T0RNek56b3hOVEU0T1RjNE1EQTAZD

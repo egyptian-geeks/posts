@@ -19,9 +19,6 @@ reactions:
   - id: '2263610936997643'
     name: Karim Mohamed
     type: LIKE
-  - id: '10159929493885634'
-    name: عمر أمين
-    type: LIKE
   - id: '1876092405757348'
     name: Ibrahem Mahmmoud
     type: LIKE
@@ -71,6 +68,14 @@ comments:
       id: '2096358110650589'
     message: شغال عندي عادي
     id: '1264775576895481'
+  - created_time: '2016-10-22T00:54:04+0000'
+    from:
+      name: Ashraf Kaabi
+      id: '10156258607755921'
+    message: DDOS attack on the DNS servers DynDNS which got twitter and github and
+      many others for 2 hours, so anyone have the sites working back then is mean
+      that they got their DNS cached
+    id: '1265122823527423'
   - created_time: '2016-10-22T08:12:59+0000'
     from:
       name: Amr Tarek

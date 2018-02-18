@@ -1,0 +1,79 @@
+---
+message: |-
+  Are unit tests worth the time for small and not complex methods ?
+  like basic CRUD functions
+from:
+  name: Kareem Muhammad
+  id: '1924463681203785'
+type: status
+created_time: '2018-02-18T08:37:49+0000'
+updated_time: '2018-02-18T16:26:35+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1756901741016193/
+id: '172338516139198_1756901741016193'
+reactions:
+  data:
+  - id: '1589650927785028'
+    name: محمود الحسيني
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlNakEwTURnNE5UVXhPakUxTVRnNU5EZAzRNakU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlNakEwTURnNE5UVXhPakUxTVRnNU5EZAzRNakU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2018-02-18T08:53:47+0000'
+    from:
+      name: Mohamed Ayman
+      id: '10211045513280796'
+    message: |-
+      When you are unit testing a method, you can't assume it's complex or not.
+      It should be treated as a black box.
+      Thus I believe they're important because as time goes on these methods may increase in complexity.
+      Projects are bound to change.
+    id: '1756990787673955'
+  - created_time: '2018-02-18T09:18:09+0000'
+    from:
+      name: Mohamed Moshrif
+      id: '1538447102877297'
+    message: اكيد مهمه. لو حد عدل ال schema بتاعه ال DB مثلا من غير ما يعدل ال CRUD
+      كود. هتعرف منين؟! من غير unit tests هتعرف في ال production و عليك خير
+    id: '1757006731005694'
+  - created_time: '2018-02-18T09:33:21+0000'
+    from:
+      name: Ahmed Amr Farid
+      id: '10155859538230336'
+    message: Usually the simplest and smallest program are neglected and that is why
+      they always provide security troubles...
+    id: '1757024727670561'
+  - created_time: '2018-02-18T09:59:57+0000'
+    from:
+      name: Ahmed Mostafa
+      id: '10213651746345144'
+    message: عن نفسى لما بشتغل بروجكت من غير test case  بتعب جدا لما كل شوية يحصل
+      updates  فى ال cycle  بتاعة الويب سايت و ايرورز تضرب من كل ناحية فى الأمن انك
+      تعملها أول بأول انت كده هتوفر الوقت اللى هتدور فيه على الإيرور
+    id: '1757040854335615'
+  - created_time: '2018-02-18T11:02:50+0000'
+    from:
+      name: Kareem Muhammad
+      id: '1924463681203785'
+    message: Ahmed Fouad Mohamed
+    id: '1757083864331314'
+  - created_time: '2018-02-18T16:25:45+0000'
+    from:
+      name: Mohammad Fouad
+      id: '10155755444625845'
+    message: |-
+      اسأل نفسك/ الكود ده بيتنفذ كتير ولا قليل.. كل ما الكود ده يتنده اكتر فى حياه الابليكيش يبقى مهم يبقى محتاج تست.
+      الكود اللى محدش بيستعمله يبقى مش مهم اوى
+    id: '1757395947633439'
+  - created_time: '2018-02-18T16:26:32+0000'
+    from:
+      name: Mohammad Fouad
+      id: '10155755444625845'
+    message: لأن انت هتقدر تغطى 60 فى الميه مثلا من الكود بالتست، انهى 60 هتختارهم؟
+    id: '1757396464300054'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMxTmprNU1EYzROelkzTXprMU5Ub3hOVEU0T1RRME1ESTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMxTnpNNU5qUTJORE13TURBMU5Eb3hOVEU0T1RjeE1Ua3kZD

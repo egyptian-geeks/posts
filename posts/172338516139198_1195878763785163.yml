@@ -22,6 +22,18 @@ comments:
       لا هي واحد جيجا ولا حاجة. لازم تعرف مكان ملف الاعدادات اللي بيستخدمه الويب سيرفر
       علشان تعرفه بص على خرج phpinfo
     id: '1195885473784492'
+  - created_time: '2016-08-04T12:54:35+0000'
+    from:
+      name: Fares Mehanna
+      id: '1703714063020384'
+    message: |-
+      Don't use -1
+      128MB is the memory allowed for each request for the server and if the request exceeded the limit the request terminate
+      if you have heavy application you should edit it to 256 or even 512
+      but give it unlimited memory is wrong because in that case if you have some bad code, some hacker can use it to take all your memory and crash your system
+      **you my have php memory leak check this : http://stackoverflow.com/questions/16068301/how-to-find-which-php-script-is-leaking-memory
+      http://stackoverflow.com/questions/561066/fatal-error-allowed-memory-size-of-134217728-bytes-exhausted-codeigniter-xml
+    id: '1195891073783932'
   - created_time: '2016-08-04T13:12:11+0000'
     from:
       name: Alaa Attya Mohamed

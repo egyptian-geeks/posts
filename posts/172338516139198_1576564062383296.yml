@@ -136,6 +136,18 @@ comments:
     message: I was gonna say they didn't support wildcard certificates but then I
       saw this https://letsencrypt.org/2017/07/06/wildcard-certificates-coming-jan-2018.html
     id: '1576836459022723'
+  - created_time: '2017-08-13T07:12:39+0000'
+    from:
+      name: Ashraf Kaabi
+      id: '10156258607755921'
+    message: "فيه فرق ما بين كل شهادة LetsEncrypt بيوفر بشكل مجاني هو كومدو حاليا
+      الـ Invidual Certificate\nاللى بتعتمد على Domain Validation فقط \nنفس الشهادة
+      ممكن تلاقيها بفلوس بسيطة لانها بتوفر تعويض مادي فى حالة تسريب اى بيانات لعميل
+      عندك اثناء استخدام الشهادة بس فيه شهادات تانية منها Corporate Validation ديه
+      لازم تدفع فيها فلوس ده اللى بيتأكد من مثلا موقع زي جوجل ديه شركة رسمية باوراق
+      رسمية و مقرها في العنوان الفلان الفلاني فهنا الضمان اكبر بكتير من انه يتأكد
+      انه انتا صاحب الدومين فقط!"
+    id: '1576908249015544'
   - created_time: '2017-08-13T08:18:22+0000'
     from:
       name: Mostafa Elsayh
