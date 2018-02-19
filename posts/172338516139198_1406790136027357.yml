@@ -55,6 +55,18 @@ comments:
       id: '10160159961475500'
     message: http://firebase.google.com
     id: '1406949872678050'
+  - created_time: '2017-03-02T22:37:45+0000'
+    from:
+      name: Mohamed Tawfik
+      id: '10204074940031522'
+    message: you need some implementation of publish/subscribe pattern .. some servers
+      publishes and others listen, you can use any technology to implement that ...
+      you can use real time database like firebase, or using sockets and back it up
+      with something like redis pubsub, or you can use channels in asp signalR but
+      you then going to implement some apis to be able to push data ... or you might
+      some other online service ... if your app is all like this you might think about
+      switching to event driven architecture
+    id: '1406962426010128'
   - created_time: '2017-03-02T22:41:14+0000'
     from:
       name: Hamdy Khalil

@@ -176,6 +176,26 @@ comments:
       10k databases. can you give us an idea for the problem and the solution that
       resulted in 10k databases ?
     id: '1499977170041986'
+  - created_time: '2017-06-01T15:15:36+0000'
+    from:
+      name: Mohamed Tawfik
+      id: '10204074940031522'
+    message: "بص انا مش فاهم قوي مشكلتك ... بس خليني اقولك اللي انا فاهمه ... انتا
+      عايز تبعت داتا بتاعة users من كذا service للويب سيرفيس بتاعتك ... صح كده ؟\nلو
+      انا كده فاهم صح يبقا يبقى في حل بسيط اسمه Message Broker\t\nدا ببساطة \nyou
+      can publis message with it ... and whoever should consume this message will
+      consume it\nخلينا نتخيل ان عندنا السيرفس بتاعتك اللي اسمها A\nو عندنا كمان 3
+      سيرفيس تانييين X1,X2,X3\nو انتا عايز دول يبعتوا للسيرفيس بتاعتك و العكس \ncase
+      1:\nservice (A) will send to x1,x2,x3\nthen you service will not send to each
+      (x) service individually, instead it will send to our message broker, and other
+      services will consume from message broker, no direct communication between services
+      \n\ncase 2:\nservices x1,x2,x3 wish to send to A\nthey will also publish message
+      but in different queue, in that queue only service (A) can consume messages\n\nكده
+      الشغل اللي انتا مفروض تعملوا انك تبعت الداتا بتعتك لmessage broker \nو كده انتا
+      مش محتاج تعرف اسم الجدول في الداتابيز في كل واحده ... ﻷنك انتا اللي هتبعت الرسائل
+      و هتستقبلها فلازم تخلي الفورمات بتاع الرساله واحد و بعدين كل سيرفيس تشوف هاتعمل
+      ايه بالرساله دي"
+    id: '1500233430016360'
   - created_time: '2017-06-01T20:58:36+0000'
     from:
       name: Mohamed Hassan

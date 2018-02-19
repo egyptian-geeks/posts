@@ -320,9 +320,6 @@ reactions:
   - id: '1808747862489591'
     name: Ahmed Magdy
     type: HAHA
-  - id: '1978009525783037'
-    name: Ahmed Magdy
-    type: HAHA
   - id: '1542148092559599'
     name: Ahmed Saeed
     type: HAHA
@@ -614,6 +611,9 @@ reactions:
   - id: '10156278361456019'
     name: Mohamed Tarek El Khatib
     type: LIKE
+  - id: '10155385273877648'
+    name: Hala Mohamed Youssef
+    type: HAHA
   - id: '1574530695959412'
     name: Mohamed A. Othman
     type: HAHA
@@ -753,7 +753,7 @@ reactions:
     name: Ahmed Mohamed Bakr
     type: LIKE
   - id: '10156138503626383'
-    name: Amr Hassan Reda
+    name: Amr Reda
     type: LIKE
   - id: '10155849815565250'
     name: Huda Mohammed Tantawy
@@ -872,9 +872,6 @@ reactions:
   - id: '1636144886482440'
     name: Afraym Nageh
     type: HAHA
-  - id: '1956997367648377'
-    name: Kareem M Ali
-    type: LIKE
   - id: '1641565752594739'
     name: Ahmed Aziz
     type: HAHA
@@ -1107,7 +1104,7 @@ comments:
     id: '1566191873420515'
   - created_time: '2017-08-02T20:59:00+0000'
     from:
-      name: Osama Ahmed Soliman
+      name: Osama Soliman
       id: '879271768900112'
     message: |-
       He used normal quotes instead of backtick quotes or the browser doesn't support ES2015

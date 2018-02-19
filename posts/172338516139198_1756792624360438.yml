@@ -7,11 +7,14 @@ from:
   id: '10155815987969718'
 type: status
 created_time: '2018-02-18T04:55:30+0000'
-updated_time: '2018-02-18T16:38:22+0000'
+updated_time: '2018-02-19T09:20:48+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1756792624360438/
 id: '172338516139198_1756792624360438'
 reactions:
   data:
+  - id: '871016873079772'
+    name: Marwan Ahmed
+    type: LIKE
   - id: '10155807929225700'
     name: Mohamed Samir Mohamed
     type: LIKE
@@ -23,7 +26,7 @@ reactions:
     type: LIKE
   paging:
     cursors:
-      before: TlRjMU1UQXdOams1T2pFMU1UZAzVOekU1TXpJNk1qVTBNRGsyTVRZAeE13PT0ZD
+      before: TVRBd01EQTFNVFEwTURJME5EWTRPakUxTVRrd056RXlNRFU2TWpVME1EazJNVFl4TXc9PQZDZD
       after: TVRBd01EQXlNRE01TmpNd016ZAzBPakUxTVRnNU5EZA3hPVFk2TWpVME1EazJNVFl4TXc9PQZDZD
 comments:
   data:
@@ -45,7 +48,39 @@ comments:
       الحل\n\n سهر تتشقلب انت وفريق العمل\nوحاول تبقي الدنيا كلها علي طبقات layers
       بالعربي عشان تعرف تسيطر علي الفريق صح \nومتقبلش مشاريع جديدة"
     id: '1757405480965819'
+  - created_time: '2018-02-19T05:03:46+0000'
+    from:
+      name: Mohamed Hassan
+      id: '10159847595310510'
+    message: انك تعمل تيم صغير و تقسم التاسكات عليهم و انت تعمل لهم management
+    id: '1757969827576051'
+  - created_time: '2018-02-19T08:32:59+0000'
+    from:
+      name: Mohammad Hosny
+      id: '10155052403705843'
+    message: تشتغل agile scrum و ممكن تعمل out source حسب الميزانية
+    id: '1758092720897095'
+  - created_time: '2018-02-19T09:20:47+0000'
+    from:
+      name: Mohamed Abd Elhalim
+      id: '10214110497771678'
+    message: |-
+      بص يا أيمن بخصوص ماركت Themeforest تحديدا او شغل الـ WordPress عموما انت هتعمل التالى وخصوصا انت بتقول التيم صغير وكل واحد بيشتغل فى نقطة معينة غير التانى:
+      الحل زى ما قولتلك قبل كده هوا انك تفصل كل شغلك كـ plugins ويبقى الـ Theme فقط عبارة عن الـ styles، بمعنى انت هتتعب شوية بس فى انك تعمل التالى:
+      - Theme base
+      وده يحتوى على اساسيات اى theme هيكون معاك على طول
+      - Plugins
+      ودى هتكون فيها كل الـ features الخاصة بكل جزء انت عايزه يكون فى الـ Theme
+      وبالتالى عملية الشغل على اى theme جديد هتكون بسيطة جدا جدا لانك عندك الاساس وعندك الاضافات اللى انت محتاجها + لما تحب تعمل تحديث لاى theme انت فعليا هتكون بتحدث الاضافات اللى موجودة فى كل الـ themes يبقى انت كده قدرت تحدث كل الـ themes مرة واحدة بدون اى مجهود + تطوير الاضافات بشكل منفصل هيكون أريح ليك عكس لما تشتغل على theme يحتوى على كل الـ feautres + الـ theme هيكون خفيف يحتوى فقط على اللى العميل محتاجه، بمعنى لما يجى يعمل import لـ demo معين هيعمل install للاضافات الخاصة بالـ demo ده فقط وبكده الـ theme بتاعك بقى خفيف و extensible عن طريق الاضافات + الراجل اللى فى التيم عندك وشغال على التصميم فقط هيشتغل على الـ theme فقط + اللى شغال على الـ features هيشتغل على الاضافات
+
+      الملخص: theme base + plugins هتقدر تتحكم فى شغلك + التيم
+      ونقطة الدعم الفنى: انت فعليا هتكون بتقدم دعم فنى لكل الـ themes فى وقت واحد ليه؟ لانهم كل بيستخدموا نفس الاضافات صح؟ وبالتالى تطوير الاضافة من theme معين هيطور باقى الـ themes مباشرة
+
+      وطبعا تقدر تتحكم فى عملية ادارة التيم ببرامج كتير زى ما الناس قالتلك فوق
+
+      بالتوفيق
+    id: '1758126210893746'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMxTmprNU5UQTVORE0wTURFNU1Ub3hOVEU0T1RRME16ZAzMZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMxTnpRd05UUTRNRGsyTlRneE9Ub3hOVEU0T1RjeE9UQXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMxT0RFeU5qSXhNRGc1TXpjME5qb3hOVEU1TURNeU1EUTMZD

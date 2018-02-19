@@ -102,6 +102,21 @@ comments:
       ممكن يتعمل نظريا لكن عمليا محتاج الدومين domain بتاعك يكون عددعناصره محدوده
       لانك هتعمل علاقات بين كل عنصر وباقي العناصر يعني تقريبا كده هتحتاج تعرف N!"
     id: '1588193974553638'
+  - created_time: '2017-08-24T04:02:40+0000'
+    from:
+      name: Mohamed Tawfik
+      id: '10204074940031522'
+    message: |-
+      I do not understand very well the question, but I read some of the answers and   what I can say as much as I understand:
+
+      1- we are the ones who agreed to make the distance between two number x,y is |x-y| , if you want to make other metric it is up to you, there is math subject called "metric spaces" it discuss the idea metrics and applying them to "sets"
+
+      2- counting is by definition is one-to-one map with subset of natural numbers, unless you need to do something else other than counting, you need to stick to normal way of doing it .
+
+      3- if you want to redefine the adding operation, this is also what we agreed to use, and there are nothing prevents you from redefine it with function that satisfy your needs, but keep in mind Integers is "group" under (+), we used to that, so try to define an operation that keeps that structure, unless you break it intentionally .
+
+      I know this is very general answer and might not solve your problem, but i think it shows you the paths you might need walk down
+    id: '1588321067874262'
   - created_time: '2017-08-24T08:38:07+0000'
     from:
       name: Ahmed Mahmoud
