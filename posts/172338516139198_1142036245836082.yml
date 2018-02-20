@@ -50,6 +50,9 @@ reactions:
   - id: '744364165648487'
     name: Ahmed Elsayed Shahawi
     type: LIKE
+  - id: '1978009525783037'
+    name: Ahmed Magdy
+    type: LIKE
   - id: '10210172319016618'
     name: Mohamed Hagras
     type: LIKE
@@ -104,6 +107,14 @@ comments:
     message: You need a stemmer and one of the the best is the one developed by Khoja
       http://zeus.cs.pacificu.edu/shereen/research.htm#stemming
     id: '1142048105834896'
+  - created_time: '2016-05-12T10:27:24+0000'
+    from:
+      name: Basma Osman
+      id: '10155458642069624'
+    message: this can't be done with regular coding it is some sort of ML algorithms
+      not the  NLP  it is stemming and there is a lot of libraries for english language
+      i don;t know if there any for Arabic
+    id: '1142053232501050'
   - created_time: '2016-05-12T10:33:15+0000'
     from:
       name: Eman Abbas

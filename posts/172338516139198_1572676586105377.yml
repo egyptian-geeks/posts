@@ -37,6 +37,9 @@ reactions:
   - id: '10156115350739764'
     name: Mahmoud Tantawy
     type: LIKE
+  - id: '1978009525783037'
+    name: Ahmed Magdy
+    type: LIKE
   - id: '10155903911855943'
     name: Ahmed Soliman
     type: LIKE
@@ -58,6 +61,12 @@ comments:
       id: '10215087338480942'
     message: "Emad Elsaid \nانت كنت اتكلمت علي حاجه زي كده ف who is"
     id: '1572677466105289'
+  - created_time: '2017-08-08T19:34:17+0000'
+    from:
+      name: Ahmed Magdy
+      id: '1978009525783037'
+    message: حاجات زي كدا ف NLP :3
+    id: '1572677996105236'
   - created_time: '2017-08-08T19:34:25+0000'
     from:
       name: Ali Abd Elrahman
@@ -106,6 +115,14 @@ comments:
       I suggest you to use the NLTK library which has a pre-trained machine learning classifiers, models, ..etc.
       In order to achieve most of NLP functions.
     id: '1572713496101686'
+  - created_time: '2017-08-08T21:52:21+0000'
+    from:
+      name: Basma Osman
+      id: '10155458642069624'
+    message: NLP science  there is many libraries for English  language  but Arabic
+      isn't much as English . If you post on big data group  you will find ones who
+      have experience in the world of  NLP
+    id: '1572760196097016'
   - created_time: '2017-08-08T21:56:37+0000'
     from:
       name: Mohamed Taha
