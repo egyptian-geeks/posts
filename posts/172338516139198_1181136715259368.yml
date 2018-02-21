@@ -82,6 +82,9 @@ reactions:
   - id: '1990508241211666'
     name: Mohamed Shaheen
     type: LIKE
+  - id: '1061734923967862'
+    name: Amira Mohamed
+    type: LIKE
   - id: '1516489515124702'
     name: Hossam EL Sharkawy
     type: LIKE
@@ -124,6 +127,12 @@ comments:
       id: '10159960198215788'
     message: Alaa Attya Mohamed
     id: '1181147401924966'
+  - created_time: '2016-07-13T17:59:24+0000'
+    from:
+      name: Muhammad Hasan
+      id: '2033909946622355'
+    message: VIVA angular :D
+    id: '1181148781924828'
   - created_time: '2016-07-13T18:03:56+0000'
     from:
       name: Taha Amin
@@ -233,6 +242,15 @@ comments:
       id: '10156077256184116'
     message: سؤال، ايه السبب اللي خلاكم تستخدموا React بمعنى اخر، ايه طبيع الApplication
     id: '1181560491883657'
+  - created_time: '2016-07-14T09:11:52+0000'
+    from:
+      name: Muhammad Hasan
+      id: '2033909946622355'
+    message: |-
+      Amr AbuMuslim Hello Amr, let's clear something out, we are talking about react not react native.
+      When comparing react to angular or any two technologies...  u can't just say react is better or angular is better, because the answer is always "IT DEPENDS".
+      Another point that really tickles my logic is when people talk about performance as if it's the framework responsibility. It goes the other way around, you are the one who control the performance of your app, as for complexity,  Angular is awaaaay more complicated than react, true,becauuuuuuuse it's a fraaaaaaamewoooooork not a "library", it has tons of tools and concepts that helps u build high performance, scalable and modular architecture. missing out on some tools might be a downside to the entire app architecture and so performance.
+    id: '1181570838549289'
   - created_time: '2016-07-14T12:57:47+0000'
     from:
       name: Mohamed A. Alqrwash
@@ -271,7 +289,7 @@ attachments:
         src: https://external.xx.fbcdn.net/safe_image.php?d=AQADGON4Fwy2HOCZ&w=720&h=720&url=http%3A%2F%2Ffacebook.github.io%2Freact-native%2Fimg%2Fopengraph.png%3F2&cfs=1&_nc_hash=AQBqk2CDioC4uola
         width: 400
     target:
-      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgoo.gl%2FGih6M7&h=ATNeKiTMqGv98yspKD5gOUjLxO1wftlzU8atP4O9qnZNwXBLKhSlHUH4gIbWEQ6_-7fWB012Eyc1wUAv7ELdyswQa5DZ5xhb4ApdUC_tOZBrKpNx4Khx9Q3bqNX7X-GK&s=1
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgoo.gl%2FGih6M7&h=ATMuLGDCOoJoCmqFZNFglKFNNrX683Ma-Pu41fIDFPva06sfpdBips79s9JFRVIafFa_-8Dt4R5aqQWW3d7QryDuIPBLPOR2-Mq8qkjSZipupSaBCrxGx6rZ_MQaGvBYv-hYahapwF2K74RK&s=1
     title: React Native | A framework for building native apps using React
     type: share
-    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgoo.gl%2FGih6M7&h=ATNeKiTMqGv98yspKD5gOUjLxO1wftlzU8atP4O9qnZNwXBLKhSlHUH4gIbWEQ6_-7fWB012Eyc1wUAv7ELdyswQa5DZ5xhb4ApdUC_tOZBrKpNx4Khx9Q3bqNX7X-GK&s=1
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgoo.gl%2FGih6M7&h=ATMuLGDCOoJoCmqFZNFglKFNNrX683Ma-Pu41fIDFPva06sfpdBips79s9JFRVIafFa_-8Dt4R5aqQWW3d7QryDuIPBLPOR2-Mq8qkjSZipupSaBCrxGx6rZ_MQaGvBYv-hYahapwF2K74RK&s=1

@@ -348,9 +348,6 @@ reactions:
   - id: '10215947438979022'
     name: Mohamed Ramdan
     type: LIKE
-  - id: '1585587958161025'
-    name: Laila Al-Ashkar
-    type: HAHA
   - id: '10159926835745593'
     name: Yehia Shouman
     type: LIKE
@@ -453,14 +450,7 @@ comments:
       after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEyTXpBeE56UTFNemN6TnprMU9Eb3hORGt5T1RVeU56WTAZD
 attachments:
   data:
-  - description: "Just found this Easter egg in the code \U0001F602 مش قااااادر والله
-      العظيم"
-    media:
-      image:
-        height: 48
-        src: https://scontent.xx.fbcdn.net/v/t1.0-9/17990988_10213047926737109_118855014216206034_n.jpg?oh=bf445352e10c8b37c973f894c0a0a76a&oe=5B15DA54
-        width: 345
-    target:
-      url: https://www.facebook.com/photo.php?fbid=10213047926737109&set=p.10213047926737109&type=3
-    type: photo
-    url: https://www.facebook.com/photo.php?fbid=10213047926737109&set=p.10213047926737109&type=3
+  - description: This attachment may have been removed or the person who shared it
+      may not have permission to share it with you.
+    title: Attachment Unavailable
+    type: unavailable

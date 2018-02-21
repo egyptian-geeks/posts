@@ -22,6 +22,15 @@ comments:
     message: لازم يتحول RTL و دى حاجة سهولتها او صعوبتها متوقفة على مستوى الكود اللى
       مكتوب بيه الـ template
     id: '1221427441230295'
+  - created_time: '2016-09-03T01:06:30+0000'
+    from:
+      name: Muhammad Hasan
+      id: '2033909946622355'
+    message: |-
+      1- There are tons of admin themes support RTL, at least the best ones do.
+      2- It depends on many factor, your user *not customer*, project budget, customer's expectations, From my experience, it doesn't matter really if ur app is 100% RTL or not at all, the main concern however, is u have to make the UI explanatory... a prove is that most of mobile apps, keep their layout when switching to arabic.
+      If u r using css framework like UIkit or bootstrap, U might wanna consider adding the style : direction:rtl; to the body element and see the magic n just fix the ugly stuff... again it deosn't really matter, your customer is not a desginer and probably gonna accept whatever you give him as long as it's simple to use and explanatory.
+    id: '1221441891228850'
   - created_time: '2016-09-03T01:14:39+0000'
     from:
       name: Nader Al-Sharkawy
