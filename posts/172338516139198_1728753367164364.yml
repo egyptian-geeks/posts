@@ -18,13 +18,19 @@ from:
 type: photo
 picture: https://scontent.xx.fbcdn.net/v/t1.0-0/p130x130/26814453_10154854564622723_1040439648671811677_n.jpg?oh=11b31cf64a1aea8ac998bfe1ec98a29c&oe=5B1A91EF
 created_time: '2018-01-21T17:37:23+0000'
-updated_time: '2018-02-15T16:14:44+0000'
+updated_time: '2018-02-22T17:53:28+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1728753367164364/
 shares:
   count: 10
 id: '172338516139198_1728753367164364'
 reactions:
   data:
+  - id: '1970818952958553'
+    name: Mohamed Hamdi
+    type: LOVE
+  - id: '1769679443064146'
+    name: Gerges Bernaba
+    type: LIKE
   - id: '871016873079772'
     name: Marwan Ahmed
     type: LIKE
@@ -177,7 +183,7 @@ reactions:
     type: LIKE
   paging:
     cursors:
-      before: TVRBd01EQTFNVFEwTURJME5EWTRPakUxTVRnM09UQTVNRGs2TWpVME1EazJNVFl4TXc9PQZDZD
+      before: TVRBd01EQXdPVEUwTURNM05qUXhPakUxTVRrek1qSTRPREE2TnpnNE5qUTRNRE0zT1RFek16RXkZD
       after: TnpBeU5UazFPVFF5T2pFMU1UWTFOVGN5TnpjNk1qVTBNRGsyTVRZAeE13PT0ZD
 comments:
   data:
@@ -450,10 +456,29 @@ comments:
       id: '915399865296564'
     message: I'm looking for Docker Speaker in Egypt
     id: '1753832131323154'
+  - created_time: '2018-02-22T14:33:55+0000'
+    from:
+      name: Hazem El-kilisly
+      id: '10154871067072723'
+    message: |-
+      Guys, we will have the Meetup this Saturday 24th isAlah as planned but we are running late in creating the Facebook event.. We will publish it tonight isAlah containing the detailed Agenda.
+
+      Mainly we'll have 4 talks, 2 of them are by 2 of the Rails gurus here in Egypt: Omar Mekky & Ramy Wafa  and it'll be at Robusta's headquarters in 5th Settlement.
+      Sorry for being late publishing the Facebook event.
+      Please like this comment in case you are attending. Don't miss it out it'll be great and an amazing opportunity for networking ;)
+    id: '1761447043894996'
+  - created_time: '2018-02-22T17:53:24+0000'
+    from:
+      name: Hazem El-kilisly
+      id: '10154871067072723'
+    message: |-
+      Guys please state your attendance in the event:
+      https://www.facebook.com/events/2027117730842389/
+    id: '1761612620545105'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGN5T1RFeU1UVXlNRFEyTURnNE1qb3hOVEUyTlRVM05UUTMZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMxTXpnek1qRXpNVE15TXpFMU5Eb3hOVEU0TmpneE56TTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMyTVRZAeE1qWXlNRFUwTlRFd05Ub3hOVEU1TXpJeU1EQTAZD
 attachments:
   data:
   - description: "For all Ruby developers currently in Egypt:\n\nWho would be interested

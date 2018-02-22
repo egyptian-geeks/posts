@@ -1,0 +1,70 @@
+---
+message: "Trying to import SQL file to phpmyadmin but facing 'POST Content-Length
+  Limitation ' error due to the file size. \n\nI am using Valet & Homebrew on Mac,
+  and Bigdump to import.\nAfter searching I tried to \n- edit 'upload_max_filesize'
+  at (/etc/php.ini )\n- restart all brew services \n- restart valet \nbut no avail.
+  \nNot sure if this is the right path or not to edit this file\n___________________________________\nAny
+  help will be appreciated, Thank you ."
+link: https://www.facebook.com/photo.php?fbid=783489268493128&set=gm.1488463957859974&type=3
+from:
+  name: Ahmed M. Elgendy
+  id: '922065437968843'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/18527597_783489268493128_6026173548404099705_n.jpg?oh=c17223a9783fce2a64688172194426bb&oe=5B01697E
+created_time: '2017-05-20T15:00:22+0000'
+updated_time: '2017-05-20T15:35:27+0000'
+name: Photos from Ahmed M. Elgendy's post
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1488463957859974/
+id: '172338516139198_1488463957859974'
+comments:
+  data:
+  - created_time: '2017-05-20T15:01:58+0000'
+    from:
+      name: Mahmoud Hossam
+      id: '1360912124012585'
+    message: Why can't you just use the mysql cli client directly?
+    id: '1488464791193224'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE0T0RRMk5EYzVNVEU1TXpJeU5Eb3hORGsxTWpreU5URTUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE0T0RRMk5EYzVNVEU1TXpJeU5Eb3hORGsxTWpreU5URTUZD
+attachments:
+  data:
+  - subattachments:
+      data:
+      - media:
+          image:
+            height: 310
+            src: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/18527124_783489268493128_6026173548404099705_o.jpg?oh=f2e20f27248252bee0afea7d6d55d69b&oe=5B141AF0
+            width: 720
+        target:
+          id: '783489268493128'
+          url: https://www.facebook.com/photo.php?fbid=783489268493128&set=gm.1488463957859974&type=3
+        type: photo
+        url: https://www.facebook.com/photo.php?fbid=783489268493128&set=gm.1488463957859974&type=3
+      - media:
+          image:
+            height: 340
+            src: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/18527063_783489948493060_728422823443661861_o.jpg?oh=fcecf9741e5467f10d1c9e14b605303d&oe=5B0797FB
+            width: 720
+        target:
+          id: '783489948493060'
+          url: https://www.facebook.com/photo.php?fbid=783489948493060&set=gm.1488463957859974&type=3
+        type: photo
+        url: https://www.facebook.com/photo.php?fbid=783489948493060&set=gm.1488463957859974&type=3
+      - media:
+          image:
+            height: 166
+            src: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/18556230_783490068493048_4237390805011357088_n.jpg?oh=d66d9e536ce68a0d98db92be09b24381&oe=5B089092
+            width: 720
+        target:
+          id: '783490068493048'
+          url: https://www.facebook.com/photo.php?fbid=783490068493048&set=gm.1488463957859974&type=3
+        type: photo
+        url: https://www.facebook.com/photo.php?fbid=783490068493048&set=gm.1488463957859974&type=3
+    target:
+      id: '1488463957859974'
+      url: https://www.facebook.com/media/set/?set=pcb.1488463957859974&type=1
+    title: Photos from Ahmed M. Elgendy's post
+    type: album
+    url: https://www.facebook.com/media/set/?set=pcb.1488463957859974&type=1

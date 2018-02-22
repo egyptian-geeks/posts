@@ -57,9 +57,6 @@ reactions:
   - id: '10155518494646656'
     name: Amir Amgad
     type: HAHA
-  - id: '2017184751626866'
-    name: Ayman Sharaf
-    type: LIKE
   - id: '10155041733491857'
     name: Mohamed Essam
     type: HAHA
@@ -96,6 +93,9 @@ reactions:
   - id: '1788801214484268'
     name: Abdelrhman Mohamed
     type: HAHA
+  - id: '922065437968843'
+    name: Ahmed M. Elgendy
+    type: LIKE
   - id: '10155019881421751'
     name: Khalid Abdallah
     type: LIKE
@@ -438,16 +438,10 @@ comments:
       id: '1379049978873556'
     message: I would put it in an infinite loop :D
     id: '1463011030405267'
-  - created_time: '2017-04-23T13:06:04+0000'
-    from:
-      name: Ayman Sharaf
-      id: '2017184751626866'
-    message: Mohammed Elnady حسيتك انتا اللي كاتب :D
-    id: '1463017453737958'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEyTWpZANU56WXhNRFF6TmpZAd09Ub3hORGt5T1RJMk9UTXgZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEyTXpBeE56UTFNemN6TnprMU9Eb3hORGt5T1RVeU56WTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEyTXpBeE1UQXpNRFF3TlRJMk56b3hORGt5T1RVeU1UYzAZD
 attachments:
   data:
   - description: This attachment may have been removed or the person who shared it

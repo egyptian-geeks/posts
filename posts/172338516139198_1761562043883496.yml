@@ -1,0 +1,41 @@
+---
+message: "جربت الـ api بتاعتى مكتوب بال php  على aws aurora ألاقى ال response time
+  من 1981ms الى 2280ms !!!\nوبعدين اجرب digital ocean بنفس ال resources ألاقى ال response
+  time حوالى  150ms بس !!! \nالداتا كانت بسيطة جدا حوالى 4 rows بس!\nحد عنده فكره
+  عن aws aurora ؟ مع ان بحثت كتير ولاقيت ناس كتير بتشتكى من الموضوع ده و جربت حاجات
+  كتير فى اعدادات ال instance بتاع aws وبرده نفس المشكله"
+from:
+  name: Ahmed M. Anan
+  id: '2036289513285931'
+type: status
+created_time: '2018-02-22T17:48:20+0000'
+updated_time: '2018-02-22T21:52:14+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1761562043883496/
+id: '172338516139198_1761562043883496'
+comments:
+  data:
+  - created_time: '2018-02-22T20:24:46+0000'
+    from:
+      name: Mohammad Fouad
+      id: '10155755444625845'
+    message: In the case of DO, was the DB on the same machine as the php server?
+    id: '1761730000533367'
+  - created_time: '2018-02-22T20:56:34+0000'
+    from:
+      name: Ahmed Metwally
+      id: '175379436568373'
+    message: انا اشتغلت مع aws aurora فترة طويلة واقدر اقولك ان عمرها ما قصرت معايا
+      فى اى حاجة
+    id: '1761750530531314'
+  - created_time: '2018-02-22T21:51:33+0000'
+    from:
+      name: Sherif Alaa Ismael
+      id: '10156218293834924'
+    message: انا مجربتش aurora لكن حصل معايا نفس المشكلة لما كانت ال instance علي
+      ِaws في location america لما جربت digital ocean في west europe ال response كان
+      اقل بكتير
+    id: '1761789853860715'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMyTVRjek1EQXdNRFV6TXpNMk56b3hOVEU1TXpNeE1EZAzMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMyTVRjNE9UZAzFNemcyTURjeE5Ub3hOVEU1TXpNMk1qazAZD

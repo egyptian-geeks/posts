@@ -8,11 +8,14 @@ from:
   id: '10160388991030144'
 type: status
 created_time: '2018-02-21T20:02:35+0000'
-updated_time: '2018-02-21T21:26:00+0000'
+updated_time: '2018-02-22T12:32:55+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1760302287342805/
 id: '172338516139198_1760302287342805'
 reactions:
   data:
+  - id: '10156165643313420'
+    name: Tony Raoul Iscaros
+    type: LIKE
   - id: '10155182529813309'
     name: Mohamed El-Sayed
     type: LIKE
@@ -54,7 +57,7 @@ reactions:
     type: LIKE
   paging:
     cursors:
-      before: TmpnMk9Ua3pNekE0T2pFMU1Ua3lOVE16TmpZANk1qVTBNRGsyTVRZAeE13PT0ZD
+      before: TlRNeU1qQTROREU1T2pFMU1Ua3lOVFU0TVRnNk1qVTBNRGsyTVRZAeE13PT0ZD
       after: TVRBd01EQTFNVEEzTnpRMk1EUTFPakUxTVRreU5ETTJOekU2TWpVME1EazJNVFl4TXc9PQZDZD
 comments:
   data:
@@ -66,7 +69,54 @@ comments:
       the project, so get familiar with the project and its code, the u pic small
       issues and so on. Also u can start by contributing in writing the documentation.
     id: '1760765930629774'
+  - created_time: '2018-02-22T07:14:04+0000'
+    from:
+      name: Amr Medhat
+      id: '10155426916839779'
+    message: |-
+      Pick a project you are familiar with / using a lot / passionate about
+
+      Read its full documentation and how to contribute guide
+
+      Join its forum / IRC / slack / dev group
+
+      Download the code and skim it to understand its high level structure and architecture
+
+      Check the bug list at its issue tracking tool
+
+      Pick a bug and fix it following their coding standards
+
+      Sumbit a patch / pull request and speak up
+
+      Once your fixes get accepted and you gain respect by the community, check feature requests and new stories. ..
+
+      Finally you can now submit your own new feature suggestions as well
+    id: '1761136323926068'
+  - created_time: '2018-02-22T09:52:04+0000'
+    from:
+      name: Mohammed ElBalkini
+      id: '10159762148090562'
+    message: "I think Github is your way to start, check the open issues tab.\n- Fork
+      the repo first, try solve the issue, reply with your solution within the issue
+      thread linking to your fork.\n- connect with the project contributors to understand
+      if they can merge a pull request including your issue resolve. \n- subscribe
+      to notifications for the issues you see you can resolve.\n- upon getting recognition
+      from your continuous contribution, you will definitely be invited to the team
+      talks, slack, telegram etc."
+    id: '1761230527249981'
+  - created_time: '2018-02-22T12:29:35+0000'
+    from:
+      name: Mustafa Dagher
+      id: '10215560476549083'
+    message: https://blog.kentcdodds.com/first-timers-only-78281ea47455
+    id: '1761336247239409'
+  - created_time: '2018-02-22T12:32:51+0000'
+    from:
+      name: Mustafa Dagher
+      id: '10215560476549083'
+    message: http://www.firsttimersonly.com
+    id: '1761338423905858'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMyTURjMk5Ua3pNRFl5T1RjM05Eb3hOVEU1TWpRNE16VTMZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMyTURjMk5Ua3pNRFl5T1RjM05Eb3hOVEU1TWpRNE16VTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMyTVRNek9EUXlNemt3TlRnMU9Eb3hOVEU1TXpBeU56Y3kZD

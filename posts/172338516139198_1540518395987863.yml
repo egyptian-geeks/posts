@@ -79,13 +79,6 @@ comments:
       be \n\nfunction(a) {\n// if elements of a are 2,4,6,8,9, 15\nreturn ['4','16','64']
       \n}"
     id: '1540528925986810'
-  - created_time: '2017-07-07T21:52:37+0000'
-    from:
-      name: Mohamed El Zarei
-      id: '1174265536041152'
-    message: I think it's search for powers of 2 in array A [2^1, 2^2, 2^3] and outputs
-      it's square in ArrayB [4, 16, 64]
-    id: '1540529099320126'
   - created_time: '2017-07-07T21:53:05+0000'
     from:
       name: Tarek Ahmed

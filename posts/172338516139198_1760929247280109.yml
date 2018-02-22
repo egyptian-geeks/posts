@@ -1,0 +1,152 @@
+---
+message: |-
+  هو ايه فكره حاجه زي كده
+  انا عارف ان فيه AR based on GPS
+  بس انا محتاج افهم فكرتها و تقريبا كان في بدايه الفيديو شغل اللعبه ب controller .. فهل نزل كونترولر ل AR glasses
+  https://m.facebook.com/story.php?story_fbid=1559369137451435&id=139473302774366
+link: https://www.facebook.com/vrscout/videos/1559369137451435/
+from:
+  name: Ahmed Khalifa
+  id: '1999765416908747'
+type: video
+picture: https://scontent.xx.fbcdn.net/v/t15.0-10/s130x130/27600170_1559372350784447_2557262500571643904_n.jpg?oh=02a34b7737b75ac2e22445c356693118&oe=5B0A2EA5
+created_time: '2018-02-22T04:58:20+0000'
+updated_time: '2018-02-22T10:02:43+0000'
+name: VRScout
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1760929247280109/
+shares:
+  count: 4
+id: '172338516139198_1760929247280109'
+reactions:
+  data:
+  - id: '10208624519769836'
+    name: Zeyad Yasser
+    type: LIKE
+  - id: '10215846341376636'
+    name: Hussam Salah
+    type: LIKE
+  - id: '431530817266672'
+    name: Mostafa Saeed
+    type: LIKE
+  - id: '1960483417534359'
+    name: Salma Abdel Hamed
+    type: LIKE
+  - id: '2205214806159035'
+    name: Abdo Elaalmy
+    type: LIKE
+  - id: '542552562780031'
+    name: Ahmed Younis
+    type: WOW
+  - id: '10156084615419334'
+    name: Ahmed Mohamed Reda
+    type: LIKE
+  - id: '1030490070423568'
+    name: Omar Zaghlol
+    type: WOW
+  - id: '607065929639010'
+    name: Khalid Khedr
+    type: LIKE
+  - id: '10213394268464462'
+    name: Mohamed A. Alqrwash
+    type: LIKE
+  - id: '802499643272475'
+    name: Mohamad Shater
+    type: LIKE
+  - id: '1412638862178076'
+    name: Ibrahem Hamdy
+    type: LIKE
+  - id: '1714940015236036'
+    name: محمد مشحوت
+    type: LIKE
+  - id: '10155098691496316'
+    name: Ehab Yosry Amer
+    type: LIKE
+  - id: '10159926835745593'
+    name: Yehia Shouman
+    type: LIKE
+  - id: '1809120665829186'
+    name: Ahmed El Sokkary
+    type: LIKE
+  - id: '546598029039266'
+    name: Tarek Badr
+    type: LIKE
+  - id: '2184614908219238'
+    name: Mohamed M-Gomaa
+    type: LIKE
+  - id: '1903520773022480'
+    name: MohaMed Omran
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRneE5URTRORE01TlRveE5URTVNek15TnpNeE9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBd01EQXdPVE0zTWpjMk5USXlPakUxTVRreU56WXdNak02TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2018-02-22T05:14:37+0000'
+    from:
+      name: Mohammad Desouky
+      id: '838637592985111'
+    message: "بص اكيد معتمد على base axis system و movements sensors \nاكيد مش GPS
+      خاالص"
+    id: '1761067717266262'
+  - created_time: '2018-02-22T05:29:39+0000'
+    from:
+      name: Mohammed Salah Hamed
+      id: '10156113417821031'
+    message: Gyroscope i think since its in door's also the camera, gps work more
+      if you integrated a map in The mix .... Location services come in handy
+    id: '1761078190598548'
+  - created_time: '2018-02-22T07:13:40+0000'
+    from:
+      name: Mohammed ElBalkini
+      id: '10159762148090562'
+    message: Simply the concept is by first anchoring a point. As per the new ARKit
+      in IOS 11 this is pretty simple. Then the second thing is calculating the projection
+      matrix and transformation matrix to define the 6 degrees of freedom. Which are
+      the camera position in X, Y, Z axis and the roll, yaw and pitch. By getting
+      these 6 values you can render any scene and manipulate results depending on
+      these values.
+    id: '1761135993926101'
+  - created_time: '2018-02-22T07:33:03+0000'
+    from:
+      name: Tawfik Elsayed
+      id: '289933101530067'
+    message: هو انا شغال ع ARcore و vuforia ...  لو هعمل حاجة زي كده هستخدم SLAM عشان
+      floor detection و اربط الحركة مع SLAM. بس غالبا مش هيشتغل غير ع devices معينة
+      اللي بتدعم SLAM
+    id: '1761147337258300'
+  - created_time: '2018-02-22T08:06:44+0000'
+    from:
+      name: Omar Gamal
+      id: '1817953731571403'
+    message: الـ GPS ميديش Accuracy حلوة عالرينچ الضيق دة، ومش بيشتغل كويس indoors
+    id: '1761166577256376'
+  - created_time: '2018-02-22T09:37:35+0000'
+    from:
+      name: Mohamed Abo Elazm
+      id: '2007365885947218'
+    message: Islam Amer
+    id: '1761222160584151'
+  - created_time: '2018-02-22T10:02:42+0000'
+    from:
+      name: Tawfik Elsayed
+      id: '289933101530067'
+    message: "لو حد مهتم نعمل project AR سوا بس لو هو animator يبقي زي الفل \U0001F601"
+    id: '1761236993916001'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMyTVRBMk56Y3hOekkyTmpJMk1qb3hOVEU1TWpjMk5EYzQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMyTVRJek5qazVNemt4TmpBd01Ub3hOVEU1TWprek56WXkZD
+attachments:
+  data:
+  - media:
+      image:
+        height: 593
+        src: https://scontent.xx.fbcdn.net/v/t15.0-10/s720x720/27600170_1559372350784447_2557262500571643904_n.jpg?oh=2079067f96c5be0a5b1f6b4c01c3db53&oe=5B051887
+        width: 720
+    target:
+      id: '1559369137451435'
+      url: https://www.facebook.com/vrscout/videos/1559369137451435/
+    title: "'The Ring' Brought to Life in AR"
+    type: video_inline
+    url: https://www.facebook.com/vrscout/videos/1559369137451435/
