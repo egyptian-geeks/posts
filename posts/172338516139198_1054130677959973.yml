@@ -170,6 +170,13 @@ comments:
     message: i did know "!!" casts to boolean, but this is the first time to know
       +boolean casts to integer.
     id: '1054207361285638'
+  - created_time: '2015-12-30T17:21:31+0000'
+    from:
+      name: Ahmed Elsobky
+      id: '1167985470004751'
+    message: 'Seriosly, guys! This is just simple binary arithmetic! ...wanna see
+      some real black magic? Go evaluate this: (false+"")[2]+(true+[]["filter"])[10]+(false+"")[2]'
+    id: '1054234244616283'
   - created_time: '2015-12-31T01:05:47+0000'
     from:
       name: Meligy
@@ -202,7 +209,7 @@ attachments:
         src: https://external.xx.fbcdn.net/safe_image.php?d=AQB5vW2ybah25rk5&w=720&h=720&url=http%3A%2F%2Fcdn.sstatic.net%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded%26a&cfs=1&_nc_hash=AQDX5paqA33iQdyD
         width: 316
     target:
-      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fq%2F34501615%2F497828&h=ATM4lUhp7rC26X9qXNVvbAr2Fly0J-HJrHjzmbJ4AXYpiP_HNIQftyBgildHndd2gID8K88pum9WZNfoxww9w4WNcBpAsniPtr9cq8UpJFcsPTswifciRNIpD0e681xMQd3pzyTROZ1m6K67&s=1
+      url: http://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fq%2F34501615%2F497828&h=ATOGhg9-jrx66Dt15e6apiwKlcHAfTb1TjjGRnGFoKh3UsD-FhV2E7YueC_vD1s5XSrpYLPIV5VZnZUualY6Kc0dFW6KBYvFdD5bui3jGwAOQAL4liU7&s=1
     title: "+!! operator in an if statement"
     type: share
-    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fq%2F34501615%2F497828&h=ATM4lUhp7rC26X9qXNVvbAr2Fly0J-HJrHjzmbJ4AXYpiP_HNIQftyBgildHndd2gID8K88pum9WZNfoxww9w4WNcBpAsniPtr9cq8UpJFcsPTswifciRNIpD0e681xMQd3pzyTROZ1m6K67&s=1
+    url: http://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fq%2F34501615%2F497828&h=ATOGhg9-jrx66Dt15e6apiwKlcHAfTb1TjjGRnGFoKh3UsD-FhV2E7YueC_vD1s5XSrpYLPIV5VZnZUualY6Kc0dFW6KBYvFdD5bui3jGwAOQAL4liU7&s=1

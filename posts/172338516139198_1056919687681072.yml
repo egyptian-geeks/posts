@@ -29,10 +29,13 @@ reactions:
   - id: '751286211748718'
     name: Mostafa Hussein
     type: LIKE
+  - id: '1167985470004751'
+    name: Ahmed Elsobky
+    type: LIKE
   paging:
     cursors:
       before: TmpnM01qUTBORGsyT2pFME5URTVNekkwTVRFNk1qVTBNRGsyTVRZAeE13PT0ZD
-      after: TVRBd01EQTJNREl3TXpjMk1ETTVPakUwTlRFNU1Ua3hPREk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXpOems1TWpZAME5Ua3pPakUwTlRFNU1UTTBPVEE2TWpVME1EazJNVFl4TXc9PQZDZD
 comments:
   data:
   - created_time: '2016-01-04T13:18:36+0000'
@@ -50,6 +53,15 @@ comments:
       id: '1848749968530776'
     message: Mahmoud Fahmy Elbalasy
     id: '1056926471013727'
+  - created_time: '2016-01-04T13:37:13+0000'
+    from:
+      name: Ahmed Elsobky
+      id: '1167985470004751'
+    message: 'Fun Fact: This ransomware encrypts source code files of many languages
+      like C, C++, Ruby..etc, but it seems like it does not encrypt any of ".py/.pyc",
+      ".pl" or ".js"! So, basically, Python/Perl/JS developers are somewhat considered
+      to be safe! Lol :D'
+    id: '1056936924346015'
   - created_time: '2016-01-04T17:35:01+0000'
     from:
       name: Mohamed Abdel Aty
@@ -73,7 +85,7 @@ attachments:
         src: https://external.xx.fbcdn.net/safe_image.php?d=AQChfh26mQIrN8A1&w=720&h=720&url=http%3A%2F%2Fwww.bleepstatic.com%2Fcontent%2Fhl-images%2F2015%2F11%2F25%2Fhacker.jpg&cfs=1&_nc_hash=AQDnE40avULHkV_2
         width: 720
     target:
-      url: https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fransom32-is-the-first-ransomware-written-in-javascript%2F&h=ATPrwAj4j3CKVj7RZVIPxeXa9ay32Y3GHrxpD4QLMRkY7C8PdFMFmoPSI57ZXV3IL2rZyBU0ndk76LQVfi2tFTyKO4dY4J1KA_RiP2Y833sPmr27i9TwFQo_03G8IiwfWqY4z-D1gXLY1YCu&s=1
+      url: http://l.facebook.com/l.php?u=http%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fransom32-is-the-first-ransomware-written-in-javascript%2F&h=ATPPMWcRfa9BT8gJK1CbFgUx_aohO3rRJSOfdfEDLYbntK0hoN9bcqju7tKP_IJCmdFDwesMV1KugxDa2hTWjfb0VG5bfRMM5Odf4eV362reY6Vua0te&s=1
     title: Ransom32 is the first Ransomware written in Javascript
     type: share
-    url: https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fransom32-is-the-first-ransomware-written-in-javascript%2F&h=ATPrwAj4j3CKVj7RZVIPxeXa9ay32Y3GHrxpD4QLMRkY7C8PdFMFmoPSI57ZXV3IL2rZyBU0ndk76LQVfi2tFTyKO4dY4J1KA_RiP2Y833sPmr27i9TwFQo_03G8IiwfWqY4z-D1gXLY1YCu&s=1
+    url: http://l.facebook.com/l.php?u=http%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fransom32-is-the-first-ransomware-written-in-javascript%2F&h=ATPPMWcRfa9BT8gJK1CbFgUx_aohO3rRJSOfdfEDLYbntK0hoN9bcqju7tKP_IJCmdFDwesMV1KugxDa2hTWjfb0VG5bfRMM5Odf4eV362reY6Vua0te&s=1
