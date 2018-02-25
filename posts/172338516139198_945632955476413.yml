@@ -28,9 +28,6 @@ reactions:
   - id: '1886609094714928'
     name: Sameh Hamza
     type: LIKE
-  - id: '1798113550497103'
-    name: Mohamed ElSaudi
-    type: LIKE
   - id: '10156095976664136'
     name: Moustafa Abdelaziz
     type: LIKE
@@ -180,25 +177,6 @@ comments:
       id: '10159771703705265'
     message: Mourad Askar
     id: '946078042098571'
-  - created_time: '2015-05-26T20:33:30+0000'
-    from:
-      name: Mohamed ElSaudi
-      id: '1798113550497103'
-    message: |-
-      الخدمة في الشكل القانوني زي خدمة تأجير السيارات بس بدل ما تتحاسب باليوم بيحاسبك بالمسافه
-      اعمل اكونت و جربها
-      صديقي بعتلي دعوه و جبتلي رصبد 70 جنيه جربتها من غير ما يخصمو من الفيزا فعلا
-      بعد كده انا ادمنتها جدا
-      https://www.uber.com/invite/pbrvbue
-    id: '946111835428525'
-  - created_time: '2015-05-26T20:40:08+0000'
-    from:
-      name: Mohamed ElSaudi
-      id: '1798113550497103'
-    message: |-
-      الخصم بيتم بشكل اتوماتيكي بس بيبعتلك على الايميل فاتور تفصيلية جدا بكل مليم دفعته و قياس المسافه بيتم عن طريق خدمة ال GPS
-      و في لينك في الايميل الشكوى أو الاعتراض على قيمة الفاتورة
-    id: '946113535428355'
   - created_time: '2015-05-29T11:32:44+0000'
     from:
       name: Hassan Aly Selim
@@ -207,16 +185,10 @@ comments:
       I didn't know that Uber is in Egypt now :)
       Is it only in Cairo or is it available in other cities too?
     id: '948066878566354'
-  - created_time: '2015-05-29T14:18:53+0000'
-    from:
-      name: Mohamed ElSaudi
-      id: '1798113550497103'
-    message: Hassan Aly Selim Only greater Cairo and the suburbs
-    id: '948127765226932'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFExTmpNek5qRTRPREE1Tmpnd09qRTBNekkyTXpVMU1EZAz0ZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFE0TVRJM056WTFNakkyT1RNeU9qRTBNekk1TURreE16TT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFE0TURZAMk9EYzROVFkyTXpVME9qRTBNekk0T1RreE5qUT0ZD
 attachments:
   data:
   - subattachments:

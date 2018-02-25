@@ -9,11 +9,17 @@ from:
 type: photo
 picture: https://scontent.xx.fbcdn.net/v/t1.0-0/q83/s130x130/28378980_10215682051104308_5938891407270942019_n.jpg?oh=c3c0cec598e0c6c2e7275838450ac3de&oe=5B133A45
 created_time: '2018-02-24T17:23:36+0000'
-updated_time: '2018-02-24T22:23:46+0000'
+updated_time: '2018-02-25T21:18:57+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1763403847032649/
 id: '172338516139198_1763403847032649'
 reactions:
   data:
+  - id: '1603918496360868'
+    name: Mahmoud Jaber Wahrani
+    type: LIKE
+  - id: '871016873079772'
+    name: Marwan Ahmed
+    type: LIKE
   - id: '2100352656854754'
     name: Mahmoud Bakrey
     type: LIKE
@@ -25,7 +31,7 @@ reactions:
     type: LIKE
   paging:
     cursors:
-      before: TVRBd01EQTJOREF4TWpBME5EUXhPakUxTVRrMU1ETTBOak02TWpVME1EazJNVFl4TXc9PQZDZD
+      before: TVRBd01EQXlNamd4T1RrME1Ea3lPakUxTVRrMU9EWTJPVFU2TWpVME1EazJNVFl4TXc9PQZDZD
       after: TVRVNU5USTVOVEEzTnpveE5URTVORGs1TWpBeU9qSTFOREE1TmpFMk1UTT0ZD
 comments:
   data:
@@ -111,10 +117,43 @@ comments:
       id: '1557494074334899'
     message: Remove all of the true occurrences
     id: '1763832953656405'
+  - created_time: '2018-02-25T02:34:48+0000'
+    from:
+      name: Mohammad Helmy
+      id: '10155848201515605'
+    message: user.identityProofAccepted = (user.identityFaceProofAccepted && ...)
+      === true
+    id: '1764033476969686'
+  - created_time: '2018-02-25T06:28:24+0000'
+    from:
+      name: Hesham Adel
+      id: '798912850310002'
+    message: "http://ricardogeek.com/docs/r_clean_code.pdf\n\npage 38 \ntitle Switch
+      statement \n\n- You will find a way to do so with code example in this book,
+      the name of the book is clean code wrote by Robert C Martin AKA Uncle Bob .\n-
+      Another way would be state machine .\n- Not mention ur code can be better by
+      simply removing the === true, encapsulate within a function and last but not
+      least IdentityFaceProofAccepted and IdentityBackProofAccepted can be encapsulated
+      in an enum, struct, object and have both Face and Back properties .\n- Design
+      principle number 1, encapsulate what vary ( strategy pattern for example ) \n\ntoo
+      many solutions to this problem ."
+    id: '1764202480286119'
+  - created_time: '2018-02-25T18:23:11+0000'
+    from:
+      name: Ahmed Amr Farid
+      id: '10155859538230336'
+    message: i think you can remove == true and the expression will still work...
+    id: '1764752503564450'
+  - created_time: '2018-02-25T21:18:51+0000'
+    from:
+      name: Ahmed ElRefaey
+      id: '1963622213652553'
+    message: https://gist.github.com/montaro/c256bb2b56c26e8b507b01dd5e7a9a72
+    id: '1764889410217426'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMyTXpZAMU5qVXpNelkzTkRBME56b3hOVEU1TkRrek5EUTIZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMyTXpnek1qazFNelkxTmpRd05Ub3hOVEU1TlRBM01qZAzMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMyTkRnNE9UUXhNREl4TnpReU5qb3hOVEU1TlRrek5UTXkZD
 attachments:
   data:
   - description: |-

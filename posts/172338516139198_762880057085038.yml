@@ -28,6 +28,15 @@ comments:
       2- Faster than MySql
       3- The DB is 1 file
     id: '762880430418334'
+  - created_time: '2014-06-11T20:09:50+0000'
+    from:
+      name: Mustafa Abdeltawwab Jr.
+      id: '10156236813890891'
+    message: yup, an embedded database is your best shot.. there's one implemented
+      in Java, which would be perfect if you want something cross-platform.. there
+      is H2 http://www.h2database.com/html/main.html.. also there is another famous
+      choice, Apache Derby, but it is not as favorable as H2..
+    id: '762881850418192'
   - created_time: '2014-06-11T20:11:26+0000'
     from:
       name: Hisham Abd El-Hafez Eid

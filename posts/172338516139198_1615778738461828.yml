@@ -41,15 +41,7 @@ comments:
       A simple table with userid-points-yearweek-year can serve you well to be able to calc points for everyuser per week and draw graphs out of progress.
       Mosrlty important keep it 1-many relation with a view that can sum total/total per x time. As long as u treat every point user gets as an transactions with ability to rollback/group
     id: '1615828638456838'
-  - created_time: '2017-09-25T12:07:43+0000'
-    from:
-      name: Ahmed Toulan
-      id: '10155538930308152'
-    message: |-
-      Checkout this course about gamification
-      https://www.coursera.org/learn/gamification
-    id: '1616426858397016'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl4TlRjNE5EVXpOVEV5TnpreE5Ub3hOVEEyTWpZANU1UZA3kZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl4TmpReU5qZAzFPRE01TnpBeE5qb3hOVEEyTXpReE1qWTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl4TlRneU9EWXpPRFExTmpnek9Eb3hOVEEyTWpjek1USXkZD
