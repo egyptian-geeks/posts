@@ -51,6 +51,20 @@ comments:
       Ok, after communicating with a friend today, it is indeed DPI>
       "https is disabled when they fail to DPI it. If you use a strong certificate 256 bit or more and you're going through CloudFlare, you're fucked up. if they can't spoof SSL connection and DPI it, you're screwed, they block it. I have official communication emails with Digital Ocean for example, addressing this and stating that they tried to communicate with the Egyptian government but they're not responsive. I tried multiple ISPs."
     id: '1211971042175935'
+  - created_time: '2016-08-23T12:05:10+0000'
+    from:
+      name: Nour Eldin
+      id: '10159866697310511'
+    message: |-
+      "https is disabled when they fail to DPI "
+      احا !
+    id: '1211997555506617'
+  - created_time: '2016-08-23T12:05:23+0000'
+    from:
+      name: Nour Eldin
+      id: '10159866697310511'
+    message: so you are punished for bein so secure :D
+    id: '1211997638839942'
   - created_time: '2016-08-25T23:01:56+0000'
     from:
       name: Omar Hossam Ahmed

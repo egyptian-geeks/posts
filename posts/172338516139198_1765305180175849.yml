@@ -1,0 +1,62 @@
+---
+message: "guys who're using TOR in Egypt \nwhich configuration works?\n because it
+  seems like all is not working with me!"
+from:
+  name: محمود عبد اللطيف
+  id: '995883647225816'
+type: status
+created_time: '2018-02-26T08:54:47+0000'
+updated_time: '2018-02-26T11:55:37+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1765305180175849/
+id: '172338516139198_1765305180175849'
+reactions:
+  data:
+  - id: '1674677235923402'
+    name: Ayman El Temsahi
+    type: LIKE
+  - id: '10215515935116102'
+    name: Agk TF
+    type: LIKE
+  - id: '10154989271705870'
+    name: Mostafa Mohammed
+    type: LIKE
+  - id: '1711592068898479'
+    name: Ahmed Ali Koriem
+    type: LIKE
+  - id: '10214400225536793'
+    name: Assem Makhyon
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXhORE0wTWpZAeU5qWTVPakUxTVRrMk56WTJORGs2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRFMU1qZAzFOekE1TURveE5URTVOalEzTURJeE9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2018-02-26T09:16:12+0000'
+    from:
+      name: Amjad Mashaal
+      id: '10213738834576763'
+    message: |-
+      They blocked the accessing the entry relay directories. You need to use bridges. However, they also blocked the link to the Tor bridges website (https://bridges.torproject.org/, :D) so here are a few.
+
+      104.238.173.22:9001 FE3297B03EA735A5168739B27EEA928CC9DCD554
+      212.182.107.213:20013 D8036791CC13C4A836F44613692DAEDF478A9967
+      52.33.100.188:8443 675E49AA073A76DBEA6BEED7B9F7CBA63F03CE9A
+    id: '1765325566840477'
+  - created_time: '2018-02-26T11:19:15+0000'
+    from:
+      name: Muhammed Abdulaziz
+      id: '10156189240128395'
+    message: من تجربتي Azure أسرعهم (أغلب الوقت)، بس جرب و شوف اللي هتكون أسرع معاك
+    id: '1765406863499014'
+  - created_time: '2018-02-26T11:55:33+0000'
+    from:
+      name: Saif Youssef
+      id: '10214384757360026'
+    message: Last time I checked obfs4 worked nicely. I'll check the config later
+      tonight
+    id: '1765432126829821'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMyTlRNeU5UVTJOamcwTURRM056b3hOVEU1TmpNMk5UY3oZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMyTlRRek1qRXlOamd5T1RneU1Ub3hOVEU1TmpRMk1UTXoZD
