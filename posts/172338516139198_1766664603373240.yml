@@ -1,0 +1,416 @@
+---
+message: "تعديل 6: تم اكتشاف سبب المشكله وياريت اللى يقرأ البوست يقرأه للاخر او على
+  الاقل يبص على اخر تعديل تحت خالص علشان يعرف سبب المشكله\n.\nيا جماعة انا عارف ان
+  اللى هقوله ده مش منطقى تماما، وانا نفسى مش مقتنع بيه ولو اى حد قالهولى هقوله يا
+  اما انت اهبل يا اما بتحور بس بجد ده اللى بيحصل ومش فاهم ازاى يعنى\nانا عندى PC قديم
+  بروسيسور dual cure ورامات 2 جيجا بقاله عندى تقريبا 8 سنين او ممكن اكتر شوية، الPC
+  ده تقريبا معظم الوقت ببقى سايبه شغال بس مش بستخدمه غير نادرا يعنى، وعندى لابتوب
+  هو اللى اكتر الوقت بقعد عليه، الـ PC عليه ويندوز 7 واللابتوب عليه ويندوز 10، بقالى
+  تقريبا اسبوع ملاحظ ان لما بفتح tabs كتير فى جوجل كروم على اللابتوب صوت المروحه بتاعة
+  الـ PC بتعلى، بس مكنتش بركز يعنى بقول اكيد صدفة، من شوية كنت بعمل logic كده على
+  اللابتوب بيحتاج processing power عالى، اول ما شغلته لقيت المروحه بتاعة الPC صوتها
+  علي وفضل عالي لحد ما اللوجيك خلص صوتها وطي، قلت ايه الهبل ده جربت شغلته تانى لقيت
+  نفس الكلام حصل، فتحت فى الـ PC الـ Process manger وقلت اشوف هو ليه الـ CPU Usage
+  بيعلى وشغلت اللوجيك تانى على اللابتوب لقيت ان الـ CPU Usage 1% مش بتزيد بس صوت المروحه
+  بيعلى جدا، فكيت الـ Case وبصيت على المروحه لقيتها فعلا سرعتها بتزيد لما بعمل حاجات
+  تقيله على اللابتوب!!!!\nده ممكن يبقى ايه علشان بجد هتجنن\n.\nتعديل 1:\nانا اتأكدت
+  ان صوت المروحه بيعلى فعلا مع اللابتوب علشان جربت شيلت كابل النتورك من الـ PC وحملت
+  على اللابتوب صوت المروحه فضل واطي ومعليش..\nهل فى اى حاجه ممكن تعمل كده؟ ولا الـ
+  PC عندى ملبوس؟\n.\nتعديل 2:\nقفلت كل حاجه على الـ PC وعملت Netstat علشان اشوف لو
+  فى اى كونكشن شغاله لقيت فعلا كونكشن بتليسن على port 2886 واللابتوب عامل عليها كونكت
+  على اي بي الـ PC ومش قادر اعرف الكونكشن دى بتاعة ايه\n.\nتعديل 3:\nفى بروسيس بتشتغل
+  مع الــ Itunes اسمها APSDaemon دى اللى كانت مستخدمه البورت ومخليه اللابتوب والـ
+  PC متوصلين مع بعض بس برضو مش فاهم ليه لما كنت بحمل على الابتوب صوت مروحة الـ PC
+  يعلي بس الـ CPU usage فى الـ PC زى ما هو 0% و1% و مش فاهم اصلا البروسيس دى بتاعة
+  ايه ولا بتعمل ايه\n.\nتعديل 4:\nالبروسيس اللى اسمها APSDaemon دى بتتشتغل مع الـ
+  Itunes ومفروض انه هى بتخليك تقدر تعمل  Sync للايفون بتاعك wireless من غير ما توصل
+  الموبيل بالـ PC ، بس تقريبا والله اعلم هى بتعمل Sync برضو للاجهزه كلها اللى على
+  نفس النتورك لو عامل لوجين بنفس الـ Icloud على الاجهزه، بس برضو مش فاهم لسه ممكن
+  يبقى صوت المروحه بتاعة الـ PC بيعلى مع اى ضغط على اللابتوب\n.\nتعديل 5 (اخر تعديل
+  ان شاء الله):\nالتفسير المنطقى او الاقرب الى المنطق يعنى ان Itunes بيعمل sync لكل
+  الاجهزه اللى على النتورك اللى عاملين لوجين بنفس حساب اى كلاود والايتونز عامل Watch
+  للهارد كله مع اى تغير بيقول لكل الاجهزه تبدأ تعمل Sync فده اللى بيعلى صوت المروحه
+  فى الـ PC وبالنسبة لكروم فأكيد وانا بعمل براوزينج بينزل كوكيز وكاش فايلز وده بيـ
+  Trigger السيرفس وتخلى الـ PC يبدأ يعمل Sync\nو لما عملت Kill للبروسيس على الـ PC
+  بطل يعمل كده خلاص\nThe moral is:\nأبل شركة متخلفة عقليا ومهما ربنا زادهم من علم
+  وتكنولوجيا هيفضلو بهايم برضو \U0001F600 \nللمعلومه بس انا iPhone user من 7 سنين
+  وبحب apple جدا بس ده ميمنعش انهم فى حاجات كتير بيخادوا قرارات هباب زي وشهم"
+from:
+  name: Hady El-Ziady
+  id: '10155549760031026'
+type: status
+created_time: '2018-02-27T17:21:11+0000'
+updated_time: '2018-02-27T22:52:35+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1766664603373240/
+shares:
+  count: 3
+id: '172338516139198_1766664603373240'
+reactions:
+  data:
+  - id: '10155432639833282'
+    name: Ahmed Abdo
+    type: HAHA
+  - id: '2020349584845556'
+    name: Joeseph Mak
+    type: HAHA
+  - id: '10213738834576763'
+    name: Amjad Mashaal
+    type: LIKE
+  - id: '1597124390366331'
+    name: Menna Mustafa
+    type: LIKE
+  - id: '1547664728604295'
+    name: Karim Ahmed
+    type: LIKE
+  - id: '1884406578237560'
+    name: Hadeel Sharaf
+    type: LIKE
+  - id: '2042443932659256'
+    name: Ahmed Magdy
+    type: LIKE
+  - id: '1792396197485237'
+    name: Mohamed Elhout
+    type: HAHA
+  - id: '873798642778664'
+    name: Rhea Hassanein
+    type: LIKE
+  - id: '1978616305487750'
+    name: Mohamad Shawkey
+    type: LIKE
+  - id: '10155426916839779'
+    name: Amr Medhat
+    type: HAHA
+  - id: '372725443200304'
+    name: أوريون فروبلفسكى
+    type: LIKE
+  - id: '10155755444625845'
+    name: Mohammad Fouad
+    type: LIKE
+  - id: '10157097152299942'
+    name: Abdul-Hameed Riad
+    type: LIKE
+  - id: '911590119011143'
+    name: Bilal Tariq Anwar
+    type: LIKE
+  - id: '10214934457731217'
+    name: Michael Sobhy
+    type: LIKE
+  - id: '1886120441698692'
+    name: Ibrahim Mohammed
+    type: HAHA
+  - id: '10155037241837455'
+    name: Ali Dawood
+    type: LIKE
+  - id: '1605476976198795'
+    name: Marwan Khaled
+    type: LIKE
+  - id: '1745484658837652'
+    name: Alyaa Ahmed
+    type: HAHA
+  - id: '2023204021335680'
+    name: Hazim Nasser
+    type: LIKE
+  - id: '2001516566731031'
+    name: Hussam Mostafa
+    type: LIKE
+  - id: '1996761363674162'
+    name: Amr A. Abd El-AZiz
+    type: LIKE
+  - id: '1847421335299420'
+    name: Ahmed Sabry
+    type: HAHA
+  - id: '10215231144682156'
+    name: Ibrahim Abd Allatif
+    type: LIKE
+  - id: '10214609459461204'
+    name: Mohamed Momen
+    type: LIKE
+  - id: '10209868256375843'
+    name: Khaled Mhd
+    type: LIKE
+  - id: '10212826240185281'
+    name: Mohamed Bassem
+    type: LIKE
+  - id: '1556036221100210'
+    name: Yahya ElGayar
+    type: HAHA
+  - id: '1516826871705740'
+    name: Amr Flame
+    type: LIKE
+  - id: '1821909218112883'
+    name: Ahmed Serag
+    type: HAHA
+  - id: '1812186052167696'
+    name: To Be
+    type: HAHA
+  - id: '627907956'
+    name: Emad Elsaid
+    type: HAHA
+  - id: '10155080415300951'
+    name: Heba ElGalad
+    type: LIKE
+  - id: '10156032896201171'
+    name: Kareem Abdullatif
+    type: HAHA
+  - id: '10155218861346127'
+    name: Ahmed Abd El-Qader
+    type: HAHA
+  - id: '807217676124758'
+    name: Youssef Yossry
+    type: LIKE
+  - id: '10155904844456257'
+    name: Walid El-Reedy
+    type: LIKE
+  - id: '1780939041979216'
+    name: Mohamed Hamza
+    type: LIKE
+  - id: '2502890483270277'
+    name: Mohab Alaa El-Din
+    type: LIKE
+  - id: '1903520773022480'
+    name: MohaMed Omran
+    type: LIKE
+  - id: '1978009525783037'
+    name: Ahmed Magdy
+    type: HAHA
+  - id: '2100352656854754'
+    name: Mahmoud Bakrey
+    type: LIKE
+  - id: '1547297148718242'
+    name: Sherif Abdel-Naby
+    type: LIKE
+  - id: '402301146892668'
+    name: Esso de Nasr
+    type: HAHA
+  - id: '1846782672022423'
+    name: Amera Wageeh
+    type: LIKE
+  - id: '1581680395248145'
+    name: Mohamed Magid
+    type: HAHA
+  - id: '10155686945529760'
+    name: Ibrahim Hussein
+    type: LIKE
+  - id: '891512461008307'
+    name: Ziad Khaled
+    type: LIKE
+  - id: '588071778205236'
+    name: Hassan El-shazly
+    type: HAHA
+  - id: '10156115350739764'
+    name: Mahmoud Tantawy
+    type: LIKE
+  - id: '2054850488105080'
+    name: Ahmed Abdul Aziz
+    type: HAHA
+  - id: '1760650110714877'
+    name: Muhammed Abd El-Nabe
+    type: HAHA
+  - id: '927490574073670'
+    name: Mahmoud Abdalazez
+    type: LIKE
+  - id: '10204414533160604'
+    name: Moustafa Elkady
+    type: LIKE
+  - id: '1668800986499713'
+    name: Mohamed Tarek Shaaban
+    type: HAHA
+  - id: '10211163211704790'
+    name: Amr Mahmoud
+    type: LIKE
+  - id: '1792005467484883'
+    name: Mohamed Kamal
+    type: HAHA
+  - id: '1785597104785913'
+    name: Islam Sami
+    type: LIKE
+  - id: '2029908667286506'
+    name: Waheed Ibrahim
+    type: HAHA
+  - id: '10215178635767384'
+    name: Mohamed Abdelhamed
+    type: HAHA
+  - id: '1827805403931216'
+    name: Mahmoud T. Omar
+    type: HAHA
+  paging:
+    cursors:
+      before: TmpBNU56QTRNamd4T2pFMU1UazNOekl4T0RJNk56ZAzROalE0TURNM09URXpNekV5
+      after: TVRBd01EQXhNRFV6TWpJM05URXhPakUxTVRrM05USXlOREU2TnpnNE5qUTRNRE0zT1RFek16RXkZD
+comments:
+  data:
+  - created_time: '2018-02-27T17:24:12+0000'
+    from:
+      name: إبراهيم مصطفى
+      id: '1388264334612218'
+    message: كارت الشاشة برده
+    id: '1766692230037144'
+  - created_time: '2018-02-27T17:29:56+0000'
+    from:
+      name: Waheed Ibrahim
+      id: '2029908667286506'
+    message: "سكاي نت ع الابواب يا بهاايم \U0001F494\U0001F602\U0001F602\U0001F602"
+    id: '1766696960036671'
+  - created_time: '2018-02-27T17:30:57+0000'
+    from:
+      name: Mahmoud T. Omar
+      id: '1827805403931216'
+    message: "كان عندى لاب ديل فيه حاجا شبه كدا المروحه بتشد اول ما الشاشه تطفى (
+      و مافيش حاجا شغاله اصلا فى الbackground ولا سايب اى برنامج مفتوح ) و لما احرك
+      الماوس المروحه تهدى و ترجع زى الاول \n\nمش عارف بس طالما مافيش اى connections
+      بينهم يمكن اللى بقولك عليه ده"
+    id: '1766697796703254'
+  - created_time: '2018-02-27T17:35:17+0000'
+    from:
+      name: Bebo El Nagar
+      id: '10204452000656295'
+    message: انا اتلغبطت جدا وانا بقرا البوست والله
+    id: '1766701416702892'
+  - created_time: '2018-02-27T17:36:27+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "طيب بقية تسلسل الخطوات المنطقي انك بعد ما اتاكدت وانها بتفرق بفصل كبل
+      النتورك.. جرب بعد ما تعمل sign off من جوجل \U0001F601"
+    id: '1766702203369480'
+  - created_time: '2018-02-27T17:40:20+0000'
+    from:
+      name: Mohamed Abdelhamed
+      id: '10215178635767384'
+    message: ظاهره غير طبيعه , تقريبا الحل هو انك تنزل بوست في جروب روحاني .
+    id: '1766704663369234'
+  - created_time: '2018-02-27T17:41:18+0000'
+    from:
+      name: Mohamed Hamza
+      id: '1780939041979216'
+    message: مش قادر ألاقي سبب الصراحة بس انا انترستد فشخ اني ألاقي سبب لحاجة زي كدا
+      :3
+    id: '1766705283369172'
+  - created_time: '2018-02-27T17:42:10+0000'
+    from:
+      name: Ah Med SaȜed
+      id: '2028222550756049'
+    message: ماله يعنى الكاسيت :3 :3
+    id: '1766707126702321'
+  - created_time: '2018-02-27T17:42:16+0000'
+    from:
+      name: Mohamed Hamza
+      id: '1780939041979216'
+    message: سؤال، انت فاتح السينك في كروم؟ على ما اتذكر كان في خاصية بتخليك تسينك
+      التابس بين المتصفح
+    id: '1766707166702317'
+  - created_time: '2018-02-27T17:47:49+0000'
+    from:
+      name: Muhammad Negm
+      id: '10215093583796418'
+    message: لابتوبك مسكون؟ أو أن ويندوز بيعمل شيء ما مريب
+    id: '1766712870035080'
+  - created_time: '2018-02-27T17:49:21+0000'
+    from:
+      name: Mo'men Bauomy
+      id: '10155502591672779'
+    message: فتش عن الكروم هوا ده التفسير المنطقي الوحيد غير كده تجيب شيخ يسطبلك ويندوز
+      اكس بي
+    id: '1766713866701647'
+  - created_time: '2018-02-27T17:56:28+0000'
+    from:
+      name: Farouk Elabady
+      id: '10156125708187299'
+    message: هو من احدى الاحتمالات ان اللابتوب بتاعك فيه فيرس او حاجة شبيهة بال bitcoin
+      miner في بعض الحاجات دي انا ممكن استغل المصادر و الاجهزة اللي على الشبكة كلها
+      علشان تشغل اللي هي عايزاه, و اوقات ال cpu usage بيكون مضلل شوية , بس من الخطوات
+      انك تجرب تشغل بروسر تاني زي فايرفوكس مثلا و افتح نفس كمية التابز و شوف هيحصل
+      اييه و جرب تعمل disable javascript على كروم وشوف برضه هيحصل اييه
+    id: '1766718503367850'
+  - created_time: '2018-02-27T18:02:35+0000'
+    from:
+      name: Muhammed Nagy
+      id: '495080930892199'
+    message: black mirror?
+    id: '1766723123367388'
+  - created_time: '2018-02-27T18:04:41+0000'
+    from:
+      name: Mohammad Hosny
+      id: '10155052403705843'
+    message: ده طبيعي دي خاصية في الكروم hardware acceleration ممكن تطفيها
+    id: '1766724906700543'
+  - created_time: '2018-02-27T18:11:50+0000'
+    from:
+      name: Mohamed Abdelhamed
+      id: '10215178635767384'
+    message: "بس هو تقريباً في برنامج متسطب علي الجهازين وبيعمل مزامنه منهم . احتمال
+      يكون كروم أو اي برنامج تاني \U0001F603 افتكر انت مثبت ايه وفيه خاصيه المزامنه
+      .\nومش تنسي تشوف بورت انت قولت عليه بتاع ايه ."
+    id: '1766729583366742'
+  - created_time: '2018-02-27T18:24:05+0000'
+    from:
+      name: Ziad Khaled
+      id: '891512461008307'
+    message: هو حاجة مش عارف ممكن تكون حصلت ازاي بس هي أول حاجة جات في دماغي لما قريت
+      البوست بتاعك هي ببساطة أنت ممكن تعمل donate للcomputing power بتاعت جهازك لجهات
+      علمية و هما بيعملوا العمليات اللي بيحتاجوها علي الجهاز بتاعك لما ما يكنش حد
+      بيستخدمه زي https://boinc.berkeley.edu/ مثلا و ده شبه جدا اللي بيحصل فممكن يكون
+      في حاجة شبهها بتعمل sharing للcomputing power ما بين الجهازين عندك و ده بيتفق
+      نوعا ما مع كلامك عندك اللاب مش بيحصل عليه اي حمل من ناحية الcomputing power
+      و الpc هو اللي بيبقي شغال جامد و ده لما بتكون موصل الpc بنفس الnetwork هو طبعا
+      الموضوع غريب جدا بس وارد انك تكون نزلت برنامج بيعمل حاجة شبه كده و نسيته او
+      نزل مع حاجة تانية و انت مكنتش عارف مثلا
+    id: '1766763180030049'
+  - created_time: '2018-02-27T18:34:45+0000'
+    from:
+      name: Yasser Ahmed
+      id: '1612730315484933'
+    message: "مشكلة سهلة جدا وبسيطة جدا جدا \nال  pc بتاعك بيوريك انه حاسس بالدفء
+      العائلي \U0001F602\U0001F602"
+    id: '1766771833362517'
+  - created_time: '2018-02-27T19:38:07+0000'
+    from:
+      name: Youssef Hesham Alsoly
+      id: '1691791444215583'
+    message: Amr Essam
+    id: '1766823473357353'
+  - created_time: '2018-02-27T19:44:07+0000'
+    from:
+      name: Amira Amin El-Bahrawy
+      id: '774112586105155'
+    message: "انا خوفت وانا بقرأ والله\U0001F602 شغل قرآن جمبهم اللي بيحصل دا مش طبيعي\U0001F602"
+    id: '1766828580023509'
+  - created_time: '2018-02-27T20:53:20+0000'
+    from:
+      name: Omar Hossam Ahmed
+      id: '10156071955196730'
+    message: طب والمروحة ايه تفسير انها بتعلى بس ال usage 1%
+    id: '1766875896685444'
+  - created_time: '2018-02-27T21:10:29+0000'
+    from:
+      name: Muhammed Nagy
+      id: '495080930892199'
+    message: "يعني انت عندك ماك بوك و imac and they are syncing with each other?\n\nit's
+      weird i can't sync my iphone and my mac using wifi \ni need to connect my iphone
+      to my macbook"
+    id: '1766888880017479'
+  - created_time: '2018-02-27T21:12:26+0000'
+    from:
+      name: Ahmed Aladawy
+      id: '1879118212111765'
+    message: "Hossam El-din Roshdy \nالكابل شغال فالجهاز و مش شغال ف اللاب \U0001F602\U0001F602\U0001F602"
+    id: '1766890030017364'
+  - created_time: '2018-02-27T21:33:07+0000'
+    from:
+      name: Mohammad Fouad
+      id: '10155755444625845'
+    message: |-
+      طيب انا عندى افتراضين
+      1- ساعات كارت النتورك بيبقى ضعيف، و البروسيسور بيشتغل شغل الكارت، بيبص على الراوتينج و الفايروول و كده. و لو اللابتوب و انت بتحمل عليه بيطلع باكتات كتير على النتوورك، ده هيخلى البروسيسور يشتغل كتير على كل اجهزه النتورك
+    id: '1766902183349482'
+  - created_time: '2018-02-27T22:52:32+0000'
+    from:
+      name: Mohamed Elsayed
+      id: '1772673672756950'
+    message: ممكن تحصل لو مشغل الثيم بتاع الويندوز synced مش عارف ليه بس ال sync بتاع
+      الثيم عامة بيعمل مشاكل علي وندوز 10 و 8.1
+    id: '1766962353343465'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMyTmpZANU1qSXpNREF6TnpFME5Eb3hOVEU1TnpVeU1qVXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMyTmprMk1qTTFNek0wTXpRMk5Ub3hOVEU1TnpjeE9UVXkZD

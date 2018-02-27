@@ -129,30 +129,12 @@ comments:
 
       i was only 4 ys when i was doing DOS :)
     id: '938784772827898'
-  - created_time: '2015-05-15T17:28:25+0000'
-    from:
-      name: Ahmad Fatoum
-      id: '1356410114464931'
-    message: |-
-      @funny japanese characters: writing open source on an image doesn't make the hardware open source.
-      They haven't released any schematics or sources yet as far as I can see and their chip producer (Allwinner) has repeatedly shown it doesn't give a shit about open source:
-      http://linux-sunxi.org/GPL_Violations
-    id: '940109486028760'
   - created_time: '2015-05-17T07:00:43+0000'
     from:
       name: Abdulla Ahmed Seif
       id: '1579863445426307'
     message: هل فيها منافذ زي الـ GPIO في الـ Raspberry pi
     id: '940678895971819'
-  - created_time: '2015-06-07T11:49:01+0000'
-    from:
-      name: Ahmad Fatoum
-      id: '1356410114464931'
-    message: |-
-      https://olimex.wordpress.com/2015/06/05/how-to-get-in-the-news-tell-people-that-you-will-make-and-sell-something-which-cost-you-20-for-9/
-
-      The chip producer confirmed it's just marketing. It will retail at $39 not $9.
-    id: '955348451171530'
   - created_time: '2015-06-07T15:48:02+0000'
     from:
       name: Islam Negm
@@ -161,25 +143,10 @@ comments:
       Ahmad Fatoum
       هو اللى عملوه دا ميعتبرش كدب ؟!
     id: '955410931165282'
-  - created_time: '2015-06-07T17:55:27+0000'
-    from:
-      name: Ahmad Fatoum
-      id: '1356410114464931'
-    message: |-
-      Islam Negm No, it's not. It's clever marketing.
-      You already got backers who will pay to get your product on the market. You don't need a Kickstarter campaign, but you do it anyway to attract attention. You make it get viral so every tech blog talks about it and you get early backers:
-
-      Technical early backers will appreciate a $9 SoC that is able to run Linux. Currently it can't run the mainline kernel so they need people to contribute to this.
-      Not too technical people are more likely to purchase the expensive addons like the $15 HDMI adapter. Shipping is also quite overpriced.
-
-      If they break even money-wise, which the probably won't, they still made a very good deal:
-      Amazing publicity and community-developed software.
-      After that they can go back to business as usual and sell it at a different retail price.
-    id: '955461397826902'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVE0zTWpnek1qUTJNekV4TXpnME9qRTBNekV4TWpVMk1URT0ZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFUxTkRZAeE16azNPREkyT1RBeU9qRTBNek0yT1RrM01qYz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFUxTkRFd09UTXhNVFkxTWpneU9qRTBNek0yT1RJd09EST0ZD
 attachments:
   data:
   - description: C.H.I.P. is the world's first $9 computer.
@@ -189,7 +156,7 @@ attachments:
         src: https://external.xx.fbcdn.net/safe_image.php?d=AQC7Hkl9YKaW3PZr&w=720&h=720&url=http%3A%2F%2Frack.3.mshcdn.com%2Fmedia%2FZgkyMDE1LzA1LzA3L2RkLzlkb2xsYXJjb21wLmQ3YjYyLmpwZwpwCXRodW1iCTk1MHg1MzQjCmUJanBn%2F999ef3fb%2Fa61%2F9dollarcomputer.jpg&cfs=1&_nc_hash=AQCNtJe88F0SwL6R
         width: 534
     target:
-      url: http://l.facebook.com/l.php?u=http%3A%2F%2Fmashable.com%2F2015%2F05%2F07%2Fchip-tiny-computer%2F%3Futm_cid%3Dmash-com-fb-tech-link&h=ATNrWAsc3zDQOU-94gz8sLY-n8ZhWccC3Pjhv5Cmqnad7Wk0VFWgRkdizOOVskuXz2fv4Rd8CD6vFipweUqnESFbJRCZAHTqxiARcGN3Abf9TiDrhczC&s=1
+      url: http://l.facebook.com/l.php?u=http%3A%2F%2Fmashable.com%2F2015%2F05%2F07%2Fchip-tiny-computer%2F%3Futm_cid%3Dmash-com-fb-tech-link&h=ATMWB-2o__qZVuNyzotYDw6XyZiC7_Drbw6Le-PBMH40vG3pHKKcHoZq9c5GZ7LdB2NKnVAYGG1MoiPoKl_X6ucV5yfyvhrNbDTds7loR-JPFjzWQjrH&s=1
     title: C.H.I.P. — the super tiny computer that only costs $9
     type: share
-    url: http://l.facebook.com/l.php?u=http%3A%2F%2Fmashable.com%2F2015%2F05%2F07%2Fchip-tiny-computer%2F%3Futm_cid%3Dmash-com-fb-tech-link&h=ATNrWAsc3zDQOU-94gz8sLY-n8ZhWccC3Pjhv5Cmqnad7Wk0VFWgRkdizOOVskuXz2fv4Rd8CD6vFipweUqnESFbJRCZAHTqxiARcGN3Abf9TiDrhczC&s=1
+    url: http://l.facebook.com/l.php?u=http%3A%2F%2Fmashable.com%2F2015%2F05%2F07%2Fchip-tiny-computer%2F%3Futm_cid%3Dmash-com-fb-tech-link&h=ATMWB-2o__qZVuNyzotYDw6XyZiC7_Drbw6Le-PBMH40vG3pHKKcHoZq9c5GZ7LdB2NKnVAYGG1MoiPoKl_X6ucV5yfyvhrNbDTds7loR-JPFjzWQjrH&s=1

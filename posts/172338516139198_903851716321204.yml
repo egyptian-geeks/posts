@@ -44,27 +44,12 @@ reactions:
       after: TVRNMU5EWTBPREUzTkRveE5ESTFOREk1TVRFM09qSTFOREE1TmpFMk1UTT0ZD
 comments:
   data:
-  - created_time: '2015-03-04T22:58:55+0000'
-    from:
-      name: Ahmad Fatoum
-      id: '1356410114464931'
-    message: void main -_-
-    id: '904323536274022'
   - created_time: '2015-03-04T23:06:58+0000'
     from:
       name: Mohamed Samy
       id: '10160396852830355'
     message: Ahmad Fatoum so?
     id: '904326052940437'
-  - created_time: '2015-03-04T23:36:19+0000'
-    from:
-      name: Ahmad Fatoum
-      id: '1356410114464931'
-    message: More often than not, it's a sign of unportable/obsolete coding practices
-      (especially that int main was standardized 26 years ago now). I would stay clear
-      of anything that advocates its use; there are enough standard conforming resources,
-      that others can (and should) be ignored.
-    id: '904334009606308'
   - created_time: '2015-03-04T23:42:28+0000'
     from:
       name: Mohamed Samy
@@ -104,34 +89,6 @@ comments:
       but even in Uni there was no fuss. Anyway, the point is, the algorithm implementation
       is too much of a benefit to miss over this small mistake if we can call it that
     id: '904338309605878'
-  - created_time: '2015-03-05T00:54:05+0000'
-    from:
-      name: Ahmad Fatoum
-      id: '1356410114464931'
-    message: "Well, I didn't expect you to agree but as you put effort into answering
-      me, I will try it nonetheless :)\nA good reference code, I would entrust a beginner
-      with should:\n- not use compiler extensions (especially not of an obsolete compiler)\n-
-      should not have security vulnerabilities (buffer overflows is the only thing
-      I spotted though)\n- should mitigate undefined behavior (out-of-bounds-access,
-      division-by-zero)\n- should be as portable as possible (Seriously, if every
-      example ends with getch(), I doubt the author knows how to use a terminal properly)\n-
-      should be clean, neat and interview-level material (one example: no unnecessary
-      casts; one snippet has a rare sight of a cast that actually hides a bug, that
-      would make the program crash on systems where sizeof(int) != sizeof(void*).
-      64-bit Linux is an example of such a system; have fun debugging that)\n- should
-      not use obsolete headers, should not use non-standard functions in standard
-      headers\n\nNone of the examples seem to satisfy the above points.\nI just looked
-      for easily spotted things and didn't follow the flow of the algorithms, so I
-      can't say how it would be performance-wise.\n\nWhat I can say that's not C I
-      would recommend to someone. That's badly-written Turbo C++ for DOS, which despite
-      still being used academically in India and some Arab countries, ought to die.
-      Discouraging its use is a step nearer to that.\n\n(And yes I do know standard-conformance
-      is not always possible/needed. I use GNU extensions extensively at work/private,
-      but at least I can justify it (embedded systems or other low level stuff) and
-      I do know that some of what I write is not \"real\" C. \nExamples meant for
-      a beginner on the other hand should be correct and compilable with any conforming
-      C compiler)."
-    id: '904357079604001'
   - created_time: '2015-03-05T01:07:29+0000'
     from:
       name: Mohamed Samy
@@ -145,26 +102,10 @@ comments:
       to the Author :) now you made me feel like this is more "bershamat qabl imti7an"
       at uni :)
     id: '904360536270322'
-  - created_time: '2015-03-05T01:27:00+0000'
-    from:
-      name: Ahmad Fatoum
-      id: '1356410114464931'
-    message: |-
-      I am using windows actually. Too much of a game addict to leave the dark side :(
-      I am not sure what you mean with reference implementation here, but a good C resource is http://cppreference.com. Quite a bit of it is also available in Arabic (http://ar.cppreference.com).
-
-      Freenode's ##C channel has a useful website with resources:
-      http://www.iso-9899.info/wiki/Software
-      Personally, I didn't have the need to use an integrated environment yet; I am quite content with VIM mode and + gcc/clang + some plugins, I might switch to CLion though when it's production-ready (academic free license, yay!). Other good options are in the link above.
-
-      And feel free to use what I wrote. I doubt the developer would care enough though.
-
-      But now I think, I understand what you mean with reference implementation. I got no idea where to get good C implementations of basic algorithms. Maybe Rosetta Stone? having a Wiki format should ensure not too awful code, I guess.
-    id: '904365069603202'
   paging:
     cursors:
-      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEEwTXpJek5UTTJNamMwTURJeU9qRTBNalUxTURrNU16VT0ZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEEwTXpZAMU1EWTVOakF6TWpBeU9qRTBNalUxTVRnNE1qQT0ZD
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEEwTXpJMk1EVXlPVFF3TkRNM09qRTBNalUxTVRBME1UZAz0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEEwTXpZAd05UTTJNamN3TXpJeU9qRTBNalUxTVRjMk5Eaz0ZD
 attachments:
   data:
   - media:
@@ -173,7 +114,7 @@ attachments:
         src: https://external.xx.fbcdn.net/safe_image.php?d=AQDg6ZNcjoWrqndU&w=720&h=720&url=https%3A%2F%2Flh5.ggpht.com%2FbM1dFCngU6X-MvCAWQuAAV_zYpj8RTl3d68JD2Q2B43R_HRKETc3EQPWxXP57blwMyEh%3Dh900&cfs=1&_nc_hash=AQBnvAy5AveW1UTw
         width: 720
     target:
-      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.codeguys.codebox&h=ATPK0tsA-L-lzZ8eUD6oG2phcHZ2GcgZKX60fqGItQZ6BxPi2c97ore8XplbOR3L4lDJHp_gCdGdSO1HObzgtgNcIwuBEftDB1oqRM3IxdqfDIWEWnQd&s=1
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.codeguys.codebox&h=ATNuZRtC9egTxVVgnkVN5bhpjehInXUltQxpTQB2VIgxcuSKtwdxb-1aBb410Of_ZoCmGVZr7wA4s7WZItI90vEhTBg7EykFVj2ahjboqkR3WphpUNBe&s=1
     title: Codebox
     type: share
-    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.codeguys.codebox&h=ATPK0tsA-L-lzZ8eUD6oG2phcHZ2GcgZKX60fqGItQZ6BxPi2c97ore8XplbOR3L4lDJHp_gCdGdSO1HObzgtgNcIwuBEftDB1oqRM3IxdqfDIWEWnQd&s=1
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.codeguys.codebox&h=ATNuZRtC9egTxVVgnkVN5bhpjehInXUltQxpTQB2VIgxcuSKtwdxb-1aBb410Of_ZoCmGVZr7wA4s7WZItI90vEhTBg7EykFVj2ahjboqkR3WphpUNBe&s=1

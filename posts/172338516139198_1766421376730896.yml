@@ -1,0 +1,35 @@
+---
+message: "Hello,\nI've an android application which connects to my Ruby On Rails application
+  and I'm using Nginx as a web server & a free ssl certificate from let's encrypt
+  , my application is live on store since last october but suddenly users started
+  reporting that the app isn't always working on Etisalat UAE Mobile Data Connection,
+  the app works sometimes but sometimes it isn't working, i've started debugging and
+  found that when the application isn't working my application sends https requests
+  successfully but this request doesn't hit server, i thought it's an ssl issue so
+  i've implemented an ssl pinning. but still face the same issues, \nhere's my sslabs
+  analysis.\n\nany ideas about this issue? the application is working fine on WIFI
+  Connections , the only issue with mobile data from Etisalat UAE , i want to contact
+  them but i don't know what to say."
+link: https://www.ssllabs.com/ssltest/analyze.html?d=klubkangaroo.com
+from:
+  name: Ahmed A. Ibrahim
+  id: '10214818255267156'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQBHITB8gbz7K50P&w=130&h=130&url=https%3A%2F%2Fssllabs.com%2Fimages%2Fqualys-ssl-labs-logo.png&cfs=1&_nc_hash=AQDIDhUVJ8T_0yCm
+created_time: '2018-02-27T14:40:47+0000'
+updated_time: '2018-02-27T14:40:47+0000'
+name: 'SSL Server Test: klubkangaroo.com (Powered by Qualys SSL Labs)'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1766421376730896/
+id: '172338516139198_1766421376730896'
+attachments:
+  data:
+  - media:
+      image:
+        height: 230
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQDxEFe_MA3CphS0&w=720&h=720&url=https%3A%2F%2Fssllabs.com%2Fimages%2Fqualys-ssl-labs-logo.png&cfs=1&_nc_hash=AQBU0McZ1oFdB-YU
+        width: 230
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.ssllabs.com%2Fssltest%2Fanalyze.html%3Fd%3Dklubkangaroo.com&h=ATPhIIvO2rpM8pKNETyaIM05YanpzkM4bHBTy4GBEZ_h1zyLK5bdzcboUw-HtFf-f8lqnRuvwQs-mLTK6Es30IX0ovW-HqLfagpYJ25RliJ3g-yDtxVS&s=1
+    title: 'SSL Server Test: klubkangaroo.com (Powered by Qualys SSL Labs)'
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.ssllabs.com%2Fssltest%2Fanalyze.html%3Fd%3Dklubkangaroo.com&h=ATPhIIvO2rpM8pKNETyaIM05YanpzkM4bHBTy4GBEZ_h1zyLK5bdzcboUw-HtFf-f8lqnRuvwQs-mLTK6Es30IX0ovW-HqLfagpYJ25RliJ3g-yDtxVS&s=1

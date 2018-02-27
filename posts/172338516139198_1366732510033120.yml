@@ -22,15 +22,6 @@ comments:
       id: '379428549186517'
     message: anyone could help?
     id: '1367921303247574'
-  - created_time: '2017-01-27T07:09:08+0000'
-    from:
-      name: Ahmad Fatoum
-      id: '1356410114464931'
-    message: |-
-      Yes, you can have content-encoding and content-length, but you can't have Transfer-Encoding: chunked as well as content-length (nor do you need to).
-
-      No experience with spring.
-    id: '1367933069913064'
   - created_time: '2017-02-25T13:20:17+0000'
     from:
       name: Ahmed Mūsā

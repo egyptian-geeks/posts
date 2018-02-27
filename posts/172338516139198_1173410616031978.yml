@@ -37,28 +37,11 @@ reactions:
     cursors:
       before: TVRBd01EQXhNams0T0RJNE1qQXpPakUwTmpjME9EQXhOelU2TWpVME1EazJNVFl4TXc9PQZDZD
       after: T0RJME5qZAzFNRFUzT2pFME5qYzBNell3TlRjNk1qVTBNRGsyTVRZAeE13PT0ZD
-comments:
-  data:
-  - created_time: '2016-07-02T11:01:53+0000'
-    from:
-      name: Ahmad Fatoum
-      id: '1356410114464931'
-    message: |-
-      Heh, I was implementing a simple TCP service once and couldn't get it to work. At first I thought, the hardware was at fault, but then I grepped through the code base and found other instance of doing TCP without a problem. The socket calls where all protected by semaphores, a total waste for system calls but if it makes the original programmer feel safer, why not?
-
-      Turns out, the other module where TCP worked, among the dozens of includes, included a header defining macros that shadowed the socket syscalls, and instead did all the TCP/IP processing in userspace and finally stuffed the frames into a kernel-side message queue, which just blew them out the NIC.
-
-      I stil don't know why (I guess "well, it was working, so when we switched to Linux we just ported our old stack as well"), but I have trust issues ever since.
-    id: '1173557526017287'
-  paging:
-    cursors:
-      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUzTXpVMU56VXlOakF4TnpJNE56b3hORFkzTkRVM016RXoZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUzTXpVMU56VXlOakF4TnpJNE56b3hORFkzTkRVM016RXoZD
 attachments:
   data:
   - description: Why do we use the Linux kernel's TCP stack? I'm at PolyConf ...
     target:
-      url: http://l.facebook.com/l.php?u=http%3A%2F%2Fjvns.ca%2Fblog%2F2016%2F06%2F30%2Fwhy-do-we-use-the-linux-kernels-tcp-stack%2F&h=ATMI5sVKroDnCqqVMUu2PD5OxaKmrkn7GGdgm1-L3n3dS9hGpsE8k27TWjJyU94lLpvGf8ZJzF-oPyXyYU8_N3bo8qWD93T9Q9-fImQESIa_cjd5UvDd&s=1
+      url: http://l.facebook.com/l.php?u=http%3A%2F%2Fjvns.ca%2Fblog%2F2016%2F06%2F30%2Fwhy-do-we-use-the-linux-kernels-tcp-stack%2F&h=ATMJwZNLByKY8vjNJ2OHxxXgszSrlJggZx7k13Ip2tY3YJm1Fgq_U3b1M8SYoIaqMmEr2np0VXOFM9FT7kQpV64c6tJJwmxmRioq14n6aEZhXt4hR9Ii&s=1
     title: Why do we use the Linux kernel's TCP stack? - Julia Evans
     type: share
-    url: http://l.facebook.com/l.php?u=http%3A%2F%2Fjvns.ca%2Fblog%2F2016%2F06%2F30%2Fwhy-do-we-use-the-linux-kernels-tcp-stack%2F&h=ATMI5sVKroDnCqqVMUu2PD5OxaKmrkn7GGdgm1-L3n3dS9hGpsE8k27TWjJyU94lLpvGf8ZJzF-oPyXyYU8_N3bo8qWD93T9Q9-fImQESIa_cjd5UvDd&s=1
+    url: http://l.facebook.com/l.php?u=http%3A%2F%2Fjvns.ca%2Fblog%2F2016%2F06%2F30%2Fwhy-do-we-use-the-linux-kernels-tcp-stack%2F&h=ATMJwZNLByKY8vjNJ2OHxxXgszSrlJggZx7k13Ip2tY3YJm1Fgq_U3b1M8SYoIaqMmEr2np0VXOFM9FT7kQpV64c6tJJwmxmRioq14n6aEZhXt4hR9Ii&s=1

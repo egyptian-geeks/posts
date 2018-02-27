@@ -339,16 +339,16 @@ attachments:
         title: CentOS
         type: option
       - target:
-          id: '622114134660158'
-        title: Debian
-        type: option
-      - target:
           id: '444185552602260'
         title: Hackintosh اكرملي من ويندوز ٨ و انت طالع
         type: option
       - target:
           id: '1878812259060248'
         title: Whatever distro "you" are productive using.
+        type: option
+      - target:
+          id: '453697414976155'
+        title: Fedora
         type: option
     target:
       id: '1460233460683024'

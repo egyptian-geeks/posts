@@ -18,16 +18,6 @@ comments:
     message: i want to control only the access of any phone or laptop to a real internet
       router but with a kit which can control any other circuit ...
     id: '1021378611235180'
-  - created_time: '2015-10-20T20:32:12+0000'
-    from:
-      name: Ahmad Fatoum
-      id: '1356410114464931'
-    message: |-
-      Looks like a XY problem*.
-      What do you _really_ want to accomplish?
-
-      [*] http://meta.stackexchange.com/a/66378
-    id: '1021906554515719'
   - created_time: '2015-10-20T20:45:54+0000'
     from:
       name: Mrehan Elshehawy
@@ -36,15 +26,6 @@ comments:
       in which i can generate ip addresses and passwords for amultiple users at the
       same time to have an internet access
     id: '1021910047848703'
-  - created_time: '2015-10-20T20:52:14+0000'
-    from:
-      name: Ahmad Fatoum
-      id: '1356410114464931'
-    message: |-
-      Why not use a stock hotspot and have the Arduino or whatever connect to it and use the admin console (e.g. TELNET if available, or at worst use the HTTP administration page).
-
-      You should really read about the XY Problem. The question might be clear but your intent and your details aren't.
-    id: '1021911921181849'
   - created_time: '2015-10-20T20:54:32+0000'
     from:
       name: Mrehan Elshehawy

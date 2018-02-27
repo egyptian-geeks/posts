@@ -200,17 +200,7 @@ comments:
       id: '2342288709130763'
     message: اتصلحت كده تمام؟
     id: '911455152227527'
-  - created_time: '2015-03-18T21:32:01+0000'
-    from:
-      name: Ahmad Fatoum
-      id: '1356410114464931'
-    message: |-
-      Depending on the mysql server, you might need to explicitly announce the encoding.
-      query("SET NAMES utf8")
-
-      There are many things to mess up doing UTF-8 cross-domain though, you would need to give more information if this doesn't work.
-    id: '911463385560037'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEV4TXpnd05EazFOVFk0TXpJMk9qRTBNalkzTURBMk9EUT0ZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEV4TkRZAek16ZAzFOVFl3TURNM09qRTBNalkzTVRRek1qRT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVEV4TkRVMU1UVXlNakkzTlRJM09qRTBNalkzTVRJNU1EWT0ZD
