@@ -36,20 +36,6 @@ comments:
       format (object container files)\nAs for Parquet integration I'm sorry I don't
       know anything about it."
     id: '1724271240945910'
-  - created_time: '2018-01-17T02:54:20+0000'
-    from:
-      name: Yahia Zakaria
-      id: '10155011766866836'
-    message: |-
-      Personally, I used Protobuff before for message serialization between multiple nodes (around 60 nodes) and the performance was good. Hadoop 2.0 (a.k.a YARN) uses protobuf for serializing many messages/hearbeats per second between the node managers, application master, and the resource manager, so I believe protobuf has a good performance. I don't how it works with Parquet.  Also, I found this answer that compares  Thrift and Protobuff  They both offer many of the same features; however, there are some differences:
-
-      Thrift supports 'exceptions'
-      Protocol Buffers have much better documentation/examples
-      Thrift has a builtin Set type
-      Protocol Buffers allow "extensions" - you can extend an external proto to add extra fields, while still allowing external code to operate on the values. There is no way to do this in Thrift
-      I find Protocol Buffers much easier to read
-      Basically, they are fairly equivalent (with Protocol Buffers slightly more efficient from what I have read). https://stackoverflow.com/questions/69316/biggest-differences-of-thrift-vs-protocol-buffers
-    id: '1724533240919710'
   - created_time: '2018-01-17T21:57:44+0000'
     from:
       name: Mohamed Radwan

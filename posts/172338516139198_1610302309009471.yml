@@ -24,3 +24,28 @@ reactions:
     cursors:
       before: TVRBd01EQTJOREEwTlRneE56STBPakUxTURVM016YzVOalk2TWpVME1EazJNVFl4TXc9PQZDZD
       after: TVRBd01EQTJOREEwTlRneE56STBPakUxTURVM016YzVOalk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2017-09-18T11:05:54+0000'
+    from:
+      name: Mohamed Yehia
+      id: '2018000971789529'
+    message: |-
+      Make sure that you have added Google's Maven Repo to your project as the earlier version of Firebase requires that.
+      You can this repo as following ...
+      Open your build.gradle File (Project level)
+      allprojects {
+          // ...
+          repositories {
+              // ...
+              maven {
+                  url "https://maven.google.com" // Google's Maven repository
+              }
+          }
+      }
+      Hope that Helps :D <3
+    id: '1610357479003954'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl4TURNMU56UTNPVEF3TXprMU5Eb3hOVEExTnpNeU56VTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl4TURNMU56UTNPVEF3TXprMU5Eb3hOVEExTnpNeU56VTQZD
