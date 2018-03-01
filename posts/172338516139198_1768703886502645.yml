@@ -1,0 +1,65 @@
+---
+message: |-
+  What's the output of the following code in JS?
+  ---
+  function swap(a, b) {
+    let temp = a;
+    a = b;
+    b = temp;
+  }
+
+  let a = 1, b = 2;
+  swap(a, b);
+  console.log(a, b);
+  ---
+  Take some time thinking about it.
+from:
+  name: Amr AbuMuslim
+  id: '10213109008032575'
+type: status
+created_time: '2018-03-01T20:04:56+0000'
+updated_time: '2018-03-01T22:26:28+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1768703886502645/
+id: '172338516139198_1768703886502645'
+reactions:
+  data:
+  - id: '2100352656854754'
+    name: Mahmoud Bakrey
+    type: LIKE
+  - id: '10210677331478648'
+    name: Khaled Mohamed
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTJOREF4TWpBME5EUXhPakUxTVRrNU5ERTVOVEU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRVd09USTBNemcyT1RveE5URTVPVFF4TXpNMk9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2018-03-01T20:11:54+0000'
+    from:
+      name: Ahmed Saleh
+      id: '10159933379005574'
+    message: I don't know JS passes by objects by reference or by value
+    id: '1768962223143478'
+  - created_time: '2018-03-01T20:11:57+0000'
+    from:
+      name: محمد سامح
+      id: '1939876439562345'
+    message: "القيم مش هتتغير عشان \nsend by value no reference"
+    id: '1768962279810139'
+  - created_time: '2018-03-01T22:26:10+0000'
+    from:
+      name: Belal Mohy
+      id: '10215210219756891'
+    message: '1,2'
+    id: '1769067219799645'
+  - created_time: '2018-03-01T22:26:24+0000'
+    from:
+      name: Belal Mohy
+      id: '10215210219756891'
+    message: try it in the browser console man
+    id: '1769067439799623'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMyT0RrMk1qSXlNekUwTXpRM09Eb3hOVEU1T1RNMU1URTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMyT1RBMk56UXpPVGM1T1RZAeU16b3hOVEU1T1RRek1UZAzEZD
