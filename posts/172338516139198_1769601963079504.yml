@@ -1,0 +1,264 @@
+---
+message: "عندي سؤال بسيط \nانا شغال في شركة بتعمل ERP Systems وشغالين microsoft sql
+  server ...\nالسؤال بالنسبة للداتابيز احنا كنا شغالين من غير relations في الداتابيز
+  واحنا بنعمل ال relations و ال constrains في الكود..حاليا في حد جديد جي الشركة فبيقول
+  ان الكلام دا غلط وحيسبب مشاكل وان الافضل الrelations تكون في الdatabase ؟\nايه رايكم
+  ؟"
+from:
+  name: Ahmed Salah
+  id: '10214848722673633'
+type: status
+created_time: '2018-03-02T11:00:46+0000'
+updated_time: '2018-03-02T21:40:56+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1769601963079504/
+id: '172338516139198_1769601963079504'
+reactions:
+  data:
+  - id: '2121265251427161'
+    name: Mohamed Elgendy
+    type: LIKE
+  - id: '2043781948966114'
+    name: Hassan Aboueldahab
+    type: LIKE
+  - id: '997147337105427'
+    name: Sara Esam
+    type: LIKE
+  - id: '10159847733870510'
+    name: Mohammed Hashish
+    type: LIKE
+  - id: '1738726572854077'
+    name: Muhammed Mamdouh
+    type: LIKE
+  - id: '10155678609406281'
+    name: Hossam Ahmed Mohammed
+    type: LIKE
+  - id: '871016873079772'
+    name: Marwan Ahmed
+    type: LIKE
+  - id: '588071778205236'
+    name: Hassan El-shazly
+    type: LIKE
+  - id: '10214609459461204'
+    name: Mohamed Momen
+    type: LIKE
+  - id: '10155121705651135'
+    name: Ahmed Abul Khair
+    type: LIKE
+  - id: '2101901136700019'
+    name: Islam Mansour
+    type: LIKE
+  - id: '1999765416908747'
+    name: Ahmed Khalifa
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTJNekV4TVRrNE1UZAzVPakUxTWpBd016QXhNRFU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTJNalU1TWpNNE9EVXlPakUxTVRrNU9UQXpPVFE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2018-03-02T11:05:44+0000'
+    from:
+      name: معتز الزعبي
+      id: '1353212641450189'
+    message: "بكل التأكيد وجود الريليشن بالداتا بيز حاجة مهمة ومفيدة عشان Data integrity
+      وعدم وجودها هيضيف مجهود اضافي على الديفيلوبرز عشان يهندلو الموضوع ده برمجيا\nوالديفيلوبر
+      انسان في الاخر وممكن ينسى \nبس في ارض الواقع ممكن يكون في حاجات بتخلي الشركات
+      تضطر انها تشيل الريلشنز ودي حاجة بتكون معتمدة على الكيس اللي بتكون الشركة شغالة
+      بيها\n\nفلو كان ليكم اسباب قاهرة خلتكم تشيلو الريليشنز فلاحول ولاقوة\nاما لو
+      مفيش اسباب منطقية للكلام ده فلاء لازم ترجعو الريليشنز اكيد افضل"
+    id: '1769608119745555'
+  - created_time: '2018-03-02T11:08:49+0000'
+    from:
+      name: Ahmed Mamdouh Mohammed
+      id: '10156048391239709'
+    message: Mohamed Ali Sadek
+    id: '1769611823078518'
+  - created_time: '2018-03-02T11:09:13+0000'
+    from:
+      name: Ahmed Mudhar
+      id: '1811551685586388'
+    message: انت حرفياً سألت السؤال في نفس ذات اللحظة الي انا اصلا قاعد بقرأ فيها
+      عن ال data integrity :D و هو دة السبب الرئيسي لانك تعمل ال relations من الاساس
+      عشان تضمن ال entity integrity و ال referential integrity زي ما تفضل الاستاذ
+      معتز في اول كومنت
+    id: '1769612413078459'
+  - created_time: '2018-03-02T11:12:03+0000'
+    from:
+      name: Tamer Ahmed Farrag
+      id: '10155728986869342'
+    message: بالإضافة الى عمل Relations فى قاعدة البيانات يفضل ان تكون معظم عمليات
+      التعامل مع البيانات فى قاعده البيانات نفسها عن طريق استخدام ال triggers و stored
+      procedure
+    id: '1769616026411431'
+  - created_time: '2018-03-02T11:12:46+0000'
+    from:
+      name: Tamer Ahmed Farrag
+      id: '10155728986869342'
+    message: ده هيريح المبرمجين جدا و يخليهم يركزوا فى ال GUI و المهام الاخرى
+    id: '1769616493078051'
+  - created_time: '2018-03-02T11:14:40+0000'
+    from:
+      name: Omar Abdelkader
+      id: '2186710791556561'
+    message: "."
+    id: '1769618039744563'
+  - created_time: '2018-03-02T11:15:10+0000'
+    from:
+      name: Mahmoud Soliman
+      id: '10156072410052065'
+    message: |-
+      اي حاجه تطلب منك انك تعملها وينفع تعملها كود او database
+
+      في الأغلب بيكون database اصعب بس اسهل من ناحية ال maintainance وال change
+    id: '1769618456411188'
+  - created_time: '2018-03-02T11:29:30+0000'
+    from:
+      name: Tarek Omar
+      id: '10154987014676459'
+    message: |-
+      من غير ريليشن الاداء اسرع..على الداتابيز
+      انت ماتحكمش الموضوع كده
+      انت تعمل انالسيز لكل كيس ايه اللى هتكسبه و تخسره و المجهود المطلوب و تشوف انهى افضل
+    id: '1769629163076784'
+  - created_time: '2018-03-02T11:37:26+0000'
+    from:
+      name: Tawfik Elsayed
+      id: '289933101530067'
+    message: Sara Essam طب ينفع كده
+    id: '1769634133076287'
+  - created_time: '2018-03-02T11:48:28+0000'
+    from:
+      name: Omar Ibrahim
+      id: '10116066877056474'
+    message: افرض في bug في الكود او حد دخل data من برا الcode زي import او غيره؟
+      اتعب دلوقتي بدل ما تضيع وقت قدام في issues يطلع عينك عقبال ما تعرف بالصدفة ان
+      في data مش مظبوطة.
+    id: '1769643513075349'
+  - created_time: '2018-03-02T11:58:26+0000'
+    from:
+      name: Mohammad Alaa
+      id: '10213244361557548'
+    message: إلي أنتوا بتعملوه صح
+    id: '1769651466407887'
+  - created_time: '2018-03-02T12:05:30+0000'
+    from:
+      name: Ahmed Amr Farid
+      id: '10155859538230336'
+    message: |-
+      طيب الموضوع ده شائك شوية بين مدرسه الفصل التام بين ال 3 tiers بمبدا حط ال business rules في ال application server و سيب الداتابيز مجرد حصاله بيانات، و بين اللي بيقولك لازم ال business rules تبقي في الحصاله نفسها؛ و ده بيخلي ال data integrity اعلي بس بيعلي الحمل عليها؛  و بيصعب ان البرنامج بتاعك يتعامل مع اكتر من نوع قواعد بيانات...
+      عموما اللي انا ارشحه انك تحط ال business rules في ال app server الاول و بعد كده لو التصميم يحطها تاني في ال database نفسها؛ و  بكده تخف الحمل عن الحصاله لان البيانات حتجيلها متظبطه، و تبقي ال databse rules خط دفاع اخير يستعمل قليل جدا...
+    id: '1769657209740646'
+  - created_time: '2018-03-02T12:05:48+0000'
+    from:
+      name: Osama Mahmoud
+      id: '10155859631366413'
+    message: هيا مدارس يا هندسه من ضمن الحاجات اللي لازم تحطها في حسبانك النيتورك
+      و كمان السيرفرات اللي عليها الداتا بيز عشان تقول ايه الصح و ايه الغلط لازم تحلل
+      كل حاجه عندك و
+    id: '1769657379740629'
+  - created_time: '2018-03-02T12:46:24+0000'
+    from:
+      name: Mohammed Ragab
+      id: '2020898428198432'
+    message: يعنى ايه الريلشن فى الكود قصدك شغالين EF code first ولا قصدك انهم مفيش
+      ريلشن من اصله غالب ظنى انكم شغالين كود فيرست بentity framework ودا مبيكونش الريلشن
+      فى الكود ولاحاجة خو بيكون فى الداتا بيس بردوا انما الميجريشن والتعديلات على
+      الداتا بيس بيتم من الموديل
+    id: '1769691019737265'
+  - created_time: '2018-03-02T13:40:48+0000'
+    from:
+      name: Mohamed Galal
+      id: '10214458339193134'
+    message: |-
+      عدم عمل relations في قاعدة البيانات حاجة خطيرة جدا وبتهدد سلامة البيانات في المدي البعيد
+      لعدة اسباب
+      اولا وجود علاقات بيضمن ال data integrity من قاعدة الببانات نفسها وده بيضمن انك لو عدلت الكود مثلا ونسيت حاجة قاعدة البيانات هتامنك
+      ثانيا مشاكل ال consistency اللي ممكن تحصل نتيجة تلف في الهار ديسك مثلا اللي بتتحل عن طريق ال checkdb command هتستخدمها ازاي ؟ ودي حاجة بتحصل كتير
+      وطبعا بما انكم مش عاملين relations اعتقد ان مفيش unique keys مثلا لمنع تكرار البيانات المهمة ، طيب افرض انت بعد ما طلعت السيستم عايز تعمله deployment علي web farm او web guard هتعمل ايه لو كذا بروسس بتكتب في نفس الوقت او حتي لو كذا thread هتعملك مشاكل كبيرة جدا
+
+      فكرة اصلا انك بتستخدم relational db انك بتستفيد من امكانيتها عشان توفر وقت وكمان تاخد نتيجة احسن
+      انا فعلا قابلت سيستمز قديمة جدا كانت معمولة بدون relations بس كانت دايما فيها مشاكل
+    id: '1769738073065893'
+  - created_time: '2018-03-02T15:29:37+0000'
+    from:
+      name: Rehab Abd El Hamid
+      id: '10156142064603385'
+    message: Yes for sure rekation on db more stable and to be able to name the constraint
+      and when exception occur  the constrain name appear in consol not generated
+      one change from run to.run which is imposdible for debugging also in any case
+      some one updared data from db directly not from application this will cause
+      unconsistent data as no relation force its correction besides if u will migrate
+      into another db in the future for sure it is easier to do that and what about
+      indices and faster performance and all db features
+    id: '1769837243055976'
+  - created_time: '2018-03-02T15:39:56+0000'
+    from:
+      name: Mhmd Abdel-tawab
+      id: '10155051418251360'
+    message: Amr Elwany
+    id: '1769847266388307'
+  - created_time: '2018-03-02T16:15:18+0000'
+    from:
+      name: Alaa Ezzat
+      id: '10156074051141565'
+    message: "كلام زميلكم اللي جاي جديد مظبوط جدا\n\nاولا ده بيخلي ال dependencies
+      في الداتا بيز واضحه جدا ، فمثلا لو بتعمل impact analysis لتعديل في table بيبقي
+      سهل تجيب كل ال tables التانيه اللي هتتاثر بالتعديل ده\n\nو بيضمن الداتا انتجريتي
+      ، مينفعش انك تسيب مسئولية ال data integrity عاللي بيكتب الكود و تبقي عرضه للخطأ
+      البشري ، هيحصل ان حد يدخل داتا غلط و تسبب ان حاجات تانيه تضرب عالبروداكشن مثلا\n\nو
+      لو حد لسبب ما بيعدل بايده في الداتابيز حتي و لو للتجربه هتضمن انه ميقدر يكسر
+      تكامل بياناتك بالغلط\n\nو فيه برامج مثلا بتملا داتا في ال tables للتيست البرامج
+      دي بتفشل لو الريليشنز مش مظبوطه\n\nفي برامج بتعمل sanitization للداتا زي مثلا
+      انها تخبي ارقام الكروت عشان لو بتجيب داتا من البروداكشن للتيست ، برضه دي هتفشل
+      لو مفيش ريليشنز\n\nلو استعملت orm مش هيعرف يربط الentites ببعضها من غير منتا
+      تلف بايدك تعرف الروابط دي \n\nاللي فوق ده جزء من مشاكل ان مفيش ريليشنز  ، ايه
+      بقي اللي بتستفيده لو مفيش\n\nحاجه واحده بس هي ان الاداء بيبقي اعلي سنه صغيره
+      في الinsert و ال update عشان الداتابيز انجن  بتتاكد ان فعلا الvalue دي مبتكسرش
+      الريليشن ، و ده غالبا انت بتعمله بايدك لانك مسئول من غير ريليشنز انك تتاكد من
+      الموضوع ده\n\nيعني مبتستفيدش حاجه"
+    id: '1769880393051661'
+  - created_time: '2018-03-02T17:21:23+0000'
+    from:
+      name: Mohamed Kamal Soliman
+      id: '10155035829642007'
+    message: كلام ال حد الجديد صح جدا
+    id: '1769931379713229'
+  - created_time: '2018-03-02T17:40:37+0000'
+    from:
+      name: Mohamed Hamed Akef
+      id: '807046759356351'
+    message: انا هوضح حته بسيطه زياده على كلام الناس الي فوق بشكل مبسط ان الdb دي
+      خط الدفاع الاخير عن الداتا بتعتك انها تكون سليمه فأنتا المفوض تعمل خطوط من اول
+      الfront-end بالjs و بعدها الserver يتأكد تاني بشكل اوسع و بعدها الdb بشكل محدود
+      لكنو فعال و مهم و عشان يتأكد ان الداتا الي جيه سليمه و مقبوله لازم كل الlayers
+      تشتغل مع بعض و متعتمدشي على layer واحد بس بالذات في مشروع زي الي انت شغال عليه
+      ده
+    id: '1769946476378386'
+  - created_time: '2018-03-02T19:39:17+0000'
+    from:
+      name: Hisham Fangary
+      id: '10156660518155839'
+    message: |-
+      Any relational database like SQL server has to be designed with: Relations, indexes, primary keys & foreign keys, constraints & basic data type validation in the DB.
+      Then, once your structure is created, you need to create stored prodecures, functions, and views and mostly only use them for data access (as opposed to directly selecting from several tables and doing a join). Using indexes and stored procedures optimizes your queries and greatly increases performance.
+
+      Then, create triggers to maintain history tables among others.
+
+      This is how an optimal DB is supposed to run, everything that requires any data processing should be done DB side as much as possible because the performance gain is quite substantial.
+    id: '1770045796368454'
+  - created_time: '2018-03-02T20:58:46+0000'
+    from:
+      name: Mohamad Ahmad Abdelfatah
+      id: '2192196647460847'
+    message: |-
+      اتطلب مني اعمل سيستم جديد بدل سيستم معمول من 14 سنة
+      و اعمل migration للداتا القديمة
+      المهم.. دخلت الداتابيز.. مافيش relations بين ال tables
+      و الموضوع معمول له handling من الكود
+      ==
+      الخلاصة.. عشان مايجيش حد يدعي عليك.. و تبقى الداتا بتاعتك مخربأة و مخرتأة و فيها كل الكلمات اللي على وزن مخربأة و مخرتأة : ماتعملش ال relationships في الكود
+    id: '1770106193029081'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMyT1RZAd09ERXhPVGMwTlRVMU5Ub3hOVEU1T1RnNE56UTEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMzTURFd05qRTVNekF5T1RBNE1Ub3hOVEl3TURJME16STMZD

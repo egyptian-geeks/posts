@@ -14,13 +14,25 @@ from:
   id: '10212826240185281'
 type: status
 created_time: '2017-03-01T16:35:59+0000'
-updated_time: '2017-03-02T21:51:44+0000'
+updated_time: '2018-03-02T09:18:33+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1405749259464778/
 shares:
   count: 2
 id: '172338516139198_1405749259464778'
 reactions:
   data:
+  - id: '1991655244385769'
+    name: Hanan Abozaid
+    type: LIKE
+  - id: '871016873079772'
+    name: Marwan Ahmed
+    type: LIKE
+  - id: '1999765416908747'
+    name: Ahmed Khalifa
+    type: LIKE
+  - id: '1978009525783037'
+    name: Ahmed Magdy
+    type: LIKE
   - id: '10156350315693322'
     name: Ahmed Salah Mohamed
     type: LIKE
@@ -110,7 +122,7 @@ reactions:
     type: LIKE
   paging:
     cursors:
-      before: T0RFMk1UVTRNekl4T2pFMU1UazVNemt3TXpNNk1qVTBNRGsyTVRZAeE13PT0ZD
+      before: TVRBd01EQTJNak01TXpjd01qZAzJPakUxTVRrNU9EazFNVEE2TWpVME1EazJNVFl4TXc9PQZDZD
       after: TVRBd01EQXdOak15TWpBek56WTRPakUwT0Rnek9EWXlNalU2TWpVME1EazJNVFl4TXc9PQZDZD
 comments:
   data:
@@ -364,7 +376,31 @@ comments:
 
       polymprphism is easier when using ORMs w kaman el object oriented style is more intuitive maling it easier for all the developers working on a project with different skill levels
     id: '1406918309347873'
+  - created_time: '2018-03-02T09:06:39+0000'
+    from:
+      name: Ahmed Khalifa
+      id: '1999765416908747'
+    message: "انا شايف معظم الناس بتقول ان فايده ال ORM علشان لو غيرت الداتابيز !!!
+      .. فانا هاكتب اللي انا فهمته و قراته قبل كده عن ال ORM وياريت لو في خطا خد يصحح
+      لي.. \nال ORM وظيفته الاساسيه في انه ينقل بيانات بين نظامين مختلفين..الاول بيكون
+      داتابيز DBMS والتاني بيكون لغه برمجه مبنيه علي ال oop .. يعني علي سبيل المثال
+      عندك في sql server ممكن تلافي انواع داتا كتير بتمثل الارقام زي tiny integer
+      و big integer .. في حين ان في السي شارب بتلاقي مثلا byte او int او long .. انت
+      محتاج حد يهندل الكلام ده و يعرف علي سبيل المثال ان bit في سكول سيرفر هي ال bool
+      في سي شارب \n******\nطبعا غير الوظايف التانيه انه more secure وبيمنع ال sql
+      injection و كل الكلام ده \n×**********\nام لو عايز انقل بيانات ما بين لغه برمجه
+      ولغه برمجه تانيه عامه فابستخدم ال XML او json .. لان الاتنين بيقدروا يفهموها
+      و يترجموها"
+    id: '1769518479754519'
+  - created_time: '2018-03-02T09:18:27+0000'
+    from:
+      name: Marwan Abdel Moneim
+      id: '408695269572490'
+    message: Personally I use jet https://github.com/eaigner/jet, and I have no problems
+      writing sql. Acually it makes you feel you are closer to the database and have
+      more control and awareness on what is happening.
+    id: '1769525753087125'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF3TlRjMU1qUTRNamM1TnpjNE9Ub3hORGc0TXpnMk5ERXgZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF3TmpreE9ETXdPVE0wTnpnM016b3hORGc0TkRreE5UQXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMyT1RVeU5UYzFNekE0TnpFeU5Ub3hOVEU1T1RneU16QTQZD

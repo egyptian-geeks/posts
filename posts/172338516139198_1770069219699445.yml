@@ -1,0 +1,45 @@
+---
+message: |-
+  Akamai had reported the largest public DDoS attack ever known, which was resulted by Memcached responses.
+  They conjecture this will not be the last one.
+link: https://blogs.akamai.com/2018/03/memcached-fueled-13-tbps-attacks.html
+from:
+  name: Khaled M. Diab
+  id: '10215626626127168'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQCBRSY_zgWIycD4&w=130&h=130&url=https%3A%2F%2Flh3.googleusercontent.com%2FRQwJ_9OQr4m4HsKsBmzJyzWDg05GgUqv2DcdAhhff-_SNWcFcAno0fcPfr6BsvNZxl4j-3goK7fkO6YCYWxtj6HBZu4Mez_eTQ10DxkGx7J4hLEHvGDFWeiKr0QWvS89XdJbHEQl&cfs=1&_nc_hash=AQAiW7tSRZOlxkG8
+created_time: '2018-03-02T20:20:11+0000'
+updated_time: '2018-03-02T20:20:45+0000'
+name: Memcached-fueled 1.3 Tbps attacks
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1770069219699445/
+shares:
+  count: 1
+id: '172338516139198_1770069219699445'
+comments:
+  data:
+  - created_time: '2018-03-02T20:20:43+0000'
+    from:
+      name: Khaled M. Diab
+      id: '10215626626127168'
+    message: 'It seems that Github was the customer: https://techcrunch.com/2018/03/02/the-worlds-largest-ddos-attack-took-github-offline-for-less-than-tens-minutes/'
+    id: '1770076259698741'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMzTURBM05qSTFPVFk1T0RjME1Ub3hOVEl3TURJeU1EUXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMzTURBM05qSTFPVFk1T0RjME1Ub3hOVEl3TURJeU1EUXoZD
+attachments:
+  data:
+  - description: At 17:28 GMT, February 28th, Akamai experienced a 1.3 Tbps DDoS attack
+      against one of our customers, a software development company, driven by memcached
+      reflection. This attack was the largest attack seen to date by Akamai, more
+      than twice the...
+    media:
+      image:
+        height: 295
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAj0Huo9Qe_q8Ma&w=720&h=720&url=https%3A%2F%2Flh3.googleusercontent.com%2FRQwJ_9OQr4m4HsKsBmzJyzWDg05GgUqv2DcdAhhff-_SNWcFcAno0fcPfr6BsvNZxl4j-3goK7fkO6YCYWxtj6HBZu4Mez_eTQ10DxkGx7J4hLEHvGDFWeiKr0QWvS89XdJbHEQl&cfs=1&_nc_hash=AQDu2Lcv-uPOHTK2
+        width: 295
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fblogs.akamai.com%2F2018%2F03%2Fmemcached-fueled-13-tbps-attacks.html&h=ATMYvJd_Ne9_5Z-an17c2u2Lks_ic5dSLMsfFAMXYj4Xs6KMcInnkegpTNQw-IJjxcaeY6GCgdL7RuoxTv_-Y7_ep_AphBHjYEsfWb80u1NmYKGkeEUG&s=1
+    title: Memcached-fueled 1.3 Tbps attacks
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fblogs.akamai.com%2F2018%2F03%2Fmemcached-fueled-13-tbps-attacks.html&h=ATMYvJd_Ne9_5Z-an17c2u2Lks_ic5dSLMsfFAMXYj4Xs6KMcInnkegpTNQw-IJjxcaeY6GCgdL7RuoxTv_-Y7_ep_AphBHjYEsfWb80u1NmYKGkeEUG&s=1

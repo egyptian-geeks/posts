@@ -43,13 +43,6 @@ comments:
       sub domain.\n\nFor me I used to have the apis in the same domain with a /api/
       prefix \U0001F644"
     id: '1520001814706188'
-  - created_time: '2017-06-18T22:35:57+0000'
-    from:
-      name: Eslam Mostafa
-      id: '1575768239208294'
-    message: i don't know about app harbor, but if you have nginx, you can host both
-      on the same server, using nginx as a reverse proxy for the backend apis
-    id: '1520081661364870'
   - created_time: '2017-06-20T20:36:02+0000'
     from:
       name: Sanaa Afifi

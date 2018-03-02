@@ -66,19 +66,6 @@ comments:
 
       Splitting your CSS into critical & non-critical: I don't suggest doing this by hand. I found this tool which should help, but I didn't use it myself https://github.com/addyosmani/critical.
     id: '1199566100083096'
-  - created_time: '2016-08-09T10:16:22+0000'
-    from:
-      name: Eslam Mostafa
-      id: '1575768239208294'
-    message: في حاجة اسمها bundling، بيستخدم uglifyjs مثلًا عشان يعمل minifications
-      لملفات ال css او الجافاسكربت ويخليهم ملف واحد للجافاسكربت وملف واحد للجافاسكربت.
-    id: '1199578523415187'
-  - created_time: '2016-08-09T10:16:24+0000'
-    from:
-      name: Eslam Mostafa
-      id: '1575768239208294'
-    message: ممكن تعمل كدا باستخدام gulp js او gruntjs عشان ت automate الموضوع
-    id: '1199578526748520'
   - created_time: '2016-08-09T10:26:58+0000'
     from:
       name: Ahmed Badawy

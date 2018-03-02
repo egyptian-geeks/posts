@@ -15,9 +15,6 @@ reactions:
   - id: '2047669095469115'
     name: Shehab Ahmed
     type: LIKE
-  - id: '1575768239208294'
-    name: Eslam Mostafa
-    type: LIKE
   - id: '10215070655377585'
     name: Mahmoud Kandeel
     type: LIKE
@@ -52,17 +49,6 @@ comments:
     message: عندي اعتقاد موش عارف صح ولا غلط. البايثون على المدى الطويل أفضل لخبرات
       ومهارات المطور اللي هيشتغل بيه.
     id: '1251597398213299'
-  - created_time: '2016-10-07T13:41:00+0000'
-    from:
-      name: Eslam Mostafa
-      id: '1575768239208294'
-    message: i would prefer Python, for me Ruby culture seems a lot like spaghetti.
-      frameworks like django seems to have a better architecture. i was playing with
-      RoR i can admit it has high productivity, and there are alot of gems that do
-      the heavy lifting for you. its fast in case you want a quick prototype, but
-      i would vote for python for real production projects, since it would be easy
-      for teams to debug and work on.
-    id: '1251599948213044'
   - created_time: '2016-10-07T14:07:17+0000'
     from:
       name: Muhammad Al Rabbani
