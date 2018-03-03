@@ -11,9 +11,6 @@ permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/11235751
 id: '172338516139198_1123575121015528'
 reactions:
   data:
-  - id: '10210785782062877'
-    name: Ibrahim Mohamed
-    type: LIKE
   - id: '10159994844535341'
     name: Abdelrhman Safwat
     type: LIKE
@@ -25,7 +22,7 @@ reactions:
     type: LIKE
   paging:
     cursors:
-      before: TVRNd01ESXhNamsyTkRveE5EWXdOVGN5TURjME9qSTFOREE1TmpFMk1UTT0ZD
+      before: TmpFMk5URTFNelF3T2pFME5qQTFOekEyTXpNNk1qVTBNRGsyTVRZAeE13PT0ZD
       after: TlRNek5UWTBNalV3T2pFME5qQTFOamszT0RFNk1qVTBNRGsyTVRZAeE13PT0ZD
 comments:
   data:
@@ -88,7 +85,25 @@ comments:
       واشباهه بيكتفى بـ \\n \nوعشان الاسباب التاريخية وخلاص مفيش سبب تانى وفرق تانى
       حاليا \nماكنتش اعرف ان ممكن عمليا استخدم \\r بس استخدام مفيد"
     id: '1123594951013545'
+  - created_time: '2016-04-13T18:17:59+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: |-
+      \r is carriage return, \n is line feed.
+      a line break needs both, a carriage return to move the teletype's writing head to the start of the line, a line feed to scroll the paper roll.
+      In Unix, the terminal driver has been traditionally responsible to transform LF to a CRLF sequence that's output to the teletype.
+      Other systems, like the original Mac OS, used CR for the same purpose (Well not exactly, Mac OS had no terminal, but it used \r in files).
+      Yet other systems, like DOS (and now Windows) didn't implement CRLF translation at all in the terminal driver and user level application output CRLF directly.
+
+      Another thing is, that the C standard specifies that \n is _the_ way to output a line break. Therefore all C stdio functions have to do translation of \n to whatever the underlying implementation's concept of a new line is and vice versa on output/input. That's why the standard differentiates between text and binary IO. text IO involves new line translation at runtime level. binary IO doesn't (but as said above, might involve translation at lower levels not covered by the ISO standard).
+
+      In short, use \n to get a new line. Let the implementation do the translation work.
+      Additionally, Unix terminals use \r to get to the start of the current line if you want to e.g. animate a progress bar on the same line.
+
+      Also note that some editors, behave differently, e.g. if you want to replace a tab with a newline in vim, you need to do s/\t/\r/. But if you want to replace new line with a tab you do s/\n/\t/. Go figure..
+    id: '1123607684345605'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV5TXpVM09ETTNORE0wT0RVek5qb3hORFl3TlRZANE56ZA3gZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV5TXpVNU5EazFNVEF4TXpVME5Ub3hORFl3TlRjd09ERXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEV5TXpZAd056WTRORE0wTlRZAd05Ub3hORFl3TlRjeE5EYzUZD

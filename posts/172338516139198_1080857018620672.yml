@@ -7,7 +7,7 @@ from:
   name: Ahmed Shawky Ibrahim
   id: '10155110527716700'
 type: photo
-picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/12705556_10153356648841700_3328801127447556278_n.jpg?oh=c1e6798103894df87e49b8c6bfeb2cf9&oe=5B14D10D
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/12705556_10153356648841700_3328801127447556278_n.jpg?oh=a73cc71a960dcafafda4de1d13da8f09&oe=5B3C5E0D
 created_time: '2016-02-16T01:57:08+0000'
 updated_time: '2016-02-16T09:52:35+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1080857018620672/
@@ -21,6 +21,20 @@ reactions:
     cursors:
       before: TVRBd01EQTVOak0zTmpnd09UVTBPakUwTlRVMU9EZA3dOVGs2TWpVME1EazJNVFl4TXc9PQZDZD
       after: TVRBd01EQTVOak0zTmpnd09UVTBPakUwTlRVMU9EZA3dOVGs2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-02-16T08:55:21+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: |-
+      ال ad.signal وال sb.signal شغالين عالفاضي عشان مافيش حد waiting لحظة استدعائهم.
+      و في ال function call الأخير (رقم 6) البرنامج حيخش ال if ويهنج عند sb.wait.
+    id: '1081008275272213'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE0TVRBd09ESTNOVEkzTWpJeE16b3hORFUxTmpFeU9USXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE0TVRBd09ESTNOVEkzTWpJeE16b3hORFUxTmpFeU9USXgZD
 attachments:
   data:
   - description: "What will be the order the functions will be executed in ?Do I have

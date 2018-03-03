@@ -34,20 +34,17 @@ reactions:
   - id: '10155518305294091'
     name: Muhammad Salah El-Okda
     type: LIKE
-  - id: '10159929493885634'
-    name: عمر أمين
-    type: LIKE
   paging:
     cursors:
       before: TVRBd01EQXlNakUxTVRRME9URTFPakUxTURZAME1qYzVNemM2TWpVME1EazJNVFl4TXc9PQZDZD
-      after: TlRjM016UXdOak16T2pFMU1EWXpNemN5TXpVNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TmpnNU1ETTBNRGt3T2pFMU1EWXpNemMxTURJNk1qVTBNRGsyTVRZAeE13PT0ZD
 attachments:
   data:
   - description: React 16 will be licensed under the MIT Open Source license.
     media:
       image:
         height: 200
-        src: https://external.xx.fbcdn.net/safe_image.php?w=720&h=720&url=https%3A%2F%2Fstatic.xx.fbcdn.net%2Frsrc.php%2Fv3%2Fy6%2Fr%2FTyf1CF10e-2.png&cfs=1&_nc_hash=AQCL_Q-K2iRbUg3C
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQDiAzlVL0RSCXTY&w=720&h=720&url=https%3A%2F%2Fstatic.xx.fbcdn.net%2Frsrc.php%2Fv3%2Fy6%2Fr%2FTyf1CF10e-2.png&cfs=1&_nc_hash=AQBol8ZoCVB55dPl
         width: 200
     target:
       url: https://code.facebook.com/posts/300798627056246/relicensing-react-jest-flow-and-immutable-js/

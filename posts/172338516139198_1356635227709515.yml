@@ -394,6 +394,9 @@ reactions:
   - id: '10215653776479697'
     name: Mostafa El-Marghany
     type: LIKE
+  - id: '1559386150781349'
+    name: Yousuf Ahmed
+    type: LIKE
   - id: '10155780654440395'
     name: Emad Aslan
     type: LIKE
@@ -643,9 +646,6 @@ reactions:
   - id: '1515755041855847'
     name: Ahmed Akef
     type: LIKE
-  - id: '934408920094293'
-    name: Muhammad Ahmed Fares
-    type: LIKE
   - id: '1491318780967328'
     name: Ibrahim Al-maradny
     type: LIKE
@@ -657,9 +657,6 @@ reactions:
     type: LIKE
   - id: '748544398677659'
     name: Omar Yasser
-    type: LIKE
-  - id: '410813692680596'
-    name: Nada N. Elmeligy
     type: LIKE
   - id: '495080930892199'
     name: Muhammed Nagy
@@ -775,12 +772,6 @@ comments:
       id: '495080930892199'
     message: عاااش يا ادهم
     id: '1356650351041336'
-  - created_time: '2017-01-16T20:49:02+0000'
-    from:
-      name: Nada N. Elmeligy
-      id: '410813692680596'
-    message: Tarek Hammad
-    id: '1356650544374650'
   - created_time: '2017-01-16T21:01:19+0000'
     from:
       name: Ahmed Zain Mohammed

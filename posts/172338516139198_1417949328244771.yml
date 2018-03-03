@@ -12,6 +12,25 @@ permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/14179493
 id: '172338516139198_1417949328244771'
 comments:
   data:
+  - created_time: '2017-03-12T00:19:44+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: |-
+      I don't use docker, but assuming that these are exit codes of the process:
+      exit code 0 is the exit code for success (EXIT_SUCCESS defined in <stdlib.h>)
+      exit code 137 is >127, which means the process died by a signal. remove the highest bit and you get 137 - 128 = 9, so it died by signal 9. Signal 9 is SIGKILL, which is an uncatchable signal sent via the kill command usually. The kernel's OOM (out of memory) killer also sends it out when memory is exhausted.
+    id: '1417954008244303'
+  - created_time: '2017-03-12T00:22:31+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: |-
+      Also here's a perl script I wrote for translating signal error codes
+      https://github.com/a3f/.dotfiles/blob/master/bin/psignal
+
+      Just chmod +x it and type psignal $? in the shell right after the process died and you get your system's description of the signal.
+    id: '1417955481577489'
   - created_time: '2017-03-12T04:16:36+0000'
     from:
       name: Mahmoud Hossam
@@ -21,5 +40,5 @@ comments:
     id: '1418115888228115'
   paging:
     cursors:
-      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF4T0RFeE5UZAzRPREl5T0RFeE5Ub3hORGc1TWpreU1UazIZD
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF4TnprMU5EQXdPREkwTkRNd016b3hORGc1TWpjM09UZAzEZD
       after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF4T0RFeE5UZAzRPREl5T0RFeE5Ub3hORGc1TWpreU1UazIZD

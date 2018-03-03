@@ -26,6 +26,14 @@ reactions:
       after: TlRrMU1USTFOalk1T2pFME16WTJNamc1TWpZANk1qVTBNRGsyTVRZAeE13PT0ZD
 comments:
   data:
+  - created_time: '2015-07-11T15:01:48+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: |-
+      Better set your target to things you understand the point of then?
+      What do you want to achieve? Why doesn't your current knowledge of C suffice?
+    id: '970974832942225'
   - created_time: '2015-07-11T15:02:39+0000'
     from:
       name: Muhammad Saleh
@@ -40,6 +48,14 @@ comments:
       i dont know if they have the same performance
       the target is to encrypt data and secure it
     id: '970975522942156'
+  - created_time: '2015-07-11T15:04:59+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: |-
+      خلينا عربي أحسن. إيه الهدف لك؟ هل ال encryption ده مطلوب من عميل أو مجرد جزء من كورس؟
+      إيه المشكلة في المعرفة المتواجدة حاليا لديك في السي؟ حتحتاج البرمجة في إيه بعد كده في مجال عملك؟
+    id: '970975906275451'
   - created_time: '2015-07-11T15:07:05+0000'
     from:
       name: Muhammad Saleh
@@ -48,6 +64,15 @@ comments:
       دا كورس فى الجامعة دراسة و تحصير ذاتى انك تختار حاجة بعيدة عنك تماما و تعمل عليها مشروع
       انا معرفش اذا كان برنامج السى للميكروكنترولر هوا نفسه ينفع لبرمجة سوفتوير
     id: '970976692942039'
+  - created_time: '2015-07-11T15:10:35+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: |-
+      اللغة standardized بفرض إن اللي إنت كنت بتبرمجه C فعلا فالأساس واحد. لكن بدل شغل ال interrupts وال IO المباشر بيبقى فيه API لنظام التشغيل تلجأ إليها.
+      إيه scope عملك إنت؟ فيه برامج تشفير جاهزة وفيه مكتبات تشفير للاستخدام و فيه مكتبات رياضية للتشفير ... إلخ.
+      إيه المستوى اللي إنت حتشتغل عليه؟
+    id: '970977692941939'
   - created_time: '2015-07-11T15:12:24+0000'
     from:
       name: Muhammad Saleh
@@ -55,6 +80,14 @@ comments:
     message: "معرفش اي حاجة و لا حتي فاهم \nانا كنت عايز اعرف ايه لغات البرمجة و انا
       ممكن استخدم اايه و احسنها من ناحية التشفير"
     id: '970978516275190'
+  - created_time: '2015-07-11T15:21:34+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: |-
+      الحاجات المحورية زي التشفير لها حلول في كل اللغات. المفروض تقرر إيه اللغة اللي حتفيدك في مجالك أكتر (MATLAB ربما؟) و تبني عليها.
+      أما بناء مشروع دون وجهة ودون ما تكون عارف اللغة أو خوارزمية معينة المفروض تطبقها أو إيه الادوات المتاحة لك ومواصفات الناتج النهائي مش طريقة صالحة للتعلم في نظري.
+    id: '970982952941413'
   - created_time: '2015-07-11T15:36:10+0000'
     from:
       name: Ahmad Alfy
@@ -69,5 +102,5 @@ comments:
     id: '971004059605969'
   paging:
     cursors:
-      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVGN3T1RjMU1qQTJNamMxTlRJeE9qRTBNelkyTWpZANU5Uaz0ZD
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVGN3T1RjME9ETXlPVFF5TWpJMU9qRTBNelkyTWpZANU1EZAz0ZD
       after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVGN4TURBME1EVTVOakExT1RZANU9qRTBNelkyTXpNek1UVT0ZD

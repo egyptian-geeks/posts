@@ -51,7 +51,18 @@ comments:
       Question, if you connect to a local VPN server or proxy server, wouldn't that allow you to read the packets that the game sends? That way you wouldn't have to deal with code injection.
       (and ... are you trying to cheat in a multiplayer game? :P)
     id: '1268312673208438'
+  - created_time: '2016-10-25T22:29:06+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: |-
+      إيه اللي يخليك تعمل detour لـconnect؟ recv و send اللي المفروض تـhookـهم.
+      إنت إتأكدت بـWireshark إن الاتصال مش مشفر؟ لو البروتوكول مشفر حتحتاج تـhook جوا أكتر بعد فك التشفير. (البديل هو تغيير الـpublic key وانك تعمل Man-In-The-Middle على نفسك، وهو حل معمص نوعا ما).
+      في أحيان كتيرة الدالة الرئيسية إلي بتعمل dispatch للـpacket types بتبقى أكبر jump table في اللعبة. إستخدم Ollydbg وخليه يطلع لك الـjump tables ورتبهم حسب عدد الـcases.
+
+      وأما تلاقي الـdispatcher تبقى تـhookـه هو. حل أنضف بكتير من انك تعيد برمجة الحاجات اللي موجودة already في exe اللعبة.
+    id: '1268851806487858'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkyT0RBeE9EWTNPVGt3TkRVd05Eb3hORGMzTXpjd05UYzQZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkyT0RNeE1qWTNNekl3T0RRek9Eb3hORGMzTXprek5ETTUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkyT0RnMU1UZA3dOalE0TnpnMU9Eb3hORGMzTkRNME5UUTMZD

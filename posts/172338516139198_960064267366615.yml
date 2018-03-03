@@ -25,6 +25,44 @@ reactions:
       after: TVRBd01EQTJNamsxTnpFeE1qTTJPakUwTXpRMk1qZA3hOVEk2TWpVME1EazJNVFl4TXc9PQZDZD
 comments:
   data:
+  - created_time: '2015-06-18T09:00:28+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: |-
+      FILE* and fopen, fwrite, fclose .. etc are an example of OOP in C.
+      FILE is a forward declared but undefined struct. You only have a pointer to it (Encapsulation)
+      fopen and fclose, construct/destruct it.
+      All functions take a FILE* which acts like the this pointer.
+      The standard guarantees no padding at start of a struct, so you can make a SPECIAL_FILE with  FILE as first member and cast between them, given you know the composition of it (Inheritance).
+
+      If you want to go overboard, you can hack some preprocessor code for new/delete and make class-like things using structs of function pointers.
+
+      For private static members you can use different translation units (files) and declare them static.
+
+      That's what I could think of. There is a free ebook (http://www.cs.rit.edu/~ats/books/ooc.pdf) which I didn't have time to read yet. It surely has a lot more ideas on how to do this.
+
+      Also remember the very first C++ compiler was just a preprocessor for C. You can go a long way without explicit OO support.
+      I even once saw a OO implementation in BATCH (yes, windows batch), but can't find it at the moment.
+    id: '960075777365464'
+  - created_time: '2015-06-18T09:06:17+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: Another language I had limited exposure to is Lua. It uses key/value
+      pairs to add functions and variables to an object, thereby emulating classes
+      and allows you to register custom handlers with the VM to handle operators.
+      Might be worth looking into.
+    id: '960076820698693'
+  - created_time: '2015-06-18T09:18:24+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: |-
+      mm, ignore my first example. I didn't see the object-oriented languages part..
+      For languages designed with OO in mind but with no classes look here:
+      http://programmers.stackexchange.com/questions/115418/do-object-oriented-programming-languages-exist-that-are-not-class-based
+    id: '960079644031744'
   - created_time: '2015-06-18T16:42:21+0000'
     from:
       name: Muhammed Abuali
@@ -47,5 +85,5 @@ comments:
     id: '960788603960848'
   paging:
     cursors:
-      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFl3TWpJMU5EYzBNREUzTVRZAeE9qRTBNelEyTkRVM05ERT0ZD
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFl3TURjMU56YzNNelkxTkRZAME9qRTBNelEyTVRnd01qZAz0ZD
       after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFl3TnpnNE5qQXpPVFl3T0RRNE9qRTBNelEzTXpreE5EUT0ZD

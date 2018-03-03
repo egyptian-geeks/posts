@@ -38,6 +38,15 @@ comments:
       أنا لسه مـcrash معايا من شوية
       لما بافتح الـbuild options بيفتحها بيضا و مبيرضاش يقفلها وﻻزم اعمله kill
     id: '1371549789551392'
+  - created_time: '2017-01-29T21:36:56+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: |-
+      There's no crash for no reason, check what the stacktrace says and maybe open a ticket with the developers if it hasn't been reported yet.
+
+      But I would suggest getting accustomed to the command line anyway, it's not that hard.
+    id: '1371549816218056'
   - created_time: '2017-01-29T22:37:46+0000'
     from:
       name: Saif Youssef

@@ -15,6 +15,18 @@ permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/14744717
 id: '172338516139198_1474471755925861'
 comments:
   data:
+  - created_time: '2017-05-05T20:11:53+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: |-
+      فكرة سيئة. إفرض خد Mutex لـmalloc وبعدين مات من غير ما يفكها. حيجي لك deadlock في الباقي.
+      إنت ممكن تعملها بأمان لو عندك cancellation points تعرف تتحكم فيها زي ما في POSIX، بس  على حد علمي TerminateThread ما فيهش الكلام ده.
+
+      الأوامر اللي بتأثر على الـThread من بره زي SuspendThread وTerminateThread بتستخدم خاصية الـAPC شبه الـposix signal. أما الـthread يتعمله reschedule، بدل ما ينط على مكان ما كان وقف بينط على function بتموته أو تنيمه.
+
+      إنت عايز تموتهم ليه؟
+    id: '1474583855914651'
   - created_time: '2017-05-06T02:04:53+0000'
     from:
       name: Mahmoud Kandil
@@ -26,5 +38,5 @@ comments:
     id: '1474800909226279'
   paging:
     cursors:
-      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEzTkRnd01Ea3dPVEl5TmpJM09Ub3hORGswTURNMk1qazMZD
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEzTkRVNE16ZAzFOVGt4TkRZAMU1Ub3hORGswTURFMU1URTAZD
       after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFEzTkRnd01Ea3dPVEl5TmpJM09Ub3hORGswTURNMk1qazMZD

@@ -43,6 +43,14 @@ comments:
     message: في جزء غبي جداً في الscript وهو إنه معتمد علي مكان local عندي في الجهاز.
       لو حد صلحها ممكن أديله بجرة :D
     id: '1144362872270086'
+  - created_time: '2016-05-16T10:31:23+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: |-
+      ما تعمل global hook بحيث إن ال script بتاعك يتم تشغيله بعد git init؟
+      ls و cd كذلك ممكن تعملهم commands في git بأنك تسميهم git-ls و git-cd وتحطهم في ال path.
+    id: '1144373978935642'
   - created_time: '2016-05-16T10:32:24+0000'
     from:
       name: Ahmed Abdo
@@ -62,7 +70,7 @@ attachments:
         src: https://external.xx.fbcdn.net/safe_image.php?d=AQAhtIUc64oYXvE9&w=400&h=400&url=https%3A%2F%2Favatars0.githubusercontent.com%2Fu%2F6195060%3Fv%3D3%26s%3D400&cfs=1&sx=0&sy=0&sw=400&sh=400&_nc_hash=AQAmRArqhyOet6d_
         width: 400
     target:
-      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Flordadamson%2Fgitbaby&h=ATO5U3lRw7NNaJ7yTNoUl2dKpYUGWaSll_BCum4cDN-HDD3E7jK5ETDFBEioI-2-57moxRoIRJv6MihmOotpkzx7pWfRpFvTeJMFOOD36Ys2QPJTMx4n&s=1
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Flordadamson%2Fgitbaby&h=ATOCGhHYGOgk_1WwURXM7zeRUE34iHffU_TFubH5O-PNB2vJr7j4p0grD23Vk_r1FunDWYmnnj_ncFBj_t2e0GHBED4-SLh5b6OHXAGGcyKOMRi3R4by&s=1
     title: lordadamson/gitbaby
     type: share
-    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Flordadamson%2Fgitbaby&h=ATO5U3lRw7NNaJ7yTNoUl2dKpYUGWaSll_BCum4cDN-HDD3E7jK5ETDFBEioI-2-57moxRoIRJv6MihmOotpkzx7pWfRpFvTeJMFOOD36Ys2QPJTMx4n&s=1
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Flordadamson%2Fgitbaby&h=ATOCGhHYGOgk_1WwURXM7zeRUE34iHffU_TFubH5O-PNB2vJr7j4p0grD23Vk_r1FunDWYmnnj_ncFBj_t2e0GHBED4-SLh5b6OHXAGGcyKOMRi3R4by&s=1
