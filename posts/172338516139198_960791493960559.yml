@@ -50,14 +50,6 @@ comments:
     message: هو فى احتمال انه يكون مبيشتغلش على الفيرفوكس فعلاً لاكن الانتى فيرس بيطلع
       الاليرت ده من مجرد تحليل سورس الصفحة
     id: '960908523948856'
-  - created_time: '2015-06-20T16:20:41+0000'
-    from:
-      name: Ahmad Fatoum
-      id: '1356410114464931'
-    message: |-
-      Did you find out what it does?
-      If not, try running `xxd -r -p a.hex > a.bin && objdump -d -Mintel a.bin > /dev/clipboard ` (assuming Cygwin) on the WriteData contents and upload a.bin to virustotal. If there is no match, maybe paste the disassembly into a pastebin and link it.
-    id: '961221173917591'
   - created_time: '2015-06-21T08:13:41+0000'
     from:
       name: Bassam Abd Elhamid

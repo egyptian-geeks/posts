@@ -1,0 +1,75 @@
+---
+message: "Is there an code demonstration of how fb wall works?\nI build lots of blogs/networking
+  apps and its very challenging to to come up with best approach.\n\nImagin a user
+  with 5000 friend, and subscribed in 1000 group. When he open fb, it send a get request
+  to an api requesting latest feed.\n\nWhat kind of quirries this point will run to
+  reply to that single request?!\n1. Get user friends\n2. Get user groups \n3. Get
+  latest posts were user in friends\n4. Get latest posts where group in groups\n5
+  sort, and limit and \U0001F633 flush...\n\nThats a f heck of load! \nBest opt. 1
+  & 2 can be cached for long period, yet 4&5 cannot be cached at all.. This mean u
+  need to compare millions of rows vs thousands of possible.. Thats still too f. Much..\n\nThat
+  takes us to possibilities of a document based solution for each user yet that bring
+  up anomalies problems..\n\nI really love to read decent code and ideas where can
+  i find a reverse engineering newsletter or repo to follow that would show case such
+  problems and how f500 solved em :)"
+from:
+  name: Momen Al Zalabany
+  id: '10160388991030144'
+type: status
+created_time: '2018-03-04T20:22:26+0000'
+updated_time: '2018-03-04T22:17:32+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1772173376155696/
+id: '172338516139198_1772173376155696'
+reactions:
+  data:
+  - id: '1354929151318489'
+    name: عمار السيد
+    type: LIKE
+  - id: '1774186562600446'
+    name: Abdulla Alsayyed
+    type: LIKE
+  - id: '10214384272708017'
+    name: Elmehdi Zangui
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTBNRFF5TlRJek9UTTRPakUxTWpBeE9UYzFPRFk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRRMU16ZAzVNamN4TnpveE5USXdNVGsyTlRBNU9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2018-03-04T20:31:31+0000'
+    from:
+      name: Mahmoud Tantawy
+      id: '10156115350739764'
+    message: everything can be cached, and if it can't be cached, then you modify
+      your architecture to allow it to be cached.
+    id: '1772194939486873'
+  - created_time: '2018-03-04T20:46:42+0000'
+    from:
+      name: Hany Said
+      id: '10156179627726738'
+    message: |-
+      The easy approach is the one you described; Pull method (Fan out on read), it is easy to implement but not scalable.
+
+      Another approach but more complicated is Push method (Fan out on write):
+      At the time of creating an activity push a pointer to users who should see it on their wall.
+    id: '1772205849485782'
+  - created_time: '2018-03-04T20:47:25+0000'
+    from:
+      name: Hany Said
+      id: '10156179627726738'
+    message: Offers news feed as a service https://getstream.io/
+    id: '1772206869485680'
+  - created_time: '2018-03-04T21:12:19+0000'
+    from:
+      name: Marwan Osman
+      id: '10160201000255227'
+    message: |-
+      This is an ideal use case of Graph Databases, simply by mapping users, posts, actions, all into a graph structure you'd be able to query directly and calculate the most important news for each user independently, and then can use cashing for that if you want..
+
+      Facebook uses what they call Edge Rank Algorithm, that calculates the score for every potential news feed post based on many factors related to users, the post itself, the interaction on the post, and a time decay factor. There are many resources about it online https://blog.bufferapp.com/understanding-facebook-news-feed-algorithm
+    id: '1772223456150688'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMzTWpFNU5Ea3pPVFE0TmpnM016b3hOVEl3TVRrMU5Ea3kZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMzTWpJeU16UTFOakUxTURZANE9Eb3hOVEl3TVRrM09UUXcZD

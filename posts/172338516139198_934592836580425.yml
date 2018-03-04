@@ -63,14 +63,6 @@ comments:
       it make sense that there are two runners reaches the FINISH line at the same
       time!
     id: '934606679912374'
-  - created_time: '2015-05-01T18:06:11+0000'
-    from:
-      name: Ahmad Fatoum
-      id: '1356410114464931'
-    message: |-
-      ^ It does make sense, say on a multiprocessor system.
-      For that reason, MySQL locks part (or all) of the table when doing stuff. That allows for something like auto_increment which takes care of generating an id, that's never a duplicate.
-    id: '934611909911851'
   - created_time: '2015-05-01T18:27:13+0000'
     from:
       name: Moutaz Shams
@@ -108,19 +100,6 @@ comments:
       and ones.. you can never be able to fit two bits in one bit unless it's a Shrewdinger's
       bit :-)
     id: '934625226577186'
-  - created_time: '2015-05-01T19:29:08+0000'
-    from:
-      name: Ahmad Fatoum
-      id: '1356410114464931'
-    message: |-
-      Ok, packet 1 arrived then packet 2 arrived. Most databases don't block when they handle a query, they accept new queries too. So they offload the execution of query1 to one thread and query2 to another thread. If each thread runs on another core, they can run at exactly the same time.
-      Your networking example might be true, if there is a single core real time system on the receiving end, which won't be ever the case.
-
-      To answer the specific questions:
-      Moataz Mahmoud Yes, the network interface doesn't receive 2 packets at the same time. But they can very well be processed at the exact same time, which is what matters. In that case it's not unlikely they have the same timestamp. Physics might treat time as continuous but system time will always be discrete. That means there is a finite resolution, two consecutive calls to whatever get_system_time functions might return the same value.
-      If you insert by id, it can be possible that you attempt insertion of the same id from two different threads at the same time. That's called a race condition and can be avoided by a lock, which MySQL (which Facebook uses) indeed does.
-      Fady Anwar I think I addressed all the points above. It boils down to nondeterministic order of execution => race condition => need for a locking mechanism.
-    id: '934644383241937'
   - created_time: '2015-05-01T19:54:38+0000'
     from:
       name: Youhana Sobhy

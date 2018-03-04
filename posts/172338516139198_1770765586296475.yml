@@ -13,7 +13,7 @@ from:
   id: '582467405437022'
 type: link
 created_time: '2018-03-03T18:58:32+0000'
-updated_time: '2018-03-03T20:45:03+0000'
+updated_time: '2018-03-04T18:39:25+0000'
 name: Developing SOAP Web Services with PHP/C# - CodeProject
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1770765586296475/
 id: '172338516139198_1770765586296475'
@@ -25,17 +25,42 @@ comments:
       id: '582467405437022'
     message: any suggestions ??
     id: '1771172449589122'
+  - created_time: '2018-03-04T01:25:55+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: "|make the database for both is same| <-- what do u ref, to with :Both:
+      ?"
+    id: '1771348329571534'
+  - created_time: '2018-03-04T01:40:13+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: "bos.. enta 3andak 7agtin.. client , we server.. when u think, u must
+      understand that they are completley separated.. \n\nel server fih databse, we
+      3ando el data, we 3ando el business logic, we beyrood bel 7agteen dol 3ala  so2al...
+      \n\nel client fih user interface, we beyes2al 2s2ela.. we bas !.\n\nnow back
+      to ur question..\n\nthere will be only one database (single source of truth)
+      and that will be on ur server, client may/not/ have a local copy which we call
+      *cache* // \n\nany event that occur *user 2shtara 7aga* it happen online, on
+      ur server.. now ur server need to emit an EVENT, that the client app will receive
+      and mutate user interface accordingly.. \n\nwalahi enta 3ayz el client yeb2a
+      offline first 3alashan law el internet 2ata3 el supermarket yefdal sha3'al..,
+      then ur client will cache that event, and keep it \"TEMPORARILY\" offline, until
+      it get access to send it to server.. yet that's a big deal.. how and when to
+      de-validate cache is very problematic.. so just avoid it."
+    id: '1771358179570549'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMzTVRFM01qUTBPVFU0T1RFeU1qb3hOVEl3TVRBNU9UQXgZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMzTVRFM01qUTBPVFU0T1RFeU1qb3hOVEl3TVRBNU9UQXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMzTVRNMU9ERTNPVFUzTURVME9Ub3hOVEl3TVRJM05qRTAZD
 attachments:
   data:
   - description: 'Discussion about developing PHP/SOAP Web Services and implementing
       them using C#.; Author: jpreecedev; Updated: 28 May 2010; Section: Web Services;
       Chapter: Web Development; Updated: 28 May 2010'
     target:
-      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.codeproject.com%2FArticles%2F84345%2FDeveloping-SOAP-Web-Services-with-PHP-C&h=ATNHW0sDOfLKr0T9tTZes1SVazo4HPgW39yCZx0kCuM-EAucJ1jJeRFBJcTdfwpXJJCAGjkm0PA4Kx5mEZEthxC1RfFbKAJvPxfUotj9EQjMXBw6k5DT&s=1
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.codeproject.com%2FArticles%2F84345%2FDeveloping-SOAP-Web-Services-with-PHP-C&h=ATO_qQ0X-Q6zzY4CQRFmDkrKmJpCX4_jTJ5Yl4AciPXVhHJzP9iYEuaL5DHqEM2B-C9iWww5HXr5qW9xMubImFLchZynu5Pe7IbdSdNg4bQsHASzGSQo&s=1
     title: Developing SOAP Web Services with PHP/C# - CodeProject
     type: share
-    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.codeproject.com%2FArticles%2F84345%2FDeveloping-SOAP-Web-Services-with-PHP-C&h=ATNHW0sDOfLKr0T9tTZes1SVazo4HPgW39yCZx0kCuM-EAucJ1jJeRFBJcTdfwpXJJCAGjkm0PA4Kx5mEZEthxC1RfFbKAJvPxfUotj9EQjMXBw6k5DT&s=1
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.codeproject.com%2FArticles%2F84345%2FDeveloping-SOAP-Web-Services-with-PHP-C&h=ATO_qQ0X-Q6zzY4CQRFmDkrKmJpCX4_jTJ5Yl4AciPXVhHJzP9iYEuaL5DHqEM2B-C9iWww5HXr5qW9xMubImFLchZynu5Pe7IbdSdNg4bQsHASzGSQo&s=1
