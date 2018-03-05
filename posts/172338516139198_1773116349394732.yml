@@ -1,0 +1,30 @@
+---
+message: "iOS - Swift\nI'm working on an app that uses MapKit and I just wanna add
+  both a \n- \"Favorites\" table view that has all of the favorites annotations (pins)
+  that's the user favorited (by a button of course).\n- and a \"Recents\" table view
+  that contains all of the previous pins.\nI tried to google it, but didn’t get to
+  anything."
+from:
+  name: Hassan El Desouky
+  id: '1125319300938658'
+type: status
+created_time: '2018-03-05T18:14:03+0000'
+updated_time: '2018-03-05T19:39:48+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1773116349394732/
+id: '172338516139198_1773116349394732'
+comments:
+  data:
+  - created_time: '2018-03-05T19:39:41+0000'
+    from:
+      name: Omar Cherif Fathi
+      id: '2067397180161531'
+    message: "If you are allowed to use google maps ios sdk use it instead of Apple's
+      Mapkit, you will find it easier to use.\nYou mean you would like to add a search
+      like tableview ?\nUsually you have the map filling the whole view so ... \nThe
+      most elegant way is to add a search bar on top that drops a tableview once you
+      start typing or so ...\nThis video might help you \nhttps://www.youtube.com/watch?v=Aegohk-3ffo"
+    id: '1773176609388706'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMzTXpFM05qWXdPVE00T0Rjd05qb3hOVEl3TWpjNE56ZA3kZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMzTXpFM05qWXdPVE00T0Rjd05qb3hOVEl3TWpjNE56ZA3kZD

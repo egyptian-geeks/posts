@@ -17,11 +17,17 @@ from:
   id: '10160388991030144'
 type: status
 created_time: '2018-03-04T20:22:26+0000'
-updated_time: '2018-03-04T22:17:32+0000'
+updated_time: '2018-03-05T16:40:24+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1772173376155696/
 id: '172338516139198_1772173376155696'
 reactions:
   data:
+  - id: '10156068681947744'
+    name: Mohamed Hazem
+    type: LIKE
+  - id: '10155385273877648'
+    name: Hala Mohamed Youssef
+    type: LIKE
   - id: '1354929151318489'
     name: عمار السيد
     type: LIKE
@@ -33,7 +39,7 @@ reactions:
     type: LIKE
   paging:
     cursors:
-      before: TVRBd01EQTBNRFF5TlRJek9UTTRPakUxTWpBeE9UYzFPRFk2TWpVME1EazJNVFl4TXc9PQZDZD
+      before: TlRreE5EWXlOelF6T2pFMU1qQXlPREl6T1RJNk1qVTBNRGsyTVRZAeE13PT0ZD
       after: TVRRMU16ZAzVNamN4TnpveE5USXdNVGsyTlRBNU9qSTFOREE1TmpFMk1UTT0ZD
 comments:
   data:
@@ -52,7 +58,7 @@ comments:
       The easy approach is the one you described; Pull method (Fan out on read), it is easy to implement but not scalable.
 
       Another approach but more complicated is Push method (Fan out on write):
-      At the time of creating an activity push a pointer to users who should see it on their wall.
+      At the time of creating an activity push a pointer to users who should see it on their news feed.
     id: '1772205849485782'
   - created_time: '2018-03-04T20:47:25+0000'
     from:
@@ -69,7 +75,15 @@ comments:
 
       Facebook uses what they call Edge Rank Algorithm, that calculates the score for every potential news feed post based on many factors related to users, the post itself, the interaction on the post, and a time decay factor. There are many resources about it online https://blog.bufferapp.com/understanding-facebook-news-feed-algorithm
     id: '1772223456150688'
+  - created_time: '2018-03-05T16:40:21+0000'
+    from:
+      name: Ahmed Amr Farid
+      id: '10155859538230336'
+    message: |-
+      you can segment the data in sub databases and cache them in cdn or something, for example, each user will have a small cached database where the relevant updates are pre selected every a given interval...
+      this way, the load can be scheduled, and the user will only update a preloaded table of data...
+    id: '1773043192735381'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMzTWpFNU5Ea3pPVFE0TmpnM016b3hOVEl3TVRrMU5Ea3kZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMzTWpJeU16UTFOakUxTURZANE9Eb3hOVEl3TVRrM09UUXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMzTXpBME16RTVNamN6TlRNNE1Ub3hOVEl3TWpZANE1ESXgZD

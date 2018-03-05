@@ -1,0 +1,72 @@
+---
+message: In Rest Api the main difference between post and put is idempotency, but
+  still i don't know why to use put over post when i updating data (any way i will
+  write a function to do what i want, if it was post and i updated it million times
+  it will return the same data because i update the same row in DB ).
+from:
+  name: Abdelrahman Badr Eldeen
+  id: '10215277369790261'
+type: status
+created_time: '2018-03-05T06:22:24+0000'
+updated_time: '2018-03-05T15:51:31+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1772433596129674/
+id: '172338516139198_1772433596129674'
+reactions:
+  data:
+  - id: '1502899966473971'
+    name: Mohamed Barakat
+    type: LIKE
+  - id: '1635247416559730'
+    name: Ahmed Ramadan
+    type: LIKE
+  - id: '2000781626603758'
+    name: Hamed Ahmed
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlOakU1TkRZAeE1UZA3lPakUxTWpBeU5UYzFOVGM2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXdNVFU0TWpBMk9EWXlPakUxTWpBeU16RTBORFU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2018-03-05T06:54:34+0000'
+    from:
+      name: Mohamed Eltantawi
+      id: '10160105091695314'
+    message: Semantics?
+    id: '1772594096113624'
+  - created_time: '2018-03-05T06:57:20+0000'
+    from:
+      name: عبدالله محمد
+      id: '10213101784151931'
+    message: "في أقاويل فيها ناس تستخدمها في الinsert والpost for update\nوناس متفرقش
+      ما بينهم\nوناس تستخدمها بدل ل patch\nيعنى اما تعدل في اى حاجة فى الفروم تعمل
+      submit الفروم كامله \nالمهم تختار طريقة وتستمر عليها علي الاقل طول البروجيكت"
+    id: '1772596202780080'
+  - created_time: '2018-03-05T07:05:32+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: When updating, PUT is for replacing the entire object, and PATCH for
+      sending only the properties that you want to change.
+    id: '1772601376112896'
+  - created_time: '2018-03-05T12:55:00+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: "this is just a convention... you can also use POST to get data.. or
+      use HEAD to write it doesnot matter.. THE HTTP_METODE header is just a string,
+      it doesnot do anything on its own, its you server config and code that do the
+      work.. yet its convention to use \nPOSt to write, \nGET to read\nPUT to update,\nHEAD
+      to Ping. \nPATCH to patch update/insert\nso that when someone else is looking
+      at ur code he can easly figure out wtf ur code is doing."
+    id: '1772847406088293'
+  - created_time: '2018-03-05T15:51:27+0000'
+    from:
+      name: Abdelrahman Badr Eldeen
+      id: '10215277369790261'
+    message: Mustafa Raslan can u help me if you know
+    id: '1773002992739401'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMzTWpVNU5EQTVOakV4TXpZAeU5Eb3hOVEl3TWpNeU9EYzAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMzTXpBd01qazVNamN6T1RRd01Ub3hOVEl3TWpZAMU1EZAzQZD
