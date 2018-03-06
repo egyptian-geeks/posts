@@ -17,11 +17,14 @@ from:
   id: '10160388991030144'
 type: status
 created_time: '2018-03-04T20:22:26+0000'
-updated_time: '2018-03-05T16:40:24+0000'
+updated_time: '2018-03-06T16:41:01+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1772173376155696/
 id: '172338516139198_1772173376155696'
 reactions:
   data:
+  - id: '10156085646834907'
+    name: Amr Al-Halaby
+    type: LIKE
   - id: '10156068681947744'
     name: Mohamed Hazem
     type: LIKE
@@ -39,7 +42,7 @@ reactions:
     type: LIKE
   paging:
     cursors:
-      before: TlRreE5EWXlOelF6T2pFMU1qQXlPREl6T1RJNk1qVTBNRGsyTVRZAeE13PT0ZD
+      before: TmpBMU5UZAzVPVEEyT2pFMU1qQXlPVE0wTkRnNk1qVTBNRGsyTVRZAeE13PT0ZD
       after: TVRRMU16ZAzVNamN4TnpveE5USXdNVGsyTlRBNU9qSTFOREE1TmpFMk1UTT0ZD
 comments:
   data:
@@ -83,7 +86,23 @@ comments:
       you can segment the data in sub databases and cache them in cdn or something, for example, each user will have a small cached database where the relevant updates are pre selected every a given interval...
       this way, the load can be scheduled, and the user will only update a preloaded table of data...
     id: '1773043192735381'
+  - created_time: '2018-03-06T10:11:46+0000'
+    from:
+      name: Mohamed Moshrif
+      id: '1538447102877297'
+    message: "There are many ways of doing this as others pointed out above. There
+      is also another approach that’s very simple and scalable if storage is not a
+      concern\n\nWhat you notice about Facebook newsfeed is that it use pagination,
+      which means it never shows you “millions or even thousands of posts” at once\n\nOne
+      very simple implementation is with every new post, the system knows who will
+      be following that post and send a message to the followers’ queues which will
+      initiate some kind of lazywriter that will update that queue. \n\nNow when you
+      “as a user” opens your wall, you can issue a query against that queue and read
+      the first maybe 100 posts which will be super quick\n\nOf course there could
+      be other overrides for things like “see first” and “close friends” which will
+      make the update near real-time but for everything else, it’s ok to have delays"
+    id: '1773741755998858'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMzTWpFNU5Ea3pPVFE0TmpnM016b3hOVEl3TVRrMU5Ea3kZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMzTXpBME16RTVNamN6TlRNNE1Ub3hOVEl3TWpZANE1ESXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMzTXpjME1UYzFOVGs1T0RnMU9Eb3hOVEl3TXpNeE1UQTMZD

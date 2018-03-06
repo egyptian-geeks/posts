@@ -1,0 +1,91 @@
+---
+message: "السلام عليكم\nعندي نقطة Technical في الداتابيز محتاجة رأي حضراتكم.\n\nانا
+  شغال علي جزء الداتابيز لمشروع Mentoring and Tracking \nويهمني ال performance جداً.\n\nفكرت
+  اني اعمل ال database بدون اي relation ومخصص layer كاملة عشان اقدر احكم ال data integrity
+  بحيث ميحصلش اي break ف الداتابيز.\n\nطبعاً ال relation كويسة بس بتبطأ الداتابيز
+  والسيستم ميسمحش باي بطئ\nفهل الحل الي بعمله ده wired and bad practice\nولا طبيعي
+  طالما في layer بتحكم البيزنيسس وال constraints مفيش مشكلة؟"
+from:
+  name: احمد قرواش
+  id: '1561022257326859'
+type: status
+created_time: '2018-03-06T18:07:43+0000'
+updated_time: '2018-03-06T20:46:15+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1774134052626295/
+id: '172338516139198_1774134052626295'
+reactions:
+  data:
+  - id: '1575048152582433'
+    name: Ahmed Gamal
+    type: LIKE
+  - id: '140086213464226'
+    name: Mhmd Fares
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlNekUzT1RBeU5UUTJPakUxTWpBek5qSXpORGM2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01ESXpPRGcxTkRNMU16QTVPakUxTWpBek5qQTVOVFE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2018-03-06T18:24:58+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: |-
+      هو احنا بنتكلم في read write operations حجمها قد ايه علي داتا قد ايه و الperformance اللي بنتكلم فيه قد ايه دلوقتي وعاوز توصل لكام لل read و ال write
+      والهاردوير اللي بتستخدمه ايه
+    id: '1774148405958193'
+  - created_time: '2018-03-06T18:31:30+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "دي شوطة في البلد بقى \U0001F601"
+    id: '1774152879291079'
+  - created_time: '2018-03-06T18:37:01+0000'
+    from:
+      name: Mohamed Abdelfattah
+      id: '10154501612617395'
+    message: If you really care about performance, try to use NoSql instead. I don't
+      recommend using a technology for something it was not designed for. You will
+      start with removing relationships and ends with denormalization.
+    id: '1774157252623975'
+  - created_time: '2018-03-06T18:38:48+0000'
+    from:
+      name: Ayman Ahmed Mohamed
+      id: '10159796299345548'
+    message: مهما كان تحكمك انت كدة بتفقد اهم ميزة فى ال relational database  الحل
+      بتاعك كدة ممكن يكون قوى جدا لو بنيتها ب big data concept بس الاهم انك تعمل الديزاين
+      بتاعها على كدة .... موضوع ال performance له حلول كتير جدا فى طريقة كتابة ال
+      queries نفسها حدد مشاكلك حاتبقى فين وبناءا عليه امشى فى حلولها ياعنى مثلا لو
+      مشاكلك فى ال reports نشوف حلها لو فى ال data retrieval نشوف حلها وهكذا ...
+    id: '1774158792623821'
+  - created_time: '2018-03-06T19:48:17+0000'
+    from:
+      name: Ahmed Hammad
+      id: '10159881004380503'
+    message: |-
+      مفيش مانع إن ال constraints تتشال كلها وقت ال production
+      بعد ما تكون خلاص إتأكدت إن الكود مفيهوش bugs وبالتالي مش محتاجها
+
+      المهم تكون متأكد إن ده هايفرق معاك في ال performance أساساً لأني أشك
+    id: '1774218715951162'
+  - created_time: '2018-03-06T20:00:18+0000'
+    from:
+      name: أسامة يعقوب
+      id: '346030139207588'
+    message: شفت الديزاين ده اكتر من مرة و كان اللى عاملينه dba تقيل
+    id: '1774235309282836'
+  - created_time: '2018-03-06T20:46:13+0000'
+    from:
+      name: Islam Eldemery
+      id: '10159774797555461'
+    message: "انت عايز تعمل CQRS مع Event Sourcing ؟ \nلو انا فاهمك صح فانت هتفصل
+      ال write عن ال read خالص وهتحط ال write في داتابيز عادية وال read موديل في نوسكول
+      .. كل ما يحصل write هاتفاير ايفينت .. والايفينت باص بتاعك هيخدمك لو حصل اي غلطة
+      .. تمسح ال read موديل كله وتشغل الايفينتس كلها عشان يبنيها من جديد .. \ngoogle
+      CQRS with Event Sourcing"
+    id: '1774267362612964'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMzTkRFME9EUXdOVGsxT0RFNU16b3hOVEl3TXpZAd05qazUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMzTkRJMk56TTJNall4TWprMk5Eb3hOVEl3TXpZANU1UYzAZD

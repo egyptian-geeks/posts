@@ -122,7 +122,14 @@ comments:
       I know that many blogs and stuff advice to keep things separate without elaborating that they should be in the same zone, but If you need proof, just run "tracert DB_SERVER" from the node server.
       and watch the latency numbers. all this without doing any processing or running queries.
     id: '1656921311014237'
+  - created_time: '2017-11-09T16:09:55+0000'
+    from:
+      name: Eslam Mostafa
+      id: '1575768239208294'
+    message: You could use kubernetes and docker manahed through google cloud, you
+      will need some devops skills though
+    id: '1657192887653746'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkxTmpZANE9ETTVOemN3TkRFNU5Ub3hOVEV3TVRrMU56ZAzQZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkxTmpreU1UTXhNVEF4TkRJek56b3hOVEV3TWpJeU1UTTEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFkxTnpFNU1qZAzROelkxTXpjME5qb3hOVEV3TWpRek56azEZD

@@ -38,10 +38,18 @@ comments:
     message: مع العلم انا عمرى ما اشتغلت على digital ocean    و لا عملت الشغل ده  بس
       دى الفكره باذن الله
     id: '1195072843865755'
+  - created_time: '2016-08-05T16:56:54+0000'
+    from:
+      name: Eslam Mostafa
+      id: '1575768239208294'
+    message: اعتقد انك هتستخدم nginx هتشغل nodejs باستخدام pm2 مثلًا او forever و
+      هتبظبط nginx انه ي listen ع ال port دا، مش متاكد بقى laravel ايه احسن طريقة
+      تعمل بيها deploy ، لو ممكن تعمل سيرش على الموضوع مع nginx يبقى كويس.
+    id: '1196762410363465'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU1TlRBMk5UQTNNemcyTmpVek1qb3hORGN3TWpFNU1qWTUZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU1TlRBM01qZAzBNemcyTlRjMU5Ub3hORGN3TWpFNU9EWTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEU1TmpjMk1qUXhNRE0yTXpRMk5Ub3hORGN3TkRFMk1qRTAZD
 attachments:
   data:
   - description: I created a real-time app using laravel and socket.io + nodejs, but
@@ -52,7 +60,7 @@ attachments:
         src: https://external.xx.fbcdn.net/safe_image.php?d=AQAntEGj6KNL8I7m&w=316&h=316&url=http%3A%2F%2Fcdn.sstatic.net%2FSites%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded%26a&cfs=1&sx=0&sy=0&sw=316&sh=316&_nc_hash=AQAI6p974RoCbfNJ
         width: 316
     target:
-      url: http://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F38736771%2Fhow-to-deploy-laravel-nodejs-socket-io-project&h=ATOidv8VIxBtWrgMVta-1zdWnF661ahlXPHEfkFHaCL_jiB7hqVBjfbdj_EF83BF7WeGT--MY5l5MUyh7AVdwCIYlYCiOHI19H6AtVxPpkaPcDOnulpU&s=1
+      url: http://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F38736771%2Fhow-to-deploy-laravel-nodejs-socket-io-project&h=ATMVsVDsGVr-mRwzfzxzoMQ6au5KUAbiB2UoBm31MrmcoMDAsBXkZP2YRyRiRJH_getO0-Jrg_yH2bUqBTDrW75Uue5Pxi4TvYUPJEQBY-6sJoy4GWMq&s=1
     title: How to Deploy Laravel + NodeJs + Socket.io Project
     type: share
-    url: http://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F38736771%2Fhow-to-deploy-laravel-nodejs-socket-io-project&h=ATOidv8VIxBtWrgMVta-1zdWnF661ahlXPHEfkFHaCL_jiB7hqVBjfbdj_EF83BF7WeGT--MY5l5MUyh7AVdwCIYlYCiOHI19H6AtVxPpkaPcDOnulpU&s=1
+    url: http://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F38736771%2Fhow-to-deploy-laravel-nodejs-socket-io-project&h=ATMVsVDsGVr-mRwzfzxzoMQ6au5KUAbiB2UoBm31MrmcoMDAsBXkZP2YRyRiRJH_getO0-Jrg_yH2bUqBTDrW75Uue5Pxi4TvYUPJEQBY-6sJoy4GWMq&s=1

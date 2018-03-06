@@ -76,7 +76,24 @@ comments:
       id: '10211325385431402'
     message: كمبيوترات دي ولا اللمبي بعد ما عمل العملية *اهلا اشرف اذيك يا اشرف* مسخرة
     id: '1585889441450758'
+  - created_time: '2017-08-21T13:46:53+0000'
+    from:
+      name: يحيى فرغلى
+      id: '2072152973066405'
+    message: check crontab tasks if a job for ejecting the /dev/sr0 exist ! .if not,
+      in the crontab ($crontab), write " @reboot eject -i on /dev/sr0 ". this should
+      prevent the dvd to be ejected via its button since i suspect it may be a hardware
+      fault. if this doesn't help. you may try doing again in crontab " * * * * *
+      eject -t /dev/sr0 ",this will close the tray every minute. the worst scenario
+      i think if you aren't comfort with crontab, rename /dev/sr0 with another name
+      ($sudo mv /dev/sr0 /dev/sr0.tmp ) and if you need to use dvd,return to the name
+      to sr0 . this evilly should cut the connection between any userspace app try
+      to communicate to the DVD HW .( probably the file will be created again at reboot
+      automatically from kernel, so you may add the command of mv to crontab again
+      :D ). these are just workaround solutions and never tried before but no harm
+      will happen if you tried them.
+    id: '1586134178092951'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU0TlRVd016TXlPREUxTmpBek5qb3hOVEF6TWpZAeE9UQXoZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU0TlRnNE9UUTBNVFExTURjMU9Eb3hOVEF6TXpBME56QXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU0TmpFek5ERTNPREE1TWprMU1Ub3hOVEF6TXpJek1qRXoZD

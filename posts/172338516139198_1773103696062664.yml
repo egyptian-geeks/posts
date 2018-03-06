@@ -1,12 +1,13 @@
 ---
 message: حد عنده فكرة عن TTS يكون زى Siri أو Cortana أو على الأقل يكون قريب منهم و
-  متاح على Embedded Linux؟ و لو فى حاجة عربى كمان يبقى كويس أوى عشان دورت كتير!
+  متاح على Embedded Linux و تكون شغالة Offline؟ و لو فى حاجة عربى كمان يبقى كويس أوى
+  عشان دورت كتير!
 from:
   name: Mohamed Emam
   id: '1637456226316303'
 type: status
 created_time: '2018-03-05T17:59:39+0000'
-updated_time: '2018-03-05T21:32:04+0000'
+updated_time: '2018-03-06T11:00:37+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1773103696062664/
 id: '172338516139198_1773103696062664'
 reactions:
@@ -45,7 +46,19 @@ comments:
     message: Alexa is available for linux(though I couldn't compile it for some reason
       didn't look into it yet)
     id: '1773258542713846'
+  - created_time: '2018-03-06T00:02:54+0000'
+    from:
+      name: Abdallah Hodieb
+      id: '10155961552416083'
+    message: There is amazon Lex, which is an aws service, it's not offline though
+    id: '1773354482704252'
+  - created_time: '2018-03-06T10:13:57+0000'
+    from:
+      name: Mohamed Emam
+      id: '1637456226316303'
+    message: Guys, I am looking for something that can work totally offline.
+    id: '1773742732665427'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMzTXpFd056RXlNamN5T0RrNE9Eb3hOVEl3TWpjeU9Ua3kZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMzTXpJMU9EVTBNamN4TXpnME5qb3hOVEl3TWpnMU5USXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMzTXpjME1qY3pNalkyTlRReU56b3hOVEl3TXpNeE1qTTQZD
