@@ -1,0 +1,53 @@
+---
+message: |-
+  السلام عليكم
+  انا عادة بخلي ال keys بتاعت ال  api response دي في js file بدل ما تكون hard-coded ، هل في tool او حاجة تخليني أ generate ال keys دي ك java class ، اقدر استخدمه ف الاندرويد بدل ما كل ما اغير ال keys دي اروح اغيرها ف الاندرويد ﻷن احيانا بنسى، الفكرة اللي في بالي اني اكتب script يعمل الحتة دي مع نفسه، بس قولت اسأل يمكن في طريقة تانية احسن
+  كنت شفت tool بتخليك ت compose java code بجافاسكربت بس مش فاكر اسمها
+  تعديل: الاداة مش لل javascript، اسمها javapoet
+from:
+  name: Ahmed Sabry
+  id: '1847421335299420'
+type: status
+created_time: '2018-03-07T07:03:44+0000'
+updated_time: '2018-03-07T20:07:22+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1774403149266052/
+id: '172338516139198_1774403149266052'
+reactions:
+  data:
+  - id: '1585067104922792'
+    name: Ahmed M. Ali
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlOVGcxTlRJME5qUTRPakUxTWpBME1URXlNekk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlOVGcxTlRJME5qUTRPakUxTWpBME1URXlNekk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2018-03-07T07:37:38+0000'
+    from:
+      name: Muhammed Sabry
+      id: '1668113069920698'
+    message: "try Properties class in java \nit might be useful to you \nit can read
+      from XMLs  and prop files"
+    id: '1774687705904263'
+  - created_time: '2018-03-07T15:58:40+0000'
+    from:
+      name: Ahmad Salah
+      id: '2461629930728686'
+    message: |-
+      If using json for API response, this site can help you:
+      http://www.jsonschema2pojo.org/
+    id: '1775114622528238'
+  - created_time: '2018-03-07T20:07:18+0000'
+    from:
+      name: Ahmed Sabry
+      id: '1847421335299420'
+    message: |-
+      شكرا ياشباب
+      انا كتبت script بسيط يعملي الموضوع ده
+      https://gist.github.com/abou7mied/e3fb26f91c544396c21b6c61a255e730
+    id: '1775313649175002'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMzTkRZANE56Y3dOVGt3TkRJMk16b3hOVEl3TkRBNE1qVTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMzTlRNeE16WTBPVEUzTlRBd01qb3hOVEl3TkRVek1qTTUZD

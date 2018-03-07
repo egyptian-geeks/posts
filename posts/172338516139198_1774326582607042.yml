@@ -6,6 +6,68 @@ from:
   id: '10156043651610120'
 type: status
 created_time: '2018-03-06T22:27:04+0000'
-updated_time: '2018-03-06T22:27:04+0000'
+updated_time: '2018-03-07T18:51:43+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1774326582607042/
 id: '172338516139198_1774326582607042'
+comments:
+  data:
+  - created_time: '2018-03-07T11:14:15+0000'
+    from:
+      name: Youssef Fotouh
+      id: '1634637469953480'
+    message: |-
+      ولا ان الكلام ده مش best practice لان المفروض يبقى فيه web service ك bridge بين ال client وال what ever server database.
+      جرب الحلول دي ، لكن فيما اعتقد ان ممكن يبقى فيها مشاكل :
+      اولا في حد سئل السؤال ده قبل كده وواحد رد عليه وقاله ممكن تستخدم ال mongo java driver بصورة مباشرة عادي :
+      https://stackoverflow.com/a/32542235/2469133
+      وفي سؤال تاني واحد بيقول انه منفعش معاه  الكلام ده بس اعتقد مشكتله انه كان بي run ال code على ال main thread.
+      وواحد تاني قال ان فيه مشاكل في ال java mongo driver على الاندرويد بس في حد حاول يحل المشكلة دي:
+      https://stackoverflow.com/a/43147109/2469133
+      بس مرة تانية الكلام ده مش secure خالص ولا صح لكن حلتزم اني ارد على قد سؤال.
+    id: '1774856395887394'
+  - created_time: '2018-03-07T12:36:54+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: I think firebase can be a fine dropin replacement for mongo and support
+      serverless much better
+    id: '1774931812546519'
+  - created_time: '2018-03-07T12:39:58+0000'
+    from:
+      name: Samer Nady
+      id: '10156043651610120'
+    message: ma howa el customer 3ando MongoDb we mesh 3ayez ye3'ayarha we mesh 3ayez
+      ye3mel ay backend changes
+    id: '1774934209212946'
+  - created_time: '2018-03-07T16:31:22+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: |-
+      خليك 3 tier احسن
+      شغل ال 2 tier وال fat client ده عفى عليه الزمن حتى في اصغر التطبيقات..
+    id: '1775143275858706'
+  - created_time: '2018-03-07T16:33:17+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: عموما بعيد ما اكون عارف اي تفاصيل عن mongo و android بس انت هتحتاج تفتح
+      بورتات المونجو بابليك وتستخدم كلاسات او درايفر بتاعت  mongo for Java مثلا كما
+      لو كنت بتشتغل جافا باك اند مش جافا اندرويد اب
+    id: '1775144829191884'
+  - created_time: '2018-03-07T16:56:42+0000'
+    from:
+      name: Mohammad Desouky
+      id: '838637592985111'
+    message: "ده خطر جدا ابسط حاجة ممكن تحصل لو حد عرف :D \nهتتقلب فى الداتا او تتمسح"
+    id: '1775167882522912'
+  - created_time: '2018-03-07T18:51:40+0000'
+    from:
+      name: PoNa Makram
+      id: '10212345285533402'
+    message: لازم باك إند
+    id: '1775254885847545'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMzTkRnMU5qTTVOVGc0TnpNNU5Eb3hOVEl3TkRJeE1qVTEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMzTlRJMU5EZAzROVGcwTnpVME5Ub3hOVEl3TkRRNE56QXcZD

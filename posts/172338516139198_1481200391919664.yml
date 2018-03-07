@@ -38,6 +38,16 @@ comments:
 
       https://developer.chrome.com/apps/manifest/kiosk_enabled
     id: '1481258711913832'
+  - created_time: '2017-05-13T05:07:32+0000'
+    from:
+      name: Ahmed Maher
+      id: '2162564797304338'
+    message: "If you want it to access just one page that you already specified the
+      url to it, in your code you can use webkit wrappers to implement a simple web
+      browser that does exactly that or what ever you want\nI already did something
+      similar using the webkit wrapper for python \nIt's only a couple of lines to
+      implement"
+    id: '1481407495232287'
   - created_time: '2017-05-13T05:41:30+0000'
     from:
       name: Sarab Alzaman

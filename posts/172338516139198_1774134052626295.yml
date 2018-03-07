@@ -10,11 +10,28 @@ from:
   id: '1561022257326859'
 type: status
 created_time: '2018-03-06T18:07:43+0000'
-updated_time: '2018-03-06T20:46:15+0000'
+updated_time: '2018-03-07T15:58:33+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1774134052626295/
+shares:
+  count: 2
 id: '172338516139198_1774134052626295'
 reactions:
   data:
+  - id: '871016873079772'
+    name: Marwan Ahmed
+    type: LIKE
+  - id: '946174355544822'
+    name: Ahmed Salah
+    type: LIKE
+  - id: '1978556165731463'
+    name: Amr Almgwary
+    type: LIKE
+  - id: '1589304647821970'
+    name: Menem Salama
+    type: LIKE
+  - id: '2022490591345439'
+    name: سامح دعبس
+    type: LIKE
   - id: '1575048152582433'
     name: Ahmed Gamal
     type: LIKE
@@ -23,7 +40,7 @@ reactions:
     type: LIKE
   paging:
     cursors:
-      before: TVRBd01EQXlNekUzT1RBeU5UUTJPakUxTWpBek5qSXpORGM2TWpVME1EazJNVFl4TXc9PQZDZD
+      before: TVRBd01EQTFNVFEwTURJME5EWTRPakUxTWpBME5EWXhOVEU2TWpVME1EazJNVFl4TXc9PQZDZD
       after: TVRBd01ESXpPRGcxTkRNMU16QTVPakUxTWpBek5qQTVOVFE2TWpVME1EazJNVFl4TXc9PQZDZD
 comments:
   data:
@@ -85,7 +102,35 @@ comments:
       .. تمسح ال read موديل كله وتشغل الايفينتس كلها عشان يبنيها من جديد .. \ngoogle
       CQRS with Event Sourcing"
     id: '1774267362612964'
+  - created_time: '2018-03-07T04:40:57+0000'
+    from:
+      name: Mohammed ElSnousy
+      id: '10155780497658197'
+    message: "لو مش عاوز تعمل relations \nيبقي استخد م no SQL db \nMongo احنا شغالين
+      علي بروجكت اكبر من مواصفاتك وشغال معانا كويس"
+    id: '1774574455915588'
+  - created_time: '2018-03-07T11:23:59+0000'
+    from:
+      name: Mohamed Elsawy
+      id: '1756931984371875'
+    message: NoSQL + Caching layer
+    id: '1774864789219888'
+  - created_time: '2018-03-07T11:39:00+0000'
+    from:
+      name: Ahmed Amr Farid
+      id: '10155859538230336'
+    message: mentoring walla minotoring?
+    id: '1774876199218747'
+  - created_time: '2018-03-07T15:58:29+0000'
+    from:
+      name: Sherif Elmetainy
+      id: '10155248504590994'
+    message: |-
+      انت بتقول انك مخصص layer كاملة لل data integrity. السؤال هنا ايه اللي ال layer بتاعتك بتعمله أسرع من ال database engine؟ لو الperformance مهم كده الlayer دي هتأثر عليه برضه ,وغالبا هتيقى أبطأ بكتير. دي تلجأ لها لو عندك constraints الdatabase engine مش بيدعمها. ومش هاتحل مشكلة system admin دخل عدل في الdatabase من خلال SQL (بتحصل)
+
+      رأيي لو الdata integrity مهمة استخدم ال constraints اللي في الdatabase engine.
+    id: '1775114139194953'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMzTkRFME9EUXdOVGsxT0RFNU16b3hOVEl3TXpZAd05qazUZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMzTkRJMk56TTJNall4TWprMk5Eb3hOVEl3TXpZANU1UYzAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMzTlRFeE5ERXpPVEU1TkRrMU16b3hOVEl3TkRNNE16RXcZD
