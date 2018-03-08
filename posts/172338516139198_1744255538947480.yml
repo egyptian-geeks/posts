@@ -27,10 +27,13 @@ reactions:
   - id: '382258968904368'
     name: Mohamed Essam El-Deen
     type: LIKE
+  - id: '714462715416491'
+    name: Emy Ahmad
+    type: LIKE
   paging:
     cursors:
       before: TVRBd01EQXpOek0yT1RjNU1EQTVPakUxTVRjNU1UQTROVEk2TWpVME1EazJNVFl4TXc9PQZDZD
-      after: TVRBd01ERXpOakE0TURRMk5EVTFPakUxTVRjNE5qUXhOamc2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTFOVGd6TURZAeU9Ea3pPakUxTVRjNE5qTTFORGs2TWpVME1EazJNVFl4TXc9PQZDZD
 comments:
   data:
   - created_time: '2018-02-05T20:50:37+0000'
@@ -85,6 +88,14 @@ comments:
       بس)، عشان لو المبلغ دولاري وكبير البنوك تسمح باستقبال المبلغ وماحدش، يضايقك،
       لو المشتري أجنبي هتحتاج صيغة قانونية معينة عشان الضرائب...
     id: '1744667485572952'
+  - created_time: '2018-02-06T11:11:36+0000'
+    from:
+      name: Emy Ahmad
+      id: '714462715416491'
+    message: |-
+      أظنّ بتحسب قيمة الأصول اللي موجودة حاليًا تساوي كام بالفلوس، لو حنقارن التطبيق بأي استثمار آخر يتم بيعه وشراؤه، بنحسب الأصول والاستهلاك ومنها بنحسب قيمة الربح على الأصول بتساوي كام.
+      يعني لو الأصول بتساوي 10 مليون دلوقت وربحها 20% سنويًا، يبقى أنت ممكن تبيعها بـ 10 مليون + ربح 50% أو 100% (في حالة كانت الأرباح مضمونة للشاري ومنحنى الربح صاعد لا محالة).
+    id: '1744999772206390'
   - created_time: '2018-02-07T09:31:26+0000'
     from:
       name: Hosam Aly

@@ -1,0 +1,68 @@
+---
+message: "noob question here\nIs scrapping a web site to get your data legal or not
+  ? \nfor example : i need to convert currencies to EGP , all the \"free\" apis i
+  found have some limits like 1K request per month..etc\nso is it okay to scrap   \nhttps://finance.google.com/finance/converter\nand
+  other websites or not ?\nif anyone have experience with such a thing it will be
+  appreciated."
+from:
+  name: Omar Elrayes
+  id: '2022306214479396'
+type: status
+created_time: '2018-03-08T06:55:47+0000'
+updated_time: '2018-03-08T07:49:13+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1775231295849904/
+id: '172338516139198_1775231295849904'
+reactions:
+  data:
+  - id: '10215515935116102'
+    name: Agk TF
+    type: LIKE
+  - id: '1568841889866863'
+    name: Mostafa Waleed
+    type: LIKE
+  - id: '10155856743186578'
+    name: Mohamed Salem
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRNM01EZAzNNREkyTkRveE5USXdOVEkyTVRjeE9qSTFOREE1TmpFMk1UTT0ZD
+      after: TlRrM016UXhOVGMzT2pFMU1qQTBPVFEwTWpBNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2018-03-08T07:08:41+0000'
+    from:
+      name: Hossam Fares
+      id: '1859890144021710'
+    message: "Good question, \nIt's same case when google search bots scrapping your
+      web site to index it without your permission, right?"
+    id: '1775764812463219'
+  - created_time: '2018-03-08T07:28:50+0000'
+    from:
+      name: Mohamed Ezz
+      id: '10159848115600510'
+    message: "Every website declare their scrappig policy in a file named robot.txt,
+      and scrappers should respect it. \nhttp://www.robotstxt.org/robotstxt.html\n\nSee
+      an example https://www.pinterest.com/robots.txt\n(they are even putting hiring
+      ads for developers in the robots.txt)"
+    id: '1775776789128688'
+  - created_time: '2018-03-08T07:39:45+0000'
+    from:
+      name: Hisham Fangary
+      id: '10156660518155839'
+    message: "No. \nThe act of scrapping by itself is not illegal.\nHowever, if you
+      copy copyrighted content through scrapping and display it on your site, that
+      might be illegal."
+    id: '1775783102461390'
+  - created_time: '2018-03-08T07:49:11+0000'
+    from:
+      name: Hisham Fangary
+      id: '10156660518155839'
+    message: |-
+      Also, the use of a scrapper to circumvent security and/or perform actions such as ticket purchases or form submission in such a way that can be considered hacking or brute Force attacks can be considered ... Hacking or a brute Force attack!
+      So avoid doing anything like that.
+      But as far as scrapping data from a webpage like currency exchange or anything in that vein should not be illegal.
+    id: '1775788849127482'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMzTlRjMk5EZA3hNalEyTXpJeE9Ub3hOVEl3TkRreU9USXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMzTlRjNE9EZAzBPVEV5TnpRNE1qb3hOVEl3TkRrMU16VXkZD

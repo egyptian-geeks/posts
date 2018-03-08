@@ -102,9 +102,6 @@ reactions:
   - id: '10211387034451165'
     name: Ahmed Hussein
     type: HAHA
-  - id: '10156017015984054'
-    name: Hend Adly
-    type: HAHA
   - id: '10155756586421253'
     name: Ahmed Aboul-Kheir
     type: LIKE
@@ -136,10 +133,16 @@ comments:
       id: '10155364957371909'
     message: بالظبط اللي فكرت فية اول لما شفت الانفوجراف
     id: '1550818314957871'
+  - created_time: '2017-07-18T20:48:55+0000'
+    from:
+      name: Emy Ahmad
+      id: '714462715416491'
+    message: "كله متسجل \U0001F602\U0001F602"
+    id: '1551316401574729'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUxTURRek16VTVORGs1TmpNME16b3hOVEF3TXpNeU5qQTEZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUxTURneE9ETXhORGsxTnpnM01Ub3hOVEF3TXpjd016ZA3oZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUxTVRNeE5qUXdNVFUzTkRjeU9Ub3hOVEF3TkRFd09UTTEZD
 attachments:
   data:
   - description: Happy World Emoji Day!

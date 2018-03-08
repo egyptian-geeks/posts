@@ -1,0 +1,66 @@
+---
+message: سؤال يا شباب، انا هشتري لابتوب جديد معاه Windows 10، بس هعمل فورمات وهنزل
+  عليه Ubuntu... دلوقتي لو نزلت ويندوز جوه VM هقدر أعمل أكتيفيشن ليه ولا لازم أشتري
+  نسخة تانية؟ حد جرب الموضوع ده؟
+from:
+  name: Mohamed Eltantawi
+  id: '10160105091695314'
+type: status
+created_time: '2018-03-08T10:08:29+0000'
+updated_time: '2018-03-08T15:20:22+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1775841495788884/
+id: '172338516139198_1775841495788884'
+comments:
+  data:
+  - created_time: '2018-03-08T10:09:09+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: "اه هتجيب ال license من ال firmware وتستخدمها عادي حتي و علي جهاز تاني\nالامر
+      ده هيطلعلك الlicense \nsudo strings /sys/firmware/acpi/tables/MSDM"
+    id: '1775885012451199'
+  - created_time: '2018-03-08T10:10:13+0000'
+    from:
+      name: Mostafa Abobakr
+      id: '2025844137456286'
+    message: هو ال dual boot مش كويس !
+    id: '1775885579117809'
+  - created_time: '2018-03-08T10:17:14+0000'
+    from:
+      name: Tarek Ibrahem
+      id: '10215494402692670'
+    message: طالما موجود Activated علي الجهاز تقدر تنزله من Microsoft مثلا و تسطبه
+      و لما تيجي تعمل Activate تاني هيشتغل عادي لانه مربوط بال Hardware
+    id: '1775889585784075'
+  - created_time: '2018-03-08T10:24:35+0000'
+    from:
+      name: Nasser Mohammed Ali
+      id: '10213493310141587'
+    message: ويندوز 10 تقدر تربطه بالأكاونت بتاعك لما تعمل sign in وبالتالي نسخة من
+      ال key هاتبقى متاحة في الأكاونت. ولما تنزل ويندوز 10 في أي حتة وتـ sign in هايتأكتيفيت
+      لوحده.
+    id: '1775894289116938'
+  - created_time: '2018-03-08T10:41:00+0000'
+    from:
+      name: Samy Ahmed
+      id: '10155774048735358'
+    message: "Tayeb mat3amel VM ubuntu? \U0001F603"
+    id: '1775907479115619'
+  - created_time: '2018-03-08T13:44:19+0000'
+    from:
+      name: Alzobair Adel
+      id: '10156194280668156'
+    message: انت ممكن تنزل الاتنين على نفس الجهاز ، بلاش تشيل الوندوز ولكن نزل ubuntu
+      معاه على بارتيشن تاني وانت بتعمل ستارت للجهاز حيديك الاختيار عايز تدخل على وندوز
+      ولا لينكس
+    id: '1776077542431946'
+  - created_time: '2018-03-08T13:47:20+0000'
+    from:
+      name: أبو مالك القصير
+      id: '535005166886357'
+    message: مظبوط ممكن 2 مع بعض
+    id: '1776080135765020'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMzTlRnNE5UQXhNalExTVRFNU9Ub3hOVEl3TlRBek56VXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMzTmpBNE1ERXpOVGMyTlRBeU1Eb3hOVEl3TlRFMk9EUXcZD

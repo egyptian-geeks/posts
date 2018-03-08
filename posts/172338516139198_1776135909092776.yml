@@ -1,0 +1,66 @@
+---
+message: Please star the repo if interested :D
+from:
+  name: Mohamed Fathy
+  id: '1533295126725494'
+type: status
+created_time: '2018-03-08T20:42:25+0000'
+updated_time: '2018-03-08T22:59:02+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1776135909092776/
+id: '172338516139198_1776135909092776'
+reactions:
+  data:
+  - id: '1382560551854209'
+    name: Mohammad Sakr
+    type: LIKE
+  - id: '2029908667286506'
+    name: Waheed Ibrahim
+    type: LIKE
+  - id: '2109950492620951'
+    name: Bakir Alharoun
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXpNREE0TXpFeE9EYzRPakUxTWpBMU5EZA3hNekE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTRNVGd3TmpJeU5ESXdPakUxTWpBMU5ESXpOalE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2018-03-08T21:16:39+0000'
+    from:
+      name: Mohamed Abd El-Sattar
+      id: '1636842766361831'
+    message: سؤال بس انت عامله واحد java  وواحد kotlin ولا mix مع بعضه
+    id: '1776460535726980'
+  - created_time: '2018-03-08T22:44:15+0000'
+    from:
+      name: Bishoy Abd Lamey
+      id: '1809349152432380'
+    message: "انا اخدت نظرة سريعه علي الكود و بالتحديد MainPresenterImpl \nوعندي شوية
+      ملاحظات ... \n1- انت ليه بتباصي ال view ف ال constructor ..لو حبيت ت inject
+      ال presenter مش هتعرف.use subscrbe(T view) instead \n2-activateEndlessScroll(RecyclerView
+      recyclerView, GridLayoutManager manager)  \nmakes no sense to be in the presenter.
+      this is against mvp\n3-ال chain طويلة و مش redable \n4-I prefer putting the
+      view and the presenter inside one file (MainContract)\nand use MainContract.Presenter
+      and MainContract.View\n5-you should encapsulate BaseApi  creation .presenter
+      shouldnot know about it.he is intereted in a list only. use a wrapper class
+      to encapsulate the Api .this will be useful in case of cashing in local storage
+      or even migrating to another third-party other than retrofit."
+    id: '1776523105720723'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMzTmpRMk1EVXpOVGN5TmprNE1Eb3hOVEl3TlRRek9EQXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMzTmpVeU16RXdOVGN5TURjeU16b3hOVEl3TlRRNU1EVTIZD
+attachments:
+  data:
+  - description: YTS site sample app written in Java & Kotlin, implemented with MVP
+      pattern and powered by Rx.
+    media:
+      image:
+        height: 400
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQBqPXl5Vm0J6p-_&w=720&h=720&url=https%3A%2F%2Favatars3.githubusercontent.com%2Fu%2F4931115%3Fs%3D400%26v%3D4&cfs=1&_nc_hash=AQBvPgB3V8Z75EYA
+        width: 400
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgoo.gl%2FCvVHDr&h=ATPcTQ5d8MF3_OKWSDAwLsNIx2eVnqUGLMcE02PUs49ylbef1I6DKOHsM9BCdow08YUAfU5Bl67UVpldQQXEkzm2YtLOY_8hKquRV7PlJFmYXjs09SGt&s=1
+    title: MuhamedFathy/YTS
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgoo.gl%2FCvVHDr&h=ATPcTQ5d8MF3_OKWSDAwLsNIx2eVnqUGLMcE02PUs49ylbef1I6DKOHsM9BCdow08YUAfU5Bl67UVpldQQXEkzm2YtLOY_8hKquRV7PlJFmYXjs09SGt&s=1
