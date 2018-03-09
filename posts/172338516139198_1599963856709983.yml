@@ -505,6 +505,9 @@ reactions:
   - id: '1590320331045143'
     name: Eman Abou Khatwa
     type: LIKE
+  - id: '10156172366108793'
+    name: Sara El-Kady
+    type: LIKE
   - id: '10155065357586363'
     name: Mohammad Ali Diab
     type: LIKE
@@ -730,9 +733,6 @@ reactions:
   - id: '10159880265870164'
     name: Kinan Qassar
     type: LIKE
-  - id: '1709278585800086'
-    name: Mohamed Khatab
-    type: LIKE
   - id: '2042443932659256'
     name: Ahmed Magdy
     type: LIKE
@@ -745,12 +745,6 @@ reactions:
       after: TVRBd01EQXdNakE1TkRJMU5UTXhPakUxTURRMk9UWTFOelk2TWpVME1EazJNVFl4TXc9PQZDZD
 comments:
   data:
-  - created_time: '2017-09-06T11:16:56+0000'
-    from:
-      name: Mohamed Khatab
-      id: '1709278585800086'
-    message: ربنا يعوضك خير
-    id: '1599966173376418'
   - created_time: '2017-09-06T11:17:05+0000'
     from:
       name: Mahmoud Mortda
@@ -852,5 +846,5 @@ comments:
     id: '1600616746644694'
   paging:
     cursors:
-      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU1T1RrMk5qRTNNek0zTmpReE9Eb3hOVEEwTmprMk5qRTMZD
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFU1T1RrMk5qSTFNek0zTmpReE1Eb3hOVEEwTmprMk5qSTEZD
       after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl3TURZAeE5qYzBOalkwTkRZANU5Eb3hOVEEwTnpZAME5ETTMZD

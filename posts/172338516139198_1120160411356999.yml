@@ -64,6 +64,9 @@ reactions:
   - id: '10156046970459919'
     name: Mohamed El Kerdany
     type: LIKE
+  - id: '10155011766866836'
+    name: Yahia Zakaria
+    type: LIKE
   - id: '10155432639833282'
     name: Ahmed Abdo
     type: LIKE
@@ -79,6 +82,13 @@ comments:
       id: '10213765601288538'
     message: Amr Ragaey Ahmed Medhat
     id: '1120178364688537'
+  - created_time: '2016-04-08T19:21:33+0000'
+    from:
+      name: Yahia Zakaria
+      id: '10155011766866836'
+    message: If you browse bing from outside US, you should add "&market=en-US" into
+      your request to activate this feature.
+    id: '1120180984688275'
   - created_time: '2016-04-08T19:26:21+0000'
     from:
       name: Mohammed Tareq
@@ -120,8 +130,8 @@ attachments:
         src: https://external.xx.fbcdn.net/safe_image.php?d=AQBPrPNq7Bky3ZYj&w=720&h=720&url=https%3A%2F%2Ftctechcrunch2011.files.wordpress.com%2F2016%2F04%2Fquick-sort-java.gif%3Fw%3D720%26h%3D400%26crop%3D1&cfs=1&_nc_hash=AQD1coI9nhTmxDOW
         width: 400
     target:
-      url: http://l.facebook.com/l.php?u=http%3A%2F%2Ftechcrunch.com%2F2016%2F04%2F07%2Fmicrosoft-and-hackerrank-bring-executable-code-snippets-to-bings-search-results-pages%2F&h=ATMGd3GWsGpYGwIXbWdTbjBzfAlq_sZoe4-oGLVatCy6aoxzM5EhMKa1NzR1Hu7_1VIpUDT7dQEd54PuDHQvo9QI-r_6V8yqkMEkrj1VuLC5RrjsTQse&s=1
+      url: http://l.facebook.com/l.php?u=http%3A%2F%2Ftechcrunch.com%2F2016%2F04%2F07%2Fmicrosoft-and-hackerrank-bring-executable-code-snippets-to-bings-search-results-pages%2F&h=ATNGReWfrinbmfOaNxFDGAVomfIOVyRKHxBoNlfG9Jzr4efB44R_Hnv4QegSPdgPkxMRqs8-Co2xHp45bJWXZe2culiOCBb9bjGWMw6wF4h3GJMGA9df&s=1
     title: Microsoft and HackerRank bring executable code snippets to Bing’s search
       results pages
     type: share
-    url: http://l.facebook.com/l.php?u=http%3A%2F%2Ftechcrunch.com%2F2016%2F04%2F07%2Fmicrosoft-and-hackerrank-bring-executable-code-snippets-to-bings-search-results-pages%2F&h=ATMGd3GWsGpYGwIXbWdTbjBzfAlq_sZoe4-oGLVatCy6aoxzM5EhMKa1NzR1Hu7_1VIpUDT7dQEd54PuDHQvo9QI-r_6V8yqkMEkrj1VuLC5RrjsTQse&s=1
+    url: http://l.facebook.com/l.php?u=http%3A%2F%2Ftechcrunch.com%2F2016%2F04%2F07%2Fmicrosoft-and-hackerrank-bring-executable-code-snippets-to-bings-search-results-pages%2F&h=ATNGReWfrinbmfOaNxFDGAVomfIOVyRKHxBoNlfG9Jzr4efB44R_Hnv4QegSPdgPkxMRqs8-Co2xHp45bJWXZe2culiOCBb9bjGWMw6wF4h3GJMGA9df&s=1

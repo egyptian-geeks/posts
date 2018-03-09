@@ -63,18 +63,10 @@ comments:
       Server side validation is Mandatory, cause your APIs may be accessed without client side validation for any reason(The user disabled JS, A hacker may skip your client side validation)
       Client side validation is Optional yet highly recommended, it'll make your app faster and reduce the load on your server
     id: '1603166576389711'
-  - created_time: '2017-09-11T18:34:58+0000'
-    from:
-      name: Pola Ashraf
-      id: '10155173051963199'
-    message: |-
-      If you Validated it in the API Layer, Don't Re-validate it in other layers.
-      make the validation consistent
-    id: '1604390492933986'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl3TXpFd05ETTJPVGN5T1RJMk5Ub3hOVEExTURJeE5ESXkZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl3TkRNNU1EUTVNamt6TXprNE5qb3hOVEExTVRVME9EazQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFl3TXpFMk5qVTNOak00T1RjeE1Ub3hOVEExTURJNU5qWTIZD
 attachments:
   data:
   - description: "في التعامل مع الـ APIs .. اعمل Server Side validation حتى للحاجات

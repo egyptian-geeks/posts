@@ -62,10 +62,6 @@ attachments:
         title: Entertaining
         type: option
       - target:
-          id: '1065739480140679'
-        title: Bad
-        type: option
-      - target:
           id: '1312856445395534'
         title: Boring
         type: option
@@ -84,6 +80,10 @@ attachments:
       - target:
           id: '524234071081923'
         title: Good
+        type: option
+      - target:
+          id: '1065739480140679'
+        title: Bad
         type: option
     target:
       id: '1790865307810760'

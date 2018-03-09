@@ -8,12 +8,26 @@ from:
 type: video
 picture: https://external.xx.fbcdn.net/safe_image.php?d=AQDDktYycEYQphvu&w=130&h=130&url=https%3A%2F%2Fi.ytimg.com%2Fvi%2FRoXT_Rkg8LA%2Fmaxresdefault.jpg&cfs=1&sx=0&sy=0&sw=720&sh=720&_nc_hash=AQBROdIN8HtYONHY
 created_time: '2018-03-08T20:42:03+0000'
-updated_time: '2018-03-08T22:31:47+0000'
+updated_time: '2018-03-09T13:17:32+0000'
 name: 'Intro to gRPC: A Modern Toolkit for Microservice Communication'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1776304625742571/
+shares:
+  count: 1
 id: '172338516139198_1776304625742571'
 reactions:
   data:
+  - id: '10215729686174345'
+    name: Hamed Moustafa
+    type: LIKE
+  - id: '780207808835710'
+    name: Mohamed Ali
+    type: LIKE
+  - id: '10156085462929907'
+    name: Mohamed Talaat Mahlies
+    type: LIKE
+  - id: '10156520910273690'
+    name: Ehab M. Ashraf
+    type: LIKE
   - id: '10156055860969104'
     name: Mohamed Aboali
     type: LIKE
@@ -28,7 +42,7 @@ reactions:
     type: LIKE
   paging:
     cursors:
-      before: TmpVek1USTVNVEF6T2pFMU1qQTFORGs0T1RrNk1qVTBNRGsyTVRZAeE13PT0ZD
+      before: TVRJd09EZAzNNamN3TWpveE5USXdOakEwT1RNeE9qSTFOREE1TmpFMk1UTT0ZD
       after: TmpnMk9Ua3pNekE0T2pFMU1qQTFOREk1T0RVNk1qVTBNRGsyTVRZAeE13PT0ZD
 comments:
   data:
@@ -39,10 +53,16 @@ comments:
     message: "It's really great I hope for wider support, also ngork is awesome \U0001F600
       !! \n\nBut I find it not so suitable for PHP and php like languages."
     id: '1776514222388278'
+  - created_time: '2018-03-09T09:28:49+0000'
+    from:
+      name: Mohamed Talaat Mahlies
+      id: '10156085462929907'
+    message: I think it's Corba with protocol buffer and HTTP2 features.
+    id: '1776955059010861'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMzTmpVeE5ESXlNak00T0RJM09Eb3hOVEl3TlRRNE16QTAZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMzTmpVeE5ESXlNak00T0RJM09Eb3hOVEl3TlRRNE16QTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMzTmprMU5UQTFPVEF4TURnMk1Ub3hOVEl3TlRnM056TXcZD
 attachments:
   data:
   - description: gRPC is a modern, open source, high performance RPC framework that
@@ -54,7 +74,7 @@ attachments:
         src: https://external.xx.fbcdn.net/safe_image.php?d=AQBPDNz9m_o2FoSR&w=720&h=720&url=https%3A%2F%2Fi.ytimg.com%2Fvi%2FRoXT_Rkg8LA%2Fmaxresdefault.jpg&cfs=1&sx=0&sy=0&sw=720&sh=720&_nc_hash=AQCKr5pR7QjQD80a
         width: 720
     target:
-      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DRoXT_Rkg8LA&h=ATOsUs8BQ8IjcTiAo3KLBHfHettJIo-pLYGgckCkRfdK8TW5T8SB-f9llOEgf0oOgc_-cIya_zEcmUL8OWCfdUZMxnR1FIBhz_VSH_TVoN5_Lt846oH3&s=1
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DRoXT_Rkg8LA&h=ATNKgQiN2oGE2XOWCo1oWcfAELsUhsTUwomuuuE5ISB5tGNUjk8q2RUp_TjIKQ8M9MGy8ZnqitqQTzpyP6fLrAH9MQ7FjbBWlOG3ITjcbZhu6eYBmzQd&s=1
     title: 'Intro to gRPC: A Modern Toolkit for Microservice Communication'
     type: share
-    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DRoXT_Rkg8LA&h=ATOsUs8BQ8IjcTiAo3KLBHfHettJIo-pLYGgckCkRfdK8TW5T8SB-f9llOEgf0oOgc_-cIya_zEcmUL8OWCfdUZMxnR1FIBhz_VSH_TVoN5_Lt846oH3&s=1
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DRoXT_Rkg8LA&h=ATNKgQiN2oGE2XOWCo1oWcfAELsUhsTUwomuuuE5ISB5tGNUjk8q2RUp_TjIKQ8M9MGy8ZnqitqQTzpyP6fLrAH9MQ7FjbBWlOG3ITjcbZhu6eYBmzQd&s=1

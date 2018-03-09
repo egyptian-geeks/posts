@@ -1,0 +1,51 @@
+---
+message: |-
+  ازاي أخلي الموقع يقدر يسحب من credits ال  users  كل مدة لوحده وكل  user  هيسحب منه قدر معتمد علي ال  balance  بتاعه مش كمية ثابتة
+  وفي نفس الوقت يحول كل مدة معينة لمجموعة users تانيين كل واحد حسب ال balance  ببتاعه
+
+  دورت كتير في حجات زي  stripe  و  braintree  لكن علي حد فهمي فهما لعمليات الشراء وقت ما ال  user  يختار أنه هيدفع مقابل منتج مثلا أو حاجه زي ال subscroption لخدمة معينة سعرها ثابت
+
+  والحالة بتاعتي مختلفة شويتين عن كده فايه العنوان اللي ابحث فيه أو الخدمات اللي ممكن تفيد ؟
+from:
+  name: أحمد عاكف
+  id: '10215171020565968'
+type: status
+created_time: '2018-03-09T07:38:51+0000'
+updated_time: '2018-03-09T18:00:49+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1776779372361763/
+id: '172338516139198_1776779372361763'
+reactions:
+  data:
+  - id: '1947408088855899'
+    name: ناصر الطامى
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTNOakF4T0RBMU5qVTVPakUxTWpBMU9ETXpPVFE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTNOakF4T0RBMU5qVTVPakUxTWpBMU9ETXpPVFE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2018-03-09T07:42:23+0000'
+    from:
+      name: Mohamed Fergany
+      id: '10215339863195300'
+    message: "سترايب بيديك توكن بتقدر تسحب منه براحتك بعد كدا. تقدر تسحب الرقم الي
+      انت عاوزه بال APIs بتاعتهم. \nجوه الداتا بيز بتاعتك انت هتعمل التحويل دا الي
+      هو اليوزر الفلاني ليه كذا عند اليوزر الفلاني. \nوبعدها انت هتحولها عن طريق حاجة
+      زي بال بال مثلا انما سترايب مش بيدعم حاجة زي كدا"
+    id: '1776892685683765'
+  - created_time: '2018-03-09T08:48:50+0000'
+    from:
+      name: Diyaa Mahmoud
+      id: '1559170364118742'
+    message: سؤالك جزئين سحب الفلوس وده الجزء السهل  وده بيتعمل ب card tokenization
+      هتتخد توكن الكارت وتبقي تسحب بعد كده ومش شرط يكون مبلغ ثابت.... الجزء التاني
+      تحويل الفلوس وده الجزء الصعب لازم التحويل يكون من بنك حقيقي أو حاجه زي بايبال
+      نتلر والحاجات الشبيهة... التحويل من البنك ممكن تستخدم موقع زي transferwise.com
+      عشان تحول ب api... نظريا السحب والتحويل ممكن من مكان واحد لو اعتمدت عل بنك مش
+      payment gateway بس معرفش دعم البنوك المصريه  اللطيف لحاجه زي كده
+    id: '1776932819013085'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMzTmpnNU1qWTROVFk0TXpjMk5Ub3hOVEl3TlRneE16UTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMzTmprek1qZA3hPVEF4TXpBNE5Ub3hOVEl3TlRnMU16TXcZD
