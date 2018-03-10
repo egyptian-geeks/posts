@@ -34,6 +34,16 @@ reactions:
       after: TVRVM05Ea3hNemswTlRveE5EQTNORGt4TlRNeE9qSTFOREE1TmpFMk1UTT0ZD
 comments:
   data:
+  - created_time: '2014-08-08T11:00:25+0000'
+    from:
+      name: Khaled Rashad
+      id: '10155025067907484'
+    message: I haven't dealt with something like this before, but I guess you need
+      some sort of bucket search approach. You need to find some property to bucketize
+      the images offline (ie size, dimension, histograms, hashing pixel values, etc),
+      this way you will filter out most of the images and end up searching small number
+      of images in real time.
+    id: '796025263770517'
   - created_time: '2014-08-08T11:12:57+0000'
     from:
       name: Mohammed Ragab
@@ -41,6 +51,14 @@ comments:
     message: Khaled Rashad "great" but Accuracy is very important factor for me in
       this process
     id: '796038280435882'
+  - created_time: '2014-08-08T11:57:26+0000'
+    from:
+      name: Khaled Rashad
+      id: '10155025067907484'
+    message: The buckets just help you to quickly filter out the irrelevant ones.
+      Once you nail down the relevant bucket, you can search them to find the similar
+      images.
+    id: '796051677101209'
   - created_time: '2014-08-08T12:58:53+0000'
     from:
       name: Ahmed Osman
@@ -104,5 +122,5 @@ comments:
     id: '796144057091971'
   paging:
     cursors:
-      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemsyTURNNE1qZA3dORE0xT0RneU9qRTBNRGMwT1RZAek56Yz0ZD
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemsyTURJMU1qWXpOemN3TlRFM09qRTBNRGMwT1RVMk1qVT0ZD
       after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAOemsyTVRRME1EVTNNRGt4T1RjeE9qRTBNRGMxTVRNNE9UQT0ZD
