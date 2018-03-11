@@ -39,10 +39,13 @@ reactions:
   - id: '1477048562407774'
     name: Hassan Abd Elhalim
     type: LIKE
+  - id: '1537088099723136'
+    name: Ahmed Hassan
+    type: LIKE
   paging:
     cursors:
       before: TlRZAMU56RTBOekF3T2pFME9UazFNekE0T0RrNk1qVTBNRGsyTVRZAeE13PT0ZD
-      after: TVRBd01EQXpNRGM1TXpRMU1UazNPakUwT1RrME5qUXpORGM2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlOalU0T0RFM05EZAzNPakUwT1RrME5qUXhOVE02TWpVME1EazJNVFl4TXc9PQZDZD
 comments:
   data:
   - created_time: '2017-07-07T21:45:22+0000'
@@ -89,6 +92,14 @@ comments:
       id: '10215440197777018'
     message: if only one test case is. provided then the problem is meaningless
     id: '1540529419320094'
+  - created_time: '2017-07-07T21:55:06+0000'
+    from:
+      name: Ahmed Hassan
+      id: '1537088099723136'
+    message: 2^a[i] seem to be the right solution however i don't know what is the
+      max number of iteration for i , in this example it could be the first half of
+      elements , or the first 3 elements or the only even number elements ...
+    id: '1540530379319998'
   - created_time: '2017-07-07T21:58:44+0000'
     from:
       name: Mohamed Ehab

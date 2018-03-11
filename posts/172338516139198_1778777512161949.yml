@@ -1,0 +1,31 @@
+---
+message: "Hello, \nI have been trying to deploy my laravel application that uses mongodb
+  to AWS ec2 ubuntu 16.04, \nDoes anyone have expertise with deployment of a similar
+  stack or know a well documented guide of this process?, \n\nMy current problem is:
+  \ninstalling composer inside the laravel application folder shows the error of \"required
+  to install ext-mongo 1.2\" I researched the issue and I was able to install ext-mongo
+  1.4 but it seems that composer isn't able to detect it."
+from:
+  name: Mohamed Akram
+  id: '10215217873899540'
+type: status
+created_time: '2018-03-11T01:30:53+0000'
+updated_time: '2018-03-11T19:09:43+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1778777512161949/
+id: '172338516139198_1778777512161949'
+comments:
+  data:
+  - created_time: '2018-03-11T10:33:34+0000'
+    from:
+      name: Abdelrahman Hosny
+      id: '10212827860786253'
+    message: |-
+      Ideally, you should use MongoDB as a service on Amazon, not installing it on the same EC2 instance. Otherwise, you are just paying for the infrastructure and totally managing it yourself, not taking full advantage of the cloud service. Now to answer your question:
+      1- what Amazon Machine Image (AMI) you have chosen when creating the instance?
+      2- Do you have a preference to put the DB on the same ec2 instance? This would not be scalable
+      3- Are you using AWS for a specific feature? Or you are open to other options?
+    id: '1779221398784227'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMzT1RJeU1UTTVPRGM0TkRJeU56b3hOVEl3TnpZAME5ERTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMzT1RJeU1UTTVPRGM0TkRJeU56b3hOVEl3TnpZAME5ERTAZD

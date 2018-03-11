@@ -1,0 +1,256 @@
+---
+message: |-
+  في سياق متصل مع الهبل اللي بتعمله الحكومات في الترافيك بنشوف انه مبيشتغلش مع HTTPS يبقى احنا في السليم عشان معظم المواقع عندها SSL دلوقتي
+
+   في CloudFlare اللي المواقع كتير بتستخدمه لاسباب كتير منها Free SSL واوبشن Flexible (عشان سهل مش محتاج تغير حاجة على السيرفر) اللي هو secure من الكلاينت لكلودفلير وunsecure بين كلودفلير والسيرفر زي الصورة
+
+  المشكلة بقى ان كلودفلير عمال يتوسع في الدول العربية بقى عنده داتا سنترز في مصر والسعودية ولبنان او بمعنى اصح بيستخدموا داتا سنترز موجودة في الدولة مش بتوعهم
+
+  فييجي المواطن الغلبان يدخل على موقع يبدو انه آمن ولكن في عسكري قاعد ورا كلودفلير  شايف كل حاجة وبيماين كوينز وعايش
+
+  اقل حاجة انك تستخدم Full SSL  ويبقى عندك حتى لو self signed cert او Let’s Encrypt
+link: https://www.facebook.com/photo.php?fbid=10160157140575230&set=gm.1779212165451817&type=3
+from:
+  name: Marwan Yassin
+  id: '10159953707250230'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/29062579_10160157140575230_1597769860861783890_n.jpg?oh=71a29daa3e6704e6f83cb4bd96e710b3&oe=5B3430D5
+created_time: '2018-03-11T10:33:33+0000'
+updated_time: '2018-03-11T12:37:09+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1779212165451817/
+shares:
+  count: 8
+id: '172338516139198_1779212165451817'
+reactions:
+  data:
+  - id: '1791332544218371'
+    name: زكريا جمعة
+    type: LIKE
+  - id: '2295635633795379'
+    name: Ahmed Khaled Abd-Elmeged
+    type: LIKE
+  - id: '10155063849296345'
+    name: Shaheer Shaheen
+    type: LIKE
+  - id: '1673431476060100'
+    name: Ahmed Khaled
+    type: LIKE
+  - id: '10155182529813309'
+    name: Mohamed El-Sayed
+    type: LIKE
+  - id: '10155502591672779'
+    name: Mo'men Bauomy
+    type: LIKE
+  - id: '10215572911454986'
+    name: Ebuson Exe
+    type: LIKE
+  - id: '10157144460289251'
+    name: Mohamed Sayed
+    type: LIKE
+  - id: '1615436418535535'
+    name: Sabry ALzahar
+    type: LIKE
+  - id: '1151809561622555'
+    name: Ali ElSheikh
+    type: LIKE
+  - id: '10215352706918859'
+    name: Mohamed Ahmed Zidan
+    type: LIKE
+  - id: '569990353341635'
+    name: Ahmed Mortada
+    type: LIKE
+  - id: '1620183618049194'
+    name: Ahmed Taha
+    type: LIKE
+  - id: '934408920094293'
+    name: Muhammad Ahmed Fares
+    type: LIKE
+  - id: '927490574073670'
+    name: Mahmoud Abdalazez
+    type: LIKE
+  - id: '10154952313355738'
+    name: Mohamed Khalil
+    type: LIKE
+  - id: '10208803437001649'
+    name: Mohamed Tarek
+    type: LIKE
+  - id: '1791452377571672'
+    name: Mohammed Alaa El Komy
+    type: LIKE
+  - id: '2022833371324486'
+    name: Abdelrahman Hassan
+    type: LIKE
+  - id: '10213853002051967'
+    name: Afnan Elnomrosy
+    type: LIKE
+  - id: '10154958844281106'
+    name: Kareem El Sayed
+    type: LIKE
+  - id: '10155084284497073'
+    name: Mohammed Wageeh
+    type: LIKE
+  - id: '2281368635210283'
+    name: Moataz Ali
+    type: LIKE
+  - id: '10155678609406281'
+    name: Hossam Ahmed Mohammed
+    type: LIKE
+  - id: '10160060673815523'
+    name: Ahmed Eltawela
+    type: LIKE
+  - id: '1677382845655381'
+    name: Muhammad Maged
+    type: LIKE
+  - id: '10155331660412194'
+    name: Peter S. Shaker
+    type: LIKE
+  - id: '10210486624192429'
+    name: Black Dawn
+    type: LIKE
+  - id: '1157771651025299'
+    name: قلم رصاص
+    type: LIKE
+  - id: '10155138785821722'
+    name: Anas Nour
+    type: LIKE
+  - id: '10157198755818902'
+    name: Mohammad Allam
+    type: LIKE
+  - id: '10211351213640222'
+    name: Mahmoud Ibrahim
+    type: LIKE
+  - id: '181682482588996'
+    name: Ahmad Hegazy
+    type: LIKE
+  - id: '1521319414630531'
+    name: Mohamed Abdallah
+    type: LIKE
+  - id: '10160007537500512'
+    name: Abbas Adel Ibrahim
+    type: LIKE
+  - id: '1978009525783037'
+    name: Ahmed Magdy
+    type: LIKE
+  - id: '2043426795671422'
+    name: Hazim Khaled
+    type: LIKE
+  - id: '10160105091695314'
+    name: Mohamed Eltantawi
+    type: LIKE
+  - id: '10212772396199688'
+    name: Bishoe Ub
+    type: LIKE
+  - id: '10155855157936047'
+    name: Mosab Ibrahim
+    type: LIKE
+  - id: '10213969809692064'
+    name: Mahmoud Abuelwafa
+    type: LIKE
+  - id: '1824520801181678'
+    name: محمد علاء الدين
+    type: LIKE
+  - id: '916487488519275'
+    name: Mahmoud Nady Mahmoudnady
+    type: LIKE
+  - id: '10156179627726738'
+    name: Hany Said
+    type: LIKE
+  - id: '10155898279795619'
+    name: Hassan Sultan
+    type: LIKE
+  - id: '1638740126180375'
+    name: Hazem Hussien
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdNalE1TWprM09UazRPakUxTWpBNE1EZA3pOams2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXhNek15TURreE5qZAzVPakUxTWpBM05qUTNNVGs2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2018-03-11T11:03:47+0000'
+    from:
+      name: Mohamed Eltantawi
+      id: '10160105091695314'
+    message: صح، تمييع السيكيوريتي عشان الايقونة تخضر مش بطولة والله!
+    id: '1779246298781737'
+  - created_time: '2018-03-11T11:11:21+0000'
+    from:
+      name: Hosam G. Zewain
+      id: '10215665676616561'
+    message: |-
+      اعتقد ال self signed ملهاش اي لازمة ومجربتش Let’s Encrypt بس دلوقتي اي حد عنده هوست وعلية WHM يقدر يـ Generate SSL cert مجانا powered by Comodo ودي شركة معروفة جداً قوة الـ SSL بتاعتها.
+      انا شخصيا مركبها لكل المواقع الي عندي علي الهوست اوتوماتيك من غير ما العميل يطلبها
+    id: '1779253442114356'
+  - created_time: '2018-03-11T11:11:47+0000'
+    from:
+      name: Shady Mohamed Sherif
+      id: '10156191099748000'
+    message: طيب من ناحية المستخدم ممكن يعرف ازاي ان ده flexible مش full هل في طريقة
+      لكده؟
+    id: '1779254025447631'
+  - created_time: '2018-03-11T11:15:47+0000'
+    from:
+      name: Mahmoud Abdel Latif
+      id: '2103962143170646'
+    message: "يا سبحان الله \nانا بعمل كده من سنين من تلقاء نفسي و مكنتش اعرف ان هوا
+      ده احسن حاجه :D انا ديما بنزل lets encript على السرفر بتاعي و اعمل سرتفكيشن
+      و بعدين اروح الكلود فلير و اعمل هناك سرتفيكيشن تاني \nانت فجئتني يا صاحب البوست
+      و الله \n#احنى_جامدين_اوي"
+    id: '1779259162113784'
+  - created_time: '2018-03-11T11:17:25+0000'
+    from:
+      name: Shady Mohamed
+      id: '2473377552887852'
+    message: لا امن مع الحياة انسى
+    id: '1779261095446924'
+  - created_time: '2018-03-11T11:20:09+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "مشكلة ال self signed ( في حالة ال end user) انها محتاجة exception لانها
+      مش trusted طبعا.. في الحالة دي اي طرف تالت يقدر يدخل في ال chain ويحط السيرت
+      بتاعته ويعمل negotiation مع السايت بنفسه الاول ويرجع يرد ع الكلاينت بالسيرت
+      الجديدة بتاعته.. يشتغل كانه بروكسي عادي يعني.. وكدة كدة اليوزر هيعمل add exception
+      فمش هياخد باله هو بيضيف السيرت الاصلية فعلا ولا بتاعت طرف تالت..\nالمشكلة بقى
+      هنا كمان واللي محدش بياخد باله منها.. الناس اللي شغالة في شركات ومؤسسات وعندها
+      نت من خلال الشركة تاخد بالها كويس لانك ممكن تكون متراقب تماما بما في ذلك ال
+      https\nازاي.. الشركات دي عندها فايروول وفلترز زي fortigate مثلا.. في الحالة
+      دي هو فيه امكانية ssl inspection بس بيعيد الكونتنت ليك بالسيرت بتاعته.. كل ده
+      ممكن تاخد بالك منه لانك هتعمل برده اكسبشن.. المشكله بقى ان السيرت ال intermediate
+      ca دي ممكن يتعمل لها deploy اوتوماتيك على جهازك من ال active directory domain
+      controller بتاع المؤسسة.. وحتى ممكن جوجل كروم يتم ادارته بالطريقة دي.. او ع
+      الاقل خالص كل ده يكون معمول بطريقة يدوية مسبقا قبل ما حضرتك تستلم جهاز الشغل..
+      وبكدة انت حرفيا في حضن السستم ادمن وشايف كل حاجة انت بتعملها عنده ع الفايروول\n\nنرجع
+      لموضوع كلاود فلير.. \nلو ال self signed بين موقعك وبين cloud flare طبعا هيكون
+      في اكسبشن معرف ببصمة السيرت بعينها.. بس تضمن منين برده ماهو في الاخر الكونكشن
+      اتفك عند كلاود فلير واتعاد لليوزر تاني.. والسيرفرات دي بقت لوكال.. ما تعرفش
+      مين له اكسس عليها برده..\nعشان كدة اتعمل ال end to end encryption او في الحالة
+      دي الأفضل *ما تستخدمش* cloud flare وتعتمد على validated tls cert دايركت من موقعك
+      لليوزر وطبعا let's encrypt ما خلاش لحد حجة اصلا..."
+    id: '1779264492113251'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMzT1RJME5qSTVPRGM0TVRjek56b3hOVEl3TnpZAMk1qSTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMzT1RJMk5EUTVNakV4TXpJMU1Ub3hOVEl3TnpZAM01qRXcZD
+attachments:
+  data:
+  - description: |-
+      في سياق متصل مع الهبل اللي بتعمله الحكومات في الترافيك بنشوف انه مبيشتغلش مع HTTPS يبقى احنا في السليم عشان معظم المواقع عندها SSL دلوقتي
+
+       في CloudFlare اللي المواقع كتير بتستخدمه لاسباب كتير منها Free SSL واوبشن Flexible (عشان سهل مش محتاج تغير حاجة على السيرفر) اللي هو secure من الكلاينت لكلودفلير وunsecure بين كلودفلير والسيرفر زي الصورة
+
+      المشكلة بقى ان كلودفلير عمال يتوسع في الدول العربية بقى عنده داتا سنترز في مصر والسعودية ولبنان او بمعنى اصح بيستخدموا داتا سنترز موجودة في الدولة مش بتوعهم
+
+      فييجي المواطن الغلبان يدخل على موقع يبدو انه آمن ولكن في عسكري قاعد ورا كلودفلير  شايف كل حاجة وبيماين كوينز وعايش
+
+      اقل حاجة انك تستخدم Full SSL  ويبقى عندك حتى لو self signed cert او Let’s Encrypt
+    media:
+      image:
+        height: 277
+        src: https://scontent.xx.fbcdn.net/v/t1.0-9/29062579_10160157140575230_1597769860861783890_n.jpg?oh=2a281b18650b50e19cb1d435d40849f5&oe=5B40F333
+        width: 302
+    target:
+      id: '10160157140575230'
+      url: https://www.facebook.com/photo.php?fbid=10160157140575230&set=gm.1779212165451817&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=10160157140575230&set=gm.1779212165451817&type=3

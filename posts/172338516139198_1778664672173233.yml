@@ -1,0 +1,68 @@
+---
+message: "Hi all ...\nFor all Oracle app developer i need your help , i have E-business
+  Suite R12 files and it's 240GB on my PC i need to know how to install it on vbox.\nplease
+  i need the steps to install it on my own PC to training \nThanks"
+link: https://www.facebook.com/photo.php?fbid=1577723582282736&set=gm.1778664672173233&type=3
+from:
+  name: Islam Abd-Elwahid
+  id: '1579010908820670'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/28959093_1577723585616069_5121109684224262144_n.jpg?oh=ad692a350f8f1bef36cfcca42198185a&oe=5B3CF196
+created_time: '2018-03-11T10:34:26+0000'
+updated_time: '2018-03-11T11:08:25+0000'
+name: Photos from Islam Abd-Elwahid's post
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1778664672173233/
+id: '172338516139198_1778664672173233'
+comments:
+  data:
+  - created_time: '2018-03-11T10:34:38+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: Start with mentioning what you tried
+    id: '1779222288784138'
+  - created_time: '2018-03-11T11:08:21+0000'
+    from:
+      name: Mohamed Asfour
+      id: '10156016150568334'
+    message: |-
+      This RAR compressed file contains VMDK, VMX, VMXF, VMEM files which are for VMware (workstation for PC side or ESXi for server side)
+
+      It is better to install VMware Worksration on your PC, un-rar the file then right click the VMX or VMXF files and choose something like Add to VMware Inventory (or something similar) or click open in VMware and choose this file which wil import the VM
+
+      If you want to use VirtualBox i think you have to import it so that it can translate the VM configurations into Virtual Box configurations  (VMDK should work on both environments without change as Virtual Box supports it but the settings have to be rewritten)
+    id: '1779249288781438'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMzT1RJeU1qSTRPRGM0TkRFek9Eb3hOVEl3TnpZAME5EYzUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMzT1RJME9USTRPRGM0TVRRek9Eb3hOVEl3TnpZAMk5UQXkZD
+attachments:
+  data:
+  - subattachments:
+      data:
+      - media:
+          image:
+            height: 712
+            src: https://scontent.xx.fbcdn.net/v/t1.0-9/28959093_1577723585616069_5121109684224262144_n.jpg?oh=da40e9041f42e80b9000c780a9570350&oe=5B38A5FD
+            width: 584
+        target:
+          id: '1577723582282736'
+          url: https://www.facebook.com/photo.php?fbid=1577723582282736&set=gm.1778664672173233&type=3
+        type: photo
+        url: https://www.facebook.com/photo.php?fbid=1577723582282736&set=gm.1778664672173233&type=3
+      - media:
+          image:
+            height: 629
+            src: https://scontent.xx.fbcdn.net/v/t1.0-9/29103686_1577723698949391_4559732595071385600_n.jpg?oh=3a61993cf76f5270f7891ffee7bdc494&oe=5B03841A
+            width: 639
+        target:
+          id: '1577723695616058'
+          url: https://www.facebook.com/photo.php?fbid=1577723695616058&set=gm.1778664672173233&type=3
+        type: photo
+        url: https://www.facebook.com/photo.php?fbid=1577723695616058&set=gm.1778664672173233&type=3
+    target:
+      id: '1778664672173233'
+      url: https://www.facebook.com/media/set/?set=pcb.1778664672173233&type=1
+    title: Photos from Islam Abd-Elwahid's post
+    type: album
+    url: https://www.facebook.com/media/set/?set=pcb.1778664672173233&type=1
