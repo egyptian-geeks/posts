@@ -8,11 +8,31 @@ from:
   id: '1999765416908747'
 type: status
 created_time: '2018-03-11T18:35:16+0000'
-updated_time: '2018-03-11T22:11:24+0000'
+updated_time: '2018-03-12T18:14:58+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1779637878742579/
+shares:
+  count: 2
 id: '172338516139198_1779637878742579'
 reactions:
   data:
+  - id: '1587898834629042'
+    name: Ahmed Abou Elfotouh
+    type: LIKE
+  - id: '10215515935116102'
+    name: Agk TF
+    type: LIKE
+  - id: '2004527742898448'
+    name: Abdulrahman Zaki
+    type: LIKE
+  - id: '10155779296706638'
+    name: Mohamed Shawky
+    type: LIKE
+  - id: '10211073885904196'
+    name: Ahmed Shehta
+    type: LIKE
+  - id: '10155807929225700'
+    name: Mohamed Samir Mohamed
+    type: LIKE
   - id: '2042656142412014'
     name: Sam Muhammad
     type: LIKE
@@ -30,7 +50,7 @@ reactions:
     type: LIKE
   paging:
     cursors:
-      before: TVRBd01EQXdNREk1TkRNNE5UQXpPakUxTWpBNE1EWXhPVGc2TWpVME1EazJNVFl4TXc9PQZDZD
+      before: TVRBd01EQXlNalk0TWpFeU1UUTNPakUxTWpBNE5qY3pPVE02TWpVME1EazJNVFl4TXc9PQZDZD
       after: TlRnd09EazJPREl6T2pFMU1qQTNPVE01TlRRNk1qVTBNRGsyTVRZAeE13PT0ZD
 comments:
   data:
@@ -65,8 +85,10 @@ comments:
     from:
       name: Bassam Abd Elhamid
       id: '1955441501387657'
-    message: فى كورس جميل على يوداستى بيشرح الموضوع ببساطه وتفصيل, بس مش فاكر اسمه
-      حالياً.
+    message: |-
+      فى كورس جميل على يوداستى بيشرح الموضوع ببساطه وتفصيل, بس مش فاكر اسمه حالياً.
+
+      https://eg.udacity.com/course/object-oriented-javascript--ud015
     id: '1779747708731596'
   - created_time: '2018-03-11T19:09:54+0000'
     from:
@@ -158,7 +180,94 @@ comments:
     message: u just need to take this course to better understand JS OOP ! it's excellent
       ! https://eg.udacity.com/course/object-oriented-javascript--ud015
     id: '1779885792051121'
+  - created_time: '2018-03-11T23:23:50+0000'
+    from:
+      name: Mohamed Fawzy
+      id: '1694501647276709'
+    message: You can check both Udacity JS OOP course and Udemy JS understand the
+      weird parts. There is a part explained by the founder of hack reactor in Udacity
+      course.
+    id: '1779934145379619'
+  - created_time: '2018-03-12T11:47:40+0000'
+    from:
+      name: Peter Wilson
+      id: '10212791113905949'
+    message: لو عايز تطبق oop فى ال JavaScript فراى انك تعمل دا فى ال ECMAScript 6
+      دى النسخة الجديدة من الجافاسكربت وهتلاقيه فيها كل المفاهيم اللى فى دماغك عن
+      ال OOP لكن لو حاولت تطبقها على ال js العادية هتلاقى الفكر مختلف شوية
+    id: '1780458285327205'
+  - created_time: '2018-03-12T12:58:15+0000'
+    from:
+      name: Samar Abdelhamid
+      id: '10215412126240955'
+    message: اتعلم typscript
+    id: '1780516448654722'
+  - created_time: '2018-03-12T16:48:49+0000'
+    from:
+      name: Hisham Fangary
+      id: '10156660518155839'
+    message: |-
+      Here is a crash course summary:
+
+      Understading WHAT Javascript is, will help you alot when applying OOP principles to JS.
+      Like I said above, JS is a prototyping language, not an OOP one.
+      But you can use prototyping features to create OOP like features.
+
+      Here is how you declare a class named Car and instantiating an object from it in JS:
+
+      /********/
+      function Car (){
+         console.log("Car Object initiated");
+      }
+
+      var car1 = new Car();
+      /********/
+
+      looks like a regular function, doesn't it? Except you are instantiating it like a class!
+
+      That's because almost everything in JS is an object, even arrays and functions.
+      Natives are not objects, BUT, they are automatically wrapped in an object so you can have access to their features in an object like manner: ex: string1.length
+
+      So, here is how you create static method for that class and running it:
+
+      /********/
+      Car.startCar = function (){
+          console.log("Car Started");
+      };
+
+      Car.startCar();
+      /********/
+
+      So far so good.
+      Now to create a non-static method, this is where prototyping comes in:
+
+      /********/
+      Car.prototype.startCar = function (){
+          console.log("Car Started");
+      };
+
+      car1.startCar();
+      /********/
+
+      Finally, to create properties inside the object and access them, use the this keyword:
+
+      /********/
+      function Car (name){
+         this.name = name;
+         console.log("Car Object initiated");
+      }
+
+      Car.prototype.startCar = function (){
+          console.log("Car "+this.name+" Started");
+      };
+
+      var car1 = new Car("Volvo");
+      car1.startCar();
+      /********/
+
+      If you are interested, I can write a quick crash comment on inheritence as well.
+    id: '1780725021967198'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMzT1Rjek1EZAzFPRGN6TXpJNE1Ub3hOVEl3Tnprek5qRTMZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMzT1RnNE5UYzVNakExTVRFeU1Ub3hOVEl3T0RBMk1qTTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM0TURjeU5UQXlNVGsyTnpFNU9Eb3hOVEl3T0Rjek16STUZD
