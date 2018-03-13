@@ -1,0 +1,121 @@
+---
+message: "شغال على web application\nومعتمد فى شغلى على Node js & express js \nوال
+  database هى MangoDB\nدلوقتى عاوز طريقة اربط بيها بين ال database & Front end pages\nبحيث
+  لما حاجة او قيمة تتغير فى الداتا بيز ... يحصل تغيير اوتوماتيك فى الفرونت ايند (
+  back ground يتغير لونها -- text جديد يتكتب مكان القديم وكدة)\nبس الكلام ده يحصل
+  automatic من غير ما اعمل ريفريش للصفحة .. واى حد جديد يدخل على السايت يشوف التغييرات
+  الجديدة دى ."
+from:
+  name: Ahmed Munir
+  id: '1591439160944429'
+type: status
+created_time: '2018-03-13T20:56:52+0000'
+updated_time: '2018-03-13T22:48:14+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1781944798511887/
+id: '172338516139198_1781944798511887'
+reactions:
+  data:
+  - id: '1796497250435839'
+    name: Abdel Rahman Kamhawy
+    type: LIKE
+  - id: '701047536951041'
+    name: Ahmed Emad Eldin
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlNalkzTkRNMU5UWTJPakUxTWpBNU56azFNREU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01ERXhNemMwTURRME9ETXdPakUxTWpBNU56WTNOVGc2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2018-03-13T21:00:52+0000'
+    from:
+      name: Amr Aly
+      id: '1152604288209875'
+    message: ممكن تشوف websockets
+    id: '1782114368494930'
+  - created_time: '2018-03-13T21:10:47+0000'
+    from:
+      name: Mostafa Ahmed
+      id: '1969368433074776'
+    message: |-
+      i would recommend meteor
+      https://www.meteor.com/
+      it have 3 way data binding which is exactly what you search for although i don't recommend it for big project
+    id: '1782121005160933'
+  - created_time: '2018-03-13T21:11:12+0000'
+    from:
+      name: Mohamed Abdul Jawad
+      id: '10159701356955315'
+    message: timers as a start is not bad to refresh certain areas of your UI, and
+      also you can try some how to integrate signalR to your front end which uses
+      web sockets
+    id: '1782121235160910'
+  - created_time: '2018-03-13T21:12:27+0000'
+    from:
+      name: Ahmed Bahieddine
+      id: '1235468096588026'
+    message: "the easiest way to use a real-time database instead of MongoDB. It isn't
+      easy to do it with mongo and websoket plus it will be a quirky solution. \nI
+      suggest firebase."
+    id: '1782122081827492'
+  - created_time: '2018-03-13T21:12:32+0000'
+    from:
+      name: Hossam EL Sharkawy
+      id: '1516489515124702'
+    message: Mohamed Atef
+    id: '1782122158494151'
+  - created_time: '2018-03-13T21:17:16+0000'
+    from:
+      name: Sherif Alaa Ismael
+      id: '10156218293834924'
+    message: use firebase instead of mongodb
+    id: '1782125398493827'
+  - created_time: '2018-03-13T21:20:15+0000'
+    from:
+      name: Samer Nady
+      id: '10156043651610120'
+    message: |-
+      Websocket "socket.io" if you want to implement it on premise server
+
+      You can use firebase if you are ok with the cloud solution
+    id: '1782127461826954'
+  - created_time: '2018-03-13T21:28:15+0000'
+    from:
+      name: Ali Elzantot
+      id: '10216042822091508'
+    message: اللي فهمته انك عايز تغير حاجه فى ال pages من غير ما تعمل ريفرش للصفحه
+      انت كده محتاج تستخدم ajax او web socket
+    id: '1782132925159741'
+  - created_time: '2018-03-13T21:29:03+0000'
+    from:
+      name: Hesham Adel
+      id: '798912850310002'
+    message: "so people gave u more than one option i will add another and mention
+      them all .\n- Socket.io \n- Firebase \n- long polling \n\nnow the thing is i
+      won't recommend any solution over the other, your job will be \n- learning about
+      them \n- learning about their pros and cons \n- use the best one for your case
+      . \n\nstart with socket.io and long polling as they tend to come in the same
+      context ."
+    id: '1782133405159693'
+  - created_time: '2018-03-13T21:33:49+0000'
+    from:
+      name: Amr Monjid
+      id: '10155918513180729'
+    message: Use firebase real time database instead of mongoDB
+    id: '1782137285159305'
+  - created_time: '2018-03-13T21:48:13+0000'
+    from:
+      name: Eslam Ahmed
+      id: '1791890961105423'
+    message: use socket.io module
+    id: '1782149738491393'
+  - created_time: '2018-03-13T22:48:10+0000'
+    from:
+      name: Ahmed EL-Metwally
+      id: '548062595559343'
+    message: Socket.io
+    id: '1782192435153790'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM0TWpFeE5ETTJPRFE1TkRrek1Eb3hOVEl3T1RjME9EVXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM0TWpFNU1qUXpOVEUxTXpjNU1Eb3hOVEl3T1RneE1qa3gZD

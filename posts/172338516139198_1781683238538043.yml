@@ -1,0 +1,47 @@
+---
+message: |-
+  عندي مشكله مع jsonapi و مش لاقي لها حل الstanders حسسها بتتكلم على العالم الوردي الي هو مش موجود اصلا
+
+  هشرحها بختصار:
+  انا عندي resource هرجع منو collection مع كل entity منهم شويت معلومات زي count من relation معاها
+
+  الي فكرت فيه اني ارجع الcount على انو metadata مع كل entity لكن لقيت ان الmetadata بترجع مع الcollection كلو مفيش metadata لكل entity منفصله زي ما واضح في الكود ده
+  https://codeshare.io/G6YdYY
+
+  في workaround عملتو اني ارجع الcount as attribute بس مش مقتنع بالحل ده خالص
+  و ياريت لو في resources كويسه لها اكون شاكر :)
+from:
+  name: Mohamed Hamed Akef
+  id: '807046759356351'
+type: status
+created_time: '2018-03-13T13:37:28+0000'
+updated_time: '2018-03-13T16:38:33+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1781683238538043/
+id: '172338516139198_1781683238538043'
+reactions:
+  data:
+  - id: '10215171020565968'
+    name: أحمد عاكف
+    type: WOW
+  paging:
+    cursors:
+      before: TVRFME5qSTRNamszTURveE5USXdPVFE0TnpJNE9qYzRPRFkwT0RBek56a3hNek14TWc9PQZDZD
+      after: TVRFME5qSTRNamszTURveE5USXdPVFE0TnpJNE9qYzRPRFkwT0RBek56a3hNek14TWc9PQZDZD
+comments:
+  data:
+  - created_time: '2018-03-13T13:47:18+0000'
+    from:
+      name: Mohamed Azouz
+      id: '10215791219712302'
+    message: you can add count in response header as additional attribute
+    id: '1781733518533015'
+  - created_time: '2018-03-13T14:14:17+0000'
+    from:
+      name: Mahmoud Atef
+      id: '10155148102196835'
+    message: Try to look at the HAL Specs, they are describing a case like yours http://stateless.co/hal_specification.html
+    id: '1781761171863583'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM0TVRjek16VXhPRFV6TXpBeE5Ub3hOVEl3T1RRNE9ETTUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM0TVRjMk1URTNNVGcyTXpVNE16b3hOVEl3T1RVd05EVTQZD

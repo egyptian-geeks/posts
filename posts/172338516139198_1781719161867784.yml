@@ -1,0 +1,210 @@
+---
+message: يا شباب انا شغال فى موقع فى فدويوهات وكده والعميل مش عايز موضوع ان ينزل بال
+  idm  مانجر مع ان مفيش فديو مش بينزل على اى موقع حاليا . بعد بحث لقيت ان معظم الناس
+  بتستخدم فى ال url  حاجة امسها blob  و ده تحويل اللاوجبكت ل encode 64   السؤال بقا
+  ازاى اقدر اسستخدم على الفديوهات حط  يعرف مثال عملى ليها بيشرحها ؟
+from:
+  name: Omar Ahmed
+  id: '2034149110189094'
+type: status
+created_time: '2018-03-13T13:37:09+0000'
+updated_time: '2018-03-13T22:01:55+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1781719161867784/
+id: '172338516139198_1781719161867784'
+reactions:
+  data:
+  - id: '10155518494646656'
+    name: Amir Amgad
+    type: LIKE
+  - id: '1999765416908747'
+    name: Ahmed Khalifa
+    type: LIKE
+  - id: '2097233203832034'
+    name: Ahmed Mohamed Thabet
+    type: LIKE
+  - id: '10215386861845749'
+    name: Mohamed Arabi Saleh
+    type: LIKE
+  - id: '1580453105383888'
+    name: Ahmed Sakr
+    type: LIKE
+  - id: '10156135077727072'
+    name: Moo Moo
+    type: LIKE
+  - id: '1620183618049194'
+    name: Ahmed Taha
+    type: LIKE
+  - id: '10155898279795619'
+    name: Hassan Sultan
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpjNE1Ea3hOalUxT2pFMU1qQTVOemN3TURnNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TnpFeU1EVXdOakU0T2pFMU1qQTVOVFEzTkRZANk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2018-03-13T13:42:50+0000'
+    from:
+      name: Diyaa Mahmoud
+      id: '1559170364118742'
+    message: هو فيه طريقه تانيه المفروض بتمنع تشغيل الفيديو حتي لو نزل  اسمها digital
+      rights management.. متعملتش معاها قبل كده الصراحه
+    id: '1781729868533380'
+  - created_time: '2018-03-13T14:08:03+0000'
+    from:
+      name: Sherif Elmetainy
+      id: '10155248504590994'
+    message: "من الآخر لو عايز المستخدم يقدر يفتح الفيديو على جهازه مافيش طريقة تمنعه
+      من الداونلود.\nالDRM ممكن يتشال.أي خدعة هاتفكر فيها ليها حل. انت آخرك انك تخلي
+      الموضوع أصعب شوية على واحد ما عندوش خلفية تكنيكال. \n\nالحل الوحيد عشان تنمع
+      تنزيل الفيديوهات نهائيا انك ما تحطهاش على website و تجيب المستخدم يتفرج عليها
+      عندك على جهازك ولو معاه كاميرا تاخدها منه."
+    id: '1781752448531122'
+  - created_time: '2018-03-13T14:08:09+0000'
+    from:
+      name: Ahmad Bahaa
+      id: '1985598625095777'
+    message: |-
+      جربت تستعمل 3rd party video player ؟حاجة زي jwplayer مثلا؟
+      لو ظبطت اعداداته، فبرنامج IDM مش هيلقط لينك الفيديو تلقائيا.
+      بس برضه هتظل فيه طرق لسحب ستريم الفيديو وتحميله، بس عالأقل هتحتاج حد خبير شوية.
+    id: '1781752545197779'
+  - created_time: '2018-03-13T14:33:30+0000'
+    from:
+      name: Kamal Saleh
+      id: '10212867095366994'
+    message: أحياناً وانا بانزل فيديوهات بال IDM بيقولي مش هينفع انزلها علشان Digital
+      rights management او حاجه زي كده .. دور في الموضوع ده اعتقد انه هيكون سهل التطبيق
+    id: '1781792281860472'
+  - created_time: '2018-03-13T14:40:39+0000'
+    from:
+      name: Nour Ahmed
+      id: '1821238104562697'
+    message: في technice كدة زي الي بيستعملوا netflix الفيديو بيتبعت لل client جزء
+      جزء كدة مبعرفش ينزلوا بس ممكن يعمل screen recorder و دة غير أن علشان تعملها
+      صعبة و حجات الي ممكن تساعد مكلفة هتحسبك بدقيقة
+    id: '1781799611859739'
+  - created_time: '2018-03-13T15:14:52+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: فكر انك تعمل استريم الفيديو ك  websocket مثلا مش http كدة ممكن اليوزر
+      العادي ما يعرفش يحمله
+    id: '1781835185189515'
+  - created_time: '2018-03-13T15:17:20+0000'
+    from:
+      name: Omar Ahmed
+      id: '2034149110189094'
+    message: يا شباب انا على الاقل لما يجى يعمل inspect element  ميطلعش ال Source  ويشغله
+      هو مع نفسه حتى لو هحط توكن هيبقى لفترة هيكون اتحمل
+    id: '1781837028522664'
+  - created_time: '2018-03-13T15:31:47+0000'
+    from:
+      name: Hassan Sultan
+      id: '10155898279795619'
+    message: |-
+      1-jwplayer  و غيره زى HLSplayer او video.js او Flowplayer
+      بيعملو ايه ؟
+    id: '1781848001854900'
+  - created_time: '2018-03-13T15:34:24+0000'
+    from:
+      name: Mahmoud Reda
+      id: '1751655231532509'
+    message: انا مش مستخدم ل idm  بس ممكن  تجرب تستخدم  الفيديو بصيغه hls
+    id: '1781850031854697'
+  - created_time: '2018-03-13T15:34:58+0000'
+    from:
+      name: Hassan Sultan
+      id: '10155898279795619'
+    message: "jwplayer or HLSplayer or video.js or Flowplayer\nبيعمل حاجتين \n1-لو
+      ال browser support HTML5 هيشغله \n2-لو ال browser مش support HTML5 بيشغل flash
+      player \nدة جزء التشغيل \nفيه حاجات تانيه زى interface و ال design والدلع على
+      ال player"
+    id: '1781850445187989'
+  - created_time: '2018-03-13T15:38:03+0000'
+    from:
+      name: Hassan Sultan
+      id: '10155898279795619'
+    message: "فيه حركه انا عملها انك فى page load js بتعمل stream ل file فاضى \nف
+      IDM بيفكر ان هو دة stream الفيديو فيلقطه وبعديها تعمل stream للفيديو بتاعك \nانت
+      فاهم"
+    id: '1781852375187796'
+  - created_time: '2018-03-13T15:44:39+0000'
+    from:
+      name: Hassan Sultan
+      id: '10155898279795619'
+    message: https://github.com/videojs/video.js
+    id: '1781857161853984'
+  - created_time: '2018-03-13T15:45:12+0000'
+    from:
+      name: Hassan Sultan
+      id: '10155898279795619'
+    message: https://github.com/flowplayer/flowplayer
+    id: '1781857495187284'
+  - created_time: '2018-03-13T15:46:08+0000'
+    from:
+      name: Hassan Sultan
+      id: '10155898279795619'
+    message: https://github.com/video-dev/hls.js
+    id: '1781858231853877'
+  - created_time: '2018-03-13T15:54:21+0000'
+    from:
+      name: Amir Abou Eesa
+      id: '1700979476627162'
+    message: والله ممكن تعمل stream للفيديوهات بايدك علي سوكيت، بس بردو مش مستحيل
+      التنزيل، المهم يكون العميل دافع كويس في الاخر علي الفرهده دي
+    id: '1781868068519560'
+  - created_time: '2018-03-13T15:56:11+0000'
+    from:
+      name: Mostafa Ahmed
+      id: '1969368433074776'
+    message: ممكن تعمل ال url اللي بيجيب الفيديو فيه code ممكن تستخدمه مرة واحده بس
+      وبالتالي لو الدونلود  مانجر حب ينزله السيرفر هيرفض يرد لان الكود استخدم قبل
+      كده في فتح الفيديو زي ما بتعمل كده في حالة ال reset password و كده
+    id: '1781869278519439'
+  - created_time: '2018-03-13T16:16:03+0000'
+    from:
+      name: Ayman Morsy
+      id: '1811912335507335'
+    message: "مهو استحالة تمنع فيديوا ينزل فى مليون طريقة الفيديوا يتحمل بيها !!\nأبسطها
+      على الاطلاق  \nrecord screen"
+    id: '1781886968517670'
+  - created_time: '2018-03-13T18:00:25+0000'
+    from:
+      name: Emad Omara
+      id: '10156496579682437'
+    message: فيه حاجات بتشتغل بانها تخلي الفيديو مش على لينك واحد يعني الفيديو بيبقى
+      متقسم ممكن كل 2 ميجا بلينك وده بيبان لو جبت ال network tab  وبصيت على الريكويستات
+      الي راحه جاية
+    id: '1781969905176043'
+  - created_time: '2018-03-13T18:13:55+0000'
+    from:
+      name: Mahmoud Nabil
+      id: '10204485977226740'
+    message: "في حل جميل استخدمته مؤخرا في احد المواقع \nهو viemo \nعندهم خدمة مدفوعة
+      لحماية الفيديو دي فيها شوية خصائص ممتازة واحداها انه لو حتي وصل لرابط الفيديو
+      وفتحه في البراوزر مش هيفتح معاه \nفقط يمكن الوصول للفيديو عن طريق embed في موقعك
+      \nبس في الاخر مفيش حاجة هتحميك من record screen \nhttps://vimeo.com/upgrade"
+    id: '1781980331841667'
+  - created_time: '2018-03-13T20:35:05+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: https://video.stackexchange.com/questions/17174/how-to-prevent-users-from-downloading-videos
+    id: '1782095011830199'
+  - created_time: '2018-03-13T21:27:41+0000'
+    from:
+      name: احمد قرواش
+      id: '1561022257326859'
+    message: "انا شوفت حاجة في موقع beinmatch \nبتاع ماتشات الكورة\nهو بيعمل حاجة
+      لطيفة\nالبث بيبعتلك 7 ثواني في 7 ثواني\nبالتالي حلني بقي لو اليوزر هيفضل يجمع
+      7 ثواني في 7 ثواني \nويحط علي فيديو ايديتور ويظبطهم ليلة.\n\nلا مش بس كده عامل
+      توكن كمان الجلسة مدتها 35 ثانية تقريبا بيحسب فيها انت عملت steam كام مرة وكده
+      .\n\nالموضوع فعلا ده ممتاز لو تقدر تهندله وتضبطه .\n\nالحل الأسهل والي انا مجربه
+      JW Player\n\nبس خلي بالك الحل بتاع 7 ثواني\nانا قدرت اتخطاه اصلا بسكربت \nوتتبعته
+      وفهمت شغله فأنت لازم ت validate الريكوست كويس جاية منين وهي ايه بالضبط وهدفها."
+    id: '1782132451826455'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM0TVRjeU9UZAzJPRFV6TXpNNE1Eb3hOVEl3T1RRNE5UY3gZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM0TWpFek1qUTFNVGd5TmpRMU5Ub3hOVEl3T1RjMk5EWXkZD

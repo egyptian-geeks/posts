@@ -25,6 +25,9 @@ reactions:
   - id: '10155432639833282'
     name: Ahmed Abdo
     type: LIKE
+  - id: '10159929493885634'
+    name: عمر أمين
+    type: LIKE
   - id: '2032504700100329'
     name: Mohammed Yassin
     type: LIKE
@@ -285,13 +288,6 @@ comments:
       id: '10155855162041047'
     message: وياريت برضه تقرا البلوجاية ديه هتفهمك وفيها الزتونة https://the.binbashtheory.com/before-you-start-with-lxc-and-docker/
     id: '1139786062727767'
-  - created_time: '2016-05-08T18:11:43+0000'
-    from:
-      name: Ahmed Khaled
-      id: '1673431476060100'
-    message: الميكانيزم بتاعت docker شغاله بشكل مختلف تماماً ياعني عن ال virtualbox
-      وده ليه استخدامه وده ليه استخدامة
-    id: '1139806126059094'
   - created_time: '2016-05-08T18:18:32+0000'
     from:
       name: Mahmoud Fahmy
