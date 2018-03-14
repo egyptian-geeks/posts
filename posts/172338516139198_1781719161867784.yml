@@ -8,11 +8,31 @@ from:
   id: '2034149110189094'
 type: status
 created_time: '2018-03-13T13:37:09+0000'
-updated_time: '2018-03-13T22:01:55+0000'
+updated_time: '2018-03-14T07:03:00+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1781719161867784/
+shares:
+  count: 1
 id: '172338516139198_1781719161867784'
 reactions:
   data:
+  - id: '10215070655377585'
+    name: Mahmoud Kandeel
+    type: LIKE
+  - id: '1561022257326859'
+    name: احمد قرواش
+    type: LIKE
+  - id: '1615436418535535'
+    name: Sabry ALzahar
+    type: LIKE
+  - id: '10213461163996393'
+    name: Ahmed Samir
+    type: LIKE
+  - id: '546598029039266'
+    name: Tarek Badr
+    type: LIKE
+  - id: '592797251064089'
+    name: Amr Ibrahim Khudair
+    type: LIKE
   - id: '10155518494646656'
     name: Amir Amgad
     type: LIKE
@@ -39,7 +59,7 @@ reactions:
     type: LIKE
   paging:
     cursors:
-      before: TmpjNE1Ea3hOalUxT2pFMU1qQTVOemN3TURnNk1qVTBNRGsyTVRZAeE13PT0ZD
+      before: TVRFMk5qZA3hNVFkzTmpveE5USXhNRE16TkRVeE9qSTFOREE1TmpFMk1UTT0ZD
       after: TnpFeU1EVXdOakU0T2pFMU1qQTVOVFEzTkRZANk1qVTBNRGsyTVRZAeE13PT0ZD
 comments:
   data:
@@ -204,7 +224,26 @@ comments:
       JW Player\n\nبس خلي بالك الحل بتاع 7 ثواني\nانا قدرت اتخطاه اصلا بسكربت \nوتتبعته
       وفهمت شغله فأنت لازم ت validate الريكوست كويس جاية منين وهي ايه بالضبط وهدفها."
     id: '1782132451826455'
+  - created_time: '2018-03-14T00:39:29+0000'
+    from:
+      name: Yosef Amar
+      id: '10155097484932190'
+    message: |-
+      http://ampdemo.azureedge.net/azuremediaplayer.html
+      بيزبط لك كل حاجة وكمان بيقلل جودة الفيديو لو اتصال المستخدم ضعيف
+
+      هو فكرته انه بيبعت أجزاء بسيطة مشفرة المستخدم بيفك شفرتها عن طريق المشغل تلقائيا ، وبيبعت الجزء التاني بناء على طلب من المستخدم اللي فك الشفرة في الجزء السابق
+
+      نفس فكرة  netflix و amazon
+    id: '1782268228479544'
+  - created_time: '2018-03-14T07:02:57+0000'
+    from:
+      name: Hassan Sultan
+      id: '10155898279795619'
+    message: بس فيه نقطه انت عاوز ال src محمى ومش مجرد URL ,ولا تحمى الفيديو من IDM
+      ? iهتفرق
+    id: '1782526198453747'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM0TVRjeU9UZAzJPRFV6TXpNNE1Eb3hOVEl3T1RRNE5UY3gZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM0TWpFek1qUTFNVGd5TmpRMU5Ub3hOVEl3T1RjMk5EWXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM0TWpVeU5qRTVPRFExTXpjME56b3hOVEl4TURFd09UYzMZD

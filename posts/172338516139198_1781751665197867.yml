@@ -11,11 +11,38 @@ from:
   id: '1877624395583514'
 type: status
 created_time: '2018-03-13T19:02:05+0000'
-updated_time: '2018-03-13T21:36:58+0000'
+updated_time: '2018-03-14T13:15:58+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1781751665197867/
 id: '172338516139198_1781751665197867'
 reactions:
   data:
+  - id: '1444931018966857'
+    name: Amr MUhamed
+    type: LIKE
+  - id: '1999765416908747'
+    name: Ahmed Khalifa
+    type: LIKE
+  - id: '1521365261264961'
+    name: Amr Mekky
+    type: LIKE
+  - id: '1542414765808149'
+    name: Mohammad Deeb
+    type: LIKE
+  - id: '10215352706918859'
+    name: Mohamed Ahmed Zidan
+    type: LIKE
+  - id: '2074369722795584'
+    name: Sayed Abdul- Hakiem
+    type: LIKE
+  - id: '10155898279795619'
+    name: Hassan Sultan
+    type: LIKE
+  - id: '546598029039266'
+    name: Tarek Badr
+    type: LIKE
+  - id: '1584659024902777'
+    name: Mahmoud EL Degwey
+    type: LIKE
   - id: '1989910374594728'
     name: Ahmed Algaml
     type: LIKE
@@ -39,7 +66,7 @@ reactions:
     type: LIKE
   paging:
     cursors:
-      before: TVRBd01EQTNNamN6TlRNNE16VTJPakUxTWpBNU56YzFNVE02TWpVME1EazJNVFl4TXc9PQZDZD
+      before: TVRBd01EQXpORGs1TVRnME56azFPakUxTWpFd05qUTJOelk2TWpVME1EazJNVFl4TXc9PQZDZD
       after: TVRBd01EQTNPRGMwTkRNNU5qTXdPakUxTWpBNU5qYzRPRGs2TWpVME1EazJNVFl4TXc9PQZDZD
 comments:
   data:
@@ -145,7 +172,47 @@ comments:
     message: انا في السوق بقالي ١٤ سنه و بصراحه هي علي حجم المشروع و سعره و التيم
       المتوفر .
     id: '1782126011827099'
+  - created_time: '2018-03-14T01:13:00+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: |-
+      it depends on convenience !, lets be honest, for webapp any programming language will work, the difference is really very small for 90% of apps, so which language or tools should you pick ? it depend on whats convenient for you and your team.
+      for example most companies who use php prefer it because its very easy and cheap to hire a skilled php developer, in comparison to Csharp for example,, yet you might be lucky to have couple csharp developers near by, then C-sharp it is.. so answer is pick a language and tools that does not become an obstacle in future.
+    id: '1782289848477382'
+  - created_time: '2018-03-14T06:36:40+0000'
+    from:
+      name: Hadeel Sharaf
+      id: '1884406578237560'
+    message: "تعرف أن سؤال زي دا مرة فعلا خسرني شغل و اتحسبت فيه من ضمن المتمردين؟\n\nشوف
+      لو بتسأل عن اللي بيحصل على أرض الواقع في بعض الشركات فمعظم الوقت بيكون اختيار
+      ال tools بيحصل من ال previous experiences و ال available resources. \nيعني التيم
+      الموجود بيعرفوا إيه ينجزوا المشروع بيه. ولو احتاجوا يدخلوا tools جديدة ساعات
+      الاداره ما توافقش عشان   ال learning curve في التيم مش هيساعد (بيخافوا نكون
+      عايزين نتعلم حاجة جديدة نجربها في الشركة بس عشان نحطها في السي في و نروح نشتغل
+      في مكان تاني)\n\nو ناس بيكون ال architect او ال CTO عندهم ال experience بتاعته
+      بتميل انها تكون T shaped في technology معينة و بتكون اختيارهم المفضل معظم الوقت
+      لان عندهم حد asset فيها \n\nبس الاصح أن ال architecture او ال design يكون conceptual
+      و بعدين نختار ال tools \nيعني مثلا لو شوفت حاجات دي دي \nhttps://github.com/donnemartin/system-design-primer\nفيه
+      ديزاينز مرسومة الاول و بعدين يقول أن اللي بيناسبها في التطبيق كذا وكذا، هو دا
+      شغل انترفيوهات شوية و الواقع بيفرض نفسه .. بس لازم تبقى على الأقل متقبل أن كل
+      شركة ممكن يكون لها اسلوبها في الموضوع ده مش المفروض يفرق معاك كتير"
+    id: '1782510081788692'
+  - created_time: '2018-03-14T11:04:37+0000'
+    from:
+      name: Fady Mohammed Osman
+      id: '1832248553460800'
+    message: "بص مع اي مشروع بتشوف أهم حاجه فيه ايه على سبيل المثال لو انت هتاخد مثال
+      زي social network السرعه و ال scaling مهمين جدا في حاله زي دي مثلا هختار لغه
+      زي go و هبص على nosql مثلا هتلاقي حاجه زي mongodb او cassendra واحده منهم بتديلك
+      سرعه كبيره جدا لما تيجي تقرا الداتا و عشان كده Twitter بيستخدمها \nمن الاخر
+      انت بتحول المشروع لشويه متطلبات technical و بعدين تشوف ال features بتاعه ال
+      technology وتشوف اكتر حاجه تناسب المشروع و حاجات تانيه ممكن تدخل في الاعتبار
+      في الاعتبار برضه زي هل المبرمجين متوفرين للغه دي و لا لو حبيت تكبر الدنيا مش
+      هتلاقي ناس نفس النظام بالنسبه لل db admins وبرضه توفر الدعم لل technology وهل
+      هي well documented ولا لأ"
+    id: '1782781455094888'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM0TWpBeU9EazRNVGd6Tmpnd01qb3hOVEl3T1RZANE5EZAzUZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM0TWpFeU5qQXhNVGd5TnpBNU9Ub3hOVEl3T1RjMU9EazIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM0TWpjNE1UUTFOVEE1TkRnNE9Eb3hOVEl4TURJMU5EYzQZD
