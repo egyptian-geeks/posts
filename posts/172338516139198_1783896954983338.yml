@@ -1,0 +1,350 @@
+---
+message: "بمناسبة إن فيه كذا حد سأل عن Google Summer of Code، فده بوست مطول عن Google
+  Summer of Code و اللي هاكتبه في باقي البوست اختصارًا GSoC،\n1- إيه هو GSoC؟\nده
+  عبارة عن برنامج ليه 3 اطراف، جوجل و مؤسساتopen source و طلبة الجامعات و المعاهد
+  اﻷكبر من 18 سنة. في البرنامج ده جوجل بتدفع لكل طالب بيتقبل مع مؤسسة من المؤسسات
+  المشتركة في البرنامج مبلغ بيختلف من سنة لسنة (السنة دي 2400 دوﻻر) مقابل إنه يقعد
+  3 شهور في الصيف شغال مع المؤسسة على مشروع معين من اختيار المؤسسة.\nدي المؤسسات اللي
+  تم اختيارها للسنة دي http://summerofcode.withgoogle.com/organizations \n\n2- إيه
+  خطوات التقديم؟\nكل سنة بيقدم عدد من مؤسسات الـopen source انهم يشتركوا مع جوجل في
+  البرنامج ده، و بيتم إعلان المؤسسات المقبولة في شهر مارس، بعدها بيفتح التقديم للطلاب
+  مع المؤسسات دي. كل مؤسسة بتحط قائمة بأفكار المشاريع اللي محتاجة تتنفذ عندهم، وانت
+  كطالب بتقدم proposal للمؤسسة دي بتوضح فيه تصورك عن المشروع و مدى فهمك ليه و الـtimeline
+  اللي هتمشي عليه عشان تنفذ المشروع ده. الـproposal ده بيبقى PDF file انت اللي كاتبه،
+  لكن متقلقش ﻷن معظم المؤسسات بتبقى حاطة template للـproposal عشان تساعد الطلبة.\n3-
+  إزاي اختار المشروع؟\nقبل ما تختار المشروع لازم تحدد مستواك، يعني انت مبرمج كويس
+  وﻻ بطيخة، عارف لغات إيه، و عارف technologies و tools إيه؛ ﻷن ده هيساعدك انك تعرف
+  انهي مؤسسة تشترك معاها، يعني مثلا انت لسه طالب غلبان في سنة أولى أو تانية، بتعرف
+  C++ و شوية OOP، يبقى تدور على مؤسسة عندها مشاريع بـC++، و متخافش ﻷن ممكن تقول في
+  الـproposal بتاعك انك هتحتاج وقت تتعلم فيه، و هما هيقدروا ده و هيتفهموا.\nبعد ما
+  تحدد كذا مؤسسة تشوف المشاريع المتاحة في كل واحدة، و معظم المؤسسات بتكتب درجة صعوبة
+  كل مشروع، فلو انت لسه طالب غلبان، شوف المشاريع الـeasy و اختار بينها.\nكل طالب ليه
+  الحق انه يقدم على 5 مشاريع، سواء في نفس المؤسسة أو مؤسسات مختلفة. حاول انك تقدم
+  على مشروع واحد بس؛ ﻷنك هتبذل مجهود كبير في الـproposal فحاول تقلل التشتت على قد
+  ما تقدر، لكن لو حاسس انك مش متأكد من انك هتتقبل في المشروع، ممكن تضغط على نفسك و
+  تقدم في مشروع تاني سواء مع نفس المؤسسة أو مع مؤسسة تانية، لكن أنا عن نفسي كتبت proposal
+  واحد لمؤسسة واحدة و اتقبلت الحمد لله.\nودي الـproposals اللي قدمت بيها المرتين اللي
+  دخلت فيهم\nhttps://docs.google.com/document/d/1F-OXwVR6IN-xomxYbAsrelQeyJZpKC1nwirGZVO6WbE/edit\n\nhttps://docs.google.com/document/d/16Dpav4Xv-abPdkAlioJdIVIjTPNNs8FUJdMA_BSBxGs/edit\n\n4-
+  هل اكتب الـproposal و ابعته و خلاص؟\nﻷ، اوعى تعمل كده، ﻷن كل مشروع بيبقى ليه mentor
+  أو اكتر عشان يساعدوا الطلبة اللي هيتقبلوا في المشروع و يرشدوهم للطريق الصحيح. كل
+  مؤسسة هتبقى موفرة طريقة للتواصل مع الـmentors زي مثلا google groups أو slack أو
+  IRC channels أو على اقل تقدير هيبقوا حاطين إيميلات الـmentors. ﻻزم لما تجهز الـproposal
+  بتاعك تبعت للـmentors و تسألهم عن رأيهم فيه، و متخافش، الناس ودودين جدًا و متعاونين.
+  ولو مش عارف تكتب الـproposal أو فيه نقط مش واضحة في وصف المشروع اللي انت مختاره،
+  ممكن تبعتلهم قبل ما تعمل الـproposal و تسألهم في أي حاجة.\nوده الموضوع اللي كنت
+  باتواصل فيه مع الناس في Joomla قبل ما اقدم أول سنة علىgoogle group كانوا عاملينها
+  للتواصل معاهم https://groups.google.com/forum/#!topic/jgsoc-2016/I922uHLax3s\n\n5-
+  إيه المهارات اللي محتاجها عشان ادخل؟\nكل ما زادت مهاراتك زادت فرصتك في القبول، بس
+  مش معنى كده انك تقعد مستني 3 أو 4 سنين على ما تحس من نفسك عشان تقدم، كده كده لو
+  قبلت خبرتك هتزيد بشكل مكنتش تتوقعه.\nبالنسبة للمهارات المطلوبة، أول حاجة لغة برمجة
+  تكون على الاقل عارف بتتكتب ازاي و كتبت بيها بإيدك برامج قبل كده، بعد كده تكون عارف
+  Object-Oriented Programming و تكون عارف ازاي تكتب OOP بنفس اللغة اللي انت عارفها
+  دي. من الحاجات المهمة برده الـversion control زي GIT و اللي معظم المؤسسات بتشتغل
+  بيه دلوقتي.\nأي حاجة بعد كده بتفرق من مشروع لمشروع، يعني مثلا لو انت هتشترك في مؤسسة
+  شغالة ويب، هتبقى معرفتك بالويب اضافة ليك، لو مؤسسة شغالة بـC++ و Qt معرفتك بالـQt
+  هتكون احسن ، وهكذا.\nفيه كام مهارة تانية مهمة بس مش technical، أولهم اللباقة. ﻷنك
+  ﻻزم تعرف ان الـmentors دول متطوعين و مبياخدوش فلوس على ارشادهم ليك، و كمان في الاغلب
+  بيكونوا شغالين في شركات أو جامعات أو الاتنين و مش فاضيين. ده غير ان فيه فرق توقيت
+  و فرق في مواعيد صحيان و نوم و شغل. فحاول على قد ما تقدر انك متكونش رخم و زنان.\nتاني
+  مهارة هي \"الحفركة\"، بمعنى انك متبقاش عايز حد يرضعك المعلومة (آسف على الأسلوب بس
+  الموضوع بيبقى مستفز جدًا) ؛ ﻷنك وانت شغال على الـproposal هتكون عندك اسئلة في الـDesign
+  بتاع المشروع أو في فكرة المشروع نفسه أو عايز تعرف رؤية المؤسسة في المشروع إيه، الحفركة
+  بتقولك إنك متسألش غير بعد ما تدور \"كويس\" و لما تسأل في الغالب هيترد عليك بلينكات
+  لدروس أو مقالات تجاوب على سؤالك، ﻻزم تقرأها كويس و تحاول تسقطها على المشروع و إزاي
+  تقدر تنفذ الكلام اللي في اللينكات دي، وهل هو قابل للتنفيذ أصلا وﻻ ﻷ، و ترجع للـmentors
+  برؤية عن فهمك ده، و اللي ممكن يكون غلط جدًا، بس عالأقل تبين ليهم انك مهتم و بتدور
+  وواخد الموضوع جد.\n\n6- هل ﻻزم أكون مشارك مع المؤسسة قبل التقديم ما يفتح وﻻ ينفع
+  اقدم من غير ما اكون مشترك قبل كده؟\nيفضل طبعًا انك تكون مشارك قبل GSoC مع أي مؤسسة
+  مش شرط المؤسسة اللي انت مقدم معاها، لكن ده مش معناه ان فرصتك مش موجودة. أنا شخصيًا
+  كان أول تعامل ليا مع المؤسسة اللي اشتركت معاها كان بعد فتح باب التقديم، قدرت إن
+  اشترك معاهم من خلال شغل 14 يوم بس اللي هما الفترة بين فتح باب التقديم و قفله.\nبس
+  برده حاول إنك تشارك مع أي مؤسسة من بدري؛ ﻷن بعيدًا عن GSoC، مشاركتك في الـopen source
+  هتديلك خبرة كبيرة و هتتقل الـCV بتاعتك جامد.\n\n7- الفلوس قد إيه؟\nالمبلغ بيفرق
+  من سنة لسنة، يعني 2016 كان 5500 دوﻻر، لكن من سنة 2017 بقى 2400 دوﻻر للناس اللي من
+  مصر و الهند و كام دولة كده، و ده ﻷنهم طبقوا حاجة اسمها partial power parity و دي
+  بيحسبوا فيها القوة الشرائية للعملة المحلية قصاد الدوﻻر و اللي على اساسها بيتحدد
+  قيمة المبلغ.\nفي اللينك ده قيمة المبلغ في كل بلد https://developers.google.com/open-source/gsoc/help/student-stipends#total_stipend_amount"
+from:
+  name: محمد كرم
+  id: '10215775685890126'
+type: status
+created_time: '2018-03-15T14:40:26+0000'
+updated_time: '2018-03-15T21:58:32+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1783896954983338/
+shares:
+  count: 24
+id: '172338516139198_1783896954983338'
+reactions:
+  data:
+  - id: '1413493802105995'
+    name: Mahmoud Mohamed Osman
+    type: LIKE
+  - id: '1656705624437572'
+    name: Hagar Abdelmonam
+    type: LIKE
+  - id: '158547971463325'
+    name: Mohamed Mohamedy
+    type: LIKE
+  - id: '1885224038155501'
+    name: Menna T-Allah Magdy
+    type: LIKE
+  - id: '405798249869399'
+    name: Ahmed M. Atya
+    type: LIKE
+  - id: '929472323875062'
+    name: Mo'men Tawfik
+    type: LIKE
+  - id: '10209177154420899'
+    name: Elsayed Awdallah
+    type: LIKE
+  - id: '1815348785182423'
+    name: Ala Ezzeldin
+    type: LIKE
+  - id: '846713762199670'
+    name: Mohammad Mostafa
+    type: LIKE
+  - id: '1650993914977803'
+    name: Hashem Ramdan
+    type: LIKE
+  - id: '1567261893395175'
+    name: إسراء عاطف
+    type: LIKE
+  - id: '1928374474093451'
+    name: Ahmed Attia
+    type: LIKE
+  - id: '2097477310474302'
+    name: Ahmed Ashraf
+    type: LIKE
+  - id: '1545491685565248'
+    name: Monzer Alsadeg
+    type: LIKE
+  - id: '1703714063020384'
+    name: Fares Mehanna
+    type: LIKE
+  - id: '1605773082824496'
+    name: Khaled Almasry
+    type: LIKE
+  - id: '10155084284497073'
+    name: Mohammed Wageeh
+    type: LIKE
+  - id: '10155602981361917'
+    name: Hossam Hassanein
+    type: LIKE
+  - id: '10156476353501062'
+    name: Tarik Ibrahim
+    type: LIKE
+  - id: '1488239487940262'
+    name: Saeed Hamdy
+    type: LIKE
+  - id: '1804402029570329'
+    name: Eslam Gohar
+    type: LIKE
+  - id: '1537343163027536'
+    name: Ahmed Sabahi
+    type: LIKE
+  - id: '1927910387525979'
+    name: Ashraf Elalfy
+    type: LIKE
+  - id: '10215444861584356'
+    name: Ahmed Hamdy
+    type: LIKE
+  - id: '926196260879698'
+    name: Mohamed Ahmed
+    type: LIKE
+  - id: '2012132359064709'
+    name: Mohamed Ragab
+    type: LIKE
+  - id: '156543008366124'
+    name: Gerges Fikry
+    type: LIKE
+  - id: '684409361947607'
+    name: Shehab Mahrous
+    type: LIKE
+  - id: '10204311185097549'
+    name: Ali Ussama
+    type: LIKE
+  - id: '1649233421804567'
+    name: Omar Ahmed
+    type: LIKE
+  - id: '10208624519769836'
+    name: Zeyad Yasser
+    type: LIKE
+  - id: '2760687167500624'
+    name: Mohamed El-Shahawi
+    type: LIKE
+  - id: '1061734923967862'
+    name: Amira Mohamed
+    type: LIKE
+  - id: '10156202854044487'
+    name: Amr Fekry
+    type: LIKE
+  - id: '1385664498246611'
+    name: Sayed Said
+    type: LIKE
+  - id: '10211580001118151'
+    name: Mohamed Edrees
+    type: LIKE
+  - id: '1799604993405753'
+    name: Nourhan Wagdi
+    type: LIKE
+  - id: '1779289558787752'
+    name: Yasmeen Alaa
+    type: LIKE
+  - id: '10211045513280796'
+    name: Mohamed Ayman
+    type: LIKE
+  - id: '10155615625976773'
+    name: Omar Khairy
+    type: LIKE
+  - id: '832658286916992'
+    name: Mohamed Farghly
+    type: LIKE
+  - id: '10209223331620346'
+    name: Yousef Gamal
+    type: LIKE
+  - id: '1635975313138911'
+    name: إسلام الهادى
+    type: LIKE
+  - id: '627861614271937'
+    name: Karim Ebrahim
+    type: LIKE
+  - id: '1999765416908747'
+    name: Ahmed Khalifa
+    type: LIKE
+  - id: '145220886143035'
+    name: Omar AbdelFattah
+    type: LIKE
+  - id: '10155397040511824'
+    name: Mohamed Magdy
+    type: LIKE
+  - id: '10156278338768296'
+    name: Mohammed Gamal
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXpNell4TmpjeE9UY3lPakUxTWpFeE5UUXhOakk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TlRZAME1ETXpNamsxT2pFMU1qRXhNalV6TWpnNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2018-03-15T14:50:03+0000'
+    from:
+      name: محمد كرم
+      id: '10215775685890126'
+    message: Yousef Gamal
+    id: '1784110041628696'
+  - created_time: '2018-03-15T14:51:36+0000'
+    from:
+      name: Ahmed Ali Koriem
+      id: '1711592068898479'
+    message: هل ممكن خريجين
+    id: '1784111114961922'
+  - created_time: '2018-03-15T14:59:20+0000'
+    from:
+      name: أحمد عاكف
+      id: '10215171020565968'
+    message: "انا دخلت من شهر اتعقدت وكسلت \nدخلت من كام يوم لقيت في حجات لطيفة اقدر
+      اشارك فيها ان شاء الله \nلكن بيقولوا اامفروض اعمل اي pull request. اعدل او اطور
+      في مشروعهم \nفأحاول  من دلوقتي ولا الوقت قليل \U0001F603 ؟"
+    id: '1784129741626726'
+  - created_time: '2018-03-15T15:00:23+0000'
+    from:
+      name: Hazem Essam
+      id: '1504234093026524'
+    message: Ziad Khaled eh el klam ?
+    id: '1784132194959814'
+  - created_time: '2018-03-15T15:10:12+0000'
+    from:
+      name: Yara Ragheb
+      id: '10213662112320852'
+    message: Shorouk
+    id: '1784145208291846'
+  - created_time: '2018-03-15T15:13:02+0000'
+    from:
+      name: Mina William
+      id: '1958972070797083'
+    message: Mostafa Saleh
+    id: '1784148031624897'
+  - created_time: '2018-03-15T15:14:00+0000'
+    from:
+      name: Yahia Hassan
+      id: '2093529544214867'
+    message: لازم اكون طالب Computer Science ولا عادي اي كلية؟
+    id: '1784148821624818'
+  - created_time: '2018-03-15T15:14:20+0000'
+    from:
+      name: Abdel-Rahman Ali
+      id: '2036264453252497'
+    message: Mohammed Hakeem
+    id: '1784149044958129'
+  - created_time: '2018-03-15T15:14:47+0000'
+    from:
+      name: Mahmoud Said
+      id: '1976182745966657'
+    message: Ahmed M. Ibrahim
+    id: '1784149321624768'
+  - created_time: '2018-03-15T15:23:03+0000'
+    from:
+      name: Islam Negm
+      id: '1418124854964171'
+    message: AhMed G NeGmawy
+    id: '1784156161624084'
+  - created_time: '2018-03-15T15:25:16+0000'
+    from:
+      name: Mostafa Atta
+      id: '10155505344642029'
+    message: Ebraheem Mouhamed
+    id: '1784158308290536'
+  - created_time: '2018-03-15T15:37:59+0000'
+    from:
+      name: Abdelaziz Ahmed
+      id: '10213443591537049'
+    message: ينفع self taught programer
+    id: '1784169904956043'
+  - created_time: '2018-03-15T15:39:14+0000'
+    from:
+      name: Abdelrahaman Diab
+      id: '1702398466504466'
+    message: Mohammad Ali Diab
+    id: '1784172064955827'
+  - created_time: '2018-03-15T15:39:42+0000'
+    from:
+      name: Mahmoud Ibrahim
+      id: '10211351213640222'
+    message: Mohamed Sayed
+    id: '1784172548289112'
+  - created_time: '2018-03-15T16:03:04+0000'
+    from:
+      name: Mario Monir
+      id: '10215551786766146'
+    message: Mazen Soliman
+    id: '1784193938286973'
+  - created_time: '2018-03-15T18:04:56+0000'
+    from:
+      name: Eslam Gohar
+      id: '1804402029570329'
+    message: Islam Santos إفهم و وضحلي :D
+    id: '1784316208274746'
+  - created_time: '2018-03-15T18:22:12+0000'
+    from:
+      name: Abdallah Elkasass
+      id: '777113485806550'
+    message: Abdelslam Shehab
+    id: '1784330088273358'
+  - created_time: '2018-03-15T18:40:50+0000'
+    from:
+      name: Mohammad Khaled
+      id: '1330118700468027'
+    message: طيب انا مثلا شغال اندرويد، والمشاريع اللى فيها اندرويد مطلوب فيها حاجات
+      تانيه زى JavaScript  او حتى iOS  اوغيرها، هل بشارك وبشتغل ف الجزء اللى اعرفه
+      ولا لازم اكون عارف كل ال technologies اللى المشروع طالبها ؟
+    id: '1784344504938583'
+  - created_time: '2018-03-15T20:24:13+0000'
+    from:
+      name: Rowaydan Ommate
+      id: '2013425802245851'
+    message: Asmaa Hamid
+    id: '1784425441597156'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM0TkRFeE1EQTBNVFl5T0RZANU5qb3hOVEl4TVRJMU5EQXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM0TkRReU5UUTBNVFU1TnpFMU5qb3hOVEl4TVRRMU5EVXoZD

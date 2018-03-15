@@ -1,0 +1,43 @@
+---
+message: "Slamm All, \nYour support is appreciated ."
+link: https://stackoverflow.com/questions/49278538/spring-boot-deployments-could-not-see-class-file
+from:
+  name: Mohamed Sweelam
+  id: '1987222834640127'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQBicEnZEnV912SL&w=130&h=130&url=https%3A%2F%2Fcdn.sstatic.net%2FSites%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded&cfs=1&_nc_hash=AQDvsiX7ONHDf146
+created_time: '2018-03-15T06:28:54+0000'
+updated_time: '2018-03-15T06:49:01+0000'
+name: Spring boot deployments could not see .class file
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1783118228394544/
+id: '172338516139198_1783118228394544'
+comments:
+  data:
+  - created_time: '2018-03-15T06:48:57+0000'
+    from:
+      name: Adel Salah
+      id: '10155850331476346'
+    message: |-
+      I think ( but not sure ), you need to add a plugin in your pom file with artifact id "maven-dependency-plugin" with phase "package" and goal "copy-dependencies"
+
+      And by the way, you can package as a jar no need to package as war
+    id: '1783733338333033'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM0TXpjek16TXpPRE16TXpBek16b3hOVEl4TURrMk5UTTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM0TXpjek16TXpPRE16TXpBek16b3hOVEl4TURrMk5UTTMZD
+attachments:
+  data:
+  - description: In my project i build a multi modules dependency application , it
+      is running perfectly in compilation/development mode , but when packaging it
+      in a war file , it gives me NoClassDefFound for entity...
+    media:
+      image:
+        height: 316
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAMFLWvXjUlRuS7&w=720&h=720&url=https%3A%2F%2Fcdn.sstatic.net%2FSites%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded&cfs=1&_nc_hash=AQBDUhzXdwnk-uG7
+        width: 316
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F49278538%2Fspring-boot-deployments-could-not-see-class-file&h=ATM3Qa1Wpa8aAV4N9CHY4YFmTpn9qphuubxUXPEkJfEXmaphFPbtXgQRsCCIgbUYlLKHKiFAURuicEvsrkQY3n9cgUrtLyuD6NAwPweyUERDS_W8Gg-M&s=1
+    title: Spring boot deployments could not see .class file
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F49278538%2Fspring-boot-deployments-could-not-see-class-file&h=ATM3Qa1Wpa8aAV4N9CHY4YFmTpn9qphuubxUXPEkJfEXmaphFPbtXgQRsCCIgbUYlLKHKiFAURuicEvsrkQY3n9cgUrtLyuD6NAwPweyUERDS_W8Gg-M&s=1

@@ -1,0 +1,76 @@
+---
+message: |-
+  عندي مشكلة في النت في فيدورا 27، بيعمل connect للواي فاي بس بيعمل علامة "?" ومش بعرف أدخل على أي سايت أو IP address
+  بس بيعمل ping لأي IP address عادي. وعملت check على الدرايفرز الموجودة ولقيتها تمام.
+  دورت على النت كتير بس مش لاقي حل، لقيت حد عنده نفس المشكلة على ريدت بس في فيدورا 25 (https://www.reddit.com/r/Fedora/comments/5t2yo3/wifi_gets_network_but_no_internet_access/) ، فهل ممكن تكون مشكلة خاصة بالديسترو؟ مع العلم إني استخدمت فيدورا 25 لحوالي سنة على نفس ال machine من غير مشكلة.
+  بعد شوية تدوير لقيت ممكن تكون المشكلة في فايل resolv.conf مش موجود في /etc/resolv.conf وبرضه مش لاقي حل، ازاي أقدر أخلي ال ip addresses يتعملها resolve هناك؟
+  أو المشكلة في الكيرنل نفسها (ومش هعرف أغيرها عشان مش هعرف أوصل ال machine بالنت) فازاي أقدر أعملها troubleshooting أوفلاين؟
+link: https://www.reddit.com/r/Fedora/comments/5t2yo3/wifi_gets_network_but_no_internet_access/
+from:
+  name: Hazem Hussien
+  id: '1638740126180375'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQC6EyJY-PoippdN&w=130&h=130&url=https%3A%2F%2Fwww.redditstatic.com%2Ficon.png&cfs=1&sx=0&sy=0&sw=256&sh=256&_nc_hash=AQCNQSnjjTY8i2uL
+created_time: '2018-03-15T01:53:47+0000'
+updated_time: '2018-03-15T08:25:24+0000'
+name: Wifi gets network but no Internet access • r/Fedora
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1783338748372492/
+id: '172338516139198_1783338748372492'
+reactions:
+  data:
+  - id: '10156209689974938'
+    name: Mohamed Hamdy El Hatteeam
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRRMk5UazVPVE0zT2pFMU1qRXdPRGMxTWpRNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRRMk5UazVPVE0zT2pFMU1qRXdPRGMxTWpRNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2018-03-15T01:58:06+0000'
+    from:
+      name: Amr Ahmed
+      id: '1841151145897784'
+    message: "المشكلة في الـ dns \nشوف هنا \nhttps://unix.stackexchange.com/questions/90035/how-to-set-dns-resolver-in-fedora-using-network-manager"
+    id: '1783538161685884'
+  - created_time: '2018-03-15T02:00:35+0000'
+    from:
+      name: Amjad Mashaal
+      id: '10213738834576763'
+    message: |-
+      تاني، انت بتقول انك بتعمل ping لأي IP عادي بس بتيجي ت connect لل IP مش بيشتغل؟
+
+      لو كدة مظنش انها DNS. بص عال proxy configuration واتأكد انها فاضية. جرب تعمل curl من ال terminal شوف شغالة ولا لا. بص برضه عال iptables عندك، مش هيخسر.
+    id: '1783539905019043'
+  - created_time: '2018-03-15T02:19:58+0000'
+    from:
+      name: Ahmad Bahaa
+      id: '1985598625095777'
+    message: غالبا الفايروول
+    id: '1783553038351063'
+  - created_time: '2018-03-15T08:25:21+0000'
+    from:
+      name: Yasser Shaheen
+      id: '196883704381325'
+    message: |-
+      انت بتسطب نسخة Net install ولا Live image ؟
+      يعني اللي حجمها جيجا ونص ولا اللي اقل ؟
+    id: '1783801544992879'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM0TXpVek9ERTJNVFk0TlRnNE5Eb3hOVEl4TURjNU1EZAzIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM0TXpnd01UVTBORGs1TWpnM09Ub3hOVEl4TVRBeU16SXgZD
+attachments:
+  data:
+  - description: Hello all. I don't know if here is the best place to seek for technical
+      help. My wifi was working fine until today. Fedora 25 connects to my...
+    media:
+      image:
+        height: 256
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQDhls9LUe7knibB&w=256&h=256&url=https%3A%2F%2Fwww.redditstatic.com%2Ficon.png&cfs=1&sx=0&sy=0&sw=256&sh=256&_nc_hash=AQAhmhDP7qqPPH0b
+        width: 256
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.reddit.com%2Fr%2FFedora%2Fcomments%2F5t2yo3%2Fwifi_gets_network_but_no_internet_access%2F&h=ATPKUiJsAp819nYKjU81OL-7sZNGWQTsqUeUC82-Js7PAhRcDlQe6BOC9FRi87H_zr465eN-AUOT9xruTdG22KOEjz65_UOBBytCKfXoI_PcI6pPYbjL&s=1
+    title: Wifi gets network but no Internet access • r/Fedora
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.reddit.com%2Fr%2FFedora%2Fcomments%2F5t2yo3%2Fwifi_gets_network_but_no_internet_access%2F&h=ATPKUiJsAp819nYKjU81OL-7sZNGWQTsqUeUC82-Js7PAhRcDlQe6BOC9FRi87H_zr465eN-AUOT9xruTdG22KOEjz65_UOBBytCKfXoI_PcI6pPYbjL&s=1

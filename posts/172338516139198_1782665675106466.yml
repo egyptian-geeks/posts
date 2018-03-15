@@ -9,7 +9,7 @@ from:
 type: link
 picture: https://external.xx.fbcdn.net/safe_image.php?d=AQBicEnZEnV912SL&w=130&h=130&url=https%3A%2F%2Fcdn.sstatic.net%2FSites%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded&cfs=1&_nc_hash=AQDvsiX7ONHDf146
 created_time: '2018-03-14T08:45:16+0000'
-updated_time: '2018-03-14T18:10:59+0000'
+updated_time: '2018-03-15T07:30:14+0000'
 name: MySQL select 10 random rows from 600K rows fast
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1782665675106466/
 shares:
@@ -17,6 +17,9 @@ shares:
 id: '172338516139198_1782665675106466'
 reactions:
   data:
+  - id: '10155318238153927'
+    name: Ahmed Nasr
+    type: LIKE
   - id: '1762330790454774'
     name: Ahmed Sameh El-Sawalhy
     type: LIKE
@@ -31,7 +34,7 @@ reactions:
     type: LIKE
   paging:
     cursors:
-      before: TVRBd01EQXdNek0yTURrME5qSTNPakUxTWpFd05qWTROams2TWpVME1EazJNVFl4TXc9PQZDZD
+      before: TnpNMk5UazRPVEkyT2pFMU1qRXhOREE1TkRnNk1qVTBNRGsyTVRZAeE13PT0ZD
       after: TVRRM01UWTNPRFV4TXpveE5USXhNREU0TnpFMU9qSTFOREE1TmpFMk1UTT0ZD
 comments:
   data:
@@ -85,10 +88,20 @@ comments:
       Is there anyway to get a resultset asynchronously when using cursors, so basically
       the row is only loaded when the cursor reaches it? Or am I way off here?
     id: '1783107358395631'
+  - created_time: '2018-03-15T04:04:11+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: |-
+      SELECT * FROM `albums` where id in (FLOOR((RAND() * 100)),FLOOR((RAND() * 100)),FLOOR((RAND() * 100)),FLOOR((RAND() * 100)),FLOOR(CEILING(RAND() * 100))) limit 10
+      :) repeat floor rand 10-20 times to make sure u get back at least 10 incase there were id gaps :p ..and if your max rows are 600,000 then use *100000 instead of *100 :) enjoy
+      if ids are not int then you can use same concept on created_at
+      you can get smarter and use where in and str_repeat.. all mysql only
+    id: '1783621625010871'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM0TWpZANU16RTJNVGMzTURNNE5Eb3hOVEl4TURFNE9EWTAZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM0TXpFd056TTFPRE01TlRZAek1Ub3hOVEl4TURRM016STAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM0TXpZAeU1UWXlOVEF4TURnM01Ub3hOVEl4TURnMk5qVXgZD
 attachments:
   data:
   - description: How can I best write a query that selects 10 rows randomly from a
@@ -99,7 +112,7 @@ attachments:
         src: https://external.xx.fbcdn.net/safe_image.php?d=AQAMFLWvXjUlRuS7&w=720&h=720&url=https%3A%2F%2Fcdn.sstatic.net%2FSites%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded&cfs=1&_nc_hash=AQBDUhzXdwnk-uG7
         width: 316
     target:
-      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F4329396%2Fmysql-select-10-random-rows-from-600k-rows-fast&h=ATNE00_3UI9fh0SUOk2mP_t5xX5KicsqjD1aff1aWyCgx6O8N4JCEfgG6O5YgmVV98iAJBE-84dc8mlUo0P5_4P79N52CF6hQn6pizbRrnag7Q9vWGb3&s=1
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F4329396%2Fmysql-select-10-random-rows-from-600k-rows-fast&h=ATOR1jR4sGtQYitc_AFuYFQcKJ0Q24ep1xqkbA66hO-VE62PMeLElWVclc7U89gIBgXmluNtSHxcgflLKqzdARkWbiYB0e1nluVNanyryZk1Ce_iWGH2&s=1
     title: MySQL select 10 random rows from 600K rows fast
     type: share
-    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F4329396%2Fmysql-select-10-random-rows-from-600k-rows-fast&h=ATNE00_3UI9fh0SUOk2mP_t5xX5KicsqjD1aff1aWyCgx6O8N4JCEfgG6O5YgmVV98iAJBE-84dc8mlUo0P5_4P79N52CF6hQn6pizbRrnag7Q9vWGb3&s=1
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F4329396%2Fmysql-select-10-random-rows-from-600k-rows-fast&h=ATOR1jR4sGtQYitc_AFuYFQcKJ0Q24ep1xqkbA66hO-VE62PMeLElWVclc7U89gIBgXmluNtSHxcgflLKqzdARkWbiYB0e1nluVNanyryZk1Ce_iWGH2&s=1

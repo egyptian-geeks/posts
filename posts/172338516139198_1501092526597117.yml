@@ -27,10 +27,13 @@ reactions:
   - id: '1361766457302191'
     name: Mohammed Besher
     type: LIKE
+  - id: '10155586683174822'
+    name: Moataz Farid
+    type: LIKE
   paging:
     cursors:
       before: TVRneU9EQXpNVEEwTlRveE5EazJORE15TnpnM09qSTFOREE1TmpFMk1UTT0ZD
-      after: TVRBd01EQTBNRFkxTkRrM01qSTFPakUwT1RZAME1UTTVNekE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TmpReU5UazBPREl4T2pFME9UWTBNRGMxTlRZANk1qVTBNRGsyTVRZAeE13PT0ZD
 comments:
   data:
   - created_time: '2017-06-02T12:08:06+0000'
@@ -62,6 +65,12 @@ comments:
       البرنامج، يعمل Button بيعمل الـ Shutdown ده مثلا\n\nبعد كدة بقى واحدة واحدة
       ممكن يبدأ يتعلم الويب و الـ HTML و الـ Forms بتاعتها وكدة .."
     id: '1501113306595039'
+  - created_time: '2017-06-02T12:38:30+0000'
+    from:
+      name: Moataz Farid
+      id: '10155586683174822'
+    message: "شوف كدا البوست دا فيه Resources كتير ممكن تستفيد منها \nhttps://www.facebook.com/eng.moataz.farid/posts/10154544605529822"
+    id: '1501115966594773'
   - created_time: '2017-06-02T12:45:17+0000'
     from:
       name: Ziad Khaled
