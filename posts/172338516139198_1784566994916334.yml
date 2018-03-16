@@ -1,0 +1,89 @@
+---
+message: |-
+  #JAVA
+  #Android
+  Can i define fragment or some reusable components as a singleton in android and what is limitations to deal with
+from:
+  name: Ahmed Yahya
+  id: '2042489695784265'
+type: status
+created_time: '2018-03-15T23:55:46+0000'
+updated_time: '2018-03-16T11:07:00+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1784566994916334/
+id: '172338516139198_1784566994916334'
+reactions:
+  data:
+  - id: '1676108972474712'
+    name: Ahmed Ezzat Salama
+    type: LIKE
+  - id: '1809349152432380'
+    name: Bishoy Abd Lamey
+    type: LIKE
+  - id: '571069183229243'
+    name: Ahmed Emad El-barbri
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlNalk0TnpZAek9USXhPakUxTWpFeE9UVTJNak02TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTVOemcwT1RreE56UTNPakUxTWpFeE5UZAzBPVE02TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2018-03-16T00:02:25+0000'
+    from:
+      name: Ahmed Saleh
+      id: '10159933379005574'
+    message: Singeltons are Evil the same as with global variables.
+    id: '1784578851581815'
+  - created_time: '2018-03-16T00:03:04+0000'
+    from:
+      name: Ahmed Saleh
+      id: '10159933379005574'
+    message: If you want to use them for Logging, Debugging outputs, then that's fine,
+      otherwise take a deep look at your design
+    id: '1784579181581782'
+  - created_time: '2018-03-16T00:44:45+0000'
+    from:
+      name: Tony Raoul Iscaros
+      id: '10156165643313420'
+    message: |-
+      I am not a Java developer , but Singleton patern is fine , usually DI is better (more testable and easier to debug )
+
+      Limitations in Singleton , you can't have multiple instance of the same object by design (there are some work arounds but that wouldn't be a Singleton?), also some debuggers get confused with it ( idk alot about how true is that in java ecosystem).
+
+      Singletons should have a single responsibility to manage through the entire app (logging , debugging , app state..)
+
+      So a fragment is not suitable for a Singleton.
+      Meanwhile , managing events for fragments are really good use for a Singleton.
+    id: '1784611201578580'
+  - created_time: '2018-03-16T02:48:29+0000'
+    from:
+      name: Bishoy Abd Lamey
+      id: '1809349152432380'
+    message: |-
+      No, don't. I don't know the context where you might need to do this.
+      Fragments are heavy objects making them (Singleton) will prevent garbage collector from collecting them until the class that has a reference to it (usually the Activity or FragmentPagerAdapter , etc.. ),
+      becomes subject to garbage collection.
+
+      SO IT WILL BE A HUGE MESS.because Fragment fields might have a reference to another global state, and you will end up having infinite references that are not subject to GC.
+    id: '1784709108235456'
+  - created_time: '2018-03-16T05:34:57+0000'
+    from:
+      name: Hassan Ibraheem
+      id: '10157236848478228'
+    message: What's your use case? The system (specifically the FragmentManager) can
+      destroy and recreate your fragments, and a fragment is any way scoped to its
+      host activity's lifecycle. Sharing a fragment between multiple activities is
+      a bad idea to start with and will give you lots of trouble just to figure out
+      its lifecycle.
+    id: '1784835528222814'
+  - created_time: '2018-03-16T11:06:57+0000'
+    from:
+      name: Abdo Hussien
+      id: '1933445573367442'
+    message: I think it will cause memory leak , you don't have to make context as
+      single instance .
+    id: '1785056748200692'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM0TkRVM09EZAzFNVFU0TVRneE5Ub3hOVEl4TVRVNE5UUTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM0TlRBMU5qYzBPREl3TURZANU1qb3hOVEl4TVRrNE5ERTQZD

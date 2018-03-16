@@ -111,14 +111,6 @@ comments:
       As far as I know, to spy on https traffic you need a trusted certificate of some sort, and I think even that can be detected if you do certificate pinning.
       For the end-to-end encryption in WhatsApp though you need to intercept the initial key exchange, and even that can be detected by meeting your friend in-person to see if the keys match. I've read however that someone could change the key mid-conversation and WhatsApp wouldn't tell you by default, you can however go to Settings > Account > Security to make WhatsApp notify you when such a thing happens.
     id: '1250240515015654'
-  - created_time: '2016-10-06T10:23:03+0000'
-    from:
-      name: هشام إبراهيم
-      id: '10214782719499032'
-    message: |-
-      I assume it's a prank, end to end encryption so far proved strong ability of defeating any trials to intercept message between both sides, even from the ISP itself.
-      https://en.wikipedia.org/wiki/End-to-end_encryption
-    id: '1250761428296896'
   - created_time: '2016-10-06T10:54:01+0000'
     from:
       name: Mohamed Safwat
@@ -172,7 +164,7 @@ attachments:
       - media:
           image:
             height: 720
-            src: https://scontent.xx.fbcdn.net/v/t1.0-9/14572983_675874952568690_6203026105486407546_n.jpg?oh=92ec00ffd3b30b87f166435c7cff24cf&oe=5B045DFC
+            src: https://scontent.xx.fbcdn.net/v/t1.0-9/14572983_675874952568690_6203026105486407546_n.jpg?oh=ae8455d99c52efe8a487fc221854e8c8&oe=5B2BEAFC
             width: 640
         target:
           id: '675874952568690'

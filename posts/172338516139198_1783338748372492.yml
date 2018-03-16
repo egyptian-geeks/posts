@@ -12,7 +12,7 @@ from:
 type: link
 picture: https://external.xx.fbcdn.net/safe_image.php?d=AQC6EyJY-PoippdN&w=130&h=130&url=https%3A%2F%2Fwww.redditstatic.com%2Ficon.png&cfs=1&sx=0&sy=0&sw=256&sh=256&_nc_hash=AQCNQSnjjTY8i2uL
 created_time: '2018-03-15T01:53:47+0000'
-updated_time: '2018-03-15T08:25:24+0000'
+updated_time: '2018-03-16T10:14:56+0000'
 name: Wifi gets network but no Internet access • r/Fedora
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1783338748372492/
 id: '172338516139198_1783338748372492'
@@ -56,10 +56,18 @@ comments:
       انت بتسطب نسخة Net install ولا Live image ؟
       يعني اللي حجمها جيجا ونص ولا اللي اقل ؟
     id: '1783801544992879'
+  - created_time: '2018-03-16T10:12:39+0000'
+    from:
+      name: Hazem Hussien
+      id: '1638740126180375'
+    message: |-
+      هي طلعت بسبب ال DNS إن الفايل في /etc/resolv.conf بيتمسح لوحده، دورت عشان أعرف ده حصل ليه لقيت SELinux بيمنع ال NetworkManager إنه يـ read الفايل لسبب ما معرفوش.
+      فأنا كتبته بنفسي واديت ال access لل NetworkManager
+    id: '1785014724871561'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM0TXpVek9ERTJNVFk0TlRnNE5Eb3hOVEl4TURjNU1EZAzIZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM0TXpnd01UVTBORGs1TWpnM09Ub3hOVEl4TVRBeU16SXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM0TlRBeE5EY3lORGczTVRVMk1Ub3hOVEl4TVRrMU1UVTUZD
 attachments:
   data:
   - description: Hello all. I don't know if here is the best place to seek for technical
@@ -70,7 +78,7 @@ attachments:
         src: https://external.xx.fbcdn.net/safe_image.php?d=AQDhls9LUe7knibB&w=256&h=256&url=https%3A%2F%2Fwww.redditstatic.com%2Ficon.png&cfs=1&sx=0&sy=0&sw=256&sh=256&_nc_hash=AQAhmhDP7qqPPH0b
         width: 256
     target:
-      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.reddit.com%2Fr%2FFedora%2Fcomments%2F5t2yo3%2Fwifi_gets_network_but_no_internet_access%2F&h=ATPKUiJsAp819nYKjU81OL-7sZNGWQTsqUeUC82-Js7PAhRcDlQe6BOC9FRi87H_zr465eN-AUOT9xruTdG22KOEjz65_UOBBytCKfXoI_PcI6pPYbjL&s=1
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.reddit.com%2Fr%2FFedora%2Fcomments%2F5t2yo3%2Fwifi_gets_network_but_no_internet_access%2F&h=ATOjndB4_8muGANLCIcaegkRvR7VkWkC4Y4ZjcFcjE0PlCNothkQHH1bC4x3a223ltnzxvCA4FlSWUQga-G5fojs1YqM9mK7tL1B9CqLQvF-SZ068QBV&s=1
     title: Wifi gets network but no Internet access • r/Fedora
     type: share
-    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.reddit.com%2Fr%2FFedora%2Fcomments%2F5t2yo3%2Fwifi_gets_network_but_no_internet_access%2F&h=ATPKUiJsAp819nYKjU81OL-7sZNGWQTsqUeUC82-Js7PAhRcDlQe6BOC9FRi87H_zr465eN-AUOT9xruTdG22KOEjz65_UOBBytCKfXoI_PcI6pPYbjL&s=1
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.reddit.com%2Fr%2FFedora%2Fcomments%2F5t2yo3%2Fwifi_gets_network_but_no_internet_access%2F&h=ATOjndB4_8muGANLCIcaegkRvR7VkWkC4Y4ZjcFcjE0PlCNothkQHH1bC4x3a223ltnzxvCA4FlSWUQga-G5fojs1YqM9mK7tL1B9CqLQvF-SZ068QBV&s=1

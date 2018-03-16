@@ -11,11 +11,20 @@ from:
   id: '1877624395583514'
 type: status
 created_time: '2018-03-13T19:02:05+0000'
-updated_time: '2018-03-14T13:15:58+0000'
+updated_time: '2018-03-16T00:29:03+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1781751665197867/
 id: '172338516139198_1781751665197867'
 reactions:
   data:
+  - id: '1738726572854077'
+    name: Muhammed Mamdouh
+    type: LIKE
+  - id: '10159847733870510'
+    name: Mohammed Hashish
+    type: LIKE
+  - id: '2022490591345439'
+    name: سامح دعبس
+    type: LOVE
   - id: '1444931018966857'
     name: Amr MUhamed
     type: LIKE
@@ -66,7 +75,7 @@ reactions:
     type: LIKE
   paging:
     cursors:
-      before: TVRBd01EQXpORGs1TVRnME56azFPakUxTWpFd05qUTJOelk2TWpVME1EazJNVFl4TXc9PQZDZD
+      before: TVRBd01EQXhOVEF5TlRNeE5qSXhPakUxTWpFeU16STVNelk2TWpVME1EazJNVFl4TXc9PQZDZD
       after: TVRBd01EQTNPRGMwTkRNNU5qTXdPakUxTWpBNU5qYzRPRGs2TWpVME1EazJNVFl4TXc9PQZDZD
 comments:
   data:
@@ -212,7 +221,16 @@ comments:
       هتلاقي ناس نفس النظام بالنسبه لل db admins وبرضه توفر الدعم لل technology وهل
       هي well documented ولا لأ"
     id: '1782781455094888'
+  - created_time: '2018-03-15T23:32:49+0000'
+    from:
+      name: سامح دعبس
+      id: '2022490591345439'
+    message: |-
+      As a primer, you can start with the term "design patterns", there are generic design patterns, and there are specific design patterns for certain domains, like designing enterprise applications, and patterns for solving specific problems, like integration patterns, concurrency patterns, unit testing patterns, SOA patterns, etc.
+      Another side, which is selecting technologies: generally speaking you will start with the technology you are familiar with to solve every problem, but these technology have community and other related technologies to solve specific problems, then to be able to select from them, you should know as much as you can about these different technologies. I am not saying you should know everything about everything, but you should keep up to date with new technologies and techniques, why they being found in the first place, what problems they solve, what are their limitations, etc. When you have these basic knowlegde and you face a new problem, you can always fallback to your knowledge about these technologies to start seeking the best solution.
+      Long story short: you can select when you know the alternatives.
+    id: '1784561474916886'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM0TWpBeU9EazRNVGd6Tmpnd01qb3hOVEl3T1RZANE5EZAzUZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM0TWpjNE1UUTFOVEE1TkRnNE9Eb3hOVEl4TURJMU5EYzQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM0TkRVMk1UUTNORGt4TmpnNE5qb3hOVEl4TVRVMk56WTUZD

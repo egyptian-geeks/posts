@@ -9,7 +9,7 @@ from:
 type: link
 picture: https://external.xx.fbcdn.net/safe_image.php?d=AQBicEnZEnV912SL&w=130&h=130&url=https%3A%2F%2Fcdn.sstatic.net%2FSites%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded&cfs=1&_nc_hash=AQDvsiX7ONHDf146
 created_time: '2018-03-14T08:45:16+0000'
-updated_time: '2018-03-15T07:30:14+0000'
+updated_time: '2018-03-16T00:01:38+0000'
 name: MySQL select 10 random rows from 600K rows fast
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1782665675106466/
 shares:
@@ -17,6 +17,9 @@ shares:
 id: '172338516139198_1782665675106466'
 reactions:
   data:
+  - id: '1189827847786642'
+    name: Abdelrhman Elsaid
+    type: LIKE
   - id: '10155318238153927'
     name: Ahmed Nasr
     type: LIKE
@@ -34,7 +37,7 @@ reactions:
     type: LIKE
   paging:
     cursors:
-      before: TnpNMk5UazRPVEkyT2pFMU1qRXhOREE1TkRnNk1qVTBNRGsyTVRZAeE13PT0ZD
+      before: TVRBd01EQXlOemd6TVRNME16WXdPakUxTWpFeU1EQXlNRGc2TWpVME1EazJNVFl4TXc9PQZDZD
       after: TVRRM01UWTNPRFV4TXpveE5USXhNREU0TnpFMU9qSTFOREE1TmpFMk1UTT0ZD
 comments:
   data:
@@ -98,10 +101,23 @@ comments:
       if ids are not int then you can use same concept on created_at
       you can get smarter and use where in and str_repeat.. all mysql only
     id: '1783621625010871'
+  - created_time: '2018-03-16T00:01:35+0000'
+    from:
+      name: أبو عبدالله أحمد صبرة
+      id: '1631312750271468'
+    message: |-
+      لو بتنفذ الكويري من خلال لغة برمجة ممكن تستغل امكانيات ال limit
+      اعمل random number في الكود، سميه مثلا offset
+      واستخدمه في الquery كده:
+
+      Select *
+      from tablename
+      limit offset, 1
+    id: '1784578414915192'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM0TWpZANU16RTJNVGMzTURNNE5Eb3hOVEl4TURFNE9EWTAZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM0TXpZAeU1UWXlOVEF4TURnM01Ub3hOVEl4TURnMk5qVXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM0TkRVM09EUXhORGt4TlRFNU1qb3hOVEl4TVRVNE5EazEZD
 attachments:
   data:
   - description: How can I best write a query that selects 10 rows randomly from a
@@ -112,7 +128,7 @@ attachments:
         src: https://external.xx.fbcdn.net/safe_image.php?d=AQAMFLWvXjUlRuS7&w=720&h=720&url=https%3A%2F%2Fcdn.sstatic.net%2FSites%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded&cfs=1&_nc_hash=AQBDUhzXdwnk-uG7
         width: 316
     target:
-      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F4329396%2Fmysql-select-10-random-rows-from-600k-rows-fast&h=ATOR1jR4sGtQYitc_AFuYFQcKJ0Q24ep1xqkbA66hO-VE62PMeLElWVclc7U89gIBgXmluNtSHxcgflLKqzdARkWbiYB0e1nluVNanyryZk1Ce_iWGH2&s=1
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F4329396%2Fmysql-select-10-random-rows-from-600k-rows-fast&h=ATM2DF4c6gfhK2ZFCpx7hKTRgOrIsKF8e6_GGcZ7qJ2-X5i5x8IEmHznfjMT49azYnzSVHeNGjnmogbnrJHBCKc13v0-_FNI85l0MqR_h_vi_kn94swn&s=1
     title: MySQL select 10 random rows from 600K rows fast
     type: share
-    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F4329396%2Fmysql-select-10-random-rows-from-600k-rows-fast&h=ATOR1jR4sGtQYitc_AFuYFQcKJ0Q24ep1xqkbA66hO-VE62PMeLElWVclc7U89gIBgXmluNtSHxcgflLKqzdARkWbiYB0e1nluVNanyryZk1Ce_iWGH2&s=1
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F4329396%2Fmysql-select-10-random-rows-from-600k-rows-fast&h=ATM2DF4c6gfhK2ZFCpx7hKTRgOrIsKF8e6_GGcZ7qJ2-X5i5x8IEmHznfjMT49azYnzSVHeNGjnmogbnrJHBCKc13v0-_FNI85l0MqR_h_vi_kn94swn&s=1

@@ -1,0 +1,72 @@
+---
+message: "السلام عليكم ,\nفى مشكلة قاعد فيها بقالى كتير و يا ريت الى اتعرض لحاجة زى
+  كدة او يعرف حل يا ريت يقولهولى \n\nدلوقتى احنا عندنا فى الشركة اشتغلنا على مشروع
+  machine learning و حولناه ل كود c++ و عملناله test اشتغل كويس الحمدلله و عملنا check
+  على ال memory لقينا ان مفيش اى leaks خالص و ان ال peak بتكون 4 جيجا فى الميمورى
+  و كل ما يخلص الشغل بيرجع تانى ل 2 جيجا و يستنى input تانى و هكذا\nال memory check
+  كان باستخدام Valgrind و  كذا tool تانية ..\n\nالمهم عايزين نحوله بقى ل Java عشان
+  يتحول ل web app \n\nفاستخدمنا SWIG عشان يحولنا من ال c++ لل java \nو عملنا compile
+  للى طلع و بقى معانا .so\n\nروحنا ادناه ل بتوع ال java و عملوا load لل .so و ركبوا
+  كل حاجة بس فى مشكلة ان ال memory مع كل input بتزيد , مفيش اى نوع من ان الميمورى
+  بتنزل بعد ما ال Input يخلص خلاص ف مثلا فى اول مرة بيوصل ل 4 جيجا بعدين 6 جيجا و
+  هكذا و مش بيفضى خالص.\n\nف مش عارفين كدة المشكلة فى ال JAVA و لا التحويلة بإستحدام
+  SWIG عملت leaks , و لا ال garbage colleection فى الjava مش عارف ي De-initalize الى
+  جوا ال .so او يعملهم free ?\n\nف اى نصايح , تجارب اى حاجة الله يكرمكم عشان الواحد
+  اتخنق :"
+from:
+  name: Ahmed Ebn Elhaj Ramzy
+  id: '963680540475162'
+type: status
+created_time: '2018-03-15T23:56:31+0000'
+updated_time: '2018-03-16T20:33:49+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1784521458254221/
+shares:
+  count: 1
+id: '172338516139198_1784521458254221'
+reactions:
+  data:
+  - id: '2186710791556561'
+    name: Omar Abdelkader
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTJOVEk1T0RRd056TXlPakUxTWpFeE5UZAzJNVEU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTJOVEk1T0RRd056TXlPakUxTWpFeE5UZAzJNVEU2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2018-03-16T00:07:23+0000'
+    from:
+      name: Ahmed Saleh
+      id: '10159933379005574'
+    message: Use the c++ code using intel profiler, then check to see if it really
+      has leaks, not sure about java tools, so maybe someone can guide you
+    id: '1784584388247928'
+  - created_time: '2018-03-16T00:37:30+0000'
+    from:
+      name: Mohammad Helmy
+      id: '10155848201515605'
+    message: Memory management in C++ is more controlled by. Maybe you need to call
+      the garbage collection in java manually. I recommend just creating a wrapper
+      for the C++ code and call it from Java instead
+    id: '1784605048245862'
+  - created_time: '2018-03-16T02:16:58+0000'
+    from:
+      name: Omar Cherif Fathi
+      id: '2067397180161531'
+    message: |-
+      Probably this is not going to be SWIG related problem. First thing you can do is to try a tiny example with C++ and Java, some basic example to make sure everything works as intended.
+      I don't know how big your project is but you may try to load the shared object without SWIG, just use the standard JNI java native interface like any android project does.
+      I think you can debug that as well, you can add breakpoints and see if actually your structures are being deleted or not and if not add some print messages ... you can get there anyway inshallah
+    id: '1784681078238259'
+  - created_time: '2018-03-16T20:33:47+0000'
+    from:
+      name: Mohamed Amgad
+      id: '10215433203563275'
+    message: you can just run you C++ app and and java web app together. that would
+      make the life easier for every one, and your project will be more moduled. and
+      the communication between them is very easy to be done.
+    id: '1785569788149388'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM0TkRVNE5ETTRPREkwTnpreU9Eb3hOVEl4TVRVNE9EUXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM0TlRVMk9UYzRPREUwT1RNNE9Eb3hOVEl4TWpNeU5ESTQZD

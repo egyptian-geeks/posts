@@ -1,0 +1,600 @@
+---
+message: "سؤال اتسألته من شوية وهو \"إيه الفرق الحقيقي مابين ال junior وال senior
+  developer\" مش المفهوم المصري المتعارف عليه بتاع \"أنت بعد 3-4 سنين تبقي senior\"\n\nالفرق
+  مابين الاتنين بيتلخص في جزئين. جزء ليه علاقة بالتكنولوجي وجزء ليه علاقة بال scope\n\nنبدأ
+  بجزء التكنولوجي أو بشكل اعم, جزء كتابة الكود نفسه. وناخد مثال معظم الناس هتكون عارفاه
+  وهو ال backend engineer\n\nالشخص الجونيور وعلى العكس من المتعارف عليه, ممكن يكون
+  واحد شغال بتكنولوجيا معينه وفاهمها كويس جدا. يعني لو مثلا شغال .net, ممكن جدا يكون
+  فاهم يعني إيه WebAPIs و MVC وإزاي يعمل config لل IIS ووارد جدا يكون عنده فهم عميق
+  للكلام ده كله. يعني مش شرط نهائي المفهوم المصري بتاع \"هو عارف أساسيات\" ده.\n\nطب
+  السنيور يفرق عنه إيه؟! على عكس المتعارف عليه برضه, فرق السنيور الحقيقي مش انه يكون
+  عارف ال best practices بتاعة ال .net ولا يكون اشتغل أكتر ولا شاف مشاكل أكتر. ده
+  كده مجرد واحد جونيور كويس. فرق السنيور الاساسي انه يعرف يعمل سيستم متكامل مش مجرد
+  يبني backend.\n\nيعني ناخد مثال من أرض الواقع ونتكلم على حاجة زي ال eCommerce مثلا.\n\nالمشترك
+  مابين السنيور والجونيور إن الاتنين هيكونوا عارفين إزاي يعملوا ال backend كامل, إزاي
+  يعملوا secure سيستم و payment integration و admin APIs وكل الكلام ده.\n\nالفرق بقي
+  الزيادة عند السنيور انه يكون عارف مثلا يعني إيه funnel, إزاي يعمل ليها analysis,
+  إيه اهميه حاجة زي ال analytics وإزاي يستفيد منها بشكل حقيقي وواقعي مش مجرد انه يكون
+  فاهم يعني إيه google analytics وإزاي يستعمل ال GTM\n\nيكون فاهم التطبيق الحقيقي
+  لحاجة زي ال SEO, إزاي يقلل حاجة زي ال bounce rate, إزاي يعمل A/B testing فعالة,
+  إزاي يعمل continuous integration, إزاي مثلا يعمل analysis لسؤال زي \"ليه ال first
+  byte بطيئة\" ويكون فاهم إزاي مش بس يوصل للسبب, وإنما يكون جاهز انه يحله سواء عن
+  طريق انه يغير ال certificate اللي بتاخد وقت كبير علشان تعمل resolve أو يغير ال DNS
+  أو يعدل ال caching وطريقه شغل ال CDN أو حتي يعمل re-architecture للموضوع كله ويبني
+  distributed system مبدئي.\n\nيكون فاهم إزاي يعمل global system, إزاي يبني UX يكون
+  culture aware ويعني إيه culture aware أصلا. يكون عارف ال security practices اللي
+  مطلوبة في ال domain بتاعه وإزاي مثلا يحمي ضد man in the middle أو session hijacking
+  والاهم من انه يكون عارف ده كله, انه يكون عارف إزاي يعرفه لو مش عارفه وده الجزء التاني
+  بتاع ال scope.\n\nالفرق الرئيسي بقي بره اللي فوق ده مابين ال senior وال junior هو
+  ال scope. يعني الراجل ال junior ده ممكن شغله كله ميخرجش بره ال Visual Studio وال
+  asp.net, يعني بإختصار, شغله بيكون مابين components. وإنما الراجل السنيور بيكون شغله
+  مابين أكتر من نظام, إزاي مثلا يعمل integration مابين micro-services مش معمولة بنفس
+  التكنولوجي ومش موجودة في نفس المكان, هل مجرد إنها تتكلم مثلا json ده كافي ولا تبقي
+  XML وليه ده وليه ده؟!\n\nبيكون نظريا المفروض انه technology agnostic و domain agnostic.
+  يعني الشخص السنيور اللي على حق المفروض يكون زي الوزير بتاع الشطرنج كده. ينفع يتحط
+  في أي domain ويشتغل على إي تكنولوجيا ومايكونش عنده أي مشكلة من أي نوع ويبقي productive
+  في اسرع وقت. وده بنلاقيه كتير في ال seniors اللي بره مصر وخصوصا في الشركات اللي
+  زي أمازون ومايكروسوفت وجوجل. يعني بنلاقي السنيور من دول النهاردة شغال على الاوفيس
+  بسي شارب بيعمل desktop app والشهر اللي بعده بيعمل web service ل payment gateway
+  ب ruby والشهر اللي بعده بيعمل لعبه ب unity ولا unreal. \n\nيعني بشكل مختصر, لو بنتكلم
+  على الشطرنج, الجونيور ده ممكن يكون الطابية أو الفيل أو العسكري (على حسب مهارته)
+  وإنما السنيور ده هو الوزير اللي بيعرف يعمل كل اللي القطع التانية بتعمله وأكتر.\n\nتعديل:
+  فيه ناس كتير تحت فاهمة مصطلحات زي SEO و UX بشكل قاصر حبتين وده بيثبت اللي كنت بتكلم
+  فيه بشكل مباشر!\n\nحاجة زي ال SEO ليها عوامل كتير. منها ما هو تقني زي ال page speed
+  index وشكل ال HTML tags وال URL وال SSL, ومنها ما هو marketing صرف زي مثلا تحديد
+  ال persona وال customers groups وتحديد ال keywords على أساس الكلام ده.\n\nحاجة زي
+  ال UX برضه منها ما هو تقني صرف زي ال AB Testing architecture و ال development بتاع
+  ال heatmaps, الخ, ومنها اللي design صرف زي ال identity, ومنها اللي marketing زي
+  ال closed group surveying وال analysis بتاع ال analytics\n\nالسنيور المفروض يكون
+  عارف وفاهم الجزء التقني بتاع الكلام ده كله. مبدأ انه مايكونش عارف أصلا إيه الكلام
+  ده مش وارد في حد مسمي نفسه سنيور!"
+from:
+  name: Mohamed Moshrif
+  id: '1538447102877297'
+type: status
+created_time: '2018-03-15T23:55:32+0000'
+updated_time: '2018-03-16T21:59:52+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1784572714915762/
+shares:
+  count: 20
+id: '172338516139198_1784572714915762'
+reactions:
+  data:
+  - id: '10159879865770402'
+    name: Ahmed Koraïem
+    type: LIKE
+  - id: '1466247800164499'
+    name: Mosaab Ahmed
+    type: LIKE
+  - id: '10159908658495298'
+    name: Medhat EL-Qadi
+    type: LIKE
+  - id: '10215453976125135'
+    name: Ahmed Bolica
+    type: LIKE
+  - id: '10159955677690471'
+    name: Mohamed Abou ElElla Hamed
+    type: LIKE
+  - id: '1872922309398245'
+    name: Khaled Abdelrahiem Elkholy
+    type: LIKE
+  - id: '1657336531021687'
+    name: Mohamed Sayed
+    type: LIKE
+  - id: '10216014996153587'
+    name: Ahmed Syam
+    type: LIKE
+  - id: '10204492738553942'
+    name: Mustafa Abdelhakam Mahmoud
+    type: LIKE
+  - id: '1151809561622555'
+    name: Ali ElSheikh
+    type: LIKE
+  - id: '1947408088855899'
+    name: ناصر الطامى
+    type: LIKE
+  - id: '10156072243168535'
+    name: Mohamed Hassan
+    type: LIKE
+  - id: '796810043839630'
+    name: Ahmed Mohany
+    type: LIKE
+  - id: '613489298999370'
+    name: AbdAllah Darag
+    type: LIKE
+  - id: '10159893400210537'
+    name: Anas Azmy
+    type: LIKE
+  - id: '1884361341583852'
+    name: Omar Adel
+    type: LIKE
+  - id: '853766894785086'
+    name: Eslam Waheed
+    type: LIKE
+  - id: '10159880265870164'
+    name: Kinan Qassar
+    type: LIKE
+  - id: '1561022257326859'
+    name: احمد قرواش
+    type: LOVE
+  - id: '2006899206231673'
+    name: محمد عبد التواب
+    type: LIKE
+  - id: '845179582333510'
+    name: Ahmed Mosa
+    type: LIKE
+  - id: '10155865386126648'
+    name: Aser Ahmad
+    type: LOVE
+  - id: '1812424998831677'
+    name: Islam Rehan
+    type: LIKE
+  - id: '1522970144425140'
+    name: Ali M. Bastawy
+    type: LIKE
+  - id: '821575244710628'
+    name: Amr Sa'eed
+    type: LIKE
+  - id: '1585067104922792'
+    name: Ahmed M. Ali
+    type: LIKE
+  - id: '120439078795287'
+    name: Mohamed Shater
+    type: LOVE
+  - id: '1597520093661861'
+    name: Mohamed Orabi
+    type: LIKE
+  - id: '293191737870658'
+    name: Ahmed Gamal
+    type: LOVE
+  - id: '10155276579769013'
+    name: Hosny Abdelrahman
+    type: LIKE
+  - id: '1655481871175001'
+    name: Omar Fandoud
+    type: LIKE
+  - id: '1874895892543707'
+    name: محمد المهدى
+    type: LIKE
+  - id: '10213853002051967'
+    name: Afnan Elnomrosy
+    type: LIKE
+  - id: '10211916103124260'
+    name: Mohamed Ali
+    type: LIKE
+  - id: '1008000532681143'
+    name: Omar Ehab
+    type: LIKE
+  - id: '816052901911267'
+    name: Ahmed Elgendy
+    type: LIKE
+  - id: '1317736788371656'
+    name: Robert Nabil
+    type: LIKE
+  - id: '10156249345039548'
+    name: Mohammed Adel
+    type: LIKE
+  - id: '10159896809840176'
+    name: Walid Ashraf
+    type: LIKE
+  - id: '10214533240314715'
+    name: Doaa Ali
+    type: LIKE
+  - id: '1692645467424046'
+    name: Osama Ahmad
+    type: LIKE
+  - id: '10155678609406281'
+    name: Hossam Ahmed Mohammed
+    type: LIKE
+  - id: '1542414765808149'
+    name: Mohammad Deeb
+    type: LIKE
+  - id: '10155432639833282'
+    name: Ahmed Abdo
+    type: LIKE
+  - id: '1893682043975729'
+    name: Mohamed Momtaz
+    type: LIKE
+  - id: '1760916570619509'
+    name: Emil Moheb
+    type: LIKE
+  - id: '1795221373868608'
+    name: Mohamed Shalaby
+    type: LIKE
+  - id: '10155912137478930'
+    name: Farouk Mohamed
+    type: LIKE
+  - id: '1826978233987348'
+    name: Khalid Gamil
+    type: LIKE
+  - id: '846713762199670'
+    name: Mohammad Mostafa
+    type: LIKE
+  - id: '1657509230977456'
+    name: Hosam Aly
+    type: LOVE
+  - id: '10156085462929907'
+    name: Mohamed Talaat Mahlies
+    type: LIKE
+  - id: '10215025242651798'
+    name: Ehab Ahmed
+    type: LIKE
+  - id: '335464610283657'
+    name: Ahmed Soliman
+    type: LIKE
+  - id: '10157044199649992'
+    name: Ahmad
+    type: LIKE
+  - id: '1783626655002528'
+    name: Karim Sherif
+    type: LIKE
+  - id: '1511635158935082'
+    name: Abdelrahman Halawa
+    type: LIKE
+  - id: '778938675639278'
+    name: تغريد أسامة
+    type: LIKE
+  - id: '410659909373071'
+    name: Emms Magdy
+    type: LIKE
+  - id: '1794150517282499'
+    name: Tarek Selem
+    type: LIKE
+  - id: '1057939131026564'
+    name: Mostafa Abd El-salam
+    type: LIKE
+  - id: '1009563892525899'
+    name: Omnya Mohsen
+    type: LIKE
+  - id: '10155926704141777'
+    name: Ahmed Abdelaziz
+    type: LIKE
+  - id: '2089769777911117'
+    name: Ahmed Shaaban Mohamed
+    type: LIKE
+  - id: '1863749423667514'
+    name: Eman Ashour
+    type: LIKE
+  - id: '604198439972411'
+    name: Mèd Amììne
+    type: LIKE
+  - id: '10213275664117662'
+    name: Ashraf Hamdy
+    type: LIKE
+  - id: '1556994951022384'
+    name: Amal Tarek
+    type: LIKE
+  - id: '936984383128098'
+    name: Omar Hafez
+    type: LIKE
+  - id: '1866585840020459'
+    name: Ahmed Abdallah
+    type: LIKE
+  - id: '2030697810535603'
+    name: Wessam S-e
+    type: LIKE
+  - id: '1426153664180879'
+    name: Mustafa Jalal
+    type: LIKE
+  - id: '154520962028889'
+    name: Fady Adel
+    type: LIKE
+  - id: '10155421921532775'
+    name: Amr Adel
+    type: LIKE
+  - id: '938682122947557'
+    name: Ahmed Omar
+    type: LIKE
+  - id: '1335926396553673'
+    name: Mohamed Saeed
+    type: LIKE
+  - id: '10216141097339348'
+    name: Hisham Salah
+    type: LIKE
+  - id: '2042489695784265'
+    name: Ahmed Yahya
+    type: LIKE
+  - id: '927490574073670'
+    name: Mahmoud Abdalazez
+    type: LIKE
+  - id: '10213900195392918'
+    name: Ahmed Salah
+    type: LIKE
+  - id: '179749179463545'
+    name: Omar M. Tmam
+    type: LOVE
+  - id: '1593162530738796'
+    name: Ahmed Samer Zaid
+    type: LIKE
+  - id: '1674905082555008'
+    name: Mohamed Sabry
+    type: LIKE
+  - id: '1711592068898479'
+    name: Ahmed Ali Koriem
+    type: LIKE
+  - id: '1416163505149761'
+    name: Peter E. Roshdy
+    type: LOVE
+  - id: '2007426285938916'
+    name: Abdelrahman M. Moez
+    type: LIKE
+  - id: '1582457088504781'
+    name: Abdel-rahman Maged
+    type: LIKE
+  - id: '1584844768217234'
+    name: Mosaad Ahmed
+    type: LIKE
+  - id: '1926152114064385'
+    name: Mohamed Abd Elnaeem
+    type: LIKE
+  - id: '158547971463325'
+    name: Mohamed Mohamedy
+    type: LIKE
+  - id: '894515030727039'
+    name: Habiba Bakr
+    type: LIKE
+  - id: '1738726572854077'
+    name: Muhammed Mamdouh
+    type: LIKE
+  - id: '1999765416908747'
+    name: Ahmed Khalifa
+    type: LIKE
+  - id: '1811551685586388'
+    name: Ahmed Mudhar
+    type: LIKE
+  - id: '1578288798907509'
+    name: Amr Ghonem
+    type: LIKE
+  - id: '1958578994390366'
+    name: Ahmed Salah
+    type: LIKE
+  - id: '10212844935375607'
+    name: Muhammad Abdullah
+    type: LIKE
+  - id: '10155234661420840'
+    name: Hassan Fahmy Shoaib
+    type: LIKE
+  - id: '1958972070797083'
+    name: Mina William
+    type: LIKE
+  - id: '2022833371324486'
+    name: Abdelrahman Hassan
+    type: LIKE
+  - id: '1692898547465796'
+    name: Ahmed Samir
+    type: LIKE
+  - id: '1171368586331028'
+    name: Ahmed Ali
+    type: LIKE
+  - id: '1802399786471461'
+    name: Karim Fouad
+    type: LIKE
+  - id: '1821238104562697'
+    name: Nour Ahmed
+    type: LIKE
+  paging:
+    cursors:
+      before: T1RBek16STFOREF4T2pFMU1qRXlOREF4TURnNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQXdNamsxTnpVM01qZAzNPakUxTWpFeE5UZA3pOVGc2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2018-03-16T00:02:10+0000'
+    from:
+      name: Nour Ahmed
+      id: '1821238104562697'
+    message: هو ال SEO دة حاجة تبع ال digital marketing اكتر من نحيت ال development
+      هو في حجات ممكن تكون بتأثر زي مشكلة single page app مع موضوع ال serach engine
+      كلوا بس الي اعرفوا انها مش حجات كتير الباقي برة الsystem نفسوا
+    id: '1784578664915167'
+  - created_time: '2018-03-16T00:03:53+0000'
+    from:
+      name: Mohamed Abd El Rahman
+      id: '10156281984177259'
+    message: nop sorry don't agree with you on this point technology agnostic و domain
+      agnostic every tech has it's own style logic and design for example elixir vs
+      ruby for sure the senior will get the tech faster but he will not be fully understanding
+      it. also the SEO is the job of the digital marketing as Nour Ahmed comment
+    id: '1784582201581480'
+  - created_time: '2018-03-16T00:22:24+0000'
+    from:
+      name: احمد قرواش
+      id: '1561022257326859'
+    message: "هو الي حضرتك بتقول عليه ده بيتشابه مع Position تاني خالص\nاتعرفت عليه
+      من اخر meetup ل Facebook Circular \nوهو Production Engineer‎‏ \nوده الشخص حسب
+      تعريف الباشمهندس احمد سليمان\nالشخص الي داس في اكتر من حاجة\nتلاقيه فاهم شوية
+      شبكات علي سيكيورتي\nداس في ال Dev علي شوية ops\nيعني خلطة كده بتخليه ورقة جوكر
+      ومهم في الشركات دا لو عندها القدرة والاستعداد انها ت hire ناس Production Engineer‎‏
+      يعني.\n\nبس ايه علاقة بقي اني ابقي سينيور باني ابقي في role تانية خالص"
+    id: '1784595541580146'
+  - created_time: '2018-03-16T01:06:43+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: "اعتقد انك تقصد بس موضحتش انه مش بيعرف يعمل الكلام ده كله، و لكنه في
+      يوم من الايام ممكن يكون عمله او قراء عنه و عارف ان في حاجه كده في الدنيا؛ انما
+      اكيد مفيش سنيور في الدنيا كل ده و الا الcto بقي. \nموضوع الفنل و جوجل اناليتكس
+      برده ملوش اي علاقه بلدفلوبر؛ لانه بيزنس بحت؛ السيرش اوب زيه.\nالدي ان اس ده
+      برضه مش سنيور دفلوبر ٠٠ خلي بالك التيتل اصلا senior developer ٠٠ راجل بتاع كود
+      يعملك dns system لو حبيت لكن الكونفيج بتاعه مش شغلته تماما و لا ليه علاقه و
+      حتي بلسيرفر اوي لان ده برضه رول تاني ..\n\nالخطير في الكلام ده كله و لو كنت
+      محتار زيك ازا كان الي فات ده فعلان لكن الux .. هنا بقي مستحيل  ده راجل ملوش
+      علاقه بلدف لا من بعيد و لاقريب . ده علم قاءم بحد زاته في نظريات و متشعب جواه
+      علوم فرعيه لو دفلوبر فتح بقه فيها المفروض الس ت و يقوله بس يا بابا مش شغلتنا
+      !! ااباقي موافق معاك ١٠٠% السنيور دف ترميه في اي لنج حيشتغل طبيعي لانه اكيد
+      فاهم الكونسبت هيه كتابين في اسبوع حيكتب و الستركتشر هوه فاهمه.\n\nاخيرا الفري
+      لانس ممكن الكلام ده منطقي لاكن في اي مشروع او كرير باث طبيعي في فريق عمل و تخصص.
+      و في الاخر السنيور دف المفروض انه اخره تيم ليدر. في ده سقفه"
+    id: '1784625721577128'
+  - created_time: '2018-03-16T02:15:39+0000'
+    from:
+      name: Ibrahim Disouki
+      id: '2002513169763241'
+    message: |-
+      من وجهة نظري بإختصار
+      ال junior هو اللي تقوله على المشكلة ويحلها إزاي (إنك تقولة يستخدم أي تكنولوجيا) لكن ال senior هو اللي تقوله على المشكلة وهو اللي يحلها بنفسه ويختار التكنولوجيا بنفسه
+    id: '1784680248238342'
+  - created_time: '2018-03-16T02:16:12+0000'
+    from:
+      name: Shady Mohamed Sherif
+      id: '10156191099748000'
+    message: عاجبني جدا الجدل حولين البوست ده ،، بس سؤالي بقى في رأي حضرتك اللي اعلى
+      من السينيور شغلته ايه ،، لما السينيور هو اللي بيعمل كل ده؟ ومين اعلى من السينيور
+      في التدرج التقنى من وجهة نظرك؟
+    id: '1784680531571647'
+  - created_time: '2018-03-16T03:41:57+0000'
+    from:
+      name: Ahmed Amr Farid
+      id: '10155859538230336'
+    message: "I wonder who will be able to learn all these things in 4 or 5 yrs and
+      become a senior...\n\U0001F644"
+    id: '1784751554897878'
+  - created_time: '2018-03-16T04:43:52+0000'
+    from:
+      name: Ahmed Yahya
+      id: '2042489695784265'
+    message: مفيش اكشن في الفيس أعلى من اللايك بصراحة لأنه لو كان موجود كنت حطيته
+      على حبة الكلام المفيد دا سواء اتفقنا أو اختلفنا على المضمون بس كمية الفايدة
+      من المنشورات اللي زي دي انت مش متخيل ممكن تكون عاملة ازاي بمجرد انها تفتح باب
+      النقاش بس والناس تنقل خبراتها لبعض
+    id: '1784797308226636'
+  - created_time: '2018-03-16T05:35:57+0000'
+    from:
+      name: Amr Khalid
+      id: '10215606039332784'
+    message: "طب و الحصان ؟ \U0001F602"
+    id: '1784836071556093'
+  - created_time: '2018-03-16T07:23:16+0000'
+    from:
+      name: سامح دعبس
+      id: '2022490591345439'
+    message: |-
+      أنا شايف البوست ده يستحق مساحة أكتر للنقاش لأنه فعلا مفيد
+      شكرا يا هندسة على طرح المواضيع المفيدة دي
+      مع إني لسه واصل من سفر وتعبان بس مش عاوز أعدي البوست من غير ما أحط التاتش المصري بتاعي، لأن الموضوع فعلا يستاهل :)
+      أبدأ بسم الله...
+      - أول حاجة حابب أبدإ بيها إن اللي مكتوب وجهة نظر محترمة تمثل خبرة كاتبها، اللي مش بالضرورة تكون متفقة مع وجهة نظر ناس تانية اتعرضوا لخبرات مختلفة
+      - وده يقودنا للنقطة الثانية اللي هي من البديهيات في الشغلانة بتاعتنا، إن مفيش صح مطلق وكل حاجة ليها سياق بتقيم فيه
+      - النقطة رقم 3 إن تعريف أمازون وجوجل ومايكروسوفت للسنيور مش علامة مسجلة لازم كل الشركات تلتزم بيها، لأنهم ببساطة مش كل الشركات اللي في الدنيا، ولإنهم حطوا المعايير دي طبقا لاحتياجاتهم/سياقهم هما اللي مش بالضرورة تتفق مع احتياجات/سياقات كل الشركات التانية على وجه الأرض
+      4- في إنصاف التعريف المصري للسنيور: أنا مش مقتنع إن الكليشة بتاعت 3-4 خبرة يبقى سنيور صح، على افتراض إنها أصلا مطبقة في كل الشركات كده، بس حتى وإن كانت مطبقة كده فأنا متفهم إنها ما جتش من فراغ وأكيد ليها أسباب، ربما يكون من الأسباب دي إن فيه دومينز معينة بتفضل ناس متخصصة في الدومينز دي، زي الbanking وال telecom على سبيل المثال، واللي بيفضل في الدومين ده لمدة 3-4 سنين بيكون هضم أكثر المعلومات اللي محتاجها عشان يبقى سينيور
+      - وده يقودنا للنقطة رقم 5، ال domain agnostic ليست معيارا على الseniority level لأن فيه دومينز بتفضل التخصص زي ما قلت في النقطة اللي فاتت
+      - نيجي بقى للنقطة الأهم، وهي ضرورة عدم التعميم
+      خليني أؤكد على نقطة ذكرها مشرف في البوست على سبيل الأمثلة في دومين معين وهو الecommerce
+      عاوز أؤكد على كلامه إن ده مثال في الدومين ده مش كل الدومينز
+      يعني السنيور اللي شغال جيمز غير السنيور اللي شغال موبايل بس غير السنيور اللي شغال enterprise applications وهكذا
+      ثم هاختلف معاه بقى في التفاصيل وإن كنت هافضل محترم وجهة نظره، لإن أنا واثق إن وراها خبرة غير الخبرة اللي عندي
+      ودي هاكتبها بعدين إن شاء الله عشان فصلت دلوقتي :)
+    id: '1784902351549465'
+  - created_time: '2018-03-16T07:40:18+0000'
+    from:
+      name: Amr Abdelwahab
+      id: '1567739586596515'
+    message: These are the three dimensions that makes a senior dev
+    id: '1784911258215241'
+  - created_time: '2018-03-16T07:43:26+0000'
+    from:
+      name: Amr Abdelwahab
+      id: '1567739586596515'
+    message: https://frontside.io/blog/2016/07/07/the-conjoined-triangles-of-senior-level-development.html
+    id: '1784914418214925'
+  - created_time: '2018-03-16T07:44:31+0000'
+    from:
+      name: Amr Abdelwahab
+      id: '1567739586596515'
+    message: As for SEO, hell no it's definitely not a dev responsibility to take
+      seo decisions
+    id: '1784917558214611'
+  - created_time: '2018-03-16T08:04:28+0000'
+    from:
+      name: Ahmed Hoseiny
+      id: '2049361288423949'
+    message: "Ibrahim Abou-Elftouh\nايه الكلام ده \U0001F602\U0001F602"
+    id: '1784930588213308'
+  - created_time: '2018-03-16T12:37:38+0000'
+    from:
+      name: Omar Ehab
+      id: '1008000532681143'
+    message: Ahmêđ Måğđý
+    id: '1785133164859717'
+  - created_time: '2018-03-16T13:22:18+0000'
+    from:
+      name: Mohamed Ahmed
+      id: '1470551303043336'
+    message: اللي يعرف كل دة هتلاقي typical جدا في حل  اي code challenge و بيتعامل
+      مع الحاجات التقليدية بس او يربط و ي integrate حاجات مع بعضها ك black boxes ..
+      مش هتعرف تبقى professional problem solver داخل الكود نفسه و في البيئة المحيطة
+      بيه كمان بكل اطرافها و لو في ناس بتوصل لكدة فدي اجتهادات شخصية و متنفعش تتعمم
+      او شركة تطلب دة على انه طلب عادي مش طلب خاص من نوعه .. ببساطة شديدة السبب الوقت
+      مش مطلوب من كل بني ادم يلغي كل جوانب حياته عشان يوصل لدة و لأن دي الطريقة الوحيدة
+      اللي ممكن حد يوصل بيها لكدة بسبب الوقت .. عمر ما اللي انت بتقوله دة هيكون standard
+      .. دي ناس بتعشق شغلها اكتر من اي حاجة تانية في حياتها و ممكن تضحي بأي حاجة في
+      سبيله زي كدة هوس بعض العلما و الفنانين
+    id: '1785171674855866'
+  - created_time: '2018-03-16T17:30:14+0000'
+    from:
+      name: Mostafa Bili
+      id: '197921750790469'
+    message: "كلام جميل ومحترم وانا بقراه \nفكرت لو تعمل حاجة علي  gitلواحد مبتدئ
+      ظي حالاتي ازاي يوصل لحاجة كده ويا سلام لو كانت  عربي وان كانت انجليزي معنديش
+      مشكلة \nالمهم نعرف الطريق وازاي نمشي فيه\nوشكرا علي كمية المعلومات اللي عرفتها
+      منك دي ماشاء الله وربنا يزيدك"
+    id: '1785403221499378'
+  - created_time: '2018-03-16T18:21:51+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: يا جماعة بس قبل ما تقولو الـ SEO مش حاجة تابعة لعمل الـ develoeprs اقرأوا
+      وبس وشوفوا Google بتتعامل مع الموضوع ده ازاي . كل الـ practices الجديدة بتركز
+      بشكل أساسي على الـ performance والـ TTMP و TTI و Accessibility practices و AMP
+      وبلاوي ملهاش ادنى علاقة بالبلح بتاع الـ digital marketing. كمان معظم المعلومات
+      اللي عند الناس بتوع الـ digital marketing بقت obsolete وانتهت واتغيرت وبقت anti-patterns.
+      الواحد اتشل من اللي بيشوفه مع الناس اللي بتقدم الخدمات دي
+    id: '1785445331495167'
+  - created_time: '2018-03-16T18:46:18+0000'
+    from:
+      name: سامح دعبس
+      id: '2022490591345439'
+    message: |-
+      عدنا...
+      استكمالا لتعليقي السابق، أنا وقفت عند نقطة التعميم وإنه مش صح
+      حابب أذكر نقطة اتفاق أخرى، وهي الفرق بين السنيور والجنيور هو إن الأول بيعرف يقفل السيستم كامل، بينما الجونيور بيحتاج دايما نوع من التوجيه أو المساعدة، وكل ما الاحتياج ده بيقل، الseniority level بتزيد.
+      خليني أقولها بعبارة أخرى
+      The senior can get the shit done.
+      بس الاعتبار ده بس هايطلع لي نوعين من السنيورز: واحد بيخلص بس كل شغله hacks والتاني بيخلص بس بيعمل الشغل صح
+      وده يقودنا لنقطة الخلاف الآتية: السنيور لازم يكون عارف الbest practices في اللي هو بيعمله، سواء في التكنولوجي اللي بيستخدمها إو في الدومين اللي هو شغال فيه، والمعرفة دي بتيجي من الخبرة الحقيقية، وبالتالي صعب أقول عليه جونيور
+      وبالتالي أنا وجهة نظري متفقة في النقطة دي مع اللي مشرف بيقول إنه متعارف عليه، من إن السنيور اشتغل أكتر وبالتالي شاف مشاكل أكتر، وبالتالي عرف أفضل الممارسات. ده بالنسبة لي سنيور وحبيبي وكفاءة مش مجرد جونيور متقدم زي ما مشرف بيقول.
+      مش عاوز أسيب النقطة دي من غير ما أؤكد على إن كلامي وجهة نظر شخصية كونتها من خبرات شخصية اتعرضت ليها، وفي خلال الخبرة دي ما شفتش ولا سمعت عن اللي مشرف بيقوله في النقطة دي، وده يقودنا للنقطة التالية:
+      - مش معنى إني ما شفتش يبقى مفيش، ونفس الكلام ينطبق على كلام مشرف، هافترض جدلا إنه ما شافش غير اللي قاله ده فده لا يعني إنه مفيش غيره
+      - بعد النقطة دي، في أحد التعليقات مهندس مشرف إنه في أمريكا وأوروبا المتوسط بيكون 8-10 سنين عشان الواحد يبقى جونيور، وأرجو إن ده يكون مدعم بإحصاءات مش انطباع جاء من خبرة شخصية لا تقتضي وجود خبرة مخالفة لها.
+      يتبع - إن شاء الله-
+    id: '1785469321492768'
+  - created_time: '2018-03-16T19:38:35+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: "الشاهد و الي خالاني انضم للنقاش ده هوه رساله للمبرمجين الشباب.\nخليك
+      واثق في نفسك. و عارف انك في نقطه بس بكره ممكن تقرا تويته مش حقول كتاب. تنقلق
+      لنقطه تانيه اعلي كتير لمجرد انها فتحت عنيك علي حاجه جديده.\nDefinitions and
+      categories zay senior and jr are company dependnt. \nالسنيور و الجنيور ده مسمي
+      و ظيفي. ممكن في شركه تحتاج الي مكتوب فوق ده. و في شركه تانيه سنيور بربع الكلام
+      ده. في الحالتين انت بره مكان الشعل دفلوبر و نقطه. مفيش ستيروتيب ! اوعي تعرف
+      نفسك انا فلان جنيور جافا مثلا :D ده هبل. \nاخيرا اوعي تخافو انك تنتقض شركه او
+      جامعه كبيره او انك تختلف معاها. كل شركه بتحط الي يتناسبها و يكسبها فلوس و شهره.
+      و انت لازم تبقي فاهم كده.\nفي بعض الحالات ممكن شركه تنزل اعلان مثلا عايزه دفلوبر
+      راءد فضاء. و هيه لاعايزه كده و لا نيله و ده مجرد اعلام الهدف الحقيقي منه ماركتينج
+      بحت. انا حضرت بعض الivy league بينزلو منتجات بلكامل و يعملو ماتمرات و بلبه عليه
+      لمجرد اهداف سياسيه او عشان البرصه.. فا متصدقش اي حاجه تقرتها او اي تريند تشوفه.
+      و خليك تقيل زي مابيقولوا و لو مش منطقي يبقي متستبعدش فكرت انها تبقي بلونه اعلانيه"
+    id: '1785515971488103'
+  - created_time: '2018-03-16T20:15:25+0000'
+    from:
+      name: Hossam EL Sharkawy
+      id: '1516489515124702'
+    message: "يعني بنلاقي السنيور من دول النهاردة شغال على الاوفيس بسي شارب بيعمل
+      desktop app والشهر اللي بعده بيعمل web service ل payment gateway ب ruby والشهر
+      اللي بعده بيعمل لعبه ب unity ولا unreal.\n\nMuhammad Abdullah بيوصف بشمهندس
+      محمد صلاح \n(الوزير بتاعنا)"
+    id: '1785550394817994'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM0TkRVM09EWTJORGt4TlRFMk56b3hOVEl4TVRVNE5UTXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM0TlRVMU1ETTVORGd4TnprNU5Eb3hOVEl4TWpNeE16STEZD

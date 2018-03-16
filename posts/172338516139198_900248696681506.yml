@@ -150,6 +150,14 @@ comments:
       Ref:
       https://forum.pfsense.org/index.php?topic=89370
     id: '900565266649849'
+  - created_time: '2015-02-25T06:01:15+0000'
+    from:
+      name: Ayman
+      id: '1759633657666331'
+    message: |-
+      Router performs IP natting which should hide your internal network from your ISP if they don't have access to your router, however more information can be obtained by analyzing network layer 7 information (user agent header ...).
+      You can use a proxy that rewrites all http user agent headers or better go with either TOR box or a VPN service, but it may affect your connection speed (specially TOR box)
+    id: '900618423311200'
   - created_time: '2015-02-25T14:35:59+0000'
     from:
       name: Hosam Aly
