@@ -19,6 +19,9 @@ reactions:
   - id: '2068715019823753'
     name: Mohammed Khalaf
     type: LIKE
+  - id: '10155173051963199'
+    name: Pola Ashraf
+    type: LIKE
   - id: '1550774681686883'
     name: Eslam Esmaeal
     type: LIKE
@@ -91,6 +94,12 @@ comments:
       was a huge disappointment ... It will barely get you beyond Hello Wolrd! ...
       Also a lot changed since this book came out
     id: '891280207578355'
+  - created_time: '2015-02-06T03:20:13+0000'
+    from:
+      name: Pola Ashraf
+      id: '10155173051963199'
+    message: F
+    id: '891290550910654'
   - created_time: '2015-02-06T03:57:50+0000'
     from:
       name: Meligy
@@ -103,6 +112,14 @@ comments:
       id: '10160105091405314'
     message: The angular courses on pluralsight are good too
     id: '891317200907989'
+  - created_time: '2015-02-06T05:33:09+0000'
+    from:
+      name: Pola Ashraf
+      id: '10155173051963199'
+    message: |-
+      I used to the old follow link, and didn't notice its new location.
+      Thanks for the tip
+    id: '891324244240618'
   - created_time: '2015-02-06T06:37:09+0000'
     from:
       name: Hosam Aly

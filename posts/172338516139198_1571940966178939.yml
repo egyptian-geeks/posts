@@ -19,6 +19,9 @@ reactions:
   - id: '1804402029570329'
     name: Eslam Gohar
     type: LIKE
+  - id: '10155173051963199'
+    name: Pola Ashraf
+    type: LIKE
   - id: '10155452436628160'
     name: Osama S. Mokhtar
     type: LIKE
@@ -31,21 +34,15 @@ reactions:
   - id: '10212733758873638'
     name: Khaled Hashish
     type: LIKE
+  - id: '1709278585800086'
+    name: Mohamed Khatab
+    type: LIKE
   paging:
     cursors:
       before: TVRBd01EQXdNREUyTkRjM05USTJPakUxTURJeU9UZAzNOREE2TWpVME1EazJNVFl4TXc9PQZDZD
-      after: TVRBM05qazBPRFV4T0RveE5UQXlNVGd5T0RRMU9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBd01EQXhOVE00T0RJME5EY3hPakUxTURJeE56RTJPVFk2TWpVME1EazJNVFl4TXc9PQZDZD
 comments:
   data:
-  - created_time: '2017-08-08T04:02:29+0000'
-    from:
-      name: Hossam L Dokkani
-      id: '928444520664078'
-    message: "كفاية جدا es5 عشان تتعلم اى framework \nالبرمجة مفيش حاجة فيها اسمها
-      اخلص topic مفيش topic حتقدر تخلصة لانهم بحور واسعه\nفى انك تتعلم اثناء ما انت
-      شغال يعنى وانت بتتعلم framework تبدأ تعرف عن es6 وهكذا مش حتلاقى الموضوع مستحيل
-      زى ما انت متصورة \nاللى حصل فى es6 اكثرة syntax sugar وبعض المفاهيم الجديدة"
-    id: '1571954289510940'
   - created_time: '2017-08-08T05:55:10+0000'
     from:
       name: Mohamed Shaaban
@@ -84,5 +81,5 @@ comments:
     id: '1572220606150975'
   paging:
     cursors:
-      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUzTVRrMU5ESTRPVFV4TURrME1Eb3hOVEF5TVRZAME9UUTUZD
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUzTWpBMU56a3dOakUyTnpJME5Ub3hOVEF5TVRjeE56RXcZD
       after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUzTWpJeU1EWXdOakUxTURrM05Ub3hOVEF5TVRnNU1USXkZD

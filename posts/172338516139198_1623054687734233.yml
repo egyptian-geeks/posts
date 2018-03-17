@@ -132,9 +132,6 @@ reactions:
   - id: '1547297148718242'
     name: Sherif Abdel-Naby
     type: LIKE
-  - id: '10155586683174822'
-    name: Moataz Farid
-    type: LIKE
   - id: '10154904189965670'
     name: Ahmad Alfy
     type: WOW
@@ -316,6 +313,12 @@ comments:
       وممكن كمان تربط عدد ال clicks بال action اللي بيتاخد بعد ال click \nال article
       ده بيوضح ازاي تعمل click fraud system بالطريقة ده\nhttp://www.wordstream.com/blog/ws/2015/08/17/click-fraud"
     id: '1623225197717182'
+  - created_time: '2017-10-03T15:31:21+0000'
+    from:
+      name: Pola Ashraf
+      id: '10155173051963199'
+    message: What about mouse movement tracking?
+    id: '1623238597715842'
   - created_time: '2017-10-03T17:40:07+0000'
     from:
       name: Ahmed T. Yossef
