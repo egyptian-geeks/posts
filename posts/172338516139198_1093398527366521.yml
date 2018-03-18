@@ -23,17 +23,6 @@ comments:
       But you may try a jquery binding on page load.
       Or is there any special reason behind your approach?
     id: '1093433704029670'
-  - created_time: '2016-03-08T08:01:49+0000'
-    from:
-      name: Ahmed El Gabri
-      id: '10159938698425582'
-    message: "To make it work you need to replace the <script> tag with a <span on<event>=\"foo();\">
-      foo</span>. \n\nThat being said, inline scripts & putting everything in the
-      global scope like this, is very bad & will cause lots of issue performance wise
-      and maintainability wise. \n\nYou should have this function called by an external
-      script. \n\nLike this. <span class=\"js-foo\"> foo</span> & then in your JS
-      file you should attach the event on the element with class \"js-foo\"."
-    id: '1093450000694707'
   - created_time: '2016-03-08T09:20:36+0000'
     from:
       name: Hosam Aly
@@ -58,7 +47,7 @@ attachments:
         src: https://external.xx.fbcdn.net/safe_image.php?d=AQB5vW2ybah25rk5&w=720&h=720&url=http%3A%2F%2Fcdn.sstatic.net%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded%26a&cfs=1&_nc_hash=AQDX5paqA33iQdyD
         width: 316
     target:
-      url: http://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F35859239%2Fcalling-js-function-from-erb-file&h=ATPE0uuc7-Bm7Wf0ArqbP7QXmR--IGDWY8rZrXGlB5KmtQLED6CQqXZ3lSvPI46M0inGcRt0tz7ZzOvBomgefao6u54RKA-8vVTqqHLNJx-1IXANSYC2&s=1
+      url: http://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F35859239%2Fcalling-js-function-from-erb-file&h=ATP5QWYwtlyY9_SR-xux3_peWg3f2cUlQrTGmLlOzY2llqn6M_oCdm6g7HA2V2kJoYEYYCRRQupWGwy-8sMx0XbyDmHD4X3m0po_5UOFIYF5SaEctwgB&s=1
     title: Calling js function from erb file
     type: share
-    url: http://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F35859239%2Fcalling-js-function-from-erb-file&h=ATPE0uuc7-Bm7Wf0ArqbP7QXmR--IGDWY8rZrXGlB5KmtQLED6CQqXZ3lSvPI46M0inGcRt0tz7ZzOvBomgefao6u54RKA-8vVTqqHLNJx-1IXANSYC2&s=1
+    url: http://l.facebook.com/l.php?u=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F35859239%2Fcalling-js-function-from-erb-file&h=ATP5QWYwtlyY9_SR-xux3_peWg3f2cUlQrTGmLlOzY2llqn6M_oCdm6g7HA2V2kJoYEYYCRRQupWGwy-8sMx0XbyDmHD4X3m0po_5UOFIYF5SaEctwgB&s=1

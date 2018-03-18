@@ -31,22 +31,6 @@ reactions:
       after: TVRBd01EQTFNRE0wTWpRME5UQTBPakUwTlRZAeU1qSXhOekk2TWpVME1EazJNVFl4TXc9PQZDZD
 comments:
   data:
-  - created_time: '2016-02-23T08:54:28+0000'
-    from:
-      name: Ahmed El Gabri
-      id: '10159938698425582'
-    message: "Components are the future of the web. It gives us a way to package small
-      functionalities in isolation. Which is easier to maintain, reason about and
-      test. \n\nSo moving forward you need to think in components. \n\nRight now we
-      already have technologies/frameworks:\n- Web components\n- Polymer\n- Angular
-      2 components \n- React (it's all about components) \n- I think Ember too has
-      components. \n- vue.js\n- and more...\n\nSo you can see the trend already, Node
-      & ES2015 encourage modularization too by using CommonJS or ES2015 modules. Even
-      CSS has modules now (not native) called CSS Modules. \n\nI'm don't have experience
-      with TypeScript myself but I think this might be your problem not the components
-      itself, because as far as I know in TS you need to write interfaces first and
-      stuff like this which of course adds time."
-    id: '1085098974863143'
   - created_time: '2016-02-23T10:20:29+0000'
     from:
       name: Hassan Aly Selim
@@ -57,5 +41,5 @@ comments:
     id: '1085153784857662'
   paging:
     cursors:
-      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE0TlRBNU9EazNORGcyTXpFME16b3hORFUyTWpFM05qWTQZD
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE0TlRFMU16YzRORGcxTnpZAMk1qb3hORFUyTWpJeU9ESTUZD
       after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE0TlRFMU16YzRORGcxTnpZAMk1qb3hORFUyTWpJeU9ESTUZD

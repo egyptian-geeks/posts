@@ -69,21 +69,6 @@ comments:
     message: Use ESLint and integrate it with your editor/ide and your task runner
       /pipeline
     id: '1339074646132240'
-  - created_time: '2016-12-27T21:45:00+0000'
-    from:
-      name: Ahmed El Gabri
-      id: '10159938698425582'
-    message: "First, semi-colons are optional in JS. So that's not a syntax error.
-      \n\nIt just became a good a very well & established best practice to use them
-      because of how the runtime will add semi colons for you (Google JavaScript automatic
-      semi colon insertion or ASI) which can lead to subtle errors if you don't know
-      how it works. \n\nTo catch these kind of errors use ESLint in your editor of
-      choice. \n\nESLint can work as you want, so if you want to keep writing with
-      semi-colons then it can catch if you miss any & also if you want to write without
-      semi-colons it can tell you when this might break. \n\n\nFor example this is
-      an opinionated ESLint config that works without semi-colons. \n\nhttp://standardjs.com\n\nAnd
-      this another one that works with semi-colons\n\nhttps://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb"
-    id: '1339096279463410'
   - created_time: '2016-12-27T22:14:00+0000'
     from:
       name: Hosam G. Zewain

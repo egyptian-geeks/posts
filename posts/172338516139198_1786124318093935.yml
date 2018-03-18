@@ -1,0 +1,42 @@
+---
+message: "عاوز اعرف لو عندنا مثلا جدول موظفين كبير وقسمته علي اتنين وبقت العلاقة 1-1
+  \nهو طبعا هيبقى أبطأ من الجدول الواحد في ال query علشان الjoins بس في ال insert
+  مين هيبقى أسرع وليه\nانا بصراحة دورت عن how dB engine mapping files \nبس برده ملقتش
+  حاجة \U0001F615"
+from:
+  name: Abdelrhman Elsaid
+  id: '1189827847786642'
+type: status
+created_time: '2018-03-18T07:28:41+0000'
+updated_time: '2018-03-18T16:54:30+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1786124318093935/
+id: '172338516139198_1786124318093935'
+reactions:
+  data:
+  - id: '1189827847786642'
+    name: Abdelrhman Elsaid
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlOemd6TVRNME16WXdPakUxTWpFek5qVXdOelk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlOemd6TVRNME16WXdPakUxTWpFek5qVXdOelk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2018-03-18T09:34:13+0000'
+    from:
+      name: Muhammad Khaled
+      id: '1665308196861540'
+    message: |-
+      Why not try partitioning instead?
+      "Table partitioning is a way to divide a large table into smaller, more manageable parts without having to create separate tables for each part. Data in a partitioned table is physically stored in groups of rows called partitions and each partition can be accessed and maintained separately."
+    id: '1787291497977217'
+  - created_time: '2018-03-18T16:28:18+0000'
+    from:
+      name: Ahmed Amr Farid
+      id: '10155859538230336'
+    message: It is very rare when you want to do that...
+    id: '1787638477942519'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM0TnpJNU1UUTVOemszTnpJeE56b3hOVEl4TXpZAMU5qVTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM0TnpZAek9EUTNOemswTWpVeE9Ub3hOVEl4TXprd05EazQZD

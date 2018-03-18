@@ -356,9 +356,6 @@ reactions:
   - id: '1555752981144826'
     name: Essam A. Hassan
     type: LIKE
-  - id: '2446645385560708'
-    name: Abdulla Aldandarawy
-    type: LIKE
   - id: '10208596993002679'
     name: Mostafa Alaa
     type: LIKE
@@ -573,12 +570,6 @@ comments:
       id: '1607277172683574'
     message: أنا لما بستخدم editor غير vim بنزل vim plugin علشان يبقى زي vim :D
     id: '1588542254518810'
-  - created_time: '2017-08-24T12:41:20+0000'
-    from:
-      name: Yahia Kandeel
-      id: '10155251842491439'
-    message: والله البتاع ده سهل جدا :D .. بس عاوز اللى يفهمه
-    id: '1588609017845467'
   - created_time: '2017-08-24T15:31:50+0000'
     from:
       name: Fady Morris Milad
@@ -601,7 +592,7 @@ attachments:
     media:
       image:
         height: 720
-        src: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/20953582_10210298620126244_1654449021907699423_n.jpg?_nc_cat=0&oh=b5b4e6e39fc51bbb744c6df218fb9cd4&oe=5B2EAA21
+        src: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/20953582_10210298620126244_1654449021907699423_n.jpg?oh=b5b4e6e39fc51bbb744c6df218fb9cd4&oe=5B2EAA21
         width: 553
     target:
       id: '10210298620126244'

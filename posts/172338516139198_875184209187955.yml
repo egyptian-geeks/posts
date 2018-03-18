@@ -259,45 +259,6 @@ comments:
       something similar like GoLang because it doesn''t consume a lot of resources
       on the servers: http://highscalability.com/blog/2014/12/31/linus-the-whole-parallel-computing-is-the-future-is-a-bunch.html'
     id: '875709459135430'
-  - created_time: '2015-01-06T09:01:51+0000'
-    from:
-      name: Ahmed El Gabri
-      id: '10159938698425582'
-    message: "Mohamed Samy According to your comments, you don't like JS for:\n\n1-
-      The Syntax.\n2- Poor autocompletion.\n3- Debugging.\n4- \"JS on the other hands
-      just does access to HTML elements\".\n\nFor me these more like a personal preference/bad
-      experience rather than the language itself.\n\n1- The syntax: You can use CoffeeScript
-      which is white space sensitive, but I won't recommend this cause CoffeeScript
-      hides some implementation details through it syntactic sugar syntax. I like
-      it but I think ES6 is close enough for me to use than CoffeeScript. There is
-      also LiveScript & TypeScript (but personally I think they look awful syntax
-      wise). \n\nI work in a Python company (I'm not a Python dev), to be honest Python
-      syntax is nice but the lack of closing bracket, or \"end\" like in Ruby makes
-      me get lost sometimes and reminds me of callback hell/xmas tree http://res.cloudinary.com/joshwright/image/upload/q59qyti9rzkqvfjbb1dx.png
-      in JS :D cause everything is going to right with no \"visual\" end)\n\n2- It
-      depends on which editor/IDE you use, If you are an editor guy you will need
-      to install some plugins for Sublime or Vim or <your text editor here> to get
-      a decent autocompletion (might not be perfect, but it's good enough) or you
-      might want to create your own snippets library for the pieces of code you use
-      a lot. Or a combination of both. For IDEs (I hate IDEs, thats my personal preference)
-      but I heard a lot of good things about https://www.jetbrains.com/webstorm/ and
-      its JavaScript capabilities.\n\n3- Debugging, mmmm... honestly I find debugging
-      JS is not that hard, the amount of tool that we have right know is amazing.
-      And also to prevent some issues you should use a linter (jshint or eslint) it's
-      like PEP8 but for JavaScript so you can prevent syntax errors/bugs and only
-      focus on real bugs, not a ASI bug or something. and console.log/dir() are your
-      friends :D + the devtools (they are very powerful). on the node side there are
-      other tools to use too to debug.\n\n4- This statement is wrong, the DOM is not
-      JavaScript. The DOM is the browser API. Also, you have Node now which is backend,
-      also used for apps using node-webkit Slack, HipChat, Atom editor etc... are
-      build using node-webkit.\n\nMy personal advice, is if you don't enjoy JS don't
-      write JS. Focus your energy on what you like Python, JS is gaining popularity
-      yes but Python, Ruby, Java, whatever is not going to vanish (example PHP :D)
-      maybe learn something else other than JS (Scala, Haskel, Go, something else).
-      Also, please don't write JS cause you have too cause most probably you will
-      write code that you don't care about but the poor Front-end guys like us will
-      inherit this code and will lose our hair trying to fix it :D"
-    id: '875738242465885'
   - created_time: '2015-01-06T10:21:40+0000'
     from:
       name: Yosef Amar
@@ -313,12 +274,6 @@ comments:
     message: slack is chrome extension not node-webkit, and Atom.io is built using
       Atomshell
     id: '875758592463850'
-  - created_time: '2015-01-06T10:52:18+0000'
-    from:
-      name: Ahmed El Gabri
-      id: '10159938698425582'
-    message: Ammar Osama You are right about Atom. But Slack uses node-webkit https://twitter.com/matthewdeaners/status/461277384461672449
-    id: '875766515796391'
   - created_time: '2015-01-06T11:14:20+0000'
     from:
       name: Mohamed Alaa El Din

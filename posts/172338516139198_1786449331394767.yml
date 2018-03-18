@@ -10,11 +10,19 @@ from:
   id: '10155586124501339'
 type: status
 created_time: '2018-03-17T15:46:43+0000'
-updated_time: '2018-03-17T21:47:03+0000'
+updated_time: '2018-03-18T21:20:07+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1786449331394767/
+shares:
+  count: 1
 id: '172338516139198_1786449331394767'
 reactions:
   data:
+  - id: '973975629418141'
+    name: Mhmd Elabsawy
+    type: LIKE
+  - id: '1557647157637759'
+    name: Ayman Shaa'ban
+    type: LIKE
   - id: '10212938042620481'
     name: Mo Gabrail
     type: LIKE
@@ -35,7 +43,7 @@ reactions:
     type: LIKE
   paging:
     cursors:
-      before: TVRBM016STJORE01TVRveE5USXhNekl4TkRVM09qSTFOREE1TmpFMk1UTT0ZD
+      before: TVRBd01EQTBNVGN4TXpnMU56VXlPakUxTWpFek56azVPVFU2TWpVME1EazJNVFl4TXc9PQZDZD
       after: TVRBd01EQXpOall5T1RjMU1qRXhPakUxTWpFek1ERTJOVGM2TWpVME1EazJNVFl4TXc9PQZDZD
 comments:
   data:
@@ -130,13 +138,24 @@ comments:
     message: ايا كان عندك عدد الداتا عشان تجيب ال id لو هو main index هيبقي الحوار
       معاك سريع
     id: '1786596271380073'
-  - created_time: '2018-03-17T19:06:30+0000'
+  - created_time: '2018-03-17T23:00:06+0000'
     from:
-      name: Shady Mohamed
-      id: '2160088437562198'
-    message: Fuzzy search
-    id: '1786642894708744'
+      name: Mohamed R. Almasry
+      id: '1610358195710784'
+    message: 'Real-time database is one of two things : firebase from Google .. or
+      rethinkDb .. any other shit will fail you .. mongodb .. any other nosql db is
+      not good enough for the job. You also need to use websockets for this purpose
+      and not depend on typical HTTP requests. If you can use HTTP2 that will be a
+      performance breakthrough .. but you''ll need to deal with more issues that you
+      might not be ready for at the moment.'
+    id: '1786821381357562'
+  - created_time: '2018-03-18T21:20:04+0000'
+    from:
+      name: Diyaa Mahmoud
+      id: '1559170364118742'
+    message: أفضل حل  تستخدم in memory key value store حاجه زي aerospike
+    id: '1787893741250326'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM0TmpRMk5EQTFNVE01TXpJNU5Ub3hOVEl4TXpBeU1qVXgZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM0TmpZAME1qZAzVORGN3T0RjME5Eb3hOVEl4TXpFek5Ua3cZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM0TnpnNU16YzBNVEkxTURNeU5qb3hOVEl4TkRBNE1EQTAZD
