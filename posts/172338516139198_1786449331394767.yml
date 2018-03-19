@@ -10,13 +10,19 @@ from:
   id: '10155586124501339'
 type: status
 created_time: '2018-03-17T15:46:43+0000'
-updated_time: '2018-03-18T21:20:07+0000'
+updated_time: '2018-03-19T09:14:28+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1786449331394767/
 shares:
-  count: 1
+  count: 2
 id: '172338516139198_1786449331394767'
 reactions:
   data:
+  - id: '1816270775058053'
+    name: Nehad Hajjaj
+    type: LIKE
+  - id: '10156077256184116'
+    name: Mustafa Gamal
+    type: LIKE
   - id: '973975629418141'
     name: Mhmd Elabsawy
     type: LIKE
@@ -43,7 +49,7 @@ reactions:
     type: LIKE
   paging:
     cursors:
-      before: TVRBd01EQTBNVGN4TXpnMU56VXlPakUxTWpFek56azVPVFU2TWpVME1EazJNVFl4TXc9PQZDZD
+      before: TVRBd01EQXdNalUwTkRNd01ESXhPakUxTWpFME5EQXdNRGc2TWpVME1EazJNVFl4TXc9PQZDZD
       after: TVRBd01EQXpOall5T1RjMU1qRXhPakUxTWpFek1ERTJOVGM2TWpVME1EazJNVFl4TXc9PQZDZD
 comments:
   data:
@@ -155,7 +161,19 @@ comments:
       id: '1559170364118742'
     message: أفضل حل  تستخدم in memory key value store حاجه زي aerospike
     id: '1787893741250326'
+  - created_time: '2018-03-19T00:09:22+0000'
+    from:
+      name: Mustafa Dagher
+      id: '10215560476549083'
+    message: |-
+      هو انا مش فاهم المشكلة فين الصراحة و مش فاهم الناس بتقترح عليك caching techniques على أساس أيه؟
+      انت بتقول انك معاك unique key بالفعل داخل بيه ال query
+      ماهو ال unique key ده هو ال partitioning/hashing key بتاعك فبالفعل ال retrieval بتاع ال entry دي هيبقى أسرع ما يمكن، انت عايز تعمل أيه أكتر من كدة؟
+      مش فاهم الناس بردو اللي بتقولك استخدم in memory db بتقترح الحل ده لأنهي مشكلة، و بعدين بأي منطق هيحط 100 Million Record في الميموري؟
+
+      أنا فعلا مش وصلالي المشكلة، يا ريت لو تحاول توضح انت عايز تعمل أيه بالظبط و مشكلتك فين بالظبط؟
+    id: '1788025381237162'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM0TmpRMk5EQTFNVE01TXpJNU5Ub3hOVEl4TXpBeU1qVXgZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM0TnpnNU16YzBNVEkxTURNeU5qb3hOVEl4TkRBNE1EQTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM0T0RBeU5UTTRNVEl6TnpFMk1qb3hOVEl4TkRFNE1UWXoZD

@@ -31,9 +31,6 @@ reactions:
   - id: '10156149153227996'
     name: Hebatalla Amin
     type: LIKE
-  - id: '891512461008307'
-    name: Ziad Khaled
-    type: LIKE
   - id: '1791452377571672'
     name: Mohammed Alaa El Komy
     type: LIKE
@@ -126,7 +123,7 @@ attachments:
       - media:
           image:
             height: 720
-            src: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/18622325_332727583812589_6603633296823520167_n.jpg?_nc_cat=0&oh=bc4746fcf8e550cb39a1dc8f739696ce&oe=5B3869BC
+            src: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/18622325_332727583812589_6603633296823520167_n.jpg?oh=bc4746fcf8e550cb39a1dc8f739696ce&oe=5B3869BC
             width: 540
         target:
           id: '332727583812589'

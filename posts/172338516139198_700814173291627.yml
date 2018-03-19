@@ -11,7 +11,7 @@ from:
   name: Emad Elsaid
   id: '627907956'
 type: photo
-picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/1901257_10151939632737957_709672779_n.jpg?oh=9245e50d85b577f4f82b427632b9453c&oe=5B43899F
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/1901257_10151939632737957_709672779_n.jpg?_nc_cat=0&oh=9245e50d85b577f4f82b427632b9453c&oe=5B43899F
 created_time: '2014-02-13T23:46:06+0000'
 updated_time: '2014-02-17T05:48:29+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/700814173291627/
@@ -20,6 +20,9 @@ reactions:
   data:
   - id: '10213461163996393'
     name: Ahmed Samir
+    type: LIKE
+  - id: '1737530389674031'
+    name: Mahmoud Mu
     type: LIKE
   - id: '1801290743248815'
     name: Mohamed Yehia
@@ -204,6 +207,12 @@ comments:
       array \nhttp://devdocs.io/ruby/array\nمفيدين جدآ بس الواحد بيقراهم و ينسى، لو
       افتكرهم وانا بحل هايوفر عليا جامد.\nالstandard library بتاعت روبى rich جدآ"
     id: '701626466543731'
+  - created_time: '2014-02-15T15:40:21+0000'
+    from:
+      name: Mahmoud Mu
+      id: '1737530389674031'
+    message: https://gist.github.com/musoftware/9020972
+    id: '701712026535175'
   - created_time: '2014-02-15T15:45:46+0000'
     from:
       name: Emad Elsaid
@@ -212,6 +221,12 @@ comments:
       ، فى سطر ١٤ ممكن تخليه بدل y >= 100 يبقى y >= x  \nهو اخد وقت قد إيه ؟ المفروض
       يكون اقل بكتير من اللغات التانية."
     id: '701715733201471'
+  - created_time: '2014-02-15T16:48:09+0000'
+    from:
+      name: Mahmoud Mu
+      id: '1737530389674031'
+    message: الله يخربيت لغة روبي , في حل يتعمل في سطر , تيجي ازاي يعني
+    id: '701748096531568'
   - created_time: '2014-02-15T16:50:11+0000'
     from:
       name: Emad Elsaid
@@ -480,6 +495,12 @@ comments:
 
       Learning Python helped me become a better C# programmer, specially with introduction of LINQ & related features. It helped me also write concise programs in almost any language.
     id: '701815936524784'
+  - created_time: '2014-02-15T21:14:03+0000'
+    from:
+      name: Mahmoud Mu
+      id: '1737530389674031'
+    message: https://gist.github.com/musoftware/9025316
+    id: '701838169855894'
   - created_time: '2014-02-16T21:46:18+0000'
     from:
       name: Emad Shaaban
@@ -538,6 +559,12 @@ comments:
       id: '1483867968332898'
     message: مسيرها هتتحل .. ربنا يعينك
     id: '702425013130543'
+  - created_time: '2014-02-16T23:44:17+0000'
+    from:
+      name: Mahmoud Mu
+      id: '1737530389674031'
+    message: هي اي مسالة 70 دي يا عماد
+    id: '702426953130349'
   - created_time: '2014-02-16T23:44:52+0000'
     from:
       name: Emad Elsaid
@@ -594,7 +621,7 @@ attachments:
     media:
       image:
         height: 540
-        src: https://scontent.xx.fbcdn.net/v/t1.0-0/p180x540/1901257_10151939632737957_709672779_n.jpg?oh=551bc3712863da94ea9e5246404a7efd&oe=5B4DD1D5
+        src: https://scontent.xx.fbcdn.net/v/t1.0-0/p180x540/1901257_10151939632737957_709672779_n.jpg?_nc_cat=0&oh=551bc3712863da94ea9e5246404a7efd&oe=5B4DD1D5
         width: 720
     target:
       id: '10151939632737957'
