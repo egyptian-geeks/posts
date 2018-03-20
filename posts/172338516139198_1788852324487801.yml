@@ -8,7 +8,7 @@ from:
   id: '10208458277573808'
 type: status
 created_time: '2018-03-19T20:31:19+0000'
-updated_time: '2018-03-19T21:14:34+0000'
+updated_time: '2018-03-20T06:03:54+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1788852324487801/
 id: '172338516139198_1788852324487801'
 comments:
@@ -20,7 +20,24 @@ comments:
     message: I'm not an expert but I think this may be like taking Damage, check Unity3D
       damage tutorial
     id: '1789015937804773'
+  - created_time: '2018-03-19T23:35:20+0000'
+    from:
+      name: Tony Raoul Iscaros
+      id: '10156165643313420'
+    message: |-
+      You can write a shader or deform the mesh using code(not recommend) , it should be pretty straight forward if you have a mathematical model (if you are doing a simulation).
+
+      Try reading about geometry and fragment shaders.
+
+      Can you please elaborate ?
+    id: '1789125767793790'
+  - created_time: '2018-03-20T06:03:50+0000'
+    from:
+      name: Youssef Saqr
+      id: '10156008933453428'
+    message: Badr M unity developer
+    id: '1789391964433837'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM0T1RBeE5Ua3pOemd3TkRjM016b3hOVEl4TkRrME1EY3gZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM0T1RBeE5Ua3pOemd3TkRjM016b3hOVEl4TkRrME1EY3gZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM0T1RNNU1UazJORFF6TXpnek56b3hOVEl4TlRJMU9ETXgZD

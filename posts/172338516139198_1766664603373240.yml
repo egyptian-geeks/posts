@@ -320,6 +320,9 @@ reactions:
   - id: '1903520773022480'
     name: MohaMed Omran
     type: LIKE
+  - id: '1978009525783037'
+    name: Ahmed Magdy
+    type: HAHA
   - id: '2100352656854754'
     name: Mahmoud Bakrey
     type: LIKE
@@ -337,6 +340,9 @@ reactions:
     type: HAHA
   - id: '10155686945529760'
     name: Ibrahim Hussein
+    type: LIKE
+  - id: '891512461008307'
+    name: Ziad Khaled
     type: LIKE
   - id: '588071778205236'
     name: Hassan El-shazly
@@ -472,6 +478,12 @@ comments:
       id: '495080930892199'
     message: black mirror?
     id: '1766723123367388'
+  - created_time: '2018-02-27T18:04:41+0000'
+    from:
+      name: Mohammad Hosny
+      id: '10155052403705843'
+    message: ده طبيعي دي خاصية في الكروم hardware acceleration ممكن تطفيها
+    id: '1766724906700543'
   - created_time: '2018-02-27T18:11:50+0000'
     from:
       name: Mohamed Ali
@@ -480,6 +492,20 @@ comments:
       يكون كروم أو اي برنامج تاني \U0001F603 افتكر انت مثبت ايه وفيه خاصيه المزامنه
       .\nومش تنسي تشوف بورت انت قولت عليه بتاع ايه ."
     id: '1766729583366742'
+  - created_time: '2018-02-27T18:24:05+0000'
+    from:
+      name: Ziad Khaled
+      id: '891512461008307'
+    message: هو حاجة مش عارف ممكن تكون حصلت ازاي بس هي أول حاجة جات في دماغي لما قريت
+      البوست بتاعك هي ببساطة أنت ممكن تعمل donate للcomputing power بتاعت جهازك لجهات
+      علمية و هما بيعملوا العمليات اللي بيحتاجوها علي الجهاز بتاعك لما ما يكنش حد
+      بيستخدمه زي https://boinc.berkeley.edu/ مثلا و ده شبه جدا اللي بيحصل فممكن يكون
+      في حاجة شبهها بتعمل sharing للcomputing power ما بين الجهازين عندك و ده بيتفق
+      نوعا ما مع كلامك عندك اللاب مش بيحصل عليه اي حمل من ناحية الcomputing power
+      و الpc هو اللي بيبقي شغال جامد و ده لما بتكون موصل الpc بنفس الnetwork هو طبعا
+      الموضوع غريب جدا بس وارد انك تكون نزلت برنامج بيعمل حاجة شبه كده و نسيته او
+      نزل مع حاجة تانية و انت مكنتش عارف مثلا
+    id: '1766763180030049'
   - created_time: '2018-02-27T18:34:45+0000'
     from:
       name: Yasser Ahmed

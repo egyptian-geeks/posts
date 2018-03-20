@@ -32,14 +32,6 @@ comments:
       بالفرومات الصح الى انت حابب تعرض به الا لو انت واثق ١٠٠٪ من الداتا الى جيه من
       ال API ده وده صعب
     id: '1034934426546265'
-  - created_time: '2015-11-21T14:03:25+0000'
-    from:
-      name: Mahmoud Said
-      id: '10159857675500183'
-    message: |-
-      There's no best practice for this, and this is applicable for any web app, not just rails
-      You can use WebSocket, and Server-Sent Events (one way messaging) for your case, or you can just pull the data from a json view for the same action. you can use respond_to in rails
-    id: '1034966466543061'
   - created_time: '2015-11-21T22:45:45+0000'
     from:
       name: Rafael Adel

@@ -1,0 +1,42 @@
+---
+message: |-
+  Hello everyone,
+
+  I've been trying to understand the relation between Blockchain technology and containers and still couldn't really answer the next question.
+
+  What is offered by containers technology when they're used in blockchain enabled applications?
+from:
+  name: Bdr Mohamed
+  id: '2015246105157800'
+type: status
+created_time: '2018-03-20T00:07:57+0000'
+updated_time: '2018-03-20T01:37:13+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1789145261125174/
+id: '172338516139198_1789145261125174'
+reactions:
+  data:
+  - id: '158547971463325'
+    name: Mohamed Mohamedy
+    type: LIKE
+  - id: '10154958844281106'
+    name: Kareem El Sayed
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01ERTVNalF6TmprME5UY3dPakUxTWpFMU1qWTFPVEk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TmpZAek5UazJNVEExT2pFMU1qRTFNVEkwTnpjNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2018-03-20T00:17:23+0000'
+    from:
+      name: Mohammed Gamal
+      id: '10156278338768296'
+    message: |-
+      There is no obvious link between the two. Containers can simply be used for isolating different resources (i.e. CPU, Memory, Filesystem ... etc) for your application regardless of its nature.
+
+      On a completely different note, these two things are having all the hype these days and if you pitch your startup using these two words frequently, be sure you'll be getting some good funding ;)
+    id: '1789153707790996'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM0T1RFMU16Y3dOemM1TURrNU5qb3hOVEl4TlRBMU1EUXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM0T1RFMU16Y3dOemM1TURrNU5qb3hOVEl4TlRBMU1EUXoZD

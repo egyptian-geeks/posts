@@ -41,7 +41,15 @@ comments:
       id: '10155224465177344'
     message: Extract design will have to be done by custom algorithms
     id: '1255148541191518'
+  - created_time: '2017-03-13T17:46:21+0000'
+    from:
+      name: Mohammad Hosny
+      id: '10155052403705843'
+    message: "for:\n1- OCR use tesseract (https://github.com/tesseract-ocr/tesseract/wiki)
+      \n2- extract card if predefined can use Leptonica image processing  (already
+      in tesseract)"
+    id: '1419572824749088'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkxTlRFeU1qa3hORFV5TnpReE5Eb3hORGMyTWpFd016RTMZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkxTlRFME9EVTBNVEU1TVRVeE9Eb3hORGMyTWpFek1UUXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF4T1RVM01qZA3lORGMwT1RBNE9Eb3hORGc1TkRJM01UZA3kZD

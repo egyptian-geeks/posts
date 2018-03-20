@@ -1,0 +1,89 @@
+---
+message: |-
+  I want to learn docker.
+  I read many tutorials/books yet there is something missing in my mindset.
+
+  How do you use it in practical example to launch a production ready app ?
+
+  Anyone have a good sample forsay nodejs api/ php app production ready deployment with docker ?
+from:
+  name: Momen Al Zalabany
+  id: '10160388991030144'
+type: status
+created_time: '2018-03-20T07:23:46+0000'
+updated_time: '2018-03-20T15:00:26+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1789441201095580/
+id: '172338516139198_1789441201095580'
+reactions:
+  data:
+  - id: '10155113612632882'
+    name: Ahmed Magdy
+    type: LIKE
+  - id: '10156105173127334'
+    name: Khaled W. Abuelenain
+    type: LIKE
+  - id: '10155263617066659'
+    name: Ahmed Mansour
+    type: LIKE
+  - id: '10215565754801598'
+    name: Ahmed Shalaby
+    type: LIKE
+  - id: '10159683790105018'
+    name: Mohamed Hesham Ibrahim
+    type: LIKE
+  paging:
+    cursors:
+      before: TmpRME1UZAzNPRGd4T2pFMU1qRTFOamM1TURrNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TnpRMk5ERTFNREUzT2pFMU1qRTFNekkxTXpJNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2018-03-20T09:28:14+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: ana kont 3amel video zman 3n docker, check it. maybe it helps
+    id: '1789532287753138'
+  - created_time: '2018-03-20T09:28:17+0000'
+    from:
+      name: Alaa Attya Mohamed
+      id: '10212906316506161'
+    message: https://www.youtube.com/watch?v=X1LPCmSRz0o
+    id: '1789532374419796'
+  - created_time: '2018-03-20T10:02:06+0000'
+    from:
+      name: Bdr Mohamed
+      id: '2015246105157800'
+    message: "You can follow the tutorials in the docs. Like how to deploy a stack
+      which really simplifies alot of things.\n\nI have lately done a project; Https
+      reverse proxy on docker and have documented it as well. You must look at the
+      presentation and read the documentation as well to fully understand it. \nLink:
+      https://github.com/Badrmoh/Docker-HTTPS-Reverse-Proxy"
+    id: '1789561031083597'
+  - created_time: '2018-03-20T11:02:12+0000'
+    from:
+      name: Mohamed Fawzy
+      id: '1694501647276709'
+    message: Mohamed Elbidewy
+    id: '1789610287745338'
+  - created_time: '2018-03-20T12:00:23+0000'
+    from:
+      name: Mohamed Hamza
+      id: '1780939041979216'
+    message: Find a project you love and dockerize it
+    id: '1789651704407863'
+  - created_time: '2018-03-20T12:18:04+0000'
+    from:
+      name: Ata Mahmoud
+      id: '1563117340451709'
+    message: https://courses.edx.org/courses/course-v1:RedHat+DO081x+2T2017/course/
+    id: '1789666477739719'
+  - created_time: '2018-03-20T15:00:22+0000'
+    from:
+      name: Naggar
+      id: '2069499223273223'
+    message: Mohamed S Zaghloul ^
+    id: '1789811067725260'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM0T1RVek1qSTROemMxTXpFek9Eb3hOVEl4TlRNNE1EazAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM0T1RneE1UQTJOemN5TlRJMk1Eb3hOVEl4TlRVNE1ESXoZD

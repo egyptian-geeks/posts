@@ -165,20 +165,6 @@ comments:
       on the other hand it'll consume a lot of memory depending on the size of that hash... you might also want to optimize the hash solution... so on top of my mind you can store the names (sorted) on a file and binary search that file lines...
       great work, and I'm sure that you can optimize it even more
     id: '1166647773374929'
-  - created_time: '2016-06-21T21:40:44+0000'
-    from:
-      name: Mahmoud Said
-      id: '10159857675500183'
-    message: |-
-      You may want to check this out:
-      https://github.com/Shnoulle/Ar-PHP/blob/master/Arabic/data/female.txt
-    id: '1166663896706650'
-  - created_time: '2016-06-21T21:41:13+0000'
-    from:
-      name: Mahmoud Said
-      id: '10159857675500183'
-    message: 'You can also port this: https://github.com/Shnoulle/Ar-PHP/blob/master/Arabic/Gender.php'
-    id: '1166664056706634'
   - created_time: '2016-06-22T00:39:53+0000'
     from:
       name: Ayman Abou Khadra
@@ -193,7 +179,7 @@ attachments:
   data:
   - description: asmaa-gem - This is a simple gem to know any Arabian name gender
     target:
-      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2FMorxander%2Fasmaa-gem&h=ATOFXKywWJxC9lGKhC4j1x9Kzb3vh-4rpQHp_MNROJG9LnT0MudXPP3n28bSbGLG83mSwqcF0wIAR_e8qyGFaQoO0vRmKUiFYOtG4d92jt87ENeRDNId&s=1
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2FMorxander%2Fasmaa-gem&h=ATM9BNEiBkNoAykZQaCsslQLCINpLeinMx37l4UHokAr6vb0SsHcPMJjW7-lJIlUIxqPTedqfoGv_rCXpez-6TZd0V4OJtaFGBnSaoRkSmy6lDIPxuhu&s=1
     title: Morxander/asmaa-gem
     type: share
-    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2FMorxander%2Fasmaa-gem&h=ATOFXKywWJxC9lGKhC4j1x9Kzb3vh-4rpQHp_MNROJG9LnT0MudXPP3n28bSbGLG83mSwqcF0wIAR_e8qyGFaQoO0vRmKUiFYOtG4d92jt87ENeRDNId&s=1
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2FMorxander%2Fasmaa-gem&h=ATM9BNEiBkNoAykZQaCsslQLCINpLeinMx37l4UHokAr6vb0SsHcPMJjW7-lJIlUIxqPTedqfoGv_rCXpez-6TZd0V4OJtaFGBnSaoRkSmy6lDIPxuhu&s=1

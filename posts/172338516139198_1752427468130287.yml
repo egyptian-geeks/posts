@@ -42,6 +42,16 @@ comments:
       يبقى الناتج "؟؟"
       لو مش كدا يبقي مش عارف
     id: '1752901818082852'
+  - created_time: '2018-02-14T09:21:04+0000'
+    from:
+      name: Mohammad Hosny
+      id: '10155052403705843'
+    message: |-
+      1- ("?" ?? "???") --> "?"
+      2- "?" == "?" --> true
+      3- true ? "??" : "???" --> "??"
+      so output will be "??"
+    id: '1752902871416080'
   - created_time: '2018-02-14T09:54:06+0000'
     from:
       name: Mohammed Sameer

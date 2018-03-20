@@ -68,16 +68,6 @@ comments:
     message: المشكلة إن ال 301 ساعات بيعمل نفس مشاكل ال 302. أنا بدور على وسيلة تكون
       على ال domain level نفسه تخلي مفيش 301 ولا 302 تحصل
     id: '1477043105668726'
-  - created_time: '2017-05-08T15:14:37+0000'
-    from:
-      name: Mahmoud Said
-      id: '10159857675500183'
-    message: |-
-      It will always be 301, try:
-      ```
-      curl -I http://www.facebook.com/
-      ```
-    id: '1477064688999901'
   - created_time: '2017-05-08T16:17:26+0000'
     from:
       name: Mohamed Moshrif

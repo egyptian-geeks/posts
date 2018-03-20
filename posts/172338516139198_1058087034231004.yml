@@ -32,17 +32,6 @@ comments:
       id: '10155514327198323'
     message: Could u please elaborate more? Will be glad to help Ahmed Shalaby
     id: '1058091797563861'
-  - created_time: '2016-01-06T15:19:46+0000'
-    from:
-      name: Mahmoud Said
-      id: '10159857675500183'
-    message: |-
-      Just don't include it in the assets pipeline, should be something like this in the template itself
-      ```
-      if locale.eql?('ar')
-      = stylesheet_link_tag 'somecss file'
-      ```
-    id: '1058098427563198'
   - created_time: '2016-01-06T15:26:21+0000'
     from:
       name: Ahmed Yousry Ebrahim
