@@ -69,13 +69,16 @@ from:
   id: '10215775685890126'
 type: status
 created_time: '2018-03-15T14:40:26+0000'
-updated_time: '2018-03-20T19:34:33+0000'
+updated_time: '2018-03-21T21:26:46+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1783896954983338/
 shares:
-  count: 63
+  count: 65
 id: '172338516139198_1783896954983338'
 reactions:
   data:
+  - id: '934408920094293'
+    name: Muhammad Ahmed Fares
+    type: LIKE
   - id: '787579568106089'
     name: Hager Ehab
     type: LIKE
@@ -226,9 +229,6 @@ reactions:
   - id: '1815348785182423'
     name: Ala Ezzeldin
     type: LIKE
-  - id: '846713762199670'
-    name: Mohammad Mostafa
-    type: LIKE
   - id: '1650993914977803'
     name: Hashem Ramdan
     type: LIKE
@@ -348,7 +348,7 @@ reactions:
     type: LIKE
   paging:
     cursors:
-      before: TVRBd01EQTFOakl4TlRrNE9EWXpPakUxTWpFMU5UYzBNalk2TWpVME1EazJNVFl4TXc9PQZDZD
+      before: TVRBd01EQTFOelUxT0RBME16VTJPakUxTWpFMk5qSTVNamM2TWpVME1EazJNVFl4TXc9PQZDZD
       after: TlRZAME1ETXpNamsxT2pFMU1qRXhNalV6TWpnNk1qVTBNRGsyTVRZAeE13PT0ZD
 comments:
   data:
@@ -390,12 +390,6 @@ comments:
       id: '1958972070797083'
     message: Mostafa Saleh
     id: '1784148031624897'
-  - created_time: '2018-03-15T15:14:00+0000'
-    from:
-      name: Yahia Hassan
-      id: '2093529544214867'
-    message: لازم اكون طالب Computer Science ولا عادي اي كلية؟
-    id: '1784148821624818'
   - created_time: '2018-03-15T15:14:20+0000'
     from:
       name: Abdel-Rahman Ali
@@ -524,7 +518,25 @@ comments:
       id: '1962566230481859'
     message: Eslam Nasser
     id: '1790034597702907'
+  - created_time: '2018-03-21T19:15:18+0000'
+    from:
+      name: Aya Rabea
+      id: '360313791114175'
+    message: Mohammed Abdallah Marwan El-Adawy
+    id: '1791103654262668'
+  - created_time: '2018-03-21T19:23:10+0000'
+    from:
+      name: Marwan El-Adawy
+      id: '2076690845951079'
+    message: Medo Kh
+    id: '1791109897595377'
+  - created_time: '2018-03-21T20:28:06+0000'
+    from:
+      name: Aya Rabea
+      id: '360313791114175'
+    message: Amira Essam
+    id: '1791159640923736'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM0TkRFeE1EQTBNVFl5T0RZANU5qb3hOVEl4TVRJMU5EQXoZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM1TURBek5EVTVOemN3TWprd056b3hOVEl4TlRjME5EY3cZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM1TVRFMU9UWTBNRGt5TXpjek5qb3hOVEl4TmpZAME1EZAzIZD

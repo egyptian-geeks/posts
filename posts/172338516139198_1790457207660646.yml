@@ -1,0 +1,79 @@
+---
+message: |-
+  Hello,
+  Is nodejs suitable as a backend for a banking system (balance inquiry, make transaction, ...)?
+  What about the security, performance (single-threaded), scalability?
+from:
+  name: Ahmad Salah
+  id: '2461629930728686'
+type: status
+created_time: '2018-03-21T06:43:49+0000'
+updated_time: '2018-03-21T17:00:43+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1790457207660646/
+id: '172338516139198_1790457207660646'
+reactions:
+  data:
+  - id: '10156165643313420'
+    name: Tony Raoul Iscaros
+    type: LIKE
+  - id: '2101901136700019'
+    name: Islam Mansour
+    type: LIKE
+  - id: '179696229429042'
+    name: Mohamed Ezzat
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRNeU1qQTROREU1T2pFMU1qRTJOVEUyTnpnNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01ESXhOalU1T1RjeE9EYzBPakUxTWpFMk1UVXlNVGs2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2018-03-21T07:05:19+0000'
+    from:
+      name: Mahmoud Hussien
+      id: '1818394378453420'
+    message: f
+    id: '1790532620986438'
+  - created_time: '2018-03-21T09:23:45+0000'
+    from:
+      name: Mohammed El Sayed
+      id: '10155880598025170'
+    message: ممكن حضرتك بدل ما تسأل سؤال فى المطلق إنك تشرح الخطوات اللى مشيت فيها,
+      والأراء المختلفه اللى وصلتلها. دا أفضل لحضرتك وللناس اللى فى الجروب كمان علشان
+      نقدر نساعد بعض بشكل أفضل. :)
+    id: '1790631214309912'
+  - created_time: '2018-03-21T12:17:18+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: "انا مش متخصص في node يعنى \nبس تقدر تعمل ب node اي حاجة، وموضوع السنجل
+      ثريد بيتحل ب cluster و loadbalancer  ، تقدر تبنى architecture قوية ومنظمة الاول
+      للسستم بتاعك مش لازم تلتزم بالشكل الجاهز بتاع الفريموركس  .. اللى في express
+      مثلا وخلاص، \nلو استخدمت type script هتخلي الكود strongly typed اكتر، وتتغلب
+      على مشاكل كتير في ال development lifecycle \n\nالاهم هنا هيكون الداتابيز معتقدش
+      mongo و الـ document based عامة مناسبة لسستم بنك وحسابات، اشتغل مثلا ب postgres
+      او mysql او اوراكل في حالة لو البروجكت يسمح بده .."
+    id: '1790758810963819'
+  - created_time: '2018-03-21T12:20:23+0000'
+    from:
+      name: Mourad Al Ashry
+      id: '10160284573020019'
+    message: Abdallah Gamal
+    id: '1790761197630247'
+  - created_time: '2018-03-21T17:00:41+0000'
+    from:
+      name: Tony Raoul Iscaros
+      id: '10156165643313420'
+    message: |-
+      Node can do it but you should consider using something more "Enterprise" friendly.
+
+      Node by design has a problem with dependency hell, a single dependency that will get any attack your system will be exploited.
+
+      If you can avoid untrusted dependencies. use a good OOP language like typescript and structured database (MySQL , mariaDB...) Then you can use it.
+
+      Node can run inside Apache so maybe if you need it for a service or two that would be better
+    id: '1791005400939160'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM1TURVek1qWXlNRGs0TmpRek9Eb3hOVEl4TmpFMU9USXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM1TVRBd05UUXdNRGt6T1RFMk1Eb3hOVEl4TmpVeE5qUXgZD

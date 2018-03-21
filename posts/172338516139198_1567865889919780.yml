@@ -60,9 +60,6 @@ reactions:
   - id: '2116202238491634'
     name: Rowdy Ahmed
     type: LIKE
-  - id: '10211387034451165'
-    name: Ahmed Hussein
-    type: LOVE
   - id: '1841244092577024'
     name: Yara Elsayed
     type: LIKE
@@ -480,9 +477,6 @@ reactions:
   - id: '10156077256184116'
     name: Mustafa Gamal
     type: LIKE
-  - id: '2093529544214867'
-    name: Yahia Hassan
-    type: LIKE
   - id: '10155855157936047'
     name: Mosab Ibrahim
     type: LIKE
@@ -764,12 +758,6 @@ comments:
       id: '10213020152031880'
     message: I really wish to join, too bad i won't be in Egypt until September...
     id: '1569386089767760'
-  - created_time: '2017-08-05T17:46:38+0000'
-    from:
-      name: Yahia Hassan
-      id: '2093529544214867'
-    message: Sameh Zakaria انا رايح، ايه رأيك؟
-    id: '1569413796431656'
   - created_time: '2017-08-05T18:30:21+0000'
     from:
       name: Ahmed Khaled
@@ -802,18 +790,6 @@ comments:
       id: '10156285117039617'
     message: I can host you in my office ya Ahmed Hedaya Hafiz
     id: '1571041029602266'
-  - created_time: '2017-08-07T10:25:03+0000'
-    from:
-      name: Ahmed Hussein
-      id: '10211387034451165'
-    message: Please check your PM.
-    id: '1571168546256181'
-  - created_time: '2017-08-07T10:28:00+0000'
-    from:
-      name: Ahmed Mekkawy
-      id: '10155783123700239'
-    message: Cool, will mark my calendar
-    id: '1571170826255953'
   - created_time: '2017-08-12T08:15:12+0000'
     from:
       name: Mohamed Hafez

@@ -1,0 +1,67 @@
+---
+message: I can't find any topic talking about the difference between restful API vs
+  web API ?
+from:
+  name: Ahmed Saber
+  id: '10214625918258969'
+type: status
+created_time: '2018-03-21T15:46:30+0000'
+updated_time: '2018-03-21T17:41:20+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1790846830955017/
+id: '172338516139198_1790846830955017'
+reactions:
+  data:
+  - id: '1824520801181678'
+    name: محمد علاء الدين
+    type: LIKE
+  - id: '557835137928906'
+    name: Iman Mohammed
+    type: LIKE
+  - id: '10214009758490589'
+    name: Ahmed Elshahat
+    type: LIKE
+  - id: '10213961840660645'
+    name: Ahmed Abdelfttah
+    type: LIKE
+  - id: '1780939041979216'
+    name: Mohamed Hamza
+    type: LIKE
+  - id: '2101901136700019'
+    name: Islam Mansour
+    type: LIKE
+  - id: '2048561448492111'
+    name: Hassan Medhat
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTROekV6TWpZAeU56VTRPakUxTWpFMk5qWXdPRFU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXdNVFE0TWpjd09UWTFPakUxTWpFMk5EY3pNRFE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2018-03-21T16:10:42+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: |-
+      Web API is a .net framework that allows you to build RESTful apis
+
+      Or if we mean 'web api' term in general (not the framework), rest is considered as a type of a web api.
+
+      REST itself is like a specific form/set of conventions/standards of how web services should be implemented over http
+
+      Think of it as a strict version of HTTP protocol that defines rules/conventions on how to represent web service consumption in a meaningful form
+
+      REST stands for REpresentational State Transfer and it is a reuse of an originally specified http 'verbs' to define a type of a request.
+
+      Mapping http verbs to remote resources may use the same endpoint url with different verbs every time to do various actions.
+
+      For example we may have a /car service url that accepts requests so the client may do CRUD (create/read/update/delete)  'cars' according to the verb each time a request is sent.
+      So whenever I say that /car is a rest service, you can quickly guess that
+      GET /car can view a car
+      POST to create new, PUT to replace, PATCH to update, DELETE to delete
+      This has become eventually a very convenient way to build APIs over http as the developers already accepted the standard to integrate everything.. REST became the popular language that all developers can understand and implement easily, as well as all systems/platforms/clients can adopt, though more modern and simpler than old standards like SOAP
+    id: '1790959534277080'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM1TURrMU9UVXpOREkzTnpBNE1Eb3hOVEl4TmpRNE5qUXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM1TURrMU9UVXpOREkzTnpBNE1Eb3hOVEl4TmpRNE5qUXkZD

@@ -156,20 +156,6 @@ comments:
       high \nAlso through benchmarking mongo slow queries \nUsing mongo doesnt mean
       it be super fast just by itself"
     id: '1188625757843797'
-  - created_time: '2016-07-25T09:28:59+0000'
-    from:
-      name: Ahmed Mekkawy
-      id: '10155783123700239'
-    message: |-
-      Your problem is obviously in the PHP execution load, increasing the children will just kill your CPU. Only one of three methods to use IMHO, I suggest you use the three altogether:
-      1. Tune your code so it can perform better.
-      2. Leave this server, use cloud computing, choose a high CPU - low RAM provider, you can achieve that on Vultr or Softlayer, depends on your budget.
-      3. Tune your workers till you get close to 100% CPU load but the load average is between 1 and 2, and it stays stable for 10 minutes at least. This your maximum sustainable PHP process number on that code. Then you have to use aggressive caching: opcode caching, fragment caching, and full page caching. this link will help you with the latter:
-
-      http://nginx.org/en/docs/http/ngx_http_fastcgi_module.html#fastcgi_cache
-
-      If you need any further help feel free to ping me, or ping those guys, they are good: Spirula Systems
-    id: '1188831171156589'
   - created_time: '2016-07-25T09:46:14+0000'
     from:
       name: Osama Mohamed

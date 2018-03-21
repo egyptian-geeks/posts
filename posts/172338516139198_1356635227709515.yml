@@ -451,9 +451,6 @@ reactions:
   - id: '1702975809723529'
     name: Omar Hisham
     type: LIKE
-  - id: '10155617973009177'
-    name: Muhammad Ebeid
-    type: LIKE
   - id: '1641565752594739'
     name: Ahmed Aziz
     type: LIKE
@@ -477,9 +474,6 @@ reactions:
     type: LIKE
   - id: '10212027040534195'
     name: Ibrahim Abousalem
-    type: LIKE
-  - id: '10155746814728941'
-    name: Amr Elhagary
     type: LIKE
   - id: '10210346747776038'
     name: Mohab Mohamed
@@ -864,7 +858,7 @@ comments:
     id: '1356821167690921'
   - created_time: '2017-01-17T03:20:02+0000'
     from:
-      name: Abdelrahman Ibn Amr El-Adawy
+      name: Abdelrahman El-Adawy
       id: '10215882618244133'
     message: What sensors/micro-controller are you using? if you don't mind me asking?
     id: '1356887847684253'

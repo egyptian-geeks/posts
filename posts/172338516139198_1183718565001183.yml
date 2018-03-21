@@ -120,9 +120,6 @@ reactions:
   - id: '10215482677129679'
     name: Ahmed Adel Radwan
     type: LIKE
-  - id: '10155783123700239'
-    name: Ahmed Mekkawy
-    type: LIKE
   - id: '10208610261214026'
     name: Mahmoud Ahmed
     type: LIKE
@@ -238,18 +235,6 @@ comments:
       id: '10155815529215590'
     message: Mohammad Hefny
     id: '1183828378323535'
-  - created_time: '2016-07-17T18:40:07+0000'
-    from:
-      name: Ahmed Mekkawy
-      id: '10155783123700239'
-    message: |-
-      I second everything Mohamed El-Sayed mentioned. I may add a couple of findings:
-      1. TEData just changed all of her routing IPs today. Currently I noticed that all hops inside Egypt are in the 10.x.x.x range. This isn't valid for noor.net till now. Yesterday it was all normal.
-      2. Through TEData (I didn't test the others), the output of mtr sometimes gives an extra hop or two when tracing port 443 compared to port 80. This is mainly valid for facebook, but not google. needs much more testing.
-      3. OpenVPN through stunnel is throttled to 1mbps, this is on noor network.
-
-      My interpretation is that either we are facing a new survellience equipment being installed, or it was something secretly installed before but went crazy due to DST as it couldn't correctly interpret the TLS packets as it used to do, and they are currently fixing it. By all means this has to be a DPI with SSL MITM capabilities.
-    id: '1183866208319752'
   - created_time: '2016-07-18T18:07:36+0000'
     from:
       name: Hosam Aly
