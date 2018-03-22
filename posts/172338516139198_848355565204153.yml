@@ -67,9 +67,6 @@ reactions:
   - id: '10208829952864521'
     name: Mahmoud Maghraby
     type: LIKE
-  - id: '1955441501387657'
-    name: Bassam Abd Elhamid
-    type: LIKE
   - id: '10159726802330618'
     name: Ahmed AbouZaid
     type: LIKE
@@ -96,13 +93,6 @@ comments:
     message: 'Atwood''s Law: any application that can be written in JavaScript, will
       eventually be written in JavaScript.'
     id: '848388555200854'
-  - created_time: '2014-11-19T10:43:48+0000'
-    from:
-      name: Bassam Abd Elhamid
-      id: '1955441501387657'
-    message: It is the assembly of the web ~ Some guy don't remember his name, Ask
-      Hanselman :)
-    id: '848390345200675'
   - created_time: '2014-11-19T11:34:51+0000'
     from:
       name: Ahmed Fathalla
@@ -193,16 +183,10 @@ comments:
       id: '10154904189965670'
     message: Overall it's mind blowing :D
     id: '848904035149306'
-  - created_time: '2014-11-20T19:01:53+0000'
-    from:
-      name: Bassam Abd Elhamid
-      id: '1955441501387657'
-    message: As VM not OS, I think
-    id: '849048348468208'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFE0TXpnME9ERTFNakF4TWpJNE9qRTBNVFl6T1RJME5qYz0ZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFE1TURRNE16UTRORFk0TWpBNE9qRTBNVFkxTVRBeE1UTT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFE0T1RBME1ETTFNVFE1TXpBMk9qRTBNVFkwT0RZAeU9EYz0ZD
 attachments:
   data:
   - description: Parallax
@@ -212,7 +196,7 @@ attachments:
         src: https://external.xx.fbcdn.net/safe_image.php?d=AQChfPL6A44XN1hX&w=720&h=720&url=https%3A%2F%2Fparall.ax%2Fparallax%2Fimg%2Fog_image2.png&cfs=1&_nc_hash=AQB0IIQ-GpB_2KfF
         width: 200
     target:
-      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fparall.ax%2Fproducts%2Fjspdf&h=ATO15pXX7EngJwxLhJoQWsB_yWUv0oo1Amc6mZHCKQmrqu4NdSIUaflJAYKLOOunpat8IQM0swPn12VZs8RmRAs3rACFjanMul7Cd1e-_wCBwdRV4h8q&s=1
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fparall.ax%2Fproducts%2Fjspdf&h=ATMsAErKZZo-WDs1RSzAX-aMhvkoaj4EqKYdvMQtcE5xH0d5huyov1GcJdPQ_5ac93YGqch-Ix6yzscPqWLWyolAf4sWQkNkmrSJ5S5Ozseul6sJXlbn&s=1
     title: jsPDF - HTML5 PDF Generator | Parallax
     type: share
-    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fparall.ax%2Fproducts%2Fjspdf&h=ATO15pXX7EngJwxLhJoQWsB_yWUv0oo1Amc6mZHCKQmrqu4NdSIUaflJAYKLOOunpat8IQM0swPn12VZs8RmRAs3rACFjanMul7Cd1e-_wCBwdRV4h8q&s=1
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fparall.ax%2Fproducts%2Fjspdf&h=ATMsAErKZZo-WDs1RSzAX-aMhvkoaj4EqKYdvMQtcE5xH0d5huyov1GcJdPQ_5ac93YGqch-Ix6yzscPqWLWyolAf4sWQkNkmrSJ5S5Ozseul6sJXlbn&s=1

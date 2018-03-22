@@ -198,10 +198,13 @@ reactions:
   - id: '1789186174489821'
     name: Khaled Mustafa
     type: LIKE
+  - id: '10159929493885634'
+    name: عمر أمين
+    type: HAHA
   paging:
     cursors:
       before: TVRBd01EQTFNVFEzTXpFNU16UTFPakUxTURjek1qWXdOalE2TnpnNE5qUTRNRE0zT1RFek16RXkZD
-      after: TVRBd01EQXhPVFV6TmpnNE9UZAzVPakUxTURjeU1UUXdPVGs2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TlRjM016UXdOak16T2pFMU1EY3lNVFF3TmpRNk56ZAzROalE0TURNM09URXpNekV5
 comments:
   data:
   - created_time: '2017-10-05T14:40:11+0000'
@@ -317,12 +320,6 @@ comments:
     message: "انا عملتها من.سنتين وفشلت واشتغلت حتى ب\n neural network predective
       time series \U0001F602"
     id: '1624974610875574'
-  - created_time: '2017-10-05T16:00:24+0000'
-    from:
-      name: Shaimaa Hasan Derbaz
-      id: '10208531944855065'
-    message: اللي اعرفه انهم بيمشوا ب hash function
-    id: '1624989810874054'
   - created_time: '2017-10-05T17:15:48+0000'
     from:
       name: Mohamed Rashad

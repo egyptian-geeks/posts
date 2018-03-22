@@ -99,6 +99,9 @@ reactions:
   - id: '1579126635502633'
     name: Hazem Ahmed Amr
     type: LIKE
+  - id: '10159929493885634'
+    name: عمر أمين
+    type: LIKE
   - id: '1538447102877297'
     name: Mohamed Moshrif
     type: LIKE
@@ -396,9 +399,6 @@ reactions:
   - id: '10155766590241075'
     name: Mostafa Atef
     type: LOVE
-  - id: '584987878511691'
-    name: سايكو
-    type: LIKE
   - id: '1920945141316402'
     name: Ahmed Hamed
     type: LIKE
@@ -648,6 +648,24 @@ comments:
     message: والله انا حسيبهم الشهر الجاى وحروح لفودافون غالبا بسبب قلت ادب الناس
       اللى بتتكلم معاهم
     id: '1433940053312365'
+  - created_time: '2017-03-27T08:51:05+0000'
+    from:
+      name: عمر أمين
+      id: '10159929493885634'
+    message: انت الخط عندك بيستحمل اصلا ؟
+    id: '1434043803301990'
+  - created_time: '2017-03-27T08:51:19+0000'
+    from:
+      name: عمر أمين
+      id: '10159929493885634'
+    message: قبل حل المشكلة .. كان اخر الخط جايب اكتر من 16 ميجا ؟
+    id: '1434043889968648'
+  - created_time: '2017-03-27T10:54:00+0000'
+    from:
+      name: عمر أمين
+      id: '10159929493885634'
+    message: Shaimaa El Homossany
+    id: '1434115783294792'
   - created_time: '2017-03-27T15:51:53+0000'
     from:
       name: Obadh Oon

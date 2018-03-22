@@ -45,6 +45,9 @@ reactions:
   - id: '1605856199481441'
     name: Nesreen Mansour
     type: LIKE
+  - id: '10159929493885634'
+    name: عمر أمين
+    type: LIKE
   - id: '368237263651704'
     name: Omar Ali
     type: LIKE
@@ -147,9 +150,6 @@ reactions:
   - id: '10211448908001193'
     name: Hend Ragheb
     type: LIKE
-  - id: '1576001382455519'
-    name: Bavly Morcos
-    type: LIKE
   - id: '1683289718380917'
     name: Kofi Kotga
     type: LIKE
@@ -222,21 +222,7 @@ comments:
       id: '10155173051963199'
     message: You simply want to recreate codeproject and stack overflow :)
     id: '1555268071179562'
-  - created_time: '2017-07-22T19:00:50+0000'
-    from:
-      name: Bassam Abd Elhamid
-      id: '1955441501387657'
-    message: "فكرت فى حاجه ذى كده من فتره, بس كان فى كذا تحدى :\n اولاً, اذاى نشجع
-      الناس انها تكتب  \nثانياً, اذاى نبحث فى الحاجات الى كتبتها الناس\n\n موصلتش
-      لحل للمشكلتين, ففكرت فى حاجه فى مستوى مختلف, فكرت لو الخبرات دى قدرنا نسحبها
-      بشكل آلى, مثلاً -فى الكود- لو عملنا اداة تسجل الاكسبشن وتحلل التعديلات الى حصلت
-      بعده , او حتى تتابع التعديلات وتربطها بنص رسالة الكوميت. ونحلل الحاجات دى بشكل
-      آلى عشان نطلع منها بالخبرات.\n\nمثال تانى, فى اداة فى الويندوز اسمها استب ريكوردر
-      تقريباً, لو استخدمنا اداة مثلها لكن الخرج يكون عباره عن باتش لاعادة تنفيذ الخطوات,
-      وهنا الخبرات هتكون عملية(فى الحقيقة تنفيذية)\n\nيعنى لو حصل عندى مشكلة ممكن
-      ابحث برقم خطأ اوصل لباتش احمله انفذه, يحل المشكله.\n\nاحلام يقظة :)"
-    id: '1555278707845165'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUxTlRBNE9UY3pORFV6TURjeU9Ub3hOVEF3TnpNMU5qQTMZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUxTlRJM09EY3dOemcwTlRFMk5Ub3hOVEF3TnpVd01EVXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUxTlRJMk9EQTNNVEUzT1RVMk1qb3hOVEF3TnpRNU1EazQZD

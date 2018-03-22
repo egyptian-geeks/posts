@@ -94,30 +94,7 @@ comments:
       and fetch 10 rows , the second query select count form table get count of expected
       rows
     id: '1222195384486834'
-  - created_time: '2016-09-03T21:57:49+0000'
-    from:
-      name: Maher Samir
-      id: '1657396510987060'
-    message: لا الكويري بتاعت الكاونت مش هاتكون تقيله زي ما انت متخيل لحد مدي معين
-      لان هيا مش بترجع داتا كتير دي بترجع مجرد رقم والماي سيكوال عموما الكويري بتاع
-      الكاونت هيا بتستخدمه عادي مثلا لما بتفتح phpmyadmin هاتلاقي كل جدول قدامه عدد
-      صفوفه والصفحه بتحمل معاك عادي لما تعمل كاونت اعمل كاونت علي الكولم الرئيسي الي
-      في الجدول الي هوا معموله اندكس primary و unique
-    id: '1222236881149351'
-  - created_time: '2016-09-03T22:00:27+0000'
-    from:
-      name: Maher Samir
-      id: '1657396510987060'
-    message: http://code.tutsplus.com/tutorials/how-to-paginate-data-with-php--net-2928
-      حاجه زي كدة ممكن تشرحلك الفكرة وممكن تستخدمها بردو اختصارا للوقت
-    id: '1222238564482516'
-  - created_time: '2016-09-03T22:02:47+0000'
-    from:
-      name: Maher Samir
-      id: '1657396510987060'
-    message: رد زي دا مشروح فيه الكود بالكومنتات http://stackoverflow.com/a/20015621
-    id: '1222239497815756'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl5TVRRNE1UY3hNVEl5TkRnMk9Eb3hORGN5T0RZANE9EYzMZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl5TWpJek9UUTVOemd4TlRjMU5qb3hORGN5T1RRd01UY3cZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEl5TWpFNU5UTTRORFE0Tmpnek5Eb3hORGN5T1RNMk1EZAzQZD

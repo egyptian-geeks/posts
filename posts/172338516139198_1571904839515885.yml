@@ -55,6 +55,9 @@ reactions:
   - id: '825290564324928'
     name: Yassine Fayyad
     type: LIKE
+  - id: '10211387034451165'
+    name: Ahmed Hussein
+    type: HAHA
   - id: '2097252090507605'
     name: هاجر نصار
     type: LIKE
@@ -114,9 +117,6 @@ reactions:
     type: LIKE
   - id: '10216172915336961'
     name: Samaka SemSem
-    type: LIKE
-  - id: '10155918812835729'
-    name: Sara Adel
     type: LIKE
   - id: '293537801172211'
     name: Ahmad Elessawy
@@ -234,6 +234,12 @@ comments:
       id: '2030212347191059'
     message: Maioi Ahmed هاجر نصار
     id: '1572060172833685'
+  - created_time: '2017-08-08T15:31:32+0000'
+    from:
+      name: Ahmed Hussein
+      id: '10211387034451165'
+    message: "مينفعش تاخد الـ PDFs وتبدلى الجنسية؟ \U0001F602"
+    id: '1572460772793625'
   - created_time: '2017-08-08T16:40:45+0000'
     from:
       name: Mohamed Ramdan

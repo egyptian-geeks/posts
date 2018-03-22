@@ -6,7 +6,7 @@ from:
   id: '10155921159532177'
 type: status
 created_time: '2018-03-18T13:40:56+0000'
-updated_time: '2018-03-21T12:49:05+0000'
+updated_time: '2018-03-22T15:50:53+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1787466211293079/
 id: '172338516139198_1787466211293079'
 comments:
@@ -47,7 +47,18 @@ comments:
     message: "My vimrc, It's optimized more for python coding but It could be a starting
       point.\nI'm using Plug so It'll install the plugins automatically. \n\nhttps://github.com/MoHD20/dotfiles/blob/master/vim/vimrc.symlink"
     id: '1790787224294311'
+  - created_time: '2018-03-22T15:50:44+0000'
+    from:
+      name: Omar Mekky
+      id: '10159762750950562'
+    message: |-
+      So mine is optmised for mac, ruby and go, but thats pretty much 2 or 4 plugins, the rest are generic and you can use with C/C++ (not that different from Go imo, maybe add some gdb and you'd be mostly set)
+
+      Note this is mainly for Vim 8/NeoVim.
+
+      https://github.com/cousine/dotfiles
+    id: '1791970134176020'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM0T0RFMU1UVTBORFUxTnpnM09Ub3hOVEl4TkRJNU5UQTEZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM1TURjNE56SXlOREk1TkRNeE1Ub3hOVEl4TmpNMk5UUXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM1TVRrM01ERXpOREUzTmpBeU1Eb3hOVEl4TnpNek9EUTAZD

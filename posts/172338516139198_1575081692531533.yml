@@ -74,9 +74,6 @@ reactions:
   - id: '1791258444267523'
     name: Mostafa Elsayh
     type: LIKE
-  - id: '1421760921285603'
-    name: مؤمن هشام أحمد
-    type: LIKE
   - id: '10155452436628160'
     name: Osama S. Mokhtar
     type: LIKE
@@ -95,6 +92,9 @@ reactions:
   - id: '1985598625095777'
     name: Ahmad Bahaa
     type: LIKE
+  - id: '10211387034451165'
+    name: Ahmed Hussein
+    type: WOW
   - id: '10156223826832269'
     name: Ameer Adel
     type: LIKE
@@ -122,13 +122,6 @@ reactions:
       after: TVRBd01EQXdNekE1T1RRM01EZA3pPakUxTURJME5ETTBNemM2TWpVME1EazJNVFl4TXc9PQZDZD
 comments:
   data:
-  - created_time: '2017-08-11T09:43:51+0000'
-    from:
-      name: Nasser Mohammed Ali
-      id: '10213493310141587'
-    message: you can ask co-working spaces interested in the field if they have a
-      book shelf or something
-    id: '1575101535862882'
   - created_time: '2017-08-11T09:55:02+0000'
     from:
       name: Mohamed Morsy
@@ -180,6 +173,12 @@ comments:
       id: '2291612327522904'
     message: Discrte mathmatics and computer theory please- I'm at maadi
     id: '1575147765858259'
+  - created_time: '2017-08-11T11:05:42+0000'
+    from:
+      name: Ahmed Hussein
+      id: '10211387034451165'
+    message: Algorithms <3 :O :D
+    id: '1575149045858131'
   - created_time: '2017-08-11T11:08:54+0000'
     from:
       name: Met Wally
@@ -243,12 +242,6 @@ comments:
     message: I am willing to take all of them as we are creating a reading corner
       in our Cafe in Heliopolis
     id: '1575266142513088'
-  - created_time: '2017-08-11T14:39:27+0000'
-    from:
-      name: مؤمن هشام أحمد
-      id: '1421760921285603'
-    message: ممكن اخدهم انا لو حضرتك لسة مش تبرعتي بيهم لحد
-    id: '1575286865844349'
   - created_time: '2017-08-11T16:19:33+0000'
     from:
       name: Omar Fayed
@@ -399,7 +392,7 @@ comments:
     id: '1576496799056689'
   paging:
     cursors:
-      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUzTlRFd01UVXpOVGcyTWpnNE1qb3hOVEF5TkRRME5qTXgZD
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUzTlRFd05qZAzJNalV5T1RBeE5qb3hOVEF5TkRRMU16QXkZD
       after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUzTmpRNU5qYzVPVEExTmpZANE9Ub3hOVEF5TlRjeU5EWTIZD
 attachments:
   data:

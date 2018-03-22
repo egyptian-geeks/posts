@@ -19,13 +19,10 @@ reactions:
   - id: '1657509230977456'
     name: Hosam Aly
     type: LIKE
-  - id: '10215686755383013'
-    name: Aboubakr Gamal
-    type: LIKE
   paging:
     cursors:
       before: TVRBd01EQTNPRGt6TURZAMU9EWXdPakUwTlRJMk1qVTFNVE02TWpVME1EazJNVFl4TXc9PQZDZD
-      after: TVRJMk5qRTVNREF6T1RveE5EVXlOVFUzTXpnME9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRBd01EQXhOVFV4T0RRMk1EZAzBPakUwTlRJMU9EWTVNRGM2TWpVME1EazJNVFl4TXc9PQZDZD
 comments:
   data:
   - created_time: '2016-01-11T23:25:51+0000'
@@ -34,12 +31,6 @@ comments:
       id: '1962172197389574'
     message: http://demos.telerik.com/reporting/barcodes-report
     id: '1060931430613231'
-  - created_time: '2016-01-12T00:07:27+0000'
-    from:
-      name: Aboubakr Gamal
-      id: '10215686755383013'
-    message: "ابحث عن \nUniversal product code"
-    id: '1060943840611990'
   - created_time: '2016-01-12T08:19:23+0000'
     from:
       name: Hosam Aly

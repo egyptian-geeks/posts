@@ -22,6 +22,9 @@ reactions:
   - id: '1969998133040174'
     name: Fady Dawood
     type: LIKE
+  - id: '10159929493885634'
+    name: عمر أمين
+    type: LIKE
   - id: '10215070655377585'
     name: Mahmoud Kandeel
     type: LIKE
@@ -78,9 +81,6 @@ reactions:
     type: LIKE
   - id: '2184614908219238'
     name: Mohamed M-Gomaa
-    type: LIKE
-  - id: '1955441501387657'
-    name: Bassam Abd Elhamid
     type: LIKE
   - id: '10213985926195361'
     name: Ahmed Fawzy Omaira
@@ -238,7 +238,7 @@ attachments:
       - media:
           image:
             height: 720
-            src: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/14993538_1134629699948533_6777950390978401866_n.jpg?_nc_cat=0&oh=077eab00a86c21c4c18ed6b01e22bf8e&oe=5B417E02
+            src: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/14993538_1134629699948533_6777950390978401866_n.jpg?oh=077eab00a86c21c4c18ed6b01e22bf8e&oe=5B417E02
             width: 396
         target:
           id: '1134629699948533'

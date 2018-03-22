@@ -74,10 +74,13 @@ reactions:
   - id: '10155892561930993'
     name: Amr Ayman Zewar
     type: LIKE
+  - id: '10159929493885634'
+    name: عمر أمين
+    type: LIKE
   paging:
     cursors:
       before: TVRRMU5UQTFOakV5TVRveE5ETTNNVFl4TURRd09qSTFOREE1TmpFMk1UTT0ZD
-      after: TmpJMU56SXdPVGt5T2pFME16WTJOVGMwT0RVNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRjM016UXdOak16T2pFME16WTJOVGMwT0RFNk1qVTBNRGsyTVRZAeE13PT0ZD
 comments:
   data:
   - created_time: '2015-07-11T23:30:52+0000'
@@ -88,6 +91,13 @@ comments:
       Emad Elsaid Mohamed Meligy @
       Mohammad Tayseer
     id: '971119636261078'
+  - created_time: '2015-07-11T23:32:03+0000'
+    from:
+      name: عمر أمين
+      id: '10159929493885634'
+    message: انا فكرت في المشروع ده و اعتقد انه لطيف جدا جدا .. و ليه potential لطيف
+      للنجاح :)
+    id: '971119826261059'
   - created_time: '2015-07-11T23:32:15+0000'
     from:
       name: Mostafa Goher
@@ -100,6 +110,20 @@ comments:
       id: '1553410924755364'
     message: ana 3iez raa2eko anzeloh wla astan :D
     id: '971120156261026'
+  - created_time: '2015-07-11T23:33:14+0000'
+    from:
+      name: عمر أمين
+      id: '10159929493885634'
+    message: بس كانت ازمتي كلها في موضوع ازاي هجيب الداتا .. او فكرتك كويسة انك تستغل
+      الناس اللي شغالة بGPS في الاول .. حاول فيها تاني ..
+    id: '971120292927679'
+  - created_time: '2015-07-11T23:33:52+0000'
+    from:
+      name: عمر أمين
+      id: '10159929493885634'
+    message: بس انا مشرحش موضوع انك تعتمد علي الناس .. لان مش reliable .. اعتقد محتاج
+      تعيد موضوع انك توصل للشركات اللي تقدر من خلالها تجيب المعلومات دي
+    id: '971120382927670'
   - created_time: '2015-07-11T23:35:14+0000'
     from:
       name: Mohanad El-Hely
@@ -120,6 +144,23 @@ comments:
       id: '10211225443773296'
     message: شوف Google Maps بيحبوا الافكار دي اوي ع فكرة
     id: '971120759594299'
+  - created_time: '2015-07-11T23:36:40+0000'
+    from:
+      name: عمر أمين
+      id: '10159929493885634'
+    message: "يعني فكر معايا كده .. انت ناوي تlog لما هو يكون شغال بالGPS في اي مشوار
+      ليه صح ؟ \n\nانت مش متحكم في انك توصل لكل الطرق فاهم ؟ .. حتي لو اعتمدت علي
+      شركة معينة .. هيبقي فيه بعض الطرق مش كاملة .. \n\nو لو المستخدمين لبسوا مطب
+      و هم بيستخدموا الapp بتاعك .. كل سنة و انت طيب :D \nلانه هيبقي مبني علي الثقة
+      .. الواحد مطمن طالما الapp مقالوش حاجة .. + المطبات اللي بتطلع جديد اللي هو
+      واحد بييجي قدام بيته و يعمله مطب عادي :D .."
+    id: '971120836260958'
+  - created_time: '2015-07-11T23:36:46+0000'
+    from:
+      name: عمر أمين
+      id: '10159929493885634'
+    message: انت جربت الapp بتاعك ؟
+    id: '971120846260957'
   - created_time: '2015-07-11T23:37:07+0000'
     from:
       name: Ahmed Alaaeldin
@@ -127,6 +168,21 @@ comments:
     message: el mwdou3 msh sahl 3shan el fikra b algorithm mo3en msh baseta ya3ny
       w b3d m7awalat kbera ya3ny :D
     id: '971121002927608'
+  - created_time: '2015-07-11T23:38:00+0000'
+    from:
+      name: عمر أمين
+      id: '10159929493885634'
+    message: "@Amr تعتقد مش عاملينلها بلان او مش شغالة already برة مصر ؟ :D"
+    id: '971121179594257'
+  - created_time: '2015-07-11T23:39:12+0000'
+    from:
+      name: عمر أمين
+      id: '10159929493885634'
+    message: ارشح برضه .. انك تنبه الشخص اد ايه انت متاكد من معلوماتك في معظم الطرق
+      .. و لو الدنيا عندك مش validated اوي .. قوله ياخد باله .. كده ممكن تعتمد علي
+      الناس في الموضوع .. و  اعتقد for sure هتحتاج تعمل layer فوق google maps مش app
+      لوحده .. معرفش الfeasibility بتاعة الموضوع بس ده اللي كنت فكرت فيه
+    id: '971121406260901'
   - created_time: '2015-07-11T23:39:20+0000'
     from:
       name: Ahmed Alaaeldin
@@ -134,6 +190,21 @@ comments:
     message: maho el mwdou3 msh hyb2a mtbat bs fe afkar tania bs el moshkla m7tagen
       users 3shan kda fakrt f by2olak
     id: '971121452927563'
+  - created_time: '2015-07-11T23:40:28+0000'
+    from:
+      name: عمر أمين
+      id: '10159929493885634'
+    message: "bey2ollak بتتكلم عن الزحمة .. عن الحوادث و كده \n\nانما محدش هيعدي من
+      مطب و يreport احداثياته .. انا متوقع انك شغال بmachine learning algorithm معين
+      .. انه مثلا باستخدام Sensors الmobile يdetect حدوث مطبات او ما شابه"
+    id: '971121709594204'
+  - created_time: '2015-07-11T23:41:49+0000'
+    from:
+      name: عمر أمين
+      id: '10159929493885634'
+    message: يعني مثلا .. محدش هيلبس مطب .. و بعد ما يعديه يعملك reporting لمكانه
+      :D .. هيقعد يسب للبلد و يحسبن و يمشي :D
+    id: '971121906260851'
   - created_time: '2015-07-11T23:42:26+0000'
     from:
       name: Ahmed Alaaeldin
@@ -169,6 +240,13 @@ comments:
       id: '1553410924755364'
     message: maho el moshkla en mafesh database aw m7dsh rady ysa3dny beha :D
     id: '971122406260801'
+  - created_time: '2015-07-11T23:45:24+0000'
+    from:
+      name: عمر أمين
+      id: '10159929493885634'
+    message: بس bey2ollak سهل تعمل كده عشان عندها crowd ممكن يساعد .. انما لو بدأت
+      from scratch من غير crowd معتقدش الدنيا سهل
+    id: '971122466260795'
   - created_time: '2015-07-11T23:48:21+0000'
     from:
       name: Islam Waheed
@@ -252,6 +330,13 @@ comments:
       id: '1791277350884061'
     message: Mohamed Ramadan
     id: '971131709593204'
+  - created_time: '2015-07-12T00:28:04+0000'
+    from:
+      name: عمر أمين
+      id: '10159929493885634'
+    message: دايما شوف ان العيب في نفسك .. و متقولش ان العيب في الشركات ... مفيش شركة
+      هتعرف تقنعها انها كسبانة من حاجة و ترفض :)
+    id: '971132642926444'
   - created_time: '2015-07-12T00:32:55+0000'
     from:
       name: Mohamed Alaa El Din

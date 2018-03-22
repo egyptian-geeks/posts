@@ -78,6 +78,9 @@ reactions:
   - id: '1335681003204196'
     name: Hossam Mahmoud
     type: HAHA
+  - id: '10211387034451165'
+    name: Ahmed Hussein
+    type: ANGRY
   - id: '10155350259616947'
     name: Mahmoud Rizk
     type: HAHA
@@ -99,6 +102,13 @@ comments:
       id: '1744871132236191'
     message: What the actual fuck?!
     id: '1529467493759620'
+  - created_time: '2017-06-28T10:53:07+0000'
+    from:
+      name: Ahmed Hussein
+      id: '10211387034451165'
+    message: WTH, I am searching on facebook for a post like that, just to make sure
+      it's not me.
+    id: '1529472220425814'
   - created_time: '2017-06-28T10:57:49+0000'
     from:
       name: محمد
@@ -209,6 +219,12 @@ comments:
       id: '10155432639833282'
     message: رجع دلوقتى
     id: '1529565747083128'
+  - created_time: '2017-06-28T13:49:36+0000'
+    from:
+      name: Khaled Mahmoud
+      id: '1975108812755185'
+    message: currently working on TEdata
+    id: '1529629023743467'
   - created_time: '2017-06-28T18:54:54+0000'
     from:
       name: Bassam El-Shafei

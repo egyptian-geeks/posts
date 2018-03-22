@@ -10,31 +10,8 @@ created_time: '2017-06-27T03:02:40+0000'
 updated_time: '2017-06-27T22:54:20+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1528082027231500/
 id: '172338516139198_1528082027231500'
-reactions:
-  data:
-  - id: '10215686755383013'
-    name: Aboubakr Gamal
-    type: LIKE
-  paging:
-    cursors:
-      before: TVRJMk5qRTVNREF6T1RveE5EazROVE0wTkRVM09qSTFOREE1TmpFMk1UTT0ZD
-      after: TVRJMk5qRTVNREF6T1RveE5EazROVE0wTkRVM09qSTFOREE1TmpFMk1UTT0ZD
 comments:
   data:
-  - created_time: '2017-06-27T03:33:14+0000'
-    from:
-      name: Aboubakr Gamal
-      id: '10215686755383013'
-    message: "لو المواعيد مسجلة في قاعدة بيانات تقدر ت select بالتاريخ\nو في نفس الوقت
-      بيبقي في Status للفاتورة اذا كانت مدفوعة او لا \nSelect from invoice where dueDate
-      > 27/6/2017 and status== unapid"
-    id: '1528103523896017'
-  - created_time: '2017-06-27T03:34:07+0000'
-    from:
-      name: Aboubakr Gamal
-      id: '10215686755383013'
-    message: Select from invoice where dueDate < 27/6/2017 and status== unpaid
-    id: '1528104133895956'
   - created_time: '2017-06-27T17:32:16+0000'
     from:
       name: Momen Al Zalabany
@@ -59,5 +36,5 @@ comments:
     id: '1528929150480121'
   paging:
     cursors:
-      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV5T0RFd016VXlNemc1TmpBeE56b3hORGs0TlRNME16azAZD
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV5T0RjMU1qTTBOekUyTkRRMk9Eb3hORGs0TlRnME56TTIZD
       after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV5T0RreU9URTFNRFE0TURFeU1Ub3hORGs0TlRrNU5EQXgZD
