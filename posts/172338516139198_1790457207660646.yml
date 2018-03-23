@@ -8,7 +8,7 @@ from:
   id: '2461629930728686'
 type: status
 created_time: '2018-03-21T06:43:49+0000'
-updated_time: '2018-03-22T14:45:25+0000'
+updated_time: '2018-03-23T19:40:33+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1790457207660646/
 id: '172338516139198_1790457207660646'
 reactions:
@@ -86,7 +86,32 @@ comments:
 
       Node.js is powerful mainly because of its powerful parallel I/O, which you can see in Netflix for instance
     id: '1791911724181861'
+  - created_time: '2018-03-23T16:28:52+0000'
+    from:
+      name: Mohammad Fouad
+      id: '10155755444625845'
+    message: |-
+      Background, I use NodeJs in my company heavily and rely on it for so many things, however my answer for your scenario is #CertainlyNot!
+      Pros:
+      1- Node is more event driven than other languages, so it will make development easy since most of the banking work is triggered by events (transactions, etc.)
+
+      Cons:
+      1- Banking is #math, and a language that is not math friendly is certainly a bad fit.
+      2- Banking is #time, and a language that is not time or date friendly (read about dealing with time in JS) is not a good fit.
+      3- Banking needs stability, and a language that is fast changing and growing won't be a good fit.
+      4- Banking data is slow changing, schema is important, you MUST use a static language. Node is strong in dealing with Dynamic data and NoSQL, I "think" the community support for Node+RDBMS databases is horrible.
+      even if it is good, I doubt it will be up to latest Node standards (assuming there is a standard)
+    id: '1793038150735885'
+  - created_time: '2018-03-23T17:41:44+0000'
+    from:
+      name: Usama Fayez
+      id: '10155807421830280'
+    message: What is the scope of your project? Are you designing everything end-to-end
+      including connections and reading from the database, or are there web services
+      that are available and you're going to use to retrieve the data and initiate
+      the transactions?
+    id: '1793105387395828'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM1TURVek1qWXlNRGs0TmpRek9Eb3hOVEl4TmpFMU9USXcZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM1TVRreE1UY3lOREU0TVRnMk1Ub3hOVEl4TnpJNU9USXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM1TXpFd05UTTROek01TlRneU9Eb3hOVEl4T0RJMk9UQTEZD

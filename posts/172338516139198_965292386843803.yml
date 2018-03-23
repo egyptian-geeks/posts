@@ -12,6 +12,12 @@ permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/96529238
 id: '172338516139198_965292386843803'
 comments:
   data:
+  - created_time: '2015-06-28T15:19:01+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: You can easily find out yourself.
+    id: '965305593509149'
   - created_time: '2015-06-28T15:22:44+0000'
     from:
       name: Osama Soliman
@@ -20,6 +26,15 @@ comments:
       compression method ... but I think I won't be able to do calculations the right
       way"
     id: '965306986842343'
+  - created_time: '2015-06-28T15:27:27+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: There is no mechanism. Normal source files aren't compressed and compiled
+      files obviously retain no indentation. If you want to see how much difference
+      indentation makes, compare same source file's size after running AStyle/Beautifier/Tidy/Whatever
+      and after removing all spaces and tabs.
+    id: '965308393508869'
   - created_time: '2015-06-28T15:44:05+0000'
     from:
       name: Osama Soliman
@@ -28,6 +43,13 @@ comments:
       calculations as the mechanism of creating and storing files at certain size
       is wierd enough :(
     id: '965318666841175'
+  - created_time: '2015-06-28T15:50:19+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: I find this hard to believe. Most editors show a byte count in the bottom
+      bar. In Windows you can right click any file and look at the size entry.
+    id: '965323160174059'
   - created_time: '2015-06-28T18:33:15+0000'
     from:
       name: Ahmed Zaki
@@ -83,6 +105,14 @@ comments:
       I am pulling my hair right now :D !
       anyway I won't think about that topic again ... it's somehow like Km and Mile -_-
     id: '965529836820058'
+  - created_time: '2015-06-29T04:01:49+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: |-
+      - No one cares about source code file size
+      - You can easily google the difference between size and size on disk
+    id: '965554160150959'
   - created_time: '2015-06-29T08:05:28+0000'
     from:
       name: Mohamed Alaa El Din
@@ -92,5 +122,5 @@ comments:
     id: '965623496810692'
   paging:
     cursors:
-      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFkxTXpBMk9UZAzJPRFF5TXpRek9qRTBNelUxTURRNU5qUT0ZD
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFkxTXpBMU5Ua3pOVEE1TVRRNU9qRTBNelUxTURRM05ERT0ZD
       after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVFkxTmpJek5EazJPREV3TmpreU9qRTBNelUxTmpVeE1qZAz0ZD

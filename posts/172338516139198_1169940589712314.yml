@@ -19,6 +19,14 @@ permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/11699405
 id: '172338516139198_1169940589712314'
 comments:
   data:
+  - created_time: '2016-06-26T19:55:51+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: |-
+      Manually freeing memory isn't garbage collection. It's plain normal manual memory management.
+      Freeing resources when exiting scope is also provided in some programming languages. in C++, it's called RAII.
+    id: '1169943573045349'
   - created_time: '2016-06-26T19:59:27+0000'
     from:
       name: Mohamed Moshrif
@@ -89,5 +97,5 @@ comments:
     id: '1172676492772057'
   paging:
     cursors:
-      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUyT1RrME5EazBOak0zT0RVME5Ub3hORFkyT1RjeE1UWTMZD
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUyT1RrME16VTNNekEwTlRNME9Ub3hORFkyT1Rjd09UVXgZD
       after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUzTWpZAM05qUTVNamMzTWpBMU56b3hORFkzTXpRek1EWXcZD

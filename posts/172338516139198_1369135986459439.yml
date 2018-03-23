@@ -50,6 +50,9 @@ reactions:
   - id: '10216258779008653'
     name: Osama Mohamed
     type: LIKE
+  - id: '10155617973009177'
+    name: Muhammad Ebeid
+    type: LIKE
   - id: '10213594121941300'
     name: Karim Sonbol
     type: LIKE
@@ -58,9 +61,6 @@ reactions:
     type: LIKE
   - id: '10210967944618878'
     name: Abdelrahman Ibrahim
-    type: LIKE
-  - id: '10155833412931368'
-    name: Ahmed Moataz
     type: LIKE
   - id: '1805198366191303'
     name: محمد عبد الفتاح
@@ -161,9 +161,6 @@ reactions:
   - id: '1679466765471120'
     name: Amr Rashed
     type: LIKE
-  - id: '10203990338636211'
-    name: Abdullah El-menawy
-    type: HAHA
   - id: '1672196989490797'
     name: Islam Gad
     type: HAHA
@@ -428,9 +425,6 @@ reactions:
   - id: '10156274593643013'
     name: Amany Elguindy
     type: HAHA
-  - id: '1547784868645602'
-    name: Ahmed Salah El Din
-    type: HAHA
   - id: '563899367289665'
     name: Ahmed Samy
     type: LIKE
@@ -636,7 +630,7 @@ attachments:
     media:
       image:
         height: 481
-        src: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/16195728_10155088895819497_6129489358629683362_n.jpg?oh=db4ad9d20f7b03df14fa5179b8c0bdb8&oe=5B2AF9C5
+        src: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/16195728_10155088895819497_6129489358629683362_n.jpg?_nc_cat=0&oh=db4ad9d20f7b03df14fa5179b8c0bdb8&oe=5B2AF9C5
         width: 720
     target:
       id: '10155088895819497'

@@ -55,6 +55,14 @@ comments:
       I think this one is for lazy developers that want to automate everything they
       do.
     id: '1041557372550637'
+  - created_time: '2015-12-06T20:04:37+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: |-
+      Did someone say oneliners? :D
+      function sshez { u=$(echo $2|cut -f1 -d@);h=$(echo $2|cut -f2 -d@|cut -f1 -d:);p=$(echo $2|cut -f2 -d:); printf "\nHost $1\n\tUser $u\n\tHostName $h\n\tPort $p" >>~/.ssh/config;};
+    id: '1041564265883281'
   - created_time: '2015-12-06T20:17:38+0000'
     from:
       name: Khaled Gomaa
@@ -62,6 +70,23 @@ comments:
     message: If you handled removing aliases and I will definitely use that. A gem
       is just an easy way to share and install that's why I did it that way.
     id: '1041568535882854'
+  - created_time: '2015-12-06T20:45:16+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: |-
+      function ssh-remove { sed -i'' -e "/^Host $1\$/,+3d" ~/.ssh/config ;};
+      note: you need GNU sed for this
+    id: '1041577059215335'
+  - created_time: '2015-12-06T20:48:16+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: |-
+      And here the first one using sed too, less ugly than using cut:
+
+      function ssh-add { echo $2 | sed -e "s/\(.*\)@\(.*\):\(.*\)/%Host $1%^User \1%^HostName \2%^Port \3/" | tr % "\n" | tr ^ "\t" >>~/.ssh/config};
+    id: '1041577909215250'
   - created_time: '2015-12-06T20:51:23+0000'
     from:
       name: Mohamed El-Sayed
@@ -96,7 +121,7 @@ attachments:
   data:
   - description: sshez - If you have a lot of ips in mind. this is your keeper
     target:
-      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2FGomaaK%2Fsshez&h=ATMoD0t--Be1tuy6Aag1R6kBgWvt6V9MMcsstVzNqJHSmlKXGlRODn6ounFtjfV9-hffAo16weZMLVCJGe4MX1BkG_8yhjVhTVa82Jm7QZNrYdWSSOBb&s=1
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2FGomaaK%2Fsshez&h=ATNjEIJ9RDw2esJZvsn2CW0n9VHj7lUzZkQeVXFKsRQY0QakIK_GWtxAVufVzuxtOk6hOZkgZiWgbV5lgruItpD8yvfLjc5wnljpvBd751Bc5SAUZLfa&s=1
     title: GomaaK/sshez
     type: share
-    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2FGomaaK%2Fsshez&h=ATMoD0t--Be1tuy6Aag1R6kBgWvt6V9MMcsstVzNqJHSmlKXGlRODn6ounFtjfV9-hffAo16weZMLVCJGe4MX1BkG_8yhjVhTVa82Jm7QZNrYdWSSOBb&s=1
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2FGomaaK%2Fsshez&h=ATNjEIJ9RDw2esJZvsn2CW0n9VHj7lUzZkQeVXFKsRQY0QakIK_GWtxAVufVzuxtOk6hOZkgZiWgbV5lgruItpD8yvfLjc5wnljpvBd751Bc5SAUZLfa&s=1

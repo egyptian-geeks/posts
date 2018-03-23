@@ -67,6 +67,18 @@ comments:
       id: '10211045513280796'
     message: Guys it's C based not cpp
     id: '910412585665117'
+  - created_time: '2015-03-16T20:59:39+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: |-
+      Why are you asking for efficiency? The bottleneck will never be drawing the GUI, it's always the user.
+      That said in the long run, learning C++ with Qt would be the best if you want to do GUIs that are easily interacting with C.
+      If you plan on continuing Windows GUI development, you should know your way around the WinAPI too, so you might as well start learning it in your current project.
+      GTK+ Is also good but looks too ugly (unnative) for my taste.
+
+      Disclaimer: I don't do UIs in C.
+    id: '910419442331098'
   - created_time: '2015-03-16T21:23:12+0000'
     from:
       name: Ahmed Saleh

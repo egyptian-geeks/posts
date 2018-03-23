@@ -102,6 +102,9 @@ reactions:
   - id: '1958919217761339'
     name: Mahmoud A-Azim
     type: LIKE
+  - id: '1955441501387657'
+    name: Bassam Abd Elhamid
+    type: LIKE
   - id: '10215070655377585'
     name: Mahmoud Kandeel
     type: LIKE
@@ -165,9 +168,6 @@ reactions:
   - id: '10159889607765058'
     name: Ahmad Hisham
     type: LIKE
-  - id: '1547784868645602'
-    name: Ahmed Salah El Din
-    type: HAHA
   - id: '10154826556046618'
     name: Ashraf Gawdat
     type: LIKE
@@ -209,12 +209,6 @@ comments:
       id: '10154826556046618'
     message: Ahmed Eid Ahmed Adel Hossny
     id: '1248584935181212'
-  - created_time: '2016-10-03T22:11:41+0000'
-    from:
-      name: Ahmed Salah El Din
-      id: '1547784868645602'
-    message: So funny cuz I am in the exact situation! lol
-    id: '1248586991847673'
   - created_time: '2016-10-03T22:13:44+0000'
     from:
       name: Ibrahim Mohammed
@@ -235,6 +229,14 @@ comments:
     message: "This is the JS that people created for client side validation , lol
       \U0001F603 , i'm also stuck in the same situation a year ago \U0001F603"
     id: '1248681691838203'
+  - created_time: '2016-10-04T04:36:10+0000'
+    from:
+      name: Bassam Abd Elhamid
+      id: '1955441501387657'
+    message: فين ايام زمان, لما كانت الجافا اسكربت هى الاكواد الى بننسخها للصفحة عشان
+      تعمل نجوم تلف حوالين الموس او تغير لون اللنكات باستمرار او تعرض شريط اخبار الجزيرة
+      :D
+    id: '1248780688494970'
   - created_time: '2016-10-04T05:22:11+0000'
     from:
       name: Sameh Magdy
@@ -299,7 +301,7 @@ attachments:
         src: https://external.xx.fbcdn.net/safe_image.php?d=AQDM4JVWILsgdcdK&w=720&h=720&url=https%3A%2F%2Fcdn-images-1.medium.com%2Fmax%2F1200%2F1%2AraWO3dhM4jMjf9VY-kZzNg.png&cfs=1&_nc_hash=AQAL6vk99You2YmK
         width: 720
     target:
-      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fhackernoon.com%2Fhow-it-feels-to-learn-javascript-in-2016-d3a717dd577f%23.1jhlsna69&h=ATOxi2GP6o0ksTMYNNNkN0G6KmWgf8vnFT-Ux5ioqAyQqsexW4Vs7GsGc4Avxehk6JN_gdmvaF17kiMiL5jg28sh1fjLC6ShfPfOvg8sM_-nDubTzZoy&s=1
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fhackernoon.com%2Fhow-it-feels-to-learn-javascript-in-2016-d3a717dd577f%23.1jhlsna69&h=ATMMR-BiMjWCUNDGchSsrlZ5eC6usdsH9hTMzI_Nvj0O_-b0o28y80IOmPPwc4E4V4m4E4E3_0L2l1ytov-KKp9FpA6ArFq8z8_v3mgdAHFW95o6QeaO&s=1
     title: How it feels to learn Javascript in 2016
     type: share
-    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fhackernoon.com%2Fhow-it-feels-to-learn-javascript-in-2016-d3a717dd577f%23.1jhlsna69&h=ATOxi2GP6o0ksTMYNNNkN0G6KmWgf8vnFT-Ux5ioqAyQqsexW4Vs7GsGc4Avxehk6JN_gdmvaF17kiMiL5jg28sh1fjLC6ShfPfOvg8sM_-nDubTzZoy&s=1
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fhackernoon.com%2Fhow-it-feels-to-learn-javascript-in-2016-d3a717dd577f%23.1jhlsna69&h=ATMMR-BiMjWCUNDGchSsrlZ5eC6usdsH9hTMzI_Nvj0O_-b0o28y80IOmPPwc4E4V4m4E4E3_0L2l1ytov-KKp9FpA6ArFq8z8_v3mgdAHFW95o6QeaO&s=1

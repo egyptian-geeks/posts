@@ -138,7 +138,16 @@ comments:
       id: '10159851097570371'
     message: Assembly :)
     id: '1165927563446950'
+  - created_time: '2016-06-21T19:25:46+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: |-
+      لو القصد ب return هو ال early exit. فاللغات ال functional (اللي شفتها) ما بتدعمش كده.
+
+      لو القصد هو إرجاع قيمة عند إنتهاء الدالة فأظن Prolog الوحيدة من اللي مذكورين فوق عشان هي مش procedural أساسا.
+    id: '1166600833379623'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUyTlRVeU9UY3lNelE0Tmpjek5Eb3hORFkyTXprNU9EWTQZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUyTlRreU56VTJNelEwTmprMU1Eb3hORFkyTkRVeE16QXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUyTmpZAd01EZA3pNek0zT1RZAeU16b3hORFkyTlRNM01UUTMZD

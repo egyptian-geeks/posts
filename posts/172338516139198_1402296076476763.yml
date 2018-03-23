@@ -27,12 +27,30 @@ reactions:
       after: TVRBd01EQTRNakkwT1RVNE9ERXlPakUwT0RneE5UTTRPRFE2TWpVME1EazJNVFl4TXc9PQZDZD
 comments:
   data:
+  - created_time: '2017-02-27T00:12:40+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: |-
+      لو عايز تقص فيديو أو صوت ممكن تستخدم ffmpeg.
+      لو عايز تكتب على الصور، جرب مثلا GD أو أي مكتبة Graphics تانية.
+
+      الماتلاب فيه مكتبات مدمجة لفتح الصور والفيديو وده مفيد لو عايز تعمل signal processing. بس للحاجات السهلة فيه مكتبات جاهزة.
+    id: '1402316263141411'
   - created_time: '2017-02-27T00:36:57+0000'
     from:
       name: Geish
       id: '10100126826302216'
     message: For audio you can use sox, lame, and ffmpeg.
     id: '1402331059806598'
+  - created_time: '2017-02-27T04:02:14+0000'
+    from:
+      name: Bassam Abd Elhamid
+      id: '1955441501387657'
+    message: تلميح اضافى يمكن يكون ليه علاقة بالموضوع, معظم ان لم يكن كل لغات برمجة
+      الويب تتيح لك تشغيل برنامج خارجى على السرفر, مثلاً فى الدوت نت يمكنك استخدام
+      سيستم دوت داجنوستك دوت بروسيس وفى البى اتش بى يمكنك استخدام shell_exec.
+    id: '1402518406454530'
   - created_time: '2017-02-27T12:44:29+0000'
     from:
       name: Hassan Aly Selim
@@ -49,5 +67,5 @@ comments:
     id: '1402914713081566'
   paging:
     cursors:
-      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF3TWpNek1UQTFPVGd3TmpVNU9Eb3hORGc0TVRVMU9ERTMZD
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF3TWpNeE5qSTJNekUwTVRReE1Ub3hORGc0TVRVME16WXcZD
       after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFF3TWpreE5EY3hNekE0TVRVMk5qb3hORGc0TWpBeU5qQTQZD

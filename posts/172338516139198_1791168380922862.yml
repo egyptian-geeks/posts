@@ -5,13 +5,31 @@ from:
   id: '1615379065212042'
 type: status
 created_time: '2018-03-21T20:41:55+0000'
-updated_time: '2018-03-22T22:26:45+0000'
+updated_time: '2018-03-23T10:13:32+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1791168380922862/
 shares:
-  count: 11
+  count: 12
 id: '172338516139198_1791168380922862'
 reactions:
   data:
+  - id: '10160053301630327'
+    name: Amr Abdel-Ghaffar
+    type: LIKE
+  - id: '10155865386126648'
+    name: Aser Ahmad
+    type: LIKE
+  - id: '1992382594366191'
+    name: Ali Hefny
+    type: LIKE
+  - id: '1930008130345906'
+    name: Mohammed Magdi
+    type: LIKE
+  - id: '10160371157695045'
+    name: Peter Mounir
+    type: LIKE
+  - id: '10156179627726738'
+    name: Hany Said
+    type: LIKE
   - id: '10155502591672779'
     name: Mo'men Bauomy
     type: LIKE
@@ -60,9 +78,6 @@ reactions:
   - id: '2025844137456286'
     name: Mostafa Abobakr
     type: LOVE
-  - id: '151101465591604'
-    name: محمد عبد المنعم
-    type: LIKE
   - id: '2096403500646050'
     name: Soliman Dawood
     type: LIKE
@@ -107,7 +122,7 @@ reactions:
     type: LOVE
   paging:
     cursors:
-      before: TmpVNE5ESTNOemM0T2pFMU1qRTNOVGc0TWpNNk1qVTBNRGsyTVRZAeE13PT0ZD
+      before: TmprNU5UUXdNekkyT2pFMU1qRTRNekl5TVRjNk1qVTBNRGsyTVRZAeE13PT0ZD
       after: TlRrMU1USTFOalk1T2pFMU1qRTJOalE1TkRZANk56ZAzROalE0TURNM09URXpNekV5
 comments:
   data:
@@ -130,10 +145,22 @@ comments:
       id: '341733092975528'
     message: اخيرا حد بيشرح graphql عربي :D :D بس عاش الفيديوهات جميلة
     id: '1792266244146409'
+  - created_time: '2018-03-23T01:03:18+0000'
+    from:
+      name: Mohamed Talaat Mahlies
+      id: '10156085462929907'
+    message: "الله ينور يا مدحت. \nعظيم جدا يا صديق"
+    id: '1792360050803695'
+  - created_time: '2018-03-23T10:13:29+0000'
+    from:
+      name: Aly Zidan
+      id: '10215327404682423'
+    message: "انا اتفرجت علي الفيديو بتاع الويب باك بتاعك \nماشاء الله ممتاز"
+    id: '1792698170769883'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM1TVRFMk9Ea3hOelU0T1RRM05Ub3hOVEl4TmpZAME9UWXgZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM1TWpJMk5qSTBOREUwTmpRd09Ub3hOVEl4TnpVM05qQXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM1TWpZANU9ERTNNRGMyT1RnNE16b3hOVEl4T0RBd01EQTUZD
 attachments:
   data:
   - description: "لكل الناس اللى عاوزين يتعلموا GraphQL .. دول ٣ فيديوهات هيعلموك
@@ -150,7 +177,7 @@ attachments:
     media:
       image:
         height: 405
-        src: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/28828665_1672514729498475_6178179940550608742_o.jpg?_nc_cat=0&oh=5ace9e151a334c9fd78a90ddcfa72c6b&oe=5B410704
+        src: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/28828665_1672514729498475_6178179940550608742_o.jpg?oh=5ace9e151a334c9fd78a90ddcfa72c6b&oe=5B410704
         width: 720
     target:
       url: https://www.facebook.com/photo.php?fbid=1672514729498475&set=p.1672514729498475&type=3

@@ -54,6 +54,13 @@ comments:
 
       As to how you can inform the user about what's happening, you can easily make that console command insert logs or update in a database or write to file and then show these updates to the user.
     id: '1492731804099856'
+  - created_time: '2017-05-25T09:50:08+0000'
+    from:
+      name: Bassam Abd Elhamid
+      id: '1955441501387657'
+    message: Another tip is to disable any indices in the table that you insert into,
+      temporarily.
+    id: '1492745764098460'
   - created_time: '2017-05-25T09:51:52+0000'
     from:
       name: Ahmed Fekry Habib

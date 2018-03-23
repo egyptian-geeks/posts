@@ -14,7 +14,7 @@ from:
   name: Wajdy Essam
   id: '1790752040956076'
 type: photo
-picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/36612_601134139918241_1292463548_n.jpg?_nc_cat=0&oh=d3c32bc11c708feaf0fd18f18fd5ea72&oe=5B41624A
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/36612_601134139918241_1292463548_n.jpg?oh=d3c32bc11c708feaf0fd18f18fd5ea72&oe=5B41624A
 created_time: '2016-01-30T10:08:49+0000'
 updated_time: '2016-01-30T23:57:37+0000'
 name: معلومات برمجية
@@ -178,10 +178,16 @@ comments:
       id: '1944835295781512'
     message: أحمد عادل تحفه بص عليهم
     id: '1071065909599783'
+  - created_time: '2016-01-30T23:57:37+0000'
+    from:
+      name: Ibrahim Mohamed
+      id: '10210785782062877'
+    message: Mohamed Sameer Abdalla
+    id: '1071075362932171'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEEzTURjM05ESTNPVFl5T0RrME5qb3hORFUwTVRRNU1qZAzIZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEEzTVRBMk5Ua3dPVFU1T1RjNE16b3hORFUwTVRrMU9URXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEEzTVRBM05UTTJNamt6TWpFM01Ub3hORFUwTVRrNE1qVTMZD
 attachments:
   data:
   - description: "مشاريع جامعه ستانفورد لكورس معالجة الصور ، متوفرة للتحميل مع ال
@@ -197,7 +203,7 @@ attachments:
     media:
       image:
         height: 480
-        src: https://scontent.xx.fbcdn.net/v/t1.0-9/36612_601134139918241_1292463548_n.jpg?oh=13a3e3c84b5138f1cb5349e14fe0dd19&oe=5B2829C8
+        src: https://scontent.xx.fbcdn.net/v/t1.0-9/36612_601134139918241_1292463548_n.jpg?_nc_cat=0&oh=13a3e3c84b5138f1cb5349e14fe0dd19&oe=5B2829C8
         width: 640
     target:
       id: '601134139918241'

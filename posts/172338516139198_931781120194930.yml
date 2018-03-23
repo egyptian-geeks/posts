@@ -90,6 +90,16 @@ comments:
       id: '10156256566230530'
     message: Can you minify it?
     id: '931824876857221'
+  - created_time: '2015-04-26T13:04:31+0000'
+    from:
+      name: Ahmad Fatoum
+      id: '1356410114464931'
+    message: |-
+      What I predict: A standard VM model for web browsers. No silly arguments about JS then, people will be able to compile their favourite assembly language to bytecode and just include it.
+      And this book will become reality as it ought.
+
+      But seriously speaking, I do think the asm.js approach is the future. Better than silly source level translation from python to javascript at **client side** (You are interpreting a subset of python on top of javascript to output a subset of javascript that you then can feed into the javascript interpreter; for what? so end users who shouldn't read the code anyway, can see python instead of JS?).
+    id: '931828960190146'
   - created_time: '2015-04-26T13:24:42+0000'
     from:
       name: Mohamed Samy
@@ -209,7 +219,7 @@ attachments:
         src: https://external.xx.fbcdn.net/safe_image.php?d=AQD9zN93d7Bzr4UL&w=720&h=720&url=http%3A%2F%2Fwww.brython.info%2Fbrython.svg&cfs=1&_nc_hash=AQCtKRlXwEGIela1
         width: 720
     target:
-      url: http://l.facebook.com/l.php?u=http%3A%2F%2Fwww.brython.info%2Findex.html&h=ATMZtsVuoW1tjPn9NFMe-0j3BW4u0wjvbmImZZRdSXgSrlnIrPTS2HZNzqnGpad92kkpIgTM16Q3XNsxlO7uPmNzX_L1dz1_Moie_AK96wdkzCs-Asrg&s=1
+      url: http://l.facebook.com/l.php?u=http%3A%2F%2Fwww.brython.info%2Findex.html&h=ATNcfvHvc74_nC7AKYwG033Be_mGr7D1ZZB8AfkXCD9EaMzNw01Url3n-zd46JaEAnWfaa8vsNiNba2ab4S5UEuFBIUsH08qNb1Vy7thUTt4fihLR00u&s=1
     title: Brython
     type: share
-    url: http://l.facebook.com/l.php?u=http%3A%2F%2Fwww.brython.info%2Findex.html&h=ATMZtsVuoW1tjPn9NFMe-0j3BW4u0wjvbmImZZRdSXgSrlnIrPTS2HZNzqnGpad92kkpIgTM16Q3XNsxlO7uPmNzX_L1dz1_Moie_AK96wdkzCs-Asrg&s=1
+    url: http://l.facebook.com/l.php?u=http%3A%2F%2Fwww.brython.info%2Findex.html&h=ATNcfvHvc74_nC7AKYwG033Be_mGr7D1ZZB8AfkXCD9EaMzNw01Url3n-zd46JaEAnWfaa8vsNiNba2ab4S5UEuFBIUsH08qNb1Vy7thUTt4fihLR00u&s=1
