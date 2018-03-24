@@ -8,11 +8,14 @@ from:
   id: '2461629930728686'
 type: status
 created_time: '2018-03-21T06:43:49+0000'
-updated_time: '2018-03-23T19:40:33+0000'
+updated_time: '2018-03-24T22:49:31+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1790457207660646/
 id: '172338516139198_1790457207660646'
 reactions:
   data:
+  - id: '1189827847786642'
+    name: Abdelrhman Elsaid
+    type: LIKE
   - id: '10156165643313420'
     name: Tony Raoul Iscaros
     type: LIKE
@@ -24,7 +27,7 @@ reactions:
     type: LIKE
   paging:
     cursors:
-      before: TlRNeU1qQTROREU1T2pFMU1qRTJOVEUyTnpnNk1qVTBNRGsyTVRZAeE13PT0ZD
+      before: TVRBd01EQXlOemd6TVRNME16WXdPakUxTWpFNE56ZAzNOekE2TWpVME1EazJNVFl4TXc9PQZDZD
       after: TVRBd01ESXhOalU1T1RjeE9EYzBPakUxTWpFMk1UVXlNVGs2TWpVME1EazJNVFl4TXc9PQZDZD
 comments:
   data:
@@ -111,7 +114,27 @@ comments:
       that are available and you're going to use to retrieve the data and initiate
       the transactions?
     id: '1793105387395828'
+  - created_time: '2018-03-24T01:34:48+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: I don't get why you are considering using nodejs for any application
+      at all? The only reason I see is that some people only know Javascript and are
+      not comfortable in any other language. Other than that, if you seek a dynamic
+      language, then Python, C#, Java, Ruby ... etc
+    id: '1793436514029382'
+  - created_time: '2018-03-24T22:49:27+0000'
+    from:
+      name: Mohamed Shaaban
+      id: '10156259295924301'
+    message: |-
+      Just a side note:
+
+      For such a big system, you don't have to choose one and only one language.
+
+      With the help of current architectures (e.g. microservice) you could build the most critical part using the most secure, static-typed, fastest,  cheapest language (if there is any), and for the other parts pick whatever suits that part in terms of resources or whatever metric you have.
+    id: '1794358217270545'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM1TURVek1qWXlNRGs0TmpRek9Eb3hOVEl4TmpFMU9USXcZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM1TXpFd05UTTROek01TlRneU9Eb3hOVEl4T0RJMk9UQTEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM1TkRNMU9ESXhOekkzTURVME5Ub3hOVEl4T1RNeE56WTQZD

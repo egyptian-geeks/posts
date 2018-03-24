@@ -166,7 +166,7 @@ comments:
     id: '1534423033264066'
   - created_time: '2017-07-02T10:18:04+0000'
     from:
-      name: Rhea Hassanein
+      name: Rhea
       id: '873798642778664'
     message: |-
       I'd suggest you check your wordpress PHP files for any strange code or hidden files, I suspect your case is similar to this:
@@ -174,7 +174,7 @@ comments:
     id: '1534451616594541'
   - created_time: '2017-07-02T10:22:06+0000'
     from:
-      name: Rhea Hassanein
+      name: Rhea
       id: '873798642778664'
     message: Also consider using the free letsencrypt SSL certificates, maybe that'd
       make it harder for them to intercept your 404 responses (if that's the case

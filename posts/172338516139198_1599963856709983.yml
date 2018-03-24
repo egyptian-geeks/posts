@@ -127,9 +127,6 @@ reactions:
   - id: '289957711528127'
     name: Ibrahim Yousry Kotb
     type: LIKE
-  - id: '343522962721862'
-    name: Salma Khaled
-    type: LIKE
   - id: '887911344716178'
     name: Ahmed Ramzy
     type: ANGRY
@@ -306,6 +303,9 @@ reactions:
     type: LIKE
   - id: '10156138503626383'
     name: Amr Reda
+    type: LIKE
+  - id: '560704690946528'
+    name: Amr Saeed
     type: LIKE
   - id: '1169766573157316'
     name: Omar Adel
@@ -706,6 +706,9 @@ reactions:
   - id: '10155895263189003'
     name: Khaled Hamed
     type: LIKE
+  - id: '1884164018304424'
+    name: Fatima Gomaa
+    type: LIKE
   - id: '10155019881421751'
     name: Khalid Abdallah
     type: LIKE
@@ -828,6 +831,13 @@ comments:
       اللي هو متخيل انه كده وفره للشركه هيكتشف انه وبعض الحمير سواء.. مش كلهم لان
       في منهم بيفهم أحسن!
     id: '1600111266695242'
+  - created_time: '2017-09-06T16:04:27+0000'
+    from:
+      name: Amr Saeed
+      id: '560704690946528'
+    message: ربنا يعوض عليك و يكرمك بالأحسن و كتر خيرك على إنك بغض النظر عن الموضوع
+      نفسه قلت تنبه غيرك و ربنا يجعله في ميزان حسناتك بإذن الله
+    id: '1600161796690189'
   - created_time: '2017-09-06T16:41:17+0000'
     from:
       name: Mohamed Moshrif

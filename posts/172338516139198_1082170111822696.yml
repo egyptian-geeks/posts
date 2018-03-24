@@ -47,15 +47,7 @@ comments:
       IQueryable, is used when you want to build a queryor conditional query. For example, your function may take a filter or may not, hence you need to build your query first then execute it.
       IEnumerable, is used when you "خلاص" will execute the query, or in other words, you want to bring your query data into memory.
     id: '1082362438470130'
-  - created_time: '2016-02-18T16:28:20+0000'
-    from:
-      name: Karim Atef Mansour
-      id: '10211508984621741'
-    message: |-
-      bos ya m3allem akbar far2 bain-hom howa en IQueryable  lw 3malt 3lai ai linq expression (any linq) it will go to the database server and execute a query matches the linq expression
-      but IEnumerable da mesh by7sal 3laih da lama bt-execute ai linq byet3mael m3a enumerator bta3oh 3la 6ool :D
-    id: '1082370931802614'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE0TWpFM09EWXdOVEUxTlRFNE1Eb3hORFUxTnpnNE5UVXoZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE0TWpNM01Ea3pNVGd3TWpZAeE5Eb3hORFUxT0RFeU9UQXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE0TWpNMk1qUXpPRFEzTURFek1Eb3hORFUxT0RFeE5EZA3cZD
