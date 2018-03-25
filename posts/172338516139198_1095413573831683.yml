@@ -17,6 +17,30 @@ permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/10954135
 id: '172338516139198_1095413573831683'
 comments:
   data:
+  - created_time: '2016-03-11T16:19:18+0000'
+    from:
+      name: Mohamed Nabil
+      id: '10214391993461017'
+    message: |-
+      Try this test case: {1,0,3,2}
+
+      Making the pivot 3 will make the algorithm ignore the existence of the last element, this happened because of this part.
+      http://pastebin.com/Gp659VEH
+      in the second while loop, when it goes in the first iteration it doesn't actually change the last element with the pivot, when the pivot+1 is the last element while doing the swapping part it doesn't swap them it keeps the array as it is which is wrong.
+      Debugging
+      temp= 2 *pivot= 3 *(pivot+1)= 2 *last= 2
+      temp= 2 *pivot= 3 *(pivot+1)= 3 *last= 3
+      temp= 2 *pivot= 3 *(pivot+1)= 3 *last= 3
+      temp= 2 *pivot= 3 *(pivot+1)= 2 *last= 2
+      so after this nothing changed in the array.
+
+      To fix the problem I added another if inside the previously mentioned if, it checks if the pivot+1 == last then it makes a normal swap otherwise it does the previous work.
+      The fixed code: http://pastebin.com/amGJmqVn
+      Another thing I commented this whole if "if(*(pivot+1)<*pivot)" http://pastebin.com/0xd4ZAAE the program's behaviour didn't change so I suspect it is a redundant code but I'm not sure.
+
+      Try using small test cases instead of using random test cases generator, the first test case that I tried was very trivial {0, 1} and it failed directly.
+      Lastly, I don't recommend using such a code in anything, even after debugging it I'm not sure that it will work properly its very hard to trace or to find any bugs in it and the pointers are very irritating and confusing, try rewriting it again without the pointers I don't think it will produce much overhead in either time or memory.
+    id: '1095465567159817'
   - created_time: '2016-03-11T16:46:41+0000'
     from:
       name: Mohamed Gamal
@@ -27,13 +51,13 @@ comments:
     id: '1095475990492108'
   paging:
     cursors:
-      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE1TlRRM05UazVNRFE1TWpFd09Eb3hORFUzTnpFME9EQXgZD
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE1TlRRMk5UVTJOekUxT1RneE56b3hORFUzTnpFek1UWXcZD
       after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEE1TlRRM05UazVNRFE1TWpFd09Eb3hORFUzTnpFME9EQXgZD
 attachments:
   data:
   - description: Implementation of quick sort algorithm in C
     target:
-      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgist.github.com%2FJiMadness%2F0306568ecc5329d9e5d1&h=ATOD6o7PkBmvYaFm5qqafooWQqy3iMcEoWTVIBR6GtHBpcIcJDVt0Z7vU76zJ4wPNKIpwtyXjdlDD5QZlvqhcH9zX69ZwnHcmqagMCsiM7btFML45yFa&s=1
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgist.github.com%2FJiMadness%2F0306568ecc5329d9e5d1&h=ATO7-6B9v37_v23Kr2OsWEohXHKFniN6IT1URciKM-sSMY0oKQUEjQNxkeGt_ZIBLkPPnbGfamKs08YW_xBNlgOwozbiTlud782M-gCIaL-k7IR6hKyE&s=1
     title: Implementation of quick sort algorithm in C
     type: share
-    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgist.github.com%2FJiMadness%2F0306568ecc5329d9e5d1&h=ATOD6o7PkBmvYaFm5qqafooWQqy3iMcEoWTVIBR6GtHBpcIcJDVt0Z7vU76zJ4wPNKIpwtyXjdlDD5QZlvqhcH9zX69ZwnHcmqagMCsiM7btFML45yFa&s=1
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgist.github.com%2FJiMadness%2F0306568ecc5329d9e5d1&h=ATO7-6B9v37_v23Kr2OsWEohXHKFniN6IT1URciKM-sSMY0oKQUEjQNxkeGt_ZIBLkPPnbGfamKs08YW_xBNlgOwozbiTlud782M-gCIaL-k7IR6hKyE&s=1

@@ -36,7 +36,17 @@ comments:
       http://www.phaget4.org/R/image_matrix.html\n-- http://www2.warwick.ac.uk/fac/sci/moac/people/students/peter_cock/r/matrix_contour/\n\nOctave
       is another opensource good option: https://www.gnu.org/software/octave/"
     id: '992124720827236'
+  - created_time: '2015-08-19T11:29:41+0000'
+    from:
+      name: Mohamed Nabil
+      id: '10214391993461017'
+    message: "You could try Octave:\nLet matrix A be the matrix you want to plot,\nimagesc(A)
+      \ \n%would give different color representation for each number.\nimagesc(A),
+      colorbar, colormap gray;\n% same thing but with different shades of gray.\n\nThis
+      would probably work on Matlab too (as most commands work on Octave work on Matlab),
+      however I only tried it on Octave."
+    id: '992134074159634'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVGt5TVRJd09ERXdPREkzTmpJM09qRTBNems1T0RBME9UTT0ZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVGt5TVRJME56SXdPREkzTWpNMk9qRTBNems1T0RFMk1qRT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVGt5TVRNME1EYzBNVFU1TmpNME9qRTBNems1T0RNM09ERT0ZD

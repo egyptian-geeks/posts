@@ -8,12 +8,29 @@ from:
 type: link
 picture: https://external.xx.fbcdn.net/safe_image.php?d=AQBrUvcEqJfDu9mP&w=130&h=130&url=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FDY_MAsOVMAEp8CW.jpg%3Alarge&cfs=1&_nc_hash=AQCcmiRcjT790FSd
 created_time: '2018-03-24T18:08:09+0000'
-updated_time: '2018-03-24T20:05:06+0000'
+updated_time: '2018-03-25T19:36:07+0000'
 name: vladimir wolstencroft on Twitter
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1793923307314036/
+shares:
+  count: 1
 id: '172338516139198_1793923307314036'
 reactions:
   data:
+  - id: '10215352706918859'
+    name: Mohamed Ahmed Zidan
+    type: LIKE
+  - id: '10156161428368658'
+    name: Amr Mekkawy
+    type: LIKE
+  - id: '1208358265962928'
+    name: Muhammad Tarek
+    type: LIKE
+  - id: '10215232240456289'
+    name: Ahmed Saber
+    type: LIKE
+  - id: '10155019881421751'
+    name: Khalid Abdallah
+    type: LIKE
   - id: '714462715416491'
     name: Emy Ahmad
     type: LIKE
@@ -31,7 +48,7 @@ reactions:
     type: LIKE
   paging:
     cursors:
-      before: TVRBd01EQTFOVGd6TURZAeU9Ea3pPakUxTWpFNU1qazJOVFU2TWpVME1EazJNVFl4TXc9PQZDZD
+      before: TVRRM01UWTNPRFV4TXpveE5USXhPVFkzTlRnM09qSTFOREE1TmpFMk1UTT0ZD
       after: TVRBd01EQXlOVE01TlRjNU9UZAzNPakUxTWpFNU1UVTVPRFU2TWpVME1EazJNVFl4TXc9PQZDZD
 comments:
   data:
@@ -56,10 +73,24 @@ comments:
       I think new versions of most of modern browsers encode domain names to ascii using punycode before displaying them to the user
       You can try it yourself and check your browser behavior
     id: '1794244443948589'
+  - created_time: '2018-03-25T05:15:32+0000'
+    from:
+      name: Ahmed Atef
+      id: '10156122235026834'
+    message: this was and old issue related to some letters and it a human eye can't
+      spot the difference, it's browsers issue, i think it was reported months ago
+    id: '1794617610577939'
+  - created_time: '2018-03-25T19:13:59+0000'
+    from:
+      name: Ahmed Shabana Al-Saigh
+      id: '10154916632286595'
+    message: "الموضوع ده خطر جدا. مش معقول نقعد نعمل Unicode to hex \nونقعد نراجع
+      كل حرف"
+    id: '1795232263849807'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM1TkRFMU9UZA3dOekk1TURNNE5qb3hOVEl4T1RFMU1URXgZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM1TkRJME5EUTBNemswT0RVNE9Ub3hOVEl4T1RJeE9UQXoZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM1TlRJek1qSTJNemcwT1Rnd056b3hOVEl5TURBMU1qTTUZD
 attachments:
   data:
   - description: "“Spot the difference: One is a fake domain utilizing Russian letters
@@ -71,7 +102,7 @@ attachments:
         src: https://external.xx.fbcdn.net/safe_image.php?d=AQDzSkQ_lGZ3FwIl&w=720&h=720&url=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FDY_MAsOVMAEp8CW.jpg%3Alarge&cfs=1&_nc_hash=AQA-Z3RNbHWqoPNa
         width: 302
     target:
-      url: https://l.facebook.com/l.php?u=https%3A%2F%2Ftwitter.com%2Fvladwolfenstein%2Fstatus%2F977224057853825026&h=ATPaV6fTy_Zv4hQ430v8d3ncH7SKEjf7d2Ba-D6uddyLq2Y45toiJtucrEhccR2AUXzjBhEWjSND1SOWQLvDvzKSjxjPxPgx1a-gx0yf3QguaMbii9U6&s=1
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Ftwitter.com%2Fvladwolfenstein%2Fstatus%2F977224057853825026&h=ATMua2kiJ7XomZW2v5g7dUZ2w-rWDfoUyFbeJwonDv0V6bCocGPEkbWsmSSg6E5lThQqgCYUu-IZnQLEKA8TCXzUvXJ0JxGEnzPyLoHd70AofNOx8qs0&s=1
     title: vladimir wolstencroft on Twitter
     type: share
-    url: https://l.facebook.com/l.php?u=https%3A%2F%2Ftwitter.com%2Fvladwolfenstein%2Fstatus%2F977224057853825026&h=ATPaV6fTy_Zv4hQ430v8d3ncH7SKEjf7d2Ba-D6uddyLq2Y45toiJtucrEhccR2AUXzjBhEWjSND1SOWQLvDvzKSjxjPxPgx1a-gx0yf3QguaMbii9U6&s=1
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Ftwitter.com%2Fvladwolfenstein%2Fstatus%2F977224057853825026&h=ATMua2kiJ7XomZW2v5g7dUZ2w-rWDfoUyFbeJwonDv0V6bCocGPEkbWsmSSg6E5lThQqgCYUu-IZnQLEKA8TCXzUvXJ0JxGEnzPyLoHd70AofNOx8qs0&s=1
