@@ -56,16 +56,6 @@ comments:
       id: '10159785596675386'
     message: خلص الكلام
     id: '1441668362539534'
-  - created_time: '2017-04-03T19:44:04+0000'
-    from:
-      name: Mohamed Abdelghani
-      id: '1854642424546313'
-    message: "طيب وليه ما تسجلش انت بيانات العميل عندك وتستخدمها بعد كدا, PaymenMethod\nId\nName
-      [PayPal - Credit- Cash - Mobile\nType [paypal - credit - cash \nImageUrl\nPaymentMethodAvailability\nId\nPaymentMethodId\nCountryId\nCreated\nLastUpdated\nDeleted\n\nUserPaymentMethod\nId\nPaymentMethodId\nLastUsed\n\nPayment\nId\nPaymentMethodId\nAmount\nCurrencyId\nDate
-      //The date the payment was processed. \nRequestId\nStatusId\n\nPaymentStatus\nId\nName
-      [Cancelled, Comleted, Disputed, challenged]\n\nPaymentLineItem\nId\nPaymentId\nName\nAmount\nPaymentPayPal\nId\nPaymentId
-      --FK points to Table Payments\nTransactionNo\nPaymentMobile\nId\nPaymentId\nMobilePaymentAccountId\nPaymentCredit\nId\nPaymentId\nCreditCardId"
-    id: '1441672672539103'
   - created_time: '2017-04-03T19:50:58+0000'
     from:
       name: Mohamed Fergany

@@ -1,0 +1,52 @@
+---
+message: |-
+  Geeks,
+
+  Any suggestion for a  node package to get tweets from Twitter by keyword and post them on a slack channel?
+
+  Thank you
+from:
+  name: Mahmoud El Kotoury
+  id: '10159892786570537'
+type: status
+created_time: '2018-03-26T05:37:12+0000'
+updated_time: '2018-03-26T20:37:58+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1795223643850669/
+id: '172338516139198_1795223643850669'
+reactions:
+  data:
+  - id: '954749568014863'
+    name: Mohamed Taweela
+    type: LIKE
+  - id: '10208589347930685'
+    name: Ahmed Ayman
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTBNemswT0RVd05UUTRPakUxTWpJd05qRXdOalk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRneE9EZAzROakF6TURveE5USXlNRFF6TURjM09qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2018-03-26T10:04:49+0000'
+    from:
+      name: Soliman Mahmoud Soliman
+      id: '1636111006481619'
+    message: Nodetwittering
+    id: '1795830347123332'
+  - created_time: '2018-03-26T19:35:35+0000'
+    from:
+      name: Tony Raoul Iscaros
+      id: '10156165643313420'
+    message: If you want to make a slack bot why not check ifttt ?
+    id: '1796310807075286'
+  - created_time: '2018-03-26T19:36:52+0000'
+    from:
+      name: Tony Raoul Iscaros
+      id: '10156165643313420'
+    message: Finding a single package that do both is absurd , use a Twitter package
+      and webhooks package
+    id: '1796311627075204'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM1TlRnek1ETTBOekV5TXpNek1qb3hOVEl5TURVNE5qa3cZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM1TmpNeE1UWXlOekEzTlRJd05Eb3hOVEl5TURrek1ERXkZD

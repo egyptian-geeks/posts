@@ -179,29 +179,6 @@ comments:
       Working effectively with legacy code, Michael feathers
       Refactoring to patterns
     id: '1354597537913284'
-  - created_time: '2017-01-14T20:29:35+0000'
-    from:
-      name: Mohamed Abdelghani
-      id: '1854642424546313'
-    message: 'Try to follow some sort of coding guidelines such as Naming Conventions(variables,
-      classes,functions ,...) small things but makes a big difference, also read about
-      the best practices of the language you use. as others suggest Robert Martin''s
-      Clean code is the best book to read in this topic. here are a few points that
-      will help you: Names: use intention revealing names, If a name requires a comment,
-      then the name doesn''t reveal it''s intent. don''t encode the container type
-      into the name. if names must be different, then they should also mean something
-      different (Avoid noise words product-productInfo-ProductData!). Longer names
-      trump shorter names and any searchable name trumps a constant in code. Pick
-      one word per concept (consistent names). Avid using the same word for 2 purposes.
-      Add meaningful context( by enclosing names in well-named classes, functions,
-      namespaces). class name must be noun or noun phrase. Function name must be verb
-      or verb phrase. FUNCTIONS do one thing (one level of abstraction). The ideal
-      number Function Arguments is Zero(better for readability & testing). Functions
-      should have no side effects(Ex: Change global variables). Avoid output arguments.
-      Extract try/catch blocks out into functions of their own. Error handling is
-      one thing(function that do nothing else). DRY (don''t repeat yourself). read
-      about SOLID. More and More when you read the book.'
-    id: '1354602954579409'
   - created_time: '2017-01-14T23:24:48+0000'
     from:
       name: Abdelmawla Mohamed

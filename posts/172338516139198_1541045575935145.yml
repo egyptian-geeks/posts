@@ -97,17 +97,6 @@ comments:
       عملية الmaintaining وbug fixing\nعم بوب بيقلك:\n  the only way to go fast —
       is to keep the code as clean as possible at all times."
     id: '1541059002600469'
-  - created_time: '2017-07-08T11:53:53+0000'
-    from:
-      name: Mohamed Abdelghani
-      id: '1854642424546313'
-    message: Your question may has a relation with Open closed principle (if you use
-      OO language). at some point of time you can't open your class to change it.
-      you have to extend it if you need to make any changes.before reaching this point
-      of time you are free to open your class and refactor it many times. but when
-      it's done? there is a debate over the answer of this question. I go with the
-      opinion that says it's done when it's shipped to the production.
-    id: '1541067329266303'
   - created_time: '2017-07-08T17:54:08+0000'
     from:
       name: Mohamed Elghobaty

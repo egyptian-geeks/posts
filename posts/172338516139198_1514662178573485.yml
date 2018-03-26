@@ -34,15 +34,6 @@ reactions:
       after: TVRBd01EQTJNalU1TWpNNE9EVXlPakUwT1Rjek9EZAzFOelU2TWpVME1EazJNVFl4TXc9PQZDZD
 comments:
   data:
-  - created_time: '2017-06-13T21:22:27+0000'
-    from:
-      name: Mohamed Abdelghani
-      id: '1854642424546313'
-    message: 'use a table to store  LogActivityType and  another table to store UserActivity,
-      activity type can be string or enum. Ex: "UpdatedPost", "DeletedPhone","AddedNewPhone",
-      on UserActivity table you can store action (activity type) and who did this
-      action.'
-    id: '1514670225239347'
   - created_time: '2017-06-13T21:46:09+0000'
     from:
       name: Mohamed Shaaban
@@ -171,5 +162,5 @@ comments:
     id: '1516191208420582'
   paging:
     cursors:
-      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV4TkRZAM01ESXlOVEl6T1RNME56b3hORGszTXpnNE9UUTQZD
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV4TkRZANU1EWTNOVEl6TnpNd01qb3hORGszTXprd016WTUZD
       after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFV4TmpFNU1USXdPRFF5TURVNE1qb3hORGszTlRFd01qWXcZD

@@ -49,15 +49,6 @@ reactions:
       after: TVRBd01ERTBPVGN5TnprM01EQXhPakUxTVRrNU56ZA3lNRGM2TWpVME1EazJNVFl4TXc9PQZDZD
 comments:
   data:
-  - created_time: '2018-03-02T08:25:28+0000'
-    from:
-      name: Amr Monjid
-      id: '10155918513180729'
-    message: |-
-      NoSql is different than SQL when it comes to structuring your data first place, you will face a lot of problems if u structured ur DB as a relational DB and it will be very hard to retrieve the data same way as SQL because it's not the same
-      The key to have a very optimized DB queries is to keep in mind the queries u need to do while u r designing the structure and when u do u will notice the difference
-      The conclusion is you can't use a NoSql DB with the same mindset of SQL
-    id: '1769481473091553'
   - created_time: '2018-03-02T08:33:51+0000'
     from:
       name: Bishoy Hanna
@@ -81,5 +72,5 @@ comments:
     id: '1769528323086868'
   paging:
     cursors:
-      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMyT1RRNE1UUTNNekE1TVRVMU16b3hOVEU1T1RjNU1USTQZD
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMyT1RRNE56VXlPVGMxTnpZAeE5Eb3hOVEU1T1RjNU5qTXgZD
       after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGMyT1RVeU9ETXlNekE0TmpnMk9Eb3hOVEU1T1RneU5URXoZD

@@ -1,0 +1,120 @@
+---
+message: "Which is better for Developers\nSSHD\nor \nNormal HDD with Big Cache\nSSD
+  is not an option, as it is very expensive.\nI believe SSHD will give me faster boot
+  times, but just normal speed for files in general, So in this case, I think Normal
+  HDD would be better.\nWhat do you think?\n\nNotes:\nIt is a laptop\nI don't like
+  using external HDDs, unless it's wireless rack!\nNo CDRom to replace\nNo NVMe port\n\nPossible
+  solution is to use the Card Reader with 120GB Class 10 Card, But SDCards are known
+  for sudden death without any signals, So could be less reliable!\n\nThe first post
+  was deleted by mistake, No offense."
+from:
+  name: Pola Ashraf
+  id: '10155173051963199'
+type: status
+created_time: '2018-03-26T07:06:13+0000'
+updated_time: '2018-03-26T19:33:52+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1795709080468792/
+id: '172338516139198_1795709080468792'
+reactions:
+  data:
+  - id: '10155056867911922'
+    name: Ahmed Sadek Mohamed Tawfik
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRVNU16WTJPVEl4T2pFMU1qSXdORGd3TmpRNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRVNU16WTJPVEl4T2pFMU1qSXdORGd3TmpRNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2018-03-26T07:08:54+0000'
+    from:
+      name: Ahmed Sadek Mohamed Tawfik
+      id: '10155056867911922'
+    message: |-
+      SSHD with Optane memory .. the newest drive from Seagate :D
+      بس انا مش عارف موجود فى مصر وللا لأاا
+    id: '1795716147134752'
+  - created_time: '2018-03-26T07:28:25+0000'
+    from:
+      name: Ahmed Atef
+      id: '10156122235026834'
+    message: |-
+      للاسف عن تجربه مش هتحس بفرق كبير
+      انا كان عندي lenovo وكان معاه ssd 8 او 16 جيجا msata cssd وكان شغال cache للهارد الاساسي يعني كانه هيبرد بالظبط
+      والفرق كان عبيط جدا
+      لكن لما كنت بعطله كنت بشوف المرار
+      لكن مش هيعمل فرق زي مانتا متخيل
+      مادام هتجيب جهاز للشغل او dev. عامتا يبقى هات ssd حتى لو 120 جيجا
+    id: '1795727643800269'
+  - created_time: '2018-03-26T07:35:42+0000'
+    from:
+      name: Khaled Elnaggar
+      id: '10215461207703148'
+    message: "طيب ما تجيب ssd 250 gb ?! \nانا ماشي بيه زي الفل وسعره مكانش غالي قوي"
+    id: '1795731947133172'
+  - created_time: '2018-03-26T08:05:26+0000'
+    from:
+      name: Youssef Fayez
+      id: '10215891889635645'
+    message: Get a 120 GB SSD & install your OS on it while all you files and data
+      are on ur HDD. I did that and the difference in speed is overwhelming
+    id: '1795752437131123'
+  - created_time: '2018-03-26T08:11:25+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: اشتري مني وهات SSD حتى لو غالي والله العظيم الفرق يستاهل
+    id: '1795757810463919'
+  - created_time: '2018-03-26T08:44:24+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: web/nodejs developers also need to work on ssd not just system to boot.
+      they read and write and observe 80K+ file every build so they need to work on
+      ssd or it will take forever to render
+    id: '1795777740461926'
+  - created_time: '2018-03-26T08:45:12+0000'
+    from:
+      name: Moataz Olwan
+      id: '10156044377510772'
+    message: Haytham Olwan
+    id: '1795778073795226'
+  - created_time: '2018-03-26T09:56:01+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Get a Linux OS, as a base OS on an SSD drive for boot 256 GB is more
+      than enough. 100 GB for boot partition and home directory, the rest for data,
+      then add an HDD for slower storage.
+    id: '1795824563790577'
+  - created_time: '2018-03-26T12:53:46+0000'
+    from:
+      name: Abdelrahman Hamada
+      id: '2056399947965005'
+    message: Kinstone A400 SSD(s) are cheap (120GB for about 800 EGP I think) though,
+      it doesn't have Dram which means it's a bit slower and on average might live
+      less than an SSD with Dram on (around 20% less lifespan depending on how much
+      you write to it and how much free space does it have)
+    id: '1795971060442594'
+  - created_time: '2018-03-26T14:14:15+0000'
+    from:
+      name: Mena Emel
+      id: '1907253972621046'
+    message: If you're looking for performance, and don't care about the big capacity
+      of the HDD, then you could buy a 120-240GB SSD. SSDs are getting cheaper. If
+      the capacity is more important, then HDD is the only option unfortunately, but
+      if you decided on HDD, try to look for 7200 RPM, it's a little bit faster than
+      5400 RPM, and clean the dust of your notebook often to avoid performance drop-downs
+      because of nothing.
+    id: '1796042807102086'
+  - created_time: '2018-03-26T19:33:48+0000'
+    from:
+      name: Ahmed Leo
+      id: '10156015282455731'
+    message: Ssd and hdd as caddy is best and cheapest option  ,sshd is useless you
+      won't feel any difference
+    id: '1796309593742074'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM1TlRjeE5qRTBOekV6TkRjMU1qb3hOVEl5TURRNE1UTTEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM1TmpNd09UVTVNemMwTWpBM05Eb3hOVEl5TURreU9ESTUZD

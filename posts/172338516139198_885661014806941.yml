@@ -14,12 +14,6 @@ permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/88566101
 id: '172338516139198_885661014806941'
 comments:
   data:
-  - created_time: '2015-01-24T19:33:40+0000'
-    from:
-      name: Amr Monjid
-      id: '10155918513180729'
-    message: Elaborate more
-    id: '885664891473220'
   - created_time: '2015-01-24T19:37:33+0000'
     from:
       name: Adel K. Khalil
@@ -32,12 +26,6 @@ comments:
       closed if that possible.\n\nI am not sure if its possible yet, but i've seen
       Facebook notifications with LIKE button."
     id: '885665864806456'
-  - created_time: '2015-01-24T19:39:07+0000'
-    from:
-      name: Amr Monjid
-      id: '10155918513180729'
-    message: R u developing native apps or cross platform?
-    id: '885666491473060'
   - created_time: '2015-01-24T19:39:55+0000'
     from:
       name: Adel K. Khalil
@@ -45,19 +33,6 @@ comments:
     message: Doesn't matter still researching can choose the platform if the feature
       is available.
     id: '885666804806362'
-  - created_time: '2015-01-24T19:57:08+0000'
-    from:
-      name: Amr Monjid
-      id: '10155918513180729'
-    message: "As far as I know custome actions in the notification can be done in
-      android v4.1 and higher.. native development required \nhttp://developer.android.com/guide/topics/ui/notifiers/notifications.html"
-    id: '885671538139222'
-  - created_time: '2015-01-24T19:58:23+0000'
-    from:
-      name: Amr Monjid
-      id: '10155918513180729'
-    message: But let me check if this can be done using a cross platform framework
-    id: '885672034805839'
   - created_time: '2015-01-24T20:12:27+0000'
     from:
       name: Adel K. Khalil
@@ -70,13 +45,6 @@ comments:
       id: '10159958402365584'
     message: again nothing about closed or active apps, very confusing.
     id: '885678988138477'
-  - created_time: '2015-01-24T20:25:49+0000'
-    from:
-      name: Amr Monjid
-      id: '10155918513180729'
-    message: This can be done using a BroadcastReceiver even if the app is closed
-      NOT killed from app manager
-    id: '885680321471677'
   - created_time: '2015-01-24T20:26:50+0000'
     from:
       name: Hisham Abd El-Hafez Eid
@@ -137,5 +105,5 @@ comments:
     id: '885845974788445'
   paging:
     cursors:
-      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGcxTmpZAME9Ea3hORGN6TWpJd09qRTBNakl4TWpnd01qQT0ZD
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGcxTmpZAMU9EWTBPREEyTkRVMk9qRTBNakl4TWpneU5UTT0ZD
       after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRGcxT0RRMU9UYzBOemc0TkRRMU9qRTBNakl4TmpZAeU9UYz0ZD

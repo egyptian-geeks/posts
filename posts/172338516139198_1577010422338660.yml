@@ -25,6 +25,9 @@ reactions:
   - id: '1515755041855847'
     name: Ahmed Akef
     type: LIKE
+  - id: '1558917624215781'
+    name: Mohamed A. Salah
+    type: LIKE
   - id: '10155012005352687'
     name: Eman A. Ahmed
     type: LIKE
@@ -184,16 +187,10 @@ comments:
       id: '10154452963482614'
     message: ده بسبب بنك المعرفة
     id: '1577526222287080'
-  - created_time: '2017-08-13T14:40:19+0000'
-    from:
-      name: Mohamed Fadl
-      id: '10156038464849512'
-    message: "قفلة قوس الـ log مش موجودة... syntax error \U0001F928 \U0001F606"
-    id: '1577616552278047'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUzTnpBMU1ETTFOVFkyT0RBd01Eb3hOVEF5TmpJeU16azMZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUzTnpZAeE5qVTFNakkzT0RBME56b3hOVEF5TmpNMU1qRTUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFUzTnpVeU5qSXlNakk0TnpBNE1Eb3hOVEF5TmpNME1qUTUZD
 attachments:
   data:
   - description: |-

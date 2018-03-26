@@ -1,0 +1,44 @@
+---
+message: "Is it possible that cron-job can cause memory leak on server ? \nknowing
+  that : \n- I'm using AWS free tier EC2 instance \n- using laravel \n- cron-job runs
+  every 5 minutes \n- cron-job is responsible for checking if there is queued jobs
+  in my DB , if exist -> execute it ."
+from:
+  name: Fawzy Tat
+  id: '10213837415983994'
+type: status
+created_time: '2018-03-26T17:17:51+0000'
+updated_time: '2018-03-26T21:41:48+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1795943127112054/
+id: '172338516139198_1795943127112054'
+reactions:
+  data:
+  - id: '10214436816707112'
+    name: Mohamed Shaaban
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRZAeE9UYzFOekUyTXpveE5USXlNRGc0TkRnNE9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRZAeE9UYzFOekUyTXpveE5USXlNRGc0TkRnNE9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2018-03-26T18:00:47+0000'
+    from:
+      name: Amr ELsaqqa
+      id: '10156301546469701'
+    message: Depends on the script itself that's actually executed as the cron.
+    id: '1796233310416369'
+  - created_time: '2018-03-26T19:02:16+0000'
+    from:
+      name: Mohamed Ahmed
+      id: '385696705226073'
+    message: What do you mean by memory leak, does the worker you have creates  orphan
+      processes lying around ?, usually worker threads consume the a core or more
+      depending on your setting , if you just see a memory spike every 5 min that's
+      normal but if the memory continue to build up you can use supervisor to manage
+      your worker jobs and handle the queues more effective and efficiently
+    id: '1796283960411304'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM1TmpJek16TXhNRFF4TmpNMk9Ub3hOVEl5TURnM01qUTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM1TmpJNE16azJNRFF4TVRNd05Eb3hOVEl5TURrd09UTTIZD
