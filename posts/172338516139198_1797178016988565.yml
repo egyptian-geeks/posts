@@ -1,0 +1,86 @@
+---
+message: |-
+  نوعا ما دي shameless self-bump..فماتأخذوناش يعني :D
+  دي إنترو قديمة شوية لـ tool شغالين عليها إسمها rke.. الهدف كان إننا نعمل kubernetes installer سهل الإستخدام و مرن و ممكن يستعمل في production deployment..و ultimately يكون الـ engine اللي بيعتمد عليه الـ product الأساسي بتاع الشركة..
+
+  بقالنا فترة شغالين عليها، بدأت تاخد شكل واضح و بدأنا نكون community حلو وبيجيلنا contributions كويسة.. في ناس بدأت تستعملها في production فعلا..لسه منزلين v0.1.3 إمبارح..ده release مهم لإنه بداية الـ cloud provider support..
+
+  لو حد بيستعمل kubernetes أو مهتم يجربه أعتقد حيلاقي rke مفيد جدا..
+
+  إحنا بنرحب بأي issues أو اسئلة أو pull requests..
+link: https://rancher.com/announcing-rke-lightweight-kubernetes-installer/
+from:
+  name: Mohamed El-Sayed
+  id: '10155182529813309'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQDu5PJXLFuCCHsz&w=130&h=130&url=https%3A%2F%2Fcdn.rancher.com%2Fwp-content%2Fuploads%2F2017%2F12%2F29095828%2Fjan-meetup-300x300.png&cfs=1&_nc_hash=AQCH9M5s_Atto_ih
+created_time: '2018-03-27T16:00:06+0000'
+updated_time: '2018-03-27T16:00:06+0000'
+name: Announcing RKE, a Lightweight Kubernetes Installer | Rancher Labs
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1797178016988565/
+shares:
+  count: 2
+id: '172338516139198_1797178016988565'
+reactions:
+  data:
+  - id: '10215352706918859'
+    name: Mohamed Ahmed Zidan
+    type: LIKE
+  - id: '10155855157936047'
+    name: Mosab Ibrahim
+    type: LIKE
+  - id: '1679860805369262'
+    name: Abdelrahman Ghanem
+    type: LIKE
+  - id: '10155558213873621'
+    name: Ahmed Abdalla
+    type: HAHA
+  - id: '10155855162041047'
+    name: Mohamed Omar Zaian
+    type: HAHA
+  - id: '10156274593643013'
+    name: Amany Elguindy
+    type: LIKE
+  - id: '10159924810845123'
+    name: Ahmed Shaker
+    type: LIKE
+  - id: '1786979848265063'
+    name: Eiad Amr
+    type: LIKE
+  - id: '2089769777911117'
+    name: Ahmed Shaaban Mohamed
+    type: LIKE
+  - id: '10156115350739764'
+    name: Mahmoud Tantawy
+    type: LIKE
+  - id: '1560359927364731'
+    name: Mahmoud Nawwar
+    type: LIKE
+  - id: '10159726802330618'
+    name: Ahmed AbouZaid
+    type: LIKE
+  - id: '10155127350496932'
+    name: Ahmed ElGamil
+    type: LIKE
+  - id: '10156063390784776'
+    name: Hussein Galal
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRRM01UWTNPRFV4TXpveE5USXlNVGd6TnpFNU9qSTFOREE1TmpFMk1UTT0ZD
+      after: TlRreE1EUTVOemMxT2pFMU1qSXhOalkwTWpFNk1qVTBNRGsyTVRZAeE13PT0ZD
+attachments:
+  data:
+  - description: Today, we are announcing a new open-source project called the Rancher
+      Kubernetes Engine (RKE), our new Kubernetes installer. RKE is extremely simple,
+      lightning fast, and works everywhere.
+    media:
+      image:
+        height: 300
+        src: https://external.xx.fbcdn.net/safe_image.php?w=720&h=720&url=https%3A%2F%2Fcdn.rancher.com%2Fwp-content%2Fuploads%2F2017%2F12%2F29095828%2Fjan-meetup-300x300.png&cfs=1&_nc_hash=AQAHcyqQ3GyrOdOT
+        width: 300
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Francher.com%2Fannouncing-rke-lightweight-kubernetes-installer%2F&h=ATMjNtu0DjU_iuy4OI_gkD5g8zTLKfACdoEZGz2wU28NoEPUEiJKCWg4iTK5qeAZKV6qaJApxfQZ5oON1mcOV8vpEPo6_Lv9LMKz1VBy8HEFCQQD5wnb&s=1
+    title: Announcing RKE, a Lightweight Kubernetes Installer | Rancher Labs
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Francher.com%2Fannouncing-rke-lightweight-kubernetes-installer%2F&h=ATMjNtu0DjU_iuy4OI_gkD5g8zTLKfACdoEZGz2wU28NoEPUEiJKCWg4iTK5qeAZKV6qaJApxfQZ5oON1mcOV8vpEPo6_Lv9LMKz1VBy8HEFCQQD5wnb&s=1

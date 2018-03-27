@@ -1,0 +1,68 @@
+---
+message: |-
+  السلام عليكم
+
+  الـ Repo التالي هو باختصار Codebase للشات كـ Database Tables و Repository وملف Testing للكود. محتاج منكم تعملوا مراجعة سريعة كده وتقولولي هل كده أفضل طريقة لعمل الجداول ولا لا، ولو الدنيا مش واضحة أنا هوضحها أكتر في الرد على الاستفسارات إن شاء الله.
+
+  https://github.com/mozahran/chatbase
+
+  * لو فيه حد شغال Laravel وعنده أي review ع الكود يبقا كتر خيره
+link: https://www.facebook.com/photo.php?fbid=1019069711594750&set=gm.1797092063663827&type=3
+from:
+  name: Mohamed Zahran
+  id: '983585495143172'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/q83/s130x130/29541401_1019069711594750_1841311315852949956_n.jpg?_nc_cat=0&oh=55b0c4a11ee804e17ec8285db4092690&oe=5B6C68EB
+created_time: '2018-03-27T14:28:10+0000'
+updated_time: '2018-03-27T16:48:29+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1797092063663827/
+id: '172338516139198_1797092063663827'
+reactions:
+  data:
+  - id: '1824520801181678'
+    name: محمد علاء الدين
+    type: LIKE
+  - id: '896793640482326'
+    name: Shady Nagy
+    type: LIKE
+  - id: '1809745782369959'
+    name: Ahmed Sharaby
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTROekV6TWpZAeU56VTRPakUxTWpJeE9ERXlOelU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXdNRE0yTmpReE9UazBPakUxTWpJeE5qazBPVFE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2018-03-27T16:48:26+0000'
+    from:
+      name: Ahmed Mudhar
+      id: '1811551685586388'
+    message: يفضل الpassword يكون binary و يكون بطول معين ثابت زي مثلا 60 و طبعا يكون
+      hashed بحاجة زي BCrypt و يكون معموله salt و ممكن ال salt دة يختلف من مستخدم
+      لتاني و بكدة لازم تخرن ال salt في field لوحده لكل user
+    id: '1797275333645500'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM1TnpJM05UTXpNelkwTlRVd01Eb3hOVEl5TVRZANU16QTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM1TnpJM05UTXpNelkwTlRVd01Eb3hOVEl5TVRZANU16QTIZD
+attachments:
+  data:
+  - description: |-
+      السلام عليكم
+
+      الـ Repo التالي هو باختصار Codebase للشات كـ Database Tables و Repository وملف Testing للكود. محتاج منكم تعملوا مراجعة سريعة كده وتقولولي هل كده أفضل طريقة لعمل الجداول ولا لا، ولو الدنيا مش واضحة أنا هوضحها أكتر في الرد على الاستفسارات إن شاء الله.
+
+      https://github.com/mozahran/chatbase
+
+      * لو فيه حد شغال Laravel وعنده أي review ع الكود يبقا كتر خيره
+    media:
+      image:
+        height: 269
+        src: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/29541401_1019069711594750_1841311315852949956_n.jpg?_nc_cat=0&oh=3ac3d461655e5204b1e110134da63cbc&oe=5B2C3ED7
+        width: 720
+    target:
+      id: '1019069711594750'
+      url: https://www.facebook.com/photo.php?fbid=1019069711594750&set=gm.1797092063663827&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=1019069711594750&set=gm.1797092063663827&type=3

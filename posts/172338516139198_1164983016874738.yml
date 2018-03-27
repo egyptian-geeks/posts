@@ -62,38 +62,8 @@ comments:
       after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUyTlRJd05EWTROamcxTWpVM01Ub3hORFkyTXpVM09UVTAZD
 attachments:
   data:
-  - description: |-
-      بقالي فترة شغال علي calculator بس بتكتب بشكل نضيف زي ما الصورة بتقول كدا...
-      الcalculator بتستخدم حاجة اسمها latex عشان تكتب الmath expressions بالشكل دا، لأني من ال OSC - Open Source Community ولأن الشعار بتاعنا "لا تعيد ابتكار العجلة" فبستخدم library جميلة اسمها mathquill عشان تطبعلي الحاجات بlatex.
-
-      latex في صورته الخام بيبقي عبارة عن حاجة زي كدا:
-      \frac{2+33}{114}\cdot\sqrt{25}
-
-      فمحتاج حاجة تفك الرموز دي وتطلع منها الإجابة.
-      كان ممكن نكتب engine كامل يعمل الحوار دا... بس عالم الopen source جميل ومش بيخليني ابتكر العجلة تاني: استخدمت حاجة اسمها PEG.js، ودا عبارة عن parser generator. من الآخر حاجة كدا بديها شوية قواعد بحيث اني لما ادخلها دا:
-      \frac{2+33}{114}\cdot\sqrt{25}
-      بقدرة قادر تطلعلي النتيجة:
-      1.5350877193
-
-      المهم طولت عليكو أسف.
-      لو عايز تشارك في تطوير المشروع دا خش هنا وكلمني:
-      https://github.com/lordadamson/latexCalculator
-
-      لو عايز تشوف نسخة live من المشروع عشان تشوف وصل لفين دلوقتي خش هنا:
-      https://lordadamson.github.io/latexCalculator
-      (هو دلوقتي بيفهم الجمع والطرح والضرب بس مش بيعرف يحدد الأولويات في الحساب)
-    description_tags:
-    - id: '244979425668438'
-      length: 27
-      name: OSC - Open Source Community
-      offset: 165
-      type: page
-    media:
-      image:
-        height: 619
-        src: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/11142417_1046402018711178_6897956971601715002_n.jpg?_nc_cat=0&oh=59f7292e7dba927af3a49f5d792a419b&oe=5B3B142E
-        width: 720
-    target:
+  - target:
       url: https://www.facebook.com/photo.php?fbid=1046402018711178&set=p.1046402018711178&type=3
-    type: photo
+    title: 3 Years Ago
+    type: goodwill_shared_card
     url: https://www.facebook.com/photo.php?fbid=1046402018711178&set=p.1046402018711178&type=3

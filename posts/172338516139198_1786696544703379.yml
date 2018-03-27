@@ -26,13 +26,16 @@ from:
   id: '1538447102877297'
 type: status
 created_time: '2018-03-17T20:15:26+0000'
-updated_time: '2018-03-18T17:28:29+0000'
+updated_time: '2018-03-20T14:16:54+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1786696544703379/
 shares:
-  count: 6
+  count: 7
 id: '172338516139198_1786696544703379'
 reactions:
   data:
+  - id: '1557580064295784'
+    name: Mohamed H. Fakher
+    type: LIKE
   - id: '10155865386126648'
     name: Aser Ahmad
     type: LIKE
@@ -95,9 +98,6 @@ reactions:
     type: LIKE
   - id: '10159817376550705'
     name: Mohamed Salem Korayem
-    type: LIKE
-  - id: '2030278417215577'
-    name: Esraa Sultan
     type: LIKE
   - id: '1703579576360566'
     name: Sameh Ibrahem
@@ -185,7 +185,7 @@ reactions:
     type: LOVE
   paging:
     cursors:
-      before: TnpVd01qTTJOalEzT2pFMU1qRXpPVGt6TmpBNk1qVTBNRGsyTVRZAeE13PT0ZD
+      before: TVRBd01EQXhNekUwTVRjek1EVTRPakUxTWpFMU5EWXpOalk2TWpVME1EazJNVFl4TXc9PQZDZD
       after: TVRBd01EQTBNVFUzTmpFeE5EVTVPakUxTWpFek1UYzRPRFU2TnpnNE5qUTRNRE0zT1RFek16RXkZD
 comments:
   data:
@@ -422,7 +422,89 @@ comments:
       حاجته فى مساعدة الآخرين ... يا اما هو عنده mature model ما بيوصف ازاى يحول السىء
       المجانى ده لفلوس -زى الجافا كده بغض النظر أن ثم وقعت فى الاخر-
     id: '1787705714602462'
+  - created_time: '2018-03-20T06:42:03+0000'
+    from:
+      name: Mohamed Mohamedy
+      id: '158547971463325'
+    message: |-
+      ءء
+      https://www.gnu.org/philosophy/free-sw.html
+      محدش قال إن ال free software يعني ببلاش
+      وفي نفس الوقت محدش من اللي "اخترعوا" المصطلح شغال ببلاش
+      كلهم شغالين وظايف عادية بس كل واحد ب maintain جزء معين من البرنامج في وقت فراغه كside project
+      فالcollabration هو اللي بيعمل للحاجة دي حس أصلا
+      مفيش شركة شغالة ببلاش. ريدهات مثلا المفروض عندهم مشروع ببلاش (فيدورا) بس بيقدموا خدمات تانية مدفوعة ...
+    id: '1789414451098255'
+  - created_time: '2018-03-20T06:46:52+0000'
+    from:
+      name: Mohamed Mohamedy
+      id: '158547971463325'
+    message: فلوس الدعم بتعمل ٣ مليار في السنة عادي
+    id: '1789418171097883'
+  - created_time: '2018-03-20T06:51:49+0000'
+    from:
+      name: Mohamed Mohamedy
+      id: '158547971463325'
+    message: وبالمناسبة، التخصصات التانية اللي أنت ذكرتها دي، أكيد في منها ناس "شاركوا"
+      في مشاريع "ببلاش"، لأن البرامج " المجانية " موجودة لكل التخصصات والمجالات.
+    id: '1789421384430895'
+  - created_time: '2018-03-20T07:00:04+0000'
+    from:
+      name: Mohamed Mohamedy
+      id: '158547971463325'
+    message: |-
+      ودا الmaintainer بتاع أشهر shell في الكوكب
+      https://tiswww.case.edu/php/chet/
+      شغال بمرتب وبياخدوا فلوس عادي في وظيفة ما، بس "هوايته" ي maintain the bash project! :D
+    id: '1789427617763605'
+  - created_time: '2018-03-20T11:45:07+0000'
+    from:
+      name: Marwan Yassin
+      id: '10159953707250230'
+    message: "مفيش حد بينادي بمجانية السوفت وير في المطلق وزي ما قولت قبل في كومنت
+      تاني مش لاقيه ان الناس بتعمل مشاريع اوبن سورس هواية او يجمع كومينتي صعب يتعمل
+      الا لو في مليارات..تفتكر لينكس لو مكنش اوبن سورس كان حد هيستخدمه او يدخل في
+      موبيلات او سيرفرز؟ مش كل الناس بتعرف تعمل بيزنيس..بس كل الناس بتستفيد  سواء
+      مؤسس مشروع اوبن سورس سواء مادياً، معنوياً او حتى بيشتغل في شركة محتاجة المشروع
+      بتاعه وبتديله فلوس ان يفضل maintaining the project \nوالديفيلوبرز بيتعلموا وممكن
+      يزودوا فيتشرز او يصلحوا بجز تفيد شغلهم وفي نفس الوقت هتفيد البروجكت\n\nوبعدين
+      انت لو عندك فكرة مش متأكد من جدوتها ومفيش امكانيات غير تكنيكال اسهلك تعملها
+      اوبن سورس وحسب التفاعل والناس اللي هتساهم هتعرف الفكرة ليها جدوى مادية ولا لا
+      ولو نزلتها برودكت حد هيشتريها ولا لا..من غير ريسك غير الوقت اللي كان ممكن تاخده
+      عشان تعمل ستارت اب فاشلة..وارجع برضه لمثال Synergy اوبن سورس وبيبيع ويكسب ومستفيد
+      من الكومينوتي \n\nوبرضه اللي عايز يعمله لله ايه المشكلة \U0001F600"
+    id: '1789641227742244'
+  - created_time: '2018-03-20T13:40:35+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: 'Some Clarification: FREE Software is software that when you purchase,
+      you OWN the code, the binaries, everything in it. It becomes yours when you
+      purchase it, you are FREE to do what you want with it. It is NO LONGER the property
+      of the company that made it so you can do whatever you like with it, including
+      replicating and installing it as many times as you like. In the OTHER model,
+      you just buy a license and you DO NOT OWN the software. Which is why Microsoft
+      can charge you per installation on the software you already bought, and worst
+      still, per core and per connection. I believe we must FAVOUR FREE SOFTWARE.'
+    id: '1789742317732135'
+  - created_time: '2018-03-20T13:42:24+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Once we have more FREE Alternatives, whether there are initial prices
+      or the price of the purchase was 0, it will be better for everybody because
+      COmpanies will be forced to provide an actual service, vs living off License
+      rights for work not done, such as maintaining the software, fixing the bugs
+      and adding more customized features.
+    id: '1789744114398622'
+  - created_time: '2018-03-20T13:43:02+0000'
+    from:
+      name: Mohamed Samy
+      id: '10160396852830355'
+    message: Having proprietary software, is a FREE CHOICE, but like smoking, it has
+      bad side effects for you and those around you.
+    id: '1789744697731897'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM0TmpZANU9USXpNVE0yT1RjM056b3hOVEl4TXpFM09ETTUZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM0Tnpjd05UY3hORFl3TWpRMk1qb3hOVEl4TXprME1UQTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM0T1RjME5EWTVOemN6TVRnNU56b3hOVEl4TlRVek16ZA3kZD

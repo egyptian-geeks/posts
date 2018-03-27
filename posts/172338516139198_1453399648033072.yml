@@ -30,7 +30,15 @@ comments:
       of the engine. The database engine is the one that should handle not shutting
       down gracefully. I don't think running in a container or not makes a difference.
     id: '1453404008032636'
+  - created_time: '2017-04-14T19:59:39+0000'
+    from:
+      name: Mohamed Shaheen
+      id: '1990508241211666'
+    message: "I had issue with mongo db container , although I used standard mongo
+      docker which has external volume for data \n\nAs a rule , using db docker is
+      not advised for production"
+    id: '1453799544659749'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFExTXpRd05EQXdPREF6TWpZAek5qb3hORGt5TVRjeE1USTIZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFExTXpRd05EQXdPREF6TWpZAek5qb3hORGt5TVRjeE1USTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFExTXpjNU9UVTBORFkxT1RjME9Ub3hORGt5TVRrNU9UYzUZD

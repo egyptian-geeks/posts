@@ -17,13 +17,10 @@ reactions:
   - id: '1209016109228789'
     name: Hind Alsayed
     type: LIKE
-  - id: '934408920094293'
-    name: Muhammad Ahmed Fares
-    type: LIKE
   paging:
     cursors:
       before: TVRBd01EQXpOakV5TXpNME1EazNPakUwT1RReE1ETXhPVFU2TWpVME1EazJNVFl4TXc9PQZDZD
-      after: TVRBd01EQTFOelUxT0RBME16VTJPakUwT1RRd09URXdNelk2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXpOakV5TXpNME1EazNPakUwT1RReE1ETXhPVFU2TWpVME1EazJNVFl4TXc9PQZDZD
 comments:
   data:
   - created_time: '2017-05-06T18:15:19+0000'
@@ -89,6 +86,15 @@ comments:
       use environment variables to control whether to use the micro services or the
       local code
     id: '1476091169097253'
+  - created_time: '2017-05-07T13:51:05+0000'
+    from:
+      name: Mohamed Shaheen
+      id: '1990508241211666'
+    message: "for docker to go prod , you need to master some subjects like \nkubernetes
+      , for dokcer HA and clustering , service discovery , failover policy \ndocker
+      image registery , how to pull docker images from Gitlab , etc\n\nfor dev, its
+      great and easy start option"
+    id: '1476100309096339'
   - created_time: '2017-05-07T16:31:13+0000'
     from:
       name: Said Bakr

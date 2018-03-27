@@ -1,0 +1,126 @@
+---
+message: "CSS now allows you natively to check if your code is supported in the browser
+  that being used by the user and if it does work it applies the code for you using
+  what's called  a feature query  >>  @supports  \n\nIt comes in handy when used with
+  a block of code that's partially supported in the browser that the user use, as
+  you don't want the Dependant supported code to work alone \n\nAnd this feature is
+  well supported in browsers *yo dawg*\ncheck it here in 'can I use' \nhttps://caniuse.com/#feat=css-featurequeries\n\nthe
+  syntax and reference \nhttps://developer.mozilla.org/en-US/docs/Web/CSS/%40supports\n\nAlso
+  check this youtube videos\nhttps://www.youtube.com/watch?v=UMwunYQGvhs"
+link: https://developer.mozilla.org/en-US/docs/Web/CSS/%40supports
+from:
+  name: Nader Mahfouz
+  id: '10212724107229950'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQBs_hNpfUuYwHXx&w=130&h=130&url=https%3A%2F%2Fcdn.mdn.mozilla.net%2Fstatic%2Fimg%2Fopengraph-logo.72382e605ce3.png&cfs=1&_nc_hash=AQChJP882jJpQEfI
+created_time: '2018-03-27T10:00:46+0000'
+updated_time: '2018-03-27T10:29:08+0000'
+name: "@supports"
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1796861157020251/
+id: '172338516139198_1796861157020251'
+reactions:
+  data:
+  - id: '1818224478190849'
+    name: Yousef Mahmoud
+    type: LIKE
+  - id: '140086213464226'
+    name: Mhmd Fares
+    type: LIKE
+  - id: '10215800834242368'
+    name: New Adam
+    type: LIKE
+  - id: '592797251064089'
+    name: Amr Ibrahim Khudair
+    type: LIKE
+  - id: '740032086188811'
+    name: Jamal Eldeen
+    type: LIKE
+  - id: '824879627696965'
+    name: Fatima Asamee
+    type: LIKE
+  - id: '289957711528127'
+    name: Ibrahim Yousry Kotb
+    type: LIKE
+  - id: '1721265631227025'
+    name: Nahla Glal
+    type: LIKE
+  - id: '10156089336182292'
+    name: Hassan Aly Selim
+    type: LIKE
+  - id: '10156668286966336'
+    name: Mohamed Meabed
+    type: LIKE
+  - id: '1153620581408147'
+    name: Mohamed Mostafa
+    type: LIKE
+  - id: '10160048395215531'
+    name: Ahmed Abdel-Maksoud
+    type: LIKE
+  - id: '10156195695536133'
+    name: Joseph Safwat Khella
+    type: LIKE
+  - id: '1447300198725177'
+    name: محمد إبراهيم
+    type: LIKE
+  - id: '1601577066590051'
+    name: Ahmed Khalaf
+    type: LIKE
+  - id: '2036289513285931'
+    name: Ahmed M. Anan
+    type: LIKE
+  - id: '181682482588996'
+    name: Ahmad Hegazy
+    type: LIKE
+  - id: '2016350531963337'
+    name: ALaa El Sayed
+    type: LIKE
+  - id: '10155926704141777'
+    name: Ahmed Abdelaziz
+    type: LIKE
+  - id: '1878613968876589'
+    name: Ahmed Elghandour
+    type: LIKE
+  - id: '1789206827757106'
+    name: Zeze Ramadan
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXdNRGs1TkRNd09ETXhPakUxTWpJeE9EUTBNRGc2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXdNRE0wTVRnNE1EazJPakUxTWpJeE5EUTVOVFk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2018-03-27T10:07:49+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: |-
+      pffft @support is very well supported I even tweeted at Modernizr back in 2013 saying it is fading away due to @support :D
+      https://twitter.com/Modernizr/status/288423895638364160
+      Fuck me, I feel old already ...
+    id: '1796922930347407'
+  - created_time: '2018-03-27T10:15:28+0000'
+    from:
+      name: Nader Mahfouz
+      id: '10212724107229950'
+    message: "I barely see people using it \nthat's why I wrote about it"
+    id: '1796927623680271'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM1TmpreU1qa3pNRE0wTnpRd056b3hOVEl5TVRRMU1qWTUZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM1TmpreU56WXlNelk0TURJM01Ub3hOVEl5TVRRMU56STUZD
+attachments:
+  data:
+  - description: The @supports CSS at-rule lets you specify declarations that depend
+      on a browser's support for one or more specific CSS features. This is called
+      a feature query. The rule may be placed at the top level of your code or nested
+      inside any other conditional group at-rule.
+    media:
+      image:
+        height: 600
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAqWGpPt8gAByYJ&w=720&h=720&url=https%3A%2F%2Fcdn.mdn.mozilla.net%2Fstatic%2Fimg%2Fopengraph-logo.72382e605ce3.png&cfs=1&_nc_hash=AQDhf3xwSgjZU2L4
+        width: 600
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FCSS%2F%2540supports&h=ATP1x8dyLZ2U6BcUE_y250lMF-_MjYM5pbSMWucjYP1fDsuDYFKHrqmZFcDJbUmuJ57hOlO8iYuBBU3Urz1A7vOJpCodBbTTdHOUXOKp97O0oiOYxUFf&s=1
+    title: "@supports"
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FCSS%2F%2540supports&h=ATP1x8dyLZ2U6BcUE_y250lMF-_MjYM5pbSMWucjYP1fDsuDYFKHrqmZFcDJbUmuJ57hOlO8iYuBBU3Urz1A7vOJpCodBbTTdHOUXOKp97O0oiOYxUFf&s=1

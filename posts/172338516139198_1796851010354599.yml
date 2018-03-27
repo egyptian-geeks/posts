@@ -1,0 +1,59 @@
+---
+message: "السلام عليكم .. \nهو انا عندي شويه اسئلة وجودية\nبخصوص الداتابيز connection
+  pooling و ازاي اختار لمشروع فيه concurrent read operations عالية .. انا صادفت حاجات
+  nosql بتهاندل الموضوع دا كويس و حاجات relational مش بتهاندله بنفس الكفاءة انا محتاجة
+  اعرف ازاي اقارن و اختار. لو حد يحب يشوف السؤال اللي بدأت بيه على stack overflow.
+  تحياتي \n"
+link: https://stackoverflow.com/questions/49502883/connection-pooling-in-relational-database-vs-nosql
+from:
+  name: Hadeel Sharaf
+  id: '1884406578237560'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQBicEnZEnV912SL&w=130&h=130&url=https%3A%2F%2Fcdn.sstatic.net%2FSites%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded&cfs=1&_nc_hash=AQDvsiX7ONHDf146
+created_time: '2018-03-27T10:10:28+0000'
+updated_time: '2018-03-27T19:31:07+0000'
+name: Connection pooling in relational database vs Nosql
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1796851010354599/
+id: '172338516139198_1796851010354599'
+reactions:
+  data:
+  - id: '2012132359064709'
+    name: Mohamed Ragab
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTRNRE00T1RNNU5EWTNPakUxTWpJeE5URTJORFE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTRNRE00T1RNNU5EWTNPakUxTWpJeE5URTJORFE2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2018-03-27T19:31:03+0000'
+    from:
+      name: Diyaa Mahmoud
+      id: '1559170364118742'
+    message: "ال connection pool ملوش دخل في المقارنه بين rdbms وال nosql  -  تقريبا
+      الاتنين فيهم connection pool وده مجرد design pattern \n\nhttps://en.m.wikipedia.org/wiki/Object_pool_pattern\n\nلو
+      قولنا الشغل مع الداتابيز عباره  عن عمليات خاصه ب connection + constraints +
+      query + logging \n فال connection pool هيحسن ال overall performance لكن مش هيحسنه
+      عل مستوي الكونكشن الواحد\nهيفضل فيه constraints + query +logging .. الnosql
+      هتشيل constraints   وساعتها البروفمنس هيبقي معتمد عل مكان الداتا بيز دسك ولا
+      ميموري والداتا ستركشر المستخدمه key value مثلا وشكل الداتا"
+    id: '1797418613631172'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM1TnpReE9EWXhNell6TVRFM01qb3hOVEl5TVRjNU1EWTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM1TnpReE9EWXhNell6TVRFM01qb3hOVEl5TVRjNU1EWTAZD
+attachments:
+  data:
+  - description: I want to know how the connection pooling is handled in some relational
+      DBs like MySQL and postgresql vs in some nosql database like Mongodb and Elasticsearch(http
+      pooling). In terms of concurrent
+    media:
+      image:
+        height: 316
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQAMFLWvXjUlRuS7&w=720&h=720&url=https%3A%2F%2Fcdn.sstatic.net%2FSites%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402.png%3Fv%3D73d79a89bded&cfs=1&_nc_hash=AQBDUhzXdwnk-uG7
+        width: 316
+    target:
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F49502883%2Fconnection-pooling-in-relational-database-vs-nosql&h=ATMd-qfar3mUc-2caXN8kGKE_J93gkpbuPCOJw6vx0e3oPhc4dBv_u4yQxmfg2my-pk8HtKJOPYCb4Jf49RZaMV_mq5uIKaQLaU1WYSpvYcxeBJ83Z0K&s=1
+    title: Connection pooling in relational database vs Nosql
+    type: share
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F49502883%2Fconnection-pooling-in-relational-database-vs-nosql&h=ATMd-qfar3mUc-2caXN8kGKE_J93gkpbuPCOJw6vx0e3oPhc4dBv_u4yQxmfg2my-pk8HtKJOPYCb4Jf49RZaMV_mq5uIKaQLaU1WYSpvYcxeBJ83Z0K&s=1

@@ -45,21 +45,12 @@ reactions:
   - id: '10154984458877397'
     name: Ahmed Baher
     type: LIKE
-  - id: '442714802813794'
-    name: Mohamed Salah
-    type: WOW
   paging:
     cursors:
       before: TVRBd01ERXpNRE16TlRRNU5EQXlPakUwT1RVeE1EWTVNVGc2TnpnNE5qUTRNRE0zT1RFek16RXkZD
-      after: TVRBd01ERXlNalU0TXpRNE9UQXhPakUwT1RRNE1EY3hOekU2TnpnNE5qUTRNRE0zT1RFek16RXkZD
+      after: TlRNME1EVTNNemsyT2pFME9UUTRNRGt4T1RrNk1qVTBNRGsyTVRZAeE13PT0ZD
 comments:
   data:
-  - created_time: '2017-05-15T00:12:47+0000'
-    from:
-      name: Mohamed Salah
-      id: '442714802813794'
-    message: "-_-"
-    id: '1483314321708271'
   - created_time: '2017-05-15T15:05:38+0000'
     from:
       name: Hassan Aly Selim
@@ -71,14 +62,14 @@ comments:
     id: '1483800561659647'
   paging:
     cursors:
-      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE0TXpNeE5ETXlNVGN3T0RJM01Ub3hORGswT0RBM01UWTQZD
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE0TXpnd01EVTJNVFkxT1RZAME56b3hORGswT0RZAd056TTQZD
       after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE0TXpnd01EVTJNVFkxT1RZAME56b3hORGswT0RZAd056TTQZD
 attachments:
   data:
   - media:
       image:
         height: 600
-        src: https://scontent.xx.fbcdn.net/v/t15.0-10/p600x600/18494165_780752468764105_6405080089960120320_n.jpg?oh=24c633afa8f4c04056035e41a1a29d43&oe=5B27A0DB
+        src: https://scontent.xx.fbcdn.net/v/t15.0-10/p600x600/18494165_780752468764105_6405080089960120320_n.jpg?_nc_cat=0&oh=24c633afa8f4c04056035e41a1a29d43&oe=5B27A0DB
         width: 720
     target:
       id: '780752755430743'

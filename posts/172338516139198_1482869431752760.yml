@@ -96,9 +96,6 @@ reactions:
   - id: '383542948774034'
     name: Mostafa Fotoh
     type: LIKE
-  - id: '442714802813794'
-    name: Mohamed Salah
-    type: LOVE
   - id: '1984058555247376'
     name: Tarekk Mohamed Abdalla
     type: LOVE
@@ -181,13 +178,6 @@ comments:
       id: '10156301546469701'
     message: "ايه الجمال والحلاوة دي كلها والله عايز ابوسهم واحد واحد \U0001F603\U0001F603❤️"
     id: '1483153528391017'
-  - created_time: '2017-05-14T20:40:42+0000'
-    from:
-      name: Mohamed Salah
-      id: '442714802813794'
-    message: الله يرحمنى, الف رحمة و نور عليك يا محمد يا إبن صلاح ... ربنا يبارك فى
-      الولاد و اهاليهم و اللى ساعدهم بجد :)
-    id: '1483189561720747'
   - created_time: '2017-05-15T08:46:03+0000'
     from:
       name: Ahmed Mahmoud
@@ -203,7 +193,7 @@ attachments:
   - media:
       image:
         height: 405
-        src: https://scontent.xx.fbcdn.net/v/t15.0-10/s720x720/18300442_1426617427398162_8627617900615696384_n.jpg?oh=abe5cb6c77c7bba969b62edbf8d0815e&oe=5B6EBA47
+        src: https://scontent.xx.fbcdn.net/v/t15.0-10/s720x720/18300442_1426617427398162_8627617900615696384_n.jpg?_nc_cat=0&oh=abe5cb6c77c7bba969b62edbf8d0815e&oe=5B6EBA47
         width: 720
     target:
       id: '1426612817398623'

@@ -7,23 +7,26 @@ from:
   id: '1081517505355864'
 type: status
 created_time: '2018-03-26T17:17:28+0000'
-updated_time: '2018-03-26T20:27:26+0000'
+updated_time: '2018-03-26T23:59:34+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1796049767101390/
 shares:
   count: 1
 id: '172338516139198_1796049767101390'
 reactions:
   data:
+  - id: '2101901136700019'
+    name: Islam Mansour
+    type: LIKE
+  - id: '2086195548265897'
+    name: Mohamed Hassan
+    type: LIKE
   - id: '1560359927364731'
     name: Mahmoud Nawwar
     type: LIKE
-  - id: '10214343099918744'
-    name: Mahmoud Kandil
-    type: LIKE
   paging:
     cursors:
-      before: TVRBd01EQXhOekl5TVRZAMU16YzRPakUxTWpJd09UWTBNVEU2TWpVME1EazJNVFl4TXc9PQZDZD
-      after: TVRRMU5EVTBOREl6TXpveE5USXlNRGc1TmpVek9qSTFOREE1TmpFMk1UTT0ZD
+      before: TVRBd01EQTJOREEwTlRneE56STBPakUxTWpJeE5qZAzFNVE02TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXhOekl5TVRZAMU16YzRPakUxTWpJd09UWTBNVEU2TWpVME1EazJNVFl4TXc9PQZDZD
 comments:
   data:
   - created_time: '2018-03-26T19:54:56+0000'
@@ -38,7 +41,43 @@ comments:
       id: '1560359927364731'
     message: https://www.youtube.com/watch?v=TifG-hPO8lU&list=PLEAQNNR8IlB4S8nNUlS0ArfgU1nXlhdRu
     id: '1796351017071265'
+  - created_time: '2018-03-26T23:04:58+0000'
+    from:
+      name: Hassan Badr
+      id: '1819114251493294'
+    message: |-
+      this for practical example for primefaces
+      http://primefaces.org/showcase/index.xhtml
+    id: '1796459180393782'
+  - created_time: '2018-03-26T23:07:04+0000'
+    from:
+      name: Hassan Badr
+      id: '1819114251493294'
+    message: |-
+      this is book in jsf
+      https://link.springer.com/book/10.1007%2F978-1-4302-5011-1
+    id: '1796460470393653'
+  - created_time: '2018-03-26T23:08:10+0000'
+    from:
+      name: Hassan Badr
+      id: '1819114251493294'
+    message: ممكن لينك الشركه عشان ابعت لهم السي في لو سمحت
+    id: '1796461123726921'
+  - created_time: '2018-03-26T23:53:46+0000'
+    from:
+      name: Mohamed Hassan
+      id: '2086195548265897'
+    message: |-
+      الjava قريبة من الc#
+      معاك فترة قد ايه .؟؟
+    id: '1796494287056938'
+  - created_time: '2018-03-26T23:59:26+0000'
+    from:
+      name: Mohamed Hassan
+      id: '2086195548265897'
+    message: "ده شرخ عربى ,ممكن تشوف من اول الjsf \n\nhttps://www.youtube.com/watch?v=lSsmbAJa99w&list=PLUmD5wQ2FYzkNxg-Hk-jAKZnBYd2SgUGf"
+    id: '1796497957056571'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM1TmpNeU5qVTVNemMwTURNM05Eb3hOVEl5TURrME1EazMZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM1TmpNMU1UQXhOekEzTVRJMk5Ub3hOVEl5TURrMk1EUXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM1TmpRNU56azFOekExTmpVM01Ub3hOVEl5TVRBNE56WTMZD
