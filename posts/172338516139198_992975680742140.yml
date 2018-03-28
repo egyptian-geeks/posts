@@ -10,9 +10,6 @@ permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/99297568
 id: '172338516139198_992975680742140'
 reactions:
   data:
-  - id: '10214346825598916'
-    name: Mohamed Beso
-    type: LIKE
   - id: '10215036976427882'
     name: Amgad X Diiab
     type: LIKE
@@ -63,7 +60,7 @@ reactions:
     type: LIKE
   paging:
     cursors:
-      before: TVRBMk5UUTVOVEUyTVRveE5EUXdOalEyT1RBMk9qSTFOREE1TmpFMk1UTT0ZD
+      before: TVRVek5ETXdOelE0T0RveE5EUXdNVEl4TmpnNE9qSTFOREE1TmpFMk1UTT0ZD
       after: TVRBd01EQXhPRGM0T0RrM05UZA3dPakUwTkRBd09EWTBOVE02TWpVME1EazJNVFl4TXc9PQZDZD
 comments:
   data:
@@ -83,6 +80,14 @@ comments:
       يشجع الناس يدخلوا عليها و تعمل عليها الattacks المكتوبة دى و هتجمع sessions
       بالهبل، بيسموها فعلآ honeypot
     id: '992979030741805'
+  - created_time: '2015-08-20T16:01:48+0000'
+    from:
+      name: Ahmed Khaled
+      id: '1673431476060100'
+    message: الي مش بيكون متأمن هو إتصالك مع الراوتر بس إنت لو بتستخدم موقع HTTPS
+      إتصالك هيكون متشفر عادي لإن دي ملهاش علاقة بالروتر الكلام ده لو إنت شغال HTTP
+      بس أو عامل شبكه داخليه في بروتوكولات مش متأمنه زي ال FTP.
+    id: '992979194075122'
   - created_time: '2015-08-20T16:02:37+0000'
     from:
       name: Usama Fayez
@@ -90,6 +95,12 @@ comments:
     message: الكلام ده اغلبه كلام فاضي .. انت لو بتدخل HTTPS على المواقع اللي تهمك
       مش هيقدر يسرق منك اي حاجه
     id: '992979407408434'
+  - created_time: '2015-08-20T16:03:18+0000'
+    from:
+      name: Ahmed Khaled
+      id: '1673431476060100'
+    message: بالضبط ولا حتى ال cookies بتاع ال sessions لإنها هتبقا secured
+    id: '992979627408412'
   - created_time: '2015-08-20T16:07:15+0000'
     from:
       name: Muhammed Fayed

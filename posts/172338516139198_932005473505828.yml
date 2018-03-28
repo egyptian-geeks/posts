@@ -23,6 +23,14 @@ reactions:
       after: TVRBd01EQTRORFkwT0RFME9UTXhPakUwTXpBd09EQTFOVEU2TWpVME1EazJNVFl4TXc9PQZDZD
 comments:
   data:
+  - created_time: '2015-04-26T20:24:24+0000'
+    from:
+      name: Ahmed Khaled
+      id: '1673431476060100'
+    message: هتبقا nested loop هتعدي على أول رقم في ال array مثلاً وتاخد تاني رقم
+      في ال arrya برضة وتشوف هلى الرقمين الي في ال array دول فيهم رقم أكبر من ال X
+      ورقم تاني أصغر من ال X وهكذا
+    id: '932023096837399'
   - created_time: '2015-04-26T20:25:20+0000'
     from:
       name: Ahmed Mahmoud
@@ -219,5 +227,5 @@ comments:
     id: '933313356708373'
   paging:
     cursors:
-      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVE15TURJMU1UUXdNVGN3TlRJNE9qRTBNekF3TnprNU1qQT0ZD
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVE15TURJek1EazJPRE0zTXprNU9qRTBNekF3TnprNE5qUT0ZD
       after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPVE16TXpFek16VTJOekE0TXpjek9qRTBNekF5T1RZAMU5ERT0ZD

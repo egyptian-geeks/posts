@@ -35,6 +35,9 @@ reactions:
   - id: '10155201093853144'
     name: Ahmad Akl
     type: LIKE
+  - id: '1673431476060100'
+    name: Ahmed Khaled
+    type: LIKE
   - id: '10213382124519901'
     name: Mohamed Oun
     type: HAHA
@@ -135,10 +138,16 @@ comments:
       id: '10213382124519901'
     message: Amazing
     id: '1484092631630440'
+  - created_time: '2017-05-15T22:52:50+0000'
+    from:
+      name: Ahmed Khaled
+      id: '1673431476060100'
+    message: Hesham El-Sawaf
+    id: '1484117368294633'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE0TXpneE9UWXlORGs1TVRBM05Eb3hORGswT0RZAeU1qY3cZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE0TkRBNU1qWXpNVFl6TURRME1Eb3hORGswT0RnM056QTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVFE0TkRFeE56TTJPREk1TkRZAek16b3hORGswT0RnNE56Y3gZD
 attachments:
   data:
   - description: 'The sarcasm in this talk does not represent anyone''s actual opinion.
@@ -146,7 +155,7 @@ attachments:
       to 15 minutes every other week, dense with information on advanced topics like
       Unix, TDD, OO Design, Vim, Ruby, and Git.'
     target:
-      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.destroyallsoftware.com%2Ftalks%2Fwat&h=ATMe-7z2RoKzxRPir00Kk9KYop6EeHGSZRSiEdEDUVKdjkJXnsOldUh7RNSztN_F-t7Up2U4Sq0xwEm3eIyQeJqlMpdBou3nY0VNgJahCspcijf7b8yv&s=1
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.destroyallsoftware.com%2Ftalks%2Fwat&h=ATPRAvPmM5igcdZH4VJUFMFQXwuzxj5KKfgCY_QqbU3Dhd_v4wDpIdaKc3fs2TvpSDZ4x0RdEP1uIe9Fl9DQzXTMD-mSYGb7DUQ_wVY0pRLwXijatwQf&s=1
     title: Wat
     type: share
-    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.destroyallsoftware.com%2Ftalks%2Fwat&h=ATMe-7z2RoKzxRPir00Kk9KYop6EeHGSZRSiEdEDUVKdjkJXnsOldUh7RNSztN_F-t7Up2U4Sq0xwEm3eIyQeJqlMpdBou3nY0VNgJahCspcijf7b8yv&s=1
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.destroyallsoftware.com%2Ftalks%2Fwat&h=ATPRAvPmM5igcdZH4VJUFMFQXwuzxj5KKfgCY_QqbU3Dhd_v4wDpIdaKc3fs2TvpSDZ4x0RdEP1uIe9Fl9DQzXTMD-mSYGb7DUQ_wVY0pRLwXijatwQf&s=1

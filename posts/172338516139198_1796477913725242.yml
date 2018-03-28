@@ -1,10 +1,15 @@
 ---
 message: |-
-  https://ahmedramadan01.github.io/Memory%20Game/index.html
+  update: solved
+  .fa {
+       transform:inherit;
+  }
 
+  link (
+  https://github.com/nnattawat/flip/issues/53 )
+  https://ahmedramadan01.github.io/memoryGame/index.html
   the font-awesome lib doesn't work properly on mobile devices. when I flip the card, it should be an icon on the back of card,but I found nothing!. I made a ton of searches, but no success. the game works perfect on desktop.
 
-  https://github.com/nnattawat/flip/issues/53
   https://stackoverflow.com/questions/5472802/css-z-index-lost-after-webkit-transform-translate3d
   any help thanks
   update:it only doesn't work on ios
@@ -15,7 +20,7 @@ from:
 type: link
 picture: https://external.xx.fbcdn.net/safe_image.php?d=AQCB2RWcyBAkQPCI&w=130&h=130&url=https%3A%2F%2Fahmedramadan01.github.io%2FMemory%2520Game%2Fimg%2Fgrunt.png&cfs=1&_nc_hash=AQBdGPD_ntdfpJds
 created_time: '2018-03-27T04:27:38+0000'
-updated_time: '2018-03-27T04:27:39+0000'
+updated_time: '2018-03-28T18:20:20+0000'
 name: memory Game
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1796477913725242/
 shares:
@@ -23,13 +28,49 @@ shares:
 id: '172338516139198_1796477913725242'
 reactions:
   data:
+  - id: '2067397180161531'
+    name: Omar Cherif Fathi
+    type: LIKE
+  - id: '1711592068898479'
+    name: Ahmed Ali Koriem
+    type: LIKE
   - id: '1886790754688072'
     name: Osama Hassan
     type: LIKE
   paging:
     cursors:
-      before: TVRBd01EQXdOekUwT1RjNE1ESXdPakUxTWpJeE5EZAzNOREk2TWpVME1EazJNVFl4TXc9PQZDZD
+      before: TVRBd01EQTJOek00TURjNU1qTTBPakUxTWpJeU5UZA3pOems2TWpVME1EazJNVFl4TXc9PQZDZD
       after: TVRBd01EQXdOekUwT1RjNE1ESXdPakUxTWpJeE5EZAzNOREk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2018-03-28T15:27:38+0000'
+    from:
+      name: Ahmed Ali Koriem
+      id: '1711592068898479'
+    message: why i must play again ?
+    id: '1798289336877433'
+  - created_time: '2018-03-28T17:32:25+0000'
+    from:
+      name: Omar Cherif Fathi
+      id: '2067397180161531'
+    message: It doesn't work on safari as well
+    id: '1798381793534854'
+  - created_time: '2018-03-28T18:20:13+0000'
+    from:
+      name: Tony Raoul Iscaros
+      id: '10156165643313420'
+    message: |-
+      I can confirm it's working on chrome/firefox android , chrome/firefox windows and chrome/firefox ubuntu.
+
+      Can't you use developers tools to give us an idea about what's happening ?
+      try this one https://appletoolbox.com/2014/05/use-web-inspector-debug-mobile-safari/
+
+      safari has an issue with initial values of none declared parameters. top , left , etc... (just a guess i didn't check the code)
+    id: '1798416656864701'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM1T0RJNE9UTXpOamczTnpRek16b3hOVEl5TWpVd09EVTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM1T0RReE5qWTFOamcyTkRjd01Ub3hOVEl5TWpZAeE1qRXoZD
 attachments:
   data:
   - media:
@@ -38,7 +79,7 @@ attachments:
         src: https://external.xx.fbcdn.net/safe_image.php?d=AQDC-Ia7lvn3lKj-&w=720&h=720&url=https%3A%2F%2Fahmedramadan01.github.io%2FMemory%2520Game%2Fimg%2Fgrunt.png&cfs=1&_nc_hash=AQBtGJ5JCTl5S4f2
         width: 256
     target:
-      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fahmedramadan01.github.io%2FMemory%2520Game%2Findex.html&h=ATN3_TwnK0gFDmitdc1llpeWgCixJtO_0vyKwvgYFw6XjU42ngFdp2nakYKijSVD7WbWflkx1iXKiy6WLG1KeZpzAqV7bx-uj6sNgYOAq-vmYrZdgmnW&s=1
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fahmedramadan01.github.io%2FMemory%2520Game%2Findex.html&h=ATOGUOaxn98Q5mBF0qm1zfjNyTmOeKS0lDyylEnnjWvIjQo6x67Y7TSHG3qZRH5LJ-ZA3APaeCnAB89NW3yCt9aSm8U8IWeAoptrlDud2x_gmYXdXW_e&s=1
     title: memory Game
     type: share
-    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fahmedramadan01.github.io%2FMemory%2520Game%2Findex.html&h=ATN3_TwnK0gFDmitdc1llpeWgCixJtO_0vyKwvgYFw6XjU42ngFdp2nakYKijSVD7WbWflkx1iXKiy6WLG1KeZpzAqV7bx-uj6sNgYOAq-vmYrZdgmnW&s=1
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fahmedramadan01.github.io%2FMemory%2520Game%2Findex.html&h=ATOGUOaxn98Q5mBF0qm1zfjNyTmOeKS0lDyylEnnjWvIjQo6x67Y7TSHG3qZRH5LJ-ZA3APaeCnAB89NW3yCt9aSm8U8IWeAoptrlDud2x_gmYXdXW_e&s=1
