@@ -84,9 +84,6 @@ reactions:
   - id: '10156025239731303'
     name: Alaa Ali
     type: LIKE
-  - id: '934408920094293'
-    name: Muhammad Ahmed Fares
-    type: LIKE
   - id: '1664266593616217'
     name: Mohamed Anwer
     type: LIKE
@@ -129,23 +126,10 @@ comments:
       id: '10159861210675006'
     message: Samer Tageldin
     id: '1253199304719775'
-  - created_time: '2016-10-10T19:20:17+0000'
-    from:
-      name: محمد عرفة
-      id: '10155907524039651'
-    message: Does it work with gitlab? I am using leanlabs kanban and it doesnt support
-      multi project epics
-    id: '1254381787934860'
-  - created_time: '2016-10-10T20:54:38+0000'
-    from:
-      name: محمد عرفة
-      id: '10155907524039651'
-    message: Ha! Gitlab has an issues/board as of August. Still doesn't support epics
-    id: '1254432694596436'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkxTXpFNE56VTJPREExTkRJNE1qb3hORGMyTURBNU9EWXkZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkxTkRRek1qWTVORFU1TmpRek5qb3hORGMyTVRNeU9EYzQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkxTXpFNU9UTXdORGN4T1RjM05Ub3hORGMyTURFd05UWTQZD
 attachments:
   data:
   - description: wekan - The open-source Trello-like kanban (built with Meteor)
@@ -155,7 +139,7 @@ attachments:
         src: https://external.xx.fbcdn.net/safe_image.php?d=AQBykUL7THEApEP_&w=720&h=720&url=https%3A%2F%2Fcamo.githubusercontent.com%2F9f45836d88acb30db641074b85659b645bb91c21%2F687474703a2f2f692e696d6775722e636f6d2f6349346a5732682e706e67&cfs=1&_nc_hash=AQDxd_rwgzRjl9o9
         width: 720
     target:
-      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Fwekan%2Fwekan&h=ATPPjyFOxuNAET_2M7fj3KSwrXsxjnlRjAJWTI2LltbifS5k9UjBY87nREcvruJ_UEF5LnWvDKFAS9OL7OuccGedDHZj7_garab4KOm1kCL-M_Y_DePQ&s=1
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Fwekan%2Fwekan&h=ATMU2GO1YBJAO3YapU_oqOzpzraW8oE_2NiJlYjDnhB-KWek6fHhthvDaaZ6LqJFrnIC4ASDDmlJSQlsvUSASHwXtIwEyyLTjDQ7h1-XjcaWa7tFNvuZ&s=1
     title: wekan/wekan
     type: share
-    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Fwekan%2Fwekan&h=ATPPjyFOxuNAET_2M7fj3KSwrXsxjnlRjAJWTI2LltbifS5k9UjBY87nREcvruJ_UEF5LnWvDKFAS9OL7OuccGedDHZj7_garab4KOm1kCL-M_Y_DePQ&s=1
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Fwekan%2Fwekan&h=ATMU2GO1YBJAO3YapU_oqOzpzraW8oE_2NiJlYjDnhB-KWek6fHhthvDaaZ6LqJFrnIC4ASDDmlJSQlsvUSASHwXtIwEyyLTjDQ7h1-XjcaWa7tFNvuZ&s=1

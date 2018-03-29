@@ -1,0 +1,118 @@
+---
+message: |-
+  السلام عليكم
+  عندنا web app معمول
+  php (oop + mvc)
+  البرنامج هيكون فيه تعامل مع مستخدمين كتير وهيدخل فيه records بالملايين في مدة صغيرة
+  فاي افضل طريقه عشان ال performance يكون كويس والبرنامج يبقي stable وميقعش ولا يحصل فيه مشاكل اثناء الاستخدام
+  وياترا php framworks زي laravel مثلا هتكون حل كويس ولا هتقل البرنامج اكتر وشكرا مقدما
+from:
+  name: Eng-Mohamed Alaa
+  id: '1344309799008864'
+type: status
+created_time: '2018-03-29T16:31:36+0000'
+updated_time: '2018-03-29T20:36:01+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1799164350123265/
+id: '172338516139198_1799164350123265'
+reactions:
+  data:
+  - id: '1574769035969607'
+    name: Mohamed Fadl El Bary
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXpNRGsxTnpZAMU9UTXdPakUxTWpJek5ETTVPVGM2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXpNRGsxTnpZAMU9UTXdPakUxTWpJek5ETTVPVGM2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2018-03-29T16:35:40+0000'
+    from:
+      name: Fady Elias
+      id: '10214475095887869'
+    message: Have you tried https://lumen.laravel.com ?
+    id: '1799338346772532'
+  - created_time: '2018-03-29T16:37:02+0000'
+    from:
+      name: Fady Elias
+      id: '10214475095887869'
+    message: It is not only about the framework, the server itself needs to be ready
+    id: '1799339196772447'
+  - created_time: '2018-03-29T16:47:17+0000'
+    from:
+      name: Ahmed Mudhar
+      id: '1811551685586388'
+    message: "هو على حسب انت ال bottleneck هيظهر فين ، يعني الموضوع مش موضوع framework
+      على قد ما هو architecture بشكل عام ، يعني اول حاجة جت في بالي مثلا انك لازم
+      تكون عامل index للdatabase fields الي بتُستخدم كتير عشان تقلل وقت ال query ،
+      و يكون عندك auto backup بشكل مستمر ، و تستخدم connections pool بدل single connection
+      ،  حاجة كمان انه هل السيرفر الموجود هيقدر يتحمل كل ال requests الي جاية ليه
+      و يديresponse في فترة زمنية مقبولة؟ في ادوات كتير ممكن تختبر الموضوع دة عن طريق
+      انها تبعت كم كبير من ال requests في وقت قصير.\nانا اعتذر لو الاجابة مبهمة بس
+      ال scope بتاع السؤال كبير جدا و ممكن فعلا يتكتب فيه كتاب \U0001F605"
+    id: '1799348443438189'
+  - created_time: '2018-03-29T16:54:54+0000'
+    from:
+      name: Fady Elias
+      id: '10214475095887869'
+    message: فعلا هو محتاج يعمل stress test علشان يعرف
+    id: '1799354713437562'
+  - created_time: '2018-03-29T16:56:13+0000'
+    from:
+      name: Abdul-Kareem Mohammed
+      id: '966531170163383'
+    message: ممكن تجرب AWS lambda functions  ... فعالة جدا
+    id: '1799355563437477'
+  - created_time: '2018-03-29T16:59:08+0000'
+    from:
+      name: Mahmoud Tantawy
+      id: '10156115350739764'
+    message: |-
+      "هيدخل فيه records بالملايين في مدة صغيرة" يعنى ال application write-heavy؟
+      عندك operations تانية هيبقى عليها ضغط؟
+
+      بالنسبة لل write-heavy، ممكن تفكر انك تكتب الاول لqueue و بعد كده تقرا منه batches و تعمل persist فى ال DB
+
+      عرفنا برضه عندك operations ايه تانية عليها ضغط
+    id: '1799357930103907'
+  - created_time: '2018-03-29T20:11:20+0000'
+    from:
+      name: Bishoy M. Anwar
+      id: '568882060131828'
+    message: Laravel is good but script stop working after 30 sec i think .... At
+      general in php so what you need is a powerful server , if you created some functions
+      that make your script smaller thats oky
+    id: '1799508920088808'
+  - created_time: '2018-03-29T20:34:20+0000'
+    from:
+      name: Ahmed Syam
+      id: '10216014996153587'
+    message: What kind of operations your app will do?
+    id: '1799524160087284'
+  - created_time: '2018-03-29T20:35:20+0000'
+    from:
+      name: Ahmed Syam
+      id: '10216014996153587'
+    message: ''
+    id: '1799524840087216'
+  - created_time: '2018-03-29T20:35:31+0000'
+    from:
+      name: Ahmed Syam
+      id: '10216014996153587'
+    message: ''
+    id: '1799524993420534'
+  - created_time: '2018-03-29T20:35:43+0000'
+    from:
+      name: Ahmed Syam
+      id: '10216014996153587'
+    message: ''
+    id: '1799525063420527'
+  - created_time: '2018-03-29T20:35:58+0000'
+    from:
+      name: Ahmed Syam
+      id: '10216014996153587'
+    message: ''
+    id: '1799525263420507'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM1T1RNek9ETTBOamMzTWpVek1qb3hOVEl5TXpReE16UXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM1T1RVeU5USTJNelF5TURVd056b3hOVEl5TXpVMU56VTQZD

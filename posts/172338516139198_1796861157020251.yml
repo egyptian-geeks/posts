@@ -14,7 +14,7 @@ from:
 type: link
 picture: https://external.xx.fbcdn.net/safe_image.php?d=AQBs_hNpfUuYwHXx&w=130&h=130&url=https%3A%2F%2Fcdn.mdn.mozilla.net%2Fstatic%2Fimg%2Fopengraph-logo.72382e605ce3.png&cfs=1&_nc_hash=AQChJP882jJpQEfI
 created_time: '2018-03-27T10:00:46+0000'
-updated_time: '2018-03-28T14:26:30+0000'
+updated_time: '2018-03-29T19:01:11+0000'
 name: "@supports"
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1796861157020251/
 id: '172338516139198_1796861157020251'
@@ -86,9 +86,6 @@ reactions:
   - id: '181682482588996'
     name: Ahmad Hegazy
     type: LIKE
-  - id: '2016350531963337'
-    name: ALaa El Sayed
-    type: LIKE
   - id: '10155926704141777'
     name: Ahmed Abdelaziz
     type: LIKE
@@ -125,10 +122,17 @@ comments:
       id: '150528545529121'
     message: Ali Gamal
     id: '1798239656882401'
+  - created_time: '2018-03-29T19:01:07+0000'
+    from:
+      name: Ahmed Mudhar
+      id: '1811551685586388'
+    message: now i just need something that checks whether @supports is supported
+      or not lol
+    id: '1799449183428115'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM1TmpreU1qa3pNRE0wTnpRd056b3hOVEl5TVRRMU1qWTUZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM1T0RJek9UWTFOamc0TWpRd01Ub3hOVEl5TWpRM01UZAzMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM1T1RRME9URTRNelF5T0RFeE5Ub3hOVEl5TXpVd01EWTQZD
 attachments:
   data:
   - description: The @supports CSS at-rule lets you specify declarations that depend
@@ -141,7 +145,7 @@ attachments:
         src: https://external.xx.fbcdn.net/safe_image.php?d=AQAqWGpPt8gAByYJ&w=720&h=720&url=https%3A%2F%2Fcdn.mdn.mozilla.net%2Fstatic%2Fimg%2Fopengraph-logo.72382e605ce3.png&cfs=1&_nc_hash=AQDhf3xwSgjZU2L4
         width: 600
     target:
-      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FCSS%2F%2540supports&h=ATNV4iQkpbWrdmty9IgQ-mkXmhAsVmElv_2OYy8hSyiWktsaboaU71ivA4n51yUIYlPl8gL4l7QupNPAE7wWCfZqzoC9YftI9xoBulFFwUbPTVD-7gg0&s=1
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FCSS%2F%2540supports&h=ATPT-e02u6A4LUzD5xVUGD2OStfcT2apxRyxLYdRq6V_2hahvTDTgidjY4oI9P5QoknbAi2th0kHNk2KEbKDZONudHFRVT2pAYamK4rl4A6mU8QK3fxy&s=1
     title: "@supports"
     type: share
-    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FCSS%2F%2540supports&h=ATNV4iQkpbWrdmty9IgQ-mkXmhAsVmElv_2OYy8hSyiWktsaboaU71ivA4n51yUIYlPl8gL4l7QupNPAE7wWCfZqzoC9YftI9xoBulFFwUbPTVD-7gg0&s=1
+    url: https://l.facebook.com/l.php?u=https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FCSS%2F%2540supports&h=ATPT-e02u6A4LUzD5xVUGD2OStfcT2apxRyxLYdRq6V_2hahvTDTgidjY4oI9P5QoknbAi2th0kHNk2KEbKDZONudHFRVT2pAYamK4rl4A6mU8QK3fxy&s=1
