@@ -194,9 +194,6 @@ reactions:
   - id: '10155615625976773'
     name: Omar Khairy
     type: HAHA
-  - id: '1809581442395089'
-    name: Mohamed Amin
-    type: LIKE
   - id: '2097233203832034'
     name: Ahmed Mohamed Thabet
     type: LIKE
@@ -220,9 +217,6 @@ reactions:
     type: HAHA
   - id: '2043426795671422'
     name: Hazim Khaled
-    type: LIKE
-  - id: '10155828602750289'
-    name: Reem Hamdy
     type: LIKE
   - id: '1590716371017328'
     name: Omar Ibrahim
@@ -543,12 +537,6 @@ comments:
       id: '10155123895506641'
     message: What's hard about that ?? .. :wq or :q!
     id: '1588012031238499'
-  - created_time: '2017-08-23T19:01:14+0000'
-    from:
-      name: Mohamed Amin
-      id: '1809581442395089'
-    message: vim دا بتاع ابن جزمة
-    id: '1588030021236700'
   - created_time: '2017-08-23T19:27:50+0000'
     from:
       name: Amr Reda
@@ -573,12 +561,6 @@ comments:
       id: '1607277172683574'
     message: أنا لما بستخدم editor غير vim بنزل vim plugin علشان يبقى زي vim :D
     id: '1588542254518810'
-  - created_time: '2017-08-24T12:41:20+0000'
-    from:
-      name: Yahia Kandeel
-      id: '10155251842491439'
-    message: والله البتاع ده سهل جدا :D .. بس عاوز اللى يفهمه
-    id: '1588609017845467'
   - created_time: '2017-08-24T15:31:50+0000'
     from:
       name: Fady Morris Milad

@@ -1,0 +1,58 @@
+---
+message: |-
+  كنت حابب أسأل لو حد جرب nodejs مع RDBM في مشروع، إيه أفضل ORM استخدمه؟
+
+  أنا من امبارح بدور على حاجة استخدمها مع mysql أو Postgresql و لقيت أكثر حاجة بيتكلموا عنها sequelize
+  و بعدها Bookshelf
+  الأول: ما عجبنيش طريقته و توثيقه مش كامل، فأنا خايف أتورط معاه
+  الثانية: لقيت تطويره في مشاكل
+  لقيت كمان waterline وعرفت إنه الإفتراضي مع sailsjs
+  بس برضه لقيت تطويره مش نشط
+
+  ولقيت قدامي حل من ثلاثة:
+  ١- استخدم sequelize
+  ٢- استخدم Knex
+  ٣- أكتب sql مباشرة في الكود (Hard coded)، وعايز أبعد عن الحل دة
+from:
+  name: Muhammed Abdulaziz
+  id: '10156189240128395'
+type: status
+created_time: '2018-03-30T19:33:40+0000'
+updated_time: '2018-03-30T21:06:19+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1800494539990246/
+id: '172338516139198_1800494539990246'
+comments:
+  data:
+  - created_time: '2018-03-30T20:12:42+0000'
+    from:
+      name: Mohammed Fox
+      id: '1534405689947170'
+    message: |-
+      sequelize is the most favorable and it has good support community , recommended if have small project and u wanna throw together some models and query them.
+      had no experience with Knex since its fairly new and its support community is relatively small .
+      my solution for a large scale project is develop and iterate over my own implementation for ORM that has every custom feature needed in the project, i personally recommend this approach if you feel like ur project is scaling in the future .
+    id: '1800779899961710'
+  - created_time: '2018-03-30T20:39:23+0000'
+    from:
+      name: Mourad Al Ashry
+      id: '10160284573020019'
+    message: Abdallah Gamal
+    id: '1800807789958921'
+  - created_time: '2018-03-30T21:02:28+0000'
+    from:
+      name: Ahmed Atalla
+      id: '574320702905312'
+    message: |-
+      Just use knex is simple yet so powerful, and you can use it's CLI to handle migrations and seeds as well
+      Bookshelf is built on top of knex actually
+    id: '1800828906623476'
+  - created_time: '2018-03-30T21:06:16+0000'
+    from:
+      name: Mark Adel
+      id: '1802897633078241'
+    message: check http://typeorm.io/#/
+    id: '1800833196623047'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGd3TURjM09UZAzVPVGsyTVRjeE1Eb3hOVEl5TkRRd056WXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGd3TURnek16RTVOall5TXpBME56b3hOVEl5TkRRek9UYzIZD

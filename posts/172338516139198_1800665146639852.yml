@@ -1,0 +1,126 @@
+---
+message: "دلوقتي انا بدرس برتوكول ال http و في حاجات حاسس اني مش فاهمها قوي او فاهمها
+  غلط في ال http methods فياريت لو حد عنده اضافه او تعديل علي اللي هاقوله \n*******************\nGET\nبستخدمها
+  علشان اجيب ال CONTENT بتاع الفايل اللي موجود في ال URL بتاعي \nعلي سبيل المثال الصوره
+  الاولي بترجع HTML والصوره التانيه بترجع JSON \n*****************\nPUT\nلو بستخدمها
+  مع Physical URL \nهتحط ال CONTENT اللي انا بعته في ال BODY بتاع الريكوست في الفايل
+  نفسه زي الصوره رقم 3\nلو بستخدمها مع VIRTUAL URL و بفترض هنا اني بستخدم ASP.NET
+  WEB API \nهاروح علي الكونترولر و الاكشن بتاعي و اشوف اللوجيك كود و اشوف هاحط الكلام
+  ده في الدتا بيز و لا اخزنه في فايل معين او اي كان اللي هاعمله زي الصوره رقم 4 و
+  5 \n******************\nDELETE\nلو بستخدمها مع Physical URL \nهتحذف الفايل اللي
+  موجود في ال URL زي الصوره رقم 6 \nلو بستخدمها مع VIRTUAL URL و بفترض هنا اني بستخدم
+  ASP.NET WEB API \nهاروح علي الكونترولر و الاكشن بتاعي و اشوف اللوجيك كود و اشوف
+  انا عايز اعمل ايه زي الصوره رقم 7 \n*****************\nPOST\nليها تلات طرق مشروحين
+  في اللينك د ه\nhttps://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST"
+link: https://www.facebook.com/photo.php?fbid=2029265167292105&set=gm.1800665146639852&type=3
+from:
+  name: Ahmed Khalifa
+  id: '1999765416908747'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/29572975_2029265167292105_3246850665938805466_n.jpg?_nc_cat=0&oh=b952ba70a7b082b30a9b70e649732e6b&oe=5B2ECA15
+created_time: '2018-03-30T19:33:14+0000'
+updated_time: '2018-03-30T19:47:41+0000'
+name: Photos from Ahmed Khalifa's post
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1800665146639852/
+id: '172338516139198_1800665146639852'
+reactions:
+  data:
+  - id: '10156089330442292'
+    name: Hany Ahmed
+    type: LIKE
+  paging:
+    cursors:
+      before: TlRJNU5ETTNNamt4T2pFMU1qSTBORE0zTkRVNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TlRJNU5ETTNNamt4T2pFMU1qSTBORE0zTkRVNk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2018-03-30T19:47:33+0000'
+    from:
+      name: Mohammad Ali Diab
+      id: '10155065357586363'
+    message: Read this excellent quick tutorial https://odetocode.com/Articles/741.aspx
+    id: '1800757356630631'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGd3TURjMU56TTFOall6TURZAek1Ub3hOVEl5TkRNNU1qVTAZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGd3TURjMU56TTFOall6TURZAek1Ub3hOVEl5TkRNNU1qVTAZD
+attachments:
+  data:
+  - subattachments:
+      data:
+      - media:
+          image:
+            height: 522
+            src: https://scontent.xx.fbcdn.net/v/t1.0-9/29572975_2029265167292105_3246850665938805466_n.jpg?_nc_cat=0&oh=74667fb6a2bb96182ccd04f868f16683&oe=5B3DA67E
+            width: 665
+        target:
+          id: '2029265167292105'
+          url: https://www.facebook.com/photo.php?fbid=2029265167292105&set=gm.1800665146639852&type=3
+        type: photo
+        url: https://www.facebook.com/photo.php?fbid=2029265167292105&set=gm.1800665146639852&type=3
+      - media:
+          image:
+            height: 395
+            src: https://scontent.xx.fbcdn.net/v/t1.0-9/29790460_2029265220625433_6537344150887863696_n.jpg?_nc_cat=0&oh=7418dc39ed62e7aa1dd419abe3fa5df0&oe=5B741A49
+            width: 638
+        target:
+          id: '2029265220625433'
+          url: https://www.facebook.com/photo.php?fbid=2029265220625433&set=gm.1800665146639852&type=3
+        type: photo
+        url: https://www.facebook.com/photo.php?fbid=2029265220625433&set=gm.1800665146639852&type=3
+      - media:
+          image:
+            height: 475
+            src: https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/29570370_2029265237292098_6810152816372549146_n.jpg?_nc_cat=0&oh=45f95ad4ca3c0b04cb74ff40f3267bcb&oe=5B3644E5
+            width: 720
+        target:
+          id: '2029265237292098'
+          url: https://www.facebook.com/photo.php?fbid=2029265237292098&set=gm.1800665146639852&type=3
+        type: photo
+        url: https://www.facebook.com/photo.php?fbid=2029265237292098&set=gm.1800665146639852&type=3
+      - media:
+          image:
+            height: 540
+            src: https://scontent.xx.fbcdn.net/v/t1.0-0/p180x540/29572903_2029265263958762_3850206179241273010_n.jpg?_nc_cat=0&oh=12a57aac2f3671a35b5487c1bfce14da&oe=5B3BF7A0
+            width: 720
+        target:
+          id: '2029265263958762'
+          url: https://www.facebook.com/photo.php?fbid=2029265263958762&set=gm.1800665146639852&type=3
+        type: photo
+        url: https://www.facebook.com/photo.php?fbid=2029265263958762&set=gm.1800665146639852&type=3
+      - media:
+          image:
+            height: 322
+            src: https://scontent.xx.fbcdn.net/v/t1.0-9/29683116_2029265270625428_6565661691857833801_n.jpg?_nc_cat=0&oh=f6a88d5d4c24cb58780685b0807e1c47&oe=5B3A6979
+            width: 369
+        target:
+          id: '2029265270625428'
+          url: https://www.facebook.com/photo.php?fbid=2029265270625428&set=gm.1800665146639852&type=3
+        type: photo
+        url: https://www.facebook.com/photo.php?fbid=2029265270625428&set=gm.1800665146639852&type=3
+      - media:
+          image:
+            height: 479
+            src: https://scontent.xx.fbcdn.net/v/t1.0-9/29570726_2029265303958758_469865846705893843_n.jpg?_nc_cat=0&oh=709094858838e21b30fac1552083ab92&oe=5B6AF13C
+            width: 614
+        target:
+          id: '2029265303958758'
+          url: https://www.facebook.com/photo.php?fbid=2029265303958758&set=gm.1800665146639852&type=3
+        type: photo
+        url: https://www.facebook.com/photo.php?fbid=2029265303958758&set=gm.1800665146639852&type=3
+      - media:
+          image:
+            height: 575
+            src: https://scontent.xx.fbcdn.net/v/t1.0-9/29571449_2029265427292079_7616015994653004689_n.jpg?_nc_cat=0&oh=15bfda03fc8969471d630d1b0215f4bd&oe=5B71945C
+            width: 710
+        target:
+          id: '2029265427292079'
+          url: https://www.facebook.com/photo.php?fbid=2029265427292079&set=gm.1800665146639852&type=3
+        type: photo
+        url: https://www.facebook.com/photo.php?fbid=2029265427292079&set=gm.1800665146639852&type=3
+    target:
+      id: '1800665146639852'
+      url: https://www.facebook.com/media/set/?set=pcb.1800665146639852&type=1
+    title: Photos from Ahmed Khalifa's post
+    type: album
+    url: https://www.facebook.com/media/set/?set=pcb.1800665146639852&type=1
