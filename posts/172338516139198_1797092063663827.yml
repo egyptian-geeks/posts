@@ -14,7 +14,7 @@ from:
 type: photo
 picture: https://scontent.xx.fbcdn.net/v/t1.0-0/q83/s130x130/29541401_1019069711594750_1841311315852949956_n.jpg?_nc_cat=0&oh=55b0c4a11ee804e17ec8285db4092690&oe=5B6C68EB
 created_time: '2018-03-27T14:28:10+0000'
-updated_time: '2018-03-30T12:58:07+0000'
+updated_time: '2018-03-31T13:06:53+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1797092063663827/
 id: '172338516139198_1797092063663827'
 reactions:
@@ -49,10 +49,19 @@ comments:
     message: other than naming convention you follow, i think its gr8 & extendable,
       gj
     id: '1797950146911352'
+  - created_time: '2018-03-31T11:38:54+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: If you intend to use this as a library, you should make the dependency
+      on the users model generic. This is because almost everybody using your library
+      will already have their own user model with its own authentication system, so
+      they should just need to configure your library to use their existing user model.
+    id: '1801388533234180'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM1TnpJM05UTXpNelkwTlRVd01Eb3hOVEl5TVRZANU16QTIZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM1TnprMU1ERTBOamt4TVRNMU1qb3hOVEl5TWpJME5UQTEZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGd3TVRNNE9EVXpNekl6TkRFNE1Eb3hOVEl5TkRrMk16TTEZD
 attachments:
   data:
   - description: |-

@@ -1,0 +1,169 @@
+---
+message: "أعذروا جهلي بالـ #JS \nبس قابلني حاجة غريبة وانا بعمل سكريبت كدة\nالسلوك
+  بيتغير لو حطيت او محطيتش أقواس () وانا بنادي function \nبس المشكلة ، انه ساعات لازم
+  احطها ، وساعات نفس الفانكشن ، مينفعش احطها\nفأنا مش فاهم الحقيقة\nالصورة كمثال ،
+  والتفاصيل اهي : \n1- محطتش () ، شغالة تمام \n2- حطيت () ، يتنفذ ، بس مبتستناش الثانية\n3-
+  محطتش () ، مبتشتغلش \n4- حطيت () ، شغالة تمام\n#javascript"
+link: https://www.facebook.com/photo.php?fbid=10215484647650949&set=gm.1801766293196404&type=3
+from:
+  name: Ahmed Kamal
+  id: '10214925485592247'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/29683299_10215484647650949_6978635505722083339_n.jpg?_nc_cat=0&oh=602d0596e2b020357ccbe5a65f805fe1&oe=5B2A8666
+created_time: '2018-03-31T19:15:23+0000'
+updated_time: '2018-03-31T21:45:39+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1801766293196404/
+id: '172338516139198_1801766293196404'
+reactions:
+  data:
+  - id: '2112729208959879'
+    name: Asmahan Gomaa
+    type: LIKE
+  - id: '10155926704141777'
+    name: Ahmed Abdelaziz
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTJOamcwTmpBM05qRTBPakUxTWpJMU1qUXdNRFU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TlRrd09EZA3hOemMyT2pFMU1qSTFNak01TVRZANk1qVTBNRGsyTVRZAeE13PT0ZD
+comments:
+  data:
+  - created_time: '2018-03-31T19:16:09+0000'
+    from:
+      name: Ahmed Kamal
+      id: '10214925485592247'
+    message: "أساله قريتها في الحته دي ، ومفهمتش اوي برضو : \n\nhttps://stackoverflow.com/questions/35949554/invoking-a-function-without-parentheses\n\nhttps://stackoverflow.com/questions/3246928/in-javascript-does-it-make-a-difference-if-i-call-a-function-with-parentheses"
+    id: '1801767203196313'
+  - created_time: '2018-03-31T19:20:31+0000'
+    from:
+      name: Mostafa Muhammad
+      id: '10155787111376210'
+    message: محتاج تسأل نفسك سؤال وهو "إيه نوع المتغير الأول اللي بيدخل للـ setTimeout"
+      في كل مرة.
+    id: '1801769983196035'
+  - created_time: '2018-03-31T19:21:33+0000'
+    from:
+      name: Asmahan Gomaa
+      id: '2112729208959879'
+    message: عشان لما بتحط () انت كدة بتعمل call for start function فلازم تتنفذ فوقتها
+      علي طول
+    id: '1801770599862640'
+  - created_time: '2018-03-31T19:22:51+0000'
+    from:
+      name: Asmahan Gomaa
+      id: '2112729208959879'
+    message: SetTimeout مش محتاجه انك تعمل call for start function
+    id: '1801771466529220'
+  - created_time: '2018-03-31T19:23:27+0000'
+    from:
+      name: Asmahan Gomaa
+      id: '2112729208959879'
+    message: محتاجة بس انك تحط ال function body
+    id: '1801771799862520'
+  - created_time: '2018-03-31T19:24:07+0000'
+    from:
+      name: Asmahan Gomaa
+      id: '2112729208959879'
+    message: و ال SetTimeout هتعملها call  بطريقتها
+    id: '1801772183195815'
+  - created_time: '2018-03-31T19:24:47+0000'
+    from:
+      name: Eman Herawy
+      id: '10214557410906658'
+    message: "اول واحده .. انت بت declare function  \nالباقى انت بتنادى عليها ،  حتى
+      فى حالة لما حطتها  فى فنكشن جوه ال settimeout function"
+    id: '1801772516529115'
+  - created_time: '2018-03-31T19:26:09+0000'
+    from:
+      name: Asmahan Gomaa
+      id: '2112729208959879'
+    message: Just write setTimeout(start, 1000) this will work with you as you expect
+      and you need to read more about js to understand its behavior
+    id: '1801773433195690'
+  - created_time: '2018-03-31T19:26:55+0000'
+    from:
+      name: Eman Herawy
+      id: '10214557410906658'
+    message: "Ahmed Kamal  لو انت بجد عاوز تفهم الجافا سكريبت وبتعمق \nيبقى عليك وعلى
+      you don't know js series \nالكام جزء اللى قريتهم فيه فرقوا معايا"
+    id: '1801773946528972'
+  - created_time: '2018-03-31T19:34:58+0000'
+    from:
+      name: Jihad A. Abdel Majeed
+      id: '10155357846496295'
+    message: "المثال الاولاني:\nsettimout(start,1000)\nصح لان الsettimeout بتاخد عنوان
+      الfunction  او complete implementation \nيعني دي صح عشان كدة اشتغلت تمام\n\nالمثال
+      التاني\nلما بتحط الاقواس setTimeout(start(),1000)\nانت هنا بتنده الدالة start\nفبتتنفذ
+      الاول وبعدين يتنده على setTimeout \nفstart بتشتغل وال setTime لاة لانها اصلا
+      مبعوتة ليها غلط\n\nالمثال التالت انت بدل ما تنده start() inside the new implemented
+      function\nكتبتها من غير اقواس . هنا المفروض تنده على start يعني تأمر الjavascript
+      interpreter to call it to execute\nفكان لازم تحط الاقواس\nلانها جوة function(){}\n\nعشان
+      كدة اشتغلت في المثال الرابع\n\nاتمنى اكون عرفت اشرح\nnote:\nif you write \nsetTimeout(function(){console.log(\"test\");},1000)
+      it will also work fine\n\nso setTimeout and any js function that takes a function
+      inside it to run it, is supposed to take  a pointer to the function not to call
+      the function by putting brackets. UNLESS you mean to call the function to send
+      its return value as an argument."
+    id: '1801779299861770'
+  - created_time: '2018-03-31T19:37:38+0000'
+    from:
+      name: Mohammad Helmy
+      id: '10155848201515605'
+    message: "1. You gave the fuction as a callback to setTimout and it calls it.\n2.
+      You called the function while calling setTimout.\n3. Your callback doesn't call
+      the start function. \n4. You defined the callback as a one line function that
+      calls start function"
+    id: '1801781273194906'
+  - created_time: '2018-03-31T19:40:23+0000'
+    from:
+      name: Ahmed Kamal
+      id: '10214925485592247'
+    message: عظيم ، شكرا يا جماعة ، فهمت دلوقتي
+    id: '1801782946528072'
+  - created_time: '2018-03-31T19:51:45+0000'
+    from:
+      name: Hisham Fangary
+      id: '10156660518155839'
+    message: |-
+      setTimeout(start, 1000); // waits 1 sec then looks for a function named start and executes it.
+      and
+      setTimeout (function(){ start() }, 1000); // waits 1 second, then executes whatever is inside that inline function, which is a call to function start.
+
+      Are both correct. The rest are incorrect, for the following reasons:
+      setTimeout ( start(), 1000);  //you just executed the function because you called it inside the statement directly without waiting.
+
+      setTimeout ( function () { start }, 1000);   // timeout waits one second, then executes whatever is inside the inline function, which is NOT a function call, it looks for variable named start, doesn't find it, and returns undefined.
+    id: '1801789899860710'
+  - created_time: '2018-03-31T20:01:08+0000'
+    from:
+      name: Mohamed Hamed
+      id: '1550253781719261'
+    message: First parameter should be a function handle.
+    id: '1801796116526755'
+  - created_time: '2018-03-31T21:10:18+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: also good to mention that function(){start()} will be at least 1 frame
+      slower than setTimeout(start)
+    id: '1801847459854954'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGd3TVRjMk56SXdNekU1TmpNeE16b3hOVEl5TlRJek56Y3cZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGd3TVRnME56UTFPVGcxTkRrMU5Eb3hOVEl5TlRNd05qRTQZD
+attachments:
+  data:
+  - description: "أعذروا جهلي بالـ #JS \nبس قابلني حاجة غريبة وانا بعمل سكريبت كدة\nالسلوك
+      بيتغير لو حطيت او محطيتش أقواس () وانا بنادي function \nبس المشكلة ، انه ساعات
+      لازم احطها ، وساعات نفس الفانكشن ، مينفعش احطها\nفأنا مش فاهم الحقيقة\nالصورة
+      كمثال ، والتفاصيل اهي : \n1- محطتش () ، شغالة تمام \n2- حطيت () ، يتنفذ ، بس
+      مبتستناش الثانية\n3- محطتش () ، مبتشتغلش \n4- حطيت () ، شغالة تمام\n#javascript"
+    media:
+      image:
+        height: 312
+        src: https://scontent.xx.fbcdn.net/v/t31.0-8/s720x720/29665634_10215484647650949_6978635505722083339_o.jpg?_nc_cat=0&oh=3ef5165799b1c4f4e1410da5b812b2e9&oe=5B317272
+        width: 720
+    target:
+      id: '10215484647650949'
+      url: https://www.facebook.com/photo.php?fbid=10215484647650949&set=gm.1801766293196404&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=10215484647650949&set=gm.1801766293196404&type=3

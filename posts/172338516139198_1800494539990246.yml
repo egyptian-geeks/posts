@@ -18,9 +18,27 @@ from:
   id: '10156189240128395'
 type: status
 created_time: '2018-03-30T19:33:40+0000'
-updated_time: '2018-03-30T21:06:19+0000'
+updated_time: '2018-03-31T06:38:04+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1800494539990246/
 id: '172338516139198_1800494539990246'
+reactions:
+  data:
+  - id: '946174355544822'
+    name: Ahmed Salah
+    type: LIKE
+  - id: '2046856075528599'
+    name: Ebra Him K Eldesouki
+    type: LIKE
+  - id: '871016873079772'
+    name: Marwan Ahmed
+    type: LIKE
+  - id: '1635247416559730'
+    name: Ahmed Ramadan
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTBOVFkzT1RnME1qUXdPakUxTWpJME56ZA3lOekU2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQXlNak0wTmpNMk1UVXlPakUxTWpJME5qSXdNelE2TWpVME1EazJNVFl4TXc9PQZDZD
 comments:
   data:
   - created_time: '2018-03-30T20:12:42+0000'
@@ -52,7 +70,31 @@ comments:
       id: '1802897633078241'
     message: check http://typeorm.io/#/
     id: '1800833196623047'
+  - created_time: '2018-03-30T23:27:09+0000'
+    from:
+      name: Abdallah Gamal
+      id: '10155957176184424'
+    message: To be honest there is no perfect ORM until now in node js from my point
+      of view. I have tried waterline , sequelize and tried knex a few times in adonis
+      framework if you heard about it.Plus knex is just a query builder so you cannot
+      make models with it like in sequelize.On the other hand knex has a beautiful
+      quering syntax so , as a final advice I think you need to make a combination
+      between both sequelize and knex.Use sequelize for making your models and tables  and
+      knex for making your database queries since it has better query style.
+    id: '1800950293278004'
+  - created_time: '2018-03-31T03:13:51+0000'
+    from:
+      name: Mohamed Nabil
+      id: '941919879288729'
+    message: Python make it easy just take a look at flask-sqlAlchemy package!
+    id: '1801097646596602'
+  - created_time: '2018-03-31T06:38:01+0000'
+    from:
+      name: Ahmed Salah
+      id: '946174355544822'
+    message: Up
+    id: '1801208456585521'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGd3TURjM09UZAzVPVGsyTVRjeE1Eb3hOVEl5TkRRd056WXkZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGd3TURnek16RTVOall5TXpBME56b3hOVEl5TkRRek9UYzIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGd3TVRJd09EUTFOalU0TlRVeU1Ub3hOVEl5TkRjNE1qZA3gZD

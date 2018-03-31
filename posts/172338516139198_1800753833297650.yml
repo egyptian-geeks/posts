@@ -1,0 +1,38 @@
+---
+message: "What're the benefits of using IoC containers over the normal way of coding
+  (e.g. newing up classes with(out) dependancies everytime -> calling some methods
+  or properties).\n\nWhat i know >> \n1- best practice for reusing your code.\n2-
+  helps to follow some design patterns (e.g. Factory, DI, ...etc).\n3- efficient for
+  resources."
+from:
+  name: Nady Shalaby
+  id: '2086378701380044'
+type: status
+created_time: '2018-03-31T07:28:35+0000'
+updated_time: '2018-03-31T11:33:27+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1800753833297650/
+id: '172338516139198_1800753833297650'
+comments:
+  data:
+  - created_time: '2018-03-31T07:34:06+0000'
+    from:
+      name: Mahmoud Tantawy
+      id: '10156115350739764'
+    message: "I think what you mentioned is nice to have but the real reasons are
+      IMO\n- ability to write tests and being able to mock dependencies \n- ability
+      to switch implementations without having to update the code, only update wherever
+      you link interfaces to their implementations"
+    id: '1801237649915935'
+  - created_time: '2018-03-31T07:39:24+0000'
+    from:
+      name: Ahmed Salah
+      id: '326700584509671'
+    message: "It has many aspects,\nOne important thing for me, Is hassle free construction
+      \nIf you have a constructor that needs some parameters \nAnd these parameters
+      needs other parameters and so on\nYou don't wary, you just ask for your instance
+      and that's it"
+    id: '1801240149915685'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGd3TVRJek56WTBPVGt4TlRrek5Ub3hOVEl5TkRneE5qUTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGd3TVRJME1ERTBPVGt4TlRZANE5Ub3hOVEl5TkRneE9UWTAZD

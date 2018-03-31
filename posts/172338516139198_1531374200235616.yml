@@ -117,16 +117,6 @@ comments:
       id: '10156301546469701'
     message: "الاصول تعمل منشن لصاحبك بقى وتديله وضعه \U0001F601 Osama Soliman"
     id: '1531514000221636'
-  - created_time: '2017-06-29T21:50:30+0000'
-    from:
-      name: Mahmoud Sayed
-      id: '1572371959515590'
-    message: "you posted 3 solutions. \nfirst, Let's assume that:\nS = length of string
-      s\nT = length of string t\nS == T is true. (one more char doesn't make a difference.)
-      \n\nRight solution complexity: \nO(S log(S) + T log(T) + T) = O(S log(S)) \n\nLeft
-      solution complexity: \nO(S + T + S * (T + T)) = O(S * T) = O(S^2) \n\nLast solution
-      complexity: (most efficient)\nO(S + T + 26) = O(S)"
-    id: '1531587206880982'
   - created_time: '2017-06-29T22:34:58+0000'
     from:
       name: Mohamed Elshorbagy

@@ -5,13 +5,49 @@ from:
   id: '1979848165376268'
 type: status
 created_time: '2018-03-29T16:31:17+0000'
-updated_time: '2018-03-29T16:31:18+0000'
+updated_time: '2018-03-31T11:34:49+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1799185670121133/
 shares:
   count: 21
 id: '172338516139198_1799185670121133'
 reactions:
   data:
+  - id: '1680206928702261'
+    name: Amin Eisa
+    type: HAHA
+  - id: '2121265251427161'
+    name: Mohamed Elgendy
+    type: LIKE
+  - id: '1578582745528141'
+    name: Muhammed Eltabakh
+    type: HAHA
+  - id: '1687764054613121'
+    name: Ahmed Gemizy
+    type: LIKE
+  - id: '10156089336182292'
+    name: Hassan Aly Selim
+    type: HAHA
+  - id: '2162564797304338'
+    name: Ahmed Maher
+    type: HAHA
+  - id: '1643671992322306'
+    name: ايمان حامد
+    type: LIKE
+  - id: '2168890009998890'
+    name: Ahmed Samir
+    type: HAHA
+  - id: '10155450305207869'
+    name: Muhammad Hamed
+    type: LIKE
+  - id: '1395577633879833'
+    name: Samar Abdelnabi
+    type: HAHA
+  - id: '1847421335299420'
+    name: Ahmed Sabry
+    type: HAHA
+  - id: '1618200958225827'
+    name: Mostafa AbouZed
+    type: LIKE
   - id: '10212593812252791'
     name: Mohamed Elkhodary
     type: HAHA
@@ -761,8 +797,27 @@ reactions:
     type: LIKE
   paging:
     cursors:
-      before: TVRBd09EZAzRPRFU0T1RveE5USXlORFEyTmpJMU9qYzRPRFkwT0RBek56a3hNek14TWc9PQZDZD
+      before: TVRBd01EQXhNemc1TVRFMk1qWXdPakUxTWpJMU1qY3dPRGM2TnpnNE5qUTRNRE0zT1RFek16RXkZD
       after: TVRneE9EZA3lNRE0yTWpveE5USXlNelF4TVRFMU9qSTFOREE1TmpFMk1UTT0ZD
+comments:
+  data:
+  - created_time: '2018-03-31T03:13:09+0000'
+    from:
+      name: Mohamed Khalifa
+      id: '1854173964634347'
+    message: "\U0001F602\U0001F602\U0001F602\U0001F602"
+    id: '1801097319929968'
+  - created_time: '2018-03-31T11:34:46+0000'
+    from:
+      name: Hassan Aly Selim
+      id: '10156089336182292'
+    message: When trying to deploy updates to a production backend (that involve DB
+      migrations) with as little downtime as possible :D
+    id: '1801386169901083'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGd3TVRBNU56TXhPVGt5T1RrMk9Eb3hOVEl5TkRZAMU9Ua3cZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGd3TVRNNE5qRTJPVGt3TVRBNE16b3hOVEl5TkRrMk1EZAzIZD
 attachments:
   data:
   - subattachments:
