@@ -113,9 +113,6 @@ reactions:
   - id: '10213492459958875'
     name: Ahmed Fathy
     type: LIKE
-  - id: '10155961930885692'
-    name: Oumar Yehia
-    type: LIKE
   - id: '10156358805885288'
     name: Mahmoud Abd El-Fattah
     type: LIKE
@@ -127,6 +124,9 @@ reactions:
     type: LIKE
   - id: '1716680455055421'
     name: Ahmed Fathy
+    type: LIKE
+  - id: '870918293074668'
+    name: Abdelrahman Ibrahim
     type: LIKE
   - id: '10213312485660401'
     name: Amir Allam
@@ -187,9 +187,6 @@ reactions:
     type: LIKE
   - id: '10213017755051330'
     name: Abdelrhman Shawky
-    type: LIKE
-  - id: '1724876300898067'
-    name: Mohammad Moneer
     type: LIKE
   - id: '10155961552416083'
     name: Abdallah Hodieb
@@ -458,7 +455,7 @@ comments:
     id: '914404131932629'
   - created_time: '2015-03-24T18:28:08+0000'
     from:
-      name: Abdulla Adel Essa
+      name: Abdullah Adel Essa
       id: '1822467331117958'
     message: Both :D
     id: '914407041932338'

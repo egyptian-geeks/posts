@@ -11,11 +11,14 @@ from:
 type: photo
 picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/29683299_10215484647650949_6978635505722083339_n.jpg?_nc_cat=0&oh=602d0596e2b020357ccbe5a65f805fe1&oe=5B2A8666
 created_time: '2018-03-31T19:15:23+0000'
-updated_time: '2018-03-31T21:45:39+0000'
+updated_time: '2018-04-01T01:24:45+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1801766293196404/
 id: '172338516139198_1801766293196404'
 reactions:
   data:
+  - id: '871016873079772'
+    name: Marwan Ahmed
+    type: LIKE
   - id: '2112729208959879'
     name: Asmahan Gomaa
     type: LIKE
@@ -24,7 +27,7 @@ reactions:
     type: LIKE
   paging:
     cursors:
-      before: TVRBd01EQTJOamcwTmpBM05qRTBPakUxTWpJMU1qUXdNRFU2TWpVME1EazJNVFl4TXc9PQZDZD
+      before: TVRBd01EQTFNVFEwTURJME5EWTRPakUxTWpJMk1EYzJPRFU2TWpVME1EazJNVFl4TXc9PQZDZD
       after: TlRrd09EZA3hOemMyT2pFMU1qSTFNak01TVRZANk1qVTBNRGsyTVRZAeE13PT0ZD
 comments:
   data:
@@ -146,10 +149,28 @@ comments:
     message: also good to mention that function(){start()} will be at least 1 frame
       slower than setTimeout(start)
     id: '1801847459854954'
+  - created_time: '2018-03-31T23:09:04+0000'
+    from:
+      name: Mustafa Mohamed A. Hamed
+      id: '1833986553287722'
+    message: "ببساطه لو حطيت الاقواس انت تكنك بتنادي علي الاستارت فنكشن حالا و دي
+      هترجع انديفايند و ده الي هيتباصا كاول بارميتير لل \nsetTimeout\n\nلو محطتش الاقواس
+      انت بتباصي للي الست تايم اوت كده ديليجيت بيشاور علي الستارت \na delegate is
+      pointer to a function , in ur case the start function \n\nstart // this is a
+      delegate pointing to the start function\nstart() // this is function invoking
+      which will return undefined \n\nفالصح انك : \nاما تحطها من غير اقواس\nاما تحطها
+      انونيومس ميثود و تكتبها في اول برامتر في السيت تايم اوت علطول"
+    id: '1801921346514232'
+  - created_time: '2018-04-01T01:24:40+0000'
+    from:
+      name: Ahmed EL-Metwally
+      id: '548062595559343'
+    message: https://pastebin.com/q3504mtj
+    id: '1802011626505204'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGd3TVRjMk56SXdNekU1TmpNeE16b3hOVEl5TlRJek56Y3cZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGd3TVRnME56UTFPVGcxTkRrMU5Eb3hOVEl5TlRNd05qRTQZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGd3TWpBeE1UWXlOalV3TlRJd05Eb3hOVEl5TlRRMU9EZA3gZD
 attachments:
   data:
   - description: "أعذروا جهلي بالـ #JS \nبس قابلني حاجة غريبة وانا بعمل سكريبت كدة\nالسلوك

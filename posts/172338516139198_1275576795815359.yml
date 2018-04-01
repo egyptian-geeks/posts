@@ -20,6 +20,15 @@ comments:
       كل فترة يعمل Check للخادم يدور على اللي هو عاوزه. اللهم إلا إذا كان هذا الموضوع
       على سياق المحاثة Chat والسيرفر بيلعب دور الطرف الآخر فيها.
     id: '1275583055814733'
+  - created_time: '2016-10-31T14:10:36+0000'
+    from:
+      name: Mohamed Abuelanin
+      id: '10213390901000267'
+    message: |-
+      لو ال Web Server سامحلك تعمل Remote Access علي ال Database ف كدة الموضوع مفيهوش حاجة بسيط.
+      أما لو مش سامحلك ف ممكن تستخدم Cloud Service .
+      او ممكن تعمل Sync لل Database علي  Json Files وتقرأها بال Android عادي ..
+    id: '1275588842480821'
   - created_time: '2016-10-31T14:37:13+0000'
     from:
       name: Omar Hassan
