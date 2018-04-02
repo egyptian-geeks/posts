@@ -110,10 +110,13 @@ reactions:
   - id: '10215089056117161'
     name: Alaa Agwa
     type: LIKE
+  - id: '10215021259741104'
+    name: Abdelrahman Hafez
+    type: LIKE
   paging:
     cursors:
       before: TVRBd01EQXdNell3TnpZAMk9EY3lPakUxTURBME1EYzNNVGs2TWpVME1EazJNVFl4TXc9PQZDZD
-      after: TVRFMU16ZAzRNall5TkRveE5UQXdNamMwT1RnMk9qSTFOREE1TmpFMk1UTT0ZD
+      after: TVRFeE9ERTJOelk0T0RveE5UQXdNamMwT1Rnd09qSTFOREE1TmpFMk1UTT0ZD
 comments:
   data:
   - created_time: '2017-07-17T07:03:20+0000'
@@ -189,6 +192,12 @@ comments:
       id: '995490050616122'
     message: amr.mustafa.97@outlook.com
     id: '1549930698379966'
+  - created_time: '2017-07-17T13:42:12+0000'
+    from:
+      name: Mazen Amr
+      id: '1607277172683574'
+    message: I'm already learning haskell so it would be a great help
+    id: '1550026265037076'
   - created_time: '2017-07-17T15:21:50+0000'
     from:
       name: Muhamad Eissa
@@ -230,7 +239,7 @@ attachments:
         src: https://external.xx.fbcdn.net/safe_image.php?d=AQB1RpTffdVtbj6w&w=720&h=720&url=http%3A%2F%2Fhaskellbook.com%2Fimages%2Fbook_cover-min.png&cfs=1&_nc_hash=AQDWW5RdthzNtZXx
         width: 720
     target:
-      url: http://l.facebook.com/l.php?u=http%3A%2F%2Fhaskellbook.com%2F&h=ATPLfdE4cSaeOrjr_4eQuxBBkdwUIxl1Q7eRVjVT1uZfb2GxaxZi6RBlaR0M9uO0jDpbmcxmXG99unp_AfTk5J7ZFMlwF1Vr4XysbKcOHtpg0B9WUDX9&s=1
+      url: http://l.facebook.com/l.php?u=http%3A%2F%2Fhaskellbook.com%2F&h=ATNFtJ_Gn3M_tIopdOiRIoZ8XCFlAUOMyg4rZjTs8DD-Bm06Vss-bStuebods5TPTlFb33r41__lRqkNrDC1-n5zMYoDxQNULreqbcAN01KJa8Bj6PbU&s=1
     title: Haskell Programming
     type: share
-    url: http://l.facebook.com/l.php?u=http%3A%2F%2Fhaskellbook.com%2F&h=ATPLfdE4cSaeOrjr_4eQuxBBkdwUIxl1Q7eRVjVT1uZfb2GxaxZi6RBlaR0M9uO0jDpbmcxmXG99unp_AfTk5J7ZFMlwF1Vr4XysbKcOHtpg0B9WUDX9&s=1
+    url: http://l.facebook.com/l.php?u=http%3A%2F%2Fhaskellbook.com%2F&h=ATNFtJ_Gn3M_tIopdOiRIoZ8XCFlAUOMyg4rZjTs8DD-Bm06Vss-bStuebods5TPTlFb33r41__lRqkNrDC1-n5zMYoDxQNULreqbcAN01KJa8Bj6PbU&s=1

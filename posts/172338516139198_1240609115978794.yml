@@ -1,0 +1,62 @@
+---
+message: |-
+  Is it possible to physically place any monitor vertically? Even if it doesn't have that option built-in?
+  All I could find on Google is people trying to fix their accidentally-flipped monitor from Windows.
+from:
+  name: Abdelrahman Hafez
+  id: '10215021259741104'
+type: status
+created_time: '2016-09-24T19:16:06+0000'
+updated_time: '2016-09-25T21:01:53+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1240609115978794/
+id: '172338516139198_1240609115978794'
+comments:
+  data:
+  - created_time: '2016-09-24T19:20:47+0000'
+    from:
+      name: Ghoneim
+      id: '10159878140790481'
+    message: |-
+      to get monitors' ports
+      $ xrandr -q
+      to change monitor rendering
+      $ xrandr --output PORT --rotate REND
+
+      change PORT from results of 1st cmd, then REND = {normal|left|right|inverted}
+    id: '1240611319311907'
+  - created_time: '2016-09-24T19:21:02+0000'
+    from:
+      name: Alaa Ali
+      id: '10156025239731303'
+    message: I want to do that with one of my LED with Chromecast in order to cast
+      my phones with portrait view.
+    id: '1240611499311889'
+  - created_time: '2016-09-24T20:46:45+0000'
+    from:
+      name: Emad Elsaid
+      id: '627907956'
+    message: I really didn't get the question are you asking if "all the manufactured
+      monitors" could be placed vertically? is that the question? because that doesn't
+      make sense to me at all, I mean every monitor has it's own design and case if
+      it's designed to have multiple setup then let it be, if designers designed it
+      to be horizontal then we can't do anything about it unless you  support it in
+      a hacky way to remain vertically, and it sure depends on what kind of monitor
+      you have.
+    id: '1240661382640234'
+  - created_time: '2016-09-25T05:07:41+0000'
+    from:
+      name: Muhammad Al Rabbani
+      id: '586778644986720'
+    message: I have one of my monitors vertical for my work machine, i use it for
+      my todo list
+    id: '1240940435945662'
+  - created_time: '2016-09-25T15:52:01+0000'
+    from:
+      name: Ahmad Alfy
+      id: '10154904189965670'
+    message: LMFAO
+    id: '1241328372573535'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkwTURZAeE1UTXhPVE14TVRrd056b3hORGMwTnpRME9EUTMZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEkwTVRNeU9ETTNNalUzTXpVek5Ub3hORGMwT0RFNE56SXkZD

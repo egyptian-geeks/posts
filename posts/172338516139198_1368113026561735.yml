@@ -8,7 +8,7 @@ from:
   name: Mohamed Eltantawi
   id: '10160105091695314'
 type: photo
-picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/16266229_10158326870950314_5433585716569793121_n.jpg?_nc_cat=0&oh=d5bcfab0bd9eea6bb96cc8ad6bd6403c&oe=5B3C3C57
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/16266229_10158326870950314_5433585716569793121_n.jpg?_nc_cat=0&oh=7d1edcf0132095871286f10624a2de9d&oe=5B63C957
 created_time: '2017-01-27T09:38:19+0000'
 updated_time: '2017-01-28T23:45:59+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1368113026561735/
@@ -91,6 +91,9 @@ reactions:
     type: LIKE
   - id: '1996006517091315'
     name: Ahmed Elkhouly
+    type: LIKE
+  - id: '10215021259741104'
+    name: Abdelrahman Hafez
     type: LIKE
   - id: '10156097426513748'
     name: Amr Ragaey
@@ -353,9 +356,6 @@ reactions:
   - id: '1141575932646478'
     name: Osama Yasser
     type: LIKE
-  - id: '934408920094293'
-    name: Muhammad Ahmed Fares
-    type: LIKE
   - id: '1739934556028600'
     name: Ali Shaltout
     type: LIKE
@@ -419,16 +419,10 @@ comments:
       id: '10156266511868081'
     message: Wow, thanks, up till now I've been using some un-uglify tool
     id: '1368626953177009'
-  - created_time: '2017-01-27T21:28:09+0000'
-    from:
-      name: Mohamed Magdy
-      id: '10155762065704193'
-    message: Mahmoud Saeed
-    id: '1369146906458347'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0yT0RFeU5ETXdNekl5TnpJM05Eb3hORGcxTlRFd09ESTIZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0yT1RFME5qa3dOalExT0RNME56b3hORGcxTlRVeU5Ea3cZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVE0yT0RZAeU5qazFNekUzTnpBd09Ub3hORGcxTlRNek9ERTUZD
 attachments:
   data:
   - description: |-

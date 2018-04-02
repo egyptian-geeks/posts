@@ -42,9 +42,6 @@ reactions:
   - id: '898872206952573'
     name: Ace Al Bastoni
     type: LIKE
-  - id: '1558917624215781'
-    name: Mohamed A. Salah
-    type: LIKE
   - id: '1646338095426556'
     name: Mahmoud Esmail
     type: LIKE
@@ -100,18 +97,6 @@ comments:
       id: '1411488178980044'
     message: Mohammed Al Ashaal :D :D بتحب الحاجات دي انت
     id: '1603815682991467'
-  - created_time: '2017-09-11T04:08:39+0000'
-    from:
-      name: Fares Mehanna
-      id: '1703714063020384'
-    message: |-
-      You should know your theoretical limit regarding the network.
-      including packetization delay, buffer delay and propagation delay.
-      then you should tune your linux kernel to allow for huge number of open connections, maybe you will need to add more IPs.
-      then asynchronous i/o and threads is your friend. you can use libevent in c.
-      take a look at this article : https://www.metabrew.com/article/a-million-user-comet-application-with-mochiweb-part-3
-      this uses "erlang" language to generate a million connections to mochiweb server / and also C code.
-    id: '1603877256318643'
   - created_time: '2017-09-11T04:23:31+0000'
     from:
       name: Mohamed Ahmed
