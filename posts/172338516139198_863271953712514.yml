@@ -129,6 +129,9 @@ reactions:
   - id: '10212957014294018'
     name: Karim Genish
     type: LIKE
+  - id: '10155422123487283'
+    name: Ali Saleh
+    type: LIKE
   - id: '10155819655346066'
     name: Shady M. Najib
     type: LIKE
@@ -441,7 +444,13 @@ comments:
       id: '10159888022555052'
     message: Not really :-)
     id: '863405367032506'
+  - created_time: '2014-12-19T13:57:12+0000'
+    from:
+      name: Ali Saleh
+      id: '10155422123487283'
+    message: '"Your ideas are too theoretical" -- Satan'
+    id: '863717183667991'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFl6TWpjME5qWTNNRFExTlRjMk9qRTBNVGc1TVRnME5UQT0ZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFl6TkRBMU16WTNNRE15TlRBMk9qRTBNVGc1TXpVMU56RT0ZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZAPRFl6TnpFM01UZA3pOalkzT1RreE9qRTBNVGc1T1RjME16ST0ZD

@@ -1,0 +1,62 @@
+---
+message: |-
+  Hi, I'm aiming to collect payments from my website using PayPal, does anyone know if PayPal will show my location to my clients when processing their payments, I don't want to lose their trust knowing I'm from Egypt and using a personal PayPal account.
+  If so does anyone recommend a substitute worth trusty payment method?!
+from:
+  name: Yasmyn Adel El Zeny
+  id: '156455981846427'
+type: status
+created_time: '2018-04-03T14:47:41+0000'
+updated_time: '2018-04-03T19:00:34+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1804589706247396/
+id: '172338516139198_1804589706247396'
+reactions:
+  data:
+  - id: '871016873079772'
+    name: Marwan Ahmed
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQTFNVFEwTURJME5EWTRPakUxTWpJM056YzNPVGs2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01EQTFNVFEwTURJME5EWTRPakUxTWpJM056YzNPVGs2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2018-04-03T15:16:10+0000'
+    from:
+      name: Muhammed Nagy
+      id: '495080930892199'
+    message: |-
+      هيعرفوا بس مش فاكر منين
+      كذا مره اشتريت اونلاين من موقع مصري بس انا فاكر اني استغربت لان الاكونت بتاع الباي بال كان انجليزي
+    id: '1804616559578044'
+  - created_time: '2018-04-03T15:58:26+0000'
+    from:
+      name: Fady Elias
+      id: '10214475095887869'
+    message: في العادية لو اشتريت online ال IP address بتاعك بيتسجل من ضمن معلومات
+      العملية، فلو كنت اشتريت وانت في مصر من غير ما تكون مستعمل proxy او vpn يبقى
+      كدا عرفوا انت فين، وبالنسبة للبيع PayPal فجرب كدا transaction $1 مع حد ثقة من
+      برا مصر وشوف ايه المعلومات اللي بيعرفها عنك
+    id: '1804652056241161'
+  - created_time: '2018-04-03T16:35:07+0000'
+    from:
+      name: Mohamed Ihab
+      id: '10155791802951391'
+    message: "In case you want to sell through PayPal, users will only see the name
+      of your merchant account (I believe available in the US and specific countries
+      and requires 30$ per month subscription fee) and the amount they're due to pay
+      all at the PayPal checkout page however you will not be able to transfer money
+      directly to a bank account in Egypt due to regulations from the Central Bank
+      of Egypt. If you have a registered company with a tax record in Egypt, you can
+      sign up at Accept Payments (https://weaccept.co/portal/login) and charge customers
+      in USD, EUR, GBP and EGP. You can either integrate the service in your existing
+      system through APIs for web or SDKs in mobile or use the standalone service
+      without any need for technical setup by creating product links and invoices.\nNote:
+      PayPal charges 2.9% + 0.3$ per transaction, while at Accept it's 2.75% + 2 EGP
+      \nP.S. *I'm an Accept employee, however this is not an ad it's merely a suggestion
+      based on what I know*"
+    id: '1804684109571289'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGd3TkRZAeE5qVTFPVFUzT0RBME5Eb3hOVEl5TnpZANE5UY3gZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGd3TkRZANE5ERXdPVFUzTVRJNE9Ub3hOVEl5Tnpjek16QTUZD

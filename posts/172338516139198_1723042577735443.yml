@@ -47,9 +47,6 @@ reactions:
   - id: '1999765416908747'
     name: Ahmed Khalifa
     type: LIKE
-  - id: '1620183618049194'
-    name: Ahmed Taha
-    type: LIKE
   - id: '10215711768054114'
     name: Mohanad Ayman
     type: LIKE
@@ -368,6 +365,20 @@ comments:
       id: '10159817376550705'
     message: Any IBM related stacks is pure HELL
     id: '1724067944299573'
+  - created_time: '2018-01-16T14:37:10+0000'
+    from:
+      name: Ali Saleh
+      id: '10155422123487283'
+    message: |-
+      Connecting Oracle DB with Microsoft SharePoint through Microsoft Forefront Identity Management was a sneak peak of how hell would look like.
+      Also Symbian sdk was the weirdest architecture of any design I saw.
+    id: '1724080310965003'
+  - created_time: '2018-01-16T14:37:45+0000'
+    from:
+      name: Ali Saleh
+      id: '10155422123487283'
+    message: ماشاء الله البوست بقى group therapy
+    id: '1724080687631632'
   - created_time: '2018-01-16T14:38:56+0000'
     from:
       name: Mohamed Samy

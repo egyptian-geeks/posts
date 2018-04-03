@@ -11,7 +11,7 @@ from:
   id: '1344309799008864'
 type: status
 created_time: '2018-03-29T16:31:36+0000'
-updated_time: '2018-04-02T15:20:46+0000'
+updated_time: '2018-04-03T15:23:18+0000'
 permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1799164350123265/
 id: '172338516139198_1799164350123265'
 reactions:
@@ -106,7 +106,17 @@ comments:
       id: '10159845607950858'
     message: You should consider using Elasticsearch on top of your DB
     id: '1803430733029960'
+  - created_time: '2018-04-03T15:23:14+0000'
+    from:
+      name: Ahmed Ashraf
+      id: '930615110434715'
+    message: طيب خليني اسال شويه اساله ممكن تقربنا للاجابه المناسبه .. هل الابلكيشن
+      مهم في ال write بس ولا كمان في الread .. يعني هل انت محتاج تقرا الداتا اللي
+      بتتخزن بسرعه زي نظام كومنتات مثلاً .. ولا هتعمل write كتير بس مش مهم الread
+      زي ال logs مثلاً ؟ لو الاجابه انك محتاج الread & write يبقي وضح اكتر ال life
+      cycle of the app عامله ازاي
+    id: '1804621656244201'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGM1T1RNek9ETTBOamMzTWpVek1qb3hOVEl5TXpReE16UXgZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGd3TXpRek1EY3pNekF5T1RrMk1Eb3hOVEl5TmpZAMk5qUXgZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGd3TkRZAeU1UWTFOakkwTkRJd01Ub3hOVEl5TnpZANE9UazEZD

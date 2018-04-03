@@ -39,12 +39,6 @@ comments:
       id: '10156301546469701'
     message: Sure you can
     id: '1160866003953106'
-  - created_time: '2016-06-12T16:08:04+0000'
-    from:
-      name: Mostafa Alaa Mohamed
-      id: '1791277350884061'
-    message: F
-    id: '1160869800619393'
   - created_time: '2016-06-12T16:09:03+0000'
     from:
       name: Amr ELsaqqa
@@ -91,7 +85,17 @@ comments:
       Ahmed Medhat
       I think this is what you are looking for.
     id: '1160924370613936'
+  - created_time: '2016-06-13T01:53:30+0000'
+    from:
+      name: Ali Saleh
+      id: '10155422123487283'
+    message: |-
+      There is a way to take differential backups from the whole system (e.g. OS X time machine) and you can apply them after a new installation
+      http://dae.me/blog/1660/concisest-guide-to-setting-up-time-machine-server-on-ubuntu-server-12-04/
+
+      https://samuelhewitt.com/blog/2015-09-12-debian-linux-server-mac-os-time-machine-backups-how-to
+    id: '1161119450594428'
   paging:
     cursors:
       before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUyTURnMU5qVXpNemsxTkRBMU16b3hORFkxTnpRMk5EZA3gZD
-      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUyTURreU5ETTNNRFl4TXprek5qb3hORFkxTnpVME5UUTIZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUyTVRFeE9UUTFNRFU1TkRReU9Eb3hORFkxTnpneU9ERXkZD

@@ -92,6 +92,16 @@ comments:
       2- Add a Managed C++ layer in the middle to wrap the C++ library and expose a Managed Class to the C# code
       3- Write WindowsForms in C# and call the Managed Class
     id: '1583635998342769'
+  - created_time: '2017-08-19T00:32:39+0000'
+    from:
+      name: Ali Saleh
+      id: '10155422123487283'
+    message: "Man that is a well formatted question and easy to follow, you don't
+      see this everyday. \n\nI would definitely go for Qt. You can port most of the
+      code as it is and just (usually the just part can take between half an hour
+      up to 5 years) wrap it with Qt forms call. the good thing about Qt is that you
+      can learn it in 1 day ."
+    id: '1583684738337895'
   - created_time: '2017-08-19T03:15:44+0000'
     from:
       name: Mohamed Tarek El Haddad

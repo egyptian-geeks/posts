@@ -1,0 +1,88 @@
+---
+message: "عندي سؤال محيرني عن \nshallow copy || deep Copy\nبصراحه مش لاقى اي فايده
+  لـ\nshallow copy\nايه المنطق وراء ان مساحه واحده فى الذاكره يكون لها عنوانين مختلفين
+  او تلاته الخ الخ\nوالتعديل على اي واحده فيهم بيعدل على كله على اعتبار \nthey share
+  the same memory allocated\nليه؟ وايه وجه الاستفاده من كده؟\nانا بتكلم فى نطاق js"
+link: https://www.facebook.com/photo.php?fbid=1866134510085117&set=gm.1804041519635548&type=3
+from:
+  name: Ayman Morsy
+  id: '1811912335507335'
+type: photo
+picture: https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/29595217_1866134510085117_5514773671819012220_n.jpg?_nc_cat=0&oh=e2f972a768a4bbd925e30e8438dfe63e&oe=5B6DE8AE
+created_time: '2018-04-03T01:26:45+0000'
+updated_time: '2018-04-03T06:07:17+0000'
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1804041519635548/
+shares:
+  count: 1
+id: '172338516139198_1804041519635548'
+reactions:
+  data:
+  - id: '1589304647821970'
+    name: Menem Salama
+    type: LIKE
+  - id: '10215352706918859'
+    name: Mohamed Ahmed Zidan
+    type: LIKE
+  - id: '2186710791556561'
+    name: Omar Abdelkader
+    type: LIKE
+  - id: '10209868256375843'
+    name: Khaled Mhd
+    type: LIKE
+  - id: '546598029039266'
+    name: Tarek Badr
+    type: LIKE
+  paging:
+    cursors:
+      before: TVRBd01EQXlNamN6TkRrMU16RTJPakUxTWpJM05EZAzNNVEE2TWpVME1EazJNVFl4TXc9PQZDZD
+      after: TVRBd01ERXdOamN5TWpBM016YzBPakUxTWpJM016UXpPRGc2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2018-04-03T01:30:00+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: |-
+      هو الموضوع مش فارق اللغة، سواء JS او غيرها.
+      لو كل مرة حبيت تبعت object ل Function مثلا اتعملت منه نسخة كاملة يبقى البرنامج مش حيلحق يشتغل قبل ما ال memory تتملي بال copies دي، فالهدف انك بدل ما تبعت ال object كله تبعت reference او pointer ليه بحيث ما تحتاجش تعمل نسخ اكثر من عنوانه و اللي هو مجرد int. و طبعا ده efficient اكثر.
+    id: '1804052119634488'
+  - created_time: '2018-04-03T04:20:39+0000'
+    from:
+      name: Momen Al Zalabany
+      id: '10160388991030144'
+    message: |-
+      in addition to extream important perf. pointed by Mohamed Elsherif,
+      also a great use of passing by refrence is to allow mutablitiy, where you have same ref of object in many places to allow changes to propagate everywhere, very usefull if designed and used correctly.
+    id: '1804156152957418'
+  - created_time: '2018-04-03T05:44:57+0000'
+    from:
+      name: Mohamed Abd Elhalim
+      id: '10214110497771678'
+    message: |-
+      شوف الفيديو ده هيوضحلك الامور شوية:
+      https://youtu.be/DePdMm7lJxc
+
+      وده الجزء التانى:
+      https://youtu.be/_2xiWHihp2c
+    id: '1804206642952369'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGd3TkRBMU1qRXhPVFl6TkRRNE9Eb3hOVEl5TnpFNU1EQXcZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVGd3TkRJd05qWTBNamsxTWpNMk9Ub3hOVEl5TnpNME1qazMZD
+attachments:
+  data:
+  - description: "عندي سؤال محيرني عن \nshallow copy || deep Copy\nبصراحه مش لاقى
+      اي فايده لـ\nshallow copy\nايه المنطق وراء ان مساحه واحده فى الذاكره يكون لها
+      عنوانين مختلفين او تلاته الخ الخ\nوالتعديل على اي واحده فيهم بيعدل على كله على
+      اعتبار \nthey share the same memory allocated\nليه؟ وايه وجه الاستفاده من كده؟\nانا
+      بتكلم فى نطاق js"
+    media:
+      image:
+        height: 189
+        src: https://scontent.xx.fbcdn.net/v/t1.0-9/29595217_1866134510085117_5514773671819012220_n.jpg?_nc_cat=0&oh=2c8b79ad55c8f3c223cd1df54dc2f353&oe=5B381CC5
+        width: 390
+    target:
+      id: '1866134510085117'
+      url: https://www.facebook.com/photo.php?fbid=1866134510085117&set=gm.1804041519635548&type=3
+    type: photo
+    url: https://www.facebook.com/photo.php?fbid=1866134510085117&set=gm.1804041519635548&type=3

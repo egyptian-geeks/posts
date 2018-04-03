@@ -12,9 +12,6 @@ permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/16573122
 id: '172338516139198_1657312244308477'
 reactions:
   data:
-  - id: '1791277350884061'
-    name: Mostafa Alaa Mohamed
-    type: LIKE
   - id: '1988786514777457'
     name: Mahmoud Deghedy
     type: LIKE
@@ -32,7 +29,7 @@ reactions:
     type: LIKE
   paging:
     cursors:
-      before: TVRBd01EQXdNRFUwTkRBMk5EY3hPakUxTVRBek5EQTNNakk2TWpVME1EazJNVFl4TXc9PQZDZD
+      before: TVRBd01EQTVNemd6T0RReE5USTBPakUxTVRBek1qTXhPVFE2TWpVME1EazJNVFl4TXc9PQZDZD
       after: TVRBd01EQXlNREUxTkRVd01qTXlPakUxTVRBeU5UUXdOelU2TWpVME1EazJNVFl4TXc9PQZDZD
 comments:
   data:
@@ -46,6 +43,14 @@ comments:
       ال Omega هي ال lower bound و هي اللي دايما ال f(n) حتبقى اعلى منها حسب تعريفها.
       اللخبطة بتيجي من ان الدارج أن للناس لما بتقول O(n) بتبقى اصلا قصدها Theta لكن اكاديميا ده مش دقيق
     id: '1657320457640989'
+  - created_time: '2017-11-09T19:32:41+0000'
+    from:
+      name: Ali Saleh
+      id: '10155422123487283'
+    message: |-
+      الصفحة دي هايله في توضيح الموضوع ده، أظن مع الشرح بتاع محمد الشريف هتفهم الموضوع أكتر
+      http://cooervo.github.io/Algorithms-DataStructures-BigONotation
+    id: '1657347037638331'
   - created_time: '2017-11-09T20:54:24+0000'
     from:
       name: Mohammad Alaggan

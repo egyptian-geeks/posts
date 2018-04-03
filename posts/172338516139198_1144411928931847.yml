@@ -1,0 +1,147 @@
+---
+message: ال tool دى بتستخدم عندنا فى الشركه و مفيده لو انت بتتعامل مع git. بتنظم المشروع
+  بتاعك بشكل كبير. هيه commands بنفس الشكل بس بتستخدم عشان تنظيم ال branching بشكل
+  أسهل من المتوفر فى ال native-cmmands
+link: http://jeffkreeftmeijer.com/2010/why-arent-you-using-git-flow/
+from:
+  name: Ali Saleh
+  id: '10155422123487283'
+type: link
+picture: https://external.xx.fbcdn.net/safe_image.php?d=AQBKmRvLrXfA3FLM&w=130&h=130&url=http%3A%2F%2Fjeffkreeftmeijer.com%2Fimages%2Fgitflow.gif&cfs=1&_nc_hash=AQC4EbcEtw9qQKY-
+created_time: '2016-05-16T12:11:59+0000'
+updated_time: '2016-05-16T19:08:59+0000'
+name: Using git-flow to automate your git branching workflow
+permalink_url: https://www.facebook.com/groups/egyptian.geeks/permalink/1144411928931847/
+id: '172338516139198_1144411928931847'
+reactions:
+  data:
+  - id: '10155185427414249'
+    name: Marwa Ahmed Goda
+    type: LIKE
+  - id: '1579407988822231'
+    name: Raafat Sobhy
+    type: LIKE
+  - id: '1436500826477881'
+    name: Mohamed Atef
+    type: LIKE
+  - id: '10156129652479747'
+    name: Radwa Kamal
+    type: LIKE
+  - id: '1876092405757348'
+    name: Ibrahem Mahmmoud
+    type: LIKE
+  - id: '1743826635639938'
+    name: Adel Ewis
+    type: LIKE
+  - id: '10215648837554553'
+    name: Muhammad Salama
+    type: LIKE
+  - id: '10212777038359386'
+    name: Mahmoud Mustafa
+    type: LIKE
+  - id: '10155600388037886'
+    name: Yahya Sabry
+    type: LIKE
+  - id: '10215560476549083'
+    name: Mustafa Dagher
+    type: LIKE
+  - id: '10155792948785306'
+    name: Hussein El Motayam
+    type: LIKE
+  - id: '10209601946319408'
+    name: Muhammad Samman
+    type: LIKE
+  - id: '10205205301673812'
+    name: Ahmed Shawky
+    type: LIKE
+  - id: '10154985539677085'
+    name: Mohammad Alaggan
+    type: LIKE
+  - id: '10156016944528788'
+    name: Mohamed Elamir
+    type: LIKE
+  - id: '1937942979568084'
+    name: Muhamad Eissa
+    type: LIKE
+  - id: '903813099780177'
+    name: Nada Medhat
+    type: LIKE
+  - id: '2027136820634476'
+    name: Mohamed Abd Elkawy
+    type: LIKE
+  - id: '10157207798884012'
+    name: Mohamed Ibrahim Gaber
+    type: LIKE
+  - id: '10155984416966904'
+    name: Elsharnouby Mohamed
+    type: LIKE
+  - id: '10155733294441971'
+    name: Shaimaa Adel
+    type: LIKE
+  - id: '534270646942907'
+    name: Ahmed Sherien
+    type: LIKE
+  - id: '1542414765808149'
+    name: Mohammad Deeb
+    type: LIKE
+  - id: '1513155172143365'
+    name: Mohamed Salah
+    type: LIKE
+  paging:
+    cursors:
+      before: TmprMk9USTBNalE0T2pFME5qTTBNamc0TnpnNk1qVTBNRGsyTVRZAeE13PT0ZD
+      after: TVRBd01EQXpORFkyT1RFek5qTTRPakUwTmpNME1EQTRPVFk2TWpVME1EazJNVFl4TXc9PQZDZD
+comments:
+  data:
+  - created_time: '2016-05-16T12:15:31+0000'
+    from:
+      name: Mohamed Salah
+      id: '1513155172143365'
+    message: it's very very helpful thank you :D
+    id: '1144413348931705'
+  - created_time: '2016-05-16T13:39:04+0000'
+    from:
+      name: Ahmed Shawky
+      id: '10205205301673812'
+    message: Mohamed Tawfik
+    id: '1144450992261274'
+  - created_time: '2016-05-16T13:54:07+0000'
+    from:
+      name: Marwa Dosoky
+      id: '10156104209581248'
+    message: Karim Tawfik
+    id: '1144457548927285'
+  - created_time: '2016-05-16T17:22:18+0000'
+    from:
+      name: Mohamed Elsherif
+      id: '10160105091405314'
+    message: That's what I like about very fast releases, you won't need any of this
+      ceremony, we release master to production once every week, so basically you
+      can do whatever you want on your own branches, and when you're ready to production,
+      just merge into master.
+    id: '1144560555583651'
+  - created_time: '2016-05-16T19:08:59+0000'
+    from:
+      name: Islam A Zaker
+      id: '10154921704760388'
+    message: Mahmoud Dardir
+    id: '1144612758911764'
+  paging:
+    cursors:
+      before: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUwTkRReE16TTBPRGt6TVRjd05Ub3hORFl6TkRBd09UTXkZD
+      after: WTI5dGJXVnVkRjlqZAFhKemIzSTZANVEUwTkRZAeE1qYzFPRGt4TVRjMk5Eb3hORFl6TkRJMU56TTUZD
+attachments:
+  data:
+  - description: git-flow is a library of git subcommands that helps automate your
+      branching and release workflow workflow, using Vincent Driessen's successful
+      branching model.
+    media:
+      image:
+        height: 720
+        src: https://external.xx.fbcdn.net/safe_image.php?d=AQBkDKVxRZ2w8lPX&w=720&h=720&url=http%3A%2F%2Fjeffkreeftmeijer.com%2Fimages%2Fgitflow.gif&cfs=1&_nc_hash=AQBX9N87Q7OIT2nx
+        width: 720
+    target:
+      url: http://l.facebook.com/l.php?u=http%3A%2F%2Fjeffkreeftmeijer.com%2F2010%2Fwhy-arent-you-using-git-flow%2F&h=ATOl1W0YPrYmfEDi9C8R6L1gIuJzatzBli4NsPibYT1XbEbxXyUci22Ef2L35QhJxJEUHM2YaM3ShiTlHVwRz-81TTEBsK0r6G0O8d62bsySkGIzXy1w&s=1
+    title: Using git-flow to automate your git branching workflow
+    type: share
+    url: http://l.facebook.com/l.php?u=http%3A%2F%2Fjeffkreeftmeijer.com%2F2010%2Fwhy-arent-you-using-git-flow%2F&h=ATOl1W0YPrYmfEDi9C8R6L1gIuJzatzBli4NsPibYT1XbEbxXyUci22Ef2L35QhJxJEUHM2YaM3ShiTlHVwRz-81TTEBsK0r6G0O8d62bsySkGIzXy1w&s=1
